@@ -8,20 +8,107 @@
   "location": {
     "city": "Remington",
     "county": "Fauquier",
-    "state": "Virginia"
+    "state": "Virginia",
+    "address": "Along James Madison Street and James Madison Highway; Baxtel lists 11650 James Madison St",
+    "pins": [
+      "6888-13-7752-000",
+      "6888-25-0487-000"
+    ],
+    "district": "Lee District",
+    "site_acres": 140
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
+  "status_as_of_cutoff": "local process",
+  "evidence_grade": "B",
   "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "milestones": [
+    {
+      "date": "2024-08-20",
+      "government_body": "Fauquier County Department of Community Development",
+      "action_type": "application accepted for processing",
+      "result_status": "accepted for agency review",
+      "case_numbers": [
+        "COMA-24-022504",
+        "REZN-24-022505",
+        "SPEX-24-022506"
+      ],
+      "source_url": "https://www.pecva.org/wp-content/uploads/convergent-tech-park-acceptance-letter-fauquier-aug-20-2024.pdf"
+    },
+    {
+      "date": "2026-08-11",
+      "government_body": "Fauquier County Community Development",
+      "action_type": "current comprehensive plan amendment listing",
+      "result_status": "listed as applicant-sponsored proposed amendment",
+      "case_numbers": [
+        "COMA-24-022504"
+      ],
+      "source_url": "https://www.fauquiercounty.gov/government/departments-a-g/community-development/comprehensive-plan/comprehensive-plan-amendments"
+    }
+  ],
+  "capacity_mw": 240,
+  "capacity_notes": "DCD reported on 2024-04-14 that Convergent VA told Dominion Energy the campus would need 240 MW to be powered; no verified IT-load capacity or named end user found.",
+  "owner": "Convergent VA, LLC",
+  "project_scope": {
+    "buildings": 4,
+    "building_height_ft": "60-65",
+    "gross_sqft": 1056000,
+    "estimated_cost_usd": "over 1 billion",
+    "estimated_build_duration_years": "3-4",
+    "diesel_generators_per_building": 16,
+    "utility_provider": "Dominion Energy",
+    "end_user": null
+  },
   "sources": {
     "phase2_seed_stable_id": "US-VA-CONVERGENT-REMINGTON-2024",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
-    "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "authoritative_layer": "county_comprehensive_plan_and_acceptance_letter",
+    "match_reason": "Seed-only record independently matched to Fauquier County COMA-24-022504 / REZN-24-022505 / SPEX-24-022506 for Convergent Technology Park in Remington.",
+    "urls": [
+      "https://www.fauquiercounty.gov/government/departments-a-g/community-development/comprehensive-plan/comprehensive-plan-amendments",
+      "https://www.pecva.org/wp-content/uploads/convergent-tech-park-acceptance-letter-fauquier-aug-20-2024.pdf",
+      "https://www.datacenterdynamics.com/en/news/new-plans-shared-for-convergent-technology-park-in-fauquier-county-virginia/",
+      "https://baxtel.com/data-center/convergent-technology-park",
+      "https://cleanview.co/data-centers/virginia/1712/convergent-technology-park",
+      "https://www.pecva.org/region/fauquier/update-on-data-center-development-and-transmission-lines-in-fauquier/"
+    ]
   },
-  "contradictions": [],
-  "seed_only": true,
+  "contradictions": [
+    {
+      "field": "site_acres",
+      "description": "County acceptance materials identify 156.14 acres subject to rezoning and 90.66 acres for the comprehensive plan land-use change; trackers/media describe the data-center parcel as about 139-140 acres.",
+      "source_urls": [
+        "https://www.pecva.org/wp-content/uploads/convergent-tech-park-acceptance-letter-fauquier-aug-20-2024.pdf",
+        "https://baxtel.com/data-center/convergent-technology-park",
+        "https://cleanview.co/data-centers/virginia/1712/convergent-technology-park"
+      ]
+    },
+    {
+      "field": "gross_sqft",
+      "description": "DCD/Baxtel round the proposal to about 1.0 million square feet, while PEC states 1.07 million square feet and Cleanview lists 1,056,000 square feet.",
+      "source_urls": [
+        "https://www.datacenterdynamics.com/en/news/new-plans-shared-for-convergent-technology-park-in-fauquier-county-virginia/",
+        "https://www.pecva.org/region/fauquier/update-on-data-center-development-and-transmission-lines-in-fauquier/",
+        "https://cleanview.co/data-centers/virginia/1712/convergent-technology-park"
+      ]
+    },
+    {
+      "field": "building_height_ft",
+      "description": "DCD/Baxtel describe four 60-foot buildings; PEC describes four buildings each at least 65 feet tall.",
+      "source_urls": [
+        "https://www.datacenterdynamics.com/en/news/new-plans-shared-for-convergent-technology-park-in-fauquier-county-virginia/",
+        "https://www.pecva.org/region/fauquier/update-on-data-center-development-and-transmission-lines-in-fauquier/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": null,
+      "capacity_mw": null,
+      "owner": null,
+      "note": "Baseline seed-only record had no independently verified status, capacity, or owner."
+    }
+  ],
+  "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

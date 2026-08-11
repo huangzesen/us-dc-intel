@@ -1,0 +1,22 @@
+{
+  "slug": "in-rajasthan-state-data-centre-disaster-recovery-site-jodhpur",
+  "canonical_project": "Rajasthan State Data Centre Disaster Recovery Site, Jodhpur",
+  "owner": "Department of Information Technology & Communication, Government of Rajasthan / RISL",
+  "location": {
+    "city": "",
+    "subnational": "Rajasthan - Jodhpur",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-05-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://apmg-international.com/product/isoiec-20000/co/rajasthan-state-data-center",
+    "https://doitc.rajasthan.gov.in/TenderDetails.aspx?id=1221",
+    "https://rising.rajasthan.gov.in/it-and-ites"
+  ],
+  "notes": "APMG certification lists RSDC-DR in Jodhpur as part of Rajasthan State Data Centre service scope; DoIT&C 2026 FMS tender covers RSDC Phase I-IV at Jaipur and Disaster Recovery Site at Jodhpur.",
+  "world_batch": true
+}

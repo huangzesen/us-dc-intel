@@ -1,0 +1,20 @@
+{
+  "slug": "es-itres-murcia-data-center",
+  "canonical_project": "ITRES Murcia data center",
+  "owner": "ITRES",
+  "location": {
+    "city": "",
+    "subnational": "Region of Murcia",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://itresit.es/data-center/"
+  ],
+  "notes": "ITRES operates a Murcia-area CPD in Alcantarilla with 700 sqm of facilities, 33 racks installed, 88-rack capacity, redundant power, cooling and fiber interconnection to Valencia and Madrid.",
+  "world_batch": true
+}

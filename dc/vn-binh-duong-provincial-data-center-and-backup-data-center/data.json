@@ -1,0 +1,20 @@
+{
+  "slug": "vn-binh-duong-provincial-data-center-and-backup-data-center",
+  "canonical_project": "Binh Duong Provincial Data Center and Backup Data Center",
+  "owner": "Binh Duong Provincial People's Committee (digital government program)",
+  "location": {
+    "city": "",
+    "subnational": "Binh Duong",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://v5.thuvienbinhduong.org.vn/?ArticleId=d18c89ed-1bb2-4250-b362-6be0334f480f"
+  ],
+  "notes": "Two government data centers (primary and disaster-recovery/backup) built under Binh Duong's e-government and smart-city program, hosting shared platforms and applications.",
+  "world_batch": true
+}

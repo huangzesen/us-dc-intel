@@ -1,0 +1,22 @@
+{
+  "slug": "de-rockenstein-wurzburg-veitshochheim-data-centers",
+  "canonical_project": "Rockenstein Würzburg / Veitshöchheim data centers",
+  "owner": "rockenstein AG",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Würzburg (Rural)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.rockenstein.de/rechenzentren-und-kollokation.html",
+    "https://www.rockenstein.de/zeitstrahl/chronik-details/rezertifizierung-rechenzentrum-2021.html",
+    "https://www.datacentermap.com/germany/wuerzburg/rockenstein-wurzburg/"
+  ],
+  "notes": "Rockenstein's official colocation page states it provides certified data centers in Germany; its contact/certification pages place the company at Schleehofstraße 16, 97209 Veitshöchheim in Landkreis Würzburg. Data Center Map lists Rockenstein Wurzburg at that address. Capacity not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "au-equinix-pe3-perth-ibx-data-centre",
+  "canonical_project": "Equinix PE3 Perth IBX data centre",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Subiaco",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-12-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/perth-data-centers/pe3",
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/perth-data-centers",
+    "https://www.datacenterdynamics.com/en/news/equinix-launches-third-perth-data-center-australia/"
+  ],
+  "notes": "Equinix launched PE3 in Shenton Park as its third Perth IBX. DCD reported the launch in December 2020 and Equinix continues to list PE3 as an active Perth data centre.",
+  "world_batch": true
+}

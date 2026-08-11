@@ -1,0 +1,21 @@
+{
+  "slug": "au-epsilon-data-centre-55-crockford-street-port-melbourne",
+  "canonical_project": "Epsilon Data Centre / 55 Crockford Street Port Melbourne",
+  "owner": "Epsilon DC",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Port Phillip",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/australia/melbourne/epsilon-dc/specs/",
+    "https://gowith.vocus.com.au/rs/587-CSJ-470/images/vic-data-centres.html"
+  ],
+  "notes": "DataCenterMap lists Epsilon DC at 55 Crockford Street, Port Melbourne with Tier 3 design; Vocus connected data-centres list also names Epsilon Data Centre at this address. Capacity not supplied.",
+  "world_batch": true
+}

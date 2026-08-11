@@ -1,0 +1,20 @@
+{
+  "slug": "hu-kbc-torokbalint-data-center",
+  "canonical_project": "KBC Törökbálint Data Center",
+  "owner": "KBC Group",
+  "location": {
+    "city": "",
+    "subnational": "Pest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.cummins.com/news/2019/09/23/kbc-banks-data-centres-take-no-chances"
+  ],
+  "notes": "Cummins case study describes KBC Bank data-centre infrastructure in Törökbálint, near Budapest; Törökbálint is in Pest county. No public MW figure found.",
+  "world_batch": true
+}

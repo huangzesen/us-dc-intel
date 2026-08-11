@@ -1,0 +1,22 @@
+{
+  "slug": "fr-nlighten-besancon-mlh1-euclyde-dc2",
+  "canonical_project": "nLighten Besançon MLH1 / Euclyde DC2",
+  "owner": "nLighten",
+  "location": {
+    "city": "",
+    "subnational": "Doubs",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 1.2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nlighten.com/en/edge-location/besancon/",
+    "https://www.datacenters.com/euclyde-euclyde-dc2-the-besancon",
+    "https://www.tracesecritesnews.fr/actualite/besancon-un-data-center-a-tres-haut-debit-et-petit-prix-20024"
+  ],
+  "notes": "nLighten official location page lists a Besançon edge data center with 300 m2 dedicated colocation and 1,200 kW power; facility traces back to the Neoclyde/Euclyde Besançon data center inaugurated in 2012.",
+  "world_batch": true
+}

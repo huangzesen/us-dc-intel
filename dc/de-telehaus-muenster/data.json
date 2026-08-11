@@ -1,0 +1,21 @@
+{
+  "slug": "de-telehaus-muenster",
+  "canonical_project": "Telehaus Muenster",
+  "owner": "1&1 Versatel",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Münster",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-06-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/germany/munster/telehaus-munster/",
+    "https://www.peeringdb.com/fac/12653"
+  ],
+  "notes": "DataCenterMap and PeeringDB list Telehaus Muenster at Willy-Brandt-Weg 37A, operated by 1&1 Versatel, with about 900 sqm of data center space.",
+  "world_batch": true
+}

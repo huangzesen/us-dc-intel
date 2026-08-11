@@ -1,0 +1,20 @@
+{
+  "slug": "cn-gds-21vianet-sinnet-tianjin-baodi-cloud-computing-base-phase-i",
+  "canonical_project": "GDS / 21Vianet? Sinnet Tianjin Baodi Cloud Computing Base Phase I",
+  "owner": "Beijing Sinnet Technology Co. / Sinnet Tianjin Information Service",
+  "location": {
+    "city": "",
+    "subnational": "Tianjin - Tianjin Municipality",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 25.0,
+  "status": "planned",
+  "evidence_date": "2021-04-21",
+  "evidence_grade": "A",
+  "sources": [
+    "https://static.cninfo.com.cn/finalpage/2021-04-21/1209738870.PDF"
+  ],
+  "notes": "Listed-company feasibility report for 天津宝坻云计算基地一期 says the Baodi Economic Development Zone project would build two standard cloud-computing-center buildings and support facilities with about 5,000 5kW 2N standard cabinets. Capacity_mw calculated from 5,000 x 5kW cabinet design, not directly stated as total IT load.",
+  "world_batch": true
+}

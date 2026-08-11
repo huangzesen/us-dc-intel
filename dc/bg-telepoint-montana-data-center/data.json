@@ -1,0 +1,21 @@
+{
+  "slug": "bg-telepoint-montana-data-center",
+  "canonical_project": "Telepoint Montana Data Center",
+  "owner": "Telepoint",
+  "location": {
+    "city": "",
+    "subnational": "Montana",
+    "country": "Bulgaria",
+    "country_code": "BG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://telepoint.bg/contacts",
+    "https://www.datacentermap.com/bulgaria/montana/montana/telepoint-montana-data-center/"
+  ],
+  "notes": "Telepoint lists a Montana office/data-center contact; DataCenterMap independently lists Telepoint Montana Data Center. Capacity not publicly stated.",
+  "world_batch": true
+}

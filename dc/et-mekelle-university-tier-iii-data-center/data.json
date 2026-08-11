@@ -1,0 +1,20 @@
+{
+  "slug": "et-mekelle-university-tier-iii-data-center",
+  "canonical_project": "Mekelle University Tier-III Data Center",
+  "owner": "Mekelle University",
+  "location": {
+    "city": "",
+    "subnational": "Tigrai",
+    "country": "Ethiopia",
+    "country_code": "ET"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mu.edu.et/index.php/ict"
+  ],
+  "notes": "Mekelle University's ICT Directorate page describes all six campuses interconnected via high-speed fiber networks and identifies a Tier-III Data Center operated by the directorate; no power capacity disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "ad-andorra-telecom-la-massana-data-centre",
+  "canonical_project": "Andorra Telecom La Massana Data Centre",
+  "owner": "Andorra Telecom",
+  "location": {
+    "city": "",
+    "subnational": "La Massana",
+    "country": "Andorra",
+    "country_code": "AD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.andorratelecom.ad/en/business/data-center/",
+    "https://www.andorratelecom.ad/en/self-employed/storage-cloud-services/datacenter/",
+    "https://datacentercatalog.com/andorra/andorra-telecom-la-massana"
+  ],
+  "notes": "Andorra Telecom official pages describe an advanced business data centre located in La Massana with rack rental, UPS/generator redundancy, security controls and up to 10 Gbps redundant fibre. Data Center Catalog lists the facility at Carrer de les Palanques, 1, AD400 La Massana with colocation services and ISO certifications. No public MW capacity found.",
+  "world_batch": true
+}

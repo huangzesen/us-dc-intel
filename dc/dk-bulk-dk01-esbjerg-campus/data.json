@@ -1,0 +1,22 @@
+{
+  "slug": "dk-bulk-dk01-esbjerg-campus",
+  "canonical_project": "Bulk DK01 Esbjerg Campus",
+  "owner": "Bulk Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Southern Denmark",
+    "country": "Denmark",
+    "country_code": "DK"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://bulkinfrastructure.com/data-centers/locations/dk01",
+    "https://www.datacenterdynamics.com/en/news/danish-real-estate-firm-thylander-plans-100mw-data-center-in-esbjerg/",
+    "https://baxtel.com/data-center/bulk-infrastructure-esbjerg-denmark-dk01"
+  ],
+  "notes": "Bulk operator page lists DK01 in Esbjerg; DCD/Baxtel report the campus opened in 2019 with capacity to initially support 20 MW across 50,000 sqm.",
+  "world_batch": true
+}

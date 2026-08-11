@@ -1,0 +1,21 @@
+{
+  "slug": "pl-orange-polska-rzeszow-data-center",
+  "canonical_project": "Orange Polska Rzeszow Data Center",
+  "owner": "Orange Polska / Orange Business Services",
+  "location": {
+    "city": "",
+    "subnational": "Subcarpathia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/ul-pilsudskiego-35-rzeszow/orange-business-services/datacenter/orange-polska-rzeszow",
+    "https://inflect.com/datacenters/emea/poland/rzeszow"
+  ],
+  "notes": "Inflect lists Orange Business Services Rzeszow at ul. Pilsudskiego 35 as a data center; no primary Orange page for this specific regional facility was found.",
+  "world_batch": true
+}

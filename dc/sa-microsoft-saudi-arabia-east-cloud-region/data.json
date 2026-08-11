@@ -1,0 +1,21 @@
+{
+  "slug": "sa-microsoft-saudi-arabia-east-cloud-region",
+  "canonical_project": "Microsoft Saudi Arabia East Cloud Region",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Eastern Province - Ad Dammam",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-02-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/source/emea/2026/02/microsoft-confirms-saudi-arabia-datacenter-region-available-for-customers-to-run-cloud-workloads-from-q4-2026/",
+    "https://www.linkedin.com/posts/infrasaudi_infra-vision2030-activity-7328066564300161024-2TK1"
+  ],
+  "notes": "Microsoft confirmed its Saudi Arabia East datacenter region in the Eastern Province will include three availability zones and be available from Q4 2026; Infra's public post says the contracted facility is in Dammam.",
+  "world_batch": true
+}

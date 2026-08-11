@@ -1,0 +1,21 @@
+{
+  "slug": "fr-nebius-azur-datacenter-bethune-ai-data-center",
+  "canonical_project": "Nebius / Azur Datacenter Béthune AI data center",
+  "owner": "Nebius / Azur Datacenter",
+  "location": {
+    "city": "",
+    "subnational": "Pas-de-Calais",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 240,
+  "status": "planned",
+  "evidence_date": "2026-06-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.nordfranceinvest.com/success-story/dutch-company-nebius-is-setting-up-the-first-ai-data-center-in-the-hauts-de-france-region/",
+    "https://www.datacenterdynamics.com/en/news/nebius-plans-240mw-data-center-in-b%C3%A9thune-france/"
+  ],
+  "notes": "Nord France Invest says Nebius plans to deploy 240MW of AI compute infrastructure at the former Bridgestone site in Béthune with Azur Datacenter; DCD reports phased delivery and about 26,000 sqm.",
+  "world_batch": true
+}

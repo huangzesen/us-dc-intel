@@ -1,0 +1,20 @@
+{
+  "slug": "cn-tianfu-data-center-cluster-chengdu-chongqing-hub",
+  "canonical_project": "Tianfu Data Center Cluster (Chengdu-Chongqing hub)",
+  "owner": "National plan (NDRC) with Sichuan/Chongqing governments",
+  "location": {
+    "city": "",
+    "subnational": "Sichuan - Chengdu Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "approved",
+  "evidence_date": "2022-02-16",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ndrc.gov.cn/xxgk/zcfb/tz/202202/t20220216_1315625.html"
+  ],
+  "notes": "NDRC official reply (Feb 2022) approving the Chengdu-Chongqing region as a national hub node of the integrated computing power network ('East Data West Computing'), establishing the Tianfu Data Center Cluster with starting zones in Chengdu's Shuangliu District, Pidu District and Jianyang City, plus the Chongqing cluster; cluster-level designation under which individual Chengdu projects (e.g. Chengdu Intelligent Computing Center, Tianfu Cloud Computing Center) are built. Capacity/MW not applicable at cluster level.",
+  "world_batch": true
+}

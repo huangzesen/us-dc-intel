@@ -1,0 +1,22 @@
+{
+  "slug": "cn-china-unicom-gui-an-cloud-data-center",
+  "canonical_project": "China Unicom Gui'an Cloud Data Center",
+  "owner": "China Unicom",
+  "location": {
+    "city": "",
+    "subnational": "Guizhou - Guiyang Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-08-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.sfccn.com/2022/7-29/1MMDE1MTRfMTc0ODc1Mw.html",
+    "https://gz.people.com.cn/n2/2022/0810/c194849-40074893.html",
+    "https://xinwen.bjd.com.cn/content/s63bbeb68e4b075b42c423c50.html"
+  ],
+  "notes": "Reported as China Unicom's largest southern China cloud data center, located in Gui'an New Area, with 480,000-server installed capacity and more than 4,000G export bandwidth; later official/media coverage highlights it as part of the Guiyang-Gui'an data-center cluster.",
+  "world_batch": true
+}

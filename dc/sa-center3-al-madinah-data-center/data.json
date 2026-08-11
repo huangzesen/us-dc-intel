@@ -1,0 +1,21 @@
+{
+  "slug": "sa-center3-al-madinah-data-center",
+  "canonical_project": "center3 Al-Madinah Data Center",
+  "owner": "center3 / stc Group",
+  "location": {
+    "city": "",
+    "subnational": "Medina Region - Al Madinah al Munawwarah",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 4,
+  "status": "operational",
+  "evidence_date": "2021-01-08",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/stc-invests-2666m-saudi-arabia-data-centers/",
+    "https://www.datacentermap.com/saudi-arabia/medina/center3-al-madinah-datacenter/"
+  ],
+  "notes": "DCD reported stc launched new data centers in Riyadh, Jeddah, and Al-Madina in January 2021; DataCenterMap lists center3 Al-Madinah as an operational carrier-neutral colocation facility with 4 MW power.",
+  "world_batch": true
+}

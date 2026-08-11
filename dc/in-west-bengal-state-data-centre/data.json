@@ -1,0 +1,21 @@
+{
+  "slug": "in-west-bengal-state-data-centre",
+  "canonical_project": "West Bengal State Data Centre",
+  "owner": "Government of West Bengal / Webel",
+  "location": {
+    "city": "",
+    "subnational": "West Bengal - Kolkata",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://hosting.wb.gov.in/",
+    "https://wbxpress.com/west-bengal-data-centre-policy-2021/"
+  ],
+  "notes": "Official state data-center homepage describes WBSDC as shared e-governance infrastructure; state policy says storage grew to 720 TB in 2021 and was being upgraded to 1.5 PB by 2022.",
+  "world_batch": true
+}

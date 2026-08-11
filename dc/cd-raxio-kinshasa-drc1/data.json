@@ -1,0 +1,21 @@
+{
+  "slug": "cd-raxio-kinshasa-drc1",
+  "canonical_project": "Raxio Kinshasa DRC1",
+  "owner": "Raxio Group",
+  "location": {
+    "city": "",
+    "subnational": "Kinshasa",
+    "country": "Congo, Democratic Republic of the",
+    "country_code": "CD"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2024-08-23",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.raxiogroup.com/data-centres/dr-congo/",
+    "https://www.datacenterdynamics.com/en/news/raxio-group-inaugurates-30m-data-center-in-democratic-republic-of-the-congo/"
+  ],
+  "notes": "Raxio's provider page places DRC1 in Limete industriel, Kinshasa; DCD reported inauguration on 2024-08-23, 1.5MW IT power, 1,542 sqm and up to 400 racks.",
+  "world_batch": true
+}

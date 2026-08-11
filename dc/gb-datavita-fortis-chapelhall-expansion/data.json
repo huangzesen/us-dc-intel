@@ -1,0 +1,22 @@
+{
+  "slug": "gb-datavita-fortis-chapelhall-expansion",
+  "canonical_project": "DataVita Fortis / Chapelhall expansion",
+  "owner": "DataVita",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - North Lanarkshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 40,
+  "status": "approved",
+  "evidence_date": "2026-01-09",
+  "evidence_grade": "B",
+  "sources": [
+    "https://aprs.scot/AI-growth-zone/",
+    "https://www.datacentermap.com/united-kingdom/glasgow/datavita-dv3/",
+    "https://baxtel.com/data-center/datavita-lanarkshire-dv1"
+  ],
+  "notes": "APRS records Planning Permission in Principle application 25/01159/PPP approved 9 January 2026 for a Chapelhall/Fortis extension to 40MW. Data center directories describe DataVita Fortis/DV1 at Chapelhall and a proposed adjacent DV3 expansion.",
+  "world_batch": true
+}

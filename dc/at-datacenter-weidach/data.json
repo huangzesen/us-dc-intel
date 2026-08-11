@@ -1,0 +1,22 @@
+{
+  "slug": "at-datacenter-weidach",
+  "canonical_project": "Datacenter Weidach",
+  "owner": "Vorarlberger Informatik- und Telekommunikationsdienstleistungsgesellschaft mbH (VTG)",
+  "location": {
+    "city": "",
+    "subnational": "Vorarlberg",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/austria/bregenz/datacenter-weidach/",
+    "https://www.peeringdb.com/fac/8794",
+    "https://datacenterplatform.com/data-centers/vorarlberger-informatik-und-telekommunikationsdienstleistungsgesellschaft-gmbh/vorarlberger-informatik-und-telekommunikationsdienstleistungsgesellschaft-gmbh-austria/weidach-datacenter/"
+  ],
+  "notes": "Listings and PeeringDB identify Datacenter Weidach at Weidachstrasse 10, 6900 Bregenz, operated by VTG.",
+  "world_batch": true
+}

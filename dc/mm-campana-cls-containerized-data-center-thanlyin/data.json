@@ -1,0 +1,23 @@
+{
+  "slug": "mm-campana-cls-containerized-data-center-thanlyin",
+  "canonical_project": "Campana CLS Containerized Data Center, Thanlyin",
+  "owner": "Campana MYTHIC Co. Ltd.; Campana Group; Delta Electronics",
+  "location": {
+    "city": "",
+    "subnational": "Yangon",
+    "country": "Myanmar",
+    "country_code": "MM"
+  },
+  "capacity_mw": 0.2,
+  "status": "operational",
+  "evidence_date": "2018-12-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.delta-emea.com/en-gb/news/30677",
+    "https://www.delta-americas.com/en-US/news/21580",
+    "https://dchub.cloud/facilities/campana-mythic-co-ltd-campana-cls-28d2fd00",
+    "https://www.peeringdb.com/net/14035"
+  ],
+  "notes": "Delta announced it supplied a 200 kW modular/containerized data-center solution for Campana's Myanmar submarine cable landing station, designed for the SIGMAR/MYTHIC connectivity project. DC Hub and PeeringDB identify Campana CLS in Thanlyin, Yangon. Capacity_mw reflects Delta's 200 kW statement.",
+  "world_batch": true
+}

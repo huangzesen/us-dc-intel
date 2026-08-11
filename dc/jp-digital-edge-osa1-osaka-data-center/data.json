@@ -1,0 +1,21 @@
+{
+  "slug": "jp-digital-edge-osa1-osaka-data-center",
+  "canonical_project": "Digital Edge OSA1 Osaka Data Center",
+  "owner": "Digital Edge",
+  "location": {
+    "city": "",
+    "subnational": "Osaka",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 14.4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.digitaledgedc.com/products-services/data-centers/japan/",
+    "https://www.digitaledgedc.com/wp-content/uploads/2022/10/OSA1_Specsheet_EN_Oct14.pdf"
+  ],
+  "notes": "Digital Edge official Japan page lists OSA1 in Osaka Business Park, Chuo-ku, with 2,932 cabinets and 14.4MW.",
+  "world_batch": true
+}

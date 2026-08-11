@@ -1,0 +1,21 @@
+{
+  "slug": "ru-rostelecom-saint-petersburg-1-data-center",
+  "canonical_project": "Rostelecom Saint Petersburg-1 Data Center",
+  "owner": "Rostelecom / Rostelecom Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Saint Petersburg",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 7.4,
+  "status": "operational",
+  "evidence_date": "2020-12-08",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.company.rt.ru/press/news/d457489",
+    "https://www.eqs-news.com/news/uk-regulatory/rostelecom-pjsc-rostelecom-launches-a-new-tier-iii-data-center-in-saint-petersburg-for-800-racks/aca8b609-c7e7-4c2e-aa9c-cc11e0c7ef41"
+  ],
+  "notes": "Rostelecom announced launch of a Tier III Saint Petersburg data center at ul. Zhukova 43 with 4,266 sqm total area, four machine halls, 800 racks, and 7,400 kW power capacity.",
+  "world_batch": true
+}

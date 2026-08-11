@@ -1,0 +1,22 @@
+{
+  "slug": "ae-moro-hub-dubai-marina-data-center",
+  "canonical_project": "Moro Hub Dubai Marina data center",
+  "owner": "Moro Hub / Digital DEWA",
+  "location": {
+    "city": "",
+    "subnational": "Dubai - Sector 3",
+    "country": "United Arab Emirates",
+    "country_code": "AE"
+  },
+  "capacity_mw": 8.8,
+  "status": "operational",
+  "evidence_date": "2022-02-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://moro.ae/data-center/",
+    "https://www.datacenterdynamics.com/en/news/moro-hub-launches-new-88mw-data-center-in-dubai-marina/",
+    "https://www.datacenterdynamics.com/en/news/moro-hub-dubai-marina-data-center-gets-uptime-tier-iii-certification/"
+  ],
+  "notes": "Moro Hub markets UAE data-center services and DCD reported launch of a new 8.8 MW Dubai Marina data center, later covered as receiving Uptime Tier III certification. Dubai Marina maps this facility to Dubai Sector 3.",
+  "world_batch": true
+}

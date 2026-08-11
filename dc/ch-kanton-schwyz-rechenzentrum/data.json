@@ -1,0 +1,21 @@
+{
+  "slug": "ch-kanton-schwyz-rechenzentrum",
+  "canonical_project": "Kanton Schwyz Rechenzentrum",
+  "owner": "Canton of Schwyz",
+  "location": {
+    "city": "",
+    "subnational": "Schwyz",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.axians.ch/en/use-case/canton-of-schwyz/",
+    "https://suite.suisseoffer.ch/suite/pages/public/wto.jsf?id=7aa876c4-6160-4891-bbbb-2bb683ffd6ac"
+  ],
+  "notes": "Axians case study describes a self-managed data center solution for the Canton of Schwyz; 2025 public tender Q&A states operation of the solution and data occurs in the Canton of Schwyz data center.",
+  "world_batch": true
+}

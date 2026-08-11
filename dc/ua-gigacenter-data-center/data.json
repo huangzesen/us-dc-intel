@@ -1,0 +1,21 @@
+{
+  "slug": "ua-gigacenter-data-center",
+  "canonical_project": "GigaCenter Data Center",
+  "owner": "GigaCenter / GigaCloud",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacentermap.com/ukraine/kiev/gigacenter/",
+    "https://gigacloud.ua/en/data-centers/"
+  ],
+  "notes": "Operator describes Ukrainian data center infrastructure used for cloud and colocation; directory locates GigaCenter in Kyiv. Capacity not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "ir-mtn-irancell-isfahan-data-center",
+  "canonical_project": "MTN Irancell Isfahan Data Center",
+  "owner": "MTN Irancell",
+  "location": {
+    "city": "",
+    "subnational": "Isfahan",
+    "country": "Iran, Islamic Republic of",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.dcbyte.com/facility/isfahan-data-center/",
+    "https://x.com/irancell/status/1450791557607665670"
+  ],
+  "notes": "DC Byte lists an Isfahan Data Center in Iran operated by MTN Irancell as a self-build network and telco facility; Irancell social post referenced new data centers in Karaj, Mashhad, and Isfahan with 240 racks.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "tw-cht-new-taipei-xinzhuang-idc",
+  "canonical_project": "CHT New Taipei Xinzhuang IDC",
+  "owner": "Chunghwa Telecom",
+  "location": {
+    "city": "",
+    "subnational": "New Taipei",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location_New_Taipei_Xinzhuang.html",
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location.html"
+  ],
+  "notes": "Chunghwa Telecom's official IDC location page lists the New Taipei Xinzhuang IDC (Xinzhuang District, New Taipei City) as an operational IDC site; the same page also lists a New Taipei Yonghe IDC, giving CHT five IDC sites in New Taipei (Banqiao, Tamsui, Sanchong, Xinzhuang, Yonghe). No capacity published.",
+  "world_batch": true
+}

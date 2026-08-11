@@ -1,0 +1,21 @@
+{
+  "slug": "ci-stellarix-abidjan",
+  "canonical_project": "STELLARIX Abidjan",
+  "owner": "STELLARIX / Axian Group",
+  "location": {
+    "city": "",
+    "subnational": "Abidjan",
+    "country": "Cote d'Ivoire",
+    "country_code": "CI"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/c/stellarix/",
+    "https://africatechfestival.com/africacom/sponsors/stellarix-data-centres-meeting-room-host-2024/"
+  ],
+  "notes": "Data Center Map lists a STELLARIX Abidjan facility within the city; Africa Tech Festival profile says STELLARIX has facilities live or under development in Ivory Coast, but public source does not confirm exact Abidjan status or capacity.",
+  "world_batch": true
+}

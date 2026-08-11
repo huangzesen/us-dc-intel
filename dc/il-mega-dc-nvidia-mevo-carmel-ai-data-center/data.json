@@ -1,0 +1,20 @@
+{
+  "slug": "il-mega-dc-nvidia-mevo-carmel-ai-data-center",
+  "canonical_project": "Mega DC / Nvidia Mevo Carmel AI Data Center",
+  "owner": "Mega DC (Mega Or); Nvidia prospective tenant/operator",
+  "location": {
+    "city": "",
+    "subnational": "HaTsafon",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 64,
+  "status": "planned",
+  "evidence_date": "2025-12-31",
+  "evidence_grade": "B",
+  "sources": [
+    "https://en.globes.co.il/en/article-nvidia-in-talks-with-mega-or-to-build-huge-data-center-1001529459"
+  ],
+  "notes": "Globes reported Mega DC was in talks with Nvidia to build a 64MW data center in Mevo Carmel industrial park near Yokneam; article also says Nvidia was building a second Mevo Carmel data center for internal use.",
+  "world_batch": true
+}

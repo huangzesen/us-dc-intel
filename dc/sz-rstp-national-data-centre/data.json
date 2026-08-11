@@ -1,0 +1,23 @@
+{
+  "slug": "sz-rstp-national-data-centre",
+  "canonical_project": "RSTP National Data Centre",
+  "owner": "Royal Science and Technology Park",
+  "location": {
+    "city": "",
+    "subnational": "Manzini",
+    "country": "Eswatini",
+    "country_code": "SZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://rstp.org.sz/national-data-centre/",
+    "https://rstp.org.sz/wp-content/uploads/2024/08/RSTP-Brochure-compressed.pdf",
+    "https://datacenterplatform.com/countries/eswatini/",
+    "https://www.datacentermap.com/eswatini/phocweni/rstp/"
+  ],
+  "notes": "RSTP official page describes the National Data Centre's data storage and business continuity services; third-party listings place it at Phocweni in the Manzini region. Capacity was not publicly disclosed.",
+  "world_batch": true
+}

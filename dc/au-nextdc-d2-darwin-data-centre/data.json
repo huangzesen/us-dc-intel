@@ -1,0 +1,21 @@
+{
+  "slug": "au-nextdc-d2-darwin-data-centre",
+  "canonical_project": "NEXTDC D2 Darwin Data Centre",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "Northern Territory - Darwin",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 6,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/data-centres/darwin-data-centres/d2-darwin",
+    "https://www.datacenterdynamics.com/en/news/australias-nextdc-tops-out-6mw-data-center-in-darwin/"
+  ],
+  "notes": "NEXTDC describes D2 Darwin as in development in Darwin CBD, adding 6MW of capacity with Tier IV target certification; DCD reported it had topped out and was scheduled for completion in 1HFY27.",
+  "world_batch": true
+}

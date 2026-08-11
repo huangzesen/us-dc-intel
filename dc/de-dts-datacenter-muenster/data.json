@@ -1,0 +1,21 @@
+{
+  "slug": "de-dts-datacenter-muenster",
+  "canonical_project": "DTS DataCenter Muenster",
+  "owner": "DTS Systeme Muenster GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Münster",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.dts-it-ag.de/en/gesellschaften/dts-systeme-muenster-gmbh.html",
+    "https://www.datacentermap.com/germany/munster/dts-datacenter-munster/"
+  ],
+  "notes": "DTS says its Muenster IT service provider has its own datacenter; DataCenterMap places DTS DataCenter Muenster at Soester Strasse 13.",
+  "world_batch": true
+}

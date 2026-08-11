@@ -1,0 +1,23 @@
+{
+  "slug": "za-yzerfontein-cable-landing-station-yzerfontein-cls",
+  "canonical_project": "Yzerfontein Cable Landing Station (Yzerfontein CLS)",
+  "owner": "Telkom SA (Openserve); MTN GlobalConnect (2Africa landing party)",
+  "location": {
+    "city": "",
+    "subnational": "Western Cape - West Coast District Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/stations/africa/south-africa/yzerfontein-cls",
+    "https://www.submarinenetworks.com/en/systems/asia-europe-africa/2africa/mtn-lands-2africa-cable-in-yzerfontein-and-duynefontein-south-africa",
+    "https://mybroadband.co.za/news/broadband/635577-tiny-harbour-town-close-to-cape-town-connects-south-africa-to-the-rest-of-the-world.html",
+    "https://iafrikan.com/amanzimtoti-receives-the-worlds-biggest-subsea-cable/"
+  ],
+  "notes": "Telkom-owned submarine cable landing station at Yzerfontein (Swartland Local Municipality, West Coast District Municipality), the district's key international digital-infrastructure gateway. WACS ready for service 2012; 2Africa West landed December 2022 and went live 2023, with MTN GlobalConnect as landing party sharing the existing Telkom CLS. 2Africa consortium includes Meta, MTN, Orange, stc, Telecom Egypt, Vodafone, WIOCC and others. Serves as an alternative gateway to the Melkbosstrand CLS in the City of Cape Town. This is cable landing/telecom infrastructure rather than a commercial colocation data centre; no MW capacity published and no other dedicated data centre facilities are reported in the district (searches of Saldanha Bay IDZ, Malmesbury, Vredenburg, Moorreesburg found none).",
+  "world_batch": true
+}

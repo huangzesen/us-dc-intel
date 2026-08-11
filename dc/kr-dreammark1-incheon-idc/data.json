@@ -1,0 +1,22 @@
+{
+  "slug": "kr-dreammark1-incheon-idc",
+  "canonical_project": "Dreammark1 Incheon IDC",
+  "owner": "Dreammark1 / Dreamline",
+  "location": {
+    "city": "",
+    "subnational": "Incheon - Seo-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-korea/incheon/dreammark1-incheon-idc/",
+    "https://www.ocolo.io/colocation/dream-mark1/",
+    "https://dreamline.co.kr/en/dreamline/intro-overview/location"
+  ],
+  "notes": "Data Center Map lists Dreammark1 Incheon IDC at 541-2 Gajwa-dong, Seo-gu, Incheon. OCOLO lists Dream-Mark1 as operating data centers in Guro, Incheon and Jukjeon and shows the Incheon site as a 6 MW facility. Dreamline's own location page confirms Dreammark1/Guro DC but did not expose an Incheon address in the searchable text, so capacity/location evidence is graded C.",
+  "world_batch": true
+}

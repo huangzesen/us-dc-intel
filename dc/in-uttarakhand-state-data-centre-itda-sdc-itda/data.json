@@ -1,0 +1,22 @@
+{
+  "slug": "in-uttarakhand-state-data-centre-itda-sdc-itda",
+  "canonical_project": "Uttarakhand State Data Centre (ITDA / SDC-ITDA)",
+  "owner": "Information Technology Development Agency (ITDA), Government of Uttarakhand",
+  "location": {
+    "city": "",
+    "subnational": "Uttarakhand - Dehradun",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://it.uk.gov.in/service/uttarakhand-state-data-center/",
+    "https://www.se.com/in/en/work/campaign/case-study/local/uttarakhand-data-center-remote-monitoring/",
+    "https://uk.nic.in/en/service/data-centres/"
+  ],
+  "notes": "Official Uttarakhand IT service listing identifies SDC-ITDA in Dehradun and says ITDA has set up the State Data Centre for G2G/G2C/G2B e-services. Schneider Electric case study says Uttarakhand State Data Center was built for state e-governance, supports Dehradun Smart City applications, and achieved about 99.99% uptime. Capacity in MW not disclosed.",
+  "world_batch": true
+}

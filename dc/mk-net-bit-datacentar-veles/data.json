@@ -1,0 +1,23 @@
+{
+  "slug": "mk-net-bit-datacentar-veles",
+  "canonical_project": "Net.Bit Datacentar Veles",
+  "owner": "Net.Bit Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Veles",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://netbit.mk/index.php/contact-us/",
+    "https://netbit.mk/index.php/datacentar-2/",
+    "https://netbit.mk/index.php/our-company/",
+    "https://www.datacentermap.com/c/netbit/"
+  ],
+  "notes": "Net.Bit's own site lists a Net.Bit Datacentar address at Nikola Orovcanec 11 St., 1400 Veles, and describes its datacenter as operational, providing managed services for data storage/processing, hosting, colocation, disaster recovery, secure backup, SaaS and outsourced IT operations. Data Center Map independently describes the datacenter business unit as located in Veles. No public MW capacity found.",
+  "world_batch": true
+}

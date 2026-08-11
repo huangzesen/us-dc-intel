@@ -1,0 +1,22 @@
+{
+  "slug": "de-frankfurt-data-ffo-ai-hyperscale-campus-markendorf",
+  "canonical_project": "Frankfurt DATA FFO AI hyperscale campus, Markendorf",
+  "owner": "Frankfurt DATA FFO AI GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Brandenburg - Frankfurt an der Oder",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 330,
+  "status": "planned",
+  "evidence_date": "2026-03-17",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenter-insider.de/frankfurt-oder-plant-330-mw-rechenzentrum-a-df996e7e0129c9c589bbf1bdf8fef58c/",
+    "https://www.datacenterdynamics.com/en/news/360mw-data-center-campus-planned-on-germanys-eastern-border/",
+    "https://baxtel.com/data-center/ffo-ai-oder-2"
+  ],
+  "notes": "Trade press reported a hyperscale data center planned in the Markendorf industrial zone in Frankfurt (Oder), with investment near EUR 3.5B and dependent on a 380-kV grid connection. Capacity is reported as 330 MW by DataCenter-Insider; DCD headline says 360 MW.",
+  "world_batch": true
+}

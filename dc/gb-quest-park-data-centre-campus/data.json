@@ -1,0 +1,22 @@
+{
+  "slug": "gb-quest-park-data-centre-campus",
+  "canonical_project": "Quest Park Data Centre Campus",
+  "owner": "QuestPit Limited",
+  "location": {
+    "city": "",
+    "subnational": "England - Central Bedfordshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 720,
+  "status": "planned",
+  "evidence_date": "2026-06-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://questpark.co.uk/",
+    "https://www.gov.uk/government/publications/data-centre-campus-ampthill-road-bedford-in-central-bedfordshire-section-35-direction-planning-act-2008",
+    "https://www.datacenterdynamics.com/en/news/uk-government-to-rule-on-data-center-planned-for-former-quarry-in-bedfordshire/"
+  ],
+  "notes": "QuestPit proposes a 143-acre campus at Ampthill Road, Stewartby, Central Bedfordshire. Government issued a Section 35 direction for the project; DCD reports four buildings and 720MW eventual IT capacity, while the project site states around 1GW long-term capability.",
+  "world_batch": true
+}

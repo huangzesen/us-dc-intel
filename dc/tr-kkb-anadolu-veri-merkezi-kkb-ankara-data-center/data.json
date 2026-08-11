@@ -1,0 +1,21 @@
+{
+  "slug": "tr-kkb-anadolu-veri-merkezi-kkb-ankara-data-center",
+  "canonical_project": "KKB Anadolu Veri Merkezi (KKB Ankara Data Center)",
+  "owner": "KKB Kredi Kayit Burosu (Credit Bureau of Turkey)",
+  "location": {
+    "city": "",
+    "subnational": "Ankara",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/turkey/kkb-anadolu-veri-merkezi",
+    "https://www.okansacli.com/home/categories/web-design-101/page/2"
+  ],
+  "notes": "Data Center Catalog lists KKB Anadolu Veri Merkezi in Ankara; an engineering portfolio page describes a TIER IV KKB Ankara Datacenter designed on ~45,000 m2 land with ~20,000 m2 closed construction area. Directory-grade sources only; no official capacity or opening date found.",
+  "world_batch": true
+}

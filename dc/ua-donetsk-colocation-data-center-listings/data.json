@@ -1,0 +1,20 @@
+{
+  "slug": "ua-donetsk-colocation-data-center-listings",
+  "canonical_project": "Donetsk colocation/data center listings",
+  "owner": "Unknown",
+  "location": {
+    "city": "",
+    "subnational": "Donetsk",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/data-centers/ukraine/donetsk"
+  ],
+  "notes": "Inflect has a Donetsk data-center market/listing page, but individual active facility details and current operating status were not corroborated in reliable public sources.",
+  "world_batch": true
+}

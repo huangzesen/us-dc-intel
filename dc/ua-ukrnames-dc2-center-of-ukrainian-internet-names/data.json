@@ -1,0 +1,21 @@
+{
+  "slug": "ua-ukrnames-dc2-center-of-ukrainian-internet-names",
+  "canonical_project": "Ukrnames DC2 (Center of Ukrainian Internet Names)",
+  "owner": "Ukrnames / Center of Ukrainian Internet Names",
+  "location": {
+    "city": "",
+    "subnational": "Kharkiv",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/ukraine/kharkov/",
+    "https://web.archive.org/web/20250217050308/https://www.datacentermap.com/ukraine/kharkov/"
+  ],
+  "notes": "Directory listing: second Ukrnames data center, built 2018, TIER 3, ~20 rack units in shared rooms at Heorhiya Tarasenka St 126/1, Kharkiv. No public MW capacity found.",
+  "world_batch": true
+}

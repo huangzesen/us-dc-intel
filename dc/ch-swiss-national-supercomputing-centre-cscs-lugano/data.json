@@ -1,0 +1,22 @@
+{
+  "slug": "ch-swiss-national-supercomputing-centre-cscs-lugano",
+  "canonical_project": "Swiss National Supercomputing Centre CSCS, Lugano",
+  "owner": "ETH Zurich / CSCS",
+  "location": {
+    "city": "",
+    "subnational": "Ticino",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cscs.ch/about/about-cscs",
+    "https://www.cscs.ch/publications/news/2010/assembling-the-data-centre-roof",
+    "https://www.cscs.ch/computers/alps"
+  ],
+  "notes": "Official CSCS sources place the national supercomputing centre at Via Trevano 131 in Lugano; CSCS described construction of a roughly 2,000 sqm machine room and lists Alps compute/data infrastructure housed at CSCS in Lugano.",
+  "world_batch": true
+}

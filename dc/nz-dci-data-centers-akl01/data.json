@@ -1,0 +1,22 @@
+{
+  "slug": "nz-dci-data-centers-akl01",
+  "canonical_project": "DCI Data Centers AKL01",
+  "owner": "DCI Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2023-04-20",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dcidatacenters.com/news/akl01-completed/",
+    "https://dcidatacenters.com/auckland/",
+    "https://www.datacenterdynamics.com/en/news/dci-completes-first-data-center-in-auckland-new-zealand/"
+  ],
+  "notes": "DCI announced completion of AKL01 in Westgate, Auckland; trade coverage reports 10 MW of capacity and DCI's Auckland page lists AKL01 as one of its local data centres.",
+  "world_batch": true
+}

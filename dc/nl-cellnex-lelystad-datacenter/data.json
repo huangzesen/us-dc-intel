@@ -1,0 +1,20 @@
+{
+  "slug": "nl-cellnex-lelystad-datacenter",
+  "canonical_project": "Cellnex Lelystad datacenter",
+  "owner": "Cellnex Netherlands",
+  "location": {
+    "city": "",
+    "subnational": "Flevoland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 0.45,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cellnex.com/nl-en/technology/edge-datacentres/"
+  ],
+  "notes": "Official Cellnex page lists Lelystad with 180 m2 total surface and 450 kVA total capacity, realized in the tower in March 2018.",
+  "world_batch": true
+}

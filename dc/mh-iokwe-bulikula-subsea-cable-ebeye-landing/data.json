@@ -1,0 +1,22 @@
+{
+  "slug": "mh-iokwe-bulikula-subsea-cable-ebeye-landing",
+  "canonical_project": "IOKWE / Bulikula subsea cable Ebeye landing",
+  "owner": "Google with Marshall Islands National Telecommunications Authority and Pacific partners",
+  "location": {
+    "city": "",
+    "subnational": "Kwajalein",
+    "country": "Marshall Islands",
+    "country_code": "MH"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-03-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/marshall-islands-to-connect-to-googles-halaihai-subsea-cable/",
+    "https://subtelforum.com/marshall-islands-advances-digital-connectivity-with-iokwe-cable/",
+    "https://www.googlecloudpresscorner.com/2026-03-21-Google-Announces-New-Pacific-Subsea-Cable-System"
+  ],
+  "notes": "Telecom edge/cable landing infrastructure, not a commercial data center. DCD and SubTel Forum reported that IOKWE will connect Majuro and Ebeye in the Marshall Islands to Google's Bulikula/Halaihai Pacific cable system; public reporting did not give capacity or a completed in-service date.",
+  "world_batch": true
+}

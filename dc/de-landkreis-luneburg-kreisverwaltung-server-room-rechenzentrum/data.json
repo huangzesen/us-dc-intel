@@ -1,0 +1,20 @@
+{
+  "slug": "de-landkreis-luneburg-kreisverwaltung-server-room-rechenzentrum",
+  "canonical_project": "Landkreis Lüneburg Kreisverwaltung server room / Rechenzentrum",
+  "owner": "Landkreis Lüneburg / Netzlink",
+  "location": {
+    "city": "",
+    "subnational": "Lower Saxony - Lüneburg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2015-11-04",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenter-insider.de/frische-luft-fuer-lueneburger-server-a-bd86cf352934f4f879f67e5e311724b8/"
+  ],
+  "notes": "DataCenter-Insider case study describes a new highly available, energy-efficient server room for the Lüneburg district administration, designed after the previous main server room reached capacity and became outdated. Small institutional facility; no MW capacity disclosed.",
+  "world_batch": true
+}

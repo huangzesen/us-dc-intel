@@ -1,0 +1,22 @@
+{
+  "slug": "ci-raxio-civ1",
+  "canonical_project": "Raxio CIV1",
+  "owner": "Raxio Group",
+  "location": {
+    "city": "",
+    "subnational": "Comoe",
+    "country": "Cote d'Ivoire",
+    "country_code": "CI"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2024-09-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.raxiogroup.com/ivory-coast-gains-significant-boost-to-digital-economy-with-launch-of-raxio-data-centre/",
+    "https://www.raxiogroup.com/data-centres/cote-divoire/",
+    "https://telecom.gouv.ci/new/actualite/92"
+  ],
+  "notes": "Raxio inaugurated CIV1 at VITIB in Grand-Bassam on September 24, 2024; sources state Tier III certification, 2,000 sq m white space, up to 800 racks, and 3 MW IT power.",
+  "world_batch": true
+}

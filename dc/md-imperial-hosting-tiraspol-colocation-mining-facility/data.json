@@ -1,0 +1,21 @@
+{
+  "slug": "md-imperial-hosting-tiraspol-colocation-mining-facility",
+  "canonical_project": "Imperial Hosting Tiraspol colocation/mining facility",
+  "owner": "Imperial Hosting",
+  "location": {
+    "city": "",
+    "subnational": "Stinga Nistrului, unitatea teritoriala din",
+    "country": "Moldova, Republic of",
+    "country_code": "MD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.imperial-hosting.com/",
+    "https://servers.expert/en/catalog/moldova"
+  ],
+  "notes": "Operator site lists Tiraspol, MD 3300 and instructs customers to send hardware to 'the data center' for GPU/ASIC hosting; aggregator also describes VPS/VDS hosting in Tiraspol/Bender/Rybnitsa with data center located in a secure place. Capacity and exact facility details not disclosed; treated as operational hosting/colocation/mining activity, not a hyperscale project.",
+  "world_batch": true
+}

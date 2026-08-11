@@ -1,0 +1,20 @@
+{
+  "slug": "ru-ttk-barnaul-data-center",
+  "canonical_project": "TTK Barnaul data center",
+  "owner": "TransTeleCom (TTK)",
+  "location": {
+    "city": "",
+    "subnational": "Altai",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2017-11-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ap22.ru/paper/TransTeleKom-prodemonstriroval-data-tsentr-v-Barnaule.html"
+  ],
+  "notes": "Local press described the Barnaul TTK data center as an autonomous protected facility connected to 80 optical channels of up to 100 Gbit/s each. No IT load disclosed.",
+  "world_batch": true
+}

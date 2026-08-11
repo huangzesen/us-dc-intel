@@ -1,0 +1,21 @@
+{
+  "slug": "de-portus-data-centers-munich-2-muc2",
+  "canonical_project": "Portus Data Centers Munich 2 (MUC2)",
+  "owner": "Portus Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Munich",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 5.5,
+  "status": "construction",
+  "evidence_date": "2025-06-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.portusdatacenters.com/de/unsere-rechenzentren/muenchen/",
+    "https://www.datacenter-insider.de/expansion-portus-data-centers-baut-muc2-a-7fe8962a70ad5edf2087d91a64cf95c8/"
+  ],
+  "notes": "Portus lists MUC2 at 5.5 MW IT load and says current expansion plans bring the Munich campus to 7 MW total; trade press reported MUC2 construction/expansion in June 2025.",
+  "world_batch": true
+}

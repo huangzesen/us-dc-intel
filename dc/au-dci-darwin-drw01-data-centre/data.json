@@ -1,0 +1,21 @@
+{
+  "slug": "au-dci-darwin-drw01-data-centre",
+  "canonical_project": "DCI Darwin DRW01 Data Centre",
+  "owner": "DCI Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Northern Territory - Litchfield",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 10,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/dci-data-centers-to-build-10mw-facility-in-darwin-australia/",
+    "https://cmc.nt.gov.au/media/docs/advancing-industry/darwin-data-centre-eoi.pdf"
+  ],
+  "notes": "DCD reported DCI secured a 2.7 ha site at Darwin Technology Park in Wishart for a Tier III-ready 10MW DRW01 edge facility, with an option to expand to 5 ha. Division assignment follows Wishart/Litchfield area geography.",
+  "world_batch": true
+}

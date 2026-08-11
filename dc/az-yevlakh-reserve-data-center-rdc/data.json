@@ -1,0 +1,23 @@
+{
+  "slug": "az-yevlakh-reserve-data-center-rdc",
+  "canonical_project": "Yevlakh Reserve Data Center (RDC)",
+  "owner": "AzInTelecom LLC",
+  "location": {
+    "city": "",
+    "subnational": "Yevlakh City",
+    "country": "Azerbaijan",
+    "country_code": "AZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/list/datacenter/yevlakh-reserve-data-center-rdc/1113",
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/AZ",
+    "https://www.datacenterdynamics.com/en/news/gcore-and-azintelecom-team-up-on-sovereign-cloud-in-azerbaijan/",
+    "https://www.telecompaper.com/news/azintelecom-builds-data-centre-in-yevlakh--1311195"
+  ],
+  "notes": "Uptime Institute lists AzInTelecom's Yevlakh Reserve Data Center in Yevlakh, Azerbaijan, with Tier III design and constructed-facility certifications. DCD reported in 2025 that AzInTelecom operates data centers in Baku and Yevlakh; Telecompaper's 2019 project report described a 1,400 sqm dedicated data centre in the town of Yevlakh due to operate in Q1 2020. Assigned to Yevlakh City because the facility is described as being in the town/city, which is administratively separate from Yevlakh District.",
+  "world_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "cn-gansu-qingyang-national-data-center-cluster-east-data-west-computing-industrial-",
+  "canonical_project": "Gansu Qingyang National Data Center Cluster / East-Data-West-Computing Industrial Park",
+  "owner": "Qingyang East Data West Computing Industrial Park / Qingyang Yunchuang Smart Big Data Co., Ltd.; multiple telecom and AI tenants",
+  "location": {
+    "city": "",
+    "subnational": "Gansu - Qingyang Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-05-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://en.ndrc.gov.cn/news/mediarusources/202202/t20220218_1315947.html",
+    "https://www.aiib.org/en/projects/details/2026/proposed/china-gansu-qingyang-eastern-data-western-computing-national-hub-green-low-carbon-infrastructure-demonstration-project.html",
+    "https://paper.people.com.cn/rmrb/pc/content/202501/16/content_30052326.html",
+    "https://www.nda.gov.cn/sjj/swdt/mtsy/0509/20260509164956094706003_pc.html"
+  ],
+  "notes": "NDRC identified Gansu/Ningxia as a national computing hub. AIIB lists a proposed USD410m green/low-carbon infrastructure project supporting expansion of Qingyang Computing Industrial Park. People's Daily reported 6 intelligent-computing centers operational, 10+ under construction, 31,000 racks operating and more than 51,000 PFLOPS. National Data Administration/CCTV later reported about 22 data-center buildings planned to start in 2026 and a target above 200,000 PFLOPS by year-end.",
+  "world_batch": true
+}

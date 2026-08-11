@@ -1,0 +1,21 @@
+{
+  "slug": "cn-chuandong-east-sichuan-big-data-center",
+  "canonical_project": "川东大数据中心 (Chuandong / East Sichuan Big Data Center)",
+  "owner": "China Telecom Sichuan / Dazhou municipal partners",
+  "location": {
+    "city": "",
+    "subnational": "Sichuan - Dazhou Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-12-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.dazhou.gov.cn/news-show-250671.html",
+    "https://www.cnfin.com/jgdt-lb/detail/20221116/3745309_1.html"
+  ],
+  "notes": "Dazhou municipal article says the center is open and operating with Sugon, Alibaba Cloud, Baidu data labeling and others signed; Xinhua/CNFIN reported Nov. 2022 opening, total investment RMB1bn, 60 mu site, 800 phase-1 racks and 3,000 phase-2 planned racks, PUE under 1.25, 32T egress bandwidth.",
+  "world_batch": true
+}

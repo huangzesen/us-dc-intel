@@ -1,0 +1,21 @@
+{
+  "slug": "pt-voltekko-alcochete-data-center",
+  "canonical_project": "Voltekko Alcochete Data Center",
+  "owner": "Voltekko",
+  "location": {
+    "city": "",
+    "subnational": "Setubal",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": 15,
+  "status": "planned",
+  "evidence_date": "2024-05-22",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.portugalglobal.pt/en/news/2024/may/voltekko-announces-data-center-development-project-in-portugal/",
+    "https://www.datacentermap.com/portugal/lisbon/voltekko-alcochete/specs/"
+  ],
+  "notes": "Eco-responsible AI/HPC colocation data center planned in Alcochete, Setubal district; directory specs list 15 MW fully built-out power, 6 MW under construction power, 2,400 sqm whitespace, estimated 2026.",
+  "world_batch": true
+}

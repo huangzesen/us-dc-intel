@@ -1,0 +1,20 @@
+{
+  "slug": "sa-najran-university-data-center",
+  "canonical_project": "Najran University Data Center",
+  "owner": "Najran University",
+  "location": {
+    "city": "",
+    "subnational": "Najran Region - Najran",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2015-10-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.itp.net/telecommunications/network-infrastructure/605392-najran-university-boosts-data-centre-performance-with-f5"
+  ],
+  "notes": "ITP reported Najran University deployed F5 traffic-management systems across its primary and disaster-recovery data centers; no public capacity figure found.",
+  "world_batch": true
+}

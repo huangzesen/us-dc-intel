@@ -1,0 +1,20 @@
+{
+  "slug": "sg-ntt-serangoon-data-center",
+  "canonical_project": "NTT Serangoon Data Center",
+  "owner": "NTT DATA",
+  "location": {
+    "city": "",
+    "subnational": "North East",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 8.6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/asia-pacific/serangoon-data-center"
+  ],
+  "notes": "NTT official page lists Serangoon Data Center with 8.6MW critical IT load and 5,000 sqm combined data center server space.",
+  "world_batch": true
+}

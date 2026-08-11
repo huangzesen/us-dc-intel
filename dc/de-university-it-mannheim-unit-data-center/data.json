@@ -1,0 +1,21 @@
+{
+  "slug": "de-university-it-mannheim-unit-data-center",
+  "canonical_project": "University IT Mannheim (UNIT) data center",
+  "owner": "University of Mannheim",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Mannheim",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2025-03-28",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/university-of-mannheim-breaks-ground-on-data-center/",
+    "https://www.datacentermap.com/germany/mannheim/unit-data-center/"
+  ],
+  "notes": "DCD reports the university began work on a new 5,360 sqm UNIT building in Mannheim's A5 district along Bismarckstrasse, with completion expected by mid-2027; waste heat from the data center will be reused for heating/cooling.",
+  "world_batch": true
+}

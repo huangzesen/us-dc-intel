@@ -1,0 +1,21 @@
+{
+  "slug": "mv-national-data-centre-ncit",
+  "canonical_project": "National Data Centre (NCIT)",
+  "owner": "National Centre for Information Technology / Government of Maldives",
+  "location": {
+    "city": "",
+    "subnational": "Male",
+    "country": "Maldives",
+    "country_code": "MV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-11-14",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dmadd.gov.mv/en/announcements/2024-114",
+    "https://www.datacenterdynamics.com/en/news/ooredoo-builds-data-center-in-hulhumal%C3%A9-maldives/"
+  ],
+  "notes": "Government D'MADD procurement sought a business-continuity and disaster-recovery plan for the National Data Centre and National Computer Network operated by NCIT at Male; DCD separately notes a government data center was built in the NCIT building in 2005 for e-government workloads. Published capacity was not found.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "au-telstra-infraco-clayton-data-centre",
+  "canonical_project": "Telstra InfraCo Clayton Data Centre",
+  "owner": "Telstra InfraCo; Centuria Industrial REIT owner",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Monash",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 12,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://infraco.telstra.com.au/solutions/data-centre-colocation",
+    "https://www.datacenterdynamics.com/en/news/centuria-plans-40mw-data-center-in-melbourne-australia/"
+  ],
+  "notes": "Telstra lists Clayton, Melbourne as one of its Australian data centre colocation sites; DCD reported the 1822 Dandenong Road site contains two data centres totaling around 12MW.",
+  "world_batch": true
+}

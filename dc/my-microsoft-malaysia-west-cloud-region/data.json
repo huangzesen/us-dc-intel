@@ -1,0 +1,22 @@
+{
+  "slug": "my-microsoft-malaysia-west-cloud-region",
+  "canonical_project": "Microsoft Malaysia West cloud region",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Wilayah Persekutuan Kuala Lumpur",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-28",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/source/asia/features/microsoft-announces-its-first-cloud-region-in-malaysia-empowering-more-malaysian-organizations-to-accelerate-ai-innovation/",
+    "https://local.microsoft.com/communities/asia-pacific/malaysia/",
+    "https://azure.microsoft.com/en-us/blog/microsofts-commitment-to-supporting-cloud-infrastructure-demand-in-asia/"
+  ],
+  "notes": "Microsoft announced general availability of Malaysia West, its first Malaysian cloud region, on May 28, 2025. Microsoft Local says it is building datacenters near Kuala Lumpur; public sources describe three availability zones but do not disclose MW capacity or exact site addresses.",
+  "world_batch": true
+}

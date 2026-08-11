@@ -1,0 +1,21 @@
+{
+  "slug": "li-acronis-liechtenstein-cloud-data-center",
+  "canonical_project": "Acronis Liechtenstein Cloud Data Center",
+  "owner": "Acronis",
+  "location": {
+    "city": "",
+    "subnational": "Eschen",
+    "country": "Liechtenstein",
+    "country_code": "LI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-12-27",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.liechtenstein.li/en/liechtenstein_news/acronis-eroeffnet-ein-datenzentrum-liechtenstein",
+    "https://www.moneycab.com/it/acronis-eroeffnet-ein-neues-datenzentrum-in-liechtenstein/"
+  ],
+  "notes": "Liechtenstein Marketing reported that Acronis opened a new data center in Eschen, providing a local cloud location for MSPs and customer data sovereignty. Capacity not disclosed; described as a micro data center.",
+  "world_batch": true
+}

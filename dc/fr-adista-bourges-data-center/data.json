@@ -1,0 +1,22 @@
+{
+  "slug": "fr-adista-bourges-data-center",
+  "canonical_project": "Adista Bourges data center",
+  "owner": "Adista",
+  "location": {
+    "city": "",
+    "subnational": "Cher",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-06-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/france/bourges/adista-bourges/",
+    "https://www.adista.fr/agences/agence-adista-bourges/",
+    "https://www.adista.fr/app/uploads/2026/06/2026-inherent_MagRSE.pdf"
+  ],
+  "notes": "Adista Bourges data center is listed near Bourges airport and Adista's 2026 CSR magazine includes Bourges among its data centers with PUE/CUE metrics. Capacity not published in MW.",
+  "world_batch": true
+}

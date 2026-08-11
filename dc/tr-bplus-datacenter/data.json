@@ -1,0 +1,22 @@
+{
+  "slug": "tr-bplus-datacenter",
+  "canonical_project": "Bplus Datacenter",
+  "owner": "Bplus Datacenter",
+  "location": {
+    "city": "",
+    "subnational": "Trabzon",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/turkey/trabzon/bplus-datacenter/",
+    "https://www.datacentermap.com/turkey/trabzon/",
+    "https://colomap.com/facilities/bplus-datacenter/"
+  ],
+  "notes": "DataCenterMap and ColoMap list Bplus Datacenter as a colocation data center at Hasan Saka Cd. No:29A, 61040 Trabzon, and DataCenterMap identifies it as Trabzon's listed facility. Capacity and current operator details were not publicly disclosed in sources found.",
+  "world_batch": true
+}

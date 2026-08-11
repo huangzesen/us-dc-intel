@@ -1,0 +1,21 @@
+{
+  "slug": "sj-ksat-svalsat-platafjellet-data-center",
+  "canonical_project": "KSAT SvalSat Platåfjellet data center",
+  "owner": "Kongsberg Satellite Services (KSAT)",
+  "location": {
+    "city": "",
+    "subnational": "Svalbard and Jan Mayen",
+    "country": "Svalbard and Jan Mayen",
+    "country_code": "SJ"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://jmhansen.no/prosjekter/svalsat-kritisk-infrastruktur-for-verdensledende-satellittkommunikasjon/",
+    "https://www.ksat.no/news/news-archive/2021/ksat-has-installed-antenna-number-100-at-svalbard-ground-station/"
+  ],
+  "notes": "JM Hansen project page lists KSAT as client, 1400 m2 area, year 2024-, and says a new data center is being established on Platåfjellet to meet increased data capacity and reliability needs at SvalSat. KSAT source confirms Svalbard Ground Station has high-speed fibre backhaul and delivers data with Gbit capacity into cloud or to customers. No MW capacity disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "it-dataformed-caserta-campus",
+  "canonical_project": "DATAforMED Caserta Campus",
+  "owner": "DATA for MED",
+  "location": {
+    "city": "",
+    "subnational": "Campania",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": 22.5,
+  "status": "construction",
+  "evidence_date": "2024-02-23",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dataformed.it/",
+    "https://www.dbagroup.it/en-GB/news/caserta-data-center-campus-our-story",
+    "https://www.datacentermap.com/italy/caserta/dataformed-campus/",
+    "https://baxtel.com/data-center/data-for-med-caserta-campus"
+  ],
+  "notes": "DATAforMED's site describes a 30 MW/60,000 sqm campus coming soon; DBA Group project story reports 22.5 MW IT power capacity across several buildings in Caserta. Capacity recorded as IT-power figure from DBA.",
+  "world_batch": true
+}

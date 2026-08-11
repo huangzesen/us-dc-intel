@@ -1,0 +1,22 @@
+{
+  "slug": "ee-levira-tartu-data-center",
+  "canonical_project": "Levira Tartu data center",
+  "owner": "Levira AS",
+  "location": {
+    "city": "",
+    "subnational": "Tartu",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://levira.com/",
+    "https://levira.com/it-and-management/datacenter",
+    "https://www.am.ee/node/8847"
+  ],
+  "notes": "Levira states it operates three data center locations, two in Tallinn and one in Tartu; AM.ee reported Levira opened the Tartu server room/data center, built by A-Kaabel, as its third data center and newest server room in Tartu. Capacity not disclosed in public sources reviewed.",
+  "world_batch": true
+}

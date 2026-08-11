@@ -1,0 +1,21 @@
+{
+  "slug": "ch-vantage-zurich-ii-glattfelden",
+  "canonical_project": "Vantage Zurich II, Glattfelden",
+  "owner": "Vantage Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Zurich",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": 24,
+  "status": "operational",
+  "evidence_date": "2025-11-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.s-ge.com/invest/en/articles/news/vantage-build-second-swiss-data-center-cost-370-million-swiss-francs",
+    "https://vantage-dc.com/data-center-locations/emea/zurich-i-switzerland/"
+  ],
+  "notes": "Switzerland Global Enterprise reported Vantage's second Swiss hyperscale data center in Glattfelden, Canton Zurich, would provide 24 MW across 21,000 sqm and was set to commence operations in summer 2025.",
+  "world_batch": true
+}

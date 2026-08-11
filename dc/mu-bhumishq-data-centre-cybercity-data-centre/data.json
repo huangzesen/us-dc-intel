@@ -1,0 +1,22 @@
+{
+  "slug": "mu-bhumishq-data-centre-cybercity-data-centre",
+  "canonical_project": "Bhumishq Data Centre / Cybercity Data Centre",
+  "owner": "Bhumishq Technologies Ltd / Bhumi Fund Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Moka",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.prodesign.mu/projects/data-centers/tier-iv-data-centre-for-bhumishq-mindspace",
+    "https://www.datacentermap.com/mauritius/reduit/bhumishq-data-centre/",
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/cybercity-data-centre/260"
+  ],
+  "notes": "Prodesign says the 500 sq m Bhumishq data centre is part of MINDSPACE in Ebene and was completed in 2010; Data Center Map lists it in Reduit/Ebene, and Uptime Institute lists the Cybercity Data Centre client as Bhumishq Teleserve. Administrative boundary between Ebene/Reduit and Plaines Wilhems/Moka is ambiguous in public listings, so assigned to Moka via Reduit market evidence.",
+  "world_batch": true
+}

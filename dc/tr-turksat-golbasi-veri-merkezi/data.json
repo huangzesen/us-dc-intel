@@ -1,0 +1,21 @@
+{
+  "slug": "tr-turksat-golbasi-veri-merkezi",
+  "canonical_project": "TURKSAT Golbasi Veri Merkezi",
+  "owner": "TURKSAT (state satellite/telecom operator, Ministry of Transport and Infrastructure)",
+  "location": {
+    "city": "",
+    "subnational": "Ankara",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": 33,
+  "status": "construction",
+  "evidence_date": "2026-07-19",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.trthaber.com/haber/bilim-teknoloji/turkiyenin-dijital-kalesi-icin-ilk-adim-22-temmuzda-atiliyor-951611.html",
+    "https://gazeteankara.com.tr/politika/turksattan-ankaraya-stratejik-yatirim-turkiyenin-dijital-kalesinin-temeli-atildi-7701"
+  ],
+  "notes": "Transport Minister Abdulkadir Uraloglu announced (AA via TRT Haber, 19 Jul 2026) that the foundation ceremony for TURKSAT Golbasi Veri Merkezi in Golbasi district, Ankara took place 22 July 2026. Facility: ~35,300 m2, 6 system halls, 6,300 m2 white space, 33 MVA installed power capacity (LEED-Gold, Uptime Institute Tier III, TSE 50600), planned as one of Turkey's largest data centers and intended to host public e-Devlet and cloud services. capacity_mw=33 approximates installed power MVA.",
+  "world_batch": true
+}

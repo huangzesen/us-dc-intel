@@ -1,0 +1,22 @@
+{
+  "slug": "ee-telia-company-karksi-nuia-data-center",
+  "canonical_project": "Telia Company Karksi-Nuia Data Center",
+  "owner": "Telia Company / Telia Carrier",
+  "location": {
+    "city": "",
+    "subnational": "Viljandi",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/telia-company-karksi-nuia",
+    "https://www.datacenters.com/providers/telia-company/locations/estonia/viljandi-maakond",
+    "https://inflect.com/datacenters/emea/estonia/viljandi"
+  ],
+  "notes": "Data center directory listings place Telia Company Karksi-Nuia at Pärnu maantee 6a, Karksi-Nuia, Viljandi maakond; Datacenters.com lists 3.0 MW total power. Public primary/operator source not found in this run.",
+  "world_batch": true
+}

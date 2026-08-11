@@ -1,0 +1,20 @@
+{
+  "slug": "in-nxtra-mangaluru-edge-location",
+  "canonical_project": "Nxtra Mangaluru Edge Location",
+  "owner": "Nxtra by Airtel",
+  "location": {
+    "city": "",
+    "subnational": "Karnataka - Dakshina Kannada",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-09-14",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/nxtra-to-deploy-bloom-energy-hydrogen-fuel-cells-at-data-center-in-karnataka/"
+  ],
+  "notes": "DCD reported Nxtra has edge locations in Bengaluru, Hosur, Mysore and Mangaluru. Public source did not state MW capacity for the Mangaluru edge location.",
+  "world_batch": true
+}

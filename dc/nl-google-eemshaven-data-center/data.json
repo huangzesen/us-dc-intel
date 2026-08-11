@@ -1,0 +1,20 @@
+{
+  "slug": "nl-google-eemshaven-data-center",
+  "canonical_project": "Google Eemshaven data center",
+  "owner": "Google",
+  "location": {
+    "city": "",
+    "subnational": "Groningen",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenters.google/locations/eemshaven-netherlands-var/"
+  ],
+  "notes": "Official Google data center page says Google announced a EUR600 million Eemshaven data centre in 2014 and opened the first Dutch data centre there in December 2016.",
+  "world_batch": true
+}

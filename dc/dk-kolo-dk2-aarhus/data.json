@@ -1,0 +1,20 @@
+{
+  "slug": "dk-kolo-dk2-aarhus",
+  "canonical_project": "Kolo DK2 Aarhus",
+  "owner": "Kolo DC",
+  "location": {
+    "city": "",
+    "subnational": "Central Denmark",
+    "country": "Denmark",
+    "country_code": "DK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://kolodc.com/data-centers/colocation-in-denmark/aarhus-data-center"
+  ],
+  "notes": "Operator page lists DK2 Aarhus on Silkeborgvej in central Aarhus with N+N power redundancy and 100% renewable energy.",
+  "world_batch": true
+}

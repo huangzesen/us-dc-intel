@@ -1,0 +1,20 @@
+{
+  "slug": "tz-continuum-datacenter",
+  "canonical_project": "Continuum Datacenter",
+  "owner": "Continuum Datacenter Limited",
+  "location": {
+    "city": "",
+    "subnational": "Dar es Salaam",
+    "country": "Tanzania, United Republic of",
+    "country_code": "TZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://continuum.co.tz/"
+  ],
+  "notes": "Local cloud/virtual-server hosting and datacenter solutions provider at Kibasila Street, Dar es Salaam; small domestic colo/hosting provider.",
+  "world_batch": true
+}

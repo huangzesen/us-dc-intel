@@ -1,0 +1,22 @@
+{
+  "slug": "jp-shunan-distributed-data-center-hydrogen-fuel-cell-demonstration",
+  "canonical_project": "Shunan distributed data center hydrogen fuel-cell demonstration",
+  "owner": "Mitsubishi Corporation; Honda; Tokuyama",
+  "location": {
+    "city": "",
+    "subnational": "Yamaguchi",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-08-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://global.honda/en/newsroom/news/2025/c250801aeng.html",
+    "https://www.mitsubishicorp.com/jp/en/news/release/2023/0000052615.html",
+    "https://www.datacenterdynamics.com/en/news/honda-mitsubishi-to-power-japanese-data-center-via-repurposed-hydrogen-fuel-cells/"
+  ],
+  "notes": "Honda official release says the companies started a demonstration in Shunan City, Yamaguchi Prefecture to operate a data center using by-product hydrogen and a stationary fuel-cell power station reusing FCEV systems; Mitsubishi's earlier release identified the data center as operated by MC.",
+  "world_batch": true
+}

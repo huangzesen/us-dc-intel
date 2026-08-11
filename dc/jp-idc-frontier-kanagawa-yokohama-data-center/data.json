@@ -1,0 +1,21 @@
+{
+  "slug": "jp-idc-frontier-kanagawa-yokohama-data-center",
+  "canonical_project": "IDC Frontier Kanagawa Yokohama Data Center",
+  "owner": "IDC Frontier Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Kanagawa",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idcf.jp/en/datacenter/location/",
+    "https://www.idcf.jp/en/datacenter/colocation/facility/"
+  ],
+  "notes": "IDC Frontier official pages list the Kanagawa Yokohama Data Center in the Yokohama Bay Area among its nationwide self-managed data center locations; MW not disclosed.",
+  "world_batch": true
+}

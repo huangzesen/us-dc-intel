@@ -1,0 +1,21 @@
+{
+  "slug": "in-capitaland-data-centre-bangalore-01-cldc-ban01",
+  "canonical_project": "CapitaLand Data Centre Bangalore 01 / CLDC BAN01",
+  "owner": "CapitaLand",
+  "location": {
+    "city": "",
+    "subnational": "Karnataka - Bangalore Urban",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 27,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.capitaland.com/in/en/lease/data-centres.html",
+    "https://www.capitaland.com/content/dam/capitaland-sites/international/lease/data-centre/resources/CLDC%20Bangalore%2001%20Factsheet_14_10_24.pdf"
+  ],
+  "notes": "CapitaLand lists a Bangalore data centre planned within International Tech Park Bangalore in Whitefield. Factsheet states 27 MW IT power capacity and 42 MW gross power capacity; capacity_mw records IT power.",
+  "world_batch": true
+}

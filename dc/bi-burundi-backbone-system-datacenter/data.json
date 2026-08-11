@@ -1,0 +1,21 @@
+{
+  "slug": "bi-burundi-backbone-system-datacenter",
+  "canonical_project": "Burundi Backbone System Datacenter",
+  "owner": "Burundi Backbone System SM",
+  "location": {
+    "city": "",
+    "subnational": "Bujumbura Mairie",
+    "country": "Burundi",
+    "country_code": "BI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/burundi-backbone-system-sm/burundi-backbone-system-datacenter/",
+    "https://inflect.com/building/boulevard-mwambutsa-bujumbura/burundi-backbone-system-sm/datacenter/bujumbura"
+  ],
+  "notes": "Data-center directories list a BBS datacenter at 20 Boulevard Mwambutsa, Quartier Kigobe, Bujumbura; no public capacity found.",
+  "world_batch": true
+}

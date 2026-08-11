@@ -1,0 +1,23 @@
+{
+  "slug": "gu-guam-exchange-harmon-1-data-center",
+  "canonical_project": "Guam Exchange Harmon 1 Data Center",
+  "owner": "Guam Exchange / Citadel Pacific",
+  "location": {
+    "city": "",
+    "subnational": "Guam",
+    "country": "Guam",
+    "country_code": "GU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://guamexchange.com/",
+    "https://subtelforum.com/citadel-launches-guams-first-commercial-ixp/",
+    "https://ix.gu/peering",
+    "https://www.datacentermap.com/guam/hagatna/guam-exchange-datacenter/"
+  ],
+  "notes": "Guam Exchange's website describes an open-access, carrier-neutral data center with colocation, interconnection, and IXP services at 122 West Harmon Industrial Park Road, Suite 103, Tamuning. SubTel Forum reported the Harmon Tier III-compliant data center campus was to be ready for service on August 15, 2024; Guam IX says peering is available at the Guam Exchange Datacenter.",
+  "world_batch": true
+}

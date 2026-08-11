@@ -1,0 +1,22 @@
+{
+  "slug": "az-pasha-technology-baku-main-data-center-bmdc",
+  "canonical_project": "PASHA Technology Baku Main Data Center (BMDC)",
+  "owner": "PASHA Technology LLC",
+  "location": {
+    "city": "",
+    "subnational": "Baku",
+    "country": "Azerbaijan",
+    "country_code": "AZ"
+  },
+  "capacity_mw": 0.76,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pasha-holding.az/en/technology/pasha-technology/",
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/baku-main-data-center-bmdc/1077",
+    "https://www.datacentermap.com/azerbaijan/baku/pasha-baku-main-data-center/"
+  ],
+  "notes": "PASHA Holding states PASHA Technology operates Baku Main Data Center and Goychay Disaster Recovery Site, both built to Uptime Tier III concurrently maintainable criteria. Uptime lists BMDC in Baku with Tier III Design and Constructed Facility certifications; DataCenterMap reports 0.76 MW.",
+  "world_batch": true
+}

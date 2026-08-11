@@ -1,0 +1,22 @@
+{
+  "slug": "de-tkrz-regional-data-centers-emsdetten-greven-rheine",
+  "canonical_project": "TKRZ regional data centers (Emsdetten, Greven, Rheine)",
+  "owner": "TKRZ Stadtwerke GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Steinfurt",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tkrz-business.de/",
+    "https://www.tkrz-business.de/datacenter",
+    "https://www.emsdetten.de/standort-innenstadt-wirtschaft/neuigkeiten/2020/tkrz-rechenzentrum-offiziell-eroeffnet/"
+  ],
+  "notes": "TKRZ states it offers customer server/data hosting in its data centers in Emsdetten, Greven, Rheine and Nordhorn; the first three are in Kreis Steinfurt. City of Emsdetten reported the TKRZ data center opening with 20 new cabinets plus 18 existing cabinets, about 2,000 rack units total.",
+  "world_batch": true
+}

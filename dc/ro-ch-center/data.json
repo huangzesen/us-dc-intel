@@ -1,0 +1,20 @@
+{
+  "slug": "ro-ch-center",
+  "canonical_project": "CH-Center",
+  "owner": "Ch-net S.R.L.",
+  "location": {
+    "city": "",
+    "subnational": "Ilfov",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/romania/ch-center1"
+  ],
+  "notes": "Data Center Catalog lists CH-Center at Pacii 36, Chiajna, Ilfov, Romania, with colocation, rack cabinet, dedicated server, virtual server, and remote-hands services.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "gb-serverfarm-lon1-feltham-data-centre",
+  "canonical_project": "Serverfarm LON1 Feltham data centre",
+  "owner": "Serverfarm",
+  "location": {
+    "city": "",
+    "subnational": "England - Greater London",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 10.5,
+  "status": "operational",
+  "evidence_date": "2018-03-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.serverfarmllc.com/london-data-center/",
+    "https://www.serverfarmllc.com/case-studies/case-study-sf-lon1/"
+  ],
+  "notes": "Serverfarm acquired the Feltham/London data centre in March 2018 through sale and partial leaseback; public materials describe 130,000 sq ft and 10.5MW.",
+  "world_batch": true
+}

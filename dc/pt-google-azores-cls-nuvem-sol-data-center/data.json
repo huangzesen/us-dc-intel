@@ -1,0 +1,22 @@
+{
+  "slug": "pt-google-azores-cls-nuvem-sol-data-center",
+  "canonical_project": "Google Azores CLS / Nuvem-Sol data center",
+  "owner": "Google",
+  "location": {
+    "city": "",
+    "subnational": "Azores",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": 10,
+  "status": "construction",
+  "evidence_date": "2024-07-29",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.essential-business.pt/2024/07/29/googles-nuvem-project-to-set-up-data-centre-in-the-azores/",
+    "https://www.datacenterdynamics.com/en/news/google-to-develop-new-cable-landing-stations-in-azores-and-hawaii-for-upcoming-subsea-cable-systems/",
+    "https://baxtel.com/data-center/google-azores-cls"
+  ],
+  "notes": "Google cable landing/data infrastructure site in Lagoa, Sao Miguel, Azores, associated with Nuvem and Sol subsea cables; third-party specs report 10 MW and 15,000 sqm, with service around 2026-2027.",
+  "world_batch": true
+}

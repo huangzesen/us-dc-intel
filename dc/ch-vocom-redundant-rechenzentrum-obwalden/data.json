@@ -1,0 +1,20 @@
+{
+  "slug": "ch-vocom-redundant-rechenzentrum-obwalden",
+  "canonical_project": "Vocom Redundant Rechenzentrum Obwalden",
+  "owner": "Vocom Informatik AG",
+  "location": {
+    "city": "",
+    "subnational": "Obwalden",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://vocom.ch/it-angebote/cloud-loesungen/managed-backup"
+  ],
+  "notes": "Vocom marketing for managed backup states that its redundant data center in Canton Obwalden provides high security standards for customer data.",
+  "world_batch": true
+}

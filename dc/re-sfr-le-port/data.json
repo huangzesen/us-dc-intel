@@ -1,0 +1,22 @@
+{
+  "slug": "re-sfr-le-port",
+  "canonical_project": "SFR Le Port",
+  "owner": "SFR Réunion",
+  "location": {
+    "city": "",
+    "subnational": "Reunion",
+    "country": "Reunion",
+    "country_code": "RE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/reunion/le-port/sfr-le-port/",
+    "https://www.datacentermap.com/reunion/le-port/",
+    "https://www.datacentermap.com/c/sfr/"
+  ],
+  "notes": "Data Center Map lists SFR Réunion operating a data center at 3 avenue Théodore Drouhet, 97420 Le Port. Capacity not disclosed in accessible public sources.",
+  "world_batch": true
+}

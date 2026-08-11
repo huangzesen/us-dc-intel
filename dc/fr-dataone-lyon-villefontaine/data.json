@@ -1,0 +1,21 @@
+{
+  "slug": "fr-dataone-lyon-villefontaine",
+  "canonical_project": "DataOne Lyon (Villefontaine)",
+  "owner": "DataOne / BSO",
+  "location": {
+    "city": "",
+    "subnational": "Isère",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-11-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.bso.co/all-insights/bso-unveils-dataone-europes-first-giga-scale-ai-hosting-data-centre",
+    "https://www.datacenters.com/dataone-lyon-dataone-lyon-villefontaine"
+  ],
+  "notes": "Although marketed as Lyon, the facility address is Villefontaine, Isère; it is part of DataOne's two-campus French AI hosting platform acquired by BSO.",
+  "world_batch": true
+}

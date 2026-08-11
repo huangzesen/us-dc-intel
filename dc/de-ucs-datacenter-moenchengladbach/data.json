@@ -1,0 +1,20 @@
+{
+  "slug": "de-ucs-datacenter-moenchengladbach",
+  "canonical_project": "ucs datacenter Moenchengladbach",
+  "owner": "ucs datacenter GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Mönchengladbach",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ucs.cloud/"
+  ],
+  "notes": "ucs datacenter GmbH lists its headquarters and data center in 41199 Moenchengladbach and describes itself as a German mid-market data center provider.",
+  "world_batch": true
+}

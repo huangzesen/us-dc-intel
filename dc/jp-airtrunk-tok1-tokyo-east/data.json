@@ -1,0 +1,21 @@
+{
+  "slug": "jp-airtrunk-tok1-tokyo-east",
+  "canonical_project": "AirTrunk TOK1 Tokyo East",
+  "owner": "AirTrunk",
+  "location": {
+    "city": "",
+    "subnational": "Chiba",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 300,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://airtrunk.com/location/tok1-east-tokyo/",
+    "https://airtrunk.com/airtrunk-powers-the-cloud-in-japan-opening-300mw-tokyo-hyperscale-data-centre/"
+  ],
+  "notes": "AirTrunk describes TOK1 in Inzai's data center hub as Japan's largest hyperscale data center with 300+ MW total capacity across multiple buildings.",
+  "world_batch": true
+}

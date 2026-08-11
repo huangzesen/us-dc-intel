@@ -1,0 +1,21 @@
+{
+  "slug": "de-dts-datacenter-herford",
+  "canonical_project": "DTS DataCenter Herford",
+  "owner": "DTS Systeme GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Herford",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.dts.de/en/cloud/platforms/dts-cloud",
+    "https://www.datacentermap.com/germany/herford/dts-datacenter-herford/"
+  ],
+  "notes": "DTS states its own high-performance data centers in Herford and Münster are the core of its DTS Cloud services; DataCenterMap lists the Herford site at Schrewestraße 2. Capacity not public.",
+  "world_batch": true
+}

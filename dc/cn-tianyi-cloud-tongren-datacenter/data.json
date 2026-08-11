@@ -1,0 +1,21 @@
+{
+  "slug": "cn-tianyi-cloud-tongren-datacenter",
+  "canonical_project": "Tianyi Cloud Tongren datacenter",
+  "owner": "China Telecom Guizhou / Tianyi Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Guizhou - Tongren Diqu",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-06-24",
+  "evidence_grade": "B",
+  "sources": [
+    "http://gz.people.com.cn/n2/2020/0624/c194849-34109861.html",
+    "https://www.tongren.gov.cn/2020/0624/215478.shtml"
+  ],
+  "notes": "People's Daily and Tongren local coverage identify Tianyi Cloud's Tongren datacenter as cloud infrastructure for the city; capacity not disclosed.",
+  "world_batch": true
+}

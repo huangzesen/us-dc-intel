@@ -1,0 +1,21 @@
+{
+  "slug": "rs-city-data-center-kragujevac",
+  "canonical_project": "City Data Center Kragujevac",
+  "owner": "City of Kragujevac / Huawei-supported China donation",
+  "location": {
+    "city": "",
+    "subnational": "Sumadija",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-03-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://arhiva.kragujevac.rs/en/the-city-data-center-has-been-launched/",
+    "https://eid.rs/en/pametni-grad-eng.html"
+  ],
+  "notes": "Municipal city cloud/data center launched in Kragujevac with Huawei participation and a reported USD 2 million China donation; supports city administration, smart city services, backup, virtualization, University of Kragujevac and other users.",
+  "world_batch": true
+}

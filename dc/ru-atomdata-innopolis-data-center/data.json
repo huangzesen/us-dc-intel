@@ -1,0 +1,22 @@
+{
+  "slug": "ru-atomdata-innopolis-data-center",
+  "canonical_project": "Atomdata Innopolis Data Center",
+  "owner": "Atomdata-Innopolis / Rosatom",
+  "location": {
+    "city": "",
+    "subnational": "Tatarstan",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 16,
+  "status": "operational",
+  "evidence_date": "2024-06-03",
+  "evidence_grade": "A",
+  "sources": [
+    "https://atomdata.ru/centers/innopolis/",
+    "https://interfax.com/newsroom/top-stories/102919/",
+    "https://rt.rbc.ru/tatarstan/freenews/6659abfa9a7947e524c9e84f"
+  ],
+  "notes": "Atomdata's official Innopolis page identifies the Tatarstan facility. Interfax reported Rosatom launched the first stage: the full data center is designed for 16 MW, 2,000 racks, and more than 23,000 sqm in two buildings; the first stage has 1,000 rack spaces.",
+  "world_batch": true
+}

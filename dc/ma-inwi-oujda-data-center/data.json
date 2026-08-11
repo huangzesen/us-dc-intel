@@ -1,0 +1,21 @@
+{
+  "slug": "ma-inwi-oujda-data-center",
+  "canonical_project": "INWI Oujda Data Center",
+  "owner": "Wana Corporate / inwi",
+  "location": {
+    "city": "",
+    "subnational": "L'Oriental",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": 0.3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/locations/morocco/oriental/oujda",
+    "https://people.bayt.com/brahim-ouaki-45003217/"
+  ],
+  "notes": "Datacenters.com lists data-center services in Oujda/Oriental. A project CV describes a completed INWI Oujda data center with 300kW IT load and 450kW cooling; treated as weak but plausible evidence.",
+  "world_batch": true
+}

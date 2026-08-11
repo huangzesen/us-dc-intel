@@ -1,0 +1,21 @@
+{
+  "slug": "ro-pidgin-host-bacu-data-center",
+  "canonical_project": "Pidgin Host Bacu Data Center",
+  "owner": "Pidgin Host SRL",
+  "location": {
+    "city": "",
+    "subnational": "Giurgiu",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.pidginhost.com/data-center/",
+    "https://www.pidginhost.com/contact/"
+  ],
+  "notes": "Company site says the data center is in Bacu, Giurgiu County, with dual power feeds backed by UPS and diesel generators and carriers including Vodafone, Orange, Digi, and Euroweb.",
+  "world_batch": true
+}

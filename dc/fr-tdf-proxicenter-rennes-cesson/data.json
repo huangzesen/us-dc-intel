@@ -1,0 +1,21 @@
+{
+  "slug": "fr-tdf-proxicenter-rennes-cesson",
+  "canonical_project": "TDF ProxiCenter Rennes-Cesson",
+  "owner": "TDF",
+  "location": {
+    "city": "",
+    "subnational": "Ille-et-Vilaine",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 0.6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tdf.fr/le-groupe-tdf/histoire-de-tdf/zoom-datacenter-cesson-sevigne/",
+    "https://www.datacentermap.com/france/rennes/proxicenter-rennes-cesson/"
+  ],
+  "notes": "Official TDF page says the Rennes-Cesson datacenter was commissioned in July 2014, with nine rooms and 140 bays; Data Center Map reports 0.6 MW.",
+  "world_batch": true
+}

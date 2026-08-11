@@ -1,0 +1,21 @@
+{
+  "slug": "id-neucentrix-manado",
+  "canonical_project": "neuCentrIX Manado",
+  "owner": "Telkom Indonesia / neuCentrIX",
+  "location": {
+    "city": "",
+    "subnational": "North Sulawesi",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://neucentrix.telkom.co.id/en/location",
+    "https://baxtel.com/data-center/neucentrix-manado"
+  ],
+  "notes": "neuCentrIX's official locations page lists a Manado data center; Baxtel places neuCentrIX Manado at Jalan Wiratama No. 2 and describes it as a Tier-2 facility built in 2019 with a 460 sqm footprint and 227 sqm IT hall.",
+  "world_batch": true
+}

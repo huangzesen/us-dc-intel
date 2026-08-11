@@ -1,0 +1,22 @@
+{
+  "slug": "by-datahata-minsk-data-center",
+  "canonical_project": "DataHata Minsk data center",
+  "owner": "DataHata LLC",
+  "location": {
+    "city": "",
+    "subnational": "Minsk City",
+    "country": "Belarus",
+    "country_code": "BY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datahata.by/",
+    "https://www.datahata.by/company/details.html",
+    "https://www.datacentermap.com/belarus/minsk/datahata/"
+  ],
+  "notes": "DataHata's official site describes it as the first commercial data center in Belarus, located in Minsk at Sharangovicha 19, with colocation, server rental and VPS services.",
+  "world_batch": true
+}

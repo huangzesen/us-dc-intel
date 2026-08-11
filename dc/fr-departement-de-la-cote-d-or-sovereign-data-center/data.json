@@ -1,0 +1,20 @@
+{
+  "slug": "fr-departement-de-la-cote-d-or-sovereign-data-center",
+  "canonical_project": "Département de la Côte-d'Or sovereign data center",
+  "owner": "Département de la Côte-d'Or",
+  "location": {
+    "city": "",
+    "subnational": "Côte-d'Or",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-06-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cotedor.fr/actualite/le-departement-pionnier-en-matiere-de-souverainete-numerique"
+  ],
+  "notes": "Departmental official news says Côte-d'Or has a sovereign data center installed in the department, with 1.8 PB raw storage and 13 high-performance compute servers.",
+  "world_batch": true
+}

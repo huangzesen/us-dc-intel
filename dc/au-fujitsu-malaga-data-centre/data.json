@@ -1,0 +1,22 @@
+{
+  "slug": "au-fujitsu-malaga-data-centre",
+  "canonical_project": "Fujitsu Malaga data centre",
+  "owner": "Fujitsu",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Swan",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.fujitsu.com/au/services/infrastructure/data-centre/",
+    "https://www.datacentermap.com/australia/perth/fujitsu-malaga/",
+    "https://www.peeringdb.com/fac/829"
+  ],
+  "notes": "Fujitsu lists Australian data centre services and aggregate/PeeringDB facility data identifies the Malaga facility at 16 Mulgul Road, Malaga, within City of Swan. No public MW capacity found.",
+  "world_batch": true
+}

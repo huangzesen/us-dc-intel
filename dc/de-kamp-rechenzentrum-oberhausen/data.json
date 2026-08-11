@@ -1,0 +1,22 @@
+{
+  "slug": "de-kamp-rechenzentrum-oberhausen",
+  "canonical_project": "KAMP Rechenzentrum Oberhausen",
+  "owner": "KAMP Netzwerkdienste GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Oberhausen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.kamp.de/kamp-rechenzentrum.html",
+    "https://www.datacentermap.com/germany/oberhausen/kamp-rechenzentrum/",
+    "https://datacenterplatform.com/data-centers/kamp/kamp-germany/kamp-oberhausen/"
+  ],
+  "notes": "KAMP's official site describes its certified NRW data center for server housing/IT outsourcing; DataCenterMap and DatacenterPlatform locate KAMP Oberhausen at Vestische Strasse 89-91.",
+  "world_batch": true
+}

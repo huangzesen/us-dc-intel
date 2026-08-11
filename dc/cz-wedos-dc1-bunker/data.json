@@ -1,0 +1,21 @@
+{
+  "slug": "cz-wedos-dc1-bunker",
+  "canonical_project": "WEDOS DC1 Bunker",
+  "owner": "WEDOS Internet",
+  "location": {
+    "city": "",
+    "subnational": "South Bohemia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://kariera.wedos.com/en/pobocky/",
+    "https://www.datacentermap.com/c/wedos-internet-as/"
+  ],
+  "notes": "WEDOS official locations page states DC1 Bunker is the company's first datacentre in Hluboka nad Vltavou, established in 2010 in a former civil defence shelter and upgraded with more than CZK 20 million invested.",
+  "world_batch": true
+}

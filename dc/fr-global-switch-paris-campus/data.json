@@ -1,0 +1,21 @@
+{
+  "slug": "fr-global-switch-paris-campus",
+  "canonical_project": "Global Switch Paris campus",
+  "owner": "Global Switch",
+  "location": {
+    "city": "",
+    "subnational": "Hauts-de-Seine",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.globalswitch.com/data-centres/paris/",
+    "https://annuaire-entreprises.data.gouv.fr/entreprise/424224897"
+  ],
+  "notes": "Official Global Switch page places the Paris campus at Clichy-Levallois near La Défense; French company registry shows Global Switch Paris at 7 rue Petit, 92110 Clichy with data-processing/hosting activity.",
+  "world_batch": true
+}

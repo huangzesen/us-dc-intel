@@ -1,0 +1,22 @@
+{
+  "slug": "hu-vivanet-dc-budapest",
+  "canonical_project": "VIVAnet DC Budapest",
+  "owner": "VIVAnet DataCenter Kft.",
+  "location": {
+    "city": "",
+    "subnational": "Budapest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vivanet.hu/en/",
+    "https://www.datacentermap.com/c/vivanet-datacenter-kft/",
+    "https://www.datacentermap.com/hungary/budapest/"
+  ],
+  "notes": "VIVAnet's official site states that VIVAnet DC is a carrier-neutral data center in the heart of Budapest, operating since July 2024, with first-phase room capacity for 140 rack cabinets. No public MW figure found.",
+  "world_batch": true
+}

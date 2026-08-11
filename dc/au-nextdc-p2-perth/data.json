@@ -1,0 +1,20 @@
+{
+  "slug": "au-nextdc-p2-perth",
+  "canonical_project": "NEXTDC P2 Perth",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Perth",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/data-centres/perth/p2"
+  ],
+  "notes": "NEXTDC official P2 page lists the East Perth hyperscale facility with 20MW capacity and low-latency connectivity to major cloud on-ramps.",
+  "world_batch": true
+}

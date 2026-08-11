@@ -1,0 +1,21 @@
+{
+  "slug": "de-noris-network-hof1-data-center-hof",
+  "canonical_project": "noris network HOF1 / Data Center Hof",
+  "owner": "noris network AG",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Hof (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.noris.de/en/data-centers/data-center-hof/",
+    "https://www.datacentermap.com/germany/hof/dc-hof-hof1/"
+  ],
+  "notes": "noris network describes an operational data center in Hof; Data Center Map lists noris network HOF1 at Graf-Stauffenberg-Straße 6, 95030 Hof, with 2020 operational relaunch timeline.",
+  "world_batch": true
+}

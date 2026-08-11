@@ -1,0 +1,20 @@
+{
+  "slug": "fr-opcore-montereau-fault-yonne-datacenter-campus",
+  "canonical_project": "OpCore Montereau-Fault-Yonne datacenter campus",
+  "owner": "OpCore / iliad",
+  "location": {
+    "city": "",
+    "subnational": "Seine-et-Marne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2024-11-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/iliad-subsidiary-announces-data-center-campus-at-former-enedis-site-near-paris/"
+  ],
+  "notes": "OpCore announced a datacenter campus on a former Enedis site in Montereau-Fault-Yonne, Seine-et-Marne; source says several hundred MW but no precise MW figure.",
+  "world_batch": true
+}

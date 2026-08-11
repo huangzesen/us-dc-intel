@@ -1,0 +1,21 @@
+{
+  "slug": "dk-university-of-southern-denmark-sonderborg-ai-supercomputer-data-center",
+  "canonical_project": "University of Southern Denmark Sonderborg AI supercomputer data center",
+  "owner": "University of Southern Denmark / Danfoss / HPE",
+  "location": {
+    "city": "",
+    "subnational": "Southern Denmark",
+    "country": "Denmark",
+    "country_code": "DK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-05-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.danfoss.com/en/about-danfoss/news/cf/sdu-creates-advanced-and-energy-efficient-data-center-for-danish-ai-and-supercomputing-research-in-collaboration-with-danfoss-and-hpe/",
+    "https://www.datacenterdynamics.com/en/news/university-of-southern-denmark-brings-ai-supercomputer-online-in-s%C3%B8nderborg/"
+  ],
+  "notes": "Danfoss announced the Danish AI/supercomputing data center with SDU and HPE; DCD later reported the Sonderborg system had been brought online using HPE AI Mod POD modular data center technology.",
+  "world_batch": true
+}

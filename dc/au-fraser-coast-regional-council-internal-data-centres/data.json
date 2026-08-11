@@ -1,0 +1,20 @@
+{
+  "slug": "au-fraser-coast-regional-council-internal-data-centres",
+  "canonical_project": "Fraser Coast Regional Council internal data centres",
+  "owner": "Fraser Coast Regional Council",
+  "location": {
+    "city": "",
+    "subnational": "Queensland - Fraser Coast",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://poweronaustralia.com.au/case-study/fraser-coast-council/"
+  ],
+  "notes": "Power On Australia's Fraser Coast Council case study says the council maintains its own data centres across multiple sites with communications cabinets, servers and 3-phase UPS infrastructure. This appears to be internal government IT infrastructure rather than a commercial colocation or hyperscale project.",
+  "world_batch": true
+}

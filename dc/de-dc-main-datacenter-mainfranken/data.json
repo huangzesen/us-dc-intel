@@ -1,0 +1,22 @@
+{
+  "slug": "de-dc-main-datacenter-mainfranken",
+  "canonical_project": "DC:MAIN Datacenter Mainfranken",
+  "owner": "DC:MAIN GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Würzburg (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.dcmain.de/",
+    "https://dchub.cloud/facilities/dcmain-gmbh-datacenter-mainfranken-400bfe6d",
+    "https://www.datacentermap.com/germany/wuerzburg/datacenter-mainfranken/"
+  ],
+  "notes": "Official DC:MAIN site identifies the regional Würzburg data center/operator; DCHub reports Datacenter Mainfranken in Würzburg as operational with 3.0 MW power capacity. Capacity comes from third-party database.",
+  "world_batch": true
+}

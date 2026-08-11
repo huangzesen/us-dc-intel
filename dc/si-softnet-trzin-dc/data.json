@@ -1,0 +1,23 @@
+{
+  "slug": "si-softnet-trzin-dc",
+  "canonical_project": "Softnet Trzin DC",
+  "owner": "SoftNET d.o.o.",
+  "location": {
+    "city": "",
+    "subnational": "Trzin",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": 0.4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/slovenia/ljubljana/softnet-trzin-dc/",
+    "https://www.peeringdb.com/fac/5124",
+    "https://inflect.com/building/2-borovec-trzin/softnet-d-o-o/datacenter/softnet",
+    "https://www.softnet.si/"
+  ],
+  "notes": "Facility at Borovec 2, 1236 Trzin. DataCenterMap and PeeringDB identify Softnet Trzin DC operated by SoftNET; SoftNET's own site confirms company address at Borovec 2, Trzin. Inflect reports 400 kW power capacity with redundant power and N+1 cooling; capacity treated as aggregate-source estimate.",
+  "world_batch": true
+}

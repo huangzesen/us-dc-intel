@@ -1,0 +1,21 @@
+{
+  "slug": "kr-kt-seoul-gwanghwamun-idc",
+  "canonical_project": "KT Seoul / Gwanghwamun IDC",
+  "owner": "KT Corporation / kt IDC",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Jongno-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/178-sejong-daero-jongno-gu-seoul/kt-corporation/datacenter/kt-corporation-gangnam-idc",
+    "https://m.corp.kt.com/eng/html/intro/info/locations_02.html"
+  ],
+  "notes": "Inflect lists KT Seoul as a data center at 178 Sejong-daero, Jongno-gu; KT's official locations page corroborates the 178 Sejong-daero KT Gwanghwamun West building address. Public MW capacity not found.",
+  "world_batch": true
+}

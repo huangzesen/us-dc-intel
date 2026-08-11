@@ -1,0 +1,23 @@
+{
+  "slug": "je-jt-rue-des-pres-data-centre",
+  "canonical_project": "JT Rue Des Pres Data Centre",
+  "owner": "JT Group Limited",
+  "location": {
+    "city": "",
+    "subnational": "Jersey",
+    "country": "Jersey",
+    "country_code": "JE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://business.jtglobal.com/wp-content/uploads/2020/03/JT-RDP-Data-Centre-PD-26-02-2020.pdf",
+    "https://www.datacentermap.com/jersey/st-saviour/jersey-telcom---new-dc---dec-2010/",
+    "https://saradan.co.uk/projects/jersey-telecom-rue-de-pres/",
+    "https://www.ap-technical.com/blog/2010/07/new-data-centre-for-jersey"
+  ],
+  "notes": "Official JT product description identifies the Rue Des Pres facility as a Tier 3 data centre with dual 1.5 MVA transformers, 4x550 kVA generators, 2x800 kVA UPS units, 840 kW cooling and managed hosting/colocation service. AP Technical's 2010 article said JT secured the Rue des Pres site as its fourth Jersey data centre, and Saradan describes the conversion into a 400-rack Tier 3 co-hosting data centre.",
+  "world_batch": true
+}

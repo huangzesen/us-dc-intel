@@ -1,0 +1,22 @@
+{
+  "slug": "nz-dci-data-centers-akl02",
+  "canonical_project": "DCI Data Centers AKL02",
+  "owner": "DCI Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": 40,
+  "status": "construction",
+  "evidence_date": "2022-08-05",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dcidatacenters.com/auckland/",
+    "https://www.datacenterdynamics.com/en/news/dci-breaks-ground-on-aucklands-largest-data-center/",
+    "https://itbrief.co.nz/story/dci-data-centers-breaks-ground-on-akl02-center"
+  ],
+  "notes": "DCI's Auckland page lists AKL02 on Auckland's North Shore, scheduled for early 2025 delivery; trade coverage reported groundbreaking for a 40 MW AKL02 facility.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "de-lwlcom-bremen-data-centers",
+  "canonical_project": "LWLcom Bremen data centers",
+  "owner": "LWLcom GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bremen - Bremen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/germany/bremen/lwlcom-bre01/",
+    "https://www.datacentermap.com/germany/bremen/lwlcom-bre01/specs/",
+    "https://cloudscene.com/data-center/germany/bremen/lwlcom-bremen"
+  ],
+  "notes": "DataCenterMap and Cloudscene list LWLcom Bremen colocation facilities, including BRE01 at Pastorenweg 70 and additional Bremen city data centers; BRE01 specs show 900 sqm whitespace and 1,200 sqm total building size.",
+  "world_batch": true
+}

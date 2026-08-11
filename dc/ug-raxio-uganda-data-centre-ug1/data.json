@@ -1,0 +1,24 @@
+{
+  "slug": "ug-raxio-uganda-data-centre-ug1",
+  "canonical_project": "Raxio Uganda Data Centre (UG1)",
+  "owner": "Raxio Group (Raxio Data Centre Ltd)",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Uganda",
+    "country_code": "UG"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.raxiogroup.com/data-centres/uganda/",
+    "https://www.datacenterdynamics.com/en/news/raxio-opens-tier-iii-data-center-in-uganda/",
+    "https://www.newvision.co.ug/category/business/uganda-gets-first-tier-iii-data-centre-105025",
+    "https://www.datacentermap.com/uganda/kampala/raxio-uganda1/",
+    "https://www.independent.co.ug/raxio-data-centre-primed-for-all-ugandas-cloud-computing-digital-needs/"
+  ],
+  "notes": "Uganda's first Tier III (Uptime Institute certified) carrier- and cloud-neutral colocation data centre, opened in 2021 at Namanve Industrial Park along the Kampala-Jinja Highway, about 15 km from Kampala CBD (Kampala metropolitan area; directory lists address as Plot 781, Block 113, Namanve Industrial Park, straddling Wakiso/Mukono districts, both in Central region). Specs per Raxio: 1,000 m2 white space, up to 400 racks, 1.5 MW IT power, 2 MW cooling, 33 kV utility supply, 2N power redundancy, 15 connectivity providers on site. Capacity figure is the facility's IT power. Raxio launched the 'State of Data Centres in Uganda 2024/25' report from this facility (April 2025) and in May 2025 announced an expanded/advanced facility at Namanve to meet growing demand; also received IFC investment for pan-African expansion. DCD, New Vision and Observer cover the launch and $15m lifecycle investment.",
+  "world_batch": true
+}

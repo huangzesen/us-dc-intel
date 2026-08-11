@@ -1,0 +1,22 @@
+{
+  "slug": "in-nic-national-data-centre-shastri-park",
+  "canonical_project": "NIC National Data Centre, Shastri Park",
+  "owner": "National Informatics Centre / NICSI",
+  "location": {
+    "city": "",
+    "subnational": "Delhi - North East Delhi",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-03-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://del.nic.in/service/data-centres/",
+    "https://webcast.gov.in/ndcshastripark",
+    "https://bidplus.gem.gov.in/bidding/bid/downloadBuyerDoc/7595963/17410850293101.pdf"
+  ],
+  "notes": "NIC Delhi says NIC has set up National Data Centres at Delhi/Pune/Hyderabad; Government webcast archived the 17-Dec-2012 inauguration of National Data Centre at Shastri Park, New Delhi. A 2025 GeM buyer document for NDCSP says the facility was established in 2011 and has around 475 racks hosting National Cloud and government applications; MW capacity not disclosed.",
+  "world_batch": true
+}

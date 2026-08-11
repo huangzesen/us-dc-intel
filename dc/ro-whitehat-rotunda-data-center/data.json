@@ -1,0 +1,22 @@
+{
+  "slug": "ro-whitehat-rotunda-data-center",
+  "canonical_project": "WhiteHat Rotunda Data Center",
+  "owner": "WhiteHat / Anonymous SRL",
+  "location": {
+    "city": "",
+    "subnational": "Bacau",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/whitehat-rotunda",
+    "https://www.newby-ventures.com/research/db/facility/9223/20737",
+    "https://colomap.com/facilities/whitehat/"
+  ],
+  "notes": "Public listings identify WhiteHat as a colocation/interconnection facility in Rotunda, Bacau County, with regional fiber/IX connectivity; public power data is inconsistent or not directly verified, so capacity is null.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "au-colocity-dc1-pulteney-street",
+  "canonical_project": "Colocity DC1 Pulteney Street",
+  "owner": "Colocity",
+  "location": {
+    "city": "",
+    "subnational": "South Australia - Adelaide",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://colocity.com/our-data-centres/"
+  ],
+  "notes": "Official Colocity page says it operates two centrally located Adelaide CBD data centres; DC1 is the original Pulteney Street site, opened in 2007 with Tier-2 level redundancy and about 100 square metres of technical space.",
+  "world_batch": true
+}

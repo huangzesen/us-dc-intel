@@ -1,0 +1,21 @@
+{
+  "slug": "es-kumo-valencia-paterna-tier-iv-data-center",
+  "canonical_project": "Kumo Valencia / Paterna Tier IV data center",
+  "owner": "Kumo Networks S.A.U.",
+  "location": {
+    "city": "",
+    "subnational": "Valencian Community",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://kumonetworks.es/en",
+    "https://www.datacentermap.com/spain/valencia/"
+  ],
+  "notes": "Kumo lists a Valencia office/data-center address in Paterna and Uptime-grade certifications; DataCenterMap describes the Paterna site as a Tier IV data center with over EUR50m investment.",
+  "world_batch": true
+}

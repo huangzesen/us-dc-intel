@@ -1,0 +1,21 @@
+{
+  "slug": "de-ntt-berlin-2-data-center-marienpark",
+  "canonical_project": "NTT Berlin 2 Data Center / Marienpark",
+  "owner": "NTT Global Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Berlin - Berlin",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 24,
+  "status": "operational",
+  "evidence_date": "2022-10-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/emea/berlin-2-data-center",
+    "https://services.global.ntt/en-us/newsroom/berlin-2-data-center-goes-live"
+  ],
+  "notes": "Official NTT pages place Berlin 2 at Lankwitzer Strasse 45-47 and state 24 MW maximum/initial IT capacity across buildings A and B.",
+  "world_batch": true
+}

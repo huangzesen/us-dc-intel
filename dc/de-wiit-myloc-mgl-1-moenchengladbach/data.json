@@ -1,0 +1,22 @@
+{
+  "slug": "de-wiit-myloc-mgl-1-moenchengladbach",
+  "canonical_project": "WIIT / myLoc MGL 1 Moenchengladbach",
+  "owner": "WIIT AG",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Mönchengladbach",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-03-20",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.wiit.cloud/en/services/cloud/colocation/data-center-moenchengladbach/",
+    "https://www.wfmg.de/wiit-ag-in-moenchengladbach-rechenzentrum-neu-eroeffnet/",
+    "https://www.datacentermap.com/germany/duesseldorf/wiit-mgl1/specs/"
+  ],
+  "notes": "WIIT's official page lists a Moenchengladbach data center at Dieselstrasse 34 with 440 sqm and 176 racks; local economic development reported the newly opened facility and ISO certification.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "jp-ntt-west-kumamoto-data-center",
+  "canonical_project": "NTT West Kumamoto Data Center",
+  "owner": "NTT West / NTT Group",
+  "location": {
+    "city": "",
+    "subnational": "Kumamoto",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://business.ntt-west.co.jp/solution/datacenter/",
+    "https://cloudscene.com/data-center/japan/regional/ntt-communications-kumamoto-data-center"
+  ],
+  "notes": "NTT West states its data center service covers all 30 western Japan prefectures; Cloudscene separately identifies an NTT Communications Kumamoto Data Center. Public MW not found.",
+  "world_batch": true
+}

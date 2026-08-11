@@ -1,0 +1,21 @@
+{
+  "slug": "in-yotta-g1-data-center-gift-city",
+  "canonical_project": "Yotta G1 Data Center (GIFT City)",
+  "owner": "Yotta Infrastructure (Hiranandani Group)",
+  "location": {
+    "city": "",
+    "subnational": "Gujarat - Gandhinagar",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2024-06-25",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/india/ahmedabad/yotta-g1/",
+    "https://geofflyon.wordpress.com/2024/06/25/darshan-hiranandanis-data-center-investments-are-changing-the-face-of-tech-in-gujarat/"
+  ],
+  "notes": "Superscale cloud data center in GIFT City (Gandhinagar district, on Ahmedabad border). Operational since March 2024; phase-1 ~2 MW power / 350 racks (datacentermap lists 1 MW); ~Rs 500 crore investment reported.",
+  "world_batch": true
+}

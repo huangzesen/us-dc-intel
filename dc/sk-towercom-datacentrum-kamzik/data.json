@@ -1,0 +1,21 @@
+{
+  "slug": "sk-towercom-datacentrum-kamzik",
+  "canonical_project": "Towercom Datacentrum (Kamzik)",
+  "owner": "Towercom, a.s.",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": 2.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://towercom.sk/sk/sluzby/datove-centrum",
+    "https://zive.aktuality.sk/clanok/2zMtEE2/predstavujeme-jedinecne-datove-centrum-s-modernou-technikou-a-exkluzivnou-polohou/"
+  ],
+  "notes": "Colocation DC in the premises of the Kamzik TV transmitter in Bratislava; designed to Tier III criteria, 480 m2 technology space, powered by two 1250 kVA transformers (N+1) with rotary UPS and NZ2 Phoenix Zeppelin diesel energy centre; INERGEN fire suppression; connectivity to SIX and SITEL peering. capacity_mw derived from 2x1250 kVA connected transformers.",
+  "world_batch": true
+}

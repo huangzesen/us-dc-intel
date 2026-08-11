@@ -1,0 +1,21 @@
+{
+  "slug": "fr-pau-public-proximity-data-center",
+  "canonical_project": "Pau public proximity data center",
+  "owner": "Communauté d’Agglomération Pau Béarn Pyrénées / Fibre Paloise / Axione",
+  "location": {
+    "city": "",
+    "subnational": "Pyrénées-Atlantiques",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 0.12,
+  "status": "construction",
+  "evidence_date": "2026-07-03",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.pau.fr/actualites/un-data-center-en-construction-proximite-du-centre-technique-municipal",
+    "https://dcmag.fr/pau-et-axione-construisent-le-premier-data-center-de-proximite-public-des-pyrenees-atlantiques/"
+  ],
+  "notes": "Pau official page says the first public proximity data center in Pyrénées-Atlantiques is under construction near the municipal technical center and due in October 2027; DCMag reports 120kW IT environment, 450 sqm main building, and Tier 3-aligned resilience.",
+  "world_batch": true
+}

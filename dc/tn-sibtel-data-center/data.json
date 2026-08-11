@@ -1,0 +1,21 @@
+{
+  "slug": "tn-sibtel-data-center",
+  "canonical_project": "SIBTEL Data Center",
+  "owner": "SIBTEL",
+  "location": {
+    "city": "",
+    "subnational": "Tunis",
+    "country": "Tunisia",
+    "country_code": "TN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2018-03-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.sibtel.com.tn/",
+    "https://www.ilboursa.com/marches/la-sibtel-se-dote-d-un-nouveau-data-center_13133"
+  ],
+  "notes": "Tunisian interbank card-processing operator SIBTEL announced a new data center in 2018. Public source does not disclose IT load or exact governorate address; assigned to Tunis based on SIBTEL headquarters and banking-infrastructure context.",
+  "world_batch": true
+}

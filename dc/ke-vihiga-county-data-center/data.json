@@ -1,0 +1,22 @@
+{
+  "slug": "ke-vihiga-county-data-center",
+  "canonical_project": "Vihiga County Data Center",
+  "owner": "County Government of Vihiga",
+  "location": {
+    "city": "",
+    "subnational": "Vihiga",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-06-07",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.talkafrica.co.ke/how-vihigas-governor-otichillo-replaced-guesswork-with-evidence/",
+    "https://vihiga.go.ke/wp-content/uploads/FINAL-CIDP-2023-2027.pdf",
+    "https://vihiga.go.ke/wp-content/uploads/ADP-2024-25-FINAL-1.pdf"
+  ],
+  "notes": "County government data/GIS facility used for evidence-based planning; no public MW capacity found. Vihiga planning documents show data-centre establishment/planning, and 2026 reporting says the county was leveraging the Vihiga Data Center.",
+  "world_batch": true
+}

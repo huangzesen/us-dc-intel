@@ -1,0 +1,21 @@
+{
+  "slug": "in-ntt-data-kolkata-1-campus",
+  "canonical_project": "NTT DATA Kolkata 1 Campus",
+  "owner": "NTT DATA / NTT Global Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "West Bengal - North 24 Parganas",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 25,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/india/kolkata-1-data-center",
+    "https://www.datacenterdynamics.com/en/news/ntt-launches-kolkata-data-center-campus-in-west-bengal-india/"
+  ],
+  "notes": "Official NTT page says it is developing a 25+ MW, two-data-center campus in New Town over about 7.5 acres; first building client IT load is 6.4 MW. DCD reported campus launch in February 2025 and 40 MW facility load at full buildout.",
+  "world_batch": true
+}

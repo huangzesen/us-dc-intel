@@ -1,0 +1,22 @@
+{
+  "slug": "bg-neterra-sofia-data-center-2-sdc-2",
+  "canonical_project": "Neterra Sofia Data Center 2 (SDC 2)",
+  "owner": "Neterra",
+  "location": {
+    "city": "",
+    "subnational": "Sofia (stolitsa)",
+    "country": "Bulgaria",
+    "country_code": "BG"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2022-05-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://neterra.net/news/neterra-opened-a-second-data-center-building-in-sofia-bulgaria",
+    "https://www.datacenterdynamics.com/en/news/neterra-launches-data-center-in-sofia-bulgaria/",
+    "https://www.datacentermap.com/bulgaria/sofia/sofia-sdc2/"
+  ],
+  "notes": "Neterra opened SDC 2 next to SDC 1 in Sofia; the operator says the four-level facility has over 1,400 sq m and 2 MW of installed capacity.",
+  "world_batch": true
+}

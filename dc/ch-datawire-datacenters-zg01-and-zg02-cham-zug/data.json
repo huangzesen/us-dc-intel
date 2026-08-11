@@ -1,0 +1,22 @@
+{
+  "slug": "ch-datawire-datacenters-zg01-and-zg02-cham-zug",
+  "canonical_project": "DATAWIRE Datacenters ZG01 and ZG02, Cham/Zug",
+  "owner": "DATAWIRE AG",
+  "location": {
+    "city": "",
+    "subnational": "Zug",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datawire.ch/datacenter/",
+    "https://datawire.ch/datacenter/zg01/",
+    "https://datawire.ch/datacenter/zg02/"
+  ],
+  "notes": "DATAWIRE states it operates two state-of-the-art data centers in Canton Zug, with ZG01 and ZG02 pages describing redundant cooling, UPS, power feeds, monitoring, and security controls.",
+  "world_batch": true
+}

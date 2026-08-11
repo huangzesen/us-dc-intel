@@ -1,0 +1,20 @@
+{
+  "slug": "am-ucom-colocation-data-center",
+  "canonical_project": "Ucom colocation data center",
+  "owner": "Ucom CJSC",
+  "location": {
+    "city": "",
+    "subnational": "Yerevan",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ucom.am/en/business/colocation1"
+  ],
+  "notes": "Ucom's official colocation page describes customer equipment installation at Ucom technical nodes/data center, including rack space, power, cooling, security, access, and 24/7 support options.",
+  "world_batch": true
+}

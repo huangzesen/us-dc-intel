@@ -1,0 +1,21 @@
+{
+  "slug": "fr-c-cin-chartres-innovation-numerique-datacenter",
+  "canonical_project": "C'CIN Chartres Innovation Numérique Datacenter",
+  "owner": "C'CIN",
+  "location": {
+    "city": "",
+    "subnational": "Eure-et-Loir",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ccin.fr/pages/datacenter",
+    "https://carte.dcmag.fr/france-centre-val-de-loire/"
+  ],
+  "notes": "C'CIN official page describes a local datacenter based in Chartres/Eure-et-Loir for hosting and securing business data; DC Mag's datacenter map lists C'CIN in department 28.",
+  "world_batch": true
+}

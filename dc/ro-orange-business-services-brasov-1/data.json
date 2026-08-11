@@ -1,0 +1,21 @@
+{
+  "slug": "ro-orange-business-services-brasov-1",
+  "canonical_project": "Orange Business Services Brasov 1",
+  "owner": "Orange Romania / Orange Business",
+  "location": {
+    "city": "",
+    "subnational": "Brasov",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 1.2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://inflect.com/building/9-strada-mihail-sadoveanu-brasov/orange-business-services/datacenter/telekom-romania-communications-s-a-hosting-data-center-brasov",
+    "https://datacenter-forum.ro/orange-romania-detine-cea-mai-importanta-infrastructura-de-centre-de-date-din-tara-noastra/"
+  ],
+  "notes": "Inflect lists Orange Business Services Brasov at 9 Strada Mihail Sadoveanu with 1,200 kW total power and 72,000 sq ft; DataCenter Forum says Orange owns commercial data centers in Brasov and is the only provider with two data centers in multiple Romanian cities including Brasov.",
+  "world_batch": true
+}

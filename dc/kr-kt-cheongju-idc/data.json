@@ -1,0 +1,22 @@
+{
+  "slug": "kr-kt-cheongju-idc",
+  "canonical_project": "KT Cheongju IDC",
+  "owner": "KT Corporation / KT Cloud",
+  "location": {
+    "city": "",
+    "subnational": "North Chungcheong - Cheongju-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/kt-cloud-cheongju",
+    "https://baxtel.com/data-center/kt-cheongju-idc",
+    "https://inflect.com/building/12-1sunhwan-ro-1063beon-gil-cheongju-si/kt-corporation/datacenter/kt-corporation-cheongju-idc"
+  ],
+  "notes": "Colocation directory sources list KT Cheongju IDC in Cheongju-si; Datacenters.com reports access to 20MW of power. Older Korean press confirms Cheongju IDC operations, but no current official capacity page found.",
+  "world_batch": true
+}

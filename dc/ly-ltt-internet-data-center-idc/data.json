@@ -1,0 +1,22 @@
+{
+  "slug": "ly-ltt-internet-data-center-idc",
+  "canonical_project": "LTT Internet Data Center (IDC)",
+  "owner": "Libya Telecom and Technology (LTT)",
+  "location": {
+    "city": "",
+    "subnational": "Tripoli",
+    "country": "Libya",
+    "country_code": "LY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/libya/tripoli/ltt-internet-data-center/",
+    "https://www.datacentermap.com/c/libya-telecom-and-technology/",
+    "https://www.colocationm.com/libya/tripoli-dc-3"
+  ],
+  "notes": "Directories reproduce LTT's announcement of the LTT Internet Data Center in Tripoli and describe redundant generators and multiple independent links; no capacity found.",
+  "world_batch": true
+}

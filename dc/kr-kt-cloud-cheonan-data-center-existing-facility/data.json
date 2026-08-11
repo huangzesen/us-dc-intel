@@ -1,0 +1,21 @@
+{
+  "slug": "kr-kt-cloud-cheonan-data-center-existing-facility",
+  "canonical_project": "KT Cloud Cheonan Data Center (existing facility)",
+  "owner": "KT Cloud / KT",
+  "location": {
+    "city": "",
+    "subnational": "Chungcheongnam-do - Cheonan-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/kt-cloud-cheonan",
+    "https://ktengineering.co.kr/연혁"
+  ],
+  "notes": "Existing colocation/cloud data center in Cheonan operated by KT Cloud, listed in datacenters.com directory; KT engineering company history records 'KT Gimhae/Cheonan data center construction' around 2012. Capacity not published in cited sources.",
+  "world_batch": true
+}

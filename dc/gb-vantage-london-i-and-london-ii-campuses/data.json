@@ -1,0 +1,22 @@
+{
+  "slug": "gb-vantage-london-i-and-london-ii-campuses",
+  "canonical_project": "Vantage London I and London II campuses",
+  "owner": "Vantage Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "England - Greater London",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 75.0,
+  "status": "operational",
+  "evidence_date": "2025-09-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vantage-dc.com/data-center-locations/emea/london-i-united-kingdom/",
+    "https://vantage-dc.com/data-center-locations/emea/london-ii-united-kingdom/",
+    "https://vantage-dc.com/news/vantage-data-centers-announces-opening-of-second-london-campus-with-landmark-public-art-installation/"
+  ],
+  "notes": "Vantage states LHR1 will provide 55MW and LHR2 20MW; company announcement says LHR2 in Park Royal was due to open at end-September 2025.",
+  "world_batch": true
+}

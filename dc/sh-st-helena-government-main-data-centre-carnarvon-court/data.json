@@ -1,0 +1,22 @@
+{
+  "slug": "sh-st-helena-government-main-data-centre-carnarvon-court",
+  "canonical_project": "St Helena Government Main Data Centre, Carnarvon Court",
+  "owner": "St Helena Government",
+  "location": {
+    "city": "",
+    "subnational": "Saint Helena",
+    "country": "Saint Helena, Ascension and Tristan da Cunha",
+    "country_code": "SH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-03-07",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sainthelena.gov.sh/quarantine-exemption-for-engineers-to-commission-critical-backup-solutions/",
+    "https://www.sainthelena.gov.sh/app/uploads/gazette/EX-GAZ-9-Exemption-from-Isolation-Order-Engineer-S-Leak-R-Jayeesan.pdf",
+    "https://www.sainthelena.gov.sh/shg-invites-expressions-of-interest-for-st-helena-electronic-communications-providers/"
+  ],
+  "notes": "Official St Helena Government release and Gazette exemption identify SHG's Main Data Centre at Carnarvon Court in Jamestown as an existing essential-services site receiving Schneider Electric critical backup battery commissioning in March 2022. Capacity not published. A 2020 official electronic-communications EOI also listed on-island Teleport & Data Centre services, but a later procurement update said no agreement was reached; no separate hyperscale/colo project was confirmed.",
+  "world_batch": true
+}

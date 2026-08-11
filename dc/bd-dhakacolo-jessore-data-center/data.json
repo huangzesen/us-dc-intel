@@ -1,0 +1,21 @@
+{
+  "slug": "bd-dhakacolo-jessore-data-center",
+  "canonical_project": "DhakaColo Jessore Data Center",
+  "owner": "DhakaColo / Earth Telecommunication Pvt. Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Khulna",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/dhakacolo-jessore",
+    "https://gotcolo.com/data-center/jessore-data-center/"
+  ],
+  "notes": "Commercial directories/provider pages list a Tier III-standard DhakaColo Jessore facility at 44 M K Road, Jashore with 2N redundancy; capacity not stated.",
+  "world_batch": true
+}

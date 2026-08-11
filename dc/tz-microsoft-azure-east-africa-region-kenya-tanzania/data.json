@@ -1,0 +1,21 @@
+{
+  "slug": "tz-microsoft-azure-east-africa-region-kenya-tanzania",
+  "canonical_project": "Microsoft Azure East Africa region (Kenya & Tanzania)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Dar es Salaam",
+    "country": "Tanzania, United Republic of",
+    "country_code": "TZ"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://dig.watch/updates/microsoft-and-g42-invest-1-billion-in-kenyan-data-center",
+    "https://windowsforum.com/windows-news.4/kenya-azure-data-center-delay-microsoft-g42-power-and-sovereign-payment-risk.417384/"
+  ],
+  "notes": "Microsoft announced plans (May 2023) for its first East Africa cloud region spanning Kenya and Tanzania, with Tanzanian facilities expected in Dar es Salaam; no confirmed construction as of Aug 2026; the Kenya leg (US$1bn Microsoft/G42 project, May 2024) reported delayed over capacity-payment guarantees (Bloomberg, May 2026); Tanzania component status uncertain.",
+  "world_batch": true
+}

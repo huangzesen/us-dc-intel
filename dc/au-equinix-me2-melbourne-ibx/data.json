@@ -1,0 +1,21 @@
+{
+  "slug": "au-equinix-me2-melbourne-ibx",
+  "canonical_project": "Equinix ME2 Melbourne IBX",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Port Phillip",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/melbourne-data-centers/me2",
+    "https://itbrief.com.au/story/equinix-expands-melbourne-footprint-with-fourth-data-centre-worth-116-million"
+  ],
+  "notes": "Equinix operator page lists ME2 at 578 Lorimer Street, Port Melbourne, Melbourne VIC 3207 with 87,963 sq ft of data-centre space; trade press reported ME2 opening in Fishermans Bend in 2020. MW not disclosed on primary source.",
+  "world_batch": true
+}

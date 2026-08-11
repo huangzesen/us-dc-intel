@@ -1,0 +1,21 @@
+{
+  "slug": "in-aws-asia-pacific-hyderabad-region",
+  "canonical_project": "AWS Asia Pacific (Hyderabad) Region",
+  "owner": "Amazon Web Services (Amazon Data Services India)",
+  "location": {
+    "city": "",
+    "subnational": "Telangana - Hyderabad",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-11-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/blogs/aws/now-open-the-30th-aws-region-asia-pacific-hyderabad-region-in-india/",
+    "https://www.datacenterdynamics.com/en/news/aws-launches-new-indian-cloud-region-in-hyderabad/"
+  ],
+  "notes": "AWS official blog: 30th AWS region (ap-south-2) with three Availability Zones went live in Hyderabad/Telangana in November 2022; first announced November 2020. Campus locations include Chandanvelly (Ranga Reddy district, ~98 acres allotted). MW capacity not disclosed.",
+  "world_batch": true
+}

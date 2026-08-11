@@ -1,0 +1,21 @@
+{
+  "slug": "sg-nxera-dc-west",
+  "canonical_project": "Nxera DC West",
+  "owner": "Nxera / Singtel",
+  "location": {
+    "city": "",
+    "subnational": "South West",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 41,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.nxera-dc.com/",
+    "https://www.datacenterdynamics.com/en/news/singtel-to-close-five-legacy-data-centers-in-singapore-report/"
+  ],
+  "notes": "Nxera official site lists DC West among Singapore facilities; DCD reports DC West as a 570,000 sq ft, 41MW facility taken over from Singtel.",
+  "world_batch": true
+}

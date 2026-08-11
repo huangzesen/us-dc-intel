@@ -1,0 +1,21 @@
+{
+  "slug": "tr-antalya-veri-merkezi-regional-operating-data-center",
+  "canonical_project": "Antalya Veri Merkezi (regional operating data center)",
+  "owner": "Unidentified operator (regional telecom/institutional facility)",
+  "location": {
+    "city": "",
+    "subnational": "Antalya",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-06-24",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.aa.com.tr/tr/bilim-teknoloji/turkiye-veri-merkezlerinde-bolgesel-us-olacak-dijital-ekonominin-kalbi-anadoluda-atacak/3976280",
+    "https://www.olay.com.tr/turkiye-veri-merkezlerinde-bolgesel-us-olacak-1649509"
+  ],
+  "notes": "Anadolu Agency country report (24 Jun 2026) states one data center is operating in Antalya ('Tekirdag, Trabzon, Isparta, Antalya, Adana, Kayseri, Konya ve Samsun'da birer veri merkezi calisiyor'). The specific operator/facility is not named in sources reviewed; no capacity figure available. evidence_grade=C because the facility identity is unverified.",
+  "world_batch": true
+}

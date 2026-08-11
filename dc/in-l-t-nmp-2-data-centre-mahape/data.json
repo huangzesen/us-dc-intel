@@ -1,0 +1,20 @@
+{
+  "slug": "in-l-t-nmp-2-data-centre-mahape",
+  "canonical_project": "L&T NMP 2 data centre (Mahape)",
+  "owner": "L&T",
+  "location": {
+    "city": "",
+    "subnational": "Maharashtra - Thane",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 30,
+  "status": "unknown",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/india/navi-mumbai/"
+  ],
+  "notes": "30MW campus, ~380,000 sq ft, Mahape, Navi Mumbai (Thane district); listed on datacentermap, development stage unverified.",
+  "world_batch": true
+}

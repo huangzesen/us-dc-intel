@@ -1,0 +1,21 @@
+{
+  "slug": "jp-softbank-oita-data-center",
+  "canonical_project": "SoftBank Oita Data Center",
+  "owner": "SoftBank",
+  "location": {
+    "city": "",
+    "subnational": "Oita",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.softbank.jp/business/service/platform/datacenter/oita",
+    "https://www.jdcc.or.jp/dclist/"
+  ],
+  "notes": "SoftBank official facility page identifies Oita Data Center and lists power, UPS, cooling, and certifications. JDCC registry lists Oita Data Center in Oita City, opened 2002 and tier 2 equivalent. MW not disclosed.",
+  "world_batch": true
+}

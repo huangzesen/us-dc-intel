@@ -1,0 +1,21 @@
+{
+  "slug": "by-beltelecom-regional-data-center-brest",
+  "canonical_project": "Beltelecom Regional Data Center Brest",
+  "owner": "RUE Beltelecom",
+  "location": {
+    "city": "",
+    "subnational": "Brest",
+    "country": "Belarus",
+    "country_code": "BY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://beltelecom.by/about/communication-networks/data-centers",
+    "https://www.datacenters.com/beltelecom-beltelecom-regional-brest"
+  ],
+  "notes": "Beltelecom's official data-center page says it built data centers in all regional cities of Belarus in 2007 and provides colocation from those regional DPCs; Datacenters.com identifies the Brest regional facility.",
+  "world_batch": true
+}

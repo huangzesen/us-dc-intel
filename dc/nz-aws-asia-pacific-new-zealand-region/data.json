@@ -1,0 +1,21 @@
+{
+  "slug": "nz-aws-asia-pacific-new-zealand-region",
+  "canonical_project": "AWS Asia Pacific (New Zealand) Region",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-09-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-new-zealand-region/",
+    "https://aws.amazon.com/local/new-zealand/"
+  ],
+  "notes": "AWS announced the New Zealand cloud region is open, with three availability zones and infrastructure in/around Auckland. Public MW capacity was not disclosed.",
+  "world_batch": true
+}

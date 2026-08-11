@@ -1,0 +1,23 @@
+{
+  "slug": "my-kota-petra-green-technology-park-ai-data-centres",
+  "canonical_project": "Kota Petra Green Technology Park AI data centres",
+  "owner": "Zecon Berhad with SDEC and CENTEXS",
+  "location": {
+    "city": "",
+    "subnational": "Sarawak",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2025-10-23",
+  "evidence_grade": "A",
+  "sources": [
+    "https://zecon.com.my/project/kota-petra-green-technology-park/",
+    "https://www.sarawaktribune.com/zecon-berhad-signs-mou-for-development-of-kota-petra-green-technology-park/",
+    "https://w.media/3000-acre-sarawak-tech-park-to-host-ai-data-centers/",
+    "https://dayakdaily.com/3000-acre-kota-petra-green-tech-park-to-power-ai-data-centres-renewable-energy-growth/"
+  ],
+  "notes": "Zecon's official project page says KPGTP is planned with six sites for AI-driven data centres, powered by a 300 MW large-scale solar farm and 600 MWh BESS. The 300 MW figure is generation infrastructure rather than disclosed IT load, so capacity_mw is null.",
+  "world_batch": true
+}

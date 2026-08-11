@@ -1,0 +1,21 @@
+{
+  "slug": "ph-stt-makati-data-center",
+  "canonical_project": "STT Makati Data Center",
+  "owner": "ST Telemedia Global Data Centres Philippines",
+  "location": {
+    "city": "",
+    "subnational": "National Capital Region",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 5,
+  "status": "operational",
+  "evidence_date": "2024-08-27",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sttelemediagdc.com/newsroom/stt-gdc-ph-opens-next-gen-data-hall-makati",
+    "https://www.datacenterdynamics.com/en/news/stt-gdc-philippines-completes-upgrade-of-makati-city-data-center/"
+  ],
+  "notes": "Upgraded Makati facility, formerly Globe MK2; STT GDC states total IT load capacity is over 5 MW after opening Data Hall F.",
+  "world_batch": true
+}

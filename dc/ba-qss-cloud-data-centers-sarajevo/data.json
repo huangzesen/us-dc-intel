@@ -1,0 +1,23 @@
+{
+  "slug": "ba-qss-cloud-data-centers-sarajevo",
+  "canonical_project": "QSS Cloud data centers Sarajevo",
+  "owner": "QSS d.o.o. Sarajevo",
+  "location": {
+    "city": "",
+    "subnational": "Federation of Bosnia and Herzegovina",
+    "country": "Bosnia and Herzegovina",
+    "country_code": "BA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://qsscloud.ba/",
+    "https://qss.ba/",
+    "https://www.cisco.com/c/dam/en/us/solutions/collateral/service-provider/cloud-architecture-microsoft-cloud-platform/qss-success-story-case-study.pdf",
+    "https://ba.linkedin.com/company/qss-smartit"
+  ],
+  "notes": "QSS Cloud states it operates certified data centers in Bosnia and Herzegovina from Sarajevo and provides cloud infrastructure, storage/backup, network and security services; Cisco case study identifies QSS as a Sarajevo cloud provider. MW capacity not published.",
+  "world_batch": true
+}

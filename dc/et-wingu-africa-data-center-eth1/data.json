@@ -1,0 +1,22 @@
+{
+  "slug": "et-wingu-africa-data-center-eth1",
+  "canonical_project": "Wingu Africa Data Center - ETH1",
+  "owner": "Wingu.Africa Group Limited",
+  "location": {
+    "city": "",
+    "subnational": "Addis Ababa",
+    "country": "Ethiopia",
+    "country_code": "ET"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2023-06-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.wingu.africa/",
+    "https://www.datacenterdynamics.com/en/news/winguafrica-inaugurates-ethiopia-data-center/",
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/wingu-africa-data-center--eth1/1904"
+  ],
+  "notes": "Addis Ababa Ethio ICT Park carrier-neutral facility; DCD reported inauguration, 15,000 sqm plot, Tier III design, first Ethiopian IXP hosting, 800 racks and 10MW when fully operational. Uptime lists Tier III design and constructed-facility certifications.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "cn-princeton-digital-group-nt1-nantong",
+  "canonical_project": "Princeton Digital Group NT1 Nantong",
+  "owner": "Princeton Digital Group",
+  "location": {
+    "city": "",
+    "subnational": "Jiangsu - Nantong Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 64,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://princetondg.com/locations/china/",
+    "https://www.datacentermap.com/china/nantong/pdg-nt1/"
+  ],
+  "notes": "PDG's China locations page lists Nantong NT1 as 64 MW across four buildings; third-party listing places it in the Nantong Economic and Technological Development Zone IDC park.",
+  "world_batch": true
+}

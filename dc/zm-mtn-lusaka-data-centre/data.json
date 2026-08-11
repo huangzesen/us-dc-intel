@@ -1,0 +1,21 @@
+{
+  "slug": "zm-mtn-lusaka-data-centre",
+  "canonical_project": "MTN Lusaka Data Centre",
+  "owner": "MTN Zambia",
+  "location": {
+    "city": "",
+    "subnational": "Lusaka",
+    "country": "Zambia",
+    "country_code": "ZM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/zambia/lusaka/mtn-lusaka-data-centre/",
+    "https://www.dcbyte.com/datacentres/mtn-lusaka-data-centre/"
+  ],
+  "notes": "Third-party data-centre directories list an MTN Lusaka Data Centre; no current primary facility page found in this pass.",
+  "world_batch": true
+}

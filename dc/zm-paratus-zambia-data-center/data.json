@@ -1,0 +1,21 @@
+{
+  "slug": "zm-paratus-zambia-data-center",
+  "canonical_project": "Paratus Zambia Data Center",
+  "owner": "Paratus Zambia",
+  "location": {
+    "city": "",
+    "subnational": "Lusaka",
+    "country": "Zambia",
+    "country_code": "ZM"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2021-10-18",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/paratus-opens-1mw-data-center-in-zambia/",
+    "https://paratus.africa/zm/datacenter/"
+  ],
+  "notes": "Data Center Dynamics reported Paratus opened a 1MW data centre in Lusaka; Paratus Zambia's current service page confirms local data centre and colocation services.",
+  "world_batch": true
+}

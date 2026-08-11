@@ -1,0 +1,21 @@
+{
+  "slug": "fr-sobercloud-briancon-solar-datacenter",
+  "canonical_project": "SoberCloud Briançon solar datacenter",
+  "owner": "SoberCloud",
+  "location": {
+    "city": "",
+    "subnational": "Hautes-Alpes",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://sobercloud.fr/",
+    "https://www.pagesjaunes.fr/siret/10171231300010"
+  ],
+  "notes": "Company site describes a French sovereign cloud running from a solar Alpine datacenter in Briançon; business registration lists operation of data centers as an activity.",
+  "world_batch": true
+}

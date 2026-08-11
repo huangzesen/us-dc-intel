@@ -1,0 +1,23 @@
+{
+  "slug": "io-sure-diego-garcia-telecom-network-data-centre-services",
+  "canonical_project": "Sure Diego Garcia telecom/network data centre services",
+  "owner": "Sure (Diego Garcia) Limited",
+  "location": {
+    "city": "",
+    "subnational": "British Indian Ocean Territory",
+    "country": "British Indian Ocean Territory",
+    "country_code": "IO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.sure.io/",
+    "https://sure.io/about-us/company-info/",
+    "https://www.linkedin.com/company/sure-diego-garcia-limited",
+    "https://www.metaswitch.com/about/press-releases/sure-selects-metaswitch-cloud-native-volte-to-expand-reach-of-voice-and-data-services"
+  ],
+  "notes": "Sure Diego Garcia publicly describes operational telecommunications, broadband, mobile, business/government services, and network infrastructure/teleport on Diego Garcia; Sure's company profile and a Metaswitch release describe Sure as delivering data centre services across its island operations including Diego Garcia. No public evidence found for a hyperscale/colocation construction project or disclosed MW capacity in BIOT.",
+  "world_batch": true
+}

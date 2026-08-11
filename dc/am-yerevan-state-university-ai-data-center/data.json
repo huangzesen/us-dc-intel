@@ -1,0 +1,21 @@
+{
+  "slug": "am-yerevan-state-university-ai-data-center",
+  "canonical_project": "Yerevan State University AI data center",
+  "owner": "Yerevan State University / Government of Armenia / Legrand",
+  "location": {
+    "city": "",
+    "subnational": "Yerevan",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-01-08",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ysu.am/en/news/90809",
+    "https://www.datacenterfrontier.com/press-releases/article/55387735/legrand-powers-armenias-first-ai-data-center-at-yerevan-state-university"
+  ],
+  "notes": "YSU says the government-funded 64 NVIDIA H100 supercomputer was installed and the data processing center infrastructure was prepared and tested; Legrand later reported delivery of the AI data center infrastructure and inauguration.",
+  "world_batch": true
+}

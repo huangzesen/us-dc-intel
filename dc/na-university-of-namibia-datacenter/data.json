@@ -1,0 +1,21 @@
+{
+  "slug": "na-university-of-namibia-datacenter",
+  "canonical_project": "University of Namibia Datacenter",
+  "owner": "University of Namibia",
+  "location": {
+    "city": "",
+    "subnational": "Khomas",
+    "country": "Namibia",
+    "country_code": "NA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/university-of-namibia/",
+    "https://datacenterplatform.com/countries/namibia/"
+  ],
+  "notes": "Data Center Platform lists University of Namibia as having one Windhoek data centre; treated as operational institutional facility, capacity not disclosed.",
+  "world_batch": true
+}

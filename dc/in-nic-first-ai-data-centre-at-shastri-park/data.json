@@ -1,0 +1,21 @@
+{
+  "slug": "in-nic-first-ai-data-centre-at-shastri-park",
+  "canonical_project": "NIC first AI data centre at Shastri Park",
+  "owner": "National Informatics Centre",
+  "location": {
+    "city": "",
+    "subnational": "Delhi - North East Delhi",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-07-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://theprint.in/india/governance/nic-is-building-govts-first-ai-data-centre-in-delhi-parliament-legal-databases-in-the-works-too/2978702/",
+    "https://bidplus.gem.gov.in/bidding/bid/downloadBuyerDoc/7595963/17410850293101.pdf"
+  ],
+  "notes": "ThePrint reported NIC is building a government AI data centre at Shastri Park with 1.1 AI exaflops; treated as a distinct compute expansion at/near NDCSP. MW capacity not disclosed; official GeM document confirms the existing Shastri Park NDC context.",
+  "world_batch": true
+}

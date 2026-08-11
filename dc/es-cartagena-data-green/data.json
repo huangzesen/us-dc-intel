@@ -1,0 +1,20 @@
+{
+  "slug": "es-cartagena-data-green",
+  "canonical_project": "Cartagena Data Green",
+  "owner": "Cartagena Data Green consortium",
+  "location": {
+    "city": "",
+    "subnational": "Region of Murcia",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-02-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/es/noticias/cartagena-se-postula-como-nuevo-hub-digital-con-un-centro-de-datos-refrigerado-con-gas-natural-licuado/"
+  ],
+  "notes": "Proposed Valle de Escombreras data center using cold from Enagás LNG regasification plant for high-density/AI workloads; civil works and thermal connection targeted for Q4 2026, testing around mid-2028 and commercial launch H1 2029.",
+  "world_batch": true
+}

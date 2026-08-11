@@ -1,0 +1,22 @@
+{
+  "slug": "au-vantage-mel1-melbourne-tullamarine-campus",
+  "canonical_project": "Vantage MEL1 Melbourne Tullamarine campus",
+  "owner": "Vantage Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Hume",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 64,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vantage-dc.com/data-center-locations/apac/melbourne-australia/",
+    "https://baxtel.com/data-center/vantage-melbourne-mel1",
+    "https://itwire.com/business-it-news/data-centres/us-provider-vantage-building-three-data-centres-in-melbourne"
+  ],
+  "notes": "Vantage lists its Melbourne campus in Tullamarine, six kilometres from Melbourne Airport, with 64MW of IT capacity across a 7-acre campus.",
+  "world_batch": true
+}

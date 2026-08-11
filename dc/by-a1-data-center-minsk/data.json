@@ -1,0 +1,21 @@
+{
+  "slug": "by-a1-data-center-minsk",
+  "canonical_project": "A1 Data Center Minsk",
+  "owner": "A1 / A1 ICT Services",
+  "location": {
+    "city": "",
+    "subnational": "Minsk City",
+    "country": "Belarus",
+    "country_code": "BY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://a1.by/en/company/",
+    "https://baxtel.com/data-center/belarus"
+  ],
+  "notes": "A1 says it launched its Minsk data center in September 2017; the facility spans 7,500 sq m, is designed for 800 racks, and holds Uptime Institute Tier III Design and Facility, PCI DSS, and ISO/IEC 27001 certifications. Baxtel lists it among Belarus' largest data centers.",
+  "world_batch": true
+}

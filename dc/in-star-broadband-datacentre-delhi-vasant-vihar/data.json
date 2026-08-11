@@ -1,0 +1,21 @@
+{
+  "slug": "in-star-broadband-datacentre-delhi-vasant-vihar",
+  "canonical_project": "Star Broadband Datacentre Delhi, Vasant Vihar",
+  "owner": "Star Broadband Services",
+  "location": {
+    "city": "",
+    "subnational": "Delhi - South Delhi",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/no-34-paschimi-marg-vasant-vihar-new-delhi/star-broadband-services/datacenter/star-broadband-datacentre-delhi",
+    "https://www.peeringdb.com/net/12550"
+  ],
+  "notes": "Inflect lists a Star Broadband data center at No. 34, Paschimi Marg, Vasant Vihar, New Delhi 110057; PeeringDB lists Star Broadband Datacentre Delhi as an interconnection facility.",
+  "world_batch": true
+}

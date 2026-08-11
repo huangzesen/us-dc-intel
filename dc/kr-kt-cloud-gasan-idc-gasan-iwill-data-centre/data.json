@@ -1,0 +1,22 @@
+{
+  "slug": "kr-kt-cloud-gasan-idc-gasan-iwill-data-centre",
+  "canonical_project": "KT Cloud Gasan IDC / Gasan Iwill Data Centre",
+  "owner": "KT Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Geumcheon-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 26,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/kt-cloud-to-establish-ai-data-center-demonstration-center-in-seoul-south-korea/",
+    "https://baxtel.com/news/kt-cloud-breaks-ground-on-26mw-facility-in-seoul-south-korea",
+    "https://assets.cushmanwakefield.com/-/media/cw/marketbeat-pdfs/2025/q2/apac-and-gc/korea---data-center-1h-2025-eng_fin_.pdf?rev=0cb5fa8d986747a0b36fce070e4ffc2d"
+  ],
+  "notes": "Trade and marketbeat sources describe KT Cloud's Geumcheon/Gasan hyperscale IDC as 10 above-ground and five basement floors, 100,000-plus server capacity, and 13 MW initial / 26 MW total IT load. No firm public completion confirmation found, so status remains construction.",
+  "world_batch": true
+}

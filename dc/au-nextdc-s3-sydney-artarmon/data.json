@@ -1,0 +1,21 @@
+{
+  "slug": "au-nextdc-s3-sydney-artarmon",
+  "canonical_project": "NEXTDC S3 Sydney Artarmon",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Willoughby",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 80,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/data-centres/sydney-data-centres/s3-sydney",
+    "https://apps.planningportal.nsw.gov.au/prweb/PRRestService/DocMgmt/v1/PublicDocuments/DATA-WORKATTACH-FILE%20PEC-DPE-EP-WORK%20PPS-2019SNH027%2120191204T010535.996%20GMT"
+  ],
+  "notes": "NEXTDC lists S3 as an 80MW Tier IV certified data centre in Artarmon. NSW planning assessment records the approved eight-storey data centre at 2 Broadcast Way, Artarmon, operating 24/7.",
+  "world_batch": true
+}

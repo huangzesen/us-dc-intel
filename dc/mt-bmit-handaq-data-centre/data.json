@@ -1,0 +1,22 @@
+{
+  "slug": "mt-bmit-handaq-data-centre",
+  "canonical_project": "BMIT Handaq Data Centre",
+  "owner": "BMIT Technologies plc / BMIT Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Qormi",
+    "country": "Malta",
+    "country_code": "MT"
+  },
+  "capacity_mw": 1.2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cdn.borzamalta.com.mt/download/announcements/BMIT23.pdf",
+    "https://www.datacentermap.com/malta/qormi/bmit-handaq/",
+    "https://tvmnews.mt/en/news/e10m-investment-by-bmit-new-data-centre-in-limits-of-zejtun/"
+  ],
+  "notes": "Official Malta Stock Exchange announcement says the Tal-Handaq, Qormi property houses BMIT Group's largest data centre with about 300 racks; DatacenterMap lists BMIT Handaq at 54/55 Triq Manuel Borg Gauci, Qormi and reports 1.2 MW. TVM also reports BMIT data centres in Qormi and SmartCity.",
+  "world_batch": true
+}

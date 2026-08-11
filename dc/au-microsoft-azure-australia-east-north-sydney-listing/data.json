@@ -1,0 +1,21 @@
+{
+  "slug": "au-microsoft-azure-australia-east-north-sydney-listing",
+  "canonical_project": "Microsoft Azure Australia East - North Sydney listing",
+  "owner": "Microsoft Azure",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - North Sydney",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/microsoft-azure-australia-east-new-south-wales",
+    "https://www.ocolo.io/colocation/microsoft-azure/australia-east-new-south-wales/"
+  ],
+  "notes": "Aggregator listings place a Microsoft Azure Australia East-New South Wales data centre at 1 Denison Street, North Sydney. Microsoft does not publicly disclose detailed capacity for this location in the sources found.",
+  "world_batch": true
+}

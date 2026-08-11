@@ -1,0 +1,21 @@
+{
+  "slug": "ua-tenet-data-center",
+  "canonical_project": "TENET Data Center",
+  "owner": "TENET",
+  "location": {
+    "city": "",
+    "subnational": "Odesa",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tenet.ua/en/business/data-center",
+    "https://www.datacentermap.com/ukraine/odessa/tenet/"
+  ],
+  "notes": "TENET offers business data center/colocation services; DataCenterMap locates the facility in Odesa. Capacity not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "cn-zunyi-city-big-data-center-municipal-datacenter",
+  "canonical_project": "Zunyi City big-data center / municipal datacenter",
+  "owner": "Zunyi municipal government / Zunyi Big Data Development Bureau",
+  "location": {
+    "city": "",
+    "subnational": "Guizhou - Zunyi Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-04-15",
+  "evidence_grade": "B",
+  "sources": [
+    "http://gz.people.com.cn/n2/2020/0415/c194849-33951433.html",
+    "https://www.zunyi.gov.cn/zwgk/zfxxgk/fdzdgknr/zdlyxxgk/sjfb/bmxxfb/202004/t20200416_56232584.html"
+  ],
+  "notes": "Public coverage describes Zunyi's municipal big-data center and datacenter capability supporting local cloud/government workloads; no public MW capacity found.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "pk-ptcl-data-center-karachi",
+  "canonical_project": "PTCL Data Center Karachi",
+  "owner": "PTCL",
+  "location": {
+    "city": "",
+    "subnational": "Sindh",
+    "country": "Pakistan",
+    "country_code": "PK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.ocolo.io/colocation/ptcl/karachi/",
+    "https://www.datacentermap.com/pakistan/karachi/karachi-data-center/",
+    "https://techiereader.com/data-centers-in-pakistan/"
+  ],
+  "notes": "PTCL's Tier-3+ data center at CTO Building, I.I. Chundrigar Road, Karachi; hosts the Pakistan Internet Exchange (PKIX) powered by DE-CIX for local/international peering.",
+  "world_batch": true
+}

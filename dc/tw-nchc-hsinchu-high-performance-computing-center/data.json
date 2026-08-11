@@ -1,0 +1,22 @@
+{
+  "slug": "tw-nchc-hsinchu-high-performance-computing-center",
+  "canonical_project": "NCHC Hsinchu High-Performance Computing Center",
+  "owner": "National Center for High-performance Computing (NCHC)",
+  "location": {
+    "city": "",
+    "subnational": "Hsinchu",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nchc.org.tw/en/",
+    "https://www.nchc.org.tw/Message/MessageView/3905?mid=92&page=1",
+    "https://dchub.cloud/facilities/national-center-for-high-performance-computing-nchc-hsinchu-09e5fb9b"
+  ],
+  "notes": "NCHC's official pages list Hsinchu headquarters at No. 7 R&D 6th Rd., Hsinchu City and describe HPC services including Taiwania-series systems and Forerunner 1; DC Hub reports the Hsinchu facility as operational with 3 MW.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "de-globe-development-datacenter-muenster",
+  "canonical_project": "GLOBE Development Datacenter Muenster",
+  "owner": "GLOBE Development GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Münster",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.globe.de/",
+    "https://www.peeringdb.com/fac/9109"
+  ],
+  "notes": "GLOBE advertises colocation, servers and hosting operated from its own datacenter in Muenster with reported platform availability above 99.99%; PeeringDB lists the facility.",
+  "world_batch": true
+}

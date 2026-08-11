@@ -1,0 +1,21 @@
+{
+  "slug": "de-cancom-aachen",
+  "canonical_project": "CANCOM Aachen",
+  "owner": "CANCOM SE",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Aachen (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/germany/aachen/cancom-aachen/",
+    "https://www.datacentermap.com/c/cancom/"
+  ],
+  "notes": "Data Center Map lists CANCOM Aachen at Im Suesterfeld 6, 52072 Aachen, with event history noting CANCOM acquired Synaix Group in July 2017.",
+  "world_batch": true
+}

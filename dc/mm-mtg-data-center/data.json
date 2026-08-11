@@ -1,0 +1,20 @@
+{
+  "slug": "mm-mtg-data-center",
+  "canonical_project": "MTG Data Center",
+  "owner": "Myanmar Technology Gateway Co., Ltd. (MTG)",
+  "location": {
+    "city": "",
+    "subnational": "Nay Pyi Taw",
+    "country": "Myanmar",
+    "country_code": "MM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-01-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://corporate.mtg.com.mm/our-services/data-center/"
+  ],
+  "notes": "MTG's official service page describes MTG Data Center as located in Myanmar's capital city, Nay Pyi Taw, and offers rack colocation, open space colocation, private room colocation, dedicated server rental, and VPS services. Page metadata shows last modification on 2023-01-26.",
+  "world_batch": true
+}

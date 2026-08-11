@@ -1,0 +1,21 @@
+{
+  "slug": "kr-digital-edge-seoul-sel1",
+  "canonical_project": "Digital Edge Seoul SEL1",
+  "owner": "Digital Edge DC",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Gangnam-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 2.4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-korea/seoul/digital-edge-seoul-sel1/specs/",
+    "https://www.peeringdb.com/fac/12430"
+  ],
+  "notes": "Carrier-neutral facility at 646/646-1 Yeoksam-dong, Gangnam-gu; Data Center Map lists 2.4 MW and PeeringDB confirms the Gangnam-gu address.",
+  "world_batch": true
+}

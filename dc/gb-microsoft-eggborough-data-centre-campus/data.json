@@ -1,0 +1,22 @@
+{
+  "slug": "gb-microsoft-eggborough-data-centre-campus",
+  "canonical_project": "Microsoft Eggborough data centre campus",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "England - North Yorkshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2024-02-29",
+  "evidence_grade": "A",
+  "sources": [
+    "https://local.microsoft.com/blog/eggborough-datacentre-project-updates/",
+    "https://www.datacenterdynamics.com/en/news/microsoft-to-build-data-center-campus-on-former-power-station-site-in-north-yorkshire-uk/",
+    "https://baxtel.com/data-center/microsoft-eggborough"
+  ],
+  "notes": "Microsoft proposed a two-building data centre campus on part of the former Eggborough Power Station site in North Yorkshire, with planning targeted for mid-2024 and construction targeted for early 2027; reviewed public sources did not state MW capacity.",
+  "world_batch": true
+}

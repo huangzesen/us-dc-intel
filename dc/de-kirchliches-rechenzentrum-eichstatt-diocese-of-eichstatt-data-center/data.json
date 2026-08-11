@@ -1,0 +1,22 @@
+{
+  "slug": "de-kirchliches-rechenzentrum-eichstatt-diocese-of-eichstatt-data-center",
+  "canonical_project": "Kirchliches Rechenzentrum Eichstätt / Diocese of Eichstätt data center",
+  "owner": "Diocese of Eichstätt",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Eichstätt",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://rechenzentrum.bistum-eichstaett.de/",
+    "https://www.ei-live.de/2023/05/11/oekostrom-und-it-sicherheit-fuer-bis-zu-600-000-user-das-rechenzentrum-der-dioezese/",
+    "https://www.donaukurier.de/lokales/landkreis-eichstaett/bischoefliches-ordinariat-punktet-zum-dritten-mal-in-folge-beim-umweltschutz-10452487"
+  ],
+  "notes": "Official Diocese page identifies the Kirchliche Rechenzentrum Eichstätt as an IT service provider for church, diaconia and Caritas customers. Local reporting says the diocesan data center uses green electricity, supports up to about 40,000 users, and had a reported PUE of 1.16; MW capacity not disclosed.",
+  "world_batch": true
+}

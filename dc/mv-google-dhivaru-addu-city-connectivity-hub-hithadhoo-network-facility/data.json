@@ -1,0 +1,21 @@
+{
+  "slug": "mv-google-dhivaru-addu-city-connectivity-hub-hithadhoo-network-facility",
+  "canonical_project": "Google Dhivaru Addu City connectivity hub / Hithadhoo network facility",
+  "owner": "Google, with Dhiraagu and Ooredoo Maldives collaboration",
+  "location": {
+    "city": "",
+    "subnational": "Addu City",
+    "country": "Maldives",
+    "country_code": "MV"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2025-11-17",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/blog/products/networking/introducing-dhivaru-new-subsea-cable",
+    "https://presidency.gov.mv/Press/Article/35701"
+  ],
+  "notes": "Google and the Maldives President's Office announced a Dhivaru-linked international submarine cable landing station and network/connectivity hub in Hithadhoo, Addu City. Google says such hubs provide cable switching, content caching, and colocation, but are smaller and lower-power than typical Google data centers and are not AI/cloud hyperscale data centers.",
+  "world_batch": true
+}

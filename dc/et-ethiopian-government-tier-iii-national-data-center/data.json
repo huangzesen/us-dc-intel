@@ -1,0 +1,21 @@
+{
+  "slug": "et-ethiopian-government-tier-iii-national-data-center",
+  "canonical_project": "Ethiopian Government Tier III national data center",
+  "owner": "Ministry of Innovation & Technology",
+  "location": {
+    "city": "",
+    "subnational": "Addis Ababa",
+    "country": "Ethiopia",
+    "country_code": "ET"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2020-09-25",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/ethiopia-plans-national-data-center-cloud-storage/",
+    "https://www.worldbank.org/en/topic/digital/brief/from-seoul-to-addis-ababa-shaping-ethiopia-s-digital-future"
+  ],
+  "notes": "Government-planned Tier III national data center at ICT Park near Bole Lemi Industrial Park, intended for government digital workloads and cloud/colocation services; World Bank later referenced planned investment in a green data center and cloud migration.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "nl-northc-groningen-1-2",
+  "canonical_project": "NorthC Groningen 1 & 2",
+  "owner": "NorthC Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Groningen",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.northcdatacenters.com/en/northc-datacenters/groningen/"
+  ],
+  "notes": "Official NorthC page describes two data centers at Groningen's Westpoort business park; Groningen 2 uses green-hydrogen fuel-cell emergency generators.",
+  "world_batch": true
+}

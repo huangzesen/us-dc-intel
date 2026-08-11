@@ -1,0 +1,20 @@
+{
+  "slug": "ci-orange-gos-grand-bassam-data-center",
+  "canonical_project": "Orange GOS Grand-Bassam data center",
+  "owner": "Orange / Groupement Orange Services",
+  "location": {
+    "city": "",
+    "subnational": "Comoe",
+    "country": "Cote d'Ivoire",
+    "country_code": "CI"
+  },
+  "capacity_mw": 1.3,
+  "status": "operational",
+  "evidence_date": "2023-01-19",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/orange-deploys-solar-panels-at-ivory-coast-data-center/"
+  ],
+  "notes": "Orange's Tier III-certified GOS data center in Grand-Bassam was built in 2016 on a 16,600 sq m site and offers 1.3 MW; DCD reported solar panels installed at the site in 2023.",
+  "world_batch": true
+}

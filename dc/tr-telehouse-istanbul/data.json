@@ -1,0 +1,21 @@
+{
+  "slug": "tr-telehouse-istanbul",
+  "canonical_project": "Telehouse Istanbul",
+  "owner": "Telehouse (KDDI) / Teknotel",
+  "location": {
+    "city": "",
+    "subnational": "Istanbul",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/turkey/telehouse-istanbul1",
+    "https://evrenozmen.com.tr/turkiyede-veri-merkezi-yatirimlari-data-center-investments-in-turkey-2023-2025-analizi"
+  ],
+  "notes": "Telehouse Europe entered Istanbul via collaboration with Teknotel, operating a carrier-neutral data center (listed in Data Center Catalog); market analysis confirms Telehouse among international operators in Istanbul. Smaller-scale facility; capacity not published.",
+  "world_batch": true
+}

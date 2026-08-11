@@ -1,0 +1,22 @@
+{
+  "slug": "kr-kt-mokdong-idc-1",
+  "canonical_project": "KT Mokdong IDC 1",
+  "owner": "KT Cloud / kt IDC",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Yangcheon-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-korea/seoul/kt-mokdong-idc/",
+    "https://www.datacentermap.com/south-korea/seoul/kt-mokdong-idc/specs/",
+    "https://www.scribd.com/document/567065688/0318-1-Kt-Brochure-Eng-Ver"
+  ],
+  "notes": "Data Center Map and KT Estate brochure excerpts identify KT Mokdong IDC at 924-4 Mok-dong, Yangcheon-gu, with 64,189 sq m gross floor area; DCM specs list year operational 2008 and Tier 3 design, but no MW supplied.",
+  "world_batch": true
+}

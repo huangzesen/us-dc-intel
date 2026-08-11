@@ -1,0 +1,21 @@
+{
+  "slug": "ua-bemobile-data-center",
+  "canonical_project": "BeMobile Data Center",
+  "owner": "BeMobile / Cosmonova",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/ukraine/kiev/bemobile-data-center/",
+    "https://cosmonova.net.ua/en/data-center/"
+  ],
+  "notes": "DataCenterMap lists BeMobile Data Center in Kyiv; Cosmonova describes hosted data center/colocation services in Ukraine. Capacity not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "hu-university-of-miskolc-supercomputer",
+  "canonical_project": "University of Miskolc Supercomputer",
+  "owner": "University of Miskolc",
+  "location": {
+    "city": "",
+    "subnational": "Borsod-Abauj-Zemplen",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2015-10-13",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dailynewshungary.com/miskolc-university-gets-eur-10-3-million-supercomputer/",
+    "https://www.uni-miskolc.hu/en/university/organisations/support-units/information-technology-centre/"
+  ],
+  "notes": "Daily News Hungary/MTI reported that the University of Miskolc inaugurated an EU-funded supercomputer on 2015-10-13. This is an institutional HPC facility rather than a commercial colocation site; public sources did not disclose MW. University pages identify the campus IT centre but not detailed datacenter specs.",
+  "world_batch": true
+}

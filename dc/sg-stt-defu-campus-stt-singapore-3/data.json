@@ -1,0 +1,22 @@
+{
+  "slug": "sg-stt-defu-campus-stt-singapore-3",
+  "canonical_project": "STT Defu Campus / STT Singapore 3",
+  "owner": "ST Telemedia Global Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "North East",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 40,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.sttelemediagdc.com/",
+    "https://www.itnews.asia/news/st-telemedia-expands-flagship-data-centre-with-addition-of-defu-3-in-singapore-563209",
+    "https://baxtel.com/data-center/stt-singapore-3"
+  ],
+  "notes": "STT official site reports six Singapore data centres and >110MW overall IT load; ITNews/Baxtel identify Defu 3 as 15MW and the Defu campus as 40MW at Defu Avenue 1.",
+  "world_batch": true
+}

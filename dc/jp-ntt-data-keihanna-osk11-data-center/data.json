@@ -1,0 +1,21 @@
+{
+  "slug": "jp-ntt-data-keihanna-osk11-data-center",
+  "canonical_project": "NTT DATA Keihanna OSK11 Data Center",
+  "owner": "NTT DATA / NTT Global Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Kyoto",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 30,
+  "status": "operational",
+  "evidence_date": "2026-04-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nttdata.com/global/en/news/press-release/2026/april/040900",
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/asia-pacific/keihanna-osk11-data-center"
+  ],
+  "notes": "Official NTT DATA opening release says OSK11 is in Kyoto on the Osaka-Kyoto corridor and delivers 30MW of IT capacity.",
+  "world_batch": true
+}

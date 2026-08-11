@@ -1,0 +1,21 @@
+{
+  "slug": "nz-earthlight-invermay-data-centre",
+  "canonical_project": "Earthlight Invermay Data Centre",
+  "owner": "Earthlight",
+  "location": {
+    "city": "",
+    "subnational": "Otago",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.earthlight.co.nz/data-centre/",
+    "https://www.datacentermap.com/new-zealand/dunedin/earthlight-invermay/"
+  ],
+  "notes": "Provider and Datacenter Map sources identify an Invermay/Dunedin data centre. Capacity not disclosed.",
+  "world_batch": true
+}

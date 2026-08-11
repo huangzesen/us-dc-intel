@@ -1,0 +1,22 @@
+{
+  "slug": "mz-vodacom-matola-data-center",
+  "canonical_project": "Vodacom Matola Data Center",
+  "owner": "Vodacom Mozambique",
+  "location": {
+    "city": "",
+    "subnational": "Maputo",
+    "country": "Mozambique",
+    "country_code": "MZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-04-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://intic.gov.mz/intic-realiza-visita-de-trabalho-a-data-center-business-da-vodacom/",
+    "https://www.datacenterdynamics.com/en/news/vodacom-opens-data-center-in-maputo-mozambique/",
+    "https://360mozambique.com/innovation/telecom/prime-minister-opens-vodacom-data-centre/"
+  ],
+  "notes": "Tier III data center in Matola/Tchumene, Maputo Province, inaugurated 2025-03-28/31; INTIC says initial phase has 128 racks, expandable to more than 500, with SEACOM, 2Africa, and EASSY connectivity. DCD reported $25m investment; INTIC valued it at over 600m meticais.",
+  "world_batch": true
+}

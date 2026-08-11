@@ -1,0 +1,21 @@
+{
+  "slug": "id-sm-jakarta-sme-edge-data-center",
+  "canonical_project": "SM+ Jakarta SME edge data center",
+  "owner": "SM+ Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Jakarta",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://smplus.com/edge-dc/",
+    "https://www.linkedin.com/company/smplusholdings"
+  ],
+  "notes": "SM+ lists 24 nationwide edge data centers totaling 10MW today; LinkedIn location data includes Jakarta at Jl. Menteng Atas. Per-site MW not disclosed.",
+  "world_batch": true
+}

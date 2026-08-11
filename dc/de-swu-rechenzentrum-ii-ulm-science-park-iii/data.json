@@ -1,0 +1,22 @@
+{
+  "slug": "de-swu-rechenzentrum-ii-ulm-science-park-iii",
+  "canonical_project": "SWU Rechenzentrum II, Ulm Science Park III",
+  "owner": "Stadtwerke Ulm/Neu-Ulm GmbH / SWU TeleNet; built by DC-Datacenter-Group",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Ulm",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-03-27",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ulm.de/aktuelle-meldungen/z%C3%B6a/m%C3%A4rz-2025/rechenzentrum-swu-2025_03",
+    "https://www.swu.de/geschaeftskunden/produkte-leistungen/telekommunikation/produkte/server-housing/spatenstich-fuer-neues-rechenzentrum-im-science-park-iii",
+    "https://www.datacenterdynamics.com/en/news/swu-opens-data-center-in-ulm-science-park-germany/"
+  ],
+  "notes": "City of Ulm reported key handover on 2025-03-27 after about two years of construction; SWU source said the Science Park III build would provide space for about 150 server cabinets. DCD reported 1,430 sqm, PUE below 1.3, and 1.6 MW backup generation.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "cn-wuhan-supercomputing-center",
+  "canonical_project": "Wuhan Supercomputing Center",
+  "owner": "Wuhan local government / Huawei ecosystem partners",
+  "location": {
+    "city": "",
+    "subnational": "Hubei - Wuhan Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-11-23",
+  "evidence_grade": "B",
+  "sources": [
+    "https://digitalpower.huawei.com/cn/blogs/wuhan-supercomputing-center"
+  ],
+  "notes": "Huawei case material says Wuhan Supercomputing Center was completed and put into service on 2022-11-23 with roughly 4,400 sqm building area, planned 200P and initial 54P compute, forming a dual compute hub with the Wuhan AI Computing Center.",
+  "world_batch": true
+}

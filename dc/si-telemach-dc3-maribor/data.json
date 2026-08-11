@@ -1,0 +1,21 @@
+{
+  "slug": "si-telemach-dc3-maribor",
+  "canonical_project": "Telemach DC3 Maribor",
+  "owner": "Telemach d.o.o.",
+  "location": {
+    "city": "",
+    "subnational": "Maribor",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/slovenia/ljubljana/upc-telemach/specs/",
+    "https://colocationm.com/slovenia/ljubljana-dc-5"
+  ],
+  "notes": "Facility directories list Telemach DC3 at Kardeljeva cesta 49, 2000 Maribor, with N+1 UPS/cooling/standby redundancy; public sources did not disclose MW capacity.",
+  "world_batch": true
+}

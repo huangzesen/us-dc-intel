@@ -1,0 +1,22 @@
+{
+  "slug": "at-conova-hallein-data-center-6-7",
+  "canonical_project": "conova Hallein data center 6/7",
+  "owner": "conova communications GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Salzburg",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.conova.com/en/datacenter/",
+    "https://dchub.cloud/facilities/conova-communications-gmbh-conova-datacenter-67-b4d3c9fd",
+    "https://www.datacentermap.com/austria/salzburg/conova-communications/"
+  ],
+  "notes": "conova states all of its data centers meet EN 50600; DC Hub lists conova Datacenter 6/7 in Hallein, Salzburg as operational with reported 3.0 MW power capacity.",
+  "world_batch": true
+}

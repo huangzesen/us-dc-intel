@@ -1,0 +1,22 @@
+{
+  "slug": "kz-gk-hyperscale-temirtau-tier-iii-data-center",
+  "canonical_project": "GK Hyperscale Temirtau Tier III data center",
+  "owner": "GK Hyperscale Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Karaganda",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": 100,
+  "status": "planned",
+  "evidence_date": "2025-03-31",
+  "evidence_grade": "B",
+  "sources": [
+    "https://astanahub.com/en/article/v-kazakhstane-postroiat-krupneishie-gipermasshtabiruemye-tsentry-obrabotki-dannykh",
+    "https://www.qazprojects.com/post/hyperscale-data-centers",
+    "https://kz.kursiv.media/en/2025-03-31/engk-tank-singapore-to-assist-kazakhstan-in-building-data-centers/"
+  ],
+  "notes": "Part of the GK Hyperscale Kazakhstan two-site Tier III development totaling 200 MW; QazProjects places the secondary site in Temirtau, Karaganda Region, implying about 100 MW per site.",
+  "world_batch": true
+}

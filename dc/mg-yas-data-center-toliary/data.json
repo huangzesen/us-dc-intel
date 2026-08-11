@@ -1,0 +1,21 @@
+{
+  "slug": "mg-yas-data-center-toliary",
+  "canonical_project": "Yas Data Center Toliary",
+  "owner": "Yas Madagascar / Telma Madagascar",
+  "location": {
+    "city": "",
+    "subnational": "Toliara",
+    "country": "Madagascar",
+    "country_code": "MG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.yas.mg/",
+    "https://www.datacentermap.com/madagascar/toliara/"
+  ],
+  "notes": "DataCenterMap lists a Yas Data Center in Toliary/Toliara. The operator site confirms Yas Madagascar as the current Telma brand, but no official public facility page with capacity or technical specification was found during this pass.",
+  "world_batch": true
+}

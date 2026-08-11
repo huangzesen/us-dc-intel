@@ -1,0 +1,22 @@
+{
+  "slug": "de-demmin-data-center",
+  "canonical_project": "Demmin Data Center",
+  "owner": "NOYA Group Holding / ClimateChange Energy",
+  "location": {
+    "city": "",
+    "subnational": "Mecklenburg-Vorpommern - Mecklenburgische Seenplatte",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 300,
+  "status": "rejected",
+  "evidence_date": "2026-08-02",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/700mw-data-center-planned-for-freyenstein-germany-sparks-protests/",
+    "https://www.datacentermap.com/germany/demmin/demmin-data-center/",
+    "https://ostdeutscheallgemeine.com/article/rechenzentrum-kommt-nicht-kein-milliarden-jackpot-fuer-demmin-10247712"
+  ],
+  "notes": "NOYA/ClimateChange Energy planned a large AI/data center near Demmin/Siedenbruenzow, reported around 300 MW and over EUR 1bn. Latest local reporting says the Demmin project failed because of grid-capacity constraints, so status is recorded as rejected.",
+  "world_batch": true
+}

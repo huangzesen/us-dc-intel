@@ -1,0 +1,21 @@
+{
+  "slug": "je-sure-jersey-data-centre",
+  "canonical_project": "Sure Jersey Data Centre",
+  "owner": "Sure",
+  "location": {
+    "city": "",
+    "subnational": "Jersey",
+    "country": "Jersey",
+    "country_code": "JE"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://business.sure.com/products-and-services/offshore-data-centres/jersey-data-centre/",
+    "https://www.datacentermap.com/jersey/st-helier/foreshore-the-powerhouse/"
+  ],
+  "notes": "Sure's official Jersey Data Centre page advertises Tier III colocation in Jersey with individual halls/cages/shared space, inter-island connectivity, remote hands and 500 kW IT load. DatacenterMap corroborates the St Helier/Queens Road location and Tier 3 listing.",
+  "world_batch": true
+}

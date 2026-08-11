@@ -1,0 +1,22 @@
+{
+  "slug": "pl-dataspace-torun",
+  "canonical_project": "Dataspace Torun",
+  "owner": "Dataspace P.S.A.",
+  "location": {
+    "city": "",
+    "subnational": "Kuyavia-Pomerania",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://dataspace.pl/en/contact/",
+    "https://www.datacentermap.com/poland/torun/dataspacepl/",
+    "https://inflect.com/building/161-wloclawska-torun/data-space-sp-z-o-o/datacenter/data-space"
+  ],
+  "notes": "Dataspace official contact page gives the Torun address; Data Center Map reports a 2MW facility at Wloclawska 161, while Inflect describes colocation and technical space.",
+  "world_batch": true
+}

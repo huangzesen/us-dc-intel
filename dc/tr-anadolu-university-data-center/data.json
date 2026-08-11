@@ -1,0 +1,21 @@
+{
+  "slug": "tr-anadolu-university-data-center",
+  "canonical_project": "Anadolu University Data Center",
+  "owner": "Anadolu University",
+  "location": {
+    "city": "",
+    "subnational": "Eskisehir",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-10-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.anadolu.edu.tr/haberler/anadolu-veri-merkezi-acildi",
+    "https://www.anadolu.edu.tr/en/news/anadolu-data-center-was-opened"
+  ],
+  "notes": "Anadolu University announced opening of its data center in Eskisehir; public announcement does not disclose MW capacity.",
+  "world_batch": true
+}

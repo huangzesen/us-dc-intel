@@ -1,0 +1,22 @@
+{
+  "slug": "de-glasfaser-ruhr-tmr-rechenzentrum-herne",
+  "canonical_project": "GLASFASER RUHR / TMR Rechenzentrum Herne",
+  "owner": "Telekommunikation Mittleres Ruhrgebiet GmbH / GLASFASER RUHR",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Herne",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.glasfaser-ruhr.de/rechenzentrum/",
+    "https://datacenter-group.com/en/news-stories/article/tmr-herne/",
+    "https://www.herne.de/PDF/Finanzen/2018/Beteiligungsbericht-31.12.2018.pdf"
+  ],
+  "notes": "GLASFASER RUHR describes a TÜV Saarland-audited Herne colocation data center; Herne's 2018 participation report referenced expansion of data center space at the Herne DataCenter location. No public MW found.",
+  "world_batch": true
+}

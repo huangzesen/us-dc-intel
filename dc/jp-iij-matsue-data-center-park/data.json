@@ -1,0 +1,21 @@
+{
+  "slug": "jp-iij-matsue-data-center-park",
+  "canonical_project": "IIJ Matsue Data Center Park",
+  "owner": "Internet Initiative Japan Inc. (IIJ)",
+  "location": {
+    "city": "",
+    "subnational": "Shimane",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 5,
+  "status": "operational",
+  "evidence_date": "2025-06-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.iij.ad.jp/en/datacenter/tech/iijdc/matsuedcp.html",
+    "https://www.datacenterdynamics.com/en/news/japans-iij-expands-capacity-of-matsue-data-center/"
+  ],
+  "notes": "IIJ official page says Matsue Data Center Park opened in Matsue, Shimane in April 2011, Site 2 opened in 2013, and a system module building opened in June 2025; third-party listing reports 5MW.",
+  "world_batch": true
+}

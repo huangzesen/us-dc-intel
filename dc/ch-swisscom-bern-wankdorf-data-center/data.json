@@ -1,0 +1,21 @@
+{
+  "slug": "ch-swisscom-bern-wankdorf-data-center",
+  "canonical_project": "Swisscom Bern-Wankdorf Data Center",
+  "owner": "Swisscom",
+  "location": {
+    "city": "",
+    "subnational": "Bern",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.swisscom.ch/en/business/enterprise/offer/cloud/data-center.html",
+    "https://www.datacentermap.com/switzerland/basel/swisscom-basel-grosspeter/"
+  ],
+  "notes": "Swisscom's official data-center page states it operates seven Swiss data centers for business customers and lists Bern-Wankdorf among its sites. Public operator materials found during this run did not disclose site-level MW capacity.",
+  "world_batch": true
+}

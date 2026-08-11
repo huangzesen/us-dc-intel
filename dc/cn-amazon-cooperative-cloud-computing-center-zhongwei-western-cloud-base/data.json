@@ -1,0 +1,21 @@
+{
+  "slug": "cn-amazon-cooperative-cloud-computing-center-zhongwei-western-cloud-base",
+  "canonical_project": "Amazon cooperative cloud computing center, Zhongwei Western Cloud Base",
+  "owner": "Amazon Web Services with local Zhongwei/Ningxia partners",
+  "location": {
+    "city": "",
+    "subnational": "Ningxia - Zhongwei Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-12-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nxzw.gov.cn/zjzw/xbyjd/202012/t20201209_2430998.html",
+    "https://www.datacenterdynamics.com/en/news/amazon-plans-new-data-center-in-china/"
+  ],
+  "notes": "Zhongwei government page lists the Amazon cooperative cloud computing center among large data centers already built and operating in Zhongwei; DCD reported the original AWS/Ningxia agreement for Zhongwei.",
+  "world_batch": true
+}

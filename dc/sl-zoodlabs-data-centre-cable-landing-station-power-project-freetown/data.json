@@ -1,0 +1,20 @@
+{
+  "slug": "sl-zoodlabs-data-centre-cable-landing-station-power-project-freetown",
+  "canonical_project": "Zoodlabs Data Centre / Cable Landing Station Power Project, Freetown",
+  "owner": "Zoodlabs; CrossBoundary Energy",
+  "location": {
+    "city": "",
+    "subnational": "Western Area",
+    "country": "Sierra Leone",
+    "country_code": "SL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-06-30",
+  "evidence_grade": "A",
+  "sources": [
+    "https://crossboundaryenergy.com/project/zoodlabs/"
+  ],
+  "notes": "CrossBoundary Energy lists a Zoodlabs Data Centre in Sierra Leone, powering Zoodlabs' Freetown data centre/cable landing and metro fibre infrastructure with 0.8 MWp solar, 0.7 MW thermal generation, and 1.95 MWh storage; commission date Q2 2023. Capacity_mw left null because power system rating is not stated as IT load.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "lu-luxconnect-bissen-dc2",
+  "canonical_project": "LuxConnect Bissen DC2",
+  "owner": "LuxConnect S.A.",
+  "location": {
+    "city": "",
+    "subnational": "Mersch",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.luxconnect.lu/infrastructure",
+    "https://www.lu-cix.lu/infrastructure/network-map/"
+  ],
+  "notes": "LuxConnect lists DC2 at 3 op der Poukewiss, ZAC Klengbousbierg, L-7795 Bissen, with 21,000 m2 gross space, 4,800 m2 net space and 2 x 12.6 MVA power available; LU-CIX also lists the Bissen/Roost facility.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "rs-telekom-srbija-mts-belgrade-data-center",
+  "canonical_project": "Telekom Srbija / MTS Belgrade Data Center",
+  "owner": "Telekom Srbija / MTS",
+  "location": {
+    "city": "",
+    "subnational": "Belgrade",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": 4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://mts.rs/Poslovni/Digital/Data-centar",
+    "https://inflect.com/building/14-katiceva-beograd/telekom-srbija/datacenter/belgrade",
+    "https://datacenters.rs/"
+  ],
+  "notes": "Commercial colocation facility at Katiceva 14-18 in Belgrade. Public directories list roughly 2,000+ sq m and 4 MW; official MTS page confirms data center services but capacity is from directory/marketplace sources.",
+  "world_batch": true
+}

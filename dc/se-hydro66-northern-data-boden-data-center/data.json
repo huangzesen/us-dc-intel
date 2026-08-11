@@ -1,0 +1,21 @@
+{
+  "slug": "se-hydro66-northern-data-boden-data-center",
+  "canonical_project": "Hydro66 / Northern Data Boden data center",
+  "owner": "Hydro66 / Northern Data",
+  "location": {
+    "city": "",
+    "subnational": "Norrbotten",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": 3.2,
+  "status": "operational",
+  "evidence_date": "2015-10-22",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterknowledge.com/hyperscalers/facebook-data-center-in-sweden-has-new-hydro-powered-neighbor",
+    "https://baxtel.com/data-center/ardent-boden"
+  ],
+  "notes": "Hydro66 brought a hydro-powered Boden facility online with 3.2 MW initial power and expansion potential; later market listings identify the former Hydro66 site under Northern Data/Ardent.",
+  "world_batch": true
+}

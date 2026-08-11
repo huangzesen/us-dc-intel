@@ -1,0 +1,21 @@
+{
+  "slug": "cn-jd-cloud-east-china-data-center",
+  "canonical_project": "JD Cloud East China Data Center",
+  "owner": "JD Cloud / JD.com",
+  "location": {
+    "city": "",
+    "subnational": "Jiangsu - Suqian Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-01-21",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.zgjssw.gov.cn/shixianchuanzhen/suqian/202201/t20220121_7394124.shtml",
+    "https://www.opticalvm.com/products/idc/intro/suqian"
+  ],
+  "notes": "Jiangsu party-news article says JD Cloud East China Data Center phase one had 150,000 servers in service in Suqian; hosting provider pages also identify Suqian JD Cloud data center services.",
+  "world_batch": true
+}

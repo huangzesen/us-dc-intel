@@ -1,0 +1,21 @@
+{
+  "slug": "pl-edgeconnex-warsaw-data-centers",
+  "canonical_project": "EdgeConneX Warsaw data centers",
+  "owner": "EdgeConneX",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.edgeconnex.com/locations/emea/warsaw-pl/",
+    "https://inflect.com/building/25e2a37b-a773-4638-9a93-d7bc2ea840e2/edgeconnex/datacenter/edgeconnex-a"
+  ],
+  "notes": "EdgeConneX official Warsaw page lists the Warsaw, Poland data center location; Inflect reports the Modularna 17 Warsaw facility with 6MW total power.",
+  "world_batch": true
+}

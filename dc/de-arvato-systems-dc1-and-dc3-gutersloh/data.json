@@ -1,0 +1,21 @@
+{
+  "slug": "de-arvato-systems-dc1-and-dc3-gutersloh",
+  "canonical_project": "Arvato Systems DC1 and DC3 Gütersloh",
+  "owner": "Arvato Systems GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Gütersloh",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-04-02",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.arvato-systems.de/resource/blob/164858/fdff391c1a6f8e8398eb7732a175e317/din-en-50600-arvato-systems-gt-rz-de-19-94-2025-data.pdf",
+    "https://inflect.com/datacenters/emea/germany/gutersloh"
+  ],
+  "notes": "TÜV SÜD certificate names Arvato Systems Rechenzentrum DC1 und DC3 at Reinhard-Mohn-Straße 18, 33333 Gütersloh. Capacity not public.",
+  "world_batch": true
+}

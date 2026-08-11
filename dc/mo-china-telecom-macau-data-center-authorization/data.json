@@ -1,0 +1,21 @@
+{
+  "slug": "mo-china-telecom-macau-data-center-authorization",
+  "canonical_project": "China Telecom Macau Data Center authorization",
+  "owner": "China Telecom (Macau) Company Limited",
+  "location": {
+    "city": "",
+    "subnational": "Macao",
+    "country": "Macao",
+    "country_code": "MO"
+  },
+  "capacity_mw": null,
+  "status": "approved",
+  "evidence_date": "2025-12-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://telecommunications.ctt.gov.mo/en/Contents/datacenter-p.aspx",
+    "https://telecommunications.ctt.gov.mo/en/Laws/Details?alias=allreg"
+  ],
+  "notes": "Macao telecom regulator lists Despacho do Chefe do Executivo n.º 258/2025 authorizing China Telecom (Macau) Company Limited to install and operate a data center. Public source does not identify site, capacity, or opening date.",
+  "world_batch": true
+}

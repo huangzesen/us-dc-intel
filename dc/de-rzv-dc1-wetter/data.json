@@ -1,0 +1,22 @@
+{
+  "slug": "de-rzv-dc1-wetter",
+  "canonical_project": "RZV DC1 Wetter",
+  "owner": "RZV Rechenzentrum Volmarstein GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Ennepe-Ruhr-Kreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.rzv.de/",
+    "https://www.rzv.de/ueber-rzv/",
+    "https://www.datacentermap.com/germany/dortmund/rzv-dc1/"
+  ],
+  "notes": "RZV official pages describe certified cloud data centers; DataCenterMap lists DC1 at Grundschötteler Str. 21, 58300 Wetter. Capacity not disclosed.",
+  "world_batch": true
+}

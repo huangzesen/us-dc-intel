@@ -1,0 +1,21 @@
+{
+  "slug": "ru-almazergienbank-extreme-climate-data-center-yakutsk",
+  "canonical_project": "Almazergienbank extreme-climate data center, Yakutsk",
+  "owner": "Almazergienbank / Infosystems Jet",
+  "location": {
+    "city": "",
+    "subnational": "Yakutia",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-11-25",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.comnews.ru/content/242563/2025-11-25/2025-w48/1011/data-centr-dlya-ekstremalnogo-klimata-postroen-yakutske",
+    "https://jet.su/press-center/news/ot-60-do-40-s-otkazoustoychivyy-tsod-dlya-almazergienbanka-ot-infosistemy-dzhet/"
+  ],
+  "notes": "ComNews and Infosystems Jet reported commissioning of a Tier 3-resilience data center for Almazergienbank in Yakutsk, designed for operation from -60C to +40C; capacity not disclosed.",
+  "world_batch": true
+}

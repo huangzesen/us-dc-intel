@@ -1,0 +1,21 @@
+{
+  "slug": "cz-ce-colo-dc7",
+  "canonical_project": "CE Colo DC7",
+  "owner": "CE Colo",
+  "location": {
+    "city": "",
+    "subnational": "Prague",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cecolo.com/dc7",
+    "https://www.datacentermap.com/czech-republic/prague/ce-colo-dc7/"
+  ],
+  "notes": "CE Colo official DC7 page describes a Prague site with 25,000 sqm land, 2,800 sqm IT infrastructure and 9,000 sqm total premises. DataCenterMap lists the facility at K Perovne 1616/2 in Prague.",
+  "world_batch": true
+}

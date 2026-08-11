@@ -1,0 +1,22 @@
+{
+  "slug": "bf-datacenter-ministere-de-l-agriculture-bfix",
+  "canonical_project": "Datacenter Ministere de l'agriculture (BFIX)",
+  "owner": "Burkina Faso Internet eXchange (BFIX)",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Burkina Faso",
+    "country_code": "BF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.peeringdb.com/fac/7598",
+    "https://www.peeringdb.com/org/14212",
+    "https://www.datacenterjournal.com/data-centers/burkina-faso/ouagadougou/datacenter-ministere-de-l-agriculture/"
+  ],
+  "notes": "PeeringDB-listed facility (fac 7598) in Ouagadougou operated by BFIX; ~22,970 sq ft per DataCenterJournal (Feb 2020 data). Self-reported directory data; no MW capacity published.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "ua-de-novo-data-center",
+  "canonical_project": "De Novo Data Center",
+  "owner": "De Novo",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacentermap.com/ukraine/kiev/de-novo-data-center/",
+    "https://denovo.ua/en/services/colocation/"
+  ],
+  "notes": "Operator offers colocation from its own Ukrainian data center; DataCenterMap places De Novo Data Center in Kyiv. Capacity not disclosed.",
+  "world_batch": true
+}

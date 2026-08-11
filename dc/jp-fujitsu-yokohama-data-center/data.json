@@ -1,0 +1,21 @@
+{
+  "slug": "jp-fujitsu-yokohama-data-center",
+  "canonical_project": "Fujitsu Yokohama Data Center",
+  "owner": "Fujitsu Limited",
+  "location": {
+    "city": "",
+    "subnational": "Kanagawa",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-11-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.fujitsu.com/global/about/resources/news/press-releases/2022/1104-01.html",
+    "https://docs.fujitsu/documents/3-000654/yokohamakohoku-data-center-introduction-v1.0.0-brochure-en-v1.0.0.pdf"
+  ],
+  "notes": "Fujitsu announced private 5G field trials at its Yokohama Data Center in Yokohama City, Kanagawa; current Fujitsu data center brochure identifies Yokohama Kohoku Data Center as part of Fujitsu Data Center Services. MW not disclosed.",
+  "world_batch": true
+}

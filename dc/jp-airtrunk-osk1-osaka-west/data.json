@@ -1,0 +1,21 @@
+{
+  "slug": "jp-airtrunk-osk1-osaka-west",
+  "canonical_project": "AirTrunk OSK1 Osaka West",
+  "owner": "AirTrunk",
+  "location": {
+    "city": "",
+    "subnational": "Osaka",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 20,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://airtrunk.com/location/osk1-osaka-west/",
+    "https://dcnnmagazine.com/data-centres/airtrunk-breaks-ground-in-osaka/"
+  ],
+  "notes": "AirTrunk official OSK1 page lists Osaka West at 20+MW total capacity; trade press reported construction commencement after the site ceremony.",
+  "world_batch": true
+}

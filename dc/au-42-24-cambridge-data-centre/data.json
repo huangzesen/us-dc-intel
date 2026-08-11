@@ -1,0 +1,22 @@
+{
+  "slug": "au-42-24-cambridge-data-centre",
+  "canonical_project": "42-24 Cambridge Data Centre",
+  "owner": "42-24 Pty Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Tasmania - Clarence",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://42-24.com.au/co-locate/",
+    "https://www.datacentermap.com/australia/hobart/42-24-cambridge/",
+    "https://www.peeringdb.com/fac/12950"
+  ],
+  "notes": "42-24 says its data centres are located in Derwent Park and Cambridge; Data Center Map and PeeringDB list the Cambridge facility at 67 Kennedy Dr, Cambridge TAS 7170, within Clarence.",
+  "world_batch": true
+}

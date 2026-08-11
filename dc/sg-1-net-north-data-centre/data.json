@@ -1,0 +1,22 @@
+{
+  "slug": "sg-1-net-north-data-centre",
+  "canonical_project": "1-Net North Data Centre",
+  "owner": "1-Net Singapore / DataCentre One",
+  "location": {
+    "city": "",
+    "subnational": "North West",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/singapore/singapore/1-net-north/",
+    "https://www.shimz.co.jp/en/works/sg_off_201603_1-net.html",
+    "https://www.keppel.com/media/news/download.ashx?id=8024"
+  ],
+  "notes": "Sources identify 1-Net North as a Tier III, purpose-built northern Singapore facility at 18 Riverside Road/Marsiling with about 20,000 sqm; public MW not found.",
+  "world_batch": true
+}

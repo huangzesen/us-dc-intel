@@ -1,0 +1,21 @@
+{
+  "slug": "sn-stellarix-senegal",
+  "canonical_project": "STELLARIX Senegal",
+  "owner": "STELLARIX / Axian Group",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/senegal/dakar/stellarix-senegal/",
+    "https://africatechfestival.com/africacom/sponsors/stellarix-data-centres-meeting-room-host-2024/"
+  ],
+  "notes": "Data Center Map lists STELLARIX Senegal within Sangalkam/Diamniadio. Public source detail is sparse; Africa Tech Festival's STELLARIX profile describes the operator as developing African data center facilities, but no capacity or firm operating status for Senegal was confirmed.",
+  "world_batch": true
+}

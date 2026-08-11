@@ -1,0 +1,21 @@
+{
+  "slug": "es-sarenet-derio-data-center",
+  "canonical_project": "Sarenet Derio data center",
+  "owner": "Sarenet",
+  "location": {
+    "city": "",
+    "subnational": "Basque Country",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-06-19",
+  "evidence_grade": "A",
+  "sources": [
+    "https://parke.eus/en/sarenet-inaugurates-its-new-data-centre-at-the-communications-hub-in-the-zamudio-derio-campus/",
+    "https://www.datacenterdynamics.com/en/news/spanish-isp-sarenet-launches-data-center-in-bizkaia/"
+  ],
+  "notes": "Basque Technology Park announcement and DCD report describe Sarenet's new Derio/Zamudio communications-hub facility in Bizkaia as a EUR20m, 1,000 sqm data center with 3MW installed electrical capacity and up to 340 racks.",
+  "world_batch": true
+}

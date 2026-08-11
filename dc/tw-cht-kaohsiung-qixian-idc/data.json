@@ -1,0 +1,21 @@
+{
+  "slug": "tw-cht-kaohsiung-qixian-idc",
+  "canonical_project": "CHT Kaohsiung Qixian IDC",
+  "owner": "Chunghwa Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Kaohsiung",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": 0.126,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location_Kaohsiung_Qixian.html",
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location.html"
+  ],
+  "notes": "Chunghwa Telecom's official page lists Kaohsiung Qixian IDC as a 957+ sq m, one-floor data center with 63 racks and 2 kW standard rack primary power provisioning; implied rack provision is about 0.126 MW before overhead.",
+  "world_batch": true
+}

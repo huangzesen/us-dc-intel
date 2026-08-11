@@ -1,0 +1,21 @@
+{
+  "slug": "sa-damac-digital-edgnex-dammam-data-center",
+  "canonical_project": "DAMAC Digital / EDGNEX Dammam Data Center",
+  "owner": "DAMAC Digital / EDGNEX",
+  "location": {
+    "city": "",
+    "subnational": "Eastern Province - Ad Dammam",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 10.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://salfo.gr/project/damac-data-center-dammam/",
+    "https://baxtel.com/data-center/edgnex-dammam"
+  ],
+  "notes": "SALFO describes DAMAC's Dammam campus as a phased 30 MW master plan with 10 MW IT load and Tier III design/construction certification; Baxtel lists Edgnex Dammam as operational, built 2024.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "fr-webaxys-dc2-le-havre-datacenter",
+  "canonical_project": "Webaxys DC2 Le Havre datacenter",
+  "owner": "Webaxys",
+  "location": {
+    "city": "",
+    "subnational": "Seine-Maritime",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.webaxys.fr/nos-4-datacenters-sur-le-territoire",
+    "https://www.webaxys.fr/datacenter-le-havre",
+    "https://pue.webaxys.net/"
+  ],
+  "notes": "Operator pages list a Le Havre/Saint-Romain-de-Colbosc datacenter with fiber links and colocation/cloud services.",
+  "world_batch": true
+}

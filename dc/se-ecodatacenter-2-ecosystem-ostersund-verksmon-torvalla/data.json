@@ -1,0 +1,23 @@
+{
+  "slug": "se-ecodatacenter-2-ecosystem-ostersund-verksmon-torvalla",
+  "canonical_project": "EcoDataCenter 2 / Ecosystem Ostersund, Verksmon-Torvalla",
+  "owner": "EcoDataCenter / EcoDC Ostersund AB with WA3RM",
+  "location": {
+    "city": "",
+    "subnational": "Jamtland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": 150,
+  "status": "rejected",
+  "evidence_date": "2026-05-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ecodatacenter.tech/press/ecodatacenter-takes-the-next-step-in-sustainable-data-center-design-with-150-mw-campus-3247366",
+    "https://www.ostersund.se/download/18.29eaedc419db14fdeef2587/1777274902738/%C3%85rsredovisning-2025.pdf",
+    "https://www.sverigesradio.se/artikel/planerad-storetablering-laggs-ner-inget-datacenter-i-ostersund",
+    "https://www.svt.se/nyheter/lokalt/jamtland/detta-hander-med-planerna-pa-datahallar-i-verksmon"
+  ],
+  "notes": "EcoDataCenter announced a 150 MW phased campus in Ostersund on 2023-04-20, with a first 20 MW phase then targeted for 2026 and waste heat reuse for WA3RM food production. Ostersund municipality's 2025 annual report states that in September 2025 EcoDataCenter's establishment would not proceed, after several years of planning, because the company prioritized Falun and Borlange where power capacity was already available. Sveriges Radio and SVT reported the same cancellation on 2025-09-09/11; SVT also noted that an environmental permit for data centers at Massaveden 4 existed and followed EcoDC Ostersund AB, but EcoDataCenter had left the Ostersund plan.",
+  "world_batch": true
+}

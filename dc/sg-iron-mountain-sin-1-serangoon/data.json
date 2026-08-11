@@ -1,0 +1,21 @@
+{
+  "slug": "sg-iron-mountain-sin-1-serangoon",
+  "canonical_project": "Iron Mountain SIN-1 Serangoon",
+  "owner": "Iron Mountain Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "North East",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ironmountain.com/data-centers/locations/singapore-data-center",
+    "https://evoswitch.com/singapore-data-center-sin-01/"
+  ],
+  "notes": "Iron Mountain official page places the Singapore data center in Serangoon with 14,200 sqm/154,000 sq ft; EvoSwitch/Iron Mountain facility page lists 1 Serangoon North Ave 6 and 5MW.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "tr-turkcell-avrupa-veri-merkezi-europe-data-center",
+  "canonical_project": "Turkcell Avrupa Veri Merkezi (Europe Data Center)",
+  "owner": "Turkcell",
+  "location": {
+    "city": "",
+    "subnational": "Tekirdag",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": 16,
+  "status": "operational",
+  "evidence_date": "2021-09-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.aa.com.tr/tr/isdunyasi/guncel/turkcell-avrupa-veri-merkezi-acildi/667364",
+    "https://medya.turkcell.com.tr/bulletins/turkcellden-turkiyeye-dunya-standartlarinda-yeni-veri-merkezi/",
+    "https://evrenozmen.com.tr/turkiye-veri-merkezleri-haritasi-ve-analizi"
+  ],
+  "notes": "Turkcell's Europe Data Center (Avrupa Veri Merkezi) opened on 13 September 2021 in the Kapakli district of Tekirdag (Karaagac OSB) with Transport and Infrastructure Minister Adil Karaismailoglu attending. Tier III certified and LEED Gold, about 37,277 sqm site / 43,000 sqm closed area / ~7,238 sqm white space across 3 modules, over 2.5 billion TL invested, and a 75% domestic-content ratio. Official announcements did not disclose MW capacity; a Turkish market analysis (Evren Ozmen) reports the facility operates at 16+ MW, so capacity_mw=16 is an analyst estimate.",
+  "world_batch": true
+}

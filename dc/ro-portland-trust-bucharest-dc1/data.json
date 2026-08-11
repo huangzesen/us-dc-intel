@@ -1,0 +1,21 @@
+{
+  "slug": "ro-portland-trust-bucharest-dc1",
+  "canonical_project": "Portland Trust Bucharest DC1",
+  "owner": "Portland Trust",
+  "location": {
+    "city": "",
+    "subnational": "Bucuresti",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 20,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/data-center/bucharest",
+    "https://www.datacentermap.com/romania/bucharest/"
+  ],
+  "notes": "Baxtel lists Portland Trust Bucharest as under construction at 20 MW with estimated Q2 2026 launch; DataCenterMap describes a new 8,800+ sqm Bucharest facility on a 27,734 sqm plot with a 110/20 kV transformer station.",
+  "world_batch": true
+}

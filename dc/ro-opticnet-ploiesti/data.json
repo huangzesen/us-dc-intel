@@ -1,0 +1,21 @@
+{
+  "slug": "ro-opticnet-ploiesti",
+  "canonical_project": "OpticNet Ploiesti",
+  "owner": "OpticNet Serv SRL",
+  "location": {
+    "city": "",
+    "subnational": "Prahova",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/romania/ploiesti/",
+    "https://colomap.com/facilities/opticnet-ploiesti/"
+  ],
+  "notes": "Data Center Map lists OpticNet Ploiesti at Strada Maramures 12; ColoMap identifies it as a colocation data center operated by OpticNet Serv SRL with one on-net carrier.",
+  "world_batch": true
+}

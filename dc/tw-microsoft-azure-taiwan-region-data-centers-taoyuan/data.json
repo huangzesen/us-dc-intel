@@ -1,0 +1,23 @@
+{
+  "slug": "tw-microsoft-azure-taiwan-region-data-centers-taoyuan",
+  "canonical_project": "Microsoft Azure Taiwan Region Data Centers (Taoyuan)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Taoyuan",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://local.microsoft.com/blog/taoyuan-datacenter-construction-update/",
+    "https://techcrunch.com/2020/10/28/microsoft-announces-its-first-azure-data-center-region-in-taiwan/",
+    "https://siliconangle.com/2020/10/27/microsoft-azure-build-first-cloud-data-center-region-taiwan/",
+    "https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies"
+  ],
+  "notes": "Microsoft's official local blog states it selected the North Taiwan (Taoyuan) area as the regional launch zone for its Azure Taiwan region and has started construction of data center projects, with the first building estimated for completion in 2024. The region was first announced in Oct 2020 under the Reimagine Taiwan initiative; Azure still lists Taiwan as an announced/coming region, so status recorded as construction pending launch.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "au-vocus-data-centre-adelaide-hostexpress-comwire-adl1",
+  "canonical_project": "Vocus Data Centre - Adelaide / HostExpress Comwire ADL1",
+  "owner": "Vocus / Comwire IT",
+  "location": {
+    "city": "",
+    "subnational": "South Australia - Adelaide",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://gowith.vocus.com.au/rs/587-CSJ-470/images/sa-data-centres.html",
+    "https://www.datacentermap.com/australia/adelaide/pipe-networks-adelaide/"
+  ],
+  "notes": "Vocus connected-SA-data-centres list includes HostExpress/Comwire IT ADL1 at 132 Franklin Street, Adelaide; DataCenterMap separately lists Vocus Data Centre - Adelaide at Level 2/132 Franklin Street. Capacity not found in primary sources.",
+  "world_batch": true
+}

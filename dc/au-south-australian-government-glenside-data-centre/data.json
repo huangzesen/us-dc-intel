@@ -1,0 +1,22 @@
+{
+  "slug": "au-south-australian-government-glenside-data-centre",
+  "canonical_project": "South Australian Government Glenside Data Centre",
+  "owner": "Government of South Australia",
+  "location": {
+    "city": "",
+    "subnational": "South Australia - Burnside",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2023-04-19",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.abc.net.au/news/2023-04-19/electrical-failure-causes-issues-to-electronic-hospital-records/102243656",
+    "https://www.datacenterdynamics.com/en/news/fire-breaks-out-at-glenside-data-centre-in-adelaide-australia/",
+    "https://www.dpc.sa.gov.au/resources-and-publications/annual-reports/2021-22-annual-report/financial-performance/contractors-disclosure"
+  ],
+  "notes": "ABC and DCD reported an electrical fire at the state government's Glenside data centre, described as hosting SA Health and other government systems. DPC contractor disclosure also referenced preparation of a strategy for exit of Glenside Data Centre, so current operating status is not confirmed.",
+  "world_batch": true
+}

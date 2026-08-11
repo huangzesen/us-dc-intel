@@ -1,0 +1,21 @@
+{
+  "slug": "si-arnes-ljubljana-area-redundancy-data-centre",
+  "canonical_project": "ARNES Ljubljana-area redundancy data centre",
+  "owner": "ARNES",
+  "location": {
+    "city": "",
+    "subnational": "Ljubljana",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2024-06-18",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.arnes.si/en/the-first-arnes-data-centre-of-the-future-will-be-located-in-maribor/",
+    "https://connect.geant.org/2025/06/10/building-the-future-of-sustainable-open-science-through-integrated-data-centre-services"
+  ],
+  "notes": "ARNES says plans also involve construction of another data centre in the surroundings of Ljubljana to provide redundancy for ARNES services; public sources did not disclose location, timeline or MW capacity.",
+  "world_batch": true
+}

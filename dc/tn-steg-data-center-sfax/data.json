@@ -1,0 +1,20 @@
+{
+  "slug": "tn-steg-data-center-sfax",
+  "canonical_project": "STEG Data Center Sfax",
+  "owner": "STEG (Societe Tunisienne de l'Electricite et du Gaz)",
+  "location": {
+    "city": "",
+    "subnational": "Sfax",
+    "country": "Tunisia",
+    "country_code": "TN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.bimdc.fr/fr/portfolio/projects/societe-tunisienne-delectricite-et-de-gaz/"
+  ],
+  "notes": "STEG-owned data center in Sfax; engineering firm BIMDC carried out renovation of the technical installations (execution dossiers), 350 m2, completed 2024; evidence is a consultant portfolio entry, not an official STEG announcement.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "mz-bcx-maputo-data-center",
+  "canonical_project": "BCX Maputo data center",
+  "owner": "BCX Mozambique",
+  "location": {
+    "city": "",
+    "subnational": "Maputo",
+    "country": "Mozambique",
+    "country_code": "MZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-06-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/bcx-brings-alibaba-cloud-to-mozambique/",
+    "https://www.bcx.co.za/our-offices/mozambique/",
+    "https://www.datacentermap.com/mozambique/maputo/bcx-maputo/"
+  ],
+  "notes": "DCD reported Alibaba Cloud Africa Local Public services are hosted in a BCX data center in Maputo; BCX official Mozambique page confirms Maputo headquarters and nationwide operations, but does not publish facility capacity.",
+  "world_batch": true
+}

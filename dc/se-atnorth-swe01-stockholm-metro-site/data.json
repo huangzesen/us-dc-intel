@@ -1,0 +1,21 @@
+{
+  "slug": "se-atnorth-swe01-stockholm-metro-site",
+  "canonical_project": "atNorth SWE01 Stockholm metro site",
+  "owner": "atNorth",
+  "location": {
+    "city": "",
+    "subnational": "Stockholm",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.atnorth.com/nordic-data-centers/sweden-data-centers/stockholm-metro-site/",
+    "https://www.atnorth.com/news/atnorth-unveils-its-first-high-capacity-data-center-in-sweden/"
+  ],
+  "notes": "Kista/Stockholm colocation and high-density compute site; atNorth says SWE01 opened in March 2022 and is powered by renewable energy with heat recovery.",
+  "world_batch": true
+}

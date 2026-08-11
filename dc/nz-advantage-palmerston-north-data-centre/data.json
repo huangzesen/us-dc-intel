@@ -1,0 +1,21 @@
+{
+  "slug": "nz-advantage-palmerston-north-data-centre",
+  "canonical_project": "Advantage Palmerston North Data Centre",
+  "owner": "Advantage Computers",
+  "location": {
+    "city": "",
+    "subnational": "Manawatu-Whanganui",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/new-zealand/palmerston-north/advantage-palmerston-north/",
+    "https://www.peeringdb.com/fac/6365"
+  ],
+  "notes": "Data Center Map and PeeringDB identify Advantage's Palmerston North facility, with colocation/interconnection details and address information. Public MW capacity was not found from a primary source.",
+  "world_batch": true
+}

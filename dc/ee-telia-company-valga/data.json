@@ -1,0 +1,22 @@
+{
+  "slug": "ee-telia-company-valga",
+  "canonical_project": "Telia Company Valga",
+  "owner": "Telia Company / Telia Sonera Estonia",
+  "location": {
+    "city": "",
+    "subnational": "Valga",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/telia-company/telia-sonera-estonia/telia-valga/",
+    "https://inflect.com/building/116a-voru-valga/telia-carrier/datacenter/telia-carrier-valga",
+    "https://www.datacenters.com/providers/telia-company/locations/estonia/valga-maakond/valga"
+  ],
+  "notes": "Multiple data-center directory sources list an operational Telia/Telia Carrier Valga data center in Valga County; addresses vary between Raja 5 and Võru tänav 116a, so location details should be treated cautiously. Capacity not disclosed in sources reviewed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "es-microsoft-aragon-datacenter-campuses",
+  "canonical_project": "Microsoft Aragon datacenter campuses",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Aragon",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2025-11-14",
+  "evidence_grade": "A",
+  "sources": [
+    "https://local.microsoft.com/blog/understanding-microsoft-datacenters-in-aragon/",
+    "https://www.datacenterdynamics.com/en/news/microsoft-gets-initial-approval-for-data-center-campuses-in-arag%C3%B3n-spain/"
+  ],
+  "notes": "Microsoft says its Aragon virtual room covers permits for planned datacenters; reporting cites initial PIGA approval for campuses in La Muela, Villamayor de Gallego and Zaragoza.",
+  "world_batch": true
+}

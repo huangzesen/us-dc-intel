@@ -1,0 +1,21 @@
+{
+  "slug": "pk-ptcl-data-center-lahore",
+  "canonical_project": "PTCL Data Center Lahore",
+  "owner": "PTCL",
+  "location": {
+    "city": "",
+    "subnational": "Punjab",
+    "country": "Pakistan",
+    "country_code": "PK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.ocolo.io/colocation/ptcl/lahore/",
+    "https://www.datacentermap.com/pakistan/lahore/lahore-data-center/"
+  ],
+  "notes": "PTCL data center at Musa Street, Quaid-i-Azam Campus, Lahore with Tier 3+ capabilities per OCOLO listing.",
+  "world_batch": true
+}

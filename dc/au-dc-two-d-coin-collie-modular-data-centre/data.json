@@ -1,0 +1,23 @@
+{
+  "slug": "au-dc-two-d-coin-collie-modular-data-centre",
+  "canonical_project": "DC Two / D Coin Collie modular data centre",
+  "owner": "DC Two / D Coin",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Collie",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 4,
+  "status": "planned",
+  "evidence_date": "2022-09-29",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.computerworld.com/article/1653621/solar-powered-data-centre-proposed-for-collie-wa.html",
+    "https://www.datacenterdynamics.com/en/news/australias-dc-two-is-building-a-crypto-mine-powered-by-the-sun/",
+    "https://swdc.wa.gov.au/grants-funding/collie-futures-fund/",
+    "https://www.datacenterdynamics.com/en/news/dc-two-deploys-modular-data-center-at-biogas-facility-in-victoria-australia/"
+  ],
+  "notes": "DC Two announced a Collie behind-the-grid modular data centre beside a planned solar farm, with first-phase power up to 4MW and around 256 racks. Later DCD coverage still described the Collie modular campus as in development; no public evidence found that it reached operation, so status is planned.",
+  "world_batch": true
+}

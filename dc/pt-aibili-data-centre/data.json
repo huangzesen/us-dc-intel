@@ -1,0 +1,22 @@
+{
+  "slug": "pt-aibili-data-centre",
+  "canonical_project": "AIBILI Data Centre",
+  "owner": "AIBILI - Association for Innovation and Biomedical Research on Light and Image",
+  "location": {
+    "city": "",
+    "subnational": "Coimbra",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-03-03",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ecrin.org/data-centres",
+    "https://ecrin.org/news/1st-data-centre-certification-renewal",
+    "https://www.ptcrin.pt/p22-data-center-certification-en"
+  ],
+  "notes": "ECRIN lists AIBILI Data Centre in Coimbra as a certified data centre, and announced certification renewal approval in 2021. PtCRIN identifies AIBILI Data Centre Certification from ECRIN. This is a clinical research data centre rather than a commercial colocation/hyperscale facility; public MW not found.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "pl-pnt-data-center-opole",
+  "canonical_project": "PNT Data Center Opole",
+  "owner": "Science and Technology Park in Opole / PNT Data Center",
+  "location": {
+    "city": "",
+    "subnational": "Opole",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenter.pnt.opole.pl/en/",
+    "https://datacenter.pnt.opole.pl/en/park/",
+    "https://www.datacentermap.com/poland/opole/pnt-datacenter-opole/"
+  ],
+  "notes": "PNT official pages identify the Data Center at Technologiczna 2, Opole and describe it as Rated 3 certified; Data Center Map reports the facility was established in 2019 and covers about 500 sqm.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "kr-equinix-sl2x-capitaland-hyangdong-campus",
+  "canonical_project": "Equinix SL2x / CapitaLand Hyangdong campus",
+  "owner": "Equinix xScale / CapitaLand / GIC",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Goyang-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 22,
+  "status": "construction",
+  "evidence_date": "2024-12-31",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/equinix-to-launch-seoul-ibx-data-center-in-q1-2024-within-xscale-facility/",
+    "https://assets.cushmanwakefield.com/-/media/cw/marketbeat-pdfs/2024/q4/apac-and-gc/south-korea-2024-h2-data-center_eng.pdf?rev=b0be7261daf944b7b93e86331d2601e1",
+    "https://samoo.com/home/works/view.do?cntntsSn=45588"
+  ],
+  "notes": "DCD places Equinix SL4 inside SL2x, an xScale hyperscale facility in Goyang-si. Cushman & Wakefield lists SL2x in Goyang at 12MW current/22MW total and under construction. Samoo identifies CapitaLand Data Center (Equinix SL2x) location as Goyang.",
+  "world_batch": true
+}

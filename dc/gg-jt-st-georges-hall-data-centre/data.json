@@ -1,0 +1,21 @@
+{
+  "slug": "gg-jt-st-georges-hall-data-centre",
+  "canonical_project": "JT St Georges Hall Data Centre",
+  "owner": "JT Group Limited",
+  "location": {
+    "city": "",
+    "subnational": "Guernsey",
+    "country": "Guernsey",
+    "country_code": "GG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/guernsey/st-peter-port/",
+    "https://business.jtglobal.com/products/cloud/data-centres/"
+  ],
+  "notes": "DataCenterMap lists JT St Georges Hall, St Georges Esplanade, St Peter Port as a JT-owned Tier 1 Guernsey data centre. JT's official site independently confirms Guernsey data-centre operations, but the St Georges Hall facility detail is from an aggregate directory.",
+  "world_batch": true
+}

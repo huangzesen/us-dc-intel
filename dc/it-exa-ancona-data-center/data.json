@@ -1,0 +1,21 @@
+{
+  "slug": "it-exa-ancona-data-center",
+  "canonical_project": "EXA Ancona Data Center",
+  "owner": "EXA Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Marche",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": 10.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/a038ea5f-9519-47b8-8a64-d7037afeec5c/exa-infrastructure/datacenter/exa-ancona",
+    "https://www.datacenters.com/exa-infrastructure-exa-infrastructure-exa-ancona"
+  ],
+  "notes": "Directory sources place EXA Ancona in Chiaravalle, Ancona, Marche; Inflect reports 10,000 kW total power. Treated as operational colocation/edge infrastructure, but capacity should be confirmed with the operator.",
+  "world_batch": true
+}

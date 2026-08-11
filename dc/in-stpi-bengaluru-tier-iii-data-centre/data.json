@@ -1,0 +1,21 @@
+{
+  "slug": "in-stpi-bengaluru-tier-iii-data-centre",
+  "canonical_project": "STPI Bengaluru Tier-III Data Centre",
+  "owner": "Software Technology Parks of India (STPI)",
+  "location": {
+    "city": "",
+    "subnational": "Karnataka - Bangalore Urban",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bengaluru.stpi.in/data-center/bengaluru-0",
+    "https://stpi.in/data-center-noida"
+  ],
+  "notes": "STPI Bengaluru describes a Tier-III level data center with about 15,000-19,000 sq ft and 7,000 sq ft server farm area. Public source did not state MW capacity.",
+  "world_batch": true
+}

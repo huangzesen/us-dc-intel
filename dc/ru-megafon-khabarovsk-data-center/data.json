@@ -1,0 +1,22 @@
+{
+  "slug": "ru-megafon-khabarovsk-data-center",
+  "canonical_project": "MegaFon Khabarovsk data center",
+  "owner": "MegaFon",
+  "location": {
+    "city": "",
+    "subnational": "Khabarovsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-02-18",
+  "evidence_grade": "A",
+  "sources": [
+    "https://corp.megafon.ru/press/news/regionalnye_novosti/khb/20260218-0929.html",
+    "https://vostok.today/54989-v-habarovske-postroili-pervyj-data-centr.html",
+    "https://www.cnews.ru/news/line/2026-02-18_novyj_data-tsentr_megafona"
+  ],
+  "notes": "MegaFon announced a new Khabarovsk Krai data center; regional coverage reports modular deployment with phased expansion up to 1 MW and 110 racks.",
+  "world_batch": true
+}

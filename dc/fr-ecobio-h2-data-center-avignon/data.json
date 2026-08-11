@@ -1,0 +1,21 @@
+{
+  "slug": "fr-ecobio-h2-data-center-avignon",
+  "canonical_project": "ECOBIO-H2 Data Center Avignon",
+  "owner": "ICC H2Digital",
+  "location": {
+    "city": "",
+    "subnational": "Vaucluse",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 0.1,
+  "status": "operational",
+  "evidence_date": "2023-05-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/france/avignon/ecobio-h2-data-center/",
+    "https://dcmag.fr/ecobioh2-premier-datacenter-au-monde-fonctionnant-a-lhydrogene/"
+  ],
+  "notes": "DataCenterMap lists ECOBIO-H2 at LaScierie, 15 Bd Saint-Lazare, Avignon, with 0.1 MW; DCMag reports the green hydrogen/solar-powered urban data center in Avignon.",
+  "world_batch": true
+}

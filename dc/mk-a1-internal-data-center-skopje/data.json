@@ -1,0 +1,21 @@
+{
+  "slug": "mk-a1-internal-data-center-skopje",
+  "canonical_project": "A1 Internal Data Center Skopje",
+  "owner": "A1 Makedonija DOOEL Skopje",
+  "location": {
+    "city": "",
+    "subnational": "Centar",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/a1-macedonia-a1-internal",
+    "https://www.a1.mk/kontakt"
+  ],
+  "notes": "Datacenters.com lists A1 Macedonia's A1 Internal Data Center in Skopje; A1's official contact page lists its Skopje address at Plostad Presveta Bogorodica br. 1, central Skopje. Facility-specific address and capacity are not published, so division assignment to Centar is based on the corporate/central Skopje location and should be treated as lower confidence.",
+  "world_batch": true
+}

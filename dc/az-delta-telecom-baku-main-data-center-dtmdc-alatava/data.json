@@ -1,0 +1,22 @@
+{
+  "slug": "az-delta-telecom-baku-main-data-center-dtmdc-alatava",
+  "canonical_project": "Delta Telecom Baku Main Data Center (DTMDC) / Alatava",
+  "owner": "Delta Telecom LTD",
+  "location": {
+    "city": "",
+    "subnational": "Baku",
+    "country": "Azerbaijan",
+    "country_code": "AZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenters.com/delta-telecom-ltd-of-delta-telecom-baku",
+    "https://www.datacentermap.com/azerbaijan/baku/delta-telekom/",
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/AZ"
+  ],
+  "notes": "Datacenters.com places Delta Telecom's Baku data center at 69 Muzaffar Hasanov; DataCenterMap lists Delta Telekom Alatava at 241 Abbas Mirza Sharifzadeh Street. Uptime lists Delta Telecom Baku Main Data Center with Tier III Design and Constructed Facility certifications.",
+  "world_batch": true
+}

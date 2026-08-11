@@ -1,0 +1,21 @@
+{
+  "slug": "ru-key-point-vladivostok-nadezhdinskaya-data-center",
+  "canonical_project": "Key Point Vladivostok / Nadezhdinskaya data center",
+  "owner": "Key Point Group",
+  "location": {
+    "city": "",
+    "subnational": "Primorye",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 2.2,
+  "status": "operational",
+  "evidence_date": "2023-02-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/russias-key-point-opens-data-center-in-eastern-siberia/",
+    "https://www.datacentermap.com/russia/vladivostok/key-point-vladivostok-1/"
+  ],
+  "notes": "DCD reported Key Point launched the first phase in Primorsky Krai near Vladivostok with 440 racks and full build-out planned at 880 racks / 10 MW; DataCenterMap lists Vladivostok-1 as commissioned in February 2023 with 2.2 MW IT capacity and 3.6 MW design capacity.",
+  "world_batch": true
+}

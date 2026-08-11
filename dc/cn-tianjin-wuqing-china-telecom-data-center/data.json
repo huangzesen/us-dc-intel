@@ -1,0 +1,20 @@
+{
+  "slug": "cn-tianjin-wuqing-china-telecom-data-center",
+  "canonical_project": "Tianjin Wuqing China Telecom Data Center",
+  "owner": "China Telecom Tianjin / IDC operator partners",
+  "location": {
+    "city": "",
+    "subnational": "Tianjin - Tianjin Municipality",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 2.64,
+  "status": "operational",
+  "evidence_date": "2026-08-10",
+  "evidence_grade": "C",
+  "sources": [
+    "https://huaxinnetcom.com/Home/DataCenter/wuqdx.html"
+  ],
+  "notes": "Commercial IDC listing says Tianjin Wuqing Telecom Data Center in Wuqing Economic Development Zone has 1,200 racks, 12,000 m2 and opened July 2010. Capacity_mw approximates 1,200 racks x 2.2kVA/rack; exact IT MW not disclosed.",
+  "world_batch": true
+}

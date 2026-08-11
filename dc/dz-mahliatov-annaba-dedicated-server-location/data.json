@@ -1,0 +1,20 @@
+{
+  "slug": "dz-mahliatov-annaba-dedicated-server-location",
+  "canonical_project": "MAHLIATOV Annaba dedicated server location",
+  "owner": "EURL MAHLIATOV",
+  "location": {
+    "city": "",
+    "subnational": "Annaba",
+    "country": "Algeria",
+    "country_code": "DZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://cloud.mahliatov.com/bare-metal-cloud/dedicated-gpu.php"
+  ],
+  "notes": "Operator product page lists dedicated server inventory in Annaba, Algeria with 1-1.5 Gbps connectivity; entries were marked sold out at check time and no facility specifications or MW capacity were published.",
+  "world_batch": true
+}

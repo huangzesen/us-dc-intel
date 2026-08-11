@@ -1,0 +1,22 @@
+{
+  "slug": "fj-fiji-government-itc-services-data-centre",
+  "canonical_project": "Fiji Government ITC Services Data Centre",
+  "owner": "Fiji Government ITC Services",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Fiji",
+    "country_code": "FJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://clfijidirectorywebpublic20180227-staging.azurewebsites.net/directory/organisationUnit?orgUnitId=93",
+    "https://www.itu.int/en/ict-sdg-award/2015/Pages/fiji.aspx",
+    "https://blog.apnic.net/2025/06/18/fijis-strengthening-internet-infrastructure/"
+  ],
+  "notes": "Government directory lists the Fiji Government Data Centre Building on Berkley Crescent, Suva; ITU says Fiji commissioned its first Government Data Centre in April 2011, and APNIC lists the Government ITC Centre as an operating facility.",
+  "world_batch": true
+}

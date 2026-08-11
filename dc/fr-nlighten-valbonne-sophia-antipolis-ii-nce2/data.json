@@ -1,0 +1,22 @@
+{
+  "slug": "fr-nlighten-valbonne-sophia-antipolis-ii-nce2",
+  "canonical_project": "nLighten Valbonne / Sophia Antipolis II NCE2",
+  "owner": "nLighten",
+  "location": {
+    "city": "",
+    "subnational": "Alpes-Maritimes",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 6.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nlighten.com/en/edge-location/valbonne/",
+    "https://www.datacentermap.com/france/sophia-antipolis/nlighten-sophia-antipolis-ii/",
+    "https://carte.dcmag.fr/france-provence-alpes-cote-dazur/"
+  ],
+  "notes": "nLighten's Valbonne edge data center page states 700 m2 dedicated colocation space and 6,000 kW of power; third-party listings associate it with NCE2 in Alpes-Maritimes.",
+  "world_batch": true
+}

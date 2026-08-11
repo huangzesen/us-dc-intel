@@ -1,0 +1,22 @@
+{
+  "slug": "za-oadc-east-london-els1",
+  "canonical_project": "OADC East London (ELS1)",
+  "owner": "Open Access Data Centres (formerly NTT Data SA / Internet Solutions)",
+  "location": {
+    "city": "",
+    "subnational": "Eastern Cape - Buffalo City Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.openaccessdc.net/east-london",
+    "https://mybroadband.co.za/news/industrynews/628783-open-access-data-centres-expands-footprint-with-strategic-acquisition-of-seven-ntt-data-centres-across-south-africa.html",
+    "https://www.datacentermap.com/south-africa/east-london/oadc-east-london/"
+  ],
+  "notes": "OADC's official East London (ELS1) page lists a carrier-neutral, Tier-III-designed colocation data centre with 1MW site load, 68 sqm technical space, ISO 27001 and N+1 cooling redundancy. The site traces back to an Internet Solutions (Dimension Data) East London facility operated as NTT Data SA; OADC's acquisition of seven NTT Data centres across South Africa (incl. East London and Gqeberha) was finalised 31 Dec 2025, lifting OADC to 25MW.",
+  "world_batch": true
+}

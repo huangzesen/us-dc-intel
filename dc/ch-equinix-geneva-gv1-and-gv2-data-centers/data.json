@@ -1,0 +1,20 @@
+{
+  "slug": "ch-equinix-geneva-gv1-and-gv2-data-centers",
+  "canonical_project": "Equinix Geneva GV1 and GV2 data centers",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Geneve",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/switzerland-colocation/geneva-data-centers"
+  ],
+  "notes": "Equinix's official Geneva page lists GV1 Geneva and GV2 Le Lignon as active Geneva colocation data centers serving telecom and internet providers. Public page did not disclose site-level MW capacity.",
+  "world_batch": true
+}

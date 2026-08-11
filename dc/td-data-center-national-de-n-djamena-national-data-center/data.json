@@ -1,0 +1,24 @@
+{
+  "slug": "td-data-center-national-de-n-djamena-national-data-center",
+  "canonical_project": "Data Center National de N'Djamena (National Data Center)",
+  "owner": "Government of Chad (PMICE programme) / Huawei Technologies (construction)",
+  "location": {
+    "city": "",
+    "subnational": "N'Djamena City",
+    "country": "Chad",
+    "country_code": "TD"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.trade.gov/country-commercial-guides/chad-telecommunications",
+    "https://www.ndjamenaactu.com/2026/02/05/tic-le-data-center-national-bientot-operationnel/",
+    "https://cybersecuritymag.africa/index.php/ansice-tchad-effectue-une-visite-guidee-dans-les-locaux-nouveau-data-center",
+    "https://www.globenewswire.com/news-release/2022/01/21/2370816/0/en/Chad-Telecoms-Mobile-and-Broadband-Statistics-and-Analyses.html",
+    "https://www.afdb.org/fileadmin/uploads/afdb/Documents/Environmental-and-Social-Assessments/Multinational_Niger_Tchad_-_Projet_dorsale_transsaharienne__fibre_optique__DTS___R_sum_PGES.pdf"
+  ],
+  "notes": "Chad's national data centre in N'Djamena. US trade.gov (official): Huawei broke ground in July 2020, financed via China EXIM Bank concessional loan, part of the government's electronic communications infrastructure modernisation (PMICE). BuddeComm/GlobeNewswire (Jan 2022): national data centre plus 1,200km fibre network and 50km N'Djamena metro fibre. AfDB trans-Saharan fibre backbone (DTS) documents reference the 'Centre de Donnees National de Ndjamena'. As of 5 Feb 2026 (ndjamenaactu): phase 1 (building and equipment installation) complete; tripartite agreement between ADETIC, ANSICE and TECHSO-GROUP signed for audit/certification of the building and equipment - final step before inauguration; ~100 micro data centers installed in state institutions are to be connected to it. Not yet inaugurated as of check date; no public MW capacity figure.",
+  "world_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "si-5g-wat-err-ib-edge-computing-private-5g-smart-municipality-project",
+  "canonical_project": "5G WAT-ERR-IB edge computing/private 5G smart municipality project",
+  "owner": "Vahta d.o.o.; Municipality of Ilirska Bistrica",
+  "location": {
+    "city": "",
+    "subnational": "Ilirska Bistrica",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2025-09-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vahta.eu/en/5g_wat_err_ib/",
+    "https://hadea.ec.europa.eu/programmes/connecting-europe-facility/about/cef-digital-5g-and-edge-cloud-smart-communities_en",
+    "https://hadea.ec.europa.eu/document/download/b3dc7ff9-cae2-476a-883e-0b45b21a5eb1_en?filename=C_2024_7083_F1_ANNEX_EN_V3_P1_3612835.PDF",
+    "https://newswire.telecomramblings.com/2026/08/private-5g-network-enhances-critical-infrastructure-in-slovenia/"
+  ],
+  "notes": "Official Vahta project page describes a 2025-2027, EUR 4.9 million project in Municipality of Ilirska Bistrica using private 5G SA, IoT sensors, LoRaWAN, drones, and edge computing for local real-time processing. HaDEA lists the project under CEF Digital 5G and Edge Cloud for Smart Communities with EUR 3.735 million EU contribution. This is an edge-cloud/telecom infrastructure project rather than a conventional colocation or hyperscale data center; no MW capacity found.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "au-vocus-mel04-mitcham-data-centre",
+  "canonical_project": "Vocus MEL04 Mitcham data centre",
+  "owner": "Vocus Group",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Whitehorse",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://gowith.vocus.com.au/rs/587-CSJ-470/images/vic-data-centres.html",
+    "https://www.datacentermap.com/australia/melbourne/mitcham/",
+    "https://baxtel.com/data-center/vocus-mel04"
+  ],
+  "notes": "Vocus-connected data centre list identifies Vocus DC-MEL04 at 28 Thornton Crescent, Mitcham VIC 3132; third-party facility databases describe the Mitcham facility as operational/Tier 3. Mitcham is in the City of Whitehorse.",
+  "world_batch": true
+}

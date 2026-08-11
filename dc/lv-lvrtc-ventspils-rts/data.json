@@ -1,0 +1,22 @@
+{
+  "slug": "lv-lvrtc-ventspils-rts",
+  "canonical_project": "LVRTC Ventspils RTS",
+  "owner": "Latvian State Radio and Television Center (LVRTC)",
+  "location": {
+    "city": "",
+    "subnational": "Ventspils",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://beta.peeringdb.com/org/1214",
+    "https://colomap.com/facilities/lvrtc-ventspils-rts/",
+    "https://www.lvrtc.lv/en/services/data-centers/"
+  ],
+  "notes": "PeeringDB lists LVRTC Ventspils RTS as an LVRTC facility in Ventspils; ColoMap describes it as a colocation data center at Gertrudes iela 18. Operator page confirms LVRTC provides nationwide colocation possibilities every 100 km.",
+  "world_batch": true
+}

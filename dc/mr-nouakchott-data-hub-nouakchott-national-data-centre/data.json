@@ -1,0 +1,23 @@
+{
+  "slug": "mr-nouakchott-data-hub-nouakchott-national-data-centre",
+  "canonical_project": "Nouakchott Data Hub / Nouakchott national data centre",
+  "owner": "Société pour le Développement des Infrastructures Numériques (SDIN) / Government of Mauritania; operated by International Mauritania Telecom (IMT)",
+  "location": {
+    "city": "",
+    "subnational": "West Nouakchott",
+    "country": "Mauritania",
+    "country_code": "MR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.eib.org/en/press/all/2025-202-inauguration-du-centre-d-hebergement-de-donnees-numeriques-de-nouakchott",
+    "https://international-partnerships.ec.europa.eu/policies/global-gateway/construction-data-center-nouakchott-and-submarine-cable-mauritania_en",
+    "https://sdin.mr/",
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/nouakchott-data-hub-/1291"
+  ],
+  "notes": "EIB reported the Nouakchott data centre was inaugurated on 8 May 2025, backed by a EUR 15m EIB loan for a Tier III data centre. SDIN identifies the Datacenter and national backbone/IXP as transferred WARCIP assets, and Uptime lists Nouakchott Data Hub in Nouakchott for SDIN. Assigned to West Nouakchott because local press and institutional addresses place the site/SDIN activity in Tevragh-Zeina/Nouakchott Ouest. Public MW not found; sources describe about 100 server racks and Tier III certification.",
+  "world_batch": true
+}

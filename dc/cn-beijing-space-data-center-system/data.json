@@ -1,0 +1,20 @@
+{
+  "slug": "cn-beijing-space-data-center-system",
+  "canonical_project": "Beijing Space Data Center System",
+  "owner": "Beijing Future Space Technology Research Institute and partners",
+  "location": {
+    "city": "",
+    "subnational": "Beijing - Beijing",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 1000.0,
+  "status": "planned",
+  "evidence_date": "2025-11-28",
+  "evidence_grade": "A",
+  "sources": [
+    "https://kw.beijing.gov.cn/xwdt/kcyx/xwdtcyfz/202511/t20251128_4309222.html"
+  ],
+  "notes": "Beijing science commission report says a space data-center plan targets multiple orbital data centers in 700-800 km sun-synchronous orbit, each about 1 GW, with phases in 2025-2027, 2028-2030, and 2031-2035. Included as planned/non-terrestrial compute infrastructure.",
+  "world_batch": true
+}

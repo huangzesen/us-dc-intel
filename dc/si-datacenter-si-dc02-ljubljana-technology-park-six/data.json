@@ -1,0 +1,21 @@
+{
+  "slug": "si-datacenter-si-dc02-ljubljana-technology-park-six",
+  "canonical_project": "Datacenter.si DC02 Ljubljana Technology Park / SIX",
+  "owner": "RvO d.o.o. / Datacenter.si",
+  "location": {
+    "city": "",
+    "subnational": "Ljubljana",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenter.si/",
+    "https://www.datacentermap.com/slovenia/ljubljana/"
+  ],
+  "notes": "Datacenter.si's official site lists Ljubljana - Tehnoloski Park 18 - SIX as a colocation center; Data Center Map's Ljubljana market list includes Datacenter DC02 at Tehnoloski park 19/18 area. MW capacity was not public.",
+  "world_batch": true
+}

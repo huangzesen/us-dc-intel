@@ -1,0 +1,21 @@
+{
+  "slug": "de-accompio-pck-it-datacenter-lindau",
+  "canonical_project": "accompio / PCK IT Datacenter Lindau",
+  "owner": "accompio SmarTec GmbH / PCK IT Datacenter GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Lindau",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.accompio.com/en/location/lindau/",
+    "https://pck-it.de/"
+  ],
+  "notes": "accompio states it operates its own data centre in Lindau; PCK/accompio page says PCK IT Solutions and PCK IT Datacenter became part of accompio and that the Lindau datacenter operates IT-as-a-Service/managed services with renewable power; capacity not disclosed.",
+  "world_batch": true
+}

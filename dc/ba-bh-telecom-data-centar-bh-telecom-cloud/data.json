@@ -1,0 +1,23 @@
+{
+  "slug": "ba-bh-telecom-data-centar-bh-telecom-cloud",
+  "canonical_project": "BH Telecom Data Centar / BH Telecom Cloud",
+  "owner": "BH Telecom d.d. Sarajevo",
+  "location": {
+    "city": "",
+    "subnational": "Federation of Bosnia and Herzegovina",
+    "country": "Bosnia and Herzegovina",
+    "country_code": "BA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-04-20",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bhtelecom.ba/biz-solution/bh-telecom-cloud/",
+    "https://www.bhtelecom.ba/usluge-za-poslovne-korisnike/2019/09/nova-cloud-usluga-kolokacija-u-data-centru-bh-telecoma/",
+    "https://www.bhtelecom.ba/javni-pozivi/2021/12/zahtjevi-za-informacijama-rfi-modularni-data-centar-bh-telecoma/",
+    "https://seenews.com/news/bosnias-bh-telecom-opens-tender-for-works-on-modular-data-centre-1235646"
+  ],
+  "notes": "BH Telecom's official cloud page identifies BH Telecom Cloud as SDDC/VMware Cloud Verified infrastructure owned by BH Telecom; earlier official pages describe colocation in BH Telecom Data Centar and a 2021 RFI for a modular data center, followed by a 2023 tender reported by SeeNews. Location is associated with Sarajevo/Federation; MW capacity not published.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "gb-ipswitch-group-ipswich-colo-data-centre",
+  "canonical_project": "IPswiTch Group Ipswich colo data centre",
+  "owner": "IPswiTch Group",
+  "location": {
+    "city": "",
+    "subnational": "England - Suffolk",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/united-kingdom/ipswich/ipswitch-group/"
+  ],
+  "notes": "Data Center Map lists IPswiTch Group's colo service as based at its data centre in Ipswich, Suffolk, supporting colocation from 1U devices to multiple racks. No MW capacity or recent expansion project found.",
+  "world_batch": true
+}

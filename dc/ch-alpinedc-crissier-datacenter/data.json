@@ -1,0 +1,22 @@
+{
+  "slug": "ch-alpinedc-crissier-datacenter",
+  "canonical_project": "AlpineDC Crissier Datacenter",
+  "owner": "AlpineDC SA",
+  "location": {
+    "city": "",
+    "subnational": "Vaud",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.alpinedc.ch/en/datacenters/crissier/",
+    "https://www.alpinedc.ch/fr/",
+    "https://www.invest-vaud.ch/key-sectors/cross-disciplinary-activities/data-centers"
+  ],
+  "notes": "AlpineDC's Crissier site near Lausanne is presented as its primary site for colocation, housing, and IP connectivity; Vaud's investment agency lists Crissier as a data center location in the canton.",
+  "world_batch": true
+}

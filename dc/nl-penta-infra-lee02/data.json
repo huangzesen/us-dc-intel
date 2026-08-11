@@ -1,0 +1,20 @@
+{
+  "slug": "nl-penta-infra-lee02",
+  "canonical_project": "Penta Infra LEE02",
+  "owner": "Penta Infra",
+  "location": {
+    "city": "",
+    "subnational": "Friesland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 0.4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://penta-infra.com/data-centers/leeuwarden-02/"
+  ],
+  "notes": "Official Penta Infra page lists LEE02 in Leeuwarden with 400 kW IT capacity, 400 m2 IT space and Tier III+ equivalent compliance.",
+  "world_batch": true
+}

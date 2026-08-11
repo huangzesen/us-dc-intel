@@ -1,0 +1,21 @@
+{
+  "slug": "fr-opcore-scaleway-dc5-saint-ouen-l-aumone",
+  "canonical_project": "OPCORE / Scaleway DC5 Saint-Ouen-l'Aumone",
+  "owner": "OPCORE / Scaleway / Iliad",
+  "location": {
+    "city": "",
+    "subnational": "Val-d'Oise",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 20.0,
+  "status": "operational",
+  "evidence_date": "2020-10-20",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.scaleway.com/en/blog/introducing-dc5-hyper-scale-mechanical-cooling-datacenter/",
+    "https://datacenterplatform.com/data-centers/scaleway-datacenter/scaleway-datacenter-france/scaleway-datacenter-dc5/"
+  ],
+  "notes": "Scaleway says DC5 is in Saint-Ouen-l'Aumone and offers more than 20 MW of IT power; DataCenterPlatform lists 25 avenue de l'Eguillette and 24 MW connection capacity.",
+  "world_batch": true
+}

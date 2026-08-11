@@ -1,0 +1,22 @@
+{
+  "slug": "de-philipps-universitaet-marburg-hochschulrechenzentrum-marc3-hpc-cluster",
+  "canonical_project": "Philipps-Universitaet Marburg Hochschulrechenzentrum / MaRC3 HPC cluster",
+  "owner": "Philipps-Universitaet Marburg",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Marburg-Biedenkopf",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.uni-marburg.de/de/hrz/ueber-uns/profil/geschichte/leitung-und-abteilungen",
+    "https://www.uni-marburg.de/en/hrz/services/high-performance-computing",
+    "https://idw-online.de/en/news538238"
+  ],
+  "notes": "University computing center has operated since 1963; current official HPC page lists MaRC3 cluster resources including data-center GPUs and multi-PB storage. Institutional HPC/data center rather than commercial colocation; capacity not disclosed.",
+  "world_batch": true
+}

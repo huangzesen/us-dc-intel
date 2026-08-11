@@ -1,0 +1,20 @@
+{
+  "slug": "ro-gts-telecom-bucharest-data-center",
+  "canonical_project": "GTS Telecom Bucharest Data Center",
+  "owner": "GTS Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Bucuresti",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/data-center/bucharest"
+  ],
+  "notes": "Baxtel lists GTS Telecom: Bucharest as an operational carrier-neutral facility and shows GTS Telecom with 1 operational Bucharest site and 2.0 MW.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "cn-china-mobile-gansu-lanzhou-data-center-phase-ii-lanzhou-new-area-data-center",
+  "canonical_project": "China Mobile (Gansu Lanzhou) Data Center Phase II / Lanzhou New Area Data Center",
+  "owner": "China Mobile Group Gansu Co., Ltd.; contractor China Construction Third Engineering Bureau",
+  "location": {
+    "city": "",
+    "subnational": "Gansu - Lanzhou Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-12-18",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cscec.com/xwzx_new/zqydt_new/202312/3740942.html",
+    "https://zh.uptimeinstitute.com/component/tierachievement/datacenter/lanzhou-new-area-data-center-phase-1-floor-1/991?Itemid="
+  ],
+  "notes": "CSCEC reported phase II passed completion acceptance in Lanzhou New Area, adding one data-center building and one power center across about 26,000 sqm with about 7,000-rack installed capacity; Uptime lists the China Mobile Gansu Lanzhou New Area Data Center Phase 1 floor.",
+  "world_batch": true
+}

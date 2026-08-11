@@ -1,0 +1,22 @@
+{
+  "slug": "ke-microsoft-g42-olkaria-geothermal-data-center-campus",
+  "canonical_project": "Microsoft/G42 Olkaria geothermal data center campus",
+  "owner": "G42 with Microsoft and local partners",
+  "location": {
+    "city": "",
+    "subnational": "Nakuru",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": 100,
+  "status": "planned",
+  "evidence_date": "2026-05-07",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/source/2024/05/22/microsoft-and-g42-announce-1-billion-comprehensive-digital-ecosystem-initiative-for-kenya/",
+    "https://www.datacenterdynamics.com/en/news/microsoft-and-g42-data-center-in-kenya-stalled-due-to-lack-of-power-capacity/",
+    "https://www.g42.ai/resources/news/g42-and-kenyas-ecocloud-unveil-green-powered-mega-data-center-collaboration"
+  ],
+  "notes": "Microsoft's May 22, 2024 announcement says G42 and partners would design and build a geothermal-powered Olkaria data center campus for a new East Africa Azure cloud region. Later DCD reporting says the project targeted an initial 100MW but had stalled over power capacity/contract issues and remained in discussions, possibly scaled back. G42/EcoCloud also announced an Olkaria mega data center collaboration with initial 100MW and potential expansion to 1GW.",
+  "world_batch": true
+}

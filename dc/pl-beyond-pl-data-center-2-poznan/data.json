@@ -1,0 +1,20 @@
+{
+  "slug": "pl-beyond-pl-data-center-2-poznan",
+  "canonical_project": "Beyond.pl Data Center 2, Poznan",
+  "owner": "Beyond.pl",
+  "location": {
+    "city": "",
+    "subnational": "Greater Poland",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 42,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.beyond.pl/en/data-centers-campus/beyond-pl-data-center-2/"
+  ],
+  "notes": "Beyond.pl official facility page states DC2 in Poznan at A. Kreglewskiego 11 has 42 MW IT load, 53 MW total power allocation, 9,400 sqm total floor space, 2,000 sqm IT space, and ANSI/TIA-942 Rated 4 plus EN 50600 Class 4 certifications.",
+  "world_batch": true
+}

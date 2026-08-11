@@ -1,0 +1,21 @@
+{
+  "slug": "ae-gulf-data-hub-abu-dhabi-kizad-data-center",
+  "canonical_project": "Gulf Data Hub Abu Dhabi KIZAD data center",
+  "owner": "Gulf Data Hub",
+  "location": {
+    "city": "",
+    "subnational": "Abu Dhabi - Abu Dhabi Municipality",
+    "country": "United Arab Emirates",
+    "country_code": "AE"
+  },
+  "capacity_mw": 22.0,
+  "status": "construction",
+  "evidence_date": "2023-03-07",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/gulf-data-hub-breaks-ground-on-data-center-in-abu-dhabi/",
+    "https://baxtel.com/data-center/gulf-data-hub-kizad-icad1"
+  ],
+  "notes": "Trade press reported Gulf Data Hub breaking ground on an Abu Dhabi data center at KIZAD; Baxtel lists the KIZAD/ICAD1 facility as a 22 MW project. Public sources vary on naming between KIZAD and ICAD1, so location is noted at emirate/industrial-zone level.",
+  "world_batch": true
+}

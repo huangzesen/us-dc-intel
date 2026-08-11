@@ -1,0 +1,22 @@
+{
+  "slug": "gb-ark-spring-park-campus",
+  "canonical_project": "Ark Spring Park Campus",
+  "owner": "Ark Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "England - Wiltshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 46.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ocolo.io/colocation/ark-data-centres/corsham-spring-park/",
+    "https://www.colo-x.com/data-centre/ark-data-centres-spring-park-campus/",
+    "https://www.ark-d-c.com/locations/spring-park"
+  ],
+  "notes": "Operational Corsham campus; OCOLO and Colo-X describe Spring Park as an ultra-secure data-centre campus with 46MW IT load. Ark's own site confirms Spring Park location but does not expose capacity on the crawled page.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "vn-viettel-idc-da-nang-data-center",
+  "canonical_project": "Viettel IDC Da Nang Data Center",
+  "owner": "Viettel IDC",
+  "location": {
+    "city": "",
+    "subnational": "Da Nang",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-02",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/viettel-breaks-ground-on-data-center-in-ho-chi-minh-city-vietnam/",
+    "https://baxtel.com/data-center/viettel-idc-da-nang"
+  ],
+  "notes": "DCD reports Viettel IDC has five data centers across Hanoi, Da Nang and Ho Chi Minh City; Baxtel lists the Da Nang facility as operational since May 2014.",
+  "world_batch": true
+}

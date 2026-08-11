@@ -1,0 +1,21 @@
+{
+  "slug": "it-exa-alba-adriatica-data-center",
+  "canonical_project": "EXA Alba Adriatica Data Center",
+  "owner": "EXA Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Abruzzo",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/65e14adf-6152-4760-8d71-ab07560c0d3b/exa-infrastructure/datacenter/exa-alba-adriatica",
+    "https://inflect.com/datacenters/emea/italy/teramo"
+  ],
+  "notes": "Inflect lists EXA Alba Adriatica at Via Adriatica 74 in Alba Adriatica, Teramo/Abruzzo as an operational colocation/connectivity facility.",
+  "world_batch": true
+}

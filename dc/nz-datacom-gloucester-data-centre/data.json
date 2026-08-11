@@ -1,0 +1,21 @@
+{
+  "slug": "nz-datacom-gloucester-data-centre",
+  "canonical_project": "Datacom Gloucester Data Centre",
+  "owner": "Datacom",
+  "location": {
+    "city": "",
+    "subnational": "Canterbury",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacom.com/nz/en/products/data-centres/locations/gloucester-christchurch",
+    "https://www.reseller.co.nz/article/1292420/datacoms-52m-data-centre-expansion-completed-in-christchurch.html"
+  ],
+  "notes": "Datacom's Gloucester Christchurch page identifies the central Christchurch facility and lists 1 MW capacity; trade coverage reported the Gloucester expansion.",
+  "world_batch": true
+}

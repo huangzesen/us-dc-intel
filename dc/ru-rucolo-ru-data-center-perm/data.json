@@ -1,0 +1,21 @@
+{
+  "slug": "ru-rucolo-ru-data-center-perm",
+  "canonical_project": "Rucolo.ru Data Center, Perm",
+  "owner": "Rucolo / LLC Ezerdi",
+  "location": {
+    "city": "",
+    "subnational": "Perm",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-05-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/russia/perm/rucoloru-data-center/",
+    "https://www.datacentermap.com/russia/perm/"
+  ],
+  "notes": "Directory listing identifies an operational Perm data center at Ulitsa Popova 9 with two equipment rooms and 68 cabinets; directory reports 0.5 MW. No primary operator announcement found in this pass.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "mt-malta-university-data-centre",
+  "canonical_project": "Malta University Data Centre",
+  "owner": "University of Malta",
+  "location": {
+    "city": "",
+    "subnational": "Msida",
+    "country": "Malta",
+    "country_code": "MT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/university-of-malta/malta-university-data-centre/",
+    "https://datacenterplatform.com/data-centers/university-of-malta/"
+  ],
+  "notes": "Aggregate data-centre directory lists a University of Malta data centre at Msida MSD2080; no public MW capacity found. Treated as operational because the listing is for an existing facility, but evidence is directory-level rather than an official facility page.",
+  "world_batch": true
+}

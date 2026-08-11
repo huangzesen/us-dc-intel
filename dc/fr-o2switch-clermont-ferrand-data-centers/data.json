@@ -1,0 +1,21 @@
+{
+  "slug": "fr-o2switch-clermont-ferrand-data-centers",
+  "canonical_project": "o2switch Clermont-Ferrand data centers",
+  "owner": "o2switch",
+  "location": {
+    "city": "",
+    "subnational": "Puy-de-Dôme",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.o2switch.fr/infrastructures/",
+    "https://www.o2switch.fr/hebergement-illimite/"
+  ],
+  "notes": "o2switch states that it owns and manages its own data centers in Clermont-Ferrand, France, with 24/7 operations and services hosted in France without an intermediary.",
+  "world_batch": true
+}

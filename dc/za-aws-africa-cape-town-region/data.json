@@ -1,0 +1,22 @@
+{
+  "slug": "za-aws-africa-cape-town-region",
+  "canonical_project": "AWS Africa (Cape Town) Region",
+  "owner": "Amazon Web Services (AWS)",
+  "location": {
+    "city": "",
+    "subnational": "Western Cape - City of Cape Town",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-04-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/local/africa/cape-town/",
+    "https://www.itnewsafrica.com/2018/10/amazon-web-services-to-open-data-centers-in-south-africa/",
+    "https://gadget.co.za/aws-data-centres-go-live-in-sa/"
+  ],
+  "notes": "AWS Africa (Cape Town) Region announced October 2018 and launched April 2020 with three Availability Zones; the first hyperscale cloud region in Africa. AWS official regional page confirms the region; press coverage confirms go-live on 22 April 2020. Public capacity in MW not disclosed.",
+  "world_batch": true
+}

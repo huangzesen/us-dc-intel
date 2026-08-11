@@ -1,0 +1,22 @@
+{
+  "slug": "fr-nexeren-civrieux-datacenters",
+  "canonical_project": "NEXEREN Civrieux datacenters",
+  "owner": "NEXEREN",
+  "location": {
+    "city": "",
+    "subnational": "Ain",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nexeren.com/",
+    "https://carte.dcmag.fr/directory/nexeren-5/",
+    "https://www.peeringdb.com/fac/5070"
+  ],
+  "notes": "NEXEREN says it operates interconnected datacenters from Civrieux (01) to Montpellier; DCmag and PeeringDB place the facility at Technoparc Saone Vallee, Civrieux, Ain.",
+  "world_batch": true
+}

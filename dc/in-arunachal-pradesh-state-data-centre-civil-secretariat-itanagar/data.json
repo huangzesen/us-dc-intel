@@ -1,0 +1,23 @@
+{
+  "slug": "in-arunachal-pradesh-state-data-centre-civil-secretariat-itanagar",
+  "canonical_project": "Arunachal Pradesh State Data Centre, Civil Secretariat, Itanagar",
+  "owner": "Department of Information Technology & Communication, Government of Arunachal Pradesh",
+  "location": {
+    "city": "",
+    "subnational": "Arunachal Pradesh - Papum Pare",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-07-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ditc.arunachal.gov.in/sdc.php",
+    "https://arunachalpradesh.gov.in/uploads/notices/notice_68831d85400707.02053647.pdf",
+    "https://arunachaltenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndLatestActiveTenders&service=direct&sp=SZC9IY03bG36SWG%2BKY8tTHg%3D%3D",
+    "https://theprint.in/india/arunachal-gets-state-data-centre/1995517/"
+  ],
+  "notes": "Official DITC SDC page lists the State Data Centre at Block 1, 1st Floor, Room No. 107, Civil Secretariat, Itanagar, and describes common hosting infrastructure including UPS power, cooling, rack space, security, storage, monitoring, and Internet. A Government of Arunachal Pradesh order dated 2025-06-19 states the SDC was fully operational since 2024-04-01; tender records show earlier selection of a data center operator for design, installation, operation, and maintenance. ThePrint/PTI reported the chief minister inaugurated the facility on 2024-03-10. Public sources do not disclose MW capacity.",
+  "world_batch": true
+}

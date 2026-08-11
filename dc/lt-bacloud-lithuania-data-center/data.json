@@ -1,0 +1,21 @@
+{
+  "slug": "lt-bacloud-lithuania-data-center",
+  "canonical_project": "Bacloud Lithuania data center",
+  "owner": "UAB Bacloud",
+  "location": {
+    "city": "",
+    "subnational": "Siauliai County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bacloud.com/en/our-datacenter/lithuania",
+    "https://www.bacloud.com/en/our-datacenter"
+  ],
+  "notes": "Bacloud official materials place its main Lithuanian data center in Siauliai and state it has operated since 2006.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "cn-hinggan-league-government-cloud-local-private-cloud-and-disaster-recovery-center",
+  "canonical_project": "Hinggan League Government Cloud / Local Private Cloud and Disaster Recovery Centers",
+  "owner": "Hinggan League government / China Mobile / Huawei cloud resources",
+  "location": {
+    "city": "",
+    "subnational": "Inner Mongolia - Hinggan Meng",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-06-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.xam.gov.cn/xam/2021-10/19/article_2024041412415958411.html",
+    "https://www.aii-alliance.org/index/c155/n2526.html"
+  ],
+  "notes": "Official Hinggan League response says the league government cloud platform was substantially completed, with a Hohhot-Horinger remote hybrid cloud as primary, a Hinggan local private cloud as auxiliary, and disaster-recovery centers at both sites. AII case material says a Huawei cloud pool expanded in 2018 was dedicated to the Hinggan League cloud data center project.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "iq-cloudflare-baghdad-data-center",
+  "canonical_project": "Cloudflare Baghdad data center",
+  "owner": "Cloudflare",
+  "location": {
+    "city": "",
+    "subnational": "Baghdad",
+    "country": "Iraq",
+    "country_code": "IQ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2018-03-14",
+  "evidence_grade": "A",
+  "sources": [
+    "https://blog.cloudflare.com/baghdad/",
+    "https://www.cloudflare.com/network/"
+  ],
+  "notes": "Cloudflare announced its Baghdad, Iraq data center in March 2018 and current official network page still lists Baghdad, IQ.",
+  "world_batch": true
+}

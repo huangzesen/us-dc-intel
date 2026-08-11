@@ -1,0 +1,21 @@
+{
+  "slug": "kr-lg-u-daegu-center",
+  "canonical_project": "LG U+ Daegu Center",
+  "owner": "LG U+",
+  "location": {
+    "city": "",
+    "subnational": "Daegu - Jung-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 20.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.lguplus.com/biz/all/telecom/idc/center/B000000031",
+    "https://www.datacenters.com/lg-uplus-corp-daegu"
+  ],
+  "notes": "LG U+ official IDC page lists the Daegu center at 295-1 Dongin 1-ga / 186 Dongdeok-ro, Jung-gu, Daegu, with 20,000 kW power and Tier-3-class availability.",
+  "world_batch": true
+}

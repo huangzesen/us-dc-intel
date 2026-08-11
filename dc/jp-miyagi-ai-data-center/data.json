@@ -1,0 +1,22 @@
+{
+  "slug": "jp-miyagi-ai-data-center",
+  "canonical_project": "Miyagi AI Data Center",
+  "owner": "Tohoku Electric Power / Getworks",
+  "location": {
+    "city": "",
+    "subnational": "Miyagi",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tohoku-epco.co.jp/news/normal/1248900_2558.html",
+    "https://cloud.watch.impress.co.jp/docs/news/2131658.html",
+    "https://getworks.co.jp/"
+  ],
+  "notes": "Tohoku Electric announced the containerized Miyagi AI Data Center in Shichigahama, Miyagi was completed and would start GPU-server housing service on 2026-07-31. MW not disclosed.",
+  "world_batch": true
+}

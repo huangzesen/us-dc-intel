@@ -1,0 +1,22 @@
+{
+  "slug": "ph-vitro-cavite",
+  "canonical_project": "VITRO Cavite",
+  "owner": "VITRO Inc. / ePLDT / PLDT",
+  "location": {
+    "city": "",
+    "subnational": "Calabarzon",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 100,
+  "status": "planned",
+  "evidence_date": "2025-04-25",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.lightreading.com/data-centers/pldt-confirms-plan-for-12th-data-center-as-it-launches-the-first-ai-ready-hyperscale-facility-in-the-philippines",
+    "https://w.media/pldt-to-build-100mw-data-center-in-cavite-philippines-in-2026/",
+    "https://www.datacentermap.com/philippines/calabarzon/epldt-vitro-cavite/"
+  ],
+  "notes": "PLDT confirmed it was evaluating/planning a 12th VITRO data center in General Trias, Cavite; reports describe up to 100 MW IT load, construction targeted from 2026 and completion by 2028.",
+  "world_batch": true
+}

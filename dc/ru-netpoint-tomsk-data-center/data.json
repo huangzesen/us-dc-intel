@@ -1,0 +1,21 @@
+{
+  "slug": "ru-netpoint-tomsk-data-center",
+  "canonical_project": "NetPoint Tomsk Data Center",
+  "owner": "NetPoint Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Tomsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/russia/tomsk/netpoint/",
+    "https://tomsk.rt.ru/b2o/rostelecom-infrastructure/data-center"
+  ],
+  "notes": "DataCenterMap lists NetPoint Datacenter at Ulitsa Shishkova 13A, 2nd floor, Tomsk, offering hosting/colocation services. Rostelecom also markets data-center services to Tomsk customers, but no separate Tomsk physical Rostelecom facility capacity was verified.",
+  "world_batch": true
+}

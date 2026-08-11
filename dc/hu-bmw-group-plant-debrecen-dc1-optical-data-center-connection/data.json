@@ -1,0 +1,21 @@
+{
+  "slug": "hu-bmw-group-plant-debrecen-dc1-optical-data-center-connection",
+  "canonical_project": "BMW Group Plant Debrecen DC1 optical/data-center connection",
+  "owner": "BMW Group / Invitech ICT Services",
+  "location": {
+    "city": "",
+    "subnational": "Hajdu-Bihar",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2023-10-04",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.invitech.hu/sikertortenetek/bmw-group-gyar-debrecen-optikai-kapcsolat-ki-epitese",
+    "https://www.datacenterdynamics.com/en/news/invitech-to-connect-new-bmw-hungary-plant-with-optical-fiber/"
+  ],
+  "notes": "Invitech described delivery of an optical connection for BMW Group's Debrecen plant including the plant's DC1 node/data-center endpoint. This is supporting data-center/network infrastructure inside the industrial campus, not an independent colocation facility; capacity not disclosed.",
+  "world_batch": true
+}

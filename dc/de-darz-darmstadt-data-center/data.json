@@ -1,0 +1,21 @@
+{
+  "slug": "de-darz-darmstadt-data-center",
+  "canonical_project": "DARZ Darmstadt Data Center",
+  "owner": "DARZ GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Darmstadt",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://da-rz.de/en/",
+    "https://da-rz.de/en/data-center/"
+  ],
+  "notes": "DARZ lists a Darmstadt data center with 8,000 sqm total floor space and 2,400 sqm IT space for up to 1,000 racks; no MW capacity disclosed.",
+  "world_batch": true
+}

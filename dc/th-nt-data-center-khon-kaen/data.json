@@ -1,0 +1,22 @@
+{
+  "slug": "th-nt-data-center-khon-kaen",
+  "canonical_project": "NT Data Center Khon Kaen",
+  "owner": "National Telecom Public Company Limited (NT)",
+  "location": {
+    "city": "",
+    "subnational": "Khon Kaen",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ntdatacenter.net/data-center/nt-khon-kaen/",
+    "https://www.ntdatacenter.net/locations/",
+    "https://baxtel.com/data-center/nt-khon-kaen"
+  ],
+  "notes": "NT's official site lists the Khon Kaen Tier 3 data center as under renovation with estimated completion in June 2026; NT locations page and Baxtel indicate 25 racks, but no MW capacity is disclosed.",
+  "world_batch": true
+}

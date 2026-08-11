@@ -1,0 +1,20 @@
+{
+  "slug": "kr-kdt-idc-namwon-center",
+  "canonical_project": "KDT IDC Namwon Center",
+  "owner": "Korea Data Communications (KDT IDC)",
+  "location": {
+    "city": "",
+    "subnational": "Jeollabuk-do - Namwon",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aidc.co.kr/en/centers"
+  ],
+  "notes": "Company data-center page lists Namwon Center as an upcoming GPU Dedicated Center with 2028 H1 RFS; no MW capacity disclosed.",
+  "world_batch": true
+}

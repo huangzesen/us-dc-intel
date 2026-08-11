@@ -1,0 +1,21 @@
+{
+  "slug": "fr-cogent-data-center-grenoble",
+  "canonical_project": "Cogent Data Center - Grenoble",
+  "owner": "Cogent Communications",
+  "location": {
+    "city": "",
+    "subnational": "Isère",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.cogentco.com/en/network/cogent-data-centers",
+    "https://www.datacentermap.com/france/grenoble/"
+  ],
+  "notes": "Cogent's data-center page lists Grenoble among its French data-center markets; Data Center Map lists a Cogent Grenoble facility at 33 Rue Joseph Chanrion.",
+  "world_batch": true
+}

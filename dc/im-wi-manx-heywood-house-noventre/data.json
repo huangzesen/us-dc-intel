@@ -1,0 +1,22 @@
+{
+  "slug": "im-wi-manx-heywood-house-noventre",
+  "canonical_project": "Wi-Manx Heywood House / Noventre",
+  "owner": "Noventre (formerly Wi-Manx)",
+  "location": {
+    "city": "",
+    "subnational": "Isle of Man",
+    "country": "Isle of Man",
+    "country_code": "IM"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/isle-of-man/douglas/heywood-house/",
+    "https://www.datacenterdynamics.com/en/news/isle-of-man-it-infrastructure-gets-08m-investment/",
+    "https://www.noventre.com/news-insights/noventre-our-new-name-and-brand/"
+  ],
+  "notes": "DataCenterMap lists Wi-Manx Heywood House in Douglas as a data centre. DCD reported in 2016 that Wi-Manx provided colocation and cloud services through one data center on the island. Noventre's 2025 rebrand note says Noventre Home replaced the Wi-Manx brand; current official Noventre pages emphasize managed IT/connectivity rather than a physical data centre, so status is left unknown.",
+  "world_batch": true
+}

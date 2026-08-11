@@ -1,0 +1,21 @@
+{
+  "slug": "id-mitrakom-data-center-mdc-ambon",
+  "canonical_project": "Mitrakom Data Center (MDC) Ambon",
+  "owner": "PT. Tangara Mitrakom",
+  "location": {
+    "city": "",
+    "subnational": "Maluku",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/indonesia/ambon/",
+    "https://www.datacentermap.com/indonesia/ambon/mitrakom-mdc-ambon/specs/"
+  ],
+  "notes": "Data Center Map lists one Ambon colocation facility, MDC Ambon, at Jl. Laksdya Wattimena in Ambon Passo. Capacity not supplied.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "au-leading-edge-dc-abx1-albury-wodonga-edge-data-centre",
+  "canonical_project": "Leading Edge DC ABX1 Albury-Wodonga edge data centre",
+  "owner": "Leading Edge Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Wodonga",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 0.75,
+  "status": "operational",
+  "evidence_date": "2022-10-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://leadingedgedc.com/dc_location/albury/",
+    "https://www.arnnet.com.au/article/1255755/leading-edge-dc-opens-albury-wodonga-data-centre.html"
+  ],
+  "notes": "Leading Edge DC lists ABX1 as an Albury, NSW facility with 750kW total site capacity serving Albury and sister city Wodonga; ARN reported the Albury-Wodonga launch and AU$7m investment. Assigned to Wodonga because the named market explicitly spans the border city pair, though the physical facility is on the Albury side.",
+  "world_batch": true
+}

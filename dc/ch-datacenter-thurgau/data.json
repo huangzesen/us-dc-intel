@@ -1,0 +1,22 @@
+{
+  "slug": "ch-datacenter-thurgau",
+  "canonical_project": "Datacenter Thurgau",
+  "owner": "EKT AG",
+  "location": {
+    "city": "",
+    "subnational": "Thurgau",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenterthurgau.ch/",
+    "https://datacenterthurgau.ch/kontakt/",
+    "https://www.itmagazine.ch/artikel/67540/Datacenter_Thurgau_eroeffnet.html"
+  ],
+  "notes": "EKT official site and contact page identify Datacenter Thurgau at Galgenholzstrasse 23, Frauenfeld; Swiss IT Magazine reported the EKT facility opened in 2018 after eight months of construction.",
+  "world_batch": true
+}

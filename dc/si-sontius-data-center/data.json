@@ -1,0 +1,21 @@
+{
+  "slug": "si-sontius-data-center",
+  "canonical_project": "Sontius data center",
+  "owner": "Sontius d.o.o.",
+  "location": {
+    "city": "",
+    "subnational": "Sempeter-Vrtojba",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/slovenia/nova-gorica/sontius-data-center/",
+    "https://datacentercatalog.com/slovenia"
+  ],
+  "notes": "Located at Mednarodni prehod 6, 5290 Sempeter pri Gorici, within the Sempeter-Vrtojba municipality area. DataCenterMap lists colocation/cloud services and facility infrastructure including redundant air conditioning, fire protection, access control, video surveillance, diesel generator, and UPS-backed racks. Capacity not disclosed.",
+  "world_batch": true
+}

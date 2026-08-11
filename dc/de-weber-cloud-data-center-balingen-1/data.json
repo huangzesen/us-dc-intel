@@ -1,0 +1,21 @@
+{
+  "slug": "de-weber-cloud-data-center-balingen-1",
+  "canonical_project": "weber.cloud Data Center Balingen 1",
+  "owner": "weber.digital GmbH / weber.cloud",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Zollernalbkreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.weber.cloud/rechenzentrum-balingen-neckar-alb.php",
+    "https://www.peeringdb.com/fac/7076"
+  ],
+  "notes": "Operator page says weber.cloud owns and operates its own data center in the same building as its headquarters in Balingen, Zollernalbkreis; PeeringDB lists the Balingen facility at Bahnhofstr. 16.",
+  "world_batch": true
+}

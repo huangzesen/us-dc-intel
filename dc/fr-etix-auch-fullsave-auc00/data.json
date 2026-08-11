@@ -1,0 +1,21 @@
+{
+  "slug": "fr-etix-auch-fullsave-auc00",
+  "canonical_project": "ETIX Auch / FullSave AUC00",
+  "owner": "ETIX Everywhere / FullSave / Eurofiber",
+  "location": {
+    "city": "",
+    "subnational": "Gers",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2023-06-21",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/eurofibers-fullsave-launches-data-center-in-auch-france/",
+    "https://www.datacentermap.com/france/auch/fullsave-auc00/"
+  ],
+  "notes": "FullSave opened the Auch facility in June 2023; reported as two 70 sqm IT rooms and 30 racks. DataCenterMap lists 1 MW and operational status, later rebranded/acquired by ETIX.",
+  "world_batch": true
+}

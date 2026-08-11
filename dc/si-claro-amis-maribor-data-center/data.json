@@ -1,0 +1,20 @@
+{
+  "slug": "si-claro-amis-maribor-data-center",
+  "canonical_project": "Claro AMIS Maribor data center",
+  "owner": "Claro / AMIS",
+  "location": {
+    "city": "",
+    "subnational": "Maribor",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/datacenters/emea/slovenia/maribor"
+  ],
+  "notes": "Inflect lists Claro AMIS among Maribor data centers; public sources did not disclose exact address or MW capacity in the searchable listing.",
+  "world_batch": true
+}

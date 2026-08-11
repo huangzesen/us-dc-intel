@@ -1,0 +1,22 @@
+{
+  "slug": "tw-cht-taipei-idc-banqiao",
+  "canonical_project": "CHT Taipei IDC (Banqiao)",
+  "owner": "Chunghwa Telecom",
+  "location": {
+    "city": "",
+    "subnational": "New Taipei",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": 40,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location_Taipei_Banqiao.html",
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location.html",
+    "https://www.twreporter.org/a/data-center-electricity-demand-english"
+  ],
+  "notes": "Chunghwa Telecom's official IDC page lists its flagship Taipei IDC at Banqiao District, New Taipei City; Taiwan Reporter (twreporter) cites the Banqiao data center as having a 40 MW load, the largest single CHT facility. Third-party listings (Data Center Map, DataCenterJournal) give the address as No. 8 Guoqing Rd., Banqiao District, New Taipei.",
+  "world_batch": true
+}

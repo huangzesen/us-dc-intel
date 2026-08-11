@@ -1,0 +1,20 @@
+{
+  "slug": "th-ais-data-center-chiang-mai",
+  "canonical_project": "AIS Data Center - Chiang Mai",
+  "owner": "Advanced Info Service (AIS)",
+  "location": {
+    "city": "",
+    "subnational": "Chiang Mai",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ais.th/en/business/enterprise/technology-and-solution/cloud-and-data-center/ais-data-center/ais-data-center"
+  ],
+  "notes": "AIS official data-center page lists Chiang Mai as an AIS Data Center location. Public page did not disclose MW capacity.",
+  "world_batch": true
+}

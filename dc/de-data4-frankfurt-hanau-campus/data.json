@@ -1,0 +1,22 @@
+{
+  "slug": "de-data4-frankfurt-hanau-campus",
+  "canonical_project": "DATA4 Frankfurt-Hanau campus",
+  "owner": "DATA4",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Main-Kinzig-Kreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 180,
+  "status": "construction",
+  "evidence_date": "2025-09-16",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.data4group.com/en/data-center-in-frankfurt-germany/",
+    "https://www.ihk.de/blueprint/servlet/resource/blob/5498894/7a63cd49df84c9836744ef95267ad8af/rechenzentren-mkk-data.pdf",
+    "https://mkk-echo.de/data4-legt-den-grundstein-fuer-sein-erstes-rechenzentrum-in-deutschland-ein-meilenstein-fuer-ki-cloud-und-digitale-souveraenitaet/"
+  ],
+  "notes": "DATA4's official Frankfurt-Hanau campus page lists 25 ha of land reserves, 180 MW available electricity reserves, and first module planned for 2025. IHK Main-Kinzig brief says the Hanau/Grossauheim-Kaserne site is expected to reach 180 MW at final build-out; local reporting records the groundbreaking in September 2025.",
+  "world_batch": true
+}

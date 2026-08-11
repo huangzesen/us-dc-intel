@@ -1,0 +1,21 @@
+{
+  "slug": "au-cdc-maddington-campus",
+  "canonical_project": "CDC Maddington Campus",
+  "owner": "CDC Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Perth",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 200,
+  "status": "planned",
+  "evidence_date": "2025-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.wa.gov.au/government/media-statements/Cook-Labor-Government/Western-Australia-secures-largest-AI-and-advanced-technology-data-centre-20250811",
+    "https://www.datacenterdynamics.com/en/news/cdc-data-centres-plans-200mw-data-center-campus-in-perth-australia/"
+  ],
+  "notes": "WA Government announced a Maddington advanced technology data centre campus backed by CDC Data Centres, described as the largest of its kind in Western Australia with up to 200MW planned capacity.",
+  "world_batch": true
+}

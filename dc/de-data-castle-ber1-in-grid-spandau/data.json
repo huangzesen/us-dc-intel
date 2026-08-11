@@ -1,0 +1,21 @@
+{
+  "slug": "de-data-castle-ber1-in-grid-spandau",
+  "canonical_project": "Data Castle BER1 / in.grid Spandau",
+  "owner": "DATA CASTLE GmbH / Data Center Group",
+  "location": {
+    "city": "",
+    "subnational": "Berlin - Berlin",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 26,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenter-group.com/en/news-stories/article/new-data-center-for-the-capital-of-germany-1/",
+    "https://www.datacenterdynamics.com/en/product-news/data-castle-new-owner-of-40mva-data-center-site-in-berlin/"
+  ],
+  "notes": "Data Center Group project page describes BER1 in Berlin Spandau with 40 MVA total capacity, 26 MW IT load, 10,000 sq m IT area, and completion/commissioning planned for end-2025; DCD/press release reported Data Castle as the new owner in 2023.",
+  "world_batch": true
+}

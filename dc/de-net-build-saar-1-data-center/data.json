@@ -1,0 +1,22 @@
+{
+  "slug": "de-net-build-saar-1-data-center",
+  "canonical_project": "Net-Build SAAR 1 data center",
+  "owner": "Net-Build GmbH / Net-Build Datacenter GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Saarland - Saarlouis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://netbuild.net/datacenter",
+    "https://www.datacentermap.com/germany/saarlouis/net-build-rz-saar1/",
+    "https://vimeopro.com/vsegruppe/vse-tv/video/161924488"
+  ],
+  "notes": "Net-Build's official page describes SAAR 1 as a TÜV-certified colocation data center in Saarland with 100% availability since 2016. VSE video page says the high-performance data center was built in Saarwellingen. No public MW capacity found in primary source; third-party listings vary.",
+  "world_batch": true
+}

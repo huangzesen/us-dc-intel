@@ -1,0 +1,22 @@
+{
+  "slug": "cm-matrix-telecoms-douala-data-center",
+  "canonical_project": "Matrix Telecoms Douala Data Center",
+  "owner": "Matrix Telecoms SA",
+  "location": {
+    "city": "",
+    "subnational": "Littoral",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/datacenters/emea/cameroon",
+    "https://inflect.com/building/akwa-i-douala-littoral-region-cameroon/matrix-telecoms-sa/datacenter/matrix-telecoms-douala",
+    "https://bgp.he.net/AS36955"
+  ],
+  "notes": "Inflect lists Matrix Telecoms Douala as a data center in Akwa I, Douala, Littoral Region, operated by Matrix Telecoms SA. BGP/IRR records also identify Matrix Telecoms Douala network infrastructure. No public MW capacity found.",
+  "world_batch": true
+}

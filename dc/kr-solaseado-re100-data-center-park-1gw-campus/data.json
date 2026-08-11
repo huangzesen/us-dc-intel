@@ -1,0 +1,22 @@
+{
+  "slug": "kr-solaseado-re100-data-center-park-1gw-campus",
+  "canonical_project": "Solaseado RE100 Data Center Park / 1GW campus",
+  "owner": "Jeollanam-do; Haenam County; Bosung Group / Seonamhaean Enterprise City Development; TGK / Diode Ventures",
+  "location": {
+    "city": "",
+    "subnational": "Jeollanam-do - Haenam-gun",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 1000,
+  "status": "planned",
+  "evidence_date": "2023-08-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/south-korean-govt-announces-plans-for-1gw-data-center-campus/",
+    "https://baxtel.com/news/government-announces-1gw-data-center-facility-in-south-korea",
+    "https://www.asiae.co.kr/en/article/2023031309321275859"
+  ],
+  "notes": "Large-scale Solaseado/Guseong district plan in Haenam-gun. Reporting describes phased buildout to 25 x 40MW data centers, with early phase buildings and substations before 2037. Treat as campus-level planned capacity rather than a single building.",
+  "world_batch": true
+}

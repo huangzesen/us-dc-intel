@@ -1,0 +1,20 @@
+{
+  "slug": "ch-ewn-datencenter-nidwalden",
+  "canonical_project": "EWN Datencenter Nidwalden",
+  "owner": "Elektrizitatswerk Nidwalden",
+  "location": {
+    "city": "",
+    "subnational": "Nidwalden",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ewn.ch/telekommunikation/datencenter/"
+  ],
+  "notes": "EWN official telecommunications page offers secure monitored data center space in the canton of Nidwalden.",
+  "world_batch": true
+}

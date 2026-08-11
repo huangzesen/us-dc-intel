@@ -1,0 +1,22 @@
+{
+  "slug": "gr-sparkle-chania-data-center",
+  "canonical_project": "Sparkle Chania Data Center",
+  "owner": "Sparkle / Telecom Italia Sparkle",
+  "location": {
+    "city": "",
+    "subnational": "Crete",
+    "country": "Greece",
+    "country_code": "GR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tisparkle.com/our-platform/backbone-infrastructure-platform/data-center-solutions/sparkle-greece-data-center",
+    "https://www.grid-telecom.com/nea/anakoinoseis/grid-telecom-ti-sparkle-greece-collaboration",
+    "https://www.datacentermap.com/greece/chania/mednautilus-chania/"
+  ],
+  "notes": "Sparkle's Greece Data Centers page says its Greek footprint includes three Athens-area data centers and one in Chania on Crete, with 14,000 sq m total across Greece. Grid Telecom's 2021 collaboration announcement described TI Sparkle Greece as operating three proprietary data centers totaling 8,000 sq m and 6MW, with the third in Chania, Crete; project-level MW for Chania alone was not disclosed.",
+  "world_batch": true
+}

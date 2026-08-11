@@ -1,0 +1,22 @@
+{
+  "slug": "af-afghanistan-national-data-center-andc",
+  "canonical_project": "Afghanistan National Data Center (ANDC)",
+  "owner": "Ministry of Communications and Information Technology / Government of Afghanistan; built by Grand Technology Resources",
+  "location": {
+    "city": "",
+    "subnational": "Kabul",
+    "country": "Afghanistan",
+    "country_code": "AF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://andc.gov.af/about-us",
+    "https://www.networkworld.com/article/970978/south-asia-data-centre-guide-2022-country-by-country.html",
+    "https://www.gtr.ae/major-projects-central-asia/"
+  ],
+  "notes": "Government national data center in Kabul providing government/private-sector hosting services for e-government and m-government; Network World reports it opened in 2009 and GTR says it designed/deployed the Afghanistan National Datacenter.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "se-atnorth-gothenburg-swe03-former-gompute-data-center",
+  "canonical_project": "atNorth Gothenburg SWE03 / former Gompute data center",
+  "owner": "atNorth",
+  "location": {
+    "city": "",
+    "subnational": "Vastra Gotaland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2023-08-29",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.atnorth.com/news/atnorth-acquires-gompute/",
+    "https://www.datacentermap.com/sweden/gothenburg/gompute-hpc-center/"
+  ],
+  "notes": "atNorth announced acquisition of Gompute and its Gothenburg data center, with capacity potential of 10 MW, for HPC and AI workloads.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "si-introserv-dobrepolje-cesta-dch-network-listing",
+  "canonical_project": "Introserv Dobrepolje/Cesta DCH network listing",
+  "owner": "Introserv d.o.o.",
+  "location": {
+    "city": "",
+    "subnational": "Dobrepolje",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "U",
+  "sources": [
+    "https://www.ip2location.com/2a06%3Af940%3A40%3A%3A",
+    "https://introserv.com/company/about-us/",
+    "https://introserv.com/"
+  ],
+  "notes": "Very weak location evidence: IP2Location maps 2a06:f940:40:: / AS203466 Introserv d.o.o. to Cesta, Dobrepolje and classifies the usage as Data Center/Web Hosting/Transit. Introserv's own site confirms it is a Slovenia-based hosting company offering dedicated servers, VPS, cloud storage and colocation across multiple data centers, but its corporate address is Ljubljana and no public source confirmed a physical Dobrepolje data-center facility or capacity.",
+  "world_batch": true
+}

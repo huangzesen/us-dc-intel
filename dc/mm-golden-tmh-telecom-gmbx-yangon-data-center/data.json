@@ -1,0 +1,22 @@
+{
+  "slug": "mm-golden-tmh-telecom-gmbx-yangon-data-center",
+  "canonical_project": "Golden TMH Telecom / GMBX Yangon Data Center",
+  "owner": "Golden TMH Telecom Co., Ltd. (GTMH); Golden Myanmar Business Exchange",
+  "location": {
+    "city": "",
+    "subnational": "Yangon",
+    "country": "Myanmar",
+    "country_code": "MM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.gtmh-telecom.com/my/data-center-my/",
+    "https://www.datacenterdynamics.com/en/news/golden-myanmar-business-exchange-plans-5-million-data-center/",
+    "https://dchub.cloud/facilities/golden-tmh-telecom-co-ltd-golden-myanmar-business-exchange-8a94ecfa"
+  ],
+  "notes": "GTMH's official page describes GTMH DC as a pioneer data center in Myanmar supporting enterprise sectors. DCD reported in 2017 that GMBX already operated a Yangon data center and planned a second $5m facility possibly in Mandalay or Nay Pyi Taw; DC Hub reports 3.0 MW for Golden Myanmar Business Exchange, but capacity is not confirmed on the official page.",
+  "world_batch": true
+}

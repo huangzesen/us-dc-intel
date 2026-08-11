@@ -1,0 +1,21 @@
+{
+  "slug": "bg-sdc-ruse",
+  "canonical_project": "SDC Ruse",
+  "owner": "Neterra",
+  "location": {
+    "city": "",
+    "subnational": "Ruse",
+    "country": "Bulgaria",
+    "country_code": "BG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://sdc.bg/en/data-center-in-ruse/",
+    "https://sdc.bg/en/locations/"
+  ],
+  "notes": "Neterra's Sofia Data Center (SDC) site lists SDC Ruse as one of its Bulgarian data-center locations. Capacity not publicly stated on the source checked.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "de-noris-network-nuremberg-south-nbg6",
+  "canonical_project": "noris network Nuremberg South (NBG6)",
+  "owner": "noris network AG",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Nuremberg ( Nürnberg )",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.noris.de/en/data-centers/data-center-nuremberg/dc-nuremberg-south/",
+    "https://www.noris.de/en/company/locations-and-directions/"
+  ],
+  "notes": "noris describes Nuremberg South as a high-security, energy-efficient data center next to its Nuremberg headquarters; the CP2 section is certified TSI.STANDARD Level 4 and DIN EN 50600.",
+  "world_batch": true
+}

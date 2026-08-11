@@ -1,0 +1,21 @@
+{
+  "slug": "tr-turkcell-edirne-veri-merkezi",
+  "canonical_project": "Turkcell Edirne Veri Merkezi",
+  "owner": "Turkcell",
+  "location": {
+    "city": "",
+    "subnational": "Edirne",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://dchub.eu/data-center/turkcell-edirne-veri-merkezi",
+    "https://www.moovitapp.com/index/tr/toplu_ta%C5%9F%C4%B1ma-Turkcell_Edirne_Verimerkezi-Edirne-site_36112896-4164"
+  ],
+  "notes": "Data-center directory and local-map sources identify Turkcell's Edirne data center; no public MW figure found.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "zm-zicta-zambia-national-data-center",
+  "canonical_project": "ZICTA / Zambia National Data Center",
+  "owner": "ZICTA / Government of Zambia / Huawei",
+  "location": {
+    "city": "",
+    "subnational": "Lusaka",
+    "country": "Zambia",
+    "country_code": "ZM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2017-01-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://e.huawei.com/en/case-studies/industries/global-government/2017/smart-zambia",
+    "https://datacenterplatform.com/data-centers/zicta/zicta-datacenter/"
+  ],
+  "notes": "Huawei's Smart Zambia case study describes a national data center for the government program; Data Center Platform lists ZICTA Datacenter in Lusaka.",
+  "world_batch": true
+}

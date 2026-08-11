@@ -1,0 +1,22 @@
+{
+  "slug": "om-oman-data-park-oci-secondary-dedicated-region-ibri",
+  "canonical_project": "Oman Data Park OCI Secondary Dedicated Region - Ibri",
+  "owner": "Oman Data Park / Otech; ITHCA Group; Oracle",
+  "location": {
+    "city": "",
+    "subnational": "Dhahira",
+    "country": "Oman",
+    "country_code": "OM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-10-01",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.linkedin.com/posts/otech-oman_omandatapark-oci-cloudinfrastructure-activity-7386008023434964993-Aiy7",
+    "https://www.linkedin.com/posts/nick-redshaw_ai-oman-activity-7378317338275774464-bMu7",
+    "https://www.mordorintelligence.com/industry-reports/oman-ict-market"
+  ],
+  "notes": "Otech/ODP social postings and market coverage report a new OCI Secondary Dedicated Region in Ibri, paired with the Muscat region for redundancy and data sovereignty. Treat as a cloud/dedicated-region deployment rather than a disclosed standalone wholesale data center; MW capacity not disclosed.",
+  "world_batch": true
+}

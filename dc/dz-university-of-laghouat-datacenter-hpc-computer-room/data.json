@@ -1,0 +1,20 @@
+{
+  "slug": "dz-university-of-laghouat-datacenter-hpc-computer-room",
+  "canonical_project": "University of Laghouat datacenter / HPC computer room",
+  "owner": "University of Laghouat / ICE Informatique et Communication d'Entreprises",
+  "location": {
+    "city": "",
+    "subnational": "Laghouat",
+    "country": "Algeria",
+    "country_code": "DZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-01-01",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.ice.dz/presentation_ICE_2019.pdf"
+  ],
+  "notes": "ICE company presentation lists University of Laghouat among references for a 'PROJET D'AMENAGEMENT SALLE INFORMATIQUE (DATACENTER)' involving a computer room for HPC and IBM Linux HPC deployment. Exact commissioning date and capacity not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "cg-mtn-congo-data-centre",
+  "canonical_project": "MTN Congo Data Centre",
+  "owner": "MTN Congo (MTN Group)",
+  "location": {
+    "city": "",
+    "subnational": "Brazzaville",
+    "country": "Congo",
+    "country_code": "CG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-05-20",
+  "evidence_grade": "B",
+  "sources": [
+    "https://developingtelecoms.com/telecom-technology/data-centres-networks/16726-new-brazzaville-data-centre-due-by-end-of-year-says-adb.html",
+    "https://yandex.com/maps/org/140017623462/reviews/",
+    "https://www.ocolo.io/data-centers/republic-of-the-congo/brazzaville/brazzaville/"
+  ],
+  "notes": "Operator data centre in Brazzaville, listed by ARPCE (2021) and on colocation aggregator pages (OCOLO, Yandex Maps). Used for hosting MTN Congo infrastructure and offered for colocation; no published MW capacity.",
+  "world_batch": true
+}

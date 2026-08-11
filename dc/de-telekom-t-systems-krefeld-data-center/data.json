@@ -1,0 +1,21 @@
+{
+  "slug": "de-telekom-t-systems-krefeld-data-center",
+  "canonical_project": "Telekom / T-Systems Krefeld data center",
+  "owner": "Deutsche Telekom / T-Systems",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Krefeld",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-04-14",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenter-insider.de/datacenter-digitalisierungskathedralen-mit-renovierungsbedarf-a-1029109/",
+    "https://www.computerwoche.de/article/2790283/vom-staatsbetrieb-zum-telematik-haus.html"
+  ],
+  "notes": "DataCenter-Insider describes the Telekom data center in Krefeld, built in the 1980s, using a classic redundant data center layout; older Computerwoche coverage identifies Krefeld among Deutsche Telekom Computer Service Management service/computer centers. No public MW found.",
+  "world_batch": true
+}

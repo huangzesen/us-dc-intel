@@ -1,0 +1,21 @@
+{
+  "slug": "ro-hzone-oradea-data-center",
+  "canonical_project": "HZone Oradea Data Center",
+  "owner": "HZONE SRL",
+  "location": {
+    "city": "",
+    "subnational": "Bihor",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.hzone.ro/en/about-us",
+    "https://www.datacentermap.com/c/hzone-srl/"
+  ],
+  "notes": "HZone official page states it operates its own data center in Oradea, Bihor County, in the Calea Borsului - Industrial Park 1 area, offering VPS, dedicated servers and colocation; capacity not published.",
+  "world_batch": true
+}

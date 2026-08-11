@@ -1,0 +1,21 @@
+{
+  "slug": "kr-kdatacenter-seocho",
+  "canonical_project": "Kdatacenter Seocho",
+  "owner": "Kdatacenter / SK Broadband ecosystem",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Seocho-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-korea/seoul/kdatacenter/",
+    "https://colomap.com/facilities/stt-seoul-1/"
+  ],
+  "notes": "Data Center Map lists Kdatacenter at 1710-1 Seocho-dong, near the Telstra and SK Broadband Seocho facilities; ColoMap nearby listings reference Netdedi.com SKBB IDC at 1710-1 Seocho-dong. Capacity and operator details are weakly evidenced.",
+  "world_batch": true
+}

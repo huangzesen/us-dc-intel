@@ -1,0 +1,21 @@
+{
+  "slug": "de-arelion-dresden",
+  "canonical_project": "Arelion Dresden",
+  "owner": "Arelion",
+  "location": {
+    "city": "",
+    "subnational": "Saxony - Dresden",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/germany/dresden/teliasonera-dres/",
+    "https://www2.arelion.com/map-EuropeNetwork"
+  ],
+  "notes": "DataCenterMap lists Arelion Dresden at Overbeckstr. 41a; Arelion's European network map also lists Dresden, Overbeckstr. 41a as an Arelion location.",
+  "world_batch": true
+}

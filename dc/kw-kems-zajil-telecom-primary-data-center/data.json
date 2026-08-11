@@ -1,0 +1,22 @@
+{
+  "slug": "kw-kems-zajil-telecom-primary-data-center",
+  "canonical_project": "KEMS Zajil Telecom Primary Data Center",
+  "owner": "KEMS Zajil Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Capital",
+    "country": "Kuwait",
+    "country_code": "KW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://kems.net/kems-zajil-telecoms-data-center/",
+    "https://www.zajil.com/services/data-center/",
+    "https://www.datacentermap.com/kuwait/kuwait-city/zajil-telecom/"
+  ],
+  "notes": "KEMS official page describes its primary data center at Keifan Exchange - MOC Building Ground Floor, with secondary facility at Osama Tower, Fahad Al-Salem Street, Kuwait City. Zajil official page describes redundant backbone, power and environmental systems. Keifan/Kuwait City mapped to Capital Governorate. No public capacity found.",
+  "world_batch": true
+}

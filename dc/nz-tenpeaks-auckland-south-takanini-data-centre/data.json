@@ -1,0 +1,22 @@
+{
+  "slug": "nz-tenpeaks-auckland-south-takanini-data-centre",
+  "canonical_project": "TenPeaks Auckland South / Takanini Data Centre",
+  "owner": "TenPeaks Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-01-30",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nzx.com/announcements/466723",
+    "https://tenpeaks.co.nz/",
+    "https://www.datacentermap.com/new-zealand/auckland/takanini-datacentre/"
+  ],
+  "notes": "Spark's market announcement confirms its data centre assets transferred to TenPeaks; directory listings identify the Takanini/Auckland South site. Portfolio-level capacity is 23 MW across 11 facilities, but site-specific MW was not found.",
+  "world_batch": true
+}

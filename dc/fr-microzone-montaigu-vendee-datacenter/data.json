@@ -1,0 +1,20 @@
+{
+  "slug": "fr-microzone-montaigu-vendee-datacenter",
+  "canonical_project": "Microzone Montaigu-Vendee datacenter",
+  "owner": "Microzone",
+  "location": {
+    "city": "",
+    "subnational": "Vendée",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://microzone.fr/le-datacentre"
+  ],
+  "notes": "Microzone official page describes a local secure data center in Montaigu-Vendee with two separate rooms, generator backup, monitoring, fire protection, and photovoltaic panels.",
+  "world_batch": true
+}

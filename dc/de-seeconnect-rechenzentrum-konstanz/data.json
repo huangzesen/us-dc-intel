@@ -1,0 +1,21 @@
+{
+  "slug": "de-seeconnect-rechenzentrum-konstanz",
+  "canonical_project": "SeeConnect Rechenzentrum Konstanz",
+  "owner": "Stadtwerke Konstanz / SeeConnect",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Konstanz",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://seeconnect.de/geschaeftskunden/rechenzentrum/",
+    "https://www.datacentermap.com/germany/konstanz/"
+  ],
+  "notes": "Official SeeConnect page describes a data center in Konstanz am Bodensee with more than 120 sqm of IT area; DataCenterMap lists Stadtwerke Konstanz SeeConnect at Max-Stromeyer-Strasse 21-29, 78467 Konstanz.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "bh-national-bank-of-bahrain-data-center",
+  "canonical_project": "National Bank of Bahrain Data Center",
+  "owner": "National Bank of Bahrain",
+  "location": {
+    "city": "",
+    "subnational": "Capital Governorate",
+    "country": "Bahrain",
+    "country_code": "BH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-05-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nbbonline.com/news/nbb-announces-the-launch-of-its-new-data-centre",
+    "https://www.datacenterdynamics.com/en/news/national-bank-bahrain-launches-new-data-center/"
+  ],
+  "notes": "NBB announced launch of a new data centre, reported as Tier III design certified; treated as a private enterprise facility in the Manama/Capital banking hub.",
+  "world_batch": true
+}

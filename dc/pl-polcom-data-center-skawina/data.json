@@ -1,0 +1,21 @@
+{
+  "slug": "pl-polcom-data-center-skawina",
+  "canonical_project": "Polcom Data Center Skawina",
+  "owner": "Polcom",
+  "location": {
+    "city": "",
+    "subnational": "Lesser Poland",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 15,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://polcom.com.pl/en/about-us/data-center/data-center-skawina/",
+    "https://www.datacentermap.com/c/polcom/"
+  ],
+  "notes": "Polcom official page says Skawina near Cracow was put into service in 2011, has 6,000 sqm area and 15MW power.",
+  "world_batch": true
+}

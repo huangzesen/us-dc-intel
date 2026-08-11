@@ -1,0 +1,22 @@
+{
+  "slug": "zm-infratel-lusaka-production-data-centre",
+  "canonical_project": "INFRATEL Lusaka Production Data Centre",
+  "owner": "INFRATEL Corporation Limited",
+  "location": {
+    "city": "",
+    "subnational": "Lusaka",
+    "country": "Zambia",
+    "country_code": "ZM"
+  },
+  "capacity_mw": 1.25,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.infratel.co.zm/our-services/data-centre-solutions/",
+    "https://www.datacentermap.com/zambia/lusaka/infratel-data-centre/",
+    "https://uptimeinstitute.com/uptime-institute-awards/list/insite/infratel-corporation-limited-infratel-data-centre-tier-iii-certification-of-design-documents-8410"
+  ],
+  "notes": "INFRATEL describes Tier III data centre operations with redundant power, cooling and connectivity; third-party listing gives 1.25MW for the Lusaka INFRATEL Data Centre, while Uptime Institute lists INFRATEL Lusaka certification.",
+  "world_batch": true
+}

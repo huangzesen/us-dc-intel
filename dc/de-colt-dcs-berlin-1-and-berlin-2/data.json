@@ -1,0 +1,22 @@
+{
+  "slug": "de-colt-dcs-berlin-1-and-berlin-2",
+  "canonical_project": "Colt DCS Berlin 1 and Berlin 2",
+  "owner": "Colt Data Centre Services",
+  "location": {
+    "city": "",
+    "subnational": "Brandenburg - Märkisch-Oderland",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 54,
+  "status": "planned",
+  "evidence_date": "2025-04-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.coltdatacentres.net/de-DE/our-locations/data-centre-locations-europe/berlin-1-and-2",
+    "https://www.datacenterdynamics.com/en/news/colt-dcs-to-develop-four-more-data-centers-in-germany-totaling-117mw/",
+    "https://www.prnewswire.com/apac/news-releases/colt-dcs-boosts-german-expansion-by-117mw-acquiring-land-and-securing-power-supply-contracts-for-new-sites-in-frankfurt-and-berlin-302421970.html"
+  ],
+  "notes": "Colt official page says it secured land 10 km east of Berlin for Berlin 1 and 2, two Tier 3-spec hyperscale data centers delivering 54 MW IT load. Division assignment is based on east-of-Berlin Brandenburg location; exact municipality was not found in the accessible sources.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "se-junet-birka-data-center",
+  "canonical_project": "Junet Birka data center",
+  "owner": "Junet",
+  "location": {
+    "city": "",
+    "subnational": "Jonkoping",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/datacenters/emea/sweden/jonkoping",
+    "https://www.datacentermap.com/sweden/jonkoping/"
+  ],
+  "notes": "Inflect lists one Jönköping-area data center, Junet Birka, at Birkagatan 41, Huskvarna; Data Center Map also reports one Jönköping facility.",
+  "world_batch": true
+}

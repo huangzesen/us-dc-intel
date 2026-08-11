@@ -1,0 +1,20 @@
+{
+  "slug": "lv-jekabpils-old-airport-data-centre",
+  "canonical_project": "Jekabpils Old Airport Data Centre",
+  "owner": "Northern Europe Energy Group AS",
+  "location": {
+    "city": "",
+    "subnational": "Jekabpils novads",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": 114,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://northernenergy.eu/projects"
+  ],
+  "notes": "Developer project page describes a Jekabpils Old Airport data-centre campus for hyperscale operators, with 114 MW of power available today and scalability to 400 MW by 2030 via 110 kV grid connections and renewable backup strategy. Status marked planned because the source presents it as a future-ready development rather than an operating facility.",
+  "world_batch": true
+}

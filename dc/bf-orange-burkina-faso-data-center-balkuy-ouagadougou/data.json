@@ -1,0 +1,21 @@
+{
+  "slug": "bf-orange-burkina-faso-data-center-balkuy-ouagadougou",
+  "canonical_project": "Orange Burkina Faso data center (Balkuy, Ouagadougou)",
+  "owner": "Orange Burkina Faso (Orange SA group)",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Burkina Faso",
+    "country_code": "BF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-03-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/orange-deploying-solar-panels-at-data-centers-in-cote-divoire-and-burkina-faso/",
+    "https://www.peeringdb.com/net/11110"
+  ],
+  "notes": "Orange runs a data center at Balkuy, Ouagadougou. In March 2023 Orange Burkina Faso partnered with SolarX Group to solarize the facility, with panels covering ~37% of the site's requirements (local press reports deployments averaging ~1 MWp). Specifications and total MW capacity not disclosed. Orange Burkina Faso also peers at BFIX (PeeringDB network 11110).",
+  "world_batch": true
+}

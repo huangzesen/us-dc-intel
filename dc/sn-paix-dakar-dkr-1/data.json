@@ -1,0 +1,21 @@
+{
+  "slug": "sn-paix-dakar-dkr-1",
+  "canonical_project": "PAIX Dakar / DKR-1",
+  "owner": "PAIX Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": 1.2,
+  "status": "construction",
+  "evidence_date": "2025-01-23",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/paix-data-centres-breaks-ground-on-facility-in-dakar-senegal/",
+    "https://www.datacentermap.com/senegal/dakar/paix-dakar/"
+  ],
+  "notes": "PAIX announced construction of a Dakar facility in Les Mamelles/Ouakam, with 918 sqm of white space and 1.2MW of critical power, expected operational in 2026. Data Center Map lists the site as under construction with site code DKR-1 and the same 1.2MW power figure.",
+  "world_batch": true
+}

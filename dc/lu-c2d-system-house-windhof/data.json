@@ -1,0 +1,21 @@
+{
+  "slug": "lu-c2d-system-house-windhof",
+  "canonical_project": "C2D System House Windhof",
+  "owner": "C2D System House Luxembourg SA",
+  "location": {
+    "city": "",
+    "subnational": "Capellen",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://dchub.cloud/facilities/c2d-system-house-luxembourg-sa-c2d-6e663298",
+    "https://www.c2d.eu/en/cybersecurity-sovereign-hosting-in-luxembourg"
+  ],
+  "notes": "Facility directory DCHub reports an operational Windhof data center operated by C2D System House Luxembourg SA with 3.0 MW power; C2D's own site markets sovereign IT hosting in Luxembourg.",
+  "world_batch": true
+}

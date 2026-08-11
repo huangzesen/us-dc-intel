@@ -1,0 +1,21 @@
+{
+  "slug": "ro-maghost-data-center",
+  "canonical_project": "maghost Data Center",
+  "owner": "maghost",
+  "location": {
+    "city": "",
+    "subnational": "Timis",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/romania/timisoara/maghost-data-center/",
+    "https://www.datacentermap.com/romania/timisoara/maghost-data-center/specs/"
+  ],
+  "notes": "Data Center Map lists maghost Data Center at Calea Stan Vidrighin no. 14a, Timisoara; specs report 1 MW fully built-out power, 0.1 MW live power, 100 sq m built-out whitespace, and services including cabinets, shared rackspace, cages, suites, and bare metal servers.",
+  "world_batch": true
+}

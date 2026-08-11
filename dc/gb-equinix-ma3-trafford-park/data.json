@@ -1,0 +1,22 @@
+{
+  "slug": "gb-equinix-ma3-trafford-park",
+  "canonical_project": "Equinix MA3 Trafford Park",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "England - Trafford",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-07-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/united-kingdom-colocation/manchester-data-centers/ma3",
+    "https://www.datacenterdynamics.com/en/news/equinix-occupied-data-center-in-manchester-uk-sold-to-a-new-landlord-report/",
+    "https://www.datacenters.com/equinix-ma3-trafford-park"
+  ],
+  "notes": "Equinix official page locates MA3 at 76 Trafford Wharf Road. DCD reported the leased Joule House facility is around 3MW with about 30,000 sq ft technical space; Datacenters.com lists the Trafford Park facility at 46,500 sq ft.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "jp-ntt-nagoya-daikancho",
+  "canonical_project": "NTT Nagoya Daikancho",
+  "owner": "NTT DATA / NTT Global Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Aichi",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/ntt-global-ntt-nagoya-daikancho",
+    "https://www.datacentermap.com/japan/nagoya/nagoya-daikancho/"
+  ],
+  "notes": "Directory sources list an operational NTT data center in Nagoya, Aichi; no public MW capacity found.",
+  "world_batch": true
+}

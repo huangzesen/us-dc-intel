@@ -1,0 +1,20 @@
+{
+  "slug": "ro-voxility-ir2-bucharest",
+  "canonical_project": "Voxility IR2 Bucharest",
+  "owner": "Voxility",
+  "location": {
+    "city": "",
+    "subnational": "Bucuresti",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.voxility.com/colocation-bucharest-romania"
+  ],
+  "notes": "Voxility page describes its new IR2 datacenter on Dimitrie Pompeiu Blvd. with 1 MW available at launch and support for high-density AI workloads.",
+  "world_batch": true
+}

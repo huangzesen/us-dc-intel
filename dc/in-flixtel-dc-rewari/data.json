@@ -1,0 +1,21 @@
+{
+  "slug": "in-flixtel-dc-rewari",
+  "canonical_project": "FlixTel DC Rewari",
+  "owner": "FlixTel Communication Private Limited",
+  "location": {
+    "city": "",
+    "subnational": "Haryana - Rewari District",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2018-12-07",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenterjournal.com/flixtel/",
+    "https://www.zaubacorp.com/FLIXTEL-COMMUNICATION-PRIVATE-LIMITED-U72200HR2017PTC068957"
+  ],
+  "notes": "Weak directory evidence: DataCenterJournal lists one FlixTel data center named FlixTel DC Rewari, while company-registry data confirms FlixTel Communication Private Limited is active with registered address at Kalaka (177), Rewari, Haryana 123401. Directory city metadata is internally inconsistent, so status and capacity are unknown.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "im-the-dataport",
+  "canonical_project": "The Dataport",
+  "owner": "Netcetera",
+  "location": {
+    "city": "",
+    "subnational": "Isle of Man",
+    "country": "Isle of Man",
+    "country_code": "IM"
+  },
+  "capacity_mw": 10,
+  "status": "unknown",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://new.netcetera.im/datacentre/",
+    "https://www.datacentermap.com/isle-of-man/ballasalla/the-dataport/",
+    "https://manxtechgroup.com/isle-of-man-datacentre-services/"
+  ],
+  "notes": "Netcetera's current site says it owns and operates The Dataport, a Tier 3 Isle of Man datacentre. DataCenterMap lists The Dataport in Ballasalla with 10 MW and 700+ rack hosting capacity. Confidence is lowered because Manx Technology Group's February 2026 market note says Netcetera exited the datacentre market in late 2025, leaving four datacentres.",
+  "world_batch": true
+}

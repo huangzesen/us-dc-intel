@@ -1,0 +1,22 @@
+{
+  "slug": "my-irix-kuching-1-dc-santubong",
+  "canonical_project": "irix Kuching 1 DC @ Santubong",
+  "owner": "irix Sdn Bhd",
+  "location": {
+    "city": "",
+    "subnational": "Sarawak",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-02-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.irix.my/data-centre",
+    "https://www.irix.my/newsroom/2025/irix-achieves-malaysia-first-uptime-institute-tier-iv-certified-data-centre",
+    "https://baxtel.com/data-center/irix-dc-santubong-1"
+  ],
+  "notes": "Official irix pages describe Kuching 1 DC @ Santubong as a carrier-neutral green data centre in Kuching, alongside irix's cable landing station, and report Uptime Institute Tier IV Certification of Constructed Facility. Baxtel lists detailed site metrics including 0.3 MW for one data hall, but total public capacity is not consistently stated.",
+  "world_batch": true
+}

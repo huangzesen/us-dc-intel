@@ -1,0 +1,21 @@
+{
+  "slug": "bf-alink-telecom-datacenter",
+  "canonical_project": "Alink Telecom Datacenter",
+  "owner": "Alink Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Burkina Faso",
+    "country_code": "BF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/alink-telecom/alink-telecom-datacenter/",
+    "https://datacenterplatform.com/countries/burkina-faso/"
+  ],
+  "notes": "Pan-African telecom operator Alink Telecom operates a colocation-oriented datacenter in Ouagadougou (DataCenterPlatform lists Alink Telecom with two locations in Burkina Faso), targeting operators and large enterprises. Capacity and year not published.",
+  "world_batch": true
+}

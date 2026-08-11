@@ -1,0 +1,21 @@
+{
+  "slug": "hu-isis-com-szombathely-data-center",
+  "canonical_project": "ISIS-COM Szombathely Data Center",
+  "owner": "ISIS-COM Kft",
+  "location": {
+    "city": "",
+    "subnational": "Szombathely",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/hungary/szombathely/isis-com/",
+    "https://isis-com.hu/"
+  ],
+  "notes": "DataCenterMap lists an ISIS-COM data-center entry in Szombathely; company site corroborates ISIS-COM as a local communications/ICT provider. No public MW figure found.",
+  "world_batch": true
+}

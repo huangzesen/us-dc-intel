@@ -1,0 +1,22 @@
+{
+  "slug": "ee-narva-datacenter",
+  "canonical_project": "Narva Datacenter",
+  "owner": "FairyHosting / RJ Network OÜ",
+  "location": {
+    "city": "",
+    "subnational": "Ida-Viru",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://fairyhosting.com/colocation",
+    "https://datacenterplatform.com/data-centers/fairy-hosting/fairy-hosting-estonia/narva-dc/",
+    "https://www.datacentermap.com/estonia/narva/narva-datacenter/"
+  ],
+  "notes": "FairyHosting offers colocation in Estonia and lists a Narva presence; directory sources identify Narva DC at Ak./Mihail Maslovi 1 in Kreenholm/Narva.",
+  "world_batch": true
+}

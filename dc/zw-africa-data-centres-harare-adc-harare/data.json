@@ -1,0 +1,22 @@
+{
+  "slug": "zw-africa-data-centres-harare-adc-harare",
+  "canonical_project": "Africa Data Centres Harare (ADC Harare)",
+  "owner": "Africa Data Centres (Cassava Technologies)",
+  "location": {
+    "city": "",
+    "subnational": "Harare",
+    "country": "Zimbabwe",
+    "country_code": "ZW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/adc-harare",
+    "https://inflect.com/building/harare-harare/africa-data-centres/datacenter/harare",
+    "https://www.datacenterjournal.com/africa-data-centres/"
+  ],
+  "notes": "Africa Data Centres, the Cassava Technologies data centre operator, lists Harare among its four operating markets (Johannesburg, Nairobi, Cape Town, Harare); Baxtel and Inflect list ADC Harare as a fully operational facility in Harare. No public MW capacity found; ADC Harare presence is related to Econet's 5 MW build (see Econet entry).",
+  "world_batch": true
+}

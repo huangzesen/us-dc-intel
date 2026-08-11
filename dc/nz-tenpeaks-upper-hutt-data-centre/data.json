@@ -1,0 +1,21 @@
+{
+  "slug": "nz-tenpeaks-upper-hutt-data-centre",
+  "canonical_project": "TenPeaks Upper Hutt Data Centre",
+  "owner": "TenPeaks / Spark Business Group",
+  "location": {
+    "city": "",
+    "subnational": "Greater Wellington",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://tenpeaks.co.nz/our-data-centres/",
+    "https://www.datacentermap.com/new-zealand/upper-hutt/spark-upper-hutt/"
+  ],
+  "notes": "TenPeaks lists an Upper Hutt facility as part of its data-centre footprint; Datacenter Map identifies it as Spark Upper Hutt. Capacity not disclosed in sources checked.",
+  "world_batch": true
+}

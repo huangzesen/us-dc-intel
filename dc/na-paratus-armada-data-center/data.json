@@ -1,0 +1,22 @@
+{
+  "slug": "na-paratus-armada-data-center",
+  "canonical_project": "Paratus Armada Data Center",
+  "owner": "Paratus Namibia / Paratus Group",
+  "location": {
+    "city": "",
+    "subnational": "Khomas",
+    "country": "Namibia",
+    "country_code": "NA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://armada.paratus.africa/",
+    "https://www.datacenterdynamics.com/en/news/paratus-launches-namibian-data-center-in-windhoek/",
+    "https://developingtelecoms.com/telecom-technology/data-centres-networks/13850-namibia-s-largest-carrier-neutral-data-centre-is-open-for-business.html"
+  ],
+  "notes": "Operator page and trade press confirm the carrier-neutral Tier III-by-design Armada facility just outside Windhoek; operator states 2MVA campus power, but MW IT load is not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "lu-portus-data-centers-luxembourg",
+  "canonical_project": "Portus Data Centers Luxembourg",
+  "owner": "Portus Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Luxembourg",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": 3.4,
+  "status": "operational",
+  "evidence_date": "2024-11-27",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.portusdatacenters.com/our-data-centers/luxembourg/",
+    "https://www.portusdatacenters.com/pressrelease/portus-data-centers-expands-underground-luxembourg-facility/"
+  ],
+  "notes": "Portus describes its Cloche d'Or underground Tier IV Luxembourg city facility with 2.4 MW critical IT load and 2,600 m2 white space; its 2024 announcement says an expansion adds 1,350 m2 and raises total IT load capacity to 3.4 MW.",
+  "world_batch": true
+}

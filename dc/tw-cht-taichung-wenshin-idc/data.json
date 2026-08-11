@@ -1,0 +1,21 @@
+{
+  "slug": "tw-cht-taichung-wenshin-idc",
+  "canonical_project": "CHT Taichung Wenshin IDC",
+  "owner": "Chunghwa Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Taichung",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location_Taichung_Wenshin.html",
+    "https://www.ocolo.io/colocation/idc-chunghwa-telecom/taichung-wenshin-idc/"
+  ],
+  "notes": "Chunghwa Telecom's official IDC location page lists Taichung Wenshin IDC as an operational IDC site; a third-party listing (OCOLO) describes a 10-floor building with two underground floors and about 200 racks. No MW capacity published.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "hu-invitech-budaors-dc10-data-center",
+  "canonical_project": "Invitech Budaors / DC10 Data Center",
+  "owner": "Invitech ICT Services Kft / 4iG group",
+  "location": {
+    "city": "",
+    "subnational": "Pest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": 2.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/data-center-providers/invitech/data-centers/dc10",
+    "https://www.4ig.hu/invitech"
+  ],
+  "notes": "Inflect lists Invitech DC10 in Budaors with 2 MW; 4iG identifies Invitech as the Hungarian ICT operator. Budaors is in Pest county.",
+  "world_batch": true
+}

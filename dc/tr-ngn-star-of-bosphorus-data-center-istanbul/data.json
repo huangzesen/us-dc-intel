@@ -1,0 +1,21 @@
+{
+  "slug": "tr-ngn-star-of-bosphorus-data-center-istanbul",
+  "canonical_project": "NGN Star of Bosphorus Data Center (Istanbul)",
+  "owner": "NGN Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Istanbul",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/turkey/star-of-bosphorus-ist-phase-1",
+    "https://www.datacentereurasia.com/"
+  ],
+  "notes": "NGN (Star of Bosphorus brand), Istanbul-based carrier-neutral data center provider, operates its IST campus (Phase 1 listed in Data Center Catalog); DCE (Data Center Eurasia) references an NGN data center project manager, confirming ongoing operations/expansion. Capacity not published; catalog-grade evidence.",
+  "world_batch": true
+}

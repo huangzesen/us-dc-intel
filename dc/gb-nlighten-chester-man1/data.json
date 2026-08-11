@@ -1,0 +1,21 @@
+{
+  "slug": "gb-nlighten-chester-man1",
+  "canonical_project": "nLighten Chester MAN1",
+  "owner": "nLighten",
+  "location": {
+    "city": "",
+    "subnational": "England - Cheshire West and Chester",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nlighten.com/en/edge-location/chester/",
+    "https://www.colo-x.com/data-centre/proximity-data-centres-edge-4-chester/"
+  ],
+  "notes": "Operational edge colocation data centre at Chester Gate/Dunkirk area between Chester and Ellesmere Port, with 2,040 sqm dedicated colocation space and 6,000 kW end-state site capacity.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "fr-arteone-datacenter-brive",
+  "canonical_project": "ArteOne Datacenter Brive",
+  "owner": "Artefact Groupe",
+  "location": {
+    "city": "",
+    "subnational": "Corrèze",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-16",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.artefact.fr/arteone/le-datacenter-arteone/",
+    "https://www.artefact.fr/",
+    "https://www.francenum.gouv.fr/activateurs/artefact"
+  ],
+  "notes": "Artefact describes ArteOne as its Limousin data center based in Brive, Corrèze; France Num also says Artefact relies on the ArteOne data center in Brive. Capacity not disclosed in MW.",
+  "world_batch": true
+}

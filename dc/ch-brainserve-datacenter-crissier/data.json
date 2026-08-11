@@ -1,0 +1,22 @@
+{
+  "slug": "ch-brainserve-datacenter-crissier",
+  "canonical_project": "BrainServe Datacenter, Crissier",
+  "owner": "BrainServe SA",
+  "location": {
+    "city": "",
+    "subnational": "Vaud",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://brainserve.ch/en/about/",
+    "https://implenia.com/en/references/detail/ref/brainserve-sa-datacenter-crissier-entreprise-generale/",
+    "https://www.invest-vaud.ch/key-sectors/cross-disciplinary-activities/data-centers"
+  ],
+  "notes": "BrainServe describes itself as an independent Swiss company operating a Tier IV certified datacenter at Rue de la Vernie 12, Crissier; Vaud's investment agency lists Crissier and Renens among the canton data center locations.",
+  "world_batch": true
+}

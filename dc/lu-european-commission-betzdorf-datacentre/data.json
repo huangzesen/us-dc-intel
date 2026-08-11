@@ -1,0 +1,20 @@
+{
+  "slug": "lu-european-commission-betzdorf-datacentre",
+  "canonical_project": "European Commission Betzdorf Datacentre",
+  "owner": "European Commission",
+  "location": {
+    "city": "",
+    "subnational": "Grevenmacher",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2015-09-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ec.europa.eu/newsroom/informatics/item-detail.cfm?item_id=51085"
+  ],
+  "notes": "The European Commission announced/inaugurated its new Betzdorf datacentre after moving out of the Jean Monnet building; the source describes it as an energy-efficient, flexible and secure datacentre enhanced by cloud services.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "sd-canar-telecom-sudan-khartoum-canartel-dc",
+  "canonical_project": "Canar Telecom Sudan Khartoum / Canartel DC",
+  "owner": "Canar Telecommunication Co. Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Khartoum",
+    "country": "Sudan",
+    "country_code": "SD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/al-mashtal-street-al-khurtum/canar-telecom-sudan/datacenter/khartoum",
+    "https://datacenterplatform.com/data-centers/canartel/",
+    "https://www.canar.sd/about-us"
+  ],
+  "notes": "Inflect lists an operational Canar Telecom Sudan data center on Al-Mashtal Street, Khartoum with colocation, connectivity, 11,840 sq ft raised floor and 250 kVA power. Data Center Platform lists Canartel DC at Canar Tower, Al-Mashtal Street. Canar's own site confirms data center management capability but not this facility's specs.",
+  "world_batch": true
+}

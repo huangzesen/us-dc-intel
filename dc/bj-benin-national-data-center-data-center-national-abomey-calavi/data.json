@@ -1,0 +1,22 @@
+{
+  "slug": "bj-benin-national-data-center-data-center-national-abomey-calavi",
+  "canonical_project": "Benin National Data Center / Data Center National, Abomey-Calavi",
+  "owner": "SBIN / Ministry of Digital and Digitalization / ASSI",
+  "location": {
+    "city": "",
+    "subnational": "Atlantique",
+    "country": "Benin",
+    "country_code": "BJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-03-27",
+  "evidence_grade": "A",
+  "sources": [
+    "https://beninrevele.bj/doc/6/download",
+    "https://www.datacenterdynamics.com/en/news/benin-wants-to-establish-a-secondary-national-data-center/",
+    "https://www.datacentermap.com/benin/abomey-calavi/benin-national-data-center/"
+  ],
+  "notes": "Government programme documentation identifies construction of the public-administration Data Center National in Abomey-Calavi, with TIA-942 fit-out and national administration interconnection; the 2021-2026 plan calls for optimal use of the national data center in 2022. DCD's March 2026 coverage describes the current national data center as a 300 sqm SBIN-operated facility in Abomey-Calavi and discusses a separate redundancy feasibility study. MW capacity not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "sk-perpetuus-dc-dcp1",
+  "canonical_project": "Perpetuus DC / DCP1",
+  "owner": "CNC, a.s. (Perpetuus)",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": 3.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/slovakia/bratislava/perpetuus-dcp1/",
+    "https://www.websupport.sk/o-nas/datacentrum/",
+    "https://inflect.com/building/26-istrijska-bratislava/perpetuus/datacenter/bratislava"
+  ],
+  "notes": "Purpose-built two-storey DC at Devinska Nova Ves, Bratislava suburb (Istrijska 26); Tier III, 3.5 MW electrical input on 2x22 kV per WebSupport (which runs its production infrastructure there; Inflect lists 2.5 MW total power capacity). WebSupport keeps backups in a second, geolocated Bratislava DC. One of the largest third-party data centres in Slovakia per Tariff Consultancy.",
+  "world_batch": true
+}

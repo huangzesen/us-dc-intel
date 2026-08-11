@@ -1,0 +1,21 @@
+{
+  "slug": "tz-vodacom-business-data-centre-dar-es-salaam",
+  "canonical_project": "Vodacom Business Data Centre (Dar es Salaam)",
+  "owner": "Vodacom Tanzania",
+  "location": {
+    "city": "",
+    "subnational": "Dar es Salaam",
+    "country": "Tanzania, United Republic of",
+    "country_code": "TZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/tanzania/",
+    "https://systalink.com/en/largest-data-centers-in-africa/"
+  ],
+  "notes": "Vodacom Business enterprise data centre in Dar es Salaam; a 12MW figure circulates in aggregate lists (systalink/africanexponent) but is unverified - left capacity null; datacentermap lists 11 Tanzanian facilities across 6 operators, most in Dar es Salaam.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "jp-densan-system-tono-internet-data-center",
+  "canonical_project": "Densan System Tono Internet Data Center",
+  "owner": "Densan System Co., Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Gifu",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.jdcc.or.jp/dclist/",
+    "https://www.dsk-idc.jp/03-01dc.html"
+  ],
+  "notes": "JDCC data center list identifies Tono Internet Data Center in Toki City, Gifu Prefecture, operated by Densan System, opened 2013 and tier 3 equivalent.",
+  "world_batch": true
+}

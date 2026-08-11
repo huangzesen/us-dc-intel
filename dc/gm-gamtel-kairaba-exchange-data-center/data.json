@@ -1,0 +1,21 @@
+{
+  "slug": "gm-gamtel-kairaba-exchange-data-center",
+  "canonical_project": "Gamtel Kairaba Exchange Data Center",
+  "owner": "Gambia Telecommunications Company Ltd. (Gamtel)",
+  "location": {
+    "city": "",
+    "subnational": "Western",
+    "country": "Gambia",
+    "country_code": "GM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/kairaba-avenue-serrekunda/gamtel/datacenter/gamtel-kairaba-exchange-serrekunda",
+    "https://www.datacenters.com/gamtel-gamtel-kairaba-exchange"
+  ],
+  "notes": "Inflect lists Gamtel Kairaba Exchange as a data center on Kairaba Avenue in Serekunda with 400 kVA power infrastructure, N+1 cooling, security, and fiber connectivity; Datacenters.com also lists the facility. Classified to Western because Kanifing/Serekunda is not a separate batch division.",
+  "world_batch": true
+}

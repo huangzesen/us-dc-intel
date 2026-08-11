@@ -1,0 +1,23 @@
+{
+  "slug": "de-kommunaler-it-service-kits-centralized-county-it-data-center-infrastructure",
+  "canonical_project": "Kommunaler IT-Service (KitS) centralized county IT/data-center infrastructure",
+  "owner": "Kommunaler IT-Service des Landkreises Schmalkalden-Meiningen",
+  "location": {
+    "city": "",
+    "subnational": "Thuringia - Schmalkalden-Meiningen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-04-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.cio.de/article/3958214/kreis-schmalkaden-meiningen-nutzt-hci-als-basis-fur-digitalisierung.html",
+    "https://www.kommune21.de/k21-meldungen/124018/",
+    "https://www.wartburgkreis.de/landratsamt/medien/medieninformationen/gemeinsames-rechenzentrum-fuer-123-schulstandorte-im-wartburgkreis-und-schmalkalden-meiningen",
+    "https://www.thueringerenergie.de/Kommunen_und_Stadtwerke/Kommunen/Kommunal-aktuell/Infrastruktur/Rechenzentrum"
+  ],
+  "notes": "KitS centralized the district's IT on Dell VxRail HCI and operates services for the Landratsamt, 54 schools, and public entities; separate 2021 school data-center cooperation with Wartburgkreis/Eisenach covers 123 school sites. Sources also show the district uses the Thüringer Rechenzentrum for KitS, so the physical hosting location may be external to the district.",
+  "world_batch": true
+}

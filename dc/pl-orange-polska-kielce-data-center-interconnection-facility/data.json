@@ -1,0 +1,21 @@
+{
+  "slug": "pl-orange-polska-kielce-data-center-interconnection-facility",
+  "canonical_project": "Orange Polska Kielce data center / interconnection facility",
+  "owner": "Orange Polska / Orange Business Services",
+  "location": {
+    "city": "",
+    "subnational": "Holy Cross",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/al-ix-wiekow-kielc-14-kielce/orange-business-services/datacenter/orange-polska-kielce",
+    "https://www.peeringdb.com/fac/2057"
+  ],
+  "notes": "Inflect lists Orange Business Services Kielce at Al. IX Wiekow Kielc 14 as a data center with colocation and network connectivity; PeeringDB facility record confirms Orange Polska Kielce interconnection presence. Capacity not published.",
+  "world_batch": true
+}

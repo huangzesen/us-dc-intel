@@ -1,0 +1,20 @@
+{
+  "slug": "in-tnpdcl-tirunelveli-regional-data-centre-for-lt-billing-project-best",
+  "canonical_project": "TNPDCL Tirunelveli Regional Data Centre for LT Billing / Project BEST",
+  "owner": "Tamil Nadu Power Distribution Corporation Limited (TNPDCL, formerly TANGEDCO)",
+  "location": {
+    "city": "",
+    "subnational": "Tamil Nadu - Tirunelveli Kattabo",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tneb.tnebnet.org/attach/gedcotender/annx1/184896_Spec.pdf"
+  ],
+  "notes": "Official TNPDCL tender specification for Tirunelveli Region describes maintenance of servers, SAN, network equipment, UPS, LAN, backup/reporting, 24x7 manpower and VPN links for the Regional Data Centre supporting LT Billing / Project BEST. This is a utility regional data centre, not a disclosed commercial hyperscale facility.",
+  "world_batch": true
+}

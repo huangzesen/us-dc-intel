@@ -1,0 +1,21 @@
+{
+  "slug": "ru-megafon-yekaterinburg-data-center",
+  "canonical_project": "MegaFon Yekaterinburg Data Center",
+  "owner": "MegaFon",
+  "location": {
+    "city": "",
+    "subnational": "Sverdlovsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2025-07-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/russias-megafon-launches-new-data-centers-in-yekaterinburg-and-tver/",
+    "https://www.akm.ru/eng/news/megafon-has-built-two-data-centers-in-yekaterinburg-and-tver/"
+  ],
+  "notes": "DCD and AK&M reported MegaFon launched new data centers in Yekaterinburg and Tver; each is around 800 sqm, accommodates 110 racks, and offers 1 MW server equipment load with high-load racks allowing up to 1.5 MW.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "tr-kocsistem-camlica-data-center",
+  "canonical_project": "KocSistem Camlica Data Center",
+  "owner": "KocSistem (Koc Holding)",
+  "location": {
+    "city": "",
+    "subnational": "Istanbul",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/turkey/kocsistem-camlica-veri-merkezi"
+  ],
+  "notes": "KocSistem (Koc Holding IT arm) data center at Camlica (Uskudar, Istanbul), listed in Data Center Catalog alongside its Ankara facility; provides hosting/cloud services. Capacity not published.",
+  "world_batch": true
+}

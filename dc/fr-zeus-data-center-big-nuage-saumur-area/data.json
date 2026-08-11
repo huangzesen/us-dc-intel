@@ -1,0 +1,21 @@
+{
+  "slug": "fr-zeus-data-center-big-nuage-saumur-area",
+  "canonical_project": "Zeus Data Center Big Nuage, Saumur area",
+  "owner": "Zeus Data Center / Nicolas Joncheray",
+  "location": {
+    "city": "",
+    "subnational": "Maine-et-Loire",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 200,
+  "status": "planned",
+  "evidence_date": "2026-03-04",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/?page=5&profile=matthew-gooding",
+    "https://www.clubic.com/actualite-613162-un-patron-francais-projette-de-batir-un-immense-data-center-souterrain-au-c-ur-du-saumurois.html"
+  ],
+  "notes": "DCD listed 'Zeus Data Center plans first data center, Big Nuage, in Saumur, France'; Clubic reported the underground project in the Saumur area targets 200 MW and is backed by Zeus Data Center, based in Longué-Jumelles.",
+  "world_batch": true
+}

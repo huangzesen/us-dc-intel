@@ -1,0 +1,22 @@
+{
+  "slug": "au-vocus-dc-per05-osborne-park-data-centre",
+  "canonical_project": "Vocus DC-PER05 Osborne Park data centre",
+  "owner": "Vocus",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Stirling",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vocus.com.au/data-centres",
+    "https://vocusgroup.co.nz/wp-content/uploads/2023/03/Vocus-Colocation-brochure.pdf",
+    "https://www.datacentermap.com/australia/perth/vocus-osborne-park/"
+  ],
+  "notes": "Vocus lists Perth metro colocation facilities and its colocation brochure identifies DC-PER05 in Osborne Park; aggregate listings place the facility at 43 King Edward Road, Osborne Park, within City of Stirling. No public MW capacity found.",
+  "world_batch": true
+}

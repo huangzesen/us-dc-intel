@@ -1,0 +1,21 @@
+{
+  "slug": "hu-dp-data-center-debrecen",
+  "canonical_project": "DP Data Center Debrecen",
+  "owner": "Dryvit Profi Kft. / DP Data Center",
+  "location": {
+    "city": "",
+    "subnational": "Hajdu-Bihar",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2021-05-19",
+  "evidence_grade": "B",
+  "sources": [
+    "https://eps-connect.hu/egyedulallo-adatkozpont-epul-debrecenben/",
+    "https://datacenter.hu/"
+  ],
+  "notes": "EPS-Connect reported that a unique data center was being built in Debrecen for Dryvit Profi at Galamb utca 1, designed for direct water cooling and high-density racks. DP Data Center's own site presents the Debrecen data center brand, but accessible public material did not confirm MW capacity or full operational status.",
+  "world_batch": true
+}

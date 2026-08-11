@@ -1,0 +1,20 @@
+{
+  "slug": "ug-mtn-uganda-data-centre-network-eastern-region-presence",
+  "canonical_project": "MTN Uganda data centre network - Eastern region presence",
+  "owner": "MTN Uganda (MTN Business)",
+  "location": {
+    "city": "",
+    "subnational": "Eastern",
+    "country": "Uganda",
+    "country_code": "UG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mtn.co.ug/businesssolutions/data-centre/"
+  ],
+  "notes": "MTN Uganda's official Data Centre page states the company operates 6 data centres spread across Central, Eastern, Western and Southern regions of Uganda with a total capacity of 972 racks, which it describes as the largest commercial data centre network in the country. The Eastern-region facility locations are not publicly specified (no public per-site address or MW capacity). Recorded for division coverage on the operator's official claim.",
+  "world_batch": true
+}

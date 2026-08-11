@@ -1,0 +1,21 @@
+{
+  "slug": "fi-equinix-helsinki-data-centers",
+  "canonical_project": "Equinix Helsinki data centers",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Uusimaa",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/finland-colocation",
+    "https://www.equinix.com/data-centers/europe-colocation/finland-colocation/helsinki-data-centers"
+  ],
+  "notes": "Equinix official Finland pages state it operates five Finland data centers in Helsinki, offering about 7,750 sqm of colocation space across the market.",
+  "world_batch": true
+}

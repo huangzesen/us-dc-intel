@@ -1,0 +1,22 @@
+{
+  "slug": "gb-lcrdc-wallasey-water-tower",
+  "canonical_project": "LCRDC Wallasey Water Tower",
+  "owner": "Liverpool City Region Data Centres (LCRDC)",
+  "location": {
+    "city": "",
+    "subnational": "England - Metropolitan Borough of Wirral",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/data-center/lcrdc-wallasey-water-tower",
+    "https://ixliverpool.net/about-us/about-the-exchange/",
+    "https://lcrdc.co.uk/about-us/"
+  ],
+  "notes": "Baxtel lists LCRDC Wallasey Water Tower as a facility; IX Liverpool says it hosts Cheshire's first open neutral Internet Exchange. LCRDC site lists a June 2025 news item for a new Wirral Edge Data Centre. Capacity not public in searched sources.",
+  "world_batch": true
+}

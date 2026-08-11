@@ -1,0 +1,21 @@
+{
+  "slug": "gb-six-degrees-studley-north-data-centre",
+  "canonical_project": "Six Degrees Studley North Data Centre",
+  "owner": "Six Degrees Group",
+  "location": {
+    "city": "",
+    "subnational": "England - Warwickshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://inflect.com/building/birmingham-road-warwickshire/six-degrees-group/datacenter/six-degrees-studley-north",
+    "https://www.colo-x.com/data-centre/six-degrees-birmingham-south-studley-data-centre/"
+  ],
+  "notes": "Studley, Warwickshire colocation facility; public listing cites 1.5MVA power supply, but no IT MW figure was verified.",
+  "world_batch": true
+}

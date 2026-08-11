@@ -1,0 +1,22 @@
+{
+  "slug": "lv-tet-dc7-salaspils-data-center",
+  "canonical_project": "Tet DC7 Salaspils data center",
+  "owner": "Tet / Citrus Solutions",
+  "location": {
+    "city": "",
+    "subnational": "Salaspils novads",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-06-02",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tet.lv/par-mums/jaunumi/tet-datu-centra-dc7-pirma-karta-nodota-ekspluatacija-novembri-planota-sviniga-atklasana",
+    "https://eng.lsm.lv/article/society/education/19.08.2024-tet-to-build-high-performance-data-center-in-salaspils.a565585/",
+    "https://salaspils.lv/lv/node/3436"
+  ],
+  "notes": "Tet says the first phase of DC7 in Salaspils has been put into operation, with formal opening planned for November 2026 and second phase scheduled by 2028. Total project investment exceeds EUR 30m; first phase is 839 sq m within an approximately 10,000 sq m site. Uses liquid cooling and heat recovery with Salaspils Siltums. Capacity in MW not disclosed; sources mention more than 200 racks and PUE 1.2.",
+  "world_batch": true
+}

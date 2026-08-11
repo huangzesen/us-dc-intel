@@ -1,0 +1,22 @@
+{
+  "slug": "ch-data-center-stollen-lucerne",
+  "canonical_project": "Data Center Stollen Lucerne",
+  "owner": "ewl energie wasser luzern",
+  "location": {
+    "city": "",
+    "subnational": "Luzern",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://rz-stollen.ch/en",
+    "https://rz-stollen.ch/en/company",
+    "https://www.datacenterdynamics.com/en/product-news/the-stollen-lucerne-data-center-in-former-bunker-receives-tuvit-tsi-certificate/"
+  ],
+  "notes": "Official site says the Stollen Lucerne data center belongs to and is operated by ewl; DCD reports TÜViT TSI certification and lake-water-cooled CO2-neutral operation.",
+  "world_batch": true
+}

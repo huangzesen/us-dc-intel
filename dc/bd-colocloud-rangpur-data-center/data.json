@@ -1,0 +1,20 @@
+{
+  "slug": "bd-colocloud-rangpur-data-center",
+  "canonical_project": "Colocloud Rangpur Data Center",
+  "owner": "Wolast Technologies Ltd / Colocloud; colocation.bd",
+  "location": {
+    "city": "",
+    "subnational": "Rangpur",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://colocation.bd/Data_Center/Colocloud.html"
+  ],
+  "notes": "Provider page lists a Rangpur data center as part of Colocloud's Tier-3 Bangladesh colocation footprint; capacity not stated.",
+  "world_batch": true
+}

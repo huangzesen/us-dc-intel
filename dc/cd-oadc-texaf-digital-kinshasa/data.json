@@ -1,0 +1,21 @@
+{
+  "slug": "cd-oadc-texaf-digital-kinshasa",
+  "canonical_project": "OADC Texaf Digital Kinshasa",
+  "owner": "Open Access Data Centres / TEXAF",
+  "location": {
+    "city": "",
+    "subnational": "Kinshasa",
+    "country": "Congo, Democratic Republic of the",
+    "country_code": "CD"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2024-08-16",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.openaccessdc.net/kinshasa",
+    "https://www.datacenterdynamics.com/en/news/oadc-launches-data-center-in-dr-congo/"
+  ],
+  "notes": "OADC official page lists the Kinshasa facility with 2MW site load and 1,000 sqm technical space; DCD reported the first phase live at Silikin Village, Kinshasa, with 1,500 sqm and 550 racks.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "es-altamira-data-center-campus",
+  "canonical_project": "Altamira Data Center campus",
+  "owner": "Stoneshield Capital / XDC Properties; Sener/Quark design",
+  "location": {
+    "city": "",
+    "subnational": "Cantabria",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": 500,
+  "status": "planned",
+  "evidence_date": "2025-02-27",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.group.sener/en/project/altamira-data-center/",
+    "https://www.group.sener/en/noticias/quark-takes-part-in-the-design-of-the-500-mw-stoneshield-dc/",
+    "https://www.datacenterdynamics.com/en/news/stoneshield-plans-68-million-sq-ft-data-center-campus-outside-santander-spain/"
+  ],
+  "notes": "Sener describes a 500MW Cantabria data center campus, one of Europe's largest, with construction expected to begin in Q1 2025 and operations from 2032; Quark says it consists of 12 adjacent 40MW modules.",
+  "world_batch": true
+}

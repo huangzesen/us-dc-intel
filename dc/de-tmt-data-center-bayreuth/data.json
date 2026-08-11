@@ -1,0 +1,23 @@
+{
+  "slug": "de-tmt-data-center-bayreuth",
+  "canonical_project": "TMT Data Center Bayreuth",
+  "owner": "TMT GmbH & Co. KG",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Bayreuth (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-06-18",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tmt.de/",
+    "https://www.tmt.de/internet-datacenter/",
+    "https://www.tmt.de/internet-datacenter/colocation-managed-hosting",
+    "https://www.tmt.de/news/tmt-nach-iso-iec-27001-2022-zertifiziert"
+  ],
+  "notes": "TMT says it operates its own data centers and offers colocation, managed hosting, private cloud and data-center solutions from Bayreuth; its ISO 27001:2022 certification scope includes operation of IT, cloud, data-center and communications solutions.",
+  "world_batch": true
+}

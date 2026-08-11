@@ -1,0 +1,21 @@
+{
+  "slug": "au-nab-knox-data-centre",
+  "canonical_project": "NAB Knox data centre",
+  "owner": "National Australia Bank",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Knox",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-01-20",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/national-australia-bank-to-exit-knox-data-center-in-melbourne/",
+    "https://www.itnews.com.au/news/nab-shuts-down-four-data-centres-364059"
+  ],
+  "notes": "DCD reported NAB's Knox data centre at 122 Lewis Road remains a data centre but is slated for closure as NAB migrates to cloud; older iTnews coverage confirms NAB retained a Knox, Victoria data centre during earlier consolidation.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "kr-zetacube-nanodc-bucheon-sites",
+  "canonical_project": "ZetaCube NANODC Bucheon sites",
+  "owner": "ZetaCube",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Bucheon-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 0.02,
+  "status": "operational",
+  "evidence_date": "2025-11-05",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.mk.co.kr/en/it/11450175",
+    "https://www.zetacube.net/history",
+    "https://www.nanodc.ai/"
+  ],
+  "notes": "Maeil Business News says ZetaCube's 48U NANODC integrates 20kW power and is installed at six knowledge-industry-center sites including Bucheon and Goyang; ZetaCube materials list Bucheon NANODC centers. Treated as micro/edge facilities, not hyperscale.",
+  "world_batch": true
+}

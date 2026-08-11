@@ -1,0 +1,20 @@
+{
+  "slug": "nl-cellnex-hoogersmilde-datacenter",
+  "canonical_project": "Cellnex Hoogersmilde datacenter",
+  "owner": "Cellnex Netherlands",
+  "location": {
+    "city": "",
+    "subnational": "Drenthe",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 0.86,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cellnex.com/nl-en/technology/edge-datacentres/"
+  ],
+  "notes": "Official Cellnex page lists Hoogersmilde with 350 m2 total surface and 860 kVA total capacity; converted here as 0.86 MW nominal apparent power.",
+  "world_batch": true
+}

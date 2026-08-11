@@ -1,0 +1,1174 @@
+{
+  "generated_date": "2026-08-11",
+  "files": 650,
+  "loaded_rows": 8294,
+  "project_rows": 5118,
+  "no_project_rows": 3176,
+  "dedup_skipped": 0,
+  "metadata_files_written": 5118,
+  "inserted": 5118,
+  "total_centers": 8527,
+  "countries_with_projects": 177,
+  "per_country": [
+    {
+      "country": "US",
+      "facilities": 2731,
+      "capacity_mw": 544236.0
+    },
+    {
+      "country": "CN",
+      "facilities": 657,
+      "capacity_mw": 11428.2
+    },
+    {
+      "country": "DE",
+      "facilities": 482,
+      "capacity_mw": 9904.3
+    },
+    {
+      "country": "IN",
+      "facilities": 306,
+      "capacity_mw": 16639.1
+    },
+    {
+      "country": "GB",
+      "facilities": 261,
+      "capacity_mw": 26002.6
+    },
+    {
+      "country": "AU",
+      "facilities": 245,
+      "capacity_mw": 16056.4
+    },
+    {
+      "country": "FR",
+      "facilities": 228,
+      "capacity_mw": 8121.1
+    },
+    {
+      "country": "KR",
+      "facilities": 198,
+      "capacity_mw": 17245.4
+    },
+    {
+      "country": "JP",
+      "facilities": 116,
+      "capacity_mw": 8248.3
+    },
+    {
+      "country": "RU",
+      "facilities": 115,
+      "capacity_mw": 1752.9
+    },
+    {
+      "country": "BR",
+      "facilities": 95,
+      "capacity_mw": 9827.4
+    },
+    {
+      "country": "TR",
+      "facilities": 63,
+      "capacity_mw": 145.0
+    },
+    {
+      "country": "NG",
+      "facilities": 62,
+      "capacity_mw": 223.2
+    },
+    {
+      "country": "IT",
+      "facilities": 62,
+      "capacity_mw": 2437.8
+    },
+    {
+      "country": "MX",
+      "facilities": 60,
+      "capacity_mw": 1055.9
+    },
+    {
+      "country": "ID",
+      "facilities": 60,
+      "capacity_mw": 1441.5
+    },
+    {
+      "country": "ES",
+      "facilities": 58,
+      "capacity_mw": 4167.3
+    },
+    {
+      "country": "RO",
+      "facilities": 56,
+      "capacity_mw": 320.7
+    },
+    {
+      "country": "IR",
+      "facilities": 56,
+      "capacity_mw": 0
+    },
+    {
+      "country": "CH",
+      "facilities": 56,
+      "capacity_mw": 194.6
+    },
+    {
+      "country": "VN",
+      "facilities": 55,
+      "capacity_mw": 208.5
+    },
+    {
+      "country": "CA",
+      "facilities": 53,
+      "capacity_mw": 5137.5
+    },
+    {
+      "country": "PL",
+      "facilities": 50,
+      "capacity_mw": 4332.7
+    },
+    {
+      "country": "NL",
+      "facilities": 50,
+      "capacity_mw": 260.4
+    },
+    {
+      "country": "MY",
+      "facilities": 48,
+      "capacity_mw": 4830.0
+    },
+    {
+      "country": "CO",
+      "facilities": 47,
+      "capacity_mw": 253.7
+    },
+    {
+      "country": "TH",
+      "facilities": 46,
+      "capacity_mw": 3387.0
+    },
+    {
+      "country": "FI",
+      "facilities": 45,
+      "capacity_mw": 4083.5
+    },
+    {
+      "country": "AR",
+      "facilities": 45,
+      "capacity_mw": 3019.7
+    },
+    {
+      "country": "SA",
+      "facilities": 44,
+      "capacity_mw": 2468.0
+    },
+    {
+      "country": "CZ",
+      "facilities": 41,
+      "capacity_mw": 80.0
+    },
+    {
+      "country": "SE",
+      "facilities": 40,
+      "capacity_mw": 3014.7
+    },
+    {
+      "country": "CL",
+      "facilities": 39,
+      "capacity_mw": 768.1
+    },
+    {
+      "country": "KZ",
+      "facilities": 37,
+      "capacity_mw": 823.7
+    },
+    {
+      "country": "UA",
+      "facilities": 36,
+      "capacity_mw": 1000.0
+    },
+    {
+      "country": "SI",
+      "facilities": 36,
+      "capacity_mw": 6.4
+    },
+    {
+      "country": "PT",
+      "facilities": 36,
+      "capacity_mw": 1644.9
+    },
+    {
+      "country": "NZ",
+      "facilities": 35,
+      "capacity_mw": 815.0
+    },
+    {
+      "country": "HU",
+      "facilities": 34,
+      "capacity_mw": 12.7
+    },
+    {
+      "country": "TW",
+      "facilities": 31,
+      "capacity_mw": 237.3
+    },
+    {
+      "country": "SG",
+      "facilities": 31,
+      "capacity_mw": 627.6
+    },
+    {
+      "country": "EC",
+      "facilities": 30,
+      "capacity_mw": 6.0
+    },
+    {
+      "country": "AE",
+      "facilities": 29,
+      "capacity_mw": 5573.6
+    },
+    {
+      "country": "PH",
+      "facilities": 28,
+      "capacity_mw": 562.8
+    },
+    {
+      "country": "BG",
+      "facilities": 28,
+      "capacity_mw": 4.5
+    },
+    {
+      "country": "ET",
+      "facilities": 27,
+      "capacity_mw": 214.0
+    },
+    {
+      "country": "IL",
+      "facilities": 26,
+      "capacity_mw": 802.0
+    },
+    {
+      "country": "PR",
+      "facilities": 25,
+      "capacity_mw": 71.0
+    },
+    {
+      "country": "LV",
+      "facilities": 24,
+      "capacity_mw": 251.3
+    },
+    {
+      "country": "KE",
+      "facilities": 24,
+      "capacity_mw": 303.0
+    },
+    {
+      "country": "DZ",
+      "facilities": 24,
+      "capacity_mw": 2.0
+    },
+    {
+      "country": "VE",
+      "facilities": 23,
+      "capacity_mw": 1.0
+    },
+    {
+      "country": "HR",
+      "facilities": 23,
+      "capacity_mw": 856.1
+    },
+    {
+      "country": "PK",
+      "facilities": 22,
+      "capacity_mw": 11.5
+    },
+    {
+      "country": "PE",
+      "facilities": 22,
+      "capacity_mw": 47.8
+    },
+    {
+      "country": "EG",
+      "facilities": 21,
+      "capacity_mw": 270.6
+    },
+    {
+      "country": "DK",
+      "facilities": 21,
+      "capacity_mw": 1233.5
+    },
+    {
+      "country": "IE",
+      "facilities": 20,
+      "capacity_mw": 1174.0
+    },
+    {
+      "country": "CR",
+      "facilities": 20,
+      "capacity_mw": 18.5
+    },
+    {
+      "country": "GR",
+      "facilities": 19,
+      "capacity_mw": 1026.5
+    },
+    {
+      "country": "PY",
+      "facilities": 18,
+      "capacity_mw": 712.5
+    },
+    {
+      "country": "AZ",
+      "facilities": 18,
+      "capacity_mw": 2.8
+    },
+    {
+      "country": "AT",
+      "facilities": 18,
+      "capacity_mw": 28.0
+    },
+    {
+      "country": "SN",
+      "facilities": 17,
+      "capacity_mw": 1.2
+    },
+    {
+      "country": "MU",
+      "facilities": 17,
+      "capacity_mw": 6.5
+    },
+    {
+      "country": "MT",
+      "facilities": 17,
+      "capacity_mw": 3.2
+    },
+    {
+      "country": "GT",
+      "facilities": 17,
+      "capacity_mw": 54.2
+    },
+    {
+      "country": "BE",
+      "facilities": 17,
+      "capacity_mw": 16.0
+    },
+    {
+      "country": "UZ",
+      "facilities": 16,
+      "capacity_mw": 1423.0
+    },
+    {
+      "country": "RS",
+      "facilities": 16,
+      "capacity_mw": 63.8
+    },
+    {
+      "country": "MA",
+      "facilities": 16,
+      "capacity_mw": 895.3
+    },
+    {
+      "country": "KW",
+      "facilities": 16,
+      "capacity_mw": 83.8
+    },
+    {
+      "country": "CY",
+      "facilities": 16,
+      "capacity_mw": 1.0
+    },
+    {
+      "country": "SK",
+      "facilities": 15,
+      "capacity_mw": 6.0
+    },
+    {
+      "country": "SD",
+      "facilities": 15,
+      "capacity_mw": 6.0
+    },
+    {
+      "country": "PA",
+      "facilities": 15,
+      "capacity_mw": 1006.6
+    },
+    {
+      "country": "MN",
+      "facilities": 15,
+      "capacity_mw": 0
+    },
+    {
+      "country": "LU",
+      "facilities": 15,
+      "capacity_mw": 31.4
+    },
+    {
+      "country": "IQ",
+      "facilities": 15,
+      "capacity_mw": 12.3
+    },
+    {
+      "country": "ZA",
+      "facilities": 14,
+      "capacity_mw": 232.0
+    },
+    {
+      "country": "TZ",
+      "facilities": 14,
+      "capacity_mw": 9.0
+    },
+    {
+      "country": "OM",
+      "facilities": 14,
+      "capacity_mw": 16.9
+    },
+    {
+      "country": "NP",
+      "facilities": 14,
+      "capacity_mw": 18.5
+    },
+    {
+      "country": "MK",
+      "facilities": 14,
+      "capacity_mw": 9.2
+    },
+    {
+      "country": "LY",
+      "facilities": 14,
+      "capacity_mw": 2.0
+    },
+    {
+      "country": "LI",
+      "facilities": 14,
+      "capacity_mw": 0
+    },
+    {
+      "country": "JO",
+      "facilities": 14,
+      "capacity_mw": 813.0
+    },
+    {
+      "country": "EE",
+      "facilities": 14,
+      "capacity_mw": 342.0
+    },
+    {
+      "country": "DO",
+      "facilities": 14,
+      "capacity_mw": 0
+    },
+    {
+      "country": "BW",
+      "facilities": 14,
+      "capacity_mw": 0
+    },
+    {
+      "country": "BD",
+      "facilities": 14,
+      "capacity_mw": 36.8
+    },
+    {
+      "country": "AF",
+      "facilities": 14,
+      "capacity_mw": 0
+    },
+    {
+      "country": "UY",
+      "facilities": 13,
+      "capacity_mw": 12.0
+    },
+    {
+      "country": "LT",
+      "facilities": 13,
+      "capacity_mw": 595.0
+    },
+    {
+      "country": "HK",
+      "facilities": 13,
+      "capacity_mw": 503.1
+    },
+    {
+      "country": "GE",
+      "facilities": 13,
+      "capacity_mw": 29.5
+    },
+    {
+      "country": "CM",
+      "facilities": 13,
+      "capacity_mw": 3.0
+    },
+    {
+      "country": "CI",
+      "facilities": 13,
+      "capacity_mw": 7.3
+    },
+    {
+      "country": "TN",
+      "facilities": 12,
+      "capacity_mw": 22.5
+    },
+    {
+      "country": "QA",
+      "facilities": 12,
+      "capacity_mw": 33.1
+    },
+    {
+      "country": "MM",
+      "facilities": 12,
+      "capacity_mw": 0.2
+    },
+    {
+      "country": "MD",
+      "facilities": 12,
+      "capacity_mw": 9.1
+    },
+    {
+      "country": "BY",
+      "facilities": 12,
+      "capacity_mw": 8.2
+    },
+    {
+      "country": "TT",
+      "facilities": 11,
+      "capacity_mw": 450.0
+    },
+    {
+      "country": "SL",
+      "facilities": 11,
+      "capacity_mw": 0
+    },
+    {
+      "country": "HN",
+      "facilities": 11,
+      "capacity_mw": 0
+    },
+    {
+      "country": "GH",
+      "facilities": 11,
+      "capacity_mw": 62.9
+    },
+    {
+      "country": "BH",
+      "facilities": 11,
+      "capacity_mw": 65.0
+    },
+    {
+      "country": "ZW",
+      "facilities": 10,
+      "capacity_mw": 5.4
+    },
+    {
+      "country": "SV",
+      "facilities": 10,
+      "capacity_mw": 3.5
+    },
+    {
+      "country": "NA",
+      "facilities": 10,
+      "capacity_mw": 5.0
+    },
+    {
+      "country": "MV",
+      "facilities": 10,
+      "capacity_mw": 0
+    },
+    {
+      "country": "IS",
+      "facilities": 10,
+      "capacity_mw": 410.0
+    },
+    {
+      "country": "CU",
+      "facilities": 10,
+      "capacity_mw": 0
+    },
+    {
+      "country": "ZM",
+      "facilities": 9,
+      "capacity_mw": 2.2
+    },
+    {
+      "country": "PS",
+      "facilities": 9,
+      "capacity_mw": 0
+    },
+    {
+      "country": "NI",
+      "facilities": 9,
+      "capacity_mw": 1.0
+    },
+    {
+      "country": "NC",
+      "facilities": 9,
+      "capacity_mw": 0
+    },
+    {
+      "country": "MZ",
+      "facilities": 9,
+      "capacity_mw": 3.3
+    },
+    {
+      "country": "KG",
+      "facilities": 9,
+      "capacity_mw": 4.0
+    },
+    {
+      "country": "GU",
+      "facilities": 9,
+      "capacity_mw": 7.1
+    },
+    {
+      "country": "BF",
+      "facilities": 9,
+      "capacity_mw": 3.0
+    },
+    {
+      "country": "AM",
+      "facilities": 9,
+      "capacity_mw": 305.5
+    },
+    {
+      "country": "UG",
+      "facilities": 8,
+      "capacity_mw": 1.5
+    },
+    {
+      "country": "PG",
+      "facilities": 8,
+      "capacity_mw": 0
+    },
+    {
+      "country": "MW",
+      "facilities": 8,
+      "capacity_mw": 0
+    },
+    {
+      "country": "ME",
+      "facilities": 8,
+      "capacity_mw": 0.1
+    },
+    {
+      "country": "CD",
+      "facilities": 8,
+      "capacity_mw": 3.5
+    },
+    {
+      "country": "BS",
+      "facilities": 8,
+      "capacity_mw": 3.0
+    },
+    {
+      "country": "BI",
+      "facilities": 8,
+      "capacity_mw": 0
+    },
+    {
+      "country": "SY",
+      "facilities": 7,
+      "capacity_mw": 1.6
+    },
+    {
+      "country": "SO",
+      "facilities": 7,
+      "capacity_mw": 11.0
+    },
+    {
+      "country": "LA",
+      "facilities": 7,
+      "capacity_mw": 0
+    },
+    {
+      "country": "BT",
+      "facilities": 7,
+      "capacity_mw": 100.0
+    },
+    {
+      "country": "BA",
+      "facilities": 7,
+      "capacity_mw": 0
+    },
+    {
+      "country": "AO",
+      "facilities": 7,
+      "capacity_mw": 17.0
+    },
+    {
+      "country": "RE",
+      "facilities": 6,
+      "capacity_mw": 1.0
+    },
+    {
+      "country": "LK",
+      "facilities": 6,
+      "capacity_mw": 4.0
+    },
+    {
+      "country": "IM",
+      "facilities": 6,
+      "capacity_mw": 10.0
+    },
+    {
+      "country": "GQ",
+      "facilities": 6,
+      "capacity_mw": 0
+    },
+    {
+      "country": "GI",
+      "facilities": 6,
+      "capacity_mw": 250.0
+    },
+    {
+      "country": "GA",
+      "facilities": 6,
+      "capacity_mw": 22.0
+    },
+    {
+      "country": "FJ",
+      "facilities": 6,
+      "capacity_mw": 0
+    },
+    {
+      "country": "CF",
+      "facilities": 6,
+      "capacity_mw": 0
+    },
+    {
+      "country": "YE",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "VU",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "ST",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "MH",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "MG",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "MC",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "LS",
+      "facilities": 5,
+      "capacity_mw": 1200.0
+    },
+    {
+      "country": "LR",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "LC",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "JE",
+      "facilities": 5,
+      "capacity_mw": 0.5
+    },
+    {
+      "country": "GG",
+      "facilities": 5,
+      "capacity_mw": 2.0
+    },
+    {
+      "country": "FM",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "CG",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "BZ",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "BM",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "BJ",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "AL",
+      "facilities": 5,
+      "capacity_mw": 32.0
+    },
+    {
+      "country": "AD",
+      "facilities": 5,
+      "capacity_mw": 0
+    },
+    {
+      "country": "TM",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "TL",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "SZ",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "SS",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "SJ",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "SB",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "RW",
+      "facilities": 4,
+      "capacity_mw": 5.0
+    },
+    {
+      "country": "NO",
+      "facilities": 4,
+      "capacity_mw": 265.0
+    },
+    {
+      "country": "MO",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "KY",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "JM",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "HT",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "GM",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "DJ",
+      "facilities": 4,
+      "capacity_mw": 10.0
+    },
+    {
+      "country": "CK",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "BQ",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "BO",
+      "facilities": 4,
+      "capacity_mw": 0
+    },
+    {
+      "country": "SR",
+      "facilities": 3,
+      "capacity_mw": 1.0
+    },
+    {
+      "country": "SC",
+      "facilities": 3,
+      "capacity_mw": 0
+    },
+    {
+      "country": "PF",
+      "facilities": 3,
+      "capacity_mw": 0.3
+    },
+    {
+      "country": "MP",
+      "facilities": 3,
+      "capacity_mw": 0
+    },
+    {
+      "country": "KP",
+      "facilities": 3,
+      "capacity_mw": 0
+    },
+    {
+      "country": "KN",
+      "facilities": 3,
+      "capacity_mw": 0
+    },
+    {
+      "country": "GY",
+      "facilities": 3,
+      "capacity_mw": 100.0
+    },
+    {
+      "country": "GP",
+      "facilities": 3,
+      "capacity_mw": 0
+    },
+    {
+      "country": "GN",
+      "facilities": 3,
+      "capacity_mw": 0
+    },
+    {
+      "country": "GL",
+      "facilities": 3,
+      "capacity_mw": 1500.0
+    },
+    {
+      "country": "GF",
+      "facilities": 3,
+      "capacity_mw": 0
+    },
+    {
+      "country": "CW",
+      "facilities": 3,
+      "capacity_mw": 5.0
+    },
+    {
+      "country": "CV",
+      "facilities": 3,
+      "capacity_mw": 0
+    },
+    {
+      "country": "BN",
+      "facilities": 3,
+      "capacity_mw": 0
+    },
+    {
+      "country": "BB",
+      "facilities": 3,
+      "capacity_mw": 15.0
+    },
+    {
+      "country": "AG",
+      "facilities": 3,
+      "capacity_mw": 0
+    },
+    {
+      "country": "TD",
+      "facilities": 2,
+      "capacity_mw": 0
+    },
+    {
+      "country": "TC",
+      "facilities": 2,
+      "capacity_mw": 0
+    },
+    {
+      "country": "SX",
+      "facilities": 2,
+      "capacity_mw": 1.0
+    },
+    {
+      "country": "NE",
+      "facilities": 2,
+      "capacity_mw": 0
+    },
+    {
+      "country": "MR",
+      "facilities": 2,
+      "capacity_mw": 0
+    },
+    {
+      "country": "MQ",
+      "facilities": 2,
+      "capacity_mw": 0.1
+    },
+    {
+      "country": "ML",
+      "facilities": 2,
+      "capacity_mw": 0
+    },
+    {
+      "country": "FK",
+      "facilities": 2,
+      "capacity_mw": 0
+    },
+    {
+      "country": "AX",
+      "facilities": 2,
+      "capacity_mw": 0
+    },
+    {
+      "country": "AW",
+      "facilities": 2,
+      "capacity_mw": 0
+    },
+    {
+      "country": "AI",
+      "facilities": 2,
+      "capacity_mw": 0
+    },
+    {
+      "country": "YT",
+      "facilities": 1,
+      "capacity_mw": 1.2
+    },
+    {
+      "country": "VI",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "VG",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "VC",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "VA",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "TO",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "TG",
+      "facilities": 1,
+      "capacity_mw": 1.0
+    },
+    {
+      "country": "SH",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "PW",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "PM",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "NR",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "NF",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "MS",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "MF",
+      "facilities": 1,
+      "capacity_mw": 3.0
+    },
+    {
+      "country": "KM",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "KI",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "IO",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "GW",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "GD",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "FO",
+      "facilities": 1,
+      "capacity_mw": 2.0
+    },
+    {
+      "country": "ER",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "EH",
+      "facilities": 1,
+      "capacity_mw": 500.0
+    },
+    {
+      "country": "DM",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "CX",
+      "facilities": 1,
+      "capacity_mw": 7.0
+    },
+    {
+      "country": "CC",
+      "facilities": 1,
+      "capacity_mw": 0
+    },
+    {
+      "country": "BL",
+      "facilities": 1,
+      "capacity_mw": 0
+    }
+  ]
+}

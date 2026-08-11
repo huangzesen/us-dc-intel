@@ -1,0 +1,21 @@
+{
+  "slug": "jp-idc-frontier-fukushima-shirakawa-data-center",
+  "canonical_project": "IDC Frontier Fukushima Shirakawa Data Center",
+  "owner": "IDC Frontier / SoftBank Corp.",
+  "location": {
+    "city": "",
+    "subnational": "Fukushima",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idcf.jp/en/datacenter/location/shirakawa/",
+    "https://www.idcf.jp/en/datacenter/location/"
+  ],
+  "notes": "IDC Frontier official page says Fukushima Shirakawa Data Center operates in Shirakawa City, Fukushima Prefecture, using outdoor-air and water-cooled air conditioning and modular expansion.",
+  "world_batch": true
+}

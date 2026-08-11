@@ -1,0 +1,21 @@
+{
+  "slug": "my-gdc-sdk1-sedenak-tech-park",
+  "canonical_project": "GDC SDK1 Sedenak Tech Park",
+  "owner": "Global Data Centre Sdn Bhd",
+  "location": {
+    "city": "",
+    "subnational": "Johor",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": 21,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/malaysia/johor-bahru/",
+    "https://baxtel.com/data-centers/global-data-centre-sdn-bhd-gdc"
+  ],
+  "notes": "Directories report GDC SDK1 as a 21MW high-density AI data center in Sedenak Tech Park with capacity for about 1,000 racks.",
+  "world_batch": true
+}

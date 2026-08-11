@@ -1,0 +1,20 @@
+{
+  "slug": "mu-rose-hill-data-centre",
+  "canonical_project": "Rose Hill Data Centre",
+  "owner": "Mauritius Telecom Limited",
+  "location": {
+    "city": "",
+    "subnational": "Plaines Wilhems",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.myt.mu/business/colocation/"
+  ],
+  "notes": "Mauritius Telecom/my.t colocation page describes the Rose Hill Tier III compliant Data Centre in central Mauritius with 300 sq m of secured rack space, up to 60+ racks, and 500 kW of power.",
+  "world_batch": true
+}

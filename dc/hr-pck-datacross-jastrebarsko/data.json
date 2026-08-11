@@ -1,0 +1,22 @@
+{
+  "slug": "hr-pck-datacross-jastrebarsko",
+  "canonical_project": "PCK-DataCross Jastrebarsko",
+  "owner": "Podatkovni centar Kriz / DataCross",
+  "location": {
+    "city": "",
+    "subnational": "Zagreb County",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pck.hr/en/pocetna/data-centar-jastrebarsko/",
+    "https://mydataknox.com/en/our-datacenters",
+    "https://www.datacentermap.com/croatia/zagreb/pck-jastrebarsko/"
+  ],
+  "notes": "Operator pages place the Jastrebarsko data center in the Jalsevac industrial zone, 35 km from Zagreb, with 1,300 m2 total area for IT equipment, carrier-neutral connectivity, Tier 3 / 99.982% SLA positioning, redundant 4 MW transformer plants, and 4 x 1.6 MW diesel generators. PCK material says the facility was opened on 2012-11-22; project-level IT load was not disclosed.",
+  "world_batch": true
+}

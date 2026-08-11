@@ -1,0 +1,21 @@
+{
+  "slug": "cn-china-mobile-fujian-fuzhou-data-center",
+  "canonical_project": "China Mobile (Fujian Fuzhou) Data Center",
+  "owner": "China Mobile Fujian",
+  "location": {
+    "city": "",
+    "subnational": "Fujian - Fuzhou Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-05-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.fzcl.gov.cn/xjwz/zwgk/zfxxgkzdgz/zdjsxm/jsqk/201912/t20191202_3101334.htm",
+    "https://sjglj.fuzhou.gov.cn/zwgk/gzdt/202405/t20240526_4830410.htm"
+  ],
+  "notes": "Changle District reported phase-1 topping out in 2019 on a roughly 185 mu site in Binhai New City. Fuzhou Data Management Bureau later reported more than 9000 total racks, over 13T outbound bandwidth, ISO/ITSS certifications, and selection as a national new data center typical case.",
+  "world_batch": true
+}

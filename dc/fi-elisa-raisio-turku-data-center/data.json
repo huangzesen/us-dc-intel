@@ -1,0 +1,21 @@
+{
+  "slug": "fi-elisa-raisio-turku-data-center",
+  "canonical_project": "Elisa Raisio (Turku) data center",
+  "owner": "Elisa Corporation",
+  "location": {
+    "city": "",
+    "subnational": "Southwest Finland",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/elisa-raisio-turku",
+    "https://inflect.com/datacenters/emea/finland/turku"
+  ],
+  "notes": "Aggregators list an operational Elisa facility serving the Turku/Raisio market; no primary project page or capacity detail found during this pass.",
+  "world_batch": true
+}

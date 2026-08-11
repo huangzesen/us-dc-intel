@@ -1,0 +1,21 @@
+{
+  "slug": "ro-invite-systems-ploiesti",
+  "canonical_project": "INVITE Systems Ploiesti",
+  "owner": "INVITE Systems",
+  "location": {
+    "city": "",
+    "subnational": "Prahova",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.invitesys.ro/resurse",
+    "https://www.datacentermap.com/romania/ploiesti/invite-systems-ploiesti/"
+  ],
+  "notes": "INVITE's own resources page describes its Ploiesti disaster-recovery/backup data center with colocation space, virtualization platform, energy-efficient/self-sustaining IT and telecom infrastructure, and distance over 60 km from Bucharest; Data Center Map lists the address as Strada Elipsei 1, Ploiesti.",
+  "world_batch": true
+}

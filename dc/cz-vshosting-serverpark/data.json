@@ -1,0 +1,21 @@
+{
+  "slug": "cz-vshosting-serverpark",
+  "canonical_project": "VSHosting ServerPark",
+  "owner": "VSHosting",
+  "location": {
+    "city": "",
+    "subnational": "Prague",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vshosting.eu/tech",
+    "https://www.datacentermap.com/czech-republic/prague/vshosting-serverpark/"
+  ],
+  "notes": "VSHosting official site says it built and operates its own data centre on the outskirts of Prague, opened in 2015, using green energy and reporting 100% uptime since opening.",
+  "world_batch": true
+}

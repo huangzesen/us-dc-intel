@@ -1,0 +1,21 @@
+{
+  "slug": "de-ewe-rechenzentrum-ol1",
+  "canonical_project": "EWE Rechenzentrum OL1",
+  "owner": "EWE TEL GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Lower Saxony - Oldenburg (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-28",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/germany/oldenburg/ewe-rechenzentrum-ol1/",
+    "https://business.osnatel.de/internet/colocation"
+  ],
+  "notes": "Colocation facility at Tirpitzstrasse 39, 26122 Oldenburg. Data Center Map lists EWE TEL as operator and notes ISO 27001 / EN 50600 services; osnatel/EWE business page states EWE operates data centers in Oldenburg and Osnabrück on 100% green electricity. No MW capacity disclosed.",
+  "world_batch": true
+}

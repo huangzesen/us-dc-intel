@@ -1,0 +1,21 @@
+{
+  "slug": "cn-montnets-cloud-data-center-anshan-base",
+  "canonical_project": "Montnets Cloud Data Center (Anshan Base)",
+  "owner": "Montnets / Anshan Yunshu Technology Development Co., Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Liaoning - Anshan Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 5.3,
+  "status": "operational",
+  "evidence_date": "2024-02-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.montnets.com/show-823.html",
+    "https://pdf.dfcfw.com/pdf/H2_AN201909241367496344_1.PDF"
+  ],
+  "notes": "Company materials report an operational national A-class, three-carrier data center with 1,174 standard 4.5 kW cabinets, 21,800 sqm building area and PUE <=1.4; capacity_mw inferred from cabinet rating.",
+  "world_batch": true
+}

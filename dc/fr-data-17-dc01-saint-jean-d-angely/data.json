@@ -1,0 +1,23 @@
+{
+  "slug": "fr-data-17-dc01-saint-jean-d-angely",
+  "canonical_project": "DATA 17 DC01 Saint-Jean-d'Angely",
+  "owner": "Data 17 SAS / Atrium Data",
+  "location": {
+    "city": "",
+    "subnational": "Charente-Maritime",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-03-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/data-17--dc01/1280",
+    "https://www.association-mer.fr/visite-datacenter/",
+    "https://carte.dcmag.fr/directory/data-17/",
+    "https://digitalbay.fr/data-center-vertueux/"
+  ],
+  "notes": "Uptime Institute lists DATA 17 DC01 in Saint-Jean-d'Angely; local and industry sources describe the Charente-Maritime facility as opened in October 2020 and focused on colocation, sovereignty and energy efficiency. Capacity not disclosed in MW.",
+  "world_batch": true
+}

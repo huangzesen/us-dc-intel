@@ -1,0 +1,21 @@
+{
+  "slug": "pl-google-cloud-warsaw-region-europe-central2",
+  "canonical_project": "Google Cloud Warsaw region europe-central2",
+  "owner": "Google Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-04-14",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/blog/products/infrastructure/google-cloud-region-in-warsaw-poland-is-now-open",
+    "https://docs.cloud.google.com/compute/docs/regions-zones"
+  ],
+  "notes": "Google Cloud official blog announced opening of the Warsaw region; current Google documentation lists Warsaw, Poland as europe-central2.",
+  "world_batch": true
+}

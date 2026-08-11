@@ -1,0 +1,22 @@
+{
+  "slug": "de-itenos-stuttgart-2-str2-boblingen-data-center",
+  "canonical_project": "ITENOS Stuttgart 2 / STR2 Böblingen data center",
+  "owner": "ITENOS GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Böblingen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 24,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://itenos.de/en/data-center-provider/data-center-germany/data-center-stuttgart/",
+    "https://itenos.de/en/data-center-provider/data-center-germany/data-center-stuttgart-2/",
+    "https://itenos.de/wp-content/uploads/2026/03/ITENOS-flyer-data-center-stuttgart-2.pdf"
+  ],
+  "notes": "ITENOS says its Böblingen STR2 data center currently has 1,600 sqm, expandable to 8,000 sqm and 24 MW at completion; page describes EN 50600 VK3 certification and 100% renewable power.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "de-telemaxx-ipc-4-karlsruhe",
+  "canonical_project": "TelemaxX IPC 4 Karlsruhe",
+  "owner": "TelemaxX Telekommunikation GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Karlsruhe (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telemaxx.de/services/rechenzentrum/datacenter/rechenzentren-der-telemaxx/ipc-4"
+  ],
+  "notes": "Operator lists IPC 4 as TelemaxX's largest data center, with 3,000 sqm data-center usable area, N+1 redundancy, 99.99% power/cooling availability and ISO/IEC 27001 colocation certification.",
+  "world_batch": true
+}

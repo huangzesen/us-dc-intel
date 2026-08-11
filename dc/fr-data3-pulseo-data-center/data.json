@@ -1,0 +1,22 @@
+{
+  "slug": "fr-data3-pulseo-data-center",
+  "canonical_project": "DATA3 Pulseo data center",
+  "owner": "DATA3 / Aditu",
+  "location": {
+    "city": "",
+    "subnational": "Landes",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/france/dax/",
+    "https://www.datacube-services.fr/pourquoi-le-datacenter-de-dax-sappelle-data%C2%B3/",
+    "https://carte.dcmag.fr/france-nouvelle-aquitaine/"
+  ],
+  "notes": "Dax facility at Pulseo, 1 Avenue de la Gare, described as a Tier III data center in production since 2013; DCmag map lists Aditu Data3 in Landes.",
+  "world_batch": true
+}

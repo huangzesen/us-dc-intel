@@ -1,0 +1,20 @@
+{
+  "slug": "fr-ultraedge-laval-datacenter",
+  "canonical_project": "UltraEdge Laval datacenter",
+  "owner": "UltraEdge",
+  "location": {
+    "city": "",
+    "subnational": "Mayenne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ultraedge.com/en/datacenter/laval"
+  ],
+  "notes": "UltraEdge lists a Laval datacenter offering local accommodation and dedicated infrastructure services; capacity not disclosed on the public page.",
+  "world_batch": true
+}

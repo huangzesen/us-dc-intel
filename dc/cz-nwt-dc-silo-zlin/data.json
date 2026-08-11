@@ -1,0 +1,21 @@
+{
+  "slug": "cz-nwt-dc-silo-zlin",
+  "canonical_project": "NWT DC Silo Zlin",
+  "owner": "ICT NWT s.r.o.",
+  "location": {
+    "city": "",
+    "subnational": "Zlin",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ictnwt.cz/produkty/datove-centrum-a-cloud/datove-centrum-silo/",
+    "https://www.datacentermap.com/czech-republic/zlin/nwt-dc-silo/"
+  ],
+  "notes": "NWT's official DC Silo page describes its data centre/cloud service for virtual machines, storage, backup and replication; DataCenterMap locates NWT DC Silo at tr. Tomase Bati 269 in Zlin.",
+  "world_batch": true
+}

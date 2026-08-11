@@ -1,0 +1,20 @@
+{
+  "slug": "ir-mizbanpack-poldokhtar-data-center",
+  "canonical_project": "MizbanPack Poldokhtar Data Center",
+  "owner": "Iranian Paya Cloud Computing / MizbanPack",
+  "location": {
+    "city": "",
+    "subnational": "Lorestan",
+    "country": "Iran, Islamic Republic of",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://mizbanpack.com/datacenter"
+  ],
+  "notes": "Provider page describes an operating data center in Poldokhtar, Lorestan, branded MizbanPack, with Tier III design claims, colocation/hosting use, redundant UPS/generator/chiller systems and biometric security.",
+  "world_batch": true
+}

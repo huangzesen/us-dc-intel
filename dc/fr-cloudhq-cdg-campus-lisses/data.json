@@ -1,0 +1,21 @@
+{
+  "slug": "fr-cloudhq-cdg-campus-lisses",
+  "canonical_project": "CloudHQ CDG Campus Lisses",
+  "owner": "CloudHQ",
+  "location": {
+    "city": "",
+    "subnational": "Essonne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 148.8,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloudhq.com/campus/cdg-campus/",
+    "https://www.datacenterdynamics.com/en/news/cloudhq-launches-data-center-campus-in-paris-france/"
+  ],
+  "notes": "CloudHQ official campus page says the Lisses CDG campus has two fully permitted 74.4 MW IT-load buildings powered by a new 225 kV on-site substation; DCD reported ground was broken in late 2022.",
+  "world_batch": true
+}

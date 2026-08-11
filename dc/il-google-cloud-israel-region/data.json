@@ -1,0 +1,20 @@
+{
+  "slug": "il-google-cloud-israel-region",
+  "canonical_project": "Google Cloud Israel region",
+  "owner": "Google Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Tel Aviv",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-10-20",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.timesofisrael.com/googles-first-local-cloud-region-for-israel-goes-live/"
+  ],
+  "notes": "Times of Israel reported Google's first local cloud region for Israel went live under Project Nimbus; exact datacenter locations and capacities are not public.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "mv-hdc-smartcom-container-data-centre",
+  "canonical_project": "HDC SmartCom Container Data Centre",
+  "owner": "Housing Development Corporation / SmartCom",
+  "location": {
+    "city": "",
+    "subnational": "Male",
+    "country": "Maldives",
+    "country_code": "MV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-03-17",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/hdc-launched-container-data-center-in-the-maldives/",
+    "https://psmnews.mv/en/118180"
+  ],
+  "notes": "HDC inaugurated a SmartCom-operated containerized data centre in Hulhumale Phase II to support smart-city/Open Access Network services; sources cite 99.9% availability, redundant cooling/battery backup, and an 80 kW backup generator, but no IT capacity.",
+  "world_batch": true
+}

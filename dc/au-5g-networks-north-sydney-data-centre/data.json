@@ -1,0 +1,22 @@
+{
+  "slug": "au-5g-networks-north-sydney-data-centre",
+  "canonical_project": "5G Networks North Sydney Data Centre",
+  "owner": "5G Networks Limited",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - North Sydney",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://wholesale.5gnetworks.au/data-centres/nsdc/",
+    "https://www.asx.com.au/asxpdf/20200212/pdf/44f0rrh95j5qb0.pdf",
+    "https://www.datacentermap.com/australia/sydney/north-sydney-datacentre/"
+  ],
+  "notes": "5GN Wholesale lists the North Sydney Data Centre at 39 Herbert Street, St Leonards with 1.5 MW of power availability and 150-rack capacity; 5GN's 2020 ASX release announced acquisition of the North Sydney data centre.",
+  "world_batch": true
+}

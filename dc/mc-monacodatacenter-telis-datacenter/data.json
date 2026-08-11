@@ -1,0 +1,23 @@
+{
+  "slug": "mc-monacodatacenter-telis-datacenter",
+  "canonical_project": "MonacoDATACENTER / Telis Datacenter",
+  "owner": "Telis Group",
+  "location": {
+    "city": "",
+    "subnational": "Monte-Carlo",
+    "country": "Monaco",
+    "country_code": "MC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telis.mc/development-and-innovation/",
+    "https://www.telis.mc/digital-solutions/it-systems/",
+    "https://www.actis.mc/monacodatacenter-obtains-iso-iec27001-certification/",
+    "https://datacenterplatform.com/data-centers/telis/"
+  ],
+  "notes": "Telis says MonacoDATACENTER was created in 2013 as Monaco's first green datacenter and reports 100% availability since inauguration. Telis/Actis sources note ISO 27001/HDS certification and seawater free-cooling. DataCenterPlatform lists Telis Datacenter at 14 Av. de Grande Bretagne, which is assigned here to Monte-Carlo. MW not disclosed.",
+  "world_batch": true
+}

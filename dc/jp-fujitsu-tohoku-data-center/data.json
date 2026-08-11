@@ -1,0 +1,21 @@
+{
+  "slug": "jp-fujitsu-tohoku-data-center",
+  "canonical_project": "Fujitsu Tohoku Data Center",
+  "owner": "Fujitsu",
+  "location": {
+    "city": "",
+    "subnational": "Miyagi",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.jdcc.or.jp/dclist/",
+    "https://www.fujitsu.com/jp/services/infrastructure/data-center-services/idc/"
+  ],
+  "notes": "JDCC registry lists Fujitsu's Tohoku Data Center in Sendai, Miyagi, opened 2004 and tier 3 equivalent. MW not disclosed.",
+  "world_batch": true
+}

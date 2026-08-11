@@ -1,0 +1,22 @@
+{
+  "slug": "gb-node4-derby-data-centre",
+  "canonical_project": "Node4 Derby Data Centre",
+  "owner": "Node4",
+  "location": {
+    "city": "",
+    "subnational": "England - Derby",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 2.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://node4.co.uk/our-services/cloud/data-centre-hosting/derby-data-centre",
+    "https://www.datacenters.com/node4-ltd-derby-data-centre",
+    "https://datacentresintheuk.com/dc/node4-derby-data-centre"
+  ],
+  "notes": "Node4 says its Derby data centre has 16,000 sq ft, four data halls, 330 rack capacity and Tier 2+ standard. Node4 lists 2.5 MVA power split across two buildings; third-party directory also reports 2.5 MW total power.",
+  "world_batch": true
+}

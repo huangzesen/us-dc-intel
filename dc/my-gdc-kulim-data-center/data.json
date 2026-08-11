@@ -1,0 +1,21 @@
+{
+  "slug": "my-gdc-kulim-data-center",
+  "canonical_project": "GDC Kulim Data Center",
+  "owner": "Global Data Centre Sdn Bhd / Maxland Bhd",
+  "location": {
+    "city": "",
+    "subnational": "Kedah",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": 45,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/gdc-sdn-kulim-kedah",
+    "https://baxtel.com/data-center/maxland-kulim"
+  ],
+  "notes": "Baxtel reports a proposed collaboration for a hyperscale data centre campus in Kulim Hi-Tech Park, Kedah, with 45MW cited.",
+  "world_batch": true
+}

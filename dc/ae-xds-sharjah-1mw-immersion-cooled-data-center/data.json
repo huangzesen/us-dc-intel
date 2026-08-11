@@ -1,0 +1,22 @@
+{
+  "slug": "ae-xds-sharjah-1mw-immersion-cooled-data-center",
+  "canonical_project": "XDS Sharjah 1MW immersion-cooled data center",
+  "owner": "XDS Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Sharjah - Sharjah",
+    "country": "United Arab Emirates",
+    "country_code": "AE"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2025-08-04",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/uae-based-xds-inaugurates-1mw-immersion-cooled-data-center/",
+    "https://baxtel.com/data-center/xds-sharjah",
+    "https://www.datacentermap.com/united-arab-emirates/dubai/xds-sharjah/"
+  ],
+  "notes": "DCD reported XDS inaugurated a 1 MW immersion-cooled colocation facility at Sharjah Research Technology and Innovation Park, intended for immediate AI workloads and as validation for larger multi-megawatt deployments.",
+  "world_batch": true
+}

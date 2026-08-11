@@ -1,0 +1,22 @@
+{
+  "slug": "gb-pulsant-fareham-se-5-data-centre",
+  "canonical_project": "Pulsant Fareham SE-5 data centre",
+  "owner": "Pulsant",
+  "location": {
+    "city": "",
+    "subnational": "England - Hampshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2025-04-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.pulsant.com/colocation-fareham-se5",
+    "https://www.datacenterdynamics.com/en/news/pulsant-acquires-two-data-centers-in-the-uk/",
+    "https://www.ocolo.io/colocation/pulsant/fareham-se-5/"
+  ],
+  "notes": "Pulsant acquired SCC's Fareham facility; public Pulsant page describes the south coast site between Portsmouth and Southampton, while Ocolo lists 3MW/84,820 sq ft.",
+  "world_batch": true
+}

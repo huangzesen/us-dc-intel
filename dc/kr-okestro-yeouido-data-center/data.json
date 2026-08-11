@@ -1,0 +1,21 @@
+{
+  "slug": "kr-okestro-yeouido-data-center",
+  "canonical_project": "Okestro Yeouido Data Center",
+  "owner": "Okestro / DC Korea",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Yeongdeungpo-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-korea/seoul/okestro-seoul/",
+    "https://www.datacentermap.com/south-korea/seoul/"
+  ],
+  "notes": "Data Center Map lists Okestro Yeouido at 108 Yeoui-daero. Baxtel search excerpt describes Okestro and DC Korea's Yeouido sovereign AI data center as 5 MW; capacity is directory-derived and should be treated as weak evidence.",
+  "world_batch": true
+}

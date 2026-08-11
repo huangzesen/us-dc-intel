@@ -1,0 +1,20 @@
+{
+  "slug": "ch-nlighten-geneva-edge-data-center",
+  "canonical_project": "nLighten Geneva edge data center",
+  "owner": "nLighten",
+  "location": {
+    "city": "",
+    "subnational": "Geneve",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": 9.6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nlighten.com/en/edge-location/geneva/"
+  ],
+  "notes": "nLighten's official Geneva page describes an operational high-availability edge data center in northeast Geneva, about 10 minutes from Geneva airport, with 5,595 m2 of dedicated colocation space and 9,600 kW of power.",
+  "world_batch": true
+}

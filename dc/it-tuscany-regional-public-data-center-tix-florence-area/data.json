@@ -1,0 +1,21 @@
+{
+  "slug": "it-tuscany-regional-public-data-center-tix-florence-area",
+  "canonical_project": "Tuscany regional public data center / TIX, Florence area",
+  "owner": "Regione Toscana; TIX",
+  "location": {
+    "city": "",
+    "subnational": "Tuscany",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tix.it/",
+    "https://www.regione.toscana.it/"
+  ],
+  "notes": "TIX and Regione Toscana provide regional digital, cloud and interconnection infrastructure.",
+  "world_batch": true
+}

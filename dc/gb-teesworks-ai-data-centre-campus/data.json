@@ -1,0 +1,22 @@
+{
+  "slug": "gb-teesworks-ai-data-centre-campus",
+  "canonical_project": "Teesworks AI data centre campus",
+  "owner": "Teesworks / South Tees Development Corporation; end user reported but not confirmed",
+  "location": {
+    "city": "",
+    "subnational": "England - Middlesbrough",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 1000,
+  "status": "approved",
+  "evidence_date": "2025-11-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/teesworks-data-center-gets-approved-despite-clash-with-bp-over-planned-hydrogen-plant/",
+    "https://teesbusiness.co.uk/2025/09/15/google-in-talks-over-landmark-teesworks-data-centre/",
+    "https://baxtel.com/data-center/teesworks-ai-data-center"
+  ],
+  "notes": "DCD reported outline planning permission for a Teesworks data centre despite conflict with BP hydrogen plans; public reporting describes a possible hyperscale/AI campus and Google talks, but end user was not confirmed. Capacity entered as 1GW based on widely reported >1GW/large-scale AI campus descriptions; treat as approximate.",
+  "world_batch": true
+}

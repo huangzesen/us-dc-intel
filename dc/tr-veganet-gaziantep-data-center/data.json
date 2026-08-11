@@ -1,0 +1,21 @@
+{
+  "slug": "tr-veganet-gaziantep-data-center",
+  "canonical_project": "Veganet Gaziantep Data Center",
+  "owner": "Veganet Teknoloji Hizmetleri",
+  "location": {
+    "city": "",
+    "subnational": "Gaziantep",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://peeringdb.com/fac/10633",
+    "https://www.veganet.com.tr/"
+  ],
+  "notes": "PeeringDB facility entry and company materials identify a Gaziantep data-center/network facility operated by Veganet; capacity not disclosed.",
+  "world_batch": true
+}

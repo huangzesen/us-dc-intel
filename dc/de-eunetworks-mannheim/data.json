@@ -1,0 +1,22 @@
+{
+  "slug": "de-eunetworks-mannheim",
+  "canonical_project": "euNetworks Mannheim",
+  "owner": "euNetworks Group Germany",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Mannheim",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/eunetworks-group/eunetworks-group-germany/eunetworks-mannheim/",
+    "https://dchub.cloud/facilities/eunetworks-group-eunetworks-colocation-mannheim-4ab79e44",
+    "https://eunetworks.com/services/colocation/"
+  ],
+  "notes": "DataCenterPlatform lists euNetworks Mannheim at Pfingstweidstrasse 16 with 400 sqm floorspace; DC Hub reports 3.0 MW and operational status; euNetworks official colocation page says it operates colocation in 18 German data centers.",
+  "world_batch": true
+}

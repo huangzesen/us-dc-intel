@@ -1,0 +1,21 @@
+{
+  "slug": "ua-serinix-dk01",
+  "canonical_project": "SerinIX DK01",
+  "owner": "SerinIX",
+  "location": {
+    "city": "",
+    "subnational": "Dnipropetrovsk",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/ukraine/dnipropetrovsk/serinix/dk01/",
+    "https://www.datacentermap.com/ukraine/dnipropetrovsk/"
+  ],
+  "notes": "DatacenterMap lists SerinIX DK01 in Dnipropetrovsk. No public MW capacity found.",
+  "world_batch": true
+}

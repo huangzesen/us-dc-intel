@@ -1,0 +1,21 @@
+{
+  "slug": "sg-microsoft-azure-woodlands",
+  "canonical_project": "Microsoft Azure Woodlands",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "North West",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/microsoft-azure-woodlands-singapore",
+    "https://local.microsoft.com/wp-content/uploads/2025/10/Microsoft-datacentres-in-Singapore.pdf"
+  ],
+  "notes": "Aggregate source places Microsoft Azure Woodlands at 1 Woodlands Industrial Park E9; Microsoft community PDF says Microsoft operates three datacentres in Singapore but does not publish site MW.",
+  "world_batch": true
+}

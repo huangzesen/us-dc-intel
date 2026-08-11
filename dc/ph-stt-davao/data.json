@@ -1,0 +1,21 @@
+{
+  "slug": "ph-stt-davao",
+  "canonical_project": "STT Davao",
+  "owner": "ST Telemedia Global Data Centres Philippines",
+  "location": {
+    "city": "",
+    "subnational": "Davao",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sttelemediagdc.com/ph-en/locations/davao",
+    "https://www.datacentermap.com/philippines/davao/stt-davao-dc-1/"
+  ],
+  "notes": "Official STT GDC location page lists a Davao City data centre directly connected to the SEA-US submarine cable system with 0.5 MW IT load.",
+  "world_batch": true
+}

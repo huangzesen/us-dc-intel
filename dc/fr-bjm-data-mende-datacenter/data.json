@@ -1,0 +1,20 @@
+{
+  "slug": "fr-bjm-data-mende-datacenter",
+  "canonical_project": "BJM Data Mende datacenter",
+  "owner": "BJM Data",
+  "location": {
+    "city": "",
+    "subnational": "Lozère",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-04-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://lozere.fr/sites/default/files/upload/03-amenagement-du-territoire/developpement-economique/documents/data_center_cl52.pdf"
+  ],
+  "notes": "Lozère departmental publication describes the first Lozère datacenter installed in Mende, operated by BJMData for secure archival, backup, storage and hosting services; equivalent Tier 3 level, capacity not disclosed.",
+  "world_batch": true
+}

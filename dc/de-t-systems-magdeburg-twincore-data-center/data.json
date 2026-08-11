@@ -1,0 +1,22 @@
+{
+  "slug": "de-t-systems-magdeburg-twincore-data-center",
+  "canonical_project": "T-Systems Magdeburg TwinCore Data Center",
+  "owner": "T-Systems / Deutsche Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Saxony-Anhalt - Magdeburg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.t-cloud-public.com/en/data-security-gdpr-cloud/data-centers",
+    "https://www.exyte.net/References/Twin-Core-Cloud-Data-Center-in-Magdeburg",
+    "https://www.connecteurope.org/news/laying-foundations-germanys-largest-data-center"
+  ],
+  "notes": "T Cloud Public states the German twin-core data center is located in Magdeburg and Biere; Exyte reference identifies the Magdeburg greenfield Twin-Core project with 7 x 1,200 m2 IT modules plus network facilities. Capacity not disclosed.",
+  "world_batch": true
+}

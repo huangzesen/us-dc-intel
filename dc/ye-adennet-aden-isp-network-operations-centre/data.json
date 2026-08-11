@@ -1,0 +1,22 @@
+{
+  "slug": "ye-adennet-aden-isp-network-operations-centre",
+  "canonical_project": "AdenNet (Aden ISP / network operations centre)",
+  "owner": "AdenNet (state-backed ISP of the internationally recognized government)",
+  "location": {
+    "city": "",
+    "subnational": "Aden",
+    "country": "Yemen",
+    "country_code": "YE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Internet_in_Yemen",
+    "https://www.ripe.net/membership/member-support/list-of-members/ye/adennet/",
+    "https://cyberscoop.com/yemen-civil-war-cyberwarfare-recorded-future-cyberwarcon/"
+  ],
+  "notes": "AdenNet is an ISP created in June 2018 by the internationally recognized (Hadi-era) government as an alternative to the Houthi-controlled YemenNet, headquartered in Aden and a RIPE member with its own network infrastructure in the city. It operates network/gateway and hosting infrastructure rather than a public commercial colocation datacenter; no public MW capacity found.",
+  "world_batch": true
+}

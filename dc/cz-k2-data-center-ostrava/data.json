@@ -1,0 +1,22 @@
+{
+  "slug": "cz-k2-data-center-ostrava",
+  "canonical_project": "K2 Data Center Ostrava",
+  "owner": "K2 atmitec s.r.o.",
+  "location": {
+    "city": "",
+    "subnational": "Moravia-Silesia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.k2.cz/en/services",
+    "https://www.k2.cz/o-nas",
+    "https://www.datacentermap.com/czech-republic/ostrava/"
+  ],
+  "notes": "K2 official pages state the company operates and offers data-center services from its Ostrava-Privoz site; DataCenterMap lists K2 Data Center at Koksarni 1097/7.",
+  "world_batch": true
+}

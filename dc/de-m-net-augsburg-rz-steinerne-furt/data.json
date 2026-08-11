@@ -1,0 +1,22 @@
+{
+  "slug": "de-m-net-augsburg-rz-steinerne-furt",
+  "canonical_project": "M-Net Augsburg RZ Steinerne Furt",
+  "owner": "M-net Telekommunikations GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Augsburg (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://international.eco.de/dcaudit/rz-steinerne-furt-m-net-telekommunikations-gmbh-augsburg/",
+    "https://www.datacentermap.com/germany/augsburg/m-net-augsburg-rz-steinerne-furt/",
+    "https://www.m-net.de/fileadmin/0_Allgemein/9_Hilfe_Service/Dokumente/Aktuell/ISO_27001_Zertifikat_Deutsch.pdf"
+  ],
+  "notes": "Eco DC audit identifies RZ Steinerne Furt in Augsburg; M-net's ISO certificate annex lists Rechenzentrum Steinerne Furt 65, 86167 Augsburg for high-availability data-center infrastructure.",
+  "world_batch": true
+}

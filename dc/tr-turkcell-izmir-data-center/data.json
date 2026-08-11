@@ -1,0 +1,22 @@
+{
+  "slug": "tr-turkcell-izmir-data-center",
+  "canonical_project": "Turkcell Izmir Data Center",
+  "owner": "Turkcell",
+  "location": {
+    "city": "",
+    "subnational": "Izmir",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://apnews.com/article/technology-europe-middle-east-turkey-binali-yildirim-d0c523ebb61d4e1bb3c1610aa93d9bf5",
+    "https://www.datacenterdynamics.com/en/news/turkcell-launches-izmir-data-center/",
+    "https://www.altensis.com/en/project/turkcell-izmir-datacenter/"
+  ],
+  "notes": "Turkcell Izmir Data Center inaugurated 22 June 2017 with Prime Minister Yildirim; first and only Tier III-certified data center in the Aegean region, ~17,600 sqm indoor area (LEED Gold candidate), supporting local data residency ('Turkey's data stays in Turkey'). No public MW figure; part of Turkcell's 8-DC network (41.5 MW total).",
+  "world_batch": true
+}

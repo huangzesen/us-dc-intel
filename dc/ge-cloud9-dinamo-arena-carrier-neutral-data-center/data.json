@@ -1,0 +1,22 @@
+{
+  "slug": "ge-cloud9-dinamo-arena-carrier-neutral-data-center",
+  "canonical_project": "Cloud9 Dinamo Arena carrier-neutral data center",
+  "owner": "Cloud9 LLC",
+  "location": {
+    "city": "",
+    "subnational": "Tbilisi",
+    "country": "Georgia",
+    "country_code": "GE"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud9.ge/en/data-center/",
+    "https://cloud9.ge/",
+    "https://www.datacentermap.com/georgia/tbilisi/cloud9-dc/"
+  ],
+  "notes": "Cloud9 says most services are delivered from its own Tbilisi-based carrier-neutral data center at Dinamo Stadium/2 Akaki Tsereteli Ave., designed and built to Tier III requirements with 3 independent power substations, backup generator, N+N power feeds, and 250 Gbps interconnection capacity. Data Center Map lists the Cloud9 Dinamo Arena site in Tbilisi and reports 0.5 MW.",
+  "world_batch": true
+}

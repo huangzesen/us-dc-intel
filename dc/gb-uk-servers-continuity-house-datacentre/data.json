@@ -1,0 +1,22 @@
+{
+  "slug": "gb-uk-servers-continuity-house-datacentre",
+  "canonical_project": "UK Servers Continuity House Datacentre",
+  "owner": "UK Servers",
+  "location": {
+    "city": "",
+    "subnational": "England - Coventry",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ukservers.com/our-datacentre/",
+    "https://blog.resellerspanel.com/web-hosting-platform/upcoming-data-center-migration-for-all-uk-services.html",
+    "https://www.whtop.com/review/ukservers.com"
+  ],
+  "notes": "UK Servers says Continuity House in Coventry opened at the start of 2023 after a ground-up build, with 20,000 sq ft, initial 300 racks, 3 MW onsite power from diverse 11 kV supplies and 4 MW backup generation.",
+  "world_batch": true
+}

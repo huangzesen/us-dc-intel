@@ -1,0 +1,21 @@
+{
+  "slug": "au-polaris-data-centre",
+  "canonical_project": "Polaris Data Centre",
+  "owner": "Springfield City Group / Polaris Data Centre",
+  "location": {
+    "city": "",
+    "subnational": "Queensland - Ipswich",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.polarisdatacentre.com.au/",
+    "https://www.springfieldcity.com.au/our-precincts/innovation/polaris-data-centre/"
+  ],
+  "notes": "Queensland's largest data centre, located at Springfield Central in the Ipswich LGA; Springfield City Group says it developed Polaris at a cost of A$275m. Public pages describe N+2 high-availability design and carrier-neutral connectivity, but do not publish MW capacity.",
+  "world_batch": true
+}

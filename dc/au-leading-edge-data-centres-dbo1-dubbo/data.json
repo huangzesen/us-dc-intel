@@ -1,0 +1,22 @@
+{
+  "slug": "au-leading-edge-data-centres-dbo1-dubbo",
+  "canonical_project": "Leading Edge Data Centres DBO1 Dubbo",
+  "owner": "Leading Edge Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Dubbo",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 0.75,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://leadingedgedc.com/dc_location/dubbo/",
+    "https://leadingedgedc.com/news_post/ledc-dubbo-data-centre-progress-update/",
+    "https://leadingedgedc.com/news_post/leading-edge-data-centres-plans-11m-dubbo-development/"
+  ],
+  "notes": "LEDC's current location page lists DBO1 in Dubbo with 750kW total site capacity, 580 m2 available, Tier III design, 375kW IT load capacity per module, dark fibre to the Dubbo NBN POI, and cloud on-ramps. LEDC announced in 2021 that the Jannali Road facility was being built, after an $11m development application.",
+  "world_batch": true
+}

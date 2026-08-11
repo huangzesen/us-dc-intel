@@ -1,0 +1,20 @@
+{
+  "slug": "cf-eccas-pida-pap2-central-african-republic-data-center",
+  "canonical_project": "ECCAS / PIDA PAP2 Central African Republic Data Center",
+  "owner": "ECCAS / PIDA / Government of Central African Republic",
+  "location": {
+    "city": "",
+    "subnational": "Bangui",
+    "country": "Central African Republic",
+    "country_code": "CF"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2025-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.oecd.org/en/publications/2025/10/africa-s-development-dynamics-2025_d153f2a8/full-report/infrastructure-and-productive-transformation-in-central-africa_46f19eb4.html"
+  ],
+  "notes": "OECD's Africa's Development Dynamics 2025 states that data centers are a priority in the 2019 ECCAS electronic-communications infrastructure master plan, with a USD 92.5 million PIDA PAP2 initiative for six new data centers including one in the Central African Republic. Public material found in this run did not identify a subnational site; Bangui is inferred as the likely national hub.",
+  "world_batch": true
+}

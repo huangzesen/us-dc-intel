@@ -1,0 +1,21 @@
+{
+  "slug": "bf-ipsys-telecom-datacenter",
+  "canonical_project": "IPSyS TELECOM DATACENTER",
+  "owner": "IPSyS TELECOM",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Burkina Faso",
+    "country_code": "BF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/ipsys-telecom/ipsys-telecom-datacenter/",
+    "https://datacenterplatform.com/countries/burkina-faso/"
+  ],
+  "notes": "IPSyS TELECOM operates a datacenter in Ouagadougou oriented to telecom services, per DataCenterPlatform's Burkina Faso directory (one facility). Capacity and year not published.",
+  "world_batch": true
+}

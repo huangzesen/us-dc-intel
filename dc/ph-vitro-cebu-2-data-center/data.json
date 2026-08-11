@@ -1,0 +1,22 @@
+{
+  "slug": "ph-vitro-cebu-2-data-center",
+  "canonical_project": "VITRO Cebu 2 Data Center",
+  "owner": "VITRO / ePLDT / PLDT Group",
+  "location": {
+    "city": "",
+    "subnational": "Central Visayas",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 12.3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vitrodc.com/data-centers/data-center-sites/",
+    "https://www.gmanetwork.com/news/money/companies/653810/pldt-group-launches-2nd-vitro-data-center-in-cebu/story/",
+    "https://www.datacentermap.com/philippines/cebu/epldt-vitro-cebu-2/"
+  ],
+  "notes": "Mandaue City facility; VITRO site describes Cebu 2 as the biggest purpose-built data center outside Luzon with 6,082 sqm colocation space and 12.3 MW total IT power.",
+  "world_batch": true
+}

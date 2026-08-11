@@ -1,0 +1,22 @@
+{
+  "slug": "sz-mtn-eswatini-matsapha-data-centre",
+  "canonical_project": "MTN Eswatini Matsapha Data Centre",
+  "owner": "MTN Eswatini",
+  "location": {
+    "city": "",
+    "subnational": "Manzini",
+    "country": "Eswatini",
+    "country_code": "SZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.mtn.co.sz/business/solution/co-location-and-hosting/",
+    "https://datacenterplatform.com/countries/eswatini/",
+    "https://data-landscapers.com/lab/2026/06/10/africa-data-centres-v2/"
+  ],
+  "notes": "Directory and Africa data-centre inventory sources list an MTN Eswatini data centre in Matsapha; MTN Eswatini official materials confirm co-location and hosting services, but public capacity details were not found.",
+  "world_batch": true
+}

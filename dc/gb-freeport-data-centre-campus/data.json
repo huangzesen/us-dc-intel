@@ -1,0 +1,22 @@
+{
+  "slug": "gb-freeport-data-centre-campus",
+  "canonical_project": "Freeport Data Centre Campus",
+  "owner": "Apatura",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - West Lothian",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 250,
+  "status": "planned",
+  "evidence_date": "2025-06-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://consult.apatura.energy/freeport",
+    "https://consult.apatura.energy/freeport/the-project",
+    "https://aprs.scot/freeport-dc/"
+  ],
+  "notes": "Apatura consultation materials describe a proposed 250 MW sustainably designed data campus plus 250 MW BESS at Freeport Leisure Village/Westwood, north west of West Calder in West Lothian; APRS cites PAC 0625/PAC/25.",
+  "world_batch": true
+}

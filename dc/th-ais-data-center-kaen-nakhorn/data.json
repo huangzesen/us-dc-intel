@@ -1,0 +1,22 @@
+{
+  "slug": "th-ais-data-center-kaen-nakhorn",
+  "canonical_project": "AIS Data Center Kaen Nakhorn",
+  "owner": "Advanced Info Service / AIS Data Center",
+  "location": {
+    "city": "",
+    "subnational": "Khon Kaen",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ais.th/en/business/enterprise/technology-and-solution/cloud-and-data-center/ais-data-center/ais-data-center",
+    "https://www.ais.th/content/dam/ais/business/pdf/ais-data-center-earthquake-incident-report-29032568-en.pdf",
+    "https://baxtel.com/data-center/ais-kaen-nakhorn"
+  ],
+  "notes": "AIS's official data center page lists AIS Data Center Kaen Nakhorn (Khon Kaen) as a standard data center supporting northeastern-region organizations; AIS's March 29, 2025 incident report also lists the facility among active AIS data centers. MW capacity not disclosed.",
+  "world_batch": true
+}

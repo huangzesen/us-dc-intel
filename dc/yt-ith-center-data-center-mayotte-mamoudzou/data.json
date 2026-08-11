@@ -1,0 +1,24 @@
+{
+  "slug": "yt-ith-center-data-center-mayotte-mamoudzou",
+  "canonical_project": "ITH Center Data Center Mayotte (Mamoudzou)",
+  "owner": "ITH SAS (Information Technology Hosting)",
+  "location": {
+    "city": "",
+    "subnational": "Mayotte",
+    "country": "Mayotte",
+    "country_code": "YT"
+  },
+  "capacity_mw": 1.2,
+  "status": "operational",
+  "evidence_date": "2025-03-23",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.mayottehebdo.com/actualite/numerique/mayotte-dote-premier-data-center/",
+    "https://www.zinfos974.com/pour-accompagner-sa-digitalisation-mayotte-sest-dotee-dun-data-center/",
+    "https://www.cce-ingenierie.fr/projet/mamoudzou-data-center-ith/",
+    "https://la1ere.franceinfo.fr/mayotte/test-grandeur-nature-reussi-pour-le-data-center-de-mayotte-face-a-chido-1572268.html",
+    "https://www.ith.yt/"
+  ],
+  "notes": "Mayotte's first and only data center (France TV Info March 2025 calls it 'l'unique data center de Mayotte'); opened October 2022 in Mamoudzou near the Centre Hospitalier de Mayotte. Tier III design, ~80 racks (196-bay design capacity and 2 x (3 x 200) kVA ~1.2 MW IT power per engineering consultant CCE Ingenierie), 215 m2 white space, PUE 1.5 target. ~EUR 10M investment supported by Banque des Territoires/Caisse des Depots (EUR 1.35M), Conseil departemental (EUR 0.5M), FEDER (EUR 1.7M), AFD and Credit Agricole loan. ~30 initial clients incl. CHM, Mamoudzou town hall, Departmental Council, SIM and Tetrama. Proved resilient during Cyclone Chido (Dec 2024); interior undamaged, operations continued.",
+  "world_batch": true
+}

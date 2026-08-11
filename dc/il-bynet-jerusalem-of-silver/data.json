@@ -1,0 +1,20 @@
+{
+  "slug": "il-bynet-jerusalem-of-silver",
+  "canonical_project": "Bynet Jerusalem of Silver",
+  "owner": "Bynet Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Yerushalayim",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bynetdcs.co.il/"
+  ],
+  "notes": "Bynet official site lists Jerusalem of Silver at 320 racks, 1MW, 1,400 sqm, Tier 3.",
+  "world_batch": true
+}

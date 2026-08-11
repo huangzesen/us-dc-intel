@@ -1,0 +1,21 @@
+{
+  "slug": "nl-cellnex-goes-edge-datacenter",
+  "canonical_project": "Cellnex Goes edge datacenter",
+  "owner": "Cellnex Netherlands",
+  "location": {
+    "city": "",
+    "subnational": "Zeeland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 1.05,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cellnex.com/nl-en/technology/edge-datacentres/",
+    "https://www.datacentermap.com/the-netherlands/goes/"
+  ],
+  "notes": "Official Cellnex edge datacentres page lists datacenter services in 24 Dutch telecom/data towers and features datacenter Goes with 550 m2 total surface area and 1050 kVA total capacity; Data Center Map corroborates Goes tower location.",
+  "world_batch": true
+}

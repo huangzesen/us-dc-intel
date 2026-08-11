@@ -1,0 +1,21 @@
+{
+  "slug": "se-ecodatacenter-2-borlange",
+  "canonical_project": "EcoDataCenter 2 Borlange",
+  "owner": "EcoDataCenter",
+  "location": {
+    "city": "",
+    "subnational": "Dalarna",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": 600,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ecodatacenter.tech/data-center/ecodatacenter2",
+    "https://www.datacenterdynamics.com/en/news/ecodatacenter-breaks-ground-on-borl%C3%A4nge-sweden-data-center/"
+  ],
+  "notes": "EcoDataCenter official page lists the Borlange site as up to 600 MW with construction start in 2025 and first phase due mid-2027; trade press reported the 2025 groundbreaking.",
+  "world_batch": true
+}

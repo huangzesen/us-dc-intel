@@ -1,0 +1,20 @@
+{
+  "slug": "rs-orion-telekom-belgrade-data-center",
+  "canonical_project": "Orion Telekom Belgrade Data Center",
+  "owner": "Orion Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Belgrade",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/sbb-telepark-belgrade"
+  ],
+  "notes": "Baxtel nearby-facility listing identifies Orion Telekom's Belgrade data center at Naselje Zemun Polje, Mala pruga 8 as a Tier 3 facility designed by Schneider Electric and built by Enel-PS.",
+  "world_batch": true
+}

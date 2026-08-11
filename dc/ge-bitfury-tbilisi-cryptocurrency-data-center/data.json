@@ -1,0 +1,21 @@
+{
+  "slug": "ge-bitfury-tbilisi-cryptocurrency-data-center",
+  "canonical_project": "Bitfury Tbilisi cryptocurrency data center",
+  "owner": "Bitfury Group",
+  "location": {
+    "city": "",
+    "subnational": "Tbilisi",
+    "country": "Georgia",
+    "country_code": "GE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/bitfury-tbilisi",
+    "https://www.sunbirddcim.com/blog/whats-best-pue-ratio-for-data-centers"
+  ],
+  "notes": "Baxtel lists Bitfury Tbilisi as a fully operational facility in Tbilisi and identifies Bitfury Group as a bitcoin miner with two facilities and 73 MW across its markets, but facility-level MW is paywalled/undisclosed. Secondary technical discussion references Bitfury's Tbilisi data center and its immersion-cooling efficiency.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "hr-pck-datacross-kriz",
+  "canonical_project": "PCK-DataCross Kriz",
+  "owner": "Podatkovni centar Kriz / DataCross",
+  "location": {
+    "city": "",
+    "subnational": "Zagreb County",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pck.hr/en/pocetna/data-centar-jastrebarsko/",
+    "https://pck.hr/datacross-jastrebarsko-u-brojkama/",
+    "https://www.datacentermap.com/croatia/zagreb/pck-kriz/"
+  ],
+  "notes": "PCK's own site lists a second Kriz data center with construction in planning, up to 1,600 m2 IT space, 99.995% / Tier 4 SLA target, two Zagreb optical nodes, CIX/VIX connectivity, and a location 50 km from Zagreb in a different seismic area. DatacenterMap lists the Kriz industrial-zone site and notes presale/rental of server-room floors; no official MW value was found.",
+  "world_batch": true
+}

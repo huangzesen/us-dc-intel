@@ -1,0 +1,21 @@
+{
+  "slug": "cn-china-mobile-intelligent-computing-center-harbin-national-node",
+  "canonical_project": "China Mobile Intelligent Computing Center (Harbin National Node)",
+  "owner": "China Mobile Heilongjiang",
+  "location": {
+    "city": "",
+    "subnational": "Heilongjiang - Harbin Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-12-07",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.cls.cn/detail/1882224",
+    "https://www.hlj.gov.cn/hljapp/c116061/202512/c00_31895203.shtml"
+  ],
+  "notes": "CLS and Heilongjiang government coverage report the Harbin national node is in operation with 6.93 EFLOPS / 6,930P computing power, over 18,000 AI accelerator cards, RMB 12 billion planned investment and 70,000 planned racks across 18 computer-room buildings.",
+  "world_batch": true
+}

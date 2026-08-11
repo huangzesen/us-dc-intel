@@ -1,0 +1,21 @@
+{
+  "slug": "in-ctrls-patna-edge-dc-1",
+  "canonical_project": "CtrlS Patna Edge DC 1",
+  "owner": "CtrlS Datacenters Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Bihar - Patna",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ctrls.com/patna-datacenter/",
+    "https://economictimes.indiatimes.com/tech/technology/ctrls-launches-data-centre-park-in-chennai-with-rs-4000-crore-direct-and-rs-50000-crore-indirect-investments/articleshow/118550746.cms"
+  ],
+  "notes": "CtrlS official Patna page lists the Patna Edge DC 1 facility with 109 racks and 0.50 MW IT load, carrier neutral; CtrlS executives confirmed edge datacentre operations are live in Patna (one of CtrlS's tier-2 edge locations alongside Lucknow). Capacity and existence from official company page.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "ga-airtel-libreville-data-center",
+  "canonical_project": "Airtel Libreville Data Center",
+  "owner": "Airtel Gabon",
+  "location": {
+    "city": "",
+    "subnational": "Estuary",
+    "country": "Gabon",
+    "country_code": "GA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/rue-pecqueur-libreville/airtel/datacenter/libreville",
+    "https://www.datacenterjournal.com/data-centers/gabon/libreville/gabix-pop-ace/"
+  ],
+  "notes": "Colocation/network facility at Rue Pecqueur, Libreville, listed by Inflect; DataCenterJournal lists Airtel Gabon as a nearby Libreville data center. Capacity not publicly disclosed.",
+  "world_batch": true
+}

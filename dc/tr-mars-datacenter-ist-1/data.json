@@ -1,0 +1,21 @@
+{
+  "slug": "tr-mars-datacenter-ist-1",
+  "canonical_project": "Mars Datacenter IST-1",
+  "owner": "Mars Datacenter",
+  "location": {
+    "city": "",
+    "subnational": "Istanbul",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/turkey/mars-datacenter-ist-1",
+    "https://marsdatacenter.com/"
+  ],
+  "notes": "Mars Datacenter IST-1, an Istanbul colocation facility prepared to TS EN 50600 (Turkey's data center operations standard) with energy-efficiency-compliant hosting; listed in Data Center Catalog (Energy Star certified listing). Capacity not published.",
+  "world_batch": true
+}

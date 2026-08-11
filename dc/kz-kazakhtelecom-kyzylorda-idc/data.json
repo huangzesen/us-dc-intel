@@ -1,0 +1,21 @@
+{
+  "slug": "kz-kazakhtelecom-kyzylorda-idc",
+  "canonical_project": "Kazakhtelecom Kyzylorda IDC",
+  "owner": "JSC Kazakhtelecom",
+  "location": {
+    "city": "",
+    "subnational": "Kyzylorda",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/kazakhstan/kyzylorda/kazakhtelecom-kyzylorda/",
+    "https://kase.kz/en/information/news/show/1112896/"
+  ],
+  "notes": "Data Center Map lists Kazakhtelecom Kyzylorda at Ayteke Bi Street 13; KASE's 2010 Kazakhtelecom issuer news said Kyzylorda was among the Kazakhtelecom Internet data centers already operating at that time. Capacity not disclosed.",
+  "world_batch": true
+}

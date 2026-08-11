@@ -1,0 +1,21 @@
+{
+  "slug": "pl-wbs-power-baltic-data-center-campus-lublewo-choczewo",
+  "canonical_project": "WBS Power Baltic Data Center Campus, Lublewo/Choczewo",
+  "owner": "WBS Power S.A.",
+  "location": {
+    "city": "",
+    "subnational": "Pomerania",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 3200,
+  "status": "planned",
+  "evidence_date": "2026-03-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.prnewswire.com/news-releases/wbs-power-advances-3-2-gw-energy-infrastructure-for-hyperscale-data-center-campus-302719788.html",
+    "https://www.datacenterdynamics.com/en/news/gigawatt-scale-data-center-planned-for-choczewo-poland/"
+  ],
+  "notes": "Company release says a hyperscale campus named Baltic Data Center Campus will be developed in Lublewo, Choczewo municipality, Pomerania, with target capacity 3.2 GW, secured grid-connection conditions, four 800 MW phases, preparatory work through 2027, and first data center expected around 2028-2029.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "nc-stratos-noumea-tier-3-data-center",
+  "canonical_project": "Stratos Noumea Tier 3+ data center",
+  "owner": "Stratos NC",
+  "location": {
+    "city": "",
+    "subnational": "New Caledonia",
+    "country": "New Caledonia",
+    "country_code": "NC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-06-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.stratos.nc/",
+    "https://www.stratos.nc/datacenter-noumea/",
+    "https://siteinternet.nc/hebergement-souverain-noumea/"
+  ],
+  "notes": "Stratos markets a local Noumea Tier 3/Tier 3+ infrastructure for sovereign cloud, server hosting, backup, and managed services, with 99.98% availability claims and local NC data residency. Source pages are operator-owned; no MW capacity disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "id-neutradc-serpong",
+  "canonical_project": "NeutraDC Serpong",
+  "owner": "NeutraDC / PT Telkom Data Ekosistem",
+  "location": {
+    "city": "",
+    "subnational": "Banten",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": 14,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.neutradc.com/data-center/jakarta-hq",
+    "https://www.ocolo.io/colocation/neutradc/serpong/"
+  ],
+  "notes": "NeutraDC's official location page lists Serpong, South Tangerang with up to 14 MW IT load; OCOLO corroborates the Banten location and 14 MW capacity.",
+  "world_batch": true
+}

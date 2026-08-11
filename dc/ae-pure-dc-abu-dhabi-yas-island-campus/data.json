@@ -1,0 +1,22 @@
+{
+  "slug": "ae-pure-dc-abu-dhabi-yas-island-campus",
+  "canonical_project": "Pure DC Abu Dhabi / Yas Island campus",
+  "owner": "Pure Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Abu Dhabi - Abu Dhabi Municipality",
+    "country": "United Arab Emirates",
+    "country_code": "AE"
+  },
+  "capacity_mw": 48.0,
+  "status": "operational",
+  "evidence_date": "2024-06-03",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pure-dc.com/locations/abu-dhabi/",
+    "https://www.datacenterdynamics.com/en/news/pure-dc-launches-abu-dhabi-data-center/",
+    "https://www.datacenterdynamics.com/en/news/pure-dc-files-for-planning-permission-for-another-abu-dhabi-data-center/"
+  ],
+  "notes": "Pure DC's Abu Dhabi location page describes a UAE data center campus; DCD reported the 4 MW first phase launched in 2024 and later planning filings for a second 48 MW facility on Yas Island. Capacity records the planned second facility where public MW detail is available.",
+  "world_batch": true
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "cg-national-data-centre-datacenter-national-du-congo",
+  "canonical_project": "National Data Centre (Datacenter national du Congo)",
+  "owner": "Government of Republic of Congo / Central African Backbone (CAB) project, co-financed by African Development Bank (AfDB EUR 52.47M) and Congo government (EUR 14.50M); ~EUR 13.8M allocated for the data centre itself",
+  "location": {
+    "city": "",
+    "subnational": "Brazzaville",
+    "country": "Congo",
+    "country_code": "CG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.afdb.org/fr/news-and-events/congo-le-nouveau-datacenter-finance-par-la-banque-africaine-de-developpement-va-consacrer-la-souverainete-numerique-du-pays-et-de-la-sous-region-70845",
+    "https://www.digitalbusiness.africa/congo-le-datacenter-national-operationnel-dici-mai-2026-selon-le-president-de-la-bad/",
+    "https://developingtelecoms.com/telecom-technology/data-centres-networks/16726-new-brazzaville-data-centre-due-by-end-of-year-says-adb.html",
+    "https://www.africa-press.net/congo-brazzaville/economie/infrastructures-numeriques-inauguration-datacenter-national",
+    "https://energyconferencenetwork.swoogo.com/CEMACSummit26?lang=fr"
+  ],
+  "notes": "National sovereign data centre in Bacongo district, Brazzaville (former UAPT site), 3-storey building with basement (server rooms, control/supervision, meeting/conference, energy & cooling). Tier III+ per Digital Business Africa; part of CAB programme incl. 600 km of fibre to Cameroon (341 km) and CAR (281 km) via Congo River. Construction started 2024 (civil works ~60% May 2024, >90% Aug 2025); AfDB president visit Feb 2026 with operationalisation targeted by May 2026; reported put into service as first sovereign national data centre in Central Africa in 2026 (EMAC summit page). Capacity (MW) not published; separate small government data centre (54 racks/156 sqm) exists in Pointe-Noire (different department).",
+  "world_batch": true
+}

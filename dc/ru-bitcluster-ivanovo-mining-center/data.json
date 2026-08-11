@@ -1,0 +1,21 @@
+{
+  "slug": "ru-bitcluster-ivanovo-mining-center",
+  "canonical_project": "BitCluster Ivanovo mining center",
+  "owner": "BitCluster",
+  "location": {
+    "city": "",
+    "subnational": "Ivanovo",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-centers/bitcluster",
+    "https://bitcluster.com/"
+  ],
+  "notes": "Baxtel reports BitCluster operates mining centers in Saransk and Ivanovo collectively hosting more than 2,870 ASIC miners in 20 containers; capacity split for Ivanovo not disclosed.",
+  "world_batch": true
+}

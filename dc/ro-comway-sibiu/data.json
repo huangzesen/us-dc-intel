@@ -1,0 +1,21 @@
+{
+  "slug": "ro-comway-sibiu",
+  "canonical_project": "Comway Sibiu",
+  "owner": "Comway Telecommunication SRL",
+  "location": {
+    "city": "",
+    "subnational": "Sibiu",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://dchub.cloud/facilities/comway-telecommunication-srl-comway-sibiu-0aa7ce7e",
+    "https://datacenterplatform.com/data-centers/comway-telecommunication-srl/comway-sibiu/"
+  ],
+  "notes": "DC Hub reports Comway Sibiu as operational with 3.0 MW power capacity; Data Center Platform lists the facility at Reconstructiei 39, Sibiu.",
+  "world_batch": true
+}

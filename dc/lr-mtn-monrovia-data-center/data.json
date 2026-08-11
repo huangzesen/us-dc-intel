@@ -1,0 +1,20 @@
+{
+  "slug": "lr-mtn-monrovia-data-center",
+  "canonical_project": "MTN Monrovia Data Center",
+  "owner": "MTN / Lonestar Cell MTN",
+  "location": {
+    "city": "",
+    "subnational": "Montserrado",
+    "country": "Liberia",
+    "country_code": "LR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/countries/liberia/"
+  ],
+  "notes": "Datacenterplatform lists Liberia with one data center and identifies MTN Monrovia as the most connected/largest site. Capacity and exact address not disclosed; treated as aggregate-directory evidence.",
+  "world_batch": true
+}

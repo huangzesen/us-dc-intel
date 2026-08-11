@@ -1,0 +1,22 @@
+{
+  "slug": "nl-ocix-sint-maarten-open-caribbean-internet-exchange-facility",
+  "canonical_project": "OCIX Sint Maarten / Open Caribbean Internet Exchange facility",
+  "owner": "OCIX",
+  "location": {
+    "city": "",
+    "subnational": "Sint Maarten",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/unknown-1-sint-maarten/ocix/datacenter/3-habour-view-philipsburg",
+    "https://pulse.internetsociety.org/en/ixp-tracker/ixp/158/",
+    "https://www.peeringdb.com/ix/260"
+  ],
+  "notes": "Inflect lists an OCIX datacenter at Falcon Drive / 3 Harbour View, Philipsburg with 1.0 MW and N+1 power; Internet Society and PeeringDB corroborate OCIX in Philipsburg at 3 Habour View, active IXP, but not the MW.",
+  "world_batch": true
+}

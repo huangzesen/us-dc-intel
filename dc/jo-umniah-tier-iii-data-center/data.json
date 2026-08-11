@@ -1,0 +1,20 @@
+{
+  "slug": "jo-umniah-tier-iii-data-center",
+  "canonical_project": "Umniah Tier III Data Center",
+  "owner": "Umniah",
+  "location": {
+    "city": "",
+    "subnational": "Amman",
+    "country": "Jordan",
+    "country_code": "JO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.umniah.com/datacenter.php"
+  ],
+  "notes": "Company page describes a Tier III design and facility certified data center located in the center of Amman, connected to four other data centers for high availability.",
+  "world_batch": true
+}

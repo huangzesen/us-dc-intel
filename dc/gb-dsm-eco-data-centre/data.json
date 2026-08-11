@@ -1,0 +1,21 @@
+{
+  "slug": "gb-dsm-eco-data-centre",
+  "canonical_project": "DSM Eco Data Centre",
+  "owner": "DSM Group / MyHostingSpace",
+  "location": {
+    "city": "",
+    "subnational": "England - Peterborough",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2024-10-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.itpro.com/infrastructure/data-centres/dsm-group-opens-green-data-center-in-peterborough",
+    "https://www.datacentermap.com/united-kingdom/peterborough/dsm-group/"
+  ],
+  "notes": "DSM Group opened/expanded an eco data centre in Peterborough in 2024; DataCenterMap lists 1MW IT load and 4,000 sq ft total facility.",
+  "world_batch": true
+}

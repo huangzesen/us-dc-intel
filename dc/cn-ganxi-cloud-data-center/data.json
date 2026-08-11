@@ -1,0 +1,20 @@
+{
+  "slug": "cn-ganxi-cloud-data-center",
+  "canonical_project": "Ganxi Cloud Data Center",
+  "owner": "Yichun / Yiyang New Area data-center operator (not fully specified in source)",
+  "location": {
+    "city": "",
+    "subnational": "Jiangxi - Yichun Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-05-01",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.sohu.com/a/1015680833_120702"
+  ],
+  "notes": "Local-media article describes the Ganxi Cloud Data Center in Yichun/Yiyang New Area as upgraded from storage to computing/AI services, with more than 15 PFLOPS intelligent compute and over 11 PB storage as of 2025-10 reporting cited by the article.",
+  "world_batch": true
+}

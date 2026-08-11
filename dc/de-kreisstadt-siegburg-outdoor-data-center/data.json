@@ -1,0 +1,20 @@
+{
+  "slug": "de-kreisstadt-siegburg-outdoor-data-center",
+  "canonical_project": "Kreisstadt Siegburg outdoor data center",
+  "owner": "Kreisstadt Siegburg / Data Center Group",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Rhein-Sieg-Kreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-12-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datacenter-group.com/fileadmin/user_upload/DC-Mag-Ausgabe-18-DE_web_komp.pdf"
+  ],
+  "notes": "Data Center Group's DC Mag reference describes an outdoor/container data center implemented for Kreisstadt Siegburg on the fire and rescue station site, completed in about six months and maintained by Data Center Group.",
+  "world_batch": true
+}

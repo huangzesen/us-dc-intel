@@ -1,0 +1,21 @@
+{
+  "slug": "fr-cogent-data-center-tours",
+  "canonical_project": "Cogent Data Center - Tours",
+  "owner": "Cogent Communications",
+  "location": {
+    "city": "",
+    "subnational": "Indre-et-Loire",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 0.4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.cogentco.com/en/network/service-locations?action=search&city=&continent=&country=France&metro=&site_type=CDC&state=",
+    "https://www.datacentermap.com/france/tours/cogent-tours/specs/"
+  ],
+  "notes": "Cogent's service-location list identifies the Tours data center at 171 Rue des Douets; Data Center Map lists 0.4 MW live/fully built-out power and 450 sq m whitespace.",
+  "world_batch": true
+}

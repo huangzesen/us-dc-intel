@@ -1,0 +1,21 @@
+{
+  "slug": "es-ingenostrum-cc-green-caceres-data-center",
+  "canonical_project": "Ingenostrum CC Green Caceres data center",
+  "owner": "Ingenostrum / TLM Group",
+  "location": {
+    "city": "",
+    "subnational": "Extremadura",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": 150,
+  "status": "planned",
+  "evidence_date": "2021-09-08",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/ingenostrum-to-build-150mw-data-center-in-c%C3%A1ceres-spain/",
+    "https://www.datacentermap.com/spain/caceres/nostrum-cceres-campus/"
+  ],
+  "notes": "Early Extremadura hyperscale project in Caceres/Las Capellanias eco-park; DCD reported a 150MW carbon-neutral data center, while later listings show the CC Green/Nostrum Caceres campus seeking larger grid capacity.",
+  "world_batch": true
+}

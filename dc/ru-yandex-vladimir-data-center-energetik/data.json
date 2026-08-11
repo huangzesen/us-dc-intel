@@ -1,0 +1,22 @@
+{
+  "slug": "ru-yandex-vladimir-data-center-energetik",
+  "canonical_project": "Yandex Vladimir data center, Energetik",
+  "owner": "Yandex",
+  "location": {
+    "city": "",
+    "subnational": "Vladimir",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2017-03-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.hakamoscow.ru/projects/yandex/",
+    "https://www.datacentermap.com/russia/vladimir/yandex-cloud-vladimir-data-center/",
+    "https://rusdevelopers.ru/lenta_novostej/stroitelstvo-centra-obrabotki-dannykh-cod-yandeks-vladimir"
+  ],
+  "notes": "Yandex data center in Vladimir/Energetik. Contractor profile states construction period 04.2016-03.2017 and design for 2,880 racks; RusDevelopers notes first Yandex-owned Vladimir DC began operation in 2017 with 845 server racks.",
+  "world_batch": true
+}

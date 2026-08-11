@@ -1,0 +1,21 @@
+{
+  "slug": "sn-sonatel-rufisque-data-center",
+  "canonical_project": "Sonatel Rufisque Data Center",
+  "owner": "Sonatel / Orange Senegal",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/senegal/dakar/sonatel-rufisque-data-center/",
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/SN"
+  ],
+  "notes": "Data Center Map lists Sonatel's Rufisque Data Center on Route de Rufisque, with Tier 3 and ISO27001 labels and a second-room expansion. Uptime Institute's Senegal awards page is included as a primary certification reference, but the public listing was not fully retrievable during this pass; no public MW figure was found.",
+  "world_batch": true
+}

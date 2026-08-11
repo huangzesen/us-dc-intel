@@ -1,0 +1,22 @@
+{
+  "slug": "mn-s-systems-data-center",
+  "canonical_project": "S Systems Data Center",
+  "owner": "S Systems LLC / Shunkhlai Holding",
+  "location": {
+    "city": "",
+    "subnational": "Ulaanbaatar",
+    "country": "Mongolia",
+    "country_code": "MN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sg.mn/en/business-sector/technology/0/",
+    "https://www.rackcorp.com/network/datacenters/mongolia/",
+    "https://www.datacenterdynamics.com/en/news/mongolias-sovereign-wealth-fund-looks-to-bring-in-data-center-development/"
+  ],
+  "notes": "Shunkhlai Holding's official page says it launched a project to build Mongolia's largest data center and established S Systems Data Center in 2022; RackCorp and DCD identify S Systems as a Ulaanbaatar data-center operator.",
+  "world_batch": true
+}

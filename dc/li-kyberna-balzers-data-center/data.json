@@ -1,0 +1,21 @@
+{
+  "slug": "li-kyberna-balzers-data-center",
+  "canonical_project": "Kyberna Balzers Data Center",
+  "owner": "Kyberna AG",
+  "location": {
+    "city": "",
+    "subnational": "Vaduz",
+    "country": "Liechtenstein",
+    "country_code": "LI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/liechtenstein/kyberna-balzers",
+    "https://www.datacentermap.com/liechtenstein/vaduz/kyberna-balzers/"
+  ],
+  "notes": "High-availability colocation facility at Fabrikstrasse 4, Balzers 9496 (Balzers municipality, grouped under Vaduz by aggregate listings). Officially opened April 2011, approx. 200 sqm; offers colocation, cloud, virtualization and IT outsourcing. No capacity MW published.",
+  "world_batch": true
+}

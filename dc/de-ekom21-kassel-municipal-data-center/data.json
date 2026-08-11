@@ -1,0 +1,21 @@
+{
+  "slug": "de-ekom21-kassel-municipal-data-center",
+  "canonical_project": "ekom21 Kassel municipal data center",
+  "owner": "ekom21 - KGRZ Hessen",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Kassel (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2018-07-20",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.hna.de/kassel/made-in-kassel-it-dienstleister-ekom21-kennt-jeden-hessen-10065866.html",
+    "https://www.ekom21.de/unternehmen/ueber-ekom21/"
+  ],
+  "notes": "HNA reports ekom21's statewide data center is located on Knorrstrasse in Kassel; ekom21's own site confirms Kassel as one of its offices. Municipal/government IT data center rather than hyperscale/colo; capacity not disclosed.",
+  "world_batch": true
+}

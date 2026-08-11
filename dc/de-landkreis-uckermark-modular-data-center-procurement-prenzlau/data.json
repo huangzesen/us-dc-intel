@@ -1,0 +1,21 @@
+{
+  "slug": "de-landkreis-uckermark-modular-data-center-procurement-prenzlau",
+  "canonical_project": "Landkreis Uckermark modular data center procurement, Prenzlau",
+  "owner": "Landkreis Uckermark",
+  "location": {
+    "city": "",
+    "subnational": "Brandenburg - Uckermark",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 0.04,
+  "status": "planned",
+  "evidence_date": "2026-06-25",
+  "evidence_grade": "C",
+  "sources": [
+    "https://tendigo.de/ausschreibungen/rechenzentrum-serverhousing/beschaffung-einer-modular-data-center-loesung-hauptspeicher-fbb23478ec",
+    "https://www.uckermark.de/"
+  ],
+  "notes": "Public-tender aggregator summarizing procurement documents says Landkreis Uckermark is buying a prefabricated modular data center, 40 kW / 6 racks, to be delivered and commissioned at Prenzlau by 2027.",
+  "world_batch": true
+}

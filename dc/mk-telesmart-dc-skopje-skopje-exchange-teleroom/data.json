@@ -1,0 +1,22 @@
+{
+  "slug": "mk-telesmart-dc-skopje-skopje-exchange-teleroom",
+  "canonical_project": "Telesmart DC Skopje / Skopje Exchange Teleroom",
+  "owner": "Telesmart Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Gazi Baba",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://en.telesmart.mk/colocation/",
+    "https://datacenterplatform.com/data-centers/telesmart-telekom-doo/",
+    "https://dchub.cloud/facility/15692"
+  ],
+  "notes": "Telesmart primary source describes SET Skopje Exchange Teleroom colocation and interconnection services. Data Center Platform lists Telesmart DC Skopje at Bul. Kiro Gligorov 4; DC Hub reports 3.0 MW and operational status. Assigned to Gazi Baba based on the Kiro Gligorov address; some aggregators also mention Nikola Parapunov, so municipal precision is moderate.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "de-unitedcolo-ngz-server-de-coburg",
+  "canonical_project": "UnitedColo / NGZ-Server.de Coburg",
+  "owner": "United Colo GmbH / NGZ-Server.de",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Coburg (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://dchub.cloud/facilities/united-colo-gmbh-ngz-serverde-united-colo-gmbh-ngz-serverde-coburg-d71af508",
+    "https://www.datacentermap.com/germany/coburg/unitedcolo-coburg/"
+  ],
+  "notes": "Directory sources list a Coburg data center at Sonntagsanger 1; DC Hub reports it as operational with 3.0 MW. Older news indicates NGZ historically operated a Coburg data center, so capacity/status should be treated as directory-derived.",
+  "world_batch": true
+}

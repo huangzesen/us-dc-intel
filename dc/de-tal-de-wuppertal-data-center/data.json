@@ -1,0 +1,22 @@
+{
+  "slug": "de-tal-de-wuppertal-data-center",
+  "canonical_project": "tal.de Wuppertal data center",
+  "owner": "tal.de GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Wuppertal",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tal.de/rechenzentrum/",
+    "https://www.datacentermap.com/germany/wuppertal/talde-gmbh/",
+    "https://www.datacentermap.com/germany/wuppertal/"
+  ],
+  "notes": "tal.de states it operates modern Wuppertal data center space to Level-3 standard with green power, PUE about 1.2/under 1.3, over 1,500 sqm of data center area and 24/7 service. Data Center Map lists the Wuppertal facility at Uellendahler Str. 353 and cites 1.5 MW.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "md-colo-54-moldtelecom",
+  "canonical_project": "COLO-54 Moldtelecom",
+  "owner": "Moldtelecom SA",
+  "location": {
+    "city": "",
+    "subnational": "Chisinau",
+    "country": "Moldova, Republic of",
+    "country_code": "MD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.peeringdb.com/org/2486",
+    "https://www.connectbase.com/provider/moldtelecom/"
+  ],
+  "notes": "PeeringDB and Connectbase list COLO-54 Moldtelecom as a Chisinau Moldtelecom facility. Capacity was not found in public sources checked.",
+  "world_batch": true
+}

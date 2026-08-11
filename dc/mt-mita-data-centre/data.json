@@ -1,0 +1,22 @@
+{
+  "slug": "mt-mita-data-centre",
+  "canonical_project": "MITA Data Centre",
+  "owner": "Malta Information Technology Agency",
+  "location": {
+    "city": "",
+    "subnational": "Santa Venera",
+    "country": "Malta",
+    "country_code": "MT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mita.gov.mt/portfolio/facilities-at-data-centre/",
+    "https://www.datacentermap.com/malta/st-venera/mita-data-centre/",
+    "https://timesofmalta.com/article/The-new-MITA-data-centre-in-pictures.408149"
+  ],
+  "notes": "MITA official page lists its Data Centre at Old Railway Track, Santa Venera SVR9019 and describes on-premises hosting within MITA data centres for public-sector systems. Times of Malta reported the MITA-01 Santa Venera data centre launch in 2011; capacity not disclosed.",
+  "world_batch": true
+}

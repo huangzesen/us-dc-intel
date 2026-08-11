@@ -1,0 +1,22 @@
+{
+  "slug": "ch-elektrizitaets-und-wasserwerk-der-stadt-buchs-sg-facility",
+  "canonical_project": "Elektrizitaets- und Wasserwerk der Stadt Buchs SG Facility",
+  "owner": "Elektrizitaets- und Wasserwerk der Stadt Buchs SG",
+  "location": {
+    "city": "",
+    "subnational": "Sankt Gallen",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/datacenters/emea/switzerland/st-gallen",
+    "https://www.newby-ventures.com/research/db/facility/2726/13913",
+    "https://www.peeringdb.com/ix/60"
+  ],
+  "notes": "Inflect lists a Buchs SG data center/interconnection facility at Grunaustrasse 31; Newby and PeeringDB corroborate Buchs SG as an interconnection/peering facility.",
+  "world_batch": true
+}

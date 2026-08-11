@@ -1,0 +1,23 @@
+{
+  "slug": "kg-datatime-bishkek-kr-data-center-data-5",
+  "canonical_project": "DataTime Bishkek KR Data Center Data 5",
+  "owner": "DataTime LLC / DataDome",
+  "location": {
+    "city": "",
+    "subnational": "Bishkek",
+    "country": "Kyrgyzstan",
+    "country_code": "KG"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2024-06-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/datadome-launches-kyrgyzstans-first-commercial-data-center-in-bishkek/",
+    "https://www.datacenterdynamics.com/en/news/datadome-to-build-data-center-in-bishkek-kyrgyzstan/",
+    "https://datatime.ae/tpost/4do0tc2il1-from-a-steppe-nomad-to-a-digital-one-how",
+    "https://kz.kursiv.media/2025-11-17/zhdk-akashi-cod-do-zapuska-zabronirovan/"
+  ],
+  "notes": "DCD reported launch in June 2024 of a 500 kW, 100-rack Tier III-quality commercial facility in Bishkek, funded by the Russian-Kyrgyz Development Fund and operated by DataTime; earlier DCD reporting announced the same 100-rack/at least 500 kW project. Kursiv's Uptime table lists Datatime Bishkek KR Data Center Data 5 with Tier III design certification.",
+  "world_batch": true
+}

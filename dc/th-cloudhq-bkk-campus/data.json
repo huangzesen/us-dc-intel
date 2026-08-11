@@ -1,0 +1,21 @@
+{
+  "slug": "th-cloudhq-bkk-campus",
+  "canonical_project": "CloudHQ BKK Campus",
+  "owner": "CloudHQ",
+  "location": {
+    "city": "",
+    "subnational": "Phatthaya",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": 108,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloudhq.com/campus/bkk-campus/",
+    "https://www.datacentermap.com/thailand/pattaya/cloudhq-bkk/"
+  ],
+  "notes": "CloudHQ official campus page describes a planned 108 MW critical IT load site outside Bangkok; DataCenterMap places CloudHQ BKK in the Pattaya market at Bo Win, Si Racha District. Recorded under Phatthaya as Pattaya-market/EEC vicinity, not confirmed inside Pattaya city boundaries.",
+  "world_batch": true
+}

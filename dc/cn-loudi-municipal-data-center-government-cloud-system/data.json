@@ -1,0 +1,21 @@
+{
+  "slug": "cn-loudi-municipal-data-center-government-cloud-system",
+  "canonical_project": "Loudi Municipal Data Center / Government Cloud System",
+  "owner": "Loudi Data Bureau and local government-cloud providers",
+  "location": {
+    "city": "",
+    "subnational": "Hunan - Loudi Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-01-08",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ld.rednet.cn/content/646745/98/12207965.html",
+    "https://gxt.hunan.gov.cn/gxt/xxgk_71033/gzdt/dfgz/202512/t20251223_33877232.html"
+  ],
+  "notes": "Rednet cited Loudi MIIT saying the city had built five data centers totaling 179 standard racks and 10PLOPS compute; Hunan MIIT later described a government cloud plus police cloud, carrier public cloud and Xianggu big-data-center computing-infrastructure system.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "at-a1-next-generation-datacenter-floridsdorf",
+  "canonical_project": "A1 Next Generation Datacenter Floridsdorf",
+  "owner": "A1 Telekom Austria / IBM",
+  "location": {
+    "city": "",
+    "subnational": "Vienna",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": 6.0,
+  "status": "operational",
+  "evidence_date": "2018-12-07",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/a1-telekom-and-ibm-open-austrian-data-center-floridsdorf/",
+    "https://www.a1.digital/press/a1-exoscale-public-cloud-zone/",
+    "https://www.atp.ag/en/projects/a1-ibm-data-center/"
+  ],
+  "notes": "A1/IBM opened the Floridsdorf facility in 2018; A1 Digital states the A1 Datacenter has 8,000 sqm building area, 2,550 sqm datacenter whitespace, 2 x 6.0 MW connected load and UPS output up to 3.9 MW.",
+  "world_batch": true
+}

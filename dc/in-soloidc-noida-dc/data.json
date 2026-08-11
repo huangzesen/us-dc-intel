@@ -1,0 +1,21 @@
+{
+  "slug": "in-soloidc-noida-dc",
+  "canonical_project": "SOLOIDC Noida DC",
+  "owner": "SOLOIDC Technologies Pvt Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Uttar Pradesh - Gautam Buddha Nagar",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://soloidc.com/data-center/",
+    "https://datacentercatalog.com/india/soloidc"
+  ],
+  "notes": "SOLOIDC operates a Tier-3 carrier-neutral colocation data center at Netedge Towers, C 56/39, 5th Floor, Sector 62, Noida, serving managed hosting and multi-cloud workloads; capacity not published.",
+  "world_batch": true
+}

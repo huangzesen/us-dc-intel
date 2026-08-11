@@ -1,0 +1,22 @@
+{
+  "slug": "cc-oman-australia-cable-cocos-keeling-islands-cable-landing-station-modular-facilit",
+  "canonical_project": "Oman Australia Cable Cocos (Keeling) Islands cable landing station modular facility",
+  "owner": "SUBCO / DXN",
+  "location": {
+    "city": "",
+    "subnational": "Cocos (Keeling) Islands",
+    "country": "Cocos (Keeling) Islands",
+    "country_code": "CC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-10-25",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/australias-dxn-signs-deal-to-deliver-prefabbed-data-centers-to-ground-station-provider/",
+    "https://sub.co/press-releases/australias-first-express-cable-to-emea-has-landed-in-perth-on-track-to-go-live-in-q22022-2/",
+    "https://www.submarinenetworks.com/en/systems/asia-australia/oac/oman-australia-cable-is-live"
+  ],
+  "notes": "DXN announced a contract to deliver cable landing station modules for the Oman Australia Cable, including a Cocos (Keeling) Islands landing-station facility; SUBCO press material places the OAC route through Cocos and later trade reporting says OAC is live. Treat as a telecom/edge modular facility rather than a known hyperscale or colocation compute campus; MW capacity not disclosed.",
+  "world_batch": true
+}

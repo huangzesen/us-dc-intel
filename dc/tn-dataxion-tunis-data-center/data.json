@@ -1,0 +1,21 @@
+{
+  "slug": "tn-dataxion-tunis-data-center",
+  "canonical_project": "DataXion Tunis Data Center",
+  "owner": "DataXion",
+  "location": {
+    "city": "",
+    "subnational": "Tunis",
+    "country": "Tunisia",
+    "country_code": "TN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.dataxion.com/",
+    "https://www.datacentermap.com/tunisia/tunis/dataxion/"
+  ],
+  "notes": "Carrier-neutral Tunis facility marketed by DataXion; aggregate listing places it in El Agba/Tunis. Capacity not publicly stated in reviewed sources.",
+  "world_batch": true
+}

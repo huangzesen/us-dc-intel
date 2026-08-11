@@ -1,0 +1,22 @@
+{
+  "slug": "bg-escom-haskovo-data-center",
+  "canonical_project": "ESCOM Haskovo data center",
+  "owner": "ESCOM Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Haskovo",
+    "country": "Bulgaria",
+    "country_code": "BG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/escom-ltd-haskovo/",
+    "https://inflect.com/building/56-ulitsa-georgi-benkovski-haskovo/escom-ltd/datacenter/haskovo",
+    "https://escom.bg/support/list/30/25?sub=28"
+  ],
+  "notes": "Data Center Platform and Inflect list ESCOM Haskovo as an operating colocation/data center facility; ESCOM's site confirms the company address in Haskovo but public facility detail is limited.",
+  "world_batch": true
+}

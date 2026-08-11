@@ -1,0 +1,21 @@
+{
+  "slug": "cd-united-kinshasa",
+  "canonical_project": "UNITED Kinshasa",
+  "owner": "United S.A.",
+  "location": {
+    "city": "",
+    "subnational": "Kinshasa",
+    "country": "Congo, Democratic Republic of the",
+    "country_code": "CD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/dr-congo/kinshasa/united-kinshasa/",
+    "https://unitedrdc.com/hebergement/"
+  ],
+  "notes": "DataCenterMap lists UNITED Kinshasa at CrownTower, 165 Av Batetela, with cabinets, servers and remote-hands service; United's own hosting page confirms active hosting services but does not independently detail the data-center facility or capacity.",
+  "world_batch": true
+}

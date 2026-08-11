@@ -1,0 +1,21 @@
+{
+  "slug": "ch-vantage-zurich-i-campus-winterthur",
+  "canonical_project": "Vantage Zurich I Campus, Winterthur",
+  "owner": "Vantage Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Zurich",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": 40,
+  "status": "operational",
+  "evidence_date": "2025-11-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.s-ge.com/invest/en/articles/news/vantage-build-second-swiss-data-center-cost-370-million-swiss-francs",
+    "https://vantage-dc.com/data-center-locations/emea/zurich-i-switzerland/"
+  ],
+  "notes": "S-GE states Vantage Zurich 1 in Winterthur commenced operations in December 2021 and that the flagship campus was announced as three data centers totaling 40 MW of critical IT load over 3.7 hectares.",
+  "world_batch": true
+}

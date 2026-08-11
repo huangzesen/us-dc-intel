@@ -1,0 +1,22 @@
+{
+  "slug": "de-gfr-datacenter-bochum",
+  "canonical_project": "GFR DataCenter Bochum",
+  "owner": "Glasfaser Ruhr GmbH & Co. KG",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Bochum",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.glasfaser-ruhr.de/rechenzentrum/",
+    "https://www.datacentermap.com/germany/bochum/gfr-datacenter-bochum/",
+    "https://www.glasfaser-ruhr.de/presse/glasfaser-ruhr-fuer-20-jaehrige-mitgliedschaft-im-eco-verband-ausgezeichnet/"
+  ],
+  "notes": "Glasfaser Ruhr says it operates data centers directly in Bochum and Herne; Data Center Map lists GFR DataCenter Bochum at Obere Stahlindustrie 4, 44793 Bochum.",
+  "world_batch": true
+}

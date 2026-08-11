@@ -1,0 +1,21 @@
+{
+  "slug": "au-telstra-infraco-exhibition-street-data-centre",
+  "canonical_project": "Telstra InfraCo Exhibition Street Data Centre",
+  "owner": "Telstra InfraCo",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Melbourne",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/telstra-exhibition",
+    "https://baxtel.com/data-center/airtrunk-melbourne-mel2"
+  ],
+  "notes": "Telstra InfraCo colocation data centre at 155 Exhibition Street, Melbourne CBD (City of Melbourne LGA); one of two Telstra InfraCo Melbourne data centres, interconnected via fibre with its counterpart (Clayton); capacity not disclosed in cited sources.",
+  "world_batch": true
+}

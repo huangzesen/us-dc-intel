@@ -1,0 +1,21 @@
+{
+  "slug": "ae-khazna-dxb3-ibn-battuta-data-center",
+  "canonical_project": "Khazna DXB3 Ibn Battuta data center",
+  "owner": "Khazna Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Dubai - Sector 5",
+    "country": "United Arab Emirates",
+    "country_code": "AE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-10-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://khaznadatacenters.com/press-release/khazna-data-centers-to-begin-construction-on-two-new-data-centers-in-dubai/",
+    "https://www.peeringdb.com/fac/15227"
+  ],
+  "notes": "Khazna announced DXB3 at Ibn Battuta, with DXB2 and DXB3 jointly totaling 43MW IT load; PeeringDB lists the facility at Ibn Battuta, Jebel Ali. DXB3 was planned to begin operations in Q1 2024, so status is treated as operational but individual MW was not disclosed.",
+  "world_batch": true
+}

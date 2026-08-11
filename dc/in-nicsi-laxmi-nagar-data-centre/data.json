@@ -1,0 +1,21 @@
+{
+  "slug": "in-nicsi-laxmi-nagar-data-centre",
+  "canonical_project": "NICSI Laxmi Nagar Data Centre",
+  "owner": "National Informatics Centre Services Inc. (NICSI)",
+  "location": {
+    "city": "",
+    "subnational": "Delhi - East Delhi",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://nicsi.nic.in/nicsi/contact/",
+    "https://baxtel.com/data-center/nicsi-laxmi-nagar"
+  ],
+  "notes": "NICSI official contact page lists the Laxmi Nagar data centre at Scope Minar, Delhi 110092. Baxtel describes it as a Tier-II National Data Centre with 62 racks and an upgrade path to Tier III; MW capacity not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "fr-ovhcloud-roubaix-data-center-region-campus",
+  "canonical_project": "OVHcloud Roubaix data center region / campus",
+  "owner": "OVHcloud",
+  "location": {
+    "city": "",
+    "subnational": "Nord",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ovhcloud.com/en/datacenter/",
+    "https://vms.status-ovhcloud.com/"
+  ],
+  "notes": "OVHcloud official materials list Roubaix among its French 1-AZ regions and its status page lists multiple Roubaix zones (RBX-1 through RBX-10, excluding RBX-9 in the displayed list).",
+  "world_batch": true
+}

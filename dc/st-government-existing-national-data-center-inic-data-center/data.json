@@ -1,0 +1,20 @@
+{
+  "slug": "st-government-existing-national-data-center-inic-data-center",
+  "canonical_project": "Government existing national data center / INIC data center",
+  "owner": "Government of Sao Tome and Principe / Instituto de Inovacao e Conhecimento (INIC)",
+  "location": {
+    "city": "",
+    "subnational": "Agua Grande",
+    "country": "Sao Tome and Principe",
+    "country_code": "ST"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-09-17",
+  "evidence_grade": "A",
+  "sources": [
+    "https://documents1.worldbank.org/curated/en/099102025185177863/pdf/P177158-d0ebd79d-6646-4e92-b9ae-1183b632c15a.pdf"
+  ],
+  "notes": "World Bank Digital Sao Tome and Principe implementation mission noted an existing government data center assessed by INIC's data-center technical-assistance consultant, with options to rehabilitate current facilities or build a new Tier III site. Exact district is not stated; assigned to Agua Grande because national government/INIC functions are concentrated in Sao Tome city.",
+  "world_batch": true
+}

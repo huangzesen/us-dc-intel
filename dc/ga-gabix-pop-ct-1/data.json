@@ -1,0 +1,22 @@
+{
+  "slug": "ga-gabix-pop-ct-1",
+  "canonical_project": "GABIX POP CT-1",
+  "owner": "Gabon Internet eXchange (GABIX)",
+  "location": {
+    "city": "",
+    "subnational": "Estuary",
+    "country": "Gabon",
+    "country_code": "GA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/gabon-internet-exchange-gabix/gabix-pop-ct-1/",
+    "https://www.peeringdb.com/fac/5146",
+    "https://ixpdb.euro-ix.net/en/explore/ixp/807/pops/"
+  ],
+  "notes": "Internet exchange/data center point of presence in Libreville, listed by Data Center Platform, PeeringDB, and IXPDB/Euro-IX; connected networks include Gabon Telecom, GABIX, ST Digital and GVA. Capacity not publicly disclosed.",
+  "world_batch": true
+}

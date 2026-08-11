@@ -1,0 +1,21 @@
+{
+  "slug": "ke-safaricom-limuru-redhill-data-centre",
+  "canonical_project": "Safaricom Limuru / Redhill data centre",
+  "owner": "Safaricom",
+  "location": {
+    "city": "",
+    "subnational": "Nairobi City",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": 2.8,
+  "status": "construction",
+  "evidence_date": "2025-03-05",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/safaricom-completes-first-phase-of-data-center-in-limuru-kenya/",
+    "https://www.safaricom.co.ke/wholesale/wholesale_product_categories/data_centre/"
+  ],
+  "notes": "DCD reported Safaricom completed phase one at its Limuru/Redhill campus and planned 2.8 MW IT capacity by the end of phase two in January 2026. Limuru is just outside Nairobi; included under Nairobi City hub coverage because source describes it as outside the capital and not in a batch-listed county.",
+  "world_batch": true
+}

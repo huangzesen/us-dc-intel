@@ -1,0 +1,21 @@
+{
+  "slug": "zm-netone-it-datacenter",
+  "canonical_project": "NetOne IT Datacenter",
+  "owner": "NetOne IT",
+  "location": {
+    "city": "",
+    "subnational": "Lusaka",
+    "country": "Zambia",
+    "country_code": "ZM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.netone.co.zm/",
+    "https://datacenterplatform.com/data-centers/netone-it/netone-it-datacenter/"
+  ],
+  "notes": "Data Center Platform lists NetOne IT Datacenter in Lusaka; NetOne IT's company site corroborates Zambian IT infrastructure services but public technical detail is limited.",
+  "world_batch": true
+}

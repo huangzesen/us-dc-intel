@@ -1,0 +1,22 @@
+{
+  "slug": "sd-sudatel-data-center-khartoum-sdc",
+  "canonical_project": "Sudatel Data Center Khartoum (SDC)",
+  "owner": "Sudatel Telecom Group / Sudani",
+  "location": {
+    "city": "",
+    "subnational": "Khartoum",
+    "country": "Sudan",
+    "country_code": "SD"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://sudani.sd/en/sdc/",
+    "https://dchub.cloud/facilities/sudatel-telecom-group-sudatel-dc-khartoum-3119e6fe",
+    "https://www.datacentermap.com/sudan/khartoum/sudatel-dc-khartoum/"
+  ],
+  "notes": "Official Sudani page describes SDC as Sudan's largest datacenter and a Tier IV facility offering colocation, dedicated servers and VPS. Third-party listings place it on Sinkat Street, Khartoum; DC Hub reports 3.0 MW, so capacity is aggregator-derived.",
+  "world_batch": true
+}

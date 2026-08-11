@@ -1,0 +1,20 @@
+{
+  "slug": "de-ntt-munich-2-data-center",
+  "canonical_project": "NTT Munich 2 Data Center",
+  "owner": "NTT Global Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Munich",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 14,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.global.ntt/de-de/services-and-products/global-data-centers/global-locations/emea/munich-2-data-center"
+  ],
+  "notes": "NTT states the Munich 2 facility provides more than 6,300 sqm of data-center space across buildings A and B and 14 MW critical IT load.",
+  "world_batch": true
+}

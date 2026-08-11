@@ -1,0 +1,22 @@
+{
+  "slug": "gb-aptum-portsmouth-havant-data-centre",
+  "canonical_project": "Aptum Portsmouth/Havant data centre",
+  "owner": "Aptum",
+  "location": {
+    "city": "",
+    "subnational": "England - Hampshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 10.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://aptum.com/services/colocation/portsmouth-data-center/",
+    "https://www.datacentermap.com/united-kingdom/portsmouth/cogeco-peer1-havant/",
+    "https://www.colo-x.com/data-centre/cogecopeer-1-portsmouth/"
+  ],
+  "notes": "Aptum markets a Portsmouth Data Centre in Havant/Langstone Technology Park; third-party listings describe the former IBM hard-drive factory facility with up to 1,000 cabinets and 10MW.",
+  "world_batch": true
+}

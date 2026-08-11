@@ -1,0 +1,21 @@
+{
+  "slug": "de-ewe-rechenzentrum-ol2",
+  "canonical_project": "EWE Rechenzentrum OL2",
+  "owner": "EWE TEL GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Lower Saxony - Oldenburg (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-28",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/germany/oldenburg/",
+    "https://business.osnatel.de/internet/colocation"
+  ],
+  "notes": "Second EWE TEL Oldenburg data center listed at Cloppenburger Strasse 310, 26133 Oldenburg. Data Center Map/nearest facility listings identify OL2, and osnatel/EWE business confirms EWE data center operations in Oldenburg. No MW capacity disclosed.",
+  "world_batch": true
+}

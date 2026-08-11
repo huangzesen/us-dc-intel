@@ -1,0 +1,21 @@
+{
+  "slug": "cn-tianjin-huayuan-unicom-data-port-data-center",
+  "canonical_project": "Tianjin Huayuan Unicom Data Port Data Center",
+  "owner": "China Unicom Tianjin / IDC operator partners",
+  "location": {
+    "city": "",
+    "subnational": "Tianjin - Tianjin Municipality",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 8.4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.huaxinnetcom.com/Home/DataCenter/huay.html",
+    "https://www.vertiv.cn/globalassets/documents/case-studies/telecom_yjunicom_299853_0.pdf"
+  ],
+  "notes": "Commercial IDC listing for Tianjin Huayuan Unicom Data Port says the facility in Huayuan Industrial Park has 20,918 m2 and 2,800 racks at 3kVA/rack, opened July 2009. Capacity_mw approximates rack apparent power as 2,800 x 3kVA; exact IT MW not disclosed. Vertiv case separately documents a Tianjin Unicom Airport Building 3 data center of 8,130 m2 with 8 IDC rooms.",
+  "world_batch": true
+}

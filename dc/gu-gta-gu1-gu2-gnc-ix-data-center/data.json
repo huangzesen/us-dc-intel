@@ -1,0 +1,22 @@
+{
+  "slug": "gu-gta-gu1-gu2-gnc-ix-data-center",
+  "canonical_project": "GTA GU1 & GU2 / GNC iX Data Center",
+  "owner": "GTA TeleGuam / Gateway Network Connections",
+  "location": {
+    "city": "",
+    "subnational": "Guam",
+    "country": "Guam",
+    "country_code": "GU"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.gta.net/data-center",
+    "https://www.datacentermap.com/guam/hagatna/gta-gnc-ix-data-center/",
+    "https://www.submarinenetworks.com/en/stations/north-america/usa-guam/gnc-cable-landing-station"
+  ],
+  "notes": "GTA's current data-center page lists GU1 and GU2 as Tier 3-designed carrier-neutral data centers and cable landing stations with 2MW of power across 11,800 sq ft, landing JGA North, JGA South, and SEA-US. DataCenterMap and Submarine Networks identify the Piti/GNC iX facility as a purpose-built neutral CLS and data center.",
+  "world_batch": true
+}

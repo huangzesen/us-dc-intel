@@ -1,0 +1,21 @@
+{
+  "slug": "it-telecom-italia-sparkle-naples-data-center",
+  "canonical_project": "Telecom Italia Sparkle Naples Data Center",
+  "owner": "Telecom Italia Sparkle",
+  "location": {
+    "city": "",
+    "subnational": "Campania",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/datacenters/emea/italy/naples",
+    "https://www.datacenters.com/locations/italy/campania/napoli"
+  ],
+  "notes": "Inflect lists Telecom Italia Sparkle Telecom Italia Naples at Piazza Giuseppe Garibaldi 60, Naples. Treated as an operational carrier/colocation node with limited public specifications.",
+  "world_batch": true
+}

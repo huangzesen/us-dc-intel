@@ -1,0 +1,21 @@
+{
+  "slug": "in-ntt-data-bengaluru-4-campus",
+  "canonical_project": "NTT DATA Bengaluru 4 Campus",
+  "owner": "NTT DATA / NTT Global Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Karnataka - Bangalore Rural",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 67.2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/india/bengaluru-4-campus",
+    "https://datacenters.economictimes.indiatimes.com/news/investments-deals/ntt-data-opens-bengaluru-4-data-center-adds-100-mw-hyperscale-capacity/131738156"
+  ],
+  "notes": "Official NTT page lists the campus at 67.2 MW planned critical IT load across Bengaluru 4A/4B/4C. Trade press reported phase 1/BLR4A operational with 22.4 MW IT load and full buildout at 67.2 MW critical IT load; address evidence places the campus at Prestige Tech Cloud, Devanahalli/Bengaluru Rural.",
+  "world_batch": true
+}

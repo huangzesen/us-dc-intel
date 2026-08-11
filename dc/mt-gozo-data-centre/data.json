@@ -1,0 +1,21 @@
+{
+  "slug": "mt-gozo-data-centre",
+  "canonical_project": "Gozo Data Centre",
+  "owner": "Government of Malta / MITA",
+  "location": {
+    "city": "",
+    "subnational": "Rabat Gozo",
+    "country": "Malta",
+    "country_code": "MT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://procurement.mita.gov.mt/media/344435/wan-connectivy-appendix-a-magnet-fibre-wan-links.xlsx",
+    "https://familja.gov.mt/wp-content/uploads/2023/04/Annual-Report-2010.pdf"
+  ],
+  "notes": "MITA procurement fibre-site listing includes 'Gozo Data Centre, St. Francis Square, Victoria, Gozo'; Victoria is also known as Rabat, Gozo. A Government Departments 2010 annual report references work involving the Gozo data centre.",
+  "world_batch": true
+}

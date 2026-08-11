@@ -1,0 +1,21 @@
+{
+  "slug": "cd-lofoy-hpc-data-center-universite-nouveaux-horizons",
+  "canonical_project": "Lofoy HPC Data Center, Universite Nouveaux Horizons",
+  "owner": "TXT Group; Universite Nouveaux Horizons; Intel; E4 Computer Engineering",
+  "location": {
+    "city": "",
+    "subnational": "Upper Katanga",
+    "country": "Congo, Democratic Republic of the",
+    "country_code": "CD"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-06-27",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.intel.com/content/www/us/en/newsroom/news/ai-fighting-deforestation-democratic-republic-of-congo.html",
+    "https://decrypt.co/326501/drc-builds-ai-supercomputer-fighting-deforestation"
+  ],
+  "notes": "Intel announced the Lofoy supercomputer project at Universite Nouveaux Horizons in Lubumbashi, with 3rd Gen Xeon servers; public sources describe a data center/HPC deployment but do not disclose MW capacity.",
+  "world_batch": true
+}

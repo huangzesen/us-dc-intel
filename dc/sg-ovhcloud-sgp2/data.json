@@ -1,0 +1,21 @@
+{
+  "slug": "sg-ovhcloud-sgp2",
+  "canonical_project": "OVHcloud SGP2",
+  "owner": "OVHcloud",
+  "location": {
+    "city": "",
+    "subnational": "Central Singapore",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2023-11-07",
+  "evidence_grade": "A",
+  "sources": [
+    "https://corporate.ovhcloud.com/en/newsroom/ovhcloud-expands-singapore/",
+    "https://www.datacenterdynamics.com/en/news/ovhcloud-launches-data-center-in-singapore/"
+  ],
+  "notes": "OVHcloud announced its second Singapore data centre on 2023-11-07; DCD reports 2MW capacity and notes OVHcloud did not disclose the landlord/location.",
+  "world_batch": true
+}

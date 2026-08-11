@@ -1,0 +1,22 @@
+{
+  "slug": "de-stadtwerke-norderstedt-data-center-heat-reuse-project",
+  "canonical_project": "Stadtwerke Norderstedt data center heat-reuse project",
+  "owner": "Stadtwerke Norderstedt",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Segeberg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.stadtwerke-norderstedt.de/privatkundinnen/waerme/kommunale-waermeplanung/abwaerme",
+    "https://www.ndr.de/nachrichten/schleswig-holstein/Stadtwerke-Norderstedt-bauen-Abwaermeprojekt-in-Rechenzentren-weiter-aus%2Cregionnorderstedtnews1042.html",
+    "https://www.bdew.de/energie/stadtwerke-norderstedt-nutzen-rechenzentrum-fuer_waermewende/"
+  ],
+  "notes": "Stadtwerke Norderstedt operates a data center whose waste heat is used in the municipal district-heating system; sources report heat supply to about 1,500 homes from April 2024 and plans to expand heat recovery to another data center, targeting 5 MW of waste heat by 2030.",
+  "world_batch": true
+}

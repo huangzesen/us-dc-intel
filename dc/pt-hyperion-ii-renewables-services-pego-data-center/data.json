@@ -1,0 +1,21 @@
+{
+  "slug": "pt-hyperion-ii-renewables-services-pego-data-center",
+  "canonical_project": "Hyperion II Renewables Services Pego Data Center",
+  "owner": "Hyperion II Renewables Services",
+  "location": {
+    "city": "",
+    "subnational": "Santarem",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-05-27",
+  "evidence_grade": "B",
+  "sources": [
+    "https://executivedigest.sapo.pt/abrantes-aprova-pedido-previo-para-segundo-centro-de-dados-junto-a-central-do-pego/",
+    "https://www.antenalivre.pt/musica/pedido-de-informacao-para-construcao-de-mais-um-data-center-foi-aprovado"
+  ],
+  "notes": "Abrantes approved a prior information request for a second Pego-area data center project; company described it as in environmental/municipal licensing with 200 MVA grid connection and expected operation in 2029. Capacity_mw left null because source gives MVA, not IT MW.",
+  "world_batch": true
+}

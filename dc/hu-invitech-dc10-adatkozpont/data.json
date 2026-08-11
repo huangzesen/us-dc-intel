@@ -1,0 +1,23 @@
+{
+  "slug": "hu-invitech-dc10-adatkozpont",
+  "canonical_project": "Invitech DC10 Adatkozpont",
+  "owner": "Invitech / 2Connect",
+  "location": {
+    "city": "",
+    "subnational": "Budapest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/invitech/invitech-hungary/invitech-dc10-adatkozpont/",
+    "https://inflect.com/building/2-kozma-utca-budapest-hu/invitech-megoldasok-zrt/datacenter/dc10",
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/invitech-solutions-dc10iii/883",
+    "https://2connect.hu/adatkozpont"
+  ],
+  "notes": "DatacenterPlatform lists Invitech DC10 at Kozma u. 2, 1108 Budapest. Inflect reports 2,000 kW power capacity. Uptime Institute lists Invitech Solutions DC10-III in Budapest, Hungary. 2Connect, formed from Antenna Hungaria, DIGI infrastructure, Invitech and Vodafone Hungary network units, says it operates more than 6,500 sqm of data center capacity across 12 sites.",
+  "world_batch": true
+}

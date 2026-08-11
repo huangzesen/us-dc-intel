@@ -1,0 +1,22 @@
+{
+  "slug": "au-dci-adelaide-02-adl02-kidman-park",
+  "canonical_project": "DCI Adelaide 02 (ADL02) Kidman Park",
+  "owner": "DCI Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "South Australia - Charles Sturt",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 4,
+  "status": "operational",
+  "evidence_date": "2024-12-02",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dcidatacenters.com/news/adl02-launch/",
+    "https://www.datacenterdynamics.com/en/news/dci-launches-data-center-in-adelaide-australia/",
+    "https://baxtel.com/data-center/dci-adelaide-adl02"
+  ],
+  "notes": "DCI announced launch of its A$70m ADL02 at Kidman Park next to ADL01; the new 4 MW facility increased campus IT load to 5.4 MW.",
+  "world_batch": true
+}

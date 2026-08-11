@@ -1,0 +1,22 @@
+{
+  "slug": "de-ovhcloud-lim1-3-limburg-offheim-data-center",
+  "canonical_project": "OVHcloud LIM1-3 Limburg/Offheim data center",
+  "owner": "OVHcloud",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Limburg-Weilburg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-04-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.limburg.de/Quicknavigation/Startseite/Neues-Rechenzentrum-im-ICE-Gebiet.php?FID=3252.14121.1&ModID=7&object=tx%2C3251.5",
+    "https://www.fnp.de/hessen/limburg-corona-rechenzentrum-offheim-server-home-office-it-unternehmen-13652149.html",
+    "https://mapcarta.com/de/W229184178"
+  ],
+  "notes": "City of Limburg announced OVHcloud building a new data center in the ICE area; local reporting describes OVHcloud's existing Offheim/Limburg data center with around 10,000 servers, and map data identifies OVHcloud LIM1-3 at Limburger Strasse 45. Capacity not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "de-klinikum-peine-container-data-center",
+  "canonical_project": "Klinikum Peine container data center",
+  "owner": "Klinikum Peine gGmbH / CANCOM",
+  "location": {
+    "city": "",
+    "subnational": "Lower Saxony - Peine",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-01-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://newsroom.cancom.de/referenz/flexibles-rechenzentrum-nach-mass-moderne-it-infrastruktur-fuer-das-klinikum-peine/",
+    "https://prolion.com/de/case-study/cryptospike-klinikum-peine-rechenzentrum/",
+    "https://www.paz-online.de/lokales/peine-lk/peine/klinikum-peine-rechenzentrum-fuer-2-5-millionen-passt-in-zwei-container-33N5CRUI6ZIJTP4GO2TOX532MQ.html"
+  ],
+  "notes": "CANCOM reference describes a modernized data-center network for Klinikum Peine using a containerized data center solution, NetApp All-Flash MetroCluster and Veeam/ProLion security tooling. Local press reported in 2022 that the hospital's new data center fit into two containers.",
+  "world_batch": true
+}

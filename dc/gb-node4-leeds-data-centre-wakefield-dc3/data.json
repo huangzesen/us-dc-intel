@@ -1,0 +1,22 @@
+{
+  "slug": "gb-node4-leeds-data-centre-wakefield-dc3",
+  "canonical_project": "Node4 Leeds Data Centre / Wakefield DC3",
+  "owner": "Node4",
+  "location": {
+    "city": "",
+    "subnational": "England - City and Borough of Wakefield",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://node4.co.uk/our-services/cloud/data-centre-hosting/leeds-data-centre",
+    "https://www.colo-x.com/data-centre/node4-wakefield-yorkshire/",
+    "https://www.datacentermap.com/united-kingdom/wakefield/node4-dc3/"
+  ],
+  "notes": "Operational Node4 facility at Pope Street, Normanton, Wakefield district; Node4 lists 26,000 sq ft and 450 racks, Colo-X reports 2MW IT load across four data halls.",
+  "world_batch": true
+}

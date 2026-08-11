@@ -1,0 +1,21 @@
+{
+  "slug": "si-claro-mc-data-center",
+  "canonical_project": "Claro MC Data Center",
+  "owner": "Claro",
+  "location": {
+    "city": "",
+    "subnational": "Grosuplje",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/claro-claro-mc",
+    "https://www.datacenters.com/locations/slovenia/grosuplje"
+  ],
+  "notes": "Datacenters.com lists one Grosuplje colocation facility, Claro MC Data Center, at Industrijska cesta 1, 1290 Grosuplje. No official operator page, MW capacity, or build/launch date was found in public search, so this is treated as aggregate evidence only.",
+  "world_batch": true
+}

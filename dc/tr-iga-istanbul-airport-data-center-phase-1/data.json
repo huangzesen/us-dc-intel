@@ -1,0 +1,20 @@
+{
+  "slug": "tr-iga-istanbul-airport-data-center-phase-1",
+  "canonical_project": "IGA Istanbul Airport Data Center (Phase 1)",
+  "owner": "IGA (Istanbul Grand Airport)",
+  "location": {
+    "city": "",
+    "subnational": "Istanbul",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/turkey/iga-data-center-phase-1"
+  ],
+  "notes": "Data Center Catalog lists an IGA Data Center Phase-1 at Istanbul Airport; Turkcell job postings reference IP/data center network positions at iGA Istanbul Airport, suggesting telecom/data infrastructure on site. No operator or capacity officially confirmed; status unknown.",
+  "world_batch": true
+}

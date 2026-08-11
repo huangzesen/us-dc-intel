@@ -1,0 +1,21 @@
+{
+  "slug": "no-green-edge-compute-sluppen-trondheim-data-center",
+  "canonical_project": "Green Edge Compute Sluppen Trondheim data center",
+  "owner": "Green Edge Compute AS with Statkraft / Trondheim Municipality",
+  "location": {
+    "city": "",
+    "subnational": "Trondelag",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": 5,
+  "status": "operational",
+  "evidence_date": "2022-06-03",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenter-forum.com/datacenter-forum/cooperation-agreement-between-green-edge-compute-and-statkraft",
+    "https://cityxchange.eu/the-worlds-most-sustainable-data-center-is-now-operational-at-trondheim/"
+  ],
+  "notes": "Urban edge data center at Sluppen in Trondheim. Initial agreement described a 1-5 MW facility connected to district heating; +CityxChange reported the facility operational in June 2022.",
+  "world_batch": true
+}

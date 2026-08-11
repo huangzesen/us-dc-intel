@@ -1,0 +1,21 @@
+{
+  "slug": "pg-png-dataco-primary-data-centre",
+  "canonical_project": "PNG DataCo Primary Data Centre",
+  "owner": "PNG DataCo",
+  "location": {
+    "city": "",
+    "subnational": "National Capital District",
+    "country": "Papua New Guinea",
+    "country_code": "PG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.pngdataco.com/services/ict-and-cloud-solutions/data-center-services/",
+    "https://www.datacentermap.com/papua-new-guinea/"
+  ],
+  "notes": "PNG DataCo official service page describes secure rack space in PNG's premier Tier 3 data center with ISO-certified environment, redundant power and cooling, 24/7 monitoring, DR hosting, and local sovereign hosting. DataCenterMap country page lists Port Moresby as one of two PNG data-center markets.",
+  "world_batch": true
+}

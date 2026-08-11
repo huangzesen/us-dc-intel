@@ -1,0 +1,21 @@
+{
+  "slug": "id-equinix-jk1-jakarta-ibx",
+  "canonical_project": "Equinix JK1 Jakarta IBX",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Jakarta",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/indonesia-colocation/jakarta-data-center/jk1",
+    "https://newsroom.equinix.com/2025-05-15-Equinix-Unveils-Its-First-AI-Ready-Data-Center-with-Dense-Ecosystem-in-Jakarta"
+  ],
+  "notes": "Equinix lists JK1 in Jakarta's CBD; company newsroom says first phase has 550 cabinets, with 1,600 cabinets and 5,300 sqm colocation space at full build. MW not disclosed.",
+  "world_batch": true
+}

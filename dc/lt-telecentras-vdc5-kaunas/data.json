@@ -1,0 +1,21 @@
+{
+  "slug": "lt-telecentras-vdc5-kaunas",
+  "canonical_project": "Telecentras VDC5 Kaunas",
+  "owner": "AB Lietuvos radijo ir televizijos centras (Telecentras)",
+  "location": {
+    "city": "",
+    "subnational": "Kaunas County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://telecentras.lt/projektai/vdc/",
+    "https://www.datacenterdynamics.com/en/news/lithuanias-telecentras-launches-two-data-centers-in-vilnius/"
+  ],
+  "notes": "Telecentras state data-centre expansion program lists planned VDC5 construction in Kaunas; DCD reported intended 100-rack capacity.",
+  "world_batch": true
+}

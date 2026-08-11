@@ -1,0 +1,21 @@
+{
+  "slug": "de-evf-datacenter-stauferpark-goppingen",
+  "canonical_project": "EVF Datacenter Stauferpark Göppingen",
+  "owner": "Energieversorgung Filstal GmbH & Co. KG",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Göppingen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://evf.de/geschaeftskunden/datacenter/",
+    "https://evf.de/dateien/geschaeftskunden/datacenter/evf_datacenter_produktfolder.pdf"
+  ],
+  "notes": "Operator describes a dedicated colocation data-center building in Stauferpark Göppingen, certified to DIN EN 50600 and ISO/IEC 27001, with room for up to 144 42U racks.",
+  "world_batch": true
+}

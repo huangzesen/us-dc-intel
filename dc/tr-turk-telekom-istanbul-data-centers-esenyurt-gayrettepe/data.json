@@ -1,0 +1,21 @@
+{
+  "slug": "tr-turk-telekom-istanbul-data-centers-esenyurt-gayrettepe",
+  "canonical_project": "Turk Telekom Istanbul Data Centers (Esenyurt & Gayrettepe)",
+  "owner": "Turk Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Istanbul",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://kurumsal.turktelekom.com.tr/bilisim-teknolojileri/veri-merkezi-ve-bulut/veri-merkezi-hizmetleri/veri-merkezlerimiz/esenyurt-veri-merkezi",
+    "https://www.sec.gov/Archives/edgar/data/1850235/000104746921001156/a2243271zex-10_9.htm"
+  ],
+  "notes": "Turk Telekom operates data centers at Esenyurt (European side, multi-phase) and Gayrettepe (Istanbul Internet Data Center, referenced in a SEC 10-K exhibit for server hosting services) plus Ankara/Umitkoy. Official Esenyurt data center page confirms Tier III-grade colocation, cloud and managed services. Capacity MW not published.",
+  "world_batch": true
+}

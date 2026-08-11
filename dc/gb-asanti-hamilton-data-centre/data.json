@@ -1,0 +1,22 @@
+{
+  "slug": "gb-asanti-hamilton-data-centre",
+  "canonical_project": "Asanti Hamilton Data Centre",
+  "owner": "Asanti Datacentres Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - South Lanarkshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-11-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://asanti.com/hamilton-data-centre/",
+    "https://www.datacentermap.com/united-kingdom/glasgow/daisy-glasgow/specs/",
+    "https://baxtel.com/data-center/asanti-hamilton"
+  ],
+  "notes": "Operational regional colocation/disaster-recovery facility at Asanti House, 4 Lister Way, Hamilton International Technology Park, Blantyre. Public directories list 5,000 sq ft of whitespace; Asanti acquired the site from Daisy Group in 2022.",
+  "world_batch": true
+}

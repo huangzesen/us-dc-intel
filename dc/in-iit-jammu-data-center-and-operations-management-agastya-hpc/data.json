@@ -1,0 +1,20 @@
+{
+  "slug": "in-iit-jammu-data-center-and-operations-management-agastya-hpc",
+  "canonical_project": "IIT Jammu Data Center and Operations Management / Agastya HPC",
+  "owner": "Indian Institute of Technology Jammu",
+  "location": {
+    "city": "",
+    "subnational": "Jammu and Kashmir - Jammu",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.iitjammu.ac.in/di/data-center.html"
+  ],
+  "notes": "Official IIT Jammu Digital Infrastructure page describes a centralized data center supporting research, learning and enterprise services, including Agastya HPC with 82 nodes and 256 TF compute, big-data and private-cloud clusters. Institutional/research facility; MW capacity not disclosed.",
+  "world_batch": true
+}

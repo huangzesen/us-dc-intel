@@ -1,0 +1,22 @@
+{
+  "slug": "mp-tinian-pacific-connect-initiative-core-connectivity-hub-cable-landing-station",
+  "canonical_project": "Tinian Pacific Connect Initiative Core Connectivity Hub / Cable Landing Station",
+  "owner": "CNMI Broadband Policy & Development Office, Google, Citadel Pacific / IT&E",
+  "location": {
+    "city": "",
+    "subnational": "Northern Mariana Islands",
+    "country": "Northern Mariana Islands",
+    "country_code": "MP"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2025-09-08",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bpd.cnmi.gov/about-us/capital-projects-fund/",
+    "https://cloud.google.com/blog/products/infrastructure/pacific-connect-initiative-to-expand",
+    "https://www.pacificislandtimes.com/post/tinian-s-digital-transformation"
+  ],
+  "notes": "Official CNMI BPD page says CNMI will develop a core connectivity hub on Tinian, landing up to four subsea fiber optic cables and constructing a cable landing station, conduits, and supporting infrastructure over three years. Google announced Proa/TPU extensions to CNMI and core ICT nodes in CNMI and Guam. Included as adjacent data infrastructure; not a conventional compute data center, and no MW capacity disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "se-ansluten-vaxjo-data-center",
+  "canonical_project": "Ansluten Vaxjo data center",
+  "owner": "Ansluten Hosting i Sverige AB",
+  "location": {
+    "city": "",
+    "subnational": "Kronoberg",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://ansluten.se/datacenter/vaxjo",
+    "https://www.datacentermap.com/sweden/vaxjo/ansluten-vaxjo/"
+  ],
+  "notes": "Ansluten has an official Växjö datacenter page; Data Center Map lists the facility at Honnorsgatan 10 with 150 sqm data-center area within a 250 sqm site.",
+  "world_batch": true
+}

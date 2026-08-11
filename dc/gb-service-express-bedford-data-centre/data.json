@@ -1,0 +1,20 @@
+{
+  "slug": "gb-service-express-bedford-data-centre",
+  "canonical_project": "Service Express Bedford data centre",
+  "owner": "Service Express",
+  "location": {
+    "city": "",
+    "subnational": "England - Bedford",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.colo-x.com/data-centre/service-express-bedford/"
+  ],
+  "notes": "Colo-X listing describes the Service Express Bedford data centre at 243 Ampthill Road as a 600-rack / 2MVA facility.",
+  "world_batch": true
+}

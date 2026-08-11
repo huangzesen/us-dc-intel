@@ -1,0 +1,22 @@
+{
+  "slug": "my-vads-labuan",
+  "canonical_project": "VADS Labuan",
+  "owner": "VADS Berhad / Telekom Malaysia",
+  "location": {
+    "city": "",
+    "subnational": "Wilayah Persekutuan Labuan",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/malaysia/labuan/",
+    "https://www.datacentermap.com/malaysia/labuan/vads-labuan/",
+    "https://www.tmone.com.my/data-centre-services/"
+  ],
+  "notes": "Data Center Map lists one Labuan facility, VADS Labuan, at Level 2, Ibusawat Telekom Kg. Jawa, 87000 WP Labuan, described as VADS Managed Data Centre Services. TM ONE official pages confirm Telekom Malaysia's data centre service line; no public MW capacity found.",
+  "world_batch": true
+}

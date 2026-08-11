@@ -1,0 +1,21 @@
+{
+  "slug": "in-nagaland-state-data-center-nsdc",
+  "canonical_project": "Nagaland State Data Center (NSDC)",
+  "owner": "Department of Information Technology & Communication, Government of Nagaland",
+  "location": {
+    "city": "",
+    "subnational": "Nagaland - Kohima",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ditc.nagaland.gov.in/project/state-data-center-sdc",
+    "https://www.vastunidhiarchitects.com/vastu/data_centre.php"
+  ],
+  "notes": "Government DITC project page describes the Nagaland State Data Centre as the centralized IT infrastructure hub for hosting government applications and enabling secure digital service delivery; architect portfolio places the Nagaland State Data Centre at Kohima and lists an area of 2,500 sq ft with IBM as client, but no MW capacity was found.",
+  "world_batch": true
+}

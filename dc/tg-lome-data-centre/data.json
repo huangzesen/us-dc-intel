@@ -1,0 +1,22 @@
+{
+  "slug": "tg-lome-data-centre",
+  "canonical_project": "Lomé Data Centre",
+  "owner": "Société d'Infrastructures Numériques (SIN) / Republic of Togo",
+  "location": {
+    "city": "",
+    "subnational": "Maritime",
+    "country": "Togo",
+    "country_code": "TG"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://lomedatacentre.tg/en",
+    "https://www.togofirst.com/en/itc/0206-7934-togo-inaugurates-its-first-tier-iii-data-center",
+    "https://www.peeringdb.com/fac/11847"
+  ],
+  "notes": "Official site describes Lomé Data Centre as Togo's first carrier-neutral Tier III+ data center, operated by SIN, serving enterprises, ISPs, mobile operators and cloud operators; official site lists power capacity as 1+ MW. Togo First reported the government inauguration in Lomé on 2021-06-04; PeeringDB lists the facility in Lomé and operator SIN.",
+  "world_batch": true
+}

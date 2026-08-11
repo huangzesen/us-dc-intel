@@ -1,0 +1,21 @@
+{
+  "slug": "cn-agricultural-bank-of-china-data-center-third-division-horinger-project",
+  "canonical_project": "Agricultural Bank of China Data Center Third Division Horinger Project",
+  "owner": "Agricultural Bank of China",
+  "location": {
+    "city": "",
+    "subnational": "Inner Mongolia - Hohhot Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 122.4,
+  "status": "operational",
+  "evidence_date": "2025-09-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cummins.com/en-na/case-studies/inner-mongolia-data-center-cummins-standby-power",
+    "https://www.zxbq.gov.cn/zxbq/xwdt/zyxw/2025071408532060821/index.html"
+  ],
+  "notes": "Cummins case study for AgBank's Horinger financial data center phase 1 states 209,000 sqm construction area and 122.4 MW installed standby generator capacity; local government news says the ABC third-division Horinger project was lit and operating.",
+  "world_batch": true
+}

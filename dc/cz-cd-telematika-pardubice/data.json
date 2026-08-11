@@ -1,0 +1,21 @@
+{
+  "slug": "cz-cd-telematika-pardubice",
+  "canonical_project": "ČD-Telematika Pardubice",
+  "owner": "ČD-Telematika",
+  "location": {
+    "city": "",
+    "subnational": "Pardubice",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/czech-republic/pardubice/cd-telematika-pardubice/",
+    "https://datacenterplatform.com/data-centers/cd-telematics/cd-telematics-as-czech/cd-telematika-pardubice/"
+  ],
+  "notes": "DataCenterMap lists ČD-Telematika Pardubice at Hlavacova 205, 530 02 Pardubice; Data Center Platform independently lists the same Pardubice facility for CD-Telematics.",
+  "world_batch": true
+}

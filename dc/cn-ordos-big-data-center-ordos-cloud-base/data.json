@@ -1,0 +1,21 @@
+{
+  "slug": "cn-ordos-big-data-center-ordos-cloud-base",
+  "canonical_project": "Ordos Big Data Center / Ordos Cloud Base",
+  "owner": "Ordos municipal high-tech zone / multiple tenants",
+  "location": {
+    "city": "",
+    "subnational": "Inner Mongolia - Ordos Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2017-01-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://developer.aliyun.com/article/145162",
+    "https://www.mj.org.cn/mjzt/2012nzt/2012lh/2012lhjyxc/2012lhzlmqt/201203/t20120313_137242.htm"
+  ],
+  "notes": "Aliyun developer article describes two planned/constructed bases, Ordos High-Tech Zone Cloud Computing Industrial Park and Ordos Big Data Center, with ZTE, China Unicom and other projects built and more than 30,000 rack capacity in standardized data rooms under construction.",
+  "world_batch": true
+}

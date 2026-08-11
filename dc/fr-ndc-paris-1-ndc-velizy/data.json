@@ -1,0 +1,22 @@
+{
+  "slug": "fr-ndc-paris-1-ndc-velizy",
+  "canonical_project": "NDC Paris 1 / NDC Vélizy",
+  "owner": "Nation Data Center / Altarea",
+  "location": {
+    "city": "",
+    "subnational": "Yvelines",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 7,
+  "status": "construction",
+  "evidence_date": "2025-11-17",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.altarea.com/projets/ndc-velizy/",
+    "https://www.altarea.com/en/altarea-announces-major-progress-in-data-centersat-choose-france-summit/",
+    "https://nationdatacenter.fr/en/ndc-paris1-2/"
+  ],
+  "notes": "Altarea's project page lists NDC Paris 1 in Vélizy-Villacoublay (78) as 'Travaux en cours', delivery 2027, 2,268 sq m IT surface and 7 MW IT target power. Altarea also announced a building permit for a 7 MW IT Vélizy data center on 2025-11-17; NDC's site says delivery is in H2 2027.",
+  "world_batch": true
+}

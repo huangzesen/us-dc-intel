@@ -1,0 +1,21 @@
+{
+  "slug": "cn-oneasia-jiangsu-nantong-data-centre",
+  "canonical_project": "OneAsia Jiangsu Nantong Data Centre",
+  "owner": "OneAsia Network",
+  "location": {
+    "city": "",
+    "subnational": "Jiangsu - Nantong Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 80,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.oneas1a.com/nantong/",
+    "https://www.datacentermap.com/china/nantong/"
+  ],
+  "notes": "OneAsia describes the site as located in the Nantong International Data Centre Zone near Shanghai; DataCenterMap lists the strategic flagship Nantong facility as supported by 80 MW IT load.",
+  "world_batch": true
+}

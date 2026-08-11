@@ -1,0 +1,21 @@
+{
+  "slug": "fr-webaxys-dc1-rouen-datacenter",
+  "canonical_project": "Webaxys DC1 Rouen datacenter",
+  "owner": "Webaxys",
+  "location": {
+    "city": "",
+    "subnational": "Seine-Maritime",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.webaxys.fr/nos-4-datacenters-sur-le-territoire",
+    "https://pue.webaxys.net/"
+  ],
+  "notes": "Webaxys identifies a Rouen/Sotteville-lès-Rouen datacenter footprint and publishes site metrics/contact details.",
+  "world_batch": true
+}

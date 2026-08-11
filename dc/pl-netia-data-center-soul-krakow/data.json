@@ -1,0 +1,21 @@
+{
+  "slug": "pl-netia-data-center-soul-krakow",
+  "canonical_project": "Netia Data Center SOUL Krakow",
+  "owner": "Netia",
+  "location": {
+    "city": "",
+    "subnational": "Lesser Poland",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.netia.pl/en/instytucje-publiczne/produkty/data-center-cloud/data-center",
+    "https://cloudscene.com/data-center/poland/krakow/netia-netia-data-center-soul-krakow"
+  ],
+  "notes": "Netia official page identifies Data Center SOUL, formerly Onet Data Center, in Krakow; Cloudscene states it spans 3,200 sqm with about 500 racks.",
+  "world_batch": true
+}

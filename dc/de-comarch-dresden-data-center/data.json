@@ -1,0 +1,21 @@
+{
+  "slug": "de-comarch-dresden-data-center",
+  "canonical_project": "Comarch Dresden Data Center",
+  "owner": "Comarch",
+  "location": {
+    "city": "",
+    "subnational": "Saxony - Dresden",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.comarch.com/trade-and-services/ict/data-center/dc-germany-dresden/",
+    "https://datacenterplatform.com/data-centers/comarch/comarch-germany/comarch-dresden/"
+  ],
+  "notes": "Official Comarch page lists a Dresden data center at Chemnitzer Str. 59b offering managed services, cloud hosting, colocation, disaster recovery, and backup; third-party platform reports 1,143 sqm and 2.4 MW connection capacity.",
+  "world_batch": true
+}

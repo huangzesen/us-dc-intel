@@ -1,0 +1,22 @@
+{
+  "slug": "de-regionales-rechenzentrum-erlangen-rrze",
+  "canonical_project": "Regionales Rechenzentrum Erlangen (RRZE)",
+  "owner": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Erlangen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.rrze.fau.de/",
+    "https://www.rrze.fau.de/infocenter/kontakt-hilfe/anfahrtsbeschreibung/",
+    "https://datacenterplatform.com/data-centers/rrze/rrze-germany/"
+  ],
+  "notes": "RRZE official pages identify the university computing center and central IT services at Martensstraße 1, 91058 Erlangen. Datacenterplatform lists 'Regionales Rechenzentrum Erlangen' at the same address. MW capacity not disclosed.",
+  "world_batch": true
+}

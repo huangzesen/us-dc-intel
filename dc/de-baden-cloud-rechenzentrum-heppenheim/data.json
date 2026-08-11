@@ -1,0 +1,20 @@
+{
+  "slug": "de-baden-cloud-rechenzentrum-heppenheim",
+  "canonical_project": "BADEN CLOUD Rechenzentrum Heppenheim",
+  "owner": "BADEN CLOUD",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Bergstraße",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.badencloud.de/rechenzentren/rechenzentrum-heppenheim/"
+  ],
+  "notes": "Provider advertises a high-availability cloud/data center in Heppenheim, Landkreis Bergstraße; no MW capacity disclosed.",
+  "world_batch": true
+}

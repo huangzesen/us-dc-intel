@@ -1,0 +1,21 @@
+{
+  "slug": "hk-mapletree-fanling-data-centre",
+  "canonical_project": "Mapletree Fanling Data Centre",
+  "owner": "Mapletree Investments",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mapletree.com.sg/development-capabilities/",
+    "https://www.datacenterdynamics.com/en/news/mapletree-plans-first-data-center-hong-kong/"
+  ],
+  "notes": "Mapletree's development-capabilities page lists its first Hong Kong SAR data centre at Fanling with completion year 2026 and up to 50MVA building power; capacity_mw left null because source states MVA rather than MW.",
+  "world_batch": true
+}

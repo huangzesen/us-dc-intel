@@ -1,0 +1,21 @@
+{
+  "slug": "pt-ctm-meo-madeira-data-centre",
+  "canonical_project": "CTM/MEO Madeira Data Centre",
+  "owner": "CTM/MEO; Altice Portugal",
+  "location": {
+    "city": "",
+    "subnational": "Madeira",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ibc-madeira.com/en/company-formation/e-business-and-technology.html",
+    "https://en.meo.pt/business/solutions/cloud-datacenter/data-centers/network"
+  ],
+  "notes": "IBC Madeira describes CTM/MEO Data Centre adjacent to the submarine cable station with redundancy and direct international network integration; MEO says its national data center network includes Madeira.",
+  "world_batch": true
+}

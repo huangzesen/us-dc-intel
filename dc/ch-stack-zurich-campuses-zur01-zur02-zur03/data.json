@@ -1,0 +1,21 @@
+{
+  "slug": "ch-stack-zurich-campuses-zur01-zur02-zur03",
+  "canonical_project": "STACK Zurich campuses ZUR01, ZUR02, ZUR03",
+  "owner": "STACK Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Zurich",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.stackinfra.com/locations/emea/zurich/",
+    "https://baxtel.com/data-center/stack-zur03"
+  ],
+  "notes": "STACK's official Zurich page lists ZUR01, ZUR02, and ZUR03 campuses serving hyperscale and cloud demand; Baxtel lists ZUR03 at Murzlenstrasse as planned with year planned 2029. Note: some Zurich-market assets may sit outside Canton Zurich, so location should be refined before site-specific use.",
+  "world_batch": true
+}

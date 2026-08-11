@@ -1,0 +1,20 @@
+{
+  "slug": "kr-bundang-hostway-idc",
+  "canonical_project": "Bundang Hostway IDC",
+  "owner": "Hostway / IGIS Value Plus REIT",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Seongnam-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 12.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.igisvaluereit.com/products/bundang_bldg.php"
+  ],
+  "notes": "IGIS Value Plus REIT property page identifies Bundang Hostway IDC as a Tier 3 data center with total 12.5MW capacity and dual power receiving facilities from Yatap and Bundang substations.",
+  "world_batch": true
+}

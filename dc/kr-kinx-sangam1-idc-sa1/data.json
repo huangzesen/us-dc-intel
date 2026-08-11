@@ -1,0 +1,22 @@
+{
+  "slug": "kr-kinx-sangam1-idc-sa1",
+  "canonical_project": "KINX Sangam1 IDC (SA1)",
+  "owner": "KINX Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Mapo-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.kinx.net/infrastructure/dc/?lang=en",
+    "https://www.datacentermap.com/south-korea/seoul/kinx-sangam-center/",
+    "https://colomap.com/facilities/kinx-sangam1-idc-sa1/"
+  ],
+  "notes": "KINX's official data-center page lists IDC Sangam 1 at LG CNS Sangam IT Center, 424 World Cup buk-ro, Mapo-gu, Seoul. Public MW capacity not disclosed by KINX.",
+  "world_batch": true
+}

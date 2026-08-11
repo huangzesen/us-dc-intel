@@ -1,0 +1,21 @@
+{
+  "slug": "va-vatican-computer-center-c-e-d-vatican-datacenter",
+  "canonical_project": "Vatican Computer Center (C.E.D.) / Vatican Datacenter",
+  "owner": "Holy See (Vatican Internet Service / Vatican Apostolic Library IT Center)",
+  "location": {
+    "city": "",
+    "subnational": "Holy See",
+    "country": "Holy See",
+    "country_code": "VA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vaticanlibrary.va/en/the-library/it-center.html",
+    "https://lowendbox.com/blog/habemus-papam-welcome-pope-leo-xiv-btw-does-the-vatican-have-a-datacenter-yes-pics-inside/"
+  ],
+  "notes": "The Holy See's in-country institutional datacenter in Vatican City (Cortile Belvedere, 00120 Citta del Vaticano). Official Vatican Apostolic Library page describes the C.E.D./IT Center: ~5 PB EMC Isilon NAS cluster (35+5 nodes) and 2x EMC VNX SAN (30 TB each, VPLEX-replicated) distributed across two sites (Conciliazione and Belvedere), 100+ VMs on VMware (7 main + 3 backup compute nodes, ~212 GHz CPU, ~1 TB RAM), Cisco network with 512 static IPs (RIPE), BGP and 1 Gbps links to NAMEX/Cogent. Vatican Internet Service (VIS) acts as ISP/registrar for the .va domain, hosting web, mail, DNS and digital-archive servers. No commercial/colocation datacenter market exists in the 0.44 km2 territory, and no new-build datacenter projects (announced/planned/under construction) were found; most Church IT workloads run on-prem with some services hosted in Rome/cloud per LowEndBox (May 2025).",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "de-sap-cloud-services-data-center-walldorf",
+  "canonical_project": "SAP cloud services data center - Walldorf",
+  "owner": "SAP SE",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Rhein-Neckar-Kreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-05-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sap.com/docs/download/agreements/product-use-and-support-terms/cls/en/list-of-data-centers-for-sap-cloud-services-english-v.5-2021.pdf"
+  ],
+  "notes": "SAP's published cloud-services data-center location list includes Germany/Walldorf as a data center location for selected SAP cloud services.",
+  "world_batch": true
+}

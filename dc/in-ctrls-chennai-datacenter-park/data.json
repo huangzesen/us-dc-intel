@@ -1,0 +1,21 @@
+{
+  "slug": "in-ctrls-chennai-datacenter-park",
+  "canonical_project": "CtrlS Chennai Datacenter Park",
+  "owner": "CtrlS Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Tamil Nadu - Chennai",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 72,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ctrls.in/",
+    "https://www.ctrls.in/data-center-services.php"
+  ],
+  "notes": "CtrlS's own data-center footprint page lists the Chennai Datacenter Park with 1 million sq ft area and 72 MW IT load capacity. The services page breaks the park into Chennai DC buildings with 20 MW-class phases.",
+  "world_batch": true
+}

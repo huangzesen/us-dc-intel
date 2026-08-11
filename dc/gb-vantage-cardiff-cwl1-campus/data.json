@@ -1,0 +1,22 @@
+{
+  "slug": "gb-vantage-cardiff-cwl1-campus",
+  "canonical_project": "Vantage Cardiff / CWL1 campus",
+  "owner": "Vantage Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Wales - Newport",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 148.0,
+  "status": "operational",
+  "evidence_date": "2026-07",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vantage-dc-cardiff.co.uk/",
+    "https://tradeandinvest.wales/inside-story/vantage-data-centers",
+    "https://www.datacenterdynamics.com/en/analysis/silicon-valleys-how-wales-became-a-data-center-hub/"
+  ],
+  "notes": "Operational Vantage/NGD campus at/near Newport marketed as Vantage Cardiff CWL1. Vantage site says 2,000,000 sq ft and 148MW+ upgradeable power availability; DCD reports 148MW of power, two operational data centers and another planned.",
+  "world_batch": true
+}

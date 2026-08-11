@@ -1,0 +1,20 @@
+{
+  "slug": "bd-bdcolo-mohakhali-data-centers",
+  "canonical_project": "BDCOLO Mohakhali Data Centers",
+  "owner": "BD Colo Limited",
+  "location": {
+    "city": "",
+    "subnational": "Dhaka",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.bdcolo.net/data-centers"
+  ],
+  "notes": "BDCOLO provider page states 3 active Bangladesh data centers, carrier-neutral Tier III infrastructure with 2N redundancy, and lists contact location in Mohakhali, Dhaka; individual site capacities not stated.",
+  "world_batch": true
+}

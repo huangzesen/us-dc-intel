@@ -1,0 +1,20 @@
+{
+  "slug": "vu-interchange-port-vila-cable-station-data-centre-icx",
+  "canonical_project": "Interchange Port Vila Cable Station Data Centre (ICX)",
+  "owner": "Interchange (ICN) / Vanuatu Cable Company",
+  "location": {
+    "city": "",
+    "subnational": "Shefa",
+    "country": "Vanuatu",
+    "country_code": "VU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://web.archive.org/web/20131110145403/http://interchange.vu/current-projects/"
+  ],
+  "notes": "Archived official Interchange project page (2013) lists new data centre facilities with 22 racks incorporated within the Port Vila cable station of the ICX submarine cable system (Port Vila-Suva, linking to Southern Cross), including co-location facilities for customers; cable ready for service Jan 2014. Still referenced as the Vanuatu landing station/colo point. No public MW capacity.",
+  "world_batch": true
+}

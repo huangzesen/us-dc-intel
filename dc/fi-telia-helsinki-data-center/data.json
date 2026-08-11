@@ -1,0 +1,21 @@
+{
+  "slug": "fi-telia-helsinki-data-center",
+  "canonical_project": "Telia Helsinki Data Center",
+  "owner": "Telia Company",
+  "location": {
+    "city": "",
+    "subnational": "Uusimaa",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": 24,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telia.fi/business/data-center-services/data-center",
+    "https://www.datacenterdynamics.com/en/news/telia-opens-finlands-largest-shared-data-center/"
+  ],
+  "notes": "Telia official page describes the Helsinki data center colocation facility; DCD reported the Valimotie 5 facility opened in 2018 and could eventually scale toward 100 MW IT load. DataCenterMap lists 24 MW; capacity grade treated as aggregate-derived.",
+  "world_batch": true
+}

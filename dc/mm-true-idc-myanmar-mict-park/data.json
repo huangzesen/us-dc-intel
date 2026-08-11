@@ -1,0 +1,21 @@
+{
+  "slug": "mm-true-idc-myanmar-mict-park",
+  "canonical_project": "True IDC Myanmar, MICT Park",
+  "owner": "True Internet Data Center / True IDC",
+  "location": {
+    "city": "",
+    "subnational": "Yangon",
+    "country": "Myanmar",
+    "country_code": "MM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.trueidc.com/en/myanmar",
+    "https://www.datacentermap.com/myanmar/yangon/true-idc-myanmar/"
+  ],
+  "notes": "True IDC's official Myanmar page states that it established True IDC Myanmar in 2015, the first commercial data center in Myanmar, located at MICT Park, Yangon. Directory sources also list the facility, but capacity is not disclosed on the official page.",
+  "world_batch": true
+}

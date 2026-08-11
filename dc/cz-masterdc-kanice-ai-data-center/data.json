@@ -1,0 +1,21 @@
+{
+  "slug": "cz-masterdc-kanice-ai-data-center",
+  "canonical_project": "MasterDC Kanice AI Data Center",
+  "owner": "MasterDC / Master Internet, Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "South Moravia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": 25,
+  "status": "planned",
+  "evidence_date": "2025-10-14",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.masterdc.com/blog/masterdc-to-open-the-czech-republics-first-ai-data-center-next-year/",
+    "https://www.datacentermap.com/czech-republic/brno/"
+  ],
+  "notes": "MasterDC announced an AI-focused data center in Kanice near Brno, planned to start operations in autumn 2026; source states total planned site power capacity up to 25 MW.",
+  "world_batch": true
+}

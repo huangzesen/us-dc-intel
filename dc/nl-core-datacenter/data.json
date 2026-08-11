@@ -1,0 +1,20 @@
+{
+  "slug": "nl-core-datacenter",
+  "canonical_project": "CORE Datacenter",
+  "owner": "CORE N.V.",
+  "location": {
+    "city": "",
+    "subnational": "Curacao",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/curacao/willemstad/core-datacenter/"
+  ],
+  "notes": "Registry page lists CORE N.V.'s Tier III-certified datacenter at 18 Vesuviusstraat, Willemstad with redundant power/cooling and 24/7 NOC; capacity not disclosed.",
+  "world_batch": true
+}

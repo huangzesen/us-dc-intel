@@ -1,0 +1,22 @@
+{
+  "slug": "al-host-al-tirana-colocation-datacenter",
+  "canonical_project": "Host.al Tirana colocation datacenter",
+  "owner": "Host.al Shpk",
+  "location": {
+    "city": "",
+    "subnational": "Tirane",
+    "country": "Albania",
+    "country_code": "AL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://host.al/colocation-datacenter-in-albania/?lang=en",
+    "https://host.al/support/?lang=en",
+    "https://www.datacentermap.com/albania/tirana/hostal-shpk/"
+  ],
+  "notes": "Host.al's own pages advertise colocation, VPS and dedicated server hosting from its Albania/Tirana datacenter with redundant power, cooling and 24/7 monitoring; Data Center Map lists the facility in Tirana.",
+  "world_batch": true
+}

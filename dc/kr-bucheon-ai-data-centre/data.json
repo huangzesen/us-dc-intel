@@ -1,0 +1,22 @@
+{
+  "slug": "kr-bucheon-ai-data-centre",
+  "canonical_project": "Bucheon AI Data Centre",
+  "owner": "Naver Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Bucheon-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 4.8,
+  "status": "construction",
+  "evidence_date": "2025-06-30",
+  "evidence_grade": "B",
+  "sources": [
+    "https://assets.cushmanwakefield.com/-/media/cw/marketbeat-pdfs/2025/q2/apac-and-gc/korea---data-center-1h-2025-eng_fin_.pdf?rev=0cb5fa8d986747a0b36fce070e4ffc2d",
+    "https://www.datacentermap.com/south-korea/incheon/naver-bucheon-ai-data-centre/",
+    "https://smartcity.go.kr/en/2021/10/25/%EB%B6%80%EC%B2%9C%EC%8B%9C-ai%EB%8F%84%EC%8B%9C-%EC%84%B1%EC%9E%A5%EC%97%90-%EC%86%8D%EB%8F%84%EB%82%B8%EB%8B%A4/"
+  ],
+  "notes": "Cushman & Wakefield 1H 2025 construction list shows Bucheon AI Data Centre, Naver Cloud, 18,683 sqm and 4.8MW. Smart City Korea reported Naver Cloud support for the Bucheon AI data center.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "gb-hartree-centre-daresbury-supercomputing-data-centre",
+  "canonical_project": "Hartree Centre / Daresbury supercomputing data centre",
+  "owner": "Science and Technology Facilities Council (STFC) / Hartree Centre",
+  "location": {
+    "city": "",
+    "subnational": "England - Borough of Halton",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-10-21",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.hartree.stfc.ac.uk/news/2022/07/18/construction-work-begins-on-new-30m-supercomputing-centre/",
+    "https://sci-techdaresbury.com/new-supercomputer-centre/",
+    "https://www.datacenterdynamics.com/en/news/uk-stfc-deploys-2441-petaflops-ai-supercomputer-at-new-daresbury-center/"
+  ],
+  "notes": "Hartree/STFC announced construction of a new GBP30m data centre/supercomputing centre at Sci-Tech Daresbury; DCD reports the Mary Coombs 24.41 petaflops AI supercomputer was deployed there in 2025.",
+  "world_batch": true
+}

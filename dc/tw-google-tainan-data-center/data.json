@@ -1,0 +1,22 @@
+{
+  "slug": "tw-google-tainan-data-center",
+  "canonical_project": "Google Tainan Data Center",
+  "owner": "Google",
+  "location": {
+    "city": "",
+    "subnational": "Tainan",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2024-03-19",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/google-invests-850m-another-hyperscale-facility-taiwan/",
+    "https://www.taipeitimes.com/News/biz/archives/2024/03/19/2003815121",
+    "https://focustaiwan.tw/business/202403170013"
+  ],
+  "notes": "Taiwanese officials gave assent in Oct 2019 for Google's second hyperscale facility in Tainan, with a reported US$850m investment (DCD); Google also signed a 10 MW solar PPA in Tainan. As of March 2024 Google Taiwan GM said the Tainan plan was still under assessment pending market demand; no construction completion confirmed as of check, so status recorded as planned.",
+  "world_batch": true
+}

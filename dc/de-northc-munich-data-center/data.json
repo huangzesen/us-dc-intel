@@ -1,0 +1,20 @@
+{
+  "slug": "de-northc-munich-data-center",
+  "canonical_project": "NorthC Munich Data Center",
+  "owner": "NorthC Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Munich ( München )",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.northcdatacenters.com/de/northc-datacenters/muenchen/"
+  ],
+  "notes": "NorthC lists its Munich data center with 5,000 sqm total area and 2 MW total power, built to DIN 50600 CAT III.",
+  "world_batch": true
+}

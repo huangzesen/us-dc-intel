@@ -1,0 +1,23 @@
+{
+  "slug": "kr-amazon-aws-incheon-gajwa-tech-center",
+  "canonical_project": "Amazon AWS Incheon / Gajwa Tech Center",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Incheon - Seo-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 96,
+  "status": "construction",
+  "evidence_date": "2025-10-29",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/aws-to-invest-5bn-in-south-korea-data-centers/",
+    "https://www.mk.co.kr/en/it/11249057",
+    "https://assets.cushmanwakefield.com/-/media/cw/marketbeat-pdfs/2024/q4/apac-and-gc/south-korea-2024-h2-data-center_eng.pdf?rev=b0be7261daf944b7b93e86331d2601e1",
+    "https://www.datacentermap.com/south-korea/incheon/amazon-aws-incheon/specs/"
+  ],
+  "notes": "DCD reported AWS is building a data center in Seo-gu, Incheon. Maeil Business News said AWS began building a mega-scale data center in the Seo-gu industrial area after purchasing the site and receiving design approval, with about 100 MW. Cushman & Wakefield's 2H 2024 construction list identifies Incheon Gajwa Tech Center, operator/developer AWS, 42,454 sqm and 16 MW initial / 96 MW total capacity. Data Center Map identifies the site at 585-49/585-1 Gajwa-dong, Seo-gu.",
+  "world_batch": true
+}

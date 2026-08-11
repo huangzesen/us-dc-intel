@@ -1,0 +1,20 @@
+{
+  "slug": "na-mtn-windhoek",
+  "canonical_project": "MTN Windhoek",
+  "owner": "MTN",
+  "location": {
+    "city": "",
+    "subnational": "Khomas",
+    "country": "Namibia",
+    "country_code": "NA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/countries/namibia/"
+  ],
+  "notes": "Data Center Platform's Namibia country listing includes MTN Windhoek among mapped data centres; no capacity or further facility detail found.",
+  "world_batch": true
+}

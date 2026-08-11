@@ -1,0 +1,21 @@
+{
+  "slug": "pf-kyndryl-papeete-data-center",
+  "canonical_project": "Kyndryl Papeete Data Center",
+  "owner": "Kyndryl",
+  "location": {
+    "city": "",
+    "subnational": "French Polynesia",
+    "country": "French Polynesia",
+    "country_code": "PF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/kyndryl-papeete-french-polynesia-data-center",
+    "https://www.kyndryl.com/fr/fr/about-us/locations"
+  ],
+  "notes": "Datacenters.com lists a Kyndryl Papeete, French Polynesia data center; Kyndryl's own locations page confirms a French Polynesia office in Papeete, but no primary technical facility details were found.",
+  "world_batch": true
+}

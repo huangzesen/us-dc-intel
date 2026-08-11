@@ -1,0 +1,21 @@
+{
+  "slug": "tw-cht-taipei-east-7-idc",
+  "canonical_project": "CHT Taipei East 7 IDC",
+  "owner": "Chunghwa Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Taipei",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location_Taipei_East_Seven.html",
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location.html"
+  ],
+  "notes": "Chunghwa Telecom's official IDC location page lists Taipei East 7 IDC; the same page also lists Taipei East 6 IDC and Taipei Jiantan IDC, giving CHT at least six IDC sites in Taipei City proper (Xinyi, Aiguo, East 6, East 7, Jiantan, plus the flagship Taipei/Banqiao campus). No capacity published.",
+  "world_batch": true
+}

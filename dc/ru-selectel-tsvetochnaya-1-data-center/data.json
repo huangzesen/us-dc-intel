@@ -1,0 +1,21 @@
+{
+  "slug": "ru-selectel-tsvetochnaya-1-data-center",
+  "canonical_project": "Selectel Tsvetochnaya 1 Data Center",
+  "owner": "Selectel",
+  "location": {
+    "city": "",
+    "subnational": "Saint Petersburg",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://selectel.ru/about/data-centers/",
+    "https://docs.selectel.ru/en/infrastructure/locations/"
+  ],
+  "notes": "Selectel's official data-center page lists Tsvetochnaya 1 in Saint Petersburg with 679 sqm of server rooms, 227 racks, and 3 MW supplied power; official documentation provides the Saint Petersburg address.",
+  "world_batch": true
+}

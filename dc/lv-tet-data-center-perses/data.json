@@ -1,0 +1,20 @@
+{
+  "slug": "lv-tet-data-center-perses",
+  "canonical_project": "Tet Data Center Perses",
+  "owner": "Tet",
+  "location": {
+    "city": "",
+    "subnational": "Riga",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": 0.7,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tetcloud.com/data-centers"
+  ],
+  "notes": "Tet Cloud operator page lists Perses as a carrier-neutral telecom and internet traffic exchange data center with 80 racks and 0.7 MW.",
+  "world_batch": true
+}

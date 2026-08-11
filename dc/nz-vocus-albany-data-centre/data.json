@@ -1,0 +1,22 @@
+{
+  "slug": "nz-vocus-albany-data-centre",
+  "canonical_project": "Vocus Albany Data Centre",
+  "owner": "Vocus",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.vocus.com.au/enterprise/colocation-hybrid-cloud",
+    "https://cloudscene.com/data-center/new-zealand/auckland/vocus-communications-nz-7a-7c-data-centre",
+    "https://itbrief.co.nz/story/vocus-unveils-new-zealands-most-connected-data-centre"
+  ],
+  "notes": "Vocus offers colocation/data centre services and directory/trade sources identify its Albany, Auckland 7A/7C data centre. No public MW capacity found.",
+  "world_batch": true
+}

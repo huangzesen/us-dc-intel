@@ -1,0 +1,20 @@
+{
+  "slug": "cn-china-telecom-hangzhou-big-data-center-campus",
+  "canonical_project": "China Telecom Hangzhou Big Data Center Campus",
+  "owner": "China Telecom / Zhejiang telecom entities",
+  "location": {
+    "city": "",
+    "subnational": "Zhejiang - Hangzhou Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 160,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/china-telecom-hangzhou-big-data-center"
+  ],
+  "notes": "Baxtel lists the campus as operational, built in 2023, spanning 168.2 mu and over 230,000 sqm, with capacity for 20,000 cabinets at 8 kW each; capacity_mw is inferred as 20,000 x 8 kW = 160 MW. Phase 1 reportedly included four data-center buildings, a power center, operations center and 110 kV substation.",
+  "world_batch": true
+}

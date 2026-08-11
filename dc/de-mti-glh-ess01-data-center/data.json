@@ -1,0 +1,21 @@
+{
+  "slug": "de-mti-glh-ess01-data-center",
+  "canonical_project": "MTI/GLH ESS01 data center",
+  "owner": "MTI / GLH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Essen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 2.8,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/28-teilungsweg-essen/mti-glh/datacenter/ess01",
+    "https://inflect.com/datacenters/emea/germany/ruhr-area"
+  ],
+  "notes": "Inflect lists ESS01 at 28 Teilungsweg, Essen with 2.8 MW total power capacity and N+1 cooling; aggregate/directory source only.",
+  "world_batch": true
+}

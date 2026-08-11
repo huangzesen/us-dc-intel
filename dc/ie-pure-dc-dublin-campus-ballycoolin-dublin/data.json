@@ -1,0 +1,21 @@
+{
+  "slug": "ie-pure-dc-dublin-campus-ballycoolin-dublin",
+  "canonical_project": "Pure DC Dublin campus, Ballycoolin, Dublin",
+  "owner": "Pure Data Centres / AVK",
+  "location": {
+    "city": "",
+    "subnational": "Leinster",
+    "country": "Ireland",
+    "country_code": "IE"
+  },
+  "capacity_mw": 54,
+  "status": "operational",
+  "evidence_date": "2026-03-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/pure-dc-plans-natural-gas-microgrid-at-dublin-data-center-campus-ireland/",
+    "https://puredc.com/"
+  ],
+  "notes": "Pure DC's DUB01 has been operational since 2024; DCD reports the Ballycoolin campus is designed to deliver 54MW across DUB01, DUB02, and DUB03, with a 110MW on-site microgrid and a possible 90MW future expansion subject to permitting and power.",
+  "world_batch": true
+}

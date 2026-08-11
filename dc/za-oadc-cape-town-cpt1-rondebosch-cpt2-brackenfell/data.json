@@ -1,0 +1,23 @@
+{
+  "slug": "za-oadc-cape-town-cpt1-rondebosch-cpt2-brackenfell",
+  "canonical_project": "OADC Cape Town (CPT1 Rondebosch / CPT2 Brackenfell)",
+  "owner": "Open Access Data Centres (WIOCC Group)",
+  "location": {
+    "city": "",
+    "subnational": "Western Cape - City of Cape Town",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-07-01",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-africa/cape-town/is-cape-town/",
+    "https://baxtel.com/data-centers/open-access-data-centres-oadc",
+    "https://www.consoleconnect.com/2023/07/console-connect-and-oadc-expand-global-access-to-data-centres-in-africa/",
+    "https://openaccessdc.net/oadc-hyperscale-core-data-centres/"
+  ],
+  "notes": "OADC operates two core data centres in Cape Town: OADC Cape Town (CPT1, Rondebosch, Tier III, ~2,000 sqm) and OADC Brackenfell (CPT2); it also acquired seven former NTT Data SA facilities in South Africa. Part of WIOCC Group's core-to-edge network (30+ edge DCs across SA). Exact MW capacity not stated in sources.",
+  "world_batch": true
+}

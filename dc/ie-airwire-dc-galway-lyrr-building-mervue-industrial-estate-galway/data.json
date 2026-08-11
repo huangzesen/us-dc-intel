@@ -1,0 +1,21 @@
+{
+  "slug": "ie-airwire-dc-galway-lyrr-building-mervue-industrial-estate-galway",
+  "canonical_project": "Airwire DC Galway, Lyrr Building, Mervue Industrial Estate, Galway",
+  "owner": "Airwire Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Connaught",
+    "country": "Ireland",
+    "country_code": "IE"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.airwire.net/index.php/about",
+    "https://baxtel.com/data-center/airwire-dc-galway"
+  ],
+  "notes": "Airwire's own about page says it operates a small data center in Galway City; Baxtel lists Airwire DC Galway as operational and indicates 1MW for the operator.",
+  "world_batch": true
+}

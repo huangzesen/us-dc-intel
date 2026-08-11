@@ -1,0 +1,20 @@
+{
+  "slug": "in-ctrls-bengaluru-datacenter",
+  "canonical_project": "CtrlS Bengaluru Datacenter",
+  "owner": "CtrlS Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Karnataka - Bangalore Urban",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 13,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ctrls.com/datacenter-bangalore/"
+  ],
+  "notes": "Official CtrlS page lists its Electronic City, Bengaluru Rated-4 facility with 2,000 racks, 106,536 sq ft built-up area and 13 MW IT power capacity.",
+  "world_batch": true
+}

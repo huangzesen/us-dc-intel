@@ -1,0 +1,21 @@
+{
+  "slug": "gn-guinea-national-tier-iii-data-center",
+  "canonical_project": "Guinea National Tier III Data Center",
+  "owner": "Government of Guinea / Ministry of Posts, Telecommunications and Digital Economy; ANIEN; IXP1",
+  "location": {
+    "city": "",
+    "subnational": "Conakry",
+    "country": "Guinea",
+    "country_code": "GN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-09-04",
+  "evidence_grade": "B",
+  "sources": [
+    "https://lelynx.net/2025/09/souverainete-numerique-la-guinee-inaugure-son-premier-data-center/",
+    "https://www.ixp1.com/guinea-launches-national-tier-iii-data-center-a-leap-toward-digital-sovereignty/"
+  ],
+  "notes": "Inaugurated in Conakry on 2025-09-04 as Guinea's first national Tier III data center; reported configuration includes two IT rooms and 150 kVA of redundant power. Capacity_mw left null because source reports kVA rather than MW.",
+  "world_batch": true
+}

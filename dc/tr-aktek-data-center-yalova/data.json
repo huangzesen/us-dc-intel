@@ -1,0 +1,20 @@
+{
+  "slug": "tr-aktek-data-center-yalova",
+  "canonical_project": "Aktek Data Center Yalova",
+  "owner": "Aktek Bilisim (Akkok Holding)",
+  "location": {
+    "city": "",
+    "subnational": "Yalova",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2012-07-21",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.yalovagazetesi.com/aktekten-yalovaya-data-center"
+  ],
+  "notes": "Corporate mirror/disaster-recovery data center built by Akkok Group IT arm Aktek in Ciftlikkoy, Yalova (commissioned 2012) as backup to the group's Istanbul DC; approx USD 400k building + USD 300k equipment; small corporate facility, no public MW capacity.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "fr-gcs-tesis-datacenter-hds",
+  "canonical_project": "GCS Tesis Datacenter HDS",
+  "owner": "GCS Tesis",
+  "location": {
+    "city": "",
+    "subnational": "La Réunion",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tesis.fr/services/datacenter-hds/"
+  ],
+  "notes": "GCS Tesis' own service page states its HDS data center is locally implanted in La Réunion and provides low-latency availability for local applications and data.",
+  "world_batch": true
+}

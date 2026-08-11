@@ -1,0 +1,22 @@
+{
+  "slug": "sa-center3-shariya-makkah-neidc-makkah34",
+  "canonical_project": "Center3 Shariya Makkah / NEIDC Makkah34",
+  "owner": "Center3 / Saudi Telecom Company",
+  "location": {
+    "city": "",
+    "subnational": "Mecca Region - Makkah al Mukarramah",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/saudi-arabia/mecca/center3-shariya-makkah/",
+    "https://www.ocolo.io/colocation/center3/mecca-neidc-makkah34/",
+    "https://center3.com/"
+  ],
+  "notes": "DataCenterMap lists Center3 Shariya Makkah in Mecca with site code MKK1 / MKDC-34; OCOLO lists the same Center3 Mecca NEIDC Makkah34 facility. Center3 confirms Saudi data-center operations, but no public MW capacity was found for this site.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "it-mediterra-pmo01-open-hub-med-palermo",
+  "canonical_project": "Mediterra PMO01 / Open Hub Med Palermo",
+  "owner": "Mediterra Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Sicily",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": 2.0,
+  "status": "operational",
+  "evidence_date": "2026-02-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mediterradatacenters.com/pmo-01/",
+    "https://www.datacenterdynamics.com/en/news/mediterra-acquires-sicilys-open-hub-med/",
+    "https://www.datacentermap.com/italy/palermo/open-hub-med/"
+  ],
+  "notes": "Mediterra lists PMO01 as the former Open Hub Med Palermo data center; DCD reports Open Hub Med operates a 2 MW, 1,000 sqm facility in Carini near Palermo and was acquired by Mediterra.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "fr-ultraedge-rennes",
+  "canonical_project": "UltraEdge Rennes",
+  "owner": "UltraEdge",
+  "location": {
+    "city": "",
+    "subnational": "Ille-et-Vilaine",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://dchub.cloud/facilities/ultraedge-ultraedge-rennes-d6539d3b",
+    "https://marketplace.datalok.io/en/datacenter/ultraedge/ultraedge-rennes"
+  ],
+  "notes": "Industry marketplaces list UltraEdge Rennes in Cesson-Sévigné as operational; DC Hub reports 3 MW, Datalok reports 1.4 MW IT power with 1.25 MW available.",
+  "world_batch": true
+}

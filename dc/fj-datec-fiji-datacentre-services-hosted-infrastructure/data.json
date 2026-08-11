@@ -1,0 +1,22 @@
+{
+  "slug": "fj-datec-fiji-datacentre-services-hosted-infrastructure",
+  "canonical_project": "Datec Fiji datacentre services / hosted infrastructure",
+  "owner": "Datec Fiji Pte Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Fiji",
+    "country_code": "FJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datec.com.fj/Our-Solutions/Digital-Infrastructure-Solutions-%28DIS%29/Datacentre-Site-Services",
+    "https://blog.apnic.net/2025/06/18/fijis-strengthening-internet-infrastructure/",
+    "https://www.datec.com.fj/About-Datec"
+  ],
+  "notes": "Datec's official site offers datacentre site services from Suva, including infrastructure management, testing/commissioning, micro and modular datacentre solutions; APNIC identifies Datec Fiji as part of Fiji's operating data-centre infrastructure, but public specifications are limited.",
+  "world_batch": true
+}

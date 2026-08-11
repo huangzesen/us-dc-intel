@@ -1,0 +1,20 @@
+{
+  "slug": "fr-nlighten-lyon-edge-datacenter",
+  "canonical_project": "nLighten Lyon edge datacenter",
+  "owner": "nLighten",
+  "location": {
+    "city": "",
+    "subnational": "Rhône",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 1.2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nlighten.com/en/edge-location/lyon/"
+  ],
+  "notes": "Operator page lists Lyon edge location with 1.2 MW power capacity and carrier/cloud connectivity.",
+  "world_batch": true
+}

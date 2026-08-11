@@ -1,0 +1,22 @@
+{
+  "slug": "kw-agility-logistics-parks-kuwait-data-center-campus",
+  "canonical_project": "Agility Logistics Parks Kuwait Data Center Campus",
+  "owner": "Agility Logistics Parks",
+  "location": {
+    "city": "",
+    "subnational": "Jahra",
+    "country": "Kuwait",
+    "country_code": "KW"
+  },
+  "capacity_mw": 80.0,
+  "status": "planned",
+  "evidence_date": "2023-03-07",
+  "evidence_grade": "A",
+  "sources": [
+    "https://makhazen.com/en/agility-launches-data-center-sites-across-middle-east-africa/",
+    "https://www.datacenterdynamics.com/en/news/logistics-real-estate-firm-agility-announces-plans-for-data-center-campuses-in-saudi-arabia-egypt-kuwait-and-ghana/",
+    "https://makhazen.com/en/logistics-parks/data-center-campuses/"
+  ],
+  "notes": "Agility/ALP announced a master-planned Kuwait data center campus in an existing logistics park with an 80 MW substation, 15+ MW solar capacity, and two 46,000 sqm data center plots with expansion capacity above 100,000 sqm. Agility Logistics Park in Kuwait is associated with Sulaibiya, mapped to Jahra Governorate. Capacity_mw uses the disclosed substation/campus capacity rather than signed IT load.",
+  "world_batch": true
+}

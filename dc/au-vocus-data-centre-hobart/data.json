@@ -1,0 +1,22 @@
+{
+  "slug": "au-vocus-data-centre-hobart",
+  "canonical_project": "Vocus Data Centre - Hobart",
+  "owner": "Vocus Communications",
+  "location": {
+    "city": "",
+    "subnational": "Tasmania - Hobart",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/australia/hobart/pipe-networks-hobart/",
+    "https://colomap.com/facilities/vocus-data-centre-hobart/",
+    "https://www.datacentermap.com/c/vocus-communications/"
+  ],
+  "notes": "Listed colocation facility at Level 2/29 Elizabeth St, Hobart TAS 7000. Data Center Map notes PIPE Networks Hobart became part of Vocus after the PIPE Networks transaction finalized on 31 July 2025.",
+  "world_batch": true
+}

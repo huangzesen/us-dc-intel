@@ -1,0 +1,21 @@
+{
+  "slug": "si-arnes-jozef-stefan-institute-data-center",
+  "canonical_project": "ARNES Jozef Stefan Institute data center",
+  "owner": "ARNES",
+  "location": {
+    "city": "",
+    "subnational": "Ljubljana",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/ljubljana",
+    "https://inflect.com/datacenters/emea/slovenia/ljubljana"
+  ],
+  "notes": "Baxtel and Inflect list ARNES Jožef Stefan Institute / Arnes Ljubljana 1 at Jamova cesta 39, Ljubljana, as an operational education-sector data center; public sources did not disclose MW capacity.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "zm-infratel-lusaka-backup-data-centre",
+  "canonical_project": "INFRATEL Lusaka Backup Data Centre",
+  "owner": "INFRATEL Corporation Limited",
+  "location": {
+    "city": "",
+    "subnational": "Lusaka",
+    "country": "Zambia",
+    "country_code": "ZM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.infratel.co.zm/our-services/data-centre-solutions/",
+    "https://datacenterplatform.com/data-centers/infratel/data-center-back-up-facility/"
+  ],
+  "notes": "INFRATEL states it runs three data centres nationally; Data Center Platform separately lists an INFRATEL Data Center Backup Facility in Lusaka.",
+  "world_batch": true
+}

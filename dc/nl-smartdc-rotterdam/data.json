@@ -1,0 +1,21 @@
+{
+  "slug": "nl-smartdc-rotterdam",
+  "canonical_project": "Smartdc Rotterdam",
+  "owner": "Smartdc",
+  "location": {
+    "city": "",
+    "subnational": "South Holland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.smartdc.net/data-centers/locations/rotterdam/",
+    "https://www.dutchdatacenters.nl/en/participants/smartdc/"
+  ],
+  "notes": "Official Smartdc page says Smartdc Rotterdam is connected to the 23 kV network and built for Tier III requirements; DDA describes it as the largest and most unique data center in the Rotterdam region. Capacity not disclosed on official pages.",
+  "world_batch": true
+}

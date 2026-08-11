@@ -1,0 +1,22 @@
+{
+  "slug": "fr-inforsud-bozouls-data-center",
+  "canonical_project": "INFORSUD Bozouls Data Center",
+  "owner": "INFORSUD Technologies",
+  "location": {
+    "city": "",
+    "subnational": "Aveyron",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-01-03",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/france/rodez/infosud/",
+    "https://www.media12.fr/entreprises/inforsud-lance-sa-solution-de-facturation-aveyronnaise/",
+    "https://www.ladepeche.fr/2021/04/06/depuis-1985-un-data-center-made-in-causse-comtal-9471132.php"
+  ],
+  "notes": "Bozouls/Causse Comtal facility in Aveyron; regional press describes Inforsud's Aveyron data center and hosted/saved data at Bozouls. Capacity not disclosed in MW.",
+  "world_batch": true
+}

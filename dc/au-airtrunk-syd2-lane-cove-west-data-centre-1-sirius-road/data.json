@@ -1,0 +1,22 @@
+{
+  "slug": "au-airtrunk-syd2-lane-cove-west-data-centre-1-sirius-road",
+  "canonical_project": "AirTrunk SYD2 / Lane Cove West Data Centre, 1 Sirius Road",
+  "owner": "AirTrunk / EMKC group entities",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Lane Cove",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 120.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.planningportal.nsw.gov.au/major-projects/projects/lane-cove-west-data-centre",
+    "https://ftigroup.com.au/projects/new-south-wales/airtrunk-data-centre-lane-cove-west/",
+    "https://www.nationalcable.com.au/project/lane-cove-data-centre-stage-2/"
+  ],
+  "notes": "NSW Planning records SSD-9741 as approved/determined for 24-hour operation of a four-storey data centre at 1 Sirius Road and 2 Apollo Place, Lane Cove West. Contractor pages identify the facility as AirTrunk's Lane Cove West site and report expansion taking total capacity above 120 MW.",
+  "world_batch": true
+}

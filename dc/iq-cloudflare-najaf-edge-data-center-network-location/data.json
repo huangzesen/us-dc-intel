@@ -1,0 +1,21 @@
+{
+  "slug": "iq-cloudflare-najaf-edge-data-center-network-location",
+  "canonical_project": "Cloudflare Najaf edge data center / network location",
+  "owner": "Cloudflare",
+  "location": {
+    "city": "",
+    "subnational": "Najaf",
+    "country": "Iraq",
+    "country_code": "IQ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cloudflare.com/network/",
+    "https://new.cloudflarestatus.com/locations"
+  ],
+  "notes": "Cloudflare's official global network page/status locations list Najaf, Iraq (NJF) as an operational network/data-center location. This appears to be an edge/CDN PoP rather than a disclosed powered colocation campus; capacity not published.",
+  "world_batch": true
+}

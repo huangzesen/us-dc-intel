@@ -1,0 +1,21 @@
+{
+  "slug": "pl-asseco-bydgoszcz-data-center",
+  "canonical_project": "Asseco Bydgoszcz Data Center",
+  "owner": "Asseco Data Systems",
+  "location": {
+    "city": "",
+    "subnational": "Kuyavia-Pomerania",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-04-14",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/polands-asseco-aims-to-offload-data-center-business/",
+    "https://www.datacentermap.com/poland/bydgoszcz/asseco-data-systems-bydgoszcz/"
+  ],
+  "notes": "DCD reports Asseco operated three data centers in Poland including Bydgoszcz; Data Center Map lists Asseco Bydgoszcz at Karola Kurpinskiego 9 with Tier 3.",
+  "world_batch": true
+}

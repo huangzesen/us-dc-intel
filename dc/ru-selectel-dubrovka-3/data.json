@@ -1,0 +1,20 @@
+{
+  "slug": "ru-selectel-dubrovka-3",
+  "canonical_project": "Selectel Dubrovka 3",
+  "owner": "Selectel",
+  "location": {
+    "city": "",
+    "subnational": "Leningrad",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://selectel.ru/about/data-centers/"
+  ],
+  "notes": "Selectel official page lists Dubrovka 3 at the same Nevskaya Dubrovka address, with 768 sqm server-room area, 281 racks and 2 MW connected power.",
+  "world_batch": true
+}

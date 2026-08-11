@@ -1,0 +1,20 @@
+{
+  "slug": "cn-huaihua-cloud-computing-center",
+  "canonical_project": "Huaihua Cloud Computing Center",
+  "owner": "Huaihua municipal government / city cloud operators",
+  "location": {
+    "city": "",
+    "subnational": "Hunan - Huaihua Prefecture",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-03-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.huaihua.gov.cn/huaihua/c122169/202303/22bbe75f1c6b47e3b231a8fca9453c63.shtml"
+  ],
+  "notes": "Huaihua implementation opinion says all government compute infrastructure should be coordinated around Huaihua Cloud Computing Center, with other existing data centers consolidated into it by the end of 2025; target by 2025 is 1,000 standard racks, 30 PFLOPS compute and 20PB storage.",
+  "world_batch": true
+}

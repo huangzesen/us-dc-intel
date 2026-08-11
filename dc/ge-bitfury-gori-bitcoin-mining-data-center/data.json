@@ -1,0 +1,21 @@
+{
+  "slug": "ge-bitfury-gori-bitcoin-mining-data-center",
+  "canonical_project": "BitFury Gori bitcoin mining data center",
+  "owner": "BitFury Group",
+  "location": {
+    "city": "",
+    "subnational": "Shida Kartli",
+    "country": "Georgia",
+    "country_code": "GE"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2021-03-04",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterknowledge.com/data-center-hardware/bitcoin-data-center-construction-marches-on-despite-low-value",
+    "https://www.ccn.com/archive/crypto/bitfury-investing-100-million-new-bitcoin-mining-farm/"
+  ],
+  "notes": "Trade press reports BitFury's first Georgian data center was in Gori and cites a 20 MW operating facility serving bitcoin transactions. Current operating status was not independently reconfirmed beyond historical reports.",
+  "world_batch": true
+}

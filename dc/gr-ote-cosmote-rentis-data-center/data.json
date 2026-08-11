@@ -1,0 +1,21 @@
+{
+  "slug": "gr-ote-cosmote-rentis-data-center",
+  "canonical_project": "OTE / Cosmote Rentis Data Center",
+  "owner": "OTE Group / Cosmote; reconstructed by AKTOR FM",
+  "location": {
+    "city": "",
+    "subnational": "Attica",
+    "country": "Greece",
+    "country_code": "GR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aktor.gr/en/projects/reconstruction-of-ote-data-center/",
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/rentis-data-center/644"
+  ],
+  "notes": "AKTOR describes conversion of an OTE warehouse in Renti, Attica, into a 1,500 m2 data center with 124 racks; Uptime Institute lists Rentis Data Center for OTE Group/Cosmote in Athens.",
+  "world_batch": true
+}

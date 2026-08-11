@@ -1,0 +1,21 @@
+{
+  "slug": "es-nixval-prored-templus-valencia-data-center-cluster",
+  "canonical_project": "NIXVAL / ProRed / Templus Valencia data center cluster",
+  "owner": "NIXVAL; ProRed Comunicaciones; Templus/Grupo Aire",
+  "location": {
+    "city": "",
+    "subnational": "Valencian Community",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/spain/valencia/",
+    "https://www.datacenterdynamics.com/en/news/nxn-datacenters-invests-60m-in-6mw-valencia-data-center-spain/"
+  ],
+  "notes": "Valencia/Paterna has several operating colocation facilities listed by DataCenterMap, including NIXVAL, ProRed and Templus/Grupo Aire; included as a regional operating cluster where project-level capacity is not publicly stated in the checked sources.",
+  "world_batch": true
+}

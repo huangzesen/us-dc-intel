@@ -1,0 +1,20 @@
+{
+  "slug": "mn-cloudflare-ulaanbaatar-edge-data-center",
+  "canonical_project": "Cloudflare Ulaanbaatar Edge Data Center",
+  "owner": "Cloudflare",
+  "location": {
+    "city": "",
+    "subnational": "Ulaanbaatar",
+    "country": "Mongolia",
+    "country_code": "MN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2018-10-02",
+  "evidence_grade": "A",
+  "sources": [
+    "https://blog.cloudflare.com/mongolia/"
+  ],
+  "notes": "Cloudflare announced Ulaanbaatar as city 154 on its network in 2018, stating it had deployed a data center in Ulaanbaatar after securing a local secure data-center site and bandwidth partner; physical host facility and capacity were not disclosed.",
+  "world_batch": true
+}

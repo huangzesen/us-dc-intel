@@ -1,0 +1,20 @@
+{
+  "slug": "sk-gts-slovakia-dc",
+  "canonical_project": "GTS Slovakia DC",
+  "owner": "GTS Slovakia (Deutsche Telekom group)",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/slovakia/gts-slovakia-dc"
+  ],
+  "notes": "Legacy carrier data centre of GTS Slovakia (acquired by Deutsche Telekom and integrated into the Slovak Telekom environment). Listed in Data Center Catalog as a Slovak facility; address/capacity not published there - likely Bratislava.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "ly-transsahara-benghazi-data-center",
+  "canonical_project": "TransSahara Benghazi Data Center",
+  "owner": "Trans Sahara",
+  "location": {
+    "city": "",
+    "subnational": "Benghazi",
+    "country": "Libya",
+    "country_code": "LY"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/libya/benghazi/transahara-banghazi/",
+    "https://libyaherald.com/2019/10/advanced-tier-3-data-centre-to-be-established-in-libya-by-trans-saharan-and-tatweer"
+  ],
+  "notes": "DataCenterMap listing identifies a 1 MW TransSahara facility in Benghazi and says the operator launched Libya's first commercial data center in 2020. Libya Herald reported the 2019 Trans-Saharan/Tatweer Tier 3 data-centre agreement was signed in Benghazi, but did not give a precise site location.",
+  "world_batch": true
+}

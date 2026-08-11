@@ -1,0 +1,21 @@
+{
+  "slug": "ch-ckw-datacenter-luz-luzern-mitte",
+  "canonical_project": "CKW Datacenter LuZ Luzern Mitte",
+  "owner": "CKW Fiber Services AG",
+  "location": {
+    "city": "",
+    "subnational": "Luzern",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ckw.ch/ueber-ckw/standorte",
+    "https://www.hostswiss.ch/hosting/host-ckw-fiber-services-review-ranking-information.php"
+  ],
+  "notes": "CKW official location list includes Datacenter LuZ Luzern Mitte; HostSwiss also lists CKW Luzern DC (LuZ mitte).",
+  "world_batch": true
+}

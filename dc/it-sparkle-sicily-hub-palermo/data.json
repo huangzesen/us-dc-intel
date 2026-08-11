@@ -1,0 +1,22 @@
+{
+  "slug": "it-sparkle-sicily-hub-palermo",
+  "canonical_project": "Sparkle Sicily Hub Palermo",
+  "owner": "Telecom Italia Sparkle",
+  "location": {
+    "city": "",
+    "subnational": "Sicily",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": 2.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tisparkle.com/our-platform/backbone-infrastructure-platform/data-center-solutions/sparkle-sicily-hub",
+    "https://www.gruppotim.it/en/press-archive/sparkle/2019/Sparkle-Enhances-its-Sicily-Hub-Open-Data-Center-with-DE-CIX-Remote-Peering-Capabilities.html",
+    "https://baxtel.com/data-center/sicily"
+  ],
+  "notes": "Sparkle official page describes Sicily Hub as an open data center in Palermo and Mediterranean IP gravity center connected to Sicily cable landing stations; Baxtel market page reports 2 MW for Palermo/Sicily facilities.",
+  "world_batch": true
+}

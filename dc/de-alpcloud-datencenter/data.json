@@ -1,0 +1,20 @@
+{
+  "slug": "de-alpcloud-datencenter",
+  "canonical_project": "AlpCloud Datencenter",
+  "owner": "AlpCloud",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Berchtesgadener Land",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://alpcloud.de/"
+  ],
+  "notes": "Company page describes AlpCloud as a regional IT specialist in Berchtesgadener Land and says its portfolio includes AlpCloud Datencenter, with hosting in its own Rechenzentrum.",
+  "world_batch": true
+}

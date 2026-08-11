@@ -1,0 +1,22 @@
+{
+  "slug": "np-nepal-telecom-disaster-recovery-center-bhairahawa",
+  "canonical_project": "Nepal Telecom Disaster Recovery Center, Bhairahawa",
+  "owner": "Nepal Telecom; Huawei",
+  "location": {
+    "city": "",
+    "subnational": "-",
+    "country": "Nepal",
+    "country_code": "NP"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2025-01-27",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/huawei-to-build-35m-data-center-for-nepal-telecom/",
+    "https://www.samenacouncil.org/samena_daily_news?news=104250",
+    "https://www.nepalitelecom.com/huawei-build-data-center-of-nepal-telecom"
+  ],
+  "notes": "Companion disaster-recovery site for Nepal Telecom's Kathmandu primary data center project; sources place the DR center in Bhairahawa.",
+  "world_batch": true
+}

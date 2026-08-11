@@ -1,0 +1,22 @@
+{
+  "slug": "cm-st-digital-dla01-datacenter-services-douala",
+  "canonical_project": "ST Digital DLA01 / Datacenter Services Douala",
+  "owner": "ST Digital",
+  "location": {
+    "city": "",
+    "subnational": "Littoral",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://telecomtalk.info/stdigital-secures-dcoix2-certification-for-datacenter-operations/981514/",
+    "https://www.peeringdb.com/fac/9187",
+    "https://www.datacentermap.com/cameroon/douala/std-douala/"
+  ],
+  "notes": "ST Digital's DLA01 in Douala, Littoral is described as the first carrier-neutral and Tier 3-built facility in Central Africa and host of Douala-IX. PeeringDB lists it as Datacenter Services Douala / DLA01 at Rue 1033, Port de Douala, Bonanjo, with eight networks and one local exchange. No public MW capacity found.",
+  "world_batch": true
+}

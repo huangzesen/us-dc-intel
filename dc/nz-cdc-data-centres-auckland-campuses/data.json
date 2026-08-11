@@ -1,0 +1,21 @@
+{
+  "slug": "nz-cdc-data-centres-auckland-campuses",
+  "canonical_project": "CDC Data Centres Auckland Campuses",
+  "owner": "CDC Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": 98,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cdc.com.au/locations/auckland/",
+    "https://cdc.com.au/resources/insights-and-reports/saving-water-on-an-epic-scale/"
+  ],
+  "notes": "CDC's Auckland location page lists Silverdale Campus One at 22 MW operating capacity, Hobsonville Campus One at 22 MW, and Hobsonville Campus Two at 54 MW, with 220 MW+ regional capacity identified across highly connected Auckland campuses.",
+  "world_batch": true
+}

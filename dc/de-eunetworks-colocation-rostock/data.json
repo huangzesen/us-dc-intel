@@ -1,0 +1,22 @@
+{
+  "slug": "de-eunetworks-colocation-rostock",
+  "canonical_project": "euNetworks Colocation Rostock",
+  "owner": "euNetworks",
+  "location": {
+    "city": "",
+    "subnational": "Mecklenburg-Vorpommern - Rostock (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/germany/rostock/eunetworks-rostock/",
+    "https://www.datacenters.com/eunetworks-rostock",
+    "https://datacenterplatform.com/data-centers/eunetworks-group/eunetworks-group-germany/eunetworks-rostock/"
+  ],
+  "notes": "Operational colocation facility listed at Lessingstrasse 26 / Rostock by multiple data-center directories; power capacity not disclosed.",
+  "world_batch": true
+}

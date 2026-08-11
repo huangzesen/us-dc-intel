@@ -1,0 +1,21 @@
+{
+  "slug": "lv-tet-dc7-salaspils",
+  "canonical_project": "Tet DC7 Salaspils",
+  "owner": "Tet / Citrus Solutions",
+  "location": {
+    "city": "",
+    "subnational": "Riga",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2025-06-02",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/latvian-telco-tet-breaks-ground-on-third-data-center/",
+    "https://www.datacenterdynamics.com/en/news/latvias-tet-to-build-data-center-outside-riga/"
+  ],
+  "notes": "DCD reports Tet broke ground May 29, 2025 on DC7 in Salaspils southeast of Riga; 112 racks by 2026 and 224 racks at full buildout by end-2028, EUR30m investment, liquid cooling and waste-heat reuse. Included under Riga division because source describes it as outside/southeast of the capital and Latvia's market is Riga-clustered.",
+  "world_batch": true
+}

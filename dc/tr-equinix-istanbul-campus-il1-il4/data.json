@@ -1,0 +1,22 @@
+{
+  "slug": "tr-equinix-istanbul-campus-il1-il4",
+  "canonical_project": "Equinix Istanbul Campus (IL1-IL4)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Istanbul",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": 22,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/equinix-launches-data-center-in-istanbul-turkiye/",
+    "https://www.datacentermap.com/turkey/istanbul/equinix-il4/",
+    "https://www.equinix.com/data-centers/europe-colocation/turkiye-colocation/istanbul-data-centers"
+  ],
+  "notes": "Equinix entered Turkey in 2017 by acquiring Zenium's Istanbul campus (incl. Istanbul One, Turkey's first wholesale DC, built 2015 with IFC backing) for USD 93m. Campus (Umraniye/Asian side, Yukari Dudullu OSB) now comprises IL1-IL4; IL4 opened Nov 2024 with ~7.5 MW and 1,125 cabinets/~3,045 sqm white space, high-density/liquid-cooling capable. Combined campus reported near 12,000 sqm and ~22 MW IT load (industry sources).",
+  "world_batch": true
+}

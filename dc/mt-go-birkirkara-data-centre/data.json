@@ -1,0 +1,21 @@
+{
+  "slug": "mt-go-birkirkara-data-centre",
+  "canonical_project": "GO Birkirkara Data Centre",
+  "owner": "GO plc",
+  "location": {
+    "city": "",
+    "subnational": "Birkirkara",
+    "country": "Malta",
+    "country_code": "MT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-02-19",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.go.com.mt/wholesale/data/",
+    "https://www.datacenters.com/go-plc-birkirkara"
+  ],
+  "notes": "GO's wholesale page says it offers secure hosting and co-location services at its state-of-the-art data centre in Birkirkara, with direct core-network connectivity, redundant control units, CCTV, fire protection, and ISO27001/PCI DSS compliance. Capacity not disclosed.",
+  "world_batch": true
+}

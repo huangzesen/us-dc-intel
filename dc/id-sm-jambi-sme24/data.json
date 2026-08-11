@@ -1,0 +1,21 @@
+{
+  "slug": "id-sm-jambi-sme24",
+  "canonical_project": "SM+ Jambi SME24",
+  "owner": "SM+ Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Jambi",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://smplus.com/edge-dc/",
+    "https://www.datacentermap.com/indonesia/jambi/sm-jambi-sme24/specs/"
+  ],
+  "notes": "SM+ official edge-DC page lists Jambi SME24 among its 24 nationwide edge locations; Data Center Map gives address at Jl. Rd Poerboyo Kolopaking No.15, Simpang IV Sipin. Per-site capacity not supplied.",
+  "world_batch": true
+}

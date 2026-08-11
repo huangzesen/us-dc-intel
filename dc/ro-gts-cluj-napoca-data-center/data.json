@@ -1,0 +1,20 @@
+{
+  "slug": "ro-gts-cluj-napoca-data-center",
+  "canonical_project": "GTS Cluj-Napoca Data Center",
+  "owner": "GTS Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Cluj",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.gts.ro/ro/data-center-gts-cluj-napoca"
+  ],
+  "notes": "Official GTS page: GTS Cluj data center with N+1 redundant technologies, max installed power 500 kW (est. annual PUE 1.4), current colocation capacity 60 racks with immediate expansion potential. GTS also hosts third-party providers' infrastructure (e.g., NameBox) in this facility.",
+  "world_batch": true
+}

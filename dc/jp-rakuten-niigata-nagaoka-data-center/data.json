@@ -1,0 +1,21 @@
+{
+  "slug": "jp-rakuten-niigata-nagaoka-data-center",
+  "canonical_project": "Rakuten Niigata-Nagaoka Data Center",
+  "owner": "Rakuten Group",
+  "location": {
+    "city": "",
+    "subnational": "Niigata",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/japan/niigata/",
+    "https://www.kaytus.com/case-studies/24215.html"
+  ],
+  "notes": "DataCenterMap lists Rakuten Niigata-Nagaoka in Nagaoka; Kaytus case study references a Niigata containerized data center supporting over 500 servers. Public MW not found.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "de-swt-co2-neutral-data-center-energie-und-technikpark-trier",
+  "canonical_project": "SWT CO2-neutral data center, Energie- und Technikpark Trier",
+  "owner": "SWT Datacenter GmbH / Stadtwerke Trier",
+  "location": {
+    "city": "",
+    "subnational": "Rhineland-Palatinate - Trier",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-10-29",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.swt.de/pressemitteilung/5-jahre-erfolgreiche-it-sicherheit-und-nachhaltigkeit-im-swt-rechenzentrum",
+    "https://www.swt.de/seite/unser-co2-neutrales-rechenzentrum",
+    "https://www.gstbrp.de/kommunale-dienste/swt-datacenter-gmbh/"
+  ],
+  "notes": "SWT and GStB sources describe a certified CO2-neutral data center in Trier's Energie- und Technikpark, operated by SWT Datacenter GmbH, serving municipalities and non-profit organizations with regional green energy; no capacity disclosed.",
+  "world_batch": true
+}

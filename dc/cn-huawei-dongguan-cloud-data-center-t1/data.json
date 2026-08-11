@@ -1,0 +1,20 @@
+{
+  "slug": "cn-huawei-dongguan-cloud-data-center-t1",
+  "canonical_project": "Huawei Dongguan Cloud Data Center T1",
+  "owner": "Huawei",
+  "location": {
+    "city": "",
+    "subnational": "Guangdong - Dongguan Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-11-17",
+  "evidence_grade": "A",
+  "sources": [
+    "https://digitalpower.huawei.com/en/news/data-center-facility/265"
+  ],
+  "notes": "Huawei says the T1 project is on the east side of Songshan Lake in Dongguan, serves as Huawei Cloud's Southern China base, entered operation in 2019, and reached PUE 1.28 in 2021; no MW disclosed.",
+  "world_batch": true
+}

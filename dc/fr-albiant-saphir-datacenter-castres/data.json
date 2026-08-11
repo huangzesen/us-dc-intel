@@ -1,0 +1,22 @@
+{
+  "slug": "fr-albiant-saphir-datacenter-castres",
+  "canonical_project": "Albiant Saphir datacenter, Castres",
+  "owner": "Albiant-IT / BPCE Infogérance et Technologies",
+  "location": {
+    "city": "",
+    "subnational": "Tarn",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bpce-it.fr/en/albiant-it-2/",
+    "https://www.datacentermap.com/france/toulouse/albiant-it-datacenter-saphir/",
+    "https://annuaire-entreprises.data.gouv.fr/entreprise/501105498"
+  ],
+  "notes": "BPCE IT states Albiant operates four data centers; public business registry and directories identify Site de Saphir at 3 avenue de la Montagne Noire, Castres.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "qa-meeza-m-vault-2-umm-garn",
+  "canonical_project": "MEEZA M-VAULT 2 - Umm Garn",
+  "owner": "MEEZA",
+  "location": {
+    "city": "",
+    "subnational": "Daayen",
+    "country": "Qatar",
+    "country_code": "QA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-03-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.meeza.net/wp-content/uploads/2021/03/MZA-MKT-DS-M-Vault-2-Data-Centre_Online.pdf"
+  ],
+  "notes": "MEEZA's M-VAULT 2 datasheet identifies the site as Umm Garn, about 10 km from Al Khor, and describes it as a Tier III certified data centre. Capacity in MW was not stated.",
+  "world_batch": true
+}

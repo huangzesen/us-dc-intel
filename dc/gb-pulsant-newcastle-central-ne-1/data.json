@@ -1,0 +1,21 @@
+{
+  "slug": "gb-pulsant-newcastle-central-ne-1",
+  "canonical_project": "Pulsant Newcastle Central NE-1",
+  "owner": "Pulsant",
+  "location": {
+    "city": "",
+    "subnational": "England - Newcastle upon Tyne",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.colo-x.com/data-centre/pulsant-newcastle-central-data-centre/",
+    "https://www.datacentermap.com/united-kingdom/newcastle/"
+  ],
+  "notes": "Operational central Newcastle colocation facility at 5 Stepney Lane, listed with 0.5MW IT load and 220 racks; originally opened under Onyx and now operated by Pulsant.",
+  "world_batch": true
+}

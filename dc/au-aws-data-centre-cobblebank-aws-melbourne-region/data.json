@@ -1,0 +1,21 @@
+{
+  "slug": "au-aws-data-centre-cobblebank-aws-melbourne-region",
+  "canonical_project": "AWS data centre Cobblebank (AWS Melbourne Region)",
+  "owner": "Amazon Web Services (AWS)",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Melton",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://w.media/amazons-investment-into-data-centres-in-australia-the-next-chapter/",
+    "https://tooraktimes.com.au/melton-plant-leads-the-way-with-first-recycled-water-connection-for-a-victorian-data-centre/"
+  ],
+  "notes": "AWS data centre planned on 13.2ha site at 54-80 Ferris Road, Cobblebank (City of Melton, ~40km west of Melbourne CBD); Amazon paid A$60.5m for the site in July 2023; part of A$6.8bn AWS Melbourne Region investment; June 2026 announcement that Greater Western Water's Melton Recycled Water Plant (Mt Cottrell) will supply recycled water to the 'soon-to-be-built' facility from day one; reported value ~A$50m (per Baxtel); MW capacity not disclosed.",
+  "world_batch": true
+}

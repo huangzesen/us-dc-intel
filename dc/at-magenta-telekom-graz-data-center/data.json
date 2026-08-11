@@ -1,0 +1,20 @@
+{
+  "slug": "at-magenta-telekom-graz-data-center",
+  "canonical_project": "Magenta Telekom Graz data center",
+  "owner": "Magenta Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Styria",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": 3.6,
+  "status": "operational",
+  "evidence_date": "2021-03-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/magenta-telekom-building-new-data-center-graz-austria/"
+  ],
+  "notes": "DCD reported Magenta Telekom was building a 3.6 MW, 1,120 sqm Graz data center due to open in 2022, with 380 server cabinets and room for expansion.",
+  "world_batch": true
+}

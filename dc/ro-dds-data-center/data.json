@@ -1,0 +1,21 @@
+{
+  "slug": "ro-dds-data-center",
+  "canonical_project": "DDS Data Center",
+  "owner": "DDS Hosting",
+  "location": {
+    "city": "",
+    "subnational": "Timis",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/romania/timisoara/dds/",
+    "https://www.datacentermap.com/romania/timisoara/dds/specs/"
+  ],
+  "notes": "Data Center Map lists DDS Data Center at Strada Arinului 10, Timisoara, operated by DDS Hosting; specs identify Tier 3 design, PCI DSS and ISO27001 certification, and an estimated 2016 establishment date.",
+  "world_batch": true
+}

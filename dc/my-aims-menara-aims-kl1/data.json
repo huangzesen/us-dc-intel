@@ -1,0 +1,22 @@
+{
+  "slug": "my-aims-menara-aims-kl1",
+  "canonical_project": "AIMS Menara AIMS (KL1)",
+  "owner": "AIMS Data Centre / DigitalBridge",
+  "location": {
+    "city": "",
+    "subnational": "Wilayah Persekutuan Kuala Lumpur",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.aims.com.my/co-location/points-of-presence/",
+    "https://www.digitalbridge.com/portfolio/aims",
+    "https://www.icore.com.my/idc/aims-data-center"
+  ],
+  "notes": "AIMS' official points-of-presence page lists its Kuala Lumpur Menara as a purpose-built Tier III data centre; DigitalBridge describes Menara AIMS as AIMS' flagship facility, hosting MyIX and serving as Malaysia's principal carrier hotel. AIMS page references 10 MVA and scalable power up to 30 MW for the Kuala Lumpur Menara location, but clear IT-load MW was not found.",
+  "world_batch": true
+}

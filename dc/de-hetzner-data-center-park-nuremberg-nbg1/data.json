@@ -1,0 +1,21 @@
+{
+  "slug": "de-hetzner-data-center-park-nuremberg-nbg1",
+  "canonical_project": "Hetzner Data Center Park Nuremberg (NBG1)",
+  "owner": "Hetzner Online GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Nuremberg ( Nürnberg )",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.hetzner.com/unternehmen/rechenzentrum/",
+    "https://docs.hetzner.com/general/infrastructure-and-availability/data-centers-and-connection/"
+  ],
+  "notes": "Hetzner lists Data Center Park Nuremberg among its data-center parks; Hetzner docs identify NBG1 in Nuremberg with 8 data centers.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "fr-orange-amilly-data-center",
+  "canonical_project": "Orange Amilly data center",
+  "owner": "Orange Business",
+  "location": {
+    "city": "",
+    "subnational": "Loiret",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 6,
+  "status": "operational",
+  "evidence_date": "2022-06-08",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/orange-opens-two-new-data-centers-in-france/",
+    "https://baxtel.com/data-center/orange-amilly",
+    "https://www.orange-business.com/en/solutions/cloud/cloud-infrastructures"
+  ],
+  "notes": "Orange commissioned the Amilly data center in 2022; DCD reports 16,000 sq m building and 5,000 sq m computer rooms, while Baxtel lists the Amilly facility in Centre-Val de Loire with 6 MW.",
+  "world_batch": true
+}

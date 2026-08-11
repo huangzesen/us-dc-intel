@@ -1,0 +1,21 @@
+{
+  "slug": "pl-orange-warsaw-data-hub",
+  "canonical_project": "Orange Warsaw Data Hub",
+  "owner": "Orange Polska",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-10-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.orange.pl/duze-firmy/data-center",
+    "https://www.datacenterdynamics.com/en/news/orange-opens-new-data-center-in-warsaw-poland/"
+  ],
+  "notes": "Orange official page gives the Warsaw Data Hub address at Aleja Krakowska 180, Lazy near Warsaw; DCD reported opening in 2021 with four 400 sqm data halls.",
+  "world_batch": true
+}

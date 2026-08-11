@@ -1,0 +1,22 @@
+{
+  "slug": "au-cdc-marsden-park-data-centre-campus",
+  "canonical_project": "CDC Marsden Park Data Centre Campus",
+  "owner": "CDC Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Blacktown",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 504.0,
+  "status": "construction",
+  "evidence_date": "2024-11-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.planningportal.nsw.gov.au/major-projects/projects/marsden-park-data-centre",
+    "https://cdc.com/resources/news/cdc-data-centres-breaks-ground-on-new-state-of-the-art-data-centre-development-in-marsden-park-industrial-precinct/",
+    "https://cdc.com/locations/sydney/"
+  ],
+  "notes": "NSW Planning Portal describes a 504MW Marsden Park data centre with six four-storey buildings and a 720MW substation; CDC announced ground-breaking for the Marsden Park Industrial Precinct campus and describes planned capacity over 504MW, scalable toward 1GW.",
+  "world_batch": true
+}

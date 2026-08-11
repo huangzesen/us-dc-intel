@@ -1,0 +1,21 @@
+{
+  "slug": "fr-idline-angouleme-data-center",
+  "canonical_project": "IDLINE Angouleme data center",
+  "owner": "IDLINE",
+  "location": {
+    "city": "",
+    "subnational": "Charente",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-09-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://idline.fr/actualites-idline/79-nouveau-dans-notre-data-center-d-angouleme",
+    "https://www.datacentermap.com/france/angouleme/"
+  ],
+  "notes": "IDLINE reported capacity and availability upgrades at its Angouleme data center, including additional hosting racks and cooling capacity; no defensible IT MW capacity disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "sg-meta-singapore-data-centre",
+  "canonical_project": "Meta Singapore Data Centre",
+  "owner": "Meta",
+  "location": {
+    "city": "",
+    "subnational": "South West",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 150,
+  "status": "operational",
+  "evidence_date": "2018-09-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://engineering.fb.com/2019/01/14/data-center-engineering/singapore-data-center/",
+    "https://www.datacenterdynamics.com/en/news/facebook-build-1b-multi-story-data-center-singapore/"
+  ],
+  "notes": "Meta engineering page describes the Tanjong Kling hyperscale facility; DCD reported the project as 170,000 sqm and 150MW when fully operational.",
+  "world_batch": true
+}

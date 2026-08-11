@@ -1,0 +1,21 @@
+{
+  "slug": "id-microsoft-indonesia-central-cloud-region-karawang-data-centers",
+  "canonical_project": "Microsoft Indonesia Central cloud region / Karawang data centers",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "West Java",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-27",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/id-id/2025/05/27/microsoft-opens-indonesia-central/",
+    "https://www.datacentermap.com/c/microsoft/"
+  ],
+  "notes": "Microsoft announced opening of its first Indonesia cloud region, Indonesia Central, with in-country data residency; DataCenterMap identifies multiple Microsoft Jakarta facilities in Karawang/GIIC, West Java. Individual facility capacities not disclosed by Microsoft.",
+  "world_batch": true
+}

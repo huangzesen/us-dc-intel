@@ -1,0 +1,22 @@
+{
+  "slug": "gb-brightsolid-aberdeen-data-centre",
+  "canonical_project": "Brightsolid Aberdeen Data Centre",
+  "owner": "Brightsolid",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - Aberdeen City",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://brightsolid.com/",
+    "https://www.datacentermap.com/united-kingdom/aberdeen/brightsolid-aberdeen/",
+    "https://www.silicon.co.uk/cloud/aberdeen-data-centre-brightsolid-scotland-178083"
+  ],
+  "notes": "Brightsolid lists an Aberdeen Data Centre at Whitemyres Ave; Data Center Map says the facility was built in 2015 and is a Tier III accredited data centre. Silicon UK reported the site as a £5m facility with up to 25kW per rack.",
+  "world_batch": true
+}

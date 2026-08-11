@@ -1,0 +1,22 @@
+{
+  "slug": "nl-blue-nap-americas",
+  "canonical_project": "Blue NAP Americas",
+  "owner": "Blue NAP Americas / DataPlanet",
+  "location": {
+    "city": "",
+    "subnational": "Curacao",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 5.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bluenapamericas.com/",
+    "https://www.datacentermap.com/curacao/willemstad/blue-nap-americas/",
+    "https://www.ams-ix.net/ams/news/ams-ix-caribbean-deploys-point-of-presence-in-blue-nap-americas-data-centre"
+  ],
+  "notes": "Official site offers colocation, private cloud and managed datacenter services in Curacao; Data Center Map lists the Willemstad site at Seru Mahuma with 5 MW; AMS-IX announced a POP in the BNA data centre in 2019.",
+  "world_batch": true
+}

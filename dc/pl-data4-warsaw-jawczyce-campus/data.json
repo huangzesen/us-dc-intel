@@ -1,0 +1,21 @@
+{
+  "slug": "pl-data4-warsaw-jawczyce-campus",
+  "canonical_project": "DATA4 Warsaw-Jawczyce campus",
+  "owner": "DATA4",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 60,
+  "status": "operational",
+  "evidence_date": "2023-05-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.data4group.com/en/data-centers-warsaw-poland/",
+    "https://www.datacenterdynamics.com/en/news/data4-launches-polish-data-center-campus-outside-warsaw/"
+  ],
+  "notes": "DATA4 official campus page lists Warsaw-Jawczyce at Przyparkowa 21 with available IT power up to 60MW; DCD reported launch in May 2023.",
+  "world_batch": true
+}

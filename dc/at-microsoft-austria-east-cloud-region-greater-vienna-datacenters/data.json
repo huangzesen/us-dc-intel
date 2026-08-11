@@ -1,0 +1,22 @@
+{
+  "slug": "at-microsoft-austria-east-cloud-region-greater-vienna-datacenters",
+  "canonical_project": "Microsoft Austria East cloud region / Greater Vienna datacenters",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Lower Austria",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-07-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/source/emea/2025/07/microsoft-will-open-datacenter-region-in-austria/",
+    "https://theinternational.at/microsoft-to-open-three-new-data-centers-in-lower-austria",
+    "https://www.datacenterdynamics.com/en/news/microsoft-launches-austrian-azure-cloud-region-in-vienna/"
+  ],
+  "notes": "Microsoft announced/opened an Austrian cloud region launching in August 2025 with three datacenters around Vienna; trade/local reporting places them in Lower Austria, including Schwechat, with Voesendorf and Achau reported as the other sites.",
+  "world_batch": true
+}

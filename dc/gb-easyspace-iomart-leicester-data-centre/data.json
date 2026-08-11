@@ -1,0 +1,22 @@
+{
+  "slug": "gb-easyspace-iomart-leicester-data-centre",
+  "canonical_project": "Easyspace / iomart Leicester Data Centre",
+  "owner": "Easyspace / iomart",
+  "location": {
+    "city": "",
+    "subnational": "England - City of Leicester",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.easyspace.com/data-centre/leicester",
+    "https://usa.iomart.com/about-us/global-data-centres/",
+    "https://www.datacentermap.com/united-kingdom/leicester/iomart-leicester/"
+  ],
+  "notes": "Easyspace/iomart says its Leicester data centre is one kilometre north-west of the city, with 620 sq m across two data halls, carrier-neutral connectivity, dual feeds, UPS and diesel generators. Public pages cite generator/UPS ratings rather than an IT load figure, so capacity_mw is left null.",
+  "world_batch": true
+}

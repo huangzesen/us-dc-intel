@@ -1,0 +1,21 @@
+{
+  "slug": "ru-beeline-vimpelcom-yaroslavl-data-center",
+  "canonical_project": "Beeline / VimpelCom Yaroslavl Data Center",
+  "owner": "PJSC VimpelCom (Beeline)",
+  "location": {
+    "city": "",
+    "subnational": "Yaroslavl",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-06",
+  "evidence_grade": "A",
+  "sources": [
+    "https://beelinenow.ru/articles/tsod-bilayna-v-yaroslavle-stal-moshchnee-v-6-raz/",
+    "https://beelinenow.ru/articles/tsod-beeline-v-yaroslavle-vzglyad-iznutri/"
+  ],
+  "notes": "Beeline's company media describes the Yaroslavl data center/technical center as a key network node. The 2023 update says Beeline expanded the facility sixfold over four years, built five new modules, and increased capacity to more than 1,300 rack places; the 2025 article describes further modernization and Beeline Cloud 2.0/Telco Cloud activity at the Yaroslavl technical center. Public MW capacity not found.",
+  "world_batch": true
+}

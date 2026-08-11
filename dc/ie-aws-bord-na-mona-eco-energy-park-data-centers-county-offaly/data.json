@@ -1,0 +1,21 @@
+{
+  "slug": "ie-aws-bord-na-mona-eco-energy-park-data-centers-county-offaly",
+  "canonical_project": "AWS Bord na Mona Eco Energy Park data centers, County Offaly",
+  "owner": "Amazon Web Services / Bord na Mona",
+  "location": {
+    "city": "",
+    "subnational": "Leinster",
+    "country": "Ireland",
+    "country_code": "IE"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2024-04-30",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bnm.ie/bord-na-mona-announces-amazon-web-services-as-first-business-to-join-eco-energy-park/",
+    "https://www.datacenterdynamics.com/en/news/aws-to-build-data-centers-at-energy-park-in-irish-midlands/"
+  ],
+  "notes": "Bord na Mona announced AWS as first business to join its Midlands Eco Energy Park, creating a pathway for AWS to develop data centres powered by wind and solar energy; specifications and timeline not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "fr-hodi-fdf1-le-lamentin-datacenter",
+  "canonical_project": "Hodi FDF1 Le Lamentin datacenter",
+  "owner": "Hodi",
+  "location": {
+    "city": "",
+    "subnational": "Martinique",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 0.1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/martinique/",
+    "https://www.datacentermap.com/martinique/le-lamentin/martinique/"
+  ],
+  "notes": "Data Center Map lists one Martinique data center market at Le Lamentin and identifies Hodi FDF1 at Immeuble Objectif 3000 with 0.1 MW and Tier 3; treated as aggregate evidence pending operator page.",
+  "world_batch": true
+}

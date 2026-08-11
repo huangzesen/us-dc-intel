@@ -1,0 +1,22 @@
+{
+  "slug": "ro-clusterpower-craiova-data-center-campus-mischii",
+  "canonical_project": "ClusterPower Craiova Data Center Campus (Mischii)",
+  "owner": "ClusterPower SRL",
+  "location": {
+    "city": "",
+    "subnational": "Dolj",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-04-07",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.economica.net/clusterpower-construiest-cel-mai-mare-centru-de-date-din-romania-langa-craiova_516007.html",
+    "https://www.stiripesurse.ro/cel-mai-mare-centru-de-date-din-romania-inaugurat-la-mischii_2331205.html",
+    "https://economedia.ro/interviu-langa-craiova-se-ridica-un-centru-de-date-de-36-de-milioane-de-euro-fondatori-vorbim-de-un-supercomputer-el-e-folosit-ca-un-element-necesar-unei-economii-pentru-a-putea-accesa-proiecte.html"
+  ],
+  "notes": "ClusterPower inaugurated on 1 April 2022 in Mischii commune, Dolj county (25,427 sqm site) the largest data center in Romania - first hyperscale in South-Eastern Europe - a 25,000 sqm AI one-stop-shop technology park with Nvidia DGX A100 supercomputing, initial investment ~EUR 36-40 million (172 million lei, incl. 82 million lei state aid). Campus plans five data centers fed by an on-site gas-fired power plant of up to 200 MW; direct connection to Transelectrica grid and Transgaz network. Construction of the first of the five centers was ongoing as of 2023 per founder interviews.",
+  "world_batch": true
+}

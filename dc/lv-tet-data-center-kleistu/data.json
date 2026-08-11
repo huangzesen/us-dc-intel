@@ -1,0 +1,20 @@
+{
+  "slug": "lv-tet-data-center-kleistu",
+  "canonical_project": "Tet Data Center Kleistu",
+  "owner": "Tet",
+  "location": {
+    "city": "",
+    "subnational": "Riga",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": 1.2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tetcloud.com/data-centers"
+  ],
+  "notes": "Tet Cloud operator page lists Kleistu on a Tet main network infrastructure node with 122 racks and 1.2 MW.",
+  "world_batch": true
+}

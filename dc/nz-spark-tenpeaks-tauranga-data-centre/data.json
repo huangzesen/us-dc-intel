@@ -1,0 +1,22 @@
+{
+  "slug": "nz-spark-tenpeaks-tauranga-data-centre",
+  "canonical_project": "Spark / TenPeaks Tauranga Data Centre",
+  "owner": "TenPeaks Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Bay of Plenty",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.nzx.com/announcements/466723",
+    "https://cloudscene.com/data-center/new-zealand/regional/spark-tauranga",
+    "https://www.datacentermap.com/new-zealand/tauranga/spark-digital-tauranga-dc/"
+  ],
+  "notes": "Spark confirmed its data centre portfolio transfer to TenPeaks; directory listings identify the Tauranga CBD/Cameron Road facility. Site-specific MW was not found.",
+  "world_batch": true
+}

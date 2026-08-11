@@ -1,0 +1,21 @@
+{
+  "slug": "nz-microsoft-new-zealand-north-cloud-region",
+  "canonical_project": "Microsoft New Zealand North Cloud Region",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-12-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/source/asia/features/microsoft-opens-its-first-hyperscale-cloud-region-in-new-zealand/",
+    "https://www.datacenterdynamics.com/en/news/microsoft-launches-new-zealand-cloud-region/"
+  ],
+  "notes": "Microsoft opened its first hyperscale cloud region in New Zealand, described as the New Zealand North region in Auckland. No public MW capacity found.",
+  "world_batch": true
+}

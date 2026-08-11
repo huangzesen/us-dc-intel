@@ -1,0 +1,20 @@
+{
+  "slug": "gb-iomart-leicester-data-centre-dc4",
+  "canonical_project": "iomart Leicester Data Centre DC4",
+  "owner": "iomart",
+  "location": {
+    "city": "",
+    "subnational": "England - Leicestershire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.iomart.com/our-data-centres/leicester-data-centre"
+  ],
+  "notes": "iomart describes its Leicester DC4 as a 620 sq m purpose-built Tier 2 colocation facility with dual 500kVA UPS systems and a 1MVA generator. IT load/capacity MW not stated.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "md-data-city-moldtelecom",
+  "canonical_project": "Data City Moldtelecom",
+  "owner": "Moldtelecom SA",
+  "location": {
+    "city": "",
+    "subnational": "Chisinau",
+    "country": "Moldova, Republic of",
+    "country_code": "MD"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.moldtelecom.md/ro/business/data-centru/",
+    "https://dchub.cloud/facilities/moldtelecom-sa-data-city-moldtelecom-7325073a"
+  ],
+  "notes": "Moldtelecom official page places Data City at Alba Iulia 77, Chisinau and describes Tier 3 colocation/hosting services; DC Hub reports 3.0 MW and operational status.",
+  "world_batch": true
+}

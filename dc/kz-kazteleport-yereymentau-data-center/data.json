@@ -1,0 +1,20 @@
+{
+  "slug": "kz-kazteleport-yereymentau-data-center",
+  "canonical_project": "Kazteleport Yereymentau Data Center",
+  "owner": "Kazteleport JSC",
+  "location": {
+    "city": "",
+    "subnational": "Akmola",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2024-10-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/kazteleport-jsc-launches-astana-data-center-in-kazakhstan/"
+  ],
+  "notes": "DCD reports Kazteleport launched a facility located in Ereymentau with 100 racks and 2 MW of IT capacity; Ereymentau is in Akmola Region, though the article frames the facility as serving Astana.",
+  "world_batch": true
+}

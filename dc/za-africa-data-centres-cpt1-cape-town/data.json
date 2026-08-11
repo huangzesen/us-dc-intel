@@ -1,0 +1,22 @@
+{
+  "slug": "za-africa-data-centres-cpt1-cape-town",
+  "canonical_project": "Africa Data Centres CPT1 (Cape Town)",
+  "owner": "Africa Data Centres (Cassava Technologies)",
+  "location": {
+    "city": "",
+    "subnational": "Western Cape - City of Cape Town",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-08-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.africadatacentres.com/africa-data-centres-announces-additional-6mw-capacity-now-live-in-cape-town/",
+    "https://mybroadband.co.za/news/cloud-hosting/545923-africa-data-centres-completes-r5-5-billion-expansion-at-cape-town-facility.html",
+    "https://www.businessday.co.za/bt/business-and-economy/2024-08-04-africa-data-centres-cape-town-facility-gets-huge-capacity-boost/"
+  ],
+  "notes": "Africa Data Centres Cape Town (CPT1) at Diep River/De Waal Road: originally ~5.5MW of power; R5.5-billion expansion added 6MW of capacity and ~1,000 racks (live by 2024), per company announcement and Business Day (4 Aug 2024). Total MW not cleanly stated in sources.",
+  "world_batch": true
+}

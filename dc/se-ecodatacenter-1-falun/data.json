@@ -1,0 +1,20 @@
+{
+  "slug": "se-ecodatacenter-1-falun",
+  "canonical_project": "EcoDataCenter 1 Falun",
+  "owner": "EcoDataCenter",
+  "location": {
+    "city": "",
+    "subnational": "Dalarna",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": 80,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ecodatacenter.tech/data-center/ecodatacenter-1"
+  ],
+  "notes": "EcoDataCenter official page lists EcoDataCenter 1 in Falun as a large-scale AI/HPC site with 80 MW total available power and 100 percent renewable electricity.",
+  "world_batch": true
+}

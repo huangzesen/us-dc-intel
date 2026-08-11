@@ -1,0 +1,21 @@
+{
+  "slug": "mg-stellarix-tnr2-galaxy",
+  "canonical_project": "Stellarix TNR2 Galaxy",
+  "owner": "Stellarix / AXIAN Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Antananarivo",
+    "country": "Madagascar",
+    "country_code": "MG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.stellar-ix.com/en/a-propos-de-stellarix/",
+    "https://www.axian-telecom.com/telecom-operations/telecoms-infrastructure/"
+  ],
+  "notes": "Stellarix lists TNR2 Galaxy at Building KUBE D, 2nd floor, Galaxy Andraharo, BP 763, Antananarivo 101. The same source says Stellarix operates two Tier III-ready data centers; AXIAN provides platform-level rack and production-power figures but not a per-site capacity split.",
+  "world_batch": true
+}

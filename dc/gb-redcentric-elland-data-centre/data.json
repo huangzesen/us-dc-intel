@@ -1,0 +1,21 @@
+{
+  "slug": "gb-redcentric-elland-data-centre",
+  "canonical_project": "Redcentric Elland Data Centre",
+  "owner": "Redcentric",
+  "location": {
+    "city": "",
+    "subnational": "England - Calderdale",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.redcentricplc.com/wp-content/uploads/Elland-data-centre-data-sheet-2.pdf",
+    "https://www.datacentermap.com/united-kingdom/halifax-west-yorkshire/"
+  ],
+  "notes": "Operational Tier-3-aligned facility at Lowfields Business Park, Elland, within Calderdale; public datasheet gives location and facility details but not MW capacity.",
+  "world_batch": true
+}

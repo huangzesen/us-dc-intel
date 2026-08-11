@@ -1,0 +1,22 @@
+{
+  "slug": "gi-gibfibre-data-centre",
+  "canonical_project": "GIBFIBRE Data Centre",
+  "owner": "GIBFIBRE",
+  "location": {
+    "city": "",
+    "subnational": "Gibraltar",
+    "country": "Gibraltar",
+    "country_code": "GI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-07-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://gibfibre.com/datacentre/",
+    "https://www.datacenterdynamics.com/en/news/gibfibre-opens-data-center-in-gibraltar/",
+    "https://www.gbc.gi/news/gibfibre-opens-data-centre-bid-improve-infrastructure"
+  ],
+  "notes": "Purpose-built data centre at New Harbours opened in July 2024; company materials describe Tier 3, ISO 27001 and cleanroom certifications, while DCD reports 30 racks across two contained hot aisles with 2.5 kW or 5 kW rack options.",
+  "world_batch": true
+}

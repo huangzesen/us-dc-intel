@@ -1,0 +1,22 @@
+{
+  "slug": "lv-lvrtc-liepajas-rts",
+  "canonical_project": "LVRTC Liepajas RTS",
+  "owner": "Latvian State Radio and Television Centre (LVRTC)",
+  "location": {
+    "city": "",
+    "subnational": "Liepaja",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://beta.peeringdb.com/org/1214",
+    "https://www.newby-ventures.com/research/ix-data/internet-exchanges-in-latvia/",
+    "https://www.lvrtc.lv/en/baltic-data-hub/data-centers/"
+  ],
+  "notes": "PeeringDB and Newby Ventures list LVRTC Liepajas RTS as a facility/interconnection site; LVRTC describes its national colocation/data-center network. No public capacity found.",
+  "world_batch": true
+}

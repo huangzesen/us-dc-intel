@@ -1,0 +1,20 @@
+{
+  "slug": "af-afghanistan-natural-hazards-data-center-formerly-asdc",
+  "canonical_project": "Afghanistan Natural Hazards Data Center (formerly ASDC)",
+  "owner": "iMMAP / Afghanistan National Disaster Management Authority",
+  "location": {
+    "city": "",
+    "subnational": "Kabul",
+    "country": "Afghanistan",
+    "country_code": "AF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-04-27",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.networkworld.com/article/970978/south-asia-data-centre-guide-2022-country-by-country.html"
+  ],
+  "notes": "Specialized spatial/natural-hazards data center opened in 2015 and became ANHDC in 2020 for ANDMA needs; included as a specialized data center, not commercial colocation.",
+  "world_batch": true
+}

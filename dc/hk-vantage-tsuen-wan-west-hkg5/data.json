@@ -1,0 +1,21 @@
+{
+  "slug": "hk-vantage-tsuen-wan-west-hkg5",
+  "canonical_project": "Vantage Tsuen Wan West HKG5",
+  "owner": "Vantage Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": 48,
+  "status": "planned",
+  "evidence_date": "2021-11-18",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vantage-dc.com/wp-content/uploads/2021/11/VDC_DataSheet_Tsuen_Wan_West_111821.pdf",
+    "https://baxtel.com/data-center/vantage-tsuen-wan-west-hkg5"
+  ],
+  "notes": "Vantage project datasheet gives 48MW critical IT load and 700,000 sq ft for the Tsuen Wan West data center; later facility databases continue to list it as planned/developing.",
+  "world_batch": true
+}

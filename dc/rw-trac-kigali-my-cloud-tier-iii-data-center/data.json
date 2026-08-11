@@ -1,0 +1,22 @@
+{
+  "slug": "rw-trac-kigali-my-cloud-tier-iii-data-center",
+  "canonical_project": "TrAC Kigali / My.cloud Tier III data center",
+  "owner": "TransAfrica Communications Ltd",
+  "location": {
+    "city": "",
+    "subnational": "City of Kigali",
+    "country": "Rwanda",
+    "country_code": "RW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://trac.africa/cloud-hosting/",
+    "https://www.datacentermap.com/rwanda/kigali/trac-kigali/",
+    "https://rw.linkedin.com/company/transafricacommunications"
+  ],
+  "notes": "TransAfrica Communications' official cloud page describes its Cloud service as locally hosted in a Tier 3 data center with 99.98% uptime; DataCenterMap lists TrAC Kigali at Telecom House, 8 KG 7 Ave and notes Axiom Networks rebranded as TrAC in September 2021.",
+  "world_batch": true
+}

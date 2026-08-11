@@ -1,0 +1,21 @@
+{
+  "slug": "sg-global-switch-singapore-tai-seng",
+  "canonical_project": "Global Switch Singapore Tai Seng",
+  "owner": "Global Switch",
+  "location": {
+    "city": "",
+    "subnational": "Central Singapore",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 17,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.globalswitch.com/data-centres/singapore/",
+    "https://www.globalswitch.com/data-centres/"
+  ],
+  "notes": "Operator lists Singapore Tai Seng at 2 Tai Seng Avenue with 17MW; assigned to Central Singapore/Tai Seng cluster.",
+  "world_batch": true
+}

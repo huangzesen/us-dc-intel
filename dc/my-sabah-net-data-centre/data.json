@@ -1,0 +1,20 @@
+{
+  "slug": "my-sabah-net-data-centre",
+  "canonical_project": "Sabah Net Data Centre",
+  "owner": "Sabah Net Sdn Bhd",
+  "location": {
+    "city": "",
+    "subnational": "Sabah",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://sabah-net.com/connection"
+  ],
+  "notes": "Sabah Net's official services page lists a Sabah Net Data Centre designed to support enterprise applications, databases, big data, AI and machine-learning workloads. No public MW capacity found.",
+  "world_batch": true
+}

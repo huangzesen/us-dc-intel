@@ -1,0 +1,20 @@
+{
+  "slug": "gn-arpt-data-center",
+  "canonical_project": "ARPT Data Center",
+  "owner": "Autorité de Régulation des Postes et Télécommunications (ARPT)",
+  "location": {
+    "city": "",
+    "subnational": "Conakry",
+    "country": "Guinea",
+    "country_code": "GN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/tier-certification/certMaps.php?country=Guinea&prog=TC"
+  ],
+  "notes": "Uptime Institute certification map lists an ARPT Data Center in Conakry, Guinea. Public source does not disclose IT load capacity.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "au-nextdc-m1-melbourne-docklands",
+  "canonical_project": "NEXTDC M1 Melbourne (Docklands)",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Melbourne",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/nextdc-m1-melbourne",
+    "https://www.nexthop.com.au/datacentre-dark-fibre/nextdc-m1/"
+  ],
+  "notes": "NEXTDC's flagship Melbourne facility at 820 Bourke Street / 826 Lorimer Street, Docklands (City of Melbourne LGA); built 2012, acquired from APDC in 2018; Uptime Tier III certified, first Australian DC with 4.5 NABERS rating; 550 MWh/yr rooftop solar array; per-cabinet MW capacity not published in cited sources.",
+  "world_batch": true
+}

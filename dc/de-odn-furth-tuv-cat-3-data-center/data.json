@@ -1,0 +1,22 @@
+{
+  "slug": "de-odn-furth-tuv-cat-3-data-center",
+  "canonical_project": "ODN Fürth TÜV Cat. 3 data center",
+  "owner": "ODN OnlineDienst Nordbayern GmbH & Co. KG",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Fürth (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2015-07-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.marktspiegel.de/nuernberg/c-lokales/odn-eroeffnete-neues-rechenzentrum_a11583",
+    "https://www.openpr.de/news/864228/Das-Internet-Systemhaus-ODN-eroeffnet-sein-fuenftes-Rechenzentrum.html",
+    "https://datacenterplatform.com/data-centers/odn-gmbhco-kg/odn-gmbhco-kg-germany/odn-gmbhco-kg-furth/"
+  ],
+  "notes": "2015 local/trade releases reported ODN opened a new TÜV Cat. 3 certified data center in Fürth, its fifth data center, at the former Fürther Backstube. Datacenterplatform lists ODN GmbH&Co.KG Furth at Hermann-Glockner-Straße 7 with Tier III. This appears to be the facility later acquired/operated by ScaleUp; retained as a source-specific facility record. MW capacity not disclosed.",
+  "world_batch": true
+}

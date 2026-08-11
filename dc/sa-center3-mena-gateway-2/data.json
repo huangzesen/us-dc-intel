@@ -1,0 +1,22 @@
+{
+  "slug": "sa-center3-mena-gateway-2",
+  "canonical_project": "Center3 MENA Gateway 2",
+  "owner": "Center3 / Saudi Telecom Company",
+  "location": {
+    "city": "",
+    "subnational": "Mecca Region - Jiddah",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 9.6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.ocolo.io/colocation/center3/jeddah-mena-gateway-2/",
+    "https://center3.com/",
+    "https://www.datacenterdynamics.com/en/news/saudis-center3-targets-1gw-of-data-center-capacity-by-2030/"
+  ],
+  "notes": "OCOLO lists Center3 Jeddah MENA Gateway 2 in Jeddah with 9.60 MW power capacity. Center3 confirms a Jeddah footprint; DCD reports Center3's broader capacity expansion target but not MG2-specific MW.",
+  "world_batch": true
+}

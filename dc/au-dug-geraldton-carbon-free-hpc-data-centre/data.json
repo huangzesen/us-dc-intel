@@ -1,0 +1,22 @@
+{
+  "slug": "au-dug-geraldton-carbon-free-hpc-data-centre",
+  "canonical_project": "DUG Geraldton carbon-free HPC data centre",
+  "owner": "DUG Technology",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Greater Geraldton",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2021-05-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dug.com/dug-technology-plans-to-build-worlds-first-carbon-free-high-performance-computing-data-centre-in-geraldton/",
+    "https://dug.com/worlds-first-carbon-free-data-centre-planned-for-takeoff-in-regional-western-australia/",
+    "https://baxtel.com/data-center/dug-geraldton"
+  ],
+  "notes": "DUG announced plans in 2021 for a renewable-powered high-performance-computing data centre in Geraldton with initial compute capacity above 200 petaflops and possible expansion to multi-exaflop. Current implementation status was not confirmed in this pass, so status is left as planned.",
+  "world_batch": true
+}

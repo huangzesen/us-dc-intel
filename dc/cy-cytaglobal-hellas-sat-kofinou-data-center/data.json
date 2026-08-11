@@ -1,0 +1,21 @@
+{
+  "slug": "cy-cytaglobal-hellas-sat-kofinou-data-center",
+  "canonical_project": "CytaGlobal / Hellas Sat Kofinou Data Center",
+  "owner": "CytaGlobal / Hellas Sat",
+  "location": {
+    "city": "",
+    "subnational": "Larnaca",
+    "country": "Cyprus",
+    "country_code": "CY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/datacenters/emea/cyprus",
+    "https://www.datacentermap.com/cyprus/nicosia/"
+  ],
+  "notes": "Data-center directories list a CytaGlobal/Hellas Sat facility at Panagias Galaktotrofousas 1, Kofinou, which is in Larnaca District; treated as operational but details are directory-derived.",
+  "world_batch": true
+}

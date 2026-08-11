@@ -1,0 +1,21 @@
+{
+  "slug": "fr-sfr-trappes-cloud-datacenter",
+  "canonical_project": "SFR Trappes cloud datacenter",
+  "owner": "SFR",
+  "location": {
+    "city": "",
+    "subnational": "Yvelines",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 12,
+  "status": "unknown",
+  "evidence_date": "2014-02-07",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.silicon.fr/Thematique/cloud-1370/Breves/SFR-batit-un-nouveau-datacenter-pour-le-Cloud-453867.htm",
+    "https://www.itforbusiness.fr/un-nouveau-datacenter-en-projet-chez-sfr-572"
+  ],
+  "notes": "2014 trade press reported SFR would build a second cloud datacenter in Trappes, Yvelines, intended to open in January 2015, with HP leading project delivery and 12 MW reserved from EDF. No later operational confirmation was found during this pass, so current status is marked unknown.",
+  "world_batch": true
+}

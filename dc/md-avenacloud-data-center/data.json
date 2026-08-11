@@ -1,0 +1,21 @@
+{
+  "slug": "md-avenacloud-data-center",
+  "canonical_project": "AvenaCloud Data Center",
+  "owner": "Infotech-Grup SRL",
+  "location": {
+    "city": "",
+    "subnational": "Chisinau",
+    "country": "Moldova, Republic of",
+    "country_code": "MD"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.colocationm.com/moldova/chisinau-dc-1",
+    "https://www.datacentermap.com/moldova/chisinau/avenacloud/"
+  ],
+  "notes": "Listed at Muncesti 364, Chisinau. ColocationM reports operational status and 2 MW; DataCenterMap also lists the AvenaCloud facility in Chisinau, though some public summaries report 3 MW.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "at-exoscale-at-vie-1-zone-at-a1-arsenal-datacenter",
+  "canonical_project": "Exoscale AT-VIE-1 zone at A1 Arsenal Datacenter",
+  "owner": "Exoscale / A1 Telekom Austria",
+  "location": {
+    "city": "",
+    "subnational": "Vienna",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-05-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.exoscale.com/datacenters/austria/",
+    "https://www.a1.digital/press/a1-exoscale-public-cloud-zone/"
+  ],
+  "notes": "Exoscale lists its Austria zone AT-VIE-1 as hosted by A1 Telekom Austria at Arsenal - Objekt 24 in Vienna; A1 Digital announced the Austrian Exoscale public cloud zone in A1 data centers.",
+  "world_batch": true
+}

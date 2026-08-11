@@ -1,0 +1,23 @@
+{
+  "slug": "bf-virtix-data-center",
+  "canonical_project": "Virtix Data Center",
+  "owner": "Virtual Technologies and Solutions SA (Virtix)",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Burkina Faso",
+    "country_code": "BF"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://virtix.bf/",
+    "https://datacenterplatform.com/data-centers/virtual-technologies-and-solutions-sa/virtix-data-center/",
+    "https://systalink.com/data-center-au-burkina-faso/",
+    "https://www.peeringdb.com/net/17969"
+  ],
+  "notes": "First commercial data center in Burkina Faso, established 2017, located Ouaga 2000, Ouagadougou (Palais des Sport area). Tier III certified, carrier-neutral colocation for MNOs, ISPs, enterprises and content providers; ~1,200 m2, 40+ racks, 3 MW power capacity; dual fiber ring to BFIX and grid connection with N+1 UPS/generators (systalink; virtix.bf official site confirms Tier3 carrier-neutral facility in Ouagadougou; PeeringDB network entry Virtual Technologies and Solutions AS17969).",
+  "world_batch": true
+}

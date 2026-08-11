@@ -1,0 +1,20 @@
+{
+  "slug": "il-bynet-ha-horesh-shoham-data-center",
+  "canonical_project": "Bynet Ha'horesh Shoham Data Center",
+  "owner": "Bynet Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "HaMerkaz",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bynetdcs.co.il/"
+  ],
+  "notes": "Bynet official site lists Ha'horesh at 1,690 racks, 20MW, 20,000 sqm, Tier 4; Bynet states its data center sites include Shoham.",
+  "world_batch": true
+}

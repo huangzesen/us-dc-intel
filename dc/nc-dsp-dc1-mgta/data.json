@@ -1,0 +1,22 @@
+{
+  "slug": "nc-dsp-dc1-mgta",
+  "canonical_project": "DSP DC1-MGTA",
+  "owner": "Data Services Pacific",
+  "location": {
+    "city": "",
+    "subnational": "New Caledonia",
+    "country": "New Caledonia",
+    "country_code": "NC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-03-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dsp.nc/",
+    "https://dsp.nc/wp-content/uploads/2021/03/Pre%CC%81sentation-DSP.pdf",
+    "https://www.datacentermap.com/new-caledonia/noumea/"
+  ],
+  "notes": "DSP states it is based in Noumea and operates two data centers in New Caledonia. Its service brochure identifies the first site as DC1-MGTA, dedicated to production; Data Center Map lists DSP DC1 at 210 rue Gervolino with 20 racks. No MW capacity disclosed.",
+  "world_batch": true
+}

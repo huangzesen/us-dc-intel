@@ -1,0 +1,22 @@
+{
+  "slug": "mz-raxio-mozambique-mz1",
+  "canonical_project": "Raxio Mozambique MZ1",
+  "owner": "Raxio Group",
+  "location": {
+    "city": "",
+    "subnational": "Maputo",
+    "country": "Mozambique",
+    "country_code": "MZ"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.raxiogroup.com/data-centres/mozambique/",
+    "https://mozparks.co.mz/raxio-inaugurates-mozambiques-first-tier-iii-data-centre-at-mozparks-beluluane-industrial-park/",
+    "https://www.datacenterdynamics.com/en/news/?tag=mozambique&term=the-data-center-construction-channel"
+  ],
+  "notes": "Operational Tier III facility in Matola, Beluluane Industrial Park; Raxio official page states up to 400 racks and 3 MW IT power. MozParks reported inauguration in 2024.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "gb-itps-angel-house-data-centre",
+  "canonical_project": "ITPS Angel House Data Centre",
+  "owner": "ITPS",
+  "location": {
+    "city": "",
+    "subnational": "England - County Durham",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.itps.co.uk/privacy-policy/",
+    "https://www.ocolo.io/colocation/itps/angel-house/",
+    "https://baxtel.com/news/data-centers/global-switch-london-docklands-campus?page=359"
+  ],
+  "notes": "ITPS lists its Chester-le-Street, County Durham address and data-centre services; third-party colocation records identify Angel House as a 33,000 sq ft, 2 MW colocation/enterprise data centre. Older industry coverage reports Keysource upgrade/expansion work at ITPS's County Durham colocation facility.",
+  "world_batch": true
+}

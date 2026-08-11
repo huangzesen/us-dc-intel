@@ -1,0 +1,21 @@
+{
+  "slug": "fr-lorient-agglomeration-low-carbon-public-data-center",
+  "canonical_project": "Lorient Agglomération low-carbon public data center",
+  "owner": "Lorient Agglomération",
+  "location": {
+    "city": "",
+    "subnational": "Morbihan",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-11-10",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.lorient-agglo.bzh/actus/toutes-les-actualites/actualite/news/un-data-center-plus-durable-pour-lorient-agglomeration/",
+    "https://www.datacenterdynamics.com/en/news/local-government-data-center-launched-in-lorient-france/"
+  ],
+  "notes": "Official Lorient Agglomération announcement says the low-carbon containerized data center was inaugurated to host public-service data, with local backup data center replication; investment reported at EUR1.6m.",
+  "world_batch": true
+}

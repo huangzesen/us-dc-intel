@@ -1,0 +1,20 @@
+{
+  "slug": "af-nixa-internet-exchange-point-center",
+  "canonical_project": "NIXA Internet Exchange Point Center",
+  "owner": "Ministry of Communications and Information Technology",
+  "location": {
+    "city": "",
+    "subnational": "Kabul",
+    "country": "Afghanistan",
+    "country_code": "AF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mcit.gov.af/en/node/7048"
+  ],
+  "notes": "Physical internet-exchange infrastructure for Afghan ISP traffic in Kabul; MCIT states 29 licensed ISPs are connected, server caches/root DNS were added, and equipment procurement was being retendered with plans to establish IXP in four zones.",
+  "world_batch": true
+}

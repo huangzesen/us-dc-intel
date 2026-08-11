@@ -1,0 +1,21 @@
+{
+  "slug": "cn-huawei-yongzhou-cloud-computing-data-center",
+  "canonical_project": "Huawei (Yongzhou) Cloud Computing Data Center",
+  "owner": "Huawei Cloud; Yongzhou Economic and Technological Development Zone",
+  "location": {
+    "city": "",
+    "subnational": "Hunan - Yongzhou",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-10-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://jxw.yzcity.gov.cn/jxw/031006/201811/dd2fc6b0b71949558807ac082631122f.shtml",
+    "https://www.hunan.gov.cn/hnszf/hnyw/szdt/201910/t20191013_10481916.html"
+  ],
+  "notes": "Introduced in April 2016, later officially online. Yongzhou government source says phase one has 13,924.92 sqm GFA, 1,000 standard server cabinets, 480,000-core cloud computing and 45P cloud storage; Hunan government says it is one of Huawei's 22 core nodes and Huawei's only node in Hunan.",
+  "world_batch": true
+}

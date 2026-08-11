@@ -1,0 +1,20 @@
+{
+  "slug": "de-hochschule-esslingen-rechenzentrum",
+  "canonical_project": "Hochschule Esslingen Rechenzentrum",
+  "owner": "Hochschule Esslingen",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Esslingen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.hs-esslingen.de/hochschule/service/rechenzentrum"
+  ],
+  "notes": "University IT service page states the data center operates more than 220 servers and central IT services across the university. Institutional center; no public MW capacity.",
+  "world_batch": true
+}

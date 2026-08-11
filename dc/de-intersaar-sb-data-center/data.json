@@ -1,0 +1,22 @@
+{
+  "slug": "de-intersaar-sb-data-center",
+  "canonical_project": "intersaar SB data center",
+  "owner": "intersaar GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Saarland - Saarbrücken",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/germany/saarbruecken/intersaar-sb/",
+    "https://www.intersaar.de/",
+    "https://www.peeringdb.com/org/6500"
+  ],
+  "notes": "Data Center Map lists intersaar SB in Saarbrücken offering colocation and carrier services; intersaar advertises colocation among hosting/web services and PeeringDB confirms Saarbrücken address. No public MW capacity found.",
+  "world_batch": true
+}

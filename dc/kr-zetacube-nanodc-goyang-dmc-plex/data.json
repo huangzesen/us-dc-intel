@@ -1,0 +1,22 @@
+{
+  "slug": "kr-zetacube-nanodc-goyang-dmc-plex",
+  "canonical_project": "ZetaCube NANODC Goyang DMC Plex",
+  "owner": "ZetaCube",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Goyang-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 0.02,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.mk.co.kr/en/it/11450175",
+    "https://www.nanodc.ai/",
+    "https://media.xenea.io/blog/20250917-en"
+  ],
+  "notes": "ZetaCube/NANODC public pages list a data center at DMC Flex City, Hyangdong-dong, Goyang-si; Maeil Business News describes operational 20kW 48U NANODC installations including Goyang. Treated as micro/edge infrastructure.",
+  "world_batch": true
+}

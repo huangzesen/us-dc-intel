@@ -1,0 +1,20 @@
+{
+  "slug": "lu-visual-online-contern-datacenter",
+  "canonical_project": "Visual Online Contern Datacenter",
+  "owner": "Visual Online S.A.",
+  "location": {
+    "city": "",
+    "subnational": "Luxembourg",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://hosting.vo.lu/en/colocation/our-datacenter/"
+  ],
+  "notes": "Visual Online states it owns a modern data centre located at Contern, Luxembourg, connected to redundant high-speed fiber and multiple tier operators.",
+  "world_batch": true
+}

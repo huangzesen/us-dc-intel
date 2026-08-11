@@ -1,0 +1,22 @@
+{
+  "slug": "mt-midi-dc1-sis-dc1",
+  "canonical_project": "MIDI DC1 / SIS DC1",
+  "owner": "MIDI plc / SIS Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Gzira",
+    "country": "Malta",
+    "country_code": "MT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/malta/gzira/",
+    "https://www.datacentermap.com/malta/gzira/sis-dc-1/",
+    "https://datacentercatalog.com/malta/sis-dc-1"
+  ],
+  "notes": "Data Center Map lists one Gzira facility, MIDI DC1 at North Shore, GZR 3016 Gzira, with fiber to rack, chilled water, a fully redundant core network, and meet-me area. Data Center Catalog lists SIS DC 1 at North Shore, Gzira and describes customer server hosting in a secure staffed facility. Capacity not disclosed.",
+  "world_batch": true
+}

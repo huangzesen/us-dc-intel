@@ -1,0 +1,21 @@
+{
+  "slug": "mt-melita-mriehel-secondary-data-centre",
+  "canonical_project": "Melita Mriehel Secondary Data Centre",
+  "owner": "Melita Business / Melita plc",
+  "location": {
+    "city": "",
+    "subnational": "Qormi",
+    "country": "Malta",
+    "country_code": "MT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.melitabusiness.com/hosting-cloud/secure-facilities/",
+    "https://www.datacentermap.com/malta/qormi/melita-mriehel/"
+  ],
+  "notes": "Melita's official facilities page describes a secondary data centre in Mriehel connected to the Madliena POP; DatacenterMap places the Melita Mriehel facility under Qormi. Locality assignment is from aggregate source.",
+  "world_batch": true
+}

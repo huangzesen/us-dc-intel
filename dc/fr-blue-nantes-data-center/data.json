@@ -1,0 +1,21 @@
+{
+  "slug": "fr-blue-nantes-data-center",
+  "canonical_project": "Blue Nantes data center",
+  "owner": "Blue",
+  "location": {
+    "city": "",
+    "subnational": "Loire-Atlantique",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2023-11-16",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/managed-services-firm-blue-to-build-data-center-in-nantes-france/",
+    "https://baxtel.com/data-center/pays-de-la-loire"
+  ],
+  "notes": "DCD reported Blue was developing a 2,000 sq m Nantes facility due online by end-2024; Baxtel lists Blue Nantes as the largest Pays de la Loire facility with 2 MW.",
+  "world_batch": true
+}

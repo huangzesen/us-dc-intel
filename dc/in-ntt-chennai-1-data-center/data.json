@@ -1,0 +1,21 @@
+{
+  "slug": "in-ntt-chennai-1-data-center",
+  "canonical_project": "NTT Chennai 1 data center",
+  "owner": "NTT Global Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Tamil Nadu - Chennai",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/india/chennai-1-data-center",
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/india"
+  ],
+  "notes": "NTT's Chennai 1 official location page states 1,500 sq m of server space and 2 MW of IT load. It is treated separately from the newer Chennai 2 Ambattur campus.",
+  "world_batch": true
+}

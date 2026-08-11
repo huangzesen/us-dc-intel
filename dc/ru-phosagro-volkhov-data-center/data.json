@@ -1,0 +1,22 @@
+{
+  "slug": "ru-phosagro-volkhov-data-center",
+  "canonical_project": "PhosAgro Volkhov Data Center",
+  "owner": "PhosAgro / Apatit; Rostelecom",
+  "location": {
+    "city": "",
+    "subnational": "Leningrad",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2025-09-25",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.company.rt.ru/press/news/d474905/",
+    "https://www.phosagro.ru/press/company/fosagro-sovmestno-s-rostelekomom-pristupaet-k-stroitelstvu-novogo-tsentra-obrabotki-dannykh-v-volkho/",
+    "https://www.datacenterdynamics.com/en/news/rostelecom-to-build-data-center-for-russian-chemical-firm-phosagro/"
+  ],
+  "notes": "Rostelecom official release says it began building a new data center for PhosAgro at Apatit's Volkhov branch in Leningrad Oblast, with redundant high-speed links, three independent power sources, batteries and diesel generation; completion expected in 2026. No MW disclosed.",
+  "world_batch": true
+}

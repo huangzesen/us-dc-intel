@@ -1,0 +1,20 @@
+{
+  "slug": "fi-dayone-kouvola-campus",
+  "canonical_project": "DayOne Kouvola Campus",
+  "owner": "DayOne; Hyperco",
+  "location": {
+    "city": "",
+    "subnational": "Kymenlaakso",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": 153,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dayonedc.com/market/finland"
+  ],
+  "notes": "DayOne official Finland page says its Finland platform totals 281 MW across Lahti and Kouvola; since Lahti is separately described by DCD as 128 MW, the implied Kouvola component is about 153 MW. Capacity is inferred from public statements.",
+  "world_batch": true
+}

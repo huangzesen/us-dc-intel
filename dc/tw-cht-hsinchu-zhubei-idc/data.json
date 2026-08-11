@@ -1,0 +1,22 @@
+{
+  "slug": "tw-cht-hsinchu-zhubei-idc",
+  "canonical_project": "CHT Hsinchu Zhubei IDC",
+  "owner": "Chunghwa Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Hsinchu",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idc.hinet.net/chtidc_eng/ServiceIDC.html",
+    "https://dchub.cloud/facility/15482",
+    "https://www.datacenters.com/idc-chunghwa-telecom-hsinchu-zhubei-idc"
+  ],
+  "notes": "Chunghwa Telecom's IDC service page lists Hsinchu Zhubei IDC among its professional data centers; third-party listings place it at No. 136 Guangming 5 Street, Zhubei City, Hsinchu County, with 9,074 sq ft and a reported 3 MW capacity.",
+  "world_batch": true
+}

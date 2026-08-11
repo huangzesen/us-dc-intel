@@ -1,0 +1,21 @@
+{
+  "slug": "kz-kazakhtelecom-almaty-modular-data-center",
+  "canonical_project": "Kazakhtelecom Almaty modular data center",
+  "owner": "JSC Kazakhtelecom",
+  "location": {
+    "city": "",
+    "subnational": "Almaty City",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": 3.3,
+  "status": "operational",
+  "evidence_date": "2021-12-31",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ar2021.telecom.kz/en/information-technology.html",
+    "https://kase.kz/en/information/news/show/1112896/"
+  ],
+  "notes": "Kazakhtelecom's 2021 annual report says it launched a new modular DPC in Almaty with 168 seats, 180 sqm total area, and 3.3 MW increased capacity; KASE issuer news also identifies Almaty among earlier Kazakhtelecom IDCs.",
+  "world_batch": true
+}

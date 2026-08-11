@@ -1,0 +1,22 @@
+{
+  "slug": "in-airtrunk-hyd1-ex-lumina-cloudinfra-chandanvelly-campus",
+  "canonical_project": "AirTrunk HYD1 (ex-Lumina CloudInfra) Chandanvelly campus",
+  "owner": "AirTrunk (Blackstone portfolio; acquired Lumina CloudInfra 2025)",
+  "location": {
+    "city": "",
+    "subnational": "Telangana - Hyderabad",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 243.0,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/india/hyderabad/airtrunk-hyderabad-hyd1/",
+    "https://www.livemint.com/companies/blackstone-data-centre-arm-lumina-cloudinfra-buys-mumbai-land-475-crore-asia-11758628195930.html",
+    "https://thenextweb.com/news/airtrunk-lumina-cloudinfra-india-data-centre-acquisition"
+  ],
+  "notes": "DataCenterMap lists AirTrunk HYD1 at Chandanvelly, Hyderabad with >243MW total capacity on a 13.3-hectare site (179,000 sq m built-up). Livemint reported Lumina CloudInfra had two Hyderabad data centre sites under construction; AirTrunk entered India by acquiring Lumina CloudInfra (announced Nov 2025) with ~600MW of planned India capacity. Exact phase status to be confirmed; treat MW as campus design capacity.",
+  "world_batch": true
+}

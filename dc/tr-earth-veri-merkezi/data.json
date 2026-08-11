@@ -1,0 +1,22 @@
+{
+  "slug": "tr-earth-veri-merkezi",
+  "canonical_project": "Earth Veri Merkezi",
+  "owner": "Earth Veri Merkezi",
+  "location": {
+    "city": "",
+    "subnational": "Samsun",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/turkey/samsun/earth-veri-merkezi/",
+    "https://www.datacentermap.com/turkey/samsun/",
+    "https://www.sabah.com.tr/yazarlar/sirt/2026/06/25/turkiye-veri-merkezleri-ussu-oluyor"
+  ],
+  "notes": "DataCenterMap lists Earth Veri Merkezi as Samsun's only colocation/cloud data center; the provider states it currently offers server colocation at one location in Samsun, Turkey. A June 2026 Sabah column confirms one working data center in Samsun. Capacity not disclosed.",
+  "world_batch": true
+}

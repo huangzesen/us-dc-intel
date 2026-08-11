@@ -1,0 +1,22 @@
+{
+  "slug": "np-bichuten-data-vault-tier-iv-hyperscale-data-centers-chobhar-and-birgunj",
+  "canonical_project": "Bichuten Data Vault Tier IV Hyperscale Data Centers, Chobhar and Birgunj",
+  "owner": "Bichuten Data Vault",
+  "location": {
+    "city": "",
+    "subnational": "-",
+    "country": "Nepal",
+    "country_code": "NP"
+  },
+  "capacity_mw": 5.0,
+  "status": "planned",
+  "evidence_date": "2026-05-08",
+  "evidence_grade": "B",
+  "sources": [
+    "https://bichuten.com/infrastructure/datacenters",
+    "https://www.datacenterdynamics.com/en/news/two-data-centers-with-combined-5mw-capacity-to-be-built-in-nepal/",
+    "https://thehimalayantimes.com/science-and-tech/nepal-to-get-first-tier-iv-hyperscale-data-center"
+  ],
+  "notes": "Bichuten announced two hydro-powered Tier-IV/hyperscale facilities in Chobhar, Kathmandu and Birgunj, starting with roughly 240kW initial capacity and scaling toward 5MW combined by 2030.",
+  "world_batch": true
+}

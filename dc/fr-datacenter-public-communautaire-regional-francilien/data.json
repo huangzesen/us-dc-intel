@@ -1,0 +1,21 @@
+{
+  "slug": "fr-datacenter-public-communautaire-regional-francilien",
+  "canonical_project": "Datacenter public communautaire regional francilien",
+  "owner": "GIE d'Infogerance Publique Communautaire / Val d'Oise Numerique",
+  "location": {
+    "city": "",
+    "subnational": "Val-d'Oise",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.valdoise.fr/152-le-data-center-regional.htm",
+    "https://www.lemagit.fr/etude/Le-Val-dOise-se-dote-dun-datacenter-souverain"
+  ],
+  "notes": "Val-d'Oise department describes the public regional/community data-center initiative launched from 2020; the operating site is Lognes in Seine-et-Marne, so this is included as a Val-d'Oise-led project rather than a facility physically in the department.",
+  "world_batch": true
+}

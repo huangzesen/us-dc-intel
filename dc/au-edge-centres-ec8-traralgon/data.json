@@ -1,0 +1,22 @@
+{
+  "slug": "au-edge-centres-ec8-traralgon",
+  "canonical_project": "Edge Centres EC8 Traralgon",
+  "owner": "Edge Centres",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Latrobe (Vic.)",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/edge-centres-breaks-ground-on-second-data-center-in-victoria-australia/",
+    "https://itbrief.com.au/story/edge-centres-to-construct-second-victoria-data-centre-in-traralgon",
+    "https://edgecentres.com/locations/australia/ec8-traralgon/"
+  ],
+  "notes": "Edge Centres' second Victorian data centre, in Traralgon (Latrobe City, ~160km east of Melbourne); construction announced and ground broken per trade press; free-cooling design using local climate, ~1MW on-site solar, 48h battery/UPS backup; capacity in MW not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "cn-china-telecom-guangdong-zhuhai-idc-data-center",
+  "canonical_project": "China Telecom Guangdong Zhuhai IDC Data Center",
+  "owner": "China Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Guangdong - Zhuhai Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 5.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/providers/china-telecom/locations/china/guangdong/zhuhai",
+    "https://dcatlas.io/en/explore/facilities/china-telecom-guangdong-zhuhai-idc-data-center-zhuhai"
+  ],
+  "notes": "Data-center directories list China Telecom's Guangdong Zhuhai IDC at 199 Jinfeng Middle Road, Xiangzhou; DC Atlas estimates 5 MW live capacity.",
+  "world_batch": true
+}

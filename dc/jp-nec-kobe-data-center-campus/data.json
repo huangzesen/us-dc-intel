@@ -1,0 +1,21 @@
+{
+  "slug": "jp-nec-kobe-data-center-campus",
+  "canonical_project": "NEC Kobe Data Center campus",
+  "owner": "NEC Corporation",
+  "location": {
+    "city": "",
+    "subnational": "Hyogo",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nec.com/en/global/solutions/cloud/kobe_datacenter.html",
+    "https://www.datacenterdynamics.com/en/news/nec-launches-two-data-centers-in-kanagawa-and-kobe-japan/"
+  ],
+  "notes": "NEC official service page identifies Kobe Data Center as its flagship western Japan data center offering cloud and colocation; DCD notes NEC launched new data center buildings at Kobe and Kanagawa campuses in May 2024.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "fr-ovhcloud-strasbourg-sbg5",
+  "canonical_project": "OVHcloud Strasbourg SBG5",
+  "owner": "OVHcloud",
+  "location": {
+    "city": "",
+    "subnational": "Bas-Rhin",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-09-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://corporate.ovhcloud.com/en/newsroom/news/SBG5-opening/",
+    "https://www.datacenterdynamics.com/en/news/ovhcloud-rebuilds-strasbourg-data-center-on-site-of-2021-fire/"
+  ],
+  "notes": "OVHcloud opened SBG5 on its Strasbourg campus after the 2021 fire, describing it as a next-generation resilient and sustainable datacenter. Capacity not stated in MW.",
+  "world_batch": true
+}

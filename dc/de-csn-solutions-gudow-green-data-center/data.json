@@ -1,0 +1,23 @@
+{
+  "slug": "de-csn-solutions-gudow-green-data-center",
+  "canonical_project": "CSN-Solutions Gudow Green Data Center",
+  "owner": "CSN-Solutions GmbH / CSN-Data-Center e.K.",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Herzogtum Lauenburg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.csn-solutions.de/rechenzentrum-schleswig-holstein",
+    "https://www.csn-solutions.de/",
+    "https://www.ihk.de/schleswig-holstein/ihk-magazin/digitalisierung/hl-mai-2026-rechenzentren-7062818",
+    "https://www.cloudiax.com/privacy-policy/"
+  ],
+  "notes": "CSN-Solutions official pages advertise a certified data center in Gudow powered by 100% renewable energy; Cloudiax lists CSN-Solutions, Kastanienallee 11, 23899 Gudow/Kehrsen as its German colocation data center with N+1 power and cooling.",
+  "world_batch": true
+}

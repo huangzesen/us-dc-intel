@@ -1,0 +1,21 @@
+{
+  "slug": "ru-sberbank-megadata-center-balakovo",
+  "canonical_project": "Sberbank MegaData Center Balakovo",
+  "owner": "Sberbank",
+  "location": {
+    "city": "",
+    "subnational": "Saratov",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 82,
+  "status": "construction",
+  "evidence_date": "2021-09-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/sberbank-to-build-data-center-in-balakovo-russia/",
+    "https://www.datacentermap.com/russia/saratov/"
+  ],
+  "notes": "DCD reported Sberbank's planned Saratov Oblast/Balakovo mega data center with more than 55,000 sqm, seven modules, at least 3,000 racks, about 120,000 servers, and estimated 82 MW at full build-out. DataCenterMap lists the Balakovo site at Shosse Metallurgov and describes completion targeted for 2027.",
+  "world_batch": true
+}

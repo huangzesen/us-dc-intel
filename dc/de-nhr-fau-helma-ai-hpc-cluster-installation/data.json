@@ -1,0 +1,22 @@
+{
+  "slug": "de-nhr-fau-helma-ai-hpc-cluster-installation",
+  "canonical_project": "NHR@FAU Helma AI / HPC cluster installation",
+  "owner": "Friedrich-Alexander-Universität Erlangen-Nürnberg; NHR@FAU",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Erlangen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-10-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.fau.eu/2025/10/news/research/hochleistungscomputer-superrechner-helma-eingeweiht/",
+    "https://www.fau.eu/2024/01/news/installation-of-new-supercomputers-for-simulation-and-ai/",
+    "https://www.fau.eu/2024/02/news/research/fau-to-become-bavarian-ai-computing-center/"
+  ],
+  "notes": "FAU reported the Erlangen NHR@FAU center inaugurated Helma, described as the most powerful supercomputer at German universities, and previously announced installation of new simulation and AI systems including H100 GPU nodes and 3 PB storage. This is a compute expansion within the Erlangen university data-center environment; MW capacity not disclosed.",
+  "world_batch": true
+}

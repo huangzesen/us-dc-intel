@@ -1,0 +1,21 @@
+{
+  "slug": "ch-leuk-teleport-and-data-centre",
+  "canonical_project": "Leuk Teleport and Data Centre",
+  "owner": "Leuk Teleport and Data Centre / Signalhorn AG",
+  "location": {
+    "city": "",
+    "subnational": "Valais",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": 4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://leuk-tdc.com/blog/5-benefits-of-colocation-services-from-leuk/",
+    "https://www.datacentermap.com/switzerland/leuk/leuk-teleportdc/"
+  ],
+  "notes": "Leuk's official blog describes the LEUK Data Centre in Valais as up to a 4 MW facility with 1,000 sqm available for customer expansion; Data Center Map lists the facility at Satellitenbodenstation Leuk Brentjong 2, Leuk-Stadt, and notes capacity for 1,000 racks with major expansion potential.",
+  "world_batch": true
+}

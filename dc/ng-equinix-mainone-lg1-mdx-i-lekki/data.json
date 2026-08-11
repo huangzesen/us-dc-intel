@@ -1,0 +1,22 @@
+{
+  "slug": "ng-equinix-mainone-lg1-mdx-i-lekki",
+  "canonical_project": "Equinix (MainOne) LG1 / MDX-I Lekki",
+  "owner": "Equinix (acquired MainOne, 2022)",
+  "location": {
+    "city": "",
+    "subnational": "Lagos",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://technext24.com/explainer/28-data-centres-nigeria-2026/",
+    "https://www.datacentermap.com/nigeria/lagos/equinix-lg1/",
+    "https://dgtlinfra.com/equinix-mainone-data-centers-fiber-africa/"
+  ],
+  "notes": "Tier III certified MDX-I Lekki data centre next to MainOne's cable landing station with access to the 1.92Tbps international subsea cable; part of Equinix Lagos campus.",
+  "world_batch": true
+}

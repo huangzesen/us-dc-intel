@@ -1,0 +1,21 @@
+{
+  "slug": "cn-songyuan-guoxin-intelligent-computing-data-center-project",
+  "canonical_project": "Songyuan Guoxin Intelligent Computing Data Center Project",
+  "owner": "Songyuan Guoxin Intelligent Computing Big Data Service Co., Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Jilin - Songyuan Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 65.52,
+  "status": "planned",
+  "evidence_date": "2026-04-27",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.jl.gov.cn/szfzt/tzcj/zdxm/szjj/202604/t20260427_3626924.html",
+    "https://www.dtdata.cn/news/show/3038.html"
+  ],
+  "notes": "Jilin government investment project places the project in Hadashan Eco-agriculture Tourism Demonstration Zone, with two 24,000 sqm data-center buildings, 6,300 cabinets, 6,000P planned compute (3,600P Nvidia H100 sparse compute plus 2,400P domestic compute), and RMB 2.25893bn total investment. Capacity estimate uses source cabinet counts and ratings: 1,260 x 12kW plus 5,040 x 10kW = 65.52MW IT load.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "mh-hantru1-kwajalein-ebeye-cable-landing-station",
+  "canonical_project": "HANTRU1 Kwajalein / Ebeye cable landing station",
+  "owner": "Marshall Islands National Telecommunications Authority and HANTRU1 consortium",
+  "location": {
+    "city": "",
+    "subnational": "Kwajalein",
+    "country": "Marshall Islands",
+    "country_code": "MH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/systems/trans-pacific/hantru1",
+    "https://www.ntamar.net/telecommunications"
+  ],
+  "notes": "Telecom edge/cable landing infrastructure, not a commercial hyperscale or colocation data center. Submarine Networks lists HANTRU1 landing points including Kwajalein, Ebeye Island, Majuro, Pohnpei and Guam; NTA describes the HANTRU1 submarine fiber cable as providing international connectivity between the RMI and Guam.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "ro-whitehat-dc2-braila",
+  "canonical_project": "WhiteHat DC2 Braila",
+  "owner": "WhiteHat",
+  "location": {
+    "city": "",
+    "subnational": "Braila",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/14-strada-mare-braila/whitehat/datacenter/dc2",
+    "https://datacenterplatform.com/data-centers/whitehat/whitehat-braila/"
+  ],
+  "notes": "Inflect lists WhiteHat DC2 as an operating colocation facility at 14 Strada Mare, Braila, with RO-CIX access; DataCenterPlatform corroborates WhiteHat Braila at Strada Mare 14. Inflect snippet reports 250 kVA but page details are limited, so capacity is null.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "au-shire-of-dardanup-council-data-centre-consolidation",
+  "canonical_project": "Shire of Dardanup council data centre consolidation",
+  "owner": "Shire of Dardanup",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Dardanup",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2007-10-04",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/australian-government-consolidates-data-center/"
+  ],
+  "notes": "DCD reported the Shires of Dardanup, Harvey, and Donnybrook/Balingup adopted XenSource in their data centers to consolidate Linux and Windows terminal servers and improve business continuity; this appears to be council IT infrastructure rather than a public colocation or hyperscale facility.",
+  "world_batch": true
+}

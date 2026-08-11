@@ -1,0 +1,21 @@
+{
+  "slug": "de-ewe-rechenzentrum-osnabruck",
+  "canonical_project": "EWE Rechenzentrum Osnabrück",
+  "owner": "EWE TEL GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Lower Saxony - Osnabrück (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://business.ewe.de/vernetzung/colocation",
+    "https://www.datacentermap.com/germany/oldenburg/ewe-rechenzentrum-ol1/"
+  ],
+  "notes": "EWE's business colocation page states that its high-availability data centers are located in Oldenburg and Osnabrück and offer colocation, server rooms, redundant power and cooling, 100% green power, ISO/IEC 27001 and TÜViT TSI certification. DataCenterMap corroborates EWE TEL colocation facilities in Oldenburg and Osnabrück.",
+  "world_batch": true
+}

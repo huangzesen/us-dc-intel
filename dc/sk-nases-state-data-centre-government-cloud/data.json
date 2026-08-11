@@ -1,0 +1,21 @@
+{
+  "slug": "sk-nases-state-data-centre-government-cloud",
+  "canonical_project": "NASES State Data Centre (Government Cloud)",
+  "owner": "NASES (National Agency for Network and Electronic Services)",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mirri.gov.sk/aktuality/informatizacia/nases-presuva-datove-centrum-do-priestorov-spp/",
+    "https://www.partnerskadohoda.gov.sk/nases-presuva-datove-centrum-do-priestorov-spp/"
+  ],
+  "notes": "The state (NASES) operates two data centres serving the Govnet government network and slovensko.sk portal; since end 2021 one is hosted in SPP (Slovensky plynarensky priemysel) premises in Bratislava, the other previously in Datacube (Kopcianska). The state also evaluated buying the Rattajova building in Petrzalka for a new state data centre. No public MW capacity.",
+  "world_batch": true
+}

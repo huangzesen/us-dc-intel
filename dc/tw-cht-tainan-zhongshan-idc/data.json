@@ -1,0 +1,21 @@
+{
+  "slug": "tw-cht-tainan-zhongshan-idc",
+  "canonical_project": "CHT Tainan Zhongshan IDC",
+  "owner": "Chunghwa Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Tainan",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location_Tainan_Zhongshan.html",
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location.html"
+  ],
+  "notes": "Chunghwa Telecom's official IDC location page lists the Tainan Zhongshan IDC as an operational IDC site in Tainan City. No published capacity figure found.",
+  "world_batch": true
+}

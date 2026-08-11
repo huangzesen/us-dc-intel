@@ -1,0 +1,20 @@
+{
+  "slug": "fr-wayscom-cloud-datacenter-cayenne",
+  "canonical_project": "Wayscom Cloud datacenter - Cayenne",
+  "owner": "Wayscom",
+  "location": {
+    "city": "",
+    "subnational": "Guyane",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://wayscom.com/"
+  ],
+  "notes": "Wayscom states that VPS, hosting and colocation are operated from its local Cayenne datacenter in French Guiana, with operations since 2005.",
+  "world_batch": true
+}

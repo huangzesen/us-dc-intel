@@ -1,0 +1,20 @@
+{
+  "slug": "au-city-of-boroondara-camberwell-data-centre",
+  "canonical_project": "City of Boroondara Camberwell data centre",
+  "owner": "City of Boroondara",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Boroondara",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2010-05-21",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.govtechreview.com.au/content/gov-datacentre/article/are-you-up-to-gershon-s-1b-data-centre-challenge--311610317"
+  ],
+  "notes": "Older government IT article says City of Melbourne servers occupied around half of Boroondara's Camberwell data centre under a disaster-recovery colocation arrangement; no current operating or capacity data found.",
+  "world_batch": true
+}

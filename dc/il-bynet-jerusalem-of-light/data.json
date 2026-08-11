@@ -1,0 +1,21 @@
+{
+  "slug": "il-bynet-jerusalem-of-light",
+  "canonical_project": "Bynet Jerusalem of Light",
+  "owner": "Bynet Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Yerushalayim",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bynetdcs.co.il/",
+    "https://www.datacentermap.com/israel/jerusalem/"
+  ],
+  "notes": "Bynet official site lists Jerusalem of Light at 450 racks, 3MW, 1,500 sqm, Tier 3.",
+  "world_batch": true
+}

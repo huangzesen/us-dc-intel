@@ -1,0 +1,21 @@
+{
+  "slug": "kp-star-joint-venture-co-pyongyang-internet-communication-bureau",
+  "canonical_project": "Star Joint Venture Co. / Pyongyang Internet Communication Bureau",
+  "owner": "Ministry of Post and Telecommunications (DPRK) / Loxley Pacific (Thailand) JV",
+  "location": {
+    "city": "",
+    "subnational": "Pyongyang",
+    "country": "Korea, Democratic People's Republic of",
+    "country_code": "KP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Internet_in_North_Korea",
+    "https://www.northkoreatech.org/2018/08/01/pyongyang-internet-communication-bureau/"
+  ],
+  "notes": "North Korea's sole internet service provider and international gateway, headquartered in Pyongyang; Pyongyang Internet Communication Bureau ground-breaking Nov 2015. Carries all DPRK international traffic via China Unicom (with Intelsat satellite and TransTeleCom backup links); houses the country's international gateway/server infrastructure. Telecommunication gateway facility rather than a commercial datacenter.",
+  "world_batch": true
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "sc-airtel-seychelles-data-center",
+  "canonical_project": "Airtel Seychelles Data Center",
+  "owner": "AIRTEL Seychelles Limited / Airtel Africa; Ericsson turnkey modernization partner",
+  "location": {
+    "city": "",
+    "subnational": "Ile Perseverance I",
+    "country": "Seychelles",
+    "country_code": "SC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tiaonline.org/942-datacenter/airtel-seychelles-limited/",
+    "https://www.epi-certification.com/sites/details/1053",
+    "https://www.ericsson.com/en/press-releases/1/2021/airtel-africa-and-ericsson-launch-data-center-in-seychelles",
+    "https://www.seychellesnewsagency.com/articles/16009/airtel-seychelles-invites-local-international-companies-to-use-new-data-centre-on-perseverance",
+    "https://www.datacentermap.com/seychelles/perseverance-island/airtel-seychelles-data-center/"
+  ],
+  "notes": "TIA's data center registry lists AIRTEL Seychelles Limited at Airtel House, Josephine Cafrine Road, Perseverance, Mahe, as an ANSI/TIA-942-B constructed facility Rated 3 with status Active; EPI's certified-client page gives the same address and certification record. Ericsson announced in 2021 that it was relocating and modernizing Airtel Africa's Seychelles network/core services into a new data center, and Seychelles News Agency reported in January 2022 that Airtel had opened the Perseverance data storage facility for local and international companies. Public sources identify the site as Perseverance/Ile Perseverance but do not specify whether the address falls in Ile Perseverance I or II; assigned to Ile Perseverance I for batch coverage. No public MW capacity found.",
+  "world_batch": true
+}

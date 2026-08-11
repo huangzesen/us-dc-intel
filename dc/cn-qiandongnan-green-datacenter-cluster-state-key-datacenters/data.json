@@ -1,0 +1,21 @@
+{
+  "slug": "cn-qiandongnan-green-datacenter-cluster-state-key-datacenters",
+  "canonical_project": "Qiandongnan green datacenter cluster / state key datacenters",
+  "owner": "Qiandongnan Prefecture big-data authorities / telecom operators",
+  "location": {
+    "city": "",
+    "subnational": "Guizhou - Qiandongnan Miao and Dong Autonomous Prefecture",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-03-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.qdn.gov.cn/zwgk/zdlygk/zdxmjs/xmjs/202001/t20200108_43898800.html",
+    "http://gz.people.com.cn/n2/2020/0301/c194849-33839848.html"
+  ],
+  "notes": "Prefecture reporting and People's Daily coverage describe multiple key datacenters and green datacenter facilities in Qiandongnan; individual campus capacity was not disclosed.",
+  "world_batch": true
+}

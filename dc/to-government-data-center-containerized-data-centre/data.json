@@ -1,0 +1,21 @@
+{
+  "slug": "to-government-data-center-containerized-data-centre",
+  "canonical_project": "Government Data Center / containerized data centre",
+  "owner": "Government of Tonga / MEIDECC, implemented with World Bank support and local telecom partners",
+  "location": {
+    "city": "",
+    "subnational": "Tongatapu",
+    "country": "Tonga",
+    "country_code": "TO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-06-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pmo.gov.to/clarification-on-government-data-hosting-and-the-new-government-portal/",
+    "https://documents1.worldbank.org/curated/en/473751557713173311/txt/Tonga-Digital-Government-Support-Project.txt"
+  ],
+  "notes": "Official Prime Minister's Office clarification states the Government Data Center is operational and used for locally hosted government systems. World Bank project documentation describes the containerized data centre and disaster recovery infrastructure for Tonga's digital government platform. Location assigned to Tongatapu because the connected national government agencies and Nuku'alofa telecom gateways are in the capital area; no public IT-load/capacity figure found.",
+  "world_batch": true
+}

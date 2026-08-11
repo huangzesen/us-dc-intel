@@ -1,0 +1,21 @@
+{
+  "slug": "tr-enka-data-solutions-eds-ist-02-gebze-data-center",
+  "canonical_project": "ENKA Data Solutions EDS IST 02 Gebze Data Center",
+  "owner": "ENKA Data Solutions (ENKA Group)",
+  "location": {
+    "city": "",
+    "subnational": "Kocaeli",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": 18,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://enkadatasolutions.com/tr/lokasyonlar/eds-ist-02-gebze/",
+    "https://enkadatasolutions.com/tr/"
+  ],
+  "notes": "Carrier-neutral colocation facility in Gebze (Beylikbagi, Kocaeli); 18 MW IT load on 30 MW total power, 1,800+ cabinets, 15 kW/cabinet, Uptime Tier III and TS EN 50600, N+2 redundancy, seismic isolation; company also markets 18 MW + 9 MW IT expansion capacity.",
+  "world_batch": true
+}

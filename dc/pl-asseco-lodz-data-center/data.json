@@ -1,0 +1,21 @@
+{
+  "slug": "pl-asseco-lodz-data-center",
+  "canonical_project": "Asseco Lodz Data Center",
+  "owner": "Asseco Data Systems",
+  "location": {
+    "city": "",
+    "subnational": "Lodz",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-04-14",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/polands-asseco-aims-to-offload-data-center-business/",
+    "https://www.datacentermap.com/poland/lodz/ck-zeto-sa/"
+  ],
+  "notes": "DCD reports Asseco operated data centers in Lodz, Szczecin and Bydgoszcz; Data Center Map lists Asseco Lodz at Narutowicza 136 and provides M&A history from CK ZETO to Asseco.",
+  "world_batch": true
+}

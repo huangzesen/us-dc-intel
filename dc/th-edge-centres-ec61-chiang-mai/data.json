@@ -1,0 +1,22 @@
+{
+  "slug": "th-edge-centres-ec61-chiang-mai",
+  "canonical_project": "Edge Centres EC61 Chiang Mai",
+  "owner": "Edge Centres / ITEL",
+  "location": {
+    "city": "",
+    "subnational": "Chiang Mai",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-02-28",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/edge-centres-launches-thailand-edge-data-center/",
+    "https://www.baxtel.com/data-center/ec61-chiang-mai",
+    "https://lepetitjournal.com/thailande/itel-edge-centres-inauguration-centre-donnees-360203"
+  ],
+  "notes": "Trade press reported Edge Centres' EC61 Thailand edge data center in Chiang Mai, developed with ITEL and supported by solar infrastructure described as just under 1 MW. IT load/capacity MW was not disclosed, so capacity_mw is left null.",
+  "world_batch": true
+}

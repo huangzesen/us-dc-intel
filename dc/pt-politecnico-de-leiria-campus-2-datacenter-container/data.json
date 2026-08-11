@@ -1,0 +1,22 @@
+{
+  "slug": "pt-politecnico-de-leiria-campus-2-datacenter-container",
+  "canonical_project": "Politecnico de Leiria Campus 2 Datacenter Container",
+  "owner": "Politecnico de Leiria; Rittal; Informantem",
+  "location": {
+    "city": "",
+    "subnational": "Leiria",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.rittal.com/imf/none/63_496/",
+    "https://www.ipleiria.pt/atendeipleiria/",
+    "https://www.ipleiria.pt/teste-dsi/espaco-carlos-canudo/"
+  ],
+  "notes": "Rittal/Informantem case study says Instituto Politecnico de Leiria launched a public tender for a container infrastructure for a new datacenter at Campus 2 in Leiria. Politecnico de Leiria pages describe its main data center and centralization of about 70% of computing resources in the data center. Public MW not found.",
+  "world_batch": true
+}

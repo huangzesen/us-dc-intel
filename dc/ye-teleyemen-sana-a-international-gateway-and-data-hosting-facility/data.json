@@ -1,0 +1,21 @@
+{
+  "slug": "ye-teleyemen-sana-a-international-gateway-and-data-hosting-facility",
+  "canonical_project": "TeleYemen Sana'a international gateway and data hosting facility",
+  "owner": "TeleYemen (Yemen International Telecommunications Company, state-owned)",
+  "location": {
+    "city": "",
+    "subnational": "Sanaa City",
+    "country": "Yemen",
+    "country_code": "YE"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2022-02-14",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/saudi-led-coalition-bombs-teleyemen-telco-building-in-sanaa-claim-it-was-used-to-control-drones/",
+    "https://sanaacenter.org/publications/policy-research/12721"
+  ],
+  "notes": "TeleYemen's HQ/international gateway building in Sanaa housed telco equipment, servers and provided web hosting, data transmission, domain and IP services (Sana'a Center policy brief, Jan 11 2021). DCD (Feb 14 2022) reports the building was destroyed by a Saudi-led coalition airstrike; the company said it would resume services. Not a commercial colocation facility; current status unverified, hence 'unknown'.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "dk-kolo-dk5-copenhagen",
+  "canonical_project": "Kolo DK5 Copenhagen",
+  "owner": "Kolo DC",
+  "location": {
+    "city": "",
+    "subnational": "Capital Region",
+    "country": "Denmark",
+    "country_code": "DK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://kolodc.com/data-centers/colocation-in-denmark/copenhagen-data-center",
+    "https://www.datacenterdynamics.com/en/tags/kolo-dc/"
+  ],
+  "notes": "Kolo operator page lists DK5 Copenhagen as a centrally located retrofit colocation data center optimized for compute-intensive workloads, liquid-cooled high-density racks and ultra-low-latency connectivity.",
+  "world_batch": true
+}

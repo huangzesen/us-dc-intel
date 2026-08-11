@@ -1,0 +1,22 @@
+{
+  "slug": "ae-stargate-uae-uae-us-ai-campus",
+  "canonical_project": "Stargate UAE / UAE-US AI Campus",
+  "owner": "G42, OpenAI, Oracle, NVIDIA, Cisco, SoftBank and partners",
+  "location": {
+    "city": "",
+    "subnational": "Abu Dhabi - Al Dhafra",
+    "country": "United Arab Emirates",
+    "country_code": "AE"
+  },
+  "capacity_mw": 5000.0,
+  "status": "construction",
+  "evidence_date": "2025-05-22",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.g42.ai/news/uae-us-ai-campus-partners-announce-stargate-uae",
+    "https://www.datacenterdynamics.com/en/news/openai-oracle-g42-softbank-cisco-and-nvidia-to-build-1gw-stargate-uae-data-center/",
+    "https://www.datacentermap.com/united-arab-emirates/abu-dhabi/openai-abu-dhabi-stargate-uae/"
+  ],
+  "notes": "G42 announced Stargate UAE as the first phase of the 5 GW UAE-US AI Campus in Abu Dhabi, with DCD reporting a 1 GW Stargate data center phase. Data Center Map places the project on Hameem Road, Abu Dhabi, which is used here to map it to Al Dhafra; the official announcement itself identifies Abu Dhabi but not the municipal division.",
+  "world_batch": true
+}

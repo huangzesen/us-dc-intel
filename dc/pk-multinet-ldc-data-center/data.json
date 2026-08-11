@@ -1,0 +1,21 @@
+{
+  "slug": "pk-multinet-ldc-data-center",
+  "canonical_project": "Multinet LDC Data Center",
+  "owner": "Multinet Pakistan",
+  "location": {
+    "city": "",
+    "subnational": "Punjab",
+    "country": "Pakistan",
+    "country_code": "PK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/pakistan/lahore/multinet-ldc/",
+    "https://www.datacenters.com/multinet-lahore"
+  ],
+  "notes": "Multinet colocation facility at NTC Building, 6 Race Course Road, Lahore; aggregator listing.",
+  "world_batch": true
+}

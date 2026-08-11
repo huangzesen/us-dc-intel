@@ -1,0 +1,21 @@
+{
+  "slug": "gu-government-of-guam-green-tier-iv-data-center-ixp",
+  "canonical_project": "Government of Guam Green Tier IV Data Center / IXP",
+  "owner": "Government of Guam Office of Infrastructure Policy and Development",
+  "location": {
+    "city": "",
+    "subnational": "Guam",
+    "country": "Guam",
+    "country_code": "GU"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2023-08-29",
+  "evidence_grade": "A",
+  "sources": [
+    "https://governor.guam.gov/press_release/governors-office-reveals-plan-for-free-faster-internet-for-all/",
+    "https://www.datacenterdynamics.com/en/news/guam-government-planning-tier-iv-data-center-on-island/"
+  ],
+  "notes": "The Governor's Office said Guam's Five-Year Action Plan includes construction of a Tier 4 data center to reduce latency for real-time applications. DCD summarized the plan as a green, solar-powered Tier IV data center intended to act as a world-class IXP, with site selection criteria including elevation, ocean proximity, grid access, fiber proximity, and land sufficient for a 5-10MW solar farm and tech park campus; data-center IT capacity was not disclosed.",
+  "world_batch": true
+}

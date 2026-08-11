@@ -1,0 +1,21 @@
+{
+  "slug": "et-phoenix-group-bole-lemi-data-mining-facility",
+  "canonical_project": "Phoenix Group Bole Lemi data mining facility",
+  "owner": "Phoenix Group / Ethiopian Electric Power",
+  "location": {
+    "city": "",
+    "subnational": "Addis Ababa",
+    "country": "Ethiopia",
+    "country_code": "ET"
+  },
+  "capacity_mw": 30,
+  "status": "operational",
+  "evidence_date": "2025-11-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://africanreview.com/energy/phoenix-30mw-ethiopian-energy-deal-for-data-mine",
+    "https://phoenixgroupuae.com/news/phoenix-group-adds-52mw-bitcoin-mining-capacity-ethiopia"
+  ],
+  "notes": "Hydropower-backed compute/mining facility at Bole Lemi Industrial Park in Addis Ababa; African Review reported a 6,250 sqm purpose-built site, developed with Ethiopian Electric Power, with 30MW capacity and future compute/HPC potential.",
+  "world_batch": true
+}

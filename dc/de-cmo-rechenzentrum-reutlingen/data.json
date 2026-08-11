@@ -1,0 +1,20 @@
+{
+  "slug": "de-cmo-rechenzentrum-reutlingen",
+  "canonical_project": "CMO Rechenzentrum Reutlingen",
+  "owner": "CMO Internet Dienstleistungen GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Reutlingen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cmo.de/rechenzentrum-reutlingen.html"
+  ],
+  "notes": "Operator page describes the CMO data center in Reutlingen, including direct transformer-station connection through FairEnergie and UPS-backed power supply.",
+  "world_batch": true
+}

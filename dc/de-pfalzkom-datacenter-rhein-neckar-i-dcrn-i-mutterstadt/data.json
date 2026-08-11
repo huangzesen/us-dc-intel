@@ -1,0 +1,21 @@
+{
+  "slug": "de-pfalzkom-datacenter-rhein-neckar-i-dcrn-i-mutterstadt",
+  "canonical_project": "PFALZKOM Datacenter Rhein-Neckar I (DCRN I), Mutterstadt",
+  "owner": "PFALZKOM GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Rhineland-Palatinate - Rhein-Pfalz-Kreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pfalzkom.de/leistungen/rechenzentren/",
+    "https://www.datacentermap.com/germany/mannheim/dcrn-i/"
+  ],
+  "notes": "PFALZKOM states DCRN I provides 300 racks on 700 sq m server area with PUE below 1.4 and 99.98% availability; DataCenterMap places it at An der Fohlenweide 2, 67112 Mutterstadt.",
+  "world_batch": true
+}

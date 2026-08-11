@@ -1,0 +1,21 @@
+{
+  "slug": "mk-akton-communications-skp03",
+  "canonical_project": "Akton Communications SKP03",
+  "owner": "Akton Communications",
+  "location": {
+    "city": "",
+    "subnational": "Aerodrom",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/ulitsa-23-ti-oktomvri-11a-18-skopje-23-oktomvri-skopje/akton-telehouse/datacenter/skp03",
+    "https://inflect.com/datacenters/emea/macedonia/skopje"
+  ],
+  "notes": "Inflect lists Akton Communications SKP03 as a Skopje colocation data center at Ulica 23 Ti Oktomvri 11a/18. Assigned to Aerodrom based on local street/Skopje address context; capacity not found.",
+  "world_batch": true
+}

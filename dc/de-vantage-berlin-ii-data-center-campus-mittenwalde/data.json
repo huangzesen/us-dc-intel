@@ -1,0 +1,21 @@
+{
+  "slug": "de-vantage-berlin-ii-data-center-campus-mittenwalde",
+  "canonical_project": "Vantage Berlin II Data Center Campus, Mittenwalde",
+  "owner": "Vantage Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Brandenburg - Dahme-Spreewald",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 32,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vantage-dc.com/data-center-locations/emea/berlin-ii-germany/",
+    "https://www.datacentermap.com/germany/berlin/"
+  ],
+  "notes": "Official Vantage page gives campus address at Dahmestrasse 1 and 2, 15749 Mittenwalde. DataCenterMap describes two buildings at the Berlin II campus with 16 MW each; treated as 32 MW because the official page was accessible but capacity text was not exposed in search snippet.",
+  "world_batch": true
+}

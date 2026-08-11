@@ -1,0 +1,21 @@
+{
+  "slug": "am-vsdata-aragatsotn-data-center",
+  "canonical_project": "VSData Aragatsotn data center",
+  "owner": "VSData",
+  "location": {
+    "city": "",
+    "subnational": "Aragatsotn",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": 2,
+  "status": "construction",
+  "evidence_date": "2025-03-14",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/2mw-data-center-planned-in-armenia/",
+    "https://www.datacentermap.com/armenia/yerevan/vsdata-data-center/"
+  ],
+  "notes": "DCD reported ground broken for a 2MW, 125-rack Tier III-quality facility in a cooler gorge in Aragatsotn, connected to Yerevan by 25km fiber and targeted to go live by end-2025.",
+  "world_batch": true
+}

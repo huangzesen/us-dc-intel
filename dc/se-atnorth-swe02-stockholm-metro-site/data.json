@@ -1,0 +1,21 @@
+{
+  "slug": "se-atnorth-swe02-stockholm-metro-site",
+  "canonical_project": "atNorth SWE02 Stockholm metro site",
+  "owner": "atNorth",
+  "location": {
+    "city": "",
+    "subnational": "Stockholm",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": 30,
+  "status": "planned",
+  "evidence_date": "2026-01-29",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.atnorth.com/news/new-30mw-metro-data-center-in-stockholm-sweden/",
+    "https://www.atnorth.com/nordic-data-centers/sweden-data-centers/stockholm-swe02/"
+  ],
+  "notes": "New heat-reuse enabled Kista-area metro data center near SWE01; announced as 30 MW and scheduled to go live in Q4 2027.",
+  "world_batch": true
+}

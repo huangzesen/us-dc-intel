@@ -1,0 +1,22 @@
+{
+  "slug": "bh-aws-middle-east-bahrain-region-southern-bahrain-availability-zone-sites",
+  "canonical_project": "AWS Middle East (Bahrain) Region - Southern Bahrain availability-zone sites",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Southern Governorate",
+    "country": "Bahrain",
+    "country_code": "BH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-07-30",
+  "evidence_grade": "B",
+  "sources": [
+    "https://aws.amazon.com/blogs/aws/now-open-aws-middle-east-bahrain-region/",
+    "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+    "https://www.datacentermap.com/bahrain/askar/aws-bahrain/"
+  ],
+  "notes": "AWS opened the Bahrain Region with three availability zones in 2019; AWS does not publish precise facility addresses, but public data-center directories identify an AWS facility at Askar in Southern Governorate.",
+  "world_batch": true
+}

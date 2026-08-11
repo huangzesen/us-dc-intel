@@ -1,0 +1,22 @@
+{
+  "slug": "fr-campus-ia-fouju-hyperscale-datacenter-campus",
+  "canonical_project": "Campus IA Fouju hyperscale datacenter campus",
+  "owner": "Suez / Infranity / Banque des Territoires",
+  "location": {
+    "city": "",
+    "subnational": "Seine-et-Marne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 1400,
+  "status": "planned",
+  "evidence_date": "2026-04-08",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.concertation-campus-ia.fr/fr/comprendre-le-projet",
+    "https://www.seine-et-marne.gouv.fr/Publications/Enquetes-publiques/FOUJU-PROJET-CAMPUS-IA/AVIS-DE-LA-MRAe",
+    "https://www.datacenterdynamics.com/en/news/suez-to-build-14gw-data-center-campus-in-france/"
+  ],
+  "notes": "Large AI datacenter campus planned at Fouju; public consultation and prefecture/MRAe materials confirm the project, while trade press cites around 1.4 GW.",
+  "world_batch": true
+}

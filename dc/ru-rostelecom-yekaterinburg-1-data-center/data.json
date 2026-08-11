@@ -1,0 +1,21 @@
+{
+  "slug": "ru-rostelecom-yekaterinburg-1-data-center",
+  "canonical_project": "Rostelecom Yekaterinburg-1 Data Center",
+  "owner": "Rostelecom / RTK-DC",
+  "location": {
+    "city": "",
+    "subnational": "Sverdlovsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 4,
+  "status": "operational",
+  "evidence_date": "2021-11-30",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.cnews.ru/news/line/2021-11-30_rostelekom-tsod_postroit",
+    "https://www.tadviser.ru/index.php/%D0%9F%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%3A%D0%A6%D0%9E%D0%94_%D0%A0%D0%BE%D1%81%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%BE%D0%BC_%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3-1"
+  ],
+  "notes": "CNews reported RTK-DC would build the second phase of Rostelecom's Yekaterinburg facility: 216 additional racks and 2 MW, matching the existing 216 racks and 2 MW then in operation. TAdviser records later third-phase activity; public detail suggests at least 4 MW after phase two.",
+  "world_batch": true
+}

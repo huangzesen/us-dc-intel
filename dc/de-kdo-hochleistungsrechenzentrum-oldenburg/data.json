@@ -1,0 +1,22 @@
+{
+  "slug": "de-kdo-hochleistungsrechenzentrum-oldenburg",
+  "canonical_project": "KDO Hochleistungsrechenzentrum Oldenburg",
+  "owner": "Kommunale Datenverarbeitung Oldenburg (KDO)",
+  "location": {
+    "city": "",
+    "subnational": "Lower Saxony - Oldenburg (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-06",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.kdo.de/leistungen/rechenzentrum-und-netzbetrieb",
+    "https://www.kdo.de/leistungen/rechenzentrum-und-netzbetrieb/sicherer-datenspeicher",
+    "https://www.kdo.de/kontakt"
+  ],
+  "notes": "KDO official pages state that municipal applications, hosting, network services and storage are operated in its Oldenburg data center, described as an ISO-certified high-performance data center. Contact page lists Oldenburg operating locations; no MW capacity disclosed.",
+  "world_batch": true
+}

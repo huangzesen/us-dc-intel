@@ -1,0 +1,20 @@
+{
+  "slug": "au-eureka-dc-ballarat",
+  "canonical_project": "Eureka DC Ballarat",
+  "owner": "Eureka DC",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Ballarat",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.etdc.com.au/servers/colocation/"
+  ],
+  "notes": "Regional colocation data centre in Ballarat CBD; operator page says the facility was constructed in 2017 and offers colocation with diverse fibre connectivity. Public source does not state total MW capacity.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "qa-google-cloud-doha-region",
+  "canonical_project": "Google Cloud Doha Region",
+  "owner": "Google Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Doha",
+    "country": "Qatar",
+    "country_code": "QA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-05-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/blog/products/infrastructure/new-google-cloud-region-now-open-in-qatar"
+  ],
+  "notes": "Google Cloud announced its Doha region as open; the source confirms cloud-region service availability but not specific campus location or power capacity.",
+  "world_batch": true
+}

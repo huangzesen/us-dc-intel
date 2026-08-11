@@ -1,0 +1,22 @@
+{
+  "slug": "my-aws-cyberjaya-data-center-asia-pacific-malaysia-region",
+  "canonical_project": "AWS Cyberjaya data center / Asia Pacific Malaysia Region",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Selangor",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/local/malaysia/",
+    "https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-malaysia-region/",
+    "https://baxtel.com/data-center/amazon-cyberjaya-1"
+  ],
+  "notes": "AWS opened the Malaysia Region and has a RM29.2bn long-term investment plan; directory/source reports a Cyberjaya facility under construction with completion scheduled for Q2 2027.",
+  "world_batch": true
+}

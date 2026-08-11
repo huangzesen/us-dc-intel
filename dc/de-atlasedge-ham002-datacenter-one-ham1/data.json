@@ -1,0 +1,22 @@
+{
+  "slug": "de-atlasedge-ham002-datacenter-one-ham1",
+  "canonical_project": "AtlasEdge HAM002 / Datacenter One HAM1",
+  "owner": "AtlasEdge / Datacenter One",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Stormarn",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://atlasedge.com/de/rechenzentren/hamburg/",
+    "https://atlasedge.com/datacenter-one-opens-new-hamburg-data-centre/",
+    "https://www.datacenterdynamics.com/en/news/atlasedges-datacenter-one-opens-hamburg-facility/"
+  ],
+  "notes": "AtlasEdge lists HAM002 in operation at Carl-Backhaus-Strasse 21C, 22926 Ahrensburg, with 10,000 sq m and 20 MW at full build-out. AtlasEdge's February 2024 announcement says first customers had moved into the Ahrensburg HAM1 site; DCD reported phase one open and 20 MW at full build-out.",
+  "world_batch": true
+}

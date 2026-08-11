@@ -1,0 +1,21 @@
+{
+  "slug": "de-eunetworks-colocation-erfurt",
+  "canonical_project": "euNetworks Colocation Erfurt",
+  "owner": "euNetworks Group",
+  "location": {
+    "city": "",
+    "subnational": "Thuringia - Erfurt",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://voltina.se/datacenters/DE",
+    "https://www.newby-ventures.com/research/db/facility/3916/16689"
+  ],
+  "notes": "Aggregate data-center directories list euNetworks Colocation Erfurt among German facilities and locate it near other Erfurt facilities. No official facility page or capacity found during this batch search, so confidence is lower.",
+  "world_batch": true
+}

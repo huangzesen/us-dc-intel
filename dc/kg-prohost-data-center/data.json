@@ -1,0 +1,22 @@
+{
+  "slug": "kg-prohost-data-center",
+  "canonical_project": "ProHost Data Center",
+  "owner": "Optima-Telecom LLC / ProHost",
+  "location": {
+    "city": "",
+    "subnational": "Bishkek",
+    "country": "Kyrgyzstan",
+    "country_code": "KG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://en.prohost.kg/contacts.html",
+    "https://en.prohost.kg/payment.html",
+    "https://www.datacentermap.com/kyrgyzstan/bishkek/prohost-data-center/specs/"
+  ],
+  "notes": "ProHost's official contact/payment pages identify Data Center 'ProHost' in Bishkek and offer colocation in its data center; DataCenterMap lists the facility at Ahunbaev Str. 119a, room 506 with cabinet/rackspace services. Public MW capacity not supplied.",
+  "world_batch": true
+}

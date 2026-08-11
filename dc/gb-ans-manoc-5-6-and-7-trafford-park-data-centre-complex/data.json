@@ -1,0 +1,21 @@
+{
+  "slug": "gb-ans-manoc-5-6-and-7-trafford-park-data-centre-complex",
+  "canonical_project": "ANS MaNOC 5, 6 and 7 Trafford Park data centre complex",
+  "owner": "ANS Group / UKFast",
+  "location": {
+    "city": "",
+    "subnational": "England - Trafford",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.colo-x.com/data-centre/ukfast-manoc5-6-7-manchester-data-centres/",
+    "https://www.datacentermap.com/united-kingdom/manchester/manoc67/"
+  ],
+  "notes": "Colo-X describes MaNOC 5, 6 and 7 as a secure complex of adjacent buildings on Cobra Court, Trafford Park, with a 3.5MVA incoming feed and about 650 racks; Data Center Map lists the operator/address. Capacity left null because source reports MVA rather than MW.",
+  "world_batch": true
+}

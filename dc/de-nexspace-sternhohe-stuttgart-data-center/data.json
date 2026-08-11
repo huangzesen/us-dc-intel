@@ -1,0 +1,20 @@
+{
+  "slug": "de-nexspace-sternhohe-stuttgart-data-center",
+  "canonical_project": "nexspace Sternhöhe Stuttgart data center",
+  "owner": "nexspace data centers GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Stuttgart",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nexspace.de/en/locations"
+  ],
+  "notes": "nexspace official locations page says it will expand in southern Germany from summer 2026 with a new data center on the Sternhöhe campus in Stuttgart, with EN50600 VK III certification target and design PUE of 1.2 or lower.",
+  "world_batch": true
+}

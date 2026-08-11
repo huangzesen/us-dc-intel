@@ -1,0 +1,22 @@
+{
+  "slug": "ch-high-dc-la-chaux-de-fonds",
+  "canonical_project": "High DC La Chaux-de-Fonds",
+  "owner": "High DC / Neocarrier Communications SARL",
+  "location": {
+    "city": "",
+    "subnational": "Neuchatel",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://highdc.ch/",
+    "https://www.datacentermap.com/switzerland/neuchatel/high-dc/",
+    "https://datacenterplatform.com/data-centers/high-dc/"
+  ],
+  "notes": "High DC official site gives Allée des Défricheurs 4, CH-2300 La Chaux-de-Fonds; directories describe the site as a 2019 local data center using free cooling.",
+  "world_batch": true
+}

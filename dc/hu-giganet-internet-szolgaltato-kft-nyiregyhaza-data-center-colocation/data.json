@@ -1,0 +1,21 @@
+{
+  "slug": "hu-giganet-internet-szolgaltato-kft-nyiregyhaza-data-center-colocation",
+  "canonical_project": "Giganet Internet Szolgaltato Kft. Nyiregyhaza data center / colocation",
+  "owner": "Giganet Internet Szolgaltato Kft.",
+  "location": {
+    "city": "",
+    "subnational": "Szabolcs-Szatmar-Bereg",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/hungary/nyiregyhaza/giganet-isp.html",
+    "https://www.giganet.hu/"
+  ],
+  "notes": "DatacenterMap lists a Giganet ISP data center in Nyiregyhaza; provider site confirms local ISP operations. No public MW capacity found.",
+  "world_batch": true
+}

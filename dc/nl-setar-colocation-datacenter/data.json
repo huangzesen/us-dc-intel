@@ -1,0 +1,20 @@
+{
+  "slug": "nl-setar-colocation-datacenter",
+  "canonical_project": "SETAR Colocation Datacenter",
+  "owner": "SETAR N.V.",
+  "location": {
+    "city": "",
+    "subnational": "Aruba",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.setar.aw/business/cloud-hosting/data-center-services/"
+  ],
+  "notes": "Official SETAR page describes its colocation datacenter with dual high-capacity feeds, redundant UPS and backup generators; capacity not disclosed.",
+  "world_batch": true
+}

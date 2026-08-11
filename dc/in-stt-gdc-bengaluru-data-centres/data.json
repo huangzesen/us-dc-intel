@@ -1,0 +1,20 @@
+{
+  "slug": "in-stt-gdc-bengaluru-data-centres",
+  "canonical_project": "STT GDC Bengaluru data centres",
+  "owner": "ST Telemedia Global Data Centres India",
+  "location": {
+    "city": "",
+    "subnational": "Karnataka - Bangalore Urban",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 23,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sttelemediagdc.com/in-en/locations/bengaluru"
+  ],
+  "notes": "Official STT GDC page lists Bengaluru locations with a combined 23 MW IT load: STT Bengaluru 1 at 0.6 MW, STT Bengaluru 2 at 4 MW and STT Bengaluru 3 in Whitefield at 18 MW.",
+  "world_batch": true
+}

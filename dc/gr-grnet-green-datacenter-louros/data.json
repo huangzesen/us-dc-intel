@@ -1,0 +1,20 @@
+{
+  "slug": "gr-grnet-green-datacenter-louros",
+  "canonical_project": "GRNET Green Datacenter Louros",
+  "owner": "GRNET",
+  "location": {
+    "city": "",
+    "subnational": "Epirus",
+    "country": "Greece",
+    "country_code": "GR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://grnet.gr/en/infrastructures/grnet-datacenters/"
+  ],
+  "notes": "GRNET states it has installed a green data center on the Louros river in Epirus to improve energy efficiency for national research/education infrastructure.",
+  "world_batch": true
+}

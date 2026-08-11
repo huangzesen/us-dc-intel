@@ -1,0 +1,22 @@
+{
+  "slug": "me-crnogorski-telekom-data-center-podgorica-telekom-cg-tgd01",
+  "canonical_project": "Crnogorski Telekom Data Center Podgorica / Telekom CG TGD01",
+  "owner": "Crnogorski Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Podgorica",
+    "country": "Montenegro",
+    "country_code": "ME"
+  },
+  "capacity_mw": 0.15,
+  "status": "operational",
+  "evidence_date": "2020-07-06",
+  "evidence_grade": "A",
+  "sources": [
+    "https://telekom.me/poslovni-korisnici/kolokacija-servera",
+    "https://en.vijesti.me/vijesti/ekonomija/448821/otvoren-novi-i-savremeni-data-centar-crnogorskog-telekoma",
+    "https://inflect.com/building/str-bratstva-i-edinstva-bb-podgorica/t-mobile/datacenter/tgd01"
+  ],
+  "notes": "Crnogorski Telekom official colocation page states it offers server colocation in its Podgorica Data Center and a Bijelo Polje data recovery site. Vijesti reported the new modern data center opening in 2020. Inflect lists TGD01 in Podgorica and reports 150 kW power capacity; capacity should be treated as third-party directory data.",
+  "world_batch": true
+}

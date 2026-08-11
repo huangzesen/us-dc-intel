@@ -1,0 +1,23 @@
+{
+  "slug": "nr-nauru-government-ict-center-nauru-data-center",
+  "canonical_project": "Nauru Government ICT Center / Nauru Data Center",
+  "owner": "Government of Nauru / Unknown",
+  "location": {
+    "city": "",
+    "subnational": "Yaren",
+    "country": "Nauru",
+    "country_code": "NR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://dchub.cloud/facilities/unknown-nauru-data-center-a9f51f0c",
+    "https://dchub.cloud/api/v1/facilities/unknown-nauru-data-center-a9f51f0c",
+    "https://www.nauru.gov.nr/government/departments/department-of-telecommunications.aspx",
+    "https://nr.geoview.info/yaren%2C2110418"
+  ],
+  "notes": "DC Hub lists an operational Nauru Data Center at -0.5475, 166.9162 with unknown operator and no mapped capacity; GeoView places Nauru Data Center among Yaren nearby features, and the official Government of Nauru ICT page says the Department of ICT is located at the ICT Center in Yaren District and operates government communications/information systems with powerful servers. Treated as a weakly evidenced operational government/unknown facility; EMCS cable landing station activity in Yaren was found but not counted as a data center.",
+  "world_batch": true
+}

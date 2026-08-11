@@ -1,0 +1,20 @@
+{
+  "slug": "nl-cellnex-ittervoort-edge-datacenter",
+  "canonical_project": "Cellnex Ittervoort edge datacenter",
+  "owner": "Cellnex Netherlands",
+  "location": {
+    "city": "",
+    "subnational": "Limburg",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/the-netherlands/limburg/"
+  ],
+  "notes": "Data Center Map lists Cellnex Ittervoort in Leudal, Limburg as a telecom/data tower with datacenter; capacity not stated.",
+  "world_batch": true
+}

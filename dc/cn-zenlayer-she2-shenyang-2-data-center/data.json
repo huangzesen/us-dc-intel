@@ -1,0 +1,21 @@
+{
+  "slug": "cn-zenlayer-she2-shenyang-2-data-center",
+  "canonical_project": "Zenlayer SHE2 / Shenyang-2 Data Center",
+  "owner": "Zenlayer",
+  "location": {
+    "city": "",
+    "subnational": "Liaoning - Shenyang Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/china/shenyang/zenlayer-shenyang2/",
+    "https://inflect.com/datacenters/apac/china/shenyang"
+  ],
+  "notes": "Data Center Map lists Zenlayer Shenyang-2 at 84 Huanghebeida St with 1,000 sqm area, 99.999%+ power SLA, 2.4 kVA per cabinet and N+1 UPS; Inflect also lists Zenlayer SHE2 in Shenyang.",
+  "world_batch": true
+}

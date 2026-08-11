@@ -1,0 +1,21 @@
+{
+  "slug": "cz-masterdc-brno",
+  "canonical_project": "MasterDC Brno",
+  "owner": "MasterDC / Master Internet, Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "South Moravia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.masterdc.com/data-center-brno/",
+    "https://www.masterdc.com/help/masterdc-data-centre-facilities-and-technologies/"
+  ],
+  "notes": "Official MasterDC facility page identifies its Brno data center at Cejl 20 with 750 m2 floor space, expandable by 500 m2, N x 100 Gbps connectivity, UPS and generator backup.",
+  "world_batch": true
+}

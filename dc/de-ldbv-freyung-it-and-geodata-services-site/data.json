@@ -1,0 +1,21 @@
+{
+  "slug": "de-ldbv-freyung-it-and-geodata-services-site",
+  "canonical_project": "LDBV Freyung IT and geodata services site",
+  "owner": "Bavarian State Office for Digitization, Broadband and Surveying (LDBV)",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Freyung-Grafenau",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-04-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ldbv.bayern.de/aktuell/archiv/meldung_freyung-01778.html",
+    "https://www.lvg.bayern.de/aktuell/archiv/meldung_freyung-01778.html"
+  ],
+  "notes": "LDBV official release says the Freyung branch at Bahnhofstraße 10 was opened in renovated premises on 2026-04-20 and handles IT and geodata service functions, ALKIS cadastral system operation, central procurement, and BayernAtlas operation together with Munich colleagues. This is a public-sector IT operations site rather than a reported hyperscale/colocation data center; MW capacity not disclosed.",
+  "world_batch": true
+}

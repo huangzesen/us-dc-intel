@@ -1,0 +1,20 @@
+{
+  "slug": "ru-key-point-irkutsk-data-center",
+  "canonical_project": "Key Point Irkutsk Data Center",
+  "owner": "Key Point Group",
+  "location": {
+    "city": "",
+    "subnational": "Irkutsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 1.8,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://keypoint-group.ru/cod/irkutsk/"
+  ],
+  "notes": "Official Key Point page lists Irkutsk facility in development with 220 IT racks, 1.8 MW IT capacity, Tier III target, planned launch in 2028.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "lv-tet-data-center-atlasa",
+  "canonical_project": "Tet Data Center Atlasa",
+  "owner": "Tet",
+  "location": {
+    "city": "",
+    "subnational": "Riga",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tetcloud.com/data-centers"
+  ],
+  "notes": "Tet Cloud operator page lists Atlasa as a carrier-neutral data center built to ANSI/TIA-942 and Tier III specification, with 40 cabinets up to 15 kW each; total MW not stated.",
+  "world_batch": true
+}

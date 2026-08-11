@@ -1,0 +1,22 @@
+{
+  "slug": "zw-telone-bulawayo-data-centre",
+  "canonical_project": "TelOne Bulawayo Data Centre",
+  "owner": "TelOne Zimbabwe (Pvt) Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Bulawayo",
+    "country": "Zimbabwe",
+    "country_code": "ZW"
+  },
+  "capacity_mw": 0.4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.techzim.co.zw/2022/04/telone-officially-opens-its-first-matabeleland-data-centre/",
+    "https://www.ecofinagency.com/telecom/0305-43573-zimbabwe-telone-inaugurates-bulawayo-data-center-for-enhanced-internet",
+    "https://www.datacentermap.com/zimbabwe/bulawayo/bulawayo-data-centre/"
+  ],
+  "notes": "TelOne (state-owned telco) opened its first Matabeleland data centre at its Main Exchange in Bulawayo (Cnr Main Street & Leopold Takawira Street) in April 2022; Tier 3 designed facility with 120 racks and 400 kVA (~0.4 MW) total power, part of a US$4m+ investment since 2016. Capacity approximated from 400 kVA.",
+  "world_batch": true
+}

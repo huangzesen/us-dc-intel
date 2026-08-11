@@ -1,0 +1,22 @@
+{
+  "slug": "pk-ptcl-data-center-islamabad",
+  "canonical_project": "PTCL Data Center Islamabad",
+  "owner": "PTCL (Pakistan Telecommunication Company Limited)",
+  "location": {
+    "city": "",
+    "subnational": "Islamabad",
+    "country": "Pakistan",
+    "country_code": "PK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/pakistan/islamabad/islamabad-data-center/",
+    "https://www.ocolo.io/colocation/ptcl/islamabad-ptcl-noc/",
+    "https://datacentercatalog.com/pakistan/ptcl-data-center-islamabad"
+  ],
+  "notes": "PTCL Tier-III (TIA-942 Rated-3) data center at PTCL NOC/CDDT building, Sector H-9/1, Islamabad; also supplies PTCL Smart Cloud services.",
+  "world_batch": true
+}

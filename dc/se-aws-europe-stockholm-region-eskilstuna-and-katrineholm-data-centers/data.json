@@ -1,0 +1,21 @@
+{
+  "slug": "se-aws-europe-stockholm-region-eskilstuna-and-katrineholm-data-centers",
+  "canonical_project": "AWS Europe (Stockholm) Region - Eskilstuna and Katrineholm data centers",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Sodermanland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-11-20",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.business-sweden.com/insights/client-cases/amazon-web-services/",
+    "https://www.aboutamazon.eu/news/aws/aws-uses-lower-carbon-steel-in-the-construction-of-new-swedish-data-centres"
+  ],
+  "notes": "Business Sweden says AWS opened data centers in Eskilstuna, Vasteras, and Katrineholm in 2018; Amazon later said it was building new data centers in Eskilstuna, Katrineholm, and Vasteras with main buildings due mid-2025.",
+  "world_batch": true
+}

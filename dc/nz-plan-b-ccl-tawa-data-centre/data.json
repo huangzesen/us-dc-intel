@@ -1,0 +1,21 @@
+{
+  "slug": "nz-plan-b-ccl-tawa-data-centre",
+  "canonical_project": "Plan B / CCL Tawa Data Centre",
+  "owner": "Plan B / CCL",
+  "location": {
+    "city": "",
+    "subnational": "Greater Wellington",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.planb.co.nz/data-centre/",
+    "https://www.datacentermap.com/new-zealand/wellington/plan-b-tawa/"
+  ],
+  "notes": "Plan B public material and Datacenter Map identify the Tawa facility in the Wellington region. Capacity not disclosed by primary source.",
+  "world_batch": true
+}

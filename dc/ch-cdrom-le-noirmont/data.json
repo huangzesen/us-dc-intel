@@ -1,0 +1,21 @@
+{
+  "slug": "ch-cdrom-le-noirmont",
+  "canonical_project": "CDROM Le Noirmont",
+  "owner": "CDROM SA",
+  "location": {
+    "city": "",
+    "subnational": "Jura",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cdrom.ch/en/Home/Swiss-Datacenter-Private-Cloud-CDROM.html",
+    "https://www.datacentermap.com/switzerland/jura/cdrom/"
+  ],
+  "notes": "CDROM lists Swiss data centers at Sous-la-Velle 14, Le Noirmont and Place des Sciences 1, Courroux; Data Center Map identifies Le Noirmont as a Tier 3 ISO27001 data center.",
+  "world_batch": true
+}

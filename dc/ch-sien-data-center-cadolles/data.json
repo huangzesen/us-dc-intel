@@ -1,0 +1,21 @@
+{
+  "slug": "ch-sien-data-center-cadolles",
+  "canonical_project": "SIEN Data Center Cadolles",
+  "owner": "State of Neuchatel / ECAP",
+  "location": {
+    "city": "",
+    "subnational": "Neuchatel",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-12-16",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ne.ch/communiques-de-presse/inauguration-du-nouveau-data-center-du-service-informatique-de-lentite-neuchateloise",
+    "https://www.datacenterdynamics.com/en/news/local-government-of-neuchatel-inaugurates-data-center-in-switzerland/"
+  ],
+  "notes": "Neuchatel government announced inauguration of the Cadolles 9 data center on 2024-12-16; DCD reports CHF22.5m investment, 3,230 sqm building and 1,250 sqm data center area.",
+  "world_batch": true
+}

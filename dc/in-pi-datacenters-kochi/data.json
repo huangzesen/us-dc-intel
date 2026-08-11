@@ -1,0 +1,21 @@
+{
+  "slug": "in-pi-datacenters-kochi",
+  "canonical_project": "Pi Datacenters Kochi",
+  "owner": "Pi Datacenters / Binaries India partner listing",
+  "location": {
+    "city": "",
+    "subnational": "Kerala - Ernakulam",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://binariesindia.com/data-center-in-kochi/",
+    "https://colomap.com/facilities/pi-datacenters-kochi/"
+  ],
+  "notes": "Kochi data center listed as Tier III design compliant with 200 racks, 20,000 sq ft built area and 3 MW power capacity; ColoMap separately lists Pi Datacenters Kochi at Manimala Rd, Kochi.",
+  "world_batch": true
+}

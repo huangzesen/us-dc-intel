@@ -1,0 +1,21 @@
+{
+  "slug": "ci-paix-abidjan",
+  "canonical_project": "PAIX Abidjan",
+  "owner": "PAIX Data Centres / NSIA Technologies",
+  "location": {
+    "city": "",
+    "subnational": "Abidjan",
+    "country": "Cote d'Ivoire",
+    "country_code": "CI"
+  },
+  "capacity_mw": 2.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/paix-paix-abidjan",
+    "https://baxtel.com/data-center/paix-abidjan"
+  ],
+  "notes": "Colocation facility listed in Bonoumin, Cocody, Abidjan; Datacenters.com lists 900 sq ft and access to 2.0 MW of power, while Baxtel confirms operational status and PAIX/NSIA background.",
+  "world_batch": true
+}

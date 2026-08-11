@@ -1,0 +1,21 @@
+{
+  "slug": "cm-mtn-cameroon-douala-akwa-technical-center-data-centers",
+  "canonical_project": "MTN Cameroon Douala Akwa technical center data centers",
+  "owner": "MTN Cameroon",
+  "location": {
+    "city": "",
+    "subnational": "Littoral",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-11-03",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.digitalbusiness.africa/mauvaise-qualite-de-service-et-plaintes-multiples-des-usagers-le-gouvernement-et-le-regulateur-mettent-en-garde-mtn-cameroon/",
+    "https://datacenterplatform.com/countries/cameroon/"
+  ],
+  "notes": "Digital Business Africa reported that MTN Cameroon hosted government and telecom regulator ART at its Douala-Akwa technical offices near Rond-Point 4eme, where the operator's data centers are located. DataCenterPlatform also lists MTN Douala among Cameroon data-center sites. No public MW capacity found.",
+  "world_batch": true
+}

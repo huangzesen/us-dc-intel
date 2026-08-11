@@ -1,0 +1,20 @@
+{
+  "slug": "dz-university-of-guelma-hpc-cluster-computing-room",
+  "canonical_project": "University of Guelma HPC cluster / computing room",
+  "owner": "University of Guelma / ICE Informatique et Communication d'Entreprises",
+  "location": {
+    "city": "",
+    "subnational": "Guelma",
+    "country": "Algeria",
+    "country_code": "DZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-01-01",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.ice.dz/presentation_ICE_2019.pdf"
+  ],
+  "notes": "ICE corporate presentation states it delivered an HPC project at the University of Guelma in 2012: a 32-node Intel/Linux cluster, electrical/physical audit, deployment plan, 30 kVA UPS, software and admin training. Recorded as small institutional compute/data-center activity rather than a commercial colocation site.",
+  "world_batch": true
+}

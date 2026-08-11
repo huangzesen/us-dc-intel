@@ -1,0 +1,21 @@
+{
+  "slug": "ru-pervy-data-center-chelyabinsk",
+  "canonical_project": "Pervy Data Center Chelyabinsk",
+  "owner": "Pervy Data Center",
+  "location": {
+    "city": "",
+    "subnational": "Chelyabinsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://dedic74.ru/",
+    "https://2gis.ru/chelyabinsk/firm/70000001037880771"
+  ],
+  "notes": "Local commercial data center/hosting provider in Chelyabinsk at Truda 24; offers server rental and colocation. Capacity not disclosed.",
+  "world_batch": true
+}

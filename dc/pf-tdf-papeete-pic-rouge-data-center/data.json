@@ -1,0 +1,21 @@
+{
+  "slug": "pf-tdf-papeete-pic-rouge-data-center",
+  "canonical_project": "TDF Papeete Pic Rouge Data Center",
+  "owner": "TDF",
+  "location": {
+    "city": "",
+    "subnational": "French Polynesia",
+    "country": "French Polynesia",
+    "country_code": "PF"
+  },
+  "capacity_mw": 0.3,
+  "status": "operational",
+  "evidence_date": "2020-10-16",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tdf.fr/en/tdf-inaugure-son-premier-data-center-a-papeete-en-polynesie-francaise/",
+    "https://baxtel.com/data-center/french-polynesia"
+  ],
+  "notes": "TDF announced inauguration of its first French Polynesia data center at Pic Rouge, Papeete, on 2020-10-16; Baxtel lists TDF as a French Polynesia data center provider with 0.3 MW.",
+  "world_batch": true
+}

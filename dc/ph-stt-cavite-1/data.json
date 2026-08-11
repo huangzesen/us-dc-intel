@@ -1,0 +1,22 @@
+{
+  "slug": "ph-stt-cavite-1",
+  "canonical_project": "STT Cavite 1",
+  "owner": "ST Telemedia Global Data Centres Philippines",
+  "location": {
+    "city": "",
+    "subnational": "Calabarzon",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 4.8,
+  "status": "operational",
+  "evidence_date": "2023-11-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.sttelemediagdc.com/ph-en/locations",
+    "https://www.datacenterdynamics.com/en/news/stt-gdc-breaks-ground-on-6mw-data-center-in-cavite-philippines/",
+    "https://www.datacentermap.com/philippines/calabarzon/stt-cavite-dc-1/specs/"
+  ],
+  "notes": "STT GDC official locations include STT Cavite 1 in General Trias; DCD reported the campus opened in 2015 and Cavite 1 offers 4.8 MW.",
+  "world_batch": true
+}

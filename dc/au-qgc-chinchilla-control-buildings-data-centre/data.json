@@ -1,0 +1,20 @@
+{
+  "slug": "au-qgc-chinchilla-control-buildings-data-centre",
+  "canonical_project": "QGC Chinchilla control buildings data centre",
+  "owner": "QGC / Hutchinson Builders",
+  "location": {
+    "city": "",
+    "subnational": "Queensland - Western Downs",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://modular.hutchies.com.au/projects/mining/qgc-control-buildings"
+  ],
+  "notes": "Hutchinson Builders describes QGC control buildings on the Warrego Highway at Chinchilla that include office space, a data centre, UPS rooms, redundant power systems, redundant chilled water systems for critical data equipment, operations rooms and diesel-generator backup; this is an enterprise/industrial data centre rather than a public colocation facility.",
+  "world_batch": true
+}

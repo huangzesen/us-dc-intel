@@ -1,0 +1,20 @@
+{
+  "slug": "gb-uk-servers-211-coventry-datacentre",
+  "canonical_project": "UK Servers 211 Coventry Datacentre",
+  "owner": "UK Servers",
+  "location": {
+    "city": "",
+    "subnational": "England - Coventry",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ukservers.com/our-datacentre/"
+  ],
+  "notes": "UK Servers says its 211 Coventry datacentre opened in December 2011, with 80 racks across two data halls, N+1 UPS, 32A maximum load per rack and 2 x 375 kVA generators. No MW IT load stated.",
+  "world_batch": true
+}

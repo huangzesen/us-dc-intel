@@ -1,0 +1,21 @@
+{
+  "slug": "fr-d-lake-acy01",
+  "canonical_project": "D-LAKE ACY01",
+  "owner": "D-LAKE",
+  "location": {
+    "city": "",
+    "subnational": "Haute-Savoie",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 0.05,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/france/annecy/acy01/",
+    "https://www.datacentermap.com/france/annecy/"
+  ],
+  "notes": "Edge data center listed in Annecy/Haute-Savoie at 1 esplanade Augustin Aussedat; Data Center Map reports 0.05 MW.",
+  "world_batch": true
+}

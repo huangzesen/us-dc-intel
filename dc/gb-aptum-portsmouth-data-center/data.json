@@ -1,0 +1,21 @@
+{
+  "slug": "gb-aptum-portsmouth-data-center",
+  "canonical_project": "Aptum Portsmouth Data Center",
+  "owner": "Aptum (formerly Cogeco Peer 1 / Peer 1 Hosting)",
+  "location": {
+    "city": "",
+    "subnational": "England - Portsmouth",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 10.0,
+  "status": "operational",
+  "evidence_date": "2019-08-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/united-kingdom/portsmouth/cogeco-peer1-havant/",
+    "https://cdn.baxtel.com/data-center/cogeco-peer-1-portsmouth/files/CP1_Colocation_Datasheet_Portsmouth__1_.pdf"
+  ],
+  "notes": "Operational Portsmouth/Havant facility launched by Peer 1 in 2011 and later rebranded Aptum; public datasheet lists about 12MVA/10.8MW power and DataCenterMap labels 10MW.",
+  "world_batch": true
+}

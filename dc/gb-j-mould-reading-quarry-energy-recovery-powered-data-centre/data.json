@@ -1,0 +1,21 @@
+{
+  "slug": "gb-j-mould-reading-quarry-energy-recovery-powered-data-centre",
+  "canonical_project": "J Mould Reading Quarry energy-recovery powered data centre",
+  "owner": "J Mould (Reading) Ltd",
+  "location": {
+    "city": "",
+    "subnational": "England - West Berkshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 40.0,
+  "status": "planned",
+  "evidence_date": "2022-02-23",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/waste-management-company-proposes-243000-sq-ft-incinerator-powered-data-center-in-reading-uk/",
+    "https://decisionmaking.westberks.gov.uk/documents/s106547/42a%2020.02029.COMIND%20Reading%20Quarry%20Report.pdf"
+  ],
+  "notes": "West Berkshire planning report for Reading Quarry states the data centre would utilise approximately 40MW of electrical energy; public reporting describes a 243,000 sq ft data-centre proposal paired with an energy recovery centre.",
+  "world_batch": true
+}

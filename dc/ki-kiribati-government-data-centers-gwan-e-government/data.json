@@ -1,0 +1,23 @@
+{
+  "slug": "ki-kiribati-government-data-centers-gwan-e-government",
+  "canonical_project": "Kiribati Government Data Centers (GWAN/e-Government)",
+  "owner": "Government of Kiribati / Ministry of Information, Communications & Transport (MICTTD)",
+  "location": {
+    "city": "",
+    "subnational": "Gilbert Islands",
+    "country": "Kiribati",
+    "country_code": "KI"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://dig.watch/resource/the-kiribati-national-ict-policy-2019",
+    "https://www.mict.gov.ki/sites/default/files/publications/National%20ICT%20Policy_4.pdf",
+    "https://www.bnl.com.ki/projects",
+    "https://atalnetworks.com/tarawa-kiribati-vps-server/"
+  ],
+  "notes": "No operational or announced commercial data center found for the Gilbert Islands. The official Kiribati National ICT Policy 2019 (MICTTD) lists 'Full government network (GWAN) and data centers' as a strategic e-Government priority, so government data centers are planned at policy level (likely Tarawa/South Tarawa, where government and telecom infrastructure concentrate) but no site, capacity, timeline, or operator has been published. Supporting connectivity context (not counted as data centers): Southern Cross NEXT submarine cable landing at Tarawa (first direct US fiber link with Kiribati), EMCS cable landing at South Tarawa (2025), and a World Bank-funded South Tarawa fiber backbone operated by BwebwerikiNet Ltd (BNL). An unverified hosting marketing page (atalnetworks.com) claims a 'Tier III data center in Tarawa', but the identical templated pages it publishes for Apia, Palau, Tonga and Nauru indicate generic SEO content with no corroborated facility; not counted as a project.",
+  "world_batch": true
+}

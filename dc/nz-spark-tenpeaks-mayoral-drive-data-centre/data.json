@@ -1,0 +1,21 @@
+{
+  "slug": "nz-spark-tenpeaks-mayoral-drive-data-centre",
+  "canonical_project": "Spark / TenPeaks Mayoral Drive Data Centre",
+  "owner": "TenPeaks Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.nzx.com/announcements/466723",
+    "https://cloudscene.com/data-center/new-zealand/auckland/spark-mayoral-drive"
+  ],
+  "notes": "Spark's data centre business transferred to TenPeaks in 2026; Cloudscene identifies an Auckland Mayoral Drive facility. Public site-specific MW capacity was not found.",
+  "world_batch": true
+}

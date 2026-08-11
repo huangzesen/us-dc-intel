@@ -1,0 +1,22 @@
+{
+  "slug": "au-google-mandurah-connectivity-hub-talaylink-landing-hub",
+  "canonical_project": "Google Mandurah connectivity hub / TalayLink landing hub",
+  "owner": "Google",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Mandurah",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2025-11-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/blog/products/infrastructure/talaylink-subsea-cable-to-connect-australia-and-thailand",
+    "https://www.datacenterdynamics.com/en/news/google-to-build-australia-thailand-subsea-cable/",
+    "https://www.rcrwireless.com/20251124/network-infrastructure/google-cable"
+  ],
+  "notes": "Google announced TalayLink and a Mandurah, Western Australia connectivity hub intended to provide a diverse landing point from Perth and support cable switching, content caching and colocation capabilities. This is a connectivity/edge-colocation hub rather than a disclosed hyperscale datacenter; no MW capacity was published.",
+  "world_batch": true
+}

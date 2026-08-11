@@ -1,0 +1,22 @@
+{
+  "slug": "fr-sitec-ajaccio-data-center",
+  "canonical_project": "SITEC Ajaccio data center",
+  "owner": "SITEC",
+  "location": {
+    "city": "",
+    "subnational": "Corse-du-Sud",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-01-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sitec.corsica/certifications/",
+    "https://www.sitec.corsica/plateforme-hds/",
+    "https://www.datacentermap.com/france/ajaccio/sitec-ajaccio/"
+  ],
+  "notes": "SITEC states its hosting infrastructure includes its historic Ajaccio data center plus a newer Bastia data center, interconnected and certified ISO27001/HDS; Ajaccio site is in the Vazzio industrial zone. Capacity not disclosed in MW.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "cd-fastnet-lubumbashi-data-center",
+  "canonical_project": "Fastnet Lubumbashi Data Center",
+  "owner": "Fastnet",
+  "location": {
+    "city": "",
+    "subnational": "Upper Katanga",
+    "country": "Congo, Democratic Republic of the",
+    "country_code": "CD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2017-09-27",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/first-data-center-in-the-democratic-republic-of-the-congo-opens/",
+    "https://www.ecofinagency.com/telecom/2809-37450-isp-fastnet-opens-democratic-republic-of-congo-s-first-data-center"
+  ],
+  "notes": "Carrier-neutral facility in Lubumbashi, reported by DCD and Ecofin as DRC's first data center; no public MW capacity found.",
+  "world_batch": true
+}

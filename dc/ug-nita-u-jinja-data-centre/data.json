@@ -1,0 +1,21 @@
+{
+  "slug": "ug-nita-u-jinja-data-centre",
+  "canonical_project": "NITA-U Jinja Data Centre",
+  "owner": "National Information Technology Authority - Uganda (NITA-U)",
+  "location": {
+    "city": "",
+    "subnational": "Eastern",
+    "country": "Uganda",
+    "country_code": "UG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.spyuganda.com/museveni-launches-nita-uganda-jinja-data-centre/",
+    "https://www.dcbyte.com/facility/jinja-data-centre/"
+  ],
+  "notes": "Government regional data centre in Jinja City (Eastern region), launched on 11 June 2019 by President Yoweri Museveni as an annex/branch of the NITA-U National Data Centre base in Kampala. DC Byte lists it as a Tier 3 self-build public-sector facility that went live in Q3 2019 (its entry describes it as NITA-U's first data centre). Purpose: hosting government data with regional disaster recovery coverage. No public MW capacity found.",
+  "world_batch": true
+}

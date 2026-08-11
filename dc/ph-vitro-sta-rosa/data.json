@@ -1,0 +1,22 @@
+{
+  "slug": "ph-vitro-sta-rosa",
+  "canonical_project": "VITRO Sta. Rosa",
+  "owner": "VITRO Inc. / ePLDT / PLDT",
+  "location": {
+    "city": "",
+    "subnational": "Calabarzon",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 50,
+  "status": "operational",
+  "evidence_date": "2025-04-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vitrodc.com/data-centers/vitro-sta-rosa/",
+    "https://www.datacenterdynamics.com/en/news/pldt-launches-sta-rosa-data-center/",
+    "https://www.philstar.com/business/2025/04/24/2437843/pldt-readies-p40-billion-data-center-cavite"
+  ],
+  "notes": "Official VITRO page describes the Laguna AI-ready hyperscale facility; trade/local press reported the April 2025 launch and 50 MW five-hectare campus in Sta. Rosa, Laguna.",
+  "world_batch": true
+}

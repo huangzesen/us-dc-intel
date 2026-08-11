@@ -1,0 +1,22 @@
+{
+  "slug": "ph-vitro-davao",
+  "canonical_project": "VITRO Davao",
+  "owner": "VITRO Inc. / ePLDT / PLDT",
+  "location": {
+    "city": "",
+    "subnational": "Davao",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 0.18,
+  "status": "operational",
+  "evidence_date": "2017-02-14",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.sunstar.com.ph/more-articles/epldt-vitro-facility-launches-in-davao-",
+    "https://www.ocolo.io/colocation/pldt-global/vitro-davao/",
+    "https://www.datacentermap.com/philippines/davao/epldt-vitro-davao/"
+  ],
+  "notes": "SunStar reported PLDT/ePLDT launched the first data center facility in Mindanao in Davao on Feb. 13, 2017 with 44 racks; capacity estimate from OCOLO listing.",
+  "world_batch": true
+}

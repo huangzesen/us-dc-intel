@@ -1,0 +1,20 @@
+{
+  "slug": "ax-mariehamns-persondatorer-server-hall",
+  "canonical_project": "Mariehamns Persondatorer server hall",
+  "owner": "Mariehamns Persondatorer AB",
+  "location": {
+    "city": "",
+    "subnational": "Aland Islands",
+    "country": "Aland Islands",
+    "country_code": "AX"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mpd.ax/"
+  ],
+  "notes": "Provider website states MPD offers network/IT operations in its own server hall in Mariehamn. No IT load or MW capacity disclosed; small local enterprise hosting/operations facility.",
+  "world_batch": true
+}

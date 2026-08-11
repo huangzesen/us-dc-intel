@@ -1,0 +1,22 @@
+{
+  "slug": "it-unicenter-rome",
+  "canonical_project": "UniCenter Rome",
+  "owner": "UniCenter S.p.A. / Unidata / Azimut Libera Impresa",
+  "location": {
+    "city": "",
+    "subnational": "Lazio",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": 20.0,
+  "status": "planned",
+  "evidence_date": "2026-04-03",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/unidata-begins-development-on-20mw-data-center-in-rome-italy/",
+    "https://investors.unidata.it/wp-content/uploads/2025/06/38967385.pdf",
+    "https://www.datacentermap.com/italy/rome/unicenter/"
+  ],
+  "notes": "Unidata/Azimut JV project for a green carrier-neutral Tier IV-quality Rome data center; DCD and Unidata investor material report approximately 20 MW and more than 2,000 racks.",
+  "world_batch": true
+}

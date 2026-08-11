@@ -1,0 +1,21 @@
+{
+  "slug": "de-carrierswitchraum-jena",
+  "canonical_project": "Carrierswitchraum Jena",
+  "owner": "Thuringer Netkom GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Thuringia - Jena",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://scoremydatacenter.org/dc/de-carrierswitchraum-jena/",
+    "https://voltina.se/datacenters/DE"
+  ],
+  "notes": "Aggregate data-center observatory and directory listings identify Carrierswitchraum Jena as an operational Jena facility associated with Thuringer Netkom; power is not disclosed and primary-source confirmation was not found in this batch search.",
+  "world_batch": true
+}

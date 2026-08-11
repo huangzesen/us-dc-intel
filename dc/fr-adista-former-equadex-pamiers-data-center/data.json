@@ -1,0 +1,23 @@
+{
+  "slug": "fr-adista-former-equadex-pamiers-data-center",
+  "canonical_project": "Adista / former Equadex Pamiers data center",
+  "owner": "Adista / Inherent Group; originally Equadex",
+  "location": {
+    "city": "",
+    "subnational": "Ariège",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ladepeche.fr/2021/04/30/le-data-center-dequadex-ingere-ses-premieres-donnees-numeriques-9518658.php",
+    "https://keensight.com/inherent-group-announces-the-acquisition-of-equadex-an-expert-in-it-solutions-and-strengthens-its-local-cloud-offering/",
+    "https://www.datacenterdynamics.com/en/news/frances-inherent-group-acquires-equadex/",
+    "https://www.adista.fr/news/un-10eme-datacenter-hds-a-pamiers-en-2026/"
+  ],
+  "notes": "La Depeche reported the Pamiers data center entered service in 2021 after a two-year build. Inherent/Keensight and DCD later identified Equadex's Pamiers and Labege data centers as part of the Inherent/Adista network; Adista references a Pamiers HDS data center in 2026.",
+  "world_batch": true
+}

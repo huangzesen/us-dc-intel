@@ -1,0 +1,22 @@
+{
+  "slug": "ru-dataharbour-kursk",
+  "canonical_project": "DataHarbour Kursk",
+  "owner": "DataHarbour / DataPort",
+  "location": {
+    "city": "",
+    "subnational": "Kursk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dataharbour.ru/address/kursk",
+    "https://www.datacentermap.com/russia/kursk/",
+    "https://colomap.com/facilities/dataharbour-kursk/"
+  ],
+  "notes": "Official DataHarbour page lists its Kursk data center sales office/facility at Prospekt Leninskogo Komsomola, 2, describes a Tier-3 platform with 24/7 support, colocation, rack rental, dedicated and virtual servers; DataCenterMap and ColoMap corroborate the Kursk facility.",
+  "world_batch": true
+}

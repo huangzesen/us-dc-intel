@@ -1,0 +1,21 @@
+{
+  "slug": "th-phuket-data-center-keff-networks",
+  "canonical_project": "Phuket Data Center (KeFF Networks)",
+  "owner": "KeFF Networks Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Phuket",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://blog.azirevpn.com/new-locations-available-gothenburg-and-phuket/",
+    "https://www.peeringdb.com/net/5605"
+  ],
+  "notes": "AzireVPN's blog describes renting rackspace in the Phuket Data Center facility with network upstream and hosting services of KeFF Networks (AS41281), indicating an operating colocation/edge facility in Phuket; no official facility page, capacity, or address found, so confidence is aggregate/third-party only.",
+  "world_batch": true
+}

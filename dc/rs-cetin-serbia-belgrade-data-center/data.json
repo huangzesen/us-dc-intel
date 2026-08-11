@@ -1,0 +1,21 @@
+{
+  "slug": "rs-cetin-serbia-belgrade-data-center",
+  "canonical_project": "CETIN Serbia Belgrade Data Center",
+  "owner": "CETIN Serbia",
+  "location": {
+    "city": "",
+    "subnational": "Belgrade",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cetin.rs/services/data-center",
+    "https://www.datacentermap.com/serbia/belgrade/cetin-serbia-belgrade-data-center/"
+  ],
+  "notes": "Carrier-neutral Belgrade data center at Omladinskih brigada 90/92; CETIN describes it as Serbia's largest interconnection hub with 99.9999% service availability. Data Center Map lists Tier 3.",
+  "world_batch": true
+}

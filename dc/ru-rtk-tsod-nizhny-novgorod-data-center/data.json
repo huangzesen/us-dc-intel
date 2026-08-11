@@ -1,0 +1,21 @@
+{
+  "slug": "ru-rtk-tsod-nizhny-novgorod-data-center",
+  "canonical_project": "RTK-TsOD Nizhny Novgorod Data Center",
+  "owner": "RTK-TsOD / Rostelecom",
+  "location": {
+    "city": "",
+    "subnational": "Nizhny Novgorod",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 5,
+  "status": "operational",
+  "evidence_date": "2025-06-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/rostelecom-subsidiary-launches-data-center-in-nizhny-novgorod-russia/",
+    "https://www.datacentermap.com/russia/nizhny-novgorod/rtk-tsod-nizhny-novgorod-dc/"
+  ],
+  "notes": "DCD reports RTK-TsOD launched the Nizhny Novgorod data center at 35 Fedoseenko Street; 3,539 sqm, four machine rooms, 401 racks and 5 MW IT capacity.",
+  "world_batch": true
+}

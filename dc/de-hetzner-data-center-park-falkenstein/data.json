@@ -1,0 +1,21 @@
+{
+  "slug": "de-hetzner-data-center-park-falkenstein",
+  "canonical_project": "Hetzner Data Center Park Falkenstein",
+  "owner": "Hetzner Online GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Saxony - Vogtlandkreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.hetzner.com/unternehmen/rechenzentrum/",
+    "https://www.datacenters.com/locations/germany/sachsen/falkenstein-vogtland"
+  ],
+  "notes": "Hetzner's official data center page lists a Data Center Park in Falkenstein, Germany, alongside its Nuremberg and Helsinki parks; third-party data center directories place Falkenstein/Vogtland in Saxony and list multiple facilities/provider presence. Capacity not disclosed in the checked public sources.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "ru-kalininsky-udomlya-data-center",
+  "canonical_project": "Kalininsky / Udomlya Data Center",
+  "owner": "Rosenergoatom / Rostelecom / Atomdata",
+  "location": {
+    "city": "",
+    "subnational": "Tver",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 80.0,
+  "status": "operational",
+  "evidence_date": "2019-09-20",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.company.rt.ru/en/ir/news_calendar/d451141/",
+    "https://atomdata.ru/company/press/news/plany-po-stroitelstvu-novykh-data-tsentrov/",
+    "https://rosatom-energy.ru/media/rosatom-news/kalininskaya-aes-perenesla-chast-it-infrastruktury-v-novyy-tsod-kalininskiy/"
+  ],
+  "notes": "Large nuclear-powered data center campus near Kalinin NPP in Udomlya. Sources describe first phase commercial operation, 4,800 rack spaces for Rostelecom/Rosenergoatom allocation, and total site capacity up to 80 MW.",
+  "world_batch": true
+}

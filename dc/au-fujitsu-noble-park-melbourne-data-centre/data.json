@@ -1,0 +1,23 @@
+{
+  "slug": "au-fujitsu-noble-park-melbourne-data-centre",
+  "canonical_project": "Fujitsu Noble Park / Melbourne Data Centre",
+  "owner": "Fujitsu Australia",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Greater Dandenong",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 28,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://global.fujitsu/en-apac/local/about-data-centres",
+    "https://global.fujitsu/en-apac/capabilities/hybrid-it-cloud-services/data-centres",
+    "https://info.archives.global.fujitsu/au/about/resources/news/press-releases/2013/",
+    "https://www.datacentermap.com/australia/melbourne/fujitsu-melbourne/"
+  ],
+  "notes": "Fujitsu's official locations page lists Noble Park, Melbourne, VIC with 28MW IT load and 8,500 sqm; archived Fujitsu news records the Noble Park data centre's NABERS rating. Noble Park is within the City of Greater Dandenong.",
+  "world_batch": true
+}

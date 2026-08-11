@@ -1,0 +1,21 @@
+{
+  "slug": "mk-akton-telehouse-akton-communications-skp02",
+  "canonical_project": "Akton Telehouse / Akton Communications SKP02",
+  "owner": "Akton Communications",
+  "location": {
+    "city": "",
+    "subnational": "Centar",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/akton/",
+    "https://inflect.com/building/belasitsa-skopje/akton-telehouse/datacenter/skp02"
+  ],
+  "notes": "Data Center Platform lists Akton Telehouse at Belasitsa 1000 Skopje and Inflect lists Akton Communications SKP02 at Belasitsa as a Skopje data center. Public city references place Belasitsa Street in/near central Skopje; exact municipal boundary attribution is lower confidence. Capacity not disclosed.",
+  "world_batch": true
+}

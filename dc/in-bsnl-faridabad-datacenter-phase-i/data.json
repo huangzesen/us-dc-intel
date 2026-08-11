@@ -1,0 +1,21 @@
+{
+  "slug": "in-bsnl-faridabad-datacenter-phase-i",
+  "canonical_project": "BSNL Faridabad Datacenter Phase I",
+  "owner": "BSNL (Bharat Sanchar Nigam Limited) / Dimension Data alliance",
+  "location": {
+    "city": "",
+    "subnational": "Haryana - Faridabad District",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://uptimeinstitute.com/component/tierachievement/client/bsnl--dimension-data/111",
+    "https://datacentercatalog.com/india/faridabad-datacenter-phase-i"
+  ],
+  "notes": "BSNL's national data centre in Faridabad, Haryana, developed under the BSNL-Dimension Data strategic alliance for data centre services in India. Phase I of the Faridabad Datacenter carries an Uptime Institute Tier programme client listing (certification implies the facility was built and commissioned). No public MW capacity disclosed; status inferred as operational from certification record.",
+  "world_batch": true
+}

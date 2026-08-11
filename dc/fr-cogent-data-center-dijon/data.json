@@ -1,0 +1,21 @@
+{
+  "slug": "fr-cogent-data-center-dijon",
+  "canonical_project": "Cogent Data Center - Dijon",
+  "owner": "Cogent Communications",
+  "location": {
+    "city": "",
+    "subnational": "Côte-d'Or",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 0.25,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cogentco.com/en/network/service-locations?action=search&city=&continent=&country=France&metro=&site_type=CDC&state=",
+    "https://www.datacentermap.com/france/dijon/cogent-dijon/"
+  ],
+  "notes": "Cogent service-location list includes its Dijon data center at 41 Quai Gauthey, 21000 Dijon; Data Center Map lists about 2,345 sq ft and 0.25 MW.",
+  "world_batch": true
+}

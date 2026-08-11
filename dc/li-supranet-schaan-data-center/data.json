@@ -1,0 +1,22 @@
+{
+  "slug": "li-supranet-schaan-data-center",
+  "canonical_project": "SupraNet Schaan Data Center",
+  "owner": "Supranet AG (Supra.Net group / Qualitynet AG)",
+  "location": {
+    "city": "",
+    "subnational": "Vaduz",
+    "country": "Liechtenstein",
+    "country_code": "LI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/liechtenstein/vaduz/supranet-schaan/",
+    "https://datacenterplatform.com/data-centers/supra/supra-schaan-datacenter/",
+    "https://supra.net/ueber-supranet"
+  ],
+  "notes": "Colocation/data center at Im alten Riet 121, Schaan 9494 (Schaan municipality), operated by Supranet AG; advertises a 100 Gbit/s fiber backbone and nationwide high-speed network expansion in Liechtenstein. No capacity MW published.",
+  "world_batch": true
+}

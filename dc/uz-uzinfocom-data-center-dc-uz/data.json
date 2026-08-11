@@ -1,0 +1,22 @@
+{
+  "slug": "uz-uzinfocom-data-center-dc-uz",
+  "canonical_project": "UZINFOCOM Data Center (dc.uz)",
+  "owner": "Single Integrator UZINFOCOM LLC (under Ministry of Digital Technologies)",
+  "location": {
+    "city": "",
+    "subnational": "Tashkent City",
+    "country": "Uzbekistan",
+    "country_code": "UZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dc.uz/",
+    "https://datacenter.uz/ru/",
+    "https://www.goldenpages.uz/en/company/?Id=51175"
+  ],
+  "notes": "UZINFOCOM operates Uzbekistan's national commercial data center at Navoi Avenue 28B, Shaykhontokhur district, Tashkent, offering colocation, cloud, hosting and monitoring; Russian trade press (IKSMEDIA) describes it as the country's first data center (initially ~20 racks, later expanded). Capacity not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "in-princeton-digital-group-ch1-chennai-campus",
+  "canonical_project": "Princeton Digital Group CH1 Chennai campus",
+  "owner": "Princeton Digital Group",
+  "location": {
+    "city": "",
+    "subnational": "Tamil Nadu - Chennai",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 72,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://princetondg.com/locations/india/",
+    "https://www.datacentermap.com/india/chennai/"
+  ],
+  "notes": "PDG's India locations page lists Chennai CH1 as a 72 MW site planned as a three-building campus. Exact locality within the Chennai market was not confirmed in public source text reviewed, so this is assigned to Chennai at city-market level.",
+  "world_batch": true
+}

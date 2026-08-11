@@ -1,0 +1,21 @@
+{
+  "slug": "cn-tencent-western-cloud-computing-data-center",
+  "canonical_project": "Tencent Western Cloud Computing Data Center",
+  "owner": "Tencent Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Chongqing - Chongqing",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-07-20",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cq.gov.cn/zwgk/zfxxgkzl/fdzdgknr/zdxm/dtxx/201807/t20180701_8807810.html",
+    "https://cq.people.com.cn/n2/2022/0720/c367647-40046117.html"
+  ],
+  "notes": "Chongqing government says Tencent's Chongqing cloud data center in Liangjiang International Cloud Computing Industrial Park covers about 250 mu with RMB 6 billion investment and, when complete, 200,000-server compute/storage capability. People's Daily Chongqing reported phase 2 energization in July 2022.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "kr-samsung-sds-dongtan-data-center-samsung-hpc-center",
+  "canonical_project": "Samsung SDS Dongtan Data Center / Samsung HPC Center",
+  "owner": "Samsung SDS / Samsung",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Hwaseong-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 114,
+  "status": "operational",
+  "evidence_date": "2023-03-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.samsungsds.com/us/news/cloud-media-day-2023.html",
+    "https://semiconductor.samsung.com/news-events/tech-blog/samsung-highlights-the-importance-of-open-collaboration-in-the-ai-era-with-energy-efficient-data-center-infrastructure-and-memory-solutions/"
+  ],
+  "notes": "Samsung SDS announced Korea's first HPC-dedicated Dongtan data center in Hwaseong/Dongtan; Samsung Semiconductor describes the Hwaseong HPC Center as Korea's largest data center with 114MW electric capacity and 116,000 servers.",
+  "world_batch": true
+}

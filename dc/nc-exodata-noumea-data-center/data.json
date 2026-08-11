@@ -1,0 +1,21 @@
+{
+  "slug": "nc-exodata-noumea-data-center",
+  "canonical_project": "Exodata Noumea data center",
+  "owner": "Exodata",
+  "location": {
+    "city": "",
+    "subnational": "New Caledonia",
+    "country": "New Caledonia",
+    "country_code": "NC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-12-19",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.exodata.fr/cloud",
+    "https://www.exodata.fr/blog/exodata-rachete-mycloud-specialiste-du-datacenter-autonome"
+  ],
+  "notes": "Exodata's cloud page lists its Noumea, New Caledonia data center for local cloud presence in the South Pacific; a 2022 company post says Exodata had operated in Noumea since 2017 and acquired myCloud, described as a datacenter-autonomous specialist. No MW capacity disclosed.",
+  "world_batch": true
+}

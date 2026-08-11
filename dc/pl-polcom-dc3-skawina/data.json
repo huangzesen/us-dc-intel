@@ -1,0 +1,21 @@
+{
+  "slug": "pl-polcom-dc3-skawina",
+  "canonical_project": "Polcom DC3 Skawina",
+  "owner": "Polcom",
+  "location": {
+    "city": "",
+    "subnational": "Lesser Poland",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 22,
+  "status": "construction",
+  "evidence_date": "2025-02-05",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/polands-polcom-to-build-two-data-centers-near-krakow/",
+    "https://www.datacentermap.com/poland/krakow/polcom-dc3/"
+  ],
+  "notes": "DCD reports Polcom is building two data centers near Krakow with combined 44MW; directory detail attributes 22MW to DC3 in Skawina and indicates expected operation by end-2026.",
+  "world_batch": true
+}

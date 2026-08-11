@@ -1,0 +1,22 @@
+{
+  "slug": "jp-highreso-shika-machi-gpu-data-center",
+  "canonical_project": "HIGHRESO Shika-machi GPU Data Center",
+  "owner": "HIGHRESO Co., Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Ishikawa",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-08-14",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sakura.ad.jp/corporate/en/information/2025/08/14/1968220601/",
+    "https://www.toyota-tsusho.com/english/press/detail/250704_006636.html",
+    "https://www.datacenterdynamics.com/en/news/japans-alt-inc-launches-gpu-cloud/"
+  ],
+  "notes": "SAKURA internet and Toyota Tsusho official pages state HIGHRESO has operated a GPU-dedicated data center in Shika Town, Ishikawa since 2019 for GPUSOROBAN GPU cloud services; MW not disclosed.",
+  "world_batch": true
+}

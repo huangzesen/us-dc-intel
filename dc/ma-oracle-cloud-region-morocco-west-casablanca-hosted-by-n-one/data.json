@@ -1,0 +1,22 @@
+{
+  "slug": "ma-oracle-cloud-region-morocco-west-casablanca-hosted-by-n-one",
+  "canonical_project": "Oracle Cloud Region Morocco West (Casablanca) hosted by N+ONE",
+  "owner": "Oracle / N+ONE Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Casablanca-Settat",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-02-20",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.oracle.com/iaas/releasenotes/oci/new-region-casablanca-1.htm",
+    "https://www.datacenterdynamics.com/en/news/oracle-launches-cloud-region-in-casablanca-morocco/",
+    "https://www.oracle.com/cloud/public-cloud-regions/"
+  ],
+  "notes": "Oracle release notes say Morocco West (Casablanca), region identifier af-casablanca-1, became available on 2026-02-20; DCD reports N+ONE hosts the region.",
+  "world_batch": true
+}

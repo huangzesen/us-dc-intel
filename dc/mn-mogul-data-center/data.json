@@ -1,0 +1,21 @@
+{
+  "slug": "mn-mogul-data-center",
+  "canonical_project": "Mogul Data Center",
+  "owner": "Mogul Service LLC",
+  "location": {
+    "city": "",
+    "subnational": "Ulaanbaatar",
+    "country": "Mongolia",
+    "country_code": "MN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://colocationm.com/mongolia/ulaanbaata-dc-3",
+    "https://www.rackcorp.com/network/datacenters/mongolia/"
+  ],
+  "notes": "ColocationM lists Mogul Data Center on Zuunmod Rd, HUD 21 Khoroo, Ulaanbaatar, established in 2021 by Mogul Service LLC with Tier 3-compliant colocation; RackCorp also lists Mogul DC as a Ulaanbaatar colocation facility.",
+  "world_batch": true
+}

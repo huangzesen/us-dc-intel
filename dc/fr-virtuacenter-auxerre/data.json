@@ -1,0 +1,21 @@
+{
+  "slug": "fr-virtuacenter-auxerre",
+  "canonical_project": "VirtuaCenter Auxerre",
+  "owner": "Virtua-Networks",
+  "location": {
+    "city": "",
+    "subnational": "Yonne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vnetx.com/",
+    "https://www.datacentermap.com/france/auxerre/virtuacenter/"
+  ],
+  "notes": "Virtua-Networks official page says VirtuaCenter is its own data center in central Auxerre with total capacity of 900 sqm; DataCenterMap also lists VirtuaCenter in Auxerre.",
+  "world_batch": true
+}

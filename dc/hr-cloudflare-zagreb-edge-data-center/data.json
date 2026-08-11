@@ -1,0 +1,20 @@
+{
+  "slug": "hr-cloudflare-zagreb-edge-data-center",
+  "canonical_project": "Cloudflare Zagreb Edge Data Center",
+  "owner": "Cloudflare",
+  "location": {
+    "city": "",
+    "subnational": "Zagreb City",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2017-08-23",
+  "evidence_grade": "A",
+  "sources": [
+    "https://blog.cloudflare.com/dobar-dan-hrvatska-announcing-cloudflares-zagreb-data-center/"
+  ],
+  "notes": "Cloudflare announced a Zagreb edge data center/PoP; listed as operational CDN/network infrastructure rather than wholesale colocation.",
+  "world_batch": true
+}

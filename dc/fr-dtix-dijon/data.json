@@ -1,0 +1,21 @@
+{
+  "slug": "fr-dtix-dijon",
+  "canonical_project": "DTiX Dijon",
+  "owner": "DTiX",
+  "location": {
+    "city": "",
+    "subnational": "Côte-d'Or",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.dtix.fr/",
+    "https://www.apl-datacenter.com/en/apl-is-building-a-colocation-data-center-for-dtix-in-burgundy-franche-comte/"
+  ],
+  "notes": "Operator site lists the Dijon colocation datacenter at 24 rue de la Redoute, 21850 Saint-Apollinaire, with 120 racks across 3 rooms and 450 m2 IT area; APL announced its turnkey build for DTiX near Dijon.",
+  "world_batch": true
+}

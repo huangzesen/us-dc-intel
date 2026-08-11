@@ -1,0 +1,21 @@
+{
+  "slug": "lt-baltneta-vilnius-data-centers",
+  "canonical_project": "Baltneta Vilnius data centers",
+  "owner": "Baltneta",
+  "location": {
+    "city": "",
+    "subnational": "Vilnius County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.balt.net/colocation",
+    "https://datacenterplatform.com/data-centers/baltneta/baltneta-lithuania/"
+  ],
+  "notes": "Baltneta official colocation page describes a Tier 3 dedicated data-centre building with 96 cabinets; aggregator lists three Baltneta Vilnius facilities, including Paneriu and Liepkalnio addresses.",
+  "world_batch": true
+}

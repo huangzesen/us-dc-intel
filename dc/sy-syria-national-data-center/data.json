@@ -1,0 +1,21 @@
+{
+  "slug": "sy-syria-national-data-center",
+  "canonical_project": "Syria National Data Center",
+  "owner": "Ministry of Communications and Information Technology",
+  "location": {
+    "city": "",
+    "subnational": "Damascus",
+    "country": "Syrian Arab Republic",
+    "country_code": "SY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-04-10",
+  "evidence_grade": "A",
+  "sources": [
+    "https://sana.sy/en/syria/2309482/",
+    "https://ramico.org/en/article/syria-data-centre-buildout-behind-the-racks"
+  ],
+  "notes": "SANA reported completion of the National Data Center and expansion of government cloud services. Ramico later said it commissioned a central power-continuity unit at the National Data Center. Exact site location was not disclosed; assigned to Damascus because SANA dateline and ministry/government functions are in the capital.",
+  "world_batch": true
+}

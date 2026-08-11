@@ -1,0 +1,22 @@
+{
+  "slug": "de-systemec-dc-nettetal",
+  "canonical_project": "Systemec DC Nettetal",
+  "owner": "Systemec B.V. / Systemec GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Viersen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.systemec.de/de/systemec/referenz/glasfaserausbau_bruggen_und_nettetal",
+    "https://www.systemec.nl/nl/home/voorzieningen-dc-nettetal",
+    "https://www.datacentermap.com/germany/nettetal/systemec-nettetal/"
+  ],
+  "notes": "Systemec describes a high-performance data center in Nettetal-West, linked with its Venlo data centers as cross-border infrastructure on separate power grids. Data Center Map lists the facility at An der Kleinbahn, 41334 Nettetal.",
+  "world_batch": true
+}

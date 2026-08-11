@@ -1,0 +1,21 @@
+{
+  "slug": "in-ntt-noida-1",
+  "canonical_project": "NTT Noida 1",
+  "owner": "NTT DATA / NTT Global Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Uttar Pradesh - Gautam Buddha Nagar",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/india/noida/",
+    "https://baxtel.com/data-center/ntt-noida-1"
+  ],
+  "notes": "NTT's original Noida data center at H223, Sector 63, Noida is operational (carrier-neutral colocation); capacity not published in accessible listings.",
+  "world_batch": true
+}

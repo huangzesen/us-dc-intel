@@ -1,0 +1,21 @@
+{
+  "slug": "kr-lg-cns-gasan-digital-center",
+  "canonical_project": "LG CNS Gasan Digital Center",
+  "owner": "LG CNS",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Geumcheon-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.lgcns.com/us/service/modern-it-infra-on-cloud/data-center.html",
+    "https://www.datacentermap.com/south-korea/seoul/lg-gasan-digital-center/"
+  ],
+  "notes": "LG CNS official page identifies Gasan IT Center as one of its strategic data-center locations; Data Center Map places LG CNS Gasan Digital Center at 189 Gasan digital 1-ro, Geumcheon-gu and lists 20 MW.",
+  "world_batch": true
+}

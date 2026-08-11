@@ -1,0 +1,21 @@
+{
+  "slug": "cn-tencent-tianjin-high-tech-cloud-data-center",
+  "canonical_project": "Tencent Tianjin High-Tech Cloud Data Center",
+  "owner": "Tencent",
+  "location": {
+    "city": "",
+    "subnational": "Tianjin - Tianjin Municipality",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-01-19",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tj.chinadaily.com.cn/a/202208/28/WS630b0a13a3101c3ee7ae5f69.html",
+    "https://www.tencent.com/zh-cn/running-on-sunshine-how-tencent-is-powering-data-centers-sustainably/"
+  ],
+  "notes": "Tencent's north China hyperscale data center in Tianjin High-Tech Zone/Bolong Lake Science Park was officially enabled in 2022; reported total investment is 10bn yuan, 15,000 racks and 300,000-server capacity. Tencent later announced a 10.54MW distributed solar microgrid at the data center, but IT load MW was not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "ua-ip-connect-dc-16-vinnytsia",
+  "canonical_project": "IP-Connect DC-16 Vinnytsia",
+  "owner": "IP-Connect",
+  "location": {
+    "city": "",
+    "subnational": "Vinnytsia",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/ukraine/vinnytsia/ip-connect/dc-16/",
+    "https://www.datacentermap.com/ukraine/vinnytsia/"
+  ],
+  "notes": "DatacenterMap lists IP-Connect DC-16 in Vinnytsia. No public MW capacity found.",
+  "world_batch": true
+}

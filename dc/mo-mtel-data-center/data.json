@@ -1,0 +1,20 @@
+{
+  "slug": "mo-mtel-data-center",
+  "canonical_project": "MTel Data Center",
+  "owner": "MTel Telecommunication Company Limited",
+  "location": {
+    "city": "",
+    "subnational": "Macao",
+    "country": "Macao",
+    "country_code": "MO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mtel.mo/en/cloud"
+  ],
+  "notes": "Operator cloud-services page states MTel Data Center provides cloud services, an international-standard operating environment, professional management/monitoring, and Macau local POP service for virtual-server offerings. No public MW capacity found.",
+  "world_batch": true
+}

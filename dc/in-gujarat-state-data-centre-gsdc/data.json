@@ -1,0 +1,21 @@
+{
+  "slug": "in-gujarat-state-data-centre-gsdc",
+  "canonical_project": "Gujarat State Data Centre (GSDC)",
+  "owner": "Government of Gujarat",
+  "location": {
+    "city": "",
+    "subnational": "Gujarat - Gandhinagar",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-03-30",
+  "evidence_grade": "B",
+  "sources": [
+    "https://egov.eletsonline.com/2009/01/enhancing-sustainability-of-cscs-raj-kumar-government-of-gujarat-2/",
+    "https://www.newkerala.com/news/a/gujarat-logs-over-56-crore-aadhaar-authentications-as-933.htm"
+  ],
+  "notes": "State government e-governance data centre at Gandhinagar; operational since Oct 2008; hosts 750+ state websites/applications and handles large Aadhaar authentication volumes; MW capacity not published.",
+  "world_batch": true
+}

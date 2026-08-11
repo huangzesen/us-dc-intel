@@ -1,0 +1,21 @@
+{
+  "slug": "ke-icolo-nairobi-one-nbo1",
+  "canonical_project": "iColo Nairobi One (NBO1)",
+  "owner": "iColo / Digital Realty",
+  "location": {
+    "city": "",
+    "subnational": "Nairobi City",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": 0.825,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.icolo.io/location/nbo1/",
+    "https://www.datacenterdynamics.com/en/news/icoloio-starts-construction-nairobi-facility/"
+  ],
+  "notes": "Official iColo page says NBO1 launched in September 2019 in Karen with 280 racks and 624 sqm customer space. DCD's 2019 construction report stated the facility would support up to 825 kW IT load.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "gb-aws-burderop-hospital-brimble-hill-data-centre",
+  "canonical_project": "AWS Burderop Hospital / Brimble Hill data centre",
+  "owner": "Amazon Data Services / AWS",
+  "location": {
+    "city": "",
+    "subnational": "England - Borough of Swindon",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 27,
+  "status": "approved",
+  "evidence_date": "2021-08-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/swindon-approves-amazon-data-center-on-burderop-hospital-site/",
+    "https://datacentremagazine.com/data-centres/aws-building-27-mw-data-centre-campus-swindon"
+  ],
+  "notes": "Swindon Borough Council approved a four-hall data centre on the former HP Burderop Hospital site; DCD reported planning documents identified Amazon Data Services/AWS and 27MW capacity.",
+  "world_batch": true
+}

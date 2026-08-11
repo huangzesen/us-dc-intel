@@ -1,0 +1,22 @@
+{
+  "slug": "be-datacenter-united-antwerp-dc",
+  "canonical_project": "Datacenter United Antwerp DC",
+  "owner": "Datacenter United",
+  "location": {
+    "city": "",
+    "subnational": "Flanders",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenterunited.com/en/our-datacenters/",
+    "https://uptimeinstitute.com/clients/datacenter-united",
+    "https://www.ocolo.io/colocation/datacenter-united/antwerp-dc/"
+  ],
+  "notes": "Datacenter United lists Antwerp among its Belgian data center locations; Uptime client story references the Antwerp Datacenter Tier IV design certification project.",
+  "world_batch": true
+}

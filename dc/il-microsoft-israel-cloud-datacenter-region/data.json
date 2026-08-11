@@ -1,0 +1,20 @@
+{
+  "slug": "il-microsoft-israel-cloud-datacenter-region",
+  "canonical_project": "Microsoft Israel cloud datacenter region",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Tel Aviv",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-01-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/source/emea/features/microsoft-to-launch-new-cloud-datacenter-region-in-israel/"
+  ],
+  "notes": "Microsoft announced its first cloud region in Israel, anticipated for Azure availability starting in 2021; exact datacenter sites/capacity are not public, so mapped to Tel Aviv market only at region level.",
+  "world_batch": true
+}

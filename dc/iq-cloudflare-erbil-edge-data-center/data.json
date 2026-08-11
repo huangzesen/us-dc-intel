@@ -1,0 +1,21 @@
+{
+  "slug": "iq-cloudflare-erbil-edge-data-center",
+  "canonical_project": "Cloudflare Erbil edge data center",
+  "owner": "Cloudflare",
+  "location": {
+    "city": "",
+    "subnational": "Kurdistan",
+    "country": "Iraq",
+    "country_code": "IQ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-03-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://blog.cloudflare.com/mid-2022-new-cities/",
+    "https://www.cloudflare.com/network/"
+  ],
+  "notes": "Cloudflare announced Erbil among 18 new global network cities in March 2022 and current official network page lists Erbil, IQ. Capacity not disclosed.",
+  "world_batch": true
+}

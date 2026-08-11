@@ -1,0 +1,22 @@
+{
+  "slug": "au-globaledge-data-centre-limited-balcatta-data-centre",
+  "canonical_project": "GlobalEdge/Data Centre Limited Balcatta data centre",
+  "owner": "Data Centre Limited / GlobalEdge",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Stirling",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/australia/perth/globaledge-balcatta/",
+    "https://www.peeringdb.com/fac/370",
+    "https://www.globaledge.com.au/data-centre"
+  ],
+  "notes": "Aggregate facility listings and PeeringDB identify a carrier-neutral data centre at 247 Balcatta Road, Balcatta, within City of Stirling. Primary/current operator detail is limited, so capacity and current operating details are unverified.",
+  "world_batch": true
+}

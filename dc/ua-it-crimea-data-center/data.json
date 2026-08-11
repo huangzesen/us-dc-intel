@@ -1,0 +1,21 @@
+{
+  "slug": "ua-it-crimea-data-center",
+  "canonical_project": "IT-Crimea Data Center",
+  "owner": "IT-Crimea",
+  "location": {
+    "city": "",
+    "subnational": "Crimea",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://it-crimea.com/services/data-center/",
+    "https://www.datacentermap.com/russia/simferopol/it-crimea/"
+  ],
+  "notes": "Local provider and directory references indicate a Simferopol/Crimea data center or hosting facility. Capacity not disclosed.",
+  "world_batch": true
+}

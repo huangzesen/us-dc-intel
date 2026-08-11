@@ -1,0 +1,21 @@
+{
+  "slug": "bg-plovdiv-teleport-center",
+  "canonical_project": "Plovdiv Teleport Center",
+  "owner": "Neterra / NetIX ecosystem",
+  "location": {
+    "city": "",
+    "subnational": "Plovdiv",
+    "country": "Bulgaria",
+    "country_code": "BG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/bulgaria/plovdiv/plovdiv/plovdiv-teleport-center/",
+    "https://www.netix.net/netix-global-network"
+  ],
+  "notes": "DataCenterMap lists Plovdiv Teleport Center as a facility; NetIX/Neterra network materials reference Bulgarian connectivity/PoPs, but public details are limited.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "gb-cwcs-nottingham-data-centre",
+  "canonical_project": "CWCS Nottingham Data Centre",
+  "owner": "CWCS Managed Hosting",
+  "location": {
+    "city": "",
+    "subnational": "England - Nottingham",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-03-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.cwcs.co.uk/latest-news/cwcs-managed-hosting-announces-major-expansion-with-new-uk-data-centre-planned-for-2024/",
+    "https://www.datacenterdynamics.com/en/news/uk-hosting-firm-cwcs-to-convert-nottingham-office-into-data-center/"
+  ],
+  "notes": "CWCS acquired a 9,300 sq ft Nottingham property for a new data centre expected online in 2024; public sources did not state MW.",
+  "world_batch": true
+}

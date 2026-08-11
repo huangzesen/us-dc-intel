@@ -1,0 +1,22 @@
+{
+  "slug": "cz-host-telecom-data-center",
+  "canonical_project": "Host-Telecom Data Center",
+  "owner": "Host-telecom.com",
+  "location": {
+    "city": "",
+    "subnational": "South Bohemia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.host-telecom.com/",
+    "https://www.host-telecom.com/contacts/",
+    "https://www.datacentermap.com/czech-republic/ceske-budejovice/host-telecom-data-center/"
+  ],
+  "notes": "Host-Telecom official site and contacts list the data center at Pod Rafandou 906, Veseli nad Luznici; DataCenterMap describes the facility as Tier III-designed with redundant power sources and advanced cooling.",
+  "world_batch": true
+}

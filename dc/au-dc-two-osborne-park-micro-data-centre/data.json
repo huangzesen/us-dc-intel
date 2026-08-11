@@ -1,0 +1,22 @@
+{
+  "slug": "au-dc-two-osborne-park-micro-data-centre",
+  "canonical_project": "DC Two Osborne Park micro data centre",
+  "owner": "DC Two",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Stirling",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 0.2,
+  "status": "operational",
+  "evidence_date": "2020-10-23",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dctwo.com.au/our-services/data-centre/",
+    "https://www.datacenterdynamics.com/en/news/australian-operator-dc-two-to-go-public-through-reverse-takeover/",
+    "https://www.crn.com.au/news/dc-two-launches-nsw-data-centre-in-wagga-wagga-557726"
+  ],
+  "notes": "DC Two describes a network of regional and edge data centres. Trade coverage around the public listing identified DC Two's Osborne Park site in Perth as a 200kW micro data centre.",
+  "world_batch": true
+}

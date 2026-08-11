@@ -1,0 +1,22 @@
+{
+  "slug": "fr-omega-1",
+  "canonical_project": "Omega 1",
+  "owner": "Omega Data Centers / Océinde / THD Group",
+  "location": {
+    "city": "",
+    "subnational": "La Réunion",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.omegaone.re/",
+    "https://www.datacenterdynamics.com/en/news/oc%C3%A9inde-breaks-ground-on-new-reunion-island-data-center/",
+    "https://www.afd.fr/fr/projets/la-reunion-omega-data-centers-implante-le-premier-data-center-de-lile"
+  ],
+  "notes": "Official Omega site describes an ISO 27001/HDS, Tier-3-equivalent data center in La Réunion; DCD reported the Le Port project as a 1 MW, 120-rack facility, and AFD financed the island's first data center.",
+  "world_batch": true
+}

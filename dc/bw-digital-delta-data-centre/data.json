@@ -1,0 +1,21 @@
+{
+  "slug": "bw-digital-delta-data-centre",
+  "canonical_project": "Digital Delta Data Centre",
+  "owner": "Botswana Fibre Networks (BoFiNet)",
+  "location": {
+    "city": "",
+    "subnational": "South East",
+    "country": "Botswana",
+    "country_code": "BW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-12-03",
+  "evidence_grade": "A",
+  "sources": [
+    "https://digitaldelta.bofinet.co.bw/",
+    "https://www.datacenterdynamics.com/en/news/botswana-launches-first-national-data-center/"
+  ],
+  "notes": "BoFiNet's Digital Delta facility in Gaborone is a national, Tier III-design carrier-neutral data centre with about 1,000 square metres and 400 racks; DCD reported the launch in December 2025.",
+  "world_batch": true
+}

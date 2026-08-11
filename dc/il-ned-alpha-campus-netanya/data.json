@@ -1,0 +1,22 @@
+{
+  "slug": "il-ned-alpha-campus-netanya",
+  "canonical_project": "NED Alpha Campus, Netanya",
+  "owner": "NED Data Centers; Levinstein Group; Goldacre",
+  "location": {
+    "city": "",
+    "subnational": "HaMerkaz",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 42,
+  "status": "construction",
+  "evidence_date": "2025-04-22",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/israels-ned-dc-breaks-ground-on-data-center-in-tel-aviv/",
+    "https://en.globes.co.il/en/article-ned-levinstein-begin-construction-of-netanya-data-center-1001508989",
+    "https://www.ned-dc.com/projects/?ContentID=70652"
+  ],
+  "notes": "NED/Levinstein/Goldacre campus in Netanya is reported as a 35,000 sqm, 42MW AI-ready underground campus; official NED project page describes first phase as 16 of 60MVA.",
+  "world_batch": true
+}

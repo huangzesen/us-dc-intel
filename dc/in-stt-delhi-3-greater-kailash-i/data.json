@@ -1,0 +1,21 @@
+{
+  "slug": "in-stt-delhi-3-greater-kailash-i",
+  "canonical_project": "STT Delhi 3, Greater Kailash I",
+  "owner": "ST Telemedia Global Data Centres India",
+  "location": {
+    "city": "",
+    "subnational": "Delhi - South East",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 10.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sttelemediagdc.com/in-en/locations/delhi",
+    "https://tiaonline.org/942-datacenter/stt-global-data-centres-india-private-limited-4/"
+  ],
+  "notes": "STT's Delhi location page lists Delhi 3 in Greater Kailash with 10MW IT load; TIA listing identifies Delhi-DC3 at Broadband Tower/Nextgen Tower, Greater Kailash-1.",
+  "world_batch": true
+}

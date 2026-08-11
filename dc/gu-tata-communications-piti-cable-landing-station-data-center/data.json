@@ -1,0 +1,22 @@
+{
+  "slug": "gu-tata-communications-piti-cable-landing-station-data-center",
+  "canonical_project": "Tata Communications Piti Cable Landing Station / Data Center",
+  "owner": "Tata Communications",
+  "location": {
+    "city": "",
+    "subnational": "Guam",
+    "country": "Guam",
+    "country_code": "GU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.submarinenetworks.com/en/stations/north-america/usa-guam/piti",
+    "https://baxtel.com/data-center/tata-piti-cls",
+    "https://cloudscene.com/market/data-centers-in-united-states/guam-regional"
+  ],
+  "notes": "Submarine Networks identifies the Piti CLS on Guam's western shore as a Tata/VSNL cable landing station for TGN Pacific and related systems. Baxtel and Cloudscene classify Tata Piti CLS as a Guam data center/facility; public sources found do not disclose IT capacity.",
+  "world_batch": true
+}

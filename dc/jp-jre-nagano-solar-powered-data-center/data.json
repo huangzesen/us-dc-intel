@@ -1,0 +1,20 @@
+{
+  "slug": "jp-jre-nagano-solar-powered-data-center",
+  "canonical_project": "JRE Nagano solar-powered data center",
+  "owner": "Japan Renewable Energy Corporation / Morgenrot",
+  "location": {
+    "city": "",
+    "subnational": "Nagano",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-05-09",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/jres-100-onsite-solar-powered-data-center-in-japan-achieves-stable-operations/"
+  ],
+  "notes": "DCD reports JRE's 100% onsite solar-powered data center in Nagano Prefecture launched operations in December 2022 and hosts Morgenrot GPU cloud service. MW not disclosed.",
+  "world_batch": true
+}

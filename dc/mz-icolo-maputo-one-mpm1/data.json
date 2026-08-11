@@ -1,0 +1,22 @@
+{
+  "slug": "mz-icolo-maputo-one-mpm1",
+  "canonical_project": "iColo Maputo One MPM1",
+  "owner": "iColo / Digital Realty",
+  "location": {
+    "city": "",
+    "subnational": "Maputo",
+    "country": "Mozambique",
+    "country_code": "MZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.icolo.io/location/mpm1/",
+    "https://www.digitalrealty.com/data-centers/emea/maputo",
+    "https://clubofmozambique.com/news/mozambique-icolo-announces-opening-of-mpm1-data-centre-in-maputo/"
+  ],
+  "notes": "Operational carrier-neutral colocation facility in Maputo; iColo official page lists 80-rack capacity, 9,500 sqm campus, 350 sqm IT space, and network connectivity; Digital Realty official page lists Maputo colocation services. Club of Mozambique reported opening on 2023-02-13.",
+  "world_batch": true
+}

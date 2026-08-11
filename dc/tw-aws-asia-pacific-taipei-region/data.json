@@ -1,0 +1,22 @@
+{
+  "slug": "tw-aws-asia-pacific-taipei-region",
+  "canonical_project": "AWS Asia Pacific (Taipei) Region",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Taipei",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-06-06",
+  "evidence_grade": "A",
+  "sources": [
+    "https://press.aboutamazon.com/2025/6/amazon-launches-infrastructure-region-in-taiwan",
+    "https://aws.amazon.com/blogs/aws/in-the-works-aws-region-in-taiwan/",
+    "https://arcmediaglobal.com/aws-opens-asia-pacific-taipei-region/"
+  ],
+  "notes": "AWS launched its Asia Pacific (Taipei) Region (ap-east-2) on June 6, 2025 with three Availability Zones, backed by a US$5 billion investment commitment in Taiwan; AWS announced the region as 'in the works' in 2024. Physical data center site locations are not publicly disclosed; the region is named for Taipei, so it is attributed to Taipei division with that caveat.",
+  "world_batch": true
+}

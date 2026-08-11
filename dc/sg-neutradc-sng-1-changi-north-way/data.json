@@ -1,0 +1,21 @@
+{
+  "slug": "sg-neutradc-sng-1-changi-north-way",
+  "canonical_project": "NeutraDC SNG-1 Changi North Way",
+  "owner": "NeutraDC / Telin Singapore",
+  "location": {
+    "city": "",
+    "subnational": "South East",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.neutradc.com/data-center/singapore",
+    "https://www.datacenterdynamics.com/en/news/telkom-indonesias-telin-moves-singapore-data-centers-under-neutradc/"
+  ],
+  "notes": "NeutraDC official page references SNG-1 at Changi North Way as part of east-west redundancy with SNG-3; DCD reports Telin/NeutraDC site at 30 Changi North Way established in 2009.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "gb-ibm-data-centre-north-harbour",
+  "canonical_project": "IBM Data Centre, North Harbour",
+  "owner": "IBM; Foreman Roberts upgrade project",
+  "location": {
+    "city": "",
+    "subnational": "England - Portsmouth",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://foremanroberts.com/project/ibm-data-centre-north-harbour/"
+  ],
+  "notes": "Foreman Roberts describes an upgrade of existing infrastructure within IBM's fully operational 100,000 sq ft North Harbour, Portsmouth data centre; MW not public.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "au-nexion-w1-data-centre",
+  "canonical_project": "Nexion W1 data centre",
+  "owner": "Nexion Networks / Carrier Connect Systems",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Belmont",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2025-02-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/vancouvers-carrier-connect-acquires-data-center-in-perth-australia/",
+    "https://gowith.vocus.com.au/rs/587-CSJ-470/images/WA-data-centres.html",
+    "https://www.datacentermap.com/australia/perth/nexion-w1/"
+  ],
+  "notes": "Belmont facility at 37-39 Robinson Avenue; DCD reports Nexion operated a 2MW, 8,000 sq ft data centre there and agreed sale to Carrier Connect. Vocus connected-WA-data-centres list also places Nexion W1 Networks at the Belmont address.",
+  "world_batch": true
+}

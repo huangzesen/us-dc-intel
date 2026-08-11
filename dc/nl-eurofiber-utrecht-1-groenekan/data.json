@@ -1,0 +1,21 @@
+{
+  "slug": "nl-eurofiber-utrecht-1-groenekan",
+  "canonical_project": "Eurofiber Utrecht 1, Groenekan",
+  "owner": "Eurofiber Cloud Infra",
+  "location": {
+    "city": "",
+    "subnational": "Utrecht",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.eurofiber.com/en-nl/data-centers-netherlands/data-center-utrecht-1",
+    "https://www.eurofiber.com/en-nl/services/our-data-centers"
+  ],
+  "notes": "Official Eurofiber page identifies Data Center Utrecht 1 at Koningin Wilhelminaweg 471, Groenekan; Eurofiber states it operates Tier 3 designed data centers in regions including Utrecht. Capacity not disclosed.",
+  "world_batch": true
+}

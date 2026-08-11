@@ -1,0 +1,22 @@
+{
+  "slug": "re-omega-1",
+  "canonical_project": "Omega 1",
+  "owner": "Omega Data Centers / Océinde / THD Group",
+  "location": {
+    "city": "",
+    "subnational": "Reunion",
+    "country": "Reunion",
+    "country_code": "RE"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2024-11-19",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/oceinde-launches-omega-1-data-center-on-reunion-island/",
+    "https://www.afd.fr/fr/projets/la-reunion-omega-data-centers-implante-le-premier-data-center-de-lile",
+    "https://www.datacentermap.com/reunion/le-port/oceinde-omega-1/"
+  ],
+  "notes": "Carrier-neutral Tier III-oriented data center in Le Port. DCD reported inauguration/live status, 1 MW, 120 racks, EUR10m investment; AFD primary financing page identifies SAS Omega Data Centers as beneficiary for construction/exploitation of a 95-bay data center on a 4,000 m2 site at the entrance to Le Port, connected near METISS subsea cable.",
+  "world_batch": true
+}

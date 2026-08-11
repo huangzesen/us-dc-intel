@@ -1,0 +1,20 @@
+{
+  "slug": "fr-datacampus-cassin1-futuroscope",
+  "canonical_project": "Datacampus Cassin1 Futuroscope",
+  "owner": "Datacampus",
+  "location": {
+    "city": "",
+    "subnational": "Vienne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacampus.fr/datacenter"
+  ],
+  "notes": "Datacampus official page identifies Cassin1 as its main Futuroscope data center, built/commissioned in 2008 and operated 24/7.",
+  "world_batch": true
+}

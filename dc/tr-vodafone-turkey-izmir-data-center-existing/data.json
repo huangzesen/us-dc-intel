@@ -1,0 +1,21 @@
+{
+  "slug": "tr-vodafone-turkey-izmir-data-center-existing",
+  "canonical_project": "Vodafone Turkey Izmir Data Center (existing)",
+  "owner": "Vodafone Turkey",
+  "location": {
+    "city": "",
+    "subnational": "Izmir",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/edgnex-izmir",
+    "https://www.datacentermap.com/turkey/izmir/"
+  ],
+  "notes": "Vodafone Turkey already operated a data center in Izmir (per Baxtel's note that the Edgnex JV facility is Vodafone's second in Izmir and sixth in Turkey). Data Center Map lists 10 data center facilities from 6 operators in Izmir, confirming an active colocation market. Capacity not published.",
+  "world_batch": true
+}

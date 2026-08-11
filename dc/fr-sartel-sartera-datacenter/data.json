@@ -1,0 +1,20 @@
+{
+  "slug": "fr-sartel-sartera-datacenter",
+  "canonical_project": "Sartel Sartera datacenter",
+  "owner": "Sartel / Axione",
+  "location": {
+    "city": "",
+    "subnational": "Sarthe",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 0.39,
+  "status": "operational",
+  "evidence_date": "2018-07-17",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/axione-owned-sartel-delivers-first-local-government-data-center-in-sarthe-france/"
+  ],
+  "notes": "Local-government datacenter in Sarthe; reported as a 394 kW facility.",
+  "world_batch": true
+}

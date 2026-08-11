@@ -1,0 +1,22 @@
+{
+  "slug": "de-r-kom-datacenter-ostbayern-2-regensburg",
+  "canonical_project": "R-KOM Datacenter Ostbayern 2, Regensburg",
+  "owner": "R-KOM GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Regensburg (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.r-kom.de/datacenter-ostbayern",
+    "https://www.peeringdb.com/fac/12566",
+    "https://www.datacenters.com/r-kom-r-kom-ostbayern-2"
+  ],
+  "notes": "R-KOM official page describes three redundant data-center locations in the Regensburg area; facility directories identify Ostbayern 2 at Straubinger Straße 48, 93055 Regensburg.",
+  "world_batch": true
+}

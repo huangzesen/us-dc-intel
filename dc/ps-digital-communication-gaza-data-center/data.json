@@ -1,0 +1,20 @@
+{
+  "slug": "ps-digital-communication-gaza-data-center",
+  "canonical_project": "Digital Communication Gaza data center",
+  "owner": "Digital Communication / local ISP colocation market",
+  "location": {
+    "city": "",
+    "subnational": "Gaza",
+    "country": "Palestine, State of",
+    "country_code": "PS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/datacenters/emea/palestine/gaza-city"
+  ],
+  "notes": "Aggregate datacenter directory lists an operational Gaza City facility; no reliable MW, Tier, or commissioning details found.",
+  "world_batch": true
+}

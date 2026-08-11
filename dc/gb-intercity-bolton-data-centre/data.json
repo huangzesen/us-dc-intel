@@ -1,0 +1,21 @@
+{
+  "slug": "gb-intercity-bolton-data-centre",
+  "canonical_project": "Intercity Bolton data centre",
+  "owner": "Intercity Technology",
+  "location": {
+    "city": "",
+    "subnational": "England - Borough of Bolton",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.intercity.technology/solutions/network-infrastructure/colocation/",
+    "https://www.datacentermap.com/united-kingdom/bolton/"
+  ],
+  "notes": "Intercity states its Tier 3 data centres are strategically located in Birmingham and Bolton; DataCenterMap lists Intercity Bolton at Hallmark House, Paragon Business Park, BL6 6HG.",
+  "world_batch": true
+}

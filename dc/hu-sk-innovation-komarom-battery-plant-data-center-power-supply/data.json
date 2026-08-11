@@ -1,0 +1,20 @@
+{
+  "slug": "hu-sk-innovation-komarom-battery-plant-data-center-power-supply",
+  "canonical_project": "SK Innovation Komarom battery-plant data-center power supply",
+  "owner": "SK Innovation / Balmex Kft.",
+  "location": {
+    "city": "",
+    "subnational": "Komarom-Esztergom",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://balmex.hu/referenciak/sk-innovation-adatkozpont-aramellatas-komarom/"
+  ],
+  "notes": "Balmex reference page is specifically titled SK Innovation data-center power supply in Komarom and describes UPS/power-supply work for the site's data-center infrastructure. This appears to be an enterprise/campus data-center project rather than a public colocation facility; capacity not disclosed.",
+  "world_batch": true
+}

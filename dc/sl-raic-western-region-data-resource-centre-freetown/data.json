@@ -1,0 +1,21 @@
+{
+  "slug": "sl-raic-western-region-data-resource-centre-freetown",
+  "canonical_project": "RAIC Western Region Data Resource Centre, Freetown",
+  "owner": "Right to Access Information Commission (RAIC) Sierra Leone",
+  "location": {
+    "city": "",
+    "subnational": "Western Area",
+    "country": "Sierra Leone",
+    "country_code": "SL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-12-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://raic.gov.sl/images/raic-newsletter-vol-1-No-2-02.pdf",
+    "https://raic.gov.sl/index.php/all-categories-list/news/raic-boss-speaks-on-progress-in-digital-access-to-information-at-un-high-level-political-forum"
+  ],
+  "notes": "RAIC Western Region unveiled a public data resource center at 46 Kroo Town Road, Freetown on 2019-12-12; later RAIC reporting describes Sierra Leone's open data centre/open data portal as a government-information hub. Not a commercial colocation or hyperscale data center.",
+  "world_batch": true
+}

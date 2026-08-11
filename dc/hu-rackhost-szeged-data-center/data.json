@@ -1,0 +1,21 @@
+{
+  "slug": "hu-rackhost-szeged-data-center",
+  "canonical_project": "Rackhost Szeged Data Center",
+  "owner": "Rackhost Zrt",
+  "location": {
+    "city": "",
+    "subnational": "Szeged",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/hungary/szeged/rackhost/",
+    "https://www.rackhost.hu/"
+  ],
+  "notes": "DataCenterMap lists Rackhost's Szeged facility; Rackhost's company site corroborates the Hungarian hosting provider. No public MW figure found.",
+  "world_batch": true
+}

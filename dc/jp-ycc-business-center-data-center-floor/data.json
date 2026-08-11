@@ -1,0 +1,22 @@
+{
+  "slug": "jp-ycc-business-center-data-center-floor",
+  "canonical_project": "YCC Business Center data center floor",
+  "owner": "YCC Computer & Software Co., Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Yamanashi",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ycc.co.jp/company/base.html",
+    "https://www.ycc.co.jp/service/datacenter.html",
+    "https://yamanashi-dx.jp/search/dc"
+  ],
+  "notes": "YCC official site says its Kofu headquarters/YCC Business Center, opened in March 2017, includes a dedicated data center floor; YCC also markets data center services using its secure facility and operational experience.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "rs-netcast-data-center",
+  "canonical_project": "NetCast Data Center",
+  "owner": "NetCast",
+  "location": {
+    "city": "",
+    "subnational": "Belgrade",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://netcast.rs/data-centar/",
+    "https://datacentercatalog.com/serbia/netcast-data-center"
+  ],
+  "notes": "NetCast states it operates its own modern certified data center in central Belgrade for server housing and telecom equipment; Data Center Catalog lists the facility at Milentija Popovica 9 with two connected data centers built in 2013.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "mo-ctm-taipa-macao-telecommunications-data-center",
+  "canonical_project": "CTM Taipa / Macao Telecommunications Data Center",
+  "owner": "Macau Telecommunications Company Limited (CTM)",
+  "location": {
+    "city": "",
+    "subnational": "Macao",
+    "country": "Macao",
+    "country_code": "MO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-09-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://telecommunications.ctt.gov.mo/en/Contents/datacenter-o.aspx",
+    "https://macaomagazine.net/macau-macao-smart-city/",
+    "https://www.datacentermap.com/macau/taipa/ctm-data-center/"
+  ],
+  "notes": "Macao telecom regulator lists CTM authorization no. 1/2024 to install and operate data centers renewed from 2025-10-01 to 2027-09-30; Macao Magazine reports CTM already has its own data centre in Taipa and a Hong Kong backup. No public MW capacity found.",
+  "world_batch": true
+}

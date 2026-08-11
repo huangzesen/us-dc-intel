@@ -1,0 +1,21 @@
+{
+  "slug": "de-cloudhq-fra-campus-offenbach",
+  "canonical_project": "CloudHQ FRA Campus Offenbach",
+  "owner": "CloudHQ",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Offenbach am Main",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 112,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloudhq.com/campus/fra-campus-offenbach/",
+    "https://www.offenbach.de/buerger_innen/bauen-wohnen/stadtentwicklung/staedtebauliche_projekte/meldungen/cloudhg-rechenzentrum-12.05.2021.php?loc=en"
+  ],
+  "notes": "Official CloudHQ campus page says the Offenbach campus has two 56 MW critical IT-load buildings, fully permitted and powered by an on-site 110 kV substation; city page described both buildings at about 112 MW IT load and 172 MW connected load.",
+  "world_batch": true
+}

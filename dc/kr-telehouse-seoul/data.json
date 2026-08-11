@@ -1,0 +1,22 @@
+{
+  "slug": "kr-telehouse-seoul",
+  "canonical_project": "TELEHOUSE Seoul",
+  "owner": "KDDI Corporation / TELEHOUSE",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Jung-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telehouse.com/wp-content/uploads/2017/03/TELEHOUSE_Korea_Seoul.pdf",
+    "https://www.datacentermap.com/south-korea/seoul/telehouse-seoul/specs/",
+    "https://colomap.com/facilities/telehouse-seoul/"
+  ],
+  "notes": "TELEHOUSE's facility sheet places the carrier-neutral Telehouse Seoul data center on the 8th floor of Seoul Finance Center, Taepyeongno 1-ga, Jung-gu; directories corroborate Seoul Financial Center / 136 Sejong-daero. Public MW capacity not found.",
+  "world_batch": true
+}

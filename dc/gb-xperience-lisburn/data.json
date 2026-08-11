@@ -1,0 +1,22 @@
+{
+  "slug": "gb-xperience-lisburn",
+  "canonical_project": "Xperience Lisburn",
+  "owner": "Xperience Group",
+  "location": {
+    "city": "",
+    "subnational": "Northern Ireland - Lisburn and Castlereagh",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/data-center/xperience-lisburn",
+    "https://baxtel.com/data-center/belfast",
+    "https://www.datacentermap.com/united-kingdom/belfast/bt-telephone-house/"
+  ],
+  "notes": "Operational facility at 11 Ferguson Drive, Knockmore Hill Industrial Park, Lisburn; directory describes it as a backup/disaster-recovery site rather than a multi-tenant commercial data centre. No public MW capacity found.",
+  "world_batch": true
+}

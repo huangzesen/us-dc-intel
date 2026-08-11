@@ -1,0 +1,21 @@
+{
+  "slug": "fr-dataone-grenoble-eybens-ai-hosting-campus",
+  "canonical_project": "DataOne Grenoble (Eybens) AI hosting campus",
+  "owner": "DataOne / BSO",
+  "location": {
+    "city": "",
+    "subnational": "Isère",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 15,
+  "status": "operational",
+  "evidence_date": "2024-11-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.bso.co/all-insights/bso-unveils-dataone-europes-first-giga-scale-ai-hosting-data-centre",
+    "https://www.datacentermap.com/france/grenoble/dataone-grenoble/"
+  ],
+  "notes": "BSO announced DataOne after acquiring existing Tier-3 campuses in Grenoble (Eybens) and Villefontaine with 15 MW combined initial IT load; third-party directory describes Grenoble as an AI data center with expansion ambitions up to 400 MW.",
+  "world_batch": true
+}

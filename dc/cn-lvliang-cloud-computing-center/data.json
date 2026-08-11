@@ -1,0 +1,20 @@
+{
+  "slug": "cn-lvliang-cloud-computing-center",
+  "canonical_project": "LvLiang Cloud Computing Center",
+  "owner": "Lvliang city (with NUDT/National University of Defense Technology)",
+  "location": {
+    "city": "",
+    "subnational": "Shanxi - Lueliang",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.top500.org/site/50546/"
+  ],
+  "notes": "TOP500 lists LvLiang Cloud Computing Center as site of the Tianhe-2 LvLiang system (NUDT, Intel Xeon E5-2692v2 + Xeon Phi, 174,720 cores, 2.07 PFlop/s Rmax), ranked in the TOP500 list continuously from Nov 2014; China Daily reported Lvliang fostering a big data industry around the center. Cloud/supercomputing facility operational since 2014. MW not disclosed.",
+  "world_batch": true
+}

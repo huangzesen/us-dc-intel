@@ -1,0 +1,21 @@
+{
+  "slug": "it-microsoft-italy-north-cloud-region-milan-area",
+  "canonical_project": "Microsoft Italy North cloud region, Milan area",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Lombardy",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-10-03",
+  "evidence_grade": "A",
+  "sources": [
+    "https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies/#geographies",
+    "https://www.datacenterdynamics.com/en/news/microsoft-launches-italy-north-cloud-region/"
+  ],
+  "notes": "Microsoft launched the Italy North Azure cloud region in the Milan area in October 2023.",
+  "world_batch": true
+}

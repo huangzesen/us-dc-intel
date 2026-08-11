@@ -1,0 +1,21 @@
+{
+  "slug": "id-aws-cgk-kutanegara",
+  "canonical_project": "AWS CGK Kutanegara",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "West Java",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/amazon-aws-aws-cgk-kutanegara",
+    "https://baxtel.com/data-center/amazon-kutanegara"
+  ],
+  "notes": "Registry listings identify an AWS CGK facility at Jalan Surya Utama, Kutanegara, Karawang, West Java; Baxtel lists year built 2021. AWS does not publicly disclose capacity.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "th-amazon-aws-bkk-ta-sit",
+  "canonical_project": "Amazon AWS BKK - Ta Sit",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Phatthaya",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://aws.amazon.com/local/thailand/",
+    "https://www.datacentermap.com/thailand/pattaya/amazon-aws-bkk-ta-sit/specs/"
+  ],
+  "notes": "AWS official Thailand page confirms the AWS Asia Pacific (Thailand) Region; DataCenterMap lists Amazon AWS BKK - Ta Sit in the Pattaya market at Eastern Seaboard Industrial Estate Rayong, Ta Sit, with year operational 2025. Exact facility location is outside Pattaya city and capacity is not disclosed by AWS.",
+  "world_batch": true
+}

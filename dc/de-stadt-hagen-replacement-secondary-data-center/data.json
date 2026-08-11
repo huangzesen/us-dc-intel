@@ -1,0 +1,20 @@
+{
+  "slug": "de-stadt-hagen-replacement-secondary-data-center",
+  "canonical_project": "Stadt Hagen replacement secondary data center",
+  "owner": "Stadt Hagen",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Hagen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2023-04-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.hagen.de/dateien/aus-dem-rathaus/fachbereiche-und-aemter/f-a-z/umweltamt-2/hochwasser-1/2023-04-04-wap-stadt-hagen-1-aenderungsantrag.pdf"
+  ],
+  "notes": "City flood-recovery application lists 'Ersatzneubau Zweit-Rechenzentrum' at Rathausstr. 1-11 after the city hall data center was destroyed by flooding; budget shown as EUR 7.65m. No MW public.",
+  "world_batch": true
+}

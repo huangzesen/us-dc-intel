@@ -1,0 +1,22 @@
+{
+  "slug": "fi-microsoft-southern-finland-datacenter-region-espoo-kirkkonummi-vihti",
+  "canonical_project": "Microsoft Southern Finland datacenter region - Espoo/Kirkkonummi/Vihti",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Uusimaa",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/europe/2022/03/17/microsoft-announces-intent-to-build-a-new-datacenter-region-in-finland-accelerating-sustainable-digital-transformation-and-enabling-large-scale-carbon-free-district-heating/",
+    "https://local.microsoft.com/communities/emea/suomidc/",
+    "https://www.fortum.com/services/heating-cooling/data-centres-helsinki-region"
+  ],
+  "notes": "Microsoft says it is building datacenters in southern Finland; 2022 announcement and Fortum materials identify Espoo, Kirkkonummi and Vihti, with Espoo/Kirkkonummi waste heat tied to district heating.",
+  "world_batch": true
+}

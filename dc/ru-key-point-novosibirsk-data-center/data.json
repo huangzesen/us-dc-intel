@@ -1,0 +1,21 @@
+{
+  "slug": "ru-key-point-novosibirsk-data-center",
+  "canonical_project": "Key Point Novosibirsk Data Center",
+  "owner": "Key Point; anchor tenant Beeline/VimpelCom",
+  "location": {
+    "city": "",
+    "subnational": "Novosibirsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 8,
+  "status": "construction",
+  "evidence_date": "2023-04-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/key-point-breaks-ground-on-data-center-in-novosibirsk-russia/",
+    "https://dcxdc.ru/en/sobyitiya-i-publikaczi.html"
+  ],
+  "notes": "DCD reports Key Point broke ground in Novosibirsk with Beeline/VimpelCom as anchor tenant; full build-out Tier III-quality facility planned at 8 MW and 880 racks.",
+  "world_batch": true
+}

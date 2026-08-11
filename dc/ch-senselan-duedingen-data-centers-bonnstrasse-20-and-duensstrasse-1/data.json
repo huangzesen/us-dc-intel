@@ -1,0 +1,22 @@
+{
+  "slug": "ch-senselan-duedingen-data-centers-bonnstrasse-20-and-duensstrasse-1",
+  "canonical_project": "senseLAN Duedingen data centers (Bonnstrasse 20 and Duensstrasse 1)",
+  "owner": "senseLAN GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Fribourg",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.senselan.ch/datacenter",
+    "https://www.senselan.ch/datacenter?lang=fr",
+    "https://inflect.com/datacenters/emea/switzerland/fribourg"
+  ],
+  "notes": "senseLAN's official data-center page markets Tier 3 rackspace in Fribourg near the A12 and states it operates two data centers in Duedingen: Bonnstrasse 20, opened in 2010 with 800 m2 and four times the first site's area, and Duensstrasse 1. Inflect separately lists senseLAN B20 and D01 in Fribourg. No public MW capacity was found.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "th-ec62-phuket-edge-centres",
+  "canonical_project": "EC62 Phuket (Edge Centres)",
+  "owner": "Edge Centres",
+  "location": {
+    "city": "",
+    "subnational": "Phuket",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/data-center/ec62-phuket",
+    "https://www.datacenterdynamics.com/en/news/edge-centres-begins-work-on-first-edge-facility-in-thailand/"
+  ],
+  "notes": "DCD reported on 2022-08-24 that Edge Centres would deploy EC61 Chiang Mai, EC62 Phuket and EC63 Khon Kaen, each with just under 1MW of solar infrastructure, 48-hour battery/UPS and 64 x 1kW quarter racks; Baxtel currently lists EC62 Phuket as operational (year built 2023) on Montri Rd, Phuket. IT/power capacity not officially disclosed, so capacity_mw is null.",
+  "world_batch": true
+}

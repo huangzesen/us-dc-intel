@@ -1,0 +1,20 @@
+{
+  "slug": "lv-delska-eu-north-riga-lv-dc2",
+  "canonical_project": "Delska EU North Riga LV DC2",
+  "owner": "Delska",
+  "location": {
+    "city": "",
+    "subnational": "Riga",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://delska.com/data-centers/"
+  ],
+  "notes": "Operator data-center portfolio lists Riga LV DC2 at Cuibes Street 17 with 2 MW power, 240 racks, up to 10 kW/rack and EN 50600-3 design.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "dk-apple-foulum-viborg-data-center",
+  "canonical_project": "Apple Foulum/Viborg Data Center",
+  "owner": "Apple",
+  "location": {
+    "city": "",
+    "subnational": "Central Denmark",
+    "country": "Denmark",
+    "country_code": "DK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.apple.com/ae/newsroom/2020/09/apple-expands-renewable-energy-footprint-in-europe/",
+    "https://www.datacenterindustrien.dk/apple-to-expand-viborg-data-center-and-utilize-excess-heat",
+    "https://www.datacenters.com/apple-inc-denmark-viborg"
+  ],
+  "notes": "Apple source states Esbjerg wind power supports Apple's data center in Viborg; DDI reported Apple planned to expand the Viborg data center and capture excess heat; datacenters.com states the facility opened in 2020.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "nz-tenpeaks-dunedin-data-centre",
+  "canonical_project": "TenPeaks Dunedin Data Centre",
+  "owner": "TenPeaks / Spark Business Group",
+  "location": {
+    "city": "",
+    "subnational": "Otago",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://tenpeaks.co.nz/our-data-centres/",
+    "https://www.datacentermap.com/new-zealand/dunedin/spark-dunedin/"
+  ],
+  "notes": "TenPeaks lists a Dunedin data centre in its New Zealand portfolio; Datacenter Map identifies the facility as Spark Dunedin. Capacity not disclosed in public sources checked.",
+  "world_batch": true
+}

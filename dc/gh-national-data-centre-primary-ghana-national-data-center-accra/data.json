@@ -1,0 +1,21 @@
+{
+  "slug": "gh-national-data-centre-primary-ghana-national-data-center-accra",
+  "canonical_project": "National Data Centre / Primary Ghana National Data Center Accra",
+  "owner": "National Information Technology Agency (NITA)",
+  "location": {
+    "city": "",
+    "subnational": "Greater Accra",
+    "country": "Ghana",
+    "country_code": "GH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2016-01-21",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/ghana-government-opens-data-center-to-private-business/",
+    "https://nca.org.gh/2017/05/17/nca-celebrates-the-wtisd-with-a-symposium-on-the-theme-big-data-big-impact/"
+  ],
+  "notes": "DCD reported Ghana opened a $300m three-hall NITA data center in Accra with 600 server racks; Ghana NCA later described a Tier-3 National Data Centre with 600-rack capacity.",
+  "world_batch": true
+}

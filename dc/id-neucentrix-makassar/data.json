@@ -1,0 +1,21 @@
+{
+  "slug": "id-neucentrix-makassar",
+  "canonical_project": "neuCentrIX Makassar",
+  "owner": "Telkom Indonesia / neuCentrIX",
+  "location": {
+    "city": "",
+    "subnational": "South Sulawesi",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://neucentrix.telkom.co.id/en/location",
+    "https://www.datacentermap.com/indonesia/makassar/"
+  ],
+  "notes": "neuCentrIX's official locations page lists Makassar among its Indonesian data center locations; DataCenterMap places neuCentrIX Makassar at Jl. Pajonga Dg. Ngalle No.4, Makassar.",
+  "world_batch": true
+}

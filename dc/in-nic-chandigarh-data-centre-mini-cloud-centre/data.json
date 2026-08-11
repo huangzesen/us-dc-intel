@@ -1,0 +1,21 @@
+{
+  "slug": "in-nic-chandigarh-data-centre-mini-cloud-centre",
+  "canonical_project": "NIC Chandigarh Data Centre / Mini Cloud Centre",
+  "owner": "National Informatics Centre, Ministry of Electronics and Information Technology, Government of India",
+  "location": {
+    "city": "",
+    "subnational": "Chandigarh - Chandigarh",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-28",
+  "evidence_grade": "A",
+  "sources": [
+    "https://nicchandigarh.nic.in/en/infrastructure/",
+    "https://nicchandigarh.nic.in/en/directory/"
+  ],
+  "notes": "NIC Chandigarh infrastructure page says Mini Cloud setups are operational in state units including Chandigarh; directory has a Chandigarh Data Centre staff section and was last updated 2026-07-28. Government ICT facility; capacity not disclosed.",
+  "world_batch": true
+}

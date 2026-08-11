@@ -1,0 +1,23 @@
+{
+  "slug": "cz-cra-dc-ostrava",
+  "canonical_project": "CRA DC Ostrava",
+  "owner": "Ceske Radiokomunikace a.s.",
+  "location": {
+    "city": "",
+    "subnational": "Moravia-Silesia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cra.cz/ict-solutions/data-centres",
+    "https://www.cra.cz/ict-reseni/datova-centra",
+    "https://hn.cz/c1-66346410-ceske-radiokomunikace-oteviraji-regionalni-datove-centrum-v-ostrave",
+    "https://www.datacentermap.com/czech-republic/ostrava/cra-dc-ostrava/specs/"
+  ],
+  "notes": "CRA official pages list DC Ostrava in the company's regional footprint; Hospodarske noviny reported the Ostrava regional data centre opening with 26 racks, while DataCenterMap locates it at Vysilac Hostalkovice.",
+  "world_batch": true
+}

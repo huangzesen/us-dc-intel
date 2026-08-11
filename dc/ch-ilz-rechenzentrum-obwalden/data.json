@@ -1,0 +1,22 @@
+{
+  "slug": "ch-ilz-rechenzentrum-obwalden",
+  "canonical_project": "ILZ Rechenzentrum Obwalden",
+  "owner": "InformatikLeistungsZentrum Obwalden und Nidwalden",
+  "location": {
+    "city": "",
+    "subnational": "Obwalden",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2018-05-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ilz.info/",
+    "https://www.ow.ch/aemter/193",
+    "https://www.ow.ch/_doc/173483"
+  ],
+  "notes": "ILZ is headquartered in Sarnen and operates IT for Obwalden and Nidwalden; a public annual report references central communications components in the Obwalden data center.",
+  "world_batch": true
+}

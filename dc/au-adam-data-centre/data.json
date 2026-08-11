@@ -1,0 +1,22 @@
+{
+  "slug": "au-adam-data-centre",
+  "canonical_project": "Adam Data Centre",
+  "owner": "Adam Internet / iiNet / TPG Telecom",
+  "location": {
+    "city": "",
+    "subnational": "South Australia - West Torrens",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.adam.com.au/business/adam-data-centre",
+    "https://www.itnews.com.au/news/adam-internet-to-open-6m-data-centre-150925",
+    "https://inflect.com/building/19-47-london-road-mile-end-south/iinet/datacenter/adam-data-centre"
+  ],
+  "notes": "Adam Internet page describes an operational secure colocation data centre outside the Adelaide CBD and says Adam stopped taking new Adam-branded data-centre customers in 2024; iTnews reported the Mile End facility opening in 2009 with 200 stage-one racks; Inflect places Adam Internet ADC at 19-47 London Road, Mile End South, within West Torrens.",
+  "world_batch": true
+}

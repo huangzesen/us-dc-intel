@@ -1,0 +1,21 @@
+{
+  "slug": "rs-government-data-centre-in-kragujevac",
+  "canonical_project": "Government Data Centre in Kragujevac",
+  "owner": "Office for IT and eGovernment, Government of Serbia",
+  "location": {
+    "city": "",
+    "subnational": "Sumadija",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": 14,
+  "status": "operational",
+  "evidence_date": "2026-05-08",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ite.gov.rs/tekst/en/34/government-data-centre-in-kragujevac.php",
+    "https://kragujevac.ls.gov.rs/vest/en/2009/president-vucic-at-the-state-data-center-kragujevac-becoming-the-regions-digital-hub.php"
+  ],
+  "notes": "Tier/Class 4 government and commercial data center campus in Kragujevac. Official sources describe two facilities totaling about 14,000 sq m, 1,080 racks, global users including Oracle, IBM, Huawei and CERN, and 14 MW capacity after new modules/supercomputer activation.",
+  "world_batch": true
+}

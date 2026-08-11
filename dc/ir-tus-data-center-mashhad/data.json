@@ -1,0 +1,20 @@
+{
+  "slug": "ir-tus-data-center-mashhad",
+  "canonical_project": "Tus Data Center Mashhad",
+  "owner": "Tus Data Center",
+  "location": {
+    "city": "",
+    "subnational": "Central Khorasan",
+    "country": "Iran, Islamic Republic of",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tusdc.com/"
+  ],
+  "notes": "Tus Data Center operator page states it is a Mashhad-based data center offering colocation and dedicated server rental, with UPS/generator power, 99.99% uptime claim, direct connection to national backbone infrastructure, BGP/IP announcement, and institutional customers in Mashhad/Razavi Khorasan.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "sa-centerserv-ha-il-data-center",
+  "canonical_project": "CenterServ Ha'il Data Center",
+  "owner": "CenterServ",
+  "location": {
+    "city": "",
+    "subnational": "Ha'il Region - Ha'il",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/providers/centerserv/locations/saudi-arabia/hail-province/hail",
+    "https://www.datacentermap.com/saudi-arabia/hail/centerserv-hail/"
+  ],
+  "notes": "Datacenters.com and DatacenterMap list a CenterServ Ha'il Data Center at the Golden Tulip Hail Building in Ha'il, Saudi Arabia. No primary operator page or public MW capacity was found, so this is treated as an operational listed colocation/facility record with weak aggregate evidence.",
+  "world_batch": true
+}

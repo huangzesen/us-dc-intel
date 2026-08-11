@@ -1,0 +1,20 @@
+{
+  "slug": "in-ctrls-mumbai-data-center-campus-navi-mumbai-ghansoli",
+  "canonical_project": "CtrlS Mumbai Data Center Campus (Navi Mumbai, Ghansoli)",
+  "owner": "CtrlS Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Maharashtra - Thane",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 700,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ctrls.com/datacenter-mumbai/"
+  ],
+  "notes": "Largest DC campus in Navi Mumbai (Ghansoli, Thane district). 13 DC buildings, ~3 mn sq ft, up to 700MW IT load capacity; DC1-5 operational (~119MW combined), DC6/DC7 upcoming (95MW).",
+  "world_batch": true
+}

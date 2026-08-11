@@ -1,0 +1,21 @@
+{
+  "slug": "nl-previder-pdc1-pdc2-hengelo",
+  "canonical_project": "Previder PDC1/PDC2 Hengelo",
+  "owner": "Previder",
+  "location": {
+    "city": "",
+    "subnational": "Overijssel",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://previder.com/services/datacenter",
+    "https://www.dutchdatacenters.nl/en/participants/previder/"
+  ],
+  "notes": "Previder official page states its geographically separated data centers include Hengelo and are interconnected by fiber; Dutch Data Center Association participant page lists Previder PDC1 at Expolaan 50, Hengelo.",
+  "world_batch": true
+}

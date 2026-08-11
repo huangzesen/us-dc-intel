@@ -1,0 +1,20 @@
+{
+  "slug": "uz-east-telecom-ya-dc-tashkent",
+  "canonical_project": "East Telecom YA DC (Tashkent)",
+  "owner": "East Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Tashkent City",
+    "country": "Uzbekistan",
+    "country_code": "UZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://serverspace.uz/infrastructure/czod-tashkent/"
+  ],
+  "notes": "Cloud provider Serverspace locates its Tashkent/Uzbekistan region in the modern 'East Telecom YA DC' data center in Tashkent; facility serves multiple hosting/cloud providers as a colocation site. Capacity and certification not disclosed.",
+  "world_batch": true
+}

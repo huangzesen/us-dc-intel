@@ -1,0 +1,21 @@
+{
+  "slug": "mv-national-data-centre-ncit-national-computer-network",
+  "canonical_project": "National Data Centre / NCIT National Computer Network",
+  "owner": "National Centre for Information Technology (NCIT), Government of Maldives",
+  "location": {
+    "city": "",
+    "subnational": "Male Atoll",
+    "country": "Maldives",
+    "country_code": "MV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dmadd.gov.mv/en/announcements/2024-114",
+    "https://dmadd.gov.mv/en/news/120"
+  ],
+  "notes": "D'MADD/Ministry procurement materials state that NCIT operates the National Data Centre and National Computer Network, and a 2025 contract required assessment of the current NDC for risks including natural disasters, cyberattacks, electrical systems, cooling systems and fires. Exact facility address and capacity were not published in the accessible sources; NCIT/D'MADD contact address is in Male.",
+  "world_batch": true
+}

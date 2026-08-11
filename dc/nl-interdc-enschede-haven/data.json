@@ -1,0 +1,21 @@
+{
+  "slug": "nl-interdc-enschede-haven",
+  "canonical_project": "InterDC Enschede Haven",
+  "owner": "InterDC / InterRacks",
+  "location": {
+    "city": "",
+    "subnational": "Overijssel",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.interdc.nl/",
+    "https://www.interdc.nl/en/locations/hengelo/"
+  ],
+  "notes": "Official InterDC page says it has four redundant Tier 3 data centers in Doetinchem, Enschede and Hengelo; Enschede presence confirmed but site-specific capacity not published on landing page.",
+  "world_batch": true
+}

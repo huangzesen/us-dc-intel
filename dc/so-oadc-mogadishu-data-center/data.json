@@ -1,0 +1,21 @@
+{
+  "slug": "so-oadc-mogadishu-data-center",
+  "canonical_project": "OADC Mogadishu data center",
+  "owner": "Open Access Data Centres (OADC) / WIOCC Group",
+  "location": {
+    "city": "",
+    "subnational": "Banaadir",
+    "country": "Somalia",
+    "country_code": "SO"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2021-11-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/subsea-cable-firm-wiocc-raises-200-million-for-new-pan-african-data-center-company/",
+    "https://developingtelecoms.com/telecom-business/telecom-investment-mergers/12381-wiocc-raises-200m-to-expand-african-connectivity.html"
+  ],
+  "notes": "DCD reported (Nov 24, 2021) that WIOCC's new Open Access Data Centres unit would develop a carrier-neutral data center at its Mogadishu submarine cable landing as one of three first-phase locations (with Lagos and Durban), targeted to be ready before the end of 2022 following a $200m capital raise. No public evidence of completion was found in this pass, so status is retained as announced.",
+  "world_batch": true
+}

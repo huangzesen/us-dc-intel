@@ -1,0 +1,20 @@
+{
+  "slug": "ru-cloud-ru-domodedovo-data-center",
+  "canonical_project": "Cloud.ru Domodedovo Data Center",
+  "owner": "Cloud.ru",
+  "location": {
+    "city": "",
+    "subnational": "Moscow",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 11,
+  "status": "construction",
+  "evidence_date": "2026-06-25",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/cloudru-begins-construction-on-data-center-in-moscow-russia/"
+  ],
+  "notes": "DCD reports Cloud.ru began construction of its first owned data center, expected to commission in 2027; Vedomosti sources place it in Domodedovo, Moscow Region, with about 11 MW and 890 racks.",
+  "world_batch": true
+}

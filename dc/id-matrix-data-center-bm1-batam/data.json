@@ -1,0 +1,21 @@
+{
+  "slug": "id-matrix-data-center-bm1-batam",
+  "canonical_project": "Matrix Data Center BM1, Batam",
+  "owner": "Matrix NAP Info",
+  "location": {
+    "city": "",
+    "subnational": "Riau Islands",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/indonesia/batam/matrix-data-center-bm1/specs/",
+    "https://www.napinfo.co.id/product/matrix-data-center"
+  ],
+  "notes": "DataCenterMap lists Matrix Data Center BM1 at Jl. Citra Lautan Teduh, Tg. Bemban, Batam; Matrix NAP's product page describes Matrix Data Centre services for secure colocation and high-bandwidth connectivity.",
+  "world_batch": true
+}

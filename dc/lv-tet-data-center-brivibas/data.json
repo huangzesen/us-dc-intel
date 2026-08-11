@@ -1,0 +1,20 @@
+{
+  "slug": "lv-tet-data-center-brivibas",
+  "canonical_project": "Tet Data Center Brivibas",
+  "owner": "Tet",
+  "location": {
+    "city": "",
+    "subnational": "Riga",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": 0.7,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tetcloud.com/data-centers"
+  ],
+  "notes": "Tet Cloud operator page lists Brivibas as a Tier III-designed critical IT systems facility with 50 racks and 0.7 MW.",
+  "world_batch": true
+}

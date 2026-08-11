@@ -1,0 +1,22 @@
+{
+  "slug": "bj-mtn-bohicon",
+  "canonical_project": "MTN Bohicon",
+  "owner": "MTN Benin",
+  "location": {
+    "city": "",
+    "subnational": "Zou",
+    "country": "Benin",
+    "country_code": "BJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/mtn/",
+    "https://datacenterplatform.com/countries/benin/",
+    "https://v2-site.systalink.com/data-center-benin"
+  ],
+  "notes": "Listed as MTN Bohicon in public data-center directories and described in a 2026 Benin datacenter infrastructure roundup as part of MTN Benin's Cotonou/Bohicon colocation and dedicated-server offering. Capacity not disclosed; evidence is directory/industry-aggregate level rather than a primary MTN technical filing.",
+  "world_batch": true
+}

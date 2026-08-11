@@ -1,0 +1,21 @@
+{
+  "slug": "gb-nlighten-leeds-lba1",
+  "canonical_project": "nLighten Leeds LBA1",
+  "owner": "nLighten",
+  "location": {
+    "city": "",
+    "subnational": "England - City and Borough of Leeds",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 3.6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nlighten.com/en/edge-location/leeds/",
+    "https://www.datacentermap.com/united-kingdom/leeds/nlighten-leeds/"
+  ],
+  "notes": "Operational edge colocation facility in south-west Leeds, with nLighten listing 650 sqm dedicated colocation space and 3,600 kW power.",
+  "world_batch": true
+}

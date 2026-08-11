@@ -1,0 +1,22 @@
+{
+  "slug": "cz-cra-dc-zlin",
+  "canonical_project": "CRA DC Zlin",
+  "owner": "Ceske Radiokomunikace a.s.",
+  "location": {
+    "city": "",
+    "subnational": "Zlin",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cra.cz/ict-solutions/data-centres",
+    "https://www.cra.cz/ict-reseni/datova-centra",
+    "https://www.datacenters.com/ceske-radiokomunikace-zlin"
+  ],
+  "notes": "CRA official data-centres pages list DC Zlin among the company's regional data centres; third-party directory confirms a CRA-operated Zlin data center.",
+  "world_batch": true
+}

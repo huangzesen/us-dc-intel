@@ -1,0 +1,22 @@
+{
+  "slug": "fr-databalt-nevers-data-center",
+  "canonical_project": "Databalt Nevers data center",
+  "owner": "Databalt SAS",
+  "location": {
+    "city": "",
+    "subnational": "Nièvre",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.databalt.net/",
+    "https://www.vehiculedufutur.com/fr/reseau/membres-adherents/fiche-adherent/6085_DATABALT.html",
+    "https://www.pappers.fr/entreprise/databalt-897446118"
+  ],
+  "notes": "Databalt states its headquarters and main site are in Nevers; business registry and cluster listings describe creation/management of datacenters, hosting, backup, GPU compute, and PRA/PCA services at Avenue du Colonel Rossel, 58000 Nevers.",
+  "world_batch": true
+}

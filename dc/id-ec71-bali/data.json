@@ -1,0 +1,21 @@
+{
+  "slug": "id-ec71-bali",
+  "canonical_project": "EC71 Bali",
+  "owner": "Edge Centres",
+  "location": {
+    "city": "",
+    "subnational": "Bali",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/ec71-bali",
+    "https://baxtel.com/data-center/bali"
+  ],
+  "notes": "Baxtel lists EC71 Bali among Bali colocation data centers. Treated as aggregate evidence; capacity not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "in-stt-delhi-1-stt-delhi-dc-1",
+  "canonical_project": "STT Delhi 1 / STT Delhi DC 1",
+  "owner": "ST Telemedia Global Data Centres India",
+  "location": {
+    "city": "",
+    "subnational": "Delhi - New Delhi",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 0.9,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sttelemediagdc.com/in-en/locations/delhi",
+    "https://www.datacenters.com/sttelemedia-global-data-centres-stt-delhi-1",
+    "https://www.de-cix.in/de-cix-delhi/"
+  ],
+  "notes": "STT GDC official Delhi page lists STT Delhi 1 with 0.9 MW IT load. Datacenters.com and DE-CIX identify the address at Videsh Sanchar Bhavan/Bangla Sahib Road, New Delhi 110001.",
+  "world_batch": true
+}

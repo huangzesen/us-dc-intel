@@ -1,0 +1,21 @@
+{
+  "slug": "tr-hakkari-university-data-center-system-room",
+  "canonical_project": "Hakkari University data-center system room",
+  "owner": "Hakkari University",
+  "location": {
+    "city": "",
+    "subnational": "Hakkari",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-12-31",
+  "evidence_grade": "A",
+  "sources": [
+    "https://strateji.hakkari.edu.tr/dosya/files/faaliyet_raporlari/2025%20Y%C4%B1l%C4%B1%20Birim%20Faaliyet%20Raporu.pdf",
+    "https://bim.hakkari.edu.tr/"
+  ],
+  "notes": "University activity-report material references the main system room/data-center environment and security controls; no MW figure disclosed.",
+  "world_batch": true
+}

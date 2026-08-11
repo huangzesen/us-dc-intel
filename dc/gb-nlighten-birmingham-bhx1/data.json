@@ -1,0 +1,21 @@
+{
+  "slug": "gb-nlighten-birmingham-bhx1",
+  "canonical_project": "nLighten Birmingham BHX1",
+  "owner": "nLighten",
+  "location": {
+    "city": "",
+    "subnational": "England - City and Borough of Birmingham",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 9.6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nlighten.com/en/edge-location/birmingham/",
+    "https://www.nlighten.com/wp-content/uploads/2025/12/nLighten_Datasheet_UK_Birmingham_BHX1_EN.pdf"
+  ],
+  "notes": "Operational edge colocation facility near Birmingham city centre, listed by nLighten with 930 sqm dedicated colocation space and 9,600 kW end-state site capacity.",
+  "world_batch": true
+}

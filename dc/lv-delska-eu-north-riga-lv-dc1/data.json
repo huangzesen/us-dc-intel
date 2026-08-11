@@ -1,0 +1,21 @@
+{
+  "slug": "lv-delska-eu-north-riga-lv-dc1",
+  "canonical_project": "Delska EU North Riga LV DC1",
+  "owner": "Delska",
+  "location": {
+    "city": "",
+    "subnational": "Riga",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2026-04-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://delska.com/data-centers/eu-north-riga-lv-dc1/",
+    "https://delska.com/lvdc1-launch-event/"
+  ],
+  "notes": "Operator says the AI/HPC facility is launched, operational and available for customer deployments; 10 MW, 1000 racks, address Cuibes Street 17, Riga, with owned land allowing scale-up to 30 MW.",
+  "world_batch": true
+}

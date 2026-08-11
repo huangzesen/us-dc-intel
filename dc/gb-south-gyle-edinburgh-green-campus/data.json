@@ -1,0 +1,22 @@
+{
+  "slug": "gb-south-gyle-edinburgh-green-campus",
+  "canonical_project": "South Gyle / Edinburgh Green Campus",
+  "owner": "Shelborn Drummond Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - City of Edinburgh",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 212.42,
+  "status": "rejected",
+  "evidence_date": "2026-02-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://aprs.scot/gyle-dc/",
+    "https://www.ercs.scot/news/data-centres-in-the-scottish-planning-system-would-double-scotlands-energy-demands-press-release/",
+    "https://baxtel.com/data-center/shelborn-edinburgh-green-campus"
+  ],
+  "notes": "APRS says the 213MW planning-permission-in-principle application at the Gyle was rejected by Edinburgh City Council in February 2026 and appealed. ERCS/APRS tables list South Gyle, Edinburgh, Shelborn Drummond Ltd, 212.42MW, application 25/04239/PPP.",
+  "world_batch": true
+}

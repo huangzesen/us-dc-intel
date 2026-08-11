@@ -1,0 +1,20 @@
+{
+  "slug": "vn-vdc2-can-tho-data-center",
+  "canonical_project": "VDC2 Can Tho Data Center",
+  "owner": "VDC / VNPT",
+  "location": {
+    "city": "",
+    "subnational": "Can Tho",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-01",
+  "evidence_grade": "C",
+  "sources": [
+    "https://aiems.com.vn/nhung-data-center-lon-nhat-tai-viet-nam--"
+  ],
+  "notes": "Aggregate/vendor article states VDC2 launched three large data centers, including one in Can Tho; retained as weak evidence because an official current facility page was not found.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "pl-exea-data-center-torun",
+  "canonical_project": "Exea Data Center Torun",
+  "owner": "Exea",
+  "location": {
+    "city": "",
+    "subnational": "Kuyavia-Pomerania",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://exea.pl/",
+    "https://www.datacentermap.com/poland/torun/exea-data-center/",
+    "https://torun.direct/aktualnosci/exea-data-center-czy-wiesz-ze-9"
+  ],
+  "notes": "Exea official site identifies Exea Data Center at ul. Wloclawska 167, Torun; Data Center Map reports 6MW; local Torun Direct article says Exea Data Center has operated in Torun since 2015.",
+  "world_batch": true
+}

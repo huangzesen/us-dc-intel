@@ -1,0 +1,20 @@
+{
+  "slug": "ss-boma-cloud-data-center",
+  "canonical_project": "Boma Cloud & Data Center",
+  "owner": "Boma Rural Connect / Boma Research Center",
+  "location": {
+    "city": "",
+    "subnational": "Central Equatoria",
+    "country": "South Sudan",
+    "country_code": "SS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://brc.ss/"
+  ],
+  "notes": "Boma Rural Connect's official site advertises 'Boma Cloud & Data Center' as a local cloud platform offering virtual servers, object storage, managed databases, colocation racks and local CDN edge nodes, with current service including Juba. Exact facility address, launch date, and capacity were not disclosed; classified to Central Equatoria because Juba is the cited served location and market anchor.",
+  "world_batch": true
+}

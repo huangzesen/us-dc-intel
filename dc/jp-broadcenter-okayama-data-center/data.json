@@ -1,0 +1,21 @@
+{
+  "slug": "jp-broadcenter-okayama-data-center",
+  "canonical_project": "BroadCenter Okayama Data Center",
+  "owner": "TOKAI Communications Corporation",
+  "location": {
+    "city": "",
+    "subnational": "Okayama",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.broadcenter.jp/service/dc_okayama/",
+    "https://www.tokai-com.co.jp/company/access.php"
+  ],
+  "notes": "BroadCenter official service page lists Okayama Data Center facilities; TOKAI Communications office list confirms an Okayama Data Center in Okayama City, address undisclosed.",
+  "world_batch": true
+}

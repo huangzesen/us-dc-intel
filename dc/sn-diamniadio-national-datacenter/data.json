@@ -1,0 +1,22 @@
+{
+  "slug": "sn-diamniadio-national-datacenter",
+  "canonical_project": "Diamniadio National Datacenter",
+  "owner": "Sénégal Numérique S.A. / ADIE, with Huawei support",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-06-23",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/senegal-to-migrate-all-government-data-and-applications-to-new-government-data-center/",
+    "https://www.datacentermap.com/senegal/dakar/diamniadio-national-datacenter/",
+    "https://china.aiddata.org/projects/58382/"
+  ],
+  "notes": "President Macky Sall commissioned the Diamniadio National Datacenter in June 2021 at the Digital Technology Park. DCD reported it would host state data and applications, had 500 sqm hosting capacity, was managed by ADIE, and was financed by a Chinese loan with Huawei support. AidData also links Phase 3 of the e-government project to construction of a 4x400 sqm data center in Diamniadio.",
+  "world_batch": true
+}

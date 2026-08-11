@@ -1,0 +1,21 @@
+{
+  "slug": "au-pier-dc-perth-data-centre",
+  "canonical_project": "Pier DC Perth Data Centre",
+  "owner": "Pier DC",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Perth",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 8,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pierdc.com/data-centres/perth-data-centre/",
+    "https://www.datacenterdynamics.com/en/news/australias-pier-dc-opens-perth-data-center/"
+  ],
+  "notes": "Pier DC official Perth page describes an operational Perth data centre; trade coverage reported the facility opening and referenced 8MW capacity.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "in-ctrls-lucknow-edge-datacenter",
+  "canonical_project": "CtrlS Lucknow Edge Datacenter",
+  "owner": "CtrlS Datacenters Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Uttar Pradesh - Lucknow District",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 0.2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ctrls.com/lucknow-datacenter/",
+    "https://www.datacentermap.com/india/lucknow/ctrls-lucknow-edge-dc/",
+    "https://www.ocolo.io/colocation/ctrls/lucknow/"
+  ],
+  "notes": "CtrlS official page lists a carrier-neutral edge datacenter in Gomti Nagar, Lucknow: 49 racks capacity, 0.20 MW IT load (datacentermap lists 0.18 MW), 2,500 sq ft on a partial floor. Operational colocation facility serving enterprise and hyperscale customers.",
+  "world_batch": true
+}

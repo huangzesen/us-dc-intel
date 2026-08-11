@@ -1,0 +1,21 @@
+{
+  "slug": "de-greendatahub-eifel-edge-data-center-boos",
+  "canonical_project": "GreenDataHub Eifel edge data center, Boos",
+  "owner": "amexxo GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Rhineland-Palatinate - Vulkaneifel",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 0.28,
+  "status": "planned",
+  "evidence_date": "2026-05-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://amexxo.de/",
+    "https://amexxo.de/index.html"
+  ],
+  "notes": "Project page describes GreenDataHub Eifel as a regional edge data center on an existing industrial site in Boos, five kilometers from the Nürburgring, with Stage A go-live targeted for 2027 and 200-280 kW IT load; later scaling to 2.5-4 MW is mentioned.",
+  "world_batch": true
+}

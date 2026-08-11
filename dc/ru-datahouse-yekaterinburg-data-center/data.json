@@ -1,0 +1,21 @@
+{
+  "slug": "ru-datahouse-yekaterinburg-data-center",
+  "canonical_project": "Datahouse Yekaterinburg Data Center",
+  "owner": "Datahouse / Filanco",
+  "location": {
+    "city": "",
+    "subnational": "Sverdlovsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 0.8,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datahouse.ru/datacenter/ekb/",
+    "https://alldc.ru/dcs/cod/461.html"
+  ],
+  "notes": "Datahouse's official Yekaterinburg page describes a carrier-neutral data center with 52 racks in four machine halls. AllDC lists the DataHouse Ekt facility as commercially operational since November 2012 with 0.8 MW maximum power.",
+  "world_batch": true
+}

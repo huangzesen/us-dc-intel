@@ -1,0 +1,21 @@
+{
+  "slug": "lv-tet-rezekne-regional-data-center-listing",
+  "canonical_project": "TET Rezekne regional data center listing",
+  "owner": "TET",
+  "location": {
+    "city": "",
+    "subnational": "Rezekne",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://cloudscene.com/data-center/latvia/regional/tet-rezekne",
+    "https://cloudscene.com/region/datacenters-in-europe"
+  ],
+  "notes": "Only aggregate marketplace evidence found; Cloudscene lists a Rezekne regional facility operated by TET with one provider. No operator page with facility details found in this pass.",
+  "world_batch": true
+}

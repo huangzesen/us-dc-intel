@@ -1,0 +1,20 @@
+{
+  "slug": "mu-emtel-business-data-centre",
+  "canonical_project": "Emtel Business Data Centre",
+  "owner": "Emtel",
+  "location": {
+    "city": "",
+    "subnational": "Pamplemousses",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.emtel.com/business/data-centre"
+  ],
+  "notes": "Official Emtel page describes a purpose-built Tier-3 certified data centre with 100% uptime since 2012, direct access to METISS, SAFE, and LION/LION2 submarine cables, and strategic location in Arsenal, North Mauritius. Page mentions dual 1 MW transformers, but not IT capacity, so capacity_mw is null.",
+  "world_batch": true
+}

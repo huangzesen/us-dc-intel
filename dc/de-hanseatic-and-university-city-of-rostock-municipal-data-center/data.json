@@ -1,0 +1,22 @@
+{
+  "slug": "de-hanseatic-and-university-city-of-rostock-municipal-data-center",
+  "canonical_project": "Hanseatic and University City of Rostock Municipal Data Center",
+  "owner": "Hanseatic and University City of Rostock; PBIT Systeme and DC-Datacenter-Group; Deutsche Telekom operations support",
+  "location": {
+    "city": "",
+    "subnational": "Mecklenburg-Vorpommern - Rostock (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 0.3,
+  "status": "construction",
+  "evidence_date": "2025-10-29",
+  "evidence_grade": "A",
+  "sources": [
+    "https://rathaus.rostock.de/de/spatenstich_fuer_staedtisches_rechenzentrum/370297",
+    "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/rostock/gegen-cyberangriffe-stadt-rostock-baut-ein-eigenes-rechenzentrum%2Cmvregiorostock-1388.html",
+    "https://www.datacenter-insider.de/rostock-startet-bau-des-staedtischen-rechenzentrums-a-5e4dad094dfe6100d41f9c703c494ce6/"
+  ],
+  "notes": "Rostock broke ground in Toitenwinkel on a roughly EUR 6m municipal data center; trade press reports 300 kW IT load and 90 sqm white space across two data halls, with completion/migration targeted in 2026.",
+  "world_batch": true
+}

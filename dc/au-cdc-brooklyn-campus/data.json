@@ -1,0 +1,22 @@
+{
+  "slug": "au-cdc-brooklyn-campus",
+  "canonical_project": "CDC Brooklyn Campus",
+  "owner": "CDC Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Hobsons Bay",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 350,
+  "status": "operational",
+  "evidence_date": "2026-02-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cdc.com/locations/melbourne/",
+    "https://cdc.com/resources/news/cdc-opens-its-first-melbourne-data-centre-campus-expanding-australia-s-sovereign-digital-infrastructure/",
+    "https://invest.vic.gov.au/news-and-events/news/2026/march/cdc-data-centres-officially-opens-its-first-melbourne-campus%2C-expanding-its-ability-to-deliver-secure-and-sustainable-solutions"
+  ],
+  "notes": "CDC says its Brooklyn campus has operated since 2024 and is expected to provide more than 350MW at completion; official 2026 opening coverage says the campus has two data centre facilities.",
+  "world_batch": true
+}

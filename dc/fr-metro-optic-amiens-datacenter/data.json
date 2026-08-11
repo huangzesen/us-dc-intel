@@ -1,0 +1,21 @@
+{
+  "slug": "fr-metro-optic-amiens-datacenter",
+  "canonical_project": "Metro Optic Amiens datacenter",
+  "owner": "Metro Optic",
+  "location": {
+    "city": "",
+    "subnational": "Somme",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.metro-optic.fr/en/datacenter/",
+    "https://www.datacentermap.com/france/amiens/metro-optic-amiens/"
+  ],
+  "notes": "Metro Optic lists datacenter services with an Amiens site shown in aggregate colocation directories.",
+  "world_batch": true
+}

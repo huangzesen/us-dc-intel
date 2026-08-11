@@ -1,0 +1,22 @@
+{
+  "slug": "kr-kinx-sangam2-idc-sa2",
+  "canonical_project": "KINX Sangam2 IDC (SA2)",
+  "owner": "KINX Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Mapo-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.kinx.net/infrastructure/dc/?lang=en",
+    "https://www.datacentermap.com/c/kinx/",
+    "https://marketplace.upstack.com/data-centers"
+  ],
+  "notes": "KINX's official data-center page lists IDC Sangam 2 at Samsung SDS Sangam IT Center, 24 World Cup buk-ro 60-gil, Mapo-gu, and describes it as a next-generation ICT center for cloud and big data, completed in 2015. Public MW capacity not disclosed.",
+  "world_batch": true
+}

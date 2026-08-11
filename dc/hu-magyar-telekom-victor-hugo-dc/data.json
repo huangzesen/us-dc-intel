@@ -1,0 +1,22 @@
+{
+  "slug": "hu-magyar-telekom-victor-hugo-dc",
+  "canonical_project": "Magyar Telekom Victor Hugo DC",
+  "owner": "Magyar Telekom Nyrt.",
+  "location": {
+    "city": "",
+    "subnational": "Budapest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telekom.hu/about_us/services/wholesale/national_fixed_line_solutions/ip_and_data/hosting",
+    "https://www.telekom.hu/rolunk/szolgaltatasok/nagykereskedelem/belfoldi-vezetekes/ip-es-adat/hosting-szolgaltatas",
+    "https://baxtel.com/data-center/magyar-victor-hugo-dc"
+  ],
+  "notes": "Magyar Telekom's wholesale hosting pages list Victor Hugo DC at 1132 Budapest, Victor Hugo 18-22 among its data centers. Baxtel also lists Magyar: Victor Hugo DC as a Budapest facility. Capacity not publicly disclosed.",
+  "world_batch": true
+}

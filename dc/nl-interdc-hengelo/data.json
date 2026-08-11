@@ -1,0 +1,20 @@
+{
+  "slug": "nl-interdc-hengelo",
+  "canonical_project": "InterDC Hengelo",
+  "owner": "InterDC / InterRacks",
+  "location": {
+    "city": "",
+    "subnational": "Overijssel",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.interdc.nl/en/locations/hengelo/"
+  ],
+  "notes": "Official InterDC Hengelo page states the facility is ISO27001 and NEN7510 certified, designed to Tier 3 specifications, and can accommodate 70 racks / over 2,000 servers.",
+  "world_batch": true
+}

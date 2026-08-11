@@ -1,0 +1,21 @@
+{
+  "slug": "cn-ningxia-meili-cloud-data-center-zhongwei-western-cloud-base",
+  "canonical_project": "Ningxia Meili Cloud data center, Zhongwei Western Cloud Base",
+  "owner": "Ningxia Meili Cloud / Meiliyun",
+  "location": {
+    "city": "",
+    "subnational": "Ningxia - Zhongwei Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-12-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nxzw.gov.cn/zjzw/xbyjd/202012/t20201209_2430998.html",
+    "https://m.cls.cn/detail/1293623"
+  ],
+  "notes": "Zhongwei government page lists Ningxia Meili Cloud Data Center as built and operating; trade/financial coverage says Meiliyun built eight IDC buildings in Zhongwei with 19,200 cabinets, but MW was not stated.",
+  "world_batch": true
+}

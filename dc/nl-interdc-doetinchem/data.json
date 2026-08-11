@@ -1,0 +1,20 @@
+{
+  "slug": "nl-interdc-doetinchem",
+  "canonical_project": "InterDC Doetinchem",
+  "owner": "InterDC",
+  "location": {
+    "city": "",
+    "subnational": "Gelderland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.interdc.nl/en/locations/doetinchem/"
+  ],
+  "notes": "Official InterDC page says it acquired the Doetinchem datacenter in 2021; site is Tier 3-designed, ISO27001/NEN7510 certified, has 120 racks and possible second-room expansion.",
+  "world_batch": true
+}

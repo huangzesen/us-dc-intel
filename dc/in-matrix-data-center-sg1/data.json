@@ -1,0 +1,21 @@
+{
+  "slug": "in-matrix-data-center-sg1",
+  "canonical_project": "Matrix Data Center SG1",
+  "owner": "MATRIX NAP",
+  "location": {
+    "city": "",
+    "subnational": "Delhi - North Delhi",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/matrix-nap-matrix-sg1",
+    "https://dcatlas.io/en/explore/facilities/matrix-nap-matrix-data-center-sg1-delhi"
+  ],
+  "notes": "Datacenters.com locates Matrix Data Center SG1 at State Bank Colony, Kirpal Bagh, Derawal Nagar, Gujranwala Town, North Delhi. DC Atlas lists the operational colocation facility with 1 MW live capacity.",
+  "world_batch": true
+}

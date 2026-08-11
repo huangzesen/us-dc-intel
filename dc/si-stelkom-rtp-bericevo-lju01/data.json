@@ -1,0 +1,21 @@
+{
+  "slug": "si-stelkom-rtp-bericevo-lju01",
+  "canonical_project": "Stelkom RTP Bericevo LJU01",
+  "owner": "Stelkom",
+  "location": {
+    "city": "",
+    "subnational": "Dol pri Ljubljani",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/datacenters/emea/slovenia/ljubljana",
+    "https://www.stelkom.si/en/service/telecommunication-infrastructure/"
+  ],
+  "notes": "Inflect lists Stelkom RTP Bericevo LJU01 at Bericevo 70, Dolsko 1262, Slovenia. Stelkom's own infrastructure page confirms RTP Bericevo as an existing POP/collocation location; public sources did not disclose MW capacity.",
+  "world_batch": true
+}

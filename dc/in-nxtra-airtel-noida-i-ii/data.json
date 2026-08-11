@@ -1,0 +1,21 @@
+{
+  "slug": "in-nxtra-airtel-noida-i-ii",
+  "canonical_project": "Nxtra (Airtel) Noida I & II",
+  "owner": "Nxtra Data (Bharti Airtel)",
+  "location": {
+    "city": "",
+    "subnational": "Uttar Pradesh - Gautam Buddha Nagar",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/nxtra-data-noida-i",
+    "https://baxtel.com/data-center/nxtra-data-noida-ii"
+  ],
+  "notes": "Airtel's Nxtra operates two Noida data centers: Noida I (Sector 62, ~1,200 racks) and Noida II (Sector 81, ~1,500 racks); both operational colocation facilities.",
+  "world_batch": true
+}

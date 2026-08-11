@@ -1,0 +1,22 @@
+{
+  "slug": "lu-deep-resilience-center-luxembourg-east",
+  "canonical_project": "DEEP Resilience Center Luxembourg East",
+  "owner": "DEEP / POST Luxembourg",
+  "location": {
+    "city": "",
+    "subnational": "Grevenmacher",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.deep.eu/en/accueil/services/datacenter/datacenter-colocation-services",
+    "https://www.lu-cix.lu/infrastructure/network-map/",
+    "https://www.datacenterdynamics.com/en/news/tier-iv-data-center-opens-in-luxembourg/"
+  ],
+  "notes": "DEEP lists Betzdorf as one of its Tier IV-certified datacenters; LU-CIX locates Resilience Center Luxembourg East at the audiovisual and communications zone in L-6922 Betzdorf. DCD reported the Betzdorf facility opened with 5,000 sq m of white space.",
+  "world_batch": true
+}

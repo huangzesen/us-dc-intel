@@ -1,0 +1,21 @@
+{
+  "slug": "sg-equinix-sg6",
+  "canonical_project": "Equinix SG6",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "South West",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 20,
+  "status": "construction",
+  "evidence_date": "2024-11-19",
+  "evidence_grade": "A",
+  "sources": [
+    "https://investor.equinix.com/news-events/press-releases/detail/1057/equinix-to-help-accelerate-ai-innovation-in-singapore-with",
+    "https://www.datacenterdynamics.com/en/news/equinix-breaks-ground-on-20mw-data-center-in-singapore/"
+  ],
+  "notes": "Equinix announced SG6, a nine-story Jalan Tukang facility expected to open Q1 2027 with 20MW when fully built; awarded under Singapore DC-CFA.",
+  "world_batch": true
+}

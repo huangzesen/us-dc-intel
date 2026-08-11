@@ -1,0 +1,21 @@
+{
+  "slug": "pl-artnet-data-centers-gdansk-and-gdynia",
+  "canonical_project": "Artnet Data Centers, Gdansk and Gdynia",
+  "owner": "Artnet Sp. z o.o.",
+  "location": {
+    "city": "",
+    "subnational": "Pomerania",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.artnet.pl/en/",
+    "https://baxtel.com/data-center/pomeranian-voivodeship"
+  ],
+  "notes": "Operator page says Artnet has two independent Tier III-class data centers in the Tri-City: Gdansk at Marynarki Polskiej 100 and Gdynia at Chwaszczynska 133A. Baxtel lists Pomeranian Voivodeship market presence and identifies Artnet Gdynia as the largest local facility by listed floor area.",
+  "world_batch": true
+}

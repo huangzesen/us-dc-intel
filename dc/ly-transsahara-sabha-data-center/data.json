@@ -1,0 +1,21 @@
+{
+  "slug": "ly-transsahara-sabha-data-center",
+  "canonical_project": "TransSahara Sabha Data Center",
+  "owner": "TransSahara",
+  "location": {
+    "city": "",
+    "subnational": "Sabha",
+    "country": "Libya",
+    "country_code": "LY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/libya/sabha/transahara-sabha/",
+    "https://www.datacentermap.com/c/trans-sahara/"
+  ],
+  "notes": "Data Center Map lists a TransSahara Sabha facility on Jamal Abdelnaser Street and describes TransSahara commercial cloud/VM/backup/DRaaS data center operations in Libya; no capacity found.",
+  "world_batch": true
+}

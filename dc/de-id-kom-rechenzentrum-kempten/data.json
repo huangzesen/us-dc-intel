@@ -1,0 +1,21 @@
+{
+  "slug": "de-id-kom-rechenzentrum-kempten",
+  "canonical_project": "ID.KOM Rechenzentrum Kempten",
+  "owner": "IDKOM GmbH / IDKOM Networks GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Kempten",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idkom.de/rechenzentrum/",
+    "https://datacenterplatform.com/data-centers/id-kom/id-kom-germany/id-kom-data-center/"
+  ],
+  "notes": "ID.KOM official site says it operates data centers in Kempten for private cloud, managed server and housing services; third-party listing places the data center at Dieselstraße 1, 87437 Kempten.",
+  "world_batch": true
+}

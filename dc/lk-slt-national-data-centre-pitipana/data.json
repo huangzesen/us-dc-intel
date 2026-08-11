@@ -1,0 +1,21 @@
+{
+  "slug": "lk-slt-national-data-centre-pitipana",
+  "canonical_project": "SLT National Data Centre, Pitipana",
+  "owner": "Sri Lanka Telecom PLC",
+  "location": {
+    "city": "",
+    "subnational": "Western Province",
+    "country": "Sri Lanka",
+    "country_code": "LK"
+  },
+  "capacity_mw": 2.5,
+  "status": "operational",
+  "evidence_date": "2018-01-16",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.slt.lk/en/about-us/news/slt-embarks-national-data-center-pitipana",
+    "https://www.datacentermap.com/sri-lanka/colombo/slt-national-data-center/"
+  ],
+  "notes": "Official SLT announcement says the Pitipana/Homagama national data centre opened on 2018-01-16 with 500 racks and up to 5 kW per rack; capacity_mw is inferred IT rack load. DatacenterMap lists the site in Colombo market.",
+  "world_batch": true
+}

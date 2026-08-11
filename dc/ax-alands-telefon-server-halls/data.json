@@ -1,0 +1,21 @@
+{
+  "slug": "ax-alands-telefon-server-halls",
+  "canonical_project": "Ålands Telefon server halls",
+  "owner": "Ålands Telefon / Ålcom",
+  "location": {
+    "city": "",
+    "subnational": "Aland Islands",
+    "country": "Aland Islands",
+    "country_code": "AX"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-10-09",
+  "evidence_grade": "B",
+  "sources": [
+    "https://handel.ax/oppen/halverade-kostnader-hos-hp/",
+    "https://www.nyan.ax/nyheter/tekniskt-fel-i-serverhall-2/"
+  ],
+  "notes": "Ålands Handel reported Ålands Telefon server halls with cooling-cost reductions and 24/7 service; Nya Åland separately identified Ålands Telefon's server hall in Strandnäs. No IT load or MW capacity disclosed; appears to be local telecom/enterprise infrastructure, not hyperscale.",
+  "world_batch": true
+}

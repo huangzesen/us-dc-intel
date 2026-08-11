@@ -1,0 +1,21 @@
+{
+  "slug": "se-aws-malardalen-expansion-vasteras-data-centre",
+  "canonical_project": "AWS Malardalen expansion - Vasteras data centre",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Vastmanland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2024-11-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.aboutamazon.eu/news/aws/aws-uses-lower-carbon-steel-in-the-construction-of-new-swedish-data-centres",
+    "https://www.datacenterdynamics.com/en/news/aws-inks-partnership-with-ssab-for-green-steel-at-swedish-data-center/"
+  ],
+  "notes": "About Amazon says AWS is building new data centres in Eskilstuna, Katrineholm, and Vasteras for the Europe (Stockholm) Region, with main buildings due for completion by mid-2025.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "lt-telecentras-vdc3-and-vdc4-vilnius-state-data-centers",
+  "canonical_project": "Telecentras VDC3 and VDC4 Vilnius state data centers",
+  "owner": "AB Lietuvos radijo ir televizijos centras (Telecentras)",
+  "location": {
+    "city": "",
+    "subnational": "Vilnius County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://telecentras.lt/projektai/vdc/",
+    "https://www.datacenterdynamics.com/en/news/lithuanias-telecentras-launches-two-data-centers-in-vilnius/",
+    "https://www.telecentras.lt/en/2025/08/04/the-dc3-has-become-a-state-data-centre/"
+  ],
+  "notes": "Telecentras project page says VDC3 and VDC4 launched on 2024-09-30 with combined capacity of 288 cabinets; DCD reports DC4 at 1.5 MW and 96 racks.",
+  "world_batch": true
+}

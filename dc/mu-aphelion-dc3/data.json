@@ -1,0 +1,22 @@
+{
+  "slug": "mu-aphelion-dc3",
+  "canonical_project": "Aphelion DC3",
+  "owner": "Aphelion Limited",
+  "location": {
+    "city": "",
+    "subnational": "Pamplemousses",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/mauritius/port-louis/adc3/",
+    "https://aphelion-group.com/",
+    "https://marketplace.upstack.com/data-centers/aphelion-data-center-jinfei-smart-city-internet-data-center"
+  ],
+  "notes": "Data Center Map lists Aphelion DC3 at Noah Wealth Center, JinFei Smart City, Terre Rouge, Pamplemousses; Upstack describes the JinFei Smart City Internet Data Center as Tier 3 equivalent and built in 2015. Operator site confirms Aphelion cloud/managed-services business but does not publish facility details.",
+  "world_batch": true
+}

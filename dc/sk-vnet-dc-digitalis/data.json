@@ -1,0 +1,23 @@
+{
+  "slug": "sk-vnet-dc-digitalis",
+  "canonical_project": "VNET DC Digitalis",
+  "owner": "VNET a.s.",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.dcdigitalis.sk/",
+    "https://blog.vnet.sk/prehliadka-data-centra/",
+    "https://podnikam.sk/slovensko-ma-nove-ekologicke-datove-centrum/",
+    "https://zive.aktuality.sk/clanok/50cbx40/juraj-luston-z-vnet-pred-kupou-hardveru-sme-uprednostnili-prenajom-cez-hpe-greenlake-verime-ze-investicia-sa-nam-vrati-do-roka/"
+  ],
+  "notes": "VNET's flagship Tier III colocation data centre opened 2014 at Trnavska cesta in the wider centre of Bratislava, ~3000 m2, four redundant geographically independent fibre routes with >100 Gbit/s capacity and rental of dark fibre. VNET operates three data centres in Bratislava (Forbes profile). No public MW capacity.",
+  "world_batch": true
+}

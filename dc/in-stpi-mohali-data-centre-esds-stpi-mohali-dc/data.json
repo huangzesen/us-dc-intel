@@ -1,0 +1,22 @@
+{
+  "slug": "in-stpi-mohali-data-centre-esds-stpi-mohali-dc",
+  "canonical_project": "STPI Mohali Data Centre / ESDS-STPI Mohali DC",
+  "owner": "Software Technology Parks of India; ESDS Software Solution Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Punjab - Ajitgarh",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 2.5,
+  "status": "operational",
+  "evidence_date": "2026-07-29",
+  "evidence_grade": "A",
+  "sources": [
+    "https://sansad.in/getFile/lsapps/loksabhaquestions/annex/188/AU1795_2cu0et.pdf?source=lsapps",
+    "https://stpi.in/data-center/mohali-0",
+    "https://www.esds.co.in/about-us"
+  ],
+  "notes": "Lok Sabha answer says the STPI Mohali data centre is Tier-III certified with 2.5 MW capacity and 183 racks, hosting colocation and cloud services; ESDS timeline lists Mohali data center launch in 2022.",
+  "world_batch": true
+}

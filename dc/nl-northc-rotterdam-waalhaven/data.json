@@ -1,0 +1,20 @@
+{
+  "slug": "nl-northc-rotterdam-waalhaven",
+  "canonical_project": "NorthC Rotterdam Waalhaven",
+  "owner": "NorthC Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "South Holland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.northcdatacenters.com/en/northc-datacenters/rotterdam-waalhaven/"
+  ],
+  "notes": "Official NorthC page lists Rotterdam Waalhaven near the Port of Rotterdam with 1,000 m2 total surface area and 500 kW installed electrical capacity.",
+  "world_batch": true
+}

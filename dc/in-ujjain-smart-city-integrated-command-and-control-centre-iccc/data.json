@@ -1,0 +1,20 @@
+{
+  "slug": "in-ujjain-smart-city-integrated-command-and-control-centre-iccc",
+  "canonical_project": "Ujjain Smart City Integrated Command and Control Centre (ICCC)",
+  "owner": "Ujjain Smart City Limited (USCL)",
+  "location": {
+    "city": "",
+    "subnational": "Madhya Pradesh - Ujjain",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ujjainsmartcity.com/en/departments/iccc/"
+  ],
+  "notes": "Official Ujjain Smart City Limited page states the Integrated Command and Control Centre (ICCC) is envisaged as the single control centre for Ujjain, comprising a main control room, situation room, server room and electrical rooms on the ground floor of the Mela Office, with systems running (VTMS, e-nagarpalika, Integrated Traffic Management System, iSWM, COVID activities). This is a municipal smart-city command/control facility with an on-site server room rather than a commercial/cloud data centre; no MW capacity published. Separate searches found no commercial colocation or hyperscale data centre in Ujjain.",
+  "world_batch": true
+}

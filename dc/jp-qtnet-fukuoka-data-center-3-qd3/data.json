@@ -1,0 +1,21 @@
+{
+  "slug": "jp-qtnet-fukuoka-data-center-3-qd3",
+  "canonical_project": "QTnet Fukuoka Data Center 3 (QD3)",
+  "owner": "QTnet, Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Fukuoka",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.qtpro.jp/en/dc/qtdc/qd3/",
+    "https://www.qtpro.jp/en/dc/qtdc/"
+  ],
+  "notes": "QTnet official page lists QD3 in Fukuoka City, opened September 2019, with about 10,000 sq m floor area, about 1,400 racks, seismic isolation and up to 30 kVA/rack.",
+  "world_batch": true
+}

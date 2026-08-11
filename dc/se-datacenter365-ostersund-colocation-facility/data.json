@@ -1,0 +1,22 @@
+{
+  "slug": "se-datacenter365-ostersund-colocation-facility",
+  "canonical_project": "Datacenter365 Ostersund colocation facility",
+  "owner": "Datacenter 365 AB",
+  "location": {
+    "city": "",
+    "subnational": "Jamtland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenter365.se/",
+    "https://www.allabolag.se/foretag/datacenter-365-ab/%C3%B6stersund/datacenters/2KHR59TI5YDLG",
+    "https://www.hitta.se/datacenter%2B365%2Bab/%C3%B6stersund/aknrtxyz"
+  ],
+  "notes": "Datacenter365's own site describes an operating 'drifthall' with 24/7 monitoring, video surveillance, controlled access and customer access for colocated equipment. Swedish company-register aggregators list Datacenter 365 AB as active, registered in 2020, seated in Ostersund, Jamtland County, and engaged in computer operations services. No public MW capacity found.",
+  "world_batch": true
+}

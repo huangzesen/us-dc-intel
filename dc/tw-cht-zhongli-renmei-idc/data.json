@@ -1,0 +1,21 @@
+{
+  "slug": "tw-cht-zhongli-renmei-idc",
+  "canonical_project": "CHT Zhongli Renmei IDC",
+  "owner": "Chunghwa Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Taoyuan",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location_Zhongli_Renmei.html",
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location.html"
+  ],
+  "notes": "Chunghwa Telecom's official IDC location page lists the Zhongli Renmei IDC (Zhongli District, Taoyuan City) as an operational IDC site. No published capacity figure found.",
+  "world_batch": true
+}

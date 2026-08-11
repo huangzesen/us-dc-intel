@@ -1,0 +1,22 @@
+{
+  "slug": "gb-media-stream-ai-anchorage-place-data-centre",
+  "canonical_project": "Media Stream AI Anchorage Place Data Centre",
+  "owner": "Media Stream AI",
+  "location": {
+    "city": "",
+    "subnational": "England - City and Borough of Salford",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 2,
+  "status": "unknown",
+  "evidence_date": "2026-04-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentremagazine.com/news/why-is-media-stream-ai-investing-50m-in-a-uk-data-centre",
+    "https://www.datacenterdynamics.com/en/news/uk-media-production-firm-plans-canal-cooled-data-center-in-manchester/",
+    "https://www.thebureauinvestigates.com/stories/2026-04-11/he-says-hes-built-sovereign-ai-data-centres-across-the-uk-we-cant-find-them"
+  ],
+  "notes": "MSAI announced a £50m canal-cooled AI data centre at Anchorage Place/MediaCity, reported as 2MW by directories; April 2026 investigative reporting questioned whether the claimed data centre had been built, so status is kept unknown.",
+  "world_batch": true
+}

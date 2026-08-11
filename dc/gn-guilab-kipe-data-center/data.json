@@ -1,0 +1,21 @@
+{
+  "slug": "gn-guilab-kipe-data-center",
+  "canonical_project": "GUILAB Kipé Data Center",
+  "owner": "GUILAB",
+  "location": {
+    "city": "",
+    "subnational": "Conakry",
+    "country": "Guinea",
+    "country_code": "GN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.guilab.com/",
+    "https://www.peeringdb.com/fac/7326"
+  ],
+  "notes": "GUILAB advertises data-center/colocation services at Kipé in Conakry; PeeringDB facility record identifies 'Data center' as operational in Conakry.",
+  "world_batch": true
+}

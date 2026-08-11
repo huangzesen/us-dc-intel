@@ -1,0 +1,21 @@
+{
+  "slug": "ch-ungleich-data-center-light-linthal",
+  "canonical_project": "ungleich Data Center Light, Linthal",
+  "owner": "ungleich glarus ag",
+  "location": {
+    "city": "",
+    "subnational": "Glarus",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenterlight.ch/",
+    "https://datacenterplatform.com/data-centers/ungleich-glarus-ag/ungleich-glarus-ag-switzerland/data-center-light/"
+  ],
+  "notes": "Data Center Light's official site says it hosts Swiss VPS, colocation, backup, Matrix and Nextcloud services in Switzerland and operates on 99.9% hydropower plus 0.1% solar power. DataCenterPlatform places Data Center Light at Bahnhofstrasse 1, Linthal, 8783, operated by Ungleich Glarus AG. No public MW capacity found.",
+  "world_batch": true
+}

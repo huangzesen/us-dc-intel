@@ -1,0 +1,22 @@
+{
+  "slug": "gb-thrive-uk-luton-data-centre",
+  "canonical_project": "Thrive UK Luton data centre",
+  "owner": "Thrive / formerly ONI plc",
+  "location": {
+    "city": "",
+    "subnational": "England - Luton",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://thrivenextgen.com/wp-content/uploads/Colocation-Service-Description.pdf?lang=en-gb",
+    "https://www.datacentermap.com/united-kingdom/luton/oni/",
+    "https://colocationm.com/united-kingdom/luton-dc-1"
+  ],
+  "notes": "Thrive service description states its wholly owned Luton purpose-built Tier 3+ data centre is 35 miles from London. DataCenterMap/ColocationM list the 16-24 Crawley Green Road Luton facility; ColocationM reports 1MW powered status.",
+  "world_batch": true
+}

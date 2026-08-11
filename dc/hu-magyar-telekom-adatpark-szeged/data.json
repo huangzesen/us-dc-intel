@@ -1,0 +1,23 @@
+{
+  "slug": "hu-magyar-telekom-adatpark-szeged",
+  "canonical_project": "Magyar Telekom Adatpark Szeged",
+  "owner": "Magyar Telekom Nyrt.",
+  "location": {
+    "city": "",
+    "subnational": "Csongrad-Csanad",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telekom.hu/about_us/services/wholesale/national_fixed_line_solutions/ip_and_data/hosting",
+    "https://www.telekom.hu/rolunk/szolgaltatasok/nagykereskedelem/belfoldi-vezetekes/ip-es-adat/hosting-szolgaltatas",
+    "https://www.datacentermap.com/hungary/szeged/magyar-telekom-adatpark-szeged/",
+    "https://baxtel.com/data-center/magyar-adatpark-szeged"
+  ],
+  "notes": "Magyar Telekom's official wholesale hosting pages list Adatpark Szeged at 6724 Szeged, Rokusi krt. 2-10. DataCenterMap and Baxtel list Magyar Telekom Adatpark Szeged as an operational data center. No public MW figure found.",
+  "world_batch": true
+}

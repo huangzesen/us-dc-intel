@@ -1,0 +1,24 @@
+{
+  "slug": "sd-sudatel-dc-port-sudan-sas1-port-sudan-core-data-center",
+  "canonical_project": "Sudatel DC Port Sudan (SAS1) / Port Sudan core data center",
+  "owner": "Sudatel Telecom Group / Sudani",
+  "location": {
+    "city": "",
+    "subnational": "Red Sea",
+    "country": "Sudan",
+    "country_code": "SD"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-01-07",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/sudan/port-sudan/sudatel-dc-port-sudan/",
+    "https://dchub.cloud/facilities/sudatel-telecom-group-sudatel-dc-sas1-port-sudan-1fdd447d",
+    "https://newsaf.cgtn.com/news/2026-01-07/Port-Sudan-emerges-as-Sudan-s-digital-lifeline-amid-conflict-1JJT8b4Ofeg/index.html",
+    "https://freedomhouse.org/country/sudan/freedom-net/2024",
+    "https://datacenterplatform.com/countries/sudan/"
+  ],
+  "notes": "DataCenterMap lists Sudatel DC Port Sudan (SAS1) at Dim Al-Nour Street, Port Sudan, as a Tier III data center and undersea-cable landing/telecom hub for EASSy, SAS1 and SAS2, and says Sudatel relocated core operations and deployed new equipment to Port Sudan during the conflict. DC Hub lists the facility as operational with reported power capacity of 3.0 MW. CGTN reported on 2026-01-07 that, after Khartoum data-center and telecom damage, Sudani restored the core data center in Port Sudan and it was fully operational serving government bodies, private institutions and citizens. Freedom House's 2024 Sudan report likewise says Sudatel restored limited connectivity after establishing a new data center in Port Sudan in February 2024. Capacity is from an aggregator, so treat the 3 MW figure as lower-confidence than the operational status.",
+  "world_batch": true
+}

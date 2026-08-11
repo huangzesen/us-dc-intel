@@ -1,0 +1,20 @@
+{
+  "slug": "ug-airtel-uganda-data-centre-facilities-kampala",
+  "canonical_project": "Airtel Uganda data centre facilities (Kampala)",
+  "owner": "Airtel Uganda",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Uganda",
+    "country_code": "UG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://ts2.tech/en/ugandas-internet-access-revolution-from-digital-divide-to-digital-drive-in-2025/"
+  ],
+  "notes": "A 2025 industry overview of Uganda's internet sector states that besides the Raxio Tier III colocation facility there are data centres run by telecoms, noting 'MTN has one, Airtel uses some too' - indicating internal/telecom-owned data centre facilities in the Kampala area rather than a public commercial colocation product. No official Airtel Uganda data centre page, capacity or address found; grade C (aggregate/secondary source), treat as unverified internal facilities.",
+  "world_batch": true
+}

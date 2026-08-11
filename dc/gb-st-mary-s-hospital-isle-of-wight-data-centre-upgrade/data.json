@@ -1,0 +1,20 @@
+{
+  "slug": "gb-st-mary-s-hospital-isle-of-wight-data-centre-upgrade",
+  "canonical_project": "St Mary's Hospital Isle of Wight data centre upgrade",
+  "owner": "Secure I.T. Environments for St Mary's Hospital / NHS Isle of Wight",
+  "location": {
+    "city": "",
+    "subnational": "England - Isle of Wight",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 0.08,
+  "status": "operational",
+  "evidence_date": "2024-07-25",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/secure-it-environments-upgrades-nhs-data-center-in-isle-of-wight/"
+  ],
+  "notes": "DCD reported Secure I.T. Environments completed a mechanical and electrical upgrade at St Mary's Hospital's Isle of Wight data centre, bringing capacity to 80kW. This is a public-sector/healthcare facility, not commercial colocation.",
+  "world_batch": true
+}

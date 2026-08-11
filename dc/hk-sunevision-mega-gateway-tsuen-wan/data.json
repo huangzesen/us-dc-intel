@@ -1,0 +1,20 @@
+{
+  "slug": "hk-sunevision-mega-gateway-tsuen-wan",
+  "canonical_project": "SUNeVision MEGA Gateway, Tsuen Wan",
+  "owner": "SUNeVision Holdings / iAdvantage",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2023-03-30",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/iadvantage-mega-idc"
+  ],
+  "notes": "DataCenterMap/Baxtel coverage reports SUNeVision opened MEGA Gateway in Tsuen Wan as a 20MW hyperscale facility in March 2023; secondary source used where official page did not expose a stable capacity line in search.",
+  "world_batch": true
+}

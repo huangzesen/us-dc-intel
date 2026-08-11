@@ -1,0 +1,22 @@
+{
+  "slug": "th-galaxy-data-center-gdc-1gw-hyperscale-silicon-tech-park",
+  "canonical_project": "Galaxy Data Center (GDC) 1GW Hyperscale (Silicon Tech Park)",
+  "owner": "Galaxy Data Center (Hoyinn Technologies)",
+  "location": {
+    "city": "",
+    "subnational": "Rayong",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": 1000,
+  "status": "planned",
+  "evidence_date": "2026-03-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/chinas-galaxy-data-center-to-invest-2bn-in-data-centers-in-thailand/",
+    "https://news.mongabay.com/2026/03/thai-data-center-boom-sparks-fears-of-water-shortage-air-pollution/",
+    "https://baxtel.com/data-center/galaxy-gdc-rayong"
+  ],
+  "notes": "China-based Galaxy Data Center announced ~USD 2bn investment in Thailand; planned 1 GW hyperscale facility in Silicon Tech Park, Ban Chang district, Rayong ('Southeast Asia's premier Data Center Valley'); BOI-related project value reported ~USD 690m. Water demand for this and a second STP facility projected at 19,600-28,600 m3/day.",
+  "world_batch": true
+}

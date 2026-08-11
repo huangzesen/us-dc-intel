@@ -1,0 +1,22 @@
+{
+  "slug": "jp-stnet-powerico-data-center",
+  "canonical_project": "STNet Powerico Data Center",
+  "owner": "STNet, Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Kagawa",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.stnet.co.jp/business/dc/powerico/",
+    "https://www.shimz.co.jp/en/works/jp_off_201310_powerico.html",
+    "https://www.attokyo.com/news/20240703.html"
+  ],
+  "notes": "STNet official page describes Powerico as a high-spec JDCC Tier 4-equivalent data center in Kagawa; Shimizu lists completion in October 2013 and 11,225 sqm floor area, and AT TOKYO announced an access point there in 2024.",
+  "world_batch": true
+}

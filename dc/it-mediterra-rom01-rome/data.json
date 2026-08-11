@@ -1,0 +1,22 @@
+{
+  "slug": "it-mediterra-rom01-rome",
+  "canonical_project": "Mediterra ROM01 Rome",
+  "owner": "Mediterra Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Lazio",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": 4.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mediterradatacenters.com/rom-01/",
+    "https://www.mix-it.net/en/location/mediterra-rom-01/",
+    "https://www.datacenterdynamics.com/en/news/mediterra-arrives-in-catalonia-plans-barcelona-data-center/"
+  ],
+  "notes": "Mediterra lists ROM01, formerly Cloud Europe, in Rome's Tecnopolo Tiburtino; DCD reported Mediterra operates the former Cloud Europe 4 MW, 6,000 sqm Rome site.",
+  "world_batch": true
+}

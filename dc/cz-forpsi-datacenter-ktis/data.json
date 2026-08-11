@@ -1,0 +1,22 @@
+{
+  "slug": "cz-forpsi-datacenter-ktis",
+  "canonical_project": "FORPSI Datacenter Ktiš",
+  "owner": "FORPSI / Aruba",
+  "location": {
+    "city": "",
+    "subnational": "South Bohemia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dc.forpsi.com/datacentrum/?lang=en-US",
+    "https://www.datacenter.it/en/czech-republic-ktis-dc-cz2/",
+    "https://www.datacentermap.com/czech-republic/prachatice/forpsi-datacenter/specs/"
+  ],
+  "notes": "FORPSI official site says the Ktis data center has capacity for more than 5,000 servers and is owned by the company; Aruba's official page and DataCenterMap specs report 1 MW power for the Ktis facility.",
+  "world_batch": true
+}

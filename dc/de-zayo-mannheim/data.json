@@ -1,0 +1,22 @@
+{
+  "slug": "de-zayo-mannheim",
+  "canonical_project": "Zayo Mannheim",
+  "owner": "Zayo Group LLC",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Mannheim",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/datacenters/emea/germany/mannheim",
+    "https://www.zayo.com/wp-content/uploads/Colocation-One-Pager.pdf",
+    "https://www.zayo.com/industries/data-centers/"
+  ],
+  "notes": "Inflect lists Zayo Mannheim among Mannheim data centers. Zayo official material confirms distributed colocation/PoP data-center offerings along its fiber network, but a facility-specific Mannheim power figure was not found.",
+  "world_batch": true
+}

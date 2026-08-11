@@ -1,0 +1,21 @@
+{
+  "slug": "hu-dravanet-data-center-pecs",
+  "canonical_project": "Dravanet Data Center Pecs",
+  "owner": "Dravanet Zrt",
+  "location": {
+    "city": "",
+    "subnational": "Pecs",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/hungary/pecs/dravanet/",
+    "https://dravanet.hu/"
+  ],
+  "notes": "DataCenterMap lists Dravanet's Pecs facility as a data-center/colocation entry; company site corroborates Dravanet as the local telecom/ICT operator. No public MW figure found.",
+  "world_batch": true
+}

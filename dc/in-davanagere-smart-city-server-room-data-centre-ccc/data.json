@@ -1,0 +1,21 @@
+{
+  "slug": "in-davanagere-smart-city-server-room-data-centre-ccc",
+  "canonical_project": "Davanagere Smart City Server Room / Data Centre-CCC",
+  "owner": "Davanagere Smart City Limited",
+  "location": {
+    "city": "",
+    "subnational": "Karnataka - Davanagere",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dvg.karnatakasmartcity.in/davanagere-smart-city/server-room/?lang=en",
+    "https://dvg.karnatakasmartcity.in/pan-city/city-surveillance/?lang=en"
+  ],
+  "notes": "Official smart-city pages describe a server room and network layer connected to the Data Centre/CCC, with city-surveillance feeds sent to the Server Room at the CCC Building. Municipal/ICCC facility rather than commercial colocation or hyperscale capacity.",
+  "world_batch": true
+}

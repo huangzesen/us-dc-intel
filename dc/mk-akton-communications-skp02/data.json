@@ -1,0 +1,21 @@
+{
+  "slug": "mk-akton-communications-skp02",
+  "canonical_project": "Akton Communications SKP02",
+  "owner": "Akton Communications",
+  "location": {
+    "city": "",
+    "subnational": "Gazi Baba",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/belasitsa-skopje/akton-telehouse/datacenter/skp02",
+    "https://inflect.com/datacenters/emea/macedonia/skopje"
+  ],
+  "notes": "Inflect lists Akton Communications SKP02 as a Skopje colocation data center on Belasitsa. Assigned to Gazi Baba based on local Skopje address context; capacity not found.",
+  "world_batch": true
+}

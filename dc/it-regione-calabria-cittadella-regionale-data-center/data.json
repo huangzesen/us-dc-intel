@@ -1,0 +1,21 @@
+{
+  "slug": "it-regione-calabria-cittadella-regionale-data-center",
+  "canonical_project": "Regione Calabria Cittadella Regionale Data Center",
+  "owner": "Regione Calabria",
+  "location": {
+    "city": "",
+    "subnational": "Calabria",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.regione.calabria.it/dipartimento-transizione-digitale-ed-attivita-strategiche/settori-del-dipartimento/1-infrastrutture-digitali-e-sicurezza/",
+    "https://www.acn.gov.it/portale/w/in-7203"
+  ],
+  "notes": "Regione Calabria department page identifies coordination, maintenance, evolution, and disaster-recovery work for the regional data center; ACN lists the Cittadella Regionale data center.",
+  "world_batch": true
+}

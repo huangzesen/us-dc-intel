@@ -1,0 +1,21 @@
+{
+  "slug": "gb-port-l-nottingham-data-center",
+  "canonical_project": "Port@l Nottingham Data Center",
+  "owner": "Portal Group UK",
+  "location": {
+    "city": "",
+    "subnational": "England - Nottinghamshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 20.0,
+  "status": "planned",
+  "evidence_date": "2026-04-13",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/20mw-data-center-proposed-at-former-eon-office-site-in-nottinghamshire-uk/",
+    "https://www.datacentermap.com/united-kingdom/nottingham/portl-nottingham/"
+  ],
+  "notes": "20MW, two-story proposed facility at Sherwood Business Park on the former Eon office/data-centre site, with four 5MW halls.",
+  "world_batch": true
+}

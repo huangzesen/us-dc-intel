@@ -1,0 +1,20 @@
+{
+  "slug": "vn-thai-binh-provincial-data-center",
+  "canonical_project": "Thai Binh provincial data center",
+  "owner": "Thai Binh provincial authorities / Department of Information and Communications",
+  "location": {
+    "city": "",
+    "subnational": "Thai Binh",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-12-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://vietnamnet.vn/thai-binh-day-manh-phat-trien-cac-nen-tang-so-dung-chung-2356587.html"
+  ],
+  "notes": "VietnamNet (sourced from Bao Thai Binh) reports Thai Binh's shared digital platforms run on centralized data stored at the provincial data center, including the LGSP integration platform, open-data portal (data.thaibinh.gov.vn) and smart-traffic camera feeds; DoITT plans to upgrade the shared platform infrastructure. No MW disclosed.",
+  "world_batch": true
+}

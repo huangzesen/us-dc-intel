@@ -1,0 +1,20 @@
+{
+  "slug": "cn-fangchenggang-administrative-center-complex-data-center",
+  "canonical_project": "Fangchenggang Administrative Center Complex Data Center",
+  "owner": "China Telecom Guangxi",
+  "location": {
+    "city": "",
+    "subnational": "Guangxi - Fangchenggang Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 1.5,
+  "status": "planned",
+  "evidence_date": "2020-11-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.cnpbi.com/uploadfile/2020/1106/20201106105309640.pdf"
+  ],
+  "notes": "Guangxi Data Center Development Plan (2020-2025) lists Fangchenggang Administrative Center Complex Data Center, operated by Guangxi Telecom, with 300 standard racks; capacity estimated at 300 x 5 kW standard racks.",
+  "world_batch": true
+}

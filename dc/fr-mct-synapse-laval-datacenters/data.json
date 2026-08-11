@@ -1,0 +1,21 @@
+{
+  "slug": "fr-mct-synapse-laval-datacenters",
+  "canonical_project": "MCT Synapse Laval datacenters",
+  "owner": "MCT / Groupe Numains",
+  "location": {
+    "city": "",
+    "subnational": "Mayenne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mct.eu/",
+    "https://www.lamayenne.fr/page/synapse-le-data-center-mct-loperateur-local-par-excellence"
+  ],
+  "notes": "MCT states it has two datacenters in Mayenne, including two in Laval; Mayenne departmental article says MCT's Synapse building on rue de Paris in Laval houses the main data center and that MCT operates its own secure data centers.",
+  "world_batch": true
+}

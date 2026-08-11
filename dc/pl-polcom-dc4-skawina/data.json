@@ -1,0 +1,21 @@
+{
+  "slug": "pl-polcom-dc4-skawina",
+  "canonical_project": "Polcom DC4 Skawina",
+  "owner": "Polcom",
+  "location": {
+    "city": "",
+    "subnational": "Lesser Poland",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 22,
+  "status": "construction",
+  "evidence_date": "2025-02-05",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/polands-polcom-to-build-two-data-centers-near-krakow/",
+    "https://baxtel.com/data-center/polcom-dc3"
+  ],
+  "notes": "Second of Polcom's two planned Skawina-area facilities; DCD reports the pair at 44MW combined and PLN 100m investment including a 1.7MW PV farm.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "es-vodafone-marratxi-data-center",
+  "canonical_project": "Vodafone Marratxí data center",
+  "owner": "Vodafone Spain",
+  "location": {
+    "city": "",
+    "subnational": "Balearic Islands",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-01-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.marratxi.es/vodafone-escoge-marratxi-para-instalar-su-nuevo-data-center/?lang=es"
+  ],
+  "notes": "Marratxí municipal announcement says Vodafone selected the municipality for a new data center with Tier-3-equivalent certifications and redundant 10Gbps circuits; facility planned to host more than 500 Juniper servers.",
+  "world_batch": true
+}

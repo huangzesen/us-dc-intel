@@ -1,0 +1,22 @@
+{
+  "slug": "by-becloud-republican-data-processing-center-kolodishchi",
+  "canonical_project": "beCloud Republican Data Processing Center, Kolodishchi",
+  "owner": "Belarusian Cloud Technologies LLC / beCloud",
+  "location": {
+    "city": "",
+    "subnational": "Minsk",
+    "country": "Belarus",
+    "country_code": "BY"
+  },
+  "capacity_mw": 7.2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://becloud.by/customers/o-rtsod-i-respublikanskoy-platforme/",
+    "https://becloud.by/customers/regulations-rcod/",
+    "https://www.datacenterdynamics.com/en/news/becloud-opens-tier-iii-data-center-in-belarus/"
+  ],
+  "notes": "beCloud's official page describes the Republican Data Processing Center as one of Belarus' largest complexes and first Tier III DPC, with 624 rack capacity, 3,200 sq m of IT space and 7.2 MW final project power. The official access-regulation page gives the address as Kolodishchi, Centralnaya 22 in Minsk District.",
+  "world_batch": true
+}

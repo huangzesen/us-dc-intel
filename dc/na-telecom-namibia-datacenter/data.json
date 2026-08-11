@@ -1,0 +1,22 @@
+{
+  "slug": "na-telecom-namibia-datacenter",
+  "canonical_project": "Telecom Namibia Datacenter",
+  "owner": "Telecom Namibia Limited",
+  "location": {
+    "city": "",
+    "subnational": "Khomas",
+    "country": "Namibia",
+    "country_code": "NA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/namibia/windhoek/telecom-namibia-datacenter/",
+    "https://datacenterplatform.com/data-centers/telecom-namibia/",
+    "https://www.telecom.na/"
+  ],
+  "notes": "DataCenterMap and Data Center Platform list Telecom Namibia Datacenter on Luderitz Street, Windhoek; operator site confirms Telecom Namibia as national ICT operator, but facility capacity is not disclosed.",
+  "world_batch": true
+}

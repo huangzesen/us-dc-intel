@@ -1,0 +1,21 @@
+{
+  "slug": "ee-astrec-data-johvi",
+  "canonical_project": "Astrec Data Jõhvi",
+  "owner": "Astrec Data OÜ",
+  "location": {
+    "city": "",
+    "subnational": "Ida-Viru",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/estonia/johvi/astrec-data-johvi/specs/",
+    "https://datacenterplatform.com/data-centers/astrec-data-ou/astrecdata-estonia/"
+  ],
+  "notes": "Aggregator listings place Astrec Data at Tartu põik 5, Jõhvi, with 1.5 MW fully built-out power and 1,600 sq.m. whitespace; Data Center Platform lists one Astrec Data Estonia facility in Jõhvi.",
+  "world_batch": true
+}

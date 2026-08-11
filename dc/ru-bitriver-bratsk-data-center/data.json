@@ -1,0 +1,21 @@
+{
+  "slug": "ru-bitriver-bratsk-data-center",
+  "canonical_project": "BitRiver Bratsk data center",
+  "owner": "BitRiver",
+  "location": {
+    "city": "",
+    "subnational": "Irkutsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 100.0,
+  "status": "operational",
+  "evidence_date": "2021-03-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.itnews.com.au/news/remote-siberian-data-centre-reaps-rewards-of-bitcoin-rally-561994",
+    "https://enplusgroup.com/en/media/news/press/en-group-and-bitriver-announce-jv-for-low-carbon-cryptocurrency-mining-bit/"
+  ],
+  "notes": "Reuters/iTnews described BitRiver's flagship Siberian data center near the Angara River/Bratsk as 100 MW and planning to double output; En+ confirms BitRiver operates the largest Russia/CIS bitcoin-mining colocation data center in Bratsk/Irkutsk region.",
+  "world_batch": true
+}

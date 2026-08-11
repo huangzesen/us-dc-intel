@@ -1,0 +1,22 @@
+{
+  "slug": "de-julich-supercomputing-centre-jupiter-modular-data-center",
+  "canonical_project": "Jülich Supercomputing Centre JUPITER modular data center",
+  "owner": "Forschungszentrum Jülich / EuroHPC JU",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Düren",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-09-05",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.fz-juelich.de/en/jsc/jupiter",
+    "https://www.ecmwf.int/en/about/media-centre/news/2025/reaching-jupiter-ecmwf-celebrates-first-european-exascale",
+    "https://blogs.nvidia.com/blog/jupiter-exascale-supercomputer-live/"
+  ],
+  "notes": "Forschungszentrum Jülich hosts JUPITER; ECMWF and NVIDIA report the exascale system went into operation/inauguration on 5 September 2025 at Jülich, with NVIDIA noting the modular data center housing it.",
+  "world_batch": true
+}

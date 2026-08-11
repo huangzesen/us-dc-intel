@@ -1,0 +1,21 @@
+{
+  "slug": "jp-equinix-os3-osaka-ibx-data-center",
+  "canonical_project": "Equinix OS3 Osaka IBX Data Center",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Osaka",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-10-20",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/japan-colocation/osaka-data-centers/os3",
+    "https://newsroom.equinix.com/2021-10-20-Equinix-Opens-a-New-Data-Center-in-Osaka"
+  ],
+  "notes": "Equinix opened OS3 in Osaka in 2021; official facility page lists OS3 in Chuo-ku with 7,467 square meters of space.",
+  "world_batch": true
+}

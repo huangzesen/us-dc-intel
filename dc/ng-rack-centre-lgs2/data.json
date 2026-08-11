@@ -1,0 +1,21 @@
+{
+  "slug": "ng-rack-centre-lgs2",
+  "canonical_project": "Rack Centre LGS2",
+  "owner": "Rack Centre",
+  "location": {
+    "city": "",
+    "subnational": "Lagos",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": 12,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://technext24.com/explainer/28-data-centres-nigeria-2026/",
+    "https://baxtel.com/data-center/rack-centre-lgs2"
+  ],
+  "notes": "AI-ready LGS2 data center at Oregun, Lagos, launched April 2025 with ~12MW IT load capacity, complementing LGS1's 1.5MW.",
+  "world_batch": true
+}

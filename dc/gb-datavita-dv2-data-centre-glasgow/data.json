@@ -1,0 +1,21 @@
+{
+  "slug": "gb-datavita-dv2-data-centre-glasgow",
+  "canonical_project": "DataVita DV2 Data Centre Glasgow",
+  "owner": "DataVita",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - Glasgow City",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2025",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datavita.co.uk/location/glasgow",
+    "https://www.investglasgow.com/resources/news/121-datavita-unveils-scotland-s-first-metro-data-centre"
+  ],
+  "notes": "DataVita lists DV2 as its newest Glasgow city-centre data centre at 177 Bothwell Street, with Tier III design, 130 racks, and 1MW power available. Invest Glasgow reported the project as a planned GBP 6m metro data centre expected operational in Q3 2022.",
+  "world_batch": true
+}

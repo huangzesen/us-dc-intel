@@ -1,0 +1,22 @@
+{
+  "slug": "ma-inwi-agadir-data-center",
+  "canonical_project": "inwi Agadir Data Center",
+  "owner": "Wana Corporate / inwi",
+  "location": {
+    "city": "",
+    "subnational": "Souss-Massa",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/locations/morocco/souss-massa/agadir",
+    "https://www.datacenters.com/providers/wana-corporate/locations/morocco/souss-massa/agadir",
+    "https://inwi.ma/en/entreprise/datacenter"
+  ],
+  "notes": "Datacenters.com lists one Wana Corporate/inwi data center in Agadir, Souss-Massa. Inwi's own data-center service page confirms the operator offers Tier 3 hosting but does not enumerate Agadir on the captured page.",
+  "world_batch": true
+}

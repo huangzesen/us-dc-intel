@@ -1,0 +1,21 @@
+{
+  "slug": "sg-nxera-dc-tuas",
+  "canonical_project": "Nxera DC Tuas",
+  "owner": "Nxera / Singtel",
+  "location": {
+    "city": "",
+    "subnational": "South West",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 58,
+  "status": "operational",
+  "evidence_date": "2026-02-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.singtel.com/about-us/media-centre/news-releases/nxera-opens-data-centre",
+    "https://www.jtc.gov.sg/about-jtc/news-and-stories/industry-news/nxera-opens-multi-tenanted-data-centre"
+  ],
+  "notes": "Singtel/Nxera and JTC report DC Tuas opened on 2026-02-09 with 58MW AI-ready capacity, raising Nxera Singapore capacity to 120MW.",
+  "world_batch": true
+}

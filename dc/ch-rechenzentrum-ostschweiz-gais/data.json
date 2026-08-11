@@ -1,0 +1,22 @@
+{
+  "slug": "ch-rechenzentrum-ostschweiz-gais",
+  "canonical_project": "Rechenzentrum Ostschweiz Gais",
+  "owner": "Rechenzentrum Ostschweiz AG / St. Gallisch-Appenzellische Kraftwerke AG and St. Galler Stadtwerke",
+  "location": {
+    "city": "",
+    "subnational": "Appenzell Ausserrhoden",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sak.ch/unternehmen/digital_unternehmen/rechenzentrum",
+    "https://www.rechenzentrum-ostschweiz.ch/",
+    "https://www.datacentermap.com/switzerland/sankt-gallen/rzo/"
+  ],
+  "notes": "SAK describes Rechenzentrum Ostschweiz as a highly available, energy-efficient communications hub in Gais AR, with Tier IV level availability, PV on facade/roof, adiabatic cooling, and waste-heat reuse by a neighboring cheese factory. RZO's site states it has data-center locations in Gais AR and Gossau SG. DataCenterMap lists the RZO facility as a 1 MW operational colocation data center; MW is from the third-party directory.",
+  "world_batch": true
+}

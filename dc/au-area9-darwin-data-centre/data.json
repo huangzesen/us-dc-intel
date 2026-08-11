@@ -1,0 +1,20 @@
+{
+  "slug": "au-area9-darwin-data-centre",
+  "canonical_project": "Area9 Darwin Data Centre",
+  "owner": "Area9",
+  "location": {
+    "city": "",
+    "subnational": "Northern Territory - Darwin",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.area9.com.au/category/cloud-infrastructure/services/data-centres"
+  ],
+  "notes": "Area9 says its data centre is located in Darwin in the Northern Territory and provides a fully redundant, high-availability facility with a dedicated disaster recovery site connected by dark fibre.",
+  "world_batch": true
+}

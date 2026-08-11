@@ -1,0 +1,22 @@
+{
+  "slug": "gu-it-e-guam-data-center",
+  "canonical_project": "IT&E Guam Data Center",
+  "owner": "IT&E Guam & CNMI",
+  "location": {
+    "city": "",
+    "subnational": "Guam",
+    "country": "Guam",
+    "country_code": "GU"
+  },
+  "capacity_mw": 0.144,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/122-harmon-industrial-park-road-tamuning/itande-guam-and-cnmi/datacenter/itande-guam",
+    "https://baxtel.com/data-center/it-e-guam",
+    "https://www.datacenters.com/locations/guam/guam/harmon-industrial-park"
+  ],
+  "notes": "Inflect lists an IT&E Guam data center at 122 Harmon Industrial Park Road, Tamuning, with 144kW total power capacity. Baxtel and Datacenters.com also list IT&E Guam as an operational Guam data center, but project-level public details are limited.",
+  "world_batch": true
+}

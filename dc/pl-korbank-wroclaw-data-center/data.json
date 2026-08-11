@@ -1,0 +1,21 @@
+{
+  "slug": "pl-korbank-wroclaw-data-center",
+  "canonical_project": "Korbank Wroclaw data center",
+  "owner": "Korbank",
+  "location": {
+    "city": "",
+    "subnational": "Lower Silesia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://cloudscene.com/market/data-centers-in-poland/wroclaw",
+    "https://www.datacentermap.com/poland/wroclaw/"
+  ],
+  "notes": "Cloudscene identifies Wroclaw as a market with 9 colocation data centers and lists Korbank as the leading Wroclaw provider; Data Center Map lists Wroclaw facilities.",
+  "world_batch": true
+}

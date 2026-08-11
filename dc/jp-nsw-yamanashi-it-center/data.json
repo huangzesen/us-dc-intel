@@ -1,0 +1,22 @@
+{
+  "slug": "jp-nsw-yamanashi-it-center",
+  "canonical_project": "NSW Yamanashi IT Center",
+  "owner": "NSW Corporation",
+  "location": {
+    "city": "",
+    "subnational": "Yamanashi",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nsw.co.jp/solution/detail.html?ssid=SuburbanDC",
+    "https://www.city.fuefuki.yamanashi.jp/kanko/sangyo/shushoku/kigyousyoukai47.html",
+    "https://www.datacentermap.com/japan/tokyo/yamanashi-it-center/"
+  ],
+  "notes": "NSW official page describes Yamanashi IT Center as a suburban data center about 90 minutes from central Tokyo. Fuefuki City company profile says the Yamanashi IT Center supports digital society infrastructure; third-party listing places it in Fuefuki City, Yamanashi Prefecture.",
+  "world_batch": true
+}

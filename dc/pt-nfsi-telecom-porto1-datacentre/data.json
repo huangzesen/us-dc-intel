@@ -1,0 +1,21 @@
+{
+  "slug": "pt-nfsi-telecom-porto1-datacentre",
+  "canonical_project": "NFSI Telecom Porto1 Datacentre",
+  "owner": "NFSI Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Porto",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/rua-do-doutor-alfredo-magalhaes-porto/nfsi-telecom-lda/datacenter/porto1",
+    "https://www.datacentermap.com/portugal/porto/"
+  ],
+  "notes": "Third-party facility directories list PORTO1 at Rua Dr. Alfredo Magalhaes, Porto, offering suites, cages, footprints, racks, and partial racks.",
+  "world_batch": true
+}

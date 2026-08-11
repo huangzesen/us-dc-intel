@@ -1,0 +1,21 @@
+{
+  "slug": "cz-data-center-jihlava",
+  "canonical_project": "Data Center Jihlava",
+  "owner": "Czech IT Cluster",
+  "location": {
+    "city": "",
+    "subnational": "Vysocina",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dc.czech-itc.cz/",
+    "https://www.datacentermap.com/czech-republic/jihlava/data-center-jihlava/"
+  ],
+  "notes": "Official DC Jihlava page places the facility at Srazna 21 in Jihlava and describes four data rooms with 316 racks, two 1,250 kVA transformers and N+1 cooling; DataCenterMap lists the facility at 2 MW.",
+  "world_batch": true
+}

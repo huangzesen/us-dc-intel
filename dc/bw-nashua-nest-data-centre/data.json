@@ -1,0 +1,21 @@
+{
+  "slug": "bw-nashua-nest-data-centre",
+  "canonical_project": "Nashua NEST Data Centre",
+  "owner": "Nashua Botswana",
+  "location": {
+    "city": "",
+    "subnational": "South East",
+    "country": "Botswana",
+    "country_code": "BW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/nashua-botswana-gaborone",
+    "https://www.datacentermap.com/botswana/gaborone/nashua-nest/"
+  ],
+  "notes": "Aggregator listings identify Nashua NEST at Nashua House in Gaborone as a colocation/data-centre facility. No primary source, build date, or MW capacity was found.",
+  "world_batch": true
+}

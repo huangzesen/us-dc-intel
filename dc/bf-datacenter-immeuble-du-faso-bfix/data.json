@@ -1,0 +1,22 @@
+{
+  "slug": "bf-datacenter-immeuble-du-faso-bfix",
+  "canonical_project": "Datacenter Immeuble du Faso (BFIX)",
+  "owner": "Burkina Faso Internet eXchange (BFIX)",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Burkina Faso",
+    "country_code": "BF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.peeringdb.com/fac/3189",
+    "https://www.peeringdb.com/org/14212",
+    "https://www.datacenterjournal.com/data-centers/burkina-faso/ouagadougou/datacenter-immeuble-du-faso/"
+  ],
+  "notes": "PeeringDB-listed facility (fac 3189) at BFIX HQ, Immeuble du Faso, Avenue de l'Indépendance, Ouagadougou, hosting the BFIX Ouagadougou internet exchange point; ~3,229 sq ft per DataCenterJournal (Feb 2020 data). Self-reported directory data; no MW capacity published.",
+  "world_batch": true
+}

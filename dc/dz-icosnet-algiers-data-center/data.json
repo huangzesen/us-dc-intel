@@ -1,0 +1,21 @@
+{
+  "slug": "dz-icosnet-algiers-data-center",
+  "canonical_project": "ICOSNET Algiers DATA CENTER",
+  "owner": "ICOSNET",
+  "location": {
+    "city": "",
+    "subnational": "Alger",
+    "country": "Algeria",
+    "country_code": "DZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/algeria/cheraga/",
+    "https://www.datacentermap.com/c/icosnet/"
+  ],
+  "notes": "Aggregate listings identify ICOSNET's Algiers DATA CENTER at Centre commercial El-Qods, 6th level of the central tower, Cheraga, Algiers, offering hosting/housing services.",
+  "world_batch": true
+}

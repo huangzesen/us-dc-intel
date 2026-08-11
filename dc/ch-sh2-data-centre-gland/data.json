@@ -1,0 +1,22 @@
+{
+  "slug": "ch-sh2-data-centre-gland",
+  "canonical_project": "SH2 Data Centre, Gland",
+  "owner": "Safe Host / STACK Infrastructure; Webuild and CSC Costruzioni as contractor",
+  "location": {
+    "city": "",
+    "subnational": "Vaud",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": 18,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.webuildgroup.com/en/projects/civil-industrial-buildings/data-centre-safe-host/",
+    "https://csc-sa.ch/en/projects/general-and-total-enterprise/sh2-data-center-gland",
+    "https://www.datacenterdynamics.com/en/news/safehost-to-extend-sh2-data-center-in-gland-switzerland/"
+  ],
+  "notes": "Webuild lists SH2 in Gland, Canton of Vaud as engineering in progress and states construction adds 18 MW of capacity; CSC says the work includes 18 MW of IT capacity. Earlier DCD coverage described the broader SH2 buildout as a 40 MW facility.",
+  "world_batch": true
+}

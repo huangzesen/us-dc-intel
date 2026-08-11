@@ -1,0 +1,22 @@
+{
+  "slug": "je-jt-five-oaks-data-centre",
+  "canonical_project": "JT Five Oaks Data Centre",
+  "owner": "JT Group Limited",
+  "location": {
+    "city": "",
+    "subnational": "Jersey",
+    "country": "Jersey",
+    "country_code": "JE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://business.jtglobal.com/wp-content/uploads/2025/11/JT-Five-Oaks-Data-Centre-Facility-Product-Description-2025.pdf",
+    "https://www.datacentermap.com/jersey/st-saviour/five-oaks-data-centre/",
+    "https://www.bailiwickexpress.com/community/jt-data-centres-achieve-top-global-quality-certification/"
+  ],
+  "notes": "Official JT facility product description identifies Five Oaks as a Tier 3 data centre with dual 1.5 MVA transformers, 4x560 kVA generators, 2x800 kVA UPS units, 660 kW cooling, rack colocation, and 24x7 operations. DatacenterMap places it at La Grande Route De St Martin, St Saviour. Bailiwick Express reported in 2014 that JT had invested in the Five Oaks Jersey data centre and that it was one of JT's certified Channel Islands data centres.",
+  "world_batch": true
+}

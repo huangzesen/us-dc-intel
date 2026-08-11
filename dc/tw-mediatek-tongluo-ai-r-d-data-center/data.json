@@ -1,0 +1,21 @@
+{
+  "slug": "tw-mediatek-tongluo-ai-r-d-data-center",
+  "canonical_project": "MediaTek Tongluo AI R&D Data Center",
+  "owner": "MediaTek",
+  "location": {
+    "city": "",
+    "subnational": "Miaoli",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": 15,
+  "status": "operational",
+  "evidence_date": "2026-05-08",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.taipeitimes.com/News/biz/archives/2026/05/08/2003856938",
+    "https://www.digitimes.com/news/a20260507PD237/mediatek-data-center-taiwan-nvidia-development.html"
+  ],
+  "notes": "Taipei Times reports MediaTek completed first-phase computing power buildout at its data center in Tongluo Township, Miaoli County, providing 15 MW for R&D; DigiTimes describes it as a new R&D data center at Tongluo Science Park using NVIDIA DGX SuperPOD.",
+  "world_batch": true
+}

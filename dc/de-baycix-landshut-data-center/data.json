@@ -1,0 +1,20 @@
+{
+  "slug": "de-baycix-landshut-data-center",
+  "canonical_project": "BayCIX Landshut data center",
+  "owner": "BayCIX GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Landshut (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-07",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.baycix.de/produkte/rechenzentrum/"
+  ],
+  "notes": "BayCIX service page states it operates its own data centers in Munich and Landshut, with partners in Regensburg and Frankfurt; no MW capacity disclosed.",
+  "world_batch": true
+}

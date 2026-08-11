@@ -1,0 +1,21 @@
+{
+  "slug": "kp-korea-computer-center-kcc",
+  "canonical_project": "Korea Computer Center (KCC)",
+  "owner": "Government of North Korea (state-owned)",
+  "location": {
+    "city": "",
+    "subnational": "Pyongyang",
+    "country": "Korea, Democratic People's Republic of",
+    "country_code": "KP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Korea_Computer_Center",
+    "http://38north.org/2011/10/ptjia102611/"
+  ],
+  "notes": "State-administered IT research center/enterprise headquartered in Mangyongdae-guyok, Pyongyang, founded 1990. The country's primary computing facility: operates the Kwangmyong national intranet and Naenara web portal, plus 8 R&D centers and 11 regional information centers; employs 1000+ staff. Not a commercial colocation datacenter; no public MW capacity data.",
+  "world_batch": true
+}

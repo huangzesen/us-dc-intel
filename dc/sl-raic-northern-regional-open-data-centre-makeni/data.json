@@ -1,0 +1,20 @@
+{
+  "slug": "sl-raic-northern-regional-open-data-centre-makeni",
+  "canonical_project": "RAIC Northern Regional Open Data Centre, Makeni",
+  "owner": "Right to Access Information Commission (RAIC) Sierra Leone",
+  "location": {
+    "city": "",
+    "subnational": "Northern",
+    "country": "Sierra Leone",
+    "country_code": "SL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-12-31",
+  "evidence_grade": "A",
+  "sources": [
+    "https://raic.gov.sl/images/raic-newsletter-vol-1-No-2-02.pdf"
+  ],
+  "notes": "Public open-data/resource centre in the Northern provincial headquarters city of Makeni; World Bank supported regional Open Data Centre operations. Not a commercial colocation or hyperscale data center.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "kg-national-bank-of-the-kyrgyz-republic-reserve-data-center",
+  "canonical_project": "National Bank of the Kyrgyz Republic Reserve Data Center",
+  "owner": "National Bank of the Kyrgyz Republic",
+  "location": {
+    "city": "",
+    "subnational": "Bishkek",
+    "country": "Kyrgyzstan",
+    "country_code": "KG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pt.uptimeinstitute.com/uptime-institute-awards/list/datacenter/reserve-data-center/2345"
+  ],
+  "notes": "Uptime Institute lists a separate NBKR Reserve Data Center located in Bishkek. Public capacity and operational detail were not found in open sources, but the Uptime listing is primary evidence of a data center asset.",
+  "world_batch": true
+}

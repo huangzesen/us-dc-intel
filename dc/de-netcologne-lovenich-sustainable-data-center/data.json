@@ -1,0 +1,22 @@
+{
+  "slug": "de-netcologne-lovenich-sustainable-data-center",
+  "canonical_project": "NetCologne Lövenich sustainable data center",
+  "owner": "NetCologne",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Cologne ( Köln )",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 5.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://netcologne-unternehmen.de/baustart-neues-rechenzentrum-von-netcologne/",
+    "https://www.datacenterdynamics.com/en/news/german-telco-netcologne-breaks-ground-on-data-center/",
+    "https://www.datacentermap.com/germany/cologne/netcologne-lovenich/"
+  ],
+  "notes": "NetCologne announced construction in Cologne-Lövenich in November 2023 with six initial data-center rooms; later listings report opening in September 2024 and 5 MW capacity.",
+  "world_batch": true
+}

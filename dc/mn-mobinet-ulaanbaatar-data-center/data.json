@@ -1,0 +1,22 @@
+{
+  "slug": "mn-mobinet-ulaanbaatar-data-center",
+  "canonical_project": "Mobinet Ulaanbaatar Data Center",
+  "owner": "Mobinet / Newcomm Group",
+  "location": {
+    "city": "",
+    "subnational": "Ulaanbaatar",
+    "country": "Mongolia",
+    "country_code": "MN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://mobinet.mn/datacenter",
+    "https://www.datacenterdynamics.com/en/news/mongolias-sovereign-wealth-fund-looks-to-bring-in-data-center-development/",
+    "https://www.datacenters.com/mobicom-networks-llc-ulaanbaatar"
+  ],
+  "notes": "Mobinet's official page advertises data-center services; DCD notes Newcomm Group's Mobinet claims facilities in Mongolia, and Datacenters.com lists a Mobicom/Mobinet Ulaanbaatar data center at 28 UNESCO Street.",
+  "world_batch": true
+}

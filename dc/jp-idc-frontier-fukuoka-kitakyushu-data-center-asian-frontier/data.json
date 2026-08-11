@@ -1,0 +1,21 @@
+{
+  "slug": "jp-idc-frontier-fukuoka-kitakyushu-data-center-asian-frontier",
+  "canonical_project": "IDC Frontier Fukuoka Kitakyushu Data Center (Asian Frontier)",
+  "owner": "IDC Frontier / SoftBank Corp.",
+  "location": {
+    "city": "",
+    "subnational": "Fukuoka",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idcf.jp/en/datacenter/location/asianfrontier/",
+    "https://www.idcf.jp/en/datacenter/location/"
+  ],
+  "notes": "IDC Frontier official page describes the Fukuoka Kitakyushu Data Center in Kitakyushu, Fukuoka as one of Western Japan's largest data centers, with multiple buildings and expandable site/power.",
+  "world_batch": true
+}

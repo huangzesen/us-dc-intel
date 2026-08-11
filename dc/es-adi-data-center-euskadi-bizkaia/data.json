@@ -1,0 +1,21 @@
+{
+  "slug": "es-adi-data-center-euskadi-bizkaia",
+  "canonical_project": "ADI Data Center Euskadi - Bizkaia",
+  "owner": "Atlantic Data Infrastructure (Euskaltel, Dominion, Teknei, Basque Government)",
+  "location": {
+    "city": "",
+    "subnational": "Basque Country",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/clients/atlantic-data-infrastructure-adi",
+    "https://www.datacenterdynamics.com/en/news/euskaltel-breaks-ground-on-basque-country-data-center/"
+  ],
+  "notes": "ADI's Bizkaia facility is being commissioned in two 1MW phases with Uptime Tier IV fault-tolerance; DCD reported first facility due live in H1 2024 and venture ownership/investment structure.",
+  "world_batch": true
+}

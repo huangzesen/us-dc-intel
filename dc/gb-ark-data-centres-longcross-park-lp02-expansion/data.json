@@ -1,0 +1,23 @@
+{
+  "slug": "gb-ark-data-centres-longcross-park-lp02-expansion",
+  "canonical_project": "Ark Data Centres Longcross Park / LP02 expansion",
+  "owner": "Ark Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "England - Surrey",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 36,
+  "status": "approved",
+  "evidence_date": "2026-06-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ark-d-c.com/locations/longcross-park",
+    "https://www.datacenterdynamics.com/en/news/ark-dc-to-add-new-building-to-longcross-data-center-campus-outside-london-uk/",
+    "https://datacentrenews.uk/story/ark-to-invest-gbp-807m-in-surrey-data-centre-expansion",
+    "https://www.datacenterdynamics.com/en/news/nebius-to-host-uk-nvidia-blackwell-ultra-gpu-cluster-in-ark-data-centres-facility-in-surrey/"
+  ],
+  "notes": "Ark operates the Longcross Park campus in Surrey. Public reports say Ark is investing GBP807m, with planning approval for vertical extensions, supporting infrastructure upgrades, and a new 36MW LP02 facility; Nebius is expanding its AI cloud deployment at the campus after an initial 16MW lease.",
+  "world_batch": true
+}

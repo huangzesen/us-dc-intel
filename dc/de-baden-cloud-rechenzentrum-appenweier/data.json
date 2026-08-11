@@ -1,0 +1,22 @@
+{
+  "slug": "de-baden-cloud-rechenzentrum-appenweier",
+  "canonical_project": "BADEN CLOUD Rechenzentrum Appenweier",
+  "owner": "LEITWERK Rechenzentren Appenweier GmbH / E-Werk Mittelbaden",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Ortenaukreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.badencloud.de/rechenzentren/rechenzentrum-appenweier/",
+    "https://www.e-werk-mittelbaden.de/sites/default/files/media_document/2021-05/20210506_okostrom-fur-rechenzentren-appenweier.pdf",
+    "https://www.leitwerk.de/it-infrastruktur/rechenzentrum/"
+  ],
+  "notes": "Official BADEN CLOUD page says Appenweier meets TÜV level 3 high-availability data-center requirements; E-Werk Mittelbaden release says the Appenweier data center is supplied with certified green power and reports PUE around 1.4; LEITWERK reports 2025 average PUE below 1.3.",
+  "world_batch": true
+}

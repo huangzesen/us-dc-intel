@@ -1,0 +1,21 @@
+{
+  "slug": "jp-white-data-center-bibai",
+  "canonical_project": "White Data Center Bibai",
+  "owner": "White Data Center; Bibai City-related project",
+  "location": {
+    "city": "",
+    "subnational": "Hokkaido",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-01-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.gov-online.go.jp/eng/publicity/book/hlj/html/202201/202201_07_en.html",
+    "https://www.datacenterdynamics.com/en/news/japanese-snow-cooled-data-center-opens-an-eel-farm/"
+  ],
+  "notes": "Japanese government publicity and DCD describe a snow-cooled data center in Bibai, Hokkaido, operating commercially from 2021 and using stored snow/meltwater for cooling; MW not disclosed.",
+  "world_batch": true
+}

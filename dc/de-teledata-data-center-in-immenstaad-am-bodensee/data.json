@@ -1,0 +1,21 @@
+{
+  "slug": "de-teledata-data-center-in-immenstaad-am-bodensee",
+  "canonical_project": "TeleData data center in Immenstaad am Bodensee",
+  "owner": "TeleData GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Bodenseekreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.teledata.de/geschaeftskunden/rechenzentrum-cloud",
+    "https://www.teledata.de/ueber-teledata/aktuelles/newsmeldung/erste-zvbb-gemeinde-ging-mit-owingen-online"
+  ],
+  "notes": "TeleData states it operates a high-security data center in Immenstaad am Bodensee, offering housing, IaaS/cloud, managed backup and hosting; no MW capacity disclosed.",
+  "world_batch": true
+}

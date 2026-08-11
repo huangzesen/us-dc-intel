@@ -1,0 +1,22 @@
+{
+  "slug": "ru-selectel-tsvetochnaya-2-data-center",
+  "canonical_project": "Selectel Tsvetochnaya 2 Data Center",
+  "owner": "Selectel",
+  "location": {
+    "city": "",
+    "subnational": "Saint Petersburg",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://selectel.ru/about/data-centers/",
+    "https://selectel.ru/blog/tcvetochnaya-2/",
+    "https://docs.selectel.ru/en/infrastructure/locations/"
+  ],
+  "notes": "Selectel's official page lists Tsvetochnaya 2 with 1,885 sqm of server rooms, 969 racks, and 10 MW supplied power; Selectel's 2015 launch article says the Tier III facility is in Saint Petersburg's Moskovsky district.",
+  "world_batch": true
+}

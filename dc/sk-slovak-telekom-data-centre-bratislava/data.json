@@ -1,0 +1,23 @@
+{
+  "slug": "sk-slovak-telekom-data-centre-bratislava",
+  "canonical_project": "Slovak Telekom Data Centre (Bratislava)",
+  "owner": "Slovak Telekom, a.s. (T-Com)",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.telekom.sk/biznis/stredne-velke-firmy/datove-centra",
+    "https://datacentercatalog.com/slovakia/slovak-telekom-dc-jarosova",
+    "https://datacentercatalog.com/slovakia/shc-ii",
+    "https://datacentercatalog.com/slovakia/shc-iii"
+  ],
+  "notes": "Official page: DC located ~1 km from Bratislava centre, 5 km from airport, 80 km from Vienna, with UPS and doubled motor generators for uninterrupted supply. Data Center Catalog lists several Slovak Telekom sites in Bratislava: DC Jarosova, SHC II, SHC III and a generic 'Slovak Telekom DataCenter' entry. Capacity not published.",
+  "world_batch": true
+}

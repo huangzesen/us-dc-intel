@@ -1,0 +1,21 @@
+{
+  "slug": "fr-etix-paris-3-velizy",
+  "canonical_project": "ETIX Paris #3 Vélizy",
+  "owner": "ETIX Everywhere",
+  "location": {
+    "city": "",
+    "subnational": "Yvelines",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 4.4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.etixeverywhere.com/data-centers-in-paris/",
+    "https://www.etixeverywhere.com/our-data-centers/"
+  ],
+  "notes": "ETIX's official Paris data centers page identifies ETIX Paris #3 at 16-18 Av. de l'Europe, 78140 Vélizy-Villacoublay, with 4,400 kW and 800 racks; ETIX describes the Paris sites as operational interconnected Tier III-equivalent data centers.",
+  "world_batch": true
+}

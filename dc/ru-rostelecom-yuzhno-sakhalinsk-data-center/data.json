@@ -1,0 +1,21 @@
+{
+  "slug": "ru-rostelecom-yuzhno-sakhalinsk-data-center",
+  "canonical_project": "Rostelecom Yuzhno-Sakhalinsk data center",
+  "owner": "Rostelecom",
+  "location": {
+    "city": "",
+    "subnational": "Sakhalin",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2020-09-18",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.comnews.ru/content/209161/2020-09-18/2020-w38/sakhaline-otkryt-samyy-vostochnyy-data-centr-rossii",
+    "https://www.interfax-russia.ru/far-east/news/rostelekom-otkryl-data-centr-na-sahaline-samyy-vostochnyy-v-rossii"
+  ],
+  "notes": "Rostelecom put the Yuzhno-Sakhalinsk data center into commercial operation; initial capacity 1.5 MW and 25 rack spaces, expandable to 180 rack spaces.",
+  "world_batch": true
+}

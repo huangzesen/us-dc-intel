@@ -1,0 +1,21 @@
+{
+  "slug": "th-gsa02-gulf-singtel-ais-chonburi-data-center",
+  "canonical_project": "GSA02 (Gulf-Singtel-AIS) Chonburi Data Center",
+  "owner": "GSA Data Center (GULF 40% / Singtel 35% / AIS 25%)",
+  "location": {
+    "city": "",
+    "subnational": "Chon Buri",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": 35,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.bangkokpost.com/business/general/2983710/maybank-dubs-thailand-the-next-data-centre-frontier",
+    "https://gsa-dc.com/"
+  ],
+  "notes": "GSA allocating 13.5bn baht to build a data centre with 35 MW IT load in Chon Buri; with this, GSA capacity will reach 90 MW (50 MW in Samut Prakan). GSA became the first Thai data center to deploy/activate NVIDIA GB200 systems. GSA02 listed on gsa-dc.com as Chonburi, Thailand.",
+  "world_batch": true
+}

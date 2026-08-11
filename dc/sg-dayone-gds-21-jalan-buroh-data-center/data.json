@@ -1,0 +1,21 @@
+{
+  "slug": "sg-dayone-gds-21-jalan-buroh-data-center",
+  "canonical_project": "DayOne / GDS 21 Jalan Buroh Data Center",
+  "owner": "DayOne (formerly GDS International)",
+  "location": {
+    "city": "",
+    "subnational": "South West",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 20,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dayonedc.com/market/singapore",
+    "https://www.datacenterdynamics.com/en/news/gds-acquires-singapore-warehouse-plans-data-center-redevelopment/"
+  ],
+  "notes": "DayOne official page says it received a 2023 DC-CFA permit for about 20MW and acquired 21 Jalan Buroh in 2024; DCD reports the warehouse acquisition for data center redevelopment.",
+  "world_batch": true
+}

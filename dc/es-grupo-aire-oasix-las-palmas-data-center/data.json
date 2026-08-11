@@ -1,0 +1,21 @@
+{
+  "slug": "es-grupo-aire-oasix-las-palmas-data-center",
+  "canonical_project": "Grupo Aire OASIX Las Palmas data center",
+  "owner": "Grupo Aire / OASIX",
+  "location": {
+    "city": "",
+    "subnational": "Canary Islands",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-12-10",
+  "evidence_grade": "A",
+  "sources": [
+    "https://airetech.es/en/aire-cloud/data-centers/data-center-in-the-canary-islands/",
+    "https://www.stackscale.com/data-centers/canary-islands/"
+  ],
+  "notes": "Carrier-neutral Las Palmas de Gran Canaria facility at Av. Juan XXIII 44, operational since 2010, with about 235 sqm and more than 50 racks for colocation/cloud/interconnection.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "fr-xl360-toulon-data-center",
+  "canonical_project": "XL360 Toulon data center",
+  "owner": "XL DataCenter / XL360",
+  "location": {
+    "city": "",
+    "subnational": "Var",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-05-19",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.xl360.fr/",
+    "https://www.datacenterdynamics.com/en/news/xl360-opens-data-center-in-toulon-france/"
+  ],
+  "notes": "XL360 official page lists the Toulon data center; DCD reported its opening/inauguration as the first data center in the Var department.",
+  "world_batch": true
+}

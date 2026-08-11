@@ -1,0 +1,21 @@
+{
+  "slug": "vn-thai-nguyen-provincial-data-center",
+  "canonical_project": "Thai Nguyen Provincial Data Center",
+  "owner": "Thai Nguyen provincial government",
+  "location": {
+    "city": "",
+    "subnational": "Thai Nguyen",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-03-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://thainguyen.gov.vn/thoi-su/khai-truong-trung-tam-du-lieu-tinh-thai-nguyen-252738",
+    "https://baothainguyen.vn/nghi-quyet-57/202603/thai-nguyen-khai-truong-trung-tam-du-lieu-tinh-hinh-thanh-nen-tang-quan-tri-so-a670c12/"
+  ],
+  "notes": "Official provincial portal says Thai Nguyen launched its provincial data center on 2026-03-13; includes shared data warehouse, IOC and upgraded C-ThaiNguyen platform.",
+  "world_batch": true
+}

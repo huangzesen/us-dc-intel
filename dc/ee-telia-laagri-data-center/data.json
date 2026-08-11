@@ -1,0 +1,21 @@
+{
+  "slug": "ee-telia-laagri-data-center",
+  "canonical_project": "Telia Laagri data center",
+  "owner": "Telia Eesti / Telia Company",
+  "location": {
+    "city": "",
+    "subnational": "Harju",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-07-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/telia-estonia-build-solar-plant-cut-costs-its-laagri-data-center/",
+    "https://www.teliacompany.com/en/solutions/global/data-centers-and-colocation"
+  ],
+  "notes": "DCD reported Telia Estonia building a solar plant next to its Laagri data center in Harju County.",
+  "world_batch": true
+}

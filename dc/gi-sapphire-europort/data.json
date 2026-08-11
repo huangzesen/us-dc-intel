@@ -1,0 +1,22 @@
+{
+  "slug": "gi-sapphire-europort",
+  "canonical_project": "Sapphire Europort",
+  "owner": "Sapphire Networks",
+  "location": {
+    "city": "",
+    "subnational": "Gibraltar",
+    "country": "Gibraltar",
+    "country_code": "GI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/gibraltar/gibraltar/sapphire-dc2/",
+    "https://sapphire-networks.com/",
+    "https://www.the-report.com/reports/gibraltar/myth-and-method/data-centres-in-the-rock-of-gibraltar/"
+  ],
+  "notes": "Operational colocation/data centre service at Eurotowers, 3 Europort Road / Suite 942 Europort; Data Center Map describes it as a chilled water-cooled co-location facility with up to 4 kW power per rack, and secondary Gibraltar coverage describes Sapphire as a data centre services provider at Europort.",
+  "world_batch": true
+}

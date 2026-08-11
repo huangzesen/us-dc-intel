@@ -1,0 +1,22 @@
+{
+  "slug": "sb-satsol-honiara-data-centre-and-cloud-services",
+  "canonical_project": "SATSOL Honiara Data Centre and Cloud Services",
+  "owner": "SATSOL",
+  "location": {
+    "city": "",
+    "subnational": "Capital Territory",
+    "country": "Solomon Islands",
+    "country_code": "SB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://satsol.net/data-centre-and-cloud-services/",
+    "https://satsol.net/ict-services/",
+    "https://www.datacentermap.com/solomon-islands/honiara/satsol-data-center/"
+  ],
+  "notes": "SATSOL describes its own specially designed data centre located high above Honiara, offering rack space, virtual servers, disaster recovery, offsite backup, web hosting and data storage; no public MW capacity found.",
+  "world_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "de-ennit-data-center-kiel",
+  "canonical_project": "ennit Data Center Kiel",
+  "owner": "ennit AG / TNG Stadtnetz GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Kiel",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.ennit.de/en/",
+    "https://www.datacentermap.com/germany/kiel/",
+    "https://baxtel.com/data-center/ennit-kiel",
+    "https://datacenterplatform.com/data-centers/tng-stadtnetz-gmbh/tng-stadtnetz-gmbh-germany/ennit-server-gmbh/"
+  ],
+  "notes": "Data Center Map lists ennit Data Center at Projensdorfer Straße 324, 24106 Kiel and ennit Data Center 2 at Gerhard-Fröhler-Straße 12; ennit states it is based in Kiel and operates modern data-center technology. Public MW capacity not found.",
+  "world_batch": true
+}

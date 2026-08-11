@@ -1,0 +1,22 @@
+{
+  "slug": "ug-nita-u-national-data-centre-kampala",
+  "canonical_project": "NITA-U National Data Centre (Kampala)",
+  "owner": "National Information Technology Authority - Uganda (NITA-U), Government of Uganda",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Uganda",
+    "country_code": "UG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://demo.nita.go.ug/nita-u-services/technical-services/ministries-departments-agencies-local-govts/nita-u-national-data",
+    "https://www.spyuganda.com/museveni-launches-nita-uganda-jinja-data-centre/",
+    "https://www.watchdoguganda.com/business/20260616/193407/digital-evolution-nita-uganda-unveils-aggressive-5-year-masterplan-to-bridge-the-e-government-gap.html"
+  ],
+  "notes": "The government's principal National Data Centre base is located in Kampala City (Central region); NITA-U's official services page describes it as the preferred hosting facility for ministries, departments, agencies and local governments with a 99.98% SLA, Tier III-grade availability, security and scalability. The Jinja Data Centre (Eastern region) is described by NITA-U as an annex of this Kampala base. NITA-U's FY2025/26-2029/30 strategic plan targets scaling National Data Centre utilization from 70% to 83%. No public MW capacity or rack count found.",
+  "world_batch": true
+}

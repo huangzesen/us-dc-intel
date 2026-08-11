@@ -1,0 +1,21 @@
+{
+  "slug": "se-microsoft-staffanstorp-datacenter",
+  "canonical_project": "Microsoft Staffanstorp datacenter",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Scania",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://local.microsoft.com/communities/emea/sweden/",
+    "https://news.microsoft.com/source/emea/features/how-microsofts-new-datacenter-region-in-sweden-incorporates-the-companys-sustainability-commitments/"
+  ],
+  "notes": "Microsoft states it operates datacenters in Gavle, Sandviken, and Staffanstorp; the Swedish cloud region includes Staffanstorp in Skane/Scania.",
+  "world_batch": true
+}

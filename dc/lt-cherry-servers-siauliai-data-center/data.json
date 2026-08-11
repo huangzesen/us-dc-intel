@@ -1,0 +1,21 @@
+{
+  "slug": "lt-cherry-servers-siauliai-data-center",
+  "canonical_project": "Cherry Servers Siauliai data center",
+  "owner": "Cherry Servers",
+  "location": {
+    "city": "",
+    "subnational": "Siauliai County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cherryservers.com/network/locations",
+    "https://www.datacentermap.com/lithuania/siauliai/duomenu-centras/"
+  ],
+  "notes": "Cherry Servers lists Siauliai, Lithuania as a data-center location at Tilzes 74-320 with bare metal, VPS, VDS and custom-server products.",
+  "world_batch": true
+}

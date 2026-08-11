@@ -1,0 +1,22 @@
+{
+  "slug": "kr-kt-cloud-daejeon-data-center",
+  "canonical_project": "kt cloud Daejeon Data Center",
+  "owner": "kt cloud / KT IDC",
+  "location": {
+    "city": "",
+    "subnational": "Daejeon - Seo-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ktcloud.com/service/idc?lan=eng",
+    "https://www.datacenters.com/kt-cloud-daejeon",
+    "https://www.connectbase.com/provider/kt-cloud-daejeon/"
+  ],
+  "notes": "kt cloud official IDC service page confirms KT's national data-center business; third-party directories place the Daejeon facility in Seo-gu, Daejeon, with colocation/IDC services. Capacity not disclosed.",
+  "world_batch": true
+}

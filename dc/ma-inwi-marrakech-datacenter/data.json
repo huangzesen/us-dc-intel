@@ -1,0 +1,22 @@
+{
+  "slug": "ma-inwi-marrakech-datacenter",
+  "canonical_project": "INWI Marrakech Datacenter",
+  "owner": "Wana Corporate / inwi",
+  "location": {
+    "city": "",
+    "subnational": "Marrakech-Safi",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": 1.52,
+  "status": "operational",
+  "evidence_date": "2023-09-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telecompaper.com/news/inwi-secures-tier-3-certification-for-new-data-centres-in-settat-and-marrakech--1475828",
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/MA",
+    "https://www.datacenters.com/wana-corporate-inwi-marrakech"
+  ],
+  "notes": "Inwi announced a new Tier 3 Marrakech site; Uptime lists Tier III design and constructed-facility certification. Capacity comes from a project profile describing 1,520kW IT load, so treat MW figure as lower-confidence.",
+  "world_batch": true
+}

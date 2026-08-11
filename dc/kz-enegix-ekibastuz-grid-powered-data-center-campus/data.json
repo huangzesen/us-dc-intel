@@ -1,0 +1,22 @@
+{
+  "slug": "kz-enegix-ekibastuz-grid-powered-data-center-campus",
+  "canonical_project": "Enegix Ekibastuz grid-powered data center campus",
+  "owner": "Enegix",
+  "location": {
+    "city": "",
+    "subnational": "Pavlodar",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": 200.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://enegix.net/en",
+    "https://www.datacentermap.com/kazakhstan/ekibastuz/enegix-kazakhstan/",
+    "https://www.datacentermap.com/kazakhstan/ekibastuz/enegix-kazakhstan-ii/"
+  ],
+  "notes": "Enegix official site lists its Ekibastuz, Kazakhstan grid-powered data center campus with 150+50 MW, total capacity 200 MW, air cooling, and 15 ha privately owned campus; facility directories split this across Ekibastuz I and II.",
+  "world_batch": true
+}

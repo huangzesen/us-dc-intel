@@ -1,0 +1,22 @@
+{
+  "slug": "in-pi-datacenters-amaravati-vijayawada-data-center-mangalagiri-it-park",
+  "canonical_project": "Pi Datacenters Amaravati / Vijayawada Data Center, Mangalagiri IT Park",
+  "owner": "Pi Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Andhra Pradesh - Guntur",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 60,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pidatacenters.com/",
+    "https://www.peeringdb.com/fac/6888",
+    "https://www.datacentermap.com/c/pi-datacenters1/"
+  ],
+  "notes": "Pi's official site describes its Amaravati (Vijayawada) hyperscale data center as its flagship hub with up to 5,000 racks and 60MW capacity; PeeringDB and DataCenterMap place the facility at Survey #49/P, Plot 12, IT Park, Mangalagiri, Guntur district.",
+  "world_batch": true
+}

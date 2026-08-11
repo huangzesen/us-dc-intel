@@ -1,0 +1,22 @@
+{
+  "slug": "be-kevlinx-bru01-brussels",
+  "canonical_project": "KevlinX BRU01 Brussels",
+  "owner": "KevlinX Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Brussels",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": 16,
+  "status": "operational",
+  "evidence_date": "2026-01-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.kevlinx.com/location/brussels",
+    "https://www.kevlinx.com/news/datacenter-brussel",
+    "https://www.datacenterdynamics.com/en/news/kevlinxs-32mw-brussels-data-center-ready-for-service/"
+  ],
+  "notes": "Operator says BRU01 is in the northern Brussels City Region, 32MW+ overall, with 16MW IT capacity in phase one; KevlinX announced it was live at the start of 2026.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "in-microsoft-azure-india-south-central-hyderabad-cloud-region",
+  "canonical_project": "Microsoft Azure India South Central (Hyderabad) cloud region",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Telangana - Hyderabad",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-07",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/microsoft-launches-india-south-central-hyderabad-cloud-region/",
+    "https://www.news18.com/tech/microsofts-4th-indian-data-centre-in-hyderabad-goes-live-adani-group-bajaj-finserv-hdfc-bank-and-pb-pay-already-using-10258495.html",
+    "https://telanganatoday.com/microsoft-opens-hyderabad-cloud-region-to-boost-indias-ai-cloud-infra"
+  ],
+  "notes": "Microsoft announced general availability of its India South Central region in Hyderabad (Aug 2026), its fourth India region; three availability zones with air-cooled chillers (zero-water cooling). Part of Microsoft's ~USD 20.5 billion India cloud/AI investment. Early customers include HDFC Bank, Adani Digital Lab, Bajaj Finance, PB Pay. MW capacity not disclosed.",
+  "world_batch": true
+}

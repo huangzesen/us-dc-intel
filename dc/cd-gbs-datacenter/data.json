@@ -1,0 +1,20 @@
+{
+  "slug": "cd-gbs-datacenter",
+  "canonical_project": "GBS Datacenter",
+  "owner": "Global Broadband Solution",
+  "location": {
+    "city": "",
+    "subnational": "Kinshasa",
+    "country": "Congo, Democratic Republic of the",
+    "country_code": "CD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/dr-congo/kinshasa/gbsdc1/"
+  ],
+  "notes": "DataCenterMap lists a Kinshasa city-center GBS datacenter offering suites, cabinets, remote hands, bare-metal/cloud servers and rack/satellite landing-station hosting; operator site was not reachable during check, so confidence is aggregate-only.",
+  "world_batch": true
+}

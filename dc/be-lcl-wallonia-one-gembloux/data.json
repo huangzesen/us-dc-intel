@@ -1,0 +1,22 @@
+{
+  "slug": "be-lcl-wallonia-one-gembloux",
+  "canonical_project": "LCL Wallonia One Gembloux",
+  "owner": "LCL Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Wallonia",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-04-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.lcl.be/en/news/lcl-acquires-the-engie-solutions-data-center-and-now-owns-its-first-data-center-in-wallonia/",
+    "https://www.datacenterdynamics.com/en/news/lcl-completes-expansion-of-solar-park-at-wallonia-one-campus/",
+    "https://www.digitalwallonia.be/fr/cartographie/lcl/"
+  ],
+  "notes": "LCL acquired the former ENGIE Solutions data center in Gembloux and renamed it LCL Wallonia One; later coverage confirms ongoing operation and solar-park expansion.",
+  "world_batch": true
+}

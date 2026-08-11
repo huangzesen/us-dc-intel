@@ -1,0 +1,21 @@
+{
+  "slug": "jp-densan-system-ogaki-idc",
+  "canonical_project": "Densan System Ogaki IDC",
+  "owner": "Densan System Co., Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Gifu",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.dsk-idc.jp/03-01dc.html",
+    "https://www.jdcc.or.jp/dclist/"
+  ],
+  "notes": "Densan System official IDC page describes Ogaki IDC in Gifu Prefecture with seismic-isolated structure, dual utility feeds, generator backup, 24/365 operations and multi-layer security.",
+  "world_batch": true
+}

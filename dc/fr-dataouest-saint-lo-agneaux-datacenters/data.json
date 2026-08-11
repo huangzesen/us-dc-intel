@@ -1,0 +1,22 @@
+{
+  "slug": "fr-dataouest-saint-lo-agneaux-datacenters",
+  "canonical_project": "Dataouest Saint-Lô/Agneaux datacenters",
+  "owner": "Dataouest",
+  "location": {
+    "city": "",
+    "subnational": "Manche",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.dataouest.fr/accueil-dataouest/",
+    "https://www.dataouest.fr/hebergement-datacenter/",
+    "https://www.dataouest.fr/a-propos/"
+  ],
+  "notes": "Dataouest says it hosts customer information systems in its Saint-Lô datacenter and has built its own datacenters in Normandy; company history describes the first private 100% Manche data center and later retention of the Agneaux datacenter.",
+  "world_batch": true
+}

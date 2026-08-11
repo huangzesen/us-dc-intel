@@ -1,0 +1,22 @@
+{
+  "slug": "kr-national-information-resources-service-daejeon-center",
+  "canonical_project": "National Information Resources Service Daejeon Center",
+  "owner": "National Information Resources Service / Ministry of the Interior and Safety",
+  "location": {
+    "city": "",
+    "subnational": "Daejeon - Yuseong-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-06-10",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nirs.go.kr/",
+    "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=126568",
+    "https://www.koreajoongangdaily.com/korea/nirs-fire-destroys-governments-cloud-storage-system-no-backups-available/12294122"
+  ],
+  "notes": "Government data/cloud infrastructure center in Yuseong-gu, Daejeon. MOIS announced a follow-on innovation ISP after the Daejeon center fire; press coverage confirms server-room operations and central government systems hosted there. Capacity not disclosed.",
+  "world_batch": true
+}

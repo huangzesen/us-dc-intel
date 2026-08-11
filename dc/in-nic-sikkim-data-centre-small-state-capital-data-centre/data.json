@@ -1,0 +1,21 @@
+{
+  "slug": "in-nic-sikkim-data-centre-small-state-capital-data-centre",
+  "canonical_project": "NIC-Sikkim Data Centre / small state-capital data centre",
+  "owner": "National Informatics Centre",
+  "location": {
+    "city": "",
+    "subnational": "Sikkim - Gangtok",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-11-14",
+  "evidence_grade": "A",
+  "sources": [
+    "https://informatics.nic.in/files/websites/oct-2023/sikkim-article-detail.php",
+    "https://sikkim.nic.in/service/data-centres/"
+  ],
+  "notes": "NIC Sikkim describes the NIC-Sikkim Data Centre as operational since August 2021 and providing PaaS/IaaS services for e-governance; NIC Sikkim's data-centres service page says NIC has small data centres at various state capitals for round-the-clock government services. Capacity not disclosed.",
+  "world_batch": true
+}

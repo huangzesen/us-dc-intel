@@ -1,0 +1,21 @@
+{
+  "slug": "cn-gw",
+  "canonical_project": "阳江GW级海底算力中心",
+  "owner": "中国华电集团 / 中国联通 / 中科曙光 / 东莞中科云 / 中能建广东院 / 宁波大学 / 广东沧溟探源海洋科技等",
+  "location": {
+    "city": "",
+    "subnational": "Guangdong - Yangjiang Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 2000.0,
+  "status": "announced",
+  "evidence_date": "2026-04-28",
+  "evidence_grade": "B",
+  "sources": [
+    "https://finance.sina.com.cn/tech/roll/2026-04-28/doc-inhvzmyn7423939.shtml",
+    "https://wind.imarine.cn/news/140379.html"
+  ],
+  "notes": "Reported as a GW-class subsea computing center in Yangjiang waters, planned total installed power 2,000 MW relying on offshore wind and staged implementation; highly ambitious and should be treated as announced/early-stage pending primary filings.",
+  "world_batch": true
+}

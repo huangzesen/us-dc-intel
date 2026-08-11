@@ -1,0 +1,22 @@
+{
+  "slug": "si-bass-d-o-o-celje-network-hosting-data-center-class-asn",
+  "canonical_project": "BASS d.o.o. Celje network / hosting data-center-class ASN",
+  "owner": "BASS d.o.o., Celje",
+  "location": {
+    "city": "",
+    "subnational": "Celje",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://lite.ip2location.com/pt/as197579",
+    "https://sitip.gzs.si/vsebina/ENGLISH/dnnprintmode/true?ContainerSrc=%5BG%5DContainers/GZS/NoTitle&SkinSrc=%5BG%5DSkins/GZS/PrintNoSkin",
+    "https://www.bass.si/"
+  ],
+  "notes": "Weak facility evidence: IP2Location ASN metadata classifies AS197579 Bass d.o.o. Celje as Data Center/Web Hosting/Transit, and the Slovenian IT Infrastructure & Data Center Section lists BASS d.o.o., Celje as a member. BASS official site confirms the Celje software/IT company presence, but no public MW capacity or named physical data-center facility was found.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "il-serverfarm-isr1-north-tel-aviv",
+  "canonical_project": "Serverfarm ISR1 North Tel Aviv",
+  "owner": "Serverfarm",
+  "location": {
+    "city": "",
+    "subnational": "Tel Aviv",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.serverfarmllc.com/tel-aviv-data-center/"
+  ],
+  "notes": "Serverfarm official site describes ISR1 as its first Middle East-based data center in North Tel Aviv, offering scalable capacity and connectivity near transport hubs.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "de-nexspace-heidelberg-innovation-park-data-center",
+  "canonical_project": "nexspace Heidelberg Innovation Park data center",
+  "owner": "nexspace data centers GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Heidelberg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2023-11-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.nexspace.de/en/locations",
+    "https://www.datacenterdynamics.com/en/news/nexspace-launches-data-center-in-heidelberg-germany/"
+  ],
+  "notes": "Nexspace lists Heidelberg as a data-center location at George-Boole-Weg 3. DCD reported the launch in Heidelberg Innovation Park with 2 MW IT load across 4,000 sqm, expandable to 8,000 sqm.",
+  "world_batch": true
+}

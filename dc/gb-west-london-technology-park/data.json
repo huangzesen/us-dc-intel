@@ -1,0 +1,22 @@
+{
+  "slug": "gb-west-london-technology-park",
+  "canonical_project": "West London Technology Park",
+  "owner": "Greystoke Land",
+  "location": {
+    "city": "",
+    "subnational": "England - Buckinghamshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 90,
+  "status": "unknown",
+  "evidence_date": "2026-01-23",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.greystoke.co.uk/data-centres",
+    "https://www.datacenterdynamics.com/en/news/planning-permission-for-buckinghamshire-data-center-likely-to-be-quashed-after-uk-government-admits-serious-logical-error/",
+    "https://www.theguardian.com/politics/2026/jan/22/government-ai-datacentre-approval-quashed"
+  ],
+  "notes": "Greystoke describes a 90MW project next to the M25 in Buckinghamshire with outline/reserved matters activity; January 2026 reporting says the UK government admitted an error in approval and permission was likely to be quashed, so current planning status is uncertain.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "in-tulip-data-city-tdc-bangalore",
+  "canonical_project": "Tulip Data City TDC Bangalore",
+  "owner": "Tulip Telecom / Tulip Data Center Services",
+  "location": {
+    "city": "",
+    "subnational": "Karnataka - Bangalore Urban",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 100,
+  "status": "operational",
+  "evidence_date": "2012-02-07",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/worlds-third-largest-data-center-open-for-business/",
+    "https://www.datacentermap.com/india/bangalore/tulip-data-city/"
+  ],
+  "notes": "DCD reported Tulip Data City opened in Bengaluru with about 0.9 million sq ft, 12,000 racks and 100 MW of power. Later directory sources describe available/sanctioned power differently; retained original announced power with note.",
+  "world_batch": true
+}

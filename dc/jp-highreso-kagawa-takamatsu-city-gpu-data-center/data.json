@@ -1,0 +1,22 @@
+{
+  "slug": "jp-highreso-kagawa-takamatsu-city-gpu-data-center",
+  "canonical_project": "HIGHRESO Kagawa / Takamatsu City GPU Data Center",
+  "owner": "HIGHRESO Kagawa Co., Ltd.; HIGHRESO Co., Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Kagawa",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-11-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.toyota-tsusho.com/english/press/detail/250704_006636.html",
+    "https://nvidianews.nvidia.com/news/japan-cloud-leaders-build-nvidia-ai-infrastructure-to-transform-industries",
+    "https://daiwa-ei.jp/en/portfolio/infrastructure/sub/p166/"
+  ],
+  "notes": "NVIDIA said HIGHRESO's H200-powered Kagawa data center was expected to begin operations in the following month; Toyota Tsusho later states HIGHRESO operates GPU-dedicated AI development data centers in Shika, Ishikawa and Takamatsu, Kagawa. MW not disclosed.",
+  "world_batch": true
+}

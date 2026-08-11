@@ -1,0 +1,22 @@
+{
+  "slug": "fr-maif-chauray-data-center",
+  "canonical_project": "MAIF Chauray Data Center",
+  "owner": "MAIF",
+  "location": {
+    "city": "",
+    "subnational": "Deux-Sèvres",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://entreprise.maif.fr/files/live/sites/entreprise-Maif/files/pdf/nos-rapports/rapports-annuels/2021/rapport-annuel-maif-2021.pdf",
+    "https://e3p.jrc.ec.europa.eu/en/groups/data-centres-code-conduct/participants?page=2",
+    "https://www.en2mots.info/une/2020/08/05/503669-MAIF%2Bva%2Bconstruire%2Bson%2Bdata%2Bcenter%2B%C3%A0%2BChauray"
+  ],
+  "notes": "MAIF annual reporting describes construction of the new Chauray data center; EU Code of Conduct participant list includes MAIF's Chauray data center from 2021, supporting operational status.",
+  "world_batch": true
+}

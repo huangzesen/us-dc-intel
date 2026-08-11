@@ -1,0 +1,22 @@
+{
+  "slug": "ru-rostelecom-datadome-chita-data-center",
+  "canonical_project": "Rostelecom / DataDome Chita Data Center",
+  "owner": "DataDome for PJSC Rostelecom",
+  "location": {
+    "city": "",
+    "subnational": "Transbaikalia",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 0.072,
+  "status": "operational",
+  "evidence_date": "2021-03-05",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.cnews.ru/news/line/2021-03-05_datadome_i_rostelekom_zapustili",
+    "https://www.datacenterdynamics.com/en/news/datadome-builds-small-rostelecom-data-center-chita-russia/",
+    "https://www.connect-wit.ru/novyj-tsod-rostelekoma-v-chite.html"
+  ],
+  "notes": "CNews and DCD report DataDome completed the Chita data center for Rostelecom, commissioned in December 2020. The facility is 32 sq m with total power of 72 kW and ten racks up to 5 kW each; Telecom Daily described it as the largest data center in Zabaykalsky Krai.",
+  "world_batch": true
+}

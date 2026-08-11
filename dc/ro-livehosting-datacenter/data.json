@@ -1,0 +1,21 @@
+{
+  "slug": "ro-livehosting-datacenter",
+  "canonical_project": "LiveHosting Datacenter",
+  "owner": "SC LiveHosting Datacenter SRL",
+  "location": {
+    "city": "",
+    "subnational": "Timis",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://colomap.com/facilities/livehosting-datacenter/",
+    "https://www.datacentermap.com/romania/timisoara/ddsnet-europe/"
+  ],
+  "notes": "ColoMap identifies LiveHosting Datacenter as a Timisoara colocation data center operated by SC LiveHosting Datacenter SRL; Data Center Map nearby listings place LiveHosting Datacenter at Strada Pelbartus 2.",
+  "world_batch": true
+}

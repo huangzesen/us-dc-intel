@@ -1,0 +1,21 @@
+{
+  "slug": "ae-khazna-auh6-masdar-city-data-center",
+  "canonical_project": "Khazna AUH6 Masdar City data center",
+  "owner": "Khazna Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Abu Dhabi - Abu Dhabi Municipality",
+    "country": "United Arab Emirates",
+    "country_code": "AE"
+  },
+  "capacity_mw": 31.8,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.khazna.ae/data-center/auh6",
+    "https://www.datacentermap.com/united-arab-emirates/abu-dhabi/khazna-masdar-city-auh6/"
+  ],
+  "notes": "Khazna's official AUH6 page places the facility in Masdar City, Abu Dhabi and describes an operational wholesale data center; Data Center Map lists the Masdar City AUH6 site with 31.8 MW power capacity. Capacity is from directory data, while project existence/location are official.",
+  "world_batch": true
+}

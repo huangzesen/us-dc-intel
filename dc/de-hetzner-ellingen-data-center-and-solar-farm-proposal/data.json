@@ -1,0 +1,22 @@
+{
+  "slug": "de-hetzner-ellingen-data-center-and-solar-farm-proposal",
+  "canonical_project": "Hetzner Ellingen data center and solar farm proposal",
+  "owner": "Hetzner Online GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Weißenburg-Gunzenhausen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 50,
+  "status": "rejected",
+  "evidence_date": "2026-07-03",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.stadt-ellingen.de/wp-content/uploads/2022/05/Buergerinformationsveranstaltung.pdf",
+    "https://www.datacenterdynamics.com/en/news/hetzner-online-hopes-to-build-data-center-solar-farm-in-gunzenhausen-germany/",
+    "https://www.nn.de/region/weissenburg/burgermeisterin-sucht-rechenzentrum-treuchtlingen-ist-thema-in-fuhrendem-ki-podcast-1.15181068"
+  ],
+  "notes": "Ellingen public information materials gave an end-state power requirement around 50 MW and DCD reported a 50 ha scheme with 15 ha for data-center buildings plus 35 ha solar; 2026 NN reporting says Ellingen rejected Hetzner's data-center siting while Treuchtlingen is still seeking an operator.",
+  "world_batch": true
+}

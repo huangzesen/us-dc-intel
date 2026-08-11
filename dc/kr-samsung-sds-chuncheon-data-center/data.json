@@ -1,0 +1,22 @@
+{
+  "slug": "kr-samsung-sds-chuncheon-data-center",
+  "canonical_project": "Samsung SDS Chuncheon Data Center",
+  "owner": "Samsung SDS",
+  "location": {
+    "city": "",
+    "subnational": "Gangwon-do - Chuncheon-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-09-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.samsungsds.com/en/data-center-design-implementation-migration/data-center-design-implementation-migration.html",
+    "https://www.samsungsds.com/us/news/1241087_5933.html",
+    "https://www.koreatimes.co.kr/business/tech-science/20190922/samsung-sds-unveils-new-data-center-in-chuncheon"
+  ],
+  "notes": "Samsung SDS official materials list the Chuncheon Data Center as a 2019 modular-type data-center reference; Korea Times reported the 39,780 sq m facility as Samsung SDS's fifth Korean data center. Capacity not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "ua-omega-telecom-dnipro-data-center",
+  "canonical_project": "Omega Telecom Dnipro Data Center",
+  "owner": "Omega Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Dnipropetrovsk",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/ukraine/dnipropetrovsk/omega-telecom/dnipro-data-center/",
+    "https://www.datacentermap.com/ukraine/dnipropetrovsk/"
+  ],
+  "notes": "DatacenterMap lists an Omega Telecom facility in Dnipro. No public MW capacity found.",
+  "world_batch": true
+}

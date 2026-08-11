@@ -1,0 +1,21 @@
+{
+  "slug": "gb-digital-space-telford-data-centre",
+  "canonical_project": "Digital Space Telford Data Centre",
+  "owner": "Digital Space Group",
+  "location": {
+    "city": "",
+    "subnational": "England - Telford and Wrekin",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://digitalspace.co.uk/infrastructure/colocation/",
+    "https://digitalspace.co.uk/information/data-centres-access-policy/"
+  ],
+  "notes": "Digital Space's official colocation page lists its Telford Data Centre at Hortonwood 37, Donnington, with 2,000 kVA total capacity, up to 10kW per rack, N+2 UPS, N+1 diesel generators, direct cloud connectivity, and Tier 3 certified facility claims. Capacity left null because source is in kVA rather than MW.",
+  "world_batch": true
+}

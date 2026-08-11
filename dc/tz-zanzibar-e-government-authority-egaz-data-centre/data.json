@@ -1,0 +1,22 @@
+{
+  "slug": "tz-zanzibar-e-government-authority-egaz-data-centre",
+  "canonical_project": "Zanzibar e-Government Authority (eGAZ) Data Centre",
+  "owner": "Zanzibar eGovernment Authority (eGAZ)",
+  "location": {
+    "city": "",
+    "subnational": "Zanzibar North",
+    "country": "Tanzania, United Republic of",
+    "country_code": "TZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://egaz.go.tz/en/",
+    "http://www.znmc.go.tz/",
+    "https://documents1.worldbank.org/curated/en/099150003082339252/pdf/P1780650c8f1890a60b72b0d292867cc05a.pdf"
+  ],
+  "notes": "Government data centre in Zanzibar (Zanzibar City / Urban West area; Zanzibar North used as closest division in this batch); eGAZ hosts public-sector websites and e-services; World Bank assessment notes eGAZ shares a data centre with Zanzibar's Ministry of Communication and the mainland eGovernment Authority, constraining expansion.",
+  "world_batch": true
+}

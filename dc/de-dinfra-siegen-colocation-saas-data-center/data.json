@@ -1,0 +1,20 @@
+{
+  "slug": "de-dinfra-siegen-colocation-saas-data-center",
+  "canonical_project": "Dinfra Siegen colocation/SaaS data center",
+  "owner": "Dinfra (Effexx ITS / Uponu GmbH / DeRZ GmbH)",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Siegen-Wittgenstein",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2024-03-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenter-insider.de/ein-rechenzentrum-fuer-das-siegerland-a-eaf4255055175d568a47df581799cd5d/"
+  ],
+  "notes": "DataCenter-Insider reported Dinfra was building a combined SaaS and colocation data center in Siegen with 100 Gbit/s DE-CIX connectivity, 120-rack capacity, dual grid feeds in the IHW industrial park, planned Tier III/EN 50600 certification, and planned operation within months. Current operational status not independently confirmed from a primary source.",
+  "world_batch": true
+}

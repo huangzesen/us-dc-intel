@@ -1,0 +1,21 @@
+{
+  "slug": "au-ledc-tmw1-tamworth-data-centre",
+  "canonical_project": "LEDC TMW1 Tamworth Data Centre",
+  "owner": "Leading Edge Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Tamworth",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 0.375,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://leadingedgedc.com/dc_location/tamworth/",
+    "https://www.investregional.nsw.gov.au/success-story/leading-edge-data-centres"
+  ],
+  "notes": "Operator page lists TMW1 in Tamworth NSW with 375 kW total site capacity, 290 m2 available and Tier III design; NSW Government Invest Regional profile says LEDC operates an interconnected regional NSW Tier III network including Tamworth.",
+  "world_batch": true
+}

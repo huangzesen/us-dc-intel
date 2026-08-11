@@ -1,0 +1,23 @@
+{
+  "slug": "hr-dc-north-varazdin",
+  "canonical_project": "DC North Varazdin",
+  "owner": "DC North d.o.o. / Ilkari; originally CRATIS and Muraplast",
+  "location": {
+    "city": "",
+    "subnational": "Varazdin",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": 2.8,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ilkari.tech/services/croatia-data-centre/",
+    "https://ilkari.tech/wp-content/uploads/2026/07/Ilkari-Croatia-Data-Centre-DC-North.pdf",
+    "https://www.cratis.hr/en/blog/grand-opening-data-center-dc-north-55/",
+    "https://www.datacenterdynamics.com/en/news/croatian-ict-firm-cratis-to-open-data-center-in-varazdin/"
+  ],
+  "notes": "Ilkari's current Croatia data centre page identifies DC North in Varazdin as an Uptime Tier III-certified, carrier-neutral facility with 2,000 m2 net technical space, 4 MW power capacity, and expansion potential to 10 MW. The July 2026 spec sheet gives 2.8 MW installed power capacity supplied via a 4 MW ring. CRATIS says DC North was ceremoniously opened on 2023-11-24.",
+  "world_batch": true
+}

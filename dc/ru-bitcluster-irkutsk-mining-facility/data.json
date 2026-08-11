@@ -1,0 +1,21 @@
+{
+  "slug": "ru-bitcluster-irkutsk-mining-facility",
+  "canonical_project": "BitCluster Irkutsk mining facility",
+  "owner": "BitCluster",
+  "location": {
+    "city": "",
+    "subnational": "Irkutsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-centers/bitcluster",
+    "https://bitcluster.com/"
+  ],
+  "notes": "Baxtel lists a BitCluster mining facility in Irkutsk with ASIC hosting terms; BitCluster official page confirms a network of mining data centers but does not expose detailed site capacity.",
+  "world_batch": true
+}

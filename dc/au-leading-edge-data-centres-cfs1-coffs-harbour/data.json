@@ -1,0 +1,22 @@
+{
+  "slug": "au-leading-edge-data-centres-cfs1-coffs-harbour",
+  "canonical_project": "Leading Edge Data Centres CFS1 Coffs Harbour",
+  "owner": "Leading Edge Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Coffs Harbour",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 0.3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://leadingedgedc.com/dc_location/coffs-harbour/",
+    "https://www.datacenterdynamics.com/en/news/leading-edge-data-centres-launches-data-center-in-coffs-harbour-australia/",
+    "https://leadingedgedc.com/news_post/da-lodged-for-a-1m-data-centre-at-coffs-harbour-airport-enterprise-parkl5tsbvakqa1qttmpbjt1nk81ceo52b/"
+  ],
+  "notes": "LEDC's current location page lists CFS1 in Coffs Harbour with 300kW total site capacity, 212 m2 available, Tier III design, dark fibre to the Coffs Harbour NBN POI, and booking/enquiry options. DCD reported the facility launch on 2022-12-02; LEDC earlier reported the DA for the Airport Enterprise Park site on 2021-01-20.",
+  "world_batch": true
+}

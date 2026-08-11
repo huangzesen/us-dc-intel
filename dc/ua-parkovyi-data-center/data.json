@@ -1,0 +1,21 @@
+{
+  "slug": "ua-parkovyi-data-center",
+  "canonical_project": "Parkovyi Data Center",
+  "owner": "Parkovyi DC",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://parkovyi-dc.com/en/",
+    "https://www.datacentermap.com/ukraine/kiev/parkovyi/"
+  ],
+  "notes": "Official Parkovyi DC site and DataCenterMap identify a Kyiv data center. Capacity not disclosed.",
+  "world_batch": true
+}

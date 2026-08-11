@@ -1,0 +1,21 @@
+{
+  "slug": "fr-etix-nimes-1-neticenter-nimes",
+  "canonical_project": "ETIX Nîmes #1 / Neticenter Nîmes",
+  "owner": "ETIX Everywhere / Netiwan",
+  "location": {
+    "city": "",
+    "subnational": "Gard",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://nimes-metropole-entreprises.fr/le-territoire-de-nimes-metropole/des-equipements-structurants/datacenter-du-territoire/",
+    "https://www.datacentermap.com/france/nimes/neticenter/"
+  ],
+  "notes": "Nîmes Métropole business site says the datacenter is managed by Netiwan and located in the Bouillargues business park; DataCenterMap records the former Neticenter as operational and rebranded under ETIX.",
+  "world_batch": true
+}

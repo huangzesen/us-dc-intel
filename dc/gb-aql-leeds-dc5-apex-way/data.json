@@ -1,0 +1,21 @@
+{
+  "slug": "gb-aql-leeds-dc5-apex-way",
+  "canonical_project": "aql Leeds DC5 Apex Way",
+  "owner": "aql",
+  "location": {
+    "city": "",
+    "subnational": "England - City and Borough of Leeds",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.colo-x.com/data-centre/aql-leeds-dc5-apex-way/",
+    "https://www.datacenters.com/aql-dc5"
+  ],
+  "notes": "Operational shared data centre at Apex Way in Leeds; Colo-X reports 2MW customer power in 2016 with scope to double.",
+  "world_batch": true
+}

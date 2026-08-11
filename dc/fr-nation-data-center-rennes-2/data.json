@@ -1,0 +1,21 @@
+{
+  "slug": "fr-nation-data-center-rennes-2",
+  "canonical_project": "Nation Data Center Rennes 2",
+  "owner": "Nation Data Center / Altarea",
+  "location": {
+    "city": "",
+    "subnational": "Ille-et-Vilaine",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 1.36,
+  "status": "operational",
+  "evidence_date": "2026-05-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/ndc-acquires-data-center-in-rennes-from-french-insurance-firm-groupama/",
+    "https://www.bretagne-economique.com/actualites/altarea-acquiert-un-second-data-center-dans-la-metropole-rennaise/"
+  ],
+  "notes": "NDC acquired the former Groupama Mordelles facility and rebranded it Rennes 2; reports cite 720 kW installed IT capacity with expansion potential to 1.36 MW.",
+  "world_batch": true
+}

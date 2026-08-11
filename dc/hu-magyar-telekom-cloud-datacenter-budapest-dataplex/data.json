@@ -1,0 +1,23 @@
+{
+  "slug": "hu-magyar-telekom-cloud-datacenter-budapest-dataplex",
+  "canonical_project": "Magyar Telekom Cloud & DataCenter Budapest / Dataplex",
+  "owner": "Magyar Telekom Nyrt. / T-Systems Magyarorszag",
+  "location": {
+    "city": "",
+    "subnational": "Budapest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": 8,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telekom.hu/about_us/services/wholesale/national_fixed_line_solutions/ip_and_data/hosting",
+    "https://wholesale.telekom.com/global-connectivity/our-solutions/sd-wan-enabling-transport/data-center-services",
+    "https://www.datacentermap.com/hungary/budapest/dataplex/",
+    "https://baxtel.com/data-center/magyar-dataplex-budapest"
+  ],
+  "notes": "Magyar Telekom's wholesale hosting page lists T-Systems Cloud & DataCenter at 1087 Budapest, Asztalos Sandor u. 13. Telekom Wholesale describes the Budapest facility as one of the region's highest-tech data centers; third-party listings identify it as Dataplex, established in 1999 with 8,800 sqm technical space. Baxtel market summary reports Dataplex as Hungary's largest data center with 8 MW.",
+  "world_batch": true
+}

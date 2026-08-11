@@ -1,0 +1,21 @@
+{
+  "slug": "mw-mtl-data-centre-lilongwe",
+  "canonical_project": "MTL Data Centre, Lilongwe",
+  "owner": "Malawi Telecommunications Limited",
+  "location": {
+    "city": "",
+    "subnational": "Central Region",
+    "country": "Malawi",
+    "country_code": "MW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.mtl.mw/hosted-services/datacentre/",
+    "https://www.datacenters.com/malawi-telecommunications-mtl-data-centre"
+  ],
+  "notes": "MTL advertises data centre hosting services, and Datacenters.com lists the MTL Data Centre in Lilongwe as colocation infrastructure. No MW capacity disclosed.",
+  "world_batch": true
+}

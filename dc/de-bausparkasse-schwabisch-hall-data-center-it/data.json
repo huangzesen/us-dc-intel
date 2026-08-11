@@ -1,0 +1,21 @@
+{
+  "slug": "de-bausparkasse-schwabisch-hall-data-center-it",
+  "canonical_project": "Bausparkasse Schwäbisch Hall data center IT",
+  "owner": "Bausparkasse Schwäbisch Hall AG",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Schwäbisch Hall",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 0.163,
+  "status": "operational",
+  "evidence_date": "2024-03-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.jungmann.de/en/reference-projects/jst-reference-visualization-and-intuitive-operation-in-the-control-center",
+    "https://www.umweltbundesamt.de/system/files/medien/11850/publikationen/43_2024_texte_kpi4dce_im_feld.pdf"
+  ],
+  "notes": "JST reference describes a control room for Bausparkasse Schwäbisch Hall's data center IT. Umweltbundesamt KPI4DCE report includes a Schwäbisch Hall data-center case with 163 kW current IT nominal load and 415 m2 available IT area.",
+  "world_batch": true
+}

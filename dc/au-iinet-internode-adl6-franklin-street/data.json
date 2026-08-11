@@ -1,0 +1,20 @@
+{
+  "slug": "au-iinet-internode-adl6-franklin-street",
+  "canonical_project": "iiNet / Internode ADL6 Franklin Street",
+  "owner": "iiNet / Internode",
+  "location": {
+    "city": "",
+    "subnational": "South Australia - Adelaide",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://gowith.vocus.com.au/rs/587-CSJ-470/images/sa-data-centres.html"
+  ],
+  "notes": "Vocus connected-SA-data-centres list includes Internode(iiNet) ADL6 at 262-280 Franklin Street, Adelaide. Capacity not found in public sources checked.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "kr-telstra-seoul-seds1",
+  "canonical_project": "Telstra Seoul (SEDS1)",
+  "owner": "Telstra International",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Seocho-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-korea/seoul/pacnet-seds1/",
+    "https://inflect.com/building/nos-1423-1-seocho-dong-yeoksam-1-il-dong/telstra/datacenter/seds1",
+    "https://www.peeringdb.com/fac/2301"
+  ],
+  "notes": "Data Center Map and Inflect list Telstra/Pacnet SEDS1 at 1423-1 Seocho-dong / 2481 Nambusunhwan-ro, Seocho-gu; PeeringDB corroborates the Seocho-gu address. Capacity not found.",
+  "world_batch": true
+}

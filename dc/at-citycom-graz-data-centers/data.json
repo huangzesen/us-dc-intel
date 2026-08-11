@@ -1,0 +1,20 @@
+{
+  "slug": "at-citycom-graz-data-centers",
+  "canonical_project": "Citycom Graz data centers",
+  "owner": "Citycom Telecommunication Graz GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Styria",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-28",
+  "evidence_grade": "A",
+  "sources": [
+    "https://citycom.at/en/business-en/data-center/"
+  ],
+  "notes": "Citycom's company page states it operates two data centers in Graz and a backup location in Gleisdorf with ISO 9001, ISO 27001 and EN 50600 certified infrastructure.",
+  "world_batch": true
+}

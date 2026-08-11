@@ -1,0 +1,22 @@
+{
+  "slug": "au-aws-craigieburn-data-centre",
+  "canonical_project": "AWS Craigieburn data centre",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Hume",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "approved",
+  "evidence_date": "2025-08-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.abc.net.au/news/2025-08-26/hume-council-votes-on-data-centres-energy-water-management-plan/105694556",
+    "https://www.aboutamazon.com/news/aws/amazon-data-center-investment-in-australia",
+    "https://international.austrade.gov.au/en/news-and-analysis/success-stories/aws-plans-to-invest-a20-billion-to-expand-digital-infrastructure-in-australia-by-2029"
+  ],
+  "notes": "ABC reported that Amazon sought and received ministerial approval for a new A$250m data centre in Craigieburn; Amazon's broader official material confirms large Australian data centre expansion but does not disclose the site capacity.",
+  "world_batch": true
+}

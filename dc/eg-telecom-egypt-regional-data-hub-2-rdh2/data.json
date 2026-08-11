@@ -1,0 +1,22 @@
+{
+  "slug": "eg-telecom-egypt-regional-data-hub-2-rdh2",
+  "canonical_project": "Telecom Egypt Regional Data Hub 2 (RDH2)",
+  "owner": "Telecom Egypt / Raya Network Services",
+  "location": {
+    "city": "",
+    "subnational": "Giza",
+    "country": "Egypt",
+    "country_code": "EG"
+  },
+  "capacity_mw": 4.9,
+  "status": "construction",
+  "evidence_date": "2026-07-20",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ecgsa.com/telecom-egypt-regional-data-hub-2-rdh2-data-center/",
+    "https://www.datacenters.com/telecom-egypt-te-rdh2",
+    "https://w.media/telecom-egypt-to-carve-out-data-center-business-after-dropping-helios-deal/"
+  ],
+  "notes": "ECG project page describes RDH2 as completed with 4.9 MW total IT load and 510 racks; Datacenters.com places RDH2 in 6th of October City, Giza. W.Media says RDH2 was slated for 2025 completion but Telecom Egypt had not publicly confirmed full operation as of July 2026, so status is conservatively construction.",
+  "world_batch": true
+}

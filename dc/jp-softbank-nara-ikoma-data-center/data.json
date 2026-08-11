@@ -1,0 +1,22 @@
+{
+  "slug": "jp-softbank-nara-ikoma-data-center",
+  "canonical_project": "SoftBank Nara Ikoma Data Center",
+  "owner": "SoftBank / IDC Frontier",
+  "location": {
+    "city": "",
+    "subnational": "Nara",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 50,
+  "status": "operational",
+  "evidence_date": "2025-12-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.softbank.jp/business/service/platform/datacenter/ikoma",
+    "https://www.idcf.jp/news/topics/20250730001",
+    "https://www.bbix.net/information/press/2025-12-22/"
+  ],
+  "notes": "SoftBank facility page states Nara Ikoma Data Center has planned total receiving capacity of 50MW and about 40,000 square meters after the second building; IDC Frontier said completion ceremony was held 2025-07-18 and opening was planned for 2025-10; BBIX confirms services inside the facility from 2025-12-22.",
+  "world_batch": true
+}

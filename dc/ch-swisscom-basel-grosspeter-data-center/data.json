@@ -1,0 +1,21 @@
+{
+  "slug": "ch-swisscom-basel-grosspeter-data-center",
+  "canonical_project": "Swisscom Basel-Grosspeter Data Center",
+  "owner": "Swisscom",
+  "location": {
+    "city": "",
+    "subnational": "Basel-Stadt",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.swisscom.ch/en/business/enterprise/offer/cloud/data-center.html",
+    "https://www.datacentermap.com/switzerland/basel/swisscom-basel-grosspeter/"
+  ],
+  "notes": "Swisscom's official data-center page lists Basel-Grosspeter among its seven Swiss business data centers. DataCenterMap places Swisscom Basel-Grosspeter at Grosspeteranlage 15 in Basel; no public site-level MW capacity was found.",
+  "world_batch": true
+}

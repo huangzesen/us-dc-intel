@@ -1,0 +1,21 @@
+{
+  "slug": "fr-edf-noe-val-de-reuil-data-center",
+  "canonical_project": "EDF Noé Val-de-Reuil Data Center",
+  "owner": "EDF",
+  "location": {
+    "city": "",
+    "subnational": "Eure",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.edf.fr/groupe-edf/espaces-dedies/medias/tous-les-communiques-de-presse/les-datacenters-d-edf-certifies-iso-50001-une-premiere-en-france",
+    "https://www.enia.fr/fr/projet/edf-projet-noe"
+  ],
+  "notes": "EDF says Noé is managed by its shared services division and provides high-capacity hosting for EDF applications; Enia project page lists the Val-de-Reuil project as delivered in 2010 with 16,000 m2 surface and 4,600 m2 server area.",
+  "world_batch": true
+}

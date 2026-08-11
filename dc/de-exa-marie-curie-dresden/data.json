@@ -1,0 +1,21 @@
+{
+  "slug": "de-exa-marie-curie-dresden",
+  "canonical_project": "EXA Marie Curie Dresden",
+  "owner": "EXA Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Saxony - Dresden",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/germany/dresden/interoute-dresden/",
+    "https://www.datacenters.com/exa-infrastructure-marie-curie"
+  ],
+  "notes": "Third-party data center directories list EXA Marie Curie at Marie-Curie-Straße 7 in Dresden-Pieschen.",
+  "world_batch": true
+}

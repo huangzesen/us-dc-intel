@@ -1,0 +1,21 @@
+{
+  "slug": "fr-azur-datacenter-lyon-meyzieu",
+  "canonical_project": "Azur Datacenter Lyon-Meyzieu",
+  "owner": "Azur Datacenter",
+  "location": {
+    "city": "",
+    "subnational": "Rhône",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-01-19",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dcmag.fr/azur-datacenter-va-implanter-un-nouveau-datacenter-dans-la-zone-industrielle-de-meyzieu-lyon/",
+    "https://azurdatacenter.fr/en/"
+  ],
+  "notes": "Azur Datacenter is converting a former solar-panel factory in Meyzieu Industrial Park, Rhône, into a datacenter; public MW not found.",
+  "world_batch": true
+}

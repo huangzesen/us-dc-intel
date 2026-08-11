@@ -1,0 +1,21 @@
+{
+  "slug": "de-eunetworks-colocation-dortmund",
+  "canonical_project": "euNetworks Colocation Dortmund",
+  "owner": "euNetworks",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Dortmund",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/germany/dortmund/eunetworks-dortmund/",
+    "https://www.datacenters.com/locations/germany/north-rhine-westphalia/dortmund"
+  ],
+  "notes": "Data-center directories list an euNetworks colocation facility at Im Spähenfelde 51 in Dortmund; capacity not disclosed.",
+  "world_batch": true
+}

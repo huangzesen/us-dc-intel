@@ -1,0 +1,21 @@
+{
+  "slug": "au-nextdc-b2-brisbane-data-centre",
+  "canonical_project": "NEXTDC B2 Brisbane Data Centre",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "Queensland - Brisbane",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 12,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/data-centres/brisbane-data-centres/b2-brisbane",
+    "https://www.nextdc.com/data-centres/brisbane-data-centres-colocation"
+  ],
+  "notes": "Official NEXTDC facility page lists B2 at Fortitude Valley with 12MW IT capacity, 6,000 m2 technical space, Tier IV certification, and direct cloud PoPs for AWS and Google.",
+  "world_batch": true
+}

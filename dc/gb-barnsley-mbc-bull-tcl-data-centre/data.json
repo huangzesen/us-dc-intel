@@ -1,0 +1,21 @@
+{
+  "slug": "gb-barnsley-mbc-bull-tcl-data-centre",
+  "canonical_project": "Barnsley MBC / Bull TCL data centre",
+  "owner": "Barnsley Metropolitan Borough Council / Bull TCL",
+  "location": {
+    "city": "",
+    "subnational": "England - Barnsley",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2009-11-09",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.theguardian.com/government-computing-network/2009/nov/09/barnsely-bull-data-centre-09nov09",
+    "https://www.workspace-technology.com/brochures/case-studies/archive-data-centre-solutions/Barnsley%20MBC%20Case%20Study/Barnsley-MBC-Case-Study.pdf"
+  ],
+  "notes": "Public reports and supplier case study describe Barnsley MBC obtaining/opening a new data centre under the Bull TCL operation; Workspace case study refers to 120 rack capacity.",
+  "world_batch": true
+}

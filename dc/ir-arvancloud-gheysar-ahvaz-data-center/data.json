@@ -1,0 +1,21 @@
+{
+  "slug": "ir-arvancloud-gheysar-ahvaz-data-center",
+  "canonical_project": "ArvanCloud Gheysar Ahvaz data center",
+  "owner": "ArvanCloud",
+  "location": {
+    "city": "",
+    "subnational": "Khuzestan",
+    "country": "Iran, Islamic Republic of",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-03",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.zoomit.ir/iran-news/464457-arvancloud-gheysar-datacenter-ahvaz/",
+    "https://digiato.com/iran-technology-news/arvancloud-gheysar-datacenter-ahwaz"
+  ],
+  "notes": "Zoomit and Digiato reported ArvanCloud opened the Gheysar data center in Ahvaz, its fifth Iranian data center and third in-country compute region after Tehran and Tabriz, enabling multi-region architecture and lower latency for southern/western users.",
+  "world_batch": true
+}

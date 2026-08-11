@@ -1,0 +1,22 @@
+{
+  "slug": "my-kuala-terengganu-service-centre",
+  "canonical_project": "Kuala Terengganu Service Centre",
+  "owner": "CSF Group / CSF Advisers (now Digital Realty)",
+  "location": {
+    "city": "",
+    "subnational": "Terengganu",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/kuala-terengganu-service-centre",
+    "https://www.csf-group.com/",
+    "https://www.datacenters.com/providers/csf-group"
+  ],
+  "notes": "Baxtel lists the Kuala Terengganu Service Centre at Lot PT 28521-A as fully operational and operated by CSF Group; CSF's own site confirms the group is a carrier-neutral data centre provider now branded as Digital Realty. No public MW capacity found.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "fr-lumen-paris-le-capitole",
+  "canonical_project": "Lumen Paris Le Capitole",
+  "owner": "Lumen Technologies",
+  "location": {
+    "city": "",
+    "subnational": "Hauts-de-Seine",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 4.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://assets.lumen.com/is/content/Lumen/len-1229-data-centre-colocation-paris-uk-web",
+    "https://baxtel.com/data-center/lumen-paris-le-capitole"
+  ],
+  "notes": "Lumen colocation datasheet describes a modern data centre in the Nanterre district with 4 MVA maximum site power; Baxtel lists the facility as Paris Le Capitole in Nanterre.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "ro-vla-energy-green-data-center-arad",
+  "canonical_project": "VLA Energy Green Data Center - Arad",
+  "owner": "VLA Energy",
+  "location": {
+    "city": "",
+    "subnational": "Arad",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vla.energy/green-data-centers/"
+  ],
+  "notes": "Developer page lists a Green Data Center - Arad with high-capacity 110 kV / 400 kV grid access, integrated BESS, renewable energy and a scalable phased campus design; no MW figure or construction permit found.",
+  "world_batch": true
+}

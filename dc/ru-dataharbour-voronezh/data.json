@@ -1,0 +1,22 @@
+{
+  "slug": "ru-dataharbour-voronezh",
+  "canonical_project": "DataHarbour Voronezh",
+  "owner": "DataPort / DataHarbour",
+  "location": {
+    "city": "",
+    "subnational": "Voronezh",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 2.2,
+  "status": "operational",
+  "evidence_date": "2014-09-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://alldc.ru/dcs/cod/283.html",
+    "https://www.datacentermap.com/russia/voronezh/",
+    "https://www.datacentermap.com/c/dataharbour/"
+  ],
+  "notes": "Commercial colocation data center at Ulitsa Zemlyachki 1, Voronezh. AllDC lists commercial launch on 2014-09-12, 212 racks, total electrical capacity 2.2 MW, guaranteed power 4.4 MW, and Tier III-level engineering/security.",
+  "world_batch": true
+}

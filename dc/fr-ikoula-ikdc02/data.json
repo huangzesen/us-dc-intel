@@ -1,0 +1,22 @@
+{
+  "slug": "fr-ikoula-ikdc02",
+  "canonical_project": "Ikoula IKDC02",
+  "owner": "Ikoula / Sewan",
+  "location": {
+    "city": "",
+    "subnational": "Aisne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://carte.dcmag.fr/directory/ikoula-2/",
+    "https://www.usine-digitale.fr/article/un-deuxieme-data-center-pour-ikoula.N285145",
+    "https://www.datacenters.com/ikoula-ikdc02"
+  ],
+  "notes": "DCmag lists IKDC02 in Aisne with 450 m2 IT surface; Usine Digitale reported Ikoula opening a second data center in an Aisne village after acquiring a former bank disaster-recovery site.",
+  "world_batch": true
+}

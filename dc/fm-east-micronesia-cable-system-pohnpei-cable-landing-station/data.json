@@ -1,0 +1,22 @@
+{
+  "slug": "fm-east-micronesia-cable-system-pohnpei-cable-landing-station",
+  "canonical_project": "East Micronesia Cable System - Pohnpei cable landing station",
+  "owner": "East Micronesia Cable System consortium; DXN Limited supplier",
+  "location": {
+    "city": "",
+    "subnational": "Pohnpei",
+    "country": "Micronesia, Federated States of",
+    "country_code": "FM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-03-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/cable-landing-station-completed-in-pohnpei-micronesia/",
+    "https://www.eastmicronesiacable.com/the-project",
+    "https://www.submarinenetworks.com/en/systems/trans-pacific/emcs/dxn-to-deliver-modulized-cable-landing-station-for-the-emcs-system"
+  ],
+  "notes": "Cable landing station, not a commercial data center. DCD reported the Pohnpei CLS delivered in March 2025; official EMCS materials describe land-based CLS facilities housing optical transmission and power feed equipment and connecting to HANTRU-1.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "ro-nxdata-3-bucharest-nx-3-buh3",
+  "canonical_project": "NXDATA-3 Bucharest (NX-3/BUH3)",
+  "owner": "NXDATA",
+  "location": {
+    "city": "",
+    "subnational": "Bucuresti",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 3,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://nxdata3.com/",
+    "https://baxtel.com/data-center/bucharest"
+  ],
+  "notes": "Official NXDATA-3 page states 5 MW installed power and 3 MW IT power; Baxtel lists NXDATA-3 as a Bucharest site under construction with estimated Q4 2026 launch.",
+  "world_batch": true
+}

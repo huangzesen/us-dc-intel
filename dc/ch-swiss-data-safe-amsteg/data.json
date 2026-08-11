@@ -1,0 +1,22 @@
+{
+  "slug": "ch-swiss-data-safe-amsteg",
+  "canonical_project": "Swiss Data Safe, Amsteg",
+  "owner": "Swiss Data Safe AG",
+  "location": {
+    "city": "",
+    "subnational": "Uri",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.swissdatasafe.ch/en/services/datacenter",
+    "https://www.swissdatasafe.ch/en",
+    "https://www.datacentermap.com/switzerland/uri/swiss-data-center/"
+  ],
+  "notes": "Swiss Data Safe's official site describes high-security data center infrastructure embedded in Alpine rock at Gotthardstrasse 1, Amsteg, with redundant carriers, power, cooling, fire prevention, and access controls.",
+  "world_batch": true
+}

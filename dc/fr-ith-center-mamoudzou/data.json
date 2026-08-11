@@ -1,0 +1,22 @@
+{
+  "slug": "fr-ith-center-mamoudzou",
+  "canonical_project": "ITH Center Mamoudzou",
+  "owner": "Information Technology Hosting SAS / ITH Center",
+  "location": {
+    "city": "",
+    "subnational": "Mayotte",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 0.65,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ith.yt/",
+    "https://www.afd.fr/fr/projets/construction-du-premier-data-center-de-mayotte",
+    "https://www.datacentermap.com/mayotte/mamoudzou/ith-center/"
+  ],
+  "notes": "ITH Center official page describes Mayotte's first neutral Tier III colocation datacenter in Mamoudzou/Kawéni, operating since 2022 with 80 racks and 215 sqm white space; AFD says it was inaugurated on 2022-10-21; Data Center Map lists 0.65 MW.",
+  "world_batch": true
+}

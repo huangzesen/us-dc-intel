@@ -1,0 +1,22 @@
+{
+  "slug": "au-tasmanet-dc1",
+  "canonical_project": "TasmaNet DC1",
+  "owner": "TasmaNet",
+  "location": {
+    "city": "",
+    "subnational": "Tasmania - Hobart",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/australia/hobart/tasma-dc1/specs/",
+    "https://www.datacentermap.com/australia/hobart/",
+    "https://colomap.com/facilities/tasmanet-dc1/"
+  ],
+  "notes": "Listed colocation facility at Level 9, 1 Franklin Wharf, Hobart TAS 7000; Data Center Map specs identify cabinet, cage, suite and remote-hands services but no power capacity.",
+  "world_batch": true
+}

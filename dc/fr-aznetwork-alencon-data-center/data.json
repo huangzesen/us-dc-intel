@@ -1,0 +1,21 @@
+{
+  "slug": "fr-aznetwork-alencon-data-center",
+  "canonical_project": "AZNETWORK Alençon data center",
+  "owner": "AZNETWORK",
+  "location": {
+    "city": "",
+    "subnational": "Orne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.aznetwork.eu/hebergement-infrastructure/",
+    "https://www.orne.fr/sites/default/files/2020-01/om78.pdf"
+  ],
+  "notes": "AZNETWORK says it owns a 100% French data center for hosting infrastructure and lists its address at 40 Rue Ampère, 61000 Alençon; Orne departmental material describes AZNetwork as having created a regional data center for up to 1,000 servers.",
+  "world_batch": true
+}

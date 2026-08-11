@@ -1,0 +1,22 @@
+{
+  "slug": "kr-dobong-gu-public-data-center-dbdbmap-data-aggregation-platform",
+  "canonical_project": "Dobong-gu public data center / DBDBMAP data aggregation platform",
+  "owner": "Dobong-gu Office",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Dobong-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-11-26",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.jeonmae.co.kr/news/articleView.html?idxno=821446",
+    "https://www.asiae.co.kr/en/article/2021112607122656105",
+    "https://www.nocutnews.co.kr/news/5663908"
+  ],
+  "notes": "This is a municipal public-data/data aggregation platform rather than a commercial colocation or hyperscale facility. Included because multiple local reports describe Dobong-gu's public data center vision and DBDBMAP/data aggregation infrastructure; no MW capacity disclosed.",
+  "world_batch": true
+}

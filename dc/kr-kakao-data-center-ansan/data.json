@@ -1,0 +1,23 @@
+{
+  "slug": "kr-kakao-data-center-ansan",
+  "canonical_project": "Kakao Data Center Ansan",
+  "owner": "Kakao Corp",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Ansan-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-12-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.kakaocorp.com/page/detail/11140?lang=ENG",
+    "https://www.datacentermap.com/south-korea/seoul/kakao-ansan-data-center/",
+    "https://baxtel.com/data-center/kakao-ansan",
+    "https://biz.chosun.com/en/en-it/2024/12/24/JLGHVZ6SHFBKLKHPDOH27ZQORM/"
+  ],
+  "notes": "Kakao's first self-built hyperscale data center, located inside Hanyang University's ERICA campus in Ansan-si (Sangnok-gu); construction began 2021 and operations started around Q1 2024. Facility is about 47,378 sqm with 4,000 racks designed to host 120,000 servers; Kakao's CEO visited in December 2024 to review operations. No public MW figure found in sources reviewed.",
+  "world_batch": true
+}

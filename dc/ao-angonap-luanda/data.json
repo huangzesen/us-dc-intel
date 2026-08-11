@@ -1,0 +1,23 @@
+{
+  "slug": "ao-angonap-luanda",
+  "canonical_project": "AngoNAP Luanda",
+  "owner": "Angola Cables",
+  "location": {
+    "city": "",
+    "subnational": "Luanda",
+    "country": "Angola",
+    "country_code": "AO"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.angolacables.co.ao/datacenter",
+    "https://www.angolacables.co.ao/contacto",
+    "https://dchub.cloud/facilities/angola-cables-angonap-luanda-001301fc",
+    "https://baxtel.com/data-center/angonap-luanda"
+  ],
+  "notes": "Angola Cables official pages list AngoNAP data center services and a Data Center - AngoNAP Luanda contact location; third-party facility databases report operational status and 3MW power. Capacity is aggregate-sourced.",
+  "world_batch": true
+}

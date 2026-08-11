@@ -1,0 +1,22 @@
+{
+  "slug": "iq-t964-tier-iii-colocation-data-center",
+  "canonical_project": "T964 Tier III colocation data center",
+  "owner": "T964 / Schneider Electric",
+  "location": {
+    "city": "",
+    "subnational": "Baghdad",
+    "country": "Iraq",
+    "country_code": "IQ"
+  },
+  "capacity_mw": 12,
+  "status": "construction",
+  "evidence_date": "2026-07-15",
+  "evidence_grade": "B",
+  "sources": [
+    "https://techafricanews.com/2026/07/15/schneider-electric-to-power-iraqs-first-commercial-tier-iii-data-center/",
+    "https://www.datacenterdynamics.com/en/news/iraqs-t964-to-build-data-center-with-schneider-electric/",
+    "https://t964datacenter.com/"
+  ],
+  "notes": "Carrier-neutral commercial Tier III facility under construction for launch by end-2026; phase 1 has 340 racks and capacity scaling up to 12 MW, with DCD noting T964 site separately states 3 MW IT load and 84 MW site power access.",
+  "world_batch": true
+}

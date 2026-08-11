@@ -1,0 +1,22 @@
+{
+  "slug": "de-vautron-rechenzentrum-regensburg",
+  "canonical_project": "Vautron Rechenzentrum Regensburg",
+  "owner": "Vautron Rechenzentrum AG",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Regensburg (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vautron.de/rechenzentrum-regensburg",
+    "https://www.vautron.de/impressum",
+    "https://www.peeringdb.com/fac/14973"
+  ],
+  "notes": "Vautron's official page describes its Regensburg data center offering server, cloud and colocation services; company imprint gives Obermünsterstraße 9, 93047 Regensburg.",
+  "world_batch": true
+}

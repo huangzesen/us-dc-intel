@@ -1,0 +1,23 @@
+{
+  "slug": "km-national-public-administration-data-centre-centre-de-donnees-de-l-administration",
+  "canonical_project": "National public administration data centre (Centre de données de l'administration publique)",
+  "owner": "Government of the Union of the Comoros via ANADEN (Agence Nationale de Développement du Numérique) and Comores Câble; supported by African Development Bank (AfDB) funding (~EUR 9.51M, 2024)",
+  "location": {
+    "city": "",
+    "subnational": "Grande Comore",
+    "country": "Comoros",
+    "country_code": "KM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-14",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.agenceecofin.com/actualites-numerique/1405-128350-comores-inauguration-du-centre-de-donnees-de-l-administration-publique-le-19-mai",
+    "https://www.focus-oi.com/2025/05/comores-un-centre-de-donnees-inaugurer.html",
+    "https://techpoint.africa/2024/10/03/comoros-gets-funding-from-afdb/",
+    "https://datacentrecentral.com/comoros-gets-105-million-from-afdb-for-construction-of-new-data-centre/"
+  ],
+  "notes": "Tier 3 national data centre, hosting capacity 44.4 Tbps, co-managed by ANADEN and Comores Câble; inaugurated/commissioned 19 May 2025 (announced by Comorian authorities on 14 May 2025); part of 'Comores Numérique 2028' strategy; AfDB approved ~EUR 9.51M ($10.5M) in 2024 under the Projet d'appui à la digitalisation de l'économie comorienne to build/operate the data centre and enhance existing infrastructure. Exact facility location not stated in sources; national digital infrastructure is centred on Moroni (capital), Grande Comore. No capacity in MW disclosed.",
+  "world_batch": true
+}

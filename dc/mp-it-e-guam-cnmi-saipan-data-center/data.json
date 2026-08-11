@@ -1,0 +1,22 @@
+{
+  "slug": "mp-it-e-guam-cnmi-saipan-data-center",
+  "canonical_project": "IT&E Guam & CNMI Saipan Data Center",
+  "owner": "IT&E Guam & CNMI",
+  "location": {
+    "city": "",
+    "subnational": "Northern Mariana Islands",
+    "country": "Northern Mariana Islands",
+    "country_code": "MP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenters.com/providers/it-e-guam-cnmi/locations/northern-mariana-islands/saipan",
+    "https://inflect.com/building/tekken-street-susupe/itande-guam-and-cnmi/datacenter/saipan",
+    "https://shop.ite.net/business/"
+  ],
+  "notes": "Saipan/Susupe data center listed by Datacenters.com and Inflect as an operational colocation/data center facility; IT&E's business pages advertise Data Center Services and regional enterprise services in Guam and CNMI. Public MW capacity not found.",
+  "world_batch": true
+}

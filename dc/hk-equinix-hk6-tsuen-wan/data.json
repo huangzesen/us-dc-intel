@@ -1,0 +1,22 @@
+{
+  "slug": "hk-equinix-hk6-tsuen-wan",
+  "canonical_project": "Equinix HK6, Tsuen Wan",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-06-16",
+  "evidence_grade": "A",
+  "sources": [
+    "https://equinix.mediaroom.com/2024-08-12-Equinix-Expands-Hong-Kongs-Footprint-with-124M-Data-Center-Investment",
+    "https://newsroom.equinix.com/2026-06-16-Equinix-Launches-AI-Ready-Data-Center-with-Direct-Connectivity-to-Hong-Kong-Shenzhen-Innovation-and-Technology-Park",
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/china-colocation/hong-kong-data-centers/hk6"
+  ],
+  "notes": "Equinix announced a US$124m HK6 investment in 2024 and launched the AI-ready Tsuen Wan IBX in June 2026; first phase provides 1,000 cabinets and full build-out is 3,550 cabinets, but MW was not stated.",
+  "world_batch": true
+}

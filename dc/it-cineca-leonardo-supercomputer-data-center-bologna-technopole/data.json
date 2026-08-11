@@ -1,0 +1,21 @@
+{
+  "slug": "it-cineca-leonardo-supercomputer-data-center-bologna-technopole",
+  "canonical_project": "CINECA Leonardo supercomputer data center, Bologna Technopole",
+  "owner": "CINECA; EuroHPC JU",
+  "location": {
+    "city": "",
+    "subnational": "Emilia-Romagna",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-11-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://leonardo-supercomputer.cineca.eu/",
+    "https://eurohpc-ju.europa.eu/leonardo-supercomputer_en"
+  ],
+  "notes": "CINECA operates the Leonardo EuroHPC supercomputer at the Bologna Technopole.",
+  "world_batch": true
+}

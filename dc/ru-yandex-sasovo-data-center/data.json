@@ -1,0 +1,22 @@
+{
+  "slug": "ru-yandex-sasovo-data-center",
+  "canonical_project": "Yandex Sasovo data center",
+  "owner": "Yandex DC",
+  "location": {
+    "city": "",
+    "subnational": "Ryazan",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-10-02",
+  "evidence_grade": "B",
+  "sources": [
+    "https://sintec.ru/en/project/data-center-yandex-sasovo/",
+    "https://www.datacenterdynamics.com/en/news/yandex-to-launch-availability-zone-next-year-at-data-center-in-vladimir-russia/",
+    "https://www.datacentermap.com/russia/ryazan/yandex-cloud-sasovo-data-center/"
+  ],
+  "notes": "Sintec project page identifies Data Center Yandex in Sasovo, Ryazan region, for customer LLC Yandex DC; DCD later described Sasovo as one of Yandex's five operating Russian data centers. Directory confirms Yandex Cloud Sasovo listing. MW not confirmed by a primary source in this pass.",
+  "world_batch": true
+}

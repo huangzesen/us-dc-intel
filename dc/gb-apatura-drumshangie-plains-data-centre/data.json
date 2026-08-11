@@ -1,0 +1,21 @@
+{
+  "slug": "gb-apatura-drumshangie-plains-data-centre",
+  "canonical_project": "Apatura Drumshangie / Plains Data Centre",
+  "owner": "Apatura",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - North Lanarkshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 500,
+  "status": "planned",
+  "evidence_date": "2026-01-01",
+  "evidence_grade": "C",
+  "sources": [
+    "https://aprs.scot/drumshangie-dc/",
+    "https://aprs.scot/data-centre-map/"
+  ],
+  "notes": "APRS identifies a 500MW pre-planning proposal at Drumshangie moss/former coal mine near Greengairs/Airdrie with PAN reference 26/00069/PAN. Treated as planned because public planning-stage information exists, though source is advocacy/aggregator rather than developer.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "it-aruba-global-cloud-data-center-it3-ponte-san-pietro",
+  "canonical_project": "Aruba Global Cloud Data Center IT3, Ponte San Pietro",
+  "owner": "Aruba S.p.A.",
+  "location": {
+    "city": "",
+    "subnational": "Lombardy",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": 45,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.aruba.it/en/datacenter/it3-data-center.aspx",
+    "https://www.datacenterdynamics.com/en/news/aruba-to-expand-its-italian-data-center-campus-by-35mw/"
+  ],
+  "notes": "Aruba's Bergamo-area campus has renewable-power design and expansion; public capacity references cite about 45 MW for IT3.",
+  "world_batch": true
+}

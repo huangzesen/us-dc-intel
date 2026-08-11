@@ -1,0 +1,21 @@
+{
+  "slug": "it-tlcweb-data-center-lamezia-terme",
+  "canonical_project": "TLCWEB Data Center Lamezia Terme",
+  "owner": "Intendo S.r.l. / TLCWEB",
+  "location": {
+    "city": "",
+    "subnational": "Calabria",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tlcweb.it/datacenter/",
+    "https://www.datacentermap.com/italy/lamezia-terme/tlcweb-data-center/"
+  ],
+  "notes": "Operator page describes the TLCWEB data center with environmental sensors, cooling, access controls, video surveillance, separated power lines, UPS, generator, and rack cabinets.",
+  "world_batch": true
+}

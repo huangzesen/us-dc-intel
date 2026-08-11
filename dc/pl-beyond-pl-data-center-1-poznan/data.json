@@ -1,0 +1,20 @@
+{
+  "slug": "pl-beyond-pl-data-center-1-poznan",
+  "canonical_project": "Beyond.pl Data Center 1, Poznan",
+  "owner": "Beyond.pl",
+  "location": {
+    "city": "",
+    "subnational": "Greater Poland",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.beyond.pl/en/data-centers-campus/beyond-pl-data-center-1/"
+  ],
+  "notes": "Beyond.pl official DC1 page lists the Poznan facility at Polwiejska 42 with 800 sqm total floor space, 400 sqm IT floor space, Tier III-compliant site standard, PUE 1.4, and 99.982% SLA. Capacity not published.",
+  "world_batch": true
+}

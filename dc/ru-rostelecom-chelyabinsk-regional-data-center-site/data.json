@@ -1,0 +1,21 @@
+{
+  "slug": "ru-rostelecom-chelyabinsk-regional-data-center-site",
+  "canonical_project": "Rostelecom Chelyabinsk regional data center site",
+  "owner": "Rostelecom",
+  "location": {
+    "city": "",
+    "subnational": "Chelyabinsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-11-29",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/russias-rostelecom-brings-yekaterinburg-data-center-online/",
+    "https://chelyabinsk.rt.ru/b2o/rostelecom-infrastructure/data-center"
+  ],
+  "notes": "DCD reported Rostelecom owned regional data center sites including Chelyabinsk as part of its geographically diversified network; local Rostelecom page markets data-center technical resources. Capacity not disclosed.",
+  "world_batch": true
+}

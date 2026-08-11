@@ -1,0 +1,22 @@
+{
+  "slug": "kr-lg-cns-sangam-it-center",
+  "canonical_project": "LG CNS Sangam IT Center",
+  "owner": "LG CNS",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Mapo-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 18,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-korea/seoul/lg-cns-sangam-it-center/",
+    "https://www.kinx.net/infrastructure/dc/?lang=en",
+    "https://colocationm.com/south-korea/seoul"
+  ],
+  "notes": "Data Center Map lists LG CNS Sangam IT Center at 424 World Cup buk-ro, Mapo-gu, with 18 MW; KINX's official infrastructure page also identifies the same building as IDC Sangam 1. Capacity is directory-derived.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "ee-linxdatacenter-tallinn",
+  "canonical_project": "Linxdatacenter Tallinn",
+  "owner": "Linxdatacenter",
+  "location": {
+    "city": "",
+    "subnational": "Harju",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/tallinn"
+  ],
+  "notes": "Baxtel lists Linxdatacenter Tallinn as an operational carrier-neutral data center in the Tallinn market.",
+  "world_batch": true
+}

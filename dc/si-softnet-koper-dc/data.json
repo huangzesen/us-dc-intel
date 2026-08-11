@@ -1,0 +1,22 @@
+{
+  "slug": "si-softnet-koper-dc",
+  "canonical_project": "SoftNET Koper DC",
+  "owner": "SoftNET",
+  "location": {
+    "city": "",
+    "subnational": "Koper",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/slovenia/koper/softnet-koper-dc/",
+    "https://colomap.com/facilities/softnet-koper-dc/",
+    "https://inflect.com/datacenters/emea/slovenia/koper"
+  ],
+  "notes": "Third-party datacenter directories list SoftNET Koper DC at Vojkovo nabrezje 30, 6000 Koper, as a colocation data center operated by SoftNET; no public IT MW capacity found.",
+  "world_batch": true
+}

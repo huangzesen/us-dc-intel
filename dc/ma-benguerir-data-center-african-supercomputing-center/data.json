@@ -1,0 +1,22 @@
+{
+  "slug": "ma-benguerir-data-center-african-supercomputing-center",
+  "canonical_project": "Benguerir Data Center / African Supercomputing Center",
+  "owner": "OCP Group / Mohammed VI Polytechnic University / Atlas Cloud Services",
+  "location": {
+    "city": "",
+    "subnational": "Marrakech-Safi",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": 5,
+  "status": "operational",
+  "evidence_date": "2021-02-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://um6p.ma/fr/um6p-launches-data-center-and-africas-most-powerful-supercalculator-scientific-research-and",
+    "https://www.datacenterdynamics.com/en/news/university-morocco-africa-supercomputer-toubkal/",
+    "https://atlascloudservices.com/en/our-data-center/"
+  ],
+  "notes": "UM6P/OCP inaugurated the Benguerir data center hosting the Toubkal supercomputer. DCD reports the facility can support up to 5MW IT load and is home to Atlas Cloud Services.",
+  "world_batch": true
+}

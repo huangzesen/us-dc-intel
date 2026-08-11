@@ -1,0 +1,22 @@
+{
+  "slug": "kw-ooredoo-kuwait-data-center",
+  "canonical_project": "Ooredoo Kuwait Data Center",
+  "owner": "Ooredoo Kuwait",
+  "location": {
+    "city": "",
+    "subnational": "Capital",
+    "country": "Kuwait",
+    "country_code": "KW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ooredoo.com.kw/portal/en/datacenter",
+    "https://mail.datacentercatalog.com/kuwait/ooredoo-kuwait",
+    "https://www.navlink.com/services/mhs/cloud-hosting-colocation-kuwait/"
+  ],
+  "notes": "Ooredoo official page lists data center services including hosting, co-location, monitoring, managed storage, backup/restoration, business continuity, connectivity and cloud services. Data Center Catalog places the facility at Al-Sour Street, Kuwait City 13007; NavLink says it was designed/built to Tier III specifications. No public capacity found.",
+  "world_batch": true
+}

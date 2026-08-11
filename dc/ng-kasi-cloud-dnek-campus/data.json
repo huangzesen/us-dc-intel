@@ -1,0 +1,21 @@
+{
+  "slug": "ng-kasi-cloud-dnek-campus",
+  "canonical_project": "Kasi Cloud DNEK Campus",
+  "owner": "Kasi Cloud Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Akwa Ibom",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-05-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.kasicloud.com/",
+    "https://www.datacenterdynamics.com/en/news/nigerian-data-center-operator-kasi-opens-first-phase-of-100mw-facility/"
+  ],
+  "notes": "Kasi Cloud's own data-centers page lists a coming-soon DNEK Campus in Eket, Akwa Ibom, with DNEK1 and DNEK2. DCD also reported Kasi is developing another data center in Eket but that few details are public. Capacity not disclosed for DNEK.",
+  "world_batch": true
+}

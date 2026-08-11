@@ -1,0 +1,23 @@
+{
+  "slug": "hr-hr-zoo-ri-rijeka-data-center",
+  "canonical_project": "HR-ZOO RI Rijeka data center",
+  "owner": "SRCE / HR-ZOO; University of Rijeka site",
+  "location": {
+    "city": "",
+    "subnational": "Primorje-Gorski Kotar",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": 0.125,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://50.srce.hr/en.html",
+    "https://hrcak.srce.hr/file/496527",
+    "https://www.datacentermap.com/croatia/rijeka/hr-zoo-ri/",
+    "https://www.mep.hr/en/hr-zoo-project/"
+  ],
+  "notes": "SRCE's HR-ZOO project description says five data centers were constructed or adapted and equipped in Osijek, Rijeka, Split, and Zagreb. The HR-ZOO publication identifies the renovated HR-ZOO RI data center at the University campus Trsat in Rijeka. MEP project details list HR-ZOO Rijeka gross area of 213 m2 and designed DC power of 125 kW; DatacenterMap gives the address as Radmile Matejcic 2, Rijeka.",
+  "world_batch": true
+}

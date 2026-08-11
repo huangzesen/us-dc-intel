@@ -1,0 +1,21 @@
+{
+  "slug": "bi-central-bank-of-burundi-gitega-branch-it-infrastructure",
+  "canonical_project": "Central Bank of Burundi Gitega branch IT infrastructure",
+  "owner": "Banque de la Republique du Burundi / BAIP group / NRD",
+  "location": {
+    "city": "",
+    "subnational": "Gitega",
+    "country": "Burundi",
+    "country_code": "BI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2015-07-02",
+  "evidence_grade": "B",
+  "sources": [
+    "https://invltechnology.lt/news/baip-modernized-critical-it-infrastructure-of-the-burundi-reserve-bank-for-2-45-million-usd/",
+    "https://www.nrd.rw/en/stories/central-bank-data-centre-infrastructure-modernisation-and-maintenance/2"
+  ],
+  "notes": "BRB data centre infrastructure modernization was implemented across three sites, including a Gitega branch. Source does not identify this branch as the disaster-recovery site; capacity not public.",
+  "world_batch": true
+}

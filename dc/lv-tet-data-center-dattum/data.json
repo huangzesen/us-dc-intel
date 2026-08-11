@@ -1,0 +1,20 @@
+{
+  "slug": "lv-tet-data-center-dattum",
+  "canonical_project": "Tet Data Center Dattum",
+  "owner": "Tet",
+  "location": {
+    "city": "",
+    "subnational": "Riga",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": 1.4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tetcloud.com/data-centers"
+  ],
+  "notes": "Tet Cloud operator page lists Dattum as a Tier III facility for critical IT systems with 100 racks, 1.4 MW, PCI DSS Level 1 and 100% availability since launch in 2013.",
+  "world_batch": true
+}

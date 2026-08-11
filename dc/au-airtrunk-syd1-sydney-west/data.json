@@ -1,0 +1,21 @@
+{
+  "slug": "au-airtrunk-syd1-sydney-west",
+  "canonical_project": "AirTrunk SYD1 Sydney West",
+  "owner": "AirTrunk",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Blacktown",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 130.0,
+  "status": "operational",
+  "evidence_date": "2022-07-07",
+  "evidence_grade": "A",
+  "sources": [
+    "https://airtrunk.com/location/syd1-sydney-west/",
+    "https://www.datacenterdynamics.com/en/news/airtrunk-completes-fifth-building-at-130mw-sydney-campus/"
+  ],
+  "notes": "AirTrunk lists SYD1 Sydney West as a hyperscale campus with 130+MW capacity, 7.4ha site, 35,000 sqm technical data hall area and 42 data halls; DCD reported completion of the fifth and final building at the 130MW Sydney campus.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "fr-deepdata-saumur-underground-datacenter-demonstrator",
+  "canonical_project": "DeepData Saumur underground datacenter demonstrator",
+  "owner": "DeepData consortium",
+  "location": {
+    "city": "",
+    "subnational": "Maine-et-Loire",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2016-11-09",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.usine-digitale.fr/article/a-saumur-un-data-center-ultra-performant-installe-au-c-ur-des-carrieres-souterraines.N465198"
+  ],
+  "notes": "L'Usine Digitale reported the DeepData datacenter installed in underground quarries in the Saumur area had been operational for five months; article gives 3,200 terabits but not MW.",
+  "world_batch": true
+}

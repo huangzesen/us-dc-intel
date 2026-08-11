@@ -1,0 +1,21 @@
+{
+  "slug": "de-digital-realty-dusseldorf-dus3",
+  "canonical_project": "Digital Realty Düsseldorf DUS3",
+  "owner": "Digital Realty",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Düsseldorf",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 6.6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.digitalrealty.com/data-centers/emea/dusseldorf/dus3",
+    "https://www.datacentermap.com/germany/duesseldorf/digital-realty-dusseldorf-dus3/"
+  ],
+  "notes": "Official Digital Realty page confirms DUS3; DataCenterMap reports 6.6 MW at In der Steele 27-43.",
+  "world_batch": true
+}

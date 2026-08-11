@@ -1,0 +1,21 @@
+{
+  "slug": "de-vantage-frankfurt-i-fra1-campus",
+  "canonical_project": "Vantage Frankfurt I / FRA1 Campus",
+  "owner": "Vantage Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Offenbach am Main",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 56,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vantage-dc.com/data-center-locations/emea/frankfurt-i-germany/",
+    "https://vantage-dc.com/news/vantage-data-centers-continues-expansion-in-frankfurt-germany-with-planned-16mw-data-center/"
+  ],
+  "notes": "Official Vantage materials place the Frankfurt I campus at Goethering 27, 63067 Offenbach am Main. Vantage announced the second of three facilities on its flagship Offenbach FRA1 campus in 2022; the campus is described as 55-56 MW critical IT capacity.",
+  "world_batch": true
+}

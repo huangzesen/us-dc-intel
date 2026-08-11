@@ -1,0 +1,21 @@
+{
+  "slug": "gb-proximity-edge-7-swindon-data-centre",
+  "canonical_project": "Proximity Edge 7 Swindon data centre",
+  "owner": "Proximity Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "England - Borough of Swindon",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 7,
+  "status": "operational",
+  "evidence_date": "2021-09",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.colo-x.com/data-centre/proximity-edge-7-swindon-data-centre/",
+    "https://dgtlinfra.com/category/data-centers/"
+  ],
+  "notes": "Proximity acquired the former Capgemini Merlin facility in 2021; Colo-X describes the operational South Marston site as 7MW / 2,000 racks with Tier III-standard design.",
+  "world_batch": true
+}

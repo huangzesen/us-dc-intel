@@ -1,0 +1,22 @@
+{
+  "slug": "np-nepal-electricity-authority-data-center-syuchatar-suchatar-kathmandu",
+  "canonical_project": "Nepal Electricity Authority Data Center, Syuchatar/Suchatar Kathmandu",
+  "owner": "Nepal Electricity Authority",
+  "location": {
+    "city": "",
+    "subnational": "-",
+    "country": "Nepal",
+    "country_code": "NP"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2024-06-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/nepal-electricity-authority-launches-kathmandu-data-center/",
+    "https://newbusinessage.com/news/21257/nepal-electricity-authority-launches-data-center-with-investment-of-rs-14-billion/",
+    "https://en.himalpress.com/nea-builds-tier-3-data-center-in-syuchatar/"
+  ],
+  "notes": "NEA launched a Tier-3-standard Kathmandu data center under its Digital NEA program; reports describe 36 server rooms/four network rooms and two 1MW generators.",
+  "world_batch": true
+}

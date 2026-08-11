@@ -1,0 +1,21 @@
+{
+  "slug": "tw-cht-kaohsiung-zhongshan-idc",
+  "canonical_project": "CHT Kaohsiung Zhongshan IDC",
+  "owner": "Chunghwa Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Kaohsiung",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": 0.2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location_Kaoshiung_Zhongshan.html",
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location.html"
+  ],
+  "notes": "Chunghwa Telecom's official page lists Kaohsiung Zhongshan IDC as a four-floor 727+ sq m data center with 100 racks and 2 kW primary/redundant standard rack power provisioning; implied rack provision is about 0.2 MW before overhead.",
+  "world_batch": true
+}

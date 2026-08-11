@@ -1,0 +1,20 @@
+{
+  "slug": "jp-ntt-data-tokyo-tky11-data-center",
+  "canonical_project": "NTT DATA Tokyo TKY11 Data Center",
+  "owner": "NTT DATA / NTT Global Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Chiba",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 50,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/asia-pacific/tokyo-tky11-data-center"
+  ],
+  "notes": "Official NTT DATA page describes TKY11 in Shiroi City, Chiba, as a 50 MW two-building campus with first 24 MW IT-load building available in 2027 and a second 26 MW building to follow.",
+  "world_batch": true
+}

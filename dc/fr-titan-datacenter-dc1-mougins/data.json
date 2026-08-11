@@ -1,0 +1,22 @@
+{
+  "slug": "fr-titan-datacenter-dc1-mougins",
+  "canonical_project": "Titan Datacenter DC1 Mougins",
+  "owner": "Titan Datacenter",
+  "location": {
+    "city": "",
+    "subnational": "Alpes-Maritimes",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 24.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dcmag.fr/lambitieux-projet-titan-data-center-est-lance/",
+    "https://carte.dcmag.fr/directory/titan-datacenter/",
+    "https://www.centrale-carrieres.com/article/mougins-titan-datacenter-lance-un-plan-de-recrutement-de-44-postes-pour-son-futur-datacenter/24/09/2020/22"
+  ],
+  "notes": "DCmag described Titan DC1 in Mougins as a 4,200 m2 project with 24,000 kW useful power; DCmag's directory lists the current DC1 location in Alpes-Maritimes.",
+  "world_batch": true
+}

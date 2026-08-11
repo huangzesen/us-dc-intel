@@ -1,0 +1,21 @@
+{
+  "slug": "in-stt-gdc-hyderabad-1-hys-1-existing-facility",
+  "canonical_project": "STT GDC Hyderabad 1 (HYS 1) existing facility",
+  "owner": "ST Telemedia Global Data Centres India",
+  "location": {
+    "city": "",
+    "subnational": "Telangana - Hyderabad",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 4.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/india/hyderabad/",
+    "https://www.blackridgeresearch.com/blog/list-of-top-ten-largest-data-center-companies-in-india"
+  ],
+  "notes": "DataCenterMap lists ~42 facilities in Hyderabad; Blackridge Research lists STT Hyderabad 1 at ~4 MW IT capacity. STT GDC has operated in Hyderabad; exact address and current MW not confirmed by primary source in this check.",
+  "world_batch": true
+}

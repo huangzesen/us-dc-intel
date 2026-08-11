@@ -1,0 +1,21 @@
+{
+  "slug": "cm-campost-data-center-yaounde",
+  "canonical_project": "CAMPOST Data Center Yaounde",
+  "owner": "Cameroon Postal Services (CAMPOST)",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/uns-upu-director-general-calls-cameroons-data-center-a-growth-opportunity/",
+    "https://www.peeringdb.com/fac/10586"
+  ],
+  "notes": "DCD reported the Cameroon Postal Service data center offers colocation, call-center, and video-conferencing services and cost FCFA 31 billion, funded through a Chinese concessional loan. PeeringDB lists CAMPOST Data Center Yaounde on Ave Konrad Adenauer, Yaounde, hosting CAMIX Yaounde. No public MW capacity found.",
+  "world_batch": true
+}

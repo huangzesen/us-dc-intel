@@ -1,0 +1,21 @@
+{
+  "slug": "lv-lvrtc-talejas-iela-1-data-center",
+  "canonical_project": "LVRTC Talejas iela 1 data center",
+  "owner": "Latvian State Radio and Television Center (LVRTC)",
+  "location": {
+    "city": "",
+    "subnational": "Riga",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.lvrtc.lv/en/services/data-centers/",
+    "https://beta.peeringdb.com/org/1214"
+  ],
+  "notes": "PeeringDB lists Talejas iela 1 as an LVRTC Riga facility; LVRTC says it operates data-center services in Riga and across Latvia. Capacity not disclosed in public source.",
+  "world_batch": true
+}

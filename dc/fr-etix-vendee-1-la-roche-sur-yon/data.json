@@ -1,0 +1,21 @@
+{
+  "slug": "fr-etix-vendee-1-la-roche-sur-yon",
+  "canonical_project": "ETIX Vendee #1 La Roche-sur-Yon",
+  "owner": "ETIX Everywhere",
+  "location": {
+    "city": "",
+    "subnational": "Vendée",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 0.24,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.etixeverywhere.com/data-centers-in-nantes/",
+    "https://datacenterplatform.com/data-centers/celeste-sas/celeste-sas-france/etix-vendee-1/"
+  ],
+  "notes": "ETIX official page lists ETIX Vendee #1 at 4 Imp. Philippe Gozola, 85000 La Roche-sur-Yon, with 240 kW and 80 racks.",
+  "world_batch": true
+}

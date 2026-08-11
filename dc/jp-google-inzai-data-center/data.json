@@ -1,0 +1,21 @@
+{
+  "slug": "jp-google-inzai-data-center",
+  "canonical_project": "Google Inzai Data Center",
+  "owner": "Google",
+  "location": {
+    "city": "",
+    "subnational": "Chiba",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenters.google/locations/inzai-japan",
+    "https://www.datacenterdynamics.com/en/news/google-to-open-first-japan-data-center-in-2023/"
+  ],
+  "notes": "Google's official location page says it has called Inzai, Chiba home since 2023 and opened the Inzai data center in March 2023.",
+  "world_batch": true
+}

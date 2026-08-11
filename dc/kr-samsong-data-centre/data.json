@@ -1,0 +1,21 @@
+{
+  "slug": "kr-samsong-data-centre",
+  "canonical_project": "Samsong Data Centre",
+  "owner": "LG CNS",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Goyang-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 54,
+  "status": "construction",
+  "evidence_date": "2025-06-30",
+  "evidence_grade": "B",
+  "sources": [
+    "https://assets.cushmanwakefield.com/-/media/cw/marketbeat-pdfs/2025/q2/apac-and-gc/korea---data-center-1h-2025-eng_fin_.pdf?rev=0cb5fa8d986747a0b36fce070e4ffc2d",
+    "https://baxtel.com/data-center/sc-zeus-samsong-idc"
+  ],
+  "notes": "Cushman & Wakefield 1H 2025 construction list shows Samsong Data Centre in Goyang/Sangam-Ilsan cluster, LG CNS, 78,290 sqm and 54MW IT load.",
+  "world_batch": true
+}

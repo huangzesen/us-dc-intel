@@ -1,0 +1,21 @@
+{
+  "slug": "in-nxtra-bengaluru-ii",
+  "canonical_project": "Nxtra Bengaluru II",
+  "owner": "Nxtra by Airtel",
+  "location": {
+    "city": "",
+    "subnational": "Karnataka - Bangalore Rural",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 40,
+  "status": "planned",
+  "evidence_date": "2022-09-14",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/nxtra-to-deploy-bloom-energy-hydrogen-fuel-cells-at-data-center-in-karnataka/",
+    "https://www.nxtra.in/data-center-bangalore"
+  ],
+  "notes": "DCD reported Nxtra's upcoming Bengaluru II at 5,000 racks, 450,000 sq ft and 40 MW of power. Nxtra's current Bangalore page describes its Bangalore cluster as spread across Whitefield and Hoskote; district assignment to Bangalore Rural is inferred for the Hoskote facility.",
+  "world_batch": true
+}

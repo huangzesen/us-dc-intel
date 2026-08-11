@@ -1,0 +1,22 @@
+{
+  "slug": "ng-africa-data-centres-los1-lagos",
+  "canonical_project": "Africa Data Centres LOS1 Lagos",
+  "owner": "Africa Data Centres (Cassava Technologies)",
+  "location": {
+    "city": "",
+    "subnational": "Lagos",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": 20.65,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.africadatacentres.com/lagos/",
+    "https://technext24.com/explainer/28-data-centres-nigeria-2026/",
+    "https://technext24.com/2021/11/29/africa-data-centres-to-make-nigeria-its-regional-hq-with-new-10mw-lagos-facility/"
+  ],
+  "notes": "Rated-3 facility in Eko Atlantic special economic zone; official spec: 10 data halls, 9,800 m2 white space, 20.65MW critical IT load; announced 2021 as a 10MW facility; West African hub of Africa Data Centres pan-African network.",
+  "world_batch": true
+}

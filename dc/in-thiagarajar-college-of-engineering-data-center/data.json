@@ -1,0 +1,20 @@
+{
+  "slug": "in-thiagarajar-college-of-engineering-data-center",
+  "canonical_project": "Thiagarajar College of Engineering Data Center",
+  "owner": "Thiagarajar College of Engineering",
+  "location": {
+    "city": "",
+    "subnational": "Tamil Nadu - Madurai",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tce.edu/tce-data-center"
+  ],
+  "notes": "Institutional campus data center established in 2011 at TCE; page describes app, database and compute-cluster consolidation, about eight racks, 250 KVA generator and 30 KVA UPS. Not a hyperscale/colo project.",
+  "world_batch": true
+}

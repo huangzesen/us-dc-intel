@@ -1,0 +1,21 @@
+{
+  "slug": "sn-onix-data-centre-senegal",
+  "canonical_project": "Onix Data Centre Senegal",
+  "owner": "Onix Data Centres Ltd. / La Colombe Group",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-02-20",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/onix-data-centers-expands-into-dakar-senegal/",
+    "https://www.datacentermap.com/senegal/dakar/onix-data-centre-senegal/"
+  ],
+  "notes": "DCD reported Onix launched colocation in Dakar on February 16, 2023 at the 2Africa cable landing station, with access to ACE, MainOne and 2Africa. Public specifications were not shared; Data Center Map lists the facility within the 2Africa Cable Landing Station in Almadies.",
+  "world_batch": true
+}

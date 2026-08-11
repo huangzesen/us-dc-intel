@@ -1,0 +1,21 @@
+{
+  "slug": "fr-atacenter-carcassonne",
+  "canonical_project": "AtaCenter Carcassonne",
+  "owner": "Ataraxie",
+  "location": {
+    "city": "",
+    "subnational": "Aude",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://colomap.com/facilities/atacenter/",
+    "https://www.occitanie.cci.fr/sites/g/files/mwbcuj1211/files/2026-01/note%20eco%20V4_1.pdf?tstmp=1768551228"
+  ],
+  "notes": "ColoMap lists AtaCenter as a colocation data center operated by Ataraxie at 80 Allee d'Iena, Carcassonne, Aude. Occitanie CCI notes data centers in Occitanie include sites in Carcassonne.",
+  "world_batch": true
+}

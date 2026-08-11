@@ -1,0 +1,22 @@
+{
+  "slug": "gb-amazon-aws-houghton-regis-linmere-island-campus",
+  "canonical_project": "Amazon AWS Houghton Regis / Linmere Island campus",
+  "owner": "Amazon Data Services UK Ltd / Collier Properties LLC",
+  "location": {
+    "city": "",
+    "subnational": "England - Luton",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "approved",
+  "evidence_date": "2024-12-20",
+  "evidence_grade": "B",
+  "sources": [
+    "https://houghtonregisdatacentre.co.uk/",
+    "https://consult.environment-agency.gov.uk/psc/lu5-5gx-amazon-data-services-uk-limited/supporting_documents/Application%20Bespoke%20A001%20%20302321ARPXXXXRPZ1006%20Air%20Quality%20Permitting%20Report%20Final%20%2020122024.pdf",
+    "https://www.datacenterdynamics.com/en/news/campaigners-oppose-hyperscale-data-center-in-bedfordshire-uk-over-water-and-power-fears/"
+  ],
+  "notes": "Project consultation site describes two data centre buildings at Houghton Regis near Luton. Environment Agency permit documents name Amazon Data Services UK Limited. DCD reported AWS links and planning controversy. Capacity MW not directly stated in public sources found; electricity use was reported in kWh/year rather than IT load.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "cn-xiantao-new-generation-government-cloud-city-operations-center-machine-room",
+  "canonical_project": "Xiantao New-Generation Government Cloud / City Operations Center Machine Room",
+  "owner": "Xiantao municipal government",
+  "location": {
+    "city": "",
+    "subnational": "Hubei - Xiantao",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-05-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://epaper.hubeidaily.net/pad/content/202605/26/content_348974.html"
+  ],
+  "notes": "Hubei Daily reported an operational Xiantao city-operations-center room running dozens of domestic-CPU servers, more than 80 government systems and about 2 billion data records; small civic cloud facility rather than hyperscale IDC.",
+  "world_batch": true
+}

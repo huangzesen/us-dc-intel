@@ -1,0 +1,22 @@
+{
+  "slug": "kr-kinx-gwacheon-idc-gabia-gwacheon-data-centre",
+  "canonical_project": "KINX Gwacheon IDC / Gabia Gwacheon Data Centre",
+  "owner": "KINX / Gabia",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Gwacheon-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2024-11-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://company.kinx.net/pr/kinx-%EA%B3%BC%EC%B2%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%84%BC%ED%84%B0-%EA%B0%9C%EA%B4%80%EA%B5%AD%EB%82%B4-%EC%B5%9C%EA%B3%A0%EC%9D%98-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%94%8C/",
+    "https://www.kinx.net/infrastructure/dc/gwacheon/?lang=en",
+    "https://assets.cushmanwakefield.com/-/media/cw/marketbeat-pdfs/2024/q4/apac-and-gc/south-korea-2024-h2-data-center_eng.pdf?rev=b0be7261daf944b7b93e86331d2601e1"
+  ],
+  "notes": "KINX official release says the Gwacheon data center opened as KINX's eighth self-built data center in Gwacheon Knowledge Information Town and was designed for 10MW key IT capacity; KINX site highlights 20kW+ AI workload colocation. Cushman separately lists Gabia Gwacheon Data Centre at 1.7MW current/13.6MW total, likely the broader Gabia/KINX development.",
+  "world_batch": true
+}

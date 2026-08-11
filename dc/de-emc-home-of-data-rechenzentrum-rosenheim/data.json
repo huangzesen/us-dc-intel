@@ -1,0 +1,20 @@
+{
+  "slug": "de-emc-home-of-data-rechenzentrum-rosenheim",
+  "canonical_project": "EMC Home of Data - Rechenzentrum Rosenheim",
+  "owner": "EMC Home of Data GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Rosenheim (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.emc-homeofdata.de/de/rechenzentrum-rosenheim"
+  ],
+  "notes": "Official EMC page describes its Rosenheim data center for the Alpine region, direct connection to Campus MUC 1, PUE under 1.3, waste-heat use for the Kathrein campus, redundant power, Argon fire suppression, and racks up to 9 kW.",
+  "world_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "de-addix-dc2-horn-campus-kiel",
+  "canonical_project": "ADDIX DC2 / Hörn Campus Kiel",
+  "owner": "ADDIX Internet Services GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Kiel",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.addix.net/leistungen/internet-services/housing-rechenzentrum/",
+    "https://www.wissenschaftspark-kiel.de/firmen-im-park/addix-internet-services-gmbh/",
+    "https://www.datacentermap.com/germany/kiel/addix-dc2/",
+    "https://dchub.cloud/facilities/addix-internet-services-gmbh-hoern-campus-kiel-0edeed9a"
+  ],
+  "notes": "ADDIX official pages describe its Kiel data center/server housing at Hörn Campus, Kaistraße 101; Data Center Map lists ADDIX DC2, and DC Hub reports 3.0 MW operational capacity.",
+  "world_batch": true
+}

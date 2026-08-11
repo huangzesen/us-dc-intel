@@ -1,0 +1,22 @@
+{
+  "slug": "au-equinix-sy9x-rosehill-xscale-data-center",
+  "canonical_project": "Equinix SY9x Rosehill xScale data center",
+  "owner": "Equinix / PGIM Real Estate joint venture",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Parramatta",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 28,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/sydney-data-centers/sy9x",
+    "https://www.datacentermap.com/australia/sydney/equinix-sy9x/",
+    "https://datacentremagazine.com/data-centres/equinix-pgim"
+  ],
+  "notes": "Equinix lists SY9x as its first Sydney xScale site in Rosehill near Parramatta; third-party and trade sources report the Rosehill facility provides more than 14 MW initially and more than 28 MW at full build.",
+  "world_batch": true
+}

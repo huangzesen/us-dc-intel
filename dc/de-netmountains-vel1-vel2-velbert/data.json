@@ -1,0 +1,22 @@
+{
+  "slug": "de-netmountains-vel1-vel2-velbert",
+  "canonical_project": "NETMOUNTAINS VEL1 & VEL2 Velbert",
+  "owner": "NETMOUNTAINS Group GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Mettmann",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 8,
+  "status": "operational",
+  "evidence_date": "2025-10-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://netmountains.de/",
+    "https://www.datacenterdynamics.com/en/news/germanys-netmountains-launches-data-center-in-velbert/",
+    "https://www.datacentermap.com/germany/duesseldorf/netmountains-velbert-vel1/"
+  ],
+  "notes": "NETMOUNTAINS says its modern Velbert data center has opened with direct liquid cooling; DCD reports VEL1/VEL2 at Industriestrasse 76 with first-phase capacity for 100 racks. DataCenterMap lists 8 MW.",
+  "world_batch": true
+}

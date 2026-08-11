@@ -1,0 +1,21 @@
+{
+  "slug": "gg-sure-guernsey-data-centre",
+  "canonical_project": "Sure Guernsey Data Centre",
+  "owner": "Sure",
+  "location": {
+    "city": "",
+    "subnational": "Guernsey",
+    "country": "Guernsey",
+    "country_code": "GG"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://business.sure.com/products-and-services/offshore-data-centres/guernsey-data-centre/",
+    "https://business.sure.com/products-and-services/offshore-data-centres/data-centre-security/"
+  ],
+  "notes": "Sure's official business pages describe a Tier III Guernsey data centre with colocation, remote hands, inter-island connectivity, dual power feeds and resilient on-site generation; the Guernsey facility page states 2MW IT load.",
+  "world_batch": true
+}

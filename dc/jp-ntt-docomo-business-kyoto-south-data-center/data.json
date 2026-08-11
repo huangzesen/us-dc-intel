@@ -1,0 +1,21 @@
+{
+  "slug": "jp-ntt-docomo-business-kyoto-south-data-center",
+  "canonical_project": "NTT Docomo Business Kyoto South Data Center",
+  "owner": "NTT Docomo Business",
+  "location": {
+    "city": "",
+    "subnational": "Kyoto",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.jdcc.or.jp/dclist/",
+    "https://www.ntt.com/business/services/data-center/colocation/nexcenter.html"
+  ],
+  "notes": "JDCC registry lists Kyoto South Data Center in Kyoto City, opened 2001, tier 2 equivalent. MW not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "de-newtelco-mainrz-karlstein",
+  "canonical_project": "NewTelco MainRZ Karlstein",
+  "owner": "NewTelco GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Aschaffenburg (Rural)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 5,
+  "status": "operational",
+  "evidence_date": "2024-01-05",
+  "evidence_grade": "A",
+  "sources": [
+    "https://newtelco.com/products/colocation-services/",
+    "https://www.datacenterdynamics.com/en/news/newtelco-opens-karlstein-data-center-in-germany/",
+    "https://www.germandatacenters.com/en/news-en/detail/newtelco-joins-gda/"
+  ],
+  "notes": "NewTelco describes MainRZ in Karlstein am Main with redundant power from two independent sources at 5 MW; DCD reported the facility opened on November 30, 2023 with 5MW IT capacity. Karlstein am Main is in Landkreis Aschaffenburg.",
+  "world_batch": true
+}

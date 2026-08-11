@@ -1,0 +1,21 @@
+{
+  "slug": "nz-spark-tenpeaks-christchurch-data-centre",
+  "canonical_project": "Spark / TenPeaks Christchurch Data Centre",
+  "owner": "TenPeaks Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Canterbury",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.nzx.com/announcements/466723",
+    "https://cloudscene.com/data-center/new-zealand/christchurch/spark-christchurch"
+  ],
+  "notes": "Spark's data centre business transferred to TenPeaks in 2026; Cloudscene identifies a Christchurch facility. Public site-specific MW capacity was not found.",
+  "world_batch": true
+}

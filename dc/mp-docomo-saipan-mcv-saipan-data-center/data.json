@@ -1,0 +1,22 @@
+{
+  "slug": "mp-docomo-saipan-mcv-saipan-data-center",
+  "canonical_project": "DoCoMo Saipan / MCV Saipan Data Center",
+  "owner": "DOCOMO PACIFIC",
+  "location": {
+    "city": "",
+    "subnational": "Northern Mariana Islands",
+    "country": "Northern Mariana Islands",
+    "country_code": "MP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/data-center/docomo-saipan",
+    "https://inflect.com/building/nauru-loop-susupe/docomo-pacific/datacenter/guam-cablevision-llc-mcv-saipan-datacenter",
+    "https://business.docomopacific.com/data-center-colocation"
+  ],
+  "notes": "Saipan/Susupe colocation facility listed by Baxtel and Inflect; DOCOMO PACIFIC's official business site confirms it operates colocation data center facilities with power, cooling, security, connectivity, direct fiber links, and SLA-backed service, but does not publish a Saipan-specific MW figure.",
+  "world_batch": true
+}

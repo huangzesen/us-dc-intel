@@ -1,0 +1,21 @@
+{
+  "slug": "nc-felix-datacenter",
+  "canonical_project": "Felix Datacenter",
+  "owner": "Nautile",
+  "location": {
+    "city": "",
+    "subnational": "New Caledonia",
+    "country": "New Caledonia",
+    "country_code": "NC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-04-28",
+  "evidence_grade": "C",
+  "sources": [
+    "https://mapcarta.com/fr/W909192653",
+    "https://scrutica.com/facilities/fac-osm2-w909192653"
+  ],
+  "notes": "Open-map-derived listings identify Felix Datacenter at 5 Rue Felix Broche, Noumea, with Nautile as operator/owner and creation date shown as 2021-01-01. Treated as weak evidence because sources are map/aggregate listings rather than operator or permit records; no MW capacity disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "it-fastnet-ancona-data-center-service-farm",
+  "canonical_project": "FASTNET Ancona Data Center / Service Farm",
+  "owner": "FASTNET S.p.A.",
+  "location": {
+    "city": "",
+    "subnational": "Marche",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://fastnet.it/data-center/",
+    "https://www.datacentermap.com/italy/ancona/service-farm/"
+  ],
+  "notes": "Operator page describes a Tier 4-compliant Fastnet data center in Ancona providing cloud server and colocation services; Data Center Map lists the facility as Fastnet Service Farm in Ancona.",
+  "world_batch": true
+}

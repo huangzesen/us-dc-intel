@@ -1,0 +1,21 @@
+{
+  "slug": "fr-datacenter-metropolitain-d-angers-universite-d-angers-belle-beille",
+  "canonical_project": "Datacenter métropolitain d'Angers / Université d'Angers Belle-Beille",
+  "owner": "Université d'Angers / Angers Loire Métropole / Région Pays de la Loire / Département de Maine-et-Loire",
+  "location": {
+    "city": "",
+    "subnational": "Maine-et-Loire",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-01-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://sien-pdl.fr/le-datacenter-metropolitain-dangers/",
+    "https://jerlaure.fr/wp-content/uploads/2018/05/UNIV-ANGERS-2.pdf"
+  ],
+  "notes": "SIEN Pays de la Loire describes the Angers metropolitan datacenter as the result of work since 2014 for local higher education and public bodies; Jerlaure project sheet says Université d'Angers entrusted construction of a Tier III datacenter on Belle-Beille campus.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "cn-china-unicom-changsha-cloud-data-center",
+  "canonical_project": "China Unicom Changsha Cloud Data Center",
+  "owner": "China Unicom Hunan",
+  "location": {
+    "city": "",
+    "subnational": "Hunan - Changsha Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-01-10",
+  "evidence_grade": "A",
+  "sources": [
+    "https://hunan.gov.cn/topic/2020hnjksc/jkscwzewm/202301/t20230110_29178819.html"
+  ],
+  "notes": "Hunan compute-capability action plan identifies this as Unicom's largest Central-South cloud data center and a five-star facility; 3,200 standard racks planned, 1,633.6 built at the time, 104.86 PFLOPS design compute and 400PB design storage.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "ru-datapro-moscow-ii",
+  "canonical_project": "DataPro Moscow II",
+  "owner": "DataPro",
+  "location": {
+    "city": "",
+    "subnational": "Moscow",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 11,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/russia/moscow/datapro-moscow-ii/"
+  ],
+  "notes": "Data Center Map lists DataPro Moscow II in Khimki, Moscow Region, launched in 2020 with 1,600 racks and 11 MW; third-party directory evidence.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "sa-center3-haql-cable-landing-station-data-center-facility",
+  "canonical_project": "center3 Haql Cable Landing Station data-center facility",
+  "owner": "center3 Digital Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Tabuk Region - Haql",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-02-29",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.subseacables.net/infrastructure-news/center3-s-landing-station-expansion-broadening-the-horizons-of-global-connectivity/",
+    "https://baxtel.com/data-center/center3-haql-cls"
+  ],
+  "notes": "center3 describes the Haql Cable Landing Station as a modern Red Sea facility hosting the Saudi Vision cable system and carrying Tier-III Data Center certification; Baxtel lists Center3 Haql CLS as a Tabuk data center. No public MW capacity found.",
+  "world_batch": true
+}

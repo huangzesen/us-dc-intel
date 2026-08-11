@@ -1,0 +1,21 @@
+{
+  "slug": "de-stadt-brunsbuttel-compact-data-center-container",
+  "canonical_project": "Stadt Brunsbüttel Compact Data Center Container",
+  "owner": "Stadt Brunsbüttel / Dierck Datacenter",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Dithmarschen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dierck-datacenter.de/referenzen",
+    "https://dierck-gruppe.de/case-studies"
+  ],
+  "notes": "Dierck Datacenter reference describes a modular concrete compact data center for Stadt Brunsbüttel in Kreis Dithmarschen with 4 server racks, expandable to 5, 10 kW cooling and 10 kW modular UPS, both 2n redundant.",
+  "world_batch": true
+}

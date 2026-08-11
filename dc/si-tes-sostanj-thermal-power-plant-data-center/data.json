@@ -1,0 +1,22 @@
+{
+  "slug": "si-tes-sostanj-thermal-power-plant-data-center",
+  "canonical_project": "TEŠ Šoštanj Thermal Power Plant data center",
+  "owner": "Termoelektrarna Šoštanj (TEŠ); Advant listed as data-center/network contractor",
+  "location": {
+    "city": "",
+    "subnational": "Sostanj",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://advant.si/reference",
+    "https://advant.si/en/references",
+    "https://go6.si/wp-content/uploads/2016/06/Advant-Sponsors.pdf"
+  ],
+  "notes": "Advant's public references list TEŠ, Termoelektrarna Šoštanj / Šoštanj Thermal Power Plant, for construction of a new approximately 120 m² data center with redundant APC 2 x 160 kVA UPS. An older Advant presentation gives similar details: about 120 m², 8 racks, 160 kVA power and APC 2 x 160 kVA UPS. Treated as operational because it appears in completed/reference portfolios; no public IT MW capacity found.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "se-kalmar-ndc-datacenter",
+  "canonical_project": "Kalmar NDC Datacenter",
+  "owner": "KALMAR NDC Sweden",
+  "location": {
+    "city": "",
+    "subnational": "Kalmar",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/kalmar-ndc/kalmar-ndc-sweden/kalmar-ndc-datacenter/",
+    "https://kalmarndc.se/backup-datacenter"
+  ],
+  "notes": "Datacenterplatform lists Kalmar NDC Datacenter at Sodra Vagen 58, Kalmar, with company website pointing to Kalmar NDC backup/datacenter services.",
+  "world_batch": true
+}

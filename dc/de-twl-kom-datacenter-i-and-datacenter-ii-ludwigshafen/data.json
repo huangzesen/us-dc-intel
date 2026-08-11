@@ -1,0 +1,21 @@
+{
+  "slug": "de-twl-kom-datacenter-i-and-datacenter-ii-ludwigshafen",
+  "canonical_project": "TWL-KOM Datacenter I and Datacenter II Ludwigshafen",
+  "owner": "TWL-KOM GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Rhineland-Palatinate - Ludwigshafen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-01-29",
+  "evidence_grade": "A",
+  "sources": [
+    "https://twl-kom.de/datacenter",
+    "https://twl-kom.de/news/newsroom/2025/inbetriebnahme-des-twl-kom-tier-iv-datacenter-ausbaus"
+  ],
+  "notes": "Official TWL-KOM pages list Datacenter I and certified TIER IV Datacenter II in Ludwigshafen. A 29 Jan 2025 company update says the Datacenter II expansion entered operation on 1 Dec 2024 and added about 1 MW of UPS-backed power plus 450 kW of cooling capacity for liquid-cooling/HPC demand.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "se-brs-networks-dlc-nez-gotland-data-center",
+  "canonical_project": "BRS Networks / DLC NEZ Gotland data center",
+  "owner": "BRS Networks / Duomenu Logistikos Centras",
+  "location": {
+    "city": "",
+    "subnational": "Gotland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2015-10-21",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/lithuanian-data-center-operator-expands-into-sweden/",
+    "https://datacenterplatform.com/data-centers/brs-networks/brs-networks-sweden/brs-networks-gotland/"
+  ],
+  "notes": "DCD reported DLC expanding into a Tier III Gotland facility codenamed NEZ built by BRS Networks and set to open in 2016; current operating status not confirmed from accessible public sources.",
+  "world_batch": true
+}

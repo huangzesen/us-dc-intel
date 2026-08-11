@@ -1,0 +1,20 @@
+{
+  "slug": "hu-honvedsegi-military-it-server-room-cooling-project-szekesfehervar",
+  "canonical_project": "Honvedsegi / military IT server-room cooling project, Szekesfehervar",
+  "owner": "Hungarian Defence Forces / listed by Klimagaz Hungary Kft.",
+  "location": {
+    "city": "",
+    "subnational": "Fejer",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.klimagaz.hu/referenciak.html"
+  ],
+  "notes": "Contractor reference list includes an 'Informatikai szerverterem Szfv' / IT server room in Szekesfehervar and a 'MH ÖHP Szerverterem' military server-room project with 200 kW DX cooling. Listed as a small/corporate-government data-center/server-room reference rather than public colocation; no IT load or exact commissioning date found.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "et-geek-zone-data-center-plc-holeta-mining-farm",
+  "canonical_project": "Geek Zone Data Center PLC Holeta mining farm",
+  "owner": "Geek Zone Data Center PLC",
+  "location": {
+    "city": "",
+    "subnational": "Oromia",
+    "country": "Ethiopia",
+    "country_code": "ET"
+  },
+  "capacity_mw": 70,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.bitdeer.com/shop/global/datacenter/geek-zone-data-center-plc",
+    "https://www.datacentermap.com/ethiopia/addis-ababa/bitdeer-oromia/"
+  ],
+  "notes": "Bitdeer marketplace page lists Geek Zone Data Center PLC in Holeta/Oromia, powered on in January 2024, with a 70MW mining-farm load and direct grid power agreement; third-party map also lists a Bitdeer Oromia site near Bobe/Holeta.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "nz-chorus-christchurch-edgecentre",
+  "canonical_project": "Chorus Christchurch EdgeCentre",
+  "owner": "Chorus",
+  "location": {
+    "city": "",
+    "subnational": "Canterbury",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.chorus.co.nz/enterprise/data-centre-connectivity/edgecentre",
+    "https://www.chorus.co.nz/get-better-internet/how-can-edge-computing-help-your-business",
+    "https://www.vorco.nz/cloud/chorus-edgecentre-colocation"
+  ],
+  "notes": "Chorus states EdgeCentre facilities are located in Christchurch and describes the service as regional distributed data centre/colocation. No public MW capacity found.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "au-city-of-bunbury-civic-data-centre-private-cloud-platform",
+  "canonical_project": "City of Bunbury civic data centre / private cloud platform",
+  "owner": "City of Bunbury / Stott + Hoare / IBM",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Bunbury",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2013-04-05",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.govtechreview.com.au/content/gov-cloud/article/bunbury-s-private-cloud-push-presages-regional-hosting-role-445945218",
+    "https://www.wa.gov.au/government/media-statements/Carpenter%20Labor%20Government/State-Government-funds-innovative-new-digital-centre-20080313"
+  ],
+  "notes": "GovTechReview reported that the City of Bunbury had built a data centre and migrated more than 35 legacy servers to IBM PureSystems/PureFlex infrastructure, with excess rack, compute and storage capacity for potential hosted council services. A 2008 WA Government release funded power/cooling infrastructure for the Bunbury digital centre's data centre.",
+  "world_batch": true
+}

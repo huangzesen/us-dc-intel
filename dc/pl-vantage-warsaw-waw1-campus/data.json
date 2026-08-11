@@ -1,0 +1,21 @@
+{
+  "slug": "pl-vantage-warsaw-waw1-campus",
+  "canonical_project": "Vantage Warsaw WAW1 campus",
+  "owner": "Vantage Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 48,
+  "status": "operational",
+  "evidence_date": "2022-05-31",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vantage-dc.com/data-center-locations/emea/warsaw-poland/",
+    "https://vantage-dc.com/news/vantage-data-centers-opens-berlin-and-warsaw-campuses-to-customers/"
+  ],
+  "notes": "Vantage official materials describe Warsaw WAW1 on more than 12 acres near Warsaw-Chopin Airport; when fully developed the two-building campus provides 48MW critical IT capacity.",
+  "world_batch": true
+}

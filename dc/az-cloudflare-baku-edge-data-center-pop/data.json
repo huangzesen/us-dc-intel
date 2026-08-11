@@ -1,0 +1,21 @@
+{
+  "slug": "az-cloudflare-baku-edge-data-center-pop",
+  "canonical_project": "Cloudflare Baku edge data center / PoP",
+  "owner": "Cloudflare",
+  "location": {
+    "city": "",
+    "subnational": "Baku",
+    "country": "Azerbaijan",
+    "country_code": "AZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cloudflarestatus.com/locations",
+    "https://www.cloudflare.com/network/"
+  ],
+  "notes": "Cloudflare's official network status page lists Baku, Azerbaijan (GYD) as an operational Middle East network location. This is an edge data center/PoP rather than a disclosed standalone colocation facility.",
+  "world_batch": true
+}

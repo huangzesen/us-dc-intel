@@ -1,0 +1,21 @@
+{
+  "slug": "ie-apple-athenry-data-centre-derrydonnell-county-galway",
+  "canonical_project": "Apple Athenry data centre, Derrydonnell, County Galway",
+  "owner": "Apple",
+  "location": {
+    "city": "",
+    "subnational": "Connaught",
+    "country": "Ireland",
+    "country_code": "IE"
+  },
+  "capacity_mw": 20,
+  "status": "rejected",
+  "evidence_date": "2022-06-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://mkoireland.ie/case-studies/apple-data-centre-athenry/",
+    "https://www.datacenterdynamics.com/en/news/irish-high-court-overrules-planning-permission-extension-for-apples-galway-data-center/"
+  ],
+  "notes": "MKO describes Apple's planned EUR850m multi-phase Athenry development; DCD reports Ireland's High Court overruled the planning-permission extension in 2022, meaning Apple would need to reapply.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "hu-zalazone-emak-energy-management-data-center-zalaegerszeg",
+  "canonical_project": "ZalaZONE EMAK Energy Management Data Center, Zalaegerszeg",
+  "owner": "ZalaZONE InnoTech Nonprofit Kft. / Szechenyi Istvan University",
+  "location": {
+    "city": "",
+    "subnational": "Zalaegerszeg",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://research-and-innovation.zalazone.hu/en/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11393586/"
+  ],
+  "notes": "ZalaZONE's official research page describes EMAK as a prototype Energy Management Data Center tied to the ZalaZONE automotive proving ground in Zalaegerszeg. The supporting peer-reviewed article says the EMAK project established a complex data collection, processing, and analysis system for energy management, with servers at the ZalaZONE site. This appears to be an R&D/industrial energy-management data platform rather than a hyperscale, colocation, or cloud-region data center; no IT load or power capacity was disclosed.",
+  "world_batch": true
+}

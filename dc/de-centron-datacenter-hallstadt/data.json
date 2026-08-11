@@ -1,0 +1,21 @@
+{
+  "slug": "de-centron-datacenter-hallstadt",
+  "canonical_project": "centron Datacenter Hallstadt",
+  "owner": "centron GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Bamberg (Rural)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 1.25,
+  "status": "operational",
+  "evidence_date": "2014-02-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.centron.de/en/about-us/",
+    "https://www.datacentermap.com/germany/bamberg/centron-datacenter/"
+  ],
+  "notes": "Centron states its Bamberg/Hallstadt data center opened in 2014 and that it has operated its own data center since 2008; Datacenter Map lists the Hallstadt site at Heganger 29 with 1.25MW power capacity and operational stage.",
+  "world_batch": true
+}

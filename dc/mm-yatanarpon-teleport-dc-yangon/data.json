@@ -1,0 +1,21 @@
+{
+  "slug": "mm-yatanarpon-teleport-dc-yangon",
+  "canonical_project": "Yatanarpon Teleport DC Yangon",
+  "owner": "Yatanarpon Teleport Co., Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Yangon",
+    "country": "Myanmar",
+    "country_code": "MM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ytp.com.mm/Enterprise-DataCenter",
+    "https://dchub.cloud/facilities/yatanarpon-teleport-company-limited-yatanarpon-teleport-dc-yangon-27304b14"
+  ],
+  "notes": "Yatanarpon Teleport's official enterprise data-center page says it houses a data center in Yangon serving more than 120 corporate clients. DC Hub reports a 3.0 MW operational facility in Hlaing, but the official page does not disclose capacity, so capacity_mw is left null.",
+  "world_batch": true
+}

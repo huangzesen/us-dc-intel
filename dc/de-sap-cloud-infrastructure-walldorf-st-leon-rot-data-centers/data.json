@@ -1,0 +1,20 @@
+{
+  "slug": "de-sap-cloud-infrastructure-walldorf-st-leon-rot-data-centers",
+  "canonical_project": "SAP Cloud Infrastructure Walldorf/St. Leon-Rot data centers",
+  "owner": "SAP SE",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Rhein-Neckar-Kreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-04-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.sap.com/2026/04/sap-cloud-infrastructure-it-grundschutz-certification-data-centers-germany/"
+  ],
+  "notes": "SAP official news says the Walldorf/St. Leon-Rot region data centers are SAP-owned, operated by approved personnel, and designed for high availability, scalability, and stringent security; both municipalities are in Rhein-Neckar-Kreis.",
+  "world_batch": true
+}

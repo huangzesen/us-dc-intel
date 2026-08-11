@@ -1,0 +1,22 @@
+{
+  "slug": "cn-tencent-gui-an-qixing-data-center",
+  "canonical_project": "Tencent Gui'an Qixing Data Center",
+  "owner": "Tencent",
+  "location": {
+    "city": "",
+    "subnational": "Guizhou - Guiyang Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-03-18",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.news.cn/politics/20260318/53336b0849744dbfa16122c22ee5aff6/c.html",
+    "https://hmo.sz.gov.cn/zx/wqzx/content/post_1553296.html",
+    "https://www.stcn.com/article/detail/526549.html"
+  ],
+  "notes": "Tencent's Qixing Data Center in Gui'an New Area is repeatedly cited as a cavern-based data center and national 'east data west computing' example; sources report it can host more than 200,000 servers and uses Tencent modular T-block design.",
+  "world_batch": true
+}

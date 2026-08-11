@@ -1,0 +1,22 @@
+{
+  "slug": "fr-eclairion-bruyeres-le-chatel-ai-hpc-data-center",
+  "canonical_project": "Éclairion Bruyères-le-Châtel AI/HPC data center",
+  "owner": "Éclairion / High Performance Capital",
+  "location": {
+    "city": "",
+    "subnational": "Essonne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 120,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://eclairion.com/",
+    "https://www.iledefrance.fr/toutes-les-actualites/ia-un-super-centre-de-calcul-soutenu-par-la-region-en-essonne",
+    "https://www.datacentermap.com/france/paris/eclairion-bruyeres-le-chtel/"
+  ],
+  "notes": "Éclairion describes high-density AI colocation infrastructure; Île-de-France region said the Essonne center opened in early 2025. Data Center Map lists the Bruyères-le-Châtel campus at 120 MW.",
+  "world_batch": true
+}

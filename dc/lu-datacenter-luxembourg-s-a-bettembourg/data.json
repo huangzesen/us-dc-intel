@@ -1,0 +1,22 @@
+{
+  "slug": "lu-datacenter-luxembourg-s-a-bettembourg",
+  "canonical_project": "Datacenter Luxembourg S.A. Bettembourg",
+  "owner": "Datacenter Luxembourg S.A.",
+  "location": {
+    "city": "",
+    "subnational": "Esch-sur-Alzette",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenter.eu/",
+    "https://fedil.lu/fr/members/4b095bb5-ece6-e611-80f5-c4346bac8ce8/",
+    "https://en.paperjam.lu/guide/organisation/01306514616/datacenter-luxembourg"
+  ],
+  "notes": "Datacenter Luxembourg's site describes secured server room services in a Tier IV data center; FEDIL and Paperjam list the company at 202 Z.A.E. Wolser F, L-3290 Bettembourg and describe it as a datacenter/cloud/Internet infrastructure provider.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "so-wingu-africa-berbera-sl01-carrier-neutral-data-center",
+  "canonical_project": "Wingu Africa Berbera SL01 carrier-neutral data center",
+  "owner": "Wingu Africa Group Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Northwest",
+    "country": "Somalia",
+    "country_code": "SO"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2022-02-27",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.wingu.africa/latest-news/wingu-opens-carrier-neutral-data-centre-in-berbera-somaliland",
+    "https://baxtel.com/data-center/somalia",
+    "https://www.datacentermap.com/somalia/berbera/wingu-africa-data-center-berbera/"
+  ],
+  "notes": "Wingu announced that the first phase of its Berbera, Somaliland carrier-neutral data center was commissioned on 2021-02-13 and ready for service. Baxtel lists Somalia as having one facility, Wingu Africa Berbera SL01, and reports about 1MW for the largest Somalia data center; DataCenterMap places the facility at Batalaale Beach, Zone 20, Beach Rd, Berbera. Assigned to Northwest because the batch uses the legacy Northwest/Somaliland division label; Berbera is often treated separately as Sahil in newer administrative references.",
+  "world_batch": true
+}

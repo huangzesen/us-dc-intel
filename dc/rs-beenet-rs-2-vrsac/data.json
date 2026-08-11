@@ -1,0 +1,20 @@
+{
+  "slug": "rs-beenet-rs-2-vrsac",
+  "canonical_project": "BeeNet RS-2 Vrsac",
+  "owner": "BeeNet",
+  "location": {
+    "city": "",
+    "subnational": "Vojvodina",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.beenet.rs/en/data-center"
+  ],
+  "notes": "BeeNet says it operates RS-2 Vrsac with 1,000 sq m facility size, total power up to 2 MW, up to 20 kW per rack, and links up to 100 Gbit/s.",
+  "world_batch": true
+}

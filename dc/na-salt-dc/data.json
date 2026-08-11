@@ -1,0 +1,21 @@
+{
+  "slug": "na-salt-dc",
+  "canonical_project": "SALT DC",
+  "owner": "SALT Essential Information Technology",
+  "location": {
+    "city": "",
+    "subnational": "Khomas",
+    "country": "Namibia",
+    "country_code": "NA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.salt.na/business-operations-continuity/",
+    "https://datacenterplatform.com/data-centers/salt-essential-information-technology/"
+  ],
+  "notes": "SALT's own business-continuity offering references data-centre hosting, and Data Center Platform lists SALT DC at 161 Mandume Ndemufayo Avenue, Windhoek; capacity not disclosed.",
+  "world_batch": true
+}

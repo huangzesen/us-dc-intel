@@ -1,0 +1,22 @@
+{
+  "slug": "de-dc-it-room-wallmenroth-bruche-data-center",
+  "canonical_project": "DC IT ROOM Wallmenroth-Bruche Data Center",
+  "owner": "DC IT ROOM / Data Center Group ecosystem",
+  "location": {
+    "city": "",
+    "subnational": "Rhineland-Palatinate - Altenkirchen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/dc-it-room-wallmenroth-bruche",
+    "https://datacenter-group.com/en/company/about-us/",
+    "https://www.germandatacenters.com/en/partner/dc-datacenter-group-gmbh/"
+  ],
+  "notes": "Datacenters.com lists a carrier-neutral Wallmenroth-Bruche data center. Data Center Group primary/GDA pages confirm Wallmenroth as the headquarters and operating/services base for secure, highly available IT infrastructure, but facility-level capacity details were not found in primary sources.",
+  "world_batch": true
+}

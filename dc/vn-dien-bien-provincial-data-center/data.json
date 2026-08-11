@@ -1,0 +1,20 @@
+{
+  "slug": "vn-dien-bien-provincial-data-center",
+  "canonical_project": "Dien Bien Provincial Data Center",
+  "owner": "Dien Bien Department of Science and Technology / provincial government",
+  "location": {
+    "city": "",
+    "subnational": "Dien Bien",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.vietnam.vn/en/dien-bien-tao-nen-tang-so-cho-chinh-quyen-dia-phuong-hai-cap"
+  ],
+  "notes": "Reported provincial data center operates 54 physical servers and 835 TB storage to support centralized storage and digitized records for two-level local government.",
+  "world_batch": true
+}

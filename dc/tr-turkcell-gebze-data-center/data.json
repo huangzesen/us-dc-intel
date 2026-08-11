@@ -1,0 +1,22 @@
+{
+  "slug": "tr-turkcell-gebze-data-center",
+  "canonical_project": "Turkcell Gebze Data Center",
+  "owner": "Turkcell",
+  "location": {
+    "city": "",
+    "subnational": "Kocaeli",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://medya.turkcell.com.tr/bulletins/turkcell-gebzede-turkiyenin-en-buyuk-veri-merkezini-hizmete-acti/",
+    "https://shiftdelete.net/turkiyenin-en-buyuk-veri-merkezi-acildi-72076",
+    "https://serban.com.tr/gebze-veri-merkezi-4-modul"
+  ],
+  "notes": "Opened 2016 in Gebze (Kocaeli) as Turkey's largest data center; ~35,000 m2, Tier III certified and LEED Gold; 4th module delivered 2021 with 12.6 MW (Serban). Total site MW not publicly disclosed; Turkcell group data-center capacity planned to exceed 64 MW by end-2025 across its facilities.",
+  "world_batch": true
+}

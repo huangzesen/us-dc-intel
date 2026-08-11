@@ -1,0 +1,23 @@
+{
+  "slug": "de-thuringer-netkom-rechenzentrum-ilmenau",
+  "canonical_project": "Thuringer Netkom Rechenzentrum Ilmenau",
+  "owner": "Thuringer Netkom GmbH / TEAG and SachsenEnergie",
+  "location": {
+    "city": "",
+    "subnational": "Thuringia - Ilm-Kreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.thueringerenergie.de/Ueber_uns/Mediathek/Presse/Presse_17989.aspx",
+    "https://www.thueringerenergie.de/Kommunen_und_Stadtwerke/Kommunen/Kommunal-aktuell/Infrastruktur/Rechenzentrum.aspx",
+    "https://www.netkom.de/Content/Documents/Geschaeftskunden/TNK_RZ_TSI.Standard_V4.6_26.pdf",
+    "https://www.bsi.bund.de/SharedDocs/Zertifikate_GS_ISO27001/Abgeschlossen/BSI-IGZ-0582-2023.html"
+  ],
+  "notes": "TEAG announced the modern EUR25 million Thuringian data center went into operation on 2021-09-17 and says it is operated by Thuringer Netkom. TUV Nord's 2026 TSI certificate identifies the evaluated security area as Rechenzentrum Ilmenau, and BSI states Thuringer Netkom operates a data center at Ilmenau.",
+  "world_batch": true
+}

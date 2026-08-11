@@ -1,0 +1,21 @@
+{
+  "slug": "fr-guyane-numerique-datacenter-network",
+  "canonical_project": "Guyane Numérique datacenter network",
+  "owner": "Guyane Numérique",
+  "location": {
+    "city": "",
+    "subnational": "Guyane",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.guyanenumerique.net/",
+    "https://www.guyanenumerique.net/carte-reseau/"
+  ],
+  "notes": "Guyane Numérique network pages list 2 data centers for GNU backbone and hosting services, plus NTR/NRA network nodes across French Guiana.",
+  "world_batch": true
+}

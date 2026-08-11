@@ -1,0 +1,22 @@
+{
+  "slug": "au-pulse-data-centre",
+  "canonical_project": "Pulse Data Centre",
+  "owner": "Pulse DC / FKG Group",
+  "location": {
+    "city": "",
+    "subnational": "Queensland - Toowoomba",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 7.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pulsedc.com.au/",
+    "https://uptimeinstitute.com/clients/pulse-data-centre",
+    "https://www.datacentermap.com/australia/toowoomba/pulse-dc/"
+  ],
+  "notes": "Pulse DC's official site describes a Toowoomba facility with Tier III design up to 7.5MW, 4,380 sqm technical floor space and potential large-scale expansion up to 50MW; Uptime Institute says phase one provides 2.5MW colocation capacity as part of a three-stage plan to 7.5MW.",
+  "world_batch": true
+}

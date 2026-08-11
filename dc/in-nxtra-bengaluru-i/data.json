@@ -1,0 +1,21 @@
+{
+  "slug": "in-nxtra-bengaluru-i",
+  "canonical_project": "Nxtra Bengaluru I",
+  "owner": "Nxtra by Airtel",
+  "location": {
+    "city": "",
+    "subnational": "Karnataka - Bangalore Urban",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 5.4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nxtra.in/data-center-bangalore",
+    "https://www.datacenterdynamics.com/en/news/nxtra-to-deploy-bloom-energy-hydrogen-fuel-cells-at-data-center-in-karnataka/"
+  ],
+  "notes": "Nxtra's Bangalore page lists a Bangalore cluster highlight of 5.4 MW IT power and 2,000 racks; DCD separately described Bengaluru 1 as a 2,000-rack facility around 5.5 MW.",
+  "world_batch": true
+}

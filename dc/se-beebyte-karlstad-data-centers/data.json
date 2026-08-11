@@ -1,0 +1,21 @@
+{
+  "slug": "se-beebyte-karlstad-data-centers",
+  "canonical_project": "Beebyte Karlstad data centers",
+  "owner": "Beebyte AB",
+  "location": {
+    "city": "",
+    "subnational": "Varmland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.beebyte.se/en/our-datacenters/",
+    "https://www.beebyte.se/en/homepage/"
+  ],
+  "notes": "Beebyte states it currently has three data centers in Karlstad, Varmland: Datacenter 02, Datacenter 03, and Datacenter 04.",
+  "world_batch": true
+}

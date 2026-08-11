@@ -1,0 +1,21 @@
+{
+  "slug": "au-aurora-energy-precinct-ai-data-centre-campus",
+  "canonical_project": "Aurora Energy Precinct AI data centre campus",
+  "owner": "1414 Degrees with unnamed data centre operator",
+  "location": {
+    "city": "",
+    "subnational": "South Australia - Port Augusta",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 1000,
+  "status": "planned",
+  "evidence_date": "2026-07-31",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.energy-storage.news/thermal-energy-storage-company-1414-degrees-secures-1gw-data-centre-deal-in-south-australia/",
+    "https://reneweconomy.com.au/thermal-battery-company-chasing-1-gw-data-centre-deal-for-site-once-earmarked-for-giant-solar-towers/"
+  ],
+  "notes": "Heads of agreement for up to 1GW AI data centre infrastructure at Aurora Energy Precinct near Port Augusta. Proposed staging begins with 17MW starter campus, then 200MW anchor campus after 275kV connection, with longer-term path to gigawatt scale.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "de-eunetworks-leipzig",
+  "canonical_project": "euNetworks Leipzig",
+  "owner": "euNetworks",
+  "location": {
+    "city": "",
+    "subnational": "Saxony - Leipzig (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/eunetworks-leipzig",
+    "https://www.datacentermap.com/germany/leipzig/eunetworks-leipzig/"
+  ],
+  "notes": "Third-party directories list euNetworks Leipzig as a colocation facility in the Leipzig market.",
+  "world_batch": true
+}

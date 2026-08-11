@@ -1,0 +1,21 @@
+{
+  "slug": "il-oracle-israel-cloud-region-jerusalem-underground-data-center",
+  "canonical_project": "Oracle Israel Cloud Region - Jerusalem underground data center",
+  "owner": "Oracle; Bynet Data Communications",
+  "location": {
+    "city": "",
+    "subnational": "Yerushalayim",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-12-21",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/oracles-data-center-israel-safra-catz/",
+    "https://www.jns.org/news/first-underground-data-center-in-israel-built-to-withstand-missiles-and-car-bombs"
+  ],
+  "notes": "Oracle's Jerusalem cloud data center is reported as a 14,000 sqm underground bunker in Har Hotzvim, constructed by Bynet; unveiled/opened in October 2021.",
+  "world_batch": true
+}

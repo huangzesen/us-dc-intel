@@ -1,0 +1,22 @@
+{
+  "slug": "kr-naver-data-center-gak-sejong",
+  "canonical_project": "NAVER Data Center GAK Sejong",
+  "owner": "NAVER Corporation / NAVER Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Sejong-si - Sejong-Si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 270,
+  "status": "operational",
+  "evidence_date": "2023-11-08",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.navercorp.com/media/pressReleasesDetail?seq=2315",
+    "https://www.datacenterdynamics.com/en/news/naver-launches-270mw-data-center-campus-in-sejong-south-korea/",
+    "https://www.datacentermap.com/south-korea/sejong/naver-gak-sejong/"
+  ],
+  "notes": "NAVER officially launched its second in-house data center, GAK Sejong, in Sejong on 2023-11-08. Data Center Dynamics and DataCenterMap list the Sejong campus at 270 MW; NAVER describes it as hyperscale AI/cloud infrastructure.",
+  "world_batch": true
+}

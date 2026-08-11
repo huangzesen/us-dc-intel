@@ -1,0 +1,22 @@
+{
+  "slug": "mk-neodc-skopje",
+  "canonical_project": "neoDC Skopje",
+  "owner": "Neocom / Neotel DOO export-import Skopje",
+  "location": {
+    "city": "",
+    "subnational": "Centar",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://neodc.mk/",
+    "https://www.datacentermap.com/c/neotel1/",
+    "https://ipgeolocation.io/browse/ip/95.180.196.250"
+  ],
+  "notes": "neoDC official/contact materials and data-center directories identify the carrier-neutral colocation facility at Kuzman Josifovski Pitu 15, Skopje. IP geolocation/abuse records for NEOTEL also list Kuzman Josifovski Pitu 15 and district Centar; municipality attribution is approximate because some third-party maps disagree between Centar/Karpos/Gazi Baba around this address. Capacity not disclosed.",
+  "world_batch": true
+}

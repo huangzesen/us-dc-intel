@@ -1,0 +1,22 @@
+{
+  "slug": "np-datahub-butwal-data-center",
+  "canonical_project": "DataHub Butwal Data Center",
+  "owner": "DataHub Pvt. Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "-",
+    "country": "Nepal",
+    "country_code": "NP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/nepal/kathmandu/datahub/",
+    "https://www.datacenters.com/providers/datahub-pvt-ltd",
+    "https://datahub.com.np/"
+  ],
+  "notes": "Aggregator listings identify a DataHub-operated Butwal facility on Banbatika Road/Tilottama and show DataHub operating two Nepal data centers; official DataHub site confirms the provider's data-center service line but not detailed Butwal specifications.",
+  "world_batch": true
+}

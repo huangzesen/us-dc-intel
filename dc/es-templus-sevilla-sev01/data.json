@@ -1,0 +1,21 @@
+{
+  "slug": "es-templus-sevilla-sev01",
+  "canonical_project": "Templus Sevilla SEV01",
+  "owner": "Templus",
+  "location": {
+    "city": "",
+    "subnational": "Andalusia",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2025-03-25",
+  "evidence_grade": "A",
+  "sources": [
+    "https://templus.com/data-centers/sevilla-sev01/",
+    "https://www.datacenterdynamics.com/en/news/templus-acquires-and-relaunches-data-center-in-seville-spain/"
+  ],
+  "notes": "Operational Sevilla data center at PICA Business Park; Templus lists 370 sqm IT space and total power of 1MW after acquisition/relaunch.",
+  "world_batch": true
+}

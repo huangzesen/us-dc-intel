@@ -1,0 +1,21 @@
+{
+  "slug": "de-echo-datacenter-gmbh-kevelaer-colocation-data-center-services",
+  "canonical_project": "ECHO Datacenter GmbH Kevelaer colocation/data-center services",
+  "owner": "ECHO Datacenter GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Cleves ( Kleve )",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://echo-dc.eu/",
+    "https://echo-dc.eu/colocation/"
+  ],
+  "notes": "Official ECHO site lists a Kevelaer registered seat/contact and colocation/data-center services; public pages do not disclose a specific facility address or MW capacity.",
+  "world_batch": true
+}

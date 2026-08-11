@@ -1,0 +1,21 @@
+{
+  "slug": "pl-microsoft-poland-central-cloud-region",
+  "canonical_project": "Microsoft Poland Central cloud region",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-04-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/europe/2023/04/26/microsoft-launches-its-first-datacenter-region-in-poland-bringing-new-opportunities-to-develop-the-digital-economy/",
+    "https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies"
+  ],
+  "notes": "Microsoft official announcement says the Polish cloud region opened around Warsaw and consists of three independent physical locations, each with one or more datacenters.",
+  "world_batch": true
+}

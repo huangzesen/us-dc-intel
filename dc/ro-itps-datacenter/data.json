@@ -1,0 +1,21 @@
+{
+  "slug": "ro-itps-datacenter",
+  "canonical_project": "ITPS Datacenter",
+  "owner": "ITPS srl",
+  "location": {
+    "city": "",
+    "subnational": "Timis",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/romania/timisoara/",
+    "https://www.datacentermap.com/romania/timisoara/dataplex-romania/"
+  ],
+  "notes": "Data Center Map lists ITPS Datacenter at Calea Lugojului 7, Timisoara, describing it as a carrier-neutral facility with perimeter connections for telco providers and triple power source.",
+  "world_batch": true
+}

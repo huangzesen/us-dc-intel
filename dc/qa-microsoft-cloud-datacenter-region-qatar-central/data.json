@@ -1,0 +1,20 @@
+{
+  "slug": "qa-microsoft-cloud-datacenter-region-qatar-central",
+  "canonical_project": "Microsoft Cloud Datacenter Region - Qatar Central",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Doha",
+    "country": "Qatar",
+    "country_code": "QA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-08-31",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/en-xm/2022/08/31/microsoft-opens-first-global-datacenter-region-in-qatar-bringing-new-opportunities-for-a-cloud-first-economy/"
+  ],
+  "notes": "Microsoft announced the Qatar Central cloud datacenter region as live in Doha/Qatar; physical facility details and capacity were not disclosed.",
+  "world_batch": true
+}

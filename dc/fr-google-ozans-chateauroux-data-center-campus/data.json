@@ -1,0 +1,22 @@
+{
+  "slug": "fr-google-ozans-chateauroux-data-center-campus",
+  "canonical_project": "Google Ozans-Châteauroux data center campus",
+  "owner": "Google / Tricolore Computing / Violet Computing / RTE",
+  "location": {
+    "city": "",
+    "subnational": "Indre",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 500.0,
+  "status": "planned",
+  "evidence_date": "2026-04-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.debatpublic.fr/data-center-ozans-chateauroux-de-google-et-son-raccordement-electrique-8996",
+    "https://www.datacenterdynamics.com/en/news/google-presses-ahead-with-plans-for-first-data-center-in-france/",
+    "https://multinationales.org/en/investigations/behind-the-data-center-boom-in-france/google-in-chateauroux-the-inside-story-of-a-massive-data-center-project"
+  ],
+  "notes": "CNDP project page says the Ozans-Châteauroux project spans about 195 ha and would include 8 to 10 data-center buildings plus grid connection infrastructure. Capacity is reported by press as up to 500 MW, not confirmed in the CNDP summary.",
+  "world_batch": true
+}

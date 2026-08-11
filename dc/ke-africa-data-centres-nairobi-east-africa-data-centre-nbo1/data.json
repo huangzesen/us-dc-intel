@@ -1,0 +1,21 @@
+{
+  "slug": "ke-africa-data-centres-nairobi-east-africa-data-centre-nbo1",
+  "canonical_project": "Africa Data Centres Nairobi / East Africa Data Centre (NBO1)",
+  "owner": "Africa Data Centres / Cassava Technologies",
+  "location": {
+    "city": "",
+    "subnational": "Nairobi City",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": 7.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.africadatacentres.com/nairobi/",
+    "https://www.datacenterdynamics.com/en/news/africa-data-centres-announces-two-facilities-in-nairobi-kenya/"
+  ],
+  "notes": "Africa Data Centres' Nairobi facility page reports available site capacity of 7.5 MW and four Uptime Institute Tier III-certified data halls. DCD notes the existing EADC/Nairobi facility and ADC's expansion plans.",
+  "world_batch": true
+}

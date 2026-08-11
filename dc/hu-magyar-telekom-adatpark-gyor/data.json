@@ -1,0 +1,21 @@
+{
+  "slug": "hu-magyar-telekom-adatpark-gyor",
+  "canonical_project": "Magyar Telekom Adatpark Gyor",
+  "owner": "Magyar Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Gyor",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telekom.hu/uzleti/szolgaltatasok/it-szolgaltatasok/adatkozponti-szolgaltatas/adatpark",
+    "https://www.datacentermap.com/hungary/gyor/telekom-gyor/"
+  ],
+  "notes": "Same facility recorded for the city-level Gyor division: Magyar Telekom's Adatpark data-center offering is corroborated by a facility listing in Gyor. Capacity was not disclosed in accessible public sources.",
+  "world_batch": true
+}

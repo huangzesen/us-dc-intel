@@ -1,0 +1,22 @@
+{
+  "slug": "kr-guro-data-center",
+  "canonical_project": "Guro Data Center",
+  "owner": "Capstone Asset Management; operator KT Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Guro District",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 30,
+  "status": "construction",
+  "evidence_date": "2025-04-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/kt-cloud-selected-as-operator-of-guro-data-center-in-south-korea/",
+    "https://biz.chosun.com/en/en-it/2025/04/22/RZNSTB32RNCXHB2VQJ2SKFEVJQ/",
+    "https://www.datacentermap.com/south-korea/seoul/guro-data-center/"
+  ],
+  "notes": "DCD reports KT Cloud selected to operate a 30 MW data center under development at 166-2 Gaebong-dong, Seoul, following a contract change; Data Center Map lists 19.8 MW IT capacity, so 30 MW is likely total/project capacity.",
+  "world_batch": true
+}

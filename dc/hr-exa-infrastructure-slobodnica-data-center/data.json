@@ -1,0 +1,21 @@
+{
+  "slug": "hr-exa-infrastructure-slobodnica-data-center",
+  "canonical_project": "EXA Infrastructure Slobodnica data center",
+  "owner": "EXA Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Brod-Posavina",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/providers/exa-infrastructure/locations/croacia/brodsko-posavska-zupanija",
+    "https://inflect.com/data-centers/croatia/exa-infrastructure-ilok-1"
+  ],
+  "notes": "Aggregator listings place an EXA Infrastructure data center in Brodsko-posavska zupanija / Slobodnica; no capacity disclosed and primary confirmation was not found.",
+  "world_batch": true
+}

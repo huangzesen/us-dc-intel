@@ -1,0 +1,20 @@
+{
+  "slug": "is-nebius-iceland-colocation-deployment-keflavik",
+  "canonical_project": "Nebius Iceland colocation deployment, Keflavik",
+  "owner": "Nebius; Verne",
+  "location": {
+    "city": "",
+    "subnational": "Southern Peninsula",
+    "country": "Iceland",
+    "country_code": "IS"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2024-12-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://nebius.com/blog/posts/300-mw-new-jersey-and-iceland-regions"
+  ],
+  "notes": "Nebius announced a 10 MW compute-cluster colocation deployment in Keflavik at a Verne-powered renewable-energy site, expected to be fully operational by the end of March 2025.",
+  "world_batch": true
+}

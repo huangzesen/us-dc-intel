@@ -1,0 +1,21 @@
+{
+  "slug": "de-atlasedge-dus001-hilden",
+  "canonical_project": "AtlasEdge DUS001 Hilden",
+  "owner": "AtlasEdge",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Mettmann",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://atlasedge.com/data-centres/dusseldorf/",
+    "https://www.datacentermap.com/germany/duesseldorf/atlasedge-dus1/"
+  ],
+  "notes": "AtlasEdge lists DUS001 in operation at Zum Jaegerhof 10, 40724 Hilden, with over 10,000 sqm of data-centre space and 20 MW of available power.",
+  "world_batch": true
+}

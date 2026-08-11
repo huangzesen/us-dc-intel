@@ -1,0 +1,21 @@
+{
+  "slug": "de-pass-cloud-one",
+  "canonical_project": "PASS Cloud One",
+  "owner": "PASS Consulting Group",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Aschaffenburg (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-04-21",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.pass-consulting.com/news/neues-cloud-computing-service-center-der-pass-consulting-group/",
+    "https://www.pass-consulting.com/en/news/pass-consulting-group-plant-neues-rechenzentrum-in-nordhessen/"
+  ],
+  "notes": "PASS says its existing Cloud One data center is at the Aschaffenburg headquarters and is part of a metrocluster with Cloud One-Two and Cloud One-Two-Three.",
+  "world_batch": true
+}

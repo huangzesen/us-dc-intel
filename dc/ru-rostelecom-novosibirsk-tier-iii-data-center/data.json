@@ -1,0 +1,20 @@
+{
+  "slug": "ru-rostelecom-novosibirsk-tier-iii-data-center",
+  "canonical_project": "Rostelecom Novosibirsk Tier III Data Center",
+  "owner": "Rostelecom / RTK-DC",
+  "location": {
+    "city": "",
+    "subnational": "Novosibirsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2021-01-25",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.company.rt.ru/en/ir/news_calendar/d457924/"
+  ],
+  "notes": "Rostelecom official release announces launch of a Tier III Novosibirsk data center with 3 MW power capacity and 300 client racks across three machine rooms.",
+  "world_batch": true
+}

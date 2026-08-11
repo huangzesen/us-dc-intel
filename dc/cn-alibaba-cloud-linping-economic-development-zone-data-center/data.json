@@ -1,0 +1,20 @@
+{
+  "slug": "cn-alibaba-cloud-linping-economic-development-zone-data-center",
+  "canonical_project": "Alibaba Cloud Linping Economic Development Zone Data Center",
+  "owner": "Alibaba Cloud / Alibaba Group",
+  "location": {
+    "city": "",
+    "subnational": "Zhejiang - Hangzhou Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-07-28",
+  "evidence_grade": "B",
+  "sources": [
+    "https://developer.aliyun.com/article/785894"
+  ],
+  "notes": "Alibaba Cloud article says the Linping National Economic and Technological Development Zone data center was officially put into operation on 2021-06-30, Alibaba's first data center in Hangzhou's Linping District and part of its self-built Hangzhou cluster.",
+  "world_batch": true
+}

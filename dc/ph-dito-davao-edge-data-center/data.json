@@ -1,0 +1,21 @@
+{
+  "slug": "ph-dito-davao-edge-data-center",
+  "canonical_project": "DITO Davao Edge Data Center",
+  "owner": "DITO Telecommunity",
+  "location": {
+    "city": "",
+    "subnational": "Davao",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-10",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/philippines/davao/dito-davao-edge-data-center/",
+    "https://www.datacentermap.com/philippines/davao/"
+  ],
+  "notes": "Aggregator listings identify an edge facility on MacArthur Highway, Davao City supporting DITO's 5G network; no reliable capacity found.",
+  "world_batch": true
+}

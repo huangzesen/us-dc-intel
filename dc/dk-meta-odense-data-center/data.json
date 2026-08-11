@@ -1,0 +1,22 @@
+{
+  "slug": "dk-meta-odense-data-center",
+  "canonical_project": "Meta Odense Data Center",
+  "owner": "Meta",
+  "location": {
+    "city": "",
+    "subnational": "Southern Denmark",
+    "country": "Denmark",
+    "country_code": "DK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenters.atmeta.com/europe/",
+    "https://datacenters.atmeta.com/asset/odense-data-center-info-sheet/",
+    "https://www.ramboll.com/en-us/projects/energy/meta-surplus-heat-to-district-heating"
+  ],
+  "notes": "Meta lists Odense with 10 billion+ DKK investment and 2017 groundbreaking; Ramboll states the Odense heat-reuse installation supplies about 45 MW of heat to district heating.",
+  "world_batch": true
+}

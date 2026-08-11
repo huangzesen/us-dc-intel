@@ -1,0 +1,21 @@
+{
+  "slug": "ir-pars-online-data-center-tehran",
+  "canonical_project": "Pars Online Data Center - Tehran",
+  "owner": "Pars Online",
+  "location": {
+    "city": "",
+    "subnational": "Tehran",
+    "country": "Iran, Islamic Republic of",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/iran/tehran/pars-online/",
+    "https://www.datacenters.com/pars-online-national"
+  ],
+  "notes": "Datacenter directory listings place Pars Online's Tehran facility at/near Green Jewel Building and describe N+1 redundancy, colocation, dedicated/managed servers, IaaS/cloud and two large-scale sites with thousands of physical servers; directory evidence, not primary.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "kz-kazteleport-ereymentau-astana-data-center",
+  "canonical_project": "Kazteleport Ereymentau / Astana data center",
+  "owner": "JSC Kazteleport",
+  "location": {
+    "city": "",
+    "subnational": "Astana",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": 2.0,
+  "status": "operational",
+  "evidence_date": "2024-10-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/kazteleport-jsc-launches-astana-data-center-in-kazakhstan/",
+    "https://www.datacentermap.com/kazakhstan/astana/kazteleport-ereymentau/"
+  ],
+  "notes": "DCD reported Kazteleport launched its Astana facility in Ereymentau with up to 100 racks, 366 sqm white space, and 2 MW IT capacity; Data Center Map lists the site as Tier 3 / ISO27001.",
+  "world_batch": true
+}

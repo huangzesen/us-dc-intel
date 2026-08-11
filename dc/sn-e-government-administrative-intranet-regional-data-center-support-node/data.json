@@ -1,0 +1,20 @@
+{
+  "slug": "sn-e-government-administrative-intranet-regional-data-center-support-node",
+  "canonical_project": "E-Government administrative intranet regional data center/support node",
+  "owner": "Government of Senegal / Huawei Technologies / China Machinery Engineering Corporation",
+  "location": {
+    "city": "",
+    "subnational": "Thies",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://china.aiddata.org/projects/58382/"
+  ],
+  "notes": "AidData's project record for Senegal's e-government network states Phase 1 connected Dakar, Thies, Louga, Saint-Louis and Kaolack with fiber-optic cable and that the project created data centers supporting the administrative intranet. The record does not name an individual Thies facility, so this is treated as weak/aggregate evidence. Separate public reports on the national government data center and proposed private data centers point to Diamniadio/Dakar rather than Thies.",
+  "world_batch": true
+}

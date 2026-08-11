@@ -1,0 +1,21 @@
+{
+  "slug": "md-mezon-business-park-dc",
+  "canonical_project": "Mezon Business Park DC",
+  "owner": "Mezon",
+  "location": {
+    "city": "",
+    "subnational": "Chisinau",
+    "country": "Moldova, Republic of",
+    "country_code": "MD"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/mezon-2/mezon-business-park-dc/",
+    "https://inflect.com/building/moscovei-bd-21-chisinau/mezon/datacenter/mezon"
+  ],
+  "notes": "DataCenterPlatform lists Mezon Business Park DC in Chisinau at Bulevardul Moscova 21; Inflect reports a 1 MW Mezon datacenter in Chisinau. Treated as operational based on marketplace/listing evidence.",
+  "world_batch": true
+}

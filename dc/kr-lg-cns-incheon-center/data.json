@@ -1,0 +1,21 @@
+{
+  "slug": "kr-lg-cns-incheon-center",
+  "canonical_project": "LG CNS Incheon Center",
+  "owner": "LG CNS",
+  "location": {
+    "city": "",
+    "subnational": "Incheon - Bupyeong-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.lgcns.com/en/service/modern-it-infra-on-cloud/data-center",
+    "https://www.datacentermap.com/south-korea/incheon/lg-cns-incheon-center/"
+  ],
+  "notes": "LG CNS states it has operated data centers since opening Korea's first data center, the Incheon Center, in 1992. A data-center directory places LG CNS Incheon Center at 23 Anaji-ro 213beon-gil in Bupyeong-gu; no reliable public capacity figure found.",
+  "world_batch": true
+}

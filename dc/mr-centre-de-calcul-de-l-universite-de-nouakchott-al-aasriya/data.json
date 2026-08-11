@@ -1,0 +1,22 @@
+{
+  "slug": "mr-centre-de-calcul-de-l-universite-de-nouakchott-al-aasriya",
+  "canonical_project": "Centre de Calcul de l'Université de Nouakchott Al Aasriya",
+  "owner": "Université de Nouakchott Al Aasriya / Government and partners",
+  "location": {
+    "city": "",
+    "subnational": "West Nouakchott",
+    "country": "Mauritania",
+    "country_code": "MR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-05-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://mtnima.gov.mr/wp-content/uploads/2024/05/Rapport-Phase-2-Etat-des-lieux-Clean-1.pdf",
+    "https://www.inhea.org/ahen/mauritania/",
+    "https://whed.net/institutions/IAU-019633"
+  ],
+  "notes": "Mauritania digital-sector diagnostic references the Centre de Calcul de l'Université de Nouakchott and states it has operated since June 2019 with a supercomputer. INHEA also reports the center's 2019 inauguration, and WHED places the university at Tevragh Zeina in Nouakchott. Classified as an institutional HPC/compute center rather than commercial colocation; no MW capacity found.",
+  "world_batch": true
+}

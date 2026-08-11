@@ -1,0 +1,20 @@
+{
+  "slug": "cn-cccc-zhongwei-cloud-data-center-project-phase-i",
+  "canonical_project": "CCCC Zhongwei Cloud Data Center Project Phase I",
+  "owner": "CCCC / Zhongjiao project company",
+  "location": {
+    "city": "",
+    "subnational": "Ningxia - Zhongwei Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 126.4,
+  "status": "construction",
+  "evidence_date": "2024-09-02",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nxzw.gov.cn/zwgk/bmxxgkml/sfzhggwyh/fdzdgknr_49196/xmjzqk/202408/P020240902732100906201.pdf"
+  ],
+  "notes": "Zhongwei key-project table lists CCCC Zhongwei cloud data center phase I as continued construction, with 11 data-center buildings and 15,800 8 kW racks; capacity_mw calculated as 15,800 x 8 kW = 126.4 MW.",
+  "world_batch": true
+}

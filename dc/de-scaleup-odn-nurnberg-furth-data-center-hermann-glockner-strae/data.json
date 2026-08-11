@@ -1,0 +1,23 @@
+{
+  "slug": "de-scaleup-odn-nurnberg-furth-data-center-hermann-glockner-strae",
+  "canonical_project": "ScaleUp / ODN Nürnberg-Fürth data center, Hermann-Glockner-Straße",
+  "owner": "ScaleUp Technologies; ODN OnlineDienst Nordbayern GmbH & Co. KG",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Fürth (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-12-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.scaleuptech.com/blog/scaleup-technologies-expandiert-mit-ubernahme-des-odn-rechenzentrums-in-nurnberg-furth/",
+    "https://www.scaleuptech.com/en/data-center-tour/data-center-nuremberg-fuerth/",
+    "https://www.odn.de/datacenter/",
+    "https://www.peeringdb.com/fac/14125"
+  ],
+  "notes": "ScaleUp announced acquisition of ODN's Nürnberg-Fürth data center, adding more than 2,000 sqm of technical space and entering the southern German market. ScaleUp's site describes the Fürth data center connectivity to Nuremberg metro transfer points and Frankfurt/DE-CIX; ODN official pages identify data centers in Fürth and Nürnberg. PeeringDB lists ScaleUp Datacenter NUE1 at Hermann-Glockner-Straße 7, Fürth. MW capacity not disclosed.",
+  "world_batch": true
+}

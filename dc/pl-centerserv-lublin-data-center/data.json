@@ -1,0 +1,21 @@
+{
+  "slug": "pl-centerserv-lublin-data-center",
+  "canonical_project": "CenterServ Lublin Data Center",
+  "owner": "CenterServ",
+  "location": {
+    "city": "",
+    "subnational": "Lublin",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/centerserv-lublin",
+    "https://www.centerserv.com/Managed-Datacenter/"
+  ],
+  "notes": "Datacenters.com lists CenterServ Lublin Data Center in Lublin; CenterServ official materials describe its managed datacenter network, but the Lublin-specific evidence is directory-sourced.",
+  "world_batch": true
+}

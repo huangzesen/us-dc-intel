@@ -1,0 +1,22 @@
+{
+  "slug": "gb-avonmouth-data-centre",
+  "canonical_project": "Avonmouth Data Centre",
+  "owner": "Rivington Energy / Viridor",
+  "location": {
+    "city": "",
+    "subnational": "England - City of Bristol",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 40,
+  "status": "planned",
+  "evidence_date": "2026-05-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.planning.org.uk/20260518/65/TF89RNDN1BK00/nm7a38acrk48eh7c.pdf",
+    "https://renewablesnow.com/news/viridor-rivington-plan-200-mw-of-efw-powered-data-centres-1296199/",
+    "https://www.datacentermap.com/united-kingdom/bristol-uk/avonmouth-data-centre/specs/"
+  ],
+  "notes": "Planning-screening request to Bristol City Council describes change of use of the former polymers recycling facility at Viridor Avonmouth ERF, Severn Road, Avonmouth, Bristol BS11 0YL for use as a data centre. Trade reports and directory listings describe the first Viridor/Rivington EfW-powered project as a proposed/planned 40 MW AI-ready facility, potentially operational in 2027.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "ke-konza-national-data-centre",
+  "canonical_project": "Konza National Data Centre",
+  "owner": "Konza Technopolis Development Authority / Government of Kenya / Huawei",
+  "location": {
+    "city": "",
+    "subnational": "Makueni",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://konza.go.ke/",
+    "https://gpris.go.ke/en/browse/6",
+    "https://old.konza.go.ke/wp-content/uploads/2021/05/October-December-2020-External-Newsletter.pdf"
+  ],
+  "notes": "Included for Makueni coverage because Konza Technopolis is publicly described as spanning the Machakos/Makueni/Kajiado buffer zone and Konza materials reference benefits to Makueni, Kitui and Machakos. The data-centre project itself is confirmed, but precise county parcel attribution is not clear from accessible sources.",
+  "world_batch": true
+}

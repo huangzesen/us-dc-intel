@@ -1,0 +1,22 @@
+{
+  "slug": "kr-zenlayer-sel6-sk-broadband-seocho",
+  "canonical_project": "Zenlayer SEL6 / SK Broadband Seocho",
+  "owner": "Zenlayer / SK Broadband",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Seocho-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.zenlayer.com/resource/city/seoul",
+    "https://inflect.com/building/6-beobwon-ro-1-gil-seocho-dong-seoul/sk-broadband/datacenter/seoul",
+    "https://gotcolo.com/city/seoul/"
+  ],
+  "notes": "Zenlayer's Seoul location page lists SEL6 at SK Broadband, 6 Bubwonro1-gil, Seocho-gu; this appears to be a Zenlayer node within the SK Broadband Seocho facility. Capacity not disclosed.",
+  "world_batch": true
+}

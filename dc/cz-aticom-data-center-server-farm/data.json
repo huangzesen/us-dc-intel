@@ -1,0 +1,22 @@
+{
+  "slug": "cz-aticom-data-center-server-farm",
+  "canonical_project": "ATICOM data center / server farm",
+  "owner": "ATICOM s.r.o.",
+  "location": {
+    "city": "",
+    "subnational": "Karlovy Vary",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.aticom.cz/",
+    "https://www.edb.eu/es/empresa-296887-aticom-karlovy-vary",
+    "https://www.info-vary.cz/aticome-shop/index.html"
+  ],
+  "notes": "ATICOM official site describes a data center/server farm on a backbone optical network with backed-up power, 24-hour diesel generator, camera system and guaranteed service; EDB and Info-Vary provide Karlovy Vary business-location context.",
+  "world_batch": true
+}

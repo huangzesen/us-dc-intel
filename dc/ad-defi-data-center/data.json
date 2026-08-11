@@ -1,0 +1,22 @@
+{
+  "slug": "ad-defi-data-center",
+  "canonical_project": "DEFI Data Center",
+  "owner": "DEFI Andorra / DEFI IT",
+  "location": {
+    "city": "",
+    "subnational": "Andorra la Vella",
+    "country": "Andorra",
+    "country_code": "AD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/defi-andorra/",
+    "https://ad.linkedin.com/company/defi-it",
+    "https://www.defi.ad/"
+  ],
+  "notes": "Data Center Platform lists DEFI Andorra as operating one facility, DEFI Data Center, at Carrer Camp Bastida 2, 1r 2a, AD500 Andorra la Vella. DEFI's LinkedIn profile describes cloud services with a datacenter in Andorra; the public company site confirms the operator and Andorra contact details but does not expose technical data center specifications. No public MW capacity found.",
+  "world_batch": true
+}

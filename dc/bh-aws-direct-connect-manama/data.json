@@ -1,0 +1,21 @@
+{
+  "slug": "bh-aws-direct-connect-manama",
+  "canonical_project": "AWS Direct Connect - Manama",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Capital Governorate",
+    "country": "Bahrain",
+    "country_code": "BH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-07-29",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/directconnect/locations/",
+    "https://aws.amazon.com/about-aws/whats-new/2019/07/aws-direct-connect-announces-first-location-in-bahrain/"
+  ],
+  "notes": "AWS announced its first Direct Connect location in Bahrain at Manama; this is a network access/colocation point rather than a full public hyperscale data-center campus.",
+  "world_batch": true
+}

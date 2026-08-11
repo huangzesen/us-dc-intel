@@ -1,0 +1,21 @@
+{
+  "slug": "de-landratsamt-bad-kissingen-data-center-modernization",
+  "canonical_project": "Landratsamt Bad Kissingen data center modernization",
+  "owner": "Landratsamt Bad Kissingen / SVA System Vertrieb Alexander GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Bad Kissingen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-09-14",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sva.de/de/references-use-cases/landratsamt-bad-kissingen-konsolidiert-sein-rechenzentrum",
+    "https://www.kommune21.de/k21-meldungen/landratsamt-konsolidiert-rechenzentrum/"
+  ],
+  "notes": "SVA case study says the district office consolidated its historically grown data center using a Dell VxRail stretched-cluster system; Kommune21 reported the same modernization on September 14, 2022.",
+  "world_batch": true
+}

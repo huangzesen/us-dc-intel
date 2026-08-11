@@ -1,0 +1,22 @@
+{
+  "slug": "fm-east-micronesia-cable-system-kosrae-cable-landing-station",
+  "canonical_project": "East Micronesia Cable System - Kosrae cable landing station",
+  "owner": "East Micronesia Cable System consortium; DXN Limited supplier",
+  "location": {
+    "city": "",
+    "subnational": "Kosrae",
+    "country": "Micronesia, Federated States of",
+    "country_code": "FM"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2025-09-03",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.eastmicronesiacable.com/the-project",
+    "https://www.submarinenetworks.com/en/systems/trans-pacific/emcs/dxn-to-deliver-modulized-cable-landing-station-for-the-emcs-system",
+    "https://www.datacenterdynamics.com/en/news/east-micronesia-cable-system-makes-successful-landing-in-kosrae/"
+  ],
+  "notes": "Telecom edge/cable landing infrastructure rather than a hyperscale or colocation data center. Official project site says the EMCS includes a Kosrae branch and cable landing stations to house optical transmission and power feed equipment; trade press reported Kosrae landing in September 2025 with RFS expected in November 2025.",
+  "world_batch": true
+}

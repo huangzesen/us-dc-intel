@@ -1,0 +1,22 @@
+{
+  "slug": "nc-my-net-new-caledonia-interconnected-data-centers",
+  "canonical_project": "my::NET New Caledonia interconnected data centers",
+  "owner": "my::NET",
+  "location": {
+    "city": "",
+    "subnational": "New Caledonia",
+    "country": "New Caledonia",
+    "country_code": "NC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-02-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.open.nc/adherents/mynet/",
+    "https://www.cybersecurite.nc/company/my-net",
+    "https://numeriboost.nc/exposants-2024/"
+  ],
+  "notes": "OPEN NC profile says my::NET, founded in 2018, operates three interconnected data centers 100% in New Caledonia for sovereign cloud/IaaS/SaaS/PaaS, storage, backup, virtualization, compute, and cybersecurity. Facility names and MW capacity not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "de-stadt-memmingen-administrative-data-center-hci-refresh",
+  "canonical_project": "Stadt Memmingen administrative data center HCI refresh",
+  "owner": "Stadt Memmingen",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Memmingen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-04-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/242922-2026",
+    "https://ausschreibungen-deutschland.de/2469934_Deutschland__Server__Beschaffung_einer_hyperconvergenten_Server-_und_Storageinfrastrukter_2026_Memmingen"
+  ],
+  "notes": "EU TED notice for Stadt Memmingen covers procurement of a hyperconverged server/storage/backup solution to renew its data center and replace the current administrative server farm; performance place is Memmingen, contract period 2026-12-01 to 2027-01-31.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "md-molddata-cloud-data-center",
+  "canonical_project": "MoldData Cloud Data Center",
+  "owner": "Host.md / I.S. MoldData",
+  "location": {
+    "city": "",
+    "subnational": "Chisinau",
+    "country": "Moldova, Republic of",
+    "country_code": "MD"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://host.md/en/?pag=datacenter",
+    "https://www.colocationm.com/moldova/chisinau-dc-4"
+  ],
+  "notes": "Host.md official page describes MoldData Cloud as a Moldovan data center offering colocation and dedicated servers; public facility page lists Armeneasca St 37/1, Chisinau and 0.5 MW.",
+  "world_batch": true
+}

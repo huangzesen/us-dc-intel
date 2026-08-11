@@ -1,0 +1,21 @@
+{
+  "slug": "bw-btc-sentlhaga-data-centre",
+  "canonical_project": "BTC Sentlhaga Data Centre",
+  "owner": "Botswana Telecommunications Corporation (BTC)",
+  "location": {
+    "city": "",
+    "subnational": "South East",
+    "country": "Botswana",
+    "country_code": "BW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.btc.bw/business/data-centre-solutions",
+    "https://www.datacentermap.com/botswana/gaborone/sentlhaga-data-centre/"
+  ],
+  "notes": "BTC markets data-centre solutions from Sentlhaga Data Centre in Gaborone; DataCenterMap lists 120 square metres of white space. No credible public MW capacity figure was found.",
+  "world_batch": true
+}

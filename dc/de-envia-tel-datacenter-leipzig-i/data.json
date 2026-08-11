@@ -1,0 +1,22 @@
+{
+  "slug": "de-envia-tel-datacenter-leipzig-i",
+  "canonical_project": "envia TEL Datacenter Leipzig I",
+  "owner": "envia TEL GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Saxony - Nordsachsen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.enviatel.de/geschaeftskunden/datacenter/rechenzentrum-leipzig",
+    "https://international.eco.de/news/envia-tel-is-part-of-the-alliance-for-the-strengthening-of-digital-infrastructures-in-germany/",
+    "https://www.datacentermap.com/germany/leipzig/datacenter-leipzig/"
+  ],
+  "notes": "Although branded as Leipzig, the campus is in Taucha, Landkreis Nordsachsen; official envia TEL and eco pages describe colocation services and two certified data centers at the Taucha campus near Leipzig.",
+  "world_batch": true
+}

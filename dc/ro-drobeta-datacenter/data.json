@@ -1,0 +1,22 @@
+{
+  "slug": "ro-drobeta-datacenter",
+  "canonical_project": "Drobeta Datacenter",
+  "owner": "DATA ZYX SRL",
+  "location": {
+    "city": "",
+    "subnational": "Mehedinti",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://dchub.cloud/facilities/data-zyx-srl-drobeta-datacenter-71cd867a",
+    "https://www.peeringdb.com/fac/4921",
+    "https://www.datacentermap.com/romania/drobeta-turnu-severin/"
+  ],
+  "notes": "DC Hub lists DATA ZYX SRL Drobeta Datacenter in Drobeta Turnu Severin, Mehedinti, as operational with 3.0 MW reported power; PeeringDB and Data Center Map corroborate the facility name and Calea Tg. Jiului 35 location.",
+  "world_batch": true
+}

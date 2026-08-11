@@ -1,0 +1,21 @@
+{
+  "slug": "fr-azur-datacenter-az02-sophia-antipolis",
+  "canonical_project": "Azur Datacenter AZ02 Sophia Antipolis",
+  "owner": "Azur Datacenter",
+  "location": {
+    "city": "",
+    "subnational": "Alpes-Maritimes",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://carte.dcmag.fr/directory/azur-datacenter/",
+    "https://www.datacenters.com/locations/france/alpes-maritimes/nice-2"
+  ],
+  "notes": "DCmag directory places AZ02 at 950 Route des Colles, Sophia Antipolis, Biot, Alpes-Maritimes; capacity not found in public sources.",
+  "world_batch": true
+}

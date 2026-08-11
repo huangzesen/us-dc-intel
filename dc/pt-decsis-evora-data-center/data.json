@@ -1,0 +1,22 @@
+{
+  "slug": "pt-decsis-evora-data-center",
+  "canonical_project": "Decsis Evora Data Center",
+  "owner": "Decsis",
+  "location": {
+    "city": "",
+    "subnational": "Evora",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://es.decsis.com/en/about-us/",
+    "https://www.datacentermap.com/portugal/alentejo/evora/specs/",
+    "https://www.rtp.pt/noticias/economia/empresas-decsis-e-hp-portugal-investem-dois-me-num-centro-de-dados-em-evora_n408444"
+  ],
+  "notes": "Decsis company history says construction of its state-of-the-art Evora data center occurred in 2011. DataCenterMap lists the Evora facility at Rua Circular Norte do Parque Industrial e Tecnológico de Evora with 1MW and 700 sqm. RTP/Lusa reported Decsis and HP Portugal were building the services data center in Evora in 2011.",
+  "world_batch": true
+}

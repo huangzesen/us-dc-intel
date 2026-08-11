@@ -1,0 +1,21 @@
+{
+  "slug": "fr-alpes-networks-data-center",
+  "canonical_project": "Alpes Networks Data Center",
+  "owner": "Alpes Networks",
+  "location": {
+    "city": "",
+    "subnational": "Haute-Savoie",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/france/annecy/alpes-networks-data-center/",
+    "https://www.annuaire-entreprises-haute-savoie-74.fr/entreprise.php?id=alpes-networks"
+  ],
+  "notes": "Annecy-area data center at 17 Rue Mira / Chavanod; local business directory states Alpes Networks owns a fiber network and datacenter in Annecy/Haute-Savoie.",
+  "world_batch": true
+}

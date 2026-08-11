@@ -1,0 +1,21 @@
+{
+  "slug": "sa-kap5-jazan-data-center-national-information-center",
+  "canonical_project": "KAP5, Jazan Data Center (National Information Center)",
+  "owner": "National Information Center (NIC) / Ministry of Interior, Saudi Arabia",
+  "location": {
+    "city": "",
+    "subnational": "Jazan Region - Jazan",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/component/tierachievement/client/national-information-center/621",
+    "https://datacentercatalog.com/saudi-arabia/kap5-jazan-data-center"
+  ],
+  "notes": "Uptime Institute's official Tier certification client record for the National Information Center (NIC) lists 'KAP5, Jazan Data Center' in Jazan, Saudi Arabia, confirming an operational, Uptime Institute-certified government data center operated by NIC (the Saudi national IT agency, website moi.gov.sa). Data Center Catalog corroborates the facility with address 'National Information Center, Jazan'. No public MW capacity, size, or certification tier level disclosed.",
+  "world_batch": true
+}

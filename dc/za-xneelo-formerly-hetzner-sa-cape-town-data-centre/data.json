@@ -1,0 +1,21 @@
+{
+  "slug": "za-xneelo-formerly-hetzner-sa-cape-town-data-centre",
+  "canonical_project": "xneelo (formerly Hetzner SA) Cape Town Data Centre",
+  "owner": "xneelo",
+  "location": {
+    "city": "",
+    "subnational": "Western Cape - City of Cape Town",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-07-30",
+  "evidence_grade": "C",
+  "sources": [
+    "https://mybroadband.co.za/forum/threads/hetzner-xneelo-is-down.1148152/",
+    "https://xneelo.co.za/"
+  ],
+  "notes": "xneelo (formerly Hetzner South Africa, the local hosting provider) operates a data centre in Cape Town alongside its Johannesburg facilities; acknowledged in a July 2021 MyBroadband thread regarding a Cape Town data centre outage. Small/medium hosting DC; no public MW capacity.",
+  "world_batch": true
+}

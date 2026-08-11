@@ -1,0 +1,22 @@
+{
+  "slug": "ba-globalhost-data-center-novi-travnik",
+  "canonical_project": "Globalhost Data Center Novi Travnik",
+  "owner": "Globalhost d.o.o.",
+  "location": {
+    "city": "",
+    "subnational": "Federation of Bosnia and Herzegovina",
+    "country": "Bosnia and Herzegovina",
+    "country_code": "BA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.global.ba/en/kolokacija.php",
+    "https://www.datacentermap.com/bosnia-and-herzegovina/",
+    "https://www.datacenters.com/locations/bosnia-and-herzegovina"
+  ],
+  "notes": "Globalhost's colocation page describes an advanced data center in Bosnia and Herzegovina with direct optical connections, N+1 network redundancy, N+2 UPS and N+2 cooling; market directories place Globalhost in Novi Travnik, which is in the Federation. MW capacity not published.",
+  "world_batch": true
+}

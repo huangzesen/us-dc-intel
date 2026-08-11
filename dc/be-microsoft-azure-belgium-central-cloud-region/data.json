@@ -1,0 +1,21 @@
+{
+  "slug": "be-microsoft-azure-belgium-central-cloud-region",
+  "canonical_project": "Microsoft Azure Belgium Central cloud region",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Brussels",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-11-18",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pulse.microsoft.com/en/transform-2/na/fa2-microsoft-opens-its-first-cloud-region-in-belgium-accelerating-innovation-and-economic-growth/",
+    "https://www.datacenterdynamics.com/en/news/microsoft-launches-cloud-region-in-belgium/"
+  ],
+  "notes": "Microsoft officially opened Azure Belgium Central on 2025-11-18. Facility locations are not disclosed; reporting places the multi-zone region around Brussels, so this is assigned to the Brussels division at region level.",
+  "world_batch": true
+}

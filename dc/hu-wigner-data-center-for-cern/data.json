@@ -1,0 +1,22 @@
+{
+  "slug": "hu-wigner-data-center-for-cern",
+  "canonical_project": "Wigner Data Center for CERN",
+  "owner": "Wigner Research Centre for Physics / CERN",
+  "location": {
+    "city": "",
+    "subnational": "Budapest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2013-06-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://home.cern/cern-and-the-wigner-research-centre-for-physics-inaugurate-cern-data-centres-extension-in-budapest-hungary/",
+    "https://cerncourier.com/a/hungary-to-host-extension-to-cern-data-centre/",
+    "https://www.datacenterdynamics.com/en/news/cern-opens-wigner-data-center/"
+  ],
+  "notes": "CERN and Wigner inaugurated the Budapest extension to CERN's data centre on 2013-06-13, with about 500 servers, 20,000 computing cores and 5.5 PB storage already operational. CERN Courier reported the 2012 contract for Wigner to host CERN equipment extending Tier-0 Worldwide LHC Computing Grid capability. MW not disclosed in public source.",
+  "world_batch": true
+}

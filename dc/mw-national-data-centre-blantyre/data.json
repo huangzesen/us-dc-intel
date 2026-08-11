@@ -1,0 +1,21 @@
+{
+  "slug": "mw-national-data-centre-blantyre",
+  "canonical_project": "National Data Centre, Blantyre",
+  "owner": "Government of Malawi / Huawei / ESCOM",
+  "location": {
+    "city": "",
+    "subnational": "Southern Region",
+    "country": "Malawi",
+    "country_code": "MW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-07-28",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/malawi-launches-national-data-center/",
+    "https://ml.mw/2022/09/07/the-national-data-center-blantyre-blog-post/"
+  ],
+  "notes": "DCD reported the Government of Malawi launched a Huawei-built National Data Centre in Blantyre on 28 Jul 2022 to host government-wide systems. Machine Learning Malawi describes it as a Tier 3 facility implemented by Huawei with ESCOM under the national fibre backbone initiative. No MW capacity disclosed.",
+  "world_batch": true
+}

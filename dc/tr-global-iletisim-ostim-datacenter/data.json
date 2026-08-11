@@ -1,0 +1,20 @@
+{
+  "slug": "tr-global-iletisim-ostim-datacenter",
+  "canonical_project": "Global Iletisim OSTIM Datacenter",
+  "owner": "Global Iletisim",
+  "location": {
+    "city": "",
+    "subnational": "Ankara",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/turkey/global-iletisim-ostim-datacenter"
+  ],
+  "notes": "Data Center Catalog lists Global Iletisim OSTIM Datacenter in Ankara's OSTIM industrial district as an operating colocation facility. Directory-grade source; no public capacity details.",
+  "world_batch": true
+}

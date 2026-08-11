@@ -1,0 +1,22 @@
+{
+  "slug": "de-maincubes-fra03-schwalbach-data-center",
+  "canonical_project": "maincubes FRA03 Schwalbach data center",
+  "owner": "maincubes",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Main-Taunus-Kreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 16,
+  "status": "construction",
+  "evidence_date": "2025-12-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.maincubes.com/presse/maincubes-feiert-richtfest-fuer-zweites-rechenzentrum-in-schwalbach/",
+    "https://www.spie.com/en/news/spie-responsible-technical-equipment-new-data-centre-near-frankfurt-am-main-germany",
+    "https://www.datacenter-insider.de/hessens-startup-digitalministerium-und-die-herausforderungen-des-datacenter-booms-a-2b3baca1ab7ad009dd8969ec23a093c6/"
+  ],
+  "notes": "maincubes and SPIE report the four-storey data center on Kronberger Hang in Schwalbach am Taunus; trade coverage identifies FRA03 as a 16 MW data center. Topping-out was reported in late 2025.",
+  "world_batch": true
+}

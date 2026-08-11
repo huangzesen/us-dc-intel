@@ -1,0 +1,22 @@
+{
+  "slug": "au-nextdc-ge1-geelong-data-centre",
+  "canonical_project": "NEXTDC GE1 Geelong Data Centre",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Greater Geelong",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 4.4,
+  "status": "construction",
+  "evidence_date": "2026-05-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/data-centres/geelong-data-centres/ge1-geelong",
+    "https://www.datacenterdynamics.com/en/news/nextdc-breaks-ground-on-44mw-edge-data-center-in-geelong-australia/",
+    "https://timesnewsgroup.com.au/geelongtimes/news/data-centre-boom-reaches-geelong/"
+  ],
+  "notes": "NEXTDC describes GE1 as an in-development 4.4MW facility in Corio; DCD and local reporting say construction has begun after fast state planning approval.",
+  "world_batch": true
+}

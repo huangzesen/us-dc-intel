@@ -1,0 +1,21 @@
+{
+  "slug": "de-noris-network-muc5-munich-east",
+  "canonical_project": "noris network MUC5 - Munich East",
+  "owner": "noris network AG",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Munich",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.noris.de/en/data-centers/dc-munich-east/",
+    "https://www.de-cix.net/en/about-de-cix/news/de-cix-munich-new-enabled-site-at-noris-network-data-center"
+  ],
+  "notes": "Operational high-security colocation facility in Aschheim/Munich East; noris describes 11,000 sqm total area and 8,700 sqm IT area, DE-CIX Premium Enabled Site.",
+  "world_batch": true
+}

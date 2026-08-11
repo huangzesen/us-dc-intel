@@ -1,0 +1,22 @@
+{
+  "slug": "sz-mtn-eswatini-lobamba-data-centre",
+  "canonical_project": "MTN Eswatini Lobamba Data Centre",
+  "owner": "MTN Eswatini",
+  "location": {
+    "city": "",
+    "subnational": "Hhohho",
+    "country": "Eswatini",
+    "country_code": "SZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.mtn.co.sz/business/solution/co-location-and-hosting/",
+    "https://datacenterplatform.com/countries/eswatini/",
+    "https://data-landscapers.com/lab/2026/06/10/africa-data-centres-v2/"
+  ],
+  "notes": "Data-centre directory listings identify an MTN Eswatini facility at Lobamba; MTN Eswatini officially markets co-location and hosting services, but public source did not disclose capacity.",
+  "world_batch": true
+}

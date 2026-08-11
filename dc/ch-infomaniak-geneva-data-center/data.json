@@ -1,0 +1,21 @@
+{
+  "slug": "ch-infomaniak-geneva-data-center",
+  "canonical_project": "Infomaniak Geneva data center",
+  "owner": "Infomaniak",
+  "location": {
+    "city": "",
+    "subnational": "Geneve",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-02",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/infomaniak-launches-geneva-data-center/",
+    "https://www.infomaniak.com/en/ecology/datacenters"
+  ],
+  "notes": "DCD reported Infomaniak launched a 1,800 m2 Geneva data center housing about 10,000 servers, using Nvidia L4/A100/H100 GPUs, with PUE 1.09 and heat-recovery capacity of 1.7 MW into a district-heating network. The 1.7 MW figure is heat supplied, not IT load, so capacity_mw is null.",
+  "world_batch": true
+}

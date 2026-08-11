@@ -1,0 +1,21 @@
+{
+  "slug": "fr-dc2scale-paris-velizy-par3",
+  "canonical_project": "dc2scale Paris-Vélizy PAR3",
+  "owner": "dc2scale",
+  "location": {
+    "city": "",
+    "subnational": "Yvelines",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dc2scale.fr/en/our-datacenters/hub/paris-velizy/par3",
+    "https://dc2scale.fr/en"
+  ],
+  "notes": "dc2scale's official PAR3 page lists the site in Inovel Parc Nord, Vélizy-Villacoublay, with 1,500 sq m total surface, 200 racks and 1.5 MVA electrical capacity; page also states two 1.5 MW electrical connections.",
+  "world_batch": true
+}

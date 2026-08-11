@@ -1,0 +1,22 @@
+{
+  "slug": "hu-komondor-supercomputer-center-at-university-of-debrecen",
+  "canonical_project": "Komondor Supercomputer Center at University of Debrecen",
+  "owner": "KIFU / University of Debrecen",
+  "location": {
+    "city": "",
+    "subnational": "Debrecen",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2023-04-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://hirek.unideb.hu/en/komondor-has-arrived-ud",
+    "https://hirek.unideb.hu/en/komondor-hungarys-most-powerful-supercomputer-awakening",
+    "https://hpc.unideb.hu/komondor"
+  ],
+  "notes": "University of Debrecen reported that KIFU's 5-petaflop Komondor supercomputer was installed at UD's Kassai Street campus and put in service after testing. The HPC page says Komondor was installed in the national HPC centre on the Kassai campus in summer 2023 and lists maximum electrical power of 500 kW.",
+  "world_batch": true
+}

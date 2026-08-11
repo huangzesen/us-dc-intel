@@ -1,0 +1,22 @@
+{
+  "slug": "au-ec21-mackay",
+  "canonical_project": "EC21 Mackay",
+  "owner": "Edge Centres",
+  "location": {
+    "city": "",
+    "subnational": "Queensland - Mackay",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/data-center/ec21-mackay",
+    "https://baxtel.com/data-centers/edge-centres",
+    "https://www.dsneg.com/news/edge-centres-lodges-da-for-first-off-grid-si-49593433.html"
+  ],
+  "notes": "Baxtel lists EC21 Mackay at 35 River St, Mackay, as an operational Edge Centres data centre in Queensland. A 2021 industry article said Edge Centres had four operational Australian data centres including EC21 in Mackay. Public MW capacity not found.",
+  "world_batch": true
+}

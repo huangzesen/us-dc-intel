@@ -1,0 +1,22 @@
+{
+  "slug": "hk-global-switch-hong-kong-tseung-kwan-o",
+  "canonical_project": "Global Switch Hong Kong, Tseung Kwan O",
+  "owner": "Global Switch",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": 30,
+  "status": "operational",
+  "evidence_date": "2024-09-05",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.globalswitch.com/data-centres/hong-kong/",
+    "https://www.globalswitch.com/announcement/global-switch-chooses-hong-kong-to-deploy-the-latest-data-centre-liquid-cooling-technology-in-support-of-the-citys-plans-to-become-a-hub-for-ai-driven-innovation/",
+    "https://www.globalswitch.com/announcement/global-switch-hong-kong-becomes-first-data-centre-in-the-region-to-achieve-ocp-ready-status/"
+  ],
+  "notes": "Global Switch's Hong Kong site is in Tseung Kwan O and supports AI/HPC workloads; announcement states 30MW of capacity available, while another official announcement cites 70,545 sq m and 100MVA utility power.",
+  "world_batch": true
+}

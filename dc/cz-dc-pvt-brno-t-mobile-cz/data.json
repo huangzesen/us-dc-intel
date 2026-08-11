@@ -1,0 +1,21 @@
+{
+  "slug": "cz-dc-pvt-brno-t-mobile-cz",
+  "canonical_project": "DC PVT Brno (T-Mobile CZ)",
+  "owner": "T-Mobile Czech Republic a.s.",
+  "location": {
+    "city": "",
+    "subnational": "South Moravia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/czech-republic/brno/t-mobile-dc-pvt-brno/",
+    "https://colomap.com/facilities/dc-pvt-brno-t-mobile-cz/"
+  ],
+  "notes": "Data-center directories list T-Mobile's DC PVT Brno at Veveri 2581/102 in Brno-Zabovresky as an operational colocation facility; operator primary page was not found during this pass.",
+  "world_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "in-national-data-centre-for-north-eastern-region-ndc-ner-nicsi-assam-data-centre",
+  "canonical_project": "National Data Centre for North Eastern Region (NDC-NER) / NICSI Assam Data Centre",
+  "owner": "National Informatics Centre (NIC) via NICSI, with Government of Assam / PWD (Building)",
+  "location": {
+    "city": "",
+    "subnational": "Assam - Kamrup",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 8.5,
+  "status": "operational",
+  "evidence_date": "2026-02-14",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sentinelassam.com/north-east-india-news/assam-news/pm-narendra-modi-inaugurates-national-data-centre-for-north-eastern-region",
+    "https://www.newsdrum.in/national/pm-inaugurates-bridge-on-brahmaputra-unveils-iim-data-centre-in-assam-11106440",
+    "https://baxtel.com/data-center/nicsi-assam",
+    "https://thecsrjournal.in/pm-modi-lands-fighter-jet-on-highway-north-east-gets-mega-infra-boost/"
+  ],
+  "notes": "Virtually inaugurated by PM Modi on 14 Feb 2026 at Amingaon, North Guwahati (Kamrup district). 8.5 MW sanctioned power / 4 MW IT load (initial 2 MW), 200-400 high-density racks, ~43,000 sq ft, Tier III with N+1 redundancy, IGBC Gold green DC, 70+ PB storage; serves all 8 NE states and forms part of the National Government Cloud (MeghRaj). Investment reported as Rs 348 crore by PMO/Sentinel; Baxtel and Bharatnet report the same NICSI project at over Rs 600 crore (~$71M, MeitY-funded).",
+  "world_batch": true
+}

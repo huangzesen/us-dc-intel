@@ -1,0 +1,20 @@
+{
+  "slug": "il-bynet-tlv-a",
+  "canonical_project": "Bynet TLV A",
+  "owner": "Bynet Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Tel Aviv",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bynetdcs.co.il/"
+  ],
+  "notes": "Bynet official site lists TLV A at 75 racks and 0.5MW.",
+  "world_batch": true
+}

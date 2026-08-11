@@ -1,0 +1,22 @@
+{
+  "slug": "kr-naver-data-center-gak-chuncheon",
+  "canonical_project": "NAVER Data Center GAK Chuncheon",
+  "owner": "NAVER",
+  "location": {
+    "city": "",
+    "subnational": "Gangwon-do - Chuncheon-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 40,
+  "status": "operational",
+  "evidence_date": "2023-11-08",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.navercorp.com/media/pressReleasesDetail?seq=2315",
+    "https://www.datacenterdynamics.com/en/news/naver-launches-270mw-data-center-campus-in-sejong-south-korea/",
+    "https://www.datacentermap.com/south-korea/chuncheon/naver-gak-chuncheon/"
+  ],
+  "notes": "NAVER official release identifies GAK Chuncheon as its first in-house data center; DCD and DataCenterMap report the Chuncheon campus at about 40 MW and operational since 2013.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "de-stadtwerke-schwabisch-hall-data-center",
+  "canonical_project": "Stadtwerke Schwäbisch Hall data center",
+  "owner": "Stadtwerke Schwäbisch Hall GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Schwäbisch Hall",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-09-16",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.axians.de/use-case/kommunaler-dienstleister-bietet-sichere-archivloesung-als-managed-services-stadtwerke-schwaebisch-hall/",
+    "https://www.sherpa-x.de/sherpa-x-blog/steigende-komplexit%C3%A4t-ist-treiber-f%C3%BCr-unser-dienstleistungsgesch%C3%A4ft"
+  ],
+  "notes": "Axians use case places a storage system in the Stadtwerke data center in Schwäbisch Hall; Sherpa-X interview says Stadtwerke operates its own data center and acts as a gateway administrator.",
+  "world_batch": true
+}

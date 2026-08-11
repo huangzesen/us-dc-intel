@@ -1,0 +1,22 @@
+{
+  "slug": "mt-csl-data-centre-services-birkirkara-facility",
+  "canonical_project": "CSL Data Centre Services Birkirkara facility",
+  "owner": "CSL Data Centre Services / M. Demajo Group",
+  "location": {
+    "city": "",
+    "subnational": "Birkirkara",
+    "country": "Malta",
+    "country_code": "MT"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.csl.com.mt/",
+    "https://www.csl.com.mt/contact-us/",
+    "https://demajo.com/companies/ict-services/csl-data-centre-services/"
+  ],
+  "notes": "CSL lists its address as 66 Dun Karm Street, B'Kara, Malta, and describes its own Tier 3-rated, carrier-neutral data centre facilities with 2000 square meters of rack space. Its features page cites power from the grid with a dedicated 2 MW substation; this is facility power, not confirmed IT load.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "np-ncell-nakkhu-integrated-data-centre",
+  "canonical_project": "Ncell Nakkhu Integrated Data Centre",
+  "owner": "Ncell Axiata Limited",
+  "location": {
+    "city": "",
+    "subnational": "-",
+    "country": "Nepal",
+    "country_code": "NP"
+  },
+  "capacity_mw": 5.0,
+  "status": "operational",
+  "evidence_date": "2026-06-10",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ncell.com.np/en/business/fixed/data-center-co-location",
+    "https://www.ncell.com.np/en/about/media-room/press-release/ncell-data-centre-receives-ansitia-942-c-rated-3-certification",
+    "https://www.datacentermap.com/nepal/kathmandu/ncell-nakkhu-data-center/"
+  ],
+  "notes": "Ncell's official pages market Tier III cloud/colocation services and announce ANSI/TIA-942-C Rated 3 certification for the Nakkhu, Lalitpur Integrated Data Centre; DataCenterMap lists the Nakkhu facility at 5MW.",
+  "world_batch": true
+}

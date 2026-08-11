@@ -1,0 +1,20 @@
+{
+  "slug": "ee-citic-telecom-cpc-datahouse-tallinn",
+  "canonical_project": "CITIC Telecom CPC DataHOUSE@Tallinn",
+  "owner": "CITIC Telecom CPC",
+  "location": {
+    "city": "",
+    "subnational": "Harju",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.citictel-cpc.com/en-ee/product-services/europe-data-center"
+  ],
+  "notes": "Official CITIC page lists Tallinn data center, carrier-neutral connectivity, 600 m2 facility, Tier II design basis and 2N redundancy on critical systems.",
+  "world_batch": true
+}

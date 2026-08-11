@@ -1,0 +1,20 @@
+{
+  "slug": "ru-freecom-commercial-data-center-ulan-ude",
+  "canonical_project": "Freecom commercial data center, Ulan-Ude",
+  "owner": "Freecom",
+  "location": {
+    "city": "",
+    "subnational": "Buryatia",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dc.freecom.ru/"
+  ],
+  "notes": "Freecom's official site advertises a commercial Ulan-Ude data center for colocation, rack and rack-unit rental, up to 5 kW per 42U rack and up to 10 kW guaranteed power per rack; no aggregate IT load disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "au-onq-townsville-cbd-data-centre",
+  "canonical_project": "ONQ Townsville CBD data centre",
+  "owner": "On Q Communications",
+  "location": {
+    "city": "",
+    "subnational": "Queensland - Townsville",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/australia/townsville/on-q-townsville-cbd/",
+    "https://www.datacentermap.com/c/on-q-communications-pty-ltd/",
+    "https://colocationm.com/australia/townsville-dc-1"
+  ],
+  "notes": "Aggregator listings identify ONQ Townsville CBD at 1 25/21 Sturt St as an operational TIA-942 Tier 3 colocation facility in Townsville CBD with redundant telecom, power and cooling infrastructure; capacity was not published in reliable primary sources found.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "ru-mts-planned-tula-data-center",
+  "canonical_project": "MTS planned Tula data center",
+  "owner": "MTS / MWS",
+  "location": {
+    "city": "",
+    "subnational": "Tula",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2022-05-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/mts-creates-data-center-subsidiary-plans-four-new-data-centers/",
+    "https://www.datacenterdynamics.com/en/news/mts-launches-modular-data-center-in-novosibirsk-russia/"
+  ],
+  "notes": "DCD reported MTS created a data-center subsidiary and planned four new data centers through 2024, including Tula, Rostov, Yekaterinburg, and Khabarovsk. Later DCD coverage of MTS's Novosibirsk modular site repeated Tula as one of the planned regional locations. No reliable public completion or MW capacity found for the Tula site.",
+  "world_batch": true
+}

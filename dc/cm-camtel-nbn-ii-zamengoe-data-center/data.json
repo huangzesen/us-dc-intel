@@ -1,0 +1,22 @@
+{
+  "slug": "cm-camtel-nbn-ii-zamengoe-data-center",
+  "canonical_project": "CAMTEL NBN II / Zamengoe Data Center",
+  "owner": "Cameroon Telecommunications (CAMTEL) / Huawei / China Shenyang International Cooperation",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/huawei-equips-cameroon-govt-data-center-helps-rains-south-africa-5g-project/",
+    "https://newsupfront.com/camtels-data-center-compliant-with-modern-standards/",
+    "https://dchub.cloud/facilities/camtel-camtel-datacenter-zamengoe-yaounde-cac7015e"
+  ],
+  "notes": "Zamengoe is on the outskirts of Yaounde in Centre region. DCD reported the $15m Camtel NBN II / Zamengoe facility as a 3,000 m2 Tier III-design data center built by a Chinese consortium including Huawei; News Upfront reported it operational after a July 10, 2020 ministerial visit. DC Hub reports 3.0 MW, so capacity_mw uses that third-party figure.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "nz-spark-nz-gisborne-data-centre",
+  "canonical_project": "Spark NZ Gisborne Data Centre",
+  "owner": "Spark New Zealand / TenPeaks Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Gisborne",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.nzx.com/announcements/466723",
+    "https://inflect.com/datacenters/apac/new-zealand/gisborne"
+  ],
+  "notes": "Spark confirmed transfer of its national data centre portfolio to TenPeaks; Inflect lists Spark NZ Gisborne at 52 Customhouse Street. Site-specific MW capacity was not found.",
+  "world_batch": true
+}

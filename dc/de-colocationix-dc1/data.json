@@ -1,0 +1,22 @@
+{
+  "slug": "de-colocationix-dc1",
+  "canonical_project": "ColocationIX DC1",
+  "owner": "ColocationIX GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bremen - Bremen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/17-24-wachtstrasse-bremen/colocationix-gmbh/datacenter/dc1",
+    "https://datacenterplatform.com/data-centers/colocationix-gmbh/",
+    "https://www.datacentermap.com/germany/bremen/"
+  ],
+  "notes": "Inflect lists ColocationIX DC1 as a colocation data center at Wachtstrasse 17-24 in Bremen, operated by ColocationIX GmbH; DataCenterPlatform lists multiple ColocationIX Bremen facilities.",
+  "world_batch": true
+}

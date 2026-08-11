@@ -1,0 +1,22 @@
+{
+  "slug": "ru-rostelecom-stavropol-tier-iii-data-center",
+  "canonical_project": "Rostelecom Stavropol Tier III Data Center",
+  "owner": "Rostelecom",
+  "location": {
+    "city": "",
+    "subnational": "Stavropol",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 0.2,
+  "status": "operational",
+  "evidence_date": "2025-12-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.rst-com.ru/news/2025/12/22/140420/",
+    "https://rg.ru/2025/12/22/reg-ufo/rostelekom-otkryl-centr-obrabotki-dannyh-v-stavropole.html",
+    "https://servernews.ru/1134318"
+  ],
+  "notes": "Rostelecom announced industrial operation of a Stavropol data center in a purpose-built Tier III building for government and business customers. The source states 200 kW power, 24 rack spaces, diesel backup, reserved cooling, and PUE 1.3-1.5.",
+  "world_batch": true
+}

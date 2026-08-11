@@ -1,0 +1,22 @@
+{
+  "slug": "gb-microsoft-project-natick-phase-2-northern-isles-underwater-datacenter",
+  "canonical_project": "Microsoft Project Natick Phase 2 / Northern Isles underwater datacenter",
+  "owner": "Microsoft; Naval Group",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - Orkney Islands",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 0.24,
+  "status": "unknown",
+  "evidence_date": "2024-06-17",
+  "evidence_grade": "A",
+  "sources": [
+    "https://natick.research.microsoft.com/",
+    "https://news.microsoft.com/source/features/sustainability/project-natick-underwater-datacenter/",
+    "https://www.datacenterdynamics.com/en/news/microsoft-confirms-project-natick-underwater-data-center-is-no-more/"
+  ],
+  "notes": "Microsoft deployed the 12-rack, 864-server Northern Isles underwater datacenter at EMEC in Orkney in June 2018 and retrieved it after about two years. DCD reported in June 2024 that Microsoft confirmed Project Natick is no longer active; 0.24MW is widely reported for the pod but not in the primary Microsoft page.",
+  "world_batch": true
+}

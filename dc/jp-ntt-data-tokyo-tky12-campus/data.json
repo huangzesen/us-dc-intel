@@ -1,0 +1,21 @@
+{
+  "slug": "jp-ntt-data-tokyo-tky12-campus",
+  "canonical_project": "NTT DATA Tokyo TKY12 Campus",
+  "owner": "NTT DATA / NTT Global Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Chiba",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 200,
+  "status": "planned",
+  "evidence_date": "2026-04-21",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/ntt-plans-200mw-data-center-campus-outside-tokyo/",
+    "https://www.telecomreviewasia.com/news/industry-news/28950-ntt-launches-200-mw-data-center-campus-in-chiba-japan/"
+  ],
+  "notes": "Reported six-building hyperscale campus in the Inzai-Shiroi area of Chiba Prefecture, planned for about 200 MW total IT capacity; first phase expected around 2030.",
+  "world_batch": true
+}

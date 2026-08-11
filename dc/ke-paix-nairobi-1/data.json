@@ -1,0 +1,22 @@
+{
+  "slug": "ke-paix-nairobi-1",
+  "canonical_project": "PAIX Nairobi-1",
+  "owner": "PAIX Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Nairobi City",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2020-08-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/paix-data-centres-build-facility-nairobi-kenya/",
+    "https://www.paix.io/",
+    "https://www.africa50.com/our-funds/projects/paix-data-centers/"
+  ],
+  "notes": "DCD reported PAIX Nairobi-1 at Britam Tower in Upper Hill, scheduled to open in November 2020, with 240 cabinets, 690 sqm whitespace and 1.5 MVA total power. Africa50 later describes PAIX as having operating assets in Ghana and Kenya.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "de-soco-data-center-duren-birkesdorf",
+  "canonical_project": "SOCO Data Center Düren-Birkesdorf",
+  "owner": "SOCO Network Solutions GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Düren",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/germany/cologne/soco-data-center/",
+    "https://www.datacentermap.com/germany/cologne/soco-data-center/specs/",
+    "https://www.eco.de/mitglieder/soco-network-solutions-gmbh/"
+  ],
+  "notes": "Directories list SOCO Data Center at Nordstraße 102, 52353 Düren; eco member page confirms SOCO Network Solutions address in Düren. No MW capacity supplied.",
+  "world_batch": true
+}

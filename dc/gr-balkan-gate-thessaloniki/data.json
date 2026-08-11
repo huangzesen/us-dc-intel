@@ -1,0 +1,21 @@
+{
+  "slug": "gr-balkan-gate-thessaloniki",
+  "canonical_project": "Balkan Gate Thessaloniki",
+  "owner": "Lancom Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Central Macedonia",
+    "country": "Greece",
+    "country_code": "GR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://balkangate.com/",
+    "https://lancom.gr/data-center/thessaloniki-balkan-gate-dc/"
+  ],
+  "notes": "Carrier-neutral Tier III data center in Thessaloniki/Kalochori; operator states it has served since 2022 and is the largest carrier-neutral data center in Northern Greece.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "ch-internet-group-datacenter-1-widnau-heerbrugg",
+  "canonical_project": "Internet Group Datacenter 1 Widnau / Heerbrugg",
+  "owner": "Internet Group AG",
+  "location": {
+    "city": "",
+    "subnational": "Sankt Gallen",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/internet-group-ag/internet-group-ag-switzerland/",
+    "https://inflect.com/datacenters/emea/switzerland/st-gallen"
+  ],
+  "notes": "DataCenterPlatform lists Internet Group Datacenter 1 at Espenstrasse 137, 9443 Widnau; Inflect lists the facility in the St. Gallen data center market as IG Internet Group DC1 in Heerbrugg.",
+  "world_batch": true
+}

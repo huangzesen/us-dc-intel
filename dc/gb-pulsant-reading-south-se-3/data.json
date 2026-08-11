@@ -1,0 +1,21 @@
+{
+  "slug": "gb-pulsant-reading-south-se-3",
+  "canonical_project": "Pulsant Reading South SE-3",
+  "owner": "Pulsant",
+  "location": {
+    "city": "",
+    "subnational": "England - Reading",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.pulsant.com/colocation-reading-south-datacentre",
+    "https://www.colo-x.com/data-centre/pulsant-reading-south-se-3/"
+  ],
+  "notes": "Operational Reading South colocation facility, formerly Amito and acquired by Pulsant; Colo-X lists 800 racks and 3MW IT load.",
+  "world_batch": true
+}

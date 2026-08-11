@@ -1,0 +1,21 @@
+{
+  "slug": "bd-bdccl-tier-iv-national-data-center-meghna-cloud-kaliakoir",
+  "canonical_project": "BDCCL Tier IV National Data Center / Meghna Cloud, Kaliakoir",
+  "owner": "Bangladesh Data Center Company Limited; Gennext Technologies",
+  "location": {
+    "city": "",
+    "subnational": "Dhaka",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": 4,
+  "status": "operational",
+  "evidence_date": "2024-02-13",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/bangladeshs-first-cloud-data-center-starts-operations/",
+    "https://theclimatewatch.com/digital-dreams-parched-reality-the-hidden-cost-of-bangladeshs-data-industry-gold-rush/"
+  ],
+  "notes": "Meghna Cloud launched at Bangabandhu/Hi-Tech City, Kaliakoir, Gazipur, hosted in the government Tier IV National Data Center. DCD cites 200,000 sq ft and eight 2.5MW generators; Climate Watch reports total data capacity of 4MW.",
+  "world_batch": true
+}

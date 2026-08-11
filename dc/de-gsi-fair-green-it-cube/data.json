@@ -1,0 +1,22 @@
+{
+  "slug": "de-gsi-fair-green-it-cube",
+  "canonical_project": "GSI/FAIR Green IT Cube",
+  "owner": "GSI Helmholtzzentrum / FAIR",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Darmstadt",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 12,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.gsi.de/en/work/it/data_center",
+    "https://www.gsi.de/en/researchaccelerators/research_an_overview/green-it-cube",
+    "https://ttsp-hwp.de/en/project/gsi/"
+  ],
+  "notes": "Scientific HPC data center on the GSI/FAIR campus in Darmstadt; GSI states 8 MW cooling capacity in expansion stages 1-2, rising to 12 MW in final phase.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "hr-a1-croatia-zagreb-data-center",
+  "canonical_project": "A1 Croatia Zagreb Data Center",
+  "owner": "A1 Croatia",
+  "location": {
+    "city": "",
+    "subnational": "Zagreb City",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": 0.35,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/croatia/zagreb/a1-zagreb/",
+    "https://www.a1.hr/poslovni/ict/data-centar-i-cloud/data-centar"
+  ],
+  "notes": "A1 markets Zagreb data-center and cloud services; directory listing identifies the Zagreb facility with roughly 350 kW power.",
+  "world_batch": true
+}

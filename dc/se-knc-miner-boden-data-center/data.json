@@ -1,0 +1,20 @@
+{
+  "slug": "se-knc-miner-boden-data-center",
+  "canonical_project": "KnC Miner Boden data center",
+  "owner": "KnC Miner",
+  "location": {
+    "city": "",
+    "subnational": "Norrbotten",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": 30,
+  "status": "operational",
+  "evidence_date": "2015-10-22",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterknowledge.com/hyperscalers/facebook-data-center-in-sweden-has-new-hydro-powered-neighbor"
+  ],
+  "notes": "Data Center Knowledge reported KnC Miner operating a 30 MW data center in Boden taking advantage of low-cost hydropower; current operating status should be treated as historical unless refreshed by newer primary source.",
+  "world_batch": true
+}

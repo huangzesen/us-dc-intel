@@ -1,0 +1,20 @@
+{
+  "slug": "cn-ucloud-wulanchabu-cloud-computing-center",
+  "canonical_project": "UCloud Wulanchabu Cloud Computing Center",
+  "owner": "UCloud",
+  "location": {
+    "city": "",
+    "subnational": "Inner Mongolia - Wulanchabu Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 200.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ucloud.cn/site/active/UHybrid.html"
+  ],
+  "notes": "UCloud official page describes its first self-built/self-operated campus data center in Jining District Chahar Industrial Park, 140,000 sqm land, five data-center buildings, 10,000+ racks, and two 110 kV external power feeds totaling 200 MW.",
+  "world_batch": true
+}

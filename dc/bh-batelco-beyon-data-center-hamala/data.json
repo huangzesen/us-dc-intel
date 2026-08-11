@@ -1,0 +1,22 @@
+{
+  "slug": "bh-batelco-beyon-data-center-hamala",
+  "canonical_project": "Batelco/Beyon Data Center - Hamala",
+  "owner": "Batelco / Beyon",
+  "location": {
+    "city": "",
+    "subnational": "Northern Governorate",
+    "country": "Bahrain",
+    "country_code": "BH"
+  },
+  "capacity_mw": 2.75,
+  "status": "operational",
+  "evidence_date": "2020-12-02",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/batelco-opens-bahrain-data-center/",
+    "https://www.datacentermap.com/bahrain/hamala/batelco-data-center/",
+    "https://www.beyon.com/news/beyon-achieves-aws-premier-tier-services-partner-status"
+  ],
+  "notes": "Batelco opened a 2.75 MW data center in Hamala; Beyon/Batelco later referenced its Bahrain data-center operations and AWS partner role.",
+  "world_batch": true
+}

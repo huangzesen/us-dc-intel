@@ -1,0 +1,22 @@
+{
+  "slug": "kr-sk-group-aws-ulsan-ai-data-center",
+  "canonical_project": "SK Group / AWS Ulsan AI Data Center",
+  "owner": "SK Group / SK Telecom / SK Broadband / Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Ulsan - Nam-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 103,
+  "status": "planned",
+  "evidence_date": "2025-06-16",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.asiae.co.kr/en/article/2025061615234205039",
+    "https://www.asiae.co.kr/en/article/2025091113192375947",
+    "https://www.datacentermap.com/south-korea/ulsan/"
+  ],
+  "notes": "Asia Business Daily reported SK Group and AWS are constructing a 103 MW AI-dedicated data center on a 36,000 sq m site in Hwangseong-dong, Nam-gu, Ulsan, within Ulsan Mipo National Industrial Complex. Schedule reported: launch ceremony June 2025, groundbreaking August 2025, 40 MW first phase operational by November 2027, full 103 MW by February 2029.",
+  "world_batch": true
+}

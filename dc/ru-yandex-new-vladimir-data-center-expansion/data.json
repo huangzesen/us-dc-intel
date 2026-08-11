@@ -1,0 +1,21 @@
+{
+  "slug": "ru-yandex-new-vladimir-data-center-expansion",
+  "canonical_project": "Yandex new Vladimir data center expansion",
+  "owner": "Yandex DC Vladimir LLC",
+  "location": {
+    "city": "",
+    "subnational": "Vladimir",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 80.0,
+  "status": "construction",
+  "evidence_date": "2025-11-07",
+  "evidence_grade": "C",
+  "sources": [
+    "https://rusdevelopers.ru/lenta_novostej/stroitelstvo-centra-obrabotki-dannykh-cod-yandeks-vladimir",
+    "https://habr.com/ru/news/950366/"
+  ],
+  "notes": "RusDevelopers reported Yandex plans to finish construction of an 80 MW data center in Vladimir Oblast by 2027, near the existing Yandex facility; local legal entity address given in Vladimir's Energetik microdistrict.",
+  "world_batch": true
+}

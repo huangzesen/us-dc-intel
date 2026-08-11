@@ -1,0 +1,21 @@
+{
+  "slug": "ci-equinix-ab1-mainone-ab1-2-grand-bassam",
+  "canonical_project": "Equinix AB1 / MainOne AB1.2 Grand-Bassam",
+  "owner": "Equinix / MainOne",
+  "location": {
+    "city": "",
+    "subnational": "Comoe",
+    "country": "Cote d'Ivoire",
+    "country_code": "CI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-11-08",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/cote-divoire-colocation/abidjan-data-centers/ab1",
+    "https://www.datacenterknowledge.com/data-center-construction/mainone-enters-cote-d-ivoire-expanding-its-data-center-footprint"
+  ],
+  "notes": "Equinix lists AB1 at VITIB, Zone Franche Grand-Bassam. MainOne, an Equinix company, announced the open-access carrier-neutral Tier III AB1.2 facility in VITIB, building on the 2019 cable landing/data center presence; no MW capacity disclosed.",
+  "world_batch": true
+}

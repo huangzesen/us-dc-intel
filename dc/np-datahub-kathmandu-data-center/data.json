@@ -1,0 +1,22 @@
+{
+  "slug": "np-datahub-kathmandu-data-center",
+  "canonical_project": "DataHub Kathmandu Data Center",
+  "owner": "DataHub Pvt. Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "-",
+    "country": "Nepal",
+    "country_code": "NP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datahub.com.np/",
+    "https://datahub.com.np/about-us/",
+    "https://techsansar.com/data-centers-nepal/data-hub-data-center-nepal/"
+  ],
+  "notes": "DataHub's official site lists data-center, colocation, backup, DR, object-storage and cloud services from Shikhar Biz Center, Thapathali; older local coverage describes the Thapathali facility as a Tier II data center.",
+  "world_batch": true
+}

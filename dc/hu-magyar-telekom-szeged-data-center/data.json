@@ -1,0 +1,21 @@
+{
+  "slug": "hu-magyar-telekom-szeged-data-center",
+  "canonical_project": "Magyar Telekom Szeged Data Center",
+  "owner": "Magyar Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Szeged",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telekom.hu/rolunk/vallalatrol/innovacio/adatpark",
+    "https://www.datacentermap.com/hungary/szeged/magyar-telekom-szeged/"
+  ],
+  "notes": "Magyar Telekom's official Adatpark material identifies Szeged as a data-center site; DataCenterMap also lists the Szeged facility. No public MW figure found.",
+  "world_batch": true
+}

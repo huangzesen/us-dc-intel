@@ -1,0 +1,21 @@
+{
+  "slug": "jp-telehouse-fukuoka",
+  "canonical_project": "TELEHOUSE Fukuoka",
+  "owner": "KDDI Corporation / TELEHOUSE",
+  "location": {
+    "city": "",
+    "subnational": "Fukuoka",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.telehouse.net/data-centre-services/japan/",
+    "https://www.datacentermap.com/japan/fukuoka/telehouse-fukuoka/"
+  ],
+  "notes": "TELEHOUSE/KDDI Japan network includes Fukuoka; directory source lists TELEHOUSE Fukuoka in Hakataekihigashi, Fukuoka.",
+  "world_batch": true
+}

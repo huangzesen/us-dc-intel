@@ -1,0 +1,21 @@
+{
+  "slug": "li-ict-center-vaduz",
+  "canonical_project": "ICT-Center Vaduz",
+  "owner": "ICT-Center AG",
+  "location": {
+    "city": "",
+    "subnational": "Vaduz",
+    "country": "Liechtenstein",
+    "country_code": "LI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/liechtenstein/ict-center-vaduz",
+    "https://www.datacentermap.com/liechtenstein/vaduz/ict-center-vaduz/"
+  ],
+  "notes": "Colocation/cloud facility of ICT-Center AG at Schwefelstrasse 5A, Vaduz 9490. Only facility physically located in the Vaduz municipality; no capacity figures published. Listed in Data Center Catalog and Data Center Map aggregates.",
+  "world_batch": true
+}

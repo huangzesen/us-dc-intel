@@ -1,0 +1,22 @@
+{
+  "slug": "ga-gabix-pop-ace",
+  "canonical_project": "GABIX POP ACE",
+  "owner": "Gabon Internet eXchange (GABIX)",
+  "location": {
+    "city": "",
+    "subnational": "Estuary",
+    "country": "Gabon",
+    "country_code": "GA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/gabon-internet-exchange-gabix/gabix-pop-ace/",
+    "https://www.pch.net/ixp/details/1887",
+    "https://ixpdb.euro-ix.net/en/explore/ixp/807/pops/"
+  ],
+  "notes": "Internet exchange/data center point of presence at Angondje, Libreville; sources list GABIX POP ACE as an active facility with GABIX, ANINF, Airtel, GVA, Packet Clearing House, and other connectivity. Capacity not publicly disclosed.",
+  "world_batch": true
+}

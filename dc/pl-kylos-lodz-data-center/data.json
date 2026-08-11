@@ -1,0 +1,21 @@
+{
+  "slug": "pl-kylos-lodz-data-center",
+  "canonical_project": "Kylos Lodz Data Center",
+  "owner": "Kylos",
+  "location": {
+    "city": "",
+    "subnational": "Lodz",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/poland/lodz/",
+    "https://baxtel.com/data-center/asseco-lodz"
+  ],
+  "notes": "Data Center Map's Lodz market listing includes Kylos Data Center at Gen. Walerego Wroblewskiego 18; Baxtel also lists it as a nearby Lodz facility.",
+  "world_batch": true
+}

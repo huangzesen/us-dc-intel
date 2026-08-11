@@ -1,0 +1,22 @@
+{
+  "slug": "fr-flexicore-dc2-pri-privas",
+  "canonical_project": "Flexicore DC2-PRI Privas",
+  "owner": "Flexicore SAS",
+  "location": {
+    "city": "",
+    "subnational": "Ardèche",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://flexicore.fr/datacenters",
+    "https://flexicore.fr/local/privas",
+    "https://as215124.net/"
+  ],
+  "notes": "Flexicore states it operates two Auvergne-Rhone-Alpes data centers, including DC2-PRI in Privas, Ardeche, with five racks in production, redundant power, generator, and multi-operator fiber.",
+  "world_batch": true
+}

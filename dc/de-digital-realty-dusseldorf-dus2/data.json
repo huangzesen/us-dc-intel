@@ -1,0 +1,21 @@
+{
+  "slug": "de-digital-realty-dusseldorf-dus2",
+  "canonical_project": "Digital Realty Düsseldorf DUS2",
+  "owner": "Digital Realty",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Düsseldorf",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.digitalrealty.com/data-centers/emea/dusseldorf/dus2",
+    "https://www.digitalrealty.com/data-centers/emea/dusseldorf"
+  ],
+  "notes": "Official Digital Realty page lists DUS2 at In der Steele 39-45; page gives 26,000 ft2 / 2,404 m2 building size but no MW in accessible text.",
+  "world_batch": true
+}

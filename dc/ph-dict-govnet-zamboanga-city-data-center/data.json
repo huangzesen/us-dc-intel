@@ -1,0 +1,20 @@
+{
+  "slug": "ph-dict-govnet-zamboanga-city-data-center",
+  "canonical_project": "DICT GovNet Zamboanga City Data Center",
+  "owner": "Department of Information and Communications Technology",
+  "location": {
+    "city": "",
+    "subnational": "Zamboanga Peninsula",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-06-15",
+  "evidence_grade": "B",
+  "sources": [
+    "https://newsbytes.ph/2020/06/15/dict-rolls-out-govt-fiber-network-in-zamboanga-city/"
+  ],
+  "notes": "GovNet rollout connected 88 Zamboanga City nodes to an operational, secured 24/7 government data center; source does not disclose capacity or detailed facility location.",
+  "world_batch": true
+}

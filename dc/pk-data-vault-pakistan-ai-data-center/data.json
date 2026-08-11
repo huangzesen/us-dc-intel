@@ -1,0 +1,21 @@
+{
+  "slug": "pk-data-vault-pakistan-ai-data-center",
+  "canonical_project": "Data Vault Pakistan AI Data Center",
+  "owner": "Data Vault Pakistan",
+  "location": {
+    "city": "",
+    "subnational": "Sindh",
+    "country": "Pakistan",
+    "country_code": "PK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-06-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.brecorder.com/news/40369754/pakistans-first-ai-data-centre-launched-in-karachi",
+    "https://www.datacentermap.com/pakistan/karachi/data-vault-pakistan-ai-data-center/"
+  ],
+  "notes": "Pakistan's first AI-focused data centre, launched 26 Jun 2025 in Karachi; 100% solar-powered (first green AI DC in Pakistan), GPU-as-a-Service, sovereign infrastructure; capacity not disclosed.",
+  "world_batch": true
+}

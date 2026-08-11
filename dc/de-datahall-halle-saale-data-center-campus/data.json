@@ -1,0 +1,22 @@
+{
+  "slug": "de-datahall-halle-saale-data-center-campus",
+  "canonical_project": "DataHall Halle (Saale) data center campus",
+  "owner": "DataHall GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Saxony-Anhalt - Halle",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2025-02-07",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datahall.de/",
+    "https://www.datacenter-insider.de/datahall-plant-innovatives-energie-optimiertes-rechenzentrum-in-halle-a-0338de0998c5562544ef0ce798329506/",
+    "https://www.datacenterdynamics.com/en/news/germanys-datahall-plans-data-center-outside-leipzig/"
+  ],
+  "notes": "DataHall's official site lists its address at Am Saalehafen 1, 06118 Halle (Saale), and describes a renewable-energy/data-center ecosystem. DataCenter-Insider reported DataHall is planning an energy-optimized data center campus in Halle, starting from 2026 if plans proceed; Baxtel/DCD also track the project, but public IT capacity is not disclosed.",
+  "world_batch": true
+}

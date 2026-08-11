@@ -1,0 +1,20 @@
+{
+  "slug": "lv-liepaja-data-centre",
+  "canonical_project": "Liepaja Data Centre",
+  "owner": "Northern Energy",
+  "location": {
+    "city": "",
+    "subnational": "Liepaja",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": 120,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://northernenergy.eu/projects"
+  ],
+  "notes": "Northern Energy describes a next-generation AI-ready data centre campus in Liepaja Special Economic Zone, designed for 120 MW operational capacity by 2029 with 110 kV/33 kV connectivity and renewable energy.",
+  "world_batch": true
+}

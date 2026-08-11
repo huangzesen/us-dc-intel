@@ -1,0 +1,22 @@
+{
+  "slug": "de-google-hanau-data-center-expansion",
+  "canonical_project": "Google Hanau data center expansion",
+  "owner": "Google",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Main-Kinzig-Kreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-11-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenters.google/locations/hanau-germany",
+    "https://blog.google/intl/de-de/unternehmen/engagement/google-investiert-milliarden-in-deutschlands-digitale-zukunft/",
+    "https://www.googlecloudpresscorner.com/2025-11-11-Google-Announces-EUR5-5-Billion-Investment-in-Germany%2C-including-AI-Infrastructure%2C-through-2029"
+  ],
+  "notes": "Google opened its first Hanau data center in 2023 and announced further expansion in Hanau as part of its EUR 5.5bn Germany cloud/AI infrastructure program. Hanau separated from Main-Kinzig-Kreis in 2026, but the project is included because the batch division historically covers the Hanau/Main-Kinzig datacenter cluster.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "sj-arctic-world-archive",
+  "canonical_project": "Arctic World Archive",
+  "owner": "Piql and Store Norske Spitsbergen Kulkompani (SNSK)",
+  "location": {
+    "city": "",
+    "subnational": "Svalbard and Jan Mayen",
+    "country": "Svalbard and Jan Mayen",
+    "country_code": "SJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2017-04-05",
+  "evidence_grade": "B",
+  "sources": [
+    "https://arcticworldarchive.org/",
+    "https://www.datacenterdynamics.com/en/news/piql-opens-doomsday-data-center-in-svalbard/",
+    "https://www.datacenterdynamics.com/en/news/arctic-world-archive-adds-latest-data-deposit-in-svalbard-facility/"
+  ],
+  "notes": "Specialized offline/cold data preservation facility in Mine no. 3 near Longyearbyen, opened in 2017. DCD described it as a Svalbard data center located 300m deep in permafrost and storing Piql film; AWA official site describes a Svalbard vault for physical and digital security. Not a conventional colocation/hyperscale compute site; no MW capacity disclosed.",
+  "world_batch": true
+}

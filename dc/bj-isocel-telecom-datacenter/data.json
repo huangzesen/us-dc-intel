@@ -1,0 +1,22 @@
+{
+  "slug": "bj-isocel-telecom-datacenter",
+  "canonical_project": "Isocel Telecom Datacenter",
+  "owner": "Isocel Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Littoral",
+    "country": "Benin",
+    "country_code": "BJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://isoceltelecom.com/fournisseur-acces-internet-benin/",
+    "https://isoceltelecom.com/services-internet-professionnels/",
+    "https://datacenterplatform.com/data-centers/isocel-telecom/isocel-telecom-datacenter/"
+  ],
+  "notes": "Isocel says it launched Benin's first neutral data center in 2015 and offers server/rack colocation in a private level/Tier 3 data center with redundant power, UPS, cooling, and 24/7 remote support. Data Center Platform lists the Isocel Telecom Datacenter in Cotonou. MW capacity not disclosed.",
+  "world_batch": true
+}

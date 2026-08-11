@@ -1,0 +1,21 @@
+{
+  "slug": "sg-princeton-digital-sg1",
+  "canonical_project": "Princeton Digital SG1",
+  "owner": "Princeton Digital Group",
+  "location": {
+    "city": "",
+    "subnational": "North East",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 17,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/singapore/singapore/princeton-singapore/",
+    "https://www.datacenters.com/princeton-digital-group-pdg-princeton-digital-sg1"
+  ],
+  "notes": "Aggregate sources place PDG SG1 at 7000 Ang Mo Kio Ave 5 and report 17MW; retained as weaker evidence because current operator page was not surfaced in search snippets.",
+  "world_batch": true
+}

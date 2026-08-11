@@ -1,0 +1,23 @@
+{
+  "slug": "za-equinix-cape-town-campus-king-air-industria",
+  "canonical_project": "Equinix Cape Town Campus (King Air Industria)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Western Cape - City of Cape Town",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": 160,
+  "status": "approved",
+  "evidence_date": "2026-05-18",
+  "evidence_grade": "B",
+  "sources": [
+    "https://mybroadband.co.za/news/cloud-hosting/661064-new-cape-town-data-centres-4-4-billion-litre-water-usage-error.html",
+    "https://techcentral.co.za/activists-challenge-160mw-cape-town-data-centre-project/281431/",
+    "https://www.foxglove.org.uk/2026/04/29/foxglove-south-african-housing-movement-challenge-new-hyperscale-data-centre/",
+    "https://www.datacentermap.com/south-africa/cape-town/equinix-cape-town-campus/"
+  ],
+  "notes": "Equinix proposed two hyperscale data centres at King Air Industria (Pallotti Rd, ~30-acre site) with combined capacity up to 160MW. City of Cape Town approved the rezoning application; activists (Foxglove and housing movement) lodged a formal objection in April-May 2026 over undisclosed water/power/environmental impact. Status recorded as approved (zoning) with objection pending.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "de-eunetworks-essen-data-center",
+  "canonical_project": "euNetworks Essen data center",
+  "owner": "euNetworks",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Essen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/eunetworks-essen",
+    "https://inflect.com/building/hachestrasse-essen/eunetworks-group/datacenter/eunetworks-group-lnc-colocentre-essen-1"
+  ],
+  "notes": "Baxtel/Inflect list an operational euNetworks data center at Hachestraße/Hachestraße 8 in Essen; MW capacity not reported.",
+  "world_batch": true
+}

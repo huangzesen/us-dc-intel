@@ -1,0 +1,22 @@
+{
+  "slug": "ml-mali-national-tier-iii-data-center-smtd-sa-agetic",
+  "canonical_project": "Mali National Tier III Data Center (SMTD-SA / AGETIC)",
+  "owner": "Societe Malienne de Transmission et de Diffusion (SMTD-SA), with AGETIC and Huawei involvement",
+  "location": {
+    "city": "",
+    "subnational": "Bamako",
+    "country": "Mali",
+    "country_code": "ML"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-01-31",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/mali-opens-national-data-center/",
+    "https://www.linkedin.com/posts/smtd-sa_inauguration-du-data-center-national-tier-activity-7291180844866654208-vygo",
+    "https://www.agenceecofin.com/actualites/2901-125458-le-mali-inaugure-son-data-center-national-tier-iii"
+  ],
+  "notes": "National Tier III data center in Bamako inaugurated on 2026-01-31. Reported as intended to support public cloud, data sovereignty and government digital services. No public MW capacity found.",
+  "world_batch": true
+}

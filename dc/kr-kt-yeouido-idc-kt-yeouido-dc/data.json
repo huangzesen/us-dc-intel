@@ -1,0 +1,22 @@
+{
+  "slug": "kr-kt-yeouido-idc-kt-yeouido-dc",
+  "canonical_project": "KT Yeouido IDC / KT Yeouido DC",
+  "owner": "KT Cloud / kt IDC",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Yeongdeungpo-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-korea/seoul/kt-yeouido-dc/specs/",
+    "https://www.ocolo.io/colocation/kt-idc/seoul-yeouido-idc/",
+    "https://www.zenlayer.com/global/datacenters/sel5"
+  ],
+  "notes": "Colocation directories and Zenlayer list KT Yeouido IDC/DC at 14 Yeoui-daero, Yeongdeungpo-gu. OCOLO describes it as a dedicated facility for a securities company and the only commercial data center in Yeouido; capacity not found.",
+  "world_batch": true
+}

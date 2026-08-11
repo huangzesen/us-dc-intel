@@ -1,0 +1,20 @@
+{
+  "slug": "sn-who-dakar-emergencies-hub-resilient-data-center",
+  "canonical_project": "WHO Dakar Emergencies Hub resilient data center",
+  "owner": "World Health Organization",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-07-09",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.developmentaid.org/tenders/view/1668650/demande-de-prix-pour-la-mise-en-place-dun-centre-de-donnees-resilient-pour-le-renforcement-de-lintel"
+  ],
+  "notes": "A July 2026 DevelopmentAid tender notice sought implementation of a resilient data center to strengthen WHO's Dakar emergency/intelligence hub. This appears to be an institutional IT/data-room project rather than a commercial colocation or hyperscale facility; no capacity was disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "pt-covilha-data-center-campus",
+  "canonical_project": "Covilha Data Center Campus",
+  "owner": "Asterion Industrial Partners; Altice Portugal anchor tenant",
+  "location": {
+    "city": "",
+    "subnational": "White Castle",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": 6.8,
+  "status": "operational",
+  "evidence_date": "2025-11-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.asterionindustrial.com/asterion-acquires-covilha-data-center-campus-from-altice-portugal-for-e120m/",
+    "https://www.datacenterdynamics.com/en/news/asterion-acquires-covilh%C3%A3-data-center-from-altice-portugal/",
+    "https://uptimeinstitute.com/component/tierachievement/client/portugal-telecom-data-center-sa/212"
+  ],
+  "notes": "Input division 'White Castle' appears to refer to Castelo Branco district. Asterion announced acquisition of the Covilha Data Center Campus from Altice Portugal; the campus currently offers 6.8MW installed capacity and can accommodate up to 75MW additional on the existing campus, with potential c.175MW on adjacent land with power secured. Uptime Institute lists Portugal Telecom Data Center Covilha tier achievements.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "au-airtrunk-mel2-melbourne-tullamarine",
+  "canonical_project": "AirTrunk MEL2 Melbourne Tullamarine",
+  "owner": "AirTrunk",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Hume",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 354,
+  "status": "construction",
+  "evidence_date": "2026-01-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://airtrunk.com/location/mel2-melbourne/",
+    "https://airtrunk.com/airtrunk-expands-australian-platform-with-a-second-hyperscale-data-centre-campus-in-melbourne/",
+    "https://www.datacenterdynamics.com/en/news/airtrunk-acquires-site-in-melbourne-australia-for-354mw-data-center/"
+  ],
+  "notes": "AirTrunk says MEL2 in Melbourne's north-west is a multi-building hyperscale campus with 354MW+ total capacity; the company announced the A$5bn expansion in early 2026.",
+  "world_batch": true
+}

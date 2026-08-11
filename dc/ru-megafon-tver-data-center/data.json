@@ -1,0 +1,21 @@
+{
+  "slug": "ru-megafon-tver-data-center",
+  "canonical_project": "MegaFon Tver Data Center",
+  "owner": "MegaFon",
+  "location": {
+    "city": "",
+    "subnational": "Tver",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2025-07-22",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/russias-megafon-launches-new-data-centers-in-yekaterinburg-and-tver/",
+    "https://vo.plus.rbc.ru/pressrelease/686fa8eb7a8aa974e1f651c4"
+  ],
+  "notes": "MegaFon launched a Tver facility alongside Yekaterinburg; each site is about 800 sqm, 110 racks, 1 MW standard load with potential high-load rack configuration up to 1.5 MW.",
+  "world_batch": true
+}

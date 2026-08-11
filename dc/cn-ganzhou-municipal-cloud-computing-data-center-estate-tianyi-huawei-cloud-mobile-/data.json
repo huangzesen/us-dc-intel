@@ -1,0 +1,20 @@
+{
+  "slug": "cn-ganzhou-municipal-cloud-computing-data-center-estate-tianyi-huawei-cloud-mobile-",
+  "canonical_project": "Ganzhou municipal cloud-computing data-center estate (Tianyi Huawei Cloud, Mobile Inspur Cloud, Gannan Data Lake)",
+  "owner": "China Telecom / Huawei, China Mobile / Inspur, Gannan Data Lake operators",
+  "location": {
+    "city": "",
+    "subnational": "Jiangxi - Ganzhou Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-11-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://spj.ganzhou.gov.cn/gzsxzsp/c103316/202411/1b07c18c86a441ecadfb7efebfb37dd6/files/78f14ec387a94439831ebbd441d760b0.pdf"
+  ],
+  "notes": "Ganzhou administrative approval bureau response states the city had three municipal cloud-computing data centers with 451 racks total: Tianyi Huawei Cloud 104, Mobile Inspur Cloud 105 and Gannan Data Lake 242, with total machine-room area 5,300 sq m. Treated as an operational estate because the source aggregates existing city-level centers.",
+  "world_batch": true
+}

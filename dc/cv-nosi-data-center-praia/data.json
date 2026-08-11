@@ -1,0 +1,25 @@
+{
+  "slug": "cv-nosi-data-center-praia",
+  "canonical_project": "NOSi Data Center (Praia)",
+  "owner": "NOSi – Núcleo Operacional da Sociedade de Informação, EPE (Cabo Verde government IT agency); supported by African Development Bank",
+  "location": {
+    "city": "",
+    "subnational": "Ilhas de Sotavento",
+    "country": "Cabo Verde",
+    "country_code": "CV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/c/nosi/",
+    "https://www.datacenterdynamics.com/en/news/data-center-in-cape-verde-to-be-completed-by-end-of-2022/",
+    "https://www.afdb.org/en/news-and-events/african-development-banks-support-propel-cabo-verdes-efforts-become-regional-ict-hub-54656",
+    "https://winpowersa.com/power-generation/data-centers/",
+    "https://www.svom.eu/en/cape-verde-cpv2-station/",
+    "https://www.nosi.cv/"
+  ],
+  "notes": "Government multi-tenant hybrid-cloud data center in Praia (Santiago Island, Sotavento), located <2km from the Cabo Verde Technology Park. NOSi founded 1998 to protect and use state data; operates a hybrid cloud data center; AfDB-backed and referenced in official AfDB coverage of Cabo Verde's regional-ICT-hub push. Hosts the SVOM CPV2 space-ground-station equipment (since Aug 2020). An emergency power station for the NOSi data center was built as part of Cabo Verde Technology Park construction works (WinPower). Capacity in MW not publicly disclosed.",
+  "world_batch": true
+}

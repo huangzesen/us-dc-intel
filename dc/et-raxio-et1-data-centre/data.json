@@ -1,0 +1,22 @@
+{
+  "slug": "et-raxio-et1-data-centre",
+  "canonical_project": "Raxio ET1 Data Centre",
+  "owner": "Raxio Data Centre PLC",
+  "location": {
+    "city": "",
+    "subnational": "Addis Ababa",
+    "country": "Ethiopia",
+    "country_code": "ET"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2023-11-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.raxiogroup.com/data-centres/ethiopia/",
+    "https://www.datacenterdynamics.com/en/news/raxio-launches-data-center-in-addis-ababa-ethiopia/",
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/ET"
+  ],
+  "notes": "Carrier-neutral Tier III facility in Addis Ababa's Ethio ICT Park; Raxio says the site has 2,000 sqm of white space, and DCD reported launch with 800 racks and up to 3MW of IT power.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "lu-deep-resilience-center-luxembourg-west",
+  "canonical_project": "DEEP Resilience Center Luxembourg West",
+  "owner": "DEEP / POST Luxembourg",
+  "location": {
+    "city": "",
+    "subnational": "Capellen",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.deep.eu/en/accueil/services/datacenter/datacenter-colocation-services",
+    "https://www.lu-cix.lu/infrastructure/network-map/"
+  ],
+  "notes": "DEEP states that private racks are available in its three Tier IV-certified datacenters in Windhof, Kayl and Betzdorf; LU-CIX lists Resilience Center Luxembourg West at 3 rue Pierre Flammang, L-8399 Windhof, which is in Capellen canton.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "mk-neotel-neocloud-stip-data-center",
+  "canonical_project": "Neotel / neoCloud Stip data center",
+  "owner": "Neotel DOO",
+  "location": {
+    "city": "",
+    "subnational": "Stip",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": 1.2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://neocloud.mk/architecture/",
+    "https://neotel.com.mk/en/business-users/cloud-services/infrastructure-as-a-service/",
+    "https://inflect.com/building/Neotel_Data_Center_2"
+  ],
+  "notes": "Neotel's official neoCloud architecture page states its platform uses two data centers in Skopje and Stip; its official IaaS page states data are stored in its own data center in Macedonia. Inflect lists Neotel Data Center 2 in Stip with 1.2 MW capacity, so capacity is third-party and should be treated as lower confidence.",
+  "world_batch": true
+}

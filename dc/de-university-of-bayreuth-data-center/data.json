@@ -1,0 +1,21 @@
+{
+  "slug": "de-university-of-bayreuth-data-center",
+  "canonical_project": "University of Bayreuth data center",
+  "owner": "University of Bayreuth",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Bayreuth (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/university-of-bayreuth/university-of-bayreuth-germany/",
+    "https://epub.uni-bayreuth.de/6752/1/jb2021_web.pdf"
+  ],
+  "notes": "Datacenterplatform lists a University of Bayreuth data center at Universitaetsstrasse 30, 95447 Bayreuth; university IT-service-center documents reference servers housed in colocation cabinets and regional computing resources, but no public capacity was found.",
+  "world_batch": true
+}

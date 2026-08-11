@@ -1,0 +1,23 @@
+{
+  "slug": "ph-yco-cloud-campus-one-yco-malvar-one",
+  "canonical_project": "YCO Cloud Campus One / YCO Malvar One",
+  "owner": "YCO Cloud Centers",
+  "location": {
+    "city": "",
+    "subnational": "Calabarzon",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 12,
+  "status": "operational",
+  "evidence_date": "2023-07-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ycocloud.com/",
+    "https://www.ycocloud.com/data-center",
+    "https://w.media/yco-cloud-launches-data-center-facility-in-the-philippines/",
+    "https://www.datacentermap.com/philippines/batangas/yco-malvar-one/"
+  ],
+  "notes": "YCO official pages place Campus One at Light Industry and Science Park IV, Malvar, Batangas; trade press reported launch in July 2023 and aggregator data lists 12 MW critical IT workload.",
+  "world_batch": true
+}

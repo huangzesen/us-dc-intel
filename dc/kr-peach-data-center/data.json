@@ -1,0 +1,21 @@
+{
+  "slug": "kr-peach-data-center",
+  "canonical_project": "PEACH DATA CENTER",
+  "owner": "KT Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Bucheon-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 48,
+  "status": "construction",
+  "evidence_date": "2025-06-30",
+  "evidence_grade": "B",
+  "sources": [
+    "https://assets.cushmanwakefield.com/-/media/cw/marketbeat-pdfs/2025/q2/apac-and-gc/korea---data-center-1h-2025-eng_fin_.pdf?rev=0cb5fa8d986747a0b36fce070e4ffc2d",
+    "https://assets.cushmanwakefield.com/-/media/cw/marketbeat-pdfs/2024/q4/apac-and-gc/south-korea-2024-h2-data-center_eng.pdf?rev=b0be7261daf944b7b93e86331d2601e1"
+  ],
+  "notes": "Cushman & Wakefield lists the Bucheon PEACH Data Center in construction, 76,037 sqm, 6MW current/48MW total IT load. Baxtel also reports KT will operate the Bucheon Peach IDC with construction completion expected in July 2026.",
+  "world_batch": true
+}

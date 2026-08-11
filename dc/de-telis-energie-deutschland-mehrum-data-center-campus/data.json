@@ -1,0 +1,22 @@
+{
+  "slug": "de-telis-energie-deutschland-mehrum-data-center-campus",
+  "canonical_project": "Telis Energie Deutschland Mehrum data center campus",
+  "owner": "Telis Energie Deutschland GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Lower Saxony - Peine",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 500,
+  "status": "planned",
+  "evidence_date": "2026-06-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/landkreis-peine-unternehmen-will-grosses-rechenzentrum-bauen%2Caktuellbraunschweig-2272.html",
+    "https://www.datacenter-insider.de/500-megawatt-bei-peine-das-hyperscale-vorhaben-von-telis-a-979f34749d1d2076ed8aaecf1969dc4d/",
+    "https://www.hohenhameln.de/portal/seiten/52-aenderung-flaechennutzungsplan-und-bebauungsplan-rechenzentrum-ortschaft-mehrum-900000298-26520.html"
+  ],
+  "notes": "Campus planned near Mehrum in Hohenhameln, Landkreis Peine. NDR reported six buildings on about 380,000 sqm, at least EUR 1 billion investment, council initiation of planning, and possible 2028 construction start. DataCenter-Insider reports a planned connection load of around 500 MW for a multi-tenant colocation campus. Municipality has a public planning page for the FNP amendment and 'Rechenzentrum' development plan.",
+  "world_batch": true
+}

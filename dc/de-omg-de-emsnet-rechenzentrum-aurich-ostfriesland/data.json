@@ -1,0 +1,22 @@
+{
+  "slug": "de-omg-de-emsnet-rechenzentrum-aurich-ostfriesland",
+  "canonical_project": "OMG.DE / Emsnet Rechenzentrum Aurich-Ostfriesland",
+  "owner": "OMG.DE GmbH / emsnet GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Lower Saxony - Aurich",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.omg.de/firmengruppe/omg-de-gmbh",
+    "https://www.emsnet.de/mehrwert_rechenzentrum_aurich_ostfriesland.html",
+    "https://www.emsnet.de/server-housing.html"
+  ],
+  "notes": "OMG.DE/Emsnet official pages state they operate their own data center at the Aurich-Ostfriesland site, offering hosting, vServer, rackspace and server housing. No public capacity figure found.",
+  "world_batch": true
+}

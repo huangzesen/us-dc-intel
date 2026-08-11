@@ -1,0 +1,22 @@
+{
+  "slug": "ru-global-alania-data-center-kavkaz",
+  "canonical_project": "Global Alania Data Center Kavkaz",
+  "owner": "Global Alania / Irtelcom",
+  "location": {
+    "city": "",
+    "subnational": "North Ossetia",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.connect-wit.ru/tsifrovye-ambitsii-data-tsentra-kavkaz.html",
+    "https://d-russia.ru/regionalnyj-cod-dlja-hranenija-dannyh-gosstruktur-i-kommercheskih-organizacij-otkrylsja-v-severnoj-osetii.html",
+    "https://ntss.ru/novosti/emilink_v_dele_realizovannye_proekty_global_alaniya/"
+  ],
+  "notes": "Connect-WIT described the Vladikavkaz Data Center Kavkaz project under the Ministry of Digital Development with planned Tier III design and first phase planned for Q1 2022. D-Russia/IKS reported Global Alania opened a regional data center in Vladikavkaz in 2020; NTSS reported in 2026 that the Kavkaz data center had recently opened and serves organizations in Alania and other North Caucasus regions. Public MW capacity not found.",
+  "world_batch": true
+}

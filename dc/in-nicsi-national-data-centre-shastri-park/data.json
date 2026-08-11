@@ -1,0 +1,22 @@
+{
+  "slug": "in-nicsi-national-data-centre-shastri-park",
+  "canonical_project": "NICSI National Data Centre, Shastri Park",
+  "owner": "National Informatics Centre Services Inc. / National Informatics Centre",
+  "location": {
+    "city": "",
+    "subnational": "Delhi - Shahdara",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/data-center/nicsi-new-delhi",
+    "https://webcast.gov.in/ndcshastripark",
+    "https://telecom.economictimes.indiatimes.com/news/internet/nicsis-shastri-park-data-centre-power-outage-disrupts-several-govt-websites/116835945"
+  ],
+  "notes": "Tier-III government data centre at DMRC IT Park, Shastri Park; Baxtel lists 462 racks and ET Telecom reported a NICSI Shastri Park data-centre outage. District assignment uses Shastri Park/Shahdara locality.",
+  "world_batch": true
+}

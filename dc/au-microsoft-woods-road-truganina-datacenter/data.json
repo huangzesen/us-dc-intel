@@ -1,0 +1,22 @@
+{
+  "slug": "au-microsoft-woods-road-truganina-datacenter",
+  "canonical_project": "Microsoft Woods Road Truganina datacenter",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Wyndham",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://local.microsoft.com/blog/woods-road-datacentre-construction-overview/",
+    "https://www.datacentermap.com/australia/melbourne/microsoft-woods-road/",
+    "https://goinfrastructure.com.au/project/woods-road-truganina-data-centre-watermain-upgrade-microsoft/"
+  ],
+  "notes": "Microsoft Local says construction began in December 2022 at Woods Road, Truganina. DataCenterMap lists 281 Woods Road, Truganina as part of the Australia Southeast Azure region and expected completion around mid-2025; no public capacity figure found.",
+  "world_batch": true
+}

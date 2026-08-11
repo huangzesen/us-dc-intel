@@ -1,0 +1,22 @@
+{
+  "slug": "lv-lvrtc-daugavpils-rts",
+  "canonical_project": "LVRTC Daugavpils RTS",
+  "owner": "Latvian State Radio and Television Centre (LVRTC)",
+  "location": {
+    "city": "",
+    "subnational": "Daugavpils",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://colomap.com/facilities/lvrtc-daugavpils-rts/",
+    "https://www.redzet.lv/info/Daugavpils_radio_un_telev%C4%ABzijas_stacija",
+    "https://beta.peeringdb.com/org/1214"
+  ],
+  "notes": "ColoMap lists LVRTC Daugavpils RTS as a colocation data center at Drujas iela 38a; Redzet profile for the Daugavpils radio/TV station lists LVRTC services including data center. No public capacity found.",
+  "world_batch": true
+}

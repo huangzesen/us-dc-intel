@@ -1,0 +1,20 @@
+{
+  "slug": "jp-grid-apex-project-mie",
+  "canonical_project": "Grid Apex Project Mie",
+  "owner": "Grid Apex Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Mie",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 100,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://gridapex.ai/datacenters.html"
+  ],
+  "notes": "Developer page describes a 100MW AI-ready colocation campus in Tsu City, Mie Prefecture, with Chubu Electric power confirmed and target energization in 2028-2029.",
+  "world_batch": true
+}

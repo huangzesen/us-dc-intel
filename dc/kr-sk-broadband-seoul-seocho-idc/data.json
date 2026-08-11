@@ -1,0 +1,22 @@
+{
+  "slug": "kr-sk-broadband-seoul-seocho-idc",
+  "canonical_project": "SK Broadband Seoul / Seocho IDC",
+  "owner": "SK Broadband",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Seocho-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/6-beobwon-ro-1-gil-seocho-dong-seoul/sk-broadband/datacenter/seoul",
+    "https://www.datacenters.com/sk-broadband-seocho",
+    "https://www.zenlayer.com/resource/city/seoul"
+  ],
+  "notes": "Inflect lists SK Broadband Seoul as a data center at 6 Beobwon-ro 1-gil, Seocho-dong, Seocho-gu; Zenlayer's Seoul location page also lists an SK Broadband site at 6 Bubwonro1-gil, Seocho-gu. Capacity not found.",
+  "world_batch": true
+}

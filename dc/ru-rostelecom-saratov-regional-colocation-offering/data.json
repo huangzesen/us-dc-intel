@@ -1,0 +1,20 @@
+{
+  "slug": "ru-rostelecom-saratov-regional-colocation-offering",
+  "canonical_project": "Rostelecom Saratov regional colocation offering",
+  "owner": "Rostelecom",
+  "location": {
+    "city": "",
+    "subnational": "Saratov",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://saratov.rt.ru/b2o/rostelecom-infrastructure/data-center"
+  ],
+  "notes": "Rostelecom's Saratov regional page offers colocation/data-center services through its Russian Tier III/Tier IV data-center network. The page confirms service availability for Saratov customers but does not publish a specific Saratov facility address or MW capacity.",
+  "world_batch": true
+}

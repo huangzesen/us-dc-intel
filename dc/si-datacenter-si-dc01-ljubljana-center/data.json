@@ -1,0 +1,21 @@
+{
+  "slug": "si-datacenter-si-dc01-ljubljana-center",
+  "canonical_project": "Datacenter.si DC01 Ljubljana Center",
+  "owner": "RvO d.o.o. / Datacenter.si",
+  "location": {
+    "city": "",
+    "subnational": "Ljubljana",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenter.si/",
+    "https://www.datacentermap.com/slovenia/ljubljana/datacenter-dc01/"
+  ],
+  "notes": "Datacenter.si's official site lists a Ljubljana Center colocation location; Data Center Map lists Datacenter DC01 at Dunajska Cesta 5, Ljubljana. MW capacity was not public.",
+  "world_batch": true
+}

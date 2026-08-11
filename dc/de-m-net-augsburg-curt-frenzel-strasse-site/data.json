@@ -1,0 +1,21 @@
+{
+  "slug": "de-m-net-augsburg-curt-frenzel-strasse-site",
+  "canonical_project": "M-Net Augsburg / Curt-Frenzel-Strasse site",
+  "owner": "M-net Telekommunikations GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Augsburg (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-13",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.m-net.de/fileadmin/0_Allgemein/9_Hilfe_Service/Dokumente/Aktuell/ISO_27001_Zertifikat_Deutsch.pdf",
+    "https://inflect.com/building/7a-johannes-haag-strasse-augsburg/m-net/datacenter/augsburg"
+  ],
+  "notes": "M-net's 2025 ISO 27001 certificate annex includes Curt-Frenzel-Strasse 4, 86167 Augsburg under the certified scope for high-availability data-center infrastructure. Inflect also lists an M-Net Augsburg colocation facility, though with a differing Johannes-Haag-Strasse address, so capacity and exact site identity are left null.",
+  "world_batch": true
+}

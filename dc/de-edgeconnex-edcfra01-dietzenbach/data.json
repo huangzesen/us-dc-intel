@@ -1,0 +1,22 @@
+{
+  "slug": "de-edgeconnex-edcfra01-dietzenbach",
+  "canonical_project": "EdgeConneX EDCFRA01 Dietzenbach",
+  "owner": "EdgeConneX",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Offenbach",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 9.1,
+  "status": "construction",
+  "evidence_date": "2025-02-03",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/edgeconnnex-proposes-data-center-campus-in-heusenstamm-germany/",
+    "https://www.datacentermap.com/germany/frankfurt/edgeconnex-frankfurt-edcfra01/",
+    "https://dcatlas.io/en/explore/facilities/edgeconnex-fra01-frankfurt-data-center-dietzenbach"
+  ],
+  "notes": "DCD reports DCByte tracked EdgeConneX developing EDCFRA01 on about 3.6 ha in Dietzenbach; Data Center Map gives the Waldstrasse 43-45 Dietzenbach address. DCAtlas lists 9.1 MW under construction; capacity marked B/C-level because it is from an industry database, not the developer.",
+  "world_batch": true
+}

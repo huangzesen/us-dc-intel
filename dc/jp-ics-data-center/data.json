@@ -1,0 +1,20 @@
+{
+  "slug": "jp-ics-data-center",
+  "canonical_project": "ICS Data Center",
+  "owner": "ICS Co., Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Iwate",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ics.co.jp/company/datacenter"
+  ],
+  "notes": "ICS official page describes an Iwate/Morioka-area data center with about 1,300 sqm gross floor area and space for about 240 racks, positioned for remote backup/BCP; MW not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "gb-pulsant-rotherham-yh-1",
+  "canonical_project": "Pulsant Rotherham YH-1",
+  "owner": "Pulsant",
+  "location": {
+    "city": "",
+    "subnational": "England - Rotherham",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 0.4,
+  "status": "operational",
+  "evidence_date": "2023-10-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.colo-x.com/data-centre/pulsant-south-yorkshire-data-centre/",
+    "https://www.techerati.com/news-hub/pulsant-invests-3-million-to-expand-south-yorkshire-data-centre/"
+  ],
+  "notes": "Operational South Yorkshire/Rotherham edge data centre; Pulsant invested GBP3m in 2023 expansion, taking IT load to about 400kW.",
+  "world_batch": true
+}

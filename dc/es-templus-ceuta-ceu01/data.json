@@ -1,0 +1,22 @@
+{
+  "slug": "es-templus-ceuta-ceu01",
+  "canonical_project": "Templus Ceuta CEU01",
+  "owner": "Templus",
+  "location": {
+    "city": "",
+    "subnational": "Ceuta",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": 1.2,
+  "status": "construction",
+  "evidence_date": "2025-11-07",
+  "evidence_grade": "A",
+  "sources": [
+    "https://templus.com/data-centers/ceuta-ceu01/",
+    "https://www.datacenterdynamics.com/en/news/spains-templus-breaks-ground-on-data-center-in-ceuta/",
+    "https://www.datacentermarket.es/sostenibilidad/templus-construira-el-primer-centro-de-datos-de-ceuta-operativo-en-2026/"
+  ],
+  "notes": "First Ceuta data center, located in the port at Puntilla dock; initial 1.2MW and 2,500 sqm, expected to become operational in H1 2026 with possible expansion to 2.4MW.",
+  "world_batch": true
+}

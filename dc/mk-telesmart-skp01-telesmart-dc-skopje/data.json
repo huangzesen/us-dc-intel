@@ -1,0 +1,21 @@
+{
+  "slug": "mk-telesmart-skp01-telesmart-dc-skopje",
+  "canonical_project": "Telesmart SKP01 / Telesmart DC Skopje",
+  "owner": "Telesmart Telekom doo",
+  "location": {
+    "city": "",
+    "subnational": "Karpos",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-09-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.peeringdb.com/fac/11607",
+    "https://inflect.com/building/nikola-parapunov-nn-skopje/telesmart/datacenter/skp01"
+  ],
+  "notes": "PeeringDB lists Telesmart DC Skopje with address Bul. Kiro Gligorov 4 / Bul. Nikola Parapunov bb, Skopje and last update 2025-09-26; Inflect lists Telesmart SKP01 at Nikola Parapunov Nn as a Skopje data center offering colocation and network services. Nikola Parapunov is mapped to Karpos/Karpos 4 in public local references; capacity not disclosed.",
+  "world_batch": true
+}

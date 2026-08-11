@@ -1,0 +1,21 @@
+{
+  "slug": "mn-bank-of-mongolia-netc-main-data-center",
+  "canonical_project": "Bank of Mongolia NETC Main Data Center",
+  "owner": "Bank of Mongolia / National Electronic Transaction Center",
+  "location": {
+    "city": "",
+    "subnational": "Ulaanbaatar",
+    "country": "Mongolia",
+    "country_code": "MN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-05-18",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mongolbank.mn/en/r/5188",
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/MN"
+  ],
+  "notes": "Bank of Mongolia announced completion of the NETC main data center and Tier II award; Uptime Institute lists Main Data Center of National Electronic Transaction Center in Ulaanbaatar with Tier II design certification.",
+  "world_batch": true
+}

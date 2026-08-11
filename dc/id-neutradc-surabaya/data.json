@@ -1,0 +1,21 @@
+{
+  "slug": "id-neutradc-surabaya",
+  "canonical_project": "NeutraDC Surabaya",
+  "owner": "NeutraDC / PT Telkom Data Ekosistem",
+  "location": {
+    "city": "",
+    "subnational": "East Java",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.neutradc.com/data-center/jakarta-hq",
+    "https://www.ocolo.io/colocation/neutradc/surabaya/"
+  ],
+  "notes": "NeutraDC's official location page lists its Surabaya facility at Citraland, Lakarsantri with up to 3 MW IT load; OCOLO corroborates 3.00 MW.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "is-mila-armuli-25-data-center-reykjavik",
+  "canonical_project": "Mila Armuli 25 data center, Reykjavik",
+  "owner": "Mila hf.",
+  "location": {
+    "city": "",
+    "subnational": "Capital Region",
+    "country": "Iceland",
+    "country_code": "IS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/iceland/reykjavik/armuli-25/",
+    "https://www.peeringdb.com/fac/10084"
+  ],
+  "notes": "DataCenterMap and PeeringDB identify Mila's Armuli 25 facility in Reykjavik/Capital Region; public power capacity was not found in primary sources.",
+  "world_batch": true
+}

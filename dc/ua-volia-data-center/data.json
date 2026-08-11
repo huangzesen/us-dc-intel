@@ -1,0 +1,21 @@
+{
+  "slug": "ua-volia-data-center",
+  "canonical_project": "Volia Data Center",
+  "owner": "Volia",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacentermap.com/ukraine/kiev/volia-data-center/",
+    "https://volia.com/eng/business/data-center/"
+  ],
+  "notes": "Operator offers data center/colocation services; directory locates Volia Data Center in Kyiv. Capacity not disclosed.",
+  "world_batch": true
+}

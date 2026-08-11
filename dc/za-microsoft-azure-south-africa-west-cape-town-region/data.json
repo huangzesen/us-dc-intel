@@ -1,0 +1,22 @@
+{
+  "slug": "za-microsoft-azure-south-africa-west-cape-town-region",
+  "canonical_project": "Microsoft Azure South Africa West (Cape Town) Region",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Western Cape - City of Cape Town",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-03-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.geekwire.com/2019/microsofts-south-african-data-centers-now-open-azure-business/",
+    "https://www.dcpostmea.com/2019/03/microsoft-opens-its-first-datacenters-in-africa/",
+    "https://techtrendske.co.ke/2019/03/07/microsoft-opens-its-africas-first-data-centres-in-south-africa/"
+  ],
+  "notes": "Microsoft made Azure South Africa West (Cape Town) and South Africa North (Johannesburg) generally available on 6 March 2019, the first major hyperscaler datacenters in Africa. Azure official regional list (azure.microsoft.com/explore/global-infrastructure) confirms both regions. Capacity in MW not publicly disclosed.",
+  "world_batch": true
+}

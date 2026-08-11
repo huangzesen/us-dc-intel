@@ -1,0 +1,21 @@
+{
+  "slug": "nl-northc-aalsmeer-data-center",
+  "canonical_project": "NorthC Aalsmeer data center",
+  "owner": "NorthC Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "North Holland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 14.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.northcdatacenters.com/en/northc-datacenters/aalsmeer/",
+    "https://www.datacenterdynamics.com/en/news/northc-breaks-ground-on-45mw-expansion-in-amsterdam/"
+  ],
+  "notes": "Official NorthC page locates the facility in Aalsmeer near Schiphol; DCD reported the facility had 14 MW IT capacity and a 4.5 MW expansion had broken ground.",
+  "world_batch": true
+}

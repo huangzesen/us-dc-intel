@@ -1,0 +1,21 @@
+{
+  "slug": "bi-buja-online-data-center",
+  "canonical_project": "Buja Online Data Center",
+  "owner": "Buja Online",
+  "location": {
+    "city": "",
+    "subnational": "Bujumbura Mairie",
+    "country": "Burundi",
+    "country_code": "BI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bujaonline.bi/",
+    "https://www.datacenters.com/buja-online-buja-online"
+  ],
+  "notes": "Official site describes a local Bujumbura data center offering VPS, web hosting, fiber internet and IT hardware services; Datacenters.com also lists it in Bujumbura Mairie.",
+  "world_batch": true
+}

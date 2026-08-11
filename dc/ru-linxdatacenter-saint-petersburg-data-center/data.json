@@ -1,0 +1,22 @@
+{
+  "slug": "ru-linxdatacenter-saint-petersburg-data-center",
+  "canonical_project": "Linxdatacenter Saint Petersburg Data Center",
+  "owner": "Linxdatacenter / Linx",
+  "location": {
+    "city": "",
+    "subnational": "Saint Petersburg",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 12,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/linxdatacenter-/1298",
+    "https://baxtel.com/data-center/saint-petersburg",
+    "https://www.datacenters.com/locations/russia/saint-petersburg/saint-petersburg"
+  ],
+  "notes": "Uptime Institute lists Linxdatacenter's Saint Petersburg data center among certified facilities. Baxtel identifies Linxdatacenter Saint Petersburg as the largest Saint Petersburg facility at 12 MW and 96,875 sqft; Datacenters.com places it on Repishcheva Ulitsa 20 lit. A.",
+  "world_batch": true
+}

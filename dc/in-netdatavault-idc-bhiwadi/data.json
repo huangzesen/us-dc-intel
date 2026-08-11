@@ -1,0 +1,22 @@
+{
+  "slug": "in-netdatavault-idc-bhiwadi",
+  "canonical_project": "NetDataVault IDC, Bhiwadi",
+  "owner": "NGBPS Limited / NetDataVault",
+  "location": {
+    "city": "",
+    "subnational": "Rajasthan - Alwar",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://tiaonline.org/942-datacenter/netdatavault-f-19-riico-phase-1-bhiwadi-301019-dist-alwar/",
+    "https://www.datacentermap.com/india/alwar/netdatavault/specs/",
+    "https://epi-certification.com/sites/details/876"
+  ],
+  "notes": "Facility listed at F-19, RIICO Phase-1, Bhiwadi, Dist. Alwar; TIA/EPI certification pages identify the site and Rated 3 design certification, and Data Center Map lists 5,000 sq ft whitespace, 150+ rack capacity, and operational year 2012. MW not disclosed.",
+  "world_batch": true
+}

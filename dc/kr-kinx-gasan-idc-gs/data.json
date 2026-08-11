@@ -1,0 +1,21 @@
+{
+  "slug": "kr-kinx-gasan-idc-gs",
+  "canonical_project": "KINX Gasan IDC (GS)",
+  "owner": "KINX Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Geumcheon-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.kinx.net/infrastructure/dc/?lang=en",
+    "https://www.datacentermap.com/south-korea/seoul/kinx-gasan-center/"
+  ],
+  "notes": "KINX official data-center page lists IDC Gasan at 3F, LG Gasan Digital Center, 189 Gasan digital 1-ro, Geumcheon-gu. Capacity not disclosed.",
+  "world_batch": true
+}

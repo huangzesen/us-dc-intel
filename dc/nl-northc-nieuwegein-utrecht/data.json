@@ -1,0 +1,20 @@
+{
+  "slug": "nl-northc-nieuwegein-utrecht",
+  "canonical_project": "NorthC Nieuwegein - Utrecht",
+  "owner": "NorthC Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Utrecht",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 2.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.northcdatacenters.com/en/northc-datacenters/nieuwegein/"
+  ],
+  "notes": "Official NorthC page gives Nieuwegein-Utrecht general specifications: 8,000 m2 total surface area and 2.5 MW installed electrical capacity.",
+  "world_batch": true
+}

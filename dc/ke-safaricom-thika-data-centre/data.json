@@ -1,0 +1,21 @@
+{
+  "slug": "ke-safaricom-thika-data-centre",
+  "canonical_project": "Safaricom Thika Data Centre",
+  "owner": "Safaricom",
+  "location": {
+    "city": "",
+    "subnational": "Nairobi City",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.safaricom.co.ke/wholesale/wholesale_product_categories/data_centre/",
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/new-thika-data-centre/947"
+  ],
+  "notes": "Safaricom wholesale page states its data centres are located in Thika, Nairobi and Kisumu; Uptime Institute lists New Thika Data Centre for Safaricom with location Nairobi, Kenya. Capacity not found in public source.",
+  "world_batch": true
+}

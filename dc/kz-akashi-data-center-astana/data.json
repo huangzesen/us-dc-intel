@@ -1,0 +1,21 @@
+{
+  "slug": "kz-akashi-data-center-astana",
+  "canonical_project": "AKASHI Data Center Astana",
+  "owner": "AKASHI Data Center",
+  "location": {
+    "city": "",
+    "subnational": "Astana",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": 100.0,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://akashi.cloud/",
+    "https://astanatimes.com/2025/06/kazakhstan-to-build-central-asias-first-tier-iv-data-center/"
+  ],
+  "notes": "Official Akashi site describes a Tier IV Astana facility with 4,224 racks and 100 MW IT capacity across four buildings; site says the first phase is scheduled to launch in 2027 and shows live build/progress telemetry.",
+  "world_batch": true
+}

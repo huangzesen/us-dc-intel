@@ -1,0 +1,22 @@
+{
+  "slug": "rw-paix-kigali-data-centre",
+  "canonical_project": "PAIX Kigali Data Centre",
+  "owner": "PAIX Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "City of Kigali",
+    "country": "Rwanda",
+    "country_code": "RW"
+  },
+  "capacity_mw": 3,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/rwanda/kigali/paix-kigali/",
+    "https://www.datacentermap.com/rwanda/kigali/",
+    "https://cms.d4dhub.eu/assets/Initiatives/Data-Governance-in-Africa/Digital-Investment-Facility/2507_Country-Market-Briefs/Data-Center-Market-Brief-Rwanda.pdf"
+  ],
+  "notes": "DataCenterMap lists PAIX Kigali as planned, site code KGL-1, within Kigali Innovation City, and shows 3MW in the listing title. The 2025 Xalam/D4D market brief says the arrival of ADC and PAIX will bring Rwanda's first built-for-purpose carrier-neutral facilities; capacity should be treated as directory-reported until confirmed by PAIX.",
+  "world_batch": true
+}

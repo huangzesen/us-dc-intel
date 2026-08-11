@@ -1,0 +1,22 @@
+{
+  "slug": "gb-apatura-coldstream-data-centre-campus",
+  "canonical_project": "Apatura Coldstream Data Centre Campus",
+  "owner": "Apatura",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - The Scottish Borders",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 300,
+  "status": "planned",
+  "evidence_date": "2025-07-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/apatura-files-for-300mw-data-center-campus-in-scotland/",
+    "https://aprs.scot/coldstream-dc/",
+    "https://www.datacentermap.com/united-kingdom/edinburgh/apatura-coldstream/"
+  ],
+  "notes": "Proposed 300 MW data centre campus with BESS near Coldstream/Laundry Field in the Scottish Borders; public sources indicate early planning/screening rather than construction.",
+  "world_batch": true
+}

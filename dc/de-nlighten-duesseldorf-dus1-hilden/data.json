@@ -1,0 +1,21 @@
+{
+  "slug": "de-nlighten-duesseldorf-dus1-hilden",
+  "canonical_project": "nLighten Duesseldorf DUS1 Hilden",
+  "owner": "nLighten",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Mettmann",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 4.8,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nlighten.com/en/edge-location/dusseldorf/",
+    "https://www.datacentermap.com/germany/duesseldorf/kpn-dusseldorf/"
+  ],
+  "notes": "nLighten's Duesseldorf edge data center is located at Ellerstrasse 101, 40721 Hilden, with 1,446 sqm dedicated colocation space and published power of 4,800 kW on the official page.",
+  "world_batch": true
+}

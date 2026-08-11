@@ -1,0 +1,21 @@
+{
+  "slug": "ch-kantonsspital-graubunden-integrated-data-center-chur",
+  "canonical_project": "Kantonsspital Graubunden integrated data center, Chur",
+  "owner": "Kantonsspital Graubunden",
+  "location": {
+    "city": "",
+    "subnational": "Graubunden",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.scherler.swiss/kompetenzen/projekte/referenzen/detail?cHash=837080785d659073d5b6ffe66dd4685f&projectID=99",
+    "https://www.inside-it.ch/kantonsspital-graubuenden-strebt-in-die-public-cloud-20241029"
+  ],
+  "notes": "SCHERLER's project reference states the new Kantonsspital Graubunden building in Chur includes an integrated Tier III-standard data center with dual medium-voltage supplies and backup generation. Inside IT reported in 2024 that the hospital would need to give up its second data-center site in Chur by mid-2026 and was seeking cloud disaster-recovery replacement; the integrated hospital data center is treated as operational but no MW capacity was disclosed.",
+  "world_batch": true
+}

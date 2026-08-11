@@ -1,0 +1,21 @@
+{
+  "slug": "pl-atman-data-center-warsaw-3",
+  "canonical_project": "Atman Data Center Warsaw-3",
+  "owner": "Atman",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 43,
+  "status": "operational",
+  "evidence_date": "2025-10-07",
+  "evidence_grade": "A",
+  "sources": [
+    "https://atman.pl/en/atman-data-center/warsaw-3/",
+    "https://www.datacenterdynamics.com/en/news/polands-atman-launches-first-phase-of-new-warsaw-data-center-campus/"
+  ],
+  "notes": "Atman official page gives WAW-3 target IT capacity of 43MW across three buildings; DCD reports first phase launched with 14.4MW and full build-out 43MW.",
+  "world_batch": true
+}

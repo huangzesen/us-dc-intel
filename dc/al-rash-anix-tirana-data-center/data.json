@@ -1,0 +1,22 @@
+{
+  "slug": "al-rash-anix-tirana-data-center",
+  "canonical_project": "RASH / ANIX Tirana data center",
+  "owner": "RASH (Albanian Academic Network)",
+  "location": {
+    "city": "",
+    "subnational": "Tirane",
+    "country": "Albania",
+    "country_code": "AL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://anix.rash.al/index.php/datacenter/",
+    "https://www.anix.al/",
+    "https://rash.al/en/news-main/news/2022/12/02/anix-meeting-2022/"
+  ],
+  "notes": "ANIX/RASH pages describe a carrier-grade RASH data center in central Tirana hosting the Albanian Neutral Internet Exchange, with rack space, a meet-me room and ISP/carrier interconnection.",
+  "world_batch": true
+}

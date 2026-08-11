@@ -1,0 +1,22 @@
+{
+  "slug": "lu-bce-colocation-luxembourg-broadcasting-center-europe-kirchberg",
+  "canonical_project": "BCE Colocation Luxembourg / Broadcasting Center Europe Kirchberg",
+  "owner": "Broadcasting Center Europe (BCE)",
+  "location": {
+    "city": "",
+    "subnational": "Luxembourg",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.lu-cix.lu/infrastructure/network-map/",
+    "https://datacenterplatform.com/data-centers/broadcasting-center-europe/bce-luxembourg/broadcasting-center-europe-kirchberg/",
+    "https://www.bce-group.com/"
+  ],
+  "notes": "LU-CIX lists BCE as a datacenter location at 43 boulevard Pierre Frieden, L-1543 Luxembourg; Datacenterplatform reports BCE Kirchberg with 908 m2, 360 racks and 3 MW connection capacity.",
+  "world_batch": true
+}

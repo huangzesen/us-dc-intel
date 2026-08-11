@@ -1,0 +1,21 @@
+{
+  "slug": "fr-denv-r-floating-data-center-nantes",
+  "canonical_project": "DENV-R Floating Data Center Nantes",
+  "owner": "DENV-R",
+  "location": {
+    "city": "",
+    "subnational": "Loire-Atlantique",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 0.2,
+  "status": "operational",
+  "evidence_date": "2024-10-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.nantes.port.fr/en/news/inauguration-denv-r-floating-data-center-nantes",
+    "https://www.datacenterdynamics.com/en/news/french-startup-denv-r-launches-floating-data-center-in-nantes/"
+  ],
+  "notes": "Nantes Saint-Nazaire Port reported inauguration at Quai Wilson; DCD reported the floating, river-cooled Nantes data center offers 200 kW.",
+  "world_batch": true
+}

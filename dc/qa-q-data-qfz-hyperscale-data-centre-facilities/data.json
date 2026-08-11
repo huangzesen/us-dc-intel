@@ -1,0 +1,21 @@
+{
+  "slug": "qa-q-data-qfz-hyperscale-data-centre-facilities",
+  "canonical_project": "Q Data QFZ hyperscale data centre facilities",
+  "owner": "Q Data / Syntys / Ooredoo",
+  "location": {
+    "city": "",
+    "subnational": "Wakra",
+    "country": "Qatar",
+    "country_code": "QA"
+  },
+  "capacity_mw": 12.5,
+  "status": "operational",
+  "evidence_date": "2024-01-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ooredoo.com/en/media/news_view/ooredoo-group-announces-syntys-acquisition-of-q-data-facilities-in-qatar/",
+    "https://qfz.gov.qa/why_qfz/free-zones/"
+  ],
+  "notes": "Ooredoo announced Syntys' acquisition of Q Data Facilities, describing two data centres within Qatar Free Zones with total connected capacity of 12.5MW and expansion potential to over 40MW. QFZ's principal zones include Ras Bufontas and Umm Alhoul; assigned to Wakra for batch coverage.",
+  "world_batch": true
+}

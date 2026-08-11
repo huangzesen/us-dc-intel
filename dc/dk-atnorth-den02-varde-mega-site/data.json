@@ -1,0 +1,21 @@
+{
+  "slug": "dk-atnorth-den02-varde-mega-site",
+  "canonical_project": "atNorth DEN02 Varde Mega Site",
+  "owner": "atNorth",
+  "location": {
+    "city": "",
+    "subnational": "Southern Denmark",
+    "country": "Denmark",
+    "country_code": "DK"
+  },
+  "capacity_mw": 500,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.atnorth.com/nordic-data-centers/denmark-data-centers/varde-mega-site/",
+    "https://www.datacenterdynamics.com/en/news/atnorth-plans-250mw-data-center-in-olgod-denmark/"
+  ],
+  "notes": "atNorth operator page lists a 171-hectare Varde greenfield campus with 500 MW campus power capacity for colocation and build-to-suit; DCD earlier reported the Olgod/Varde project as a 250 MW plan expected by end-2026.",
+  "world_batch": true
+}

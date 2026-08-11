@@ -1,0 +1,21 @@
+{
+  "slug": "gm-qgroup-house-data-centre",
+  "canonical_project": "QGroup House Data Centre",
+  "owner": "QCell / QGroup",
+  "location": {
+    "city": "",
+    "subnational": "Western",
+    "country": "Gambia",
+    "country_code": "GM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-05-05",
+  "evidence_grade": "A",
+  "sources": [
+    "https://op.gov.gm/statement-he-adama-barrow-president-republic-gambia-event-opening-q-group-house",
+    "https://www.datacenterdynamics.com/en/news/qgroup-launches-data-center-in-the-gambia-claims-it-is-the-countrys-first/"
+  ],
+  "notes": "State House presidential statement says QGroup House contains The Gambia's first Data Centre and launched QCell Fibre services; DCD reports the facility is on Kairaba Avenue and that capacity details were not disclosed. Classified to Western because Kanifing/Serekunda is not a separate batch division.",
+  "world_batch": true
+}

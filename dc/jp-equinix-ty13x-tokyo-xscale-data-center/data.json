@@ -1,0 +1,21 @@
+{
+  "slug": "jp-equinix-ty13x-tokyo-xscale-data-center",
+  "canonical_project": "Equinix TY13x Tokyo xScale data center",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Tokyo",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 36,
+  "status": "operational",
+  "evidence_date": "2023-07-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/japan-colocation/tokyo-data-centers",
+    "https://www.techerati.com/news-hub/equinix-gic-tokyo-japan-data-centre-ty13x/"
+  ],
+  "notes": "Equinix official Tokyo listing includes TY13x for hyperscalers. Techerati reported TY13x opened in Tokyo in July 2023 with support for up to 36MW.",
+  "world_batch": true
+}

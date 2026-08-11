@@ -1,0 +1,22 @@
+{
+  "slug": "au-bendigo-telco-data-centre",
+  "canonical_project": "Bendigo Telco Data Centre",
+  "owner": "Bendigo Telco",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Greater Bendigo",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/australia/bendigo/bendigo-telco-data-centre/",
+    "https://bendigotelco.com.au/",
+    "https://bendigotelco.com.au/bendigo-iaas"
+  ],
+  "notes": "DatacenterMap lists Bendigo Telco Data Centre at 5 Innovation Ct, Kennington, with public cloud services; Bendigo Telco's own site advertises cloud and infrastructure services. Capacity not disclosed.",
+  "world_batch": true
+}

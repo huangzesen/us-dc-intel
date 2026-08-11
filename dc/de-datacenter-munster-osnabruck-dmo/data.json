@@ -1,0 +1,22 @@
+{
+  "slug": "de-datacenter-munster-osnabruck-dmo",
+  "canonical_project": "Datacenter Münster Osnabrück (DMO)",
+  "owner": "DMO GmbH / TKRZ Stadtwerke GmbH / items GmbH & Co. KG",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Steinfurt",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-04-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.dmo.de/news/datacenter-muenster-osnabrueck-feiert-eroeffnung-und-staerkt-digitale-souveraenitaet-der-region",
+    "https://www.datacenterdynamics.com/en/news/dmo-brings-data-center-online-outside-munster-germany/",
+    "https://www.datacentermap.com/germany/munster/datacenter-munster-osnabruck-dmo/"
+  ],
+  "notes": "Located at Münster/Osnabrück Airport in Greven, Kreis Steinfurt. First phase opened 15 Apr 2026 after about one year of construction with about 1 MW IT load, roughly 500 sqm and 140 racks; sources cite EN 50600 VK3 security and PV-backed energy concept.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "nc-dsp-dc2-gal",
+  "canonical_project": "DSP DC2-GAL",
+  "owner": "Data Services Pacific",
+  "location": {
+    "city": "",
+    "subnational": "New Caledonia",
+    "country": "New Caledonia",
+    "country_code": "NC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-03-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dsp.nc/",
+    "https://dsp.nc/wp-content/uploads/2021/03/Pre%CC%81sentation-DSP.pdf",
+    "https://www.datacentermap.com/new-caledonia/noumea/"
+  ],
+  "notes": "DSP's brochure identifies the second site as DC2-GAL for PRA/PCA disaster-recovery services; Data Center Map lists DSP DC2 at 34 rue du general Gallieni with 6 racks. No MW capacity disclosed.",
+  "world_batch": true
+}

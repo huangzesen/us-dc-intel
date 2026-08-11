@@ -1,0 +1,21 @@
+{
+  "slug": "hu-kelet-magyarorszagi-adatkozpont-kft-kmak-szolnok",
+  "canonical_project": "Kelet-Magyarorszagi Adatkozpont Kft. / KMAK Szolnok",
+  "owner": "Kelet-Magyarorszagi Adatkozpont Kft.",
+  "location": {
+    "city": "",
+    "subnational": "Jasz-Nagykun-Szolnok",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.kmak.hu/",
+    "https://www.datacenterjournal.com/kelet-magyarorszagi-adatkozpont-kft/"
+  ],
+  "notes": "KMAK's public site and directory listings identify Kelet-Magyarorszagi Adatkozpont Kft. in Szolnok with an explicit data-center/operator name. Public material is sparse, so this is recorded as a small/uncertain data-center operator with no disclosed capacity.",
+  "world_batch": true
+}

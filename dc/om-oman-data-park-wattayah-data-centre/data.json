@@ -1,0 +1,22 @@
+{
+  "slug": "om-oman-data-park-wattayah-data-centre",
+  "canonical_project": "Oman Data Park Wattayah data centre",
+  "owner": "Oman Data Park / Otech",
+  "location": {
+    "city": "",
+    "subnational": "Muscat",
+    "country": "Oman",
+    "country_code": "OM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://product.omandatapark.com/p/data-storage/",
+    "https://www.datacenterdynamics.com/en/news/oman-data-park-to-launch-duqm-data-center-in-december/",
+    "https://www.datacentermap.com/oman/muscat/"
+  ],
+  "notes": "Oman Data Park's service page says data is stored in three Level 3 data centres: Al Wattayah, Rusayl and Duqm. DCD's Duqm article describes Wattayah as one of ODP's earlier 12,000 sq ft facilities west of Muscat. MW capacity not disclosed.",
+  "world_batch": true
+}

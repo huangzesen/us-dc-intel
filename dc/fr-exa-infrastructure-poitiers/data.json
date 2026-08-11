@@ -1,0 +1,20 @@
+{
+  "slug": "fr-exa-infrastructure-poitiers",
+  "canonical_project": "EXA Infrastructure Poitiers",
+  "owner": "EXA Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Vienne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/dcfe0df1-6c12-4d0a-bed7-0742a83c1985/exa-infrastructure/datacenter/exa-poitiers"
+  ],
+  "notes": "Inflect lists EXA Infrastructure Poitiers as a data center at Zone d'Amenagement Concerte de Saint-Eloi, Poitiers, offering colocation and connectivity.",
+  "world_batch": true
+}

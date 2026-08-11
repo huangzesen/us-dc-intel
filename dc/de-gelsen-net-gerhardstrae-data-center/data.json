@@ -1,0 +1,21 @@
+{
+  "slug": "de-gelsen-net-gerhardstrae-data-center",
+  "canonical_project": "GELSEN-NET Gerhardstraße Data Center",
+  "owner": "GELSEN-NET Kommunikationsgesellschaft mbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Gelsenkirchen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/germany/gelsenkirchen/gelsen-net-data-center/",
+    "https://www.gelsen-net.de/geschaeftskunden/cyberrisikocheck.html"
+  ],
+  "notes": "DataCenterMap lists a GELSEN-NET data center in Gelsenkirchen; GELSEN-NET's own site says it operates its own data centers in the Ruhr area. No public IT load found.",
+  "world_batch": true
+}

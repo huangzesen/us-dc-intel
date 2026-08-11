@@ -1,0 +1,22 @@
+{
+  "slug": "sy-silklink-damascus-digital-infrastructure-data-center-node",
+  "canonical_project": "SilkLink Damascus digital infrastructure/data-center node",
+  "owner": "stc Group / Syrian Sovereign Fund",
+  "location": {
+    "city": "",
+    "subnational": "Damascus",
+    "country": "Syrian Arab Republic",
+    "country_code": "SY"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-02-07",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.spa.gov.sa/en/N2506926",
+    "https://www.datacenterdynamics.com/en/news/stc-group-wins-bid-to-run-syrias-silklink-telecoms-infrastructure/",
+    "https://www.submarinenetworks.com/en/systems/asia-europe-africa/silklink/stc-group-signs-agreement-to-implement-silklink-project-in-syria"
+  ],
+  "notes": "Official and trade sources describe the SAR 3 billion SilkLink program as a 4,500 km Syrian fiber network with data centers and international submarine cable stations; secondary route detail identifies Damascus as one of the major connected cities. Exact data-center siting is not public, so this is a provisional city-node record.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "gb-pulsant-reading-east-se-4",
+  "canonical_project": "Pulsant Reading East SE-4",
+  "owner": "Pulsant",
+  "location": {
+    "city": "",
+    "subnational": "England - Reading",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.pulsant.com/colocation-reading-east-datacentre",
+    "https://www.colo-x.com/data-centre/pulsant-reading-berkshire/"
+  ],
+  "notes": "Operational Reading East colocation facility at Suttons Business Park; Colo-X reports just under 1MW IT load / about 1MW customer power.",
+  "world_batch": true
+}

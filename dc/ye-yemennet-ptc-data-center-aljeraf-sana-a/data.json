@@ -1,0 +1,22 @@
+{
+  "slug": "ye-yemennet-ptc-data-center-aljeraf-sana-a",
+  "canonical_project": "YemenNet-PTC data center (Aljeraf, Sana'a)",
+  "owner": "Public Telecommunication Corporation (Yemen Telecom / YemenNet)",
+  "location": {
+    "city": "",
+    "subnational": "Sanaa City",
+    "country": "Yemen",
+    "country_code": "YE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/yemen-telecom/yemennet-ptc/",
+    "https://yemen.net.ye/",
+    "https://botcrawl.com/data-centers/365-data-centers-smyrna-ga2/"
+  ],
+  "notes": "Directory listing (Data Center Platform) places the YemenNet-PTC facility of state-owned Yemen Telecom (operator of the YemenNet ISP) at Aljeraf Street, Sana'a; a PeeringDB-derived listing also shows it as an operational interconnection facility in Sana'a. It is Yemen's main national ISP/telco data center; no public MW capacity disclosed and no independent verification available given the conflict environment.",
+  "world_batch": true
+}

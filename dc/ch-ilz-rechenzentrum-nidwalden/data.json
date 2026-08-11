@@ -1,0 +1,21 @@
+{
+  "slug": "ch-ilz-rechenzentrum-nidwalden",
+  "canonical_project": "ILZ Rechenzentrum Nidwalden",
+  "owner": "InformatikLeistungsZentrum Obwalden und Nidwalden",
+  "location": {
+    "city": "",
+    "subnational": "Nidwalden",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2018-05-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ilz.info/",
+    "https://www.ow.ch/_doc/173483"
+  ],
+  "notes": "ILZ officially operates IT for the Obwalden and Nidwalden cantonal administrations and municipalities; a public annual report notes a NAS commissioned in the Nidwalden data center.",
+  "world_batch": true
+}

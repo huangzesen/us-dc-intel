@@ -1,0 +1,22 @@
+{
+  "slug": "ao-data-center-e-cloud-do-governo-de-angola",
+  "canonical_project": "Data Center e Cloud do Governo de Angola",
+  "owner": "Government of Angola / INFOSI; Huawei FusionDC supplier",
+  "location": {
+    "city": "",
+    "subnational": "Luanda",
+    "country": "Angola",
+    "country_code": "AO"
+  },
+  "capacity_mw": 1.04,
+  "status": "operational",
+  "evidence_date": "2026-04-29",
+  "evidence_grade": "B",
+  "sources": [
+    "https://reinounido.mirex.gov.ao/web/noticias/presidente-joao-lourenco-inaugura-data-center-e-cloud-do-governo-de-angola",
+    "https://techafricanews.com/2026/04/29/angola-launches-government-data-center-and-cloud-to-boost-digital-economy/",
+    "https://www.linkedin.com/posts/huawei-digitalpower_huawei-fusiondc-datacenter-activity-7480865834903547905-AwRn"
+  ],
+  "notes": "Government source says the President inaugurated the Government Data Center and Cloud in Camama, Luanda; press and vendor materials describe 208 racks and 1,040 kW IT load. Capacity is from vendor/social evidence, so grade is kept below A.",
+  "world_batch": true
+}

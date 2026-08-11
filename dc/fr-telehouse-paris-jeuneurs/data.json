@@ -1,0 +1,21 @@
+{
+  "slug": "fr-telehouse-paris-jeuneurs",
+  "canonical_project": "Telehouse Paris Jeûneurs",
+  "owner": "Telehouse",
+  "location": {
+    "city": "",
+    "subnational": "Paris",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telehouse.net/data-centre-services/france/paris/",
+    "https://www.telehouse.net/wp-content/uploads/2022/10/ISO-27001612061.pdf"
+  ],
+  "notes": "Telehouse says Paris Jeûneurs opened in 1996; ISO certificate lists the site at 38 Rue des Jeuneurs, Paris 75002 for co-location facilities.",
+  "world_batch": true
+}

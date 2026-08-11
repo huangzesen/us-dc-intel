@@ -1,0 +1,21 @@
+{
+  "slug": "de-stackit-neckarsulm-dc01",
+  "canonical_project": "STACKIT Neckarsulm DC01",
+  "owner": "STACKIT / Schwarz Digits",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Heilbronn (Rural)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 4.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://stackit.com/en/solutions/colocation",
+    "https://inflect.com/building/1-stiftsbergstrasse-neckarsulm-bw-germany/stackit/datacenter/stackit-neckarsulm-dc01"
+  ],
+  "notes": "STACKIT identifies Neckarsulm DC01 at the Schwarz Group headquarters as one of its colocation data centers. Inflect lists the Neckarsulm facility as operated by STACKIT with 4.5 MW power capacity.",
+  "world_batch": true
+}

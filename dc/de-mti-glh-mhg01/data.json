@@ -1,0 +1,21 @@
+{
+  "slug": "de-mti-glh-mhg01",
+  "canonical_project": "MTI/GLH MHG01",
+  "owner": "MTI / GLH",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Mannheim",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/15-hans-thoma-strasse-mannheim/mti-glh/datacenter/mhg01",
+    "https://datacenterplatform.com/data-centers/mti-technology-limited/mti-germany/mti-glh-mhg01/"
+  ],
+  "notes": "Inflect lists MHG01 as a colocation data center at 15 Hans-Thoma-Strasse, Mannheim, with 1.0 MW total power capacity and N+1 redundancy; DataCenterPlatform also lists the MTI/GLH Mannheim facility.",
+  "world_batch": true
+}

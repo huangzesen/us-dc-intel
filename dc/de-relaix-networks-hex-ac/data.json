@@ -1,0 +1,22 @@
+{
+  "slug": "de-relaix-networks-hex-ac",
+  "canonical_project": "RelAix Networks hex/AC",
+  "owner": "RelAix Networks GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Aachen (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.relaix.net/leistungen/datacenter",
+    "https://www.relaix.net/news/hex-ac-das-neue-regionale-rechenzentrum-von-relaix",
+    "https://www.relaix.net/news"
+  ],
+  "notes": "RelAix lists server housing at Data Center hex/AC and gives the Aachen operator address Auf der Huels 172; company news says hex/AC is TÜV-certified.",
+  "world_batch": true
+}

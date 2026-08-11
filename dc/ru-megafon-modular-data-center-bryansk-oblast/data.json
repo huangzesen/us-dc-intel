@@ -1,0 +1,21 @@
+{
+  "slug": "ru-megafon-modular-data-center-bryansk-oblast",
+  "canonical_project": "MegaFon modular data center, Bryansk Oblast",
+  "owner": "MegaFon",
+  "location": {
+    "city": "",
+    "subnational": "Bryansk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 0.4,
+  "status": "operational",
+  "evidence_date": "2021-03-04",
+  "evidence_grade": "B",
+  "sources": [
+    "https://riavrn.ru/news/megafon-postroil-pervyj-v-centralnom-regione-modulnyj-data-centr/",
+    "https://chr.plus.rbc.ru/pressrelease/603f42317a8aa9e83baf3697"
+  ],
+  "notes": "MegaFon built the first scalable modular data center in Bryansk Oblast: over 400 sq m, more than 400 kW total power, about 60 ICT racks, up to 750 Gbit/s throughput, Tier III requirements; used for MegaFon telecom/server equipment and possible partner pilots.",
+  "world_batch": true
+}

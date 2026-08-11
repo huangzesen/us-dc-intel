@@ -1,0 +1,21 @@
+{
+  "slug": "iq-kurdistan-regional-government-tier-iii-data-center",
+  "canonical_project": "Kurdistan Regional Government Tier III data center",
+  "owner": "Kurdistan Regional Government Department of Information Technology",
+  "location": {
+    "city": "",
+    "subnational": "Kurdistan",
+    "country": "Iraq",
+    "country_code": "IQ"
+  },
+  "capacity_mw": 0.32,
+  "status": "operational",
+  "evidence_date": "2022-09-06",
+  "evidence_grade": "A",
+  "sources": [
+    "https://gov.krd/english/hot-topics/achievements/kurdistan-region-s-first-advanced-data-center-to-lead-krg-s-2025-digitalization-vision-into-a-paperless-future/",
+    "https://www.datacenterdynamics.com/en/news/kurdistan-opens-data-center-for-government-services/"
+  ],
+  "notes": "KRG opened a Tier III-based government data center in early September 2022; KRG states capacity is around 320 kW and intended to host/digitalize over 300 government services.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "sg-bdx-sin1-oneten-paya-lebar",
+  "canonical_project": "BDx SIN1 / OneTen Paya Lebar",
+  "owner": "BDx Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Central Singapore",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 9.6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bdxworld.com/locations/sin1-singapore/",
+    "https://www.datacenterdynamics.com/en/news/bdx-acquires-data-center-freehold-in-singapore-report/"
+  ],
+  "notes": "BDx official location page lists SIN1 with 4,181 sqm gross white space and 9.6MW at/near Paya Lebar; DCD corroborates OneTen Paya Lebar acquisition and capacity.",
+  "world_batch": true
+}

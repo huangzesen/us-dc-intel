@@ -1,0 +1,21 @@
+{
+  "slug": "au-interactive-melbourne-data-centre",
+  "canonical_project": "Interactive Melbourne Data Centre",
+  "owner": "Interactive Pty Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Port Phillip",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/australia/melbourne/interactive-melbourne/",
+    "https://www.intergrid.au/dark-fibre/"
+  ],
+  "notes": "DataCenterMap and network-provider facility lists identify Interactive at 437 Williamstown Road, Port Melbourne; DataCenterMap lists operation since 2008. MW not disclosed.",
+  "world_batch": true
+}

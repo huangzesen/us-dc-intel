@@ -1,0 +1,22 @@
+{
+  "slug": "th-amazon-web-services-thailand-region-data-centers-x2",
+  "canonical_project": "Amazon Web Services Thailand Region data centers (x2)",
+  "owner": "Amazon Web Services (AWS)",
+  "location": {
+    "city": "",
+    "subnational": "Rayong",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-03-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://news.mongabay.com/2026/03/thai-data-center-boom-sparks-fears-of-water-shortage-air-pollution/",
+    "https://www.datacentermap.com/thailand/pattaya/amazon-aws-bkk-ta-sit/",
+    "https://www.datacentermap.com/thailand/pattaya/amazon-aws-bkk-maenam-khu-mai/"
+  ],
+  "notes": "Mongabay (Mar 2026) reports Rayong already home to at least three data centers, including two run by Amazon (AWS Thailand Region ap-southeast-7 launched Jan 2025). Data Center Map lists the facilities (BKK-TA-SIT and BKK-MAENAM-KHU-MAI) under the Pattaya/Chonburi area; province attribution ambiguous between Chon Buri and Rayong - recorded here per Mongabay. No public MW per facility.",
+  "world_batch": true
+}

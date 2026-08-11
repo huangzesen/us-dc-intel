@@ -1,0 +1,22 @@
+{
+  "slug": "au-geraldton-data-centre",
+  "canonical_project": "Geraldton Data Centre",
+  "owner": "Geraldton Data Centre / Market Creations",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Greater Geraldton",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.geraldtondatacentre.com.au/",
+    "https://www.geraldtondatacentre.com.au/about/about-us.aspx",
+    "https://www.datacentermap.com/australia/geraldton/geraldton-data-centre/"
+  ],
+  "notes": "Operator site describes Geraldton Data Centre as the first commercial data centre in regional Western Australia and says it provides ICT/cloud/hosting services. The about page says it is wholly owned by Market Creations; Data Center Map places it at 7 Chapman Road, Geraldton.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "mz-teledata-mozambique-data-center",
+  "canonical_project": "Teledata Mozambique Data Center",
+  "owner": "Teledata Mozambique",
+  "location": {
+    "city": "",
+    "subnational": "Maputo",
+    "country": "Mozambique",
+    "country_code": "MZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/mozambique/maputo/teledata-data-center/",
+    "https://inflect.com/building/avenida-24-de-julho-maputo/teledata-mozambique/datacenter/mozambique",
+    "https://www.datacenters.com/teledata-mozambique-mozambique"
+  ],
+  "notes": "Aggregator listings place Teledata's colocation data center at Avenida 24 de Julho, Maputo. Capacity not publicly identified in located sources.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "jp-highreso-shika-machi-second-data-center-expansion",
+  "canonical_project": "HIGHRESO Shika-machi second data center expansion",
+  "owner": "HIGHRESO Co., Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Ishikawa",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/japan/kanazawa/hi-res-shikamachi-data-center/",
+    "https://www.datacentermap.com/japan/kanazawa/"
+  ],
+  "notes": "Aggregator listings report HIGHRESO's Shika-machi, Ishikawa data center was expanded in August 2022 with a second facility, one of Japan's largest GPU-dedicated data centers; retained as lower-grade evidence because no primary page with the expansion details was found.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "se-bahnhof-sparven-tranquility-base-malmo",
+  "canonical_project": "Bahnhof Sparven / Tranquility Base Malmo",
+  "owner": "Bahnhof",
+  "location": {
+    "city": "",
+    "subnational": "Scania",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bahnhof.se/foretag/colocation/datacenter/sparven/",
+    "https://bahnhof.se/2019/02/07/bahnhof-har-oppnat-ytterligare-en-serverhall-i-sparven-mitt-i-malmo-city/"
+  ],
+  "notes": "Bahnhof lists Sparven at Storgatan 15B, Malmo, as its southernmost data center; 2019 announcement describes an additional server hall at the site.",
+  "world_batch": true
+}

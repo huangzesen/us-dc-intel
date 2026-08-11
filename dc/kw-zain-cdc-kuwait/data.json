@@ -1,0 +1,21 @@
+{
+  "slug": "kw-zain-cdc-kuwait",
+  "canonical_project": "Zain CDC Kuwait",
+  "owner": "Zain Kuwait / Mobile Telecommunications Company K.S.C.P.",
+  "location": {
+    "city": "",
+    "subnational": "Ahmadi",
+    "country": "Kuwait",
+    "country_code": "KW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/kuwait/zain-cdc-kuwait",
+    "https://www.datacentermap.com/kuwait/kuwait-city/zain-cdc-kuwait/"
+  ],
+  "notes": "Colocation data center listed at Ghazali Rd 60000 Al Ahmadi; sources describe purpose-built multi-tenant CDC with full cabinet rentals, remote hands, high-capacity internet/data services, dark fiber and physical security. Operational status inferred from service listings.",
+  "world_batch": true
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "ch-flexbase-technology-center-laufenburg-ai-data-center",
+  "canonical_project": "FlexBase Technology Center Laufenburg AI Data Center",
+  "owner": "FlexBase Group / ERNE Gruppe",
+  "location": {
+    "city": "",
+    "subnational": "Aargau",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://flexbase.ch/en",
+    "https://flexbase.ch/en/project-overview",
+    "https://flexbase.ch/en/newsroom/media-releases/baufreigabe-fuer-das-flexbase-technologiezentrum-laufenburg-tzl",
+    "https://www.erne-gruppe.ch/en/projects/new-flexbase-technology-center-laufenburg/",
+    "https://www.datacenterdynamics.com/en/news/ai-data-center-500mw-battery-storage-project-planned-in-switzerland/"
+  ],
+  "notes": "FlexBase says construction of the Technology Center Laufenburg, including an AI data center and battery storage facility, began in spring 2025. The project overview describes a 40,000 m2 campus combining battery storage, an AI data center, offices and laboratories; ERNE describes a new technology-center building in Laufenburg with a data center for AI and a >500 MW battery-storage facility. Public sources did not consistently disclose IT MW, so capacity_mw is null.",
+  "world_batch": true
+}

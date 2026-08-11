@@ -1,0 +1,22 @@
+{
+  "slug": "ph-vitro-clark-data-center",
+  "canonical_project": "VITRO Clark Data Center",
+  "owner": "VITRO / ePLDT / PLDT Group",
+  "location": {
+    "city": "",
+    "subnational": "Central Luzon",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 8,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://vitrodc.com/data-centers/data-center-sites/",
+    "https://www.datacentermap.com/philippines/clark/epldt-vitro-clark/",
+    "https://tiaonline.org/942-datacenter/epldt-inc-vitro-clark-data-center-vitro-clark-lot-3-ninoy-aquino-avenue-clark-freeport-zone/"
+  ],
+  "notes": "Clark Freeport Zone facility serving Northern Luzon colocation and Metro Manila disaster-recovery demand; directories list 8 MW and TIA registry confirms the facility identity.",
+  "world_batch": true
+}

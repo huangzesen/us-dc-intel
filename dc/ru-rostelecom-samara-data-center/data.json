@@ -1,0 +1,21 @@
+{
+  "slug": "ru-rostelecom-samara-data-center",
+  "canonical_project": "Rostelecom Samara data center",
+  "owner": "Rostelecom",
+  "location": {
+    "city": "",
+    "subnational": "Samara",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/russia/samara/rostelecom-samara/",
+    "https://colomap.com/facilities/rostelecom-samara/"
+  ],
+  "notes": "Commercial data center directories list a Rostelecom Samara colocation site at Ulitsa Sadovaya 292. Capacity and commissioning date were not confirmed by primary sources in this pass.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "sg-microsoft-singapore-woodlands-2-sg2",
+  "canonical_project": "Microsoft Singapore Woodlands 2 (SG2)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "North West",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/singapore/singapore/microsoft-singapore-woodlands-2-sg2/",
+    "https://local.microsoft.com/wp-content/uploads/2025/10/Microsoft-datacentres-in-Singapore.pdf"
+  ],
+  "notes": "DataCenterMap identifies a second Microsoft Woodlands site at 8-9 Woodlands Industrial Park E9; Microsoft public PDF confirms three Singapore datacentres but omits per-site capacity.",
+  "world_batch": true
+}

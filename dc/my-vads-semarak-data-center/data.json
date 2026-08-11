@@ -1,0 +1,22 @@
+{
+  "slug": "my-vads-semarak-data-center",
+  "canonical_project": "VADS Semarak Data Center",
+  "owner": "VADS Berhad / Telekom Malaysia",
+  "location": {
+    "city": "",
+    "subnational": "Wilayah Persekutuan Kuala Lumpur",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/c/vads-berhad/",
+    "https://www.tmone.com.my/data-centre-services/",
+    "https://tmglobal.com.my/products-and-solutions/data-centre-solutions/data-centre"
+  ],
+  "notes": "Data Center Map lists VADS Semarak at Level 19, Menara Celcom, Jalan Semarak, Kuala Lumpur. VADS is part of Telekom Malaysia/TM ONE, whose official pages describe active data centre services. No public MW capacity found.",
+  "world_batch": true
+}

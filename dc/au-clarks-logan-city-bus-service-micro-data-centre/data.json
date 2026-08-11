@@ -1,0 +1,20 @@
+{
+  "slug": "au-clarks-logan-city-bus-service-micro-data-centre",
+  "canonical_project": "Clarks Logan City Bus Service micro data centre",
+  "owner": "Clarks Logan City Bus Service / BES Information Technology Systems / Eaton",
+  "location": {
+    "city": "",
+    "subnational": "Queensland - Logan",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-02-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.eaton.com/au/en-gb/company/news-insights/news-release-2018-2020/logan-city-bus-operator-future-proofs-business-with-integrated-p.html"
+  ],
+  "notes": "Eaton case study says Clarks Logan City Buses deployed an Eaton Micro Data Centre to consolidate servers, switching, backup and core operational systems at its Logan bus depot. This is enterprise micro-infrastructure, not a commercial colocation site.",
+  "world_batch": true
+}

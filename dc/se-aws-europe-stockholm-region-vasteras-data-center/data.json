@@ -1,0 +1,21 @@
+{
+  "slug": "se-aws-europe-stockholm-region-vasteras-data-center",
+  "canonical_project": "AWS Europe (Stockholm) Region - Vasteras data center",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Vastmanland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2018-12-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/blogs/aws/now-open-aws-europe-stockholm-region/",
+    "https://www.business-sweden.com/insights/client-cases/amazon-web-services/"
+  ],
+  "notes": "AWS launched the Europe (Stockholm) Region in 2018; Business Sweden says the three Swedish data centers opened in Eskilstuna, Vasteras, and Katrineholm.",
+  "world_batch": true
+}

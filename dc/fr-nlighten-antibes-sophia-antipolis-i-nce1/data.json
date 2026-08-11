@@ -1,0 +1,22 @@
+{
+  "slug": "fr-nlighten-antibes-sophia-antipolis-i-nce1",
+  "canonical_project": "nLighten Antibes / Sophia Antipolis I NCE1",
+  "owner": "nLighten",
+  "location": {
+    "city": "",
+    "subnational": "Alpes-Maritimes",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 6.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nlighten.com/en/edge-location/antibes/",
+    "https://www.nlighten.com/wp-content/uploads/2025/12/nLighten_Datasheet_FR_Sophia-Antipolis1_NCE1_EN.pdf",
+    "https://carte.dcmag.fr/france-provence-alpes-cote-dazur/"
+  ],
+  "notes": "nLighten's Antibes edge data center page states 1,500 m2 dedicated colocation space and 6,000 kW of power in northern Antibes near Nice airport.",
+  "world_batch": true
+}

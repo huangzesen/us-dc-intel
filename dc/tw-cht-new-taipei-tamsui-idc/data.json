@@ -1,0 +1,21 @@
+{
+  "slug": "tw-cht-new-taipei-tamsui-idc",
+  "canonical_project": "CHT New Taipei Tamsui IDC",
+  "owner": "Chunghwa Telecom",
+  "location": {
+    "city": "",
+    "subnational": "New Taipei",
+    "country": "Taiwan, Province of China",
+    "country_code": "TW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location_New_Taipei_Tamsui.html",
+    "https://www.idc.hinet.net/chtidc_eng/Environment_Location.html"
+  ],
+  "notes": "Chunghwa Telecom's official IDC location page lists the New Taipei Tamsui IDC among its rated-3-class and professional-class IDC facilities in the Greater Taipei area. No published capacity figure found.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "ch-exigo-redundant-data-centers-in-chur-and-malans",
+  "canonical_project": "exigo redundant data centers in Chur and Malans",
+  "owner": "exigo ag",
+  "location": {
+    "city": "",
+    "subnational": "Graubunden",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.exigo.ch/unsere-rechenzentren"
+  ],
+  "notes": "exigo's official page states it operates two data centers in Graubunden: one in the exigo business building in Chur and a second in Malans. The page presents the paired sites as redundant server rooms/data centers for regional cloud and IT services; no public MW capacity found.",
+  "world_batch": true
+}

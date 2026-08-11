@@ -1,0 +1,22 @@
+{
+  "slug": "am-ovio-data-processing-center",
+  "canonical_project": "OVIO Data Processing Center",
+  "owner": "OVIO / GNC Alfa",
+  "location": {
+    "city": "",
+    "subnational": "Kotayk",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2025-06-02",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ovio.am/en/data-center",
+    "https://arkatelecom.am/en/news/telecom/a_data_center_worth_about_amd_11_billion_will_be_built_in_armenia/",
+    "https://arkatelecom.am/en/news/telecom/thanks-to-ovio-s-data-center-armenia-is-on-the-prestigious-tier-iii-global-map/"
+  ],
+  "notes": "OVIO's official page identifies a Tier III data center with 2MW and 216 racks; ARKA reported the government-approved Abovyan/Kotayk project by GNC Alfa and later described OVIO's operational Abovyan facility.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "ru-rostelecom-tula-data-center-services-office-legacy-listing",
+  "canonical_project": "Rostelecom Tula data-center services office / legacy listing",
+  "owner": "Rostelecom / RTK-DC",
+  "location": {
+    "city": "",
+    "subnational": "Tula",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://tula.rt.ru/b2o/rostelecom-infrastructure/data-center",
+    "https://yandex.ru/maps/org/rostelekom_tsentry_obrabotki_dannykh/232441702324/"
+  ],
+  "notes": "Rostelecom markets data-center services to Tula customers. A Yandex Maps listing identifies 'Rostelecom, data processing centers' at Sovetskaya Street 67, office 402, but marks it shut down; this may be an office or legacy service point rather than a physical data hall. No MW capacity verified.",
+  "world_batch": true
+}

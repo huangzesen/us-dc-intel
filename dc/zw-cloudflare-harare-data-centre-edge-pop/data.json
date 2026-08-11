@@ -1,0 +1,21 @@
+{
+  "slug": "zw-cloudflare-harare-data-centre-edge-pop",
+  "canonical_project": "Cloudflare Harare data centre (edge PoP)",
+  "owner": "Cloudflare",
+  "location": {
+    "city": "",
+    "subnational": "Harare",
+    "country": "Zimbabwe",
+    "country_code": "ZW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://zimpricecheck.com/market-intelligence/zimbabwes-internet-is-now-slightly-faster-thanks-to-cloudflares-zimbabwean-new-data-centre/",
+    "https://www.cloudflare.com/network/"
+  ],
+  "notes": "Cloudflare welcomed Harare, Zimbabwe to its global network in mid-2022 (announced with 18 new cities across 10 countries), deploying an edge data centre/point of presence hosted with an unnamed local partner (believed Liquid Intelligent Technologies); Zimpricecheck reported local caching benefits in August 2022. This is edge PoP infrastructure rather than a wholesale colocation campus.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "cn-china-mobile-yangtze-river-delta-nanjing-data-center",
+  "canonical_project": "China Mobile Yangtze River Delta (Nanjing) Data Center",
+  "owner": "China Mobile Jiangsu",
+  "location": {
+    "city": "",
+    "subnational": "Jiangsu - Nanjing Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-05-17",
+  "evidence_grade": "B",
+  "sources": [
+    "https://jsnews.jschina.com.cn/hxms/202105/t20210517_2782319.shtml",
+    "https://zj32.cscec.com/xwzx/gsdt/202104/3316919.html"
+  ],
+  "notes": "Located in Nanjing Jiangbei New Area; public reports describe four data-center buildings and five support buildings, 18,000 to 19,000 cabinets, 300,000 servers, and long-term export bandwidth over 10T.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "au-vmguest-ipxidc-box-hill-data-center",
+  "canonical_project": "VMGuest / IPXIDC Box Hill data center",
+  "owner": "VMGuest / IPXIDC",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Whitehorse",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/australia/melbourne/ipxidc/"
+  ],
+  "notes": "DataCenterMap records a VMGuest/IPXIDC facility at 52-54 Rutland Road, Box Hill VIC 3128, but related listing text indicates the listing may no longer be active; status left unknown. Box Hill is in the City of Whitehorse.",
+  "world_batch": true
+}

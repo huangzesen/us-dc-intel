@@ -1,0 +1,22 @@
+{
+  "slug": "au-hostaway-malaga-data-centre",
+  "canonical_project": "HostAway Malaga data centre",
+  "owner": "HostAway",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Swan",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.hostaway.net.au/data-centre/",
+    "https://www.datacentermap.com/australia/perth/hostaway/",
+    "https://www.peeringdb.com/fac/1770"
+  ],
+  "notes": "HostAway says it operates Perth data centre services from its Malaga facility; facility directories and PeeringDB identify the data centre at 8 Midas Road, Malaga, within City of Swan.",
+  "world_batch": true
+}

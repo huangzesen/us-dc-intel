@@ -1,0 +1,1784 @@
+---
+import data from "../data/datacenters.json";
+
+const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
+---
+
+<html lang="en" data-lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="GRIDWATCH Americas data center buildout intelligence dashboard." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="/favicon.ico" />
+    <title>GRIDWATCH — Americas Data Center Buildout Intelligence</title>
+    <style>
+      :root {
+        --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+        --sans: system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      }
+
+      :root[data-theme="dark"] {
+        color-scheme: dark;
+        --bg: #0a0d12;
+        --sf: #11161f;
+        --sf2: #151c28;
+        --ln: #1e2734;
+        --ln2: #2a3547;
+        --ink: #e8edf6;
+        --ink2: #a7b2c5;
+        --mut: #66748c;
+        --acc: #f5a83c;
+        --acc-ink: #f5a83c;
+        --acc-dim: rgba(245, 168, 60, 0.14);
+        --gridline: rgba(140, 170, 220, 0.045);
+        --st-ann: #9085e9;
+        --st-pla: #d55181;
+        --st-app: #3987e5;
+        --st-con: #d95926;
+        --st-op: #199e70;
+        --st-rej: #e66767;
+        --st-unk: #898781;
+        --b0: #0d366b;
+        --b1: #184f95;
+        --b2: #2a78d6;
+        --b3: #5598e7;
+        --b4: #86b6ef;
+        --b0i: #e8edf6;
+        --b1i: #e8edf6;
+        --b2i: #ffffff;
+        --b3i: #0b1b33;
+        --b4i: #0b1b33;
+        --ev0: #3987e5;
+        --ev1: #6da7ec;
+        --ev2: #9ec5f4;
+        --ev3: #898781;
+        --glow: radial-gradient(ellipse 60% 45% at 50% 0%, rgba(58, 110, 190, 0.16), transparent 70%);
+      }
+
+      :root[data-theme="light"] {
+        color-scheme: light;
+        --bg: #f5f5f1;
+        --sf: #fcfcfa;
+        --sf2: #f2f2ed;
+        --ln: #e3e2da;
+        --ln2: #d2d1c7;
+        --ink: #14181f;
+        --ink2: #4c5566;
+        --mut: #7c8698;
+        --acc: #e09a2d;
+        --acc-ink: #8a5a00;
+        --acc-dim: rgba(224, 154, 45, 0.16);
+        --gridline: rgba(60, 80, 120, 0.055);
+        --st-ann: #4a3aa7;
+        --st-pla: #e87ba4;
+        --st-app: #2a78d6;
+        --st-con: #eb6834;
+        --st-op: #1baf7a;
+        --st-rej: #e34948;
+        --st-unk: #898781;
+        --b0: #cde2fb;
+        --b1: #9ec5f4;
+        --b2: #5598e7;
+        --b3: #256abf;
+        --b4: #0d366b;
+        --b0i: #14304f;
+        --b1i: #14304f;
+        --b2i: #ffffff;
+        --b3i: #ffffff;
+        --b4i: #ffffff;
+        --ev0: #2a78d6;
+        --ev1: #5598e7;
+        --ev2: #9ec5f4;
+        --ev3: #898781;
+        --glow: radial-gradient(ellipse 60% 45% at 50% 0%, rgba(42, 120, 214, 0.1), transparent 70%);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font: 15px/1.6 var(--sans);
+        -webkit-font-smoothing: antialiased;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        z-index: 0;
+        pointer-events: none;
+        background-image:
+          repeating-linear-gradient(0deg, var(--gridline) 0 1px, transparent 1px 44px),
+          repeating-linear-gradient(90deg, var(--gridline) 0 1px, transparent 1px 44px);
+      }
+
+      [data-lang="en"] .zh {
+        display: none !important;
+      }
+
+      [data-lang="zh"] .en {
+        display: none !important;
+      }
+
+      .wrap {
+        position: relative;
+        z-index: 1;
+        max-width: 1240px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: color-mix(in srgb, var(--bg) 82%, transparent);
+        border-bottom: 1px solid var(--ln);
+        backdrop-filter: blur(10px);
+      }
+
+      .topbar .wrap {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        min-height: 58px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: var(--mono);
+        min-width: 0;
+      }
+
+      .brand .blk {
+        width: 14px;
+        height: 14px;
+        border-radius: 3px;
+        flex: none;
+        background: var(--acc);
+        box-shadow: 0 0 12px var(--acc-dim);
+      }
+
+      .brand b {
+        font-size: 15px;
+        letter-spacing: 0.14em;
+      }
+
+      .brand span:not(.blk) {
+        color: var(--mut);
+        font-size: 11px;
+        letter-spacing: 0.14em;
+        white-space: nowrap;
+      }
+
+      .tgl {
+        display: flex;
+        border: 1px solid var(--ln2);
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .tgl:first-of-type {
+        margin-left: auto;
+      }
+
+      .tgl button,
+      .tabs button,
+      .iconbtn {
+        appearance: none;
+        cursor: pointer;
+        border: 0;
+        color: var(--ink2);
+        background: transparent;
+        font: 12px var(--mono);
+        letter-spacing: 0.06em;
+      }
+
+      .tgl button {
+        min-height: 34px;
+        padding: 7px 13px;
+      }
+
+      .tgl button.on,
+      .tabs button.on {
+        background: var(--acc-dim);
+        color: var(--acc-ink);
+      }
+
+      .countrybar {
+        display: flex;
+        gap: 8px;
+        max-width: 100%;
+        margin: 22px 0 4px;
+        padding-bottom: 4px;
+        overflow-x: auto;
+      }
+
+      .countrybar button {
+        appearance: none;
+        flex: none;
+        min-height: 34px;
+        padding: 7px 13px;
+        border: 1px solid var(--ln2);
+        border-radius: 8px;
+        color: var(--ink2);
+        background: transparent;
+        cursor: pointer;
+        font: 12px var(--mono);
+        letter-spacing: 0.06em;
+      }
+
+      .countrybar button.on {
+        border-color: var(--acc);
+        color: var(--acc-ink);
+        background: var(--acc-dim);
+      }
+
+      .hero {
+        position: relative;
+        overflow: hidden;
+        padding: 76px 0 44px;
+        background: var(--glow);
+      }
+
+      .hero .sweep {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background: linear-gradient(90deg, transparent 0%, var(--acc-dim) 50%, transparent 100%);
+        background-repeat: no-repeat;
+        background-size: 40% 100%;
+        opacity: 0;
+        animation: sweep 2.2s cubic-bezier(0.4, 0, 0.2, 1) 0.3s 1;
+      }
+
+      @keyframes sweep {
+        0% {
+          opacity: 0.9;
+          background-position: -60% 0;
+        }
+        100% {
+          opacity: 0;
+          background-position: 170% 0;
+        }
+      }
+
+      .kick {
+        margin-bottom: 10px;
+        color: var(--mut);
+        font: 11px var(--mono);
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+      }
+
+      .kick .idx {
+        margin-right: 8px;
+        color: var(--acc-ink);
+      }
+
+      .live {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        margin-bottom: 22px;
+        padding: 4px 12px;
+        border: 1px solid var(--ln2);
+        border-radius: 99px;
+        color: var(--ink2);
+        font: 11px var(--mono);
+        letter-spacing: 0.14em;
+      }
+
+      .live .dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: var(--st-op);
+        animation: pulse 2.2s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          box-shadow: 0 0 0 0 rgba(25, 158, 112, 0.5);
+        }
+        50% {
+          box-shadow: 0 0 0 6px rgba(25, 158, 112, 0);
+        }
+      }
+
+      .big {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 14px;
+        font-family: var(--mono);
+        font-size: clamp(56px, 9vw, 104px);
+        font-weight: 700;
+        line-height: 1.02;
+        letter-spacing: 0;
+      }
+
+      .big .unit {
+        color: var(--ink2);
+        font-size: 0.34em;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+      }
+
+      .big-sub {
+        position: relative;
+        display: inline-block;
+        max-width: 660px;
+        margin-top: 14px;
+        padding-top: 14px;
+        color: var(--ink2);
+        font-size: 16px;
+      }
+
+      .big-sub::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 3px;
+        background: var(--acc);
+        animation: draw 1.4s cubic-bezier(0.3, 0.7, 0.2, 1) 0.9s forwards;
+      }
+
+      @keyframes draw {
+        to {
+          width: 120px;
+        }
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        margin-top: 40px;
+      }
+
+      .stat,
+      .card {
+        background: var(--sf);
+        border: 1px solid var(--ln);
+        border-radius: 14px;
+      }
+
+      .stat {
+        padding: 16px 18px;
+      }
+
+      .stat .v {
+        font: 700 26px var(--mono);
+        letter-spacing: 0;
+      }
+
+      .stat .l {
+        margin-top: 3px;
+        color: var(--mut);
+        font-size: 12px;
+      }
+
+      .stat .bar100 {
+        height: 4px;
+        margin-top: 10px;
+        overflow: hidden;
+        border-radius: 2px;
+        background: var(--sf2);
+      }
+
+      .stat .bar100 i {
+        display: block;
+        width: 0;
+        height: 100%;
+        background: var(--acc);
+        transition: width 1.4s cubic-bezier(0.3, 0.7, 0.2, 1) 0.8s;
+      }
+
+      .in .bar100 i {
+        width: 100%;
+      }
+
+      .sec {
+        padding: 34px 0 6px;
+      }
+
+      .sec-head {
+        display: flex;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 16px;
+        margin-bottom: 14px;
+      }
+
+      .sec-head h2 {
+        margin: 0;
+        font: 600 20px var(--sans);
+      }
+
+      .sec-head .note {
+        color: var(--mut);
+        font-size: 13px;
+      }
+
+      .card {
+        padding: 22px;
+      }
+
+      .rv {
+        opacity: 0;
+        transform: translateY(16px);
+        transition: opacity 0.7s ease, transform 0.7s ease;
+      }
+
+      .rv.in {
+        opacity: 1;
+        transform: none;
+      }
+
+      .maprow {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 250px;
+        gap: 26px;
+      }
+
+      .usmap {
+        display: grid;
+        grid-template-columns: repeat(11, minmax(0, 1fr));
+        gap: 6px;
+        align-self: start;
+      }
+
+      .countrygrid,
+      .subnatlist {
+        display: grid;
+        gap: 8px;
+        align-self: start;
+      }
+
+      .countrygrid {
+        grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
+      }
+
+      .geoitem {
+        appearance: none;
+        min-width: 0;
+        padding: 10px;
+        border: 1px solid var(--ln);
+        border-radius: 9px;
+        color: var(--ink);
+        background: var(--sf2);
+        cursor: pointer;
+        text-align: left;
+      }
+
+      .geoitem:hover,
+      .geoitem:focus-visible {
+        border-color: var(--acc);
+        outline: none;
+      }
+
+      .geoitem .gt {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+        font: 700 12px var(--mono);
+      }
+
+      .geoitem .gn {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .geoitem .gv {
+        color: var(--mut);
+        font: 11px var(--mono);
+      }
+
+      .geoitem .gbar {
+        display: block;
+        height: 4px;
+        margin-top: 8px;
+        overflow: hidden;
+        border-radius: 2px;
+        background: var(--ln);
+      }
+
+      .geoitem .gbar i {
+        display: block;
+        height: 100%;
+        border-radius: 2px;
+        background: var(--b2);
+      }
+
+      .tile {
+        aspect-ratio: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+        min-width: 0;
+        border: 1px solid transparent;
+        border-radius: 9px;
+        cursor: pointer;
+        user-select: none;
+        transition: transform 0.15s ease, filter 0.15s ease;
+      }
+
+      .tile:hover,
+      .tile:focus-visible {
+        transform: translateY(-2px);
+        filter: brightness(1.12);
+        outline: none;
+      }
+
+      .tile.sel {
+        outline: 2px solid var(--acc);
+        outline-offset: 1px;
+      }
+
+      .tile .ab {
+        font: 700 13px var(--mono);
+      }
+
+      .tile .tv {
+        font: 10px var(--mono);
+        opacity: 0.82;
+      }
+
+      .b0 {
+        background: var(--b0);
+        color: var(--b0i);
+      }
+      .b1 {
+        background: var(--b1);
+        color: var(--b1i);
+      }
+      .b2 {
+        background: var(--b2);
+        color: var(--b2i);
+      }
+      .b3 {
+        background: var(--b3);
+        color: var(--b3i);
+      }
+      .b4 {
+        background: var(--b4);
+        color: var(--b4i);
+      }
+
+      .mapside .side-num {
+        font: 700 34px var(--mono);
+      }
+
+      .mapside .side-cap,
+      .mapnote {
+        color: var(--mut);
+        font-size: 12px;
+      }
+
+      .mapside .side-cap {
+        margin-bottom: 18px;
+      }
+
+      .legend {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+        margin-top: 8px;
+      }
+
+      .legend .lg,
+      .chart-legend .lg {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        color: var(--ink2);
+        font: 12px var(--mono);
+      }
+
+      .legend .sw {
+        width: 22px;
+        height: 13px;
+        border-radius: 3px;
+      }
+
+      .mapnote {
+        margin-top: 18px;
+        line-height: 1.5;
+      }
+
+      .tabs {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 16px;
+      }
+
+      .tabs button {
+        min-height: 34px;
+        padding: 7px 14px;
+        border: 1px solid var(--ln2);
+        border-radius: 8px;
+      }
+
+      .tabs button.on {
+        border-color: var(--acc);
+      }
+
+      .frow {
+        display: grid;
+        grid-template-columns: 150px minmax(0, 1fr) 172px;
+        align-items: center;
+        gap: 14px;
+        padding: 7px 0;
+      }
+
+      .frow .fl {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 8px;
+        color: var(--ink2);
+        text-align: right;
+        font: 12px var(--mono);
+      }
+
+      .fdot {
+        width: 9px;
+        height: 9px;
+        border-radius: 3px;
+        flex: none;
+      }
+
+      .fbar {
+        height: 34px;
+        overflow: hidden;
+        border-radius: 6px;
+        background: var(--sf2);
+      }
+
+      .fbar i {
+        display: block;
+        width: 0;
+        height: 100%;
+        border-radius: 0 4px 4px 0;
+        transition: width 1s cubic-bezier(0.25, 0.7, 0.25, 1);
+      }
+
+      .in .fbar i {
+        width: var(--w);
+      }
+
+      .frow .fv {
+        font: 13px var(--mono);
+      }
+
+      .frow .fv b {
+        font-size: 15px;
+      }
+
+      .frow .fv span {
+        display: block;
+        color: var(--mut);
+        font-size: 11px;
+      }
+
+      .wave {
+        display: flex;
+        align-items: flex-end;
+        gap: 10px;
+        height: 250px;
+        padding-top: 26px;
+        border-bottom: 1px solid var(--ln2);
+      }
+
+      .wcol {
+        position: relative;
+        display: flex;
+        flex: 1;
+        flex-direction: column-reverse;
+        align-items: stretch;
+        min-width: 0;
+      }
+
+      .wseg {
+        width: 100%;
+        transform: scaleY(0);
+        transform-origin: bottom;
+        transition: transform 0.8s cubic-bezier(0.25, 0.7, 0.25, 1);
+        transition-delay: var(--d, 0s);
+      }
+
+      .in .wseg {
+        transform: scaleY(1);
+      }
+
+      .wseg + .wseg {
+        margin-bottom: 2px;
+      }
+
+      .wseg:last-child {
+        border-radius: 4px 4px 0 0;
+      }
+
+      .wtot {
+        position: absolute;
+        inset: -22px 0 auto;
+        color: var(--mut);
+        text-align: center;
+        font: 11px var(--mono);
+      }
+
+      .wx {
+        display: flex;
+        gap: 10px;
+        margin-top: 8px;
+      }
+
+      .wx span {
+        flex: 1;
+        color: var(--mut);
+        text-align: center;
+        font: 10px var(--mono);
+      }
+
+      .chart-legend {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 16px;
+      }
+
+      .chart-legend .sw {
+        width: 12px;
+        height: 12px;
+        border-radius: 3px;
+      }
+
+      .drow {
+        display: grid;
+        grid-template-columns: 26px 216px minmax(0, 1fr) 128px;
+        align-items: center;
+        gap: 12px;
+        padding: 6px 0;
+      }
+
+      .drow .rk {
+        color: var(--mut);
+        text-align: right;
+        font: 11px var(--mono);
+      }
+
+      .drow .dn {
+        overflow: hidden;
+        color: var(--ink);
+        font-size: 13px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .dbar {
+        height: 20px;
+        overflow: hidden;
+        border-radius: 5px;
+        background: var(--sf2);
+      }
+
+      .dbar i {
+        display: block;
+        width: 0;
+        height: 100%;
+        border-radius: 0 4px 4px 0;
+        background: var(--b2);
+        transition: width 0.9s cubic-bezier(0.25, 0.7, 0.25, 1);
+        transition-delay: var(--d, 0s);
+      }
+
+      .in .dbar i {
+        width: var(--w);
+      }
+
+      .drow .dv {
+        color: var(--ink2);
+        font: 12px var(--mono);
+      }
+
+      .filters {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 14px;
+      }
+
+      .filters select {
+        appearance: none;
+        min-height: 34px;
+        padding: 7px 28px 7px 11px;
+        border: 1px solid var(--ln2);
+        border-radius: 8px;
+        color: var(--ink);
+        background-color: var(--sf2);
+        background-image:
+          linear-gradient(45deg, transparent 50%, var(--mut) 50%),
+          linear-gradient(135deg, var(--mut) 50%, transparent 50%);
+        background-position: calc(100% - 15px) 55%, calc(100% - 10px) 55%;
+        background-repeat: no-repeat;
+        background-size: 5px 5px;
+        cursor: pointer;
+        font: 12px var(--mono);
+      }
+
+      .fchip {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        min-height: 32px;
+        padding: 5px 12px;
+        border: 1px solid var(--acc);
+        border-radius: 99px;
+        color: var(--acc-ink);
+        background: var(--acc-dim);
+        cursor: pointer;
+        font: 12px var(--mono);
+      }
+
+      .fcount {
+        margin-left: auto;
+        color: var(--mut);
+        font: 12px var(--mono);
+      }
+
+      .tblwrap {
+        overflow-x: auto;
+        margin: 0 -22px;
+        padding: 0 22px;
+      }
+
+      table {
+        width: 100%;
+        min-width: 820px;
+        border-collapse: collapse;
+        font-size: 13px;
+      }
+
+      th {
+        padding: 8px 10px;
+        border-bottom: 1px solid var(--ln2);
+        color: var(--mut);
+        text-align: left;
+        text-transform: uppercase;
+        white-space: nowrap;
+        font: 11px var(--mono);
+        letter-spacing: 0.08em;
+      }
+
+      th.sortable {
+        cursor: pointer;
+      }
+
+      th.sortable:hover {
+        color: var(--ink);
+      }
+
+      th .car {
+        margin-left: 4px;
+        font-size: 9px;
+      }
+
+      td {
+        padding: 9px 10px;
+        border-bottom: 1px solid var(--ln);
+        vertical-align: middle;
+      }
+
+      tbody tr:hover {
+        background: var(--sf2);
+      }
+
+      td.proj {
+        max-width: 320px;
+      }
+
+      td.proj b {
+        font-weight: 600;
+      }
+
+      td.proj .own {
+        display: block;
+        margin-top: 1px;
+        color: var(--mut);
+        font-size: 11px;
+      }
+
+      td.geo,
+      td.yr,
+      td.gr {
+        color: var(--ink2);
+        white-space: nowrap;
+        font: 12px var(--mono);
+      }
+
+      td.cap {
+        white-space: nowrap;
+      }
+
+      .capv {
+        font: 600 13px var(--mono);
+      }
+
+      .capbar {
+        display: block;
+        width: 120px;
+        height: 3px;
+        margin-top: 4px;
+        overflow: hidden;
+        border-radius: 2px;
+        background: var(--sf2);
+      }
+
+      .capbar i {
+        display: block;
+        height: 100%;
+        border-radius: 2px;
+        background: var(--b2);
+      }
+
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 3px 10px;
+        border: 1px solid;
+        border-radius: 99px;
+        white-space: nowrap;
+        font: 11px var(--mono);
+        letter-spacing: 0.03em;
+      }
+
+      .chip .cdot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: currentColor;
+      }
+
+      .evbar {
+        display: flex;
+        gap: 2px;
+        height: 26px;
+        margin: 14px 0 12px;
+        overflow: hidden;
+        border-radius: 7px;
+      }
+
+      .evbar i {
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.9s cubic-bezier(0.25, 0.7, 0.25, 1);
+        transition-delay: var(--d, 0s);
+      }
+
+      .in .evbar i {
+        transform: scaleX(1);
+      }
+
+      .evkey {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 18px;
+        color: var(--ink2);
+        font: 12px var(--mono);
+      }
+
+      .evkey .lg {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+      }
+
+      .evkey .sw {
+        width: 11px;
+        height: 11px;
+        border-radius: 3px;
+      }
+
+      .foot {
+        padding: 34px 0 46px;
+        color: var(--mut);
+        font-size: 12px;
+        line-height: 1.7;
+      }
+
+      .foot .rule {
+        height: 1px;
+        margin-bottom: 20px;
+        background: var(--ln);
+      }
+
+      #tip {
+        position: fixed;
+        z-index: 99;
+        max-width: 260px;
+        padding: 10px 13px;
+        border: 1px solid var(--ln2);
+        border-radius: 10px;
+        color: var(--ink);
+        background: var(--sf);
+        box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.12s;
+        font: 12px var(--mono);
+      }
+
+      #tip .t1 {
+        margin-bottom: 3px;
+        font-weight: 700;
+      }
+
+      #tip .t2 {
+        color: var(--ink2);
+      }
+
+      @media (max-width: 920px) {
+        .maprow {
+          grid-template-columns: 1fr;
+        }
+
+        .stats {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .drow {
+          grid-template-columns: 22px 130px minmax(0, 1fr) 106px;
+        }
+      }
+
+      @media (max-width: 680px) {
+        .topbar .wrap {
+          align-items: flex-start;
+          flex-wrap: wrap;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+
+        .brand {
+          width: 100%;
+        }
+
+        .tgl:first-of-type {
+          margin-left: 0;
+        }
+
+        .stats {
+          grid-template-columns: 1fr 1fr;
+        }
+
+        .tile .tv {
+          display: none;
+        }
+
+        .frow {
+          grid-template-columns: 106px minmax(0, 1fr) 120px;
+        }
+
+        .brand span:not(.blk) {
+          display: none;
+        }
+
+        .wtot {
+          display: none;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .wrap {
+          padding: 0 16px;
+        }
+
+        .stats {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01s !important;
+          transition-duration: 0.01s !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap">
+        <div class="brand">
+          <span class="blk"></span>
+          <b>GRIDWATCH</b>
+          <span class="en">AMERICAS DATA CENTER INTEL</span>
+          <span class="zh">全美洲数据中心情报</span>
+        </div>
+        <div class="tgl" role="group" aria-label="theme">
+          <button id="th-dark" class="on" data-theme-button="dark">Dark</button>
+          <button id="th-light" data-theme-button="light">Light</button>
+        </div>
+        <div class="tgl" role="group" aria-label="language">
+          <button id="lg-en" class="on" data-lang-button="en">EN</button>
+          <button id="lg-zh" data-lang-button="zh">中文</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="sweep"></div>
+        <div class="wrap">
+          <div class="live">
+            <span class="dot"></span>
+            <span class="en">LIVE CORPUS · UPDATED {data.generated_date}</span>
+            <span class="zh">实时语料库 · 更新于 {data.generated_date}</span>
+          </div>
+          <div class="kick">
+            <span class="idx">00</span>
+            <span class="en">TRACKING THE AMERICAS COMPUTE BUILDOUT</span>
+            <span class="zh">追踪全美洲算力大基建</span>
+          </div>
+          <div class="countrybar" id="countrySwitch" aria-label="country scope"></div>
+          <div class="big">
+            <span id="heroGW">0.0</span>
+            <span class="unit">GW <span class="en">TRACKED</span><span class="zh">追踪容量</span></span>
+          </div>
+          <div class="big-sub">
+            <span id="heroSub"></span>
+          </div>
+          <div class="stats rv">
+            <div class="stat">
+              <div class="v" id="cFac">0</div>
+              <div class="l"><span class="en">Facilities tracked</span><span class="zh">追踪设施数</span></div>
+            </div>
+            <div class="stat">
+              <div class="v" id="cSrc">0</div>
+              <div class="l"><span class="en">Source URLs</span><span class="zh">数据来源链接</span></div>
+            </div>
+            <div class="stat">
+              <div class="v" id="cCty">0</div>
+              <div class="l" id="cCtyLabel"></div>
+            </div>
+            <div class="stat">
+              <div class="v">{data.totals.countries_explored.toLocaleString("en-US")}<span style="color:var(--mut);font-size:14px"> / {data.totals.countries_explored.toLocaleString("en-US")}</span></div>
+              <div class="l"><span class="en">Countries explored · Americas</span><span class="zh">已探索国家 · 全美洲</span></div>
+              <div class="bar100"><i></i></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec">
+        <div class="wrap">
+          <div class="sec-head">
+            <div>
+              <div class="kick"><span class="idx">01</span><span class="en">GEOGRAPHY</span><span class="zh">地理分布</span></div>
+              <h2><span class="en">Where the gigawatts are going</span><span class="zh">吉瓦流向何处</span></h2>
+            </div>
+            <div class="note"><span class="en">Click a country or state to change the scope.</span><span class="zh">点击国家或州切换分析范围。</span></div>
+            <div class="tabs" style="margin:0 0 0 auto">
+              <button id="mm-mw" class="on" data-map-metric="mw"><span class="en">CAPACITY GW</span><span class="zh">容量 GW</span></button>
+              <button id="mm-n" data-map-metric="n"><span class="en">FACILITIES</span><span class="zh">设施数</span></button>
+            </div>
+          </div>
+          <div class="card rv">
+            <div class="maprow">
+              <div class="usmap" id="usmap" aria-label="geographic tile map"></div>
+              <div class="mapside">
+                <div class="side-num" id="mapTopV"></div>
+                <div class="side-cap" id="mapTopL"></div>
+                <div class="legend" id="mapLegend"></div>
+                <div class="mapnote">
+                  <span id="mapNoteText"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec">
+        <div class="wrap">
+          <div class="sec-head">
+            <div>
+              <div class="kick"><span class="idx">02</span><span class="en">PIPELINE FUNNEL</span><span class="zh">开发漏斗</span></div>
+              <h2 id="funnelTitle"></h2>
+            </div>
+          </div>
+          <div class="card rv" id="funnel"></div>
+        </div>
+      </section>
+
+      <section class="sec">
+        <div class="wrap">
+          <div class="sec-head">
+            <div>
+              <div class="kick"><span class="idx">03</span><span class="en">BUILDOUT WAVE</span><span class="zh">建设浪潮</span></div>
+              <h2><span class="en">Project signals by year, 2018-2030</span><span class="zh">按年份的项目信号，2018-2030</span></h2>
+            </div>
+            <div class="note"><span class="en">Hover a column for the breakdown.</span><span class="zh">悬停查看当年构成。</span></div>
+          </div>
+          <div class="card rv">
+            <div class="wave" id="wave"></div>
+            <div class="wx" id="waveX"></div>
+            <div class="chart-legend">
+              <div class="lg"><span class="sw" style="background:var(--st-op)"></span><span class="en">Operational</span><span class="zh">运营中</span></div>
+              <div class="lg"><span class="sw" style="background:var(--st-con)"></span><span class="en">Under construction</span><span class="zh">在建</span></div>
+              <div class="lg"><span class="sw" style="background:var(--st-app)"></span><span class="en">Pipeline (announced / planned / approved)</span><span class="zh">储备（公告/规划/批准）</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec">
+        <div class="wrap">
+          <div class="sec-head">
+            <div>
+              <div class="kick"><span class="idx">04</span><span class="en">OPERATORS</span><span class="zh">开发商排行</span></div>
+              <h2><span class="en">Who is building it</span><span class="zh">谁在建设</span></h2>
+            </div>
+            <div class="tabs" style="margin:0 0 0 auto">
+              <button id="dv-mw" class="on" data-dev-tab="mw"><span class="en">BY CAPACITY</span><span class="zh">按容量</span></button>
+              <button id="dv-n" data-dev-tab="n"><span class="en">BY FACILITIES</span><span class="zh">按设施数</span></button>
+            </div>
+          </div>
+          <div class="card rv" id="devs"></div>
+        </div>
+      </section>
+
+      <section class="sec">
+        <div class="wrap">
+          <div class="sec-head">
+            <div>
+              <div class="kick"><span class="idx">05</span><span class="en">REGISTRY</span><span class="zh">项目登记表</span></div>
+              <h2><span class="en">Flagship projects</span><span class="zh">旗舰项目</span></h2>
+            </div>
+          </div>
+          <div class="card rv">
+            <div class="filters">
+              <select id="fStatus" aria-label="status filter"></select>
+              <select id="fState" aria-label="state filter"></select>
+              <button id="fClear" class="fchip" style="display:none" type="button"></button>
+              <span class="fcount" id="fCount"></span>
+            </div>
+            <div class="tblwrap">
+              <table>
+                <thead>
+                  <tr>
+                    <th><span class="en">Project / Operator</span><span class="zh">项目 / 开发商</span></th>
+                    <th class="sortable" data-sort="geo"><span class="en">County, Area</span><span class="zh">县，地区</span><span class="car" id="car-geo"></span></th>
+                    <th class="sortable" data-sort="mw"><span class="en">Capacity</span><span class="zh">容量</span><span class="car" id="car-mw"></span></th>
+                    <th><span class="en">Status</span><span class="zh">状态</span></th>
+                    <th class="sortable" data-sort="y"><span class="en">Year signal</span><span class="zh">年份信号</span><span class="car" id="car-y"></span></th>
+                    <th><span class="en">Evidence</span><span class="zh">证据等级</span></th>
+                  </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sec">
+        <div class="wrap">
+          <div class="card rv">
+            <div class="kick">
+              <span class="idx">06</span>
+              <span class="en">EVIDENCE BASE — {data.totals.facilities.toLocaleString("en-US")} RECORDS</span>
+              <span class="zh">证据基础 — {data.totals.facilities.toLocaleString("en-US")} 条记录</span>
+            </div>
+            <div class="evbar" id="evbar"></div>
+            <div class="evkey" id="evkey"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <div class="wrap">
+        <div class="rule"></div>
+        <span class="en">GRIDWATCH production Astro build · all figures exported from the unified data-center corpus ({data.totals.facilities.toLocaleString("en-US")} centers, {data.totals.sources.toLocaleString("en-US")} sources) as of {data.generated_date} · static site, zero external runtime requests · registry shows {data.centers.length} flagship records of the full corpus.</span>
+        <span class="zh">GRIDWATCH Astro 生产版本 · 所有数字均来自统一数据中心语料库（{data.totals.facilities.toLocaleString("en-US")} 个中心，{data.totals.sources.toLocaleString("en-US")} 个来源），截至 {data.generated_date} · 静态站点，无运行时外部请求 · 登记表展示语料库中 {data.centers.length} 条旗舰记录。</span>
+      </div>
+    </footer>
+
+    <div id="tip"></div>
+    <script id="gw-data" type="application/json" set:html={dataJson}></script>
+    <script is:inline>
+      const DATA = JSON.parse(document.getElementById("gw-data").textContent);
+      const I18N = {
+        st: DATA.status_labels,
+        facilities: ["facilities", "个设施"],
+        projects: ["projects", "个项目"],
+        all: ["All statuses", "全部状态"],
+        allStates: ["All states", "全部州"],
+        showing: ["Showing", "显示"],
+        of: ["of", "/ 共"],
+        flagship: [`flagship records · full corpus: ${DATA.totals.facilities.toLocaleString("en-US")}`, `条旗舰记录 · 语料库共 ${DATA.totals.facilities.toLocaleString("en-US")} 条`],
+        allAmericas: ["All Americas", "全美洲"],
+        allSubnational: ["All areas", "全部地区"],
+        largest: ["largest pipeline", "最大储备"],
+        mostFacilities: ["most facilities", "设施数最多"],
+        countriesWithProjects: ["Countries with projects", "有项目的国家"],
+        subnationalsWithProjects: ["Areas with projects", "有项目的地区"],
+        americasSub: [
+          `Data-center buildout across the Americas, grouped by ${DATA.totals.countries_explored.toLocaleString("en-US")} explored countries and territories.`,
+          `覆盖全美洲 ${DATA.totals.countries_explored.toLocaleString("en-US")} 个已探索国家与地区的数据中心建设总盘。`
+        ],
+        countrySub: ["Focused country view with subnational distribution and filtered project signals.", "国家聚焦视图，展示该国内地区分布和过滤后的项目信号。"],
+        ev: {
+          official: ["Official (county / permit / utility)", "官方（县政/许可/电力）"],
+          news: ["News media", "新闻媒体"],
+          tracker: ["Industry trackers", "行业追踪"],
+          other: ["Social & other", "社媒及其他"]
+        },
+        legMW: ["<1 GW", "1-5 GW", "5-15 GW", "15-45 GW", "45+ GW"],
+        legN: ["<20", "20-49", "50-89", "90-149", "150+"]
+      };
+
+      const qs = new URLSearchParams(location.search);
+      const noMotion = matchMedia("(prefers-reduced-motion: reduce)").matches || qs.has("noanim");
+      const tip = document.getElementById("tip");
+      let mapMetric = "mw";
+      let selState = null;
+      let selCountry = null;
+      let devTab = "mw";
+      let sortKey = "mw";
+      let sortDir = -1;
+
+      const langIndex = () => document.documentElement.dataset.lang === "zh" ? 1 : 0;
+      const L = value => Array.isArray(value) ? value[langIndex()] : value;
+      const fmt = value => Number(value).toLocaleString("en-US");
+      const fmtMW = mw => mw >= 1000 ? `${(mw / 1000).toFixed(mw >= 10000 ? 1 : 2).replace(/\.?0+$/, "")} GW` : `${fmt(Math.round(mw))} MW`;
+      const stColor = key => `var(--st-${key})`;
+      const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" })[ch]);
+      const countryByCode = new Map((DATA.countries || []).map(c => [c.code, c]));
+      const selectedCountry = () => selCountry ? countryByCode.get(selCountry) : null;
+      const scopedFunnel = () => selectedCountry()?.funnel || DATA.funnel;
+      const scopedYears = () => selectedCountry()?.years || DATA.years;
+      const scopedTotals = () => {
+        const country = selectedCountry();
+        return country
+          ? {
+              capacity_mw: country.capacity_mw,
+              capacity_gw: country.capacity_gw,
+              facilities: country.facilities,
+              projects_geo: country.subnationals.length,
+              geo_label: I18N.subnationalsWithProjects,
+            }
+          : {
+              capacity_mw: DATA.totals.capacity_mw,
+              capacity_gw: DATA.totals.capacity_gw,
+              facilities: DATA.totals.facilities,
+              projects_geo: DATA.totals.countries_with_projects,
+              geo_label: I18N.countriesWithProjects,
+            };
+      };
+      const countryName = country => langIndex() ? country.name_zh : country.name_en;
+
+      function setTheme(theme) {
+        document.documentElement.dataset.theme = theme;
+        document.getElementById("th-dark").classList.toggle("on", theme === "dark");
+        document.getElementById("th-light").classList.toggle("on", theme === "light");
+        try {
+          localStorage.setItem("gw-theme", theme);
+        } catch (error) {}
+      }
+
+      function setLang(nextLang) {
+        document.documentElement.dataset.lang = nextLang;
+        document.documentElement.lang = nextLang === "zh" ? "zh-CN" : "en";
+        document.getElementById("lg-en").classList.toggle("on", nextLang === "en");
+        document.getElementById("lg-zh").classList.toggle("on", nextLang === "zh");
+        try {
+          localStorage.setItem("gw-lang", nextLang);
+        } catch (error) {}
+        buildMap();
+        buildFilters();
+        renderTable();
+        buildDevs();
+        buildEvidence();
+        buildCountrySwitch();
+        updateHero();
+        updateMapSide();
+        updateFunnelTitle();
+      }
+
+      function showTip(html, ev) {
+        tip.innerHTML = html;
+        tip.style.opacity = 1;
+        const pad = 14;
+        const width = tip.offsetWidth;
+        const height = tip.offsetHeight;
+        let x = ev.clientX + pad;
+        let y = ev.clientY + pad;
+        if (x + width > innerWidth - 8) x = ev.clientX - width - pad;
+        if (y + height > innerHeight - 8) y = ev.clientY - height - pad;
+        tip.style.left = `${x}px`;
+        tip.style.top = `${y}px`;
+      }
+
+      function hideTip() {
+        tip.style.opacity = 0;
+      }
+
+      function countUp(el, target, decimals, dur) {
+        if (noMotion) {
+          el.textContent = decimals ? target.toFixed(decimals) : fmt(target);
+          return;
+        }
+        const start = performance.now();
+        const tick = now => {
+          const p = Math.min(1, (now - start) / dur);
+          const e = 1 - Math.pow(1 - p, 3);
+          const v = target * e;
+          el.textContent = decimals ? v.toFixed(decimals) : fmt(Math.round(v));
+          if (p < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      }
+
+      const MW_BINS = [1000, 5000, 15000, 45000];
+      const N_BINS = [20, 50, 90, 150];
+      const binOf = (v, bins) => bins.reduce((bin, th, i) => v >= th ? i + 1 : bin, 0);
+
+      function setMapMetric(metric) {
+        mapMetric = metric;
+        document.getElementById("mm-mw").classList.toggle("on", metric === "mw");
+        document.getElementById("mm-n").classList.toggle("on", metric === "n");
+        buildMap();
+        updateMapSide();
+      }
+
+      function setCountry(code) {
+        selCountry = selCountry === code ? null : code;
+        selState = null;
+        buildCountrySwitch();
+        updateHero();
+        buildMap();
+        buildFunnel();
+        buildWave();
+        buildFilters();
+        renderTable();
+        updateMapSide();
+        updateFunnelTitle();
+      }
+
+      function buildCountrySwitch() {
+        const countries = [...(DATA.countries || [])].sort((a, b) => b.capacity_mw - a.capacity_mw || b.facilities - a.facilities);
+        document.getElementById("countrySwitch").innerHTML = [
+          `<button type="button" class="${selCountry ? "" : "on"}" data-country="">${L(I18N.allAmericas)}</button>`,
+          ...countries.map(c => `<button type="button" class="${selCountry === c.code ? "on" : ""}" data-country="${esc(c.code)}">${esc(c.code)} · ${esc(countryName(c))}</button>`)
+        ].join("");
+        document.querySelectorAll("[data-country]").forEach(button => button.addEventListener("click", () => setCountry(button.dataset.country || null)));
+      }
+
+      function updateHero() {
+        const totals = scopedTotals();
+        const country = selectedCountry();
+        document.getElementById("heroGW").textContent = totals.capacity_gw.toFixed(1);
+        document.getElementById("cFac").textContent = fmt(totals.facilities);
+        document.getElementById("cSrc").textContent = fmt(DATA.totals.sources);
+        document.getElementById("cCty").textContent = fmt(totals.projects_geo);
+        document.getElementById("cCtyLabel").innerHTML = `<span class="en">${esc(totals.geo_label[0])}</span><span class="zh">${esc(totals.geo_label[1])}</span>`;
+        document.getElementById("heroSub").textContent = country ? `${countryName(country)} · ${L(I18N.countrySub)}` : L(I18N.americasSub);
+      }
+
+      function buildMap() {
+        const el = document.getElementById("usmap");
+        const bins = mapMetric === "mw" ? MW_BINS : N_BINS;
+        el.innerHTML = "";
+        el.className = selCountry === "US" ? "usmap" : selCountry ? "subnatlist" : "countrygrid";
+        if (!selCountry) {
+          const countries = [...(DATA.countries || [])].sort((a, b) => b.capacity_mw - a.capacity_mw || b.facilities - a.facilities);
+          const max = Math.max(1, ...countries.map(c => mapMetric === "mw" ? c.capacity_mw : c.facilities));
+          el.innerHTML = countries.map(c => {
+            const value = mapMetric === "mw" ? c.capacity_mw : c.facilities;
+            return `<button type="button" class="geoitem" data-map-country="${esc(c.code)}">
+              <span class="gt"><span class="gn">${esc(c.code)} · ${esc(countryName(c))}</span><span>${mapMetric === "mw" ? fmtMW(c.capacity_mw) : fmt(c.facilities)}</span></span>
+              <span class="gv">${fmt(c.facilities)} ${L(I18N.facilities)}</span>
+              <span class="gbar"><i style="width:${Math.max(1.5, value / max * 100).toFixed(1)}%"></i></span>
+            </button>`;
+          }).join("");
+          el.querySelectorAll("[data-map-country]").forEach(button => button.addEventListener("click", () => setCountry(button.dataset.mapCountry)));
+          document.getElementById("mapLegend").innerHTML = "";
+          document.getElementById("mapNoteText").textContent = langIndex()
+            ? "全美洲国家列表按规模排序；点击国家进入聚焦视图。"
+            : "Countries across the Americas, sorted by magnitude. Click a country to focus.";
+          return;
+        }
+        if (selCountry !== "US") {
+          const country = selectedCountry();
+          const rows = country?.subnationals || [];
+          const max = Math.max(1, ...rows.map(r => mapMetric === "mw" ? r.capacity_mw : r.facilities));
+          el.innerHTML = rows.map(r => {
+            const value = mapMetric === "mw" ? r.capacity_mw : r.facilities;
+            return `<div class="geoitem">
+              <span class="gt"><span class="gn">${esc(r.name)}</span><span>${mapMetric === "mw" ? fmtMW(r.capacity_mw) : fmt(r.facilities)}</span></span>
+              <span class="gv">${fmt(r.facilities)} ${L(I18N.facilities)}</span>
+              <span class="gbar"><i style="width:${Math.max(1.5, value / max * 100).toFixed(1)}%"></i></span>
+            </div>`;
+          }).join("");
+          document.getElementById("mapLegend").innerHTML = "";
+          document.getElementById("mapNoteText").textContent = langIndex()
+            ? "非美国国家使用地区条形列表，不依赖美国州方块网格。"
+            : "Non-US countries use a subnational bar list instead of the US state tile grid.";
+          return;
+        }
+        DATA.states.forEach(s => {
+          const value = mapMetric === "mw" ? s.capacity_mw : s.facilities;
+          const tile = document.createElement("button");
+          tile.type = "button";
+          tile.className = `tile b${binOf(value, bins)}${selState === s.abbr ? " sel" : ""}`;
+          tile.style.gridRow = s.row + 1;
+          tile.style.gridColumn = s.col + 1;
+          tile.innerHTML = `<span class="ab">${esc(s.abbr)}</span><span class="tv">${mapMetric === "mw" ? (s.capacity_mw >= 1000 ? `${(s.capacity_mw / 1000).toFixed(0)}G` : `${Math.round(s.capacity_mw)}M`) : fmt(s.facilities)}</span>`;
+          tile.addEventListener("mousemove", ev => showTip(`<div class="t1">${esc(langIndex() ? s.name_zh : s.name_en)}</div><div class="t2">${fmt(s.facilities)} ${L(I18N.facilities)} · ${fmtMW(s.capacity_mw)}</div>`, ev));
+          tile.addEventListener("mouseleave", hideTip);
+          tile.addEventListener("click", () => {
+            selState = selState === s.abbr ? null : s.abbr;
+            buildMap();
+            syncStateFilter();
+          });
+          el.appendChild(tile);
+        });
+
+        const labels = mapMetric === "mw" ? I18N.legMW : I18N.legN;
+        document.getElementById("mapLegend").innerHTML = labels.map((label, i) => `<div class="lg"><span class="sw b${i}"></span>${label}</div>`).join("");
+        document.getElementById("mapNoteText").textContent = langIndex()
+          ? "美国方块地图：每州等面积，颜色代表规模，含华盛顿特区与波多黎各。"
+          : "US tile cartogram: every state gets equal area, color carries magnitude. Includes DC & PR.";
+      }
+
+      function updateMapSide() {
+        const items = !selCountry ? DATA.countries : selCountry === "US" ? DATA.states : (selectedCountry()?.subnationals || []);
+        const top = [...items].sort((a, b) => mapMetric === "mw" ? b.capacity_mw - a.capacity_mw : b.facilities - a.facilities)[0];
+        if (!top) return;
+        document.getElementById("mapTopV").textContent = mapMetric === "mw" ? fmtMW(top.capacity_mw) : fmt(top.facilities);
+        const name = top.code ? countryName(top) : top.name ? top.name : langIndex() ? top.name_zh : top.name_en;
+        document.getElementById("mapTopL").textContent = `${name} - ${mapMetric === "mw" ? L(I18N.largest) : L(I18N.mostFacilities)}`;
+      }
+
+      function updateFunnelTitle() {
+        const funnel = scopedFunnel();
+        const planned = funnel.find(f => f.key === "pla");
+        const operational = funnel.find(f => f.key === "op");
+        const prefix = selectedCountry() ? `${countryName(selectedCountry())}: ` : "";
+        document.getElementById("funnelTitle").innerHTML = langIndex()
+          ? `${prefix}规划 ${fmtMW(planned.capacity_mw)} 对比在运 ${fmtMW(operational.capacity_mw)}`
+          : `${prefix}${fmtMW(planned.capacity_mw)} planned vs ${fmtMW(operational.capacity_mw)} live`;
+      }
+
+      function buildFunnel() {
+        const funnel = scopedFunnel();
+        const max = Math.max(1, ...funnel.map(f => f.capacity_mw));
+        document.getElementById("funnel").innerHTML = funnel.map(f => `
+          <div class="frow">
+            <div class="fl"><span class="fdot" style="background:${stColor(f.key)}"></span>${I18N.st[f.key][langIndex()]}</div>
+            <div class="fbar"><i style="--w:${(f.capacity_mw / max * 100).toFixed(1)}%; background:${stColor(f.key)}"></i></div>
+            <div class="fv"><b>${fmtMW(f.capacity_mw)}</b><span>${fmt(f.count)} ${L(I18N.projects)}</span></div>
+          </div>`).join("");
+      }
+
+      function buildWave() {
+        const el = document.getElementById("wave");
+        const xl = document.getElementById("waveX");
+        const years = scopedYears();
+        const maxTotal = Math.max(1, ...years.map(y => y.pipeline + y.construction + y.operational));
+        const height = 212;
+        const px = v => Math.max(v > 0 ? 2 : 0, v / maxTotal * height);
+        el.innerHTML = years.map((y, i) => `
+          <div class="wcol" data-index="${i}">
+            <div class="wseg" style="height:${px(y.operational)}px; background:var(--st-op); --d:${i * 0.05}s"></div>
+            <div class="wseg" style="height:${px(y.construction)}px; background:var(--st-con); --d:${i * 0.05 + 0.05}s"></div>
+            <div class="wseg" style="height:${px(y.pipeline)}px; background:var(--st-app); --d:${i * 0.05 + 0.1}s"></div>
+            <div class="wtot">${y.pipeline + y.construction + y.operational >= 100 ? fmt(y.pipeline + y.construction + y.operational) : ""}</div>
+          </div>`).join("");
+        xl.innerHTML = years.map(y => `<span>'${String(y.year).slice(2)}</span>`).join("");
+        el.querySelectorAll(".wcol").forEach(col => {
+          col.addEventListener("mousemove", ev => {
+            const y = years[Number(col.dataset.index)];
+            showTip(`<div class="t1">${y.year}</div><div class="t2">${langIndex() ? "储备" : "Pipeline"}: ${fmt(y.pipeline)}<br>${langIndex() ? "在建" : "Construction"}: ${fmt(y.construction)}<br>${langIndex() ? "运营" : "Operational"}: ${fmt(y.operational)}</div>`, ev);
+          });
+          col.addEventListener("mouseleave", hideTip);
+        });
+      }
+
+      function setDevTab(tab) {
+        devTab = tab;
+        document.getElementById("dv-mw").classList.toggle("on", tab === "mw");
+        document.getElementById("dv-n").classList.toggle("on", tab === "n");
+        buildDevs();
+      }
+
+      function buildDevs() {
+        const rows = DATA.developers[devTab];
+        const max = Math.max(...rows.map(r => devTab === "mw" ? r.capacity_mw : r.facilities));
+        document.getElementById("devs").innerHTML = rows.map((r, i) => {
+          const value = devTab === "mw" ? r.capacity_mw : r.facilities;
+          const detail = devTab === "mw"
+            ? `${fmtMW(r.capacity_mw)} · ${fmt(r.facilities)} ${langIndex() ? "个站点" : r.facilities === 1 ? "site" : "sites"}`
+            : `${fmt(r.facilities)} ${langIndex() ? "个站点" : "sites"} · ${fmtMW(r.capacity_mw)}`;
+          return `<div class="drow">
+            <div class="rk">${String(i + 1).padStart(2, "0")}</div>
+            <div class="dn" title="${esc(r.name)}">${esc(r.name)}</div>
+            <div class="dbar"><i style="--w:${(value / max * 100).toFixed(1)}%; --d:${i * 0.06}s"></i></div>
+            <div class="dv">${detail}</div>
+          </div>`;
+        }).join("");
+        document.getElementById("devs").classList.add("in");
+      }
+
+      function buildFilters() {
+        const fs = document.getElementById("fStatus");
+        const keepStatus = fs.value;
+        fs.innerHTML = `<option value="">${L(I18N.all)}</option>` + ["ann", "pla", "app", "con", "op"].map(k => `<option value="${k}">${I18N.st[k][langIndex()]}</option>`).join("");
+        fs.value = keepStatus || "";
+
+        const stateSelect = document.getElementById("fState");
+        const keepState = stateSelect.value;
+        const scoped = DATA.centers.filter(c => !selCountry || c.country === selCountry);
+        const key = selCountry && selCountry !== "US" ? "subnational" : "state";
+        const states = [...new Set(scoped.map(c => c[key]).filter(Boolean))].sort();
+        stateSelect.innerHTML = `<option value="">${selCountry && selCountry !== "US" ? L(I18N.allSubnational) : L(I18N.allStates)}</option>` + states.map(a => `<option>${esc(a)}</option>`).join("");
+        stateSelect.value = states.includes(keepState) ? keepState : "";
+      }
+
+      function syncStateFilter() {
+        document.getElementById("fState").value = selState || "";
+        renderTable();
+        if (selState) document.getElementById("fState").scrollIntoView({ block: "center", behavior: noMotion ? "auto" : "smooth" });
+      }
+
+      function clearStateFilter() {
+        selState = null;
+        document.getElementById("fState").value = "";
+        buildMap();
+        renderTable();
+      }
+
+      function setSort(key) {
+        if (sortKey === key) sortDir *= -1;
+        else {
+          sortKey = key;
+          sortDir = -1;
+        }
+        renderTable();
+      }
+
+      function renderTable() {
+        const status = document.getElementById("fStatus").value;
+        const state = document.getElementById("fState").value;
+        if (selCountry === "US" && state !== (selState || "")) {
+          selState = state || null;
+          buildMap();
+        }
+        const geoKey = selCountry && selCountry !== "US" ? "subnational" : "state";
+        const scopedCenters = DATA.centers.filter(c => !selCountry || c.country === selCountry);
+        const maxMW = Math.max(1, ...scopedCenters.map(c => c.capacity_mw));
+        let rows = scopedCenters.filter(c => (!status || c.status === status) && (!state || c[geoKey] === state));
+        rows.sort((a, b) => {
+          if (sortKey === "mw") return (a.capacity_mw - b.capacity_mw) * sortDir;
+          if (sortKey === "y") return ((a.year || 0) - (b.year || 0)) * sortDir;
+          return `${a.country}${a[geoKey]}${a.county}`.localeCompare(`${b.country}${b[geoKey]}${b.county}`) * sortDir;
+        });
+        document.getElementById("tbody").innerHTML = rows.map(c => `
+          <tr>
+            <td class="proj"><b>${esc(c.project)}</b><span class="own">${esc(c.developer)}</span></td>
+            <td class="geo">${esc(c.county)}, ${esc(c.subnational || c.state)} · ${esc(c.country)}</td>
+            <td class="cap"><span class="capv">${fmtMW(c.capacity_mw)}</span><span class="capbar"><i style="width:${Math.max(1.2, c.capacity_mw / maxMW * 100).toFixed(1)}%"></i></span></td>
+            <td><span class="chip" style="color:${stColor(c.status)}; border-color:${stColor(c.status)}; background:color-mix(in srgb, ${stColor(c.status)} 12%, transparent)"><span class="cdot"></span>${I18N.st[c.status][langIndex()]}</span></td>
+            <td class="yr">${c.year || "-"}</td>
+            <td class="gr">${esc(c.evidence)}</td>
+          </tr>`).join("");
+
+        document.getElementById("fCount").textContent = `${L(I18N.showing)} ${rows.length} ${L(I18N.of)} ${scopedCenters.length} ${L(I18N.flagship)}`;
+        const chip = document.getElementById("fClear");
+        chip.style.display = selState && selCountry === "US" ? "" : "none";
+        chip.textContent = selState ? `${selState} x` : "";
+        ["mw", "y", "geo"].forEach(k => {
+          document.getElementById(`car-${k}`).textContent = sortKey === k ? (sortDir < 0 ? "▼" : "▲") : "";
+        });
+      }
+
+      function buildEvidence() {
+        const total = DATA.evidence.reduce((sum, e) => sum + e.count, 0);
+        const colors = ["var(--ev0)", "var(--ev1)", "var(--ev2)", "var(--ev3)"];
+        document.getElementById("evbar").innerHTML = DATA.evidence.map((e, i) => `<i style="width:${(e.count / total * 100).toFixed(1)}%; background:${colors[i]}; --d:${i * 0.12}s"></i>`).join("");
+        document.getElementById("evkey").innerHTML = DATA.evidence.map((e, i) => `<div class="lg"><span class="sw" style="background:${colors[i]}"></span>${I18N.ev[e.key][langIndex()]} · <b>${fmt(e.count)}</b> (${(e.count / total * 100).toFixed(0)}%)</div>`).join("");
+      }
+
+      document.querySelectorAll("[data-theme-button]").forEach(button => button.addEventListener("click", () => setTheme(button.dataset.themeButton)));
+      document.querySelectorAll("[data-lang-button]").forEach(button => button.addEventListener("click", () => setLang(button.dataset.langButton)));
+      document.querySelectorAll("[data-map-metric]").forEach(button => button.addEventListener("click", () => setMapMetric(button.dataset.mapMetric)));
+      document.querySelectorAll("[data-dev-tab]").forEach(button => button.addEventListener("click", () => setDevTab(button.dataset.devTab)));
+      document.querySelectorAll("[data-sort]").forEach(th => th.addEventListener("click", () => setSort(th.dataset.sort)));
+      document.getElementById("fStatus").addEventListener("change", renderTable);
+      document.getElementById("fState").addEventListener("change", renderTable);
+      document.getElementById("fClear").addEventListener("click", clearStateFilter);
+
+      try {
+        const theme = qs.get("theme") || localStorage.getItem("gw-theme") || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+        const language = qs.get("lang") || localStorage.getItem("gw-lang") || "en";
+        setTheme(theme === "light" ? "light" : "dark");
+        setLang(language === "zh" ? "zh" : "en");
+      } catch (error) {
+        setTheme("dark");
+        setLang("en");
+      }
+
+      countUp(document.getElementById("heroGW"), DATA.totals.capacity_gw, 1, 1800);
+      countUp(document.getElementById("cFac"), DATA.totals.facilities, 0, 1500);
+      countUp(document.getElementById("cSrc"), DATA.totals.sources, 0, 1700);
+      countUp(document.getElementById("cCty"), DATA.totals.counties_with_projects, 0, 1600);
+
+      buildFunnel();
+      buildWave();
+      buildMap();
+      buildFilters();
+      renderTable();
+      buildDevs();
+      buildEvidence();
+      updateMapSide();
+      updateFunnelTitle();
+
+      if (noMotion || !("IntersectionObserver" in window)) {
+        document.querySelectorAll(".rv").forEach(el => el.classList.add("in"));
+      } else {
+        const io = new IntersectionObserver(entries => entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in");
+            io.unobserve(entry.target);
+          }
+        }), { threshold: 0.12 });
+        document.querySelectorAll(".rv").forEach(el => io.observe(el));
+      }
+    </script>
+  </body>
+</html>

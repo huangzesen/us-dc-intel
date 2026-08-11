@@ -1,18 +1,31 @@
-# US Data Center Intelligence
+# GRIDWATCH · US + Americas Datacenter Buildout Intelligence
 
-Self-maintaining, regularly-updated intelligence repo for U.S. under-construction / planned data centers.
+Tracked datacenter / data-center / server-farm facilities and projects across the United States and the Americas (Canada, Brazil, Mexico, Argentina, Chile, Colombia, and 48 more countries/territories).
 
-- **Route**: read `SKILL.md` first (top-level progressive disclosure)
-- **Baseline**: `legacy-baseline-20260716/` — frozen 2026-07-16 national master inventory (208 masters; SHA `2113de4b…`)
-- **Per-center dirs**: `dc/<slug>/` each with `SKILL.md` (maintenance contract), `data.json` (structured baseline fields), `NOTES.md` (update log)
-- **Scripts**: `scripts/generate_skeleton.py` (idempotent skeleton generator)
-- **Ownership**: built by dev4bot per Jason (Telegram 3089/3093/3097/3107/3109); baseline origin 衡枢(codex)/算枢(datacenter-tracker)
+## What's inside
 
-## Status
+- **`datacenters.db`** — SQLite database of tracked facilities/projects. `centers` table has a `country` column (ISO 3166-1 alpha-2, e.g. `US`, `BR`, `MX`) and a `subnational` column (state / province / department / division).
+- **`astro/`** — production Astro static site (GRIDWATCH board): state/country switching, light/dark themes, EN/中文, capacity + project views.
+- **`scripts/`** — exploration contracts, batch files, and merge pipelines:
+  - `scripts/expansion/americas/` — 101 web-exploration batches (one per country/territory), results as JSONL, plus `explore-brief.md` (the evidence contract).
+  - `scripts/merge_americas.py` — idempotently merges Americas exploration results into `datacenters.db` (adds `country`/`subnational` columns).
+  - `scripts/export_astro_data.py` — exports `datacenters.db` → `astro/src/data/datacenters.json` (with `countries` aggregate array).
+- **`merge-output/americas-summary.json`** — last merge run summary (per-country facility/capacity counts).
 
-- [x] repo init + baseline freeze (byte-identical, SHA verified)
-- [x] 208 per-center skeleton generated
-- [x] top-level SKILL.md + generator script
-- [ ] codex daemon discovery of DCs NOT in baseline (Jason 3107)
-- [ ] 208-center batch refresh + evidence-gap fill
-- [ ] weekly self-maintenance loop
+## Current totals (2026-08-11 merge)
+
+- 3,409 tracked centers: US 2,731 + 678 Americas rows from 101 exploration batches
+- 54 countries/territories with at least one project
+- Top Americas markets by facility count: BR 95, MX 60, CA 53, CO 47, AR 45, CL 39
+
+## Data & evidence
+
+Exploration follows the contract in `scripts/expansion/americas/explore-brief.md`: every division is searched; real facilities/projects get project rows with source-backed evidence; divisions with no credible public evidence get explicit `no_project` coverage rows. Status/confidence notes are carried per row in the JSONL results.
+
+## Rebuild & deploy
+
+See `astro/SKILL.md` for the maintenance contract (data flow, rebuild steps, leak checks, deployment boundary). Live board: <https://xhelio.ai/datacenters/>
+
+---
+
+Built with the LingTai agent network (https://github.com/Lingtai-AI/lingtai) for Jason/Zesen.

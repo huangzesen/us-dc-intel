@@ -1,0 +1,22 @@
+{
+  "disc_id": "disc031",
+  "canonical_project": "Silicon Foundation Wheeling / Centre Foundry data center",
+  "owner": "Silicon Foundation",
+  "location": {
+    "city": "Wheeling",
+    "county": "Ohio",
+    "state": "West Virginia"
+  },
+  "capacity_mw": 100,
+  "status": "proposed; industrial-zoned former foundry parcel acquired",
+  "confidence": "medium",
+  "evidence_date": "2026-06-24",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/100mw-data-center-could-be-built-in-wheeling-west-virginia/",
+    "https://silicon.foundation/"
+  ],
+  "why_not_in_baseline": "Old-factory/industrial parcel conversion in a small West Virginia market; baseline did not include Silicon Foundation, Wheeling, or Centre Foundry.",
+  "discovery_file": "candidates-secondary-markets.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

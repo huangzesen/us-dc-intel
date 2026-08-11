@@ -1,0 +1,22 @@
+{
+  "disc_id": "disc004",
+  "canonical_project": "NRG-owned Texas data-center power-supply sites",
+  "owner": "NRG Energy; data-center customer undisclosed",
+  "location": {
+    "city": "",
+    "county": "",
+    "state": "TX"
+  },
+  "capacity_mw": 295,
+  "status": "power supply agreement signed; initial powering expected H2 2026; full operation expected by 2030",
+  "confidence": "medium",
+  "evidence_date": "2025-08-06",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/nrg-signs-295mw-power-supply-deal-for-two-data-centers-in-texas/",
+    "https://www.power-eng.com/gas/nrg-caps-busy-second-quarter-with-295-mw-data-center-power-deal/"
+  ],
+  "why_not_in_baseline": "Not among the 208 canonical_project names; post-freeze utility/power-supply agreement for two data centers on NRG-owned Texas sites, but public sources do not identify the customer or exact sites.",
+  "discovery_file": "candidates-grid-queue.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

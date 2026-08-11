@@ -1,0 +1,23 @@
+{
+  "disc_id": "disc006",
+  "canonical_project": "River Bend AI Data Center Campus",
+  "owner": "Hut 8 Corp.",
+  "location": {
+    "city": "",
+    "county": "West Feliciana",
+    "state": "LA"
+  },
+  "capacity_mw": 330,
+  "status": "announced; utility capacity secured; first phase leased",
+  "confidence": "high",
+  "evidence_date": "2025-12-17",
+  "sources": [
+    "https://www.hut8.com/data-centers/river-bend",
+    "https://www.hut8.com/news-insights/press-releases/hut-8-signs-15-year-245-mw-ai-data-center-lease-at-river-bend-campus-with-total-contract-value",
+    "https://www.opportunitylouisiana.gov/news/hut-8-selects-southeast-louisiana-as-site-of-10-billion-artificial-intelligence-data-center"
+  ],
+  "why_not_in_baseline": "Not among the 208 canonical_project names; announced after the baseline freeze as a Louisiana AI campus with Entergy-supported utility capacity for Fluidstack/Anthropic workloads.",
+  "discovery_file": "candidates-grid-queue.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

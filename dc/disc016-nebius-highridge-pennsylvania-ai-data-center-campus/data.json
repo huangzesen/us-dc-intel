@@ -1,0 +1,22 @@
+{
+  "disc_id": "disc016",
+  "canonical_project": "Nebius Highridge Pennsylvania AI Data Center Campus",
+  "owner": "Nebius",
+  "location": {
+    "city": "Pottsville area",
+    "county": "Schuylkill County",
+    "state": "PA"
+  },
+  "capacity_mw": 1200,
+  "status": "announced/planned",
+  "confidence": "high",
+  "evidence_date": "2026-07-29",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/nebius-details-plans-for-12gw-data-center-campus-in-pennsylvania/",
+    "https://datacenters.economictimes.indiatimes.com/news/construction-site-development/nebius-plans-1-2-gw-ai-data-center-campus-in-pennsylvania/132699439"
+  ],
+  "why_not_in_baseline": "Not present in the 208 baseline canonical_project list; distinct from baseline Nebius Independence, MO and Vineland, NJ records, with details published after the baseline freeze.",
+  "discovery_file": "candidates-hyperscaler.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

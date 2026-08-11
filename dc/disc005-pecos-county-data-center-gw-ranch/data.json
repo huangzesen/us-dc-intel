@@ -1,0 +1,23 @@
+{
+  "disc_id": "disc005",
+  "canonical_project": "Pecos County Data Center / GW Ranch",
+  "owner": "Amazon Data Services; Pacifico Energy power-campus developer",
+  "location": {
+    "city": "Fort Stockton area",
+    "county": "Pecos",
+    "state": "TX"
+  },
+  "capacity_mw": 7650,
+  "status": "filed / permitted power campus; construction start reported for 2026; first power targeted 2027",
+  "confidence": "medium",
+  "evidence_date": "2026-08-10",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/amazon-acquires-8000-acre-site-in-pecos-texas-for-natural-gas-powered-behind-the-meter-data-center-report/",
+    "https://www.datacenterdynamics.com/en/news/amazon-files-to-develop-two-new-data-center-campuses-in-texas/",
+    "https://www.pacificoenergy.com/gw-ranch"
+  ],
+  "why_not_in_baseline": "Not among the 208 canonical_project names; new Amazon/Pacifico Pecos County behind-the-meter data-center power campus, distinct from baseline Microsoft Pecos and other Texas Stargate/Abilene entries.",
+  "discovery_file": "candidates-grid-queue.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

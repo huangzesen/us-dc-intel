@@ -1,0 +1,22 @@
+{
+  "disc_id": "disc014",
+  "canonical_project": "Google LaGrange / Project Pegasus Data Center",
+  "owner": "Google",
+  "location": {
+    "city": "LaGrange",
+    "county": "Troup County",
+    "state": "GA"
+  },
+  "capacity_mw": null,
+  "status": "announced/under construction",
+  "confidence": "high",
+  "evidence_date": "2026-04-21",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/google-confirms-plans-for-data-center-in-lagrange-georgia/",
+    "https://www.atlantanewsfirst.com/2026/04/21/google-build-new-data-center-lagrange/"
+  ],
+  "why_not_in_baseline": "Not present in the 208 baseline canonical_project list; likely missed Georgia hyperscaler project and distinct from baseline Georgia entries in Coweta, Muscogee, Spalding, and Twiggs counties.",
+  "discovery_file": "candidates-hyperscaler.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

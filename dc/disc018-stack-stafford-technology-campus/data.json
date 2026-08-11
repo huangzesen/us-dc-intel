@@ -1,0 +1,22 @@
+{
+  "disc_id": "disc018",
+  "canonical_project": "STACK Stafford Technology Campus",
+  "owner": "STACK Infrastructure",
+  "location": {
+    "city": "Stafford area",
+    "county": "Stafford County",
+    "state": "VA"
+  },
+  "capacity_mw": 1000,
+  "status": "under construction",
+  "confidence": "high",
+  "evidence_date": "2026-05-26",
+  "sources": [
+    "https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-announces-landmark-1gw-stafford-technology-campus-in-northern-virginia/",
+    "https://www.datacenterdynamics.com/en/news/stack-tops-out-first-building-at-1gw-data-center-campus-in-stafford-county-virginia/"
+  ],
+  "why_not_in_baseline": "Not present in the 208 baseline canonical_project list; under-construction Northern Virginia 1GW campus absent from baseline and distinct from listed Loudoun/Prince William/Pittsylvania/Powhatan Virginia records.",
+  "discovery_file": "candidates-hyperscaler.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

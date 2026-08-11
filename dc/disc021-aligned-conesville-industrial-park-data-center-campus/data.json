@@ -1,0 +1,21 @@
+{
+  "disc_id": "disc021",
+  "canonical_project": "Aligned Conesville Industrial Park data center campus",
+  "owner": "Aligned Data Centers",
+  "location": {
+    "city": "Conesville/Coshocton",
+    "county": "Coshocton",
+    "state": "Ohio"
+  },
+  "capacity_mw": null,
+  "status": "planned; initial capacity targeted mid-2026",
+  "confidence": "high",
+  "evidence_date": "2025-07-26",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/aligned-to-develop-200-acre-data-center-campus-in-coshocton-ohio/"
+  ],
+  "why_not_in_baseline": "Legacy power-plant/industrial-park redevelopment in a small Ohio market; baseline aliases did not include Aligned Coshocton or Conesville.",
+  "discovery_file": "candidates-secondary-markets.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

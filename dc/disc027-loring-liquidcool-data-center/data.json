@@ -1,0 +1,21 @@
+{
+  "disc_id": "disc027",
+  "canonical_project": "Loring LiquidCool Data Center",
+  "owner": "Loring LiquidCool Data Center LLC / LiquidCool Data Center",
+  "location": {
+    "city": "Limestone/Loring Commerce Centre",
+    "county": "Aroostook",
+    "state": "Maine"
+  },
+  "capacity_mw": 6,
+  "status": "leased; planned conversion at former Loring Air Force Base warehouse",
+  "confidence": "high",
+  "evidence_date": "2025-10-21",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/data-center-to-be-built-at-former-air-force-base-in-aroostook-county-maine/"
+  ],
+  "why_not_in_baseline": "Small-market former military/industrial-site conversion in northern Maine; baseline did not include Loring LiquidCool or Green 4 Maine campus.",
+  "discovery_file": "candidates-secondary-markets.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

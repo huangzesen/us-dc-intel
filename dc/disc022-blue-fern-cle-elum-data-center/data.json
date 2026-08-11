@@ -1,0 +1,21 @@
+{
+  "disc_id": "disc022",
+  "canonical_project": "Blue Fern Cle Elum data center",
+  "owner": "Blue Fern Development",
+  "location": {
+    "city": "Cle Elum",
+    "county": "Kittitas",
+    "state": "Washington"
+  },
+  "capacity_mw": 20,
+  "status": "planned; city moratorium introduced while project may retain development rights",
+  "confidence": "medium",
+  "evidence_date": "2026-08-06",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/officials-in-washington-city-introduce-data-center-moratorium-to-try-and-block-20mw-project/"
+  ],
+  "why_not_in_baseline": "Residential/community developer proposing a small-market Washington data center at Bullfrog Flats; baseline did not include Blue Fern or Cle Elum.",
+  "discovery_file": "candidates-secondary-markets.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

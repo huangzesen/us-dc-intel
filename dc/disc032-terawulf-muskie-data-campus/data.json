@@ -1,0 +1,22 @@
+{
+  "disc_id": "disc032",
+  "canonical_project": "TeraWulf Muskie Data Campus",
+  "owner": "TeraWulf",
+  "location": {
+    "city": "Wurtland/Ashland area",
+    "county": "Greenup/Boyd",
+    "state": "Kentucky"
+  },
+  "capacity_mw": 1000,
+  "status": "site acquired; zoned with permitting underway",
+  "confidence": "high",
+  "evidence_date": "2026-05-28",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/terawulf-acquires-site-in-kentucky-for-1gw-data-center-campus/",
+    "https://investors.terawulf.com/news-events/press-releases/detail/141/terawulf-expands-infrastructure-platform-with-acquisition-of-1-gw-eastern-kentucky-hpc-campus"
+  ],
+  "why_not_in_baseline": "New 2026 Eastern Kentucky industrial-park acquisition; baseline contains TeraWulf Lake Mariner/CB-5 but not Muskie or EastPark.",
+  "discovery_file": "candidates-secondary-markets.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

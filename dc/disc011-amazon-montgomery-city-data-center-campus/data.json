@@ -1,0 +1,22 @@
+{
+  "disc_id": "disc011",
+  "canonical_project": "Amazon Montgomery City Data Center Campus",
+  "owner": "Amazon / AWS",
+  "location": {
+    "city": "Montgomery City",
+    "county": "Montgomery County",
+    "state": "MO"
+  },
+  "capacity_mw": null,
+  "status": "announced/planned",
+  "confidence": "high",
+  "evidence_date": "2026-06-15",
+  "sources": [
+    "https://governor.mo.gov/press-releases/archive/amazon-investing-10-billion-montgomery-county",
+    "https://www.datacenterdynamics.com/en/news/amazon-commits-10bn-to-data-center-campus-in-montgomery-city-missouri/"
+  ],
+  "why_not_in_baseline": "Not present in the 208 baseline canonical_project list; separate from baseline Project Spade/New Florence-area Missouri record based on owner and public Amazon announcement.",
+  "discovery_file": "candidates-hyperscaler.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

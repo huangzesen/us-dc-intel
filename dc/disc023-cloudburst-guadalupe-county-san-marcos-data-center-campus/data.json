@@ -1,0 +1,21 @@
+{
+  "disc_id": "disc023",
+  "canonical_project": "CloudBurst Guadalupe County / San Marcos data center campus",
+  "owner": "CloudBurst Data Centers",
+  "location": {
+    "city": "San Marcos area",
+    "county": "Guadalupe/Hays",
+    "state": "Texas"
+  },
+  "capacity_mw": 1200,
+  "status": "approved; initial 50MW phase under construction",
+  "confidence": "high",
+  "evidence_date": "2026-05-07",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/706-acre-data-center-approved-for-development-outside-san-antonio-texas/"
+  ],
+  "why_not_in_baseline": "New 2026 county-approved second-tier Texas campus; baseline canonical names/aliases did not include CloudBurst or this San Marcos/Guadalupe-Hays site.",
+  "discovery_file": "candidates-secondary-markets.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

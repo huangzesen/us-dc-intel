@@ -1,0 +1,23 @@
+{
+  "disc_id": "disc009",
+  "canonical_project": "Ulysses Ohio HPC data center site",
+  "owner": "Cipher Digital / Cipher Mining Inc.",
+  "location": {
+    "city": "",
+    "county": "",
+    "state": "OH"
+  },
+  "capacity_mw": 200,
+  "status": "site acquired; AEP Ohio capacity and utility agreements secured; energization targeted Q4 2027",
+  "confidence": "high",
+  "evidence_date": "2025-12-23",
+  "sources": [
+    "https://investors.cipherdigital.com/news-releases/news-release-details/cipher-mining-announces-acquisition-200-mw-site-ohio",
+    "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000009/cifr-20251231.htm",
+    "https://www.datacenterdynamics.com/en/news/cipher-mining-acquires-land-for-200mw-data-center-site-in-ohio/"
+  ],
+  "why_not_in_baseline": "Not among the 208 canonical_project names; post-freeze Ohio power-first site with AEP Ohio capacity, but public sources do not disclose city/county.",
+  "discovery_file": "candidates-grid-queue.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

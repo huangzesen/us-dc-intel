@@ -1,0 +1,23 @@
+{
+  "disc_id": "disc003",
+  "canonical_project": "MARA Matagorda powered digital infrastructure campus",
+  "owner": "MARA Holdings / Volt Texas LLC; Starwood Digital Ventures development partner",
+  "location": {
+    "city": "Palacios / Bay City area",
+    "county": "Matagorda",
+    "state": "TX"
+  },
+  "capacity_mw": 2000,
+  "status": "definitive acquisition agreement; powered land site; construction expected to start in 2026",
+  "confidence": "high",
+  "evidence_date": "2026-07-09",
+  "sources": [
+    "https://ir.mara.com/news-events/press-releases/detail/1424/mara-signs-agreement-with-hif-to-acquire-strategic-powered-land-site-in-texas",
+    "https://www.sec.gov/Archives/edgar/data/1507605/000095014226002012/eh260804074_ex9901.htm",
+    "https://www.datacenterdynamics.com/en/news/mara-acquires-1200-acre-texas-site-from-hif-usa-for-up-to-2gw-data-center-campus/"
+  ],
+  "why_not_in_baseline": "Not among the 208 canonical_project names; new July 2026 powered-land acquisition with stated grid-capacity path up to 2 GW by April 2028.",
+  "discovery_file": "candidates-grid-queue.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

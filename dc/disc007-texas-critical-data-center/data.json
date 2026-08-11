@@ -1,0 +1,21 @@
+{
+  "disc_id": "disc007",
+  "canonical_project": "Texas Critical Data Center",
+  "owner": "Sharon AI and New Era Energy & Digital",
+  "location": {
+    "city": "",
+    "county": "Ector",
+    "state": "TX"
+  },
+  "capacity_mw": 1000,
+  "status": "phase two site planning; behind-the-meter power agreements; large-load interconnection application planned",
+  "confidence": "medium",
+  "evidence_date": "2025-10-11",
+  "sources": [
+    "https://www.mrt.com/business/article/ector-county-ai-data-center-21091297.php"
+  ],
+  "why_not_in_baseline": "Not among the 208 canonical_project names; after-freeze Ector County AI/GPU campus expansion targeting 1 GW with stated large-load interconnection and behind-the-meter power path.",
+  "discovery_file": "candidates-grid-queue.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,22 @@
+{
+  "disc_id": "disc030",
+  "canonical_project": "Project Wolcott / Blue Ladder White County data center campus",
+  "owner": "Blue Ladder Development",
+  "location": {
+    "city": "Wolcott area",
+    "county": "White",
+    "state": "Indiana"
+  },
+  "capacity_mw": null,
+  "status": "proposed; early-stage community review",
+  "confidence": "medium",
+  "evidence_date": "2026-07-09",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/322-acre-data-center-could-be-built-in-white-county-indiana/",
+    "https://www.wolcottdatacenter.com/"
+  ],
+  "why_not_in_baseline": "Early-stage regional-developer proposal in a county with no listed data centers; baseline did not include Blue Ladder, Wolcott, or White County project names.",
+  "discovery_file": "candidates-secondary-markets.jsonl",
+  "added_at": "2026-08-11",
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

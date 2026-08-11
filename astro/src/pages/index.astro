@@ -1445,6 +1445,8 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         mostFacilities: ["most facilities", "设施数最多"],
         countriesWithProjects: ["Countries with projects", "有项目的国家"],
         subnationalsWithProjects: ["Areas with projects", "有项目的地区"],
+        countyDrill: ["County drilldown", "县级下钻"],
+        countyApprox: ["County coordinate missing; using the state centroid.", "县级坐标缺失，使用州质心近似。"],
         americasSub: [
           `Data-center buildout across the Americas, grouped by ${DATA.totals.countries_explored.toLocaleString("en-US")} explored countries and territories.`,
           `覆盖全美洲 ${DATA.totals.countries_explored.toLocaleString("en-US")} 个已探索国家与地区的数据中心建设总盘。`
@@ -1479,6 +1481,11 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       const stColor = key => `var(--st-${key})`;
       const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" })[ch]);
       const countryByCode = new Map((DATA.countries || []).map(c => [c.code, c]));
+      const stateByAbbr = new Map((DATA.states || []).map(s => [s.abbr, s]));
+      const countiesByState = (DATA.counties || []).reduce((acc, county) => {
+        (acc[county.state_abbr] ||= []).push(county);
+        return acc;
+      }, {});
       const selectedCountry = () => selCountry ? countryByCode.get(selCountry) : null;
       const scopedFunnel = () => selectedCountry()?.funnel || DATA.funnel;
       const scopedYears = () => selectedCountry()?.years || DATA.years;
@@ -1624,6 +1631,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
 
       function realMapItems() {
         if (!selCountry) return (DATA.countries || []).filter(item => hasCoord(item) && pointValue(item) > 0);
+        if (selCountry === "US" && selState) return (countiesByState[selState] || []).filter(item => hasCoord(item) && pointValue(item) > 0);
         if (selCountry === "US") return (DATA.states || []).filter(item => hasCoord(item) && pointValue(item) > 0);
         const country = selectedCountry();
         const center = hasCoord(country) ? country : null;
@@ -1642,13 +1650,23 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       }
 
       function realMapPopup(item) {
-        const title = item.code ? `${item.code} · ${countryName(item)}` : item.abbr ? `${item.abbr} · ${langIndex() ? item.name_zh : item.name_en}` : item.name;
+        const title = item.code
+          ? `${item.code} · ${countryName(item)}`
+          : item.abbr
+            ? `${item.abbr} · ${langIndex() ? item.name_zh : item.name_en}`
+            : item.county
+              ? `${item.county}, ${item.state_abbr}`
+              : item.name;
         const top = item.subnationals?.slice(0, 5).map(s => `${esc(s.name)} ${fmtMW(s.capacity_mw)}`).join("<br>");
         const approximate = item.approximate_anchor
           ? `<div class="p3">${langIndex() ? "坐标为国家质心附近的近似锚点。" : "Approximate anchor near the country centroid."}</div>`
-          : "";
+          : item.county && stateByAbbr.get(item.state_abbr)?.lat === item.lat && stateByAbbr.get(item.state_abbr)?.lng === item.lng
+            ? `<div class="p3">${L(I18N.countyApprox)}</div>`
+            : "";
+        const area = item.county ? `<div class="p3">${esc(item.state || item.state_abbr)} · ${L(I18N.countyDrill)}</div>` : "";
         return `<div class="p1">${esc(title)}</div>
           <div class="p2">${fmt(item.facilities)} ${L(I18N.facilities)} · ${fmtMW(item.capacity_mw)}</div>
+          ${area}
           ${top ? `<div class="p3">${top}</div>` : ""}
           ${approximate}`;
       }
@@ -1683,6 +1701,11 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
               buildMap();
               renderRealMap();
               syncStateFilter();
+            } else if (selCountry === "US" && item.county) {
+              document.getElementById("fState").value = item.state_abbr;
+              selState = item.state_abbr;
+              buildMap();
+              renderTable();
             } else if (selCountry && selCountry !== "US" && item.name) {
               document.getElementById("fState").value = item.name;
               renderTable();
@@ -1694,13 +1717,15 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         titleEl.textContent = !selCountry
           ? (langIndex() ? "全美洲国家亮点" : "Americas country highlights")
           : selCountry === "US"
-            ? (langIndex() ? "美国州级亮点" : "US state highlights")
+            ? selState
+              ? `${selState} · ${langIndex() ? "美国县级亮点" : "US county highlights"}`
+              : (langIndex() ? "美国州级亮点" : "US state highlights")
             : `${countryName(country)} · ${langIndex() ? "地区亮点" : "subnational highlights"}`;
         noteEl.textContent = langIndex()
-          ? "圆点大小按当前指标非线性缩放，颜色按容量分级；点击亮点进入国家或地区筛选。"
-          : "Marker size uses nonlinear scaling for the active metric; color is capacity-banded. Click a highlight to focus.";
+          ? (selCountry === "US" ? "美国视图先显示州级概览；点击州亮点后显示该州有项目的县级亮点。" : "圆点大小按当前指标非线性缩放，颜色按容量分级；点击亮点进入国家或地区筛选。")
+          : (selCountry === "US" ? "The US view starts at state level; click a state marker to show project counties inside that state." : "Marker size uses nonlinear scaling for the active metric; color is capacity-banded. Click a highlight to focus.");
         if (bounds.length > 1) {
-          realMap.flyToBounds(bounds, { padding: [28, 28], maxZoom: selCountry ? 6 : 4, animate: !noMotion });
+          realMap.flyToBounds(bounds, { padding: [28, 28], maxZoom: selCountry === "US" && selState ? 8 : selCountry ? 6 : 4, animate: !noMotion });
         } else if (bounds.length === 1) {
           realMap.flyTo(bounds[0], selCountry ? 5 : 3, { animate: !noMotion });
         }
@@ -1780,6 +1805,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
           tile.addEventListener("click", () => {
             selState = selState === s.abbr ? null : s.abbr;
             buildMap();
+            renderRealMap();
             syncStateFilter();
           });
           el.appendChild(tile);
@@ -1788,12 +1814,12 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         const labels = mapMetric === "mw" ? I18N.legMW : I18N.legN;
         document.getElementById("mapLegend").innerHTML = labels.map((label, i) => `<div class="lg"><span class="sw b${i}"></span>${label}</div>`).join("");
         document.getElementById("mapNoteText").textContent = langIndex()
-          ? "美国方块地图：每州等面积，颜色代表规模，含华盛顿特区与波多黎各。"
-          : "US tile cartogram: every state gets equal area, color carries magnitude. Includes DC & PR.";
+          ? "美国方块地图：每州等面积，颜色代表规模；点击州后，Leaflet 地图下钻显示该州县级亮点。"
+          : "US tile cartogram: every state gets equal area and color carries magnitude; click a state to drill the Leaflet map into county highlights.";
       }
 
       function updateMapSide() {
-        const items = !selCountry ? DATA.countries : selCountry === "US" ? DATA.states : (selectedCountry()?.subnationals || []);
+        const items = !selCountry ? DATA.countries : selCountry === "US" && selState ? (countiesByState[selState] || []) : selCountry === "US" ? DATA.states : (selectedCountry()?.subnationals || []);
         const top = [...items].sort((a, b) => mapMetric === "mw" ? b.capacity_mw - a.capacity_mw : b.facilities - a.facilities)[0];
         if (!top) return;
         document.getElementById("mapTopV").textContent = mapMetric === "mw" ? fmtMW(top.capacity_mw) : fmt(top.facilities);

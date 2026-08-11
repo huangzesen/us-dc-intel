@@ -4,7 +4,9 @@
 from __future__ import annotations
 
 import json
+import re
 import sqlite3
+import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
@@ -13,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DB_PATH = ROOT / "datacenters.db"
 OUT_PATH = ROOT / "astro" / "src" / "data" / "datacenters.json"
 AMERICAS_MANIFEST = ROOT / "scripts" / "expansion" / "americas" / "americas-manifest.jsonl"
+COUNTY_COORDS_PATH = ROOT / "scripts" / "expansion" / "us-county-coords.json"
 COUNTIES_EXPLORED = 3222
 
 STATE_NAMES = {
@@ -433,6 +436,63 @@ def subnational_coord(country: str, name: str) -> list[float | None]:
     return country_coord(country)
 
 
+COUNTY_SUFFIXES = (
+    " city and borough",
+    " census area",
+    " municipality",
+    " borough",
+    " county",
+    " parish",
+    " municipio",
+)
+
+
+def normalize_county_name(value: str | None) -> str:
+    text = unicodedata.normalize("NFKD", value or "").encode("ascii", "ignore").decode("ascii")
+    text = re.sub(r"[^a-zA-Z0-9]+", " ", text).strip().lower()
+    for suffix in COUNTY_SUFFIXES:
+        if text.endswith(suffix):
+            text = text[: -len(suffix)].strip()
+            break
+    return text
+
+
+def county_lookup_keys(county: str, abbr: str) -> list[tuple[str, str]]:
+    normalized = normalize_county_name(county)
+    keys = [(abbr, normalized)]
+    for part in re.split(r"[/;,&]+", county):
+        part_key = normalize_county_name(part)
+        if part_key and (abbr, part_key) not in keys:
+            keys.append((abbr, part_key))
+    return keys
+
+
+def load_county_coords() -> dict[tuple[str, str], dict[str, float | str]]:
+    if not COUNTY_COORDS_PATH.exists():
+        return {}
+    coords = {}
+    for item in json.loads(COUNTY_COORDS_PATH.read_text(encoding="utf-8")):
+        abbr = state_abbr(item.get("state"))
+        county = clean_text(item.get("county"), "")
+        if not abbr or not county:
+            continue
+        coords[(abbr, normalize_county_name(county))] = {
+            "county": county,
+            "state": abbr,
+            "lat": float(item["lat"]),
+            "lng": float(item["lng"]),
+        }
+    return coords
+
+
+def county_coord(county_coords: dict[tuple[str, str], dict[str, float | str]], county: str, abbr: str) -> list[float | None]:
+    for key in county_lookup_keys(county, abbr):
+        item = county_coords.get(key)
+        if item:
+            return [float(item["lat"]), float(item["lng"])]
+    return STATE_COORDS.get(abbr, [None, None])
+
+
 def load_americas() -> dict[str, str]:
     if not AMERICAS_MANIFEST.exists():
         return {"US": "United States"}
@@ -487,15 +547,14 @@ def main() -> None:
     rows = con.execute("select * from centers").fetchall()
     columns = set(rows[0].keys()) if rows else set()
     americas = load_americas()
+    county_coords = load_county_coords()
 
     total_mw = sum(float(r["capacity_mw"] or 0) for r in rows)
     source_count = con.execute("select count(url) from sources where url is not null and trim(url) != ''").fetchone()[0]
-    county_count = con.execute(
-        "select count(distinct lower(county) || ',' || upper(state)) "
-        "from centers where county is not null and trim(county) != ''"
-    ).fetchone()[0]
-
     state_acc: dict[str, dict[str, float | int]] = defaultdict(lambda: {"facilities": 0, "capacity_mw": 0.0})
+    county_acc: dict[tuple[str, str], dict[str, float | int | str]] = defaultdict(
+        lambda: {"county": "", "state_abbr": "", "facilities": 0, "capacity_mw": 0.0}
+    )
     country_acc: dict[str, dict] = defaultdict(
         lambda: {
             "facilities": 0,
@@ -537,6 +596,11 @@ def main() -> None:
         county = clean_text(r["county"], "Unknown")
         if code == "US" and abbr and county != "Unknown":
             county_keys.add((county.lower(), abbr))
+            county_key = (abbr, county.strip().lower())
+            county_acc[county_key]["county"] = county
+            county_acc[county_key]["state_abbr"] = abbr
+            county_acc[county_key]["facilities"] += 1
+            county_acc[county_key]["capacity_mw"] += mw
         status_acc[key]["count"] += 1
         status_acc[key]["capacity_mw"] += mw
         dev_acc[owner]["facilities"] += 1
@@ -578,6 +642,24 @@ def main() -> None:
                 "lng": lng,
             }
         )
+
+    counties = []
+    for (_abbr, _county_key), acc in county_acc.items():
+        abbr = str(acc["state_abbr"])
+        county = str(acc["county"])
+        lat, lng = county_coord(county_coords, county, abbr)
+        counties.append(
+            {
+                "county": county,
+                "state": STATE_NAMES.get(abbr, abbr),
+                "state_abbr": abbr,
+                "facilities": int(acc["facilities"]),
+                "capacity_mw": round(float(acc["capacity_mw"]), 1),
+                "lat": lat,
+                "lng": lng,
+            }
+        )
+    counties.sort(key=lambda item: (item["capacity_mw"], item["facilities"], item["state_abbr"], item["county"]), reverse=True)
 
     countries = []
     for code, acc in country_acc.items():
@@ -644,13 +726,14 @@ def main() -> None:
             "capacity_gw": round(total_mw / 1000, 1),
             "facilities": len(rows),
             "sources": int(source_count),
-            "counties_with_projects": int(county_count),
+            "counties_with_projects": len(counties),
             "counties_explored": COUNTIES_EXPLORED,
             "countries_with_projects": len(country_acc),
             "countries_explored": len(americas),
         },
         "countries": countries,
         "states": states,
+        "counties": counties,
         "funnel": funnel,
         "years": wave,
         "developers": developers,

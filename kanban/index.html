@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>US 数据中心 county 探索看板 · xhelio.ai</title>
+<style>
+:root { --bg:#0f1420; --card:#171e2e; --line:#26304a; --txt:#dbe4ff; --mut:#7f8db3; --acc:#4f8cff; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--txt); font:14px/1.5 -apple-system,'PingFang SC','Microsoft YaHei',sans-serif; }
+.wrap { max-width:1200px; margin:0 auto; padding:24px; }
+h1 { font-size:22px; margin:0 0 4px; }
+.sub { color:var(--mut); margin-bottom:20px; }
+.metrics { display:flex; flex-wrap:wrap; gap:12px; margin-bottom:20px; }
+.metric { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 18px; min-width:150px; }
+.metric .v { font-size:26px; font-weight:700; color:var(--acc); }
+.metric .l { color:var(--mut); font-size:12px; }
+.bar { height:10px; background:#0b0f1a; border:1px solid var(--line); border-radius:6px; overflow:hidden; margin:6px 0 2px; }
+.bar > div { height:100%; background:linear-gradient(90deg,#4f8cff,#63d3ff); }
+.sec { margin-top:28px; }
+.sec h2 { font-size:16px; border-bottom:1px solid var(--line); padding-bottom:6px; }
+.board { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.board .col { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:12px; }
+.board .col h3 { margin:0 0 8px; font-size:13px; color:var(--mut); }
+.card { border:1px solid var(--line); border-radius:8px; padding:6px 8px; margin-bottom:6px; font-size:12px; }
+.card.pend { color:var(--mut); }
+.card.done { color:#9ef0c0; }
+.bidx { font-family:ui-monospace,Menlo,monospace; color:var(--acc); margin-right:6px; }
+.buckets { display:flex; flex-wrap:wrap; gap:8px; margin:8px 0; }
+.bucket { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:6px 10px; font-size:12px; }
+.bucket .cnt { color:var(--acc); font-weight:700; }
+table { width:100%; border-collapse:collapse; font-size:12px; }
+th,td { border-bottom:1px solid var(--line); padding:6px 8px; text-align:left; vertical-align:top; }
+th { color:var(--mut); font-weight:500; }
+td.pn { max-width:260px; }
+a { color:#63d3ff; text-decoration:none; word-break:break-all; }
+.foot { color:var(--mut); font-size:11px; margin-top:30px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>US 数据中心 county 探索看板</h1>
+  <div class="sub">目标：全美 3,000+ county 逐一探索，构建最宽口径数据中心超集清单 · 渲染于 2026-08-11 19:01 UTC</div>
+
+  <div class="metrics">
+    <div class="metric"><div class="v">3222</div><div class="l">全美 county 总数</div></div>
+    <div class="metric"><div class="v">323</div><div class="l">探索批次（每批 10 县）</div></div>
+    <div class="metric"><div class="v">30</div><div class="l">已完成批次</div><div class="bar"><div style="width:9.3%"></div></div><div style="font-size:11px;color:var(--mut)">9.3%</div></div>
+    <div class="metric"><div class="v">300</div><div class="l">已完成 county</div><div class="bar"><div style="width:9.3%"></div></div><div style="font-size:11px;color:var(--mut)">9.3%</div></div>
+    <div class="metric"><div class="v">218</div><div class="l">county 探索发现项目</div></div>
+    <div class="metric"><div class="v">419</div><div class="l">州级探索项目</div></div>
+    <div class="metric"><div class="v">28</div><div class="l">数据源调研条目</div></div>
+  </div>
+
+  <div class="sec">
+    <h2>探索进度状态分布（county 发现，前 30 批）</h2>
+    <div class="buckets"><div class="bucket"><b>运营中</b> <span class="cnt">97</span></div><div class="bucket"><b>在建</b> <span class="cnt">23</span></div><div class="bucket"><b>规划</b> <span class="cnt">45</span></div><div class="bucket"><b>已批准</b> <span class="cnt">17</span></div><div class="bucket"><b>已公告</b> <span class="cnt">14</span></div><div class="bucket"><b>已否决</b> <span class="cnt">14</span></div><div class="bucket"><b>未知</b> <span class="cnt">8</span></div></div>
+  </div>
+
+  <div class="sec">
+    <h2>批次看板（已完成 30 / 总 323）</h2>
+    <div class="board">
+      <div class="col"><h3>⏳ 待探索 / 探索中（293 批）</h3><div class="card pend"><span class="bidx">batch-030</span> CO · Saguache County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-031</span> CT · Greater Bridgeport Planning Region 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-032</span> DE · New Castle County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-033</span> FL · Citrus County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-034</span> FL · Gadsden County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-035</span> FL · Holmes County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-036</span> FL · Madison County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-037</span> FL · Osceola County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-038</span> FL · St. Lucie County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-039</span> GA · Atkinson County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-040</span> GA · Bleckley County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-041</span> GA · Carroll County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-042</span> GA · Clinch County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-043</span> GA · Dawson County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-044</span> GA · Elbert County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-045</span> GA · Glascock County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-046</span> GA · Harris County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-047</span> GA · Jenkins County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-048</span> GA · Lowndes County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-049</span> GA · Monroe County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-050</span> GA · Pickens County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-051</span> GA · Rockdale County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-052</span> GA · Tattnall County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-053</span> GA · Turner County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-054</span> GA · Webster County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-055</span> HI · Kalawao County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-056</span> IA · Boone County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-057</span> IA · Cherokee County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-058</span> IA · Delaware County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-059</span> IA · Grundy County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-060</span> IA · Iowa County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-061</span> IA · Louisa County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-062</span> IA · Monroe County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-063</span> IA · Pottawattamie County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-064</span> IA · Union County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-065</span> IA · Worth County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-066</span> ID · Bonner County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-067</span> ID · Custer County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-068</span> ID · Latah County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-069</span> ID · Power County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-070</span> IL · Brown County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-071</span> IL · Coles County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-072</span> IL · Effingham County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-073</span> IL · Hardin County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-074</span> IL · Kane County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-075</span> IL · Macon County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-076</span> IL · Menard County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-077</span> IL · Pike County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-078</span> IL · Scott County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-079</span> IL · Washington County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-080</span> IN · Bartholomew County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-081</span> IN · Crawford County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-082</span> IN · Fountain County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-083</span> IN · Henry County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-084</span> IN · Kosciusko County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-085</span> IN · Monroe County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-086</span> IN · Pike County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-087</span> IN · Spencer County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-088</span> IN · Vermillion County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-089</span> KS · Allen County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-090</span> KS · Cherokee County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-091</span> KS · Dickinson County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-092</span> KS · Geary County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-093</span> KS · Haskell County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-094</span> KS · Lane County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-095</span> KS · Miami County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-096</span> KS · Osborne County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-097</span> KS · Riley County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-098</span> KS · Sherman County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-099</span> KS · Washington County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-100</span> KY · Bath County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-101</span> KY · Butler County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-102</span> KY · Clay County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-103</span> KY · Floyd County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-104</span> KY · Hancock County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-105</span> KY · Jefferson County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-106</span> KY · Leslie County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-107</span> KY · Marshall County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-108</span> KY · Monroe County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-109</span> KY · Pendleton County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-110</span> KY · Shelby County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-111</span> KY · Wayne County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-112</span> LA · Beauregard Parish 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-113</span> LA · De Soto Parish 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-114</span> LA · Jefferson Davis Parish 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-115</span> LA · Orleans Parish 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-116</span> LA · St. Helena Parish 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-117</span> LA · Union Parish 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-118</span> MA · Berkshire County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-119</span> MA · Plymouth County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-120</span> MD · Cecil County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-121</span> MD · Queen Anne&#x27;s County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-122</span> ME · Franklin County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-123</span> ME · Waldo County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-124</span> MI · Barry County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-125</span> MI · Clare County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-126</span> MI · Grand Traverse County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-127</span> MI · Jackson County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-128</span> MI · Luce County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-129</span> MI · Monroe County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-130</span> MI · Oscoda County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-131</span> MI · St. Joseph County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-132</span> MN · Benton County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-133</span> MN · Clearwater County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-134</span> MN · Goodhue County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-135</span> MN · Kittson County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-136</span> MN · Martin County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-137</span> MN · Olmsted County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-138</span> MN · Renville County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-139</span> MN · Stevens County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-140</span> MN · Winona County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-141</span> MO · Benton County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-142</span> MO · Carter County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-143</span> MO · Crawford County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-144</span> MO · Gentry County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-145</span> MO · Jackson County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-146</span> MO · Linn County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-147</span> MO · Moniteau County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-148</span> MO · Pemiscot County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-149</span> MO · Randolph County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-150</span> MO · St. Charles County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-151</span> MO · Texas County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-152</span> MS · Amite County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-153</span> MS · Clay County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-154</span> MS · Hancock County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-155</span> MS · Jefferson Davis County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-156</span> MS · Lincoln County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-157</span> MS · Oktibbeha County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-158</span> MS · Sharkey County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-159</span> MS · Union County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-160</span> MT · Beaverhead County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-161</span> MT · Dawson County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-162</span> MT · Hill County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-163</span> MT · Mineral County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-164</span> MT · Ravalli County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-165</span> MT · Toole County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-166</span> NC · Ashe County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-167</span> NC · Camden County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-168</span> NC · Craven County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-169</span> NC · Franklin County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-170</span> NC · Henderson County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-171</span> NC · Lincoln County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-172</span> NC · New Hanover County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-173</span> NC · Polk County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-174</span> NC · Stokes County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-175</span> NC · Watauga County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-176</span> ND · Bottineau County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-177</span> ND · Emmons County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-178</span> ND · McHenry County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-179</span> ND · Pierce County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-180</span> ND · Stark County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-181</span> NE · Antelope County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-182</span> NE · Butler County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-183</span> NE · Dakota County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-184</span> NE · Frontier County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-185</span> NE · Harlan County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-186</span> NE · Keya Paha County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-187</span> NE · Morrill County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-188</span> NE · Polk County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-189</span> NE · Sherman County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-190</span> NE · Wheeler County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-191</span> NH · Strafford County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-192</span> NJ · Hudson County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-193</span> NJ · Sussex County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-194</span> NM · Doña Ana County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-195</span> NM · McKinley County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-196</span> NM · Sierra County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-197</span> NV · Elko County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-198</span> NV · Storey County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-199</span> NY · Chemung County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-200</span> NY · Fulton County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-201</span> NY · Monroe County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-202</span> NY · Oswego County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-203</span> NY · Schuyler County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-204</span> NY · Washington County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-205</span> OH · Auglaize County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-206</span> OH · Coshocton County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-207</span> OH · Fulton County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-208</span> OH · Highland County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-209</span> OH · Logan County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-210</span> OH · Monroe County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-211</span> OH · Pike County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-212</span> OH · Stark County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-213</span> OH · Williams County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-214</span> OK · Caddo County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-215</span> OK · Craig County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-216</span> OK · Greer County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-217</span> OK · Kiowa County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-218</span> OK · McCurtain County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-219</span> OK · Ottawa County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-220</span> OK · Sequoyah County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-221</span> OR · Baker County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-222</span> OR · Gilliam County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-223</span> OR · Lincoln County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-224</span> OR · Union County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-225</span> PA · Bedford County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-226</span> PA · Chester County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-227</span> PA · Erie County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-228</span> PA · Lackawanna County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-229</span> PA · Monroe County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-230</span> PA · Snyder County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-231</span> PA · Westmoreland County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-232</span> PR · Añasco Municipio 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-233</span> PR · Cayey Municipio 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-234</span> PR · Florida Municipio 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-235</span> PR · Jayuya Municipio 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-236</span> PR · Maricao Municipio 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-237</span> PR · Ponce Municipio 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-238</span> PR · Santa Isabel Municipio 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-239</span> PR · Yauco Municipio 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-240</span> SC · Bamberg County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-241</span> SC · Colleton County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-242</span> SC · Hampton County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-243</span> SC · McCormick County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-244</span> SC · Williamsburg County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-245</span> SD · Butte County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-246</span> SD · Deuel County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-247</span> SD · Hand County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-248</span> SD · Lake County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-249</span> SD · Minnehaha County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-250</span> SD · Sully County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-251</span> TN · Benton County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-252</span> TN · Claiborne County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-253</span> TN · Dyer County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-254</span> TN · Hamilton County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-255</span> TN · Humphreys County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-256</span> TN · Loudon County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-257</span> TN · Montgomery County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-258</span> TN · Roane County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-259</span> TN · Sumner County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-260</span> TN · White County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-261</span> TX · Austin County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-262</span> TX · Bosque County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-263</span> TX · Caldwell County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-264</span> TX · Childress County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-265</span> TX · Concho County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-266</span> TX · Dawson County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-267</span> TX · Ector County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-268</span> TX · Foard County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-269</span> TX · Goliad County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-270</span> TX · Hansford County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-271</span> TX · Hidalgo County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-272</span> TX · Irion County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-273</span> TX · Karnes County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-274</span> TX · Knox County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-275</span> TX · Lipscomb County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-276</span> TX · Matagorda County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-277</span> TX · Mitchell County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-278</span> TX · Nueces County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-279</span> TX · Potter County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-280</span> TX · Robertson County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-281</span> TX · Scurry County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-282</span> TX · Sutton County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-283</span> TX · Trinity County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-284</span> TX · Ward County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-285</span> TX · Winkler County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-286</span> UT · Carbon County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-287</span> UT · Millard County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-288</span> UT · Uintah County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-289</span> VA · Amelia County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-290</span> VA · Brunswick County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-291</span> VA · Chesapeake city 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-292</span> VA · Dinwiddie County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-293</span> VA · Franklin city 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-294</span> VA · Halifax County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-295</span> VA · King George County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-296</span> VA · Madison County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-297</span> VA · Newport News city 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-298</span> VA · Pittsylvania County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-299</span> VA · Richmond County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-300</span> VA · Smyth County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-301</span> VA · Warren County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-302</span> VT · Bennington County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-303</span> VT · Washington County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-304</span> WA · Cowlitz County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-305</span> WA · Kitsap County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-306</span> WA · San Juan County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-307</span> WA · Whitman County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-308</span> WI · Chippewa County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-309</span> WI · Florence County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-310</span> WI · Juneau County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-311</span> WI · Marquette County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-312</span> WI · Polk County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-313</span> WI · Sheboygan County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-314</span> WI · Waupaca County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-315</span> WV · Calhoun County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-316</span> WV · Harrison County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-317</span> WV · McDowell County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-318</span> WV · Pleasants County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-319</span> WV · Tucker County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-320</span> WY · Big Horn County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-321</span> WY · Lincoln County 等 10 县</div>
+<div class="card pend"><span class="bidx">batch-322</span> WY · Washakie County 等 2 县</div>
+<div class="card done"><span class="bidx">batch-000</span> AK · 8 项目</div>
+<div class="card done"><span class="bidx">batch-001</span> AK · 3 项目</div>
+<div class="card done"><span class="bidx">batch-002</span> AK · 3 项目</div>
+<div class="card done"><span class="bidx">batch-003</span> AL · 1 项目</div>
+<div class="card done"><span class="bidx">batch-004</span> AL · 1 项目</div>
+<div class="card done"><span class="bidx">batch-005</span> AL · 4 项目</div>
+<div class="card done"><span class="bidx">batch-006</span> AL · 7 项目</div>
+<div class="card done"><span class="bidx">batch-007</span> AL · 11 项目</div>
+<div class="card done"><span class="bidx">batch-008</span> AL · 6 项目</div>
+<div class="card done"><span class="bidx">batch-009</span> AL · 3 项目</div>
+<div class="card done"><span class="bidx">batch-010</span> AR · 4 项目</div>
+<div class="card done"><span class="bidx">batch-011</span> AR · 4 项目</div>
+<div class="card done"><span class="bidx">batch-012</span> AR · 2 项目</div>
+<div class="card done"><span class="bidx">batch-013</span> AR · 1 项目</div>
+<div class="card done"><span class="bidx">batch-014</span> AR · 2 项目</div>
+<div class="card done"><span class="bidx">batch-015</span> AR · 8 项目</div>
+<div class="card done"><span class="bidx">batch-016</span> AR · 3 项目</div>
+<div class="card done"><span class="bidx">batch-017</span> AR · 0 项目</div>
+<div class="card done"><span class="bidx">batch-018</span> AZ · 8 项目</div>
+<div class="card done"><span class="bidx">batch-019</span> CA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-020</span> CA · 10 项目</div>
+<div class="card done"><span class="bidx">batch-021</span> CA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-022</span> CA · 40 项目</div>
+<div class="card done"><span class="bidx">batch-023</span> CA · 11 项目</div>
+<div class="card done"><span class="bidx">batch-024</span> CA · 3 项目</div>
+<div class="card done"><span class="bidx">batch-025</span> CO · 9 项目</div>
+<div class="card done"><span class="bidx">batch-026</span> CO · 13 项目</div>
+<div class="card done"><span class="bidx">batch-027</span> CO · 2 项目</div>
+<div class="card done"><span class="bidx">batch-028</span> CO · 2 项目</div>
+<div class="card done"><span class="bidx">batch-029</span> CO · 2 项目</div></div>
+      <div class="col"><h3>✅ 已完成（30 批）</h3><div class="card done"><span class="bidx">batch-000</span> AK · 8 项目</div>
+<div class="card done"><span class="bidx">batch-001</span> AK · 3 项目</div>
+<div class="card done"><span class="bidx">batch-002</span> AK · 3 项目</div>
+<div class="card done"><span class="bidx">batch-003</span> AL · 1 项目</div>
+<div class="card done"><span class="bidx">batch-004</span> AL · 1 项目</div>
+<div class="card done"><span class="bidx">batch-005</span> AL · 4 项目</div>
+<div class="card done"><span class="bidx">batch-006</span> AL · 7 项目</div>
+<div class="card done"><span class="bidx">batch-007</span> AL · 11 项目</div>
+<div class="card done"><span class="bidx">batch-008</span> AL · 6 项目</div>
+<div class="card done"><span class="bidx">batch-009</span> AL · 3 项目</div>
+<div class="card done"><span class="bidx">batch-010</span> AR · 4 项目</div>
+<div class="card done"><span class="bidx">batch-011</span> AR · 4 项目</div>
+<div class="card done"><span class="bidx">batch-012</span> AR · 2 项目</div>
+<div class="card done"><span class="bidx">batch-013</span> AR · 1 项目</div>
+<div class="card done"><span class="bidx">batch-014</span> AR · 2 项目</div>
+<div class="card done"><span class="bidx">batch-015</span> AR · 8 项目</div>
+<div class="card done"><span class="bidx">batch-016</span> AR · 3 项目</div>
+<div class="card done"><span class="bidx">batch-017</span> AR · 0 项目</div>
+<div class="card done"><span class="bidx">batch-018</span> AZ · 8 项目</div>
+<div class="card done"><span class="bidx">batch-019</span> CA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-020</span> CA · 10 项目</div>
+<div class="card done"><span class="bidx">batch-021</span> CA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-022</span> CA · 40 项目</div>
+<div class="card done"><span class="bidx">batch-023</span> CA · 11 项目</div>
+<div class="card done"><span class="bidx">batch-024</span> CA · 3 项目</div>
+<div class="card done"><span class="bidx">batch-025</span> CO · 9 项目</div>
+<div class="card done"><span class="bidx">batch-026</span> CO · 13 项目</div>
+<div class="card done"><span class="bidx">batch-027</span> CO · 2 项目</div>
+<div class="card done"><span class="bidx">batch-028</span> CO · 2 项目</div>
+<div class="card done"><span class="bidx">batch-029</span> CO · 2 项目</div></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <h2>州级探索项目（419 条，前 400 显示）</h2>
+    <table><thead><tr><th>州</th><th>county</th><th>项目</th><th>开发商</th><th>状态</th><th>容量</th><th>年份</th></tr></thead><tbody><tr><td>AZ</td><td>Pinal</td><td class="pn">Vermaland La Osa Data Center Campus</td><td>Vermaland</td><td>规划</td><td>3000 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Tract Buckeye Technology Park</td><td>Tract</td><td>规划</td><td>1800 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Hassayampa Ranch Data Center</td><td>Arizona Land Consulting</td><td>规划</td><td>1500 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Pinal</td><td class="pn">Southwest Crossing Data Center</td><td>Ryan Companies</td><td>已批准</td><td>400 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Novva Mesa Campus</td><td>Novva Data Centers</td><td>规划</td><td>300 MW</td><td>2026</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Menlo Digital MD-PHX1</td><td>Menlo Digital</td><td>规划</td><td>257 MW</td><td>2027</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Prime Data Centers PHX01</td><td>Prime Data Centers</td><td>在建</td><td>240 MW</td><td>2026</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">NTT Global Data Centers Phoenix Mesa Campus</td><td>NTT Global Data Centers</td><td>在建</td><td>240 MW</td><td>2022</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">EdgeCore Phoenix Mesa Campus</td><td>EdgeCore Digital Infrastructure</td><td>运营中</td><td>496 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Meta Mesa Data Center</td><td>Meta</td><td>在建</td><td>—</td><td>2026</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Amazon AWS Mesa Elliot Campus</td><td>Amazon Web Services</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Amazon AWS Mesa Pecos Road Campus</td><td>Amazon Web Services</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Google Mesa Data Center</td><td>Google</td><td>在建</td><td>—</td><td>2025</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">QTS Phoenix 3 Campus</td><td>QTS Data Centers</td><td>规划</td><td>750 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">CyrusOne Mesa Data Center Campus</td><td>CyrusOne</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Pacific Proving Technology Campus</td><td>Pacific Proving</td><td>已批准</td><td>360 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Microsoft El Mirage Campus</td><td>Microsoft</td><td>在建</td><td>—</td><td>2021</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Microsoft Goodyear Campus</td><td>Microsoft</td><td>运营中</td><td>—</td><td>2021</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Compass Datacenters Goodyear Campus</td><td>Compass Datacenters</td><td>运营中</td><td>212 MW</td><td>2021</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Compass Datacenters El Mirage Campus</td><td>Compass Datacenters</td><td>规划</td><td>108 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Stream PHXA Goodyear Campus</td><td>Stream Data Centers</td><td>在建</td><td>280 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">STACK PHX01 Avondale Campus</td><td>STACK Infrastructure</td><td>规划</td><td>225 MW</td><td>2026</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">STACK PHX02 Central Phoenix Campus</td><td>STACK Infrastructure</td><td>规划</td><td>250 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Aligned Phoenix Union Hills Campus</td><td>Aligned Data Centers</td><td>运营中</td><td>180 MW</td><td>2017</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Aligned Glendale Campus</td><td>Aligned Data Centers</td><td>在建</td><td>252 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Iron Mountain Phoenix Campus</td><td>Iron Mountain Data Centers</td><td>在建</td><td>125 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">EdgeConneX Mesa Campus</td><td>EdgeConneX</td><td>在建</td><td>168 MW</td><td>2027</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Vantage Phoenix Campus</td><td>Vantage Data Centers</td><td>运营中</td><td>160 MW</td><td>2022</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Edged Phoenix Data Center</td><td>Edged</td><td>运营中</td><td>36 MW</td><td>2026</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">5C Data Centers PHX01</td><td>5C Data Centers</td><td>在建</td><td>20 MW</td><td>2025</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Comarch Mesa Data Center</td><td>Comarch</td><td>运营中</td><td>1.5 MW</td><td>2023</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">CyrusOne Chandler Campus</td><td>CyrusOne</td><td>运营中</td><td>81 MW</td><td>2012</td></tr>
+<tr><td>AZ</td><td>Pima</td><td class="pn">Project Blue Tucson Data Center Campus</td><td>Beale Infrastructure</td><td>未知</td><td>600 MW</td><td>2027</td></tr>
+<tr><td>AZ</td><td>Pima</td><td class="pn">Davis-Monthan AFB Data Center</td><td>US Government</td><td>规划</td><td>500 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Effingham</td><td class="pn">Project Camellia</td><td>OpenAI / Octans GA LLC</td><td>已公告</td><td>3200 MW</td><td>2028</td></tr>
+<tr><td>GA</td><td>Troup</td><td class="pn">Google PRL2 LaGrange Data Center</td><td>Google / KDC</td><td>规划</td><td>400 MW</td><td>2029</td></tr>
+<tr><td>GA</td><td>Columbia</td><td class="pn">Columbia County Data Center</td><td>Trammell Crow Company / Google end user</td><td>已公告</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Clayton</td><td class="pn">Stillwater Technology Park</td><td>Stillwater Development LLC</td><td>未知</td><td>1250 MW</td><td>2031</td></tr>
+<tr><td>GA</td><td>Early</td><td class="pn">QTS Blakely Data Center</td><td>QTS</td><td>规划</td><td>1400 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Irwin</td><td class="pn">Project Arrowhead</td><td>Premier Data Center Development</td><td>规划</td><td>1250 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Twiggs</td><td class="pn">Pine Ridge Technology Center</td><td>Eagle Rock Partners LLC</td><td>规划</td><td>900 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Coweta</td><td class="pn">Project Sail</td><td>Prologis</td><td>已批准</td><td>900 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Bartow</td><td class="pn">Project Bunkhouse</td><td>unknown / Kimley-Horn filing agent</td><td>已批准</td><td>1830 MW</td><td>2035</td></tr>
+<tr><td>GA</td><td>Bartow</td><td class="pn">Project Indo</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Fayette</td><td class="pn">QTS Project Excalibur</td><td>QTS</td><td>在建</td><td>250 MW</td><td>2025</td></tr>
+<tr><td>GA</td><td>Fayette</td><td class="pn">ATL2 East</td><td>Crow Holdings Development / CHI Acquisitions</td><td>未知</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Richmond</td><td class="pn">QTS Augusta Data Center Campus</td><td>QTS / Eagle South LLC</td><td>在建</td><td>—</td><td>2027</td></tr>
+<tr><td>GA</td><td>Columbia</td><td class="pn">Project JGK-Mass Grading</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Columbia</td><td class="pn">Project Squash</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Coweta</td><td class="pn">Bridgeport (Revised)</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Henry</td><td class="pn">Hampton Technology Park</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">The Crossings</td><td>Link Logistics / Blackstone</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Spalding</td><td class="pn">75 South Data Center Campus</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Carroll</td><td class="pn">Project Bus</td><td>unknown</td><td>未知</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>McDuffie</td><td class="pn">Project Azelea</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Spalding</td><td class="pn">Wallace Jackson Data Center Campus</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Monroe</td><td class="pn">Rumble Technology Campus</td><td>Cloverleaf Infrastructure</td><td>未知</td><td>1200 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Monroe</td><td class="pn">Google Monroe County Rumble Road Site</td><td>Google</td><td>已公告</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Monroe</td><td class="pn">Forsyth Technology Campus</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Rockdale</td><td class="pn">DC BLOX Atlanta East</td><td>DC BLOX</td><td>在建</td><td>216 MW</td><td>2025</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">DC BLOX Atlanta West</td><td>DC BLOX</td><td>在建</td><td>200 MW</td><td>2027</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">T5@ATL IV</td><td>T5 Data Centers</td><td>规划</td><td>200 MW</td><td>2027</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">T5@Atlanta III</td><td>T5 Data Centers</td><td>运营中</td><td>16.25 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">Edged Atlanta Campus</td><td>Edged Energy / Edged Data Centers</td><td>在建</td><td>169 MW</td><td>2027</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">Microsoft Palmetto Data Center</td><td>Microsoft</td><td>在建</td><td>—</td><td>2025</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">Microsoft East Point Data Center</td><td>Microsoft</td><td>在建</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">Microsoft Douglasville Campus</td><td>Microsoft</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">Google Douglas County Data Center</td><td>Google</td><td>运营中</td><td>247 MW</td><td>2007</td></tr>
+<tr><td>GA</td><td>Butts</td><td class="pn">AWS Butts County Data Center Program</td><td>Amazon Web Services</td><td>规划</td><td>69 MW</td><td>2028</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">AWS Douglas County Data Center Program</td><td>Amazon Web Services</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">DataBank Lithia Springs Campus</td><td>DataBank</td><td>在建</td><td>120 MW</td><td>2027</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">Vantage Douglasville Campus</td><td>Vantage Data Centers</td><td>规划</td><td>—</td><td>2025</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">Vantage Westlake Data Center</td><td>Vantage Data Centers</td><td>规划</td><td>—</td><td>2028</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">Vantage Stacks Road Data Center</td><td>Vantage Data Centers</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">Stream Data Center</td><td>Stream Data Centers</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Walton</td><td class="pn">Data Center - 0 Social Circle Parkway</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">Lithia Springs Data Center</td><td>SAC III Acquisition Co. LLC</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">Stonewall Tell Data Center</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Newton</td><td class="pn">Gregory Road Data Center</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">Rock House Road Data Center Site</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Habersham</td><td class="pn">Big Red Apple Innovation Corridor</td><td>unknown</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Digital Realty Franklin Park Campus</td><td>Digital Realty</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">STACK CHI01 Elk Grove Village</td><td>STACK Infrastructure</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>DuPage</td><td class="pn">NTT Global Data Centers Itasca</td><td>NTT Global Data Centers</td><td>已批准</td><td>50 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">T5@Chicago II Elk Grove Village</td><td>T5 Data Centers</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">CoreSite Chicago Campus</td><td>CoreSite</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Microsoft Elk Grove Village Data Center</td><td>Microsoft</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Microsoft Northlake Chicago CH1</td><td>Microsoft</td><td>运营中</td><td>158 MW</td><td>2009</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Microsoft Hoffman Estates Data Center</td><td>Microsoft</td><td>已批准</td><td>200 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">QTS Chicago Data Center</td><td>QTS</td><td>运营中</td><td>125 MW</td><td>2016</td></tr>
+<tr><td>IL</td><td>DeKalb</td><td class="pn">Meta DeKalb Data Center</td><td>Meta</td><td>运营中</td><td>48 MW</td><td>2022</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Stream Data Centers CHI I Elk Grove Village</td><td>Stream Data Centers</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Aligned ORD-01 Northlake</td><td>Aligned Data Centers</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Digital Realty Elk Grove Village Campus</td><td>Digital Realty</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Kane</td><td class="pn">CyrusOne Aurora CHI1-CHI3</td><td>CyrusOne</td><td>在建</td><td>40 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Stream Data Centers CHI II Busse</td><td>Stream Data Centers</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Metro Edge Chicago Mission Critical Facility</td><td>Metro Edge</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Elk Grove Village Property Phase 1</td><td>Elk Grove Village Property LLC</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Serverfarm CH1 Chicago</td><td>Serverfarm</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">EdgeConneX Elk Grove Village 2023 Project</td><td>EdgeConneX</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Aligned ORD-03 Elk Grove Village</td><td>Aligned Data Centers</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Lake</td><td class="pn">Chirisa Volo Data Center</td><td>Chirisa</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Equinix Elk Grove Village Data Center</td><td>Equinix</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Iron Mountain Des Plaines Data Center</td><td>Iron Mountain Data Centers</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">T5@Chicago III Northlake</td><td>T5 Data Centers</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Kendall</td><td class="pn">CyrusOne Aurora III</td><td>CyrusOne</td><td>在建</td><td>40 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>DuPage</td><td class="pn">CyrusOne Wood Dale Data Center</td><td>CyrusOne</td><td>在建</td><td>—</td><td>2027</td></tr>
+<tr><td>IL</td><td>Kendall</td><td class="pn">CyrusOne Yorkville Technology Campus</td><td>CyrusOne</td><td>在建</td><td>600 MW</td><td>2026</td></tr>
+<tr><td>IL</td><td>Lake</td><td class="pn">T5 Grayslake Data Center Campus</td><td>T5 Data Centers</td><td>在建</td><td>480 MW</td><td>2027</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Centersquare ORD2 Elk Grove Village</td><td>Centersquare</td><td>已批准</td><td>50 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>DuPage</td><td class="pn">Centersquare ORD4 Lisle</td><td>Centersquare</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Oracle Elk Grove Village Data Center</td><td>Oracle</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">HydraVault Chicago Data Center</td><td>HydraVault</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">EdgeConneX Elk Grove Village 2025 Project</td><td>EdgeConneX</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Stream Data Centers CHI III Elk Grove Village</td><td>Stream Data Centers</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Kendall</td><td class="pn">Project Cardinal Yorkville</td><td>Pioneer Development</td><td>规划</td><td>1800 MW</td><td>2029</td></tr>
+<tr><td>IL</td><td>Kendall</td><td class="pn">Project Steel Yorkville Data Center Campus</td><td>Prologis</td><td>已批准</td><td>—</td><td>2027</td></tr>
+<tr><td>IL</td><td>Will</td><td class="pn">Joliet Technology Center</td><td>PowerHouse Data Centers / Hillwood</td><td>已批准</td><td>1800 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Sangamon</td><td class="pn">CyrusOne Springfield Data Center</td><td>CyrusOne</td><td>已批准</td><td>600 MW</td><td>2027</td></tr>
+<tr><td>IL</td><td>Grundy</td><td class="pn">Morris Technology Park</td><td>Tract</td><td>已公告</td><td>1000 MW</td><td>2028</td></tr>
+<tr><td>IL</td><td>Logan</td><td class="pn">Logan Prairie Data Center</td><td>Hut 8</td><td>规划</td><td>500 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Madison</td><td class="pn">Cloverleaf Troy Data Center</td><td>Cloverleaf Infrastructure</td><td>规划</td><td>500 MW</td><td>2028</td></tr>
+<tr><td>IL</td><td>Grundy</td><td class="pn">Cielo Minooka Data Center</td><td>Cielo Digital Infrastructure</td><td>规划</td><td>500 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Will</td><td class="pn">Cielo New Lenox Data Center</td><td>Cielo Digital Infrastructure</td><td>规划</td><td>300 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Grundy</td><td class="pn">Equinix Minooka Data Center</td><td>Equinix</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Will/Grundy</td><td class="pn">Braidwood Data Center Campus</td><td>Western Hospitality Partners / Found Digital</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Prime Data Centers ORD01-01</td><td>Prime Data Centers</td><td>运营中</td><td>94 MW</td><td>2025</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">ORD Campus</td><td>Unknown</td><td>规划</td><td>252 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>St. Joseph</td><td class="pn">AWS New Carlisle Data Center Campus</td><td>Amazon Web Services</td><td>在建</td><td>2250 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Northern Indiana</td><td class="pn">Amazon Northern Indiana Data Center Campuses</td><td>Amazon Web Services</td><td>已公告</td><td>2400 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Jasper</td><td class="pn">AWS Wheatfield Data Center Campus</td><td>Amazon Web Services</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Porter</td><td class="pn">Amazon Portage Data Center</td><td>Amazon Web Services</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Amazon Hobart Data Center Campus</td><td>Amazon Data Services</td><td>在建</td><td>2119 MW</td><td>2027</td></tr>
+<tr><td>IN</td><td>Allen</td><td class="pn">Google Fort Wayne Data Center</td><td>Google</td><td>运营中</td><td>—</td><td>2025</td></tr>
+<tr><td>IN</td><td>LaPorte</td><td class="pn">Google Michigan City Data Center</td><td>Google</td><td>在建</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Morgan</td><td class="pn">Google Monrovia Data Center Campus</td><td>Google</td><td>规划</td><td>1200 MW</td><td>2026</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">Google Southeast Marion County Data Center</td><td>Google</td><td>未知</td><td>400 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>LaPorte</td><td class="pn">Microsoft La Porte Data Center Campus</td><td>Microsoft</td><td>在建</td><td>538 MW</td><td>2029</td></tr>
+<tr><td>IN</td><td>St. Joseph</td><td class="pn">Microsoft Granger Data Center Campus</td><td>Microsoft</td><td>在建</td><td>1000 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Clark</td><td class="pn">Meta Jeffersonville Data Center</td><td>Meta</td><td>在建</td><td>200 MW</td><td>2026</td></tr>
+<tr><td>IN</td><td>Boone</td><td class="pn">Meta Lebanon Data Center</td><td>Meta</td><td>在建</td><td>1000 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Digital Crossroad DX-1</td><td>Digital Crossroad</td><td>运营中</td><td>20 MW</td><td>2020</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">CoreWeave Digital Crossroads Expansion</td><td>CoreWeave / Decennial Group</td><td>已批准</td><td>180 MW</td><td>2027</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">SLG/Digital Crossroads Hammond Campus</td><td>Digital Crossroads</td><td>规划</td><td>260 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">DataBank IND1 Downtown Indianapolis</td><td>DataBank</td><td>运营中</td><td>2.1 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">DataBank IND2 Downtown Indianapolis</td><td>DataBank</td><td>运营中</td><td>3.75 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">US Signal IN01 Indianapolis Data Center</td><td>US Signal</td><td>运营中</td><td>0.25 MW</td><td>2000</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">US Signal IN02 Indianapolis Data Center</td><td>US Signal</td><td>运营中</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>St. Joseph</td><td class="pn">US Signal IN03 South Bend Data Center</td><td>US Signal</td><td>运营中</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">Metrobloks Indianapolis IND-A1</td><td>Metrobloks</td><td>已批准</td><td>72 MW</td><td>2027</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">DC BLOX Thunderbird Indianapolis Campus</td><td>DC BLOX</td><td>已批准</td><td>100 MW</td><td>2028</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">Sabey Indianapolis Decatur Township Data Center</td><td>Sabey Data Centers</td><td>已批准</td><td>250 MW</td><td>2026</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Sentinel Hebron Data Center</td><td>Sentinel Data Centers</td><td>规划</td><td>504 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">PowerHouse Hobart</td><td>PowerHouse Data Centers</td><td>规划</td><td>450 MW</td><td>2027</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Hobart Devco Data Center</td><td>Hobart Devco</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Wylie Capital Hobart Data Center</td><td>Wylie Capital</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Karis Critical Merrillville Data Center</td><td>Karis Critical</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Province Group Merrillville Data Center</td><td>Province Group</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Wylie Capital Merrillville Data Center</td><td>Wylie Capital</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Elkhart</td><td class="pn">Takanock Goshen Data Center</td><td>Takanock</td><td>规划</td><td>1500 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Shelby</td><td class="pn">Prologis Shelbyville Data Center</td><td>Prologis</td><td>规划</td><td>900 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Allen</td><td class="pn">New Haven Data Center</td><td></td><td>规划</td><td>500 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Clay</td><td class="pn">Brazil Data Center</td><td></td><td>rumor</td><td>400 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Gibson/Posey</td><td class="pn">Gibson/Posey County Data Center</td><td></td><td>规划</td><td>600 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Decatur</td><td class="pn">Jumping Bison Greensburg Data Center</td><td>Jumping Bison LLC</td><td>规划</td><td>50 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Henry</td><td class="pn">Surge Development Knightstown Data Center</td><td>Surge Development</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Jefferson</td><td class="pn">Marble Hill Data Center</td><td></td><td>规划</td><td>310 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>LaPorte</td><td class="pn">Kingsbury Data Center</td><td></td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Spencer</td><td class="pn">Dale Data Center</td><td></td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>St. Joseph</td><td class="pn">New Carlisle Northeast Data Center</td><td></td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>White</td><td class="pn">Wolcott Data Center</td><td></td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Hancock</td><td class="pn">McCordsville Data Center</td><td></td><td>rumor</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Gary Data Center</td><td></td><td>rumor</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Starke</td><td class="pn">Abei Energy Knox Data Center</td><td>Abei Energy</td><td>rumor</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Clinton</td><td class="pn">Logistix Frankfort Data Center</td><td>Logistix</td><td>未知</td><td>300 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Elkhart</td><td class="pn">Province Group Bristol Data Center</td><td>Province Group</td><td>未知</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Hancock</td><td class="pn">Surge Development Greenfield MegaSite</td><td>Surge Development</td><td>未知</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Hendricks</td><td class="pn">Vantage Pittsboro Data Center Campus</td><td>Vantage Data Centers</td><td>未知</td><td>600 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Hendricks</td><td class="pn">Vantage IN11</td><td>Vantage Data Centers</td><td>规划</td><td>256 MW</td><td>2028</td></tr>
+<tr><td>IN</td><td>Hendricks</td><td class="pn">Vantage IN13</td><td>Vantage Data Centers</td><td>规划</td><td>48 MW</td><td>2029</td></tr>
+<tr><td>IN</td><td>Kosciusko</td><td class="pn">Prologis Leesburg Data Center</td><td>Prologis</td><td>未知</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Monroe</td><td class="pn">Digital Resources Ellettsville Data Center</td><td>Digital Resources Acquisitions LLC</td><td>未知</td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Porter</td><td class="pn">Provident Realty Burns Harbor Data Center</td><td>Provident Realty</td><td>未知</td><td>—</td><td>—</td></tr>
+<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Richmond County Data Center Campus</td><td>Amazon Web Services</td><td>在建</td><td>1300 MW</td><td>2027</td></tr>
+<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Blue Marlin - Building 1</td><td>Amazon Web Services</td><td>规划</td><td>65 MW</td><td>2027</td></tr>
+<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Blue Marlin - Building 2</td><td>Amazon Web Services</td><td>规划</td><td>65 MW</td><td>2027</td></tr>
+<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Blue Marlin - Building 3</td><td>Amazon Web Services</td><td>规划</td><td>65 MW</td><td>2027</td></tr>
+<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Blue Marlin - Building 20</td><td>Amazon Web Services</td><td>规划</td><td>65 MW</td><td>2032</td></tr>
+<tr><td>NC</td><td>Catawba</td><td class="pn">Microsoft Catawba County Data Center Program</td><td>Microsoft</td><td>在建</td><td>448 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Person</td><td class="pn">Microsoft Person County Mega Park Data Center Campus</td><td>Microsoft</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>NC</td><td>Caldwell</td><td class="pn">Google Lenoir - Building 1</td><td>Google</td><td>运营中</td><td>39 MW</td><td>2008</td></tr>
+<tr><td>NC</td><td>Caldwell</td><td class="pn">Google Lenoir - Building 2</td><td>Google</td><td>运营中</td><td>72 MW</td><td>2011</td></tr>
+<tr><td>NC</td><td>Caldwell</td><td class="pn">Google Lenoir - Building 3</td><td>Google</td><td>运营中</td><td>148 MW</td><td>2015</td></tr>
+<tr><td>NC</td><td>Caldwell</td><td class="pn">Google Lenoir - Building 4</td><td>Google</td><td>在建</td><td>91 MW</td><td>2026</td></tr>
+<tr><td>NC</td><td>Catawba</td><td class="pn">Apple Maiden Data Center Campus</td><td>Apple</td><td>运营中</td><td>223.5 MW</td><td>2009</td></tr>
+<tr><td>NC</td><td>Rutherford</td><td class="pn">Meta Forest City Data Center Campus</td><td>Meta</td><td>运营中</td><td>150 MW</td><td>2012</td></tr>
+<tr><td>NC</td><td>Cherokee</td><td class="pn">Core Scientific Marble Data Center</td><td>Core Scientific</td><td>运营中</td><td>117 MW</td><td>2026</td></tr>
+<tr><td>NC</td><td>Rockingham</td><td class="pn">WhiteFiber NC-1 Madison AI Data Center Campus</td><td>Bit Digital / WhiteFiber</td><td>在建</td><td>99 MW</td><td>2026</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">PowerHouse Charlotte</td><td>PowerHouse Data Centers / Town Lane</td><td>在建</td><td>300 MW</td><td>2027</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">Digital Realty Charlotte Campus</td><td>Digital Realty</td><td>已批准</td><td>400 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">Digital Realty Charlotte CLT10</td><td>Digital Realty</td><td>运营中</td><td>12 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Wake</td><td class="pn">New Hill Digital Campus</td><td>Natelli Holdings / Natelli Investments</td><td>规划</td><td>300 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Chatham</td><td class="pn">Eco TIP West Data Center</td><td>Eco TIP West LLC / Lee-Moore Capital</td><td>规划</td><td>750 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Stokes</td><td class="pn">Project Delta</td><td>Engineered Land Solutions</td><td>规划</td><td>300 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Edgecombe</td><td class="pn">Kingsboro Data Center Campus</td><td>Energy Storage Solutions</td><td>未知</td><td>900 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Edgecombe</td><td class="pn">Energy Storage Solutions Tarboro Data Center</td><td>Energy Storage Solutions</td><td>未知</td><td>100 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Cumberland</td><td class="pn">Fayetteville NetZero Campus</td><td>Energy Storage Solutions</td><td>规划</td><td>50 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Iredell</td><td class="pn">Mooresville Technology Park</td><td>Tract</td><td>未知</td><td>—</td><td>—</td></tr>
+<tr><td>NC</td><td>Iredell</td><td class="pn">Compass Statesville Data Center</td><td>Compass Datacenters</td><td>已批准</td><td>500 MW</td><td>2028</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">5CDC Charlotte - CLT01</td><td>5C Group Inc.</td><td>规划</td><td>1600 MW</td><td>2026</td></tr>
+<tr><td>NC</td><td>Guilford</td><td class="pn">Raeden Gateway Research Park Data Center</td><td>ImpactData / Raeden</td><td>规划</td><td>300 MW</td><td>2026</td></tr>
+<tr><td>NC</td><td>Burke</td><td class="pn">DigiPowerX Hildebran Data Center</td><td>DigiPower X</td><td>规划</td><td>200 MW</td><td>2028</td></tr>
+<tr><td>NC</td><td>Lee</td><td class="pn">PointOne / CyrusOne Lee County Data Center</td><td>PointOne Data Centers / CyrusOne</td><td>规划</td><td>90 MW</td><td>2028</td></tr>
+<tr><td>NC</td><td>Cleveland</td><td class="pn">T5 Charlotte Campus</td><td>T5 Data Centers</td><td>运营中</td><td>180 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Guilford</td><td class="pn">DC BLOX High Point Data Center</td><td>DC BLOX</td><td>规划</td><td>18 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Durham</td><td class="pn">CyrusOne DUR1 Raleigh-Durham</td><td>CyrusOne</td><td>运营中</td><td>50 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Catawba</td><td class="pn">Data Journey Catawba County Data Center</td><td>Data Journey</td><td>运营中</td><td>30 MW</td><td>2024</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">Five 9s Digital Charlotte Gateway Data Center</td><td>Five 9s Digital</td><td>运营中</td><td>20 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">Flexential Charlotte - North</td><td>Flexential</td><td>运营中</td><td>20 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Wake</td><td class="pn">TierPoint Raleigh - RTP Data Center</td><td>TierPoint</td><td>运营中</td><td>8 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Wake</td><td class="pn">TierPoint Raleigh Data Center</td><td>TierPoint</td><td>运营中</td><td>10 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Johnston</td><td class="pn">Tarheel Cloud Data Center</td><td>Tarheel Media</td><td>运营中</td><td>15 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">CENTRA Charlotte CLT1</td><td>CENTRA</td><td>运营中</td><td>5 MW</td><td>—</td></tr>
+<tr><td>OH</td><td>Pike</td><td class="pn">SB Energy PORTS Technology Campus AI Data Center</td><td>SB Energy / SoftBank Group</td><td>在建</td><td>10000 MW</td><td>2028</td></tr>
+<tr><td>OH</td><td>Trumbull</td><td class="pn">Stargate Lordstown AI Data Center Site</td><td>OpenAI / Oracle / SoftBank</td><td>已公告</td><td>—</td><td>—</td></tr>
+<tr><td>OH</td><td>Portage</td><td class="pn">Bitdeer Shalersville Data Center Campus</td><td>Bitdeer Technologies Group / Geis Companies</td><td>规划</td><td>750 MW</td><td>2029</td></tr>
+<tr><td>OH</td><td>Coshocton</td><td class="pn">Aligned Conesville Industrial Park Campus</td><td>Aligned Data Centers</td><td>在建</td><td>—</td><td>—</td></tr>
+<tr><td>OH</td><td>Erie</td><td class="pn">Aligned NEO-01 Perkins Township Campus</td><td>Aligned Data Centers</td><td>在建</td><td>200 MW</td><td>2026</td></tr>
+<tr><td>OH</td><td>Cuyahoga</td><td class="pn">Lakeland Equity Group Slavic Village Data Center</td><td>Lakeland Equity Group</td><td>已批准</td><td>150 MW</td><td>—</td></tr>
+<tr><td>OH</td><td>Franklin/Licking</td><td class="pn">Google New Albany Data Center Campus</td><td>Google</td><td>运营中</td><td>—</td><td>2019</td></tr>
+<tr><td>OH</td><td>Fairfield</td><td class="pn">Google Lancaster Data Center Campus</td><td>Google</td><td>运营中</td><td>—</td><td>2024</td></tr>
+<tr><td>OH</td><td>Franklin</td><td class="pn">Google Columbus / Lockbourne Data Center Campus</td><td>Google</td><td>在建</td><td>—</td><td>2025</td></tr>
+<tr><td>OH</td><td>Scioto</td><td class="pn">Google Franklin Furnace Data Center</td><td>Google</td><td>规划</td><td>—</td><td>2030</td></tr>
+<tr><td>OH</td><td>Allen</td><td class="pn">Google Lima / Allen County Data Center</td><td>Google</td><td>在建</td><td>—</td><td>2030</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Google Harrison Road NW Potential Data Center Site</td><td>Google</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>OH</td><td>Franklin/Licking</td><td class="pn">Meta New Albany Data Center Campus</td><td>Meta</td><td>运营中</td><td>—</td><td>2020</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Meta Prometheus AI Supercluster</td><td>Meta</td><td>在建</td><td>1000 MW</td><td>2026</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Amazon Web Services New Albany Campus Expansion</td><td>Amazon Web Services</td><td>在建</td><td>—</td><td>2025</td></tr>
+<tr><td>OH</td><td>Franklin</td><td class="pn">Amazon Web Services Hilliard Scioto Darby Campus</td><td>Amazon Web Services</td><td>在建</td><td>73 MW</td><td>2025</td></tr>
+<tr><td>OH</td><td>Delaware</td><td class="pn">Amazon Web Services Sunbury Campus</td><td>Amazon Web Services</td><td>规划</td><td>—</td><td>2034</td></tr>
+<tr><td>OH</td><td>Union</td><td class="pn">Amazon Web Services Marysville Innovation Park Campus</td><td>Amazon Web Services</td><td>已批准</td><td>—</td><td>2027</td></tr>
+<tr><td>OH</td><td>Union</td><td class="pn">Marysville South Data Center Project Area</td><td></td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>OH</td><td>Clinton</td><td class="pn">Amazon Web Services Wilmington Data Center Campus</td><td>Amazon Web Services</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Microsoft New Albany Datacenter</td><td>Microsoft</td><td>在建</td><td>—</td><td>2027</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Microsoft Heath Datacenter</td><td>Microsoft</td><td>在建</td><td>—</td><td>2026</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Microsoft Hebron Datacenter</td><td>Microsoft</td><td>在建</td><td>—</td><td>2026</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Cologix Johnstown AI-Ready Campus</td><td>Cologix</td><td>规划</td><td>800 MW</td><td>—</td></tr>
+<tr><td>OH</td><td>Franklin</td><td class="pn">Cologix Columbus COL4 / Columbus Portfolio</td><td>Cologix</td><td>运营中</td><td>80 MW</td><td>2025</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">QTS New Albany 1 and New Albany 2 Campus</td><td>QTS Data Centers</td><td>在建</td><td>222 MW</td><td>2025</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">QTS Babbitt Road / Miller Road Expansion</td><td>QTS Data Centers</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Vantage OH1 New Albany Campus</td><td>Vantage Data Centers</td><td>在建</td><td>192 MW</td><td>2025</td></tr>
+<tr><td>OH</td><td>Franklin/Licking</td><td class="pn">STACK Infrastructure NAL01 Campus</td><td>STACK Infrastructure</td><td>运营中</td><td>60 MW</td><td>—</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">EdgeConneX New Albany / Johnstown South Campus</td><td>EdgeConneX</td><td>规划</td><td>224 MW</td><td>2026</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">CyrusOne New Albany COL-1</td><td>CyrusOne</td><td>在建</td><td>180 MW</td><td>2027</td></tr>
+<tr><td>OH</td><td>Franklin/Licking</td><td class="pn">Edged Columbus Data Center</td><td>Edged Energy / Edged US</td><td>运营中</td><td>24 MW</td><td>2025</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Karis Critical New Albany Data Center Site</td><td>Karis Critical</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>TX</td><td>Taylor</td><td class="pn">Stargate Abilene / Lancium Clean Campus</td><td>Crusoe; Lancium; Oracle; OpenAI</td><td>在建</td><td>1200 MW</td><td>2025</td></tr>
+<tr><td>TX</td><td>Shackelford</td><td class="pn">Vantage Frontier Campus</td><td>Vantage Data Centers; Oracle; OpenAI</td><td>在建</td><td>1400 MW</td><td>2026</td></tr>
+<tr><td>TX</td><td>Milam</td><td class="pn">Stargate Milam / Freebird Data Center</td><td>SB Energy; OpenAI; SoftBank</td><td>在建</td><td>1200 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Hale</td><td class="pn">Aligned Project Caprock</td><td>Aligned</td><td>在建</td><td>540 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Carson</td><td class="pn">Fermi Project Matador / HyperGrid Campus</td><td>Fermi America; Texas Tech University System</td><td>已公告</td><td>11000 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Pecos</td><td class="pn">GW Ranch / Amazon Pecos County Campus</td><td>Amazon Web Services; Pacifico Energy</td><td>规划</td><td>7650 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Reeves</td><td class="pn">Microsoft Pecos Datacenter Campus</td><td>Microsoft; Chevron; Engine No. 1</td><td>规划</td><td>2000 MW</td><td>2028</td></tr>
+<tr><td>TX</td><td>Reeves</td><td class="pn">Alpha Digital Campus</td><td>PowerBridge; LandBridge; Liberty Energy</td><td>规划</td><td>2000 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Pecos</td><td class="pn">Project Horizon</td><td>Poolside AI; formerly CoreWeave as anchor tenant</td><td>已公告</td><td>2000 MW</td><td>—</td></tr>
+<tr><td>TX</td><td>Pecos</td><td class="pn">Amazon Fort Stockton Data Center Campus</td><td>Amazon Data Services</td><td>规划</td><td>—</td><td>2026</td></tr>
+<tr><td>TX</td><td>Floyd</td><td class="pn">Amazon Floydada Data Center Campus</td><td>Amazon Data Services</td><td>规划</td><td>—</td><td>2026</td></tr>
+<tr><td>TX</td><td>Wharton</td><td class="pn">Amazon Boling Campus Expansion</td><td>Amazon Data Services</td><td>规划</td><td>—</td><td>2026</td></tr>
+<tr><td>TX</td><td>Ellis</td><td class="pn">Google Midlothian Data Center Campus</td><td>Google</td><td>运营中</td><td>100 MW</td><td>2022</td></tr>
+<tr><td>TX</td><td>Ellis</td><td class="pn">Google Red Oak Data Center Campus</td><td>Google</td><td>运营中</td><td>107 MW</td><td>2025</td></tr>
+<tr><td>TX</td><td>Armstrong</td><td class="pn">Google Armstrong County Campus / Goodnight</td><td>Google; Crusoe Energy</td><td>在建</td><td>933 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Haskell</td><td class="pn">Google Haskell County Campus North</td><td>Google</td><td>规划</td><td>—</td><td>2027</td></tr>
+<tr><td>TX</td><td>Haskell</td><td class="pn">Google Haskell County Campus with Solar and Battery</td><td>Google</td><td>规划</td><td>—</td><td>2027</td></tr>
+<tr><td>TX</td><td>Gray</td><td class="pn">Google Meitner Energy Center / Pampa Data Center</td><td>Google; Intersect</td><td>在建</td><td>—</td><td>2028</td></tr>
+<tr><td>TX</td><td>Wilbarger</td><td class="pn">Google Wilbarger County Campus</td><td>Google</td><td>规划</td><td>—</td><td>2028</td></tr>
+<tr><td>TX</td><td>Nueces</td><td class="pn">Hut 8 Beacon Point AI Data Center Campus</td><td>Hut 8</td><td>规划</td><td>1000 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Ector</td><td class="pn">Texas Critical Ector Data Center</td><td>Texas Critical Data Centers; New Era Energy &amp; Digital; Sharon AI</td><td>规划</td><td>250 MW</td><td>—</td></tr>
+<tr><td>TX</td><td>Borden</td><td class="pn">SB Energy Borden County Data Center Campus</td><td>SB Energy</td><td>在建</td><td>1000 MW</td><td>—</td></tr>
+<tr><td>TX</td><td>Tarrant</td><td class="pn">Meta Fort Worth Data Center Campus</td><td>Meta</td><td>运营中</td><td>—</td><td>2015</td></tr>
+<tr><td>TX</td><td>Bell</td><td class="pn">Meta Temple Data Center</td><td>Meta</td><td>运营中</td><td>152 MW</td><td>2026</td></tr>
+<tr><td>TX</td><td>Medina</td><td class="pn">Microsoft Castroville SAT82 Data Center</td><td>Microsoft</td><td>规划</td><td>—</td><td>2028</td></tr>
+<tr><td>TX</td><td>Medina</td><td class="pn">Microsoft County Road 381 Campus</td><td>Microsoft</td><td>在建</td><td>—</td><td>2027</td></tr>
+<tr><td>TX</td><td>Medina</td><td class="pn">CyrusOne SAT14A Castroville Campus</td><td>CyrusOne</td><td>在建</td><td>—</td><td>2027</td></tr>
+<tr><td>TX</td><td>Milam</td><td class="pn">Riot Platforms Rockdale Campus</td><td>Riot Platforms</td><td>运营中</td><td>700 MW</td><td>2020</td></tr>
+<tr><td>TX</td><td>Navarro</td><td class="pn">Riot Platforms Corsicana Campus</td><td>Riot Platforms</td><td>运营中</td><td>1000 MW</td><td>—</td></tr>
+<tr><td>TX</td><td>Childress</td><td class="pn">IREN Childress Data Center</td><td>IREN</td><td>运营中</td><td>750 MW</td><td>2023</td></tr>
+<tr><td>TX</td><td>Oldham</td><td class="pn">Hut 8 Vega Data Center</td><td>Hut 8</td><td>运营中</td><td>205 MW</td><td>2025</td></tr>
+<tr><td>TX</td><td>Dickens</td><td class="pn">Galaxy Helios AI &amp; HPC Campus</td><td>Galaxy Digital</td><td>运营中</td><td>200 MW</td><td>2026</td></tr>
+<tr><td>TX</td><td>Ector</td><td class="pn">Cipher Odessa Data Center</td><td>Cipher Mining</td><td>运营中</td><td>207 MW</td><td>2022</td></tr>
+<tr><td>TX</td><td>Mitchell</td><td class="pn">Cipher Barber Lake Data Center</td><td>Cipher Mining</td><td>规划</td><td>300 MW</td><td>—</td></tr>
+<tr><td>TX</td><td>Winkler</td><td class="pn">Cipher Black Pearl Data Center</td><td>Cipher Mining</td><td>规划</td><td>300 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Box Elder</td><td class="pn">Wonder Valley (Stratos Project) - Phase 1</td><td>O&#x27;Leary Digital</td><td>已批准</td><td>3000 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Box Elder</td><td class="pn">Wonder Valley (Stratos Project) - Phase 2 Expansion</td><td>O&#x27;Leary Digital</td><td>规划</td><td>6000 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Millard</td><td class="pn">High Performance Compute Data Center Campus</td><td>Joule Capital Partners</td><td>已批准</td><td>4000 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Millard</td><td class="pn">Delta Gigasite - Phase 1</td><td>Creekstone Energy</td><td>在建</td><td>300 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Millard</td><td class="pn">Delta Gigasite - Expansion</td><td>Creekstone Energy</td><td>规划</td><td>9700 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Iron</td><td class="pn">Red Butte Data Center</td><td>BrightNight</td><td>已公告</td><td>1500 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Iron</td><td class="pn">Antelope Data Center</td><td>Pronghorn Development LLP</td><td>规划</td><td>1500 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Tooele</td><td class="pn">CyrusOne Dugway Proving Ground</td><td>CyrusOne</td><td>已公告</td><td>1000 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Duchesne</td><td class="pn">Nine Mile Data Center</td><td>Energence</td><td>已批准</td><td>400 MW</td><td>2029</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Tract Pole Canyon</td><td>Tract</td><td>规划</td><td>1700 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Tract Pony Express</td><td>Tract</td><td>规划</td><td>120 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-1</td><td>QTS</td><td>在建</td><td>177 MW</td><td>2027</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-2</td><td>QTS</td><td>在建</td><td>177 MW</td><td>2026</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-3</td><td>QTS</td><td>在建</td><td>177 MW</td><td>2026</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-4</td><td>QTS</td><td>在建</td><td>177 MW</td><td>2028</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-5</td><td>QTS</td><td>在建</td><td>177 MW</td><td>2029</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Google Eagle Mountain</td><td>Google</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 1</td><td>Meta</td><td>运营中</td><td>48 MW</td><td>2020</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 2</td><td>Meta</td><td>运营中</td><td>48 MW</td><td>2020</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 3</td><td>Meta</td><td>运营中</td><td>48 MW</td><td>2021</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 4</td><td>Meta</td><td>运营中</td><td>48 MW</td><td>2022</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 5</td><td>Meta</td><td>运营中</td><td>48 MW</td><td>2023</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 6</td><td>Meta</td><td>运营中</td><td>99 MW</td><td>2025</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 7</td><td>Meta</td><td>运营中</td><td>99 MW</td><td>2025</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Stadion South Expansion</td><td>Meta</td><td>规划</td><td>286 MW</td><td>2027</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">West Jordan Campus - Phase 1</td><td>Novva</td><td>运营中</td><td>120 MW</td><td>2023</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">West Jordan Campus - Phase 2</td><td>Novva</td><td>在建</td><td>75 MW</td><td>2026</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">West Jordan Campus - Phase 3</td><td>Novva</td><td>在建</td><td>72 MW</td><td>2026</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">Aligned Salt Lake SLC 01</td><td>Aligned</td><td>运营中</td><td>34 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">Aligned Salt Lake SLC 02</td><td>Aligned</td><td>运营中</td><td>48 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">Aligned Salt Lake SLC 03</td><td>Aligned</td><td>运营中</td><td>100 MW</td><td>2022</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">Aligned Salt Lake SLC 04</td><td>Aligned</td><td>运营中</td><td>—</td><td>—</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">Granite Point Data Center: SLC6</td><td>DataBank</td><td>运营中</td><td>34 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">Oracle West Jordan (Project Sequoia)</td><td>Oracle</td><td>运营中</td><td>28 MW</td><td>2012</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">eBay Topaz SLC01</td><td>eBay</td><td>运营中</td><td>9 MW</td><td>2010</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">eBay Topaz SLC02</td><td>eBay</td><td>运营中</td><td>7 MW</td><td>2013</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">eBay Topaz SLC03</td><td>eBay</td><td>运营中</td><td>13 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">NSA Utah Data Center</td><td>National Security Agency</td><td>运营中</td><td>65 MW</td><td>2014</td></tr>
+<tr><td>UT</td><td>Millard</td><td class="pn">BluSky AI Delta Data Center</td><td>BluSky AI</td><td>规划</td><td>50 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Caroline</td><td class="pn">CleanArc VA1 Caroline County Campus</td><td>CleanArc Data Centers</td><td>在建</td><td>900 MW</td><td>2027</td></tr>
+<tr><td>VA</td><td>Franklin</td><td class="pn">Crusoe Franklin County Summit View Data Center</td><td>Crusoe</td><td>rumor</td><td>100 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Stafford</td><td class="pn">Vantage VA4 Fredericksburg / Stafford Campus</td><td>Vantage Data Centers</td><td>规划</td><td>192 MW</td><td>2027</td></tr>
+<tr><td>VA</td><td>Louisa</td><td class="pn">EdgeCore Shannon Hill Louisa County Campus</td><td>EdgeCore Digital Infrastructure</td><td>规划</td><td>1100 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Pittsylvania</td><td class="pn">STACK Berry Hill Megasite AI Data Campus</td><td>STACK Infrastructure</td><td>已公告</td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Goochland</td><td class="pn">Tract Tuckahoe Technology Park</td><td>Tract</td><td>规划</td><td>900 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Louisa</td><td class="pn">AWS Louisa County Technology Overlay District Campuses</td><td>Amazon Web Services</td><td>已公告</td><td>—</td><td>2040</td></tr>
+<tr><td>VA</td><td>Louisa</td><td class="pn">AWS Lake Anna Tech Campus</td><td>Amazon Data Services</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Stafford</td><td class="pn">AWS Potomac Church Tech Center</td><td>Amazon Data Services</td><td>在建</td><td>128 MW</td><td>2027</td></tr>
+<tr><td>VA</td><td>Caroline; Spotsylvania</td><td class="pn">AWS Mattameade Data Center Campus</td><td>Amazon Data Services</td><td>规划</td><td>770 MW</td><td>2027</td></tr>
+<tr><td>VA</td><td>Spotsylvania</td><td class="pn">AWS Cosner Tech Campus</td><td>Amazon Data Services</td><td>运营中</td><td>250 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Spotsylvania</td><td class="pn">AWS Carter&#x27;s Store Tech Campus</td><td>Amazon Data Services</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Spotsylvania</td><td class="pn">AWS Summit Crossing Tech Campus</td><td>Amazon Data Services</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Spotsylvania</td><td class="pn">AWS Orrock Tech Campus</td><td>Amazon Data Services</td><td>已批准</td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Spotsylvania</td><td class="pn">PowerHouse 95 Campus</td><td>PowerHouse Data Centers</td><td>在建</td><td>800 MW</td><td>2025</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">PowerHouse ABX-1</td><td>PowerHouse Data Centers</td><td>运营中</td><td>60 MW</td><td>2023</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">PowerHouse Arcola Campus</td><td>PowerHouse Data Centers</td><td>规划</td><td>120 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Vantage Ashburn I Campus</td><td>Vantage Data Centers</td><td>运营中</td><td>146 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Vantage Ashburn II Campus</td><td>Vantage Data Centers</td><td>规划</td><td>96 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Vantage Ashburn III Campus</td><td>Vantage Data Centers</td><td>规划</td><td>288 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">NTT Ashburn Data Center Campus</td><td>NTT DATA / NTT Global Data Centers</td><td>在建</td><td>224 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Digital Realty Loudoun / Ashburn Campus</td><td>Digital Realty</td><td>运营中</td><td>108 MW</td><td>2016</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Equinix Ashburn Campus</td><td>Equinix</td><td>运营中</td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Henrico</td><td class="pn">QTS Richmond 1 Campus</td><td>QTS Data Centers</td><td>在建</td><td>240 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Henrico</td><td class="pn">Meta Henrico Data Center</td><td>Meta</td><td>运营中</td><td>—</td><td>2020</td></tr>
+<tr><td>VA</td><td>Mecklenburg</td><td class="pn">Microsoft Boydton Data Center Campus</td><td>Microsoft</td><td>运营中</td><td>—</td><td>2010</td></tr>
+<tr><td>VA</td><td>Mecklenburg</td><td class="pn">Microsoft South Hill / Mecklenburg Greenfield Data Center</td><td>Microsoft</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Aligned Ashburn Campus</td><td>Aligned</td><td>在建</td><td>180 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Prince William</td><td class="pn">Iron Mountain Manassas Northern Virginia Campus</td><td>Iron Mountain Data Centers</td><td>在建</td><td>280 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">CyrusOne Sterling NVA1-NVA3 Campus</td><td>CyrusOne</td><td>运营中</td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">CyrusOne Sterling NVA5-NVA7 Campus</td><td>CyrusOne</td><td>运营中</td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">CyrusOne Sterling NVA9</td><td>CyrusOne</td><td>运营中</td><td>135 MW</td><td>2020</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Sabey SDC Ashburn Campus</td><td>Sabey Data Centers</td><td>在建</td><td>85 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">CloudHQ LC Campus</td><td>CloudHQ</td><td>规划</td><td>1700 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Yondr Northern Virginia / Project Allegro Campus</td><td>Yondr Group</td><td>在建</td><td>336 MW</td><td>2026</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">STACK NVA04 Ashburn Campus</td><td>STACK Infrastructure</td><td>规划</td><td>216 MW</td><td>2023</td></tr>
+<tr><td>VA</td><td>Prince William</td><td class="pn">STACK NVA02 Manassas Campus</td><td>STACK Infrastructure</td><td>运营中</td><td>420 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Stafford</td><td class="pn">STACK Stafford Technology Campus</td><td>STACK Infrastructure</td><td>规划</td><td>1100 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Prince William</td><td class="pn">Prince William Digital Gateway</td><td>QTS; Compass Datacenters</td><td>未知</td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Amazon GWU Virginia Science and Technology Campus Redevelopment</td><td>Amazon Data Services</td><td>已公告</td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Wise</td><td class="pn">Project Oasis / Data Center Ridge</td><td>InvestSWVA / Energy DELTA Lab</td><td>已公告</td><td>36 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Walla Walla</td><td class="pn">AWS Wallula Gap Phase 1</td><td>Amazon Data Services / Amazon Web Services</td><td>规划</td><td>300 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Walla Walla</td><td class="pn">AWS Wallula Gap Phase 2</td><td>Amazon Data Services / Amazon Web Services</td><td>规划</td><td>300 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Walla Walla</td><td class="pn">AWS Wallula Gap Phase 3</td><td>Amazon Data Services / Amazon Web Services</td><td>规划</td><td>300 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Walla Walla</td><td class="pn">AWS Wallula Gap Phase 4</td><td>Amazon Data Services / Amazon Web Services</td><td>规划</td><td>300 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Microsoft Columbia Data Center</td><td>Microsoft</td><td>运营中</td><td>50 MW</td><td>2007</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Microsoft MWH Data Center Campus</td><td>Microsoft</td><td>运营中</td><td>140.625 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Douglas</td><td class="pn">Microsoft East Wenatchee EAT02</td><td>Microsoft</td><td>运营中</td><td>57 MW</td><td>2022</td></tr>
+<tr><td>WA</td><td>Douglas</td><td class="pn">Microsoft East Wenatchee EAT06</td><td>Microsoft</td><td>规划</td><td>57 MW</td><td>2027</td></tr>
+<tr><td>WA</td><td>Douglas</td><td class="pn">Microsoft East Wenatchee EAT09</td><td>Microsoft</td><td>规划</td><td>57 MW</td><td>2028</td></tr>
+<tr><td>WA</td><td>Chelan</td><td class="pn">Microsoft Malaga EAT12</td><td>Microsoft</td><td>运营中</td><td>57 MW</td><td>2025</td></tr>
+<tr><td>WA</td><td>Chelan</td><td class="pn">Microsoft Malaga EAT13</td><td>Microsoft</td><td>规划</td><td>57 MW</td><td>2027</td></tr>
+<tr><td>WA</td><td>Chelan</td><td class="pn">Microsoft Malaga EAT14</td><td>Microsoft</td><td>规划</td><td>57 MW</td><td>2028</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Vantage WA1 Quincy Campus</td><td>Vantage Data Centers</td><td>运营中</td><td>89 MW</td><td>2023</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Vantage WA13</td><td>Vantage Data Centers</td><td>运营中</td><td>64 MW</td><td>2023</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Sabey SDC Quincy Campus</td><td>Sabey Data Centers</td><td>运营中</td><td>105.05 MW</td><td>2023</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Sabey Intergate Quincy Building E</td><td>Sabey Data Centers</td><td>规划</td><td>6 MW</td><td>2027</td></tr>
+<tr><td>WA</td><td>Douglas</td><td class="pn">Sabey SDC Columbia Campus</td><td>Sabey Data Centers</td><td>运营中</td><td>70 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Douglas</td><td class="pn">Sabey SDC Columbia Expansion</td><td>Sabey Data Centers</td><td>规划</td><td>90 MW</td><td>2025</td></tr>
+<tr><td>WA</td><td>King</td><td class="pn">Sabey SDC Seattle Campus</td><td>Sabey Data Centers</td><td>运营中</td><td>54 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>King</td><td class="pn">Sabey SDC Seattle Liquid-Cooling Capacity Addition</td><td>Sabey Data Centers</td><td>规划</td><td>6 MW</td><td>2025</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">H5 Quincy I</td><td>H5 Data Centers</td><td>运营中</td><td>40 MW</td><td>2018</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">H5 Quincy II and III Campus</td><td>H5 Data Centers</td><td>运营中</td><td>82 MW</td><td>2025</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Yahoo Quincy Data Center Expansion</td><td>Yahoo / Oath Holdings</td><td>运营中</td><td>27.75 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">CyrusOne Quincy</td><td>CyrusOne</td><td>运营中</td><td>45.75 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">NTT DATA Quincy</td><td>NTT DATA Services</td><td>运营中</td><td>42 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>King</td><td class="pn">Digital Realty Seattle SEA10</td><td>Digital Realty</td><td>运营中</td><td>13 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>King</td><td class="pn">Digital Realty 301 Virginia Street Seattle</td><td>Digital Realty</td><td>规划</td><td>—</td><td>—</td></tr>
+<tr><td>WA</td><td>King</td><td class="pn">Equinix Seattle SE2</td><td>Equinix</td><td>运营中</td><td>—</td><td>—</td></tr>
+<tr><td>WA</td><td>King</td><td class="pn">Equinix Seattle SE3</td><td>Equinix / Clise Properties</td><td>运营中</td><td>—</td><td>2013</td></tr></tbody></table>
+  </div>
+
+  <div class="sec">
+    <h2>数据源调研（28 条）</h2>
+    <table><thead><tr><th>名称</th><th>URL</th><th>可访问</th><th>认证</th><th>估计项目数</th><th>抓取方式</th></tr></thead><tbody><tr><td>Wikipedia Category:Data centers / operator pages</td><td><a href="https://en.wikipedia.org/wiki/Category:Data_centers">https://en.wikipedia.org/wiki/Category:Data_centers</a></td><td>✅</td><td>需要</td><td>20</td><td>curl/api</td></tr>
+<tr><td>Utility Dive news, RSS, search, and Data Centers and the US Grid trendline</td><td><a href="https://www.utilitydive.com/feeds/news/">https://www.utilitydive.com/feeds/news/</a></td><td>✅</td><td>需要</td><td>50</td><td>curl/web_search</td></tr>
+<tr><td>Data Center Dynamics news archive</td><td><a href="https://www.datacenterdynamics.com/en/news/">https://www.datacenterdynamics.com/en/news/</a></td><td>❌</td><td>需要</td><td>200</td><td>web_search/browser</td></tr>
+<tr><td>Virginia Economic Development Partnership press releases</td><td><a href="https://www.vedp.org/press-releases">https://www.vedp.org/press-releases</a></td><td>✅</td><td>需要</td><td>25</td><td>curl/web_search</td></tr>
+<tr><td>Indiana Economic Development Corporation news</td><td><a href="https://iedc.in.gov/events/news">https://iedc.in.gov/events/news</a></td><td>✅</td><td>需要</td><td>10</td><td>curl/web_search</td></tr>
+<tr><td>Wisconsin Economic Development Corporation news</td><td><a href="https://wedc.org/?s=data%20center">https://wedc.org/?s=data%20center</a></td><td>✅</td><td>需要</td><td>5</td><td>curl/web_search</td></tr>
+<tr><td>Permitting Council FAST-41 current portfolio and data-center press releases</td><td><a href="https://www.permitting.gov/projects/current-fast-41-portfolio">https://www.permitting.gov/projects/current-fast-41-portfolio</a></td><td>✅</td><td>需要</td><td>1</td><td>curl/web_search/api</td></tr>
+<tr><td>TrackDataCenters.com US Data Center Proposal Tracker</td><td><a href="https://trackdatacenters.com/">https://trackdatacenters.com/</a></td><td>❌</td><td>需要</td><td>100</td><td>curl/browser</td></tr>
+<tr><td>Data Center Knowledge monthly New Data Center Developments</td><td><a href="https://www.datacenterknowledge.com/search?q=new%20data%20center%20developments">https://www.datacenterknowledge.com/search?q=new%20data%20center%20developments</a></td><td>✅</td><td>需要</td><td>120</td><td>curl/web_search</td></tr>
+<tr><td>State economic development press-release portals as a repeatable class</td><td><a href="https://www.vedp.org/press-releases">https://www.vedp.org/press-releases</a></td><td>✅</td><td>需要</td><td>100</td><td>curl/web_search</td></tr>
+<tr><td>ERCOT GIS Report / Generation Interconnection Status</td><td><a href="https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER">https://www.ercot.com/mp/data-products/data-product-details?id=PG7-200-ER</a></td><td>✅</td><td>公开</td><td>1906</td><td>curl page -&gt; parse reportTypeID 15933 -&gt; curl JSON list https://www.ercot.com/misapp/servlets/IceDocListJsonWS?reportTypeId=15933 -&gt; curl XLSX via https://www.ercot.com/misdownload/servlets/mirDownload?doclookupId=1258020955</td></tr>
+<tr><td>PJM Serial/Cycle Service Request Status</td><td><a href="https://www.pjm.com/planning/service-requests/serial-service-request-status">https://www.pjm.com/planning/service-requests/serial-service-request-status</a></td><td>✅</td><td>公开</td><td>9263</td><td>curl public page -&gt; parse JS /dist/interconnectionqueues.*.js -&gt; call https://services.pjm.com/PJMPlanningApi/api//Queue/GetFilteredQueues? with api-subscription-key header E29477D0-70E0-4825-89B0-43F460BF9AB4, Origin and Referer. Metadata at QueueMetadata/getmetadata.</td></tr>
+<tr><td>MISO Generator Interconnection Queue</td><td><a href="https://www.misoenergy.org/planning/resource-utilization/GI_Queue/gi-interactive-queue/">https://www.misoenergy.org/planning/resource-utilization/GI_Queue/gi-interactive-queue/</a></td><td>✅</td><td>公开</td><td>3806</td><td>curl -L https://www.misoenergy.org/api/giqueue/getprojects</td></tr>
+<tr><td>SPP GI Active Requests</td><td><a href="https://opsportal.spp.org/Studies/GIActive">https://opsportal.spp.org/Studies/GIActive</a></td><td>✅</td><td>公开</td><td>1029</td><td>curl -L https://www.spp.org/engineering/generator-interconnection/ to discover link, then curl -L https://opsportal.spp.org/Studies/GIActive and parse HTML table.</td></tr>
+<tr><td>NYISO Interconnection Queue</td><td><a href="https://www.nyiso.com/documents/20142/1407078/NYISO-Interconnection-Queue.xlsx/f615d83e-eea6-ccf6-ec07-b4ecbe78d8ef">https://www.nyiso.com/documents/20142/1407078/NYISO-Interconnection-Queue.xlsx/f615d83e-eea6-ccf6-ec07-b4ecbe78d8ef</a></td><td>✅</td><td>公开</td><td>1941</td><td>curl -L -O direct XLSX linked from https://www.nyiso.com/interconnections</td></tr>
+<tr><td>ISO-NE Generator Interconnection Queue / IRTT Public Queue</td><td><a href="https://irtt.iso-ne.com/reports/external">https://irtt.iso-ne.com/reports/external</a></td><td>✅</td><td>公开</td><td>1751</td><td>curl -L -c cookies.txt -b cookies.txt https://irtt.iso-ne.com/reports/external; optional Excel export at https://irtt.iso-ne.com/reports/exportpublicqueue with same cookie handling.</td></tr>
+<tr><td>CAISO Public Queue Report</td><td><a href="https://www.caiso.com/documents/publicqueuereport.xlsx">https://www.caiso.com/documents/publicqueuereport.xlsx</a></td><td>✅</td><td>公开</td><td>2293</td><td>curl -L https://www.caiso.com/generation-transmission/generation/generator-interconnection to discover report, then curl -L https://www.caiso.com/documents/publicqueuereport.xlsx</td></tr>
+<tr><td>SERC regional interconnection queue</td><td><a href="https://www.serc.org/">https://www.serc.org/</a></td><td>❌</td><td>公开</td><td></td><td>curl -L https://www.serc.org/ and grep for queue/interconnection terms; inspected public homepage/navigation.</td></tr>
+<tr><td>Cleanview US Data Center Map / Project List</td><td><a href="https://www.cleanview.co/data-centers/us">https://www.cleanview.co/data-centers/us</a></td><td>✅</td><td>需要</td><td>3049</td><td>curl</td></tr>
+<tr><td>datacenterHawk</td><td><a href="https://www.datacenterhawk.com/">https://www.datacenterhawk.com/</a></td><td>❌</td><td>需要</td><td>10500</td><td>curl</td></tr>
+<tr><td>Baxtel United States Data Center Market</td><td><a href="https://baxtel.com/data-center/united-states">https://baxtel.com/data-center/united-states</a></td><td>✅</td><td>需要</td><td>5115</td><td>curl</td></tr>
+<tr><td>Data Center Map</td><td><a href="https://www.datacentermap.com/">https://www.datacentermap.com/</a></td><td>❌</td><td>需要</td><td></td><td>curl + web_search</td></tr>
+<tr><td>DC Byte Map Search / Market Analytics</td><td><a href="https://www.dcbyte.com/search-data-centres/">https://www.dcbyte.com/search-data-centres/</a></td><td>❌</td><td>需要</td><td>8300</td><td>curl</td></tr>
+<tr><td>CBRE / JLL / Broker Data Center Reports</td><td><a href="https://www.jll.com/en-us/insights/market-dynamics/north-america-data-centers">https://www.jll.com/en-us/insights/market-dynamics/north-america-data-centers</a></td><td>✅</td><td>需要</td><td></td><td>curl</td></tr>
+<tr><td>FracTracker National Data Centers Tracker</td><td><a href="https://fractracker.org/data-centers/">https://fractracker.org/data-centers/</a></td><td>✅</td><td>需要</td><td></td><td>curl</td></tr>
+<tr><td>DCMap.us US Data Center Map</td><td><a href="https://dcmap.us/">https://dcmap.us/</a></td><td>✅</td><td>需要</td><td>4800</td><td>curl</td></tr>
+<tr><td>US Data Center Proposal Tracker</td><td><a href="https://trackdatacenters.com/">https://trackdatacenters.com/</a></td><td>✅</td><td>需要</td><td></td><td>curl</td></tr>
+<tr><td>Cloudscene Data Center Directory</td><td><a href="https://cloudscene.com/data-center/united-states-of-america/ashburn/databank-nv1">https://cloudscene.com/data-center/united-states-of-america/ashburn/databank-nv1</a></td><td>✅</td><td>需要</td><td></td><td>curl + web_search</td></tr></tbody></table>
+  </div>
+
+  <div class="foot">由 dev4bot 自动渲染 · 数据来自 scripts/expansion/ · Powered by LingTai AI: https://github.com/Lingtai-AI/lingtai</div>
+</div>
+</body>
+</html>

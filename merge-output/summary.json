@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-08-11T19:48:32.160042Z",
+  "sources": {
+    "county_explore_rows": 4470,
+    "county_project_rows": 2400,
+    "state_explore_rows": 419,
+    "state_project_rows": 419,
+    "discovery_rows": 33,
+    "existing_centers": 240
+  },
+  "unified_records": 2731,
+  "matched_existing": 205,
+  "new_candidates": 2526,
+  "sqlite": {
+    "centers": 2731,
+    "sources": 8019
+  },
+  "centers_jsonl": "/Users/huangzesen/work/projects/us-dc-intel/merge-output/centers.jsonl",
+  "db_path": "/Users/huangzesen/work/projects/us-dc-intel/datacenters.db"
+}

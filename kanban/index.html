@@ -40,320 +40,27 @@ a { color:#63d3ff; text-decoration:none; word-break:break-all; }
 <body>
 <div class="wrap">
   <h1>US Data Center County Exploration Kanban · US 数据中心 county 探索看板</h1>
-  <div class="sub">Goal: explore every US county to build the widest data-center superset · 目标：全美 3,000+ county 逐一探索，构建最宽口径数据中心超集清单 · Rendered 渲染于 2026-08-11 19:12 UTC</div>
+  <div class="sub">Goal: explore every US county to build the widest data-center superset · 目标：全美 3,000+ county 逐一探索，构建最宽口径数据中心超集清单 · Rendered 渲染于 2026-08-11 19:48 UTC</div>
 
   <div class="metrics">
     <div class="metric"><div class="v">3222</div><div class="l">Total US counties · 全美 county 总数</div></div>
     <div class="metric"><div class="v">323</div><div class="l">Exploration batches (10 per batch) · 探索批次（每批 10 县）</div></div>
-    <div class="metric"><div class="v">30</div><div class="l">Completed batches · 已完成批次</div><div class="bar"><div style="width:9.3%"></div></div><div style="font-size:11px;color:var(--mut)">9.3%</div></div>
-    <div class="metric"><div class="v">300</div><div class="l">Counties explored · 已完成 county</div><div class="bar"><div style="width:9.3%"></div></div><div style="font-size:11px;color:var(--mut)">9.3%</div></div>
-    <div class="metric"><div class="v">218</div><div class="l">Projects found (county) · county 探索发现项目</div></div>
+    <div class="metric"><div class="v">323</div><div class="l">Completed batches · 已完成批次</div><div class="bar"><div style="width:100.0%"></div></div><div style="font-size:11px;color:var(--mut)">100.0%</div></div>
+    <div class="metric"><div class="v">3222</div><div class="l">Counties explored · 已完成 county</div><div class="bar"><div style="width:100.0%"></div></div><div style="font-size:11px;color:var(--mut)">100.0%</div></div>
+    <div class="metric"><div class="v">2400</div><div class="l">Projects found (county) · county 探索发现项目</div></div>
     <div class="metric"><div class="v">419</div><div class="l">State-level projects · 州级探索项目</div></div>
     <div class="metric"><div class="v">28</div><div class="l">Data sources researched · 数据源调研条目</div></div>
   </div>
 
   <div class="sec">
     <h2>Status distribution (county finds, first 30 batches) · 探索进度状态分布（county 发现，前 30 批）</h2>
-    <div class="buckets"><div class="bucket"><b>运营中 / Operational</b> <span class="cnt">97</span></div><div class="bucket"><b>在建 / Under Construction</b> <span class="cnt">23</span></div><div class="bucket"><b>规划 / Planned</b> <span class="cnt">45</span></div><div class="bucket"><b>已批准 / Approved</b> <span class="cnt">17</span></div><div class="bucket"><b>已公告 / Announced</b> <span class="cnt">14</span></div><div class="bucket"><b>已否决 / Rejected</b> <span class="cnt">14</span></div><div class="bucket"><b>未知 / Unknown</b> <span class="cnt">8</span></div></div>
+    <div class="buckets"><div class="bucket"><b>运营中 / Operational</b> <span class="cnt">864</span></div><div class="bucket"><b>在建 / Under Construction</b> <span class="cnt">236</span></div><div class="bucket"><b>规划 / Planned</b> <span class="cnt">639</span></div><div class="bucket"><b>已批准 / Approved</b> <span class="cnt">194</span></div><div class="bucket"><b>已公告 / Announced</b> <span class="cnt">155</span></div><div class="bucket"><b>已否决 / Rejected</b> <span class="cnt">167</span></div><div class="bucket"><b>未知 / Unknown</b> <span class="cnt">145</span></div></div>
   </div>
 
   <div class="sec">
-    <h2>Batch board · 批次看板（Done 已完成 30 / Total 总 323）</h2>
+    <h2>Batch board · 批次看板（Done 已完成 323 / Total 总 323）</h2>
     <div class="board">
-      <div class="col"><h3>⏳ Pending / In progress 待探索 / 探索中（293 批）</h3><div class="card pend"><span class="bidx">batch-030</span> CO · Saguache County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-031</span> CT · Greater Bridgeport Planning Region 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-032</span> DE · New Castle County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-033</span> FL · Citrus County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-034</span> FL · Gadsden County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-035</span> FL · Holmes County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-036</span> FL · Madison County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-037</span> FL · Osceola County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-038</span> FL · St. Lucie County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-039</span> GA · Atkinson County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-040</span> GA · Bleckley County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-041</span> GA · Carroll County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-042</span> GA · Clinch County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-043</span> GA · Dawson County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-044</span> GA · Elbert County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-045</span> GA · Glascock County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-046</span> GA · Harris County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-047</span> GA · Jenkins County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-048</span> GA · Lowndes County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-049</span> GA · Monroe County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-050</span> GA · Pickens County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-051</span> GA · Rockdale County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-052</span> GA · Tattnall County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-053</span> GA · Turner County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-054</span> GA · Webster County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-055</span> HI · Kalawao County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-056</span> IA · Boone County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-057</span> IA · Cherokee County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-058</span> IA · Delaware County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-059</span> IA · Grundy County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-060</span> IA · Iowa County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-061</span> IA · Louisa County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-062</span> IA · Monroe County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-063</span> IA · Pottawattamie County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-064</span> IA · Union County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-065</span> IA · Worth County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-066</span> ID · Bonner County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-067</span> ID · Custer County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-068</span> ID · Latah County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-069</span> ID · Power County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-070</span> IL · Brown County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-071</span> IL · Coles County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-072</span> IL · Effingham County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-073</span> IL · Hardin County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-074</span> IL · Kane County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-075</span> IL · Macon County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-076</span> IL · Menard County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-077</span> IL · Pike County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-078</span> IL · Scott County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-079</span> IL · Washington County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-080</span> IN · Bartholomew County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-081</span> IN · Crawford County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-082</span> IN · Fountain County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-083</span> IN · Henry County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-084</span> IN · Kosciusko County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-085</span> IN · Monroe County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-086</span> IN · Pike County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-087</span> IN · Spencer County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-088</span> IN · Vermillion County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-089</span> KS · Allen County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-090</span> KS · Cherokee County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-091</span> KS · Dickinson County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-092</span> KS · Geary County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-093</span> KS · Haskell County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-094</span> KS · Lane County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-095</span> KS · Miami County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-096</span> KS · Osborne County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-097</span> KS · Riley County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-098</span> KS · Sherman County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-099</span> KS · Washington County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-100</span> KY · Bath County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-101</span> KY · Butler County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-102</span> KY · Clay County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-103</span> KY · Floyd County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-104</span> KY · Hancock County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-105</span> KY · Jefferson County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-106</span> KY · Leslie County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-107</span> KY · Marshall County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-108</span> KY · Monroe County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-109</span> KY · Pendleton County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-110</span> KY · Shelby County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-111</span> KY · Wayne County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-112</span> LA · Beauregard Parish 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-113</span> LA · De Soto Parish 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-114</span> LA · Jefferson Davis Parish 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-115</span> LA · Orleans Parish 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-116</span> LA · St. Helena Parish 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-117</span> LA · Union Parish 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-118</span> MA · Berkshire County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-119</span> MA · Plymouth County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-120</span> MD · Cecil County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-121</span> MD · Queen Anne&#x27;s County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-122</span> ME · Franklin County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-123</span> ME · Waldo County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-124</span> MI · Barry County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-125</span> MI · Clare County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-126</span> MI · Grand Traverse County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-127</span> MI · Jackson County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-128</span> MI · Luce County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-129</span> MI · Monroe County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-130</span> MI · Oscoda County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-131</span> MI · St. Joseph County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-132</span> MN · Benton County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-133</span> MN · Clearwater County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-134</span> MN · Goodhue County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-135</span> MN · Kittson County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-136</span> MN · Martin County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-137</span> MN · Olmsted County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-138</span> MN · Renville County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-139</span> MN · Stevens County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-140</span> MN · Winona County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-141</span> MO · Benton County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-142</span> MO · Carter County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-143</span> MO · Crawford County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-144</span> MO · Gentry County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-145</span> MO · Jackson County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-146</span> MO · Linn County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-147</span> MO · Moniteau County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-148</span> MO · Pemiscot County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-149</span> MO · Randolph County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-150</span> MO · St. Charles County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-151</span> MO · Texas County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-152</span> MS · Amite County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-153</span> MS · Clay County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-154</span> MS · Hancock County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-155</span> MS · Jefferson Davis County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-156</span> MS · Lincoln County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-157</span> MS · Oktibbeha County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-158</span> MS · Sharkey County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-159</span> MS · Union County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-160</span> MT · Beaverhead County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-161</span> MT · Dawson County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-162</span> MT · Hill County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-163</span> MT · Mineral County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-164</span> MT · Ravalli County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-165</span> MT · Toole County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-166</span> NC · Ashe County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-167</span> NC · Camden County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-168</span> NC · Craven County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-169</span> NC · Franklin County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-170</span> NC · Henderson County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-171</span> NC · Lincoln County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-172</span> NC · New Hanover County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-173</span> NC · Polk County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-174</span> NC · Stokes County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-175</span> NC · Watauga County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-176</span> ND · Bottineau County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-177</span> ND · Emmons County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-178</span> ND · McHenry County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-179</span> ND · Pierce County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-180</span> ND · Stark County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-181</span> NE · Antelope County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-182</span> NE · Butler County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-183</span> NE · Dakota County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-184</span> NE · Frontier County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-185</span> NE · Harlan County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-186</span> NE · Keya Paha County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-187</span> NE · Morrill County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-188</span> NE · Polk County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-189</span> NE · Sherman County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-190</span> NE · Wheeler County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-191</span> NH · Strafford County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-192</span> NJ · Hudson County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-193</span> NJ · Sussex County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-194</span> NM · Doña Ana County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-195</span> NM · McKinley County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-196</span> NM · Sierra County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-197</span> NV · Elko County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-198</span> NV · Storey County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-199</span> NY · Chemung County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-200</span> NY · Fulton County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-201</span> NY · Monroe County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-202</span> NY · Oswego County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-203</span> NY · Schuyler County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-204</span> NY · Washington County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-205</span> OH · Auglaize County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-206</span> OH · Coshocton County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-207</span> OH · Fulton County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-208</span> OH · Highland County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-209</span> OH · Logan County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-210</span> OH · Monroe County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-211</span> OH · Pike County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-212</span> OH · Stark County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-213</span> OH · Williams County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-214</span> OK · Caddo County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-215</span> OK · Craig County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-216</span> OK · Greer County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-217</span> OK · Kiowa County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-218</span> OK · McCurtain County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-219</span> OK · Ottawa County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-220</span> OK · Sequoyah County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-221</span> OR · Baker County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-222</span> OR · Gilliam County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-223</span> OR · Lincoln County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-224</span> OR · Union County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-225</span> PA · Bedford County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-226</span> PA · Chester County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-227</span> PA · Erie County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-228</span> PA · Lackawanna County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-229</span> PA · Monroe County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-230</span> PA · Snyder County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-231</span> PA · Westmoreland County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-232</span> PR · Añasco Municipio 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-233</span> PR · Cayey Municipio 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-234</span> PR · Florida Municipio 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-235</span> PR · Jayuya Municipio 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-236</span> PR · Maricao Municipio 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-237</span> PR · Ponce Municipio 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-238</span> PR · Santa Isabel Municipio 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-239</span> PR · Yauco Municipio 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-240</span> SC · Bamberg County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-241</span> SC · Colleton County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-242</span> SC · Hampton County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-243</span> SC · McCormick County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-244</span> SC · Williamsburg County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-245</span> SD · Butte County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-246</span> SD · Deuel County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-247</span> SD · Hand County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-248</span> SD · Lake County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-249</span> SD · Minnehaha County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-250</span> SD · Sully County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-251</span> TN · Benton County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-252</span> TN · Claiborne County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-253</span> TN · Dyer County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-254</span> TN · Hamilton County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-255</span> TN · Humphreys County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-256</span> TN · Loudon County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-257</span> TN · Montgomery County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-258</span> TN · Roane County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-259</span> TN · Sumner County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-260</span> TN · White County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-261</span> TX · Austin County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-262</span> TX · Bosque County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-263</span> TX · Caldwell County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-264</span> TX · Childress County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-265</span> TX · Concho County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-266</span> TX · Dawson County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-267</span> TX · Ector County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-268</span> TX · Foard County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-269</span> TX · Goliad County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-270</span> TX · Hansford County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-271</span> TX · Hidalgo County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-272</span> TX · Irion County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-273</span> TX · Karnes County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-274</span> TX · Knox County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-275</span> TX · Lipscomb County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-276</span> TX · Matagorda County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-277</span> TX · Mitchell County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-278</span> TX · Nueces County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-279</span> TX · Potter County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-280</span> TX · Robertson County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-281</span> TX · Scurry County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-282</span> TX · Sutton County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-283</span> TX · Trinity County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-284</span> TX · Ward County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-285</span> TX · Winkler County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-286</span> UT · Carbon County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-287</span> UT · Millard County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-288</span> UT · Uintah County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-289</span> VA · Amelia County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-290</span> VA · Brunswick County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-291</span> VA · Chesapeake city 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-292</span> VA · Dinwiddie County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-293</span> VA · Franklin city 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-294</span> VA · Halifax County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-295</span> VA · King George County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-296</span> VA · Madison County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-297</span> VA · Newport News city 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-298</span> VA · Pittsylvania County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-299</span> VA · Richmond County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-300</span> VA · Smyth County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-301</span> VA · Warren County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-302</span> VT · Bennington County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-303</span> VT · Washington County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-304</span> WA · Cowlitz County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-305</span> WA · Kitsap County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-306</span> WA · San Juan County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-307</span> WA · Whitman County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-308</span> WI · Chippewa County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-309</span> WI · Florence County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-310</span> WI · Juneau County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-311</span> WI · Marquette County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-312</span> WI · Polk County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-313</span> WI · Sheboygan County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-314</span> WI · Waupaca County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-315</span> WV · Calhoun County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-316</span> WV · Harrison County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-317</span> WV · McDowell County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-318</span> WV · Pleasants County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-319</span> WV · Tucker County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-320</span> WY · Big Horn County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-321</span> WY · Lincoln County 等 10 县</div>
-<div class="card pend"><span class="bidx">batch-322</span> WY · Washakie County 等 2 县</div>
-<div class="card done"><span class="bidx">batch-000</span> AK · 8 项目</div>
+      <div class="col"><h3>⏳ Pending / In progress 待探索 / 探索中（0 批）</h3><div class="card done"><span class="bidx">batch-000</span> AK · 8 项目</div>
 <div class="card done"><span class="bidx">batch-001</span> AK · 3 项目</div>
 <div class="card done"><span class="bidx">batch-002</span> AK · 3 项目</div>
 <div class="card done"><span class="bidx">batch-003</span> AL · 1 项目</div>
@@ -382,8 +89,301 @@ a { color:#63d3ff; text-decoration:none; word-break:break-all; }
 <div class="card done"><span class="bidx">batch-026</span> CO · 13 项目</div>
 <div class="card done"><span class="bidx">batch-027</span> CO · 2 项目</div>
 <div class="card done"><span class="bidx">batch-028</span> CO · 2 项目</div>
-<div class="card done"><span class="bidx">batch-029</span> CO · 2 项目</div></div>
-      <div class="col"><h3>✅ Completed 已完成（30 批）</h3><div class="card done"><span class="bidx">batch-000</span> AK · 8 项目</div>
+<div class="card done"><span class="bidx">batch-029</span> CO · 2 项目</div>
+<div class="card done"><span class="bidx">batch-030</span> CO · 1 项目</div>
+<div class="card done"><span class="bidx">batch-031</span> CT · 21 项目</div>
+<div class="card done"><span class="bidx">batch-032</span> DE · 4 项目</div>
+<div class="card done"><span class="bidx">batch-033</span> FL · 10 项目</div>
+<div class="card done"><span class="bidx">batch-034</span> FL · 9 项目</div>
+<div class="card done"><span class="bidx">batch-035</span> FL · 6 项目</div>
+<div class="card done"><span class="bidx">batch-036</span> FL · 10 项目</div>
+<div class="card done"><span class="bidx">batch-037</span> FL · 11 项目</div>
+<div class="card done"><span class="bidx">batch-038</span> FL · 2 项目</div>
+<div class="card done"><span class="bidx">batch-039</span> GA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-040</span> GA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-041</span> GA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-042</span> GA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-043</span> GA · 15 项目</div>
+<div class="card done"><span class="bidx">batch-044</span> GA · 15 项目</div>
+<div class="card done"><span class="bidx">batch-045</span> GA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-046</span> GA · 6 项目</div>
+<div class="card done"><span class="bidx">batch-047</span> GA · 3 项目</div>
+<div class="card done"><span class="bidx">batch-048</span> GA · 2 项目</div>
+<div class="card done"><span class="bidx">batch-049</span> GA · 11 项目</div>
+<div class="card done"><span class="bidx">batch-050</span> GA · 4 项目</div>
+<div class="card done"><span class="bidx">batch-051</span> GA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-052</span> GA · 6 项目</div>
+<div class="card done"><span class="bidx">batch-053</span> GA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-054</span> GA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-055</span> HI · 2 项目</div>
+<div class="card done"><span class="bidx">batch-056</span> IA · 1 项目</div>
+<div class="card done"><span class="bidx">batch-057</span> IA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-058</span> IA · 3 项目</div>
+<div class="card done"><span class="bidx">batch-059</span> IA · 6 项目</div>
+<div class="card done"><span class="bidx">batch-060</span> IA · 5 项目</div>
+<div class="card done"><span class="bidx">batch-061</span> IA · 1 项目</div>
+<div class="card done"><span class="bidx">batch-062</span> IA · 12 项目</div>
+<div class="card done"><span class="bidx">batch-063</span> IA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-064</span> IA · 6 项目</div>
+<div class="card done"><span class="bidx">batch-065</span> IA · 0 项目</div>
+<div class="card done"><span class="bidx">batch-066</span> ID · 5 项目</div>
+<div class="card done"><span class="bidx">batch-067</span> ID · 3 项目</div>
+<div class="card done"><span class="bidx">batch-068</span> ID · 3 项目</div>
+<div class="card done"><span class="bidx">batch-069</span> ID · 1 项目</div>
+<div class="card done"><span class="bidx">batch-070</span> IL · 6 项目</div>
+<div class="card done"><span class="bidx">batch-071</span> IL · 20 项目</div>
+<div class="card done"><span class="bidx">batch-072</span> IL · 6 项目</div>
+<div class="card done"><span class="bidx">batch-073</span> IL · 3 项目</div>
+<div class="card done"><span class="bidx">batch-074</span> IL · 10 项目</div>
+<div class="card done"><span class="bidx">batch-075</span> IL · 2 项目</div>
+<div class="card done"><span class="bidx">batch-076</span> IL · 4 项目</div>
+<div class="card done"><span class="bidx">batch-077</span> IL · 1 项目</div>
+<div class="card done"><span class="bidx">batch-078</span> IL · 3 项目</div>
+<div class="card done"><span class="bidx">batch-079</span> IL · 2 项目</div>
+<div class="card done"><span class="bidx">batch-080</span> IN · 6 项目</div>
+<div class="card done"><span class="bidx">batch-081</span> IN · 5 项目</div>
+<div class="card done"><span class="bidx">batch-082</span> IN · 7 项目</div>
+<div class="card done"><span class="bidx">batch-083</span> IN · 4 项目</div>
+<div class="card done"><span class="bidx">batch-084</span> IN · 10 项目</div>
+<div class="card done"><span class="bidx">batch-085</span> IN · 3 项目</div>
+<div class="card done"><span class="bidx">batch-086</span> IN · 7 项目</div>
+<div class="card done"><span class="bidx">batch-087</span> IN · 12 项目</div>
+<div class="card done"><span class="bidx">batch-088</span> IN · 4 项目</div>
+<div class="card done"><span class="bidx">batch-089</span> KS · 3 项目</div>
+<div class="card done"><span class="bidx">batch-090</span> KS · 2 项目</div>
+<div class="card done"><span class="bidx">batch-091</span> KS · 5 项目</div>
+<div class="card done"><span class="bidx">batch-092</span> KS · 0 项目</div>
+<div class="card done"><span class="bidx">batch-093</span> KS · 17 项目</div>
+<div class="card done"><span class="bidx">batch-094</span> KS · 3 项目</div>
+<div class="card done"><span class="bidx">batch-095</span> KS · 2 项目</div>
+<div class="card done"><span class="bidx">batch-096</span> KS · 2 项目</div>
+<div class="card done"><span class="bidx">batch-097</span> KS · 4 项目</div>
+<div class="card done"><span class="bidx">batch-098</span> KS · 2 项目</div>
+<div class="card done"><span class="bidx">batch-099</span> KS · 4 项目</div>
+<div class="card done"><span class="bidx">batch-100</span> KY · 3 项目</div>
+<div class="card done"><span class="bidx">batch-101</span> KY · 3 项目</div>
+<div class="card done"><span class="bidx">batch-102</span> KY · 2 项目</div>
+<div class="card done"><span class="bidx">batch-103</span> KY · 3 项目</div>
+<div class="card done"><span class="bidx">batch-104</span> KY · 4 项目</div>
+<div class="card done"><span class="bidx">batch-105</span> KY · 6 项目</div>
+<div class="card done"><span class="bidx">batch-106</span> KY · 1 项目</div>
+<div class="card done"><span class="bidx">batch-107</span> KY · 5 项目</div>
+<div class="card done"><span class="bidx">batch-108</span> KY · 2 项目</div>
+<div class="card done"><span class="bidx">batch-109</span> KY · 2 项目</div>
+<div class="card done"><span class="bidx">batch-110</span> KY · 3 项目</div>
+<div class="card done"><span class="bidx">batch-111</span> KY · 1 项目</div>
+<div class="card done"><span class="bidx">batch-112</span> LA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-113</span> LA · 4 项目</div>
+<div class="card done"><span class="bidx">batch-114</span> LA · 2 项目</div>
+<div class="card done"><span class="bidx">batch-115</span> LA · 10 项目</div>
+<div class="card done"><span class="bidx">batch-116</span> LA · 3 项目</div>
+<div class="card done"><span class="bidx">batch-117</span> LA · 1 项目</div>
+<div class="card done"><span class="bidx">batch-118</span> MA · 23 项目</div>
+<div class="card done"><span class="bidx">batch-119</span> MA · 5 项目</div>
+<div class="card done"><span class="bidx">batch-120</span> MD · 12 项目</div>
+<div class="card done"><span class="bidx">batch-121</span> MD · 3 项目</div>
+<div class="card done"><span class="bidx">batch-122</span> ME · 5 项目</div>
+<div class="card done"><span class="bidx">batch-123</span> ME · 2 项目</div>
+<div class="card done"><span class="bidx">batch-124</span> MI · 7 项目</div>
+<div class="card done"><span class="bidx">batch-125</span> MI · 2 项目</div>
+<div class="card done"><span class="bidx">batch-126</span> MI · 9 项目</div>
+<div class="card done"><span class="bidx">batch-127</span> MI · 7 项目</div>
+<div class="card done"><span class="bidx">batch-128</span> MI · 5 项目</div>
+<div class="card done"><span class="bidx">batch-129</span> MI · 8 项目</div>
+<div class="card done"><span class="bidx">batch-130</span> MI · 2 项目</div>
+<div class="card done"><span class="bidx">batch-131</span> MI · 4 项目</div>
+<div class="card done"><span class="bidx">batch-132</span> MN · 7 项目</div>
+<div class="card done"><span class="bidx">batch-133</span> MN · 16 项目</div>
+<div class="card done"><span class="bidx">batch-134</span> MN · 9 项目</div>
+<div class="card done"><span class="bidx">batch-135</span> MN · 1 项目</div>
+<div class="card done"><span class="bidx">batch-136</span> MN · 4 项目</div>
+<div class="card done"><span class="bidx">batch-137</span> MN · 6 项目</div>
+<div class="card done"><span class="bidx">batch-138</span> MN · 8 项目</div>
+<div class="card done"><span class="bidx">batch-139</span> MN · 4 项目</div>
+<div class="card done"><span class="bidx">batch-140</span> MN · 2 项目</div>
+<div class="card done"><span class="bidx">batch-141</span> MO · 8 项目</div>
+<div class="card done"><span class="bidx">batch-142</span> MO · 4 项目</div>
+<div class="card done"><span class="bidx">batch-143</span> MO · 3 项目</div>
+<div class="card done"><span class="bidx">batch-144</span> MO · 0 项目</div>
+<div class="card done"><span class="bidx">batch-145</span> MO · 8 项目</div>
+<div class="card done"><span class="bidx">batch-146</span> MO · 1 项目</div>
+<div class="card done"><span class="bidx">batch-147</span> MO · 3 项目</div>
+<div class="card done"><span class="bidx">batch-148</span> MO · 2 项目</div>
+<div class="card done"><span class="bidx">batch-149</span> MO · 1 项目</div>
+<div class="card done"><span class="bidx">batch-150</span> MO · 15 项目</div>
+<div class="card done"><span class="bidx">batch-151</span> MO · 4 项目</div>
+<div class="card done"><span class="bidx">batch-152</span> MS · 0 项目</div>
+<div class="card done"><span class="bidx">batch-153</span> MS · 4 项目</div>
+<div class="card done"><span class="bidx">batch-154</span> MS · 3 项目</div>
+<div class="card done"><span class="bidx">batch-155</span> MS · 3 项目</div>
+<div class="card done"><span class="bidx">batch-156</span> MS · 3 项目</div>
+<div class="card done"><span class="bidx">batch-157</span> MS · 3 项目</div>
+<div class="card done"><span class="bidx">batch-158</span> MS · 1 项目</div>
+<div class="card done"><span class="bidx">batch-159</span> MS · 2 项目</div>
+<div class="card done"><span class="bidx">batch-160</span> MT · 3 项目</div>
+<div class="card done"><span class="bidx">batch-161</span> MT · 4 项目</div>
+<div class="card done"><span class="bidx">batch-162</span> MT · 2 项目</div>
+<div class="card done"><span class="bidx">batch-163</span> MT · 3 项目</div>
+<div class="card done"><span class="bidx">batch-164</span> MT · 5 项目</div>
+<div class="card done"><span class="bidx">batch-165</span> MT · 3 项目</div>
+<div class="card done"><span class="bidx">batch-166</span> NC · 4 项目</div>
+<div class="card done"><span class="bidx">batch-167</span> NC · 6 项目</div>
+<div class="card done"><span class="bidx">batch-168</span> NC · 14 项目</div>
+<div class="card done"><span class="bidx">batch-169</span> NC · 9 项目</div>
+<div class="card done"><span class="bidx">batch-170</span> NC · 4 项目</div>
+<div class="card done"><span class="bidx">batch-171</span> NC · 7 项目</div>
+<div class="card done"><span class="bidx">batch-172</span> NC · 2 项目</div>
+<div class="card done"><span class="bidx">batch-173</span> NC · 7 项目</div>
+<div class="card done"><span class="bidx">batch-174</span> NC · 6 项目</div>
+<div class="card done"><span class="bidx">batch-175</span> NC · 1 项目</div>
+<div class="card done"><span class="bidx">batch-176</span> ND · 10 项目</div>
+<div class="card done"><span class="bidx">batch-177</span> ND · 7 项目</div>
+<div class="card done"><span class="bidx">batch-178</span> ND · 3 项目</div>
+<div class="card done"><span class="bidx">batch-179</span> ND · 0 项目</div>
+<div class="card done"><span class="bidx">batch-180</span> ND · 6 项目</div>
+<div class="card done"><span class="bidx">batch-181</span> NE · 2 项目</div>
+<div class="card done"><span class="bidx">batch-182</span> NE · 2 项目</div>
+<div class="card done"><span class="bidx">batch-183</span> NE · 7 项目</div>
+<div class="card done"><span class="bidx">batch-184</span> NE · 6 项目</div>
+<div class="card done"><span class="bidx">batch-185</span> NE · 1 项目</div>
+<div class="card done"><span class="bidx">batch-186</span> NE · 3 项目</div>
+<div class="card done"><span class="bidx">batch-187</span> NE · 2 项目</div>
+<div class="card done"><span class="bidx">batch-188</span> NE · 9 项目</div>
+<div class="card done"><span class="bidx">batch-189</span> NE · 2 项目</div>
+<div class="card done"><span class="bidx">batch-190</span> NE · 0 项目</div>
+<div class="card done"><span class="bidx">batch-191</span> NH · 3 项目</div>
+<div class="card done"><span class="bidx">batch-192</span> NJ · 64 项目</div>
+<div class="card done"><span class="bidx">batch-193</span> NJ · 2 项目</div>
+<div class="card done"><span class="bidx">batch-194</span> NM · 3 项目</div>
+<div class="card done"><span class="bidx">batch-195</span> NM · 3 项目</div>
+<div class="card done"><span class="bidx">batch-196</span> NM · 3 项目</div>
+<div class="card done"><span class="bidx">batch-197</span> NV · 6 项目</div>
+<div class="card done"><span class="bidx">batch-198</span> NV · 13 项目</div>
+<div class="card done"><span class="bidx">batch-199</span> NY · 12 项目</div>
+<div class="card done"><span class="bidx">batch-200</span> NY · 5 项目</div>
+<div class="card done"><span class="bidx">batch-201</span> NY · 27 项目</div>
+<div class="card done"><span class="bidx">batch-202</span> NY · 13 项目</div>
+<div class="card done"><span class="bidx">batch-203</span> NY · 10 项目</div>
+<div class="card done"><span class="bidx">batch-204</span> NY · 3 项目</div>
+<div class="card done"><span class="bidx">batch-205</span> OH · 9 项目</div>
+<div class="card done"><span class="bidx">batch-206</span> OH · 21 项目</div>
+<div class="card done"><span class="bidx">batch-207</span> OH · 8 项目</div>
+<div class="card done"><span class="bidx">batch-208</span> OH · 16 项目</div>
+<div class="card done"><span class="bidx">batch-209</span> OH · 6 项目</div>
+<div class="card done"><span class="bidx">batch-210</span> OH · 8 项目</div>
+<div class="card done"><span class="bidx">batch-211</span> OH · 9 项目</div>
+<div class="card done"><span class="bidx">batch-212</span> OH · 21 项目</div>
+<div class="card done"><span class="bidx">batch-213</span> OH · 3 项目</div>
+<div class="card done"><span class="bidx">batch-214</span> OK · 3 项目</div>
+<div class="card done"><span class="bidx">batch-215</span> OK · 3 项目</div>
+<div class="card done"><span class="bidx">batch-216</span> OK · 2 项目</div>
+<div class="card done"><span class="bidx">batch-217</span> OK · 3 项目</div>
+<div class="card done"><span class="bidx">batch-218</span> OK · 12 项目</div>
+<div class="card done"><span class="bidx">batch-219</span> OK · 4 项目</div>
+<div class="card done"><span class="bidx">batch-220</span> OK · 4 项目</div>
+<div class="card done"><span class="bidx">batch-221</span> OR · 9 项目</div>
+<div class="card done"><span class="bidx">batch-222</span> OR · 10 项目</div>
+<div class="card done"><span class="bidx">batch-223</span> OR · 26 项目</div>
+<div class="card done"><span class="bidx">batch-224</span> OR · 18 项目</div>
+<div class="card done"><span class="bidx">batch-225</span> PA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-226</span> PA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-227</span> PA · 4 项目</div>
+<div class="card done"><span class="bidx">batch-228</span> PA · 16 项目</div>
+<div class="card done"><span class="bidx">batch-229</span> PA · 13 项目</div>
+<div class="card done"><span class="bidx">batch-230</span> PA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-231</span> PA · 2 项目</div>
+<div class="card done"><span class="bidx">batch-232</span> PR · 5 项目</div>
+<div class="card done"><span class="bidx">batch-233</span> PR · 0 项目</div>
+<div class="card done"><span class="bidx">batch-234</span> PR · 7 项目</div>
+<div class="card done"><span class="bidx">batch-235</span> PR · 0 项目</div>
+<div class="card done"><span class="bidx">batch-236</span> PR · 0 项目</div>
+<div class="card done"><span class="bidx">batch-237</span> PR · 10 项目</div>
+<div class="card done"><span class="bidx">batch-238</span> PR · 0 项目</div>
+<div class="card done"><span class="bidx">batch-239</span> PR · 0 项目</div>
+<div class="card done"><span class="bidx">batch-240</span> SC · 5 项目</div>
+<div class="card done"><span class="bidx">batch-241</span> SC · 6 项目</div>
+<div class="card done"><span class="bidx">batch-242</span> SC · 5 项目</div>
+<div class="card done"><span class="bidx">batch-243</span> SC · 7 项目</div>
+<div class="card done"><span class="bidx">batch-244</span> SC · 1 项目</div>
+<div class="card done"><span class="bidx">batch-245</span> SD · 2 项目</div>
+<div class="card done"><span class="bidx">batch-246</span> SD · 1 项目</div>
+<div class="card done"><span class="bidx">batch-247</span> SD · 0 项目</div>
+<div class="card done"><span class="bidx">batch-248</span> SD · 4 项目</div>
+<div class="card done"><span class="bidx">batch-249</span> SD · 8 项目</div>
+<div class="card done"><span class="bidx">batch-250</span> SD · 3 项目</div>
+<div class="card done"><span class="bidx">batch-251</span> TN · 1 项目</div>
+<div class="card done"><span class="bidx">batch-252</span> TN · 8 项目</div>
+<div class="card done"><span class="bidx">batch-253</span> TN · 1 项目</div>
+<div class="card done"><span class="bidx">batch-254</span> TN · 2 项目</div>
+<div class="card done"><span class="bidx">batch-255</span> TN · 8 项目</div>
+<div class="card done"><span class="bidx">batch-256</span> TN · 2 项目</div>
+<div class="card done"><span class="bidx">batch-257</span> TN · 3 项目</div>
+<div class="card done"><span class="bidx">batch-258</span> TN · 10 项目</div>
+<div class="card done"><span class="bidx">batch-259</span> TN · 6 项目</div>
+<div class="card done"><span class="bidx">batch-260</span> TN · 7 项目</div>
+<div class="card done"><span class="bidx">batch-261</span> TX · 20 项目</div>
+<div class="card done"><span class="bidx">batch-262</span> TX · 10 项目</div>
+<div class="card done"><span class="bidx">batch-263</span> TX · 12 项目</div>
+<div class="card done"><span class="bidx">batch-264</span> TX · 10 项目</div>
+<div class="card done"><span class="bidx">batch-265</span> TX · 9 项目</div>
+<div class="card done"><span class="bidx">batch-266</span> TX · 6 项目</div>
+<div class="card done"><span class="bidx">batch-267</span> TX · 11 项目</div>
+<div class="card done"><span class="bidx">batch-268</span> TX · 9 项目</div>
+<div class="card done"><span class="bidx">batch-269</span> TX · 9 项目</div>
+<div class="card done"><span class="bidx">batch-270</span> TX · 19 项目</div>
+<div class="card done"><span class="bidx">batch-271</span> TX · 11 项目</div>
+<div class="card done"><span class="bidx">batch-272</span> TX · 7 项目</div>
+<div class="card done"><span class="bidx">batch-273</span> TX · 5 项目</div>
+<div class="card done"><span class="bidx">batch-274</span> TX · 9 项目</div>
+<div class="card done"><span class="bidx">batch-275</span> TX · 2 项目</div>
+<div class="card done"><span class="bidx">batch-276</span> TX · 10 项目</div>
+<div class="card done"><span class="bidx">batch-277</span> TX · 11 项目</div>
+<div class="card done"><span class="bidx">batch-278</span> TX · 4 项目</div>
+<div class="card done"><span class="bidx">batch-279</span> TX · 11 项目</div>
+<div class="card done"><span class="bidx">batch-280</span> TX · 3 项目</div>
+<div class="card done"><span class="bidx">batch-281</span> TX · 7 项目</div>
+<div class="card done"><span class="bidx">batch-282</span> TX · 12 项目</div>
+<div class="card done"><span class="bidx">batch-283</span> TX · 1 项目</div>
+<div class="card done"><span class="bidx">batch-284</span> TX · 21 项目</div>
+<div class="card done"><span class="bidx">batch-285</span> TX · 3 项目</div>
+<div class="card done"><span class="bidx">batch-286</span> UT · 10 项目</div>
+<div class="card done"><span class="bidx">batch-287</span> UT · 15 项目</div>
+<div class="card done"><span class="bidx">batch-288</span> UT · 13 项目</div>
+<div class="card done"><span class="bidx">batch-289</span> VA · 2 项目</div>
+<div class="card done"><span class="bidx">batch-290</span> VA · 13 项目</div>
+<div class="card done"><span class="bidx">batch-291</span> VA · 22 项目</div>
+<div class="card done"><span class="bidx">batch-292</span> VA · 21 项目</div>
+<div class="card done"><span class="bidx">batch-293</span> VA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-294</span> VA · 13 项目</div>
+<div class="card done"><span class="bidx">batch-295</span> VA · 27 项目</div>
+<div class="card done"><span class="bidx">batch-296</span> VA · 14 项目</div>
+<div class="card done"><span class="bidx">batch-297</span> VA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-298</span> VA · 81 项目</div>
+<div class="card done"><span class="bidx">batch-299</span> VA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-300</span> VA · 20 项目</div>
+<div class="card done"><span class="bidx">batch-301</span> VA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-302</span> VT · 7 项目</div>
+<div class="card done"><span class="bidx">batch-303</span> VT · 1 项目</div>
+<div class="card done"><span class="bidx">batch-304</span> WA · 15 项目</div>
+<div class="card done"><span class="bidx">batch-305</span> WA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-306</span> WA · 11 项目</div>
+<div class="card done"><span class="bidx">batch-307</span> WA · 1 项目</div>
+<div class="card done"><span class="bidx">batch-308</span> WI · 7 项目</div>
+<div class="card done"><span class="bidx">batch-309</span> WI · 1 项目</div>
+<div class="card done"><span class="bidx">batch-310</span> WI · 3 项目</div>
+<div class="card done"><span class="bidx">batch-311</span> WI · 6 项目</div>
+<div class="card done"><span class="bidx">batch-312</span> WI · 7 项目</div>
+<div class="card done"><span class="bidx">batch-313</span> WI · 3 项目</div>
+<div class="card done"><span class="bidx">batch-314</span> WI · 2 项目</div>
+<div class="card done"><span class="bidx">batch-315</span> WV · 2 项目</div>
+<div class="card done"><span class="bidx">batch-316</span> WV · 10 项目</div>
+<div class="card done"><span class="bidx">batch-317</span> WV · 7 项目</div>
+<div class="card done"><span class="bidx">batch-318</span> WV · 4 项目</div>
+<div class="card done"><span class="bidx">batch-319</span> WV · 1 项目</div>
+<div class="card done"><span class="bidx">batch-320</span> WY · 11 项目</div>
+<div class="card done"><span class="bidx">batch-321</span> WY · 8 项目</div>
+<div class="card done"><span class="bidx">batch-322</span> WY · 0 项目</div></div>
+      <div class="col"><h3>✅ Completed 已完成（323 批）</h3><div class="card done"><span class="bidx">batch-000</span> AK · 8 项目</div>
 <div class="card done"><span class="bidx">batch-001</span> AK · 3 项目</div>
 <div class="card done"><span class="bidx">batch-002</span> AK · 3 项目</div>
 <div class="card done"><span class="bidx">batch-003</span> AL · 1 项目</div>
@@ -412,7 +412,300 @@ a { color:#63d3ff; text-decoration:none; word-break:break-all; }
 <div class="card done"><span class="bidx">batch-026</span> CO · 13 项目</div>
 <div class="card done"><span class="bidx">batch-027</span> CO · 2 项目</div>
 <div class="card done"><span class="bidx">batch-028</span> CO · 2 项目</div>
-<div class="card done"><span class="bidx">batch-029</span> CO · 2 项目</div></div>
+<div class="card done"><span class="bidx">batch-029</span> CO · 2 项目</div>
+<div class="card done"><span class="bidx">batch-030</span> CO · 1 项目</div>
+<div class="card done"><span class="bidx">batch-031</span> CT · 21 项目</div>
+<div class="card done"><span class="bidx">batch-032</span> DE · 4 项目</div>
+<div class="card done"><span class="bidx">batch-033</span> FL · 10 项目</div>
+<div class="card done"><span class="bidx">batch-034</span> FL · 9 项目</div>
+<div class="card done"><span class="bidx">batch-035</span> FL · 6 项目</div>
+<div class="card done"><span class="bidx">batch-036</span> FL · 10 项目</div>
+<div class="card done"><span class="bidx">batch-037</span> FL · 11 项目</div>
+<div class="card done"><span class="bidx">batch-038</span> FL · 2 项目</div>
+<div class="card done"><span class="bidx">batch-039</span> GA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-040</span> GA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-041</span> GA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-042</span> GA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-043</span> GA · 15 项目</div>
+<div class="card done"><span class="bidx">batch-044</span> GA · 15 项目</div>
+<div class="card done"><span class="bidx">batch-045</span> GA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-046</span> GA · 6 项目</div>
+<div class="card done"><span class="bidx">batch-047</span> GA · 3 项目</div>
+<div class="card done"><span class="bidx">batch-048</span> GA · 2 项目</div>
+<div class="card done"><span class="bidx">batch-049</span> GA · 11 项目</div>
+<div class="card done"><span class="bidx">batch-050</span> GA · 4 项目</div>
+<div class="card done"><span class="bidx">batch-051</span> GA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-052</span> GA · 6 项目</div>
+<div class="card done"><span class="bidx">batch-053</span> GA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-054</span> GA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-055</span> HI · 2 项目</div>
+<div class="card done"><span class="bidx">batch-056</span> IA · 1 项目</div>
+<div class="card done"><span class="bidx">batch-057</span> IA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-058</span> IA · 3 项目</div>
+<div class="card done"><span class="bidx">batch-059</span> IA · 6 项目</div>
+<div class="card done"><span class="bidx">batch-060</span> IA · 5 项目</div>
+<div class="card done"><span class="bidx">batch-061</span> IA · 1 项目</div>
+<div class="card done"><span class="bidx">batch-062</span> IA · 12 项目</div>
+<div class="card done"><span class="bidx">batch-063</span> IA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-064</span> IA · 6 项目</div>
+<div class="card done"><span class="bidx">batch-065</span> IA · 0 项目</div>
+<div class="card done"><span class="bidx">batch-066</span> ID · 5 项目</div>
+<div class="card done"><span class="bidx">batch-067</span> ID · 3 项目</div>
+<div class="card done"><span class="bidx">batch-068</span> ID · 3 项目</div>
+<div class="card done"><span class="bidx">batch-069</span> ID · 1 项目</div>
+<div class="card done"><span class="bidx">batch-070</span> IL · 6 项目</div>
+<div class="card done"><span class="bidx">batch-071</span> IL · 20 项目</div>
+<div class="card done"><span class="bidx">batch-072</span> IL · 6 项目</div>
+<div class="card done"><span class="bidx">batch-073</span> IL · 3 项目</div>
+<div class="card done"><span class="bidx">batch-074</span> IL · 10 项目</div>
+<div class="card done"><span class="bidx">batch-075</span> IL · 2 项目</div>
+<div class="card done"><span class="bidx">batch-076</span> IL · 4 项目</div>
+<div class="card done"><span class="bidx">batch-077</span> IL · 1 项目</div>
+<div class="card done"><span class="bidx">batch-078</span> IL · 3 项目</div>
+<div class="card done"><span class="bidx">batch-079</span> IL · 2 项目</div>
+<div class="card done"><span class="bidx">batch-080</span> IN · 6 项目</div>
+<div class="card done"><span class="bidx">batch-081</span> IN · 5 项目</div>
+<div class="card done"><span class="bidx">batch-082</span> IN · 7 项目</div>
+<div class="card done"><span class="bidx">batch-083</span> IN · 4 项目</div>
+<div class="card done"><span class="bidx">batch-084</span> IN · 10 项目</div>
+<div class="card done"><span class="bidx">batch-085</span> IN · 3 项目</div>
+<div class="card done"><span class="bidx">batch-086</span> IN · 7 项目</div>
+<div class="card done"><span class="bidx">batch-087</span> IN · 12 项目</div>
+<div class="card done"><span class="bidx">batch-088</span> IN · 4 项目</div>
+<div class="card done"><span class="bidx">batch-089</span> KS · 3 项目</div>
+<div class="card done"><span class="bidx">batch-090</span> KS · 2 项目</div>
+<div class="card done"><span class="bidx">batch-091</span> KS · 5 项目</div>
+<div class="card done"><span class="bidx">batch-092</span> KS · 0 项目</div>
+<div class="card done"><span class="bidx">batch-093</span> KS · 17 项目</div>
+<div class="card done"><span class="bidx">batch-094</span> KS · 3 项目</div>
+<div class="card done"><span class="bidx">batch-095</span> KS · 2 项目</div>
+<div class="card done"><span class="bidx">batch-096</span> KS · 2 项目</div>
+<div class="card done"><span class="bidx">batch-097</span> KS · 4 项目</div>
+<div class="card done"><span class="bidx">batch-098</span> KS · 2 项目</div>
+<div class="card done"><span class="bidx">batch-099</span> KS · 4 项目</div>
+<div class="card done"><span class="bidx">batch-100</span> KY · 3 项目</div>
+<div class="card done"><span class="bidx">batch-101</span> KY · 3 项目</div>
+<div class="card done"><span class="bidx">batch-102</span> KY · 2 项目</div>
+<div class="card done"><span class="bidx">batch-103</span> KY · 3 项目</div>
+<div class="card done"><span class="bidx">batch-104</span> KY · 4 项目</div>
+<div class="card done"><span class="bidx">batch-105</span> KY · 6 项目</div>
+<div class="card done"><span class="bidx">batch-106</span> KY · 1 项目</div>
+<div class="card done"><span class="bidx">batch-107</span> KY · 5 项目</div>
+<div class="card done"><span class="bidx">batch-108</span> KY · 2 项目</div>
+<div class="card done"><span class="bidx">batch-109</span> KY · 2 项目</div>
+<div class="card done"><span class="bidx">batch-110</span> KY · 3 项目</div>
+<div class="card done"><span class="bidx">batch-111</span> KY · 1 项目</div>
+<div class="card done"><span class="bidx">batch-112</span> LA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-113</span> LA · 4 项目</div>
+<div class="card done"><span class="bidx">batch-114</span> LA · 2 项目</div>
+<div class="card done"><span class="bidx">batch-115</span> LA · 10 项目</div>
+<div class="card done"><span class="bidx">batch-116</span> LA · 3 项目</div>
+<div class="card done"><span class="bidx">batch-117</span> LA · 1 项目</div>
+<div class="card done"><span class="bidx">batch-118</span> MA · 23 项目</div>
+<div class="card done"><span class="bidx">batch-119</span> MA · 5 项目</div>
+<div class="card done"><span class="bidx">batch-120</span> MD · 12 项目</div>
+<div class="card done"><span class="bidx">batch-121</span> MD · 3 项目</div>
+<div class="card done"><span class="bidx">batch-122</span> ME · 5 项目</div>
+<div class="card done"><span class="bidx">batch-123</span> ME · 2 项目</div>
+<div class="card done"><span class="bidx">batch-124</span> MI · 7 项目</div>
+<div class="card done"><span class="bidx">batch-125</span> MI · 2 项目</div>
+<div class="card done"><span class="bidx">batch-126</span> MI · 9 项目</div>
+<div class="card done"><span class="bidx">batch-127</span> MI · 7 项目</div>
+<div class="card done"><span class="bidx">batch-128</span> MI · 5 项目</div>
+<div class="card done"><span class="bidx">batch-129</span> MI · 8 项目</div>
+<div class="card done"><span class="bidx">batch-130</span> MI · 2 项目</div>
+<div class="card done"><span class="bidx">batch-131</span> MI · 4 项目</div>
+<div class="card done"><span class="bidx">batch-132</span> MN · 7 项目</div>
+<div class="card done"><span class="bidx">batch-133</span> MN · 16 项目</div>
+<div class="card done"><span class="bidx">batch-134</span> MN · 9 项目</div>
+<div class="card done"><span class="bidx">batch-135</span> MN · 1 项目</div>
+<div class="card done"><span class="bidx">batch-136</span> MN · 4 项目</div>
+<div class="card done"><span class="bidx">batch-137</span> MN · 6 项目</div>
+<div class="card done"><span class="bidx">batch-138</span> MN · 8 项目</div>
+<div class="card done"><span class="bidx">batch-139</span> MN · 4 项目</div>
+<div class="card done"><span class="bidx">batch-140</span> MN · 2 项目</div>
+<div class="card done"><span class="bidx">batch-141</span> MO · 8 项目</div>
+<div class="card done"><span class="bidx">batch-142</span> MO · 4 项目</div>
+<div class="card done"><span class="bidx">batch-143</span> MO · 3 项目</div>
+<div class="card done"><span class="bidx">batch-144</span> MO · 0 项目</div>
+<div class="card done"><span class="bidx">batch-145</span> MO · 8 项目</div>
+<div class="card done"><span class="bidx">batch-146</span> MO · 1 项目</div>
+<div class="card done"><span class="bidx">batch-147</span> MO · 3 项目</div>
+<div class="card done"><span class="bidx">batch-148</span> MO · 2 项目</div>
+<div class="card done"><span class="bidx">batch-149</span> MO · 1 项目</div>
+<div class="card done"><span class="bidx">batch-150</span> MO · 15 项目</div>
+<div class="card done"><span class="bidx">batch-151</span> MO · 4 项目</div>
+<div class="card done"><span class="bidx">batch-152</span> MS · 0 项目</div>
+<div class="card done"><span class="bidx">batch-153</span> MS · 4 项目</div>
+<div class="card done"><span class="bidx">batch-154</span> MS · 3 项目</div>
+<div class="card done"><span class="bidx">batch-155</span> MS · 3 项目</div>
+<div class="card done"><span class="bidx">batch-156</span> MS · 3 项目</div>
+<div class="card done"><span class="bidx">batch-157</span> MS · 3 项目</div>
+<div class="card done"><span class="bidx">batch-158</span> MS · 1 项目</div>
+<div class="card done"><span class="bidx">batch-159</span> MS · 2 项目</div>
+<div class="card done"><span class="bidx">batch-160</span> MT · 3 项目</div>
+<div class="card done"><span class="bidx">batch-161</span> MT · 4 项目</div>
+<div class="card done"><span class="bidx">batch-162</span> MT · 2 项目</div>
+<div class="card done"><span class="bidx">batch-163</span> MT · 3 项目</div>
+<div class="card done"><span class="bidx">batch-164</span> MT · 5 项目</div>
+<div class="card done"><span class="bidx">batch-165</span> MT · 3 项目</div>
+<div class="card done"><span class="bidx">batch-166</span> NC · 4 项目</div>
+<div class="card done"><span class="bidx">batch-167</span> NC · 6 项目</div>
+<div class="card done"><span class="bidx">batch-168</span> NC · 14 项目</div>
+<div class="card done"><span class="bidx">batch-169</span> NC · 9 项目</div>
+<div class="card done"><span class="bidx">batch-170</span> NC · 4 项目</div>
+<div class="card done"><span class="bidx">batch-171</span> NC · 7 项目</div>
+<div class="card done"><span class="bidx">batch-172</span> NC · 2 项目</div>
+<div class="card done"><span class="bidx">batch-173</span> NC · 7 项目</div>
+<div class="card done"><span class="bidx">batch-174</span> NC · 6 项目</div>
+<div class="card done"><span class="bidx">batch-175</span> NC · 1 项目</div>
+<div class="card done"><span class="bidx">batch-176</span> ND · 10 项目</div>
+<div class="card done"><span class="bidx">batch-177</span> ND · 7 项目</div>
+<div class="card done"><span class="bidx">batch-178</span> ND · 3 项目</div>
+<div class="card done"><span class="bidx">batch-179</span> ND · 0 项目</div>
+<div class="card done"><span class="bidx">batch-180</span> ND · 6 项目</div>
+<div class="card done"><span class="bidx">batch-181</span> NE · 2 项目</div>
+<div class="card done"><span class="bidx">batch-182</span> NE · 2 项目</div>
+<div class="card done"><span class="bidx">batch-183</span> NE · 7 项目</div>
+<div class="card done"><span class="bidx">batch-184</span> NE · 6 项目</div>
+<div class="card done"><span class="bidx">batch-185</span> NE · 1 项目</div>
+<div class="card done"><span class="bidx">batch-186</span> NE · 3 项目</div>
+<div class="card done"><span class="bidx">batch-187</span> NE · 2 项目</div>
+<div class="card done"><span class="bidx">batch-188</span> NE · 9 项目</div>
+<div class="card done"><span class="bidx">batch-189</span> NE · 2 项目</div>
+<div class="card done"><span class="bidx">batch-190</span> NE · 0 项目</div>
+<div class="card done"><span class="bidx">batch-191</span> NH · 3 项目</div>
+<div class="card done"><span class="bidx">batch-192</span> NJ · 64 项目</div>
+<div class="card done"><span class="bidx">batch-193</span> NJ · 2 项目</div>
+<div class="card done"><span class="bidx">batch-194</span> NM · 3 项目</div>
+<div class="card done"><span class="bidx">batch-195</span> NM · 3 项目</div>
+<div class="card done"><span class="bidx">batch-196</span> NM · 3 项目</div>
+<div class="card done"><span class="bidx">batch-197</span> NV · 6 项目</div>
+<div class="card done"><span class="bidx">batch-198</span> NV · 13 项目</div>
+<div class="card done"><span class="bidx">batch-199</span> NY · 12 项目</div>
+<div class="card done"><span class="bidx">batch-200</span> NY · 5 项目</div>
+<div class="card done"><span class="bidx">batch-201</span> NY · 27 项目</div>
+<div class="card done"><span class="bidx">batch-202</span> NY · 13 项目</div>
+<div class="card done"><span class="bidx">batch-203</span> NY · 10 项目</div>
+<div class="card done"><span class="bidx">batch-204</span> NY · 3 项目</div>
+<div class="card done"><span class="bidx">batch-205</span> OH · 9 项目</div>
+<div class="card done"><span class="bidx">batch-206</span> OH · 21 项目</div>
+<div class="card done"><span class="bidx">batch-207</span> OH · 8 项目</div>
+<div class="card done"><span class="bidx">batch-208</span> OH · 16 项目</div>
+<div class="card done"><span class="bidx">batch-209</span> OH · 6 项目</div>
+<div class="card done"><span class="bidx">batch-210</span> OH · 8 项目</div>
+<div class="card done"><span class="bidx">batch-211</span> OH · 9 项目</div>
+<div class="card done"><span class="bidx">batch-212</span> OH · 21 项目</div>
+<div class="card done"><span class="bidx">batch-213</span> OH · 3 项目</div>
+<div class="card done"><span class="bidx">batch-214</span> OK · 3 项目</div>
+<div class="card done"><span class="bidx">batch-215</span> OK · 3 项目</div>
+<div class="card done"><span class="bidx">batch-216</span> OK · 2 项目</div>
+<div class="card done"><span class="bidx">batch-217</span> OK · 3 项目</div>
+<div class="card done"><span class="bidx">batch-218</span> OK · 12 项目</div>
+<div class="card done"><span class="bidx">batch-219</span> OK · 4 项目</div>
+<div class="card done"><span class="bidx">batch-220</span> OK · 4 项目</div>
+<div class="card done"><span class="bidx">batch-221</span> OR · 9 项目</div>
+<div class="card done"><span class="bidx">batch-222</span> OR · 10 项目</div>
+<div class="card done"><span class="bidx">batch-223</span> OR · 26 项目</div>
+<div class="card done"><span class="bidx">batch-224</span> OR · 18 项目</div>
+<div class="card done"><span class="bidx">batch-225</span> PA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-226</span> PA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-227</span> PA · 4 项目</div>
+<div class="card done"><span class="bidx">batch-228</span> PA · 16 项目</div>
+<div class="card done"><span class="bidx">batch-229</span> PA · 13 项目</div>
+<div class="card done"><span class="bidx">batch-230</span> PA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-231</span> PA · 2 项目</div>
+<div class="card done"><span class="bidx">batch-232</span> PR · 5 项目</div>
+<div class="card done"><span class="bidx">batch-233</span> PR · 0 项目</div>
+<div class="card done"><span class="bidx">batch-234</span> PR · 7 项目</div>
+<div class="card done"><span class="bidx">batch-235</span> PR · 0 项目</div>
+<div class="card done"><span class="bidx">batch-236</span> PR · 0 项目</div>
+<div class="card done"><span class="bidx">batch-237</span> PR · 10 项目</div>
+<div class="card done"><span class="bidx">batch-238</span> PR · 0 项目</div>
+<div class="card done"><span class="bidx">batch-239</span> PR · 0 项目</div>
+<div class="card done"><span class="bidx">batch-240</span> SC · 5 项目</div>
+<div class="card done"><span class="bidx">batch-241</span> SC · 6 项目</div>
+<div class="card done"><span class="bidx">batch-242</span> SC · 5 项目</div>
+<div class="card done"><span class="bidx">batch-243</span> SC · 7 项目</div>
+<div class="card done"><span class="bidx">batch-244</span> SC · 1 项目</div>
+<div class="card done"><span class="bidx">batch-245</span> SD · 2 项目</div>
+<div class="card done"><span class="bidx">batch-246</span> SD · 1 项目</div>
+<div class="card done"><span class="bidx">batch-247</span> SD · 0 项目</div>
+<div class="card done"><span class="bidx">batch-248</span> SD · 4 项目</div>
+<div class="card done"><span class="bidx">batch-249</span> SD · 8 项目</div>
+<div class="card done"><span class="bidx">batch-250</span> SD · 3 项目</div>
+<div class="card done"><span class="bidx">batch-251</span> TN · 1 项目</div>
+<div class="card done"><span class="bidx">batch-252</span> TN · 8 项目</div>
+<div class="card done"><span class="bidx">batch-253</span> TN · 1 项目</div>
+<div class="card done"><span class="bidx">batch-254</span> TN · 2 项目</div>
+<div class="card done"><span class="bidx">batch-255</span> TN · 8 项目</div>
+<div class="card done"><span class="bidx">batch-256</span> TN · 2 项目</div>
+<div class="card done"><span class="bidx">batch-257</span> TN · 3 项目</div>
+<div class="card done"><span class="bidx">batch-258</span> TN · 10 项目</div>
+<div class="card done"><span class="bidx">batch-259</span> TN · 6 项目</div>
+<div class="card done"><span class="bidx">batch-260</span> TN · 7 项目</div>
+<div class="card done"><span class="bidx">batch-261</span> TX · 20 项目</div>
+<div class="card done"><span class="bidx">batch-262</span> TX · 10 项目</div>
+<div class="card done"><span class="bidx">batch-263</span> TX · 12 项目</div>
+<div class="card done"><span class="bidx">batch-264</span> TX · 10 项目</div>
+<div class="card done"><span class="bidx">batch-265</span> TX · 9 项目</div>
+<div class="card done"><span class="bidx">batch-266</span> TX · 6 项目</div>
+<div class="card done"><span class="bidx">batch-267</span> TX · 11 项目</div>
+<div class="card done"><span class="bidx">batch-268</span> TX · 9 项目</div>
+<div class="card done"><span class="bidx">batch-269</span> TX · 9 项目</div>
+<div class="card done"><span class="bidx">batch-270</span> TX · 19 项目</div>
+<div class="card done"><span class="bidx">batch-271</span> TX · 11 项目</div>
+<div class="card done"><span class="bidx">batch-272</span> TX · 7 项目</div>
+<div class="card done"><span class="bidx">batch-273</span> TX · 5 项目</div>
+<div class="card done"><span class="bidx">batch-274</span> TX · 9 项目</div>
+<div class="card done"><span class="bidx">batch-275</span> TX · 2 项目</div>
+<div class="card done"><span class="bidx">batch-276</span> TX · 10 项目</div>
+<div class="card done"><span class="bidx">batch-277</span> TX · 11 项目</div>
+<div class="card done"><span class="bidx">batch-278</span> TX · 4 项目</div>
+<div class="card done"><span class="bidx">batch-279</span> TX · 11 项目</div>
+<div class="card done"><span class="bidx">batch-280</span> TX · 3 项目</div>
+<div class="card done"><span class="bidx">batch-281</span> TX · 7 项目</div>
+<div class="card done"><span class="bidx">batch-282</span> TX · 12 项目</div>
+<div class="card done"><span class="bidx">batch-283</span> TX · 1 项目</div>
+<div class="card done"><span class="bidx">batch-284</span> TX · 21 项目</div>
+<div class="card done"><span class="bidx">batch-285</span> TX · 3 项目</div>
+<div class="card done"><span class="bidx">batch-286</span> UT · 10 项目</div>
+<div class="card done"><span class="bidx">batch-287</span> UT · 15 项目</div>
+<div class="card done"><span class="bidx">batch-288</span> UT · 13 项目</div>
+<div class="card done"><span class="bidx">batch-289</span> VA · 2 项目</div>
+<div class="card done"><span class="bidx">batch-290</span> VA · 13 项目</div>
+<div class="card done"><span class="bidx">batch-291</span> VA · 22 项目</div>
+<div class="card done"><span class="bidx">batch-292</span> VA · 21 项目</div>
+<div class="card done"><span class="bidx">batch-293</span> VA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-294</span> VA · 13 项目</div>
+<div class="card done"><span class="bidx">batch-295</span> VA · 27 项目</div>
+<div class="card done"><span class="bidx">batch-296</span> VA · 14 项目</div>
+<div class="card done"><span class="bidx">batch-297</span> VA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-298</span> VA · 81 项目</div>
+<div class="card done"><span class="bidx">batch-299</span> VA · 9 项目</div>
+<div class="card done"><span class="bidx">batch-300</span> VA · 20 项目</div>
+<div class="card done"><span class="bidx">batch-301</span> VA · 7 项目</div>
+<div class="card done"><span class="bidx">batch-302</span> VT · 7 项目</div>
+<div class="card done"><span class="bidx">batch-303</span> VT · 1 项目</div>
+<div class="card done"><span class="bidx">batch-304</span> WA · 15 项目</div>
+<div class="card done"><span class="bidx">batch-305</span> WA · 8 项目</div>
+<div class="card done"><span class="bidx">batch-306</span> WA · 11 项目</div>
+<div class="card done"><span class="bidx">batch-307</span> WA · 1 项目</div>
+<div class="card done"><span class="bidx">batch-308</span> WI · 7 项目</div>
+<div class="card done"><span class="bidx">batch-309</span> WI · 1 项目</div>
+<div class="card done"><span class="bidx">batch-310</span> WI · 3 项目</div>
+<div class="card done"><span class="bidx">batch-311</span> WI · 6 项目</div>
+<div class="card done"><span class="bidx">batch-312</span> WI · 7 项目</div>
+<div class="card done"><span class="bidx">batch-313</span> WI · 3 项目</div>
+<div class="card done"><span class="bidx">batch-314</span> WI · 2 项目</div>
+<div class="card done"><span class="bidx">batch-315</span> WV · 2 项目</div>
+<div class="card done"><span class="bidx">batch-316</span> WV · 10 项目</div>
+<div class="card done"><span class="bidx">batch-317</span> WV · 7 项目</div>
+<div class="card done"><span class="bidx">batch-318</span> WV · 4 项目</div>
+<div class="card done"><span class="bidx">batch-319</span> WV · 1 项目</div>
+<div class="card done"><span class="bidx">batch-320</span> WY · 11 项目</div>
+<div class="card done"><span class="bidx">batch-321</span> WY · 8 项目</div>
+<div class="card done"><span class="bidx">batch-322</span> WY · 0 项目</div></div>
     </div>
   </div>
 

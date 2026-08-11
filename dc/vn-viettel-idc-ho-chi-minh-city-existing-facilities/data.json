@@ -1,0 +1,21 @@
+{
+  "slug": "vn-viettel-idc-ho-chi-minh-city-existing-facilities",
+  "canonical_project": "Viettel IDC Ho Chi Minh City (existing facilities)",
+  "owner": "Viettel IDC (Viettel Group)",
+  "location": {
+    "city": "",
+    "subnational": "Ho Chi Minh",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/viettel-breaks-ground-on-data-center-in-ho-chi-minh-city-vietnam/",
+    "https://zonecloud.vn/blog/viettel-idc-la-gi/"
+  ],
+  "notes": "Before the Tan Phu Trung campus, Viettel IDC operated five data centers across Hanoi (x2), Da Nang (x1) and Ho Chi Minh City (x2) totalling about 25,000 sqm; the two HCMC facilities are operational colocation/cloud sites.",
+  "world_batch": true
+}

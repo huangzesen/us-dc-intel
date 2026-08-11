@@ -1,0 +1,21 @@
+{
+  "slug": "th-gsa01-gulf-singtel-ais-jv-bang-phli",
+  "canonical_project": "GSA01 (GULF/Singtel/AIS JV) - Bang Phli",
+  "owner": "GSA Data Center (JV: GULF 40%, Singtel 35%, AIS 25%)",
+  "location": {
+    "city": "",
+    "subnational": "Samut Prakan",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": 25.6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.linkedin.com/pulse/thailands-digital-ambition-mapping-60-data-center-projects-huang-dvz7c",
+    "https://www.blackridgeresearch.com/blog/latest-list-top-new-upcoming-data-center-projects-thailand-bankok"
+  ],
+  "notes": "First fully liquid-cooled data center in Thailand, in Bang Phli, Samut Prakan; 25.6MW, commercial operations Q2 2025; deployed NVIDIA GB200 systems (announced late 2025); first phase of a broader ~120MW expansion.",
+  "world_batch": true
+}

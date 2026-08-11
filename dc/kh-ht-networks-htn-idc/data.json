@@ -1,0 +1,21 @@
+{
+  "slug": "kh-ht-networks-htn-idc",
+  "canonical_project": "HT Networks HTN-IDC",
+  "owner": "HT Networks Co., Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/c/ht-networks-co-ltd/",
+    "https://www.networkworld.com/article/970890/southeast-asia-data-centre-guide-2022-country-by-country.html"
+  ],
+  "notes": "HT Networks Co., Ltd, a Phnom Penh-headquartered network operator, operates its HTN-IDC colocation facility at No. 33-34 St.114, Sangkat Monorom, Khan 7 Makara, Phnom Penh; Network World (2022) lists HT Networks among Phnom Penh data centre operators. Public MW capacity not disclosed.",
+  "world_batch": true
+}

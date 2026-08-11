@@ -1,0 +1,21 @@
+{
+  "slug": "za-oracle-cloud-johannesburg-region",
+  "canonical_project": "Oracle Cloud Johannesburg region",
+  "owner": "Oracle Cloud Infrastructure (OCI)",
+  "location": {
+    "city": "",
+    "subnational": "Gauteng - City of Johannesburg Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datamation.com/data-center/oracle-launches-cloud-region-africa/",
+    "https://mybroadband.co.za/forum/threads/oracle-confirms-launch-date-for-johannesburg-cloud-region.1170252/"
+  ],
+  "notes": "Oracle's first African cloud region went live 19 January 2022 (37th region globally), hosted in the Johannesburg area (City of Johannesburg). Oracle Interconnect for Microsoft Azure is available in Johannesburg for multi-cloud connectivity. No public MW capacity.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "vn-cmc-hyperscale-data-center-saigon-hi-tech-park",
+  "canonical_project": "CMC Hyperscale Data Center (Saigon Hi-Tech Park)",
+  "owner": "CMC Corporation",
+  "location": {
+    "city": "",
+    "subnational": "Ho Chi Minh",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": 120.0,
+  "status": "approved",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://en.vietnamplus.vn/vietnam-emerges-as-southeast-asias-next-data-centre-hotspot-post323575.vnp",
+    "https://e.vnexpress.net/news/tech/vietnam-innovation/vietnam-emerges-as-southeast-asia-s-next-data-center-hotspot-4920613.html"
+  ],
+  "notes": "CMC secured approval for a hyperscale data center at Saigon Hi-Tech Park: initial 30 MW scalable to 120 MW IT load, ~USD 250 million investment, construction slated to begin 2026; AI-as-a-service, cloud and big-data focus with an NVIDIA GH200 GPU farm.",
+  "world_batch": true
+}

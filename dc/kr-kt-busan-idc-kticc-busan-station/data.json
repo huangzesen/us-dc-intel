@@ -1,0 +1,22 @@
+{
+  "slug": "kr-kt-busan-idc-kticc-busan-station",
+  "canonical_project": "KT Busan IDC (KTICC, Busan Station)",
+  "owner": "KT Corp.",
+  "location": {
+    "city": "",
+    "subnational": "Busan - Jung-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://m.blog.naver.com/sjh9853/80157999317",
+    "https://kt-bizinternet.com/pages/kornet.php",
+    "https://www.busan.com/view/busan/view.php?code=2026040918215372154"
+  ],
+  "notes": "KT operates a Busan IDC/colocation point at the Busan Telephone Information Center (Jung-gu, Jungang-dong 4-ga 75, near Busan Station; KTICC) and a Busan disaster-recovery (DR) center interconnected with Seoul main IDC (kt-bizinternet); Busan Ilbo (Apr 2026) lists KT among operators that already built and are running data centers in Busan. Small/medium facility; capacity not published.",
+  "world_batch": true
+}

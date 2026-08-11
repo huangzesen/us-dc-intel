@@ -1,0 +1,22 @@
+{
+  "slug": "za-africa-data-centres-jhb1-midrand-campus",
+  "canonical_project": "Africa Data Centres JHB1 (Midrand Campus)",
+  "owner": "Africa Data Centres (Cassava Technologies)",
+  "location": {
+    "city": "",
+    "subnational": "Gauteng - City of Johannesburg Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://techcentral.co.za/south-africas-biggest-data-centres/253343/",
+    "https://www.africadatacentres.com/africa-data-centres-unveils-its-latest-world-class-data-centre-at-their-midrand-campus-in-johannesburg-south-africa/",
+    "https://businesstech.co.za/news/industry-news/400167/africa-data-centres-acquires-world-class-data-centre-in-johannesburg/"
+  ],
+  "notes": "ADC's JHB1 campus in Midrand (City of Johannesburg) has ~8,500 sq m white space with up to 20MW IT load capacity (two 10MW facilities; latest hyperscale data centre completed 2021). 2N UPS topology with ~10 minutes battery autonomy at full load. ADC is Cassava Technologies' data centre arm.",
+  "world_batch": true
+}

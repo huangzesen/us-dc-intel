@@ -1,0 +1,20 @@
+{
+  "slug": "no-telenor-oslo-data-center-sigurds-gate-14",
+  "canonical_project": "Telenor Oslo data center (Sigurds gate 14)",
+  "owner": "Telenor",
+  "location": {
+    "city": "",
+    "subnational": "Oslo",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": 4.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/14-sigurds-gate-olso/telenor/datacenter/oslo"
+  ],
+  "notes": "Telenor-operated facility at 14 Sigurds Gate, Oslo, listed with 4.5 MW power capacity (aggregate listing).",
+  "world_batch": true
+}

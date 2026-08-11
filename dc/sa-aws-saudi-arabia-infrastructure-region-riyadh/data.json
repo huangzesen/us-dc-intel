@@ -1,0 +1,22 @@
+{
+  "slug": "sa-aws-saudi-arabia-infrastructure-region-riyadh",
+  "canonical_project": "AWS Saudi Arabia infrastructure region (Riyadh)",
+  "owner": "Amazon Web Services (AWS)",
+  "location": {
+    "city": "",
+    "subnational": "Riyadh Region - Ar Riyad",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.blackridgeresearch.com/blog/latest-list-of-top-largest-biggest-data-center-projects-in-saudi-arabia-ksa",
+    "https://www.blackridgeresearch.com/news-releases/amazon-to-invest-usd-5-billion-in-saudi-arabia-to-develop-data-centers",
+    "https://h-haboubi.com/blog/digital-transformation/saudi-digital-economy/"
+  ],
+  "notes": "AWS announced in March 2024 a new infrastructure region in Saudi Arabia with an investment of more than USD 5.3 billion, located in Riyadh and scheduled to launch in 2026. Blackridge (Oct 2025 status) reports final phase of construction with go-live in 2026; multiple availability zones with services including EC2, S3, SageMaker. No public MW capacity disclosed.",
+  "world_batch": true
+}

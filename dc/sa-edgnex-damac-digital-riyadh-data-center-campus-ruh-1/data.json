@@ -1,0 +1,22 @@
+{
+  "slug": "sa-edgnex-damac-digital-riyadh-data-center-campus-ruh-1",
+  "canonical_project": "Edgnex (DAMAC Digital) Riyadh data center campus (RUH-1)",
+  "owner": "Edgnex by DAMAC (DAMAC Digital)",
+  "location": {
+    "city": "",
+    "subnational": "Riyadh Region - Ar Riyad",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 20,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/saudi-arabia/riyadh/edgnex-riyadh-ruh-1/",
+    "https://baxtel.com/data-center/riyadh",
+    "https://www.dosanenergy.com/en/case-study/16"
+  ],
+  "notes": "Baxtel lists the Edgnex Riyadh Campus (20 MW) as the largest data center in Riyadh (18 facilities, 10 operators per Baxtel market facts); DataCenterMap lists Edgnex Riyadh RUH-1 within 30 km of Riyadh center; Dosan Energy supplied cooling for the DAMAC EDGNEX Riyadh facility. Capacity from aggregate directory sources; exact site not public.",
+  "world_batch": true
+}

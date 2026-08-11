@@ -1,0 +1,21 @@
+{
+  "slug": "vn-viettel-idc-hoa-lac-1",
+  "canonical_project": "Viettel IDC Hoa Lac 1",
+  "owner": "Viettel IDC (Viettel Group)",
+  "location": {
+    "city": "",
+    "subnational": "Ha Noi",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": 30.0,
+  "status": "operational",
+  "evidence_date": "2024-04-30",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.vietnamplus.vn/kham-pha-trung-tam-du-lieu-lon-nhat-cua-viettel-idc-moi-khanh-thanh-post939328.vnp",
+    "https://tigersteel.vn/en/bao-tin-steel-accompanies-viettel-idc-hoa-lac-project-the-most-modern-data-center-in-vietnam/"
+  ],
+  "notes": "Viettel inaugurated its flagship Hoa Lac 1 data center at Hoa Lac Hi-Tech Park in April 2024; about 21,000 sqm floor area, 2,400 racks and ~30 MW power consumption, TIA-942 Rated 3, first in Vietnam to integrate ~30% renewable power for AI/HPC workloads.",
+  "world_batch": true
+}

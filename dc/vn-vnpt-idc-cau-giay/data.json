@@ -1,0 +1,20 @@
+{
+  "slug": "vn-vnpt-idc-cau-giay",
+  "canonical_project": "VNPT IDC Cau Giay",
+  "owner": "VNPT",
+  "location": {
+    "city": "",
+    "subnational": "Ha Noi",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/vnpt-idc-hoa-lac"
+  ],
+  "notes": "VNPT operates a Cau Giay (Hanoi) data center with roughly 5,500 sqm of data center space and about 399 racks per directory listing; capacity in MW not disclosed.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "kh-sinet-phnom-penh-sinet-cambodia-data-center",
+  "canonical_project": "Sinet: Phnom Penh (Sinet Cambodia data center)",
+  "owner": "Sinet Cambodia",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/sinet-phnom-penh"
+  ],
+  "notes": "Baxtel lists Sinet: Phnom Penh as an operational data center (extra-small, managed-service-provider type) with a reported footprint of ~118,403 sq ft, operated by Sinet Cambodia, one of the country's main ISPs. Limited independent public documentation found beyond directory listings; capacity in MW not disclosed.",
+  "world_batch": true
+}

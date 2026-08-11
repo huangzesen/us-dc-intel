@@ -1,0 +1,20 @@
+{
+  "slug": "sa-zain-ksa-riyadh-data-center",
+  "canonical_project": "Zain KSA Riyadh data center",
+  "owner": "Zain Saudi Arabia (with Ericsson)",
+  "location": {
+    "city": "",
+    "subnational": "Riyadh Region - Ar Riyad",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 5.6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/saudi-arabia/riyadh/zain-ksa-riyadh/"
+  ],
+  "notes": "DataCenterMap lists Zain KSA Riyadh (5.6 MW) as a next-generation hyperscale facility developed in collaboration with Ericsson and designed by Azura Consultancy. Capacity from aggregate directory listing; no operator disclosure found.",
+  "world_batch": true
+}

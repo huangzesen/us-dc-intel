@@ -1,0 +1,23 @@
+{
+  "slug": "kh-kepstar-data-center-dc2-resilience-site-100-km-from-phnom-penh",
+  "canonical_project": "Kepstar Data Center DC2 (resilience site ~100 km from Phnom Penh)",
+  "owner": "Kepstar Data Centre Management",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": 3.5,
+  "status": "planned",
+  "evidence_date": "2022-03-30",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.networkworld.com/article/970890/southeast-asia-data-centre-guide-2022-country-by-country.html",
+    "https://www.datacenterdynamics.com/en/news/bytedc-launches-cambodia-data-center/",
+    "https://baxtel.com/data-center/kepstar-dc2",
+    "https://www.worldteleport.org/news/429528/Singtel-advising-builders-of-first-two-Cambodia-data-centres.htm"
+  ],
+  "notes": "Kepstar's second planned carrier-neutral facility: 50,000 sq ft with 3.5 MW critical IT load, reported as a resilience/disaster-recovery site ~100 km from Phnom Penh (per Network World 2022 and World Teleport/Singtel advising report; combined 10 MW and 1,600 racks across DC1+DC2). Exact province of the 100 km-away site is not confirmed in public sources; Baxtel lists Kepstar DC2 as planned. Line is filed under Phnom Penh division per Baxtel's Phnom Penh market listing, with location uncertainty noted.",
+  "world_batch": true
+}

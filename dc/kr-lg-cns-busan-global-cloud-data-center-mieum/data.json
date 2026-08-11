@@ -1,0 +1,22 @@
+{
+  "slug": "kr-lg-cns-busan-global-cloud-data-center-mieum",
+  "canonical_project": "LG CNS Busan Global Cloud Data Center (Mieum)",
+  "owner": "LG CNS",
+  "location": {
+    "city": "",
+    "subnational": "Busan - Gangseo District",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.lgcns.com/kr/service/modern-it-infra-on-cloud/data-center",
+    "https://datacenterhawk.com/marketplace/markets/busan/facilities",
+    "https://www.investkorea.org/bsn-en/bbs/i-1464/detail.do?ntt_sn=460900"
+  ],
+  "notes": "LG CNS Busan data center at 153 Mieumsandan-ro, Gangseo-gu (Gurang-dong/Mieum Industrial Estate); fully operational since 2013 and at the time Korea's largest data center; part of the Gangseo cloud datacenter cluster. MOU with NTT to attract Japanese enterprise tenants. Capacity not published; LG CNS also operates Seoul, Sangam and Gasan global cloud data centers.",
+  "world_batch": true
+}

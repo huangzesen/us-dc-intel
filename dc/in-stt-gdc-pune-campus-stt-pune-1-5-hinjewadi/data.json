@@ -1,0 +1,21 @@
+{
+  "slug": "in-stt-gdc-pune-campus-stt-pune-1-5-hinjewadi",
+  "canonical_project": "STT GDC Pune campus (STT Pune 1-5, Hinjewadi)",
+  "owner": "ST Telemedia Global Data Centres (STT GDC)",
+  "location": {
+    "city": "",
+    "subnational": "Maharashtra - Pune Division",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 65.3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/pune",
+    "https://www.sttelemediagdc.com/"
+  ],
+  "notes": "Five carrier-neutral facilities (STT Pune 1-5) in Hinjewadi IT corridor; Baxtel market data lists ~65.3 MW operational across the five sites.",
+  "world_batch": true
+}

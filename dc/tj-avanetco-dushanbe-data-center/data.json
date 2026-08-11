@@ -1,0 +1,20 @@
+{
+  "slug": "tj-avanetco-dushanbe-data-center",
+  "canonical_project": "Avanetco Dushanbe Data Center",
+  "owner": "Avanetco (hosting provider)",
+  "location": {
+    "city": "",
+    "subnational": "Dushanbe",
+    "country": "Tajikistan",
+    "country_code": "TJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.avanetco.com/tajikistan-vps-hosting/"
+  ],
+  "notes": "Commercial hosting provider Avanetco markets a Tajikistan VPS service from a data center it describes as located in Dushanbe. No public facility specifications, capacity, or independent verification were found; this is a small commercial hosting operation rather than a tiered colocation facility. Data Center Map and Baxtel list no commercial data centers in Tajikistan (per DCD, Oct 2025), so evidence is a provider marketing claim.",
+  "world_batch": true
+}

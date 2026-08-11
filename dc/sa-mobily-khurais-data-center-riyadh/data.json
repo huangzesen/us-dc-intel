@@ -1,0 +1,21 @@
+{
+  "slug": "sa-mobily-khurais-data-center-riyadh",
+  "canonical_project": "Mobily Khurais data center (Riyadh)",
+  "owner": "Etihad Etisalat (Mobily)",
+  "location": {
+    "city": "",
+    "subnational": "Riyadh Region - Ar Riyad",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/saudi-arabia/riyadh/mobily-khurais/",
+    "https://alekhtiar.sa/project/mobily/"
+  ],
+  "notes": "Mobily operates a Uptime Tier III certified data center at An Nasim Ash Sharqi on Khurais Road, Riyadh (DataCenterMap; CST licensed-provider list references 'Mobily - Khurais DC'); a separate Mobily data center project on Khurais Road is documented by engineering firm Alekhtiar. No public MW capacity.",
+  "world_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "no-digiplex-rosenholm",
+  "canonical_project": "DigiPlex Rosenholm",
+  "owner": "STACK Infrastructure (ex-DigiPlex)",
+  "location": {
+    "city": "",
+    "subnational": "Oslo",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentrereview.com/2020/09/digiplex-opens-second-norwegian-data-centre/"
+  ],
+  "notes": "One of DigiPlex's three original Oslo-area campuses (Rosenholm, Ulven, Fetsund) per trade press 2020 roundup; Rosenholm is in south-east Oslo. No public MW capacity found.",
+  "world_batch": true
+}

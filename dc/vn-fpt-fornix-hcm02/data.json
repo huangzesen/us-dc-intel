@@ -1,0 +1,21 @@
+{
+  "slug": "vn-fpt-fornix-hcm02",
+  "canonical_project": "FPT Fornix HCM02",
+  "owner": "FPT Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Ho Chi Minh",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/vietnams-fpt-launches-data-center-in-ho-chi-minh-city/",
+    "https://fpt.com/en/news/fpt-news/fpt-khanh-thanh-trung-tam-du-lieu-quy-mo-lon-nhat-viet-nam"
+  ],
+  "notes": "FPT Fornix HCM02 inaugurated in late 2023 in District 9 (Thu Duc City), adjacent to Saigon Hi-Tech Park: 8-storey facility of ~10,000 sqm with capacity for about 3,600 racks; among the largest data centers in Vietnam at launch.",
+  "world_batch": true
+}

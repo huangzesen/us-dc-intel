@@ -1,0 +1,22 @@
+{
+  "slug": "kr-digital-edge-dc-pus1-centum-city",
+  "canonical_project": "Digital Edge DC PUS1 (Centum City)",
+  "owner": "Digital Edge DC",
+  "location": {
+    "city": "",
+    "subnational": "Busan - Haeundae-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.digitaledgedc.com/resources/data-center/pus1/",
+    "https://datacenterhawk.com/marketplace/markets/busan/facilities",
+    "https://www.datacentermap.com/south-korea/busan/"
+  ],
+  "notes": "Digital Edge PUS1 colocation data center at 32 Centum 7-ro, Centum City, Haeundae-gu; described as the only data center in Korea integrated with a Cable Landing Station (direct international/domestic network interconnection, including to Busan's submarine cable landings); provides geographical redundancy to Seoul. Capacity not published.",
+  "world_batch": true
+}

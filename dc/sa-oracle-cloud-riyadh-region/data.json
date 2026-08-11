@@ -1,0 +1,21 @@
+{
+  "slug": "sa-oracle-cloud-riyadh-region",
+  "canonical_project": "Oracle Cloud Riyadh region",
+  "owner": "Oracle (hosted by center3)",
+  "location": {
+    "city": "",
+    "subnational": "Riyadh Region - Ar Riyad",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-08-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://english.alarabiya.net/business/technology/2024/08/06/oracle-unveils-1-5-billion-cloud-region-in-riyadh-advancing-saudi-digital-goals",
+    "https://www.fierce-network.com/newswire/oracle-invest-us-15-billion-meet-cloud-computing-demand-saudi-arabia"
+  ],
+  "notes": "Oracle launched its second public cloud region in Saudi Arabia in Riyadh (August 2024) as part of a USD 1.5 billion investment, hosted by center3; region joins Oracle Cloud Jeddah and a planned NEOM region. Announced Feb 2023. No public MW capacity.",
+  "world_batch": true
+}

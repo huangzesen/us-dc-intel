@@ -1,0 +1,21 @@
+{
+  "slug": "vn-telehouse-hanoi",
+  "canonical_project": "Telehouse Hanoi",
+  "owner": "Telehouse (KDDI)",
+  "location": {
+    "city": "",
+    "subnational": "Ha Noi",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/vietnam/telehouse-hanoi",
+    "https://www.datacenterjournal.com/data-centers/vietnam/hanoi/"
+  ],
+  "notes": "KDDI Telehouse colocation data center in Hanoi listed in data center directories; part of Telehouse's Vietnam presence; capacity in MW not disclosed.",
+  "world_batch": true
+}

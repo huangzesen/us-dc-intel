@@ -1,0 +1,22 @@
+{
+  "slug": "kr-microsoft-busan-data-center-2-miumsandan-ai-datacenter",
+  "canonical_project": "Microsoft Busan Data Center 2 (Miumsandan AI datacenter)",
+  "owner": "Microsoft (Azure)",
+  "location": {
+    "city": "",
+    "subnational": "Busan - Gangseo District",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-11-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/microsoft-launches-second-data-center-in-busan-south-korea/",
+    "https://www.kukinews.com/article/view/kuk202409230098",
+    "https://www.asiae.co.kr/article/2024092307292760171"
+  ],
+  "notes": "Second and larger Microsoft datacenter in Busan, unveiled 23 Sep 2024 in the International Industrial Logistics City, Gangseo-gu (Miumsandan); designed to support AI-powered cloud services across Asia-Pacific. No public MW figure; part of Microsoft's multi-DC Gangseo campus. K-water signed Korea's first water-use partnership tied to Microsoft's Seoul/Busan datacenter operations in 2025.",
+  "world_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "no-basefarm-oslo-data-centers",
+  "canonical_project": "Basefarm Oslo data centers",
+  "owner": "Basefarm (Orange Business)",
+  "location": {
+    "city": "",
+    "subnational": "Oslo",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentrereview.com/2018/07/petter-m-tommeraas-appointed-senior-vice-president-for-basefarm-s-data-centre-business/",
+    "https://www.youtube.com/watch?v=_LkmMY38mvg"
+  ],
+  "notes": "Basefarm (now part of Orange Business) operates colocation data centres in Oslo, historically at Ulven. Capacity not disclosed in sources found.",
+  "world_batch": true
+}

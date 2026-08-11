@@ -1,0 +1,21 @@
+{
+  "slug": "no-bulk-os-ix-oslo-internet-exchange-data-center",
+  "canonical_project": "Bulk OS-IX Oslo Internet Exchange data center",
+  "owner": "Bulk Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Oslo",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/bulk-oslo-internet-exchange-os-ix",
+    "https://bulkinfrastructure.com/"
+  ],
+  "notes": "Bulk's first data center in Oslo, operational since 2005; hosts the Oslo Internet Exchange (OS-IX). Bulk announced an expansion to double IT capacity for AI demand (2025).",
+  "world_batch": true
+}

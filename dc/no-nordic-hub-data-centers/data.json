@@ -1,0 +1,20 @@
+{
+  "slug": "no-nordic-hub-data-centers",
+  "canonical_project": "Nordic Hub Data Centers",
+  "owner": "Nordic Hub Data Centers (NHDC)",
+  "location": {
+    "city": "",
+    "subnational": "Oslo",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://nhdc.no/about/"
+  ],
+  "notes": "NHDC operates data centers in Oslo and around; founded by former Telenor, Basefarm, DigiPlex and Song Networks/TDC staff. Company page only; no capacity details.",
+  "world_batch": true
+}

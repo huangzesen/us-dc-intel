@@ -1,0 +1,20 @@
+{
+  "slug": "kh-neocomisp-ntc-data-center",
+  "canonical_project": "NeocomISP (NTC) data center",
+  "owner": "NeocomISP (NTC)",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://content.knightfrank.com/research/2946/documents/en/data-centres-the-cambodia-report-december-2024-11773.pdf"
+  ],
+  "notes": "Knight Frank Cambodia's December 2024 report names NeocomISP (NTC) among the country's leading data centre operators; Astute Analytica also lists NeocomISP's NTC among the five dominant Cambodia data center colocation players. No public facility details (address, MW) were located in this search; evidence graded C.",
+  "world_batch": true
+}

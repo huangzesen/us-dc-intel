@@ -1,0 +1,21 @@
+{
+  "slug": "th-bridge-data-centres-bkk01-bang-phli",
+  "canonical_project": "Bridge Data Centres BKK01 (Bang Phli)",
+  "owner": "Bridge Data Centres (Bain Capital)",
+  "location": {
+    "city": "",
+    "subnational": "Samut Prakan",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": 0.45,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/thailand/bangkok/bdc-bkk01/",
+    "https://baxtel.com/news/doma-plans-1-5gw-of-data-centers-in-thailand"
+  ],
+  "notes": "Bridge's BKK01 in Bang Phli, Samut Prakan (facility acquired from WHA Logistics in 2022); initially ~450kW, Bridge's larger Thai campuses (QHI01 up to 200MW) are in Chonburi.",
+  "world_batch": true
+}

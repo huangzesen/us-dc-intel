@@ -1,0 +1,21 @@
+{
+  "slug": "za-bcx-telkom-centurion-data-centre",
+  "canonical_project": "BCX / Telkom Centurion data centre",
+  "owner": "BCX (Telkom)",
+  "location": {
+    "city": "",
+    "subnational": "Gauteng - City of Tshwane Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/business-connexion/bcx-centurion/",
+    "https://mybroadband.co.za/news/telecoms/126680-telkom-data-centre-hit-by-outage.html"
+  ],
+  "notes": "Business Connexion (BCX), Telkom's IT services unit headquartered in Centurion (1021 Lenchen Avenue North, City of Tshwane), operates a data centre in Centurion; Telkom's Centurion data centre suffered a publicised network-switch outage in May 2017, confirming its operation. BCX also manages ~52 client data centres. No public MW capacity.",
+  "world_batch": true
+}

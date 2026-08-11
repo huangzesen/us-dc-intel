@@ -1,0 +1,21 @@
+{
+  "slug": "lb-ogero-data-centers-ras-beirut-bir-hassan",
+  "canonical_project": "Ogero Data Centers (Ras Beirut / Bir Hassan)",
+  "owner": "Ogero (state-owned fixed telecom operator)",
+  "location": {
+    "city": "",
+    "subnational": "Beirut",
+    "country": "Lebanon",
+    "country_code": "LB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.esslb.com/projectdetails/6",
+    "https://www.datacenterdynamics.com/en/news/lebanese-telco-ogero-hit-by-outages-amid-diesel-shortage/"
+  ],
+  "notes": "Two Ogero data center facilities at Ras Beirut/Bir Hassan (Beirut) fully installed and commissioned by ESS: Liebert N+N precision cooling, FM200 fire suppression, environmental monitoring, access control, raised floor; first phase 15 racks with expansion provision. DCD (Aug 2021) documents Ogero running these facilities on backup generators during Lebanon's diesel/fuel crisis, confirming their operation. No public MW capacity figure.",
+  "world_batch": true
+}

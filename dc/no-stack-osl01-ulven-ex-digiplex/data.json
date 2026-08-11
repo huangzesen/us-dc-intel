@@ -1,0 +1,21 @@
+{
+  "slug": "no-stack-osl01-ulven-ex-digiplex",
+  "canonical_project": "STACK OSL01 Ulven (ex-DigiPlex)",
+  "owner": "STACK Infrastructure (ex-DigiPlex)",
+  "location": {
+    "city": "",
+    "subnational": "Oslo",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/stack-osl01-ulven",
+    "https://www.datacenterdynamics.com/en/news/stack-shares-heat-from-oslo-data-center/"
+  ],
+  "notes": "Located in the Okern district of central Oslo; originally designed and built in 1981 for the Norwegian government as a data centre and communication hub. STACK/DigiPlex runs heat-reuse with Fortum district heating (announced 2018). No public MW capacity found.",
+  "world_batch": true
+}

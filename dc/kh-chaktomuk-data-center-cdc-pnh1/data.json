@@ -1,0 +1,23 @@
+{
+  "slug": "kh-chaktomuk-data-center-cdc-pnh1",
+  "canonical_project": "Chaktomuk Data Center (CDC) PNH1",
+  "owner": "Chaktomuk Data Center Co., Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.chaktomuk-dc.com.kh/",
+    "https://www.datacentermap.com/cambodia/phnom-penh/chaktomuk-data-center/",
+    "https://www.peeringdb.com/org/34207",
+    "https://uptimeinstitute.com/uptime-institute-awards/list"
+  ],
+  "notes": "Chaktomuk Data Center markets itself as Cambodia's first and only Uptime Institute Tier III Plus Design-certified data center, located in central Phnom Penh; PeeringDB lists Chaktomuk Data Center Co. Ltd in Phnom Penh and Uptime Institute's awards list includes Chaktomuk Data Center Co., Ltd. Public MW capacity not disclosed; listed as operational by Baxtel.",
+  "world_batch": true
+}

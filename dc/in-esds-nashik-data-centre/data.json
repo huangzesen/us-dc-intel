@@ -1,0 +1,22 @@
+{
+  "slug": "in-esds-nashik-data-centre",
+  "canonical_project": "ESDS Nashik data centre",
+  "owner": "ESDS Software Solution Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Maharashtra - Nashik Division",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.esds.co.in/data-center-at-nashik",
+    "https://www.datacentermap.com/india/nashik/esds-fully-manager-data-center/",
+    "https://technuter.com/storage/cloud/esds-software-enables-auto-scaling-cloud-with-netapp.html"
+  ],
+  "notes": "ESDS operates a Tier III data centre in Nashik as its secondary facility (primary at Mahape, Navi Mumbai), with company headquarters in Nashik; described as a fully managed, non-neutral Tier III data centre. Data Center Map lists two data centre facilities in Nashik overall, of which ESDS is the principal named one; capacity not public.",
+  "world_batch": true
+}

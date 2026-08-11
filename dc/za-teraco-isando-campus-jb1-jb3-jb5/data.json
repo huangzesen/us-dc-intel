@@ -1,0 +1,22 @@
+{
+  "slug": "za-teraco-isando-campus-jb1-jb3-jb5",
+  "canonical_project": "Teraco Isando Campus (JB1/JB3/JB5)",
+  "owner": "Teraco Data Environments (Digital Realty)",
+  "location": {
+    "city": "",
+    "subnational": "Gauteng - Ekurhuleni Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": 70,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.teraco.co.za/data-centre-locations/johannesburg/",
+    "https://www.smetechguru.co.za/teraco-breaks-ground-on-jb5-a-30mw-data-centre-expansion-to-the-isando-campus/",
+    "https://www.msn.com/en-us/news/technology/teraco-data-centre-now-largest-in-africa/ar-AA1KpbJP"
+  ],
+  "notes": "Teraco's Isando Campus (Isando, Kempton Park, Ekurhuleni - east of Johannesburg) comprises JB1 (~10MW), JB3 (30MW) and JB5 (30MW, completed 2024) = ~70MW critical power load; Africa's most interconnected facility with 14,000-16,500 interconnects. JB7 (40MW) construction adds to this campus (see separate line).",
+  "world_batch": true
+}

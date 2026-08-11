@@ -1,0 +1,23 @@
+{
+  "slug": "kh-mekongnet-idc1-and-idc2",
+  "canonical_project": "MekongNet IDC1 and IDC2",
+  "owner": "MekongNet (Angkor Data Communication Group Co., Ltd)",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "http://mekongnet.com.kh/",
+    "https://www.datacentermap.com/cambodia/phnom-penh/mekongnet-idc2/",
+    "https://www.datacenterjournal.com/data-centers/cambodia/phnom-penh/mekongnet/",
+    "https://www.whtop.com/review/mekongnet.com.kh"
+  ],
+  "notes": "MekongNet operates two identical Internet Data Center (IDC) facilities at different locations in Phnom Penh (AnAnA Building, 95 Preah Norodom Blvd and SunCity Building, Street 370), each fed by different electricity sources with auto-mode standby gensets; carrier-neutral colocation. IDC1 footprint reported at ~7,072 sq ft (DataCenterJournal). Public MW capacity not disclosed.",
+  "world_batch": true
+}

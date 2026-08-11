@@ -1,0 +1,22 @@
+{
+  "slug": "th-stt-gdc-bangkok-1-hua-mak",
+  "canonical_project": "STT GDC Bangkok 1 (Hua Mak)",
+  "owner": "ST Telemedia Global Data Centres (Thailand) - JV with Frasers Property",
+  "location": {
+    "city": "",
+    "subnational": "Bangkok",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": 23.0,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.linkedin.com/pulse/thailands-digital-ambition-mapping-60-data-center-projects-huang-dvz7c",
+    "https://newswire.telecomramblings.com/2021/09/st-telemedia-global-data-centres-thailand-launches-stt-bangkok-1-the-first-and-largest-hyperscale-data-centre-in-thailand/",
+    "https://www.sttelemediagdc.com/th-en/discover-future-ready-data-centre-solutions"
+  ],
+  "notes": "Launched Sep 2021 as Thailand's first/largest hyperscale carrier-neutral DC at the STT Bangkok campus in Hua Mak, central Bangkok; 23MW IT load, ~30,000 sqm, NVIDIA DGX-Ready certified, supports immersion and direct-to-chip liquid cooling.",
+  "world_batch": true
+}

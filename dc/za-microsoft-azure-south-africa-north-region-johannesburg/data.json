@@ -1,0 +1,21 @@
+{
+  "slug": "za-microsoft-azure-south-africa-north-region-johannesburg",
+  "canonical_project": "Microsoft Azure South Africa North region (Johannesburg)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Gauteng - City of Johannesburg Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenters.com/microsoft-azure-south-africa-north-johannesburg",
+    "https://dustinward.cloud/south-africa-north-availability-zones-now-generally-available/"
+  ],
+  "notes": "Azure 'South Africa North' region in Johannesburg (datacenters.com lists a facility at 3012 William Nicol Drive, Bryanston, Sandton, City of Johannesburg). Region live since 2019; three Availability Zones now generally available. No public MW capacity.",
+  "world_batch": true
+}

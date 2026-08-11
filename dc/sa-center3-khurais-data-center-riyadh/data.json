@@ -1,0 +1,22 @@
+{
+  "slug": "sa-center3-khurais-data-center-riyadh",
+  "canonical_project": "center3 Khurais data center (Riyadh)",
+  "owner": "center3 (stc Group)",
+  "location": {
+    "city": "",
+    "subnational": "Riyadh Region - Ar Riyad",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/stcs-center3-expands-riyadh-data-center-in-saudi-arabia/",
+    "https://telecomdrive.com/center3-expands-khurais-riyadh-data-center/",
+    "https://baxtel.com/data-center/center3-khurais-rdc301"
+  ],
+  "notes": "center3 completed a 9.6 MW expansion of its hyperscaler-grade Khurais data center in Riyadh (reported 2024); Baxtel lists the facility as Center3 Khurais RDC301 (built 2019). center3 operates 25+ data centers across Saudi Arabia and is expanding its portfolio toward 300+ MW (1 GW by 2030 per Total Telecom). Expansion MW noted; total facility power not fully public.",
+  "world_batch": true
+}

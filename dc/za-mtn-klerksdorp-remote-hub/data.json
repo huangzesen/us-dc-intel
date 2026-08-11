@@ -1,0 +1,21 @@
+{
+  "slug": "za-mtn-klerksdorp-remote-hub",
+  "canonical_project": "MTN Klerksdorp Remote Hub",
+  "owner": "MTN South Africa (MTN SA (Pty) Ltd)",
+  "location": {
+    "city": "",
+    "subnational": "North West - Dr Kenneth Kaunda District Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/klerksdorp-remote-hub/97",
+    "https://www.mtn.com/wp-content/uploads/2023/09/EM-140773-MTN-ROODEPOORT.pdf"
+  ],
+  "notes": "MTN SA Tier-certified (Uptime Institute) remote-hub data centre located at Cnr Church & Neser Street, Klerksdorp, Dr Kenneth Kaunda District Municipality, North West. MTN's own certificate document lists the Klerksdorp address; the Uptime Institute listing's location field incorrectly states Gauteng. Capacity not publicly disclosed.",
+  "world_batch": true
+}

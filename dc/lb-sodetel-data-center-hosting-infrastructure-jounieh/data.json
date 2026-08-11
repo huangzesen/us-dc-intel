@@ -1,0 +1,20 @@
+{
+  "slug": "lb-sodetel-data-center-hosting-infrastructure-jounieh",
+  "canonical_project": "Sodetel Data Center / Hosting Infrastructure (Jounieh)",
+  "owner": "Sodetel (private ISP, Jounieh, Keserwan)",
+  "location": {
+    "city": "",
+    "subnational": "Mount Lebanon",
+    "country": "Lebanon",
+    "country_code": "LB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.whtop.com/review/sodetel.net.lb"
+  ],
+  "notes": "Sodetel, Lebanon's private ISP based in Jounieh (Keserwan district, Mount Lebanon Governorate), operates its own data/network center infrastructure (AS31126) with local, nodal and international redundancy and offers hosting/colocation services. Evidence is weak (hosting directory listing); treated as an ISP-operated facility rather than a public commercial datacenter project. No public MW capacity figure.",
+  "world_batch": true
+}

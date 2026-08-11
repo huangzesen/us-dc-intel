@@ -1,0 +1,22 @@
+{
+  "slug": "th-microsoft-azure-thailand-region-via-true-idc-gsa02",
+  "canonical_project": "Microsoft Azure Thailand Region (via True IDC / GSA02)",
+  "owner": "Microsoft Corporation (colocation partners: True IDC, GSA)",
+  "location": {
+    "city": "",
+    "subnational": "Bangkok",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.reccessary.com/en/news/asean-market/malaysia-is-emerging-as-a-data-center-powerhouse-while-thailand-is-trying-to-keep-up",
+    "https://www.blackridgeresearch.com/blog/latest-list-top-new-upcoming-data-center-projects-thailand-bankok",
+    "https://www.linkedin.com/pulse/thailands-digital-ambition-mapping-60-data-center-projects-huang-dvz7c"
+  ],
+  "notes": "Microsoft's first Thailand Azure region announced May 2024 (~US$1bn); built via local partner facilities including True IDC (Bangkok/Samut Prakan) and GSA02 (Chonburi); Microsoft committed an additional US$1bn+ for 2026-2028 cloud/AI infrastructure. Status reported as under construction.",
+  "world_batch": true
+}

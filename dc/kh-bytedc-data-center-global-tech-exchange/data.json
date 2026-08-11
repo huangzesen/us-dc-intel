@@ -1,0 +1,23 @@
+{
+  "slug": "kh-bytedc-data-center-global-tech-exchange",
+  "canonical_project": "ByteDC Data Center (Global Tech Exchange)",
+  "owner": "ByteDC Solutions Co., Ltd (Cambodia-Singapore joint investment)",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2023-05-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.khmertimeskh.com/501295209/cambodia-data-center-stretching-more-than-7500-square-meters-inaugurated/",
+    "https://www.datacenterdynamics.com/en/news/bytedc-launches-cambodia-data-center/",
+    "https://bytedc.com/service",
+    "https://www.datacentermap.com/cambodia/phnom-penh/bytedc-data-center/"
+  ],
+  "notes": "Cambodia's first Uptime Institute Tier III Design-certified data center, inaugurated May 2023 at Global Tech Exchange, Land 356 Street R-4, Sangkat Srah Chork, Khan Daun Penh, Phnom Penh. Up to 3 MW IT capacity, PUE <= 1.8, total built-up floor space 81,040 sq ft (7,529 sqm), up to 1,000 IT racks, carrier-neutral colocation, cloud and managed services; joint investment between Cambodia and Singapore (per Knight Frank Cambodia report).",
+  "world_batch": true
+}

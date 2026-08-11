@@ -1,14 +1,14 @@
 {
   "generated_date": "2026-08-11",
-  "files": 650,
-  "loaded_rows": 8294,
-  "project_rows": 5118,
-  "no_project_rows": 3176,
+  "files": 668,
+  "loaded_rows": 8622,
+  "project_rows": 5340,
+  "no_project_rows": 3282,
   "dedup_skipped": 0,
-  "metadata_files_written": 5118,
-  "inserted": 5118,
-  "total_centers": 8527,
-  "countries_with_projects": 177,
+  "metadata_files_written": 5340,
+  "inserted": 5340,
+  "total_centers": 8749,
+  "countries_with_projects": 181,
   "per_country": [
     {
       "country": "US",
@@ -27,8 +27,8 @@
     },
     {
       "country": "IN",
-      "facilities": 306,
-      "capacity_mw": 16639.1
+      "facilities": 340,
+      "capacity_mw": 20163.8
     },
     {
       "country": "GB",
@@ -47,8 +47,8 @@
     },
     {
       "country": "KR",
-      "facilities": 198,
-      "capacity_mw": 17245.4
+      "facilities": 210,
+      "capacity_mw": 17755.4
     },
     {
       "country": "JP",
@@ -61,14 +61,29 @@
       "capacity_mw": 1752.9
     },
     {
+      "country": "VN",
+      "facilities": 98,
+      "capacity_mw": 886.1
+    },
+    {
       "country": "BR",
       "facilities": 95,
       "capacity_mw": 9827.4
     },
     {
+      "country": "TH",
+      "facilities": 78,
+      "capacity_mw": 4065.1
+    },
+    {
       "country": "TR",
       "facilities": 63,
       "capacity_mw": 145.0
+    },
+    {
+      "country": "SA",
+      "facilities": 62,
+      "capacity_mw": 2926.6
     },
     {
       "country": "NG",
@@ -111,11 +126,6 @@
       "capacity_mw": 194.6
     },
     {
-      "country": "VN",
-      "facilities": 55,
-      "capacity_mw": 208.5
-    },
-    {
       "country": "CA",
       "facilities": 53,
       "capacity_mw": 5137.5
@@ -141,11 +151,6 @@
       "capacity_mw": 253.7
     },
     {
-      "country": "TH",
-      "facilities": 46,
-      "capacity_mw": 3387.0
-    },
-    {
       "country": "FI",
       "facilities": 45,
       "capacity_mw": 4083.5
@@ -156,14 +161,14 @@
       "capacity_mw": 3019.7
     },
     {
-      "country": "SA",
-      "facilities": 44,
-      "capacity_mw": 2468.0
-    },
-    {
       "country": "CZ",
       "facilities": 41,
       "capacity_mw": 80.0
+    },
+    {
+      "country": "ZA",
+      "facilities": 40,
+      "capacity_mw": 1195.2
     },
     {
       "country": "SE",
@@ -214,6 +219,11 @@
       "country": "SG",
       "facilities": 31,
       "capacity_mw": 627.6
+    },
+    {
+      "country": "NO",
+      "facilities": 31,
+      "capacity_mw": 1921.5
     },
     {
       "country": "EC",
@@ -341,6 +351,11 @@
       "capacity_mw": 3.2
     },
     {
+      "country": "KH",
+      "facilities": 17,
+      "capacity_mw": 18.0
+    },
+    {
       "country": "GT",
       "facilities": 17,
       "capacity_mw": 54.2
@@ -404,11 +419,6 @@
       "country": "IQ",
       "facilities": 15,
       "capacity_mw": 12.3
-    },
-    {
-      "country": "ZA",
-      "facilities": 14,
-      "capacity_mw": 232.0
     },
     {
       "country": "TZ",
@@ -511,6 +521,11 @@
       "capacity_mw": 33.1
     },
     {
+      "country": "PS",
+      "facilities": 12,
+      "capacity_mw": 0
+    },
+    {
       "country": "MM",
       "facilities": 12,
       "capacity_mw": 0.2
@@ -584,11 +599,6 @@
       "country": "ZM",
       "facilities": 9,
       "capacity_mw": 2.2
-    },
-    {
-      "country": "PS",
-      "facilities": 9,
-      "capacity_mw": 0
     },
     {
       "country": "NI",
@@ -831,6 +841,11 @@
       "capacity_mw": 0
     },
     {
+      "country": "TJ",
+      "facilities": 4,
+      "capacity_mw": 2.0
+    },
+    {
       "country": "SZ",
       "facilities": 4,
       "capacity_mw": 0
@@ -854,11 +869,6 @@
       "country": "RW",
       "facilities": 4,
       "capacity_mw": 5.0
-    },
-    {
-      "country": "NO",
-      "facilities": 4,
-      "capacity_mw": 265.0
     },
     {
       "country": "MO",
@@ -911,6 +921,11 @@
       "capacity_mw": 1.0
     },
     {
+      "country": "SM",
+      "facilities": 3,
+      "capacity_mw": 0
+    },
+    {
       "country": "SC",
       "facilities": 3,
       "capacity_mw": 0
@@ -922,6 +937,11 @@
     },
     {
       "country": "MP",
+      "facilities": 3,
+      "capacity_mw": 0
+    },
+    {
+      "country": "LB",
       "facilities": 3,
       "capacity_mw": 0
     },

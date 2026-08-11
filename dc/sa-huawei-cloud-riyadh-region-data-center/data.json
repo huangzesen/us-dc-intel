@@ -1,0 +1,22 @@
+{
+  "slug": "sa-huawei-cloud-riyadh-region-data-center",
+  "canonical_project": "Huawei Cloud Riyadh region data center",
+  "owner": "Huawei Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Riyadh Region - Ar Riyad",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-09-04",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/huawei-launches-saudi-cloud-region-in-riyadh/",
+    "https://gulfbusiness.com/huawei-opens-cloud-data-centre-in-saudi-arabia/",
+    "https://www.decypha.com/en/news/details/Huawei-opens-Cloud-Data-Center-in-Saudi-Arabia/21372009"
+  ],
+  "notes": "Huawei Cloud Riyadh Region opened 4 September 2023 (Huawei's 30th worldwide data center) with a 3-availability-zone architecture; stores data in Saudi Arabia per local data regulations and serves Middle East, Central Asia and Africa. No public MW capacity.",
+  "world_batch": true
+}

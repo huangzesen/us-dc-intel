@@ -1,0 +1,21 @@
+{
+  "slug": "sm-tim-san-marino-data-center-idc",
+  "canonical_project": "TIM San Marino Data Center (IDC)",
+  "owner": "TIM San Marino S.p.A. (Telecom Italia San Marino)",
+  "location": {
+    "city": "",
+    "subnational": "Borgo Maggiore",
+    "country": "San Marino",
+    "country_code": "SM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telecomitalia.sm/business/prodotto/housing/",
+    "https://www.ripe.net/membership/member-support/list-of-members/sm/intelcom/"
+  ],
+  "notes": "TIM San Marino offers professional housing/colocation (from a single server to full racks) at its own Data Center (IDC): redundant 10 Gb/s fibre uplinks to the Internet via two separate sites, direct peering at MIX Milan (NAP), >10 Gb/s Internet capacity, raised floor, HVAC, UPS, generators, fire suppression and 24x7 monitoring; the facility shares a building with a TIM network node. Registered office per RIPE: Via Ventotto Luglio 212, 47893 Borgo Maggiore (Centro Uffici Tavolucci); exact DC site not published - AS15433 IP geolocation points to Serravalle. No public MW capacity.",
+  "world_batch": true
+}

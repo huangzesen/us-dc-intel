@@ -1,0 +1,21 @@
+{
+  "slug": "za-oadc-bloemfontein-bfn1",
+  "canonical_project": "OADC Bloemfontein (BFN1)",
+  "owner": "Open Access Data Centres (OADC) / WIOCC Group",
+  "location": {
+    "city": "",
+    "subnational": "Free State - Mangaung Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-africa/bloemfontein/oadc-bloemfontein/",
+    "https://www.linkedin.com/posts/open-access-data-centres_avisionforafrica-transformingdigitalafrica-activity-7432778147219197952-3ucs"
+  ],
+  "notes": "OADC's Bloemfontein facility (BFN1) at 24 Barnes St, Bloemfontein (Mangaung Metro, Free State) provides colocation and metro connectivity to key data centres in the Bloemfontein area as part of OADC's pan-African network and South African edge data centre footprint; located adjacent to major fibre routes. No public MW capacity figure found; small regional/edge facility.",
+  "world_batch": true
+}

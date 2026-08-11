@@ -1,0 +1,20 @@
+{
+  "slug": "kr-lg-u-busan-idc",
+  "canonical_project": "LG U+ Busan IDC",
+  "owner": "LG U+",
+  "location": {
+    "city": "",
+    "subnational": "Busan",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterhawk.com/marketplace/markets/busan/providers"
+  ],
+  "notes": "LG U+ operates 1 data center in Busan and lists 1 planned hyperscale-capable location in the Busan market (datacenterHawk); the operator runs 16 IDCs nationwide. Exact Busan district not confirmed by sources found in this review.",
+  "world_batch": true
+}

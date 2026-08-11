@@ -1,0 +1,22 @@
+{
+  "slug": "ps-zone-ramallah-data-center",
+  "canonical_project": "Zone Ramallah Data Center",
+  "owner": "Zone Technologies Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Ramallah",
+    "country": "Palestine, State of",
+    "country_code": "PS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/palestinian-territories/zone-ramallah",
+    "https://www.datacentermap.com/palestine/ramallah/zone-ramallah/",
+    "https://www.datacentermap.com/palestine/ramallah/"
+  ],
+  "notes": "Aggregator listings (Data Center Catalog, Data Center Map) describe Zone Technologies' managed colocation data center at 3 Al Madaen Street, Masrouji Building, 1st floor, Ramallah, offering virtualization, managed hosting, backup and VPN-based services; Data Center Map lists it as one of the 1-2 facilities in Palestine.",
+  "world_batch": true
+}

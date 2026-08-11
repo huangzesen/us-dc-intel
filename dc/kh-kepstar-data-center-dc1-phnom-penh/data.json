@@ -1,0 +1,23 @@
+{
+  "slug": "kh-kepstar-data-center-dc1-phnom-penh",
+  "canonical_project": "Kepstar Data Center DC1 (Phnom Penh)",
+  "owner": "Kepstar Data Centre Management",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": 6.5,
+  "status": "operational",
+  "evidence_date": "2022-11-14",
+  "evidence_grade": "B",
+  "sources": [
+    "https://w.media/kepstar-launches-cambodias-1st-tier-iii-data-center/",
+    "https://www.datacenterdynamics.com/en/news/bytedc-launches-cambodia-data-center/",
+    "https://baxtel.com/data-center/kepstar-phnom-penh",
+    "https://www.networkworld.com/article/970890/southeast-asia-data-centre-guide-2022-country-by-country.html"
+  ],
+  "notes": "Kepstar Data Centre Management broke ground in November 2022 (during Cambodia Tech Expo CTX 2022) on what it described as Cambodia's first Tier III data centre in Phnom Penh. DC1 is 110,000 sq ft with 6.5 MW critical IT load and 1,600-rack combined program with DC2 (per DCD/Network World). Baxtel lists Kepstar: Phnom Penh as operational, largest facility in the market at ~7 MW; Singtel was reported advising on the projects. MoU signed with Huawei (Cambodia) for data center solutions.",
+  "world_batch": true
+}

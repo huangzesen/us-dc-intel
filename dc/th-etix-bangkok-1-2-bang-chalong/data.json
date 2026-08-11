@@ -1,0 +1,21 @@
+{
+  "slug": "th-etix-bangkok-1-2-bang-chalong",
+  "canonical_project": "ETIX Bangkok #1 / #2 (Bang Chalong)",
+  "owner": "ETIX Everywhere",
+  "location": {
+    "city": "",
+    "subnational": "Samut Prakan",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://thetechcapital.com/etix-everywhere-acquires-facility-to-create-bangkok-data-centre-cluster/",
+    "https://www.datacentermap.com/thailand/bangkok/etix-bangkok-2/"
+  ],
+  "notes": "Edge data center cluster in Bang Chalong, Samut Prakan (~30km from Bangkok center); ETIX acquired 67% of the Genesis DC (2022) and operates Bangkok #1 and #2 there.",
+  "world_batch": true
+}

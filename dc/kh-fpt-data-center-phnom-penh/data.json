@@ -1,0 +1,21 @@
+{
+  "slug": "kh-fpt-data-center-phnom-penh",
+  "canonical_project": "FPT Data Center Phnom Penh",
+  "owner": "FPT (FPT Cambodia)",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.varidata.com/blog-en/how-much-more-durable-is-pmem-than-ssd/",
+    "https://www.varidata.com/blog-en/why-multimodal-requests-feel-slow-on-japan-hosting/"
+  ],
+  "notes": "Hosting provider Varidata markets dedicated-server locations including an 'FPT Data Center' in Phnom Penh, Cambodia, indicating an FPT-operated facility. No official FPT Cambodia data center page or capacity figures were independently verified in this search; evidence graded C (weak/aggregate).",
+  "world_batch": true
+}

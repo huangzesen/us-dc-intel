@@ -1,0 +1,20 @@
+{
+  "slug": "za-dube-tradeport-data-centre-la-mercy",
+  "canonical_project": "Dube TradePort data centre (La Mercy)",
+  "owner": "Dube TradePort Corporation",
+  "location": {
+    "city": "",
+    "subnational": "KwaZulu-Natal - eThekwini Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.sanren.ac.za/saben-rfq-link-from-teraco-durban-datacentre-to-dube-tradeport-datacentre/"
+  ],
+  "notes": "Dube TradePort Corporation operates a data centre at its SEZ precinct in La Mercy, near King Shaka International Airport (eThekwini); a SABEN (SA NREN) RFP sought a link between the Teraco Durban datacentre and the Dube TradePort datacentre, confirming its existence. No public MW capacity; likely a modest facility.",
+  "world_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "no-green-mountain-osl1-enebakk-formerly-dc3-oslo",
+  "canonical_project": "Green Mountain OSL1-Enebakk (formerly DC3-Oslo)",
+  "owner": "Green Mountain (Azrieli Group)",
+  "location": {
+    "city": "",
+    "subnational": "Viken",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": 21.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://greenmountain.no/data-center/osl-enebakk/",
+    "https://www.datacenterdynamics.com/en/news/norways-green-mountain-to-build-10mw-data-center-at-oslo-campus/",
+    "https://www.datacentermap.com/norway/oslo/green-mountain-osl1/"
+  ],
+  "notes": "Green Mountain's Oslo-region campus at Enebakk (Viken), 20 km outside Oslo, 75,000 sqm site; campus previously branded DC3-Oslo. Three buildings on site (two ~4 MW single-tenant plus a 13.5 MW multi-tenant third, ~21.5 MW built) with line-of-sight capacity to ~93 MW at full build-out.",
+  "world_batch": true
+}

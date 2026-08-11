@@ -1,0 +1,20 @@
+{
+  "slug": "no-skygard-osl5",
+  "canonical_project": "Skygard OSL5",
+  "owner": "Skygard",
+  "location": {
+    "city": "",
+    "subnational": "Oslo",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/norway/oslo/basefarm-osl5/"
+  ],
+  "notes": "Skygard OSL5 facility in Oslo (Nordliveien 21 / Hornerudveien 25, Rasta), listed at 10 MW; previously associated with Basefarm OSL5 branding. Aggregate listing.",
+  "world_batch": true
+}

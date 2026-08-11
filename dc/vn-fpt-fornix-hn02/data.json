@@ -1,0 +1,21 @@
+{
+  "slug": "vn-fpt-fornix-hn02",
+  "canonical_project": "FPT Fornix HN02",
+  "owner": "FPT Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Ha Noi",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/vietnam/hanoi/fornix/",
+    "https://fornix.fpt.work/wp-content/uploads/sites/2/2022/07/Brochure-DC-15-07-S-1.pdf"
+  ],
+  "notes": "FPT Fornix HN02 at 10 Pham Van Bach, Cau Giay, Hanoi: 8-storey dedicated data center building with about 1,221 sqm per floor and capacity up to about 1,500 standard racks.",
+  "world_batch": true
+}

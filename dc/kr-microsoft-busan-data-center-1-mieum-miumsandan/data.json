@@ -1,0 +1,22 @@
+{
+  "slug": "kr-microsoft-busan-data-center-1-mieum-miumsandan",
+  "canonical_project": "Microsoft Busan Data Center 1 (Mieum/Miumsandan)",
+  "owner": "Microsoft (Azure)",
+  "location": {
+    "city": "",
+    "subnational": "Busan - Gangseo District",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 50,
+  "status": "operational",
+  "evidence_date": "2024-11-15",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/microsoft-launches-second-data-center-in-busan-south-korea/",
+    "https://www.hapskorea.com/microsoft-to-build-cloud-data-center-in-busan/",
+    "https://www.yna.co.kr/view/AKR20160511088700051"
+  ],
+  "notes": "First Microsoft datacenter in Busan, in the International Industrial Logistics City / Mieum (Miumsandan) foreign-investment zone, Gangseo-gu; announced 2014/2016 and launched April 2020, hosting Azure Korea South region cloud services. ~50 MW campus capacity reported by Korean trade blogs (unverified). Microsoft holds land rights for up to 6 data centers on ~174,809 sqm in Gangseo-gu per Yonhap/2016 and MOTIE regional-dispersion announcements; greater-Busan datacenters employed ~50 people as of 2025 (Microsoft fact sheet).",
+  "world_batch": true
+}

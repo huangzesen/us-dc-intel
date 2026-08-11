@@ -1,0 +1,21 @@
+{
+  "slug": "in-nxtra-by-airtel-pune-data-centers-pune-i-ii-hinjewadi",
+  "canonical_project": "Nxtra by Airtel Pune data centers (Pune I & II, Hinjewadi)",
+  "owner": "Nxtra Data Ltd (Bharti Airtel)",
+  "location": {
+    "city": "",
+    "subnational": "Maharashtra - Pune Division",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 21,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.nxtra.in/data-center-pune",
+    "https://baxtel.com/data-center/pune"
+  ],
+  "notes": "Nxtra Pune II is the largest data centre in Pune at ~21 MW (Baxtel); Nxtra's Pune site lists 17 MW IT power / 4,000 racks; part of a planned ~250 MW hyperscale campus at Hinjewadi Phase III.",
+  "world_batch": true
+}

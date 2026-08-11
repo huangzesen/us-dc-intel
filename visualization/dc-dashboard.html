@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>美国数据中心情报 · US Data-Center Intelligence</title>
+<style>
+:root{
+  color-scheme:light;
+  --page:#f9f9f7; --surface:#fcfcfb;
+  --ink:#0b0b0b; --ink2:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --line:rgba(11,11,11,.10);
+  --blue:#2a78d6; --other:#a3a19a;
+  --ord1:#86b6ef; --ord2:#5598e7; --ord3:#2a78d6; --ord4:#1c5cab; --ord5:#104281;
+}
+@media (prefers-color-scheme: dark){
+  :root:where(:not([data-theme="light"])){
+    color-scheme:dark;
+    --page:#0d0d0d; --surface:#1a1a19;
+    --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --line:rgba(255,255,255,.10);
+    --blue:#3987e5; --other:#6f6e68;
+    --ord1:#9ec5f4; --ord2:#6da7ec; --ord3:#3987e5; --ord4:#256abf; --ord5:#184f95;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --page:#0d0d0d; --surface:#1a1a19;
+  --ink:#ffffff; --ink2:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --line:rgba(255,255,255,.10);
+  --blue:#3987e5; --other:#6f6e68;
+  --ord1:#9ec5f4; --ord2:#6da7ec; --ord3:#3987e5; --ord4:#256abf; --ord5:#184f95;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--page); color:var(--ink);
+  font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  font-size:14px; line-height:1.55;
+}
+.wrap{max-width:1080px; margin:0 auto; padding:28px 20px 64px}
+header.top{display:flex; align-items:flex-start; justify-content:space-between; gap:16px; margin-bottom:20px}
+h1{font-size:22px; font-weight:700; margin:0 0 4px}
+.sub{color:var(--ink2); font-size:13px}
+.pill{font-size:12px; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:2px 10px; white-space:nowrap}
+#themeBtn{
+  border:1px solid var(--line); background:var(--surface); color:var(--ink2);
+  border-radius:8px; padding:6px 12px; font:inherit; font-size:13px; cursor:pointer;
+}
+#themeBtn:hover{color:var(--ink)}
+.card{
+  background:var(--surface); border:1px solid var(--line); border-radius:12px;
+  padding:22px 24px; margin-bottom:18px;
+}
+.card h2{font-size:16px; font-weight:700; margin:0 0 2px}
+.card .en{font-size:12px; color:var(--muted); letter-spacing:.04em; text-transform:uppercase; margin-bottom:14px}
+.note{font-size:12px; color:var(--muted); margin-top:12px}
+.conclusion{font-size:14px; color:var(--ink2); margin:0 0 16px}
+.conclusion strong{color:var(--ink)}
+/* hero */
+.hero{display:grid; grid-template-columns:minmax(240px,1.2fr) 2fr; gap:24px; align-items:center}
+.hero-num{font-size:56px; font-weight:600; line-height:1.05}
+.hero-unit{font-size:22px; font-weight:600; color:var(--ink2); margin-left:4px}
+.hero-label{color:var(--ink2); margin-top:6px}
+.tiles{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
+.tile{border:1px solid var(--line); border-radius:10px; padding:12px 14px}
+.tile .v{font-size:24px; font-weight:600}
+.tile .l{font-size:12px; color:var(--ink2); margin-top:2px}
+@media (max-width:760px){
+  .hero{grid-template-columns:1fr}
+  .tiles{grid-template-columns:repeat(2,1fr)}
+}
+/* svg chart */
+.chart-svg{width:100%; height:auto; display:block}
+.gridline{stroke:var(--grid); stroke-width:1}
+.baseline{stroke:var(--axis); stroke-width:1}
+.ticktxt{fill:var(--muted); font-size:12px}
+.captxt{fill:var(--ink2); font-size:12px; font-weight:600}
+.xlab{fill:var(--ink2); font-size:12.5px}
+.xlab-sub{fill:var(--muted); font-size:11px}
+.col{fill:var(--blue)}
+.hit{fill:transparent; cursor:default; outline-offset:2px}
+.hit:focus-visible{outline:2px solid var(--blue)}
+/* horizontal bar rows */
+.brows{display:flex; flex-direction:column; gap:9px}
+.brow{display:grid; grid-template-columns:118px 1fr; gap:10px; align-items:center; border-radius:6px}
+.brow:focus-visible{outline:2px solid var(--blue); outline-offset:2px}
+.brow .lab{font-size:13px; color:var(--ink); text-align:right; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.brow .lab small{color:var(--muted); font-weight:400}
+.btrack{display:flex; align-items:center; gap:8px; min-width:0}
+.bfill{height:16px; border-radius:0 4px 4px 0; flex:none}
+.bval{font-size:12px; color:var(--ink2); font-weight:600; white-space:nowrap}
+.bval small{color:var(--muted); font-weight:400}
+.two-col{display:grid; grid-template-columns:1fr 1fr; gap:28px}
+.two-col h3{font-size:13px; font-weight:600; color:var(--ink2); margin:0 0 12px}
+@media (max-width:760px){ .two-col{grid-template-columns:1fr} }
+/* verified tiles */
+.vtiles{display:flex; gap:14px; flex-wrap:wrap; margin-top:16px}
+/* details twin */
+details.twin{margin-top:14px; font-size:12.5px}
+details.twin summary{cursor:pointer; color:var(--muted)}
+details.twin table{border-collapse:collapse; margin-top:8px}
+details.twin th, details.twin td{
+  text-align:right; padding:3px 12px 3px 0; border-bottom:1px solid var(--grid);
+  font-variant-numeric:tabular-nums; color:var(--ink2)
+}
+details.twin th{color:var(--muted); font-weight:600}
+details.twin th:first-child, details.twin td:first-child{text-align:left}
+/* main table */
+.tablebar{display:flex; gap:12px; align-items:center; margin-bottom:12px; flex-wrap:wrap}
+#q{
+  flex:1; min-width:220px; border:1px solid var(--line); background:var(--page);
+  color:var(--ink); border-radius:8px; padding:8px 12px; font:inherit; font-size:13px;
+}
+#q:focus{outline:2px solid var(--blue); border-color:transparent}
+#count{font-size:12px; color:var(--muted); white-space:nowrap}
+.tscroll{overflow-x:auto}
+table.main{border-collapse:collapse; width:100%; font-size:12.5px}
+table.main th{
+  text-align:left; color:var(--muted); font-weight:600; padding:7px 10px;
+  border-bottom:1px solid var(--axis); cursor:pointer; user-select:none; white-space:nowrap;
+  position:sticky; top:0; background:var(--surface);
+}
+table.main th.num, table.main td.num{text-align:right; font-variant-numeric:tabular-nums}
+table.main td{padding:6px 10px; border-bottom:1px solid var(--grid); color:var(--ink2); vertical-align:top}
+table.main td.name{color:var(--ink); max-width:300px}
+table.main td.mono{font-variant-numeric:tabular-nums; white-space:nowrap}
+.tag{
+  display:inline-block; font-size:11px; padding:1px 8px; border-radius:999px;
+  border:1px solid var(--line); color:var(--ink2); white-space:nowrap
+}
+.tag .dot{display:inline-block; width:8px; height:8px; border-radius:50%; margin-right:5px; vertical-align:0}
+.miss{color:var(--muted)}
+/* tooltip */
+#tip{
+  position:fixed; z-index:10; pointer-events:none; display:none;
+  background:var(--surface); border:1px solid var(--line); border-radius:8px;
+  padding:8px 12px; font-size:12.5px; box-shadow:0 4px 16px rgba(0,0,0,.12);
+  max-width:320px; color:var(--ink2)
+}
+#tip .tv{font-size:15px; font-weight:700; color:var(--ink)}
+footer.meth{font-size:12.5px; color:var(--muted); margin-top:6px}
+footer.meth ul{margin:8px 0 0; padding-left:18px}
+footer.meth li{margin-bottom:4px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div>
+    <h1>美国数据中心情报总览 <span style="font-weight:400;color:var(--muted)">US Data-Center Intelligence</span></h1>
+    <div class="sub">240 个在研中心 · 数据截至 <strong>2026-08-11</strong> 刷新并经独立复核</div>
+  </div>
+  <div style="display:flex;gap:10px;align-items:center">
+    <span class="pill">standalone · 无外部依赖</span>
+    <button id="themeBtn" type="button">切换深色 / Dark</button>
+  </div>
+</header>
+
+<!-- 1. 头部概览 -->
+<section class="card">
+  <div class="hero">
+    <div>
+      <div class="hero-num"><span id="heroGW">–</span><span class="hero-unit">GW</span></div>
+      <div class="hero-label">已披露容量合计（规划 + 在建 + 运行）<br><span style="color:var(--muted);font-size:12px">Total disclosed capacity, planned + under construction + operational</span></div>
+    </div>
+    <div class="tiles">
+      <div class="tile"><div class="v" id="tCenters">–</div><div class="l">收录中心 Centers tracked</div></div>
+      <div class="tile"><div class="v" id="tWithCap">–</div><div class="l">有容量数据 With capacity data</div></div>
+      <div class="tile"><div class="v" id="tWithYear">–</div><div class="l">有目标年份 With target year</div></div>
+      <div class="tile"><div class="v" id="tStates">–</div><div class="l">覆盖州数 States covered</div></div>
+      <div class="tile"><div class="v" id="tOpGW">–</div><div class="l">运行中容量 Operational GW</div></div>
+      <div class="tile"><div class="v" id="tPipeGW">–</div><div class="l">在建+待建容量 Pipeline GW</div></div>
+    </div>
+  </div>
+  <div class="note" id="heroNote"></div>
+</section>
+
+<!-- 2. 总功耗逐年（centerpiece） -->
+<section class="card">
+  <h2>总规划功耗 · 按目标投运年份</h2>
+  <div class="en">Total planned power by target completion year (GW)</div>
+  <p class="conclusion" id="yearConclusion"></p>
+  <div id="yearChart"></div>
+  <div class="note">方法注：completion_year 由各中心状态文本中的 completion / target / energization 等信号推导，属<strong>方向性</strong>指标；2026 年的高度集中部分反映文本提取规则的偏向，多相项目通常按首期供电年份计。仅统计 126 个有容量数据的中心；「年份未知」为有容量、无年份的中心。缺失容量不做推算。</div>
+  <details class="twin"><summary>展开数据表 Data table</summary><div id="yearTwin"></div></details>
+</section>
+
+<!-- 3. 状态分布 -->
+<section class="card">
+  <h2>状态层级分布</h2>
+  <div class="en">Status tier distribution</div>
+  <div class="two-col">
+    <div><h3>按中心数量 By center count</h3><div id="tierCount" class="brows"></div></div>
+    <div><h3>按已披露容量 By disclosed capacity (GW)</h3><div id="tierCap" class="brows"></div></div>
+  </div>
+  <div class="note">方法注：状态层级由状态描述<strong>文本关键词粗分类</strong>（运行 &gt; 在建 &gt; 已批准 &gt; 规划中），多阶段园区按已达到的最高阶段计，仅供概览。</div>
+  <details class="twin"><summary>展开数据表 Data table</summary><div id="tierTwin"></div></details>
+</section>
+
+<!-- 4. 地理分布 -->
+<section class="card">
+  <h2>地理分布 · 州级汇总</h2>
+  <div class="en">Geographic distribution by state</div>
+  <div id="stateChart" class="brows"></div>
+  <div class="note" id="stateNote"></div>
+  <details class="twin"><summary>展开全部州数据表 All states</summary><div id="stateTwin"></div></details>
+</section>
+
+<!-- 5. 所有者 -->
+<section class="card">
+  <h2>所有者 / 运营商</h2>
+  <div class="en">Owners &amp; operators</div>
+  <div class="two-col">
+    <div><h3>按已披露容量 By disclosed capacity (GW)</h3><div id="ownerCap" class="brows"></div></div>
+    <div><h3>按中心数量 By center count</h3><div id="ownerCount" class="brows"></div></div>
+  </div>
+  <div class="note">方法注：所有者按关键词归并到常见运营商；合资项目计入首个匹配方。「其他」为独立开发商与区域性主体的合并桶（灰色显示），并非单一实体。</div>
+</section>
+
+<!-- 6. 证据等级 -->
+<section class="card">
+  <h2>证据等级与验证状态</h2>
+  <div class="en">Evidence grade &amp; verification</div>
+  <div id="gradeChart" class="brows" style="max-width:640px"></div>
+  <div class="vtiles">
+    <div class="tile"><div class="v" id="vTrue">–</div><div class="l">verified = true</div></div>
+    <div class="tile"><div class="v" id="vFalse">–</div><div class="l">verified = false</div></div>
+    <div class="tile"><div class="v" id="vNull">–</div><div class="l">未标记 unmarked</div></div>
+  </div>
+  <div class="note">「长文本」= evidence_grade 字段为整段说明文字而非字母等级；「未标注」= 字段为空。verified 标志仅在少数复核过的中心上显式设置。</div>
+</section>
+
+<!-- 7. 明细表 -->
+<section class="card">
+  <h2>全部中心明细</h2>
+  <div class="en">All 240 centers — search &amp; sort</div>
+  <div class="tablebar">
+    <input id="q" type="search" placeholder="搜索：名称 / slug / 州 / 所有者 …" aria-label="搜索中心">
+    <span id="count"></span>
+  </div>
+  <div class="tscroll">
+    <table class="main" id="mainTable">
+      <thead><tr>
+        <th data-k="slug">Slug</th>
+        <th data-k="name">名称 Name</th>
+        <th data-k="state">州</th>
+        <th data-k="cap" class="num">容量 MW ▾</th>
+        <th data-k="year" class="num">目标年份</th>
+        <th data-k="tier">状态层级</th>
+        <th data-k="grade">证据</th>
+        <th data-k="verified">验证</th>
+        <th data-k="owner">所有者（归并）</th>
+      </tr></thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+</section>
+
+<footer class="meth card" style="background:transparent">
+  <strong style="color:var(--ink2)">方法与口径 Methodology</strong>
+  <ul>
+    <li>数据来源：内部研究库 240 个美国数据中心档案，截至 <strong>2026-08-11</strong> 刷新，并经独立复核。</li>
+    <li>240 个中心中 <strong>126</strong> 个有公开容量数据；其余 114 个容量未知，<strong>不做推算</strong>，所有容量合计仅覆盖已披露部分（实际总量更高）。</li>
+    <li>completion_year 由状态文本信号（completion / target / energization 等表述）推导，视为方向性；状态层级由状态描述关键词粗分类。</li>
+    <li>证据等级为研究员标注：A 为官方一手记录充分，B 为官方与媒体混合来源；部分为长文本说明。</li>
+    <li>本页面为独立 HTML，全部数字由内嵌数据即时计算，无外部请求。</li>
+  </ul>
+</footer>
+
+</div>
+<div id="tip" role="status"></div>
+
+<script>
+"use strict";
+/* rows: [slug, name, state, capacity_mw, completion_year, tier, grade, verified, ownerCanon, ownerShort]
+   tier: 0 operational | 1 construction | 2 approved | 3 proposed | 4 unknown */
+const RAW = [["disc001","Alpha Digital Campus","TX",2000,2026,3,null,null,"Other","PowerBridge LLC / LandBridge Co.; Liberty Energy / Liberty Power Innovations JV for power …"],["disc002","Beacon Point AI Data Center Campus","TX",1000,2026,1,null,null,"Hut 8","Hut 8 Corp."],["disc003","MARA Matagorda powered digital infrastructure campus","TX",2000,2026,3,null,null,"MARA","MARA Holdings via Volt Texas LLC / MAT 1177 LLC; Starwood Digital Ventures development par…"],["disc004","NRG-owned Texas data-center power-supply sites","TX",295,2026,3,null,null,"Other","NRG Energy; data-center customer undisclosed"],["disc005","Pecos County Data Center / GW Ranch","TX",7650,null,2,null,null,"Amazon/AWS","Amazon Data Services; Pacifico Energy power-campus developer"],["disc006","River Bend AI Data Center Campus","LA",330,2026,1,null,null,"Hut 8","Hut 8 Corp."],["disc007","Texas Critical Data Centers","TX",1400,2026,3,null,null,"Other","New Era Energy & Digital"],["disc008","Tuckahoe Technology Park","VA",900,null,3,null,null,"Tract","VALCO2 Goochland County, LLC / Tract Capital Management affiliate"],["disc009","Ulysses Ohio HPC data center site","OH",200,2026,2,null,null,"Other","Cipher Digital / Cipher Mining Inc."],["disc010","AWS Wheatfield Data Center Campus","IN",null,2026,1,null,null,"Amazon/AWS","Amazon Web Services / Amazon Data Services"],["disc011","Amazon Montgomery City Data Center Campus","MO",null,null,2,null,null,"Amazon/AWS","Amazon / AWS"],["disc012","Crusoe-Lancium Childress AI Data Center Campus","TX",1000,null,3,null,null,"Crusoe","Crusoe / Lancium"],["disc013","Google Columbia County Data Center","GA",null,null,1,null,null,"Google","Google"],["disc014","Google LaGrange / Project Pegasus Data Center","GA",350,null,1,null,null,"Google","Google"],["disc015","Google West Memphis / Project Pyramid Data Center Campus","AR",null,null,1,null,null,"Google","Google (Groot LLC permit applicant / project entity)"],["disc016","Nebius Highridge Pennsylvania AI Data Center Campus","PA",1200,2026,3,null,null,"Other","Nebius"],["disc017","PowerHouse / Poe Companies Louisville Hyperscale Campus","KY",525,2026,2,null,null,"PowerHouse/AREP","PowerHouse Data Centers / Poe Companies"],["disc018","STACK Stafford Technology Campus","VA",1100,null,1,null,null,"Stack","STACK Infrastructure"],["disc019","AWS Horizon Junction Floydada data center campus","TX",null,2026,3,null,null,"Amazon/AWS","Amazon Data Services / AWS"],["disc020","AWS Pecos County Data Center","TX",null,2026,0,null,null,"Amazon/AWS","Amazon Data Services / AWS"],["disc021","Aligned Conesville Industrial Park data center campus","OH",null,null,1,null,null,"Aligned","Aligned Data Centers"],["disc022","Blue Fern Cle Elum data center","WA",20,null,3,null,null,"Other","Blue Fern Development"],["disc023","CloudBurst San Marcos Data Center I / Texas Flagship Gigacenter","TX",1200,2026,0,null,null,"Other","CloudBurst Data Centers / CloudBurst Texas LLC; design-build partner Evolve Holdings; land…"],["disc024","Cormor Data Shelter Wellington 3D-printed data center","KS",100,null,3,null,null,"Other","Cormor Data Shelter / Data Shelter / Cormor"],["disc025","DC Blox Thunderbird Commerce Center Indianapolis campus","IN",null,null,2,null,null,"Other","DC Blox"],["disc026","Edged Project Gateway Prichard data center","AL",8,null,3,null,null,"Other","Edged Data Centers"],["disc027","Loring LiquidCool Data Center","ME",6,2026,0,null,null,"Other","Loring LiquidCool Data Center LLC / LiquidCool Data Center"],["disc028","Penzance Bedington Campus","WV",600,null,2,null,null,"Other","Penzance Management"],["disc029","Project Marvel Bessemer data center campus","AL",1200,2026,1,null,null,"QTS","QTS Data Centers; Logistic Land Investment LLC / TPA Group as developer/land vehicle"],["disc030","Project Wolcott / Blue Ladder White County data center campus","IN",null,null,3,null,null,"Other","Blue Ladder Development"],["disc031","Silicon Foundation Wheeling / Centre Foundry data center","WV",10,2026,3,null,null,"Other","Silicon Foundation Energy LLC / Silicon Foundry Energy LLC (reported purchaser; assessor r…"],["disc032","TeraWulf Muskie Data Campus","KY",1000,null,3,null,null,"Other","TeraWulf"],["USDC-0001","Core Scientific Auburn HPC facility","AL",50,2026,1,"B",null,"Other","Core Scientific (operator/lessee of the existing AUBix facility; Core announced a lease an…"],["USDC-0002","Google Jackson County data-center expansion","AL",null,null,0,"B",null,"Google","Google (operator/developer of the Jackson County data center campus; public sources review…"],["USDC-0003","AVAIO Digital Leo / Little Rock AI-ready data-center and power campus","AR",null,2026,0,null,null,"Other","AVAIO Digital Partners"],["USDC-0004","QTS Fayetteville / Project Excalibur","GA",null,2026,0,"prose",null,"QTS","QTS Data Centers; county records identify QTS Fayetteville I, LLC as the project agreement…"],["USDC-0005","Project Sail / Atlas Development–Prologis Coweta campus","GA",900,2026,0,"B",null,"Other","Atlas Development, LLC / Prologis (developer/applicant relationship; Prologis site acquisi…"],["USDC-0006","Microsoft Union City campus / Burr Computer Environments DRI","GA",324,2029,0,"B",null,"Microsoft","EdgeconneX ATL11, LLC (county sewer-easement grantor); Microsoft reported/identified as en…"],["USDC-0007","Project Ruby / Muscogee Property 1","GA",600,2026,3,"B",null,"Other","Muscogee Property 1, LLC; Choose Columbus states it is owned/managed by Habitat Partners."],["USDC-0008","Spalding County data-center campus","GA",null,2026,2,"prose",null,"Other","Wallace Jackson, LLC"],["USDC-0009","Pine Ridge Tech Park","GA",null,2026,0,"A-",null,"Other","Weyerhaeuser Forest Holdings LLC is the landowner / authorizing data center owner-operator…"],["USDC-0010","Microsoft Tyrone data center","GA",null,2026,2,"A-",null,"Microsoft","Microsoft"],["USDC-0011","QTS Cedar Rapids campus","IA",420,2026,0,"A",null,"QTS","QTS Cedar Rapids I, LLC / QTS Data Centers"],["USDC-0012","Project West","IA",null,null,2,"A-",null,"Tract","IALCO Warren County Two, LLC is the City development-agreement counterparty; industry repo…"],["USDC-0013","Microsoft West Des Moines expansion","IA",null,2025,1,"B",null,"Microsoft","Microsoft"],["USDC-0014","Edged Chicago second facility","IL",72,2026,1,"B",null,"Other","Edged US"],["USDC-0015","STACK CHI02","IL",36,null,3,"B",null,"Stack","STACK Infrastructure"],["USDC-0016","Joliet Technology Center","IL",1800,2026,2,"A-",null,"PowerHouse/AREP","PowerHouse Hillwood Holding LLC is the applicant/contract purchaser; city/project material…"],["USDC-0017","Morris Technology Park","IL",1000,2028,0,"B",null,"Tract","Tract"],["USDC-0018","Meta Jeffersonville data center","IN",null,null,1,"A-",null,"Meta","Meta Platforms, Inc.; River Ridge/SBOA records also identify Blocke, LLC as the 2023 land …"],["USDC-0019","Microsoft La Porte campus / Radius Industrial Park","IN",null,null,1,"A-",null,"Microsoft","Microsoft"],["USDC-0020","Meta Lebanon campus","IN",1000,null,1,"A",null,"Meta","Meta Platforms Inc."],["USDC-0021","Project Maize / Google Michigan City data-center redevelopment","IN",null,null,1,"A-",null,"Google","Google acquired the ongoing Project Maize development; city permit packages list Phoenix M…"],["USDC-0022","Microsoft St. Joe Farm campus / Granger data center","IN",null,null,1,"B",null,"Microsoft","Microsoft"],["USDC-0023","Google Morgan County data center","IN",null,null,1,"B",null,"Google","Google"],["USDC-0024","AWS Project Rainier / Amazon New Carlisle campus","IN",null,null,0,"B",null,"Amazon/AWS","Amazon Data Services Incorporated"],["USDC-0025","RadiusDC Indy I","IN",12,null,0,"A-",null,"Other","Radiant DC REIT III-B, LLC / RadiusDC applicant-operator; Browning Venture Associates II L…"],["USDC-0026","Heartland Industrial Park / Potentia Sullivan County campus","IN",null,2026,1,"B",null,"Other","Potentia Inc. / Heartland Industrial Park LLC (developer/project entity; anchor tenant not…"],["USDC-0027","Beale Infrastructure De Soto campus","KS",null,2025,0,"prose",null,"Other","Beale Infrastructure / Mount Sunflower Properties, LLC (developer/project entity); tenant/…"],["USDC-0028","Core Scientific Calvert City expansion","KY",150,null,0,"B",null,"Other","Core Scientific, Inc. / Core Scientific Operating Company; Calvert City real property held…"],["USDC-0029","TenKey LandCo Simpson County AI campus","KY",null,2026,0,"B",true,"Other","TenKey LandCo I, LLC"],["USDC-0030","Meta Hyperion AI supercluster / Richland Parish Meta data center","LA",5000,2028,0,null,null,"Meta","Meta Platforms, Inc.; utility docket materials identify Laidley LLC and Evest LLC as Meta-…"],["USDC-0031","Rowan Frederick / Bauxite I","MD",231,null,1,"A-",false,"Amazon/AWS","Rowan Digital Infrastructure / Rowan Frederick LLC; Amazon Data Services, Inc. is the iden…"],["USDC-0032","Amazon Data Services Bauxite II / 3250 Digital Drive","MD",null,2025,0,"A-",null,"Amazon/AWS","Amazon Data Services, Inc."],["USDC-0033","Hyperscale Data Michigan campus","MI",null,2026,0,"B",null,"Other","Alliance Cloud Services, LLC (state EGLE owner/operator record at 415 E Prairie Ronde St; …"],["USDC-0034","The Barn","MI",1383,2026,1,"A-",null,"OpenAI/Stargate","Related Digital / Related Companies is described as developer/financing sponsor; Green Chi…"],["USDC-0035","Cloud HQ","MN",200,null,2,"A-",null,"Other","CloudHQ"],["USDC-0036","Google Hermantown campus","MN",null,2026,3,"prose",null,"Google","Harmony Group LLC (subsidiary of Google LLC; proposed owner/operator)"],["USDC-0037","Microsoft Monticello technology campus","MN",null,2026,3,"prose",null,"Microsoft","Monticello Tech, LLC is the city-identified applicant/proposer; August 3, 2026 city-posted…"],["USDC-0038","Scannell Technology Park","MN",150,null,3,"B",null,"Other","Scannell Properties LLC"],["USDC-0039","Google Pine Island data center","MN",null,2026,0,"B",false,"Google","Google LLC / Echo Zone, LLC (Google subsidiary named in Minnesota PUC dockets); Ryan Compa…"],["USDC-0040","Meta Rosemount data center","MN",null,null,1,"A-",true,"Meta","Meta Platforms, Inc.; PUC/customer affiliate: Amber Kestral, LLC; local application/develo…"],["USDC-0041","Nebius AI factory","MO",800,2026,0,"A",null,"Other","Nebius"],["USDC-0042","Project Mica","MO",700,null,0,"B",null,"Google","Google"],["USDC-0043","Meta Kansas City Northland campus","MO",null,2025,0,"A",null,"Meta","Meta Platforms, Inc."],["USDC-0044","Project Spade","MO",null,2026,0,"B",null,"Google","Google"],["USDC-0045","Compass Meridian hyperscale campus","MS",320,2025,1,"B",null,"Compass","Compass Datacenters JAN I, LLC / Compass Datacenters"],["USDC-0046","AVAIO East Metropolitan Center","MS",116,2025,1,"B",null,"Other","AVAIO Digital Partners"],["USDC-0047","xAI MACROHARDRR / Colossus 2 Southaven","MS",null,2026,0,"B",null,"xAI","MZX Tech LLC; xAI / SpaceXAI; MDEQ enSearch lists MZX Tech LLC for the Stanton Road facili…"],["USDC-0048","AWS Madison County campuses / Canton AWS campus","MS",null,2026,0,"prose",null,"Amazon/AWS","Amazon Web Services / Amazon Data Services, Inc."],["USDC-0049","AWS Vicksburg campus","MS",null,2026,0,"prose",null,"Amazon/AWS","Amazon Data Services, Inc. / Amazon Web Services (AWS)"],["USDC-0050","Amazon Richmond County AI campus / Energy Way Tech Campus","NC",null,2025,0,"B",null,"Amazon/AWS","Amazon Data Services, Inc. / Amazon Web Services"],["USDC-0051","Google Lenoir expansion","NC",null,2026,2,"B",null,"Google","Google; NCDEQ air-permit records identify Tapaha Dynamics, LLC at 708 Lynhaven Drive, and …"],["USDC-0052","Microsoft Boyd Farms / Maiden campus","NC",240,2026,0,"A-",null,"Microsoft","Microsoft Corporation"],["USDC-0053","Walnut Cove AI data center","NC",null,2026,0,"B",null,"Other","DFC Stokes, LLC and DFC Stokes 2, LLC (property owners/applicants); Engineered Land Soluti…"],["USDC-0054","Polaris Forge 1","ND",175,2025,0,"B",null,"Other","Applied Digital Corporation"],["USDC-0055","Applied Digital Oliver County site","ND",430,2026,3,"A-",null,"Other","Applied Digital Corporation / APLD BIS-01, LLC"],["USDC-0056","Polaris Forge 2","ND",200,2026,0,"prose",null,"Other","Applied Digital Corporation"],["USDC-0057","Project Trinity","ND",100,2025,0,"B",null,"Other","Teton Digital, LLC"],["USDC-0058","Meta Bowling Green data center","OH",180,null,1,"A-",null,"Meta","Meta Platforms, Inc. / Liames, LLC"],["USDC-0059","AWS Fayette County campus / Jefferson Township","OH",null,null,2,"B",null,"Amazon/AWS","Amazon Data Services, Inc."],["USDC-0060","Cologix Central Ohio expansion / Johnstown and Orange Township","OH",null,null,1,"B",null,"Other","Cologix, Inc."],["USDC-0061","Lordstown Stargate / Foxconn-Lordstown plant conversion","OH",null,2025,0,"B+",null,"OpenAI/Stargate","Crescent Dune LLC / SoftBank-related ownership reported for site and equipment; Foxconn re…"],["USDC-0062","Vantage OH2 / Millersport campus / Fairfield Energy Center","OH",696,null,1,"A-",null,"Vantage","Vantage Data Centers"],["USDC-0063","Vantage New Albany campus / Vantage OH1","OH",192,2025,1,"A-",null,"Vantage","Vantage Data Centers"],["USDC-0064","Piqua data center / J5 LLC dba Shaytura","OH",null,null,2,"A",null,"Other","J5 LLC dba Shaytura LLC"],["USDC-0065","PORTS Technology Campus / Portsmouth Gaseous Diffusion Plant","OH",10000,null,3,"prose",null,"Other","SB Energy (SoftBank Group) / SB Energy-affiliated project entity; DOE remains relevant fed…"],["USDC-0066","AWS Sidney data center","OH",null,null,0,"A-",null,"Amazon/AWS","Amazon Data Services, Inc. (developer/project company); Amazon Web Services, Inc. is named…"],["USDC-0067","QTS Van Wert mega-campus","OH",500,null,2,"B+",null,"QTS","QTS Data Centers"],["USDC-0068","Meta Aiken County data center","SC",200,2026,0,"B",true,"Meta","Meta Platforms, Inc."],["USDC-0069","Google Dorchester County campuses","SC",null,null,0,"B",null,"Google","Google LLC"],["USDC-0070","Cielo Cherokee County project","SC",null,2025,0,"B",null,"Other","Cielo Digital Infrastructure, LLC (developer/operator named by official state and county s…"],["USDC-0071","QTS York County campus","SC",null,2025,0,"A-",null,"QTS","QTS Data Centers"],["USDC-0072","Applied Digital Delta Forge 1","SD",430,2026,1,"B",null,"Other","Applied Digital Corporation"],["USDC-0073","Sequitor Edge Rapid City data center","SD",15,2026,3,"prose",null,"Other","Sequitor Edge"],["USDC-0074","Gemini Data Center","SD",500,null,0,"B+",null,"Other","Gemini Data Center SD, LLC (Michael Anvar listed as owner/applicant in Sioux Falls Plannin…"],["USDC-0075","xAI Colossus Memphis expansion","TN",null,2025,0,"B",null,"xAI","xAI / SpaceXAI operating footprint; CTC Property LLC appears in Memphis water-reuse and Sh…"],["USDC-0076","Hixson AI data center","TN",25,2026,3,"B",null,"Other","Hixson Data Center / Hixson sponsor group (developer-reported project sponsor; exact legal…"],["USDC-0077","STAK Energy Campus","AK",1000,2026,0,"prose",null,"Other","STAK Energy Corporation"],["USDC-0078","TA Infrastructure Management Duck Island data-center module","AK",1.4,2025,2,"B",null,"Other","TA Infrastructure Management LLC (applicant/developer); Hilcorp Alaska LLC owns existing g…"],["USDC-0079","Meta Montgomery Data Center","AL",null,2026,1,"A",null,"Meta","Meta Platforms, Inc. / Meta Data Centers; ADEM permittee: Dotier, LLC"],["USDC-0080","Beale Marana data-center campus","AZ",null,2025,2,"A-",null,"Other","Beale Infrastructure is developer; underlying parcels owned by Herbert Kai S12 LLC, Kai Tr…"],["USDC-0081","Beale Pima County Project Bobcat","AZ",286,2027,0,"A-",null,"Other","Bobcat B1 LLC (property buyer); Beale Infrastructure Group / affiliate Humphrey's Peak Pow…"],["USDC-0082","EdgeCore Mesa integrated flagship campus expansion","AZ",496,2026,2,"A-",null,"Other","EDI Mesa 2, LLC"],["USDC-0083","Google Red Hawk Mesa Phase 2","AZ",null,2026,0,"A-",null,"Google","Google / Stone Applications LLC"],["USDC-0084","Novva Mesa data-center campus","AZ",300,2025,2,"B",null,"Novva","Novva Holdings, LLC / Novva Data Centers"],["USDC-0085","Project Baccara data-center and power campus","AZ",null,null,2,"prose",null,"Other","Takanock, LLC; Baccara Eagle Land, LLC; Takanock Baccara LLC; Baccara Power"],["USDC-0086","Tract Yuma data center","AZ",null,null,3,"prose",null,"未披露",""],["USDC-0087","CoreSite Silicon Valley SV9 expansion","CA",34,2025,0,"B",null,"Other","CoreSite, an American Tower company; official Santa Clara records name CoreSite Real Estat…"],["USDC-0088","Imperial Valley Computer Manufacturing Imperial Data Center","CA",330,2026,0,"prose",null,"Other","Imperial Valley Computer Manufacturing, LLC"],["USDC-0089","Microsoft San Jose/Alviso data-center campus","CA",99,2026,0,"prose",null,"Microsoft","Microsoft Corporation"],["USDC-0090","Prime Data Centers Sacramento SMF01/SMF02 campus","CA",26,null,1,"B",null,"Prime","Prime Data Centers"],["USDC-0091","CoreSite Denver DE3 campus","CO",18,2026,0,"B",false,"Other","CoreSite (American Tower company)"],["USDC-0092","Project Taurus data center","CO",50,2026,2,"B",null,"Other","3G Venture II LLC"],["USDC-0093","QTS Fayetteville data-center campus","GA",null,2025,0,"prose",null,"QTS","QTS Data Centers; project entities include QTS Fayetteville I, LLC at 1435 Hwy 54 West and…"],["USDC-0094","Servpac MTP Data Center Building 2","HI",null,2026,0,"B-",null,"Other","Servpac Inc."],["USDC-0095","QTS Cedar Rapids data center campus","IA",null,2025,1,"A-",true,"QTS","QTS Cedar Rapids I LLC / QTS Data Centers"],["USDC-0096","Gemstone Technology Park","ID",null,2025,0,"A-",true,"Other","Diode Ventures, LLC (project developer)"],["USDC-0097","Meta Kuna data center","ID",null,2026,0,"A-",null,"Meta","Meta Platforms, Inc. / Brisbie LLC"],["USDC-0098","CyrusOne Aurora data center","IL",40,null,1,"A",true,"Other","CyrusOne; land-use applicant/entity: C1 Chicago Aurora III LLC"],["USDC-0099","Yorkville data-center campus","IL",480,null,1,"A",true,"Other","CyrusOne; land-use applicant/entity: C1 Yorkville, LLC"],["USDC-0100","Google Fort Wayne data center","IN",null,null,0,"A-",null,"Google","Google LLC; Hatchworks LLC is the permittee/local operating entity in IDEM records"],["USDC-0101","Project Kestrel data-center campus","MO",null,2026,0,"B+",null,"Google","Shenandoah Computing LLC (developer/applicant per KSHB and trade reporting; Google affilia…"],["USDC-0102","Markley Lowell data-center expansion","MA",null,2026,0,"A",null,"Other","Markley Group LLC"],["USDC-0103","Servistar Westfield data-center campus","MA",274,null,1,"B",null,"Other","Servistar Realties LLC"],["USDC-0104","Quantum Loophole Frederick campus","MD",2400,null,1,"A-",true,"Amazon/AWS","Quantum Maryland / Quantum Frederick campus managed by Catellus; Catellus is lead develope…"],["USDC-0105","Jay former mill data center","ME",82,2026,3,"B",true,"Other","JGT2 Redevelopment LLC (reported owner/developer of the former mill site); Sentinel Data C…"],["USDC-0106","Mill Compute Bates Mill No. 3 AI data center","ME",24,2025,0,"A",null,"Other","Project proposal by MillCompute LLC in partnership with Bates Mill No. 3 owner Bill Johnso…"],["USDC-0107","Nautilus Millinocket data center","ME",60,2026,0,"B",null,"Other","Nautilus Data Technologies (proposed developer/operator); Our Katahdin / One North control…"],["USDC-0108","Scarborough Technology Park data-center proposal","ME",null,2026,3,"B",null,"Other","Daniel Dickinson (reported developer/landowner; data-center operator/tenant not identified…"],["USDC-0109","Project Cosmo data center","WY",null,null,1,"B",null,"Meta","Meta Platforms, Inc."],["USDC-0110","AWS Hinds County / former Delphi campus conversion","MS",null,2026,0,"B",null,"Amazon/AWS","Amazon Web Services (AWS)"],["USDC-0111","Bonner/Milltown AI data-center proposal","MT",null,null,3,"A-",null,"Other","Krambu; Mike Heisey / Bonner Property; site/building owner withdrew signature from Krambu …"],["USDC-0112","Meta Catawba County data-center expansion","NC",null,null,4,"A",null,"未披露",""],["USDC-0113","FirstLight Bedford data-center expansion","NH",null,2026,3,"B",null,"Other","FirstLight (announcing/operator); property-record owner is 8 Commerce Drive LLC"],["USDC-0114","Nottingham Route 4 data-center proposal","NH",null,null,0,"B",null,"Other","Nottingham Business Park LLC; Thomas Moulton; Treated as applicant/property-owner context,…"],["USDC-0115","CoreWeave NEST Building 11 AI data center","NJ",250,2025,0,"A-",null,"CoreWeave","CoreWeave / CW Grosbeaks Nest Urban Renewal LLC as redeveloper and project entity; CoreWea…"],["USDC-0116","Nebius/DataOne Vineland AI facility","NJ",300,2025,0,"A-",true,"Other","DataOne Vineland, LLC / DataOne owns and operates the facility; Nebius is the build-to-sui…"],["USDC-0117","NJFX high-density AI data hall","NJ",10,2026,3,"B",false,"Other","NJFX"],["USDC-0118","QTS East Windsor second data-center building","NJ",null,null,2,"B",null,"QTS","QTS Investment Properties Princeton LLC"],["USDC-0119","Project Jupiter / Stargate Doña Ana County","NM",null,2026,0,"B",true,"Other","Yucca Growth Infrastructure, LLC is the current NMED Air Quality Construction Permit Appli…"],["USDC-0120","Copia Power Monarch Data Campus","NV",1000,2026,2,"A-",null,"Other","Copia Power Devco, LLC"],["USDC-0121","CoreWeave Las Vegas AI campus","NV",null,2026,0,"B",null,"CoreWeave","CoreWeave deployment/customer; underlying Las Vegas facility/campus operated by Switch"],["USDC-0122","Fleet Data Centers South Valley Campus","NV",null,null,0,"B",null,"Tract","Fleet Data Centers / Tract Capital Management; project filings use SV RNO Property Owner 1…"],["USDC-0123","PowerHouse TRIC data-center campus","NV",200,2025,1,"B",null,"PowerHouse/AREP","PowerHouse Data Centers; American Real Estate Partners (AREP); Harrison Street; POWERHOUSE…"],["USDC-0124","Switch LAS 19 / southwest Las Vegas campus expansion","NV",null,null,2,"B",null,"Other","Switch / NV NAP 6, LLC (project reported as Switch LAS 19; official local case name lists …"],["USDC-0125","Niagara Falls Redevelopment Niagara Digital Campus","NY",140,2025,2,"A-",null,"Other","Niagara Falls Redevelopment; Urbacon Data Centre Solutions; Niagara Falls Redevelopment, L…"],["USDC-0126","North East Data/Blockfusion 5380 Frontier Avenue","NY",null,null,0,"B",null,"Other","North East Data LLC (Blockfusion USA, Inc. subsidiary)"],["USDC-0127","Stream Data Centers Western New York/STAMP","NY",500,null,3,"A-",null,"Other","STREAM U.S. Data Centers, LLC"],["USDC-0128","TeraWulf/Fluidstack Lake Mariner CB-5","NY",160,2025,1,"A-",null,"Other","TeraWulf Inc. / Akela Data LLC; leased to Fluidstack USA I Inc."],["USDC-0129","Meta Prometheus New Albany AI campus","OH",1000,null,1,"B+",null,"Meta","Meta"],["USDC-0130","Meta Tulsa Data Center (Project Anthem)","OK",null,null,1,"A",null,"Meta","Meta Platforms, Inc. (publicly announced operator/developer); local Project Anthem agreeme…"],["USDC-0131","Beale Infrastructure Tulsa County campus","OK",500,2026,0,"prose",false,"Other","Beale Infrastructure developer; Quartz Mountain Properties, LLC recipient/developer entity…"],["USDC-0132","Beale Project Mustang","OK",450,null,2,"A-",true,"Other","Beale Infrastructure / Mustang Tulsa Holdings, LLC. City materials also state the project …"],["USDC-0133","Core Scientific Port Muskogee HPC data center","OK",100,2026,0,"B",null,"CoreWeave","Core Scientific Inc. / Core Scientific Muskogee operations; CoreWeave is the first-buildin…"],["USDC-0134","Google Muskogee-area Summit and Council Hill campuses","OK",null,null,1,"B",null,"Google","Google LLC"],["USDC-0135","Google Pryor data-center expansion","OK",null,null,0,"B",null,"Google","Google"],["USDC-0136","Google Stillwater data center","OK",null,null,1,"B",null,"Google","Google"],["USDC-0137","Meta Tulsa data center","OK",null,2026,1,"A-",null,"Meta","Meta Platforms, Inc."],["USDC-0138","AWS Boardman/Morrow County five-building expansion","OR",null,null,2,"prose",null,"Amazon/AWS","Amazon Data Services, Inc."],["USDC-0139","CoreSite Hillsboro DR-012-26","OR",null,null,3,"B",null,"Other","CoreSite Real Estate Hillsboro LLC"],["USDC-0140","Google The Dalles expansion","OR",null,2025,0,"A-",null,"Google","Google LLC / Alphabet subsidiaries; city and Oregon SIP records also identify Design, LLC …"],["USDC-0141","STACK Hillsboro POR03D/121 MW expansion","OR",25,2027,0,"B",null,"Stack","STACK Infrastructure"],["USDC-0142","AWS Falls Township/Keystone Trade Center campus","PA",null,2026,1,"A",null,"Amazon/AWS","Amazon Data Services, Inc. (facility permittee/operator); NorthPoint Development (owner/de…"],["USDC-0143","AWS/Talen Susquehanna campus","PA",960,null,1,"A-",null,"Amazon/AWS","Amazon Data Services, Inc. / Amazon Web Services"],["USDC-0144","CoreWeave Lancaster AI data center","PA",null,null,3,"A-",null,"CoreWeave","CoreWeave is the announced tenant; Chirisa Technology Parks and Machine Investment Group a…"],["USDC-0145","Homer City AI/HPC campus","PA",4400,2025,1,"A-",null,"Other","Homer City Redevelopment, LLC / Homer City Generation, LP"],["USDC-0146","Pennsylvania Digital 1 (PAX-1)","PA",1350,null,1,"A-",null,"PowerHouse/AREP","Pennsylvania Data Center Partners LLC / PowerHouse Data Centers joint venture; local servi…"],["USDC-0147","TECfusions Keystone Connect","PA",3000,2026,1,"B",null,"Other","TECfusions / TECfusions KEYSTONE, LLC"],["USDC-0148","Hanton City Business Park / Revity data-center concept","RI",null,2026,3,"B",null,"Other","Hanton City Investments LLC and ROK LLC are identified in local Board of Appeals coverage …"],["USDC-0149","Google Project Dawson","SC",null,2025,1,"A",null,"Google","Google"],["USDC-0150","Crusoe Abilene Microsoft AI factory expansion","TX",900,2026,1,"B",null,"Microsoft","Crusoe (developer/operator); Microsoft is the announced customer/tenant; Abilene city agre…"],["USDC-0151","Lancium Clean Campus / Stargate Abilene","TX",2100,2026,0,"A-",null,"Microsoft","Lancium / Abilene DC project entities; Crusoe develops/operates AI factory infrastructure;…"],["USDC-0152","CoreWeave Plano AI data center","TX",null,null,0,"A-",null,"CoreWeave","Lincoln Property Company / 1000 Coit Road LLC listed in 2026 official records as owner/sit…"],["USDC-0153","Fermi America Project Matador HyperGrid","TX",null,2026,0,"B",null,"Fermi","Fermi Inc. (d/b/a Fermi America); first-phase customer lease announced with TensorWave TEX…"],["USDC-0154","Galaxy Helios campus / CoreWeave AI site","TX",null,2026,0,"A-",null,"Other","Galaxy Digital Inc. / Galaxy Helios I LLC and Galaxy Helios II LLC"],["USDC-0155","Google/Intersect Meitner Energy Center","TX",null,null,1,"B",null,"Google","Google (announced data center); IP Meitner Land LLC (TDLR owner of registered buildings); …"],["USDC-0156","Google Texas cloud and AI infrastructure expansion","TX",null,2026,0,"A-",null,"Google","Google announced investor/operator context; Haskell TDLR filings list Homebound Group LLC;…"],["USDC-0157","IREN Sweetwater AI campus","TX",2000,2026,0,"prose",null,"Other","IREN Limited"],["USDC-0158","KDC Irving data-center campus","TX",null,null,2,"prose",null,"Other","University of Dallas (land owner); KDC Real Estate Development & Investments (developer/ap…"],["USDC-0159","Meta El Paso AI/data-center campus","TX",1000,2026,1,"A",null,"Meta","Meta / BlackRock venture; Wurldwide LLC listed as TDLR project owner; Meta to be initial s…"],["USDC-0160","Microsoft Pecos AI/cloud data-center campus","TX",2000,2026,3,"B",true,"Microsoft","Microsoft Corporation"],["USDC-0161","Microsoft SAT82 data center","TX",null,2026,0,"B",null,"Microsoft","Microsoft"],["USDC-0162","Nscale/Ionic Digital Ward County AI campus","TX",234,2026,0,"A-",null,"Other","Ionic Digital Cedarvale LLC"],["USDC-0163","PowerHouse Irving data center","TX",201,2025,0,"B",false,"PowerHouse/AREP","American Real Estate Partners / PowerHouse Data Centers; developed with Harrison Street. C…"],["USDC-0164","Prime Data Centers Caldwell/Lockhart campus","TX",384,2026,0,"A-",null,"Prime","Lockhart Property, LLC / Prime Data Centers"],["USDC-0165","QTS Fort Worth data center","TX",null,2025,0,"A-",null,"QTS","QTS / Quality Technology Services; TDLR DC2 owner entity is QTS Fort Worth I DC2 LLC, whil…"],["USDC-0166","QTS Irving DC3","TX",43.5,null,0,"A-",null,"QTS","QTS Irving DC3, LLC"],["USDC-0167","Rowan Project Temple","TX",300,2025,1,"B",false,"Other","Rowan Temple LLC / Rowan Digital Infrastructure"],["USDC-0168","Skybox Hutto data-center campus","TX",400,null,0,"prose",null,"Other","Hutto Data Center Campus, LLC; Skybox Datacenters / Prologis development partnership"],["USDC-0169","Skybox Old Settlers data center","TX",75,null,0,"prose",null,"Other","Skybox Datacenters is the named project/developer in city public materials; P&Z records sa…"],["USDC-0170","Stargate Frontier / Vantage Shackelford County campus","TX",1400,2025,1,"prose",null,"Vantage","Vantage Data Centers; TDLR building registrations list Vantage Data Centers TX301, LLC thr…"],["USDC-0171","Stargate Milam County campus","TX",1200,2025,1,"A-",null,"OpenAI/Stargate","Milam County Data Center LLC / MDC Building 1, LLC and MDC Building 2, LLC in state record…"],["USDC-0172","Vantage TX2 data center","TX",16,2026,1,"A-",null,"Vantage","Vantage Data Centers / Vantage Data Centers TX21 LLC / Vantage Data Centers TX2 LLC"],["USDC-0173","Antelope data center","UT",1500,2026,2,"A",null,"Other","Pronghorn Development, LLC (developer/applicant; end operator not identified in official c…"],["USDC-0174","B+F Timpanogos data center","UT",null,2026,3,"A-",null,"Other","B+F Timpanogos Tech Center LLC"],["USDC-0175","Creekstone Delta Gigasite","UT",220,2025,0,"B",null,"Other","Creekstone Energy LLC (project sponsor/developer); Fibernet Mercury Delta, LLC was the loc…"],["USDC-0176","CyrusOne Dugway Proving Ground campus","UT",1000,2026,3,"B",null,"Other","CyrusOne (portfolio company jointly held by funds managed by KKR and BlackRock)"],["USDC-0177","Joule HP Compute Campus","UT",null,2026,0,"B+",null,"Other","Joule Capital Partners LLC; Joule Power; Joule Capital Partners, LLC; 2025-09-03"],["USDC-0178","Nine Mile / Uinta Basin data center","UT",null,2026,2,"A-",null,"Other","Energence Utah, LLC / Nine Mile Data, LLC are identified in county materials as project ap…"],["USDC-0179","QTS Eagle Mountain campus","UT",650,2026,1,"B",null,"QTS","QTS Data Centers; Eagle Mountain RDA materials identify project-area parcel owners as QTS …"],["USDC-0180","Wonder Valley / Stratos hyperscale campus","UT",9000,2026,2,"A-",null,"Other","O'Leary Digital Utah Development Co, LLC (Master Developer; Wonder Valley branding). Publi…"],["USDC-0181","Summit Ridge data center","UT",100,2026,0,"B+",null,"Other","Data Center Power Company"],["USDC-0182","Tract Project Tripletail Eagle Mountain","UT",null,null,2,"B",null,"Tract","Tract"],["USDC-0183","Tract Pole Canyon and Pony Express campuses","UT",1820,2028,0,"B",null,"Tract","Tract; related Eagle Mountain development-agreement party UTLCO Eagle Mtn. Two, LLC"],["USDC-0184","Convergent Technology Park","VA",240,null,3,"B",null,"Other","Convergent VA, LLC"],["USDC-0185","Dulles Digital Data Center Buildings 6 and 8","VA",142,null,1,"prose",null,"Digital Realty","Digital Realty"],["USDC-0186","Wallula Gap/Walla Walla data-center campus","WA",null,2026,0,"B+",true,"Amazon/AWS","Amazon Data Services, Inc. / Amazon Web Services (AWS)"],["USDC-0187","Bitfarms Moses Lake cryptomine-to-AI data-center conversion","WA",18,2025,2,"A",null,"Other","Keel Infrastructure Corp. (successor issuer to Bitfarms; local applicant listed as Backbon…"],["USDC-0188","Microsoft Malaga and East Wenatchee development portfolio","WA",null,null,1,"B",null,"Microsoft","Microsoft Corporation"],["USDC-0189","Microsoft MWH08 Quincy","WA",null,null,2,"A",null,"Microsoft","Microsoft Corporation"],["USDC-0190","Seattle large-load data-center approach cluster","WA",249,2026,0,"A-",null,"Equinix","Equinix (media-reported active proposer); Prologis (media-reported active proposer)"],["USDC-0191","Monarch Compute Campus / Nscale-Microsoft","WV",1350,2027,1,"B",null,"Other","Nscale Global Holdings Limited / Nscale Ltd.; WV DEP air permit applicant is Monarch Cloud…"],["USDC-0192","Project Jade Cheyenne data-center campus","WY",2700,2031,3,"B",null,"Google","Google d.b.a. Jupiter Star Holdings, LLC"],["USDC-0193","Microsoft Cheyenne datacenter expansion","WY",null,null,2,"B",null,"Microsoft","Microsoft Corporation"],["USDC-0194","Prometheus Hyperscale Evanston campus","WY",1250,2026,2,"B",null,"Other","Prometheus Wyoming I LLC / Prometheus Hyperscale"],["USDC-0195","Related Digital Cheyenne data-center campus","WY",null,2026,1,"prose",null,"Other","Related Digital"],["USDC-0196","Google Project Raspberry / Botetourt County campus","VA",null,2026,1,"A-",null,"Google","Google LLC / Helio Capital LLC (Helio Capital LLC is the company/applicant named in the co…"],["USDC-0197","Google Chesterfield portfolio / Project Peanut, Skye, and Loch","VA",null,2026,1,"A",null,"Google","Google LLC / Google-affiliated site entities including Peanut LLC; county page says Cheste…"],["USDC-0198","Danville–Pittsylvania regional data-center development","VA",null,2026,0,"B",null,"Stack","STACK Infrastructure / SAC III Acquisition Co., LLC"],["USDC-0199","Corscale Gainesville Crossing campus / second building","VA",null,2026,0,"B",null,"Other","Corscale / Patrinely / Affinius Capital development platform; Prince William County FY25 M…"],["USDC-0200","Powhatan County data-center campus","VA",365,2025,1,"B",null,"Other","Newport Equities LLC / Province Group LLC"],["USDC-0201","Meta Beaver Dam","WI",220,2025,0,"B",null,"Meta","Meta Platforms"],["USDC-0202","Kenosha Microsoft data center proposal","WI",null,2026,2,"prose",null,"Microsoft","Microsoft"],["USDC-0203","Red Cedar","WI",null,null,3,"A-",null,"Other","Balloonist LLC (project/developer entity; ultimate operator/end user not publicly disclose…"],["USDC-0204","Fairwater 1","WI",null,2026,0,"B",null,"Microsoft","Microsoft"],["USDC-0205","Lighthouse","WI",902,2026,1,"A-",null,"Vantage","Vantage Data Centers Management Company, LLC"],["USDC-0206","Microsoft second Wisconsin AI data center","WI",null,2025,1,"B",null,"Microsoft","Microsoft Corporation"],["USDC-0207","Google Putnam County high-impact data center","WV",null,null,3,"B",null,"Google","Google"],["USDC-0208","Fundamental Data high-impact Tucker–Grant campus / Ridgeline","WV",null,2025,0,"A-",null,"Other","Fundamental Data LLC"]];
+
+const TIERS = [
+  {key:0, zh:"运行中", en:"Operational", color:"var(--ord5)"},
+  {key:1, zh:"建设中", en:"Construction", color:"var(--ord4)"},
+  {key:2, zh:"已批准", en:"Approved / permitted", color:"var(--ord3)"},
+  {key:3, zh:"规划中", en:"Proposed / planned", color:"var(--ord2)"},
+  {key:4, zh:"未知", en:"Unknown", color:"var(--ord1)"},
+];
+const rows = RAW.map(r => ({slug:r[0], name:r[1], state:r[2], cap:r[3], year:r[4], tier:r[5], grade:r[6], verified:r[7], owner:r[8], ownerFull:r[9]}));
+
+const fmt = n => Math.round(n).toLocaleString("en-US");
+const gw1 = mw => (mw/1000).toFixed(1);
+const $ = id => document.getElementById(id);
+
+/* ---------- aggregates ---------- */
+const withCap = rows.filter(r => r.cap != null);
+const totalMW = withCap.reduce((s,r) => s+r.cap, 0);
+const withYear = rows.filter(r => r.year != null);
+const states = [...new Set(rows.map(r => r.state))];
+
+const YEAR_KEYS = ["2025","2026","2027","2028","2029","2030","2031+","年份未知"];
+function yearKey(y){
+  if (y == null) return "年份未知";
+  if (y >= 2031) return "2031+";
+  if (y <= 2025) return "2025";
+  return String(y);
+}
+const yearAgg = Object.fromEntries(YEAR_KEYS.map(k => [k, {mw:0, nCap:0, nAll:0}]));
+for (const r of rows){
+  const k = yearKey(r.year);
+  if (r.cap != null){ yearAgg[k].mw += r.cap; yearAgg[k].nCap++; }
+  if (!(r.year == null && r.cap == null)) yearAgg[k].nAll++;
+}
+
+const tierAgg = TIERS.map(t => {
+  const rs = rows.filter(r => r.tier === t.key);
+  return {...t, n:rs.length, mw:rs.reduce((s,r) => s+(r.cap||0), 0)};
+});
+const opMW = tierAgg[0].mw;
+const pipeMW = tierAgg[1].mw + tierAgg[2].mw + tierAgg[3].mw;
+
+const stateAgg = {};
+for (const r of rows){
+  const s = stateAgg[r.state] || (stateAgg[r.state] = {n:0, mw:0, nCap:0});
+  s.n++; if (r.cap != null){ s.mw += r.cap; s.nCap++; }
+}
+const stateList = Object.entries(stateAgg).map(([st,v]) => ({st, ...v})).sort((a,b) => b.mw-a.mw || b.n-a.n);
+
+const ownerAgg = {};
+for (const r of rows){
+  const o = ownerAgg[r.owner] || (ownerAgg[r.owner] = {n:0, mw:0});
+  o.n++; if (r.cap != null) o.mw += r.cap;
+}
+const ownerList = Object.entries(ownerAgg).map(([o,v]) => ({o, ...v}));
+
+const GRADE_KEYS = ["A","A-","B+","B","B-","长文本","未标注"];
+const gradeAgg = Object.fromEntries(GRADE_KEYS.map(k => [k,0]));
+for (const r of rows){
+  const g = r.grade == null ? "未标注" : (r.grade === "prose" ? "长文本" : r.grade);
+  gradeAgg[g] = (gradeAgg[g]||0) + 1;
+}
+
+/* ---------- hero ---------- */
+$("heroGW").textContent = gw1(totalMW);
+$("tCenters").textContent = rows.length;
+$("tWithCap").textContent = withCap.length;
+$("tWithYear").textContent = withYear.length;
+$("tStates").textContent = states.length;
+$("tOpGW").textContent = gw1(opMW);
+$("tPipeGW").textContent = gw1(pipeMW);
+$("heroNote").textContent = `容量覆盖率 ${(withCap.length/rows.length*100).toFixed(0)}%（${withCap.length}/${rows.length} 个中心披露了 MW 数字）；其余 ${rows.length-withCap.length} 个中心容量未知、未计入合计，因此 ${gw1(totalMW)} GW 是下限口径。`;
+
+const peak = YEAR_KEYS.slice(0,7).reduce((a,b) => yearAgg[a].mw >= yearAgg[b].mw ? a : b);
+$("yearConclusion").innerHTML = `<strong>${peak} 年</strong>为目标投运高峰：约 <strong>${gw1(yearAgg[peak].mw)} GW</strong>（${yearAgg[peak].nCap} 个有容量数据的中心）；另有 <strong>${gw1(yearAgg["年份未知"].mw)} GW</strong> 容量的中心未披露目标年份。`;
+
+/* ---------- tooltip ---------- */
+const tip = $("tip");
+function showTip(ev, lines){
+  tip.textContent = "";
+  lines.forEach((t,i) => {
+    const d = document.createElement("div");
+    if (i === 0) d.className = "tv";
+    d.textContent = t;
+    tip.appendChild(d);
+  });
+  tip.style.display = "block";
+  moveTip(ev);
+}
+function moveTip(ev){
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = ev.clientX + pad, y = ev.clientY + pad;
+  if (x + w > innerWidth - 8) x = ev.clientX - w - pad;
+  if (y + h > innerHeight - 8) y = ev.clientY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+function hideTip(){ tip.style.display = "none"; }
+function bindTip(el, linesFn){
+  el.addEventListener("pointerenter", e => showTip(e, linesFn()));
+  el.addEventListener("pointermove", moveTip);
+  el.addEventListener("pointerleave", hideTip);
+  el.addEventListener("focus", () => {
+    const r = el.getBoundingClientRect();
+    showTip({clientX:r.left + r.width/2, clientY:r.top}, linesFn());
+  });
+  el.addEventListener("blur", hideTip);
+}
+
+/* ---------- centerpiece column chart (SVG) ---------- */
+(function yearChart(){
+  const NS = "http://www.w3.org/2000/svg";
+  const W = 960, H = 380, ML = 52, MR = 16, MT = 28, MB = 52;
+  const pw = W - ML - MR, ph = H - MT - MB;
+  const maxGW = 50;
+  const y = mw => MT + ph - (mw/1000)/maxGW * ph;
+  const svg = document.createElementNS(NS, "svg");
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  svg.setAttribute("class", "chart-svg");
+  svg.setAttribute("role", "img");
+  svg.setAttribute("aria-label", "各目标年份的总规划功耗柱状图，单位吉瓦");
+  const add = (parent, tag, attrs, text) => {
+    const el = document.createElementNS(NS, tag);
+    for (const k in attrs) el.setAttribute(k, attrs[k]);
+    if (text != null) el.textContent = text;
+    parent.appendChild(el); return el;
+  };
+  for (let g = 0; g <= maxGW; g += 10){
+    const yy = y(g*1000);
+    if (g > 0) add(svg, "line", {x1:ML, x2:W-MR, y1:yy, y2:yy, class:"gridline"});
+    add(svg, "text", {x:ML-8, y:yy+4, "text-anchor":"end", class:"ticktxt"}, String(g));
+  }
+  add(svg, "text", {x:ML-8, y:MT-12, "text-anchor":"end", class:"ticktxt"}, "GW");
+  const band = pw / YEAR_KEYS.length, bw = 24;
+  YEAR_KEYS.forEach((k, i) => {
+    const a = yearAgg[k];
+    const cx = ML + band*i + band/2, x0 = cx - bw/2;
+    const yTop = y(a.mw), h = MT + ph - yTop;
+    if (a.mw > 0){
+      const r = Math.min(4, h/2);
+      add(svg, "path", {class:"col", d:
+        `M${x0},${MT+ph} L${x0},${yTop+r} Q${x0},${yTop} ${x0+r},${yTop} L${x0+bw-r},${yTop} Q${x0+bw},${yTop} ${x0+bw},${yTop+r} L${x0+bw},${MT+ph} Z`});
+    }
+    add(svg, "text", {x:cx, y:yTop-8, "text-anchor":"middle", class:"captxt"},
+      a.mw > 0 ? gw1(a.mw) : "0");
+    add(svg, "text", {x:cx, y:MT+ph+20, "text-anchor":"middle", class:"xlab"}, k);
+    add(svg, "text", {x:cx, y:MT+ph+36, "text-anchor":"middle", class:"xlab-sub"},
+      a.nCap > 0 ? `${a.nCap} 中心` : "—");
+    const hit = add(svg, "rect", {x:ML+band*i, y:MT, width:band, height:ph+MB-8, class:"hit", tabindex:"0",
+      "aria-label":`${k}：${gw1(a.mw)} 吉瓦，${a.nCap} 个有容量数据的中心`});
+    bindTip(hit, () => [
+      `${gw1(a.mw)} GW`,
+      `${k} · ${fmt(a.mw)} MW`,
+      `${a.nCap} 个有容量数据的中心`,
+      k !== "年份未知" && a.nAll > a.nCap ? `另有 ${a.nAll - a.nCap} 个该年份中心无容量数据` : "",
+    ].filter(Boolean));
+  });
+  add(svg, "line", {x1:ML, x2:W-MR, y1:MT+ph, y2:MT+ph, class:"baseline"});
+  $("yearChart").appendChild(svg);
+
+  const tw = document.createElement("table");
+  tw.innerHTML = "<thead><tr><th>年份</th><th>容量 MW</th><th>GW</th><th>有容量中心</th><th>该年份中心总数</th></tr></thead>";
+  const tb = document.createElement("tbody");
+  YEAR_KEYS.forEach(k => {
+    const a = yearAgg[k], tr = document.createElement("tr");
+    [k, fmt(a.mw), gw1(a.mw), a.nCap, a.nAll].forEach(v => {
+      const td = document.createElement("td"); td.textContent = v; tr.appendChild(td);
+    });
+    tb.appendChild(tr);
+  });
+  tw.appendChild(tb);
+  $("yearTwin").appendChild(tw);
+})();
+
+/* ---------- horizontal bar rows ---------- */
+function barRows(el, items, opts){
+  const max = Math.max(...items.map(i => i.value));
+  items.forEach(it => {
+    const row = document.createElement("div");
+    row.className = "brow"; row.tabIndex = 0;
+    row.setAttribute("aria-label", `${it.label}：${it.valText}`);
+    const lab = document.createElement("div");
+    lab.className = "lab";
+    lab.textContent = it.label;
+    if (it.sub){
+      const s = document.createElement("small"); s.textContent = " " + it.sub; lab.appendChild(s);
+    }
+    const track = document.createElement("div"); track.className = "btrack";
+    const fill = document.createElement("div"); fill.className = "bfill";
+    fill.style.width = Math.max(it.value/max*100, it.value > 0 ? 1.2 : 0) + "%";
+    fill.style.background = it.color || "var(--blue)";
+    const val = document.createElement("span"); val.className = "bval";
+    val.textContent = it.valText;
+    if (it.valSub){
+      const s = document.createElement("small"); s.textContent = " " + it.valSub; val.appendChild(s);
+    }
+    track.appendChild(fill); track.appendChild(val);
+    row.appendChild(lab); row.appendChild(track);
+    if (it.tip) bindTip(row, () => it.tip);
+    el.appendChild(row);
+  });
+}
+
+/* status tiers */
+barRows($("tierCount"), tierAgg.map(t => ({
+  label:t.zh, sub:t.en, color:t.color, value:t.n, valText:String(t.n),
+  tip:[`${t.n} 个中心`, `${t.zh} ${t.en}`, `已披露容量 ${gw1(t.mw)} GW`],
+})));
+barRows($("tierCap"), tierAgg.map(t => ({
+  label:t.zh, sub:t.en, color:t.color, value:t.mw, valText:gw1(t.mw),
+  tip:[`${gw1(t.mw)} GW`, `${t.zh} ${t.en}`, `${fmt(t.mw)} MW · ${t.n} 个中心`],
+})));
+const tierTwinT = document.createElement("table");
+tierTwinT.innerHTML = "<thead><tr><th>层级</th><th>中心数</th><th>容量 MW</th></tr></thead>";
+{
+  const tb = document.createElement("tbody");
+  tierAgg.forEach(t => {
+    const tr = document.createElement("tr");
+    [`${t.zh} ${t.en}`, t.n, fmt(t.mw)].forEach(v => {
+      const td = document.createElement("td"); td.textContent = v; tr.appendChild(td);
+    });
+    tb.appendChild(tr);
+  });
+  tierTwinT.appendChild(tb);
+  $("tierTwin").appendChild(tierTwinT);
+}
+
+/* states: top 15 by capacity */
+{
+  const TOP = 15;
+  const top = stateList.slice(0, TOP);
+  const rest = stateList.slice(TOP);
+  barRows($("stateChart"), top.map(s => ({
+    label:s.st, sub:`${s.n} 中心`, value:s.mw, valText:gw1(s.mw) + " GW",
+    tip:[`${gw1(s.mw)} GW`, `${s.st} · ${fmt(s.mw)} MW`, `${s.n} 个中心，其中 ${s.nCap} 个有容量数据`],
+  })));
+  const restMW = rest.reduce((s,x) => s+x.mw, 0), restN = rest.reduce((s,x) => s+x.n, 0);
+  $("stateNote").textContent = `按已披露容量排序，前 ${TOP} 州；其余 ${rest.length} 州合计 ${gw1(restMW)} GW、${restN} 个中心。前三州（${top.slice(0,3).map(s=>s.st).join("、")}）合计占已披露容量的 ${((top[0].mw+top[1].mw+top[2].mw)/totalMW*100).toFixed(0)}%。`;
+  const tw = document.createElement("table");
+  tw.innerHTML = "<thead><tr><th>州</th><th>中心数</th><th>有容量数据</th><th>容量 MW</th></tr></thead>";
+  const tb = document.createElement("tbody");
+  stateList.forEach(s => {
+    const tr = document.createElement("tr");
+    [s.st, s.n, s.nCap, fmt(s.mw)].forEach(v => {
+      const td = document.createElement("td"); td.textContent = v; tr.appendChild(td);
+    });
+    tb.appendChild(tr);
+  });
+  tw.appendChild(tb);
+  $("stateTwin").appendChild(tw);
+}
+
+/* owners */
+{
+  const isBucket = o => o === "Other" || o === "未披露";
+  const byCap = [...ownerList].sort((a,b) => b.mw-a.mw);
+  const capItems = byCap.filter(o => !isBucket(o.o)).slice(0, 12);
+  const otherCap = byCap.find(o => o.o === "Other");
+  barRows($("ownerCap"), [
+    ...(otherCap ? [{label:"其他（合并桶）", sub:`${otherCap.n} 中心`, color:"var(--other)", value:otherCap.mw, valText:gw1(otherCap.mw),
+      tip:[`${gw1(otherCap.mw)} GW`, "独立/区域开发商合并桶", `${otherCap.n} 个中心`]}] : []),
+    ...capItems.map(o => ({label:o.o, value:o.mw, valText:gw1(o.mw),
+      tip:[`${gw1(o.mw)} GW`, o.o, `${fmt(o.mw)} MW · ${o.n} 个中心`]})),
+  ].sort((a,b) => b.value-a.value));
+  const byN = [...ownerList].sort((a,b) => b.n-a.n);
+  const nItems = byN.filter(o => !isBucket(o.o)).slice(0, 12);
+  const otherN = byN.find(o => o.o === "Other");
+  barRows($("ownerCount"), [
+    ...(otherN ? [{label:"其他（合并桶）", color:"var(--other)", value:otherN.n, valText:String(otherN.n),
+      tip:[`${otherN.n} 个中心`, "独立/区域开发商合并桶", `已披露容量 ${gw1(otherN.mw)} GW`]}] : []),
+    ...nItems.map(o => ({label:o.o, value:o.n, valText:String(o.n),
+      tip:[`${o.n} 个中心`, o.o, `已披露容量 ${gw1(o.mw)} GW`]})),
+  ].sort((a,b) => b.value-a.value));
+}
+
+/* evidence grades */
+barRows($("gradeChart"), GRADE_KEYS.map(k => ({
+  label:k, value:gradeAgg[k], valText:String(gradeAgg[k]),
+  tip:[`${gradeAgg[k]} 个中心`, `证据等级 ${k}`, `占 ${(gradeAgg[k]/rows.length*100).toFixed(0)}%`],
+})));
+$("vTrue").textContent = rows.filter(r => r.verified === true).length;
+$("vFalse").textContent = rows.filter(r => r.verified === false).length;
+$("vNull").textContent = rows.filter(r => r.verified == null).length;
+
+/* ---------- main table ---------- */
+const tbody = $("tbody");
+let sortKey = "cap", sortDir = -1;
+const getV = (r,k) => k === "tier" ? r.tier :
+  k === "verified" ? (r.verified === true ? 0 : r.verified === false ? 1 : 2) :
+  r[k];
+function renderTable(){
+  const q = $("q").value.trim().toLowerCase();
+  let list = rows;
+  if (q) list = rows.filter(r =>
+    r.slug.toLowerCase().includes(q) || r.name.toLowerCase().includes(q) ||
+    r.state.toLowerCase().includes(q) || (r.owner||"").toLowerCase().includes(q) ||
+    (r.ownerFull||"").toLowerCase().includes(q) || (r.grade||"").toLowerCase().includes(q));
+  list = [...list].sort((a,b) => {
+    const va = getV(a,sortKey), vb = getV(b,sortKey);
+    if (va == null && vb == null) return 0;
+    if (va == null) return 1;
+    if (vb == null) return -1;
+    return (typeof va === "number" ? va-vb : String(va).localeCompare(String(vb))) * sortDir;
+  });
+  tbody.textContent = "";
+  const frag = document.createDocumentFragment();
+  for (const r of list){
+    const tr = document.createElement("tr");
+    const td = (txt, cls) => {
+      const d = document.createElement("td");
+      if (cls) d.className = cls;
+      d.textContent = txt;
+      tr.appendChild(d); return d;
+    };
+    td(r.slug, "mono");
+    td(r.name, "name");
+    td(r.state, "mono");
+    td(r.cap != null ? fmt(r.cap) : "—", r.cap != null ? "num" : "num miss");
+    td(r.year != null ? String(r.year) : "—", r.year != null ? "num" : "num miss");
+    const t = TIERS[r.tier];
+    const tdTier = document.createElement("td");
+    const tag = document.createElement("span"); tag.className = "tag";
+    const dot = document.createElement("span"); dot.className = "dot"; dot.style.background = t.color;
+    tag.appendChild(dot); tag.appendChild(document.createTextNode(t.zh));
+    tdTier.appendChild(tag); tr.appendChild(tdTier);
+    td(r.grade == null ? "—" : (r.grade === "prose" ? "长文本" : r.grade), r.grade == null ? "miss" : "");
+    td(r.verified === true ? "✓" : r.verified === false ? "✗" : "—", r.verified == null ? "miss" : "");
+    td(r.owner === "未披露" ? "—" : r.owner, r.owner === "未披露" ? "miss" : "");
+    frag.appendChild(tr);
+  }
+  tbody.appendChild(frag);
+  $("count").textContent = `显示 ${list.length} / ${rows.length}`;
+}
+$("q").addEventListener("input", renderTable);
+document.querySelectorAll("table.main th").forEach(th => {
+  th.addEventListener("click", () => {
+    const k = th.dataset.k;
+    if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = k === "cap" || k === "year" ? -1 : 1; }
+    document.querySelectorAll("table.main th").forEach(h =>
+      h.textContent = h.textContent.replace(/ [▾▴]$/, ""));
+    th.textContent = th.textContent.replace(/ [▾▴]$/, "") + (sortDir === -1 ? " ▾" : " ▴");
+    renderTable();
+  });
+});
+renderTable();
+
+/* ---------- theme toggle ---------- */
+$("themeBtn").addEventListener("click", () => {
+  const rootEl = document.documentElement;
+  const osDark = matchMedia("(prefers-color-scheme: dark)").matches;
+  const cur = rootEl.dataset.theme || (osDark ? "dark" : "light");
+  rootEl.dataset.theme = cur === "dark" ? "light" : "dark";
+});
+</script>
+</body>
+</html>

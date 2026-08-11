@@ -9,11 +9,74 @@
   "location": {
     "city": "Kansas City",
     "county": "Clay County",
-    "state": "MO"
+    "state": "MO",
+    "site": "Zone 3, Golden Plains Technology Park",
+    "site_description": "About 374.89 acres generally at the northwest corner of I-435 and US-169, with northern boundary of N.W. 128th Street; Golden Plains Technology Park spans Platte and Clay counties."
   },
   "phase3_stable_id": "MO-KC-NORTHLAND-META",
-  "status_as_of_cutoff": "Missouri DED's May 20, 2026 regional announcement describes planned Google/Meta-area investments, but does not identify a Meta parcel or site-specific project. A specialist tracker is retained only as a discovery lead. No Meta company announcement, local approval, incentive/bond action, permit, construction, utility, or live-service record was located; status remains an unvalidated regional lead.",
+  "status_as_of_cutoff": "partial live. Meta's August 20, 2025 company announcement, updated November 14, 2025, states that the Kansas City Data Center is operational and serving traffic. Official Kansas City records tie Velvet Tech Services, LLC to Zone 3 of Golden Plains Technology Park, including the 2021 preliminary plat and 2022 water/wastewater agreements, and Missouri DNR issued a de minimis construction air permit for Velvet Tech Services LLC-Kansas City on April 9, 2024. No primary source located in this refresh states campus MW capacity or confirms full buildout.",
+  "evidence_grade": "A",
   "actions": [
+    {
+      "date": "2021-09-23",
+      "date_precision": "day",
+      "government_body": "Kansas City, Missouri City Council",
+      "action_type": "preliminary plat approval",
+      "result_status": "Passed Ordinance No. 210841 approving the preliminary plat for Zone 3 of Golden Plains Technology Park to create two lots on about 374.89 acres generally located at the northwest corner of I-435 and US-169 with a northern boundary of N.W. 128th Street.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Ordinance No. 210841; CD-CPC-2021-00107",
+      "primary_url": "https://clerk.kcmo.gov/LegislationDetail.aspx?GUID=B4B56878-A985-43D7-A86E-1C499DF6EC99&ID=5140162&Options=&Search=",
+      "access_caveat": null,
+      "evidence_note": "Official city record establishes the Golden Plains Zone 3 location later associated with Velvet Tech Services."
+    },
+    {
+      "date": "2022-02-03",
+      "date_precision": "day",
+      "government_body": "Kansas City, Missouri City Council",
+      "action_type": "water and wastewater services authorization",
+      "result_status": "Passed committee substitute for Ordinance No. 211119 authorizing Water Services agreements with Velvet Tech Services, LLC for development of Zone 3 of Golden Plains Technology Park.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Committee Substitute for Ordinance No. 211119",
+      "primary_url": "https://clerk.kcmo.gov/LegislationDetail.aspx?GUID=88AC2B70-4145-4F7F-BC91-54D971154EA7&ID=5363240&Options=&Search=",
+      "access_caveat": null,
+      "evidence_note": "Official city utility-service action shows local-process progress for Velvet Tech Services at Zone 3."
+    },
+    {
+      "date": "2022-03-24",
+      "date_precision": "day",
+      "government_body": "Meta",
+      "action_type": "company announcement",
+      "result_status": "Meta announced Kansas City as its newest data center, with more than $800 million investment, about 100 operational jobs, and more than 1,300 construction workers expected at peak.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://datacenters.atmeta.com/2022/03/hello-kansas-city/",
+      "access_caveat": null,
+      "evidence_note": "Primary company announcement confirms owner/operator and project existence."
+    },
+    {
+      "date": "2024-04-09",
+      "date_precision": "day",
+      "government_body": "Missouri Department of Natural Resources",
+      "action_type": "air construction permit",
+      "result_status": "Issued de minimis construction permit 042024-001 for Velvet Tech Services LLC-Kansas City, Application/Project No. 2023-10-010, Site ID 047-0211, in Kansas City, Clay County.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "042024-001; Application/Project No. 2023-10-010; Site ID 047-0211",
+      "primary_url": "https://dnr.mo.gov/air/business-industry/air-permits/velvet-tech-services-llc-kansas-city-042024-001",
+      "access_caveat": null,
+      "evidence_note": "State environmental permit supports permitted/construction status before Meta's operational announcement."
+    },
+    {
+      "date": "2025-08-20",
+      "date_precision": "day",
+      "government_body": "Meta",
+      "action_type": "operational announcement",
+      "result_status": "Meta stated that the Kansas City Data Center is operational and serving traffic, represents over $1 billion invested in Missouri, supports more than 100 jobs when fully operational, and is LEED Gold certified.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://about.fb.com/news/2025/08/metas-kansas-city-data-center/",
+      "access_caveat": "Article displays August 20, 2025 and November 14, 2025; treated as published August 20, 2025 with later update.",
+      "evidence_note": "Primary company source supports partial live/serving-traffic status; does not prove full campus buildout or MW capacity."
+    },
     {
       "date": "2026-05-20",
       "date_precision": "day",
@@ -40,7 +103,7 @@
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Meta Platforms, Inc.",
   "sources": {
     "phase3_stable_id": "MO-KC-NORTHLAND-META",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -48,9 +111,26 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "evidence_urls": [
+      "https://about.fb.com/news/2025/08/metas-kansas-city-data-center/",
+      "https://datacenters.atmeta.com/2022/03/hello-kansas-city/",
+      "https://clerk.kcmo.gov/LegislationDetail.aspx?GUID=B4B56878-A985-43D7-A86E-1C499DF6EC99&ID=5140162&Options=&Search=",
+      "https://clerk.kcmo.gov/LegislationDetail.aspx?GUID=88AC2B70-4145-4F7F-BC91-54D971154EA7&ID=5363240&Options=&Search=",
+      "https://dnr.mo.gov/air/business-industry/air-permits/velvet-tech-services-llc-kansas-city-042024-001",
+      "https://ded.mo.gov/press-room/google-deepens-missouri-roots-15-billion-community-investment-montgomery-county",
+      "https://missouridatacenters.org/"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "field": "status_as_of_cutoff",
+      "old_value": "Missouri DED's May 20, 2026 regional announcement describes planned Google/Meta-area investments, but does not identify a Meta parcel or site-specific project. A specialist tracker is retained only as a discovery lead. No Meta company announcement, local approval, incentive/bond action, permit, construction, utility, or live-service record was located; status remains an unvalidated regional lead.",
+      "reason_replaced": "2026-08-11 refresh located primary Meta, Kansas City, and Missouri DNR records confirming the project, owner, local approvals/permits, and operational status."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

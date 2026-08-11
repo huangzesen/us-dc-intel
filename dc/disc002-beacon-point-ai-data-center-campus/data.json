@@ -3,20 +3,48 @@
   "canonical_project": "Beacon Point AI Data Center Campus",
   "owner": "Hut 8 Corp.",
   "location": {
-    "city": "Corpus Christi area",
+    "city": "Robstown / Corpus Christi area",
     "county": "Nueces",
     "state": "TX"
   },
   "capacity_mw": 1000,
-  "status": "announced; interconnection agreement executed; initial energization expected Q1 2027",
+  "capacity_basis": "utility capacity under AEP Texas interconnection agreement",
+  "contracted_it_mw": 704,
+  "site_acres": "approximately 521-525",
+  "status": "site work-construction; fully commercialized; AEP Texas interconnection agreement executed; initial energization expected Q1 2027",
   "confidence": "high",
-  "evidence_date": "2026-07-20",
+  "evidence_date": "2026-08-04",
   "sources": [
     "https://www.hut8.com/data-centers/beacon-point",
+    "https://www.hut8.com/news-insights/press-releases/hut-8-reports-second-quarter-2026-results",
+    "https://www.ccredc.com/news/2026/07/20/default/hut-8-fully-commercializes-1-gw-beacon-point-ai-data-center-campus/",
     "https://www.prnewswire.com/news-releases/hut-8-commercializes-first-phase-of-1-gw-beacon-point-ai-data-center-campus-with-15-year-352-mw-it-lease-with-base-term-contract-value-of-9-8-billion-302763484.html",
-    "https://www.sec.gov/Archives/edgar/data/1964789/000110465926084862/tm2620835d1_ex99-1.htm"
+    "https://www.sec.gov/Archives/edgar/data/1964789/000110465926084862/tm2620835d1_ex99-1.htm",
+    "https://www.prnewswire.com/news-releases/hut-8-closes-4-25-billion-of-investment-grade-senior-secured-notes-for-beacon-point-data-center-project-302795866.html",
+    "https://www.kristv.com/news/local-news/in-your-neighborhood/corpus-christi/calallen/beacon-point-ai-massive-data-center-planned-for-nueces-county"
   ],
   "why_not_in_baseline": "Not among the 208 canonical_project names; new 2026 Hut 8 Texas campus with 1,000 MW AEP Texas utility-capacity interconnection and 704 MW contracted IT load.",
+  "contradictions": [
+    "Site acreage varies by source: Hut 8 project page says 525 acres, while the June 9, 2026 financing release describes an approximately 521-acre property.",
+    "June 2026 local reporting said there was no firm construction start date and no formal city/county approval requirement; July 20, 2026 Hut 8/SEC disclosure states the company had commenced construction and site preparation was underway."
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "previous": "announced; interconnection agreement executed; initial energization expected Q1 2027",
+      "current": "site work-construction; fully commercialized; AEP Texas interconnection agreement executed; initial energization expected Q1 2027",
+      "source": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926084862/tm2620835d1_ex99-1.htm"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous": 1000,
+      "current": 1000,
+      "note": "Retained as utility capacity; added contracted_it_mw=704 to distinguish leased IT load from utility interconnection capacity.",
+      "source": "https://www.ccredc.com/news/2026/07/20/default/hut-8-fully-commercializes-1-gw-beacon-point-ai-data-center-campus/"
+    }
+  ],
   "discovery_file": "candidates-grid-queue.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

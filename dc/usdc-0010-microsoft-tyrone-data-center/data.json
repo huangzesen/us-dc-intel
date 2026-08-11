@@ -9,11 +9,38 @@
   "location": {
     "city": "Tyrone",
     "county": "Fayette County",
-    "state": "GA"
+    "state": "GA",
+    "address": "2008 Highway 74 West",
+    "site_context": "DCA DRI initial form places Project Rita at 2008 Highway 74 West. Local reporting describes the site west of GA Highway 74 between Kirkley Road and the Fulton County/Fairburn boundary, with the Fayette County portion intended for annexation into Tyrone."
   },
   "phase3_stable_id": "GA-007",
-  "status_as_of_cutoff": "Town of Tyrone states zoning approval remains in place after March 2024 public hearings and March 28 council approval, but as of June 2, 2026 no site plan, land-disturbance permit, building permit, or other development permit application had been submitted. No construction or energization is established.",
+  "status_as_of_cutoff": "local process / approved zoning only. Town of Tyrone's data-center page says the Microsoft data center project was approved by Town Council in March 2024 and zoning approval remains in place, but its current-status language says that as of May 2026 no site plan, land-disturbance permit, or building-permit applications had been submitted; the same page's construction FAQ states no site plan, land-disturbance permit, building permit, or other development permit application had been submitted as of 06/02/2026. Georgia DCA lists DRI #4094 Project Rita as Completed, which confirms regional-review process status, not construction or permit issuance. Microsoft confirmed in May 2026 that it is planning a Tyrone datacenter and held a May 19, 2026 community information session. No construction, energization, or certificate-of-occupancy evidence was found in this refresh.",
+  "evidence_grade": "A- for entitlement/status, based on official Town of Tyrone, Georgia DCA DRI, and Microsoft Local sources. Capacity remains B-/unverified because official DRI energy-load fields do not publish MW, while DCD and Cleanview report 96 MW from secondary/project-tracker sources.",
   "actions": [
+    {
+      "date": "2023-10-27",
+      "date_precision": "day",
+      "government_body": "Georgia Department of Community Affairs / Town of Tyrone",
+      "action_type": "DRI initial information form",
+      "result_status": "DCA DRI #4094 initial form was submitted for Project Rita by Tyrone. The form identifies the location as 2008 Highway 74 West, the developer/applicant as Fayette County Development Authority, and describes a technology-based light industrial park incorporating 504,600 square feet in two buildings while also listing project size as 1,500,000 square feet.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DRI #4094",
+      "primary_url": "https://apps.dca.ga.gov/DRI/InitialForm.aspx?driid=4094",
+      "access_caveat": "Official DCA DRI form; DRI filing data is not a building permit or construction authorization.",
+      "evidence_note": "Official DRI application evidence for address, applicant, project description, jurisdiction note, and projected seven-year overall completion."
+    },
+    {
+      "date": "2024-02-28",
+      "date_precision": "day",
+      "government_body": "Georgia Department of Community Affairs / Town of Tyrone",
+      "action_type": "DRI additional information form",
+      "result_status": "DCA DRI #4094 additional form was submitted. It lists estimated value at build-out of $350 million, estimated annual local tax revenue of $4 million, Fayette County Water System as water provider, .225 MGD water demand, Fulton County Water & Sewer through Tyrone as wastewater provider, 0.075 MGD sewage flow, 500 peak-hour vehicle trips, and 25% projected impervious surface. The peak connected electrical load field did not publish a MW value.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DRI #4094",
+      "primary_url": "https://apps.dca.ga.gov/DRI/AdditionalForm.aspx?driid=4094",
+      "access_caveat": "Official DCA DRI form; utility/provider estimates are planning-review inputs and do not prove permit issuance or construction.",
+      "evidence_note": "Official DRI evidence for water, wastewater, economic, traffic, stormwater, and missing MW details."
+    },
     {
       "date": "2024-02-22",
       "date_precision": "day",
@@ -51,6 +78,30 @@
       "evidence_note": "Land-use approval; not a site plan, building permit, or construction start."
     },
     {
+      "date": "2024-05-09",
+      "date_precision": "day",
+      "government_body": "Georgia Department of Community Affairs / Atlanta Regional Commission",
+      "action_type": "DRI determination / regional review status",
+      "result_status": "DCA application summary lists Project Rita as DRI #4094, developer Fayette County Development Authority, current status Completed, DRI tier Metro, GRTA jurisdiction Yes, DRI determination date 05/09/2024, and determination text Warrants regional review.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DRI #4094",
+      "primary_url": "https://apps.dca.ga.gov/DRI/AppSummary.aspx?driid=4094",
+      "access_caveat": "DCA status refers to DRI process completion, not local site-plan approval, land-disturbance permit, building permit, construction start, or energization.",
+      "evidence_note": "Official state/regional review record."
+    },
+    {
+      "date": "2026-05-19",
+      "date_precision": "day",
+      "government_body": "Microsoft",
+      "action_type": "company community information session",
+      "result_status": "Microsoft Local states that Microsoft is planning to build a new datacenter in Tyrone and announced a Town of Tyrone community information session on May 19, 2026 covering energy, water, construction timeline, site design, community investment, and operations/jobs topics.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://local.microsoft.com/blog/tyrone-datacenter-update/",
+      "access_caveat": "Company/community update; confirms Microsoft planning role but does not establish permit issuance, construction start, or energization.",
+      "evidence_note": "Primary company confirmation of Microsoft involvement."
+    },
+    {
       "date": "2026-06-02",
       "date_precision": "day",
       "government_body": "Town of Tyrone",
@@ -64,7 +115,8 @@
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_note": "Official DCA DRI additional form leaves peak connected electrical load unpublished. DCD reported 96 MW on 2024-03-20 and again cited a 500,000-square-foot campus on 2026-05-05; Cleanview lists 96 MW and planned/2030, but these are secondary/project-tracker figures and conflict with the DRI form's square-footage fields. Keep capacity_mw null until an official utility, permit, DRI, or Microsoft source publishes MW.",
+  "owner": "Microsoft",
   "sources": {
     "phase3_stable_id": "GA-007",
     "phase3_source_file": "phase3/county_ga_nc_sc.json",
@@ -72,9 +124,60 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://www.tyronega.gov/datacenter",
+      "https://apps.dca.ga.gov/DRI/AppSummary.aspx?driid=4094",
+      "https://apps.dca.ga.gov/DRI/InitialForm.aspx?driid=4094",
+      "https://apps.dca.ga.gov/DRI/AdditionalForm.aspx?driid=4094",
+      "https://local.microsoft.com/blog/tyrone-datacenter-update/",
+      "https://thecitizen.com/2024/03/19/now-its-tyrones-turn-for-a-big-data-center-project/",
+      "https://www.datacenterdynamics.com/en/news/96mw-data-center-campus-proposed-in-tyrone-georgia/",
+      "https://www.datacenterdynamics.com/en/news/microsoft-confirms-plans-for-data-center-in-tyrone-georgia/",
+      "https://cleanview.co/data-centers/georgia/929/project-rita"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "project_size_sqft",
+      "summary": "DCA initial form text says 504,600 SF in two buildings, while the same form's project-size field says 1,500,000 sq.ft; The Citizen reports 490,000 square feet, and DCD's May 2026 article reports 500,000 square feet.",
+      "sources": [
+        "https://apps.dca.ga.gov/DRI/InitialForm.aspx?driid=4094",
+        "https://thecitizen.com/2024/03/19/now-its-tyrones-turn-for-a-big-data-center-project/",
+        "https://www.datacenterdynamics.com/en/news/microsoft-confirms-plans-for-data-center-in-tyrone-georgia/"
+      ]
+    },
+    {
+      "field": "capacity_mw",
+      "summary": "DCD and Cleanview report 96 MW, but official DCA DRI additional form does not publish a peak connected electrical-load MW value.",
+      "sources": [
+        "https://apps.dca.ga.gov/DRI/AdditionalForm.aspx?driid=4094",
+        "https://www.datacenterdynamics.com/en/news/96mw-data-center-campus-proposed-in-tyrone-georgia/",
+        "https://cleanview.co/data-centers/georgia/929/project-rita"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous": "Town of Tyrone states zoning approval remains in place after March 2024 public hearings and March 28 council approval, but as of June 2, 2026 no site plan, land-disturbance permit, building permit, or other development permit application had been submitted. No construction or energization is established.",
+      "current": "Expanded to local process / approved zoning only with official DCA DRI #4094 completion, Microsoft May 2026 planning confirmation, and Town of Tyrone May/June 2026 negative permit status."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous": null,
+      "current": "Microsoft"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous": null,
+      "current": null,
+      "note": "Left null because official MW is unpublished; secondary sources report 96 MW."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

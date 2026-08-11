@@ -2,28 +2,143 @@
   "master_id": "USDC-0144",
   "canonical_project": "CoreWeave Lancaster AI data center",
   "aliases": [
-    "CoreWeave Lancaster AI data center"
+    "CoreWeave Lancaster AI data center",
+    "Lancaster AI Hub",
+    "Lancaster AI Hub East",
+    "Lancaster AI Hub West"
   ],
   "location": {
-    "city": "Lancaster County; municipality undisclosed",
+    "city": "Lancaster",
     "county": "Lancaster",
-    "state": "PA"
+    "state": "PA",
+    "addresses": [
+      "216 Greenfield Road, Lancaster, PA 17601",
+      "1375 Harrisburg Pike, Lancaster, PA"
+    ],
+    "site_description": "Two former R.R. Donnelley / LSC Communications printing-plant properties in Lancaster City; City materials identify 216 Greenfield Road as Lancaster AI Hub East and 1375 Harrisburg Pike as Lancaster AI Hub West."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "local process",
+  "evidence_grade": "A-",
+  "actions": [
+    {
+      "date": "2025-02",
+      "date_precision": "month",
+      "government_body": "City of Lancaster",
+      "action_type": "local project disclosure",
+      "result_status": "local_process",
+      "summary": "City FAQ says Chirisa Technology Parks announced the purchase and proposed data-center use of the former R.R. Donnelley / LSC sites at 216 Greenfield Road and 1375 Harrisburg Pike in February 2025.",
+      "source_url": "https://www.cityoflancasterpa.gov/data-center/frequently-asked-questions/"
+    },
+    {
+      "date": "2025-07-15",
+      "date_precision": "day",
+      "government_body": "CoreWeave",
+      "action_type": "company_announcement",
+      "result_status": "announced",
+      "summary": "CoreWeave announced intent to commit up to $6 billion to equip a new Lancaster, Pennsylvania AI data center, with an initial 100 MW and potential expansion to 300 MW; CoreWeave said it will be the tenant of a site co-developed by Chirisa Technology Parks and Machine Investment Group.",
+      "source_url": "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Announces-Multi-Billion-Dollar-Commitment-to-AI-Infrastructure-in-Pennsylvania/default.aspx"
+    },
+    {
+      "date": "2025-11-15",
+      "date_precision": "day",
+      "government_body": "Pennsylvania Department of Environmental Protection / Pennsylvania Bulletin",
+      "action_type": "air_quality_plan_approval_notice",
+      "result_status": "local_process",
+      "summary": "PA Bulletin notice for plan approval 36-05169A says Greenfield Road Owner, LLC applied on May 14, 2025 for installation of a data center and managed-hosting service facility at the former LSC Communications East facility, including 176 diesel emergency generators over three phases.",
+      "source_url": "https://www.pacodeandbulletin.gov/secure/pabulletin/data/vol55/55-46/55-46.pdf"
+    },
+    {
+      "date": "2025-11",
+      "date_precision": "month",
+      "government_body": "City of Lancaster",
+      "action_type": "community_benefits_agreement",
+      "result_status": "executed_or_negotiated",
+      "summary": "City CBA page says Lancaster and Chirisa Technology Parks negotiated a Community Benefits Agreement for data centers at 216 Greenfield Road and 1375 Harrisburg Pike, including operating, environmental, water, clean-energy, local-hiring, public-reporting, and financial-contribution commitments.",
+      "source_url": "https://www.cityoflancasterpa.gov/data-center/community-benefits-agreement/"
+    },
+    {
+      "date": "2026-06-24",
+      "date_precision": "day",
+      "government_body": "City of Lancaster",
+      "action_type": "zoning_public_hearing",
+      "result_status": "local_process",
+      "summary": "City data-center zoning page records a public hearing on June 24, 2026 for a zoning amendment to regulate data centers; the FAQ also says complete permit or land-development applications filed before the effective date would retain prior zoning eligibility.",
+      "source_url": "https://www.cityoflancasterpa.gov/data-center/data-center-zoning-amendment/"
+    },
+    {
+      "date": "2026-07-14",
+      "date_precision": "day",
+      "government_body": "Lancaster City Council",
+      "action_type": "zoning_ordinance_adoption",
+      "result_status": "approved",
+      "summary": "Administrative Ordinance No. 07-2026 / Administration Bill No. 10-2025 was adopted, defining and regulating computer data centers, allowing them by special exception in SM zones, and preserving prior eligibility for data centers with complete city permit or required land-development applications before June 24, 2026.",
+      "source_url": "https://ecode360.com/LA1674/laws/LF2754426.pdf"
+    }
+  ],
+  "capacity_mw": {
+    "announced_initial_mw": 100,
+    "announced_expansion_potential_mw": 300,
+    "energized_mw": null,
+    "source_url": "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Announces-Multi-Billion-Dollar-Commitment-to-AI-Infrastructure-in-Pennsylvania/default.aspx",
+    "evidence_note": "Capacity is company-announced planned capacity; no official energized load or interconnection completion record was found in this refresh."
+  },
+  "owner": "CoreWeave is the announced tenant; Chirisa Technology Parks and Machine Investment Group are co-developers; City materials identify Greenfield Road Owner, LLC and Harrisburg Place Owner, LLC as property owners affiliated with Chirisa Technology Parks.",
   "sources": {
     "phase3_stable_id": "US-PA-COREWEAVE-LANCASTER-2025",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
     "regional_id": "US-PA-COREWEAVE-LANCASTER-2025",
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
-    "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "authoritative_layer": "official_and_first_party_refresh",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.cityoflancasterpa.gov/data-center/",
+      "https://www.cityoflancasterpa.gov/data-center/frequently-asked-questions/",
+      "https://www.cityoflancasterpa.gov/data-center/community-benefits-agreement/",
+      "https://www.cityoflancasterpa.gov/data-center/data-center-zoning-amendment/",
+      "https://ecode360.com/LA1674/laws/LF2754426.pdf",
+      "https://www.pacodeandbulletin.gov/secure/pabulletin/data/vol55/55-46/55-46.pdf",
+      "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Announces-Multi-Billion-Dollar-Commitment-to-AI-Infrastructure-in-Pennsylvania/default.aspx",
+      "https://www.coreweave.com/blog/building-pennsylvania-into-the-mid-atlantic-ai-hub"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date_identified": "2026-08-11",
+      "issue": "Public naming differs by layer: CoreWeave brands the project as its Lancaster AI data center and says it will be tenant, while Lancaster City records identify the development as Chirisa Technology Parks' Lancaster AI Hub at two city sites with separate property-owner LLCs.",
+      "sources": [
+        "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Announces-Multi-Billion-Dollar-Commitment-to-AI-Infrastructure-in-Pennsylvania/default.aspx",
+        "https://www.cityoflancasterpa.gov/data-center/frequently-asked-questions/",
+        "https://www.cityoflancasterpa.gov/data-center/community-benefits-agreement/"
+      ],
+      "resolution": "Track CoreWeave as tenant/operator-facing project name and Chirisa / affiliates / Machine Investment Group as development and property-ownership layer."
+    },
+    {
+      "date_identified": "2026-08-11",
+      "issue": "Construction status is not fully resolved by official public records: City and DEP records confirm development review and applications, but no final issued building permit, final DEP plan approval, certificate of occupancy, or energization record was found.",
+      "sources": [
+        "https://www.cityoflancasterpa.gov/data-center/frequently-asked-questions/",
+        "https://www.pacodeandbulletin.gov/secure/pabulletin/data/vol55/55-46/55-46.pdf",
+        "https://ecode360.com/LA1674/laws/LF2754426.pdf"
+      ],
+      "resolution": "Use local_process status until an issued permit, construction inspection, certificate of occupancy, or comparable official construction/energization record is located."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "status_as_of_cutoff": null,
+      "capacity_mw": null,
+      "owner": null,
+      "location": {
+        "city": "Lancaster County; municipality undisclosed",
+        "county": "Lancaster",
+        "state": "PA"
+      },
+      "note": "Baseline record had no independently verified status, capacity, owner, or city/site address."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

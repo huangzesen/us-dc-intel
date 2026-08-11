@@ -2,18 +2,123 @@
   "master_id": "USDC-0116",
   "canonical_project": "Nebius/DataOne Vineland AI facility",
   "aliases": [
-    "Nebius/DataOne Vineland AI facility"
+    "DataOne Vineland, LLC",
+    "DataOne USA LLC",
+    "Nebius/DataOne Vineland AI facility",
+    "Nebius Vineland data center",
+    "Vineland AI Data Center Facility"
   ],
   "location": {
     "city": "Vineland",
     "county": "Cumberland",
-    "state": "NJ"
+    "state": "NJ",
+    "site": "southeasterly corner of Lincoln Avenue and Sheridan Avenue",
+    "parcel": "Block 7503, Lot 35.01; earlier March 2026 notice also listed Lots 35.01 & 33.01, Tax Map Sheet #75"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction / local process as of 2026-08-11. City of Vineland Planning Board notices for the DataOne Vineland application state that Phase 1 and the Phase 2 building expansion are currently under construction while amended preliminary/final major site plan approval remains in hearing/continuation, with the next noticed continuation scheduled for 2026-08-17. Nebius's current Vineland microsite also states construction is ongoing and that the AI factory is expected to be operational by 2027. No certificate of occupancy, utility energization, or live IT-load record was located.",
+  "evidence_grade": "A-",
+  "actions": [
+    {
+      "date": "2025-03-05",
+      "date_precision": "day",
+      "government_body": "Nebius Group N.V. (company announcement; non-government)",
+      "action_type": "project announcement / capacity plan",
+      "result_status": "Nebius announced a planned New Jersey build-to-suit data center with design capacity up to 300 MW, phased development, and first capacity expected as early as summer 2025.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://nebius.com/newsroom/nebius-accelerates-us-expansion-adding-up-to-300-mw-capacity-at-new-data-center-in-new-jersey",
+      "access_caveat": "Company announcement; not a local land-use approval, construction permit, CO, or energization record.",
+      "evidence_note": "Used for project capacity and Nebius role, not for local permit status."
+    },
+    {
+      "date": "2025-09-08",
+      "date_precision": "day",
+      "government_body": "Nebius Group N.V. (company announcement; non-government)",
+      "action_type": "tenant/customer capacity agreement",
+      "result_status": "Nebius announced a multi-year agreement to deliver dedicated AI infrastructure capacity to Microsoft from its new Vineland, New Jersey data center starting later in 2025.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+      "access_caveat": "Customer agreement is commercial evidence only; it does not establish construction completion or energized IT load.",
+      "evidence_note": "Supports tenant/offtake context."
+    },
+    {
+      "date": "2026-03-16",
+      "date_precision": "day",
+      "government_body": "City of Vineland Planning Board",
+      "action_type": "notice of special meeting / amended preliminary-final major site plan hearing",
+      "result_status": "The notice identifies DataOne USA LLC's 2nd amended application at the southeasterly corner of Lincoln Avenue and Sheridan Avenue, Block 7503, Lots 35.01 & 33.01, Tax Map Sheet #75, Project No. PBA-26-00001, for a two-phase AI Data Center Facility. It lists a 129,622-square-foot Phase 1 data center building and a 587,980-square-foot Phase 2 expansion, both described as currently under construction, plus power, chiller, LNG, water-treatment, and associated site improvements.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PBA-26-00001",
+      "primary_url": "https://www.vinelandcity.org/wp-content/uploads/2026/03/DataOne-Notice-of-Public-Hearing-To-Post-3.16.pdf",
+      "access_caveat": "Public-hearing notice and document-inspection notice; not a final decision, CO, or energization record.",
+      "evidence_note": "Official local-government evidence for parcel, scope, and construction status."
+    },
+    {
+      "date": "2026-03-23",
+      "date_precision": "day",
+      "government_body": "City of Vineland Planning Board",
+      "action_type": "notice of special meeting postponement",
+      "result_status": "The City posted that the DataOne USA LLC special-meeting application was postponed, tentatively to 2026-05-28.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PBA-26-00001",
+      "primary_url": "https://www.vinelandcity.org/wp-content/uploads/2026/03/POSTPONEMENT-of-Planning-Board-Special-Meeting-on-3-26-2026-Post-3.23.pdf",
+      "access_caveat": "Postponement notice only; no approval or denial outcome is stated.",
+      "evidence_note": "Used to preserve local-process timeline."
+    },
+    {
+      "date": "2026-05-20",
+      "date_precision": "day",
+      "government_body": "Nebius / Bloom Energy (company announcement; non-government)",
+      "action_type": "onsite power technology change",
+      "result_status": "Nebius and Bloom Energy announced fuel-cell deployment for Nebius AI infrastructure. Nebius described the first project as 328 MW of installed capacity expected to be operational in 2026 and said fuel cells would eliminate reciprocating engines at the site. The Vineland microsite identifies Bloom fuel cells as the Vineland project's onsite off-grid power source.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://nebius.com/newsroom/nebius-and-bloom-energy-partner-to-power-ai-infrastructure-build-out",
+      "access_caveat": "Company power announcement; the release does not name Vineland in the 328 MW sentence, so 328 MW is treated as power-infrastructure context rather than replacing the 300 MW data-center design-capacity field.",
+      "evidence_note": "Power technology context; not proof of operational data-center load."
+    },
+    {
+      "date": "2026-07-24",
+      "date_precision": "day",
+      "government_body": "City of Vineland Planning Board",
+      "action_type": "notice of hearing / amended preliminary-final major site plan",
+      "result_status": "The City noticed an August 5, 2026 hearing for DataOne Vineland, LLC amended preliminary/final major site plan approval for two phases. The notice lists the Phase 1 129,622-square-foot AI data center and Phase 2 587,980-square-foot expansion as currently under construction, plus Bloom Power areas, chiller building, LNG tank/infrastructure, LNG filling station, water-treatment plant, Megabay structures, parking, landscaping, and site improvements. The property is identified as Block 7503, Lot 35.01.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.vinelandcity.org/wp-content/uploads/2026/07/Data-ONe-Public-Hearing-Post-7.24.pdf",
+      "access_caveat": "Hearing notice; no final board vote or approval result is stated.",
+      "evidence_note": "Latest detailed local-government scope before the August continuation notice."
+    },
+    {
+      "date": "2026-08-07",
+      "date_precision": "day",
+      "government_body": "City of Vineland Planning Board",
+      "action_type": "continuation notice / amended preliminary-final major site plan",
+      "result_status": "The City noticed a continuation of hearing for DataOne Vineland, LLC on 2026-08-17 at Landis Theater. The notice repeats the two-phase scope, identifies Phase 1 and the Phase 2 expansion as currently under construction, and lists the property as Block 7503, Lot 35.01.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.vinelandcity.org/wp-content/uploads/2026/08/Data-One-Meeting-Post-8.7.pdf",
+      "access_caveat": "Future continuation notice as of the 2026-08-11 refresh date; no post-hearing determination is available yet.",
+      "evidence_note": "Most current official local-government process evidence found."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Nebius Vineland microsite (company project page; non-government)",
+      "action_type": "current project status page",
+      "result_status": "Nebius describes the facility as a build-to-suit for Nebius by DataOne, construction led by Northeast Precast, with Nebius as tenant managing servers/GPU infrastructure. The page says construction remains ongoing, the project uses on-site Bloom Energy fuel cells, and the AI factory is expected to be operational by 2027.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://nebius.com/vinelandnj",
+      "access_caveat": "Company/community microsite; not a government approval, CO, utility energization, or live-service record.",
+      "evidence_note": "Current company role/status context."
+    }
+  ],
+  "capacity_mw": 300,
+  "capacity_note": "Use 300 MW as the data-center design capacity because Nebius's 2025-03-05 announcement says the New Jersey build-to-suit facility is expandable up to 300 MW and trade coverage ties that facility to Vineland. Nebius/Bloom later announced 328 MW of installed fuel-cell capacity for the first project, and City notices list extensive Bloom Power areas, but the 328 MW figure is power-infrastructure context and is not treated as confirmed IT/data-center capacity.",
+  "owner": "DataOne Vineland, LLC / DataOne owns and operates the facility; Nebius is the build-to-suit tenant operating server racks and GPU clusters; Northeast Precast is identified by Nebius as the local construction lead.",
   "sources": {
     "phase3_stable_id": "US-NJ-NEBIUS-DATAONE-VINELAND-2025",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -21,9 +126,34 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.vinelandcity.org/wp-content/uploads/2026/08/Data-One-Meeting-Post-8.7.pdf",
+      "https://www.vinelandcity.org/wp-content/uploads/2026/07/Data-ONe-Public-Hearing-Post-7.24.pdf",
+      "https://www.vinelandcity.org/wp-content/uploads/2026/03/DataOne-Notice-of-Public-Hearing-To-Post-3.16.pdf",
+      "https://www.vinelandcity.org/wp-content/uploads/2026/03/POSTPONEMENT-of-Planning-Board-Special-Meeting-on-3-26-2026-Post-3.23.pdf",
+      "https://nebius.com/vinelandnj",
+      "https://nebius.com/newsroom/nebius-accelerates-us-expansion-adding-up-to-300-mw-capacity-at-new-data-center-in-new-jersey",
+      "https://nebius.com/newsroom/nebius-announces-multi-billion-dollar-agreement-with-microsoft-for-ai-infrastructure",
+      "https://nebius.com/newsroom/nebius-and-bloom-energy-partner-to-power-ai-infrastructure-build-out",
+      "https://whyy.org/articles/data-center-artificial-intelligence-vineland-new-jersey/",
+      "https://datacentremagazine.com/articles/dataone-and-nebius-partner-for-new-300mw-ai-data-centre"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "capacity_mw",
+      "details": "Nebius's March 2025 data-center announcement gives design capacity up to 300 MW for the New Jersey facility, while the May 2026 Nebius/Bloom announcement gives 328 MW of installed capacity for the first fuel-cell project without naming Vineland in that sentence. City notices describe Bloom Power areas by square footage, not MW. This refresh keeps capacity_mw at 300 and records 328 MW only as power-infrastructure context."
+    },
+    {
+      "topic": "parcel scope",
+      "details": "The March 2026 Planning Board notice lists Block 7503, Lots 35.01 & 33.01, Tax Map Sheet #75; July and August 2026 notices list the property as Block 7503, Lot 35.01. The location.parcel field preserves both."
+    },
+    {
+      "topic": "operational timing",
+      "details": "Nebius's March 2025 announcement expected first capacity as early as summer 2025, and the September 2025 Microsoft announcement said dedicated capacity would start later in 2025; Nebius's current Vineland microsite now says the AI factory is expected to be operational by 2027. No live/energized record was found, so status remains site work-construction/local process."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

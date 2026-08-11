@@ -7,13 +7,68 @@
   "location": {
     "city": "Niagara Falls",
     "county": "Niagara",
-    "state": "NY"
+    "state": "NY",
+    "site_description": "Approximately 53-acre Niagara Digital Campus PUD area generally bounded by John B. Daly Boulevard, Falls Street, 15th Street, and Buffalo Avenue in downtown Niagara Falls."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "approved-permitted",
+  "evidence_grade": "A-",
+  "actions": [
+    {
+      "date": "2024-10-18",
+      "government_body": "City of Niagara Falls",
+      "action_type": "pud_application_received",
+      "result_status": "initial application received from Niagara Falls Redevelopment, LLC, Eleventh Street Properties, LLC, and NFR Gateway LLC for Niagara Digital Campus PUD",
+      "source_url": "https://www.niagarafallsny.gov/Documents/Government/City%20Council/2026/0603/00%20-%20DRAFT%20AGENDA%20PACKET%203.0%20%20for%2006.03.2026%20RCM.pdf?t=202606021718040"
+    },
+    {
+      "date": "2025-06-04",
+      "government_body": "Niagara Falls City Council",
+      "action_type": "application_completeness_referral",
+      "result_status": "Resolution 2025-26 accepted PUD application as complete and referred it to Planning Board",
+      "source_url": "https://www.niagarafallsny.gov/Documents/Government/City%20Council/2026/0603/00%20-%20DRAFT%20AGENDA%20PACKET%203.0%20%20for%2006.03.2026%20RCM.pdf?t=202606021718040"
+    },
+    {
+      "date": "2025-07-30",
+      "government_body": "Niagara Falls Planning Board",
+      "action_type": "public_hearing",
+      "result_status": "Planning Board public hearing held for Niagara Digital Campus PUD application",
+      "source_url": "https://www.niagarafallsny.gov/Documents/Government/City%20Council/2026/0603/00%20-%20DRAFT%20AGENDA%20PACKET%203.0%20%20for%2006.03.2026%20RCM.pdf?t=202606021718040"
+    },
+    {
+      "date": "2026-06-03",
+      "government_body": "Niagara Falls City Council",
+      "action_type": "pud_settlement_and_zoning_approval",
+      "result_status": "approved Stipulated Settlement Order; established Niagara Digital Campus PUD; approved/adopted ordinance; directed zoning map amendment; PUD site plan deemed approved",
+      "source_url": "https://www.niagarafallsny.gov/Documents/Government/City%20Council/2026/0603/00%20-%20DRAFT%20AGENDA%20PACKET%203.0%20%20for%2006.03.2026%20RCM.pdf?t=202606021718040"
+    },
+    {
+      "date": "2026-06-10",
+      "government_body": "Niagara Falls Planning Board",
+      "action_type": "post_council_clarification",
+      "result_status": "minutes note Planning Board discussion that the City Council decision did not itself approve construction of the data center",
+      "source_url": "https://www.niagarafallsny.gov/Documents/Government/Department/Planning%20And%20Environmental/Planning%20Board/2026/Final%20minutes%2020260610.pdf?t=202606291022490"
+    },
+    {
+      "date": "2026-07-01",
+      "government_body": "City of Niagara Falls Planning & Environmental",
+      "action_type": "zoning_schedule_publication",
+      "result_status": "city planning page published Schedule 15 - Niagara Digital Campus NPD District site plan",
+      "source_url": "https://www.niagarafallsny.gov/Documents/Government/Department/Planning%20And%20Environmental/Zoning%20Code/Schedule15_070126.pdf?t=202607011411140"
+    }
+  ],
+  "capacity_mw": 140,
+  "owner": {
+    "developer": "Niagara Falls Redevelopment",
+    "development_partners": [
+      "Urbacon Data Centre Solutions"
+    ],
+    "pud_applicants": [
+      "Niagara Falls Redevelopment, LLC",
+      "Eleventh Street Properties, LLC",
+      "NFR Gateway LLC"
+    ]
+  },
   "sources": {
     "phase3_stable_id": "US-NY-NFR-NIAGARA-DIGITAL-CAMPUS-2024",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -21,9 +76,42 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "city_planning_page": "https://www.niagarafallsny.gov/government/departments/planning_and_environmental/index.php",
+    "city_schedule_15_site_plan": "https://www.niagarafallsny.gov/Documents/Government/Department/Planning%20And%20Environmental/Zoning%20Code/Schedule15_070126.pdf?t=202607011411140",
+    "city_council_2026_06_03_packet": "https://www.niagarafallsny.gov/Documents/Government/City%20Council/2026/0603/00%20-%20DRAFT%20AGENDA%20PACKET%203.0%20%20for%2006.03.2026%20RCM.pdf?t=202606021718040",
+    "planning_board_2026_06_10_minutes": "https://www.niagarafallsny.gov/Documents/Government/Department/Planning%20And%20Environmental/Planning%20Board/2026/Final%20minutes%2020260610.pdf?t=202606291022490",
+    "spectrum_2026_06_04": "https://spectrumlocalnews.com/nys/buffalo/news/2026/06/04/contentious-niagara-falls-city-council-meeting-leads-to-approval-of-new-data-center",
+    "niagara_reporter_2024_10_26": "https://niagarafallsreporter.com/niagara-falls-redevelopment-files-application-for-planned-unit-district-pud-for-1-5-billion-niagara-digital-campus/",
+    "datacenterdynamics_2024_10_29": "https://www.datacenterdynamics.com/en/news/developer-seeks-zoning-change-to-progress-140mw-niagara-falls-data-center/",
+    "cleanview_profile": "https://cleanview.co/data-centers/new-york/2060/niagara-digital-campus"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-06-04",
+      "description": "Media headlines describe council approval of a data center, while the mayor and Planning Board minutes clarify the June 3 council action approved a settlement/PUD pathway and did not itself mark construction approval or start.",
+      "sources": [
+        "https://spectrumlocalnews.com/nys/buffalo/news/2026/06/04/contentious-niagara-falls-city-council-meeting-leads-to-approval-of-new-data-center",
+        "https://www.niagarafallsny.gov/Documents/Government/Department/Planning%20And%20Environmental/Planning%20Board/2026/Final%20minutes%2020260610.pdf?t=202606291022490"
+      ]
+    }
+  ],
   "seed_only": false,
-  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": null,
+      "new_value": "approved-permitted",
+      "reason": "City Council packet approved/adopted the Niagara Digital Campus PUD ordinance and deemed the PUD site plan approved; no construction-start evidence found."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": 140,
+      "reason": "Capacity corroborated by local/developer-announcement coverage and industry trackers."
+    }
+  ]
 }

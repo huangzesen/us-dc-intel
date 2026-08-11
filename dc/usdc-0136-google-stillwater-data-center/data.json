@@ -8,22 +8,86 @@
   "location": {
     "city": "Stillwater",
     "county": "Payne",
-    "state": "OK"
+    "state": "OK",
+    "site_address": "1500 E. Richmond Road",
+    "site_context": "Intersection of Perkins and Richmond roads / southwest corner of Richmond and Jardot roads, near the former Armstrong facility",
+    "project_area_acres": 386.698
   },
   "phase3_stable_id": "US-OK-GOOGLE-STILLWATER-2025",
-  "status_as_of_cutoff": "Development/construction reported and covered by a utility service agreement; first service is unknown. The 900 MW figure is planning context, not verified IT load.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11; Google and the City of Stillwater identify the Stillwater campus as under development/site prep, and Google says its Stillwater data center campus is under construction. First service/energization is unknown. Capacity remains unverified; public 700 MW clean-energy and 75 MW large-load-tariff figures are not project IT load.",
+  "evidence_grade": "B - official city/company/utility sources confirm owner, location, project scale, site-prep/under-construction status, and power-service agreement; local media supports final-plat/building-permit details, but no directly accessible city permit record or energization proof was found.",
   "actions": [
+    {
+      "date": "2024-10-07",
+      "date_precision": "day",
+      "government_body": "Stillwater City Council",
+      "action_type": "economic-development project-plan public hearing",
+      "result_status": "City notice scheduled the first public hearing for the Stillwater Data Center Economic Development Project Plan and six supporting incentive districts. The notice describes a multi-phased data center development with private investment of $500 million per phase.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://stillwaterok.gov/DocumentCenter/View/3278/NOTICE-TO-THE-PUBLIC-OF-TWO-PUBLIC-HEARINGS-REGARDING-THE-STILLWATER-DATA-CENTER-ECONOMIC-DEVELOPMENT-PROJECT-PLAN",
+      "access_caveat": "Official hearing notice, not a construction permit or proof of energization.",
+      "evidence_note": "Project plan/hearing source also gives project-area legal description and 386.698-acre project-area figure."
+    },
+    {
+      "date": "2024-11-04",
+      "date_precision": "day",
+      "government_body": "Stillwater City Council",
+      "action_type": "economic-development project-plan public hearing",
+      "result_status": "City notice scheduled the second public hearing before any vote on the proposed Stillwater Data Center Economic Development Project Plan and incentive districts.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://stillwaterok.gov/DocumentCenter/View/3278/NOTICE-TO-THE-PUBLIC-OF-TWO-PUBLIC-HEARINGS-REGARDING-THE-STILLWATER-DATA-CENTER-ECONOMIC-DEVELOPMENT-PROJECT-PLAN",
+      "access_caveat": "Official hearing notice, not a construction permit or proof of energization.",
+      "evidence_note": "Retained as government-process milestone for the incentive/project-plan layer."
+    },
+    {
+      "date": "2025-03-12",
+      "date_precision": "day",
+      "government_body": "City of Stillwater",
+      "action_type": "owner/location announcement",
+      "result_status": "City announced Google as the company that acquired land at the intersection of Perkins and Richmond roads for future development of a data center campus.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://stillwaterok.gov/m/newsflash/Home/Detail/332",
+      "access_caveat": "Official city announcement; confirms owner and land/location, not service date or MW capacity.",
+      "evidence_note": "Upgrades owner from null to Google."
+    },
     {
       "date": "2025-08-13",
       "date_precision": "day",
       "government_body": null,
       "action_type": "company investment announcement",
-      "result_status": "Public reporting says Google announced a $9 billion Oklahoma investment including a new Stillwater campus and an expansion at Pryor. This is an announcement, not a county or city approval.",
+      "result_status": "Google announced an additional $9 billion Oklahoma investment over two years, supporting development of a new Stillwater data center campus and expansion of the existing Pryor facility.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.publicradiotulsa.org/local-regional/2025-08-13/google-announces-new-investments-in-oklahoma-data-centers",
-      "access_caveat": "Public-radio report; no project-specific permit or vote was attached.",
-      "evidence_note": "Body/context retained from prior file: Google / Oklahoma investment reporting."
+      "primary_url": "https://blog.google/company-news/inside-google/company-announcements/google-american-innovation-oklahoma/",
+      "access_caveat": "Official company announcement; not a county/city permit or proof of energization.",
+      "evidence_note": "Replaces prior public-radio source with Google primary source for the same investment milestone."
+    },
+    {
+      "date": "2025-08-15",
+      "date_precision": "day",
+      "government_body": "City of Stillwater",
+      "action_type": "city project status update",
+      "result_status": "City projects page said Google's Stillwater data center is part of the $9B Oklahoma investment, site prep continues, and construction permits were nearing completion.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://stillwaterok.gov/536/Projects",
+      "access_caveat": "Official city project-status page; it says permits were nearing completion but does not provide permit numbers.",
+      "evidence_note": "Supports local-process/site-prep status but not completed building construction or energized operations."
+    },
+    {
+      "date": "2025-11-04",
+      "date_precision": "day",
+      "government_body": "Stillwater Planning Commission",
+      "action_type": "final plat",
+      "result_status": "Local reporting says the Planning Commission unanimously approved the final plat for the Richmond Road and Highway 177 Addition covering Lots 1, 2, and 7, totaling 202 acres, and that building permits for Lots 1 and 2 had been approved. A CivicClerk agenda page independently lists City Council acceptance of the final plat at 1500 E. Richmond Road.",
+      "vote_tally": "4-0 Planning Commission per local report",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.thestillwegian.news/planning-commission-advances-google-data-center-final-plat/",
+      "access_caveat": "Local report used for final-plat/building-permit details because the official CivicClerk event page is JavaScript-only in browser fetch; treat permit detail as corroborated but not permit-record primary.",
+      "evidence_note": "Official CivicClerk URL found: https://stillwaterok.portal.civicclerk.com/event/2323/files"
     },
     {
       "date": "2026-04-30",
@@ -36,10 +100,34 @@
       "primary_url": "https://www.oge.com/web/portal/-/200-press-release",
       "access_caveat": "Utility announcement; it is not a land-use permit, regulator order, building inspection, or proof that load has been energized.",
       "evidence_note": "Body/context retained from prior file: OG&E."
+    },
+    {
+      "date": "2026-04-30",
+      "date_precision": "day",
+      "government_body": null,
+      "action_type": "company energy agreement statement",
+      "result_status": "Google said its long-term energy agreement with OG&E will support under-construction data center campuses in Muskogee and Stillwater and that Google is making a long-term financial commitment to pay for infrastructure built to serve its growth.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/oklahoma-energy-affordability-agreement/",
+      "access_caveat": "Official company energy statement; does not prove energization or disclose Stillwater MW capacity.",
+      "evidence_note": "Supports site work-construction status when read with city project page and local final-plat/building-permit report."
+    },
+    {
+      "date": "2026-06-18",
+      "date_precision": "day",
+      "government_body": "OG&E / Oklahoma Corporation Commission",
+      "action_type": "large-load tariff proposal",
+      "result_status": "OG&E data-center page says it filed a proposed large-load tariff with the OCC, expected to apply to new customers with at least 75 MW of demand, and that the OCC review schedule was expected to take about six months.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.oge.com/web/portal/og-e-data-centers",
+      "access_caveat": "Utility regulatory-process page; 75 MW is tariff applicability, not confirmed Stillwater facility capacity.",
+      "evidence_note": "No final OCC approval for the Google ESA/tariff was verified in this refresh."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google",
   "sources": {
     "phase3_stable_id": "US-OK-GOOGLE-STILLWATER-2025",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -49,7 +137,123 @@
     "authoritative_layer": "phase3_project_action_layer",
     "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
   },
-  "contradictions": [],
+  "current_public_sources": [
+    {
+      "url": "https://stillwaterok.gov/DocumentCenter/View/3278/NOTICE-TO-THE-PUBLIC-OF-TWO-PUBLIC-HEARINGS-REGARDING-THE-STILLWATER-DATA-CENTER-ECONOMIC-DEVELOPMENT-PROJECT-PLAN",
+      "date": "2024-09-23",
+      "source_type": "local_government_notice",
+      "facts_supported": [
+        "multi-phased data center project plan",
+        "$500 million private investment per phase",
+        "six incentive districts",
+        "386.698-acre project area"
+      ]
+    },
+    {
+      "url": "https://stillwaterok.gov/m/newsflash/Home/Detail/332",
+      "date": "2025-03-12",
+      "source_type": "local_government_announcement",
+      "facts_supported": [
+        "Google acquired land",
+        "Perkins and Richmond roads location",
+        "future data center campus"
+      ]
+    },
+    {
+      "url": "https://stillwaterok.gov/536/Projects",
+      "date": "2025-08-15",
+      "source_type": "local_government_project_status",
+      "facts_supported": [
+        "Google Stillwater data center project",
+        "site prep continues",
+        "construction permits nearing completion",
+        "700 MW clean-energy claim"
+      ]
+    },
+    {
+      "url": "https://blog.google/company-news/inside-google/company-announcements/google-american-innovation-oklahoma/",
+      "date": "2025-08-13",
+      "source_type": "company_announcement",
+      "facts_supported": [
+        "$9 billion Oklahoma cloud/AI infrastructure investment",
+        "new Stillwater data center campus development"
+      ]
+    },
+    {
+      "url": "https://www.oge.com/web/portal/-/200-press-release",
+      "date": "2026-04-30",
+      "source_type": "utility_announcement",
+      "facts_supported": [
+        "OG&E agreements to power three new Google data centers in Muskogee and Stillwater",
+        "Google to fund connection and contracted costs",
+        "OCC approval required"
+      ]
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/oklahoma-energy-affordability-agreement/",
+      "date": "2026-04-30",
+      "source_type": "company_energy_statement",
+      "facts_supported": [
+        "under-construction Stillwater and Muskogee data center campuses",
+        "long-term OG&E energy agreement"
+      ]
+    },
+    {
+      "url": "https://www.oge.com/web/portal/og-e-data-centers",
+      "date": "2026-06-18",
+      "source_type": "utility_regulatory_update",
+      "facts_supported": [
+        "large-load tariff proposal at OCC",
+        "75 MW applicability threshold",
+        "approximately six-month procedural review expected"
+      ]
+    },
+    {
+      "url": "https://www.thestillwegian.news/planning-commission-advances-google-data-center-final-plat/",
+      "date": "2025-11-11",
+      "source_type": "local_media",
+      "facts_supported": [
+        "Planning Commission final-plat approval on 2025-11-04",
+        "1500 E. Richmond Road",
+        "Lots 1, 2, and 7 totaling 202 acres",
+        "building permits approved for Lots 1 and 2"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Development/construction reported and covered by a utility service agreement; first service is unknown. The 900 MW figure is planning context, not verified IT load.",
+      "new_value": "site work-construction as of 2026-08-11; Google and the City of Stillwater identify the Stillwater campus as under development/site prep, and Google says its Stillwater data center campus is under construction. First service/energization is unknown. Capacity remains unverified; public 700 MW clean-energy and 75 MW large-load-tariff figures are not project IT load.",
+      "source_urls": [
+        "https://stillwaterok.gov/536/Projects",
+        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/oklahoma-energy-affordability-agreement/",
+        "https://www.oge.com/web/portal/-/200-press-release"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Google",
+      "source_urls": [
+        "https://stillwaterok.gov/m/newsflash/Home/Detail/332",
+        "https://blog.google/company-news/inside-google/company-announcements/google-american-innovation-oklahoma/"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "issue": "Capacity figures are not equivalent to project IT load.",
+      "details": "Stillwater city project page references 700 MW clean energy, OG&E's tariff page references a 75 MW threshold for large-load applicability, and prior baseline context mentioned 900 MW planning context. None is verified Stillwater IT load; capacity_mw remains null.",
+      "source_urls": [
+        "https://stillwaterok.gov/536/Projects",
+        "https://www.oge.com/web/portal/og-e-data-centers"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

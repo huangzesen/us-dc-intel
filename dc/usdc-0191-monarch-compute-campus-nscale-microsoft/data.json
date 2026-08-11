@@ -9,20 +9,104 @@
   "location": {
     "city": "Point Pleasant",
     "county": "Mason",
-    "state": "West Virginia"
+    "state": "West Virginia",
+    "site_descriptor": "Mason County / Point Pleasant area; public sources describe a 2,250+ acre campus, but no verified street address was found in official sources during this refresh."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "B",
+  "actions": [
+    {
+      "date": "2025-04-30",
+      "government_body": "West Virginia Office of the Governor",
+      "action_type": "state_legislation_signed",
+      "result_status": "HB 2014 Power Generation and Consumption Act and HB 2002 one-stop permitting bill signed in Point Pleasant near the future Fidelis 2,000-plus acre Monarch AI Data Center Campus.",
+      "source_url": "https://governor.wv.gov/article/governor-patrick-morrisey-signs-power-generation-and-consumption-and-one-stop-shop"
+    },
+    {
+      "date": "2026-03-16",
+      "government_body": "West Virginia Office of the Governor",
+      "action_type": "state_statement",
+      "result_status": "Governor statement acknowledged Nscale's announced plan to acquire AIPCorp, including Monarch Compute Campus in Mason County, and described the project expansion as enabled by microgrid legislation.",
+      "source_url": "https://governor.wv.gov/article/governor-morrisey-statement-expansion-monarch-compute-campus"
+    },
+    {
+      "date": "2026-03-16",
+      "government_body": "Nscale",
+      "action_type": "company_announcement",
+      "result_status": "Nscale announced acquisition of AIPCorp/Monarch Compute Campus, a 2,250-acre Mason County site with an 8 GW-plus power runway; initial power capacity of 2 GW expected online in H1 2028 with expansion planned for 2031.",
+      "source_url": "https://www.nscale.com/press-releases/nscale-acquires-american-intelligence-power-corporation"
+    },
+    {
+      "date": "2026-03-16",
+      "government_body": "Nscale",
+      "action_type": "customer_loi",
+      "result_status": "Nscale announced a Microsoft letter of intent for up to 1.35 GW of AI compute capacity using NVIDIA Vera Rubin NVL72 systems, with delivery in multiple tranches beginning in late 2027.",
+      "source_url": "https://www.nscale.com/press-releases/nscale-west-virginia-ai-factory"
+    },
+    {
+      "date": "2026-04-20",
+      "government_body": "West Virginia Department of Environmental Protection, Division of Air Quality",
+      "action_type": "air_construction_permit_application",
+      "result_status": "WV DEP NSR applications page lists Monarch Cloud Campus, LLC (MCC); Point Pleasant Campus, permit R14-0042, facility 053-00136, construction permit received 2026-04-20; no final permit shown in the listing.",
+      "source_url": "https://dep.wv.gov/daq/permitting/Pages/NSR-Permit-Applications.aspx"
+    },
+    {
+      "date": "2026-07-14",
+      "government_body": "West Virginia Department of Environmental Protection",
+      "action_type": "stormwater_enforcement_reported",
+      "result_status": "WSAZ reported WVDEP ordered Monarch Cloud Campus to repair and strengthen stormwater controls after July 11 rainfall and required land-disturbing work to stop in one drainage area until controls were in place and WVDEP verified compliance.",
+      "source_url": "https://www.wsaz.com/2026/07/14/wvdep-orders-data-center-company-make-repairs-after-residential-flooding/"
+    }
+  ],
+  "capacity_mw": 1350,
+  "capacity_basis": {
+    "value_type": "planned_phase_1_ai_compute_capacity",
+    "phase_1_mw": 1350,
+    "initial_power_capacity_mw_expected_h1_2028": 2000,
+    "long_term_power_runway_mw": 8000,
+    "long_term_power_runway_operator": "8GW+",
+    "delivery_note": "Phase 1 delivery targeted by early 2028 / multiple Microsoft tranches beginning late 2027; not operating capacity."
+  },
+  "owner": "Nscale Global Holdings Limited / Nscale Ltd.; WV DEP air permit applicant is Monarch Cloud Campus, LLC (MCC).",
   "sources": {
     "phase2_seed_stable_id": "US-WV-MONARCH-Nscale-MICROSOFT-2026",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
-    "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "authoritative_layer": "official_state_dep_plus_company",
+    "match_reason": "Official WV Governor and WV DEP sources confirm a Mason County / Point Pleasant Monarch project; Nscale confirms Monarch acquisition, Microsoft LOI, Phase 1 capacity, acreage, and long-term power runway.",
+    "urls": [
+      "https://dep.wv.gov/daq/permitting/Pages/NSR-Permit-Applications.aspx",
+      "https://governor.wv.gov/article/governor-morrisey-statement-expansion-monarch-compute-campus",
+      "https://governor.wv.gov/article/governor-patrick-morrisey-signs-power-generation-and-consumption-and-one-stop-shop",
+      "https://www.nscale.com/press-releases/nscale-acquires-american-intelligence-power-corporation",
+      "https://www.nscale.com/press-releases/nscale-west-virginia-ai-factory",
+      "https://www.nscale.com/ai-infrastructure/west-virginia",
+      "https://www.wsaz.com/2026/07/14/wvdep-orders-data-center-company-make-repairs-after-residential-flooding/"
+    ]
   },
-  "contradictions": [],
-  "seed_only": true,
+  "contradictions": [
+    {
+      "topic": "acreage",
+      "details": "Nscale current pages and press releases state up to 2,250 acres / 2,250+ acres; some regional media/tracker sources describe 2,380 acres. Official/company-current value retained as 2,250+ acres."
+    },
+    {
+      "topic": "status",
+      "details": "WV DEP air construction permit R14-0042 remains an application with no final permit shown, while stormwater enforcement reporting indicates land-disturbing site work is underway. Status set to site work-construction, not energized or operational."
+    },
+    {
+      "topic": "capacity",
+      "details": "Nscale describes 1.35 GW Phase 1 AI compute capacity, 2 GW initial power capacity expected online in H1 2028, and an 8 GW-plus long-term power runway. capacity_mw uses the customer-facing Phase 1 AI compute figure and stores power runway separately."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": null,
+      "capacity_mw": null,
+      "owner": null,
+      "note": "Baseline seed-only record before independent refresh."
+    }
+  ],
+  "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

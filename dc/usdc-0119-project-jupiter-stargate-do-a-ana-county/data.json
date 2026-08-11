@@ -7,15 +7,19 @@
     "Project Jupiter / Stargate Doña Ana County",
     "Santa Teresa AI data-center campus",
     "Santa Teresa Stargate",
-    "Stargate Doña Ana County / Project Jupiter"
+    "Stargate Doña Ana County / Project Jupiter",
+    "Yucca Growth Infrastructure YGI Microgrid",
+    "Green Chile Natural Gas Pipeline"
   ],
   "location": {
     "city": "Santa Teresa",
     "county": "Doña Ana",
-    "state": "NM"
+    "state": "NM",
+    "evidence_note": "Data-center parcel crosswalk remains unvalidated. BLM's related Green Chile Natural Gas Pipeline page lists La Mesa, NM 88044, Doña Ana County at approximately 32.0821, -106.769 for the pipeline project, not the data-center campus."
   },
   "phase3_stable_id": "US-NM-STARGATE-JUPITER-SANTA-TERESA-2025",
-  "status_as_of_cutoff": "Project Jupiter remains a proposed/under-review project with unresolved scope and status. NMED’s current permitting surface showed an active review database but the project-specific row/application was not exposed in the reviewed surface; the State Land Office officially denied reconsideration of a pipeline right-of-way/business lease on July 15. No final air permit, county permit, CO, energization, or commissioning record was located.",
+  "status_as_of_cutoff": "local process / under regulatory hearing. As of 2026-08-11, NMED's public-notices surface lists Yucca Growth Infrastructure, LLC's YGI Microgrid (Project Jupiter) New Source Review application received 2026-04-27, completion letter dated 2026-05-27, revisions to Application 10883, draft NSR permit materials dated 2026-07-29, and an amended hearing notice for 2026-09-14. NMED OPF docket AQB 26-57(P) is active, and an 2026-08-05 hearing-officer order requires parties to address whether Project Jupiter still has a legally obtainable natural-gas supply after the State Land Office denial. No final air permit, county building/site permit, CO, energization, or commissioned data-center capacity was located.",
+  "evidence_grade": "B - official regulator/docket evidence for pending air-permit and related pipeline actions; no final campus permit, construction, energization, owner, or IT-load confirmation",
   "actions": [
     {
       "date": "2025-12-19",
@@ -24,7 +28,7 @@
       "action_type": "air-permit completeness status (reported)",
       "result_status": "KNW reported that NMED considered the two Project Jupiter-related microgrid air applications incomplete at that stage. The underlying NMED determination letter was not retrieved.",
       "vote_tally": "not applicable",
-      "case_or_ordinance_permit_number": "Acoma LLC east/west microgrid applications",
+      "case_or_ordinance_permit_number": "Acoma LLC east/west microgrid applications 10732 and 10734",
       "primary_url": "https://www.kanw.org/new-mexico-news/2025-12-19/nmed-says-data-center-project-jupiters-air-quality-applications-incomplete-for-now",
       "access_caveat": "Press report used because the underlying regulator letter was not accessible in the reviewed search.",
       "evidence_note": "Do not treat later completeness/public review as a final permit."
@@ -42,15 +46,39 @@
       "evidence_note": "Government action reported by local press; scope limited to communication."
     },
     {
+      "date": "2026-04-27",
+      "date_precision": "day",
+      "government_body": "New Mexico Environment Department Air Quality Bureau",
+      "action_type": "new source review application received / prior applications withdrawn",
+      "result_status": "NMED's public-notices page lists Yucca Growth Infrastructure, LLC - YGI Microgrid (Project Jupiter) New Source Review Application received 2026-04-27. The same page lists the prior Acoma, LLC East Microgrid and West Microgrid applications as withdrawn 2026-04-27.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "NSR Application / Air Quality Construction Permit Application 10883; prior Acoma applications 10732 and 10734 withdrawn",
+      "primary_url": "https://www.env.nm.gov/public-notices/",
+      "access_caveat": "NMED document links are service.web.env.nm.gov shortlinks; some linked PDFs are not directly retrievable by curl, but titles and dates are exposed on the public-notices page.",
+      "evidence_note": "Official regulator evidence of a pending replacement/revised air-permit path, not approval."
+    },
+    {
+      "date": "2026-05-01",
+      "date_precision": "day",
+      "government_body": "U.S. Bureau of Land Management, Las Cruces District Office",
+      "action_type": "related pipeline NEPA / rights-of-way decision",
+      "result_status": "BLM's ePlanning page for the Green Chile Natural Gas Pipeline lists NEPA status as completed, NEPA completion and FONSI dated 2026-04-27, decision date 2026-05-01, applicant Transwestern Pipeline Company, LLC, and a proposed action covering about 16 miles of new 24-inch buried natural-gas pipeline across BLM-administered public lands in Doña Ana County.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DOI-BLM-NM-L000-2026-0023-EA",
+      "primary_url": "https://eplanning.blm.gov/Project-Home/?id=97AD7851-F93F-F111-88B3-001DD802F839",
+      "access_caveat": "Related energy/fuel infrastructure only; does not approve the data-center campus or NMED air permit.",
+      "evidence_note": "Record as related infrastructure. State trust land denial remains a blocking/uncertainty fact for a segment of the pipeline."
+    },
+    {
       "date": "2026-06-03",
       "date_precision": "day",
-      "government_body": "New Mexico Environment Department (as described by Oracle; regulator record not retrieved)",
+      "government_body": "New Mexico Environment Department (as described by Oracle; regulator record later confirmed on NMED public-notices page)",
       "action_type": "updated air-application completeness / public review",
-      "result_status": "Oracle stated that NMED deemed an updated Project Jupiter air-quality application complete for public review. This is not a final air permit and the NMED record was not independently retrieved.",
+      "result_status": "Oracle stated that NMED deemed an updated Project Jupiter air-quality application complete for public review; NMED's public-notices page later listed a Completion Letter dated 2026-05-27 for the YGI Microgrid permit surface.",
       "vote_tally": null,
-      "case_or_ordinance_permit_number": null,
+      "case_or_ordinance_permit_number": "Air Quality Construction Permit Application 10883",
       "primary_url": "https://www.oracle.com/news/announcement/public-review-opens-for-updated-project-jupiter-power-plan-2026-06-03/",
-      "access_caveat": "Company statement about a regulator action; official application page was not accessible in a project-specific form.",
+      "access_caveat": "Company statement is superseded/strengthened by NMED public-notices listing; completion is not a final permit.",
       "evidence_note": "Pending regulatory review."
     },
     {
@@ -58,9 +86,9 @@
       "date_precision": "day",
       "government_body": "New Mexico State Land Office",
       "action_type": "pipeline right-of-way and business-lease reconsideration denial",
-      "result_status": "The State Land Office officially denied Energy Transfer’s request to reconsider the March 2026 denial of two rights-of-way and one business lease for a 0.6-mile portion of a proposed 17-mile natural-gas pipeline tied to Project Jupiter.",
+      "result_status": "The State Land Office officially denied Energy Transfer's request to reconsider the March 2026 denial of two rights-of-way and one business lease for a 0.6-mile portion of a proposed 17-mile natural-gas pipeline tied to Project Jupiter.",
       "vote_tally": "denied",
-      "case_or_ordinance_permit_number": "two rights-of-way and one business lease; letter dated 2026-07-14",
+      "case_or_ordinance_permit_number": "R4-3458, R4-3459, BL-3339; letter dated 2026-07-14",
       "primary_url": "https://www.nmstatelands.org/2026/07/15/commissioner-garcia-richard-again-denies-request-to-run-portion-of-project-jupiter-pipeline-through-state-lands/",
       "access_caveat": "The action concerns state trust land and a related pipeline, not a final determination on the data-center campus or air permit.",
       "evidence_note": "Negative related infrastructure action; no inference that the full project is denied."
@@ -68,18 +96,54 @@
     {
       "date": "2026-07-16",
       "date_precision": "day",
+      "government_body": "New Mexico Environment Department Office of Public Facilitation",
+      "action_type": "air-permit scheduling order",
+      "result_status": "NMED OPF docket AQB 26-57(P) scheduling order set a public hearing for 2026-10-19 at the Sunland Park Multi-Generational Center, technical testimony deadline 2026-10-01, and rebuttal deadline 2026-10-12. NMED's later public-notices page lists an amended hearing notice for 2026-09-14, so the October schedule should be treated as superseded or in conflict pending direct review of the amended notice.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "AQB 26-57(P); NSR 10883",
+      "primary_url": "https://www.env.nm.gov/opf/wp-content/uploads/sites/13/2026/07/2026-07-16-AQB-26-57-Scheduling-Order-filed.pdf",
+      "access_caveat": "Later amended hearing notice title was visible on NMED public-notices, but the shortlinked PDF was not directly retrievable by curl.",
+      "evidence_note": "Procedural hearing schedule; not approval."
+    },
+    {
+      "date": "2026-07-29",
+      "date_precision": "day",
+      "government_body": "New Mexico Environment Department Air Quality Bureau",
+      "action_type": "draft permit materials posted",
+      "result_status": "NMED's public-notices page lists draft NSR Permit Part A 10883, draft NSR Permit Parts B/C 10883, draft Statement of Basis 10883, Spanish draft materials, and a modeling review report dated as of 2026-07-29.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Air Quality Construction Permit Application 10883",
+      "primary_url": "https://www.env.nm.gov/public-notices/",
+      "access_caveat": "The NMED public page exposes titles and shortlinks; direct PDF download from cloud.env.nm.gov returned 403 in curl.",
+      "evidence_note": "Draft materials are not final permit issuance."
+    },
+    {
+      "date": "2026-08-05",
+      "date_precision": "day",
+      "government_body": "New Mexico Environment Department Office of Public Facilitation / hearing officer",
+      "action_type": "order for briefing on motion to dismiss or continue",
+      "result_status": "The hearing officer ordered parties to submit responses by 2026-08-11 on New Energy Economy's motion to dismiss or continue and specifically ordered YGI and NMED to address fuel-supply questions, possible appeal of the State Land Office denial, alternative pipeline/fuel routes, whether Application 10883 remains constructible as proposed, and whether the source can be completed in a reasonable time.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "AQB 26-57; Permit No. 10883",
+      "primary_url": "https://www.env.nm.gov/opf/wp-content/uploads/sites/13/2026/07/2026-08-04-AQB-26-57-Order-Briefing-Dismissal-filed.pdf",
+      "access_caveat": "Procedural order; no ruling on the motion found by cutoff.",
+      "evidence_note": "Confirms active dispute over fuel infrastructure and constructibility."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
       "government_body": "New Mexico Environment Department Air Quality Bureau / Doña Ana County / OSE",
       "action_type": "permit, water, county, and construction search (negative/pending)",
-      "result_status": "The NMED current-actions page remained a live review surface, but no project-specific final permit, county site/building permit, assessor/parcel, water-right, inspection/CO, construction, energization, or commissioning record was exposed by the cutoff.",
+      "result_status": "Search located active NMED public-notices and OPF docket surfaces for Application 10883, plus BLM and State Land Office records for related pipeline infrastructure. No final air permit, county site/building permit, assessor/parcel, water-right, inspection/CO, construction, energization, or commissioning record was exposed by the cutoff.",
       "vote_tally": null,
-      "case_or_ordinance_permit_number": null,
-      "primary_url": "https://aqb-cpaur.env.nm.gov/",
-      "access_caveat": "Coda-backed NMED page requires JavaScript and says data export requires an account; no account or records request was used.",
-      "evidence_note": "Preserve access block and pending review; negative search does not prove nonexistence."
+      "case_or_ordinance_permit_number": "AQB 26-57(P); NSR 10883",
+      "primary_url": "https://www.env.nm.gov/opf/docketed-matters/",
+      "access_caveat": "Doña Ana County exact parcel and local permit crosswalk remain unvalidated without records request/accounted permit-system access.",
+      "evidence_note": "Negative search does not prove nonexistence."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Yucca Growth Infrastructure, LLC is the current NMED Air Quality Construction Permit Application 10883 applicant for the YGI Microgrid; ultimate data-center owner/tenant and energized IT capacity are not independently confirmed in official local-government records.",
   "sources": {
     "phase3_stable_id": "US-NM-STARGATE-JUPITER-SANTA-TERESA-2025",
     "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
@@ -89,9 +153,42 @@
       "US-NM-STARGATE-JUPITER-SANTA-TERESA-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3-to-regional stable-ID pair; seed merged only with explicit evidence",
+    "official_current_sources": [
+      "https://www.env.nm.gov/public-notices/",
+      "https://www.env.nm.gov/opf/docketed-matters/",
+      "https://www.env.nm.gov/opf/wp-content/uploads/sites/13/2026/07/2026-07-16-AQB-26-57-Scheduling-Order-filed.pdf",
+      "https://www.env.nm.gov/opf/wp-content/uploads/sites/13/2026/07/2026-08-04-AQB-26-57-Order-Briefing-Dismissal-filed.pdf",
+      "https://www.nmstatelands.org/2026/07/15/commissioner-garcia-richard-again-denies-request-to-run-portion-of-project-jupiter-pipeline-through-state-lands/",
+      "https://www.nmstatelands.org/wp-content/uploads/2026/07/2026-07-14-Letter-re-Informal-Request-for-Reconsideration_Final.pdf",
+      "https://eplanning.blm.gov/Project-Home/?id=97AD7851-F93F-F111-88B3-001DD802F839",
+      "https://www.oracle.com/news/announcement/public-review-opens-for-updated-project-jupiter-power-plan-2026-06-03/",
+      "https://www.kanw.org/new-mexico-news/2025-12-19/nmed-says-data-center-project-jupiters-air-quality-applications-incomplete-for-now",
+      "https://kvia.com/news/top-stories/2026/04/14/dona-ana-county-commissioners-adopt-resolution-on-communication-about-project-jupiter/"
+    ],
+    "last_refreshed": "2026-08-11"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "Green Chile pipeline path / fuel supply",
+      "as_of": "2026-08-11",
+      "summary": "BLM lists the Green Chile Natural Gas Pipeline NEPA process as completed with a 2026-05-01 decision for about 16 miles on BLM-administered public lands, while the New Mexico State Land Office denied reconsideration of rights-of-way/business lease for a state-trust-land segment on 2026-07-15. NMED's 2026-08-05 order therefore requires briefing on whether a legally obtainable gas source, alternate route, or alternate fuel-delivery system exists and whether Permit Application 10883 remains constructible as proposed.",
+      "sources": [
+        "https://eplanning.blm.gov/Project-Home/?id=97AD7851-F93F-F111-88B3-001DD802F839",
+        "https://www.nmstatelands.org/2026/07/15/commissioner-garcia-richard-again-denies-request-to-run-portion-of-project-jupiter-pipeline-through-state-lands/",
+        "https://www.env.nm.gov/opf/wp-content/uploads/sites/13/2026/07/2026-08-04-AQB-26-57-Order-Briefing-Dismissal-filed.pdf"
+      ]
+    },
+    {
+      "topic": "NMED hearing date",
+      "as_of": "2026-08-11",
+      "summary": "The 2026-07-16 NMED scheduling order set a 2026-10-19 hearing, but NMED's public-notices page now lists an amended notice of hearing dated 2026-09-14. Treat the October date as superseded or unresolved until the amended notice PDF is directly reviewed.",
+      "sources": [
+        "https://www.env.nm.gov/opf/wp-content/uploads/sites/13/2026/07/2026-07-16-AQB-26-57-Scheduling-Order-filed.pdf",
+        "https://www.env.nm.gov/public-notices/"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

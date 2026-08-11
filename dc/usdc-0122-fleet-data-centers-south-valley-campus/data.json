@@ -8,17 +8,91 @@
   "location": {
     "city": "McCarran/Sparks area",
     "county": "Storey",
-    "state": "NV"
+    "state": "NV",
+    "site": "South Valley Technology Park / Tahoe Reno Industrial Center, southern USA Parkway area"
   },
   "phase3_stable_id": "US-NV-FLEET-SOUTH-VALLEY-2026",
-  "status_as_of_cutoff": "Local reporting says Fleet broke ground on two facilities and announced financing. No Storey County permit, local vote, NV Energy interconnection, inspection/CO, or first-service record was found in the reviewed public surfaces; customer identity remains undisclosed.",
+  "status_as_of_cutoff": "site work-construction (reported) with active state utility/environmental approvals pending: Fleet/Tract broke ground on South Valley in May 2026 and local reporting says Fleet plans a 200 MW data center there. PUCN records show South Valley applications for a 345 kV substation/four-line interconnection, a temporary 144 MW natural-gas generation facility, and NV Energy large-load electric service agreements with SV RNO Property Owner 1, LLC; NDEP lists a pending Class I New OPTC air-quality application for SV RNO. No commission order, county building permit, certificate of occupancy, energization, or live-service record was located in this refresh.",
+  "evidence_grade": "B: PUCN, NDEP, GOED/Storey County official records confirm active permitting/abatement/service-agreement processes; construction status and 200 MW campus figure rely on company/local reporting.",
   "actions": [
+    {
+      "date": "2025-01-28",
+      "date_precision": "day",
+      "government_body": "Public Utilities Commission of Nevada",
+      "action_type": "utility permit application",
+      "result_status": "Docket 25-01037: Reno Power NR 1, LLC applied for a permit to construct the South Valley Phase 1 development, including a new 345 kV Mackay Switching Station and two single-circuit 345 kV segments on private land in Storey County.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "25-01037",
+      "primary_url": "https://pucweb1.state.nv.us/puc2/Dktinfo.aspx?Util=ElectricClosed",
+      "access_caveat": "PUCN public docket index; status/order documents were not independently retrieved in this refresh.",
+      "evidence_note": "Official state utility docket index."
+    },
+    {
+      "date": "2026-01-20",
+      "date_precision": "day",
+      "government_body": "Storey County Board of County Commissioners",
+      "action_type": "tax abatement acknowledgement",
+      "result_status": "County minutes show a 3-0 motion directing staff to submit a letter to GOED acknowledging SV RNO Property Owner 1, LLC's data center sales/use and personal-property tax abatement application for operations planned in Storey County.",
+      "vote_tally": "3-0",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.storeycounty.org/AgendaCenter/ViewFile/Minutes/_01202026-1368",
+      "access_caveat": "County acknowledgement of GOED abatement application; not a building permit or land-use approval.",
+      "evidence_note": "Official local-government minutes."
+    },
+    {
+      "date": "2026-02-05",
+      "date_precision": "day",
+      "government_body": "Nevada Governor's Office of Economic Development",
+      "action_type": "data center tax abatement agenda/action",
+      "result_status": "GOED agenda listed SV RNO Property Owner 1 LLC for Data Center Sales and Use Tax Abatement and Data Center Personal Property Tax Abatement; published minutes identify SV RNO representatives at the meeting.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://goed.nv.gov/wp-content/uploads/2026/01/1.-Agenda-February-5-2026.pdf",
+      "access_caveat": "Agenda/minutes confirm the matter was before GOED; detailed approval terms should be rechecked against the final abatement contract or board packet if needed.",
+      "evidence_note": "Official state economic-development record."
+    },
+    {
+      "date": "2026-04-07",
+      "date_precision": "day",
+      "government_body": "Public Utilities Commission of Nevada",
+      "action_type": "utility permit application",
+      "result_status": "Docket 26-04007: SV RNO Property Owner 1, LLC applied for a permit to construct a new 345 kV substation, four 345 kV transmission lines to interconnect with the Mackey Switching Station, and associated facilities on private land in Storey County.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "26-04007",
+      "primary_url": "https://pucweb1.state.nv.us/puc2/Dktinfo.aspx?Util=Electric",
+      "access_caveat": "PUCN pending docket index; no approval order located.",
+      "evidence_note": "Official state utility docket index."
+    },
+    {
+      "date": "2026-04-19",
+      "date_precision": "day",
+      "government_body": "Nevada Division of Environmental Protection",
+      "action_type": "air quality permit application",
+      "result_status": "NDEP pending AQOP table lists SV RNO Property Owner 1, LLC in Storey County with permit AP7374-5094, Class 1, Air Case 12882, New OPTC, with 30-day public notice planned.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "AP7374-5094 / Air Case 12882",
+      "primary_url": "https://ndep.nv.gov/air/permitting",
+      "access_caveat": "Pending-applications table only; final permit issuance was not found.",
+      "evidence_note": "Official state environmental permitting record."
+    },
+    {
+      "date": "2026-04-20",
+      "date_precision": "day",
+      "government_body": "Public Utilities Commission of Nevada",
+      "action_type": "self-generation permit application",
+      "result_status": "Docket 26-04026: SV RNO Property Owner 1 LLC applied to construct the South Valley Temporary Power Generation Facility, a temporary 144 MW natural-gas-fueled electric generating facility and associated facilities on private land in Storey County.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "26-04026",
+      "primary_url": "https://pucweb1.state.nv.us/puc2/Dktinfo.aspx?Util=Electric",
+      "access_caveat": "PUCN pending docket index and calendar records; no final approval order located.",
+      "evidence_note": "Official state utility docket index."
+    },
     {
       "date": "2026-05-01",
       "date_precision": "day",
       "government_body": "Fleet Data Centers (company/finance report; not a government body)",
       "action_type": "financing announcement",
-      "result_status": "Local business reporting described Fleet financing for the South Valley campus; financing does not establish county approval or power service.",
+      "result_status": "Local business reporting described Fleet's $4.6 billion financing through senior secured notes for the projects and a long-term lease/customer context; financing does not establish county approval or power service.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.nnbw.com/news/2026/jun/02/fleet-data-centers-breaks-ground-on-2-facilities/",
@@ -26,32 +100,38 @@
       "evidence_note": "Company/press evidence only."
     },
     {
-      "date": "2026-06-02",
+      "date": "2026-05-20",
       "date_precision": "day",
-      "government_body": "Fleet Data Centers (reported by Northern Nevada Business Weekly; not a government body)",
+      "government_body": "Fleet Data Centers / Tract (reported by KOLO and Northern Nevada Business Weekly; not a government body)",
       "action_type": "groundbreaking (reported)",
-      "result_status": "The report said Fleet broke ground on two facilities. No government groundbreaking record or permit number was located, so the report is not treated as proof of every permit or construction phase.",
+      "result_status": "KOLO reported Fleet and Tract broke ground on a 2 million square foot, $4.6 billion South Valley data center in Storey County; Northern Nevada Business Weekly later reported Fleet broke ground on the second TRIC campus and would construct a 200 MW data center at South Valley.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.nnbw.com/news/2026/jun/02/fleet-data-centers-breaks-ground-on-2-facilities/",
-      "access_caveat": "Press report; Storey County and utility records were not retrieved.",
+      "primary_url": "https://www.kolotv.com/2026/05/20/gov-lombardo-construction-companies-break-ground-2-million-sq-ft-data-center-storey-co/",
+      "access_caveat": "Press reports; construction status is not a substitute for final utility, air, building, CO, or energization records.",
       "evidence_note": "Reported physical-start evidence only."
     },
     {
-      "date": "2026-07-16",
+      "date": "2026-05-29",
       "date_precision": "day",
-      "government_body": "Storey County / Nevada State utility and permit surfaces",
-      "action_type": "permit and interconnection search (negative)",
-      "result_status": "No project-specific Storey County permit, parcel record, NV Energy interconnection, inspection/CO, or energization record was located.",
+      "government_body": "Public Utilities Commission of Nevada",
+      "action_type": "large-load electric service agreement application",
+      "result_status": "Docket 26-05027: Sierra Pacific Power Company d/b/a NV Energy applied for approval of Large Load Electric Service Agreements with PR RNO Property Owner 1, LLC and SV RNO Property Owner 1, LLC.",
       "vote_tally": null,
-      "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.storeycounty.org/",
-      "access_caveat": "County search surface and utility filing search did not expose a matching record.",
-      "evidence_note": "Negative search only."
+      "case_or_ordinance_permit_number": "26-05027",
+      "primary_url": "https://pucweb1.state.nv.us/puc2/Dktinfo.aspx?Util=Electric",
+      "access_caveat": "PUCN pending docket index; agreement details may include confidential material.",
+      "evidence_note": "Official state utility docket index."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": {
+    "data_center_reported_critical_mw": 200,
+    "initial_load_reported_mw": 86,
+    "temporary_generation_permit_mw": 144,
+    "tract_site_marketed_buildout_mw": 1215,
+    "notes": "200 MW South Valley campus and 86 MW initial load are reported by Northern Nevada Business Weekly; 144 MW temporary generation is from PUCN Docket 26-04026; 1,215 MW is Tract's marketed South Valley Technology Park buildout capacity, not confirmed energized IT load."
+  },
+  "owner": "Fleet Data Centers / Tract Capital Management; project filings use SV RNO Property Owner 1, LLC for South Valley.",
   "sources": {
     "phase3_stable_id": "US-NV-FLEET-SOUTH-VALLEY-2026",
     "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
@@ -59,9 +139,39 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh": [
+      "https://pucweb1.state.nv.us/puc2/Dktinfo.aspx?Util=Electric",
+      "https://pucweb1.state.nv.us/puc2/Dktinfo.aspx?Util=ElectricClosed",
+      "https://ndep.nv.gov/air/permitting",
+      "https://www.storeycounty.org/AgendaCenter/ViewFile/Minutes/_01202026-1368",
+      "https://goed.nv.gov/wp-content/uploads/2026/01/1.-Agenda-February-5-2026.pdf",
+      "https://goed.nv.gov/wp-content/uploads/2026/05/GOED-Board-Meeting-Minutes-February-5-2026-FINAL.pdf",
+      "https://www.tract.com/project/south-valley/",
+      "https://www.nnbw.com/news/2026/jun/02/fleet-data-centers-breaks-ground-on-2-facilities/",
+      "https://www.kolotv.com/2026/05/20/gov-lombardo-construction-companies-break-ground-2-million-sq-ft-data-center-storey-co/",
+      "https://thenevadaindependent.com/article/why-a-northern-nevada-data-center-wants-to-build-its-own-temporary-natural-gas-power-plant"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "capacity basis",
+      "details": "Sources use different capacity bases: local reporting says Fleet will construct a 200 MW South Valley data center and cites 86 MW initial load; PUCN self-generation docket is 144 MW temporary generation; Tract markets the broader South Valley Technology Park at 1,215 MW buildout capacity. These should not be treated as the same metric."
+    },
+    {
+      "topic": "status basis",
+      "details": "Local reporting supports groundbreaking/site work, while PUCN and NDEP records remain application/pending surfaces in this refresh. No energization or final-service record was found."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": "Local reporting says Fleet broke ground on two facilities and announced financing. No Storey County permit, local vote, NV Energy interconnection, inspection/CO, or first-service record was found in the reviewed public surfaces; customer identity remains undisclosed.",
+      "capacity_mw": null,
+      "owner": null,
+      "refresh_note": "Superseded after 2026-08-11 refresh found official PUCN/NDEP/GOED/Storey County records and clearer reported capacity."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

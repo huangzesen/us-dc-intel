@@ -7,26 +7,100 @@
   "location": {
     "city": "Dugway",
     "county": "Tooele",
-    "state": "UT"
+    "state": "UT",
+    "site": "Dugway Proving Ground",
+    "site_acres": 1201
   },
   "phase3_stable_id": "US-UT-CYRUSONE-DUGWAY-2026",
-  "status_as_of_cutoff": "Proposed/under review; Utah government material says Army exclusive negotiations began in March 2026 and environmental review is required before construction.",
+  "status_as_of_cutoff": "Announced / exclusive negotiations; the U.S. Army conditionally selected CyrusOne for an Enhanced Use Lease data-center project at Dugway Proving Ground on 2026-03-26, but the lease was not final and environmental review/other approvals are still required before construction.",
+  "evidence_grade": "B - official Army announcement and fact sheet confirm conditional selection, site acreage, EUL structure, non-final status, and FY2029 IOC target; Utah public-notice inventory and local public FAQ corroborate proposed status and additional approval requirements; capacity is from Utah public-notice inventory and industry tracker, not an Army capacity disclosure.",
   "actions": [
+    {
+      "date": "2026-03-26",
+      "date_precision": "day",
+      "government_body": "U.S. Army",
+      "action_type": "conditional selection / exclusive negotiation",
+      "result_status": "The Army conditionally selected CyrusOne, a portfolio company jointly held by KKR- and BlackRock-managed funds, for an approximately 1,201-acre commercial hyperscale data-center project at Dugway Proving Ground, Utah, under the Enhanced Use Lease program. The company would finance, build, operate, maintain, and decommission the facility on underutilized but non-excess Army land; the deal was not final and remained subject to negotiation, lease terms, and environmental review.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.army.mil/article/291360/army_reaches_conditional_agreement_with_private_industry_for_hyperscaled_data_centers",
+      "access_caveat": "Official Army announcement; live article returned intermittent rate limiting during 2026-08-11 refresh, but Army-hosted AMP/search cache and Army fact sheet were accessible.",
+      "evidence_note": "Official source for conditional selection, owner/backers, acreage, EUL structure, non-final status, USACE environmental-review role, and projected Dugway Initial Operating Capability in FY2029."
+    },
+    {
+      "date": "2026-03-27",
+      "date_precision": "day",
+      "government_body": "U.S. Army",
+      "action_type": "fact sheet",
+      "result_status": "Army Data Center EUL fact sheet lists CyrusOne at Dugway Proving Ground, Utah with a planned operational date in 2029 and states the selection is the first step toward a formal lease agreement; the Army retains land ownership.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://api.army.mil/e2/c/downloads/2026/03/27/03590778/data-center-eul-fact-sheet.pdf",
+      "access_caveat": "Army-hosted PDF text extraction is low quality, but the project table and footnote are readable.",
+      "evidence_note": "Official source for planned 2029 operational date and non-final lease status."
+    },
     {
       "date": "2026-05-26",
       "date_precision": "day",
       "government_body": "Grand County Planning Commission",
       "action_type": "government data-center inventory",
-      "result_status": "The inventory lists CyrusOne at Dugway Proving Ground as proposed/under review at 1,500 MW and says the project involves U.S. Army exclusive negotiations entered in March 2026 and requires Army Corps environmental review before construction.",
+      "result_status": "The inventory lists CyrusOne at Dugway Proving Ground as proposed at 1,000 MW and says the project involves U.S. Army exclusive negotiations entered in March 2026 and requires Army Corps environmental review before construction.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.utah.gov/pmn/files/1444799.pdf",
       "access_caveat": "Government compiled inventory; it is not a Tooele County or federal permit, lease, NEPA decision, or utility interconnection order.",
       "evidence_note": "Body/context retained from prior file: Grand County Planning Commission staff report / Utah public-notice system."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Tooele County economic-development public information site",
+      "action_type": "local public information / approval caveat",
+      "result_status": "Tooele County's public data-center FAQ identifies the Dugway / CyrusOne project as one of three major data-center efforts in the county, says the arrangement is conditionally selected by the Army, and states specific facilities would still go through additional approvals.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://growtooele.com/?page_id=226",
+      "access_caveat": "Public information page gives no visible last-updated date; date recorded is refresh/access date.",
+      "evidence_note": "Local-government-adjacent source corroborating conditional status and further approvals."
+    },
+    {
+      "date": "2026-07-24",
+      "date_precision": "day",
+      "government_body": "U.S. Congress / House Armed Services Committee",
+      "action_type": "federal legislative scrutiny",
+      "result_status": "Federal News Network reported that House FY2027 defense-authorization language would restrict certain components in data centers on DoD land; the Army characterized the proposal as affecting ongoing negotiations. No enacted project-specific approval or denial was found.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://federalnewsnetwork.com/congress/2026/07/congress-ramps-up-scrutiny-of-pentagon-ai-data-center-plans/",
+      "access_caveat": "Media report about pending federal legislation; not a project permit or lease action.",
+      "evidence_note": "Current risk signal for DoD-land data-center projects, including Dugway."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 1000,
+  "owner": "CyrusOne (portfolio company jointly held by funds managed by KKR and BlackRock)",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Proposed/under review; Utah government material says Army exclusive negotiations began in March 2026 and environmental review is required before construction.",
+      "new_value": "Announced / exclusive negotiations; the U.S. Army conditionally selected CyrusOne for an Enhanced Use Lease data-center project at Dugway Proving Ground on 2026-03-26, but the lease was not final and environmental review/other approvals are still required before construction.",
+      "reason": "Official Army announcement and fact sheet provide more precise status language and FY2029 IOC target."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 1000,
+      "reason": "Grand County/Utah public-notice inventory row and Cleanview both list 1,000 MW; Army sources do not disclose MW capacity."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "CyrusOne (portfolio company jointly held by funds managed by KKR and BlackRock)",
+      "reason": "Official Army announcement identifies CyrusOne and its KKR/BlackRock-managed fund ownership."
+    }
+  ],
   "sources": {
     "phase3_stable_id": "US-UT-CYRUSONE-DUGWAY-2026",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -34,9 +108,27 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.army.mil/article/291360/army_reaches_conditional_agreement_with_private_industry_for_hyperscaled_data_centers",
+      "https://api.army.mil/e2/c/downloads/2026/03/27/03590778/data-center-eul-fact-sheet.pdf",
+      "https://www.utah.gov/pmn/files/1444799.pdf",
+      "https://growtooele.com/?page_id=226",
+      "https://cleanview.co/data-centers/utah/2293/cyrusone-dugway-proving-ground",
+      "https://federalnewsnetwork.com/congress/2026/07/congress-ramps-up-scrutiny-of-pentagon-ai-data-center-plans/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "summary": "Army official sources confirm the Dugway site and FY2029 IOC but do not disclose MW capacity. Utah public-notice inventory and Cleanview list 1,000 MW; the prior local file text contained a 1,500 MW value that appears to have been carried from the adjacent Antelope Data Center row in the same inventory table.",
+      "sources": [
+        "https://www.utah.gov/pmn/files/1444799.pdf",
+        "https://cleanview.co/data-centers/utah/2293/cyrusone-dugway-proving-ground",
+        "https://www.army.mil/article/291360/army_reaches_conditional_agreement_with_private_industry_for_hyperscaled_data_centers"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

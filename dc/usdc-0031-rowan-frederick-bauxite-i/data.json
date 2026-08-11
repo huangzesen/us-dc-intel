@@ -11,10 +11,13 @@
   "location": {
     "city": "Frederick",
     "county": "Frederick County",
-    "state": "MD"
+    "state": "MD",
+    "address": "3250 Digital Drive, Frederick, MD 21703",
+    "parcel": "Tax Map 94, Parcel 9; Quantum Frederick Lot 400 / Bauxite I"
   },
   "phase3_stable_id": "MD-001",
-  "status_as_of_cutoff": "Frederick County planning approvals and Maryland environmental records were found. MDE's December 2025 compliance letter documents construction activity before a final air permit; it is not itself a permit approval. Building permit, CO, utility energization, and first IT load were not located.",
+  "status_as_of_cutoff": "site work-construction / approved-permitted as of 2026-08-11. Frederick County planning records show Bauxite Data Center / Lot 400 site-plan approvals and later Type 3 site-plan revisions; MDE confirmed Bauxite I construction activity on 2025-12-31 and issued a final air quality permit to Amazon Data Services, Inc. on 2026-03-25 for emergency backup generators at 3250 Digital Drive. Building permit, certificate of occupancy, utility energization, and first IT load were not located.",
+  "evidence_grade": "A-",
   "actions": [
     {
       "date": "2024-01-10",
@@ -63,10 +66,47 @@
       "primary_url": "https://mde.maryland.gov/programs/land/MarylandBrownfieldVCP/Documents/Rowan%20Letter%20to%20Jordan%20Crandall%20re%20Bauxite%20I%20Construction%2012.31.2025.pdf",
       "access_caveat": "Letter does not substitute for a building permit, final air permit, or occupancy record.",
       "evidence_note": "Construction activity/compliance action; do not convert it into a permit approval."
+    },
+    {
+      "date": "2025-04-23",
+      "date_precision": "day",
+      "government_body": "Frederick County Division of Planning and Permitting",
+      "action_type": "site-plan revision received",
+      "result_status": "County monthly planning export lists SP277566, Bauxite Lot 400 Revised Site Plan, as a Type 3 site-plan revision to reduce the quantity of water tanks associated with Building B at 3250 Digital Drive; previous site plan SP275808.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "SP277566",
+      "primary_url": "https://frederickcountymd.gov/Archive.aspx?ADID=15812",
+      "access_caveat": "Monthly export is an official county planning intake record; it records receipt/process date, not final building occupancy.",
+      "evidence_note": "Local planning revision for Bauxite I / Lot 400."
+    },
+    {
+      "date": "2026-03-19",
+      "date_precision": "day",
+      "government_body": "Frederick County Division of Planning and Permitting",
+      "action_type": "site-plan revision received",
+      "result_status": "County monthly planning export lists SP278671, Bauxite Lot 400 2nd Revised Site Plan Type 3, to capture changes to light fixture locations and addition of bus stops within the Bauxite campus at 3250 Digital Drive; previous site plan SP277566.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "SP278671",
+      "primary_url": "https://frederickcountymd.gov/Archive.aspx?ADID=16324",
+      "access_caveat": "Monthly export is an official county planning intake record; it records receipt/process date, not final building occupancy.",
+      "evidence_note": "Local planning revision after construction activity was documented."
+    },
+    {
+      "date": "2026-03-25",
+      "date_precision": "day",
+      "government_body": "Maryland Department of the Environment",
+      "action_type": "air quality permit final approval",
+      "result_status": "MDE issued a final determination approving an air quality permit for Amazon Data Services, Inc., authorizing installation of 99 diesel-fired emergency backup generators for a new data center campus at 3250 Digital Drive in Frederick. The generators are limited to emergency, testing, and maintenance use and may not serve as primary power or participate in demand-response programs.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Amazon Data Services BWI PTC; AI# 185075",
+      "primary_url": "https://news.maryland.gov/mde/2026/03/25/maryland-department-of-environment-approves-air-permit-for-frederick-data-center/",
+      "access_caveat": "MDE press release and linked permit are official air-permit records; this is not a building permit, certificate of occupancy, or evidence of IT-load energization.",
+      "evidence_note": "Final environmental/air permit for backup generators at Bauxite I / AWS BWI."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 231,
+  "capacity_note": "Use 231 MW as the current project-capacity estimate because industry trackers report Rowan corrected earlier generator-derived estimates to 231 MW. Official MDE records establish 99 backup generators at the site, but that is emergency-generation capacity rather than confirmed IT load. Rowan's current portfolio page gives 600 MW / more than 630 MW for Bauxite I, II, and III together, not Bauxite I alone.",
+  "owner": "Rowan Digital Infrastructure / Rowan Frederick LLC; Amazon Data Services, Inc. is the identified BWI campus air-permit applicant and likely operator/tenant at 3250 Digital Drive.",
   "sources": {
     "phase3_stable_id": "MD-001",
     "phase3_source_file": "phase3/county_va_md_wv.json",
@@ -74,9 +114,31 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://mde.maryland.gov/datacenters/Pages/FrederickDataCenter.aspx",
+      "https://news.maryland.gov/mde/2026/03/25/maryland-department-of-environment-approves-air-permit-for-frederick-data-center/",
+      "https://mde.maryland.gov/datacenters/Documents/2026_AmazonDataServicesBWIIssuedPTC.pdf",
+      "https://frederickcountymd.gov/Archive.aspx?ADID=15812",
+      "https://frederickcountymd.gov/Archive.aspx?ADID=16324",
+      "https://rowan.digital/portfolio/bauxite-i-ii-iii/",
+      "https://www.datacenterdynamics.com/en/news/amazon-to-expand-virginia-cloud-region-into-maryland-develop-data-centers-in-tpgs-quantum-frederick-park/",
+      "https://cleanview.co/data-centers/maryland/841/bauxite-data-center-1"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "summary": "Capacity is not consistently stated across current sources. Rowan's Frederick community page previously described a 300 MW Frederick Data Center; Rowan's current portfolio page reports 600 MW / more than 630 MW for Bauxite I, II, and III combined; DCD and Cleanview list Bauxite Data Center 1 at 231 MW; MDE's permit concerns 99 emergency backup generators and should not be treated as IT load.",
+      "sources": [
+        "https://www.rowanfrederick.com/",
+        "https://rowan.digital/portfolio/bauxite-i-ii-iii/",
+        "https://www.datacenterdynamics.com/en/news/rowan-gains-approval-for-253mw-data-center-campus-at-quantum-loopholes-maryland-site/",
+        "https://cleanview.co/data-centers/maryland/841/bauxite-data-center-1",
+        "https://news.maryland.gov/mde/2026/03/25/maryland-department-of-environment-approves-air-permit-for-frederick-data-center/"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

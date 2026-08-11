@@ -1,19 +1,55 @@
 {
   "disc_id": "disc015",
   "canonical_project": "Google West Memphis / Project Pyramid Data Center Campus",
-  "owner": "Google / Groot LLC",
+  "owner": "Google (Groot LLC permit applicant / project entity)",
   "location": {
     "city": "West Memphis",
     "county": "Crittenden County",
-    "state": "AR"
+    "state": "AR",
+    "address_or_area": "south extent of Bollinger Road",
+    "latitude": 35.108877,
+    "longitude": -90.216323
   },
   "capacity_mw": null,
-  "status": "announced/planned",
+  "status": "site work-construction",
   "confidence": "high",
-  "evidence_date": "2025-09-09",
+  "evidence_date": "2026-03-03",
   "sources": [
+    "https://blog.google/company-news/inside-google/company-announcements/google-american-innovation-arkansas/",
+    "https://www.arkansasedc.com/news-events/newsroom/detail/2025/10/02/google-locating-new-data-center-in-west-memphis--arkansas-with-multi-billion-dollar-investment",
+    "https://www.mvm.usace.army.mil/Portals/51/MVM%202024-216.pdf",
+    "https://www.entergy.com/entergy-arkansas-powers-googles-4b-investment-in-the-state",
+    "https://apps.apsc.arkansas.gov/olsv2/docket_search_results.asp?CaseNumber=25-055-P",
+    "https://apps.apsc.arkansas.gov/olsv2/docket_search_results.asp?CaseNumber=25-054-U",
     "https://www.datacenterdynamics.com/en/news/google-confirmed-to-be-behind-west-memphis-data-center-project-in-arkansas/",
     "https://baxtel.com/news/google-behind-west-memphis-data-center-project-in-arkansas"
+  ],
+  "investment_usd": 4000000000,
+  "investment_period": "through 2027",
+  "site_area_acres": 1178,
+  "main_campus_area_acres": 580,
+  "planned_buildings": 5,
+  "power_provider": "Entergy Arkansas",
+  "power_notes": "Google says it will cover full energy costs and is collaborating with Entergy on a new 600 MW solar project; Entergy says the solar project is backed by 350 MW battery storage in Jefferson County. APSC docket 25-055-P approved the special rate contract on 2026-01-29; docket 25-054-U approved the Cypress Solar CECPN on 2026-03-03.",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "previous": "announced/planned",
+      "current": "site work-construction",
+      "reason": "Google and Arkansas EDC announced the West Memphis data center on 2025-10-02; Arkansas EDC describes Google as constructing the campus."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous": "Google / Groot LLC",
+      "current": "Google (Groot LLC permit applicant / project entity)",
+      "reason": "Google official announcement confirms the owner/operator; USACE permit notice identifies Groot LLC as applicant."
+    }
+  ],
+  "contradictions": [
+    "Capacity/load for the data center campus is not publicly disclosed in primary sources; 600 MW solar and 350 MW battery figures are supporting generation/storage resources, not confirmed campus IT or utility load capacity.",
+    "Some industry/local summaries describe a $10B or larger PILOT/buildout envelope, while Google's official 2025-10-02 announcement states a $4B Arkansas investment through 2027."
   ],
   "why_not_in_baseline": "Not present in the 208 baseline canonical_project list; likely missed Arkansas Google cloud/AI campus, distinct from baseline AVAIO Little Rock project.",
   "discovery_file": "candidates-hyperscaler.jsonl",

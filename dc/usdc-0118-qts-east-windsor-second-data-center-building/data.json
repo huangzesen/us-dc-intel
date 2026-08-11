@@ -2,18 +2,85 @@
   "master_id": "USDC-0118",
   "canonical_project": "QTS East Windsor second data-center building",
   "aliases": [
-    "QTS East Windsor second data-center building"
+    "QTS East Windsor second data-center building",
+    "QTS East Windsor 1 DC2",
+    "QTS Investment Properties Princeton LLC PB25-006"
   ],
   "location": {
     "city": "East Windsor",
     "county": "Mercer",
-    "state": "NJ"
+    "state": "NJ",
+    "address": "159 Princeton-Hightstown Road, East Windsor, NJ 08520",
+    "parcel": "Block 63, Lots 6, 6.01, 8, 9, 10.03, 10.04, 51"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
+  "status_as_of_cutoff": "approved-permitted",
+  "evidence_grade": "B",
+  "status_history": [
+    {
+      "date": "2026-07-16",
+      "status": null,
+      "note": "Baseline carried no independent status."
+    },
+    {
+      "date": "2026-08-11",
+      "status": "approved-permitted",
+      "note": "Township records identify QTS PB25-006 as a preliminary and final site plan with bulk variances at the existing campus; QTS confirms one additional data center and a $600 million expansion. Third-party reports say the Planning Board approved the second facility in May 2026. No official construction permit or official May 2026 approval minutes were found in this refresh."
+    }
+  ],
+  "actions": [
+    {
+      "date": "2024-04-09",
+      "government_body": "East Windsor Township Council",
+      "action_type": "developer_agreement",
+      "result_status": "approved",
+      "description": "Council Resolution R2024-058 approved a developer agreement for QTS Investment Properties Princeton LLC after Planning Board Resolution 2023-17 granted preliminary and final site plan approval with bulk variance and design waivers for upgrading and potential future expansion of the existing data center.",
+      "source_url": "https://www.east-windsor.nj.us/media/Minutes/2024/4.09.24%20Minutes.pdf"
+    },
+    {
+      "date": "2025-12-08",
+      "government_body": "East Windsor Township Planning Board",
+      "action_type": "site_plan_application",
+      "result_status": "for_carrying_purposes_only",
+      "description": "Planning Board agenda lists EWT PB25-006 for QTS Investment Properties Princeton LLC, 159 Princeton-Hightstown Road, Block 63 Lots 6, 6.01, 8, 9, 10.03, 10.04 and 51, as preliminary and final site plan with bulk variances.",
+      "source_url": "https://www.east-windsor.nj.us/planning-board"
+    },
+    {
+      "date": "2026-04-29",
+      "government_body": "East Windsor Township Planning Board",
+      "action_type": "public_hearing",
+      "result_status": "continued",
+      "description": "Data Center Dynamics reported that the Planning Board postponed a vote on QTS's application for a second data center building after the April 27 hearing and carried the matter to the May 4 meeting.",
+      "source_url": "https://www.datacenterdynamics.com/en/news/decision-on-qts-planned-expansion-of-data-center-in-east-windsor-new-jersey-postponed/"
+    },
+    {
+      "date": "2026-05",
+      "government_body": "East Windsor Township Planning Board",
+      "action_type": "site_plan_application",
+      "result_status": "reported_approved",
+      "description": "Baxtel reports the East Windsor Planning Board approved the second-facility application during a May 2026 meeting; official approval minutes were not found during this refresh.",
+      "source_url": "https://baxtel.com/data-center/qts-east-windsor-1-dc2"
+    },
+    {
+      "date": "2026-06",
+      "government_body": "East Windsor Township Council",
+      "action_type": "zoning_moratorium",
+      "result_status": "adopted",
+      "description": "Township Ordinance 2026-06 imposes a moratorium through December 31, 2027 on further data center use and development by deleting computer/data storage centers as permitted principal uses in specified zones. Applicability to already-approved QTS PB25-006 was not confirmed.",
+      "source_url": "https://www.east-windsor.nj.us/media/Township%20Ordinance/2026/ordinance-2026-06-data-center-moratorium.pdf"
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_note": "QTS discloses 70 MW+ critical power capacity for the East Windsor campus, but does not disclose the incremental critical IT load or power capacity for the second building.",
+  "owner": "QTS Investment Properties Princeton LLC",
+  "operator": "QTS Data Centers",
+  "project_details": {
+    "building_area_sqft": 272000,
+    "investment_usd": 600000000,
+    "campus_area_acres": 52,
+    "reported_year_planned": 2028,
+    "construction_status_note": "Baxtel labels DC2 under construction, but this refresh did not find an official building permit or township construction update confirming site work."
+  },
   "sources": {
     "phase3_stable_id": "US-NJ-QTS-EAST-WINDSOR-2026",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -21,9 +88,45 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_local_government": [
+      "https://www.east-windsor.nj.us/planning-board",
+      "https://www.east-windsor.nj.us/media/QTS%20application.pdf",
+      "https://www.east-windsor.nj.us/media/Minutes/2024/4.09.24%20Minutes.pdf",
+      "https://www.east-windsor.nj.us/news/post/20342/",
+      "https://www.east-windsor.nj.us/township-ordinances",
+      "https://www.east-windsor.nj.us/media/Township%20Ordinance/2026/ordinance-2026-06-data-center-moratorium.pdf"
+    ],
+    "owner_developer": [
+      "https://q.com/data-centers/east-windsor/"
+    ],
+    "industry_local_media": [
+      "https://www.datacenterdynamics.com/en/news/decision-on-qts-planned-expansion-of-data-center-in-east-windsor-new-jersey-postponed/",
+      "https://baxtel.com/data-center/qts-east-windsor-1-dc2",
+      "https://www.tapinto.net/towns/east-windsor-hightstown/sections/government/articles/new-qts-data-center-receives-green-light-from-east-windsor-planning-board"
+    ],
+    "last_refresh": "2026-08-11"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "field": "construction_status",
+      "description": "Baxtel labels the second facility under construction, while official/QTS sources available in this refresh confirm expansion planning/approval records but not an active construction permit or site-work milestone for DC2.",
+      "sources": [
+        "https://baxtel.com/data-center/qts-east-windsor-1-dc2",
+        "https://q.com/data-centers/east-windsor/",
+        "https://www.east-windsor.nj.us/planning-board"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "description": "QTS publishes 70 MW+ critical power capacity for the East Windsor campus, but says it does not disclose specific power capacity for the expansion; no official second-building MW was verified.",
+      "sources": [
+        "https://q.com/data-centers/east-windsor/"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

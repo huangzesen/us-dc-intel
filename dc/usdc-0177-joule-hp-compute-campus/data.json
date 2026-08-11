@@ -10,11 +10,61 @@
   "location": {
     "city": "Delta",
     "county": "Millard",
-    "state": "UT"
+    "state": "UT",
+    "site_description": "Approximately 4,000 acres at approximately 11000 N McCornick Road, Delta / Fillmore Address Grid, Millard County, Utah"
   },
   "phase3_stable_id": "US-UT-JOULE-DELTA-2026",
-  "status_as_of_cutoff": "Utah government inventory lists Phase 1 under construction at 455 MW and the 4,000+ MW full buildout as proposed. Permit and energization records were not located.",
+  "status_as_of_cutoff": "approved-permitted as of 2026-08-11: Millard County records show heavy-industrial rezoning noticed for approximately 4,000 acres at 11000 N McCornick Road, a Planning Commission favorable recommendation for C-2 Conditional Use Permit application #Z-2025-048 for a data center and electrical generating facility, and Board of County Commissioners approval of the CUP amendment on 2025-09-16. Joule's current project page says the conditional use permit is executed and heavy industrial zoning is in place. A Grand County staff inventory lists Joule Phase 1 as UNDER CONST. at 455 MW and the full campus as 4,000+ MW proposed, but no Millard County building permit, site-disturbance approval, certificate of occupancy, utility service, energization, or live-service record was located in this refresh.",
+  "evidence_grade": "B+: official Millard County records verify zoning/CUP entitlement and project site; capacity and construction-status claims are from government inventory, company materials, and trackers rather than retrieved building, utility, or energization records.",
   "actions": [
+    {
+      "date": "2025-07-16",
+      "date_precision": "day",
+      "government_body": "Millard County Planning Commission",
+      "action_type": "zoning public hearing notice",
+      "result_status": "Agenda noticed application #Z-2025-036 to change approximately 4,000 acres at approximately 11000 N McCornick Road from Agriculture 20 / Agriculture to Heavy Industrial for Joule Capital Partners LLC.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Z-2025-036",
+      "primary_url": "https://millardcounty.gov/wp-content/uploads/2025/07/07162025-PC-Agenda.pdf",
+      "access_caveat": "Agenda/notice only; not the final zoning ordinance.",
+      "evidence_note": "Official county notice establishes site acreage, location, applicant, and requested HI zoning."
+    },
+    {
+      "date": "2025-08-05",
+      "date_precision": "day",
+      "government_body": "Millard County Commission",
+      "action_type": "zoning ordinance agenda / public hearing",
+      "result_status": "County Commission agenda noticed public hearing for application #Z-2025-036 and possible adoption of Ordinance 25-08-05 changing approximately 4,000 acres at approximately 11000 N McCornick Road from AG-20/AG to HI.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Z-2025-036; Ordinance 25-08-05",
+      "primary_url": "https://millardcounty.gov/wp-content/uploads/2025/08/25-0805.pdf",
+      "access_caveat": "Agenda confirms the scheduled final action item; final adopted ordinance/minutes were not retrieved in this refresh.",
+      "evidence_note": "Used with Joule's current statement that heavy industrial zoning is in place."
+    },
+    {
+      "date": "2025-09-03",
+      "date_precision": "day",
+      "government_body": "Millard County Planning Commission",
+      "action_type": "conditional-use permit recommendation",
+      "result_status": "Planning Commission unanimously sent a favorable recommendation to the BOCC for C-2 Conditional Use Permit application #Z-2025-048 for Data Center and Electrical Generating Facility at approximately 11000 N McCornick Road, Delta, with reasonable conditions. Minutes describe Phase 1 as six buildings spread about one-half mile apart and discuss multiple generators and water monitoring.",
+      "vote_tally": "unanimous affirmative recommendation",
+      "case_or_ordinance_permit_number": "Z-2025-048",
+      "primary_url": "https://millardcounty.gov/wp-content/uploads/2025/10/09032025-Final.pdf",
+      "access_caveat": "Planning Commission recommendation, not final BOCC approval.",
+      "evidence_note": "Official county minutes verify project type, owner/applicant, location, phase-one description, and conditions."
+    },
+    {
+      "date": "2025-09-16",
+      "date_precision": "day",
+      "government_body": "Millard County Board of County Commissioners",
+      "action_type": "conditional-use permit amendment approval",
+      "result_status": "BOCC unanimously approved the C-2 CUP amendment for application #Z-2025-048 for Data Center and Electrical Generating Facility at approximately 11000 N McCornick Road. Minutes note discussion of water usage, CCHP cooling, and installed meters.",
+      "vote_tally": "unanimous affirmative approval",
+      "case_or_ordinance_permit_number": "Z-2025-048",
+      "primary_url": "https://millardcounty.gov/wp-content/uploads/2025/10/25-0916.pdf",
+      "access_caveat": "Approval of CUP amendment; no building permit, CO, utility service, or energization record is included in the cited minutes.",
+      "evidence_note": "Controlling local-government approval located in this refresh."
+    },
     {
       "date": "2026-05-26",
       "date_precision": "day",
@@ -38,10 +88,36 @@
       "primary_url": "https://utah.gov/pmn/sitemap/publicbody/126.html",
       "access_caveat": "Public-notice index accessible; attachment and final action were not fully retrievable in this pass.",
       "evidence_note": "Body/context retained from prior file: Millard County Planning Commission."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Joule Power / Joule Capital Partners",
+      "action_type": "owner project page",
+      "result_status": "Owner page says Joule is master planning an energy and data campus in Millard County, Utah; generation equipment is on firm order and in production; conditional use permit is executed; heavy industrial zoning is in place; the power model is behind-the-meter/on-site generation.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://joulepower.ai/",
+      "access_caveat": "Company source; no underlying permit documents, construction photos, energization documents, or tenant/live-service evidence exposed.",
+      "evidence_note": "Corroborates entitlement and owner/developer claims; does not independently prove site work or energization."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": {
+    "phase1_mw": 455,
+    "full_buildout_mw": 4000,
+    "full_buildout_qualifier": "4,000+ MW proposed in government inventory; company/tracker materials commonly state 4 GW / 4,000 MW",
+    "capacity_status": "Phase 1 capacity and construction status are from a compiled Utah government inventory; full-buildout capacity is proposed/master-planned, not verified as energized load.",
+    "primary_url": "https://www.utah.gov/pmn/files/1444799.pdf",
+    "source_date": "2026-05-26"
+  },
+  "capacity_notes": "Millard County entitlement records verify project location/use but do not state MW. Grand County's 2026 data-center inventory lists Joule Phase 1 at 455 MW and UNDER CONST. and lists the full Joule HP Compute Campus at 4,000+ MW proposed. Joule's current page confirms an on-site-power campus and entitlements but does not expose a building permit, utility service, energization, or live capacity record.",
+  "owner": {
+    "developer_applicant": "Joule Capital Partners LLC",
+    "public_brand": "Joule Power",
+    "site_owner_in_cup": "Joule Capital Partners, LLC",
+    "source_url": "https://millardcounty.gov/wp-content/uploads/2025/10/09032025-Final.pdf",
+    "source_date": "2025-09-03"
+  },
   "sources": {
     "phase3_stable_id": "US-UT-JOULE-DELTA-2026",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -51,9 +127,108 @@
       "US-UT-JOULE-HOLDEN-2026"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      {
+        "url": "https://millardcounty.gov/wp-content/uploads/2025/07/07162025-PC-Agenda.pdf",
+        "date": "2025-07-16",
+        "type": "official_county_planning_agenda",
+        "facts": "Z-2025-036 requested Heavy Industrial zoning for approximately 4,000 acres at approximately 11000 N McCornick Road for Joule Capital Partners LLC."
+      },
+      {
+        "url": "https://millardcounty.gov/wp-content/uploads/2025/08/25-0805.pdf",
+        "date": "2025-08-05",
+        "type": "official_county_commission_agenda",
+        "facts": "County Commission agenda noticed possible adoption of Ordinance 25-08-05 changing approximately 4,000 acres at approximately 11000 N McCornick Road from AG-20/AG to HI."
+      },
+      {
+        "url": "https://millardcounty.gov/wp-content/uploads/2025/10/09032025-Final.pdf",
+        "date": "2025-09-03",
+        "type": "official_county_planning_minutes",
+        "facts": "Planning Commission unanimously recommended approval of C-2 CUP application #Z-2025-048 for data center and electrical generating facility at approximately 11000 N McCornick Road."
+      },
+      {
+        "url": "https://millardcounty.gov/wp-content/uploads/2025/10/25-0916.pdf",
+        "date": "2025-09-16",
+        "type": "official_county_commission_minutes",
+        "facts": "BOCC unanimously approved C-2 CUP amendment #Z-2025-048 for the data center and electrical generating facility."
+      },
+      {
+        "url": "https://www.utah.gov/pmn/files/1434404.pdf",
+        "date": "2026-05-19",
+        "type": "official_county_commission_agenda",
+        "facts": "Agenda noticed Z-2026-026 and Ordinance 26-05-19B for a Joule 24-inch natural gas pipeline project between Holden and McCornick."
+      },
+      {
+        "url": "https://www.utah.gov/pmn/files/1442243.pdf",
+        "date": "2026-05-19",
+        "type": "official_county_commission_minutes",
+        "facts": "Minutes show the Joule pipeline development agreement public hearing occurred, but additional agreement work was needed before approval."
+      },
+      {
+        "url": "https://www.utah.gov/pmn/files/1444799.pdf",
+        "date": "2026-05-26",
+        "type": "government_data_center_inventory",
+        "facts": "Grand County data-center inventory lists Joule HP Compute Campus Phase 1 in Delta/Millard County at 455 MW and UNDER CONST.; full campus listed as 4,000+ MW proposed."
+      },
+      {
+        "url": "https://joulepower.ai/",
+        "date": "2026-08-11",
+        "type": "owner_project_page",
+        "facts": "Joule says the Millard County campus has an executed conditional use permit, heavy industrial zoning in place, on-site behind-the-meter power, and generation equipment on firm order/in production."
+      },
+      {
+        "url": "https://cleanview.co/data-centers/utah/699/high-performance-compute-data-center-campus",
+        "date": "2026-08-11",
+        "type": "industry_tracker",
+        "facts": "Cleanview lists the High Performance Compute Data Center Campus in Millard County as planned, 4,000 MW, 4,000 acres, developed by Joule Capital Partners."
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date_identified": "2026-08-11",
+      "topic": "status / construction tier",
+      "description": "Grand County's compiled inventory lists Joule Phase 1 as UNDER CONST., while the retrieved Millard County primary records prove zoning/CUP approval but do not expose a building permit, site-disturbance approval, CO, utility service, energization, or live-service record. Joule's current page states generation equipment is on firm order and in production, which may be off-site manufacturing rather than on-site construction.",
+      "resolution": "Use status tier approved-permitted; retain the UNDER CONST. claim as a source-specific claim pending Millard building/site-work or energization evidence.",
+      "sources": [
+        "https://www.utah.gov/pmn/files/1444799.pdf",
+        "https://millardcounty.gov/wp-content/uploads/2025/10/25-0916.pdf",
+        "https://joulepower.ai/"
+      ]
+    },
+    {
+      "date_identified": "2026-08-11",
+      "topic": "capacity",
+      "description": "Government inventory distinguishes 455 MW Phase 1 and 4,000+ MW proposed full campus; Cleanview states 4,000 MW planned; Joule's current public page does not provide a total MW figure in accessible text.",
+      "resolution": "Track phase1_mw=455 and full_buildout_mw=4000 separately; do not treat 4,000 MW as energized or currently available capacity.",
+      "sources": [
+        "https://www.utah.gov/pmn/files/1444799.pdf",
+        "https://cleanview.co/data-centers/utah/699/high-performance-compute-data-center-campus",
+        "https://joulepower.ai/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "value": "Utah government inventory lists Phase 1 under construction at 455 MW and the 4,000+ MW full buildout as proposed. Permit and energization records were not located.",
+      "reason": "Superseded after official Millard County zoning/CUP records were located; construction remains unverified by building/site-work/energization records."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "value": null,
+      "reason": "Superseded by phase/full-buildout capacity object because official/tracker sources distinguish 455 MW Phase 1 from 4,000+ MW proposed campus."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "value": null,
+      "reason": "Superseded by Millard County CUP records naming Joule Capital Partners LLC as owner/applicant."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -9,10 +9,12 @@
   "location": {
     "city": "Amarillo",
     "county": "Carson",
-    "state": "Texas"
+    "state": "Texas",
+    "site_detail": "Greenfield Project Matador campus in Carson County, near Amarillo and adjacent to the Pantex Plant; TCEQ public summary describes the site as along US Highway 60 near FM 2373."
   },
   "phase3_stable_id": "US-TX-FERMI-MATADOR-CARSON-2025",
-  "status_as_of_cutoff": "TCEQ air permits issued for the onsite power plant; data-center construction and local land-use/utility approvals remain unverified.",
+  "status_as_of_cutoff": "site work-construction: TCEQ air permits issued for approximately 6 GW of onsite natural-gas generation; City of Amarillo water-supply agreement executed for up to 2.5 MGD; NRC EIS scoping opened for four proposed AP1000 reactors; Fermi/TensorWave announced a binding 222 MW first-phase data-center lease with phased delivery expected in H2 2027. No energized/operational data center verified.",
+  "evidence_grade": "B: official TCEQ, City of Amarillo, Federal Register/NRC, and counterparty/company sources verify permitting, water-service agreement, NRC review, and customer lease; local land-use/building permits and energized status remain unverified.",
   "actions": [
     {
       "id": "A13",
@@ -39,10 +41,57 @@
       "primary_url": "https://records.tceq.texas.gov/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=8281239&dID=9562400",
       "access_caveat": "Official permit record; the PDF's scanned issuance date is difficult to read, while TCEQ metadata identifies the final action date as 2026-02-27.",
       "notes": "Permit authorizes the power plant, not a conclusion that the data-center campus is built or energized."
+    },
+    {
+      "id": "A15",
+      "date": "2025-10-30",
+      "body": "City of Amarillo",
+      "meeting_date": null,
+      "action_type": "water-supply agreement executed",
+      "result_or_status": "City of Amarillo and Fermi executed a water-supply agreement for Fermi's Independence Advanced Energy and Intelligence Campus. The agreement sets a maximum delivery rate of 2.5 million gallons per day, a 20-year term with renewal options, and requires Fermi to design and build the public improvements needed for delivery at its cost.",
+      "vote_tally": null,
+      "case_or_number": "Fermi America Water Supply Agreement signed 2025-10-30",
+      "primary_url": "https://www.amarillo.gov/wp-content/uploads/2025/11/Fermi-America-Water-Supply-Agreement_10302025_accessible.pdf",
+      "access_caveat": "Official city agreement; it supports utility service, not city jurisdiction over land-use approvals because the site is outside Amarillo city limits.",
+      "notes": "City project page states the city has discussed infrastructure and utility services for the Fermi project and that the site is outside city limits."
+    },
+    {
+      "id": "A16",
+      "date": "2026-03-20",
+      "body": "U.S. Nuclear Regulatory Commission / Federal Register",
+      "meeting_date": null,
+      "action_type": "notice of intent for EIS scoping",
+      "result_or_status": "NRC published a notice of intent to conduct scoping and prepare an environmental impact statement for Fermi America's combined-license application for four AP1000 reactors at Project Matador Nuclear Units 1-4 in Carson County.",
+      "vote_tally": null,
+      "case_or_number": "Docket Nos. 05200051-05200054; NRC-2026-0100; FR Doc. 2026-05487",
+      "primary_url": "https://www.govinfo.gov/content/pkg/FR-2026-03-20/pdf/2026-05487.pdf",
+      "access_caveat": "Official federal notice starts environmental review/scoping; it is not a construction or operating license.",
+      "notes": "Notice describes up to 30 million square feet of hyperscale computing space and approximately 11 GW of total energy-generation capacity for the campus, with the proposed AP1000 units providing 4 GW."
+    },
+    {
+      "id": "A17",
+      "date": "2026-08-10",
+      "body": "Fermi Inc. / TensorWave",
+      "meeting_date": null,
+      "action_type": "binding customer lease announced",
+      "result_or_status": "Fermi and TensorWave announced a binding customer lease for a first-phase turnkey data-center facility at Project Matador supported by 222 MW of total facility power, with phased delivery expected to begin in the second half of 2027 and expansion rights for two additional data centers that could bring the partnership above 650 MW.",
+      "vote_tally": null,
+      "case_or_number": "Fermi Campus 1 LLC / TensorWave TEX1 LLC lease announcement",
+      "primary_url": "https://tensorwave.com/blog/fermi-announces-binding-lease-agreement-with-tensorwave",
+      "access_caveat": "Company/counterparty announcement; lease is forward-looking and does not verify current energization or occupancy.",
+      "notes": "Announcement states the first phase represents approximately $6.5 billion in contracted revenue over the initial 15-year term and says obligations are expected to be supported by guaranties/financing."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": {
+    "committed_data_center_facility_power_mw": 222,
+    "committed_data_center_facility_power_as_of": "2026-08-10",
+    "expansion_rights_total_facility_power_mw": "more than 650",
+    "permitted_onsite_gas_generation_mw": 6000,
+    "planned_private_power_mw": 17000,
+    "proposed_nuclear_generation_mw": 4000,
+    "notes": "222 MW is the first binding data-center lease/facility-power figure; 6 GW is TCEQ-permitted onsite gas generation; 17 GW is the developer's current planned private-power campus figure; 4 GW nuclear remains under NRC review and is not licensed."
+  },
+  "owner": "Fermi Inc. (d/b/a Fermi America); first-phase customer lease announced with TensorWave TEX1 LLC",
   "sources": {
     "phase3_stable_id": "US-TX-FERMI-MATADOR-CARSON-2025",
     "phase3_source_file": "phase3/county_tx.json",
@@ -52,9 +101,32 @@
       "US-TX-FERMI-MATADOR-AMARILLO-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.amarillo.gov/fermi-project/",
+      "https://www.amarillo.gov/wp-content/uploads/2025/11/Fermi-America-Water-Supply-Agreement_10302025_accessible.pdf",
+      "https://www.amarillo.gov/wp-content/uploads/2025/11/Non-Binding-MOU-with-Fermi-America_09252025_accessible.pdf",
+      "https://www.govinfo.gov/content/pkg/FR-2026-03-20/pdf/2026-05487.pdf",
+      "https://tensorwave.com/blog/fermi-announces-binding-lease-agreement-with-tensorwave",
+      "https://fermiamerica.com/",
+      "https://abc7amarillo.com/news/local/fermi-america-signs-six-point-five-billion-dollar-lease-for-worlds-largest-data-center-after-months-of-turmoil-tensorwave-amarillo-texas-carson-county-water-city-council-greg-abbott-audir"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "as_of": "2026-08-11",
+      "topic": "campus scale",
+      "details": "Baseline and TCEQ first-permit materials support approximately 6 GW permitted gas generation and earlier 11 GW campus framing, while current company/counterparty and local media sources describe a 17 GW planned private-power campus. Treat 17 GW as planned/developer-stated and 6 GW as currently permitted power-generation evidence."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": "TCEQ air permits issued for the onsite power plant; data-center construction and local land-use/utility approvals remain unverified.",
+      "capacity_mw": null,
+      "owner": null
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

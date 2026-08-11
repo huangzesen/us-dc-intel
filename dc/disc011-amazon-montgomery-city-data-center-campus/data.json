@@ -5,17 +5,46 @@
   "location": {
     "city": "Montgomery City",
     "county": "Montgomery County",
-    "state": "MO"
+    "state": "MO",
+    "site_area": "Project Green / New Florence area, northeast quadrant of the I-70 and Highway 19 interchange; local reporting also references Hudson Road and Ellis Road."
   },
   "capacity_mw": null,
-  "status": "announced/planned",
+  "status": "approved-permitted",
   "confidence": "high",
-  "evidence_date": "2026-06-15",
+  "evidence_date": "2026-08-11",
   "sources": [
+    "https://mcmo.us/amazon/",
+    "https://mcmo.us/wp-content/uploads/2026/02/Infrastructure-Development-and-Funding-Agreement-Project-Green.pdf",
+    "https://mcmo.us/wp-content/uploads/2026/02/NorthPoint-Project-Green-site-plan.pdf",
+    "https://mcmo.us/wp-content/uploads/2026/02/Chapter-100-Bond-Order-Project-Green.pdf",
     "https://governor.mo.gov/press-releases/archive/amazon-investing-10-billion-montgomery-county",
-    "https://www.datacenterdynamics.com/en/news/amazon-commits-10bn-to-data-center-campus-in-montgomery-city-missouri/"
+    "https://www.aboutamazon.com/news/company-news/amazon-data-center-missouri-new-jobs",
+    "https://www.ameren.com/resource-center/amazon",
+    "https://www.datacenterdynamics.com/en/news/amazon-commits-10bn-to-data-center-campus-in-montgomery-city-missouri/",
+    "https://themissouritimes.com/aws-new-facilities-near-new-florence-will-double-tax-revenue-for-montgomery-county/",
+    "https://www.mystandardnews.com/stories/residents-voice-concerns-about-proposed-data-centers%2C146731"
   ],
   "why_not_in_baseline": "Not present in the 208 baseline canonical_project list; separate from baseline Project Spade/New Florence-area Missouri record based on owner and public Amazon announcement.",
+  "contradictions": [
+    "Project naming/location varies by source: Missouri Governor describes a Montgomery City campus, while county materials and industry/local reporting identify Project Green near New Florence at the I-70/Highway 19 interchange.",
+    "No official campus MW capacity was found. Cleanview lists 75 MW for individual AWS Project Green buildings, but this refresh leaves campus capacity_mw null pending official or utility-scale confirmation."
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "changes": {
+        "status": {
+          "from": "announced/planned",
+          "to": "approved-permitted"
+        },
+        "evidence_date": {
+          "from": "2026-06-15",
+          "to": "2026-08-11"
+        },
+        "sources": "Added county project page/document URLs, Amazon owner announcement, Ameren utility note, and local/industry reporting."
+      }
+    }
+  ],
   "discovery_file": "candidates-hyperscaler.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

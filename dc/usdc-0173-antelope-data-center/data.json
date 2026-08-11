@@ -10,7 +10,8 @@
     "state": "UT"
   },
   "phase3_stable_id": "US-UT-ANTELOPE-CEDAR-CITY-2026",
-  "status_as_of_cutoff": "Proposed/under planning in Utah government inventory; no Iron County approval, permit, parcel, or utility record located.",
+  "status_as_of_cutoff": "approved-permitted: Iron County Planning Commission granted the conditional use permit on 2026-06-04 for the 640-acre Antelope Data Center; no building construction, air-quality approval, water-right completion, or energization verified.",
+  "evidence_grade": "A",
   "actions": [
     {
       "date": "2026-05-26",
@@ -23,10 +24,34 @@
       "primary_url": "https://www.utah.gov/pmn/files/1444799.pdf",
       "access_caveat": "Government compiled inventory; capacity is approximate and not a load allocation or permit.",
       "evidence_note": "Body/context retained from prior file: Grand County Planning Commission staff report / Utah public-notice system."
+    },
+    {
+      "date": "2026-03-05",
+      "date_precision": "day",
+      "government_body": "Iron County Planning Commission",
+      "action_type": "conditional use permit public hearing",
+      "result_status": "Public hearing/no action for a proposed master-planned data center campus with five approximately 1.35 million-square-foot buildings and an on-site data-center power plant scalable to 1.5 GW at full buildout on APN E-0825-0000-0000 along Antelope Springs Road.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "APN E-0825-0000-0000",
+      "primary_url": "https://www.utah.gov/pmn/sitemap/noticehistory/295689.html",
+      "access_caveat": "Agenda notice only; no action was taken at this meeting.",
+      "evidence_note": "Official Utah public-notice agenda for Iron County Planning Commission."
+    },
+    {
+      "date": "2026-06-04",
+      "date_precision": "day",
+      "government_body": "Iron County Planning Commission",
+      "action_type": "conditional use permit",
+      "result_status": "Conditional Use Permit granted, as amended, for the 640-acre property after finding compliance with Iron County Land Management Code Section 17.28.050. The motion passed with six ayes and one abstention.",
+      "vote_tally": "6 aye, 0 nay, 1 abstained",
+      "case_or_ordinance_permit_number": "APN E-0825-0000-0000",
+      "primary_url": "https://www.utah.gov/pmn/files/1457855.pdf",
+      "access_caveat": "Approved Planning Commission minutes; CUP approval is not evidence of building permits, construction start, state air approval, secured water rights, or energization.",
+      "evidence_note": "Official approved minutes posted to Utah Public Notice on 2026-07-06."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 1500,
+  "owner": "Pronghorn Development, LLC (developer/applicant; end operator not identified in official county materials)",
   "sources": {
     "phase3_stable_id": "US-UT-ANTELOPE-CEDAR-CITY-2026",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -34,9 +59,45 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://ironcountyut.gov/planning/data-center-projects",
+      "https://www.utah.gov/pmn/sitemap/noticehistory/295689.html",
+      "https://www.utah.gov/pmn/sitemap/notice/1085723.html",
+      "https://www.utah.gov/pmn/files/1457855.pdf",
+      "https://www.utah.gov/pmn/files/1444799.pdf"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "as_of": "2026-08-11",
+      "summary": "Iron County's public data-center information page still describes Antelope as scheduled for June 4 Planning Commission review, while the official Utah Public Notice approved minutes show the CUP was granted on June 4 and minutes were posted July 6.",
+      "sources": [
+        "https://ironcountyut.gov/planning/data-center-projects",
+        "https://www.utah.gov/pmn/files/1457855.pdf"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": "Proposed/under planning in Utah government inventory; no Iron County approval, permit, parcel, or utility record located.",
+      "new_value": "approved-permitted: Iron County Planning Commission granted the conditional use permit on 2026-06-04; no building construction, air-quality approval, water-right completion, or energization verified."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": 1500
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "Pronghorn Development, LLC (developer/applicant; end operator not identified in official county materials)"
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

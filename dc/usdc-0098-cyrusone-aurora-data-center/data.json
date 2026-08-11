@@ -3,25 +3,191 @@
   "canonical_project": "CyrusOne Aurora data center",
   "aliases": [
     "CyrusOne Aurora data center",
-    "CyrusOne Chicago-Aurora expansion"
+    "CyrusOne Chicago-Aurora expansion",
+    "CyrusOne Aurora III",
+    "CyrusOne CHI3 - Aurora Campus",
+    "CyrusOne 2725 Bilter Road data center campus",
+    "C1 Chicago Aurora III LLC / 2725 Bilter Road"
   ],
   "location": {
     "city": "Aurora",
-    "county": "Kane",
-    "state": "Illinois"
+    "county": "DuPage",
+    "state": "Illinois",
+    "address": "2725 Bilter Road, Aurora, Illinois 60502",
+    "location_note": "Expansion campus site is south of Bilter Road, west of Eola Road, and north of Interstate 88; prior seed county was Kane, but public records for 2725 Bilter Road place the site in DuPage County."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A",
+  "actions": [
+    {
+      "date": "2024-06-11",
+      "government_body": "City of Aurora City Council",
+      "action_type": "PDD amendment, conditional use, and preliminary plan/plat approvals",
+      "result_status": "approved",
+      "notes": "Approved 2725 Bilter Road data center campus entitlements for C1 Chicago Aurora III LLC, including a data-center-only warehouse/distribution/storage use, telecommunications facilities, and preliminary plan/plat.",
+      "source_url": "https://aurora-il.legistar.com/MeetingDetail.aspx?GUID=709C90A0-890D-4BB5-A4E5-C6E4B6DDCFC7&ID=1127588&Options=info%7C&Search="
+    },
+    {
+      "date": "2024-07-16",
+      "government_body": "City of Aurora Committee of the Whole",
+      "action_type": "final plan approval",
+      "result_status": "final/appealable",
+      "notes": "Final plan approved for Lots 1-5 of Butterfield Phase II Subdivision, Unit 5B at 2725 Bilter Road for a data center campus. City staff described three construction phases: a 411,175 sq ft first building with generator yards and two towers; a utility substation; and a future approximately 153,000 sq ft building.",
+      "source_url": "https://aurora-il.legistar.com/LegislationDetail.aspx?FullText=1&GUID=1417FF27-336E-467B-B82E-04ACD7974169&ID=6780393&Options=&Search="
+    },
+    {
+      "date": "2024-10-02",
+      "government_body": "State of Illinois / CyrusOne",
+      "action_type": "groundbreaking",
+      "result_status": "construction started",
+      "notes": "Governor's office and CyrusOne reported a groundbreaking for a new Aurora campus with two buildings totaling 446,000 sq ft; CyrusOne reported 40 MW initial IT capacity.",
+      "source_url": "https://www.cyrusone.com/resources/press-releases/cyrusone-breaks-ground-on-new-data-center-in-aurora"
+    },
+    {
+      "date": "2026-03-10",
+      "government_body": "City of Aurora City Council",
+      "action_type": "stormwater special service area establishment",
+      "result_status": "passed",
+      "notes": "City established dormant SSA 228 for stormwater management at 2725 Bilter Road; staff described the SSA as a prerequisite for stormwater permit issuance.",
+      "source_url": "https://aurora-il.legistar.com/LegislationDetail.aspx?GUID=68A6335D-3275-4C93-93E4-8F7165457419&ID=7942247&Options=&Search="
+    }
+  ],
+  "capacity_mw": 40,
+  "capacity_note": "40 MW is the initial IT capacity publicly announced for the 2024 2725 Bilter Road expansion campus. CyrusOne separately advertises 109 MW for the existing Aurora CHI1-CHI3 campus; that is not used as this expansion record's capacity.",
+  "owner": "CyrusOne; land-use applicant/entity: C1 Chicago Aurora III LLC",
   "sources": {
     "phase2_seed_stable_id": "US-IL-CYRUSONE-AURORA-2024",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
     "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "match_reason": "No detailed match; retained separately",
+    "urls": [
+      {
+        "url": "https://aurora-il.legistar.com/LegislationDetail.aspx?GUID=A46F56D7-1133-43F0-A55E-F48A85E88FA5&ID=6709490&Options=&Search=",
+        "title": "City of Aurora File 24-0384 - PDD Revision for 2725 Bilter Road",
+        "date": "2024-06-11",
+        "facts_supported": [
+          "C1 Chicago Aurora III LLC",
+          "2725 Bilter Road",
+          "32.08 acres",
+          "data-center-only use approved"
+        ]
+      },
+      {
+        "url": "https://aurora-il.legistar.com/LegislationDetail.aspx?GUID=3C9A7735-3DBC-4277-B608-268EBC8C6375&ID=6709491&Options=&Search=",
+        "title": "City of Aurora File 24-0385 - Conditional Use for Telecommunications Facility",
+        "date": "2024-06-11",
+        "facts_supported": [
+          "2725 Bilter Road",
+          "two telecommunications towers",
+          "support for data center campus"
+        ]
+      },
+      {
+        "url": "https://aurora-il.legistar.com/LegislationDetail.aspx?FullText=1&GUID=1417FF27-336E-467B-B82E-04ACD7974169&ID=6780393&Options=&Search=",
+        "title": "City of Aurora File 24-0479 - Final Plan for 2725 Bilter Road",
+        "date": "2024-07-16",
+        "facts_supported": [
+          "final plan final/appealable",
+          "approximately 32 acres",
+          "411175 sq ft first phase",
+          "future approximately 153000 sq ft building",
+          "utility substation phase"
+        ]
+      },
+      {
+        "url": "https://www.cyrusone.com/resources/press-releases/cyrusone-breaks-ground-on-new-data-center-in-aurora",
+        "title": "CyrusOne Breaks Ground on New Data Center in Aurora",
+        "date": "2024-10-02",
+        "facts_supported": [
+          "groundbreaking",
+          "two buildings",
+          "446000 sq ft",
+          "40 MW initial IT capacity",
+          "CyrusOne owner/developer"
+        ]
+      },
+      {
+        "url": "https://gov-pritzker-newsroom.prezly.com/gov-pritzker-celebrates-new-cyrusone-data-center-groundbreaking",
+        "title": "Gov. Pritzker Celebrates New CyrusOne Data Center Groundbreaking",
+        "date": "2024-10-02",
+        "facts_supported": [
+          "groundbreaking",
+          "350 million investment",
+          "two buildings totaling 446000 sq ft",
+          "early 2026 target opening",
+          "DCEO data center investment program approval"
+        ]
+      },
+      {
+        "url": "https://aurora-il.legistar.com/LegislationDetail.aspx?GUID=68A6335D-3275-4C93-93E4-8F7165457419&ID=7942247&Options=&Search=",
+        "title": "City of Aurora File 25-1056 - SSA 228 Cyrus One",
+        "date": "2026-03-10",
+        "facts_supported": [
+          "2725 Bilter Road",
+          "stormwater management SSA passed",
+          "stormwater permit prerequisite"
+        ]
+      },
+      {
+        "url": "https://aurora-il.legistar.com/View.ashx?GUID=D3F8478C-AC40-4016-93F9-694F4E2644FF&ID=15298352&M=F",
+        "title": "City of Aurora SSA 228 Affidavit of Service",
+        "date": "2025-10-28",
+        "facts_supported": [
+          "2725 Bilter Road",
+          "DuPage County",
+          "PIN 07-06-401-013"
+        ]
+      },
+      {
+        "url": "https://www.cyrusone.com/data-centers/north-america/aurora-il",
+        "title": "CyrusOne Aurora, IL: CHI1-CHI3 campus page",
+        "date": "2026-08-11",
+        "facts_supported": [
+          "existing Aurora campus scope",
+          "450000 sq ft technical IT space",
+          "109 MW total IT capacity"
+        ]
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "location.county",
+      "old_value": "Kane",
+      "new_value": "DuPage",
+      "assessment": "Corrected for the 2725 Bilter Road expansion campus. The prior seed county appears unsupported for this site; City/FCC-adjacent public records identify 2725 Bilter Road as DuPage County.",
+      "source_urls": [
+        "https://aurora-il.legistar.com/View.ashx?GUID=D3F8478C-AC40-4016-93F9-694F4E2644FF&ID=15298352&M=F"
+      ]
+    },
+    {
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": 40,
+      "assessment": "No direct conflict after scoping: 40 MW is the initial capacity for the 2725 Bilter Road expansion, while 109 MW is CyrusOne's advertised total for the existing Aurora CHI1-CHI3 campus.",
+      "source_urls": [
+        "https://www.cyrusone.com/resources/press-releases/cyrusone-breaks-ground-on-new-data-center-in-aurora",
+        "https://www.cyrusone.com/data-centers/north-america/aurora-il"
+      ]
+    }
+  ],
   "seed_only": true,
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": null,
+      "capacity_mw": null,
+      "owner": null,
+      "location": {
+        "city": "Aurora",
+        "county": "Kane",
+        "state": "Illinois"
+      },
+      "note": "Seed-only baseline before first independent refresh."
+    }
+  ],
+  "last_refreshed": "2026-08-11",
+  "verified": true,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

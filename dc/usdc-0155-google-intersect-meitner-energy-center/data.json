@@ -4,18 +4,76 @@
   "aliases": [
     "Google Intersect Texas",
     "Google/Intersect Meitner Energy Center",
-    "Meitner data center project"
+    "Meitner data center project",
+    "Project Pumpkin 1A",
+    "Project Pumpkin 2A",
+    "Project Pumpkin 3A"
   ],
   "location": {
-    "city": "not published",
+    "city": "Miami postal area / Pampa region",
     "county": "Gray; Roberts",
-    "state": "Texas"
+    "state": "Texas",
+    "address": "8810, 8830, and 8850 Co. Rd. 21 / Co. Rd 21, Miami, TX 79059 (TDLR building registrations)"
   },
   "phase3_stable_id": "US-TX-GOOGLE-MEITNER-GRAY-ROBERTS-2026",
-  "status_as_of_cutoff": "Company announcement / energy-center proposal; no county or state data-center approval located.",
-  "actions": [],
+  "status_as_of_cutoff": "Site work-construction evidence: Google/Intersect announced construction of the Meitner Energy Center on 2026-06-04, and Texas TDLR records registered three privately funded new-construction data-center buildings on Co. Rd. 21. No county zoning vote, county building permit, utility service record, or energization record was located in this refresh.",
+  "evidence_grade": "B - official company announcement plus Texas state TDLR construction registrations; local land-use/utility approvals not located.",
+  "actions": [
+    {
+      "id": "A1",
+      "date": "2026-02-08",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Project Pumpkin 2A / Data Center Building 2A at 8830 Co. Rd 21, Miami, TX 79059; new construction, privately funded, 761,000 square feet, estimated cost $400,000,000, planned 2026-02-06 to 2027-12-14; current status Project Registered.",
+      "vote_tally": null,
+      "case_or_number": "TABS2026011989",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026011989",
+      "access_caveat": "TABS registration is an accessibility/construction registration, not a county zoning approval, county building permit, utility service approval, or proof of energization.",
+      "notes": "Owner listed as IP Meitner Land LLC; design firm HDR Engineering Inc.; TDLR lists Location County as Gray."
+    },
+    {
+      "id": "A2",
+      "date": "2026-03-12",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Project Pumpkin 1A / Data Center Building 1A at 8810 Co. Rd. 21, Miami, TX 79059; new construction, privately funded, 761,000 square feet, estimated cost $400,000,000, planned 2025-12-19 to 2027-11-30; current status Review Complete.",
+      "vote_tally": null,
+      "case_or_number": "TABS2026014814",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026014814",
+      "access_caveat": "TABS registration is an accessibility/construction registration, not a county zoning approval, county building permit, utility service approval, or proof of energization.",
+      "notes": "Owner listed as IP Meitner Land LLC; design firm HDR Engineering Inc.; TDLR lists Location County as Gray."
+    },
+    {
+      "id": "A3",
+      "date": "2026-03-12",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Project Pumpkin 3A / Data Center Building 3A at 8850 Co. Rd. 21, Miami, TX 79059; new construction, privately funded, 761,000 square feet, estimated cost $400,000,000, planned 2026-03-09 to 2028-04-18; current status Project Registered.",
+      "vote_tally": null,
+      "case_or_number": "TABS2026014835",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026014835",
+      "access_caveat": "TABS registration is an accessibility/construction registration, not a county zoning approval, county building permit, utility service approval, or proof of energization.",
+      "notes": "Owner listed as IP Meitner Land LLC; design firm HDR Engineering Inc.; TDLR lists Location County as Gray."
+    },
+    {
+      "id": "A4",
+      "date": "2026-06-04",
+      "body": "Google / Intersect",
+      "meeting_date": null,
+      "action_type": "company construction announcement",
+      "result_or_status": "Google and Intersect announced construction of the Meitner Energy Center, including a Google data center co-located with new energy generation in Gray and Roberts Counties, Texas; the project is paired with more than a gigawatt of wind, solar, and battery storage, with a minority share of demand met by firming on-site gas.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://www.intersect.com/news/google-and-intersect-deepen-texas-roots-with-new-data-center-and-energy-investments-in-gray-and-roberts-counties",
+      "access_caveat": "Company announcement, not a county permit, utility interconnection approval, or energization record.",
+      "notes": "Google's parallel blog post and PDF press release repeat the construction announcement and air-cooling claim."
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google (announced data center); IP Meitner Land LLC (TDLR owner of registered buildings); Intersect (energy co-location partner)",
   "sources": {
     "phase3_stable_id": "US-TX-GOOGLE-MEITNER-GRAY-ROBERTS-2026",
     "phase3_source_file": "phase3/county_tx.json",
@@ -25,9 +83,27 @@
       "US-TX-GOOGLE-MEITNER-2026"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_urls": [
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026011989",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026014814",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026014835",
+      "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/meitner-energy-center/",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/documents/Google_Intersect_Texas_Announcement_-_June_2026.pdf",
+      "https://www.intersect.com/news/google-and-intersect-deepen-texas-roots-with-new-data-center-and-energy-investments-in-gray-and-roberts-counties",
+      "https://www.co.roberts.tx.us/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "County/city geography",
+      "details": "TDLR records list Co. Rd. 21 Miami, TX 79059 addresses with Location County = Gray, while Roberts County's official site places its courthouse in Miami, TX 79059 and Google/Intersect describe a Gray and Roberts Counties project. Treat exact parcel/county split as unresolved until county parcel, tax, or site-plan records are located."
+    },
+    {
+      "topic": "Capacity",
+      "details": "Google/Intersect disclose more than one gigawatt of co-located wind, solar, and battery storage, but no official IT load or data-center capacity_mw was found; third-party MW claims were not adopted."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

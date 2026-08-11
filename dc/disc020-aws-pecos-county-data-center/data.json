@@ -3,18 +3,87 @@
   "canonical_project": "AWS Pecos County Data Center",
   "owner": "Amazon Data Services / AWS",
   "location": {
-    "city": "Fort Stockton area",
+    "city": "Fort Stockton",
     "county": "Pecos",
-    "state": "Texas"
+    "state": "Texas",
+    "address": "6000 TX-18, Fort Stockton, TX 79735"
   },
   "capacity_mw": null,
-  "status": "TDLR filed; construction listed for August-December 2026",
+  "status": "local process - TDLR TABS project registered for Buildings A-C; listed construction schedule 2026-08-01 to 2026-12-01; no official site-work or energized evidence found",
   "confidence": "high",
-  "evidence_date": "2026-08-07",
+  "evidence_date": "2026-08-11",
   "sources": [
+    "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026026954",
+    "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026026955",
+    "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026026959",
+    "https://records.tceq.texas.gov/cs/idcplg?IdcService=TCEQ_APD_SEARCH_GET_FILE&SearchID=15228583&searchType=External&xAPDParent=8069891",
+    "https://www.pacificoenergy.com/gw-ranch",
+    "https://newsletter.cleanview.co/p/scoop-amazon-is-behind-one-of-the",
     "https://www.datacenterdynamics.com/en/news/amazon-files-to-develop-two-new-data-center-campuses-in-texas/"
   ],
   "why_not_in_baseline": "Very recent AWS filing for a West Texas county-seat market; baseline did not include AWS Pecos County/Fort Stockton.",
+  "facility_facts": {
+    "tdlr_projects": [
+      {
+        "project_number": "TABS2026026954",
+        "facility_name": "Building A",
+        "registration_date": "2026-08-04",
+        "status": "Project Registered",
+        "estimated_cost_usd": 300000000,
+        "square_feet": 189060,
+        "scope": "New data center building"
+      },
+      {
+        "project_number": "TABS2026026955",
+        "facility_name": "Building B",
+        "registration_date": "2026-08-04",
+        "status": "Project Registered",
+        "estimated_cost_usd": 300000000,
+        "square_feet": 189060,
+        "scope": "New data center building"
+      },
+      {
+        "project_number": "TABS2026026959",
+        "facility_name": "Building C",
+        "registration_date": "2026-08-04",
+        "status": "Project Registered",
+        "estimated_cost_usd": 300000000,
+        "square_feet": 189060,
+        "scope": "New data center building"
+      }
+    ],
+    "total_known_buildings": 3,
+    "total_known_square_feet": 567180,
+    "total_known_estimated_cost_usd": 900000000,
+    "listed_start_date": "2026-08-01",
+    "listed_completion_date": "2026-12-01",
+    "design_firm": "M. Arthur Gensler & Associates, Inc."
+  },
+  "related_infrastructure": {
+    "name": "GW Ranch Energy Center",
+    "developer": "Pacifico GW LLC / Pacifico Energy",
+    "relationship_to_project": "TCEQ record says the plant will provide electricity for an on-site AI data center; Cleanview reports Amazon confirmed it acquired the GW Ranch site and plans to buy power from the plant.",
+    "location_note": "Highway 18 approximately 17 miles north of Fort Stockton, Pecos County",
+    "power_capacity_mw": {
+      "nominal_output_mw": 5000,
+      "gross_gas_nameplate_mw": 7650,
+      "battery_storage_mw": 1800,
+      "solar_mw_ac": 750
+    },
+    "first_power_target": "Q1 2027"
+  },
+  "contradictions": [
+    "No direct official Amazon press release was found in this refresh; Amazon/GW Ranch linkage is supported by TDLR owner filings plus Cleanview's reported Amazon confirmation.",
+    "GW Ranch power capacity is not data center IT load: TCEQ describes nominal plant output as 5,000 MW, while Pacifico/Cleanview cite up to 7.65 GW gas nameplate capacity."
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "change": "Replaced single secondary-source status with TDLR project registration facts for Buildings A-C and separated GW Ranch power-campus figures from unknown data center capacity.",
+      "previous_status": "TDLR filed; construction listed for August-December 2026",
+      "previous_capacity_mw": null
+    }
+  ],
   "discovery_file": "candidates-secondary-markets.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

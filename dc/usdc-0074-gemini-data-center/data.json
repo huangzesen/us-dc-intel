@@ -10,11 +10,27 @@
   "location": {
     "city": "Sioux Falls",
     "county": "Minnehaha County",
-    "state": "SD"
+    "state": "SD",
+    "general_location": "South of E. Rice St. and east of Veterans Pkwy",
+    "legal_or_site_name": "Gemini Addition; Tract 2, NSP 2nd Addition, Section 31-T102N-R48W",
+    "acreage": 164
   },
   "phase3_stable_id": "SD-SIOUX-FALLS-GEMINI",
-  "status_as_of_cutoff": "Sioux Falls officially approved Gemini's rezoning and amended preliminary plan on 2026-01-06. The official minutes show the preliminary-plan motion initially failed 3–4, a water-meter condition amendment passed 4–3, and Resolution 4-26 passed 7–0; the rezoning action was also recorded 7–0. A later local report says a referendum petition was rejected. No building permit, groundbreaking, construction, inspection, CO, utility/interconnection, energization, commissioning, or live-service evidence was located.",
+  "status_as_of_cutoff": "approved-permitted at land-use/preliminary-plan level as of 2026-08-11: Sioux Falls officially approved Gemini's rezoning and amended preliminary plan on 2026-01-06. The official minutes show the preliminary-plan motion initially failed 3-4, a water-meter condition amendment passed 4-3, and Resolution 4-26 passed 7-0; the rezoning action was also recorded 7-0. A later local report says a referendum petition was rejected. The public city permit export checked on 2026-08-11 did not show a Gemini/Data Center/6900 E Rice project building permit; no groundbreaking, construction, inspection, CO, executed utility agreement/interconnection approval, energization, commissioning, or live-service evidence was located.",
+  "evidence_grade": "B+: official Sioux Falls planning/council records confirm owner/applicant, location, 164-acre preliminary plan, rezoning, and water/setback conditions; developer and local reporting support the 500 MW planning capacity and Xcel process; no building permit or construction/energization evidence found in the public city permit export.",
   "actions": [
+    {
+      "date": "2025-08-06",
+      "date_precision": "day",
+      "government_body": "Sioux Falls City Council",
+      "action_type": "growth-area / annexation-process prerequisite",
+      "result_status": "City Council approved moving the property from Tier III to Tier I growth area for annexation planning, described by local reporting as the first city-approval step before annexation and rezoning.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://amv.siouxfalls.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?doctype=1&id=4090",
+      "access_caveat": "Official OnBase meeting page confirms the meeting record; full PDF extraction was not available through the searched route, so the action description is also supported by contemporaneous local reporting.",
+      "evidence_note": "Preliminary land-use process step, not final rezoning, building permit, or construction evidence."
+    },
     {
       "date": "2025-12-02",
       "date_precision": "day",
@@ -50,10 +66,23 @@
       "primary_url": "https://siouxfalls.business/data-center-opponents-fail-at-effort-to-put-rezoning-decision-to-public-vote/",
       "access_caveat": "Secondary report; no referendum vote is inferred.",
       "evidence_note": "Post-approval legal/procedural context, not construction evidence."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "City of Sioux Falls Building Services",
+      "action_type": "public permit export check",
+      "result_status": "Public ArcGIS building-permit CSV search returned no matching Gemini Data Center, Data Center, or 6900 E Rice St building permit rows; unrelated results on N Gemini Dr and other Rice St addresses were excluded.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://hub.arcgis.com/api/v3/datasets/73b11d64ccc44fdd84d4ac7446676813_3/downloads/data?format=csv&spatialRefId=32164&where=1%3D1",
+      "access_caveat": "Negative evidence from public export only; private submissions or records outside the export may exist.",
+      "evidence_note": "Supports no public building-permit/construction-status upgrade as of refresh date."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 500,
+  "capacity_note": "Planning/site-support figure, not verified energized IT load. SiouxFalls.Business reported on 2025-08-07 that the site could support a 500 MW power load; on 2026-01-19 it reported Gemini/Xcel had determined the site can support a 500 MW data center with on-site substation and Xcel infrastructure upgrades at Gemini cost. Developer site describes a fully built 500 MW campus.",
+  "owner": "Gemini Data Center SD, LLC (Michael Anvar listed as owner/applicant in Sioux Falls Planning Commission staff report; developer says Gemini plans/entitles/develops the technology park and future end users would operate individual buildings)",
   "sources": {
     "phase3_stable_id": "SD-SIOUX-FALLS-GEMINI",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -61,9 +90,49 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11_urls": [
+      "https://amv.siouxfalls.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?doctype=1&id=4090",
+      "https://amv.siouxfalls.gov/OnBaseAgendaOnline/Documents/DownloadFileBytes/SUB-P-022062-2025%20-%20Gemini%20Addition%20-%20Rice%20_%20Veterans%20%28Data%20Center%29.pdf.pdf?documentType=1&isAttachment=True&isSection=False&itemId=192696&meetingId=4175&publishId=155952",
+      "https://amv.siouxfalls.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?doctype=2&id=4182",
+      "https://hub.arcgis.com/api/v3/datasets/73b11d64ccc44fdd84d4ac7446676813_3/downloads/data?format=csv&spatialRefId=32164&where=1%3D1",
+      "https://www.sftechpark.com/",
+      "https://siouxfalls.business/hyperscale-data-center-seeking-city-approvals-to-build-northeast-of-sioux-falls/",
+      "https://siouxfalls.business/sioux-falls-data-center-developers-detail-next-steps/",
+      "https://www.sdnewswatch.org/gemini-data-center-power-usage-sioux-falls-sd-ai-electricty/",
+      "https://sdlegislature.gov/Session/Bill/26317/291571"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "site_acreage",
+      "description": "Sources alternate between about 160 acres and 164 acres. The official Sioux Falls Planning Commission staff report states 164 acres, so data.json uses 164 and treats 160 as rounded media language.",
+      "sources": [
+        "https://amv.siouxfalls.gov/OnBaseAgendaOnline/Documents/DownloadFileBytes/SUB-P-022062-2025%20-%20Gemini%20Addition%20-%20Rice%20_%20Veterans%20%28Data%20Center%29.pdf.pdf?documentType=1&isAttachment=True&isSection=False&itemId=192696&meetingId=4175&publishId=155952",
+        "https://siouxfalls.business/hyperscale-data-center-seeking-city-approvals-to-build-northeast-of-sioux-falls/",
+        "https://www.sdnewswatch.org/gemini-data-center-power-usage-sioux-falls-sd-ai-electricty/"
+      ]
+    },
+    {
+      "field": "capacity_mw",
+      "description": "500 MW is consistently reported as site-support/planning capacity, but no official building permit, utility service agreement, energization record, or tenant commitment was found to verify actual operating load.",
+      "sources": [
+        "https://www.sftechpark.com/",
+        "https://siouxfalls.business/sioux-falls-data-center-developers-detail-next-steps/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "changes": [
+        "capacity_mw changed from null to 500 as planning/site-support capacity with caveat",
+        "owner changed from null to Gemini Data Center SD, LLC",
+        "status text updated from January 2026 approval narrative to 2026-08-11 refreshed land-use approval plus negative permit/construction evidence",
+        "location details expanded with official general location, legal/site name, and 164-acre figure"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

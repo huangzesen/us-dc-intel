@@ -8,11 +8,38 @@
   "location": {
     "city": "Millinocket",
     "county": "Penobscot County",
-    "state": "ME"
+    "state": "ME",
+    "site": "former Great Northern Paper mill / One North mill site",
+    "parcel_detail": "13-acre parcel within the roughly 1,400-acre former mill site"
   },
   "phase3_stable_id": "US-ME-NAUTILUS-MILLINOCKET-2025",
-  "status_as_of_cutoff": "Canceled. The site redevelopment manager and trade reporting said Nautilus canceled the planned project; no current permit, construction, energized load, or commissioning record was found.",
+  "status_as_of_cutoff": "Canceled. Refreshed 2026-08-11: Nautilus and site owner Our Katahdin announced a 99-year lease and a planned 13-acre, 60 MW Millinocket data center in 2021; Millinocket council packets show local follow-up later in 2021, but 2025 local and trade reporting say the project was canceled/stopped and no current public permit, construction, energized-load, or commissioning record was found.",
+  "evidence_grade": "B: primary company/site-owner announcement and local-government council packets verify the former plan; cancellation is corroborated by Bangor Daily News and Data Center Dynamics quoting the site redevelopment manager, but no owner-filed cancellation notice or current permit record was located.",
   "actions": [
+    {
+      "date": "2021-06-05",
+      "date_precision": "day",
+      "government_body": "Not a government action; Nautilus Data Technologies and site owner Our Katahdin announcement",
+      "action_type": "project announcement / lease",
+      "result_status": "Nautilus and Our Katahdin announced a 99-year lease for a 13-acre, 60 MW planned data center at the former Great Northern Paper mill site, with engineering, permitting, site development, and financing to begin.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://nautilusdt.com/press-release/nautilus-data-technologies-to-develop-the-first-sustainable-digital-infrastructure-in-a-qualified-opportunity-zone/",
+      "access_caveat": "Company/site-owner announcement; not evidence of final permit approval, construction completion, energization, or current operation.",
+      "evidence_note": "Primary source for proposed developer, planned capacity, site acreage, lease, and late-2022 target; superseded by later cancellation reporting."
+    },
+    {
+      "date": "2021-11-22",
+      "date_precision": "day",
+      "government_body": "Town of Millinocket Town Council packet",
+      "action_type": "local process update",
+      "result_status": "Council packet included a Nautilus Data Center update indicating Our Katahdin was still working to secure facility rights/easements from Brookfield.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://millinocket.org/wp-content/uploads/2021/11/11-22-2021-TentAgenda-Regular-Meeting.pdf",
+      "access_caveat": "Council packet / agenda material; no approval vote or issued permit was identified in this refresh.",
+      "evidence_note": "Official local-government evidence of pre-cancellation local process, not construction or permit approval."
+    },
     {
       "date": "2025-04-09",
       "date_precision": "day",
@@ -38,8 +65,9 @@
       "evidence_note": "Independent reporting corroborates cancellation; not an approval or construction action."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 60,
+  "capacity_mw_basis": "planned critical IT load from 2021 Nautilus/Our Katahdin announcement and 2025 cancellation reporting; canceled project, not operating or energized capacity",
+  "owner": "Nautilus Data Technologies (proposed developer/operator); Our Katahdin / One North controlled the former mill site",
   "sources": {
     "phase3_stable_id": "US-ME-NAUTILUS-MILLINOCKET-2025",
     "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
@@ -47,9 +75,41 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://nautilusdt.com/press-release/nautilus-data-technologies-to-develop-the-first-sustainable-digital-infrastructure-in-a-qualified-opportunity-zone/",
+      "https://www.ourkatahdin.com/data-center-to-locate-at-former-mill-site-in-millinocket/",
+      "https://millinocket.org/wp-content/uploads/2021/11/11-22-2021-TentAgenda-Regular-Meeting.pdf",
+      "https://www.bangordailynews.com/2025/04/09/mainefocus/mainefocus-business/300m-data-center-former-millinocket-paper-mill-canceled/",
+      "https://www.datacenterdynamics.com/en/news/nautilus-cancels-flagship-maine-data-center/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "description": "60 MW is a planned/canceled critical IT load claim from announcement and reporting. No utility interconnection, energized-load, commissioning, or operating-capacity source was found, so do not treat it as live capacity."
+    },
+    {
+      "field": "cancellation_source",
+      "description": "Cancellation was reported by Bangor Daily News and DCD based on the site redevelopment manager; Nautilus did not publish an owner cancellation notice and reportedly did not respond to media requests."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": 60,
+      "reason": "Primary/company announcement and independent cancellation reporting both identify the planned project as 60 MW; retained with capacity_mw_basis caveat because the project is canceled and no energized capacity was verified."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "Nautilus Data Technologies (proposed developer/operator); Our Katahdin / One North controlled the former mill site",
+      "reason": "Nautilus press release and Our Katahdin announcement identify Nautilus as project developer and Our Katahdin as site owner/lessor."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -10,35 +10,85 @@
     "state": "IL"
   },
   "phase3_stable_id": "IL-MORRIS-TRACT-TECHPARK",
-  "status_as_of_cutoff": "Announced/entitled as described by Tract and the City; no construction or building-permit evidence was located.",
+  "status_as_of_cutoff": "Local process/entitled: City of Morris has posted executed August 18, 2025 annexation, redevelopment/financing, and utility/service ordinances for the Morris data-center project, and Tract says the site is fully zoned and entitled for a planned 1GW campus. No building permit, final site-plan approval, energized load, or construction-start record was located in this refresh; Tract/City materials describe additional site planning and building permitting as still required before building construction.",
+  "evidence_grade": "B",
   "actions": [
     {
-      "date": null,
-      "date_precision": "undated_web_page",
+      "date": "2025-08-18",
+      "date_precision": "day_from_official_pdf_filename",
       "government_body": "City of Morris",
-      "action_type": "official project-resource page",
-      "result_status": "The City maintains a Morris data-center resource page linking project materials and listing Ordinances 4690, 4691, and 4692. The accessible page does not expose enactment dates or enough text to assign each ordinance's subject/result to the campus without inference.",
+      "action_type": "annexation agreement ordinance",
+      "result_status": "Official City resource page links fully executed Ordinance 4690, titled as the first amendment to an annexation agreement for Parcels A, B, and C at Route 6 west of Brisbin Road; search-exposed text identifies Parcel A east of Gun Club Road in Morris. The PDF is image-based, so vote/result details beyond the official title were not reconstructed.",
       "vote_tally": null,
-      "case_or_ordinance_permit_number": "Ordinances 4690, 4691, 4692 (subjects not assigned here)",
+      "case_or_ordinance_permit_number": "Ordinance 4690",
+      "primary_url": "https://morrisil.org/wp-content/uploads/Ord-4690-2025.08.18-First-Amend-Annexation-Agrrement-Parcels-A-B-C-RT6-W-of-Brisbin-Road-FULLY-EXECUTED.pdf",
+      "access_caveat": "Official PDF is image-based in accessible extraction; date and subject are taken from the City-hosted file title/search snippet.",
+      "evidence_note": "Supports local entitlement/agreement status, not building-permit issuance or construction."
+    },
+    {
+      "date": "2025-08-18",
+      "date_precision": "day_from_official_pdf_filename",
+      "government_body": "City of Morris",
+      "action_type": "redevelopment agreement and financing ordinance",
+      "result_status": "Official City resource page links fully executed/recorded Ordinance 4691, titled as the first amendment to a redevelopment agreement and financing of property for 384 acres; search-exposed text refers to Tract as contract purchaser of roughly 344 acres east of Gun Club Road.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Ordinance 4691",
+      "primary_url": "https://morrisil.org/wp-content/uploads/Ord-4691-2025.08.18-First-Amendment-Redevelopment-Agreement-and-Financing-of-Property-384-Acres-Fully-Executed-Recorded.pdf",
+      "access_caveat": "Official PDF is image-based in accessible extraction; date and subject are taken from the City-hosted file title/search snippet.",
+      "evidence_note": "Supports local redevelopment/financing agreement status, not building-permit issuance or construction."
+    },
+    {
+      "date": "2025-08-18",
+      "date_precision": "day_from_official_pdf_filename",
+      "government_body": "City of Morris",
+      "action_type": "utility infrastructure and service agreement ordinance",
+      "result_status": "Official City resource page links fully executed Ordinance 4692 for a Utility Infrastructure and Service Agreement involving ILLCO/Tract; search-exposed text places the property southeast of Route 6 and Gun Club Road in Morris.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Ordinance 4692",
+      "primary_url": "https://morrisil.org/wp-content/uploads/Ord-4692-2025.08.18-Utility-infrastructure-and-Service-Agreement-ILLCO-TRACT-Fully-Executed.pdf",
+      "access_caveat": "Official PDF is image-based in accessible extraction; date and subject are taken from the City-hosted file title/search snippet.",
+      "evidence_note": "Supports municipal utility/service agreement status, not building-permit issuance or construction."
+    },
+    {
+      "date": "2026-01-15",
+      "date_precision": "day",
+      "government_body": "City of Morris / Tract (posted project materials)",
+      "action_type": "official project-resource page and FAQ",
+      "result_status": "The City maintains a data-center resource page for the proposed Morris Data Center. The City-posted FAQ describes a future 340-acre project bordered by Route 6 on the north, Gun Club Road to the west, and a ComEd transmission corridor to the east, and says detailed site plans must be reviewed and approved by the Development Review Committee before construction or building permits.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
       "primary_url": "https://morrisil.org/data-center-resources/",
-      "access_caveat": "Official resource page; ordinance links/metadata were not sufficiently exposed in the accessible extraction, so no ordinance result or vote is reconstructed.",
-      "evidence_note": "Preserves the existence of the official record hub without converting 'fully zoned/entitled' into a reconstructed vote."
+      "access_caveat": "FAQ is a Tract letterhead document posted by the City; no permit database record was located.",
+      "evidence_note": "Confirms location and pre-permit sequencing; keeps the project below construction status."
     },
     {
       "date": "2026-01-15",
       "date_precision": "day",
       "government_body": "Tract / ComEd (not a government action)",
       "action_type": "land acquisition and campus announcement",
-      "result_status": "Tract announced acquisition of 343 acres, a planned 1GW campus, and a ComEd Transmission Security Agreement; these are company statements and do not establish a local permit or construction start.",
+      "result_status": "Tract announced acquisition of a 343-acre Morris land parcel, a planned 2.9 million-square-foot/1GW campus, an executed ComEd Transmission Security Agreement, initial energization targeted for June 2028, and full 1GW load ramp targeted by 2032; these are company/projected statements and do not establish a building permit or construction start.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.tract.com/news/tract-enters-greater-chicago-market-with-the-acquisition-of-343-acres-to-be-developed-as-a-1gw-data-center-campus-known-as-the-morris-technology-park/",
       "access_caveat": "Company announcement; city resource page does not by itself validate every company-described entitlement.",
-      "evidence_note": "Capacity, acreage, and claimed utility agreement only."
+      "evidence_note": "Capacity, acreage, square footage, and projected power schedule only."
+    },
+    {
+      "date": "2026-03-10",
+      "date_precision": "day",
+      "government_body": "Federal Energy Regulatory Commission",
+      "action_type": "transmission security agreement acceptance",
+      "result_status": "FERC Commissioner Chang's concurrence for docket ER26-1031 states that the Commission's order accepted the Transmission Security Agreement between Commonwealth Edison Company and Grundy County Power NR I, LLC under the Mobile-Sierra framework.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "ER26-1031-000; 194 FERC 61,181",
+      "primary_url": "https://www.ferc.gov/news-events/news/commissioner-changs-concurrence-order-accepting-transmission-security-agreement-1",
+      "access_caveat": "The concurrence confirms FERC acceptance and also notes that FERC did not independently assess every TSA term for customer-cost protection.",
+      "evidence_note": "Confirms grid/TSA regulatory milestone; does not mean the data-center campus is energized or under construction."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 1000,
+  "capacity_note": "Planned full-buildout load, from Tract's January 15, 2026 announcement and City-posted project materials; not energized capacity.",
+  "owner": "Tract",
   "sources": {
     "phase3_stable_id": "IL-MORRIS-TRACT-TECHPARK",
     "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
@@ -46,9 +96,39 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://morrisil.org/data-center-resources/",
+      "https://morrisil.org/wp-content/uploads/Ord-4690-2025.08.18-First-Amend-Annexation-Agrrement-Parcels-A-B-C-RT6-W-of-Brisbin-Road-FULLY-EXECUTED.pdf",
+      "https://morrisil.org/wp-content/uploads/Ord-4691-2025.08.18-First-Amendment-Redevelopment-Agreement-and-Financing-of-Property-384-Acres-Fully-Executed-Recorded.pdf",
+      "https://morrisil.org/wp-content/uploads/Ord-4692-2025.08.18-Utility-infrastructure-and-Service-Agreement-ILLCO-TRACT-Fully-Executed.pdf",
+      "https://morrisil.org/wp-content/uploads/2026_General-FAQs_Morris-Tract.pdf",
+      "https://morrisil.org/wp-content/uploads/Morris-Overview-Presentation.pdf",
+      "https://www.tract.com/news/tract-enters-greater-chicago-market-with-the-acquisition-of-343-acres-to-be-developed-as-a-1gw-data-center-campus-known-as-the-morris-technology-park/",
+      "https://www.ferc.gov/news-events/news/commissioner-changs-concurrence-order-accepting-transmission-security-agreement-1",
+      "https://www.tract.com/news/ferc-approves-transmission-security-agreement-tsa-between-comed-and-tract-advancing-1gw-of-responsible-data-center-growth-in-greater-chicago/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "acreage",
+      "details": "City-posted FAQ says 340 acres; Tract's announcement says 343 acres; City ordinance/search metadata references 384 acres/344 acres in related agreement descriptions. Treat acreage as approximate and agreement-boundary-dependent until parcel exhibits are OCR-reviewed."
+    },
+    {
+      "topic": "TSA approval date",
+      "details": "FERC's official concurrence for ER26-1031 is dated March 10, 2026; Tract's April 15, 2026 announcement says the TSA was approved and City-posted presentation describes FERC approval in April 2026. Use March 10, 2026 for the official FERC action and April 15, 2026 for Tract's announcement."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "changes": [
+        "capacity_mw changed from null to 1000 as planned full-buildout load, with capacity_note clarifying it is not energized capacity.",
+        "owner changed from null to Tract based on Tract's acquisition/developer announcement.",
+        "status refined from announced/entitled to local process/entitled, preserving no construction or building-permit evidence."
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

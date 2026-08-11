@@ -13,7 +13,14 @@
     "state": "MN"
   },
   "phase3_stable_id": "MN-MONTICELLO-MICROSOFT-FRATTALONE",
-  "status_as_of_cutoff": "The city records a concept review, Final AUAR and Mitigation Plan adoption on 2026-01-26, and applications received on 2026-07-06 that remain under completeness review. Public materials and local/trade reporting associate Microsoft/Frattalone with the concept, but the city has not published a final site-plan approval, building permit, construction start, inspection, CO, utility service, energization, commissioning, or initial-service record.",
+  "status_as_of_cutoff": "As of 2026-08-11, the City of Monticello lists Monticello Tech Technology Campus as an Applicant-stage potential data center project. The city project page says formal land-use applications for DCPUD CUP, rezone, preliminary plat, and final plat were initially received on 2026-07-06, found incomplete on 2026-07-20, and resubmitted on 2026-08-03; city staff are reviewing the second submission for completeness. The city states DCPUD CUP, rezone, and preliminary plat applications will not be processed until complete, the final plat is subject to a future application, and Planning Commission / City Council dates are still to be determined. No final site-plan approval, building permit, construction start, inspection, CO, utility service, energization, commissioning, or initial-service record was found.",
+  "evidence_grade": "official-local-government-current-status; secondary tracker used only for non-authoritative planned/developer corroboration",
+  "status_history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": "The city records a concept review, Final AUAR and Mitigation Plan adoption on 2026-01-26, and applications received on 2026-07-06 that remain under completeness review. Public materials and local/trade reporting associate Microsoft/Frattalone with the concept, but the city has not published a final site-plan approval, building permit, construction start, inspection, CO, utility service, energization, commissioning, or initial-service record."
+    }
+  ],
   "actions": [
     {
       "date": "2024-12-03",
@@ -62,10 +69,34 @@
       "primary_url": "https://www.monticellomn.gov/728/Data-Centers",
       "access_caveat": "Application receipt is not approval, permit issuance, construction authorization, or evidence that the public materials are complete.",
       "evidence_note": "Official current status; utility and environmental submissions are preserved without treating them as approvals."
+    },
+    {
+      "date": "2026-07-20",
+      "date_precision": "day",
+      "government_body": "City of Monticello",
+      "action_type": "application completeness determination",
+      "result_status": "The city says it reviewed the July 6 application materials and determined the applications to be incomplete. WSB's July 16, 2026 completeness letter states its review was limited to application-material completeness and did not recommend approval or denial.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Monticello DCPUD applications / completeness letters",
+      "primary_url": "https://www.monticellomn.gov/753/Monticello-Tech",
+      "access_caveat": "Incomplete determination and consultant completeness review are not land-use approval, permit issuance, construction authorization, or utility-service approval.",
+      "evidence_note": "Official city project page links the July 20 incomplete letter and July 23 follow-up letter; WSB letter available at https://www.monticellomn.gov/DocumentCenter/View/9594."
+    },
+    {
+      "date": "2026-08-03",
+      "date_precision": "day",
+      "government_body": "City of Monticello",
+      "action_type": "second land-use application submission / completeness review",
+      "result_status": "The city says it received a second submission of Monticello Tech land-use applications on August 3, 2026 and is reviewing the materials to determine whether the applications are complete. The city states DCPUD CUP, rezone, and preliminary plat applications will not be processed until complete; final plat is subject to a future application; Planning Commission and City Council dates remain to be determined.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Monticello DCPUD applications",
+      "primary_url": "https://www.monticellomn.gov/753/Monticello-Tech",
+      "access_caveat": "Second submission is not a completeness determination, public-hearing notice, approval, permit issuance, construction authorization, or utility-service approval.",
+      "evidence_note": "Official city project page and August 3 application materials."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Monticello Tech, LLC is the city-identified applicant/proposer; August 3, 2026 city-posted application materials list Nick Frattalone as applicant contact. Cleanview lists Frattalone as developer. No official Microsoft ownership or end-user confirmation was found in the refreshed sources.",
   "sources": {
     "phase3_stable_id": "MN-MONTICELLO-MICROSOFT-FRATTALONE",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -73,7 +104,19 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_official_urls": [
+      "https://www.monticellomn.gov/728/Data-Centers",
+      "https://www.monticellomn.gov/753/Monticello-Tech",
+      "https://www.monticellomn.gov/DocumentCenter/View/9594",
+      "https://www.monticellomn.gov/DocumentCenter/View/9664/2026-0803_Monticello-DCPUD_Land-Use-Application_V2-PDF",
+      "https://www.monticellomn.gov/DocumentCenter/View/9683/2026-0803_Monticello-DCPUD_Project-Narrative_V2-PDF",
+      "https://www.monticellomn.gov/DocumentCenter/View/9702/2026-0803_Monticello-DCPUD_Comment-Response-Matrix-PDF"
+    ],
+    "current_secondary_urls": [
+      "https://cleanview.co/data-centers/minnesota/1869/frattalone-monticello-data-center",
+      "https://www.datacenterdynamics.com/en/news/two-data-center-projects-planned-for-monticello-minnesota/"
+    ]
   },
   "contradictions": [],
   "seed_only": false,

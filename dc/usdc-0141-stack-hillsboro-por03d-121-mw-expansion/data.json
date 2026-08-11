@@ -13,7 +13,7 @@
     "state": "OR"
   },
   "phase3_stable_id": "US-OR-STACK-HILLSBORO-POR03D-2026",
-  "status_as_of_cutoff": "STACK's current project page describes a 55-acre POR03 campus with 200 MW total critical capacity, 72 MW operational, 25 MW near-term availability, and 96 MW expansion capacity, including POR03D at 25 MW. A 2026 report describes the 121 MW D/E/F expansion and POR03D's Q4 2027 target. No Hillsboro project-specific final land-use decision, building permit, grading/stormwater permit, inspection, CO, utility/interconnection, energization, or commissioning record was located for the expansion.",
+  "status_as_of_cutoff": "As of 2026-08-11, POR03D remains best classified as announced/local process rather than construction or energized. STACK's current project page describes a 55-acre POR03 campus with approximately 200 MW total critical capacity, 72 MW operational, 25 MW near-term availability, and 96 MW expansion capacity; the same page lists POR03D as 220,000 sq ft and 25 MW. A 2026 DCD report says STACK's 121 MW POR03D/E/F expansion starts with POR03D, targeted for Q4 2027, followed by POR03E and POR03F. Oregon DEQ's Cleaner Air Oregon page for SI POR03 identifies a prospective data center at 4735 NE Starr Blvd with a Standard ACDP application and 49 proposed 3,000 kW diesel emergency generators; DEQ approved the Level 3 risk assessment on 2021-04-07. Hillsboro enacted a 120-day land-use moratorium on 2026-07-27 for new or expanded data center/BESS primary-use applications, while allowing projects with applications submitted before the moratorium to continue. No Hillsboro project-specific final land-use decision, building permit, grading/stormwater permit, inspection, CO, utility/interconnection, energization, or commissioning record was located for POR03D.",
   "actions": [
     {
       "date": "2026-02-11",
@@ -38,10 +38,34 @@
       "primary_url": "https://www.stackinfra.com/locations/americas/portland/por03/",
       "access_caveat": "Company source and undated status page; capacity labels are not treated as measured utility load or local approval.",
       "evidence_note": "Company context; current campus claims not independently converted into construction or live-status findings."
+    },
+    {
+      "date": "2021-04-07",
+      "date_precision": "day",
+      "government_body": "Oregon Department of Environmental Quality / Cleaner Air Oregon",
+      "action_type": "air toxics risk assessment approval / Standard ACDP application context",
+      "result_status": "DEQ's SI POR03 page states STACK submitted and revised emissions inventory, modeling protocol, and risk assessment materials; DEQ approved the Level 3 Risk Assessment on 2021-04-07. The facility description says SI PORL3/STACK applied for a Standard Air Contaminant Discharge Permit for a prospective data center at 4735 NE Starr Blvd proposing 49 diesel-fired emergency generators rated 3,000 kW each.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Cleaner Air Oregon SI POR03; PLC search result references 5577533809 STACK POR3 B2A",
+      "primary_url": "https://www.oregon.gov/deq/aq/cao/nwr/pages/stack-infrastructure.aspx",
+      "access_caveat": "Official state environmental permitting/risk-assessment source; does not by itself establish POR03D-specific city land-use/building approval, construction start, utility allocation, energization, or commissioning.",
+      "evidence_note": "Official environmental-process evidence for the POR03 campus address."
+    },
+    {
+      "date": "2026-07-27",
+      "date_precision": "day",
+      "government_body": "City of Hillsboro City Council",
+      "action_type": "temporary land-use moratorium for data center/BESS applications",
+      "result_status": "City Council enacted a 120-day moratorium under which land-use applications for new or expanded data centers and BESS facilities proposed as a primary use will not be accepted; projects with applications submitted before the moratorium may continue.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Amended Resolution & Findings linked from city notice",
+      "primary_url": "https://www.hillsboro-oregon.gov/Home/Components/News/News/17551/",
+      "access_caveat": "Citywide policy action; no POR03D-specific application timestamp was found in the reviewed public sources.",
+      "evidence_note": "Relevant local regulatory context for unfiled or newly expanded data-center applications in Hillsboro."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 25,
+  "owner": "STACK Infrastructure",
   "sources": {
     "phase3_stable_id": "US-OR-STACK-HILLSBORO-POR03D-2026",
     "phase3_source_file": "phase3/county_ca_or.json",
@@ -51,7 +75,45 @@
     "authoritative_layer": "phase3_project_action_layer",
     "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
   },
-  "contradictions": [],
+  "source_urls": [
+    "https://www.stackinfra.com/locations/americas/portland/por03/",
+    "https://www.datacenterdynamics.com/en/news/data-center-developer-stack-to-expand-hillsboro-campus-by-121mw/",
+    "https://www.oregon.gov/deq/aq/cao/nwr/pages/stack-infrastructure.aspx",
+    "https://www.hillsboro-oregon.gov/Home/Components/News/News/17551/",
+    "https://www.hillsboro-oregon.gov/Home/Components/News/News/17569/",
+    "https://cleanview.co/data-centers/oregon/1076/stack-infrastructure-por03d"
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 25,
+      "source_url": "https://www.stackinfra.com/locations/americas/portland/por03/",
+      "note": "Set to owner-published POR03D critical-capacity figure; third-party trackers conflict and are retained in contradictions."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "STACK Infrastructure",
+      "source_url": "https://www.stackinfra.com/locations/americas/portland/por03/",
+      "note": "Owner/developer confirmed by STACK page and DCD report."
+    }
+  ],
+  "evidence_grade": "B - owner source and official Oregon DEQ/City of Hillsboro regulatory context verified; no POR03D-specific city land-use/building permit, utility allocation, energization, or commissioning record located.",
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "description": "STACK and DCD identify POR03D as 25 MW, while Cleanview lists POR03D as 33 MW planned. The owner-published 25 MW value is used for capacity_mw.",
+      "sources": [
+        "https://www.stackinfra.com/locations/americas/portland/por03/",
+        "https://www.datacenterdynamics.com/en/news/data-center-developer-stack-to-expand-hillsboro-campus-by-121mw/",
+        "https://cleanview.co/data-centers/oregon/1076/stack-infrastructure-por03d"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

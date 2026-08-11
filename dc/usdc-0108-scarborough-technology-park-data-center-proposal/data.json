@@ -11,19 +11,34 @@
     "state": "ME"
   },
   "phase3_stable_id": "US-ME-SCARBOROUGH-TECH-PARK-2026",
-  "status_as_of_cutoff": "Early/incomplete proposal; no construction. Reporting described an incomplete or rejected-for-processing application, while official town updates show a six-month emergency data-center moratorium advancing and later being passed in June. The moratorium is a town-wide regulatory action, not project approval.",
+  "status_as_of_cutoff": "Local process / moratorium; no construction. Official town materials show a temporary 180-day data-center moratorium ordinance that applies retroactively to any data-center application submitted on or after 2026-04-01 and bars town officials from accepting, processing, or acting on data-center approvals while in effect. Local reporting says Daniel Dickinson's Scarborough Technology Park master-plan application was submitted 2026-04-20 and rejected as incomplete in late April, and that the Town Council passed the moratorium on 2026-06-03.",
+  "evidence_grade": "B: official town ordinance and meeting portal confirm the moratorium framework and meeting date; project-specific application status, developer identity, and square footage are from local reporting rather than a retrieved signed municipal application file.",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Early/incomplete proposal; no construction. Reporting described an incomplete or rejected-for-processing application, while official town updates show a six-month emergency data-center moratorium advancing and later being passed in June. The moratorium is a town-wide regulatory action, not project approval.",
+      "reason": "Refresh replaced a month-level moratorium note with official ordinance terms and June 3 meeting context while preserving no-construction status."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "reason": "Local reporting identifies Daniel Dickinson as developer/landowner; no operating data-center tenant or corporate owner was verified."
+    }
+  ],
   "actions": [
     {
       "date": "2026-04-20",
       "date_precision": "day",
       "government_body": "Not a government action; local reporting",
       "action_type": "master-plan application report",
-      "result_status": "Reporting says the developer submitted a master-plan application for a proposed data-center/technology-park concept.",
+      "result_status": "Reporting says Daniel Dickinson submitted a master-plan application for the Scarborough High Technology Industrial Park / Scarborough Technology Park concept, including a two-story data-center building on roughly 52 acres west of the Maine Turnpike.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.mainepublic.org/climate/2026-05-06/scarborough-considers-data-center-pause-after-development-proposal",
       "access_caveat": "Local public-radio account; signed application and complete municipal file were not retrieved.",
-      "evidence_note": "Proposal context only."
+      "evidence_note": "Proposal context only; source describes fuel cells and closed-loop water cooling but does not provide MW capacity."
     },
     {
       "date": "2026-05-20",
@@ -38,16 +53,20 @@
       "evidence_note": "Regulatory pause context; it does not approve or reject the named proposal by itself."
     },
     {
-      "date": "2026-06",
-      "date_precision": "month",
+      "date": "2026-06-03",
+      "date_precision": "day",
       "government_body": "Scarborough Town Council",
       "action_type": "emergency data-center moratorium",
-      "result_status": "An official town update states that the Council passed a six-month emergency moratorium on data centers in June 2026.",
-      "vote_tally": "not stated on the cited town page",
+      "result_status": "Official ordinance text establishes a temporary 180-day moratorium on data centers, effective immediately upon adoption, applying retroactively to applications submitted on or after 2026-04-01 and prohibiting town officials from accepting, processing, or acting on data-center approvals while in force. The town meeting portal identifies the June 03, 2026 Town Council regular meeting; local news reports that the Council passed the moratorium that night.",
+      "vote_tally": "not stated in the retrieved official ordinance or meeting portal page",
       "case_or_ordinance_permit_number": "Six-month emergency data-center moratorium",
-      "primary_url": "https://www.scarboroughmaine.org/government/town-council/council-outlook/default/~board/town-council-corner/post/why-i-love-calling-scarborough-home-1784146459071",
-      "access_caveat": "Official town summary supplies month but not the exact meeting date, ordinance number, or roll call.",
-      "evidence_note": "Later town-wide restriction; no inference about application disposition beyond the restriction's effect."
+      "primary_url": "https://scarboroughmaine.community.diligentoneplatform.com/document/686e0a56-2a49-42e2-baa3-3cfd924b870d/",
+      "secondary_urls": [
+        "https://scarboroughmaine.community.diligentoneplatform.com/Portal/MeetingInformation.aspx?Id=405",
+        "https://wgme.com/news/local/scarborough-town-council-to-vote-on-proposed-data-center-moratorium"
+      ],
+      "access_caveat": "Official ordinance PDF and meeting portal were accessible; a signed minutes PDF or roll-call record was not retrieved from the portal.",
+      "evidence_note": "Town-wide restriction; it pauses/restricts data-center processing but is not a project approval."
     },
     {
       "date": "2026-05-28",
@@ -63,7 +82,7 @@
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Daniel Dickinson (reported developer/landowner; data-center operator/tenant not identified)",
   "sources": {
     "phase3_stable_id": "US-ME-SCARBOROUGH-TECH-PARK-2026",
     "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",

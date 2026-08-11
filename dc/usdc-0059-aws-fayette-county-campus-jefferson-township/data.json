@@ -9,11 +9,47 @@
   "location": {
     "city": "Jefferson Township",
     "county": "Fayette",
-    "state": "OH"
+    "state": "OH",
+    "site_address": "Bluegrass Boulevard / 1000 Innovation Way, Jeffersonville, OH 43128",
+    "parcel_notes": "Amazon-linked Fayette County/Jefferson Township Site A Phase 1A is listed at Bluegrass Blvd; Project Galaxy force main and public trackers reference 1000 Innovation Way."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
+  "status_as_of_cutoff": "approved-permitted",
+  "status_basis": "As of 2026-08-11, AWS has announced the Fayette County site and official Ohio EPA records list active construction-stormwater, water-quality, road/utility, substation, and cooling-water-support authorizations. No official building occupancy, energization, or full construction completion evidence was found in this pass.",
+  "evidence_grade": "B",
+  "status_history": [
+    {
+      "date": "2026-07-16",
+      "status": null,
+      "note": "Baseline record carried no status."
+    },
+    {
+      "date": "2026-08-11",
+      "status": "approved-permitted",
+      "note": "Promoted based on official AWS announcement, Fayette County zoning/CRA/easement records located through county minutes/search snippets, and current Ohio EPA construction and water authorization records."
+    }
+  ],
   "actions": [
+    {
+      "date": "2024-10-21",
+      "body": "Fayette County Commissioners",
+      "action_type": "zoning text amendment process",
+      "exact_result_status": "County minutes/search-index text show an application requesting amendment of the 2007 Fayette County Zoning Resolution to allow data centers as a permitted use on industrial-zoned parcels.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.fayette-co-oh.com/AgendaCenter/ViewFile/Minutes/_10212024-244",
+      "access_caveat": "Official county scanned minutes; text confirmed through search snippet because the PDF is image-based."
+    },
+    {
+      "date": "2024-11-12",
+      "body": "Fayette County Commissioners",
+      "action_type": "zoning recommendation approval",
+      "exact_result_status": "County minutes/search-index text state commissioners approved the Fayette County Zoning Commissioner's recommendation to allow data centers as a permitted use on parcels in the relevant zoning category.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.fayette-co-oh.com/AgendaCenter/ViewFile/Minutes/_11122024-246",
+      "access_caveat": "Official county scanned minutes; text confirmed through search snippet because the PDF is image-based."
+    },
     {
       "date": "2024-12-16",
       "body": "Amazon Web Services",
@@ -25,6 +61,16 @@
       "access_caveat": "Company source; not a local approval."
     },
     {
+      "date": "2024-12-23",
+      "body": "Fayette County Commissioners",
+      "action_type": "community reinvestment area agreement",
+      "exact_result_status": "Local reporting and search-index text state the commissioners approved execution of a Community Reinvestment Area agreement between Fayette County and Amazon Data Services, Inc.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.recordherald.com/2024/12/30/commissioners-prepare-for-new-year/",
+      "access_caveat": "Regional media summary of commissioner action; official scanned minutes were not machine-readable in this pass."
+    },
+    {
       "date": "2025-03-10",
       "body": "Ohio Environmental Protection Agency",
       "action_type": "construction-stormwater permit",
@@ -33,6 +79,16 @@
       "case_or_permit_number": "4GC10374*BG",
       "primary_url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Public/DSW/Construction.pdf",
       "access_caveat": "Official statewide permit list; it is land-disturbance authorization, not a building permit or local zoning vote."
+    },
+    {
+      "date": "2025-06-02",
+      "body": "Fayette County Commissioners",
+      "action_type": "easement authorization",
+      "exact_result_status": "County minutes/search-index text show a resolution authorizing an easement in Jefferson Township, Fayette County, for Amazon Data Services, Inc.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.fayette-co-oh.com/AgendaCenter/ViewFile/Minutes/_06022025-283",
+      "access_caveat": "Official county scanned minutes; text confirmed through search snippet because the PDF is image-based."
     },
     {
       "date": "2025-07-02",
@@ -96,7 +152,8 @@
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_notes": "No official MW/IT-load figure was confirmed. Third-party trackers conflict: Interconnection.fyi lists CMH220 as proposed 250+ MW, while datacenter.fyi lists CMH220 at 1,155 MW; Cleanview search results list individual 76 MW planned buildings. Capacity remains null pending official utility/interconnection evidence.",
+  "owner": "Amazon Data Services, Inc.",
   "sources": {
     "phase3_stable_id": "OH-FAYETTE-AWS",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -104,9 +161,71 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_company": [
+      "https://www.aboutamazon.com/news/aws/aws-continues-to-invest-in-ohio"
+    ],
+    "official_local_government": [
+      "https://www.fayette-co-oh.com/AgendaCenter/ViewFile/Minutes/_10212024-244",
+      "https://www.fayette-co-oh.com/AgendaCenter/ViewFile/Minutes/_11122024-246",
+      "https://www.fayette-co-oh.com/AgendaCenter/ViewFile/Minutes/_06022025-283"
+    ],
+    "official_state_environmental": [
+      "https://dam.assets.ohio.gov/raw/upload/epa.ohio.gov/Public/DSW/Construction.xlsx",
+      "https://edocpub.epa.ohio.gov/publicportal/ViewDocument.aspx?docid=3955763"
+    ],
+    "official_state_economic_development": [
+      "https://dam.assets.ohio.gov/image/upload/v1779309264/development.ohio.gov/community/redevelopment/COMBINED_-_Major_Project_Map_-_12.2025.pdf"
+    ],
+    "regional_media": [
+      "https://www.recordherald.com/2024/12/30/commissioners-prepare-for-new-year/",
+      "https://www.recordherald.com/2025/01/16/amazon-data-services-inc-purchases-jefferson-twp-land-for-new-data-center-campus/",
+      "https://www.recordherald.com/2025/08/19/commissioners-tackle-road-deals-amazon-tax-break-transit-funding-plea/",
+      "https://www.datacenterdynamics.com/en/news/amazon-acquires-590-acres-in-jefferson-township-ohio-for-102-million/"
+    ],
+    "third_party_trackers": [
+      "https://www.interconnection.fyi/data-center/project/cmh220-campus-97ca6d9a",
+      "https://www.datacenter.fyi/public-record/cmh220-campus-97ca6d9a",
+      "https://www.datacenter.fyi/public-record/cmh205-data-center-9745db32"
+    ],
+    "last_refresh": "2026-08-11"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "description": "Public trackers disagree and no official utility/interconnection capacity figure was confirmed.",
+      "sources": [
+        {
+          "url": "https://www.interconnection.fyi/data-center/project/cmh220-campus-97ca6d9a",
+          "claim": "CMH220 proposed at 250+ MW."
+        },
+        {
+          "url": "https://www.datacenter.fyi/public-record/cmh220-campus-97ca6d9a",
+          "claim": "CMH220 proposed at 1,155 MW."
+        },
+        {
+          "url": "https://cleanview.co/data-centers/ohio/3344/aws-jeffersonville-building-16",
+          "claim": "Individual AWS Jeffersonville buildings shown as planned at 76 MW in search result snippets."
+        }
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "field": "investment_total",
+      "description": "AWS company announcement says an estimated $5 billion for the first Fayette County site within a $10 billion Ohio plan; Ohio Development's 2025 major-project map search result lists Amazon Data Services at Bluegrass Boulevard/Jeffersonville with $10 billion and 1,058 jobs. Treated as unresolved scope/aggregation difference.",
+      "sources": [
+        {
+          "url": "https://www.aboutamazon.com/news/aws/aws-continues-to-invest-in-ohio",
+          "claim": "Fayette County first site estimated at $5 billion; up to eight Ohio sites under $10 billion plan."
+        },
+        {
+          "url": "https://dam.assets.ohio.gov/image/upload/v1779309264/development.ohio.gov/community/redevelopment/COMBINED_-_Major_Project_Map_-_12.2025.pdf",
+          "claim": "Ohio Development major-project map search result lists Amazon Data Services, Inc., Bluegrass Boulevard, Jeffersonville, $10 billion and 1,058 jobs."
+        }
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

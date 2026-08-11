@@ -8,11 +8,41 @@
   "location": {
     "city": "Joliet",
     "county": "Will",
-    "state": "IL"
+    "state": "IL",
+    "site_description": "Approximately 795 acres surrounding S. Rowell Road and Bernhard Road, south of the Chicagoland Speedway / Route 66 Raceway area.",
+    "pin_list": [
+      "10-11-02-200-007-0010",
+      "10-11-02-200-007-0020",
+      "10-11-02-100-018-0010",
+      "10-11-02-100-018-0020",
+      "10-11-03-400-001-0000",
+      "10-11-02-300-002-0000",
+      "10-11-02-400-007-0000",
+      "10-11-02-400-008-0000",
+      "10-11-02-400-005-0000",
+      "10-11-02-400-006-0000",
+      "10-11-02-400-003-0000",
+      "10-11-02-200-002-0000",
+      "10-11-02-300-003-0000",
+      "10-11-03-200-002-0000"
+    ]
   },
   "phase3_stable_id": "IL-JOLIET-POWERHOUSE-HILLWOOD",
-  "status_as_of_cutoff": "City records establish conditional annexation, I-1 zoning, preliminary PUD/plat, and an annexation/development agreement; no building permit, construction start, energization, or completion was located.",
+  "status_as_of_cutoff": "approved-permitted: Joliet City Council adopted the annexation/development agreement resolution and annexation/zoning/preliminary PUD ordinances on 2026-03-19 by 8-1 votes, but city records still describe future final PUD, final plat, final engineering, right-of-way vacation, and building-permit steps; no construction start, energization, or completion was verified as of 2026-08-11.",
+  "evidence_grade": "A-",
   "actions": [
+    {
+      "date": "2026-03-05",
+      "date_precision": "day",
+      "government_body": "Joliet Plan Commission",
+      "action_type": "public hearing and recommendation",
+      "result_status": "Plan Commission recommended approval of annexation, I-1 zoning upon annexation, preliminary PUD, and preliminary plat for A-4-25/PUD-8-25; minutes record the motion carried 7-1, with Commissioner Kella voting nay and Commissioner Roehr absent.",
+      "vote_tally": "7 aye; 1 nay; 1 absent",
+      "case_or_ordinance_permit_number": "A-4-25; PUD-8-25",
+      "primary_url": "https://joliet.legistar.com/View.ashx?GUID=A6DC5CAE-84C1-4EDC-A384-9F9886071A90&ID=15317185&M=F",
+      "access_caveat": "Plan Commission recommendation only; not final council approval and not a building permit.",
+      "evidence_note": "Official Plan Commission minutes."
+    },
     {
       "date": "2025-10-16",
       "date_precision": "day",
@@ -42,28 +72,52 @@
       "date_precision": "day",
       "government_body": "Joliet City Council / City of Joliet",
       "action_type": "conditional annexation and development-agreement approval",
-      "result_status": "City announcement says the Council approved conditional annexation of approximately 795 acres tied to PowerHouse Hillwood Holding LLC. The approval is conditional and does not establish building permits or construction.",
-      "vote_tally": "not published in accessible resolution",
-      "case_or_ordinance_permit_number": "Annexation agreement resolution; A-4-25",
-      "primary_url": "https://www.joliet.gov/Home/Components/News/News/5666/",
-      "access_caveat": "Official resolution PDF leaves voting fields blank; city announcement confirms approval but does not supply a numeric roll call.",
-      "evidence_note": "Conditional annexation/development stage, not completion."
+      "result_status": "City Council adopted the annexation agreement resolution for approximately 795 acres surrounding S. Rowell Road and Bernhard Road. Official minutes identify the resolution as Resolution 8262 and show the motion carried with eight ayes and Councilwoman Suzanna Ibarra voting nay.",
+      "vote_tally": "8 aye; 1 nay",
+      "case_or_ordinance_permit_number": "Resolution 8262; A-4-25",
+      "primary_url": "https://joliet.legistar.com/View.ashx?GUID=B3BA5FA0-F51A-423B-8F6E-CF34DC6D4667&ID=1402376&M=M",
+      "access_caveat": "Conditional annexation/development-agreement approval only; not a building permit, construction start, or energization record.",
+      "evidence_note": "Official final City Council minutes."
     },
     {
       "date": "2026-03-19",
       "date_precision": "day",
       "government_body": "Joliet City Council",
       "action_type": "annexation/zoning/preliminary PUD ordinance",
-      "result_status": "Ordinance 2026-? accessible as the official ordinance text approves zoning upon annexation to I-1 and a preliminary PUD/plat with variations; the accessible copy did not expose a final numeric vote field in the extracted text.",
-      "vote_tally": "not published in accessible ordinance",
-      "case_or_ordinance_permit_number": "A-4-25; PUD-8-25",
-      "primary_url": "https://www.joliet.gov/home/showpublisheddocument/36856/639089066745700000",
-      "access_caveat": "The document title/number is not reliably rendered in the accessible extraction; no number is invented. This is not a building permit.",
-      "evidence_note": "Primary zoning/PUD ordinance text; vote tally preserved as unavailable."
+      "result_status": "City Council adopted ordinances approving annexation, I-1 zoning upon annexation, preliminary PUD, and preliminary plat for Joliet Technology Center. Official minutes identify Ordinances 18826 and 18827 and show the motion carried with eight ayes and Councilwoman Suzanna Ibarra voting nay.",
+      "vote_tally": "8 aye; 1 nay",
+      "case_or_ordinance_permit_number": "Ordinance 18826; Ordinance 18827; A-4-25; PUD-8-25",
+      "primary_url": "https://joliet.legistar.com/View.ashx?GUID=B3BA5FA0-F51A-423B-8F6E-CF34DC6D4667&ID=1402376&M=M",
+      "access_caveat": "Local land-use entitlement only. City memo and ordinance require future final approvals and permits before construction.",
+      "evidence_note": "Official final City Council minutes; ordinance text available at https://joliet.legistar.com/View.ashx?GUID=291D54D7-EBC9-44A4-9C86-042385770394&ID=15317193&M=F and https://www.joliet.gov/home/showpublisheddocument/36856/639089066745700000."
+    },
+    {
+      "date": "2026-03-19",
+      "date_precision": "day",
+      "government_body": "Joliet City Council / Community Development Department",
+      "action_type": "project scope and utility conditions in council memo",
+      "result_status": "Council memo states the petitioner intends four future phases, each with one six-building cluster, totaling 24 principal data center buildings and about 6,936,000 gross square feet; electrical substations of about 6 acres would accompany each phase and a larger 25-acre switching station would be on the west side. The memo states future final PUD petitions and final plats are required for each phase.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Council Memo 179-26; A-4-25; PUD-8-25",
+      "primary_url": "https://joliet.legistar.com/ViewReport.ashx?GID=791&GUID=LATEST&ID=13895&M=R&N=TextL5&Title=Legislation+Text",
+      "access_caveat": "Scope and conditions in council memo; not evidence that any phase has final PUD, building permits, construction, or energization.",
+      "evidence_note": "Official City Council memo attached to passed item 179-26."
+    },
+    {
+      "date": "2026-03-19",
+      "date_precision": "day",
+      "government_body": "Joliet City Council / Community Development Department",
+      "action_type": "power and water operating conditions",
+      "result_status": "Council memo records the developer estimate of 1,800 MW at full buildout, says ComEd identified and planned transmission/system upgrades, and states PJM and ComEd evaluated full-buildout reliability. The memo also caps average daily potable water use at 150,000 gallons and average daily sanitary sewer discharge at 50,000 gallons, with peak daily limits of 300,000 gallons.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Council Memo 179-26; A-4-25; PUD-8-25",
+      "primary_url": "https://joliet.legistar.com/ViewReport.ashx?GID=791&GUID=LATEST&ID=13895&M=R&N=TextL5&Title=Legislation+Text",
+      "access_caveat": "Power figure is a developer estimate recited in a city memo; no energized load or interconnection completion inferred.",
+      "evidence_note": "Official City Council memo attached to passed item 179-26."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 1800,
+  "owner": "PowerHouse Hillwood Holding LLC is the applicant/contract purchaser; city/project materials identify Hillwood and PowerHouse Data Centers as development partners. Current land owners remained Bernhard Farms Inc. and related Bernhard family owners in the 2026-03-05 staff report.",
   "sources": {
     "phase3_stable_id": "IL-JOLIET-POWERHOUSE-HILLWOOD",
     "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
@@ -71,9 +125,54 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://joliet.legistar.com/LegislationDetail.aspx?GUID=CD55A19E-D09D-4EAB-A557-0AA42A79FD12&ID=7951608&Options=&Search=",
+      "https://joliet.legistar.com/LegislationDetail.aspx?GUID=A28791DD-084F-471D-9D2E-8BD68A515EF9&ID=7951607&Options=&Search=",
+      "https://joliet.legistar.com/View.ashx?GUID=B3BA5FA0-F51A-423B-8F6E-CF34DC6D4667&ID=1402376&M=M",
+      "https://joliet.legistar.com/ViewReport.ashx?GID=791&GUID=LATEST&ID=13895&M=R&N=TextL5&Title=Legislation+Text",
+      "https://joliet.legistar.com/View.ashx?GUID=CEA3F60F-BF12-4181-A808-EDE695F6A4BD&ID=15317196&M=F",
+      "https://joliet.legistar.com/View.ashx?GUID=A6DC5CAE-84C1-4EDC-A384-9F9886071A90&ID=15317185&M=F",
+      "https://www.joliet.gov/Home/Components/News/News/5666/41",
+      "https://joliettechnologycenter.com/at-a-glance/",
+      "https://cleanview.co/data-centers/illinois/1857/joliet-technology-center",
+      "https://thetimesweekly.com/2026/06/joliet-residents-sue-to-block-massive-20-billion-ai-data-center-project/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "status terminology",
+      "description": "Some third-party trackers describe the project as planned, permit-approved, or approved/under construction. Official Joliet records verify local annexation/zoning/preliminary PUD approvals, but continue to require future final PUD/plats/engineering and do not verify building permits, construction start, energization, or completion.",
+      "sources": [
+        "https://joliet.legistar.com/ViewReport.ashx?GID=791&GUID=LATEST&ID=13895&M=R&N=TextL5&Title=Legislation+Text",
+        "https://cleanview.co/data-centers/illinois/1857/joliet-technology-center"
+      ]
+    }
+  ],
   "seed_only": false,
-  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "City records establish conditional annexation, I-1 zoning, preliminary PUD/plat, and an annexation/development agreement; no building permit, construction start, energization, or completion was located.",
+      "new_value": "approved-permitted: Joliet City Council adopted the annexation/development agreement resolution and annexation/zoning/preliminary PUD ordinances on 2026-03-19 by 8-1 votes, but city records still describe future final PUD, final plat, final engineering, right-of-way vacation, and building-permit steps; no construction start, energization, or completion was verified as of 2026-08-11.",
+      "source": "https://joliet.legistar.com/View.ashx?GUID=B3BA5FA0-F51A-423B-8F6E-CF34DC6D4667&ID=1402376&M=M"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 1800,
+      "source": "https://joliet.legistar.com/ViewReport.ashx?GID=791&GUID=LATEST&ID=13895&M=R&N=TextL5&Title=Legislation+Text"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "PowerHouse Hillwood Holding LLC is the applicant/contract purchaser; Hillwood and PowerHouse Data Centers are development partners.",
+      "source": "https://joliet.legistar.com/View.ashx?GUID=CEA3F60F-BF12-4181-A808-EDE695F6A4BD&ID=15317196&M=F"
+    }
+  ]
 }

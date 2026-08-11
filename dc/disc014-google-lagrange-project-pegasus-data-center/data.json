@@ -1,21 +1,83 @@
 {
   "disc_id": "disc014",
   "canonical_project": "Google LaGrange / Project Pegasus Data Center",
+  "aliases": [
+    "Project Pegasus",
+    "Google LaGrange",
+    "PRL1",
+    "PRL2"
+  ],
   "owner": "Google",
   "location": {
     "city": "LaGrange",
     "county": "Troup County",
-    "state": "GA"
+    "state": "GA",
+    "address": "411 Pegasus Parkway",
+    "parcel_id": "0592000004"
   },
-  "capacity_mw": null,
-  "status": "announced/under construction",
+  "site": {
+    "acreage_reported": [
+      {
+        "acres": 270,
+        "note": "Reported by DCD/Baxtel for the Thor-acquired parcel and inherited Google campus site."
+      },
+      {
+        "acres": 420,
+        "note": "Reported by AJC/Cleanview for the broader Project Pegasus site."
+      }
+    ],
+    "existing_building_sqft_reported": [
+      506220,
+      600000
+    ],
+    "prl2_building_sqft": 470000
+  },
+  "capacity_mw": 350,
+  "capacity_evidence": {
+    "official_peak_connected_load_mw": 350,
+    "official_scope": "DCA DRI #4797 / PRL2 application, submitted by LaGrange for KDC as agent at 411 Pegasus Parkway.",
+    "tracker_or_media_eventual_target_mw": 400,
+    "tracker_or_media_note": "Cleanview lists 400 MW; DCD says Thor previously targeted eventual 400 MW and 50 MW for the first building. Treat as eventual-campus context, not an official confirmed energized capacity."
+  },
+  "status": "site work-construction",
   "confidence": "high",
-  "evidence_date": "2026-04-21",
+  "evidence_date": "2026-07-28",
   "sources": [
+    "https://apps.dca.ga.gov/DRI/AppSummary.aspx?driid=4797",
+    "https://apps.dca.ga.gov/DRI/InitialForm.aspx?driid=4797",
+    "https://apps.dca.ga.gov/DRI/AdditionalForm.aspx?driid=4797",
+    "https://datacenters.google/locations/georgia/",
     "https://www.datacenterdynamics.com/en/news/google-confirms-plans-for-data-center-in-lagrange-georgia/",
-    "https://www.atlantanewsfirst.com/2026/04/21/google-build-new-data-center-lagrange/"
+    "https://www.datacenterdynamics.com/en/news/google-files-to-expand-data-center-campus-in-lagrange-georgia/",
+    "https://www.atlantanewsfirst.com/2026/04/21/google-build-new-data-center-lagrange/",
+    "https://www.atlantanewsfirst.com/2026/04/04/construction-worker-badly-injured-google-data-center-site-lagrange/",
+    "https://www.ajc.com/business/2026/04/what-is-georgias-project-pegasus-tech-giant-unveils-8-billion-answer/",
+    "https://cleanview.co/data-centers/georgia/2257/project-pegasus-google-lagrange",
+    "https://baxtel.com/data-center/google-project-pegasus"
+  ],
+  "status_history": [
+    {
+      "date": "2026-04-21",
+      "status": "announced/under construction",
+      "source": "https://www.datacenterdynamics.com/en/news/google-confirms-plans-for-data-center-in-lagrange-georgia/"
+    },
+    {
+      "date": "2026-07-28",
+      "status": "site work-construction",
+      "source": "https://apps.dca.ga.gov/DRI/AppSummary.aspx?driid=4797"
+    }
   ],
   "why_not_in_baseline": "Not present in the 208 baseline canonical_project list; likely missed Georgia hyperscaler project and distinct from baseline Georgia entries in Coweta, Muscogee, Spalding, and Twiggs counties.",
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "summary": "Official DCA PRL2 filing states 350 MW estimated peak connected electrical load for the proposed project. Cleanview lists 400 MW and DCD/Baxtel report Thor's earlier eventual-campus target of 400 MW, while DCD also reports a prior 50 MW first-building target. Use 350 MW as the current official load figure and retain 400 MW only as eventual-campus context."
+    },
+    {
+      "field": "site_acreage",
+      "summary": "DCD/Baxtel report a 270-acre parcel; AJC/Cleanview report a 420-acre Project Pegasus site. Both are retained because public records reviewed here do not reconcile parcel versus broader campus acreage."
+    }
+  ],
   "discovery_file": "candidates-hyperscaler.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

@@ -14,7 +14,14 @@
     "state": "Texas"
   },
   "phase3_stable_id": "US-TX-ABILENE-LANCIUM-STARGATE-2024",
-  "status_as_of_cutoff": "First-phase and additional buildings are supported by TDLR/TCEQ and local tax records; the complete building-by-building permit, energization, and service record was not assembled.",
+  "status_as_of_cutoff": "partial live / site work-construction: Oracle says AI workloads were live by January 2026; TDLR records support buildings 1-8 work, while City/County abatement records and Crusoe's March 2026 announcement support an adjacent phase 9-10/power-plant expansion still projected for later energization.",
+  "status_history": [
+    {
+      "as_of": "2026-07-16",
+      "status": "First-phase and additional buildings are supported by TDLR/TCEQ and local tax records; the complete building-by-building permit, energization, and service record was not assembled."
+    }
+  ],
+  "evidence_grade": "A-/B+: official TDLR, City of Abilene, Taylor County, TCEQ, and Oracle/Crusoe sources support the main status/capacity claims; municipal building permits, certificates of occupancy, and utility service/interconnection records were not fully assembled.",
   "actions": [
     {
       "id": "A1",
@@ -145,10 +152,115 @@
       "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2025016961",
       "access_caveat": "The linked record is one of the three registrations; the other two are separate TDLR pages. None is a municipal building permit.",
       "notes": "Construction action; phase/building crosswalk is based on the TDLR owner/address fields."
+    },
+    {
+      "id": "A11",
+      "date": "2024-09-04",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Project Ludicrous Building 01 Tenant Improvement at 351 Lancium Way; record lists 484,960 square feet, $140 million estimated cost, start date 2024-12-12, completion date 2025-09-15, and current status Review Complete.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025000156",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025000156",
+      "access_caveat": "TABS architectural-barriers registration; not a municipal building permit or certificate of occupancy.",
+      "notes": "Official record adds building 1/TI evidence that was not in the baseline action list."
+    },
+    {
+      "id": "A12",
+      "date": "2024-12-16",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Project Ludicrous Building 02 Tenant Improvement at 251 Lancium Way; record lists 484,960 square feet, $384 million estimated cost, start date 2025-03-24, completion date 2025-12-24, and current status Review Complete.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025007742",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025007742",
+      "access_caveat": "TABS architectural-barriers registration; not a municipal building permit or certificate of occupancy.",
+      "notes": "Official record adds building 2/TI evidence that was not in the baseline action list."
+    },
+    {
+      "id": "A13",
+      "date": "2025-04-17",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Crusoe Building 8 at 615 FM 2404; record lists 480,000 square feet, $292 million estimated cost, start date 2025-06-09, completion date 2026-12-21, and current status Review Complete.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025016967",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025016967",
+      "access_caveat": "TABS architectural-barriers registration; not a municipal building permit or certificate of occupancy.",
+      "notes": "Completes the phase/building 5-8 TDLR set alongside A10."
+    },
+    {
+      "id": "A14",
+      "date": "2025-06-23",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Crusoe Building 8 Tenant Improvement at 615 FM 2404; record lists 485,000 square feet, $384 million estimated cost, start date 2025-06-23, completion date 2026-06-22, and current status Review Complete.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025019022",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025019022",
+      "access_caveat": "TABS architectural-barriers registration; not a municipal building permit or certificate of occupancy.",
+      "notes": "Tenant-improvement evidence for Building 8."
+    },
+    {
+      "id": "A15",
+      "date": "2025-09-09",
+      "body": "Taylor County Commissioners' Court",
+      "meeting_date": "2025-09-09",
+      "action_type": "tax-abatement agreement approval",
+      "result_or_status": "Minutes show adoption of a resolution approving tax-abatement and second tax-abatement agreements for Lancium with Abilene DC 9, Abilene DC 10, and Abilene DC TPP (electricity generation plant).",
+      "vote_tally": "4-1; Commissioner Kendrick voted no",
+      "case_or_number": null,
+      "primary_url": "https://www.taylorcounty.texas.gov/ArchiveCenter/ViewFile/Item/1344",
+      "access_caveat": "Official county minutes; tax-abatement action does not by itself prove land-use, building-permit, or energization status.",
+      "notes": "Official local-government evidence for phases 9-10 and onsite power plant."
+    },
+    {
+      "id": "A16",
+      "date": "2025-12-04",
+      "body": "City of Abilene",
+      "meeting_date": "2025-12-04",
+      "action_type": "tax-abatement agreements / reinvestment zone support",
+      "result_or_status": "City tax-abatement page lists executed Resolution No. 249-2025 and agreements for Lancium phases 9-10 and the electricity generation plant; the city meeting preview described final reading for RZ25-1 and abatements for Abilene DC 9, Abilene DC 10, and Abilene DC TPP.",
+      "vote_tally": null,
+      "case_or_number": "Resolution No. 249-2025; RZ25-1",
+      "primary_url": "https://abilenetx.gov/2476/Tax-Abatements",
+      "access_caveat": "City tax-abatement publication; execution/effective-date requirements vary by agreement and this is not a building permit.",
+      "notes": "Official city evidence for the adjacent expansion and power plant."
+    },
+    {
+      "id": "A17",
+      "date": "2026-01-01",
+      "body": "Oracle",
+      "meeting_date": null,
+      "action_type": "operator/customer status publication",
+      "result_or_status": "Oracle's Abilene data-center facts page, current as of January 2026, states AI workloads went live less than a year after construction began and describes the campus as eight buildings on 1,100 acres totaling 4 million square feet.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://www.oracle.com/data-centers/abilene/",
+      "access_caveat": "Company/operator-customer publication; does not substitute for utility energization records or certificates of occupancy.",
+      "notes": "Supports partial-live status for the first phase."
+    },
+    {
+      "id": "A18",
+      "date": "2026-03-27",
+      "body": "Crusoe",
+      "meeting_date": null,
+      "action_type": "developer announcement / expansion",
+      "result_or_status": "Crusoe announced a new 900 MW adjacent Abilene AI factory campus for Microsoft, said land clearing and site preparation were underway, and stated the full Abilene site is expected to reach approximately 2.1 GW total capacity; first new building expected to energize in mid-2027.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-new-900-mw-ai-factory-campus-in-abilene-texas-to-support-microsoft-ai-infrastructure",
+      "access_caveat": "Developer announcement; forward-looking portions are projected and should not be treated as current energized capacity.",
+      "notes": "Capacity source for total projected campus scale, not proof of full buildout."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 2100,
+  "capacity_notes": "Projected full Abilene site capacity from Crusoe's 2026-03-27 announcement: existing Abilene infrastructure plus a new 900 MW adjacent Microsoft campus totals approximately 2.1 GW. Current-live capacity is lower: Crusoe states the first two 100 MW buildings were energized and the second phase to 1.2 GW was expected by end-2026.",
+  "owner": "Lancium / Abilene DC project entities; Crusoe develops/operates AI factory infrastructure; Oracle and Microsoft are identified customers/tenants in company sources.",
   "sources": {
     "phase3_stable_id": "US-TX-ABILENE-LANCIUM-STARGATE-2024",
     "phase3_source_file": "phase3/county_tx.json",
@@ -158,7 +270,32 @@
       "US-TX-STARGATE-ABILENE-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_local_urls": [
+      "https://abilenetx.gov/2476/Tax-Abatements",
+      "https://www.taylorcounty.texas.gov/ArchiveCenter/ViewFile/Item/1344",
+      "https://www.taylorcounty.texas.gov/DocumentCenter/View/4818/Resolution-22-25-Lancium",
+      "https://www.abilenetx.gov/DocumentCenter/View/39492/City-Ordinance-Designating-Certain-Areas-as-Second-Reinvestment-Zone-for-RZ21-1-for-Tax-Abatement-PDF",
+      "https://abilenetx.gov/DocumentCenter/View/39494/City-Ordinance-Designating-Certain-Areas-as-Reinvestment-Zone-No-RZ25-1-for-Tax-Abatement-PDF"
+    ],
+    "official_state_urls": [
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025000156",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025007742",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025011917",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025013785",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025016961",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025016964",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025016966",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025016967",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025019022",
+      "https://records.tceq.texas.gov/cs/idcplg?IdcService=TCEQ_EXTERNAL_SEARCH_GET_FILE&Rendition=Web&dID=8114426",
+      "https://records.tceq.texas.gov/cs/idcplg?IdcService=TCEQ_EXTERNAL_SEARCH_GET_FILE&Rendition=Web&dID=8600163"
+    ],
+    "company_urls": [
+      "https://www.oracle.com/data-centers/abilene/",
+      "https://www.crusoe.ai/resources/newsroom/crusoe-announces-new-900-mw-ai-factory-campus-in-abilene-texas-to-support-microsoft-ai-infrastructure",
+      "https://lancium.com/2025/03/18/crusoe-expands-ai-data-center-campus-in-abilene-to-1-2-gigawatts/"
+    ]
   },
   "contradictions": [],
   "seed_only": false,

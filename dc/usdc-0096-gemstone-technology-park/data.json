@@ -11,7 +11,8 @@
     "state": "ID"
   },
   "phase3_stable_id": "US-ID-DIODE-GEMSTONE-KUNA-2025",
-  "status_as_of_cutoff": "Kuna’s official records document the Planning and Zoning Commission recommendation and a City Council 3–2 approval of the comprehensive-plan amendment and rezone, plus a police-contribution MOU. The approval is an entitlement step, not proof of building permits, construction, power allocation, or operation; local reporting says no infrastructure or facilities had broken ground by the reviewed cutoff.",
+  "evidence_grade": "A-: official Kuna land-use records confirm the 2025 comprehensive-plan/rezone approval, July 2025 reconsideration hearing, October 2025 judicial-review record objections, and a May 2026 pending commercial electrical permit at the project parcel; Diode's own 2026 project pages confirm early-stage/proposed status. No official data-center building permit, grading/site-work permit, certificate of occupancy, energization, or capacity record was located.",
+  "status_as_of_cutoff": "Approved local entitlement / early development, under judicial-review record process. Kuna records show the comprehensive-plan amendment and A-to-M-1 rezone for Gemstone Technology Park were approved in 2025, followed by a July 15, 2025 reconsideration hearing and an October 21, 2025 City Council business item on objections to the lodged agency record in Layne Thornton et al. v. City of Kuna, Ada County District Court Case No. CV01-25-15843. Diode's current project pages still describe the 620-acre Gemstone site as proposed / early development and say Diode is finalizing power, fiber, water, wastewater, and traffic plans. A May 2026 city building permit report lists permit 54888 at 3250 S Locust Grove Road / parcel S2105300000 as pending Commercial Electrical, 0 square feet, $1,035 valuation; this is not treated as proof of data-center construction, energization, or operational capacity.",
   "actions": [
     {
       "date": "2025-01-28",
@@ -60,10 +61,58 @@
       "primary_url": "https://www.kunacity.id.gov/93/Agendas-Minutes",
       "access_caveat": "City archive provides access to agendas/minutes, but no matching later construction docket was located.",
       "evidence_note": "Negative search only."
+    },
+    {
+      "date": "2025-07-15",
+      "date_precision": "day",
+      "government_body": "Kuna City Council",
+      "action_type": "reconsideration hearing",
+      "result_status": "Official agenda noticed a reconsideration hearing for cases 24-01-CPM and 24-01-ZC. The request asked Council to reconsider the Decision and Reasoned Statement entered 2025-05-06 approving the agriculture-to-industrial comprehensive-plan map amendment and A-to-M-1 rezone for the 3250 S Locust Grove Road site.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "24-01-CPM; 24-01-ZC",
+      "primary_url": "https://kunacity.id.gov/Archive.aspx?ADID=3932",
+      "access_caveat": "Agenda confirms the reconsideration hearing and prior approval context; separately indexed local civic transcript reporting says Council took no action, but official minutes text was not machine-readable in the reviewed web surface.",
+      "evidence_note": "Official city agenda; entitlement/reconsideration process only."
+    },
+    {
+      "date": "2025-10-21",
+      "date_precision": "day",
+      "government_body": "Kuna City Council",
+      "action_type": "judicial-review record objections",
+      "result_status": "Official agenda listed a business item to determine objections to the lodged agency record and transcripts in Layne Thornton et al. v. The City of Kuna, Ada County District Court Case No. CV01-25-15843, including objections filed by the City, Gemstone Technology Park, LLC and D. Yamamoto Development, LLC, and Layne Thornton / Toledo entities.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "CV01-25-15843",
+      "primary_url": "https://kunacity.id.gov/Archive.aspx?ADID=3976",
+      "access_caveat": "Agenda confirms active judicial-review record handling; it does not resolve the case outcome or establish construction authorization.",
+      "evidence_note": "Official city agenda; litigation/process evidence."
+    },
+    {
+      "date": "2026-05-15",
+      "date_precision": "day",
+      "government_body": "City of Kuna Building Department",
+      "action_type": "building permit report entry",
+      "result_status": "May 2026 Building Permit Report lists permit 54888 for parcel S2105300000 at 3250 S Locust Grove Road as Commercial Electrical, 0 square feet, agriculture zoning, $1,035 valuation, status Pending.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "54888",
+      "primary_url": "https://www.kunacity.id.gov/DocumentCenter/View/10726/May-2026-BPR-PDF",
+      "access_caveat": "The permit report does not identify Gemstone by name and the low-value/zero-square-foot electrical entry is not evidence of a data-center building permit, site work, energization, or operational launch.",
+      "evidence_note": "Official building permit report; parcel-level minor/pending electrical activity only."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "as_of_refresh",
+      "government_body": "Diode Ventures / City of Kuna",
+      "action_type": "current-status refresh",
+      "result_status": "Diode's current project page describes Gemstone Technology Park as a 620-acre proposed data center site in early development, and its update page says Diode is working to finalize power, fiber, water, wastewater, and traffic plans. City permit-report and agenda searches located no project-specific data-center building permit, certificate of occupancy, energization, or MW-capacity record beyond the May 2026 pending commercial electrical entry.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.diodeventures.com/projects/kuna-idaho-usa",
+      "access_caveat": "Company status page is primary developer evidence but not a government permit record; negative city search is limited to public web surfaces reviewed on 2026-08-11.",
+      "evidence_note": "Owner/developer current-status corroboration plus official local negative check."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Diode Ventures, LLC (project developer)",
   "sources": {
     "phase3_stable_id": "US-ID-DIODE-GEMSTONE-KUNA-2025",
     "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
@@ -74,6 +123,23 @@
     "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": "Kuna’s official records document the Planning and Zoning Commission recommendation and a City Council 3–2 approval of the comprehensive-plan amendment and rezone, plus a police-contribution MOU. The approval is an entitlement step, not proof of building permits, construction, power allocation, or operation; local reporting says no infrastructure or facilities had broken ground by the reviewed cutoff.",
+      "new_value": "Approved local entitlement / early development, under judicial-review record process; May 2026 pending commercial electrical permit at the project parcel is parcel-level activity only and not data-center construction evidence.",
+      "reason": "Refresh found later official Kuna records for reconsideration, judicial-review record objections, and the May 2026 building permit report, plus current Diode early-development language."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "Diode Ventures, LLC (project developer)",
+      "reason": "Diode's current project and update pages identify Gemstone as a data center site developed by Diode Ventures."
+    }
+  ],
+  "verified": true,
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

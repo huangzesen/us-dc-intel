@@ -8,20 +8,97 @@
   "location": {
     "city": "Montgomery",
     "county": "Montgomery",
-    "state": "Alabama"
+    "state": "Alabama",
+    "address": "1055 Hyundai Boulevard, Montgomery, AL 36105",
+    "site_description": "Off Interstate 65 in Montgomery, across from the Hyundai automotive assembly plant"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A",
+  "actions": [
+    {
+      "date": "2024-05-02",
+      "government_body": "Office of Alabama Governor Kay Ivey",
+      "action_type": "project_announcement",
+      "result_status": "announced",
+      "summary": "Governor announced Meta's planned Montgomery data center: more than $800 million investment, 715,000-square-foot AI-optimized campus, approximately 100 jobs, off I-65 across from Hyundai; site already being cleared and expected online at end of 2026.",
+      "source_url": "https://governor.alabama.gov/newsroom/2024/05/governor-ivey-announces-meta-plans-to-build-800-million-next-generation-data-center-in-montgomery/"
+    },
+    {
+      "date": "2024-05-02",
+      "government_body": "Meta Data Centers",
+      "action_type": "company_announcement",
+      "result_status": "announced",
+      "summary": "Meta announced Montgomery, Alabama as a new owned-and-operated data center campus; initial campus size 715,000 square feet, more than $800 million investment, approximately 100 jobs, 100% renewable-energy support, and LEED Gold target once operational.",
+      "source_url": "https://datacenters.atmeta.com/2024/05/hello-montgomery/"
+    },
+    {
+      "date": "2025-09-19",
+      "government_body": "Alabama Department of Environmental Management",
+      "action_type": "air_permit_public_notice",
+      "result_status": "local_process",
+      "summary": "ADEM public notice states Dotier, LLC applied for synthetic minor operating permits for two groups of emergency diesel-fired engines at 1055 Hyundai Boulevard, Montgomery, AL 36105, facility no. 209-0108.",
+      "source_url": "https://adem.alabama.gov/sites/default/files/2025-09/09-25dotier.html"
+    },
+    {
+      "date": "2025-09-23",
+      "government_body": "Meta Data Centers",
+      "action_type": "company_expansion_announcement",
+      "result_status": "site work-construction",
+      "summary": "Meta announced two additional Montgomery Data Center buildings, raising campus footprint to nearly 1.3 million square feet and total investment to more than $1.5 billion; Meta reported more than 1,000 skilled trade workers on site at peak construction.",
+      "source_url": "https://datacenters.atmeta.com/2025/09/montgomery-were-growing/"
+    },
+    {
+      "date": "2026-08-04",
+      "government_body": "Alabama Public Service Commission",
+      "action_type": "renewable_subscription_contract_approval",
+      "result_status": "approved",
+      "summary": "PSC public access remarks show staff recommended approval of Alabama Power's Clearview Ranch Project and the accompanying Renewable Subscription Program contract between Alabama Power Company and Dotier, LLC.",
+      "source_url": "https://www.pscpublicaccess.alabama.gov/pscpublicaccess/PSC/RemarksDetails.aspx?contactId=ffccc7de-f851-40ee-8b3a-60aaddc8c4d3"
+    },
+    {
+      "date": "2026-08",
+      "government_body": "Alabama Power",
+      "action_type": "utility_project_disclosure",
+      "result_status": "approved-pending-permits",
+      "summary": "Alabama Power says Clearview Ranch will include 200 MW solar and 200 MW battery storage in Macon and Bullock counties; Meta supports the project through the Renewable Subscription Program and receives the renewable energy credits.",
+      "source_url": "https://www.alabamapower.com/company/media-room/energy-answers/clearview-ranch-solar-and-battery-project.html"
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_notes": "No first-party source found disclosing data-center IT/load capacity in MW. Public sources disclose campus footprint only: 715,000 square feet at May 2024 announcement, expanded to nearly 1.3 million square feet in September 2025. Alabama Power discloses separate renewable support projects, not data-center capacity.",
+  "owner": "Meta Platforms, Inc. / Meta Data Centers; ADEM permittee: Dotier, LLC",
   "sources": {
     "phase2_seed_stable_id": "US-AL-META-MONTGOMERY-2024",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
-    "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "authoritative_layer": "official_and_first_party_refresh",
+    "match_reason": "Seed-only record independently verified against Meta, Alabama Governor, ADEM, Alabama Power, and PSC public sources",
+    "urls": [
+      "https://datacenters.atmeta.com/2024/05/hello-montgomery/",
+      "https://governor.alabama.gov/newsroom/2024/05/governor-ivey-announces-meta-plans-to-build-800-million-next-generation-data-center-in-montgomery/",
+      "https://datacenters.atmeta.com/2025/09/montgomery-were-growing/",
+      "https://adem.alabama.gov/sites/default/files/2025-09/09-25dotier.html",
+      "https://adem.alabama.gov/counties/montgomery",
+      "https://www.pscpublicaccess.alabama.gov/pscpublicaccess/PSC/RemarksDetails.aspx?contactId=ffccc7de-f851-40ee-8b3a-60aaddc8c4d3",
+      "https://www.alabamapower.com/company/media-room/energy-answers/clearview-ranch-solar-and-battery-project.html"
+    ]
   },
-  "contradictions": [],
-  "seed_only": true,
+  "contradictions": [
+    {
+      "topic": "campus_size_and_investment",
+      "details": "May 2024 sources describe the initial project as 715,000 square feet and more than $800 million; September 2025 Meta expansion announcement supersedes this with nearly 1.3 million square feet and more than $1.5 billion total investment.",
+      "resolution": "Treat September 23, 2025 Meta announcement as current campus buildout scope."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": null,
+      "capacity_mw": null,
+      "owner": null,
+      "note": "Seed-only baseline record with no independently verified status, capacity, owner, or address."
+    }
+  ],
+  "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

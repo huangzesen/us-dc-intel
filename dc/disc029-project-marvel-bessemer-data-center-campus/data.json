@@ -1,20 +1,59 @@
 {
   "disc_id": "disc029",
   "canonical_project": "Project Marvel Bessemer data center campus",
-  "owner": "Logistic Land Investment LLC / TPA Group",
+  "owner": "QTS Data Centers; Logistic Land Investment LLC / TPA Group as developer/land vehicle",
   "location": {
     "city": "Bessemer",
     "county": "Jefferson",
-    "state": "Alabama"
+    "state": "Alabama",
+    "site_context": "Project Marvel site in the Bessemer area, near Rock Mountain Lake Road and the planned Northern Beltline corridor"
   },
   "capacity_mw": 1200,
-  "status": "approved by Bessemer City Council",
+  "status": "approved-permitted",
   "confidence": "high",
-  "evidence_date": "2025-11-19",
+  "evidence_date": "2026-07-14",
   "sources": [
+    "https://bessemeral.org/",
+    "https://cdn.prod.website-files.com/68ecf5da428edc78da18d9bb/6973ef06f98f2ad07b2c74a0_Updated%20Development%20Plans%20for%20Proposed%20Data%20Center%20Project.pdf",
+    "https://q.com/data-centers/bessemer/",
+    "https://q.com/data-center-status/in-development/",
+    "https://www.wbrc.com/2026/07/02/qts-confirms-plans-proposed-data-center-campus-bessemer/",
+    "https://abc3340.com/news/local/alabama-bessemer-approves-rezoning-of-914-acres-for-project-marvel-data-center-april-2026",
+    "https://abc3340.com/news/abc-3340-news-iteam/planning-zoning-commission-recommends-rezoning-914-acres-for-data-center-in-bessemer-project-marvel-logistic-land-investments-meeting-tuesday-updated-plans-northern-beltline-data-center-development-jefferson-county-concerns-follow-up",
+    "https://www.wbrc.com/2026/02/09/proposed-data-center-campus-bessemer-expands-1600-acres-updated-plan/",
+    "https://www.wbrc.com/2025/11/19/bessemer-city-council-approves-149-billion-data-center-project-despite-transparency-concerns/",
+    "https://www.datacenterdynamics.com/en/news/900-acre-expansion-to-alabamas-project-marvel-receives-recommendation-from-planning-commission/",
     "https://www.datacenterdynamics.com/en/news/14bn-project-marvel-data-center-approved-by-bessemer-city-council-amidst-fierce-opposition/"
   ],
   "why_not_in_baseline": "City-approved Alabama campus outside the main tracker markets; baseline did not include Project Marvel, Bessemer, or Logistic Land Investment.",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous": "Logistic Land Investment LLC / TPA Group",
+      "updated": "QTS Data Centers; Logistic Land Investment LLC / TPA Group as developer/land vehicle",
+      "reason": "QTS published an official Bessemer data center page and gave local media a statement that it is pursuing plans for a proposed campus on the Project Marvel site."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "previous": "approved by Bessemer City Council",
+      "updated": "approved-permitted",
+      "reason": "Bessemer City Council rezoning approvals cover the original site and the 914-acre expansion, but no source verified site work, construction, energization, or live capacity."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "evidence_date",
+      "previous": "2025-11-19",
+      "updated": "2026-07-14",
+      "reason": "QTS official Bessemer page shows a July 14, 2026 modification date and confirms the project remains in development."
+    }
+  ],
+  "contradictions": [
+    "Acreage is reported at about 700 acres / 677 acres for the original plan, plus 914 additional acres / about 900 acres, yielding an updated roughly 1,600-acre campus. Sources align directionally but use rounded figures.",
+    "QTS official materials confirm a Bessemer facility in development but do not publish the Project Marvel name or the 1.2 GW capacity; capacity remains supported by developer presentation/local reporting and DCD, not by QTS's site page.",
+    "No source found in this refresh confirms building permits, site clearing, construction start, utility contract execution, energization, or live service."
+  ],
   "discovery_file": "candidates-secondary-markets.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

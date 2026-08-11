@@ -2,15 +2,21 @@
   "master_id": "USDC-0162",
   "canonical_project": "Nscale/Ionic Digital Ward County AI campus",
   "aliases": [
-    "Nscale/Ionic Digital Ward County AI campus"
+    "Nscale/Ionic Digital Ward County AI campus",
+    "Cedarvale, Barslow/Pyote TX Data Center",
+    "Cedarvale facility",
+    "Nscale Ward County",
+    "Ionic Digital Cedarvale"
   ],
   "location": {
     "city": "Pyote / Barstow area",
     "county": "Ward",
-    "state": "Texas"
+    "state": "Texas",
+    "site_description": "SEC-filed lease Exhibit A describes a 50.079-acre premises in Section 229, Block 34, H. & T.C. RR. Co. Survey, Abstract No. 292, Ward County, Texas; the leased premises exclude the substation land."
   },
   "phase3_stable_id": "US-TX-NSCALE-WARD-2026",
-  "status_as_of_cutoff": "Candidate is supported by company/SEC material and a Texas Comptroller registry row under the Cedarvale/Barstow-Pyote name; that registry's exemption ended 2026-03-15. No local build permit was found.",
+  "status_as_of_cutoff": "energized: Texas Comptroller now lists Cedarvale, Barslow/Pyote TX Data Center as a Registered Qualifying Large Data Center Project effective 2026-03-16 with Ionic Digital Cedarvale LLC as owner, Nscale Ward County Borrower SPV, LLC as occupant, and Nscale Ward County, LLC / Ionic Digital Mining, LLC operator registrations. Ionic's SEC S-1 filed 2026-06-29 says the Ward County property is fully energized at 234 MW as of 2026-03-31, Nscale leases 234 MW under a 126-month agreement, monthly fixed lease payments commence 2026-08, and AI campus use begins in Q3 2026. Nscale and Ionic announced the deal on 2025-10-15/2025-10-14; no Ward County local permit record was found in public search.",
+  "evidence_grade": "A-",
   "actions": [
     {
       "id": "A20",
@@ -37,10 +43,98 @@
       "primary_url": "https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php",
       "access_caveat": "The list is a current registry snapshot and does not explain the reason for the end date or whether a different registration replaced it.",
       "notes": "Tax-incentive status; not evidence of project cancellation."
+    },
+    {
+      "id": "A22",
+      "date": "2025-10-14",
+      "body": "Ionic Digital Inc.",
+      "meeting_date": null,
+      "action_type": "company lease announcement",
+      "result_or_status": "Ionic announced a lease agreement with Nscale for the Cedarvale facility in Barstow, Texas; Nscale would lease the full 234 MW capacity under a 10-year triple-net lease with approximately $2 billion in contracted revenues.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://ionicdigital.com/press-releases/ionic-digital-secures-transformational-lease-agreement-of-cedarvale-facility-with-nscale/",
+      "access_caveat": "Company announcement; not a county permit or construction approval.",
+      "notes": "Supports owner/developer identity, 234 MW capacity, lease structure, and AI/HPC reuse of the Cedarvale facility."
+    },
+    {
+      "id": "A23",
+      "date": "2025-10-15",
+      "body": "Nscale",
+      "meeting_date": null,
+      "action_type": "customer/offtake announcement",
+      "result_or_status": "Nscale announced an expanded Microsoft deal including approximately 104,000 NVIDIA GB300 GPUs in a roughly 240 MW Texas hyperscale AI campus leased from Ionic Digital, with phased NVIDIA AI infrastructure services to Microsoft from Q3 2026.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://www.nscale.com/press-releases/nscale-microsoft-2025",
+      "access_caveat": "Nscale rounds the Texas campus to roughly 240 MW, while Ionic/SEC lease materials state 234 MW.",
+      "notes": "Also states an intended 1.2 GW footprint over time and Microsoft option on a second 700 MW phase starting in late 2027."
+    },
+    {
+      "id": "A24",
+      "date": "2025-10-14",
+      "body": "U.S. Securities and Exchange Commission / Ionic Digital Inc.",
+      "meeting_date": null,
+      "action_type": "filed lease agreement",
+      "result_or_status": "SEC-filed net lease identifies Ionic Digital Cedarvale LLC as landlord and Nscale Ward County LLC as tenant, effective 2025-10-14 and amended 2026-02-27; Exhibit A describes the leased premises as 50.079 acres in Ward County.",
+      "vote_tally": null,
+      "case_or_number": "Exhibit 10.16; SEC accession 0001185185-26-002704",
+      "primary_url": "https://www.sec.gov/Archives/edgar/data/2007691/000118518526002704/ionicdigiex10-16.htm",
+      "access_caveat": "Filed contract confirms parties and premises but redacts rent rates and is not a local land-use approval.",
+      "notes": "Lease references the existing qualified data center exemption and Nscale/Nscale SPV intent to apply as qualified operator/occupant."
+    },
+    {
+      "id": "A25",
+      "date": "2026-03-16",
+      "body": "Texas Comptroller of Public Accounts",
+      "meeting_date": null,
+      "action_type": "qualifying large data-center project registration",
+      "result_or_status": "Comptroller current list records Cedarvale, Barslow/Pyote TX Data Center as a Registered Qualifying Large Data Center Project effective 2026-03-16, with Ionic Digital Cedarvale LLC owner registration LD449964-OW1, Nscale Ward County Borrower SPV, LLC occupant registration LD449964-OC1, and operator registrations for Nscale Ward County, LLC and Ionic Digital Mining, LLC.",
+      "vote_tally": null,
+      "case_or_number": "LD449964-OW1; LD449964-OC1; LD449964-OP1; LD449964-OP2",
+      "primary_url": "https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php",
+      "access_caveat": "State tax-incentive/registration record, not a county construction permit.",
+      "notes": "This appears to supersede or follow the prior DC961705/DC737649 row that ended 2026-03-15."
+    },
+    {
+      "id": "A26",
+      "date": "2026-06-29",
+      "body": "U.S. Securities and Exchange Commission / Ionic Digital Inc.",
+      "meeting_date": null,
+      "action_type": "S-1 operational and expansion disclosure",
+      "result_or_status": "Ionic's S-1 states its largest facility is in Ward County, Texas; as of 2026-03-31 the self-owned, recently constructed property was fully energized at 234 MW, with 50 of 136 acres developed and the remaining 86 acres being developed to support up to approximately 700 MW. It also states Nscale contracted for 234 MW under a 126-month lease, monthly fixed payments commence in 2026-08, Nscale is obligated to lease an additional 89 MW if available, and expansion is subject to regulatory approval.",
+      "vote_tally": null,
+      "case_or_number": "Form S-1 filed 2026-06-29; SEC accession 0001185185-26-002704",
+      "primary_url": "https://www.sec.gov/Archives/edgar/data/2007691/000118518526002704/ionicdigis1061026.htm",
+      "access_caveat": "Issuer disclosure; forward-looking expansion language is not proof that 89 MW/700 MW/1.2 GW has been energized.",
+      "notes": "Supports status layer as energized for current 234 MW, while AI service delivery is still described as a Q3 2026 ramp."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 234,
+  "capacity_detail": {
+    "current_energized_mw": 234,
+    "nscale_lease_current_mw": 234,
+    "contracted_expansion_if_available_mw": 89,
+    "ionic_target_total_mw": 700,
+    "nscale_stated_footprint_target_mw": 1200,
+    "notes": "Use 234 MW as verified current capacity. Nscale rounds the initial Texas campus to roughly 240 MW; 89 MW, 700 MW, and 1.2 GW are contingent/planned expansion figures."
+  },
+  "owner": "Ionic Digital Cedarvale LLC",
+  "tenant_or_offtaker": "Nscale Ward County LLC / Nscale Ward County Borrower SPV, LLC; Microsoft receives AI infrastructure services from Nscale under the 2025 expanded deal.",
+  "status_history": [
+    {
+      "date": "2026-07-16",
+      "status": "candidate",
+      "capacity_mw": null,
+      "note": "Baseline had company/SEC material and a Comptroller registry row ending 2026-03-15, but no reconciled owner/capacity/status."
+    },
+    {
+      "date": "2026-08-11",
+      "status": "energized",
+      "capacity_mw": 234,
+      "note": "Refreshed with current Comptroller large-project registration, SEC lease/prospectus, and Nscale/Ionic announcements."
+    }
+  ],
   "sources": {
     "phase3_stable_id": "US-TX-NSCALE-WARD-2026",
     "phase3_source_file": "phase3/county_tx.json",
@@ -48,9 +142,28 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php",
+      "https://ionicdigital.com/press-releases/ionic-digital-secures-transformational-lease-agreement-of-cedarvale-facility-with-nscale/",
+      "https://www.nscale.com/press-releases/nscale-microsoft-2025",
+      "https://www.nscale.com/ai-infrastructure",
+      "https://www.sec.gov/Archives/edgar/data/2007691/000118518526002704/ionicdigis1061026.htm",
+      "https://www.sec.gov/Archives/edgar/data/2007691/000118518526002704/ionicdigiex10-16.htm"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "current capacity wording",
+      "details": "Ionic and SEC lease/S-1 materials state 234 MW current capacity; Nscale public pages round the same Texas campus to roughly 240 MW. Treat 234 MW as the precise verified value and roughly 240 MW as rounded marketing language."
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "status wording",
+      "details": "SEC says the Ward County property was fully energized at 234 MW as of 2026-03-31, while Nscale says phased AI infrastructure services to Microsoft start from Q3 2026. Class status as energized, not full AI buildout."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

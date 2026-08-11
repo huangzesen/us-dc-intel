@@ -9,11 +9,26 @@
   "location": {
     "city": "Westfield",
     "county": "Hampden County",
-    "state": "MA"
+    "state": "MA",
+    "address_or_project_area": "Servistar Industrial Way / Campanelli Drive / Ampad Road / Egleston Road project area near Westfield-Barnes Regional Airport",
+    "official_2021_project_area": "City meeting notice describes 10 data-center buildings totaling 2.74 million square feet on 155.49 acres at 0 Ampad Road (Parcels 56R-96, 97, 98), 0 Egleston Road (Parcels 56R-30, 47), Parcel 63R-3-2D, 10 and 15 Campanelli Drive, and 85, 81, 91, 97, 103, 115 and 191 Servistar Industrial Way."
   },
   "phase3_stable_id": "US-MA-SERVISTAR-WESTFIELD-2021",
-  "status_as_of_cutoff": "Proposed/under development, with no verified construction. The City's 2026 update says local Planning Board and City Council approvals occurred in 2021, activity paused while state legislation was pursued, and review resumed in 2025; it also says current questions about water, electricity, and municipal services remain under review. No special-permit file, MEPA record, building permit, CO, energization, or service record was located.",
+  "status_as_of_cutoff": "Local process / approved-permitted, with no verified construction as of 2026-08-11. City records show a 2021 Chapter 121A local approval track for Servistar Realties LLC and a 2026 City Council moratorium on additional/new data centers, while state officials paused acceptance of new qualified-data-center sales/use-tax exemption applications on 2026-06-25. Current public evidence does not show site work, building permit issuance, certificate of occupancy, energization, ISO-NE formal queue entry, or full buildout.",
+  "evidence_grade": "B - official city/state records confirm the 2021 local approval process, 2026 water/energy applicant fact sheet, and 2026 state tax-incentive pause; local/regional reporting confirms the July 2026 moratorium vote and reported 274 MW buildout figure. Construction, energization, tenant, and final state incentive qualification remain unverified.",
   "actions": [
+    {
+      "date": "2021-10-05",
+      "date_precision": "day",
+      "government_body": "City of Westfield Planning Board",
+      "action_type": "M.G.L. c.121A planning-board report / recommendation",
+      "result_status": "Planning Board report for Servistar Realties LLC found the proposed hyperscale campus generally consistent with planning criteria, identified the project as 10 data-center buildings totaling more than 2.7 million square feet on an approximately 162-acre project area, and noted that special permits, detailed site plan approval, environmental review and Conservation Commission review were still pending.",
+      "vote_tally": "6-1 reported in the city's October 18, 2021 additional-amenities memorandum",
+      "case_or_ordinance_permit_number": "Servistar Realties LLC data center project; M.G.L. c.121A application",
+      "primary_url": "https://www.cityofwestfield.org/DocumentCenter/View/10541/Planning-Board-recommendation-on-Servistar-LLC-application-for-Data-Center",
+      "access_caveat": "Official city PDF is a planning report/recommendation, not evidence of building permit issuance or construction start.",
+      "evidence_note": "Used to replace the previously undated 2021 approval summary with a dated official action."
+    },
     {
       "date": null,
       "date_precision": "undated",
@@ -51,6 +66,18 @@
       "evidence_note": "Company/project context explicitly labeled."
     },
     {
+      "date": "2026-06",
+      "date_precision": "month",
+      "government_body": "City of Westfield / applicant-published fact sheet hosted by City",
+      "action_type": "water and electricity impact claims",
+      "result_status": "Fact sheet states Servistar's proposed closed-loop cooling would use near-zero potable water for cooling and 5,000-10,000 gallons per day for non-cooling uses, and that the campus would be an independent customer of Westfield Gas & Electric isolated from WG&E's local distribution system.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Servistar Data Center Campus Water, Energy, Fact Sheet",
+      "primary_url": "https://www.cityofwestfield.org/DocumentCenter/View/17988/Servistar-Data-Center-Campus-Water-Energy-Fact-Sheet",
+      "access_caveat": "Applicant/advocacy fact sheet hosted on city document center; claims are not independently verified utility-service approvals.",
+      "evidence_note": "Utility and water assertions recorded as applicant claims only."
+    },
+    {
       "date": "2026-06-15",
       "date_precision": "day",
       "government_body": "City of Westfield Mayor's Office / Economic Development",
@@ -61,10 +88,40 @@
       "primary_url": "https://westfielddevelopment.com/m/newsflash/Home/Detail/1724",
       "access_caveat": "City update; applicant fact-sheet statements about closed-loop cooling and dedicated transmission service are explicitly applicant claims.",
       "evidence_note": "Current official status is ongoing review, not groundbreaking or permit completion."
+    },
+    {
+      "date": "2026-06-25",
+      "date_precision": "day",
+      "government_body": "Commonwealth of Massachusetts Governor's Office / Executive Office of Economic Development",
+      "action_type": "state data-center tax-incentive pause",
+      "result_status": "Governor Healey announced that Massachusetts would pause accepting data-center sales-tax-exemption applications until stronger protections are in place for ratepayers, infrastructure, public health and the environment.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Massachusetts Qualified Data Center Sales and Use Tax Exemption pause",
+      "primary_url": "https://www.mass.gov/news/governor-healey-halts-data-center-tax-incentive-and-calls-for-strict-guardrails-to-protect-ratepayers-environment-public-health",
+      "access_caveat": "Statewide policy action; not a project-specific denial or revocation.",
+      "evidence_note": "Changes incentive-context risk; does not by itself cancel Servistar."
+    },
+    {
+      "date": "2026-07-06",
+      "date_precision": "day",
+      "government_body": "City of Westfield City Council",
+      "action_type": "temporary zoning moratorium on data centers",
+      "result_status": "City Council agenda scheduled second reading and final passage of an ordinance amending zoning relative to a moratorium on data centers; local reporting says the council confirmed/approved the 12-month moratorium at that meeting.",
+      "vote_tally": "reported unanimous by local media; official minutes not located in this refresh",
+      "case_or_ordinance_permit_number": "Ordinance amending Appendix B-Zoning relative to a moratorium on data centers",
+      "primary_url": "https://www.cityofwestfield.org/AgendaCenter/ViewFile/Agenda/_07062026-8585",
+      "access_caveat": "Official agenda verifies the final-passage item; city minutes or signed ordinance were not located. Local media reports approval and says the pause applies to data centers generally/additional projects, not necessarily the already-approved Servistar project.",
+      "evidence_note": "Recorded as policy/process risk, not construction-stop evidence."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 274,
+  "capacity_mw_evidence": {
+    "status": "reported_full_buildout_not_permit_confirmed",
+    "source_url": "https://www.bostonglobe.com/2026/07/14/business/westfield-data-center-backlash-healey/",
+    "source_date": "2026-07-14",
+    "note": "Boston Globe reported 274 MW at full buildout; official city records reviewed in this refresh confirm building count and square footage but not a permitted MW capacity."
+  },
+  "owner": "Servistar Realties LLC",
   "sources": {
     "phase3_stable_id": "US-MA-SERVISTAR-WESTFIELD-2021",
     "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
@@ -72,9 +129,38 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.cityofwestfield.org/DocumentCenter/View/10541/Planning-Board-recommendation-on-Servistar-LLC-application-for-Data-Center",
+      "https://www.cityofwestfield.org/AgendaCenter/ViewFile/ArchivedAgenda/_10182021-2046",
+      "https://www.cityofwestfield.org/DocumentCenter/View/17988/Servistar-Data-Center-Campus-Water-Energy-Fact-Sheet",
+      "https://www.cityofwestfield.org/AgendaCenter/ViewFile/Agenda/_06182026-8546",
+      "https://www.cityofwestfield.org/AgendaCenter/ViewFile/Agenda/_07062026-8585",
+      "https://www.mass.gov/news/governor-healey-halts-data-center-tax-incentive-and-calls-for-strict-guardrails-to-protect-ratepayers-environment-public-health",
+      "https://thereminder.com/local-news/hampden-county/westfield/westfield-city-council-approves-data-center-moratorium/",
+      "https://www.bostonglobe.com/2026/07/14/business/westfield-data-center-backlash-healey/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "as_of": "2026-08-11",
+      "topic": "2026 moratorium effect on Servistar",
+      "details": "Official city agenda verifies final-passage consideration of a data-center moratorium, and local reporting says the moratorium was approved. Boston Globe reporting says it will not prevent the already-approved Servistar project from going forward, while local public testimony described unresolved project prerequisites such as permit acceptance, property purchase and ISO-NE formal consideration. No official minutes or signed ordinance text were located during this refresh."
+    },
+    {
+      "as_of": "2026-08-11",
+      "topic": "capacity",
+      "details": "Boston Globe reports 274 MW at full buildout; official city materials reviewed here confirm 10 buildings and 2.7-2.74 million square feet but do not publish a permitted MW capacity."
+    }
+  ],
+  "history": [
+    {
+      "as_of": "pre-2026-08-11",
+      "status_as_of_cutoff": "Proposed/under development, with no verified construction. The City's 2026 update says local Planning Board and City Council approvals occurred in 2021, activity paused while state legislation was pursued, and review resumed in 2025; it also says current questions about water, electricity, and municipal services remain under review. No special-permit file, MEPA record, building permit, CO, energization, or service record was located.",
+      "capacity_mw": null,
+      "owner": null
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

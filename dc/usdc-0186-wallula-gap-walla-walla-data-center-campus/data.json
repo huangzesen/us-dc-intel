@@ -9,13 +9,84 @@
   "location": {
     "city": "Wallula (unincorporated)",
     "county": "Walla Walla",
-    "state": "WA"
+    "state": "WA",
+    "site": "Wallula Gap Business Park, Attalia UGA / Wallula Gap area, southeast of the Tri-Cities along US-12",
+    "site_evidence": "Walla Walla County's Amazon Data Center FAQ identifies the project land as 554 acres in the Wallula Gap Business Park; local reporting describes the business park as southeast of the Tri-Cities on Highway 12."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
+  "status_as_of_cutoff": "local process: Walla Walla County's Amazon Data Center FAQ, last updated 2026-06-24, confirms the Port of Walla Walla approved sale of 554 acres in Wallula Gap Business Park to Amazon Data Services on 2026-02-12 and lists TRC26-13 pre-application materials plus a 2026-06-23 Notice of Incomplete Application for SDP26-01/SEPA26-05. Reviewed sources support proposed/planning-stage status, not approved-permitted, construction, energization, partial live, or full buildout.",
+  "evidence_grade": "B+: official county FAQ verifies owner, land-sale approval, zoning/process posture, pre-application record, and incomplete SDP/SEPA application; local/trade sources corroborate full-campus scale. MW capacity, final permit approval, construction start, utility interconnection, and energization were not verified.",
+  "actions": [
+    {
+      "date": "2024-10-24",
+      "date_precision": "day",
+      "government_body": "Port of Walla Walla Commission",
+      "action_type": "land-sale consideration / local economic-development process",
+      "result_status": "Contemporaneous regional reporting said the Port Commission was considering sale of about 500 acres at Wallula Gap Business Park to Advance Phase LLC for a proposed $4.8 billion, 16-building data-center campus.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Project Tree / Advance Phase LLC",
+      "primary_url": "https://www.govtech.com/products/key-decision-near-for-proposed-eastern-wash-5b-data-center",
+      "access_caveat": "GovTech republishes Tri-City Herald reporting; used for 2024 proposal context where the official agenda packet was not directly retrieved in this refresh.",
+      "evidence_note": "Supports original announced/local-process context, not construction."
+    },
+    {
+      "date": "2026-02-12",
+      "date_precision": "day",
+      "government_body": "Port of Walla Walla / Walla Walla County Community Development",
+      "action_type": "land-sale approval",
+      "result_status": "County FAQ states the Port of Walla Walla approved sale of 554 acres in Wallula Gap Business Park to Amazon Data Services.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.wwcowa.gov/government/community_development/amazon_data_center_faqs.php",
+      "access_caveat": "County FAQ links to Port minutes and summarizes the approval; sale approval is not a county development permit or construction-start record.",
+      "evidence_note": "Supports owner/entity update from unknown/Advance Phase to Amazon Data Services."
+    },
+    {
+      "date": "2026-04-29",
+      "date_precision": "day",
+      "government_body": "Walla Walla County Community Development",
+      "action_type": "pre-application meeting",
+      "result_status": "County FAQ lists the first PreApplication Meeting for TRC26-13 on 2026-04-29 and links application, questions, site plan, survey, and project information request materials dated April 2026.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "TRC26-13",
+      "primary_url": "https://www.wwcowa.gov/government/community_development/amazon_data_center_faqs.php",
+      "access_caveat": "Pre-application materials are not permit approval.",
+      "evidence_note": "Supports local-process status."
+    },
+    {
+      "date": "2026-06-23",
+      "date_precision": "day",
+      "government_body": "Walla Walla County Community Development",
+      "action_type": "notice of incomplete application",
+      "result_status": "County FAQ lists a Notice of Incomplete Application for Site Development Permit SDP26-01 and SEPA review SEPA26-05 dated 2026-06-23.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "SDP26-01; SEPA26-05",
+      "primary_url": "https://www.wwcowa.gov/government/community_development/amazon_data_center_faqs.php",
+      "access_caveat": "The linked NOIA PDF could not be independently extracted in this refresh, but the official county FAQ directly lists the notice and case numbers.",
+      "evidence_note": "An incomplete application is not an approval; it keeps the project in local process."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Amazon Web Services / Walla Walla County Community Development posting",
+      "action_type": "public outreach",
+      "result_status": "County FAQ posts an Amazon-hosted open house on 2026-08-11 at Columbia High School in Burbank and says it is not a public hearing or county-required/sponsored event.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.wwcowa.gov/government/community_development/amazon_data_center_faqs.php",
+      "access_caveat": "Public outreach is not a permit action.",
+      "evidence_note": "Supports current proposal/planning-stage community process."
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_mw_note": "No official MW, IT critical load, utility interconnection capacity, or energized capacity was found. Public sources describe project cost, acreage, building count, square footage, water estimates, and energy-impact concerns but do not provide a verified campus MW.",
+  "owner": "Amazon Data Services, Inc. / Amazon Web Services (AWS)",
+  "project_scope": {
+    "land_area_acres": 554,
+    "full_campus_reported": "Regional/trade reporting describes a planned 16-building campus developed in four phases, each with four roughly 215,000-square-foot buildings, totaling more than 3.4 million square feet.",
+    "current_application_reported": "A July 31, 2026 SEPA comment letter describing Amazon's submitted materials says the Attalia Campus materials cover a 134-acre campus with three one-story data-center buildings, a security building, water-treatment building, electrical substation, evaporation ponds, and septic drain field; the letter says the first environmental-review phase considers Data Center A plus the security and water buildings.",
+    "scope_caveat": "The 16-building/full-campus concept and the 3-building/134-acre application-stage materials appear to describe different planning layers or phases; no final approved site plan or buildout permit was verified."
+  },
   "sources": {
     "phase3_stable_id": "US-WA-ADVANCE-PHASE-WALLULA-2024",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -25,9 +96,61 @@
       "US-WA-WALLA-WALLA-CAMPUS-2024"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.wwcowa.gov/government/community_development/amazon_data_center_faqs.php",
+      "https://www.portwallawalla.com/images/meeting/minutes/2026/2.12.26.pdf",
+      "https://www.tricitiesbusinessnews.com/articles/amazon-to-host-wallula-gap-data-center-open-house",
+      "https://www.tricitiesbusinessnews.com/articles/amazon-wallula-gap",
+      "https://elkhornmediagroup.com/walla-walla-county-halts-amazon-data-center-plans-over-missing-impact-studies/",
+      "https://www.govtech.com/products/key-decision-near-for-proposed-eastern-wash-5b-data-center",
+      "https://www.datacenterdynamics.com/en/news/aws-likely-behind-48bn-data-center-in-walla-walla-washington/",
+      "https://earthjustice.org/document/comments-on-amazon-attalia-campus-data-center"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "application status wording on county FAQ",
+      "description": "The county FAQ page lists TRC26-13 pre-application materials and a 2026-06-23 Notice of Incomplete Application for SDP26-01/SEPA26-05, but a lower FAQ answer still says Community Development has not received applications. Treated as stale FAQ wording; status remains local process/incomplete application rather than approved-permitted.",
+      "sources": [
+        "https://www.wwcowa.gov/government/community_development/amazon_data_center_faqs.php",
+        "https://elkhornmediagroup.com/walla-walla-county-halts-amazon-data-center-plans-over-missing-impact-studies/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "campus scope / phase segmentation",
+      "description": "Full-campus public reporting describes 16 buildings across 554 acres, while SEPA-comment materials describe a current 134-acre Attalia Campus submittal with three one-story data-center buildings and first-phase review focused on Data Center A plus support buildings. The discrepancy is retained as phase/scope ambiguity until official application documents are fully retrievable.",
+      "sources": [
+        "https://www.tricitiesbusinessnews.com/articles/amazon-to-host-wallula-gap-data-center-open-house",
+        "https://earthjustice.org/document/comments-on-amazon-attalia-campus-data-center"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": null,
+      "new_value": "local process",
+      "reason": "Official Walla Walla County FAQ confirms Port land-sale approval, TRC26-13 pre-application materials, and SDP26-01/SEPA26-05 incomplete application; no permit approval, construction, energization, or live status was verified."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Amazon Data Services, Inc. / Amazon Web Services (AWS)",
+      "reason": "Walla Walla County FAQ states the Port approved sale of the Wallula Gap Business Park acreage to Amazon Data Services on 2026-02-12; regional/trade sources corroborate Amazon/AWS as successor to Advance Phase LLC."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": null,
+      "reason": "No official MW, interconnection, utility-service capacity, or energized load evidence found; capacity remains null."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

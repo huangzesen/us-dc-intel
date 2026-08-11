@@ -5,18 +5,113 @@
   "location": {
     "city": "Fort Stockton area",
     "county": "Pecos",
-    "state": "TX"
+    "state": "TX",
+    "address": "6000 TX-18, Fort Stockton, TX 79735",
+    "power_project_location": "Highway 18 approximately 17 miles north of Fort Stockton, Pecos County, TX 79735"
   },
   "capacity_mw": 7650,
-  "status": "filed / permitted power campus; construction start reported for 2026; first power targeted 2027",
-  "confidence": "medium",
-  "evidence_date": "2026-08-10",
+  "capacity_notes": "7.65 GW is Pacifico/TCEQ permitted gross gas generation capacity for GW Ranch, not disclosed Amazon IT load. TCEQ technical summary describes a 5,000 MW nominal-output plant for an on-site AI data center; Pacifico describes over 5 GW deliverable private-grid power, plus 1.8 GW battery storage and up to 750 MWac solar.",
+  "status": "approved-permitted",
+  "status_detail": "TCEQ air permits issued for Pacifico GW Ranch Energy Center; TDLR architectural-barriers registrations filed for Amazon Data Services Buildings A, B, and C. TDLR records list projected 2026-08-01 construction start and 2026-12-01 completion, but official current status remains Project Registered.",
+  "confidence": "high",
+  "evidence_date": "2026-08-11",
   "sources": [
     "https://www.datacenterdynamics.com/en/news/amazon-acquires-8000-acre-site-in-pecos-texas-for-natural-gas-powered-behind-the-meter-data-center-report/",
     "https://www.datacenterdynamics.com/en/news/amazon-files-to-develop-two-new-data-center-campuses-in-texas/",
-    "https://www.pacificoenergy.com/gw-ranch"
+    "https://www.pacificoenergy.com/gw-ranch",
+    "https://www.tdlr.texas.gov/TABS/Projects/TABS2026026954",
+    "https://www.tdlr.texas.gov/TABS/Projects/TABS2026026955",
+    "https://www.tdlr.texas.gov/TABS/Projects/TABS2026026959",
+    "https://records.tceq.texas.gov/cs/idcplg?IdcService=TCEQ_APD_SEARCH_GET_FILE&SearchID=15228583&searchType=External&xAPDParent=8069891",
+    "https://www.pacificoenergy.com/post/pacifico-energy-secures-7-65-gw-power-generation-permit-for-gw-ranch-project",
+    "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
+  ],
+  "official_records": {
+    "tdlr_tabs": [
+      {
+        "project_number": "TABS2026026954",
+        "facility_name": "Building A",
+        "registration_date": "2026-08-04",
+        "owner": "AMAZON DATA SERVICES, INC",
+        "address": "6000 TX-18, Fort Stockton, TX 79735",
+        "status": "Project Registered",
+        "start_date": "2026-08-01",
+        "completion_date": "2026-12-01",
+        "estimated_cost_usd": 300000000,
+        "square_footage": 189060,
+        "source_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026026954"
+      },
+      {
+        "project_number": "TABS2026026955",
+        "facility_name": "Building B",
+        "registration_date": "2026-08-04",
+        "owner": "AMAZON DATA SERVICES, INC",
+        "address": "6000 TX-18, Fort Stockton, TX 79735",
+        "status": "Project Registered",
+        "start_date": "2026-08-01",
+        "completion_date": "2026-12-01",
+        "estimated_cost_usd": 300000000,
+        "square_footage": 189060,
+        "source_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026026955"
+      },
+      {
+        "project_number": "TABS2026026959",
+        "facility_name": "Building C",
+        "registration_date": "2026-08-04",
+        "owner": "AMAZON DATA SERVICES, INC",
+        "address": "6000 TX-18, Fort Stockton, TX 79735",
+        "status": "Project Registered",
+        "start_date": "2026-08-01",
+        "completion_date": "2026-12-01",
+        "estimated_cost_usd": 300000000,
+        "square_footage": 189060,
+        "source_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026026959"
+      }
+    ],
+    "tceq_air_permits": {
+      "permit_numbers": [
+        "181033",
+        "PSDTX1672",
+        "GHGPSDTX255"
+      ],
+      "applicant": "Pacifico GW LLC",
+      "regulated_entity_number": "RN112259775",
+      "project": "GW Ranch Energy Center",
+      "description": "Natural gas-fired simple cycle power plant at a greenfield site in Pecos County to provide electricity for an on-site AI data center, with no capability to sell to or receive power from the local utility distribution system.",
+      "nominal_output_mw": 5000,
+      "permitted_gross_gas_generation_mw": 7650,
+      "turbines": 35,
+      "co2e_allowable_tpy": 33204964.44,
+      "source_url": "https://records.tceq.texas.gov/cs/idcplg?IdcService=TCEQ_APD_SEARCH_GET_FILE&SearchID=15228583&searchType=External&xAPDParent=8069891"
+    }
+  },
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "previous": "filed / permitted power campus; construction start reported for 2026; first power targeted 2027",
+      "current": "approved-permitted",
+      "reason": "Normalized to SKILL.md status vocabulary after official TDLR/TCEQ review."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "confidence",
+      "previous": "medium",
+      "current": "high",
+      "reason": "Three TDLR records and TCEQ permit materials are publicly accessible official sources."
+    }
   ],
   "why_not_in_baseline": "Not among the 208 canonical_project names; new Amazon/Pacifico Pecos County behind-the-meter data-center power campus, distinct from baseline Microsoft Pecos and other Texas Stargate/Abilene entries.",
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "issue": "Capacity is reported as 7.65 GW in Pacifico's project materials and media coverage, while TCEQ's preliminary determination describes 5,000 MW nominal output and Pacifico's project page says over 5 GW deliverable power. Treat 7.65 GW as permitted gross gas-generation ceiling, not confirmed data-center IT load."
+    },
+    {
+      "date": "2026-08-11",
+      "issue": "TDLR records show projected construction start on 2026-08-01, while the official current status field is Project Registered. Do not classify as site work-construction without separate official or imagery-backed evidence."
+    }
+  ],
   "discovery_file": "candidates-grid-queue.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

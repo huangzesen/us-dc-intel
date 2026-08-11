@@ -8,10 +8,12 @@
   "location": {
     "city": "Surprise area",
     "county": "Maricopa",
-    "state": "AZ"
+    "state": "AZ",
+    "site_description": "Generally north of Olive Road and one-half mile west of Litchfield Road in the west Glendale area; air permit notice lists NW corner of W Olive Ave and N 143rd Ave, Waddell, AZ 85355."
   },
   "phase3_stable_id": "US-AZ-PROJECT-BACCARA-SURPRISE-2025",
-  "status_as_of_cutoff": "Arizona generation CEC approved; county, building, air, military, and data-center construction approvals remain unresolved. Construction was not verified.",
+  "status_as_of_cutoff": "local process / partially approved: Arizona generation CEC approved on 2026-02-04; Maricopa County Planning and Zoning recommended the Military Compatibility Permit on 2026-04-09; Glendale approved a pre-annexation development agreement on 2026-04-28; Maricopa County Board of Supervisors approved MCP250007 with conditions on 2026-05-06. Air quality permit P0013417, EPA review, Plan of Development, building permits, annexation/rezoning, and construction remain unverified/pending in the reviewed record.",
+  "evidence_grade": "official-local/state-current",
   "actions": [
     {
       "date": "2026-02-04",
@@ -24,10 +26,59 @@
       "primary_url": "https://azcc.gov/news/home/2026/02/06/vice-chair-walden-releases-statement-on-project-baccara",
       "access_caveat": "Official ACC record accessible; CEC approval is not a Maricopa building, zoning, air permit, or certificate of occupancy.",
       "evidence_note": "Body/context retained from prior file: Arizona Corporation Commission."
+    },
+    {
+      "date": "2026-03-04",
+      "date_precision": "day",
+      "government_body": "Maricopa County Air Quality Department",
+      "action_type": "Public notice for proposed air quality permit",
+      "result_status": "MCAQD noticed proposed Permit No. P0013417 for Facility F053690, Takanock Baccara LLC, facility type Power Plant, with public comment running 2026-03-04 through 2026-04-08 and a virtual hearing scheduled for 2026-04-06. Final permit issuance was not verified in the 2026-08-11 refresh.",
+      "case_or_ordinance_permit_number": "F053690 / P0013417",
+      "primary_url": "https://www.projectbaccara.com/_files/ugd/cbe98b_7cd257dc576944ffb5f945e9ade851bb.pdf",
+      "access_caveat": "Public notice PDF is hosted from the developer site but is a Maricopa County Air Quality Department notice; current MCAQD public-notice page reviewed 2026-08-10 no longer lists Baccara among active notices."
+    },
+    {
+      "date": "2026-04-09",
+      "date_precision": "day",
+      "government_body": "Maricopa County Planning and Zoning Commission",
+      "action_type": "Military Compatibility Permit recommendation",
+      "result_status": "Commission voted 8-0 to recommend Board of Supervisors approval of MCP250007 subject to conditions.",
+      "vote_tally": "8-0 yes",
+      "case_or_ordinance_permit_number": "MCP250007",
+      "primary_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Minutes/_04092026-3711"
+    },
+    {
+      "date": "2026-04-28",
+      "date_precision": "day",
+      "government_body": "City of Glendale City Council",
+      "action_type": "Pre-annexation development agreement",
+      "result_status": "Council agenda/video index identifies Resolution R26-42 for a pre-annexation development agreement with Baccara Eagle Land, LLC to facilitate annexation and development of unincorporated Maricopa County property in Glendale's municipal planning area. The accessible record verifies the item, but not a completed annexation.",
+      "case_or_ordinance_permit_number": "Resolution R26-42",
+      "primary_url": "https://glendaleaz.new.swagit.com/videos/384335",
+      "access_caveat": "Video page was indexed but returned 403 during refresh; Laserfiche resolution page was also session-limited. Treat as procedural evidence only, not proof of annexation completion."
+    },
+    {
+      "date": "2026-05-06",
+      "date_precision": "day",
+      "government_body": "Maricopa County Board of Supervisors",
+      "action_type": "Military Compatibility Permit",
+      "result_status": "Board agenda/staff materials placed Project Baccara on the regular agenda and recommended approval of MCP250007 for utility land uses including natural gas power generation facility, backup power, field electrical substation, data center buildings, screening, parking, and security, subject to conditions a-p. Local reporting records the final vote as 4-1 approval. Conditions require later Plan of Development/building-permit review and Luke AFB compatibility compliance documentation.",
+      "vote_tally": "4-1 yes per local reporting; official agenda/staff packet confirms recommended conditions but not the final vote tally in the fetched document",
+      "case_or_ordinance_permit_number": "MCP250007",
+      "primary_url": "https://www.maricopa.gov/AgendaCenter/ViewFile/Item/10264?fileID=100345"
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": {
+    "data_center_it_load_mw": null,
+    "onsite_generation_mw": 700.2,
+    "notes": "ACC official statement gives 700.2 MW for Baccara Power's proposed gas-fired generation plant; developer public site describes approximately 700 MW of generators and two data center buildings. Verified data-center IT load was not found."
+  },
+  "owner": {
+    "developer": "Takanock, LLC",
+    "county_applicant_owner": "Baccara Eagle Land, LLC",
+    "air_permittee": "Takanock Baccara LLC",
+    "generation_applicant": "Baccara Power"
+  },
   "sources": {
     "phase3_stable_id": "US-AZ-PROJECT-BACCARA-SURPRISE-2025",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -35,9 +86,46 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://azcc.gov/Rachel-Walden/news/2026/02/06/vice-chair-walden-releases-statement-on-project-baccara",
+      "https://www.maricopa.gov/AgendaCenter/ViewFile/Minutes/_04092026-3711",
+      "https://www.maricopa.gov/AgendaCenter/ViewFile/Item/10264?fileID=100345",
+      "https://www.projectbaccara.com/_files/ugd/cbe98b_7cd257dc576944ffb5f945e9ade851bb.pdf",
+      "https://www.maricopa.gov/1624/Public-Notices",
+      "https://www.projectbaccara.com/",
+      "https://www.projectbaccara.com/permit-filings-and-public-notices",
+      "https://glendaleaz.new.swagit.com/videos/384335",
+      "https://www.kjzz.org/politics/2026-05-06/controversial-data-center-project-in-west-valley-near-luke-air-force-base-clears-regulatory-hurdle",
+      "https://www.abc15.com/news/local-news/very-disappointed-maricopa-county-supervisors-approve-controversial-data-center"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "approval status",
+      "summary": "Some media headlines characterize the data center as approved, but official county conditions show MCP250007 is not a construction/building approval and requires later Plan of Development, building-permit, emergency/fire-service, air-quality, and Luke AFB compliance documentation before construction."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Arizona generation CEC approved; county, building, air, military, and data-center construction approvals remain unresolved. Construction was not verified.",
+      "reason": "Refresh found Maricopa County Planning and Zoning recommendation, Board of Supervisors MCP approval with conditions, Glendale pre-annexation agreement record, and MCAQD air-permit notice."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "reason": "ACC official statement verified 700.2 MW proposed onsite generation; data-center IT load remains unverified."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "reason": "Official/developer records identify Takanock, LLC, Baccara Eagle Land, LLC, Takanock Baccara LLC, and Baccara Power in different permit/applicant roles."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

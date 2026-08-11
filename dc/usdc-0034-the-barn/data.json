@@ -14,7 +14,8 @@
     "state": "MI"
   },
   "phase3_stable_id": "MI-SALINE-BARN-STARGATE",
-  "status_as_of_cutoff": "Zoning was denied by the Township Board, later changed through a court consent judgment; MPSC conditionally approved DTE special contracts; company-reported construction began, but no government building/EGLE/energization record was located.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11: Saline Township's data-center update page records active construction, utility/foundation work, water-main/sanitary/stormwater installation, dewatering approvals, and issued foundation permits for Operations and Warehouse buildings. MPSC special-contract approval remains under appeal; no energization, certificate of occupancy, or full-buildout record was located.",
+  "evidence_grade": "A-: official township page confirms site work and foundation permits; state utility/regulatory records confirm the 1,383 MW service-contract proceeding and appeal; company releases confirm The Barn/Stargate campus branding and 1 GW campus claim. No official energization or occupancy record found.",
   "actions": [
     {
       "date": "2025-08-12",
@@ -65,6 +66,42 @@
       "evidence_note": "Regulator record directly ties customer identity and load to the proceeding."
     },
     {
+      "date": "2026-01-21",
+      "date_precision": "day",
+      "government_body": "Saline Township Data Center Advisory Committee / Michigan EGLE",
+      "action_type": "environmental / monitoring-well permit update",
+      "result_status": "Township update says permits had been obtained for monitoring wells and EGLE had issued wetlands permits and permits to install generators.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://salinetownship.org/data-center-update",
+      "access_caveat": "Township summary page; individual EGLE permit documents were not independently retrieved in this refresh.",
+      "evidence_note": "Official local-government update supports environmental/permitting progress, not energization."
+    },
+    {
+      "date": "2026-03-18",
+      "date_precision": "day",
+      "government_body": "Saline Township Data Center Advisory Committee",
+      "action_type": "construction-status update",
+      "result_status": "Township update records Compute 1 pylons finished, utility and foundation work underway, gravel hauling about 60% complete, and a concrete batch plant expected to be operational in early April.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://salinetownship.org/data-center-update",
+      "access_caveat": "Official advisory-committee update; does not identify a building certificate, inspection completion, energization, or occupancy approval.",
+      "evidence_note": "Official local record upgrades status to site work-construction."
+    },
+    {
+      "date": "2026-03-27",
+      "date_precision": "day",
+      "government_body": "Michigan Public Service Commission",
+      "action_type": "battery-storage contract approval / rehearing denial",
+      "result_status": "MPSC approved the first 332 MW of company-owned battery storage facilities associated with Green Chile Ventures' 1,383 MW data-center contracted demand, and denied petitions for rehearing/reopening in the Saline Township data-center special-contract case.",
+      "vote_tally": "Commission approval/denial; numeric roll call not stated in release",
+      "case_or_ordinance_permit_number": "U-21990",
+      "primary_url": "https://www.michigan.gov/mpsc/commission/news-releases/2026/03/27/mpsc-goes-big-on-batteries",
+      "access_caveat": "Utility/regulatory approval; not a local building permit or proof of energization.",
+      "evidence_note": "Confirms load figure and continuing regulatory posture."
+    },
+    {
       "date": "2026-04-17",
       "date_precision": "day",
       "government_body": "Michigan Attorney General",
@@ -77,6 +114,42 @@
       "evidence_note": "Pending challenge preserved."
     },
     {
+      "date": "2026-04-29",
+      "date_precision": "day",
+      "government_body": "Saline Township Data Center Advisory Committee / EGLE",
+      "action_type": "foundation permits / dewatering determination",
+      "result_status": "Township update says permits were issued for Operations and Warehouse building foundations. It also reports EGLE Site-Specific Review SSR #10188-20264-23 authorized withdrawal capacity of 681 gallons per minute after determining the withdrawal was not likely to cause an adverse resource impact.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "SSR #10188-20264-23",
+      "primary_url": "https://salinetownship.org/data-center-update",
+      "access_caveat": "Official township summary and linked EGLE SSR reference; not proof of complete building approval, occupancy, or power-on.",
+      "evidence_note": "Official local update confirms limited foundation permitting and water/dewatering approval."
+    },
+    {
+      "date": "2026-05-13",
+      "date_precision": "day",
+      "government_body": "Saline Township Data Center Advisory Committee",
+      "action_type": "construction-status update",
+      "result_status": "Township update says water-main construction had started throughout the campus, sanitary-main and stormwater-culvert installation had started on the northeast side of Compute 1, and substation construction was anticipated in mid-June.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://salinetownship.org/data-center-update",
+      "access_caveat": "Official township update; substation timing was prospective at this date.",
+      "evidence_note": "Confirms continuing civil/utility work."
+    },
+    {
+      "date": "2026-06-01",
+      "date_precision": "day",
+      "government_body": "Oracle / Related Digital / Blackstone / OpenAI / Walbridge (not a government action)",
+      "action_type": "company construction announcement",
+      "result_status": "Oracle release says the partners and Governor Whitmer celebrated construction of The Barn in Saline Township, describes it as under construction, and says more than 700 trades workers were currently building the campus.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.oracle.com/news/announcement/related-digital-oracle-openai-walbridge-and-governor-whitmer-celebrate-construction-of-stargate-campus-in-saline-township-2026-06-01/",
+      "access_caveat": "Company announcement; government attendance does not make this a permit, inspection, occupancy, or energization record.",
+      "evidence_note": "Company source aligns with official township construction updates."
+    },
+    {
       "date": "2026-06-01",
       "date_precision": "day",
       "government_body": "OpenAI / Oracle / Related / Walbridge (not a government action)",
@@ -87,10 +160,93 @@
       "primary_url": "https://openai.com/index/stargate-michigan-data-center/",
       "access_caveat": "Company announcement; no building, EGLE, CO, or power-on record is inferred.",
       "evidence_note": "Company-reported construction milestone only."
+    },
+    {
+      "date": "2026-06-10",
+      "date_precision": "day",
+      "government_body": "Saline Township Data Center Advisory Committee",
+      "action_type": "construction-status update",
+      "result_status": "Township update records temporary stormwater/dewatering discussions, generator information provided by Related, and delayed substation equipment delivery.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://salinetownship.org/data-center-update",
+      "access_caveat": "Official township update; delay is equipment-delivery status, not cancellation.",
+      "evidence_note": "Substation timing remains not fully verified."
+    },
+    {
+      "date": "2026-07-10",
+      "date_precision": "day",
+      "government_body": "Saline Township Data Center Advisory Committee",
+      "action_type": "water-well monitoring update",
+      "result_status": "Township update says a new monitoring-well data report had been submitted, with readings through June 2026.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://salinetownship.org/data-center-update",
+      "access_caveat": "Official township update; monitoring submission does not establish operational status.",
+      "evidence_note": "Latest official local-government update located in this refresh."
+    },
+    {
+      "date": "2026-07-14",
+      "date_precision": "day",
+      "government_body": "Saline Township Board",
+      "action_type": "tax abatement approval",
+      "result_status": "Bridge Michigan reported that the Township approved a 12-year, 50% tax abatement for The Barn based on a $4.8 billion project value rather than a current claimed $43 billion valuation, with a clawback provision if completion/operation conditions are not met.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://bridgemi.com/business-watch/massive-data-center-wins-local-tax-break-but-9-times-smaller-than-requested/",
+      "access_caveat": "Regional media report; official Township minutes for this specific action were not retrieved in this refresh.",
+      "evidence_note": "Treat as secondary-source local fiscal action until official minutes are available."
+    },
+    {
+      "date": "2026-08-07",
+      "date_precision": "day",
+      "government_body": "Michigan Attorney General / Michigan Court of Appeals",
+      "action_type": "appeal briefing",
+      "result_status": "The Attorney General announced she filed a brief supporting her appeal of MPSC's conditional approval of DTE special contracts for the 1.4 GW Saline data center, seeking invalidation and remand for a contested case hearing.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "U-21990; COA docket nos. 380362, 380364, 380878",
+      "primary_url": "https://www.michigan.gov/ag/news/press-releases/2026/08/07/ag-nessel-briefs-appeal-over-mpsc-approval-of-dte-saline-data-center-contracts",
+      "access_caveat": "Appeal briefing is pending litigation activity and does not itself vacate MPSC approval or establish construction/energization status.",
+      "evidence_note": "Latest state legal/regulatory update located."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 1383,
+  "capacity_basis": "MPSC/DTE contracted electric demand for Green Chile Ventures in U-21990; company project pages separately describe The Barn as a 1 GW data-center campus.",
+  "capacity_claims": [
+    {
+      "date": "2026-03-27",
+      "value_mw": 1383,
+      "basis": "contracted electric demand / MPSC proceeding",
+      "source_url": "https://www.michigan.gov/mpsc/commission/news-releases/2026/03/27/mpsc-goes-big-on-batteries"
+    },
+    {
+      "date": "2026-06-01",
+      "value_mw": 1000,
+      "basis": "company-described campus capacity",
+      "source_url": "https://openai.com/index/stargate-michigan-data-center/"
+    }
+  ],
+  "owner": "Related Digital / Related Companies is described as developer/financing sponsor; Green Chile Ventures LLC is the DTE special-contract customer; Oracle/OpenAI are project partners/end users.",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Zoning was denied by the Township Board, later changed through a court consent judgment; MPSC conditionally approved DTE special contracts; company-reported construction began, but no government building/EGLE/energization record was located.",
+      "new_value": "site work-construction with official township evidence; no energization or occupancy record located."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 1383
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Related Digital / Related Companies; Green Chile Ventures LLC; Oracle/OpenAI partners/end users."
+    }
+  ],
   "sources": {
     "phase3_stable_id": "MI-SALINE-BARN-STARGATE",
     "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
@@ -102,7 +258,91 @@
     "authoritative_layer": "phase3_project_action_layer",
     "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
   },
-  "contradictions": [],
+  "current_refresh_sources": [
+    {
+      "date": "2026-08-11",
+      "url": "https://salinetownship.org/data-center-update",
+      "publisher": "Saline Township",
+      "facts_supported": [
+        "site work-construction",
+        "foundation permits for Operations and Warehouse buildings",
+        "EGLE wetland/generator permits summarized by township",
+        "water-main/sanitary/stormwater construction",
+        "substation equipment delay",
+        "monitoring-well report through June 2026"
+      ]
+    },
+    {
+      "date": "2026-03-27",
+      "url": "https://www.michigan.gov/mpsc/commission/news-releases/2026/03/27/mpsc-goes-big-on-batteries",
+      "publisher": "Michigan Public Service Commission",
+      "facts_supported": [
+        "1,383 MW contracted demand",
+        "332 MW first battery-storage tranche approved",
+        "rehearing/reopening petitions denied"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "url": "https://www.michigan.gov/ag/news/press-releases/2026/08/07/ag-nessel-briefs-appeal-over-mpsc-approval-of-dte-saline-data-center-contracts",
+      "publisher": "Michigan Attorney General",
+      "facts_supported": [
+        "appeal brief filed",
+        "1.4 GW description",
+        "appeal seeks invalidation/remand for contested case"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "url": "https://openai.com/index/stargate-michigan-data-center/",
+      "publisher": "OpenAI",
+      "facts_supported": [
+        "The Barn name",
+        "1 GW campus claim",
+        "groundbreaking claim",
+        "partners"
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "url": "https://www.oracle.com/news/announcement/related-digital-oracle-openai-walbridge-and-governor-whitmer-celebrate-construction-of-stargate-campus-in-saline-township-2026-06-01/",
+      "publisher": "Oracle",
+      "facts_supported": [
+        "construction celebration",
+        "under-construction company claim",
+        "Related Digital/Blackstone/OpenAI/Walbridge project team"
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "url": "https://bridgemi.com/business-watch/massive-data-center-wins-local-tax-break-but-9-times-smaller-than-requested/",
+      "publisher": "Bridge Michigan",
+      "facts_supported": [
+        "reported July 2026 tax abatement approval",
+        "secondary-source $4.8B abatement basis and $43B current valuation claim"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "capacity/load description",
+      "details": "Official utility/regulatory sources describe a 1,383 MW or approximately 1.4 GW contracted electric demand, while company project pages describe The Barn as a 1 GW data-center campus. The refresh treats 1,383 MW as utility load basis and 1 GW as company campus-capacity branding, not necessarily conflicting physical IT load.",
+      "sources": [
+        "https://www.michigan.gov/mpsc/commission/news-releases/2026/03/27/mpsc-goes-big-on-batteries",
+        "https://openai.com/index/stargate-michigan-data-center/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "local approval posture vs construction status",
+      "details": "The 2025 Township Board denial remains part of the record, but the consent judgment and later township updates show the project proceeding with site work and limited permits. This does not establish full building approval, occupancy, or energization.",
+      "sources": [
+        "https://salinetownship.org/uploads/minutes/1763385582_September%202025%20minutes.pdf",
+        "https://salinetownship.org/data-center-update"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

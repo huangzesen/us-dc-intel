@@ -13,7 +13,7 @@
     "state": "Texas"
   },
   "phase3_stable_id": "US-TX-GALAXY-HELIOS-DICKENS-2025",
-  "status_as_of_cutoff": "Phase I is reported complete by Galaxy and Phase II has TDLR registrations; a PUC self-generator registration is approved, while the full local permit/water record is not assembled.",
+  "status_as_of_cutoff": "partial live: Galaxy reports all Phase I critical IT load delivered/in service by Q2 2026; Phase II is in site work-construction with TDLR registrations for Helios 2, Helios 3, and Helios 4 and Galaxy reporting HITT mobilized, earthwork complete, and structural foundation work underway. Full county building-permit and water-rights records remain unassembled.",
   "actions": [
     {
       "id": "A16",
@@ -60,16 +60,66 @@
       "body": "Texas Department of Licensing and Regulation",
       "meeting_date": null,
       "action_type": "construction registrations",
-      "result_or_status": "TABS registered Helios 2 and Helios 3 as Galaxy Helios Phase 2 new data-center/office buildings; both records show Review Complete.",
+      "result_or_status": "TABS registered Helios 2, Helios 3, and Helios 4 as Galaxy Helios Phase 2 new data-center/office buildings; all three records show Review Complete.",
       "vote_tally": null,
-      "case_or_number": "TABS2026014892; TABS2026014893",
-      "primary_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026014893",
-      "access_caveat": "The linked page is Helios 3; Helios 2 is a separate TDLR page. Neither is a county building permit.",
-      "notes": "Construction action; planned completions are 2027 and are not actual completion dates."
+      "case_or_number": "TABS2026014892; TABS2026014893; TABS2026014894",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026014894",
+      "access_caveat": "The linked page is Helios 4; Helios 2 and Helios 3 are separate TDLR pages. TABS records are accessibility/construction registrations, not county building permits.",
+      "notes": "Construction action; TDLR planned completions run from 2027-02-08 to 2027-11-29 and are not actual completion dates."
+    },
+    {
+      "id": "A20",
+      "date": "2026-07-06",
+      "body": "Galaxy Digital Inc.",
+      "meeting_date": null,
+      "action_type": "owner operational announcement",
+      "result_or_status": "Galaxy announced completion of Phase I power delivery at Helios, delivering about 200 MW gross power and 133 MW critical IT load to CoreWeave under a 15-year lease; rent commencement began in Q2 2026.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://www.galaxy.com/newsroom/galaxy-completes-phase-i-of-its-helios-data-center-campus",
+      "access_caveat": "Company announcement; confirms delivered leased capacity, not full-campus buildout.",
+      "notes": "Operational milestone; supports partial-live status."
+    },
+    {
+      "id": "A21",
+      "date": "2026-07-28",
+      "body": "U.S. Securities and Exchange Commission",
+      "meeting_date": null,
+      "action_type": "financing disclosure",
+      "result_or_status": "Galaxy disclosed that Galaxy Helios Data Centers II LLC completed a $3.507 billion senior secured notes offering, with proceeds intended to finance part of a two-building, eight-data-hall Phase II project totaling 400 MW utility capacity and 260 MW critical IT capacity on about 260 acres in Dickens County.",
+      "vote_tally": null,
+      "case_or_number": "Form 8-K, accession 0001859392-26-000079",
+      "primary_url": "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000079/glxy-20260728.htm",
+      "access_caveat": "Financing disclosure; use-of-proceeds and project delivery are forward-looking until executed.",
+      "notes": "Phase II financing and capacity evidence."
+    },
+    {
+      "id": "A22",
+      "date": "2026-08-05",
+      "body": "Galaxy Digital Inc.",
+      "meeting_date": null,
+      "action_type": "quarterly operating update",
+      "result_or_status": "Galaxy reported all 133 MW of Phase I critical IT load in service by quarter-end Q2 2026 and stated that Phase II construction had commenced, HITT Contracting was mobilized and on site since April 2026, earthwork was complete, and structural foundation work was underway.",
+      "vote_tally": null,
+      "case_or_number": "Q2 2026 financial results",
+      "primary_url": "https://www.prnewswire.com/news-releases/galaxy-announces-second-quarter-2026-financial-results-302843529.html",
+      "access_caveat": "Company operating disclosure; construction-progress details are not independently confirmed by county inspection records.",
+      "notes": "Status evidence for partial live plus Phase II site work-construction."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": {
+    "delivered_critical_it_mw": 133,
+    "delivered_gross_power_mw": 200,
+    "contracted_critical_it_mw": 526,
+    "contracted_gross_power_mw": 800,
+    "approved_gross_power_mw": 1630,
+    "phase2_critical_it_mw": 260,
+    "phase2_utility_capacity_mw": 400,
+    "potential_total_power_mw": 3600,
+    "as_of": "2026-08-05",
+    "notes": "Delivered values are Phase I; contracted values are CoreWeave Phases I-III; approved/potential campus values are company-disclosed and include future/unleased capacity."
+  },
+  "owner": "Galaxy Digital Inc. / Galaxy Helios I LLC and Galaxy Helios II LLC",
   "sources": {
     "phase3_stable_id": "US-TX-GALAXY-HELIOS-DICKENS-2025",
     "phase3_source_file": "phase3/county_tx.json",
@@ -79,9 +129,42 @@
       "US-TX-GALAXY-HELIOS-DICKENS-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025012175",
+      "https://interchange.puc.texas.gov/Documents/58470_1_1525909.PDF",
+      "https://interchange.puc.texas.gov/Documents/58470_8_1534239.PDF",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026014892",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026014893",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026014894",
+      "https://www.galaxy.com/newsroom/galaxy-completes-phase-i-of-its-helios-data-center-campus",
+      "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000005/glxy-20260115.htm",
+      "https://www.sec.gov/Archives/edgar/data/1859392/000185939226000079/glxy-20260728.htm",
+      "https://www.prnewswire.com/news-releases/galaxy-announces-second-quarter-2026-financial-results-302843529.html",
+      "https://www.galaxy.com/data-centers"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Phase I is reported complete by Galaxy and Phase II has TDLR registrations; a PUC self-generator registration is approved, while the full local permit/water record is not assembled.",
+      "reason": "Refreshed after Galaxy's July/August 2026 operating disclosures and additional TDLR Phase II record."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "reason": "Added source-backed delivered, contracted, approved, and potential capacity breakdown."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "reason": "Added owner/operator and TDLR owner entities from company and TDLR sources."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

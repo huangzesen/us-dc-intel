@@ -8,11 +8,63 @@
   "location": {
     "city": "Dowagiac",
     "county": "Cass",
-    "state": "MI"
+    "state": "MI",
+    "address": "415 E Prairie Ronde St, Dowagiac, MI 49047-1348",
+    "latitude": 41.99369,
+    "longitude": -86.09734
   },
   "phase3_stable_id": "MI-DOWAGIAC-HYPERSCALE-DATA",
-  "status_as_of_cutoff": "Major expansion/land assembly reported; physical construction, MW, local approval, and utility service were not established.",
+  "status_as_of_cutoff": "Operating Michigan facility with approximately 28-30 MW currently used for bitcoin/data-center operations; 20 MW AI/neocloud deployment contracted for Q4 2026 and internal retrofit/procurement reported by company. Long-term 300-340 MW expansion remains preliminary and subject to utility agreements, funding, regulatory approvals, and local review.",
+  "evidence_grade": "B - state facility record and SEC/company disclosures verify owner/location/current operating scale and contracted AI load; local approval/permit and final utility authorization for the long-term expansion were not located.",
   "actions": [
+    {
+      "date": "2026-04-01",
+      "date_precision": "day",
+      "government_body": "City of Dowagiac Mayor",
+      "action_type": "public local-government letter",
+      "result_status": "Mayor stated Hyperscale had neither applied for nor received approvals needed to facilitate expansion plans, and requested a clear plan submission.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.cityofdowagiac.com/news_detail_T11_R220.php",
+      "access_caveat": "Official city news page; status is as of the letter date.",
+      "evidence_note": "Supports local-process/not-approved classification for expansion as of 2026-04-01."
+    },
+    {
+      "date": "2026-06-24",
+      "date_precision": "day",
+      "government_body": "Hyperscale Data / SEC exhibit",
+      "action_type": "master-services agreement",
+      "result_status": "Alliance Cloud Services signed an MSA for 20 MW of critical AI compute capacity at the Michigan Campus, expected operational in Q4 2026, with customer option to expand to 52 MW.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.sec.gov/Archives/edgar/data/896493/000121465926007704/ex99_1.htm",
+      "access_caveat": "Company disclosure filed as SEC exhibit; customer undisclosed; operational timing is forward-looking.",
+      "evidence_note": "Also says ACS has begun retrofitting about 60,000 sq ft and procuring electrical/infrastructure equipment for the initial 20 MW deployment."
+    },
+    {
+      "date": "2026-06-26",
+      "date_precision": "day",
+      "government_body": "Hyperscale Data press release",
+      "action_type": "land-acquisition closing",
+      "result_status": "Company announced it completed acquisition of 48.5 acres of forested land, expanding the Michigan Campus to approximately 83 acres.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.prnewswire.com/news-releases/hyperscale-data-completes-acquisition-of-48-5-acres-to-expand-michigan-ai-data-center-campus-302812174.html",
+      "access_caveat": "Company press release; no deed/assessor record was located in this refresh.",
+      "evidence_note": "Updates earlier trade-only land-acquisition lead from reported/pending to company-announced closed acquisition."
+    },
+    {
+      "date": "2026-06-29",
+      "date_precision": "day",
+      "government_body": "Hyperscale Data press release",
+      "action_type": "development reserve / progress-report plan",
+      "result_status": "Company announced a Michigan AI development reserve account targeting about $120 million and said it intended to publish monthly Michigan AI infrastructure progress reports beginning in July 2026.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.prnewswire.com/news-releases/hyperscale-data-establishes-michigan-ai-development-reserve-account-and-plan-to-provide-monthly-michigan-ai-infrastructure-progress-reports-302812864.html",
+      "access_caveat": "Company press release; reserve target and reporting schedule are company-stated plans.",
+      "evidence_note": "Supports active development planning but not approval/energization."
+    },
     {
       "date": "2026-07-01",
       "date_precision": "day",
@@ -24,10 +76,49 @@
       "primary_url": "https://www.datacenterdynamics.com/en/news/hyperscale-data-completes-land-acquisition-to-expand-michigan-campus/",
       "access_caveat": "Trade report; no official deed, assessor, permit, or construction record was located.",
       "evidence_note": "Discovery/status lead only."
+    },
+    {
+      "date": "2026-07-14",
+      "date_precision": "day",
+      "government_body": "Local media report on Dowagiac public meeting",
+      "action_type": "community/noise-status report",
+      "result_status": "Local reports say residents confronted Hyperscale over noise and water concerns; council members had confirmed a noise violation, and company representatives said cryptocurrency mining would be shut down over the next three months.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.wndu.com/2026/07/14/dowagiac-residents-confront-data-center-over-noise-water-concerns-expansion-looms/",
+      "access_caveat": "Local media report; use for community/status context only.",
+      "evidence_note": "Does not establish expansion approval or energized AI capacity."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": {
+    "current_operating_mw": {
+      "value": 28,
+      "range_note": "Company SEC exhibit says approximately 28 MW of Bitcoin mining capacity operated at the Michigan Campus on 2026-06-24; 2025 company disclosure described approximately 30 MW online/available.",
+      "source_urls": [
+        "https://www.sec.gov/Archives/edgar/data/896493/000121465926007704/ex99_1.htm",
+        "https://www.prnewswire.com/news-releases/hyperscale-data-targets-full-buildout-of-340-mw-michigan-ai-data-center-campus-in-2029-302509243.html"
+      ]
+    },
+    "contracted_ai_compute_mw": {
+      "value": 20,
+      "expected_operational": "2026-Q4",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/896493/000121465926007704/ex99_1.htm"
+    },
+    "customer_option_total_ai_compute_mw": {
+      "value": 52,
+      "caveat": "Subject to customer option and additional power/process requirements.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/896493/000121465926007704/ex99_1.htm"
+    },
+    "long_term_target_mw": {
+      "value": 340,
+      "caveat": "Forward-looking target: 300 MW utility expansion plus 40 MW natural gas concept; final utility authorization, approvals, financing, and execution remain caveated by company filings.",
+      "source_urls": [
+        "https://www.prnewswire.com/news-releases/hyperscale-data-targets-full-buildout-of-340-mw-michigan-ai-data-center-campus-in-2029-302509243.html",
+        "https://www.sec.gov/Archives/edgar/data/896493/000121465926007704/ex99_1.htm"
+      ]
+    }
+  },
+  "owner": "Alliance Cloud Services, LLC (state EGLE owner/operator record at 415 E Prairie Ronde St; indirect wholly owned subsidiary of Hyperscale Data per SEC/company disclosure)",
   "sources": {
     "phase3_stable_id": "MI-DOWAGIAC-HYPERSCALE-DATA",
     "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
@@ -35,9 +126,47 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "verified_urls": [
+      "https://www.egle.state.mi.us/wdspi/Site/Site.aspx?w=393041",
+      "https://www.cityofdowagiac.com/news_detail_T11_R220.php",
+      "https://www.sec.gov/Archives/edgar/data/896493/000121465926007704/ex99_1.htm",
+      "https://www.prnewswire.com/news-releases/hyperscale-data-completes-acquisition-of-48-5-acres-to-expand-michigan-ai-data-center-campus-302812174.html",
+      "https://www.prnewswire.com/news-releases/hyperscale-data-establishes-michigan-ai-development-reserve-account-and-plan-to-provide-monthly-michigan-ai-infrastructure-progress-reports-302812864.html",
+      "https://www.prnewswire.com/news-releases/hyperscale-data-targets-full-buildout-of-340-mw-michigan-ai-data-center-campus-in-2029-302509243.html",
+      "https://www.wndu.com/2026/07/14/dowagiac-residents-confront-data-center-over-noise-water-concerns-expansion-looms/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "current capacity",
+      "details": "Company sources describe approximately 30 MW online/available in 2025 and approximately 28 MW of Bitcoin mining capacity on 2026-06-24. Recorded as 28 MW current operating with a 28-30 MW range note."
+    },
+    {
+      "topic": "local approval status",
+      "details": "Company disclosures describe active retrofit/procurement and long-term expansion concepts, while the City of Dowagiac stated on 2026-04-01 that no expansion proposal had been submitted and no decisions had been made. No later official approval/permit record was located."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "field": "status_as_of_cutoff",
+      "old_value": "Major expansion/land assembly reported; physical construction, MW, local approval, and utility service were not established.",
+      "reason": "Baseline value before 2026-08-11 refresh."
+    },
+    {
+      "date": "2026-07-16",
+      "field": "capacity_mw",
+      "old_value": null,
+      "reason": "Baseline value before 2026-08-11 refresh."
+    },
+    {
+      "date": "2026-07-16",
+      "field": "owner",
+      "old_value": null,
+      "reason": "Baseline value before 2026-08-11 refresh."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

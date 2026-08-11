@@ -5,16 +5,76 @@
   "location": {
     "city": "Falling Waters",
     "county": "Berkeley",
-    "state": "West Virginia"
+    "state": "West Virginia",
+    "district": "Falling Waters District",
+    "site_area_acres": 548
   },
   "capacity_mw": 600,
-  "status": "announced; designated High Impact Intelligence Center",
+  "status": "local process; High Impact Intelligence Center designation approved; no public construction evidence found",
   "confidence": "high",
-  "evidence_date": "2026-03-03",
+  "evidence_date": "2026-06-18",
   "sources": [
-    "https://www.datacenterdynamics.com/en/news/penzance-targets-600mw-data-center-campus-in-west-virginia/"
+    "https://governor.wv.gov/article/governor-morrisey-announces-4-billion-private-investment-west-virginias-first-high-impact",
+    "https://westvirginia.gov/4-billion-data-center-campus-planned-for-berkeley-county-positioning-west-virginia-for-the-ai-and-cloud-economy/",
+    "https://www.berkeleywv.org/DocumentCenter/View/12477",
+    "https://www.datacenterdynamics.com/en/news/penzance-targets-600mw-data-center-campus-in-west-virginia/",
+    "https://cleanview.co/data-centers/west-virginia/2218/penzance-bedington-intelligence-center",
+    "https://wvmetronews.com/2026/06/09/officials-in-berkeley-county-site-of-first-high-impact-data-center-seek-more-clarity-on-tax-split/"
+  ],
+  "investment_usd": 4000000000,
+  "planned_building_sqft": 1900000,
+  "high_impact_intelligence_center": {
+    "designated": true,
+    "designation_date": "2026-02-26",
+    "approving_entities": [
+      "West Virginia Data Economy Office",
+      "West Virginia Department of Commerce"
+    ],
+    "notes": "Governor's office says the project exceeded 90 MW projected load and submitted engineering, environmental, utility, water, and mitigation plans before formal designation approval."
+  },
+  "jobs": {
+    "construction": 1000,
+    "permanent": 125,
+    "source_date": "2026-02-26"
+  },
+  "infrastructure_notes": [
+    {
+      "date": "2026-02-26",
+      "note": "State announcement cites potential reclaimed-water use for the facility."
+    },
+    {
+      "date": "2026-06-18",
+      "note": "Berkeley County Commission minutes report ongoing work with Penzance on potential gray-water reuse."
+    },
+    {
+      "date": "2026-06-09",
+      "note": "Berkeley County officials were still seeking clarity on high-impact data center tax allocation and school-aid implications."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "from": "announced; designated High Impact Intelligence Center",
+      "to": "local process; High Impact Intelligence Center designation approved; no public construction evidence found",
+      "reason": "Official state designation is approved, and later county minutes show local infrastructure coordination; no public source found showing construction start or issued site/building permits."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "evidence_date",
+      "from": "2026-03-03",
+      "to": "2026-06-18",
+      "reason": "Latest official/local-government source found was Berkeley County Commission minutes mentioning ongoing Penzance gray-water reuse work."
+    }
   ],
   "why_not_in_baseline": "New 2026 West Virginia large-load campus in a developing state market; baseline did not include Bedington or Penzance West Virginia.",
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "note": "Some third-party trackers label the project as planned or list speculative delivery timelines, but official sources reviewed did not publish a construction start, tenant, or commissioning schedule."
+    }
+  ],
+  "last_refreshed": "2026-08-11",
   "discovery_file": "candidates-secondary-markets.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

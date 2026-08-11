@@ -7,13 +7,66 @@
   "location": {
     "city": "Quincy",
     "county": "Grant",
-    "state": "WA"
+    "state": "WA",
+    "address": "1515 Port Industrial Way, Quincy, WA 98848",
+    "ecology_facility_address": "1500 Port Industrial Way, Quincy, WA 98848",
+    "parcel": "042009305",
+    "latitude": 47.238972,
+    "longitude": -119.880329,
+    "ecology_facility_latitude": 47.237071,
+    "ecology_facility_longitude": -119.878668
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
+  "status_as_of_cutoff": "approved-permitted",
+  "evidence_grade": "A",
+  "status_detail": "City of Quincy issued an Optional Determination of Nonsignificance/Notice of Application for MWH08 on 2024-08-19; Ecology PARIS shows active Construction Stormwater General Permit coverage WAR313961 version 2 effective 2026-01-01 through 2030-12-31. Active stormwater coverage authorizes construction stormwater discharges but is not independent proof of energized capacity or full buildout.",
+  "actions": [
+    {
+      "date": "2024-05-29",
+      "government_body": "City of Quincy",
+      "action_type": "SEPA application",
+      "result_status": "application received",
+      "description": "Microsoft Corporation application date listed in City of Quincy ODNS/NOA for MWH08 Data Center.",
+      "source_url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Document/DocumentOpenHandler.ashx?DocumentId=183345"
+    },
+    {
+      "date": "2024-08-19",
+      "government_body": "City of Quincy",
+      "action_type": "SEPA ODNS/NOA",
+      "result_status": "issued",
+      "description": "ODNS/NOA for a 455,000-square-foot, two-story industrial data center on the existing Microsoft MWH campus, with backup-power generator facilities, parking, fuel storage, and infrastructure improvements.",
+      "source_url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202403581"
+    },
+    {
+      "date": "2024-10-07",
+      "government_body": "Washington State Department of Ecology",
+      "action_type": "Construction Stormwater General Permit",
+      "result_status": "coverage issued",
+      "description": "Initial Construction Stormwater General Permit coverage WAR313961 shown in PARIS for MWH08.",
+      "source_url": "https://apps.ecology.wa.gov/paris/FacilitySummary.aspx?FacilityId=100002672"
+    },
+    {
+      "date": "2025-06-24",
+      "government_body": "Washington State Department of Ecology",
+      "action_type": "Construction Stormwater General Permit renewal NOI",
+      "result_status": "submitted",
+      "description": "Renewal NOI lists site/project size of 179.87 acres, disturbed area of 36.7 acres, estimated project start date 2024-12-01, estimated completion date 2027-07-01, and Microsoft as site owner/contact.",
+      "source_url": "https://apps.ecology.wa.gov/paris/DownloadDocument.aspx?id=565083"
+    },
+    {
+      "date": "2025-11-19",
+      "government_body": "Washington State Department of Ecology",
+      "action_type": "Construction Stormwater General Permit renewal coverage",
+      "result_status": "active",
+      "description": "Ecology reissued coverage letter for WAR313961; permit coverage effective 2026-01-01 and expires 2030-12-31.",
+      "source_url": "https://apps.ecology.wa.gov/paris/DownloadDocument.aspx?id=601683"
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "physical_size_sqft": 455000,
+  "site_acreage": 179.87,
+  "disturbed_area_acres": 36.7,
+  "owner": "Microsoft Corporation",
   "sources": {
     "phase3_stable_id": "US-WA-MICROSOFT-MWH08-2024",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -21,9 +74,56 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_records": [
+      {
+        "name": "Washington Department of Ecology SEPA Register record 202403581",
+        "url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202403581",
+        "date": "2024-08-19"
+      },
+      {
+        "name": "City of Quincy ODNS/NOA SEPA 2024-008",
+        "url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Document/DocumentOpenHandler.ashx?DocumentId=183345",
+        "date": "2024-08-19"
+      },
+      {
+        "name": "Washington Department of Ecology Facility/Site record FS ID 100002672",
+        "url": "https://apps.ecology.wa.gov/facilitysite/FacilitySite/FacilitySiteReport/100002672",
+        "date": "2024-08-28"
+      },
+      {
+        "name": "Washington Department of Ecology PARIS facility summary",
+        "url": "https://apps.ecology.wa.gov/paris/FacilitySummary.aspx?FacilityId=100002672",
+        "date": "2026-08-11"
+      },
+      {
+        "name": "Construction Stormwater General Permit renewal NOI",
+        "url": "https://apps.ecology.wa.gov/paris/DownloadDocument.aspx?id=565083",
+        "date": "2025-06-24"
+      },
+      {
+        "name": "Construction Stormwater General Permit renewal coverage letter",
+        "url": "https://apps.ecology.wa.gov/paris/DownloadDocument.aspx?id=601683",
+        "date": "2025-11-19"
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "location.address",
+      "description": "SEPA Register/ODNS gives 1515 Port Industrial Way and parcel 042009305; Ecology Facility/Site and PARIS list 1500 Port Industrial Way with nearby but different coordinates. Treated as the same MWH08 campus/project pending local parcel/permit reconciliation.",
+      "sources": [
+        "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202403581",
+        "https://apps.ecology.wa.gov/facilitysite/FacilitySite/FacilitySiteReport/100002672",
+        "https://apps.ecology.wa.gov/paris/FacilitySummary.aspx?FacilityId=100002672"
+      ]
+    }
+  ],
+  "unverified": [
+    "IT/electrical capacity MW not found in official public records reviewed.",
+    "No official evidence found that the facility is energized, partially live, or at full buildout.",
+    "City building permit record was not independently retrieved from the SmartGov portal during this refresh."
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

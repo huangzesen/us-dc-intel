@@ -8,10 +8,13 @@
   "location": {
     "city": "Tucson area",
     "county": "Pima",
-    "state": "AZ"
+    "state": "AZ",
+    "address": "11295 S Harrison Road, Tucson, AZ",
+    "site_context": "Approximately 290-acre Project Blue site north of the Pima County Fairgrounds, within the Southeast Employment & Logistics Center in unincorporated Pima County."
   },
   "phase3_stable_id": "US-AZ-BEALE-PIMA-BOBCAT-2025",
-  "status_as_of_cutoff": "Developer says a specific plan was approved and construction claimed, but the underlying Pima action, permit, and TEP record were not independently verified.",
+  "status_as_of_cutoff": "site work-construction: Pima County records now verify Board approval of the specific-plan zoning change and land acquisition agreement, a closed land sale to Bobcat B1 LLC, issued site-construction permits, and 2026 site-preparation activity. ACC records verify approval of TEP electric service for up to 286 MW. No certificate of occupancy, energization, or live IT-load record was located.",
+  "evidence_grade": "A-",
   "actions": [
     {
       "date": "2026-07-16",
@@ -24,10 +27,82 @@
       "primary_url": "https://bealeinfra.com/location/pima-county/",
       "access_caveat": "Company page at cutoff; its approval and construction statements are not treated as government findings without the underlying record.",
       "evidence_note": "Body/context retained from prior file: Beale Infrastructure. Date is a cutoff-date snapshot from the prior file."
+    },
+    {
+      "date": "2025-06-17",
+      "date_precision": "day",
+      "government_body": "Pima County Board of Supervisors",
+      "action_type": "specific-plan zoning change and land acquisition agreement approval",
+      "result_status": "Pima County's April 23, 2026 administrator memo states the Board approved a specific-plan zoning change and land acquisition agreement for Project Blue on June 17, 2025.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://content.civicplus.com/api/assets/32428b1b-4a81-444a-92a4-72b1fa039655",
+      "access_caveat": "The retrieved record is a later official county status memo summarizing the Board action; it is not the June 17 minutes packet.",
+      "evidence_note": "Official local-government confirmation of land-use and acquisition approval; not a building permit, CO, or energization record."
+    },
+    {
+      "date": "2025-08-25",
+      "date_precision": "day",
+      "government_body": "Pima County / Tucson Electric Power / Arizona Corporation Commission filing notice",
+      "action_type": "energy service agreement filing notice",
+      "result_status": "Pima County published notice that TEP was filing an Energy Service Agreement with the Arizona Corporation Commission for up to 286 MW of power for Beale's Pima County data center project, with initial service potentially beginning in May 2027 and ramping over 18 months.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "ACC docket E-01933A-25-0187",
+      "primary_url": "https://content.civicplus.com/api/assets/6b2dfc39-d95c-4377-a177-b52d05985e5d",
+      "access_caveat": "Filing notice and attached Beale letter; not the final ACC order.",
+      "evidence_note": "Used for electric-service capacity context only; 286 MW is not treated as delivered load."
+    },
+    {
+      "date": "2025-12-03",
+      "date_precision": "day",
+      "government_body": "Arizona Corporation Commission",
+      "action_type": "special electric-service agreement approval",
+      "result_status": "The ACC reported a 4-1 vote approving TEP's special agreement for electric service with the planned Project Blue data center developed by Beale Infrastructure Group and affiliate Humphrey's Peak Power, LLC.",
+      "vote_tally": "4-1",
+      "case_or_ordinance_permit_number": "E-01933A-25-0187",
+      "primary_url": "https://www.azcc.gov/news/home/2025/12/09/vice-chair-myers-confirms-tep-customers-protected-from-data-center-cost-shift",
+      "access_caveat": "ACC press release, not the full commission order; still an official regulator source for approval status.",
+      "evidence_note": "Utility-service approval; does not prove data-center energization."
+    },
+    {
+      "date": "2025-12-24",
+      "date_precision": "day",
+      "government_body": "Pima County",
+      "action_type": "land sale closing",
+      "result_status": "Pima County reported closing of the Project Blue land sale. Settlement documents identify the buyer as Bobcat B1 LLC and the property as 11295 S Harrison Road, Tucson, AZ.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Escrow No. 4711009822-LS",
+      "primary_url": "https://content.civicplus.com/api/assets/93418380-b75f-4118-a254-04d7511f4a74",
+      "access_caveat": "Closing statement confirms sale/property transfer; it is not a construction or operating permit.",
+      "evidence_note": "Owner/location evidence for the county-sold parcel."
+    },
+    {
+      "date": "2026-04-23",
+      "date_precision": "day",
+      "government_body": "Pima County",
+      "action_type": "project progress and permit-status update",
+      "result_status": "County progress memo states permitting has progressed and lists records including approved Specific Plan P25SP00002, issued Site Construction permits P25SC00055 and P25SC00120, issued capacity letters, issued septic transfer, and approved Other Structures permit P26BP01453. The memo says the first building could be operational as soon as 2027.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "P25SP00002; P25SC00055; P25SC00120; P26BP01453; P25WC00156; P25WC00157; P25WC00257; P25EQ01839",
+      "primary_url": "https://content.civicplus.com/api/assets/32428b1b-4a81-444a-92a4-72b1fa039655",
+      "access_caveat": "Permit table is a county memo attachment, not the live permit database; several listed records remained in request-for-corrections status.",
+      "evidence_note": "Issued site-construction permits support site work-construction status, but no CO or energized status."
+    },
+    {
+      "date": "2026-05-12",
+      "date_precision": "day",
+      "government_body": "Pima County Department of Environmental Quality",
+      "action_type": "air-quality notice of violation during site preparation",
+      "result_status": "Pima County reported serving AMES Construction with a notice of violation after inspections of site-preparation work for Project Blue north of the Pima County Fairgrounds found fugitive-dust permit violations.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.pima.gov/?contentId=95d783ec-a245-40e3-874d-48e4772b1433",
+      "access_caveat": "Official county news item verifies site-preparation activity and enforcement; it is not a building construction completion, CO, or energization record.",
+      "evidence_note": "Supports site work-construction classification when combined with issued site-construction permits."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 286,
+  "owner": "Bobcat B1 LLC (property buyer); Beale Infrastructure Group / affiliate Humphrey's Peak Power, LLC associated with development and TEP service agreement",
   "sources": {
     "phase3_stable_id": "US-AZ-BEALE-PIMA-BOBCAT-2025",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -37,7 +112,24 @@
     "authoritative_layer": "phase3_project_action_layer",
     "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "summary": "Baseline caveat that the Pima action, permit, and TEP record were not independently verified is superseded by official county and ACC records found in this refresh. Operational status remains unverified.",
+      "sources": [
+        "https://content.civicplus.com/api/assets/32428b1b-4a81-444a-92a4-72b1fa039655",
+        "https://www.azcc.gov/news/home/2025/12/09/vice-chair-myers-confirms-tep-customers-protected-from-data-center-cost-shift"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "summary": "Water-source/use descriptions have shifted across the public record: June 2025 county materials described a reclaimed-water concept, while 2026 local reporting says Bobcat Tucson Water LLC obtained approvals for two commercial wells. This refresh did not retrieve the underlying ADWR well files, so water-source fields were not normalized into the core record.",
+      "sources": [
+        "https://content.civicplus.com/api/assets/c389f127-6e01-48fc-b258-68508aa1841a",
+        "https://www.azpm.org/s/103423-arizona-water-officials-approve-wells-tied-to-project-blue-data-center/"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

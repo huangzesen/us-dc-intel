@@ -5,15 +5,47 @@
     "TeraWulf/Fluidstack Lake Mariner CB-5"
   ],
   "location": {
-    "city": "Somerset",
-    "county": "Yates",
-    "state": "NY"
+    "city": "Barker",
+    "town": "Somerset",
+    "county": "Niagara",
+    "state": "NY",
+    "site_context": "Lake Mariner Data Campus on the former Somerset coal plant site"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A-",
+  "actions": [
+    {
+      "date": "2025-08-18",
+      "government_body": null,
+      "action_type": "company_lease_announcement",
+      "result_status": "Fluidstack exercised CB-5 option; TeraWulf announced a new purpose-built CB-5 building adding 160 MW of critical IT load at Lake Mariner, with operations then expected in 2H 2026.",
+      "source_url": "https://investors.terawulf.com/news-events/press-releases/detail/114/terawulf-announces-fluidstack-expansion-with-160-mw-cb-5-lease-at-lake-mariner"
+    },
+    {
+      "date": "2026-02-27",
+      "government_body": "SEC",
+      "action_type": "annual_report",
+      "result_status": "TeraWulf 10-K reported Akela Fluidstack leases for 378 MW of critical IT load at Lake Mariner, developed in multiple phases, with construction commenced in 2025 and delivery expected to commence in 2026.",
+      "source_url": "https://investors.terawulf.com/sec-filings/all-sec-filings/content/0001083301-26-000031/wulf-20251231.htm"
+    },
+    {
+      "date": "2026-05-28",
+      "government_body": "Niagara County Legislature",
+      "action_type": "county_resolution",
+      "result_status": "County minutes state TeraWulf and subsidiaries are constructing the Lake Mariner Data Center in the Town of Somerset, Niagara County; county authorized outside counsel for sales-tax and road-use investigations.",
+      "source_url": "https://www.niagaracounty.gov/Document_center/Department/G-L/Legislature/Agenda%20%26%20Minutes/2026/5-28-26%20MEETING%20MINUTES.pdf?t=202606021551560"
+    },
+    {
+      "date": "2026-08-05",
+      "government_body": "SEC",
+      "action_type": "quarterly_report",
+      "result_status": "TeraWulf Q2 2026 filing reported continued construction of 336 MW across CB-4 and CB-5; CB-5 targeted to begin phased delivery in early 2027.",
+      "source_url": "https://investors.terawulf.com/sec-filings/all-sec-filings/content/0001083301-26-000162/a_wulfearningsreleaseq22026.htm"
+    }
+  ],
+  "capacity_mw": 160,
+  "owner": "TeraWulf Inc. / Akela Data LLC; leased to Fluidstack USA I Inc.",
   "sources": {
     "phase3_stable_id": "US-NY-TERAWULF-LAKE-MARINER-CB5-2025",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -21,9 +53,29 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://investors.terawulf.com/news-events/press-releases/detail/114/terawulf-announces-fluidstack-expansion-with-160-mw-cb-5-lease-at-lake-mariner",
+      "https://investors.terawulf.com/sec-filings/all-sec-filings/content/0001083301-26-000031/wulf-20251231.htm",
+      "https://www.niagaracounty.gov/Document_center/Department/G-L/Legislature/Agenda%20%26%20Minutes/2026/5-28-26%20MEETING%20MINUTES.pdf?t=202606021551560",
+      "https://investors.terawulf.com/sec-filings/all-sec-filings/content/0001083301-26-000162/a_wulfearningsreleaseq22026.htm",
+      "https://www.terawulf.com/our-sites"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "location.county",
+      "previous_value": "Yates",
+      "current_value": "Niagara",
+      "resolution": "Corrected from baseline/current seed. County minutes identify Town of Somerset, Niagara County; TeraWulf site page identifies Barker, NY."
+    },
+    {
+      "field": "capacity_mw",
+      "previous_value": null,
+      "current_value": 160,
+      "resolution": "CB-5-specific TeraWulf announcement gives 160 MW. Later company filings provide aggregate Lake Mariner/Akela figures and Q2 2026 reports 336 MW across CB-4 and CB-5 without disaggregating CB-5, so the CB-5-specific value is retained."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

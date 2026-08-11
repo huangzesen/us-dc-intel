@@ -8,12 +8,35 @@
     "Meta South Carolina campus"
   ],
   "location": {
-    "city": null,
+    "city": "Graniteville area",
     "county": "Aiken County",
-    "state": "SC"
+    "state": "SC",
+    "site": "Sage Mill Industrial Park near Graniteville",
+    "parcel_note": "Exact Meta parcel not disclosed in reviewed first-party announcement; contractor page describes a 300+ acre Aiken County site."
   },
   "phase3_stable_id": "SC-001",
-  "status_as_of_cutoff": "South Carolina officially announced Meta's new Aiken County data center and $800 million/100-job plan. No county land-use, building, environmental, utility, construction, CO, or energization record was located in the reviewed public surfaces.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11. Meta and South Carolina announced the Aiken County data center on 2024-08-29; local and regional reporting observed/reported construction at Sage Mill Industrial Park, while Meta-linked first-party sources still describe the campus as not yet operational and expected online in 2027.",
+  "evidence_grade": "B: owner/state announcements and contractor/energy-partner sources confirm project identity and construction context; official county permit/case detail was not independently retrieved from the Citizenserve portal during this refresh.",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "field": "status_as_of_cutoff",
+      "previous_value": "South Carolina officially announced Meta's new Aiken County data center and $800 million/100-job plan. No county land-use, building, environmental, utility, construction, CO, or energization record was located in the reviewed public surfaces.",
+      "change_note": "Replaced with construction-stage status after 2026 refresh located Meta, contractor, local-media, and energy-partner evidence."
+    },
+    {
+      "date": "2026-07-16",
+      "field": "owner",
+      "previous_value": null,
+      "change_note": "Set to Meta Platforms, Inc. based on Meta's owned-and-operated Aiken Data Center announcement and DPR client listing."
+    },
+    {
+      "date": "2026-07-16",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "change_note": "Set to reported expected utility draw; no confirmed IT-load capacity found."
+    }
+  ],
   "actions": [
     {
       "date": "2024-08-29",
@@ -28,6 +51,30 @@
       "evidence_note": "Announcement kept separate from land-use/building approval."
     },
     {
+      "date": "2024-08-29",
+      "date_precision": "day",
+      "government_body": "Meta Data Centers",
+      "action_type": "company project announcement",
+      "result_status": "Meta announced Aiken County as its newest owned-and-operated data center, a 715,000-square-foot campus representing more than $800 million investment, approximately 100 operational jobs, and more than 1,000 peak construction workers. Meta said the facility would be optimized for AI workloads once operational.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://datacenters.atmeta.com/2024/08/hello-south-carolina/",
+      "access_caveat": "Company announcement; does not provide local permit identifiers.",
+      "evidence_note": "Confirms owner/operator and planned operating characteristics."
+    },
+    {
+      "date": "2024-08-29",
+      "date_precision": "day",
+      "government_body": "SC Daily Gazette / News From The States",
+      "action_type": "construction observation and utility-load reporting",
+      "result_status": "Local/statehouse reporting described construction as well underway at Sage Mill Industrial Park near Graniteville on the announcement date, and reported that economic-development officials had told Aiken County Council the data center was expected to draw 200 MW.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.newsfromthestates.com/article/facebook-parent-company-building-800m-data-center-aiken-county",
+      "access_caveat": "Media report; the 200 MW figure is attributed to economic-development officials, not a utility tariff or interconnection filing retrieved in this refresh.",
+      "evidence_note": "Supports site work-construction status and reported load, but not energization."
+    },
+    {
       "date": "2025-01-13",
       "date_precision": "day",
       "government_body": "South Carolina state budget document",
@@ -38,10 +85,64 @@
       "primary_url": "https://governor.sc.gov/sites/governor/files/Documents/Executive-Budget/FY26%20Executive%20Budget%20Book%20-%20FINAL%20WEB%20VERSION.pdf",
       "access_caveat": "Budget document does not supply local project approvals or physical milestones.",
       "evidence_note": "State context only."
+    },
+    {
+      "date": "2025-08-19",
+      "date_precision": "day",
+      "government_body": "Silicon Ranch / Central Electric / Meta energy partners",
+      "action_type": "renewable-energy supply announcement",
+      "result_status": "Silicon Ranch announced a 100 MW Orangeburg County solar farm with Central Electric to support Meta's first South Carolina data center. The release states Aiken Electric Cooperative will serve the Meta facility, currently under construction in Sage Mill Industrial Park near Graniteville, and that both the data center and solar facility are expected online in 2027.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.siliconranch.com/stories/silicon-ranch-partner-meta-orangeburg-county",
+      "access_caveat": "Energy-partner announcement; confirms serving utility and construction status but not building permit details.",
+      "evidence_note": "Supports construction-stage status and 2027 online target."
+    },
+    {
+      "date": "2026-06-03",
+      "date_precision": "day",
+      "government_body": "Augusta Business Daily",
+      "action_type": "regional status update",
+      "result_status": "Regional business reporting quoted Western SC's president/CEO saying three data-center projects were under construction in Aiken County and identified the Meta facility being built in Sage Mill Industrial Park as the largest of them; the same article said Aiken Electric is the provider and that Meta went through the county industrial-zoning process.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://augustabusinessdaily.com/data-center-pros-and-cons-in-csra/",
+      "access_caveat": "Regional media report quoting economic-development official; no county case number supplied.",
+      "evidence_note": "Corroborates ongoing construction and local process context as of 2026."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Aiken County Planning and Development",
+      "action_type": "public records surface check",
+      "result_status": "Aiken County's official Planning and Development page says county permits and development approvals, including commercial building permits and commercial site development plans, are available through the Development Services Online Portal. The portal search page was reachable, but no Meta/Sage Mill permit detail was confirmed in this refresh.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.aikencountysc.gov/261/Planning-Development",
+      "access_caveat": "Portal search appears form/JavaScript/reCAPTCHA mediated; absence of retrieved records should not be interpreted as absence of permits.",
+      "evidence_note": "Official source for records location only."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 200,
+  "capacity_mw_note": "Reported expected utility draw from SC Daily Gazette/News From The States on 2024-08-29; no confirmed IT-load capacity found.",
+  "owner": "Meta Platforms, Inc.",
+  "size_sqft": {
+    "announced_initial_campus": 715000,
+    "contractor_current_description": "two single-story data center buildings, each approximately 750,000 square feet",
+    "contractor_site_acres": "300+",
+    "note": "Meta/state announcement and DPR contractor page describe different scopes; kept as a source-scope conflict rather than reconciled total."
+  },
+  "expected_operational_date": "2027",
+  "expected_operational_date_note": "State/Meta announcement said spring 2027; Silicon Ranch's 2025 energy announcement says the data center and Orangeburg County solar facility are both expected to come online in 2027.",
+  "serving_utility": "Aiken Electric Cooperative",
+  "renewable_energy": {
+    "project": "100 MW Orangeburg County solar farm",
+    "developer_owner_operator": "Silicon Ranch",
+    "power_purchaser": "Central Electric Power Cooperative",
+    "balancing_authority": "Santee Cooper",
+    "meta_rec_rights": "Meta to receive renewable energy credits associated with the facility energy",
+    "source_url": "https://www.siliconranch.com/stories/silicon-ranch-partner-meta-orangeburg-county"
+  },
   "sources": {
     "phase3_stable_id": "SC-001",
     "phase3_source_file": "phase3/county_ga_nc_sc.json",
@@ -51,9 +152,43 @@
       "US-SC-META-AIKEN-2024"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "reviewed_urls": [
+      "https://www.aikencountysc.gov/261/Planning-Development",
+      "https://www6.citizenserve.com/Portal/PortalController?Action=showSearchPage&ctzPagePrefix=Portal_&installationID=436&type=Development",
+      "https://governor.sc.gov/news/2024-08/meta-selects-aiken-county-first-south-carolina-data-center",
+      "https://www.sccommerce.com/news/meta-selects-aiken-county-first-south-carolina-data-center",
+      "https://datacenters.atmeta.com/2024/08/hello-south-carolina/",
+      "https://datacenters.atmeta.com/wp-content/uploads/2025/10/Meta-Aiken-Data-Center.pdf",
+      "https://www.dpr.com/projects/meta-aiken-data-center-aiken-sc",
+      "https://www.newsfromthestates.com/article/facebook-parent-company-building-800m-data-center-aiken-county",
+      "https://www.siliconranch.com/stories/silicon-ranch-partner-meta-orangeburg-county",
+      "https://augustabusinessdaily.com/data-center-pros-and-cons-in-csra/",
+      "https://edgefieldcounty.sc.gov/wp-content/uploads/2023/04/5_2_2023-Exhibit-II.pdf",
+      "https://aikenchronicles.com/2023/04/19/question-is-google-coming-to-aiken-county-answer-aiken-county-council-cant-say/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "project size/scope",
+      "description": "Meta/state announcement describes a 715,000-square-foot Aiken Data Center campus; DPR's contractor page describes a 300+ acre site with two single-story data center buildings, each approximately 750,000 square feet. This may reflect an expanded/current construction scope, but no first-party Meta update reconciling the figures was located.",
+      "sources": [
+        "https://datacenters.atmeta.com/2024/08/hello-south-carolina/",
+        "https://www.dpr.com/projects/meta-aiken-data-center-aiken-sc"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "Project Sabal / Starskey identity",
+      "description": "Aiken/Edgefield industrial-park and FILOT records for Project Sabal / Starskey LLC align with the Sage Mill data-center geography and timing reported before Meta's 2024 announcement, but reviewed first-party sources do not explicitly state that Project Sabal or Starskey LLC became Meta. The local-process record is therefore treated as related context, not as a confirmed Meta action.",
+      "sources": [
+        "https://edgefieldcounty.sc.gov/wp-content/uploads/2023/04/5_2_2023-Exhibit-II.pdf",
+        "https://aikenchronicles.com/2023/04/19/question-is-google-coming-to-aiken-county-answer-aiken-county-council-cant-say/",
+        "https://datacenters.atmeta.com/2024/08/hello-south-carolina/"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -1,20 +1,50 @@
 {
   "disc_id": "disc008",
   "canonical_project": "Tuckahoe Technology Park",
-  "owner": "VALCO Goochland County LLC / Tract Capital Management affiliate",
+  "owner": "VALCO2 Goochland County, LLC / Tract Capital Management affiliate",
   "location": {
     "city": "Goochland / Richmond area",
     "county": "Goochland",
     "state": "VA"
   },
   "capacity_mw": 900,
-  "status": "pre-application / proposed conditional use permit",
+  "status": "local process - formal CUP application under completeness review",
   "confidence": "high",
-  "evidence_date": "2026-06-10",
+  "evidence_date": "2026-08-05",
   "sources": [
+    "https://www.goochlandva.us/1480/Tuckahoe-Technology-Park",
+    "https://www.goochlandva.us/DocumentCenter/View/13911/APPLICATION-COVER-SHEET",
+    "https://www.goochlandva.us/DocumentCenter/View/13912/CU-2026-00014-VALCO-Goochland-County-LLC",
+    "https://www.goochlandva.us/DocumentCenter/View/13913/Goochland-Community-Meeting-Summary",
+    "https://www.goochlandva.us/DocumentCenter/View/13915/Tuckahoe-Tech-Park---Pre-App-Comment-Response-Letter",
     "https://www.goochlandva.us/DocumentCenter/View/13566/260610-Project-Narrative---Tuckahoe-Tech-Park",
     "https://virginiabusiness.com/tract-planning-872-acre-data-center-campus-in-goochland/",
     "https://www.datacenterdynamics.com/en/news/tract-looks-to-develop-900mw-data-center-park-outside-richmond-virginia/"
+  ],
+  "history": [
+    {
+      "as_of": "2026-08-11",
+      "previous_status": "pre-application / proposed conditional use permit",
+      "previous_evidence_date": "2026-06-10",
+      "change": "Goochland County now reports receipt of a formal CUP application on 2026-08-05; application remains under completeness review, so the lifecycle status moved to local process rather than approved/permitted."
+    },
+    {
+      "as_of": "2026-08-11",
+      "previous_owner": "VALCO Goochland County LLC / Tract Capital Management affiliate",
+      "change": "Applicant response letter states VALCO2 Goochland County, LLC is the correct registered entity and the prior VALCO Goochland County, LLC name was a scrivener's error."
+    }
+  ],
+  "contradictions": [
+    {
+      "as_of": "2026-08-11",
+      "issue": "Applicant/entity name varies across county materials.",
+      "details": "Goochland County's project page and cover sheet refer to VALCO Goochland/VALCO Goochland County, LLC, while the applicant's 2026-08-05 pre-application comment response says VALCO2 Goochland County, LLC is the correct entity registered to transact business in Virginia.",
+      "sources": [
+        "https://www.goochlandva.us/1480/Tuckahoe-Technology-Park",
+        "https://www.goochlandva.us/DocumentCenter/View/13911/APPLICATION-COVER-SHEET",
+        "https://www.goochlandva.us/DocumentCenter/View/13915/Tuckahoe-Tech-Park---Pre-App-Comment-Response-Letter"
+      ]
+    }
   ],
   "why_not_in_baseline": "Not among the 208 canonical_project names; separate Goochland County proposal after the baseline freeze, distinct from baseline Virginia entries in Chesterfield, Botetourt, Powhatan, Gainesville, and Danville/Pittsylvania.",
   "discovery_file": "candidates-grid-queue.jsonl",

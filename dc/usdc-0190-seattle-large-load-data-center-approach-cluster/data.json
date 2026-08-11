@@ -10,10 +10,86 @@
     "state": "WA"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "local process / regulatory pause as of 2026-08-11. Seattle official records confirm a citywide emergency moratorium for new or expanded data centers over 20 MVA was passed as CB 121214 / Ord 127447 on 2026-06-09 and signed on 2026-06-11, with companion Resolution 32204 adopted on 2026-06-09 and signed on 2026-06-12 for impact studies. Seattle City Light's large-data-center customer class and conditions of service were passed as CB 121231 / Ord 127473 on 2026-07-21 and signed on 2026-07-22. The underlying facilities remain utility-approach/proposal-stage: official city materials report four companies approached Seattle City Light for five large-scale data centers totaling 369 MW, but no project-specific land-use approval, building permit, construction start, energization, or operating status was verified.",
+  "evidence_grade": "A- for Seattle Council/City Light policy actions and official 369 MW aggregate; B for developer identities, withdrawals, and remaining 249 MW active-proposal figure because those details are from local/media reporting rather than accessible official city records.",
+  "actions": [
+    {
+      "date": "2026-04-30",
+      "government_body": "Seattle City Council",
+      "action_type": "moratorium announced",
+      "result_status": "Councilmembers announced emergency moratorium legislation and companion impact-study resolution after reports of four companies, five proposed large-scale data centers, and 369 MW combined maximum demand."
+    },
+    {
+      "date": "2026-05-01",
+      "government_body": "Office of the Mayor of Seattle",
+      "action_type": "policy direction",
+      "result_status": "Mayor identified initial steps, including a one-year moratorium for new or expanded 10 MW+ large-load data centers and City Light large-load policy development."
+    },
+    {
+      "date": "2026-06-09",
+      "government_body": "Seattle City Council",
+      "action_type": "ordinance passed",
+      "result_status": "CB 121214 passed; later Ord 127447. The ordinance adopted a moratorium on filing, accepting, processing, or approving applications for establishment, expansion, or change of use to data centers and defined covered data centers as over 20 MVA with uninterruptible power."
+    },
+    {
+      "date": "2026-06-09",
+      "government_body": "Seattle City Council",
+      "action_type": "resolution adopted",
+      "result_status": "Resolution 32204 adopted, committing to study data-center impacts on electrical grid capacity and reliability, water, rates, land use, jobs/economy, and public health."
+    },
+    {
+      "date": "2026-06-12",
+      "government_body": "Seattle City Light",
+      "action_type": "large-load policy proposal",
+      "result_status": "City Light described a proposed New Large Data Center Load Policy for new or expanded data-center electric service of 10 MVA or more, including a new rate class, cost-based rates, customer cost responsibility, service queue, and demand-response requirements."
+    },
+    {
+      "date": "2026-07-21",
+      "government_body": "Seattle City Council",
+      "action_type": "rate ordinance passed",
+      "result_status": "CB 121231 passed; later Ord 127473. The ordinance established new retail rate schedules, a new customer class, and conditions of service for data centers whose electricity demand constitutes a new large load."
+    },
+    {
+      "date": "2026-07-22",
+      "government_body": "Office of the Mayor of Seattle",
+      "action_type": "ordinance signed",
+      "result_status": "Mayor signed CB 121231 / Ord 127473."
+    }
+  ],
+  "capacity_mw": 249,
+  "capacity_detail": {
+    "original_approach_cluster_mw": 369,
+    "current_media_reported_active_mw": 249,
+    "withdrawn_media_reported_mw": 120,
+    "capacity_basis": "Official Seattle Council and City Light materials confirm the original five-proposal aggregate of 369 MW. Local/media reports say one unnamed developer withdrew and Sabey withdrew a 68 MW Tukwila request, leaving Equinix and Prologis with three active proposals totaling 249 MW; this remaining-active figure was not located in an official city record."
+  },
+  "owner": [
+    "Equinix (media-reported active proposer)",
+    "Prologis (media-reported active proposer)"
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous": null,
+      "current": "local process / regulatory pause",
+      "source": "Seattle CB 121214 / Ord 127447, Resolution 32204, Seattle City Light policy post, and CB 121231 / Ord 127473"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous": null,
+      "current": 249,
+      "source": "Official 369 MW original aggregate plus media-reported withdrawals/remaining active load"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous": null,
+      "current": "Equinix and Prologis active; Sabey withdrawn; one unnamed developer withdrawn",
+      "source": "GovTech / Seattle Times syndication and other local reports"
+    }
+  ],
   "sources": {
     "phase3_stable_id": "US-WA-SEATTLE-CITY-LIGHT-5-SITES-2026",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -21,9 +97,38 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://council.seattle.gov/2026/04/30/councilmembers-introducing-moratorium-on-data-centers-in-seattle/",
+      "https://wilson.seattle.gov/2026/05/01/mayor-wilson-identifies-initial-steps-for-action-on-data-centers/",
+      "https://council.seattle.gov/2026/06/09/city-council-passes-emergency-data-center-moratorium-and-policy-framework/",
+      "https://seattle.legistar.com/LegislationDetail.aspx?GUID=86F14A6D-9247-4BB5-839E-0A26937BFD3C&ID=8032163&Options=&Search=",
+      "https://seattle.legistar.com/LegislationDetail.aspx?GUID=8DD7E93C-942B-4CA0-8931-BB3456ABF8A2&ID=8031795&Options=&Search=",
+      "https://powerlines.seattle.gov/2026/06/12/getting-ahead-of-data-center-power-demands/",
+      "https://seattle.legistar.com/LegislationDetail.aspx?G=FFE3B678-CEF6-4197-84AC-5204EA4CFC0C&GUID=D3BD92B3-29A0-476F-A287-416888D43E7E&ID=8071043&Options=&Search=",
+      "https://seattle.legistar.com/MeetingDetail.aspx?G=FFE3B678-CEF6-4197-84AC-5204EA4CFC0C&GUID=E0BD2B85-68E0-4FC5-A21B-322D798FF44B&ID=1429315&Options=&Search=",
+      "https://www.govtech.com/products/data-center-developers-pull-seattle-plans-amid-opposition",
+      "https://www.everettpost.com/state-news/new-seattle-data-centers-could-spike-electric-rates/",
+      "https://www.spokesman.com/stories/2026/may/01/2-data-center-developers-pull-seattle-plans-amid-o/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "issue": "Capacity and active-proposal split",
+      "details": "Official Seattle sources consistently cite the original approach cluster as five proposed large-scale data centers from four companies with 369 MW combined maximum demand. Media reports say two proposals withdrew, including Sabey's 68 MW request, leaving Equinix and Prologis with three active proposals totaling 249 MW. The 249 MW active figure and proposer identities were not located in an accessible official city record."
+    },
+    {
+      "date": "2026-08-11",
+      "issue": "Aggregate MW conflict in secondary trackers",
+      "details": "Most official/local sources use 369 MW; at least one industry article/search result references 389 MW. This refresh retains 369 MW for the original aggregate because it is the figure used in Seattle Council/City Light materials."
+    },
+    {
+      "date": "2026-08-11",
+      "issue": "Location precision",
+      "details": "Seattle official materials describe the city/service-area issue but do not provide site addresses. Media reports place remaining proposals in South Seattle/SoDo and Tukwila; those locations are treated as unverified at parcel/permit level."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

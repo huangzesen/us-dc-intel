@@ -10,10 +10,13 @@
   "location": {
     "city": "Hillsboro",
     "county": "Washington County",
-    "state": "OR"
+    "state": "OR",
+    "street_address": "5420 NE Sewell Avenue",
+    "address_evidence_note": "Address is from local reporting that cites the CoreSite application/public notice; the reviewed City public-notice page did not expose address text in the browser capture."
   },
   "phase3_stable_id": "US-OR-CORESITE-HILLSBORO-2026",
-  "status_as_of_cutoff": "City of Hillsboro public notice confirms an administrative-review application for a phased CoreSite data-center campus. Phase 1 is described as a three-story 234,531-square-foot building and Phase 2 as a four-story 312,708-square-foot shell, with natural-resource, frontage, generator, parking, landscaping, and stormwater work. Final land-use approval, building permit, construction start, inspection, CO, utility/interconnection, energization, and service date were not located.",
+  "status_as_of_cutoff": "As of 2026-08-11, local-process evidence remains the highest confirmed status. City of Hillsboro materials confirm DR-012-26 Coresite Data Center was posted as a development-review public notice before the July 27, 2026 temporary land-use moratorium. The moratorium pauses acceptance of new or expanded primary-use data-center/BESS applications for 120 days but states projects with applications submitted before the moratorium may continue to develop. Phase 1 is described in the earlier notice record as a three-story 234,531-square-foot building and Phase 2 as a four-story 312,708-square-foot shell; local reporting describes the combined proposed campus as 547,239 square feet at 5420 NE Sewell Avenue. Final land-use approval, building permit issuance, construction start, inspection, CO, utility/interconnection, energization, service date, and project MW capacity were not located.",
+  "evidence_grade": "B: official City sources confirm the application notice, citywide moratorium, and continued processing of pre-moratorium applications; address/combined square footage/owner details rely on local reporting and SEC/entity evidence rather than a directly accessible city application packet.",
   "actions": [
     {
       "date": "2026-06-18",
@@ -26,10 +29,47 @@
       "primary_url": "https://www.hillsboro-oregon.gov/Home/Components/News/News/17484/4315",
       "access_caveat": "The notice is an administrative-review notice and does not say final approval was issued; the attached site plan/elevations were not treated as a permit or construction evidence.",
       "evidence_note": "Official application/notice; no final approval or build status inferred."
+    },
+    {
+      "date": "2026-07-07",
+      "date_precision": "day",
+      "government_body": "City of Hillsboro City Manager's Office",
+      "action_type": "city-manager report / development-review notice recap",
+      "result_status": "The July 7, 2026 City Manager's Report listed DR-012-26 Coresite Data Center among recently posted public notices for development review of data center sites.",
+      "vote_tally": "not applicable",
+      "case_or_ordinance_permit_number": "DR-012-26",
+      "primary_url": "https://hillsboro-oregon.civicweb.net/document/261246/City%20Manager_s%20Report_070726.pdf?handle=651A5C5FCE6A4E8CB93031766D8978E4",
+      "access_caveat": "Report confirms posted development-review notice only; it does not provide approval, permit issuance, or construction evidence.",
+      "evidence_note": "Official city recap corroborating DR-012-26 was in development-review notice stage."
+    },
+    {
+      "date": "2026-07-27",
+      "date_precision": "day",
+      "government_body": "Hillsboro City Council",
+      "action_type": "temporary land-use moratorium",
+      "result_status": "City Council enacted a 120-day moratorium on accepting land-use applications for new or expanded primary-use data centers and BESS facilities; the city stated projects that submitted applications before the moratorium may continue to develop.",
+      "vote_tally": "approved; city news release does not publish a roll-call tally",
+      "case_or_ordinance_permit_number": "Resolution 2932",
+      "primary_url": "https://www.hillsboro-oregon.gov/Home/Components/News/News/17551/4300",
+      "access_caveat": "Moratorium is citywide and is not a project-specific approval or denial for DR-012-26.",
+      "evidence_note": "Official city action affects intake of new/expanded applications but does not itself change DR-012-26 to approved/permitted or construction."
+    },
+    {
+      "date": "2026-08-03",
+      "date_precision": "day",
+      "government_body": "City of Hillsboro",
+      "action_type": "moratorium next-steps schedule",
+      "result_status": "The city published a two-phase schedule for data-center/BESS code amendments, utility-service pre-submittal requirements, environmental/economic analysis, and public meetings, with the 120-day moratorium ending November 24, 2026 unless extended.",
+      "vote_tally": "not applicable",
+      "case_or_ordinance_permit_number": "citywide data-center/BESS code-amendment process",
+      "primary_url": "https://www.hillsboro-oregon.gov/Home/Components/News/News/17569/",
+      "access_caveat": "Citywide regulatory process; no project-specific DR-012-26 approval, denial, permit, or construction milestone found.",
+      "evidence_note": "Official schedule for policy review during moratorium."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "CoreSite Real Estate Hillsboro LLC",
+  "owner_evidence_note": "Local reporting identifies CoreSite Real Estate Hillsboro LLC as the September 2025 purchaser/applicant; American Tower's FY2025 SEC exhibit lists CoreSite Real Estate Hillsboro LLC as a Delaware subsidiary. Treat as owner/developer pending direct county deed or city application packet verification.",
   "sources": {
     "phase3_stable_id": "US-OR-CORESITE-HILLSBORO-2026",
     "phase3_source_file": "phase3/county_ca_or.json",
@@ -37,7 +77,45 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      {
+        "url": "https://www.hillsboro-oregon.gov/Home/Components/News/News/17484/4315",
+        "date": "2026-06-18",
+        "title": "City of Hillsboro public notice for DR-012-26",
+        "note": "Official public-notice URL retained from baseline; browser capture did not expose all notice body text during this refresh."
+      },
+      {
+        "url": "https://hillsboro-oregon.civicweb.net/document/261246/City%20Manager_s%20Report_070726.pdf?handle=651A5C5FCE6A4E8CB93031766D8978E4",
+        "date": "2026-07-07",
+        "title": "City Manager's Report 070726",
+        "note": "Official city report listing DR-012-26 Coresite Data Center among recently posted development-review notices."
+      },
+      {
+        "url": "https://www.hillsboro-oregon.gov/Home/Components/News/News/17551/4300",
+        "date": "2026-07-27",
+        "title": "Land Use Moratorium Enacted on Data Centers & BESS Facilities",
+        "note": "Official city notice of 120-day moratorium; pre-moratorium applications may continue."
+      },
+      {
+        "url": "https://www.hillsboro-oregon.gov/Home/Components/News/News/17569/",
+        "date": "2026-08-03",
+        "title": "Data Centers in Hillsboro: Next Steps After Moratorium",
+        "note": "Official city schedule and scope for moratorium-period policy work."
+      },
+      {
+        "url": "https://hillsboroherald.com/coresite-proposes-massive-multi-story-hillsboro-data-campus-opposite-county-homes-and-over-wetlands-a-showdown-is-brewing/",
+        "date": "2026-07-19",
+        "title": "Hillsboro Herald CoreSite Sewell Avenue report",
+        "note": "Local reporting used for address, combined square footage, owner/developer and application-detail context; not treated as approval or construction evidence."
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1053507/000105350726000035/exhibit21fy2025.htm",
+        "date": "2026-02-26",
+        "title": "American Tower FY2025 Exhibit 21 subsidiaries",
+        "note": "SEC exhibit lists CoreSite Real Estate Hillsboro LLC as a Delaware subsidiary."
+      }
+    ]
   },
   "contradictions": [],
   "seed_only": false,

@@ -12,7 +12,8 @@
     "state": "UT"
   },
   "phase3_stable_id": "US-UT-TRACT-EAGLE-MOUNTAIN-2024",
-  "status_as_of_cutoff": "Land-acquisition/development-agreement and CRA stage; no construction or utility service evidence located. Possible overlap with Pole Canyon/Pony Express is not resolved.",
+  "status_as_of_cutoff": "local process / entitlement and CRA implementation evidence: Tract land acquisition is confirmed by Eagle Mountain City/EDCUtah, the city agenda records the Tract development agreement and Triple Tail CRA plan on 2024-08-20, and later official notices/minutes show CRA interlocal implementation into 2025. Tract's current company pages market Pole Canyon and Pony Express as owned and in development. No project-specific building permit, certificate of occupancy, utility service, interconnection/energization, or construction-start record was located as of 2026-08-11.",
+  "evidence_grade": "B: strong for land acquisition, local CRA/interlocal process, owner, and current company-marketed in-development status; medium for development-agreement posture because the accessible official record is agenda/packet evidence rather than final executed agreement text; medium/low for capacity because older Tripletail reporting says 400 MW by 2028 while current Tract pages split the Eagle Mountain opportunity into Pole Canyon 1,700 MW and Pony Express 120 MW.",
   "actions": [
     {
       "date": "2024-06-11",
@@ -39,6 +40,18 @@
       "evidence_note": "Body/context retained from prior file: Eagle Mountain City."
     },
     {
+      "date": "2024-01-18",
+      "date_precision": "day",
+      "government_body": "Eagle Mountain City / Economic Development Corporation of Utah",
+      "action_type": "land acquisition announcement",
+      "result_status": "Eagle Mountain City and EDCUtah announced that Tract purchased more than 668 acres in Eagle Mountain for Project Tripletail, within the city's Technology Overlay Zone/RTI Overlay.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://eaglemountain.gov/tract-announces-acquisition-of-668-acres-in-em/",
+      "access_caveat": "Announcement confirms acquisition and planned data-center land use but is not a site plan, building permit, utility approval, construction start, or energization record.",
+      "evidence_note": "EDCUtah companion release: https://www.edcutah.org/recent-news/tract-announces-acquisition-of-668-acres-in-eagle-mountain-utah"
+    },
+    {
       "date": "2024-10-15",
       "date_precision": "day",
       "government_body": "Eagle Mountain City Council / Eagle Mountain RDA",
@@ -49,10 +62,88 @@
       "primary_url": "https://www.utah.gov/pmn/files/1181461.pdf",
       "access_caveat": "Official agenda packet; the underlying final resolution/tally was not fully retrieved.",
       "evidence_note": "Body/context retained from prior file: Eagle Mountain City Council / Redevelopment Agency."
+    },
+    {
+      "date": "2024-08-20",
+      "date_precision": "day",
+      "government_body": "Eagle Mountain City Council / Eagle Mountain Redevelopment Agency",
+      "action_type": "development agreement and CRA plan agenda",
+      "result_status": "Official Utah public-notice agenda lists ordinances for the Tract Development Agreement and adoption of the Triple Tail Community Reinvestment Project Area Plan. The agenda describes approximately 672 acres in two parcels for the development agreement and a 24-parcel CRA, with north parcels south of 4000 North, north of Pole Canyon Blvd, and east of Tyson Pkwy, and the south parcel south of 1000 North and east of Pony Express Pkwy.",
+      "vote_tally": "CRA adoption reported as unanimous in a CivicClerk-derived roll-call tracker; official agenda page itself is not minutes.",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.utah.gov/pmn/sitemap/notice/933950.html",
+      "access_caveat": "Official source reviewed is the agenda/packet notice, not a building permit or certificate of occupancy. The local roll-call tracker is secondary and is not used as construction evidence.",
+      "evidence_note": "Supports local-process/entitlement and CRA implementation status, not construction."
+    },
+    {
+      "date": "2025-02-04",
+      "date_precision": "day",
+      "government_body": "Redevelopment Agency of Eagle Mountain City",
+      "action_type": "amended CRA interlocal cooperation agreement",
+      "result_status": "RDA minutes record approval of an amended interlocal cooperation agreement with UFSA for collection and remittance of incremental property taxes from property within the Triple Tail Community Reinvestment Area; the motion passed unanimously among present board members.",
+      "vote_tally": "4 yes, 1 absent",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.utah.gov/pmn/files/1328093.pdf",
+      "access_caveat": "Tax-increment implementation record; not a building, site-work, utility-service, or energization approval.",
+      "evidence_note": "Minutes state approval occurred on 2025-02-04 and the minutes were approved by the RDA on 2025-06-17."
+    },
+    {
+      "date": "2025-02-18",
+      "date_precision": "day",
+      "government_body": "Unified Fire Service Area / Local Building Authority",
+      "action_type": "amended Triple Tail CRA interlocal agreement",
+      "result_status": "UFSA/LBA minutes record adoption of Resolution 02-2025A amending the interlocal agreement between Eagle Mountain RDA/Triple Tail CRA and UFSA to correct a significant typo in the not-to-exceed number.",
+      "vote_tally": "8 yes; absent members marked with dashes in the minutes",
+      "case_or_ordinance_permit_number": "Resolution 02-2025A",
+      "primary_url": "https://www.utah.gov/pmn/files/1243023.pdf",
+      "access_caveat": "Fire-service/tax-increment agreement correction; not inspection approval, building permit, CO, or energization.",
+      "evidence_note": "Corroborates continuing CRA implementation after the 2024 local process."
+    },
+    {
+      "date": "2025-02-24",
+      "date_precision": "day",
+      "government_body": "Eagle Mountain Redevelopment Agency",
+      "action_type": "notice of interlocal agreements",
+      "result_status": "Official notice says the RDA, Utah County, Alpine School District, Eagle Mountain City, Central Utah Water Conservancy District, and Unified Fire Service Area entered interlocal agreements to remit portions of tax increment generated within the Triple Tail CRA to carry out the Project Area Plan.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.utah.gov/pmn/files/1237341.pdf",
+      "access_caveat": "Notice of CRA financing/interlocal agreements; it does not evidence physical construction, utility service, or occupancy.",
+      "evidence_note": "Notice lists 40-year/20-year remittance terms and caps for multiple taxing entities."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Tract",
+      "action_type": "current company project-page refresh",
+      "result_status": "Tract's current project pages list Pole Canyon, Utah as owned and in development with 844 acres and 1,700 MW capacity, and Pony Express, Utah as owned and in development with 225 acres and 120 MW capacity. The site descriptions place both in the Eagle Mountain industrial/data-center context.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.tract.com/project/pole-canyon-technology-tract/",
+      "access_caveat": "Company marketing pages have no explicit publication date; accessed on 2026-08-11. They are not permits or energization records and do not explicitly say 'Project Tripletail'.",
+      "evidence_note": "Pony Express page: https://www.tract.com/project/pony-express-technology-tract/"
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Eagle Mountain City / Utah public-notice search",
+      "action_type": "permit/construction evidence scan",
+      "result_status": "Searches of official city/news/public-notice sources located acquisition, development-agreement, CRA, interlocal, and general energy-planning records but did not locate a Tract/Triple Tail/Pole Canyon/Pony Express building permit, CO, utility-service, construction-start, or energization record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.utah.gov/pmn/sitemap/notice/933950.html",
+      "access_caveat": "Negative public-record search is not a comprehensive permit export.",
+      "evidence_note": "Eagle Mountain's 2025 energy-generation article notes Rocky Mountain Power limited expansion capacity and no current local generation projects, but it is not project-specific approval evidence: https://eaglemountain.gov/planning-commission-recommends-denial-of-zoning-changes-for-energy-generation/"
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": {
+    "announced_tripletail_mw_secondary_2024": 400,
+    "current_company_pole_canyon_mw": 1700,
+    "current_company_pony_express_mw": 120,
+    "current_company_combined_mw_if_same_tripletail_scope": 1820,
+    "capacity_conflict_note": "Use 400 MW as the older Project Tripletail/Rocky Mountain Power target reported by DCD in January 2024. Use 1,700 MW Pole Canyon and 120 MW Pony Express only as current Tract company-page capacities; their exact one-to-one relationship to the original 668/672-acre Tripletail record is not resolved."
+  },
+  "owner": "Tract",
   "sources": {
     "phase3_stable_id": "US-UT-TRACT-EAGLE-MOUNTAIN-2024",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -62,9 +153,78 @@
       "US-UT-TRACT-EAGLE-MOUNTAIN-2024"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://eaglemountain.gov/tract-announces-acquisition-of-668-acres-in-em/",
+      "https://www.edcutah.org/recent-news/tract-announces-acquisition-of-668-acres-in-eagle-mountain-utah",
+      "https://www.utah.gov/pmn/sitemap/notice/917459.html",
+      "https://www.utah.gov/pmn/files/1140441.pdf",
+      "https://www.utah.gov/pmn/sitemap/notice/933950.html",
+      "https://www.utah.gov/pmn/files/1150731.pdf",
+      "https://www.utah.gov/pmn/files/1237341.pdf",
+      "https://www.utah.gov/pmn/files/1328093.pdf",
+      "https://www.utah.gov/pmn/files/1243023.pdf",
+      "https://www.tract.com/project/pole-canyon-technology-tract/",
+      "https://www.tract.com/project/pony-express-technology-tract/",
+      "https://www.datacenterdynamics.com/en/news/tract-plans-400mw-data-center-park-in-eagle-mountain-utah/",
+      "https://cleanview.co/data-centers/utah/2137/tract-pole-canyon",
+      "https://cleanview.co/data-centers/utah/2138/tract-pony-express",
+      "https://eaglemountain.gov/planning-commission-recommends-denial-of-zoning-changes-for-energy-generation/"
+    ],
+    "as_of": "2026-08-11"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "as_of": "2026-08-11",
+      "description": "Project Tripletail was reported in January 2024 as a 400 MW Eagle Mountain plan, while Tract's current company pages show Pole Canyon at 1,700 MW and Pony Express at 120 MW. Local CRA records describe north parcels near Pole Canyon and a south parcel east of Pony Express, so the projects appear related, but the public sources reviewed do not explicitly map Tripletail to the current named sites or explain the capacity increase.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/tract-plans-400mw-data-center-park-in-eagle-mountain-utah/",
+        "https://www.utah.gov/pmn/sitemap/notice/933950.html",
+        "https://www.tract.com/project/pole-canyon-technology-tract/",
+        "https://www.tract.com/project/pony-express-technology-tract/"
+      ]
+    },
+    {
+      "field": "project_scope_acres",
+      "as_of": "2026-08-11",
+      "description": "Eagle Mountain/EDCUtah and city agreement materials describe roughly 668/672 acres for the original Tract/Tripletail acquisition or development agreement, while current Tract pages list 844 acres at Pole Canyon plus 225 acres at Pony Express. The difference may reflect additional properties or a changed marketing scope, but no official crosswalk was located.",
+      "sources": [
+        "https://eaglemountain.gov/tract-announces-acquisition-of-668-acres-in-em/",
+        "https://www.utah.gov/pmn/sitemap/notice/933950.html",
+        "https://www.tract.com/project/pole-canyon-technology-tract/",
+        "https://www.tract.com/project/pony-express-technology-tract/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": "Land-acquisition/development-agreement and CRA stage; no construction or utility service evidence located. Possible overlap with Pole Canyon/Pony Express is not resolved.",
+      "new_value": "local process / entitlement and CRA implementation evidence with current Tract company pages showing Pole Canyon/Pony Express owned and in development; no building permit, CO, utility-service, interconnection/energization, or construction-start record located.",
+      "reason": "Added 2024 city acquisition/agenda evidence, 2025 CRA interlocal evidence, and current Tract project-page evidence."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": {
+        "announced_tripletail_mw_secondary_2024": 400,
+        "current_company_pole_canyon_mw": 1700,
+        "current_company_pony_express_mw": 120,
+        "current_company_combined_mw_if_same_tripletail_scope": 1820
+      },
+      "reason": "Capacity is now documented as a conflict rather than a single confirmed number."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "Tract",
+      "reason": "Eagle Mountain City/EDCUtah acquisition announcement and current Tract project pages identify Tract as sponsor/developer."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

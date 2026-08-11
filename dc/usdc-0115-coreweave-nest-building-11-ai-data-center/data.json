@@ -7,13 +7,126 @@
   "location": {
     "city": "Kenilworth",
     "county": "Union",
-    "state": "NJ"
+    "state": "NJ",
+    "address": "2000 Galloping Hill Road, 11 NEST Building, Kenilworth, NJ 07033",
+    "site_note": "NEST / former Merck campus; Kenilworth records identify Block 181, Lot 1 / Lot 1.0102 and Building K11 / 11 NEST."
   },
-  "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "phase3_stable_id": "US-NJ-COREWEAVE-KENILWORTH-2025",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11. Kenilworth Planning Board approved CoreWeave Application #25-003 for the 2000 Galloping Hill Road data center on 2025-05-15 and approved the written resolution on 2025-05-27; NJEDA's 2025-11-12 board book states CoreWeave confirmed construction began on 2025-09-15. No public energization, certificate of occupancy, partial-live, or full-buildout record was located.",
+  "evidence_grade": "A- for local planning approval and NJEDA construction-start/incentive evidence; B for current capacity because CoreWeave company disclosure says up to 250 MW while NJEDA board materials and local records do not publish a final energized MW figure.",
+  "actions": [
+    {
+      "date": "2024-10-28",
+      "date_precision": "day",
+      "government_body": "CoreWeave / Onyx Equities (company announcement; non-government)",
+      "action_type": "lease and project announcement",
+      "result_status": "CoreWeave signed a long-term lease for all of Building 11 NEST at the Northeast Science & Technology Center and announced plans to convert the roughly 280,000-square-foot former lab/manufacturing building into a data center, with CoreWeave planning to invest $1.2 billion and the Onyx-led venture expecting to spend more than $50 million.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.prnewswire.com/news-releases/coreweave-signs-280-000-sf-lease-at-onyx-and-machines-northeast-science--technology-center-in-kenilworth-302289222.html",
+      "access_caveat": "Company/developer announcement; not a local approval, building permit, or energization record.",
+      "evidence_note": "Use for announcement, initial lease structure, project sponsor, and initial investment/square-footage context."
+    },
+    {
+      "date": "2025-04-24",
+      "date_precision": "day",
+      "government_body": "Borough of Kenilworth Planning Board",
+      "action_type": "substation site-plan approval",
+      "result_status": "Planning Board minutes state Application #25-004 for Kenilworth Corporate Property Urban Renewal LLC proposed a substation at 2000 Galloping Hill Road to serve a future data center; the board approved the application.",
+      "vote_tally": "Picerno, David, Pantina, Laudati, Mazzeo, Scuderi, Deluca, Grimaldi and Pugliese voted yes",
+      "case_or_ordinance_permit_number": "Application #25-004",
+      "primary_url": "https://kenilworthborough.com/AgendaCenter/ViewFile/Minutes/_04242025-246",
+      "access_caveat": "Official local-government minutes; confirms local substation approval context, not data-center energization.",
+      "evidence_note": "Supports utility-infrastructure/local-process context for the data-center project."
+    },
+    {
+      "date": "2025-05-15",
+      "date_precision": "day",
+      "government_body": "Borough of Kenilworth Planning Board",
+      "action_type": "site-plan approval",
+      "result_status": "Planning Board minutes state CoreWeave Application #25-003 proposed converting the NEST 11 laboratory building into a data center at 2000 Galloping Hill Road, including 31 generators, a chiller yard with 29 chiller units and 4 water tanks, security fencing, parking and infiltration improvements; the board approved the application.",
+      "vote_tally": "Picerno, David, Scorese, Clementi, Laudati, Scuderi, Grimaldi and Pugliese voted yes",
+      "case_or_ordinance_permit_number": "Application #25-003",
+      "primary_url": "https://www.kenilworthborough.com/AgendaCenter/ViewFile/Minutes/_05152025-248",
+      "access_caveat": "Official local-government minutes; browser text has minor OCR inconsistencies, but the approval and project facts are readable.",
+      "evidence_note": "Primary local approval evidence for the Building 11 data-center conversion."
+    },
+    {
+      "date": "2025-05-27",
+      "date_precision": "day",
+      "government_body": "Borough of Kenilworth Planning Board",
+      "action_type": "approval resolution adoption",
+      "result_status": "Planning Board minutes state the board heard and approved the CoreWeave Data Center application on 2025-05-15, including testimony regarding Building K11 and two minor dimensional variances, then approved the resolution for CoreWeave at 2000 Galloping Hill Road.",
+      "vote_tally": "Picerno, Scorese, Clementi, Laudati, Scuderi, Grimaldi and Pugliese voted yes",
+      "case_or_ordinance_permit_number": "Application #25-003; minutes line wraps/typos show #25-006 in the motion text",
+      "primary_url": "https://www.kenilworthborough.com/AgendaCenter/ViewFile/Minutes/_05272025-252",
+      "access_caveat": "Official local-government minutes; the resolution item heading is Application #25-003, while the motion text appears to contain an application-number typo.",
+      "evidence_note": "Primary local resolution-adoption evidence."
+    },
+    {
+      "date": "2025-08-12",
+      "date_precision": "day",
+      "government_body": "CoreWeave (company investor release; non-government)",
+      "action_type": "company capacity disclosure",
+      "result_status": "CoreWeave reported it was developing, as part of a joint venture, a new data center campus in Kenilworth, NJ, with capacity of up to 250 MW and initial phase expected to be delivered in 2026.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Second-Quarter-2025-Results/",
+      "access_caveat": "Company investor release; capacity and delivery timing are forward-looking and not proof of energized load.",
+      "evidence_note": "Best current company-published MW capacity located in this refresh."
+    },
+    {
+      "date": "2025-10-15",
+      "date_precision": "day",
+      "government_body": "Borough of Kenilworth Mayor and Council",
+      "action_type": "redeveloper designation",
+      "result_status": "Council minutes show Resolution No. 25-231 repealed and replaced Resolution No. 25-129 and conditionally designated CW Grosbeaks Nest Urban Renewal LLC as redeveloper of Block 181, Lot 1.0102 in the 2000 Galloping Hill Road Redevelopment Plan area, subject to an acceptable redevelopment agreement within 120 days, extendable by 60 days. The recitals describe a rehabilitated lab/manufacturing building and approximately 550,000 square-foot data center(s) with roadway and infrastructure improvements.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Resolution No. 25-231",
+      "primary_url": "https://www.kenilworthborough.com/AgendaCenter/ViewFile/Minutes/_10152025-264",
+      "access_caveat": "Official local-government minutes; confirms conditional redeveloper designation and redevelopment-plan context, not final redevelopment agreement execution.",
+      "evidence_note": "Supports owner/redeveloper entity and larger redevelopment-project context."
+    },
+    {
+      "date": "2025-11-12",
+      "date_precision": "day",
+      "government_body": "New Jersey Economic Development Authority",
+      "action_type": "Next NJ Program - AI tax credit award approval",
+      "result_status": "NJEDA board book requested approval of a $50 million per year, five-year, $250 million total Next NJ Program - AI tax credit award to CoreWeave for the 2000 Galloping Hill Road, 11 NEST Building project. NJEDA records list the application date as 2025-07-31, 143 new jobs, approximately $1.758 billion capital investment, a $25 million collaboration commitment, and CoreWeave confirmation that construction began on 2025-09-15.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "CoreWeave, Inc., Next NJ Program - AI Application",
+      "primary_url": "https://www.njeda.gov/november-12-2025-eda-board-book/",
+      "access_caveat": "Official NJEDA board-book PDF; board-book request/approval materials are public, but no utility energization or certificate of occupancy is included.",
+      "evidence_note": "Primary state economic-development evidence for construction-start date, investment, jobs, project location, and tax-credit award."
+    },
+    {
+      "date": "2026-03-06",
+      "date_precision": "day",
+      "government_body": "Union County Planning Board",
+      "action_type": "county land-development summary listing",
+      "result_status": "Union County's 2025 Land Development Summary Report lists Core Weave, Inc. at 2000 Galloping Hill Rd., Kenilworth, as a Data Center project with 247,000 square feet and no residential units.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://ucnj.org/wp-content/uploads/2026/03/2025-Land-Development-Summary-Report-March-6-2026.pdf",
+      "access_caveat": "Official county summary report; project table does not provide MW capacity, permit number, or construction/energization status.",
+      "evidence_note": "County-level confirmation of data-center land-development listing."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "NEST Center (property/developer site; non-government)",
+      "action_type": "property tenant listing",
+      "result_status": "NEST's campus page lists Building 11 NEST as occupied by CoreWeave and describes CoreWeave's large-scale, energy-efficient server farms for AI, machine-learning, visual-effects rendering, and blockchain processing workloads.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.nestcenter.com/campus",
+      "access_caveat": "Property/developer marketing page; not a public permit, construction-start, or energization record.",
+      "evidence_note": "Supports current tenant/project identity only."
+    }
+  ],
+  "capacity_mw": 250,
+  "capacity_note": "CoreWeave's 2025-08-12 investor release describes the Kenilworth campus as having capacity of up to 250 MW. Treat as planned/contracted maximum capacity, not verified energized load. Union County and Kenilworth local records found in this refresh report square footage but not MW.",
+  "owner": "CoreWeave / CW Grosbeaks Nest Urban Renewal LLC as redeveloper and project entity; CoreWeave initially announced a lease for Building 11 NEST in 2024, and Kenilworth Council minutes on 2025-10-15 state CoreWeave acquired approximately 40 acres of the former Merck site. Public deed-level ownership was not independently verified in this refresh.",
   "sources": {
     "phase3_stable_id": "US-NJ-COREWEAVE-KENILWORTH-2025",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -21,9 +134,159 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_public_sources": [
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.kenilworthborough.com/AgendaCenter/ViewFile/Minutes/_05152025-248",
+        "source_type": "official local-government planning-board minutes",
+        "facts_supported": [
+          "CoreWeave Application #25-003 site-plan approval",
+          "2000 Galloping Hill Road / Building 11 data-center conversion",
+          "247,000 square feet in existing building",
+          "31 generators",
+          "29 chiller units and 4 water tanks"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.kenilworthborough.com/AgendaCenter/ViewFile/Minutes/_05272025-252",
+        "source_type": "official local-government planning-board minutes",
+        "facts_supported": [
+          "Planning Board resolution adoption for CoreWeave Data Center",
+          "Building K11",
+          "two minor dimensional variances"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://kenilworthborough.com/AgendaCenter/ViewFile/Minutes/_04242025-246",
+        "source_type": "official local-government planning-board minutes",
+        "facts_supported": [
+          "Application #25-004 substation approval to serve future data center"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.kenilworthborough.com/AgendaCenter/ViewFile/Minutes/_10152025-264",
+        "source_type": "official local-government council minutes",
+        "facts_supported": [
+          "Resolution No. 25-231",
+          "CW Grosbeaks Nest Urban Renewal LLC redeveloper designation",
+          "Block 181, Lot 1.0102",
+          "approximately 550,000 square-foot data center(s)",
+          "CoreWeave acquisition statement for approximately 40 acres"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.njeda.gov/november-12-2025-eda-board-book/",
+        "source_type": "official state economic-development authority board book",
+        "facts_supported": [
+          "CoreWeave, Inc. Next NJ Program - AI application",
+          "project location at 2000 Galloping Hill Road, 11 NEST Building",
+          "$250 million tax credit award",
+          "application date 2025-07-31",
+          "construction began 2025-09-15",
+          "143 new jobs",
+          "$1.757842 billion capital investment",
+          "$25 million collaboration commitment"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://ucnj.org/wp-content/uploads/2026/03/2025-Land-Development-Summary-Report-March-6-2026.pdf",
+        "source_type": "official county development summary",
+        "facts_supported": [
+          "Core Weave, Inc. 2000 Galloping Hill Rd. Kenilworth Data Center",
+          "247,000 square feet"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Second-Quarter-2025-Results/",
+        "source_type": "company investor release",
+        "facts_supported": [
+          "Kenilworth data-center campus",
+          "up to 250 MW capacity",
+          "initial phase expected in 2026"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.prnewswire.com/news-releases/coreweave-signs-280-000-sf-lease-at-onyx-and-machines-northeast-science--technology-center-in-kenilworth-302289222.html",
+        "source_type": "company/developer announcement",
+        "facts_supported": [
+          "2024 long-term lease announcement",
+          "Building 11 NEST",
+          "280,000-square-foot conversion",
+          "$1.2 billion CoreWeave planned investment",
+          "PSE&G collaboration context"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.nestcenter.com/campus",
+        "source_type": "property/developer website",
+        "facts_supported": [
+          "Building 11 NEST tenant listing",
+          "NEST campus size and zoning context"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://re-nj.com/coreweave-begins-1-8-billion-data-center-project-in-kenilworth-landing-first-award-under-new-eda-tax-credit-program/",
+        "source_type": "regional real-estate media",
+        "facts_supported": [
+          "secondary report aligning NJEDA construction-start, 392,600-square-foot project, 108,100 square feet new construction, 284,500-square-foot retrofit, and early-2027 operational target"
+        ]
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "project square footage",
+      "details": "Official/local records use several scopes: Kenilworth Planning Board and Union County list about 247,000 square feet for the Building 11 conversion; CoreWeave/Onyx's 2024 announcement describes roughly 280,000 square feet; Kenilworth Council redevelopment recitals describe approximately 550,000 square-foot data center(s); RE-NJ, citing EDA, reports 392,600 square feet including 108,100 square feet of new construction and a 284,500-square-foot retrofit. Treat 247,000 as the approved existing-building/site-plan figure and 392,600/550,000 as broader expansion/redevelopment scopes until primary plans are reconciled.",
+      "sources": [
+        "https://www.kenilworthborough.com/AgendaCenter/ViewFile/Minutes/_05152025-248",
+        "https://ucnj.org/wp-content/uploads/2026/03/2025-Land-Development-Summary-Report-March-6-2026.pdf",
+        "https://www.prnewswire.com/news-releases/coreweave-signs-280-000-sf-lease-at-onyx-and-machines-northeast-science--technology-center-in-kenilworth-302289222.html",
+        "https://www.kenilworthborough.com/AgendaCenter/ViewFile/Minutes/_10152025-264",
+        "https://re-nj.com/coreweave-begins-1-8-billion-data-center-project-in-kenilworth-landing-first-award-under-new-eda-tax-credit-program/"
+      ]
+    },
+    {
+      "topic": "delivery/operational timing",
+      "details": "CoreWeave's 2025-08-12 investor release says the initial phase is expected in 2026, while RE-NJ, citing EDA, reports the AI data center is expected to be operational in early 2027. No official certificate of occupancy, energization, or commissioning record was found.",
+      "sources": [
+        "https://investors.coreweave.com/news/news-details/2025/CoreWeave-Reports-Strong-Second-Quarter-2025-Results/",
+        "https://re-nj.com/coreweave-begins-1-8-billion-data-center-project-in-kenilworth-landing-first-award-under-new-eda-tax-credit-program/"
+      ]
+    }
+  ],
   "seed_only": false,
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": null,
+      "new_value": "site work-construction",
+      "reason": "NJEDA board book states CoreWeave confirmed construction began on 2025-09-15; Kenilworth Planning Board approved site plan/resolution in May 2025."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": 250,
+      "reason": "CoreWeave 2025-08-12 investor release states the Kenilworth campus has capacity of up to 250 MW; not verified as energized load."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "CoreWeave / CW Grosbeaks Nest Urban Renewal LLC",
+      "reason": "Kenilworth Council Resolution No. 25-231 designates CW Grosbeaks Nest Urban Renewal LLC as redeveloper; council minutes state CoreWeave acquired approximately 40 acres."
+    }
+  ],
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

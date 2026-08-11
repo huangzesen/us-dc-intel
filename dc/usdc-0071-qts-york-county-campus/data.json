@@ -10,11 +10,27 @@
   "location": {
     "city": null,
     "county": "York County",
-    "state": "SC"
+    "state": "SC",
+    "address": "2143 Hands Mill Hwy, Rock Hill, SC 29745",
+    "postal_city": "Rock Hill",
+    "site_description": "Near Hands Mill Highway and Campbell Road in unincorporated York County"
   },
   "phase3_stable_id": "SC-004",
-  "status_as_of_cutoff": "State announcement confirms QTS selected York County for a campus. Phase 2 also identified a 2026 PSC utility order and reporting of site-preparation support, but no building-level permit, CO, construction completion, energization, or service evidence was located.",
+  "status_as_of_cutoff": "As of 2026-08-11, York County and QTS describe the QTS York County campus as an active construction/site-work project with nine vested/approved site plans: two buildings under construction, two more expected to break ground in 2026, and no completed or operational buildings yet. Gilbane announced structural-steel topping out for the first building on 2026-06-30. No CO, energization, or in-service evidence was located.",
+  "evidence_grade": "A-: official county/QTS pages confirm site-plan vesting, active construction, approved county/site utility elements, and non-operational status; builder announcement confirms first-building steel topping-out. Building CO, energization, and exact MW remain unverified/publicly undisclosed.",
   "actions": [
+    {
+      "date": "2023-07-26",
+      "date_precision": "day",
+      "government_body": "York County Council / York County Government",
+      "action_type": "county land sale / zoning status",
+      "result_status": "York County says QTS purchased 173 acres from the County on July 26, 2023, and also bought land from private owners; the 2023 property was already zoned Industrial Development, data centers were a by-right use in that district, and no rezoning was required.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.yorkcountysc.gov/1313/Data-Centers",
+      "access_caveat": "County FAQ summarizes prior actions but does not expose the full deed packet or individual site-plan records on the page.",
+      "evidence_note": "Establishes local land/zoning posture, not building completion."
+    },
     {
       "date": "2023-09-19",
       "date_precision": "day",
@@ -26,6 +42,18 @@
       "primary_url": "https://governor.sc.gov/news/2023-09/qts-data-centers-establishing-first-south-carolina-operations-york-county",
       "access_caveat": "State announcement; local permit and utility records were not attached.",
       "evidence_note": "Announcement kept separate from approval and construction."
+    },
+    {
+      "date": "2023-09-18",
+      "date_precision": "day",
+      "government_body": "York County Council",
+      "action_type": "FILOT approval",
+      "result_status": "York County says the FILOT agreement for QTS was approved by Council on September 18, 2023 after three readings, including a public hearing.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.yorkcountysc.gov/1313/Data-Centers",
+      "access_caveat": "County FAQ cites the approval but the underlying ordinance/agreement was not retrieved in this refresh.",
+      "evidence_note": "Economic-development approval; not proof of construction or operation."
     },
     {
       "date": "2026-07-01",
@@ -50,10 +78,58 @@
       "primary_url": "https://dms.psc.sc.gov/Attachments/Order/adffdc00-b38c-42d3-9c41-2bfccdd92ec3",
       "access_caveat": "Official order PDF was text-extracted; it establishes the utility certificate and QTS customer identity but not building completion or service date.",
       "evidence_note": "Utility/regulator action kept separate from land-use and building approval."
+    },
+    {
+      "date": "2025-06",
+      "date_precision": "month",
+      "government_body": "York County Council",
+      "action_type": "zoning-code text amendment / road-improvement agreement",
+      "result_status": "York County says Council accommodated QTS's added building-height request with a Zoning Code text amendment in June 2025 after three readings and a public hearing, and also approved a road-improvement agreement.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.yorkcountysc.gov/1313/Data-Centers",
+      "access_caveat": "County FAQ confirms the actions but the individual ordinance and road agreement were not retrieved in this refresh.",
+      "evidence_note": "Local development action supporting the approved campus; not a CO or energization record."
+    },
+    {
+      "date": "2026-06-30",
+      "date_precision": "day",
+      "government_body": "Not a government action; project builder announcement",
+      "action_type": "construction milestone",
+      "result_status": "Gilbane announced topping-out of the structural steel frame for the first building in the initial phase of QTS's York County campus and said construction is ongoing.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.gilbaneco.com/about/whats-new/news/gilbane-marks-steel-topping-out-milestone-for-data-center-campus-in-upstate-south-carolina/",
+      "access_caveat": "Builder/company announcement; useful for construction progress but not equivalent to a government CO or operational proof.",
+      "evidence_note": "Supports status tier site work-construction."
+    },
+    {
+      "date": "2026-07-13",
+      "date_precision": "day",
+      "government_body": "York County Council",
+      "action_type": "data-center moratorium / vested-rights clarification",
+      "result_status": "York County says Council passed third reading of a nine-month data-center moratorium on July 13, 2026, but QTS has nine active-site buildings in various stages of development whose site-plan approvals occurred before the moratorium and are considered vested.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.yorkcountysc.gov/1313/Data-Centers",
+      "access_caveat": "County FAQ summarizes the moratorium and QTS exemption; meeting packet was not retrieved in this refresh.",
+      "evidence_note": "Confirms current local-process posture and that the approved QTS site plans may proceed."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Not a government action; owner project page",
+      "action_type": "owner development status",
+      "result_status": "QTS says the approved campus is nine buildings over three phases, first phase is four buildings on about 109 acres, two buildings are under construction, two more are expected to break ground in 2026, and none of the buildings are completed or operational yet.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://q.com/data-centers/york/",
+      "access_caveat": "Company webpage current as crawled on 2026-08-11; page does not disclose specific power capacity.",
+      "evidence_note": "Direct owner statement; separates construction from operational status."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "QTS Data Centers",
   "sources": {
     "phase3_stable_id": "SC-004",
     "phase3_source_file": "phase3/county_ga_nc_sc.json",
@@ -61,9 +137,50 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh": [
+      "https://www.yorkcountysc.gov/1313/Data-Centers",
+      "https://q.com/data-centers/york/",
+      "https://www.gilbaneco.com/about/whats-new/news/gilbane-marks-steel-topping-out-milestone-for-data-center-campus-in-upstate-south-carolina/",
+      "https://governor.sc.gov/news/2023-09/qts-data-centers-establishing-first-south-carolina-operations-york-county",
+      "https://dms.psc.sc.gov/Attachments/Order/adffdc00-b38c-42d3-9c41-2bfccdd92ec3"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "State announcement confirms QTS selected York County for a campus. Phase 2 also identified a 2026 PSC utility order and reporting of site-preparation support, but no building-level permit, CO, construction completion, energization, or service evidence was located.",
+      "new_value": "Active site work-construction with two buildings under construction, two additional 2026 starts expected, nine vested site plans, first-building steel topping-out on 2026-06-30, and no completed/operational buildings found.",
+      "source": "https://www.yorkcountysc.gov/1313/Data-Centers"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "QTS Data Centers",
+      "source": "https://q.com/data-centers/york/"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "location",
+      "previous_value": {
+        "city": null,
+        "county": "York County",
+        "state": "SC"
+      },
+      "new_value": {
+        "city": null,
+        "county": "York County",
+        "state": "SC",
+        "address": "2143 Hands Mill Hwy, Rock Hill, SC 29745",
+        "postal_city": "Rock Hill",
+        "site_description": "Near Hands Mill Highway and Campbell Road in unincorporated York County"
+      },
+      "source": "https://q.com/data-centers/york/"
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

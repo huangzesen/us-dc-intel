@@ -11,10 +11,13 @@
   "location": {
     "city": "Vicksburg",
     "county": "Warren County",
-    "state": "MS"
+    "state": "MS",
+    "address": "1247 Dana Road",
+    "address_evidence": "Warren County Board of Supervisors July 6, 2026 loan-agreement exhibit defines the Project Site as the real property where the project is situated, at 1247 Dana Road in Warren County."
   },
   "phase3_stable_id": "MS-005",
-  "status_as_of_cutoff": "State-announced $3 billion campus with construction expected in 2026; no physical start, building permit, CO, energized service, or commissioning record was located.",
+  "status_as_of_cutoff": "local process: state/company-announced AWS/Amazon Data Services data-center campus with Warren County July 6, 2026 approvals for MDA loan/infrastructure agreements and an Entergy right-of-way; no building permit, physical construction start, CO, energized service, or commissioning record was located.",
+  "evidence_grade": "official-local-process",
   "actions": [
     {
       "date": "2025-11-20",
@@ -39,10 +42,58 @@
       "primary_url": "https://www.entergy.com/blog/amazon-expands-and-entergy-mississippi-stands-ready-to-deliver-benefits-for-all-our-customers",
       "access_caveat": "Utility statement is not a regulatory approval, permit, or proof of service.",
       "evidence_note": "Utility support is distinct from the Governor’s project forecast."
+    },
+    {
+      "date": "2026-04-01",
+      "date_precision": "month",
+      "government_body": "Warren County, Mississippi",
+      "action_type": "county public-information posting",
+      "result_status": "Warren County published an Amazon Data Center Overview flyer describing the planned Amazon data-center campus, including at least $3 billion of infrastructure investment, about 200 direct jobs in Warren County, 300+ indirect jobs, and Amazon coordination with utilities for regional power, water, and sewer infrastructure.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.co.warren.ms.us/amazon-data-center-overview/",
+      "access_caveat": "County informational flyer is not a building permit, site-plan approval, or evidence that construction has begun.",
+      "evidence_note": "Supports planned/local-process status and local public outreach."
+    },
+    {
+      "date": "2026-07-06",
+      "date_precision": "day",
+      "government_body": "Warren County Board of Supervisors",
+      "action_type": "right-of-way approval",
+      "result_status": "Board minutes show approval authorizing the Board President to sign a right-of-way from Warren County to Entergy Mississippi in the northwest section of the New Port of Vicksburg area; the recorded instrument describes a permanent easement across county-owned property in Section 18, Township 15 North, Range 3 East, totaling about 4.11 acres.",
+      "vote_tally": "4 yes, 0 no, 1 absent",
+      "case_or_ordinance_permit_number": "Board minutes book 74 page 120; instrument line 10108243",
+      "primary_url": "http://boardminutes.co.warren.ms.us/DuProcessBoardMinutes/?id=10102018&line=10108243&page=0",
+      "access_caveat": "Right-of-way/easement approval supports infrastructure preparation but is not proof of data-center construction or energization.",
+      "evidence_note": "Entergy right-of-way is consistent with utility-support work for the campus."
+    },
+    {
+      "date": "2026-07-06",
+      "date_precision": "day",
+      "government_body": "Warren County Board of Supervisors",
+      "action_type": "infrastructure loan agreement approval",
+      "result_status": "Board minutes show approval authorizing the Board President to execute a Mississippi Development Authority loan agreement for infrastructure improvements associated with Project Steamboat (AWS). The loan agreement states an amount not to exceed $20,000,000 for site-development/site-enhancement activities, including roads, readying the site for construction, and extension of water and sewer lines to the Project Site.",
+      "vote_tally": "5 yes, 0 no",
+      "case_or_ordinance_permit_number": "Board minutes book 74 page 127; instrument line 10108244",
+      "primary_url": "http://boardminutes.co.warren.ms.us/DuProcessBoardMinutes/?id=10102018&line=10108244&page=0",
+      "access_caveat": "Loan agreement authorizes infrastructure financing and obligations; it is not a building permit or evidence that vertical construction has begun.",
+      "evidence_note": "Agreement identifies Project Steamboat as AWS and defines the Project Site at 1247 Dana Road."
+    },
+    {
+      "date": "2026-07-06",
+      "date_precision": "day",
+      "government_body": "Warren County Board of Supervisors",
+      "action_type": "county-company agreement approval",
+      "result_status": "Board minutes show approval authorizing an agreement with AWS related to the county loan agreement. The attached Project Delay Payment and Grant Agreement names Amazon Data Services, Inc. as the company, states the company is developing data-center facilities as part of its statewide project, and says the selected site is in Warren County and partially within the City of Vicksburg.",
+      "vote_tally": "5 yes, 0 no",
+      "case_or_ordinance_permit_number": "Board minutes book 74 page 178; instrument line 10108245",
+      "primary_url": "http://boardminutes.co.warren.ms.us/DuProcessBoardMinutes/?id=10102018&line=10108245&page=0",
+      "access_caveat": "Agreement supports local-process status and owner/entity identification; it is not a construction-start or commissioning record.",
+      "evidence_note": "County agreement identifies Amazon Data Services, Inc. as the project company."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Amazon Data Services, Inc. / Amazon Web Services (AWS)",
   "sources": {
     "phase3_stable_id": "MS-005",
     "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
@@ -52,9 +103,47 @@
       "US-MS-AWS-WARREN-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://governorreeves.ms.gov/governor-tate-reeves-announces-amazon-plans-to-invest-3-billion-in-vicksburg/",
+      "https://www.aboutamazon.com/news/company-news/amazon-3-billion-mississippi-data-center-investment",
+      "https://www.co.warren.ms.us/amazon-data-center-overview/",
+      "https://www.co.warren.ms.us/wp-content/uploads/2026/04/DataCenterOverview.pdf",
+      "https://www.co.warren.ms.us/departments/permit-division/",
+      "http://boardminutes.co.warren.ms.us/DuProcessBoardMinutes/?id=10102018&line=10108243&page=0",
+      "http://boardminutes.co.warren.ms.us/DuProcessBoardMinutes/?id=10102018&line=10108244&page=0",
+      "http://boardminutes.co.warren.ms.us/DuProcessBoardMinutes/?id=10102018&line=10108245&page=0",
+      "https://www.entergy.com/blog/amazon-expands-and-entergy-mississippi-stands-ready-to-deliver-benefits-for-all-our-customers"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "construction status and capacity",
+      "description": "Official state/company/county records support announced/local-process status but do not provide MW capacity or evidence of construction start. Some third-party trackers label the project under construction or estimate 200-1000 MW; those claims were not used because no matching official permit, construction, interconnection, energized-service, or commissioning record was located.",
+      "sources": [
+        "https://cleanview.co/data-centers/mississippi/2270/aws-vicksburg-data-center",
+        "https://morethanjustparks.com/data-center-tracker/aws-vicksburg-ms-proposed-ms--14d024e0-a693-4c7b-84b9-c58bd4d43f67",
+        "https://dchub.cloud/facilities/amazon-web-services-aws-vicksburg-mississippi-22cdb13a"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "State-announced $3 billion campus with construction expected in 2026; no physical start, building permit, CO, energized service, or commissioning record was located.",
+      "new_value": "local process: state/company-announced AWS/Amazon Data Services data-center campus with Warren County July 6, 2026 approvals for MDA loan/infrastructure agreements and an Entergy right-of-way; no building permit, physical construction start, CO, energized service, or commissioning record was located.",
+      "reason": "Warren County Board of Supervisors records show July 6, 2026 local approvals tied to Project Steamboat (AWS), Amazon Data Services, Inc., and supporting infrastructure."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Amazon Data Services, Inc. / Amazon Web Services (AWS)",
+      "reason": "Warren County agreement identifies Amazon Data Services, Inc. as the company; official announcements identify AWS/Amazon as the project sponsor."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

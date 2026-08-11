@@ -12,7 +12,8 @@
     "state": "MN"
   },
   "phase3_stable_id": "MN-HERMANTOWN-GOOGLE",
-  "status_as_of_cutoff": "Google is publicly identified as the proposed developer/operator. Hermantown's AUAR scoping process remained open in March 2026, and city/utility reimbursement and pre-agenda material continued in July. No final rezoning, site plan, building permit, construction start, inspection, CO, interconnection, energization, commissioning, or service record was located.",
+  "status_as_of_cutoff": "Local process. Google is publicly identified through Harmony Group LLC, a subsidiary of Google LLC, as the proposed project proposer/owner-operator. Hermantown posted the Final Updated Hermantown Industrial AUAR on August 5, 2026 after submitting it to the Environmental Quality Board on August 4, with EQB Monitor posting expected August 11 and City Council adoption deliberation anticipated in fall 2026. No final special-use permit, CIDP/site-plan approval, building permit, construction start, inspection, CO, final interconnection approval, energization, commissioning, or service record was located.",
+  "evidence_grade": "official-local-government-primary",
   "actions": [
     {
       "date": "2026-03-03",
@@ -61,10 +62,58 @@
       "primary_url": "https://www.northernnewsnow.com/2026/07/07/hermantown-city-council-approves-data-center-reimbursements/",
       "access_caveat": "Secondary report; underlying council agenda/minutes/agreement were not retrieved.",
       "evidence_note": "Government action reported by local media and explicitly not upgraded to project approval."
+    },
+    {
+      "date": "2026-05-18",
+      "date_precision": "day",
+      "government_body": "Hermantown City Council",
+      "action_type": "AUAR scoping acceptance / order to prepare draft AUAR",
+      "result_status": "City AUAR materials state the scoping document was accepted and preparation of the AUAR authorized on May 18, 2026.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Updated Hermantown Industrial AUAR",
+      "primary_url": "https://hermantownmn.com/wp-content/uploads/2026/07/7.27.2026-Presentation.pdf",
+      "access_caveat": "Official work-session presentation summarizes the prior council action; underlying May 18 packet is linked from the city project page.",
+      "evidence_note": "Environmental-review process milestone, not land-use approval."
+    },
+    {
+      "date": "2026-06-12",
+      "date_precision": "day",
+      "government_body": "City of Hermantown",
+      "action_type": "Draft AUAR and mitigation-plan comment period",
+      "result_status": "The city opened a second public comment period focused on the Draft AUAR and associated Mitigation Plan, with comments due July 16, 2026.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Updated Hermantown Industrial Draft AUAR and Mitigation Plan",
+      "primary_url": "https://hermantownmn.com/community/community-highlights/second-comment-period-opens-for-google-data-center/",
+      "access_caveat": "Comment-period notice is not a final AUAR adoption, permit, or construction authorization.",
+      "evidence_note": "Official municipal notice."
+    },
+    {
+      "date": "2026-08-04",
+      "date_precision": "day",
+      "government_body": "City of Hermantown / Minnesota Environmental Quality Board",
+      "action_type": "Final Updated AUAR submitted to EQB",
+      "result_status": "The city project page says the Final Updated Hermantown Industrial AUAR was submitted to EQB on August 4, 2026 and would be posted to the EQB Monitor on August 11, 2026; the July 27 work-session presentation said council deliberation/adoption was anticipated in fall 2026.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Updated Hermantown Industrial Final AUAR",
+      "primary_url": "https://hermantownmn.com/project/",
+      "access_caveat": "Final AUAR submission/posting does not itself approve the project; city adoption and subsequent permits remain pending in reviewed records.",
+      "evidence_note": "Official municipal project page updated August 5, 2026."
+    },
+    {
+      "date": "2026-08-04",
+      "date_precision": "day",
+      "government_body": "City of Hermantown",
+      "action_type": "Final AUAR project facts",
+      "result_status": "The Final Updated AUAR identifies the proposer as Harmony Group LLC, a subsidiary of Google LLC, and evaluates a 278-acre, 26-parcel study area with up to four one-story data-center buildings, one warehouse, two office buildings, and 1.8 million square feet of data-center, warehouse, storage, and office development. It states the data-center use requires a Special Use Permit in the Business and Light Manufacturing District, and that preliminary construction is anticipated no earlier than 2027 and depends on permitting approvals.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Updated Hermantown Industrial Final AUAR",
+      "primary_url": "https://hermantownmn.com/wp-content/uploads/2026/08/2026-08-04-Hermantown-Industrial-Final-AUAR-1.pdf",
+      "access_caveat": "AUAR maximum-build scenario and anticipated timing are planning assumptions, not evidence of permit issuance or construction start.",
+      "evidence_note": "Official Final AUAR."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Harmony Group LLC (subsidiary of Google LLC; proposed owner/operator)",
   "sources": {
     "phase3_stable_id": "MN-HERMANTOWN-GOOGLE",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -72,9 +121,42 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://hermantownmn.com/project/",
+      "https://hermantownmn.com/wp-content/uploads/2026/08/2026-08-04-Hermantown-Industrial-Final-AUAR-1.pdf",
+      "https://hermantownmn.com/community/community-highlights/second-comment-period-opens-for-google-data-center/",
+      "https://hermantownmn.com/wp-content/uploads/2026/07/7.27.2026-Presentation.pdf",
+      "https://hermantownmn.com/wp-content/uploads/2026/03/Hermantown-City-Council-MP-Presentation-2026-03-16.pdf",
+      "https://hermantownmn.com/wp-content/uploads/2026/05/Hermantown-TAA-DA-Meeting-May-4-2026.pdf",
+      "https://www.northernnewsnow.com/2026/07/07/hermantown-city-council-approves-data-center-reimbursements/"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Google is publicly identified as the proposed developer/operator. Hermantown's AUAR scoping process remained open in March 2026, and city/utility reimbursement and pre-agenda material continued in July. No final rezoning, site plan, building permit, construction start, inspection, CO, interconnection, energization, commissioning, or service record was located.",
+      "new_value": "Local process; Final Updated AUAR submitted to EQB August 4, 2026 and posted by the city August 5, 2026; City Council adoption and land-use permits remain pending in reviewed records.",
+      "source_url": "https://hermantownmn.com/project/"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Harmony Group LLC (subsidiary of Google LLC; proposed owner/operator)",
+      "source_url": "https://hermantownmn.com/wp-content/uploads/2026/08/2026-08-04-Hermantown-Industrial-Final-AUAR-1.pdf"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": null,
+      "source_url": "https://hermantownmn.com/wp-content/uploads/2026/08/2026-08-04-Hermantown-Industrial-Final-AUAR-1.pdf",
+      "note": "No verified campus IT load or electric demand capacity was located; public materials mention 700 MW of enabled new clean energy resources and 25-49 MW of backup generation, but those are not data-center capacity."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

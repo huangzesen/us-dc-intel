@@ -1,28 +1,178 @@
 {
   "master_id": "USDC-0095",
-  "canonical_project": "SNA Data Center Cedar Rapids phases",
+  "canonical_project": "QTS Cedar Rapids data center campus",
   "aliases": [
     "Heaviside LLC Data Center",
     "SNA Data Center Cedar Rapids phases",
-    "SNA Data Center Phase 1 and 2"
+    "SNA Data Center Phase 1 and 2",
+    "SNA LLC Data Center",
+    "QTS Cedar Rapids",
+    "QTS Cedar Rapids I LLC",
+    "QTS Cedar Rapids data center campus",
+    "CDR1 DC1",
+    "CDR1 DC2",
+    "CDR1 DC3"
   ],
   "location": {
     "city": "Cedar Rapids",
     "county": "Linn",
-    "state": "Iowa"
+    "state": "Iowa",
+    "address": "6200 76th Ave SW, Cedar Rapids, Iowa 52228",
+    "site": "Big Cedar Industrial Center",
+    "acreage": 612
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A-",
+  "actions": [
+    {
+      "date": "2025-01-28",
+      "government_body": "Cedar Rapids City Council",
+      "action_type": "development_agreement_approval",
+      "result_status": "approved",
+      "summary": "City Council adopted Resolution No. 0072-01-25 approving a development agreement with QTS Cedar Rapids I LLC for a data center campus with a minimum of two project phases.",
+      "source_url": "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Project-Development-Agreement-Approval.pdf"
+    },
+    {
+      "date": "2025-01-28",
+      "government_body": "City of Cedar Rapids / QTS Cedar Rapids I LLC",
+      "action_type": "development_agreement",
+      "result_status": "executed",
+      "summary": "Development agreement effective January 28, 2025, covering a new data center campus over two or more phases on the development property.",
+      "source_url": "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Project-Development-Agreement.pdf"
+    },
+    {
+      "date": "2025-02-12",
+      "government_body": "City of Cedar Rapids / Alliant Energy / QTS",
+      "action_type": "public_announcement",
+      "result_status": "announced",
+      "summary": "City, Alliant Energy, and QTS publicly confirmed QTS will build a Cedar Rapids data center campus on 612 acres of Big Cedar Industrial Center.",
+      "source_url": "https://www.cedar-rapids.org/news_detail_T6_R2180.php"
+    },
+    {
+      "date": "2025-06-30",
+      "government_body": "Dodge Construction Network",
+      "action_type": "construction_start_report",
+      "result_status": "reported_breaking_ground",
+      "summary": "Dodge reported Phase 1 of the SNA Data Center in Cedar Rapids among the largest nonresidential building projects to break ground in June 2025.",
+      "source_url": "https://www.construction.com/construction-starts-grew-16-in-june/"
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "QTS Cedar Rapids I LLC / QTS Data Centers",
   "sources": {
     "phase2_seed_stable_id": "US-IA-SNA-CEDAR-RAPIDS-2024",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
     "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "match_reason": "2026 refresh matched SNA seed to the QTS Cedar Rapids campus: SNA LLC was reported as the early project entity; Cedar Rapids later identifies QTS as the developer for the same 612-acre Big Cedar Industrial Center campus.",
+    "urls": [
+      {
+        "url": "https://www.economicdevelopmentcr.com/data-centers",
+        "date": "2026-08-11",
+        "title": "Cedar Rapids Economic Development data centers page"
+      },
+      {
+        "url": "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Project-Development-Agreement.pdf",
+        "date": "2025-01-28",
+        "title": "QTS Project Development Agreement"
+      },
+      {
+        "url": "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Project-Development-Agreement-Approval.pdf",
+        "date": "2025-01-28",
+        "title": "Resolution approving QTS Project Development Agreement"
+      },
+      {
+        "url": "https://www.cedar-rapids.org/news_detail_T6_R2180.php",
+        "date": "2025-02-12",
+        "title": "City of Cedar Rapids, Alliant Energy, and QTS data center campus announcement"
+      },
+      {
+        "url": "https://q.com/data-centers/cedar-rapids/",
+        "date": "2026-08-11",
+        "title": "QTS Cedar Rapids campus page"
+      },
+      {
+        "url": "https://www.alliantenergy.com/our-energy/data-centers",
+        "date": "2026-08-11",
+        "title": "Alliant Energy large energy users and data centers"
+      },
+      {
+        "url": "https://www.construction.com/construction-starts-grew-16-in-june/",
+        "date": "2025-06-30",
+        "title": "Dodge Construction Network June 2025 construction starts"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/560-acre-data-center-campus-proposed-in-cedar-rapids-iowa/",
+        "date": "2024-09-25",
+        "title": "Data Center Dynamics report on SNA LLC proposal"
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "summary": "Official City, QTS, and Alliant sources confirm investment, acreage, buildings/phases, and addresses but do not publish campus IT/load capacity. Third-party trackers report conflicting or unattributed figures, so capacity_mw remains null.",
+      "source_urls": [
+        "https://q.com/data-centers/cedar-rapids/",
+        "https://www.alliantenergy.com/our-energy/data-centers",
+        "https://trackpolicy.org/datacenters"
+      ]
+    },
+    {
+      "field": "investment",
+      "summary": "The executed City development agreement and 2025 City announcement cite a $750 million minimum investment; QTS and Alliant now describe a planned $10 billion campus. Treated as minimum committed vs planned buildout, not a direct conflict.",
+      "source_urls": [
+        "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Project-Development-Agreement.pdf",
+        "https://q.com/data-centers/cedar-rapids/",
+        "https://www.alliantenergy.com/our-energy/data-centers"
+      ]
+    }
+  ],
   "seed_only": true,
-  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a",
+  "investment_usd": {
+    "minimum_committed": 750000000,
+    "planned_buildout": 10000000000
+  },
+  "campus_scope": {
+    "minimum_project_phases": 2,
+    "maximum_project_phases": 9,
+    "planned_buildings": 7,
+    "minimum_phase_sqft": 300000,
+    "construction_deadlines": {
+      "first_phase_commence": "within 3 years of 2025-01-28 effective date",
+      "first_phase_complete": "within 6 years from commencement",
+      "next_phase_commence": "within 3 years of initial phase completion",
+      "additional_phases_complete": "within 25 years of 2025-01-28 effective date"
+    }
+  },
+  "cooling": {
+    "type": "water-free / closed-loop cooling",
+    "notes": "City, QTS, and Alliant describe water-free or closed-loop cooling; QTS states the Cedar Rapids campus does not consume water for cooling."
+  },
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": null,
+      "new_value": "site work-construction",
+      "source_url": "https://www.construction.com/construction-starts-grew-16-in-june/"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "QTS Cedar Rapids I LLC / QTS Data Centers",
+      "source_url": "https://www.cedar-rapids.org/news_detail_T6_R2180.php"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": null,
+      "source_url": "https://q.com/data-centers/cedar-rapids/"
+    }
+  ],
+  "last_refreshed": "2026-08-11",
+  "verified": true
 }

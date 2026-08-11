@@ -2,18 +2,70 @@
   "master_id": "USDC-0187",
   "canonical_project": "Bitfarms Moses Lake cryptomine-to-AI data-center conversion",
   "aliases": [
-    "Bitfarms Moses Lake cryptomine-to-AI data-center conversion"
+    "Bitfarms Moses Lake cryptomine-to-AI data-center conversion",
+    "Grant Node Development",
+    "Grant Node OneCore Data Center",
+    "Keel Infrastructure Moses Lake"
   ],
   "location": {
     "city": "Moses Lake",
     "county": "Grant",
-    "state": "WA"
+    "state": "WA",
+    "address": "7906 Randolph Rd NE, Moses Lake, WA 98837",
+    "coordinates": {
+      "latitude": 47.196874,
+      "longitude": -119.29309
+    },
+    "parcels": [
+      "090969105",
+      "090969104",
+      "090969103",
+      "090969102",
+      "090969109",
+      "090969108"
+    ]
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "approved-permitted",
+  "actions": [
+    {
+      "date": "2025-11-13",
+      "government_body": null,
+      "action_type": "company_announcement",
+      "result_status": "Bitfarms announced plans to convert its 18 MW Washington Bitcoin mining facility to HPC/AI workloads, with 18 MW gross capacity equipment/building-material supply covered by a US$128 million binding agreement and targeted December 2026 completion.",
+      "source_url": "https://investor.bitfarms.com/news-releases/news-release-details/bitfarms-announces-plans-conversion-washington-site-hpcai"
+    },
+    {
+      "date": "2025-12-05",
+      "government_body": "Washington Department of Ecology / City of Moses Lake",
+      "action_type": "sepa_noa_odns",
+      "result_status": "SEPA record 202505050 issued ODNS/NOA-M for PLN2025-0092, Grant Node Development Binding Site Plan Amendment, CUP, demolition and construction of a 60,000 sq ft server farm.",
+      "source_url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202505050"
+    },
+    {
+      "date": "2026-01-20",
+      "government_body": "Washington Department of Ecology / City of Moses Lake",
+      "action_type": "sepa_dns",
+      "result_status": "SEPA record 202600272 issued DNS for PLN2025-0092, Grant Node Development Conditional Use Permit at 7906 Randolph Rd NE.",
+      "source_url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202600272"
+    },
+    {
+      "date": "2026-05-11",
+      "government_body": null,
+      "action_type": "company_update",
+      "result_status": "Keel reported zoning approvals secured and land development/environmental permits in progress across Panther Creek, Sharon and Moses Lake; liquidity fully funded start of construction at Moses Lake through lease execution.",
+      "source_url": "https://investor.bitfarms.com/news-releases/news-release-details/keel-infrastructure-reports-first-quarter-2026-results"
+    },
+    {
+      "date": "2026-08-10",
+      "government_body": null,
+      "action_type": "company_update",
+      "result_status": "Keel reported priority sites nearing full permitting, first Vertiv modules accepted at Moses Lake, final fiber contracts beginning across the three priority sites, and U.S. Bitcoin mining decommissioned in preparation for HPC site construction.",
+      "source_url": "https://investor.bitfarms.com/news-releases/news-release-details/keel-infrastructure-reports-second-quarter-2026-results"
+    }
+  ],
+  "capacity_mw": 18,
+  "owner": "Keel Infrastructure Corp. (successor issuer to Bitfarms; local applicant listed as Backbone Mining LLC)",
   "sources": {
     "phase3_stable_id": "US-WA-BITFARMS-MOSES-LAKE-2026",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -21,7 +73,15 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202505050",
+      "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202600272",
+      "https://www.cityofml.com/AgendaCenter/ViewFile/Agenda/_01282026-937",
+      "https://investor.bitfarms.com/news-releases/news-release-details/bitfarms-announces-plans-conversion-washington-site-hpcai",
+      "https://investor.bitfarms.com/news-releases/news-release-details/keel-infrastructure-reports-first-quarter-2026-results",
+      "https://investor.bitfarms.com/news-releases/news-release-details/keel-infrastructure-reports-second-quarter-2026-results"
+    ]
   },
   "contradictions": [],
   "seed_only": false,

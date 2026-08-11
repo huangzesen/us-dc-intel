@@ -12,8 +12,33 @@
     "state": "MO"
   },
   "phase3_stable_id": "MO-KC-GOOGLE-MICA",
-  "status_as_of_cutoff": "Port KC authorized up to $10 billion in Project Mica taxable revenue bonds on 2025-07-28 by unanimous vote. Google and trade reporting later identified active development/construction, and Google's current location material lists Kansas City, Missouri in development. No building-level permit, inspection, CO, utility interconnection, energization, commissioning, or live-service record was located. Bond authorization is not treated as construction approval.",
+  "status_as_of_cutoff": "site work-construction: KCMO Council approved Rocky Branch Creek data-center campus zoning/development-plan actions in 2022 and a roughly 500-acre major MPD amendment on 2024-03-07; Port KC authorized up to $10 billion in Project Mica taxable revenue bonds on 2025-07-28; Google's current data-center locations page lists Kansas City, Missouri in development; Google/local media reporting on 2026-02-12/2026-02-13 identified Project Mica as a Google campus with construction underway, and local visual reporting showed cranes on site. No building-level permit, inspection, CO, utility interconnection, energization, commissioning, or live-service record was located in this refresh.",
+  "evidence_grade": "B: official KCMO/Port KC records establish land-use and financing actions plus current public project scope; Google official location page confirms Kansas City is in development; construction-start evidence is company/local-media/trade reporting, not a building-permit or energization record.",
   "actions": [
+    {
+      "date": "2022-11-03",
+      "date_precision": "day",
+      "government_body": "Kansas City Council",
+      "action_type": "rezoning / development-plan approval",
+      "result_status": "Council passed Ordinance 220949 rezoning about 360 acres at the northeast corner of Highway 169 and I-435 to District MPD and approving a development plan/preliminary plat for a data center campus.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Ordinance 220949; CD-CPC-2022-00058",
+      "primary_url": "https://clerk.kcmo.gov/LegislationDetail.aspx?GUID=D9B4312B-74E8-43CF-A1E9-4288B68CB9DC&ID=5899560&Options=&Search=",
+      "access_caveat": "Preliminary land-use/development-plan approval; not a building permit, certificate of occupancy, energization, or live-service record.",
+      "evidence_note": "Official KCMO Legistar/clerk record for Rocky Branch Creek data center campus."
+    },
+    {
+      "date": "2024-03-07",
+      "date_precision": "day",
+      "government_body": "Kansas City Council",
+      "action_type": "major MPD amendment / preliminary development plan and plat approval",
+      "result_status": "Council passed Committee Substitute Ordinance 240198 approving a major amendment to a Master Planned Development preliminary development plan, also serving as a preliminary plat, on about 500 acres at the northeast corner of I-435 and Highway 169 to allow six data centers and two office buildings.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Ordinance 240198; CD-CPC-2023-00174",
+      "primary_url": "https://kansascity.legistar.com/LegislationDetail.aspx?ID=6510048&GUID=1B037386-47AB-4A02-808B-9B27AC482464",
+      "access_caveat": "Preliminary development-plan/plat approval; current Port KC project page later describes five hyperscale data-center buildings.",
+      "evidence_note": "Official KCMO Legistar record; creates a scope conflict with the current Port KC project page on building count."
+    },
     {
       "date": "2025-07-28",
       "date_precision": "day",
@@ -25,6 +50,18 @@
       "primary_url": "https://portkc.com/wp-content/uploads/2025/08/2025-07-28-Board-of-Commissioners-Meeting-Minutes.pdf",
       "access_caveat": "Financing authority is not a building permit, land-use approval, construction start, or energized service.",
       "evidence_note": "Official Port KC minutes; amount is maximum principal authorization."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "accessed",
+      "government_body": "Port KC",
+      "action_type": "official project-page scope",
+      "result_status": "Port KC's current Project Mica page describes a nearly 500-acre Kansas City Northland development at the northeast corner of I-435 and Highway 169, including five hyperscale data-center buildings totaling 1.56 million square feet and a full-development draw of nearly 700 MW supplied by the adjacent Nashua Power Station and onsite substations.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://portkc.com/project/project-mica/",
+      "access_caveat": "Official project-page scope; not a building permit, energization, commissioning, or live-service record.",
+      "evidence_note": "Used as current capacity and physical-scope source."
     },
     {
       "date": "2026-02-12",
@@ -51,6 +88,18 @@
       "evidence_note": "Construction claim explicitly labeled as trade/company evidence."
     },
     {
+      "date": "2026-02-12",
+      "date_precision": "day",
+      "government_body": "Google / KSHB",
+      "action_type": "construction-underway report / local visual evidence",
+      "result_status": "KSHB reported Google confirmed construction underway for a second Kansas City data-center campus, published photos/captions of cranes building Project Mica at the northeast corner of I-435 and US-169, and quoted Google and Evergy on the capacity-commitment energy-cost framework.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.kshb.com/news/local-news/missouri/kansas-city/google-announces-construction-underway-for-second-data-center-campus-in-kansas-city",
+      "access_caveat": "Local media and company statements; no permit, inspection, energization, commissioning, or service record is inferred.",
+      "evidence_note": "Supports status layer of site work-construction when paired with official local approvals."
+    },
+    {
       "date": "2026-07-16",
       "date_precision": "day",
       "government_body": "Google Data Centers",
@@ -63,8 +112,31 @@
       "evidence_note": "Operator status context."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 700,
+  "capacity_mw_note": "Port KC describes the full development as drawing nearly 700 MW; rounded to 700 MW for structured capacity. This is utility draw / power requirement, not confirmed IT load or energized capacity.",
+  "owner": "Google",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Port KC authorized up to $10 billion in Project Mica taxable revenue bonds on 2025-07-28 by unanimous vote. Google and trade reporting later identified active development/construction, and Google's current location material lists Kansas City, Missouri in development. No building-level permit, inspection, CO, utility interconnection, energization, commissioning, or live-service record was located. Bond authorization is not treated as construction approval.",
+      "reason": "Refreshed with official KCMO development-plan approvals, current Port KC project scope, Google location listing, and local/trade construction-underway reporting."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 700,
+      "reason": "Port KC current project page says full development will draw nearly 700 MW."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Google",
+      "reason": "Google official locations page lists Kansas City, Missouri in development; local/trade reports identify Project Mica as Google's campus."
+    }
+  ],
   "sources": {
     "phase3_stable_id": "MO-KC-GOOGLE-MICA",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -72,9 +144,25 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://clerk.kcmo.gov/LegislationDetail.aspx?GUID=D9B4312B-74E8-43CF-A1E9-4288B68CB9DC&ID=5899560&Options=&Search=",
+      "https://kansascity.legistar.com/LegislationDetail.aspx?ID=6510048&GUID=1B037386-47AB-4A02-808B-9B27AC482464",
+      "https://portkc.com/wp-content/uploads/2025/08/2025-07-28-Board-of-Commissioners-Meeting-Minutes.pdf",
+      "https://portkc.com/project/project-mica/",
+      "https://datacenters.google/locations",
+      "https://www.axios.com/local/kansas-city/2026/02/12/google-project-mica-data-center-northland",
+      "https://www.datacenterdynamics.com/en/news/construction-begins-at-googles-second-data-center-campus-in-kansas-city-missouri/",
+      "https://www.kshb.com/news/local-news/missouri/kansas-city/google-announces-construction-underway-for-second-data-center-campus-in-kansas-city"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "building_count",
+      "details": "KCMO Ordinance 240198 approved a roughly 500-acre preliminary development plan/plat allowing six data centers and two office buildings, while Port KC's current Project Mica page describes five hyperscale data-center buildings totaling 1.56 million square feet. Structured scope follows the newer official Port KC project page; the older KCMO entitlement remains in actions."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

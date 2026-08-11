@@ -12,10 +12,14 @@
   "location": {
     "city": "Boardman area / outside Boardman UGB",
     "county": "Morrow County",
-    "state": "OR"
+    "state": "OR",
+    "parcel": "Parcel 2 of Partition Plat 2022-16; Tax Lot 138 of Assessor's Map 4N24E",
+    "site_description": "Adjacent to Boardman Airport, approximately 4 miles west of Boardman's UGB and southwest of the Tower Road/I-84 interchange"
   },
   "phase3_stable_id": "US-OR-AWS-BOARDMAN-2024",
-  "status_as_of_cutoff": "Morrow County officially approved LUD-N-68-24 on 2024-09-24 by 4 yes / 3 no, subject to final zoning/address, road-use, airport, water, wastewater, stormwater, and occupancy conditions. The site is therefore land-use approved but not shown in the reviewed records as building-permitted, occupied, energized, commissioned, or in service. The Phase 2 five-building description is not fully consistent with the county findings, which enumerate four data-center buildings plus support structures.",
+  "status_as_of_cutoff": "Refresh 2026-08-11: Morrow County official agenda/minutes continue to support land-use approval for LUD-N-68-24, with the August 27, 2024 Planning Commission minutes recording approval by 4 yes / 3 no. The reviewed current records confirm Amazon Data Services, Inc. as owner, Integrus as applicant, Parcel 2 of Partition Plat 2022-16 / Tax Lot 138 of Map 4N24E, and an Airport Light Industrial data-center campus adjacent to Boardman Airport. The site remains classified as approved-permitted at the land-use level only; reviewed public records did not verify building permits, certificate of occupancy, energization, commissioning, or in-service status. Public MW capacity remains undisclosed. A separate 2026 Amazon case, LUD-N-089-25 / PDX 154, is on Tax Lot 136 and is treated as related context, not merged into this Tax Lot 138 record.",
+  "evidence_grade": "official-local-government-verified-for-land-use; downstream-building-power-status-not-verified",
+  "last_refresh_date": "2026-08-11",
   "actions": [
     {
       "date": "2020-05-06",
@@ -42,15 +46,15 @@
       "evidence_note": "Official project identity, parcel, and hearing trail."
     },
     {
-      "date": "2024-09-24",
+      "date": "2024-08-27",
       "date_precision": "day",
       "government_body": "Morrow County Planning Commission",
       "action_type": "land-use decision / data-center campus approval",
       "result_status": "The commission approved LUD-N-68-24 by motion of Commissioner Kilkenny, seconded by Commissioner Cooley, with 4 yes and 3 no. Findings describe four single-story data-center buildings of approximately 215,461 square feet each, support buildings, ponds, septic/drainfield, and a separately approved power substation. Conditions require final rural addresses and zoning permits before building permits and state water/wastewater/stormwater evidence before occupancy.",
       "vote_tally": "4 yes / 3 no",
       "case_or_ordinance_permit_number": "LUD-N-68-24",
-      "primary_url": "https://www.co.morrow.or.us/sites/default/files/fileattachments/planning_commission/meeting/16790/09242024_pc_packet.pdf",
-      "access_caveat": "The county's current domain redirects the older file path in some fetchers; the official packet was readable through the indexed county record. Approval is land-use approval subject to conditions, not a building permit or CO.",
+      "primary_url": "https://www.morrowcountyor.gov/sites/default/files/fileattachments/planning_commission/meeting/16789/pc_minutes_08272024_.pdf",
+      "access_caveat": "The accessible official minutes place the approval action in the 2024-08-27 Planning Commission meeting. Earlier baseline text used a 2024-09-24 packet/date trail; the refresh corrects the action date to the minutes' meeting date. Approval is land-use approval subject to conditions, not a building permit or CO.",
       "evidence_note": "Verified local vote and conditions; no downstream permit or power status inferred."
     },
     {
@@ -67,7 +71,17 @@
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_note": "No public MW capacity was found for this exact LUD-N-68-24 / Tax Lot 138 project in the reviewed official/local-government-first sources as of 2026-08-11.",
+  "owner": "Amazon Data Services, Inc.",
+  "owner_history": [
+    {
+      "date": "2026-08-11",
+      "old_value": null,
+      "new_value": "Amazon Data Services, Inc.",
+      "source_url": "https://www.morrowcountyor.gov/sites/default/files/fileattachments/planning_commission/meeting/16789/08272024_agenda.pdf",
+      "note": "Morrow County agenda identifies Amazon Data Services, Inc. as owner for LUD-N-68-24."
+    }
+  ],
   "sources": {
     "phase3_stable_id": "US-OR-AWS-BOARDMAN-2024",
     "phase3_source_file": "phase3/county_ca_or.json",
@@ -77,7 +91,18 @@
       "US-OR-AWS-BOARDMAN-2024"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.morrowcountyor.gov/sites/default/files/fileattachments/planning_commission/meeting/16789/08272024_agenda.pdf",
+      "https://www.morrowcountyor.gov/sites/default/files/fileattachments/planning_commission/meeting/16789/pc_minutes_08272024_.pdf",
+      "https://www.morrowcountyor.gov/sites/default/files/fileattachments/planning_commission/meeting/packets/16789/08272024_pc_packet.pdf",
+      "https://www.morrowcountyor.gov/planning/page/building-department-morrow-county",
+      "https://www.cityofboardman.com/building/page/morrow-county-building-permits",
+      "https://www.oregon.gov/bcd/permit-services/pages/morrow-county.aspx",
+      "https://www.morrowcountyor.gov/sites/default/files/fileattachments/planning_commission/meeting/17067/03312026_agenda.pdf",
+      "https://eastah.eomediagroup.com/eastern/notices/eo-14293-public-notice-morrow-county/AC1E03CE04f6631913fLo8CD9D8E",
+      "https://www.tricitiesbusinessnews.com/articles/amazon-plans-another-data-center-southwest-of-tricities"
+    ]
   },
   "contradictions": [],
   "seed_only": false,

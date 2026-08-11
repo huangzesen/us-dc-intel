@@ -7,13 +7,44 @@
   "location": {
     "city": "Van Wert",
     "county": "Van Wert",
-    "state": "OH"
+    "state": "OH",
+    "site_description": "Van Wert Mega Site; QTS describes a campus in the City of Van Wert across approximately 902 acres, with local reporting placing the site north of U.S. Route 30 between Stripe Road and Mendon Road."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "approved-permitted: local land-use/zoning approval and public announcement confirmed as of 2026-08-11; building permits and construction start not verified",
+  "evidence_grade": "B+",
+  "actions": [
+    {
+      "date": "2026-05-11",
+      "government_body": "Van Wert City Council",
+      "action_type": "land-use approvals",
+      "result_status": "approved",
+      "description": "Local reporting says council approved three ordinances tied to the proposed data center, including annexation of approximately 962 acres, allowing data centers in I-2 General Industrial zoning, and a conditional zoning petition."
+    },
+    {
+      "date": "2026-05-11",
+      "government_body": "City of Van Wert",
+      "action_type": "zoning code amendment",
+      "result_status": "codified",
+      "description": "Van Wert Code section 150.03 defines Data Center via Ordinance 26-05-029, passed 2026-05-11; section 150.15 lists Data Center as a permitted use in I-2 General Industrial."
+    },
+    {
+      "date": "2026-05-29",
+      "government_body": "City of Van Wert and QTS Data Centers",
+      "action_type": "project announcement",
+      "result_status": "announced",
+      "description": "City of Van Wert and QTS announced a planned data center campus with approximately $10 billion capital investment, 1,500+ construction jobs, approximately 200 QTS full-time positions, AEP partnership, and closed-loop cooling."
+    },
+    {
+      "date": "2026-07-27",
+      "government_body": "City of Van Wert / Van Wert County Board of Elections",
+      "action_type": "initiative petition certification",
+      "result_status": "failed to qualify",
+      "description": "City minutes report the petition opposing data center zoning had 255 valid signatures versus 323 required, so the proposed repeal was declined."
+    }
+  ],
+  "capacity_mw": 500,
+  "owner": "QTS Data Centers",
   "sources": {
     "phase3_stable_id": "OH-VAN-WERT-QTS",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -21,9 +52,88 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current": [
+      {
+        "url": "https://q.com/data-centers/van-wert/",
+        "date": "2026-08-11",
+        "type": "owner_project_page",
+        "facts": "QTS project page: planning-stage campus in Van Wert; seven buildings; approximately 902 acres; up to $10B investment; 1,500+ construction jobs; 200 permanent jobs; closed-loop cooling; QTS does not disclose specific power capacity."
+      },
+      {
+        "url": "https://q.com/news/city-of-van-wert-and-qts-announce-data-center-campus-in-northwest-ohio/",
+        "date": "2026-05-29",
+        "type": "owner_city_announcement",
+        "facts": "City of Van Wert and QTS announcement: approximately $10B capital investment, $200M projected tax revenue over 20 years, 1,500+ construction jobs, about 200 full-time QTS positions, AEP partnership, 100% QTS-funded energy infrastructure improvements, closed-loop cooling."
+      },
+      {
+        "url": "https://codelibrary.amlegal.com/codes/vanwert/latest/vanwert_oh/0-0-0-30316",
+        "date": "2026-08-11",
+        "type": "municipal_code",
+        "facts": "Van Wert zoning definitions include Data Center, amended by Ordinance 26-05-029, passed 2026-05-11."
+      },
+      {
+        "url": "https://codelibrary.amlegal.com/codes/vanwert/latest/vanwert_oh/0-0-0-30480",
+        "date": "2026-08-11",
+        "type": "municipal_code",
+        "facts": "Van Wert zoning use table lists Data Center as a permitted use in I-2 General Industrial."
+      },
+      {
+        "url": "https://thevwindependent.com/news/2026/05/11/council-unanimously-approves-data-center-legislation/",
+        "date": "2026-05-11",
+        "type": "local_media",
+        "facts": "Van Wert Independent reports council approved three data-center ordinances: annexation of approximately 962 acres, I-2 data-center use, and conditional zoning petition."
+      },
+      {
+        "url": "https://thevwindependent.com/news/2026/05/29/data-center-construction-operations-timeline-shared/",
+        "date": "2026-05-29",
+        "type": "local_media",
+        "facts": "Van Wert Independent reports QTS described up to seven buildings on 902 acres, expected Q4 2026 groundbreaking, first building operational in Q1 2029, full buildout around 2032, and identifies the project as 500 MW."
+      },
+      {
+        "url": "https://vanwert.org/meeting-minutes/",
+        "date": "2026-07-27",
+        "type": "city_minutes",
+        "facts": "July 27, 2026 city minutes report the data-center zoning initiative petition received 255 valid signatures against 323 required and was declined."
+      },
+      {
+        "url": "https://thevwindependent.com/news/2026/07/27/full-statement-on-petition-rejection/",
+        "date": "2026-07-27",
+        "type": "local_media",
+        "facts": "Local report reproduces the city auditor statement and Board of Elections certification that the petition failed to qualify."
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "power capacity",
+      "description": "Van Wert Independent reports the project as a 500 MW data center, while QTS states it does not disclose specific power capacity for security and confidentiality reasons. Treat 500 MW as locally reported, not owner-confirmed.",
+      "sources": [
+        "https://thevwindependent.com/news/2026/05/29/data-center-construction-operations-timeline-shared/",
+        "https://q.com/data-centers/van-wert/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "campus acreage / project scope",
+      "description": "QTS current materials describe seven buildings across approximately 902 acres; some older/local materials describe a 220-acre facility within a larger mega-site and council approval of approximately 962 acres annexation. Use 902 acres as current owner campus scope and keep 220/962-acre references as historical/local land-process context.",
+      "sources": [
+        "https://q.com/data-centers/van-wert/",
+        "https://thevwindependent.com/news/2026/05/11/council-unanimously-approves-data-center-legislation/",
+        "https://www.hometownstations.com/news/van_wert_county/220-acre-data-center-will-be-constructed-in-van-wert/article_cf9351a0-7a58-42c0-b095-c805ebd8c929.html"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": null,
+      "capacity_mw": null,
+      "owner": null,
+      "note": "Baseline extraction had no independently verified status, capacity, or owner."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

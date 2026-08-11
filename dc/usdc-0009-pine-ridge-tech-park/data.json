@@ -9,38 +9,111 @@
   "location": {
     "city": null,
     "county": "Twiggs County",
-    "state": "GA"
+    "state": "GA",
+    "address": "7015 Adams Park Road",
+    "parcel": "T047-001",
+    "site_notes": "291.5 acres of a larger Weyerhaeuser Forest Holdings LLC tract; generally bordered by Adams Park Road and near Highway 129/Dry Branch."
   },
   "phase3_stable_id": "GA-006",
-  "status_as_of_cutoff": "Twiggs County published an application and public-hearing procedure for the proposed project. A local report said rezoning was approved, but the ordinance/minutes and vote tally were not located; no permit, construction, CO, or energization evidence was found.",
+  "status_as_of_cutoff": "approved-permitted (land-use / conditional-use level) as of 2026-08-11. Twiggs County's Planning and Zoning page links Ordinance No. 013, dated 2025-09-18, amending the official zoning map and granting a conditional use permit for a data center campus on 291.5 acres of parcel T047-001 at 7015 Adams Park Road. No building permit, land-disturbance permit, construction-start notice, certificate of occupancy, energization, partial-live, or full-buildout evidence was located.",
+  "evidence_grade": "A-: official Twiggs County Planning and Zoning page and Ordinance No. 013 confirm land-use/conditional-use approval, parcel, acreage, landowner/applicant authorization, and conditions; capacity_mw, tenant, construction, energization, and operating status remain unverified.",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "field": "status_as_of_cutoff",
+      "value": "Twiggs County published an application and public-hearing procedure for the proposed project. A local report said rezoning was approved, but the ordinance/minutes and vote tally were not located; no permit, construction, CO, or energization evidence was found.",
+      "reason": "Superseded by 2026-08-11 refresh; official Twiggs County Planning and Zoning page now exposed Ordinance No. 013 granting zoning-map amendment and conditional use for the data center campus."
+    },
+    {
+      "date": "2026-07-16",
+      "field": "owner",
+      "value": null,
+      "reason": "Superseded by 2026-08-11 refresh; Ordinance No. 013 identifies Weyerhaeuser Forest Holdings LLC as the authorizing landowner / data center owner-operator for the application, and public-hearing materials identify Thomas & Hutton / Eagle Rock Partners as petitioner/designee."
+    },
+    {
+      "date": "2026-07-16",
+      "field": "location.address",
+      "value": null,
+      "reason": "Superseded by official Twiggs County notice and ordinance identifying parcel T047-001 at 7015 Adams Park Road."
+    }
+  ],
   "actions": [
+    {
+      "date": "2025-08-20",
+      "date_precision": "day",
+      "government_body": "Twiggs County",
+      "action_type": "public-hearing notice / zoning application",
+      "result_status": "County notice scheduled a September 18, 2025 public hearing to consider the Application for Zoning Change from Agricultural to General Industrial submitted by Thomas & Hutton Engineering for a data center campus on 291.5 acres of Weyerhaeuser Forest Holdings LLC property known as 7015 Adams Park Road, parcel T047-001.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Parcel T047-001",
+      "primary_url": "https://www.twiggscounty.us/notice-public-hearing-on-sep-18-2025-6pm/",
+      "access_caveat": "Official county notice; it announces a hearing/application and is not itself an approval.",
+      "evidence_note": "Public process and parcel evidence."
+    },
     {
       "date": "2025-09-12",
       "date_precision": "day",
       "government_body": "Twiggs County",
       "action_type": "planning / public-hearing materials",
-      "result_status": "County posted the data-center application, Planning and Zoning hearing procedure, public Q&A notice, public-hearing agenda, and Pine Ridge environmental-study package. The notice itself does not state a rezoning approval.",
+      "result_status": "County posted the data-center application, Planning and Zoning hearing procedure, public Q&A notice, public-hearing agenda, Pine Ridge environmental-study package, and later the linked ordinance for the project on its Planning and Zoning page.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.twiggscounty.us/notice-data-center-application-hearing-documents/",
-      "access_caveat": "Official notice and hearing materials were accessible; an enacted rezoning ordinance or minutes was not located in the reviewed surface.",
-      "evidence_note": "Public process, not approval."
+      "primary_url": "https://www.twiggscounty.us/planning-and-zoning/",
+      "access_caveat": "Planning page provides linked documents but not a building-permit or construction ledger.",
+      "evidence_note": "Official county document index for application, hearing materials, environmental package, and Ordinance No. 013."
+    },
+    {
+      "date": "2025-09-18",
+      "date_precision": "day",
+      "government_body": "Twiggs County Board of Commissioners",
+      "action_type": "zoning-map amendment / conditional use permit",
+      "result_status": "Ordinance No. 013 amended the official zoning map to rezone the property from Agriculture to Commercial for constructing and operating a data center campus and granted a conditional use permit for the use of the property as a data center campus, subject to stated conditions.",
+      "vote_tally": "not stated in accessible ordinance PDF",
+      "case_or_ordinance_permit_number": "Ordinance No. 013",
+      "primary_url": "https://www.twiggscounty.us/wp-content/uploads/2025/09/Ordinance-No-013-Amending-Zoning-Map-Granting-Conditional-Use-for-Data-Center-9-18-2025.pdf",
+      "access_caveat": "Official ordinance confirms land-use/conditional-use approval; it is not a building permit, CO, utility interconnection, or energization record.",
+      "evidence_note": "Supports status upgrade to approved-permitted at the land-use/conditional-use layer only."
     },
     {
       "date": "2025-09-19",
       "date_precision": "day",
       "government_body": "Twiggs County (reported by local press)",
       "action_type": "reported rezoning",
-      "result_status": "Local reporting said the county approved rezoning for a proposed data center. The underlying ordinance, minutes, vote tally, parcel, and permit were not located; the report is therefore retained as unverified source-reported action.",
-      "vote_tally": "not published in official record located",
+      "result_status": "Local reporting said the county approved rezoning for a proposed data center. This is now corroborated at the approval level by official Ordinance No. 013, though the local report's statement that the vote was unanimous remains press-reported because the accessible ordinance does not publish a vote tally.",
+      "vote_tally": "reported as unanimous by GPB / Macon Telegraph video reference; not stated in accessible ordinance PDF",
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.gpb.org/news/2025/09/19/rural-twiggs-county-approves-rezoning-for-a-data-center-city-sized-appetite-for-power",
       "access_caveat": "Press report; no vote inferred from the headline or report.",
-      "evidence_note": "Reported land-use action, not verified government record or construction."
+      "evidence_note": "Press corroboration and power/timeline context; construction remains unverified."
+    },
+    {
+      "date": "2026-01-06",
+      "date_precision": "day",
+      "government_body": "Georgia Recorder / News From The States",
+      "action_type": "reported litigation / DRI-process context",
+      "result_status": "Regional reporting said county residents filed a lawsuit asking a court to overturn the approval and that the county denied the claims in a December response. The same report said the project did not undergo a Development of Regional Impact review during the DCA pause, while later state rules added data-center-specific DRI treatment.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.newsfromthestates.com/article/data-center-gold-rush-pits-local-officials-hunt-new-revenue-against-residents-concerns",
+      "access_caveat": "Media/legal context; underlying court docket was not located in this refresh.",
+      "evidence_note": "Retained as disputed-status context, not as invalidation of the county ordinance."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_claims": [
+    {
+      "date_identified": "2026-08-11",
+      "value_mw": 900,
+      "source_type": "industry tracker / local campaign page",
+      "source_urls": [
+        "https://cleanview.co/data-centers/georgia/2021/pine-ridge-technology-center",
+        "https://baxtel.com/data-center/eagle-rock-twiggs-expansion",
+        "https://twiggsdatacenterwatch.com/learn/"
+      ],
+      "verification_status": "not promoted to capacity_mw because no official application, ordinance, utility, or company primary source reviewed in this refresh independently confirms 900 MW."
+    }
+  ],
+  "owner": "Weyerhaeuser Forest Holdings LLC is the landowner / authorizing data center owner-operator in Ordinance No. 013; Thomas & Hutton Engineering submitted the zoning application; Eagle Rock Partners is identified in public-hearing materials and local/industry reporting as the developer/project presenter.",
   "sources": {
     "phase3_stable_id": "GA-006",
     "phase3_source_file": "phase3/county_ga_nc_sc.json",
@@ -48,9 +121,59 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.twiggscounty.us/planning-and-zoning/",
+      "https://www.twiggscounty.us/notice-public-hearing-on-sep-18-2025-6pm/",
+      "https://www.twiggscounty.us/wp-content/uploads/2025/09/PZ-Public-Meeting-Proposed-Data-Center-Public-Hearing-9-18-25-final.pdf",
+      "https://www.twiggscounty.us/wp-content/uploads/2025/09/Ordinance-No-013-Amending-Zoning-Map-Granting-Conditional-Use-for-Data-Center-9-18-2025.pdf",
+      "https://apps.dca.ga.gov/DRI/Submissions.aspx",
+      "https://rules.sos.ga.gov/gac/110-12-3",
+      "https://dca.georgia.gov/document/document/dri-rules-non-arc-synopsis-2025/download",
+      "https://www.gpb.org/news/2025/09/19/rural-twiggs-county-approves-rezoning-for-data-center-city-sized-appetite-for-power",
+      "https://www.newsfromthestates.com/article/data-center-gold-rush-pits-local-officials-hunt-new-revenue-against-residents-concerns",
+      "https://www.datacenterdynamics.com/en/news/data-center-proposed-in-twiggs-county-georgia/",
+      "https://cleanview.co/data-centers/georgia/2021/pine-ridge-technology-center",
+      "https://baxtel.com/data-center/eagle-rock-twiggs-expansion"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date_identified": "2026-08-11",
+      "field": "zoning_classification",
+      "official_pre_approval_notice": "Twiggs County's public-hearing notice described the application as a request from Agricultural to General Industrial.",
+      "official_approval_record": "Ordinance No. 013 amended the zoning map from Agriculture to Commercial for constructing and operating a data center campus and granted a conditional use permit.",
+      "resolution": "Use the enacted ordinance's Commercial zoning / conditional-use result as the current official approval record; retain the hearing notice as application-stage history.",
+      "source_urls": [
+        "https://www.twiggscounty.us/notice-public-hearing-on-sep-18-2025-6pm/",
+        "https://www.twiggscounty.us/wp-content/uploads/2025/09/Ordinance-No-013-Amending-Zoning-Map-Granting-Conditional-Use-for-Data-Center-9-18-2025.pdf"
+      ]
+    },
+    {
+      "date_identified": "2026-08-11",
+      "field": "approval_validity",
+      "official_position": "Twiggs County has published Ordinance No. 013 granting the zoning-map amendment and conditional use permit.",
+      "conflicting_claim": "Georgia Recorder / News From The States reported residents filed a lawsuit seeking to overturn the approval; the county reportedly denied the claims in a December response.",
+      "resolution": "Keep land-use/conditional-use approval as the current official status, but flag the reported lawsuit as unresolved because no final court order was located.",
+      "source_urls": [
+        "https://www.twiggscounty.us/wp-content/uploads/2025/09/Ordinance-No-013-Amending-Zoning-Map-Granting-Conditional-Use-for-Data-Center-9-18-2025.pdf",
+        "https://www.newsfromthestates.com/article/data-center-gold-rush-pits-local-officials-hunt-new-revenue-against-residents-concerns"
+      ]
+    },
+    {
+      "date_identified": "2026-08-11",
+      "field": "capacity_mw",
+      "official_position": "No MW capacity was found in the official Twiggs County Planning and Zoning page, hearing agenda, or Ordinance No. 013 reviewed in this refresh.",
+      "conflicting_claim": "Cleanview and community/industry tracker surfaces describe the project as 900 MW, and GPB reported it could draw as much electricity as Macon and Augusta combined.",
+      "resolution": "Keep capacity_mw null and record 900 MW only as an unverified capacity claim.",
+      "source_urls": [
+        "https://www.twiggscounty.us/planning-and-zoning/",
+        "https://cleanview.co/data-centers/georgia/2021/pine-ridge-technology-center",
+        "https://baxtel.com/data-center/eagle-rock-twiggs-expansion",
+        "https://www.gpb.org/news/2025/09/19/rural-twiggs-county-approves-rezoning-for-data-center-city-sized-appetite-for-power"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

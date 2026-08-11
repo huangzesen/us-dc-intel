@@ -9,17 +9,55 @@
   "location": {
     "city": "Owasso area",
     "county": "Tulsa",
-    "state": "OK"
+    "state": "OK",
+    "address_or_area": "West of North Sheridan Road between East 76th Street North and East 86th Street North; generally north of East 76th Street North, east of North Yale Avenue/Whirlpool Drive, south of East 86th Street North, and west of North Sheridan Road, unincorporated Tulsa County west of Owasso."
   },
   "phase3_stable_id": "US-OK-BEALE-CLYDESDALE-TULSA-2025",
-  "status_as_of_cutoff": "Developer-reported groundbreaking/active campus development; no county permit, energization, or service record located.",
+  "status_as_of_cutoff": "Site work/construction evidenced for grading, with local approvals in place for zoning/PUD/preliminary plat and county incentive districts; Phase I building permits were submitted/under accelerated-release review as of the March 4, 2026 TMAPC staff report. No certificate of occupancy, energization, or live IT-load record located.",
+  "evidence_grade": "official planning/incentive records plus developer and local reporting; no utility energization or occupancy record found",
   "actions": [
+    {
+      "date": "2025-06-04",
+      "date_precision": "day",
+      "government_body": "Tulsa Metropolitan Area Planning Commission",
+      "action_type": "zoning/PUD and preliminary plat recommendation",
+      "result_status": "TMAPC agenda identified CZ-565, PUD-871, and the Project Clydesdale preliminary plat for a data center-related light-industrial/PUD framework at the site north/west of East 76th Street North and North Sheridan Road. Later TMAPC staff material states the preliminary plat was approved on 2025-06-04.",
+      "vote_tally": "10-0 per later reporting/search snippet for zoning recommendation; preliminary plat approval referenced by later official staff report",
+      "case_or_ordinance_permit_number": "CZ-565 / PUD-871 / Project Clydesdale preliminary plat",
+      "primary_url": "https://tulsaplanning.org/agendas/tmapc/june-4-2025-tmapc-agenda/",
+      "access_caveat": "Agenda page plus later official staff report; detailed June minutes not re-opened in this refresh.",
+      "evidence_note": "Official local-planning source; establishes local-process/provisional land-use path, not construction completion."
+    },
+    {
+      "date": "2025-09-03",
+      "date_precision": "day",
+      "government_body": "Tulsa Metropolitan Area Planning Commission",
+      "action_type": "comprehensive-plan conformance recommendation for TID project plan",
+      "result_status": "TMAPC voted 9-0 to adopt the resolution finding the Project Clydesdale Economic Development TID Project Plan in conformance with the Tulsa County Comprehensive Land Use Plan and recommending approval to the Tulsa County Board of Commissioners.",
+      "vote_tally": "9-0-0",
+      "case_or_ordinance_permit_number": "Resolution 2944:1074 referenced in later tax-agreement materials",
+      "primary_url": "https://tulsaplanning.org/tmapc/agendas/exhibits/2025-09-03-TMAPC-Minutes.pdf",
+      "access_caveat": "Planning Commission recommendation; not itself a county final approval or building permit.",
+      "evidence_note": "Official minutes."
+    },
+    {
+      "date": "2025-09-29",
+      "date_precision": "day",
+      "government_body": "Tulsa County Board of County Commissioners",
+      "action_type": "county project-plan and incentive-district approval",
+      "result_status": "Oklahoma Commerce's January 2026 statewide list includes the Project Clydesdale Economic Development Project in unincorporated Tulsa County west of Owasso, naming Quartz Mountain Properties, LLC as recipient, with four incentive districts whose establishment dates remain TBD until the earlier of January 1 after completion of a data center within the district or January 1, 2035.",
+      "vote_tally": "unanimous per local public-radio and DCD reporting",
+      "case_or_ordinance_permit_number": "Tulsa County Incentive Districts A, B, C, and D",
+      "primary_url": "https://www.okcommerce.gov/wp-content/uploads/State-of-Oklahoma-Tax-Increment-Financing-Districts.pdf",
+      "access_caveat": "State summary list is current to 2026-01-12 and states dates may change; it records incentive status, not building permit or energization.",
+      "evidence_note": "Official state economic-development record; local media corroborates the 2025-09-29 unanimous county vote."
+    },
     {
       "date": "2025-10-31",
       "date_precision": "day",
       "government_body": null,
       "action_type": "developer announcement and groundbreaking",
-      "result_status": "Beale announced a new Tulsa County campus and groundbreaking. The developer page describes 505 acres and 500 MW expected capacity; that figure is not independently confirmed as IT load.",
+      "result_status": "Beale announced a new Tulsa County campus and groundbreaking. The developer page describes a planned $1 billion investment, up to 100 permanent roles, a five-year initial phase buildout, PSO electric infrastructure upgrades, and Washington County Rural Water District No. 3 water-line upgrades. The current Beale location page describes expected capacity of 500 MW and about 506 acres; the MW figure remains developer-reported and not independently confirmed as energized IT load.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://bealeinfra.com/beale-infrastructure-announces-new-data-center-campus-in-tulsa-county/",
@@ -27,20 +65,32 @@
       "evidence_note": "Body/context retained from prior file: Beale Infrastructure."
     },
     {
-      "date": "2026-07-16",
+      "date": "2026-08-11",
       "date_precision": "day",
       "government_body": null,
       "action_type": "portfolio status snapshot",
-      "result_status": "Beale’s current Tulsa County page continues to present the project and expected 500 MW scale. It is a company status page, not a government construction or occupancy record.",
+      "result_status": "Beale’s current Tulsa County page presents the project as a planned multi-building campus adjacent to Cherokee Industrial Park, with utility providers listed as PSO, Washington County Rural Water District No. 3, and City of Tulsa wastewater. It states approximately 506 acres, four planned phases, at least $700 million per phase, and expected 500 MW capacity.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://bealeinfra.com/location/tulsa-county/",
-      "access_caveat": "Cutoff-date company snapshot; no permit number or PSO service date is published.",
-      "evidence_note": "Body/context retained from prior file: Beale Infrastructure. Date is a cutoff-date snapshot from the prior file."
+      "access_caveat": "Company snapshot; no permit number, certificate of occupancy, or PSO service date is published.",
+      "evidence_note": "Developer source, used for current capacity/utility claims with caveat."
+    },
+    {
+      "date": "2026-03-04",
+      "date_precision": "day",
+      "government_body": "Tulsa Metropolitan Area Planning Commission / INCOG Planning Services",
+      "action_type": "accelerated release of building permits staff report",
+      "result_status": "Official staff report says the final plat is in unincorporated Tulsa County but relies on City of Tulsa water and sanitary sewer service; preliminary plat was approved on 2025-06-04; City IDP plans were submitted on 2025-10-13 and remained under review; draft final plat was under INCOG review; Phase I applications had been submitted to Tulsa County Permitting for a security kiosk, administrative offices, and a data center shell building; site grading was in construction phase at the 2026-02-09 pre-application meeting.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Project Clydesdale accelerated release of building permits",
+      "primary_url": "https://tulsaplanning.org/tmapc/agendas/exhibits/Accelerated%20Release%20of%20Permits%20-%20Staff%20Report%20v03.pdf",
+      "access_caveat": "Staff report and agenda item establish permit-review/local-process status and site grading; no final permit issuance or CO record was found.",
+      "evidence_note": "Official local-planning source; supports status of site work/construction, not energized or operational status."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 500,
+  "owner": "Beale Infrastructure developer; Quartz Mountain Properties, LLC recipient/developer entity in public incentive records; end user not publicly named",
   "sources": {
     "phase3_stable_id": "US-OK-BEALE-CLYDESDALE-TULSA-2025",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -48,9 +98,40 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://tulsaplanning.org/agendas/tmapc/june-4-2025-tmapc-agenda/",
+      "https://tulsaplanning.org/tmapc/agendas/exhibits/PUD-871.pdf",
+      "https://tulsaplanning.org/tmapc/agendas/exhibits/2025-09-03-TMAPC-Minutes.pdf",
+      "https://www.okcommerce.gov/wp-content/uploads/State-of-Oklahoma-Tax-Increment-Financing-Districts.pdf",
+      "https://bealeinfra.com/beale-infrastructure-announces-new-data-center-campus-in-tulsa-county/",
+      "https://bealeinfra.com/location/tulsa-county/",
+      "https://tulsaplanning.org/tmapc/agendas/exhibits/Accelerated%20Release%20of%20Permits%20-%20Staff%20Report%20v03.pdf",
+      "https://www.publicradiotulsa.org/local-regional/2025-09-29/tulsa-county-commissioners-unanimously-pass-project-clydesdale",
+      "https://www.kosu.org/energy-environment/2025-12-02/neighbors-of-new-tulsa-data-center-offered-preblast-inspections-but-not-everyone-got-the-same-offer"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "site acreage",
+      "details": "Beale/current secondary references describe approximately 506 acres; official TID project-area legal description/Commerce summary covers approximately 399-400 acres for the incentive/project area. Treat 506 acres as broader campus/control acreage and 399-400 acres as the formal TID/project area unless later plats clarify otherwise.",
+      "sources": [
+        "https://bealeinfra.com/location/tulsa-county/",
+        "https://www.okcommerce.gov/wp-content/uploads/State-of-Oklahoma-Tax-Increment-Financing-Districts.pdf",
+        "https://tulsaplanning.org/tmapc/agendas/exhibits/Project-Clydesdale-Project-Plan-TMAPC-Staff-Report-FINAL.pdf"
+      ]
+    },
+    {
+      "topic": "project cost and phase count",
+      "details": "Developer announcement says $1 billion and a five-year initial phase; Beale location page and official TID plan describe at least $700 million per phase across four planned phases, while local chamber/media report total potential investment up to $3 billion. Use official per-phase amounts for incentive mechanics and developer $1 billion as groundbreaking announcement framing.",
+      "sources": [
+        "https://bealeinfra.com/beale-infrastructure-announces-new-data-center-campus-in-tulsa-county/",
+        "https://bealeinfra.com/location/tulsa-county/",
+        "https://tulsaplanning.org/tmapc/agendas/exhibits/Project-Clydesdale-Project-Plan-TMAPC-Staff-Report-FINAL.pdf",
+        "https://tulsachamber.com/news/2025/10/31/economic-development/officials-announce-3b-data-center-complex-in-tulsa-county/"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

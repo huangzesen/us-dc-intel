@@ -8,10 +8,16 @@
   "location": {
     "city": "Mount Pleasant/Racine County area",
     "county": "Racine",
-    "state": "WI"
+    "state": "WI",
+    "site_area": "Mount Pleasant TID No. 5 Area 3A / Phase 2, KR & H area; broader campus also includes Area II future development",
+    "address_evidence": [
+      "Village active-project details list Microsoft Data Center (Area 3B) at 4800 90th Street and 4811 County Trunk Highway H; Village TID page separately lists Area 3A as the 2028 Microsoft data center.",
+      "Microsoft Local describes Phase 2 as KR & H and Phase 3 as Durand & Hewitt Memorial Drive."
+    ]
   },
   "phase3_stable_id": "WI-RACINE-MICROSOFT-FAIRWATER2",
-  "status_as_of_cutoff": "Announced/planned expansion; Microsoft says adjacent second-facility construction is ongoing, but a distinct parcel/permit/energization record was not independently established.",
+  "status_as_of_cutoff": "Site work-construction: Mount Pleasant identifies Microsoft data center Area 3A as set for completion in 2028, while Microsoft Local describes Phase 2 (KR & H) foundation, steel, and underground utility work as ongoing; no energization or standalone MW capacity was found.",
+  "evidence_grade": "B - official company construction updates corroborated by Village TID/active-project pages and Wisconsin DNR air-permit notices; distinct MW capacity remains unavailable.",
   "actions": [
     {
       "date": "2025-09-18",
@@ -36,10 +42,58 @@
       "primary_url": "https://news.microsoft.com/source/2026/06/23/microsoft-completes-construction-on-first-datacenter-facility-in-mount-pleasant-wisconsin/",
       "access_caveat": "Company statement; no independent building permit or CO was located for this Phase 2 candidate separately.",
       "evidence_note": "Physical work claim preserved with scope limitation."
+    },
+    {
+      "date": "2025-11-10",
+      "date_precision": "day",
+      "government_body": "Village of Mount Pleasant Joint Review Board / TID No. 5 annual reporting",
+      "action_type": "local-government TID annual report",
+      "result_status": "The 2025 TID No. 5 supplemental report states Microsoft announced another $4 billion for the second phase of its data center campus, scheduled to open in 2028, and that Phase II value is not included in the current cash-flow projection.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "TID No. 5 JRB Supplemental Report 2025",
+      "primary_url": "https://www.mtpleasantwi.gov/DocumentCenter/View/4878",
+      "access_caveat": "Local-government financial/TID report; it confirms phase timing and investment, not MW capacity or energization.",
+      "evidence_note": "Local-government confirmation of second-phase schedule and investment."
+    },
+    {
+      "date": "2026-03-01",
+      "date_precision": "month",
+      "government_body": "Microsoft Local (not a government action)",
+      "action_type": "phase construction update",
+      "result_status": "Microsoft Local describes Phase 2 at KR & H as ongoing construction focused on foundation installation, steel erection, and underground utility installation, scheduled for early 2028 completion; Phase 3 at Durand & Hewitt Memorial Drive is preliminary earthwork for future construction.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://local.microsoft.com/blog/mount-pleasant-datacenter-project-update/",
+      "access_caveat": "Company community-update source; useful for construction status but not independent permit closeout or energization.",
+      "evidence_note": "Current phase/status separation."
+    },
+    {
+      "date": "2026-04-10",
+      "date_precision": "day",
+      "government_body": "Wisconsin Department of Natural Resources",
+      "action_type": "air-permit public hearing notice",
+      "result_status": "DNR noticed an April 28, 2026 hearing for Microsoft Mount Pleasant Data Centers at 4800 90th Street, covering fire pump/generator modifications and revision of operation permit 25230249A-F03 under construction permit 25-MIN-133 and operation permit 25230249A-F05.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "25-MIN-133 / 25230249A-F05",
+      "primary_url": "https://dnr.wisconsin.gov/calendar/hearing/121621",
+      "access_caveat": "Air-permit notice appears facility-wide at the 4800 90th Street campus address; it does not by itself identify Area 3A capacity or operating status.",
+      "evidence_note": "Regulatory record for ongoing campus permitting."
+    },
+    {
+      "date": "2026-07-13",
+      "date_precision": "day",
+      "government_body": "Microsoft Local (not a government action)",
+      "action_type": "site-preparation construction update",
+      "result_status": "Microsoft Local says crews would begin hauling soil between project-site areas on or around July 13, 2026 for future development, with roughly eight weeks of work subject to weather, permitting, and construction schedules.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://local.microsoft.com/blog/mount-pleasant-datacenter-project-update/",
+      "access_caveat": "Company community-update source; describes preparation activity and does not establish energization.",
+      "evidence_note": "Post-June-2026 current construction/site-prep update."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Microsoft Corporation",
   "sources": {
     "phase3_stable_id": "WI-RACINE-MICROSOFT-FAIRWATER2",
     "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
@@ -47,9 +101,42 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://www.mtpleasantwi.gov/DocumentCenter/View/4878",
+      "https://enjoymtpleasant.org/2793/Tax-Incremental-District-No-5",
+      "https://www.mtpleasantwi.gov/DocumentCenter/View/4895/20251201-Economic-Development-Map-Details",
+      "https://local.microsoft.com/blog/mount-pleasant-datacenter-project-update/",
+      "https://news.microsoft.com/source/2026/06/23/microsoft-completes-construction-on-first-datacenter-facility-in-mount-pleasant-wisconsin/",
+      "https://dnr.wisconsin.gov/calendar/hearing/121621",
+      "https://apps.dnr.wi.gov/warp_ext/AM_DownloadObject.aspx?id=1262713"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "Area naming/address for the second 2028 facility",
+      "details": "Mount Pleasant's TID page lists Microsoft data center Area 3A as set for completion in 2028; its active-project details PDF lists two Area 3B data-center rows as under construction at 4800 90th Street and 4811 County Trunk Highway H, and Area II at 12023 Durand Avenue as site preparation underway. Microsoft Local uses phase labels instead: Phase 2 is KR & H and Phase 3 is Durand & Hewitt Memorial Drive. Treat Area 3A/Phase 2 as the best-supported 2028 second-facility identity, but do not assign a single street address beyond KR & H without a parcel-level permit.",
+      "sources": [
+        "https://enjoymtpleasant.org/2793/Tax-Incremental-District-No-5",
+        "https://www.mtpleasantwi.gov/DocumentCenter/View/4895/20251201-Economic-Development-Map-Details",
+        "https://local.microsoft.com/blog/mount-pleasant-datacenter-project-update/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Announced/planned expansion; Microsoft says adjacent second-facility construction is ongoing, but a distinct parcel/permit/energization record was not independently established.",
+      "new_value": "Site work-construction: local-government and company sources now support Area 3A/Phase 2 construction targeting 2028 completion; no energization or MW capacity found."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Microsoft Corporation"
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

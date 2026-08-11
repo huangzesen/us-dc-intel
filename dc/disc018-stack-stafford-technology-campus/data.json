@@ -3,17 +3,52 @@
   "canonical_project": "STACK Stafford Technology Campus",
   "owner": "STACK Infrastructure",
   "location": {
-    "city": "Stafford area",
+    "city": "Stafford",
     "county": "Stafford County",
-    "state": "VA"
+    "state": "VA",
+    "site_description": "East side of Richmond Highway, across from Sage Lane, south side of State Shop Road, and along both sides of Eskimo Hill Road, within the Falmouth Election District"
   },
-  "capacity_mw": 1000,
-  "status": "under construction",
+  "capacity_mw": 1100,
+  "status": "site work-construction",
   "confidence": "high",
-  "evidence_date": "2026-05-26",
+  "evidence_date": "2026-08-11",
   "sources": [
+    "https://staffordcountyva.gov/government/departments_p-z/planning_and_zoning/stafford_technology_campus_zoning_reclassification.php",
+    "https://staffordcountyva.gov/government/departments_p-z/planning_and_zoning/data_centers/index.php",
+    "https://hello.stafford.va.us/plan?apnum=25156486",
+    "https://www.nao.usace.army.mil/Media/Public-Notices/Article/4401717/nao-2022-02671-stafford-technology-center-stafford-virginia/",
+    "https://www.stackinfra.com/locations/americas/northern-virginia/stc/",
     "https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-announces-landmark-1gw-stafford-technology-campus-in-northern-virginia/",
     "https://www.datacenterdynamics.com/en/news/stack-tops-out-first-building-at-1gw-data-center-campus-in-stafford-county-virginia/"
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old": 1000,
+      "new": 1100,
+      "reason": "STACK's current STC campus page lists 1.1GW; the January 2025 press release and May 2026 DCD article use 1+GW."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "old": "under construction",
+      "new": "site work-construction",
+      "reason": "Normalized to SKILL.md status taxonomy after May 2026 report that the first building topped out and site work had logged 425,000+ labor hours."
+    }
+  ],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "issue": "Capacity and buildout descriptors differ by source.",
+      "sources": [
+        "https://staffordcountyva.gov/government/departments_p-z/planning_and_zoning/data_centers/index.php",
+        "https://www.stackinfra.com/locations/americas/northern-virginia/stc/",
+        "https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-announces-landmark-1gw-stafford-technology-campus-in-northern-virginia/",
+        "https://www.nao.usace.army.mil/Media/Public-Notices/Article/4401717/nao-2022-02671-stafford-technology-center-stafford-virginia/"
+      ],
+      "detail": "Stafford County's data-center page lists 5,800,000 sq. ft. and 20 buildings for STC in its approved-sites table; STACK lists 1.1GW, 500 acres, four sub-campuses, and six 300MW substations, while its January 2025 press release and May 2026 DCD coverage say 19 data centers. USACE's February 2026 notice describes approximately 4.5 million sq. ft. and 21 data center buildings for permit-review purposes."
+    }
   ],
   "why_not_in_baseline": "Not present in the 208 baseline canonical_project list; under-construction Northern Virginia 1GW campus absent from baseline and distinct from listed Loudoun/Prince William/Pittsylvania/Powhatan Virginia records.",
   "discovery_file": "candidates-hyperscaler.jsonl",

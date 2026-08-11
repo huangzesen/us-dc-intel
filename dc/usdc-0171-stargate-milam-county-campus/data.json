@@ -3,19 +3,75 @@
   "canonical_project": "Stargate Milam County campus",
   "aliases": [
     "Cameron Stargate",
+    "Burlington Data Center",
+    "Freebird Data Center Phase 1",
+    "Milam County Data Center",
     "SB Energy Milam County",
     "Stargate Milam County campus"
   ],
   "location": {
-    "city": "Cameron",
+    "city": "Burlington",
     "county": "Milam",
-    "state": "Texas"
+    "state": "Texas",
+    "address": "County Road 133, Burlington, TX 76519",
+    "site_description": "TDLR TABS2026017746 places Freebird Data Center Phase 1 / DC01 on County Road 133 in Burlington, Milam County; earlier baseline used nearby Cameron as the city label."
   },
   "phase3_stable_id": "US-TX-STARGATE-MILAM-2025",
-  "status_as_of_cutoff": "Announced/provisional; no verified local or state approval record was located.",
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction; Phase 1 is registered with TDLR as private new construction, OpenAI/SB Energy identify the broader Milam County site as a 1.2 GW Stargate data center, and local outreach identifies DPR construction packages for the Burlington Data Center Project. Energization/operation not verified.",
+  "evidence_grade": "A-: official state TDLR and Texas Comptroller records plus OpenAI/SB Energy first-party announcements verify location, first-phase scope, schedule, tax-certification entries, and 1.2 GW broader lease/site capacity; local building permit, interconnection, and energization records were not located.",
+  "actions": [
+    {
+      "date": "2025-09-23",
+      "government_body": "OpenAI",
+      "action_type": "company_announcement",
+      "result_status": "announced",
+      "summary": "OpenAI announced Milam County, Texas as one of two SoftBank/OpenAI Stargate sites, to be developed in partnership with SB Energy as powered infrastructure for a fast-build data center site.",
+      "source_url": "https://openai.com/index/five-new-stargate-sites/"
+    },
+    {
+      "date": "2025-12-09",
+      "government_body": "Texas Comptroller of Public Accounts",
+      "action_type": "large_data_center_tax_certification",
+      "result_status": "approved-permitted",
+      "summary": "Texas Comptroller listed Milam County Data Center as a Registered Qualifying Large Data Center Project, with owner MDC Building 1, LLC, occupant Orion DC I, LLC, and operator Milam County DC, LLC.",
+      "source_url": "https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php"
+    },
+    {
+      "date": "2026-01-08",
+      "government_body": "Cameron Industrial Foundation",
+      "action_type": "local_contractor_outreach",
+      "result_status": "site work-construction",
+      "summary": "Cameron Industrial Foundation posted a Burlington Data Center community outreach event encouraging Milam County businesses to work with DPR Construction on project scopes including final clean, glazing, fencing, landscaping, catering, and security.",
+      "source_url": "https://cameronindustrialfoundation.com/about/news/business-outreach-event-with-general-contractor-burlington-data-center"
+    },
+    {
+      "date": "2026-01-09",
+      "government_body": "OpenAI / SB Energy",
+      "action_type": "company_partnership_and_lease_announcement",
+      "result_status": "site work-construction",
+      "summary": "OpenAI and SB Energy announced OpenAI selected SB Energy to build and operate its previously announced 1.2 GW Milam County data center site; OpenAI signed a 1.2 GW data center lease for the initial buildout.",
+      "source_url": "https://openai.com/index/stargate-sb-energy-partnership/"
+    },
+    {
+      "date": "2026-04-15",
+      "government_body": "Texas Department of Licensing and Regulation",
+      "action_type": "construction_registration",
+      "result_status": "approved-permitted",
+      "summary": "TDLR registered TABS2026017746, Freebird Data Center Phase 1 / DC01, as privately funded new construction at County Road 133 in Burlington, Milam County: 548,950 square feet, four data halls, $470 million estimated cost, start date 2025-10-20, and completion date 2026-10-15.",
+      "source_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026017746"
+    },
+    {
+      "date": "2026-06-10",
+      "government_body": "Texas Comptroller of Public Accounts",
+      "action_type": "large_data_center_tax_certification",
+      "result_status": "approved-permitted",
+      "summary": "Texas Comptroller listed Milam County Data Center Phase 2 as a Registered Qualifying Large Data Center Project, with owner MDC Building 2, LLC, occupant Orion DC I, LLC, and operator Milam County DC, LLC.",
+      "source_url": "https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php"
+    }
+  ],
+  "capacity_mw": 1200,
+  "capacity_notes": "OpenAI and SB Energy first-party announcements identify a 1.2 GW Milam County data center lease/site. TDLR phase-specific record does not disclose IT load for Freebird Phase 1; industry trackers split building-level capacity estimates separately and are not used as the primary capacity source.",
+  "owner": "Milam County Data Center LLC / MDC Building 1, LLC and MDC Building 2, LLC in state records; SB Energy build/operator partner; OpenAI tenant/lease counterparty",
   "sources": {
     "phase3_stable_id": "US-TX-STARGATE-MILAM-2025",
     "phase3_source_file": "phase3/county_tx.json",
@@ -25,9 +81,59 @@
       "US-TX-STARGATE-MILAM-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026017746",
+      "https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php",
+      "https://openai.com/index/five-new-stargate-sites/",
+      "https://openai.com/index/stargate-sb-energy-partnership/",
+      "https://sbenergy.com/openai-and-softbank-group-partner-with-sb-energy/",
+      "https://cameronindustrialfoundation.com/about/news/business-outreach-event-with-general-contractor-burlington-data-center",
+      "https://www.milamcounty.net/departments/resolutions.php"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "city/address label",
+      "details": "Baseline and several trackers describe the campus as Cameron, while TDLR places Freebird Phase 1 at County Road 133 in Burlington, Milam County. Cameron appears to be the nearby county-seat/business-outreach context, not the TDLR site city.",
+      "resolution": "Use Burlington/County Road 133 as the verified site location and keep Cameron as an alias."
+    },
+    {
+      "topic": "status wording",
+      "details": "TDLR's current status is 'Project Registered' under the Architectural Barriers program, while OpenAI/SB Energy and local outreach indicate active construction context. No local building permit, certificate of occupancy, interconnection approval, or energization record was found.",
+      "resolution": "Normalize to site work-construction, with energization/operation explicitly unverified."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old": "Announced/provisional; no verified local or state approval record was located.",
+      "new": "site work-construction; Phase 1 registered with TDLR and supported by OpenAI/SB Energy plus local contractor-outreach evidence.",
+      "reason": "Refresh located state, company, and local economic-development records after the baseline extraction."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old": null,
+      "new": 1200,
+      "reason": "OpenAI and SB Energy first-party announcements identify a 1.2 GW Milam County data center lease/site."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old": null,
+      "new": "Milam County Data Center LLC / MDC Building entities; SB Energy build/operator partner; OpenAI tenant/lease counterparty",
+      "reason": "TDLR and Texas Comptroller records identify owner/operator entities; OpenAI/SB Energy announcements identify project roles."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "location.city",
+      "old": "Cameron",
+      "new": "Burlington",
+      "reason": "TDLR TABS2026017746 locates Freebird Data Center Phase 1 at County Road 133, Burlington, TX 76519."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

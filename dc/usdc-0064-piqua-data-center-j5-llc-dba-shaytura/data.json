@@ -9,11 +9,23 @@
   "location": {
     "city": "Piqua",
     "county": "Miami",
-    "state": "OH"
+    "state": "OH",
+    "site_description": "607-acre campus within the Piqua I-75 Business & Industrial Park; official FAQ places the facility on the east side of Washington Road, north of Farrington Road."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
+  "status_as_of_cutoff": "approved-permitted",
+  "evidence_grade": "A - official City of Piqua project page, FAQ, related agreements, and 2026 public-hearing notices confirm local development approval and utility-service process; no official building permit, construction start, energized date, or MW capacity was found in this refresh.",
   "actions": [
+    {
+      "date": "2022-06-08",
+      "body": "Miami County Commission",
+      "action_type": "annexation",
+      "exact_result_status": "City project chronology says the county held a public hearing and approved a 663.64-acre Statler Farms annexation.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://piquaoh.gov/1673/Data-Center-Project",
+      "access_caveat": "Official city chronology; site-entitlement action, not a data-center building permit."
+    },
     {
       "date": "2022-09-20",
       "body": "Piqua City Commission",
@@ -133,10 +145,31 @@
       "case_or_permit_number": "R-114-25; O-18-25 and linked agreements",
       "primary_url": "https://piquaoh.gov/1673/Data-Center-Project",
       "access_caveat": "Execution date is not a new council vote and does not establish a building permit or construction start."
+    },
+    {
+      "date": "2026-08-11",
+      "body": "Piqua City Commission",
+      "action_type": "AES Ohio electric-utility franchise public hearing",
+      "exact_result_status": "Public hearing scheduled for Ordinance O-7-26, a franchise between Dayton Power and Light Company d/b/a AES Ohio and the City of Piqua to permit AES Ohio to construct, maintain, and operate electric utility facilities within the city. City notice posted August 5, 2026; city update posted August 10, 2026 says AES Ohio and J5 LLC requested amendments adding a $1 million annual customer-paid franchise fee, a 60-day nonpayment cure period, and reducing the initial franchise term from 40 years to 30 years.",
+      "vote_tally": null,
+      "case_or_permit_number": "Ordinance O-7-26",
+      "primary_url": "https://piquaoh.org/CivicAlerts.aspx?AID=1032",
+      "access_caveat": "Hearing notice and amendment announcement only; no final August 11, 2026 vote result was available during this refresh."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "J5 LLC dba Shaytura LLC",
+  "project_scale": {
+    "land_acres": 607,
+    "planned_buildings": 2,
+    "building_sqft_each": 350000,
+    "total_planned_sqft": 700000,
+    "planned_investment_usd": "estimated $1 billion plus",
+    "construction_period": "3-to-5-year construction period",
+    "official_scale_url": "https://piquaoh.gov/Faq.aspx?TID=29",
+    "capacity_mw": null,
+    "capacity_caveat": "No official MW or IT-load figure was found; third-party estimates are not promoted into capacity_mw."
+  },
   "sources": {
     "phase3_stable_id": "OH-PIQUA-J5-SHAYTURA",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -144,9 +177,68 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_urls": [
+      "https://piquaoh.gov/1673/Data-Center-Project",
+      "https://piquaoh.gov/Faq.aspx?TID=29",
+      "https://piquaoh.gov/DocumentCenter/View/3279/Piqua-I-75-Exit-78-Business-and-Industrial-Park-Presentation--November-3-2025-PDF",
+      "https://piquaoh.org/CivicAlerts.aspx?AID=1027",
+      "https://piquaoh.org/CivicAlerts.aspx?AID=1032"
+    ],
+    "industry_urls": [
+      "https://www.datacenterdynamics.com/en/news/data-center-project-coming-to-piqua-ohio/",
+      "https://baxtel.com/data-center/j5-llc-piqua-2"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "ultimate operator / backer",
+      "official_position": "City materials identify the public development counterparty as J5 LLC dba Shaytura LLC and say the company is securing entitlements under that name.",
+      "other_claim": "Some third-party/advocacy trackers identify Meta or Project Klondike as the underlying operator/backer.",
+      "resolution": "Not promoted to owner/operator because no official City or company source confirmed Meta during this refresh.",
+      "sources": [
+        "https://piquaoh.gov/1673/Data-Center-Project",
+        "https://piquaoh.gov/Faq.aspx?TID=29",
+        "https://stopohiodatacenters.org/miami-county"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "MW capacity",
+      "official_position": "Official City materials disclose building count, square footage, site acreage, and utility roles but no MW/IT-load capacity.",
+      "other_claim": "Third-party trackers publish MW estimates.",
+      "resolution": "capacity_mw remains null pending official or directly sourced capacity evidence.",
+      "sources": [
+        "https://piquaoh.gov/1673/Data-Center-Project",
+        "https://piquaoh.gov/Faq.aspx?TID=29",
+        "https://baxtel.com/data-center/j5-llc-piqua-2"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": null,
+      "new_value": "approved-permitted",
+      "reason": "City FAQ says the Piqua project is approved and approved for development with J5 LLC dba Shaytura LLC; no construction-start evidence found."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "J5 LLC dba Shaytura LLC",
+      "reason": "Official City project page and FAQ identify the development partner/company securing entitlements as J5 LLC operating as Shaytura LLC."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": null,
+      "reason": "Official sources disclose land area, building count/square footage, and utility provider roles but not MW capacity."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

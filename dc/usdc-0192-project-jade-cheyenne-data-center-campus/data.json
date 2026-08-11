@@ -13,10 +13,12 @@
   "location": {
     "city": "Cheyenne area",
     "county": "Laramie",
-    "state": "WY"
+    "state": "WY",
+    "site_description": "Switchgrass Industrial Park / US 85 area, about 8 miles south of Cheyenne; secondary coverage describes a 716-acre campus, while the official county memo does not publish parcel IDs."
   },
   "phase3_stable_id": "US-WY-GOOGLE-PROJECT-JADE-CHEYENNE-2026",
-  "status_as_of_cutoff": "Laramie County’s July 8 official notice says Project Jade is now Project Tembo, identifies Google d.b.a. Jupiter Star Holdings, LLC, says prior Crusoe/Tallgrass-related zone/site-plan approvals existed, and describes a scaled-down administrative resubmittal. The county notice schedules a separate office-complex CUP hearing for August 13, after cutoff; no final revised data-center approval, permit, CO, or energization was verified.",
+  "status_as_of_cutoff": "As of the 2026-08-11 refresh, Project Jade is now Project Tembo and is in local-process / administrative resubmittal status. Laramie County's July 8 official memo identifies Google d.b.a. Jupiter Star Holdings, LLC as the current project party after Crusoe withdrew, says prior Crusoe/Tallgrass-related zone/site-plan approvals existed, and describes a scaled-down data-center revision from five buildings / 4,025,500 sq. ft. to four buildings / 3,080,000 sq. ft. The office-complex CUP PZ-26-00057 is scheduled for an August 13, 2026 Planning Commission hearing and remains pending as of this refresh; no final revised data-center approval, building permit, CO, or energization record was verified.",
+  "evidence_grade": "B: owner/project identity and local-process status are official county-sourced; 2.7 GW capacity and 716-acre campus details are supported by local/trade reporting that cites planning documents, but were not independently visible in the county memo.",
   "actions": [
     {
       "date": "2026-07-08",
@@ -46,8 +48,8 @@
       "date": "2026-08-13",
       "date_precision": "day",
       "government_body": "Laramie County Planning Commission",
-      "action_type": "scheduled public hearing (after cutoff; pending)",
-      "result_status": "The county notice schedules an August 13, 2026 public hearing for the office-complex CUP portion. The hearing is after the July 16 cutoff and is not recorded as completed.",
+      "action_type": "scheduled public hearing (pending as of 2026-08-11 refresh)",
+      "result_status": "The county notice schedules an August 13, 2026 public hearing for the office-complex CUP portion. The hearing is after this August 11 refresh and is not recorded as completed.",
       "vote_tally": "scheduled; outcome not applicable",
       "case_or_ordinance_permit_number": "PZ-26-00057",
       "primary_url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/county/public-notice/project-tembo-memo-07082026.pdf",
@@ -55,20 +57,63 @@
       "evidence_note": "Pending future action."
     },
     {
-      "date": "2026-07-16",
+      "date": "2026-07-08",
+      "date_precision": "day",
+      "government_body": "Cowboy State Daily",
+      "action_type": "local reporting on planning documents",
+      "result_status": "Reported the former Project Jade / current Project Tembo campus as a Google-owned 2.7 GW data-center project on 716 acres in Switchgrass Industrial Park, about 8 miles south of Cheyenne, with four data-center halls, office/logistics/network buildings, US 85 access, and a planned completion date of 2031.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://cowboystatedaily.com/2026/07/08/google-revealed-as-owner-of-wyomings-largest-data-center-now-project-tembo/",
+      "access_caveat": "Secondary/local-media source; use for capacity, acreage, and completion target only with caveat because the official county memo opened during refresh did not itself state MW capacity or parcel acreage.",
+      "evidence_note": "Supports capacity_mw=2700 and site description as reported from planning documents."
+    },
+    {
+      "date": "2026-07-14",
+      "date_precision": "day",
+      "government_body": "Data Center Dynamics",
+      "action_type": "trade-media corroboration",
+      "result_status": "Corroborated Google as the customer behind the Project Jade / Project Tembo 2.7 GW campus near Cheyenne, citing Cowboy State Daily, and described a 716-acre Switchgrass Industrial Park site with four data halls and planned construction completion by 2031.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.datacenterdynamics.com/en/news/google-is-customer-behind-27gw-data-center-campus-near-cheyenne-wyoming/",
+      "access_caveat": "Trade-media source dependent on local reporting; not a substitute for official permit records.",
+      "evidence_note": "Corroborates public-market capacity/location narrative but not approval or energization."
+    },
+    {
+      "date": "2026-08-11",
       "date_precision": "day",
       "government_body": "Laramie County / City of Cheyenne / utility surfaces",
-      "action_type": "permit and parcel crosswalk search (negative)",
-      "result_status": "No final revised data-center site-plan decision, building permit, parcel crosswalk, inspection/CO, utility/interconnection, or energization record was located for the Google/Jupiter Star/Tembo identity.",
+      "action_type": "permit, public-notice, and utility search refresh (negative for final approval/energization)",
+      "result_status": "No final revised data-center site-plan decision, building permit, inspection/CO, utility interconnection, or energization record was located for the Google/Jupiter Star/Tembo identity during the August 11 refresh. The Laramie County SmartGov public portal is visible, but detailed application review appears portal/search-dependent and no account or records request was used.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": "PZ-26-00057; PZ-26-00058",
-      "primary_url": "https://www.laramiecountywy.gov/County-Government/County-Departments/Planning-Development",
-      "access_caveat": "County portal access is limited because the legacy portal was taken offline; no account or records request was used.",
+      "primary_url": "https://co-laramie-wy.smartgovcommunity.com/",
+      "access_caveat": "Negative public-web search only; no login, paid database, or records request was used.",
       "evidence_note": "Negative search only; do not merge with Related Digital/CoreWeave."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 2700,
+  "capacity_history": [
+    {
+      "date": "2026-08-11",
+      "old_value": null,
+      "new_value": 2700,
+      "unit": "MW",
+      "source_url": "https://cowboystatedaily.com/2026/07/08/google-revealed-as-owner-of-wyomings-largest-data-center-now-project-tembo/",
+      "note": "Capacity is from local reporting on planning documents and DCD corroboration; official county memo confirms scale by building count/square footage but not MW."
+    }
+  ],
+  "owner": "Google d.b.a. Jupiter Star Holdings, LLC",
+  "owner_history": [
+    {
+      "date": "2026-08-11",
+      "old_value": null,
+      "new_value": "Google d.b.a. Jupiter Star Holdings, LLC",
+      "source_url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/county/public-notice/project-tembo-memo-07082026.pdf",
+      "note": "Official Laramie County memo identifies Google d.b.a. Jupiter Star Holdings, LLC in re-submittal discussions after Crusoe withdrew."
+    }
+  ],
   "sources": {
     "phase3_stable_id": "US-WY-GOOGLE-PROJECT-JADE-CHEYENNE-2026",
     "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
@@ -78,9 +123,27 @@
       "US-WY-GOOGLE-TEMBO-CHEYENNE-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/county/public-notice/project-tembo-memo-07082026.pdf",
+      "https://www.laramiecountywy.gov/Public-Notices/Project-Tembo-Data-Center",
+      "https://co-laramie-wy.smartgovcommunity.com/",
+      "https://cowboystatedaily.com/2026/07/08/google-revealed-as-owner-of-wyomings-largest-data-center-now-project-tembo/",
+      "https://www.datacenterdynamics.com/en/news/google-is-customer-behind-27gw-data-center-campus-near-cheyenne-wyoming/"
+    ],
+    "last_refresh": "2026-08-11"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "construction/permitted status labeling",
+      "description": "Some secondary trackers and trade pages describe Project Tembo as under construction or permitted, but the official Laramie County memo visible during refresh only confirms prior approvals, a current scaled-down administrative site-plan revision path, a pending office-complex CUP hearing, and Tallgrass power-hub construction phases. The data-center campus status is therefore retained as local process / administrative resubmittal until an official revised site-plan approval, building permit, site-work record, CO, or energization record is verified.",
+      "sources": [
+        "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/county/public-notice/project-tembo-memo-07082026.pdf",
+        "https://www.datacenterdynamics.com/en/news/google-is-customer-behind-27gw-data-center-campus-near-cheyenne-wyoming/"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

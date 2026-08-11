@@ -8,22 +8,85 @@
   "location": {
     "city": "Tulsa",
     "county": "Tulsa",
-    "state": "OK"
+    "state": "OK",
+    "site_name": "Fair Oaks Innovation Park",
+    "area_description": "East Tulsa, near East 11th Street South and the Creek Turnpike; city council infrastructure items reference 21304 E. 11th St. S. for Project Anthem improvements."
   },
   "phase3_stable_id": "US-OK-META-TULSA-2026",
-  "status_as_of_cutoff": "Under construction based on the state groundbreaking release; first service date, building permits, and occupancy were not located.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11: Meta, Oklahoma Department of Commerce, and PartnerTulsa record the April 21, 2026 groundbreaking for the Tulsa Data Center at Fair Oaks Innovation Park; Oklahoma Commerce's Q2 2026 report classifies the project as Under Construction. No first service, energization, occupancy, or published facility-load MW record was located.",
+  "evidence_grade": "A- official/company confirmation for owner, location, investment, size, and construction status; B for local process context because Phase 2/adjacent rezoning records are public but separate from Phase 1 operations.",
   "actions": [
+    {
+      "date": "2024-05-01",
+      "date_precision": "day",
+      "government_body": "Tulsa City Council",
+      "action_type": "economic development project plan",
+      "result_status": "Council documentation records approval/adoption of the Project Anthem Economic Development Project Plan and Supporting Incentive District, including project-area and incentive-district boundaries.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Ordinance 25288 / Council item 24-357",
+      "primary_url": "https://www.cityoftulsa.org/apps/CouncilDocuments?item=46238",
+      "access_caveat": "Council item page is accessible; supporting PDF IDs were not needed for the summary fact.",
+      "evidence_note": "Local-government economic development action predates public Meta naming and supports Project Anthem Phase 1 local-process history."
+    },
+    {
+      "date": "2026-03-11",
+      "date_precision": "day",
+      "government_body": "Tulsa City Council",
+      "action_type": "infrastructure dedication/easement agenda items",
+      "result_status": "Regular-meeting agenda includes ATMOSS, LLC deed of dedication and sidewalk easement donation at 21304 E. 11th St. S., Parcels 716 and 727, required for infrastructure improvements at Project Anthem.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Council items 26-201-1 and 26-202-1",
+      "primary_url": "https://tulsa-ok.granicus.com/AgendaViewer.php?clip_id=7411&view_id=4",
+      "access_caveat": "Agenda confirms consideration items; it is not a building permit or occupancy record.",
+      "evidence_note": "Local-government infrastructure documentation tied to Project Anthem."
+    },
+    {
+      "date": "2026-03-25",
+      "date_precision": "day",
+      "government_body": "Tulsa City Council",
+      "action_type": "data center moratorium ordinance",
+      "result_status": "Council documentation describes a 365-day moratorium on data-center building-permit applications in Tulsa, with exceptions for Project Anthem Phase 1 and a possible Phase 2 if appropriately zoned.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Council item 26-196",
+      "primary_url": "https://www.cityoftulsa.org/apps/CouncilDocuments?item=49527",
+      "access_caveat": "Supporting draft/final PDFs are accessible through City Council document IDs 6252/6253; ordinance text contains draft date artifacts, so use only the high-level council-item fact and exceptions.",
+      "evidence_note": "Moratorium is local process context; it does not stop Project Anthem Phase 1 under the cited exception."
+    },
+    {
+      "date": "2026-03-30",
+      "date_precision": "day",
+      "government_body": "Tulsa Metropolitan Area Planning Commission",
+      "action_type": "rezoning withdrawal",
+      "result_status": "TMAPC April 1, 2026 minutes state item Z-7851 was withdrawn by applicant on March 30, 2026; related CPA-128 was also withdrawn. The agenda identified Z-7851/CPA-128 as AG-to-IL and Neighborhood-to-Employment requests for multiple properties between East 11th Street South and East 21st Street South, east of South 193rd East Avenue.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Z-7851 / CPA-128",
+      "primary_url": "https://tulsaplanning.org/tmapc/agendas/exhibits/2026-04-01-TMAPC-Minutes.pdf",
+      "access_caveat": "This appears to be adjacent/Phase 2 local-process evidence and is not a withdrawal of the Phase 1 project that had already broken ground.",
+      "evidence_note": "TMAPC staff-report text available via public copies described the request as expansion of the Project Anthem data center campus and staff recommended denial before withdrawal."
+    },
     {
       "date": "2026-04-21",
       "date_precision": "day",
       "government_body": "Oklahoma Department of Commerce",
       "action_type": "announcement and groundbreaking",
-      "result_status": "State release records a groundbreaking for a more-than-$1 billion Tulsa data center at Fair Oaks Innovation Park, with more than 2 million square feet and planned local infrastructure improvements. It does not publish a city permit number or vote tally.",
+      "result_status": "State release records a groundbreaking for Meta's more-than-$1 billion Tulsa Data Center at Fair Oaks Innovation Park, with more than 2 million square feet, more than $25 million in local infrastructure improvements, more than 1,000 peak construction jobs, about 100 operational jobs, Fortis Construction as general contractor, PSO planning for energy needs, and more than 1,500 MW of clean-energy projects under contract in Oklahoma. It does not publish a city permit number, first-service date, occupancy, or facility-load MW.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.okcommerce.gov/meta-breaks-ground-on-data-center-in-tulsa/",
       "access_caveat": "Official state page accessible; groundbreaking and investment are not a substitute for Tulsa building, grading, or occupancy records.",
       "evidence_note": "Body/context retained from prior file: Oklahoma Department of Commerce / Meta / local and state leaders."
+    },
+    {
+      "date": "2026-04-21",
+      "date_precision": "day",
+      "government_body": null,
+      "action_type": "company confirmation",
+      "result_status": "Meta confirms Tulsa will host its next AI data center; once completed the Tulsa Data Center represents more than $1 billion of investment, more than $25 million in roads and water infrastructure, more than 1,000 peak construction workers, about 100 operational jobs, Fortis Construction construction information, full energy/water/wastewater cost responsibility, annual public sustainability disclosure after operations begin, and more than 1,500 MW of new clean energy under contract in Oklahoma.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://datacenters.atmeta.com/2026/04/hello-tulsa/",
+      "access_caveat": "Company source; strong for owner/project attributes but not a local permit or independent energization record.",
+      "evidence_note": "Used to fill owner and corroborate investment, jobs, infrastructure, sustainability, and no-current-operations disclosure."
     },
     {
       "date": "2026-04-22",
@@ -36,10 +99,22 @@
       "primary_url": "https://www.reuters.com/world/us/meta-breaks-ground-over-1-billion-data-center-oklahomas-tulsa-2026-04-22/",
       "access_caveat": "Press source only; used as corroboration, not as government approval evidence.",
       "evidence_note": "Body/context retained from prior file: Reuters."
+    },
+    {
+      "date": "2026-07-31",
+      "date_precision": "month",
+      "government_body": "Oklahoma Department of Commerce",
+      "action_type": "quarterly economic-development report",
+      "result_status": "Oklahoma Commerce Q2 2026 New and Expanding Companies report lists Meta Platforms, Inc. in Tulsa/Rogers County, says Project Anthem broke ground with investment above $1 billion at Fair Oaks Industrial Park between Tulsa and Catoosa, more than 2 million square feet, about 100 operational positions once complete, and development stage Under Construction.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.okcommerce.gov/wp-content/uploads/New-and-Expanding-Companies-Quarter-2-2026.pdf",
+      "access_caveat": "Quarterly report table cites public announcements and media sources; it is useful for official state status classification but not a permit record.",
+      "evidence_note": "Used to corroborate owner as Meta Platforms, Inc. and status as Under Construction."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Meta Platforms, Inc.",
   "sources": {
     "phase3_stable_id": "US-OK-META-TULSA-2026",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -47,9 +122,34 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_urls": [
+      "https://datacenters.atmeta.com/2026/04/hello-tulsa/",
+      "https://www.okcommerce.gov/meta-breaks-ground-on-data-center-in-tulsa/",
+      "https://partnertulsa.org/meta-breaks-ground-on-new-1-billion-data-center-in-tulsa/",
+      "https://www.okcommerce.gov/wp-content/uploads/New-and-Expanding-Companies-Quarter-2-2026.pdf",
+      "https://www.cityoftulsa.org/apps/CouncilDocuments?item=46238",
+      "https://tulsa-ok.granicus.com/AgendaViewer.php?clip_id=7411&view_id=4",
+      "https://www.cityoftulsa.org/apps/CouncilDocuments?item=49527",
+      "https://tulsaplanning.org/agendas/april-1-2026-tmapc-agenda/",
+      "https://tulsaplanning.org/tmapc/agendas/exhibits/2026-04-01-TMAPC-Minutes.pdf"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Under construction based on the state groundbreaking release; first service date, building permits, and occupancy were not located.",
+      "new_value": "site work-construction as of 2026-08-11 with official/company/local-government corroboration; no first service, energization, occupancy, or published facility-load MW located."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Meta Platforms, Inc."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

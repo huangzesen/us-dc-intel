@@ -2,18 +2,174 @@
   "master_id": "USDC-0188",
   "canonical_project": "Microsoft Malaga and East Wenatchee development portfolio",
   "aliases": [
-    "Microsoft Malaga and East Wenatchee development portfolio"
+    "Microsoft Malaga and East Wenatchee development portfolio",
+    "Microsoft Malaga datacenter campus",
+    "EAT12-13-14 Data Center Campus Microsoft",
+    "Microsoft East Wenatchee Campus",
+    "Microsoft EAT06 & EAT09 Data Center Bldg"
   ],
   "location": {
     "city": "Malaga and East Wenatchee",
     "county": "Chelan and Douglas",
-    "state": "WA"
+    "state": "WA",
+    "addresses": [
+      {
+        "site": "Malaga campus / EAT12-13-14",
+        "address": "5309, 5351, 5375 Malaga-Alcoa Hwy., Malaga, WA 98828",
+        "parcels": [
+          "22-21-35-100-071",
+          "22-21-35-100-072",
+          "22-21-35-100-060"
+        ],
+        "source_url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202301103"
+      },
+      {
+        "site": "Malaga staging / additional industrial-development support",
+        "address": "4770 Saturday Ave, Malaga, WA 98828",
+        "parcels": [
+          "22-21-35-100-060",
+          "22-21-35-120-150",
+          "22-21-35-120-200",
+          "22-21-35-130-175",
+          "22-21-35-240-050",
+          "22-21-35-240-000",
+          "22-21-35-100-070",
+          "22-21-35-230-000"
+        ],
+        "source_url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202600522"
+      },
+      {
+        "site": "East Wenatchee EAT06/EAT09",
+        "address": "875 Urban Industrial Way Building E & F, East Wenatchee, WA 98802",
+        "parcels": [
+          "22210920009",
+          "22210920004"
+        ],
+        "source_url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202400382"
+      }
+    ]
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "B",
+  "history": {
+    "status_as_of_cutoff": [
+      {
+        "date": "2026-07-16",
+        "value": null,
+        "note": "Baseline record had no status."
+      },
+      {
+        "date": "2026-08-11",
+        "value": "site work-construction",
+        "note": "Official SEPA records and Microsoft/Chelan PUD notices confirm phased construction, 2025 commissioning plans for the Malaga first data center, 2026 revised grading/staging review at 4770 Saturday Ave, and Douglas County SEPA review for East Wenatchee EAT06/EAT09. No official source verified full operation of the full portfolio."
+      }
+    ],
+    "capacity_mw": [
+      {
+        "date": "2026-07-16",
+        "value": null,
+        "note": "Baseline record had no verified capacity."
+      },
+      {
+        "date": "2026-08-11",
+        "value": {
+          "malaga_ultimate_switchyard_load_mw": 360,
+          "malaga_short_term_commissioning_supply_mw": 18
+        },
+        "note": "Washington Ecology SEPA record states the Malaga 105-acre site's conceptual switchyard ultimate buildout is to accommodate 360 MW load; Chelan PUD approved short-term supply up to 18 MW through December 2025 for commissioning. These are not verified energized IT capacity."
+      }
+    ],
+    "owner": [
+      {
+        "date": "2026-07-16",
+        "value": null,
+        "note": "Baseline record had no owner."
+      },
+      {
+        "date": "2026-08-11",
+        "value": "Microsoft Corporation",
+        "note": "Applicant/owner verified across Washington Ecology SEPA records for Chelan County and Douglas County."
+      }
+    ]
+  },
+  "actions": [
+    {
+      "date": "2023-03-14",
+      "government_body": "Washington State Department of Ecology / Chelan County",
+      "body": "Washington State Department of Ecology / Chelan County",
+      "action_type": "SEPA ODNS/NOA",
+      "result_status": "local process",
+      "exact_result_status": "SEPA record 202301103 for BP-230107 covers site preparation and phased construction of three approximately 250,000 sq. ft. Malaga data center buildings with supporting infrastructure, including Jumpoff Ridge Switchyard and transmission upgrades; conceptual switchyard design accommodates 360 MW load for the 105-acre site.",
+      "case_or_permit_number": "SEPA 202301103 / BP-230107",
+      "primary_url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202301103",
+      "access_caveat": "SEPA/project-description record; not an occupancy or energized-capacity record."
+    },
+    {
+      "date": "2023-06-07",
+      "government_body": "Chelan County Hearing Examiner",
+      "body": "Chelan County Hearing Examiner",
+      "action_type": "hearing examiner minutes",
+      "result_status": "local process",
+      "exact_result_status": "Hearing minutes state staff presented CUP 23-145 water tanks and CUP 23-156 switchyard as meeting approval criteria; the record was closed after applicant testimony. The switchyard was described as single-use under the Microsoft agreement.",
+      "case_or_permit_number": "CUP 23-145; CUP 23-156",
+      "primary_url": "https://www.co.chelan.wa.us/files/community-development/archives/hearing-examiner/2023/06%20June%202023/06%20June%2007-2023%20HE%20Agenda.pdf",
+      "access_caveat": "Minutes corroborate local review for supporting infrastructure; final approval conditions are better documented in separate CUP final-decision PDFs."
+    },
+    {
+      "date": "2024-01-26",
+      "government_body": "Washington State Department of Ecology / Douglas County",
+      "body": "Washington State Department of Ecology / Douglas County",
+      "action_type": "SEPA ODNS/NOA",
+      "result_status": "local process",
+      "exact_result_status": "SEPA record 202400382 for BPC-2023-074 covers two interconnected single-story East Wenatchee data center buildings totaling 250,531 sq. ft. on Microsoft-owned property at 875 Urban Industrial Way Building E & F.",
+      "case_or_permit_number": "SEPA 202400382 / BPC-2023-074",
+      "primary_url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202400382",
+      "access_caveat": "SEPA/project-description record; not an occupancy or energized-capacity record."
+    },
+    {
+      "date": "2025-06-17",
+      "government_body": "Chelan County PUD",
+      "body": "Chelan County PUD",
+      "action_type": "power contract approval",
+      "result_status": "site work-construction",
+      "exact_result_status": "Chelan PUD commissioners approved contract terms to power Microsoft's Malaga campus; Microsoft planned to begin commissioning in August 2025, with short-term supply up to 18 MW of surplus hydropower through December 2025 and 2026-2040 power source not yet determined.",
+      "case_or_permit_number": null,
+      "primary_url": "https://www.chelanpud.org/about-us/news/2025/06/17/pud-commissioners-approve-power-contract-for-microsoft-data-center",
+      "access_caveat": "Power contract/commissioning notice; does not prove full commercial operation or full buildout."
+    },
+    {
+      "date": "2026-02-10",
+      "government_body": "Washington State Department of Ecology / Chelan County",
+      "body": "Washington State Department of Ecology / Chelan County",
+      "action_type": "SEPA revised ODNS",
+      "result_status": "site work-construction",
+      "exact_result_status": "Revised SEPA record 202600522 for SEPA 25-245 covers critical-areas review for demolition, removal of a small power-line section, and grading/clearing to establish a 43.5-acre staging area to support industrial development at 4770 Saturday Ave and related Malaga parcels; mitigation changed to 2:1 preservation of 26 acres of high-quality shrubsteppe.",
+      "case_or_permit_number": "SEPA 202600522 / SEPA 25-245",
+      "primary_url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202600522",
+      "access_caveat": "Revised environmental threshold record for staging/grading support work; not a new data-center building approval."
+    }
+  ],
+  "capacity_mw": {
+    "value": 360,
+    "unit": "MW",
+    "scope": "Malaga 105-acre site conceptual switchyard ultimate load; not verified energized IT capacity",
+    "as_of": "2026-08-11",
+    "confidence": "official SEPA project-description load claim",
+    "supporting_values": [
+      {
+        "value": 18,
+        "unit": "MW",
+        "scope": "Chelan PUD short-term surplus hydropower supply for Malaga commissioning through December 2025",
+        "source_url": "https://www.chelanpud.org/about-us/news/2025/06/17/pud-commissioners-approve-power-contract-for-microsoft-data-center"
+      }
+    ],
+    "unverified_components": [
+      "East Wenatchee campus MW/capacity was not verified from official sources in this refresh.",
+      "No official energized IT capacity was found for Malaga."
+    ]
+  },
+  "owner": "Microsoft Corporation",
   "sources": {
     "phase3_stable_id": "US-WA-MICROSOFT-MALAGA-EAST-WENATCHEE-2025",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -21,9 +177,65 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202301103",
+      "https://www.co.chelan.wa.us/files/community-development/archives/hearing-examiner/2023/06%20June%202023/06%20June%2007-2023%20HE%20Agenda.pdf",
+      "https://local.microsoft.com/blog/malaga-datacenter-project-overview/",
+      "https://www.chelanpud.org/about-us/news/2025/06/17/pud-commissioners-approve-power-contract-for-microsoft-data-center",
+      "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202400382",
+      "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202504823",
+      "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202600469",
+      "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202600522"
+    ],
+    "source_notes": [
+      {
+        "date": "2023-03-14",
+        "url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202301103",
+        "note": "Chelan County SEPA record for Malaga EAT12-13-14 campus, three approximately 250,000 sq. ft. buildings, supporting infrastructure, and 360 MW conceptual switchyard load."
+      },
+      {
+        "date": "2023-03-29",
+        "url": "https://local.microsoft.com/blog/malaga-datacenter-project-overview/",
+        "note": "Microsoft local project page states Malaga first-phase construction began June 2023, building work expected May 2024 through early 2026, and construction completion does not indicate operability."
+      },
+      {
+        "date": "2024-01-26",
+        "url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202400382",
+        "note": "Douglas County SEPA record for East Wenatchee EAT06/EAT09, two interconnected buildings totaling 250,531 sq. ft. at 875 Urban Industrial Way Building E & F."
+      },
+      {
+        "date": "2025-06-17",
+        "url": "https://www.chelanpud.org/about-us/news/2025/06/17/pud-commissioners-approve-power-contract-for-microsoft-data-center",
+        "note": "Chelan PUD power contract for Malaga commissioning: up to 18 MW short-term supply through December 2025; 2026-2040 source not yet determined."
+      },
+      {
+        "date": "2026-02-10",
+        "url": "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202600522",
+        "note": "Revised Chelan County SEPA record for 4770 Saturday Ave staging/grading support work with 43.5-acre clearing/grading area and revised 2:1 shrubsteppe mitigation."
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "Malaga mitigation ratio",
+      "description": "Chelan County SEPA records for the 4770 Saturday Ave staging/grading action show the same proposal first with 1:1 mitigation/preservation of 13 acres and later as a revised ODNS with 2:1 mitigation/preservation of 26 acres. Treat the 2026-02-10 revised ODNS as current.",
+      "sources": [
+        "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202504823",
+        "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202600522"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "Capacity semantics",
+      "description": "Official sources disclose a 360 MW conceptual switchyard/load accommodation for Malaga and an 18 MW short-term commissioning supply. Neither source states energized IT capacity or total portfolio capacity, and East Wenatchee MW remains unverified.",
+      "sources": [
+        "https://apps.ecology.wa.gov/separ/Main/SEPA/Record.aspx?SEPANumber=202301103",
+        "https://www.chelanpud.org/about-us/news/2025/06/17/pud-commissioners-approve-power-contract-for-microsoft-data-center"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

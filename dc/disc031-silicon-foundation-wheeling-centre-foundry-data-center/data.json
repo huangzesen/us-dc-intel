@@ -1,21 +1,75 @@
 {
   "disc_id": "disc031",
   "canonical_project": "Silicon Foundation Wheeling / Centre Foundry data center",
-  "owner": "Silicon Foundation",
+  "owner": "Silicon Foundation Energy LLC / Silicon Foundry Energy LLC (reported purchaser; assessor record still lags)",
   "location": {
+    "address": "74 Warwood Avenue",
     "city": "Wheeling",
     "county": "Ohio",
     "state": "West Virginia"
   },
-  "capacity_mw": 100,
-  "status": "proposed; industrial-zoned former foundry parcel acquired",
-  "confidence": "medium",
-  "evidence_date": "2026-06-24",
+  "capacity_mw": 10,
+  "capacity_note": "Confirmed current/Phase 1 grid connection is 10 MW; 20-30 MW expansion, 50 MW revised representation, and 100 MW long-term campus remain projected/conflicting.",
+  "status": "announced; preliminary local discussions; no formal city plans or documentation confirmed",
+  "confidence": "medium-high",
+  "evidence_date": "2026-07-07",
   "sources": [
+    "https://www.wheelingwv.gov/news/post/22857/",
+    "https://ohio.wvassessor.com/search.aspx",
+    "https://ohio.wvassessor.com/prc.aspx?PARID=10%20W13008300000000",
+    "https://wtov9.com/news/local/warwood-town-hall-set-as-proposed-data-center-site-draws-scrutiny-warwood-data-center-silicon-foundry-energy-town-hall-ohio-county-property-records-laura-wakim-chapman-house-bill-2014",
+    "https://wtov9.com/news/local/officials-say-revised-warwood-data-center-would-draw-river-water-no-discharge-or-rate-hikes-warwood-data-center-silicon-foundation-closed-loop-river-water-no-discharge-utility-rates-shawn-fluharty",
+    "https://wtov9.com/news/local/wheeling-residents-council-meeting-to-oppose-data-center-at-former-foundry-site",
+    "https://www.theintelligencer.net/news/top-headlines/2026/06/company-official-warwood-facility-will-build-modules-for-data-centers/",
+    "https://wvpublic.org/story/energy-environment/states-sixth-data-center-announced-near-wheeling/",
     "https://www.datacenterdynamics.com/en/news/100mw-data-center-could-be-built-in-wheeling-west-virginia/",
     "https://silicon.foundation/"
   ],
   "why_not_in_baseline": "Old-factory/industrial parcel conversion in a small West Virginia market; baseline did not include Silicon Foundation, Wheeling, or Centre Foundry.",
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "details": "Initial industry/project coverage described a possible 100 MW campus; company official later said current setup is only 10 MW and 100 MW would require rebuilding area grid infrastructure; WTOV later reported officials were told the project would be limited to 50 MW. Treat 10 MW as verified current/Phase 1 and larger values as projected or unresolved.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/100mw-data-center-could-be-built-in-wheeling-west-virginia/",
+        "https://www.theintelligencer.net/news/top-headlines/2026/06/company-official-warwood-facility-will-build-modules-for-data-centers/",
+        "https://wtov9.com/news/local/officials-say-revised-warwood-data-center-would-draw-river-water-no-discharge-or-rate-hikes-warwood-data-center-silicon-foundation-closed-loop-river-water-no-discharge-utility-rates-shawn-fluharty"
+      ]
+    },
+    {
+      "field": "owner",
+      "details": "Local reporting says Silicon Foundation/Silicon Foundry Energy purchased the site in April 2026, but the Ohio County Assessor public parcel page still lists Centre Foundry & Machine Co. as current owner and shows an older deed book/page.",
+      "sources": [
+        "https://ohio.wvassessor.com/prc.aspx?PARID=10%20W13008300000000",
+        "https://wtov9.com/news/local/warwood-town-hall-set-as-proposed-data-center-site-draws-scrutiny-warwood-data-center-silicon-foundry-energy-town-hall-ohio-county-property-records-laura-wakim-chapman-house-bill-2014",
+        "https://wtov9.com/news/local/wheeling-residents-council-meeting-to-oppose-data-center-at-former-foundry-site"
+      ]
+    },
+    {
+      "field": "status",
+      "details": "City of Wheeling stated on 2026-06-25 that no formal plans, drawings, proposals, or specific development details had been presented; later local reporting confirms public discussion and city fact-finding but not a filed local approval or construction start.",
+      "sources": [
+        "https://www.wheelingwv.gov/news/post/22857/",
+        "https://wtov9.com/news/local/wheeling-residents-council-meeting-to-oppose-data-center-at-former-foundry-site"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": 100,
+      "new_value": 10,
+      "reason": "Refreshed to confirmed current/Phase 1 grid connection; retained 50/100 MW claims as projected/conflicting."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "old_value": "proposed; industrial-zoned former foundry parcel acquired",
+      "new_value": "announced; preliminary local discussions; no formal city plans or documentation confirmed",
+      "reason": "Official city statement confirmed preliminary discussion only and no submitted plans/docs as of 2026-06-25; later local reporting shows ongoing public/local process."
+    }
+  ],
   "discovery_file": "candidates-secondary-markets.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

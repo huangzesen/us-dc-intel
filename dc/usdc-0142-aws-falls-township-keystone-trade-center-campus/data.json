@@ -7,13 +7,60 @@
   "location": {
     "city": "Fairless Hills",
     "county": "Bucks",
-    "state": "PA"
+    "state": "PA",
+    "address": "600 Ben Fairless Drive, Falls Township, Bucks County, PA",
+    "site": "Keystone Trade Center"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A",
+  "actions": [
+    {
+      "date": "2025-03-26",
+      "government_body": "Falls Township Board of Supervisors",
+      "action_type": "land development approval",
+      "result_status": "approved",
+      "summary": "Falls Township reported approval of revised NorthPoint land development plans converting building six into a data center and shifting a 247-acre parcel from four distribution centers to 10 digital-infrastructure-campus structures totaling more than 2 million square feet."
+    },
+    {
+      "date": "2025-06-09",
+      "government_body": "Amazon / Falls Township",
+      "action_type": "company announcement",
+      "result_status": "announced",
+      "summary": "Amazon announced at least $20 billion of Pennsylvania data-center investment, with Falls Township and Salem Township identified as the first communities for future innovation campuses."
+    },
+    {
+      "date": "2025-07",
+      "government_body": "Pennsylvania Department of Environmental Protection",
+      "action_type": "air quality plan approval",
+      "result_status": "issued",
+      "summary": "DEP issued Air Quality Plan Approval 09-0261 to Amazon Data Services, Inc. for phase 1."
+    },
+    {
+      "date": "2025-08",
+      "government_body": "Pennsylvania Department of Environmental Protection",
+      "action_type": "waterways/wetlands NPDES permit",
+      "result_status": "issued",
+      "summary": "DEP issued Chapter 102 NPDES Permit PAD090088 A-3."
+    },
+    {
+      "date": "2026-04",
+      "government_body": "Pennsylvania Department of Environmental Protection",
+      "action_type": "air quality plan approval application",
+      "result_status": "public comment",
+      "summary": "Amazon submitted phase 2 Plan Approval 09-0261A for 280 natural gas-fired critical backup generator engines and three diesel-fired ancillary emergency generator engines; DEP opened a 30-day public comment period starting July 18, 2026."
+    },
+    {
+      "date": "2026-07-15",
+      "government_body": "Falls Township",
+      "action_type": "public meeting follow-up",
+      "result_status": "under construction",
+      "summary": "Falls Township described the Amazon data center as under construction, said Amazon had invested more than $827 million to date, reported 3 million square feet at completion, and said active construction would continue for two to three years."
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_note": "Electrical IT load/capacity MW remains undisclosed in official sources; NorthPoint stated under NDA in March 2025 that the MW amount was significant but did not disclose it.",
+  "owner": "Amazon Data Services, Inc. (facility permittee/operator); NorthPoint Development (owner/developer of Keystone Trade Center site)",
   "sources": {
     "phase3_stable_id": "US-PA-AWS-FAIRLESS-HILLS-2025",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -21,9 +68,71 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official": [
+      {
+        "date": "2026-08-11",
+        "title": "PA DEP Southeast Regional Office - Amazon Data Center - Falls Township",
+        "url": "https://www.pa.gov/agencies/dep/dep-regions/southeast-regional-office"
+      },
+      {
+        "date": "2026-07-18",
+        "title": "Air Quality Proposed Plan Approval, 09-0261A",
+        "url": "https://files.dep.state.pa.us/RegionalResources/SERO/SEROPortalFiles/Community%20Info/AmazonDCFallsTwp/Air%20Quality%20Proposed%20Plan%20Approval%2C%2009-0261A.pdf"
+      },
+      {
+        "date": "2025-06-09",
+        "title": "Amazon plans to invest $20 billion in Pennsylvania",
+        "url": "https://www.aboutamazon.com/news/aws/amazon-pennsylvania-investment-cloud-infrastructure-ai-innovation"
+      },
+      {
+        "date": "2025-06-09",
+        "title": "Amazon to Open Data Center at NorthPoint Development in Falls",
+        "url": "https://www.fallstwp.com/resources/news/article/?id=10070"
+      },
+      {
+        "date": "2025-03-26",
+        "title": "Falls OKs Data Centers at Keystone Trade Center",
+        "url": "https://fallstwp.com/resources/news/article/?id=9844"
+      },
+      {
+        "date": "2026-06-23",
+        "title": "Town Hall Meeting to Feature PECO, DEP, and Amazon",
+        "url": "https://www.fallstwp.com/resources/news/article/?id=11573"
+      },
+      {
+        "date": "2026-07-15",
+        "title": "Data Center Opponents Speak Out Against Falls Site",
+        "url": "https://fallstwp.com/resources/news/article/?id=11625"
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "street address",
+      "summary": "Falls Township's June 2025 article describes building six as located at 1 Ben Fairless Drive, while DEP's 2026 page and proposed plan approval identify the Amazon Data Services facility at 600 Ben Fairless Drive / Morrisville, PA. Treat 600 Ben Fairless Drive as the current permitting address and retain the older township address as context."
+    },
+    {
+      "topic": "project square footage",
+      "summary": "Falls Township's March/June 2025 approval coverage described more than 2 million square feet across 10 digital-infrastructure structures on a 247-acre parcel; its July 2026 town-hall follow-up reported the site will be 3 million square feet once complete. This appears to reflect later buildout scope but was not reconciled in a site-plan document found during this refresh."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": null,
+      "new_value": "site work-construction",
+      "source": "https://www.pa.gov/agencies/dep/dep-regions/southeast-regional-office"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "Amazon Data Services, Inc. (facility permittee/operator); NorthPoint Development (owner/developer of Keystone Trade Center site)",
+      "source": "https://www.pa.gov/agencies/dep/dep-regions/southeast-regional-office"
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -14,43 +14,56 @@
     "state": "UT"
   },
   "phase3_stable_id": "US-UT-CREEKSTONE-DELTA-2025",
-  "status_as_of_cutoff": "Phase 1 is government-inventory-listed under construction and a state tax incentive was awarded; expansion remains proposed. Power-on and final CUP/building records were not located.",
+  "status_as_of_cutoff": "site work-construction: Millard County approved C-2 CUP application #Z-2025-035 on 2025-07-01 for a data center and electrical generating facility at approximately 4500 E & Hwy 50, Delta; Utah GOEO reported on 2026-04-09 that the Creekstone Gigasite began construction in late 2025; Creekstone's current project page and 2026-07-23 company release say construction is underway and firm gas transportation supports the first behind-the-meter generation block. A separate Creekstone solar CUP #Z-2026-043 was noticed for July/August 2026 local process, but final August 4 minutes/approval were not located. No energization, commissioning, certificate-of-occupancy, or live-service record was located.",
+  "evidence_grade": "B: official county minutes confirm the core data-center/electrical-generation CUP approval and official state economic-development records confirm the construction claim; current company records support construction and initial gas-capacity details. Final building permits, solar CUP outcome, energization, commissioning, and live-service evidence remain unverified.",
   "actions": [
     {
       "date": "2025-06-25",
       "date_precision": "day",
       "government_body": "Millard County Planning and Zoning",
-      "action_type": "conditional-use public notice",
-      "result_status": "County public notice records a data-center planning/CUP proceeding for the Delta project. A notice is not a final CUP or building permit.",
+      "action_type": "conditional-use recommendation",
+      "result_status": "Planning Commission minutes show a public hearing and unanimous favorable recommendation to the BOCC on C-2 CUP application #Z-2025-035 for a data center and electrical generating facility at approximately 4500 E & Hwy 50, Delta; the application described 26 buildings.",
       "vote_tally": null,
-      "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.utah.gov/pmn/sitemap/notice/1005253.html",
-      "access_caveat": "Official county notice; final resolution text was not retrieved.",
-      "evidence_note": "Body/context retained from prior file: Millard County Planning and Zoning."
+      "case_or_ordinance_permit_number": "Z-2025-035",
+      "primary_url": "https://millardcounty.gov/wp-content/uploads/2025/07/062525-FINAL-minutes.pdf",
+      "access_caveat": "Official county minutes; recommendation only, not BOCC final approval.",
+      "evidence_note": "Official local-government record."
     },
     {
       "date": "2025-07-01",
       "date_precision": "day",
       "government_body": "Millard County Board of Commissioners",
-      "action_type": "county minutes / project-related discussion",
-      "result_status": "County minutes preserve project-related proceedings and discussion; the final CUP resolution text and a building permit were not exposed in the indexed minutes used here.",
+      "action_type": "conditional-use permit approval",
+      "result_status": "BOCC minutes show unanimous approval of C-2 CUP application #Z-2025-035 for a data center and electrical generating facility at approximately 4500 E & Hwy 50, Delta, with proposed conditions. The applicant was Fibernet Mercury Delta, LLC; Buford Ray Conley was present and Fibernet Delta said it agreed to the CUP conditions.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://millardcounty.gov/wp-content/uploads/2025/08/25-0701.pdf",
-      "access_caveat": "Official minutes PDF; image/text-layer limitations and absent final permit records prevent upgrading the result.",
-      "evidence_note": "Body/context retained from prior file: Millard County Board of Commissioners."
+      "access_caveat": "Official county minutes; building permit, certificate of occupancy, and energization records were not located.",
+      "evidence_note": "Official local-government final CUP approval for the data-center/generation use."
     },
     {
       "date": "2026-04-09",
       "date_precision": "day",
       "government_body": "Utah Governor’s Office of Economic Opportunity",
       "action_type": "state REDTIF tax incentive",
-      "result_status": "GOEO awarded Creekstone Energy a post-performance rural tax reduction tied to $17,082,408,000 planned investment and 106 jobs. The incentive is not a building permit, CUP, or power-on record.",
+      "result_status": "GOEO awarded Creekstone Energy a post-performance rural tax reduction tied to $17,082,408,000 planned investment and 106 jobs; GOEO says the Creekstone Gigasite began construction in Millard County in late 2025 and targets a 10 GW behind-the-meter AI data-center campus near Delta.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": "REDTIF Creekstone Energy",
       "primary_url": "https://business.utah.gov/tax-credits/creekstone-energy-llc-commits-17-billion-to-millard-county-data-center-project/",
-      "access_caveat": "Official state incentive page; it reports project claims and award terms, not construction completion.",
-      "evidence_note": "Body/context retained from prior file: Utah Governor’s Office of Economic Opportunity."
+      "access_caveat": "Official state incentive page; it reports construction start and project claims but is not a building permit, energization, or completion record.",
+      "evidence_note": "Official state economic-development record."
+    },
+    {
+      "date": "2026-04-21",
+      "date_precision": "day",
+      "government_body": "Millard County Board of Commissioners",
+      "action_type": "letter of support ratification",
+      "result_status": "County minutes show the Commission unanimously ratified a letter of support for the Creekstone Data Center Project. During the discussion, Commissioner Wright said established processes and legal requirements had been met, and described the project as having secured its own water rights and generating its own power.",
+      "vote_tally": "unanimous",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://millardcounty.gov/wp-content/uploads/2026/05/26-0421.pdf",
+      "access_caveat": "Support-letter ratification is supportive local-government evidence, not a new permit, building approval, or energization record.",
+      "evidence_note": "Official local-government record."
     },
     {
       "date": "2026-05-26",
@@ -63,10 +76,46 @@
       "primary_url": "https://www.utah.gov/pmn/files/1444799.pdf",
       "access_caveat": "Government compiled inventory; approximate capacity and source limitations are stated in the report.",
       "evidence_note": "Body/context retained from prior file: Grand County Planning Commission staff report / Utah public-notice system."
+    },
+    {
+      "date": "2026-07-09",
+      "date_precision": "day",
+      "government_body": "Millard County Planning Commission",
+      "action_type": "solar conditional-use public hearing notice",
+      "result_status": "Utah Public Notice agenda lists C-2 CUP application #Z-2026-043 for a major solar energy system approximately 6 miles southeast of Delta, with Creekstone Energy LLC as applicant. This is a solar/local-process item and not evidence that the data center is energized.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Z-2026-043",
+      "primary_url": "https://www.utah.gov/pmn/sitemap/notice/1093365.html",
+      "access_caveat": "Agenda notice only; July 9 minutes or final recommendation were not located in this refresh.",
+      "evidence_note": "Official public-notice record for related solar infrastructure."
+    },
+    {
+      "date": "2026-07-23",
+      "date_precision": "day",
+      "government_body": "Creekstone Energy LLC",
+      "action_type": "company gas-capacity announcement",
+      "result_status": "Creekstone announced 43,000 Dth/day of firm Kern River natural-gas transportation capacity for the Delta Gigasite, described as enough firm fuel to support roughly 220 MW of behind-the-meter generation for the first block of a campus master-planned above 10 GW.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.businesswire.com/news/home/20260723531990/en/Creekstone-Energy-Secures-43000-DthDay-of-Firm-Kern-River-Natural-Gas-Capacity-for-Its-Delta-AI-Campus",
+      "access_caveat": "Company press release; underlying Kern River transactional report was not independently retrieved in this refresh.",
+      "evidence_note": "Company/owner source for initial gas supply and first-block generation capacity."
+    },
+    {
+      "date": "2026-08-04",
+      "date_precision": "day",
+      "government_body": "Millard County Board of Commissioners",
+      "action_type": "solar CUP possible-approval agenda",
+      "result_status": "County Commission agenda scheduled a public hearing and possible approval for Creekstone C-2 CUP application #Z-2026-043 for a major solar energy system south of Highway 50 and Harding Junction.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Z-2026-043",
+      "primary_url": "https://www.utah.gov/pmn/sitemap/notice/1098719.html",
+      "access_caveat": "Agenda only; posted minutes or an official approval record for the August 4 item were not located as of the 2026-08-11 refresh.",
+      "evidence_note": "Official public-notice record for related solar infrastructure."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 220,
+  "owner": "Creekstone Energy LLC (project sponsor/developer); Fibernet Mercury Delta, LLC was the local CUP applicant for Z-2025-035",
   "sources": {
     "phase3_stable_id": "US-UT-CREEKSTONE-DELTA-2025",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -76,9 +125,107 @@
       "US-UT-DELTA-GIGASITE-2026"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      {
+        "url": "https://millardcounty.gov/wp-content/uploads/2025/07/062525-FINAL-minutes.pdf",
+        "date": "2025-06-25",
+        "source_type": "local government minutes",
+        "note": "Planning Commission favorable recommendation for C-2 CUP #Z-2025-035."
+      },
+      {
+        "url": "https://millardcounty.gov/wp-content/uploads/2025/08/25-0701.pdf",
+        "date": "2025-07-01",
+        "source_type": "local government minutes",
+        "note": "BOCC unanimous approval of C-2 CUP #Z-2025-035 for data center and electrical generating facility."
+      },
+      {
+        "url": "https://business.utah.gov/tax-credits/creekstone-energy-llc-commits-17-billion-to-millard-county-data-center-project/",
+        "date": "2026-04-09",
+        "source_type": "state economic-development record",
+        "note": "REDTIF award, $17.082B planned investment, 106 jobs, construction-start statement, 10 GW behind-the-meter campus claim."
+      },
+      {
+        "url": "https://millardcounty.gov/wp-content/uploads/2026/05/26-0421.pdf",
+        "date": "2026-04-21",
+        "source_type": "local government minutes",
+        "note": "County ratified letter of support for Creekstone Data Center Project."
+      },
+      {
+        "url": "https://www.utah.gov/pmn/files/1444799.pdf",
+        "date": "2026-05-26",
+        "source_type": "government staff report / inventory",
+        "note": "Lists Creekstone Delta Gigasite Phase 1 as 220 MW under construction and expansion as proposed."
+      },
+      {
+        "url": "https://www.utah.gov/pmn/sitemap/notice/1093365.html",
+        "date": "2026-07-09",
+        "source_type": "local government public notice",
+        "note": "Planning Commission agenda for Creekstone solar CUP #Z-2026-043."
+      },
+      {
+        "url": "https://www.businesswire.com/news/home/20260723531990/en/Creekstone-Energy-Secures-43000-DthDay-of-Firm-Kern-River-Natural-Gas-Capacity-for-Its-Delta-AI-Campus",
+        "date": "2026-07-23",
+        "source_type": "company press release",
+        "note": "43,000 Dth/day firm gas transportation, roughly 220 MW first-block behind-the-meter generation."
+      },
+      {
+        "url": "https://www.utah.gov/pmn/sitemap/notice/1098719.html",
+        "date": "2026-08-04",
+        "source_type": "local government public notice",
+        "note": "BOCC agenda for possible approval of Creekstone solar CUP #Z-2026-043."
+      },
+      {
+        "url": "https://www.creekstone.energy/delta",
+        "date": "2026-08-11",
+        "source_type": "developer project page",
+        "note": "Current company page claiming land secured, permits issued, active construction, 1,143 acres owned, 220 MW Phase 1, and >10 GW full build."
+      },
+      {
+        "url": "https://cleanview.co/data-centers/utah/706/delta-gigasite---phase-1",
+        "date": "2026-08-11",
+        "source_type": "industry tracker",
+        "note": "Lower-priority tracker listing Phase 1 as planned 300 MW; retained as a capacity/status conflict against official/company 220 MW construction evidence."
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw/status",
+      "summary": "Cleanview lists Delta Gigasite Phase 1 as planned 300 MW, while the government inventory and Creekstone gas-capacity release support 220 MW for the initial/Phase 1 block and construction/site-work status.",
+      "preferred_value": "220 MW first-block/Phase 1 behind-the-meter generation; site work-construction",
+      "preferred_sources": [
+        "https://www.utah.gov/pmn/files/1444799.pdf",
+        "https://www.businesswire.com/news/home/20260723531990/en/Creekstone-Energy-Secures-43000-DthDay-of-Firm-Kern-River-Natural-Gas-Capacity-for-Its-Delta-AI-Campus"
+      ],
+      "conflicting_source": "https://cleanview.co/data-centers/utah/706/delta-gigasite---phase-1"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Phase 1 is government-inventory-listed under construction and a state tax incentive was awarded; expansion remains proposed. Power-on and final CUP/building records were not located.",
+      "new_value": "site work-construction with local CUP approval confirmed for the data-center/electrical-generation use; related solar CUP remains local process/pending in reviewed records; no energization/live-service proof located.",
+      "source_url": "https://millardcounty.gov/wp-content/uploads/2025/08/25-0701.pdf"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 220,
+      "source_url": "https://www.businesswire.com/news/home/20260723531990/en/Creekstone-Energy-Secures-43000-DthDay-of-Firm-Kern-River-Natural-Gas-Capacity-for-Its-Delta-AI-Campus",
+      "note": "Recorded as the first-block/Phase 1 behind-the-meter generation capacity; full campus capacity remains a proposed >10 GW buildout claim, not current energized IT load."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Creekstone Energy LLC (project sponsor/developer); Fibernet Mercury Delta, LLC was the local CUP applicant for Z-2025-035",
+      "source_url": "https://business.utah.gov/tax-credits/creekstone-energy-llc-commits-17-billion-to-millard-county-data-center-project/"
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -10,10 +10,17 @@
   "location": {
     "city": "Port Washington",
     "county": "Ozaukee",
-    "state": "WI"
+    "state": "WI",
+    "site_description": "Lighthouse campus on 672 acres of previously agricultural land about 1 mile inland from Lake Michigan; DNR says Vantage owns 1,644 acres total.",
+    "coordinates": {
+      "latitude": 43.430735,
+      "longitude": -87.861494,
+      "source": "Wisconsin DNR air-permit hearing notice for Vantage WI-1"
+    }
   },
   "phase3_stable_id": "WI-PORT-WASHINGTON-VANTAGE-LIGHTHOUSE",
-  "status_as_of_cutoff": "Locally approved and in site-preparation/construction stage; DNR air permits found; no power-on or full-campus completion found.",
+  "status_as_of_cutoff": "Site work/construction remains supported by official and operator sources; DNR wetlands, stormwater, and air permits/approvals found. Associated PSC transmission docket 137-CE-221 is unsettled after an Aug. 6, 2026 PSC statement reported revocation of the completeness determination and closure of the docket pending any new application. No power-on, occupancy, or full-campus completion found as of 2026-08-11.",
+  "evidence_grade": "A- for official permitting/site status and PSC/DATCP interconnection context; B for operator-published capacity and customer/job claims.",
   "actions": [
     {
       "date": "2025-08-19",
@@ -52,6 +59,18 @@
       "evidence_note": "Tax/infrastructure framework separated from construction authorization."
     },
     {
+      "date": "2025-12-11",
+      "date_precision": "day",
+      "government_body": "Wisconsin Department of Natural Resources",
+      "action_type": "wetland exemption determinations and stormwater permit coverage",
+      "result_status": "DNR project page says nonfederal wetland exemption determinations were granted for project areas 1 and 2 and laydown area 3, and stormwater permit coverage was conveyed for project areas 1 and 2 and laydown areas 1, 2, and 3.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Storm Water Runoff General Permit No. WI-S067831-6",
+      "primary_url": "https://dnr.wisconsin.gov/topic/EIA/Portwashington.html",
+      "access_caveat": "Environmental permits/coverage do not establish building completion, energization, or occupancy.",
+      "evidence_note": "Official DNR permitting status added in 2026-08-11 refresh."
+    },
+    {
       "date": "2025-12-12",
       "date_precision": "day",
       "government_body": "City of Port Washington / Wisconsin permitting authorities",
@@ -64,20 +83,56 @@
       "evidence_note": "Official construction/site-preparation status with scope limitation."
     },
     {
+      "date": "2026-03-30",
+      "date_precision": "day",
+      "government_body": "Vantage Data Centers",
+      "action_type": "operator career/hiring update",
+      "result_status": "Vantage blog says a two-day career expo supported Lighthouse construction and long-term hiring; it describes Lighthouse as a 902 MW development supporting Stargate expansion for Oracle and OpenAI, with about $15 billion investment, up to 4,000 peak construction jobs, and about 1,000 long-term positions once fully operational.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://blog.vantage-dc.com/2026/03/30/vantage-data-centers-and-partners-host-career-expo-in-port-washington-wisconsin-to-connect-local-talent-with-lighthouse-opportunities/",
+      "access_caveat": "Operator/source-of-interest claims; used for capacity and hiring context, not as proof of energization.",
+      "evidence_note": "Operator milestone added in 2026-08-11 refresh."
+    },
+    {
       "date": "2026-06-12",
       "date_precision": "day",
       "government_body": "Wisconsin Department of Natural Resources",
       "action_type": "air construction/operation permits",
-      "result_status": "Wisconsin DNR's Port Washington environmental-review page identifies air construction and operation permits for the project generators. Environmental permits do not establish CO or energization.",
+      "result_status": "Wisconsin DNR's Port Washington environmental-review page says DNR issued minor source air pollution control construction permit 25-MIN-094 and initial operation permit 24618528A-F01 for 45 diesel-fired emergency generators.",
       "vote_tally": null,
-      "case_or_ordinance_permit_number": null,
+      "case_or_ordinance_permit_number": "25-MIN-094; 24618528A-F01; FID 246185280",
       "primary_url": "https://dnr.wisconsin.gov/topic/EIA/Portwashington.html",
       "access_caveat": "DNR environmental page; permit files and facility commissioning were not treated as implied.",
       "evidence_note": "State environmental action."
+    },
+    {
+      "date": "2026-06-16",
+      "date_precision": "day",
+      "government_body": "Wisconsin Department of Agriculture, Trade and Consumer Protection",
+      "action_type": "Agricultural Impact Statement for related transmission project",
+      "result_status": "DATCP lists AIS #4675 for the Ozaukee County Distribution Interconnection Project, notes the data center is being developed by Vantage Data Centers Management Company, LLC, and says the data center itself is not part of or analyzed in AIS 4675. DATCP lists property acquisition and construction starts as Winter 2026 and project in-service as December 2027 for the transmission project.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DATCP #4675; PSC docket 137-CE-221",
+      "primary_url": "https://datcp.wi.gov/Pages/Programs_Services/AISElectricProjects.aspx",
+      "access_caveat": "Transmission/AIS schedule is for the utility project, not for data-center building completion.",
+      "evidence_note": "Official agricultural-impact and schedule context added in 2026-08-11 refresh."
+    },
+    {
+      "date": "2026-08-06",
+      "date_precision": "day",
+      "government_body": "Public Service Commission of Wisconsin",
+      "action_type": "transmission-docket completeness determination reportedly revoked",
+      "result_status": "A PSC statement reproduced in public reporting says the Commission unanimously revoked the completeness determination for ATC's Ozaukee County Distribution Interconnection Project application, deemed the application incomplete due to substantial changes, terminated the December 2025 statutory deadline, closed docket 137-CE-221, and cancelled August 18-19 public hearings. The statement says the decision is not a denial and a new CPCN application may be filed in a new docket.",
+      "vote_tally": "unanimous",
+      "case_or_ordinance_permit_number": "PSC docket 137-CE-221",
+      "primary_url": "https://wtmj.com/wp-content/uploads/2026/08/08.06.26PressRelease.pdf",
+      "access_caveat": "PSC project page viewed during refresh still described the application as complete/pending; final PSC order was not found. Treat as current reported PSC statement until final order/project page alignment is verified.",
+      "evidence_note": "Power-delivery docket uncertainty added in 2026-08-11 refresh."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 902,
+  "owner": "Vantage Data Centers Management Company, LLC",
   "sources": {
     "phase3_stable_id": "WI-PORT-WASHINGTON-VANTAGE-LIGHTHOUSE",
     "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
@@ -87,9 +142,29 @@
       "US-WI-STARGATE-PORT-WASHINGTON-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://www.portwashingtonwi.gov/Home/Components/News/News/553/15",
+      "https://www.portwashingtonwi.gov/departments/public-works/engineering",
+      "https://dnr.wisconsin.gov/topic/EIA/Portwashington.html",
+      "https://dnr.wisconsin.gov/calendar/hearing/118441",
+      "https://psc.wi.gov/Pages/CommissionActions/CasePages/OzaukeeTransmission.aspx",
+      "https://datcp.wi.gov/Pages/Programs_Services/AISElectricProjects.aspx",
+      "https://www.atcllc.com/project/ozaukee-county-distribution-interconnection/",
+      "https://vantage-dc.com/data-center-locations/north-america/port-washington-wisconsin",
+      "https://vantage-dc.com/data-center-locations/north-america/",
+      "https://blog.vantage-dc.com/2026/03/30/vantage-data-centers-and-partners-host-career-expo-in-port-washington-wisconsin-to-connect-local-talent-with-lighthouse-opportunities/",
+      "https://portdatacenter.com/faq/",
+      "https://wtmj.com/wp-content/uploads/2026/08/08.06.26PressRelease.pdf"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "as_of": "2026-08-11",
+      "topic": "PSC docket 137-CE-221 status",
+      "details": "PSC's public project page still said the application was found complete in December 2025 and may receive a decision by December 2026, while an August 6, 2026 PSC statement reproduced in public reporting says the Commission revoked completeness, deemed the application incomplete, closed the docket, and cancelled the August hearings. Final PSC order not located during refresh."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

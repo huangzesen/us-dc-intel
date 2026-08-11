@@ -16,7 +16,8 @@
     "state": "SC"
   },
   "phase3_stable_id": "SC-002",
-  "status_as_of_cutoff": "State announced two new Dorchester County campuses in September 2024. PSC records show separate 230-kV transmission-line certificates in Dorchester County in February 2026, but the accessible order title does not identify Google as the customer; no building permit, CO, commissioning, or live-service evidence was located.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11. Dorchester County and Dorchester County Economic Development identify Google's two Dorchester County data center campuses at Pine Hill Business Campus in Ridgeville and Winding Woods Commerce Park in St. George, and local economic-development notices say Google broke ground on both campuses on 2024-09-26 and that the projects were under active construction on 2025-10-13. Google's October 13, 2025 company post says its $9 billion South Carolina investment supports continued construction of two Dorchester County sites. SCPSC/Santee Cooper records show 230-kV transmission approvals for an unnamed industrial data-center consumer in Dorchester County; those utility records support data-center load development but do not independently name Google or prove energization. No certificate of occupancy, commissioning, or live-service evidence was located in this refresh.",
+  "evidence_grade": "B - official/company and county economic-development sources confirm Google site work/construction; utility approvals support related data-center load, but public PSC records reviewed do not name Google and no energization/live-service proof was located.",
   "actions": [
     {
       "date": "2024-09-26",
@@ -29,6 +30,31 @@
       "primary_url": "https://governor.sc.gov/news/2024-09/google-grows-south-carolina-footprint-new-dorchester-county-operations-expansion",
       "access_caveat": "Announcement is not local zoning, building, environmental, or utility approval.",
       "evidence_note": "State/company announcement kept separate from government permits."
+    },
+    {
+      "date": "2024-09-26",
+      "date_precision": "day",
+      "government_body": "Dorchester County Economic Development",
+      "action_type": "local economic-development / groundbreaking announcement",
+      "result_status": "Dorchester County Economic Development reported that Google broke ground on two new Dorchester County data center campuses, representing a $2 billion investment, at Pine Hill Business Campus in Ridgeville and Winding Woods Commerce Park in St. George; the notice also reported 200 new Dorchester County jobs and approximately 1,200 long-term construction jobs.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.dorchesterforbusiness.com/news/google_breaks_ground/",
+      "access_caveat": "Economic-development notice confirms groundbreaking/site work but is not a building permit, certificate of occupancy, or energization record.",
+      "evidence_note": "Supports status upgrade from announced/local process to site work-construction."
+    },
+    {
+      "date": "2025-10-13",
+      "date_precision": "day",
+      "government_body": "Dorchester County Economic Development / Google company announcement",
+      "action_type": "company investment update / construction status",
+      "result_status": "Dorchester County Economic Development said Google's two Dorchester County data center campus projects were under active construction, and Google's company post said a new $9 billion South Carolina investment through 2027 would support continued construction of two Dorchester County sites.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.dorchesterforbusiness.com/news/google-expands-investment-in-dorchester-county/",
+      "secondary_url": "https://blog.google/company-news/inside-google/company-announcements/google-american-innovation-south-carolina/",
+      "access_caveat": "Investment/construction update; not a permit, CO, or energization record.",
+      "evidence_note": "Confirms construction remained active after the 2024 groundbreaking."
     },
     {
       "date": "2025-10-03",
@@ -45,6 +71,19 @@
     {
       "date": "2026-02-13",
       "date_precision": "day",
+      "government_body": "South Carolina Public Service Commission / Santee Cooper",
+      "action_type": "utility / transmission certificate",
+      "result_status": "PSC Order 2026-83 in Docket 2025-274-E granted Santee Cooper a CECPCN for the Indian Field-Sugar Hill #1 and #2 230-kV lines and a new Sugar Hill 230-kV Substation in Dorchester County. The order states the project will support electrical service for an industrial data-center consumer of Edisto Electric Cooperative and notes anticipated construction beginning in May 2026, with earlier clearing authorized.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Docket 2025-274-E; Order 2026-83",
+      "primary_url": "https://dms.psc.sc.gov/Attachments/Order/8c25e9a0-9094-4fe4-ba5a-402d2c54b8e1",
+      "secondary_url": "https://www.santeecooper.com/Rates/Rate-Study/_pdfs/RatesDocuments2026/Generation-Transmission-and-Distribution-Report.pdf",
+      "access_caveat": "Official utility order identifies an industrial data-center consumer but not Google by name; it is utility infrastructure authorization, not a data-center building permit or energization proof.",
+      "evidence_note": "Supports Dorchester County data-center load development while keeping customer attribution separate."
+    },
+    {
+      "date": "2026-02-13",
+      "date_precision": "day",
       "government_body": "South Carolina Public Service Commission",
       "action_type": "utility / transmission certificate",
       "result_status": "PSC order 2026-84 granted a Certificate of Environmental Compatibility and Public Convenience and Necessity for two radial 230-kV lines and associated facilities in Dorchester County. The order title does not identify Google; it is not a data-center building permit or proof of energization.",
@@ -53,10 +92,22 @@
       "primary_url": "https://dms.psc.sc.gov/Web/Orders",
       "access_caveat": "Order index is official; customer/project-specific attachment attribution to Google was not established from the accessible title.",
       "evidence_note": "Utility infrastructure approval kept separate from land-use/building approval."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Dorchester County Government",
+      "action_type": "county data-center fact sheet / utility-service context",
+      "result_status": "County fact sheet identifies the Pine Hill Business Campus and Winding Woods Commerce Park Google data centers, says they are being built in phases, describes planned/supplied water sources for each site, and states the facilities will bring 200 full-time jobs and 1,200 long-term construction jobs.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.dorchestercountysc.gov/business/data-center-fact-sheet",
+      "access_caveat": "Fact sheet is an official county public-information page, not a permit ledger or CO/energization record.",
+      "evidence_note": "Confirms current county view of phased construction and local utility-service context."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google LLC",
   "sources": {
     "phase3_stable_id": "SC-002",
     "phase3_source_file": "phase3/county_ga_nc_sc.json",
@@ -64,9 +115,38 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://www.dorchestercountysc.gov/business/data-center-fact-sheet",
+      "https://www.dorchesterforbusiness.com/news/google_breaks_ground/",
+      "https://www.dorchesterforbusiness.com/news/google-expands-investment-in-dorchester-county/",
+      "https://blog.google/company-news/inside-google/company-announcements/google-american-innovation-south-carolina/",
+      "https://datacenters.google/locations/south-carolina/",
+      "https://governor.sc.gov/news/2024-09/google-grows-south-carolina-footprint-new-dorchester-county-operations-expansion",
+      "https://dms.psc.sc.gov/Web/Dockets/Detail/119515",
+      "https://dms.psc.sc.gov/Web/Dockets/Detail/119516",
+      "https://dms.psc.sc.gov/Attachments/Order/8c25e9a0-9094-4fe4-ba5a-402d2c54b8e1",
+      "https://www.santeecooper.com/Rates/Rate-Study/_pdfs/RatesDocuments2026/Generation-Transmission-and-Distribution-Report.pdf"
+    ],
+    "last_refreshed": "2026-08-11"
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "prior_value": "State announced two new Dorchester County campuses in September 2024. PSC records show separate 230-kV transmission-line certificates in Dorchester County in February 2026, but the accessible order title does not identify Google as the customer; no building permit, CO, commissioning, or live-service evidence was located.",
+      "new_value": "site work-construction as of 2026-08-11",
+      "reason": "Official/local economic-development and Google sources located during refresh confirm groundbreaking, active construction, and continued construction."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "prior_value": null,
+      "new_value": "Google LLC",
+      "reason": "State, county, local economic-development, and Google sources identify Google as the Dorchester County campus developer/operator."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

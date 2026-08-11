@@ -10,11 +10,37 @@
   "location": {
     "city": "Michigan City",
     "county": "La Porte",
-    "state": "IN"
+    "state": "IN",
+    "address": "402 Royal Road",
+    "parcel": "46-01-26-400-008.000-022",
+    "site_notes": "Former Federal-Mogul / ANCO windshield-wiper plant; city project page describes reuse of an existing 380,000-400,000 square-foot building on the long-vacant industrial site."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
+  "status_as_of_cutoff": "site work-construction",
+  "status_history": [
+    {
+      "as_of": "2026-07-16",
+      "status": null,
+      "reason": "Baseline record carried no independent status."
+    },
+    {
+      "as_of": "2026-08-11",
+      "status": "site work-construction",
+      "reason": "City-issued construction/remodel trade permits, IDEM records identifying site-preparation activity at the future Project Maize Data Center, and Google's project site confirming acquisition of the ongoing development."
+    }
+  ],
+  "evidence_grade": "A-",
   "actions": [
+    {
+      "date": "2025-09-02",
+      "body": "Michigan City Common Council",
+      "action_type": "local incentive/resolution approvals",
+      "exact_result_status": "Common Council approved four Project Maize-related resolutions after public presentations and discussion, moving the proposed $800 million data center project into the next development phase.",
+      "vote_tally": null,
+      "case_or_permit_number": "Project Maize resolutions including taxpayer agreement and tax-abatement resolutions",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2025/08/09-02-2025.pdf",
+      "access_caveat": "Official minutes and agenda materials identify the action; some secondary coverage summarizes the four-resolution package more directly."
+    },
     {
       "date": "2025-04-18",
       "body": "Sanitary District of Michigan City",
@@ -85,10 +111,110 @@
       "case_or_permit_number": "See exact permit numbers in result text",
       "primary_url": "https://michigancityin.gov/major-projects/phoenix-investors-project-maize/",
       "access_caveat": "This is an official index and the linked PDFs are public; the index does not supply a single consolidated permit register or final occupancy record."
+    },
+    {
+      "date": "2025-08-13",
+      "body": "Michigan City Department of Planning and Inspections",
+      "action_type": "electrical remodel permit",
+      "exact_result_status": "BP-25-1689 issued for exterior medium-voltage duct bank installation at 402 Royal Road.",
+      "vote_tally": null,
+      "case_or_permit_number": "BP-25-1689",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-1689-Electrical-MV-Duct.pdf",
+      "access_caveat": "Official permit package; it authorizes the listed work and requires inspections, but does not evidence final occupancy."
+    },
+    {
+      "date": "2025-11-05",
+      "body": "Michigan City Department of Planning and Inspections",
+      "action_type": "plumbing permit",
+      "exact_result_status": "BP-25-1839 issued for new plumbing systems supporting data center operations and office/kitchen fit-out.",
+      "vote_tally": null,
+      "case_or_permit_number": "BP-25-1839",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-1839-Plumbing.pdf",
+      "access_caveat": "Official permit package; it authorizes the listed work and requires inspections, but does not evidence final occupancy."
+    },
+    {
+      "date": "2025-11-14",
+      "body": "Michigan City Department of Planning and Inspections",
+      "action_type": "electrical fire-alarm permit",
+      "exact_result_status": "BP-25-2392 issued to install new fire alarm and preaction controls for Project Maize Data Center.",
+      "vote_tally": null,
+      "case_or_permit_number": "BP-25-2392",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-2392-Electrical-Fire-Alarm.pdf",
+      "access_caveat": "Official permit package; it authorizes the listed work and requires inspections, but does not evidence final occupancy."
+    },
+    {
+      "date": "2025-11-17",
+      "body": "Michigan City Department of Planning and Inspections",
+      "action_type": "fire-suppression plumbing permit",
+      "exact_result_status": "BP-25-2371 issued for new double-interlock pre-action systems, wet-pipe sprinkler work for the pump house, fire pumps, and a 481,400 usable-gallon fire-water storage tank, with the permit text referencing Google specifications.",
+      "vote_tally": null,
+      "case_or_permit_number": "BP-25-2371",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-2371-Plumbing-Fire-Suppression.pdf",
+      "access_caveat": "Official permit package; it authorizes the listed work and requires inspections, but does not evidence final occupancy."
+    },
+    {
+      "date": "2025-12-29",
+      "body": "Michigan City Department of Planning and Inspections",
+      "action_type": "HVAC ductwork permit",
+      "exact_result_status": "BP-25-2858 issued for installation of an air distribution system at 402 Royal Road.",
+      "vote_tally": null,
+      "case_or_permit_number": "BP-25-2858",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-2858-HVAC-ductwork.pdf",
+      "access_caveat": "Official permit package; it authorizes the listed work and requires inspections, but does not evidence final occupancy."
+    },
+    {
+      "date": "2026-02-16",
+      "body": "Michigan City Department of Planning and Inspections",
+      "action_type": "HVAC cooling permit",
+      "exact_result_status": "BP-25-2853 issued for approximately 40,000 linear feet of chilled-water piping and refrigerant piping for equipment cooling.",
+      "vote_tally": null,
+      "case_or_permit_number": "BP-25-2853",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-2853-HVAC-piping.pdf",
+      "access_caveat": "Official permit package; it authorizes the listed work and requires inspections, but does not evidence final occupancy."
+    },
+    {
+      "date": "2026-04-16",
+      "body": "Google / Michigan City Data Center project site",
+      "action_type": "owner/end-user announcement",
+      "exact_result_status": "Google announced acquisition of the ongoing Project Maize data-center development in Michigan City, Indiana.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.michigancitydatacenter.com/",
+      "access_caveat": "Project website identifies Google acquisition; city permit PDFs still list Phoenix Michigan City Industrial Investors LLC as property owner on issued permits."
+    },
+    {
+      "date": "2026-04-29",
+      "body": "Michigan City Department of Planning and Inspections",
+      "action_type": "electrical new-construction permit",
+      "exact_result_status": "BP-25-1820 issued for large-scale electrical infrastructure including service entrance equipment, transformers, switchgear, standby generators, distribution panels, feeders, and branch circuits to support data-center mechanical and IT loads.",
+      "vote_tally": null,
+      "case_or_permit_number": "BP-25-1820",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-1820-Electrical.pdf",
+      "access_caveat": "Official permit package; it authorizes the listed work and requires inspections, but does not evidence final occupancy or energization."
+    },
+    {
+      "date": "2026-05-29",
+      "body": "Michigan City Department of Planning and Inspections",
+      "action_type": "commercial mezzanine permit",
+      "exact_result_status": "BP-25-2852 issued for installation of structural steel for equipment mezzanines on all sides of the building.",
+      "vote_tally": null,
+      "case_or_permit_number": "BP-25-2852",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-2852-Class-1-Commercial-Mezzanines.pdf",
+      "access_caveat": "Official permit package; it authorizes the listed work and requires inspections, but does not evidence final occupancy."
+    },
+    {
+      "date": "2026-07-27",
+      "body": "Indiana Utility Regulatory Commission",
+      "action_type": "electric-service contract and PPA order",
+      "exact_result_status": "IURC Cause No. 46393 is listed as decided; the final order concerns NIPSCO, NIPSCO Generation LLC, a customer-specific contract with Data Center Customer #2, and a related PPA/alternative regulatory plans. Search-indexed order text states the Commission found the customer-specific contract and PPA just, reasonable, practicable, and in the public interest.",
+      "vote_tally": null,
+      "case_or_permit_number": "IURC Cause No. 46393; ord_46393_072726_.pdf",
+      "primary_url": "https://secure.in.gov/iurc/files/ord_46393_072726_.pdf",
+      "access_caveat": "Official order URL is indexed by search, but direct fetch returned 404 during this refresh; IURC portal docket search result lists Cause 46393 as decided."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google acquired the ongoing Project Maize development; city permit packages list Phoenix Michigan City Industrial Investors LLC as property owner for the 402 Royal Road permits.",
   "sources": {
     "phase3_stable_id": "IN-MICHIGAN-CITY-GOOGLE-MAIZE",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -98,9 +224,36 @@
       "US-IN-GOOGLE-MICHIGAN-CITY-2026"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://michigancityin.gov/major-projects/phoenix-investors-project-maize/",
+      "https://michigancityin.gov/major-projects/",
+      "https://www.michigancitydatacenter.com/",
+      "https://edcmc.com/google-acquires-data-center-collaborates-with-community/",
+      "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-1689-Electrical-MV-Duct.pdf",
+      "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-1839-Plumbing.pdf",
+      "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-2392-Electrical-Fire-Alarm.pdf",
+      "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-2371-Plumbing-Fire-Suppression.pdf",
+      "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-2858-HVAC-ductwork.pdf",
+      "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-2853-HVAC-piping.pdf",
+      "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-2852-Class-1-Commercial-Mezzanines.pdf",
+      "https://michigancityin.gov/wp-content/uploads/2026/06/BP-25-1820-Electrical.pdf",
+      "https://iurc.portal.in.gov/docketed-case-details/?id=d8c7f893-d039-f111-88b4-001dd80bcf22",
+      "https://secure.in.gov/iurc/files/ord_46393_072726_.pdf"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "as_of": "2026-08-11",
+      "topic": "owner versus permittee/property owner",
+      "details": "Google's project site and EDCMC report state Google acquired the ongoing Project Maize development in April 2026, while city permit packages issued through May 2026 continue to list Phoenix Michigan City Industrial Investors LLC as property owner. Treat Google as acquired project/end user and Phoenix as permit-listed property owner unless deed records or later permits confirm a formal title transfer."
+    },
+    {
+      "as_of": "2026-08-11",
+      "topic": "capacity_mw",
+      "details": "IURC Cause No. 46393 involves a customer-specific electric-service contract for Data Center Customer #2, but public snippets indicate the MW size is redacted or not accessible. No verified site MW is recorded."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

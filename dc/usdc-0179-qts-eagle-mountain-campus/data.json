@@ -8,11 +8,27 @@
   "location": {
     "city": "Eagle Mountain",
     "county": "Utah",
-    "state": "UT"
+    "state": "UT",
+    "site_context": "Official city releases place the campus just west of the existing Meta campus; Eagle Mountain RDA materials describe a roughly 193.196-acre project area west of Magnolia Road, east of 2000 East, and north of 1000 North.",
+    "event_location": "Utah public-notice record for the April 17, 2026 project milestone ceremony lists QTS SLC1 Substation, 1331 Virtual Drive, Eagle Mountain, UT 84005."
   },
   "phase3_stable_id": "US-UT-QTS-EAGLE-MOUNTAIN-2025",
-  "status_as_of_cutoff": "City records report resumed construction and a first-building topping-out; no power-on, CO, or service date was located.",
+  "status_layer": "site work-construction",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11. Eagle Mountain City reported the QTS campus broke ground in 2024, restarted construction on 2025-10-29 after an energy-infrastructure/resources delay, and held an April 17, 2026 topping-out milestone; QTS/Layton report work began in September 2025 with an official October 2025 groundbreaking and a third-building topping-out. No power-on, certificate of occupancy, utility energization, or service date was located.",
+  "evidence_grade": "B: official city and Utah public-notice records confirm location context, acreage/building-count context, construction restart, and milestone ceremony; company and industry sources corroborate construction and capacity, but no official CO, energization, live-load, or government MW record was found.",
   "actions": [
+    {
+      "date": "2024-10-29",
+      "date_precision": "day",
+      "government_body": "Eagle Mountain City",
+      "action_type": "city construction-start announcement",
+      "result_status": "The city reported that QTS, a colocation data-center builder/operator, recently broke ground on a new datacenter campus just west of the existing Meta campus. The release describes a multi-year construction effort but does not publish permit numbers, building count, MW capacity, or energization.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://eaglemountain.gov/qts-begins-construction-on-new-datacenter-campus-in-eagle-mountain/",
+      "access_caveat": "Official city announcement; not a building permit, inspection, CO, or proof of utility service.",
+      "evidence_note": "Used to establish official city construction-start context."
+    },
     {
       "date": "2025-10-29",
       "date_precision": "day",
@@ -26,11 +42,35 @@
       "evidence_note": "Body/context retained from prior file: Eagle Mountain City."
     },
     {
+      "date": "2026-04-15",
+      "date_precision": "day",
+      "government_body": "Utah Public Notice Website / Eagle Mountain City Council",
+      "action_type": "notice of possible quorum for project milestone ceremony",
+      "result_status": "Utah's public-notice record says a quorum of Eagle Mountain City Council may attend a QTS project milestone ceremony on April 17, 2026 at QTS SLC1 Substation, 1331 Virtual Drive, Eagle Mountain, UT 84005. The notice states no official city business would be conducted.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Utah PMN notice 1073183",
+      "primary_url": "https://www.utah.gov/pmn/sitemap/notice/1073183.html",
+      "access_caveat": "Public meeting notice confirms ceremony location/context only; it is not an approval, permit, CO, or energization record.",
+      "evidence_note": "Official local-government public-notice record."
+    },
+    {
       "date": "2026-04-17",
+      "date_precision": "day",
+      "government_body": "QTS Data Centers / Layton Construction",
+      "action_type": "company construction milestone / topping out",
+      "result_status": "QTS and Layton reported a topping-out milestone at the SLC1 campus in Eagle Mountain, describing it as the third building's topping-out, with work beginning in September 2025 and an official groundbreaking in October 2025.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://q.com/news/layton-construction-and-qts-data-centers-celebrate-topping-out-of-data-center-campus-in-eagle-mountain/",
+      "access_caveat": "Company/contractor release; not a government permit, CO, utility service, or live-load record.",
+      "evidence_note": "Corroborates active vertical construction but conflicts with the city release on whether the topped-out building was the first or third."
+    },
+    {
+      "date": "2026-04-20",
       "date_precision": "day",
       "government_body": "Eagle Mountain City",
       "action_type": "construction milestone / topping out",
-      "result_status": "City report says crews placed the final beam on the first QTS building on April 17, 2026; the first phase includes five buildings and interior work continued. Topping-out is not occupancy or energization.",
+      "result_status": "City report says crews placed the final beam on the first QTS building on April 17, 2026; the first phase includes five buildings across approximately 193 acres and interior work continued. Topping-out is not occupancy or energization.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://eaglemountain.gov/eagle-mountain-city-celebrates-major-milestone-with-qts-topping-out-ceremony/",
@@ -38,8 +78,9 @@
       "evidence_note": "Body/context retained from prior file: Eagle Mountain City / QTS / Layton Construction."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 650,
+  "capacity_note": "650 MW is a secondary/tracker-backed planned/nameplate figure: ServerCountry attributes 650 MW to the April 2026 Kem C. Gardner Policy Institute inventory for QTS Eagle Mountain II, and DataCenterMap lists plans for over 650 MW of critical power. No official city/county/utility MW figure was located in this refresh.",
+  "owner": "QTS Data Centers; Eagle Mountain RDA materials identify project-area parcel owners as QTS Eagle Mountain I LLC and QTS Eagle Mountain II LLC.",
   "sources": {
     "phase3_stable_id": "US-UT-QTS-EAGLE-MOUNTAIN-2025",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -47,9 +88,58 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://eaglemountain.gov/qts-begins-construction-on-new-datacenter-campus-in-eagle-mountain/",
+      "https://eaglemountain.gov/construction-restarts-on-qts-data-center-in-eagle-mountain/",
+      "https://www.utah.gov/pmn/sitemap/notice/1073183.html",
+      "https://eaglemountain.gov/eagle-mountain-city-celebrates-major-milestone-with-qts-topping-out-ceremony/",
+      "https://q.com/news/layton-construction-and-qts-data-centers-celebrate-topping-out-of-data-center-campus-in-eagle-mountain/",
+      "https://www.utah.gov/pmn/files/1003911.pdf",
+      "https://servercountry.org/data/projects/qts-eagle-mountain-data-center-campus-ut/",
+      "https://www.datacentermap.com/usa/utah/salt-lake-city/qts-eagle-mountain-ii/",
+      "https://www.heraldextra.com/news/2026/apr/20/eagle-mountain-193-acre-data-center-campus-is-set-to-be-done-this-year-with-big-water-promises/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "topping_out_building_sequence",
+      "summary": "Eagle Mountain City's April 20, 2026 article says the April 17 milestone placed the final beam on the first QTS building; QTS/Layton's April 17, 2026 release says the milestone was the third building topping out. Both are construction milestones and neither proves occupancy or energization.",
+      "sources": [
+        "https://eaglemountain.gov/eagle-mountain-city-celebrates-major-milestone-with-qts-topping-out-ceremony/",
+        "https://q.com/news/layton-construction-and-qts-data-centers-celebrate-topping-out-of-data-center-campus-in-eagle-mountain/"
+      ]
+    },
+    {
+      "field": "cooling_water_description",
+      "summary": "Eagle Mountain City's 2025 restart article describes a water-free cooling system that eliminates water from the cooling process, while the April 2026 city and QTS/Layton releases describe closed-loop cooling that does not consume water for cooling once operational. These are compatible directionally but use different wording and should not be converted into a precise water-use estimate.",
+      "sources": [
+        "https://eaglemountain.gov/construction-restarts-on-qts-data-center-in-eagle-mountain/",
+        "https://eaglemountain.gov/eagle-mountain-city-celebrates-major-milestone-with-qts-topping-out-ceremony/",
+        "https://q.com/news/layton-construction-and-qts-data-centers-celebrate-topping-out-of-data-center-campus-in-eagle-mountain/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "City records report resumed construction and a first-building topping-out; no power-on, CO, or service date was located.",
+      "new_value": "site work-construction as of 2026-08-11; official city and company records confirm active construction/topping-out milestone, with no CO, energization, or service-date evidence located."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 650
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "QTS Data Centers; parcel-owner entities QTS Eagle Mountain I LLC and QTS Eagle Mountain II LLC"
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

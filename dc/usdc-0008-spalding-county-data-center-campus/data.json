@@ -4,43 +4,127 @@
   "aliases": [
     "Proposed Spalding County data center campus",
     "Spalding County data-center campus",
+    "Wallace Jackson Data Center Campus",
+    "Wallace Jackson DC Campus",
     "undisclosed applicant campus"
   ],
   "location": {
-    "city": null,
+    "city": "Griffin",
     "county": "Spalding County",
-    "state": "GA"
+    "state": "GA",
+    "address": "5745 and 5841 Jackson Road",
+    "parcels": [
+      "216 01004",
+      "216 01004A"
+    ],
+    "land_lots": "Land Lots 25 and 40 of the 2nd District"
   },
   "phase3_stable_id": "GA-005",
-  "status_as_of_cutoff": "Applications were formally withdrawn according to Spalding County's official public notice so the proposal could later be considered by the full Board with more public participation. The earlier reported approval is not treated as a verified vote or current approval; no construction or permit evidence was located.",
+  "status_as_of_cutoff": "approved-permitted as of 2026-08-11: Wallace Jackson, LLC's local zoning, special-exception, and variance requests for a data center campus at 5745 and 5841 Jackson Road were approved by the Spalding County Board of Commissioners on 2026-01-22, and Georgia DCA DRI #4599 is listed as Completed with projected process completion date 2026-02-06. No construction, land-disturbance permit, building permit, energization, or MW value was verified.",
+  "evidence_grade": "official-local-government-plus-state-dri",
   "actions": [
     {
       "date": "2026-01-28",
       "date_precision": "day",
       "government_body": "Spalding County Board of Commissioners (reported by specialist press)",
       "action_type": "reported zoning/construction approval",
-      "result_status": "Specialist report said a $3.9 billion data center was approved for construction. The official approval packet, ordinance, vote tally, applicant identity, and permit were not located, so the reported claim is not treated as a verified vote.",
-      "vote_tally": "not published in official record located",
+      "result_status": "Specialist report said a $3.9 billion data center was approved for construction. The official county minutes now verify the underlying 2026-01-22 zoning, special-exception, and variance approvals, but no construction or building permit was verified.",
+      "vote_tally": "4-0 approval votes in official minutes; one commissioner absent",
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.datacenterdynamics.com/en/news/39bn-data-center-approved-for-construction-in-spalding-county-georgia/",
-      "access_caveat": "Press report only; later official county notice says the applications were withdrawn.",
-      "evidence_note": "Reported action contradicted/currently superseded by official withdrawal notice; no approval inferred."
+      "access_caveat": "Press wording says approved for construction; official county record supports zoning/special-exception/variance approvals, not a verified construction start.",
+      "evidence_note": "Use official minutes and DCA DRI as controlling evidence for status."
     },
     {
-      "date": "2026-06-25",
+      "date": "2026-01-06",
       "date_precision": "day",
-      "government_body": "Spalding County",
-      "action_type": "zoning / special exception / variance / future-land-use application withdrawal",
-      "result_status": "County public notice states the applicant formally withdrew its zoning, special-exception, variance, and future-land-use applications so the proposal could be considered by the full Board and receive additional public participation before possible resubmission.",
+      "government_body": "Georgia Department of Community Affairs",
+      "action_type": "DRI initial information submitted",
+      "result_status": "DCA DRI #4599 was submitted for Wallace Jackson Data Center Campus and determined to warrant regional review on 2026-01-06.",
       "vote_tally": null,
-      "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.spaldingcounty.com/?9b664d8c_page=2",
-      "access_caveat": "Notice does not identify the applicant or publish the withdrawn applications; resubmission was not verified by cutoff.",
-      "evidence_note": "Official withdrawal; not approval and not construction authorization."
+      "case_or_ordinance_permit_number": "DRI #4599",
+      "primary_url": "https://apps.dca.ga.gov/DRI/AppSummary.aspx?driid=4599",
+      "access_caveat": "State DRI process record; not a local building permit.",
+      "evidence_note": "Official state DRI source names Wallace Jackson Data Center Campus and Wallace Jackson, LLC."
+    },
+    {
+      "date": "2026-01-07",
+      "date_precision": "day",
+      "government_body": "Georgia Department of Community Affairs",
+      "action_type": "DRI additional information submitted",
+      "result_status": "Part 2 DRI form reports estimated build-out value of $3.65 billion, estimated annual local tax revenues of $51,656,260, 0.500 MGD water demand, 0.03 MGD sewage flow, 500 peak-hour vehicle trips, approximately 65% impervious surface, and a blank peak connected electrical load field.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DRI #4599",
+      "primary_url": "https://apps.dca.ga.gov/DRI/AdditionalForm.aspx?driid=4599",
+      "access_caveat": "Peak connected electrical load/MW is not populated in the accessible DRI form.",
+      "evidence_note": "Use this source for utility/environmental-demand fields, not capacity MW."
+    },
+    {
+      "date": "2026-01-22",
+      "date_precision": "day",
+      "government_body": "Spalding County Board of Commissioners",
+      "action_type": "variance approval",
+      "result_status": "Application 26-05V was conditionally approved for a variance against exclusion of data centers from S-2 Sensitive Land Watershed Protection Districts and S-4 Sensitive Land Wetlands Protection Districts.",
+      "vote_tally": "4-0; Clay Davis, James Dutton, Ryan Bowlden, and Reginald Watts voting for; Gwen Flowers-Taylor absent",
+      "case_or_ordinance_permit_number": "26-05V",
+      "primary_url": "https://spaldingcounty.granicus.com/services/minutes/reports/2d69ae66-43e5-432f-a21b-37e27a4105a1/attachment",
+      "access_caveat": "Minutes verify local approval; not evidence of building permit issuance.",
+      "evidence_note": "Official county minutes."
+    },
+    {
+      "date": "2026-01-22",
+      "date_precision": "day",
+      "government_body": "Spalding County Board of Commissioners",
+      "action_type": "rezoning approval",
+      "result_status": "Application 25-29Z was approved with listed and additional conditions to rezone 5745 and 5841 Jackson Road from C-2 (Manufacturing) to C-1C (Manufacturing - Light) for a data center campus.",
+      "vote_tally": "4-0; Clay Davis, James Dutton, Ryan Bowlden, and Reginald Watts voting for; Gwen Flowers-Taylor absent",
+      "case_or_ordinance_permit_number": "25-29Z",
+      "primary_url": "https://spaldingcounty.granicus.com/services/minutes/reports/2d69ae66-43e5-432f-a21b-37e27a4105a1/attachment",
+      "access_caveat": "Minutes verify local approval; not evidence of building permit issuance.",
+      "evidence_note": "Official county minutes."
+    },
+    {
+      "date": "2026-01-22",
+      "date_precision": "day",
+      "government_body": "Spalding County Board of Commissioners",
+      "action_type": "special exception approval",
+      "result_status": "Application 25-17S was approved with listed and additional conditions for a data center campus.",
+      "vote_tally": "4-0; Clay Davis, James Dutton, Ryan Bowlden, and Reginald Watts voting for; Gwen Flowers-Taylor absent",
+      "case_or_ordinance_permit_number": "25-17S",
+      "primary_url": "https://spaldingcounty.granicus.com/services/minutes/reports/2d69ae66-43e5-432f-a21b-37e27a4105a1/attachment",
+      "access_caveat": "Minutes verify local approval; not evidence of building permit issuance.",
+      "evidence_note": "Official county minutes."
+    },
+    {
+      "date": "2026-02-06",
+      "date_precision": "day",
+      "government_body": "Georgia Department of Community Affairs",
+      "action_type": "DRI process completion",
+      "result_status": "DCA application summary lists Wallace Jackson Data Center Campus as Completed with a projected process completion date of 2026-02-06.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DRI #4599",
+      "primary_url": "https://apps.dca.ga.gov/DRI/AppSummary.aspx?driid=4599",
+      "access_caveat": "DRI completion is not a construction or building permit.",
+      "evidence_note": "Official state DRI source."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "project_size": {
+    "site_acres": 189.64,
+    "buildings": 10,
+    "square_feet": 4986000,
+    "estimated_buildout_value_usd": 3650000000,
+    "estimated_completion": "2035",
+    "source_url": "https://apps.dca.ga.gov/DRI/InitialForm.aspx?driid=4599"
+  },
+  "utility_demand": {
+    "water_mgd": 0.5,
+    "wastewater_mgd": 0.03,
+    "peak_connected_electrical_load_mw": null,
+    "energy_load_note": "DCA Part 2 form asks for peak connected electrical load in MW but the accessible field is blank.",
+    "source_url": "https://apps.dca.ga.gov/DRI/AdditionalForm.aspx?driid=4599"
+  },
+  "owner": "Wallace Jackson, LLC",
   "sources": {
     "phase3_stable_id": "GA-005",
     "phase3_source_file": "phase3/county_ga_nc_sc.json",
@@ -48,9 +132,51 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_urls": [
+      "https://apps.dca.ga.gov/DRI/AppSummary.aspx?driid=4599",
+      "https://apps.dca.ga.gov/DRI/InitialForm.aspx?driid=4599",
+      "https://apps.dca.ga.gov/DRI/AdditionalForm.aspx?driid=4599",
+      "https://spaldingcounty.granicus.com/ViewPublisher.php?view_id=1",
+      "https://spaldingcounty.granicus.com/services/minutes/reports/2d69ae66-43e5-432f-a21b-37e27a4105a1/attachment",
+      "https://d3n9y02raazwpg.cloudfront.net/spaldingcounty/0f45f208-eef9-11ef-a9e2-005056a89546-77d9b40e-9436-4527-a290-67656428380e-1768579910.pdf",
+      "https://www.spaldingcounty.com/",
+      "https://www.datacenterdynamics.com/en/news/39bn-data-center-approved-for-construction-in-spalding-county-georgia/",
+      "https://www.datacenterdynamics.com/en/news/application-filed-for-5-million-sq-ft-data-center-campus-outside-atlanta-georgia/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date_identified": "2026-08-11",
+      "topic": "withdrawal notice previously treated as current status",
+      "description": "The Spalding County homepage withdrawal notice and 2026-06-25/2026-07-23 agendas correspond to LBM Associates applications 26-01FLUM, 26-01Z, 26-01S, and 26-07V for 0 Tomochichi Road / 1221 Tomochichi Road, not Wallace Jackson, LLC's 5745/5841 Jackson Road campus.",
+      "status": "resolved_as_unrelated_to_this_project",
+      "sources": [
+        "https://www.spaldingcounty.com/",
+        "https://d3n9y02raazwpg.cloudfront.net/spaldingcounty/14550c5b-dab6-11f0-bb28-005056a89546-bf4b5c2c-51a9-43b2-9505-24b47f2ffe9b-1782329739.pdf",
+        "https://d3n9y02raazwpg.cloudfront.net/spaldingcounty/34e189d3-dab6-11f0-bb28-005056a89546-bf4b5c2c-51a9-43b2-9505-24b47f2ffe9b-1784752334.pdf"
+      ]
+    },
+    {
+      "date_identified": "2026-08-11",
+      "topic": "construction language",
+      "description": "Industry/local press describes the project as approved for construction, while official records verified here show zoning, special exception, variance, and DRI completion only. No building permit, land-disturbance permit, construction start, or energization evidence was located.",
+      "status": "open_caution",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/39bn-data-center-approved-for-construction-in-spalding-county-georgia/",
+        "https://spaldingcounty.granicus.com/services/minutes/reports/2d69ae66-43e5-432f-a21b-37e27a4105a1/attachment",
+        "https://apps.dca.ga.gov/DRI/AppSummary.aspx?driid=4599"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "field": "status_as_of_cutoff",
+      "old_value": "Applications were formally withdrawn according to Spalding County's official public notice so the proposal could later be considered by the full Board with more public participation. The earlier reported approval is not treated as a verified vote or current approval; no construction or permit evidence was located.",
+      "reason_for_change": "2026-08-11 refresh found official county minutes and DCA DRI records for Wallace Jackson; the later withdrawal notice relates to the separate LBM Associates / Tomochichi Road data-center proposal."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

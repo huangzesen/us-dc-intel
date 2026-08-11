@@ -3,18 +3,88 @@
   "canonical_project": "DC Blox Thunderbird Commerce Center Indianapolis campus",
   "owner": "DC Blox",
   "location": {
+    "address": "305 Fintail Drive",
     "city": "Indianapolis",
     "county": "Marion",
-    "state": "Indiana"
+    "state": "Indiana",
+    "postal_code": "46219",
+    "setting": "Thunderbird Commerce Center, Warren Township; former Ford/Visteon industrial site"
   },
   "capacity_mw": null,
-  "status": "greenlit by local authorities; scaled-back two-building plan",
+  "capacity_note": "Revised remaining critical IT load is not disclosed in reviewed public sources. DC BLOX says the redesign reduced critical IT load by 28 MW; third-party sources cite 78 MW for the earlier three-building proposal, but this was not carried forward as the revised capacity.",
+  "status": "approved-permitted",
+  "status_detail": "Indianapolis MDC records show amended variance 2026-CVR-815 and subdivision plat 2026-CPL-815 for a two-building data center campus were on the July 15, 2026 public-hearing agenda after remonstrator appeal; local reporting says the full MDC approved the project 6-1 that day. No evidence found of building permit release, site work, energization, or operations.",
   "confidence": "high",
-  "evidence_date": "2026-07-20",
+  "evidence_date": "2026-08-11",
+  "project_scope": {
+    "site_acres": 32.406,
+    "approved_buildings": 2,
+    "approved_square_feet": 330000,
+    "owner_plan_buildings": [
+      {
+        "name": "Building 1",
+        "floors": 1,
+        "approx_square_feet": 70000,
+        "phase": 1,
+        "timeline_note": "Construction to begin immediately upon variance and replat approval; expected completion within 24 months."
+      },
+      {
+        "name": "Building 2",
+        "floors": 2,
+        "approx_square_feet": 250000,
+        "phase": 2,
+        "timeline_note": "Likely begin construction in three years and be completed in five years."
+      }
+    ],
+    "existing_substation_acres": 2.4,
+    "maximum_generators": 31,
+    "capital_investment_usd": "1.8-2.0 billion"
+  },
   "sources": [
-    "https://www.datacenterdynamics.com/en/news/dc-blox-data-center-campus-greenlit-in-indianapolis-indiana/"
+    "https://meetings.municode.com/adaHtmlDocument/index?cc=INDYMARION&ip=True&me=96d0f968162d4d1cb289fc6afd34f564",
+    "https://indianapolis.granicus.com/player/clip/26073?caption_id=6706077&view_id=3&redirect=true",
+    "https://indianapolis-in.municodemeetings.com/sites/indianapolis-in.municodemeetings.com/files/fileattachments/mdc_hearing_examiner/meeting/5420/6-11-2026_he_meeting_results.pdf",
+    "https://www.dcblox.com/indianapolisdatacenter/",
+    "https://www.dcblox.com/wp-content/uploads/2026/07/Plan-of-Operation-7.14.26.pdf",
+    "https://www.dcblox.com/wp-content/uploads/2026/07/EXHIBIT-D-MDC-2026-CVR-815-7.16.26-FINAL.pdf",
+    "https://www.datacenterdynamics.com/en/news/dc-blox-data-center-campus-greenlit-in-indianapolis-indiana/",
+    "https://mirrorindy.org/dc-blox-data-center-irvington-east-side-indianapolis-metropolitan-development-commission/",
+    "https://www.axios.com/local/indianapolis/2026/08/10/budget-data-centers-and-road-funding-on-council-agenda"
   ],
   "why_not_in_baseline": "Recently greenlit infill/commerce-center campus in Indianapolis; baseline names/aliases did not include DC Blox or Thunderbird Commerce Center.",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "old": "greenlit by local authorities; scaled-back two-building plan",
+      "new": "approved-permitted",
+      "reason": "Normalized to baseline status layer after confirming the amended petition in Indianapolis MDC records and final approval in local reporting."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old": null,
+      "new": null,
+      "reason": "Kept null because public sources reviewed disclose only a 28 MW reduction from the prior design, not the revised remaining MW."
+    }
+  ],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "building count and square footage",
+      "details": "Earlier official materials and trackers describe up to three buildings / about 420,000 square feet. The July 15 MDC agenda and DC BLOX July 14 plan describe the amended two-building plan / up to 330,000 square feet; the revised plan is treated as current."
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "capacity",
+      "details": "Third-party sources cite 78 MW for the earlier proposal and DC BLOX says the redesign reduced critical IT load by 28 MW. No reviewed official source states the revised remaining critical IT load, so capacity_mw remains null."
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "appeal risk",
+      "details": "Local reporting says opponents were preparing or hiring counsel for judicial review after the July 15 approval. No official court docket or final appeal disposition was verified in this refresh."
+    }
+  ],
   "discovery_file": "candidates-secondary-markets.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

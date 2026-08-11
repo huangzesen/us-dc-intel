@@ -7,13 +7,67 @@
   "location": {
     "city": "Niagara Falls",
     "county": "Niagara",
-    "state": "NY"
+    "state": "NY",
+    "address": "5380 Frontier Ave",
+    "parcel": "SBL 160.14-1-1.2",
+    "acreage": 4.61
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "partial live",
+  "evidence_grade": "B",
+  "status_detail": {
+    "as_of": "2026-08-11",
+    "current_operations": "Company/SEC disclosures describe the Niagara Facility as energized and operating at approximately 46-50 MW; public land-use records show local SEQR/zoning process activity for continued/expanded data-center use.",
+    "planned_expansion": "Company disclosures describe a transition to more than 100 MW Tier 3 capacity and a non-binding 300 MW anchor-lease LOI; NYSRC queue materials list a separate 500 MW large-load interconnection request.",
+    "status_basis": "Existing energized load supports partial live. Expansion remains local process/interconnection queue/announced until definitive permits, construction, or interconnection milestones are independently confirmed."
+  },
+  "actions": [
+    {
+      "date": "2024-04-10",
+      "government_body": "New York State Department of Environmental Conservation / City of Niagara Falls City Council",
+      "action_type": "notice_of_availability_draft_scope",
+      "result_status": "Draft scope available for SEQR review",
+      "source_url": "https://dec.ny.gov/news/environmental-notice-bulletin/2024-04-10/seqr/city-of-niagara-falls-north-east-data-llc-data-center-blockfusion"
+    },
+    {
+      "date": "2025-02-05",
+      "government_body": "City of Niagara Falls City Council",
+      "action_type": "deis_acceptance_public_comment",
+      "result_status": "DEIS accepted and opened for 30-day public comment according to public notice",
+      "source_url": "https://marketplace.niagara-gazette.com/default/public-notices/on-february-5-2025-the-city-/AC1E05F10541500648baB99DA225"
+    },
+    {
+      "date": "2025-03-19",
+      "government_body": "City of Niagara Falls Planning Board",
+      "action_type": "public_hearing_set",
+      "result_status": "Planning Board agenda listed public hearing to create a High Energy Usage Overlay District for 5380 Frontier Avenue",
+      "source_url": "https://cms3.revize.com/revize/niagarafallsny/Documents/Government/Department/Planning%20And%20Environmental/Planning%20Board/2025/Updated%20Final%20Agenda%2020250319.pdf"
+    },
+    {
+      "date": "2025-07-23",
+      "government_body": "City of Niagara Falls City Council",
+      "action_type": "final_environmental_impact_statement",
+      "result_status": "Resolution relative to issuing a Final Environmental Impact Statement adopted 5-0",
+      "source_url": "https://cms3.revize.com/revize/niagarafallsny/Documents/Government/City%20Council/2025/0723/0%20-%20VOTE%20SHEET%20for%20REGULAR%20MTG%207.23.25.pdf"
+    },
+    {
+      "date": "2025-08-29",
+      "government_body": "NYISO / NYSRC",
+      "action_type": "large_load_interconnection_request",
+      "result_status": "Queue position 1741 listed for North East Data LLC Data Center, 500 MW, 230 kV lines 77 and 78, utility NM-NG, last update 2026-06-30, in-service date 2027-05",
+      "source_url": "https://www.nysrc.org/wp-content/uploads/2026/07/8.1-DER-Report-July-2026-for-NYSRC-Exec-Committee-Attachment-8.1.pdf"
+    }
+  ],
+  "capacity_mw": {
+    "current_energized_mw": 46,
+    "current_operating_mw_alt": 50,
+    "planned_tier3_mw": 100,
+    "anchor_lease_loi_mw": 300,
+    "anchor_lease_take_or_pay_mw": 85,
+    "interconnection_queue_mw": 500,
+    "notes": "Use 46-50 MW as current energized/operating capacity; treat 100+ MW, 300 MW, 85 MW take-or-pay, and 500 MW as distinct planned/LOI/queue figures, not confirmed built capacity."
+  },
+  "owner": "North East Data LLC (Blockfusion USA, Inc. subsidiary)",
   "sources": {
     "phase3_stable_id": "US-NY-NORTH-EAST-DATA-NIAGARA-2023",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -21,9 +75,48 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_local_gov": [
+      "https://niagaracounty.prosgar.com/PROSParcel/Parcel/16265?swis=291100",
+      "https://dec.ny.gov/news/environmental-notice-bulletin/2024-04-10/seqr/city-of-niagara-falls-north-east-data-llc-data-center-blockfusion",
+      "https://cms3.revize.com/revize/niagarafallsny/Documents/Government/Department/Planning%20And%20Environmental/Planning%20Board/2025/Updated%20Final%20Agenda%2020250319.pdf",
+      "https://cms3.revize.com/revize/niagarafallsny/Documents/Government/City%20Council/2025/0723/0%20-%20VOTE%20SHEET%20for%20REGULAR%20MTG%207.23.25.pdf"
+    ],
+    "grid": [
+      "https://www.nysrc.org/wp-content/uploads/2026/07/8.1-DER-Report-July-2026-for-NYSRC-Exec-Committee-Attachment-8.1.pdf"
+    ],
+    "company_sec": [
+      "https://www.prnewswire.com/news-releases/blockfusion-owner-operator-of-a-strategically-located-clean-energy-powered-data-center-to-go-public-via-business-combination-with-blue-acquisition-corp-302620260.html",
+      "https://www.sec.gov/Archives/edgar/data/2059654/000118518525001796/baccex99-2.htm",
+      "https://www.sec.gov/Archives/edgar/data/2059654/000118518526002725/baccex99-1.htm",
+      "https://www.sec.gov/Archives/edgar/data/2059654/000118518526002723/baccex99-2.htm",
+      "https://www.sec.gov/Archives/edgar/data/1755953/000121390025002372/ea022691901ex10-3_gryphon.htm"
+    ],
+    "industry_media": [
+      "https://www.datacenterdynamics.com/en/news/cryptomine-data-center-firm-blockfusion-to-go-public-via-450-million-deal/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "description": "Sources report different capacity concepts: 46 MW currently energized/deployed, 50 MW operating in investor presentation/script, 100+ MW planned Tier 3 conversion, 300 MW non-binding anchor lease LOI, and 500 MW NYISO/NYSRC interconnection queue request.",
+      "resolution": "Record current capacity separately from planned/LOI/queue capacity; do not treat planned or queue MW as built capacity."
+    },
+    {
+      "field": "status",
+      "description": "Company disclosures describe energized/operating capacity and approved zoning, while local-government records found in this refresh document SEQR/HEU process steps rather than a full buildout permit or energization for the expansion.",
+      "resolution": "Classify as partial live for existing operations; classify expansion as local process/announced until local permit and construction evidence is found."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": null,
+      "capacity_mw": null,
+      "owner": null,
+      "note": "Baseline extraction had no independent status, capacity, or owner verification."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -10,13 +10,65 @@
   "location": {
     "city": "Berwick (postal locality; site municipality Salem Township)",
     "county": "Luzerne",
-    "state": "PA"
+    "state": "PA",
+    "municipality": "Salem Township",
+    "address": "1125 Electron Avenue, Salem Township, PA 18603-6655"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A-",
+  "actions": [
+    {
+      "date": "2024-09-12",
+      "government_body": "Susquehanna River Basin Commission",
+      "action_type": "water_consumptive_use_approval",
+      "result_status": "approved",
+      "details": "PHL100 Data Center Campus approved for consumptive use up to 0.060 mgd (30-day average).",
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2024-09-26/pdf/2024-21698.pdf"
+    },
+    {
+      "date": "2024-08-26",
+      "government_body": "Talen Energy",
+      "action_type": "development_milestone",
+      "result_status": "milestones_met",
+      "details": "Talen reported AWS campus development planning milestones were met, allowing development to 960 MW of power consumption.",
+      "source_url": "https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-announces-receipt-escrowed-funds-cumulus-data/"
+    },
+    {
+      "date": "2025-06-09",
+      "government_body": "Commonwealth of Pennsylvania / Amazon",
+      "action_type": "investment_announcement",
+      "result_status": "announced",
+      "details": "Amazon announced at least $20B for Pennsylvania AI/cloud infrastructure; Salem Township and Falls Township were the first identified campuses.",
+      "source_url": "https://www.aboutamazon.com/news/aws/amazon-pennsylvania-investment-cloud-infrastructure-ai-innovation"
+    },
+    {
+      "date": "2025-06-11",
+      "government_body": "Talen Energy",
+      "action_type": "power_purchase_agreement",
+      "result_status": "executed",
+      "details": "Expanded PPA for up to 1,920 MW through 2042, ramping to full volume no later than 2032; transition to front-of-the-meter expected after transmission reconfiguration.",
+      "source_url": "https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-expands-nuclear-energy-relationship-amazon/"
+    },
+    {
+      "date": "2026-03-12",
+      "government_body": "Susquehanna River Basin Commission",
+      "action_type": "water_consumptive_use_modification",
+      "result_status": "approved",
+      "details": "Modification approved to increase PHL100 Data Center Campus consumptive use to 0.129 mgd (30-day average), Docket No. 20240901.",
+      "source_url": "https://www.federalregister.gov/documents/2026/03/25/2026-05822/actions-taken-at-the-march-12-2026-meeting"
+    },
+    {
+      "date": "2026-04-30",
+      "government_body": "Talen Energy / SEC filing",
+      "action_type": "ppa_transition",
+      "result_status": "completed",
+      "details": "Talen disclosed the June 2025 revised AWS PPA transition occurred in April 2026.",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000036/tln-20260331.htm"
+    }
+  ],
+  "capacity_mw": 960,
+  "owner": "Amazon Data Services, Inc. / Amazon Web Services",
   "sources": {
     "phase3_stable_id": "US-PA-AWS-SUSQUEHANNA-2024",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -26,9 +78,36 @@
       "US-PA-AWS-SALEM-NUCLEAR-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.pa.gov/agencies/oto/fasttrack/salemtownshipdatacenterdevelopment",
+      "https://www.srbc.gov/waav/Search/getpending?documenttype=Application&isabre=False&projectnumber=2024-056",
+      "https://www.govinfo.gov/content/pkg/FR-2024-09-26/pdf/2024-21698.pdf",
+      "https://www.federalregister.gov/documents/2026/03/25/2026-05822/actions-taken-at-the-march-12-2026-meeting",
+      "https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-announces-receipt-escrowed-funds-cumulus-data/",
+      "https://ir.talenenergy.com/news-releases/news-release-details/talen-energy-expands-nuclear-energy-relationship-amazon/",
+      "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000036/tln-20260331.htm",
+      "https://www.aboutamazon.com/news/aws/amazon-pennsylvania-investment-cloud-infrastructure-ai-innovation",
+      "https://www.pa.gov/governor/newsroom/2025-press-releases/gov-announces-amazon-to-invest--20b-in-pa--largest-capital-inves",
+      "https://www.srbc.gov/regulatory/data-centers/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "campus capacity versus power supply",
+      "details": "Talen's 2024 campus-development milestone supports 960 MW of campus power consumption, while the June 2025 revised PPA covers up to 1,920 MW for the Salem campus and potentially other Pennsylvania AWS sites. capacity_mw remains 960 for the campus; 1,920 MW is treated as contracted power supply, not confirmed site-only data-center capacity."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "previous_status_as_of_cutoff": null,
+      "previous_capacity_mw": null,
+      "previous_owner": null,
+      "reason": "First independent refresh from official/company/regulatory sources."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

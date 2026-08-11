@@ -10,11 +10,62 @@
   "location": {
     "city": "Bonner/Milltown",
     "county": "Missoula",
-    "state": "MT"
+    "state": "MT",
+    "address": "9314 Bonner Miller Road",
+    "site_description": "former mill / planer building at Bonner Mill Industrial Park"
   },
   "phase3_stable_id": "US-MT-BONNER-MISSOULA-2026",
-  "status_as_of_cutoff": "Missoula County announced interim zoning to pause new or expanded data centers outside city limits, and the county’s public information page records the July 9 hearing/action context. Reporting says the property owner withdrew support before the pause; no final project land-use approval, building permit, construction, or utility record was located.",
+  "status_as_of_cutoff": "inactive / withdrawn as of 2026-08-11 refresh. Missoula County's Bonner Data Center page states the building owner withdrew his signature from the Krambu special exception application and that the project will not move forward. The county also reports a separate countywide moratorium on permitting new or expanded data centers outside city limits from 2026-07-09 through 2027-07-08 or replacement zoning.",
+  "evidence_grade": "A-official county project page for location/capacity/withdrawal and official county moratorium page for interim zoning; local reporting used to date the withdrawal.",
   "actions": [
+    {
+      "date": "2026-03-25",
+      "date_precision": "day",
+      "government_body": "Missoula County Planning and Development",
+      "action_type": "special-exception application completeness review",
+      "result_status": "First Krambu special exception application submitted and deemed incomplete by county staff.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://missoulacountyvoice.com/bonner-data-center",
+      "access_caveat": "County project timeline summary; underlying first application packet not re-reviewed in this refresh.",
+      "evidence_note": "Establishes local-process status, not approval."
+    },
+    {
+      "date": "2026-04-28",
+      "date_precision": "day",
+      "government_body": "Missoula County Planning and Development",
+      "action_type": "special-exception application completeness review",
+      "result_status": "Second Krambu special exception application submitted; county staff continued review and identified remaining information needed for completeness.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://missoulacountyvoice.com/bonner-data-center",
+      "access_caveat": "County project timeline summary; underlying second application packet not re-reviewed in this refresh.",
+      "evidence_note": "Establishes local-process status, not approval."
+    },
+    {
+      "date": "2026-05-11",
+      "date_precision": "day",
+      "government_body": "Missoula County Planning and Development",
+      "action_type": "special-exception application completeness review",
+      "result_status": "Third Krambu special exception application submitted; applicant notified the county that a new application packet would be made available.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://missoulacountyvoice.com/bonner-data-center",
+      "access_caveat": "County project timeline summary; underlying third application packet not re-reviewed in this refresh.",
+      "evidence_note": "Establishes local-process status, not approval."
+    },
+    {
+      "date": "2026-06-01",
+      "date_precision": "day",
+      "government_body": "Missoula County Planning and Development",
+      "action_type": "special-exception application completeness review",
+      "result_status": "Fifth Krambu special exception application submitted and deemed incomplete; county requested more information and postponed the expected hearing until further notice.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://missoulacountyvoice.com/bonner-data-center",
+      "access_caveat": "County project page lists the June 1 sufficiency review and full application PDFs, but this refresh relied on the accessible county page text.",
+      "evidence_note": "Application was still incomplete before withdrawal; no hearing or permit approval identified."
+    },
     {
       "date": "2026-06-29",
       "date_precision": "day",
@@ -26,6 +77,18 @@
       "primary_url": "https://www.missoulacounty.gov/news/missoula-county-commissioners-to-consider-interim-zoning-for-data-centers/",
       "access_caveat": "Notice sets a hearing; it is not itself the final moratorium action.",
       "evidence_note": "County policy action affecting the proposal’s pending status."
+    },
+    {
+      "date": "2026-07-06",
+      "date_precision": "day",
+      "government_body": "Missoula County Planning and Development / property owner notice",
+      "action_type": "property-owner withdrawal from special-exception application",
+      "result_status": "Missoula County's project page says Mike Heisey, owner of the building proposed for the data center, withdrew his signature from the Krambu special exception application; the county states the project will not move forward.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://missoulacountyvoice.com/bonner-data-center",
+      "access_caveat": "County page confirms the withdrawal but does not show a date in the visible update; Montana Free Press and Missoula Current both published the withdrawal on 2026-07-06.",
+      "evidence_note": "This is the controlling project-specific status update found in the refresh."
     },
     {
       "date": "2026-07-09",
@@ -52,8 +115,20 @@
       "evidence_note": "Negative search only."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": {
+    "initial_phase_mw": 7,
+    "potential_site_capacity_mw": 29,
+    "status": "proposed before withdrawal; not an active approved capacity",
+    "source_url": "https://missoulacountyvoice.com/bonner-data-center",
+    "source_date": "2026-08-11"
+  },
+  "owner": {
+    "developer_applicant": "Krambu",
+    "site_or_building_owner": "Mike Heisey / Bonner Property",
+    "status": "site/building owner withdrew signature from Krambu special-exception application",
+    "source_url": "https://missoulacountyvoice.com/bonner-data-center",
+    "source_date": "2026-08-11"
+  },
   "sources": {
     "phase3_stable_id": "US-MT-BONNER-MISSOULA-2026",
     "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
@@ -61,9 +136,86 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "reviewed_urls": [
+      {
+        "url": "https://missoulacountyvoice.com/bonner-data-center",
+        "source_type": "official county project page",
+        "source_date": "accessed 2026-08-11",
+        "facts_supported": [
+          "withdrawal / project will not move forward",
+          "address",
+          "project-review timeline",
+          "7 MW initial phase and up to 29 MW estimated site capacity",
+          "special exception and zoning-compliance process"
+        ]
+      },
+      {
+        "url": "https://missoulacountyvoice.com/data-center-interim-zoning",
+        "source_type": "official county public information page",
+        "source_date": "updated 2026-07-10; accessed 2026-08-11",
+        "facts_supported": [
+          "July 9, 2026 commissioner moratorium vote",
+          "moratorium effective July 9, 2026 through July 8, 2027 or replacement zoning"
+        ]
+      },
+      {
+        "url": "https://www.missoulacounty.gov/news/missoula-county-commissioners-to-consider-interim-zoning-for-data-centers/",
+        "source_type": "official county news release",
+        "source_date": "2026-06-29",
+        "facts_supported": [
+          "July 9, 2026 public-hearing notice for interim zoning"
+        ]
+      },
+      {
+        "url": "https://montanafreepress.org/2026/07/06/property-owner-of-proposed-bonner-data-center-backs-out/",
+        "source_type": "local/regional media",
+        "source_date": "2026-07-06",
+        "facts_supported": [
+          "withdrawal date",
+          "Krambu non-response",
+          "context that property owner withdrew from the project"
+        ]
+      },
+      {
+        "url": "https://missoulacurrent.com/bonnder-data-center/",
+        "source_type": "local media",
+        "source_date": "2026-07-06",
+        "facts_supported": [
+          "withdrawal date",
+          "county official context on special-exception requirement"
+        ]
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "capacity",
+      "details": "Official county page states about 7 MW initially with potential to expand to 29 MW, while Montana Free Press reports the application discussed possible ramp-up to 100 MW depending on ultimate power availability and market demand. Treat 7/29 MW as county-verified proposal capacity and 100 MW as applicant/projected tail, not approved capacity.",
+      "sources": [
+        "https://missoulacountyvoice.com/bonner-data-center",
+        "https://montanafreepress.org/2026/05/21/missoula-panel-highlights-data-center-concerns/"
+      ]
+    },
+    {
+      "topic": "project status wording",
+      "details": "Official county page attributes withdrawal to the building/site owner and says the project will not move forward; local headlines variously say Krambu withdrew the application or the project is dead. The refreshed status uses the official county wording.",
+      "sources": [
+        "https://missoulacountyvoice.com/bonner-data-center",
+        "https://missoulacurrent.com/bonnder-data-center/",
+        "https://www.kpax.com/news/proposed-bonner-ai-data-center-now-dead-in-the-water-after-property-owner-removes-signature-on-application"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": "Missoula County announced interim zoning to pause new or expanded data centers outside city limits, and the county’s public information page records the July 9 hearing/action context. Reporting says the property owner withdrew support before the pause; no final project land-use approval, building permit, construction, or utility record was located.",
+      "capacity_mw": null,
+      "owner": null,
+      "note": "Baseline extraction value retained before 2026-08-11 refresh."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -7,15 +7,88 @@
     "Potentia Sullivan County campus"
   ],
   "location": {
-    "city": "not publicly pinned",
+    "city": "Sullivan area",
     "county": "Sullivan",
-    "state": "IN"
+    "state": "IN",
+    "site_description": "Reported southwest of Sullivan along U.S. Route 41, near the Merom Generating Station; IDEM stormwater NOI public notices identify Township 7 North, Range 10 West, Sections 10-15. No civic street address was confirmed."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11. Public-notice evidence shows Heartland Industrial Park LLC submitted Indiana construction-stormwater NOI notices for Project Nova tree clearing and Project Nova Phase 1 in Sullivan County, and Potentia announced on 2026-04-23 that construction had begun at Heartland Industrial Park. Local/regional reporting says Sullivan County Commissioners signed road-use and community-enhancement agreements in late March 2026. No county-hosted agenda/minutes packet, building permit, certificate of occupancy, utility energization, IURC cause number, IEDC award, named anchor tenant, or full buildout record was located in this refresh.",
+  "evidence_grade": "B - construction/site-work is supported by IDEM NOI public notices, local reporting on county agreements, and Potentia's first-party construction announcement; official county permit/minutes and energization evidence were not independently located.",
+  "status_history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": null,
+      "capacity_mw": null,
+      "owner": null,
+      "note": "Baseline extract carried no independent status, capacity, owner, or pinned location."
+    }
+  ],
+  "actions": [
+    {
+      "date": "2026-02-20",
+      "date_precision": "day",
+      "government_body": "Indiana Department of Environmental Management / Tribune-Star public notice",
+      "action_type": "construction stormwater NOI public notice",
+      "result_status": "local_process",
+      "summary": "Heartland Industrial Park LLC submitted notice of intent to comply with Indiana's Construction Stormwater General Permit for Project Nova - Tree Clearing in Sullivan County, Township 7 North, Range 10 West, Sections 10-15; runoff was listed to Turtle Creek and Turtle Creek Reservoir.",
+      "source_url": "https://marketplace.tribstar.com/default/notices-legals/heartland-industrial-park-llc-/AC1E05740560a00676QqXFBACDEE",
+      "evidence_note": "Public notice of state stormwater compliance intent; supports site-preparation activity but is not a building permit, occupancy record, or energization record."
+    },
+    {
+      "date": "2026-03-30",
+      "date_precision": "day",
+      "government_body": "Sullivan County Commissioners",
+      "action_type": "road-use and community-enhancement agreements",
+      "result_status": "approved/reported",
+      "summary": "Regional public-media reporting says Sullivan County Commissioners signed road-use and community-enhancement agreements with Heartland Industrial Park to support the proposed multi-phase industrial/data-center campus.",
+      "source_url": "https://www.wvut.org/2026/03/31/major-industrial-park-project-moves-ahead-in-sullivan-county/",
+      "evidence_note": "Local-media report of county action; county-hosted official minutes or packet were not located on the accessible county site during this refresh."
+    },
+    {
+      "date": "2026-04-01",
+      "date_precision": "day",
+      "government_body": "Indiana Public Media / WFIU-WTIU",
+      "action_type": "local report / site description",
+      "result_status": "announced",
+      "summary": "Indiana Public Media reported the announcement followed county agreements; described the site as an approximately 1,000-acre industrial park along U.S. Route 41 near the former Merom power plant, serving light manufacturers and data centers, with about $65 billion projected private investment.",
+      "source_url": "https://www.ipm.org/news/2026-04-01/65-billion-industrial-park-coming-to-sullivan-county",
+      "evidence_note": "Useful for location and scope context; its statement that a construction date had not been announced was superseded by Potentia's 2026-04-23 construction-start announcement."
+    },
+    {
+      "date": "2026-04-04",
+      "date_precision": "day",
+      "government_body": "Indiana Department of Environmental Management / Tribune-Star public notice",
+      "action_type": "construction stormwater NOI public notice",
+      "result_status": "local_process",
+      "summary": "Heartland Industrial Park LLC submitted notice of intent to comply with Indiana's Construction Stormwater General Permit for construction activity associated with Project Nova - Phase 1, described as a light-use industrial development in Sullivan County, Township 7 North, Range 10 West, Sections 10-15; runoff was listed to Turtle Lake and Turtle Creek Reservoir.",
+      "source_url": "https://marketplace.tribstar.com/terre-haute-in/public-notices/heartland-industrial-park-llc-/AC1E032409dea017140nJ3766E92",
+      "evidence_note": "Public notice of state stormwater compliance intent; stronger site-work evidence than announcement alone, but still not a building permit, occupancy record, or energization record."
+    },
+    {
+      "date": "2026-04-23",
+      "date_precision": "day",
+      "government_body": "Potentia Inc.",
+      "action_type": "company construction announcement",
+      "result_status": "site work-construction",
+      "summary": "Potentia announced that construction had begun on a large-scale technology infrastructure development at Heartland Industrial Park, with expected $65 billion total tenant/partner investment by 2030, 2,750 construction jobs, at least 500 permanent jobs, Phase 1 tenant commitments, no tax abatements, 100% self-funded power infrastructure, closed-loop water, and no conventional backup diesel generators.",
+      "source_url": "https://www.businesswire.com/news/home/20260423900539/en/Potentia-Begins-Construction-on-Major-Infrastructure-Development-at-Heartland-Industrial-Park-in-Sullivan-County-Indiana",
+      "evidence_note": "First-party construction and project-scope claim; not independent proof of building permit, energization, or live service."
+    },
+    {
+      "date": "2026-05-04",
+      "date_precision": "day",
+      "government_body": "Inside INdiana Business",
+      "action_type": "regional report / developer interview",
+      "result_status": "site work-construction",
+      "summary": "Inside INdiana Business reported that construction was underway on Phase 1, the first building was expected by the end of 2026, a second building in early to mid-2027, and the first-building tenant was a data-center operator whose identity was not disclosed.",
+      "source_url": "https://www.insideindianabusiness.com/articles/potentia-leader-details-timeline-investment-for-65b-industrial-park-in-sullivan-county",
+      "evidence_note": "Regional reporting with developer interview; use timeline and tenant details as reported projections, not completed milestones."
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_note": "No public source reviewed disclosed a project IT/load capacity in MW. Potentia describes the broader platform as gigawatt-scale and reports $65 billion total tenant/partner investment by 2030, but those figures are not a data-center MW capacity.",
+  "owner": "Potentia Inc. / Heartland Industrial Park LLC (developer/project entity; anchor tenant not publicly disclosed)",
   "sources": {
     "phase3_stable_id": "IN-SULLIVAN-POTENTIA-HEARTLAND",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -23,9 +96,32 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; refreshed with Project Nova/Heartland Industrial Park evidence in Sullivan County",
+    "urls": [
+      "https://marketplace.tribstar.com/default/notices-legals/heartland-industrial-park-llc-/AC1E05740560a00676QqXFBACDEE",
+      "https://marketplace.tribstar.com/terre-haute-in/public-notices/heartland-industrial-park-llc-/AC1E032409dea017140nJ3766E92",
+      "https://www.wvut.org/2026/03/31/major-industrial-park-project-moves-ahead-in-sullivan-county/",
+      "https://www.ipm.org/news/2026-04-01/65-billion-industrial-park-coming-to-sullivan-county",
+      "https://potentia.inc/news/heartland-local-support/",
+      "https://www.businesswire.com/news/home/20260423900539/en/Potentia-Begins-Construction-on-Major-Infrastructure-Development-at-Heartland-Industrial-Park-in-Sullivan-County-Indiana",
+      "https://www.insideindianabusiness.com/articles/road-funding-agreements-detailed-for-65-billion-sullivan-county-project",
+      "https://www.insideindianabusiness.com/articles/potentia-leader-details-timeline-investment-for-65b-industrial-park-in-sullivan-county",
+      "https://sullivanenergydata.com/data-centers/heartland-industrial-park/",
+      "https://sullivanenergydata.com/reading-the-fine-print-on-the-heartland-industrial-park-deal/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "construction timing",
+      "details": "Indiana Public Media reported on 2026-04-01 that a construction date had not been announced; Potentia later announced on 2026-04-23 that construction had begun, and Inside INdiana Business reported on 2026-05-04 that Phase 1 construction was underway.",
+      "resolution": "Treat the 2026-04-01 statement as superseded by later first-party and regional reporting; current status is site work-construction, not energized or live."
+    },
+    {
+      "topic": "completion timing",
+      "details": "Potentia's 2026-04-23 site post says first phase completion is scheduled for 2027, while Inside INdiana Business reported on 2026-05-04 that the first building was expected by the end of 2026 and a second building in early to mid-2027.",
+      "resolution": "Record both as developer-reported projections; do not treat either as completed construction, occupancy, or service evidence."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

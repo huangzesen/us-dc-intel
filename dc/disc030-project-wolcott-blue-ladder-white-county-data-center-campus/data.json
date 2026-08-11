@@ -5,17 +5,38 @@
   "location": {
     "city": "Wolcott area",
     "county": "White",
-    "state": "Indiana"
+    "state": "Indiana",
+    "site_detail": "South of US Highway 24 near N 1100 W / Mid-America Commerce Park, White County, Indiana"
   },
   "capacity_mw": null,
-  "status": "proposed; early-stage community review",
+  "status": "local process",
   "confidence": "medium",
-  "evidence_date": "2026-07-09",
+  "evidence_date": "2026-08-11",
   "sources": [
+    "https://www.in.gov/counties/white/departments/area-plan/",
+    "https://www.in.gov/counties/white/files/6-Month-Moratorium-102025.pdf",
+    "https://www.inkfreenews.com/2026/06/26/white-county-data-center-plans-move-forward-with-community-open-house/",
     "https://www.datacenterdynamics.com/en/news/322-acre-data-center-could-be-built-in-white-county-indiana/",
-    "https://www.wolcottdatacenter.com/"
+    "https://www.wolcottdatacenter.com/",
+    "https://cleanview.co/data-centers/indiana/2006/wolcott-data-center"
   ],
   "why_not_in_baseline": "Early-stage regional-developer proposal in a county with no listed data centers; baseline did not include Blue Ladder, Wolcott, or White County project names.",
+  "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "from": "proposed; early-stage community review",
+      "to": "local process",
+      "reason": "Official county materials show data centers were subject to local moratorium and planning review; June/July 2026 developer outreach and reporting show the project is in local/community process, with no evidence of permit issuance or construction."
+    }
+  ],
+  "unverified_or_insufficient_evidence": [
+    "No public source found confirming IT capacity / MW.",
+    "No public source found confirming final end user.",
+    "No public source found confirming land acquisition by Blue Ladder Development.",
+    "No current public permit, construction start, energization, or live-load evidence found."
+  ],
   "discovery_file": "candidates-secondary-markets.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

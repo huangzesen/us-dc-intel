@@ -13,10 +13,15 @@
   "location": {
     "city": "Memphis",
     "county": "Shelby County",
-    "state": "TN"
+    "state": "TN",
+    "site_notes": [
+      "Former Electrolux industrial site in southwest Memphis / Paul R. Lowry Road area.",
+      "Water-reuse infrastructure proceedings identify a Colossus Water Recycling Plant at/near 3644 Riverport Road and a city land-sale parcel reported as 2685 Plant Road."
+    ]
   },
   "phase3_stable_id": "TN-001",
-  "status_as_of_cutoff": "Major retrofit/expansion with company-reported operations and unresolved air, generator, and water issues. Official city/utility and TDEC records establish support/proceedings, not a single public commissioning baseline or complete building/CO record.",
+  "status_as_of_cutoff": "As of 2026-08-11, Colossus Memphis remains treated as a major retrofit/expansion with operator-reported operations and continuing utility, air-permit, turbine, and water-reuse proceedings. Official/local-government records confirm utility support discussions, a Memphis land-sale/water-reuse proceeding, TDEC SOP-24025 water-reuse public-hearing facts, and Shelby County air-permit disputes, but no single public commissioning baseline, complete building/CO record, or verified live IT/electrical capacity was found.",
+  "evidence_grade": "B: multiple official/local-government proceedings plus operator statements; live capacity and final commissioning remain unverified in public records.",
   "actions": [
     {
       "date": "2024-07-09",
@@ -31,6 +36,18 @@
       "evidence_note": "The official material is useful for proposed utility terms but not proof of actual service or commissioning."
     },
     {
+      "date": "2025-03-18",
+      "date_precision": "day",
+      "government_body": "Memphis City Council",
+      "action_type": "city land-sale / water-reuse plant approval proceeding",
+      "result_status": "Local government agenda and meeting/transcript coverage report final council approval of an $820,000 sale of about 13 acres, reported as 2685 Plant Road, to CTC Property LLC for a water-reuse facility tied to xAI/Colossus cooling. Treated as a land/water-infrastructure proceeding, not proof of completed construction or operation.",
+      "vote_tally": "reported as 9-1-1 in local coverage; official agenda page was accessible in search results but blocked by Cloudflare during direct fetch",
+      "case_or_ordinance_permit_number": "Memphis City Council item reported as Item 15; parcel ID reported as 05010100054",
+      "primary_url": "https://memphistn.gov/city-council-meeting-agenda/",
+      "access_caveat": "City agenda page is the official locator but direct browser/shell fetch was Cloudflare-blocked during this refresh; details cross-checked against local meeting/transcript coverage.",
+      "evidence_note": "Supports the water-reuse infrastructure/land-control record only; it is not a building permit, water operating permit, CO, or energization record."
+    },
+    {
       "date": "2025-06-25",
       "date_precision": "day",
       "government_body": "Tennessee Department of Environment and Conservation, Division of Water Resources",
@@ -38,9 +55,21 @@
       "result_status": "TDEC’s fact sheet for SOP-24025 describes the proposed Colossus Water Recycling Plant, including treatment of up to 13.5 MGD and intended reuse for xAI, TVA, and Nucor; the fact sheet does not by itself prove final operation or xAI service.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": "SOP-24025",
-      "primary_url": "https://www.tn.gov/content/dam/tn/environment/water/water-public-notices/ppo_water_2025-06-25-ctc-sop-fact-sheet.pdf",
-      "access_caveat": "Fact sheet/public-notice material is not a final building permit, CO, or energization record; the direct PDF had intermittent retrieval failure in the browser pass.",
+      "primary_url": "https://www.tn.gov/environment/calendar-of-events/2025/6/25/wr-public-hearing-sop-24025.html",
+      "access_caveat": "Fact sheet/public-notice material is not a final building permit, CO, or energization record; the linked direct PDF returned 404/connection failures during this refresh, but the official TN.gov event page was accessible.",
       "evidence_note": "Water-reuse proceeding is separated from the data-center building and operating status."
+    },
+    {
+      "date": "2025-07-02",
+      "date_precision": "day",
+      "government_body": "Shelby County Health Department / Memphis and Shelby County Air Pollution Control program",
+      "action_type": "air-emissions construction permit",
+      "result_status": "Public reporting and appeal filings identify Air Permit No. 01156-01PC issued to CTC Property LLC for 15 natural-gas turbines at the South Memphis xAI/Colossus site. Environmental groups appealed the permit and related temporary-turbine determinations; local reporting later said the Air Pollution Control Board dismissed the appeal 6-1 in December 2025.",
+      "vote_tally": "appeal dismissal reported 6-1; permit issuance vote not located in an official accessible record",
+      "case_or_ordinance_permit_number": "01156-01PC",
+      "primary_url": "https://www.selc.org/press-release/groups-appeal-permit-for-xais-south-memphis-data-center-decisions-around-unpermitted-methane-gas-turbines/",
+      "access_caveat": "Shelby County document-center URLs for the draft permit/evaluation returned 404 during this refresh; the permit fact is therefore recorded from appeal/legal materials and local reporting rather than a directly retrieved official permit PDF.",
+      "evidence_note": "Air permit/turbine record supports existence of power-support proceedings and controversy; it is not proof of data-center IT load, final commissioning, or full buildout."
     },
     {
       "date": "2026-07-08",
@@ -53,10 +82,27 @@
       "primary_url": "https://x.ai/memphis",
       "access_caveat": "Operator claim is not government evidence and is not used to infer live capacity.",
       "evidence_note": "Company plan, reported operations, and regulator allegations remain distinct evidence categories."
+    },
+    {
+      "date": "2026-07-30",
+      "date_precision": "day",
+      "government_body": "SpaceXAI (operator update; non-government) / Mississippi Department of Environmental Quality referenced",
+      "action_type": "adjacent Southaven power-infrastructure update",
+      "result_status": "SpaceXAI stated that it entered an agreed order with MDEQ setting a fixed removal timeline for 69 temporary mobile turbines in Southaven, with removals beginning as early as August 2026 and all temporary turbines removed by July 2027; the same update states a 1.2 GW permanent power plant with 41 permitted turbines is under construction. Treated as adjacent cross-state power infrastructure supporting the greater Memphis-area supercomputer footprint, not as Memphis data-center capacity.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "MDEQ permit/order referenced by operator; March 2026 Permit Board minutes located",
+      "primary_url": "https://x.ai/memphis/updates",
+      "access_caveat": "Operator page is not government evidence; official MDEQ March 2026 Permit Board minutes PDF was located at mdeq.ms.gov but text extraction was limited because the PDF is scanned.",
+      "evidence_note": "Power-generation MW and turbine counts are not converted to data-center capacity_mw."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_notes": [
+    "MLGW material in 2024 described 8 MW initially available, a planned increase to 50 MW, and a developer-funded 150 MW substation; those figures are utility-support/proposed-service facts, not verified live IT load.",
+    "SpaceXAI's 2026 Southaven update describes a 1.2 GW permanent power plant with 41 turbines and a temporary-turbine removal timeline; this is recorded as adjacent power infrastructure and not as Memphis data-center capacity.",
+    "No official public CO, commissioning certificate, or verified live capacity record was found in this refresh."
+  ],
+  "owner": "xAI / SpaceXAI operating footprint; CTC Property LLC appears in Memphis water-reuse and Shelby air-permit proceedings as the affiliated property/applicant entity.",
   "sources": {
     "phase3_stable_id": "TN-001",
     "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
@@ -68,7 +114,50 @@
     "authoritative_layer": "phase3_project_action_layer",
     "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
   },
-  "contradictions": [],
+  "source_urls": [
+    "https://memphistn.gov/wp-content/uploads/2025/01/xAI-water-and-electric-7-9-24-final.pdf",
+    "https://memphistn.gov/city-council-meeting-agenda/",
+    "https://www.tn.gov/environment/calendar-of-events/2025/6/25/wr-public-hearing-sop-24025.html",
+    "https://dataviewers.tdec.tn.gov/dataviewers/f?p=2005%3A34051%3A%3A%3ANO%3A34051%3AP34051_PERMIT_NUMBER%3ASOP-24025",
+    "https://www.selc.org/press-release/groups-appeal-permit-for-xais-south-memphis-data-center-decisions-around-unpermitted-methane-gas-turbines/",
+    "https://www.memphisflyer.com/xai-permit-appeal-dismissed/",
+    "https://www.mdeq.ms.gov/wp-content/uploads/2026/04/Signed-Minutes-of-the-March-2026-Permit-Board-Meeting.pdf",
+    "https://x.ai/memphis",
+    "https://x.ai/memphis/updates"
+  ],
+  "contradictions": [
+    {
+      "topic": "operating/buildout status",
+      "details": "Operator pages describe Colossus as built/operational and target 1 million GPUs by 2026, while official/local-government records found in this refresh document support proceedings, permits, and infrastructure but not a single public commissioning, CO, or verified live capacity baseline.",
+      "source_urls": [
+        "https://x.ai/memphis",
+        "https://memphistn.gov/wp-content/uploads/2025/01/xAI-water-and-electric-7-9-24-final.pdf",
+        "https://www.tn.gov/environment/calendar-of-events/2025/6/25/wr-public-hearing-sop-24025.html"
+      ]
+    },
+    {
+      "topic": "turbine legality/permitting",
+      "details": "Shelby air-permit materials and environmental-group appeals dispute the treatment of temporary turbines; the accessible record supports an unresolved/contested air-permit history rather than a clean, uncontested operating baseline.",
+      "source_urls": [
+        "https://www.selc.org/press-release/groups-appeal-permit-for-xais-south-memphis-data-center-decisions-around-unpermitted-methane-gas-turbines/",
+        "https://www.memphisflyer.com/xai-permit-appeal-dismissed/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Major retrofit/expansion with company-reported operations and unresolved air, generator, and water issues. Official city/utility and TDEC records establish support/proceedings, not a single public commissioning baseline or complete building/CO record.",
+      "new_value": "Refreshed to distinguish operator-reported operations from official/local-government evidence for utility support, water-reuse, air-permit, and adjacent Southaven power infrastructure proceedings."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "xAI / SpaceXAI operating footprint; CTC Property LLC appears as affiliated property/applicant entity in public proceedings."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

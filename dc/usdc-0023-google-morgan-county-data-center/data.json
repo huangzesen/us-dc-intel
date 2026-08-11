@@ -3,29 +3,74 @@
   "canonical_project": "Google Morgan County data center",
   "aliases": [
     "Google Mooresville campus",
-    "Google Morgan County data center"
+    "Google Morgan County data center",
+    "Project Louie",
+    "Morgan County Data Center Project I",
+    "Woodland Caribou LLC data center"
   ],
   "location": {
-    "city": "not publicly pinned",
+    "city": "near Monrovia / unincorporated Morgan County",
     "county": "Morgan",
-    "state": "IN"
+    "state": "IN",
+    "site_description": "SR-42/Keller Hill Road area east of Monrovia; reporting describes boundaries as Keller Hill Road to the north, North Antioch Road to the east, Indiana 42 to the south, and West Union Church Road to the west."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "B",
   "actions": [
     {
-      "date": "2026-06-16",
+      "date": "2025-10-21",
       "body": "Google",
       "action_type": "company/state location announcement",
-      "exact_result_status": "Google's Indiana location page listed Morgan County as a 2026 development location; the page does not provide a municipality, parcel, capacity, permit, or vote.",
+      "exact_result_status": "Google's Indiana location page lists Morgan County as a 2025 announced data center location and a site currently in development; local/trade reporting on 2025-10-21/2025-10-22 reported Google's public confirmation of the Morgan County opportunity.",
       "vote_tally": null,
       "case_or_permit_number": null,
       "primary_url": "https://datacenters.google/locations/indiana/",
-      "access_caveat": "Company source, not a government approval; the local project page is not a government record."
+      "access_caveat": "Company source, not a government approval; page gives the announcement year but not an exact day, municipality, parcel, capacity, permit, or vote."
+    },
+    {
+      "date": "2025-02-17",
+      "body": "Morgan County Board of Commissioners",
+      "action_type": "rezoning / PUD ordinance approval",
+      "exact_result_status": "Commissioner minutes state Ordinance 2025-1 concerned a PUD district rezone request for a data center, received a 7-1 favorable Plan Commission recommendation, and was approved by the Commissioners.",
+      "vote_tally": "3-0",
+      "case_or_permit_number": "Ordinance 2025-1",
+      "primary_url": "https://morgancounty.in.gov/egov/apps/document/center.egov?id=1809&view=item",
+      "access_caveat": "Official county minutes are text-extractable; the ordinance PDF itself is image/scanned text in this environment."
+    },
+    {
+      "date": "2026-02-17",
+      "body": "Morgan County Board of Commissioners",
+      "action_type": "plan review / inspection services agreement",
+      "exact_result_status": "Commissioner minutes state the county accepted a Banning Engineering professional engineering services agreement for inspection and plan-review services for new development project 'Louie' on SR-42, plus a developer cost-reimbursement agreement.",
+      "vote_tally": "3-0",
+      "case_or_permit_number": null,
+      "primary_url": "https://morgancounty.in.gov/egov/apps/document/center.egov?id=2205&view=item",
+      "access_caveat": "Official county minutes; the minutes do not name Google in the same action item."
+    },
+    {
+      "date": "2026-04-20",
+      "body": "Morgan County Board of Commissioners",
+      "action_type": "construction traffic / road damage discussion",
+      "exact_result_status": "Commissioner minutes describe Keller Hill Road damage caused by data center construction traffic; the data center company voluntarily milled and rebuilt damaged sections, and county staff requested a formal agreement for future damage.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://morgancounty.in.gov/egov/apps/document/center.egov?id=2210&view=item",
+      "access_caveat": "Official county minutes; supports active site-work status but is not a building permit."
+    },
+    {
+      "date": "2026-05-04",
+      "body": "Morgan County Board of Commissioners",
+      "action_type": "road use agreement discussion",
+      "exact_result_status": "County administrator reported discussions with Google representatives for a road-use agreement around their Keller Hill Road job site, and said the county would draft a proposed agreement.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://morgancounty.in.gov/egov/apps/document/center.egov?id=2211&view=item",
+      "access_caveat": "Official county minutes; confirms Google representatives and a Keller Hill Road job site."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google",
   "sources": {
     "phase3_stable_id": "IN-MORGAN-GOOGLE",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -35,9 +80,58 @@
       "US-IN-GOOGLE-MORGAN-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_records": [
+      "https://morgancounty.in.gov/egov/apps/document/center.egov?id=1814&view=detail",
+      "https://morgancounty.in.gov/egov/apps/document/center.egov?id=1809&view=item",
+      "https://morgancounty.in.gov/egov/apps/document/center.egov?id=2139&view=detail",
+      "https://morgancounty.in.gov/egov/apps/document/center.egov?id=2141&view=detail",
+      "https://morgancounty.in.gov/egov/apps/document/center.egov?id=2205&view=item",
+      "https://morgancounty.in.gov/egov/apps/document/center.egov?id=2210&view=item",
+      "https://morgancounty.in.gov/egov/apps/document/center.egov?id=2211&view=item",
+      "https://morgancounty.in.gov/files/Surveyor/Records%20and%20Resources/INDIVIDUAL%20RECORDED%20SURVEYS/T13N%20R1E/S5%2C%206%20T13N%20R1E%20%26%20S1%20T13N%20R1W%20PROJECT%20LOUIE%2C%20GOOGLE.pdf"
+    ],
+    "company_sources": [
+      "https://datacenters.google/locations/indiana/",
+      "https://www.morgancountydatacenter.com/"
+    ],
+    "media_sources": [
+      "https://www.wrtv.com/news/local-news/morgan-county/construction-intensifies-on-googles-morgan-county-data-center-site",
+      "https://www.datacenterdynamics.com/en/news/google-behind-390-acre-data-center-development-in-morgan-county-indiana/",
+      "https://www.insideindianabusiness.com/articles/morgan-county-prepares-for-billion-dollar-data-center-project-from-still-anonymous-developer"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "summary": "Official county/company sources reviewed do not disclose a firm MW capacity. Public trackers/media claims include 390 MW and 1200 MW, so capacity remains null pending primary utility/regulatory evidence.",
+      "sources": [
+        "https://servercountry.org/data/projects/morgan-county-data-center-project-louie-in",
+        "https://poweredbywho.com/projects/google-morgan-county-data-center-d166c757"
+      ]
+    },
+    {
+      "field": "acreage",
+      "summary": "Sources distinguish the original roughly 391-acre PUD/rezone from later expansion reporting around 500-plus/550 acres and a local article citing 628 acres after additional land purchases; no single acreage is promoted to a primary field.",
+      "sources": [
+        "https://www.insideindianabusiness.com/articles/morgan-county-prepares-for-billion-dollar-data-center-project-from-still-anonymous-developer",
+        "https://www.wrtv.com/news/local-news/morgan-county/construction-intensifies-on-googles-morgan-county-data-center-site",
+        "https://morgancountycorrespondent.com/2025/10/30/dellinger-details-new-data-center-updates/"
+      ]
+    }
+  ],
   "seed_only": false,
+  "history": [
+    {
+      "date": "2026-08-11",
+      "changes": [
+        "status_as_of_cutoff changed from null/no status to site work-construction",
+        "owner changed from null to Google",
+        "location city changed from not publicly pinned to near Monrovia / unincorporated Morgan County",
+        "corrected inherited Google announcement record to reflect the current page's 2025 Morgan County announcement milestone",
+        "added official county actions for Ordinance 2025-1, Project Louie engineering review, and Keller Hill Road construction/job-site discussions"
+      ]
+    }
+  ],
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

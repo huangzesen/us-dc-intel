@@ -3,25 +3,143 @@
   "canonical_project": "AWS Hinds County / former Delphi campus conversion",
   "aliases": [
     "AWS Hinds County / former Delphi campus conversion",
-    "Amazon Clinton data center"
+    "Amazon Clinton data center",
+    "AWS Clinton data center",
+    "Project Delphi",
+    "Project Atlas",
+    "Project Starlight",
+    "Project GoFast"
   ],
   "location": {
     "city": "Clinton",
     "county": "Hinds",
-    "state": "Mississippi"
+    "state": "Mississippi",
+    "address": "1001 Industrial Park Drive, Clinton, MS 39056",
+    "site_note": "Former Delphi manufacturing facility / former Milwaukee Tool site in the Clinton Industrial Park."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
+  "status_as_of_cutoff": "approved-permitted: City of Clinton minutes show conditional use/dimensional variance approval and FILOT authorization for the 1001 Industrial Park Drive data-center project on 2026-01-15; Mississippi DEQ lists construction stormwater coverage MSR109732 for Alston Construction Company, Inc., Project Delphi/Project Atlas, issued 2026-05-14 and effective through 2027-01-31. City, MDA, and Amazon announcements confirm a planned $1 billion AWS retrofit of the former Delphi facility. No official MW capacity, certificate of occupancy, energization, or live-service record was located.",
+  "evidence_grade": "B",
+  "actions": [
+    {
+      "date": "2026-01-15",
+      "date_precision": "day",
+      "government_body": "City of Clinton Mayor and Board of Aldermen",
+      "action_type": "conditional use / dimensional variance approval",
+      "result_status": "The Board approved a conditional use and dimensional variance for the property located at 1001 Industrial Park Blvd/Drive.",
+      "vote_tally": "unanimous",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://clintonms.org/wp-content/uploads/2026/03/2026-01-15-Minutes-Special-Called-Meeting.pdf",
+      "access_caveat": "Official city minutes; the visible minutes do not identify AWS by name in the land-use item.",
+      "evidence_note": "Local land-use approval for the site, separate from later public AWS confirmation."
+    },
+    {
+      "date": "2026-01-15",
+      "date_precision": "day",
+      "government_body": "City of Clinton Mayor and Board of Aldermen",
+      "action_type": "FILOT authorization",
+      "result_status": "The Board approved entering into and authorizing the mayor to execute a fee-in-lieu-of-ad-valorem-tax agreement for the property and project at 1001 Industrial Park Blvd/Drive; the attached resolution describes a data center project with at least $750 million capital investment and at least 50 new full-time jobs, subject to Mississippi Development Authority execution of final approval.",
+      "vote_tally": "unanimous",
+      "case_or_ordinance_permit_number": "Project Starlight / Project GoFast",
+      "primary_url": "https://clintonms.org/wp-content/uploads/2026/03/2026-01-15-Minutes-Special-Called-Meeting.pdf",
+      "access_caveat": "Company identity was confidential in the January city resolution; later city/state/company announcements identify AWS/Amazon.",
+      "evidence_note": "Local incentive authorization and minimum project scale; superseded in public announcements by the $1 billion AWS figure."
+    },
+    {
+      "date": "2026-04-09",
+      "date_precision": "day",
+      "government_body": "Mississippi Development Authority",
+      "action_type": "state economic-development announcement",
+      "result_status": "MDA announced Amazon's planned $1 billion project in Clinton to retrofit the former Delphi Corporation plant and create 100 jobs; MDA also said Hinds County and the City of Clinton are assisting.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://mississippi.org/news/amazon-continues-mississippi-expansion-announcing-plans-to-invest-a-total-of-25-billion-across-the-magnolia-state/",
+      "access_caveat": "State announcement is not a building permit, CO, or energization record.",
+      "evidence_note": "Official public owner/project confirmation."
+    },
+    {
+      "date": "2026-04-09",
+      "date_precision": "day",
+      "government_body": "Amazon",
+      "action_type": "company announcement",
+      "result_status": "Amazon announced a $1 billion investment in Hinds County to transform the former Delphi manufacturing plant into a data center facility.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.aboutamazon.com/news/company-news/amazon-25-billion-mississippi-data-centers",
+      "access_caveat": "Company announcement; no MW capacity, construction permit, or operating date is published.",
+      "evidence_note": "Company confirmation of project sponsor and investment scale."
+    },
+    {
+      "date": "2026-05-14",
+      "date_precision": "day",
+      "government_body": "Mississippi Department of Environmental Quality",
+      "action_type": "construction stormwater permit coverage",
+      "result_status": "MDEQ enSearch lists AI ID 90111 for Alston Construction Company, Inc., Project Delphi, Project Atlas at 1001 Industrial Park Drive, Clinton; Construction Modification coverage MSR109732 was issued on 2026-05-14, with permit start 2026-01-21 and end 2027-01-31.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "MSR109732; AI ID 90111",
+      "primary_url": "https://opc.deq.state.ms.us/ai_info.aspx?ai=90111",
+      "access_caveat": "MDEQ says enSearch is informational and not a legal substitute for official administrative files; stormwater coverage is environmental/construction coverage, not a building permit, CO, or energization record.",
+      "evidence_note": "State permit coverage supports approved/permitted status for site/construction activity."
+    },
+    {
+      "date": "2026-06-09",
+      "date_precision": "day",
+      "government_body": "City of Clinton",
+      "action_type": "local AWS project announcement / ribbon-cutting",
+      "result_status": "City announced a $1 billion AWS investment to transform the long-vacant former Delphi manufacturing facility into a data center; at full operation the facility is expected to support at least 100 highly skilled positions.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://clintonms.org/awsdatacenter/",
+      "access_caveat": "Ceremonial/local announcement; no MW capacity, CO, energization, or live-service proof is published.",
+      "evidence_note": "Official local confirmation of AWS identity, investment amount, retrofit scope, and expected jobs."
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Amazon Web Services (AWS)",
   "sources": {
     "phase2_seed_stable_id": "US-MS-AWS-HINDS-2026",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
-    "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "authoritative_layer": "independent_refresh_official_local_state_company",
+    "match_reason": "Seed-only record independently confirmed by City of Clinton minutes, MDEQ construction stormwater coverage, MDA announcement, City of Clinton AWS announcement, and Amazon announcement.",
+    "current_refresh_urls": [
+      "https://clintonms.org/wp-content/uploads/2026/03/2026-01-15-Minutes-Special-Called-Meeting.pdf",
+      "https://opc.deq.state.ms.us/ai_info.aspx?ai=90111",
+      "https://opcgis.deq.state.ms.us/ensearchonline/recently-issued-general-permit-coverages.aspx",
+      "https://mississippi.org/news/amazon-continues-mississippi-expansion-announcing-plans-to-invest-a-total-of-25-billion-across-the-magnolia-state/",
+      "https://www.aboutamazon.com/news/company-news/amazon-25-billion-mississippi-data-centers",
+      "https://clintonms.org/awsdatacenter/",
+      "https://mississippitoday.org/2026/06/09/data-center-clinton-mississippi-2/",
+      "https://www.wlbt.com/2026/03/04/whos-building-data-center-clinton-records-provide-details/"
+    ]
   },
   "contradictions": [],
-  "seed_only": true,
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": null,
+      "new_value": "approved-permitted based on local conditional-use/variance/FILOT approvals plus MDEQ construction stormwater coverage; no CO, energization, or live-service evidence found."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Amazon Web Services (AWS)"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": null,
+      "note": "No official MW capacity figure located; third-party/non-primary estimates were not adopted."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "seed_only",
+      "previous_value": true,
+      "new_value": false
+    }
+  ],
+  "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

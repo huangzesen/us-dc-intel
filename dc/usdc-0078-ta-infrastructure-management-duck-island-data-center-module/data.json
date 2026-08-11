@@ -11,7 +11,8 @@
     "state": "AK"
   },
   "phase3_stable_id": "US-AK-TAINFRA-DUCK-ISLAND-PILOT-2024",
-  "status_as_of_cutoff": "Pilot land-use application; later installation, operation, and construction completion were not verified. The public notice describes a demonstration module using produced gas, not a large AI campus.",
+  "status_as_of_cutoff": "Approved-permitted temporary pilot; module reportedly installed but not yet connected to power as of the Alaska Oil and Gas Conservation Commission's March 13, 2025 decision as reported by Petroleum News. Operation, energization, and any larger buildout were not verified. The public record describes a 1.4 MW bitcoin-mining demonstration module using existing Hilcorp generation, not a large AI campus.",
+  "evidence_grade": "B: Alaska DNR public notice and permit application provide official application/capacity evidence; DNR permit approval and AOGCC metering decision are supported by contemporaneous Petroleum News reporting, while direct AOGCC/DNR decision documents were not publicly retrievable in this refresh.",
   "actions": [
     {
       "date": "2024-11-05",
@@ -24,10 +25,34 @@
       "primary_url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=217467",
       "access_caveat": "The public-notice page is an application notice; a final decision and later inspection file were not exposed.",
       "evidence_note": "Official application evidence; no approval, construction, operation, or load inferred."
+    },
+    {
+      "date": "2024-12-19",
+      "date_precision": "day",
+      "government_body": "Alaska Department of Natural Resources, Division of Oil and Gas",
+      "action_type": "land-use permit approval",
+      "result_status": "Permit approval for installation of a temporary data-center module at Satellite Drilling Island reported by Petroleum News; direct DNR approval document was not found in indexed public sources during this refresh.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "LAS 35307",
+      "primary_url": "https://www.petroleumnews.com/story/2025/01/05/news/state-oks-sdi-data-center-land-use-permit/40541.html",
+      "access_caveat": "Secondary report quoting/describing the DNR approval; the DNR approval letter itself was not retrieved.",
+      "evidence_note": "Supports status update from application-only to approved-permitted, but does not verify operation or energization."
+    },
+    {
+      "date": "2025-03-13",
+      "date_precision": "day",
+      "government_body": "Alaska Oil and Gas Conservation Commission",
+      "action_type": "metering waiver / non-custody transfer meter decision",
+      "result_status": "AOGCC approved, with conditions, Hilcorp's request to use non-custody transfer meters for power sold to the Duck Island third-party data-center pilot; Petroleum News reported the data-center module had been installed but was not yet connected to power.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.petroleumnews.com/story/2025/03/23/news/aogcc-approves-hilcorp-non-custody-transfer-meter-for-pilot/40674.html",
+      "access_caveat": "Secondary report; the AOGCC data portal is public but the source order/document search was not accessible without browser challenge in this refresh.",
+      "evidence_note": "Supports site-work/installation evidence and continued not-energized caveat; no later operating confirmation found."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 1.4,
+  "owner": "TA Infrastructure Management LLC (applicant/developer); Hilcorp Alaska LLC owns existing generation equipment and hosts the Duck Island Unit facilities",
   "sources": {
     "phase3_stable_id": "US-AK-TAINFRA-DUCK-ISLAND-PILOT-2024",
     "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
@@ -35,9 +60,26 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "source_urls": [
+      "https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=217467",
+      "https://aws.state.ak.us/OnlinePublicNotices/Notices/Attachment.aspx?id=151373",
+      "https://www.petroleumnews.com/story/2025/01/05/news/state-oks-sdi-data-center-land-use-permit/40541.html",
+      "https://www.petroleumnews.com/story/2025/03/23/news/aogcc-approves-hilcorp-non-custody-transfer-meter-for-pilot/40674.html",
+      "https://www.commerce.alaska.gov/web/aogcc/data.aspx",
+      "https://www.uaf.edu/acep-blog/can-data-centers-lower-alaskas-high-energy-costs.php"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "previous_status_as_of_cutoff": "Pilot land-use application; later installation, operation, and construction completion were not verified. The public notice describes a demonstration module using produced gas, not a large AI campus.",
+      "previous_capacity_mw": null,
+      "previous_owner": null,
+      "change_note": "Refresh added official 1.4 MW capacity, secondary-reported DNR approval, and secondary-reported AOGCC metering decision/module-installed-not-connected status."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -1,22 +1,52 @@
 {
   "disc_id": "disc003",
   "canonical_project": "MARA Matagorda powered digital infrastructure campus",
-  "owner": "MARA Holdings / Volt Texas LLC; Starwood Digital Ventures development partner",
+  "owner": "MARA Holdings via Volt Texas LLC / MAT 1177 LLC; Starwood Digital Ventures development partner; HIF USA retained minority-interest right upon qualifying HPC tenant lease",
   "location": {
     "city": "Palacios / Bay City area",
     "county": "Matagorda",
     "state": "TX"
   },
   "capacity_mw": 2000,
-  "status": "definitive acquisition agreement; powered land site; construction expected to start in 2026",
+  "status": "announced/acquired project company; pre-construction local process; utility LOA for up to 2,000 MW, with phased campus construction expected in 2026 contingent on regulatory approvals",
   "confidence": "high",
-  "evidence_date": "2026-07-09",
+  "evidence_date": "2026-08-11",
   "sources": [
     "https://ir.mara.com/news-events/press-releases/detail/1424/mara-signs-agreement-with-hif-to-acquire-strategic-powered-land-site-in-texas",
+    "https://www.sec.gov/Archives/edgar/data/1507605/000095014226002012/eh260804074_8k.htm",
     "https://www.sec.gov/Archives/edgar/data/1507605/000095014226002012/eh260804074_ex9901.htm",
+    "https://www.matagordatx.gov/page/EnvironmentalHealth",
+    "https://mcedc.net/resources/current-projects/",
+    "https://hifglobal.com/locations/matagorda",
     "https://www.datacenterdynamics.com/en/news/mara-acquires-1200-acre-texas-site-from-hif-usa-for-up-to-2gw-data-center-campus/"
   ],
   "why_not_in_baseline": "Not among the 208 canonical_project names; new July 2026 powered-land acquisition with stated grid-capacity path up to 2 GW by April 2028.",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "previous": "definitive acquisition agreement; powered land site; construction expected to start in 2026",
+      "current": "announced/acquired project company; pre-construction local process; utility LOA for up to 2,000 MW, with phased campus construction expected in 2026 contingent on regulatory approvals",
+      "reason": "SEC 8-K confirms the transaction closed July 2, 2026 and describes development milestones, utility LOA, regulatory approvals, and third-party lease milestones; no local permit record naming MARA/Volt/MAT 1177 was found in this refresh."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous": "MARA Holdings / Volt Texas LLC; Starwood Digital Ventures development partner",
+      "current": "MARA Holdings via Volt Texas LLC / MAT 1177 LLC; Starwood Digital Ventures development partner; HIF USA retained minority-interest right upon qualifying HPC tenant lease",
+      "reason": "SEC 8-K identifies Volt Texas LLC as buyer and MAT 1177 LLC as project company; HIF retained-equity mechanics are tied to execution of a data center lease with a third-party tenant."
+    }
+  ],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "summary": "HIF's Matagorda location page still describes the e-Fuels project as fully permitted with secured power interconnect, while the July 9, 2026 MARA/HIF announcement says HIF will continue advanced-fuels development on other sites and the Matagorda digital-infrastructure campus remains contingent on regulatory approvals.",
+      "sources": [
+        "https://hifglobal.com/locations/matagorda",
+        "https://ir.mara.com/news-events/press-releases/detail/1424/mara-signs-agreement-with-hif-to-acquire-strategic-powered-land-site-in-texas"
+      ]
+    }
+  ],
   "discovery_file": "candidates-grid-queue.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

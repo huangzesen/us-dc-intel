@@ -9,38 +9,52 @@
   "location": {
     "city": "Lenoir",
     "county": "Caldwell County",
-    "state": "NC"
+    "state": "NC",
+    "address_or_parcel": "Existing Google campus at 708 Lynhaven Drive; proposed expansion on approximately 60 adjacent acres. Data Center Dynamics, citing local action details, identifies two expansion parcels at 914 Virginia Street and 919 Fairview Drive, but no official site plan or building permit was located in this refresh."
   },
   "phase3_stable_id": "NC-002",
-  "status_as_of_cutoff": "Caldwell County and Lenoir jointly approved economic-development measures aimed at streamlining a possible expansion in October 2024. A 2026 $1 billion expansion was reported, but no building permit, construction milestone, CO, utility, or commissioning evidence was located.",
+  "status_as_of_cutoff": "announced / local process: Caldwell County and Lenoir approved economic-development incentives and related local measures for a possible Google data-center expansion on October 22, 2024; the City of Lenoir says Google announced on March 13, 2026 a new $1 billion investment within two years in North Carolina to grow data-center infrastructure in Lenoir. No building permit, site-plan approval, construction milestone, certificate of occupancy, utility interconnection, or commissioning evidence for the expansion was located as of 2026-08-11.",
+  "evidence_grade": "B - official city/county incentive and announcement records confirm the expansion intent and local-process activity; official NCDEQ records confirm an operating-air-permit action at the existing 708 Lynhaven Drive facility, but the DEQ review states that action is not a physical or operational-method change.",
   "actions": [
     {
       "date": "2024-10-22",
       "date_precision": "day",
       "government_body": "Caldwell County Board of Commissioners and City of Lenoir City Council",
       "action_type": "tax / economic-development incentive",
-      "result_status": "Official joint-meeting notice states the county board and city council approved measures aimed at streamlining a possible Google data-center expansion. The accessible announcement does not publish ordinance numbers or vote tallies.",
-      "vote_tally": "not published",
+      "result_status": "Official city release says the county board and city council approved an economic-development agreement and incentive grant for a potential Google expansion on approximately 60 acres next to the existing 708 Lynhaven Drive campus; the city also approved closing a segment of Virginia Street between 815 and 1021 and said it would provide additional water capacity, with Google voluntarily contributing $6.8 million for campus water flow.",
+      "vote_tally": "Caldwell County motion carried unanimously per county special-meeting minutes; City of Lenoir vote tally not located in accessible records reviewed.",
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.caldwellcountync.org/CivicAlerts.aspx?AID=184",
+      "primary_url": "https://www.cityoflenoir.com/CivicAlerts.aspx?AID=498",
       "access_caveat": "Incentive action is not a site plan, building permit, CO, or proof that the later reported expansion has begun.",
       "evidence_note": "Economic-development action, not construction authorization."
     },
     {
       "date": "2026-03-13",
       "date_precision": "day",
-      "government_body": "Not a government action; local business press",
-      "action_type": "expansion report",
-      "result_status": "Business press reported a $1 billion Google Lenoir expansion. The report did not provide an official permit or building-level milestone, so physical progress remains unverified.",
+      "government_body": "City of Lenoir publication of Google announcement",
+      "action_type": "company investment announcement",
+      "result_status": "City release says Google announced a new $1 billion investment within the next two years in North Carolina to grow data-center infrastructure in Lenoir, plus a $2 million Energy Impact Fund and other community commitments.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.bizjournals.com/charlotte/news/2026/03/13/google-caldwell-county-data-center-lenoir-nc.html",
-      "access_caveat": "Press source may be paywalled; no substitution for county/city permit records.",
-      "evidence_note": "Expansion announcement/report, not a permit or construction record."
+      "primary_url": "https://www.cityoflenoir.com/m/newsflash/Home/Detail/594",
+      "access_caveat": "Official announcement confirms investment intent, not building-level permit issuance, start of construction, energization, or full buildout.",
+      "evidence_note": "Company/government announcement, not construction authorization."
+    },
+    {
+      "date": "2025-07-09",
+      "date_precision": "day",
+      "government_body": "North Carolina Department of Environmental Quality, Division of Air Quality",
+      "action_type": "air permit public comment / Title V operating permit reopen-for-cause",
+      "result_status": "NCDEQ noticed EPA comment for Tapaha Dynamics, LLC at 708 Lynhaven Drive, Application ID 1400204.25A / Permit No. 09733T11. The linked draft review says the reopen-for-cause adds a CO PSD-avoidance limit and does not represent a physical change or change in method of operation at the facility.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Application ID 1400204.25A; Permit No. 09733T11",
+      "primary_url": "https://www.deq.nc.gov/news/events/epa-comment-period-tapaha-dynamics-llc-1",
+      "access_caveat": "Operating-air-permit action for the existing facility; not evidence of expansion construction.",
+      "evidence_note": "Environmental operating-permit maintenance, not an expansion construction milestone."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google; NCDEQ air-permit records identify Tapaha Dynamics, LLC at 708 Lynhaven Drive, and industry reporting describes Tapaha Dynamics, LLC as Google's affiliate for the local incentive filing.",
   "sources": {
     "phase3_stable_id": "NC-002",
     "phase3_source_file": "phase3/county_ga_nc_sc.json",
@@ -48,9 +62,32 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.cityoflenoir.com/CivicAlerts.aspx?AID=498",
+      "https://www.caldwellcountync.org/DocumentCenter/View/2106/October-22-2024-Special-Meeting-Minutes-Final",
+      "https://www.cityoflenoir.com/m/newsflash/Home/Detail/594",
+      "https://datacenters.google/locations/north-carolina/",
+      "https://www.deq.nc.gov/news/events/epa-comment-period-tapaha-dynamics-llc-1",
+      "https://www.deq.nc.gov/draft-permit-review-tapaha-dynamics-llc/open",
+      "https://www.datacenterdynamics.com/en/news/google-looks-to-expand-data-center-campus-outside-charlotte-north-carolina/"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Caldwell County and Lenoir jointly approved economic-development measures aimed at streamlining a possible expansion in October 2024. A 2026 $1 billion expansion was reported, but no building permit, construction milestone, CO, utility, or commissioning evidence was located.",
+      "new_value": "announced / local process: official city/county incentive action plus official 2026 Google investment announcement; no verified permit/construction/energization milestone located."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Google; Tapaha Dynamics, LLC appears in NCDEQ records for 708 Lynhaven Drive and industry reporting as Google's affiliate for the incentive filing."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

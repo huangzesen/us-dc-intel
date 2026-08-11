@@ -9,10 +9,12 @@
   "location": {
     "city": "Hutto",
     "county": "Williamson",
-    "state": "Texas"
+    "state": "Texas",
+    "address": "4200 County Road 132, Hutto, TX 78634"
   },
   "phase3_stable_id": "US-TX-SKYBOX-HUTTO-2024",
-  "status_as_of_cutoff": "Local tax-abatement agreement and two TDLR construction registrations are documented; municipal building permits and final occupancy were not found.",
+  "status_as_of_cutoff": "TDLR records document core/shell, initial-improvement, fit-out, and fit-up registrations for Buildings 1 and 2 at 4200 County Road 132, with owner Hutto Data Center Campus, LLC and current TDLR status Project Registered; municipal building-permit numbers, certificate of occupancy, and energized/live status were not verified.",
+  "evidence_grade": "official TDLR and Hutto City Council records for approvals/registrations; owner marketing for campus-scale capacity; no public municipal permit/CO evidence found",
   "actions": [
     {
       "id": "A25",
@@ -78,10 +80,76 @@
       "primary_url": "https://huttotx.new.swagit.com/videos/340522",
       "access_caveat": "Official meeting video/transcript; not a certified action record.",
       "notes": "Tax-incentive status."
+    },
+    {
+      "id": "A30",
+      "date": "2024-01-31",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Skybox-Hutto 1 Initial Improvements, Building 1, a 235,730-square-foot data-center shell interior-improvements project; status Project Registered, estimated cost $149,000,000, start 2024-01-01, completion 2026-06-30.",
+      "vote_tally": null,
+      "case_or_number": "TABS2024010542",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024010542",
+      "access_caveat": "TDLR architectural-barriers registration is not the Hutto municipal building permit or a certificate of occupancy.",
+      "notes": "Building 1 improvement registration."
+    },
+    {
+      "id": "A31",
+      "date": "2024-04-16",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered SKYBOX-HUTTO 1 Fit Out, Building 1, a 235,730-square-foot tenant fit-out to an existing data-center building; status Project Registered, estimated cost $163,000,000, start 2024-06-01, completion 2024-12-01.",
+      "vote_tally": null,
+      "case_or_number": "TABS2024016331",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024016331",
+      "access_caveat": "TDLR architectural-barriers registration is not the Hutto municipal building permit or a certificate of occupancy.",
+      "notes": "Building 1 fit-out registration."
+    },
+    {
+      "id": "A32",
+      "date": "2025-08-28",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Skybox-Hutto 2 Fit Out, Building 2, a 234,820-square-foot tenant fit-out including hot-aisle containment, busways, cable trays, and office space; status Project Registered, estimated cost $125,000,000, start 2025-10-01, completion 2026-06-01.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025026905",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2025026905",
+      "access_caveat": "TDLR architectural-barriers registration is not the Hutto municipal building permit or a certificate of occupancy.",
+      "notes": "Building 2 fit-out registration."
+    },
+    {
+      "id": "A33",
+      "date": "2025-09-19",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Skybox-Hutto 2 Fit Up, Building 2, a 234,820-square-foot owner-operations interior-improvements project including security offices, loading dock, MEP support, and data-center interior shell walls; status Project Registered, estimated cost $470,000,000, start 2025-10-15, completion 2026-10-15.",
+      "vote_tally": null,
+      "case_or_number": "TABS2026001377",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026001377",
+      "access_caveat": "TDLR architectural-barriers registration is not the Hutto municipal building permit or a certificate of occupancy.",
+      "notes": "Building 2 fit-up registration."
+    },
+    {
+      "id": "A34",
+      "date": "2026-02-05",
+      "body": "Hutto City Council",
+      "meeting_date": "2026-02-05",
+      "action_type": "development-agreement assignment and assumption",
+      "result_or_status": "Official Hutto archive PDF for a 2026 resolution references a February 5, 2026 effective date and assignment/assumption by Hutto Data Center Campus LLC; full text was not machine-extractable in this refresh.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://www.huttotx.gov/Archive/ViewFile/Item/1864",
+      "access_caveat": "Official city archive PDF was accessible, but text extraction returned blank pages; indexed snippet identifies the effective date and assignor.",
+      "notes": "Development-agreement continuity item; needs manual PDF/OCR review for assignee and vote details."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 400,
+  "capacity_notes": "Skybox's current Austin location page markets PowerCampus Austin in Hutto as 1,280,000 square feet with up to 400 MW critical load. Skybox brochures also market 600 MW/3,880,000 square feet total-load design; retained as a capacity-scope caveat rather than replacing critical-load capacity.",
+  "owner": "Hutto Data Center Campus, LLC; Skybox Datacenters / Prologis development partnership",
   "sources": {
     "phase3_stable_id": "US-TX-SKYBOX-HUTTO-2024",
     "phase3_source_file": "phase3/county_tx.json",
@@ -91,9 +159,44 @@
       "US-TX-SKYBOX-HUTTO-2024"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "authoritative_urls": [
+      "https://www.huttotx.gov/DocumentCenter/View/3529/Hutto-Data-Center-Campus-LLC--May-4-2023pdf",
+      "https://www.huttotx.gov/Archive/ViewFile/Item/681",
+      "https://www.huttotx.gov/Archive/ViewFile/Item/1864",
+      "https://www.huttotx.gov/163/Building-Permit-Applications",
+      "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024003524",
+      "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024010542",
+      "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024015381",
+      "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024016331",
+      "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2025026905",
+      "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026001377",
+      "https://www.skyboxdatacenters.com/locations/austin",
+      "https://www.skyboxdatacenters.com/images/PowerCampus-Austin-Brochure-Final.pdf",
+      "https://www.skyboxdatacenters.com/images/PC-Austin-Brochure-Final-Formatting.pdf"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "capacity_mw",
+      "description": "Skybox's current Austin location page lists PowerCampus Austin as up to 400 MW critical load and 1,280,000 SF, while Skybox brochure PDFs market 600 MW and 3,880,000 SF/total-load design. data.json capacity_mw uses the current critical-load page; brochure figures remain in capacity_notes.",
+      "sources": [
+        "https://www.skyboxdatacenters.com/locations/austin",
+        "https://www.skyboxdatacenters.com/images/PowerCampus-Austin-Brochure-Final.pdf",
+        "https://www.skyboxdatacenters.com/images/PC-Austin-Brochure-Final-Formatting.pdf"
+      ]
+    },
+    {
+      "topic": "status",
+      "description": "TDLR records list each project as Project Registered and do not prove municipal permit issuance, occupancy, energization, or live service. Some third-party trackers mark the campus operational or under construction; these were not used to upgrade official status.",
+      "sources": [
+        "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024003524",
+        "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024016331",
+        "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026001377",
+        "https://www.datacenter.fyi/facility/skybox-powercampus-austin-tx-2cc13724"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

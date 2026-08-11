@@ -9,11 +9,35 @@
   "location": {
     "city": "Mishawaka/Granger",
     "county": "St. Joseph",
-    "state": "IN"
+    "state": "IN",
+    "site_description": "Approximately 900 acres between Bittersweet Road and Currant Road in Granger, with I-90 as the northern project border; local coverage also describes the site near Currant and Cleveland roads."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "B",
+  "status_history": [
+    {
+      "as_of": "2026-07-16",
+      "status": null,
+      "reason": "Baseline extraction had no independently refreshed status."
+    },
+    {
+      "as_of": "2026-08-11",
+      "status": "site work-construction",
+      "reason": "Microsoft's May 2026 community boards described planned May-June site-preparation mobilization and spring 2026 early mass grading; June 2026 local reporting observed dust from the active Microsoft data-center construction site. Vertical/building construction remains pending local approvals per Microsoft."
+    }
+  ],
   "actions": [
+    {
+      "date": "2024-05-14",
+      "body": "St. Joseph County Council",
+      "action_type": "rezoning",
+      "exact_result_status": "County Council voted 6-3 to rezone roughly 900 acres surrounding St. Joe Farm from agricultural to industrial use.",
+      "vote_tally": "6-3",
+      "case_or_permit_number": null,
+      "primary_url": "https://wsbt.com/news/local/st-joe-farm-land-rezoned-agricultural-industrial-economic-development-informational-clarity-vote-county-council-granger-st-joseph-county-indiana",
+      "access_caveat": "Local media account of county action; St. Joseph County's St. Joe Farms page appeared in search but was Cloudflare-blocked during this refresh."
+    },
     {
       "date": "2025-08-26",
       "body": "City of Mishawaka Board of Public Works and Safety; Mishawaka Utility Board; St. Joseph County Board of Commissioners; St. Joseph County Water and Sewer District; Granger Water LLC",
@@ -33,10 +57,30 @@
       "case_or_permit_number": null,
       "primary_url": "https://mishawaka.in.gov/news/microsoft-is-working-through-the-datacenter-development-process-in-northern-indiana/",
       "access_caveat": "Official city statement accessible; it is not a final plan-commission or council decision."
+    },
+    {
+      "date": "2026-05-19",
+      "body": "Microsoft",
+      "action_type": "community meeting / site-preparation schedule disclosure",
+      "exact_result_status": "Microsoft stated it was early in the development process; the site was zoned for datacenter development, building design was underway, site-preparation mobilization was expected in May-June 2026, and building construction was expected in late Fall 2026 or early 2027 pending all necessary local-jurisdiction approvals.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://local.microsoft.com/wp-content/uploads/2026/05/St-Joseph-Boards-May2026.pdf",
+      "access_caveat": "Official Microsoft community-board PDF; this is a project schedule disclosure, not a permit record."
+    },
+    {
+      "date": "2026-06-01",
+      "body": "WSBT; St. Joseph County economic development; Microsoft spokesperson",
+      "action_type": "site-work observation / construction-impact report",
+      "exact_result_status": "Local reporting described a Microsoft data-center construction site at the former St. Joe Farm property near Currant and Cleveland roads, observed heavy dust from the site, and reported that Microsoft said it was working with the general contractor to mitigate dust.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://wsbt.com/news/local/microsoft-data-center-project-causes-dust-concerns-in-st-joseph-county-construction-environmental-impact-environment-residents-homes-thick-air-dust-site-st-joe-farm-property-cleveland-road-granger-indiana",
+      "access_caveat": "Local media observation and statements; sufficient to support site-work status when paired with Microsoft official May 2026 site-preparation schedule, but not sufficient for building permit or energization status."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Microsoft",
   "sources": {
     "phase3_stable_id": "IN-MISHAWAKA-MICROSOFT-STJOE",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -44,9 +88,30 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3\u2194regional stable-ID pair; seed merged only with explicit evidence",
+    "official_city_mou": "https://mishawaka.in.gov/news/city-of-mishawaka-and-regional-partners-sign-mou-to-support-water-sewer-service-and-wastewater-expansion/",
+    "official_city_development_process": "https://mishawaka.in.gov/news/microsoft-is-working-through-the-datacenter-development-process-in-northern-indiana/",
+    "official_microsoft_indiana": "https://local.microsoft.com/communities/americas/indiana/",
+    "official_microsoft_st_joseph_meeting_recap": "https://local.microsoft.com/blog/st-joseph-county-public-meeting-recap/",
+    "official_microsoft_st_joseph_meeting_boards": "https://local.microsoft.com/wp-content/uploads/2026/05/St-Joseph-Boards-May2026.pdf",
+    "local_media_2024_rezoning": "https://wsbt.com/news/local/st-joe-farm-land-rezoned-agricultural-industrial-economic-development-informational-clarity-vote-county-council-granger-st-joseph-county-indiana",
+    "local_media_2026_site_work": "https://wsbt.com/news/local/microsoft-data-center-project-causes-dust-concerns-in-st-joseph-county-construction-environmental-impact-environment-residents-homes-thick-air-dust-site-st-joe-farm-property-cleveland-road-granger-indiana",
+    "industry_tracker_datacentermap": "https://www.datacentermap.com/usa/indiana/south-bend/microsoft-mishawaka/",
+    "industry_tracker_cleanview": "https://cleanview.co/data-centers/indiana/1991/microsoft-granger-data-center",
+    "industry_tracker_interconnection_fyi": "https://www.interconnection.fyi/data-center/project/microsoft-granger-99b88b4f"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "description": "Third-party trackers conflict: DataCenterMap and Cleanview label the project as 1000 MW, while Interconnection.fyi labels it 250+ MW. Official city/Microsoft sources reviewed in this refresh did not state a megawatt capacity. capacity_mw remains null pending official, utility, or permit-backed evidence.",
+      "sources": [
+        "https://www.datacentermap.com/usa/indiana/south-bend/microsoft-mishawaka/",
+        "https://cleanview.co/data-centers/indiana/1991/microsoft-granger-data-center",
+        "https://www.interconnection.fyi/data-center/project/microsoft-granger-99b88b4f",
+        "https://local.microsoft.com/wp-content/uploads/2026/05/St-Joseph-Boards-May2026.pdf"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

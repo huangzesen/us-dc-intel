@@ -8,22 +8,25 @@
   "location": {
     "city": "Cedar Rapids",
     "county": "Linn",
-    "state": "IA"
+    "state": "IA",
+    "address": "6200 76th Ave SW, Cedar Rapids, IA 52228",
+    "site": "612 acres in the Big Cedar Industrial Center"
   },
   "phase3_stable_id": "IA-CEDAR-RAPIDS-QTS",
-  "status_as_of_cutoff": "Locally approved/early development; construction start, MW, energization, and completion were not established in the reviewed public record.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11; City records show development-agreement approval, final plats, annexation, and a July 2025 commercial building permit for Project Hawkeye at 6200 76th Ave SW. No public evidence found for energization, live service, or full buildout.",
+  "evidence_grade": "A for local approvals/permit and construction status; B for capacity because MW is from contractor disclosure rather than municipal permit text.",
   "actions": [
     {
       "date": "2025-01-28",
       "date_precision": "day",
       "government_body": "City of Cedar Rapids",
-      "action_type": "development-agreement approval (reported in official utility announcement)",
-      "result_status": "Alliant Energy's official announcement says the City Council approved the development agreement for the QTS campus. The announcement does not publish a roll-call tally or the agreement number; it is not building-permit or construction evidence.",
-      "vote_tally": "not published",
-      "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.alliantenergy.com/news/news-center/2025/02/021225-qtsannouncementcr",
-      "access_caveat": "The primary accessible record is Alliant's official announcement rather than a City packet; no municipal vote sheet was located in the reviewed search.",
-      "evidence_note": "Approval date is retained as reported; no tally is reconstructed."
+      "action_type": "development-agreement approval",
+      "result_status": "City Council approved Resolution 0072-01-25 authorizing the development agreement with QTS Cedar Rapids I, LLC for a data center campus along 76th Ave SW.",
+      "vote_tally": "Ayes: Maier, Scott Olson, Overland, Poe, Todd, Vanorny, Mayor O'Donnell; Abstain: Tyler Olson",
+      "case_or_ordinance_permit_number": "Res. 0072-01-25 / TIF-0003-2024",
+      "primary_url": "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Project-Development-Agreement-Approval.pdf",
+      "access_caveat": null,
+      "evidence_note": "Supersedes baseline caveat that only the Alliant announcement was accessible."
     },
     {
       "date": "2025-02-13",
@@ -36,10 +39,71 @@
       "primary_url": "https://www.alliantenergy.com/news/news-center/2025/02/021225-qtsannouncementcr",
       "access_caveat": "Company/utility announcement; local approval details are not attached.",
       "evidence_note": "Scale and identity evidence only."
+    },
+    {
+      "date": "2025-04-22",
+      "date_precision": "day",
+      "government_body": "City of Cedar Rapids",
+      "action_type": "final plat approval",
+      "result_status": "City Council approved Data Center Campus First Addition final plat for QTS Cedar Rapids II LLC, including three numbered lots and associated utility/stormwater agreements.",
+      "vote_tally": "Ayes: Hoeger, Maier, Scott Olson, Tyler Olson, Overland, Poe, Todd, Vanorny, Mayor O'Donnell",
+      "case_or_ordinance_permit_number": "Res. 0459-04-25 / FLPT-000895-2024",
+      "primary_url": "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/Data-Center-Campus-First-Addition-Final-Plat.pdf",
+      "access_caveat": null,
+      "evidence_note": "Land-use/subdivision evidence; not occupancy or energization evidence."
+    },
+    {
+      "date": "2025-05-13",
+      "date_precision": "day",
+      "government_body": "City of Cedar Rapids",
+      "action_type": "final plat approval",
+      "result_status": "City Council approved Data Center Campus Second Addition final plat for QTS Cedar Rapids I LLC, including four numbered lots and associated utility/stormwater agreements.",
+      "vote_tally": "Ayes: Hoeger, Maier, Tyler Olson, Overland, Poe, Todd, Vanorny, Mayor O'Donnell",
+      "case_or_ordinance_permit_number": "Res. 0521-05-25 / FLPT-000176-2025",
+      "primary_url": "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/Data-Center-Campus-Second-Addition-Final-Plat.pdf",
+      "access_caveat": null,
+      "evidence_note": "Land-use/subdivision evidence; not occupancy or energization evidence."
+    },
+    {
+      "date": "2025-07-08",
+      "date_precision": "day",
+      "government_body": "City of Cedar Rapids Building Services",
+      "action_type": "commercial building permit issuance",
+      "result_status": "Monthly permit report lists BP-004516-2025, Commercial, Issued, 6200 76TH AVE SW, PROJECT HAWKEYE-SUPERSTRUCTURE INTERIOR FINISH-NEW, valuation $1,011,447,385.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "BP-004516-2025",
+      "primary_url": "https://cms8.revize.com/revize/cedarrapids/Building%20Services/Monthly%20Permit%20Reports/2025/7%20July.pdf",
+      "access_caveat": "Permit report uses project code Project Hawkeye; QTS linkage inferred from same 6200 76th Ave SW campus address disclosed by QTS and City project pages.",
+      "evidence_note": "Supports status upgrade to site work-construction/building-permitted; does not establish occupancy or live service."
+    },
+    {
+      "date": "2025-12-02",
+      "date_precision": "day",
+      "government_body": "City of Cedar Rapids",
+      "action_type": "amended and restated development-agreement approval",
+      "result_status": "City Council approved amended and restated development agreement adding related property owners and additional project phases.",
+      "vote_tally": "Ayes: Hoeger, Maier, Scott Olson, Tyler Olson, Overland, Poe, Todd, Vanorny, Mayor O'Donnell",
+      "case_or_ordinance_permit_number": "Res. 1409-12-25 / TIF-0003-2024",
+      "primary_url": "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Amended-and-Restated-Development-Agreement-Approval.pdf",
+      "access_caveat": null,
+      "evidence_note": "The memorandum says the amended/restated agreement incorporates property owners and authorizes five additional project phases."
+    },
+    {
+      "date": "2026-01-13",
+      "date_precision": "day",
+      "government_body": "City of Cedar Rapids",
+      "action_type": "voluntary annexation approval",
+      "result_status": "City Council annexed QTS Cedar Rapids Land, LLC / Iowa Land and Building property at 76th Avenue and Tissel Hollow Road into Cedar Rapids.",
+      "vote_tally": "Ayes: Hoeger, Maier, Scott Olson, Tyler Olson, Overland, Poe, Todd, Vanorny, Mayor O'Donnell",
+      "case_or_ordinance_permit_number": "Res. 0005-01-26 / ANNX-000693-2025",
+      "primary_url": "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Annexation-at-76th-Avenue-and-Tissel-Hollow-Road.pdf",
+      "access_caveat": null,
+      "evidence_note": "Jurisdictional/boundary evidence."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 420,
+  "capacity_mw_source_note": "The 420 MW figure is from The Weitz Company's QTS Data Center Campus project page, not a City permit field; treat as contractor-disclosed planned capacity until confirmed by QTS or local permit documents.",
+  "owner": "QTS Cedar Rapids I, LLC / QTS Data Centers",
   "sources": {
     "phase3_stable_id": "IA-CEDAR-RAPIDS-QTS",
     "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
@@ -47,9 +111,56 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_urls": [
+      "https://www.economicdevelopmentcr.com/data-centers",
+      "https://www.cedar-rapids.org/news_detail_T6_R2180.php",
+      "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Project-Development-Agreement-Approval.pdf",
+      "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Project-Development-Agreement.pdf",
+      "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/Data-Center-Campus-First-Addition-Final-Plat.pdf",
+      "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/Data-Center-Campus-Second-Addition-Final-Plat.pdf",
+      "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Amended-and-Restated-Development-Agreement-Approval.pdf",
+      "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Amended-and-Restated-Development-Agreement.pdf",
+      "https://www.economicdevelopmentcr.com/wp-content/uploads/2026/07/QTS-Annexation-at-76th-Avenue-and-Tissel-Hollow-Road.pdf",
+      "https://cms8.revize.com/revize/cedarrapids/Building%20Services/Monthly%20Permit%20Reports/2025/7%20July.pdf"
+    ],
+    "company_and_utility_urls": [
+      "https://q.com/data-centers/cedar-rapids/",
+      "https://www.alliantenergy.com/our-energy/data-centers",
+      "https://www.alliantenergy.com/news/news-center/2025/02/021225-qtsannouncementcr"
+    ],
+    "contractor_urls": [
+      "https://www.weitz.com/projects/qts-data-center-campus/",
+      "https://orascom.com/projects/qts-data-center-campus/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "investment scale",
+      "note": "City/Alliant 2025 announcement and City economic-development page retain minimum $750 million / estimated $4.5 billion framing, while QTS, Alliant's large-user page, and Weitz describe planned $10 billion long-term investment. Recorded as scale update rather than a hard contradiction because the figures appear to refer to minimum/estimated/long-term scopes."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "field": "status_as_of_cutoff",
+      "old_value": "Locally approved/early development; construction start, MW, energization, and completion were not established in the reviewed public record.",
+      "new_value": "site work-construction as of 2026-08-11; City records show development-agreement approval, final plats, annexation, and a July 2025 commercial building permit for Project Hawkeye at 6200 76th Ave SW. No public evidence found for energization, live service, or full buildout."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": 420,
+      "note": "Added from contractor disclosure; not yet confirmed by City/QTS permit text."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "QTS Cedar Rapids I, LLC / QTS Data Centers"
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

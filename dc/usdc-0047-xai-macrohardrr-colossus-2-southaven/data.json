@@ -15,7 +15,7 @@
     "state": "MS"
   },
   "phase3_stable_id": "MS-003",
-  "status_as_of_cutoff": "State-announced retrofit/new phase with disputed air-power status. Public government materials located do not establish a final MDEQ air permit, building permit, CO, or lawful energized operation for the Southaven phase.",
+  "status_as_of_cutoff": "approved-permitted / site work-construction for the Southaven power component as of 2026-08-11. MDEQ enSearch lists MZX Tech LLC at 2875 Stanton Road, Southaven with PSD air-construction permit 0680-00119 issued 2026-03-11 and construction stormwater coverage MSR109658. A 2026-07-30 MDEQ/MZX agreed order states 69 portable temporary turbines are operating at the Stanton Road facility, bars additional mobile turbines after 2026-07-15, and sets retirement/reporting/testing conditions while permanent 41-turbine power construction proceeds. Public sources still do not establish a building permit, certificate of occupancy, grid interconnection, or full buildout for the MACROHARDRR/Southaven data-center phase.",
   "actions": [
     {
       "date": "2026-01-08",
@@ -40,10 +40,86 @@
       "primary_url": "https://www.epw.senate.gov/public/_cache/files/d/d/ddb47040-2070-4947-b9e4-33ebdeec63b2/8E78983C37084D41FBF7C84A1316686A668FC405556F6995C9CA8E3253FC8386.letter-to-epa-re-xai.pdf",
       "access_caveat": "Congressional oversight letter is not the MDEQ permit file or an enforcement order; allegation is labeled as such.",
       "evidence_note": "This preserves the public dispute without converting it into a final regulatory finding."
+    },
+    {
+      "date": "2026-03-11",
+      "date_precision": "day",
+      "government_body": "Mississippi Department of Environmental Quality / enSearch Online",
+      "action_type": "air construction PSD permit issued",
+      "result_status": "MDEQ enSearch lists active permit Air - Air-Construction PSD 0680-00119 for MZX Tech LLC with issue date 2026-03-11 and application status 'Permit Issued'.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "0680-00119",
+      "primary_url": "https://opcgis.deq.state.ms.us/ensearchonline/ai_info.aspx?ai=12592",
+      "access_caveat": "MDEQ enSearch states it is informational and not a legal substitute for official administrative files.",
+      "evidence_note": "This upgrades the air-power component from disputed/no final permit to approved-permitted for the listed PSD construction permit."
+    },
+    {
+      "date": "2026-03-13",
+      "date_precision": "day",
+      "government_body": "Mississippi Department of Environmental Quality / enSearch Online",
+      "action_type": "construction general permit coverage issued",
+      "result_status": "MDEQ enSearch lists active General Permit - Construction Modification MSR109658 for MZX Tech LLC with issue date 2026-03-13; current general-permit application status dated 2026-06-26 is 'Notice of Intent for General Permit Coverage Received'.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "MSR109658",
+      "primary_url": "https://opcgis.deq.state.ms.us/ensearchonline/ai_info.aspx?ai=12592",
+      "access_caveat": "The listed coverage confirms environmental permitting activity, not vertical building permit issuance or occupancy.",
+      "evidence_note": "Supports site-work/construction classification for the Stanton Road facility."
+    },
+    {
+      "date": "2026-05-19",
+      "date_precision": "day",
+      "government_body": "Mississippi Department of Environmental Quality / enSearch Online",
+      "action_type": "water pretreatment application receipt acknowledged",
+      "result_status": "MDEQ enSearch lists Water / Pretreatment MSP092491 status dated 2026-05-19 as 'Issue Letter Acknowledging Receipt of Application'.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "MSP092491",
+      "primary_url": "https://opcgis.deq.state.ms.us/ensearchonline/ai_info.aspx?ai=12592",
+      "access_caveat": "Acknowledgment of application receipt is not approval or operating authorization.",
+      "evidence_note": "Tracked as an active environmental process item."
+    },
+    {
+      "date": "2026-07-30",
+      "date_precision": "day",
+      "government_body": "Mississippi Commission on Environmental Quality / MDEQ and MZX Tech LLC",
+      "action_type": "agreed order for temporary mobile turbines",
+      "result_status": "Agreed order states MZX operates 69 portable temporary simple-cycle natural-gas-fired combustion turbines at 2875 Stanton Road, Southaven; no additional mobile turbines may be brought on site after 2026-07-15; MZX must follow retirement deadlines, bi-weekly deactivation reporting, and emissions testing/monitoring requirements.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://earthjustice.org/document/mdeq-mzx-tech-agreed-order",
+      "access_caveat": "The accessible copy is hosted by Earthjustice but is styled as a Mississippi Commission on Environmental Quality / MDEQ agreed order signed in July 2026.",
+      "evidence_note": "Confirms temporary operating turbines and regulatory conditions without treating the mobile turbines as separately permitted stationary units."
+    },
+    {
+      "date": "2026-07-30",
+      "date_precision": "day",
+      "government_body": "SpaceXAI / xAI",
+      "action_type": "company site update",
+      "result_status": "Company update says it entered an agreed order with MDEQ for all 69 temporary mobile turbines, expects removal to begin as early as August 2026 and complete by July 2027, and says the permanent 1.2 GW power plant under construction consists of 41 permanent turbines authorized by a March 2026 Clean Air Act permit.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://x.ai/memphis/updates",
+      "access_caveat": "Company statement; use with MDEQ record/agreed order for regulatory facts.",
+      "evidence_note": "Provides current company framing for removal schedule and 1.2 GW permanent-power claim."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": {
+    "announced_compute_cluster_mw": 2000,
+    "announced_compute_cluster_basis": "Governor/xAI January 2026 announcement says the Southaven data center will take Colossus training compute to nearly/~2 GW upon completion.",
+    "permitted_stationary_power_mw": 1200,
+    "permitted_stationary_power_basis": "SpaceXAI July 30, 2026 update describes a 1.2 GW permanent power plant under construction with 41 permanent turbines authorized by a March 2026 Clean Air Act permit.",
+    "temporary_mobile_turbines_count": 69,
+    "temporary_mobile_turbines_basis": "July 2026 MDEQ/MZX agreed order inventory lists 69 portable temporary turbines at the Stanton Road facility.",
+    "temporary_mobile_expected_local_power_output_mw": 1702,
+    "temporary_mobile_nameplate_capacity_mw": 1775.72,
+    "temporary_mobile_capacity_basis": "Calculated from the agreed-order Appendix A inventory: expected local output totals 1,702 MW and nameplate capacity totals 1,775.72 MW.",
+    "confidence": "medium",
+    "caveat": "Power-generation capacity is not proof of energized data-center IT load or full buildout."
+  },
+  "owner": {
+    "project_company": "MZX Tech LLC",
+    "affiliate_or_parent": "xAI / SpaceXAI",
+    "basis": "MDEQ enSearch lists MZX Tech LLC for the Stanton Road facility; state and company sources describe the Southaven data center/power expansion as xAI/SpaceXAI."
+  },
   "sources": {
     "phase3_stable_id": "MS-003",
     "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
@@ -51,9 +127,58 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://opcgis.deq.state.ms.us/ensearchonline/ai_info.aspx?ai=12592",
+      "https://earthjustice.org/document/mdeq-mzx-tech-agreed-order",
+      "https://x.ai/memphis/updates",
+      "https://governorreeves.ms.gov/tech-leader-xai-investing-more-than-20-billion-in-southaven/",
+      "https://southaven.org/Blog.aspx?IID=220",
+      "https://earthjustice.org/wp-content/uploads/2026/02/2026.02.13-final-xai-southaven-noi-with-exhibit-a.pdf"
+    ],
+    "last_refresh": "2026-08-11"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "temporary mobile turbine legal status",
+      "as_of": "2026-08-11",
+      "summary": "MDEQ/MZX agreed order says operation of listed mobile turbines without separate construction or operating permits has not violated Mississippi air permitting requirements if order conditions are met; environmental groups and the February 2026 notice-of-intent/litigation materials allege Clean Air Act violations for unpermitted turbine operation.",
+      "sources": [
+        "https://earthjustice.org/document/mdeq-mzx-tech-agreed-order",
+        "https://earthjustice.org/wp-content/uploads/2026/02/2026.02.13-final-xai-southaven-noi-with-exhibit-a.pdf"
+      ]
+    },
+    {
+      "topic": "capacity framing",
+      "as_of": "2026-08-11",
+      "summary": "State/company materials frame the Southaven expansion as nearly/~2 GW of compute and 1.2 GW of permanent power; MDEQ's public facility record verifies permit status but does not independently establish completed data-center load, certificate of occupancy, or full buildout.",
+      "sources": [
+        "https://governorreeves.ms.gov/tech-leader-xai-investing-more-than-20-billion-in-southaven/",
+        "https://x.ai/memphis/updates",
+        "https://opcgis.deq.state.ms.us/ensearchonline/ai_info.aspx?ai=12592"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "State-announced retrofit/new phase with disputed air-power status. Public government materials located do not establish a final MDEQ air permit, building permit, CO, or lawful energized operation for the Southaven phase.",
+      "new_value": "approved-permitted / site work-construction for the Southaven power component; temporary mobile turbines operating under MDEQ agreed-order conditions; no public building permit/CO/full buildout verified."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": "Structured capacity object added for announced compute, permitted stationary power, and temporary mobile turbine inventory."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "MZX Tech LLC as project company / xAI-SpaceXAI affiliate or parent."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

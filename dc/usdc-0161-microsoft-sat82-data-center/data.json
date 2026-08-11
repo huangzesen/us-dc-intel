@@ -3,25 +3,121 @@
   "canonical_project": "Microsoft SAT82 data center",
   "aliases": [
     "Microsoft Castroville campus",
-    "Microsoft SAT82 data center"
+    "Microsoft SAT82 data center",
+    "SAT82 Data Center",
+    "SAT 82"
   ],
   "location": {
     "city": "Castroville",
     "county": "Medina",
-    "state": "Texas"
+    "state": "Texas",
+    "address": "3580 FM 471 N, Castroville, TX 78009",
+    "alternate_or_prior_filing_address": "18844 FM 1957 Castroville, Castroville, TX 78009"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
+  "status_as_of_cutoff": "local process: Texas TDLR has two official SAT82 Architectural Barriers records in Medina County. The newer TABS2026008231 record for Microsoft SAT82 at 3580 FM 471 N was registered 2025-12-17 and remains Project Registered with a planned 2026-08-13 start and 2028-07-24 completion. An older TABS2024023976 SAT82 record at 18844 FM 1957 was registered 2024-07-25 and is Review Complete with a 2026-04-11 start and 2028-02-08 completion. No official local building permit, construction inspection, certificate of occupancy, utility interconnection, energization, or live-service evidence was verified in this refresh.",
+  "evidence_grade": "B: official TDLR state accessibility records establish owner, scope, address, cost, dates, and review/registration status; Microsoft confirms Medina County datacenter operations generally. Building-permit, construction-start, MW capacity, and energization evidence were not located.",
+  "actions": [
+    {
+      "date": "2024-07-25",
+      "government_body": "Texas Department of Licensing and Regulation",
+      "action_type": "Architectural Barriers project registration",
+      "result_status": "Review Complete",
+      "details": "TABS2024023976: SAT82 Data Center at 18844 FM 1957 Castroville; new one-story 5-colo data center, 244,676 gross sq ft, estimated cost $482,600,000, planned start 2026-04-11 and completion 2028-02-08.",
+      "source_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024023976"
+    },
+    {
+      "date": "2025-12-17",
+      "government_body": "Texas Department of Licensing and Regulation",
+      "action_type": "Architectural Barriers project registration",
+      "result_status": "Project Registered",
+      "details": "TABS2026008231: Microsoft SAT82 Data Center / SAT82 at 3580 FM 471 N; new one-story 5-colo data center with Tier II IDF and Tier II AZNG networks, 195,670 sq ft, estimated cost $400,000,000, planned start 2026-08-13 and completion 2028-07-24.",
+      "source_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026008231"
+    },
+    {
+      "date": "2026-08-11",
+      "government_body": "Microsoft",
+      "action_type": "company/community location confirmation",
+      "result_status": "Current public page reviewed",
+      "details": "Microsoft's Greater San Antonio local page states that Microsoft operates datacenters in Bexar and Medina counties, but it does not identify SAT82 by building, capacity, construction status, or service date.",
+      "source_url": "https://local.microsoft.com/communities/americas/greater-san-antonio/"
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Microsoft",
   "sources": {
     "phase2_seed_stable_id": "US-TX-MICROSOFT-SAT82-CASTROVILLE-2024",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
-    "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "authoritative_layer": "official-state-registration",
+    "match_reason": "TDLR records independently verify SAT82 name, Microsoft ownership, Medina County/Castroville location, scope, cost, and planned dates; two official SAT82 filings use different addresses and may be separate buildings or a replaced/refiled project.",
+    "official": [
+      {
+        "title": "TDLR TABS2026008231 - Microsoft SAT82 Data Center",
+        "url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026008231",
+        "date": "2025-12-17"
+      },
+      {
+        "title": "TDLR TABS2024023976 - SAT82 Data Center",
+        "url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024023976",
+        "date": "2024-07-25"
+      },
+      {
+        "title": "Microsoft Local - Greater San Antonio, Texas",
+        "url": "https://local.microsoft.com/communities/americas/greater-san-antonio/",
+        "date": "2026-08-11"
+      }
+    ],
+    "industry_media": [
+      {
+        "title": "Data Center Dynamics - Microsoft plans $400m data center in Castroville, Texas",
+        "url": "https://www.datacenterdynamics.com/en/news/microsoft-plans-400m-data-center-in-castroville-texas/",
+        "date": "2026-01-12"
+      },
+      {
+        "title": "Data Center Map - Microsoft San Antonio (SAT81) / SAT82 events",
+        "url": "https://www.datacentermap.com/usa/texas/san-antonio/microsoft-san-antonio-sat82/",
+        "date": "2026-08-11"
+      }
+    ]
   },
-  "contradictions": [],
-  "seed_only": true,
-  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+  "contradictions": [
+    {
+      "topic": "SAT82 identity and address",
+      "details": "Two official TDLR records use SAT82 in Castroville/Medina County: TABS2024023976 at 18844 FM 1957 and TABS2026008231 at 3580 FM 471 N. DCD and Data Center Map both state it is unclear whether the December 2025 filing is an additional SAT82 building or replaces/discards the earlier filing.",
+      "sources": [
+        "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024023976",
+        "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026008231",
+        "https://www.datacenterdynamics.com/en/news/microsoft-plans-400m-data-center-in-castroville-texas/",
+        "https://www.datacentermap.com/usa/texas/san-antonio/microsoft-san-antonio-sat82/"
+      ]
+    },
+    {
+      "topic": "construction status",
+      "details": "Some trackers label one or both SAT82 filings as under construction/construction, but the reviewed official TDLR records show Review Complete or Project Registered and no official building permit, inspection, CO, utility interconnection, or energization record was located.",
+      "sources": [
+        "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024023976",
+        "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026008231",
+        "https://www.zabalist.com/projects/TABS2024023976",
+        "https://www.zabalist.com/projects/TABS2026008231"
+      ]
+    }
+  ],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": null,
+      "new_value": "local process",
+      "reason": "Seed-only record gained primary TDLR evidence, but no official construction/energization proof was located."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "Microsoft",
+      "reason": "TDLR owner of record for TABS2026008231 is Microsoft and for TABS2024023976 is Microsoft Corporation."
+    }
+  ]
 }

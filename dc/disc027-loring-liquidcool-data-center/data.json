@@ -8,11 +8,30 @@
     "state": "Maine"
   },
   "capacity_mw": 6,
-  "status": "leased; planned conversion at former Loring Air Force Base warehouse",
-  "confidence": "high",
-  "evidence_date": "2025-10-21",
+  "capacity_notes": "Initial phase reported at 5-6 MW. March 2026 local reporting says the leased warehouse has 2 MW already available plus a Versant Power will-serve agreement for 24 MW; company has discussed potential expansion up to 50 MW, but financing and operational start were not confirmed.",
+  "status": "local process; long-term lease signed for Building No. 7230, but financing/permitting/operational start not confirmed",
+  "confidence": "medium-high",
+  "evidence_date": "2026-04-29",
   "sources": [
+    "https://loringcommercecentre.com/wp-content/uploads/2026/06/2025.10.23-LDA_-Board_-Meeting_-Minutes-Final.pdf",
+    "https://www.einpresswire.com/article/857649265/green-4-maine-campus-and-innovation-hub-at-loring-welcomes-liquidcool-solutions-launches-maine-s-first-ai-data-center",
+    "https://www.bangordailynews.com/2025/10/14/aroostook/aroostook-business/ai-data-center-loring-air-force-base/",
+    "https://thecounty.me/2026/03/10/news/maines-proposed-data-center-ban-could-restrict-facility-planned-at-loring/",
+    "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=307&snum=132",
     "https://www.datacenterdynamics.com/en/news/data-center-to-be-built-at-former-air-force-base-in-aroostook-county-maine/"
+  ],
+  "history": [
+    {
+      "refreshed_at": "2026-08-11",
+      "previous_capacity_mw": 6,
+      "previous_status": "leased; planned conversion at former Loring Air Force Base warehouse",
+      "previous_confidence": "high",
+      "previous_evidence_date": "2025-10-21"
+    }
+  ],
+  "contradictions": [
+    "Capacity is reported in several layers: initial 5-6 MW, 2 MW existing in Building No. 7230, 24 MW Versant will-serve, and potential 50 MW expansion. capacity_mw remains 6 for the initial phase; higher figures are noted but not treated as current operating capacity.",
+    "October 2025 sources projected operation roughly six months after announcement, but March 2026 reporting said financing was still being finalized and operation could be around six months after financing; no official operational confirmation was found in this refresh."
   ],
   "why_not_in_baseline": "Small-market former military/industrial-site conversion in northern Maine; baseline did not include Loring LiquidCool or Green 4 Maine campus.",
   "discovery_file": "candidates-secondary-markets.jsonl",

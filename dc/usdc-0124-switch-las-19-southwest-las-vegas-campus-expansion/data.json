@@ -11,16 +11,29 @@
     "state": "NV"
   },
   "phase3_stable_id": "US-NV-SWITCH-LAS19-CLARK-2026",
-  "status_as_of_cutoff": "Clark County’s June 17 zoning hearing is reported as approval of Switch LAS 19 items, with a condition and withdrawn landscaping waivers. The reviewed public record supports a land-use action, not building-permit issuance, construction start, utility allocation, or energization.",
+  "status_as_of_cutoff": "approved-permitted (land-use/zoning only): Clark County Zoning Commission / Board of County Commissioners records and local reporting support June 17, 2026 approval of the Switch LAS 19 / NV NAP 6 land-use package, including ZC-26-0260 and related waiver/design-review/subdivision items. No public building permit, construction start, project-specific capacity, utility interconnection, or energization evidence was verified in this refresh.",
+  "evidence_grade": "B: official Clark County agenda hub/Legistar surfaces and Enterprise TAB minutes verify the land-use case package, owner/applicant name, location, acreage and zoning request; local reporting confirms the June 17 approval, 56,000-57,000 sq ft building description, sidewalk-barrier condition, dry/closed-loop cooling statements, and withdrawn landscaping waivers. Building-permit, construction, energization, and LAS 19-specific MW capacity remain unverified.",
   "actions": [
+    {
+      "date": "2026-05-27",
+      "date_precision": "day",
+      "government_body": "Enterprise Town Advisory Board",
+      "action_type": "local advisory review of related land-use applications",
+      "result_status": "Official Enterprise TAB minutes list the NV NAP 6, LLC package, including ZC-26-0260, WS-26-0261, VS-26-0262, and TM-26-500067, for property generally east of Edmond Street and north of Warm Springs Road; the search result snippet confirms the zoning request to reclassify 1.94 acres and the location, but the PDF text was not fully extractable in this refresh.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "ZC-26-0260; WS-26-0261; VS-26-0262; TM-26-500067",
+      "primary_url": "https://www.clarkcountynv.gov/adobe/assets/urn%3Aaaid%3Aaem%3Ad4ed8019-cb02-45c1-a22a-a965241b2bc8/original/as/Enterprise-Minutes-052726.pdf",
+      "access_caveat": "Official PDF is accessible, but automated text extraction did not expose all matching rows; Google/Bing snippet indexed the relevant case text.",
+      "evidence_note": "Local-government advisory record; not final county approval or permit issuance."
+    },
     {
       "date": "2026-06-17",
       "date_precision": "day",
       "government_body": "Clark County Zoning Commission / Board of County Commissioners",
       "action_type": "rezoning and design-review action",
-      "result_status": "The county hearing record as indexed by the public meeting surface identifies ZC26-0260, an approximately 8.99-acre Switch LAS 19 expansion, IL-to-IP reclassification, and approval with conditions; the accessible county attachment did not expose a roll-call tally.",
+      "result_status": "County agenda/Legistar surfaces identify the June 17, 2026 zoning meeting and direct users to meeting details and file-level attachments; local reporting states the Switch LAS 19 items were approved with conditions and withdrawn landscaping waivers. The approval evidence remains limited to land-use/zoning and related development standards.",
       "vote_tally": "approved; tally not published in reviewed accessible record",
-      "case_or_ordinance_permit_number": "ZC26-0260",
+      "case_or_ordinance_permit_number": "ZC-26-0260",
       "primary_url": "https://www.clarkcountynv.gov/government/board_of_county_commissioners/county-meeting-agendas",
       "access_caveat": "County agenda hub is accessible, but the specific packet/attachment was not fully retrievable in this pass.",
       "evidence_note": "Approval is limited to the cited land-use items."
@@ -30,28 +43,40 @@
       "date_precision": "day",
       "government_body": "Clark County (reported by FOX5; county decision file not fully retrieved)",
       "action_type": "land-use approval with condition (reported)",
-      "result_status": "FOX5 reported county approval of Switch LAS 19 and a Warm Springs Road sidewalk-safety-barrier condition; this does not establish a building permit or power-on date.",
+      "result_status": "FOX5 reported county approval of Switch LAS 19 and a Warm Springs Road sidewalk-safety-barrier condition; Switch representatives described a roughly 56,000-square-foot building, closed-loop cooling with no daily water use beyond restrooms/kitchenettes, existing electric infrastructure including the Audet substation, and withdrawn landscaping waivers. This does not establish a building permit, construction start, capacity allocation, or power-on date.",
       "vote_tally": "reported unanimous",
-      "case_or_ordinance_permit_number": "ZC26-0260",
+      "case_or_ordinance_permit_number": "ZC-26-0260",
       "primary_url": "https://www.fox5vegas.com/2026/06/18/clark-county-approves-switch-data-center-project-southwest-valley-after-public-opposition/?outputType=amp",
       "access_caveat": "Press report used to preserve the reported condition and vote characterization while the county packet remained inaccessible.",
       "evidence_note": "Government action reported by press; no permit inference."
     },
     {
-      "date": "2026-07-16",
+      "date": "2026-06-18",
+      "date_precision": "day",
+      "government_body": "Clark County Zoning Commission (reported by KTNV)",
+      "action_type": "land-use approval corroboration (reported)",
+      "result_status": "KTNV reported unanimous county zoning approval for a nearly 57,000-square-foot Switch data center warehouse near Warm Springs Road and Edmond Street; the article describes resident concerns and county/Switch statements on closed-loop cooling and renewable-energy use.",
+      "vote_tally": "reported unanimous",
+      "case_or_ordinance_permit_number": "ZC-26-0260",
+      "primary_url": "https://www.ktnv.com/neighborhoods/southwest-las-vegas/residents-still-have-questions-after-switch-data-center-expansion-approved-in-southwest-las-vegas",
+      "access_caveat": "Secondary local-media corroboration, not a permit record.",
+      "evidence_note": "Supports approval and project scale; no building permit or energization inference."
+    },
+    {
+      "date": "2026-08-11",
       "date_precision": "day",
       "government_body": "Clark County Department of Comprehensive Planning / Building and NV Energy",
       "action_type": "permit and utility search (negative)",
-      "result_status": "No building permit, final site-plan closeout, inspection/CO, NV Energy interconnection, or energization record was located by the cutoff.",
+      "result_status": "Refresh searches did not locate a public building permit, final site-plan closeout, inspection/CO, NV Energy interconnection, LAS 19-specific MW allocation, or energization record.",
       "vote_tally": null,
-      "case_or_ordinance_permit_number": "ZC26-0260",
+      "case_or_ordinance_permit_number": "ZC-26-0260",
       "primary_url": "https://www.clarkcountynv.gov/government/departments/comprehensive_planning",
       "access_caveat": "County department page is a general surface and does not expose every permit record.",
       "evidence_note": "Negative search only."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Switch / NV NAP 6, LLC (project reported as Switch LAS 19; official local case name lists NV NAP 6, LLC)",
   "sources": {
     "phase3_stable_id": "US-NV-SWITCH-LAS19-CLARK-2026",
     "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
@@ -59,7 +84,16 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.clarkcountynv.gov/government/board_of_county_commissioners/county-meeting-agendas",
+      "https://clark.legistar.com/Calendar.aspx",
+      "https://www.clarkcountynv.gov/adobe/assets/urn%3Aaaid%3Aaem%3Ad4ed8019-cb02-45c1-a22a-a965241b2bc8/original/as/Enterprise-Minutes-052726.pdf",
+      "https://www.fox5vegas.com/2026/06/18/clark-county-approves-switch-data-center-project-southwest-valley-after-public-opposition/?outputType=amp",
+      "https://www.ktnv.com/neighborhoods/southwest-las-vegas/residents-still-have-questions-after-switch-data-center-expansion-approved-in-southwest-las-vegas",
+      "https://cleanview.co/data-centers/nevada/4280/switch-las-vegas-19",
+      "https://www.switch.com/las-vegas/"
+    ]
   },
   "contradictions": [],
   "seed_only": false,

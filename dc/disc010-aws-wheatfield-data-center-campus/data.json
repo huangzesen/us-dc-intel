@@ -1,21 +1,61 @@
 {
   "disc_id": "disc010",
   "canonical_project": "AWS Wheatfield Data Center Campus",
-  "owner": "Amazon Web Services",
+  "owner": "Amazon Web Services / Amazon Data Services",
   "location": {
     "city": "Wheatfield",
     "county": "Jasper County",
     "state": "IN"
   },
-  "capacity_mw": 473,
-  "status": "planned/proposed",
+  "capacity_mw": null,
+  "status": "approved-permitted - Jasper County approvals completed in June 2026; July county minutes reference Amazon site preparation and rough-grading permit prerequisites",
   "confidence": "high",
-  "evidence_date": "2026-06-03",
+  "evidence_date": "2026-08-11",
   "sources": [
+    "https://www.jaspercountyin.gov/agenda-library/county-commissioners/2026-county-commissioners-meetings/2026-county-commissioners-meetings-minutes/830-07-06-2026-jasper-county-commissioners-meeting-minutes/file",
+    "https://www.jaspercountyin.gov/government/documents/meeting-documents/county-commissioners/2026-county-commissioners-meetings/2026-county-commissioners-meetings-minutes/635-06-15-2026-jasper-county-commissioners-special-meeting-minutes/file",
+    "https://www.jaspercountyin.gov/agenda-library/county-council/2026-county-council-meetings/2026-county-council-meetings-minutes/823-06-16-2026-county-council-minutes/file",
+    "https://www.nisource.com/news/article/regulatory-approvals-underscore-strength-of-nisource-s-customer-focused-data-center-strategy-supporting-growth-in-indiana",
+    "https://www.nipsco.com/our-company/news-room/news-article/powering-indiana-s-future--how-nipsco--genco--and-amazon-keep-energy-reliable-and-affordable",
+    "https://www.aboutamazon.com/news/company-news/amazon-15-billion-indiana-data-centers",
     "https://www.datacenterdynamics.com/en/news/amazon-plans-nine-building-data-center-campus-in-wheatfield-indiana/",
     "https://constructionreviewonline.com/7bn-nine-building-data-center-by-amazon-in-wheatfield-indiana-advances-as-firm-presents-plans/"
   ],
+  "project_details": {
+    "investment_usd": 7000000000,
+    "site_acres": 304,
+    "planned_buildings": "up to 9",
+    "site_owner": "NIPSCO",
+    "nearby_asset": "R.M. Schahfer Generating Station"
+  },
   "why_not_in_baseline": "Not present in the 208 baseline canonical_project list; distinct from baseline AWS New Carlisle/Project Rainier and Hobart/Northern Indiana references by city/county/site.",
+  "contradictions": [
+    "Prior capacity_mw=473 appears to have been imported from Data Center Dynamics' separate Mumbai/India section in the same article, not from the Wheatfield project. Current reviewed sources support a broader Northern Indiana AWS/NIPSCO 2.4 GW regional/customer-load figure, but no Wheatfield-specific MW value.",
+    "Jasper County July 6, 2026 minutes state Ryan Construction was working with Amazon on site preparation and that rough grading required an improvement location permit after road-use agreements; they do not independently prove vertical construction or energization."
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous": 473,
+      "current": null,
+      "reason": "473 MW traces to the India portion of the DCD article; no source reviewed confirms project-specific Wheatfield MW."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "previous": "planned/proposed",
+      "current": "approved-permitted - Jasper County approvals completed in June 2026; July county minutes reference Amazon site preparation and rough-grading permit prerequisites",
+      "reason": "County July 6 minutes state the project was approved by Commissioners and Council in June and record road-use agreements tied to Amazon site preparation and rough-grading permit prerequisites."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "evidence_date",
+      "previous": "2026-06-03",
+      "current": "2026-08-11",
+      "reason": "Refreshed against Jasper County minutes, NiSource/NIPSCO regulatory updates, Amazon announcement, and industry/local coverage."
+    }
+  ],
   "discovery_file": "candidates-hyperscaler.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

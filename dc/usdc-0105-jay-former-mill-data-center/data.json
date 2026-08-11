@@ -9,38 +9,66 @@
   "location": {
     "city": "Jay",
     "county": "Franklin County",
-    "state": "ME"
+    "state": "ME",
+    "site": "former Androscoggin Mill / former paper mill",
+    "address_note": "Riley Road mill property; no parcel-level permit file was located in this refresh."
   },
   "phase3_stable_id": "US-ME-JAY-SENTINEL-2025",
-  "status_as_of_cutoff": "Stalled/on hold; construction was not verified. A June 2026 town-manager account reported Sentinel would not proceed at that point, superseding earlier live-project and policy-reporting context.",
+  "status_as_of_cutoff": "Stalled/on hold as of 2026-08-11; construction was not verified. State records show LD 307 was vetoed and the veto sustained in April 2026 because the bill lacked a Jay carveout, but June 2026 local reporting based on the Jay town manager's statement says Sentinel Data Centers notified JGT2 Redevelopment that it did not intend to move forward at that point. JGT2 was reported to be seeking other interested parties; no replacement operator, local permit, construction start, CO, utility interconnection, energization, or service evidence was located.",
+  "evidence_grade": "B: official state policy records plus local/town-manager reporting; no primary local permit or utility record located",
   "actions": [
+    {
+      "date": "2026-03-24",
+      "date_precision": "day",
+      "government_body": "Town of Jay Select Board",
+      "action_type": "local support / exemption request",
+      "result_status": "Local reporting says Tony McDonald of JGT2 Redevelopment asked the Select Board to support an exemption from LD 307 for the proposed former Androscoggin Mill data center; the board voted to have the town manager work with JGT2 on a letter of support to Governor Mills. This was political/support action, not a site-plan approval or building permit.",
+      "vote_tally": "reported as board support; exact official minutes not located",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.sunjournal.com/2026/03/25/developer-of-data-center-for-jay-mill-seeks-exemption-to-proposed-state-law/",
+      "access_caveat": "Local press report; the official town minutes/letter were not located through web search.",
+      "evidence_note": "Supports local-process/policy context only; not used to infer approval or construction."
+    },
     {
       "date": "2026-04-24",
       "date_precision": "day",
-      "government_body": "Not a government action; Associated Press report quoting Maine Governor",
+      "government_body": "Office of Governor Janet T. Mills",
       "action_type": "state policy / veto context",
-      "result_status": "Reporting on the veto of a statewide data-center moratorium identified the Jay project as part of the policy context; it did not approve the project.",
+      "result_status": "Governor Mills vetoed LD 307, a bill that would have created a Maine Data Center Coordination Council and temporarily limited certain data centers, saying she would have signed it if it exempted the project at the former Androscoggin Mill in Jay. The release described the Jay project as a $550 million redevelopment under contract with several permits, but did not identify permit numbers or constitute a local project approval.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://apnews.com/article/352ad4fbd531d905b9415258692b318f",
-      "access_caveat": "Major-press context, not a local permit or project approval.",
-      "evidence_note": "Policy context kept separate from project action."
+      "primary_url": "https://www.maine.gov/governor/mills/news/governor-mills-announces-decision-ld-307-2026-04-24",
+      "access_caveat": "Official state policy record; the referenced permits were not itemized in the release and no local permit file was located.",
+      "evidence_note": "Policy context kept separate from project approval and construction status."
+    },
+    {
+      "date": "2026-04-29",
+      "date_precision": "day",
+      "government_body": "Office of Governor Janet T. Mills / Maine Legislature",
+      "action_type": "state policy / advisory council",
+      "result_status": "Governor Mills signed an executive order establishing the Maine Data Center Advisory Council after the Legislature sustained her LD 307 veto; the council is charged with recommendations by January 29, 2027. This did not approve the Jay project.",
+      "vote_tally": "House override attempt reported elsewhere as 72-65, short of two-thirds",
+      "case_or_ordinance_permit_number": "LD 307 / executive order context",
+      "primary_url": "https://www.maine.gov/governor/mills/news/governor-mills-signs-executive-order-establish-maine-data-center-advisory-council-2026-04-29",
+      "access_caveat": "Official policy record; not a project-specific permit or utility approval.",
+      "evidence_note": "Confirms no statewide moratorium took effect from LD 307, but does not change project physical status."
     },
     {
       "date": "2026-06-12",
       "date_precision": "day",
-      "government_body": "Town of Jay status as reported by Vermont Public",
+      "government_body": "Town of Jay status as reported by Maine Public / Sun Journal",
       "action_type": "project status / withdrawal report",
-      "result_status": "The town manager reported that the developer halted plans and would not proceed at that point; the project remained on hold with no verified construction.",
+      "result_status": "The town manager reported that Sentinel Data Centers notified mill owner JGT2 Redevelopment of its intent not to move forward at that point; JGT2 was pursuing conversations with other interested parties, and the data center project was on hold with future plans undetermined.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.vermontpublic.org/2026-06-12/developer-halts-plans-for-data-center-at-former-jay-paper-mill",
-      "access_caveat": "Local public-radio report of a town-manager statement; no signed withdrawal or replacement filing was located.",
+      "primary_url": "https://www.mainepublic.org/climate/2026-06-12/developer-halts-plans-for-data-center-at-former-jay-paper-mill",
+      "access_caveat": "Public-radio/local press report of town-manager statement; no signed withdrawal, replacement operator filing, or permit cancellation was located.",
       "evidence_note": "Later on-hold evidence is stronger for cutoff status than earlier announcement context."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 82,
+  "capacity_note": "Developer-reported initial demand from March 2026 local reporting; potential scale higher was conditioned on regional grid review. Because the project is on hold and no interconnection/service record was found, this is proposed demand, not energized load.",
+  "owner": "JGT2 Redevelopment LLC (reported owner/developer of the former mill site); Sentinel Data Centers was the planned operator/partner but withdrew/notified intent not to move forward in June 2026.",
   "sources": {
     "phase3_stable_id": "US-ME-JAY-SENTINEL-2025",
     "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
@@ -48,9 +76,47 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://www.sunjournal.com/2026/03/25/developer-of-data-center-for-jay-mill-seeks-exemption-to-proposed-state-law/",
+      "https://www.maine.gov/governor/mills/news/governor-mills-announces-decision-ld-307-2026-04-24",
+      "https://www.maine.gov/governor/mills/news/governor-mills-signs-executive-order-establish-maine-data-center-advisory-council-2026-04-29",
+      "https://themainemonitor.org/jay-data-center-can-proceed/",
+      "https://www.sunjournal.com/2026/06/11/plan-for-data-center-in-jay-suffers-setback-2/",
+      "https://www.mainepublic.org/climate/2026-06-12/developer-halts-plans-for-data-center-at-former-jay-paper-mill",
+      "https://cleanview.co/data-centers/maine"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "permit_status",
+      "summary": "Governor Mills' April 24 official release says the Jay project had received several permits, while March local reporting said the project would not require Jay Planning Board approval or zoning changes because it was inside an existing industrial structure. This refresh did not locate the underlying permit list, permit numbers, building permit, local approval, utility interconnection, CO, or energization record.",
+      "sources": [
+        "https://www.maine.gov/governor/mills/news/governor-mills-announces-decision-ld-307-2026-04-24",
+        "https://www.sunjournal.com/2026/03/25/developer-of-data-center-for-jay-mill-seeks-exemption-to-proposed-state-law/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Stalled/on hold; construction was not verified. A June 2026 town-manager account reported Sentinel would not proceed at that point, superseding earlier live-project and policy-reporting context.",
+      "new_value": "Stalled/on hold as of 2026-08-11, with official state LD 307/veto context and later town-manager reporting that Sentinel did not intend to move forward; no replacement operator, permit, construction, CO, utility, energization, or service evidence located."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 82
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "JGT2 Redevelopment LLC as reported site owner/developer; Sentinel Data Centers was planned operator/partner but withdrew/notified intent not to proceed."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -9,22 +9,51 @@
   "location": {
     "city": "Mililani",
     "county": "Honolulu County",
-    "state": "HI"
+    "state": "HI",
+    "address": "200 Kahelu Ave, Mililani, HI 96789",
+    "tmk": "95046002",
+    "parcel_acres": 5.068,
+    "site_context": "Mililani Technology Park, Oahu; Building 2 announced on additional company-owned five acres"
   },
   "phase3_stable_id": "US-HI-SERVPAC-MTP-B2-2026",
-  "status_as_of_cutoff": "Company-reported under construction from a 2026-01-22 groundbreaking, with a company Q2 2026 completion target. Completion, CO, energization, commissioning, and live service were not independently verified in official Honolulu records; the company reports 15,500-plus square feet and $13 million, with no MW disclosed.",
+  "status_as_of_cutoff": "Company-reported site work/construction from a 2026-01-22 groundbreaking, with a company Q2 2026 completion target that remains unverified as of the 2026-08-11 refresh. No official Honolulu DPP/HNL Build building-permit completion, inspection closeout, certificate of occupancy, energization, commissioning, or live-service evidence was located in accessible public sources. Parcel-level DPP-derived records for 200 Kahelu Ave/TMK 95046002 show older 2023 office and sitework permits still listed as inspections in progress and undated office/sitework rows in plans review, but those rows do not independently establish Building 2 completion. The company reports 15,500-plus square feet, $13 million cost, additional five company-owned acres, and more than doubled center capacity, with no MW disclosed.",
+  "evidence_grade": "B-: Servpac official announcement and PRNewswire mirror verify groundbreaking, scope, cost, owner/site context, and Q2 2026 target; local trade reporting corroborates construction context; official Honolulu DPP permit-status page is available but accessible search results did not verify post-groundbreaking completion/CO/energization, while DPP-derived parcel history is treated as lower-grade permit context.",
   "actions": [
+    {
+      "date": "2023-11-17",
+      "date_precision": "day",
+      "government_body": "City and County of Honolulu Department of Planning and Permitting, as republished by Ikena Group parcel page",
+      "action_type": "parcel permit history context",
+      "result_status": "DPP-derived parcel history for 200 Kahelu Ave/TMK 95046002 lists permit 901525 for office work and permit 901526 for sitework, both issued 2023-11-17 and still shown as Inspection(s) in Progress; the same page lists undated office and sitework rows as Plans review in progress.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "901525; 901526",
+      "primary_url": "https://ai.ikenagroup.com/p/95046002",
+      "access_caveat": "DPP-derived third-party parcel page, refreshed nightly; direct HNL Build post-2025 result access was not independently captured in this refresh.",
+      "evidence_note": "Parcel permit context only; does not prove Building 2 completion, certificate of occupancy, energization, commissioning, or live service."
+    },
     {
       "date": "2026-01-22",
       "date_precision": "day",
       "government_body": "Not a government action; Servpac",
       "action_type": "groundbreaking announcement",
-      "result_status": "Servpac announced that Building 2 broke ground, adding more than 15,500 square feet on five acres, with a $13 million stated cost and Q2 2026 expected completion.",
+      "result_status": "Servpac announced that Building 2 broke ground in Mililani Technology Park, adding more than 15,500 square feet, increasing facility size by 50%, and more than doubling center capacity. The $13 million building is being built on additional company-owned five acres, with Q2 2026 expected completion and no MW disclosed.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://servpac.com/mtp-groundbreaking/",
       "access_caveat": "Company announcement; it does not establish Honolulu permit issuance, inspection, CO, power-on, or service.",
-      "evidence_note": "Company construction claim retained and explicitly labeled."
+      "evidence_note": "Company construction claim retained and explicitly labeled; page published 2026-01-28 and modified 2026-05-14 while dateline states Jan. 22, 2026."
+    },
+    {
+      "date": "2026-02-24",
+      "date_precision": "day",
+      "government_body": "Not a government action; Servpac via PRNewswire",
+      "action_type": "groundbreaking press-release mirror",
+      "result_status": "PRNewswire carried Servpac's release repeating the Building 2 groundbreaking, 15,500-plus square feet, 50% size increase, more than doubled center capacity, $13 million cost, additional company-owned five acres, Q2 2026 expected completion, Tier IV design intent, and contractors.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.prnewswire.com/news-releases/servpacs-mtp-data-center-celebrates-groundbreaking-for-building-2-302694909.html",
+      "access_caveat": "Wire distribution of company release; not a government permit or completion record.",
+      "evidence_note": "Used to preserve accessible published-date evidence and mirror the company announcement."
     },
     {
       "date": "2026-03-09",
@@ -40,7 +69,7 @@
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Servpac Inc.",
   "sources": {
     "phase3_stable_id": "US-HI-SERVPAC-MTP-B2-2026",
     "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
@@ -48,9 +77,38 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.honolulu.gov/dpp/permitting/building-permits-home/",
+      "https://dppweb.honolulu.gov/DPPWeb/Default.aspx?PossePresentation=BuildingPermitSearch",
+      "https://ai.ikenagroup.com/p/95046002",
+      "https://servpac.com/mtp-groundbreaking/",
+      "https://www.prnewswire.com/news-releases/servpacs-mtp-data-center-celebrates-groundbreaking-for-building-2-302694909.html",
+      "https://buildingindustryhawaii.com/2026/03/servpac-inc-breaks-ground-on-mtp-data-centers-building-2/"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Company-reported under construction from a 2026-01-22 groundbreaking, with a company Q2 2026 completion target. Completion, CO, energization, commissioning, and live service were not independently verified in official Honolulu records; the company reports 15,500-plus square feet and $13 million, with no MW disclosed.",
+      "new_value": "Company-reported site work/construction from a 2026-01-22 groundbreaking, Q2 2026 target still unverified; no accessible public proof of completion/CO/energization/live service located."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Servpac Inc."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "location",
+      "previous_value": "Mililani, Honolulu County, HI",
+      "new_value": "Mililani, Honolulu County, HI; 200 Kahelu Ave/TMK 95046002 parcel context added from DPP-derived parcel record."
+    }
+  ],
+  "last_refreshed": "2026-08-11",
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

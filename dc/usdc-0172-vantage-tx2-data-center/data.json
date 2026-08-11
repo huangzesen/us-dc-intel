@@ -7,11 +7,53 @@
   "location": {
     "city": "San Antonio",
     "county": "Bexar",
-    "state": "Texas"
+    "state": "Texas",
+    "address": "5207 Rogers Road",
+    "zip": "78251"
   },
   "phase3_stable_id": "US-TX-VANTAGE-TX2-SAN-ANTONIO-2026",
-  "status_as_of_cutoff": "TCEQ draft federal operating-permit process reached a notice-and-comment hearing; final permit issuance and local construction records were not validated.",
+  "status_as_of_cutoff": "site work-construction / approved-permitted: official City of San Antonio issued-permit data shows TX21 interior finish-out permits issued in 2025 and 2026 TX22/stationary-power project applications with issued dates; TDLR records list TX21 core/shell +16MW fit-out, TX21 tenant fit-out, and TX22 new construction at 5207 Rogers Road. TCEQ Title V O4790 remains pending/technically complete as of 2026-08-10 and does not authorize new construction or new emissions.",
+  "evidence_grade": "A-",
   "actions": [
+    {
+      "id": "A18",
+      "date": "2023-11-22",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "architectural-barriers project registration",
+      "result_or_status": "TDLR TABS registered TABS2024005974 for Vantage Data Centers TX21 Core and Shell +16MW Fit-Out at 5207 Rogers Road; the record lists new construction, 360,000 sf, $157,000,000 estimated cost, start date 2023-12-11, completion date 2025-06-01, and current status Review Complete.",
+      "vote_tally": null,
+      "case_or_number": "TABS2024005974",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2024005974",
+      "access_caveat": "State accessibility/TABS registration; not a certificate of occupancy or final operating status.",
+      "notes": "Official state construction/accessibility record; project name includes +16MW fit-out."
+    },
+    {
+      "id": "A19",
+      "date": "2025-01-24",
+      "body": "City of San Antonio Development Services",
+      "meeting_date": null,
+      "action_type": "commercial finish-out permit issued",
+      "result_or_status": "City issued-permit dataset lists COM-IFO-PMT25-40500006 for SPC- Vantage Compu-Dynamics TX21 - Level 2 Interior Finish Out at 5207 Rogers Road, including a commercial finish-out row issued 2025-01-24 with declared valuation rows of $32,700,299 and $83,000,000.",
+      "vote_tally": null,
+      "case_or_number": "COM-IFO-PMT25-40500006",
+      "primary_url": "https://data.sanantonio.gov/dataset/building-permits",
+      "access_caveat": "Open-data row; duplicate permit rows reflect multiple permit/trade records and valuation revisions.",
+      "notes": "Official local issued-permit evidence for TX21 interior work."
+    },
+    {
+      "id": "A20",
+      "date": "2025-06-03",
+      "body": "City of San Antonio Development Services",
+      "meeting_date": null,
+      "action_type": "commercial finish-out permit issued",
+      "result_or_status": "City issued-permit dataset lists COM-IFO-PMT25-40500271 for SPC TX21 - Level 1 Interior Finish Out at 5207 Rogers Road, with permit/trade rows issued 2025-06-03.",
+      "vote_tally": null,
+      "case_or_number": "COM-IFO-PMT25-40500271",
+      "primary_url": "https://data.sanantonio.gov/dataset/building-permits",
+      "access_caveat": "Open-data issued-permit rows; not a final operating-status certificate.",
+      "notes": "Official local issued-permit evidence for TX21 interior work."
+    },
     {
       "id": "A22",
       "date": "2025-07-17",
@@ -24,6 +66,45 @@
       "primary_url": "https://www.tceq.texas.gov/assets/public/permitting/air/reports/applications/titlev-pending-permits.html",
       "access_caveat": "Pending-permit listing, not final approval.",
       "notes": "Environmental/air action."
+    },
+    {
+      "id": "A21",
+      "date": "2025-10-09",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "architectural-barriers project registration",
+      "result_or_status": "TDLR TABS registered TABS2026003003 for Vantage Data Centers TX22 at 5207 Rogers Road; the record lists new construction, 214,526 sf, $272,150,000 estimated cost, start date 2025-10-22, completion date 2027-06-15, and current status Project Registered.",
+      "vote_tally": null,
+      "case_or_number": "TABS2026003003",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026003003",
+      "access_caveat": "State accessibility/TABS registration; not a certificate of occupancy or final operating status.",
+      "notes": "Official state construction/accessibility record for the TX22 building at the same address."
+    },
+    {
+      "id": "A25",
+      "date": "2025-11-12",
+      "body": "City of San Antonio Development Services",
+      "meeting_date": null,
+      "action_type": "electrical permits issued",
+      "result_or_status": "City issued-permit dataset lists MEP-ELE-PMT25-33332858 (Vantage TX 22) and MEP-TML-PMT25-44032836 (TX 22 Vantage TML) at 5207 Rogers Road, both submitted and issued 2025-11-12.",
+      "vote_tally": null,
+      "case_or_number": "MEP-ELE-PMT25-33332858; MEP-TML-PMT25-44032836",
+      "primary_url": "https://data.sanantonio.gov/dataset/building-permits",
+      "access_caveat": "Open-data issued-permit rows; trade permits do not establish full facility operation.",
+      "notes": "Official local TX22 permit evidence."
+    },
+    {
+      "id": "A26",
+      "date": "2025-11-19",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "architectural-barriers project registration",
+      "result_or_status": "TDLR TABS registered TABS2026006358 for Vantage Data Centers TX21 Tenant Fit-out at 5207 Rogers Road; the record lists renovation/alteration, 162,785 sf, $135,000,000 estimated cost, start date 2025-12-01, completion date 2026-06-02, owner VANTAGE DATA CENTERS TX2 LLC, and current status Project Registered.",
+      "vote_tally": null,
+      "case_or_number": "TABS2026006358",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026006358",
+      "access_caveat": "State accessibility/TABS registration; not a certificate of occupancy or final operating status.",
+      "notes": "Official state construction/accessibility record for TX21 tenant fit-out."
     },
     {
       "id": "A23",
@@ -39,6 +120,45 @@
       "notes": "Environmental/air action."
     },
     {
+      "id": "A27",
+      "date": "2026-01-24",
+      "body": "City of San Antonio Development Services",
+      "meeting_date": null,
+      "action_type": "commercial project application",
+      "result_or_status": "City current-year applications dataset lists COM-PRJ-APP26-39800134 for EXPRESS-Complex Plans-Tx22 Building-5207 ROGERS RD, 429,310 sf and $365,806,696 declared valuation; duplicate rows include a 2026-06-03 issued date.",
+      "vote_tally": null,
+      "case_or_number": "COM-PRJ-APP26-39800134",
+      "primary_url": "https://data.sanantonio.gov/dataset/building-permits",
+      "access_caveat": "Open-data application row; duplicate application rows include null and issued dates.",
+      "notes": "Official local TX22 building/project evidence."
+    },
+    {
+      "id": "A28",
+      "date": "2026-02-04",
+      "body": "City of San Antonio Development Services",
+      "meeting_date": null,
+      "action_type": "stationary-power project application",
+      "result_or_status": "City current-year applications dataset lists COM-PRJ-APP26-39800204 for SP-Special Project-Stationary Power-5207 ROGERS RD, submitted 2026-02-04 and issued 2026-05-18, with $980,000 declared valuation and VoltaGrid as primary contact.",
+      "vote_tally": null,
+      "case_or_number": "COM-PRJ-APP26-39800204",
+      "primary_url": "https://data.sanantonio.gov/dataset/building-permits",
+      "access_caveat": "Open-data application row; local permit evidence only, not air-permit authorization.",
+      "notes": "Official local stationary-power project evidence."
+    },
+    {
+      "id": "A29",
+      "date": "2026-04-20",
+      "body": "City of San Antonio Development Services",
+      "meeting_date": null,
+      "action_type": "temporary-power MEP application issued",
+      "result_or_status": "City current-year applications dataset lists MEP-TRD-APP26-33110651 for VoltaGrid 123-TEMP Power at 5207 Rogers Road, submitted 2026-04-20 and issued 2026-04-21.",
+      "vote_tally": null,
+      "case_or_number": "MEP-TRD-APP26-33110651",
+      "primary_url": "https://data.sanantonio.gov/dataset/building-permits",
+      "access_caveat": "Open-data application row; temporary-power record does not establish utility energization for the data center.",
+      "notes": "Official local temporary-power evidence."
+    },
+    {
       "id": "A24",
       "date": "2026-05-28",
       "body": "Texas Commission on Environmental Quality",
@@ -52,8 +172,9 @@
       "notes": "Environmental/air action."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 16,
+  "capacity_mw_basis": "TDLR TABS2024005974 project name states TX21 Core and Shell +16MW Fit-Out; total TX2/TX22/campus MW was not verified from official public sources during this refresh.",
+  "owner": "Vantage Data Centers / Vantage Data Centers TX21 LLC / Vantage Data Centers TX2 LLC",
   "sources": {
     "phase3_stable_id": "US-TX-VANTAGE-TX2-SAN-ANTONIO-2026",
     "phase3_source_file": "phase3/county_tx.json",
@@ -61,9 +182,64 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_sources_refreshed_2026_08_11": [
+      "https://data.sanantonio.gov/dataset/building-permits",
+      "https://data.sanantonio.gov/api/3/action/package_show?id=building-permits",
+      "https://www.tdlr.texas.gov/TABS/Projects/TABS2024005974",
+      "https://www.tdlr.texas.gov/TABS/Projects/TABS2026003003",
+      "https://www.tdlr.texas.gov/TABS/Projects/TABS2026006358",
+      "https://www.tceq.texas.gov/assets/public/permitting/air/reports/applications/titlev-pending-permits.html",
+      "https://www.tceq.texas.gov/downloads/agency/decisions/hearings/notices/2026/2026-05-28-vantage-data-centers-tx21-llc-o4790-nch.pdf/@@download/file/2026-05-28-vantage-data-centers-tx21-llc-o4790-nch.pdf"
+    ]
   },
-  "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous": "TCEQ draft federal operating-permit process reached a notice-and-comment hearing; final permit issuance and local construction records were not validated.",
+      "current": "site work-construction / approved-permitted with TCEQ Title V O4790 still pending/technically complete",
+      "source_urls": [
+        "https://data.sanantonio.gov/dataset/building-permits",
+        "https://www.tdlr.texas.gov/TABS/Projects/TABS2024005974",
+        "https://www.tdlr.texas.gov/TABS/Projects/TABS2026003003",
+        "https://www.tdlr.texas.gov/TABS/Projects/TABS2026006358",
+        "https://www.tceq.texas.gov/assets/public/permitting/air/reports/applications/titlev-pending-permits.html"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous": null,
+      "current": 16,
+      "source_urls": [
+        "https://www.tdlr.texas.gov/TABS/Projects/TABS2024005974"
+      ],
+      "notes": "Represents the explicitly named +16MW fit-out phase, not verified total campus capacity."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous": null,
+      "current": "Vantage Data Centers / Vantage Data Centers TX21 LLC / Vantage Data Centers TX2 LLC",
+      "source_urls": [
+        "https://www.tdlr.texas.gov/TABS/Projects/TABS2024005974",
+        "https://www.tdlr.texas.gov/TABS/Projects/TABS2026006358",
+        "https://www.tceq.texas.gov/downloads/agency/decisions/hearings/notices/2026/2026-05-28-vantage-data-centers-tx21-llc-o4790-nch.pdf/@@download/file/2026-05-28-vantage-data-centers-tx21-llc-o4790-nch.pdf"
+      ]
+    }
+  ],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "operational status",
+      "summary": "Official TDLR and City records verify construction/permit activity but do not establish full energization or full buildout. Some industry/media sources describe TX21 as operational or partially operational; this refresh does not use those claims to mark the official status as energized/full buildout.",
+      "source_urls": [
+        "https://www.tdlr.texas.gov/TABS/Projects/TABS2024005974",
+        "https://data.sanantonio.gov/dataset/building-permits"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

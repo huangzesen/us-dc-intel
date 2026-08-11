@@ -3,15 +3,28 @@
   "canonical_project": "PowerHouse TRIC data-center campus",
   "aliases": [
     "PowerHouse TRIC data-center campus",
-    "PowerHouse Tahoe Reno Industrial Center"
+    "PowerHouse Tahoe Reno Industrial Center",
+    "PowerHouse Reno",
+    "PowerHouse Reno Britain"
   ],
   "location": {
     "city": "Sparks area",
     "county": "Storey",
-    "state": "NV"
+    "state": "NV",
+    "site_area": "Tahoe Reno Industrial Center",
+    "address_evidence": {
+      "address": "600 Britain Dr, Sparks, NV 89434/89437",
+      "confidence": "medium",
+      "evidence_note": "Third-party data-center listings publish 600 Britain Dr; Storey County assessment rolls confirm PowerHouse Reno Britain LLC on parcels 005-041-66 and 005-041-67 but do not expose a project-specific building-permit record in the reviewed public search."
+    },
+    "parcels": [
+      "005-041-66",
+      "005-041-67"
+    ]
   },
   "phase3_stable_id": "US-NV-POWERHOUSE-TRIC-2024",
-  "status_as_of_cutoff": "State-published material describes a PowerHouse TRIC shell campus, while the reviewed Storey County and utility search surfaces did not yield a project-specific permit, construction record, service date, or energization record. Active shell-construction language remains source-limited.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11. PowerHouse's current Reno project page lists construction/delivery from Q3 2024 to Q2 2026 and power delivery in Q4 2025; DCD/PowerHouse reporting described a fall 2024 groundbreaking and work on the first building. Storey County's 2026-27 secured assessment roll confirms PowerHouse Reno Britain LLC on two TRIC-area parcels, but no project-specific Storey County permit, certificate of occupancy, service-date, or energization record was located in the reviewed public surfaces.",
+  "evidence_grade": "B",
   "actions": [
     {
       "date": "2024-06",
@@ -36,10 +49,81 @@
       "primary_url": "https://www.storeycounty.org/",
       "access_caveat": "County and utility public surfaces do not expose a matching record in the reviewed search.",
       "evidence_note": "Negative search only."
+    },
+    {
+      "date": "2025-12-23",
+      "date_precision": "day",
+      "government_body": "Storey County Assessor / secured assessment roll",
+      "action_type": "property assessment / parcel ownership",
+      "result_status": "The 2026-27 secured assessment roll lists PowerHouse Reno Britain LLC on parcels 005-041-66 and 005-041-67 in district 122, with land values but no building value shown for either parcel.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.storeycounty.org/DocumentCenter/View/22761",
+      "access_caveat": "Assessment-roll evidence confirms assessed owner and parcels, not permit status or energization.",
+      "evidence_note": "Official county source; property/parcel evidence only."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "PowerHouse Data Centers",
+      "action_type": "developer project-page refresh",
+      "result_status": "PowerHouse's current Reno project page lists a 49-acre, up-to-3-building, 900,000-SF campus with 200 MW of power, April 2026 delivery, construction/delivery Q3 2024-Q2 2026, and power delivery Q4 2025.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.powerhousedata.com/data-center/powerhouse-reno",
+      "access_caveat": "Developer page does not publish a Storey County permit number, certificate of occupancy, or energization record.",
+      "evidence_note": "Owner/developer project-page evidence; supports construction-stage classification but not public-agency permit validation."
+    },
+    {
+      "date": "2024-10",
+      "date_precision": "month",
+      "government_body": "PowerHouse Data Centers / DCD-republished company news",
+      "action_type": "groundbreaking / construction start",
+      "result_status": "PowerHouse/DCD reporting says the company broke ground at the 65 MW campus and started work on the first of three buildings at Tahoe Reno Industrial Center in Storey County.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.powerhousedata.com/news/powerhouse-breaks-ground-on-reno-data-center",
+      "access_caveat": "The page is company/DCD reporting and not a county permit record.",
+      "evidence_note": "Construction-start evidence from developer/industry reporting."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 200,
+  "capacity_history": [
+    {
+      "date": "2024-01-19",
+      "capacity_mw": 65,
+      "capacity_type": "bridging power",
+      "source_url": "https://www.prnewswire.com/news-releases/powerhouse-data-centers-closes-on-nevada-site-for-powerhouse-reno-302039882.html",
+      "note": "Initial company release described more than 65 MW of bridging power scheduled by year-end 2025."
+    },
+    {
+      "date": "2024-10",
+      "capacity_mw": 65,
+      "capacity_type": "campus capacity in groundbreaking coverage",
+      "source_url": "https://www.powerhousedata.com/news/powerhouse-breaks-ground-on-reno-data-center",
+      "note": "Groundbreaking coverage called it a 65 MW campus and expected the first building by Q3 2025."
+    },
+    {
+      "date": "2024-2025",
+      "capacity_mw": 300,
+      "capacity_type": "permanent power total",
+      "source_url": "https://www.credaglobal.org/research-and-publications/magazine/2024/Winter-2024-2025/development-ownership/pioneering-sustainable-design-for-data-centers",
+      "note": "NAIOP/GBI case study listed 65 MW bridging power in Q1 2026 and 300 MW permanent power total."
+    },
+    {
+      "date": "2026-08-11",
+      "capacity_mw": 200,
+      "capacity_type": "current developer project-page power",
+      "source_url": "https://www.powerhousedata.com/data-center/powerhouse-reno",
+      "note": "Current PowerHouse Reno project page lists Power: 200 MW."
+    }
+  ],
+  "owner": {
+    "developer_operator": "PowerHouse Data Centers",
+    "parent": "American Real Estate Partners (AREP)",
+    "joint_venture_partner": "Harrison Street",
+    "assessed_owner": "POWERHOUSE RENO BRITAIN LLC"
+  },
   "sources": {
     "phase3_stable_id": "US-NV-POWERHOUSE-TRIC-2024",
     "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
@@ -47,9 +131,42 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.storeycounty.org/DocumentCenter/View/22761",
+      "https://www.powerhousedata.com/data-center/powerhouse-reno",
+      "https://www.powerhousedata.com/news/powerhouse-breaks-ground-on-reno-data-center",
+      "https://www.prnewswire.com/news-releases/powerhouse-data-centers-closes-on-nevada-site-for-powerhouse-reno-302039882.html",
+      "https://www.credaglobal.org/research-and-publications/magazine/2024/Winter-2024-2025/development-ownership/pioneering-sustainable-design-for-data-centers",
+      "https://www.storeycounty.org/685/Building-Permits",
+      "https://aca-prod.accela.com/ONE/Cap/CapHome.aspx?TabName=Home&module=Building",
+      "https://www.nvenergy.com/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "capacity_mw",
+      "status": "unresolved public-source variance",
+      "details": "Public sources describe different power figures: initial company release and groundbreaking coverage use more than/around 65 MW, a NAIOP/GBI case study lists 65 MW bridging and 300 MW permanent power total, while the current PowerHouse Reno project page lists 200 MW. The refresh stores 200 MW as the current developer-page value and preserves the earlier values in capacity_history.",
+      "source_urls": [
+        "https://www.prnewswire.com/news-releases/powerhouse-data-centers-closes-on-nevada-site-for-powerhouse-reno-302039882.html",
+        "https://www.powerhousedata.com/news/powerhouse-breaks-ground-on-reno-data-center",
+        "https://www.credaglobal.org/research-and-publications/magazine/2024/Winter-2024-2025/development-ownership/pioneering-sustainable-design-for-data-centers",
+        "https://www.powerhousedata.com/data-center/powerhouse-reno"
+      ]
+    },
+    {
+      "topic": "public permit/energization evidence",
+      "status": "not independently confirmed",
+      "details": "Storey County assessment-roll evidence confirms PowerHouse Reno Britain LLC parcels, and developer sources support construction-stage status, but reviewed public Storey County/ONE/NV Energy surfaces did not yield a project-specific permit number, certificate of occupancy, utility first-service date, or energization record.",
+      "source_urls": [
+        "https://www.storeycounty.org/DocumentCenter/View/22761",
+        "https://www.storeycounty.org/685/Building-Permits",
+        "https://aca-prod.accela.com/ONE/Cap/CapHome.aspx?TabName=Home&module=Building",
+        "https://www.nvenergy.com/"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

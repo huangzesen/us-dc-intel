@@ -7,13 +7,59 @@
   "location": {
     "city": "Alabama",
     "county": "Genesee",
-    "state": "NY"
+    "state": "NY",
+    "site": "Western New York Science, Technology and Advanced Manufacturing Park (STAMP)",
+    "street_address": "Approx. 6695-6501 and 6840 Crosby Road"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "local process",
+  "evidence_grade": "A-",
+  "actions": [
+    {
+      "date": "2025-12-18",
+      "government_body": "Genesee County Economic Development Center",
+      "action_type": "SEQR lead agency resolution",
+      "result_status": "approved intent to act as lead agency"
+    },
+    {
+      "date": "2026-01-12",
+      "government_body": "Town of Alabama Planning Board",
+      "action_type": "site plan application",
+      "result_status": "submitted"
+    },
+    {
+      "date": "2026-02-05",
+      "government_body": "Genesee County Economic Development Center",
+      "action_type": "initial resolution and SEQR lead agency resolution",
+      "result_status": "approved"
+    },
+    {
+      "date": "2026-03-19",
+      "government_body": "Genesee County Economic Development Center",
+      "action_type": "public hearing",
+      "result_status": "held; comments accepted"
+    },
+    {
+      "date": "2026-04-16",
+      "government_body": "Genesee County Economic Development Center",
+      "action_type": "public hearing",
+      "result_status": "held; comments accepted"
+    },
+    {
+      "date": "2026-06-26",
+      "government_body": "Genesee County Economic Development Center / Town of Alabama Planning Board record",
+      "action_type": "site plan resubmission",
+      "result_status": "submitted"
+    },
+    {
+      "date": "2026-07-14",
+      "government_body": "New York Governor / NYS Department of Environmental Conservation",
+      "action_type": "Executive Order 62 data center permitting moratorium",
+      "result_status": "DEC directed to hold incomplete discretionary data-center permit applications in abeyance pending statewide GEIS"
+    }
+  ],
+  "capacity_mw": 500,
+  "owner": "STREAM U.S. Data Centers, LLC",
   "sources": {
     "phase3_stable_id": "US-NY-STREAM-STAMP-2025",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -21,9 +67,30 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.gcedc.com/projects",
+      "https://www.gcedc.com/file-library/100319/STREAMUSDataCentersLLC.StakeholderProjectOverview.pdf",
+      "https://www.gcedc.com/file-library/100319/STREAMUSDataCentersLLC.ProjectApplicationResponseRequest.1.5.26.pdf",
+      "https://www.gcedc.com/file-library/100319/STREAMUSDataCentersLLC.ProjectSummary.1.30.26.pdf",
+      "https://www.gcedc.com/file-library/100319/STREAMUSDataCentersLLC.ConfirmationofCountyWaterAvailability.3.13.26.pdf",
+      "https://www.gcedc.com/file-library/100319/StreamUSDataCentersLLC.EnergyMemo.pdf",
+      "https://www.gcedc.com/file-library/100319/STREAMUSDataCentersLLC.AirEmissionsReport.pdf",
+      "https://www.gcedc.com/file-library/100319/STREAMUSDataCentersLLC.NoiseModelingResults.6.29.26.pdf",
+      "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+      "https://www.streamdatacenters.com/project-stamp/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "capital investment",
+      "details": "GCEDC January 30, 2026 project summary lists total capital investment of $11.181B, while the GCEDC stakeholder overview and later local reporting describe Project Double Reed as a $19.46B/$19.5B investment."
+    },
+    {
+      "topic": "permitting impact of statewide moratorium",
+      "details": "Executive Order 62 applies to data centers consuming or capable of consuming 50 MW or more and directs DEC to hold incomplete discretionary permit applications in abeyance; local-government approvals are expressly excluded, so impact on the Town site-plan/GCEDC process remains unresolved in public sources."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

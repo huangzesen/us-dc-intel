@@ -9,10 +9,23 @@
   "location": {
     "city": "Yerington",
     "county": "Lyon",
-    "state": "NV"
+    "state": "NV",
+    "site_description": "Mason Valley, east of US Highway 95A and accessed by Penrose Lane",
+    "acreage": 505.4,
+    "apns": [
+      "014-201-07",
+      "014-201-30"
+    ]
   },
   "phase3_stable_id": "US-NV-COPIA-MONARCH-YERINGTON-2025",
-  "status_as_of_cutoff": "Lyon County’s official record shows a Planning Commission recommendation and a December 4, 2025 Board approval of a master-plan amendment by 4–1, while expressly stating that the action does not approve development and that a new PUD application is required. No PUD approval, building permit, construction, or utility energization was found.",
+  "status_as_of_cutoff": "As of August 11, 2026, Lyon County official records show the Monarch Data Center has advanced to tentative Planned Unit Development approval: the Planning Commission recommended PLZ-2026-041 on July 14, 2026, and the Board of County Commissioners approved the PUD rezoning request on August 6, 2026 by 3-1 with one abstention. The county states this is tentative PUD approval only; Copia Power Devco, LLC must file for final PUD approval within one year, and construction remains contingent on final drainage, emergency response, fire, roadway, NDEP, Nevada State Engineer/water-rights, building-permit, and related approvals. No construction start, final PUD approval, building permit, or energization record was found in this refresh.",
+  "evidence_grade": "A-",
+  "status_history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": "Lyon County’s official record shows a Planning Commission recommendation and a December 4, 2025 Board approval of a master-plan amendment by 4–1, while expressly stating that the action does not approve development and that a new PUD application is required. No PUD approval, building permit, construction, or utility energization was found."
+    }
+  ],
   "actions": [
     {
       "date": "2025-07-08",
@@ -61,10 +74,43 @@
       "primary_url": "https://www.lyon-county.org/AgendaCenter",
       "access_caveat": "Interactive agenda archive; some attachments were not retrievable.",
       "evidence_note": "Negative search only."
+    },
+    {
+      "date": "2026-07-14",
+      "date_precision": "day",
+      "government_body": "Lyon County Planning Commission",
+      "action_type": "PUD rezoning recommendation",
+      "result_status": "The Planning Commission forwarded a recommendation of approval to the Board for Copia Power Devco, LLC's PLZ-2026-041 zone change to Planned Unit Development for the Monarch Data Center. The official record identifies a 4.6-million-square-foot, 1,000-MW data center consisting of eight two-story buildings, 500 MW of battery energy storage, 500 MW of natural-gas backup generation, substation, high-voltage lines, and related accessory uses over approximately 505.40 acres.",
+      "vote_tally": "4-3; Commissioners Irvin, Allan, and Loomis opposed",
+      "case_or_ordinance_permit_number": "PLZ-2026-041",
+      "primary_url": "https://www.lyon-county.org/AgendaCenter/ViewFile/Agenda/_08112026-2085",
+      "access_caveat": "Official Planning Commission minutes appear in the county agenda packet for the subsequent meeting; building-permit mitigation remained for later process.",
+      "evidence_note": "Recommendation only; not Board approval or construction authorization."
+    },
+    {
+      "date": "2026-08-06",
+      "date_precision": "day",
+      "government_body": "Lyon County Board of County Commissioners",
+      "action_type": "tentative PUD rezoning approval",
+      "result_status": "The Board approved Copia Power Devco, LLC's request to rezone approximately 505.4 acres to Planned Unit Development for the proposed Monarch Data Center by 3-1 with one abstention, adopted Community Development conditions, and set a maximum building height of 75 feet. The county expressly characterized the approval as tentative PUD approval and stated Copia must file for final PUD approval within one year before construction can proceed.",
+      "vote_tally": "3-1; Commissioner Hockaday opposed; Commissioner Cassinelli abstained",
+      "case_or_ordinance_permit_number": "PLZ-2026-041",
+      "primary_url": "https://www.lyon-county.org/m/newsflash/Home/Detail/402",
+      "access_caveat": "Official meeting summary; final PUD, building permits, state permits, water-right conversion approval, and energization are still not evidenced.",
+      "evidence_note": "Tentative PUD approval; not final development approval or construction start."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 1000,
+  "owner": "Copia Power Devco, LLC",
+  "project_components": {
+    "data_center_square_feet": 4600000,
+    "data_center_buildings": 8,
+    "building_height_limit_feet": 75,
+    "battery_storage_mw": 500,
+    "natural_gas_backup_mw": 500,
+    "onsite_pv_mw": 200,
+    "substation_and_transmission": true
+  },
   "sources": {
     "phase3_stable_id": "US-NV-COPIA-MONARCH-YERINGTON-2025",
     "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
@@ -72,7 +118,19 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "authoritative_urls": [
+      "https://www.lyon-county.org/AgendaCenter/ViewFile/Minutes/_07082025-1855",
+      "https://www.lyon-county.org/CivicAlerts.asp?AID=373",
+      "https://lyon-county.org/CivicAlerts.asp?AID=386",
+      "https://www.lyon-county.org/AgendaCenter/ViewFile/Agenda/_08112026-2085",
+      "https://www.lyon-county.org/DocumentCenter/View/14287/BOCC-08062026-Agenda",
+      "https://www.lyon-county.org/m/newsflash/Home/Detail/402",
+      "https://www.copiapower.com/interactive-map-collection/ru9ht9lachmjgoqnn73bq8grhyfjei-mhprk-gd4f3-yf9ax-93my9-9ftc2-rf7hh-jg6rr-224sc-t23mt-h5xp6-zw5cj-a9x2y-6c978-tthy2-7a46w-ejjen-ln25x-2jarn-e98nn-7yg8p"
+    ],
+    "media_or_tracker_urls": [
+      "https://thenevadaindependent.com/article/a-massive-data-center-in-rural-nevada-is-one-step-closer-to-being-built"
+    ]
   },
   "contradictions": [],
   "seed_only": false,

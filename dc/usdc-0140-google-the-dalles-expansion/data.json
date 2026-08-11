@@ -14,7 +14,8 @@
     "state": "OR"
   },
   "phase3_stable_id": "US-OR-GOOGLE-THE-DALLES-2024",
-  "status_as_of_cutoff": "Google's official location page confirms an operating The Dalles campus and continued regional investment. Oregon's official 2021 SIP record verifies two phased Google project approvals, each with an estimated $600 million investment and tax-lot definitions, but the reviewed public record does not identify the Phase 2 2024 groundbreaking claim, a building-specific permit, CO, utility service date, or current expansion commissioning date.",
+  "status_as_of_cutoff": "site work-construction / operating legacy campus. The City of The Dalles' current Google Data Centers page states that Google has operated data centers in The Dalles since 2006, with four buildings across two sites and a third site adding two additional buildings. City council minutes from 2024-12-09 describe the Google SIP funds as part of a development agreement for new data centers under construction. The city says Google completed new water and sewer infrastructure in 2025 as part of former smelter-site redevelopment and transferred it to city ownership. Google announced on 2025-10-22 that the related ASR water-storage system and groundwater rights were permanently transferred to the city, adding over 100 million gallons annually for public benefit. Avangrid announced on 2025-07-22 a PPA for more than 100 MW from Leaning Juniper IIB to support Google's The Dalles data centers via Northern Wasco County PUD. No public source reviewed gives building-specific commissioning, certificate of occupancy, or IT capacity MW for the expansion.",
+  "evidence_grade": "A- official city, state, Google, and Avangrid sources verify active operations, six-building/three-site local description, construction-era status, completed support infrastructure, SIP framework, and >100 MW renewable PPA; public evidence still lacks building-level permit/CO/energization and IT capacity.",
   "actions": [
     {
       "date": "2021-02-17",
@@ -63,10 +64,82 @@
       "primary_url": "https://datacenters.google/locations/oregon/",
       "access_caveat": "Company source; operational campus confirmation is not evidence for a specific new building or current expansion phase.",
       "evidence_note": "Company context kept separate from official approvals."
+    },
+    {
+      "date": "2024-12-09",
+      "date_precision": "day",
+      "government_body": "City of The Dalles City Council",
+      "action_type": "city council minutes / water master plan discussion",
+      "result_status": "The official minutes record the Public Works Director describing Strategic Investment Program funds as part of the development agreement with Google for new data centers under construction and as expected annual development-incentive/future-tax revenue support for water-system financials.",
+      "vote_tally": "not a data-center approval vote; Water Master Plan discussion",
+      "case_or_ordinance_permit_number": "City Council Meeting minutes, 2024-12-09",
+      "primary_url": "https://ormswd2.synergydcs.com/HPRMWebDrawer/Record/6866871/File/document",
+      "access_caveat": "Official minutes establish city characterization of construction status and finance context, but not a building permit, CO, or energization date.",
+      "evidence_note": "Supports expansion status category as site work-construction rather than merely announced."
+    },
+    {
+      "date": "2024-12-16",
+      "date_precision": "day",
+      "government_body": "City of The Dalles City Council",
+      "action_type": "SIP revenue budget policy resolution",
+      "result_status": "The official minutes record unanimous adoption of Resolution 24-030 establishing budgetary policy for Strategic Investment Program taxes and revenues from the 2021 SIP agreement with Design, LLC.",
+      "vote_tally": "5-0",
+      "case_or_ordinance_permit_number": "Resolution No. 24-030",
+      "primary_url": "https://ormswd2.synergydcs.com/HPRMWebDrawer/Record/6866871/File/document",
+      "access_caveat": "Fiscal policy action; not a construction approval or operational milestone.",
+      "evidence_note": "Confirms Design, LLC SIP revenue handling in current city records."
+    },
+    {
+      "date": "2025-07-22",
+      "date_precision": "day",
+      "government_body": "Avangrid / Northern Wasco County PUD",
+      "action_type": "power purchase agreement / renewable supply support",
+      "result_status": "Avangrid announced a Google PPA for more than 100 MW from the Leaning Juniper IIB repower project in Gilliam County, with Northern Wasco County PUD delivering the power to Google's nearby data centers in The Dalles.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.avangrid.com/w/avangrid-announces-119-megawatt-repower-project-in-oregon",
+      "access_caveat": "Power-supply/support agreement; not IT capacity and not proof of building energization.",
+      "evidence_note": "Do not map the >100 MW PPA to capacity_mw."
+    },
+    {
+      "date": "2025",
+      "date_precision": "year",
+      "government_body": "City of The Dalles",
+      "action_type": "city Google Data Centers status page",
+      "result_status": "The city says Google has operated data centers in The Dalles since 2006, with four buildings across two sites, and that a third site added two additional buildings. It also says Google completed construction of new water and sewer infrastructure in 2025 as part of former smelter-site redevelopment and transferred that infrastructure to city ownership.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.thedalles.gov/business/google_data_centers/index.php",
+      "access_caveat": "Current city status page; no page-level publication date beyond site copyright/crawl. It does not provide building permit, CO, live-load, or IT-capacity details.",
+      "evidence_note": "Best current local-government summary of campus footprint and completed support infrastructure."
+    },
+    {
+      "date": "2025-10-22",
+      "date_precision": "day",
+      "government_body": "Google / City of The Dalles",
+      "action_type": "ASR water infrastructure completion and transfer",
+      "result_status": "Google announced completion of an aquifer storage and recovery system with The Dalles and permanent transfer of the ASR system and associated groundwater rights to the city, providing over 100 million additional gallons of water annually for public benefit.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/the-dalles-oregon-water/",
+      "access_caveat": "Company announcement; corroborated directionally by the city water-infrastructure page, but not a data-center commissioning milestone.",
+      "evidence_note": "Water-system support milestone kept separate from building status."
+    },
+    {
+      "date": "2026-08-10",
+      "date_precision": "day",
+      "government_body": "City of The Dalles",
+      "action_type": "seasonal water supply monitoring update",
+      "result_status": "The city reported normal water-system operations, no water restrictions, current demand within expected seasonal ranges, and groundwater wells operating normally while noting Grasshopper Fire impacts on Dog River diversion monitoring.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.thedalles.gov/news_detail_T4_R275.php",
+      "access_caveat": "Applies to the city water utility overall, not specifically to Google or data-center load.",
+      "evidence_note": "Current utility context; not proof of expansion capacity or service date."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google LLC / Alphabet subsidiaries; city and Oregon SIP records also identify Design, LLC and Moraine Industries LLC in the Google/Alphabet ownership structure for SIP purposes.",
   "sources": {
     "phase3_stable_id": "US-OR-GOOGLE-THE-DALLES-2024",
     "phase3_source_file": "phase3/county_ca_or.json",
@@ -76,7 +149,57 @@
       "US-OR-GOOGLE-THE-DALLES-2024"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_sources": [
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.thedalles.gov/business/google_data_centers/index.php",
+        "source_type": "local government",
+        "note": "City current Google Data Centers page; six-building/three-site summary and 2025 completed water/sewer infrastructure transfer."
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.thedalles.gov/business/google_data_centers/ezandsipagreements.php",
+        "source_type": "local government",
+        "note": "City EZ/SIP page; 2021 SIP with Design, LLC for up to two data centers and 2024 Resolution 24-030 budget framework."
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://ormswd2.synergydcs.com/HPRMWebDrawer/Record/6866871/File/document",
+        "source_type": "local government minutes",
+        "note": "City council minutes for 2024-12-09 and 2024-12-16; new data centers under construction and Resolution 24-030 vote."
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/the-dalles-oregon-water/",
+        "source_type": "company announcement",
+        "note": "Google 2025-10-22 ASR completion and transfer announcement."
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.thedalles.gov/business/google_data_centers/google_water_infrastructure_contributions.php",
+        "source_type": "local government",
+        "note": "City water-infrastructure contribution page; SDCs, water rights, full-rate water use, $28.5M public infrastructure transfer, ASR completion."
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.avangrid.com/w/avangrid-announces-119-megawatt-repower-project-in-oregon",
+        "source_type": "company / utility-side power",
+        "note": "Avangrid 2025-07-22 >100 MW Leaning Juniper IIB PPA serving Google's The Dalles data centers via Northern Wasco County PUD."
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://datacenters.google/efficiency/",
+        "source_type": "company operations metric",
+        "note": "Google PUE table lists The Dalles, Oregon and The Dalles, Oregon (2nd facility), supporting operating-facility context but not IT capacity."
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.thedalles.gov/news_detail_T4_R275.php",
+        "source_type": "local government utility update",
+        "note": "City 2026-08-10 seasonal water supply update; current water utility status."
+      }
+    ]
   },
   "contradictions": [],
   "seed_only": false,

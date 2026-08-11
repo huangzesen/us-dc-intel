@@ -3,19 +3,60 @@
   "canonical_project": "TeraWulf Muskie Data Campus",
   "owner": "TeraWulf",
   "location": {
-    "city": "Wurtland/Ashland area",
-    "county": "Greenup/Boyd",
+    "city": "Grayson / Ashland area",
+    "county": "Boyd/Greenup",
     "state": "Kentucky"
   },
   "capacity_mw": 1000,
-  "status": "site acquired; zoned with permitting underway",
+  "capacity_mw_basis": "contracted electric service; TeraWulf investor presentation separately lists Muskie as 800 MW critical IT pipeline capacity",
+  "status": "local process",
+  "status_detail": "Site acquired in May 2026; zoned for intended use with permitting underway; electric service and related infrastructure agreements with Kentucky Power provide up to 1 GW of contracted electric service, with initial service expected in Q4 2028 and phased development thereafter.",
   "confidence": "high",
-  "evidence_date": "2026-05-28",
+  "evidence_date": "2026-08-05",
   "sources": [
     "https://www.datacenterdynamics.com/en/news/terawulf-acquires-site-in-kentucky-for-1gw-data-center-campus/",
-    "https://investors.terawulf.com/news-events/press-releases/detail/141/terawulf-expands-infrastructure-platform-with-acquisition-of-1-gw-eastern-kentucky-hpc-campus"
+    "https://investors.terawulf.com/news-events/press-releases/detail/141/terawulf-expands-infrastructure-platform-with-acquisition-of-1-gw-eastern-kentucky-hpc-campus",
+    "https://investors.terawulf.com/news-events/press-releases/detail/144/terawulf-reports-second-quarter-2026-results",
+    "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000162/a_wulfearningsreleaseq22026.htm",
+    "https://investors.terawulf.com/sec-filings/all-sec-filings/content/0001083301-26-000162/terawulfq22026investorpr.htm",
+    "https://fivco.org/economic-development/eastpark-industrial-park/",
+    "https://properties.zoomprospector.com/KENTUCKY/property/admin/f0048167-c658-400e-a981-84e49b1d2bac",
+    "https://psc.ky.gov/pscecf/2026-00115/mkurtz%40bkllawfirm.com/06022026044221/Big_Rivers_TeraWulf__KPSC_Handout_FINAL.pdf",
+    "https://www.muskiedatacampus.com/community-impact",
+    "https://wvpublic.org/story/energy-environment/with-more-data-centers-on-the-horizon-communities-worry-about-rising-electricity-bills/"
   ],
   "why_not_in_baseline": "New 2026 Eastern Kentucky industrial-park acquisition; baseline contains TeraWulf Lake Mariner/CB-5 but not Muskie or EastPark.",
+  "contradictions": [
+    {
+      "field": "acreage",
+      "description": "May 2026 acquisition release and DCD describe approximately 285 acres of owned/controlled land, while TeraWulf's August 2026 SEC-filed Q2 update describes approximately 308 acres in Grayson. Treat 308 acres as the latest company-filed figure and retain 285 acres as acquisition-date context."
+    },
+    {
+      "field": "capacity_mw",
+      "description": "Company materials use both up to 1 GW of contracted electric service/gross campus capacity and 800 MW of critical IT pipeline capacity. data.json capacity_mw remains 1000 because the existing field tracks gross/contracted electric service, not critical IT load."
+    },
+    {
+      "field": "future_expansion",
+      "description": "Regional public-media reporting on August 10, 2026 says TeraWulf's CEO discussed potentially doubling Muskie from 1 GW to 2 GW, but current TeraWulf filings reviewed for this refresh still evidence only up to 1 GW contracted electric service; do not promote to capacity_mw without a primary filing or utility record."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-05-28",
+      "status": "site acquired; zoned with permitting underway",
+      "capacity_mw": 1000,
+      "location": {
+        "city": "Wurtland/Ashland area",
+        "county": "Greenup/Boyd",
+        "state": "Kentucky"
+      },
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/terawulf-acquires-site-in-kentucky-for-1gw-data-center-campus/",
+        "https://investors.terawulf.com/news-events/press-releases/detail/141/terawulf-expands-infrastructure-platform-with-acquisition-of-1-gw-eastern-kentucky-hpc-campus"
+      ],
+      "note": "Original discovery record before August 2026 refresh."
+    }
+  ],
   "discovery_file": "candidates-secondary-markets.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

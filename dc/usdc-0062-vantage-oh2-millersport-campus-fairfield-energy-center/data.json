@@ -10,10 +10,14 @@
   "location": {
     "city": "Millersport",
     "county": "Fairfield",
-    "state": "OH"
+    "state": "OH",
+    "address_or_intersection": "NE corner of SR 204 and SR 37 / intersection of Lancaster Newark Road and Blacklick Road",
+    "site_acres": 352,
+    "energy_center_acres": 122
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A-",
   "actions": [
     {
       "date": "2025-08-05",
@@ -54,10 +58,67 @@
       "case_or_permit_number": null,
       "primary_url": "https://www.fairfieldcountyohio.gov/COMMISH/minutes/10.28.25-meeting-minutes.pdf",
       "access_caveat": "The accessible minutes summary does not provide a numeric tally for the data-center-related resolutions."
+    },
+    {
+      "date": "2025-12-04",
+      "body": "Ohio EPA",
+      "action_type": "construction stormwater NOI listing",
+      "exact_result_status": "Ohio EPA Construction NOI Storm Water General Permit List report dated 2026-08-10 lists permit 4GC10971*AG for VDC OH-E, operator Kokosing, at the NE corner SR 204 and SR 37 intersection in Millersport, with 476.26 acres.",
+      "vote_tally": null,
+      "case_or_permit_number": "4GC10971*AG",
+      "primary_url": "https://dam.assets.ohio.gov/raw/upload/epa.ohio.gov/Public/DSW/Construction.xlsx",
+      "access_caveat": "Stormwater NOI corroborates site disturbance/construction coverage but is not a building occupancy or energization record."
+    },
+    {
+      "date": "2026-03-26",
+      "body": "Fairfield Energy Center, LLC / Ohio Power Siting Board process",
+      "action_type": "public information meeting",
+      "exact_result_status": "First public information meeting noticed for the proposed Fairfield Energy Center major utility facility at Millersport High School, 6 p.m. to 8 p.m. EST.",
+      "vote_tally": null,
+      "case_or_permit_number": "26-0160-EL-BGN",
+      "primary_url": "https://fairfieldenergycenter.com/home/public-information",
+      "access_caveat": "Developer project page; use with OPSB docket/status sources for regulatory status."
+    },
+    {
+      "date": "2026-04-02",
+      "body": "Fairfield Energy Center, LLC / Ohio Power Siting Board process",
+      "action_type": "public information meeting",
+      "exact_result_status": "Second public information meeting noticed for the proposed Fairfield Energy Center, including update on OPSB and other regulatory status.",
+      "vote_tally": null,
+      "case_or_permit_number": "26-0160-EL-BGN",
+      "primary_url": "https://fairfieldenergycenter.com/home/public-information",
+      "access_caveat": "Developer project page; use with OPSB docket/status sources for regulatory status."
+    },
+    {
+      "date": "2026-07-23",
+      "body": "Ohio Power Siting Board",
+      "action_type": "battery storage case status",
+      "exact_result_status": "OPSB Battery Storage Case Status map/statistics list Fairfield Energy Center, case 26-0160-EL-BGN, Fairfield County, BTM, 1,040 MW, as a co-located project in pre-application status as of 2026-07-23.",
+      "vote_tally": null,
+      "case_or_permit_number": "26-0160-EL-BGN",
+      "primary_url": "https://dam.assets.ohio.gov/image/upload/puco.ohio.gov/empliibrary/files/OPA/Mapping/OPSB/Solar%20Facilities%20Map/Battery_Map_and_Stats.pdf",
+      "access_caveat": "OPSB battery-status map is dated 2026-07-23; the project website says the application has been submitted, so docket status should be rechecked before treating the power plant as approved."
+    },
+    {
+      "date": "2026-08-01",
+      "body": "Vantage Data Centers",
+      "action_type": "construction activity update",
+      "exact_result_status": "Vantage Millersport construction updates list May-August 2026 site activity including strip/grade, temporary fencing, access roads, underground storm and utility work, sanitary piping, underground utility installation, and north building pad preparation.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://vantagemillersportcampus.com/construction-updates/",
+      "access_caveat": "Company construction page; corroborated by Ohio EPA construction stormwater NOI listing for VDC OH-E."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 696,
+  "capacity_notes": {
+    "data_center_it_capacity_mw": 696,
+    "fairfield_energy_center_generation_mw": 1350,
+    "fairfield_energy_center_bess_mw": 1040,
+    "temporary_generation_mw": 150,
+    "source_date": "2026-08-11"
+  },
+  "owner": "Vantage Data Centers",
   "sources": {
     "phase3_stable_id": "OH-MILLERSPORT-VANTAGE-OH2",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -65,9 +126,51 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_or_primary_urls": [
+      "https://www.fairfieldcountyohio.gov/rpc/pdf/AGENDA-SEPTEMBER.2025-RPC-MEETING.pdf",
+      "https://fairfieldcountyohio.gov/COMMISH/minutes/10.07.25-meeting-minutes.pdf",
+      "https://www.fairfieldcountyohio.gov/COMMISH/minutes/10.21.25-meeting-minutes.pdf",
+      "https://www.fairfieldcountyohio.gov/COMMISH/minutes/10.28.25-meeting-minutes.pdf",
+      "https://dam.assets.ohio.gov/raw/upload/epa.ohio.gov/Public/DSW/Construction.xlsx",
+      "https://dam.assets.ohio.gov/image/upload/puco.ohio.gov/empliibrary/files/OPA/Mapping/OPSB/Solar%20Facilities%20Map/Battery_Map_and_Stats.pdf",
+      "https://fairfieldenergycenter.com/home/public-information",
+      "https://fairfieldenergycenter.com/",
+      "https://vantagemillersportcampus.com/",
+      "https://vantagemillersportcampus.com/faq/",
+      "https://vantagemillersportcampus.com/construction-updates/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "as_of": "2026-08-11",
+      "topic": "Fairfield Energy Center OPSB procedural status",
+      "details": "OPSB Battery Storage Case Status PDF dated 2026-07-23 lists case 26-0160-EL-BGN as pre-application, while Fairfield Energy Center's public-information page states an application has been submitted. Treat the power facility as under OPSB review/pending verification, not approved."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": null,
+      "new_value": "site work-construction",
+      "reason": "Vantage construction updates list active May-August 2026 site work and Ohio EPA lists construction stormwater NOI 4GC10971*AG for VDC OH-E."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": 696,
+      "reason": "Vantage Millersport campus page states 696 MW of IT capacity."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "Vantage Data Centers",
+      "reason": "Vantage Millersport campus page identifies Vantage Data Centers as developer of the campus."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

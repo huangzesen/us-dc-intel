@@ -4,19 +4,62 @@
   "owner": "Cipher Digital / Cipher Mining Inc.",
   "location": {
     "city": "",
-    "county": "",
-    "state": "OH"
+    "township": "Center Township",
+    "county": "Morgan",
+    "state": "OH",
+    "site_description": "planned on Center Bend Road"
   },
   "capacity_mw": 200,
-  "status": "site acquired; AEP Ohio capacity and utility agreements secured; energization targeted Q4 2027",
-  "confidence": "high",
-  "evidence_date": "2025-12-23",
+  "status": "local process; interconnection approved for 200 gross MW and substation development initiated; energization targeted Q4 2027",
+  "confidence": "medium-high",
+  "evidence_date": "2026-08-06",
   "sources": [
     "https://investors.cipherdigital.com/news-releases/news-release-details/cipher-mining-announces-acquisition-200-mw-site-ohio",
     "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000009/cifr-20251231.htm",
-    "https://www.datacenterdynamics.com/en/news/cipher-mining-acquires-land-for-200mw-data-center-site-in-ohio/"
+    "https://www.datacenterdynamics.com/en/news/cipher-mining-acquires-land-for-200mw-data-center-site-in-ohio/",
+    "https://investors.cipherdigital.com/static-files/a95634e3-43c8-49b4-ba07-c317ea37355e",
+    "https://www.morgancounty-oh.gov/",
+    "https://www.mchnews.com/articles/special-notices-20-183/",
+    "https://athensindependent.com/data-centers-across-appalachian-ohio/"
   ],
-  "why_not_in_baseline": "Not among the 208 canonical_project names; post-freeze Ohio power-first site with AEP Ohio capacity, but public sources do not disclose city/county.",
+  "why_not_in_baseline": "Not among the 208 canonical_project names; post-freeze Ohio power-first site with AEP Ohio capacity. Local public notices now place a Cipher Mining data center project on Center Bend Road in Center Township, Morgan County, but no parcel/site-plan filing was found in this refresh.",
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "summary": "Local Morgan County sources identify a Cipher Mining data center project in Center Township on Center Bend Road; third-party trackers/social posts variously list Hanover/Licking County or Union County. No official site plan or parcel record found tying the Ulysses codename to a parcel.",
+      "sources": [
+        "https://www.mchnews.com/articles/special-notices-20-183/",
+        "https://athensindependent.com/data-centers-across-appalachian-ohio/",
+        "https://www.aterio.io/events/cipher-mining-ulysses-91811"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "old_value": "site acquired; AEP Ohio capacity and utility agreements secured; energization targeted Q4 2027",
+      "new_value": "local process; interconnection approved for 200 gross MW and substation development initiated; energization targeted Q4 2027",
+      "source": "https://investors.cipherdigital.com/static-files/a95634e3-43c8-49b4-ba07-c317ea37355e"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "location",
+      "old_value": {
+        "city": "",
+        "county": "",
+        "state": "OH"
+      },
+      "new_value": {
+        "city": "",
+        "township": "Center Township",
+        "county": "Morgan",
+        "state": "OH",
+        "site_description": "planned on Center Bend Road"
+      },
+      "source": "https://www.mchnews.com/articles/special-notices-20-183/"
+    }
+  ],
   "discovery_file": "candidates-grid-queue.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

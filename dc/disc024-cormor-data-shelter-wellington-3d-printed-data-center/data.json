@@ -5,15 +5,40 @@
   "location": {
     "city": "Wellington",
     "county": "Sumner",
-    "state": "Kansas"
+    "state": "Kansas",
+    "site_notes": "Parcel north of Wellington city limits, within the city utility service territory; DCD reports the parcel is owned by the Humane Society."
   },
   "capacity_mw": 100,
-  "status": "proposed; city energy-sales agreement under discussion",
+  "capacity_mw_initial": 14.7,
+  "capacity_mw_basis": "100 MW is full-buildout/planned potential; 14.7 MW is the initial power load discussed in March 2026 city materials.",
+  "status": "local process; proposed city energy-sales/development agreement under review, no approval or construction evidence found in this refresh",
   "confidence": "medium",
-  "evidence_date": "2026-03-17",
+  "evidence_date": "2026-08-11",
   "sources": [
-    "https://www.datacenterdynamics.com/en/news/3d-printed-data-center-proposed-in-kansas/"
+    "https://www.cityofwellington.net/docview.aspx?docid=29965&doctype=fd",
+    "https://wellingtonks.municipalone.com/agendaView.aspx?aid=11954",
+    "https://www.cityofwellington.net/docview.aspx?docid=11952&doctype=minuteDoc",
+    "https://www.datacenterdynamics.com/en/news/3d-printed-data-center-proposed-in-kansas/",
+    "https://www.kwch.com/2026/03/17/wellington-officials-discuss-proposed-data-center-power-agreement/",
+    "https://www.sumnernewscow.com/wellington-council-to-discuss-at-tuesdays-meeting-to-enter-into-an-agreement-for-a-tier-iv-data-center-to-be-built-north-of-community/",
+    "https://www.datacentermap.com/usa/kansas/wichita/cormor-data-shelter/specs/"
   ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous": 100,
+      "current": 100,
+      "note": "Retained 100 MW as full-buildout potential, while adding capacity_mw_initial=14.7 from City of Wellington March 2026 materials."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "previous": "proposed; city energy-sales agreement under discussion",
+      "current": "local process; proposed city energy-sales/development agreement under review, no approval or construction evidence found in this refresh"
+    }
+  ],
+  "contradictions": [],
   "why_not_in_baseline": "Novel regional Kansas proposal outside major tracker markets; baseline did not include Cormor, Data Shelter, or Wellington.",
   "discovery_file": "candidates-secondary-markets.jsonl",
   "added_at": "2026-08-11",

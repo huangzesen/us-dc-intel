@@ -12,7 +12,8 @@
     "state": "OK"
   },
   "phase3_stable_id": "US-OK-GOOGLE-MUSKOGEE-CAMPUSES-2025",
-  "status_as_of_cutoff": "Announced/under development; the searched primary sources do not verify a building start.",
+  "status_as_of_cutoff": "Site work-construction; official Google and local-government/utility sources now support that the Muskogee campuses are under construction or being built, though no building permit, parcel address, energization date, or campus-specific MW capacity was found.",
+  "evidence_grade": "B: official company, utility, OCC case listing, and Muskogee County minutes confirm development/construction context; no permit/site-plan record or campus-specific capacity found.",
   "actions": [
     {
       "date": "2025-11-20",
@@ -37,10 +38,46 @@
       "primary_url": "https://www.oge.com/web/portal/-/200-press-release",
       "access_caveat": "Utility context only; no interconnection order or energization date is published.",
       "evidence_note": "Body/context retained from prior file: OG&E."
+    },
+    {
+      "date": "2026-04-20",
+      "date_precision": "day",
+      "government_body": "Muskogee Board of County Commissioners",
+      "action_type": "economic infrastructure community equipment fund agreement",
+      "result_status": "Approved an Economic Infrastructure Community Equipment Fund Agreement between Google LLC and the Board of County Commissioners for the benefit of Council Hill Fire Department; meeting minutes include counsel's statement that Google is building a data center in the Council Hill area. The minutes also say no paperwork was signed/executed by the commissioners to support the motion.",
+      "vote_tally": "unanimous",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://muskogee.okcounties.org/file/meetings/apr_20_4145.pdf",
+      "access_caveat": "Local-government minutes support construction context and community-equipment agreement only; not a building permit or site-plan approval.",
+      "evidence_note": "Added in 2026-08-11 refresh."
+    },
+    {
+      "date": "2026-04-30",
+      "date_precision": "day",
+      "government_body": null,
+      "action_type": "company energy agreement announcement",
+      "result_status": "Google said its long-term energy agreement with OG&E will support its under-construction data center campuses in Muskogee and Stillwater, and that Google will fund new infrastructure and provide capacity purchase agreements from solar facilities in Stephens and Muskogee Counties.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/oklahoma-energy-affordability-agreement/",
+      "access_caveat": "Company source; does not disclose campus-specific MW capacity, parcel address, or energization date.",
+      "evidence_note": "Added in 2026-08-11 refresh."
+    },
+    {
+      "date": "2026-07-08",
+      "date_precision": "day",
+      "government_body": "Oklahoma Corporation Commission",
+      "action_type": "utility regulatory case listing",
+      "result_status": "OCC current utility cases page lists Oklahoma Gas & Electric Company generation preapproval and special contract under case PUD 2026-000031, matching OG&E's announced large-load/special-contract review path.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PUD 2026-000031",
+      "primary_url": "https://oklahoma.gov/occ.html",
+      "access_caveat": "OCC landing page confirms case number and category, but not a final approval order or project-specific MW.",
+      "evidence_note": "Added in 2026-08-11 refresh."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google LLC",
   "sources": {
     "phase3_stable_id": "US-OK-GOOGLE-MUSKOGEE-CAMPUSES-2025",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -48,9 +85,29 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_urls_2026_08_11": [
+      "https://www.portmuskogee.com/google-announces-two-data-center-campuses-in-muskogee-county-oklahoma_news/",
+      "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/oklahoma-energy-affordability-agreement/",
+      "https://www.oge.com/web/portal/-/200-press-release",
+      "https://www.oge.com/web/portal/og-e-data-centers",
+      "https://oklahoma.gov/occ.html",
+      "https://muskogee.okcounties.org/file/meetings/apr_20_4145.pdf",
+      "https://www.readfrontier.org/stories/as-data-centers-boom-in-oklahoma-so-does-water-demand/",
+      "https://poweredbywho.com/projects/google-muskogee-council-hill-campus-999b1403"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date_observed": "2026-08-11",
+      "topic": "project status",
+      "summary": "Google's April 30, 2026 post describes under-construction Muskogee data center campuses, while PoweredByWho's Council Hill project page, updated May 16, 2026, still labels that campus Announced and says it has no linked public records. Official/company and local-government evidence were weighted higher for status.",
+      "sources": [
+        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/oklahoma-energy-affordability-agreement/",
+        "https://poweredbywho.com/projects/google-muskogee-council-hill-campus-999b1403"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -8,26 +8,93 @@
   "location": {
     "city": "Nottingham",
     "county": "Rockingham County",
-    "state": "NH"
+    "state": "NH",
+    "address": "145 Old Turnpike Road (U.S. Route 4)",
+    "parcel": "Map 3 Lot 10"
   },
   "phase3_stable_id": "US-NH-NOTTINGHAM-PROPOSAL-2026",
-  "status_as_of_cutoff": "Named public proposal only. No planning-board application, approval, permit, utility load, environmental review, construction, or operating evidence was located.",
+  "status_as_of_cutoff": "Conceptual consultation request withdrawn without prejudice as of 2026-05-27. The project reached only a Nottingham Planning Board preliminary conceptual consultation filing for 145 Old Turnpike Road; no planning-board approval, site-plan approval, construction permit, utility load, environmental review, construction, or operating evidence was located. A townwide temporary moratorium ordinance on data centers advanced separately in July 2026.",
+  "evidence_grade": "B - official town case/minutes/search-index evidence plus local reporting; official town pages were Cloudflare-blocked during direct fetch, but search-index snippets and the direct application PDF URL were accessible.",
+  "status_history": [
+    {
+      "date": "2026-07-16",
+      "status": "Named public proposal only. No planning-board application, approval, permit, utility load, environmental review, construction, or operating evidence was located.",
+      "source": "legacy-baseline-20260716/national_master_inventory.json"
+    },
+    {
+      "date": "2026-08-11",
+      "status": "Updated to conceptual consultation withdrawn without prejudice based on Nottingham Planning Board case/minutes records and NHPR/New Hampshire Bulletin reporting.",
+      "source": "https://www.nhpr.org/nh-news/2026-05-27/nottingham-data-center-proposal-withdrawn-after-backlash"
+    }
+  ],
   "actions": [
+    {
+      "date": "2026-04-29",
+      "date_precision": "day",
+      "government_body": "Town of Nottingham Planning Board",
+      "action_type": "preliminary conceptual consultation request",
+      "result_status": "Nottingham Business Park LLC application for Case #26-009 PCC/CCR identified 145 Old Turnpike Road, Map 3 Lot 10, to discuss a proposed data center.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PB Case #26-009 PCC/CCR",
+      "primary_url": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/pages/pb_case_26-009_pcc_nottingham_business_park_llc_-_145_old_turnpike_rd_-_application.pdf",
+      "access_caveat": "Official application PDF URL was accessible, but text extraction was not possible in this run; search-index snippets confirmed applicant, address, parcel, and data-center proposal language.",
+      "evidence_note": "Conceptual consultation only; not a site-plan approval or construction authorization."
+    },
     {
       "date": "2026-05-26",
       "date_precision": "day",
       "government_body": "Not a government action; New Hampshire Public Radio",
       "action_type": "proposal report",
-      "result_status": "NHPR reported that an entrepreneur proposed a data center on Route 4 and that the proposal had generated local controversy; project particulars remained sparse.",
+      "result_status": "NHPR reported that Thomas Moulton proposed a data center at Nottingham Business Park off Route 4 and that the May 27 Planning Board item was a preliminary conceptual consultation.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.nhpr.org/nh-news/2026-05-26/data-center-nottingham-nh-newhampshire-proposal",
       "access_caveat": "Local reporting; no municipal filing was located.",
       "evidence_note": "Retained as a named public proposal, not as an approved project."
+    },
+    {
+      "date": "2026-05-27",
+      "date_precision": "day",
+      "government_body": "Town of Nottingham Planning Board",
+      "action_type": "withdrawal / meeting record",
+      "result_status": "The applicant withdrew the conceptual consultation request before the scheduled Planning Board discussion; local reporting says the withdrawal was without prejudice and may allow future resubmission.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PB Case #26-009 PCC/CCR",
+      "primary_url": "https://www.nottingham-nh.gov/planning-board/minutes/pb-minutes-52726",
+      "access_caveat": "Official minutes page was Cloudflare-blocked during direct fetch; search-index snippet confirms Case #26-009 and the withdrawn data-center agenda item. NHPR and New Hampshire Bulletin independently report the same-day withdrawal.",
+      "evidence_note": "Status moved to withdrawn/inactive, not approved or construction."
+    },
+    {
+      "date": "2026-06-03",
+      "date_precision": "day",
+      "government_body": "Town of Nottingham Planning Board",
+      "action_type": "minutes / follow-up",
+      "result_status": "Approved Planning Board minutes state that potential data-center use discussed for the May 27, 2026 meeting was withdrawn the same afternoon and that the Board had no other active data-center item.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.nottingham-nh.gov/planning-board/minutes/pb-minutes-6326-0",
+      "access_caveat": "Official minutes page was Cloudflare-blocked during direct fetch; search-index snippet captured the relevant minutes text.",
+      "evidence_note": "Supports inactive/withdrawn status after the conceptual consultation request."
+    },
+    {
+      "date": "2026-07-01",
+      "date_precision": "day",
+      "government_body": "Town of Nottingham Planning Board",
+      "action_type": "townwide zoning moratorium ordinance",
+      "result_status": "Planning Board materials list PB Case #26-013 ZON, Nottingham Temporary Moratorium on Data Centers Ordinance - Final 7-1-2026.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PB Case #26-013 ZON",
+      "primary_url": "https://www.nottingham-nh.gov/planning-board/news/26-013-temporary-moratorium-data-centers-final-7-1-2026",
+      "access_caveat": "Official town page was Cloudflare-blocked during direct fetch; search-index snippet verified the case and document title.",
+      "evidence_note": "Townwide regulatory context; not a project approval or denial."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": {
+    "applicant": "Nottingham Business Park LLC",
+    "principal_reported": "Thomas Moulton",
+    "owner_status_note": "Treated as applicant/property-owner context, not an identified data-center operator or tenant."
+  },
   "sources": {
     "phase3_stable_id": "US-NH-NOTTINGHAM-PROPOSAL-2026",
     "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
@@ -35,7 +102,57 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      {
+        "url": "https://www.nottingham-nh.gov/planning-board/pages/case-26-009-ccr-nottingham-business-park-llc-145-old-turnpike-rd",
+        "title": "Case #26-009 CCR Nottingham Business Park, LLC - 145 Old Turnpike Rd",
+        "date": "2026-04-29",
+        "publisher": "Town of Nottingham Planning Board"
+      },
+      {
+        "url": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/pages/pb_case_26-009_pcc_nottingham_business_park_llc_-_145_old_turnpike_rd_-_application.pdf",
+        "title": "PB Case #26-009 PCC/CCR Nottingham Business Park LLC application",
+        "date": "2026-04-29",
+        "publisher": "Town of Nottingham Planning Board"
+      },
+      {
+        "url": "https://www.nottingham-nh.gov/planning-board/minutes/pb-minutes-52726",
+        "title": "Nottingham Planning Board minutes 5-27-26",
+        "date": "2026-05-27",
+        "publisher": "Town of Nottingham Planning Board"
+      },
+      {
+        "url": "https://www.nottingham-nh.gov/planning-board/minutes/pb-minutes-6326-0",
+        "title": "Nottingham Planning Board minutes 6-3-26 approved",
+        "date": "2026-06-03",
+        "publisher": "Town of Nottingham Planning Board"
+      },
+      {
+        "url": "https://www.nottingham-nh.gov/planning-board/news/26-013-temporary-moratorium-data-centers-final-7-1-2026",
+        "title": "#26-013 Temporary Moratorium on Data Centers - Final 7-1-2026",
+        "date": "2026-07-01",
+        "publisher": "Town of Nottingham Planning Board"
+      },
+      {
+        "url": "https://www.nhpr.org/nh-news/2026-05-26/data-center-nottingham-nh-newhampshire-proposal",
+        "title": "Data center proposal in Nottingham stirs controversy and statewide attention",
+        "date": "2026-05-26",
+        "publisher": "New Hampshire Public Radio"
+      },
+      {
+        "url": "https://www.nhpr.org/nh-news/2026-05-27/nottingham-data-center-proposal-withdrawn-after-backlash",
+        "title": "Nottingham data center proposal withdrawn after backlash",
+        "date": "2026-05-27",
+        "publisher": "New Hampshire Public Radio"
+      },
+      {
+        "url": "https://vnews.com/2026/06/03/backlash-data-center-proposal/",
+        "title": "How a data center proposal ignited opposition in a NH town and surrounding communities",
+        "date": "2026-06-03",
+        "publisher": "New Hampshire Bulletin / Valley News"
+      }
+    ]
   },
   "contradictions": [],
   "seed_only": false,

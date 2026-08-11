@@ -13,7 +13,8 @@
     "state": "TN"
   },
   "phase3_stable_id": "TN-002",
-  "status_as_of_cutoff": "Proposed/under development in press coverage; McMinnville’s public engagement page records a data-center pause/study. No verified zoning case, permit, parcel, construction, CO, utility, or energization record was located.",
+  "status_as_of_cutoff": "local process / proposed: Hixson Data Center is marketed by the sponsor as a 25 MW McMinnville/Warren County AI campus targeting Q1 2028, but the City of McMinnville adopted Ordinance No. 2026-09 on 2026-06-09 imposing an 18-month moratorium on new data-center and high-density-computing land-use, zoning, building, site-plan, conditional-use, and variance applications. No verified project-specific zoning case, permit, parcel, construction, CO, utility interconnection, or energization record was located as of 2026-08-11.",
+  "evidence_grade": "B: developer website and trade press establish proposal/capacity; official city records establish policy moratorium and public process, but no project-specific approval/permit record was found.",
   "actions": [
     {
       "date": "2026-05-26",
@@ -38,10 +39,34 @@
       "primary_url": "https://www.datacenterdynamics.com/en/news/25mw-ai-data-center-to-be-built-in-mcminnville-tennessee/",
       "access_caveat": "Trade press report with undisclosed applicant/project details; not a land-use or building approval.",
       "evidence_note": "Conflicting scale labels are preserved; no acreage, parcel, utility, or identity is inferred."
+    },
+    {
+      "date": "2026-06-09",
+      "date_precision": "day",
+      "government_body": "City of McMinnville Board of Mayor & Aldermen",
+      "action_type": "moratorium adoption",
+      "result_status": "Ordinance No. 2026-09 passed on second and final reading through the consent agenda, imposing a temporary moratorium on acceptance, processing, and approval of applications for land use, zoning, building, site plan, or conditional use permits for data centers and high-density computing facilities.",
+      "vote_tally": "all aye on consent agenda",
+      "case_or_ordinance_permit_number": "Ordinance No. 2026-09",
+      "primary_url": "https://mcminnvilletn.gov/Minutes%2006%2009%202026.pdf?t=202606261801300",
+      "access_caveat": "Citywide moratorium/policy action; not a project-specific approval, denial, or permit for Hixson Data Center.",
+      "evidence_note": "Public-hearing minutes the same day record seven visitors commenting with concerns regarding AI data centers."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "City of McMinnville public agenda index / Planning Commission postings",
+      "action_type": "posted-record scan",
+      "result_status": "Latest available city agenda postings reviewed through the 2026-08-11 BOMA packet and 2026-08-04 Planning Commission agenda; no Hixson-specific zoning, site-plan, conditional-use, variance, building-permit, construction, CO, or energization item was identified.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.mcminnvilletn.gov/city_government/agendas___minutes/board_of_mayor_and_aldermen_agendas_and_minutes.php",
+      "access_caveat": "Negative record check based on public agenda/minute postings and keyword review; it is not a comprehensive permit-database export.",
+      "evidence_note": "Planning Commission agenda index also checked: https://www.mcminnvilletn.gov/city_government/agendas___minutes/agendas_and_minutes.php"
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 25,
+  "owner": "Hixson Data Center / Hixson sponsor group (developer-reported project sponsor; exact legal landowner not verified in public government record)",
   "sources": {
     "phase3_stable_id": "TN-002",
     "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
@@ -49,9 +74,53 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "source_urls": [
+      "https://hixsondc.com/",
+      "https://www.datacenterdynamics.com/en/news/25mw-ai-data-center-to-be-built-in-mcminnville-tennessee/",
+      "https://engage.zencity.io/mcminnville-tn/en-US/projects/high-impact-developments",
+      "https://cms2.revize.com/revize/mcminnville/Full%20Packet%206-3-26.pdf?ref=writing.strisker.com&t=202606031814180&t=202606031814180",
+      "https://mcminnvilletn.gov/Minutes%2006%2009%202026.pdf?t=202606261801300",
+      "https://cms2.revize.com/revize/mcminnville/20260609%20Public%20Hearing%20for%20Ordinance%20No.%202026-09.pdf?t=202606261756040&t=202606261756040",
+      "https://www.mcminnvilletn.gov/city_government/agendas___minutes/board_of_mayor_and_aldermen_agendas_and_minutes.php",
+      "https://www.mcminnvilletn.gov/city_government/agendas___minutes/agendas_and_minutes.php"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date_observed": "2026-08-11",
+      "issue": "Construction wording vs entitlement record",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/25mw-ai-data-center-to-be-built-in-mcminnville-tennessee/",
+        "https://mcminnvilletn.gov/Minutes%2006%2009%202026.pdf?t=202606261801300",
+        "https://engage.zencity.io/mcminnville-tn/en-US/projects/high-impact-developments"
+      ],
+      "note": "DCD says the facility 'is being built' and the sponsor markets a Q1 2028 opening, while city records show an adopted moratorium and no verified project-specific approval or permit. Status is therefore kept at local process/proposed, not construction."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": 25,
+      "reason": "Capacity now supported by sponsor website and DCD report; treated as proposed/sellable IT output, not energized load."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "Hixson Data Center / Hixson sponsor group",
+      "reason": "Project sponsor identified from sponsor website and DCD report; legal parcel owner remains unverified."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": "Proposed/under development in press coverage; McMinnville’s public engagement page records a data-center pause/study. No verified zoning case, permit, parcel, construction, CO, utility, or energization record was located.",
+      "new_value": "local process / proposed with adopted city moratorium and no verified project-specific permit",
+      "reason": "Official June 9, 2026 minutes document final passage of Ordinance No. 2026-09."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

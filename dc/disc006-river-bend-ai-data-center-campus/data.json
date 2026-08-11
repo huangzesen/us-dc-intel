@@ -8,15 +8,47 @@
     "state": "LA"
   },
   "capacity_mw": 330,
-  "status": "announced; utility capacity secured; first phase leased",
+  "capacity_mw_detail": {
+    "utility_capacity_mw": 330,
+    "commercialized_it_capacity_mw": 245,
+    "potential_expansion_utility_capacity_mw": 1000,
+    "site_footprint_acres": 627,
+    "land_under_option_acres": 2361
+  },
+  "status": "site work-construction",
   "confidence": "high",
-  "evidence_date": "2025-12-17",
+  "evidence_date": "2026-08-04",
   "sources": [
     "https://www.hut8.com/data-centers/river-bend",
     "https://www.hut8.com/news-insights/press-releases/hut-8-signs-15-year-245-mw-ai-data-center-lease-at-river-bend-campus-with-total-contract-value",
-    "https://www.opportunitylouisiana.gov/news/hut-8-selects-southeast-louisiana-as-site-of-10-billion-artificial-intelligence-data-center"
+    "https://www.opportunitylouisiana.gov/news/hut-8-selects-southeast-louisiana-as-site-of-10-billion-artificial-intelligence-data-center",
+    "https://www.entergy.com/news/hut-8-selects-entergy-southeast-louisiana-for-10-billion-artificial-intelligence-data-center",
+    "https://www.wfparish.org/parish-council",
+    "https://www.hut8.com/news-insights/press-releases/hut-8-closes-usd3-25-billion-of-investment-grade-senior-secured-notes-in-landmark-financing",
+    "https://www.sec.gov/Archives/edgar/data/1964789/000110465926055891/hut-20260331x10q.htm",
+    "https://www.hut8.com/news-insights/press-releases/hut-8-reports-second-quarter-2026-results",
+    "https://www.prnewswire.com/news-releases/hut-8-commits-16-million-to-expand-water-infrastructure-in-west-feliciana-parish-302775525.html"
+  ],
+  "history": [
+    {
+      "as_of": "2026-08-11",
+      "field": "status",
+      "old_value": "announced; utility capacity secured; first phase leased",
+      "new_value": "site work-construction",
+      "reason": "Hut 8 Q2 2026 results and current River Bend page report the campus/facilities as under construction; West Feliciana Parish page says the AI facility is being constructed."
+    },
+    {
+      "as_of": "2026-08-11",
+      "field": "evidence_date",
+      "old_value": "2025-12-17",
+      "new_value": "2026-08-04",
+      "reason": "Latest primary company result explicitly updates River Bend construction status."
+    }
   ],
   "why_not_in_baseline": "Not among the 208 canonical_project names; announced after the baseline freeze as a Louisiana AI campus with Entergy-supported utility capacity for Fluidstack/Anthropic workloads.",
+  "contradictions": [
+    "Capacity figures are non-additive: Hut 8 reports 330 MW utility capacity and 245 MW commercialized IT capacity, plus up to 1,000 MW potential expansion capacity subject to power expansion. Earlier/local-media references to 300 MW or $2.5B appear to predate the December 2025 Phase I/lease disclosure and are not used as the current controlling capacity."
+  ],
   "discovery_file": "candidates-grid-queue.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

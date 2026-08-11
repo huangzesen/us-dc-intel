@@ -7,28 +7,47 @@
     "FirstLight Bedford, NH"
   ],
   "location": {
+    "address": "8 Commerce Dr",
     "city": "Bedford",
     "county": "Hillsborough County",
-    "state": "NH"
+    "state": "NH",
+    "postal_code": "03110",
+    "parcel_id": "5502",
+    "mblu": "35/98/23",
+    "acreage": 8.95
   },
   "phase3_stable_id": "US-NH-FIRSTLIGHT-BEDFORD-2026",
-  "status_as_of_cutoff": "Company-announced expansion; construction, local approval, permit, utility, energization, commissioning, and service were not verified. Capacity, building count, and completion date were not disclosed.",
+  "status_as_of_cutoff": "announced: FirstLight announced a Bedford data-center expansion on 2026-03-10 adding approximately 25% more data-center space plus additional power and cooling infrastructure to support up to 100 additional racks, private suites, and caged environments. Local assessment records corroborate the 8 Commerce Dr parcel and existing building, but local approval, building permit, construction start, utility interconnection, energization, commissioning, completion, MW capacity, and completion date were not verified as of 2026-08-11.",
+  "evidence_grade": "B: company announcement verified; local assessor/permitting pages corroborate address and permitting context, but no official project approval or construction permit was found in public sources checked.",
   "actions": [
     {
       "date": "2026-03-10",
       "date_precision": "day",
       "government_body": "Not a government action; FirstLight",
       "action_type": "expansion announcement",
-      "result_status": "FirstLight announced a significant Bedford data-center expansion without publishing a capacity, building, construction-start, or completion record.",
+      "result_status": "FirstLight announced a significant Bedford data-center expansion adding approximately 25% more data-center space, additional power and cooling infrastructure, and support for up to 100 additional racks, private suites, and caged environments. The announcement did not publish MW capacity, building count, construction-start, permit, or completion details.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.firstlight.net/firstlight-expands-bedford-nh-data-center/",
       "access_caveat": "Company announcement; no government action is inferred.",
       "evidence_note": "Announcement context only."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Town of Bedford / Vision Government Solutions assessment database",
+      "action_type": "property-record verification",
+      "result_status": "Public assessment record identified 8 Commerce Dr as parcel PID 5502, MBLU 35/98/23, property-record owner 8 Commerce Drive LLC, 1 building, 8.95 acres, and 2026 total market value of $8,616,200. This corroborates site location only and does not verify data-center expansion approval or construction.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PID 5502; MBLU 35/98/23",
+      "primary_url": "https://gis.vgsi.com/bedfordnh/Parcel.aspx?Pid=5502",
+      "access_caveat": "Assessment database is public summary information and not a permit record.",
+      "evidence_note": "Address/property context only."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_notes": "MW not disclosed. Company announcement states approximately 25% more data-center space and support for up to 100 additional racks.",
+  "owner": "FirstLight (announcing/operator); property-record owner is 8 Commerce Drive LLC",
   "sources": {
     "phase3_stable_id": "US-NH-FIRSTLIGHT-BEDFORD-2026",
     "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
@@ -36,9 +55,31 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://www.firstlight.net/firstlight-expands-bedford-nh-data-center/",
+      "https://www.firstlight.net/wp-json/wp/v2/posts/18150",
+      "https://gis.vgsi.com/bedfordnh/Parcel.aspx?Pid=5502",
+      "https://gis.vgsi.com/bedfordnh/",
+      "https://www.bedfordnh.gov/149/Assessing",
+      "https://www.bedfordnh.gov/169/Building-Code-Compliance",
+      "https://www.bedfordnh.gov/924/Online-Permitting-System",
+      "https://www.datacenterdynamics.com/en/news/firstlight-expands-new-hampshire-data-center/",
+      "https://www.datacentermap.com/usa/new-hampshire/manchester-nh/bedford-data-center/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date_identified": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "summary": "DataCenterMap lists a 2026-03-10 event as 'Phase Operational' and says FirstLight completes the expansion, while FirstLight's official 2026-03-10 post and DCD's same-day article describe an announcement/expansion and do not provide completion, energization, or commissioning evidence. Status remains announced pending official completion evidence.",
+      "sources": [
+        "https://www.datacentermap.com/usa/new-hampshire/manchester-nh/bedford-data-center/",
+        "https://www.firstlight.net/firstlight-expands-bedford-nh-data-center/",
+        "https://www.datacenterdynamics.com/en/news/firstlight-expands-new-hampshire-data-center/"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

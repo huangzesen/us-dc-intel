@@ -12,8 +12,33 @@
     "state": "MO"
   },
   "phase3_stable_id": "MO-NEW-FLORENCE-GOOGLE-SPADE",
-  "status_as_of_cutoff": "Missouri DED and Google's current location material identify a planned/in-development data center in Montgomery County/New Florence. A project-partner page describes two buildings and late-2026 anticipated construction. No county/city rezoning, land-use decision, bond/tax action, building permit, environmental/water/utility permit, construction, inspection, CO, energization, commissioning, or service record was located.",
+  "status_as_of_cutoff": "approved-permitted / pre-construction: Missouri DED and Google confirm a planned New Florence/Montgomery County data center investment. The Montgomery County project page now publishes Project Spade materials, and current project materials describe two initial data-center buildings with construction anticipated in late 2026. County-linked/current secondary records describe the site as permitted-by-right after Montgomery County administrative review, with site-plan, stormwater/grading, water/wastewater, and Ameren/MISO documentation present; an MDNR land-disturbance stormwater permit is reported for Project Lumberjack, part of Project Spade. No direct county building permit, certificate of occupancy, energization, commissioning, or operating/service record was located.",
+  "evidence_grade": "B",
   "actions": [
+    {
+      "date": "2025-11-17",
+      "date_precision": "day",
+      "government_body": "Montgomery County Planning & Zoning",
+      "action_type": "administrative review / permitted-by-right zoning determination",
+      "result_status": "Current county-linked records and public reporting describe a Data Center Administrative Review for Project Spade in a Commercial Zoned District: the project was treated as a permitted-by-right data center use, with site plan, grading/stormwater, MDNR well/water documentation, wastewater disposal, electric provider agreement, Ameren/MISO documentation, and utility relocation outlines present. Several operational-impact details were still reported as blank or unresolved.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://mcmo.us/google/",
+      "access_caveat": "The county page was discoverable via search and lists Project Spade Site Plan/FAQ materials, but the page/PDF could not be directly opened during this refresh from the local shell or browser tool; detailed review facts are corroborated by an accessible 2025 public records write-up and industry trackers rather than direct county-document text.",
+      "evidence_note": "Moves local-process evidence above announcement-only, but does not prove vertical construction, building permit issuance, CO, energization, or operation."
+    },
+    {
+      "date": "2025-11-05",
+      "date_precision": "day",
+      "government_body": "Missouri Department of Natural Resources",
+      "action_type": "land disturbance / stormwater operating permit reported",
+      "result_status": "Public records reporting identifies Missouri State Operating Permit MORA29107 issued to Spade Property Owner LLC for Project Lumberjack, described as part of Project Spade, at 580 Tree Farm Road, New Florence, covering 23.04 acres of land disturbance activity and valid until 2027-02-07.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "MORA29107",
+      "primary_url": "https://annafarrar.substack.com/p/what-project-spade-really-is",
+      "access_caveat": "Permit details were located through an accessible public-records write-up; MDNR's public data-center page confirms land-disturbance permit requirements for one or more disturbed acres, but the specific permit record was not directly retrievable from MDNR search during this refresh.",
+      "evidence_note": "Supports site-work-preparation evidence, not data-center building construction or operation."
+    },
     {
       "date": "2026-05-20",
       "date_precision": "day",
@@ -31,7 +56,7 @@
       "date_precision": "day",
       "government_body": "Project Spade / regional development partner",
       "action_type": "project website announcement",
-      "result_status": "The project website identifies a two-building Google data-center project in Montgomery County and says construction is anticipated in late 2026.",
+      "result_status": "The project website identifies a closed-loop, non-evaporative, air-cooled Google data-center campus in Montgomery County, lists two initial data-center buildings plus support buildings, 300 local jobs, and construction anticipated in late 2026.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.projectspade-missouri.com/",
@@ -49,10 +74,48 @@
       "primary_url": "https://datacenters.google/discover-more/faq/",
       "access_caveat": "Company page; location listing does not establish local approval or operation.",
       "evidence_note": "Operator status context."
+    },
+    {
+      "date": "2026-08-06",
+      "date_precision": "day",
+      "government_body": "Project Spade / water-risk consultant material",
+      "action_type": "water-risk assessment posted",
+      "result_status": "The project site now links a Water Risk Assessment Summary for the Cambrian-Ordovician Aquifer, completed in Q1 2026. It reports low chronic depletion risk and no curtailment events, but high current and future water-scarcity risk ratios for the aquifer and high risk of more intense precipitation events in the region.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.projectspade-missouri.com/documents/water-risk-memo-cambrian-ordovician-aquifer.pdf",
+      "access_caveat": "Project-posted technical memo; not a regulatory approval and not an operating water-use report.",
+      "evidence_note": "Current project environmental context; does not establish operating withdrawal volumes."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google",
+  "capacity_notes": [
+    {
+      "date": "2026-05-20",
+      "value": "Project-specific IT/electric capacity remains officially undisclosed. Google says it has contracted for more than 1 GW of new generation capacity in Missouri and is supporting more than 500 MW of additional capacity with Ameren, but those figures are broader Missouri energy commitments, not stated Project Spade load.",
+      "source_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/documents/Press_Release__Google_Deepens_Missouri_Roots.pdf"
+    },
+    {
+      "date": "2026-05-21",
+      "value": "Data Center Dynamics, citing industry/project context, reports Project Spade as targeting 1.2 GW on a 934-acre plot developed by Related Digital.",
+      "source_url": "https://www.datacenterdynamics.com/en/news/google-pledges-15bn-investment-in-new-florence-missouri/"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Missouri DED and Google's current location material identify a planned/in-development data center in Montgomery County/New Florence. A project-partner page describes two buildings and late-2026 anticipated construction. No county/city rezoning, land-use decision, bond/tax action, building permit, environmental/water/utility permit, construction, inspection, CO, energization, commissioning, or service record was located.",
+      "reason": "Refresh located county/project materials, project water-risk memo, official Google/DED announcement details, MDNR permitting guidance, and public-records reporting of county administrative review and MDNR land-disturbance permit."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "reason": "Google's May 20, 2026 press release and project site identify the New Florence/Montgomery County data center as Google's project; land/development entity details remain caveated in notes."
+    }
+  ],
   "sources": {
     "phase3_stable_id": "MO-NEW-FLORENCE-GOOGLE-SPADE",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -60,9 +123,43 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://mcmo.us/google/",
+      "https://ded.mo.gov/press-room/google-deepens-missouri-roots-15-billion-community-investment-montgomery-county",
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/documents/Press_Release__Google_Deepens_Missouri_Roots.pdf",
+      "https://www.projectspade-missouri.com/",
+      "https://www.projectspade-missouri.com/documents/water-risk-memo-cambrian-ordovician-aquifer.pdf",
+      "https://dnr.mo.gov/data-e-services/centers",
+      "https://dnr.mo.gov/data-e-services/missouri-gateway-environmental-management-mogem",
+      "https://www.datacenterdynamics.com/en/news/google-pledges-15bn-investment-in-new-florence-missouri/",
+      "https://baxtel.com/data-center/google-project-spade-campus",
+      "https://www.datacentermap.com/usa/missouri/st-louis/project-spade-dc1/",
+      "https://annafarrar.substack.com/p/what-project-spade-really-is"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "building count and scale",
+      "details": "Current Project Spade site says two initial data-center buildings plus support buildings; public-records/industry tracker material continues to describe three primary buildings of roughly 1.08 million square feet each or around 910-934 acres. Treat the two-building figure as current project/operator-facing scope and the three-building figure as earlier/administrative-site-plan or tracker context until direct county plan sheets are rechecked.",
+      "sources": [
+        "https://www.projectspade-missouri.com/",
+        "https://www.datacentermap.com/usa/missouri/st-louis/project-spade-dc1/",
+        "https://annafarrar.substack.com/p/what-project-spade-really-is"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "capacity",
+      "details": "Official Google/DED material does not disclose Project Spade capacity. DCD/Baxtel-style industry sources report or imply a 1.2 GW target and Ameren utility service, so capacity_mw remains null with the claim retained in capacity_notes.",
+      "sources": [
+        "https://storage.googleapis.com/gweb-uniblog-publish-prod/documents/Press_Release__Google_Deepens_Missouri_Roots.pdf",
+        "https://www.datacenterdynamics.com/en/news/google-pledges-15bn-investment-in-new-florence-missouri/",
+        "https://baxtel.com/data-center/google-project-spade-campus"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

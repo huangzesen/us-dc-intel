@@ -13,7 +13,8 @@
     "state": "CA"
   },
   "phase3_stable_id": "US-CA-PRIME-SACRAMENTO-SMF01-02-2024",
-  "status_as_of_cutoff": "County records show a pending project viewer entry for a special development permit and major design review, with the Zoning Administrator disposition recorded as Approved on 2026-02-05. Prime separately announced an SMF02 groundbreaking on 2026-05-07 and described 150,000 square feet/18 MW, but no county building permit, final inspection, CO, utility interconnection, energization, or commissioning record was located.",
+  "status_as_of_cutoff": "Approved-permitted at the local land-use/CEQA layer, with construction only company-reported. Sacramento County's project viewer continues to show PLNP2024-00238 as Pending while recording the Zoning Administrator disposition as Approved on 2026-02-05, and CEQAnet records a filed Notice of Determination for the Prime Sacramento Datacenter Addition on 2026-02-25. Prime announced an SMF02 groundbreaking on 2026-05-07 and its current Sacramento location page lists the second facility as under construction, but no county building permit, final inspection, CO, utility interconnection, energization, or commissioning record was located.",
+  "evidence_grade": "B: official county/CEQA records verify land-use approval and environmental filing; construction status and MW are company/project-team reported and not independently verified by building permit, CO, utility, energization, commissioning, or live-service records.",
   "actions": [
     {
       "date": "2024-12-30",
@@ -35,8 +36,8 @@
       "result_status": "The agenda placed PLNP2024-00238 before the committee for a special development permit and design review concerning APNs 215-0330-069 and -070 at 2345 McClellan Park Drive; the agenda does not establish a final approval or vote tally.",
       "vote_tally": "not published in the reviewed agenda",
       "case_or_ordinance_permit_number": "PLNP2024-00238",
-      "primary_url": "https://planning.saccounty.gov/PlansandProjectsIn-Progress/Design%20Review%20Committee/07.24.25%20DRAC%20Agenda.pdf",
-      "access_caveat": "Agenda placement is not final land-use approval and is not a building permit.",
+      "primary_url": "https://planningdocuments.saccounty.net/ViewProjectDetails.aspx?ControlNum=PLNP2024-00238",
+      "access_caveat": "The earlier direct agenda PDF did not resolve during the 2026-08-11 refresh; the live county project viewer exposes the DRAC worksheet and application trail. Review placement is not final land-use approval and is not a building permit.",
       "evidence_note": "Review-stage government action."
     },
     {
@@ -52,20 +53,57 @@
       "evidence_note": "Verified local land-use approval; not proof of building construction, power-on, or service."
     },
     {
+      "date": "2026-02-25",
+      "date_precision": "day",
+      "government_body": "California Governor's Office of Land Use and Climate Innovation / State Clearinghouse",
+      "action_type": "Notice of Determination filing",
+      "result_status": "CEQAnet lists a Notice of Determination for the Prime Sacramento Datacenter Addition, identifies Sacramento County as lead agency, and reports that the project was approved/adopted on 2026-02-05 and posted/received on 2026-02-25.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "SCH 1996122010; Sacramento County PLNP2024-00238 context",
+      "primary_url": "https://ceqanet.lci.ca.gov/1996122010/10",
+      "access_caveat": "CEQA NOD filing corroborates approval/environmental determination, not building permit issuance, construction completion, energization, or occupancy.",
+      "evidence_note": "Official state environmental filing tied to county approval date."
+    },
+    {
       "date": "2026-05-07",
       "date_precision": "day",
       "government_body": "Not a government action; Prime Data Centers",
       "action_type": "developer groundbreaking announcement",
-      "result_status": "Prime announced that it broke ground on SMF02 and described the facility as 150,000 square feet with 18 MW of critical IT load. This is company evidence and is not substituted for a county building permit or inspection.",
+      "result_status": "Prime announced that it broke ground on SMF02 and described the facility as 150,000 square feet with 18 MW of critical IT load, expanding the Sacramento campus to 26 MW across two facilities. This is company evidence and is not substituted for a county building permit or inspection.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://primedatacenters.com/news/prime-data-centers-breaks-ground-on-second-sacramento-data-center-expanding-regional-campus-footprint/",
       "access_caveat": "Company announcement; the reviewed county records do not independently verify groundbreaking or the announced MW.",
       "evidence_note": "Announcement kept separate from government approval."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "access_day",
+      "government_body": "Not a government action; Prime Data Centers",
+      "action_type": "current company location profile",
+      "result_status": "Prime's current Sacramento page identifies SMF01 at 2407 AK Street as an 8 MW facility and the second building at 2408 AK Street as an 18 MW facility under construction, for 26 MW total company-reported critical IT load.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://primedatacenters.com/locations/sacramento/",
+      "access_caveat": "Company location page; no publication date was located on the page and no official building permit, CO, utility energization, commissioning, or live-service record was found.",
+      "evidence_note": "Current company status/capacity profile as of refresh access date."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "access_day",
+      "government_body": "Not a government action; BKF Engineers",
+      "action_type": "project-team profile",
+      "result_status": "BKF's SMF02 project page describes a 150,000 square-foot, 18 MW data center in Sacramento and lists site-civil engineering work for Prime Data Centers.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.bkf.com/projects/prime-data-center-smf01-02/",
+      "access_caveat": "Project-team/vendor profile; corroborates scope but does not establish permit issuance, completion, energization, or operation.",
+      "evidence_note": "Secondary project-team corroboration for announced SMF02 size/MW."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 26,
+  "capacity_mw_basis": "Company-reported critical IT load: Prime's Sacramento location page lists SMF01 at 8 MW and the second facility at 18 MW; the 18 MW SMF02 figure is also in Prime's 2026-05-07 groundbreaking announcement and BKF's project-team profile. Not independently verified by utility or government service records.",
+  "owner": "Prime Data Centers",
   "sources": {
     "phase3_stable_id": "US-CA-PRIME-SACRAMENTO-SMF01-02-2024",
     "phase3_source_file": "phase3/county_ca_or.json",
@@ -73,9 +111,60 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11_urls": [
+      "https://planningdocuments.saccounty.net/ViewProjectDetails.aspx?ControlNum=PLNP2024-00238",
+      "https://ceqanet.lci.ca.gov/1996122010/10",
+      "https://primedatacenters.com/news/prime-data-centers-breaks-ground-on-second-sacramento-data-center-expanding-regional-campus-footprint/",
+      "https://primedatacenters.com/locations/sacramento/",
+      "https://www.bkf.com/projects/prime-data-center-smf01-02/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "current status",
+      "sources": [
+        "https://planningdocuments.saccounty.net/ViewProjectDetails.aspx?ControlNum=PLNP2024-00238",
+        "https://primedatacenters.com/locations/sacramento/"
+      ],
+      "summary": "County viewer status remains Pending despite an Approved Zoning Administrator disposition; Prime's current company page lists the second Sacramento facility as under construction. Treat land-use approval as official and construction as company-reported until permit/inspection/utility records are found.",
+      "resolution": "Use approved-permitted for official status layer; note company-reported construction separately."
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "facility naming/address",
+      "sources": [
+        "https://primedatacenters.com/news/prime-data-centers-breaks-ground-on-second-sacramento-data-center-expanding-regional-campus-footprint/",
+        "https://primedatacenters.com/locations/sacramento/",
+        "https://planningdocuments.saccounty.net/ViewProjectDetails.aspx?ControlNum=PLNP2024-00238"
+      ],
+      "summary": "Prime's release calls the second facility SMF02, while the current location page labels the second building SMF01-02 at 2408 AK Street and county planning records center the application around 2407 AK St / 2345 McClellan Park Drive and APNs 215-0330-069 and -070.",
+      "resolution": "Retain canonical SMF01/SMF02 campus aliasing and preserve source-specific names/addresses in notes."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "County records show a pending project viewer entry for a special development permit and major design review, with the Zoning Administrator disposition recorded as Approved on 2026-02-05. Prime separately announced an SMF02 groundbreaking on 2026-05-07 and described 150,000 square feet/18 MW, but no county building permit, final inspection, CO, utility interconnection, energization, or commissioning record was located.",
+      "new_value": "Approved-permitted at official land-use/CEQA layer; construction only company-reported; no building permit, CO, utility interconnection, energization, commissioning, or live-service record located."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 26,
+      "basis": "Company-reported campus critical IT load, not government/utility verified."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Prime Data Centers",
+      "basis": "County applicant/project references and Prime company pages."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

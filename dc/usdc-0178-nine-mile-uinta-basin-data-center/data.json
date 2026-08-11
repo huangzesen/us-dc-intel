@@ -8,29 +8,63 @@
   "location": {
     "city": "Near Myton",
     "county": "Duchesne",
-    "state": "UT"
+    "state": "UT",
+    "project_area": "Wells Draw Road / South Myton Bench area, southeast of Bridgeland and about six miles southwest of Myton",
+    "parcel_ids": [
+      "00-0009-5871",
+      "00-0027-8311",
+      "00-0034-9496",
+      "00-0009-5947"
+    ],
+    "county_application_acres": 960.32,
+    "planned_data_center_footprint_acres": 475
   },
   "phase3_stable_id": "US-UT-NINE-MILE-UINTA-2026",
-  "status_as_of_cutoff": "Conditional-use process/approval reported in Duchesne and Utah government material; construction was not verified.",
+  "status_as_of_cutoff": "approved-permitted: Duchesne County Planning Commission minutes record unanimous conditional-use approval on 2026-04-02; a 2026-05-26 Grand County government inventory says construction had not begun. No site-work/construction evidence was found in the 2026-08-11 refresh.",
+  "evidence_grade": "A-: official Duchesne County agenda, findings report, and approved minutes verify the local CUP process/approval; construction status relies on a Utah public-notice government inventory rather than direct building-permit or site-inspection records.",
   "actions": [
     {
       "date": "2026-04-02",
       "date_precision": "day",
       "government_body": "Duchesne County Planning Commission",
       "action_type": "conditional-use public hearing and findings report",
-      "result_status": "Duchesne’s findings report records a complete Nine Mile Data LLC application, public notice, and April 2 public hearing for a commercial data-center conditional-use permit. The final resolution/roll call was not retrieved; Utah inventory separately states conditional-use approval in April and no construction.",
+      "result_status": "Duchesne's findings report records a complete Nine Mile Data LLC application, public notice, and April 2 public hearing for a commercial data-center conditional-use permit. County minutes separately record unanimous approval at the April 2 hearing.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": "Nine Mile Data LLC Data Center Development Commercial Use CUP",
       "primary_url": "https://duchesne.utah.gov/wp-content/uploads/2026/03/Findings-Report-Nine-Mile-Data-LLC-040226.pdf",
-      "access_caveat": "Official county findings report accessible; it is not treated as a final permit instrument without the final decision document.",
+      "access_caveat": "Official county findings report accessible; final approval is supported by the separate April 2, 2026 Planning Commission minutes.",
       "evidence_note": "Body/context retained from prior file: Duchesne County Planning Commission / Community Development."
+    },
+    {
+      "date": "2026-04-02",
+      "date_precision": "day",
+      "government_body": "Duchesne County Planning Commission",
+      "action_type": "conditional-use approval",
+      "result_status": "Meeting minutes list Agenda Item A6, Conditional Use Permit - Data Center, and record a motion by Commissioner Spencer Turnbow, second by Commissioner Connie Sweat, and unanimous vote to approve.",
+      "vote_tally": "unanimous",
+      "case_or_ordinance_permit_number": "Agenda Item A6",
+      "primary_url": "https://duchesne.utah.gov/wp-content/uploads/2026/05/Duchesne-County-Planning-Commission-4_02_2026.pdf",
+      "access_caveat": "Official county meeting minutes; the separate signed CUP instrument was not retrieved.",
+      "evidence_note": "The April 2 agenda describes the data-center CUP as on property owned by Vaibhav Shree LLC in the Wells Draw area."
+    },
+    {
+      "date": "2026-04-27",
+      "date_precision": "day",
+      "government_body": "Duchesne County Commission",
+      "action_type": "appeal hearing notice",
+      "result_status": "Utah Public Notice scheduled appeals by Moreen Henderson and Diana Meacham Davies of the Planning Commission's April 2 approval for the Nine Mile Data LLC data-center CUP; the same notice also covered related Wells Draw Energy and reWater appeals.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.utah.gov/pmn/sitemap/notice/1073369.html",
+      "access_caveat": "Official notice verifies the appeals were scheduled; the official county appeal decision/minutes were not retrieved.",
+      "evidence_note": "Grand County's later government inventory and local reporting say resident appeals were denied, but those are not the underlying Duchesne appeal order."
     },
     {
       "date": "2026-05-26",
       "date_precision": "day",
       "government_body": "Grand County Planning Commission",
       "action_type": "government data-center inventory",
-      "result_status": "Utah inventory lists Nine Mile near Myton as APPROVED at 3,000 MW and says construction had not begun; it also says resident appeals were denied. This is a compiled inventory, not a building permit or utility record.",
+      "result_status": "Utah inventory lists Nine Mile near Myton as APPROVED with Energence Utah / Nine Mile Data LLC as operator/developer and says construction had not begun; it also says resident appeals were denied. The table does not provide a MW capacity for Nine Mile; the adjacent 3,000 MW entry applies to Wonder Valley / Stratos Phase 1 in Box Elder County.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.utah.gov/pmn/files/1444799.pdf",
@@ -39,7 +73,22 @@
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_note": "Official Duchesne County materials reviewed in the 2026-08-11 refresh do not state an IT/load capacity. Grand County's 2026-05-26 government inventory does not assign a MW value to Nine Mile. Cleanview lists 400 MW, but that tracker value is not treated as authoritative.",
+  "capacity_history": [
+    {
+      "date": "2026-08-11",
+      "value_mw": null,
+      "source_url": "https://www.utah.gov/pmn/files/1444799.pdf",
+      "note": "Grand County inventory table lists Nine Mile as approved with 960+ acres but no MW capacity."
+    },
+    {
+      "date": "2026-08-11",
+      "claimed_value_mw": 400,
+      "source_url": "https://cleanview.co/data-centers/utah/4200/nine-mile-data-center",
+      "note": "Industry tracker claim; retained as non-authoritative until supported by official permit, utility, or developer material."
+    }
+  ],
+  "owner": "Energence Utah, LLC / Nine Mile Data, LLC are identified in county materials as project applicant/developer entities; the April 2, 2026 county agenda/minutes list Vaibhav Shree LLC as property owner for the data-center CUP item.",
   "sources": {
     "phase3_stable_id": "US-UT-NINE-MILE-UINTA-2026",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -47,9 +96,28 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://duchesne.utah.gov/wp-content/uploads/2026/03/Findings-Report-Nine-Mile-Data-LLC-040226.pdf",
+      "https://duchesne.utah.gov/wp-content/uploads/2026/05/Duchesne-County-Planning-Commission-4_02_2026.pdf",
+      "https://duchesne.utah.gov/wp-content/uploads/2026/03/4.-April-2-Agenda.pdf",
+      "https://www.utah.gov/pmn/sitemap/notice/1073369.html",
+      "https://www.utah.gov/pmn/files/1444799.pdf",
+      "https://cleanview.co/data-centers/utah/4200/nine-mile-data-center"
+    ],
+    "last_refreshed": "2026-08-11"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "summary": "A prior note interpreted 3,000 MW as Nine Mile's capacity, but the Grand County inventory table places 3,000 MW on the next row for Wonder Valley / Stratos Phase 1. Cleanview separately lists Nine Mile at 400 MW. No official Nine Mile MW capacity was found.",
+      "sources": [
+        "https://www.utah.gov/pmn/files/1444799.pdf",
+        "https://cleanview.co/data-centers/utah/4200/nine-mile-data-center"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

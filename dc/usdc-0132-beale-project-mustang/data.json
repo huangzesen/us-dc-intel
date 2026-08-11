@@ -3,7 +3,9 @@
   "canonical_project": "Beale Project Mustang",
   "aliases": [
     "Beale Project Mustang",
-    "Claremore Industrial Park data center"
+    "Claremore Industrial Park data center",
+    "Claremore Data Center Project",
+    "Mustang Tulsa Holdings, LLC"
   ],
   "location": {
     "city": "Claremore",
@@ -11,7 +13,8 @@
     "state": "OK"
   },
   "phase3_stable_id": "US-OK-BEALE-MUSTANG-CLAREMORE-2026",
-  "status_as_of_cutoff": "Proposed; public-hearing/project-plan stage. The searched city materials do not establish final approval or construction.",
+  "status_as_of_cutoff": "approved-permitted / local approval: Claremore City Council approved the TID agreement, Project Plan, and related incentive structure on 2026-05-18; additional local/state/federal planning, permitting, regulatory reviews, and pre-construction activities remain before construction.",
+  "evidence_grade": "A- (official city approval/news page, official ordinance listing/PDF, city project FAQ, Beale project page, and city agenda packet; no building permit or construction-start record found in this refresh)",
   "actions": [
     {
       "date": "2026-05-04",
@@ -30,16 +33,100 @@
       "date_precision": "day",
       "government_body": "Claremore City Council",
       "action_type": "public hearing before proposed vote",
-      "result_status": "The city agenda packet identifies a public hearing before any City Council vote on the proposed Mustang Data Center Economic Development Project Plan. The packet/search result does not provide a final approval result; no approval is inferred.",
+      "result_status": "The city agenda packet identifies a public hearing before the City Council vote on the proposed Mustang Data Center Economic Development Project Plan.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": "Claremore Mustang Data Center Economic Development Project Plan",
       "primary_url": "https://claremore.com/wp-content/uploads/2026/05/05-18-2026-Packet.pdf",
-      "access_caveat": "Official packet accessible; the public-hearing record is not a building permit and the final council action/roll call was not located.",
+      "access_caveat": "Official packet accessible; this entry documents the hearing agenda, not the final vote.",
       "evidence_note": "Body/context retained from prior file: City of Claremore City Council."
+    },
+    {
+      "date": "2026-05-18",
+      "date_precision": "day",
+      "government_body": "Claremore City Council",
+      "action_type": "TID agreement / Project Plan / Tax Incentive Agreement approval",
+      "result_status": "Approved. The City published that the Council voted to approve a TID Agreement supporting the Beale Infrastructure data center project; the city ordinance page lists Ordinance 2026-11, Mustang Data Center TID, as a new ordinance passed in 2026.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Ordinance 2026-11; Mustang Data Center TID",
+      "primary_url": "https://claremore.com/news/city-council-approves-tax-increment-district-agreement-for-claremore-data-center-project/",
+      "supporting_urls": [
+        "https://claremore.com/city-and-court-clerk/city-ordinances/",
+        "https://claremore.com/wp-content/uploads/2026/06/2026-11-Mustang-Data-Center-TID.pdf",
+        "https://claremore.com/wp-content/uploads/2026/05/05-18-2026-Packet.pdf"
+      ],
+      "access_caveat": "Official city sources confirm approval of the TID/Project Plan/incentive agreement; no building permit, certificate of occupancy, or construction-start record was located.",
+      "evidence_note": "The May 18 city release states further planning, permitting, and regulatory reviews are still required and construction was expected in early fall 2026 pending those requirements."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 450,
+  "capacity_note": "Electrical service / contract demand maximum disclosed in the 2026-05-18 city agenda packet and power agreement materials: Phase 1 100 MW, Phase 2 250 MW, Phase 3 450 MW. Treat as utility service capacity, not independently verified IT critical load.",
+  "owner": "Beale Infrastructure / Mustang Tulsa Holdings, LLC. City materials also state the project owner/developer and eventual end user is a domestically owned, publicly traded company, but do not disclose that end-user name.",
+  "location_detail": {
+    "industrial_area": "Claremore Industrial Park",
+    "developer_description": "Northeast of South 4150 Road and Lowry Road, City of Claremore",
+    "city_project_area_description": "Approximately 255 acres located northwest of South Highway 66 Expressway; Ordinance 2026-11 establishes three incentive districts totaling about 281.12 acres by legal-description acreage."
+  },
+  "milestones": [
+    {
+      "date": "2026-05-18",
+      "date_precision": "day",
+      "milestone": "Tax incentive / TID approval",
+      "status": "completed",
+      "source_url": "https://claremore.com/news/city-council-approves-tax-increment-district-agreement-for-claremore-data-center-project/"
+    },
+    {
+      "date": "2026-06",
+      "date_precision": "month",
+      "milestone": "Ordinance 2026-11 listed/published by City of Claremore",
+      "status": "completed",
+      "source_url": "https://claremore.com/city-and-court-clerk/city-ordinances/"
+    },
+    {
+      "date": "2026-09-01",
+      "date_precision": "season",
+      "milestone": "Phase 1 construction start",
+      "status": "projected; pending permitting, regulatory reviews, and pre-construction activities",
+      "source_url": "https://claremore.com/news/city-council-approves-tax-increment-district-agreement-for-claremore-data-center-project/"
+    },
+    {
+      "date": "2027-06-15",
+      "date_precision": "day",
+      "milestone": "Phase 1 electric service / infrastructure capability",
+      "status": "targeted / commercially reasonable efforts",
+      "source_url": "https://claremore.com/wp-content/uploads/2026/05/05-18-2026-Packet.pdf",
+      "capacity_mw": 100
+    },
+    {
+      "date": "2028-09-01",
+      "date_precision": "day",
+      "milestone": "Phase 2 electric service / infrastructure capability",
+      "status": "targeted / commercially reasonable efforts",
+      "source_url": "https://claremore.com/wp-content/uploads/2026/05/05-18-2026-Packet.pdf",
+      "capacity_mw": 250
+    },
+    {
+      "date": "2028-10-01",
+      "date_precision": "quarter",
+      "milestone": "Phase 3 electric service / infrastructure capability",
+      "status": "expected; no earlier than 2028-09-01 and subject to required terminal completion",
+      "source_url": "https://claremore.com/wp-content/uploads/2026/05/05-18-2026-Packet.pdf",
+      "capacity_mw": 450
+    },
+    {
+      "date": "2028-09-01",
+      "date_precision": "season",
+      "milestone": "Phase 1 completion",
+      "status": "developer-projected",
+      "source_url": "https://bealeinfra.com/claremore-oklahoma/"
+    },
+    {
+      "date": "2029-04-01",
+      "date_precision": "quarter",
+      "milestone": "Expansion planning",
+      "status": "developer-projected; subject to demand and permitting",
+      "source_url": "https://bealeinfra.com/claremore-oklahoma/"
+    }
+  ],
   "sources": {
     "phase3_stable_id": "US-OK-BEALE-MUSTANG-CLAREMORE-2026",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -47,9 +134,46 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://claremore.com/news/city-council-approves-tax-increment-district-agreement-for-claremore-data-center-project/",
+      "https://claremore.com/city-and-court-clerk/city-ordinances/",
+      "https://claremore.com/wp-content/uploads/2026/06/2026-11-Mustang-Data-Center-TID.pdf",
+      "https://claremore.com/datacenter/",
+      "https://claremore.com/datacenterprojectplan/",
+      "https://claremore.com/wp-content/uploads/2026/05/05-18-2026-Packet.pdf",
+      "https://bealeinfra.com/claremore-oklahoma/",
+      "https://www.kjrh.com/news/local-news/claremores-project-mustang-moves-forward-residents-split-on-data-center-development",
+      "https://ktul.com/news/local/recall-and-referendum-petitions-filed-in-claremore-over-data-center"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "Status wording",
+      "details": "The city project/FAQ pages still use proposed/evaluating wording in places, while the city news page and ordinance listing confirm the 2026-05-18 TID/Project Plan approval. This record treats the project as locally approved but not under construction.",
+      "source_urls": [
+        "https://claremore.com/datacenter/",
+        "https://claremore.com/news/city-council-approves-tax-increment-district-agreement-for-claremore-data-center-project/",
+        "https://claremore.com/city-and-court-clerk/city-ordinances/"
+      ]
+    },
+    {
+      "topic": "Campus size",
+      "details": "City project-plan text describes an approximately 255-acre project area, while legal-description acreages for Incentive Districts A, B, and C total about 281.12 acres and Baxtel lists a 300-acre lot. No single normalized acreage is asserted.",
+      "source_urls": [
+        "https://claremore.com/wp-content/uploads/2026/06/2026-11-Mustang-Data-Center-TID.pdf",
+        "https://baxtel.com/data-center/beale-project-mustang"
+      ]
+    },
+    {
+      "topic": "Owner/end user identity",
+      "details": "Official city materials identify Beale Infrastructure as developer and Mustang Tulsa Holdings, LLC as company/developer and future owner of the project site, while also saying the project owner/developer and end user is an unnamed domestically owned, publicly traded company.",
+      "source_urls": [
+        "https://claremore.com/datacenter/",
+        "https://claremore.com/wp-content/uploads/2026/05/05-18-2026-Packet.pdf"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -9,11 +9,43 @@
   "location": {
     "city": "Bridgeport area",
     "county": "Jackson County",
-    "state": "AL"
+    "state": "AL",
+    "site_note": "Existing Google data center campus on the Tennessee Valley Authority's retired Widows Creek coal plant site; expansion parcel/building footprint not disclosed in public sources reviewed on 2026-08-11."
   },
   "phase3_stable_id": "AL-002",
-  "status_as_of_cutoff": "A 2026 trade report describes a $1.5 billion Jackson County expansion, but no project-specific 2026 county/city permit, parcel, construction, energization, or commissioning record was located. The county’s accessible hazard-mitigation plan confirms an existing Google facility, not the new expansion.",
+  "status_as_of_cutoff": "announced: Google announced on 2026-06-15 a $1.5 billion investment across 2026 and 2027 to expand its Jackson County, Alabama data center campus. Public county agendas reviewed through the 2026-08-10 Jackson County Commission meeting did not show a project-specific permit, rezoning, site-plan, construction, energization, or commissioning action; therefore this refresh does not classify the expansion as locally approved, under construction, energized, or live.",
+  "evidence_grade": "B: Google primary announcement confirms the investment, timing window, site context, power-cost commitment, and community programs; Jackson County agenda postings provide negative local-government evidence through 2026-08-10; capacity_mw remains unverified because published MW figures describe generation or grid supply, not the expansion's data-center capacity.",
+  "status_history": [
+    {
+      "as_of": "2026-07-16",
+      "status_as_of_cutoff": "A 2026 trade report describes a $1.5 billion Jackson County expansion, but no project-specific 2026 county/city permit, parcel, construction, energization, or commissioning record was located. The county's accessible hazard-mitigation plan confirms an existing Google facility, not the new expansion."
+    }
+  ],
   "actions": [
+    {
+      "date": "2026-06-15",
+      "date_precision": "day",
+      "government_body": "Google",
+      "action_type": "company announcement",
+      "result_status": "Google announced a new $1.5 billion investment across 2026 and 2027 to expand its Jackson County data center campus, plus energy-affordability, STEM, workforce, and local-business initiatives.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/documents/Google_Strengthens_Alabama_Presence.pdf",
+      "access_caveat": "Primary company announcement; not a county/city approval or construction permit.",
+      "evidence_note": "Confirms expansion investment/timing and existing campus location on TVA's retired Widows Creek coal plant site."
+    },
+    {
+      "date": "2026-08-10",
+      "date_precision": "day",
+      "government_body": "Jackson County Commission",
+      "action_type": "agenda review",
+      "result_status": "No Google data-center expansion, permit, site-plan, rezoning, or construction approval item appeared on the posted 2026-08-10 commission agenda; the county Agenda Center also listed 2026 meetings back to January during this refresh.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.jacksoncountyal.gov/AgendaCenter/ViewFile/Agenda/_08102026-284",
+      "access_caveat": "Agenda review is negative evidence only; it does not prove that no permit exists in other county/city systems.",
+      "evidence_note": "Supports keeping the expansion below approved-permitted status as of 2026-08-11."
+    },
     {
       "date": "2026-06-16",
       "date_precision": "day",
@@ -28,7 +60,7 @@
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google (operator/developer of the Jackson County data center campus; public sources reviewed did not independently confirm expansion parcel ownership)",
   "sources": {
     "phase3_stable_id": "AL-002",
     "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
@@ -36,7 +68,63 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      {
+        "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+        "date": "2026-06-15",
+        "source_type": "company blog",
+        "note": "Google summary article for the Alabama investment."
+      },
+      {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/documents/Google_Strengthens_Alabama_Presence.pdf",
+        "date": "2026-06-15",
+        "source_type": "company announcement PDF",
+        "note": "Primary Google announcement confirming $1.5B, 2026-2027 expansion window, Widows Creek site context, power-cost commitment, 300+ MW regional generation contracted, $2M Energy Impact Fund, $550K STEM kits, and 1,000+ construction-phase contract workers."
+      },
+      {
+        "url": "https://datacenters.google/locations/alabama/",
+        "date": "2026-08-11",
+        "source_type": "company location page",
+        "note": "Current Google data-center location page showing Jackson County investment to date of $2B+ and campus milestones."
+      },
+      {
+        "url": "https://www.jacksoncountyal.gov/AgendaCenter",
+        "date": "2026-08-11",
+        "source_type": "local government agenda index",
+        "note": "Jackson County Commission Agenda Center reviewed for 2026 agenda trail."
+      },
+      {
+        "url": "https://www.jacksoncountyal.gov/AgendaCenter/ViewFile/Agenda/_08102026-284",
+        "date": "2026-08-10",
+        "source_type": "local government agenda",
+        "note": "Most recent posted commission agenda reviewed; no Google expansion approval item found."
+      },
+      {
+        "url": "https://aldailynews.com/google-invests-1-5b-to-expand-jackson-county-data-center/",
+        "date": "2026-06-16",
+        "source_type": "regional media",
+        "note": "Regional report adding Bridgeport wording, 1,000 construction-phase workers, and 300 MW regional generation context."
+      },
+      {
+        "url": "https://www.waff.com/2026/06/15/google-investing-15b-more-jackson-county-data-center-campus-adds-energy-education-initiatives/",
+        "date": "2026-06-15",
+        "source_type": "local media",
+        "note": "Local TV report corroborating Google announcement and energy/community details."
+      },
+      {
+        "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/google-first-advanced-nuclear-reactor-project-with-kairos-power-and-tennessee-valley-authority/",
+        "date": "2025-08-18",
+        "source_type": "company energy announcement",
+        "note": "Google/Kairos/TVA advanced nuclear agreement for 50 MW on the TVA grid serving Tennessee and Alabama data centers."
+      },
+      {
+        "url": "https://www.kairospower.com/updates/google-kairos-power-tva-collaborate-to-meet-americas-growing-energy-needs",
+        "date": "2025-08-18",
+        "source_type": "developer/energy announcement",
+        "note": "Kairos confirmation of TVA PPA and up to 50 MW for Google data centers in Tennessee and Alabama."
+      }
+    ]
   },
   "contradictions": [],
   "seed_only": false,

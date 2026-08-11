@@ -7,10 +7,27 @@
   "location": {
     "city": "Sidney",
     "county": "Shelby",
-    "state": "OH"
+    "state": "OH",
+    "address": "2388 W. Millcreek Road, Sidney, OH 45365",
+    "site_description": "North side of Millcreek Road, west of Vandemark Road",
+    "parcel_ids": [
+      "02-26-03-226-001",
+      "02-26-03-126-001",
+      "02-26-03-201-001",
+      "02-26-03-251-001",
+      "02-26-03-251-002"
+    ]
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
+  "status_as_of_cutoff": "site work-construction (grading/site preparation only; city FAQ still listed site plan under staff review on 2026-06-24 and no building permit, certificate of occupancy, energization record, or live-service evidence was found in this refresh)",
+  "evidence_grade": "A-local official records",
+  "status_history": [
+    {
+      "as_of": "2026-07-16",
+      "status": null,
+      "note": "Baseline extraction had no status."
+    }
+  ],
   "actions": [
     {
       "date": "2025-09-08",
@@ -66,15 +83,42 @@
       "date": "2026-05-14",
       "body": "City of Sidney",
       "action_type": "grading permit",
-      "exact_result_status": "City FAQ lists a grading permit for the AWS data center at 2388 W. Millcreek Road.",
+      "exact_result_status": "City Engineering Department grading permit for AWS Data Center Site, 2388 W. Millcreek Road, signed 2026-05-15 and published by the city as 'Grading Permit 5-14-2026.' The permit applies only to excavation and site preparation for the proposed site and is valid for 180 calendar days.",
       "vote_tally": null,
       "case_or_permit_number": "Grading Permit dated 2026-05-14",
       "primary_url": "https://www.sidneyoh.com/DocumentCenter/View/4528/Grading-Permit-5-14-2026---AWS-Data-Center-2388-W-Millcreek-Road",
       "access_caveat": "Grading authorization is not a building permit, certificate of occupancy, or energization record."
+    },
+    {
+      "date": "2026-06-24",
+      "body": "City of Sidney",
+      "action_type": "public project FAQ update",
+      "exact_result_status": "City FAQ states that AWS is developing a data center facility in Sidney; local approvals already granted include the CRA agreement, school/career-center development agreement, income-tax sharing agreement, water/sewer agreement, and development agreement. The same FAQ says the site plan is under review by City staff and reports March 2026 site activity including tree clearing/test pits plus planned AES geotechnical boring.",
+      "vote_tally": null,
+      "case_or_permit_number": "Proposed Data Center FAQ last updated 2026-06-24",
+      "primary_url": "https://www.sidneyoh.com/526/Proposed-Data-Center-FAQ",
+      "access_caveat": "FAQ is an official city source but not itself a building permit, certificate of occupancy, or utility energization record."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Amazon Data Services, Inc. (developer/project company); Amazon Web Services, Inc. is named in the city water/wastewater service agreement",
+  "project_facts": {
+    "planned_investment_usd": 3000000000,
+    "planned_jobs": 75,
+    "planned_annual_payroll_usd": 6750000,
+    "estimated_first_building_operations_by": "2028-12-31",
+    "estimated_job_creation_by": "2030-12-31",
+    "water_reservation_mgd": 1.0,
+    "cooling_water_instantaneous_limit_gpm": 694,
+    "projected_cooling_water_gallons_per_year": 4600000,
+    "potable_water_limit_gpd": 14000,
+    "sewer_discharge_limit_gpd": 390493,
+    "sewer_discharge_instantaneous_limit_gpm": 716,
+    "developer_road_infrastructure_contribution_usd_max": 8000000,
+    "millcreek_road_engineer_estimate_usd": 7927151.5,
+    "millcreek_road_total_identified_funding_usd": 10231906,
+    "cra_real_property_exemption": "30-year, 100% exemption for eligible buildings/improvements, with no exemption commencing after tax year 2035 or extending beyond tax year 2065 under the 2025 CRA agreement"
+  },
   "sources": {
     "phase3_stable_id": "OH-SIDNEY-AWS",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -82,7 +126,65 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_urls": [
+      {
+        "url": "https://www.sidneyoh.com/526/Proposed-Data-Center-FAQ",
+        "publisher": "City of Sidney",
+        "date": "2026-06-24",
+        "facts": [
+          "AWS data center description/location",
+          "site plan under staff review",
+          "site activity and construction-update facts",
+          "Millcreek Road funding summary"
+        ]
+      },
+      {
+        "url": "https://www.sidneyoh.com/DocumentCenter/View/4356/80-25---Authorizing-a-CRA-Agreement---Amazon-Data-Services-Inc-PDF",
+        "publisher": "City of Sidney",
+        "date": "2025-10-27",
+        "facts": [
+          "CRA agreement",
+          "$3.0 billion estimated investment",
+          "75 planned jobs",
+          "estimated first building operations by 2028-12-31",
+          "30-year, 100% real-property exemption terms"
+        ]
+      },
+      {
+        "url": "https://www.sidneyoh.com/DocumentCenter/View/4473/26-26---Authorize-Water-and-Sewer-Service-Agreement---Amazon-Web-Services-PDF",
+        "publisher": "City of Sidney",
+        "date": "2026-04-27",
+        "facts": [
+          "water and wastewater service agreement",
+          "1.0 mgd cooling-water reservation",
+          "390493 gpd sewer discharge capacity",
+          "100% detail utility plans submitted"
+        ]
+      },
+      {
+        "url": "https://www.sidneyoh.com/DocumentCenter/View/4474/27-26---Authorizing-Infrastructure-Development-Agreement---Amazon-Web-Services-PDF",
+        "publisher": "City of Sidney",
+        "date": "2026-04-27",
+        "facts": [
+          "development agreement",
+          "2388 W. Millcreek Road project site and parcel IDs",
+          "approximately 243.1-acre site",
+          "developer contribution up to $8.0 million for city improvements"
+        ]
+      },
+      {
+        "url": "https://www.sidneyoh.com/DocumentCenter/View/4528/Grading-Permit-5-14-2026---AWS-Data-Center-2388-W-Millcreek-Road",
+        "publisher": "City of Sidney Engineering Department",
+        "date": "2026-05-15",
+        "facts": [
+          "grading permit for AWS Data Center Site at 2388 W. Millcreek Road",
+          "site preparation and excavation only",
+          "180-calendar-day validity"
+        ]
+      }
+    ],
+    "last_refresh": "2026-08-11"
   },
   "contradictions": [],
   "seed_only": false,

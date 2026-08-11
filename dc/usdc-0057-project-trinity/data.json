@@ -12,23 +12,61 @@
     "state": "ND"
   },
   "phase3_stable_id": "ND-TIOGA-TETON-TRINITY",
-  "status_as_of_cutoff": "A February 2025 specialist report says Williams County commissioners gave Teton Digital permission to apply for a conditional-use permit for a planned 100 MW campus with a 30 MW first phase. No final CUP, zoning decision, building permit, construction, inspection, CO, utility interconnection, energization, commissioning, or live-service record was located. Company Q3/Q4 2025 and end-2026 targets remain unverified.",
+  "status_as_of_cutoff": "local process as of 2026-08-11: Williams County minutes confirm the Board of County Commissioners approved Teton Digital's appeal for the data center facility, excluding battery storage, on 2025-02-18 by 4-0 recorded vote. County packet materials describe Trinity 1 as a 100 MW+ liquid-cooled data center in Dry Fork, with 30 MW Phase 1 targeted for Q3/Q4 2025 and Phase 2 tied to a new company-built substation. Teton Digital's current website claims Phase II Conditional Use Permit secured for 70 MW and Phase I in final permitting for 30 MW, but no later official county CUP, building permit, construction, inspection, CO, utility interconnection, energization, commissioning, or live-service record was located in this refresh.",
+  "evidence_grade": "B - official Williams County minutes and packet documents verify appeal approval and planned project attributes; later Phase II CUP/Phase I final-permitting status is owner-reported and was not independently matched to a public county permit record.",
   "actions": [
+    {
+      "date": "2025-01-24",
+      "date_precision": "day",
+      "government_body": "Williams County Development Services",
+      "action_type": "pre-application/CUP intake denial letter",
+      "result_status": "Development Services determined a CUP for the proposed data center could not be applied for because the proposed location did not meet the one-mile setback from sensitive properties and could also fail the three-mile data-center separation requirement if the nearby crypto-currency mining data center were approved.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Parcel/location S 1/2 NW 1/4, Section 4, T155N, R95W; CUP number not located",
+      "primary_url": "https://williamsnd.civicweb.net/document/176705/Jan%20Bergstrom%20Teton%20Digital%20denial%20letter%20%281%29.pdf?handle=CCBD471C6A6F4FD58ED41A25BD0F9B16",
+      "access_caveat": "Official county PDF; describes pre-application intake denial, not final project denial.",
+      "evidence_note": "Establishes that the project entered county process and was initially blocked by setback requirements before appeal."
+    },
     {
       "date": "2025-02-18",
       "date_precision": "day",
-      "government_body": "Williams County Commission (reported by Data Center Dynamics)",
-      "action_type": "permission to apply for conditional-use permit",
-      "result_status": "The report says commissioners gave Teton Digital a go-ahead to apply for a conditional-use permit for Project Trinity, describing a 100 MW planned campus and 30 MW first phase. It does not publish a roll-call tally or final CUP.",
-      "vote_tally": null,
-      "case_or_ordinance_permit_number": "Project Trinity conditional-use pathway; CUP number not located",
-      "primary_url": "https://www.datacenterdynamics.com/en/news/teton-digital-gets-go-ahead-for-100mw-data-center-in-north-dakota/",
-      "access_caveat": "Specialist report quoting a county meeting; underlying agenda/minutes/CUP application were not retrieved.",
-      "evidence_note": "Reported county process action, explicitly not final approval."
+      "government_body": "Williams County Board of County Commissioners",
+      "action_type": "conditional-use-permit appeal",
+      "result_status": "Approved the appeal for the data center facility and not the battery storage after public hearing and discussion with Scott Bennett of Teton Digital.",
+      "vote_tally": "4-0 recorded vote; ayes Anderson, Hanson, Walstad, and Ramberg",
+      "case_or_ordinance_permit_number": "Teton Digital, LLC Conditional Use Permit Appeal; CUP number not located",
+      "primary_url": "https://williamsnd.civicweb.net/document/177538/",
+      "access_caveat": "Official county minutes; confirms appeal approval but does not show a final CUP certificate, building permit, or start of work.",
+      "evidence_note": "Official local-government record supersedes the prior media-only description of the February 2025 action."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 100,
+  "capacity_detail": {
+    "total_planned_mw": 100,
+    "phase_1_mw": 30,
+    "phase_2_owner_reported_mw": 70,
+    "notes": "County one-pager describes a 100 MW+ project, Phase 1 at 30 MW, and Phase 2 with a new company-built substation; Teton's current website describes a 100 MW North Dakota campus with Phase II CUP secured for 70 MW and Phase I in final permitting for 30 MW."
+  },
+  "owner": "Teton Digital, LLC",
+  "current_company_claims": [
+    {
+      "date": "2026-08-11",
+      "date_precision": "accessed",
+      "claim": "Teton Digital's projects page lists North Dakota as a 100 MW Tier 3 campus with Phase II Conditional Use Permit secured for 70 MW and Phase I in final permitting for 30 MW.",
+      "url": "https://www.tetondigital.io/projects",
+      "verification_note": "Owner/developer source; no later matching official Williams County CUP/building-permit record was located during this refresh."
+    }
+  ],
+  "source_urls": [
+    "https://williamsnd.civicweb.net/document/176705/Jan%20Bergstrom%20Teton%20Digital%20denial%20letter%20%281%29.pdf?handle=CCBD471C6A6F4FD58ED41A25BD0F9B16",
+    "https://williamsnd.civicweb.net/document/177085/",
+    "https://williamsnd.civicweb.net/document/177538/",
+    "https://www.kfyrtv.com/2025/02/18/williams-county-commissioners-give-go-ahead-another-data-center-company-apply-conditional-use-permit/",
+    "https://www.datacenterdynamics.com/en/news/teton-digital-gets-go-ahead-for-100mw-data-center-in-north-dakota/",
+    "https://www.tetondigital.io/projects",
+    "https://baxtel.com/data-center/teton-digital-dry-fork-township-nd",
+    "https://cleanview.co/data-centers/north-dakota/918/project-trinity"
+  ],
   "sources": {
     "phase3_stable_id": "ND-TIOGA-TETON-TRINITY",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -38,7 +76,28 @@
     "authoritative_layer": "phase3_project_action_layer",
     "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "permit status",
+      "description": "Teton Digital's current website says Phase II Conditional Use Permit is secured for 70 MW and Phase I is in final permitting, while the official public county records located in this refresh confirm only the 2025-02-18 appeal approval for the data center facility, not a final CUP/building permit or construction start.",
+      "sources": [
+        "https://www.tetondigital.io/projects",
+        "https://williamsnd.civicweb.net/document/177538/"
+      ],
+      "resolution": "Treat as local process with owner-reported permit milestone pending independent local-government confirmation."
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "phase sizing",
+      "description": "County one-pager describes Phase 2 as 100 MW with a new company-built substation, while Teton's current page describes Phase II as 70 MW and Phase I as 30 MW within a 100 MW campus.",
+      "sources": [
+        "https://williamsnd.civicweb.net/document/177085/",
+        "https://www.tetondigital.io/projects"
+      ],
+      "resolution": "Carry 100 MW total planned capacity and note 30 MW/70 MW phasing as owner-reported current framing."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

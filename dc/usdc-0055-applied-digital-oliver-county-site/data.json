@@ -4,31 +4,134 @@
   "aliases": [
     "APLD BIS-01",
     "Applied Digital Hanover-area data center",
-    "Applied Digital Oliver County site"
+    "Applied Digital Oliver County site",
+    "Polaris Forge 3",
+    "Applied Digital Oliver County AI Factory"
   ],
   "location": {
     "city": "Hanover area",
     "county": "Oliver County",
-    "state": "ND"
+    "state": "ND",
+    "site_description": "Project Site in Section 24, Township 142 North, Range 85 West, Oliver County, North Dakota; access from State Highway 31 via a private driveway at or near the Section 23 quarter-section line and from State Highway 25 via a DOT-managed approach.",
+    "nearby_reference": "Near Center / south of Hanover, around the State Highways 25 and 31 area."
   },
   "phase3_stable_id": "ND-HANOVER-APPLIED-OLIVER",
-  "status_as_of_cutoff": "A local television report says Applied Digital was pursuing a third North Dakota data center and that Oliver County commissioners signed a road-use and operations agreement on 2026-07-10. No certified agreement/minutes, site plan, capacity, building permit, construction, utility, inspection, CO, energization, commissioning, or service record was located.",
+  "status_as_of_cutoff": "As of 2026-08-11, local-process / pre-construction-enabling status. Oliver County has posted a Road Use and Operation Agreement effective 2026-07-10 between Oliver County and APLD BIS-01, LLC for construction access to a Project Site in Section 24, Township 142 North, Range 85 West. County agendas list Applied Digital building-permit items on 2026-06-25 (#1096: two data center buildings and security building), 2026-07-30 (#1101: one data center foundation/shell for BIS02), and 2026-08-10 Planning & Zoning updates for #1101, but the reviewed official pages are agendas/notices rather than approval minutes. NDPSC Case PU-26-235 for the APLD BIS-01 electric service agreement remains open with no close date and a 2026-09-07 hearing-request deadline; related temporary construction load and temporary service switchyard cases PU-26-219 and PU-26-236 also remain open. No certificate of occupancy, energization, commissioning, full commercial service, or final NDPSC approval record was located.",
+  "evidence_grade": "A- for site/location, road-use agreement, and open NDPSC docket facts; B for building-permit progress because the official records found are agenda/update listings without final approval minutes.",
   "actions": [
+    {
+      "date": "2026-06-17",
+      "date_precision": "day",
+      "government_body": "Montana-Dakota Utilities Co. / APLD BIS-01 LLC; filed with North Dakota Public Service Commission",
+      "action_type": "electric service agreement execution",
+      "result_status": "Executed ESA attached to NDPSC Case PU-26-235; maximum service under the agreement is 430 MW, subject to facility availability and MISO/NDPSC requirements.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PU-26-235",
+      "primary_url": "https://www.psc.nd.gov/webdocs/case/26-0235/001-010.pdf",
+      "access_caveat": "Public redacted filing; NDPSC case detail shows no close date as of 2026-08-11.",
+      "evidence_note": "Utility-service capacity is not the same as energized capacity or critical IT load."
+    },
+    {
+      "date": "2026-06-22",
+      "date_precision": "day",
+      "government_body": "Montana-Dakota Utilities Co. / MDU Resources Group",
+      "action_type": "company electric-service announcement",
+      "result_status": "MDU announced an ESA to provide power to Polaris Forge 3, an AI Factory near Center, North Dakota; campus would require 430 MW at full capacity and initial operations were anticipated in August 2027, subject to NDPSC approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.prnewswire.com/news-releases/montana-dakota-utilities-announces-electric-service-agreement-with-applied-digital-for-proposed-ai-factory-302806791.html",
+      "access_caveat": "Company announcement distributed by PR Newswire; regulatory approval still required.",
+      "evidence_note": "Supports project identity as Polaris Forge 3 and expected utility capacity."
+    },
+    {
+      "date": "2026-06-25",
+      "date_precision": "day",
+      "government_body": "Oliver County Planning & Zoning",
+      "action_type": "building permit agenda item",
+      "result_status": "Agenda listed Building Permit #1096 for Applied Digital: two data center buildings and a security building.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "#1096",
+      "primary_url": "https://olivercountynd.org/index.asp?DE=881CF27D-5FC4-4AD3-9221-DCD87075E5AE&SEC=B943D853-7AF5-46AC-9654-D8DFB8D45A19",
+      "access_caveat": "Agenda listing only; approval result not located in reviewed official pages.",
+      "evidence_note": "Shows local permit processing, not confirmed permit issuance."
+    },
+    {
+      "date": "2026-06-26",
+      "date_precision": "day",
+      "government_body": "North Dakota Public Service Commission",
+      "action_type": "electric service agreement filing",
+      "result_status": "NDPSC Case PU-26-235 was filed for Electric Service Agreement-APLD BIS-01 LLC; case detail listed no close date as of 2026-08-11.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PU-26-235",
+      "primary_url": "https://apps.psc.nd.gov/cases/pscasedetail?getId=26&getId2=235",
+      "access_caveat": "Open PSC docket; not an approval order.",
+      "evidence_note": "Regulatory review remains pending."
+    },
     {
       "date": "2026-07-10",
       "date_precision": "day",
-      "government_body": "Oliver County Commission (reported by KFYR-TV)",
+      "government_body": "Oliver County Commission / Oliver County posted agreement",
       "action_type": "road-use and operations agreement",
-      "result_status": "KFYR reported that Oliver County commissioners signed an agreement for the site south of Hanover and that Applied Digital was pursuing the project. The agreement is not a building approval.",
+      "result_status": "Oliver County posted a Road Use and Operation Agreement effective 2026-07-10 between Oliver County and APLD BIS-01, LLC for construction access to the Project Site in Section 24, Township 142 North, Range 85 West. The agreement limits heavy vehicles to specified Highway 31/Highway 25 access routes, requires permits and approvals, and sets water/septic/community conditions.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": "Road-use and operations agreement; number not published",
-      "primary_url": "https://www.kfyrtv.com/2026/07/13/applied-digital-expands-north-dakota-eyes-oliver-county-third-data-center/",
-      "access_caveat": "Secondary local report; certified county agreement/minutes were not retrieved and no vote tally is inferred.",
-      "evidence_note": "County agreement reported by local media, explicitly separated from building approval."
+      "primary_url": "https://olivercountynd.org/vertical/sites/%7B6E6CB90D-6F4C-4198-8B57-AAF2D42615E1%7D/uploads/Road_use_agreementv4_clean.pdf",
+      "access_caveat": "County-posted PDF includes signature blocks but the retrieved copy does not show visible executed signatures/dates on the signature page.",
+      "evidence_note": "County agreement supports local-process and construction-access status; it is not a building approval, PSC approval, or energization record."
+    },
+    {
+      "date": "2026-07-10",
+      "date_precision": "day",
+      "government_body": "Oliver County Commission",
+      "action_type": "special meeting notice",
+      "result_status": "County special-meeting notice posted for 2026-07-10 included Applied Digital Road Use and Operation Agreement as agenda item 3.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://olivercountynd.org/index.asp?DE=7913E492-8203-47E4-9C5E-281D43F1862A&SEC=B943D853-7AF5-46AC-9654-D8DFB8D45A19",
+      "access_caveat": "Notice/agenda only; no vote tally or minutes were found on this page.",
+      "evidence_note": "Corroborates the county process for the agreement."
+    },
+    {
+      "date": "2026-07-10",
+      "date_precision": "day",
+      "government_body": "North Dakota Public Service Commission",
+      "action_type": "temporary authority permit letters",
+      "result_status": "NDPSC docket indexes for PU-26-219 and PU-26-236 list letters enclosing signed temporary authority permits for APLD BIS-01 temporary construction load and temporary service switchyard, with both cases still open as of 2026-08-11.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PU-26-219; PU-26-236",
+      "primary_url": "https://apps.psc.nd.gov/cases/pscasedetail?getId=26&getId2=219",
+      "access_caveat": "Docket-index fact only; permanent authority applications and consolidated hearing opportunity remain pending.",
+      "evidence_note": "Supports temporary construction-power process, not full utility service approval."
+    },
+    {
+      "date": "2026-07-30",
+      "date_precision": "day",
+      "government_body": "Oliver County Planning & Zoning",
+      "action_type": "building permit agenda item",
+      "result_status": "Agenda listed Building Permit #1101 for Applied Digital: one data center foundation/shell for BIS02.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "#1101",
+      "primary_url": "https://olivercountynd.org/index.asp?DE=641835F8-969E-49BB-94A5-761C3172BF73&SEC=B943D853-7AF5-46AC-9654-D8DFB8D45A19",
+      "access_caveat": "Agenda listing only; approval result not located in reviewed official pages.",
+      "evidence_note": "Shows local permit processing, not confirmed permit issuance."
+    },
+    {
+      "date": "2026-08-10",
+      "date_precision": "day",
+      "government_body": "Oliver County Commission",
+      "action_type": "planning and zoning update agenda item",
+      "result_status": "Commission agenda listed Planning & Zoning Updates including Building Permit #1101 - Applied Digital.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "#1101",
+      "primary_url": "https://olivercountynd.org/index.asp?DE=22D02501-A797-4237-8D8B-91720FE18D08&SEC=B943D853-7AF5-46AC-9654-D8DFB8D45A19",
+      "access_caveat": "Agenda listing only; as of 2026-08-11 no minutes/order confirming the outcome were located.",
+      "evidence_note": "Shows continued local permit workflow."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 430,
+  "capacity_basis": "Maximum utility electric service / full-campus electricity requirement cited in MDU announcement and NDPSC ESA; Applied Digital separately describes a 300 MW critical IT-load lease for Polaris Forge 3.",
+  "critical_it_load_mw": 300,
+  "owner": "Applied Digital Corporation / APLD BIS-01, LLC",
   "sources": {
     "phase3_stable_id": "ND-HANOVER-APPLIED-OLIVER",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -36,9 +139,52 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://olivercountynd.org/countynews",
+      "https://olivercountynd.org/vertical/sites/%7B6E6CB90D-6F4C-4198-8B57-AAF2D42615E1%7D/uploads/Road_use_agreementv4_clean.pdf",
+      "https://olivercountynd.org/index.asp?DE=7913E492-8203-47E4-9C5E-281D43F1862A&SEC=B943D853-7AF5-46AC-9654-D8DFB8D45A19",
+      "https://olivercountynd.org/index.asp?DE=881CF27D-5FC4-4AD3-9221-DCD87075E5AE&SEC=B943D853-7AF5-46AC-9654-D8DFB8D45A19",
+      "https://olivercountynd.org/index.asp?DE=641835F8-969E-49BB-94A5-761C3172BF73&SEC=B943D853-7AF5-46AC-9654-D8DFB8D45A19",
+      "https://olivercountynd.org/index.asp?DE=22D02501-A797-4237-8D8B-91720FE18D08&SEC=B943D853-7AF5-46AC-9654-D8DFB8D45A19",
+      "https://apps.psc.nd.gov/cases/pscasedetail?getId=26&getId2=235",
+      "https://www.psc.nd.gov/webdocs/case/26-0235/001-010.pdf",
+      "https://apps.psc.nd.gov/cases/pscasedetail?getId=26&getId2=219",
+      "https://apps.psc.nd.gov/cases/pscasedetail?getId=26&getId2=236",
+      "https://apps.psc.nd.gov/events/meetings",
+      "https://ir.applieddigital.com/news-events/press-releases/detail/152/applied-digital-reaches-significant-milestone-surpassing-1",
+      "https://www.prnewswire.com/news-releases/montana-dakota-utilities-announces-electric-service-agreement-with-applied-digital-for-proposed-ai-factory-302806791.html",
+      "https://www.valleynewslive.com/2026/07/13/applied-digital-expands-north-dakota-eyes-oliver-county-third-data-center/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "capacity_mw",
+      "note": "Utility/service capacity is 430 MW, while Applied Digital describes the customer lease as 300 MW of critical IT load. Record both values separately and do not treat 430 MW as energized IT load.",
+      "sources": [
+        "https://www.psc.nd.gov/webdocs/case/26-0235/001-010.pdf",
+        "https://ir.applieddigital.com/news-events/press-releases/detail/152/applied-digital-reaches-significant-milestone-surpassing-1"
+      ]
+    },
+    {
+      "topic": "approval_status",
+      "note": "A local media headline says a road-use agreement was signed and rezoning awaited vote; official county pages confirm agreement/agendas but do not provide final approval minutes for building permits #1096/#1101 in the reviewed pages. NDPSC dockets remain open with future hearing-request deadlines.",
+      "sources": [
+        "https://olivercountynd.org/vertical/sites/%7B6E6CB90D-6F4C-4198-8B57-AAF2D42615E1%7D/uploads/Road_use_agreementv4_clean.pdf",
+        "https://olivercountynd.org/index.asp?DE=641835F8-969E-49BB-94A5-761C3172BF73&SEC=B943D853-7AF5-46AC-9654-D8DFB8D45A19",
+        "https://apps.psc.nd.gov/cases/pscasedetail?getId=26&getId2=235",
+        "https://www.valleynewslive.com/2026/07/13/applied-digital-expands-north-dakota-eyes-oliver-county-third-data-center/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": "A local television report says Applied Digital was pursuing a third North Dakota data center and that Oliver County commissioners signed a road-use and operations agreement on 2026-07-10. No certified agreement/minutes, site plan, capacity, building permit, construction, utility, inspection, CO, energization, commissioning, or service record was located.",
+      "capacity_mw": null,
+      "owner": null
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

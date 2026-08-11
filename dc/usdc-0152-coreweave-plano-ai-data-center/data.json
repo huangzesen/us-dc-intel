@@ -8,20 +8,119 @@
   "location": {
     "city": "Plano",
     "county": "Collin",
-    "state": "Texas"
+    "state": "Texas",
+    "address": "1000 Coit Road, Plano, TX 75075",
+    "site_description": "Existing Coit Road Data Center / Lincoln Rackhouse campus at the southeast corner of Coit Road and Jomar Drive; 23.8-acre data-center lot in Plano planning records."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
+  "status_as_of_cutoff": "partial live / expansion fit-up registered as of 2026-08-11",
+  "evidence_grade": "A- for location, local approval, and registered 2026 fit-up; B for live-status inference because CoreWeave's 2023 company announcement projected full operation by 2023-12-31 and current official records show additional fit-up rather than a direct operating certificate.",
+  "actions": [
+    {
+      "date": "2023-07-24",
+      "government_body": "Plano City Council",
+      "action_type": "economic development incentive agreement",
+      "result_status": "approved",
+      "details": "Approved tax-rebate agreement for CoreWeave, Inc. covering calendar years 2024-2031. Agreement requires CoreWeave to occupy at least 454,421 gross square feet at 1000 Coit Road, use the property as a data center, and add at least $1.6 billion of business personal property by the 2025 tax year."
+    },
+    {
+      "date": "2023-07-25",
+      "government_body": "CoreWeave, Inc.",
+      "action_type": "company announcement",
+      "result_status": "announced",
+      "details": "CoreWeave announced a $1.6 billion Plano data center facility, its first Texas facility, expected to be fully operational by 2023-12-31."
+    },
+    {
+      "date": "2026-06-18",
+      "government_body": "City of Plano Planning Department",
+      "action_type": "replat application",
+      "result_status": "applied",
+      "details": "R2026-025 / BAC COIT, Block 1, Lot 1R, for a data center on one 23.8-acre lot at 1000 Coit Road; listed on the 2026-08-06 Development Review List."
+    },
+    {
+      "date": "2026-06-23",
+      "government_body": "Texas Department of Licensing and Regulation",
+      "action_type": "architectural barriers project registration",
+      "result_status": "project registered",
+      "details": "TABS2026023537, Koala - Fit Up Phase 3, registered for a privately funded renovation/alteration: data center fit-up of 9,419 sf existing shell space plus supporting infrastructure and site improvements; start 2026-09-11, completion 2027-12-02, estimated cost $136 million."
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_notes": "No official MW capacity located. Third-party trackers conflict: datacenter.fyi reports 13.75 MW / 8.25 MW IT load, DataCenterMap reports 30 MW, and a real-estate listing for 1000 Coit Road describes 13+ MW available and expandable to 24 MW.",
+  "owner": "Lincoln Property Company / 1000 Coit Road LLC listed in 2026 official records as owner/site owner; CoreWeave, Inc. is the tenant/operator named in the 2023 Plano incentive agreement and company announcement.",
   "sources": {
     "phase2_seed_stable_id": "US-TX-COREWEAVE-PLANO-2025",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
     "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "match_reason": "Seed-only record matched to official Plano/TDLR records for 1000 Coit Road and CoreWeave's 2023 announcement.",
+    "official_local": [
+      {
+        "title": "Plano City Council agenda memo: Economic Development Incentive Agreement for Tax Rebate for CoreWeave, Inc.",
+        "date": "2023-07-24",
+        "url": "https://plano.novusagenda.com/agendapublic/CoverSheet.aspx?ItemID=8487&MeetingID=3420"
+      },
+      {
+        "title": "Plano City Council attachment: Coreweave Tax Rebate Agreement",
+        "date": "2023-07-12",
+        "url": "https://plano.novusagenda.com/agendapublic/AttachmentViewer.ashx?AttachmentID=17906&ItemID=8487"
+      },
+      {
+        "title": "City of Plano Planning Department Development Review List, August 6, 2026",
+        "date": "2026-08-06",
+        "url": "https://content.civicplus.com/api/assets/ac54ba65-bc6a-4347-92d9-239d91767bd3"
+      },
+      {
+        "title": "Texas Department of Licensing and Regulation TABS2026023537",
+        "date": "2026-06-23",
+        "url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026023537"
+      }
+    ],
+    "company": [
+      {
+        "title": "CoreWeave Opens New Texas Data Center to Expand Access to High-Performance GPUs",
+        "date": "2023-07-25",
+        "url": "https://www.prnewswire.com/news-releases/coreweave-opens-new-texas-data-center-to-expand-access-to-high-performance-gpus-301884897.html"
+      }
+    ],
+    "third_party_capacity_status": [
+      {
+        "title": "CoreWeave - Plano, TX - datacenter.fyi",
+        "date": "2026-08-11",
+        "url": "https://www.datacenter.fyi/public-record/coreweave-0d7f2259"
+      },
+      {
+        "title": "CoreWeave Plano Data Center in Dallas | 1000 Coit Rd",
+        "date": "2026-08-11",
+        "url": "https://www.datacentermap.com/usa/texas/dallas/coreweave-plano/"
+      },
+      {
+        "title": "LoopNet listing: 1000 Coit Rd, Plano, TX 75075",
+        "date": "2026-08-11",
+        "url": "https://www.loopnet.com/Listing/1000-Coit-Rd-Plano-TX/27162588/"
+      }
+    ]
   },
-  "contradictions": [],
-  "seed_only": true,
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "as_of": "2026-08-11",
+      "details": "No official MW figure found. Third-party values conflict: datacenter.fyi reports 13.75 MW power capacity and 8.25 MW IT load; DataCenterMap labels the CoreWeave Plano entry as 30 MW; LoopNet describes the underlying 1000 Coit Road facility as 13+ MW available now and expandable to 24 MW."
+    },
+    {
+      "field": "status",
+      "as_of": "2026-08-11",
+      "details": "CoreWeave's 2023 announcement said the facility would be fully operational by 2023-12-31, while 2026 official TDLR/Plano planning records show additional fit-up/replat activity. Status is therefore recorded as partial live / expansion fit-up registered rather than full buildout."
+    }
+  ],
+  "seed_only": false,
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": null,
+      "capacity_mw": null,
+      "owner": null,
+      "note": "Seed-only baseline before first independent refresh."
+    }
+  ],
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

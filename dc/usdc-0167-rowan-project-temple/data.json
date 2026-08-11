@@ -7,10 +7,16 @@
   "location": {
     "city": "Temple",
     "county": "Bell",
-    "state": "Texas"
+    "state": "Texas",
+    "site_description": "South Temple / Synergy Park area; Temple EDC describes more than 700 acres along Bob White Road, while Temple's Zone 47 notice describes approximately 554 acres generally east of Bob White Drive and north of Lorraine Avenue.",
+    "addresses": [
+      "1707 Bob White Road, Temple, TX",
+      "2351 Bob White Road, Temple, TX"
+    ]
   },
   "phase3_stable_id": "US-TX-ROWAN-TEMPLE-2025",
-  "status_as_of_cutoff": "Rowan has a documented Temple City Council water/wastewater utility agreement approved 4-0 on 2026-03-05 and a developer-reported groundbreaking; the complete county/permit record was not retrieved.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11: official local-government records confirm Temple and Bell County tax-abatement/utility actions and Texas Comptroller qualified-data-center registration; Rowan reports the Temple 300 MW campus broke ground on 2026-03-02 and its portfolio page says construction started in late 2025 with substantial completion targeted for 2027. Building permit record remains unverified.",
+  "evidence_grade": "B - official city/county/state records corroborate approvals, incentive agreement presence, and Texas qualified data-center registration; construction timing and 300 MW capacity are developer-reported and supported by industry coverage.",
   "actions": [
     {
       "id": "A34",
@@ -37,10 +43,75 @@
       "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2025015318",
       "access_caveat": "Official TDLR record; identity mismatch means this is not counted as proof for Rowan.",
       "notes": "Construction-record cross-check / unresolved identity."
+    },
+    {
+      "id": "A36",
+      "date": "2025-08-29",
+      "body": "Temple City Council",
+      "meeting_date": "2025-10-02",
+      "action_type": "public notice for Chapter 312 tax-abatement agreement",
+      "result_or_status": "Temple posted notice that City Council would consider a Tax Abatement Agreement with Rowan Temple LLC for property in Tax Abatement Reinvestment Zone No. 47; the notice describes one or more data centers and related improvements, approximately 554 acres in Synergy Park generally east of Bob White Drive and north of Lorraine Avenue, and estimated improvements in excess of $225 million.",
+      "vote_tally": null,
+      "case_or_number": "Tax Abatement Reinvestment Zone No. 47",
+      "primary_url": "https://cms9files.revize.com/templetx/RZ%2047%20NP%20Notice.Rowan.082925%20FINAL.pdf?t=202508291628330&t=202508291628330",
+      "access_caveat": "Official City of Temple public-notice PDF; notice is pre-action and does not by itself prove final approval.",
+      "notes": "Official city notice for incentive/agreement process."
+    },
+    {
+      "id": "A37",
+      "date": "2026-05-29",
+      "body": "Bell County",
+      "meeting_date": null,
+      "action_type": "tax abatement agreement publication",
+      "result_or_status": "Bell County's Tax Abatement Agreements page lists Rowan Temple, LLC and provides links for both a public notice and a tax abatement agreement PDF.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://www.bellcountytx.com/departments/administrative_services/tax_abatement_agreements.php",
+      "access_caveat": "Official county index page; linked PDFs were image-only in this refresh, so text could not be extracted with pdftotext.",
+      "notes": "Official county evidence that the Rowan Temple LLC abatement agreement is posted."
+    },
+    {
+      "id": "A38",
+      "date": "2026-01-21",
+      "body": "Texas Comptroller of Public Accounts",
+      "meeting_date": null,
+      "action_type": "qualified data center registration",
+      "result_or_status": "The Comptroller's Data Centers in Texas list includes Temple Data Center effective 2026-01-21, owner Rowan Temple LLC (LD294727-OW1), occupant Polmer LLC (LD294727-OC1), and operator Rowan Temple LLC (LD294727-OP2).",
+      "vote_tally": null,
+      "case_or_number": "LD294727-OW1 / LD294727-OC1 / LD294727-OP2",
+      "primary_url": "https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php",
+      "access_caveat": "Official state tax list; it confirms qualified-data-center registration, not construction completion or energized status.",
+      "notes": "State-level owner/operator confirmation."
+    },
+    {
+      "id": "A39",
+      "date": "2026-03-02",
+      "body": "Rowan Digital Infrastructure",
+      "meeting_date": null,
+      "action_type": "developer groundbreaking and portfolio update",
+      "result_or_status": "Rowan's Temple community site says it celebrated groundbreaking on 2026-03-02 for its flagship Temple Project, a 300 MW sustainable data center. Rowan's portfolio page lists Temple as a 700-acre, 300 MW hyperscale campus with minimum $700 million investment, construction started in late 2025, and substantial completion targeted for 2027.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://www.rowantemple.com/",
+      "access_caveat": "Developer-reported status and schedule; treated as construction evidence but not as government permit proof.",
+      "notes": "Capacity and construction timing source; corroborated by Rowan portfolio at https://rowan.digital/portfolio/temple/."
+    },
+    {
+      "id": "A40",
+      "date": "2026-06-13",
+      "body": "Bell County Commissioners Court",
+      "meeting_date": "2026-06-01",
+      "action_type": "data-center impact FAQ / workshop follow-up",
+      "result_or_status": "Bell County's data-center FAQ says Rowan is one of the data centers in Bell County, notes Rowan's stated closed-loop cooling system, and says Rowan states the City of Temple limited daily use to 4,000 gallons after cooling-system initialization.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://www.bellcountytx.com/publicnotice_detail_T3_R734.php",
+      "access_caveat": "Official county FAQ summarizes public comments and developer assertions; water-use numbers are attributed by Bell County to Rowan.",
+      "notes": "Current local-government context on resource concerns; not a permit or operational-status record."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 300,
+  "owner": "Rowan Temple LLC / Rowan Digital Infrastructure",
   "sources": {
     "phase3_stable_id": "US-TX-ROWAN-TEMPLE-2025",
     "phase3_source_file": "phase3/county_tx.json",
@@ -48,9 +119,30 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://cms9files.revize.com/templetx/RZ%2047%20NP%20Notice.Rowan.082925%20FINAL.pdf?t=202508291628330&t=202508291628330",
+      "https://www.bellcountytx.com/departments/administrative_services/tax_abatement_agreements.php",
+      "https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php",
+      "https://www.bellcountytx.com/publicnotice_detail_T3_R734.php",
+      "https://www.rowantemple.com/",
+      "https://rowan.digital/portfolio/temple/",
+      "https://templeedc.com/rowan-to-open-data-center-in-south-temple/",
+      "https://www.datacenterdynamics.com/en/news/rowan-starts-work-on-300mw-data-center-in-temple-texas/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "as_of": "2026-08-11",
+      "topic": "construction start / groundbreaking timing",
+      "details": "Rowan's portfolio page says construction started in late 2025, Rowan's community site says the official groundbreaking was 2026-03-02, and Data Center Dynamics reported on 2026-01-06 that Rowan had started work. This refresh treats the project as site work-construction but does not assign a single construction-start date."
+    },
+    {
+      "as_of": "2026-08-11",
+      "topic": "site acreage",
+      "details": "Temple's official Zone 47 public notice describes approximately 554 acres in Synergy Park, while Temple EDC and Rowan describe the broader Temple campus/site as more than 700 acres. This refresh records both and does not collapse them into one parcel size."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

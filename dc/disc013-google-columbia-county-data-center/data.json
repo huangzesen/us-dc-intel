@@ -5,16 +5,63 @@
   "location": {
     "city": "Appling/Harlem area",
     "county": "Columbia County",
-    "state": "GA"
+    "state": "GA",
+    "site_detail": "Northwest of existing White Oak Business Park; local reporting places the campus between Appling and Harlem."
   },
   "capacity_mw": null,
-  "status": "announced/planned",
-  "confidence": "high",
-  "evidence_date": "2026-07-24",
+  "status": "site work-construction",
+  "confidence": "medium",
+  "evidence_date": "2026-08-11",
   "sources": [
-    "https://www.datacenterdynamics.com/en/news/google-announced-as-end-user-of-8-million-sq-ft-data-center-in-columbia-georgia/"
+    "https://www.columbiacountyga.gov/DocumentCenter/View/10095/Columbia-County-Google-and-Georgia-Power-Partner-to-Protect-Ratepayers-and-Make-Growth-Work-for-Residents?bidId=",
+    "https://www.columbiacountydatacenter.com/",
+    "https://datacenters.google/locations/georgia/",
+    "https://developcolumbiacounty.com/wp-content/uploads/2026/04/02.18.2026-BRI-Minutues.pdf",
+    "https://www.datacenterdynamics.com/en/news/google-announced-as-end-user-of-8-million-sq-ft-data-center-in-columbia-georgia/",
+    "https://www.wrdw.com/2026/07/28/columbia-county-leaders-discuss-google-data-centers-proposed-tax-relief/"
   ],
   "why_not_in_baseline": "Not present in the 208 baseline canonical_project list; public Google end-user/operator identification was announced July 23-24, 2026 after the 2026-07-16 baseline freeze.",
+  "planned_building_area_sqft": 8000000,
+  "planned_buildings": {
+    "value": 23,
+    "source": "Data Center Dynamics, 2026-07-24",
+    "note": "WRDW/WAGT reported 33 buildings across two complexes on 2026-07-27; keep as conflict until official site plan/source documents are directly verified."
+  },
+  "site_area_acres": {
+    "value": 1900,
+    "source": "Data Center Dynamics, 2026-07-24",
+    "note": "WRDW/WAGT reported 3,500 acres across two complexes on 2026-07-27."
+  },
+  "power_notes": "Columbia County's 2026-07-23 news release says Google committed to pay 100% of project energy costs; no project-specific MW capacity was found in official/local sources during the 2026-08-11 refresh.",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "old_value": "announced/planned",
+      "new_value": "site work-construction",
+      "reason": "Google and county announcement confirmed; EDACC minutes show White Oak rezoning progress, and WRDW/WAGT reported land clearing at both Google-occupied sites."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": null,
+      "reason": "No project-specific MW was verified; statewide Georgia Power large-load figures were not assigned to this campus."
+    }
+  ],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "campus scale",
+      "details": "DCD reports 8 million sq ft in 23 buildings on 1,900 acres northwest of White Oak Business Park; WRDW/WAGT reports two complexes, 33 buildings, and 3,500 acres in Harlem/near Appling. Official county and Google pages reviewed do not publish a project-specific building count, acreage, or MW capacity.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/google-announced-as-end-user-of-8-million-sq-ft-data-center-in-columbia-georgia/",
+        "https://www.wrdw.com/2026/07/28/columbia-county-leaders-discuss-google-data-centers-proposed-tax-relief/",
+        "https://www.columbiacountydatacenter.com/",
+        "https://datacenters.google/locations/georgia/"
+      ]
+    }
+  ],
   "discovery_file": "candidates-hyperscaler.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

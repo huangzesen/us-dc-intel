@@ -8,12 +8,53 @@
     "state": "TX"
   },
   "capacity_mw": 1000,
-  "status": "announced/planned",
+  "status": "local process",
   "confidence": "high",
-  "evidence_date": "2026-07-15",
+  "evidence_date": "2026-08-11",
   "sources": [
+    "https://www.childresstx.us/pages/tax-abatements",
+    "https://www.childresstx.us/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcTRDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--83cbada38588b37d4982415b886e5bcabe2b5779/FEB%2025%202025.pdf",
+    "https://www.childresstx.us/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcThDIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--d1a7165162627fe9065b51e885716a8787081aba/03102025%20Meeting.pdf",
+    "https://www.crusoe.ai/resources/newsroom/crusoe-and-lancium-announce-1-gigawatt-ai-data-center-campus-in-childress-texas",
+    "https://lancium.com/locations-childress-county/",
     "https://www.datacenterdynamics.com/en/news/crusoe-to-develop-14gw-data-center-campus-in-childress-texas/",
     "https://news.bloomberglaw.com/texas-brief/crusoe-lancium-to-build-1gw-ai-data-center-in-texas"
+  ],
+  "site_acres": 270,
+  "target_construction_start": "Q3 2026 expected; no official construction-start evidence found in this refresh",
+  "local_process": {
+    "county_tax_abatement_page": "https://www.childresstx.us/pages/tax-abatements",
+    "county_actions": [
+      {
+        "date": "2025-02-25",
+        "fact": "Childress County posted a Lancium Reinvestment Zone item for February 25, 2025."
+      },
+      {
+        "date": "2025-03-10",
+        "fact": "Childress County posted March 10, 2025 materials for action on Chapter 312 tax-abatement agreements with Lancium LLC, Rolling Plains EV Stations LLC, and Lancium Childress LLC."
+      }
+    ]
+  },
+  "history": [
+    {
+      "date": "2026-08-11",
+      "previous_status": "announced/planned",
+      "previous_capacity_mw": 1000,
+      "previous_evidence_date": "2026-07-15",
+      "note": "Refreshed with Childress County tax-abatement/reinvestment-zone records and primary Crusoe/Lancium project pages; status advanced only to local process because no construction-start evidence was found."
+    }
+  ],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "issue": "A Data Center Dynamics headline says 1.4GW, and some social/industry reposts repeat 1.4GW, but the body of the DCD article and primary Crusoe/Lancium sources describe a 1.0GW campus/interconnect.",
+      "resolution": "Keep capacity_mw at 1000 pending primary evidence for any higher figure."
+    },
+    {
+      "date": "2026-08-11",
+      "issue": "Lancium states the 1GW interconnect is ERCOT approved; this refresh did not independently locate an ERCOT queue or approval record.",
+      "resolution": "Treat ERCOT approval as a company-source claim, not independently verified grid-side evidence."
+    }
   ],
   "why_not_in_baseline": "Not present in the 208 baseline canonical_project list; announced on 2026-07-15 immediately before/at the baseline cutoff and distinct from baseline Crusoe Abilene/Stargate Abilene records.",
   "discovery_file": "candidates-hyperscaler.jsonl",

@@ -13,7 +13,8 @@
     "state": "MO"
   },
   "phase3_stable_id": "MO-INDEPENDENCE-NEBIUS",
-  "status_as_of_cutoff": "Independence approved a Chapter 100 tax-abatement/industrial-development plan by 5–2 on 2026-03-02, Nebius announced approval and groundbreaking on 2026-05-12, and the city's May permit report lists Nebius Data Center - Phase 1 as a commercial new-building submission at 251 N Bly Road valued at $106,320,497. The July 6 moratorium expressly exempts Nebius as already submitted/authorized/approved. No inspection closeout, CO, utility energization, commissioning, or live-service date was located.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11. Independence approved a Chapter 100 tax-abatement/industrial-development plan by 5-2 on 2026-03-02. Nebius announced groundbreaking on 2026-05-12, and official Independence records now show issued footing/foundation permits at 251 N Bly Road on 2026-05-18 and 2026-06-18, plus the July 2026 report lists a $700,659,985 Nebius Data Center - Phase 1 commercial tenant-finish submission at 251 N Bly Road. The June and July city reports also list Nebius switchyard/substation submissions at 301 N Bly Road, and the open-data feed shows a 2026-08-10 footing/foundation permit at 301 N Bly Road. The July 6 moratorium expressly exempts Nebius as already submitted/authorized/approved. No inspection closeout, CO, utility energization, commissioning, or live-service date was located.",
+  "evidence_grade": "A",
   "actions": [
     {
       "date": "2026-03-02",
@@ -52,6 +53,18 @@
       "evidence_note": "Government permit record, without extrapolating beyond the report."
     },
     {
+      "date": "2026-05-18",
+      "date_precision": "day",
+      "government_body": "City of Independence",
+      "action_type": "issued footing/foundation building permit",
+      "result_status": "The city's open-data building-permit feed lists permit 2026-01844 issued for 251 N Bly Rd, estimated cost $118,765,000, permit type Commercial-Footing/Foundation Only.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "2026-01844",
+      "primary_url": "https://apps.indepmo.org/Apps/OpenData/BuildingPermits/PermitsJSON",
+      "access_caveat": "Open-data feed includes permits issued in the last three months and does not expose project name in this row; address and permit type match the Nebius Phase 1 site identified in monthly reports.",
+      "evidence_note": "Official issued-permit record; supports site-work/foundation status but not completion or operation."
+    },
+    {
       "date": "2026-05-12",
       "date_precision": "day",
       "government_body": "Nebius",
@@ -64,6 +77,30 @@
       "evidence_note": "Tier-2 company evidence explicitly separated from permit evidence."
     },
     {
+      "date": "2026-06",
+      "date_precision": "month",
+      "government_body": "City of Independence",
+      "action_type": "commercial building permit report",
+      "result_status": "The official June 2026 monthly building-permits report lists Nebius Switchyard as a Commercial New Building at 301 N Bly Rd with $10,417,000 valuation, and Nebius Warehouse Construction Mobilization Site as a Commercial Tenant Finish at 2420 S Little Blue Pkwy with $1,371,150 valuation.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "June 2026 monthly building-permits report",
+      "primary_url": "https://www.independencemo.gov/sites/default/files/2026-07/June%202026%20Monthly%20Building%20Permits%20Reports_0.pdf",
+      "access_caveat": "Monthly report shows submissions and one issued mobilization-site tenant-finish entry, not switchyard energization.",
+      "evidence_note": "Official permit-report evidence for electrical/site-support infrastructure."
+    },
+    {
+      "date": "2026-06-18",
+      "date_precision": "day",
+      "government_body": "City of Independence",
+      "action_type": "issued footing/foundation building permit",
+      "result_status": "The city's open-data building-permit feed lists permit 2026-01395 issued for 251 N Bly Rd, estimated cost $118,765,000, permit type Commercial-Footing/Foundation Only.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "2026-01395",
+      "primary_url": "https://apps.indepmo.org/Apps/OpenData/BuildingPermits/PermitsJSON",
+      "access_caveat": "Open-data feed includes permits issued in the last three months and does not expose project name in this row; address and permit type match the Nebius Phase 1 site identified in monthly reports.",
+      "evidence_note": "Official issued-permit record; supports site-work/foundation status but not completion or operation."
+    },
+    {
       "date": "2026-07-06",
       "date_precision": "day",
       "government_body": "Independence City Council",
@@ -74,10 +111,35 @@
       "primary_url": "https://www.independencemo.gov/index.php/news/city-council-approves-temporary-moratorium-new-data-center-and-battery-energy-storage-system-applications",
       "access_caveat": "Moratorium exception confirms procedural status, not completion or operation.",
       "evidence_note": "Official city status action."
+    },
+    {
+      "date": "2026-07",
+      "date_precision": "month",
+      "government_body": "City of Independence",
+      "action_type": "commercial building permit report",
+      "result_status": "The official July 2026 monthly building-permits report lists Nebius Substation as a Commercial New Building at 301 N Bly Rd with $31,691,000 valuation and Nebius Data Center - Phase 1 as a Commercial Tenant Finish at 251 N Bly Rd with $700,659,985 valuation.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "July 2026 monthly building-permits report",
+      "primary_url": "https://www.independencemo.gov/sites/default/files/2026-08/July%202026%20Monthly%20Building%20Permits%20Reports.pdf",
+      "access_caveat": "Monthly report shows submitted projects, not final inspection, CO, energization, or operational status.",
+      "evidence_note": "Official permit-report evidence for continued Phase 1 and substation permitting."
+    },
+    {
+      "date": "2026-08-10",
+      "date_precision": "day",
+      "government_body": "City of Independence",
+      "action_type": "issued footing/foundation building permit",
+      "result_status": "The city's open-data building-permit feed lists permit 2026-03125 issued for 301 N Bly Rd, permit type Commercial-Footing/Foundation Only, estimated cost $0.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "2026-03125",
+      "primary_url": "https://apps.indepmo.org/Apps/OpenData/BuildingPermits/PermitsJSON",
+      "access_caveat": "Open-data feed does not expose project name in this row; the 301 N Bly Rd address matches the Nebius switchyard/substation address in June/July monthly reports.",
+      "evidence_note": "Official issued-permit record for the 301 N Bly Rd support-infrastructure address; no energization inferred."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 800,
+  "capacity_notes": "Official city FAQ says the project will require at least 800 MW of power, supplied by a privately financed Independence Power Partners facility at the retired Blue Valley Power Plant site; initial phase 200 MW plus 600 MW at full operation, with 300 MW reserve capacity required by Southwest Power Pool. Third-party and company materials describe the campus as gigawatt-scale / up to 1.2 GW, but 800 MW is the official city-supported project demand retained here.",
+  "owner": "Nebius",
   "sources": {
     "phase3_stable_id": "MO-INDEPENDENCE-NEBIUS",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -85,9 +147,39 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.independencemo.gov/community-faqs/nebius-data-center-faqs",
+      "https://www.independencemo.gov/sites/default/files/2026-06/May%202026%20Monthly%20Building%20Permits%20Reports.pdf",
+      "https://www.independencemo.gov/sites/default/files/2026-07/June%202026%20Monthly%20Building%20Permits%20Reports_0.pdf",
+      "https://www.independencemo.gov/sites/default/files/2026-08/July%202026%20Monthly%20Building%20Permits%20Reports.pdf",
+      "https://apps.indepmo.org/Apps/OpenData/BuildingPermits/PermitsJSON",
+      "https://www.independencemo.gov/news/city-council-approves-temporary-moratorium-new-data-center-and-battery-energy-storage-system-applications",
+      "https://nebius.com/newsroom/nebius-secures-approval-for-its-first-gigawatt-scale-ai-factory",
+      "https://nebius.com/newsroom/nebius-breaks-ground-on-gigawatt-scale-ai-factory-in-independence-missouri"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Independence approved a Chapter 100 tax-abatement/industrial-development plan by 5–2 on 2026-03-02, Nebius announced approval and groundbreaking on 2026-05-12, and the city's May permit report lists Nebius Data Center - Phase 1 as a commercial new-building submission at 251 N Bly Road valued at $106,320,497. The July 6 moratorium expressly exempts Nebius as already submitted/authorized/approved. No inspection closeout, CO, utility energization, commissioning, or live-service date was located.",
+      "new_value": "site work-construction as of 2026-08-11, based on official issued footing/foundation permit records and June/July monthly permit reports."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 800
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Nebius"
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

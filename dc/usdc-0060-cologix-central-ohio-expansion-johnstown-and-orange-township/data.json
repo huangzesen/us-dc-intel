@@ -12,8 +12,108 @@
     "state": "OH"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "B",
+  "history": {
+    "status_as_of_cutoff": [
+      {
+        "date": "2026-07-16",
+        "value": null,
+        "note": "Baseline record had no status."
+      },
+      {
+        "date": "2026-08-11",
+        "value": "site work-construction",
+        "note": "Orange Township BZA minutes described the Green Meadows/Orange Township Cologix site as under active construction; Ohio EPA construction NOI and copermittee lists include Cologix COL5 and Cologix 7&8 stormwater permit records."
+      }
+    ],
+    "capacity_mw": [
+      {
+        "date": "2026-07-16",
+        "value": null,
+        "note": "Baseline record had no verified capacity."
+      },
+      {
+        "date": "2026-08-11",
+        "value": 800,
+        "scope": "Johnstown campus potential full buildout only",
+        "note": "Cologix announced a potential 800 MW across eight AI-ready data centers on approximately 154 acres in Johnstown; Orange Township COL5 MW remains unverified from official/company sources in this refresh."
+      }
+    ],
+    "owner": [
+      {
+        "date": "2026-07-16",
+        "value": null,
+        "note": "Baseline record had no owner."
+      },
+      {
+        "date": "2026-08-11",
+        "value": "Cologix, Inc.",
+        "note": "Owner/developer verified by Ohio Tax Credit Authority minutes, Ohio EPA permit records, and Cologix facility pages."
+      }
+    ]
+  },
   "actions": [
+    {
+      "date": "2024-11-20",
+      "body": "Cologix, Inc.",
+      "action_type": "company announcement",
+      "exact_result_status": "Cologix announced acquisition of approximately 154 acres in Johnstown, Ohio for a planned eight-data-center AI-ready campus with potential 800 MW scalable capacity across 2.0 million square feet; first phase anticipated to begin in 2025.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://cologix.com/news/cologix-expands-central-ohio-footprint-with-land-acquisition-for-new-ai-ready-800mw-data-center-campus/",
+      "access_caveat": "Company announcement establishes planned full-buildout scope; it is not a local permit or energization record."
+    },
+    {
+      "date": "2025-11-17",
+      "body": "Worthington City Council",
+      "action_type": "JEDD amendment public hearing/minutes",
+      "exact_result_status": "Council minutes state an Orange Township JEDD amendment was for a Cologix data center project occupying roughly 28 acres near Green Meadows Drive and Home Road with a data center approximately 135,000 square feet in size; Orange Township was conducting a parallel hearing.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.worthington.org/Archive.aspx?ADID=6527",
+      "access_caveat": "Minutes document economic-development/JEDD process context, not a building permit or energization."
+    },
+    {
+      "date": "2024-12-18",
+      "body": "Ohio Environmental Protection Agency",
+      "action_type": "construction stormwater NOI",
+      "exact_result_status": "Ohio EPA Construction NOI list, report date 2026-08-10, includes permit 4GC10275*AG for Cologix COL5 at 6787 Green Meadows Drive, Lewis Center, Delaware County, with 25.78 acres of total land disturbance and issue date 2024-12-18.",
+      "vote_tally": null,
+      "case_or_permit_number": "4GC10275*AG",
+      "primary_url": "https://dam.assets.ohio.gov/raw/upload/epa.ohio.gov/Public/DSW/Construction.xlsx",
+      "access_caveat": "Stormwater NOI supports site-work/construction activity but is not a building permit or occupancy/energization record."
+    },
+    {
+      "date": "2025-10-07",
+      "body": "Ohio Environmental Protection Agency",
+      "action_type": "construction stormwater NOI",
+      "exact_result_status": "Ohio EPA Construction NOI list, report date 2026-08-10, includes permit 4GC10864*AG for Cologix 7&8 at Duncan Plains Road, Johnstown, Licking County, with 154.47 acres of total land disturbance and issue date 2025-10-07.",
+      "vote_tally": null,
+      "case_or_permit_number": "4GC10864*AG",
+      "primary_url": "https://dam.assets.ohio.gov/raw/upload/epa.ohio.gov/Public/DSW/Construction.xlsx",
+      "access_caveat": "Stormwater NOI supports site-work/construction activity but is not a building permit or occupancy/energization record."
+    },
+    {
+      "date": "2026-06-12",
+      "body": "Ohio Environmental Protection Agency",
+      "action_type": "copermittee stormwater record",
+      "exact_result_status": "Ohio EPA Copermittee list, report date 2026-08-10, includes multiple copermittees for Cologix 7&8 at Duncan Plains Road under permit 4GC10864*AG; listed issue dates range from 2025-12-30 through 2026-06-12.",
+      "vote_tally": null,
+      "case_or_permit_number": "4GC10864*AG",
+      "primary_url": "https://dam.assets.ohio.gov/raw/upload/epa.ohio.gov/Public/DSW/Copermittee.xlsx",
+      "access_caveat": "Copermittee records identify construction participants under the stormwater permit; they do not establish building completion or energization."
+    },
+    {
+      "date": "2025-06-12",
+      "body": "Orange Township Board of Zoning Appeals",
+      "action_type": "local zoning minutes/context",
+      "exact_result_status": "BZA minutes for an adjacent/nearby sign case describe land use to the north as the under-construction Cologix Data Center and state there was active construction on the larger future Cologix Data Center site north of 6853 Green Meadows Drive.",
+      "vote_tally": null,
+      "case_or_permit_number": "CU-25-09",
+      "primary_url": "https://www.orangetwp.org/wp-content/uploads/2025/08/06.12.2025-BZA-Minutes-VA-25-07-VA-25-08-CU-25-09-VA-CU-25-10-VA-CU-25-11.pdf",
+      "access_caveat": "The Cologix facts are contextual statements in minutes for another case; useful for status corroboration but not a Cologix permit approval."
+    },
     {
       "date": "2026-06-01",
       "body": "Ohio Tax Credit Authority",
@@ -30,13 +130,22 @@
       "action_type": "stormwater/copermittee record",
       "exact_result_status": "Ohio EPA copermittee list includes a Cologix 7&8 facility record in Licking County; the list does not give a local vote or occupancy result.",
       "vote_tally": null,
-      "case_or_permit_number": null,
-      "primary_url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/PUBLIC/DSW/Copermittee.pdf",
+      "case_or_permit_number": "4GC10864*AG",
+      "primary_url": "https://dam.assets.ohio.gov/raw/upload/epa.ohio.gov/Public/DSW/Copermittee.xlsx",
       "access_caveat": "List entry is an environmental administrative record; it is not sufficient to establish a building permit or energization."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": {
+    "value": 800,
+    "unit": "MW",
+    "scope": "Johnstown campus potential full buildout only",
+    "as_of": "2026-08-11",
+    "confidence": "company-announced; not proof of energized capacity",
+    "unverified_components": [
+      "Orange Township COL5 official/company MW was not confirmed in this refresh."
+    ]
+  },
+  "owner": "Cologix, Inc.",
   "sources": {
     "phase3_stable_id": "OH-JOHNSTOWN-COLOGIX",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -44,7 +153,45 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://cologix.com/news/cologix-expands-central-ohio-footprint-with-land-acquisition-for-new-ai-ready-800mw-data-center-campus/",
+      "https://cologix.com/data-centers/columbus/col5/",
+      "https://cologix.com/data-centers/columbus/col7/",
+      "https://cologix.com/data-centers/columbus/col8/",
+      "https://www.worthington.org/Archive.aspx?ADID=6527",
+      "https://www.orangetwp.org/wp-content/uploads/2025/08/06.12.2025-BZA-Minutes-VA-25-07-VA-25-08-CU-25-09-VA-CU-25-10-VA-CU-25-11.pdf",
+      "https://dam.assets.ohio.gov/raw/upload/epa.ohio.gov/Public/DSW/Construction.xlsx",
+      "https://dam.assets.ohio.gov/raw/upload/epa.ohio.gov/Public/DSW/Copermittee.xlsx",
+      "https://dam.assets.ohio.gov/image/upload/development.ohio.gov/business/stateincentives/TCA_Meeting_Minutes_6.1.2026.pdf"
+    ],
+    "source_notes": [
+      {
+        "date": "2026-08-10",
+        "url": "https://dam.assets.ohio.gov/raw/upload/epa.ohio.gov/Public/DSW/Construction.xlsx",
+        "note": "Ohio EPA workbook report date; rows verified for Cologix COL5 permit 4GC10275*AG and Cologix 7&8 permit 4GC10864*AG."
+      },
+      {
+        "date": "2026-08-10",
+        "url": "https://dam.assets.ohio.gov/raw/upload/epa.ohio.gov/Public/DSW/Copermittee.xlsx",
+        "note": "Ohio EPA workbook report date; rows verified for Cologix COL5 and Cologix 7&8 copermittees."
+      },
+      {
+        "date": "2026-08-11",
+        "url": "https://cologix.com/data-centers/columbus/col7/",
+        "note": "Cologix page lists COL7 at 12017 Duncan Plains Road, Johnstown, available for pre-leasing."
+      },
+      {
+        "date": "2026-08-11",
+        "url": "https://cologix.com/data-centers/columbus/col8/",
+        "note": "Cologix page lists COL8 at 11719 Duncan Plains Road, Johnstown, with site capacity of 21 MW."
+      },
+      {
+        "date": "2026-08-11",
+        "url": "https://cologix.com/data-centers/columbus/col5/",
+        "note": "Cologix page lists COL5 at 6787 Green Meadows Drive and expected ready for service in Q3 2026."
+      }
+    ]
   },
   "contradictions": [],
   "seed_only": false,

@@ -10,10 +10,33 @@
     "state": "Texas"
   },
   "phase3_stable_id": "US-TX-ABILENE-CRUSOE-MICROSOFT-2026",
-  "status_as_of_cutoff": "Reported by AP as a separate Crusoe/Microsoft expansion; no government approval or permit tying the two buildings and onsite plant to this project was found.",
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction: Abilene city records show executed tax abatement agreements for Lancium/Abilene DC Phase 9, Phase 10, and Abilene DC TPP electricity generation plant adopted December 4, 2025; Crusoe announced March 27, 2026 that land clearing and site preparation for a new adjacent Microsoft-dedicated 900 MW AI factory campus were already underway, with first building energization expected in mid-2027.",
+  "evidence_grade": "B: city-executed tax abatement records confirm Phase 9/10 and generation-plant local approvals, while construction status, Microsoft dedication, capacity, and energization timing are company/AP-reported rather than confirmed by a building permit found in this refresh.",
+  "actions": [
+    {
+      "date": "2025-12-04",
+      "government_body": "City Council of the City of Abilene, Texas",
+      "action_type": "tax_abatement_approval",
+      "result_status": "approved",
+      "description": "Resolution No. 249-2025 approved tax abatement and second tax abatement agreements for Lancium LLC and Abilene DC 9 LLC Phase 9, Lancium LLC and Abilene DC 10 LLC Phase 10, and Lancium LLC and Abilene DC TPP LLC electricity generation plant."
+    },
+    {
+      "date": "2025-12-04",
+      "government_body": "City Council of the City of Abilene, Texas",
+      "action_type": "reinvestment_zone",
+      "result_status": "approved",
+      "description": "City tax-abatement index lists Ordinance designating Reinvestment Zone No. RZ25-1 for tax abatement alongside the executed Phase 9/10/plant agreements."
+    },
+    {
+      "date": "2026-03-27",
+      "government_body": "Crusoe",
+      "action_type": "company_announcement",
+      "result_status": "announced_site_prep_underway",
+      "description": "Crusoe announced a new Microsoft-dedicated 900 MW AI factory campus adjacent to existing Abilene infrastructure, with two new buildings, onsite power plant, land clearing/site preparation underway, and first building expected to be energized in mid-2027."
+    }
+  ],
+  "capacity_mw": 900,
+  "owner": "Crusoe (developer/operator); Microsoft is the announced customer/tenant; Abilene city agreements name Lancium LLC, Abilene DC 9 LLC, Abilene DC 10 LLC, and Abilene DC TPP LLC.",
   "sources": {
     "phase3_stable_id": "US-TX-ABILENE-CRUSOE-MICROSOFT-2026",
     "phase3_source_file": "phase3/county_tx.json",
@@ -21,9 +44,52 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      {
+        "url": "https://abilenetx.gov/2476/Tax-Abatements",
+        "title": "City of Abilene Tax Abatements",
+        "date": "2026-08-11",
+        "publisher": "City of Abilene",
+        "facts": "City index lists executed agreements for Resolution No. 249-2025, Lancium/Abilene DC 9 Phase 9, Lancium/Abilene DC 10 Phase 10, and Abilene DC TPP electricity generation plant."
+      },
+      {
+        "url": "https://www.abilenetx.gov/DocumentCenter/View/39460/Resolution-No-249-2025-Approving-a-Tax-Abatement-Agreement--Second-Abatement-Agreements-Lancium-Phases-9-10-Plant-PDF",
+        "title": "Resolution No. 249-2025",
+        "date": "2025-12-04",
+        "publisher": "City of Abilene",
+        "facts": "City Council approved tax abatement agreements for Phase 9, Phase 10, and the electricity generation plant with Lancium LLC, Abilene DC 9 LLC, Abilene DC 10 LLC, and Abilene DC TPP LLC."
+      },
+      {
+        "url": "https://www.crusoe.ai/resources/newsroom/crusoe-announces-new-900-mw-ai-factory-campus-in-abilene-texas-to-support-microsoft-ai-infrastructure",
+        "title": "Crusoe Announces New 900 MW AI Factory Campus in Abilene, Texas to Support Microsoft AI Infrastructure",
+        "date": "2026-03-27",
+        "publisher": "Crusoe",
+        "facts": "Crusoe announced 900 MW, two new buildings, onsite power plant, land clearing/site prep underway, 2.1 GW total projected Abilene capacity, two 336 MW critical IT-load buildings, and mid-2027 first-building energization target."
+      },
+      {
+        "url": "https://apnews.com/article/ai-stargate-microsoft-openai-crusoe-oracle-f4f74c3a4617d8cfab5b933fc31ccc6e",
+        "title": "Microsoft takes over a Texas AI data center expansion after OpenAI backs away",
+        "date": "2026-03-27",
+        "publisher": "Associated Press",
+        "facts": "AP reports Microsoft is taking over the two-building Abilene expansion after OpenAI declined it; total building count would become 10 and total computing capacity 2.1 GW."
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "description": "Capacity framing differs by source: Crusoe calls the new campus a 900 MW site with 900 MW onsite generation and two buildings of 336 MW critical IT load each, while AP frames the combined campus as 2.1 GW of computing capacity. This record keeps capacity_mw as the announced 900 MW campus/generation figure and notes the 672 MW IT-load subcomponent in NOTES.md."
+    }
+  ],
   "seed_only": false,
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": "Reported by AP as a separate Crusoe/Microsoft expansion; no government approval or permit tying the two buildings and onsite plant to this project was found.",
+      "capacity_mw": null,
+      "owner": null
+    }
+  ],
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

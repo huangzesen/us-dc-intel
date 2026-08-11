@@ -11,11 +11,37 @@
   "location": {
     "city": "Maiden",
     "county": "Catawba County",
-    "state": "NC"
+    "state": "NC",
+    "site": "Off Zeb Haynes Road; approximately 292 acres north of W. Maiden Road and west of Zeb Haynes Road"
   },
   "phase3_stable_id": "NC-003",
-  "status_as_of_cutoff": "Microsoft's May 2026 official construction update states construction was continuing at the Boyd Farms site, with foundations, underground utilities, slabs, electrical vaults, sewer, stormwater, water, fire protection, telecommunications, and medium-voltage work. This establishes company-reported construction progress, not a CO, energized IT load, or service date.",
+  "status_as_of_cutoff": "site work-construction: Microsoft's May 2026 official construction update states construction was continuing at the Boyd Farms site, with foundations, underground utilities, slabs, electrical vaults, sewer, stormwater, water, fire protection, telecommunications, and medium-voltage work. Catawba County's 2026-06-23 joint statement confirms the broader Microsoft Catawba County program has sites existing or under construction, but no certificate of occupancy, energized IT load, or service date was located for Boyd Farms.",
+  "evidence_grade": "A- for construction status and location: Microsoft official construction update plus Catawba County statement and USACE public-notice record corroborate the project. B for capacity: 240 MW is a planning/inference figure from five 48 MW buildings reported against USACE filings by an industry tracker, not a Microsoft-published or utility-confirmed energized capacity.",
   "actions": [
+    {
+      "date": "2022-11",
+      "date_precision": "month",
+      "government_body": "Catawba County / Conover / Hickory / Maiden / Catawba County EDC",
+      "action_type": "economic-development announcement / incentive approvals",
+      "result_status": "Local leaders announced Microsoft's plan to invest at least $1 billion in four data centers in Catawba County over 10 years; the Maiden site was described as about 292 acres north of W. Maiden Road and west of Zeb Haynes Road.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://charlotteregion.com/news/microsoft-to-invest-1-billion-in-technology-facilities-in-catawba-county/",
+      "access_caveat": "Regional economic-development publication preserving the local announcement; the current Catawba County statement independently confirms the same $1B/four-site program.",
+      "evidence_note": "Announcement and incentives context, not construction or energization."
+    },
+    {
+      "date": "2023-05-15",
+      "date_precision": "day",
+      "government_body": "U.S. Army Corps of Engineers, Wilmington District",
+      "action_type": "Clean Water Act permitting public notice / application receipt",
+      "result_status": "USACE public notice SAW-2023-00665 records Microsoft's application for Department of the Army authorization associated with construction of the Boyd Farm Data Center-CLT 10 near Maiden in Catawba County.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "SAW-2023-00665",
+      "primary_url": "https://www.saw.usace.army.mil/Missions/Regulatory-Permit-Program/Public-Notices/Year/2023/?Page=5",
+      "access_caveat": "Public page was discoverable in web index; direct curl access was denied by the host, and no final permit decision document was located in this refresh.",
+      "evidence_note": "Federal permitting/application evidence for site construction impacts, not building occupancy or power-on."
+    },
     {
       "date": "2024-04-01",
       "date_precision": "day",
@@ -39,10 +65,23 @@
       "primary_url": "https://local.microsoft.com/blog/boyd-farms-datacenter-construction-update/",
       "access_caveat": "Company update; no building permit, inspection, CO, interconnection, or power-on record was attached.",
       "evidence_note": "Construction progress, not proof of live service."
+    },
+    {
+      "date": "2026-06-23",
+      "date_precision": "day",
+      "government_body": "Catawba County, Cities of Conover and Hickory, Town of Maiden, and Catawba County EDC",
+      "action_type": "joint public statement",
+      "result_status": "The joint statement says the November 2022 Microsoft program is a minimum $1 billion phased development of four Catawba County data centers over 10 years; it also characterizes local data-center projects as existing or under construction and says the City of Hickory provides water service to all Catawba County data-center sites.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.catawbacountync.gov/news/joint-statement-on-microsoft-data-center-development-in-catawba-county/",
+      "access_caveat": "County-level statement covers the Catawba County Microsoft program collectively rather than only Boyd Farms.",
+      "evidence_note": "Corroborates active local program/infrastructure context; not site-specific CO, energization, or capacity."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 240,
+  "capacity_notes": "Planning estimate: Aterio's July 15, 2026 analysis says the USACE filings for Boyd Farm, Lyle Creek, and Stover North each show five 48 MW data-center buildings, implying 240 MW critical IT load per campus. Treat as planned/filed capacity, not delivered capacity or utility-confirmed service.",
+  "owner": "Microsoft Corporation",
   "sources": {
     "phase3_stable_id": "NC-003",
     "phase3_source_file": "phase3/county_ga_nc_sc.json",
@@ -50,9 +89,41 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://local.microsoft.com/blog/boyd-farms-datacenter-construction-update/",
+      "https://www.catawbacountync.gov/news/joint-statement-on-microsoft-data-center-development-in-catawba-county/",
+      "https://www.saw.usace.army.mil/Missions/Regulatory-Permit-Program/Public-Notices/Year/2023/?Page=5",
+      "https://charlotteregion.com/news/microsoft-to-invest-1-billion-in-technology-facilities-in-catawba-county/",
+      "https://www.aterio.io/blog/microsoft-catawba-county-810mw-data-center-restart-north-carolina"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "Boyd Farms capacity",
+      "detail": "No Microsoft, Catawba County, USACE final permit, Duke Energy service record, CO, or energization record located in this refresh confirms delivered MW. The 240 MW value is retained as a planned/filed critical-load estimate from industry analysis tied to USACE filings."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Microsoft's May 2026 official construction update states construction was continuing at the Boyd Farms site, with foundations, underground utilities, slabs, electrical vaults, sewer, stormwater, water, fire protection, telecommunications, and medium-voltage work. This establishes company-reported construction progress, not a CO, energized IT load, or service date.",
+      "reason": "Refresh added explicit status layer and Catawba County June 2026 corroboration while preserving no-energization caveat."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "reason": "Added planned/filed capacity estimate based on industry analysis of USACE filings; not treated as delivered capacity."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "reason": "Microsoft Corporation is identified by Microsoft Local, Catawba County, Charlotte Regional Business Alliance, and USACE public-notice search result."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

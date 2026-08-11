@@ -7,12 +7,14 @@
     "Google Texas cloud and AI infrastructure expansion"
   ],
   "location": {
-    "city": "multiple / not published",
+    "city": "multiple / Haskell / Claude / Midlothian / Red Oak",
     "county": "Armstrong; Haskell; Ellis",
     "state": "Texas"
   },
   "phase3_stable_id": "US-TX-GOOGLE-TEXAS-CAMPUSES-2025",
-  "status_as_of_cutoff": "State/company announcement for multiple campuses; county-level project split and approvals are not established.",
+  "status_as_of_cutoff": "Official Google/state announcement plus Haskell County tax-abatement records and TDLR architectural-barriers filings now confirm named Haskell County data-center projects and Armstrong County data-center filings at the announced county level; no public official source found for energized status or project-level IT capacity.",
+  "evidence_grade": "A- for announced Google Texas program and Haskell County/TDLR filings; B for Armstrong/Goodnight linkage to Google's announced Armstrong campus because TDLR owner is GN DC1 LLC/Crusoe affiliate and tenant is not disclosed in the state filings.",
+  "last_refresh_date": "2026-08-11",
   "actions": [
     {
       "id": "A12",
@@ -26,10 +28,114 @@
       "primary_url": "https://gov.texas.gov/news/post/governor-abbott-google-announce-40-billion-investment-in-texas",
       "access_caveat": "Official state announcement, not an approval docket; county locations and permits were not attached.",
       "notes": "State economic-development context only."
+    },
+    {
+      "id": "A13",
+      "date": "2025-11-14",
+      "body": "Google",
+      "meeting_date": null,
+      "action_type": "company investment announcement",
+      "result_or_status": "Google announced a $40 billion Texas investment through 2027 for cloud and AI infrastructure, including new data center campuses in Armstrong and Haskell Counties, plus energy initiatives.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://blog.google/company-news/inside-google/company-announcements/google-american-innovation-texas/",
+      "access_caveat": "Company announcement; does not disclose site parcels, permits, energized status, or data-center MW.",
+      "notes": "Google separately says it has contracted more than 6,200 MW of new energy generation/capacity in Texas, but that is not a data-center capacity figure."
+    },
+    {
+      "id": "A14",
+      "date": "2026-08-11",
+      "body": "Google Data Centers",
+      "meeting_date": null,
+      "action_type": "company location page refresh",
+      "result_or_status": "Google's Texas data-center location page lists existing Ellis County locations in Midlothian and Red Oak and says the November 2025 investment includes new data-center campuses in Armstrong, Haskell, Pampa and Wilbarger Counties.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://datacenters.google/locations/texas/",
+      "access_caveat": "Company page; current as crawled during refresh but not a county permit docket.",
+      "notes": "Pampa/Wilbarger are adjacent/newer Google Texas items and are not folded into this center's county list except as context."
+    },
+    {
+      "id": "A15",
+      "date": "2025-06-24",
+      "body": "Haskell County",
+      "meeting_date": "2025-06-24",
+      "action_type": "tax abatement listing",
+      "result_or_status": "County tax-abatement page lists Homebound Data Center - Thelma (Google), Homebound Group, LLC - Journey (Google), and Homebound Group, LLC - Quest (Google), each dated June 24, 2025.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://www.haskellcountytx.gov/page/haskell.Abatement",
+      "access_caveat": "County page links agreements but this refresh relied on the public listing text; individual agreement PDFs were not parsed.",
+      "notes": "This is the strongest local-government source tying Haskell Homebound projects to Google."
+    },
+    {
+      "id": "A16",
+      "date": "2025-05-27",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "architectural-barriers project registration",
+      "result_or_status": "TABS2025019833 registered Data Center THM1A / Data Center 1 at 10357 Loop Road, Haskell County; new construction; 280,000 sq ft; estimated cost $350 million; start date 2025-06-18; completion date 2027-04-16; owner Homebound Group LLC; status Project Registered.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025019833",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2025019833",
+      "access_caveat": "TDLR architectural-barriers filing; not a certificate of occupancy or energized-status record.",
+      "notes": "Matches Haskell County's Thelma/Homebound Google abatement context."
+    },
+    {
+      "id": "A17",
+      "date": "2026-06-25",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "architectural-barriers project registration",
+      "result_or_status": "TABS2026023821 registered Journey 1A at 1362 Red Creek Rd, Haskell County; new construction; 285,282 sq ft; estimated cost $400 million; start date 2026-04-01; completion date 2027-08-21; owner Homebound Group LLC; status Project Registered.",
+      "vote_tally": null,
+      "case_or_number": "TABS2026023821",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026023821",
+      "access_caveat": "TDLR architectural-barriers filing; not a certificate of occupancy or energized-status record.",
+      "notes": "County abatement page identifies Journey as a Google-linked Homebound Group project."
+    },
+    {
+      "id": "A18",
+      "date": "2026-06-25",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "architectural-barriers project registration",
+      "result_or_status": "TABS2026023839 registered Journey 2A at 1362 Red Creek Rd, Haskell County; new construction; 210,420 sq ft; estimated cost $400 million; start date 2026-06-23; completion date 2027-10-27; owner Homebound Group LLC; status Project Registered.",
+      "vote_tally": null,
+      "case_or_number": "TABS2026023839",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026023839",
+      "access_caveat": "TDLR architectural-barriers filing; not a certificate of occupancy or energized-status record.",
+      "notes": "County abatement page identifies Journey as a Google-linked Homebound Group project."
+    },
+    {
+      "id": "A19",
+      "date": "2025-08-21",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "architectural-barriers project registration",
+      "result_or_status": "TABS2025026455 and TABS2025026470 registered Llano Buildings 1 and 2 at 10001 Lima Rd, Claude, Armstrong County; each is a 484,954 sq ft one-story data center with estimated cost $292 million and start date 2025-08-25; owner GN DC1 LLC.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025026455; TABS2025026470",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2025026455",
+      "access_caveat": "TDLR filings do not disclose tenant; Google linkage is inferred from Google's announced Armstrong County campus plus regional reporting on Goodnight/Llano.",
+      "notes": "Building 1 status Review Complete; Building 2 status Project Registered. Building 2 URL: https://www.tdlr.texas.gov/TABS/Projects/TABS2025026470"
+    },
+    {
+      "id": "A20",
+      "date": "2026-07-24",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "architectural-barriers project registration",
+      "result_or_status": "July 2026 TDLR filings added Llano Buildings 3 and 4 at 10001 Lima Rd, Claude, Armstrong County; each is roughly 805,308 sq ft, estimated cost $500 million, owner GN DC1 LLC; Building 3 start date 2026-05-25 and Building 4 start date 2026-06-15.",
+      "vote_tally": null,
+      "case_or_number": "TABS2026026002; TABS2026026118",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026026002",
+      "access_caveat": "TDLR filings do not disclose tenant; Google linkage is inferred from Google's announced Armstrong County campus plus regional reporting on Goodnight/Llano.",
+      "notes": "Building 4 URL: https://www.tdlr.texas.gov/TABS/Projects/TABS2026026118"
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google announced investor/operator context; Haskell TDLR filings list Homebound Group LLC; Armstrong/Llano TDLR filings list GN DC1 LLC and do not disclose tenant.",
   "sources": {
     "phase3_stable_id": "US-TX-GOOGLE-TEXAS-CAMPUSES-2025",
     "phase3_source_file": "phase3/county_tx.json",
@@ -39,9 +145,39 @@
       "US-TX-GOOGLE-TEXAS-ARMSTRONG-HASKELL-ELLIS-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://gov.texas.gov/news/post/governor-abbott-google-announce-40-billion-investment-in-texas",
+      "https://blog.google/company-news/inside-google/company-announcements/google-american-innovation-texas/",
+      "https://datacenters.google/locations/texas/",
+      "https://www.haskellcountytx.gov/page/haskell.Abatement",
+      "https://www.tdlr.texas.gov/TABS/Projects/TABS2025019833",
+      "https://www.tdlr.texas.gov/TABS/Projects/TABS2026023821",
+      "https://www.tdlr.texas.gov/TABS/Projects/TABS2026023839",
+      "https://www.tdlr.texas.gov/TABS/Projects/TABS2025026455",
+      "https://www.tdlr.texas.gov/TABS/Projects/TABS2025026470",
+      "https://www.tdlr.texas.gov/TABS/Projects/TABS2026026002",
+      "https://www.tdlr.texas.gov/TABS/Projects/TABS2026026118",
+      "https://www.datacenterdynamics.com/en/news/google-linked-housebound-group-files-for-two-data-center-projects-in-haskell-texas/",
+      "https://www.datacenterdynamics.com/en/news/crusoe-files-for-two-more-data-centers-at-goodnight-campus-in-armstrong-county-texas/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    "Official Google sources confirm Armstrong and Haskell County campuses but do not disclose site addresses or data-center MW; Haskell County directly labels Homebound Thelma/Journey/Quest as Google, while Armstrong TDLR filings list GN DC1 LLC and no tenant.",
+    "Google's 6,200 MW figure is contracted Texas energy generation/capacity, not official data-center IT/load capacity. Third-party estimates for Goodnight/Armstrong exceed 1 GW but are not entered as capacity_mw."
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "field": "status_as_of_cutoff",
+      "value": "State/company announcement for multiple campuses; county-level project split and approvals are not established."
+    },
+    {
+      "date": "2026-07-16",
+      "field": "owner",
+      "value": null
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

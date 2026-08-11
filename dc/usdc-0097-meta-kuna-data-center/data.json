@@ -8,11 +8,71 @@
   "location": {
     "city": "Kuna",
     "county": "Ada",
-    "state": "ID"
+    "state": "ID",
+    "address_or_site": "6990 W Kuna Mora Road; northeast corner of Kuna-Mora Road and Cole Road",
+    "parcel_numbers": [
+      "S1531336020",
+      "S1531233600"
+    ]
   },
   "phase3_stable_id": "US-ID-META-KUNA-2022",
-  "status_as_of_cutoff": "Meta’s official community pages report a 2022 groundbreak/announcement and construction ramp-up in 2023. No final building permit, inspection/CO, Idaho Power energization, or operational-service record was located; the Phase 2 end-2026 target is not treated as a completion fact.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11. City of Kuna records identify Brisbie LLC's Project Peregrine data-center campus at 6990 W Kuna Mora Road, with a 2022 design review approval and a May 23, 2023 design-review modification for two data-center buildings, three ancillary buildings, and two guardhouse entrances totaling about 875,367 square feet; city staff also reported water and wastewater infrastructure under construction. Meta's official pages report a 2022 groundbreak and construction ramp-up in October 2023. IPUC/Idaho Power records show an approved Brisbie special-contract tariff for electric service, effective revisions through 2026, and associated renewable-resource PPAs, but no public CO, energization date, or Meta operational/live announcement was located.",
+  "evidence_grade": "A- for local design-review/site-work and electric-service-contract evidence from City of Kuna, IPUC, and Idaho Power tariff records; B-/unverified for facility MW capacity and operational status because public sources do not provide a final CO, energization date, or official live-service confirmation.",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous": "Meta’s official community pages report a 2022 groundbreak/announcement and construction ramp-up in 2023. No final building permit, inspection/CO, Idaho Power energization, or operational-service record was located; the Phase 2 end-2026 target is not treated as a completion fact.",
+      "updated": "site work-construction as of 2026-08-11, backed by City of Kuna design-review modification and Meta construction updates; operational status remains unverified."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous": null,
+      "updated": "Meta Platforms, Inc. / Brisbie LLC"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "location",
+      "previous": {
+        "city": "Kuna",
+        "county": "Ada",
+        "state": "ID"
+      },
+      "updated": {
+        "address_or_site": "6990 W Kuna Mora Road; northeast corner of Kuna-Mora Road and Cole Road",
+        "parcel_numbers": [
+          "S1531336020",
+          "S1531233600"
+        ]
+      }
+    }
+  ],
   "actions": [
+    {
+      "date": "2021-10-19",
+      "date_precision": "day",
+      "government_body": "City of Kuna City Council",
+      "action_type": "annexation / development agreement context",
+      "result_status": "The East Kuna Industrial Annexation was approved by City Council on October 19, 2021, with findings signed November 3, 2021; the subject parcels were included within the M-1 Development Agreement executed December 15, 2021.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://kunacity.id.gov/Archive.aspx?ADID=3309",
+      "access_caveat": "Cited in the May 23, 2023 City of Kuna Planning and Zoning packet for Case No. 22-04-DR Modification; underlying annexation agreement not separately retrieved in this refresh.",
+      "evidence_note": "Local-government entitlement context for the same Brisbie parcels."
+    },
+    {
+      "date": "2022-03-22",
+      "date_precision": "day",
+      "government_body": "City of Kuna Planning and Zoning Commission",
+      "action_type": "design review approval",
+      "result_status": "City staff reported that Design Review for the subject site had been approved by the Commission on March 22, 2022.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "22-04-DR",
+      "primary_url": "https://kunacity.id.gov/Archive.aspx?ADID=3309",
+      "access_caveat": "Referenced in the later 2023 modification packet; original 2022 approval document not separately retrieved in this refresh.",
+      "evidence_note": "Local-government design-review approval, not a certificate of occupancy."
+    },
     {
       "date": "2022",
       "date_precision": "year",
@@ -26,6 +86,18 @@
       "evidence_note": "Announcement and anticipated construction, not proof of permit or service."
     },
     {
+      "date": "2023-05-23",
+      "date_precision": "day",
+      "government_body": "City of Kuna Planning and Zoning Commission",
+      "action_type": "design review modification / site plan",
+      "result_status": "City staff packet for Project Peregrine identified Brisbie LLC at 6990 W Kuna Mora Road, 242.7 acres, M-1 zoning, and a requested redesign for two data-center buildings, three ancillary buildings, and two guardhouse entrances totaling approximately 875,367 square feet; staff found the modification compliant and recommended approval subject to conditions including building permit issuance before site improvements other than blasting and rough grading.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "22-04-DR Modification",
+      "primary_url": "https://kunacity.id.gov/Archive.aspx?ADID=3309",
+      "access_caveat": "Packet text includes staff recommendation and proposed commission decision language; it verifies the application/site facts and local-process milestone, but not a final CO.",
+      "evidence_note": "Local-government record supports approved/permitted-local-process and site-work/construction classification."
+    },
+    {
       "date": "2023-10-12",
       "date_precision": "day",
       "government_body": "Meta Data Centers (company source; not a government body)",
@@ -36,6 +108,42 @@
       "primary_url": "https://datacenters.atmeta.com/2023/10/ramping-up-construction-on-the-kuna-data-center/",
       "access_caveat": "Operator update; no permit, inspection, CO, or energization identifier is published.",
       "evidence_note": "Construction report only."
+    },
+    {
+      "date": "2023-05-11",
+      "date_precision": "day",
+      "government_body": "Idaho Public Utilities Commission",
+      "action_type": "energy services agreement approval",
+      "result_status": "IPUC Order No. 35777 approved Idaho Power's special contract and Tariff Schedule 33 to provide electric service to Brisbie LLC's data center facility; IPUC's May 12, 2023 release describes the service as for a new data center in the Kuna area.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "IPC-E-21-42 / Order No. 35777",
+      "primary_url": "https://puc.idaho.gov/Fileroom/PublicFiles/ELEC/IPC/IPCE2142/OrdNotc/20230511Final_Order_No_35777.pdf",
+      "access_caveat": "Electric-service special-contract approval; not proof that facility load has been energized.",
+      "evidence_note": "Official utility-regulatory evidence that Brisbie is the service counterparty and exceeds ordinary large-power thresholds."
+    },
+    {
+      "date": "2025-04-24",
+      "date_precision": "day",
+      "government_body": "Idaho Public Utilities Commission",
+      "action_type": "renewable-resource PPA approval",
+      "result_status": "IPUC Order No. 36572 approved the 20-year Blacks Creek PPA; the order states the PPA is for 320 MW AC of solar generation, scheduled COD December 31, 2027, and that Brisbie is identified as third-party beneficiary for the output and green tags.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "IPC-E-24-42 / Order No. 36572",
+      "primary_url": "https://puc.idaho.gov/Fileroom/PublicFiles/ELEC/IPC/IPCE2442/OrdNotc/20250424Final_Order_No_36572.pdf",
+      "access_caveat": "Renewable-resource nameplate capacity supports procurement context only; it is not data-center facility capacity.",
+      "evidence_note": "Power-supply association for Brisbie special contract."
+    },
+    {
+      "date": "2026-02-05",
+      "date_precision": "day",
+      "government_body": "Idaho Public Utilities Commission / Idaho Power",
+      "action_type": "tariff update",
+      "result_status": "Current Idaho Power tariff includes Schedule 33 for Brisbie LLC's special contract dated December 22, 2021, amended March 14, 2024; pricing elements relying on the most recently filed IRP are effective January 1, 2026, pursuant to Order No. 36847 and approved February 5, 2026 per Order No. 36928.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Schedule 33 / Order Nos. 36847, 36892, 36928",
+      "primary_url": "https://puc.idaho.gov/Fileroom/PublicFiles/ELEC/IPC/General/0tariff/Idaho%20Power%20Company.pdf",
+      "access_caveat": "Tariff record confirms continuing service-rate framework, not actual energization or operational status.",
+      "evidence_note": "Current utility tariff evidence."
     },
     {
       "date": "2026-07-16",
@@ -51,7 +159,7 @@
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Meta Platforms, Inc. / Brisbie LLC",
   "sources": {
     "phase3_stable_id": "US-ID-META-KUNA-2022",
     "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
@@ -59,9 +167,31 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_sources": [
+      "https://kunacity.id.gov/Archive.aspx?ADID=3309",
+      "https://datacenters.atmeta.com/2022/02/hello-kuna/",
+      "https://datacenters.atmeta.com/2023/10/ramping-up-construction-on-the-kuna-data-center/",
+      "https://datacenters.atmeta.com/asset/kuna-data-center-info-sheet/",
+      "https://puc.idaho.gov/Fileroom/PublicFiles/ELEC/IPC/IPCE2142/OrdNotc/20230511Final_Order_No_35777.pdf",
+      "https://puc.idaho.gov/Fileroom/PublicFiles/Press/20230512Idaho%20Power%20Brisbie%20Press%20Release.pdf",
+      "https://puc.idaho.gov/Fileroom/PublicFiles/ELEC/IPC/IPCE2442/OrdNotc/20250424Final_Order_No_36572.pdf",
+      "https://puc.idaho.gov/Fileroom/PublicFiles/ELEC/IPC/General/0tariff/Idaho%20Power%20Company.pdf",
+      "https://www.interconnection.fyi/data-center/project/meta-4c58dc6e"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "summary": "Interconnection.fyi lists the Kuna Meta facility as operational with 10-25 MW capacity and approved permit status, but the page does not expose permit IDs/dates without sales contact and conflicts with the absence of an official CO, energization, or Meta operational confirmation found in this refresh.",
+      "sources": [
+        "https://www.interconnection.fyi/data-center/project/meta-4c58dc6e",
+        "https://kunacity.id.gov/Archive.aspx?ADID=3309",
+        "https://datacenters.atmeta.com/2023/10/ramping-up-construction-on-the-kuna-data-center/",
+        "https://puc.idaho.gov/Fileroom/PublicFiles/ELEC/IPC/General/0tariff/Idaho%20Power%20Company.pdf"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

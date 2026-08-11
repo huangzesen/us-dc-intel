@@ -12,7 +12,9 @@
     "state": "OK"
   },
   "phase3_stable_id": "US-OK-CORE-SCIENTIFIC-MUSKOGEE-2024",
-  "status_as_of_cutoff": "Under construction with an active expansion reported; Phase 1 delivery was targeted for 2026 and a second 82.5 MW building was reported for Q4 2027. No public energization or occupancy record located.",
+  "status_layer": "partial live / site work-construction",
+  "status_as_of_cutoff": "partial live / site work-construction as of 2026-08-11. Core Scientific's 2026-07-28 Form 10-Q describes an existing data center operating in Muskogee, while 2026-05-06 company and Port Muskogee releases said the current leased 70 MW building was in final testing and commissioning and on track for Q2 2026 customer delivery. Expansion remains active: construction has begun on a second unleased 82.5 MW building targeted for Q4 2027, and Core has announced a plan to scale the campus to approximately 1.5 GW gross / 1.0 GW leasable power. City of Muskogee records show a 2025 annexation/re-annexation process for Core Scientific, Polaris, OG&E, and Port Authority parcels in John T. Griffin Industrial Park, but no building permit, certificate of occupancy, or utility energization record was located.",
+  "evidence_grade": "B: official company/SEC and Port Muskogee sources support operation/commissioning, capacity, address, expansion, and adjacent power acquisition; City of Muskogee records corroborate industrial-park annexation context. No local permit, CO, inspection, or utility energization record was found.",
   "actions": [
     {
       "date": "2024-11-25",
@@ -27,20 +29,66 @@
       "evidence_note": "Body/context retained from prior file: Oklahoma Department of Commerce / Port Muskogee / Core Scientific."
     },
     {
+      "date": "2025-09-08",
+      "date_precision": "day",
+      "government_body": "City of Muskogee City Council",
+      "action_type": "annexation process restart",
+      "result_status": "City minutes say Council rescinded previously approved Ordinance No. 4266-A for John T. Griffin Industrial Park annexation because the public-hearing notice omitted the service plan, then approved Resolution No. 3052 to restart annexation for six parcels owned by the Port Authority, OG&E, Core Scientific, and Polaris Technologies and set a September 25, 2025 public hearing. This is local process evidence, not a building permit or data-center operating approval.",
+      "vote_tally": "rescission carried 7-1; Resolution No. 3052 carried 6-2",
+      "case_or_ordinance_permit_number": "Ordinance No. 4266-A; Resolution No. 3052",
+      "primary_url": "https://public.destinyhosted.com/muskodocs/2025/CCNCL/20251027_4795/16462_09-08-2025_spccmin.pdf",
+      "access_caveat": "Official minutes are a PDF; they do not include a building permit, CO, or energization record.",
+      "evidence_note": "Official local-government evidence for annexation/local-process status."
+    },
+    {
+      "date": "2025-09-25",
+      "date_precision": "day",
+      "government_body": "City of Muskogee City Council",
+      "action_type": "public hearing / annexation ordinance materials",
+      "result_status": "City agenda and service-plan materials for the September 25, 2025 special call meeting identify Core Scientific and Polaris/OG&E/Port Authority parcels in the John T. Griffin Industrial Park annexation area and note undeveloped property must comply with City subdivision regulations before obtaining a building permit.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Ordinance No. 4275-A materials",
+      "primary_url": "https://public.destinyhosted.com/muskodocs/2025/SPEC/20250925_4885/AGENDApacket__09-25-25_0211_4881.pdf",
+      "access_caveat": "Agenda/service-plan materials confirm process and parcel context; final signed ordinance/minutes and building permits were not located in this refresh.",
+      "evidence_note": "Official local-government evidence for parcel and building-permit prerequisite context."
+    },
+    {
       "date": "2026-05-06",
       "date_precision": "day",
-      "government_body": null,
-      "action_type": "reported campus expansion",
-      "result_status": "Trade reporting says Core Scientific acquired an adjacent cryptomine and began a second 82.5 MW building with Q4 2027 initial delivery. The official Phase 1 source establishes 100 MW; the 1.5 GW tracker figure is not adopted.",
+      "government_body": "Core Scientific / Port Muskogee",
+      "action_type": "campus expansion announcement",
+      "result_status": "Core Scientific announced a plan to scale Muskogee to approximately 1.5 GW gross power / 1.0 GW leasable power, including an agreement to acquire Polaris DS LLC with 440 MW gross power under an OG&E energy agreement, a second unleased 82.5 MW building already under construction for Q4 2027 initial delivery, load studies, a behind-the-meter plan, and approximately 250 acres secured. The current leased 70 MW building was described as in final testing and commissioning and on track for Q2 2026 delivery.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.datacenterdynamics.com/en/news/core-scientific-acquires-cryptomine-in-muskogee-to-expand-ai-data-center-campus/",
-      "access_caveat": "Non-government report; no associated Muskogee permit or utility filing was located.",
-      "evidence_note": "Body/context retained from prior file: Core Scientific / trade report."
+      "primary_url": "https://investors.corescientific.com/news-events/press-releases/detail/135/core-scientific-plans-expansion-to-1-5-gigawatts-of-gross-power-at-muskogee-oklahoma-campus",
+      "access_caveat": "Company/Port announcement; it is forward-looking and does not itself prove local permits, energization, or customer service commencement.",
+      "evidence_note": "Port Muskogee reposted the same expansion facts at https://www.portmuskogee.com/core-scientific-announces-expansion-in-muskogee-with-acquisition-of-polaris/."
+    },
+    {
+      "date": "2026-07-28",
+      "date_precision": "day",
+      "government_body": "Core Scientific SEC filing",
+      "action_type": "quarterly report / subsequent-event disclosure",
+      "result_status": "Core Scientific's Form 10-Q for the quarter ended June 30, 2026 says the Polaris acquisition would add about 40 acres adjacent to the company's existing data center operating in Muskogee and provide up to 440 MW gross utility power capacity; the transaction remained expected to close in Q3 2026. The same filing discloses AMD leases for an aggregate 377 MW of critical IT capacity across Pecos, Muskogee, and Hunt County, but does not disclose the Muskogee site allocation.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Form 10-Q filed 2026-07-28",
+      "primary_url": "https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001839341-26-000014/core-20260630.htm",
+      "access_caveat": "SEC/company filing supports operating language and portfolio leases, but not a local CO, utility energization order, or site-specific AMD MW allocation.",
+      "evidence_note": "Use for status support and to avoid treating the aggregate AMD lease as Muskogee-only capacity."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 100,
+  "capacity_context": {
+    "current_project_metric": "gross facility power for Muskogee 1",
+    "critical_it_load_mw": 70,
+    "current_building_square_feet": 138000,
+    "current_campus_acres": 65,
+    "second_building_mw": 82.5,
+    "second_building_status": "under construction; unleased; initial delivery targeted for Q4 2027 per 2026-05-06 Core Scientific announcement",
+    "future_campus_target": "approximately 1.5 GW gross power / 1.0 GW leasable power announced 2026-05-06; not treated as delivered capacity",
+    "adjacent_polaris_power": "up to 440 MW gross utility power capacity under OG&E agreements; acquisition expected to close in Q3 2026 as of Core Scientific's 2026-07-28 Form 10-Q"
+  },
+  "owner": "Core Scientific Inc. / Core Scientific Muskogee operations; CoreWeave is the first-building customer/lessee for approximately 70 MW critical IT load",
   "sources": {
     "phase3_stable_id": "US-OK-CORE-SCIENTIFIC-MUSKOGEE-2024",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -50,9 +98,58 @@
       "US-OK-CORE-SCIENTIFIC-MUSKOGEE-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_state_groundbreaking": "https://www.okcommerce.gov/core-scientific-and-port-muskogee-break-ground-on-100-mw-hpc-data-center/",
+    "port_groundbreaking": "https://www.portmuskogee.com/core-scientific-and-port-muskogee-break-ground-on-100-mw-hpc-data-center/",
+    "core_groundbreaking": "https://investors.corescientific.com/news-events/press-releases/detail/99/core-scientific-and-port-muskogee-break-ground-on-100-mw-hpc-data-center",
+    "core_current_site_page": "https://corescientific.com/high-density-data-centers/muskogee-ok/",
+    "city_annexation_minutes_2025_09_08": "https://public.destinyhosted.com/muskodocs/2025/CCNCL/20251027_4795/16462_09-08-2025_spccmin.pdf",
+    "city_annexation_packet_2025_09_25": "https://public.destinyhosted.com/muskodocs/2025/SPEC/20250925_4885/AGENDApacket__09-25-25_0211_4881.pdf",
+    "core_expansion_2026_05_06": "https://investors.corescientific.com/news-events/press-releases/detail/135/core-scientific-plans-expansion-to-1-5-gigawatts-of-gross-power-at-muskogee-oklahoma-campus",
+    "port_expansion_2026_05_06": "https://www.portmuskogee.com/core-scientific-announces-expansion-in-muskogee-with-acquisition-of-polaris/",
+    "core_10q_2026_07_28": "https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001839341-26-000014/core-20260630.htm",
+    "trade_expansion_detail": "https://www.datacenterdynamics.com/en/news/core-scientific-acquires-cryptomine-in-muskogee-to-expand-ai-data-center-campus/"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "status_as_of_cutoff",
+      "summary": "Core Scientific's May 2026 release described the 70 MW leased building as in final testing/commissioning and on track for Q2 2026 delivery, while the July 2026 Form 10-Q describes an existing data center operating in Muskogee. No local CO/energization record was located, so status is kept as partial live / site work-construction rather than full buildout.",
+      "sources": [
+        "https://investors.corescientific.com/news-events/press-releases/detail/135/core-scientific-plans-expansion-to-1-5-gigawatts-of-gross-power-at-muskogee-oklahoma-campus",
+        "https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001839341-26-000014/core-20260630.htm"
+      ]
+    },
+    {
+      "field": "capacity_mw",
+      "summary": "100 MW gross / about 70 MW critical IT load is supported for Muskogee 1. The announced 1.5 GW gross / 1.0 GW leasable campus scale, 440 MW Polaris power, 82.5 MW second building, and aggregate 377 MW AMD lease are future/portfolio facts and are not counted as delivered Muskogee capacity.",
+      "sources": [
+        "https://investors.corescientific.com/news-events/press-releases/detail/99/core-scientific-and-port-muskogee-break-ground-on-100-mw-hpc-data-center",
+        "https://corescientific.com/high-density-data-centers/muskogee-ok/",
+        "https://investors.corescientific.com/news-events/press-releases/detail/135/core-scientific-plans-expansion-to-1-5-gigawatts-of-gross-power-at-muskogee-oklahoma-campus",
+        "https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001839341-26-000014/core-20260630.htm"
+      ]
+    }
+  ],
   "seed_only": false,
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Under construction with an active expansion reported; Phase 1 delivery was targeted for 2026 and a second 82.5 MW building was reported for Q4 2027. No public energization or occupancy record located.",
+      "new_value": "partial live / site work-construction based on Core Scientific's July 2026 SEC filing operating-language, May 2026 commissioning/update release, active second-building construction, and local annexation records; no local CO/energization found."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 100
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Core Scientific Inc. / Core Scientific Muskogee operations; CoreWeave first-building customer/lessee"
+    }
+  ],
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

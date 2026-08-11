@@ -10,10 +10,14 @@
   "location": {
     "city": "near Little Rock/Wrightsville",
     "county": "Pulaski County",
-    "state": "AR"
+    "state": "AR",
+    "address_or_area": "145th Street, Little Rock, Pulaski County, AR",
+    "latitude": 34.623375,
+    "longitude": -92.246825,
+    "location_source_url": "https://www.avaiodigital.com/developments/little-rock-arkansas"
   },
   "phase3_stable_id": "AR-001",
-  "status_as_of_cutoff": "Announced and utility-contracted; the state announcement forecast first-phase construction and June 2027 energization, but no public local site-plan/building permit, construction inspection, CO, or actual energization record was located.",
+  "status_as_of_cutoff": "Announced / local process. AEDC and Entergy confirm the project announcement and utility-service context; AVAIO's current owner page reports a fully approved site plan, broken ground, 150 MW initial grid capacity online in 2027, and a broader 1.07 GW baseload path. Pulaski County records reviewed in this refresh show active moratorium/regulatory proceedings, but no county-published site-plan approval, building permit, construction inspection, CO, or actual energization record was located.",
   "actions": [
     {
       "date": "2026-01-12",
@@ -38,10 +42,69 @@
       "primary_url": "https://www.entergy.com/datacenters/arkansas",
       "access_caveat": "Utility customer information is not an interconnection order or proof of construction.",
       "evidence_note": "Utility identification is recorded separately from zoning, building, environmental, and occupancy actions."
+    },
+    {
+      "date": "2026-07-14",
+      "date_precision": "day",
+      "government_body": "Pulaski County Quorum Court Agenda Committee",
+      "action_type": "local moratorium/regulatory committee action",
+      "result_status": "County minutes record competing proposed twelve-month moratorium ordinances for high-intensity digital infrastructure / high-impact utility-intensive industrial uses. Item 26-I-45A failed to receive a do-pass recommendation; Item 26-I-52 received an 8-1-1 do-pass recommendation, with one justice stating the item would not protect residents from the AVAIO data center.",
+      "vote_tally": "26-I-45A do-pass failed 6-3-1 present; 26-I-52 do-pass passed 8-1-1 present",
+      "case_or_ordinance_permit_number": "26-I-45A; 26-I-52",
+      "primary_url": "https://assets.speakcdn.com/assets/2954/july_agenda_committee_minutes-2026080603503777.pdf",
+      "access_caveat": "Committee minutes concern countywide regulation/moratorium items, not an AVAIO site-plan approval or building permit.",
+      "evidence_note": "Supports 'local process' status and public regulatory scrutiny; does not establish construction or energization."
+    },
+    {
+      "date": "2026-07-28",
+      "date_precision": "day",
+      "government_body": "Pulaski County Quorum Court",
+      "action_type": "reported moratorium vote outcome",
+      "result_status": "KATV reported that the Quorum Court voted down a proposed one-year data-center moratorium, leaving Pulaski County without an active moratorium and allowing AVAIO's proposed first phase near Wrightsville to continue moving through development process while county leaders consider permanent standards.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://katv.com/news/local/pulaski-county-rejects-data-center-moratorium-leaving-avaio-project-uninterrupted-regulations-planning-phase-amendment-public-opinion",
+      "access_caveat": "Local media report used for full Quorum Court outcome because the official full-meeting minutes were not located in the public county page during this refresh.",
+      "evidence_note": "Treats the project as not paused by a county moratorium, but still not independently verified as permitted or under construction by a county permit record."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Pulaski County Quorum Court Agenda Committee",
+      "action_type": "scheduled regulatory ordinance consideration",
+      "result_status": "County agenda lists Item 26-I-56, an ordinance to regulate high-intensity digital infrastructure uses in unincorporated Pulaski County, classify them as heavy industrial, and establish conditional-use permitting, performance standards, cost recovery, inspection, monitoring, enforcement, decommissioning, and other safeguards.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "26-I-56",
+      "primary_url": "https://assets.speakcdn.com/assets/2954/august_agenda_committee_agenda-2026080602324007.pdf",
+      "access_caveat": "Agenda item is scheduled for consideration and is not a final adopted ordinance in the reviewed record.",
+      "evidence_note": "Confirms continuing local regulatory process as of the refresh date."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "AVAIO Digital",
+      "action_type": "owner project page observed",
+      "result_status": "AVAIO's current Leo page identifies the site as 145th Street, Little Rock, Pulaski County, AR at 34.623375, -92.246825; states 760 acres; reports 1,070 MW total baseload power, 570 MW grid power, 500 MW behind-the-meter baseload power, 75+ MW planned solar, broken ground, a fully approved Site Plan, an executed Entergy ESA for initial grid capacity energized in April 2027, and further 420 MW Entergy grid power planned for 2030.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.avaiodigital.com/developments/little-rock-arkansas",
+      "access_caveat": "Owner/developer page is not a county permit, inspection, or energization record; the claimed site-plan approval and ground-breaking need official local-government corroboration.",
+      "evidence_note": "Capacity values are treated as contracted/planned/owner-reported, not energized load."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": {
+    "energized_mw": null,
+    "initial_contracted_grid_mw": 150,
+    "initial_contracted_grid_online_target": "2027-04",
+    "total_grid_power_mw_owner_reported": 570,
+    "behind_the_meter_baseload_mw_owner_reported": 500,
+    "total_baseload_power_mw_owner_reported": 1070,
+    "planned_solar_mw_owner_reported": 75,
+    "full_buildout_prior_public_expectation_mw": 1000,
+    "source_url": "https://www.avaiodigital.com/developments/little-rock-arkansas",
+    "evidence_note": "Owner-reported and planned/contracted capacity; no energized-load record found."
+  },
+  "owner": "AVAIO Digital Partners",
   "sources": {
     "phase3_stable_id": "AR-001",
     "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
@@ -49,9 +112,56 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.pulaskicounty.net/planning-development",
+      "https://assets.speakcdn.com/assets/2954/july_agenda_committee_minutes-2026080603503777.pdf",
+      "https://assets.speakcdn.com/assets/2954/august_agenda_committee_agenda-2026080602324007.pdf",
+      "https://katv.com/news/local/pulaski-county-rejects-data-center-moratorium-leaving-avaio-project-uninterrupted-regulations-planning-phase-amendment-public-opinion",
+      "https://www.avaiodigital.com/developments/little-rock-arkansas",
+      "https://www.arkansasedc.com/news-events/newsroom/detail/2026/01/12/avaio-digital-announces-new-large-scale-ai-ready-data-center-and-power-campus-in-little-rock--arkansas",
+      "https://www.entergy.com/datacenters/arkansas"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date_identified": "2026-08-11",
+      "issue": "Owner page reports broken ground and a fully approved Site Plan, while the refresh did not locate a public Pulaski County site-plan approval, building permit, inspection, certificate of occupancy, or energization record; local media still describes AVAIO's first phase as moving through development process.",
+      "sources": [
+        "https://www.avaiodigital.com/developments/little-rock-arkansas",
+        "https://katv.com/news/local/pulaski-county-rejects-data-center-moratorium-leaving-avaio-project-uninterrupted-regulations-planning-phase-amendment-public-opinion",
+        "https://www.pulaskicounty.net/planning-development"
+      ]
+    },
+    {
+      "date_identified": "2026-08-11",
+      "issue": "Capacity framing differs by source: AEDC's January announcement says 150 MW contracted and up to 1 GW anticipated, while AVAIO's current project page states 1,070 MW total baseload power, 570 MW grid power, 500 MW behind-the-meter baseload, and 75+ MW planned solar.",
+      "sources": [
+        "https://www.arkansasedc.com/news-events/newsroom/detail/2026/01/12/avaio-digital-announces-new-large-scale-ai-ready-data-center-and-power-campus-in-little-rock--arkansas",
+        "https://www.avaiodigital.com/developments/little-rock-arkansas"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Announced and utility-contracted; the state announcement forecast first-phase construction and June 2027 energization, but no public local site-plan/building permit, construction inspection, CO, or actual energization record was located.",
+      "new_value": "Announced / local process. Owner-reported site-plan approval and ground-breaking added with caveats; Pulaski County moratorium/regulatory proceedings added; no public county permit/inspection/CO/energization record located."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": "Initial 150 MW contracted grid capacity; owner-reported 570 MW grid, 500 MW behind-the-meter baseload, 1,070 MW total baseload, 75+ MW planned solar; no energized MW confirmed."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "AVAIO Digital Partners"
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

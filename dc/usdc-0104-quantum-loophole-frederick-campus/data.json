@@ -8,20 +8,150 @@
   "location": {
     "city": "Adamstown",
     "county": "Frederick",
-    "state": "Maryland"
+    "state": "Maryland",
+    "site_description": "Former Alcoa Eastalco Works / Quantum Maryland campus north of Adamstown; approved CDI site-plan areas around Manor Woods Road, Ballenger Creek Pike, Mountville Road, New Design Road, Digital Drive, and Agro Drive.",
+    "acreage": 2100
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A-",
+  "actions": [
+    {
+      "date": "2021",
+      "government_body": "Frederick County / Maryland Department of the Environment",
+      "action_type": "site ownership / brownfield reuse context",
+      "result_status": "Quantum Maryland, LLC purchased the 2,122-acre Eastalco property; MDE later identifies Quantum Maryland / Quantum Frederick as the full 2,100-acre site managed by Catellus."
+    },
+    {
+      "date": "2023-05-10",
+      "government_body": "Frederick County Planning Commission",
+      "action_type": "site plan approval",
+      "result_status": "Original site plan approved for Quantum Frederick Lot 106 / Aligned Data Centers; January 14, 2026 agenda references the May 10, 2023 approval and 74.89-acre site at 5601 Manor Woods Road."
+    },
+    {
+      "date": "2024-01-10",
+      "government_body": "Frederick County Planning Commission",
+      "action_type": "site plan decision agenda",
+      "result_status": "Bauxite Data Center / Quantum Frederick Section 2, Lot 400 listed for site development plan approval request: 777,151 sq ft CDI facility on 151.17 acres."
+    },
+    {
+      "date": "2024-12-11",
+      "government_body": "Frederick County Planning Commission",
+      "action_type": "site plan decision agenda",
+      "result_status": "Bauxite II and Bauxite III listed for site development plan approval requests: 822,620 sq ft on 111.50 acres and 591,913 sq ft on 55.08 acres."
+    },
+    {
+      "date": "2025",
+      "government_body": "Maryland Department of the Environment",
+      "action_type": "environmental / air permitting records",
+      "result_status": "MDE public data-center records list Aligned final air permit, Rowan Bauxite II environmental management approval, Rowan Bauxite III environmental reports, and Quantum Maryland water appropriation permits."
+    },
+    {
+      "date": "2025-12",
+      "government_body": "Frederick County Council",
+      "action_type": "comprehensive plan / zoning overlay approval",
+      "result_status": "Council-approved Critical Digital Infrastructure Overlay Zone limits data centers to the Eastalco area north of Adamstown; amendment states numerous site plans have been approved and data-center development is underway."
+    },
+    {
+      "date": "2026-07-01",
+      "government_body": "Frederick County Division of Planning and Permitting",
+      "action_type": "approved site plan map",
+      "result_status": "County map lists approved CDI site plans for Aligned Data Centers, Bauxite, Bauxite II, Bauxite III, and related substations, totaling multiple approved buildings and more than 3.79 million sq ft shown on mapped approvals."
+    }
+  ],
+  "capacity_mw": 2400,
+  "owner": "Quantum Maryland / Quantum Frederick campus managed by Catellus; Catellus is lead developer. Parcel-level projects include Aligned Data Centers, Amazon Data Services, and Rowan Bauxite.",
   "sources": {
     "phase2_seed_stable_id": "US-MD-QUANTUM-LOOPHOLE-FREDERICK-2025",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
-    "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "authoritative_layer": "official_local_government_plus_developer",
+    "match_reason": "Seed-only record independently matched to Quantum Maryland / Quantum Frederick / former Eastalco campus north of Adamstown.",
+    "urls": [
+      {
+        "url": "https://www.frederickcountymd.gov/DocumentCenter/View/359197/Adopted-Critical-Digital-Infrastructure-Comprehensive-Plan-Amendment",
+        "title": "Frederick County adopted Critical Digital Infrastructure Comprehensive Plan Amendment",
+        "date": "2025-12",
+        "accessed": "2026-08-11"
+      },
+      {
+        "url": "https://frederickcountymd.gov/DocumentCenter/View/374476/CDI-approved-site-plans-July-2026",
+        "title": "Frederick County Critical Digital Infrastructure Site Plan Approvals as of July 1, 2026",
+        "date": "2026-07-01",
+        "accessed": "2026-08-11"
+      },
+      {
+        "url": "https://mde.maryland.gov/datacenters/Pages/FrederickDataCenter.aspx",
+        "title": "Maryland Department of the Environment Frederick Data Center Sampling/Reports",
+        "date": "2026",
+        "accessed": "2026-08-11"
+      },
+      {
+        "url": "https://www.catellus.com/hyperscale-data-center-campus",
+        "title": "Catellus Hyperscale Data Center Campus, Frederick County, MD",
+        "date": "2026",
+        "accessed": "2026-08-11"
+      },
+      {
+        "url": "https://www.frederickcountymd.gov/AgendaCenter/ViewFile/Agenda/_01142026-941",
+        "title": "Frederick County Planning Commission agenda, January 14, 2026",
+        "date": "2026-01-14",
+        "accessed": "2026-08-11"
+      },
+      {
+        "url": "https://www.frederickcountymd.gov/ArchiveCenter/ViewFile/Item/14901",
+        "title": "Frederick County Planning Commission agenda, January 10, 2024",
+        "date": "2024-01-10",
+        "accessed": "2026-08-11"
+      },
+      {
+        "url": "https://www.frederickcountymd.gov/AgendaCenter/ViewFile/Agenda/580?html=true",
+        "title": "Frederick County Planning Commission agenda, December 11, 2024",
+        "date": "2024-12-11",
+        "accessed": "2026-08-11"
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/quantum-loophole-no-longer-involved-in-quantum-frederick-project-tpg-real-estate-takes-full-control/",
+        "title": "DCD: Quantum Loophole no longer involved in Quantum Frederick Project, TPG Real Estate takes full control",
+        "date": "2024-12-23",
+        "accessed": "2026-08-11"
+      }
+    ]
   },
-  "contradictions": [],
-  "seed_only": true,
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "project name / lead developer",
+      "details": "Legacy seed and older public coverage use Quantum Loophole / Quantum Frederick. Current MDE page says Quantum Maryland / Quantum Frederick is managed by Catellus (formerly Quantum Loophole); Catellus says it was appointed lead developer in 2024; DCD reports TPG/Catellus took full control and Quantum Loophole has no active involvement."
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "capacity",
+      "details": "Use 2.4 GW from the current Catellus campus page as the supported campus power figure. Older/third-party sources describe 1 GW, 2 GW, or 2.8 GW; those are not used as the canonical capacity_mw."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": null,
+      "new_value": "site work-construction",
+      "reason": "First independent refresh found official county and MDE evidence that data-center development and parcel remediation/redevelopment are underway."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": 2400,
+      "reason": "Catellus current campus page reports 2.4 GW power under development."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "Quantum Maryland / Quantum Frederick campus managed by Catellus; Catellus is lead developer.",
+      "reason": "MDE and Catellus current pages supersede seed-only no-owner state."
+    }
+  ],
+  "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -14,22 +14,116 @@
     "state": "OH"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A-",
+  "history": [
+    {
+      "field": "status_as_of_cutoff",
+      "previous_value": null,
+      "new_value": "site work-construction",
+      "changed_on": "2026-08-11",
+      "reason": "City construction-status evidence and current project register list Vantage Buildings 1-3 as data-center/data-building projects under Turner Construction."
+    },
+    {
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 192,
+      "changed_on": "2026-08-11",
+      "reason": "Vantage official OH1 campus page and June 2025 financing announcement identify 192 MW total IT capacity."
+    }
+  ],
   "actions": [
     {
-      "date": "2026-07-16",
-      "date_precision": "snapshot",
+      "date": "2024-08-20",
+      "date_precision": "meeting date",
+      "body": "City of New Albany Council",
+      "action_type": "local incentive / development agreement",
+      "exact_result_status": "Council minutes identify Vantage Data Centers OH11 LLC and describe an agreement providing a 100% real-property-tax exemption for the proposed project. The same indexed minutes describe up to three new data-center buildings.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://newalbanyohio.org/wp-content/uploads/2020/03/Council-Minutes-8-20-24.pdf",
+      "access_caveat": "Official PDF is accessible, but web extraction did not expose full roll-call/vote lines in this run."
+    },
+    {
+      "date": "2025-06-03",
+      "date_precision": "announcement date",
+      "body": "Vantage Data Centers",
+      "action_type": "company financing / campus scope announcement",
+      "exact_result_status": "Vantage announced $2.25 billion in debt financing to fully fund construction of its New Albany, Ohio campus: three pre-leased hyperscale data centers, 192 MW across 1.5 million square feet on 70 acres, with the first facility slated to be operational by December 2025.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://vantage-dc.com/news/vantage-data-centers-secures-5b-in-incremental-green-loan-financings-to-support-demand-for-north-america-platform/",
+      "access_caveat": "Company-projected operational timing is not treated as verified occupancy, energization, or live status."
+    },
+    {
+      "date": "2025-12",
+      "date_precision": "monthly report",
       "body": "City of New Albany Community Development",
-      "action_type": "government project-register snapshot",
-      "exact_result_status": "City's current project-updates page lists Vantage Buildings 1, 2, and 3 as new data-center/new-data-building projects, including locations and square footage; the page does not publish permit numbers, approval dates, occupancy, or energization.",
+      "action_type": "commercial construction-status report",
+      "exact_result_status": "December 2025 report lists Vantage Building 1 at 3325 Horizon Court, 200,107 square feet, start date October 2024; Vantage Building 2 at 3265 Horizon Court, 500,107 square feet, start date January 2025; and Vantage Building 3 at 3205 Horizon Court, 500,107 square feet, start date March 2025.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://newalbanyohio.org/wp-content/uploads/2026/01/CD-2025-12.pdf",
+      "access_caveat": "Construction-status report supports active construction/site-work status, but does not publish permit numbers, occupancy, energization, or capacity by building."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "access date",
+      "body": "City of New Albany Community Development",
+      "action_type": "current government project-register snapshot",
+      "exact_result_status": "City's current project-updates page lists Vantage Buildings 1, 2, and 3 as new data-center/new-data-building projects, including locations, square footage, contractor Turner Construction, and project descriptions.",
       "vote_tally": null,
       "case_or_permit_number": null,
       "primary_url": "https://newalbanyohio.org/community-development/project-updates/",
-      "access_caveat": "Snapshot date is the research cutoff/access date, not a claimed permit-issue date."
+      "access_caveat": "Snapshot date is the research access date, not a claimed permit-issue date; page does not publish occupancy or energization."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 192,
+  "capacity_mw_source": "https://vantage-dc.com/data-center-locations/north-america/new-albany-ohio",
+  "capacity_note": "Vantage describes OH1 as three 64 MW hyperscale data centers totaling 192 MW; city construction reports list building square footage but do not publish MW by building.",
+  "owner": "Vantage Data Centers",
+  "owner_legal_entity": "Vantage Data Centers OH11 LLC",
+  "campus_address": "3325 Horizon Court, New Albany, OH 43031",
+  "buildings": [
+    {
+      "name": "Vantage Building 1",
+      "location": "3325 Horizon Court / generally located at Jug & Horizon",
+      "square_feet": 200107,
+      "start_date": "2024-10",
+      "contractor": "Turner Construction",
+      "status_evidence": "Listed in City of New Albany December 2025 Commercial Project Construction Status and current project-updates page."
+    },
+    {
+      "name": "Vantage Building 2",
+      "location": "3265 Horizon Court",
+      "square_feet": 500107,
+      "start_date": "2025-01",
+      "contractor": "Turner Construction",
+      "status_evidence": "Listed in City of New Albany December 2025 Commercial Project Construction Status and current project-updates page."
+    },
+    {
+      "name": "Vantage Building 3",
+      "location": "3205 Horizon Court",
+      "square_feet": 500107,
+      "start_date": "2025-03",
+      "contractor": "Turner Construction",
+      "status_evidence": "Listed in City of New Albany December 2025 Commercial Project Construction Status and current project-updates page."
+    }
+  ],
+  "projected_operational_dates": [
+    {
+      "scope": "first facility",
+      "date": "2025-12",
+      "source_url": "https://vantage-dc.com/data-center-locations/north-america/new-albany-ohio",
+      "caveat": "Projected/slated date from Vantage; not verified as energized or occupied."
+    },
+    {
+      "scope": "additional phases",
+      "date": "through 2028",
+      "source_url": "https://vantage-dc.com/data-center-locations/north-america/new-albany-ohio",
+      "caveat": "Projected rollout from Vantage."
+    }
+  ],
   "sources": {
     "phase3_stable_id": "OH-NEW-ALBANY-VANTAGE-OH1",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -39,9 +133,27 @@
       "US-OH-VANTAGE-NEW-ALBANY-2024"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://newalbanyohio.org/community-development/project-updates/",
+      "https://newalbanyohio.org/wp-content/uploads/2026/01/CD-2025-12.pdf",
+      "https://newalbanyohio.org/wp-content/uploads/2020/03/Council-Minutes-8-20-24.pdf",
+      "https://vantage-dc.com/data-center-locations/north-america/new-albany-ohio",
+      "https://vantage-dc.com/news/vantage-data-centers-secures-5b-in-incremental-green-loan-financings-to-support-demand-for-north-america-platform/",
+      "https://www.turnerconstruction.com/insights/turner-selected-for-2-billion-expansion-project-for-vantage-data-centers"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "Building 1 square_feet/location",
+      "description": "New Albany current project-updates page lists Vantage Building 1 as generally located at Jug & Horizon and 500,107 square feet; New Albany December 2025 construction-status report lists Vantage Building 1 at 3325 Horizon Court and 200,107 square feet.",
+      "sources": [
+        "https://newalbanyohio.org/community-development/project-updates/",
+        "https://newalbanyohio.org/wp-content/uploads/2026/01/CD-2025-12.pdf"
+      ],
+      "resolution": "Use dated December 2025 monthly report for building-level data; retain current-page value in action/NOTES as a conflict."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

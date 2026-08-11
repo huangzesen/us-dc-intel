@@ -7,13 +7,50 @@
   "location": {
     "city": "Bowling Green",
     "county": "Wood",
-    "state": "OH"
+    "state": "OH",
+    "township": "Middleton Township",
+    "site_description": "Meta campus in Middleton Township, Wood County; power-generation facility is adjacent near Mercer Road and Middleton Pike / State Route 582."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A-",
+  "actions": [
+    {
+      "date": "2025-04-09",
+      "government_body": "Meta",
+      "action_type": "company_announcement",
+      "result_status": "announced",
+      "summary": "Meta announced the Bowling Green Data Center in Middleton Township as a 715,000-square-foot campus, Meta's 24th U.S. and 28th global data center, with more than $800 million investment and about 100 operational jobs once completed.",
+      "source_url": "https://datacenters.atmeta.com/2025/04/hello-bowling-green/"
+    },
+    {
+      "date": "2026-01-08",
+      "government_body": "Middleton Township",
+      "action_type": "public_information_post",
+      "result_status": "local_information_published",
+      "summary": "Township published Meta's response letter on water, energy, air quality, construction, jobs, and community impacts for the Bowling Green Data Center.",
+      "source_url": "https://www.middletontownship.com/bowling-green-data-center-project-and-community-impact-information/"
+    },
+    {
+      "date": "2026-02-03",
+      "government_body": "Ohio Power Siting Board",
+      "action_type": "generation_facility_approval",
+      "result_status": "approved",
+      "summary": "OPSB approved Will-Power OH, LLC's Apollo Power Generation Facility, a 350 MW behind-the-meter natural-gas generation facility with about 120 MW battery storage, to serve the adjacent Liames data center campus.",
+      "source_url": "https://content.govdelivery.com/accounts/OHPUC/bulletins/4077fa5"
+    },
+    {
+      "date": "2026-07-07",
+      "government_body": "Middleton Township Trustees",
+      "action_type": "rezoning",
+      "result_status": "approved",
+      "summary": "Trustees approved Application 2026041 rezoning 13 Liames parcels from A-1/R-4 to M-1 Light Industrial after a public hearing; county planning had recommended approval and the township zoning commission had recommended denial.",
+      "source_url": "https://www.middletontownship.com/wp-content/uploads/2026/07/07072026_specialrezoning.pdf"
+    }
+  ],
+  "capacity_mw": 180,
+  "capacity_mw_notes": "Peak IT demand reported by a public tracker as Meta-stated; primary Meta announcement confirms 715,000 sq ft but does not publish IT MW. Separate adjacent Apollo facility is 350 MW gas plus about 120 MW BESS approved by OPSB.",
+  "owner": "Meta Platforms, Inc. / Liames, LLC",
   "sources": {
     "phase3_stable_id": "OH-BOWLING-GREEN-META",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -21,9 +58,34 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_meta_announcement": "https://datacenters.atmeta.com/2025/04/hello-bowling-green/",
+    "middleton_township_project_info": "https://www.middletontownship.com/bowling-green-data-center-project-and-community-impact-information/",
+    "middleton_township_meta_letter_pdf": "https://www.middletontownship.com/wp-content/uploads/2026/01/Meta-Middleton-Township-Letter-010726.pdf",
+    "opsb_apollo_approval_bulletin": "https://content.govdelivery.com/accounts/OHPUC/bulletins/4077fa5",
+    "middleton_township_2026_minutes": "https://www.middletontownship.com/meeting_minutes/",
+    "middleton_township_2026_07_07_special_rezoning_minutes": "https://www.middletontownship.com/wp-content/uploads/2026/07/07072026_specialrezoning.pdf",
+    "williams_apollo_project": "https://www.williams.com/expansion-project/apollo-power-generation-project/",
+    "third_party_tracker": "https://ryangrissinger.com/issues/data-centers/OH-DC-0049"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "summary": "Meta's letter PDF served by Middleton Township is posted as a January 7, 2026 letter in the township article, but the PDF text itself displays January 7, 2025 even though it references Meta's April 9, 2025 announcement. Treated as a 2026 township-posted document with a date typo.",
+      "sources": [
+        "https://www.middletontownship.com/bowling-green-data-center-project-and-community-impact-information/",
+        "https://www.middletontownship.com/wp-content/uploads/2026/01/Meta-Middleton-Township-Letter-010726.pdf"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "summary": "Public tracker reports 180 MW peak IT demand as Meta-stated; official Meta and OPSB pages reviewed in this refresh do not publish the data center IT-load figure. OPSB does confirm a separate 350 MW behind-the-meter plant and about 120 MW BESS for Liames.",
+      "sources": [
+        "https://ryangrissinger.com/issues/data-centers/OH-DC-0049",
+        "https://content.govdelivery.com/accounts/OHPUC/bulletins/4077fa5"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

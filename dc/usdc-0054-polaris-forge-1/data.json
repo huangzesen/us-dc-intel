@@ -17,7 +17,9 @@
     "state": "ND"
   },
   "phase3_stable_id": "ND-ELLENDALE-APPLIED-POLARIS-FORGE",
-  "status_as_of_cutoff": "Applied Digital's Ellendale HPC expansion is supported by official North Dakota inspection and utility/environmental records. The governor's 2025-03-19 release says the 380,000-square-foot HPC facility was under construction and expected to begin operations late that year, followed by two 900,000-square-foot expansions. A 2026-06-15 state notice concerns an air permit to construct the backup-power plant, and a 2026-06-11 MDU PSC filing concerns permanent service to an Applied Digital man camp. Trade reporting says a second building was complete on 2026-07-02. No complete building-by-building CO/energization/commissioning register was located.",
+  "status_layer": "partial live",
+  "status_as_of_cutoff": "Applied Digital reports Polaris Forge 1 has 175 MW of live operational AI capacity as of 2026-06-30/2026-07-01 after Ready for Service for Phase 1 of Building 2, following the first 100 MW building becoming operational in October 2025. Official Dickey County and North Dakota records continue to show remaining expansion/construction and permitting activity: March 2025 county minutes described ten operational buildings, a 380,000-square-foot building under construction, and dirt work for two 900,000-square-foot buildings; the governor's 2025-03-19 release described the HPC expansion and housing as under construction; April 2026 county minutes described additional summer workforce and state-approved workforce housing; PSC case PU-26-173 advanced from temporary/permanent electric-service filings for an Applied Digital man camp to a 2026-07-27 order; and NDDEQ posted draft/permit-to-construct materials for the ELN backup generation plant. No independent government CO, data-center energization register, or building-by-building commissioning record was located.",
+  "evidence_grade": "B - live capacity is from owner public-company releases/earnings materials; official county, governor, PSC, and NDDEQ records corroborate location, construction, workforce, utility-service, and backup-generation permitting, but not full building-by-building data-center energization.",
   "actions": [
     {
       "date": "2022-09",
@@ -32,6 +34,18 @@
       "evidence_note": "Construction history explicitly labeled trade evidence."
     },
     {
+      "date": "2025-03-04",
+      "date_precision": "day",
+      "government_body": "Dickey County Commission",
+      "action_type": "local project update",
+      "result_status": "County minutes record Applied Digital representatives reporting ten operational buildings, one 380,000-square-foot building still under construction, and dirt work started on two additional buildings estimated at 900,000 square feet each.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Dickey County Commission minutes, March 2025",
+      "primary_url": "https://dickeynd.com/ufile/f1/Commission-Minutes/2025/March.pdf",
+      "access_caveat": "Local minutes record a project update, not a permit closeout or utility energization certificate.",
+      "evidence_note": "Official local-government construction/status context."
+    },
+    {
       "date": "2025-03-19",
       "date_precision": "day",
       "government_body": "Office of the Governor of North Dakota",
@@ -42,6 +56,18 @@
       "primary_url": "https://www.governor.nd.gov/news/armstrong-inspects-applied-digital-expansion-housing-project-ellendale",
       "access_caveat": "Inspection is not a CO, energization, commissioning, or live-service record.",
       "evidence_note": "Official government construction-status evidence."
+    },
+    {
+      "date": "2026-04-07",
+      "date_precision": "day",
+      "government_body": "Dickey County Commission",
+      "action_type": "local workforce/site update",
+      "result_status": "County minutes record an Applied Digital representative reporting 400-600 additional summer employees, workforce housing south of the highway across from Pheasant Lake expected to be operational on 2026-06-01, and worker bussing from housing to the Applied Digital site.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Dickey County Commission minutes, April 2026",
+      "primary_url": "https://dickeynd.com/ufile/minutes/4-april-29b796.pdf",
+      "access_caveat": "Workforce/housing update does not prove data-center energization or commissioned IT load.",
+      "evidence_note": "Official local-government construction-workforce context."
     },
     {
       "date": "2025-11",
@@ -60,11 +86,11 @@
       "date_precision": "day",
       "government_body": "North Dakota Public Service Commission / Montana-Dakota Utilities",
       "action_type": "permanent electric-service application",
-      "result_status": "MDU filed PU-26-173 seeking authority to provide permanent electric service to an Applied Digital man camp near Ellendale. The filing is service-process evidence, not proof of data-center energization.",
+      "result_status": "MDU filed PU-26-173 seeking authority to provide permanent electric service to an Applied Digital man camp near Ellendale; the PSC case page later lists a 2026-07-27 order in the docket. The service is for the man camp, not the data-center buildings.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": "PU-26-173",
       "primary_url": "https://www.psc.nd.gov/webdocs/case/26-0173/006-010.pdf",
-      "access_caveat": "Application was pending; it concerns the man camp and does not establish the HPC buildings' delivered load.",
+      "access_caveat": "The filing and docket concern the man camp and do not establish the HPC buildings' delivered load.",
       "evidence_note": "Official regulator/utility filing."
     },
     {
@@ -80,20 +106,62 @@
       "evidence_note": "Official environmental permit pathway."
     },
     {
+      "date": "2026-07-01",
+      "date_precision": "day",
+      "government_body": "Applied Digital Corporation",
+      "action_type": "Ready for Service / live-capacity announcement",
+      "result_status": "Applied Digital announced Ready for Service for Phase 1 of Building 2 at Polaris Forge 1, delivering 75 MW of operational AI capacity and bringing campus live capacity to 175 MW; it also stated full buildout is contracted at 400 MW of critical IT load.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://ir.applieddigital.com/news-events/press-releases/detail/157/applied-digital-delivers-second-building-at-polaris-forge-1",
+      "access_caveat": "Company announcement; no independent government CO/energization record was located.",
+      "evidence_note": "Primary owner evidence for live capacity."
+    },
+    {
       "date": "2026-07-02",
       "date_precision": "day",
       "government_body": "Applied Digital / Data Center Dynamics",
       "action_type": "reported second-building completion",
-      "result_status": "Trade reporting says Applied Digital completed a second building at the North Dakota campus and that the campus capacity was contracted to CoreWeave. No CO or utility energization record was located.",
+      "result_status": "Trade reporting says Applied Digital completed the first phase of the second building at the Ellendale AI/HPC campus, delivering 75 MW to CoreWeave and bringing total live capacity to 175 MW; full buildout is described as 400 MW contracted critical IT load.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.datacenterdynamics.com/en/news/applied-digital-completes-second-building-at-north-dakota-data-center-campus/",
-      "access_caveat": "Specialist trade report; completion, contract, and live status are not upgraded without government closeout evidence.",
-      "evidence_note": "Company/trade completion claim explicitly labeled."
+      "access_caveat": "Specialist trade report; title shorthand says second building, while the article body and company source specify Phase 1 of Building 2.",
+      "evidence_note": "Trade corroboration of owner live-capacity claim."
+    },
+    {
+      "date": "2026-07-27",
+      "date_precision": "day",
+      "government_body": "Applied Digital Corporation",
+      "action_type": "fiscal Q4/FY2026 results update",
+      "result_status": "Applied Digital reported that the first 100 MW data center at Polaris Forge 1 became operational in October 2025 and that Phase 1 of Building 2, 75 MW, was delivered on 2026-06-30, bringing total live campus capacity to 175 MW; it said additional Polaris Forge 1 buildings are in various construction stages.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://ir.applieddigital.com/news-events/press-releases/detail/159/applied-digital-reports-fiscal-fourth-quarter-and-full-year",
+      "access_caveat": "Company financial release; useful for capacity/status timing but not an official government energization record.",
+      "evidence_note": "Primary owner timing detail for first 100 MW operational and Building 2 Phase 1 delivery."
+    },
+    {
+      "date": "2026-07-27",
+      "date_precision": "day",
+      "government_body": "North Dakota Public Service Commission",
+      "action_type": "PSC order docketed",
+      "result_status": "PSC case PU-26-173 docket lists a Commission motion to adopt an order and an order filed on 2026-07-27 for the Applied Digital Man Camp - Ellendale public convenience and necessity case.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PU-26-173",
+      "primary_url": "https://apps.psc.nd.gov/cases/pscasedetail?getId=26&getId2=173",
+      "access_caveat": "Docket entry establishes case progression for man-camp electric service, not data-center building energization.",
+      "evidence_note": "Official regulator docket update."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 175,
+  "capacity_context": {
+    "metric": "live operational AI capacity reported by owner",
+    "as_of": "2026-07-01",
+    "planned_or_contracted_full_buildout_mw": 400,
+    "caveat": "175 MW live and 400 MW contracted/full-buildout are owner-reported critical/AI capacity figures; no government energization or CO record was located."
+  },
+  "owner": "Applied Digital Corporation",
   "sources": {
     "phase3_stable_id": "ND-ELLENDALE-APPLIED-POLARIS-FORGE",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -104,9 +172,46 @@
       "US-ND-APPLIED-DIGITAL-POLARIS-2024"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "source_urls": [
+      "https://dickeynd.com/ufile/f1/Commission-Minutes/2025/March.pdf",
+      "https://www.governor.nd.gov/news/armstrong-inspects-applied-digital-expansion-housing-project-ellendale-signs-backup-power",
+      "https://dickeynd.com/ufile/minutes/4-april-29b796.pdf",
+      "https://apps.psc.nd.gov/cases/pscasedetail?getId=26&getId2=173",
+      "https://www.psc.nd.gov/webdocs/case/26-0173/006-010.pdf",
+      "https://deq.nd.gov/aq/Notices/AppliedDigital/DRAFT_ACP18338v1_0.pdf",
+      "https://ir.applieddigital.com/news-events/press-releases/detail/157/applied-digital-delivers-second-building-at-polaris-forge-1",
+      "https://www.datacenterdynamics.com/en/news/applied-digital-completes-second-building-at-north-dakota-data-center-campus/",
+      "https://ir.applieddigital.com/news-events/press-releases/detail/159/applied-digital-reports-fiscal-fourth-quarter-and-full-year"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "Building 2 completion wording",
+      "description": "DCD headline says Applied Digital completed the second building, but the article body and Applied Digital primary release specify Ready for Service for Phase 1 of Building 2, delivering 75 MW. Treat Building 2 full 150 MW completion as not independently established in this refresh."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Applied Digital's Ellendale HPC expansion is supported by official North Dakota inspection and utility/environmental records. The governor's 2025-03-19 release says the 380,000-square-foot HPC facility was under construction and expected to begin operations late that year, followed by two 900,000-square-foot expansions. A 2026-06-15 state notice concerns an air permit to construct the backup-power plant, and a 2026-06-11 MDU PSC filing concerns permanent service to an Applied Digital man camp. Trade reporting says a second building was complete on 2026-07-02. No complete building-by-building CO/energization/commissioning register was located.",
+      "new_value": "partial live with 175 MW owner-reported live operational AI capacity, while remaining expansion/construction and permitting continue"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 175
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Applied Digital Corporation"
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

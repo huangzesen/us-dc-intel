@@ -3,25 +3,160 @@
   "canonical_project": "Meta El Paso AI/data-center campus",
   "aliases": [
     "Meta El Paso AI/data-center campus",
-    "Meta Texas El Paso campus"
+    "Meta Texas El Paso campus",
+    "Meta El Paso Data Center",
+    "Project Seafox",
+    "Seafox Addition",
+    "Wurldwide LLC"
   ],
   "location": {
     "city": "El Paso",
     "county": "El Paso",
-    "state": "Texas"
+    "state": "Texas",
+    "address": "7001 Stan Roberts Sr, El Paso, TX 79934",
+    "site_description": "Approximately 1,000-1,038.948 acres in Northeast El Paso, on the north side of Stan Roberts Sr. Avenue, west of U.S. Highway 54."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A",
+  "actions": [
+    {
+      "date": "2023-12-05",
+      "government_body": "City of El Paso City Council",
+      "action_type": "agreement approval",
+      "result_status": "approved",
+      "notes": "City approved the Meta/Wurldwide LLC agreement package in December 2023."
+    },
+    {
+      "date": "2025-11-01",
+      "government_body": "Texas Department of Licensing and Regulation",
+      "action_type": "construction start date in TABS registration",
+      "result_status": "review complete",
+      "notes": "TABS2026017750 lists Project Seafox new construction at 7001 Stan Roberts Sr with 12 buildings, 5 owner substations, and site work on approximately 600 acres."
+    },
+    {
+      "date": "2026-04-02",
+      "government_body": "City of El Paso",
+      "action_type": "public policy-framework update",
+      "result_status": "existing Meta project already under construction",
+      "notes": "City release states the existing Meta project is already under construction while policy framework outreach continues."
+    },
+    {
+      "date": "2026-07-28",
+      "government_body": "Meta / BlackRock",
+      "action_type": "strategic venture announcement",
+      "result_status": "announced",
+      "notes": "Meta and BlackRock announced a venture to develop and own the El Paso campus, expected to begin bringing capacity online in 2028."
+    }
+  ],
+  "capacity_mw": 1000,
+  "capacity_basis": "Meta describes the campus as having 1 gigawatt of compute capacity; this is not independently confirmed as grid interconnection load.",
+  "owner": "Meta / BlackRock venture; Wurldwide LLC listed as TDLR project owner; Meta to be initial sole occupant",
+  "ownership_details": {
+    "permit_owner": "Wurldwide LLC",
+    "venture_ownership": {
+      "blackrock_managed_funds": "80%",
+      "meta": "20%"
+    },
+    "tenant": "Meta is expected to lease and use the entire campus as initial sole occupant."
+  },
+  "project_details": {
+    "investment_usd": {
+      "current_meta_blackrock_total_development_costs": 14000000000,
+      "current_meta_investment": 10000000000,
+      "city_resource_hub_project_value": 1500000000,
+      "initial_2023_announcement": 800000000
+    },
+    "tdlr_project": {
+      "project_number": "TABS2026017750",
+      "registration_date": "2026-04-15",
+      "facility_name": "Seafox Addition (in process SUSU25-00066)",
+      "estimated_cost_usd": 289000000,
+      "start_date": "2025-11-01",
+      "completion_date": "2029-02-28",
+      "scope": "12 new buildings, 5 owner substations, and site work on approximately 600 acres.",
+      "square_feet": 25943100,
+      "current_status": "Review Complete"
+    },
+    "jobs": {
+      "meta_current_peak_construction_jobs": 4000,
+      "meta_current_operational_jobs": 300,
+      "city_resource_hub_peak_construction_jobs": 1800,
+      "city_resource_hub_minimum_permanent_jobs": 50
+    },
+    "water": {
+      "city_tier_i_average_gpd": 100000,
+      "city_tier_i_max_gpd": 300000,
+      "city_tier_ii_average_gpd": 750000,
+      "city_tier_ii_max_gpd": 1000000,
+      "city_tier_iii_average_gpd": 1500000,
+      "city_tier_iii_max_gpd": 2500000,
+      "meta_restoration_commitment": "Meta says it will restore 200% of water consumed by the El Paso data center to local watersheds."
+    },
+    "power": {
+      "city_confirmed_generation_review": "City says filings for generation units are under PUCT review and the electric utility is seeking approval for a 366 MW McCloud natural-gas installation.",
+      "proposed_mcloud_generation_mw": 366
+    },
+    "online_target": "Meta says the venture expects to begin bringing capacity online in 2028."
+  },
   "sources": {
     "phase2_seed_stable_id": "US-TX-META-EL-PASO-2025",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
-    "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "authoritative_layer": "official/local-government/company",
+    "match_reason": "Official City, TDLR, and Meta sources now verify the seed record as the Meta/Wurldwide LLC El Paso campus.",
+    "urls": [
+      "https://www.elpasotexas.gov/data-centers/",
+      "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026017750",
+      "https://www.elpasotexas.gov/assets/Press-Releases/2026.04.02-NEWS-RELEASE_City-of-El-Paso-Continues-Community-Engagement-on-Data-Center-Policy-Framework.pdf",
+      "https://about.fb.com/news/2026/07/meta-announces-new-venture-with-blackrock-to-develop-data-center-in-el-paso/",
+      "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Announces-New-Strategic-Venture-with-BlackRock-to-Develop-Data-Center-in-El-Paso/default.aspx",
+      "https://www.elpasotexas.gov/assets/Documents/CoEP/Data-Centers/Ex-Wurldwide-380-Agreement-Seafox.pdf",
+      "https://www.elpasotexas.gov/assets/Documents/CoEP/Data-Centers/Memo-Seafox-Stan-Roberts-Development-Packet.pdf",
+      "https://www.elpasotexas.gov/assets/Documents/CoEP/Data-Centers/Ex-Wurldwide-312-Agreement-Seafox.pdf"
+    ]
   },
-  "contradictions": [],
-  "seed_only": true,
+  "contradictions": [
+    {
+      "topic": "investment",
+      "details": "City resource hub still describes the project as a $1.5B infrastructure development, while Meta's July 2026 announcement says over $10B from Meta and approximately $14B total development costs for the venture. The City's draft policy framework also cites approximately $10B.",
+      "sources": [
+        "https://www.elpasotexas.gov/data-centers/",
+        "https://about.fb.com/news/2026/07/meta-announces-new-venture-with-blackrock-to-develop-data-center-in-el-paso/",
+        "https://www.elpasotexas.gov/assets/Documents/CoEP/Data-Centers/Draft-Data-Center-Policy-Framework-updated.pdf"
+      ]
+    },
+    {
+      "topic": "jobs",
+      "details": "City resource hub lists approximately 1,800 construction jobs and at least 50 permanent roles; Meta's July 2026 announcement lists more than 4,000 construction jobs at peak, 300 operational jobs, and over 2,300 workers already onsite.",
+      "sources": [
+        "https://www.elpasotexas.gov/data-centers/",
+        "https://about.fb.com/news/2026/07/meta-announces-new-venture-with-blackrock-to-develop-data-center-in-el-paso/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "changes": {
+        "status_as_of_cutoff": {
+          "from": null,
+          "to": "site work-construction"
+        },
+        "capacity_mw": {
+          "from": null,
+          "to": 1000
+        },
+        "owner": {
+          "from": null,
+          "to": "Meta / BlackRock venture; Wurldwide LLC listed as TDLR project owner; Meta to be initial sole occupant"
+        },
+        "seed_only": {
+          "from": true,
+          "to": false
+        }
+      }
+    }
+  ],
+  "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

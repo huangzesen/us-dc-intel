@@ -3,19 +3,66 @@
   "canonical_project": "Edged Project Gateway Prichard data center",
   "owner": "Edged Data Centers",
   "location": {
+    "address": "214 Telegraph Road",
     "city": "Prichard",
     "county": "Mobile",
     "state": "Alabama"
   },
   "capacity_mw": 8,
-  "status": "planned; potential moratorium under city discussion",
+  "status": "local process; proposed project with Prichard data-center moratorium public hearing scheduled",
   "confidence": "medium",
-  "evidence_date": "2026-08-10",
+  "evidence_date": "2026-08-11",
+  "project_details": {
+    "investment_usd": 93000000,
+    "building_sqft": 57000,
+    "site_acres": 9,
+    "permanent_jobs": 20,
+    "construction_jobs": "150-200",
+    "construction_duration_months": 18,
+    "potential_groundbreaking": "late 2026, subject to approvals",
+    "cooling": "closed-loop waterless cooling per project sponsor",
+    "power_grid_claim": "8 MW facility with no impact to the grid per project sponsor"
+  },
   "sources": [
     "https://www.datacenterdynamics.com/en/news/alabama-city-considers-data-center-moratorium-could-kill-edged-project/",
-    "https://projectgatewayal.com/"
+    "https://projectgatewayal.com/",
+    "https://www.fox10tv.com/2026/07/24/prichard-city-council-considers-moratorium-data-centers/",
+    "https://www.lagniappemobile.com/news/prichard/vote-on-prichard-data-center-falls-apart/article_4211104f-b442-495e-a691-160fd5a65b84.html",
+    "https://www.mejacoalition.org/2026/05/26/africatown-data-center/",
+    "https://www.revenue.alabama.gov/property-tax/county-offices-appraisal-assessment-records/",
+    "https://mobile.capturecama.com/"
   ],
   "why_not_in_baseline": "Small edge/networking data-center plan at former 911 data-center site outside Mobile; baseline did not include Project Gateway or Prichard.",
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "current_value": 8,
+      "conflicting_value": 6,
+      "notes": "Sponsor project site and DCD report 8 MW; MEJAC's May 2026 community-account article refers to a proposed 6 MW operation from earlier community discussion."
+    },
+    {
+      "field": "status",
+      "current_value": "local process",
+      "conflicting_value": "planned",
+      "notes": "Industry trackers summarize the project as planned, but local reporting shows it remains subject to Prichard council action and a proposed moratorium/public hearing."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "previous": "planned; potential moratorium under city discussion",
+      "current": "local process; proposed project with Prichard data-center moratorium public hearing scheduled",
+      "reason": "Refined status to separate proposal from local council process and pending moratorium hearing."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "project_details",
+      "previous": null,
+      "current": "Added sponsor-reported investment, building size, acreage, job counts, schedule, and cooling/power claims.",
+      "reason": "Project sponsor site and local reporting provide additional public project detail."
+    }
+  ],
   "discovery_file": "candidates-secondary-markets.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

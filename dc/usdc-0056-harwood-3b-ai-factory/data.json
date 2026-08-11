@@ -1,46 +1,130 @@
 {
   "master_id": "USDC-0056",
-  "canonical_project": "Harwood $3B AI factory",
+  "canonical_project": "Polaris Forge 2",
   "aliases": [
     "Cass County data-center proposal",
     "Harwood $3B AI factory",
-    "Harwood Applied Digital data-center lead"
+    "Harwood Applied Digital data-center lead",
+    "Applied Digital Polaris Forge 2",
+    "Polaris Forge 2 AI Factory"
   ],
   "location": {
     "city": "Harwood",
     "county": "Cass County",
-    "state": "ND"
+    "state": "ND",
+    "description": "Near Harwood, North Dakota, east of Interstate 29 between Harwood and Fargo; exact street address and parcel identifiers were not confirmed in the reviewed public record.",
+    "acreage": "More than 900 acres contracted for the campus according to Applied Digital."
   },
   "phase3_stable_id": "ND-HARWOOD-UNNAMED-AI",
-  "status_as_of_cutoff": "The original source lead was a local public discussion of a $3 billion AI factory north of Fargo with undisclosed company/parcel. North Dakota's official 2025 transmission study separately lists a Harwood data-center scenario attributed to Applied Digital at 280 MW with 2027 status. No final county/city approval, named project filing, building permit, construction, utility, inspection, CO, energization, commissioning, or service record was located; identity is not treated as resolved.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11. The original local lead is now resolved to Applied Digital's Polaris Forge 2 campus near Harwood. Applied Digital announced the $3 billion project on 2025-08-18, later described it as currently under construction, and reported on 2026-04-08 that both Harwood buildings were progressing with foundations largely complete and precast erection/MEP mobilization underway. North Dakota PSC Case No. PU-26-22 separately approved the Agassiz 345-kV transmission line and substation on 2026-04-29, and a 2026-05-05 PSC filing noticed intent to start construction of that power project on or shortly after 2026-05-18. No source reviewed confirms energization, ready-for-service, partial live, or full buildout for Polaris Forge 2.",
+  "evidence_grade": "high for project identity, owner/developer, under-construction status, 200 MW critical IT lease, 280 MW announced/gross planning capacity, and PSC-approved supporting power infrastructure; medium for exact parcel/address because public sources describe the area but do not publish a definitive parcel list in the reviewed record.",
   "actions": [
     {
       "date": "2025-08-18",
       "date_precision": "day",
-      "government_body": "Local public lead / Reddit discussion",
-      "action_type": "unverified local project announcement",
-      "result_status": "The public lead describes a $3 billion hyperscale AI factory planned north of Fargo/Harwood and a proposed groundbreaking, but gives no reliable named company, parcel, vote, permit, or construction proof.",
+      "government_body": "Applied Digital Corporation",
+      "action_type": "company project announcement",
+      "result_status": "Applied Digital announced Polaris Forge 2, a $3 billion AI Factory near Harwood, North Dakota, designed for 280 MW with initial operations planned in 2026 and full capacity in early 2027; the announcement said power was secured through Cass County Electric Cooperative and more than 900 acres had been contracted.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.reddit.com/r/fargo/comments/1mtsi6h/3_billion_hyperscale_ai_factory_planned_north_of/",
-      "access_caveat": "Discovery/local lead only; not sufficient evidence of approval, construction, or project identity.",
-      "evidence_note": "Tier-4/low-confidence lead retained exactly as source context."
+      "primary_url": "https://ir.applieddigital.com/news-events/press-releases/detail/127/applied-digital-to-break-ground-on-3-billion-polaris-forge",
+      "access_caveat": "Company announcement; proves developer/project identity and announced plan, not energization.",
+      "evidence_note": "Resolves the original unnamed local lead to Applied Digital / Polaris Forge 2."
     },
     {
-      "date": "2025-11",
-      "date_precision": "month",
-      "government_body": "North Dakota Industrial Commission / Transmission Authority",
-      "action_type": "state transmission-capacity study",
-      "result_status": "The official state study lists Harwood as a 280 MW data-center scenario attributed to Applied Digital with 2027 status. The study is planning context and does not identify the local permit, parcel, or actual construction.",
+      "date": "2025-09-10",
+      "date_precision": "day",
+      "government_body": "Harwood City Council",
+      "action_type": "local approval / rezoning reported",
+      "result_status": "Regional reporting states the Harwood City Council gave final approval for the data center. A directly accessible official Harwood packet or ordinance was not located in this refresh.",
       "vote_tally": null,
-      "case_or_ordinance_permit_number": "2025 Future-Proofing North Dakota's Electrical Capacity Study",
-      "primary_url": "https://www.ndic.nd.gov/sites/www/files/documents/Transmission-Authority/Publications/Transmission%20Capacity%20Study/2025-Final-Report-Future-Proofing-NDs-Electrical.pdf",
-      "access_caveat": "Official study does not prove that it is the same project as the local $3B lead; identity linkage remains an inference and is stated as unresolved.",
-      "evidence_note": "Official planning evidence added without upgrading to approval or construction."
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://northdakotamonitor.com/2025/09/10/harwood-signs-off-on-data-center-but-fargo-still-eyes-the-property/",
+      "access_caveat": "Regional media, not official minutes; retained as local-process evidence pending official city document.",
+      "evidence_note": "Supports local-process/approval context but is not used alone to mark construction."
+    },
+    {
+      "date": "2025-10-22",
+      "date_precision": "day",
+      "government_body": "Applied Digital Corporation",
+      "action_type": "tenant lease announcement",
+      "result_status": "Applied Digital announced an approximately 15-year, roughly $5 billion lease with a U.S.-based investment-grade hyperscaler for 200 MW of critical IT load at Polaris Forge 2, described the campus as currently under construction, and stated the initial 200 MW would be phased within two buildings expected to begin coming online in 2026 and reach 200 MW in 2027.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://ir.applieddigital.com/news-events/press-releases/detail/132/applied-digital-announces-5-billion-ai-factory-lease-with",
+      "access_caveat": "Company announcement; tenant is not named in this release.",
+      "evidence_note": "Primary basis for 200 MW critical IT capacity field and construction status."
+    },
+    {
+      "date": "2026-03-04",
+      "date_precision": "day",
+      "government_body": "Applied Digital Corporation / SEC Form 8-K exhibit",
+      "action_type": "project financing announcement",
+      "result_status": "Applied Digital announced pricing of $2.15 billion in senior secured notes due 2031 through APLD ComputeCo 2 LLC, with proceeds intended to fund development and construction of 200 MW of critical IT load at Polaris Forge 2 in Harwood, North Dakota.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Form 8-K filed 2026-03-04",
+      "primary_url": "https://ir.applieddigital.com/news-events/press-releases/detail/146/applied-digital-announces-pricing-of-2-15-billion-of",
+      "access_caveat": "Financing use-of-proceeds evidence; not an operations milestone.",
+      "evidence_note": "Corroborates 200 MW critical IT construction financing."
+    },
+    {
+      "date": "2026-04-08",
+      "date_precision": "day",
+      "government_body": "Applied Digital Corporation",
+      "action_type": "quarterly operating update",
+      "result_status": "Applied Digital reported that construction remained on schedule across its North Dakota campuses and that at Polaris Forge 2 both buildings were progressing, with foundations largely complete and work shifting to precast erection as mechanical, electrical, and plumbing trades mobilized for interior fit-out.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Fiscal third quarter 2026 results",
+      "primary_url": "https://ir.applieddigital.com/news-events/press-releases/detail/148/applied-digital-reports-fiscal-third-quarter-2026-results",
+      "access_caveat": "Company operating update; supports site work-construction but not energization.",
+      "evidence_note": "Strongest current public construction-progress evidence found."
+    },
+    {
+      "date": "2026-04-29",
+      "date_precision": "day",
+      "government_body": "North Dakota Public Service Commission",
+      "action_type": "transmission corridor certificate and route permit",
+      "result_status": "In Case No. PU-26-22, the PSC issued findings, conclusions, an order, Certificate of Corridor Compatibility No. 248, and Route Permit No. 259 for Minnkota Power Cooperative's approximately 1.74-mile 345-kV Agassiz transmission line and associated facilities in Cass County to serve the Harwood-area large-load project.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PU-26-22; Certificate of Corridor Compatibility No. 248; Route Permit No. 259",
+      "primary_url": "https://www.psc.nd.gov/webdocs/case/26-0022/033-010.pdf",
+      "access_caveat": "Approves supporting transmission infrastructure, not the data-center building itself.",
+      "evidence_note": "Official state utility siting approval."
+    },
+    {
+      "date": "2026-05-05",
+      "date_precision": "day",
+      "government_body": "North Dakota Public Service Commission",
+      "action_type": "preconstruction minutes / notice of intent to start construction",
+      "result_status": "Minnkota filed preconstruction conference minutes and noticed intent to start construction on the Agassiz transmission/substation project beginning May 18, 2026 or shortly thereafter, beyond activities previously authorized under the temporary variance.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PU-26-22 filing 36",
+      "primary_url": "https://www.psc.nd.gov/webdocs/case/26-0022/036-010.pdf",
+      "access_caveat": "Power-infrastructure construction notice only.",
+      "evidence_note": "Official post-permit construction-sequence evidence for utility support."
+    },
+    {
+      "date": "2026",
+      "date_precision": "year",
+      "government_body": "North Dakota Transmission Authority",
+      "action_type": "state transmission annual report",
+      "result_status": "The 2026 annual report states that near Harwood, Minnkota is preparing to serve a large data center currently under development; in 2026 it plans about 1.75 miles of 345-kV line and a new 345-kV substation, with all project costs fully funded by the data center developer.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "2026 NDTA Annual Report",
+      "primary_url": "https://ndlegis.gov/sites/default/files/statutorily-mandated-reports/2026-ndta-annual-report.pdf",
+      "access_caveat": "State transmission planning/reporting context; does not independently establish data-center energization.",
+      "evidence_note": "Official state corroboration of under-development status and developer-funded power infrastructure."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 200,
+  "capacity_note": "capacity_mw records currently contracted critical IT load. Applied Digital's 2025 project announcement used 280 MW for the Harwood AI Factory; later lease, financing, and quarterly updates consistently identify 200 MW of critical IT load at Polaris Forge 2. PSC and media references also cite up to 280 MW large-load/gross power demand. Treat 200 MW as critical IT and 280 MW as announced/gross utility-load planning capacity unless later filings reconcile the measures.",
+  "owner": "Applied Digital Corporation",
+  "developer": "Applied Digital Corporation",
+  "tenant": {
+    "public_name": "U.S.-based investment-grade hyperscaler",
+    "reported_name": "Oracle",
+    "tenant_note": "Applied Digital's official 2025 lease announcement did not name the hyperscaler. Applied Digital's 2026-03-04 8-K PDF and regional reporting describe the Harwood campus as leased to Oracle; keep the tenant as reported but do not treat Oracle as the named tenant in the 2025 lease release."
+  },
   "sources": {
     "phase3_stable_id": "ND-HARWOOD-UNNAMED-AI",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -48,9 +132,58 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3 to regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://ir.applieddigital.com/news-events/press-releases/detail/127/applied-digital-to-break-ground-on-3-billion-polaris-forge",
+      "https://ir.applieddigital.com/news-events/press-releases/detail/132/applied-digital-announces-5-billion-ai-factory-lease-with",
+      "https://ir.applieddigital.com/news-events/press-releases/detail/146/applied-digital-announces-pricing-of-2-15-billion-of",
+      "https://ir.applieddigital.com/sec-filings/all-sec-filings/content/0001493152-26-008772/0001493152-26-008772.pdf",
+      "https://ir.applieddigital.com/news-events/press-releases/detail/148/applied-digital-reports-fiscal-third-quarter-2026-results",
+      "https://www.psc.nd.gov/webdocs/case/26-0022/001-020.pdf",
+      "https://www.psc.nd.gov/webdocs/case/26-0022/033-010.pdf",
+      "https://www.psc.nd.gov/webdocs/case/26-0022/036-010.pdf",
+      "https://ndlegis.gov/sites/default/files/statutorily-mandated-reports/2026-ndta-annual-report.pdf",
+      "https://casscountyelectric.com/data-center",
+      "https://northdakotamonitor.com/2025/09/10/harwood-signs-off-on-data-center-but-fargo-still-eyes-the-property/",
+      "https://northdakotamonitor.com/briefs/north-dakota-utility-regulators-advance-power-project-for-data-center/",
+      "https://northdakotamonitor.com/briefs/cost-of-data-center-power-project-rises-but-wont-affect-customers-minnkota-says/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "capacity_mw",
+      "description": "Public sources use both 280 MW and 200 MW. Applied Digital's August 2025 announcement describes a 280 MW AI Factory, while October 2025 through April 2026 company releases and financing documents describe 200 MW of critical IT load. PSC and NDTA materials align with a large data-center load and supporting 345-kV infrastructure but do not fully reconcile gross utility power versus critical IT load.",
+      "sources": [
+        "https://ir.applieddigital.com/news-events/press-releases/detail/127/applied-digital-to-break-ground-on-3-billion-polaris-forge",
+        "https://ir.applieddigital.com/news-events/press-releases/detail/132/applied-digital-announces-5-billion-ai-factory-lease-with",
+        "https://ir.applieddigital.com/news-events/press-releases/detail/148/applied-digital-reports-fiscal-third-quarter-2026-results",
+        "https://www.psc.nd.gov/webdocs/case/26-0022/001-020.pdf"
+      ],
+      "resolution": "Use 200 MW for capacity_mw as critical IT load and preserve 280 MW as announced/gross planning capacity in capacity_note."
+    },
+    {
+      "topic": "tenant identity",
+      "description": "Applied Digital's 2025 lease release names only a U.S.-based investment-grade hyperscaler; the 2026 Form 8-K PDF and regional news describe the Harwood campus as leased to Oracle.",
+      "sources": [
+        "https://ir.applieddigital.com/news-events/press-releases/detail/132/applied-digital-announces-5-billion-ai-factory-lease-with",
+        "https://ir.applieddigital.com/sec-filings/all-sec-filings/content/0001493152-26-008772/0001493152-26-008772.pdf",
+        "https://www.valleynewslive.com/2026/03/10/applied-digital-closes-215b-deal-build-out-harwood-ai-campus/"
+      ],
+      "resolution": "Record Oracle as reported_name, while retaining the official lease-release public_name."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "changes": [
+        "canonical_project changed from Harwood $3B AI factory to Polaris Forge 2",
+        "owner changed from null to Applied Digital Corporation",
+        "capacity_mw changed from null to 200 critical IT MW, with 280 MW retained as announced/gross planning capacity",
+        "status upgraded from unresolved/local lead to site work-construction",
+        "PSC power-infrastructure approvals and construction notice added"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -7,10 +7,21 @@
   "location": {
     "city": "Round Rock",
     "county": "Williamson",
-    "state": "Texas"
+    "state": "Texas",
+    "site_description": "Approximately 29.69 acres out of the Willis Donaho Jr. Survey, Abstract No. 173, on E. Old Settlers Blvd. near N. A.W. Grimes Blvd.; City PUD page describes the site as east of N. A.W. Grimes Boulevard and south of E. Old Settlers Boulevard.",
+    "possible_address": "2601 E. Old Settlers Blvd., Round Rock, TX 78665"
   },
   "phase3_stable_id": "US-TX-SKYBOX-OLD-SETTLERS-ROUND-ROCK-2025",
-  "status_as_of_cutoff": "P&Z recommendation and City Council PUD ordinance approval are recorded in Round Rock Legistar; building permit, utility, and construction status remain unresolved.",
+  "status_as_of_cutoff": "As of 2026-08-11, Round Rock PUD No. 159 / Ordinance file 2025-326 is approved for a proposed Skybox Old Settlers data center, but no accessible official building permit, Oncor service confirmation, construction start, energization, or live status was verified.",
+  "evidence_grade": "official city land-use approval; construction/utility evidence unresolved",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "field": "status_as_of_cutoff",
+      "value": "P&Z recommendation and City Council PUD ordinance approval are recorded in Round Rock Legistar; building permit, utility, and construction status remain unresolved.",
+      "reason": "Baseline extracted status before 2026-08-11 refresh."
+    }
+  ],
   "actions": [
     {
       "id": "A30",
@@ -31,8 +42,8 @@
       "body": "Round Rock City Council",
       "meeting_date": "2025-12-04",
       "action_type": "PUD ordinance first reading",
-      "result_or_status": "Legistar history records the first-reading presentation of Ordinance file 2025-326; accessible history lists no action result/tally for that reading.",
-      "vote_tally": null,
+      "result_or_status": "Second-reading Legistar text says the rezoning request was approved unanimously on first reading on December 4, 2025; the accessible Legistar history table still lists the result/tally as not available.",
+      "vote_tally": "unanimous per second-reading staff text; no numeric tally in accessible history table",
       "case_or_number": "Ordinance file 2025-326; PUD No. 159",
       "primary_url": "https://roundrock.legistar.com/LegislationDetail.aspx?FullText=1&GUID=072CE9C0-4B1B-48F9-B579-8170298A80DC&ID=7862769",
       "access_caveat": "Official Legistar history; result is shown as Not available for the first reading.",
@@ -50,10 +61,23 @@
       "primary_url": "https://roundrock.legistar.com/LegislationDetail.aspx?GUID=072CE9C0-4B1B-48F9-B579-8170298A80DC&ID=7862769",
       "access_caveat": "Official city legislation record; vote tally was not published in the accessible Legistar result.",
       "notes": "Land-use action; approval does not prove a building permit or construction start."
+    },
+    {
+      "id": "A33",
+      "date": "2025-05-06",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "TABS accessibility registration at possible project address",
+      "result_or_status": "TDLR project TABS2025018376 for 2601 E. Old Settlers Blvd. - Building 1 is named Old Settlers Industrial, lists Zydeco Development as owner, describes a 119,016-sf cold dark shell with no mechanical or interior electrical, and is marked Project Closed.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025018376",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025018376",
+      "access_caveat": "Official state accessibility-registration record; it is not a city building permit and does not identify Skybox or a data-center use.",
+      "notes": "Construction-status caution for the same possible address; do not use as proof that the Skybox data center is permitted or under construction."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 75,
+  "owner": "Skybox Datacenters is the named project/developer in city public materials; P&Z records say Kimley-Horn filed the rezoning on behalf of property owner 2601 Old Settlers Ltd.; a same-address TDLR filing lists Zydeco Development for a separate/possibly pre-PUD industrial shell.",
   "sources": {
     "phase3_stable_id": "US-TX-SKYBOX-OLD-SETTLERS-ROUND-ROCK-2025",
     "phase3_source_file": "phase3/county_tx.json",
@@ -61,9 +85,28 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://roundrock.legistar.com/LegislationDetail.aspx?GUID=072CE9C0-4B1B-48F9-B579-8170298A80DC&ID=7862769",
+      "https://roundrock.legistar.com/LegislationDetail.aspx?FullText=1&GUID=072CE9C0-4B1B-48F9-B579-8170298A80DC&ID=7862769",
+      "https://www.roundrocktexas.gov/city-departments/planning-and-development-services/zoning-and-puds/planned-unit-developments-puds/",
+      "https://www.roundrocktexas.gov/city-departments/administration/data-centers-in-round-rock/",
+      "https://roundrock.legistar.com/MeetingDetail.aspx?GUID=8BBF7566-A855-42BB-9FD0-F8D571FD86FD&ID=1252021&Options=&Search=",
+      "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025018376",
+      "https://www.zydecodevelopment.com/projects/old-settlers-industrial"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "summary": "Same-address construction evidence conflicts with the Skybox data-center narrative: TDLR and Zydeco identify Old Settlers Industrial / Zydeco Development / cold dark shell industrial work at 2601 E. Old Settlers Blvd., while city land-use records approve Skybox Old Settlers PUD for a data center and possible substation. No accessible source ties the TDLR filing to a Skybox data-center building permit.",
+      "sources": [
+        "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025018376",
+        "https://www.zydecodevelopment.com/projects/old-settlers-industrial",
+        "https://roundrock.legistar.com/LegislationDetail.aspx?FullText=1&GUID=072CE9C0-4B1B-48F9-B579-8170298A80DC&ID=7862769"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

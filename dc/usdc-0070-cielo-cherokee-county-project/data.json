@@ -9,11 +9,32 @@
   "location": {
     "city": "Gaffney",
     "county": "Cherokee County",
-    "state": "SC"
+    "state": "SC",
+    "address_or_site": "000 Ford Road",
+    "site_note": "Official state announcement and county minutes place the planned campus at 000/Ford Road in Gaffney; no public site-plan, building-permit, environmental, utility-service, CO, energization, or live-service record was located during the 2026-08-11 refresh."
   },
   "phase3_stable_id": "SC-003",
-  "status_as_of_cutoff": "South Carolina officially announced site selection and planned four-facility campus. No county rezoning, site-plan, building, environmental, utility, construction, CO, or energization record was located.",
+  "status_as_of_cutoff": "local process: Cherokee County approved the Project Kingfisher Fee in Lieu of Tax and Special Source Revenue Credit Agreement at third reading on 2025-06-23 and later ratified a related jointly owned industrial/business park ordinance for Project Kingfisher on 2026-01-05. State and county records identify Project Kingfisher as Cielo Digital Infrastructure's planned $2.1 billion, four-building data-center campus at Ford Road/000 Ford Road in Gaffney with initial operations expected in 2028. No public county/city site-plan, building, environmental, utility-service, construction-start, CO, energization, or live-service record was located.",
+  "evidence_grade": "B: official state announcement plus official Cherokee County minutes confirm announcement, location, investment, facilities, expected jobs, FILOT approval, and industrial/business park ratification; MW capacity is corroborated only by trade/tracker sources and remains non-official.",
+  "status_history": [
+    {
+      "as_of": "2026-07-16",
+      "status_as_of_cutoff": "South Carolina officially announced site selection and planned four-facility campus. No county rezoning, site-plan, building, environmental, utility, construction, CO, or energization record was located."
+    }
+  ],
   "actions": [
+    {
+      "date": "2025-05-19",
+      "date_precision": "day",
+      "government_body": "Cherokee County Council",
+      "action_type": "resolution and first reading of economic-development incentive ordinance",
+      "result_status": "Council adopted Resolution No. 2025-02 authorizing, under conditions, execution and delivery of a FILOT and Special Source Revenue Credit Agreement with Project Kingfisher, then adopted first reading of Ordinance No. 2025-22 for the Project King Fisher FILOT agreement.",
+      "vote_tally": "council voted in favor; numeric tally not stated in minutes",
+      "case_or_ordinance_permit_number": "Resolution No. 2025-02; Ordinance No. 2025-22",
+      "primary_url": "https://cherokeecountysc.gov/wp-content/uploads/2025/06/Minutes-5-19-2025.pdf",
+      "access_caveat": "Economic-development incentive action; not a site-plan, building permit, construction, utility, or energization record.",
+      "evidence_note": "Adds local-government process evidence preceding public identification of Project Kingfisher as Cielo."
+    },
     {
       "date": "2025-06-24",
       "date_precision": "day",
@@ -25,10 +46,35 @@
       "primary_url": "https://governor.sc.gov/index.php/news/2025-06/cielo-digital-infrastructure-selects-cherokee-county-first-south-carolina-development",
       "access_caveat": "State announcement and forecast; not local zoning, building, environmental, utility, or commissioning evidence.",
       "evidence_note": "Announcement kept separate from approval and construction."
+    },
+    {
+      "date": "2025-06-23",
+      "date_precision": "day",
+      "government_body": "Cherokee County Council",
+      "action_type": "third reading / FILOT and special-source revenue credit approval",
+      "result_status": "Council adopted third reading of Ordinance No. 2025-22 for Project King Fisher, authorizing execution and delivery of the FILOT and Special Source Revenue Credit Agreement. The county minutes state Development Board Director Ken Moon announced Project Kingfisher is Cielo Digital Infrastructure, and Cielo SVP C.J. Maier said the project is a roughly $2.1 billion data center expected to create 30 jobs at Ford Road with initial operations expected in 2028.",
+      "vote_tally": "council voted in favor; numeric tally not stated in minutes",
+      "case_or_ordinance_permit_number": "Ordinance No. 2025-22",
+      "primary_url": "https://cherokeecountysc.gov/wp-content/uploads/2025/07/Minutes-6-23-35.pdf",
+      "access_caveat": "Official county economic-development approval; not a site-plan, building permit, construction, utility, CO, or energization record.",
+      "evidence_note": "Promotes status from announced to local process/economic-development approved, while keeping construction unconfirmed."
+    },
+    {
+      "date": "2026-01-05",
+      "date_precision": "day",
+      "government_body": "Cherokee County Council",
+      "action_type": "third reading / industrial-business park ratification",
+      "result_status": "Council adopted third reading of Ordinance No. 2025-25, a confirmation and ratification ordinance to develop a jointly owned and operated industrial/business park with Spartanburg County, with the minutes identifying the matter as related to Project Kingfisher.",
+      "vote_tally": "council voted in favor; numeric tally not stated in minutes",
+      "case_or_ordinance_permit_number": "Ordinance No. 2025-25",
+      "primary_url": "https://cherokeecountysc.gov/wp-content/uploads/2026/02/Minutes-1-5-26.pdf",
+      "access_caveat": "Industrial/business park ratification and tax-allocation framework; not project construction, site-plan, utility-service, CO, energization, or live-service evidence.",
+      "evidence_note": "Latest located official local-government action for Project Kingfisher during the 2026-08-11 refresh."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_mw_basis": "Official state/county sources reviewed on 2026-08-11 do not publish an MW capacity. DCD and Cleanview both report 300 MW/planned full-buildout capacity, but capacity_mw remains null pending official or utility confirmation.",
+  "owner": "Cielo Digital Infrastructure, LLC (developer/operator named by official state and county sources; public sources reviewed did not independently confirm parcel ownership). DCD reports Cielo is owned by Arroyo Investors.",
   "sources": {
     "phase3_stable_id": "SC-003",
     "phase3_source_file": "phase3/county_ga_nc_sc.json",
@@ -36,7 +82,45 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      {
+        "url": "https://cherokeecountysc.gov/wp-content/uploads/2025/06/Minutes-5-19-2025.pdf",
+        "date": "2025-05-19",
+        "source_type": "local government minutes",
+        "note": "Cherokee County Council adopted Resolution No. 2025-02 and first reading of Ordinance No. 2025-22 for Project Kingfisher FILOT and Special Source Revenue Credit agreement."
+      },
+      {
+        "url": "https://cherokeecountysc.gov/wp-content/uploads/2025/07/Minutes-6-23-35.pdf",
+        "date": "2025-06-23",
+        "source_type": "local government minutes",
+        "note": "Cherokee County Council adopted third reading of Ordinance No. 2025-22 and minutes identify Project Kingfisher as Cielo Digital Infrastructure."
+      },
+      {
+        "url": "https://governor.sc.gov/news/2025-06/cielo-digital-infrastructure-selects-cherokee-county-first-south-carolina-development",
+        "date": "2025-06-24",
+        "source_type": "state government announcement",
+        "note": "State announcement confirms Cielo, 000 Ford Road, four approximately 400,000-square-foot facilities, associated substation, approximately $2.1 billion investment, 30 expected jobs, and 2028 initial-operations target."
+      },
+      {
+        "url": "https://cherokeecountysc.gov/wp-content/uploads/2026/02/Minutes-1-5-26.pdf",
+        "date": "2026-01-05",
+        "source_type": "local government minutes",
+        "note": "Cherokee County Council adopted third reading of Ordinance No. 2025-25, confirming and ratifying a jointly owned industrial/business park ordinance related to Project Kingfisher."
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/cielo-digital-infrastructure-plans-300mw-data-center-campus-in-south-carolina/",
+        "date": "2025-06-24",
+        "source_type": "industry media",
+        "note": "Reports possible 300 MW full-buildout capacity and Arroyo Investors ownership of Cielo; treated as non-official capacity/ownership context."
+      },
+      {
+        "url": "https://cleanview.co/data-centers/south-carolina/808/cielo-cherokee-county-campus",
+        "date": "2026-08-11",
+        "source_type": "industry tracker",
+        "note": "Lists Cielo Cherokee County Campus as planned, 300 MW, 1,600,000 square feet, developed by Cielo Digital Infrastructure."
+      }
+    ]
   },
   "contradictions": [],
   "seed_only": false,

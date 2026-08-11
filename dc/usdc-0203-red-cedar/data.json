@@ -8,10 +8,13 @@
   "location": {
     "city": "Menomonie",
     "county": "Dunn",
-    "state": "WI"
+    "state": "WI",
+    "site_description": "Certain lands along County Highway B between 650th Avenue (Eagle Point Road) and 690th Avenue, directly east of Ellsworth Creamery; city materials describe approximately 320 acres, with a concept block plan also showing 708th Avenue."
   },
   "phase3_stable_id": "WI-MENOMONIE-BALLOONIST-REDCEDAR",
-  "status_as_of_cutoff": "Annexation and I-1 rezoning were adopted, but the City says adoption does not guarantee a data center; no final site plan, building permit, construction, CO, or energization was located. Later public materials preserve continued uncertainty.",
+  "status_as_of_cutoff": "Local process / paused-tax-incentive posture. Menomonie adopted annexation and I-1 rezoning in August 2025, but the City later created an I-4 Data Center Industrial District, says no lands are currently zoned I-4, and says Balloonist would need to apply for I-4 rezoning if it decides to proceed. The August 3, 2026 council packet listed draft I-4 amendments for discussion only with no action intended. No final site plan approval, building permit, construction, certificate of occupancy, energization, or disclosed IT-load capacity was located.",
+  "status_layer": "local process",
+  "evidence_grade": "A- official city agenda/minutes/press releases plus state corporate registry; no permit/construction evidence located",
   "actions": [
     {
       "date": "2025-07-28",
@@ -50,20 +53,66 @@
       "evidence_note": "Zoning action with explicit non-guarantee preserved."
     },
     {
+      "date": "2025-09-23",
+      "date_precision": "day",
+      "government_body": "City of Menomonie Mayor",
+      "action_type": "development-agreement / tax-increment negotiation pause",
+      "result_status": "Official mayoral press release says the mayor instructed the city administrator to notify Balloonist LLC representatives that the City would not negotiate a development agreement or establish a tax increment district at that time to support a data center.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.menomonie-wi.gov/DocumentCenter/View/2569/-92325-Press-Release-Mayor-Randy-Knaack-on-Data-Center-PDF",
+      "access_caveat": "Mayor statement; it pauses city development-agreement/TID negotiations, not the private project or land ownership.",
+      "evidence_note": "Shows official pause in city incentive/agreement posture without treating the project as legally terminated."
+    },
+    {
+      "date": "2026-01-05",
+      "date_precision": "day",
+      "government_body": "Menomonie Common Council",
+      "action_type": "creation of I-4 Data Center Industrial District",
+      "result_status": "Official council minutes record unanimous roll-call adoption of Ordinance 2026-01, amending Title 10 with respect to warehousing definition, data-center definition, and creation of the I-4 Data Center Industrial District.",
+      "vote_tally": "unanimous roll call",
+      "case_or_ordinance_permit_number": "Ordinance 2026-01",
+      "primary_url": "https://www.menomonie-wi.gov/AgendaCenter/ViewFile/Minutes/_01052026-548",
+      "access_caveat": "City zoning text action; it does not itself rezone the Red Cedar/Balloonist lands to I-4 or approve construction.",
+      "evidence_note": "Material change from the August 2025 I-1 posture; data centers now have a distinct zoning district."
+    },
+    {
       "date": "2026-06-30",
       "date_precision": "day",
       "government_body": "City of Menomonie",
       "action_type": "data-center ordinance update",
-      "result_status": "City FAQ/press-release index links a June 30, 2026 update concerning the data-center ordinance. The accessible index does not expose enough text to assign a new substantive result; no permit or construction is inferred.",
+      "result_status": "Official mayoral press release says I-4 zoning for data centers was approved in January 2026; the City was preparing additional I-4 regulations for light/noise, water use, equipment setbacks, landscaping, reclamation, and related topics; Balloonist LLC would have the legal opportunity to apply for I-4 rezoning only after completion/adoption of the ordinance amendment, should it decide to do so.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.menomonie-wi.gov/527/Potential-Data-Center-FAQ",
-      "access_caveat": "Dynamic city index; linked PDF text was not fully exposed in the accessible extraction.",
-      "evidence_note": "Access/negative finding retained rather than guessing the update's substance."
+      "primary_url": "https://www.menomonie-wi.gov/DocumentCenter/View/2963/63026-Press-Release-Data-Center-Ordinance-Update-PDF",
+      "access_caveat": "Mayor statement about ordinance process; no final rezoning application or construction approval is stated.",
+      "evidence_note": "Confirms continued local-process status and that tax-incentive pause did not stop the private project."
+    },
+    {
+      "date": "2026-08-03",
+      "date_precision": "day",
+      "government_body": "Menomonie Common Council",
+      "action_type": "draft I-4 amendment discussion",
+      "result_status": "Official council agenda listed 'Draft Ordinance amending Data Center Industrial (I-4) District Zoning' as discussion only with no action. The council packet staff memorandum says a second draft would be prepared later, no action or introduction was intended, no lands are currently zoned I-4, and any I-4 district modification or rezoning would require public notice, public hearing, and City Council action.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Draft Ordinance 2026-__",
+      "primary_url": "https://www.menomonie-wi.gov/AgendaCenter/ViewFile/ArchivedAgenda/_08032026-387",
+      "secondary_url": "https://eyeondunn.com/sites/default/files/2026-07/8.3.26-city-council-packet.pdf",
+      "access_caveat": "Agenda and packet were available; official minutes for the August 3 meeting were not located during this refresh.",
+      "evidence_note": "Supports no-current-I-4-zoning and no-action status as of the packet date."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_notes": "No disclosed IT-load MW was located. Official city FAQ states an approximate $1.6 billion planned investment; city press release estimated average municipal water/wastewater demand at 75,000 gallons per day for a proposed closed-loop cooling system.",
+  "owner": "Balloonist LLC (project/developer entity; ultimate operator/end user not publicly disclosed in located official sources)",
+  "owner_evidence": {
+    "entity_id": "B116159",
+    "registry": "Wisconsin Department of Financial Institutions",
+    "status": "Registered foreign LLC",
+    "foreign_state": "DE",
+    "registered_effective_date": "2024-01-19",
+    "url": "https://apps.dfi.wi.gov/apps/corpsearch/Details.aspx?entityID=B116159&hash=1183750726&q=balloonist+llc&searchFunctionID=571f77dc-caab-4722-8357-ac28cc577608&type=Simple"
+  },
   "sources": {
     "phase3_stable_id": "WI-MENOMONIE-BALLOONIST-REDCEDAR",
     "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
@@ -71,9 +120,36 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official_urls": [
+      "https://www.menomonie-wi.gov/527/Potential-Data-Center-FAQ",
+      "https://menomonie-wi.gov/DocumentCenter/View/2494/72425-Press-Release-Annexation-and-Rezoning-PDF",
+      "https://www.menomonie-wi.gov/DocumentCenter/View/2521/8525-Press-Release-Ordinance-2025-05-Rezone-PDF",
+      "https://www.menomonie-wi.gov/DocumentCenter/View/2544/82525-FAQ-Proposed-Data-Center-Project-Edited-PDF",
+      "https://www.menomonie-wi.gov/DocumentCenter/View/2545/Data-Center-Concept-Site-Plan-PDF",
+      "https://www.menomonie-wi.gov/DocumentCenter/View/2569/-92325-Press-Release-Mayor-Randy-Knaack-on-Data-Center-PDF",
+      "https://www.menomonie-wi.gov/AgendaCenter/ViewFile/Minutes/_01052026-548",
+      "https://www.menomonie-wi.gov/DocumentCenter/View/2963/63026-Press-Release-Data-Center-Ordinance-Update-PDF",
+      "https://www.menomonie-wi.gov/AgendaCenter/ViewFile/ArchivedAgenda/_08032026-387",
+      "https://eyeondunn.com/sites/default/files/2026-07/8.3.26-city-council-packet.pdf",
+      "https://apps.dfi.wi.gov/apps/corpsearch/Details.aspx?entityID=B116159&hash=1183750726&q=balloonist+llc&searchFunctionID=571f77dc-caab-4722-8357-ac28cc577608&type=Simple"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Annexation and I-1 rezoning were adopted, but the City says adoption does not guarantee a data center; no final site plan, building permit, construction, CO, or energization was located. Later public materials preserve continued uncertainty.",
+      "reason": "Refresh found newer official city materials showing I-4 data-center zoning process, paused TID/development-agreement negotiations, no current I-4-zoned land, and no action on the August 3, 2026 draft amendment."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "reason": "Official city materials identify Balloonist LLC as applicant/project entity; WI DFI registry confirms Balloonist LLC is a registered foreign LLC. Ultimate operator remains undisclosed."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

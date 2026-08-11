@@ -2,19 +2,69 @@
   "master_id": "USDC-0025",
   "canonical_project": "RadiusDC Indy I",
   "aliases": [
+    "AllPoints 19",
+    "RadiusDC Indianapolis 1",
     "Plainfield edge colocation campus",
     "RadiusDC Indy I"
   ],
   "location": {
     "city": "Plainfield",
     "county": "Hendricks",
-    "state": "IN"
+    "state": "IN",
+    "site": "AllPoints Lot 19, southeast corner of Smith Road and AllPoints Parkway"
   },
-  "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "phase3_stable_id": "IN-PLAINFIELD-RADIUS-INDY1",
+  "status_as_of_cutoff": "approved-permitted: Plainfield Plan Commission approved DP-25-088 architectural/site design review for a 100,833 square foot AllPoints 19 / RadiusDC Indianapolis 1 data center and PP-25-094 primary plat for the two-lot AllPoints 18/19 subdivision on 2026-01-05. No Improvement Location Permit, building permit, construction start, energized service, or occupancy evidence was located in this refresh.",
+  "evidence_grade": "A-: official Town of Plainfield project page, Plan Commission report, applicant project summary, and Duke Energy will-serve letter verify local approval and utility-service intent; post-approval administrative permits/construction were not verified.",
+  "actions": [
+    {
+      "date": "2025-11-21",
+      "date_precision": "day",
+      "government_body": "Duke Energy Indiana",
+      "action_type": "utility will-serve / intent-to-provide-service letter",
+      "result_status": "Duke Energy stated it is the electric service provider for the 30.3 acres at AllPoints 19 and AllPoints 18 and has distribution/transmission facilities in the area to serve the proposed development; the letter expressly says it is not a formal commitment or formal plan approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://s3.amazonaws.com/iworq-upload/PLAINFIELD/601/86482b3f8b5d26d17f8bcb56032a67e9_25.12.18_Project_RadiusDC_-_Will_Serve_Letter.pdf",
+      "access_caveat": "Official packet attachment hosted from the Town of Plainfield project page; utility intent is not construction authorization."
+    },
+    {
+      "date": "2025-12-15",
+      "date_precision": "day",
+      "government_body": "RadiusDC / Radiant DC REIT III-B, LLC applicant filing to Town of Plainfield",
+      "action_type": "project summary",
+      "result_status": "Applicant summary identifies RadiusDC Indianapolis 1 on AllPoints Lot 19 as an approximately 100,000 square foot, single-story edge data center with about 12 MW of critical load, 30 parking spaces, closed-loop cooling, and desired 2026 start before Lot 18.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "AllPoints 19 / DP-25-088",
+      "primary_url": "https://s3.amazonaws.com/iworq-upload/PLAINFIELD/601/50d90d4aafbac31a514a2ccb5fb0712d_25.12.18_Project_Summary_-_AllPoints_19_-_Updated.pdf",
+      "access_caveat": "Applicant-prepared document in the Town packet; schedule is an applicant desire, not verified construction start."
+    },
+    {
+      "date": "2026-01-05",
+      "date_precision": "day",
+      "government_body": "Town of Plainfield Plan Commission",
+      "action_type": "architectural/site design review and primary plat",
+      "result_status": "Town project page records Primary Plat and Development Plans approved for DP-25-087, DP-25-088, and PP-25-094 at the southeast corner of Smith Road and AllPoints Parkway.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DP-25-088; PP-25-094",
+      "primary_url": "https://www.townofplainfield.com/2009/Radius-Data-Centers-Allpoints-18-and-19",
+      "access_caveat": "Official project page gives disposition but no roll-call tally in the page text."
+    },
+    {
+      "date": "2026-01-05",
+      "date_precision": "day",
+      "government_body": "Town of Plainfield Planning Department / Plan Commission staff",
+      "action_type": "staff report / local-review conditions",
+      "result_status": "Staff report describes DP-25-088 as a 100,833 square foot AllPoints 19 data center on I-2 land and lists future requirements before permits, including secondary plat, vacation of minor plats/easements/restrictive covenants, and Improvement Location Permit/other administrative permits.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DP-25-088; PP-25-094",
+      "primary_url": "https://s3.amazonaws.com/iworq-upload/PLAINFIELD/601/30087910-RadiusDataCenterAllpoints.pdf",
+      "access_caveat": "Official staff report in Town project packet; report distinguishes approved plan review from later administrative permits."
+    }
+  ],
+  "capacity_mw": 12,
+  "capacity_notes": "Indy I / AllPoints 19 is listed by the applicant as about 12 MW critical load; the two-building Indianapolis campus is 24 MW in RadiusDC/company and tracker sources.",
+  "owner": "Radiant DC REIT III-B, LLC / RadiusDC applicant-operator; Browning Venture Associates II LLC land owner/subdivider",
   "sources": {
     "phase3_stable_id": "IN-PLAINFIELD-RADIUS-INDY1",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -22,7 +72,17 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://www.townofplainfield.com/2009/Radius-Data-Centers-Allpoints-18-and-19",
+      "https://www.townofplainfield.com/1554/Plan-Commission-Projects",
+      "https://s3.amazonaws.com/iworq-upload/PLAINFIELD/601/30087910-RadiusDataCenterAllpoints.pdf",
+      "https://s3.amazonaws.com/iworq-upload/PLAINFIELD/601/50d90d4aafbac31a514a2ccb5fb0712d_25.12.18_Project_Summary_-_AllPoints_19_-_Updated.pdf",
+      "https://s3.amazonaws.com/iworq-upload/PLAINFIELD/601/86482b3f8b5d26d17f8bcb56032a67e9_25.12.18_Project_RadiusDC_-_Will_Serve_Letter.pdf",
+      "https://www.radius-dc.com/location/indianapolis",
+      "https://www.radius-dc.com/newsroom-and-events/radiusdc-expands-its-footprint-with-edge-colocation-campus-in-indianapolis-in",
+      "https://cleanview.co/data-centers/indiana/1919/radius-allpoints-data-center"
+    ]
   },
   "contradictions": [],
   "seed_only": false,

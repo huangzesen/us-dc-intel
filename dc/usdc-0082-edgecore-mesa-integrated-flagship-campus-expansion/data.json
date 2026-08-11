@@ -11,10 +11,18 @@
   "location": {
     "city": "Mesa",
     "county": "Maricopa",
-    "state": "AZ"
+    "state": "AZ",
+    "address": "9903 E Elliot Rd",
+    "site_description": "Southwest corner of East Elliot Road and South Everton Terrace",
+    "parcel_numbers": [
+      "304-31-002Q"
+    ],
+    "latitude": 33.349783,
+    "longitude": -111.620631
   },
   "phase3_stable_id": "US-AZ-EDGECORE-MESA-2024",
-  "status_as_of_cutoff": "Locally approved for at least a Mesa North Campus site-plan modification; physical completion, occupancy, and energization were not verified.",
+  "status_as_of_cutoff": "Local process / site-plan approval: Mesa Planning and Zoning Board approved ZON25-00535 for the Edgecore Mesa North Campus major site-plan modification on 2026-03-11, and Mesa open data lists the record as Not Appealed as of 2026-03-12. North-campus building permit, certificate of occupancy, and energization were not verified in official records reviewed on 2026-08-11.",
+  "evidence_grade": "A- for land-use/site-plan approval from City of Mesa records; B for campus-level capacity from EdgeCore company sources; no verified north-campus building permit/CO/energization evidence.",
   "actions": [
     {
       "date": "2026-03-11",
@@ -27,10 +35,48 @@
       "primary_url": "https://mesa.legistar.com/View.ashx?GUID=6702B520-E33B-4A2C-8269-38E3398DE258&ID=1390767&M=M",
       "access_caveat": "Official Mesa minutes accessible; they do not provide final building permits, inspections, CO, or energization.",
       "evidence_note": "Body/context retained from prior file: City of Mesa Planning and Zoning Board."
+    },
+    {
+      "date": "2026-03-12",
+      "date_precision": "day",
+      "government_body": "City of Mesa Development Services open data",
+      "action_type": "planning record status update",
+      "result_status": "Mesa open-data record for ZON25-00535, Edgecore Mesa North Campus, lists Record Status as Not Appealed and Record Status Date as 2026-03-12; address shown as 9903 E Elliot Rd.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "ZON25-00535",
+      "primary_url": "https://data.mesaaz.gov/api/views/u5a9-tj5y/rows.csv?accessType=DOWNLOAD",
+      "access_caveat": "Open-data row is a planning/zoning memo completion record, not a building permit, inspection, certificate of occupancy, or utility energization record.",
+      "evidence_note": "Queried official Mesa Planning & Zoning and Design Review Memos Completion dataset for Edgecore/ZON25-00535 on 2026-08-11."
+    },
+    {
+      "date": "2025-09-24",
+      "date_precision": "day",
+      "government_body": "City of Mesa building permit open data",
+      "action_type": "related south-campus civil permit",
+      "result_status": "PMT25-06905 was issued/finaled for civil modifications resulting from the SRP substation expansion at 3856 S Everton Terr. This supports SRP substation-expansion activity on the integrated EdgeCore campus but is not a north-campus building permit for 9903 E Elliot Rd.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PMT25-06905",
+      "primary_url": "https://data.mesaaz.gov/api/views/ruen-seg4/rows.csv?accessType=DOWNLOAD",
+      "access_caveat": "Permit address and parcel differ from the ZON25-00535 north-campus parcel; use as related-campus evidence only.",
+      "evidence_note": "Official Mesa Value of New Commercial Construction dataset, checked 2026-08-11."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 496,
+  "capacity_scope": "EdgeCore-reported Phoenix/Mesa campus total critical IT load across 84 acres, 5 data centers, and 2.7M total building square feet; north-campus-only MW not verified in official city records.",
+  "capacity_history": [
+    {
+      "as_of": "2026-07-16",
+      "capacity_mw": null,
+      "note": "Prior record did not carry a verified capacity value."
+    },
+    {
+      "as_of": "2026-08-11",
+      "capacity_mw": 496,
+      "note": "Updated to EdgeCore company-reported campus-level value; separate official 2026 site-plan record confirms 1,236,960 sq ft but does not provide MW for the north-campus modification."
+    }
+  ],
+  "owner": "EDI Mesa 2, LLC",
+  "developer_operator": "EdgeCore Digital Infrastructure",
   "sources": {
     "phase3_stable_id": "US-AZ-EDGECORE-MESA-2024",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -40,9 +86,48 @@
       "US-AZ-EDGECORE-MESA-EXPANSION-2024"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official": [
+      "https://mesa.legistar.com/LegislationDetail.aspx?GUID=CBE4851E-26DE-4C3A-85C5-E17C15FFA9A1&ID=7940766&Options=&Search=",
+      "https://mesa.legistar.com/View.ashx?GUID=427463D0-4A48-48E4-971E-7FE8937612C1&ID=15303983&M=F",
+      "https://mesa.legistar.com/View.ashx?GUID=6702B520-E33B-4A2C-8269-38E3398DE258&ID=1390767&M=M",
+      "https://data.mesaaz.gov/api/views/u5a9-tj5y/rows.csv?accessType=DOWNLOAD",
+      "https://data.mesaaz.gov/api/views/ruen-seg4/rows.csv?accessType=DOWNLOAD"
+    ],
+    "company": [
+      "https://edgecore.com/locations/phoenix-data-center",
+      "https://edgecore.com/resources/press-releases/edgecore-digital-infrastructure-announces-expansion-of-its-metro-phoenix-data-center-market-to-over-450-mw",
+      "https://edgecore.com/resources/press-releases/edgecore-digital-infrastructure-completes-1-9-billion-debt-financing-to-enable-continued-growth-and-development-of-its-flagship-data-center-campus-in-greater-phoenix"
+    ],
+    "local_media": [
+      "https://www.bisnow.com/news/phoenix/industrial/edgecore-gains-board-approval-after-scaling-back-mesa-data-center-plan-133677",
+      "https://realestatedaily-news.com/edgecore-returns-with-revised-mesa-data-center-plan/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "as_of": "2026-08-11",
+      "topic": "campus capacity and square footage scope",
+      "details": "EdgeCore's current Phoenix/Mesa location page states 496 MW, 2.7M sq ft, 84 acres, and 5 data centers. EdgeCore's 2024/2025 press releases and some local/industry coverage describe 450+ MW or 3.1M+ sq ft/full-buildout context. City ZON25-00535 documents confirm the 2026 north-campus modification at 1,236,960 sq ft but do not assign a north-campus-only MW value.",
+      "resolution": "Use 496 MW only as current company-reported total campus critical IT load; do not treat it as the north-campus expansion's independently verified capacity."
+    },
+    {
+      "as_of": "2026-08-11",
+      "topic": "construction/operation status",
+      "details": "Company and media sources discuss an operational first building and south-campus buildings under construction/commissioning; official Mesa permit rows support south-campus permits and TCO/C of C activity at 3856 S Everton Terr. No official north-campus building permit, CO, or energization record for 9903 E Elliot Rd was verified.",
+      "resolution": "Keep ZON25-00535 north-campus expansion at local process/site-plan approval, with related-campus construction evidence separated."
+    }
+  ],
+  "verification": {
+    "last_refreshed": "2026-08-11",
+    "verified": false,
+    "reason": "Official land-use/site-plan facts are verified, but north-campus-only MW capacity, building permits, CO, and energization remain unverified.",
+    "unverified_items": [
+      "North-campus-only MW capacity.",
+      "Building permit issuance for the ZON25-00535 north-campus buildings at 9903 E Elliot Rd.",
+      "North-campus certificate of occupancy or energization."
+    ]
+  },
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

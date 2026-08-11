@@ -9,13 +9,71 @@
   "location": {
     "city": "Homer City (site in Center Township)",
     "county": "Indiana",
-    "state": "PA"
+    "state": "PA",
+    "municipality": "Center Township",
+    "address": "1750 Powerplant Rd, Homer City, PA 15748",
+    "site_acres": 3200
   },
-  "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "phase3_stable_id": "US-PA-HOMER-CITY-2025",
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A-",
+  "actions": [
+    {
+      "date": "2025-04-02",
+      "government_body": null,
+      "action_type": "company_announcement",
+      "result_status": "announced",
+      "summary": "Homer City Redevelopment and Kiewit announced the former Homer City Generating Station would be transformed into a more than 3,200-acre natural gas-powered AI/HPC data center campus; construction was expected to commence in 2025 with power production targeted for 2027.",
+      "source_url": "https://www.homercityredevelopment.com/post/former-homer-city-pa-coal-plant-officially-reopens-as-state-of-the-art-natural-gas-facility"
+    },
+    {
+      "date": "2025-07-15",
+      "government_body": null,
+      "action_type": "fuel_supply_agreement_in_principle",
+      "result_status": "announced_under_construction",
+      "summary": "HCR announced an agreement in principle for EQT to be exclusive natural-gas supply partner for the 4.4 GW facility serving the 3,200-acre AI/HPC campus, described by HCR as under construction and slated to begin producing power in 2027.",
+      "source_url": "https://www.homercityredevelopment.com/post/press-release-homer-city-redevelopment-announces-agreement-in-principle-for-eqt-corporation-to-supp"
+    },
+    {
+      "date": "2025-11-18",
+      "government_body": "Pennsylvania Department of Environmental Protection",
+      "action_type": "air_quality_plan_approval",
+      "result_status": "approved-permitted",
+      "summary": "DEP final Air Quality Plan Approval 32-00457A is listed for construction and initial operation of the new natural-gas generation equipment at the Homer City site.",
+      "source_url": "https://www.pa.gov/agencies/dep/dep-regions/northwest-regional-office/homer-city-generation-redevelopment"
+    },
+    {
+      "date": "2025-11-20",
+      "government_body": "Pennsylvania Department of Environmental Protection",
+      "action_type": "air_permit_company_confirmation",
+      "result_status": "approved-permitted",
+      "summary": "Homer City Generation stated PA DEP issued the air permit authorizing construction and initial operation, positioning the project to move from site readiness into full construction.",
+      "source_url": "https://www.homercityredevelopment.com/post/press-release-homer-city-generation-receives-air-quality-plan-approval-from-pa-dep"
+    },
+    {
+      "date": "2026-06-02",
+      "government_body": null,
+      "action_type": "site_readiness_milestone",
+      "result_status": "site work-construction",
+      "summary": "Homer City Generation announced completion of large-scale demolition and mass excavation ahead of schedule, said vertical construction had begun in April 2026, and reported nearly 1,300 workers on site.",
+      "source_url": "https://www.homercityredevelopment.com/post/homer-city-generation-marks-major-milestone-in-site-transformation-with-early-completion-of-demoliti"
+    },
+    {
+      "date": "2026-08-10",
+      "government_body": null,
+      "action_type": "traffic_site_access_work",
+      "result_status": "site work-construction",
+      "summary": "Kiewit announced traffic improvements underway or commencing around the Homer City Energy Campus, including signal and widening work near project entrances in Center Township.",
+      "source_url": "https://www.homercityredevelopment.com/post/kiewit-power-constructors-co-announces-planned-traffic-improvements-for-homer-city-energy-campus"
+    }
+  ],
+  "capacity_mw": 4400,
+  "capacity_context": {
+    "basis": "Latest HCR/DEP-adjacent materials use up to 4.4 GW for the natural-gas-powered energy and data center campus; initial 2025 announcement and several secondary sources use 4.5 GW.",
+    "data_center_load_mw": null,
+    "grid_export_mw": null
+  },
+  "owner": "Homer City Redevelopment, LLC / Homer City Generation, LP",
   "sources": {
     "phase3_stable_id": "US-PA-HOMER-CITY-2025",
     "phase3_source_file": "phase3/county_pa_nj_ny_wa.json",
@@ -25,9 +83,87 @@
       "US-PA-HOMER-CITY-AI-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "official": [
+      "https://www.pa.gov/agencies/dep/dep-regions/northwest-regional-office/homer-city-generation-redevelopment",
+      "https://www.indianacountypa.gov/wp-content/uploads/March-11-2026-Minutes.pdf",
+      "https://www.indianacountypa.gov/wp-content/uploads/May-27-2026-Minutes.pdf",
+      "https://center-twp.com/"
+    ],
+    "company": [
+      "https://www.homercityredevelopment.com/project-overview",
+      "https://www.homercityredevelopment.com/post/former-homer-city-pa-coal-plant-officially-reopens-as-state-of-the-art-natural-gas-facility",
+      "https://www.homercityredevelopment.com/post/press-release-homer-city-redevelopment-announces-agreement-in-principle-for-eqt-corporation-to-supp",
+      "https://www.homercityredevelopment.com/post/press-release-homer-city-generation-receives-air-quality-plan-approval-from-pa-dep",
+      "https://www.homercityredevelopment.com/post/homer-city-generation-marks-major-milestone-in-site-transformation-with-early-completion-of-demoliti",
+      "https://www.homercityredevelopment.com/post/kiewit-power-constructors-co-announces-planned-traffic-improvements-for-homer-city-energy-campus",
+      "https://www.gevernova.com/news/press-releases/homer-city-redevelopment-kiewit-announce-country-largest-natural-gas-powered-data-center-support-ai-hpc-demand"
+    ],
+    "media_tracker": [
+      "https://www.axios.com/local/pittsburgh/2026/03/31/homer-city-power-plant-grid-data-centers-pennsylvania",
+      "https://triblive.com/local/westmoreland/amazon-eyes-homer-city-site-for-data-center-campus/",
+      "https://www.post-gazette.com/business/powersource/2026/08/07/amazon-homer-city-data-center/stories/202608070053",
+      "https://www.datacenterdynamics.com/en/news/aws-eyes-potential-data-center-development-at-45gw-natural-gas-plant-in-pennsylvania/",
+      "https://cleanview.co/data-centers/pennsylvania"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "status": "open",
+      "summary": "HCR's April 2, 2025 and GE Vernova announcement describe up to 4.5 GW, while HCR's July 15, 2025 EQT announcement, November 20, 2025 air-permit announcement, and project overview use up to 4.4 GW. Current numeric field uses 4.4 GW as the newer company-reported value.",
+      "sources": [
+        "https://www.homercityredevelopment.com/post/former-homer-city-pa-coal-plant-officially-reopens-as-state-of-the-art-natural-gas-facility",
+        "https://www.gevernova.com/news/press-releases/homer-city-redevelopment-kiewit-announce-country-largest-natural-gas-powered-data-center-support-ai-hpc-demand",
+        "https://www.homercityredevelopment.com/post/press-release-homer-city-redevelopment-announces-agreement-in-principle-for-eqt-corporation-to-supp",
+        "https://www.homercityredevelopment.com/post/press-release-homer-city-generation-receives-air-quality-plan-approval-from-pa-dep",
+        "https://www.homercityredevelopment.com/project-overview"
+      ]
+    },
+    {
+      "field": "initial_power_date",
+      "status": "open",
+      "summary": "Company releases repeatedly target first power in 2027; a March 31, 2026 Axios report attributes an early-2028 first-power expectation to HCR CEO Corey Hessen. Treat 2027 as company-announced target and early 2028 as a later media-reported schedule signal until confirmed by HCR/DEP filings.",
+      "sources": [
+        "https://www.homercityredevelopment.com/post/press-release-homer-city-redevelopment-announces-agreement-in-principle-for-eqt-corporation-to-supp",
+        "https://www.homercityredevelopment.com/post/press-release-homer-city-generation-receives-air-quality-plan-approval-from-pa-dep",
+        "https://www.axios.com/local/pittsburgh/2026/03/31/homer-city-power-plant-grid-data-centers-pennsylvania"
+      ]
+    },
+    {
+      "field": "tenant",
+      "status": "unverified",
+      "summary": "Recent regional/industry media report Amazon/AWS is evaluating or in talks for the Homer City site, but no official HCR/AWS executed tenant announcement was found in this refresh.",
+      "sources": [
+        "https://triblive.com/local/westmoreland/amazon-eyes-homer-city-site-for-data-center-campus/",
+        "https://www.post-gazette.com/business/powersource/2026/08/07/amazon-homer-city-data-center/stories/202608070053",
+        "https://www.datacenterdynamics.com/en/news/aws-eyes-potential-data-center-development-at-45gw-natural-gas-plant-in-pennsylvania/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "changes": {
+        "phase3_stable_id": {
+          "from": null,
+          "to": "US-PA-HOMER-CITY-2025"
+        },
+        "status_as_of_cutoff": {
+          "from": null,
+          "to": "site work-construction"
+        },
+        "capacity_mw": {
+          "from": null,
+          "to": 4400
+        },
+        "owner": {
+          "from": null,
+          "to": "Homer City Redevelopment, LLC / Homer City Generation, LP"
+        }
+      }
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

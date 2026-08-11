@@ -11,7 +11,14 @@
     "state": "WY"
   },
   "phase3_stable_id": "US-WY-MICROSOFT-CHEYENNE-2026",
-  "status_as_of_cutoff": "Microsoft announced an intent to purchase/develop additional Cheyenne acreage and later said it submitted applications for expansion areas. The company announcement expressly describes a multiyear planning process with future public hearings; no government approval, permit, construction start, CO, or energization for this Phase 2 expansion was verified.",
+  "status_as_of_cutoff": "Mixed local-process/approved-site-plan status as of 2026-08-11. Microsoft announced intent to purchase approximately 3,200 acres for a future Cheyenne datacenter and described that land expansion as a multiyear planning process with public hearings still ahead. Separately, official City of Cheyenne records show Microsoft-linked CYS43 Bronco site plan PUDC-26-22 approved on April 17, 2026, and CYS21 site plan PUDC-26-180 submitted July 14, 2026 and still under staff review. No building permit, certificate of occupancy, energization record, or approved 3,200-acre parcel development approval was verified.",
+  "status_history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": "Microsoft announced an intent to purchase/develop additional Cheyenne acreage and later said it submitted applications for expansion areas. The company announcement expressly describes a multiyear planning process with future public hearings; no government approval, permit, construction start, CO, or energization for this Phase 2 expansion was verified."
+    }
+  ],
+  "evidence_grade": "B",
   "actions": [
     {
       "date": "2026-04-14",
@@ -48,10 +55,46 @@
       "primary_url": "https://www.cheyennecity.org/Your-Government/Departments/Planning-and-Development-Department/Data-Centers",
       "access_caveat": "City page is general information and explicitly cautions that a development action is not necessarily a specific data-center project.",
       "evidence_note": "Negative search only."
+    },
+    {
+      "date": "2026-04-17",
+      "date_precision": "day",
+      "government_body": "City of Cheyenne Planning and Development / Connect Cheyenne",
+      "action_type": "site plan approval",
+      "result_status": "PUDC-26-22 CYS43 Bronco site plan is marked approved on April 17, 2026. The attached Certificate of Review identifies Microsoft Corporation Land Development Team as owner, Lot 2 Block 1 Bronco Subdivision, LI zoning, and proposed use Data Center (CYS43). The certificate allows application for permits but states it is not Engineering Plan Review or Building Plan Review approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PUDC-26-22",
+      "primary_url": "https://connect.cheyennecity.org/y82842",
+      "access_caveat": "Administrative site-plan approval; not itself a building permit, certificate of occupancy, or energization record.",
+      "evidence_note": "Official city project page and Certificate of Review."
+    },
+    {
+      "date": "2026-07-14",
+      "date_precision": "day",
+      "government_body": "City of Cheyenne Planning and Development / Connect Cheyenne",
+      "action_type": "site plan application under review",
+      "result_status": "PUDC-26-180 CYS21 site plan was submitted July 14, 2026 and is shown under City staff review, with no approved date listed. The attached plan identifies Microsoft as design team and lists the site at 5707 Loving Trail, Cheyenne, WY.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PUDC-26-180",
+      "primary_url": "https://connect.cheyennecity.org/v68314",
+      "access_caveat": "Submitted/under review only; no approval inferred.",
+      "evidence_note": "Official city project page and submitted plan set."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "City of Cheyenne Planning and Development / Connect Cheyenne",
+      "action_type": "data-center project list check",
+      "result_status": "City's Connect Cheyenne data-center page lists multiple site plans, including PUDC-26-22 CYS43 Bronco and PUDC-26-180 CYS21, but did not show a Microsoft-specific approval for the separate 3,200-acre April 2026 land-purchase expansion parcels.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://connect.cheyennecity.org/d05638",
+      "access_caveat": "Portal list is limited to city site-plan records surfaced on Connect Cheyenne.",
+      "evidence_note": "Official city portal review."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Microsoft Corporation",
   "sources": {
     "phase3_stable_id": "US-WY-MICROSOFT-CHEYENNE-2026",
     "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
@@ -59,9 +102,32 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://www.cheyennecity.org/Your-Government/Departments/Planning-and-Development-Department/Data-Centers",
+      "https://connect.cheyennecity.org/d05638",
+      "https://connect.cheyennecity.org/y82842",
+      "https://connect.cheyennecity.org/Customer/File/Full/ba905bfa-91aa-4477-a33b-91af6e944bab",
+      "https://connect.cheyennecity.org/v68314",
+      "https://connect.cheyennecity.org/Customer/File/Full/338a42b3-e9c8-454e-af14-b0b2e24ab7ed",
+      "https://news.microsoft.com/source/2026/04/14/microsoft-announces-intent-to-expand-datacenter-operations-in-cheyenne-accelerating-innovation-and-economic-growth/",
+      "https://local.microsoft.com/blog/cheyenne-datacenter-update/",
+      "https://local.microsoft.com/blog/hr-ranch-road-datacenter-construction/",
+      "https://datacenters.blackhillsenergy.com/resources/energy-solutions-data-centers",
+      "https://datacenters.blackhillsenergy.com/wyoming"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "field": "PUDC-26-22 approval date",
+      "description": "Connect Cheyenne project page states CYS43 Bronco was approved on April 17 2026, while the Certificate of Review PDF text reads 'DATE: April 16, 2006' despite the 2026 filename/context. Structured action uses the portal approved date and treats 2006 as an apparent document typo.",
+      "sources": [
+        "https://connect.cheyennecity.org/y82842",
+        "https://connect.cheyennecity.org/Customer/File/Full/ba905bfa-91aa-4477-a33b-91af6e944bab"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -13,7 +13,22 @@
     "state": "GA"
   },
   "phase3_stable_id": "GA-001",
-  "status_as_of_cutoff": "Government notices confirm active construction-related work and county water-accounting activity. A City of Fayetteville page reports a site-plan presentation denial and later withdrawn appeal; the reviewed records do not establish that every campus phase has final site-plan, building-permit, certificate-of-occupancy, utility, or energization approval.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11. Fayette County's FY2026 budget says QTS is building a new data center on a 600+ acre parcel in Fayetteville, with construction started in March 2023 and estimated completion in February 2027. City and county records also confirm construction notices, driveway/traffic-signal work, water-accounting activity, and water-line easements. The reviewed records do not establish a published MW capacity, certificate of occupancy, energization, partial live service, or full buildout.",
+  "evidence_grade": "official/local-government refreshed 2026-08-11; capacity_mw remains unverified",
+  "history": [
+    {
+      "date": "2026-07-16",
+      "field": "status_as_of_cutoff",
+      "value": "Government notices confirm active construction-related work and county water-accounting activity. A City of Fayetteville page reports a site-plan presentation denial and later withdrawn appeal; the reviewed records do not establish that every campus phase has final site-plan, building-permit, certificate-of-occupancy, utility, or energization approval.",
+      "reason": "Superseded by 2026-08-11 refresh using Fayette County FY2026 budget, city FAQ, and county minutes."
+    },
+    {
+      "date": "2026-07-16",
+      "field": "owner",
+      "value": null,
+      "reason": "Superseded by 2026-08-11 refresh; county minutes identify QTS Fayetteville I, LLC in project easement/agreement actions and city/QTS pages identify the QTS Data Centers campus."
+    }
+  ],
   "actions": [
     {
       "date": "2025-01-28",
@@ -32,12 +47,24 @@
       "date_precision": "day",
       "government_body": "Fayette County Board of Commissioners",
       "action_type": "public-works agenda / QTS driveway traffic signal",
-      "result_status": "Agenda packet requested award of Bid 2567-B for a traffic signal and guardrail at the QTS driveway, with costs to be reimbursed by QTS. The accessible packet does not establish the final vote result.",
-      "vote_tally": "not published in reviewed packet",
+      "result_status": "Action agenda records approval of an agreement with QTS Fayetteville I LLC for Contract #2567-B and award of Bid #2567-B to NGT Group LLC for $145,047.59 for traffic signal, supporting equipment, and guardrail at the QTS Data Center driveway on Tyrone Road.",
+      "vote_tally": "agreement passed 4-1; bid award passed 5-0",
       "case_or_ordinance_permit_number": "Bid 2567-B",
-      "primary_url": "https://fayettecountyga.gov/Documents/Government/Board%20of%20Commissioners/Agendas%20And%20Minutes/2025/Agenda/05-08-2025-Agenda.pdf?t=202511250955490",
-      "access_caveat": "Agenda/staff request is not substituted for minutes or a vote tally.",
+      "primary_url": "https://fayettecountyga.gov/Documents/Government/Board%20of%20Commissioners/Agendas%20And%20Minutes/2025/Agenda%20of%20Actions/05-08-2025-Agenda_of_Actions.pdf?t=202511250955490",
+      "access_caveat": "Public infrastructure action; not a data-center building approval.",
       "evidence_note": "Public infrastructure action related to access; not a data-center building approval."
+    },
+    {
+      "date": "2025-10-23",
+      "date_precision": "day",
+      "government_body": "Fayette County Board of Commissioners",
+      "action_type": "water-line easement",
+      "result_status": "County minutes record approval to accept a water-line easement agreement between QTS Fayetteville I, LLC and Fayette County, Georgia for a non-exclusive easement to Fayette County.",
+      "vote_tally": "consent agenda approved; individual vote tally not separately stated",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://fayettecountyga.gov/Documents/Government/Board%20of%20Commissioners/Agendas%20And%20Minutes/2025/Minutes/10-23-2025%20Mnutes%20.pdf?t=202604131625260",
+      "access_caveat": "Easement acceptance is utility infrastructure evidence, not proof of building occupancy or energization.",
+      "evidence_note": "Confirms QTS Fayetteville I, LLC project entity in county utility documents."
     },
     {
       "date": "2026-01-27",
@@ -74,10 +101,46 @@
       "primary_url": "https://fayettecountyga.gov/news_detail_T2_R185.php",
       "access_caveat": "County facts page is a public explanation, not the complete meter, stormwater, or permit file.",
       "evidence_note": "Water-system administration and construction context; not a building or occupancy record."
+    },
+    {
+      "date": "2026-05-14",
+      "date_precision": "day",
+      "government_body": "Fayette County Board of Commissioners",
+      "action_type": "water-line easements",
+      "result_status": "County minutes record consent-agenda approval of two Water Line Easement agreements between QTS Fayetteville I, LLC and Fayette County, Georgia to provide Fayette County Water System infrastructure access along Highway 54 and Tyrone Road.",
+      "vote_tally": "consent agenda passed 4-0",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://fayettecountyga.gov/Documents/Government/Board%20of%20Commissioners/Agendas%20And%20Minutes/2026/Minutes/05-14-2026%20Minutes.pdf?t=202606011249530",
+      "access_caveat": "Easement approvals are utility infrastructure evidence, not proof of building occupancy or energization.",
+      "evidence_note": "Confirms additional water-system access actions for the QTS campus."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "City of Fayetteville, Georgia",
+      "action_type": "public FAQ / campus facts",
+      "result_status": "City FAQ identifies one Fayetteville data center campus, QTS Data Centers, along Highway 54 West between Veterans Parkway and Tyrone Road; it states the QTS facility includes 13 buildings totaling approximately 6.2 million square feet.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.fayetteville-ga.gov/Faq.aspx?TID=46",
+      "access_caveat": "FAQ provides campus description but no MW capacity, permit number, occupancy certificate, or energization milestone.",
+      "evidence_note": "Official city source for location, owner/operator label, and building/square-foot scope."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Fayette County, Georgia",
+      "action_type": "county budget / construction timeline",
+      "result_status": "Fayette County FY2026 budget states that QTS is building a new data center on a 600+ acre parcel in Fayetteville, construction started in March 2023, and estimated completion is February 2027.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "FY 2026 Operating and Capital Budget",
+      "primary_url": "https://fayettecountyga.gov/Documents/Departments/Finance/FY%202026%20Budget%20Document.pdf?t=202604141155510",
+      "access_caveat": "Budget narrative is not a permit ledger and does not publish MW capacity or energization status.",
+      "evidence_note": "Official county source for construction timeline and parcel scale."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "QTS Data Centers; county records identify QTS Fayetteville I, LLC as the project agreement/easement entity",
   "sources": {
     "phase3_stable_id": "GA-001",
     "phase3_source_file": "phase3/county_ga_nc_sc.json",
@@ -85,9 +148,33 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.fayetteville-ga.gov/746/Data-Center-Discussion",
+      "https://www.fayetteville-ga.gov/Faq.aspx?TID=46",
+      "https://q.com/data-centers/fayetteville/",
+      "https://q.com/news/qts-statement-on-responsible-data-center-growth-and-ratepayer-protection/",
+      "https://fayettecountyga.gov/Documents/Government/Board%20of%20Commissioners/Agendas%20And%20Minutes/2025/Agenda%20of%20Actions/05-08-2025-Agenda_of_Actions.pdf?t=202511250955490",
+      "https://fayettecountyga.gov/Documents/Government/Board%20of%20Commissioners/Agendas%20And%20Minutes/2025/Minutes/10-23-2025%20Mnutes%20.pdf?t=202604131625260",
+      "https://fayettecountyga.gov/Documents/Government/Board%20of%20Commissioners/Agendas%20And%20Minutes/2026/Minutes/05-14-2026%20Minutes.pdf?t=202606011249530",
+      "https://www.fayetteville-ga.gov/DocumentCenter/View/4480/Fayette-County-QTS-Water-Bill-Clarification-2026-05-13",
+      "https://fayettecountyga.gov/Documents/Departments/Finance/FY%202026%20Budget%20Document.pdf?t=202604141155510"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date_identified": "2026-08-11",
+      "field": "campus_size",
+      "official_position": "City FAQ says 13 buildings totaling approximately 6.2 million square feet.",
+      "conflicting_claim": "Unofficial industry/social sources found in search results claim 16 buildings and approximately 6.6 million square feet of data-center space, sometimes plus 400,000 square feet of office space.",
+      "resolution": "Use official City of Fayetteville FAQ values until a primary permit/site-plan document supports the larger figure.",
+      "official_url": "https://www.fayetteville-ga.gov/Faq.aspx?TID=46",
+      "conflicting_urls": [
+        "https://baxtel.com/data-center/qts-fayetteville",
+        "https://www.linkedin.com/posts/jack-baldwin-1052b1188_construction-hyperscale-missioncritical-activity-7389663565957468162-1_B8"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -9,10 +9,13 @@
   "location": {
     "city": "Calvert City",
     "county": "Marshall County",
-    "state": "KY"
+    "state": "KY",
+    "address": "1035 Shar-Cal Rd, Calvert City, KY 42029",
+    "parcel_note": "SEC collateral schedule identifies the Calvert City real property as 35.6193 acres at 1035 Shar Cal Rd., owned in fee by American Property Acquisition, LLC, a Core Scientific Operating Company subsidiary."
   },
   "phase3_stable_id": "KY-001",
-  "status_as_of_cutoff": "A company filing describes a 150 MW site and planned expansion to 300 MW in 2025–2027; the accessible government record establishes the county/city permit framework but no project-specific building, utility, inspection, CO, or energized-expansion record was located.",
+  "status_as_of_cutoff": "Operating 150 MW Core Scientific facility at Calvert City / Paducah-Calvert City. Current company and SEC materials confirm 150 MW gross utility / total power capacity, 15-acre campus footprint, 60,000 square feet, and one Kentucky facility; no official/local-government or company filing evidence was located that the older 300 MW 2025-2027 expansion plan has a project-specific permit, construction start, certificate of occupancy, utility energization, or completed buildout.",
+  "evidence_grade": "B - company/SEC-confirmed operating facility; expansion beyond 150 MW remains unverified by project-specific government records.",
   "actions": [
     {
       "date": "2024-03-12",
@@ -37,10 +40,58 @@
       "primary_url": "https://corescientific.com/high-density-data-centers/calvert-city-ky/",
       "access_caveat": "Current company page is not a government record and does not confirm completion of the planned expansion.",
       "evidence_note": "The 150 MW facility reference is not treated as proof that 300 MW is online."
+    },
+    {
+      "date": "2026-03-02",
+      "date_precision": "day",
+      "government_body": "Core Scientific / U.S. SEC Form 10-K",
+      "action_type": "annual report utility-capacity disclosure",
+      "result_status": "Core's 2025 Form 10-K lists Tennessee Valley Authority gross utility power capacity of 150 MW for Paducah-Calvert City, Kentucky as of December 31, 2025.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001628280-26-013305/core-20251231.htm",
+      "access_caveat": "SEC filing confirms utility capacity, not local construction approvals or energization of any additional expansion above 150 MW.",
+      "evidence_note": "Supports setting capacity_mw to 150 and keeping the 300 MW expansion as unverified."
+    },
+    {
+      "date": "2026-04-16",
+      "date_precision": "day",
+      "government_body": "Core Scientific (company site; non-government)",
+      "action_type": "facility status page refresh",
+      "result_status": "Core's Calvert City page, modified April 16, 2026, identifies Calvert 1, 2, & 3 with 150 MW total power capacity, 15 acres, 60,000 square feet, and address 1035 Shar-Cal Rd.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://corescientific.com/high-density-data-centers/calvert-city-ky/",
+      "access_caveat": "Company page is not a government permit record and does not mention a 300 MW expansion as complete.",
+      "evidence_note": "Current public facility page corroborates the 150 MW operating capacity and address."
+    },
+    {
+      "date": "2026-07-01",
+      "date_precision": "day",
+      "government_body": "City of Calvert City",
+      "action_type": "planning/zoning forms page",
+      "result_status": "City forms page lists planning, zoning, conditional use, variance, floodplain development, highway-oriented commercial criteria, zoning compliance, zoning ordinance/map amendments, and commercial-industrial water/sewer service request forms; no project-specific Core Scientific expansion approval was found on the public page.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://calvertcityky.gov/forms/",
+      "access_caveat": "Forms page establishes the city review framework and was modified July 1, 2026; it is not a searchable permit ledger.",
+      "evidence_note": "Government-source check did not elevate the project to approved-permitted or construction status."
+    },
+    {
+      "date": "2026-07-28",
+      "date_precision": "day",
+      "government_body": "Core Scientific (company earnings release)",
+      "action_type": "company portfolio update",
+      "result_status": "Core reported Q2 2026 results, including AMD partnership capacity across five sites, approximately 1.1 GW leased customer power capacity, 437 MW billing as of mid-July, and facilities in seven states including one in Kentucky; the release does not identify a Calvert City-specific expansion beyond 150 MW.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://investors.corescientific.com/news-events/press-releases/detail/139/core-scientific-announces-second-quarter-2026-results",
+      "access_caveat": "Portfolio-level capacity figures are not allocated to Calvert City.",
+      "evidence_note": "New company activity is treated as platform context only, not a Calvert City capacity increase."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 150,
+  "owner": "Core Scientific, Inc. / Core Scientific Operating Company; Calvert City real property held by American Property Acquisition, LLC per SEC collateral schedule.",
   "sources": {
     "phase3_stable_id": "KY-001",
     "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
@@ -48,7 +99,14 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "source_urls": [
+      "https://calvertcityky.gov/forms/",
+      "https://corescientific.com/high-density-data-centers/calvert-city-ky/",
+      "https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001628280-26-013305/core-20251231.htm",
+      "https://investors.corescientific.com/news-events/press-releases/detail/139/core-scientific-announces-second-quarter-2026-results",
+      "https://www.sec.gov/Archives/edgar/data/1839341/000119312523058334/d411824dex101.htm"
+    ]
   },
   "contradictions": [],
   "seed_only": false,

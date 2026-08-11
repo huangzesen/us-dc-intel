@@ -11,10 +11,15 @@
   "location": {
     "city": "Santa Clara",
     "county": "Santa Clara County",
-    "state": "CA"
+    "state": "CA",
+    "address": "2915 Stender Way, Santa Clara, CA 95054",
+    "planning_address": "2905 Stender Way",
+    "apn": "216-29-108"
   },
   "phase3_stable_id": "US-CA-CORESITE-SV9-2025",
-  "status_as_of_cutoff": "Santa Clara official records verify planning, architectural, rezoning, and Silicon Valley Power substation actions. CoreSite announced completion on 2025-07-30 and current company materials identify a 228,000-plus-square-foot SV9 facility. The reviewed public trail does not include the building permit, final inspection, CO, or a utility energization/commissioning record; company completion is therefore labeled as a company claim.",
+  "status_tier": "partial live",
+  "status_as_of_cutoff": "Santa Clara official records verify planning, architectural, rezoning, CEQA, a 2022 construction-trailer special permit, and Silicon Valley Power substation-agreement actions. CoreSite announced completion on 2025-07-30 and current CoreSite facility materials list SV9 at 2915 Stender Way as the newest Santa Clara campus facility with 228,000+ square feet, onsite 2N Silicon Valley Power substation, 24x7x365 operations, 100% uptime SLA, and customer deployment options. DCD and Cleanview report the facility as live/operating in 2025. Publicly reviewed official records still do not include a building certificate of occupancy, final inspection, utility energization, or commissioned-load record, so the operating status is treated as company/current-market evidence rather than independently government-verified full buildout.",
+  "evidence_grade": "B",
   "actions": [
     {
       "date": "2019-09-18",
@@ -27,6 +32,18 @@
       "primary_url": "https://santaclara.legistar.com/LegislationDetail.aspx?GUID=24166224-E88A-4A24-B515-7B766A08AAF9&ID=5065823&Options=&Search=",
       "access_caveat": "Application filing is not final approval, a building permit, or construction start.",
       "evidence_note": "Official applicant and parcel trail."
+    },
+    {
+      "date": "2020-07-29",
+      "date_precision": "day",
+      "government_body": "California State Clearinghouse / City of Santa Clara",
+      "action_type": "CEQA mitigated negative declaration posted",
+      "result_status": "CEQAnet lists SCH 2020070532 for the 2905 Stender Way CoreSite SV9 Data Center, with City of Santa Clara as lead agency. The description covers removal of the existing one-story structure and replacement with an approximately 250,000-square-foot, four-story data center with 48 MW average power consumption and backup diesel generators.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "SCH 2020070532; CEQ2020-01075",
+      "primary_url": "https://ceqanet.lci.ca.gov/2020070532/2",
+      "access_caveat": "CEQA posting describes the proposed project and environmental review; it is not a building permit, CO, or energization record.",
+      "evidence_note": "Official state/local environmental record supporting location, scale, and utility-load context."
     },
     {
       "date": "2021-04-14",
@@ -65,20 +82,69 @@
       "evidence_note": "Utility context/contractual action; no energization inferred."
     },
     {
+      "date": "2022-09-13",
+      "date_precision": "day",
+      "government_body": "City of Santa Clara City Council and Authorities Concurrent",
+      "action_type": "construction support special permit",
+      "result_status": "Legistar File 22-1043 records City Council approval of a special permit allowing three temporary construction trailers at 2915 Stender Way for 18 months.",
+      "vote_tally": "Approved; roll-call tally not published in the accessible page",
+      "case_or_ordinance_permit_number": "File 22-1043",
+      "primary_url": "https://santaclara.legistar.com/ViewReport.ashx?GID=693&GUID=59066DE5-D96B-4B2A-9AC9-10D42EA76544&ID=5818371&M=R&N=Master&Title=Legislation+Details",
+      "access_caveat": "Construction trailers support a construction timeline but do not prove building completion, occupancy, or energization.",
+      "evidence_note": "Official city action after the March 2022 SVP substation agreement."
+    },
+    {
+      "date": "2023-05-23",
+      "date_precision": "day",
+      "government_body": "Not a government action; CoreSite/American Tower",
+      "action_type": "company construction milestone",
+      "result_status": "CoreSite reported that SV9 had secured building permits in 2022, structural steel and concrete pours were complete, exterior skin installation had begun, and the project was scheduled for completion in 2024 with first phase occupancy in Q1 2024. The same release stated SV9 would offer 34 MW of IT load with a new onsite utility substation.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.coresite.com/news/coresite-expands-data-center-footprint-in-silicon-valley-and-denver-campuses-to-meet-growing-capacity-power-demands",
+      "access_caveat": "Company milestone and capacity statement; public official permit numbers and final inspection records were not exposed in the reviewed city portal/search results.",
+      "evidence_note": "Supports construction status and capacity basis, but not final occupancy."
+    },
+    {
       "date": "2025-07-30",
       "date_precision": "day",
       "government_body": "Not a government action; CoreSite/American Tower",
       "action_type": "company completion announcement",
-      "result_status": "CoreSite announced completion of SV9, describing more than 228,000 square feet at 2915 Stender Way and AI-ready service capability. No public CO or final inspection was located to independently verify service commencement.",
+      "result_status": "CoreSite announced completion of SV9, describing more than 228,000 square feet at 2915 Stender Way and AI-ready service capability. Current CoreSite SV9 materials list the site as the newest Santa Clara campus facility with 228,000+ square feet, onsite 2N Silicon Valley Power substation, 24x7x365 operations, 100% uptime SLA, and customer deployment options.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.coresite.com/news/coresite-expands-silicon-valley-campus-with-completion-of-228000-square-foot-ai-ready-data-center",
-      "access_caveat": "Company completion claim; the official city/utility records reviewed do not provide a matching CO or energization record.",
-      "evidence_note": "Completion announcement kept separate from government evidence."
+      "access_caveat": "Company completion/current-facility claim; no public CO, final inspection, or utility energization record was located.",
+      "evidence_note": "Completion and service-positioning evidence kept separate from government evidence."
+    },
+    {
+      "date": "2025-07-31",
+      "date_precision": "day",
+      "government_body": "Not a government action; Data Center Dynamics",
+      "action_type": "industry operating report",
+      "result_status": "DCD reported that CoreSite had completed/launched SV9, calling it a 228,000-square-foot facility offering 34 MW and stating that work started in early 2023.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.datacenterdynamics.com/en/news/coresite-launches-santa-clara-data-center-california/",
+      "access_caveat": "Industry media report relies on company completion and does not provide a city CO or utility energization record.",
+      "evidence_note": "Corroborates company live/operating narrative and 34 MW capacity."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Not a government action; current facility/tracker review",
+      "action_type": "current operating-status check",
+      "result_status": "CoreSite's current SV9 facility page remains live and describes customer colocation deployments, 228,000+ square feet, onsite 2N Silicon Valley Power substation, 24x7x365 operations, and 100% uptime SLA. Cleanview's current tracker lists CoreSite SV9 as operating with 34 MW capacity and 2025 operational year.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.coresite.com/data-center/sv9-santa-clara-ca",
+      "access_caveat": "Current commercial/tracker evidence; the reviewed public official sources still do not expose CO/final-inspection/energization records.",
+      "evidence_note": "Supports status_tier=partial live pending official completion/energization confirmation."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 34,
+  "capacity_basis": "34 MW IT load from CoreSite's 2023 company construction release, corroborated by DCD and Cleanview. Official CEQA/SVP documents describe 48 MW average power consumption and 49 MVA anticipated utility demand; these are utility/load-planning figures and are not treated as the sellable IT-load capacity.",
+  "owner": "CoreSite, an American Tower company; official Santa Clara records name CoreSite Real Estate SV9 L.P. for the SV9 application/substation agreement.",
   "sources": {
     "phase3_stable_id": "US-CA-CORESITE-SV9-2025",
     "phase3_source_file": "phase3/county_ca_or.json",
@@ -86,9 +152,58 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3 to regional stable-ID pair; seed merged only with explicit evidence",
+    "source_urls": [
+      "https://santaclara.legistar.com/LegislationDetail.aspx?GUID=24166224-E88A-4A24-B515-7B766A08AAF9&ID=5065823&Options=&Search=",
+      "https://santaclara.legistar.com/LegislationDetail.aspx?GUID=4CF0AFBF-D83A-4C68-8E10-739B02C75B33&ID=4905309",
+      "https://santaclara.legistar.com/LegislationDetail.aspx?GUID=42334724-887E-427D-B743-30E6EA887BF4&ID=5530847&Options=&Search=",
+      "https://santaclara.legistar.com/ViewReport.ashx?GID=693&GUID=59066DE5-D96B-4B2A-9AC9-10D42EA76544&ID=5818371&M=R&N=Master&Title=Legislation+Details",
+      "https://ceqanet.lci.ca.gov/2020070532/2",
+      "https://www.coresite.com/news/coresite-expands-data-center-footprint-in-silicon-valley-and-denver-campuses-to-meet-growing-capacity-power-demands",
+      "https://www.coresite.com/news/coresite-expands-silicon-valley-campus-with-completion-of-228000-square-foot-ai-ready-data-center",
+      "https://www.coresite.com/data-center/sv9-santa-clara-ca",
+      "https://www.coresite.com/data-center-locations/silicon-valley",
+      "https://www.datacenterdynamics.com/en/news/coresite-launches-santa-clara-data-center-california/",
+      "https://cleanview.co/data-centers/california/1033/coresite-sv9"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "capacity / load basis",
+      "details": "CoreSite's 2023 release and industry trackers state 34 MW IT load/capacity; CEQAnet describes 48 MW average power consumption and the SVP agreement describes 49 MVA anticipated maximum demand. The record uses 34 MW as IT-load capacity and preserves 48 MW/49 MVA as utility-planning context."
+    },
+    {
+      "topic": "building size",
+      "details": "Official planning/CEQA materials describe approximately 250,000 square feet, CoreSite's 2023 construction release used 240,000 square feet, the current CoreSite facility/completion pages use 228,000+ square feet, and the CoreSite spec-sheet page still says 200,000 square feet of turn-key data center space. The record uses current CoreSite facility/completion figure for operating footprint."
+    },
+    {
+      "topic": "status verification",
+      "details": "CoreSite, DCD, and Cleanview support a 2025 live/operating status, but the reviewed official public trail does not expose a certificate of occupancy, final inspection, utility energization, or commissioned-load record."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Santa Clara official records verify planning, architectural, rezoning, and Silicon Valley Power substation actions. CoreSite announced completion on 2025-07-30 and current company materials identify a 228,000-plus-square-foot SV9 facility. The reviewed public trail does not include the building permit, final inspection, CO, or a utility energization/commissioning record; company completion is therefore labeled as a company claim.",
+      "new_value": "partial live / company-current evidence, with official CO/final inspection/energization still unverified",
+      "reason": "Current CoreSite facility page, completion announcement, DCD, and Cleanview support operating status; public official completion records were not located."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 34,
+      "reason": "CoreSite's 2023 construction release states 34 MW of IT load; DCD and Cleanview corroborate 34 MW."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "CoreSite, an American Tower company; official Santa Clara records name CoreSite Real Estate SV9 L.P.",
+      "reason": "Company pages identify CoreSite/American Tower; official Santa Clara records identify the project entity."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -10,38 +10,91 @@
   "location": {
     "city": "Rosemount",
     "county": "Dakota County",
-    "state": "MN"
+    "state": "MN",
+    "site": "UMore Park, northeast portion / east of Dakota County Technical College",
+    "location_note": "Official sources place the campus on a 280-acre parcel in UMore Park in Rosemount; no public street address or building-level parcel identifier was confirmed during this refresh."
   },
   "phase3_stable_id": "MN-ROSEMOUNT-META",
-  "status_as_of_cutoff": "Rosemount's official progress page describes Meta's UMore Park data center as approved/under construction with a 2026 completion target and sustainability goals. No public building-level permit number, MW/load figure, inspection closeout, CO, utility service, energization, commissioning, or initial-service record was located.",
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A-: official City of Rosemount, Minnesota PUC, Minnesota Governor, and Meta sources verify approval, active construction/development, project sponsor/entities, site, scale, and target operations/completion window; building-level permit/CO/energization records and current IT-load capacity remain unverified.",
+  "status_note": "Rosemount's official development page says City Council approved Project Bigfoot/Jimnist for a technology campus/data center in UMore Park and to watch for early development. The same page, Governor's office, and Meta fact sheet place completion/operations in 2026. MPR reported on 2026-06-12 that Meta's Rosemount hyperscale data center was under construction, with an aerial image dated 2026-05-28. Rosemount Ordinance 2026-03, adopted 2026-04-21, imposed a citywide data-center moratorium but expressly exempts construction/expansion for existing or approved data center projects.",
   "actions": [
+    {
+      "date": "2023-10-12",
+      "date_precision": "day",
+      "government_body": "Minnesota Public Utilities Commission",
+      "action_type": "electric service agreements approval",
+      "result_status": "approved",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "M-22-572 / M-22-579",
+      "primary_url": "https://content.govdelivery.com/accounts/MNPUBUC/bulletins/37577b1",
+      "access_caveat": "PUC news release verifies the approved service agreements and interconnection-agreement category, but does not publish a MW amount in the release.",
+      "evidence_note": "PUC identified the data center as owned/operated by a Meta affiliate, Amber Kestral, LLC, in Rosemount on the northeast portion of UMore Park."
+    },
     {
       "date": "2024",
       "date_precision": "year",
       "government_body": "City of Rosemount",
-      "action_type": "official development-progress status",
-      "result_status": "The city's progress page describes the Meta UMore Park data center as an approved/active development and gives a 2026 completion target. The page does not expose the underlying approval resolution or permit.",
+      "action_type": "official development-progress status / City Council approval narrative",
+      "result_status": "approved / active development",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.rosemountmn.gov/progress",
-      "access_caveat": "Year-only city progress statement; no underlying approval document or roll call was retrieved.",
-      "evidence_note": "Official status context, not a reconstructed vote."
+      "primary_url": "https://www.rosemountmn.gov/920/Development-in-Rosemount",
+      "access_caveat": "City page is an official narrative article, not the underlying resolution, packet, permit, or roll-call record.",
+      "evidence_note": "The city says Council approved Project Bigfoot, a Jimnist, LLC technology-campus/data-center proposal on 280 acres formerly owned by the University of Minnesota, with buildings totaling approximately 725,000 square feet."
     },
     {
-      "date": "2026-07-01",
+      "date": "2024-03-14",
       "date_precision": "day",
-      "government_body": "City of Rosemount",
-      "action_type": "construction-progress/status update",
-      "result_status": "The city page continues to describe Meta's data center as under development/construction and targeting completion in 2026, with renewable-energy and LEED Gold goals.",
+      "government_body": "Office of Governor Tim Walz and Lt. Governor Peggy Flanagan",
+      "action_type": "state/company project announcement",
+      "result_status": "announced for 2026 operations",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.rosemountmn.gov/progress",
-      "access_caveat": "City progress page does not publish a building permit, inspection, CO, energization, or service milestone.",
-      "evidence_note": "Official current status; physical completion and operation are not inferred."
+      "primary_url": "https://mn.gov/governor/newsroom/press-releases/?id=1055-614120",
+      "access_caveat": "Announcement is not a local permit or energization record.",
+      "evidence_note": "Governor's office announced Meta would build an $800 million, 715,000-square-foot data center on a 280-acre parcel in UMore Park, with about 100 operational jobs and at least 1,000 peak construction jobs."
+    },
+    {
+      "date": "2025-02",
+      "date_precision": "month",
+      "government_body": "Meta",
+      "action_type": "company project fact sheet",
+      "result_status": "active company project",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://datacenters.atmeta.com/wp-content/uploads/2025/02/Metas-Rosemount-Data-Center.pdf",
+      "access_caveat": "Company fact sheet; not a permit, inspection, service, or energization record.",
+      "evidence_note": "Meta lists $800M+ Minnesota data center investment, approximately 100 operational jobs once completed, 1,000 peak skilled trade workers, renewable-energy matching, and water-efficiency measures."
+    },
+    {
+      "date": "2026-04-21",
+      "date_precision": "day",
+      "government_body": "City of Rosemount",
+      "action_type": "interim ordinance / data center moratorium",
+      "result_status": "adopted; approved/existing data center work exempted",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Ordinance No. 2026-03",
+      "primary_url": "https://www.rosemountmn.gov/DocumentCenter/View/8294",
+      "access_caveat": "Moratorium ordinance is regulatory context, not a project milestone approval.",
+      "evidence_note": "The ordinance prohibits new data-center actions during the study period but allows construction/expansion of structures or equipment for existing or approved data center projects."
+    },
+    {
+      "date": "2026-06-12",
+      "date_precision": "day",
+      "government_body": "MPR News",
+      "action_type": "regional media construction observation",
+      "result_status": "under construction",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.mprnews.org/story/2026/06/12/new-data-center-regulations-in-minnesota-halted-after-pushback-from-unions-industry",
+      "access_caveat": "Regional media observation; used only to corroborate physical construction because no city inspection/CO record was located.",
+      "evidence_note": "MPR identified Meta's Rosemount hyperscale data center as under construction and dated its aerial image May 28, 2026."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_note": "No current official MW/IT-load figure was located. The PUC release confirms approved electric-service and interconnection agreements but omits load. Secondary reporting from 2022 PUC filings described Amber Kestral as initially at least 10 MW and growing to exceed 75 MW over 10 years; that figure is not promoted to capacity_mw because an accessible official filing was not retrieved in this refresh.",
+  "owner": "Meta Platforms, Inc.; PUC/customer affiliate: Amber Kestral, LLC; local application/development entity: Jimnist, LLC",
   "sources": {
     "phase3_stable_id": "MN-ROSEMOUNT-META",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -51,9 +104,111 @@
       "US-MN-META-ROSEMOUNT-2024"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3\u2194regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      {
+        "url": "https://www.rosemountmn.gov/920/Development-in-Rosemount",
+        "title": "City of Rosemount - Development in Rosemount",
+        "date": "2026-08-11",
+        "facts_supported": [
+          "City Council approved Project Bigfoot/Jimnist application",
+          "technology campus/data center",
+          "280 acres in UMore Park east of Dakota County Technical College",
+          "approximately 725000 sq ft across multiple buildings",
+          "Meta identified as the company",
+          "2026 completion target and sustainability goals"
+        ]
+      },
+      {
+        "url": "https://content.govdelivery.com/accounts/MNPUBUC/bulletins/37577b1",
+        "title": "Minnesota PUC approves service agreements for Meta's data center",
+        "date": "2023-10-12",
+        "facts_supported": [
+          "PUC electric service agreements approved",
+          "Meta affiliate Amber Kestral LLC",
+          "Rosemount northeast UMore Park",
+          "retail electric service agreement",
+          "competitive rate response rider agreement",
+          "interconnection agreement"
+        ]
+      },
+      {
+        "url": "https://mn.gov/governor/newsroom/press-releases/?id=1055-614120",
+        "title": "Governor Walz Announces Meta Will Build New Data Center in Rosemount",
+        "date": "2024-03-14",
+        "facts_supported": [
+          "Meta sponsor",
+          "$800 million investment",
+          "715000 sq ft",
+          "280-acre UMore Park parcel",
+          "2026 operations target",
+          "100 operational jobs",
+          "1000 peak construction jobs",
+          "LEED Gold after commencing operations"
+        ]
+      },
+      {
+        "url": "https://datacenters.atmeta.com/wp-content/uploads/2025/02/Metas-Rosemount-Data-Center.pdf",
+        "title": "Meta's Rosemount Data Center fact sheet",
+        "date": "2025-02",
+        "facts_supported": [
+          "$800M+ data center investment in Minnesota",
+          "approximately 100 operational jobs once completed",
+          "1000 skilled trade workers at peak construction",
+          "100% clean and renewable energy matching",
+          "water-efficiency and on-site rainwater infiltration commitments"
+        ]
+      },
+      {
+        "url": "https://www.rosemountmn.gov/DocumentCenter/View/8294",
+        "title": "City of Rosemount Ordinance No. 2026-03",
+        "date": "2026-04-21",
+        "facts_supported": [
+          "one-year data center moratorium",
+          "study of data center regulation",
+          "exemption for existing or approved data center project construction/expansion"
+        ]
+      },
+      {
+        "url": "https://www.mprnews.org/story/2026/06/12/new-data-center-regulations-in-minnesota-halted-after-pushback-from-unions-industry",
+        "title": "MPR News - state data-center regulations halted",
+        "date": "2026-06-12",
+        "facts_supported": [
+          "Meta Rosemount hyperscale data center under construction",
+          "aerial image dated 2026-05-28"
+        ]
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "building_area_sqft",
+      "old_value": null,
+      "new_value": null,
+      "assessment": "Official and primary-adjacent sources differ slightly: Rosemount's development page describes a series of buildings totaling approximately 725,000 sq ft, while the Governor's 2024 announcement and MPR's 2024 announcement use 715,000 sq ft. Both are retained as scale evidence; no dedicated building_area_sqft field is added.",
+      "source_urls": [
+        "https://www.rosemountmn.gov/920/Development-in-Rosemount",
+        "https://mn.gov/governor/newsroom/press-releases/?id=1055-614120",
+        "https://www.mprnews.org/story/2024/03/14/meta-to-open-data-center-in-rosemount-in-2026"
+      ]
+    }
+  ],
   "seed_only": false,
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": "Rosemount's official progress page describes Meta's UMore Park data center as approved/under construction with a 2026 completion target and sustainability goals. No public building-level permit number, MW/load figure, inspection closeout, CO, utility service, energization, commissioning, or initial-service record was located.",
+      "capacity_mw": null,
+      "owner": null,
+      "location": {
+        "city": "Rosemount",
+        "county": "Dakota County",
+        "state": "MN"
+      },
+      "note": "Baseline state before 2026-08-11 independent refresh."
+    }
+  ],
+  "last_refreshed": "2026-08-11",
+  "verified": true,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

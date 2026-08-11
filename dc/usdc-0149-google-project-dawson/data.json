@@ -3,25 +3,151 @@
   "canonical_project": "Google Project Dawson",
   "aliases": [
     "Google Project Dawson",
-    "Google Ridgeville data center"
+    "Google Ridgeville data center",
+    "Mallard, LLC",
+    "Project Dawson",
+    "Pine Hill Business Campus data center"
   ],
   "location": {
     "city": "Ridgeville",
-    "county": "Berkeley",
-    "state": "South Carolina"
+    "county": "Dorchester",
+    "state": "South Carolina",
+    "site": "Pine Hill Business Campus",
+    "address_or_parcels": "near Research Center Drive; PSC electric-service contract lists TMS 150-00-00-199 and 157-00-00-001"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A",
+  "actions": [
+    {
+      "date": "2024-02-08",
+      "government_body": "Public Service Commission of South Carolina",
+      "action_type": "electric_service_contract_approval",
+      "result_status": "approved",
+      "summary": "PSC approved the Dominion Energy South Carolina electric service contract for Mallard, LLC / Project Dawson and required annual reporting."
+    },
+    {
+      "date": "2024-05-28",
+      "government_body": "Public Service Commission of South Carolina",
+      "action_type": "like_facility_determination",
+      "result_status": "approved",
+      "summary": "PSC Order No. 2024-358 granted like-facility status for the Dawson 230 kV Substation and related Canadys-Dawson 230 kV line work."
+    },
+    {
+      "date": "2024-09-26",
+      "government_body": "South Carolina Governor / South Carolina Department of Commerce",
+      "action_type": "company_announcement",
+      "result_status": "announced",
+      "summary": "Google announced two new Dorchester County data center campuses at Pine Hill Business Campus in Ridgeville and Winding Woods Commerce Park in St. George as part of a $2 billion Dorchester County investment."
+    },
+    {
+      "date": "2025-10-13",
+      "government_body": "Dorchester County Economic Development",
+      "action_type": "construction_status_update",
+      "result_status": "active_construction",
+      "summary": "Dorchester County Economic Development stated Google's two Dorchester County data center campuses were under active construction."
+    },
+    {
+      "date": "2026-06-30",
+      "government_body": "Public Service Commission of South Carolina",
+      "action_type": "utility_construction_update",
+      "result_status": "partially_energized_utility_infrastructure",
+      "summary": "Dominion reported Dawson Substation Phase 1 energized on 2025-10-07, Phase 2 substantially complete except protection checkouts, and the project completion date extended to 2026-12-31 due to pole delivery delays."
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google",
   "sources": {
     "phase2_seed_stable_id": "US-SC-GOOGLE-DAWSON-RIDGEVILLE-2024",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
-    "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "authoritative_layer": "official/local-government and PSC refresh",
+    "match_reason": "Official South Carolina and Dorchester County sources identify Google's Ridgeville campus at Pine Hill Business Campus; PSC filings tie Project Dawson / Mallard, LLC to parcels near Research Center Drive in Ridgeville.",
+    "urls": [
+      {
+        "url": "https://datacenters.google/locations/south-carolina/",
+        "date": "2026-08-11",
+        "title": "Google Data Centers - South Carolina location page"
+      },
+      {
+        "url": "https://www.dorchestercountysc.gov/business/data-center-fact-sheet",
+        "date": "2026-08-11",
+        "title": "Dorchester County Data Center Fact Sheet"
+      },
+      {
+        "url": "https://governor.sc.gov/news/2024-09/google-grows-south-carolina-footprint-new-dorchester-county-operations-expansion",
+        "date": "2024-09-26",
+        "title": "Google grows South Carolina footprint with new Dorchester County operations, expansion in Berkeley County"
+      },
+      {
+        "url": "https://www.dorchesterforbusiness.com/news/google-expands-investment-in-dorchester-county/",
+        "date": "2025-10-13",
+        "title": "Google Expands Investment in Dorchester County"
+      },
+      {
+        "url": "https://dms.psc.sc.gov/Web/Dockets/Detail/118825",
+        "date": "2026-08-11",
+        "title": "SC PSC Docket 2023-379-E, Dominion Energy South Carolina and Mallard, LLC electric service contract"
+      },
+      {
+        "url": "https://dms.psc.sc.gov/Attachments/Matter/c7acfa51-279d-4898-9aa6-50cac971c2e9",
+        "date": "2023-11-09",
+        "title": "Public version electric service contract for Project Dawson / Mallard, LLC"
+      },
+      {
+        "url": "https://dms.psc.sc.gov/Web/Dockets/Detail/118947",
+        "date": "2026-08-11",
+        "title": "SC PSC Docket 2024-91-E, Dawson 230 kV Substation"
+      },
+      {
+        "url": "https://dms.psc.sc.gov/Attachments/Order/5385de10-0598-4a95-b52d-2d5eb5bbd21d",
+        "date": "2024-05-28",
+        "title": "PSC Order No. 2024-358 granting like-facility determination"
+      },
+      {
+        "url": "https://dms.psc.sc.gov/Attachments/Matter/6dd77535-82b1-4818-bb6c-f7cf41bb3413",
+        "date": "2026-06-30",
+        "title": "Dominion quarterly update on Dawson Substation project"
+      }
+    ]
   },
-  "contradictions": [],
-  "seed_only": true,
+  "contradictions": [
+    {
+      "field": "location.county",
+      "baseline_value": "Berkeley",
+      "current_evidence_value": "Dorchester",
+      "status": "resolved_to_current_official_sources",
+      "notes": "The seed/SKILL one-line location listed Berkeley County, but official South Carolina, Dorchester County, Google, and PSC sources place the Ridgeville/Pine Hill Business Campus project in Dorchester County. Berkeley County references in official announcements refer to Google's separate Moncks Corner expansion."
+    },
+    {
+      "field": "capacity_mw",
+      "baseline_value": null,
+      "current_evidence_value": null,
+      "status": "unresolved_redacted",
+      "notes": "PSC filings confirm substantial load and 230 kV service infrastructure, but public contract capacity values are redacted; no reliable MW capacity was found."
+    }
+  ],
+  "seed_only": false,
+  "history": [
+    {
+      "date": "2026-08-11",
+      "changes": [
+        {
+          "field": "status_as_of_cutoff",
+          "from": null,
+          "to": "site work-construction"
+        },
+        {
+          "field": "owner",
+          "from": null,
+          "to": "Google"
+        },
+        {
+          "field": "location.county",
+          "from": "Berkeley",
+          "to": "Dorchester"
+        }
+      ]
+    }
+  ],
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -8,10 +8,13 @@
   "location": {
     "city": "Elk Grove Village",
     "county": "Cook",
-    "state": "IL"
+    "state": "IL",
+    "address": "1830 Jarvis Ave",
+    "address_evidence": "Third-party facility listings identify 1830 Jarvis Ave; STACK official materials identify Elk Grove Village but do not publish a street address."
   },
   "phase3_stable_id": "IL-ELK-GROVE-STACK-CHI02",
-  "status_as_of_cutoff": "Company-reported under construction; no project-specific public energization, completion, or accessible building-permit record was located.",
+  "status_as_of_cutoff": "Announced / company-listed development; no project-specific public energization, completion, or accessible STACK CHI02 building-permit record was located in official/local-government sources as of 2026-08-11.",
+  "evidence_grade": "B: company official scale/location-city evidence plus official local/public-record negative permit check; street address and planned status supported by third-party facility trackers.",
   "actions": [
     {
       "date": "2025-03-25",
@@ -26,6 +29,18 @@
       "evidence_note": "Identity, scale, and claimed utility relationship only."
     },
     {
+      "date": "2025-03-25",
+      "date_precision": "month",
+      "government_body": "STACK Infrastructure (not a government action)",
+      "action_type": "company facility page / brochure",
+      "result_status": "STACK's current CHI02 location page and March 2025 brochure list CHI02 in Elk Grove Village as a 36MW, 18-acre campus/development, with the brochure specifying 263,620 square feet and shell or turnkey deployment options.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.stackinfra.com/locations/americas/chicago/chi02/",
+      "access_caveat": "Company marketing/facility material; confirms offered scale but not municipal approval, permit issuance, construction start, energization, or in-service date.",
+      "evidence_note": "Refresh confirmation of capacity, acreage, general location, and development positioning."
+    },
+    {
       "date": "2026-05-20",
       "date_precision": "day",
       "government_body": "Village of Elk Grove Village",
@@ -36,10 +51,34 @@
       "primary_url": "https://www.elkgrove.org/Home/Components/Calendar/Event/9496/",
       "access_caveat": "Village-wide notice does not identify STACK CHI02 or establish a project action.",
       "evidence_note": "Retained as official local context; no project-specific action inferred."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Cook County Open Data / Village of Elk Grove Village permit records",
+      "action_type": "official permit-record search",
+      "result_status": "Cook County open-data permit searches for STACK CHI02, EGV-STACK-CHI02, 1830 Jarvis, and 2025-2026 Elk Grove Village data-center permits did not return a project-specific STACK CHI02 permit. The data-center permit results instead identified other operators/projects.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://datacatalog.cookcountyil.gov/resource/6yjf-dfxs.json?$limit=100&$where=municipality=%27VILLAGE%20OF%20ELK%20GROVE%20VILLAGE%27%20and%20year%20in(%272026%27,%272025.0%27,%272025%27)%20and%20upper(work_description)%20like%20%27%25DATA%25%27",
+      "access_caveat": "Negative search evidence only; absence from this public dataset is not proof that no permit exists in all Village systems.",
+      "evidence_note": "Supports retaining no accessible project-specific permit / no verified construction milestone."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "DataCenterMap (industry tracker; not a government action)",
+      "action_type": "third-party facility listing",
+      "result_status": "DataCenterMap listed STACK Infrastructure CHI02 as Planned at 1830 Jarvis Ave, Elk Grove Village, Illinois, with 36MW and 263,000 square feet.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.datacentermap.com/usa/illinois/chicago/stack-infrastructure-chi02/",
+      "access_caveat": "Third-party tracker; used for street address and status context, not as approval or permit evidence.",
+      "evidence_note": "Address/status corroboration with lower source priority than official sources."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 36,
+  "owner": "STACK Infrastructure",
   "sources": {
     "phase3_stable_id": "IL-ELK-GROVE-STACK-CHI02",
     "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
@@ -47,9 +86,32 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "verified_urls": [
+      "https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-announces-new-36mw-data-center-in-chicago/",
+      "https://www.stackinfra.com/locations/americas/chicago/chi02/",
+      "https://www.stackinfra.com/wp-content/uploads/2025/03/CHI02-Brochure.pdf",
+      "https://www.elkgrove.org/Home/Components/Calendar/Event/9496/",
+      "https://datacatalog.cookcountyil.gov/resource/6yjf-dfxs.json?$limit=100&$where=municipality=%27VILLAGE%20OF%20ELK%20GROVE%20VILLAGE%27%20and%20year%20in(%272026%27,%272025.0%27,%272025%27)%20and%20upper(work_description)%20like%20%27%25DATA%25%27",
+      "https://www.datacentermap.com/usa/illinois/chicago/stack-infrastructure-chi02/",
+      "https://www.datacenterdynamics.com/en/news/stack-announces-36mw-data-center-in-chicago-illinois/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "summary": "Baseline phrasing said company-reported under construction, but refreshed official/company pages and industry tracker language support announced/planned/development only; no official permit, construction start, energization, or live-service evidence was located."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "field": "status_as_of_cutoff",
+      "old_value": "Company-reported under construction; no project-specific public energization, completion, or accessible building-permit record was located.",
+      "new_value": "Announced / company-listed development; no project-specific public energization, completion, or accessible STACK CHI02 building-permit record was located in official/local-government sources as of 2026-08-11.",
+      "reason": "Refresh separated company development/marketing language from construction evidence and added official permit-dataset negative search."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

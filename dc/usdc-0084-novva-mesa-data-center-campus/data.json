@@ -9,22 +9,40 @@
   "location": {
     "city": "Mesa",
     "county": "Maricopa",
-    "state": "AZ"
+    "state": "AZ",
+    "address": "4120 S Ellsworth Rd",
+    "site_description": "Northwest alignment / northwest corner area of Ellsworth Road and Warner Road in southeast Mesa, outside Loop 202",
+    "parcel_number": "304-31-141",
+    "latitude": 33.34059,
+    "longitude": -111.636049
   },
   "phase3_stable_id": "US-AZ-NOVVA-MESA-2024",
-  "status_as_of_cutoff": "Mesa design-review/site-plan record located and official exhibit calls the project approved; building permit, construction sequence, and power-on were not located.",
+  "status_as_of_cutoff": "approved-permitted (local entitlement/design-review evidence only): Mesa Legistar and open-data records identify Project Borealis / Novva-Mesa Ellsworth at 4120 S Ellsworth Rd, with DRB24-00292 and ZON24-00291 shown as Not Appealed as of 2026-01-08; no building permit, certificate of occupancy, construction start, or energization record was located in this refresh.",
+  "evidence_grade": "B - official City of Mesa planning/design-review records plus owner announcement/current owner page; no official building-permit, CO, or utility energization evidence located.",
   "actions": [
     {
       "date": "2024-08-13",
       "date_precision": "day",
       "government_body": "City of Mesa Design Review Board",
       "action_type": "design review agenda / site-plan record",
-      "result_status": "Mesa file DSN 24072 identifies DRB24-00292, Project Borealis, as a design review for a data center owned by Novva Holdings at Ellsworth and Warner roads. The page is an agenda/status record and does not itself publish an approval tally.",
+      "result_status": "Mesa file DSN 24072 identifies DRB24-00292, Project Borealis, as a design review for a data center owned by Novva Holdings at Ellsworth and Warner roads. Mesa open data later lists DRB24-00292 as Not Appealed with a 2026-01-08 record-status date; the records do not constitute a building permit or CO.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": "DSN 24072; DRB24-00292",
       "primary_url": "https://mesa.legistar.com/LegislationDetail.aspx?GUID=B35C2372-43EC-428D-BFBA-E042D78C6330&ID=6823351&Options=&Search=",
-      "access_caveat": "Official Mesa record accessible; status shown is an agenda/design-review record, not a building permit or CO.",
+      "access_caveat": "Official Mesa Legistar record and open-data planning dataset accessible; status is entitlement/design-review evidence, not a building permit, CO, or power-on record.",
       "evidence_note": "Body/context retained from prior file: City of Mesa Design Review Board."
+    },
+    {
+      "date": "2026-01-08",
+      "date_precision": "day",
+      "government_body": "City of Mesa Development Services",
+      "action_type": "planning/design-review open-data status update",
+      "result_status": "City open-data planning memo dataset lists DRB24-00292 Project Borealis and ZON24-00291 Project Borealis as Not Appealed, with DRB24-00292 task status Revision Required and ZON24-00291 task status Revisions Required. The same dataset lists ZON25-00549 Novva-Mesa Ellsworth, opened 2025-07-14 at 4120 S Ellsworth Rd, with status Not Appealed and task status Revisions Required as of 2026-01-08.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DRB24-00292; ZON24-00291; ZON25-00549",
+      "primary_url": "https://data.mesaaz.gov/api/views/u5a9-tj5y/rows.csv?accessType=DOWNLOAD&api_foundry=true",
+      "access_caveat": "Official open-data CSV; row-level status fields do not expose the full approval packet, permit issuance, inspections, CO, or utility energization.",
+      "evidence_note": "Queried for Project Borealis / Novva-Mesa Ellsworth rows during 2026-08-11 refresh."
     },
     {
       "date": "2025-06-11",
@@ -37,10 +55,34 @@
       "primary_url": "https://mesa.legistar.com/View.ashx?GUID=A00FF1AF-F111-427B-A2CF-1D6A163B2174&ID=14315597&M=F",
       "access_caveat": "Official exhibit accessible; it does not expose the underlying full approval resolution, permit register, or inspections.",
       "evidence_note": "Body/context retained from prior file: City of Mesa / Novva representative."
+    },
+    {
+      "date": "2024-08-21",
+      "date_precision": "day",
+      "government_body": "Novva Data Centers",
+      "action_type": "owner project announcement",
+      "result_status": "Novva announced a 300 MW Mesa campus on 160 acres, to be built in two phases over the next decade, with a 96 MW critical-IT-load first phase targeted to launch in late 2026. Novva's current Mesa location page continues to describe the campus as 300 MW over two phases.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.novva.com/media-center/novva-data-centers-announces-new-campus-in-mesa/",
+      "access_caveat": "Owner/developer announcement; schedule and phase capacity are projected and not independent evidence of construction completion or energization.",
+      "evidence_note": "Capacity corroborated by Novva's current Mesa location page: https://www.novva.com/data-center-facilities/mesa-az/"
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 300,
+  "capacity_mw_source": "Novva Data Centers announcement dated 2024-08-21 and current Mesa campus page; first phase stated as 96 MW critical IT load targeted for late 2026.",
+  "planned_phase_1_mw": 96,
+  "planned_phase_1_target": "late 2026 (developer projection; not verified as live)",
+  "planned_buildings": {
+    "data_halls": 5,
+    "data_hall_sqft_each": 225585,
+    "office_sqft": 150198,
+    "warehouse_sqft": 85120,
+    "total_building_area_sqft": 1329026,
+    "gross_site_area_acres": 159.17,
+    "site_plan_date": "2024-06-04"
+  },
+  "owner": "Novva Holdings, LLC / Novva Data Centers",
   "sources": {
     "phase3_stable_id": "US-AZ-NOVVA-MESA-2024",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -48,9 +90,32 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3<->regional stable-ID pair; seed merged only with explicit evidence",
+    "official_urls": [
+      "https://mesa.legistar.com/LegislationDetail.aspx?GUID=B35C2372-43EC-428D-BFBA-E042D78C6330&ID=6823351&Options=&Search=",
+      "https://mesa.legistar.com/View.ashx?GUID=DB435AFB-6E87-4710-BFDB-BE9F40B5A7EF&ID=13219989&M=F",
+      "https://data.mesaaz.gov/api/views/u5a9-tj5y/rows.csv?accessType=DOWNLOAD&api_foundry=true",
+      "https://data.mesaaz.gov/api/views/pu4a-r93z/rows.csv?accessType=DOWNLOAD"
+    ],
+    "owner_urls": [
+      "https://www.novva.com/media-center/novva-data-centers-announces-new-campus-in-mesa/",
+      "https://www.novva.com/data-center-facilities/mesa-az/"
+    ],
+    "negative_building_permit_checks": [
+      "https://data.mesaaz.gov/api/views/dzpk-hxfb/rows.csv?accessType=DOWNLOAD&api_foundry=true",
+      "https://data.mesaaz.gov/api/views/m2kk-w2hz/rows.csv?accessType=DOWNLOAD&api_foundry=true",
+      "https://data.mesaaz.gov/api/views/2gkz-7z4f/rows.csv?accessType=DOWNLOAD"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": "Mesa design-review/site-plan record located and official exhibit calls the project approved; building permit, construction sequence, and power-on were not located.",
+      "capacity_mw": null,
+      "owner": null
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

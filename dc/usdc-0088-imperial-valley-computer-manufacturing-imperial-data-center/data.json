@@ -14,7 +14,8 @@
     "state": "CA"
   },
   "phase3_stable_id": "US-CA-IVCM-IMPERIAL-2025",
-  "status_as_of_cutoff": "A large 330 MW/approximately 950,000-square-foot proposal is described by a City of Imperial notice, but the county's official December 2025 record says the lot-merger approval motion failed 5-2 for lack of six affirmative votes and that the data center itself was not before the commission. A later discussion motion passed 7-0. Construction, final land-use entitlement, building/grading completion, air/water/IID permits, CO, energization, and commissioning were not verified.",
+  "status_as_of_cutoff": "As of 2026-08-11, this remains a proposed/local-process data center rather than verified construction or operation. Imperial County's Board of Supervisors considered the appeal and approved Lot Merger #00191 and vacation of Leimgruber Road on 2026-04-07, and a 2026-04-08 CEQAnet Notice of Exemption identifies Imperial County as the public agency approving that lot-merger/road-vacation project for a future data center complex. The available official records do not verify final building/grading completion, air/water/IID service approvals, certificate of occupancy, energization, commissioning, partial live service, or full buildout. County data-center approvals are constrained by a temporary moratorium adopted in June 2026 and placed on the July 14, 2026 agenda for extension by ten months and fifteen days.",
+  "evidence_grade": "official-local for parcel/CEQA/moratorium status; developer/city for proposed 330 MW scale; utility feasibility not yet project-approved",
   "actions": [
     {
       "date": "2025-12-18",
@@ -27,6 +28,18 @@
       "primary_url": "https://imperialcounty.org/2025/12/plancommlotmerger/",
       "access_caveat": "County's public explanation is the accessible record used here; it says the matter would proceed through an appeal process, but a later Board of Supervisors construction entitlement was not located.",
       "evidence_note": "Negative/failed vote preserved; no approval inferred from majority support."
+    },
+    {
+      "date": "2026-04-07",
+      "date_precision": "day",
+      "government_body": "Imperial County Board of Supervisors",
+      "action_type": "appeals / lot merger / road vacation / conditions of approval",
+      "result_status": "Board packet requested action on Appeal #25-0004, Appeal #25-0005, and Lot Merger #00191 after the Planning Commission's failed December 2025 motion. The packet describes the applicant's proposal to consolidate five parcels and Leimgruber Road into an approximately 75.39-acre site for future development of a data center complex with an electrical substation, on-site battery energy storage system, and natural-gas backup generators. CEQAnet's filed Notice of Exemption identifies the Imperial County Board of Supervisors as the public agency approving the Lot Merger #00191 and vacation of Leimgruber Road on 2026-04-07.",
+      "vote_tally": "official packet/NOE verified approval; exact vote tally not found in accessible official text",
+      "case_or_ordinance_permit_number": "Appeal #25-0004; Appeal #25-0005; Lot Merger #00191; MERG00191; SCH 2026040352",
+      "primary_url": "https://ceqanet.lci.ca.gov/2026040352",
+      "access_caveat": "CEQAnet and the county Board packet verify approval of the lot-merger/road-vacation action, not construction, operation, utility service, or occupancy.",
+      "evidence_note": "Updates December 2025 failed Planning Commission posture to later Board-approved lot-merger/NOE posture."
     },
     {
       "date": null,
@@ -51,10 +64,35 @@
       "primary_url": "https://www.kpbs.org/news/politics/2026/06/17/after-months-of-public-pressure-imperial-county-passes-temporary-moratorium-on-data-centers",
       "access_caveat": "Secondary source; no county vote or ordinance number is inferred from the report.",
       "evidence_note": "Contestation context, not proof of denial or project disposition."
+    },
+    {
+      "date": "2026-06-16",
+      "date_precision": "day",
+      "government_body": "Imperial County Board of Supervisors",
+      "action_type": "data-center advisory committee / urgency interim moratorium",
+      "result_status": "The official Board agenda included discussion/action to establish a Data Center Advisory Committee and adopt an urgency interim ordinance imposing a temporary moratorium on approval of data center facilities within unincorporated Imperial County. KPBS reported the Board approved the 45-day moratorium unanimously.",
+      "vote_tally": "unanimous per KPBS; official agenda item verified",
+      "case_or_ordinance_permit_number": "Resolution No. 2026-105 referenced later for advisory committee; urgency interim ordinance number not located",
+      "primary_url": "https://imperial.granicus.com/GeneratedAgendaViewer.php?event_id=3007&view_id=2",
+      "access_caveat": "Official agenda verifies the scheduled action; accessible minutes or ordinance number were not located in this refresh.",
+      "evidence_note": "Moratorium affects approvals but is not project cancellation."
+    },
+    {
+      "date": "2026-07-14",
+      "date_precision": "day",
+      "government_body": "Imperial County Board of Supervisors",
+      "action_type": "public hearing / moratorium extension",
+      "result_status": "The official Board agenda included a public hearing to adopt an urgency interim ordinance under Government Code section 65858 extending the temporary moratorium on approval of Data Center Facilities in unincorporated Imperial County for an additional ten months and fifteen days.",
+      "vote_tally": "not found in accessible official text; local/court reporting says extended",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://imperial.granicus.com/GeneratedAgendaViewer.php?clip_id=2915&view_id=2",
+      "access_caveat": "Official agenda verifies the extension hearing/action item; accessible official minutes or final ordinance text were not located in this refresh.",
+      "evidence_note": "Latest official local-government status signal as of 2026-08-11."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 330,
+  "capacity_mw_basis": "Proposed/planned capacity from City of Imperial public notice and IVCM project website; not treated as energized, contracted utility service, or commissioned capacity.",
+  "owner": "Imperial Valley Computer Manufacturing, LLC",
   "sources": {
     "phase3_stable_id": "US-CA-IVCM-IMPERIAL-2025",
     "phase3_source_file": "phase3/county_ca_or.json",
@@ -62,9 +100,99 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      {
+        "url": "https://ceqanet.lci.ca.gov/2026040352",
+        "source_type": "official_state_ceqa",
+        "date": "2026-04-08",
+        "facts": "Notice of Exemption for Lot Merger #00191 and vacation of Leimgruber Road; Imperial County approving agency; future data center complex description."
+      },
+      {
+        "url": "https://imperial.granicus.com/MetaViewer.php?event_id=2981&meta_id=512592&view_id=2",
+        "source_type": "official_county_board_packet",
+        "date": "2026-04-07",
+        "facts": "Board packet for Appeals #25-0004/#25-0005 and Lot Merger #00191."
+      },
+      {
+        "url": "https://www.imperial.ca.gov/276/Data-Center-Info",
+        "source_type": "official_city_notice",
+        "date": "undated_accessed_2026-08-11",
+        "facts": "City notice describes approximately 950,000 square feet, 330 MW data center, 330 MW emergency backup generator building, and 862 MWh energy storage system."
+      },
+      {
+        "url": "https://www.iid.com/about-iid/community/data-center-facts",
+        "source_type": "official_utility_context",
+        "date": "undated_accessed_2026-08-11",
+        "facts": "IID states data-center proposals require feasibility, cost-recovery, interconnection, and reliability review and that IID will not expedite projects."
+      },
+      {
+        "url": "https://imperial.granicus.com/GeneratedAgendaViewer.php?event_id=3007&view_id=2",
+        "source_type": "official_county_agenda",
+        "date": "2026-06-16",
+        "facts": "Agenda item for Data Center Advisory Committee and temporary moratorium on data-center approvals."
+      },
+      {
+        "url": "https://imperial.granicus.com/GeneratedAgendaViewer.php?clip_id=2915&view_id=2",
+        "source_type": "official_county_agenda",
+        "date": "2026-07-14",
+        "facts": "Agenda item to extend the temporary moratorium for ten months and fifteen days."
+      },
+      {
+        "url": "https://www.kpbs.org/news/environment/2026/04/07/imperial-county-supervisors-clear-path-for-massive-data-center-complex-amid-fierce-opposition",
+        "source_type": "local_media",
+        "date": "2026-04-07",
+        "facts": "Reports 4-1 Board approval of the lot merger and notes power/water agreements still needed."
+      },
+      {
+        "url": "https://www.kpbs.org/news/politics/2026/06/17/after-months-of-public-pressure-imperial-county-passes-temporary-moratorium-on-data-centers",
+        "source_type": "local_media",
+        "date": "2026-06-17",
+        "facts": "Reports unanimous approval of 45-day data-center moratorium and advisory committee."
+      },
+      {
+        "url": "https://www.courthousenews.com/desert-data-center-developer-challenges-county-moratorium-in-court/",
+        "source_type": "legal_media",
+        "date": "2026-07-29",
+        "facts": "Reports developer challenge to county moratorium and says extension runs ten months and fifteen days, until June 2027."
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "water source / operating prerequisites",
+      "as_of": "2026-08-11",
+      "description": "The developer website states the project would use 100% reclaimed wastewater and operate under non-firm IID service, while local/legal reporting says IVCM sought Colorado River water from IID and sued after access disputes. Official IID materials reviewed here describe general data-center feasibility/interconnection safeguards but do not verify final water or power service approval for this project.",
+      "sources": [
+        "https://www.imperialdatacenter.com/",
+        "https://www.iid.com/about-iid/community/data-center-facts",
+        "https://www.kpbs.org/news/environment/2026/06/15/imperial-valley-data-center-developer-files-lawsuit-seeking-access-to-colorado-river-water",
+        "https://www.courthousenews.com/desert-data-center-developer-challenges-county-moratorium-in-court/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "A large 330 MW/approximately 950,000-square-foot proposal is described by a City of Imperial notice, but the county's official December 2025 record says the lot-merger approval motion failed 5-2 for lack of six affirmative votes and that the data center itself was not before the commission. A later discussion motion passed 7-0. Construction, final land-use entitlement, building/grading completion, air/water/IID permits, CO, energization, and commissioning were not verified.",
+      "change_reason": "Later official Board/CEQAnet records verify April 2026 lot-merger/road-vacation approval and June/July 2026 moratorium actions."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 330,
+      "change_reason": "Proposed capacity corroborated by City of Imperial notice and developer site; marked as proposed, not live."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Imperial Valley Computer Manufacturing, LLC",
+      "change_reason": "Applicant/owner name verified in CEQAnet and county Board packet."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

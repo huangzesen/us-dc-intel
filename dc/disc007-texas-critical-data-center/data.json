@@ -1,20 +1,85 @@
 {
   "disc_id": "disc007",
-  "canonical_project": "Texas Critical Data Center",
-  "owner": "Sharon AI and New Era Energy & Digital",
+  "canonical_project": "Texas Critical Data Centers",
+  "owner": "New Era Energy & Digital",
   "location": {
-    "city": "",
+    "city": "Odessa",
     "county": "Ector",
-    "state": "TX"
+    "state": "TX",
+    "site_description": "Outside Odessa in Ector County; Ector CAD parcel 46960.00010.00000 is listed at E LOOP 338, Odessa 79766 and owned by Texas Critical Data Centers LLC."
   },
-  "capacity_mw": 1000,
-  "status": "phase two site planning; behind-the-meter power agreements; large-load interconnection application planned",
-  "confidence": "medium",
-  "evidence_date": "2025-10-11",
+  "capacity_mw": 1400,
+  "status": "local process",
+  "confidence": "high",
+  "evidence_date": "2026-08-11",
   "sources": [
+    "https://search.ectorcad.org/parcel/46960.00010.00000",
+    "https://www.sec.gov/Archives/edgar/data/2028336/000121390026005330/ea0273263-8k425_newera.htm",
+    "https://www.sec.gov/Archives/edgar/data/2028336/000121390026043542/ea028610401ex99-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/2028336/000121390026058988/ea029141501ex99-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/2028336/000121390026080397/ea0298913-8k_newera.htm",
+    "https://www.newerainfra.ai/location/texas-critical-data-centers",
+    "https://www.businesswire.com/news/home/20251006294312/en/New-Era-Energy-Digitals-Joint-Venture-Texas-Critical-Data-Center-Initiates-Phase-Two-Engineering-for-AI-Data-Center-Campus-in-West-Texas-Updates-Company-Financial-Status-via-8K",
+    "https://www.businesswire.com/news/home/20251223632678/en/New-Era-Energy-Digital-Secures-Full-Ownership-of-Texas-Critical-Data-Centers-Through-Binding-Agreement-Completes-203-Acre-Land-Acquisition-Expanding-TCDC-Campus-in-Ector-County-Texas",
+    "https://www.businesswire.com/news/home/20260116994614/en/New-Era-Energy-Digital-Partners-with-Primary-Digital-Infrastructure-to-Co-Develop-Up-to-1-Gigawatt-Hyperscale-Data-Center-Campus-in-Texas",
+    "https://www.businesswire.com/news/home/20260226055146/en/New-Era-Energy-Digital-Strengthens-Integrated-Power-Positioning-at-TCDC-with-Strategic-54-Acre-Corridor-LOI",
     "https://www.mrt.com/business/article/ector-county-ai-data-center-21091297.php"
   ],
-  "why_not_in_baseline": "Not among the 208 canonical_project names; after-freeze Ector County AI/GPU campus expansion targeting 1 GW with stated large-load interconnection and behind-the-meter power path.",
+  "why_not_in_baseline": "Not among the 208 canonical_project names; after-freeze Ector County AI/HPC campus now owned by New Era Energy & Digital, with public-company disclosures showing Ector County site control, development/permitting workstreams, and a phased capacity target of up to 1.4 GW.",
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "issue": "Acreage varies by source and transaction status.",
+      "sources": [
+        "https://search.ectorcad.org/parcel/46960.00010.00000",
+        "https://www.businesswire.com/news/home/20251223632678/en/New-Era-Energy-Digital-Secures-Full-Ownership-of-Texas-Critical-Data-Centers-Through-Binding-Agreement-Completes-203-Acre-Land-Acquisition-Expanding-TCDC-Campus-in-Ector-County-Texas",
+        "https://www.businesswire.com/news/home/20260226055146/en/New-Era-Energy-Digital-Strengthens-Integrated-Power-Positioning-at-TCDC-with-Strategic-54-Acre-Corridor-LOI",
+        "https://www.sec.gov/Archives/edgar/data/2028336/000121390026058988/ea029141501ex99-1.htm",
+        "https://www.newerainfra.ai/location/texas-critical-data-centers"
+      ],
+      "detail": "Ector CAD currently exposes a 205.13-acre TCDC-owned parcel at E LOOP 338. Company releases and SEC materials describe 438 acres owned after the 203-acre acquisition, plus a 54-acre corridor LOI/definitive agreement that would bring the campus footprint to 492 acres. The public site markets 492 acres."
+    },
+    {
+      "date": "2026-08-11",
+      "issue": "Capacity is a target, not delivered or energized capacity.",
+      "sources": [
+        "https://www.businesswire.com/news/home/20251006294312/en/New-Era-Energy-Digitals-Joint-Venture-Texas-Critical-Data-Center-Initiates-Phase-Two-Engineering-for-AI-Data-Center-Campus-in-West-Texas-Updates-Company-Financial-Status-via-8K",
+        "https://www.sec.gov/Archives/edgar/data/2028336/000121390026058988/ea029141501ex99-1.htm",
+        "https://www.newerainfra.ai/location/texas-critical-data-centers"
+      ],
+      "detail": "Earlier disclosures used 1+ GW and 250 MW initial/behind-the-meter references. Current company site and May 2026 investor materials describe phased 200 MW, +450 MW, and +750 MW capacity toward a 1.4+ GW campus."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "canonical_project",
+      "old": "Texas Critical Data Center",
+      "new": "Texas Critical Data Centers",
+      "reason": "Aligned to company, SEC, and county-appraisal naming for Texas Critical Data Centers LLC/TCDC."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old": "Sharon AI and New Era Energy & Digital",
+      "new": "New Era Energy & Digital",
+      "reason": "New Era's January 2026 Form 8-K says it completed acquisition of SharonAI's equity interests in TCDC."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old": 1000,
+      "new": 1400,
+      "reason": "Updated from 1 GW target to current company/SEC 1.4 GW phased target; this remains planned capacity, not operating capacity."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "old": "phase two site planning; behind-the-meter power agreements; large-load interconnection application planned",
+      "new": "local process",
+      "reason": "Normalized to SKILL.md taxonomy. Evidence supports land ownership, development/permitting workstreams, early site preparation, financing, and power/interconnection planning, but no verified permit approval or construction start was found."
+    }
+  ],
   "discovery_file": "candidates-grid-queue.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

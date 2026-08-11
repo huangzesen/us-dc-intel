@@ -3,25 +3,260 @@
   "canonical_project": "Yorkville data-center campus",
   "aliases": [
     "Little Rock Township data center",
-    "Yorkville data-center campus"
+    "Yorkville data-center campus",
+    "C1 Yorkville data center",
+    "C1 Yorkville - CHI-11",
+    "Cyrus One CHI-11 Data Center Campus",
+    "CyrusOne Yorkville Technology Campus"
   ],
   "location": {
     "city": "Yorkville",
     "county": "Kendall",
-    "state": "Illinois"
+    "state": "Illinois",
+    "address": "Generally east of Eldamain Road, north of the BNSF railroad and Faxon Road, and west of Beecher Road, Yorkville, Illinois",
+    "site_area_acres": 228,
+    "location_note": "City records describe the active CHI-11/C1 Yorkville campus as approximately 228 acres; earlier city materials described approximately 230 acres."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "A",
+  "actions": [
+    {
+      "date": "2024-07-09",
+      "government_body": "United City of Yorkville City Council",
+      "action_type": "Planned Unit Development and preliminary PUD approval",
+      "result_status": "approved",
+      "notes": "Original C1 Yorkville / CyrusOne CHI-11 PUD was approved for a data-center campus and on-site substation; Yorkville's archived data-center petition table lists Ordinances 2024-31 and 2024-33 for Cyrus One Phase 1, and the city's 2026 sound consultant memo states the original PUD was approved on July 9, 2024.",
+      "source_url": "https://www.yorkville.il.us/933/Data-Center-Information-Archived"
+    },
+    {
+      "date": "2026-02",
+      "government_body": "United City of Yorkville City Council",
+      "action_type": "Minor PUD amendment",
+      "result_status": "approved",
+      "notes": "City archive lists the 2026 Cyrus One Phase 1 minor PUD amendment as Ordinance 2026-09. The request revised the approved substation footprint/location and eliminated Building 7 from the plan, reducing total building area to 2,163,800 sq ft.",
+      "source_url": "https://www.yorkville.il.us/932/Cyrus-One---Minor-PUD-Amendment"
+    },
+    {
+      "date": "2026-06-02",
+      "government_body": "United City of Yorkville Economic Development Committee",
+      "action_type": "Major PUD amendment review",
+      "result_status": "local process",
+      "notes": "C1 Yorkville submitted a major amendment/preliminary PUD plan for the Cyrus One CHI-11 campus to reduce the approved plan from nine two-story buildings totaling approximately 2,451,200 sq ft to eight one-story buildings with a maximum footprint of approximately 2,163,800 sq ft.",
+      "source_url": "https://www.yorkville.il.us/940/C1-Yorkville-Cyrus-One-CHI-11-Data-Cente"
+    },
+    {
+      "date": "2026-06-02",
+      "government_body": "C1 Yorkville / United City of Yorkville submittal",
+      "action_type": "Power allocation letter",
+      "result_status": "480 MW allocated; 174 MW supplemental requested; future design load not fully allocated",
+      "notes": "Petitioner's power letter says 480 MW has been allocated to date, C1 has executed necessary documentation and paid ComEd deposits for that allocation, allocated power is expected in tranches beginning in 2028, a 174 MW supplemental allocation was requested in April 2026, and the current configuration could accommodate 810 MW if additional load is requested and allocated.",
+      "source_url": "https://www.yorkville.il.us/DocumentCenter/View/13296/Power-Letter-6-2-2026?bidId="
+    },
+    {
+      "date": "2026-05-14",
+      "government_body": "C1 Yorkville / United City of Yorkville submittal",
+      "action_type": "Phasing plan",
+      "result_status": "Phase 1 under construction",
+      "notes": "City-posted CHI-11 infrastructure phasing plan states Phase 1 commenced in Q1 2026 and is currently under construction; Phase 1 covers construction entrance and substation construction.",
+      "source_url": "https://www.yorkville.il.us/DocumentCenter/View/13260"
+    },
+    {
+      "date": "2026-08-11",
+      "government_body": "CyrusOne",
+      "action_type": "Developer project page",
+      "result_status": "underway",
+      "notes": "CyrusOne's Yorkville Technology Campus page says the project was approved by the City of Yorkville in 2024, water and sanitary improvements began in 2025, site work began in early 2026, the first building is expected to be completed in late 2027, and full operations are expected in 2028.",
+      "source_url": "https://www.cyrusone.com/data-centers/north-america/yorkville-technology-campus"
+    }
+  ],
+  "capacity_mw": 480,
+  "capacity_note": "480 MW is the power allocated to date for C1 Yorkville per the 2026-06-02 power letter. The same letter says a 174 MW supplemental allocation was requested in April 2026, the Power Bureau study modeled 654 MW, and the current building configuration could accommodate 810 MW if additional load is later requested and allocated; those higher figures are tracked as requested/future, not current allocated capacity.",
+  "owner": "CyrusOne; land-use applicant/entity: C1 Yorkville, LLC",
   "sources": {
     "phase2_seed_stable_id": "US-IL-YORKVILLE-TRACT-2024",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
     "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "match_reason": "Matched seed-only Yorkville/Little Rock Township 480 MW planning signal to C1 Yorkville / Cyrus One CHI-11 based on Yorkville official records and a 2026 C1 power letter confirming 480 MW allocated power.",
+    "urls": [
+      {
+        "url": "https://www.yorkville.il.us/885/C1-Yorkville-LLC-Planned-Unit-Developmen",
+        "title": "C1 Yorkville, LLC Planned Unit Development (PUD) and Preliminary PUD Plan",
+        "date": "2024-06-12",
+        "facts_supported": [
+          "C1 Yorkville petitioner",
+          "secure data center campus",
+          "up to nine standalone building facilities",
+          "onsite electrical substation",
+          "approximately 230 acres",
+          "site east of Eldamain Road/north of BNSF and Faxon Road/west of Beecher Road"
+        ]
+      },
+      {
+        "url": "https://www.yorkville.il.us/933/Data-Center-Information-Archived",
+        "title": "Data Center Information (Archived) - Yorkville data center related petitions",
+        "date": "2026-08-11",
+        "facts_supported": [
+          "Cyrus One Phase 1 preliminary PUD plan",
+          "Ordinances 2024-31 and 2024-33",
+          "2026 minor PUD Ordinance 2026-09",
+          "2026 major PUD amendment awaiting recordation",
+          "Cyrus One Phase 2 withdrawn"
+        ]
+      },
+      {
+        "url": "https://www.yorkville.il.us/932/Cyrus-One---Minor-PUD-Amendment",
+        "title": "Cyrus One - Minor PUD Amendment",
+        "date": "2026-01-28",
+        "facts_supported": [
+          "previously approved PUD granted in 2024",
+          "substation footprint reduction",
+          "Building 7 eliminated",
+          "total building area reduced to 2163800 sq ft"
+        ]
+      },
+      {
+        "url": "https://www.yorkville.il.us/940/C1-Yorkville-Cyrus-One-CHI-11-Data-Cente",
+        "title": "C1 Yorkville - Cyrus One CHI-11 Data Center Campus (Major PUD Amendment & Preliminary PUD Plan)",
+        "date": "2026-06-10",
+        "facts_supported": [
+          "PZC 2026-03",
+          "approximately 228 acres",
+          "major amendment to existing PUD",
+          "eight one-story buildings",
+          "2163800 sq ft maximum footprint",
+          "site coverage changes",
+          "July 14 2026 City Council meeting"
+        ]
+      },
+      {
+        "url": "https://www.yorkville.il.us/DocumentCenter/View/13296/Power-Letter-6-2-2026?bidId=",
+        "title": "CHI-11 (Cyrus One) Campus Power Letter",
+        "date": "2026-06-02",
+        "facts_supported": [
+          "480 MW allocated power",
+          "ComEd documentation/deposits executed",
+          "allocated power tranches beginning 2028",
+          "174 MW supplemental power requested",
+          "654 MW Power Bureau study basis",
+          "810 MW possible current configuration"
+        ]
+      },
+      {
+        "url": "https://www.yorkville.il.us/DocumentCenter/View/13260",
+        "title": "C1-Yorkville Data Center CHI 11 Campus - Infrastructure Phasing Plan",
+        "date": "2026-05-14",
+        "facts_supported": [
+          "Phase 1 commenced Q1 2026",
+          "Phase 1 currently under construction",
+          "Phase 1 includes construction entrance and substation construction"
+        ]
+      },
+      {
+        "url": "https://www.yorkville.il.us/Archive.aspx?ADID=6827",
+        "title": "Soundscape Engineering - CyrusOne CHI 11 noise impact study guidelines",
+        "date": "2026-07-14",
+        "facts_supported": [
+          "C1 Yorkville LLC wholly owned subsidiary of CyrusOne",
+          "228-acre data center campus and on-site substation",
+          "original PUD approved July 9 2024",
+          "final noise study required before permitting approval"
+        ]
+      },
+      {
+        "url": "https://www.cyrusone.com/data-centers/north-america/yorkville-technology-campus",
+        "title": "CyrusOne Yorkville Technology Campus",
+        "date": "2026-08-11",
+        "facts_supported": [
+          "CyrusOne developer/operator",
+          "approved by City of Yorkville in 2024",
+          "water and sanitary improvements beginning in 2025",
+          "site work beginning early 2026",
+          "first building expected late 2027",
+          "full operations beginning 2028",
+          "more than 1 billion investment"
+        ]
+      },
+      {
+        "url": "https://www.datacenterdynamics.com/en/news/yorkville-city-council-approves-cyrusone-data-center-development-in-illinois/",
+        "title": "Yorkville City Council approves CyrusOne data center development in Illinois",
+        "date": "2024-07-11",
+        "facts_supported": [
+          "Yorkville City Council approved CyrusOne campus",
+          "230-acre campus context",
+          "industry-media corroboration of 2024 approval"
+        ]
+      },
+      {
+        "url": "https://cleanview.co/data-centers/illinois/2113/cyrusone-yorkville-campus-phase-1",
+        "title": "Cleanview - CyrusOne Yorkville Campus Phase 1",
+        "date": "2026-08-11",
+        "facts_supported": [
+          "third-party tracker lists 600 MW",
+          "third-party tracker lists expected year 2026",
+          "third-party tracker lists 228 acres and CyrusOne developer"
+        ]
+      }
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "capacity_mw",
+      "old_value": 480,
+      "new_value": 480,
+      "assessment": "The baseline 480 MW value is retained but rescoped from a low-confidence planning signal to allocated power for C1 Yorkville. Higher figures in 2026 materials are not contradictions: 654 MW equals 480 MW allocated plus a 174 MW supplemental request, while 810 MW is potential design accommodation if more load is later requested and allocated.",
+      "source_urls": [
+        "https://www.yorkville.il.us/DocumentCenter/View/13296/Power-Letter-6-2-2026?bidId="
+      ]
+    },
+    {
+      "field": "status_as_of_cutoff",
+      "old_value": null,
+      "new_value": "site work-construction",
+      "assessment": "Official/developer sources support construction-level status for site/substation/infrastructure work, but not energized/live data-center operations. The first building and full operations remain forward-looking targets.",
+      "source_urls": [
+        "https://www.yorkville.il.us/DocumentCenter/View/13260",
+        "https://www.cyrusone.com/data-centers/north-america/yorkville-technology-campus"
+      ]
+    },
+    {
+      "field": "scope",
+      "old_value": "Yorkville/Little Rock Township seed-only planning signal",
+      "new_value": "C1 Yorkville / Cyrus One CHI-11 Phase 1",
+      "assessment": "Yorkville has multiple data-center proposals in the same corridor. The 480 MW seed value maps to C1 Yorkville / CHI-11 because the 2026 official power letter explicitly uses 480 MW for C1 Yorkville. Project Cardinal and Project Steel are separate records/proposals and are not merged here.",
+      "source_urls": [
+        "https://www.yorkville.il.us/933/Data-Center-Information-Archived",
+        "https://www.yorkville.il.us/DocumentCenter/View/13296/Power-Letter-6-2-2026?bidId="
+      ]
+    },
+    {
+      "field": "third_party_tracker_capacity_schedule",
+      "old_value": null,
+      "new_value": "Cleanview lists 600 MW and expected year 2026",
+      "assessment": "Not used for capacity/status because Yorkville's official 2026 power letter supports 480 MW allocated power, while CyrusOne states first building completion is expected in late 2027 and full operations beginning in 2028.",
+      "source_urls": [
+        "https://cleanview.co/data-centers/illinois/2113/cyrusone-yorkville-campus-phase-1",
+        "https://www.yorkville.il.us/DocumentCenter/View/13296/Power-Letter-6-2-2026?bidId=",
+        "https://www.cyrusone.com/data-centers/north-america/yorkville-technology-campus"
+      ]
+    }
+  ],
   "seed_only": true,
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": null,
+      "capacity_mw": null,
+      "owner": null,
+      "location": {
+        "city": "Yorkville",
+        "county": "Kendall",
+        "state": "Illinois"
+      },
+      "note": "Seed-only baseline before first independent refresh; phase2 seed listed 480 MW but data.json had capacity_mw null pending verification."
+    }
+  ],
+  "last_refreshed": "2026-08-11",
+  "verified": true,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -4,27 +4,57 @@
   "aliases": [
     "1571 W Samford Ave HPC facility",
     "Core Scientific Auburn",
-    "Core Scientific Auburn HPC facility"
+    "Core Scientific Auburn HPC facility",
+    "Core Scientific Auburn 1",
+    "Core Scientific AUB1",
+    "Auburn 1"
   ],
   "location": {
     "city": "Auburn",
     "county": "Lee County",
-    "state": "AL"
+    "state": "AL",
+    "address": "1571 W Samford Ave, Auburn, AL 36832",
+    "site_note": "Core Scientific identifies Auburn 1 at 1571 W Samford Ave; ADEM construction-stormwater records identify CORE SCIENTIFIC AUB1 at 1571 West Samford Avenue."
   },
   "phase3_stable_id": "AL-001",
-  "status_as_of_cutoff": "Announced/early development. The state record confirms the announced investment, but no public Auburn building permit, site-plan approval, utility service record, certificate of occupancy, energization, or commissioning record was located.",
+  "status_as_of_cutoff": "Site work/construction evidence located as of 2026-08-11. Core Scientific publicly lists Auburn 1 as an Alabama data center at 1571 W Samford Ave with 50 MW total power capacity, while ADEM lists 2026 construction-stormwater NOI records for CORE SCIENTIFIC AUB1 at the same address and regional construction-permit reporting lists a $55 million Auburn building permit dated 2026-02-19. No public certificate of occupancy, energization, commissioning record, or full-buildout confirmation was located.",
+  "evidence_grade": "B - official state environmental permit records plus company data-center page and regional permit reporting; city building-permit primary record and energization/CO evidence not independently located.",
   "actions": [
+    {
+      "date": "2021-02-16",
+      "date_precision": "day",
+      "government_body": "Auburn City Council",
+      "action_type": "conditional use approval",
+      "result_status": "Auburn City Council minutes show Resolution No. 21-042 approving conditional use for an industrial use (data center), Apollo Conditional Use, at 1571 West Samford Avenue; this predates the Core Scientific operating announcement and appears to support the original AUBix data-center use.",
+      "vote_tally": "Aye: Dawson, Dixon, Hovey, Parsons, Smith, Taylor, Witten and Mayor Anders; Nay: Griswold",
+      "case_or_ordinance_permit_number": "Resolution No. 21-042",
+      "primary_url": "https://api2.auburnalabama.org/ePacket/2220/file/5802",
+      "access_caveat": "Official city minutes are accessible as a PDF; this action confirms data-center land use at the site, not Core Scientific's later expansion permit.",
+      "evidence_note": "Use as historical site entitlement evidence only."
+    },
     {
       "date": "2025-02-19",
       "date_precision": "day",
       "government_body": "Core Scientific (company announcement; non-government)",
       "action_type": "company project announcement",
-      "result_status": "Core Scientific announced a new high-performance-computing facility in Auburn at the Samford Avenue location; the announcement is not a local approval or construction permit.",
+      "result_status": "Core Scientific announced a new high-performance-computing facility in Auburn at 1571 W Samford Ave, housed within the existing AUBix facility, planned to launch with 16 MW capacity and potential further expansion.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://investors.corescientific.com/news-events/press-releases/detail/107/core-scientific-announces-expansion-into-auburn-alabama-with-new-high-performance-computing-facility",
-      "access_caveat": "Company announcement is accessible; no linked city or county approval packet was identified.",
-      "evidence_note": "Company/state announcement evidence is kept separate from land-use and building approval."
+      "access_caveat": "Company announcement is accessible; not a local approval or construction permit.",
+      "evidence_note": "Company/state announcement evidence is kept separate from land-use, building approval, and energization evidence."
+    },
+    {
+      "date": "2025-02-19",
+      "date_precision": "day",
+      "government_body": "Alabama Department of Commerce / Made in Alabama",
+      "action_type": "state economic-development announcement",
+      "result_status": "Made in Alabama reported Core Scientific's $135 million initial investment, expected $400 million total investment, 16 MW launch capacity, retention of 11 AUBix employees, and planned growth to at least 20 full-time employees.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.madeinalabama.com/2025/02/core-scientific-bringing-high-performance-computing-operation-to-auburn/",
+      "access_caveat": "State economic-development article; not a city building permit, certificate of occupancy, or utility service record.",
+      "evidence_note": "Confirms state-level recruitment/economic-development facts."
     },
     {
       "date": "2026-01",
@@ -35,12 +65,85 @@
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.madeinalabama.com/resources/documents/new-expanding-industry-report-2025/",
-      "access_caveat": "State report is an economic-development record, not a city site-plan or building record.",
-      "evidence_note": "State confirmation of the project listing; MW/investment figures were not independently reconciled to a permit."
+      "access_caveat": "State report is an economic-development record, not a city site-plan, building record, or energization record.",
+      "evidence_note": "State confirmation of the project listing."
+    },
+    {
+      "date": "2026-02-18",
+      "date_precision": "day",
+      "government_body": "Alabama Department of Environmental Management",
+      "action_type": "construction stormwater NOI",
+      "result_status": "ADEM eFile results for Master ID 55376 list Brasfield and Gorrie LLC, permit number ALR10C7R4, Lee County, type NOI, file dated 2026-02-18, associated with CORE SCIENTIFIC AUB1 at 1571 West Samford Avenue.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "ALR10C7R4",
+      "primary_url": "https://app.adem.alabama.gov/eFile/Results.aspx?MasterID=55376",
+      "access_caveat": "Official ADEM eFile index is accessible; individual PDF viewer requires session/cookie handling in browser.",
+      "evidence_note": "Official environmental construction-stormwater evidence supports site work/construction status but is not a building permit or energization record."
+    },
+    {
+      "date": "2026-02-19",
+      "date_precision": "day",
+      "government_body": "Auburn building permit reporting via regional construction media",
+      "action_type": "reported building permit",
+      "result_status": "Regional permit reporting states a $55 million Auburn building permit was issued for Core Scientific's high-performance computing facility at the existing AUBix site, with Brasfield & Gorrie listed as lead contractor.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://thebamabuzz.com/55-million-core-scientific-facility-in-auburn-among-15-new-high-dollar-building-permits/",
+      "access_caveat": "Secondary/regional construction-permit reporting; public city permit record was not independently located in this refresh.",
+      "evidence_note": "Use as supporting building-permit evidence, below official local-government permit record priority."
+    },
+    {
+      "date": "2026-06-12",
+      "date_precision": "day",
+      "government_body": "City of Auburn",
+      "action_type": "public works / traffic notice",
+      "result_status": "City archived-news search snippet reports temporary closures expected at 1571 West Samford Avenue on June 8, 15, 17, 23, 29 and July 1 and 8, 2026 as oversized delivery trucks access the site.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.auburnal.gov/news/archived/",
+      "access_caveat": "The city archive page is accessible, but the searched archive page did not expose a separate detail page in the browser output.",
+      "evidence_note": "Supports ongoing delivery/construction activity at the address; not proof of energization."
+    },
+    {
+      "date": "2026-06-25",
+      "date_precision": "day",
+      "government_body": "Alabama Department of Environmental Management",
+      "action_type": "construction stormwater NOI",
+      "result_status": "ADEM eFile results for Master ID 55376 list Brasfield and Gorrie LLC, permit number ALR10C87N, Lee County, type NOI, file dated 2026-06-25, associated with CORE SCIENTIFIC AUB1 at 1571 West Samford Avenue.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "ALR10C87N",
+      "primary_url": "https://app.adem.alabama.gov/eFile/Results.aspx?MasterID=55376",
+      "access_caveat": "Official ADEM eFile index is accessible; individual PDF viewer requires session/cookie handling in browser.",
+      "evidence_note": "Additional official construction-stormwater evidence."
+    },
+    {
+      "date": "2026-07-08",
+      "date_precision": "day",
+      "government_body": "Alabama Department of Environmental Management",
+      "action_type": "construction stormwater NOI",
+      "result_status": "ADEM eFile results for Master ID 55376 list Brasfield and Gorrie LLC, permit number ALR10C7R4, Lee County, type NOI, file dated 2026-07-08, associated with CORE SCIENTIFIC AUB1 at 1571 West Samford Avenue.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "ALR10C7R4",
+      "primary_url": "https://app.adem.alabama.gov/eFile/Results.aspx?MasterID=55376",
+      "access_caveat": "Official ADEM eFile index is accessible; individual PDF viewer requires session/cookie handling in browser.",
+      "evidence_note": "Additional official construction-stormwater evidence."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Core Scientific (company data-center page; non-government)",
+      "action_type": "company facility listing",
+      "result_status": "Core Scientific's Auburn 1 page lists the Auburn, Alabama data center at 1571 W Samford Ave with total power capacity of 50 MW, campus footprint of 6 acres, and 39,202 total square feet.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://corescientific.com/high-density-data-centers/auburn-al/",
+      "access_caveat": "Company sales/facility page; does not provide permit, commissioning, or utility energization documentation.",
+      "evidence_note": "Use for current company-published capacity and facility attributes; retain the earlier 16 MW launch figure as distinct from total power capacity."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 50,
+  "capacity_note": "Core Scientific's current Auburn 1 facility page lists 50 MW total power capacity as accessed 2026-08-11. Earlier February 2025 Core Scientific and Made in Alabama announcements said the facility would launch with 16 MW and had potential for further expansion.",
+  "owner": "Core Scientific (operator/lessee of the existing AUBix facility; Core announced a lease and planned option to purchase, but public ownership transfer was not independently verified in this refresh)",
   "sources": {
     "phase3_stable_id": "AL-001",
     "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
@@ -48,9 +151,125 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_public_sources": [
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://api2.auburnalabama.org/ePacket/2220/file/5802",
+        "source_type": "official local government minutes",
+        "facts_supported": [
+          "2021 conditional use approval for industrial/data-center use at 1571 West Samford Avenue"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://investors.corescientific.com/news-events/press-releases/detail/107/core-scientific-announces-expansion-into-auburn-alabama-with-new-high-performance-computing-facility",
+        "source_type": "company announcement",
+        "facts_supported": [
+          "Core Scientific Auburn announcement",
+          "1571 W Samford Ave",
+          "existing AUBix facility",
+          "16 MW launch capacity",
+          "$135 million initial investment",
+          "expected total investment above $400 million",
+          "lease and planned option to purchase"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.madeinalabama.com/2025/02/core-scientific-bringing-high-performance-computing-operation-to-auburn/",
+        "source_type": "state economic-development announcement",
+        "facts_supported": [
+          "Auburn operation in existing AUBix data center",
+          "16 MW launch capacity",
+          "employment and investment figures"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.madeinalabama.com/resources/documents/new-expanding-industry-report-2025/",
+        "source_type": "state economic-development report",
+        "facts_supported": [
+          "Core Scientific Auburn technology/data-center investment listing"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://adem.alabama.gov/permit-applications?page=1",
+        "source_type": "official state permit application listing",
+        "facts_supported": [
+          "BRASFIELD AND GORRIE LLC / CORE SCIENTIFIC AUB1 / 1571 WEST SAMFORD AVENUE AUBURN / LEE / WATER-CONSTRUCTION STORMWATER"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://app.adem.alabama.gov/eFile/Results.aspx?MasterID=55376",
+        "source_type": "official state eFile index",
+        "facts_supported": [
+          "Master ID 55376",
+          "Brasfield and Gorrie LLC",
+          "Lee County",
+          "NOI documents dated 2026-02-18, 2026-06-25, and 2026-07-08",
+          "permit numbers ALR10C7R4 and ALR10C87N"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://thebamabuzz.com/55-million-core-scientific-facility-in-auburn-among-15-new-high-dollar-building-permits/",
+        "source_type": "regional construction-permit reporting",
+        "facts_supported": [
+          "$55 million Auburn building permit reported for Core Scientific data center",
+          "Brasfield & Gorrie listed as lead contractor"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://www.auburnal.gov/news/archived/",
+        "source_type": "official city archived news",
+        "facts_supported": [
+          "June/July 2026 temporary closures at 1571 West Samford Avenue for oversized delivery trucks, per indexed city archive snippet"
+        ]
+      },
+      {
+        "date_accessed": "2026-08-11",
+        "url": "https://corescientific.com/high-density-data-centers/auburn-al/",
+        "source_type": "company facility page",
+        "facts_supported": [
+          "Auburn 1 facility listing",
+          "1571 W Samford Ave",
+          "50 MW total power capacity",
+          "6 acre campus footprint",
+          "39,202 total square feet"
+        ]
+      }
+    ]
   },
   "contradictions": [],
+  "verification_gaps": [
+    "Public Auburn building-permit primary record for the reported $55 million permit was not located; current support is regional permit reporting plus official ADEM construction-stormwater records.",
+    "No public utility energization/service record, certificate of occupancy, commissioning record, or full-buildout confirmation was located.",
+    "Ownership transfer from AUBix to Core Scientific was not independently verified; Core is treated as operator/lessee."
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "field": "status_as_of_cutoff",
+      "old_value": "Announced/early development. The state record confirms the announced investment, but no public Auburn building permit, site-plan approval, utility service record, certificate of occupancy, energization, or commissioning record was located.",
+      "change_note": "Superseded on 2026-08-11 after official ADEM construction-stormwater NOI records and regional building-permit reporting were located."
+    },
+    {
+      "date": "2026-07-16",
+      "field": "capacity_mw",
+      "old_value": null,
+      "change_note": "Updated to 50 MW on 2026-08-11 based on Core Scientific's current Auburn 1 facility page; 16 MW launch figure retained in capacity_note."
+    },
+    {
+      "date": "2026-07-16",
+      "field": "owner",
+      "old_value": null,
+      "change_note": "Updated to Core Scientific operator/lessee based on company announcement; property ownership transfer not verified."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

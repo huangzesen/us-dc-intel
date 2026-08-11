@@ -7,12 +7,12 @@
     "High Impact Data Center Project"
   ],
   "location": {
-    "city": "near Buffalo",
+    "city": "Buffalo",
     "county": "Putnam County",
     "state": "WV"
   },
   "phase3_stable_id": "WV-001",
-  "status_as_of_cutoff": "State announcement says Google purchased land and received initial approval for a multibillion-dollar High Impact Data Center Project, but the project remained in early stages. No county vote, certification/order, site/building permit, parcel, utility, water, or environmental record was found.",
+  "status_as_of_cutoff": "As of 2026-08-11, Google has purchased/acquired land for a proposed data center campus in Buffalo, Putnam County, and the Governor/WVDED announcement says it received High Impact Data Center Project approval. Google is advancing plans and community outreach, but no underlying state certification/order, county planning action, published site plan, building permit, parcel list, capacity disclosure, utility service filing, water/sewer approval, environmental permit, or construction start was found in public sources.",
   "actions": [
     {
       "date": "2026-03-27",
@@ -25,10 +25,46 @@
       "primary_url": "https://governor.wv.gov/article/governor-morrisey-announces-google-data-center-project-putnam-county",
       "access_caveat": "This is an executive/state announcement, not the underlying high-impact certification, county action, or construction permit.",
       "evidence_note": "State status update; no vote inferred and no construction approval inferred."
+    },
+    {
+      "date": "2026-06-04",
+      "date_precision": "day",
+      "government_body": "Google / Buffalo WV Data Center project website",
+      "action_type": "company project website / community information launch",
+      "result_status": "Google project site says it is advancing plans for a data center campus in Buffalo, West Virginia; it says the project is still being positioned for long-term viability, references coordination with the West Virginia State Historic Preservation Office, and states commitments to infrastructure, energy, water, workforce, and community partnerships. The page does not disclose MW capacity, parcel identifiers, construction start, or permits.",
+      "vote_tally": "not applicable",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.buffalowvdatacenter.com/",
+      "access_caveat": "Company/community information site, not a permit, site-plan approval, or state certification order.",
+      "evidence_note": "Supports owner, Buffalo location, and continued early-stage/local-process status; no construction inferred."
+    },
+    {
+      "date": "2026-03-27",
+      "date_precision": "day",
+      "government_body": "Putnam County Development Authority",
+      "action_type": "local economic-development statement",
+      "result_status": "PCDA said Google confirmed that it acquired land in Buffalo, WV for a potential data center campus and continued due diligence to determine site viability; PCDA also noted Google engagement with the authority and stated the company intended to comply with state and federal permitting processes.",
+      "vote_tally": "not applicable",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://pcda.org/pcda-statement-google-data-center/",
+      "access_caveat": "Economic-development authority statement, not a county planning vote or permit record.",
+      "evidence_note": "Local official-source support for owner/location and early due-diligence status."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "West Virginia Division of Economic Development / Department of Commerce",
+      "action_type": "certification process reference",
+      "result_status": "State HIDC certification guidance says complete submissions are reviewed by the Department of Commerce and certification is issued by the Secretary of Commerce within the statutory 14-day review period; required submission materials include project location, parcel count and acreage, critical IT load, in-service date, utilities, water use, and environmental/community considerations.",
+      "vote_tally": "not applicable",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://westvirginia.gov/datacenters/begincertification/",
+      "access_caveat": "Program guidance only; it does not publish the Google certification package or order.",
+      "evidence_note": "Explains state process and confirms why underlying project details may remain unpublished."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google",
   "sources": {
     "phase3_stable_id": "WV-001",
     "phase3_source_file": "phase3/county_va_md_wv.json",
@@ -36,9 +72,32 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://governor.wv.gov/article/governor-morrisey-announces-google-data-center-project-putnam-county",
+      "https://pcda.org/pcda-statement-google-data-center/",
+      "https://www.buffalowvdatacenter.com/",
+      "https://wvpublic.org/story/economy/google-launches-data-center-website-for-putnam-county-campus/",
+      "https://westvirginia.gov/datacenters/begincertification/",
+      "https://code.wvlegislature.gov/5B-2-21a/",
+      "https://code.wvlegislature.gov/11-6N-2/",
+      "https://putnamcountywv.gov/planning-and-infrastructure/"
+    ],
+    "last_refresh_date": "2026-08-11"
   },
   "contradictions": [],
   "seed_only": false,
-  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a",
+  "status_category": "local process",
+  "evidence_grade": "B",
+  "capacity_note": "No project-specific MW was disclosed. WV High Impact Data Center eligibility requires aggregate critical IT load of 90 MW or higher, but this record does not convert that statutory threshold into a confirmed project capacity.",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "State announcement says Google purchased land and received initial approval for a multibillion-dollar High Impact Data Center Project, but the project remained in early stages. No county vote, certification/order, site/building permit, parcel, utility, water, or environmental record was found.",
+      "new_value": "As of 2026-08-11, Google has purchased/acquired land for a proposed data center campus in Buffalo, Putnam County, and the Governor/WVDED announcement says it received High Impact Data Center Project approval. Google is advancing plans and community outreach, but no underlying state certification/order, county planning action, published site plan, building permit, parcel list, capacity disclosure, utility service filing, water/sewer approval, environmental permit, or construction start was found in public sources.",
+      "reason": "Refresh added Google project site, PCDA local statement, and WV HIDC process/statutory sources; no public local permit or construction evidence found."
+    }
+  ]
 }

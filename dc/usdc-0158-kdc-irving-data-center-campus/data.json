@@ -3,25 +3,118 @@
   "canonical_project": "KDC Irving data-center campus",
   "aliases": [
     "KDC Irving data-center campus",
-    "KDC Texas data center"
+    "KDC Texas data center",
+    "University of Dallas / KDC Irving data center campus"
   ],
   "location": {
     "city": "Irving",
     "county": "Dallas",
-    "state": "Texas"
+    "state": "Texas",
+    "addresses": [
+      "1301 E. John Carpenter Freeway",
+      "1351 E. John Carpenter Freeway"
+    ],
+    "zip": "75039",
+    "site_area_acres_official": 33.89,
+    "site_description": "North of State Highway 114 at Braniff Drive, near the University of Dallas main campus"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
+  "status_as_of_cutoff": "approved-permitted",
+  "evidence_grade": "official-local-government",
+  "status_detail": "Irving zoning and comprehensive-plan changes for data-center use are City Council approved; project remains described by KDC as in design phase, and no matching recent construction permit record was found in Irving's public development-permit activity layer during this refresh.",
+  "actions": [
+    {
+      "date": "2024-07-01",
+      "government_body": "City of Irving Planning and Zoning Commission",
+      "action_type": "public hearing scheduled / agenda item",
+      "case_number": "2024-224-CP",
+      "result_status": "scheduled for 2024-07-11 City Council public hearing",
+      "description": "Comprehensive plan amendment for 1301 and 1351 E. John Carpenter Freeway, approximately 33.89 acres, from Urban Center and Open Space to Manufacturing/Warehouse.",
+      "source_url": "https://swagit-attachments.granicus.com/archive/agendas/206365/original/7-1%20IrvingPZ.pdf"
+    },
+    {
+      "date": "2024-07-01",
+      "government_body": "City of Irving Planning and Zoning Commission",
+      "action_type": "public hearing scheduled / agenda item",
+      "case_number": "2024-205-ZC",
+      "result_status": "scheduled for 2024-07-11 City Council public hearing",
+      "description": "Zoning change for 1301 and 1351 E. John Carpenter Freeway, approximately 33.89 acres, from PUD 6 Tract G transit-oriented mixed use/office to S-P-2 (ML-20a) for data center uses, excluding certain ML-20a uses.",
+      "source_url": "https://swagit-attachments.granicus.com/archive/agendas/206365/original/7-1%20IrvingPZ.pdf"
+    },
+    {
+      "date": "2024-07-11",
+      "government_body": "City of Irving City Council",
+      "action_type": "zoning approval",
+      "case_number": "2024-205-ZC",
+      "ordinance": "2024-10970",
+      "result_status": "CC Approved",
+      "description": "City public zoning layer lists request as S-P-2 for ML-20a & Data Center and status as City Council approved.",
+      "source_url": "https://services3.arcgis.com/OfsJXUlu8pSkbl7B/arcgis/rest/services/Pending_Cases_and_Development_Activity_view/FeatureServer/4/query?f=json&where=CaseNumber%20%3D%20%272024-205-ZC%27&outFields=*&returnGeometry=false"
+    },
+    {
+      "date": "2024-07-11",
+      "government_body": "City of Irving City Council",
+      "action_type": "comprehensive plan approval",
+      "case_number": "2024-224-CP",
+      "result_status": "CC Approved",
+      "description": "City public zoning layer lists the future land-use change to Manufacturing/Warehouse as City Council approved.",
+      "source_url": "https://services3.arcgis.com/OfsJXUlu8pSkbl7B/arcgis/rest/services/Pending_Cases_and_Development_Activity_view/FeatureServer/4/query?f=json&where=CaseNumber%20%3D%20%272024-224-CP%27&outFields=*&returnGeometry=false"
+    },
+    {
+      "date": "2025-03-20",
+      "government_body": "City of Irving City Council",
+      "action_type": "subsequent ordinance reference",
+      "case_number": "2025-48-ZC",
+      "result_status": "approved",
+      "description": "Later PUD 6 ordinance recites that Ordinance No. 2024-10970 approved Zoning Case 2024-205-ZC on 2024-07-11 and removed Tract G from PUD 6.",
+      "source_url": "https://ecode360.com/IR6873/laws/LF2312018.pdf"
+    }
+  ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_notes": "No official MW capacity figure found. Public reports describe 770,000 square feet of planned data-center space and KDC states nearby Oncor transmission upgrades offer hyperscale-level power capacity, without quantifying MW.",
+  "owner": "University of Dallas (land owner); KDC Real Estate Development & Investments (developer/applicant)",
   "sources": {
     "phase2_seed_stable_id": "US-TX-KDC-IRVING-2024",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
-    "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "authoritative_layer": "official_local_government",
+    "match_reason": "No detailed match; retained separately",
+    "official_local_government": [
+      "https://swagit-attachments.granicus.com/archive/agendas/206365/original/7-1%20IrvingPZ.pdf",
+      "https://services3.arcgis.com/OfsJXUlu8pSkbl7B/arcgis/rest/services/Pending_Cases_and_Development_Activity_view/FeatureServer/4/query?f=json&where=CaseNumber%20%3D%20%272024-205-ZC%27&outFields=*&returnGeometry=false",
+      "https://services3.arcgis.com/OfsJXUlu8pSkbl7B/arcgis/rest/services/Pending_Cases_and_Development_Activity_view/FeatureServer/4/query?f=json&where=CaseNumber%20%3D%20%272024-224-CP%27&outFields=*&returnGeometry=false",
+      "https://ecode360.com/IR6873/laws/LF2312018.pdf",
+      "https://irvingtx.gov/data-centers",
+      "https://irvingtx.gov/pending-zoning-cases",
+      "https://irvingtx.gov/online-permit-instructions"
+    ],
+    "developer": [
+      "https://kdc.com/news/university-of-dallas-receives-approval-from-irving-city-council-on-rezoning-application"
+    ],
+    "local_media_industry": [
+      "https://www.datacenterdynamics.com/en/news/data-center-to-be-built-on-university-of-dallas-campus/",
+      "https://www.bizjournals.com/dallas/news/2024/07/12/university-of-dallas-kdc-data-center-campus.html",
+      "https://www.wfaa.com/article/news/education/university-of-dallas-partners-developer-pursue-data-centers-near-school/287-549a7647-1ae4-49f6-b402-9eaa5013f7c4"
+    ]
   },
-  "contradictions": [],
-  "seed_only": true,
+  "contradictions": [
+    {
+      "field": "site_area",
+      "description": "Official Irving P&Z agenda and live zoning layer support approximately 33.89 acres for cases 2024-205-ZC and 2024-224-CP; some media reports describe a broader 67-acre development site. Treat 33.89 acres as the official case acreage unless a later city filing expands the project boundary.",
+      "sources": [
+        "https://swagit-attachments.granicus.com/archive/agendas/206365/original/7-1%20IrvingPZ.pdf",
+        "https://therealdeal.com/texas/dallas/2024/07/15/university-of-dallas-kdc-to-develop-data-center-in-irving/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "previous_status_as_of_cutoff": null,
+      "previous_capacity_mw": null,
+      "previous_owner": null,
+      "note": "First independent refresh converted seed-only record to official-local-government-supported zoning/design-phase project."
+    }
+  ],
+  "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

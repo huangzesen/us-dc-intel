@@ -10,10 +10,16 @@
   "location": {
     "city": "Brandon",
     "county": "Rankin County",
-    "state": "MS"
+    "state": "MS",
+    "site": "East Metropolitan Center Business and Industrial Park",
+    "latitude": 32.2593,
+    "longitude": -90.0185,
+    "acreage": 329,
+    "acreage_note": "AVAIO current development page and September 10, 2025 groundbreak notice describe a 329-acre campus; City of Brandon's August 22, 2025 announcement described a 175-acre site."
   },
   "phase3_stable_id": "MS-002",
-  "status_as_of_cutoff": "State-announced/early development. Mississippi’s announcement says MDA approved the data-center tax exemption and forecasts completion in the first half of 2027; no accessible local site-plan, building, environmental, CO, or energization record was found.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11. AVAIO announced on September 10, 2025 that site work was officially underway after executing an Agreement for Electric Service with Entergy in August 2025, and Brandon Board of Aldermen minutes approved Development Review Application Case #25-007 on February 2, 2026. No accessible certificate of occupancy or energization record was found; first-phase completion/energization remains projected for H1 2027/August 2027 depending on source.",
+  "evidence_grade": "B - owner groundbreak/site-work notice plus local-government development-review approval; no independently accessible building permit, CO, or energization record found.",
   "actions": [
     {
       "date": "2025-08-19",
@@ -26,10 +32,35 @@
       "primary_url": "https://governorreeves.ms.gov/avaio-digital-to-locate-6-billion-data-center-campus-in-rankin-county-campus-represents-the-third-largest-economic-development-project-in-state-history/",
       "access_caveat": "State tax status and local assistance statements are not a city/county building permit or proof of construction.",
       "evidence_note": "The state forecast says completion in H1 2027; no actual completion or energization is inferred."
+    },
+    {
+      "date": "2025-09-10",
+      "date_precision": "day",
+      "government_body": "AVAIO Digital Partners",
+      "action_type": "owner groundbreak and site-work notice",
+      "result_status": "AVAIO announced that site work was officially underway on the $6 billion Taurus Data Center Hub in Brandon, that Yates Construction was the general contractor, and that first phase construction covered more than 600,000 square feet and 116 MW.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.avaiodigital.com/updates/avaio-digital-breaks-ground-on-6-billion-brandon-data-center-campus-leading-mississippi-contractor-begins-site-work",
+      "access_caveat": "Company announcement; establishes site-work/construction status but not energization or occupancy.",
+      "evidence_note": "AVAIO states first phase is planned to be completed and energized in H1 2027."
+    },
+    {
+      "date": "2026-02-02",
+      "date_precision": "day",
+      "government_body": "City of Brandon Board of Aldermen and Mayor",
+      "action_type": "development review approval",
+      "result_status": "Approved the Development Review Application, Case #25-007, submitted by AVAIO Digital for the AVAIO Digital Taurus project, in accordance with the staff memo.",
+      "vote_tally": "affirmative vote of members present",
+      "case_or_ordinance_permit_number": "Case #25-007",
+      "primary_url": "https://brandonms.org/wp-content/uploads/2026/02/February-2-2026.pdf",
+      "access_caveat": "Development review approval is not a certificate of occupancy or energization record.",
+      "evidence_note": "The same minutes also list an Entergy/AVAIO transmission line as an informational public-comment topic."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 116,
+  "capacity_note": "Confirmed first-phase power capacity from AVAIO's August 19 and September 10, 2025 announcements. AVAIO's current Brandon campus page lists 116 MW contracted grid power in Q2 2027 growing to 536 MW grid power, plus 500 MW behind-the-meter baseload and 20+ MW solar in 2027; these expansion values are treated as projected/path-to-capacity, not current energized capacity.",
+  "owner": "AVAIO Digital Partners",
   "sources": {
     "phase3_stable_id": "MS-002",
     "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
@@ -37,9 +68,63 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://governorreeves.ms.gov/avaio-digital-to-locate-6-billion-data-center-campus-in-rankin-county-campus-represents-the-third-largest-economic-development-project-in-state-history/",
+      "https://mississippi.org/news/avaio-digital-to-locate-6-billion-data-center-campus-in-rankin-county/",
+      "https://brandonms.org/city-of-brandon-welcomes-avaio-digitals-6-billion-investment-in-new-ai-ready-data-center-campus/",
+      "https://www.avaiodigital.com/updates/avaio-digital-to-build-new-ai-ready-6-billion-data-center-hub-in-brandon-mississippi",
+      "https://www.avaiodigital.com/updates/avaio-digital-breaks-ground-on-6-billion-brandon-data-center-campus-leading-mississippi-contractor-begins-site-work",
+      "https://www.avaiodigital.com/developments/brandon-mississippi",
+      "https://brandonms.org/wp-content/uploads/2026/02/February-2-2026.pdf",
+      "https://brandonms.org/documents-forms/",
+      "https://brandonms.org/wp-content/uploads/2026/07/Brandon-DC-FAQ-8.5x11revise.pdf",
+      "https://rankinms-emc.com/avaio-digital/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "acreage",
+      "summary": "City of Brandon's August 22, 2025 announcement described a 175-acre site; AVAIO's current development page and September 10, 2025 groundbreak notice describe a 329-acre campus. Current record uses 329 acres because it is the later/current owner-published campus figure.",
+      "sources": [
+        "https://brandonms.org/city-of-brandon-welcomes-avaio-digitals-6-billion-investment-in-new-ai-ready-data-center-campus/",
+        "https://www.avaiodigital.com/developments/brandon-mississippi",
+        "https://www.avaiodigital.com/updates/avaio-digital-breaks-ground-on-6-billion-brandon-data-center-campus-leading-mississippi-contractor-begins-site-work"
+      ]
+    },
+    {
+      "field": "delivery_date",
+      "summary": "MDA/AVAIO August and September 2025 announcements project first-phase completion and energization in the first half of 2027, while AVAIO's current Brandon campus page says first occupancy is on track for August 2027 and 116 MW grid power in Q2 2027. Current record treats all delivery dates as projected and no energization is inferred.",
+      "sources": [
+        "https://mississippi.org/news/avaio-digital-to-locate-6-billion-data-center-campus-in-rankin-county/",
+        "https://www.avaiodigital.com/updates/avaio-digital-breaks-ground-on-6-billion-brandon-data-center-campus-leading-mississippi-contractor-begins-site-work",
+        "https://www.avaiodigital.com/developments/brandon-mississippi"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "State-announced/early development. Mississippi’s announcement says MDA approved the data-center tax exemption and forecasts completion in the first half of 2027; no accessible local site-plan, building, environmental, CO, or energization record was found.",
+      "new_value": "site work-construction as of 2026-08-11",
+      "reason": "AVAIO September 10, 2025 groundbreak/site-work announcement plus City of Brandon February 2, 2026 development-review approval."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 116,
+      "reason": "AVAIO August 19 and September 10, 2025 announcements identify 116 MW for the first phase."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "AVAIO Digital Partners",
+      "reason": "Rankin First states AVAIO is the developer, owner, and operator of the Brandon campus."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -15,7 +15,8 @@
     "state": "VA"
   },
   "phase3_stable_id": "VA-001",
-  "status_as_of_cutoff": "County-approved land-use and performance-agreement framework; Virginia DEQ water and air applications remained under review. County says first grading applications were received in February 2026, but a construction start was not independently verified.",
+  "status_as_of_cutoff": "County-approved land-use and performance-agreement framework; Virginia DEQ water and air applications remained under review as of the Aug. 11, 2026 refresh. County says first grading applications were received in February 2026 and on-site grading is expected before the end of 2026, but a construction start was not independently verified. Google announced on July 22, 2026 that the first data-center building will use air-cooling technology; Botetourt County created an independent impact-review commission on July 28, 2026.",
+  "evidence_grade": "A-",
   "actions": [
     {
       "date": "2024-11-26",
@@ -112,10 +113,34 @@
       "primary_url": "https://www.botetourtva.gov/m/newsflash?cat=13%2C6%2C7%2C1%2C8%2C9%2C10",
       "access_caveat": "Official category/news page is accessible; a standalone article URL and full minutes were not located.",
       "evidence_note": "Utility/water governance action; not a construction permit."
+    },
+    {
+      "date": "2026-07-22",
+      "date_precision": "day",
+      "government_body": "Google / Botetourt County / Western Virginia Water Authority",
+      "action_type": "project-design update / water-demand planning",
+      "result_status": "Google announced that the first building at the future Botetourt County data center campus will use air-cooling technology. Botetourt County reposted the Google update, and WVWA said it anticipates lower overall water demand than originally projected but does not yet have updated demand figures.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.botetourtva.gov/m/newsflash/home/detail/1160",
+      "access_caveat": "County and WVWA summarize the update; no revised engineering demand figures were posted by the refresh date.",
+      "evidence_note": "Design/cooling update only; not a permit issuance, construction start, or capacity disclosure."
+    },
+    {
+      "date": "2026-07-28",
+      "date_precision": "day",
+      "government_body": "Botetourt County Board of Supervisors",
+      "action_type": "independent commission / impact review",
+      "result_status": "Board approved creation of a five-member independent commission to assess and publicly report anticipated impacts of the proposed Google data center campus on environment, infrastructure, utility resources, and quality of life.",
+      "vote_tally": "3-1; Walter Michael, Brandon Nicely, and Tim Snyder yes; Linda Rottman no; Dr. Mac Scothorn absent",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.botetourtva.gov/m/newsflash/home/detail/1164",
+      "access_caveat": "Official county news release is accessible; commission appointments/final report were not posted by the refresh date.",
+      "evidence_note": "Public oversight/review action; not a project approval, permit issuance, or construction milestone."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Google LLC / Helio Capital LLC (Helio Capital LLC is the company/applicant named in the county performance agreement and DEQ air-permit materials; county and Google public pages describe Google as the campus developer/operator).",
   "sources": {
     "phase3_stable_id": "VA-001",
     "phase3_source_file": "phase3/county_va_md_wv.json",
@@ -123,9 +148,33 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.botetourtva.gov/1021/Google-Data-Center",
+      "https://www.deq.virginia.gov/news-info/shortcuts/topics-of-interest/google-s-project-raspberry",
+      "https://www.botetourtva.gov/m/newsflash/home/detail/1160",
+      "https://www.botetourtva.gov/m/newsflash/home/detail/1164",
+      "https://www.westernvawater.org/customers/capital-projects/draft-proposed-data-center-in-botetourt-center-at-greenfield",
+      "https://www.botetourtcountydatacenter.com/"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "County-approved land-use and performance-agreement framework; Virginia DEQ water and air applications remained under review. County says first grading applications were received in February 2026, but a construction start was not independently verified.",
+      "new_value": "County-approved land-use and performance-agreement framework; Virginia DEQ water and air applications remained under review as of the Aug. 11, 2026 refresh. County says first grading applications were received in February 2026 and on-site grading is expected before the end of 2026, but a construction start was not independently verified. Google announced on July 22, 2026 that the first data-center building will use air-cooling technology; Botetourt County created an independent impact-review commission on July 28, 2026.",
+      "source_url": "https://www.botetourtva.gov/1021/Google-Data-Center"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Google LLC / Helio Capital LLC",
+      "source_url": "https://www.botetourtva.gov/DocumentCenter/View/6347/Google-Performance-Agreement"
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

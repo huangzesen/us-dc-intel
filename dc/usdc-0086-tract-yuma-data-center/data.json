@@ -11,7 +11,15 @@
     "state": "AZ"
   },
   "phase3_stable_id": "US-AZ-TRACT-YUMA-2024",
-  "status_as_of_cutoff": "Provisional planned lead only; no primary government, utility, or developer record found.",
+  "status_as_of_cutoff": "Unverified/provisional lead only as of 2026-08-11; no public Tract Yuma project application, parcel, approval, construction, or utility-service evidence found. Yuma-area data-center discussions remain preliminary and not tied to a filed local application.",
+  "evidence_grade": "low",
+  "status_history": [
+    {
+      "date": "2026-07-16",
+      "status": "Provisional planned lead only; no primary government, utility, or developer record found.",
+      "note": "Baseline extraction status before 2026-08-11 refresh."
+    }
+  ],
   "actions": [
     {
       "date": "2025-01-24",
@@ -24,6 +32,54 @@
       "primary_url": "https://img.electricalmarketing.com/files/base/ebm/electricalmarketing/document/2025/01/679293d5d67117ae43d2b2b2-em01242025_digitalfinal.pdf",
       "access_caveat": "Discovery-only trade source; the 500 MW figure is not adopted as verified.",
       "evidence_note": "Body/context retained from prior file: Electrical industry trade publication."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "City of Yuma Community Development / Tyler Civic Access",
+      "action_type": "public permit and planning search",
+      "result_status": "No matching Tract hyperscale/data-center project record found in targeted public searches for Tract, Tract Yuma, Yuma Tract campus, and hyperscale. Exact public search for data center returned older unrelated Yuma records, including a 2014 local data-center mechanical permit, not a new Tract campus.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.yumaaz.gov/government/community-development/development-portal",
+      "access_caveat": "City portal is a JavaScript Civic Access app; public API search was queried with tenant YumaAZProd on 2026-08-11.",
+      "evidence_note": "Official/local-government-first check; supports keeping project unverified."
+    },
+    {
+      "date": "2026-04-06",
+      "date_precision": "day",
+      "government_body": "City of Yuma",
+      "action_type": "local-process discussion",
+      "result_status": "Local reporting cited the mayor's clarification that data centers were of interest to Yuma but no applications or permit requests had been submitted to the city for approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.kawc.org/2026-04-06/yuma-data-centers-spark-opposition-discussion-set-for-council-retreat",
+      "access_caveat": "Local public-radio report; not a city record, but it describes the mayor's public clarification and council-retreat discussion.",
+      "evidence_note": "Supports status below local process/approved-permitted."
+    },
+    {
+      "date": "2026-04-13",
+      "date_precision": "day",
+      "government_body": "Greater Yuma Economic Development Corporation / Yuma-area public meeting",
+      "action_type": "informational meeting",
+      "result_status": "GYEDC/local reporting said data-center interest was linked to possible energy infrastructure, but no projects had been sited or were under review; discussions with developers were underway.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.azfamily.com/2026/04/14/public-meeting-yuma-highlights-early-pushback-possible-data-center-interest/",
+      "access_caveat": "Regional media report of public meeting and GYEDC statements.",
+      "evidence_note": "Corroborates preliminary-interest status without project-specific approval."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": null,
+      "action_type": "developer source check",
+      "result_status": "Tract's own public projects page lists Arizona Buckeye, not Yuma; the Buckeye page identifies the Buckeye Technology Park as owned and in development at 2,019 acres and 1,800 MW capacity on the west side of Buckeye.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.tract.com/projects/",
+      "access_caveat": "Developer website; absence of a Yuma listing is treated only as negative evidence, not proof that no private discussions exist.",
+      "evidence_note": "Suggests the legacy Tract/Yuma lead may be conflating Yuma, AZ with Yuma Road in Buckeye/Maricopa County."
     }
   ],
   "capacity_mw": null,
@@ -37,9 +93,30 @@
       "US-AZ-TRACT-YUMA-2024"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "verified_urls": [
+      "https://www.yumaaz.gov/government/community-development/development-portal",
+      "https://www.kawc.org/2026-04-06/yuma-data-centers-spark-opposition-discussion-set-for-council-retreat",
+      "https://www.kawc.org/news/2026-04-10/gyedc-hosts-presentation-in-yuma-on-data-centers-as-some-protest",
+      "https://www.azfamily.com/2026/04/14/public-meeting-yuma-highlights-early-pushback-possible-data-center-interest/",
+      "https://www.tract.com/projects/",
+      "https://www.tract.com/project/buckeye/",
+      "https://www.aps.com/en/Utility/Regulatory-and-Legal/Rate-case"
+    ],
+    "refresh_date": "2026-08-11"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "Tract/Yuma naming",
+      "details": "Public Tract and industry sources verify a Tract Buckeye Technology Park near/associated with Yuma Road in Maricopa County, while no official Yuma, Arizona application or Tract Yuma listing was found. Treat the legacy Yuma lead as possible place-name conflation until a primary Yuma record appears.",
+      "sources": [
+        "https://www.tract.com/project/buckeye/",
+        "https://www.datacenterdynamics.com/en/news/tract-announces-18gw-data-center-park-in-phoenix-arizona/",
+        "https://www.yumaaz.gov/government/community-development/development-portal"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

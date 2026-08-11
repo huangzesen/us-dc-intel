@@ -14,7 +14,8 @@
     "state": "GA"
   },
   "phase3_stable_id": "GA-004",
-  "status_as_of_cutoff": "Private proposed hyperscale site with Development Authority/Choose Columbus and developer materials. End user remains undisclosed. The public process described by the sponsor still requires overlay and site rezoning steps; no vote, permit, construction, CO, utility interconnection, or energization was verified.",
+  "status_as_of_cutoff": "local process: private proposed hyperscale data-center campus with Columbus/Choose Columbus project materials and a citywide Technology Overlay ordinance process advanced in 2026. The Technology Overlay regulates possible data-center zoning but is not itself Project Ruby site approval. End user remains undisclosed; no project-specific rezoning approval, building/land-disturbance permit, construction, certificate of occupancy, executed utility interconnection, or energization was verified.",
+  "evidence_grade": "B: official Choose Columbus/Development Authority materials and Columbus Council agenda/minutes verify ownership/process/overlay actions; capacity remains sourced to local media/industry trackers rather than an official filing found in this refresh.",
   "actions": [
     {
       "date": "2025-12-01",
@@ -51,10 +52,71 @@
       "primary_url": "https://www.choosecolumbusga.com/project-ruby-updates",
       "access_caveat": "Public FAQ/process page; draft overlay language is not an enacted ordinance.",
       "evidence_note": "Pending land-use process, not approval."
+    },
+    {
+      "date": "2026-03-18",
+      "date_precision": "day",
+      "government_body": "Columbus Planning Advisory Commission",
+      "action_type": "technology overlay text amendment recommendation",
+      "result_status": "PAC considered REZN-02-26-0289 on March 4 and March 18, 2026 and recommended conditional approval by a 5-1 vote, including a 500-foot buffer condition.",
+      "vote_tally": "5-1",
+      "case_or_ordinance_permit_number": "REZN-02-26-0289",
+      "primary_url": "https://mccmeetings.blob.core.usgovcloudapi.net/columga-pubu/MEET-Packet-39e0f695df7f48c18ab2283ffbedba3b.pdf",
+      "access_caveat": "Council packet/staff report; recommendation concerns the citywide Technology Overlay text amendment, not project-specific rezoning approval.",
+      "evidence_note": "Local process milestone only."
+    },
+    {
+      "date": "2026-06-02",
+      "date_precision": "day",
+      "government_body": "Columbus Council",
+      "action_type": "technology overlay ordinance first reading",
+      "result_status": "Council agenda listed REZN-02-26-0289 for first reading to amend the UDO to provide for Technology Overlay Districts and redefine DRIs.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "REZN-02-26-0289",
+      "primary_url": "https://meetings.municode.com/adaHtmlDocument/index?cc=COLUMGA&ip=True&me=39e0f695df7f48c18ab2283ffbedba3b",
+      "access_caveat": "Agenda item/first reading; not a site-specific approval.",
+      "evidence_note": "Local process milestone only."
+    },
+    {
+      "date": "2026-06-09",
+      "date_precision": "day",
+      "government_body": "Columbus Council",
+      "action_type": "technology overlay ordinance continued first reading and amendments",
+      "result_status": "Council agenda continued REZN-02-26-0289 on first reading as amended by substitute; post-summary minutes report public hearing held and amendments including 500-foot buffers, PFAS-related cooling-fluid language, generator restrictions, and decibel testing.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "REZN-02-26-0289",
+      "primary_url": "https://columbus-ga.municodemeetings.com/sites/default/files/fileattachments/city_council/meeting/2980/20260609.summary.pdf",
+      "access_caveat": "Summary minutes for citywide overlay ordinance; not a Project Ruby rezoning, land-disturbance permit, or building permit.",
+      "evidence_note": "Local process milestone only."
+    },
+    {
+      "date": "2026-06-16",
+      "date_precision": "day",
+      "government_body": "Columbus Council",
+      "action_type": "technology overlay ordinance adoption",
+      "result_status": "Council adopted Ordinance 26-034 / REZN-02-26-0289 by a six-to-two vote; council discussion stated the Technology Overlay District is a planning and zoning tool for future technology-related development and not a vote on a specific data-center project.",
+      "vote_tally": "6-2",
+      "case_or_ordinance_permit_number": "Ordinance 26-034 / REZN-02-26-0289",
+      "primary_url": "https://mccmeetings.blob.core.usgovcloudapi.net/columga-pubu/MEET-Packet-6d0ed340752f4fc8aaff15b39da580a4.pdf",
+      "access_caveat": "Official council packet/minutes; ordinance is citywide overlay, not site-specific Project Ruby approval.",
+      "evidence_note": "Overlay adoption changes regulatory context but does not verify construction or permits."
+    },
+    {
+      "date": "2026-07-01",
+      "date_precision": "month",
+      "government_body": "Georgia Department of Community Affairs / regional DRI process, as reported by Columbus Ledger-Enquirer",
+      "action_type": "reported DRI review movement",
+      "result_status": "Local reporting says Project Ruby moved to DRI review after Columbus Council approved data-center rules, while noting several steps remained before the project could proceed.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.ledger-enquirer.com/news/politics-government/article316178232.html",
+      "access_caveat": "Ledger-Enquirer article was visible in search results but direct fetch returned 403; no official DCA Project Ruby record was located during this refresh.",
+      "evidence_note": "Use as secondary evidence only until DCA/regional commission file is directly verified."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 600,
+  "capacity_mw_note": "600 MW is reported by regional/industry trackers and local reporting snippets as a power request or planned capacity; official Choose Columbus materials reviewed here did not publish a MW capacity, and one Realtor.com/Ledger-derived report states 650 MW.",
+  "owner": "Muscogee Property 1, LLC; Choose Columbus states it is owned/managed by Habitat Partners.",
   "sources": {
     "phase3_stable_id": "GA-004",
     "phase3_source_file": "phase3/county_ga_nc_sc.json",
@@ -62,9 +124,41 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.choosecolumbusga.com/project-ruby-updates",
+      "https://www.choosecolumbusga.com/news/p/item/66516/columbus-georgia-set-to-benefit-from-major-new-technology-center-campus",
+      "https://www.choosecolumbusga.com/media/userfiles/subsite_79/files/project-ruby/Project%20Ruby%20Site%20Map.pdf",
+      "https://meetings.municode.com/adaHtmlDocument/index?cc=COLUMGA&ip=True&me=39e0f695df7f48c18ab2283ffbedba3b",
+      "https://meetings.municode.com/adaHtmlDocument/index?cc=COLUMGA&ip=True&me=c2a149bd3e1048afbc51e7a88341041b",
+      "https://columbus-ga.municodemeetings.com/sites/default/files/fileattachments/city_council/meeting/2980/20260609.summary.pdf",
+      "https://mccmeetings.blob.core.usgovcloudapi.net/columga-pubu/MEET-Packet-6d0ed340752f4fc8aaff15b39da580a4.pdf",
+      "https://www.gpb.org/news/2026/05/04/new-map-shows-where-on-865-acres-proposed-columbus-data-center-would-be-built",
+      "https://cleanview.co/data-centers/georgia/2200/project-ruby",
+      "https://www.datacentermap.com/usa/georgia/columbus-ga/project-ruby/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "site_acreage",
+      "summary": "Official Dec. 1, 2025 Choose Columbus site map labels the property boundary as 985 acres; GPB/Ledger reporting on May 4, 2026 describes an April 9 map/site as 865 acres; Cleanview lists 875 acres and DataCenterMap lists 987 acres. Treat acreage as unresolved until parcel or rezoning filing is verified.",
+      "sources": [
+        "https://www.choosecolumbusga.com/media/userfiles/subsite_79/files/project-ruby/Project%20Ruby%20Site%20Map.pdf",
+        "https://www.gpb.org/news/2026/05/04/new-map-shows-where-on-865-acres-proposed-columbus-data-center-would-be-built",
+        "https://cleanview.co/data-centers/georgia/2200/project-ruby",
+        "https://www.datacentermap.com/usa/georgia/columbus-ga/project-ruby/"
+      ]
+    },
+    {
+      "field": "capacity_mw",
+      "summary": "Most secondary sources reviewed report 600 MW, while Realtor.com/Ledger-derived reporting states 650 MW. Official Choose Columbus pages reviewed during this refresh did not publish a MW figure.",
+      "sources": [
+        "https://cleanview.co/data-centers/georgia/2200/project-ruby",
+        "https://www.datacentermap.com/usa/georgia/columbus-ga/project-ruby/",
+        "https://www.realtor.com/news/trends/data-center-columbus-georgia-what-homeowners-can-do/"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

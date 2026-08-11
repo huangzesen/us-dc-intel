@@ -12,10 +12,53 @@
     "state": "Texas"
   },
   "phase3_stable_id": "US-TX-MICROSOFT-PECOS-2026",
-  "status_as_of_cutoff": "Microsoft announced the site; no local/state approval or construction-permit record was located.",
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "local process: Microsoft announced a Pecos datacenter campus of approximately 2 GW on 2026-06-22; related Energy Forge One/Project Kilby power-generation records are in state/local permitting and tax-incentive process, but no data-center building permit or construction-start record was located as of 2026-08-11.",
+  "actions": [
+    {
+      "date": "2025-10-17",
+      "government_body": "Texas Commission on Environmental Quality",
+      "action_type": "air permit application submitted",
+      "result_status": "application submitted for proposed Kilby Power Plant permits 181895, PSDTX1684, and GHGPSDTX260"
+    },
+    {
+      "date": "2026-03-25",
+      "government_body": "Reeves County Emergency Services District No. 2",
+      "action_type": "tax abatement public hearing",
+      "result_status": "hearing noticed for Energy Forge One Reinvestment Zone and tax abatement application; project described as 1-2 GW dedicated power for prospective data center and/or other power-intensive end users"
+    },
+    {
+      "date": "2026-05-05",
+      "government_body": "Texas Commission on Environmental Quality / Texas Register",
+      "action_type": "notice of public meeting and preliminary decision",
+      "result_status": "TCEQ notice issued for proposed air permits that would authorize construction of Kilby Power Plant in Reeves County near Pecos"
+    },
+    {
+      "date": "2026-06-10",
+      "government_body": "Texas Commission on Environmental Quality",
+      "action_type": "public meeting",
+      "result_status": "public meeting held/noticed in Pecos for proposed Kilby Power Plant air permits"
+    },
+    {
+      "date": "2026-06-22",
+      "government_body": "Microsoft Corporation",
+      "action_type": "company announcement",
+      "result_status": "Microsoft announced it will build a Pecos datacenter campus adding approximately 2 GW of global datacenter capacity"
+    },
+    {
+      "date": "2026-06-22",
+      "government_body": "Chevron Corporation",
+      "action_type": "company announcement",
+      "result_status": "Chevron announced Energy Forge One LLC signed a 20-year power purchase agreement with Microsoft for Project Kilby, targeting approximately 2.67 GW and first power in 2028"
+    },
+    {
+      "date": "2026-07-24",
+      "government_body": "Texas Comptroller of Public Accounts",
+      "action_type": "JETI agreement posted",
+      "result_status": "J0022 agreement phase posted for Pecos-Barstow-Toyah ISD and Energy Forge One LLC"
+    }
+  ],
+  "capacity_mw": 2000,
+  "owner": "Microsoft Corporation",
   "sources": {
     "phase3_stable_id": "US-TX-MICROSOFT-PECOS-2026",
     "phase3_source_file": "phase3/county_tx.json",
@@ -25,9 +68,54 @@
       "US-TX-MICROSOFT-PECOS-2026"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh": [
+      {
+        "date": "2026-06-22",
+        "title": "Microsoft official blog: Powering the next wave of AI: Expanding capacity with our new datacenter in Pecos",
+        "url": "https://blogs.microsoft.com/blog/2026/06/22/powering-the-next-wave-of-ai-expanding-capacity-with-our-new-datacenter-in-pecos/"
+      },
+      {
+        "date": "2026-06-22",
+        "title": "Chevron announcement: Chevron Signs 20-Year Power Agreement with Microsoft for West Texas Data Center",
+        "url": "https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center"
+      },
+      {
+        "date": "2026-05-05",
+        "title": "Texas Register notice for proposed TCEQ air permits 181895, PSDTX1684, and GHGPSDTX260",
+        "url": "https://www.sos.state.tx.us/texreg/pdf/backview/0515/0515ia.pdf"
+      },
+      {
+        "date": "2026-06-10",
+        "title": "TCEQ public meeting: Energy Forge One LLC, 181895, PSDTX1684, and GHGPSDTX260",
+        "url": "https://www.tceq.texas.gov/agency/decisions/hearings/events/public-meeting-energy-forge-one-llc-181895-psdtx1684-and-ghgpsdtx260"
+      },
+      {
+        "date": "2026-03-25",
+        "title": "Reeves County ESD No. 2 notice of public hearing for Energy Forge One tax abatement",
+        "url": "https://rcesd.org/app/uploads/2026/02/RCESD2_Notice-of-Public-Hearing-Energy-Forge-One-2026-03-25.pdf"
+      },
+      {
+        "date": "2026-07-24",
+        "title": "Texas Comptroller JETI application details: J0022, Pecos-Barstow-Toyah ISD, Energy Forge One LLC",
+        "url": "https://comptroller.texas.gov/economy/development/prop-tax/jeti/application-details.php?id=J0022"
+      }
+    ]
   },
-  "contradictions": [],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "status_as_of_cutoff": "Microsoft announced the site; no local/state approval or construction-permit record was located.",
+      "capacity_mw": null,
+      "owner": null
+    }
+  ],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "description": "Capacity values refer to different assets: Microsoft describes approximately 2 GW of datacenter capacity, Chevron describes approximately 2.67 GW of Project Kilby power capacity, and Reeves County ESD notice described an earlier/local tax-abatement project range of 1-2 GW. These are not treated as conflicting data-center IT load confirmations."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -14,7 +14,8 @@
     "state": "SD"
   },
   "phase3_stable_id": "SD-DEUEL-APPLIED-DELTA-FORGE",
-  "status_as_of_cutoff": "Deuel County's official December 16, 2025 record discusses an Applied Digital AI data center east of Toronto, including $4.6–$5.2 billion cost and approximately 430 MW peak demand. Later regional analysis says the project was withdrawn after the 2026 legislative session, while Applied Digital's April 2026 investor release does not confirm an active South Dakota build. No official withdrawal resolution/cancellation, building permit, construction, utility, inspection, CO, energization, commissioning, or service record was located.",
+  "status_as_of_cutoff": "As of 2026-08-11, the Deuel County, South Dakota project remains evidenced only as an announced/local-process Applied Digital proposal east of Toronto, with official county minutes documenting approximately 430 MW peak demand, two buildings, and a $4.6-$5.2 billion Applied Digital build cost. Deuel County's February 3, 2026 minutes show a six-month data-center moratorium motion failed, and February 17, 2026 minutes approved a public Applied Digital townhall, but no county approval, zoning permit, building permit, site work, utility service, commissioning, or energization record was located in reviewed county commission/zoning records through early August 2026. Current official company/state/utility sources place Delta Forge 1 in Boyce/Rapides Parish, Louisiana, not Deuel County, South Dakota; secondary sources report the South Dakota proposal was withdrawn/canceled after the 2026 legislative session, but no official Deuel County withdrawal/cancellation record was located.",
+  "evidence_grade": "B - official county records confirm the Deuel County proposal and local-process actions; official company/state/utility sources confirm Delta Forge 1 is now Louisiana; South Dakota withdrawal/cancellation remains secondary-source only.",
   "actions": [
     {
       "date": "2025-12-16",
@@ -51,10 +52,70 @@
       "primary_url": "https://www.dakotainstitute.org/research_analysis/the-price-of-power-data-centers-and-south-dakotas-energy-future/",
       "access_caveat": "Secondary analysis; withdrawal is reported, not treated as an official disposition.",
       "evidence_note": "Contradictory status evidence kept separate from the official county record."
+    },
+    {
+      "date": "2026-02-03",
+      "date_precision": "day",
+      "government_body": "Deuel County Board of Commissioners / Zoning Board",
+      "action_type": "county moratorium discussion",
+      "result_status": "A motion to establish a six-month moratorium on data centers to allow development of local ordinances failed. Minutes record Applied Digital comments and describe the then-current proposed site plan as two buildings totaling approximately 430 MW, with future expansion requiring additional public review and Commission approval.",
+      "vote_tally": "Kanengieter-No, Lammers-Yes, DeBoer-No, Grabow-No, Dahl-No",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.deuelcountysd.com/_files/ugd/1bce45_43336ff6ff3346c2ac593092aabbce0f.pdf",
+      "access_caveat": "Moratorium failure is not a project approval, permit, or construction authorization.",
+      "evidence_note": "Official county minutes; supports local-process status only."
+    },
+    {
+      "date": "2026-02-17",
+      "date_precision": "day",
+      "government_body": "Deuel County Board of Commissioners",
+      "action_type": "public meeting authorization",
+      "result_status": "Commissioners approved treating the February 25, 2026 Applied Digital townhall at the Clear Lake Community Center as a public meeting so all commissioners could attend.",
+      "vote_tally": "All voted yes",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.deuelcountysd.com/_files/ugd/1bce45_739289f5cd904374b248ccc23d17ebfb.pdf",
+      "access_caveat": "Townhall authorization is procedural and does not approve the data center.",
+      "evidence_note": "Official county minutes; confirms continued local engagement after the December 2025 discussion."
+    },
+    {
+      "date": "2026-05-26",
+      "date_precision": "day",
+      "government_body": "Louisiana Economic Development",
+      "action_type": "state economic development announcement",
+      "result_status": "Louisiana Economic Development announced Applied Digital's $3.6 billion Delta Forge 1 AI factory campus in Boyce, Rapides Parish, Louisiana, with two facilities totaling 300 MW critical IT load across approximately 300 acres; site development began in January 2026 and initial operations were expected in mid-2027.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.opportunitylouisiana.gov/news/central-louisiana-secures-3-6-billion-applied-digital-ai-factory-campus",
+      "access_caveat": "This official source concerns Delta Forge 1 in Louisiana and is used here to resolve the naming/location conflict with the Deuel County proposal.",
+      "evidence_note": "Official state source confirms Delta Forge 1 is not the Deuel County, South Dakota proposal."
+    },
+    {
+      "date": "2026-07-27",
+      "date_precision": "day",
+      "government_body": "Applied Digital",
+      "action_type": "company fiscal 2026 results / investor update",
+      "result_status": "Applied Digital reported long-term leases across five campuses, identifying Delta Forge 1 and Delta Forge 2 as in Louisiana and another southern state, with Polaris Forge 1-3 in North Dakota. The company stated Delta Forge 1 and 2 were in various stages of construction; it did not list an active South Dakota campus.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://ir.applieddigital.com/news-events/press-releases/detail/159/applied-digital-reports-fiscal-fourth-quarter-and-full-year",
+      "access_caveat": "Company portfolio disclosure does not by itself create an official Deuel County withdrawal record.",
+      "evidence_note": "Official company source supports treating the Deuel County proposal as separate from Delta Forge 1."
+    },
+    {
+      "date": "2026-08-04",
+      "date_precision": "day",
+      "government_body": "Deuel County Board of Commissioners",
+      "action_type": "economic development update",
+      "result_status": "CLAD's executive director reported it had been a busy year with the Applied Digital and Missouri River Energy projects, but the minutes do not record a data-center approval, permit, or construction action.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.deuelcountysd.com/_files/ugd/1bce45_537a2ea8a3314b1da54d22a4959a1f08.pdf",
+      "access_caveat": "General update only; no entitlement or build milestone.",
+      "evidence_note": "Latest reviewed county commission mention found in the public 2026 minutes."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 430,
+  "owner": "Applied Digital Corporation",
   "sources": {
     "phase3_stable_id": "SD-DEUEL-APPLIED-DELTA-FORGE",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -62,9 +123,65 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.deuelcountysd.com/_files/ugd/1bce45_74002fe687464440ae3316875fd5059c.pdf",
+      "https://www.deuelcountysd.com/_files/ugd/1bce45_43336ff6ff3346c2ac593092aabbce0f.pdf",
+      "https://www.deuelcountysd.com/_files/ugd/1bce45_739289f5cd904374b248ccc23d17ebfb.pdf",
+      "https://www.deuelcountysd.com/_files/ugd/1bce45_537a2ea8a3314b1da54d22a4959a1f08.pdf",
+      "https://ir.applieddigital.com/news-events/press-releases/detail/144/applied-digital-breaks-ground-on-delta-forge-1-a-430-mw-ai",
+      "https://ir.applieddigital.com/news-events/press-releases/detail/149/applied-digital-announces-new-u-s-based-high",
+      "https://ir.applieddigital.com/news-events/press-releases/detail/159/applied-digital-reports-fiscal-fourth-quarter-and-full-year",
+      "https://www.opportunitylouisiana.gov/news/central-louisiana-secures-3-6-billion-applied-digital-ai-factory-campus",
+      "https://www.cleco.com/about/datacenters",
+      "https://southdakotasearchlight.com/2026/04/02/one-data-center-project-unchanged-while-another-doesnt-make-sense-after-rejected-incentives/",
+      "https://www.dakotainstitute.org/research_analysis/the-price-of-power-data-centers-and-south-dakotas-energy-future/",
+      "https://cleanview.co/data-centers/south-dakota/772/applied-digital-sd-campus"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "as_of": "2026-08-11",
+      "topic": "Delta Forge 1 identity/location",
+      "summary": "This center's baseline name maps the Deuel County, SD proposal to 'Delta Forge 1', but current official company, Louisiana state, and Cleco utility sources identify Delta Forge 1 as the Applied Digital campus in Boyce/Rapides Parish, Louisiana. The Deuel County record should therefore be treated as the Toronto-area Applied Digital SD proposal unless a future official source reconnects it to the Delta Forge 1 name.",
+      "sources": [
+        "https://www.deuelcountysd.com/_files/ugd/1bce45_74002fe687464440ae3316875fd5059c.pdf",
+        "https://www.opportunitylouisiana.gov/news/central-louisiana-secures-3-6-billion-applied-digital-ai-factory-campus",
+        "https://ir.applieddigital.com/news-events/press-releases/detail/159/applied-digital-reports-fiscal-fourth-quarter-and-full-year",
+        "https://www.cleco.com/about/datacenters"
+      ]
+    },
+    {
+      "as_of": "2026-08-11",
+      "topic": "South Dakota proposal status",
+      "summary": "Official Deuel County minutes confirm discussion and public-process activity but no approval or cancellation record. Dakota Institute and Cleanview report the Deuel County project as withdrawn/canceled after the 2026 legislative session; that is retained as secondary status evidence pending an official withdrawal/cancellation record.",
+      "sources": [
+        "https://www.deuelcountysd.com/_files/ugd/1bce45_43336ff6ff3346c2ac593092aabbce0f.pdf",
+        "https://www.dakotainstitute.org/research_analysis/the-price-of-power-data-centers-and-south-dakotas-energy-future/",
+        "https://cleanview.co/data-centers/south-dakota/772/applied-digital-sd-campus"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "as_of": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Deuel County's official December 16, 2025 record discusses an Applied Digital AI data center east of Toronto, including $4.6–$5.2 billion cost and approximately 430 MW peak demand. Later regional analysis says the project was withdrawn after the 2026 legislative session, while Applied Digital's April 2026 investor release does not confirm an active South Dakota build. No official withdrawal resolution/cancellation, building permit, construction, utility, inspection, CO, energization, commissioning, or service record was located.",
+      "reason": "Refreshed with 2026 county process records and official sources identifying Delta Forge 1 as Louisiana."
+    },
+    {
+      "as_of": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "reason": "Set to the documented proposed Deuel County peak demand from official county minutes; not an operating capacity."
+    },
+    {
+      "as_of": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "reason": "Official county and company sources identify Applied Digital as developer/operator."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

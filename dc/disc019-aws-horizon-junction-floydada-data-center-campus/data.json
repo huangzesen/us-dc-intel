@@ -5,16 +5,116 @@
   "location": {
     "city": "Floydada",
     "county": "Floyd",
-    "state": "Texas"
+    "state": "Texas",
+    "addresses": [
+      "1762 County Road 241, Floydada, TX 79235",
+      "1774 County Road 241, Floydada, TX 79235",
+      "1782 County Road 241, Floydada, TX 79235",
+      "1768 County Road 241, Floydada, TX 79235"
+    ]
   },
   "capacity_mw": null,
-  "status": "TDLR filed; construction listed for August 2026-April 2027",
+  "status": "local process - TDLR Project Registered for Horizon Junction Buildings B/C/D and water Building M; no independent construction-start evidence found",
   "confidence": "high",
-  "evidence_date": "2026-08-07",
+  "evidence_date": "2026-08-11",
   "sources": [
-    "https://www.datacenterdynamics.com/en/news/amazon-files-to-develop-two-new-data-center-campuses-in-texas/"
+    "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026027103",
+    "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026027104",
+    "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026027105",
+    "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2026027106",
+    "https://www.tdlr.texas.gov/TABS/Projects/TABS2026025594",
+    "https://www.datacenterdynamics.com/en/news/amazon-files-to-develop-two-new-data-center-campuses-in-texas/",
+    "https://www.floydcountyrecord.com/2026/08/04/floyd-county-commissioners-court-addresses-data-center-in-open-letter/",
+    "https://www.allagnews.com/texas-county-uses-incentives-to-steer-data-centers/"
+  ],
+  "project_components": [
+    {
+      "tdlr_project": "TABS2026027103",
+      "facility": "Building B",
+      "address": "1762 County Road 241, Floydada, TX 79235",
+      "scope": "Data center building",
+      "square_feet": 189060,
+      "estimated_cost_usd": 300000000,
+      "start_date": "2026-08-01",
+      "completion_date": "2027-04-01",
+      "tdlr_status": "Project Registered",
+      "registration_date": "2026-08-05"
+    },
+    {
+      "tdlr_project": "TABS2026027104",
+      "facility": "Building C",
+      "address": "1774 County Road 241, Floydada, TX 79235",
+      "scope": "Data center",
+      "square_feet": 189060,
+      "estimated_cost_usd": 300000000,
+      "start_date": "2026-08-01",
+      "completion_date": "2027-04-01",
+      "tdlr_status": "Project Registered",
+      "registration_date": "2026-08-05"
+    },
+    {
+      "tdlr_project": "TABS2026027105",
+      "facility": "Building D",
+      "address": "1782 County Road 241, Floydada, TX 79235",
+      "scope": "Data center",
+      "square_feet": 189060,
+      "estimated_cost_usd": 300000000,
+      "start_date": "2026-08-01",
+      "completion_date": "2027-04-01",
+      "tdlr_status": "Project Registered",
+      "registration_date": "2026-08-05"
+    },
+    {
+      "tdlr_project": "TABS2026027106",
+      "facility": "Building M",
+      "address": "1768 County Road 241, Floydada, TX 79235",
+      "scope": "Water building",
+      "square_feet": 4067,
+      "estimated_cost_usd": 2000000,
+      "start_date": "2026-09-01",
+      "completion_date": "2027-09-01",
+      "tdlr_status": "Project Registered",
+      "registration_date": "2026-08-05"
+    }
+  ],
+  "related_projects": [
+    {
+      "tdlr_project": "TABS2026025594",
+      "project_name": "CONFIDENTIAL DATA CENTER",
+      "facility": "BUILDING A",
+      "owner": "AMAZON DATA SERVICES, INC",
+      "address": "1752 County Road 241, Floydada, TX 79235",
+      "scope": "New data center building",
+      "square_feet": 189060,
+      "estimated_cost_usd": 300000000,
+      "start_date": "2026-08-01",
+      "completion_date": "2027-04-01",
+      "tdlr_status": "Project Registered",
+      "registration_date": "2026-07-20",
+      "relationship_note": "Adjacent Amazon-owned TDLR record with same size/cost as Horizon Junction data center buildings, but not named Horizon Junction in the official TDLR record."
+    }
   ],
   "why_not_in_baseline": "Very recent AWS filing in a rural Panhandle/South Plains county-seat market; baseline did not include Horizon Junction, Floydada, or Floyd County AWS campus.",
+  "contradictions": [
+    "TDLR and Data Center Dynamics identify three Horizon Junction data center buildings (B/C/D) plus a water Building M; All Ag News reports a proposed Amazon campus could include seven data-center buildings across roughly 485 acres, but the public official filings reviewed here do not confirm seven named Horizon Junction buildings.",
+    "TDLR records list start dates in August 2026 for the data center buildings, but current TDLR status remains Project Registered and no independent source reviewed confirms active site work."
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "previous": "TDLR filed; construction listed for August 2026-April 2027",
+      "current": "local process - TDLR Project Registered for Horizon Junction Buildings B/C/D and water Building M; no independent construction-start evidence found",
+      "reason": "TDLR records show Project Registered status; announced/listed construction dates are not by themselves construction-start evidence."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "evidence_date",
+      "previous": "2026-08-07",
+      "current": "2026-08-11",
+      "reason": "Refreshed against TDLR, local record, and industry sources."
+    }
+  ],
   "discovery_file": "candidates-secondary-markets.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

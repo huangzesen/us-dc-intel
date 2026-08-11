@@ -4,16 +4,34 @@
   "aliases": [
     "Cloud HQ",
     "CloudHQ Data Center",
-    "West Creek Corporate Center data center"
+    "West Creek Corporate Center data center",
+    "CloudHQ MSP Campus"
   ],
   "location": {
     "city": "Chaska",
     "county": "Carver County",
-    "state": "MN"
+    "state": "MN",
+    "address": "2007 Schoolmaster Drive",
+    "site_context": "West Creek Corporate Center",
+    "latitude": 44.81068,
+    "longitude": -93.63557
   },
   "phase3_stable_id": "MN-CHASKA-CLOUDHQ",
-  "status_as_of_cutoff": "Chaska's official page says the approximately 1.5 million-square-foot preliminary site plan/plat was approved by the Planning Commission and City Council in October 2024, but the developer has not submitted a final application or timeline. A preliminary Xcel/MMPA system-impact study is noted; no final land-use approval, permit, construction, utility service, energization, commissioning, or service record was located.",
+  "status_as_of_cutoff": "local process as of 2026-08-11: Chaska's official Cloud HQ page still lists the project under proposed developments and says the preliminary site plan/plat was approved in October 2024, but final site-plan/plat approval is still required, the developer has not submitted a final application, and there is no timeline for final review. The same city page says Cloud HQ, MMPA, and Xcel Energy are conducting a preliminary system impact study and that the project cannot go forward until the study is complete. No final land-use approval, building permit, construction start, utility service, energization, commissioning, or service record was located in this refresh.",
+  "evidence_grade": "A-",
   "actions": [
+    {
+      "date": "2024-10-09",
+      "date_precision": "day",
+      "government_body": "Chaska Planning Commission",
+      "action_type": "recommend preliminary approvals",
+      "result_status": "Recommended City Council approval of the Preliminary Site & Building Plan, Preliminary Plat, and Conditional Use Permit for CloudHQ/CloudHQ/PC #2024-13, subject to conditions. The Planning Commission minutes record the motion carried 7-1, with Commissioner Olson opposed.",
+      "vote_tally": "7-1",
+      "case_or_ordinance_permit_number": "PC #2024-13",
+      "primary_url": "https://chaskamn.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6613,plainText=false)",
+      "access_caveat": "Official minutes are a recommendation, not final approval or construction evidence.",
+      "evidence_note": "Official Chaska Planning Commission minutes for the October 9, 2024 meeting."
+    },
     {
       "date": "2024-10",
       "date_precision": "month",
@@ -27,20 +45,45 @@
       "evidence_note": "Official city status page."
     },
     {
-      "date": "2026-07-01",
+      "date": "2024-10-21",
+      "date_precision": "day",
+      "government_body": "Chaska City Council",
+      "action_type": "preliminary site/building plan, preliminary plat, CUP, and zoning ordinance amendment approval",
+      "result_status": "Adopted Resolution No. 2024-80 approving the Preliminary Site & Building Plan, Preliminary Plat, and Conditional Use Permit for CloudHQ and a new substation; adopted Ordinance No. 1050 approving related zoning ordinance amendments to PID-7. The City Council minutes record both motions carried 4-1, with Councilmember Hubbard opposed.",
+      "vote_tally": "4-1",
+      "case_or_ordinance_permit_number": "Resolution No. 2024-80; Ordinance No. 1050; PC #2024-13",
+      "primary_url": "https://chaskamn.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6572,plainText=false)",
+      "access_caveat": "Preliminary approvals remain short of final site-plan/plat approval and do not evidence construction start.",
+      "evidence_note": "Official Chaska City Council minutes for the October 21, 2024 meeting."
+    },
+    {
+      "date": "2026-08-11",
       "date_precision": "day",
       "government_body": "City of Chaska",
       "action_type": "current project-status update",
-      "result_status": "The city says Cloud HQ still needs final site-plan/plat approval, has not submitted a final application, and has no timeline for final review. It also says Cloud HQ, MMPA, and Xcel are conducting a preliminary system-impact study.",
+      "result_status": "The city says Cloud HQ still needs final site-plan/plat approval, has not submitted a final application, and has no timeline for final review. It also says Cloud HQ, MMPA and Xcel Energy are conducting a preliminary system-impact study and that the project can't go forward until the study is complete. Chaska's proposed-developments page lists Cloud HQ under 'Other proposed projects,' not 'Fully approved projects' or 'Active construction.'",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.chaskamn.gov/841/Cloud-HQ",
       "access_caveat": "Status page is not a permit or utility approval record.",
       "evidence_note": "Official negative/current-status evidence."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "CloudHQ",
+      "action_type": "developer campus specification",
+      "result_status": "CloudHQ's official MSP Campus page lists the Chaska campus at 1,100,000 square feet, 200 MW available critical load, 200 MW total critical IT load, and RFS within 20 months. This is developer-reported capacity and readiness timing, not local approval or energization evidence.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://cloudhq.com/campus/msp-campus/",
+      "access_caveat": "Developer marketing/specification page; capacity is critical IT load and RFS timing is conditional on project execution.",
+      "evidence_note": "Official CloudHQ campus page accessed during 2026-08-11 refresh."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 200,
+  "capacity_mw_basis": "Developer-reported maximum/total critical IT load for CloudHQ MSP Campus; not a utility interconnection approval or energized load.",
+  "owner": "CloudHQ",
   "sources": {
     "phase3_stable_id": "MN-CHASKA-CLOUDHQ",
     "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
@@ -48,9 +91,64 @@
     "regional_source_file": "phase2/region_midwest_greatlakes.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://www.chaskamn.gov/841/Cloud-HQ",
+      "https://www.chaskamn.gov/174/Proposed-Developments",
+      "https://chaskamn.api.civicclerk.com/v1/Events/647",
+      "https://chaskamn.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6548,plainText=false)",
+      "https://chaskamn.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6613,plainText=false)",
+      "https://chaskamn.api.civicclerk.com/v1/Events/761",
+      "https://chaskamn.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6566,plainText=false)",
+      "https://chaskamn.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6572,plainText=false)",
+      "https://cloudhq.com/campus/msp-campus/",
+      "https://finance-commerce.com/2025/04/chaska-data-center-housing-business-park-growth/",
+      "https://servercountry.org/data/projects/cloudhq-msp-campus-chaska-mn/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "field": "gross_square_feet",
+      "description": "Public sources conflict on project size: Chaska's official project page says approximately 1.5 million square feet, 2024 city/media descriptions repeatedly cite about 1.4 million square feet, while CloudHQ's official MSP Campus page currently lists 1,100,000 square feet. Treat 1,100,000 square feet as developer-current and the larger figures as city/preliminary-plan context until a final site-plan packet reconciles them.",
+      "sources": [
+        "https://www.chaskamn.gov/841/Cloud-HQ",
+        "https://cloudhq.com/campus/msp-campus/",
+        "https://finance-commerce.com/2024/10/big-data-center-project-nears-construction-in-chaska/",
+        "https://servercountry.org/data/projects/cloudhq-msp-campus-chaska-mn/"
+      ]
+    },
+    {
+      "field": "capacity_mw",
+      "description": "CloudHQ currently publishes 200 MW critical IT load; older industry coverage cited 180 MW. The refresh uses 200 MW because it is the current official developer specification, with a caveat that no utility approval or energized-load record was found.",
+      "sources": [
+        "https://cloudhq.com/campus/msp-campus/",
+        "https://www.datacenterdynamics.com/en/news/cloudhq-planning-180mw-data-center-campus-in-minneapolis-minnesota/"
+      ]
+    }
+  ],
   "seed_only": false,
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Chaska's official page says the approximately 1.5 million-square-foot preliminary site plan/plat was approved by the Planning Commission and City Council in October 2024, but the developer has not submitted a final application or timeline. A preliminary Xcel/MMPA system-impact study is noted; no final land-use approval, permit, construction, utility service, energization, commissioning, or service record was located.",
+      "new_value": "local process as of 2026-08-11 with no final application/timeline, preliminary system-impact study still required, and no construction/service evidence found.",
+      "source_url": "https://www.chaskamn.gov/841/Cloud-HQ"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 200,
+      "source_url": "https://cloudhq.com/campus/msp-campus/"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "CloudHQ",
+      "source_url": "https://www.chaskamn.gov/841/Cloud-HQ"
+    }
+  ],
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

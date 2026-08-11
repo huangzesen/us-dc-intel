@@ -9,22 +9,42 @@
   "location": {
     "city": "Hansel Valley",
     "county": "Box Elder",
-    "state": "UT"
+    "state": "UT",
+    "area_description": "Western unincorporated Box Elder County; MIDA Stratos Project Area private land legal description spans approximately 40,000 acres, with the initial Compute Complex identified as Wonder Valley in Salt Wells / Hansel Valley."
   },
   "phase3_stable_id": "US-UT-STRATOS-BOX-ELDER-2026",
-  "status_as_of_cutoff": "Approved development agreement reported in Utah government material; proposed, not construction-verified. Referendum petitions and permit gaps remain.",
+  "status_as_of_cutoff": "local process: MIDA project-area plan and Box Elder County consent/interlocal actions are approved, but the county FAQ says the resolution does not approve a data center and developers still need master plan/site plan review plus state air and water-quality permits; no construction or energization verified as of 2026-08-11.",
+  "status_history": [
+    {
+      "as_of": "2026-07-16",
+      "status": "Approved development agreement reported in Utah government material; proposed, not construction-verified. Referendum petitions and permit gaps remain."
+    }
+  ],
+  "evidence_grade": "A- official MIDA/Box Elder County documents establish project-area approval, developer, location, and planned energy scale; permit/construction status remains unverified and later scale-back reports are not reflected in official amended project-area documents found in this refresh.",
   "actions": [
+    {
+      "date": "2026-04-24",
+      "date_precision": "day",
+      "government_body": "Military Installation Development Authority Board",
+      "action_type": "project-area plan adoption / development framework approvals",
+      "result_status": "MIDA agenda and resolution records show Resolution 2026-06 adopting the Stratos Project Area Plan, Resolution 2026-07 adopting development standards, Resolution 2026-08 authorizing a development agreement with the master developer, Ordinance 2026-01 levying a municipal energy sales and use tax, and Resolution 2026-09 approving the interlocal agreement with Box Elder County. The project-area plan becomes effective when Box Elder County grants consent.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "MIDA Resolutions 2026-06, 2026-07, 2026-08, 2026-09; Ordinance 2026-01",
+      "primary_url": "https://www.utah.gov/pmn/sitemap/noticehistory/308549.html",
+      "access_caveat": "Utah Public Notice agenda and MIDA resolution; full final executed development agreement could not be independently text-extracted from the MIDA link during this refresh.",
+      "evidence_note": "Official MIDA/Utah public-notice source; status remains land-use/project-area framework, not construction."
+    },
     {
       "date": "2026-05-04",
       "date_precision": "day",
       "government_body": "Box Elder County Commission",
-      "action_type": "development-agreement approval",
-      "result_status": "Utah government planning material records the Stratos Project as approved by Box Elder County commissioners on May 4, 2026 and says referendum petitions were filed; no construction had begun. The final resolution/roll call was not retrieved.",
+      "action_type": "MIDA project-area consent and interlocal agreement",
+      "result_status": "Box Elder County announced that the County Commission approved a resolution giving MIDA consent to create the Stratos project area, which may include a data center in western unincorporated Box Elder County. The county FAQ states this did not itself approve a data center; MIDA is responsible for land rules/zoning/building permits and developers must still submit a master plan, subdivision requirements, site plans, and state air/water quality permit applications.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.utah.gov/pmn/files/1432237.pdf",
-      "access_caveat": "Official Utah-hosted planning material, but not the underlying Box Elder minutes/resolution; no tally is inferred.",
-      "evidence_note": "Body/context retained from prior file: Box Elder County Commission (as recorded in Utah government planning material)."
+      "primary_url": "https://www.boxeldercountyut.gov/m/newsflash/Home/Detail/82",
+      "access_caveat": "Official county press release/FAQ; roll-call tally not retrieved.",
+      "evidence_note": "Official county source supersedes prior secondary Utah planning-material characterization."
     },
     {
       "date": "2026-05-26",
@@ -37,10 +57,42 @@
       "primary_url": "https://www.utah.gov/pmn/files/1444799.pdf",
       "access_caveat": "Government compiled inventory; project scope/capacity distinctions and source limitations are stated in the report.",
       "evidence_note": "Body/context retained from prior file: Grand County Planning Commission staff report / Utah public-notice system."
+    },
+    {
+      "date": "2026-05-28",
+      "date_precision": "day",
+      "government_body": "Box Elder County Attorney / Clerk",
+      "action_type": "referendum legal review",
+      "result_status": "County press release says three referendum applications challenging Resolutions 26-11 and 26-12 were received on May 8 and May 11, 2026, and the County Attorney determined neither resolution was legally referable to voters; sponsors retained appeal rights.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Resolutions 26-11 and 26-12",
+      "primary_url": "https://www.boxeldercountyut.gov/DocumentCenter/View/2240/Referendum-Press-Release",
+      "access_caveat": "County legal determination; not a final court disposition of any appeal.",
+      "evidence_note": "Official county referendum-status source."
+    },
+    {
+      "date": "2026-06-10",
+      "date_precision": "day",
+      "government_body": "Box Elder County Commission",
+      "action_type": "temporary land-use regulation / moratorium",
+      "result_status": "County adopted Ordinance 654, a 180-day temporary suspension on accepting or processing new county applications for data centers, data-center power plants, and related infrastructure. County press release states the moratorium does not affect Stratos because the project area is governed by MIDA.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Ordinance 654",
+      "primary_url": "https://www.boxeldercountyut.gov/m/newsflash/Home/Detail/89",
+      "access_caveat": "Applies where Box Elder County retains land-use authority; county says it does not affect Stratos.",
+      "evidence_note": "Official county moratorium source."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 9000,
+  "capacity_basis": {
+    "value_type": "planned_full_buildout_nameplate_energy_generation_for_compute_complex",
+    "first_phase_mw": 3000,
+    "full_buildout_mw": 9000,
+    "source_url": "https://www.boxeldercountyut.gov/DocumentCenter/View/2189/Box-Elder-County-MIDA-Stratos-Agreement-26-15-",
+    "source_date": "2026-05-04",
+    "caveat": "Official interlocal agreement estimates approximately 3 GW for first phase and approximately 9 GW at buildout; this is planned energy generation/capacity context, not installed IT load or energized capacity."
+  },
+  "owner": "O'Leary Digital Utah Development Co, LLC (Master Developer; Wonder Valley branding). Public/land-use authority: Military Installation Development Authority (MIDA).",
   "sources": {
     "phase3_stable_id": "US-UT-STRATOS-BOX-ELDER-2026",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -48,9 +100,41 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://www.midaut.org/stratos",
+      "https://www.midaut.org/s/Stratos-Project-Area-Plan-May-2026-khcb.pdf",
+      "https://www.midaut.org/s/20260424-Stratos-Project-Area-Plan-MIDA-BOARD-Resolution-06-dggg.pdf",
+      "https://www.boxeldercountyut.gov/m/newsflash/Home/Detail/82",
+      "https://www.boxeldercountyut.gov/661/Stratos-Page-FAQ-Page",
+      "https://www.boxeldercountyut.gov/DocumentCenter/View/2189/Box-Elder-County-MIDA-Stratos-Agreement-26-15-",
+      "https://www.boxeldercountyut.gov/DocumentCenter/View/2240/Referendum-Press-Release",
+      "https://www.boxeldercountyut.gov/m/newsflash/Home/Detail/89",
+      "https://www.boxeldercountyut.gov/DocumentCenter/View/2318/Ordinance-654---Data-Center-Moratorium",
+      "https://www.businessinsider.com/kevin-oleary-utah-data-center-messed-up-messaging-2026-8"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "as_of": "2026-08-11",
+      "topic": "project scale after public backlash",
+      "details": "Official MIDA/Box Elder materials available during this refresh still describe approximately 40,000 acres and up to approximately 9 GW full buildout. Media/developer statements in June-August 2026 report pledges or plans to reduce the footprint and disclose a 1 GW facility plan, but no official amended Stratos project-area plan, amended interlocal agreement, or construction permit was found.",
+      "sources": [
+        "https://www.midaut.org/stratos",
+        "https://www.midaut.org/s/Stratos-Project-Area-Plan-May-2026-khcb.pdf",
+        "https://www.businessinsider.com/kevin-oleary-utah-data-center-messed-up-messaging-2026-8"
+      ]
+    },
+    {
+      "as_of": "2026-08-11",
+      "topic": "approval terminology",
+      "details": "Some sources describe Stratos as approved, but Box Elder County's FAQ clarifies the county resolution does not approve a data center and that master plan/site plan plus DEQ air and water permits remain required. This file classifies status as local process, not construction or energized.",
+      "sources": [
+        "https://www.boxeldercountyut.gov/m/newsflash/Home/Detail/82",
+        "https://www.boxeldercountyut.gov/661/Stratos-Page-FAQ-Page"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -12,7 +12,8 @@
     "state": "CO"
   },
   "phase3_stable_id": "US-CO-CORESITE-DE3-DENVER-2024",
-  "status_as_of_cutoff": "CoreSite reports the DE3 building under construction and generator testing/commissioning in June 2026. Company pages differ on availability timing (June versus end-2026); no Denver-specific final inspection, certificate of occupancy, utility energization, or live-service record was located.",
+  "status_as_of_cutoff": "site work-construction as of 2026-08-11: CoreSite's DE3 community page reports June 2026 generator testing/commissioning as construction neared completion, CoreSite's market page still lists DE3 as Coming Soon with opening at end-2026, and no Denver final inspection, certificate of occupancy, utility energization, or live-service record was located in this refresh.",
+  "evidence_grade": "B",
   "actions": [
     {
       "date": "2025-10-06",
@@ -49,10 +50,71 @@
       "primary_url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections",
       "access_caveat": "The public page is a process page; the project-specific e-permits record was not accessible in the reviewed search.",
       "evidence_note": "Negative search only; it does not establish that no permit exists."
+    },
+    {
+      "date": "2024-06-18",
+      "date_precision": "day",
+      "government_body": "City and County of Denver permit record, mirrored by Realtor.com",
+      "action_type": "commercial construction permit",
+      "result_status": "Permit history mirror lists a commercial new-construction permit for '4900 N Race St - New Bldg - Shoring/excavation' as issued.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.realtor.com/realestateandhomes-detail/4900-Race-St_Denver_CO_80216_M18272-65869",
+      "access_caveat": "Third-party mirror of public records; Denver Accela address search was not machine-readable in this refresh.",
+      "evidence_note": "Supports approved-permitted/site-work status, but not occupancy or energization."
+    },
+    {
+      "date": "2024-07-01",
+      "date_precision": "day",
+      "government_body": "City and County of Denver permit record, mirrored by Realtor.com",
+      "action_type": "commercial construction permit",
+      "result_status": "Permit history mirror lists a commercial construction permit for '4900 Race St - New 3-story Office Building' as issued.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.realtor.com/realestateandhomes-detail/4900-Race-St_Denver_CO_80216_M18272-65869",
+      "access_caveat": "Third-party mirror of public records; Denver Accela address search was not machine-readable in this refresh.",
+      "evidence_note": "Consistent with subsequent company and contractor construction evidence."
+    },
+    {
+      "date": "2026-05-20",
+      "date_precision": "day",
+      "government_body": "Denver City Council / Mayor",
+      "action_type": "data-center moratorium ordinance",
+      "result_status": "Legistar file 26-0431 shows the bill authorizing a moratorium on acceptance or processing of certain data-center permit and site-development-plan applications passed, with final action on 2026-05-20.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "26-0431",
+      "primary_url": "https://denver.legistar.com/LegislationDetail.aspx?GUID=0A6BACDC-1F9A-474F-863E-C3F51B5C4489&ID=7960021",
+      "access_caveat": "Citywide ordinance; it is not a project-specific completion record.",
+      "evidence_note": "Regional media reports the moratorium does not affect data centers already permitted or under construction, including 4900 Race Street."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "CoreSite (company source; not a government body)",
+      "action_type": "current facility listing",
+      "result_status": "CoreSite's DE3 facility page lists 4900 Race St. as Coming Soon and describes the first building as approximately 170,000 square feet with 18 CMW, part of a three-building 590,000+ square-foot / 60 CMW campus targeted for availability in 2026.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.coresite.com/data-center/de3-denver-co",
+      "access_caveat": "Marketing/facility page, not an inspection, CO, or energization record.",
+      "evidence_note": "Supports capacity_mw=18 for DE3 and campus buildout_capacity_mw=60."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "DPR Construction (contractor source; not a government body)",
+      "action_type": "contractor project profile",
+      "result_status": "DPR describes CoreSite DE3 as a ground-up, three-story, 180,000-square-foot facility with up to 18 MW of critical IT load across three 6 MW computer rooms.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.dpr.com/projects/coresite-de3-data-center-phase-1-denver-co",
+      "access_caveat": "Contractor project page; does not confirm completion, occupancy, or live service.",
+      "evidence_note": "Corroborates construction scope and 18 MW phase capacity."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 18,
+  "campus_buildout_capacity_mw": 60,
+  "owner": "CoreSite (American Tower company)",
   "sources": {
     "phase3_stable_id": "US-CO-CORESITE-DE3-DENVER-2024",
     "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
@@ -60,9 +122,40 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.denvergov.org/buildingpermitstatus",
+      "https://denver.legistar.com/LegislationDetail.aspx?GUID=0A6BACDC-1F9A-474F-863E-C3F51B5C4489&ID=7960021",
+      "https://www.coresite.com/data-center/de3-denver-co",
+      "https://www.coresite.com/en-us/data-centers/denver/de3-construction",
+      "https://www.coresite.com/news/coresite-achieves-key-construction-milestone-for-new-de3-data-center-in-denver",
+      "https://www.coresite.com/data-center-locations/denver",
+      "https://www.dpr.com/projects/coresite-de3-data-center-phase-1-denver-co",
+      "https://www.realtor.com/realestateandhomes-detail/4900-Race-St_Denver_CO_80216_M18272-65869",
+      "https://www.axios.com/local/denver/2026/05/19/denver-data-center-moratorium-approved",
+      "https://www.govtech.com/artificial-intelligence/denver-city-council-approves-data-center-moratorium"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "availability/opening timing",
+      "details": "CoreSite's DE3 community page says operations were scheduled for June 2026, while CoreSite's Denver market page says DE3 is scheduled to open at the end of 2026; no final inspection, CO, energization, or live-service source resolved this.",
+      "sources": [
+        "https://www.coresite.com/en-us/data-centers/denver/de3-construction",
+        "https://www.coresite.com/data-center-locations/denver"
+      ]
+    },
+    {
+      "topic": "building square footage",
+      "details": "CoreSite facility/community pages list approximately 170,000 square feet, while CoreSite's October 2025 milestone announcement and DPR profile describe approximately 180,000 square feet. Capacity is consistent at 18 MW/CMW.",
+      "sources": [
+        "https://www.coresite.com/data-center/de3-denver-co",
+        "https://www.coresite.com/en-us/data-centers/denver/de3-construction",
+        "https://www.coresite.com/news/coresite-achieves-key-construction-milestone-for-new-de3-data-center-in-denver",
+        "https://www.dpr.com/projects/coresite-de3-data-center-phase-1-denver-co"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

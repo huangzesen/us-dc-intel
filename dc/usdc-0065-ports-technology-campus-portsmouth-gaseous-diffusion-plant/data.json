@@ -11,10 +11,12 @@
   "location": {
     "city": "Piketon",
     "county": "Pike",
-    "state": "OH"
+    "state": "OH",
+    "site": "Former Portsmouth Gaseous Diffusion Plant / DOE Portsmouth Site, with FAST-41 description also referencing approximately 1,300 acres of adjacent private land in Pike County"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
+  "status_as_of_cutoff": "local process",
+  "evidence_grade": "official/public-agency confirmed announcement and active federal permitting; no approved construction/energized evidence found",
   "actions": [
     {
       "date": "2026-03-20",
@@ -25,10 +27,68 @@
       "case_or_permit_number": null,
       "primary_url": "https://www.energy.gov/em/articles/special-report-details-worlds-largest-ai-data-center-portsmouth-site",
       "access_caveat": "Federal announcement; planning maxima are not IT load, a permit, or live capacity."
+    },
+    {
+      "date": "2026-03-20",
+      "body": "U.S. Department of Energy",
+      "action_type": "federal fact sheet / land lease and energy infrastructure announcement",
+      "exact_result_status": "DOE stated that it is leasing federal land at the former Portsmouth Gaseous Diffusion Plant to an SB Energy-affiliated entity for a data center campus; SoftBank Group and SB Energy plan 10 GW of new power generation, including at least 9.2 GW of natural gas generation, to power 10 GW of data center development.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.energy.gov/articles/fact-sheet-department-energy-ensuring-affordable-energy-access-ohio-while-powering-future",
+      "access_caveat": "Planning and lease announcement; not evidence of completed permits, live IT load, or energized capacity."
+    },
+    {
+      "date": "2026-03-24",
+      "body": "U.S. Department of Energy Office of Environmental Management",
+      "action_type": "ceremonial groundbreaking / development timing statement",
+      "exact_result_status": "DOE described a March 20 groundbreaking at the Portsmouth Site for a new 10 GW AI data center and stated development is expected to begin in 2026 with an initial phase on 189 acres.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.energy.gov/em/articles/partnership-ensures-affordable-energy-powers-ai-future-portsmouth-site",
+      "access_caveat": "Ceremonial groundbreaking and expected development timing; not treated as approved-permitted construction."
+    },
+    {
+      "date": "2026-06-11",
+      "body": "Federal Permitting Dashboard",
+      "action_type": "FAST-41 project posting",
+      "exact_result_status": "Project posted as a FAST-41 covered project with environmental review and permitting status in progress, 0 of 4 listed processes completed, and estimated environmental review/permitting completion on 2026-12-23.",
+      "vote_tally": null,
+      "case_or_permit_number": "FAST-41: PORTS Technology Campus",
+      "primary_url": "https://www.permits.performance.gov/permitting-project/fast-41-covered-projects/ports-technology-campus",
+      "access_caveat": "Federal permitting dashboard; status applies to environmental review and permitting processes."
+    },
+    {
+      "date": "2026-06-16",
+      "body": "Federal Permitting Improvement Steering Council",
+      "action_type": "FAST-41 coverage announcement",
+      "exact_result_status": "Permitting Council announced FAST-41 coverage for the PORTS Technology Campus in Pike County, Ohio; sponsor is SB Energy and the U.S. Army Corps of Engineers is lead federal permitting agency.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.permitting.gov/newsroom/press-releases/ports-technology-campus-latest-gain-fast-41-coverage",
+      "access_caveat": "FAST-41 coverage improves review coordination but is not a final permit approval."
+    },
+    {
+      "date": "2026-05-06",
+      "body": "AEP Ohio",
+      "action_type": "customer-funded transmission project public-input notice",
+      "exact_result_status": "AEP Ohio announced the Piketon Area Improvements Project to serve the planned data center campus, including Baku Substation in Pike County and about 50 miles of 765 kV transmission line to Gavin Substation; AEP expects power to begin flowing to the site in 2029 and said construction is expected from early 2027 to late 2028 pending regulatory approvals.",
+      "vote_tally": null,
+      "case_or_permit_number": "OPSB planned Case No. 26-0426-EL-BTX",
+      "primary_url": "https://www.aepohio.com/company/news/view?releaseID=11922",
+      "access_caveat": "Transmission project public-input/regulatory process; does not prove data center construction approval."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 10000,
+  "capacity_notes": {
+    "full_buildout_mw": 10000,
+    "phase_1_mw": 800,
+    "power_generation_plan_mw": 10000,
+    "natural_gas_generation_plan_mw": 9200,
+    "energized_mw": 0,
+    "caveat": "Capacity is announced/planned full-buildout data center scale, not verified energized IT load; sponsor website identifies first 800 MW phase starting construction in 2026."
+  },
+  "owner": "SB Energy (SoftBank Group) / SB Energy-affiliated project entity; DOE remains relevant federal landowner/lessor for Portsmouth Site land",
   "sources": {
     "phase3_stable_id": "OH-PORTS-PIKE-SBENERGY",
     "phase3_source_file": "phase3/county_oh_in.json",
@@ -38,9 +98,28 @@
       "US-OH-SB-ENERGY-PORTS-PIKETON-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.energy.gov/articles/fact-sheet-department-energy-ensuring-affordable-energy-access-ohio-while-powering-future",
+      "https://www.energy.gov/em/articles/partnership-ensures-affordable-energy-powers-ai-future-portsmouth-site",
+      "https://www.energy.gov/em/articles/special-report-details-worlds-largest-ai-data-center-portsmouth-site",
+      "https://www.permits.performance.gov/permitting-project/fast-41-covered-projects/ports-technology-campus",
+      "https://www.permitting.gov/newsroom/press-releases/ports-technology-campus-latest-gain-fast-41-coverage",
+      "https://portscampus.com/",
+      "https://www.aep.com/news/stories/view/10823/",
+      "https://www.aepohio.com/company/news/view?releaseID=11922",
+      "https://www.aeptransmission.com/ohio/PiketonArea/",
+      "https://woub.org/2026/03/20/federal-government-pike-county-site-courntrys-largest-data-center-federal-trade-deal/"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "change": "status_as_of_cutoff changed from null/no status to local process; capacity_mw changed from null to 10000 planned full-buildout MW with capacity_notes caveat; owner changed from null to SB Energy/SoftBank project entity.",
+      "reason": "DOE, Federal Permitting Dashboard, Permitting Council, project sponsor, and AEP sources now confirm announcement, sponsor, planned capacity, FAST-41 in-progress permitting, and associated transmission process."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

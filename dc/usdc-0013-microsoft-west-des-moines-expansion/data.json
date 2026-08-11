@@ -10,10 +10,13 @@
   "location": {
     "city": "West Des Moines",
     "county": "Warren/Madison",
-    "state": "IA"
+    "state": "IA",
+    "site": "Ginger East campus / Project Osmium-related West Des Moines Microsoft expansion",
+    "address_note": "City Development and Planning minutes identify DSM15 Data Center (Ginger East) at 1475 SE Maffitt Lake Rd; Axios also identifies the fifth/final Ginger East building site at 1475 SE Maffitt Lake Road."
   },
   "phase3_stable_id": "IA-WEST-DES-MOINES-MICROSOFT",
-  "status_as_of_cutoff": "Active phased expansion; official city records establish multiple site/grade/building actions, but no new-building power-on or complete campus record was located.",
+  "status_as_of_cutoff": "site work-construction: City minutes establish DSM15/Ginger East initial grading at 1475 SE Maffitt Lake Rd in 2023; West Des Moines Water Works' 2025 board packet says most Project Ginger water-main infrastructure was completed by the end of 2023 with two projects still awaiting acceptance; Microsoft currently says Ginger East construction is underway with Weitz and estimated construction completion by mid-2028. No certificate of occupancy, energization, or complete-campus operation record was located.",
+  "evidence_grade": "B",
   "actions": [
     {
       "date": "2023-03-20",
@@ -28,6 +31,18 @@
       "evidence_note": "Government record separates grading from building approval."
     },
     {
+      "date": "2025-06-18",
+      "date_precision": "day",
+      "government_body": "West Des Moines Water Works",
+      "action_type": "utility infrastructure finance / annual-report disclosure",
+      "result_status": "The 2025 board packet annual report says a June 2021 finance agreement between the City of West Des Moines and West Des Moines Water Works covers Ginger East and Ginger West data center projects; the City coordinated water-main infrastructure to provide timely service to Microsoft Project Ginger, most of those projects were completed by the end of 2023, and two listed water-main projects were still awaiting acceptance primarily due to permanent seeding establishment.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "0510-009-2021; 0510-014-2021",
+      "primary_url": "https://www.wdmww.com/CMDocs/WDMWW/2025%20Agendas/06182025%20packet/5b1%20-%20Bluey%20Audit%20Report%20Acceptance%20for%202024%20Year%20End_opt.pdf",
+      "access_caveat": "Utility finance/infrastructure disclosure is not a building permit, certificate of occupancy, or IT-load energization record.",
+      "evidence_note": "Supports active infrastructure delivery for Project Ginger but not operational status."
+    },
+    {
       "date": "2026-07-01",
       "date_precision": "day",
       "government_body": "City of West Des Moines",
@@ -38,10 +53,34 @@
       "primary_url": "https://www.wdm.iowa.gov/Home/Components/News/News/4420/384?arch=1&npage=12",
       "access_caveat": "City project page supplies scope and infrastructure context but not a building-by-building permit register.",
       "evidence_note": "Phase 2 expansion identity and scale; no status beyond the page's stated scope is inferred."
+    },
+    {
+      "date": "2026-01-16",
+      "date_precision": "day",
+      "government_body": "Axios Des Moines citing West Des Moines officials and council action",
+      "action_type": "site plan modification / local status report",
+      "result_status": "Axios reported that the West Des Moines council had approved a site-plan modification the prior week for the fifth and final building at Microsoft's 124-acre Ginger East data center at 1475 SE Maffitt Lake Road; the building would use zero-water cooling technology, and city economic development director Ryan Moffatt said construction was expected to take about 18 months.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.axios.com/local/des-moines/2026/01/16/microsoft-west-des-moines-data-center-water-zero",
+      "access_caveat": "Local media report cites city officials and council action but is not the underlying city minutes or permit file.",
+      "evidence_note": "Current local status signal; not used as completion, occupancy, or energization evidence."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Microsoft Local (company construction update; accessed date)",
+      "action_type": "company construction-status statement",
+      "result_status": "Microsoft's Ginger East construction update states Microsoft is building a datacenter in greater Des Moines, has contracted Weitz Construction as general contractor, and estimates construction completion by mid-2028; Microsoft also states construction completion does not indicate datacenter operation or availability.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://local.microsoft.com/blog/ginger-east-datacenter-construction-update/",
+      "access_caveat": "The accessible page did not expose a precise publication date; date reflects refresh access. Company construction status is not a government permit or energization record.",
+      "evidence_note": "Supports construction classification while explicitly excluding operational inference."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Microsoft",
   "sources": {
     "phase3_stable_id": "IA-WEST-DES-MOINES-MICROSOFT",
     "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
@@ -51,9 +90,59 @@
       "US-IA-MICROSOFT-WEST-DES-MOINES-OSMIUM-2024"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "current_refresh_urls": [
+      "https://www.wdm.iowa.gov/home/showpublisheddocument/38719/638146570113770000",
+      "https://www.wdmww.com/CMDocs/WDMWW/2025%20Agendas/06182025%20packet/5b1%20-%20Bluey%20Audit%20Report%20Acceptance%20for%202024%20Year%20End_opt.pdf",
+      "https://www.wdm.iowa.gov/Home/Components/News/News/4420/384?arch=1&npage=12",
+      "https://www.axios.com/local/des-moines/2026/01/16/microsoft-west-des-moines-data-center-water-zero",
+      "https://local.microsoft.com/blog/ginger-east-datacenter-construction-update/",
+      "https://www.datacenter.fyi/state/ia",
+      "https://www.weitz.com/projects/confidential-data-center/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "description": "datacenter.fyi lists 'Willow Creek and Ginger East Data Centers' as operational with 170.4 MW, while Microsoft's current Ginger East page says the Ginger East datacenter is still in construction with completion estimated by mid-2028 and that construction completion does not indicate operation/availability. The operational tracker status is not adopted for this specific expansion without building-level CO or energization evidence.",
+      "sources": [
+        "https://www.datacenter.fyi/state/ia",
+        "https://local.microsoft.com/blog/ginger-east-datacenter-construction-update/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "description": "Public capacity figures are inconsistent or insufficiently tied to this exact expansion: datacenter.fyi lists 170.4 MW for combined Willow Creek and Ginger East; Weitz lists a confidential West Des Moines data center campus at 192 MW but does not name Microsoft or Ginger East; a non-authoritative tracker surfaced 444 MW for Ginger East. capacity_mw remains null pending an official project-specific source.",
+      "sources": [
+        "https://www.datacenter.fyi/state/ia",
+        "https://www.weitz.com/projects/confidential-data-center/",
+        "https://iowasaifuture.com/2026/06/24/iowa-ai-data-center-progress/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Active phased expansion; official city records establish multiple site/grade/building actions, but no new-building power-on or complete campus record was located.",
+      "new_value": "site work-construction based on city grading record, utility infrastructure disclosure, local site-plan-modification reporting, and Microsoft construction-status page; no CO, energization, or complete-campus operation evidence found."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Microsoft"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": null,
+      "reason": "Capacity remains unresolved because public MW figures are combined, anonymous/confidential, or non-authoritative for the assigned project."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -3,16 +3,44 @@
   "canonical_project": "Aligned Conesville Industrial Park data center campus",
   "owner": "Aligned Data Centers",
   "location": {
-    "city": "Conesville/Coshocton",
+    "city": "Conesville",
     "county": "Coshocton",
-    "state": "Ohio"
+    "state": "Ohio",
+    "address": "47201 County Rd 273, Conesville, OH 43811"
   },
   "capacity_mw": null,
-  "status": "planned; initial capacity targeted mid-2026",
+  "status": "site work-construction; CMH-02 campus has broken ground",
   "confidence": "high",
-  "evidence_date": "2025-07-26",
+  "evidence_date": "2026-07-15",
   "sources": [
+    "https://www.coshoctoncounty.net/uploads/boc/minutes/2026-07-15.pdf",
+    "https://www.coshoctoncounty.net/uploads/boc/minutes/2025-10-01.pdf",
+    "https://aligneddc.com/press-release/aligned-data-centers-expands-in-ohio-with-new-mega-scale-ai-campus/",
+    "https://aligneddc.com/video-resources/cmh-02-data-center-breaks-ground/",
+    "https://aligneddc.com/northeast-ohio-data-centers/",
+    "https://conesvilleindustrialpark.com/",
+    "https://cleanview.co/data-centers/ohio/1691/aligned-cmh-02-conesville---building-1",
     "https://www.datacenterdynamics.com/en/news/aligned-to-develop-200-acre-data-center-campus-in-coshocton-ohio/"
+  ],
+  "capacity_detail": "Official Aligned sources confirm a 197-acre multi-building CMH-02 campus and initial capacity delivery target, but do not publish a campus MW figure. Cleanview lists Building 1 at 86 MW and related Buildings 2-4 at 86 MW each, expected 2027; treat as third-party tracker detail pending official confirmation.",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "old": "planned; initial capacity targeted mid-2026",
+      "new": "site work-construction; CMH-02 campus has broken ground",
+      "reason": "Aligned's CMH-02 page/video says the Coshocton County campus has broken ground; county minutes separately reference Aligned Data Centers Conesville records."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "location",
+      "old": "Conesville/Coshocton, Coshocton County, Ohio",
+      "new": "47201 County Rd 273, Conesville, OH 43811",
+      "reason": "Aligned's Ohio campus page publishes CMH-02 address and 197-acre campus overview."
+    }
+  ],
+  "contradictions": [
+    "Capacity and delivery date remain mixed-source: Aligned's July 2025 announcement targets initial capacity delivery in mid-2026 without a MW figure; Cleanview lists Building 1 at 86 MW and expected operation in 2027, with related 86 MW building entries. No official MW confirmation found in this refresh."
   ],
   "why_not_in_baseline": "Legacy power-plant/industrial-park redevelopment in a small Ohio market; baseline aliases did not include Aligned Coshocton or Conesville.",
   "discovery_file": "candidates-secondary-markets.jsonl",

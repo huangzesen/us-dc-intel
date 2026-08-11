@@ -7,10 +7,37 @@
   "location": {
     "city": "Provo",
     "county": "Utah",
-    "state": "UT"
+    "state": "UT",
+    "address": "1507 S 180 E",
+    "parcel_ids": [
+      "66:484:0001",
+      "66:484:0002"
+    ],
+    "acreage": 7.29
   },
   "phase3_stable_id": "US-UT-BF-TIMPANOGOS-PROVO-2026",
-  "status_as_of_cutoff": "Utah government inventory lists the project under construction at a 5–30 MW range; Provo permit and commissioning evidence were not located.",
+  "status_as_of_cutoff": "Local process denied: Provo Planning Commission materials show a proposed 132,000-square-foot data center at 1507 S 180 E, but Provo Municipal Council minutes show the PIC-to-PICDC overlay ordinance failed 0:7 on 2026-03-10. No construction, permit, energization, or commissioning evidence was located.",
+  "evidence_grade": "A- for local entitlement status from official Provo planning packet and council minutes; B for proposed MW because it is a staff/applicant planning figure and the overlay was denied.",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Utah government inventory lists the project under construction at a 5–30 MW range; Provo permit and commissioning evidence were not located.",
+      "new_value": "Local process denied: Provo Municipal Council minutes show the required data center overlay ordinance failed 0:7 on 2026-03-10.",
+      "source_url": "https://agendas.provo.gov/Documents/DownloadFileBytes/Work_Meeting_2306_Agenda_Packet_5_26_2026_1_00_00_PM.pdf?documentType=5&isAttachment=True&meetingId=2306"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": {
+        "proposed_initial_mw": 5,
+        "proposed_scale_mw": 50,
+        "approved_or_live_mw": null
+      },
+      "source_url": "https://www.provo.gov/DocumentCenter/View/7493"
+    }
+  ],
   "actions": [
     {
       "date": "2026-05-26",
@@ -23,10 +50,39 @@
       "primary_url": "https://www.utah.gov/pmn/files/1444799.pdf",
       "access_caveat": "Government compiled inventory; no underlying Provo permit or inspection record is exposed.",
       "evidence_note": "Body/context retained from prior file: Grand County Planning Commission staff report / Utah public-notice system."
+    },
+    {
+      "date": "2026-02-11",
+      "date_precision": "day",
+      "government_body": "Provo City Planning Commission",
+      "action_type": "zone-map amendment and project-plan hearing packet",
+      "result_status": "Staff packet identified Stephen Styler's PLRZ20250622 request to add the Data Center Overlay zone for a data center at 1507 S 180 E and Reid Wintersteen's PLPPA20250210 project-plan request for a new 66,000-square-foot, two-story/132,000-square-foot facility. Staff recommended approval with a development agreement and project-plan conditions.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PLRZ20250622; PLPPA20250210",
+      "primary_url": "https://www.provo.gov/DocumentCenter/View/7493",
+      "access_caveat": "Agenda/staff packet; retrieved packet text did not expose final signed Planning Commission minutes.",
+      "evidence_note": "Official Provo packet lists owner B+F Timpanogos Tech Center LLC, parcel IDs 66:484:0001 and 66:484:0002, 7.29 acres, and proposed grid-powered/no-onsite-generation design."
+    },
+    {
+      "date": "2026-03-10",
+      "date_precision": "day",
+      "government_body": "Provo Municipal Council",
+      "action_type": "zone-map amendment decision",
+      "result_status": "The implied motion to approve Ordinance 2026-10, changing 1507 S 180 E from PIC to PICDC for the data center overlay, failed 0:7.",
+      "vote_tally": "0:7 opposed",
+      "case_or_ordinance_permit_number": "Ordinance 2026-10; PLRZ20250622",
+      "primary_url": "https://agendas.provo.gov/Documents/DownloadFileBytes/Work_Meeting_2306_Agenda_Packet_5_26_2026_1_00_00_PM.pdf?documentType=5&isAttachment=True&meetingId=2306",
+      "access_caveat": "Minutes in the May 26, 2026 agenda packet are marked pending approval/draft, but they are hosted by Provo's official agenda system.",
+      "evidence_note": "Council discussion cited unresolved land-use, power, utility-rate, noise, air-quality, water-use, and East Bay economic-development-study concerns."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": {
+    "proposed_initial_mw": 5,
+    "proposed_scale_mw": 50,
+    "approved_or_live_mw": null,
+    "note": "Provo staff report says power usage would be 5-50 MW as it becomes available from Provo Power and more would require code changes; the required overlay was denied, so this is not an approved/live capacity."
+  },
+  "owner": "B+F Timpanogos Tech Center LLC",
   "sources": {
     "phase3_stable_id": "US-UT-BF-TIMPANOGOS-PROVO-2026",
     "phase3_source_file": "phase3/county_ok_az_ut.json",
@@ -34,9 +90,38 @@
     "regional_source_file": "phase2/region_southwest_mountain.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://www.provo.gov/Calendar.aspx?EID=1779",
+      "https://www.provo.gov/DocumentCenter/View/7493",
+      "https://agendas.provo.gov/Documents/DownloadFileBytes/Work_Meeting_2306_Agenda_Packet_5_26_2026_1_00_00_PM.pdf?documentType=5&isAttachment=True&meetingId=2306",
+      "https://www.utah.gov/pmn/files/1444799.pdf",
+      "https://universe.byu.edu/metro/provo-city-council-votes-against-east-bay-data-center",
+      "https://www.datacenterdynamics.com/en/news/warehouse-in-provo-utah-to-be-replaced-with-data-center/",
+      "https://baxtel.com/data-center/b-f-timpanogos-provo"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "date": "2026-08-11",
+      "topic": "status",
+      "description": "A Utah government inventory retained from the baseline listed the project as under construction at 5-30 MW, while later/retrieved Provo official records show the required local data-center overlay failed 0:7 on 2026-03-10. The Provo local entitlement record is treated as authoritative for current status.",
+      "sources": [
+        "https://www.utah.gov/pmn/files/1444799.pdf",
+        "https://agendas.provo.gov/Documents/DownloadFileBytes/Work_Meeting_2306_Agenda_Packet_5_26_2026_1_00_00_PM.pdf?documentType=5&isAttachment=True&meetingId=2306"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "topic": "capacity",
+      "description": "Baseline inventory gave a 5-30 MW range; Provo staff materials and subsequent local reporting describe 5-50 MW as a proposed power-use scale. Because the overlay was denied, neither figure is treated as approved or operational capacity.",
+      "sources": [
+        "https://www.provo.gov/DocumentCenter/View/7493",
+        "https://universe.byu.edu/metro/provo-city-council-votes-against-east-bay-data-center",
+        "https://www.datacenterdynamics.com/en/news/warehouse-in-provo-utah-to-be-replaced-with-data-center/"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

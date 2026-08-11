@@ -13,8 +13,33 @@
     "state": "MA"
   },
   "phase3_stable_id": "US-MA-MARKLEY-LOWELL-EXPANSION-2024",
-  "status_as_of_cutoff": "Existing facility with contested expansion and related property/subdivision activity. Lowell's official records document a proposed 360-day data-center moratorium process and a Planning Board statement that a moratorium applied generally; a final adoption tally, grandfathering decision, expansion permit disposition, CO, construction, or energization record was not located.",
+  "status_as_of_cutoff": "Existing facility with locally approved and contested expansion activity. Lowell Planning Board approved the 2024 site-plan alteration for nine additional modular chiller plants, four additional generators, a water-treatment building, and utility/electric infrastructure, with conditions. Lowell City Council adopted an amended data-center moratorium on March 10, 2026 by 10 yeas / 1 abstain. MassDEP affirmed Air Quality Plan Approval NE-25-002 for eight emergency generators on March 27, 2026 and denied reconsideration on July 10, 2026. Lowell's current Planning Board page lists 2 Prince Ave / 1 Markley Way for a definitive subdivision hearing on August 17, 2026. No CO, energization, partial-live, full-buildout, or MW capacity evidence was located.",
+  "evidence_grade": "A for official local/MassDEP permit and moratorium actions; C for physical construction/energization because no current CO, utility energization, or in-service record was located.",
   "actions": [
+    {
+      "date": "2024-08-08",
+      "date_precision": "day",
+      "government_body": "Lowell Planning Board / Development Services application package",
+      "action_type": "site plan review application",
+      "result_status": "Stantec submitted a site-plan review package for Markley Group's continued redevelopment of 1 Markley Way / former 2 Prince Avenue, including nine additional modular chiller plants, four additional generators, a water-treatment building, utility repairs, retaining walls, and electric infrastructure.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Stantec file 210400139; Site Plan Review - Markley Lowell Data Center",
+      "primary_url": "https://www.lowellma.gov/DocumentCenter/View/27442/Prince-Ave_2-and-1-Markley-Way-Cover-Letter",
+      "access_caveat": "Application transmittal; not itself an approval.",
+      "evidence_note": "Official Lowell project file documents proposed scope but does not establish MW capacity."
+    },
+    {
+      "date": "2024-10-21",
+      "date_precision": "day",
+      "government_body": "Lowell Planning Board",
+      "action_type": "site plan review approval",
+      "result_status": "Planning Board minutes state Markley Group sought approval to alter the industrial site with nine chillers, four generators, a water-treatment building, and related improvements; the Board approved the item with conditions by unanimous 5-0 vote.",
+      "vote_tally": "5 yes / 0 no",
+      "case_or_ordinance_permit_number": "2 Prince Avenue, 1 Markley Way 01852 - Site Plan Review",
+      "primary_url": "https://lowellma.gov/AgendaCenter/ViewFile/Minutes/_10212024-3253",
+      "access_caveat": "Approval is a local site-plan action; MassDEP air permitting and later moratorium/litigation are separate records.",
+      "evidence_note": "The cited minutes include conditions for MassDEP reports, drift eliminators, fire access during construction, and continuing MassDEP compliance."
+    },
     {
       "date": "2026-01-13",
       "date_precision": "day",
@@ -44,12 +69,24 @@
       "date_precision": "day",
       "government_body": "Lowell City Council",
       "action_type": "ordinance / zoning moratorium agenda packet",
-      "result_status": "The packet contains the proposed ordinance defining data centers and imposing a 360-day moratorium on new construction and development, subject to the statutory process; the reviewed record did not establish a final vote tally.",
-      "vote_tally": "not established in the reviewed packet",
+      "result_status": "Official City Council minutes state the Council held the second reading/hearing and adopted the amended data-center moratorium; Planning Board recommendations on changes to the moratorium were also adopted.",
+      "vote_tally": "10 yes / 0 no / 1 abstain on adoption; 10 yes / 0 no / 1 abstain on Planning Board recommendations",
       "case_or_ordinance_permit_number": "Proposed Chapter 290 zoning amendment; Section 7.11",
-      "primary_url": "https://www.lowellma.gov/AgendaCenter/ViewFile/Agenda/_03102026-3835?packet=true",
-      "access_caveat": "Agenda packet contains proposed language; final enactment and effective date were not independently verified.",
+      "primary_url": "https://www.lowellma.gov/AgendaCenter/ViewFile/Minutes/_03102026-3835",
+      "access_caveat": "Official minutes establish Council adoption and vote tally; the precise codified effective-date text was not separately located.",
       "evidence_note": "Government regulatory record, not project approval."
+    },
+    {
+      "date": "2026-03-27",
+      "date_precision": "day",
+      "government_body": "Massachusetts Department of Environmental Protection",
+      "action_type": "air permit appeal final decision",
+      "result_status": "MassDEP's Commissioner adopted the Recommended Final Decision, granted summary decision to MassDEP and Markley Group, LLC, and affirmed Air Quality Plan Approval NE-25-002 for the Lowell facility.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "OADR Docket No. 2025-022; DEP File No. 24-AQ02F-0001-APP; Approval No. NE-25-002",
+      "primary_url": "https://www.mass.gov/doc/markley-group-llc-final-decision-2025-022/download",
+      "access_caveat": "Final agency decision affirms the air permit; it does not document construction completion, energization, or MW capacity.",
+      "evidence_note": "State permitting appeal record for eight emergency generators."
     },
     {
       "date": "2026-04-06",
@@ -64,6 +101,30 @@
       "evidence_note": "Official planning record preserves the distinction between property activity and data-center approval."
     },
     {
+      "date": "2026-04-23",
+      "date_precision": "day",
+      "government_body": "Lowell Planning Board",
+      "action_type": "preliminary subdivision approval",
+      "result_status": "The Board approved The Dude's Place, LLC preliminary subdivision for 2 Prince Avenue / 1 Markley Way by unanimous 5-0 vote; minutes state the subdivision covered 2 Prince Avenue, 56 Newhall Street, and 48 Newhall Street, creating four parcels and a proposed private subdivision roadway, and that preliminary subdivision approval did not authorize construction or a data-center expansion.",
+      "vote_tally": "5 yes / 0 no",
+      "case_or_ordinance_permit_number": "2 Prince Avenue (1 Markley Way) preliminary subdivision",
+      "primary_url": "https://www.lowellma.gov/AgendaCenter/ViewFile/Minutes/_04232026-3891",
+      "access_caveat": "Subdivision applicant differs from Markley Group; the minutes frame this as property/subdivision process, not a site-plan or data-center use approval.",
+      "evidence_note": "Official planning minutes document related parcel activity and community concerns without proving buildout."
+    },
+    {
+      "date": "2026-07-10",
+      "date_precision": "day",
+      "government_body": "Massachusetts Department of Environmental Protection",
+      "action_type": "air permit reconsideration decision",
+      "result_status": "MassDEP denied the Lowell residents' motion for reconsideration of the March 27 Final Decision and left the affirmed Air Quality Plan Approval in place.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "OADR Docket No. 2025-022; DEP File No. 24-AQ02F-0001-APP; Approval No. NE-25-002",
+      "primary_url": "https://www.mass.gov/doc/markley-group-llc-final-decision-on-reconsideration-2025-022/download",
+      "access_caveat": "The reconsideration decision states parties with judicial-review rights may appeal to Superior Court within 30 days; court docket outcome was not independently verified in this refresh.",
+      "evidence_note": "Current state administrative status for the air-permit appeal."
+    },
+    {
       "date": "2026-07-02",
       "date_precision": "day",
       "government_body": "Not a government action; Associated Press report",
@@ -74,10 +135,22 @@
       "primary_url": "https://apnews.com/article/5607b4ea8ef9776b28268561060752a8",
       "access_caveat": "Major-press status report; final permit/grandfathering documents were not supplied.",
       "evidence_note": "Existing operations are not treated as evidence of the proposed expansion being complete or live."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "Lowell Planning Board",
+      "action_type": "current-project listing / scheduled hearing",
+      "result_status": "Lowell's Planning Board current-projects page lists '2 Prince Ave (1 Markley Way) - Definitive Subdivision (8/17 Meeting)'.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "2 Prince Ave (1 Markley Way) - Definitive Subdivision",
+      "primary_url": "https://www.lowellma.gov/1098/Planning-Board",
+      "access_caveat": "This is a scheduled/current listing as of the August 11, 2026 refresh date, not a hearing outcome.",
+      "evidence_note": "Official local-government current-project evidence that related subdivision process remains active."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "Markley Group LLC",
   "sources": {
     "phase3_stable_id": "US-MA-MARKLEY-LOWELL-EXPANSION-2024",
     "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
@@ -85,9 +158,50 @@
     "regional_source_file": "phase2/region_west_northeast_remaining.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "verified_urls": [
+      "https://www.lowellma.gov/DocumentCenter/View/27442/Prince-Ave_2-and-1-Markley-Way-Cover-Letter",
+      "https://www.lowellma.gov/DocumentCenter/View/27450/Prince-Ave_2-and-1-Markley-Way-Main-Application",
+      "https://lowellma.gov/AgendaCenter/ViewFile/Minutes/_10212024-3253",
+      "https://www.lowellma.gov/AgendaCenter/ViewFile/Minutes/_03102026-3835",
+      "https://lowellma.gov/AgendaCenter/ViewFile/Minutes/_04062026-3865",
+      "https://www.lowellma.gov/AgendaCenter/ViewFile/Minutes/_04232026-3891",
+      "https://www.lowellma.gov/1098/Planning-Board",
+      "https://www.mass.gov/lists/office-of-appeals-and-dispute-resolution-oadr-2026-appeals-decisions",
+      "https://www.mass.gov/doc/markley-group-llc-final-decision-2025-022/download",
+      "https://www.mass.gov/doc/markley-group-llc-final-decision-on-reconsideration-2025-022/download",
+      "https://www.mass.gov/doc/markley-group-llc-recommended-final-decision-2025-022/download",
+      "https://apnews.com/article/5607b4ea8ef9776b28268561060752a8",
+      "https://www.clf.org/newsroom/lowell-residents-file-lawsuit-challenging-data-center-expansion/",
+      "https://law.yale.edu/yls-today/news/clinic-lawsuit-challenges-data-center-expansion-lowell-massachusetts"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "permit/litigation posture vs. physical buildout",
+      "details": "MassDEP administrative records show the air permit was affirmed and reconsideration denied, while CLF/Yale report a Superior Court challenge seeking to vacate/stop the permit pathway. Neither source establishes that the expansion is energized, partial-live, or fully built out.",
+      "sources": [
+        "https://www.mass.gov/doc/markley-group-llc-final-decision-2025-022/download",
+        "https://www.mass.gov/doc/markley-group-llc-final-decision-on-reconsideration-2025-022/download",
+        "https://www.clf.org/newsroom/lowell-residents-file-lawsuit-challenging-data-center-expansion/",
+        "https://law.yale.edu/yls-today/news/clinic-lawsuit-challenges-data-center-expansion-lowell-massachusetts"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Existing facility with contested expansion and related property/subdivision activity. Lowell's official records document a proposed 360-day data-center moratorium process and a Planning Board statement that a moratorium applied generally; a final adoption tally, grandfathering decision, expansion permit disposition, CO, construction, or energization record was not located.",
+      "reason": "Refresh found official Lowell minutes establishing moratorium adoption/vote tally, 2024 site-plan approval, MassDEP final/reconsideration decisions, and a current definitive-subdivision listing."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "reason": "Lowell land-use application identifies Markley Group LLC at 1 Markley Way / Lowell."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

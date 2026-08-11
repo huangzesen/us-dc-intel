@@ -14,7 +14,8 @@
     "state": "WV"
   },
   "phase3_stable_id": "WV-002",
-  "status_as_of_cutoff": "West Virginia issued an air construction permit for the Ridgeline turbine power facility on August 15, 2025. Official DAQ records expressly say the application did not include a data center and was not definitive about the end user. No data-center permit, high-impact certification, county land-use approval, or construction/occupancy record was found.",
+  "status_as_of_cutoff": "Approved-permitted for the Ridgeline turbine power facility only; local process / regulatory dispute for the data-center and high-impact data-center component as of 2026-08-11. West Virginia issued air construction permit R13-3713 on August 15, 2025 and the Air Quality Board issued a February 5, 2026 final order, but official/primary and local reporting reviewed in August 2026 show the Department of Commerce rescinded a June 18, 2026 high-impact-data-center violation notice after Fundamental Data said the data centers remain conceptual, and WVDEP later requested site-control documentation. No high-impact data-center certification, county land-use approval, building permit, construction/occupancy record, energization, partial-live, or full-buildout evidence was found.",
+  "evidence_grade": "A- for WVDEP air permit / Air Quality Board docket and company project page; B for Commerce/HIDC and site-control dispute because official letters are scanned or reported through local/regional media and no agency docket page was found.",
   "actions": [
     {
       "date": "2025-03-18",
@@ -111,10 +112,47 @@
       "primary_url": "https://apps.dep.wv.gov/Documents/DAQ/NSRPermits/093-00034/Final/2026.02.05.%2025-02-AQB.%20Memorandum%20of%20Decision%20and%20Final%20Order.pdf",
       "access_caveat": "Official PDF is scanned/blank to extraction; corroborating report: https://www.wvhighlands.org/2026/02/06/tucker-county-residents-condemn-air-quality-board-refusal-to-reclassify-air-permit-for-ridgeline-power-plant/.",
       "evidence_note": "Air-board action on the power plant; not a data-center approval."
+    },
+    {
+      "date": "2026-06-18",
+      "date_precision": "day",
+      "government_body": "West Virginia Department of Commerce / West Virginia Office of Energy",
+      "action_type": "high-impact data center / notice of violation",
+      "result_status": "Local and regional reporting quote a June 18, 2026 Commerce letter stating that, based on a May 18, 2026 Office of Energy meeting, Fundamental Data appeared to be in violation of 145 CSR 20-10.1 for not seeking High Impact Data Center certification by June 17, 2026.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "145 CSR 20-10.1; HB 2014",
+      "primary_url": "https://www.wvnews.com/news/wvnews/west-virginia-data-center-developer-clash-over-tucker-grant-county-project/article_e0fc202c-6883-4661-a08f-643911201b36.html",
+      "access_caveat": "Agency letter was not found on an official Commerce docket page in this refresh; reported letter text is used with caveat and corroborated by local Parsons Advocate coverage.",
+      "evidence_note": "Regulatory dispute over HIDC certification; not an approval and not proof of construction."
+    },
+    {
+      "date": "2026-07-01",
+      "date_precision": "day",
+      "government_body": "West Virginia Department of Commerce / West Virginia Office of Energy",
+      "action_type": "high-impact data center / rescission of violation notice",
+      "result_status": "Commerce rescinded the June 18, 2026 notification of violation after accepting Fundamental Data's representation that the data centers contemplated for the project remain conceptual and may or may not ultimately qualify as High Impact Data Centers.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "145 CSR 20-10.1; HB 2014",
+      "primary_url": "https://www.wvhighlands.org/wp-content/uploads/2026/07/Fundamentalldataletterjuly.pdf",
+      "access_caveat": "PDF copy is hosted by West Virginia Highlands Conservancy and is scanned/non-text-extractable; text corroboration: https://mountainstatespotlight.org/2026/07/23/data-center-sidestep-oversight/.",
+      "evidence_note": "Confirms no current Commerce HIDC violation finding on the reviewed record; not a data-center certification."
+    },
+    {
+      "date": "2026-08-07",
+      "date_precision": "day",
+      "government_body": "West Virginia Department of Environmental Protection, Division of Air Quality",
+      "action_type": "air permit / site-control inquiry",
+      "result_status": "HD Media/Moorefield Examiner reported that DAQ Director Laura Crowder emailed Fundamental Data requesting documentation verifying site control for the planned Ridgeline facility, after the Commerce July 1 letter questioned whether Fundamental Data owned, operated, or leased the parcel identified in the air permit application.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "R13-3713; Facility 093-00034",
+      "primary_url": "https://moorefieldexaminer.com/2026/08/08/dep-questions-fundamental-data-site-control-for-tucker-co-data-center-linked-project-mountain-media-llc/",
+      "access_caveat": "No official WVDEP posting of the August 7 email/request was located in this refresh; recorded as source-reported.",
+      "evidence_note": "Potential permit-integrity/site-control issue; no suspension or revocation found."
     }
   ],
   "capacity_mw": null,
-  "owner": null,
+  "capacity_mw_note": "No official critical IT load or data-center operating capacity was verified. Commerce-letter reporting says Fundamental Data described Phase 1 as about 800 MW gas generation plus 1.3 GW solar and 14 data-center buildings using over 2.0 GW of power, with Phase 2 adding 3.1 GW gas generation; these are disputed/planned generation and building claims, not verified IT capacity or live load.",
+  "owner": "Fundamental Data LLC",
   "sources": {
     "phase3_stable_id": "WV-002",
     "phase3_source_file": "phase3/county_va_md_wv.json",
@@ -122,9 +160,75 @@
     "regional_source_file": "phase2/region_midatlantic_southeast.json",
     "seed_stable_ids": [],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://dep.wv.gov/daq/permitting/Pages/NSR-Permit-Applications.aspx",
+      "https://fundamentaldata.com/",
+      "https://www.wvhighlands.org/wp-content/uploads/2026/07/Fundamentalldataletterjuly.pdf",
+      "https://mountainstatespotlight.org/2026/07/23/data-center-sidestep-oversight/",
+      "https://www.wvnews.com/news/wvnews/west-virginia-data-center-developer-clash-over-tucker-grant-county-project/article_e0fc202c-6883-4661-a08f-643911201b36.html",
+      "https://moorefieldexaminer.com/2026/08/08/dep-questions-fundamental-data-site-control-for-tucker-co-data-center-linked-project-mountain-media-llc/",
+      "https://www.wvhighlands.org/wp-content/uploads/2026/07/Ownership-and-Control-Letter-final.pdf"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "as_of": "2026-08-11",
+      "topic": "data-center status / HIDC certification trigger",
+      "sources": [
+        "https://www.wvnews.com/news/wvnews/west-virginia-data-center-developer-clash-over-tucker-grant-county-project/article_e0fc202c-6883-4661-a08f-643911201b36.html",
+        "https://www.wvhighlands.org/wp-content/uploads/2026/07/Fundamentalldataletterjuly.pdf",
+        "https://mountainstatespotlight.org/2026/07/23/data-center-sidestep-oversight/",
+        "https://fundamentaldata.com/"
+      ],
+      "details": "Commerce initially treated May 18, 2026 project details as triggering HIDC certification, then rescinded the violation notice after Fundamental Data said the data centers remain conceptual. Fundamental Data's own site presents Ridgeline as a data and energy infrastructure project moving through regulatory approvals."
+    },
+    {
+      "as_of": "2026-08-11",
+      "topic": "site ownership/control",
+      "sources": [
+        "https://www.wvhighlands.org/wp-content/uploads/2026/07/Ownership-and-Control-Letter-final.pdf",
+        "https://moorefieldexaminer.com/2026/08/08/dep-questions-fundamental-data-site-control-for-tucker-co-data-center-linked-project-mountain-media-llc/",
+        "https://mountainstatespotlight.org/2026/07/23/data-center-sidestep-oversight/"
+      ],
+      "details": "The air-permit application represented that Fundamental Data controlled the proposed site through a July 19, 2024 purchase-and-sale agreement, while the July 1, 2026 Commerce letter reportedly found no Tucker County property owned by Fundamental Data or affiliates and identified the air-permit parcel as owned by Western Pocahontas Properties, LTD. Later state statements distinguish air-permit site-control standards from HIDC program criteria."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous": "West Virginia issued an air construction permit for the Ridgeline turbine power facility on August 15, 2025. Official DAQ records expressly say the application did not include a data center and was not definitive about the end user. No data-center permit, high-impact certification, county land-use approval, or construction/occupancy record was found.",
+      "updated": "Approved-permitted for power facility only; local process / regulatory dispute for data-center and HIDC component.",
+      "source_urls": [
+        "https://dep.wv.gov/daq/permitting/Pages/NSR-Permit-Applications.aspx",
+        "https://www.wvhighlands.org/wp-content/uploads/2026/07/Fundamentalldataletterjuly.pdf",
+        "https://mountainstatespotlight.org/2026/07/23/data-center-sidestep-oversight/",
+        "https://moorefieldexaminer.com/2026/08/08/dep-questions-fundamental-data-site-control-for-tucker-co-data-center-linked-project-mountain-media-llc/"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous": null,
+      "updated": null,
+      "source_urls": [
+        "https://www.wvnews.com/news/wvnews/west-virginia-data-center-developer-clash-over-tucker-grant-county-project/article_e0fc202c-6883-4661-a08f-643911201b36.html",
+        "https://moorefieldexaminer.com/2026/08/08/dep-questions-fundamental-data-site-control-for-tucker-co-data-center-linked-project-mountain-media-llc/"
+      ],
+      "resolution": "Kept capacity_mw null because the public figures found are disputed planned generation and building-use claims, not verified critical IT load, utility service, or live data-center capacity."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous": null,
+      "updated": "Fundamental Data LLC",
+      "source_urls": [
+        "https://dep.wv.gov/daq/permitting/Pages/NSR-Permit-Applications.aspx",
+        "https://fundamentaldata.com/"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

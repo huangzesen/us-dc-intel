@@ -12,17 +12,205 @@
     "state": "Ohio"
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
-  "actions": [],
-  "capacity_mw": null,
-  "owner": null,
+  "status_as_of_cutoff": "site work-construction",
+  "evidence_grade": "B+",
+  "actions": [
+    {
+      "date": "2026-08-11",
+      "date_precision": "access date",
+      "body": "City of New Albany Community Development",
+      "action_type": "current government project-register snapshot",
+      "exact_result_status": "City's current project-updates page lists multiple Meta new data-center/new-data-building projects at 1500 Beech Rd., 13385 Green Chapel Rd., and Clover Valley Rd. addresses, including active contractor listings for Turner Construction or Shive-Hattery. This supports site work-construction status for the New Albany Meta expansion footprint, but does not publish permit numbers, occupancy, energization, or MW by building.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://newalbanyohio.org/community-development/project-updates/",
+      "access_caveat": "Snapshot date is the research access date, not a claimed permit-issue date."
+    },
+    {
+      "date": "2025-12",
+      "date_precision": "monthly report",
+      "body": "City of New Albany Community Development",
+      "action_type": "commercial construction-status report",
+      "exact_result_status": "December 2025 report lists Meta LCO 3, Meta NLH9S, Meta NLH1, Meta NLH2, Meta NLH3, Meta NLH5, Meta NLH100, Meta NLH6, Meta NAB1, Meta NAB2, Meta NAB9, Meta NAB3, Meta NAB5, Meta NAB100, and Meta NAH 9 with 2025 start dates; it also lists partial-occupancy status for Meta LCO DCB1 expiring March 29, 2026.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://newalbanyohio.org/wp-content/uploads/2026/01/CD-2025-12.pdf",
+      "access_caveat": "Official monthly report supports active construction and one partial-occupancy entry, but does not prove Prometheus energization or full operation."
+    },
+    {
+      "date": "2026-01",
+      "date_precision": "publication month",
+      "body": "City of New Albany",
+      "action_type": "local-government energy statement",
+      "exact_result_status": "City statement says Meta's New Albany data center will draw power from the regional electric grid, that Meta pays the full cost of energy it uses, and that Meta's nuclear-energy agreements support operations including the Prometheus supercluster in the New Albany International Business Park; the city states no nuclear plant is planned in New Albany.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://newalbanyohio.org/news/2026/01/statement-regarding-metas-nuclear-energy-projects/",
+      "access_caveat": "Energy statement confirms Prometheus-New Albany linkage and power-cost position, not building completion."
+    },
+    {
+      "date": "2026-01-22",
+      "date_precision": "publication date",
+      "body": "Meta",
+      "action_type": "company energy announcement",
+      "exact_result_status": "Meta announced nuclear-energy projects supporting up to 6.6 GW of new and existing clean energy by 2035 and said the power will support grids serving Meta operations, including the Prometheus supercluster in New Albany, Ohio.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+      "access_caveat": "Company energy announcement confirms Prometheus location and grid-support context; it does not provide a local permit, occupancy, or IT-load commissioning record."
+    },
+    {
+      "date": "2025-07-14",
+      "date_precision": "post date as reported",
+      "body": "Meta CEO Mark Zuckerberg / Threads, corroborated by industry press",
+      "action_type": "company executive capacity and timing statement",
+      "exact_result_status": "Zuckerberg's Threads post, as quoted by multiple industry outlets, says SemiAnalysis reported Meta was on track for a 1 GW-plus supercluster; Zuckerberg said Meta is building several multi-GW clusters, calls the first Prometheus, and expects it online in 2026.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.datacenterdynamics.com/en/news/meta-to-invest-hundreds-of-billions-of-dollars-into-compute-to-build-superintelligence-with-several-multi-gw-data-center-clusters/",
+      "secondary_urls": [
+        "https://www.businessinsider.com/meta-mark-zuckerberg-building-ai-data-centers-tents-catch-up-2025-7",
+        "https://www.threads.com/@zuck/post/DMF6tngx-dC/semianalysis-just-reported-that-meta-is-on-track-to-be-the-first-lab-to-bring-a-"
+      ],
+      "access_caveat": "Threads itself returned rate-limited during this refresh; capacity and timing are treated as reported/planned cluster scale, not verified metered load or live status."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "access date",
+      "body": "Meta Data Centers",
+      "action_type": "company campus profile",
+      "exact_result_status": "Meta's New Albany campus page says Meta broke ground on the New Albany data center in 2017, has invested more than $1.5B in Ohio data centers, supports more than 300 operational jobs, and had 1,200 skilled trade workers on site at peak construction.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://datacenters.atmeta.com/ohio-new-albany/",
+      "access_caveat": "Campus profile confirms owner/operator and legacy campus investment but does not isolate the Prometheus AI expansion capacity."
+    }
+  ],
+  "capacity_mw": 1000,
+  "capacity_mw_source": "https://www.datacenterdynamics.com/en/news/meta-to-invest-hundreds-of-billions-of-dollars-into-compute-to-build-superintelligence-with-several-multi-gw-data-center-clusters/",
+  "capacity_note": "Reported/planned Prometheus supercluster scale is 1 GW-plus from Zuckerberg/SemiAnalysis coverage; city construction pages do not publish MW and no metered energization record was found. Treat 1000 MW as planned cluster scale, not verified live load.",
+  "owner": "Meta",
+  "campus_addresses": [
+    "1500 Beech Rd., New Albany, OH",
+    "13385 Green Chapel Rd., New Albany, OH",
+    "4405-4417 Clover Valley Rd., New Albany, OH"
+  ],
+  "current_city_project_snapshot": {
+    "date": "2026-08-11",
+    "source_url": "https://newalbanyohio.org/community-development/project-updates/",
+    "listed_meta_projects": [
+      {
+        "name": "Meta LCO 2",
+        "location": "1500 Beech Rd.",
+        "square_feet": 302944,
+        "description": "New data center"
+      },
+      {
+        "name": "NLH1",
+        "location": "1500 Beech Rd SW",
+        "square_feet": 138000,
+        "description": "New Data Building"
+      },
+      {
+        "name": "NLH9s",
+        "location": "1500 Beech Rd SW",
+        "square_feet": 104280,
+        "description": "New Data Building"
+      },
+      {
+        "name": "Meta NLH2 / NLH3 / NLH5 / NLH6",
+        "location": "1500 Beech Rd.",
+        "square_feet_each": 125996,
+        "building_count": 4,
+        "description": "New data building"
+      },
+      {
+        "name": "Meta NLH100",
+        "location": "1500 Beech Rd.",
+        "square_feet": 13243,
+        "description": "New Administration Building"
+      },
+      {
+        "name": "Meta NAB1 / NAB2 / NAB3 / NAB5",
+        "location": "13385 Green Chapel Rd.",
+        "square_feet_each": 125996,
+        "building_count": 4,
+        "description": "New data building"
+      },
+      {
+        "name": "Meta NAB9",
+        "location": "13385 Green Chapel Rd.",
+        "square_feet": 132403,
+        "description": "New data building"
+      },
+      {
+        "name": "Meta NAB100",
+        "location": "13385 Green Chapel Rd.",
+        "square_feet": 22000,
+        "description": "New data building"
+      },
+      {
+        "name": "Meta NAH9",
+        "location": "13385 Green Chapel Rd.",
+        "square_feet": null,
+        "description": "New data building"
+      },
+      {
+        "name": "Meta NAH1 / NAH2 / NAH3 / NAH5 / NAH6",
+        "location": "4409-4417 Clover Valley Rd.",
+        "square_feet_each": 125996,
+        "building_count": 5,
+        "description": "New data building"
+      },
+      {
+        "name": "Meta NAH100",
+        "location": "4405 Clover Valley Rd.",
+        "square_feet": 13243,
+        "description": "New data building"
+      }
+    ],
+    "known_listed_square_feet": 2364061
+  },
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": null,
+      "new_value": "site work-construction",
+      "reason": "City of New Albany current project register and December 2025 construction-status report list multiple Meta data-building projects under construction."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 1000,
+      "reason": "Reported/planned 1 GW-plus Prometheus cluster scale from Zuckerberg/SemiAnalysis coverage; not verified as live load."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Meta",
+      "reason": "Meta and City of New Albany sources identify Meta's New Albany data center and Prometheus supercluster."
+    }
+  ],
   "sources": {
     "phase2_seed_stable_id": "US-OH-META-PROMETHEUS-NEW-ALBANY-2025",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
-    "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "authoritative_layer": "official_local_government_and_company_refresh",
+    "match_reason": "Seed-only record independently refreshed with City of New Albany construction/project pages and Meta company sources",
+    "urls": [
+      "https://newalbanyohio.org/community-development/project-updates/",
+      "https://newalbanyohio.org/wp-content/uploads/2026/01/CD-2025-12.pdf",
+      "https://newalbanyohio.org/news/2026/01/statement-regarding-metas-nuclear-energy-projects/",
+      "https://datacenters.newalbanyohio.org/resident-questions/",
+      "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/",
+      "https://datacenters.atmeta.com/ohio-new-albany/",
+      "https://www.datacenterdynamics.com/en/news/meta-to-invest-hundreds-of-billions-of-dollars-into-compute-to-build-superintelligence-with-several-multi-gw-data-center-clusters/",
+      "https://www.businessinsider.com/meta-mark-zuckerberg-building-ai-data-centers-tents-catch-up-2025-7"
+    ]
   },
   "contradictions": [],
-  "seed_only": true,
+  "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

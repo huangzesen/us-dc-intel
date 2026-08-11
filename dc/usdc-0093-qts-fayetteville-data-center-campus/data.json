@@ -8,20 +8,200 @@
   "location": {
     "city": "Fayetteville",
     "county": "Fayette",
-    "state": "Georgia"
+    "state": "Georgia",
+    "address": "1435 Hwy 54 West, Fayetteville, GA 30214",
+    "site_context": "City FAQ places the QTS campus along Highway 54 West between Veterans Parkway and Tyrone Road; DCA DRI #4603 places ATL2 East west of Veterans Parkway at 33.45435337191984, -84.51676089318552."
   },
   "phase3_stable_id": null,
-  "status_as_of_cutoff": null,
+  "status_as_of_cutoff": "partial live / site work-construction as of 2026-08-11. City and county sources confirm a QTS Data Centers campus in Fayetteville with active construction/resource issues; Microsoft says its Atlanta Fairwater AI datacenter began operation in October 2025, and AJC reports that facility is in Fayetteville within the QTS-developed campus with a May 2025 certificate of occupancy and September 25, 2025 construction completion certificate for the first building. The broader campus and ATL2 East expansion remain in development/local process.",
+  "evidence_grade": "official/local-government for location, QTS campus identity, ATL2 East DRI, zoning, water, and air-permit applications; Microsoft/company and AJC for partial-live tenant/building status; MW capacity remains unverified by primary sources",
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": null,
+      "new_value": "partial live / site work-construction",
+      "reason": "First independent refresh found local-government evidence for the QTS campus and ATL2 East, plus Microsoft/AJC evidence that the Atlanta/Fayetteville Fairwater building began operations in October 2025 while broader campus construction continues."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "old_value": null,
+      "new_value": null,
+      "reason": "DCA DRI #4603 leaves peak connected electrical load as TBD; industry reports claim about 250 MW for Project Excalibur, but reviewed primary sources did not verify MW capacity."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "QTS Data Centers; project entities include QTS Fayetteville I, LLC and QTS Eastwood, LLC",
+      "reason": "City/QTS pages identify QTS Data Centers; county and state records identify QTS Fayetteville I, LLC and QTS Eastwood, LLC in project-specific actions."
+    }
+  ],
   "actions": [],
   "capacity_mw": null,
-  "owner": null,
+  "owner": "QTS Data Centers; project entities include QTS Fayetteville I, LLC at 1435 Hwy 54 West and QTS Eastwood, LLC for ATL2 East",
+  "milestones": [
+    {
+      "date": "2024-07",
+      "date_precision": "month",
+      "government_body": "Georgia Environmental Protection Division Air Protection Branch",
+      "action_type": "air permit application public advisory",
+      "result_status": "Application No. 29366 received for QTS Fayetteville I, LLC at 1435 Hwy 54 West for a data center with emergency diesel-fired backup generators and a fire pump.",
+      "case_or_ordinance_permit_number": "Application No. 29366",
+      "primary_url": "https://epd.georgia.gov/document/document/pa0724-5/download",
+      "evidence_note": "State environmental permit application evidence; not a capacity, occupancy, or energization record."
+    },
+    {
+      "date": "2025-05-08",
+      "date_precision": "day",
+      "government_body": "Fayette County Board of Commissioners",
+      "action_type": "public-works agreement / traffic signal bid",
+      "result_status": "County action agenda records approval of an agreement with QTS Fayetteville I LLC for Contract #2567-B and award of Bid #2567-B for a traffic signal, supporting equipment, and guardrail at the QTS Data Center driveway on Tyrone Road.",
+      "case_or_ordinance_permit_number": "Contract/Bid #2567-B",
+      "primary_url": "https://fayettecountyga.gov/Documents/Government/Board%20of%20Commissioners/Agendas%20And%20Minutes/2025/Agenda%20of%20Actions/05-08-2025-Agenda_of_Actions.pdf?t=202511250955490",
+      "evidence_note": "Public infrastructure action tied to the QTS campus driveway."
+    },
+    {
+      "date": "2025-12-18",
+      "date_precision": "day",
+      "government_body": "City of Fayetteville",
+      "action_type": "rezoning ordinance",
+      "result_status": "Ordinance 25-0-34 rezoned QTS Eastwood, LLC parcels 0705 013 and 0705 019 on Veterans Parkway from Planned Community District to Business Park, with no building permit to issue until a development agreement addresses ARC DRI recommendations.",
+      "case_or_ordinance_permit_number": "Ordinance 25-0-34",
+      "primary_url": "https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/13074/1404829/pdf",
+      "evidence_note": "Local land-use approval for the ATL2 East/QTS Eastwood parcels; building permit conditioned on a development agreement."
+    },
+    {
+      "date": "2026-01-13",
+      "date_precision": "day",
+      "government_body": "Georgia Department of Community Affairs",
+      "action_type": "initial DRI form",
+      "result_status": "DRI #4603 initial form submitted for ATL2 East by QTS Eastwood, LLC: 2,000,000 square-foot technological facility/data center on approximately 313 acres west of Veterans Parkway, with overall project completion listed as 2029.",
+      "case_or_ordinance_permit_number": "DRI #4603",
+      "primary_url": "https://apps.dca.ga.gov/DRI/InitialForm.aspx?driid=4603",
+      "evidence_note": "Official state DRI filing for a QTS Eastwood expansion/adjacent campus."
+    },
+    {
+      "date": "2026-01",
+      "date_precision": "month",
+      "government_body": "Georgia Environmental Protection Division Air Protection Branch",
+      "action_type": "air permit application public advisory",
+      "result_status": "Application No. 30027 received for QTS Fayetteville I, LLC at 1435 Hwy 54 West for installation of additional emergency generators.",
+      "case_or_ordinance_permit_number": "Application No. 30027",
+      "primary_url": "https://epd.georgia.gov/document/document/pa0126-4/download",
+      "evidence_note": "State environmental permit application evidence for additional backup generation."
+    },
+    {
+      "date": "2026-03-18",
+      "date_precision": "day",
+      "government_body": "Georgia Department of Community Affairs",
+      "action_type": "DRI additional information form",
+      "result_status": "DRI #4603 Part 2 reports $3 billion estimated value at build-out, $29 million estimated annual local tax revenues, approximately 100 FTEs, Fayette County Water System demand of 0.20 MGD, City wastewater flow of 0.18 MGD, Georgia Power as energy provider, peak MW listed as TBD, and an on-site substation/new on-site transmission lines.",
+      "case_or_ordinance_permit_number": "DRI #4603",
+      "primary_url": "https://apps.dca.ga.gov/DRI/AdditionalForm.aspx?driid=4603",
+      "evidence_note": "Official state DRI filing; explicitly does not verify peak MW."
+    },
+    {
+      "date": "2026-04-21",
+      "date_precision": "day",
+      "government_body": "Georgia Department of Community Affairs / Atlanta Regional Commission",
+      "action_type": "DRI status",
+      "result_status": "DCA application summary lists ATL2 East DRI #4603 status as Completed, with projected process completion date 2026-04-24 and RDC finding/request for comments on 2026-04-21.",
+      "case_or_ordinance_permit_number": "DRI #4603",
+      "primary_url": "https://apps.dca.ga.gov/DRI/AppSummary.aspx?driid=4603",
+      "evidence_note": "Completed regional-review process status, not construction completion."
+    },
+    {
+      "date": "2026-05-13",
+      "date_precision": "day",
+      "government_body": "Fayette County, Georgia",
+      "action_type": "water / construction-accounting notice",
+      "result_status": "County facts page says QTS and Fayette County Water resolved smart-meter billing/tracking issues, all meters are now connected, QTS was billed and paid at the construction rate for past water use, and QTS monthly usage over the past year was less than 1% of county water production and permitted capacity.",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://fayettecountyga.gov/news_detail_T2_R185.php",
+      "evidence_note": "Official water-system/construction context; not a building occupancy or capacity record."
+    },
+    {
+      "date": "2026-08-11",
+      "date_precision": "day",
+      "government_body": "City of Fayetteville",
+      "action_type": "public FAQ / campus facts",
+      "result_status": "City FAQ states there is one data center campus in Fayetteville, QTS Data Centers, along Highway 54 West between Veterans Parkway and Tyrone Road; it says new data centers are prohibited in every city zoning district as of March 5, 2026 and the QTS facility includes 13 buildings totaling approximately 6.2 million square feet.",
+      "case_or_ordinance_permit_number": "Ordinance 26-0-12 for citywide new-data-center prohibition",
+      "primary_url": "https://www.fayetteville-ga.gov/746/Data-Center-Discussion",
+      "evidence_note": "Official city source for campus identity, location, physical scale, and zoning-policy context."
+    },
+    {
+      "date": "2025-11-21",
+      "date_precision": "day",
+      "government_body": "Atlanta Journal-Constitution / Microsoft",
+      "action_type": "partial-live evidence",
+      "result_status": "Microsoft published that its Atlanta Fairwater AI datacenter began operation in October 2025; AJC reports Microsoft located the facility in Fayetteville within the QTS-developed campus and that Fayetteville issued a certificate of occupancy for the first QTS campus building in May 2025 plus a construction completion certificate on September 25, 2025.",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.ajc.com/business/2025/11/microsofts-newest-ai-superfactory-opens-at-sprawling-fayetteville-campus/",
+      "supporting_url": "https://news.microsoft.com/source/features/ai/from-wisconsin-to-atlanta-microsoft-connects-datacenters-to-build-its-first-ai-superfactory/",
+      "evidence_note": "Mixed company/local-media evidence for partial-live status; official city permit ledger or certificate images were not independently retrieved."
+    }
+  ],
   "sources": {
     "phase2_seed_stable_id": "US-GA-QTS-FAYETTEVILLE-2025",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
-    "authoritative_layer": "phase2_seed_only",
-    "match_reason": "No detailed match; retained separately"
+    "authoritative_layer": "official/local-government refreshed 2026-08-11",
+    "match_reason": "Seed-only record now independently matched to the Fayetteville QTS campus; likely overlaps with USDC-0004 QTS Fayetteville / Project Excalibur and/or ATL2 East expansion, but no deletion/merge performed under refresh contract.",
+    "refresh_2026_08_11": [
+      "https://www.fayetteville-ga.gov/746/Data-Center-Discussion",
+      "https://fayettecountyga.gov/news_detail_T2_R185.php",
+      "https://q.com/data-centers/fayetteville/",
+      "https://apps.dca.ga.gov/DRI/AppSummary.aspx?driid=4603",
+      "https://apps.dca.ga.gov/DRI/InitialForm.aspx?driid=4603",
+      "https://apps.dca.ga.gov/DRI/AdditionalForm.aspx?driid=4603",
+      "https://mcclibraryfunctions.azurewebsites.us/api/ordinanceDownload/13074/1404829/pdf",
+      "https://epd.georgia.gov/document/document/pa0724-5/download",
+      "https://epd.georgia.gov/document/document/pa0126-4/download",
+      "https://fayettecountyga.gov/Documents/Government/Board%20of%20Commissioners/Agendas%20And%20Minutes/2025/Agenda%20of%20Actions/05-08-2025-Agenda_of_Actions.pdf?t=202511250955490",
+      "https://news.microsoft.com/source/features/ai/from-wisconsin-to-atlanta-microsoft-connects-datacenters-to-build-its-first-ai-superfactory/",
+      "https://www.ajc.com/business/2025/11/microsofts-newest-ai-superfactory-opens-at-sprawling-fayetteville-campus/",
+      "https://www.datacenterdynamics.com/en/news/qts-files-to-expand-fayetteville-data-center-campus-in-georgia/"
+    ]
   },
-  "contradictions": [],
-  "seed_only": true,
+  "contradictions": [
+    {
+      "date_identified": "2026-08-11",
+      "field": "record_identity",
+      "official_position": "City of Fayetteville describes one QTS Data Centers campus in Fayetteville along Highway 54 West between Veterans Parkway and Tyrone Road; this seed record's name appears to describe that same campus.",
+      "conflicting_claim": "Repository already contains USDC-0004, QTS Fayetteville / Project Excalibur, with overlapping location and owner facts; DCA #4603 ATL2 East may be an expansion/adjacent phase rather than a wholly separate canonical campus.",
+      "resolution": "Do not delete or merge in this daemon run. Mark this record as independently evidenced but potentially duplicative/overlapping for parent review.",
+      "official_url": "https://www.fayetteville-ga.gov/746/Data-Center-Discussion",
+      "related_urls": [
+        "https://apps.dca.ga.gov/DRI/AppSummary.aspx?driid=4603",
+        "https://www.datacenterdynamics.com/en/news/qts-files-to-expand-fayetteville-data-center-campus-in-georgia/"
+      ]
+    },
+    {
+      "date_identified": "2026-08-11",
+      "field": "capacity_mw",
+      "official_position": "DCA DRI #4603 lists peak connected electrical load as TBD; city/county/QTS pages reviewed did not publish MW capacity.",
+      "conflicting_claim": "Industry reporting says Project Excalibur would total around 250 MW.",
+      "resolution": "Keep capacity_mw null until a primary utility, permit, or company filing verifies MW.",
+      "official_url": "https://apps.dca.ga.gov/DRI/AdditionalForm.aspx?driid=4603",
+      "conflicting_urls": [
+        "https://www.datacenterdynamics.com/en/news/qts-files-to-expand-fayetteville-data-center-campus-in-georgia/"
+      ]
+    },
+    {
+      "date_identified": "2026-08-11",
+      "field": "campus_size",
+      "official_position": "City FAQ says the QTS facility includes 13 buildings totaling approximately 6.2 million square feet.",
+      "conflicting_claim": "Industry reporting says Project Excalibur plans 6.6 million square feet across 16 buildings on a 615-acre site; ATL2 East DRI separately adds 2.0 million square feet on about 313 acres.",
+      "resolution": "Use official City FAQ and DCA DRI values in milestones; treat larger Project Excalibur figures as unresolved/non-primary for this record.",
+      "official_url": "https://www.fayetteville-ga.gov/746/Data-Center-Discussion",
+      "conflicting_urls": [
+        "https://www.datacenterdynamics.com/en/news/qts-files-to-expand-fayetteville-data-center-campus-in-georgia/",
+        "https://apps.dca.ga.gov/DRI/InitialForm.aspx?driid=4603"
+      ]
+    }
+  ],
+  "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

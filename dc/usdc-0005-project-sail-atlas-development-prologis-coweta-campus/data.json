@@ -13,10 +13,17 @@
   "location": {
     "city": "near Newnan",
     "county": "Coweta County",
-    "state": "GA"
+    "state": "GA",
+    "roads_or_area": "Welcome to Sargent Road and Wagers Mill Road / rural Sargent area",
+    "coordinates": {
+      "latitude": 33.434,
+      "longitude": -84.87683,
+      "source": "Georgia DCA DRI #4361 initial form"
+    }
   },
   "phase3_stable_id": "GA-002",
-  "status_as_of_cutoff": "Large proposed campus with DRI/utility-planning and developer-site evidence, but no verified groundbreaking, building permit, certificate of occupancy, energized load, or tenant identity was located. DRI is a regional communication process, not the local approval itself.",
+  "status_as_of_cutoff": "Approved-permitted / pre-construction: Coweta County Board of Commissioners approved rezoning petition REZ 24-19 for Project Sail on 2026-04-07 by a reported 3-2 vote, but no verified building permit, certificate of occupancy, energized load, construction start, or tenant identity was located. Litigation seeking to void the rezoning was reported filed in Coweta County Superior Court on 2026-05-05. DRI #4361 remains a regional-review record, not the local approval itself.",
+  "evidence_grade": "B",
   "actions": [
     {
       "date": "2024-12",
@@ -53,10 +60,46 @@
       "primary_url": "https://www.cowetaprojectsail.com/coweta-lp/",
       "access_caveat": "Company/developer source; not a county or city approval.",
       "evidence_note": "Company announcement kept separate from land-use and building approvals."
+    },
+    {
+      "date": "2026-04-07",
+      "date_precision": "day",
+      "government_body": "Coweta County Board of Commissioners",
+      "action_type": "rezoning / public hearing, REZ 24-19",
+      "result_status": "Approved with conditions, reported 3-2 vote, rezoning approximately 829 acres off Welcome to Sargent Road and Wagers Mill Road from Rural Conservation to Industrial for a nine-building Project Sail data-center campus.",
+      "vote_tally": "3-2",
+      "case_or_ordinance_permit_number": "REZ 24-19 / REZONE 24-019",
+      "primary_url": "https://cowetacoga.portal.civicclerk.com/event/1069/files/agenda/3282",
+      "access_caveat": "CivicClerk official public portal is JavaScript-rendered; search-indexed agenda text identifies the petition and DRI attachments. FOX 5, DCD, AJC, and The Citizen corroborate the vote and outcome from county records.",
+      "evidence_note": "Rezoning approval with conditions; not evidence of vertical construction, certificate of occupancy, energized load, or tenant occupancy."
+    },
+    {
+      "date": "2026-05-05",
+      "date_precision": "day",
+      "government_body": "Coweta County Superior Court",
+      "action_type": "legal challenge",
+      "result_status": "Local residents reportedly filed a Petition for Review/Appeal and Request for Declaratory Judgment against Coweta County and Atlas Development LLC seeking to void the rezoning approval and prohibit construction/operation.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://thecitizen.com/2026/05/11/coweta-residents-sue-to-block-project-sail-data-center/",
+      "access_caveat": "Local media report; court docket record was not independently retrieved in this refresh.",
+      "evidence_note": "Pending litigation risk; allegations are not findings."
+    },
+    {
+      "date": "2026-07-14",
+      "date_precision": "day",
+      "government_body": "Coweta County Board of Commissioners",
+      "action_type": "data center ordinance work session",
+      "result_status": "County staff and commissioners discussed proposed amendments to the Coweta County Data Center Ordinance, including removing conditional use from Light Industrial, limiting data centers as conditional uses in Industrial, noise, onsite generation, buffers, developer community meetings, pre-application noise studies, separate fees, and third-party inspections.",
+      "vote_tally": "work session / no final vote in recap",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.coweta.ga.us/m/newsflash/home/detail/31",
+      "access_caveat": "County recap describes ordinance direction generally and does not name Project Sail.",
+      "evidence_note": "Regulatory-context update; not a project approval or construction milestone."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 900,
+  "owner": "Atlas Development, LLC / Prologis (developer/applicant relationship; Prologis site acquisition/ownership not fully verified in public records)",
   "sources": {
     "phase3_stable_id": "GA-002",
     "phase3_source_file": "phase3/county_ga_nc_sc.json",
@@ -66,9 +109,59 @@
       "US-GA-PROJECT-SAIL-COWETA-2025"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "refresh_2026_08_11": [
+      "https://apps.dca.ga.gov/DRI/InitialForm.aspx?driid=4361",
+      "https://apps.dca.ga.gov/DRI/AdditionalForm.aspx?driid=4361",
+      "https://cowetacoga.portal.civicclerk.com/event/1069/files/agenda/3282",
+      "https://cowetacoga.portal.civicclerk.com/event/1069/media",
+      "https://www.coweta.ga.us/m/newsflash/home/detail/31",
+      "https://www.cowetaprojectsail.com/coweta-lp/",
+      "https://www.georgiapower.com/news-hub/press-releases/georgia-public-service-commission-approves-plan-to-meet-the-energy-needs-of-a-growing-georgia.html",
+      "https://www.datacenterdynamics.com/en/news/prologis-900mw-project-sail-gets-the-go-ahead-in-coweta-county-georgia/",
+      "https://www.fox5atlanta.com/news/coweta-county-approves-massive-project-sail-data-center",
+      "https://thecitizen.com/2026/05/11/coweta-residents-sue-to-block-project-sail-data-center/"
+    ]
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "current campus scale and electrical capacity",
+      "details": "Official DCA DRI #4361 initial materials list 13 buildings of about 378,000 SF each and no disclosed peak electrical load; current developer site says the plan was reduced to 9 buildings and 4.34 million SF; DCD and FOX 5 report about 900 MW, while other advocacy/secondary references cite 910 MW or older 936 MW figures.",
+      "sources": [
+        "https://apps.dca.ga.gov/DRI/InitialForm.aspx?driid=4361",
+        "https://apps.dca.ga.gov/DRI/AdditionalForm.aspx?driid=4361",
+        "https://www.cowetaprojectsail.com/coweta-lp/",
+        "https://www.datacenterdynamics.com/en/news/prologis-900mw-project-sail-gets-the-go-ahead-in-coweta-county-georgia/",
+        "https://www.fox5atlanta.com/news/coweta-county-approves-massive-project-sail-data-center"
+      ]
+    },
+    {
+      "topic": "owner/developer identity",
+      "details": "DCA DRI records identify Atlas Development, LLC as developer/applicant; current project website and multiple reports associate Prologis with the campus; DCD reported on 2026-04-10 that Prologis had not yet closed on the site transaction.",
+      "sources": [
+        "https://apps.dca.ga.gov/DRI/InitialForm.aspx?driid=4361",
+        "https://www.cowetaprojectsail.com/coweta-lp/",
+        "https://www.datacenterdynamics.com/en/news/prologis-900mw-project-sail-gets-the-go-ahead-in-coweta-county-georgia/"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-07-16",
+      "field": "status_as_of_cutoff",
+      "value": "Large proposed campus with DRI/utility-planning and developer-site evidence, but no verified groundbreaking, building permit, certificate of occupancy, energized load, or tenant identity was located. DRI is a regional communication process, not the local approval itself."
+    },
+    {
+      "date": "2026-07-16",
+      "field": "capacity_mw",
+      "value": null
+    },
+    {
+      "date": "2026-07-16",
+      "field": "owner",
+      "value": null
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -8,14 +8,39 @@
     "state": "TX"
   },
   "capacity_mw": 295,
-  "status": "power supply agreement signed; initial powering expected H2 2026; full operation expected by 2030",
+  "status": "announced; 295 MW grid-served retail power agreements signed; first delivery still projected 2H26 and full capacity 2H30; no public site/customer, construction, or energization evidence found",
   "confidence": "medium",
-  "evidence_date": "2025-08-06",
+  "evidence_date": "2026-08-04",
   "sources": [
+    "https://investors.nrg.com/news-releases/news-release-details/nrg-energy-inc-reports-second-quarter-results-and-reaffirms-2025",
+    "https://investors.nrg.com/static-files/5fffff2f-b90d-490b-ad29-c5e6af1cf053",
+    "https://investors.nrg.com/static-files/6e6dc645-a314-4beb-93bb-de0e1c5a0bfd",
+    "https://investors.nrg.com/static-files/166760ef-79e6-4985-b776-09660ed84ae9",
+    "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
     "https://www.datacenterdynamics.com/en/news/nrg-signs-295mw-power-supply-deal-for-two-data-centers-in-texas/",
-    "https://www.power-eng.com/gas/nrg-caps-busy-second-quarter-with-295-mw-data-center-power-deal/"
+    "https://www.power-eng.com/gas/nrg-caps-busy-second-quarter-with-295-mw-data-center-power-deal/",
+    "https://www.utilitydive.com/news/nrg-nears-12-gw-hyperscaler-deal-amid-texas-data-center-pause/827212/"
   ],
   "why_not_in_baseline": "Not among the 208 canonical_project names; post-freeze utility/power-supply agreement for two data centers on NRG-owned Texas sites, but public sources do not identify the customer or exact sites.",
+  "contradictions": [
+    "No direct conflict found on the signed 295 MW Texas agreements. Scope ambiguity remains: NRG's August 2026 1.2 GW Texas BYOP hyperscaler opportunity appears to be a separate proposed generation-backed project, not an update to the earlier 295 MW grid-served retail agreements."
+  ],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status",
+      "from": "power supply agreement signed; initial powering expected H2 2026; full operation expected by 2030",
+      "to": "announced; 295 MW grid-served retail power agreements signed; first delivery still projected 2H26 and full capacity 2H30; no public site/customer, construction, or energization evidence found",
+      "reason": "NRG 2026 presentation still lists the 295 MW Texas agreements as previously announced grid-served signed agreements with 2H26 first delivery and 2H30 full capacity; no public evidence found of construction or energization."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "evidence_date",
+      "from": "2025-08-06",
+      "to": "2026-08-04",
+      "reason": "Latest NRG Q2 2026 materials provide current data-center strategy context and distinguish previously announced 445 MW grid-served signed agreements from the new 1.2 GW BYOP opportunity."
+    }
+  ],
   "discovery_file": "candidates-grid-queue.jsonl",
   "added_at": "2026-08-11",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"

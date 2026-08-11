@@ -5,15 +5,42 @@
   "location": {
     "city": "Louisville",
     "county": "Jefferson County",
-    "state": "KY"
+    "state": "KY",
+    "address": "6001 Camp Ground Road",
+    "district_area": "Rubbertown"
   },
-  "capacity_mw": 400,
-  "status": "announced/planned; initial capacity targeted October 2026",
+  "capacity_mw": 525,
+  "status": "approved-permitted; first 130 MW targeted October 2026; no official construction or energization confirmation found",
   "confidence": "high",
-  "evidence_date": "2025-01-16",
+  "evidence_date": "2026-08-11",
   "sources": [
     "https://www.powerhousedata.com/news/powerhouse-data-centers-and-poe-companies-partner-to-develop-kentuckys-first-hyperscale-data-center-campus",
-    "https://www.poecompanies.com/poe-properties/camp-ground-industrial/"
+    "https://www.poecompanies.com/poe-properties/camp-ground-industrial/",
+    "https://louisvilledatacenter.com/",
+    "https://lge-ku.com/newsroom/press-releases/2025/01/16/lge-announces-first-major-data-center-electric-customer",
+    "https://content.govdelivery.com/attachments/KYLOUISVILLE/2025/03/26/file_attachments/3209896/IARC%20Report%20032625.pdf",
+    "https://www.lpm.org/news/2026-03-05/west-louisville-data-center-approved-despite-opposition",
+    "https://www.datacenterdynamics.com/en/news/planning-commission-recommends-approval-for-16m-sq-ft-planned-data-center-in-louisville-kentucky/"
+  ],
+  "history": [
+    {
+      "field": "capacity_mw",
+      "previous_value": 400,
+      "updated_value": 525,
+      "date": "2026-08-11",
+      "reason": "Current project site states planned capacity up to 525 MW; original PowerHouse, LG&E and Poe sources still state 400 MW campus / 402 MW near-term expansion."
+    },
+    {
+      "field": "status",
+      "previous_value": "announced/planned; initial capacity targeted October 2026",
+      "updated_value": "approved-permitted; first 130 MW targeted October 2026; no official construction or energization confirmation found",
+      "date": "2026-08-11",
+      "reason": "Louisville Metro planning record identifies the 6001 Camp Ground Road Category 3 application and local reporting/project site state Planning Commission approval."
+    }
+  ],
+  "contradictions": [
+    "Capacity conflict: PowerHouse, LG&E, and Poe 2025/current pages state 400 MW campus with 335 MW initial access and near-term expansion to 402 MW; the current PowerHouse Louisville project site states planned capacity up to 525 MW.",
+    "Status nuance: project-controlled site and local reporting state Planning Commission approval, but no official building permit, construction start completion, energization, or operational notice was found in this refresh."
   ],
   "why_not_in_baseline": "Not present in the 208 baseline canonical_project list; likely missed/coverage-outside-baseline Kentucky hyperscale project.",
   "discovery_file": "candidates-hyperscaler.jsonl",

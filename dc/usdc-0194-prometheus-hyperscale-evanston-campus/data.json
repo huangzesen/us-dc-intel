@@ -9,10 +9,14 @@
   "location": {
     "city": "Evanston",
     "county": "Uinta",
-    "state": "WY"
+    "state": "WY",
+    "site_area_acres": 506,
+    "township_range_section": "Township 15 North, Range 118 West, Section 13",
+    "location_note": "Near Evanston/east of Evanston, off Interstate 80 exit 13; exact parcel geometry not independently extracted from county GIS."
   },
   "phase3_stable_id": "US-WY-PROMETHEUS-EVANSTON-2026",
-  "status_as_of_cutoff": "Wyoming Business Council material describes a planned 1.2 GW Evanston campus certified under the state data-center program context. No Uinta County land-use decision, permit, parcel, utility, construction, inspection/CO, or energization record was located; the state material does not establish physical start.",
+  "status_as_of_cutoff": "approved-permitted: Uinta County's approved CUP index links CUP-26-01 for Prometheus Wyoming I LLC, and the county-hosted CUP decision/order is indexed as a June 16, 2026 Conditional Use Permit for the Evanston-area data center. Prometheus Hyperscale and local reporting state the Uinta County Board of Commissioners unanimously approved the CUP on June 16, 2026 for a roughly 506-acre, 1.25 GW initial-capacity campus near Evanston. Construction/energization remain unverified; the developer says construction is anticipated within six months of final permitting, and local reporting describes permit conditions including a five-year construction-start deadline and filings for other federal/state/local permits.",
+  "evidence_grade": "B - county-hosted approved-CUP record plus company and local reporting; no construction, inspection/CO, energization, or complete parcel/GIS evidence located.",
   "actions": [
     {
       "date": "2022",
@@ -49,10 +53,58 @@
       "primary_url": "https://www.uintacounty.com/",
       "access_caveat": "County surface did not expose a matching project record in the reviewed search.",
       "evidence_note": "Negative search only."
+    },
+    {
+      "date": "2026-05-26",
+      "date_precision": "day",
+      "government_body": "City of Evanston",
+      "action_type": "community information session notice",
+      "result_status": "City-hosted flyer noticed a public community conversation at The Roundhouse for Build Wyoming's Prometheus Hyperscale project in Uinta County, describing a next-generation liquid-cooled AI computing campus coming to Wyoming.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://evanstonwy.org/DocumentCenter/View/6171/Uinta-Community-May-26-Meeting-flyer",
+      "access_caveat": "Public-engagement notice only; not a land-use approval.",
+      "evidence_note": "Local-government hosted project notice."
+    },
+    {
+      "date": "2026-05-27",
+      "date_precision": "day",
+      "government_body": "Uinta County Planning and Zoning Commission",
+      "action_type": "planning recommendation",
+      "result_status": "Local reporting states the Planning and Zoning Commission unanimously recommended zoning and conditional-use permit approvals for the proposed 1.25 GW, roughly 500-acre off-grid data center campus.",
+      "vote_tally": "unanimous recommendation reported",
+      "case_or_ordinance_permit_number": "CUP-26-01",
+      "primary_url": "https://cowboystatedaily.com/2026/05/28/uinta-county-planners-give-unanimous-ok-to-1-25-gigawatt-prometheus-data-center/",
+      "access_caveat": "Secondary local media source; county meeting packet/minutes not separately extracted.",
+      "evidence_note": "Pre-commission recommendation, not final approval."
+    },
+    {
+      "date": "2026-06-16",
+      "date_precision": "day",
+      "government_body": "Uinta County Board of Commissioners",
+      "action_type": "conditional use permit approval",
+      "result_status": "County-hosted CUP-26-01 decision/order for Prometheus Wyoming I LLC is indexed as a Conditional Use Permit, and company/local reporting state commissioners unanimously approved the CUP for a roughly 506-acre, 1.25 GW initial-capacity campus near Evanston.",
+      "vote_tally": "unanimous approval reported",
+      "case_or_ordinance_permit_number": "CUP-26-01",
+      "primary_url": "https://www.uintacountywy.gov/DocumentCenter/View/9751/CUP-26-01",
+      "access_caveat": "County PDF is accessible but text extraction is limited/scanned; search index exposes the permit title/date, with details corroborated by company release and local reporting.",
+      "evidence_note": "Land-use approval; construction start remains subject to final permitting and permit conditions."
+    },
+    {
+      "date": "2026-06-17",
+      "date_precision": "day",
+      "government_body": "Prometheus Hyperscale",
+      "action_type": "developer announcement",
+      "result_status": "Prometheus announced unanimous Uinta County CUP approval for a 506-acre Evanston campus designed for 1.25 GW initial capacity with a development path to 5 GW, islanded on-site power, and construction anticipated within six months of final permitting.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "CUP-26-01",
+      "primary_url": "https://www.prometheushyperscale.com/news/prometheus-hyperscale-secures-unanimous-conditional-use-permit-approval-from-uinta-county-commissioners",
+      "access_caveat": "Company source; used to supplement county CUP record.",
+      "evidence_note": "Developer description of capacity, site size, power architecture, and timing."
     }
   ],
-  "capacity_mw": null,
-  "owner": null,
+  "capacity_mw": 1250,
+  "owner": "Prometheus Wyoming I LLC / Prometheus Hyperscale",
   "sources": {
     "phase3_stable_id": "US-WY-PROMETHEUS-EVANSTON-2026",
     "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
@@ -62,9 +114,39 @@
       "US-WY-PROMETHEUS-EVANSTON-2026"
     ],
     "authoritative_layer": "phase3_project_action_layer",
-    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence",
+    "urls": [
+      "https://wyoleg.gov/InterimCommittee/2026/09-202606049-05WBCMaterialsPreparedforJointMinerals06052026.pdf",
+      "https://www.uintacountywy.gov/964/Conditional-Use-Permits",
+      "https://www.uintacountywy.gov/DocumentCenter/View/9751/CUP-26-01",
+      "https://evanstonwy.org/DocumentCenter/View/6171/Uinta-Community-May-26-Meeting-flyer",
+      "https://www.prometheushyperscale.com/projects",
+      "https://www.prometheushyperscale.com/news/prometheus-hyperscale-secures-unanimous-conditional-use-permit-approval-from-uinta-county-commissioners",
+      "https://wyofile.com/uinta-county-data-center-moves-forward/",
+      "https://cowboystatedaily.com/2026/05/28/uinta-county-planners-give-unanimous-ok-to-1-25-gigawatt-prometheus-data-center/"
+    ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "Wyoming Business Council material describes a planned 1.2 GW Evanston campus certified under the state data-center program context. No Uinta County land-use decision, permit, parcel, utility, construction, inspection/CO, or energization record was located; the state material does not establish physical start.",
+      "new_value": "approved-permitted based on Uinta County CUP-26-01 approval evidence; construction and energization still unverified."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": 1250
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "Prometheus Wyoming I LLC / Prometheus Hyperscale"
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

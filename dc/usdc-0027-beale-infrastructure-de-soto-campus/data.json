@@ -1,0 +1,69 @@
+{
+  "master_id": "USDC-0027",
+  "canonical_project": "Beale Infrastructure De Soto campus",
+  "aliases": [
+    "Beale De Soto data center campus",
+    "Beale Infrastructure De Soto campus",
+    "Mount Sunflower Data Facility",
+    "Project Pilot"
+  ],
+  "location": {
+    "city": "De Soto",
+    "county": "Johnson County",
+    "state": "KS"
+  },
+  "phase3_stable_id": "KS-DE-SOTO-BEALE",
+  "status_as_of_cutoff": "Beale announced a phased campus in April 2026 and describes site preparation, power, water, sewer, and a public Evergy substation. De Soto's official data-center page lists the Beale campus as active, but no independently retrieved zoning decision, county/city vote tally, building permit, inspection, certificate of occupancy, utility energization, commissioning, or live-service record was found by 2026-07-16. The May site-preparation/groundbreaking statement remains company evidence.",
+  "actions": [
+    {
+      "date": "2026-04-28",
+      "date_precision": "day",
+      "government_body": "Beale Infrastructure",
+      "action_type": "company announcement / planned campus",
+      "result_status": "Beale announced the first phase, at least two facilities, four-building full buildout, more than one million square feet, approximately $3 billion development value, and a May site-preparation/groundbreaking plan; Evergy was identified as power partner.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://bealeinfra.com/beale-infrastructure-announces-hyperscale-kansas-data-center-campus-advancing-3-billion-infrastructure-investment/",
+      "access_caveat": "Company announcement; it does not establish a city/county approval, building permit, actual groundbreaking, or energized service.",
+      "evidence_note": "Tier-2 developer evidence retained as announcement context."
+    },
+    {
+      "date": "2026-06-25",
+      "date_precision": "day",
+      "government_body": "Beale Infrastructure",
+      "action_type": "company water-infrastructure announcement",
+      "result_status": "Beale announced privately funded water-resiliency infrastructure for the De Soto campus. The company describes anticipated sewer, cooling-water, stormwater, wastewater, and Evergy infrastructure requirements, but no government permit or completed utility work was located.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://bealeinfra.com/beale-infrastructure-upgrades-critical-water-infrastructure-to-secure-long-term-water-resiliency-for-de-soto/",
+      "access_caveat": "Company infrastructure claim; no municipal, KDHE, EPA, or Evergy permit/interconnection closeout was retrieved.",
+      "evidence_note": "Utility/water planning context, not evidence of construction or operation."
+    },
+    {
+      "date": null,
+      "date_precision": "undated",
+      "government_body": "City of De Soto",
+      "action_type": "official data-center project/resource page",
+      "result_status": "The city lists Beale Infrastructure Data Center Campus as an active proposed project and explains that large industrial wastewater, zoning, stormwater, air-quality, water, and utility requirements apply. The page does not publish a project-specific approval, permit number, vote, inspection, or service date.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.desotoks.us/465/Data-Centers",
+      "access_caveat": "City resource page and regulatory context; absence of a posted project file is preserved and no approval is inferred.",
+      "evidence_note": "Official local search surface confirms project identity and pending regulatory pathways."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "KS-DE-SOTO-BEALE",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "KS-DE-SOTO-BEALE",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

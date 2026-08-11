@@ -1,0 +1,42 @@
+{
+  "master_id": "USDC-0014",
+  "canonical_project": "Edged Chicago second facility",
+  "aliases": [
+    "Edged Chicago second facility"
+  ],
+  "location": {
+    "city": "Aurora",
+    "county": "Kane",
+    "state": "IL"
+  },
+  "phase3_stable_id": "IL-AURORA-EDGED-CHI",
+  "status_as_of_cutoff": "Company-reported under construction; no Aurora permit, council vote, power-on, or service record was located.",
+  "actions": [
+    {
+      "date": "2025-11-14",
+      "date_precision": "day",
+      "government_body": "Edged US / FCL Builders (not a government action)",
+      "action_type": "groundbreaking announcement",
+      "result_status": "Edged announced the groundbreaking of its second Chicago-campus facility in Aurora and stated 72MW critical capacity. The announcement is not a city permit or approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://edged.us/news/edged-us-expands-chicagoland-campus",
+      "access_caveat": "Company source; no local approval is inferred from groundbreaking language.",
+      "evidence_note": "Company milestone only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "IL-AURORA-EDGED-CHI",
+    "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
+    "regional_id": "IL-AURORA-EDGED-CHI",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

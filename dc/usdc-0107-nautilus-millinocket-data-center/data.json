@@ -1,0 +1,55 @@
+{
+  "master_id": "USDC-0107",
+  "canonical_project": "Nautilus Millinocket data center",
+  "aliases": [
+    "Great Northern Paper mill data center",
+    "Nautilus Millinocket data center"
+  ],
+  "location": {
+    "city": "Millinocket",
+    "county": "Penobscot County",
+    "state": "ME"
+  },
+  "phase3_stable_id": "US-ME-NAUTILUS-MILLINOCKET-2025",
+  "status_as_of_cutoff": "Canceled. The site redevelopment manager and trade reporting said Nautilus canceled the planned project; no current permit, construction, energized load, or commissioning record was found.",
+  "actions": [
+    {
+      "date": "2025-04-09",
+      "date_precision": "day",
+      "government_body": "Not a government action; Bangor Daily News report quoting site redevelopment manager",
+      "action_type": "cancellation report",
+      "result_status": "Reported that the proposed $300 million Millinocket data center was canceled.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.bangordailynews.com/2025/04/09/mainefocus/mainefocus-business/300m-data-center-former-millinocket-paper-mill-canceled/",
+      "access_caveat": "Local reporting; no signed owner cancellation filing was located.",
+      "evidence_note": "Cancellation evidence; earlier announcement and 2022 target are superseded."
+    },
+    {
+      "date": "2025-04-16",
+      "date_precision": "day",
+      "government_body": "Not a government action; Data Center Dynamics",
+      "action_type": "trade confirmation of cancellation",
+      "result_status": "Trade reporting confirmed Nautilus canceled the planned 60 MW Millinocket project.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.datacenterdynamics.com/en/news/nautilus-cancels-flagship-maine-data-center/",
+      "access_caveat": "Specialist trade report; capacity is a reported project claim, not an operating utility measurement.",
+      "evidence_note": "Independent reporting corroborates cancellation; not an approval or construction action."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-ME-NAUTILUS-MILLINOCKET-2025",
+    "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
+    "regional_id": "US-ME-NAUTILUS-MILLINOCKET-2025",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

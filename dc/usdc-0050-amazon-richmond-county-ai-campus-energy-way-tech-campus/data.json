@@ -1,0 +1,70 @@
+{
+  "master_id": "USDC-0050",
+  "canonical_project": "Amazon Richmond County AI campus / Energy Way Tech Campus",
+  "aliases": [
+    "Amazon Data Services Energy Way Tech Campus",
+    "Amazon Richmond County AI campus",
+    "Amazon Richmond County AI campus / Energy Way Tech Campus",
+    "Amazon Web Services Richmond County campus",
+    "Hamlet Amazon data center"
+  ],
+  "location": {
+    "city": "Hamlet",
+    "county": "Richmond County",
+    "state": "NC"
+  },
+  "phase3_stable_id": "NC-001",
+  "status_as_of_cutoff": "State announcement and county incentive context exist. NC DEQ had published draft Title V air permits and a public hearing scheduled for July 30, 2026, after the cutoff; final air decisions were not yet made. No building permit, CO, grid connection, or energized IT load was verified.",
+  "actions": [
+    {
+      "date": "2025-06-04",
+      "date_precision": "day",
+      "government_body": "North Carolina Department of Commerce / Governor",
+      "action_type": "state announcement / county incentive partnership",
+      "result_status": "State announced Amazon's planned $10 billion North Carolina investment and Richmond County partnership. Announcement is not a building permit or proof of construction.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.commerce.nc.gov/news/press-releases/2025/06/04/governor-stein-announces-amazon-plans-invest-10-billion-north-carolina-ai-infrastructure",
+      "access_caveat": "State economic-development announcement; underlying county incentive agreement and local permit files were not located.",
+      "evidence_note": "State/company announcement kept separate from land-use/building approval."
+    },
+    {
+      "date": "2026-06-26",
+      "date_precision": "day",
+      "government_body": "North Carolina Department of Environmental Quality, Division of Air Quality",
+      "action_type": "air / draft Title V permit and public notice",
+      "result_status": "DEQ announced draft permits for Amazon's Energy Way Tech Campus and Duke Energy bridge-power facility, including 588 Amazon emergency engines and 57 Duke engines. The action was preliminary and subject to hearing/comment; it was not final approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Amazon.25A; DukeRichmond.26C",
+      "primary_url": "https://www.deq.nc.gov/news/press-releases/2026/06/26/deq-announces-joint-public-hearing-amazon-data-center-and-duke-energy-air-quality-permits-richmond",
+      "access_caveat": "Draft air permits concern generators/power and do not establish building occupancy, grid interconnection, or energized IT load.",
+      "evidence_note": "Air review, not building approval."
+    },
+    {
+      "date": "2026-07-30",
+      "date_precision": "day",
+      "government_body": "North Carolina Department of Environmental Quality / Richmond County public hearing",
+      "action_type": "air / scheduled public hearing after cutoff",
+      "result_status": "DEQ scheduled a public hearing on the preliminary determination for Amazon and Duke air applications for July 30, 2026, after the July 16 cutoff. No final permit decision was available at cutoff.",
+      "vote_tally": "not applicable; hearing scheduled",
+      "case_or_ordinance_permit_number": "Amazon.25A; DukeRichmond.26C",
+      "primary_url": "https://www.deq.nc.gov/news/events/public-hearing-preliminary-determination-air-quality-permit-applications-amazon-data-services-and",
+      "access_caveat": "Future scheduled event recorded as pending; it is not treated as a completed hearing or approval.",
+      "evidence_note": "Pending air action only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "NC-001",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "NC-001",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

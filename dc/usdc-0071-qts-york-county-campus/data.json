@@ -1,0 +1,69 @@
+{
+  "master_id": "USDC-0071",
+  "canonical_project": "QTS York County campus",
+  "aliases": [
+    "Blackstone QTS York",
+    "QTS Hands Mill Highway/Campbell Road campus",
+    "QTS South Carolina campus",
+    "QTS York County campus"
+  ],
+  "location": {
+    "city": null,
+    "county": "York County",
+    "state": "SC"
+  },
+  "phase3_stable_id": "SC-004",
+  "status_as_of_cutoff": "State announcement confirms QTS selected York County for a campus. Phase 2 also identified a 2026 PSC utility order and reporting of site-preparation support, but no building-level permit, CO, construction completion, energization, or service evidence was located.",
+  "actions": [
+    {
+      "date": "2023-09-19",
+      "date_precision": "day",
+      "government_body": "South Carolina Governor / state economic-development announcement",
+      "action_type": "state/company project announcement",
+      "result_status": "State announced QTS's first South Carolina operations in York County, a $1 billion investment near Hands Mill Highway and Campbell Road. Announcement is not local zoning or building approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://governor.sc.gov/news/2023-09/qts-data-centers-establishing-first-south-carolina-operations-york-county",
+      "access_caveat": "State announcement; local permit and utility records were not attached.",
+      "evidence_note": "Announcement kept separate from approval and construction."
+    },
+    {
+      "date": "2026-07-01",
+      "date_precision": "day",
+      "government_body": "Not a government action; commercial press",
+      "action_type": "site-preparation / project-advance report",
+      "result_status": "Commercial reporting described an $8 billion QTS project and York County site-preparation support. The report is not treated as proof of a permit, vote, or completed construction.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.commercialsearch.com/news/qts-advances-8b-data-center-project/",
+      "access_caveat": "Press source; underlying county grant/agreement and permit documents were not located.",
+      "evidence_note": "Reported advancement, not verified building approval."
+    },
+    {
+      "date": "2025-03-14",
+      "date_precision": "day",
+      "government_body": "South Carolina Public Service Commission",
+      "action_type": "utility / transmission certificate",
+      "result_status": "Order 2025-161 granted a certificate for two double-circuit 230-kV lines and associated facilities in Allison Creek Industrial Park, York County, to serve a new industrial customer identified in the order as QTS Data Centers. The order is utility infrastructure approval, not a building permit, CO, or proof of energization.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Docket 2024-286-E; Order 2025-161",
+      "primary_url": "https://dms.psc.sc.gov/Attachments/Order/adffdc00-b38c-42d3-9c41-2bfccdd92ec3",
+      "access_caveat": "Official order PDF was text-extracted; it establishes the utility certificate and QTS customer identity but not building completion or service date.",
+      "evidence_note": "Utility/regulator action kept separate from land-use and building approval."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "SC-004",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "SC-004",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

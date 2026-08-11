@@ -1,0 +1,55 @@
+{
+  "master_id": "USDC-0206",
+  "canonical_project": "Microsoft second Wisconsin AI data center",
+  "aliases": [
+    "Microsoft second Wisconsin AI data center",
+    "Racine County Fairwater phase"
+  ],
+  "location": {
+    "city": "Mount Pleasant/Racine County area",
+    "county": "Racine",
+    "state": "WI"
+  },
+  "phase3_stable_id": "WI-RACINE-MICROSOFT-FAIRWATER2",
+  "status_as_of_cutoff": "Announced/planned expansion; Microsoft says adjacent second-facility construction is ongoing, but a distinct parcel/permit/energization record was not independently established.",
+  "actions": [
+    {
+      "date": "2025-09-18",
+      "date_precision": "day",
+      "government_body": "Microsoft (not a government action)",
+      "action_type": "second-facility announcement",
+      "result_status": "Microsoft's official Wisconsin post describes continued campus development; separate reporting described an additional $4 billion Wisconsin facility. No distinct local permit or power-on is inferred.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://blogs.microsoft.com/on-the-issues/2025/09/18/made-in-wisconsin-the-worlds-most-powerful-ai-datacenter/",
+      "access_caveat": "Company source; the second-facility identity is not merged with first-facility operational evidence.",
+      "evidence_note": "Announcement/status only."
+    },
+    {
+      "date": "2026-06-23",
+      "date_precision": "day",
+      "government_body": "Microsoft (not a government action)",
+      "action_type": "construction-status announcement",
+      "result_status": "Microsoft says construction of the second facility immediately adjacent to the first is ongoing, including foundation, steel, and underground utility work, with completion scheduled for 2028. This is not a permit or energization record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://news.microsoft.com/source/2026/06/23/microsoft-completes-construction-on-first-datacenter-facility-in-mount-pleasant-wisconsin/",
+      "access_caveat": "Company statement; no independent building permit or CO was located for this Phase 2 candidate separately.",
+      "evidence_note": "Physical work claim preserved with scope limitation."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "WI-RACINE-MICROSOFT-FAIRWATER2",
+    "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
+    "regional_id": "WI-RACINE-MICROSOFT-FAIRWATER2",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

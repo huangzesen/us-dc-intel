@@ -1,0 +1,80 @@
+{
+  "master_id": "USDC-0036",
+  "canonical_project": "Google Hermantown campus",
+  "aliases": [
+    "Arrowhead Station data center",
+    "Google Hermantown campus",
+    "Hermantown Google data center"
+  ],
+  "location": {
+    "city": "Hermantown",
+    "county": "St. Louis County",
+    "state": "MN"
+  },
+  "phase3_stable_id": "MN-HERMANTOWN-GOOGLE",
+  "status_as_of_cutoff": "Google is publicly identified as the proposed developer/operator. Hermantown's AUAR scoping process remained open in March 2026, and city/utility reimbursement and pre-agenda material continued in July. No final rezoning, site plan, building permit, construction start, inspection, CO, interconnection, energization, commissioning, or service record was located.",
+  "actions": [
+    {
+      "date": "2026-03-03",
+      "date_precision": "day",
+      "government_body": "City of Hermantown",
+      "action_type": "official project-identification announcement",
+      "result_status": "The city announced Google's plans for a new Hermantown data center and identified Minnesota Power as the prospective power-grid partner.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://hermantownmn.com/community/community-highlights/google-announces-plans-for-hermantown-data-center/",
+      "access_caveat": "City press release identifies a proposal; it is not a final land-use approval or permit.",
+      "evidence_note": "Official municipal announcement."
+    },
+    {
+      "date": "2026-03-16",
+      "date_precision": "day",
+      "government_body": "City of Hermantown / Minnesota Power",
+      "action_type": "utility pre-agenda presentation / service-planning context",
+      "result_status": "The city's project page says Minnesota Power presented efforts to create an electric service agreement with Google at the March 16 pre-agenda meeting. No executed agreement, allocation, or energization was located.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://hermantownmn.com/project/",
+      "access_caveat": "Page summary does not publish the presentation or an executed service agreement.",
+      "evidence_note": "Utility planning context, not a service or power-on record."
+    },
+    {
+      "date": "2026-03-31",
+      "date_precision": "day",
+      "government_body": "City of Hermantown",
+      "action_type": "AUAR scoping public-comment notice",
+      "result_status": "The city opened public comment on an updated AUAR scoping document for the proposed Google data-center campus.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "AUAR scoping document; number not published in reviewed notice",
+      "primary_url": "https://hermantownmn.com/wp-content/uploads/2026/03/PRESS-RELEASE-Comment-Period-Opens-for-AUAR-Scoping-Document.pdf",
+      "access_caveat": "Scoping/comment notice is not a final AUAR, rezoning, permit, or construction approval.",
+      "evidence_note": "Official environmental-review action."
+    },
+    {
+      "date": "2026-07-06",
+      "date_precision": "day",
+      "government_body": "Hermantown City Council (reported by Northern News Now)",
+      "action_type": "utility/environmental-review reimbursement action",
+      "result_status": "Local reporting says the council approved reimbursement to Minnesota Power for transmission environmental-review work; the report does not establish final data-center approval or construction.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Reimbursement agreement; number not exposed in reviewed report",
+      "primary_url": "https://www.northernnewsnow.com/2026/07/07/hermantown-city-council-approves-data-center-reimbursements/",
+      "access_caveat": "Secondary report; underlying council agenda/minutes/agreement were not retrieved.",
+      "evidence_note": "Government action reported by local media and explicitly not upgraded to project approval."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MN-HERMANTOWN-GOOGLE",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "MN-HERMANTOWN-GOOGLE",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

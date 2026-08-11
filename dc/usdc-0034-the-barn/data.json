@@ -1,0 +1,108 @@
+{
+  "master_id": "USDC-0034",
+  "canonical_project": "The Barn",
+  "aliases": [
+    "Green Chile Ventures",
+    "Related Digital Saline Township",
+    "Saline Stargate campus",
+    "Stargate Michigan / Related Digital Saline Township campus",
+    "The Barn"
+  ],
+  "location": {
+    "city": "Saline Township",
+    "county": "Washtenaw",
+    "state": "MI"
+  },
+  "phase3_stable_id": "MI-SALINE-BARN-STARGATE",
+  "status_as_of_cutoff": "Zoning was denied by the Township Board, later changed through a court consent judgment; MPSC conditionally approved DTE special contracts; company-reported construction began, but no government building/EGLE/energization record was located.",
+  "actions": [
+    {
+      "date": "2025-08-12",
+      "date_precision": "day",
+      "government_body": "Saline Township Planning Commission",
+      "action_type": "conditional-rezoning recommendation/action",
+      "result_status": "Official Phase 2 minutes record a 5–2 vote against the conditional-rezoning motion for the data-center property. This was not final Township Board approval.",
+      "vote_tally": "5–2 against",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://salinetownship.org/uploads/minutes/1763385582_September%202025%20minutes.pdf",
+      "access_caveat": "The cited official minutes are the September packet containing the chronology; no later permit is inferred.",
+      "evidence_note": "Planning-level vote preserved as a denial/rejection, not approval."
+    },
+    {
+      "date": "2025-09-10",
+      "date_precision": "day",
+      "government_body": "Saline Township Board",
+      "action_type": "rezoning decision",
+      "result_status": "Official minutes record the Board's denial of the rezoning request for the data-center property.",
+      "vote_tally": "4–1 against",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://salinetownship.org/uploads/minutes/1763385582_September%202025%20minutes.pdf",
+      "access_caveat": "Official minutes; subsequent court proceedings changed the land-use posture.",
+      "evidence_note": "Primary local denial record."
+    },
+    {
+      "date": "2025-10-21",
+      "date_precision": "day",
+      "government_body": "Washtenaw County Circuit Court / Saline Township",
+      "action_type": "court consent judgment / land-use resolution",
+      "result_status": "The consent judgment records the 4–1 denial and provides for the property to be zoned I-1 subject to stated conditions. It is a court resolution of litigation, not a building permit or proof of construction.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://salinetownship.org/uploads/notices/SalineDataCenterConsentJudgmentFinalExecutionCopy492124804975v1.pdf",
+      "access_caveat": "Court instrument; the judgment does not establish building, environmental, inspection, or energization approvals.",
+      "evidence_note": "Land-use litigation outcome kept distinct from facility permitting."
+    },
+    {
+      "date": "2025-12-18",
+      "date_precision": "day",
+      "government_body": "Michigan Public Service Commission",
+      "action_type": "utility special-contract approval",
+      "result_status": "MPSC conditionally approved DTE Electric contracts to serve a proposed 1,383MW Washtenaw County/Saline Township data center customer identified as Green Chile Ventures LLC, with customer-protection conditions. Utility approval is not building approval or energization.",
+      "vote_tally": "Commission approval; numeric roll call not stated in release",
+      "case_or_ordinance_permit_number": "U-21990",
+      "primary_url": "https://www.michigan.gov/mpsc/commission/news-releases/2025/12/18/mpsc-approves-dte-electric-energy-contracts-for-data-center",
+      "access_caveat": "MPSC release summarizes the decision; underlying contracts were heavily redacted and the proceeding does not establish physical service.",
+      "evidence_note": "Regulator record directly ties customer identity and load to the proceeding."
+    },
+    {
+      "date": "2026-04-17",
+      "date_precision": "day",
+      "government_body": "Michigan Attorney General",
+      "action_type": "appeal of MPSC decision",
+      "result_status": "The Attorney General announced an appeal of the MPSC approval in U-21990. Appeal is pending/contested action and does not itself vacate or prove construction status.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "U-21990",
+      "primary_url": "https://www.michigan.gov/ag/news/press-releases/2026/04/17/ag-nessel-files-appeal-of-mpsc-approval-of-dtes-saline-data-center-contracts",
+      "access_caveat": "AG release; current appellate disposition was not established in the reviewed record.",
+      "evidence_note": "Pending challenge preserved."
+    },
+    {
+      "date": "2026-06-01",
+      "date_precision": "day",
+      "government_body": "OpenAI / Oracle / Related / Walbridge (not a government action)",
+      "action_type": "groundbreaking announcement",
+      "result_status": "OpenAI's official page says the partners marked groundbreaking for the Saline campus. This is company evidence of a ceremony/claimed construction milestone, not a government permit, inspection, or energization record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://openai.com/index/stargate-michigan-data-center/",
+      "access_caveat": "Company announcement; no building, EGLE, CO, or power-on record is inferred.",
+      "evidence_note": "Company-reported construction milestone only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MI-SALINE-BARN-STARGATE",
+    "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
+    "regional_id": "MI-SALINE-BARN-STARGATE",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [
+      "US-MI-STARGATE-SALINE-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

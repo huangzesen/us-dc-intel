@@ -1,0 +1,93 @@
+{
+  "master_id": "USDC-0102",
+  "canonical_project": "Markley Lowell data-center expansion",
+  "aliases": [
+    "2 Prince Avenue / 1 Markley Way",
+    "Markley Lowell",
+    "Markley Lowell data-center expansion",
+    "former Prince Macaroni site"
+  ],
+  "location": {
+    "city": "Lowell",
+    "county": "Middlesex County",
+    "state": "MA"
+  },
+  "phase3_stable_id": "US-MA-MARKLEY-LOWELL-EXPANSION-2024",
+  "status_as_of_cutoff": "Existing facility with contested expansion and related property/subdivision activity. Lowell's official records document a proposed 360-day data-center moratorium process and a Planning Board statement that a moratorium applied generally; a final adoption tally, grandfathering decision, expansion permit disposition, CO, construction, or energization record was not located.",
+  "actions": [
+    {
+      "date": "2026-01-13",
+      "date_precision": "day",
+      "government_body": "Lowell City Council",
+      "action_type": "moratorium motion referral",
+      "result_status": "Council referred a motion seeking a temporary moratorium on new or expanded data centers to the City Manager/Law Department; the referral motion was adopted by an 11–0 roll call.",
+      "vote_tally": "11 yes / 0 no",
+      "case_or_ordinance_permit_number": "Motion 9357; temporary data-center moratorium",
+      "primary_url": "https://www.lowellma.gov/AgendaCenter/ViewFile/Agenda/_01202026-3758?packet=true",
+      "access_caveat": "The cited official minutes are dated January 13 within a January 20 packet; referral is not final ordinance adoption.",
+      "evidence_note": "Official action; no Markley construction or permit disposition inferred."
+    },
+    {
+      "date": "2026-01-27",
+      "date_precision": "day",
+      "government_body": "Lowell City Council / Law Department",
+      "action_type": "first reading of proposed zoning ordinance",
+      "result_status": "The official packet describes a proposed ordinance adding a 360-day moratorium on data centers and says it would be referred to the Planning Board for public hearing and recommendation before any final Council vote.",
+      "vote_tally": "first reading; final adoption tally not stated",
+      "case_or_ordinance_permit_number": "Proposed Chapter 290 zoning amendment; 360-day moratorium",
+      "primary_url": "https://www.lowellma.gov/AgendaCenter/ViewFile/Agenda/_01272026-3767?packet=true",
+      "access_caveat": "First reading and draft ordinance, not final adoption.",
+      "evidence_note": "Official zoning process; moratorium status is not conflated with a project permit denial."
+    },
+    {
+      "date": "2026-03-10",
+      "date_precision": "day",
+      "government_body": "Lowell City Council",
+      "action_type": "ordinance / zoning moratorium agenda packet",
+      "result_status": "The packet contains the proposed ordinance defining data centers and imposing a 360-day moratorium on new construction and development, subject to the statutory process; the reviewed record did not establish a final vote tally.",
+      "vote_tally": "not established in the reviewed packet",
+      "case_or_ordinance_permit_number": "Proposed Chapter 290 zoning amendment; Section 7.11",
+      "primary_url": "https://www.lowellma.gov/AgendaCenter/ViewFile/Agenda/_03102026-3835?packet=true",
+      "access_caveat": "Agenda packet contains proposed language; final enactment and effective date were not independently verified.",
+      "evidence_note": "Government regulatory record, not project approval."
+    },
+    {
+      "date": "2026-04-06",
+      "date_precision": "day",
+      "government_body": "Lowell Planning Board",
+      "action_type": "planning/subdivision record",
+      "result_status": "The Board's minutes state that a moratorium on data centers applied generally, not only to Markley, while reviewing a preliminary subdivision at 2 Prince Avenue/1 Markley Way; the subdivision vote itself was unanimous 5–0 and was not a data-center approval.",
+      "vote_tally": "5 yes / 0 no on preliminary subdivision",
+      "case_or_ordinance_permit_number": "2 Prince Avenue / 1 Markley Way preliminary subdivision",
+      "primary_url": "https://www.lowellma.gov/AgendaCenter/ViewFile/Minutes/_04062026-3865",
+      "access_caveat": "Minutes distinguish the subdivision application from the proposed use; no data-center permit was decided in the cited item.",
+      "evidence_note": "Official planning record preserves the distinction between property activity and data-center approval."
+    },
+    {
+      "date": "2026-07-02",
+      "date_precision": "day",
+      "government_body": "Not a government action; Associated Press report",
+      "action_type": "status report on existing facility and moratorium",
+      "result_status": "AP reported that Lowell's existing Markley facility continued operating while new construction/expansion was constrained by the city's moratorium process.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://apnews.com/article/5607b4ea8ef9776b28268561060752a8",
+      "access_caveat": "Major-press status report; final permit/grandfathering documents were not supplied.",
+      "evidence_note": "Existing operations are not treated as evidence of the proposed expansion being complete or live."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-MA-MARKLEY-LOWELL-EXPANSION-2024",
+    "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
+    "regional_id": "US-MA-MARKLEY-LOWELL-EXPANSION-2024",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

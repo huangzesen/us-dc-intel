@@ -1,0 +1,95 @@
+{
+  "master_id": "USDC-0205",
+  "canonical_project": "Lighthouse",
+  "aliases": [
+    "Lighthouse",
+    "Stargate Port Washington / Vantage Wisconsin campus",
+    "Vantage Port Washington",
+    "Vantage Stargate Wisconsin campus"
+  ],
+  "location": {
+    "city": "Port Washington",
+    "county": "Ozaukee",
+    "state": "WI"
+  },
+  "phase3_stable_id": "WI-PORT-WASHINGTON-VANTAGE-LIGHTHOUSE",
+  "status_as_of_cutoff": "Locally approved and in site-preparation/construction stage; DNR air permits found; no power-on or full-campus completion found.",
+  "actions": [
+    {
+      "date": "2025-08-19",
+      "date_precision": "day",
+      "government_body": "Port Washington Common Council",
+      "action_type": "development-agreement approval",
+      "result_status": "City fact sheet says the Council unanimously approved the Vantage development agreement. The fact sheet does not publish individual member names or a separate resolution number.",
+      "vote_tally": "unanimous",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.portwashingtonwi.gov/home/showpublisheddocument/6612/639015584240470000",
+      "access_caveat": "Official city fact sheet; underlying signed agreement/roll call was not separately extracted.",
+      "evidence_note": "Explicit city-reported unanimous result retained."
+    },
+    {
+      "date": "2025-08-28",
+      "date_precision": "day",
+      "government_body": "Port Washington Plan Commission",
+      "action_type": "Building, Site and Operations Plan approval",
+      "result_status": "Official city materials say the Plan Commission approved the data-center building, site, and operations plan for four buildings, subject to later plan action for ancillary facilities.",
+      "vote_tally": "not published in cited city materials",
+      "case_or_ordinance_permit_number": "Part 1 BSOP Application",
+      "primary_url": "https://www.portwashingtonwi.gov/home/showpublisheddocument/6484/638987284577500000",
+      "access_caveat": "Plan approval is distinct from building-permit issuance and occupancy.",
+      "evidence_note": "Primary city plan-narrative record."
+    },
+    {
+      "date": "2025-10-16",
+      "date_precision": "day",
+      "government_body": "Port Washington Plan Commission / Joint Review Board",
+      "action_type": "TID No. 5 boundary/project-plan action",
+      "result_status": "City fact sheet says the Plan Commission adopted TID No. 5 boundaries and project plan after public hearing; this is tax-increment financing action, not a building permit.",
+      "vote_tally": "not published in cited fact sheet",
+      "case_or_ordinance_permit_number": "TID No. 5",
+      "primary_url": "https://www.portwashingtonwi.gov/home/showpublisheddocument/6612/639015584240470000",
+      "access_caveat": "Fact sheet summary; no numeric vote is inferred.",
+      "evidence_note": "Tax/infrastructure framework separated from construction authorization."
+    },
+    {
+      "date": "2025-12-12",
+      "date_precision": "day",
+      "government_body": "City of Port Washington / Wisconsin permitting authorities",
+      "action_type": "state/local permits and site-preparation status",
+      "result_status": "City fact sheet says necessary state and local permits were obtained, initial impact fees were paid, and site-preparation work began. It does not list every permit number or establish building completion/energization.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.portwashingtonwi.gov/home/showpublisheddocument/6612/639015584240470000",
+      "access_caveat": "City summary; building-by-building permit register and closeout were not located.",
+      "evidence_note": "Official construction/site-preparation status with scope limitation."
+    },
+    {
+      "date": "2026-06-12",
+      "date_precision": "day",
+      "government_body": "Wisconsin Department of Natural Resources",
+      "action_type": "air construction/operation permits",
+      "result_status": "Wisconsin DNR's Port Washington environmental-review page identifies air construction and operation permits for the project generators. Environmental permits do not establish CO or energization.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://dnr.wisconsin.gov/topic/EIA/Portwashington.html",
+      "access_caveat": "DNR environmental page; permit files and facility commissioning were not treated as implied.",
+      "evidence_note": "State environmental action."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "WI-PORT-WASHINGTON-VANTAGE-LIGHTHOUSE",
+    "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
+    "regional_id": "WI-PORT-WASHINGTON-VANTAGE-LIGHTHOUSE",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [
+      "US-WI-STARGATE-PORT-WASHINGTON-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

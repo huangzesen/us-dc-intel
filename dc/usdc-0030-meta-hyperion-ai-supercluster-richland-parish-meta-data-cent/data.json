@@ -1,0 +1,88 @@
+{
+  "master_id": "USDC-0030",
+  "canonical_project": "Meta Hyperion AI supercluster / Richland Parish Meta data center",
+  "aliases": [
+    "Evest LLC",
+    "Hyperion",
+    "Laidley LLC project",
+    "Meta Hyperion AI supercluster",
+    "Meta Hyperion AI supercluster / Richland Parish Meta data center",
+    "Meta Louisiana Data Center",
+    "Meta Richland Parish / Hyperion AI campus",
+    "Richland Parish Data Center",
+    "Richland Parish Meta data center"
+  ],
+  "location": {
+    "city": "near Rayville",
+    "county": "Richland Parish",
+    "state": "LA"
+  },
+  "phase3_stable_id": "LA-001",
+  "status_as_of_cutoff": "Under construction with a major announced expansion. LPSC approved generation/transmission resources for service to the North Louisiana customer project, but that utility order is not a local land-use or building approval and does not establish full-campus completion or energized IT load.",
+  "actions": [
+    {
+      "date": "2024-12-04",
+      "date_precision": "day",
+      "government_body": "Louisiana Economic Development / Governor’s Office",
+      "action_type": "state project announcement",
+      "result_status": "LED announced Meta’s planned $10 billion-plus AI-optimized data center in northeast Louisiana/Richland Parish; the announcement did not publish a parish building permit or vote tally.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.opportunitylouisiana.gov/data-center/meta",
+      "access_caveat": "State announcement is not parish zoning, building, or occupancy approval.",
+      "evidence_note": "The announcement is retained as state/company evidence, separate from later LPSC utility action."
+    },
+    {
+      "date": "2025-06-30",
+      "date_precision": "day",
+      "government_body": "Louisiana Department of Transportation and Development",
+      "action_type": "traffic/road-safety action",
+      "result_status": "DOTD announced conversion of three US 80 intersections near the Meta development site to all-way stop control following a traffic-engineering study; this is roadway context, not site-plan or building approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://wwwapps.dotd.la.gov/administration/announcements/announcement.aspx?key=38932",
+      "access_caveat": "DOTD announcement does not disclose the private site permit register or construction/occupancy status.",
+      "evidence_note": "Traffic action confirms project-related public infrastructure context, not a vote on the data center."
+    },
+    {
+      "date": "2025-08-29",
+      "date_precision": "day",
+      "government_body": "Louisiana Public Service Commission",
+      "action_type": "utility generation/transmission order",
+      "result_status": "LPSC Order U-37425 accepted a settlement and approved the generation and transmission resources proposed in connection with service to a single customer project in North Louisiana, subject to conditions; LPSC docket materials identify the customer project as Meta/Laidley in Richland Parish.",
+      "vote_tally": "not published in the accessible order synopsis",
+      "case_or_ordinance_permit_number": "U-37425; Order dated 2025-08-29",
+      "primary_url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/DocumentDetails?documentId=176967",
+      "access_caveat": "Utility commission approval is not parish zoning, a building permit, a CO, or proof that IT load is energized.",
+      "evidence_note": "This is the strongest government action located, but it is expressly limited to utility generation/transmission resources."
+    },
+    {
+      "date": "2026-03-23",
+      "date_precision": "day",
+      "government_body": "Louisiana Economic Development / Louisiana Public Service Commission docket",
+      "action_type": "state conditional investment confirmation",
+      "result_status": "LED’s docket letter states Evest LLC, a Meta subsidiary, expressed interest in a significant Richland Parish investment conditional on power availability, including initial utility contract power by 2028; this is not a new parish approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "LPSC docket exhibit; docket number not assigned in the letter",
+      "primary_url": "https://lpscpubvalence.lpsc.louisiana.gov/portal/PSC/ViewFile?fileId=em64WSSJd2U%3D",
+      "access_caveat": "The filing is an economic-development confirmation in a utility docket and uses conditional language; it does not establish a building permit or live service.",
+      "evidence_note": "Conditional power language is preserved because it conflicts with any assumption of completed energization."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "LA-001",
+    "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
+    "regional_id": "LA-001",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [
+      "US-LA-META-HYPERION-RICHLAND-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

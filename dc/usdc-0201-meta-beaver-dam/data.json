@@ -1,0 +1,55 @@
+{
+  "master_id": "USDC-0201",
+  "canonical_project": "Meta Beaver Dam",
+  "aliases": [
+    "Degas LLC qualified data center",
+    "Meta Beaver Dam"
+  ],
+  "location": {
+    "city": "Beaver Dam",
+    "county": "Dodge",
+    "state": "WI"
+  },
+  "phase3_stable_id": "WI-BEAVER-DAM-META-DEGAS",
+  "status_as_of_cutoff": "State tax certification and PSC utility-service proceeding found; construction was reported in non-government coverage, but no government completion, CO, energization, or commissioning record was located.",
+  "actions": [
+    {
+      "date": "2025-02-18",
+      "date_precision": "day",
+      "government_body": "Wisconsin Economic Development Corporation / Wisconsin Department of Revenue",
+      "action_type": "qualified-data-center certification",
+      "result_status": "Wisconsin's official list identifies Degas LLC, County Road A, Beaver Dam, certified 2025-02-18 and to be constructed. Certification provides tax-exemption eligibility and is not a local zoning or building permit.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.revenue.wi.gov/Pages/FAQS/ExemptionforQualifiedDataCenter.aspx",
+      "access_caveat": "State list; it does not publish local permit, parcel, or operating status.",
+      "evidence_note": "Government identity/location record for the qualified data center entity."
+    },
+    {
+      "date": "2026-05-07",
+      "date_precision": "day",
+      "government_body": "Public Service Commission of Wisconsin",
+      "action_type": "electric-service-agreement decision",
+      "result_status": "PSC took up Alliant Energy's service-agreement application for a Beaver Dam data center and modified the agreement with customer protections/transparency conditions. The release expressly says PSC does not regulate data-center permitting, construction, or operations.",
+      "vote_tally": "Commission decision; numeric roll call not published in release",
+      "case_or_ordinance_permit_number": "Alliant Electric Service Agreement application; docket not exposed in cited release",
+      "primary_url": "https://psc.wi.gov/Documents/PressReleases/05.08.26PressRelease.PDF",
+      "access_caveat": "Utility decision; customer identity and contract details are limited by the cited release and no building/energization result follows.",
+      "evidence_note": "Regulator action kept separate from physical facility status."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "WI-BEAVER-DAM-META-DEGAS",
+    "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
+    "regional_id": "WI-BEAVER-DAM-META-DEGAS",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

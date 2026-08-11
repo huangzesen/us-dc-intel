@@ -1,0 +1,86 @@
+{
+  "master_id": "USDC-0192",
+  "canonical_project": "Project Jade Cheyenne data-center campus",
+  "aliases": [
+    "Cheyenne Google AI campus",
+    "Former Crusoe/Tallgrass Project Jade",
+    "Google 2.7 GW Cheyenne campus",
+    "Google Project Tembo",
+    "Jupiter Star / Tallgrass site lead",
+    "Project Jade Cheyenne data-center campus",
+    "Project Tembo"
+  ],
+  "location": {
+    "city": "Cheyenne area",
+    "county": "Laramie",
+    "state": "WY"
+  },
+  "phase3_stable_id": "US-WY-GOOGLE-PROJECT-JADE-CHEYENNE-2026",
+  "status_as_of_cutoff": "Laramie County’s July 8 official notice says Project Jade is now Project Tembo, identifies Google d.b.a. Jupiter Star Holdings, LLC, says prior Crusoe/Tallgrass-related zone/site-plan approvals existed, and describes a scaled-down administrative resubmittal. The county notice schedules a separate office-complex CUP hearing for August 13, after cutoff; no final revised data-center approval, permit, CO, or energization was verified.",
+  "actions": [
+    {
+      "date": "2026-07-08",
+      "date_precision": "day",
+      "government_body": "Laramie County Board of Commissioners / Planning and Development",
+      "action_type": "official project-status and resubmittal notice",
+      "result_status": "The county states the development previously known as Project Jade is now Project Tembo; Crusoe withdrew; Google d.b.a. Jupiter Star Holdings, LLC discussed a resubmittal; the data-center portion is scaled to four buildings/3,080,000 square feet and is intended for administrative processing.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PZ-26-00057; PZ-26-00058",
+      "primary_url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/county/public-notice/project-tembo-memo-07082026.pdf",
+      "access_caveat": "The notice describes prior approvals but does not supply their dates, ordinances, parcel IDs, or a final revised approval.",
+      "evidence_note": "Official identity/status clarification; no approval inference for the revision."
+    },
+    {
+      "date": "2026-07-08",
+      "date_precision": "day",
+      "government_body": "Laramie County Planning Commission",
+      "action_type": "conditional-use permit status",
+      "result_status": "The county notice says CUP Class B PZ-26-00057 and associated Commercial Site Plan PZ-26-00058 were submitted for an office-complex portion and that the office portion is contingent upon CUP approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PZ-26-00057; PZ-26-00058",
+      "primary_url": "https://www.laramiecountywy.gov/Public-Notices/Project-Tembo-Data-Center",
+      "access_caveat": "Public notice page links the memo and says the office CUP is separate from the data-center portion.",
+      "evidence_note": "Pending application, not approval."
+    },
+    {
+      "date": "2026-08-13",
+      "date_precision": "day",
+      "government_body": "Laramie County Planning Commission",
+      "action_type": "scheduled public hearing (after cutoff; pending)",
+      "result_status": "The county notice schedules an August 13, 2026 public hearing for the office-complex CUP portion. The hearing is after the July 16 cutoff and is not recorded as completed.",
+      "vote_tally": "scheduled; outcome not applicable",
+      "case_or_ordinance_permit_number": "PZ-26-00057",
+      "primary_url": "https://www.laramiecountywy.gov/files/sharedassets/public/v/1/county/public-notice/project-tembo-memo-07082026.pdf",
+      "access_caveat": "Future scheduled date is retained as pending; no result is inferred.",
+      "evidence_note": "Pending future action."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "Laramie County / City of Cheyenne / utility surfaces",
+      "action_type": "permit and parcel crosswalk search (negative)",
+      "result_status": "No final revised data-center site-plan decision, building permit, parcel crosswalk, inspection/CO, utility/interconnection, or energization record was located for the Google/Jupiter Star/Tembo identity.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PZ-26-00057; PZ-26-00058",
+      "primary_url": "https://www.laramiecountywy.gov/County-Government/County-Departments/Planning-Development",
+      "access_caveat": "County portal access is limited because the legacy portal was taken offline; no account or records request was used.",
+      "evidence_note": "Negative search only; do not merge with Related Digital/CoreWeave."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-WY-GOOGLE-PROJECT-JADE-CHEYENNE-2026",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-WY-GOOGLE-PROJECT-JADE-CHEYENNE-2026",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-WY-GOOGLE-TEMBO-CHEYENNE-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

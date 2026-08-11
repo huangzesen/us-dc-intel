@@ -1,0 +1,33 @@
+{
+  "master_id": "USDC-0171",
+  "canonical_project": "Stargate Milam County campus",
+  "aliases": [
+    "Cameron Stargate",
+    "SB Energy Milam County",
+    "Stargate Milam County campus"
+  ],
+  "location": {
+    "city": "Cameron",
+    "county": "Milam",
+    "state": "Texas"
+  },
+  "phase3_stable_id": "US-TX-STARGATE-MILAM-2025",
+  "status_as_of_cutoff": "Announced/provisional; no verified local or state approval record was located.",
+  "actions": [],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-TX-STARGATE-MILAM-2025",
+    "phase3_source_file": "phase3/county_tx.json",
+    "regional_id": "US-TX-STARGATE-MILAM-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-TX-STARGATE-MILAM-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

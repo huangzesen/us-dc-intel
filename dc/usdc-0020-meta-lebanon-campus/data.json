@@ -1,0 +1,75 @@
+{
+  "master_id": "USDC-0020",
+  "canonical_project": "Meta Lebanon campus",
+  "aliases": [
+    "Boone County Meta AI campus",
+    "Meta Lebanon AI data-center campus",
+    "Meta Lebanon campus",
+    "Meta second Indiana campus"
+  ],
+  "location": {
+    "city": "Lebanon",
+    "county": "Boone",
+    "state": "IN"
+  },
+  "phase3_stable_id": null,
+  "status_as_of_cutoff": null,
+  "actions": [
+    {
+      "date": "2026-02-11",
+      "body": "Indiana Economic Development Corporation / Governor",
+      "action_type": "state announcement and groundbreaking",
+      "exact_result_status": "IEDC reported Meta broke ground on a more-than-$10 billion LEAP campus and described state performance-based data-center sales-tax incentives. This is a state/company milestone, not a reconstructed local vote.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://iedc.in.gov/events/news/details/2026/02/11/gov.-braun-breaks-ground-on-10b-meta-data-center-campus-at-leap-district",
+      "access_caveat": "Official state page accessible; no Lebanon/Boone building-permit packet is attached."
+    },
+    {
+      "date": "2026-05-06",
+      "body": "Boone County Area Plan Commission",
+      "action_type": "moratorium recommendation",
+      "exact_result_status": "APC recommended a one-year moratorium on new unincorporated data centers, 6–0.",
+      "vote_tally": "6-0",
+      "case_or_permit_number": null,
+      "primary_url": "https://boonecounty.in.gov/2026/06/15/19190/",
+      "access_caveat": "The county release is a retrospective official account of the APC vote; it does not identify a Meta project case number."
+    },
+    {
+      "date": "2026-06-03",
+      "body": "Boone County Area Plan Commission",
+      "action_type": "public-hearing reaffirmation",
+      "exact_result_status": "APC reaffirmed the moratorium recommendation after a public hearing, 6–0.",
+      "vote_tally": "6-0",
+      "case_or_permit_number": null,
+      "primary_url": "https://boonecounty.in.gov/2026/06/15/19190/",
+      "access_caveat": "Official county release; the moratorium applies to new unincorporated facilities and is not proof of cancellation of Meta's LEAP project."
+    },
+    {
+      "date": "2026-06-15",
+      "body": "Boone County Board of Commissioners",
+      "action_type": "moratorium ordinance",
+      "exact_result_status": "Commissioners unanimously approved a one-year moratorium on filing, processing, review, and acceptance of applications for new data centers in unincorporated Boone County, effective 2026-06-16 through 2027-06-15.",
+      "vote_tally": "unanimous; numeric tally not published",
+      "case_or_permit_number": "Moratorium ordinance number not stated in release",
+      "primary_url": "https://boonecounty.in.gov/2026/06/15/19190/",
+      "access_caveat": "Official release gives the result but not the ordinance number or individual roll call."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "IN-LEBANON-META",
+    "phase3_source_file": "phase3/county_oh_in.json",
+    "regional_id": "IN-LEBANON-META",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [
+      "US-IN-META-LEBANON-2026"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

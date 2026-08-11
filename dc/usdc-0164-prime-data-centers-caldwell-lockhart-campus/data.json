@@ -1,0 +1,47 @@
+{
+  "master_id": "USDC-0164",
+  "canonical_project": "Prime Data Centers Caldwell/Lockhart campus",
+  "aliases": [
+    "Prime Data Center Caldwell County",
+    "Prime Data Centers Caldwell/Lockhart campus",
+    "Prime Texas campus"
+  ],
+  "location": {
+    "city": "Lockhart area",
+    "county": "Caldwell",
+    "state": "Texas"
+  },
+  "phase3_stable_id": "US-TX-PRIME-CALDWELL-2024",
+  "status_as_of_cutoff": "TDLR registered two new shell buildings for future data-center use; no county/city approval or completed construction record was located.",
+  "actions": [
+    {
+      "id": "A36",
+      "date": "2026-05-05",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Prime Data Center AUS-01, two 380,000-square-foot shell buildings at 1395 Bob White Road; planned start 2026-06-01, completion 2027-09-30; status Project Registered.",
+      "vote_tally": null,
+      "case_or_number": "TABS2026019473",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026019473",
+      "access_caveat": "TDLR architectural-barriers registration is not a Caldwell County or City of Lockhart building permit; dates are estimated.",
+      "notes": "Construction action."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-TX-PRIME-CALDWELL-2024",
+    "phase3_source_file": "phase3/county_tx.json",
+    "regional_id": "US-TX-PRIME-CALDWELL-2024",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-TX-PRIME-CALDWELL-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,56 @@
+{
+  "master_id": "USDC-0051",
+  "canonical_project": "Google Lenoir expansion",
+  "aliases": [
+    "Google Caldwell County expansion",
+    "Google Lenoir data center",
+    "Google Lenoir expansion"
+  ],
+  "location": {
+    "city": "Lenoir",
+    "county": "Caldwell County",
+    "state": "NC"
+  },
+  "phase3_stable_id": "NC-002",
+  "status_as_of_cutoff": "Caldwell County and Lenoir jointly approved economic-development measures aimed at streamlining a possible expansion in October 2024. A 2026 $1 billion expansion was reported, but no building permit, construction milestone, CO, utility, or commissioning evidence was located.",
+  "actions": [
+    {
+      "date": "2024-10-22",
+      "date_precision": "day",
+      "government_body": "Caldwell County Board of Commissioners and City of Lenoir City Council",
+      "action_type": "tax / economic-development incentive",
+      "result_status": "Official joint-meeting notice states the county board and city council approved measures aimed at streamlining a possible Google data-center expansion. The accessible announcement does not publish ordinance numbers or vote tallies.",
+      "vote_tally": "not published",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.caldwellcountync.org/CivicAlerts.aspx?AID=184",
+      "access_caveat": "Incentive action is not a site plan, building permit, CO, or proof that the later reported expansion has begun.",
+      "evidence_note": "Economic-development action, not construction authorization."
+    },
+    {
+      "date": "2026-03-13",
+      "date_precision": "day",
+      "government_body": "Not a government action; local business press",
+      "action_type": "expansion report",
+      "result_status": "Business press reported a $1 billion Google Lenoir expansion. The report did not provide an official permit or building-level milestone, so physical progress remains unverified.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.bizjournals.com/charlotte/news/2026/03/13/google-caldwell-county-data-center-lenoir-nc.html",
+      "access_caveat": "Press source may be paywalled; no substitution for county/city permit records.",
+      "evidence_note": "Expansion announcement/report, not a permit or construction record."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "NC-002",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "NC-002",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

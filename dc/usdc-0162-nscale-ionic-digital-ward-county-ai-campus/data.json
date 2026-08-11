@@ -1,0 +1,56 @@
+{
+  "master_id": "USDC-0162",
+  "canonical_project": "Nscale/Ionic Digital Ward County AI campus",
+  "aliases": [
+    "Nscale/Ionic Digital Ward County AI campus"
+  ],
+  "location": {
+    "city": "Pyote / Barstow area",
+    "county": "Ward",
+    "state": "Texas"
+  },
+  "phase3_stable_id": "US-TX-NSCALE-WARD-2026",
+  "status_as_of_cutoff": "Candidate is supported by company/SEC material and a Texas Comptroller registry row under the Cedarvale/Barstow-Pyote name; that registry's exemption ended 2026-03-15. No local build permit was found.",
+  "actions": [
+    {
+      "id": "A20",
+      "date": "2024-01-30",
+      "body": "Texas Comptroller of Public Accounts",
+      "meeting_date": null,
+      "action_type": "qualifying data-center state registration",
+      "result_or_status": "Comptroller list records Cedarvale, Barslow/Pyote TX Data Center effective 2024-01-30 under Ionic Digital Cedarvale LLC, Ionic Digital Mining LLC, and related operator registration.",
+      "vote_tally": null,
+      "case_or_number": "DC961705-OW1; DC961705-OC1; DC737649-OP1",
+      "primary_url": "https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php",
+      "access_caveat": "The registry row says Cedarvale/Barslow-Pyote, while the phase-2 candidate uses Ward/Nscale; entity and parcel identity are not independently reconciled.",
+      "notes": "State tax-incentive/registration action, not a county approval."
+    },
+    {
+      "id": "A21",
+      "date": "2026-03-15",
+      "body": "Texas Comptroller of Public Accounts",
+      "meeting_date": null,
+      "action_type": "registry exemption-end status",
+      "result_or_status": "The same Comptroller registry row lists 2026-03-15 as the exemption end date; no replacement or extension row was located in the retrieved list.",
+      "vote_tally": null,
+      "case_or_number": "DC961705",
+      "primary_url": "https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php",
+      "access_caveat": "The list is a current registry snapshot and does not explain the reason for the end date or whether a different registration replaced it.",
+      "notes": "Tax-incentive status; not evidence of project cancellation."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-TX-NSCALE-WARD-2026",
+    "phase3_source_file": "phase3/county_tx.json",
+    "regional_id": "US-TX-NSCALE-WARD-2026",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

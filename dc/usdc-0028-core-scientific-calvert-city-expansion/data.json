@@ -1,0 +1,56 @@
+{
+  "master_id": "USDC-0028",
+  "canonical_project": "Core Scientific Calvert City expansion",
+  "aliases": [
+    "Calvert City high-density data center",
+    "Core Scientific Calvert City",
+    "Core Scientific Calvert City expansion"
+  ],
+  "location": {
+    "city": "Calvert City",
+    "county": "Marshall County",
+    "state": "KY"
+  },
+  "phase3_stable_id": "KY-001",
+  "status_as_of_cutoff": "A company filing describes a 150 MW site and planned expansion to 300 MW in 2025–2027; the accessible government record establishes the county/city permit framework but no project-specific building, utility, inspection, CO, or energized-expansion record was located.",
+  "actions": [
+    {
+      "date": "2024-03-12",
+      "date_precision": "day",
+      "government_body": "Core Scientific / U.S. SEC filing (company disclosure)",
+      "action_type": "company infrastructure disclosure",
+      "result_status": "Core’s filed infrastructure presentation identifies the Calvert City site as 150 MW and describes a planned 300 MW expansion during 2025–2027; the filing is not a Kentucky construction approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://investors.corescientific.com/sec-filings/all-sec-filings/content/0001628280-24-010544/0001628280-24-010544.pdf",
+      "access_caveat": "SEC/company disclosure does not establish that the planned expansion was permitted, funded, built, or energized.",
+      "evidence_note": "Capacity plan is retained as a company claim, separate from county/city approvals."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "Core Scientific (company site; non-government)",
+      "action_type": "facility status page",
+      "result_status": "Core’s current Calvert City page identifies a 150 MW facility; it does not publish a building-level expansion permit, CO, utility interconnection, or commissioning record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://corescientific.com/high-density-data-centers/calvert-city-ky/",
+      "access_caveat": "Current company page is not a government record and does not confirm completion of the planned expansion.",
+      "evidence_note": "The 150 MW facility reference is not treated as proof that 300 MW is online."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "KY-001",
+    "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
+    "regional_id": "KY-001",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

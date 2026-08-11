@@ -1,0 +1,59 @@
+{
+  "master_id": "USDC-0068",
+  "canonical_project": "Meta Aiken County data center",
+  "aliases": [
+    "Meta Aiken County data center",
+    "Meta Aiken campus",
+    "Meta Sage Mill Industrial Park data center",
+    "Meta South Carolina campus"
+  ],
+  "location": {
+    "city": null,
+    "county": "Aiken County",
+    "state": "SC"
+  },
+  "phase3_stable_id": "SC-001",
+  "status_as_of_cutoff": "South Carolina officially announced Meta's new Aiken County data center and $800 million/100-job plan. No county land-use, building, environmental, utility, construction, CO, or energization record was located in the reviewed public surfaces.",
+  "actions": [
+    {
+      "date": "2024-08-29",
+      "date_precision": "day",
+      "government_body": "South Carolina Governor / state economic-development announcement",
+      "action_type": "state/company project announcement",
+      "result_status": "State announcement says Meta established its first South Carolina operation with a new 715,000-square-foot Aiken County data center, with $800 million investment and 100 operational jobs. It does not constitute local zoning or building approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://governor.sc.gov/news/2024-08/meta-selects-aiken-county-first-south-carolina-data-center",
+      "access_caveat": "State announcement; county approval, permit, construction, and service records were not attached.",
+      "evidence_note": "Announcement kept separate from land-use/building approval."
+    },
+    {
+      "date": "2025-01-13",
+      "date_precision": "day",
+      "government_body": "South Carolina state budget document",
+      "action_type": "state economic-development context",
+      "result_status": "FY26 executive-budget material lists Meta's Aiken project as an $800 million/100-job economic-development announcement. It is budget context, not a project permit or vote.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://governor.sc.gov/sites/governor/files/Documents/Executive-Budget/FY26%20Executive%20Budget%20Book%20-%20FINAL%20WEB%20VERSION.pdf",
+      "access_caveat": "Budget document does not supply local project approvals or physical milestones.",
+      "evidence_note": "State context only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "SC-001",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "SC-001",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [
+      "US-SC-META-AIKEN-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

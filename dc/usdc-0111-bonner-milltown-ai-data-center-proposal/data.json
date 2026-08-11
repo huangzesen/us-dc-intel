@@ -1,0 +1,69 @@
+{
+  "master_id": "USDC-0111",
+  "canonical_project": "Bonner/Milltown AI data-center proposal",
+  "aliases": [
+    "Bonner data center",
+    "Bonner/Milltown AI data-center proposal",
+    "Krambu proposal",
+    "old Bonner lumber mill site"
+  ],
+  "location": {
+    "city": "Bonner/Milltown",
+    "county": "Missoula",
+    "state": "MT"
+  },
+  "phase3_stable_id": "US-MT-BONNER-MISSOULA-2026",
+  "status_as_of_cutoff": "Missoula County announced interim zoning to pause new or expanded data centers outside city limits, and the county’s public information page records the July 9 hearing/action context. Reporting says the property owner withdrew support before the pause; no final project land-use approval, building permit, construction, or utility record was located.",
+  "actions": [
+    {
+      "date": "2026-06-29",
+      "date_precision": "day",
+      "government_body": "Missoula County Commissioners",
+      "action_type": "interim-zoning public-hearing notice",
+      "result_status": "Missoula County announced a July 9 public hearing to consider interim zoning that would pause development or expansion of data centers while regulations were updated.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.missoulacounty.gov/news/missoula-county-commissioners-to-consider-interim-zoning-for-data-centers/",
+      "access_caveat": "Notice sets a hearing; it is not itself the final moratorium action.",
+      "evidence_note": "County policy action affecting the proposal’s pending status."
+    },
+    {
+      "date": "2026-07-09",
+      "date_precision": "day",
+      "government_body": "Missoula County Commissioners",
+      "action_type": "interim zoning / moratorium",
+      "result_status": "The county’s public information update states commissioners voted to establish a moratorium on permitting new or expanded data centers outside city limits, effective July 9, 2026 through July 8, 2027 or replacement zoning.",
+      "vote_tally": "reported unanimous; official vote tally document not retrieved",
+      "case_or_ordinance_permit_number": "not published in reviewed official page",
+      "primary_url": "https://missoulacountyvoice.com/data-center-interim-zoning",
+      "access_caveat": "The accessible county information page reports the outcome; the signed ordinance/minutes were not retrieved.",
+      "evidence_note": "Moratorium is not a decision approving or denying this individual proposal."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "Missoula County Planning and Development",
+      "action_type": "Bonner project-record search (negative)",
+      "result_status": "No final land-use decision, permit, parcel record, construction start, stormwater/water, or utility/interconnection record for the Bonner proposal was located in the reviewed county and Montana DEQ surfaces.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://live.web.missoula.co/",
+      "access_caveat": "County portal is interactive; project application/withdrawal documents were not exposed in the reviewed surface.",
+      "evidence_note": "Negative search only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-MT-BONNER-MISSOULA-2026",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-MT-BONNER-MISSOULA-2026",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

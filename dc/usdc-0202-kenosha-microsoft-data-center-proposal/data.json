@@ -1,0 +1,42 @@
+{
+  "master_id": "USDC-0202",
+  "canonical_project": "Kenosha Microsoft data center proposal",
+  "aliases": [
+    "Kenosha Microsoft data center proposal"
+  ],
+  "location": {
+    "city": "Kenosha area",
+    "county": "Kenosha",
+    "state": "WI"
+  },
+  "phase3_stable_id": "WI-KENOSHA-MICROSOFT-UNNAMED",
+  "status_as_of_cutoff": "Announced/under review; no final site, applicant filing, permit, vote, utility allocation, or construction record was located.",
+  "actions": [
+    {
+      "date": "2026-06-26",
+      "date_precision": "day",
+      "government_body": "WGTD / local reporting (not a government action)",
+      "action_type": "proposal-status report",
+      "result_status": "Local reporting says a proposed Kenosha data center remains under discussion. It does not identify a final parcel or permit and is not treated as approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.wgtd.org/news/proposed-kenosha-data-center-remains-table",
+      "access_caveat": "Press report; the reported NDA/confidentiality limits official identification.",
+      "evidence_note": "Discovery/status lead only; no action inferred."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "WI-KENOSHA-MICROSOFT-UNNAMED",
+    "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
+    "regional_id": "WI-KENOSHA-MICROSOFT-UNNAMED",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

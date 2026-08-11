@@ -1,0 +1,70 @@
+{
+  "master_id": "USDC-0072",
+  "canonical_project": "Applied Digital Delta Forge 1",
+  "aliases": [
+    "Applied Digital Delta Forge 1",
+    "Applied Digital Toronto-area data center",
+    "Delta Forge South Dakota lead",
+    "Deuel County 430 MW campus",
+    "Deuel County 430MW campus"
+  ],
+  "location": {
+    "city": "Deuel County site",
+    "county": "Deuel County",
+    "state": "SD"
+  },
+  "phase3_stable_id": "SD-DEUEL-APPLIED-DELTA-FORGE",
+  "status_as_of_cutoff": "Deuel County's official December 16, 2025 record discusses an Applied Digital AI data center east of Toronto, including $4.6–$5.2 billion cost and approximately 430 MW peak demand. Later regional analysis says the project was withdrawn after the 2026 legislative session, while Applied Digital's April 2026 investor release does not confirm an active South Dakota build. No official withdrawal resolution/cancellation, building permit, construction, utility, inspection, CO, energization, commissioning, or service record was located.",
+  "actions": [
+    {
+      "date": "2025-12-16",
+      "date_precision": "day",
+      "government_body": "Deuel County Board of Commissioners",
+      "action_type": "county meeting record / project discussion",
+      "result_status": "Official minutes record discussion of an AI data center proposed east of Toronto by Applied Digital, with $4.6–$5.2 billion construction cost and approximately 430 MW on the hottest day / 380 MW normally. The minutes do not show a final development approval or permit.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.deuelcountysd.com/_files/ugd/1bce45_74002fe687464440ae3316875fd5059c.pdf",
+      "access_caveat": "Meeting discussion is not a vote, permit, or construction authorization.",
+      "evidence_note": "Official county record; reported scope values retained."
+    },
+    {
+      "date": "2026-04-08",
+      "date_precision": "day",
+      "government_body": "Applied Digital",
+      "action_type": "company investor update",
+      "result_status": "Applied Digital's fiscal Q3 2026 release discusses its operating and planned data-center portfolio but does not confirm an active South Dakota Delta Forge build or provide a withdrawal resolution.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://ir.applieddigital.com/news-events/press-releases/detail/148/applied-digital-reports-fiscal-third-quarter-2026-results",
+      "access_caveat": "Company omission is not proof of withdrawal or cancellation.",
+      "evidence_note": "Company status context preserved without inference."
+    },
+    {
+      "date": "2026-06-01",
+      "date_precision": "day",
+      "government_body": "Dakota Institute / regional analysis",
+      "action_type": "reported withdrawal status",
+      "result_status": "Regional analysis states that the Applied Digital Deuel County project was withdrawn after the 2026 legislative session. No official county withdrawal resolution or permit cancellation was located.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.dakotainstitute.org/research_analysis/the-price-of-power-data-centers-and-south-dakotas-energy-future/",
+      "access_caveat": "Secondary analysis; withdrawal is reported, not treated as an official disposition.",
+      "evidence_note": "Contradictory status evidence kept separate from the official county record."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "SD-DEUEL-APPLIED-DELTA-FORGE",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "SD-DEUEL-APPLIED-DELTA-FORGE",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,94 @@
+{
+  "master_id": "USDC-0087",
+  "canonical_project": "CoreSite Silicon Valley SV9 expansion",
+  "aliases": [
+    "CEQ2020-01075",
+    "CoreSite SV9",
+    "CoreSite Silicon Valley SV9 expansion",
+    "PLN2019-14118",
+    "Silicon Valley campus expansion"
+  ],
+  "location": {
+    "city": "Santa Clara",
+    "county": "Santa Clara County",
+    "state": "CA"
+  },
+  "phase3_stable_id": "US-CA-CORESITE-SV9-2025",
+  "status_as_of_cutoff": "Santa Clara official records verify planning, architectural, rezoning, and Silicon Valley Power substation actions. CoreSite announced completion on 2025-07-30 and current company materials identify a 228,000-plus-square-foot SV9 facility. The reviewed public trail does not include the building permit, final inspection, CO, or a utility energization/commissioning record; company completion is therefore labeled as a company claim.",
+  "actions": [
+    {
+      "date": "2019-09-18",
+      "date_precision": "day",
+      "government_body": "City of Santa Clara Development Review",
+      "action_type": "architectural/rezone application filed",
+      "result_status": "The official planning report states that CoreSite Real Estate SV9 L.P. filed the application for the 3.9-acre site on 2019-09-18, proposing a four-story data center, substation, and related improvements.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PLN2019-14118; CEQ2020-01075",
+      "primary_url": "https://santaclara.legistar.com/LegislationDetail.aspx?GUID=24166224-E88A-4A24-B515-7B766A08AAF9&ID=5065823&Options=&Search=",
+      "access_caveat": "Application filing is not final approval, a building permit, or construction start.",
+      "evidence_note": "Official applicant and parcel trail."
+    },
+    {
+      "date": "2021-04-14",
+      "date_precision": "day",
+      "government_body": "City of Santa Clara Planning Commission",
+      "action_type": "rezoning / mitigated negative declaration / architectural design review",
+      "result_status": "The Legistar history records four Planning Commission actions as Approved/Pass for the CoreSite SV9 rezone and related environmental/design materials; the report describes a proposed 250,000-square-foot four-story building and 48 MW SVP connection.",
+      "vote_tally": "not published in the accessible history extract",
+      "case_or_ordinance_permit_number": "File 21-112; PLN2019-14118; CEQ2020-01075",
+      "primary_url": "https://santaclara.legistar.com/LegislationDetail.aspx?GUID=4CF0AFBF-D83A-4C68-8E10-739B02C75B33&ID=4905309",
+      "access_caveat": "The page exposes action results and attachments but not a complete roll-call tally in the reviewed extract.",
+      "evidence_note": "Planning Commission approval history; distinct from the later City Council rezone and SVP substation agreement."
+    },
+    {
+      "date": "2021-06-15",
+      "date_precision": "day",
+      "government_body": "City of Santa Clara City Council",
+      "action_type": "rezoning / land-use approval",
+      "result_status": "The city's 2022 SVP report states that City Council approved the CoreSite SV9 rezoning on 2021-06-15, allowing the data-center project subject to the described conditions.",
+      "vote_tally": "not published in the cited report",
+      "case_or_ordinance_permit_number": "CoreSite SV9; PLN2019-14118",
+      "primary_url": "https://santaclara.legistar.com/LegislationDetail.aspx?GUID=42334724-887E-427D-B743-30E6EA887BF4&ID=5530847&Options=&Search=",
+      "access_caveat": "The cited official report confirms the date and action but the underlying council ordinance/resolution was not separately retrieved.",
+      "evidence_note": "Verified land-use approval; not building permit or occupancy evidence."
+    },
+    {
+      "date": "2022-03-22",
+      "date_precision": "day",
+      "government_body": "City of Santa Clara City Council and Authorities Concurrent / Silicon Valley Power",
+      "action_type": "utility substation agreement",
+      "result_status": "Council approved the Stender Way Junction Substation Agreement with CoreSite Real Estate SV9 L.P. The report states CoreSite requested 60 kV service, anticipated maximum demand of 49 MVA, and would fund the substation; the record is a utility agreement, not proof of energization.",
+      "vote_tally": "Approved; roll-call tally not published in the accessible page",
+      "case_or_ordinance_permit_number": "File 22-1704; Stender Way Junction Substation Agreement",
+      "primary_url": "https://santaclara.legistar.com/LegislationDetail.aspx?GUID=42334724-887E-427D-B743-30E6EA887BF4&ID=5530847&Options=&Search=",
+      "access_caveat": "The official report describes planned service and developer contributions; it does not establish substation completion, power-on, or customer load.",
+      "evidence_note": "Utility context/contractual action; no energization inferred."
+    },
+    {
+      "date": "2025-07-30",
+      "date_precision": "day",
+      "government_body": "Not a government action; CoreSite/American Tower",
+      "action_type": "company completion announcement",
+      "result_status": "CoreSite announced completion of SV9, describing more than 228,000 square feet at 2915 Stender Way and AI-ready service capability. No public CO or final inspection was located to independently verify service commencement.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.coresite.com/news/coresite-expands-silicon-valley-campus-with-completion-of-228000-square-foot-ai-ready-data-center",
+      "access_caveat": "Company completion claim; the official city/utility records reviewed do not provide a matching CO or energization record.",
+      "evidence_note": "Completion announcement kept separate from government evidence."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-CA-CORESITE-SV9-2025",
+    "phase3_source_file": "phase3/county_ca_or.json",
+    "regional_id": "US-CA-CORESITE-SV9-2025",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

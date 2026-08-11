@@ -1,0 +1,43 @@
+{
+  "master_id": "USDC-0166",
+  "canonical_project": "QTS Irving DC3",
+  "aliases": [
+    "QTS Irving DC3"
+  ],
+  "location": {
+    "city": "Irving",
+    "county": "Dallas",
+    "state": "Texas"
+  },
+  "phase3_stable_id": "US-TX-QTS-IRVING-DC3-2024",
+  "status_as_of_cutoff": "Texas Comptroller qualifying-data-center registration and QTS facility material are found; project-specific municipal permit and construction history was not found.",
+  "actions": [
+    {
+      "id": "A33",
+      "date": "2024-02-09",
+      "body": "Texas Comptroller of Public Accounts",
+      "meeting_date": null,
+      "action_type": "qualifying data-center state registration",
+      "result_or_status": "Comptroller list records QTS Irving DC3 Data Center effective 2024-02-09, with QTS Irving DC3, LLC and Microsoft Corporation registration fields.",
+      "vote_tally": null,
+      "case_or_number": "DC575604-OW1; DC575604-OC1",
+      "primary_url": "https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php",
+      "access_caveat": "State tax-registration list; it is not a local zoning or building-permit approval.",
+      "notes": "Tax-incentive/registration action."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-TX-QTS-IRVING-DC3-2024",
+    "phase3_source_file": "phase3/county_tx.json",
+    "regional_id": "US-TX-QTS-IRVING-DC3-2024",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

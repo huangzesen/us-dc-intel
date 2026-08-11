@@ -1,0 +1,60 @@
+{
+  "master_id": "USDC-0153",
+  "canonical_project": "Fermi America Project Matador HyperGrid",
+  "aliases": [
+    "Fermi Amarillo campus",
+    "Fermi America Project Matador HyperGrid",
+    "Project Matador"
+  ],
+  "location": {
+    "city": "Amarillo",
+    "county": "Carson",
+    "state": "Texas"
+  },
+  "phase3_stable_id": "US-TX-FERMI-MATADOR-CARSON-2025",
+  "status_as_of_cutoff": "TCEQ air permits issued for the onsite power plant; data-center construction and local land-use/utility approvals remain unverified.",
+  "actions": [
+    {
+      "id": "A13",
+      "date": "2025-08-01",
+      "body": "Texas Commission on Environmental Quality",
+      "meeting_date": null,
+      "action_type": "air construction-permit application received / technical review",
+      "result_or_status": "TCEQ technical review records Project Matador's greenfield natural-gas power plant for an onsite hyperscale data-center campus; application received 2025-08-01.",
+      "vote_tally": null,
+      "case_or_number": "Project 396274; permits 181009, PSDTX1670, GHGPSDTX254; RN112258678",
+      "primary_url": "https://records.tceq.texas.gov/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=8281238&dID=9562398",
+      "access_caveat": "Official technical-review record; it describes the power plant and does not by itself approve the data-center buildings.",
+      "notes": "Environmental / onsite power action."
+    },
+    {
+      "id": "A14",
+      "date": "2026-02-27",
+      "body": "Texas Commission on Environmental Quality",
+      "meeting_date": null,
+      "action_type": "air construction and operation permit final action",
+      "result_or_status": "TCEQ final action issued an air-quality permit authorizing construction and operation of Fermi America Project Matador; permit expiration stated as 2036-02-25.",
+      "vote_tally": null,
+      "case_or_number": "Permits 181009, PSDTX1670, GHGPSDTX254",
+      "primary_url": "https://records.tceq.texas.gov/cs/idcplg?IdcService=GET_FILE&allowInterrupt=1&dDocName=8281239&dID=9562400",
+      "access_caveat": "Official permit record; the PDF's scanned issuance date is difficult to read, while TCEQ metadata identifies the final action date as 2026-02-27.",
+      "notes": "Permit authorizes the power plant, not a conclusion that the data-center campus is built or energized."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-TX-FERMI-MATADOR-CARSON-2025",
+    "phase3_source_file": "phase3/county_tx.json",
+    "regional_id": "US-TX-FERMI-MATADOR-CARSON-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-TX-FERMI-MATADOR-AMARILLO-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

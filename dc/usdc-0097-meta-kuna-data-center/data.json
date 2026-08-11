@@ -1,0 +1,67 @@
+{
+  "master_id": "USDC-0097",
+  "canonical_project": "Meta Kuna data center",
+  "aliases": [
+    "Meta Idaho data center",
+    "Meta Kuna data center"
+  ],
+  "location": {
+    "city": "Kuna",
+    "county": "Ada",
+    "state": "ID"
+  },
+  "phase3_stable_id": "US-ID-META-KUNA-2022",
+  "status_as_of_cutoff": "Meta’s official community pages report a 2022 groundbreak/announcement and construction ramp-up in 2023. No final building permit, inspection/CO, Idaho Power energization, or operational-service record was located; the Phase 2 end-2026 target is not treated as a completion fact.",
+  "actions": [
+    {
+      "date": "2022",
+      "date_precision": "year",
+      "government_body": "Meta Data Centers (company source; not a government body)",
+      "action_type": "project announcement / construction-start context",
+      "result_status": "Meta announced the Kuna data center and said construction would proceed; the location and project identity are company-reported.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://datacenters.atmeta.com/2022/02/hello-kuna/",
+      "access_caveat": "Company announcement; exact groundbreak day and local permit number are not published there.",
+      "evidence_note": "Announcement and anticipated construction, not proof of permit or service."
+    },
+    {
+      "date": "2023-10-12",
+      "date_precision": "day",
+      "government_body": "Meta Data Centers (company source; not a government body)",
+      "action_type": "construction progress",
+      "result_status": "Meta reported that construction was ramping up and named local partners including the City of Kuna and Idaho Power.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://datacenters.atmeta.com/2023/10/ramping-up-construction-on-the-kuna-data-center/",
+      "access_caveat": "Operator update; no permit, inspection, CO, or energization identifier is published.",
+      "evidence_note": "Construction report only."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "Ada County Development Services / City of Kuna / Idaho Power",
+      "action_type": "permit and utility search (negative)",
+      "result_status": "The reviewed Ada County permitting, Kuna archive, and Idaho Power public search surfaces did not expose a final Meta building permit, CO, project-specific interconnection, or energization date.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://adacounty.id.gov/developmentservices/permitting-division/",
+      "access_caveat": "Jurisdictions use separate systems; the county page notes other jurisdictions may hold the record.",
+      "evidence_note": "Negative search only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-ID-META-KUNA-2022",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-ID-META-KUNA-2022",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

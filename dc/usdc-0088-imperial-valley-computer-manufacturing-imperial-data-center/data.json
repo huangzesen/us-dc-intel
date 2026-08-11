@@ -1,0 +1,70 @@
+{
+  "master_id": "USDC-0088",
+  "canonical_project": "Imperial Valley Computer Manufacturing Imperial Data Center",
+  "aliases": [
+    "Aten and Clark complex",
+    "IVDC",
+    "Imperial Data Center",
+    "Imperial Valley Computer Manufacturing Imperial Data Center",
+    "MERG00191"
+  ],
+  "location": {
+    "city": "Imperial",
+    "county": "Imperial County",
+    "state": "CA"
+  },
+  "phase3_stable_id": "US-CA-IVCM-IMPERIAL-2025",
+  "status_as_of_cutoff": "A large 330 MW/approximately 950,000-square-foot proposal is described by a City of Imperial notice, but the county's official December 2025 record says the lot-merger approval motion failed 5-2 for lack of six affirmative votes and that the data center itself was not before the commission. A later discussion motion passed 7-0. Construction, final land-use entitlement, building/grading completion, air/water/IID permits, CO, energization, and commissioning were not verified.",
+  "actions": [
+    {
+      "date": "2025-12-18",
+      "date_precision": "day",
+      "government_body": "Imperial County Planning Commission",
+      "action_type": "lot merger / CEQA categorical exemption / zoning consistency proceeding",
+      "result_status": "The commission considered Lot Merger #00191 concerning consolidation of five parcels at 2304 Clark Road. The motion to approve received Yes 5, No 2, with 3 absent/left, and failed because county policy required six affirmative votes. A separate motion for further discussion with the cities and community passed with seven present commissioners voting affirmatively. The county expressly says no data-center construction or operation entitlement was considered or approved.",
+      "vote_tally": "lot-merger approval motion failed 5 yes / 2 no / 3 absent or left; follow-up discussion motion passed 7-0 among those present",
+      "case_or_ordinance_permit_number": "Lot Merger #00191; MERG00191",
+      "primary_url": "https://imperialcounty.org/2025/12/plancommlotmerger/",
+      "access_caveat": "County's public explanation is the accessible record used here; it says the matter would proceed through an appeal process, but a later Board of Supervisors construction entitlement was not located.",
+      "evidence_note": "Negative/failed vote preserved; no approval inferred from majority support."
+    },
+    {
+      "date": null,
+      "date_precision": "undated",
+      "government_body": "City of Imperial",
+      "action_type": "public project notice / county permitting context",
+      "result_status": "The city notice describes a proposed approximately 950,000-square-foot, 330 MW data center, a 330 MW emergency-generator building, and an 862 MWh energy-storage system on approximately 74 acres, and states that the county—not the city—is the permitting authority. The notice links a grading permit BP63316 and other project documents but does not itself establish final approval or construction.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "BP63316 linked; county project documents linked as MERG00191",
+      "primary_url": "https://www.imperial.ca.gov/276/Data-Center-Info",
+      "access_caveat": "The city page is a public-information and comment notice, not the county's final entitlement or a permit register; linked PDFs were not all independently retrievable in the reviewed access path.",
+      "evidence_note": "Government context and access trail; claimed scale is not treated as approved capacity."
+    },
+    {
+      "date": "2026-06-17",
+      "date_precision": "day",
+      "government_body": "Not a government action; local reporting",
+      "action_type": "moratorium report",
+      "result_status": "Local reporting described Imperial County's temporary data-center moratorium after public opposition. The underlying adopted ordinance and its effect on this proposal were not retrieved in an official county record, so the report is retained as context only.",
+      "vote_tally": "not used; official ordinance not located",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.kpbs.org/news/politics/2026/06/17/after-months-of-public-pressure-imperial-county-passes-temporary-moratorium-on-data-centers",
+      "access_caveat": "Secondary source; no county vote or ordinance number is inferred from the report.",
+      "evidence_note": "Contestation context, not proof of denial or project disposition."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-CA-IVCM-IMPERIAL-2025",
+    "phase3_source_file": "phase3/county_ca_or.json",
+    "regional_id": "US-CA-IVCM-IMPERIAL-2025",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

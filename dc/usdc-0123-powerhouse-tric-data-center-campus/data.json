@@ -1,0 +1,55 @@
+{
+  "master_id": "USDC-0123",
+  "canonical_project": "PowerHouse TRIC data-center campus",
+  "aliases": [
+    "PowerHouse TRIC data-center campus",
+    "PowerHouse Tahoe Reno Industrial Center"
+  ],
+  "location": {
+    "city": "Sparks area",
+    "county": "Storey",
+    "state": "NV"
+  },
+  "phase3_stable_id": "US-NV-POWERHOUSE-TRIC-2024",
+  "status_as_of_cutoff": "State-published material describes a PowerHouse TRIC shell campus, while the reviewed Storey County and utility search surfaces did not yield a project-specific permit, construction record, service date, or energization record. Active shell-construction language remains source-limited.",
+  "actions": [
+    {
+      "date": "2024-06",
+      "date_precision": "month",
+      "government_body": "Nevada State Library and Archives / state publication",
+      "action_type": "economic-development / project description",
+      "result_status": "The Nevada public report described a 900,000-square-foot PowerHouse shell campus in TRIC. It is a state publication, but not a permit or certificate of completion.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://epubs.nsla.nv.gov/statepubs/epubs/62184-2024.pdf",
+      "access_caveat": "The report is a broad state publication and does not publish a Storey permit number or service date.",
+      "evidence_note": "Government publication; project-stage evidence is descriptive."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "Storey County / NV Energy",
+      "action_type": "permit, inspection, and utility search (negative)",
+      "result_status": "No project-specific Storey County land-use/building permit, inspection/CO, NV Energy interconnection, energization, or first-service record was located.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.storeycounty.org/",
+      "access_caveat": "County and utility public surfaces do not expose a matching record in the reviewed search.",
+      "evidence_note": "Negative search only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-NV-POWERHOUSE-TRIC-2024",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-NV-POWERHOUSE-TRIC-2024",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

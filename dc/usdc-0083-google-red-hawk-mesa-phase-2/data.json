@@ -1,0 +1,60 @@
+{
+  "master_id": "USDC-0083",
+  "canonical_project": "Google Red Hawk Mesa Phase 2",
+  "aliases": [
+    "Google Mesa campus expansion",
+    "Google Red Hawk Mesa Phase 2",
+    "Google Red Hawk data center Phase 2",
+    "Project Red Hawk",
+    "Red Hawk data center"
+  ],
+  "location": {
+    "city": "Mesa",
+    "county": "Maricopa",
+    "state": "AZ"
+  },
+  "phase3_stable_id": "US-AZ-GOOGLE-RED-HAWK-MESA-2024",
+  "status_as_of_cutoff": "Phase 2 remains a provisional planning lead. A Mesa record for Redhawk Phase 3 was found, but it is not treated as Phase 2 approval.",
+  "actions": [
+    {
+      "date": "2025-01-24",
+      "date_precision": "day",
+      "government_body": null,
+      "action_type": "trade discovery lead",
+      "result_status": "The trade inventory lists Google Red Hawk Mesa Phase 2 and an estimated 330 MW. No primary Phase 2 permit or announcement was found.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://img.electricalmarketing.com/files/base/ebm/electricalmarketing/document/2025/01/679293d5d67117ae43d2b2b2-em01242025_digitalfinal.pdf",
+      "access_caveat": "Discovery-only trade source; capacity and phase identity are unverified.",
+      "evidence_note": "Body/context retained from prior file: Electrical industry trade publication."
+    },
+    {
+      "date": "2025-10-14",
+      "date_precision": "day",
+      "government_body": "City of Mesa Design Review Board",
+      "action_type": "related design-review record",
+      "result_status": "Mesa file DSN 25043 concerns Redhawk Phase 3 at Sossaman and Elliot roads. Because the record says Phase 3, it is retained as a possible related context and not counted as approval of the Phase 2 candidate.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DSN 25043; DRB25-00686",
+      "primary_url": "https://mesa.legistar.com/LegislationDetail.aspx?GUID=30771294-571B-4D53-89AA-32023D4D2DF8&ID=7698437&Options=&Search=",
+      "access_caveat": "Official Mesa record, but phase mismatch prevents treating it as the candidate’s approval.",
+      "evidence_note": "Body/context retained from prior file: City of Mesa Design Review Board."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-AZ-GOOGLE-RED-HAWK-MESA-2024",
+    "phase3_source_file": "phase3/county_ok_az_ut.json",
+    "regional_id": "US-AZ-GOOGLE-RED-HAWK-MESA-2024",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-AZ-GOOGLE-RED-HAWK-MESA-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,73 @@
+{
+  "master_id": "USDC-0062",
+  "canonical_project": "Vantage OH2 / Millersport campus / Fairfield Energy Center",
+  "aliases": [
+    "Fairfield Energy Center",
+    "Millersport campus",
+    "Vantage OH2",
+    "Vantage OH2 / Millersport campus / Fairfield Energy Center"
+  ],
+  "location": {
+    "city": "Millersport",
+    "county": "Fairfield",
+    "state": "OH"
+  },
+  "phase3_stable_id": null,
+  "status_as_of_cutoff": null,
+  "actions": [
+    {
+      "date": "2025-08-05",
+      "body": "Fairfield County Regional Planning Commission",
+      "action_type": "intergovernmental planning MOU",
+      "exact_result_status": "RPC minutes record a motion to approve the Village of Millersport MOU for plan review of approximately 496 acres after annexation; motion passed. The minutes do not publish a numeric vote tally.",
+      "vote_tally": "passed; numeric tally not published",
+      "case_or_permit_number": null,
+      "primary_url": "https://www.fairfieldcountyohio.gov/rpc/pdf/AGENDA-SEPTEMBER.2025-RPC-MEETING.pdf",
+      "access_caveat": "Planning/plan-review coordination is not a data-center building permit."
+    },
+    {
+      "date": "2025-10-07",
+      "body": "Fairfield County Board of Commissioners / Village of Millersport / Vantage Data Centers",
+      "action_type": "development agreement and local incentives",
+      "exact_result_status": "Official county packet contains the development agreement for one or more data centers and power facilities, with 15-year 100% CRA and enterprise-zone abatements and a 30-year TIF described in the agreement.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://fairfieldcountyohio.gov/COMMISH/minutes/10.07.25-meeting-minutes.pdf",
+      "access_caveat": "The indexed PDF contains agreement text; the exact adopting resolution number and roll call were not visible in the accessible extract."
+    },
+    {
+      "date": "2025-10-21",
+      "body": "Fairfield County Board of Commissioners",
+      "action_type": "enterprise-zone and escrow agreement action",
+      "exact_result_status": "County meeting materials identify resolutions concerning an Enterprise Zone agreement with Vantage and a related escrow agreement with the Village, North Valley Bank, and Vantage; numeric vote tally was not located.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.fairfieldcountyohio.gov/COMMISH/minutes/10.21.25-meeting-minutes.pdf",
+      "access_caveat": "The official county minutes are accessible but the indexed text does not expose each resolution number/result line."
+    },
+    {
+      "date": "2025-10-28",
+      "body": "Fairfield County Board of Commissioners",
+      "action_type": "meeting record / resolution review",
+      "exact_result_status": "County minutes discuss the enterprise agreement as allowing Vantage to power the data center without taking electricity from the grid and identify the related escrow and Ohio Power road-use resolutions; this is utility/development context, not a building permit.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.fairfieldcountyohio.gov/COMMISH/minutes/10.28.25-meeting-minutes.pdf",
+      "access_caveat": "The accessible minutes summary does not provide a numeric tally for the data-center-related resolutions."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "OH-MILLERSPORT-VANTAGE-OH2",
+    "phase3_source_file": "phase3/county_oh_in.json",
+    "regional_id": "OH-MILLERSPORT-VANTAGE-OH2",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

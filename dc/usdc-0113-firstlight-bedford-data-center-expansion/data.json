@@ -1,0 +1,44 @@
+{
+  "master_id": "USDC-0113",
+  "canonical_project": "FirstLight Bedford data-center expansion",
+  "aliases": [
+    "Bedford data-center expansion",
+    "FirstLight Bedford data-center expansion",
+    "FirstLight Bedford, NH"
+  ],
+  "location": {
+    "city": "Bedford",
+    "county": "Hillsborough County",
+    "state": "NH"
+  },
+  "phase3_stable_id": "US-NH-FIRSTLIGHT-BEDFORD-2026",
+  "status_as_of_cutoff": "Company-announced expansion; construction, local approval, permit, utility, energization, commissioning, and service were not verified. Capacity, building count, and completion date were not disclosed.",
+  "actions": [
+    {
+      "date": "2026-03-10",
+      "date_precision": "day",
+      "government_body": "Not a government action; FirstLight",
+      "action_type": "expansion announcement",
+      "result_status": "FirstLight announced a significant Bedford data-center expansion without publishing a capacity, building, construction-start, or completion record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.firstlight.net/firstlight-expands-bedford-nh-data-center/",
+      "access_caveat": "Company announcement; no government action is inferred.",
+      "evidence_note": "Announcement context only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-NH-FIRSTLIGHT-BEDFORD-2026",
+    "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
+    "regional_id": "US-NH-FIRSTLIGHT-BEDFORD-2026",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

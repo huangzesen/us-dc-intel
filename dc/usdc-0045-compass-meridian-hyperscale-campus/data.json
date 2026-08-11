@@ -1,0 +1,68 @@
+{
+  "master_id": "USDC-0045",
+  "canonical_project": "Compass Meridian hyperscale campus",
+  "aliases": [
+    "Compass Datacenters Jan I LLC",
+    "Compass Meridian hyperscale campus",
+    "Lauderdale County Compass campus"
+  ],
+  "location": {
+    "city": "Meridian",
+    "county": "Lauderdale County",
+    "state": "MS"
+  },
+  "phase3_stable_id": "MS-001",
+  "status_as_of_cutoff": "State announcement and Mississippi PSC special-contract approval support development; Compass’s current market page says the Meridian campus broke ground in 2025. No building-by-building permit, CO, or energization register was located.",
+  "actions": [
+    {
+      "date": "2025-01-09",
+      "date_precision": "day",
+      "government_body": "Office of the Governor of Mississippi / Mississippi Development Authority",
+      "action_type": "state economic-development announcement",
+      "result_status": "Mississippi announced Compass’s eight-building, eight-year Lauderdale County campus and approximately $10 billion investment; the announcement does not publish a local zoning or building vote.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://governorreeves.ms.gov/compass-datacenters-project-generates-10-billion-investment-in-lauderdale-county/",
+      "access_caveat": "State announcement and assistance are not a county site-plan or building permit.",
+      "evidence_note": "State economic-development action is separated from the utility commission record."
+    },
+    {
+      "date": "2025-02-07",
+      "date_precision": "day",
+      "government_body": "Mississippi Public Service Commission",
+      "action_type": "special utility contract approval",
+      "result_status": "The PSC announced approval of a special contract between Mississippi Power Company and Compass Datacenters Jan I LLC for the planned eight-building Lauderdale County campus.",
+      "vote_tally": "not published in the accessible press release",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.psc.ms.gov/sites/default/files/2025-02/PressReleaseFeb2025.pdf",
+      "access_caveat": "The accessible record is a PSC press release; the underlying contract/order and any local permit files were not linked.",
+      "evidence_note": "Utility contract approval is not zoning, building approval, CO, or proof of energized IT load."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "Compass Datacenters (company market page; non-government)",
+      "action_type": "company construction-status statement",
+      "result_status": "Compass’s market page states Meridian is a 320 MW campus and that it broke ground in 2025; no building-level government completion or energization evidence was found.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.compassdatacenters.com/data-center-markets/",
+      "access_caveat": "Company page is not a permit, inspection, CO, or utility energization record.",
+      "evidence_note": "Groundbreaking statement is not used to infer a local vote or operational status."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MS-001",
+    "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
+    "regional_id": "MS-001",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

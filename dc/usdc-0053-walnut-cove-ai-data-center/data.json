@@ -1,0 +1,56 @@
+{
+  "master_id": "USDC-0053",
+  "canonical_project": "Walnut Cove AI data center",
+  "aliases": [
+    "Stokes County AI data center",
+    "Walnut Cove 1,800-acre proposal",
+    "Walnut Cove AI data center"
+  ],
+  "location": {
+    "city": "Walnut Cove",
+    "county": "Stokes County",
+    "state": "NC"
+  },
+  "phase3_stable_id": "NC-004",
+  "status_as_of_cutoff": "Press reports conflict: one reported a January 2026 rezoning approval and another reported that a key zoning approval was voided and the process restarted in April. The official ordinance, docket, vote tally, current zoning status, permits, construction, and utility records were not located; no approval or construction is inferred.",
+  "actions": [
+    {
+      "date": "2026-01-13",
+      "date_precision": "day",
+      "government_body": "Stokes County Board of Commissioners (reported by Spectrum Local News)",
+      "action_type": "reported rezoning",
+      "result_status": "Press report said commissioners approved rezoning for an AI data center. The underlying ordinance/minutes and vote tally were not located in the official county search surface.",
+      "vote_tally": "not published in accessible official record",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://spectrumlocalnews.com/nc/charlotte/news/2026/01/13/stokes-county-approves-rezoning-for-ai-data-center",
+      "access_caveat": "Press report only; the headline/report is not used to infer an official vote tally.",
+      "evidence_note": "Reported action, not verified government record."
+    },
+    {
+      "date": "2026-04-16",
+      "date_precision": "day",
+      "government_body": "Stokes County zoning process (reported by Spectrum Local News)",
+      "action_type": "reported legal/status change",
+      "result_status": "Press report said a key zoning approval was voided and the county process restarted amid litigation. The court docket and official county action were not located in the reviewed accessible search.",
+      "vote_tally": "not published",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://spectrumlocalnews.com/nc/triad/news/2026/04/16/stokes-county-data-center-lawsuit",
+      "access_caveat": "Press report; no legal disposition or current approval is inferred.",
+      "evidence_note": "Reported contradiction/reopening, not a verified permit or construction event."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "NC-004",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "NC-004",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

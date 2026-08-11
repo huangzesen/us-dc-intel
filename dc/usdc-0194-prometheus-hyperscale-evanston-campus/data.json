@@ -1,0 +1,70 @@
+{
+  "master_id": "USDC-0194",
+  "canonical_project": "Prometheus Hyperscale Evanston campus",
+  "aliases": [
+    "Prometheus Hyperscale Evanston campus",
+    "Prometheus Wyoming campus",
+    "Wyoming Hyperscale Evanston"
+  ],
+  "location": {
+    "city": "Evanston",
+    "county": "Uinta",
+    "state": "WY"
+  },
+  "phase3_stable_id": "US-WY-PROMETHEUS-EVANSTON-2026",
+  "status_as_of_cutoff": "Wyoming Business Council material describes a planned 1.2 GW Evanston campus certified under the state data-center program context. No Uinta County land-use decision, permit, parcel, utility, construction, inspection/CO, or energization record was located; the state material does not establish physical start.",
+  "actions": [
+    {
+      "date": "2022",
+      "date_precision": "year",
+      "government_body": "Wyoming Business Council",
+      "action_type": "data-center program certification context",
+      "result_status": "WBC material states Prometheus Hyperscale centers were certified in 2022 as Wyoming Hyperscale Whitebox based on planned build-out and describes a 1.2 GW Evanston plan.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://wyoleg.gov/InterimCommittee/2026/09-202606049-05WBCMaterialsPreparedforJointMinerals06052026.pdf",
+      "access_caveat": "The material is retrospective and does not publish a specific Evanston certification order or construction date.",
+      "evidence_note": "State program/planning evidence only."
+    },
+    {
+      "date": "2026-06-05",
+      "date_precision": "day",
+      "government_body": "Wyoming Business Council",
+      "action_type": "state project-plan material",
+      "result_status": "The WBC material repeats that Prometheus plans a 1.2 GW Evanston campus; it does not state that construction started or that permits were issued.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://wyoleg.gov/InterimCommittee/2026/09-202606049-05WBCMaterialsPreparedforJointMinerals06052026.pdf",
+      "access_caveat": "Government program document, not a county permit or construction inspection.",
+      "evidence_note": "Plan only."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "Uinta County / Wyoming DEQ / utility surfaces",
+      "action_type": "permit and construction search (negative)",
+      "result_status": "No Uinta County approval, parcel, building/grading/stormwater/water permit, utility/interconnection, inspection/CO, construction, or energization record was located.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.uintacounty.com/",
+      "access_caveat": "County surface did not expose a matching project record in the reviewed search.",
+      "evidence_note": "Negative search only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-WY-PROMETHEUS-EVANSTON-2026",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-WY-PROMETHEUS-EVANSTON-2026",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-WY-PROMETHEUS-EVANSTON-2026"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

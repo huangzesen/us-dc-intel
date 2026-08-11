@@ -1,0 +1,68 @@
+{
+  "master_id": "USDC-0039",
+  "canonical_project": "Google Pine Island data center",
+  "aliases": [
+    "Google Pine Island campus",
+    "Google Pine Island data center",
+    "Pine Island hyperscale data center"
+  ],
+  "location": {
+    "city": "Pine Island",
+    "county": "Goodhue County",
+    "state": "MN"
+  },
+  "phase3_stable_id": "MN-PINE-ISLAND-GOOGLE",
+  "status_as_of_cutoff": "Google and Xcel announced a future Pine Island data center and associated energy collaboration on 2026-02-24. A temporary restraining order reported in May 2026 halted construction pending environmental litigation. No public Google IT-load/building figure, final permit, energization, commissioning, or live-service evidence was located.",
+  "actions": [
+    {
+      "date": "2026-02-24",
+      "date_precision": "day",
+      "government_body": "Google",
+      "action_type": "company project announcement",
+      "result_status": "Google announced a new Pine Island data center and collaboration with the City of Pine Island, without publishing a project-specific IT load, building count, permit, or construction date.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/data-center-pine-island/",
+      "access_caveat": "Company announcement; city collaboration is not a zoning or building approval.",
+      "evidence_note": "Tier-2 operator evidence."
+    },
+    {
+      "date": "2026-02-24",
+      "date_precision": "day",
+      "government_body": "Xcel Energy",
+      "action_type": "utility/company energy announcement",
+      "result_status": "Xcel announced plans to power Google's new Minnesota data center and described a 1,900 MW clean-energy support program. The 1,900 MW figure is generation/storage support and is not treated as Pine Island IT load.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://newsroom.xcelenergy.com/news/xcel-energy-to-power-new-google-data-center-in-minnesota",
+      "access_caveat": "Utility announcement; no site-specific interconnection or energization record was exposed.",
+      "evidence_note": "Energy context kept separate from facility capacity."
+    },
+    {
+      "date": "2026-05-22",
+      "date_precision": "day",
+      "government_body": "Goodhue County court proceeding (reported by MPR News)",
+      "action_type": "temporary restraining order / construction halt",
+      "result_status": "MPR reported that a Goodhue County judge issued a temporary restraining order barring construction while environmental-review litigation proceeds.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Temporary restraining order; case number not exposed in reviewed source",
+      "primary_url": "https://www.mprnews.org/story/2026/05/26/pine-island-hyperscale-data-center-construction-halted-by-judge",
+      "access_caveat": "Secondary report dated 2026-05-26; the underlying signed court order and docket were not retrieved, so no additional legal scope is inferred.",
+      "evidence_note": "Court-halt status is preserved as reported evidence, not a zoning approval."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MN-PINE-ISLAND-GOOGLE",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "MN-PINE-ISLAND-GOOGLE",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

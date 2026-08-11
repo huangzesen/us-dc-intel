@@ -1,0 +1,47 @@
+{
+  "master_id": "USDC-0156",
+  "canonical_project": "Google Texas cloud and AI infrastructure expansion",
+  "aliases": [
+    "Google Armstrong/Haskell/Ellis campuses",
+    "Google Texas $40B investment",
+    "Google Texas cloud and AI infrastructure expansion"
+  ],
+  "location": {
+    "city": "multiple / not published",
+    "county": "Armstrong; Haskell; Ellis",
+    "state": "Texas"
+  },
+  "phase3_stable_id": "US-TX-GOOGLE-TEXAS-CAMPUSES-2025",
+  "status_as_of_cutoff": "State/company announcement for multiple campuses; county-level project split and approvals are not established.",
+  "actions": [
+    {
+      "id": "A12",
+      "date": "2025-11-14",
+      "body": "Office of the Governor of Texas",
+      "meeting_date": null,
+      "action_type": "executive/company investment announcement",
+      "result_or_status": "Governor's release announced Google's planned $40 billion Texas investment and new data-center campuses; it is not a county permit, zoning decision, or vote.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://gov.texas.gov/news/post/governor-abbott-google-announce-40-billion-investment-in-texas",
+      "access_caveat": "Official state announcement, not an approval docket; county locations and permits were not attached.",
+      "notes": "State economic-development context only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-TX-GOOGLE-TEXAS-CAMPUSES-2025",
+    "phase3_source_file": "phase3/county_tx.json",
+    "regional_id": "US-TX-GOOGLE-TEXAS-CAMPUSES-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-TX-GOOGLE-TEXAS-ARMSTRONG-HASKELL-ELLIS-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,80 @@
+{
+  "master_id": "USDC-0010",
+  "canonical_project": "Microsoft Tyrone data center",
+  "aliases": [
+    "Microsoft Tyrone data center",
+    "Microsoft Tyrone project",
+    "Project Rita"
+  ],
+  "location": {
+    "city": "Tyrone",
+    "county": "Fayette County",
+    "state": "GA"
+  },
+  "phase3_stable_id": "GA-007",
+  "status_as_of_cutoff": "Town of Tyrone states zoning approval remains in place after March 2024 public hearings and March 28 council approval, but as of June 2, 2026 no site plan, land-disturbance permit, building permit, or other development permit application had been submitted. No construction or energization is established.",
+  "actions": [
+    {
+      "date": "2024-02-22",
+      "date_precision": "day",
+      "government_body": "Town of Tyrone Planning Commission",
+      "action_type": "zoning / public hearing",
+      "result_status": "Town page lists a Planning Commission public hearing for the Microsoft project. It does not publish a vote tally in the accessible summary.",
+      "vote_tally": "not published",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.tyronega.gov/datacenter",
+      "access_caveat": "Town page links minutes/video, but the accessible summary does not reproduce the full packet or tally.",
+      "evidence_note": "Hearing, not approval."
+    },
+    {
+      "date": "2024-03-21",
+      "date_precision": "day",
+      "government_body": "Tyrone Town Council",
+      "action_type": "zoning / public hearing",
+      "result_status": "Town page lists the Town Council public hearing preceding the later approval. No vote tally was published in the accessible summary.",
+      "vote_tally": "not published",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.tyronega.gov/datacenter",
+      "access_caveat": "Linked minutes/video were not independently extracted in this pass.",
+      "evidence_note": "Hearing, not approval."
+    },
+    {
+      "date": "2024-03-28",
+      "date_precision": "day",
+      "government_body": "Tyrone Town Council",
+      "action_type": "zoning approval",
+      "result_status": "Official town page states the rezoning request associated with the Microsoft data center was approved after advertised Planning Commission and Town Council hearings. The accessible page does not publish the vote tally or ordinance number.",
+      "vote_tally": "not published",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.tyronega.gov/datacenter",
+      "access_caveat": "Town summary is the accessible official record; no vote is reconstructed beyond the town's statement.",
+      "evidence_note": "Land-use approval; not a site plan, building permit, or construction start."
+    },
+    {
+      "date": "2026-06-02",
+      "date_precision": "day",
+      "government_body": "Town of Tyrone",
+      "action_type": "development-status notice",
+      "result_status": "Town page states that no site plan had been submitted and no land-disturbance, building, or other development permit applications had been submitted as of June 2, 2026; zoning approval remains in place.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.tyronega.gov/datacenter",
+      "access_caveat": "Official status page; it does not establish the absence of confidential utility discussions.",
+      "evidence_note": "Negative permit status, not a revocation or construction decision."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "GA-007",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "GA-007",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

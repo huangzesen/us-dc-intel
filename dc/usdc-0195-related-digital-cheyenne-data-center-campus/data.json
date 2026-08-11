@@ -1,0 +1,68 @@
+{
+  "master_id": "USDC-0195",
+  "canonical_project": "Related Digital Cheyenne data-center campus",
+  "aliases": [
+    "CoreWeave Cheyenne campus",
+    "Related Digital Cheyenne data-center campus",
+    "Wyoming Business Council certified campus"
+  ],
+  "location": {
+    "city": "Cheyenne",
+    "county": "Laramie",
+    "state": "WY"
+  },
+  "phase3_stable_id": "US-WY-RELATED-COREWEAVE-CHEYENNE-2025",
+  "status_as_of_cutoff": "Wyoming Business Council material officially describes Related Digital’s campus as under construction, certified for the state data-center sales-tax exemption, and planned for up to 302 MW with CoreWeave as anchor tenant. No Laramie County building permit, final inspection/CO, utility energization, or service date was located; Project Jade/Tembo is kept separate pending parcel crosswalk.",
+  "actions": [
+    {
+      "date": "2025",
+      "date_precision": "year",
+      "government_body": "Wyoming Business Council",
+      "action_type": "data-center sales-tax certification",
+      "result_status": "The later WBC material states Related Digital was certified in 2025 as qualifying for the Data Center Sales Tax Exemption.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://wyoleg.gov/InterimCommittee/2026/09-202606049-05WBCMaterialsPreparedforJointMinerals06052026.pdf",
+      "access_caveat": "The material does not publish the certification date or a building permit number.",
+      "evidence_note": "State program action; not a building/CO action."
+    },
+    {
+      "date": "2026-06-05",
+      "date_precision": "day",
+      "government_body": "Wyoming Business Council",
+      "action_type": "state project-status material",
+      "result_status": "WBC material identifies Related Digital as currently under construction in Cheyenne, with a $1.2 billion/115-acre campus, up to 302 MW IT capacity, first 184,000-square-foot facility expected late-2026, and CoreWeave as anchor tenant.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://wyoleg.gov/InterimCommittee/2026/09-202606049-05WBCMaterialsPreparedforJointMinerals06052026.pdf",
+      "access_caveat": "State material is a program document; it does not provide Laramie County permit, inspection, or energization identifiers.",
+      "evidence_note": "Government source for reported construction status; no completion inference."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "Laramie County Planning and Development",
+      "action_type": "permit and parcel search (negative/access block)",
+      "result_status": "No matching Related Digital building permit, site plan, parcel crosswalk, inspection/CO, utility, or energization record was exposed. The county says its legacy portal is offline and directs users to SmartGov/kiosk pathways.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.laramiecountywy.gov/County-Government/County-Departments/Planning-Development",
+      "access_caveat": "County’s legacy Citizen Access Portal was taken offline for security concerns; public access is limited to SmartGov/kiosk guidance.",
+      "evidence_note": "Preserve access caveat; negative search is not proof of no record."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-WY-RELATED-COREWEAVE-CHEYENNE-2025",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-WY-RELATED-COREWEAVE-CHEYENNE-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

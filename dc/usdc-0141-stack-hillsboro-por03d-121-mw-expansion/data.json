@@ -1,0 +1,57 @@
+{
+  "master_id": "USDC-0141",
+  "canonical_project": "STACK Hillsboro POR03D/121 MW expansion",
+  "aliases": [
+    "Hillsboro STACK expansion",
+    "POR03E/F",
+    "STACK Hillsboro POR03D/121 MW expansion",
+    "STACK Portland POR03D"
+  ],
+  "location": {
+    "city": "Hillsboro",
+    "county": "Washington County",
+    "state": "OR"
+  },
+  "phase3_stable_id": "US-OR-STACK-HILLSBORO-POR03D-2026",
+  "status_as_of_cutoff": "STACK's current project page describes a 55-acre POR03 campus with 200 MW total critical capacity, 72 MW operational, 25 MW near-term availability, and 96 MW expansion capacity, including POR03D at 25 MW. A 2026 report describes the 121 MW D/E/F expansion and POR03D's Q4 2027 target. No Hillsboro project-specific final land-use decision, building permit, grading/stormwater permit, inspection, CO, utility/interconnection, energization, or commissioning record was located for the expansion.",
+  "actions": [
+    {
+      "date": "2026-02-11",
+      "date_precision": "day",
+      "government_body": "Not a government action; STACK Infrastructure / Data Center Dynamics report",
+      "action_type": "developer expansion announcement/report",
+      "result_status": "The report describes a 121 MW expansion across POR03D, POR03E, and POR03F, with POR03D at 25 MW and a target completion in Q4 2027. It is not a city approval, building permit, utility allocation, or construction-start record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.datacenterdynamics.com/en/news/data-center-developer-stack-to-expand-hillsboro-campus-by-121mw/",
+      "access_caveat": "Specialist report based on developer statements; no government record was found to independently establish the expansion sequence or target date.",
+      "evidence_note": "Announcement context kept separate from official approvals."
+    },
+    {
+      "date": null,
+      "date_precision": "undated",
+      "government_body": "STACK Infrastructure",
+      "action_type": "current campus capability/status page",
+      "result_status": "STACK's current POR03 page lists six buildings, approximately 200 MW total critical capacity, 72 MW operational critical capacity, 25 MW near-term availability, and 96 MW expansion capacity; it identifies POR03D as a 25 MW Hillsboro facility. The page does not provide a government permit, CO, or energization date for POR03D/E/F.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.stackinfra.com/locations/americas/portland/por03/",
+      "access_caveat": "Company source and undated status page; capacity labels are not treated as measured utility load or local approval.",
+      "evidence_note": "Company context; current campus claims not independently converted into construction or live-status findings."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-OR-STACK-HILLSBORO-POR03D-2026",
+    "phase3_source_file": "phase3/county_ca_or.json",
+    "regional_id": "US-OR-STACK-HILLSBORO-POR03D-2026",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

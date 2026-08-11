@@ -1,0 +1,166 @@
+{
+  "master_id": "USDC-0151",
+  "canonical_project": "Lancium Clean Campus / Stargate Abilene",
+  "aliases": [
+    "Crusoe Abilene Flagship Campus",
+    "Lancium Clean Campus / Stargate Abilene",
+    "Oracle OCI Abilene",
+    "Stargate Abilene",
+    "Stargate I Abilene AI campus"
+  ],
+  "location": {
+    "city": "Abilene",
+    "county": "Taylor",
+    "state": "Texas"
+  },
+  "phase3_stable_id": "US-TX-ABILENE-LANCIUM-STARGATE-2024",
+  "status_as_of_cutoff": "First-phase and additional buildings are supported by TDLR/TCEQ and local tax records; the complete building-by-building permit, energization, and service record was not assembled.",
+  "actions": [
+    {
+      "id": "A1",
+      "date": "2021-12-21",
+      "body": "Taylor County Commissioners' Court",
+      "meeting_date": "2021-12-21",
+      "action_type": "tax-incentive public hearing / agenda",
+      "result_or_status": "Agenda noticed a Chapter 312 public hearing and proposed resolution concerning Lancium; the retrieved notice does not establish the later vote result.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://www.taylorcounty.texas.gov/AgendaCenter/ViewFile/Agenda/_12212021-395",
+      "access_caveat": "Official county agenda; this is not minutes and does not prove approval.",
+      "notes": "Tax-abatement action, not land-use approval."
+    },
+    {
+      "id": "A2",
+      "date": "2024-08-15",
+      "body": "Texas Commission on Environmental Quality",
+      "meeting_date": null,
+      "action_type": "onsite generation air-permit application received / technical review",
+      "result_or_status": "Longhorn Data Center standard-permit application received; technical review describes six 35-MW Titan turbines and six 35-MW GE LM2500 turbines for onsite data-center power. Final permit result was not located in this record.",
+      "vote_tally": null,
+      "case_or_number": "Project 378588; RN112029079; registration 177263",
+      "primary_url": "https://records.tceq.texas.gov/cs/idcplg?IdcService=TCEQ_EXTERNAL_SEARCH_GET_FILE&Rendition=Web&dID=8114426",
+      "access_caveat": "The TCEQ technical-review record gives the received date; the linked public record is a review document, not a local vote.",
+      "notes": "ERCOT/utility-adjacent onsite generation; not proof of grid interconnection."
+    },
+    {
+      "id": "A3",
+      "date": "2025-01-11",
+      "body": "Texas Commission on Environmental Quality",
+      "meeting_date": null,
+      "action_type": "onsite-generation permit modification received / technical review",
+      "result_or_status": "Modification application for Longhorn Data Center received; proposed change reduced each turbine group from six to five and changed ratings/hours. The record does not itself establish final issuance.",
+      "vote_tally": null,
+      "case_or_number": "Project 387309; RN112029079; CN606295137",
+      "primary_url": "https://records.tceq.texas.gov/cs/idcplg?IdcService=TCEQ_EXTERNAL_SEARCH_GET_FILE&Rendition=Web&dID=8600163",
+      "access_caveat": "Official TCEQ technical-review record; no final-action document was linked in the retrieved result.",
+      "notes": "Environmental/air action."
+    },
+    {
+      "id": "A4",
+      "date": "2025-02-11",
+      "body": "Taylor County Commissioners' Court",
+      "meeting_date": "2025-02-11",
+      "action_type": "tax-abatement public hearing",
+      "result_or_status": "Public hearing convened for entering into or amending tax-abatement agreements with Lancium and Abilene DC 1; retrieved minutes show reconvening but not a vote on the abatement item.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://www.taylorcounty.texas.gov/ArchiveCenter/ViewFile/Item/1282",
+      "access_caveat": "Official county minutes excerpt indexed by search; the full packet/minutes should be checked for any later action.",
+      "notes": "Do not infer approval from the hearing."
+    },
+    {
+      "id": "A5",
+      "date": "2025-02-25",
+      "body": "Taylor County Commissioners' Court",
+      "meeting_date": "2025-02-25",
+      "action_type": "tax-abatement agreement approval",
+      "result_or_status": "County resolution states the 2025 Agreement and Second Agreement were approved; they cover up to eight data-center buildings and related improvements/tangible personal property.",
+      "vote_tally": null,
+      "case_or_number": "Resolution 22-25; 2025 Agreement; 2025 Second Agreement",
+      "primary_url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/4818/Resolution-22-25-Lancium",
+      "access_caveat": "Official scanned resolution; the retrieved copy does not publish a vote tally.",
+      "notes": "Tax-abatement action; not a zoning or building permit."
+    },
+    {
+      "id": "A6",
+      "date": "2025-03-17",
+      "body": "Taylor County Commissioners' Court / Lancium and lessees",
+      "meeting_date": null,
+      "action_type": "tax-abatement agreement effective date",
+      "result_or_status": "Resolution identifies March 17, 2025 as the effective date of the 2025 Agreement and 2025 Second Agreement.",
+      "vote_tally": null,
+      "case_or_number": "Resolution 22-25",
+      "primary_url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/4818/Resolution-22-25-Lancium",
+      "access_caveat": "Effective date stated in the official resolution; not a separate meeting action.",
+      "notes": "Tax-abatement action."
+    },
+    {
+      "id": "A7",
+      "date": "2025-02-13",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Crusoe Building 3, a 484,960-square-foot data center; current status shown as Review Complete.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025011917",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2025011917",
+      "access_caveat": "TABS is an architectural-barriers registration and does not replace a municipal building permit or certificate of occupancy.",
+      "notes": "Construction-permit evidence, but not a city permit."
+    },
+    {
+      "id": "A8",
+      "date": "2025-03-10",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Crusoe Building 4, approximately 479,721 square feet; current status Review Complete.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025013785",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2025013785",
+      "access_caveat": "TABS registration is not the municipal building permit.",
+      "notes": "Construction-permit evidence."
+    },
+    {
+      "id": "A9",
+      "date": "2025-03-21",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS record for Crusoe Building 3 TI lists new construction/tenant improvement and a planned completion date of 2026-03-21; status is not a permit issuance decision.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025015061",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2025015061",
+      "access_caveat": "Record is an architectural-barriers registration; the status field is blank in the retrieved page.",
+      "notes": "Construction action."
+    },
+    {
+      "id": "A10",
+      "date": "2025-04-17",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registrations",
+      "result_or_status": "TABS registered Crusoe Buildings 5, 6, and 7; the records show Review Complete and planned 2025 construction starts for new data halls.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025016961; TABS2025016964; TABS2025016966",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2025016961",
+      "access_caveat": "The linked record is one of the three registrations; the other two are separate TDLR pages. None is a municipal building permit.",
+      "notes": "Construction action; phase/building crosswalk is based on the TDLR owner/address fields."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-TX-ABILENE-LANCIUM-STARGATE-2024",
+    "phase3_source_file": "phase3/county_tx.json",
+    "regional_id": "US-TX-ABILENE-LANCIUM-STARGATE-2024",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-TX-STARGATE-ABILENE-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

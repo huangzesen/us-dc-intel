@@ -1,0 +1,130 @@
+{
+  "master_id": "USDC-0208",
+  "canonical_project": "Fundamental Data high-impact Tucker–Grant campus / Ridgeline",
+  "aliases": [
+    "Fundamental Data high-impact Tucker–Grant campus",
+    "Fundamental Data high-impact Tucker–Grant campus / Ridgeline",
+    "Fundamental Data turbine power facility",
+    "Ridgeline Facility",
+    "Thomas/Davis-area proposal"
+  ],
+  "location": {
+    "city": "near Thomas/Davis",
+    "county": "Tucker and Grant Counties",
+    "state": "WV"
+  },
+  "phase3_stable_id": "WV-002",
+  "status_as_of_cutoff": "West Virginia issued an air construction permit for the Ridgeline turbine power facility on August 15, 2025. Official DAQ records expressly say the application did not include a data center and was not definitive about the end user. No data-center permit, high-impact certification, county land-use approval, or construction/occupancy record was found.",
+  "actions": [
+    {
+      "date": "2025-03-18",
+      "date_precision": "day",
+      "government_body": "West Virginia Department of Environmental Protection, Division of Air Quality",
+      "action_type": "air / construction permit application receipt",
+      "result_status": "DAQ received Fundamental Data LLC application R13-3713 for the Ridgeline turbine power facility, Facility ID 093-00034, near Thomas in Tucker County.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "R13-3713; Facility 093-00034",
+      "primary_url": "https://dep.wv.gov/daq/permitting/Documents/Fundamental%20Data%20LLC%3B%20Ridgeline%20Facility/093-00034_APPL_13-3713.pdf",
+      "access_caveat": "Application receipt is not permit issuance and the application was for a turbine power facility, not a data center.",
+      "evidence_note": "Power-generation air action, not data-center construction authorization."
+    },
+    {
+      "date": "2025-04-09",
+      "date_precision": "day",
+      "government_body": "West Virginia Department of Environmental Protection, Division of Air Quality",
+      "action_type": "air / application completeness",
+      "result_status": "Final determination records state that application R13-3713 was complete on April 9, 2025.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "R13-3713",
+      "primary_url": "https://dep.wv.gov/daq/permitting/Documents/Fundamental%20Data%20LLC%3B%20Ridgeline%20Facility/093-00034_DETERM_13-3713.pdf",
+      "access_caveat": "Completeness is an administrative air-review step, not final approval.",
+      "evidence_note": "Power-generation air review."
+    },
+    {
+      "date": "2025-06-18",
+      "date_precision": "day",
+      "government_body": "West Virginia Department of Environmental Protection, Division of Air Quality",
+      "action_type": "air / public notice and comment",
+      "result_status": "DAQ public-notice materials opened the public-comment process for R13-3713; final determination records state the notice date as June 18, 2025.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "R13-3713",
+      "primary_url": "https://dep.wv.gov/daq/permitting/Documents/Fundamental%20Data%20LLC%3B%20Ridgeline%20Facility/R13-3713%20DEP%20AQ%20Notice.pdf",
+      "access_caveat": "Public notice is not a permit decision.",
+      "evidence_note": "Power-generation air review."
+    },
+    {
+      "date": "2025-06-30",
+      "date_precision": "day",
+      "government_body": "West Virginia Department of Environmental Protection, Division of Air Quality",
+      "action_type": "air / public meeting",
+      "result_status": "DAQ held a public meeting on the proposed Ridgeline turbine facility.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "R13-3713",
+      "primary_url": "https://dep.wv.gov/daq/permitting/Documents/Fundamental%20Data%20LLC%3B%20Ridgeline%20Facility/FD%20Public%20Meeting%20PowerPoint%2006.30.2025.pdf",
+      "access_caveat": "Presentation is a public-participation record, not approval.",
+      "evidence_note": "DAQ presentation expressly says application did not include a data center."
+    },
+    {
+      "date": "2025-07-17",
+      "date_precision": "day",
+      "government_body": "West Virginia Department of Environmental Protection, Division of Air Quality",
+      "action_type": "air / public meeting and comment",
+      "result_status": "DAQ held the second public meeting/comment opportunity identified in the official notice and final-determination record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "R13-3713",
+      "primary_url": "https://dep.wv.gov/daq/permitting/Documents/Fundamental%20Data%20LLC%3B%20Ridgeline%20Facility/R13-3713%20DEP%20AQ%20Notice.pdf",
+      "access_caveat": "Meeting/comment opportunity is not approval.",
+      "evidence_note": "Official response records 1,605 written and 18 oral comments."
+    },
+    {
+      "date": "2025-07-18",
+      "date_precision": "day",
+      "government_body": "West Virginia Department of Environmental Protection, Division of Air Quality",
+      "action_type": "air / comment-period close",
+      "result_status": "Official NSR application list gives July 18, 2025 as the last comment date for R13-3713.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "R13-3713",
+      "primary_url": "https://dep.wv.gov/daq/permitting/Pages/NSR-Permit-Applications.aspx",
+      "access_caveat": "List entry is a docket/status index; some linked Application Enhancer records require credentials. Direct PDFs were used where available.",
+      "evidence_note": "Administrative comment deadline."
+    },
+    {
+      "date": "2025-08-15",
+      "date_precision": "day",
+      "government_body": "West Virginia Department of Environmental Protection, Division of Air Quality",
+      "action_type": "air / final construction permit",
+      "result_status": "DAQ issued construction permit R13-3713 for Facility 093-00034, authorizing construction and operation of the stationary air sources subject to permit terms.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "R13-3713; Facility 093-00034",
+      "primary_url": "https://apps.dep.wv.gov/Documents/DAQ/NSRPermits/093-00034/Final/093-00034_PERM_13-3713%202025-08-15.pdf",
+      "access_caveat": "Issued air permit is for the turbine power facility. Official response-to-comments says the application did not include a data center.",
+      "evidence_note": "Construction permit for power generation, not a data-center building permit."
+    },
+    {
+      "date": "2026-02-05",
+      "date_precision": "day",
+      "government_body": "West Virginia Air Quality Board",
+      "action_type": "air / appeal final order",
+      "result_status": "Official DAQ index links a February 5, 2026 final order; secondary reporting says the Board denied the appeal/reclassification request and upheld R13-3713. The scanned official order was not text-extractable, so the result is recorded as source-reported with an access caveat.",
+      "vote_tally": "not published in accessible official text",
+      "case_or_ordinance_permit_number": "25-02-AQB; R13-3713",
+      "primary_url": "https://apps.dep.wv.gov/Documents/DAQ/NSRPermits/093-00034/Final/2026.02.05.%2025-02-AQB.%20Memorandum%20of%20Decision%20and%20Final%20Order.pdf",
+      "access_caveat": "Official PDF is scanned/blank to extraction; corroborating report: https://www.wvhighlands.org/2026/02/06/tucker-county-residents-condemn-air-quality-board-refusal-to-reclassify-air-permit-for-ridgeline-power-plant/.",
+      "evidence_note": "Air-board action on the power plant; not a data-center approval."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "WV-002",
+    "phase3_source_file": "phase3/county_va_md_wv.json",
+    "regional_id": "WV-002",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

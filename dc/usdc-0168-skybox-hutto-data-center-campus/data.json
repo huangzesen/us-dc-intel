@@ -1,0 +1,99 @@
+{
+  "master_id": "USDC-0168",
+  "canonical_project": "Skybox Hutto data-center campus",
+  "aliases": [
+    "Prologis Skybox Hutto",
+    "Skybox Hutto 1 data center",
+    "Skybox Hutto data-center campus"
+  ],
+  "location": {
+    "city": "Hutto",
+    "county": "Williamson",
+    "state": "Texas"
+  },
+  "phase3_stable_id": "US-TX-SKYBOX-HUTTO-2024",
+  "status_as_of_cutoff": "Local tax-abatement agreement and two TDLR construction registrations are documented; municipal building permits and final occupancy were not found.",
+  "actions": [
+    {
+      "id": "A25",
+      "date": "2023-06-01",
+      "body": "Hutto City Council",
+      "meeting_date": "2023-06-01",
+      "action_type": "tax-abatement reinvestment-zone first reading",
+      "result_or_status": "Council agenda/transcript considered Ordinance O-2023-027 creating a Chapter 312 tax-abatement zone for 3399 CR 132; the retrieved transcript does not publish the vote tally.",
+      "vote_tally": null,
+      "case_or_number": "O-2023-027",
+      "primary_url": "https://huttotx.new.swagit.com/videos/232994",
+      "access_caveat": "Official city meeting video/transcript; transcript is not a signed ordinance or certified minutes.",
+      "notes": "Tax-incentive action."
+    },
+    {
+      "id": "A26",
+      "date": "2023-07-20",
+      "body": "Hutto City Council",
+      "meeting_date": "2023-07-20",
+      "action_type": "tax-abatement public hearing and resolution",
+      "result_or_status": "Public hearing held and Resolution R-2023-164 approved a Chapter 312 tax-abatement agreement with Hutto Data Center Campus LLC; the accessible transcript does not publish a vote tally.",
+      "vote_tally": null,
+      "case_or_number": "R-2023-164",
+      "primary_url": "https://www.huttotx.gov/Archive/ViewFile/Item/681",
+      "access_caveat": "Official resolution states approval and date; vote tally was not found in the retrieved resolution/transcript.",
+      "notes": "Skybox/Prologis tax-abatement action."
+    },
+    {
+      "id": "A27",
+      "date": "2023-10-19",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Skybox-Hutto 1, Building 1, a 253,730-square-foot core-and-shell data-center building; status Project Registered.",
+      "vote_tally": null,
+      "case_or_number": "TABS2024003524",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024003524",
+      "access_caveat": "TDLR architectural-barriers registration is not the Hutto building permit.",
+      "notes": "Construction action."
+    },
+    {
+      "id": "A28",
+      "date": "2024-04-03",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Skybox-Hutto 2 core/shell, Building 2, 235,730 square feet; planned completion was 2026-02-01 and status Project Registered.",
+      "vote_tally": null,
+      "case_or_number": "TABS2024015381",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2024015381",
+      "access_caveat": "TDLR registration is not the municipal building permit and the completion date is estimated.",
+      "notes": "Construction action."
+    },
+    {
+      "id": "A29",
+      "date": "2025-04-17",
+      "body": "Hutto City Council / city staff",
+      "meeting_date": "2025-04-17",
+      "action_type": "economic-development/tax-abatement status briefing",
+      "result_or_status": "City meeting transcript described Skybox as a 50% abatement of taxable value for furniture, fixtures, and equipment and noted reporting obligations; this was a status briefing, not a new approval.",
+      "vote_tally": null,
+      "case_or_number": null,
+      "primary_url": "https://huttotx.new.swagit.com/videos/340522",
+      "access_caveat": "Official meeting video/transcript; not a certified action record.",
+      "notes": "Tax-incentive status."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-TX-SKYBOX-HUTTO-2024",
+    "phase3_source_file": "phase3/county_tx.json",
+    "regional_id": "US-TX-SKYBOX-HUTTO-2024",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-TX-SKYBOX-HUTTO-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

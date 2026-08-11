@@ -1,0 +1,56 @@
+{
+  "master_id": "USDC-0106",
+  "canonical_project": "Mill Compute Bates Mill No. 3 AI data center",
+  "aliases": [
+    "Bates Mill 3 Tier III proposal",
+    "Lewiston Mill Compute",
+    "Mill Compute Bates Mill No. 3 AI data center"
+  ],
+  "location": {
+    "city": "Lewiston",
+    "county": "Androscoggin County",
+    "state": "ME"
+  },
+  "phase3_stable_id": "US-ME-LEWISTON-MILLCOMPUTE-2025",
+  "status_as_of_cutoff": "Rejected and not a live build. The city agenda identifies the proposed joint development agreement; local reporting records a unanimous 0–7 City Council rejection on 2025-12-16. No construction, permit, utility, or service evidence was found.",
+  "actions": [
+    {
+      "date": "2025-12-16",
+      "date_precision": "day",
+      "government_body": "Lewiston City Council",
+      "action_type": "joint development agreement agenda item",
+      "result_status": "The official agenda placed the proposed Mill Compute/Bates Mill joint development agreement before the Council; the agenda establishes the subject matter but does not expose the final roll-call result in the reviewed file.",
+      "vote_tally": "not published in the reviewed agenda",
+      "case_or_ordinance_permit_number": "Joint Development Agreement; Bates Mill No. 3",
+      "primary_url": "https://www.lewistonmaine.gov/Archive/ViewFile/Item/6659",
+      "access_caveat": "Official agenda, not final minutes or a permit.",
+      "evidence_note": "Government action trail; vote result is not inferred from agenda placement."
+    },
+    {
+      "date": "2025-12-16",
+      "date_precision": "day",
+      "government_body": "Not a government action; Portland Press Herald local report",
+      "action_type": "reported City Council vote",
+      "result_status": "Local reporting states that the City Council voted 0–7 against the proposal after public opposition.",
+      "vote_tally": "0 yes / 7 no",
+      "case_or_ordinance_permit_number": "Joint Development Agreement; Bates Mill No. 3",
+      "primary_url": "https://www.pressherald.com/2025/12/16/lewiston-votes-down-ai-data-center-project-after-public-outcry/",
+      "access_caveat": "Local press report; the official agenda reviewed did not reproduce the roll call.",
+      "evidence_note": "Vote is explicitly labeled as reported, not upgraded to an official minutes record."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-ME-LEWISTON-MILLCOMPUTE-2025",
+    "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
+    "regional_id": "US-ME-LEWISTON-MILLCOMPUTE-2025",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

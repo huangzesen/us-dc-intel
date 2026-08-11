@@ -1,0 +1,44 @@
+{
+  "master_id": "USDC-0057",
+  "canonical_project": "Project Trinity",
+  "aliases": [
+    "Project Trinity",
+    "Teton Digital 100 MW data center",
+    "Teton Digital Tioga campus"
+  ],
+  "location": {
+    "city": "Tioga area",
+    "county": "Williams County",
+    "state": "ND"
+  },
+  "phase3_stable_id": "ND-TIOGA-TETON-TRINITY",
+  "status_as_of_cutoff": "A February 2025 specialist report says Williams County commissioners gave Teton Digital permission to apply for a conditional-use permit for a planned 100 MW campus with a 30 MW first phase. No final CUP, zoning decision, building permit, construction, inspection, CO, utility interconnection, energization, commissioning, or live-service record was located. Company Q3/Q4 2025 and end-2026 targets remain unverified.",
+  "actions": [
+    {
+      "date": "2025-02-18",
+      "date_precision": "day",
+      "government_body": "Williams County Commission (reported by Data Center Dynamics)",
+      "action_type": "permission to apply for conditional-use permit",
+      "result_status": "The report says commissioners gave Teton Digital a go-ahead to apply for a conditional-use permit for Project Trinity, describing a 100 MW planned campus and 30 MW first phase. It does not publish a roll-call tally or final CUP.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Project Trinity conditional-use pathway; CUP number not located",
+      "primary_url": "https://www.datacenterdynamics.com/en/news/teton-digital-gets-go-ahead-for-100mw-data-center-in-north-dakota/",
+      "access_caveat": "Specialist report quoting a county meeting; underlying agenda/minutes/CUP application were not retrieved.",
+      "evidence_note": "Reported county process action, explicitly not final approval."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "ND-TIOGA-TETON-TRINITY",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "ND-TIOGA-TETON-TRINITY",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

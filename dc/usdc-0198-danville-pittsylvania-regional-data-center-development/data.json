@@ -1,0 +1,44 @@
+{
+  "master_id": "USDC-0198",
+  "canonical_project": "Danville–Pittsylvania regional data-center development",
+  "aliases": [
+    "Berry Hill regional development",
+    "Danville–Pittsylvania regional data-center development",
+    "RIFA / STACK Infrastructure performance agreement"
+  ],
+  "location": {
+    "city": "Danville / Pittsylvania County",
+    "county": "Pittsylvania County",
+    "state": "VA"
+  },
+  "phase3_stable_id": "VA-003",
+  "status_as_of_cutoff": "A May 18, 2026 regional performance-agreement approval was reported by local press as unanimous, but the official RIFA meeting packet/minutes and executed agreement were not accessible; no tenant, parcel, zoning, building, utility, or environmental permit was found.",
+  "actions": [
+    {
+      "date": "2026-05-18",
+      "date_precision": "day",
+      "government_body": "Danville–Pittsylvania Regional Industrial Facilities Authority",
+      "action_type": "tax / economic-development performance agreement",
+      "result_status": "Local reporting says RIFA approved/finalized a performance agreement with STACK Infrastructure for a proposed digital-infrastructure campus. The official portal was identified but its agenda/minutes content required JavaScript and the signed agreement was not retrieved; therefore the reported approval and tally are recorded with an access caveat, not independently inferred.",
+      "vote_tally": "unanimous (reported by Cardinal News; official minutes not retrieved)",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://danvilleva.portal.civicclerk.com/?category_id=33",
+      "access_caveat": "Official CivicClerk portal returned a JavaScript-required page in this run. RIFA's official page says no written resolution is effective without affirmative action. Corroborating reports: https://cardinalnews.org/2026/05/19/a-data-center-project-in-pittsylvania-was-approved-monday-with-higher-investment-and-jobs-than-previously-announced/ and https://www.wsls.com/news/local/2026/05/18/pittsylvania-danville-leaders-to-vote-on-performance-agreement-for-data-center-development/.",
+      "evidence_note": "Performance agreement is an economic-development action, not a construction permit or site approval."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "VA-003",
+    "phase3_source_file": "phase3/county_va_md_wv.json",
+    "regional_id": "VA-003",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

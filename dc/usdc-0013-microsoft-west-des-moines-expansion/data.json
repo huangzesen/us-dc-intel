@@ -1,0 +1,59 @@
+{
+  "master_id": "USDC-0013",
+  "canonical_project": "Microsoft West Des Moines expansion",
+  "aliases": [
+    "Ginger East campus",
+    "Microsoft Project Osmium data center",
+    "Microsoft West Des Moines campus",
+    "Microsoft West Des Moines expansion"
+  ],
+  "location": {
+    "city": "West Des Moines",
+    "county": "Warren/Madison",
+    "state": "IA"
+  },
+  "phase3_stable_id": "IA-WEST-DES-MOINES-MICROSOFT",
+  "status_as_of_cutoff": "Active phased expansion; official city records establish multiple site/grade/building actions, but no new-building power-on or complete campus record was located.",
+  "actions": [
+    {
+      "date": "2023-03-20",
+      "date_precision": "day",
+      "government_body": "City of West Des Moines Development Services / City Council record",
+      "action_type": "grading permit and site-plan review",
+      "result_status": "City minutes identify DSM15/Ginger East initial grading under GP-005935-2023 and explicitly say the remainder was still in site-plan review and that a building permit would be issued in the future; this is not completion or occupancy evidence.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "GP-005935-2023",
+      "primary_url": "https://www.wdm.iowa.gov/home/showpublisheddocument/38719/638146570113770000",
+      "access_caveat": "The minutes describe the grading permit and review state on that date; they do not establish later permit issuance or power-on.",
+      "evidence_note": "Government record separates grading from building approval."
+    },
+    {
+      "date": "2026-07-01",
+      "date_precision": "day",
+      "government_body": "City of West Des Moines",
+      "action_type": "official project announcement",
+      "result_status": "City page describes the Microsoft project as four phases on 200 acres totaling about 1.7 million square feet; the page is project context, not a new approval or commissioning record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.wdm.iowa.gov/Home/Components/News/News/4420/384?arch=1&npage=12",
+      "access_caveat": "City project page supplies scope and infrastructure context but not a building-by-building permit register.",
+      "evidence_note": "Phase 2 expansion identity and scale; no status beyond the page's stated scope is inferred."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "IA-WEST-DES-MOINES-MICROSOFT",
+    "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
+    "regional_id": "IA-WEST-DES-MOINES-MICROSOFT",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [
+      "US-IA-MICROSOFT-WEST-DES-MOINES-OSMIUM-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

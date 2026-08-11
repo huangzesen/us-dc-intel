@@ -1,0 +1,74 @@
+{
+  "master_id": "USDC-0005",
+  "canonical_project": "Project Sail / Atlas Development–Prologis Coweta campus",
+  "aliases": [
+    "Atlas Development / Prologis Coweta campus",
+    "Atlas Development LLC campus",
+    "Coweta County Project Sail",
+    "Project Sail",
+    "Project Sail / Atlas Development–Prologis Coweta campus",
+    "Project Sail data-center campus",
+    "Prologis Coweta data center campus"
+  ],
+  "location": {
+    "city": "near Newnan",
+    "county": "Coweta County",
+    "state": "GA"
+  },
+  "phase3_stable_id": "GA-002",
+  "status_as_of_cutoff": "Large proposed campus with DRI/utility-planning and developer-site evidence, but no verified groundbreaking, building permit, certificate of occupancy, energized load, or tenant identity was located. DRI is a regional communication process, not the local approval itself.",
+  "actions": [
+    {
+      "date": "2024-12",
+      "date_precision": "month",
+      "government_body": "Georgia Department of Community Affairs / regional DRI process",
+      "action_type": "DRI filing / regional review",
+      "result_status": "Phase 2 and contemporaneous reporting identify a late-December DRI filing for the proposed 13-building Coweta campus. The underlying project DRI packet and local approval were not located in an accessible official record.",
+      "vote_tally": "not applicable / not published",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.datacenterdynamics.com/en/news/project-sail-data-center-newnan-atlanta-georgia/",
+      "access_caveat": "The primary accessible evidence for the filing was specialist reporting; DCA states DRI is not a regulatory approval and local government retains final authority.",
+      "evidence_note": "Reported DRI filing; not a rezoning, permit, vote, or construction start."
+    },
+    {
+      "date": "2025-01-02",
+      "date_precision": "day",
+      "government_body": "Not a government action; specialist report",
+      "action_type": "project proposal report",
+      "result_status": "Report described the 832-acre, 13-building, approximately $17 billion proposal and identified Atlas as sponsor at that time; later sponsor naming and scale metrics are not reconciled into one official approval record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.datacenterdynamics.com/en/news/project-sail-data-center-newnan-atlanta-georgia/",
+      "access_caveat": "Press/discovery source only; no vote is inferred.",
+      "evidence_note": "Announcement/proposal evidence, not government approval."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "Atlas/Project Sail public project site",
+      "action_type": "developer infrastructure announcement",
+      "result_status": "Developer site continued to describe the Coweta campus and infrastructure commitments; no public permit, executed development agreement, tenant, energization, or commissioning record was exposed.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.cowetaprojectsail.com/coweta-lp/",
+      "access_caveat": "Company/developer source; not a county or city approval.",
+      "evidence_note": "Company announcement kept separate from land-use and building approvals."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "GA-002",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "GA-002",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [
+      "US-GA-PROJECT-SAIL-COWETA-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

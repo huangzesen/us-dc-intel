@@ -1,0 +1,80 @@
+{
+  "master_id": "USDC-0103",
+  "canonical_project": "Servistar Westfield data-center campus",
+  "aliases": [
+    "Servistar Industrial Way",
+    "Servistar Westfield data-center campus",
+    "Westfield hyperscale campus"
+  ],
+  "location": {
+    "city": "Westfield",
+    "county": "Hampden County",
+    "state": "MA"
+  },
+  "phase3_stable_id": "US-MA-SERVISTAR-WESTFIELD-2021",
+  "status_as_of_cutoff": "Proposed/under development, with no verified construction. The City's 2026 update says local Planning Board and City Council approvals occurred in 2021, activity paused while state legislation was pursued, and review resumed in 2025; it also says current questions about water, electricity, and municipal services remain under review. No special-permit file, MEPA record, building permit, CO, energization, or service record was located.",
+  "actions": [
+    {
+      "date": null,
+      "date_precision": "undated",
+      "government_body": "City of Westfield Planning Board and City Council",
+      "action_type": "local approval history",
+      "result_status": "The City's 2026 update states that the Servistar project received local approvals from both bodies in 2021; the cited update does not publish the exact meeting dates, instruments, or vote tallies.",
+      "vote_tally": "not published in the cited update",
+      "case_or_ordinance_permit_number": "Servistar LLC application for data center",
+      "primary_url": "https://westfielddevelopment.com/m/newsflash/Home/Detail/1724",
+      "access_caveat": "Official city status update summarizing prior actions; underlying 2021 packets and permits were not retrieved.",
+      "evidence_note": "Government-reported historical approval context; no current construction or occupancy inferred."
+    },
+    {
+      "date": "2024-11-20",
+      "date_precision": "day",
+      "government_body": "Commonwealth of Massachusetts",
+      "action_type": "state tax-law enactment / incentive pathway",
+      "result_status": "Chapter 238 of the Acts of 2024 created sales/use-tax exemption eligibility for qualifying data-center projects; it is statewide incentive context, not site approval or tax-abatement execution.",
+      "vote_tally": "not applicable to project",
+      "case_or_ordinance_permit_number": "Chapter 238 of the Acts of 2024",
+      "primary_url": "https://malegislature.gov/Laws/SessionLaws/Acts/2024/Chapter238",
+      "access_caveat": "State law does not establish that Servistar qualified or received the exemption.",
+      "evidence_note": "Incentive pathway kept distinct from a project-specific agreement."
+    },
+    {
+      "date": "2025-08-26",
+      "date_precision": "day",
+      "government_body": "Not a government action; New England Public Media",
+      "action_type": "proposal and tax-context report",
+      "result_status": "Reported a planned Westfield campus and state tax-break context, with full-buildout cost reported at approximately $4 billion; capacity and tenant remained undisclosed.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.nepm.org/regional-news/2025-08-26/westfield-planning-4m-data-center-with-help-from-state-tax-breaks",
+      "access_caveat": "Regional reporting; cost and development claims are not permit evidence.",
+      "evidence_note": "Company/project context explicitly labeled."
+    },
+    {
+      "date": "2026-06-15",
+      "date_precision": "day",
+      "government_body": "City of Westfield Mayor's Office / Economic Development",
+      "action_type": "official project status update",
+      "result_status": "The City said discussions resumed in 2025 and that it was reviewing applicant-supplied water, energy, and municipal-service information; the review remained ongoing.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Servistar Data Center Project",
+      "primary_url": "https://westfielddevelopment.com/m/newsflash/Home/Detail/1724",
+      "access_caveat": "City update; applicant fact-sheet statements about closed-loop cooling and dedicated transmission service are explicitly applicant claims.",
+      "evidence_note": "Current official status is ongoing review, not groundbreaking or permit completion."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-MA-SERVISTAR-WESTFIELD-2021",
+    "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
+    "regional_id": "US-MA-SERVISTAR-WESTFIELD-2021",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

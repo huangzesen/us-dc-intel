@@ -1,0 +1,93 @@
+{
+  "master_id": "USDC-0029",
+  "canonical_project": "TenKey LandCo Simpson County AI campus",
+  "aliases": [
+    "421 Steele Road proposal",
+    "Franklin–Simpson Data Storage and Service Center",
+    "TenKey DataCenter",
+    "TenKey LandCo Simpson County AI campus"
+  ],
+  "location": {
+    "city": "Franklin",
+    "county": "Simpson County",
+    "state": "KY"
+  },
+  "phase3_stable_id": "KY-002",
+  "status_as_of_cutoff": "Preliminary development plan was reported approved with conditions on 2026-03-03, while the county-regulation dispute and citizen challenge remained pending. No final development plan, conditional-use resolution, building permit, construction start, CO, or energized service was located.",
+  "actions": [
+    {
+      "date": "2025-07-03",
+      "date_precision": "day",
+      "government_body": "City of Franklin, Kentucky",
+      "action_type": "annexation ordinance/public notice",
+      "result_status": "A published legal notice reproduces a Franklin annexation ordinance for land owned by TenKey LandCo near Franklin; the accessible copy does not provide the complete official city packet or a roll-call tally.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://kypublicnotice.com/KYLegals/2025/70147-2025-07-03_1004.pdf",
+      "access_caveat": "Public-notice mirror rather than the city’s own document repository; annexation is not a data-center building permit or approval to operate.",
+      "evidence_note": "The annexation record is kept distinct from the later preliminary-plan and litigation history."
+    },
+    {
+      "date": "2026-01-20",
+      "date_precision": "day",
+      "government_body": "Franklin Planning and Zoning Commission (reported by WKU Public Radio)",
+      "action_type": "preliminary-plan table",
+      "result_status": "Secondary reporting states the commission tabled the preliminary development plan; no approval is inferred from the application or later reporting.",
+      "vote_tally": "not independently verified in official minutes",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.weku.org/the-commonwealth/2026-01-22/zoning-regulators-table-preliminary-development-plan-for-franklin-data-center?_amp=true",
+      "access_caveat": "Press report; official agenda/minutes packet was not accessible in the search pass.",
+      "evidence_note": "Tabled action is not approval and is reported only with the source caveat."
+    },
+    {
+      "date": "2026-02-05",
+      "date_precision": "day",
+      "government_body": "Franklin Planning and Zoning Commission (reported by Louisville Public Media)",
+      "action_type": "preliminary-plan table",
+      "result_status": "Secondary reporting states the commission again tabled the preliminary plan amid the county-ordinance dispute; no construction authorization follows.",
+      "vote_tally": "3–1 to table, one abstention, as reported; official tally not independently retrieved",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.lpm.org/news/2026-02-09/for-the-second-time-franklin-zoning-regulators-table-vote-on-data-center-proposal",
+      "access_caveat": "Press report; official minutes and plan conditions were not publicly retrieved.",
+      "evidence_note": "A procedural table is not a decision on the merits or a building permit."
+    },
+    {
+      "date": "2026-03-03",
+      "date_precision": "day",
+      "government_body": "Franklin Planning and Zoning Commission (reported by WKYU Public Radio)",
+      "action_type": "preliminary development plan",
+      "result_status": "Secondary reporting states the commission approved the preliminary development plan with conditions for three proposed 200,000-square-foot facilities; it is not a final development plan, building permit, or authorization to operate.",
+      "vote_tally": "reported unanimous; official tally/minutes not independently retrieved",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.wkyufm.org/news/2026-03-04/feet-to-the-fire-preliminary-plan-for-franklin-data-center-approved",
+      "access_caveat": "Government body and result are source-reported because the official plan/minutes file was not accessible; no vote is inferred beyond the cited report.",
+      "evidence_note": "Preliminary-plan approval is explicitly separated from final plan, permits, construction, and operation."
+    },
+    {
+      "date": "2026-04-02",
+      "date_precision": "day",
+      "government_body": "Simpson Circuit Court / parties to case 26-CI-00123",
+      "action_type": "land-use litigation filing",
+      "result_status": "A court-filing copy identifies case 26-CI-00123 and challenges the county’s authority and the preliminary-plan actions; litigation leaves the regulatory path contested.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "26-CI-00123",
+      "primary_url": "https://www.wnky.com/content/uploads/2026/04/r/k/Franklin-Data-Center-Lawsuit.pdf",
+      "access_caveat": "Accessible copy is hosted by a news outlet and marked not original; official docket image was not retrieved.",
+      "evidence_note": "Litigation is evidence of a pending dispute, not evidence that the project was cancelled or approved for construction."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "KY-002",
+    "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
+    "regional_id": "KY-002",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,58 @@
+{
+  "master_id": "USDC-0052",
+  "canonical_project": "Microsoft Boyd Farms / Maiden campus",
+  "aliases": [
+    "Catawba County Microsoft campus",
+    "Maiden-Boyd Farms datacenter",
+    "Maiden/Catawba County data-center campus",
+    "Microsoft Boyd Farms",
+    "Microsoft Boyd Farms / Maiden campus"
+  ],
+  "location": {
+    "city": "Maiden",
+    "county": "Catawba County",
+    "state": "NC"
+  },
+  "phase3_stable_id": "NC-003",
+  "status_as_of_cutoff": "Microsoft's May 2026 official construction update states construction was continuing at the Boyd Farms site, with foundations, underground utilities, slabs, electrical vaults, sewer, stormwater, water, fire protection, telecommunications, and medium-voltage work. This establishes company-reported construction progress, not a CO, energized IT load, or service date.",
+  "actions": [
+    {
+      "date": "2024-04-01",
+      "date_precision": "day",
+      "government_body": "Microsoft Local / project construction update",
+      "action_type": "construction start announcement",
+      "result_status": "Microsoft's construction timeline states site construction began April 1, 2024, initially involving clearing and grading. This is a company statement, not a county permit record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://local.microsoft.com/blog/boyd-farms-datacenter-construction-update/",
+      "access_caveat": "Company-reported date; individual county permit number was not exposed.",
+      "evidence_note": "Construction announcement, not occupancy or energization."
+    },
+    {
+      "date": "2026-05",
+      "date_precision": "month",
+      "government_body": "Microsoft Local / project construction update",
+      "action_type": "construction progress announcement",
+      "result_status": "Microsoft reported continuing construction, foundations, underground utilities, electrical/slab work, and near-complete south-entrance sewer, stormwater, water, and fire-protection utilities; it also said the general contractor changed to Clark Construction.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://local.microsoft.com/blog/boyd-farms-datacenter-construction-update/",
+      "access_caveat": "Company update; no building permit, inspection, CO, interconnection, or power-on record was attached.",
+      "evidence_note": "Construction progress, not proof of live service."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "NC-003",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "NC-003",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

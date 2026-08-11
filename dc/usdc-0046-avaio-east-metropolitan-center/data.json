@@ -1,0 +1,45 @@
+{
+  "master_id": "USDC-0046",
+  "canonical_project": "AVAIO East Metropolitan Center",
+  "aliases": [
+    "AVAIO Digital Taurus",
+    "AVAIO East Metropolitan Center",
+    "Brandon data center campus",
+    "Rankin County AVAIO campus"
+  ],
+  "location": {
+    "city": "Brandon",
+    "county": "Rankin County",
+    "state": "MS"
+  },
+  "phase3_stable_id": "MS-002",
+  "status_as_of_cutoff": "State-announced/early development. Mississippi’s announcement says MDA approved the data-center tax exemption and forecasts completion in the first half of 2027; no accessible local site-plan, building, environmental, CO, or energization record was found.",
+  "actions": [
+    {
+      "date": "2025-08-19",
+      "date_precision": "day",
+      "government_body": "Office of the Governor of Mississippi / Mississippi Development Authority",
+      "action_type": "state announcement and tax-incentive status",
+      "result_status": "Mississippi announced AVAIO Digital Taurus at the East Metropolitan Center in Brandon, stated that MDA approved the state Data Center Enterprises tax exemption, and described Rankin County and Brandon assistance; no local approval tally was published.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://governorreeves.ms.gov/avaio-digital-to-locate-6-billion-data-center-campus-in-rankin-county-campus-represents-the-third-largest-economic-development-project-in-state-history/",
+      "access_caveat": "State tax status and local assistance statements are not a city/county building permit or proof of construction.",
+      "evidence_note": "The state forecast says completion in H1 2027; no actual completion or energization is inferred."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MS-002",
+    "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
+    "regional_id": "MS-002",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

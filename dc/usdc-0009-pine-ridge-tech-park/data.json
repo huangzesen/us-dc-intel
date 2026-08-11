@@ -1,0 +1,56 @@
+{
+  "master_id": "USDC-0009",
+  "canonical_project": "Pine Ridge Tech Park",
+  "aliases": [
+    "Eagle Rock Partners Pine Ridge",
+    "Pine Ridge Tech Park",
+    "Twiggs County proposed data center"
+  ],
+  "location": {
+    "city": null,
+    "county": "Twiggs County",
+    "state": "GA"
+  },
+  "phase3_stable_id": "GA-006",
+  "status_as_of_cutoff": "Twiggs County published an application and public-hearing procedure for the proposed project. A local report said rezoning was approved, but the ordinance/minutes and vote tally were not located; no permit, construction, CO, or energization evidence was found.",
+  "actions": [
+    {
+      "date": "2025-09-12",
+      "date_precision": "day",
+      "government_body": "Twiggs County",
+      "action_type": "planning / public-hearing materials",
+      "result_status": "County posted the data-center application, Planning and Zoning hearing procedure, public Q&A notice, public-hearing agenda, and Pine Ridge environmental-study package. The notice itself does not state a rezoning approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.twiggscounty.us/notice-data-center-application-hearing-documents/",
+      "access_caveat": "Official notice and hearing materials were accessible; an enacted rezoning ordinance or minutes was not located in the reviewed surface.",
+      "evidence_note": "Public process, not approval."
+    },
+    {
+      "date": "2025-09-19",
+      "date_precision": "day",
+      "government_body": "Twiggs County (reported by local press)",
+      "action_type": "reported rezoning",
+      "result_status": "Local reporting said the county approved rezoning for a proposed data center. The underlying ordinance, minutes, vote tally, parcel, and permit were not located; the report is therefore retained as unverified source-reported action.",
+      "vote_tally": "not published in official record located",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.gpb.org/news/2025/09/19/rural-twiggs-county-approves-rezoning-for-a-data-center-city-sized-appetite-for-power",
+      "access_caveat": "Press report; no vote inferred from the headline or report.",
+      "evidence_note": "Reported land-use action, not verified government record or construction."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "GA-006",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "GA-006",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

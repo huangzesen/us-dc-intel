@@ -1,0 +1,58 @@
+{
+  "master_id": "USDC-0006",
+  "canonical_project": "Microsoft Union City campus / Burr Computer Environments DRI",
+  "aliases": [
+    "Burr Computer Environments DRI",
+    "Microsoft Union City campus",
+    "Microsoft Union City campus / Burr Computer Environments DRI",
+    "Microsoft Union City data center",
+    "South Fulton Parkway campus"
+  ],
+  "location": {
+    "city": "Union City",
+    "county": "Fulton County",
+    "state": "GA"
+  },
+  "phase3_stable_id": "GA-003",
+  "status_as_of_cutoff": "Georgia DCA record supports a Microsoft-related DRI approval/reporting trail for a proposed three-phase campus. Forecast completion dates are not treated as actual. No Union City/Fulton building permit, CO, construction, utility interconnection, or energization record was located.",
+  "actions": [
+    {
+      "date": "2024-07",
+      "date_precision": "month",
+      "government_body": "Georgia Department of Community Affairs",
+      "action_type": "DRI approval / regional review",
+      "result_status": "DCA market-feasibility record states Burr Computer Environments' DRI application for a Microsoft data-center campus in Union City was approved in July 2024. DCA approval of a DRI filing is not the local zoning or building approval.",
+      "vote_tally": "not published",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://dca.georgia.gov/document/document/2025-515brdghrwllms/download",
+      "access_caveat": "The accessible official record identifies a Microsoft-related project but does not expose a local zoning vote tally or building permit.",
+      "evidence_note": "DRI/regional record; not proof of construction or service."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "City of Union City",
+      "action_type": "public information / data-center information hub",
+      "result_status": "Union City maintained a public data-center information page; the reviewed page did not expose a project-specific site plan, building permit, CO, or utility approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.unioncityga.gov/Explore-UC/Understanding-Data-Centers",
+      "access_caveat": "Information hub is not a project approval record.",
+      "evidence_note": "City information context, not a development decision."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "GA-003",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "GA-003",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

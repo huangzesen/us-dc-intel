@@ -1,0 +1,177 @@
+{
+  "master_id": "USDC-0200",
+  "canonical_project": "Powhatan County data-center campus",
+  "aliases": [
+    "LC West",
+    "Newport Equities",
+    "Powhatan County data-center campus",
+    "combined 181-acre campus"
+  ],
+  "location": {
+    "city": "Unincorporated Powhatan County",
+    "county": "Powhatan County",
+    "state": "VA"
+  },
+  "phase3_stable_id": "VA-005",
+  "status_as_of_cutoff": "Two related land-use tracks were located. The 119.9-acre LC West rezoning/CUP was approved by the Board in October 2024 after Planning Commission denial; the official signed ordinance and Board vote packet were not directly retrieved. The 61.8-acre Newport rezoning and CUP were approved 5-0 on October 27, 2025. No building permit, CO, construction start, or utility/environmental completion record was found.",
+  "actions": [
+    {
+      "date": "2024-05-07",
+      "date_precision": "day",
+      "government_body": "Powhatan County Planning Commission",
+      "action_type": "land-use work session / informational discussion",
+      "result_status": "Commission held an informational discussion for LC West case 24-02-REZ involving approximately 119.9 acres and a proposed three-building data-center program. No vote was recorded in the minutes.",
+      "vote_tally": "no vote recorded",
+      "case_or_ordinance_permit_number": "24-02-REZ",
+      "primary_url": "https://www.powhatanva.gov/AgendaCenter/ViewFile/Minutes/_05072024-1166",
+      "access_caveat": "Official minutes are accessible and distinguish the work session from a public hearing.",
+      "evidence_note": "Informational land-use discussion, not approval."
+    },
+    {
+      "date": "2024-08-06",
+      "date_precision": "day",
+      "government_body": "Powhatan County Planning Commission",
+      "action_type": "rezoning public hearing / procedural deferral",
+      "result_status": "Commission deferred LC West rezoning case 24-02-REZ to September 3, 2024.",
+      "vote_tally": "5-0",
+      "case_or_ordinance_permit_number": "24-02-REZ",
+      "primary_url": "https://www.powhatanva.gov/AgendaCenter/ViewFile/Minutes/_08062024-1184",
+      "access_caveat": "Official minutes publish the tally.",
+      "evidence_note": "Deferral is not approval."
+    },
+    {
+      "date": "2024-08-06",
+      "date_precision": "day",
+      "government_body": "Powhatan County Planning Commission",
+      "action_type": "conditional-use public hearing / procedural deferral",
+      "result_status": "Commission deferred LC West conditional-use case 24-03-CUP to September 3, 2024.",
+      "vote_tally": "5-0",
+      "case_or_ordinance_permit_number": "24-03-CUP",
+      "primary_url": "https://www.powhatanva.gov/AgendaCenter/ViewFile/Minutes/_08062024-1184",
+      "access_caveat": "Official minutes publish the tally.",
+      "evidence_note": "Deferral is not approval."
+    },
+    {
+      "date": "2024-09-03",
+      "date_precision": "day",
+      "government_body": "Powhatan County Planning Commission",
+      "action_type": "rezoning recommendation",
+      "result_status": "Commission denied 24-02-REZ.",
+      "vote_tally": "4-1",
+      "case_or_ordinance_permit_number": "24-02-REZ",
+      "primary_url": "https://www.powhatanva.gov/AgendaCenter/ViewFile/Minutes/_09032024-1197",
+      "access_caveat": "Planning Commission action is a recommendation in the county land-use process, not the final Board decision.",
+      "evidence_note": "Never substitute the Commission recommendation for the Board's later action."
+    },
+    {
+      "date": "2024-09-03",
+      "date_precision": "day",
+      "government_body": "Powhatan County Planning Commission",
+      "action_type": "conditional-use recommendation",
+      "result_status": "Commission denied 24-03-CUP.",
+      "vote_tally": "4-1",
+      "case_or_ordinance_permit_number": "24-03-CUP",
+      "primary_url": "https://www.powhatanva.gov/AgendaCenter/ViewFile/Minutes/_09032024-1197",
+      "access_caveat": "Planning Commission action is a recommendation in the county land-use process, not the final Board decision.",
+      "evidence_note": "Never substitute the Commission recommendation for the Board's later action."
+    },
+    {
+      "date": "2024-10-28",
+      "date_precision": "day",
+      "government_body": "Powhatan County Board of Supervisors",
+      "action_type": "rezoning ordinance",
+      "result_status": "Published county archive/index materials identify O-2024-14 / 24-02-REZ as the Board's approval rezoning approximately 119.9 acres from A-10 to I-1 with proffers. Direct signed ordinance retrieval was unsuccessful; the official archive packet is the primary link and an indexed secondary copy reports a 3-2 Board vote. No vote is inferred beyond that published tally.",
+      "vote_tally": "3-2 (published in indexed materials; official signed ordinance not retrieved)",
+      "case_or_ordinance_permit_number": "O-2024-14; 24-02-REZ",
+      "primary_url": "https://www.powhatanva.gov/AgendaCenter/ViewFile/Agenda/_12152025-1382",
+      "access_caveat": "The direct official packet was not fully extractable in this run; a signed copy was indexed on a secondary host. Treat the action and tally as source-reported pending direct packet retrieval.",
+      "evidence_note": "Rezoning ordinance, not building permit."
+    },
+    {
+      "date": "2024-10-28",
+      "date_precision": "day",
+      "government_body": "Powhatan County Board of Supervisors",
+      "action_type": "conditional-use ordinance",
+      "result_status": "Published county archive/index materials identify O-2024-15 / 24-03-CUP as the Board's approval of the LC West conditional use. Direct signed ordinance retrieval was unsuccessful; no vote is inferred beyond the published 3-2 tally.",
+      "vote_tally": "3-2 (published in indexed materials; official signed ordinance not retrieved)",
+      "case_or_ordinance_permit_number": "O-2024-15; 24-03-CUP",
+      "primary_url": "https://www.powhatanva.gov/AgendaCenter/ViewFile/Agenda/_12152025-1382",
+      "access_caveat": "The direct official packet was not fully extractable in this run; signed ordinance retrieval remains an access caveat.",
+      "evidence_note": "CUP approval, not building permit or construction authorization."
+    },
+    {
+      "date": "2025-09-02",
+      "date_precision": "day",
+      "government_body": "Powhatan County Planning Commission",
+      "action_type": "rezoning public hearing / procedural deferral",
+      "result_status": "Commission deferred Newport case 25-11-REZ-C for 30 days.",
+      "vote_tally": "5-0",
+      "case_or_ordinance_permit_number": "25-11-REZ-C",
+      "primary_url": "https://powhatanva.gov/AgendaCenter/ViewFile/Minutes/_09022025-1339",
+      "access_caveat": "Official minutes are accessible.",
+      "evidence_note": "Deferral is not approval."
+    },
+    {
+      "date": "2025-09-02",
+      "date_precision": "day",
+      "government_body": "Powhatan County Planning Commission",
+      "action_type": "conditional-use public hearing / procedural deferral",
+      "result_status": "Commission deferred Newport case 25-12-CUP for 30 days.",
+      "vote_tally": "5-0",
+      "case_or_ordinance_permit_number": "25-12-CUP",
+      "primary_url": "https://powhatanva.gov/AgendaCenter/ViewFile/Minutes/_09022025-1339",
+      "access_caveat": "Official minutes are accessible.",
+      "evidence_note": "Deferral is not approval."
+    },
+    {
+      "date": "2025-10-07",
+      "date_precision": "day",
+      "government_body": "Powhatan County Planning Commission",
+      "action_type": "rezoning and conditional-use recommendations",
+      "result_status": "Commission denied Newport 25-11-REZ-C and 25-12-CUP.",
+      "vote_tally": "5-0 for each case",
+      "case_or_ordinance_permit_number": "25-11-REZ-C; 25-12-CUP",
+      "primary_url": "https://powhatanva.gov/AgendaCenter/ViewFile/Minutes/_10072025-1358",
+      "access_caveat": "Planning Commission recommendations are not the final Board action.",
+      "evidence_note": "Recommendations, not construction permits."
+    },
+    {
+      "date": "2025-10-27",
+      "date_precision": "day",
+      "government_body": "Powhatan County Board of Supervisors",
+      "action_type": "rezoning ordinance",
+      "result_status": "Board approved O-2025-31, rezoning Newport's 61.8 acres at Tax Map 43-62 from A-10 to I-1 with data-center proffers.",
+      "vote_tally": "5-0",
+      "case_or_ordinance_permit_number": "O-2025-31; 25-11-REZ-C",
+      "primary_url": "https://www.powhatanva.gov/AgendaCenter/ViewFile/Minutes/_10272025-1363",
+      "access_caveat": "Official Board minutes are accessible.",
+      "evidence_note": "Rezoning approval; not a building permit or occupancy approval."
+    },
+    {
+      "date": "2025-10-27",
+      "date_precision": "day",
+      "government_body": "Powhatan County Board of Supervisors",
+      "action_type": "conditional-use ordinance / height",
+      "result_status": "Board approved O-2025-32, allowing the Newport data-center conditional use and associated height change from 45 to 75 feet under the proffers.",
+      "vote_tally": "5-0",
+      "case_or_ordinance_permit_number": "O-2025-32; 25-12-CUP",
+      "primary_url": "https://www.powhatanva.gov/AgendaCenter/ViewFile/Minutes/_10272025-1363",
+      "access_caveat": "Official Board minutes are accessible.",
+      "evidence_note": "CUP/height approval; minutes state Dominion's will-serve was not a guarantee and utility improvements remained a proffer obligation."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "VA-005",
+    "phase3_source_file": "phase3/county_va_md_wv.json",
+    "regional_id": "VA-005",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

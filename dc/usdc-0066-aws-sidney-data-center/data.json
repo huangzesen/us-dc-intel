@@ -1,0 +1,90 @@
+{
+  "master_id": "USDC-0066",
+  "canonical_project": "AWS Sidney data center",
+  "aliases": [
+    "AWS Sidney data center"
+  ],
+  "location": {
+    "city": "Sidney",
+    "county": "Shelby",
+    "state": "OH"
+  },
+  "phase3_stable_id": null,
+  "status_as_of_cutoff": null,
+  "actions": [
+    {
+      "date": "2025-09-08",
+      "body": "Sidney City Council",
+      "action_type": "CRA designation",
+      "exact_result_status": "Resolution 69-25 designated the city-wide Community Reinvestment Area referenced by the later AWS CRA agreement; vote tally was not stated in the linked agreement.",
+      "vote_tally": null,
+      "case_or_permit_number": "Resolution 69-25",
+      "primary_url": "https://www.sidneyoh.com/526/Proposed-Data-Center-FAQ",
+      "access_caveat": "The official FAQ links the resolution but not a roll-call/minutes excerpt."
+    },
+    {
+      "date": "2025-10-08",
+      "body": "Sidney City School District Board; Upper Valley Career Center; Ohio Tax Credit Authority",
+      "action_type": "school-compensation and state tax action",
+      "exact_result_status": "The AWS CRA agreement recites school-board approval on 2025-10-08 and TCA authorization of a Sixth Amendment to the tax-credit agreement; separate vote tallies were not published in the linked city file.",
+      "vote_tally": null,
+      "case_or_permit_number": "Resolutions 81-25 and 82-25 are linked by the city; TCA agreement amendment referenced",
+      "primary_url": "https://www.sidneyoh.com/526/Proposed-Data-Center-FAQ",
+      "access_caveat": "The city page links government records; the agreement contains confidential project exhibits and does not supply every board roll call."
+    },
+    {
+      "date": "2025-10-27",
+      "body": "Sidney City Council",
+      "action_type": "CRA agreement",
+      "exact_result_status": "Council passed Resolution 80-25 authorizing the City Manager to enter a Community Reinvestment Area Agreement with Amazon Data Services; the agreement provides for a 30-year, 100% exemption for qualifying buildings under its terms.",
+      "vote_tally": null,
+      "case_or_permit_number": "Resolution 80-25",
+      "primary_url": "https://www.sidneyoh.com/DocumentCenter/View/4356/80-25---Authorizing-a-CRA-Agreement---Amazon-Data-Services-Inc-PDF",
+      "access_caveat": "Resolution PDF is accessible; it does not publish a numeric roll-call tally."
+    },
+    {
+      "date": "2026-04-27",
+      "body": "Sidney City Council",
+      "action_type": "water/wastewater service resolution",
+      "exact_result_status": "Council passed Resolution 26-26 authorizing the City Manager to enter the AWS water and wastewater service agreement. The agreement identifies the site parcels and reserves up to 1.0 million gallons/day cooling-water supply and up to 390,493 gallons/day sewer discharge capacity, subject to its terms.",
+      "vote_tally": null,
+      "case_or_permit_number": "Resolution 26-26",
+      "primary_url": "https://www.sidneyoh.com/DocumentCenter/View/4473/26-26---Authorize-Water-and-Sewer-Service-Agreement---Amazon-Web-Services-PDF",
+      "access_caveat": "This is a utility/water agreement, not a building permit; numeric vote tally is not published in the resolution."
+    },
+    {
+      "date": "2026-04-27",
+      "body": "Sidney City Council",
+      "action_type": "development agreement resolution",
+      "exact_result_status": "Council passed Resolution 27-26 authorizing the City Manager to enter a development agreement with Amazon Web Services for the 2388 W. Millcreek Road campus.",
+      "vote_tally": null,
+      "case_or_permit_number": "Resolution 27-26",
+      "primary_url": "https://www.sidneyoh.com/DocumentCenter/View/4474/27-26---Authorizing-Infrastructure-Development-Agreement---Amazon-Web-Services-PDF",
+      "access_caveat": "The linked agreement includes confidential fields and does not publish a numeric roll call."
+    },
+    {
+      "date": "2026-05-14",
+      "body": "City of Sidney",
+      "action_type": "grading permit",
+      "exact_result_status": "City FAQ lists a grading permit for the AWS data center at 2388 W. Millcreek Road.",
+      "vote_tally": null,
+      "case_or_permit_number": "Grading Permit dated 2026-05-14",
+      "primary_url": "https://www.sidneyoh.com/DocumentCenter/View/4528/Grading-Permit-5-14-2026---AWS-Data-Center-2388-W-Millcreek-Road",
+      "access_caveat": "Grading authorization is not a building permit, certificate of occupancy, or energization record."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "OH-SIDNEY-AWS",
+    "phase3_source_file": "phase3/county_oh_in.json",
+    "regional_id": "OH-SIDNEY-AWS",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

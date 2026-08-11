@@ -1,0 +1,42 @@
+{
+  "master_id": "USDC-0173",
+  "canonical_project": "Antelope data center",
+  "aliases": [
+    "Antelope data center"
+  ],
+  "location": {
+    "city": "Near Cedar City",
+    "county": "Iron",
+    "state": "UT"
+  },
+  "phase3_stable_id": "US-UT-ANTELOPE-CEDAR-CITY-2026",
+  "status_as_of_cutoff": "Proposed/under planning in Utah government inventory; no Iron County approval, permit, parcel, or utility record located.",
+  "actions": [
+    {
+      "date": "2026-05-26",
+      "date_precision": "day",
+      "government_body": "Grand County Planning Commission",
+      "action_type": "government data-center inventory",
+      "result_status": "The inventory lists Antelope near Cedar City, Iron County, as proposed at 1,000 MW and identifies Pronghorn Development LLP. It does not supply an Iron County entitlement or permit.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.utah.gov/pmn/files/1444799.pdf",
+      "access_caveat": "Government compiled inventory; capacity is approximate and not a load allocation or permit.",
+      "evidence_note": "Body/context retained from prior file: Grand County Planning Commission staff report / Utah public-notice system."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-UT-ANTELOPE-CEDAR-CITY-2026",
+    "phase3_source_file": "phase3/county_ok_az_ut.json",
+    "regional_id": "US-UT-ANTELOPE-CEDAR-CITY-2026",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

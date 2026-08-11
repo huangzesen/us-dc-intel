@@ -1,0 +1,81 @@
+{
+  "master_id": "USDC-0090",
+  "canonical_project": "Prime Data Centers Sacramento SMF01/SMF02 campus",
+  "aliases": [
+    "McClellan Park data-center expansion",
+    "PLNP2024-00238",
+    "Prime Data Centers Sacramento SMF01/SMF02 campus",
+    "SMF01-02"
+  ],
+  "location": {
+    "city": "McClellan / North Highlands community",
+    "county": "Sacramento County",
+    "state": "CA"
+  },
+  "phase3_stable_id": "US-CA-PRIME-SACRAMENTO-SMF01-02-2024",
+  "status_as_of_cutoff": "County records show a pending project viewer entry for a special development permit and major design review, with the Zoning Administrator disposition recorded as Approved on 2026-02-05. Prime separately announced an SMF02 groundbreaking on 2026-05-07 and described 150,000 square feet/18 MW, but no county building permit, final inspection, CO, utility interconnection, energization, or commissioning record was located.",
+  "actions": [
+    {
+      "date": "2024-12-30",
+      "date_precision": "day",
+      "government_body": "Sacramento County Planning Division",
+      "action_type": "special development permit / major design review application",
+      "result_status": "County accepted PLNP2024-00238 for a proposed data-center expansion with incidental administrative offices on 7.74 acres in the South McClellan subarea; the application record identifies Prime Data Centers and the requested setback/parking deviations.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PLNP2024-00238; SPZ-DRS",
+      "primary_url": "https://planningdocuments.saccounty.net/ViewProjectDetails.aspx?ControlNum=PLNP2024-00238",
+      "access_caveat": "Application filing is not approval or a building permit. The county viewer contains many attachments, and the address/applicant fields vary between the viewer and hearing agenda.",
+      "evidence_note": "Official county application and parcel trail."
+    },
+    {
+      "date": "2025-07-24",
+      "date_precision": "day",
+      "government_body": "Sacramento County Design Review Advisory Committee",
+      "action_type": "design review agenda",
+      "result_status": "The agenda placed PLNP2024-00238 before the committee for a special development permit and design review concerning APNs 215-0330-069 and -070 at 2345 McClellan Park Drive; the agenda does not establish a final approval or vote tally.",
+      "vote_tally": "not published in the reviewed agenda",
+      "case_or_ordinance_permit_number": "PLNP2024-00238",
+      "primary_url": "https://planning.saccounty.gov/PlansandProjectsIn-Progress/Design%20Review%20Committee/07.24.25%20DRAC%20Agenda.pdf",
+      "access_caveat": "Agenda placement is not final land-use approval and is not a building permit.",
+      "evidence_note": "Review-stage government action."
+    },
+    {
+      "date": "2026-02-05",
+      "date_precision": "day",
+      "government_body": "Sacramento County Zoning Administrator",
+      "action_type": "special development permit / design review approval",
+      "result_status": "The county viewer records the Zoning Administrator disposition as Approved, subject to staff-report findings and conditions; it also records substantial compliance with design guidelines and the environmental Addendum as adequate. The viewer's project status remains Pending.",
+      "vote_tally": "administrative decision; no roll-call tally published",
+      "case_or_ordinance_permit_number": "PLNP2024-00238; SPZ-DRS; DRS-major",
+      "primary_url": "https://planningdocuments.saccounty.net/ViewProjectDetails.aspx?ControlNum=PLNP2024-00238",
+      "access_caveat": "The accessible viewer states the disposition but did not expose a signed decision document, building permit number, inspection record, or CO.",
+      "evidence_note": "Verified local land-use approval; not proof of building construction, power-on, or service."
+    },
+    {
+      "date": "2026-05-07",
+      "date_precision": "day",
+      "government_body": "Not a government action; Prime Data Centers",
+      "action_type": "developer groundbreaking announcement",
+      "result_status": "Prime announced that it broke ground on SMF02 and described the facility as 150,000 square feet with 18 MW of critical IT load. This is company evidence and is not substituted for a county building permit or inspection.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://primedatacenters.com/news/prime-data-centers-breaks-ground-on-second-sacramento-data-center-expanding-regional-campus-footprint/",
+      "access_caveat": "Company announcement; the reviewed county records do not independently verify groundbreaking or the announced MW.",
+      "evidence_note": "Announcement kept separate from government approval."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-CA-PRIME-SACRAMENTO-SMF01-02-2024",
+    "phase3_source_file": "phase3/county_ca_or.json",
+    "regional_id": "US-CA-PRIME-SACRAMENTO-SMF01-02-2024",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,81 @@
+{
+  "master_id": "USDC-0199",
+  "canonical_project": "Corscale Gainesville Crossing campus / second building",
+  "aliases": [
+    "Building 5",
+    "Corscale Gainesville Crossing campus / second building",
+    "Corscale Gainesville Crossing second building",
+    "Gainesville Crossing Data Center"
+  ],
+  "location": {
+    "city": "Gainesville",
+    "county": "Prince William County",
+    "state": "VA"
+  },
+  "phase3_stable_id": "VA-004",
+  "status_as_of_cutoff": "Multiple Prince William land-plan/site-plan and stormwater-related records were found, including a proposed Building 5 case. The county's July 2026 DCOZOD attachment expressly says it is not a zoning or other final determination. Developer-reported construction is not treated as a government construction approval.",
+  "actions": [
+    {
+      "date": "2022-12-14",
+      "date_precision": "day",
+      "government_body": "Prince William County",
+      "action_type": "site plan / land-disturbance approval",
+      "result_status": "MS4 report lists plan approval for Gainesville Crossing Data Center Phase 1, 65.650 acres, with SPR2022-00346 and LND2023-00277.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "SPR2022-00346; LND2023-00277",
+      "primary_url": "https://www.pwcva.gov/assets/2023-10/FY23%20MS-4%20Report%20Final.pdf",
+      "access_caveat": "Annual MS4 report summarizes plan/land-permit records; it is not a building permit or certificate of occupancy.",
+      "evidence_note": "Land/site and stormwater record, not building authorization."
+    },
+    {
+      "date": "2024-03-15",
+      "date_precision": "day",
+      "government_body": "Prince William County",
+      "action_type": "site plan / land-disturbance approval",
+      "result_status": "MS4 report lists plan approval for 18.040 acres at 13700 University Boulevard with SPR2024-00106 and LND2024-00153.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "SPR2024-00106; LND2024-00153",
+      "primary_url": "https://www.pwcva.gov/assets/2024-10/FY24%20MS4%20Report%20Final%20Draft_compressed.pdf",
+      "access_caveat": "Annual MS4 report is a summary record; no building permit or CO is established by it.",
+      "evidence_note": "Land/site and stormwater record, not building authorization."
+    },
+    {
+      "date": "2024-09-16",
+      "date_precision": "day",
+      "government_body": "Prince William County",
+      "action_type": "site plan / land-disturbance approval",
+      "result_status": "MS4 report lists plan approval for 74.420 acres at 13700 University Boulevard, developer Patrinely Group LLC, with SPR2024-00316 and LND2025-00071.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "SPR2024-00316; LND2025-00071",
+      "primary_url": "https://www.pwcva.gov/assets/2026-07/MS4%20FY2025%20Final%20July%202026%20Revised-compressed_0.pdf",
+      "access_caveat": "Annual MS4 report is a summary record; no building permit or CO is established by it.",
+      "evidence_note": "Land/site and stormwater record, not building authorization."
+    },
+    {
+      "date": "2026-06-30",
+      "date_precision": "day",
+      "government_body": "Prince William County Planning Office",
+      "action_type": "data-center overlay eligibility / administrative screening",
+      "result_status": "DCOZOD attachment lists Building 5, 23.65 acres, GPIN 7497-57-7904, 13750 University Boulevard, proposed two-story data center, case SPR2024-00407. Attachment states it is not a zoning determination or other final determination by county staff.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "SPR2024-00407; GPIN 7497-57-7904",
+      "primary_url": "https://www.pwcva.gov/assets/2026-07/DPA2026-00006.pdf",
+      "access_caveat": "The county's express disclaimer controls; this record cannot be read as approval.",
+      "evidence_note": "Administrative eligibility/attachment, not a construction permit."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "VA-004",
+    "phase3_source_file": "phase3/county_va_md_wv.json",
+    "regional_id": "VA-004",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

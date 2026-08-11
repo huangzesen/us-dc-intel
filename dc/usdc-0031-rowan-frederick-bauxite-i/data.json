@@ -1,0 +1,82 @@
+{
+  "master_id": "USDC-0031",
+  "canonical_project": "Rowan Frederick / Bauxite I",
+  "aliases": [
+    "Bauxite I",
+    "Quantum Frederick phase",
+    "Rowan Digital Infrastructure",
+    "Rowan Frederick",
+    "Rowan Frederick / Bauxite I"
+  ],
+  "location": {
+    "city": "Frederick",
+    "county": "Frederick County",
+    "state": "MD"
+  },
+  "phase3_stable_id": "MD-001",
+  "status_as_of_cutoff": "Frederick County planning approvals and Maryland environmental records were found. MDE's December 2025 compliance letter documents construction activity before a final air permit; it is not itself a permit approval. Building permit, CO, utility energization, and first IT load were not located.",
+  "actions": [
+    {
+      "date": "2024-01-10",
+      "date_precision": "day",
+      "government_body": "Frederick County Planning Commission",
+      "action_type": "preliminary plan and site-plan approval",
+      "result_status": "Official agenda/staff materials identify Quantum Frederick Section 2 preliminary plan revision PP275802 and Bauxite Data Center site plan SP275808 for a 777,151-square-foot critical digital infrastructure facility on 151.17 acres; county staff record the plans as conditionally approved on this date. Rowan's project page reports a unanimous 5-0 Commission vote; the county staff record is the primary approval source.",
+      "vote_tally": "5-0 (reported by Rowan; county staff record confirms conditional approval)",
+      "case_or_ordinance_permit_number": "PP275802; SP275808",
+      "primary_url": "https://frederickcountymd.gov/ArchiveCenter/ViewFile/Item/14901",
+      "access_caveat": "County agenda/staff materials are official; vote tally is corroborated by Rowan because the full county minutes were not separately retrieved.",
+      "evidence_note": "Site/preliminary plan approval, not a building permit or CO."
+    },
+    {
+      "date": "2025-01-02",
+      "date_precision": "day",
+      "government_body": "Maryland Department of the Environment",
+      "action_type": "environmental / brownfields EMP approval",
+      "result_status": "MDE record identifies approval of the Bauxite II environmental monitoring plan for a temporary overhead distribution line. This is a site/infrastructure environmental approval and does not establish Bauxite I building occupancy.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://mde.maryland.gov/programs/land/MarylandBrownfieldVCP/SiteAssets/Pages/remediationsites/Final%20Bauxite%202%20EMP%20Temp%20OH%20Dist%20Line%20V2%20Jan%202025.pdf",
+      "access_caveat": "MDE document is a PDF environmental record; it concerns Bauxite II/site infrastructure rather than a Bauxite I building permit.",
+      "evidence_note": "Environmental/site infrastructure action, not construction permit."
+    },
+    {
+      "date": "2025-03-18",
+      "date_precision": "day",
+      "government_body": "Maryland Department of the Environment",
+      "action_type": "environmental / brownfields EMP approval",
+      "result_status": "MDE approved the Bauxite II environmental monitoring plan.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://mde.maryland.gov/programs/land/MarylandBrownfieldVCP/SiteAssets/Pages/remediationsites/BauxiteII%20EMP%20Approval.pdf",
+      "access_caveat": "Official PDF is accessible; it is a brownfields environmental approval, not a building permit or CO.",
+      "evidence_note": "Site environmental action."
+    },
+    {
+      "date": "2025-12-31",
+      "date_precision": "day",
+      "government_body": "Maryland Department of the Environment",
+      "action_type": "environmental compliance / construction letter",
+      "result_status": "MDE wrote that construction activity was occurring at Bauxite I before the final air permit and identified compliance concerns. The letter is a compliance record and warning, not a final air-permit approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://mde.maryland.gov/programs/land/MarylandBrownfieldVCP/Documents/Rowan%20Letter%20to%20Jordan%20Crandall%20re%20Bauxite%20I%20Construction%2012.31.2025.pdf",
+      "access_caveat": "Letter does not substitute for a building permit, final air permit, or occupancy record.",
+      "evidence_note": "Construction activity/compliance action; do not convert it into a permit approval."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MD-001",
+    "phase3_source_file": "phase3/county_va_md_wv.json",
+    "regional_id": "MD-001",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

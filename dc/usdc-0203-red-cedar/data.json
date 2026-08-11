@@ -1,0 +1,79 @@
+{
+  "master_id": "USDC-0203",
+  "canonical_project": "Red Cedar",
+  "aliases": [
+    "Balloonist LLC data center",
+    "Red Cedar"
+  ],
+  "location": {
+    "city": "Menomonie",
+    "county": "Dunn",
+    "state": "WI"
+  },
+  "phase3_stable_id": "WI-MENOMONIE-BALLOONIST-REDCEDAR",
+  "status_as_of_cutoff": "Annexation and I-1 rezoning were adopted, but the City says adoption does not guarantee a data center; no final site plan, building permit, construction, CO, or energization was located. Later public materials preserve continued uncertainty.",
+  "actions": [
+    {
+      "date": "2025-07-28",
+      "date_precision": "day",
+      "government_body": "Menomonie Plan Commission",
+      "action_type": "rezoning recommendation process",
+      "result_status": "Official agenda/memorandum identifies Balloonist LLC, the CTH B lands, and the intended data-center use; it says the Plan Commission would vote on a recommendation. The cited agenda does not supply the final recommendation tally.",
+      "vote_tally": "not published in cited agenda",
+      "case_or_ordinance_permit_number": "Proposed Ordinance 2025-05",
+      "primary_url": "https://www.menomonie-wi.gov/AgendaCenter/ViewFile/Agenda/_07282025-460",
+      "access_caveat": "Agenda/memorandum, not final council action.",
+      "evidence_note": "Planning record identifies intended use without inferring approval."
+    },
+    {
+      "date": "2025-08-04",
+      "date_precision": "day",
+      "government_body": "Menomonie Common Council",
+      "action_type": "annexation and temporary zoning",
+      "result_status": "Official council minutes record adoption of Ordinance 2025-04 annexing lands along CTH B and establishing temporary Agricultural zoning.",
+      "vote_tally": "8 ayes; 3 noes",
+      "case_or_ordinance_permit_number": "Ordinance 2025-04",
+      "primary_url": "https://www.menomonie-wi.gov/AgendaCenter/ViewFile/Minutes/_08182025-473",
+      "access_caveat": "The cited August 18 minutes approve the August 4 minutes and reproduce the August 4 action; no data-center building authorization follows.",
+      "evidence_note": "Annexation/temporary zoning, separate from final industrial zoning and permits."
+    },
+    {
+      "date": "2025-08-04",
+      "date_precision": "day",
+      "government_body": "Menomonie Common Council",
+      "action_type": "rezoning to Restricted Industrial I-1",
+      "result_status": "City press release says Council adopted Ordinance 2025-05 rezoning the CTH B lands from Agriculture to I-1 for a potential data-center development and expressly says adoption does not guarantee a data center will be developed.",
+      "vote_tally": "8–3",
+      "case_or_ordinance_permit_number": "Ordinance 2025-05",
+      "primary_url": "https://www.menomonie-wi.gov/DocumentCenter/View/2521/8525-Press-Release-Ordinance-2025-05-Rezone-PDF",
+      "access_caveat": "Official city press release; it is a summary, while the result/tally is explicit in the release.",
+      "evidence_note": "Zoning action with explicit non-guarantee preserved."
+    },
+    {
+      "date": "2026-06-30",
+      "date_precision": "day",
+      "government_body": "City of Menomonie",
+      "action_type": "data-center ordinance update",
+      "result_status": "City FAQ/press-release index links a June 30, 2026 update concerning the data-center ordinance. The accessible index does not expose enough text to assign a new substantive result; no permit or construction is inferred.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.menomonie-wi.gov/527/Potential-Data-Center-FAQ",
+      "access_caveat": "Dynamic city index; linked PDF text was not fully exposed in the accessible extraction.",
+      "evidence_note": "Access/negative finding retained rather than guessing the update's substance."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "WI-MENOMONIE-BALLOONIST-REDCEDAR",
+    "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
+    "regional_id": "WI-MENOMONIE-BALLOONIST-REDCEDAR",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

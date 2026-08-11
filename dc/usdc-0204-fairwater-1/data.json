@@ -1,0 +1,84 @@
+{
+  "master_id": "USDC-0204",
+  "canonical_project": "Fairwater 1",
+  "aliases": [
+    "Fairwater",
+    "Fairwater 1",
+    "Microsoft Mount Pleasant AI campus",
+    "Microsoft Mount Pleasant Fairwater campus",
+    "Microsoft Wisconsin datacenter"
+  ],
+  "location": {
+    "city": "Mount Pleasant",
+    "county": "Racine",
+    "state": "WI"
+  },
+  "phase3_stable_id": "WI-MOUNT-PLEASANT-MICROSOFT-FAIRWATER",
+  "status_as_of_cutoff": "Microsoft's first facility was company-reported fully operational on 2026-06-23; official/local records and Microsoft state that a second adjacent facility remains under construction. Full campus completion is not established.",
+  "actions": [
+    {
+      "date": "2023-11-13",
+      "date_precision": "day",
+      "government_body": "Village of Mount Pleasant Community Development Authority",
+      "action_type": "expansion-agreement discussion",
+      "result_status": "Official CDA minutes record discussion of Microsoft purchase/sale and development agreements covering additional land in Areas 2 and 3. The minutes do not record approval by the CDA and are not treated as a board vote.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.mtpleasantwi.gov/Archive.aspx?ADID=4318",
+      "access_caveat": "Discussion minutes; subsequent Village/County actions are not reconstructed from this item.",
+      "evidence_note": "Official local record of agreement process, not approval."
+    },
+    {
+      "date": "2023-10-01",
+      "date_precision": "day",
+      "government_body": "Wisconsin Economic Development Corporation / Wisconsin Department of Revenue",
+      "action_type": "qualified-data-center certification",
+      "result_status": "Wisconsin's official qualified-data-center list identifies Microsoft at 90th Street, Mount Pleasant, certified 2023-10-01 and described as to be constructed. Certification is a tax-exemption eligibility record, not a building permit or CO.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.revenue.wi.gov/Pages/FAQS/ExemptionforQualifiedDataCenter.aspx",
+      "access_caveat": "State tax certification page; it does not give building-level permit or energization status.",
+      "evidence_note": "Government tax record tying Microsoft to the Mount Pleasant site."
+    },
+    {
+      "date": "2025-11-10",
+      "date_precision": "day",
+      "government_body": "Village of Mount Pleasant",
+      "action_type": "annual TID report / construction status",
+      "result_status": "The official TID report says Microsoft began construction of the first phase in 2024, with completion expected mid-2026, and describes additional agreements and a second phase announced for 2028. This is municipal financial/reporting context, not a CO.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "TID No. 5",
+      "primary_url": "https://www.mtpleasantwi.gov/DocumentCenter/View/4878/2025-Adopted-Budget-PDF",
+      "access_caveat": "Annual report summarizes project activity and projections; it does not provide the complete permit/inspection register.",
+      "evidence_note": "Government construction-status context."
+    },
+    {
+      "date": "2026-06-23",
+      "date_precision": "day",
+      "government_body": "Microsoft / Village of Mount Pleasant (company announcement)",
+      "action_type": "first-facility completion and operational announcement",
+      "result_status": "Microsoft announced the first Mount Pleasant facility completed and fully operational after equipment was brought online and startup activities occurred in April. The same release says the second adjacent facility remains under construction and is scheduled for 2028; no full-campus completion is claimed.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://news.microsoft.com/source/2026/06/23/microsoft-completes-construction-on-first-datacenter-facility-in-mount-pleasant-wisconsin/",
+      "access_caveat": "Company operational announcement; no government CO or independent energization record was located.",
+      "evidence_note": "Operational claim is limited to first facility; second facility explicitly remains under construction."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "WI-MOUNT-PLEASANT-MICROSOFT-FAIRWATER",
+    "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
+    "regional_id": "WI-MOUNT-PLEASANT-MICROSOFT-FAIRWATER",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [
+      "US-WI-MICROSOFT-MOUNT-PLEASANT-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

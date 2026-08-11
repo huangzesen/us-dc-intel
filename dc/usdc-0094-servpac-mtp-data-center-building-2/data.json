@@ -1,0 +1,56 @@
+{
+  "master_id": "USDC-0094",
+  "canonical_project": "Servpac MTP Data Center Building 2",
+  "aliases": [
+    "MTP Building 2",
+    "Mililani Technology Park expansion",
+    "Servpac MTP Data Center Building 2"
+  ],
+  "location": {
+    "city": "Mililani",
+    "county": "Honolulu County",
+    "state": "HI"
+  },
+  "phase3_stable_id": "US-HI-SERVPAC-MTP-B2-2026",
+  "status_as_of_cutoff": "Company-reported under construction from a 2026-01-22 groundbreaking, with a company Q2 2026 completion target. Completion, CO, energization, commissioning, and live service were not independently verified in official Honolulu records; the company reports 15,500-plus square feet and $13 million, with no MW disclosed.",
+  "actions": [
+    {
+      "date": "2026-01-22",
+      "date_precision": "day",
+      "government_body": "Not a government action; Servpac",
+      "action_type": "groundbreaking announcement",
+      "result_status": "Servpac announced that Building 2 broke ground, adding more than 15,500 square feet on five acres, with a $13 million stated cost and Q2 2026 expected completion.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://servpac.com/mtp-groundbreaking/",
+      "access_caveat": "Company announcement; it does not establish Honolulu permit issuance, inspection, CO, power-on, or service.",
+      "evidence_note": "Company construction claim retained and explicitly labeled."
+    },
+    {
+      "date": "2026-03-09",
+      "date_precision": "day",
+      "government_body": "Not a government action; local construction trade report",
+      "action_type": "construction report",
+      "result_status": "Local construction reporting repeated the groundbreaking and Q2 2026 anticipated completion; no official permit or inspection result was supplied.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://buildingindustryhawaii.com/2026/03/servpac-inc-breaks-ground-on-mtp-data-centers-building-2/",
+      "access_caveat": "Local reporting; not a government permit or CO record.",
+      "evidence_note": "Corroborating construction context only; it does not upgrade the project to complete or live."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-HI-SERVPAC-MTP-B2-2026",
+    "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
+    "regional_id": "US-HI-SERVPAC-MTP-B2-2026",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

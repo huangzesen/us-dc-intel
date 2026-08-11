@@ -1,0 +1,46 @@
+{
+  "master_id": "USDC-0157",
+  "canonical_project": "IREN Sweetwater AI campus",
+  "aliases": [
+    "IREN Sweetwater AI campus",
+    "IREN Texas campus"
+  ],
+  "location": {
+    "city": "Sweetwater",
+    "county": "Nolan",
+    "state": "Texas"
+  },
+  "phase3_stable_id": "US-TX-IREN-SWEETWATER-2025",
+  "status_as_of_cutoff": "IREN reports Sweetwater 1 and 2 under construction with executed grid-connection agreements; no county building/land-use approval record was found.",
+  "actions": [
+    {
+      "id": "A15",
+      "date": "2025-06-30",
+      "body": "U.S. Securities and Exchange Commission",
+      "meeting_date": null,
+      "action_type": "public-company regulatory filing reporting utility/interconnection status",
+      "result_or_status": "IREN's filing reports Sweetwater 1 (1,400 MW) and Sweetwater 2 (600 MW) under development, with paid connection deposits and executed ERCOT-grid connection agreements.",
+      "vote_tally": null,
+      "case_or_number": "IREN Form 10-K for year ended 2025-06-30",
+      "primary_url": "https://www.sec.gov/Archives/edgar/data/1878848/000187884825000063/iren-20250630.htm",
+      "access_caveat": "SEC filing is a company disclosure filed with a regulator, not an ERCOT or county approval order; it does not publish the underlying interconnection agreements.",
+      "notes": "ERCOT/utility status evidence; no vote inferred."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-TX-IREN-SWEETWATER-2025",
+    "phase3_source_file": "phase3/county_tx.json",
+    "regional_id": "US-TX-IREN-SWEETWATER-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-TX-IREN-SWEETWATER-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,92 @@
+{
+  "master_id": "USDC-0148",
+  "canonical_project": "Hanton City Business Park / Revity data-center concept",
+  "aliases": [
+    "Hanton City Business Park / Revity data-center concept",
+    "Smithfield Industrial Park concept",
+    "Woods of Smithfield data-center proposal"
+  ],
+  "location": {
+    "city": "Smithfield",
+    "county": "Providence County",
+    "state": "RI"
+  },
+  "phase3_stable_id": "US-RI-REVITY-HANTON-CITY-SMITHFIELD-2026",
+  "status_as_of_cutoff": "Proposed and locally blocked by data-center restriction activity; construction was not verified. The official April work-session record describes an unsettled six-lot business-park concept, with approximately 559,000 square feet discussed and no fixed data-center lot; later town records concern restriction/policy action, not project approval.",
+  "actions": [
+    {
+      "date": "2026-03-17",
+      "date_precision": "day",
+      "government_body": "Smithfield Town Council as reported by local coverage",
+      "action_type": "project discussion",
+      "result_status": "Local reporting says the developer appeared before the Town Council regarding the proposed Hanton City concept; no approval or permit was established.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Hanton City Business Park",
+      "primary_url": "https://ecori.org/energy-intensive-data-center-proposed-for-woods-of-smithfield/",
+      "access_caveat": "Local environmental reporting; not a Council approval record.",
+      "evidence_note": "Early project context only."
+    },
+    {
+      "date": "2026-04-15",
+      "date_precision": "day",
+      "government_body": "Smithfield Town Council",
+      "action_type": "work session / business-park concept review",
+      "result_status": "The official record discusses six lots, approximately 559,000 square feet, the need for further engineering and parcel merging, and states that the specific lot for the data center was not fixed; no project approval was taken.",
+      "vote_tally": "work session; no approval vote published",
+      "case_or_ordinance_permit_number": "Hanton City Business Park",
+      "primary_url": "https://www.smithfieldri.gov/home/showpublisheddocument/5197/639130675149170000",
+      "access_caveat": "Official work-session minutes/record; conceptual discussion is not a land-use, site-plan, or building approval.",
+      "evidence_note": "Government record confirms uncertainty in siting and scope."
+    },
+    {
+      "date": "2026-05-04",
+      "date_precision": "day",
+      "government_body": "Not a government action; local reporting",
+      "action_type": "application and restriction context",
+      "result_status": "Local coverage reported that Hanton City filed a business-complex application and that the proposed data-center concept remained before the town while zoning restrictions were being considered.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Hanton City Business Park",
+      "primary_url": "https://www.oceanstatemedia.org/technology/proposed-data-center-still-looms-over-smithfield-even-after-town-council-enacts-ban",
+      "access_caveat": "Local report; complete application and signed ordinance were not retrieved in the cited material.",
+      "evidence_note": "Application claim kept separate from approval."
+    },
+    {
+      "date": "2026-05-05",
+      "date_precision": "day",
+      "government_body": "Smithfield Town Council",
+      "action_type": "zoning restriction / data-center prohibition action",
+      "result_status": "Town records describe the Council's data-center restriction action in the context of the Hanton City area; Phase 2 reporting records a 4–1 Council vote. The reviewed official record did not expose a complete ordinance text/effective-date chain sufficient to characterize it as a project denial.",
+      "vote_tally": "4 yes / 1 no reported in Phase 2; official final roll call not fully exposed in reviewed extract",
+      "case_or_ordinance_permit_number": "Data-center zoning amendment/prohibition; ordinance number not located",
+      "primary_url": "https://www.smithfieldri.gov/home/showpublisheddocument/5234/639143719121530000",
+      "access_caveat": "Official town record is accessible as a document but the final enacted ordinance/effective date and complete roll call were not all exposed in the reviewed extract.",
+      "evidence_note": "Restriction action is not project approval or a building-permit decision."
+    },
+    {
+      "date": "2026-04-27",
+      "date_precision": "day",
+      "government_body": "Town of Smithfield",
+      "action_type": "official public-posting / workshop materials",
+      "result_status": "The Town posted the Hanton City Investments presentation from the April 15 work session concerning the Smithfield Industrial Park concept and potential data-storage centers.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Smithfield Industrial Park concept",
+      "primary_url": "https://www.smithfieldri.gov/Home/Components/News/News/472/57",
+      "access_caveat": "Town posting of applicant/developer presentation; presentation is not a town approval.",
+      "evidence_note": "Official access to concept materials; scope remains proposal evidence."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-RI-REVITY-HANTON-CITY-SMITHFIELD-2026",
+    "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
+    "regional_id": "US-RI-REVITY-HANTON-CITY-SMITHFIELD-2026",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

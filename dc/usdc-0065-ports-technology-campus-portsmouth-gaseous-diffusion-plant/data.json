@@ -1,0 +1,46 @@
+{
+  "master_id": "USDC-0065",
+  "canonical_project": "PORTS Technology Campus / Portsmouth Gaseous Diffusion Plant",
+  "aliases": [
+    "PORTS Technology Campus",
+    "PORTS Technology Campus / Portsmouth Gaseous Diffusion Plant",
+    "Piketon PORTS campus",
+    "Portsmouth Gaseous Diffusion Plant data center",
+    "SB Energy PORTS Technology Campus"
+  ],
+  "location": {
+    "city": "Piketon",
+    "county": "Pike",
+    "state": "OH"
+  },
+  "phase3_stable_id": null,
+  "status_as_of_cutoff": null,
+  "actions": [
+    {
+      "date": "2026-03-20",
+      "body": "U.S. Department of Energy",
+      "action_type": "federal public-private project announcement",
+      "exact_result_status": "DOE announced a partnership for a proposed PORTS Technology Campus with up to 10 GW of data-center capacity and associated generation; no Pike County or local construction approval was stated.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.energy.gov/em/articles/special-report-details-worlds-largest-ai-data-center-portsmouth-site",
+      "access_caveat": "Federal announcement; planning maxima are not IT load, a permit, or live capacity."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "OH-PORTS-PIKE-SBENERGY",
+    "phase3_source_file": "phase3/county_oh_in.json",
+    "regional_id": "OH-PORTS-PIKE-SBENERGY",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [
+      "US-OH-SB-ENERGY-PORTS-PIKETON-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

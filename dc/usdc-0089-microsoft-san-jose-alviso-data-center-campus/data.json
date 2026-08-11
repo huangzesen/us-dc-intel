@@ -1,0 +1,70 @@
+{
+  "master_id": "USDC-0089",
+  "canonical_project": "Microsoft San Jose/Alviso data-center campus",
+  "aliases": [
+    "Alviso-Milpitas Road campus",
+    "CP23-016",
+    "ER20-219",
+    "Microsoft SJDC",
+    "Microsoft San Jose/Alviso data-center campus"
+  ],
+  "location": {
+    "city": "San Jose",
+    "county": "Santa Clara County",
+    "state": "CA"
+  },
+  "phase3_stable_id": "US-CA-MICROSOFT-ALVISO-2025",
+  "status_as_of_cutoff": "City land-use and environmental records identify a two-building, approximately 397,205-square-foot project with a 99 MW maximum, recycled-water cooling, substation, pumps, storage tank, and 224 standby generators. The city records a 2025-04-09 approval date and a 2025-06-16 construction-start field. Construction is therefore recorded in the reviewed city data, but no building-level permit, inspection closeout, certificate of occupancy, energization, commissioning, or service date was located.",
+  "actions": [
+    {
+      "date": "2017-10-24",
+      "date_precision": "day",
+      "government_body": "City of San Jose City Council",
+      "action_type": "rezoning / CEQA entitlement for 237 Industrial Center",
+      "result_status": "Council record identifies Resolution 78393 for the water supply assessment and EIR findings and Ordinance 30023 for rezoning the approximately 64.59-acre 1657 Alviso-Milpitas Road site from A(PD) to LI; this is historical entitlement context for the address, not proof of the current phase's building permit or construction completion.",
+      "vote_tally": "not published in the reviewed meeting record",
+      "case_or_ordinance_permit_number": "Resolution 78393; Ordinance 30023; 237 Industrial Center",
+      "primary_url": "https://www.sanjoseca.gov/home/showpublisheddocument/57704/637243542203770000",
+      "access_caveat": "The official meeting record exposes the action summary but not a complete roll-call tally in the reviewed extract.",
+      "evidence_note": "Historical land-use entitlement; not current phase occupancy or energization evidence."
+    },
+    {
+      "date": "2025-04-09",
+      "date_precision": "day",
+      "government_body": "City of San Jose Planning Division",
+      "action_type": "conditional use permit / environmental and stormwater project approval",
+      "result_status": "The city's current large-energy-use project page and stormwater annual report identify CP23-016 for Microsoft Corporation at 1657 Alviso-Milpitas Road, with approval date 2025-04-09, for two single-story data-center buildings and associated electrical, water, sewer, storm-drain, and generator infrastructure.",
+      "vote_tally": "not published on the cited project page",
+      "case_or_ordinance_permit_number": "CP23-016; ER20-219",
+      "primary_url": "https://www.sanjoseca.gov/your-government/departments-offices/planning-building-code-enforcement/planning-division/data-center-and-other-large-energy-use-projects",
+      "access_caveat": "The city page says its list is updated monthly and may not reflect every current permit status; it is not a certificate-of-occupancy record.",
+      "evidence_note": "Government approval and project description; no building permit, final inspection, or service date inferred."
+    },
+    {
+      "date": "2025-06-16",
+      "date_precision": "day",
+      "government_body": "City of San Jose / project environmental data record",
+      "action_type": "construction-start data field",
+      "result_status": "The San Jose Data Center Addendum's project data field lists construction start date 2025-06-16 for Microsoft SJDC on-site construction.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "23-024 Microsoft SJDC On-Site Construction Rev6",
+      "primary_url": "https://www.sanjoseca.gov/home/showpublisheddocument/118350/638763303124356971",
+      "access_caveat": "This is a project-data field in an environmental addendum, not a building-permit issuance, inspection, groundbreaking ceremony, or proof of physical completion.",
+      "evidence_note": "Official construction-start field; later shell, power-on, commissioning, and service milestones were not located."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-CA-MICROSOFT-ALVISO-2025",
+    "phase3_source_file": "phase3/county_ca_or.json",
+    "regional_id": "US-CA-MICROSOFT-ALVISO-2025",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,59 @@
+{
+  "master_id": "USDC-0040",
+  "canonical_project": "Meta Rosemount data center",
+  "aliases": [
+    "Meta Minnesota campus",
+    "Meta Rosemount campus",
+    "Meta Rosemount data center",
+    "Rosemount/UMore Park campus"
+  ],
+  "location": {
+    "city": "Rosemount",
+    "county": "Dakota County",
+    "state": "MN"
+  },
+  "phase3_stable_id": "MN-ROSEMOUNT-META",
+  "status_as_of_cutoff": "Rosemount's official progress page describes Meta's UMore Park data center as approved/under construction with a 2026 completion target and sustainability goals. No public building-level permit number, MW/load figure, inspection closeout, CO, utility service, energization, commissioning, or initial-service record was located.",
+  "actions": [
+    {
+      "date": "2024",
+      "date_precision": "year",
+      "government_body": "City of Rosemount",
+      "action_type": "official development-progress status",
+      "result_status": "The city's progress page describes the Meta UMore Park data center as an approved/active development and gives a 2026 completion target. The page does not expose the underlying approval resolution or permit.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.rosemountmn.gov/progress",
+      "access_caveat": "Year-only city progress statement; no underlying approval document or roll call was retrieved.",
+      "evidence_note": "Official status context, not a reconstructed vote."
+    },
+    {
+      "date": "2026-07-01",
+      "date_precision": "day",
+      "government_body": "City of Rosemount",
+      "action_type": "construction-progress/status update",
+      "result_status": "The city page continues to describe Meta's data center as under development/construction and targeting completion in 2026, with renewable-energy and LEED Gold goals.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.rosemountmn.gov/progress",
+      "access_caveat": "City progress page does not publish a building permit, inspection, CO, energization, or service milestone.",
+      "evidence_note": "Official current status; physical completion and operation are not inferred."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MN-ROSEMOUNT-META",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "MN-ROSEMOUNT-META",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [
+      "US-MN-META-ROSEMOUNT-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

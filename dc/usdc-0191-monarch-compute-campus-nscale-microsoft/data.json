@@ -1,0 +1,28 @@
+{
+  "master_id": "USDC-0191",
+  "canonical_project": "Monarch Compute Campus / Nscale-Microsoft",
+  "aliases": [
+    "Monarch Compute Campus / Nscale-Microsoft",
+    "Nscale Monarch",
+    "Point Pleasant AI campus"
+  ],
+  "location": {
+    "city": "Point Pleasant",
+    "county": "Mason",
+    "state": "West Virginia"
+  },
+  "phase3_stable_id": null,
+  "status_as_of_cutoff": null,
+  "actions": [],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase2_seed_stable_id": "US-WV-MONARCH-Nscale-MICROSOFT-2026",
+    "phase2_seed_source_file": "phase2/national_all_company_seed.json",
+    "authoritative_layer": "phase2_seed_only",
+    "match_reason": "No detailed match; retained separately"
+  },
+  "contradictions": [],
+  "seed_only": true,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

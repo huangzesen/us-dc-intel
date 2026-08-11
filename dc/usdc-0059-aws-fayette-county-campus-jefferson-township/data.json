@@ -1,0 +1,112 @@
+{
+  "master_id": "USDC-0059",
+  "canonical_project": "AWS Fayette County campus / Jefferson Township",
+  "aliases": [
+    "AWS Fayette County campus",
+    "AWS Fayette County campus / Jefferson Township",
+    "Jefferson Township data centers"
+  ],
+  "location": {
+    "city": "Jefferson Township",
+    "county": "Fayette",
+    "state": "OH"
+  },
+  "phase3_stable_id": null,
+  "status_as_of_cutoff": null,
+  "actions": [
+    {
+      "date": "2024-12-16",
+      "body": "Amazon Web Services",
+      "action_type": "company announcement",
+      "exact_result_status": "Amazon announced a $5 billion Fayette County first site within its $10 billion Ohio investment; no local vote was stated.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.aboutamazon.com/news/aws/aws-continues-to-invest-in-ohio",
+      "access_caveat": "Company source; not a local approval."
+    },
+    {
+      "date": "2025-03-10",
+      "body": "Ohio Environmental Protection Agency",
+      "action_type": "construction-stormwater permit",
+      "exact_result_status": "Ohio EPA construction permit 4GC10374*BG issued for Amazon Data Services, Fayette County/Jefferson Township Site B, with 196.16 acres of land disturbance.",
+      "vote_tally": null,
+      "case_or_permit_number": "4GC10374*BG",
+      "primary_url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Public/DSW/Construction.pdf",
+      "access_caveat": "Official statewide permit list; it is land-disturbance authorization, not a building permit or local zoning vote."
+    },
+    {
+      "date": "2025-07-02",
+      "body": "Ohio Environmental Protection Agency",
+      "action_type": "construction-stormwater permit",
+      "exact_result_status": "Ohio EPA construction permit 4GC10679*AG issued for Amazon Data Services S.R. 435/S.R. 739 improvements in Jeffersonville, 1.041 acres.",
+      "vote_tally": null,
+      "case_or_permit_number": "4GC10679*AG",
+      "primary_url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Public/DSW/Construction.pdf",
+      "access_caveat": "Roadwork permit; separate from building construction."
+    },
+    {
+      "date": "2025-09-05",
+      "body": "Ohio Environmental Protection Agency",
+      "action_type": "construction-stormwater permit",
+      "exact_result_status": "Ohio EPA list records AES Ohio Fayette Sub Expansion, 37.2 acres, at Fent Road, supporting the site's power infrastructure; this is a utility/land-disturbance action, not a data-center building permit.",
+      "vote_tally": null,
+      "case_or_permit_number": "4GC10792*AG",
+      "primary_url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Public/DSW/Construction.pdf",
+      "access_caveat": "Utility-support permit; no PUCO interconnection approval was located in this pass."
+    },
+    {
+      "date": "2025-10-01",
+      "body": "Ohio Environmental Protection Agency",
+      "action_type": "construction-stormwater permit",
+      "exact_result_status": "Ohio EPA list records AES Ohio Fayette Substation, 7.1 acres, at Fent Road, Jefferson Township.",
+      "vote_tally": null,
+      "case_or_permit_number": "4GC10867*AG",
+      "primary_url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Public/DSW/Construction.pdf",
+      "access_caveat": "Substation land-disturbance permit; not an interconnection approval or building permit."
+    },
+    {
+      "date": "2025-10-08",
+      "body": "Ohio Environmental Protection Agency",
+      "action_type": "construction-stormwater permit",
+      "exact_result_status": "Ohio EPA issued permit 4GC10816*AG for Project Galaxy Force Main for Cooling Water Discharge, Amazon Data Services, at 1000 Innovation Way, 11.3 acres.",
+      "vote_tally": null,
+      "case_or_permit_number": "4GC10816*AG",
+      "primary_url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Public/DSW/Construction.pdf",
+      "access_caveat": "Cooling-water force-main land-disturbance permit; it is not a building permit."
+    },
+    {
+      "date": "2025-11-12",
+      "body": "Ohio Environmental Protection Agency",
+      "action_type": "Section 401 water-quality certification",
+      "exact_result_status": "Ohio EPA granted Section 401 Water Quality Certification for CMH205 Data Center, Amazon Data Services, Fayette County/Jeffersonville, subject to conditions; the authorization is limited to water pollution and does not replace other permits.",
+      "vote_tally": null,
+      "case_or_permit_number": "DSW401251528A1; Corps Public Notice LRH-2010-276-SCR",
+      "primary_url": "https://edocpub.epa.ohio.gov/publicportal/ViewDocument.aspx?docid=3955763",
+      "access_caveat": "Official Ohio EPA certification; it is an environmental authorization, not local zoning/building approval."
+    },
+    {
+      "date": "2026-03-20",
+      "body": "Ohio Environmental Protection Agency",
+      "action_type": "construction-stormwater permit",
+      "exact_result_status": "Ohio EPA list records Amazon Fayette County/Jefferson Township Site A Phase 1A, 330 acres of land disturbance.",
+      "vote_tally": null,
+      "case_or_permit_number": "4GC10385*CG",
+      "primary_url": "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Public/DSW/Construction.pdf",
+      "access_caveat": "Official permit list; no building occupancy or energization follows from this permit alone."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "OH-FAYETTE-AWS",
+    "phase3_source_file": "phase3/county_oh_in.json",
+    "regional_id": "OH-FAYETTE-AWS",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

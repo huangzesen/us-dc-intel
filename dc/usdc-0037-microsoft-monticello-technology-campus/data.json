@@ -1,0 +1,81 @@
+{
+  "master_id": "USDC-0037",
+  "canonical_project": "Microsoft Monticello technology campus",
+  "aliases": [
+    "Frattalone technology campus",
+    "Microsoft Monticello technology campus",
+    "Monticello Industrial technology campus",
+    "Monticello Tech campus"
+  ],
+  "location": {
+    "city": "Monticello",
+    "county": "Wright County",
+    "state": "MN"
+  },
+  "phase3_stable_id": "MN-MONTICELLO-MICROSOFT-FRATTALONE",
+  "status_as_of_cutoff": "The city records a concept review, Final AUAR and Mitigation Plan adoption on 2026-01-26, and applications received on 2026-07-06 that remain under completeness review. Public materials and local/trade reporting associate Microsoft/Frattalone with the concept, but the city has not published a final site-plan approval, building permit, construction start, inspection, CO, utility service, energization, commissioning, or initial-service record.",
+  "actions": [
+    {
+      "date": "2024-12-03",
+      "date_precision": "day",
+      "government_body": "City of Monticello Planning Commission and City Council",
+      "action_type": "concept-plan workshop",
+      "result_status": "The city held a joint workshop to review a potential approximately 3 million-square-foot technology campus. Concept review is expressly not a formal zoning or land-use application.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Monticello Industrial AUAR / technology campus concept",
+      "primary_url": "https://www.monticellomn.gov/728/Data-Centers",
+      "access_caveat": "Workshop and concept review do not establish approval, permit, or construction.",
+      "evidence_note": "Official city timeline."
+    },
+    {
+      "date": "2025-10-13",
+      "date_precision": "day",
+      "government_body": "Monticello City Council",
+      "action_type": "AUAR scoping acceptance / order for full study",
+      "result_status": "The city says Council accepted the AUAR Scoping Document and ordered the full AUAR study for the proposed 550-acre technology campus.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Monticello Industrial AUAR",
+      "primary_url": "https://www.monticellomn.gov/728/Data-Centers",
+      "access_caveat": "Environmental-review authorization is not a data-center land-use approval or building permit.",
+      "evidence_note": "Official environmental-review process."
+    },
+    {
+      "date": "2026-01-26",
+      "date_precision": "day",
+      "government_body": "Monticello City Council",
+      "action_type": "final AUAR and mitigation-plan adoption",
+      "result_status": "The City Council adopted the Final AUAR and Mitigation Plan for Monticello Industrial. The city page states that AUAR adoption does not itself approve a data center.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Monticello Industrial AUAR",
+      "primary_url": "https://www.monticellomn.gov/728/Data-Centers",
+      "access_caveat": "The cited page does not expose a roll-call tally; AUAR adoption is not final site-plan approval.",
+      "evidence_note": "Official environmental record."
+    },
+    {
+      "date": "2026-07-06",
+      "date_precision": "day",
+      "government_body": "City of Monticello",
+      "action_type": "land-use application receipt / completeness review",
+      "result_status": "The city posted DCPUD/CUP, rezone, preliminary-plat, final-plat, utility, water, sanitary, stormwater, traffic, noise, and mitigation materials received July 6. The applications were still being reviewed for completeness and no public-hearing date had been set.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Monticello DCPUD applications",
+      "primary_url": "https://www.monticellomn.gov/728/Data-Centers",
+      "access_caveat": "Application receipt is not approval, permit issuance, construction authorization, or evidence that the public materials are complete.",
+      "evidence_note": "Official current status; utility and environmental submissions are preserved without treating them as approvals."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MN-MONTICELLO-MICROSOFT-FRATTALONE",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "MN-MONTICELLO-MICROSOFT-FRATTALONE",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

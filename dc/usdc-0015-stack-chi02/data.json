@@ -1,0 +1,55 @@
+{
+  "master_id": "USDC-0015",
+  "canonical_project": "STACK CHI02",
+  "aliases": [
+    "Elk Grove Village 36MW",
+    "STACK CHI02"
+  ],
+  "location": {
+    "city": "Elk Grove Village",
+    "county": "Cook",
+    "state": "IL"
+  },
+  "phase3_stable_id": "IL-ELK-GROVE-STACK-CHI02",
+  "status_as_of_cutoff": "Company-reported under construction; no project-specific public energization, completion, or accessible building-permit record was located.",
+  "actions": [
+    {
+      "date": "2025-03-25",
+      "date_precision": "day",
+      "government_body": "STACK Infrastructure / ComEd (not a government action)",
+      "action_type": "company project announcement",
+      "result_status": "STACK announced a 36MW, one-building, 263,000-square-foot facility in Elk Grove Village and named ComEd as power provider. This does not establish municipal approval or a permit.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-announces-new-36mw-data-center-in-chicago/",
+      "access_caveat": "Company announcement; the government record trail was not attached and no vote is inferred.",
+      "evidence_note": "Identity, scale, and claimed utility relationship only."
+    },
+    {
+      "date": "2026-05-20",
+      "date_precision": "day",
+      "government_body": "Village of Elk Grove Village",
+      "action_type": "data-center town-hall notice",
+      "result_status": "The Village scheduled an informational town hall on data centers. The notice is a public-information event, not an approval or permit for CHI02.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.elkgrove.org/Home/Components/Calendar/Event/9496/",
+      "access_caveat": "Village-wide notice does not identify STACK CHI02 or establish a project action.",
+      "evidence_note": "Retained as official local context; no project-specific action inferred."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "IL-ELK-GROVE-STACK-CHI02",
+    "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
+    "regional_id": "IL-ELK-GROVE-STACK-CHI02",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

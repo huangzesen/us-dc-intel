@@ -1,0 +1,69 @@
+{
+  "master_id": "USDC-0172",
+  "canonical_project": "Vantage TX2 data center",
+  "aliases": [
+    "Vantage TX2 data center"
+  ],
+  "location": {
+    "city": "San Antonio",
+    "county": "Bexar",
+    "state": "Texas"
+  },
+  "phase3_stable_id": "US-TX-VANTAGE-TX2-SAN-ANTONIO-2026",
+  "status_as_of_cutoff": "TCEQ draft federal operating-permit process reached a notice-and-comment hearing; final permit issuance and local construction records were not validated.",
+  "actions": [
+    {
+      "id": "A22",
+      "date": "2025-07-17",
+      "body": "Texas Commission on Environmental Quality",
+      "meeting_date": null,
+      "action_type": "federal operating-permit application received",
+      "result_or_status": "TCEQ pending-permits list records Application 38600 for Vantage Data Center TX2, permit O4790, received 2025-07-17.",
+      "vote_tally": null,
+      "case_or_number": "Application 38600; Permit O4790; RN111926465",
+      "primary_url": "https://www.tceq.texas.gov/assets/public/permitting/air/reports/applications/titlev-pending-permits.html",
+      "access_caveat": "Pending-permit listing, not final approval.",
+      "notes": "Environmental/air action."
+    },
+    {
+      "id": "A23",
+      "date": "2025-12-02",
+      "body": "Texas Commission on Environmental Quality",
+      "meeting_date": null,
+      "action_type": "draft operating-permit statement of basis",
+      "result_or_status": "TCEQ statement of basis prepared for the draft federal operating permit for Vantage Data Center TX2 at 5207 Rogers Road, San Antonio, Bexar County.",
+      "vote_tally": null,
+      "case_or_number": "O4790; Application 38600",
+      "primary_url": "https://www.tceq.texas.gov/assets/public/permitting/air/publicnotice/38600sob.pdf",
+      "access_caveat": "Statement of basis supports a draft permit and is not final issuance.",
+      "notes": "Environmental/air action."
+    },
+    {
+      "id": "A24",
+      "date": "2026-05-28",
+      "body": "Texas Commission on Environmental Quality",
+      "meeting_date": "2026-05-28",
+      "action_type": "notice-and-comment hearing",
+      "result_or_status": "TCEQ held/scheduled the notice-and-comment hearing for the initial federal operating permit; the notice says comments would be received and that the permit would not authorize new construction or new emissions. Final disposition was not found.",
+      "vote_tally": null,
+      "case_or_number": "O4790; Application 38600",
+      "primary_url": "https://www.tceq.texas.gov/agency/decisions/hearings/events/notice-and-comment-hearing-vantage-data-centers-tx21-llc-o4790",
+      "access_caveat": "Official hearing notice; it does not establish a final permit decision.",
+      "notes": "Environmental/air action."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-TX-VANTAGE-TX2-SAN-ANTONIO-2026",
+    "phase3_source_file": "phase3/county_tx.json",
+    "regional_id": "US-TX-VANTAGE-TX2-SAN-ANTONIO-2026",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,54 @@
+{
+  "master_id": "USDC-0017",
+  "canonical_project": "Morris Technology Park",
+  "aliases": [
+    "Morris Technology Park"
+  ],
+  "location": {
+    "city": "Morris",
+    "county": "Grundy",
+    "state": "IL"
+  },
+  "phase3_stable_id": "IL-MORRIS-TRACT-TECHPARK",
+  "status_as_of_cutoff": "Announced/entitled as described by Tract and the City; no construction or building-permit evidence was located.",
+  "actions": [
+    {
+      "date": null,
+      "date_precision": "undated_web_page",
+      "government_body": "City of Morris",
+      "action_type": "official project-resource page",
+      "result_status": "The City maintains a Morris data-center resource page linking project materials and listing Ordinances 4690, 4691, and 4692. The accessible page does not expose enactment dates or enough text to assign each ordinance's subject/result to the campus without inference.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Ordinances 4690, 4691, 4692 (subjects not assigned here)",
+      "primary_url": "https://morrisil.org/data-center-resources/",
+      "access_caveat": "Official resource page; ordinance links/metadata were not sufficiently exposed in the accessible extraction, so no ordinance result or vote is reconstructed.",
+      "evidence_note": "Preserves the existence of the official record hub without converting 'fully zoned/entitled' into a reconstructed vote."
+    },
+    {
+      "date": "2026-01-15",
+      "date_precision": "day",
+      "government_body": "Tract / ComEd (not a government action)",
+      "action_type": "land acquisition and campus announcement",
+      "result_status": "Tract announced acquisition of 343 acres, a planned 1GW campus, and a ComEd Transmission Security Agreement; these are company statements and do not establish a local permit or construction start.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.tract.com/news/tract-enters-greater-chicago-market-with-the-acquisition-of-343-acres-to-be-developed-as-a-1gw-data-center-campus-known-as-the-morris-technology-park/",
+      "access_caveat": "Company announcement; city resource page does not by itself validate every company-described entitlement.",
+      "evidence_note": "Capacity, acreage, and claimed utility agreement only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "IL-MORRIS-TRACT-TECHPARK",
+    "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
+    "regional_id": "IL-MORRIS-TRACT-TECHPARK",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

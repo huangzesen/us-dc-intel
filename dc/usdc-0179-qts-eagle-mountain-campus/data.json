@@ -1,0 +1,55 @@
+{
+  "master_id": "USDC-0179",
+  "canonical_project": "QTS Eagle Mountain campus",
+  "aliases": [
+    "QTS Eagle Mountain campus",
+    "QTS Utah campus"
+  ],
+  "location": {
+    "city": "Eagle Mountain",
+    "county": "Utah",
+    "state": "UT"
+  },
+  "phase3_stable_id": "US-UT-QTS-EAGLE-MOUNTAIN-2025",
+  "status_as_of_cutoff": "City records report resumed construction and a first-building topping-out; no power-on, CO, or service date was located.",
+  "actions": [
+    {
+      "date": "2025-10-29",
+      "date_precision": "day",
+      "government_body": "Eagle Mountain City",
+      "action_type": "city construction-status update",
+      "result_status": "The city reported that construction was once again underway on the QTS campus after a brief delay for energy infrastructure/resources. The update does not publish permit numbers or energization.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://eaglemountain.gov/construction-restarts-on-qts-data-center-in-eagle-mountain/",
+      "access_caveat": "Official city update; construction status is not a building inspection, CO, or proof of service.",
+      "evidence_note": "Body/context retained from prior file: Eagle Mountain City."
+    },
+    {
+      "date": "2026-04-17",
+      "date_precision": "day",
+      "government_body": "Eagle Mountain City",
+      "action_type": "construction milestone / topping out",
+      "result_status": "City report says crews placed the final beam on the first QTS building on April 17, 2026; the first phase includes five buildings and interior work continued. Topping-out is not occupancy or energization.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://eaglemountain.gov/eagle-mountain-city-celebrates-major-milestone-with-qts-topping-out-ceremony/",
+      "access_caveat": "Official city milestone report; no CO, inspection closeout, utility order, or live-status evidence is published.",
+      "evidence_note": "Body/context retained from prior file: Eagle Mountain City / QTS / Layton Construction."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-UT-QTS-EAGLE-MOUNTAIN-2025",
+    "phase3_source_file": "phase3/county_ok_az_ut.json",
+    "regional_id": "US-UT-QTS-EAGLE-MOUNTAIN-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

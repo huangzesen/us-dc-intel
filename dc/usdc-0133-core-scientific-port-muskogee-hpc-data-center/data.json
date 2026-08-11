@@ -1,0 +1,58 @@
+{
+  "master_id": "USDC-0133",
+  "canonical_project": "Core Scientific Port Muskogee HPC data center",
+  "aliases": [
+    "Core Scientific Oklahoma campus",
+    "Core Scientific Port Muskogee HPC data center",
+    "CoreWeave Muskogee 100 MW"
+  ],
+  "location": {
+    "city": "Muskogee",
+    "county": "Muskogee",
+    "state": "OK"
+  },
+  "phase3_stable_id": "US-OK-CORE-SCIENTIFIC-MUSKOGEE-2024",
+  "status_as_of_cutoff": "Under construction with an active expansion reported; Phase 1 delivery was targeted for 2026 and a second 82.5 MW building was reported for Q4 2027. No public energization or occupancy record located.",
+  "actions": [
+    {
+      "date": "2024-11-25",
+      "date_precision": "day",
+      "government_body": "Oklahoma Department of Commerce / Port Muskogee / Core Scientific",
+      "action_type": "announcement and groundbreaking",
+      "result_status": "Government-hosted release records the groundbreaking of a 100 MW HPC facility, including approximately 70 MW critical IT load, and says operations were expected in 2026. This is construction evidence, not a building permit or proof of service.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.okcommerce.gov/core-scientific-and-port-muskogee-break-ground-on-100-mw-hpc-data-center/",
+      "access_caveat": "Official state page accessible; it does not expose the Port lease, parcel-level permit register, inspections, or energization record.",
+      "evidence_note": "Body/context retained from prior file: Oklahoma Department of Commerce / Port Muskogee / Core Scientific."
+    },
+    {
+      "date": "2026-05-06",
+      "date_precision": "day",
+      "government_body": null,
+      "action_type": "reported campus expansion",
+      "result_status": "Trade reporting says Core Scientific acquired an adjacent cryptomine and began a second 82.5 MW building with Q4 2027 initial delivery. The official Phase 1 source establishes 100 MW; the 1.5 GW tracker figure is not adopted.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.datacenterdynamics.com/en/news/core-scientific-acquires-cryptomine-in-muskogee-to-expand-ai-data-center-campus/",
+      "access_caveat": "Non-government report; no associated Muskogee permit or utility filing was located.",
+      "evidence_note": "Body/context retained from prior file: Core Scientific / trade report."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-OK-CORE-SCIENTIFIC-MUSKOGEE-2024",
+    "phase3_source_file": "phase3/county_ok_az_ut.json",
+    "regional_id": "US-OK-CORE-SCIENTIFIC-MUSKOGEE-2024",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-OK-CORE-SCIENTIFIC-MUSKOGEE-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

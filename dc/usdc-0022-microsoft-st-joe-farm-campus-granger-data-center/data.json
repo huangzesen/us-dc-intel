@@ -1,0 +1,52 @@
+{
+  "master_id": "USDC-0022",
+  "canonical_project": "Microsoft St. Joe Farm campus / Granger data center",
+  "aliases": [
+    "Microsoft Granger data center",
+    "Microsoft St. Joe Farm campus",
+    "Microsoft St. Joe Farm campus / Granger data center"
+  ],
+  "location": {
+    "city": "Mishawaka/Granger",
+    "county": "St. Joseph",
+    "state": "IN"
+  },
+  "phase3_stable_id": null,
+  "status_as_of_cutoff": null,
+  "actions": [
+    {
+      "date": "2025-08-26",
+      "body": "City of Mishawaka Board of Public Works and Safety; Mishawaka Utility Board; St. Joseph County Board of Commissioners; St. Joseph County Water and Sewer District; Granger Water LLC",
+      "action_type": "water/sewer/wastewater MOU",
+      "exact_result_status": "The parties signed an MOU to collaborate on long-term public water, sewer, and wastewater infrastructure, expressly including support for the Microsoft Data Center project; the page does not state a vote tally.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://mishawaka.in.gov/news/city-of-mishawaka-and-regional-partners-sign-mou-to-support-water-sewer-service-and-wastewater-expansion/",
+      "access_caveat": "Official city page accessible; an MOU is infrastructure coordination, not zoning, building approval, or construction authorization."
+    },
+    {
+      "date": "2026-02-04",
+      "body": "City of Mishawaka",
+      "action_type": "development-process notice",
+      "exact_result_status": "City stated Microsoft was working through the data-center development process; no approval, permit number, or vote tally was stated.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://mishawaka.in.gov/news/microsoft-is-working-through-the-datacenter-development-process-in-northern-indiana/",
+      "access_caveat": "Official city statement accessible; it is not a final plan-commission or council decision."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "IN-MISHAWAKA-MICROSOFT-STJOE",
+    "phase3_source_file": "phase3/county_oh_in.json",
+    "regional_id": "IN-MISHAWAKA-MICROSOFT-STJOE",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

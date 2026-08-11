@@ -1,0 +1,43 @@
+{
+  "master_id": "USDC-0018",
+  "canonical_project": "Meta Jeffersonville data center",
+  "aliases": [
+    "Meta Indiana data center",
+    "Meta Jeffersonville data center"
+  ],
+  "location": {
+    "city": "Jeffersonville",
+    "county": "Clark",
+    "state": "IN"
+  },
+  "phase3_stable_id": null,
+  "status_as_of_cutoff": null,
+  "actions": [
+    {
+      "date": "2024-01-25",
+      "body": "Indiana Economic Development Corporation / Governor",
+      "action_type": "state incentive and project announcement",
+      "exact_result_status": "IEDC announced Meta's nearly 700,000-square-foot River Ridge facility, construction starting that month, expected 2026 operations, and a 35-year data-center sales-tax exemption for at least $800 million of eligible capital; city and River Ridge incentives were described but not itemized in a vote record.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://iedc.in.gov/events/news/details/2024/01/25/gov.-holcomb-announces-meta-to-build-an-800m-data-center-campus-in-indiana",
+      "access_caveat": "Official state announcement accessible; it does not link the Clark County/Jeffersonville approval packet or a building permit."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "IN-JEFFERSONVILLE-META",
+    "phase3_source_file": "phase3/county_oh_in.json",
+    "regional_id": "IN-JEFFERSONVILLE-META",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [
+      "US-IN-META-JEFFERSONVILLE-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

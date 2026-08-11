@@ -1,0 +1,44 @@
+{
+  "master_id": "USDC-0070",
+  "canonical_project": "Cielo Cherokee County project",
+  "aliases": [
+    "000 Ford Road campus",
+    "Cielo Cherokee County project",
+    "Cielo Digital Infrastructure Gaffney campus"
+  ],
+  "location": {
+    "city": "Gaffney",
+    "county": "Cherokee County",
+    "state": "SC"
+  },
+  "phase3_stable_id": "SC-003",
+  "status_as_of_cutoff": "South Carolina officially announced site selection and planned four-facility campus. No county rezoning, site-plan, building, environmental, utility, construction, CO, or energization record was located.",
+  "actions": [
+    {
+      "date": "2025-06-24",
+      "date_precision": "day",
+      "government_body": "South Carolina Governor / state economic-development announcement",
+      "action_type": "state/company project announcement",
+      "result_status": "State announcement says Cielo selected Cherokee County for a planned $2.1 billion, four-facility campus at 000 Ford Road in Gaffney, with 30 expected jobs and initial operations presently expected in 2028.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://governor.sc.gov/index.php/news/2025-06/cielo-digital-infrastructure-selects-cherokee-county-first-south-carolina-development",
+      "access_caveat": "State announcement and forecast; not local zoning, building, environmental, utility, or commissioning evidence.",
+      "evidence_note": "Announcement kept separate from approval and construction."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "SC-003",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "SC-003",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

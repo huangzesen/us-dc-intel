@@ -1,0 +1,46 @@
+{
+  "master_id": "USDC-0019",
+  "canonical_project": "Microsoft La Porte campus / Radius Industrial Park",
+  "aliases": [
+    "Microsoft La Porte campus",
+    "Microsoft La Porte campus / Radius Industrial Park",
+    "Microsoft LaPorte campus",
+    "Microsoft Radius Industrial Park data center",
+    "Radius Industrial Park data center"
+  ],
+  "location": {
+    "city": "La Porte",
+    "county": "La Porte",
+    "state": "IN"
+  },
+  "phase3_stable_id": null,
+  "status_as_of_cutoff": null,
+  "actions": [
+    {
+      "date": "2024-06-04",
+      "body": "Indiana Economic Development Corporation / Governor",
+      "action_type": "state incentive and project announcement",
+      "exact_result_status": "IEDC announced Microsoft's planned $1 billion La Porte data center and a 35-year state data-center sales-tax credit for at least $1 billion of eligible investment; no local vote tally was published.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://www.iedc.in.gov/events/news/details/2024/06/04/gov-holcomb-announces-plans-for-new-1b-microsoft-data-center-in-northwest-indiana",
+      "access_caveat": "Official state page accessible; it does not publish the city/county site-plan or permit packet."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "IN-LAPORTE-MICROSOFT",
+    "phase3_source_file": "phase3/county_oh_in.json",
+    "regional_id": "IN-LAPORTE-MICROSOFT",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [
+      "US-IN-MICROSOFT-LAPORTE-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

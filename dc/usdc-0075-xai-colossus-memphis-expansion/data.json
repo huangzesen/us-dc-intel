@@ -1,0 +1,74 @@
+{
+  "master_id": "USDC-0075",
+  "canonical_project": "xAI Colossus Memphis expansion",
+  "aliases": [
+    "Colossus",
+    "Colossus 1",
+    "Memphis xAI supercomputer",
+    "SpaceXAI Memphis",
+    "former Electrolux/Southwest Memphis xAI site",
+    "xAI Colossus Memphis expansion",
+    "xAI Colossus original Memphis facility"
+  ],
+  "location": {
+    "city": "Memphis",
+    "county": "Shelby County",
+    "state": "TN"
+  },
+  "phase3_stable_id": "TN-001",
+  "status_as_of_cutoff": "Major retrofit/expansion with company-reported operations and unresolved air, generator, and water issues. Official city/utility and TDEC records establish support/proceedings, not a single public commissioning baseline or complete building/CO record.",
+  "actions": [
+    {
+      "date": "2024-07-09",
+      "date_precision": "day",
+      "government_body": "Memphis City Council / Memphis Light, Gas and Water",
+      "action_type": "utility-support agenda discussion",
+      "result_status": "The City Council agenda listed an MLGW update on support to xAI; the accompanying utility material described existing water/gas service, 8 MW initially available, a planned increase to 50 MW, and a developer-funded 150 MW substation. The agenda does not itself establish a final council vote or energized load.",
+      "vote_tally": "not published in the accessible agenda",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://memphistn.gov/wp-content/uploads/2025/01/xAI-water-and-electric-7-9-24-final.pdf",
+      "access_caveat": "Utility-support material is not a zoning, building, air, water-operating, or CO approval; the agenda’s discussion is not treated as a vote.",
+      "evidence_note": "The official material is useful for proposed utility terms but not proof of actual service or commissioning."
+    },
+    {
+      "date": "2025-06-25",
+      "date_precision": "day",
+      "government_body": "Tennessee Department of Environment and Conservation, Division of Water Resources",
+      "action_type": "water-quality state-operating-permit public notice/fact sheet",
+      "result_status": "TDEC’s fact sheet for SOP-24025 describes the proposed Colossus Water Recycling Plant, including treatment of up to 13.5 MGD and intended reuse for xAI, TVA, and Nucor; the fact sheet does not by itself prove final operation or xAI service.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "SOP-24025",
+      "primary_url": "https://www.tn.gov/content/dam/tn/environment/water/water-public-notices/ppo_water_2025-06-25-ctc-sop-fact-sheet.pdf",
+      "access_caveat": "Fact sheet/public-notice material is not a final building permit, CO, or energization record; the direct PDF had intermittent retrieval failure in the browser pass.",
+      "evidence_note": "Water-reuse proceeding is separated from the data-center building and operating status."
+    },
+    {
+      "date": "2026-07-08",
+      "date_precision": "day",
+      "government_body": "xAI (operator page; non-government)",
+      "action_type": "operator capacity/status statement",
+      "result_status": "xAI’s Memphis page states a 1-million-GPU plan by 2026 and describes collaboration with local/state officials; it does not provide a government permit, CO, commissioning certificate, or proof of the stated target being achieved.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://x.ai/memphis",
+      "access_caveat": "Operator claim is not government evidence and is not used to infer live capacity.",
+      "evidence_note": "Company plan, reported operations, and regulator allegations remain distinct evidence categories."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "TN-001",
+    "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
+    "regional_id": "TN-001",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [
+      "US-TN-XAI-COLOSSUS-MEMPHIS-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

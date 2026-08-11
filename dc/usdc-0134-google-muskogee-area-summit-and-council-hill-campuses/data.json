@@ -1,0 +1,56 @@
+{
+  "master_id": "USDC-0134",
+  "canonical_project": "Google Muskogee-area Summit and Council Hill campuses",
+  "aliases": [
+    "Google Council Hill data center",
+    "Google Muskogee-area Summit and Council Hill campuses",
+    "Google Summit data center"
+  ],
+  "location": {
+    "city": "Summit and Council Hill",
+    "county": "Muskogee",
+    "state": "OK"
+  },
+  "phase3_stable_id": "US-OK-GOOGLE-MUSKOGEE-CAMPUSES-2025",
+  "status_as_of_cutoff": "Announced/under development; the searched primary sources do not verify a building start.",
+  "actions": [
+    {
+      "date": "2025-11-20",
+      "date_precision": "day",
+      "government_body": null,
+      "action_type": "project announcement",
+      "result_status": "The published announcement names two Google campuses in Muskogee County at Summit and Council Hill and references local-government participation. It is not a permit or vote record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.okcchamber.com/okcchamber/index.php?category=Member+News&refno=2434&src=news&srctype=detail",
+      "access_caveat": "Chamber-hosted reproduction; no parcel, case number, or roll call is exposed.",
+      "evidence_note": "Body/context retained from prior file: Regional chamber reproduction of Google announcement."
+    },
+    {
+      "date": "2026-04-30",
+      "date_precision": "day",
+      "government_body": "OG&E",
+      "action_type": "utility electric-service agreement announcement",
+      "result_status": "OG&E said the Google electric-service agreements cover three new data centers in Muskogee and Stillwater. It does not identify which building is energized or establish land-use approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.oge.com/web/portal/-/200-press-release",
+      "access_caveat": "Utility context only; no interconnection order or energization date is published.",
+      "evidence_note": "Body/context retained from prior file: OG&E."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-OK-GOOGLE-MUSKOGEE-CAMPUSES-2025",
+    "phase3_source_file": "phase3/county_ok_az_ut.json",
+    "regional_id": "US-OK-GOOGLE-MUSKOGEE-CAMPUSES-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

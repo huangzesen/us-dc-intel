@@ -1,0 +1,68 @@
+{
+  "master_id": "USDC-0091",
+  "canonical_project": "CoreSite Denver DE3 campus",
+  "aliases": [
+    "4900 Race Street",
+    "CoreSite Denver DE3 campus",
+    "DE3"
+  ],
+  "location": {
+    "city": "Denver",
+    "county": "City and County of Denver",
+    "state": "CO"
+  },
+  "phase3_stable_id": "US-CO-CORESITE-DE3-DENVER-2024",
+  "status_as_of_cutoff": "CoreSite reports the DE3 building under construction and generator testing/commissioning in June 2026. Company pages differ on availability timing (June versus end-2026); no Denver-specific final inspection, certificate of occupancy, utility energization, or live-service record was located.",
+  "actions": [
+    {
+      "date": "2025-10-06",
+      "date_precision": "day",
+      "government_body": "CoreSite / American Tower (company source; not a government body)",
+      "action_type": "construction milestone",
+      "result_status": "CoreSite reported a topping-out milestone for the first DE3 building at 4900 Race Street; this is company evidence, not a city permit or completion record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.coresite.com/news/coresite-achieves-key-construction-milestone-for-new-de3-data-center-in-denver",
+      "access_caveat": "Company announcement does not publish a Denver permit, inspection, or CO number.",
+      "evidence_note": "Construction milestone only; no inference of occupancy or energization."
+    },
+    {
+      "date": "2026-06-01",
+      "date_precision": "month",
+      "government_body": "CoreSite (company source; not a government body)",
+      "action_type": "generator testing / commissioning notice",
+      "result_status": "CoreSite’s DE3 community page reported generator testing and commissioning activities as construction neared completion.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.coresite.com/en-us/data-centers/denver/de3-construction",
+      "access_caveat": "Operator page is not a governmental inspection or energization record.",
+      "evidence_note": "Commissioning activity is not proof of commercial service."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "City and County of Denver, Community Planning and Development",
+      "action_type": "permit-record search (negative)",
+      "result_status": "The reviewed Denver CPD permit/inspection search surface explains the city review process, but no project-specific DE3 permit, final inspection, or CO record was exposed by the cutoff.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Plan-Review-Permits-and-Inspections",
+      "access_caveat": "The public page is a process page; the project-specific e-permits record was not accessible in the reviewed search.",
+      "evidence_note": "Negative search only; it does not establish that no permit exists."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-CO-CORESITE-DE3-DENVER-2024",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-CO-CORESITE-DE3-DENVER-2024",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

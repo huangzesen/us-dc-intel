@@ -1,0 +1,27 @@
+{
+  "master_id": "USDC-0093",
+  "canonical_project": "QTS Fayetteville data-center campus",
+  "aliases": [
+    "QTS Atlanta-Fayetteville Campus",
+    "QTS Fayetteville data-center campus"
+  ],
+  "location": {
+    "city": "Fayetteville",
+    "county": "Fayette",
+    "state": "Georgia"
+  },
+  "phase3_stable_id": null,
+  "status_as_of_cutoff": null,
+  "actions": [],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase2_seed_stable_id": "US-GA-QTS-FAYETTEVILLE-2025",
+    "phase2_seed_source_file": "phase2/national_all_company_seed.json",
+    "authoritative_layer": "phase2_seed_only",
+    "match_reason": "No detailed match; retained separately"
+  },
+  "contradictions": [],
+  "seed_only": true,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

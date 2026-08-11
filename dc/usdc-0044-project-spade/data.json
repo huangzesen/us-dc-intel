@@ -1,0 +1,68 @@
+{
+  "master_id": "USDC-0044",
+  "canonical_project": "Project Spade",
+  "aliases": [
+    "Google New Florence data center",
+    "Google New Florence/Montgomery County campus",
+    "Project Spade"
+  ],
+  "location": {
+    "city": "New Florence area",
+    "county": "Montgomery County",
+    "state": "MO"
+  },
+  "phase3_stable_id": "MO-NEW-FLORENCE-GOOGLE-SPADE",
+  "status_as_of_cutoff": "Missouri DED and Google's current location material identify a planned/in-development data center in Montgomery County/New Florence. A project-partner page describes two buildings and late-2026 anticipated construction. No county/city rezoning, land-use decision, bond/tax action, building permit, environmental/water/utility permit, construction, inspection, CO, energization, commissioning, or service record was located.",
+  "actions": [
+    {
+      "date": "2026-05-20",
+      "date_precision": "day",
+      "government_body": "Missouri Department of Economic Development / Google",
+      "action_type": "state economic-development announcement",
+      "result_status": "The state announced Google's $15 billion Missouri infrastructure investment and identified a new data center in Montgomery County/New Florence, along with energy and community commitments. The release does not identify a parcel, permit, or local vote.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://ded.mo.gov/press-room/google-deepens-missouri-roots-15-billion-community-investment-montgomery-county",
+      "access_caveat": "State economic-development announcement is not local zoning, building, environmental, or utility approval.",
+      "evidence_note": "Official state/company announcement; capacity for this project remains undisclosed."
+    },
+    {
+      "date": "2026-07-08",
+      "date_precision": "day",
+      "government_body": "Project Spade / regional development partner",
+      "action_type": "project website announcement",
+      "result_status": "The project website identifies a two-building Google data-center project in Montgomery County and says construction is anticipated in late 2026.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.projectspade-missouri.com/",
+      "access_caveat": "Partner/economic-development website, not a county permit or construction record; the target date is not independently verified.",
+      "evidence_note": "Tier-4 project-site context kept separate from official action."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "Google Data Centers",
+      "action_type": "company location/status page",
+      "result_status": "Google's current location material lists New Florence, Missouri as in development without a project-specific construction or service date.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://datacenters.google/discover-more/faq/",
+      "access_caveat": "Company page; location listing does not establish local approval or operation.",
+      "evidence_note": "Operator status context."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MO-NEW-FLORENCE-GOOGLE-SPADE",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "MO-NEW-FLORENCE-GOOGLE-SPADE",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

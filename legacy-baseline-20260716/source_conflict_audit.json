@@ -1,0 +1,356 @@
+{
+  "audit_version": "phase4-independent-source-conflict-audit-1.0",
+  "cutoff_date": "2026-07-16",
+  "scope": {
+    "brief": "workspace/oracle_openai_datacenters_20260716/research_brief.md",
+    "phase1": "All 7 Phase 1 JSON/MD artifacts",
+    "phase2": "All 10 Phase 2 regional/seed JSON/MD artifacts",
+    "phase3": "All 24 Phase 3 county-pair JSON/MD artifacts",
+    "input_artifact_count": 42,
+    "method": "Independent artifact-only mechanical and semantic audit; no source fetch was required because material conflicts were classifiable from the supplied artifacts."
+  },
+  "blocking_findings": 1,
+  "severity_counts": {
+    "blocker": 1,
+    "material": 13,
+    "note": 0
+  },
+  "metrics": {
+    "phase3_project_count": 186,
+    "phase3_unique_stable_id_count": 186,
+    "phase2_regional_project_count": 186,
+    "phase2_regional_unique_id_count": 186,
+    "phase3_ids_missing_from_phase2_regional_union": 0,
+    "phase2_regional_ids_missing_from_phase3": 0,
+    "phase3_duplicate_stable_ids": 0,
+    "exact_normalized_alias_duplicate_groups": 0,
+    "exact_normalized_city_county_state_collision_groups": 6,
+    "phase3_action_count": 513,
+    "phase3_action_urls_valid": 513,
+    "phase3_project_source_url_count": 452,
+    "phase3_project_source_urls_valid": 452,
+    "all_input_json_actual_url_field_count": 1640,
+    "all_input_json_actual_url_fields_invalid": 0,
+    "phase3_action_urls_found_in_markdown": 513,
+    "phase3_project_ids_found_in_markdown": 186,
+    "phase3_files_with_exact_action_count_marker": 7,
+    "phase3_files_without_action_count_marker": 5,
+    "phase3_rows_missing_project_source_urls": 38,
+    "phase3_actions_missing_date_precision": 150,
+    "phase3_actions_with_non_enum_date_precision": 4,
+    "phase3_actions_with_null_or_undated_date": 11,
+    "phase2_source_record_count": 356,
+    "phase2_distinct_source_domain_count": 212,
+    "phase2_source_tier_counts": {
+      "T1": 121,
+      "T2": 94,
+      "T3": 78,
+      "T4": 60,
+      "T5": 3
+    },
+    "phase3_company_or_press_cue_actions": 78,
+    "phase3_company_or_press_cue_actions_explicitly_labeled_non_government": 59,
+    "phase3_demonstrated_company_or_reporting_mislabels_as_government_action": 0,
+    "construction_cycle_observed_project_count": 7,
+    "construction_cycle_observed_milestone_count": 20,
+    "construction_cycle_required_field_enum_violations": 24,
+    "construction_cycle_observed_milestones_missing_evidence_note": 20
+  },
+  "hashes": {
+    "algorithm": "SHA-256",
+    "phase1_input_group_sha256": "d786428fe4615d1432a62d97f34d461449968c31705c5c93ed0a9639f7a273e1",
+    "phase2_input_group_sha256": "ffb6d77fd1369b5409ca751711bcd105bfa9b7538df4da8b876bfba7077f4039",
+    "phase3_input_group_sha256": "7afb430039ecb1d984e3e19e1176069e70b72094b64f8d5d31b1bd78628ef08c",
+    "research_brief_sha256": "1e5770c3a072026eef7ad9ed03fb2a8d96228c68c105d74f99b9ef56b88bdac3",
+    "all_input_manifest_sha256": "f77dff721d80896509b98867cfc985ccaba25322539bf3330b4cc3d2361b4c51"
+  },
+  "qa_checks": [
+    {
+      "check": "phase3_ids_vs_four_regional_phase2_sets",
+      "result": "pass",
+      "observed": "The 186 Phase 3 stable IDs reconcile one-to-one with the union of the four regional Phase 2 sets; no duplicate ID occurs in either set.",
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/*.json", "field": "projects[*].stable_id"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_*.json", "field": "projects[*].stable_id"}
+      ]
+    },
+    {
+      "check": "duplicate_aliases_and_locations",
+      "result": "pass_with_collision_note",
+      "observed": "No exact normalized alias duplicate was demonstrated. Six exact city/county/state collision groups exist, but the artifacts identify different owners or projects and do not prove duplicate records.",
+      "collision_groups": [
+        ["US-TX-ABILENE-LANCIUM-STARGATE-2024", "US-TX-ABILENE-CRUSOE-MICROSOFT-2026"],
+        ["US-UT-JOULE-DELTA-2026", "US-UT-CREEKSTONE-DELTA-2025"],
+        ["US-UT-TRACT-EAGLE-MOUNTAIN-2024", "US-UT-TRACT-EAGLE-POLE-PONY-2026"],
+        ["US-AZ-EDGECORE-MESA-2024", "US-AZ-GOOGLE-RED-HAWK-MESA-2024"],
+        ["US-NY-NORTH-EAST-DATA-NIAGARA-2023", "US-NY-NFR-NIAGARA-DIGITAL-CAMPUS-2024"],
+        ["US-OK-META-TULSA-2026", "US-OK-ANTHEM-TULSA-2024"]
+      ]
+    },
+    {
+      "check": "url_syntax_and_markdown_coverage",
+      "result": "pass",
+      "observed": "All 513 Phase 3 action primary URLs and all 452 present project source URLs are syntactically valid HTTPS/HTTP URLs; all 513 action URLs and all 186 project IDs are present in the corresponding Phase 3 Markdown.",
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/*.json", "field": "projects[*].actions[*].primary_url; projects[*].source_urls[*]"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/*.md", "field": "project headings, action source links"}
+      ]
+    },
+    {
+      "check": "withdrawal_moratorium_referral_utility_and_company_semantics",
+      "result": "pass_with_caveats",
+      "observed": "The reviewed records generally distinguish withdrawal, moratorium, referral, utility proceedings, company announcements, tax incentives, and groundbreaking from government approval, construction completion, or energization. No demonstrated company/reporting milestone was mislabeled as a government action. Keep these distinctions in final rendering.",
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ga_nc_sc.json", "field": "projects[0].status_at_cutoff; actions[*]", "example": "GA-005 withdrawal is not current approval"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_oh_in.json", "field": "projects[2].actions[*]", "example": "IN-LEBANON-META moratorium is not cancellation"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ia_il_mi_wi.json", "field": "projects[*].actions[*]", "example": "utility approval and company groundbreaking are separated from permit/energization"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_pa_nj_ny_wa.json", "field": "projects[*].government_actions[*]", "example": "FERC co-location rejection is not campus denial"}
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "F4-001",
+      "severity": "blocker",
+      "category": "gantt_coverage",
+      "project_ids": [],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/research_brief.md", "line": 4, "field": "requested deliverable", "claim": "evidence-backed 2024–2030 Gantt chart"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase1/construction_cycle.json", "line": 80, "field": "observed_projects", "claim": "7 observed projects and 20 milestones"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase1/construction_cycle.json", "field": "gantt_schema", "claim": "schema exists but does not provide bars/crosswalks for the 186 Phase 3 projects"}
+      ],
+      "conflicting_claims": [
+        "The brief scopes the public-project deliverable to a 2024–2030 Gantt.",
+        "The only machine-readable construction-cycle schedule covers seven benchmark projects, not the 186 accepted Phase 3 county-pair projects; no stable-ID crosswalk or all-project schedule is supplied."
+      ],
+      "safest_resolution": "Do not label the current schedule as a comprehensive project Gantt. Either build evidence-backed bars/crosswalks for the accepted projects or explicitly label the output as seven observed benchmark schedules and disclose that county-project coverage is absent.",
+      "final_html_must_disclose": true
+    },
+    {
+      "finding_id": "F4-002",
+      "severity": "material",
+      "category": "action_date_precision",
+      "project_ids": ["US-PA-AWS-FAIRLESS-HILLS-2025", "US-NJ-QTS-EAST-WINDSOR-2026", "US-PA-AWS-SUSQUEHANNA-2024", "US-UT-JOULE-DELTA-2026"],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ia_il_mi_wi.json", "line": 324, "field": "projects[5].actions[0].date/date_precision", "claim": "null date with undated_web_page precision"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_oh_in.json", "line": 23, "field": "projects[0].actions[3].date/date_precision", "claim": "null date with undated_register_entry precision"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_oh_in.json", "line": 72, "field": "projects[5].actions[6].date/date_precision", "claim": "null date with undated_register_entry precision"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_pa_nj_ny_wa.json", "line": 45, "field": "projects[1].government_actions[4].action_date/date_text", "claim": "null action_date but date_text April 2026"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_pa_nj_ny_wa.json", "line": 103, "field": "projects[8].government_actions[3].action_date/date_text", "claim": "null action_date for an undated accessed page"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_tx.json", "field": "projects[*].actions[*].date_precision", "claim": "ISO dates have no precision field"}
+      ],
+      "conflicting_claims": [
+        "Phase 3 metadata describes date validation, but 150 of 513 actions omit date_precision, four use non-enum custom values, and 11 are null or explicitly undated.",
+        "Month-only and undated evidence is mixed into action records without a uniform precision enum, which can make a Gantt imply day-level certainty."
+      ],
+      "safest_resolution": "Normalize precision mechanically to the stated evidence: day/month/year/undated; retain date_text for month-only or accessed-page records and never invent a day. Treat missing precision as unknown until normalized.",
+      "final_html_must_disclose": true
+    },
+    {
+      "finding_id": "F4-003",
+      "severity": "material",
+      "category": "gantt_schema_conformance",
+      "project_ids": [],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase1/construction_cycle.json", "field": "gantt_schema.required_fields", "claim": "allowed date_precision/status/certainty/basis enums"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase1/construction_cycle.json", "field": "observed_projects[*].milestones[*]", "claim": "24 enum violations across 20 milestones; evidence_note absent on all 20"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase1/construction_cycle.md", "line": 165, "field": "Gantt date handling", "claim": "missing dates should remain null and must not be invented"}
+      ],
+      "conflicting_claims": [
+        "The schema permits date_precision day/month/season/year/unknown, status actual/forecast/announced/complete/cancelled/unknown, and basis observed/official_forecast/planning_range/inference/announcement_only.",
+        "Observed rows use values such as official_release, developer_release, forecast_at_source_date, actual_statement, announcement, month_start_approximation, month_end_approximation, and year_end, and omit required evidence_note."
+      ],
+      "safest_resolution": "Map source labels to the declared enum without changing factual meaning, preserve the original label in an evidence note, and use null/unknown where mapping would overstate precision.",
+      "final_html_must_disclose": false
+    },
+    {
+      "finding_id": "F4-004",
+      "severity": "material",
+      "category": "source_tier_reproducibility",
+      "project_ids": [],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_midatlantic_southeast.json", "field": "projects[*].sources[*].tier", "claim": "tier values are strings T1–T5"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_midwest_greatlakes.json", "field": "projects[*].sources[*].tier", "claim": "tier values are numeric 1–5"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/*.json", "field": "projects[*].actions[*].primary_url; projects[*].source_urls[*]", "claim": "Phase 3 has no per-source tier attached to these URLs"}
+      ],
+      "conflicting_claims": [
+        "The four regional Phase 2 sets contain 356 source records with T1–T5 coverage, but the field type is inconsistent across regions.",
+        "Phase 3 action and project URLs are not linked to source tiers, so a final source-domain/tier mix cannot be reproduced from the accepted action set."
+      ],
+      "safest_resolution": "Normalize tier values to one representation and preserve source IDs/URLs when carrying evidence into Phase 3; report the current tier mix as Phase 2-only, not as a Phase 3 action-evidence mix.",
+      "final_html_must_disclose": true
+    },
+    {
+      "finding_id": "F4-005",
+      "severity": "material",
+      "category": "source_traceability",
+      "project_ids": ["IN-NEW-CARLISLE-AWS-RAINIER", "IN-JEFFERSONVILLE-META", "IN-LEBANON-META", "IN-LAPORTE-MICROSOFT", "IN-MISHAWAKA-MICROSOFT-STJOE", "IN-MICHIGAN-CITY-GOOGLE-MAIZE", "IN-MORGAN-GOOGLE", "IN-PLAINFIELD-RADIUS-INDY1", "IN-SULLIVAN-POTENTIA-HEARTLAND", "OH-BOWLING-GREEN-META", "OH-FAYETTE-AWS", "OH-SIDNEY-AWS", "OH-MILLERSPORT-VANTAGE-OH2", "OH-JOHNSTOWN-COLOGIX", "OH-NEW-ALBANY-VANTAGE-OH1", "OH-PIQUA-J5-SHAYTURA", "OH-PORTS-PIKE-SBENERGY", "OH-LORDSTOWN-STARGATE", "OH-VAN-WERT-QTS", "US-PA-AWS-SUSQUEHANNA-2024", "US-PA-AWS-FAIRLESS-HILLS-2025", "US-PA-COREWEAVE-LANCASTER-2025", "US-PA-PAX1-MIDDLESEX-2025", "US-PA-HOMER-CITY-2025", "US-PA-TECFUSIONS-KEYSTONE-CONNECT-2025", "US-NJ-NEBIUS-DATAONE-VINELAND-2025", "US-NJ-COREWEAVE-KENILWORTH-2025", "US-NJ-QTS-EAST-WINDSOR-2026", "US-NJ-NJFX-WALL-AI-HALL-2025", "US-NY-STREAM-STAMP-2025", "US-NY-NORTH-EAST-DATA-NIAGARA-2023", "US-NY-NFR-NIAGARA-DIGITAL-CAMPUS-2024", "US-NY-TERAWULF-LAKE-MARINER-CB5-2025", "US-WA-MICROSOFT-MWH08-2024", "US-WA-BITFARMS-MOSES-LAKE-2026", "US-WA-ADVANCE-PHASE-WALLULA-2024", "US-WA-SEATTLE-CITY-LIGHT-5-SITES-2026", "US-WA-MICROSOFT-MALAGA-EAST-WENATCHEE-2025"],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_oh_in.json", "field": "projects[*].source_urls", "claim": "19 project rows have no project-level source_urls field"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_pa_nj_ny_wa.json", "field": "projects[*].source_urls", "claim": "19 project rows have no project-level source_urls field"}
+      ],
+      "conflicting_claims": [
+        "Phase 3 requires project-level source URL coverage for most county-pair files and achieves 452 URLs overall.",
+        "The Ohio/Indiana and Pennsylvania/New Jersey/New York/Washington files rely on action-level URLs only, reducing schema uniformity and making row-level source aggregation non-equivalent across the 186 projects."
+      ],
+      "safest_resolution": "Retain and expose each action primary_url, but add a derived project-level source list before claiming uniform source coverage; do not treat the missing field as absence of evidence.",
+      "final_html_must_disclose": true
+    },
+    {
+      "finding_id": "F4-006",
+      "severity": "material",
+      "category": "milestone_date_conflict",
+      "project_ids": ["ND-ELLENDALE-APPLIED-POLARIS-FORGE"],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_midwest_greatlakes.json", "line": 63, "field": "projects[*].milestones[*].date; sources[*].date", "claim": "government_inspection is dated 2026-03-19 while source date is 2025-03-19"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ks_mn_mo_nd_sd.json", "line": 22, "field": "important_corrections", "claim": "Phase 2 milestone 2026-03-19 is unsupported; official release is 2025-03-19"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ks_mn_mo_nd_sd.json", "line": 272, "field": "projects[*].actions[*].date", "claim": "inspection action dated 2025-03-19"}
+      ],
+      "conflicting_claims": [
+        "Phase 2 records an inspection on 2026-03-19.",
+        "Phase 3’s official-source review records the inspection/release on 2025-03-19 and explicitly identifies the Phase 2 date as a data-entry error."
+      ],
+      "safest_resolution": "Use 2025-03-19 for the inspection and remove the unsupported 2026-03-19 duplicate; retain the correction note in provenance.",
+      "final_html_must_disclose": true
+    },
+    {
+      "finding_id": "F4-007",
+      "severity": "material",
+      "category": "milestone_phase_crosswalk",
+      "project_ids": ["US-TX-FRONTIER-ODESSA-2024", "US-TX-FRONTIER-ABILENE-2025"],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase1/global_site_inventory.json", "line": 83, "field": "sites[*].milestones[*]", "claim": "TDLR registration TABS2026024088 starts 2025-10-30 and completes 2027-04-19"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase1/global_site_inventory.json", "line": 99, "field": "sites[*].contradictions", "claim": "Oracle 1H27 delivery and TDLR April 19, 2027 are different milestones"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_tx.json", "line": 58, "field": "projects[2].actions[0]", "claim": "TDLR registration TABS2026024110 starts 2026-09-04 and completes 2028-04-18; future estimate, not a local building permit"}
+      ],
+      "conflicting_claims": [
+        "The Phase 1 Frontier record presents a 2025–2027 TDLR registration and Oracle’s 1H27 delivery statement.",
+        "The Phase 3 Texas record presents a separate 2026–2028 TDLR registration and says physical construction/first-building status is incomplete. The artifacts do not provide an address/phase crosswalk."
+      ],
+      "safest_resolution": "Keep the two TDLR registrations as separate candidate phases/buildings until an owner/address crosswalk is established; do not merge them into one 2025–2028 bar or treat registration completion as energization.",
+      "final_html_must_disclose": true
+    },
+    {
+      "finding_id": "F4-008",
+      "severity": "material",
+      "category": "capacity_unit_and_identity_conflict",
+      "project_ids": ["US-AZ-EDGECORE-MESA-EXPANSION-2024", "US-AZ-EDGECORE-MESA-2024"],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/national_all_company_seed.json", "line": 40, "field": "projects[*].capacity_MW", "claim": "1,900 MW"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_southwest_mountain.json", "line": 34, "field": "projects[*].capacity; contradictions", "claim": "reported_mw null; $1.9B and 2.1M square feet supported; seed 1.9 GW not supported"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ok_az_ut.json", "field": "projects[*]", "claim": "regional ID is locally approved but has no completion/energization"}
+      ],
+      "conflicting_claims": [
+        "The national seed uses 1,900 MW for an EdgeCore Mesa expansion ID.",
+        "The regional and county evidence use a different stable ID and support $1.9B/2.1M square feet, not 1.9 GW."
+      ],
+      "safest_resolution": "Keep MW null for the accepted regional project, preserve $1.9B as investment, and resolve the national-to-regional ID crosswalk before aggregating; never convert dollars or square footage into MW.",
+      "final_html_must_disclose": true
+    },
+    {
+      "finding_id": "F4-009",
+      "severity": "material",
+      "category": "capacity_status_conflict",
+      "project_ids": ["US-OK-CORE-SCIENTIFIC-MUSKOGEE-2025", "US-OK-CORE-SCIENTIFIC-MUSKOGEE-2024"],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/national_all_company_seed.json", "line": 898, "field": "projects[*].capacity_MW", "claim": "1,500 MW"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/national_all_company_seed.json", "line": 903, "field": "projects[*].construction_status", "claim": "under construction per tracker"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_southwest_mountain.json", "line": 25, "field": "projects[*].capacity; milestones; contradictions", "claim": "100 MW phase plus 82.5 MW follow-on, with staged 2026/2027 targets"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ok_az_ut.json", "field": "projects[*]", "claim": "state release supports 100 MW/70 MW critical IT; no energization or CO"}
+      ],
+      "conflicting_claims": [
+        "The seed tracker reports 1,500 MW and under construction.",
+        "The regional/county evidence supports a 100 MW first phase and 82.5 MW follow-on, with no completion or energization finding."
+      ],
+      "safest_resolution": "Render 100 MW as the evidenced phase and 82.5 MW as a separate target/follow-on; retain 1,500 MW only as an unverified tracker lead and do not label it live or committed.",
+      "final_html_must_disclose": true
+    },
+    {
+      "finding_id": "F4-010",
+      "severity": "material",
+      "category": "capacity_scope_conflict",
+      "project_ids": ["US-UT-JOULE-DELTA-2026", "US-UT-CREEKSTONE-DELTA-2025"],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_southwest_mountain.json", "line": 49, "field": "projects[*].capacity; current_status; contradictions", "claim": "Joule 455 MW Phase 1 under construction; 4,000+ MW full buildout proposed; tracker incorrectly says 4 GW under construction"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_southwest_mountain.json", "line": 50, "field": "projects[*].capacity; current_status; contradictions", "claim": "Creekstone 220 MW Phase 1 under construction; 2 GW tracker and 9,700+ MW expansion are different scopes"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ok_az_ut.json", "field": "projects[*].status_as_of_cutoff", "claim": "Phase 1 status is separated from proposed full buildout and no power-on/final CUP is verified"}
+      ],
+      "conflicting_claims": [
+        "Tracker/seed-scale values can be read as 4 GW and 2 GW under construction.",
+        "Government inventory and county review distinguish 455 MW and 220 MW Phase 1 scopes from 4,000+ MW and 9,700+ MW proposed expansions."
+      ],
+      "safest_resolution": "Use separate phase and ultimate-buildout fields; chart only the evidenced Phase 1 construction status and label full-campus values as proposed. Do not sum or substitute tracker-scale values.",
+      "final_html_must_disclose": true
+    },
+    {
+      "finding_id": "F4-011",
+      "severity": "material",
+      "category": "building_count_scope_conflict",
+      "project_ids": ["US-OR-AWS-BOARDMAN-2024"],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_west_northeast_remaining.json", "line": 58, "field": "projects[*].project/capacity", "claim": "five-building expansion"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ca_or.json", "line": 473, "field": "projects[*].status_as_of_cutoff", "claim": "Phase 2 five-building description is not consistent with county findings"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ca_or.json", "line": 504, "field": "projects[*].actions[*].result_status", "claim": "four single-story data-center buildings plus support buildings"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ca_or.md", "line": 110, "field": "project status", "claim": "same four-versus-five discrepancy"}
+      ],
+      "conflicting_claims": [
+        "Phase 2 describes a five-building expansion.",
+        "Phase 3 county findings enumerate four data-center buildings plus support structures and identify the five-building description as inconsistent."
+      ],
+      "safest_resolution": "Use the county-approved description—four data-center buildings plus support structures—for government-scope reporting; retain five only as an attributed Phase 2 shorthand if its source definition is shown.",
+      "final_html_must_disclose": true
+    },
+    {
+      "finding_id": "F4-012",
+      "severity": "material",
+      "category": "possible_duplicate_identity",
+      "project_ids": ["US-OK-META-TULSA-2026", "US-OK-ANTHEM-TULSA-2024"],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_southwest_mountain.json", "line": 26, "field": "projects[?].aliases", "claim": "Meta row aliases Meta Project Anthem / east Tulsa"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_southwest_mountain.json", "line": 32, "field": "projects[?].contradictions; next_evidence_needed", "claim": "Anthem row may be an alias/misattribution; resolve before separate counting"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ok_az_ut.json", "field": "projects[*]", "claim": "both IDs are accepted records in the same Tulsa location"}
+      ],
+      "conflicting_claims": [
+        "Meta’s Tulsa record identifies Project Anthem as an alias and has a state groundbreaking.",
+        "The separate Anthem record carries an unverified 800 MW trade figure and no primary record, while warning it may be the same project."
+      ],
+      "safest_resolution": "Hold Anthem as an unresolved alias/lead and do not add its 800 MW to Meta Tulsa or count it as a separate campus until legal-entity and parcel evidence resolves identity.",
+      "final_html_must_disclose": true
+    },
+    {
+      "finding_id": "F4-013",
+      "severity": "material",
+      "category": "possible_duplicate_identity",
+      "project_ids": ["US-WY-RELATED-COREWEAVE-CHEYENNE-2025", "US-WY-GOOGLE-PROJECT-JADE-CHEYENNE-2026"],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_southwest_mountain.json", "line": 70, "field": "projects[*].capacity; contradictions", "claim": "Related/CoreWeave up to 302 MW; Project Jade overlap requires parcel crosswalk"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_southwest_mountain.json", "line": 71, "field": "projects[*].capacity; contradictions", "claim": "Project Jade 2,700 MW may overlap with Related/CoreWeave"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_co_id_mt_nv_nm_wy.json", "line": 1066, "field": "projects[*].status_as_of_cutoff", "claim": "Related is kept separate pending parcel crosswalk"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_co_id_mt_nv_nm_wy.json", "line": 1204, "field": "projects[*].actions[*].evidence_note", "claim": "negative search only; do not merge with Related Digital/CoreWeave"}
+      ],
+      "conflicting_claims": [
+        "One Cheyenne record is a state-supported Related/CoreWeave campus up to 302 MW and under construction.",
+        "The other is Google/Jupiter Star Project Jade/Tembo at 2,700 MW with unresolved parcel/developer identity; the same-county location does not establish two independent campuses."
+      ],
+      "safest_resolution": "Keep records separate for provenance but flag the identity as unresolved; do not sum 302 MW and 2,700 MW or infer construction status for Project Jade from the Related record until parcel evidence is available.",
+      "final_html_must_disclose": true
+    },
+    {
+      "finding_id": "F4-014",
+      "severity": "material",
+      "category": "possible_duplicate_identity",
+      "project_ids": ["US-UT-TRACT-EAGLE-MOUNTAIN-2024", "US-UT-TRACT-EAGLE-POLE-PONY-2026"],
+      "anchors": [
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_southwest_mountain.json", "line": 47, "field": "projects[*].capacity; contradictions", "claim": "Tripletail 7,000 MW ultimate scale; not current load"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase2/region_southwest_mountain.json", "line": 57, "field": "projects[*].capacity; contradictions", "claim": "Pole Canyon/Pony 1,820 MW proposed; possible overlap with Tripletail"},
+        {"file": "workspace/oracle_openai_datacenters_20260716/phase3/county_ok_az_ut.json", "field": "projects[*].status_as_of_cutoff", "claim": "both accepted as proposed leads; no parcel crosswalk resolves overlap"}
+      ],
+      "conflicting_claims": [
+        "Tripletail and Pole Canyon/Pony have separate stable IDs and reported capacities of 7,000 MW ultimate and 1,820 MW proposed.",
+        "Phase 2 explicitly says the staff-report layout and seed names create possible overlap and prohibits summing without a parcel crosswalk."
+      ],
+      "safest_resolution": "Do not aggregate the two capacity figures or render them as independent campuses; preserve the overlap warning until parcel and case identifiers are cross-walked.",
+      "final_html_must_disclose": true
+    }
+  ]
+}

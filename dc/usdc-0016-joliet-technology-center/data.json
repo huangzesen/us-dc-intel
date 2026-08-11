@@ -1,0 +1,79 @@
+{
+  "master_id": "USDC-0016",
+  "canonical_project": "Joliet Technology Center",
+  "aliases": [
+    "Hillwood data center campus",
+    "Joliet Technology Center"
+  ],
+  "location": {
+    "city": "Joliet",
+    "county": "Will",
+    "state": "IL"
+  },
+  "phase3_stable_id": "IL-JOLIET-POWERHOUSE-HILLWOOD",
+  "status_as_of_cutoff": "City records establish conditional annexation, I-1 zoning, preliminary PUD/plat, and an annexation/development agreement; no building permit, construction start, energization, or completion was located.",
+  "actions": [
+    {
+      "date": "2025-10-16",
+      "date_precision": "day",
+      "government_body": "Joliet Plan Commission / City of Joliet",
+      "action_type": "staff report and public land-use review",
+      "result_status": "The staff report describes the 795-acre proposal, applicant HW Technology Park Development LLC, annexation A-4-25, and preliminary PUD PUD-8-25. A staff report is not itself final council approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "A-4-25; PUD-8-25",
+      "primary_url": "https://www.joliet.gov/home/showpublisheddocument/36790/639074525467470000",
+      "access_caveat": "Staff report; it does not supply a final roll call or building permit.",
+      "evidence_note": "Government review record and project scope."
+    },
+    {
+      "date": "2026-03-16",
+      "date_precision": "day",
+      "government_body": "Joliet City Council",
+      "action_type": "public hearing / agenda for annexation, zoning, preliminary PUD and plat",
+      "result_status": "The official notice scheduled a public hearing and listed A-4-25 and PUD-8-25 actions. The notice establishes the agenda, not the final vote result.",
+      "vote_tally": "not published in notice",
+      "case_or_ordinance_permit_number": "A-4-25; PUD-8-25",
+      "primary_url": "https://www.joliet.gov/Home/Components/News/News/5652/41?arch=1&mibextid=zxz2cz",
+      "access_caveat": "Agenda/notice is not substituted for certified minutes; no tally inferred.",
+      "evidence_note": "Hearing and agenda evidence only."
+    },
+    {
+      "date": "2026-03-19",
+      "date_precision": "day",
+      "government_body": "Joliet City Council / City of Joliet",
+      "action_type": "conditional annexation and development-agreement approval",
+      "result_status": "City announcement says the Council approved conditional annexation of approximately 795 acres tied to PowerHouse Hillwood Holding LLC. The approval is conditional and does not establish building permits or construction.",
+      "vote_tally": "not published in accessible resolution",
+      "case_or_ordinance_permit_number": "Annexation agreement resolution; A-4-25",
+      "primary_url": "https://www.joliet.gov/Home/Components/News/News/5666/",
+      "access_caveat": "Official resolution PDF leaves voting fields blank; city announcement confirms approval but does not supply a numeric roll call.",
+      "evidence_note": "Conditional annexation/development stage, not completion."
+    },
+    {
+      "date": "2026-03-19",
+      "date_precision": "day",
+      "government_body": "Joliet City Council",
+      "action_type": "annexation/zoning/preliminary PUD ordinance",
+      "result_status": "Ordinance 2026-? accessible as the official ordinance text approves zoning upon annexation to I-1 and a preliminary PUD/plat with variations; the accessible copy did not expose a final numeric vote field in the extracted text.",
+      "vote_tally": "not published in accessible ordinance",
+      "case_or_ordinance_permit_number": "A-4-25; PUD-8-25",
+      "primary_url": "https://www.joliet.gov/home/showpublisheddocument/36856/639089066745700000",
+      "access_caveat": "The document title/number is not reliably rendered in the accessible extraction; no number is invented. This is not a building permit.",
+      "evidence_note": "Primary zoning/PUD ordinance text; vote tally preserved as unavailable."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "IL-JOLIET-POWERHOUSE-HILLWOOD",
+    "phase3_source_file": "phase3/county_ia_il_mi_wi.json",
+    "regional_id": "IL-JOLIET-POWERHOUSE-HILLWOOD",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

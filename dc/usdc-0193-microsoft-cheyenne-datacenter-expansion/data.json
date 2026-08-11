@@ -1,0 +1,67 @@
+{
+  "master_id": "USDC-0193",
+  "canonical_project": "Microsoft Cheyenne datacenter expansion",
+  "aliases": [
+    "Microsoft Cheyenne datacenter expansion",
+    "Microsoft Wyoming 3,200-acre campus"
+  ],
+  "location": {
+    "city": "Cheyenne",
+    "county": "Laramie",
+    "state": "WY"
+  },
+  "phase3_stable_id": "US-WY-MICROSOFT-CHEYENNE-2026",
+  "status_as_of_cutoff": "Microsoft announced an intent to purchase/develop additional Cheyenne acreage and later said it submitted applications for expansion areas. The company announcement expressly describes a multiyear planning process with future public hearings; no government approval, permit, construction start, CO, or energization for this Phase 2 expansion was verified.",
+  "actions": [
+    {
+      "date": "2026-04-14",
+      "date_precision": "day",
+      "government_body": "Microsoft (company source; not a government body)",
+      "action_type": "intent to purchase / planned expansion",
+      "result_status": "Microsoft announced intent to purchase approximately 3,200 acres and develop a datacenter, while stating that a multiyear planning and development process remained ahead.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://news.microsoft.com/source/2026/04/14/microsoft-announces-intent-to-expand-datacenter-operations-in-cheyenne-accelerating-innovation-and-economic-growth/",
+      "access_caveat": "Company announcement; it is not a land-sale closing or local approval.",
+      "evidence_note": "Announcement only."
+    },
+    {
+      "date": "2026-05",
+      "date_precision": "month",
+      "government_body": "Microsoft Local (company source; not a government body)",
+      "action_type": "application submission (company-reported)",
+      "result_status": "Microsoft said it submitted applications to the City of Cheyenne for two additional expansion areas, approximately 385 acres east of College Drive and approximately 35 acres south of Happy Jack Road.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://local.microsoft.com/blog/cheyenne-datacenter-update/",
+      "access_caveat": "The City applications were reported by Microsoft; reviewed city surfaces did not identify the applications as Microsoft-specific approvals.",
+      "evidence_note": "Application claim; no approval inferred."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "City of Cheyenne / Laramie County / Black Hills Energy",
+      "action_type": "planning, permit, and utility search (negative)",
+      "result_status": "The City’s data-center page explains that development actions, public hearings, and permits are separate steps; no project-specific Microsoft approval, permit, inspection/CO, parcel closing, or energization record for the expansion was located.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.cheyennecity.org/Your-Government/Departments/Planning-and-Development-Department/Data-Centers",
+      "access_caveat": "City page is general information and explicitly cautions that a development action is not necessarily a specific data-center project.",
+      "evidence_note": "Negative search only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-WY-MICROSOFT-CHEYENNE-2026",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-WY-MICROSOFT-CHEYENNE-2026",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

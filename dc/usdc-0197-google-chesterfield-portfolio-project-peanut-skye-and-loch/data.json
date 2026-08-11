@@ -1,0 +1,71 @@
+{
+  "master_id": "USDC-0197",
+  "canonical_project": "Google Chesterfield portfolio / Project Peanut, Skye, and Loch",
+  "aliases": [
+    "Bermuda Hundred campus",
+    "Google Chesterfield portfolio",
+    "Google Chesterfield portfolio / Project Peanut, Skye, and Loch",
+    "Project Peanut, Project Skye, Project Loch",
+    "Upper Magnolia Green",
+    "Watkins Centre South"
+  ],
+  "location": {
+    "city": "Unincorporated Chesterfield County",
+    "county": "Chesterfield County",
+    "state": "VA"
+  },
+  "phase3_stable_id": "VA-002",
+  "status_as_of_cutoff": "County public information says Google had begun building a Bermuda Hundred campus and had bought two additional properties, but the county records located do not establish a rezoning vote, final site-plan approval, building permit, certificate of occupancy, or energization for the portfolio.",
+  "actions": [
+    {
+      "date": "2025-08-28",
+      "date_precision": "day",
+      "government_body": "Chesterfield County",
+      "action_type": "government project update / construction status reported by company",
+      "result_status": "County article reported that Google had announced a data-center campus and that a company spokesperson said it had already broken ground on a 300-plus-acre Bermuda Hundred site. The article records no county vote or permit approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.chesterfield.gov/m/newsflash/Home/Detail/6383",
+      "access_caveat": "Official article attributes the groundbreaking statement to Google; it is not an approval instrument.",
+      "evidence_note": "Construction-status report, not a construction permit or certificate of occupancy."
+    },
+    {
+      "date": "2025-09-17",
+      "date_precision": "day",
+      "government_body": "Chesterfield County Board of Supervisors",
+      "action_type": "public comment / notice concern",
+      "result_status": "A resident public comment referenced 2700 Bermuda Hundred Road, Google, and Peanut LLC and raised concerns about nondisclosure and public notice. The published comments do not show a Board action or vote on the project.",
+      "vote_tally": "not published; no vote recorded",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.chesterfield.gov/DocumentCenter/View/44987/2025-Board-of-Supervisors-Public-Comments-9-17-25-PDF",
+      "access_caveat": "This is a public-comments file, not minutes or an approval packet.",
+      "evidence_note": "Public comment is not a land-use decision."
+    },
+    {
+      "date": "2026-01-23",
+      "date_precision": "day",
+      "government_body": "Chesterfield County Community Development / plan review",
+      "action_type": "site-plan administrative review",
+      "result_status": "Weekly active-plan review record routed PROJECT PEANUT EP, case 25PR1323, plan type PA REG, for review on January 23; the record's final-status field was blank/NA. No approval can be inferred.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "25PR1323",
+      "primary_url": "https://www.chesterfield.gov/DocumentCenter/View/5348/Weekly-Review-Order-For-Active-Plans-Review-PDF",
+      "access_caveat": "Weekly review list is an administrative routing/status document, not a final site-plan decision.",
+      "evidence_note": "Site-plan review is land-use administration; it is not a building permit."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "VA-002",
+    "phase3_source_file": "phase3/county_va_md_wv.json",
+    "regional_id": "VA-002",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

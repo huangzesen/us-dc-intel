@@ -1,0 +1,105 @@
+{
+  "master_id": "USDC-0038",
+  "canonical_project": "Scannell Technology Park",
+  "aliases": [
+    "Monticello DCPUD",
+    "Scannell Properties technology park",
+    "Scannell Technology Park",
+    "Scannell data center proposal"
+  ],
+  "location": {
+    "city": "Monticello",
+    "county": "Wright County",
+    "state": "MN"
+  },
+  "phase3_stable_id": "MN-MONTICELLO-SCANNELL",
+  "status_as_of_cutoff": "Scannell's project has an official comprehensive-plan history and was included in Monticello's data-center review. The city posted CUP, rezone, preliminary/final plat, utility, water, sanitary, stormwater, traffic, noise, and mitigation applications received on 2026-07-06; they remained under completeness review. No final rezoning/CUP, building permit, construction, inspection, CO, utility interconnection, energization, commissioning, or service record was located.",
+  "actions": [
+    {
+      "date": "2025-05-27",
+      "date_precision": "day",
+      "government_body": "Monticello City Council",
+      "action_type": "comprehensive-plan amendment",
+      "result_status": "The city says Council approved Scannell Properties' amendment to guide approximately 76 acres to Light Industrial Park; the remaining approximately 30 acres were already guided Light Industrial Park.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Monticello 2040 Vision + Plan amendment",
+      "primary_url": "https://www.monticellomn.gov/728/Data-Centers",
+      "access_caveat": "Comprehensive-plan guidance is not final rezoning, CUP, building approval, or construction evidence.",
+      "evidence_note": "Official city land-use action."
+    },
+    {
+      "date": "2025-12-02",
+      "date_precision": "day",
+      "government_body": "Monticello Planning Commission",
+      "action_type": "data-center ordinance public hearing / postponement",
+      "result_status": "The Planning Commission held the public hearing on the data-center ordinance, closed the hearing, and voted to postpone action. This was a citywide regulatory ordinance process, not approval of Scannell's site.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DCPUD ordinance",
+      "primary_url": "https://monticellomn.gov/728/Data-Centers",
+      "access_caveat": "No roll-call tally was published in the reviewed page summary; ordinance action is not project approval.",
+      "evidence_note": "Official agenda/minutes pathway."
+    },
+    {
+      "date": "2026-01-12",
+      "date_precision": "day",
+      "government_body": "Monticello City Council",
+      "action_type": "land-use re-analysis direction",
+      "result_status": "The city says Council voted to re-analyze the site's land-use guidance and direct the Planning Commission to hold a public hearing concerning high-amenity areas and residential potential.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Scannell-related land-use guidance",
+      "primary_url": "https://monticellomn.gov/728/Data-Centers",
+      "access_caveat": "The page does not expose a roll-call tally or final re-analysis decision.",
+      "evidence_note": "Official process action; no final rezoning inferred."
+    },
+    {
+      "date": "2026-01-26",
+      "date_precision": "day",
+      "government_body": "Monticello City Council",
+      "action_type": "final AUAR and mitigation-plan adoption",
+      "result_status": "Council adopted the Final AUAR and Mitigation Plan for Monticello Industrial. The AUAR covers broader industrial/data-center planning and does not approve Scannell's project.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Monticello Industrial AUAR",
+      "primary_url": "https://www.monticellomn.gov/728/Data-Centers",
+      "access_caveat": "No roll-call tally exposed on the cited page; no project permit inferred.",
+      "evidence_note": "Official environmental-review action."
+    },
+    {
+      "date": "2026-04-27",
+      "date_precision": "day",
+      "government_body": "Monticello City Council",
+      "action_type": "data-center ordinance approval",
+      "result_status": "The city says Council approved the Data Center Ordinance after public comment and final adjustments. The ordinance regulates future applications; it does not approve Scannell's site.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DCPUD ordinance",
+      "primary_url": "https://monticellomn.gov/728/Data-Centers",
+      "access_caveat": "Cited page does not expose ordinance number or roll-call tally.",
+      "evidence_note": "Official regulatory framework action."
+    },
+    {
+      "date": "2026-07-06",
+      "date_precision": "day",
+      "government_body": "City of Monticello",
+      "action_type": "CUP/rezone/plat application receipt",
+      "result_status": "The city posted formal DCPUD applications from Scannell/DCPUD, including CUP, rezone, preliminary and final plat, site-improvement, utility, water, sanitary, stormwater, noise, traffic, and mitigation materials. The city states the applications remain under completeness review and hearings are not scheduled.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Monticello DCPUD applications",
+      "primary_url": "https://www.monticellomn.gov/728/Data-Centers",
+      "access_caveat": "Receipt and posted application materials are not a final decision, permit, or construction authorization.",
+      "evidence_note": "Official current application status."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MN-MONTICELLO-SCANNELL",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "MN-MONTICELLO-SCANNELL",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

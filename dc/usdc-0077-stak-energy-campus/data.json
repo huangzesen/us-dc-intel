@@ -1,0 +1,56 @@
+{
+  "master_id": "USDC-0077",
+  "canonical_project": "STAK Energy Campus",
+  "aliases": [
+    "ADL 422741 lease proposal",
+    "North Slope AI/cloud campus",
+    "STAK Energy Campus"
+  ],
+  "location": {
+    "city": null,
+    "county": "North Slope Borough",
+    "state": "AK"
+  },
+  "phase3_stable_id": "US-AK-STAK-NORTH-SLOPE-2026",
+  "status_as_of_cutoff": "Proposed and in preliminary state-lease review; construction, final lease, and operating status were not verified. Alaska Public Media describes the idea as existing only on paper, while the company/trade description claims a roughly $500 million campus and approximately 3 GW scale; those scale claims are not independently defined in an official approval.",
+  "actions": [
+    {
+      "date": "2026-05-26",
+      "date_precision": "day",
+      "government_body": "Not a government action; Alaska Public Media report",
+      "action_type": "proposal report",
+      "result_status": "Reports a proposed STAK Energy data center on the North Slope and says the state had given preliminary approval to lease land off the Dalton Highway.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "ADL 422741",
+      "primary_url": "https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center",
+      "access_caveat": "Local reporting; not a lease, land-use, building, air, water, or utility permit.",
+      "evidence_note": "Company/project discovery and status context; scale and customer claims remain unverified."
+    },
+    {
+      "date": "2026-05-28",
+      "date_precision": "day",
+      "government_body": "Alaska Department of Natural Resources record discussed by Northern Journal",
+      "action_type": "preliminary lease decision / public-comment trail",
+      "result_status": "The lease process and preliminary decision/public-comment trail were reported; no final lease issuance or construction authorization was located.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "ADL 422741",
+      "primary_url": "https://northern.org/news/stak-energy-campus-what-the-states-lease-documents-reveal-about-scale-risk-and-unanswered-questions/",
+      "access_caveat": "The cited page is a nonprofit/local analysis of state lease documents; the underlying final DNR disposition was not retrieved.",
+      "evidence_note": "Lease-review evidence only; no build, permit, interconnection, or energization inference."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-AK-STAK-NORTH-SLOPE-2026",
+    "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
+    "regional_id": "US-AK-STAK-NORTH-SLOPE-2026",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

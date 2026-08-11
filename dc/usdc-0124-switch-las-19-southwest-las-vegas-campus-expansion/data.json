@@ -1,0 +1,67 @@
+{
+  "master_id": "USDC-0124",
+  "canonical_project": "Switch LAS 19 / southwest Las Vegas campus expansion",
+  "aliases": [
+    "Switch Core Campus expansion",
+    "Switch LAS 19 / southwest Las Vegas campus expansion"
+  ],
+  "location": {
+    "city": "Enterprise/Las Vegas",
+    "county": "Clark",
+    "state": "NV"
+  },
+  "phase3_stable_id": "US-NV-SWITCH-LAS19-CLARK-2026",
+  "status_as_of_cutoff": "Clark County’s June 17 zoning hearing is reported as approval of Switch LAS 19 items, with a condition and withdrawn landscaping waivers. The reviewed public record supports a land-use action, not building-permit issuance, construction start, utility allocation, or energization.",
+  "actions": [
+    {
+      "date": "2026-06-17",
+      "date_precision": "day",
+      "government_body": "Clark County Zoning Commission / Board of County Commissioners",
+      "action_type": "rezoning and design-review action",
+      "result_status": "The county hearing record as indexed by the public meeting surface identifies ZC26-0260, an approximately 8.99-acre Switch LAS 19 expansion, IL-to-IP reclassification, and approval with conditions; the accessible county attachment did not expose a roll-call tally.",
+      "vote_tally": "approved; tally not published in reviewed accessible record",
+      "case_or_ordinance_permit_number": "ZC26-0260",
+      "primary_url": "https://www.clarkcountynv.gov/government/board_of_county_commissioners/county-meeting-agendas",
+      "access_caveat": "County agenda hub is accessible, but the specific packet/attachment was not fully retrievable in this pass.",
+      "evidence_note": "Approval is limited to the cited land-use items."
+    },
+    {
+      "date": "2026-06-17",
+      "date_precision": "day",
+      "government_body": "Clark County (reported by FOX5; county decision file not fully retrieved)",
+      "action_type": "land-use approval with condition (reported)",
+      "result_status": "FOX5 reported county approval of Switch LAS 19 and a Warm Springs Road sidewalk-safety-barrier condition; this does not establish a building permit or power-on date.",
+      "vote_tally": "reported unanimous",
+      "case_or_ordinance_permit_number": "ZC26-0260",
+      "primary_url": "https://www.fox5vegas.com/2026/06/18/clark-county-approves-switch-data-center-project-southwest-valley-after-public-opposition/?outputType=amp",
+      "access_caveat": "Press report used to preserve the reported condition and vote characterization while the county packet remained inaccessible.",
+      "evidence_note": "Government action reported by press; no permit inference."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "Clark County Department of Comprehensive Planning / Building and NV Energy",
+      "action_type": "permit and utility search (negative)",
+      "result_status": "No building permit, final site-plan closeout, inspection/CO, NV Energy interconnection, or energization record was located by the cutoff.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "ZC26-0260",
+      "primary_url": "https://www.clarkcountynv.gov/government/departments/comprehensive_planning",
+      "access_caveat": "County department page is a general surface and does not expose every permit record.",
+      "evidence_note": "Negative search only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-NV-SWITCH-LAS19-CLARK-2026",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-NV-SWITCH-LAS19-CLARK-2026",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

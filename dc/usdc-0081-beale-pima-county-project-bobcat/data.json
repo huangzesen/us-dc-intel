@@ -1,0 +1,43 @@
+{
+  "master_id": "USDC-0081",
+  "canonical_project": "Beale Pima County Project Bobcat",
+  "aliases": [
+    "Beale Pima County Project Bobcat",
+    "Southeast Employment and Logistics Center data center"
+  ],
+  "location": {
+    "city": "Tucson area",
+    "county": "Pima",
+    "state": "AZ"
+  },
+  "phase3_stable_id": "US-AZ-BEALE-PIMA-BOBCAT-2025",
+  "status_as_of_cutoff": "Developer says a specific plan was approved and construction claimed, but the underlying Pima action, permit, and TEP record were not independently verified.",
+  "actions": [
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": null,
+      "action_type": "developer project-status snapshot",
+      "result_status": "Beale’s Pima County page describes Project Bobcat, expected capacity/investment, a specific-plan approval claim, and a construction-start claim. No linked Pima County resolution or permit was exposed.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://bealeinfra.com/location/pima-county/",
+      "access_caveat": "Company page at cutoff; its approval and construction statements are not treated as government findings without the underlying record.",
+      "evidence_note": "Body/context retained from prior file: Beale Infrastructure. Date is a cutoff-date snapshot from the prior file."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-AZ-BEALE-PIMA-BOBCAT-2025",
+    "phase3_source_file": "phase3/county_ok_az_ut.json",
+    "regional_id": "US-AZ-BEALE-PIMA-BOBCAT-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,84 @@
+{
+  "master_id": "USDC-0140",
+  "canonical_project": "Google The Dalles expansion",
+  "aliases": [
+    "Google Data Center Project 1",
+    "Google Data Center Project 2",
+    "Google Oregon campus expansion",
+    "Google The Dalles data-center expansion",
+    "Google The Dalles expansion"
+  ],
+  "location": {
+    "city": "The Dalles",
+    "county": "Wasco County",
+    "state": "OR"
+  },
+  "phase3_stable_id": "US-OR-GOOGLE-THE-DALLES-2024",
+  "status_as_of_cutoff": "Google's official location page confirms an operating The Dalles campus and continued regional investment. Oregon's official 2021 SIP record verifies two phased Google project approvals, each with an estimated $600 million investment and tax-lot definitions, but the reviewed public record does not identify the Phase 2 2024 groundbreaking claim, a building-specific permit, CO, utility service date, or current expansion commissioning date.",
+  "actions": [
+    {
+      "date": "2021-02-17",
+      "date_precision": "day",
+      "government_body": "Wasco County Board of Commissioners",
+      "action_type": "Strategic Investment Program public hearing",
+      "result_status": "Oregon's official SIP resolution records that the county governing body held its first public hearing regarding the Google project on 2021-02-17; the hearing is part of the tax-incentive pathway, not a building permit.",
+      "vote_tally": "not stated in the state resolution",
+      "case_or_ordinance_permit_number": "Google SIP project; later SIP-21-01 / SIP-21-02",
+      "primary_url": "https://www.oregon.gov/biz/Publications/Boards/Business%20Oregon%20Commission/2021/December/December_2021_Commission_Packet.pdf",
+      "access_caveat": "The state packet recites the hearing date but does not reproduce the county hearing packet or roll call.",
+      "evidence_note": "Tax-incentive process context; not construction approval."
+    },
+    {
+      "date": "2021-11-10",
+      "date_precision": "day",
+      "government_body": "Wasco County Board of Commissioners",
+      "action_type": "SIP request / county resolution",
+      "result_status": "The Oregon Business Development Commission record states that Wasco County requested the SIP determination by Resolution #21-013 on 2021-11-10 and that the county and City of The Dalles entered a written agreement with Google.",
+      "vote_tally": "not stated in the state resolution",
+      "case_or_ordinance_permit_number": "Resolution #21-013",
+      "primary_url": "https://www.oregon.gov/biz/Publications/Boards/Business%20Oregon%20Commission/2021/December/December_2021_Commission_Packet.pdf",
+      "access_caveat": "The county resolution itself was not separately retrieved; the state commission's official adopted resolution is the cited source.",
+      "evidence_note": "County/state tax agreement pathway; no site permit or construction milestone inferred."
+    },
+    {
+      "date": "2021-12-17",
+      "date_precision": "day",
+      "government_body": "Oregon Business Development Commission",
+      "action_type": "Strategic Investment Program tax approval",
+      "result_status": "The commission adopted SIP-21-01 and SIP-21-02 for two Google Data Center projects in The Dalles. The resolutions define phased real/personal property on specified Wasco County tax lots and estimate $600 million per project, while expressly describing tax assessment treatment rather than building, utility, occupancy, or commissioning approval.",
+      "vote_tally": "official action adopted; roll-call tally not published in the cited packet",
+      "case_or_ordinance_permit_number": "SIP-21-01; SIP-21-02",
+      "primary_url": "https://www.oregon.gov/biz/Publications/Boards/Business%20Oregon%20Commission/2021/December/December_2021_Commission_Packet.pdf",
+      "access_caveat": "The packet is official and includes the adopted resolutions; the two SIP projects cannot be mapped to the Phase 2 2024 construction claim more narrowly from the reviewed record.",
+      "evidence_note": "Government tax approval; not proof of building completion or live load."
+    },
+    {
+      "date": null,
+      "date_precision": "undated",
+      "government_body": "Google Data Centers",
+      "action_type": "company location/status page",
+      "result_status": "Google's current Oregon page confirms the The Dalles campus, says Google began operating its first Oregon data center there in 2006, and states continued investment; it does not provide a current phase permit, construction, energization, or service date.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://datacenters.google/locations/oregon/",
+      "access_caveat": "Company source; operational campus confirmation is not evidence for a specific new building or current expansion phase.",
+      "evidence_note": "Company context kept separate from official approvals."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-OR-GOOGLE-THE-DALLES-2024",
+    "phase3_source_file": "phase3/county_ca_or.json",
+    "regional_id": "US-OR-GOOGLE-THE-DALLES-2024",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [
+      "US-OR-GOOGLE-THE-DALLES-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

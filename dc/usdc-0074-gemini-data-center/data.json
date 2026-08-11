@@ -1,0 +1,69 @@
+{
+  "master_id": "USDC-0074",
+  "canonical_project": "Gemini Data Center",
+  "aliases": [
+    "Gemini Addition",
+    "Gemini Data Center",
+    "Gemini Data Center SD LLC",
+    "Sioux Falls 500 MW data center"
+  ],
+  "location": {
+    "city": "Sioux Falls",
+    "county": "Minnehaha County",
+    "state": "SD"
+  },
+  "phase3_stable_id": "SD-SIOUX-FALLS-GEMINI",
+  "status_as_of_cutoff": "Sioux Falls officially approved Gemini's rezoning and amended preliminary plan on 2026-01-06. The official minutes show the preliminary-plan motion initially failed 3–4, a water-meter condition amendment passed 4–3, and Resolution 4-26 passed 7–0; the rezoning action was also recorded 7–0. A later local report says a referendum petition was rejected. No building permit, groundbreaking, construction, inspection, CO, utility/interconnection, energization, commissioning, or live-service evidence was located.",
+  "actions": [
+    {
+      "date": "2025-12-02",
+      "date_precision": "day",
+      "government_body": "Sioux Falls Planning Commission",
+      "action_type": "preliminary-subdivision-plan recommendation",
+      "result_status": "The Planning Commission packet recommended approval of the preliminary plan for Gemini Addition and identified Gemini Data Center SD, LLC / Michael Anvar as private applicant; City Council public action was scheduled for January 6, 2026.",
+      "vote_tally": "Planning Commission recommendation 7-0",
+      "case_or_ordinance_permit_number": "Petition 022062-2025; Gemini Addition",
+      "primary_url": "https://amv.siouxfalls.gov/OnBaseAgendaOnline/Documents/DownloadFileBytes/Planning_Commission_Meeting_4175_Agenda_Packet_12_3_2025_6_00_00_PM.pdf?documentType=5&isAttachment=True&meetingId=4175",
+      "access_caveat": "Recommendation is not final Council approval or a building permit.",
+      "evidence_note": "Official Planning Commission packet."
+    },
+    {
+      "date": "2026-01-06",
+      "date_precision": "day",
+      "government_body": "Sioux Falls City Council",
+      "action_type": "rezoning and preliminary-plan approval",
+      "result_status": "The official minutes record Gemini rezoning approval 7-0. For Resolution 4-26, an initial motion failed 3-4; amendment adding a domestic-water meter condition passed 4-3; final amended resolution approving Gemini Addition passed 7-0.",
+      "vote_tally": "Rezoning 7 yes / 0 no; preliminary-plan initial motion 3 yes / 4 no failed; water amendment 4 yes / 3 no passed; final Resolution 4-26 7 yes / 0 no",
+      "case_or_ordinance_permit_number": "Resolution 4-26; Gemini Addition; rezoning ordinance 022062-2025",
+      "primary_url": "https://amv.siouxfalls.gov/OnBaseAgendaOnline/Meetings/ViewMeeting?doctype=2&id=4182",
+      "access_caveat": "Land-use approval and water condition do not establish building permit, construction, utility service, or operation.",
+      "evidence_note": "Official agenda/minutes and roll-call record."
+    },
+    {
+      "date": "2026-01-29",
+      "date_precision": "day",
+      "government_body": "Sioux Falls City Clerk / local reporting",
+      "action_type": "referendum-petition disposition",
+      "result_status": "Local reporting says the city rejected an effort to place the rezoning decision before voters and that the ordinance remained in effect. The underlying clerk determination was not separately retrieved.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://siouxfalls.business/data-center-opponents-fail-at-effort-to-put-rezoning-decision-to-public-vote/",
+      "access_caveat": "Secondary report; no referendum vote is inferred.",
+      "evidence_note": "Post-approval legal/procedural context, not construction evidence."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "SD-SIOUX-FALLS-GEMINI",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "SD-SIOUX-FALLS-GEMINI",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,79 @@
+{
+  "master_id": "USDC-0024",
+  "canonical_project": "AWS Project Rainier / Amazon New Carlisle campus",
+  "aliases": [
+    "AWS Indiana Enterprise Center",
+    "AWS New Carlisle / Project Rainier campus",
+    "AWS Project Rainier",
+    "AWS Project Rainier / Amazon New Carlisle campus",
+    "Amazon New Carlisle campus",
+    "Anthropic-Amazon New Carlisle",
+    "Project Rainier"
+  ],
+  "location": {
+    "city": "New Carlisle",
+    "county": "St. Joseph",
+    "state": "IN"
+  },
+  "phase3_stable_id": null,
+  "status_as_of_cutoff": null,
+  "actions": [
+    {
+      "date": "2024-04-25",
+      "body": "Indiana Economic Development Corporation / Governor",
+      "action_type": "state incentive and project announcement",
+      "exact_result_status": "IEDC announced AWS plans to invest $11 billion in an Indiana Enterprise Center campus over the next decade and offered performance-based state incentives; this is not a local approval.",
+      "vote_tally": null,
+      "case_or_permit_number": null,
+      "primary_url": "https://iedc.in.gov/events/news/details/2024/04/25/gov.-holcomb-announces-amazon-web-services-plans-to-invest-11b-to-create-a-new-data-center-campus-in-northern-indiana",
+      "access_caveat": "Official state page accessible; it does not publish a county/town vote tally or a building-by-building completion register."
+    },
+    {
+      "date": "2024-12-05",
+      "body": "Indiana Department of Environmental Management, Office of Air Quality",
+      "action_type": "public meeting on air permit",
+      "exact_result_status": "IDEM held the announced public meeting concerning Amazon Data Services Part 70/New Source Construction Permit T141-47750-00642 after public comments on the draft permit.",
+      "vote_tally": null,
+      "case_or_permit_number": "T141-47750-00642",
+      "primary_url": "https://ecm.idem.in.gov/cs/idcplg?IdcService=GET_FILE&dDocName=83729837&dID=83725794&noSaveAs=1",
+      "access_caveat": "IDEM PDF is public and searchable; the meeting is an agency permitting proceeding, not a local zoning vote."
+    },
+    {
+      "date": "2025-01-28",
+      "body": "Indiana Department of Environmental Management, Office of Air Quality",
+      "action_type": "air-permit modification",
+      "exact_result_status": "IDEM technical-support document records issuance of the Part 70 significant source and significant permit modifications for Amazon Data Services; it clarifies the source addresses and says construction had begun.",
+      "vote_tally": null,
+      "case_or_permit_number": "141-48867-00642; 141-48888-00642; underlying T141-47750-00642",
+      "primary_url": "https://ecm.idem.in.gov/cs/idcplg?IdcService=GET_FILE&dDocName=83835924&dID=83831881",
+      "access_caveat": "Official technical-support document accessible; the initial permit PDF's signature/date fields are not rendered in the indexed copy."
+    },
+    {
+      "date": null,
+      "date_precision": "undated_register_entry",
+      "body": "Indiana Department of Homeland Security, Fire and Building Safety Division",
+      "action_type": "state building filing",
+      "exact_result_status": "Public IDHS records show filed new-project applications for IEC-3 Buildings 1–9, IEC-3 Building D, and IEC-3 Building C at New Carlisle for Amazon Data Services; no issued/closed status or issue date was published in the indexed record.",
+      "vote_tally": null,
+      "case_or_permit_number": "Public permit records include p_var_id=24472, 24633, and 24987",
+      "primary_url": "https://oas.dhs.in.gov/reports/rwservlet?dfbsepnhtml=&p_var_id=24472&report=variance_view_application.rdf",
+      "access_caveat": "IDHS portal is accessible but the public result is a filing view; it is not evidence that all listed buildings are complete or occupied."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "IN-NEW-CARLISLE-AWS-RAINIER",
+    "phase3_source_file": "phase3/county_oh_in.json",
+    "regional_id": "IN-NEW-CARLISLE-AWS-RAINIER",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [
+      "US-IN-AWS-NEW-CARLISLE-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

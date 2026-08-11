@@ -1,0 +1,97 @@
+{
+  "master_id": "USDC-0119",
+  "canonical_project": "Project Jupiter / Stargate Doña Ana County",
+  "aliases": [
+    "Jupiter campus",
+    "Oracle Project Jupiter",
+    "Project Jupiter / Stargate Doña Ana County",
+    "Santa Teresa AI data-center campus",
+    "Santa Teresa Stargate",
+    "Stargate Doña Ana County / Project Jupiter"
+  ],
+  "location": {
+    "city": "Santa Teresa",
+    "county": "Doña Ana",
+    "state": "NM"
+  },
+  "phase3_stable_id": "US-NM-STARGATE-JUPITER-SANTA-TERESA-2025",
+  "status_as_of_cutoff": "Project Jupiter remains a proposed/under-review project with unresolved scope and status. NMED’s current permitting surface showed an active review database but the project-specific row/application was not exposed in the reviewed surface; the State Land Office officially denied reconsideration of a pipeline right-of-way/business lease on July 15. No final air permit, county permit, CO, energization, or commissioning record was located.",
+  "actions": [
+    {
+      "date": "2025-12-19",
+      "date_precision": "day",
+      "government_body": "New Mexico Environment Department (reported by KNW)",
+      "action_type": "air-permit completeness status (reported)",
+      "result_status": "KNW reported that NMED considered the two Project Jupiter-related microgrid air applications incomplete at that stage. The underlying NMED determination letter was not retrieved.",
+      "vote_tally": "not applicable",
+      "case_or_ordinance_permit_number": "Acoma LLC east/west microgrid applications",
+      "primary_url": "https://www.kanw.org/new-mexico-news/2025-12-19/nmed-says-data-center-project-jupiters-air-quality-applications-incomplete-for-now",
+      "access_caveat": "Press report used because the underlying regulator letter was not accessible in the reviewed search.",
+      "evidence_note": "Do not treat later completeness/public review as a final permit."
+    },
+    {
+      "date": "2026-04-14",
+      "date_precision": "day",
+      "government_body": "Doña Ana County Commission (reported by KVIA; resolution text not retrieved)",
+      "action_type": "county communication resolution",
+      "result_status": "Local reporting said commissioners adopted a communication resolution about Project Jupiter. The reviewed source does not establish a zoning, permit, construction, or project approval.",
+      "vote_tally": "not published",
+      "case_or_ordinance_permit_number": "not published",
+      "primary_url": "https://kvia.com/news/top-stories/2026/04/14/dona-ana-county-commissioners-adopt-resolution-on-communication-about-project-jupiter/",
+      "access_caveat": "The county resolution itself was not retrieved; no vote or substantive approval is inferred.",
+      "evidence_note": "Government action reported by local press; scope limited to communication."
+    },
+    {
+      "date": "2026-06-03",
+      "date_precision": "day",
+      "government_body": "New Mexico Environment Department (as described by Oracle; regulator record not retrieved)",
+      "action_type": "updated air-application completeness / public review",
+      "result_status": "Oracle stated that NMED deemed an updated Project Jupiter air-quality application complete for public review. This is not a final air permit and the NMED record was not independently retrieved.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.oracle.com/news/announcement/public-review-opens-for-updated-project-jupiter-power-plan-2026-06-03/",
+      "access_caveat": "Company statement about a regulator action; official application page was not accessible in a project-specific form.",
+      "evidence_note": "Pending regulatory review."
+    },
+    {
+      "date": "2026-07-15",
+      "date_precision": "day",
+      "government_body": "New Mexico State Land Office",
+      "action_type": "pipeline right-of-way and business-lease reconsideration denial",
+      "result_status": "The State Land Office officially denied Energy Transfer’s request to reconsider the March 2026 denial of two rights-of-way and one business lease for a 0.6-mile portion of a proposed 17-mile natural-gas pipeline tied to Project Jupiter.",
+      "vote_tally": "denied",
+      "case_or_ordinance_permit_number": "two rights-of-way and one business lease; letter dated 2026-07-14",
+      "primary_url": "https://www.nmstatelands.org/2026/07/15/commissioner-garcia-richard-again-denies-request-to-run-portion-of-project-jupiter-pipeline-through-state-lands/",
+      "access_caveat": "The action concerns state trust land and a related pipeline, not a final determination on the data-center campus or air permit.",
+      "evidence_note": "Negative related infrastructure action; no inference that the full project is denied."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "New Mexico Environment Department Air Quality Bureau / Doña Ana County / OSE",
+      "action_type": "permit, water, county, and construction search (negative/pending)",
+      "result_status": "The NMED current-actions page remained a live review surface, but no project-specific final permit, county site/building permit, assessor/parcel, water-right, inspection/CO, construction, energization, or commissioning record was exposed by the cutoff.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://aqb-cpaur.env.nm.gov/",
+      "access_caveat": "Coda-backed NMED page requires JavaScript and says data export requires an account; no account or records request was used.",
+      "evidence_note": "Preserve access block and pending review; negative search does not prove nonexistence."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-NM-STARGATE-JUPITER-SANTA-TERESA-2025",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-NM-STARGATE-JUPITER-SANTA-TERESA-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-NM-STARGATE-JUPITER-SANTA-TERESA-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

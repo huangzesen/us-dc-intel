@@ -1,0 +1,57 @@
+{
+  "master_id": "USDC-0003",
+  "canonical_project": "AVAIO Digital Leo / Little Rock AI-ready data-center and power campus",
+  "aliases": [
+    "AVAIO Digital Leo",
+    "AVAIO Digital Leo / Little Rock AI-ready data-center and power campus",
+    "AVAIO Little Rock AI-ready data-center and power campus",
+    "AVAIO Pulaski County campus"
+  ],
+  "location": {
+    "city": "near Little Rock/Wrightsville",
+    "county": "Pulaski County",
+    "state": "AR"
+  },
+  "phase3_stable_id": "AR-001",
+  "status_as_of_cutoff": "Announced and utility-contracted; the state announcement forecast first-phase construction and June 2027 energization, but no public local site-plan/building permit, construction inspection, CO, or actual energization record was located.",
+  "actions": [
+    {
+      "date": "2026-01-12",
+      "date_precision": "day",
+      "government_body": "Arkansas Economic Development Commission / State of Arkansas",
+      "action_type": "state project announcement",
+      "result_status": "AEDC announced AVAIO Digital Leo near Little Rock in Pulaski County, with an initial 150 MW Entergy contract, anticipated growth to 1 GW, a 760-acre site, and a forecast of first-phase construction and June 2027 energization.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.arkansasedc.com/news-events/newsroom/detail/2026/01/12/avaio-digital-announces-new-large-scale-ai-ready-data-center-and-power-campus-in-little-rock--arkansas",
+      "access_caveat": "AEDC announcement is a state/company economic-development record and does not substitute for local land-use or building approval.",
+      "evidence_note": "The announced 150 MW contract and future 1 GW expectation are not treated as energized load."
+    },
+    {
+      "date": "2026-05-20",
+      "date_precision": "day",
+      "government_body": "Entergy Arkansas / Little Rock regional public partners",
+      "action_type": "utility/community information site",
+      "result_status": "Entergy reported that regional partners launched a fact-information site for proposed Little Rock-area data centers; the page identifies AVAIO as a Pulaski County project but is not a service agreement, permit, or local approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.entergy.com/datacenters/arkansas",
+      "access_caveat": "Utility customer information is not an interconnection order or proof of construction.",
+      "evidence_note": "Utility identification is recorded separately from zoning, building, environmental, and occupancy actions."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "AR-001",
+    "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
+    "regional_id": "AR-001",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

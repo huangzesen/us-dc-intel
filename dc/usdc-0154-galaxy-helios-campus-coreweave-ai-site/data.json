@@ -1,0 +1,87 @@
+{
+  "master_id": "USDC-0154",
+  "canonical_project": "Galaxy Helios campus / CoreWeave AI site",
+  "aliases": [
+    "Galaxy Digital Helios campus / CoreWeave AI site",
+    "Galaxy Helios campus / CoreWeave AI site",
+    "Galaxy Texas AI campus",
+    "Helios"
+  ],
+  "location": {
+    "city": "Afton / Dickens area",
+    "county": "Dickens",
+    "state": "Texas"
+  },
+  "phase3_stable_id": "US-TX-GALAXY-HELIOS-DICKENS-2025",
+  "status_as_of_cutoff": "Phase I is reported complete by Galaxy and Phase II has TDLR registrations; a PUC self-generator registration is approved, while the full local permit/water record is not assembled.",
+  "actions": [
+    {
+      "id": "A16",
+      "date": "2025-02-18",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration",
+      "result_or_status": "TABS registered Helios Light Speed: a 136,057-square-foot data center and 11,400-square-foot water-treatment building; status Review Complete.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025012175",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Print/TABS2025012175",
+      "access_caveat": "TABS registration is not a county building permit; the water-treatment description is a project scope, not a water-rights approval.",
+      "notes": "Construction/water-infrastructure evidence."
+    },
+    {
+      "id": "A17",
+      "date": "2025-07-30",
+      "body": "Public Utility Commission of Texas",
+      "meeting_date": null,
+      "action_type": "self-generator registration application",
+      "result_or_status": "Galaxy Helios I filed an application for self-generator registration for backup diesel generation; later notice of approval identifies the registered facility as 327.2 MW.",
+      "vote_tally": null,
+      "case_or_number": "Project 58470",
+      "primary_url": "https://interchange.puc.texas.gov/Documents/58470_1_1525909.PDF",
+      "access_caveat": "Application filing, not approval; confidential attachments are referenced in the docket.",
+      "notes": "ERCOT/utility action."
+    },
+    {
+      "id": "A18",
+      "date": "2025-08-27",
+      "body": "Public Utility Commission of Texas",
+      "meeting_date": null,
+      "action_type": "self-generator registration approval",
+      "result_or_status": "PUCT notice of approval issued self-generator registration number 70122 to Galaxy Helios I LLC for the 327.2-MW Galaxy Helios I LLC Backup Diesel facility.",
+      "vote_tally": null,
+      "case_or_number": "Project 58470; self-generator registration 70122",
+      "primary_url": "https://interchange.puc.texas.gov/Documents/58470_8_1534239.PDF",
+      "access_caveat": "Official PUCT notice of approval; self-generator registration is not a finding that the data center is energized or fully operational.",
+      "notes": "ERCOT/utility action."
+    },
+    {
+      "id": "A19",
+      "date": "2026-03-13",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registrations",
+      "result_or_status": "TABS registered Helios 2 and Helios 3 as Galaxy Helios Phase 2 new data-center/office buildings; both records show Review Complete.",
+      "vote_tally": null,
+      "case_or_number": "TABS2026014892; TABS2026014893",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Projects/TABS2026014893",
+      "access_caveat": "The linked page is Helios 3; Helios 2 is a separate TDLR page. Neither is a county building permit.",
+      "notes": "Construction action; planned completions are 2027 and are not actual completion dates."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-TX-GALAXY-HELIOS-DICKENS-2025",
+    "phase3_source_file": "phase3/county_tx.json",
+    "regional_id": "US-TX-GALAXY-HELIOS-DICKENS-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-TX-GALAXY-HELIOS-DICKENS-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,56 @@
+{
+  "master_id": "USDC-0167",
+  "canonical_project": "Rowan Project Temple",
+  "aliases": [
+    "Rowan Project Temple"
+  ],
+  "location": {
+    "city": "Temple",
+    "county": "Bell",
+    "state": "Texas"
+  },
+  "phase3_stable_id": "US-TX-ROWAN-TEMPLE-2025",
+  "status_as_of_cutoff": "Rowan has a documented Temple City Council water/wastewater utility agreement approved 4-0 on 2026-03-05 and a developer-reported groundbreaking; the complete county/permit record was not retrieved.",
+  "actions": [
+    {
+      "id": "A34",
+      "date": "2026-03-05",
+      "body": "Temple City Council",
+      "meeting_date": "2026-03-05",
+      "action_type": "water/wastewater utility service agreement",
+      "result_or_status": "OpenTexas meeting record reports approval of the utility service agreement with Rowan Temple, LLC, including water and wastewater service and developer-funded extension costs; decision shown as Approved 4-0.",
+      "vote_tally": "4-0",
+      "case_or_number": null,
+      "primary_url": "https://temple.myopentexas.org/meetings/a94f993e-8a0e-47e8-8195-4e247d863b85",
+      "access_caveat": "The page is an AI-generated summary/transcript sourced from official city recordings and warns it is not the official record; agenda, packet, and minutes links are present on the page but were not independently extracted here.",
+      "notes": "Utility/water action; not a zoning or building permit."
+    },
+    {
+      "id": "A35",
+      "date": "2025-03-28",
+      "body": "Texas Department of Licensing and Regulation",
+      "meeting_date": null,
+      "action_type": "construction registration found in Temple search",
+      "result_or_status": "TDLR registered a separate 5MW Temple Data Center at 2313 Eberhardt Road owned by Oppidan; because the record does not name Rowan, it is retained as a possible but unconfirmed lead and is not assigned as Rowan approval.",
+      "vote_tally": null,
+      "case_or_number": "TABS2025015318",
+      "primary_url": "https://www.tdlr.texas.gov/TABS/Search/Project/TABS2025015318",
+      "access_caveat": "Official TDLR record; identity mismatch means this is not counted as proof for Rowan.",
+      "notes": "Construction-record cross-check / unresolved identity."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-TX-ROWAN-TEMPLE-2025",
+    "phase3_source_file": "phase3/county_tx.json",
+    "regional_id": "US-TX-ROWAN-TEMPLE-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

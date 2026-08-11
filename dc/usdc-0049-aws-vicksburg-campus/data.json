@@ -1,0 +1,60 @@
+{
+  "master_id": "USDC-0049",
+  "canonical_project": "AWS Vicksburg campus",
+  "aliases": [
+    "AWS Vicksburg campus",
+    "AWS Vicksburg/Warren County",
+    "AWS Warren County next-generation campus",
+    "Amazon Vicksburg/Warren County data center",
+    "Amazon Warren County data center"
+  ],
+  "location": {
+    "city": "Vicksburg",
+    "county": "Warren County",
+    "state": "MS"
+  },
+  "phase3_stable_id": "MS-005",
+  "status_as_of_cutoff": "State-announced $3 billion campus with construction expected in 2026; no physical start, building permit, CO, energized service, or commissioning record was located.",
+  "actions": [
+    {
+      "date": "2025-11-20",
+      "date_precision": "day",
+      "government_body": "Office of the Governor of Mississippi",
+      "action_type": "state project announcement",
+      "result_status": "Mississippi announced Amazon’s plan to invest $3 billion in Warren County for a new data-center campus and said construction was expected to begin in 2026; prior Madison County incentive legislation was said to be made available, but no project-specific local vote was published.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://governorreeves.ms.gov/governor-tate-reeves-announces-amazon-plans-to-invest-3-billion-in-vicksburg/",
+      "access_caveat": "State announcement and referenced incentive framework are not a county building permit or evidence that construction began.",
+      "evidence_note": "Expected construction is not recorded as actual construction."
+    },
+    {
+      "date": "2026-04-09",
+      "date_precision": "day",
+      "government_body": "Entergy Mississippi (utility statement; non-government)",
+      "action_type": "utility support context",
+      "result_status": "Entergy described its planned grid investments in support of Amazon investments in Mississippi, including Warren County; no project-specific interconnection order or energization evidence was published.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.entergy.com/blog/amazon-expands-and-entergy-mississippi-stands-ready-to-deliver-benefits-for-all-our-customers",
+      "access_caveat": "Utility statement is not a regulatory approval, permit, or proof of service.",
+      "evidence_note": "Utility support is distinct from the Governor’s project forecast."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MS-005",
+    "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
+    "regional_id": "MS-005",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [
+      "US-MS-AWS-WARREN-2025"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

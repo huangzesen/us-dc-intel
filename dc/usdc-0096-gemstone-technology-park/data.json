@@ -1,0 +1,79 @@
+{
+  "master_id": "USDC-0096",
+  "canonical_project": "Gemstone Technology Park",
+  "aliases": [
+    "Diode Ventures Kuna campus",
+    "Gemstone Technology Park"
+  ],
+  "location": {
+    "city": "Kuna",
+    "county": "Ada",
+    "state": "ID"
+  },
+  "phase3_stable_id": "US-ID-DIODE-GEMSTONE-KUNA-2025",
+  "status_as_of_cutoff": "Kuna’s official records document the Planning and Zoning Commission recommendation and a City Council 3–2 approval of the comprehensive-plan amendment and rezone, plus a police-contribution MOU. The approval is an entitlement step, not proof of building permits, construction, power allocation, or operation; local reporting says no infrastructure or facilities had broken ground by the reviewed cutoff.",
+  "actions": [
+    {
+      "date": "2025-01-28",
+      "date_precision": "day",
+      "government_body": "Kuna Planning and Zoning Commission",
+      "action_type": "comprehensive-plan amendment / rezone recommendation",
+      "result_status": "The official commission record identifies the site, parcels, cases 24-01-CPM and 24-01-ZC, and recommends approval of the agriculture-to-industrial map amendment and A-to-M-1 rezone.",
+      "vote_tally": "5-0-0",
+      "case_or_ordinance_permit_number": "24-01-CPM; 24-01-ZC",
+      "primary_url": "https://kunacity.id.gov/Archive/ViewFile/Item/3809",
+      "access_caveat": "Official PDF is an archive packet/minutes; it is a recommendation, not the final council action.",
+      "evidence_note": "Primary government land-use record."
+    },
+    {
+      "date": "2025-04-01",
+      "date_precision": "day",
+      "government_body": "Kuna City Council",
+      "action_type": "comprehensive-plan amendment / rezone hearing and decision",
+      "result_status": "The city’s council materials identify the Gemstone hearing and staff report for the 622.67-acre site and the A-to-M-1 / agriculture-to-industrial request.",
+      "vote_tally": "3-2-0 reported in official May 20 minutes; April decision record in reviewed packet",
+      "case_or_ordinance_permit_number": "24-01-CPM; 24-01-ZC",
+      "primary_url": "https://kunacity.id.gov/Archive/ViewFile/Item/3851",
+      "access_caveat": "The April packet is accessible; the final decision was formally memorialized in the May 20 record below.",
+      "evidence_note": "Entitlement action only; no construction permit is established."
+    },
+    {
+      "date": "2025-05-20",
+      "date_precision": "day",
+      "government_body": "Kuna City Council",
+      "action_type": "decision and reasoned statement / development-related MOU",
+      "result_status": "Official minutes record Council approval of the decision and reasoned statement for 24-01-CPM/24-01-ZC by roll call 3–2 and approval of Resolution R41-2025 for a voluntary police-contribution MOU.",
+      "vote_tally": "3-2-0 for decision; all members aye for R41-2025",
+      "case_or_ordinance_permit_number": "24-01-CPM; 24-01-ZC; Resolution R41-2025",
+      "primary_url": "https://kunacity.id.gov/Archive/ViewFile/Item/3882",
+      "access_caveat": "Minutes are the reviewed government record; they do not establish subsequent permit issuance or construction.",
+      "evidence_note": "Final local entitlement record; MOU is not a building approval."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "City of Kuna / Ada County / Idaho Power",
+      "action_type": "permit, parcel, and utility search (negative)",
+      "result_status": "No final site-plan, grading/building permit, inspection/CO, project-specific utility load, or energization record was located in the reviewed public surfaces.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.kunacity.id.gov/93/Agendas-Minutes",
+      "access_caveat": "City archive provides access to agendas/minutes, but no matching later construction docket was located.",
+      "evidence_note": "Negative search only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-ID-DIODE-GEMSTONE-KUNA-2025",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-ID-DIODE-GEMSTONE-KUNA-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

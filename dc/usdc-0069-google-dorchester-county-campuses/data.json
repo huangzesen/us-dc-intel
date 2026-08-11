@@ -1,0 +1,72 @@
+{
+  "master_id": "USDC-0069",
+  "canonical_project": "Google Dorchester County campuses",
+  "aliases": [
+    "Google Dorchester County campus",
+    "Google Dorchester County campuses",
+    "Google Ridgeville campus",
+    "Google St. George campus",
+    "Pine Hill Business Campus",
+    "Summerville Google data center",
+    "Winding Woods Commerce Park"
+  ],
+  "location": {
+    "city": "Ridgeville and St. George",
+    "county": "Dorchester County",
+    "state": "SC"
+  },
+  "phase3_stable_id": "SC-002",
+  "status_as_of_cutoff": "State announced two new Dorchester County campuses in September 2024. PSC records show separate 230-kV transmission-line certificates in Dorchester County in February 2026, but the accessible order title does not identify Google as the customer; no building permit, CO, commissioning, or live-service evidence was located.",
+  "actions": [
+    {
+      "date": "2024-09-26",
+      "date_precision": "day",
+      "government_body": "South Carolina Governor / state economic-development announcement",
+      "action_type": "state/company project announcement",
+      "result_status": "State announcement says Google planned two new data-center campuses in Dorchester County, at Pine Hill in Ridgeville and Winding Woods in St. George, representing a $2 billion investment and 200 operational jobs across the new sites.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://governor.sc.gov/news/2024-09/google-grows-south-carolina-footprint-new-dorchester-county-operations-expansion",
+      "access_caveat": "Announcement is not local zoning, building, environmental, or utility approval.",
+      "evidence_note": "State/company announcement kept separate from government permits."
+    },
+    {
+      "date": "2025-10-03",
+      "date_precision": "day",
+      "government_body": "South Carolina Public Service Commission / Central Electric Power Cooperative proceeding",
+      "action_type": "utility / transmission certificate proceeding",
+      "result_status": "Official testimony in Docket 2025-275-E describes a data-center project and two radial 230-kV transmission lines in St. George, Dorchester County; the accessible testimony excerpt does not name Google, so the customer identity is not attributed beyond the separately announced location.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Docket 2025-275-E",
+      "primary_url": "https://dms.psc.sc.gov/Attachments/Matter/0515fd97-b3e1-4f67-83ff-dde6a0f2dd38",
+      "access_caveat": "Testimony identifies a related data-center project but does not by itself establish Google identity or building approval.",
+      "evidence_note": "Utility application/testimony, not data-center construction authorization."
+    },
+    {
+      "date": "2026-02-13",
+      "date_precision": "day",
+      "government_body": "South Carolina Public Service Commission",
+      "action_type": "utility / transmission certificate",
+      "result_status": "PSC order 2026-84 granted a Certificate of Environmental Compatibility and Public Convenience and Necessity for two radial 230-kV lines and associated facilities in Dorchester County. The order title does not identify Google; it is not a data-center building permit or proof of energization.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Order 2026-84",
+      "primary_url": "https://dms.psc.sc.gov/Web/Orders",
+      "access_caveat": "Order index is official; customer/project-specific attachment attribution to Google was not established from the accessible title.",
+      "evidence_note": "Utility infrastructure approval kept separate from land-use/building approval."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "SC-002",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "SC-002",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

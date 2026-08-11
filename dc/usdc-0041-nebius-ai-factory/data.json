@@ -1,0 +1,93 @@
+{
+  "master_id": "USDC-0041",
+  "canonical_project": "Nebius AI factory",
+  "aliases": [
+    "Eastgate Commerce Center campus",
+    "Nebius AI factory",
+    "Nebius Data Center Phase 1",
+    "Nebius gigawatt-scale AI factory"
+  ],
+  "location": {
+    "city": "Independence",
+    "county": "Jackson County",
+    "state": "MO"
+  },
+  "phase3_stable_id": "MO-INDEPENDENCE-NEBIUS",
+  "status_as_of_cutoff": "Independence approved a Chapter 100 tax-abatement/industrial-development plan by 5–2 on 2026-03-02, Nebius announced approval and groundbreaking on 2026-05-12, and the city's May permit report lists Nebius Data Center - Phase 1 as a commercial new-building submission at 251 N Bly Road valued at $106,320,497. The July 6 moratorium expressly exempts Nebius as already submitted/authorized/approved. No inspection closeout, CO, utility energization, commissioning, or live-service date was located.",
+  "actions": [
+    {
+      "date": "2026-03-02",
+      "date_precision": "day",
+      "government_body": "Independence City Council",
+      "action_type": "Chapter 100 tax abatement / industrial-development incentive",
+      "result_status": "The city's FAQ says Council voted to approve a Chapter 100 tax abatement for the Nebius development during the March 2 meeting, using city-held title/lease-purchase and PILOT structure.",
+      "vote_tally": "5 yes / 2 no",
+      "case_or_ordinance_permit_number": "Chapter 100 Nebius development; bond/ordinance number not exposed in FAQ",
+      "primary_url": "https://www.independencemo.gov/data-center-faqs",
+      "access_caveat": "FAQ summarizes the vote but does not expose the resolution packet; incentive approval is not a building permit or energization record.",
+      "evidence_note": "Official city vote summary."
+    },
+    {
+      "date": "2026-03-03",
+      "date_precision": "day",
+      "government_body": "Nebius",
+      "action_type": "company approval announcement",
+      "result_status": "Nebius announced that it secured City Council approval for its first gigawatt-scale AI factory and described a planned multi-building Independence campus.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Chapter 100",
+      "primary_url": "https://nebius.com/newsroom/nebius-secures-approval-for-its-first-gigawatt-scale-ai-factory",
+      "access_caveat": "Company release; official city FAQ supplies the 5–2 tally. No live load inferred.",
+      "evidence_note": "Company announcement corroborated by city FAQ."
+    },
+    {
+      "date": "2026-05",
+      "date_precision": "month",
+      "government_body": "City of Independence",
+      "action_type": "commercial building permit report",
+      "result_status": "The official May 2026 monthly building-permits report lists Nebius Data Center - Phase 1 as a Commercial New Building at 251 N Bly Road with $106,320,497 valuation. The report does not expose the permit number or inspection schedule.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Nebius Data Center - Phase 1; permit number not exposed",
+      "primary_url": "https://www.independencemo.gov/sites/default/files/2026-06/May%202026%20Monthly%20Building%20Permits%20Reports.pdf",
+      "access_caveat": "Monthly report is official permit-submission evidence; no permit number, issuance date, final inspection, or CO is shown.",
+      "evidence_note": "Government permit record, without extrapolating beyond the report."
+    },
+    {
+      "date": "2026-05-12",
+      "date_precision": "day",
+      "government_body": "Nebius",
+      "action_type": "company groundbreaking announcement",
+      "result_status": "Nebius announced that it broke ground on a gigawatt-scale AI factory in Independence, describing a 400-acre, multi-building campus.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://nebius.com/newsroom/nebius-breaks-ground-on-gigawatt-scale-ai-factory-in-independence-missouri",
+      "access_caveat": "Company groundbreaking claim; city permit report supports a Phase 1 permit submission but no independent groundbreaking, inspection, or construction-progress record was found.",
+      "evidence_note": "Tier-2 company evidence explicitly separated from permit evidence."
+    },
+    {
+      "date": "2026-07-06",
+      "date_precision": "day",
+      "government_body": "Independence City Council",
+      "action_type": "temporary data-center moratorium with project exception",
+      "result_status": "Council approved a 180-day moratorium on new data-center and battery-storage applications. The city expressly states the moratorium does not apply to Nebius because it was already submitted to, authorized, or approved by the city.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "180-day moratorium; ordinance number not exposed on cited page",
+      "primary_url": "https://www.independencemo.gov/index.php/news/city-council-approves-temporary-moratorium-new-data-center-and-battery-energy-storage-system-applications",
+      "access_caveat": "Moratorium exception confirms procedural status, not completion or operation.",
+      "evidence_note": "Official city status action."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MO-INDEPENDENCE-NEBIUS",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "MO-INDEPENDENCE-NEBIUS",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

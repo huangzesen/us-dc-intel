@@ -1,0 +1,43 @@
+{
+  "master_id": "USDC-0114",
+  "canonical_project": "Nottingham Route 4 data-center proposal",
+  "aliases": [
+    "Nottingham NH data-center proposal",
+    "Nottingham Route 4 data-center proposal"
+  ],
+  "location": {
+    "city": "Nottingham",
+    "county": "Rockingham County",
+    "state": "NH"
+  },
+  "phase3_stable_id": "US-NH-NOTTINGHAM-PROPOSAL-2026",
+  "status_as_of_cutoff": "Named public proposal only. No planning-board application, approval, permit, utility load, environmental review, construction, or operating evidence was located.",
+  "actions": [
+    {
+      "date": "2026-05-26",
+      "date_precision": "day",
+      "government_body": "Not a government action; New Hampshire Public Radio",
+      "action_type": "proposal report",
+      "result_status": "NHPR reported that an entrepreneur proposed a data center on Route 4 and that the proposal had generated local controversy; project particulars remained sparse.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.nhpr.org/nh-news/2026-05-26/data-center-nottingham-nh-newhampshire-proposal",
+      "access_caveat": "Local reporting; no municipal filing was located.",
+      "evidence_note": "Retained as a named public proposal, not as an approved project."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-NH-NOTTINGHAM-PROPOSAL-2026",
+    "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
+    "regional_id": "US-NH-NOTTINGHAM-PROPOSAL-2026",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

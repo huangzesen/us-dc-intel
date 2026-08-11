@@ -1,0 +1,80 @@
+{
+  "master_id": "USDC-0120",
+  "canonical_project": "Copia Power Monarch Data Campus",
+  "aliases": [
+    "Copia Power Monarch Data Campus",
+    "Monarch campus",
+    "Yerington data center"
+  ],
+  "location": {
+    "city": "Yerington",
+    "county": "Lyon",
+    "state": "NV"
+  },
+  "phase3_stable_id": "US-NV-COPIA-MONARCH-YERINGTON-2025",
+  "status_as_of_cutoff": "Lyon County’s official record shows a Planning Commission recommendation and a December 4, 2025 Board approval of a master-plan amendment by 4–1, while expressly stating that the action does not approve development and that a new PUD application is required. No PUD approval, building permit, construction, or utility energization was found.",
+  "actions": [
+    {
+      "date": "2025-07-08",
+      "date_precision": "day",
+      "government_body": "Lyon County Planning Commission",
+      "action_type": "master-plan amendment recommendation",
+      "result_status": "The official minutes record a unanimous recommendation to the Board for Copia Power Devco’s agriculture-to-specific-plan master-plan amendment, identifying the 4.6-million-square-foot/14-building proposal, APNs, and PLZ-2025-025. The record states this step does not authorize construction.",
+      "vote_tally": "6-0-0; 1 absent",
+      "case_or_ordinance_permit_number": "PLZ-2025-025",
+      "primary_url": "https://www.lyon-county.org/AgendaCenter/ViewFile/Minutes/_07082025-1855",
+      "access_caveat": "Official PDF; details were expressly deferred to a later PUD process.",
+      "evidence_note": "Recommendation only."
+    },
+    {
+      "date": "2025-12-04",
+      "date_precision": "day",
+      "government_body": "Lyon County Board of County Commissioners",
+      "action_type": "master-plan amendment",
+      "result_status": "The county’s official meeting summary says the Board approved the agriculture-to-specific-plan amendment by 4–1 and expressly says the approval does not approve data-center development; a complete PUD application remains required.",
+      "vote_tally": "4-1; Commissioner Hockaday opposed",
+      "case_or_ordinance_permit_number": "PLZ-2025-025",
+      "primary_url": "https://www.lyon-county.org/CivicAlerts.aspx?AID=386&ARC=427",
+      "access_caveat": "Official summary does not publish the full ordinance text in the page.",
+      "evidence_note": "Entitlement planning step, not build approval."
+    },
+    {
+      "date": "2026-02-19",
+      "date_precision": "day",
+      "government_body": "Lyon County Board of County Commissioners",
+      "action_type": "PUD-related status / tabled action",
+      "result_status": "The official county summary records the Monarch request as tabled to allow additional study of access and traffic; the later December master-plan approval still required a new PUD.",
+      "vote_tally": "tabled; tally not published",
+      "case_or_ordinance_permit_number": "PLZ-2025-025",
+      "primary_url": "https://www.lyon-county.org/CivicAlerts.aspx?AID=373&ARC=415",
+      "access_caveat": "The archived page’s publication metadata and item date should be read with the referenced Board action; no PUD approval is inferred.",
+      "evidence_note": "Pending stage; not a denial or construction action."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "Lyon County / Nevada utility and permitting surfaces",
+      "action_type": "PUD, permit, water, and utility search (negative)",
+      "result_status": "No complete PUD approval, building/grading permit, water approval, inspection/CO, NV Energy agreement, or energization record was located.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "PLZ-2025-025",
+      "primary_url": "https://www.lyon-county.org/AgendaCenter",
+      "access_caveat": "Interactive agenda archive; some attachments were not retrievable.",
+      "evidence_note": "Negative search only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-NV-COPIA-MONARCH-YERINGTON-2025",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-NV-COPIA-MONARCH-YERINGTON-2025",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

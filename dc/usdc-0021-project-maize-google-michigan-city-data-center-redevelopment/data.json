@@ -1,0 +1,106 @@
+{
+  "master_id": "USDC-0021",
+  "canonical_project": "Project Maize / Google Michigan City data-center redevelopment",
+  "aliases": [
+    "Google Indiana in-development site",
+    "Google Michigan City data center",
+    "Project Maize",
+    "Project Maize / Google Michigan City data-center redevelopment"
+  ],
+  "location": {
+    "city": "Michigan City",
+    "county": "La Porte",
+    "state": "IN"
+  },
+  "phase3_stable_id": null,
+  "status_as_of_cutoff": null,
+  "actions": [
+    {
+      "date": "2025-04-18",
+      "body": "Sanitary District of Michigan City",
+      "action_type": "conditional stormwater permit",
+      "exact_result_status": "Conditional approval of Stormwater Management Permit 2025-004 for temporary laydown/parking, 70.7 acres with 17.5 acres of disturbance; the permit says local MS4 and IDEM construction-stormwater requirements were satisfied subject to pre-construction conditions.",
+      "vote_tally": null,
+      "case_or_permit_number": "MCSD Stormwater Permit 2025-004",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2025/11/SDMC-Storm-Permit_2025-004_Project-Maize-Temp-Laydown-Parking_071525.pdf",
+      "access_caveat": "Official permit PDF accessible; it is a temporary stormwater/land-disturbance approval, not a building permit."
+    },
+    {
+      "date": "2025-07-15",
+      "body": "Sanitary District of Michigan City",
+      "action_type": "unconditional stormwater permit",
+      "exact_result_status": "Unconditional approval recorded for MCSD Stormwater Permit 2025-004 after review of the drainage plan and SWPPP.",
+      "vote_tally": null,
+      "case_or_permit_number": "MCSD Stormwater Permit 2025-004",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2025/11/SDMC-Storm-Permit_2025-004_Project-Maize-Temp-Laydown-Parking_071525.pdf",
+      "access_caveat": "Official permit PDF; no city-council vote is stated."
+    },
+    {
+      "date": "2025-09-24",
+      "body": "Indiana Department of Environmental Management, Solid Waste Compliance",
+      "action_type": "site inspection",
+      "exact_result_status": "IDEM inspected the construction site in response to a complaint concerning stockpiled/removed soil; the inspection record identifies Project Maize, INX000069115, and says Permit N/A for the complaint inspection.",
+      "vote_tally": null,
+      "case_or_permit_number": "INX000069115; Master AI ID 11578; complaint 120019",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2026/01/IDEM-File_83913368.pdf",
+      "access_caveat": "Official IDEM inspection record; an inspection is not a permit approval."
+    },
+    {
+      "date": "2025-10-09",
+      "body": "Indiana Department of Environmental Management",
+      "action_type": "solid-waste violation letter",
+      "exact_result_status": "IDEM issued a violation letter concerning soil handling at the Project Maize facility; subsequent correspondence and inspection records remain part of the public file.",
+      "vote_tally": null,
+      "case_or_permit_number": "IDEM File 83897119",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2026/01/IDEM-File_83897119.pdf",
+      "access_caveat": "The letter is reproduced on the city project page; it is an enforcement record, not a project denial."
+    },
+    {
+      "date": "2025-12-24",
+      "body": "Indiana Department of Environmental Management",
+      "action_type": "soil-sampling-plan approval",
+      "exact_result_status": "IDEM approved the soil sampling and management plan with two changes to analytical constituents and sampling/volume determination requirements.",
+      "vote_tally": null,
+      "case_or_permit_number": "Former Federal-Mogul site IND 016 520 017",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2026/05/20260504-US-EI-7650232867-Maize-Stockpile-May-2026-1.pdf",
+      "access_caveat": "Date and result are described in the later official correspondence; the underlying December approval is not separately linked."
+    },
+    {
+      "date": "2026-05-04",
+      "body": "Indiana Department of Environmental Management / project environmental file",
+      "action_type": "soil analytical determination",
+      "exact_result_status": "Official correspondence states sampled stockpiled soil decision units met IDEM's uncontaminated-soil policy requirements and could be used as on-site backfill or transported to a designated industrial property.",
+      "vote_tally": null,
+      "case_or_permit_number": "US-EI-7650232867; IND 016 520 017",
+      "primary_url": "https://michigancityin.gov/wp-content/uploads/2026/05/20260504-US-EI-7650232867-Maize-Stockpile-May-2026-1.pdf",
+      "access_caveat": "Official correspondence is accessible; it does not establish Google ownership, energization, or building occupancy."
+    },
+    {
+      "date": null,
+      "date_precision": "undated_register_entry",
+      "body": "City of Michigan City",
+      "action_type": "building permits, zoning, tax, water, and environmental record index",
+      "exact_result_status": "City's project page publishes BP-25-0492, BP-25-0721, BP-25-1141, BP-25-1689, BP-25-1820, BP-25-1839, BP-25-2371, BP-25-2392, BP-25-2852, BP-25-2853, BP-25-2858; zoning verification; two tax abatements; taxpayer agreement; water-capacity correspondence; and IDEM files. Individual issue dates/results are not all displayed in the index.",
+      "vote_tally": null,
+      "case_or_permit_number": "See exact permit numbers in result text",
+      "primary_url": "https://michigancityin.gov/major-projects/phoenix-investors-project-maize/",
+      "access_caveat": "This is an official index and the linked PDFs are public; the index does not supply a single consolidated permit register or final occupancy record."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "IN-MICHIGAN-CITY-GOOGLE-MAIZE",
+    "phase3_source_file": "phase3/county_oh_in.json",
+    "regional_id": "IN-MICHIGAN-CITY-GOOGLE-MAIZE",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [
+      "US-IN-GOOGLE-MICHIGAN-CITY-2026"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

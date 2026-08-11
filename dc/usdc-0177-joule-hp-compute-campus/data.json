@@ -1,0 +1,59 @@
+{
+  "master_id": "USDC-0177",
+  "canonical_project": "Joule HP Compute Campus",
+  "aliases": [
+    "Joule Delta campus",
+    "Joule Energy and Data Center Campus",
+    "Joule HP Compute Campus",
+    "Joule Holden campus"
+  ],
+  "location": {
+    "city": "Delta",
+    "county": "Millard",
+    "state": "UT"
+  },
+  "phase3_stable_id": "US-UT-JOULE-DELTA-2026",
+  "status_as_of_cutoff": "Utah government inventory lists Phase 1 under construction at 455 MW and the 4,000+ MW full buildout as proposed. Permit and energization records were not located.",
+  "actions": [
+    {
+      "date": "2026-05-26",
+      "date_precision": "day",
+      "government_body": "Grand County Planning Commission",
+      "action_type": "government data-center inventory",
+      "result_status": "The staff report lists Joule HP Compute Campus — Phase 1 in Delta, Millard County, at 455 MW and status UNDER CONST.; it separately lists the full campus at 4,000+ MW proposed. The inventory is not a Millard building permit.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.utah.gov/pmn/files/1444799.pdf",
+      "access_caveat": "Government compiled inventory; source notes capacities are approximate and based on public reports, and does not expose the underlying Millard permit docket.",
+      "evidence_note": "Body/context retained from prior file: Grand County Planning Commission staff report / Utah public-notice system."
+    },
+    {
+      "date": "2026-05-07",
+      "date_precision": "day",
+      "government_body": "Millard County Planning Commission",
+      "action_type": "conditional-use public notice",
+      "result_status": "The Millard public-body index exposes a Joule development-agreement/Planning and Zoning public-hearing attachment. The indexed entry does not establish the final decision or permit issuance.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Z-2026-026",
+      "primary_url": "https://utah.gov/pmn/sitemap/publicbody/126.html",
+      "access_caveat": "Public-notice index accessible; attachment and final action were not fully retrievable in this pass.",
+      "evidence_note": "Body/context retained from prior file: Millard County Planning Commission."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-UT-JOULE-DELTA-2026",
+    "phase3_source_file": "phase3/county_ok_az_ut.json",
+    "regional_id": "US-UT-JOULE-DELTA-2026",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [
+      "US-UT-JOULE-HOLDEN-2026"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

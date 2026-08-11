@@ -1,0 +1,55 @@
+{
+  "master_id": "USDC-0132",
+  "canonical_project": "Beale Project Mustang",
+  "aliases": [
+    "Beale Project Mustang",
+    "Claremore Industrial Park data center"
+  ],
+  "location": {
+    "city": "Claremore",
+    "county": "Rogers",
+    "state": "OK"
+  },
+  "phase3_stable_id": "US-OK-BEALE-MUSTANG-CLAREMORE-2026",
+  "status_as_of_cutoff": "Proposed; public-hearing/project-plan stage. The searched city materials do not establish final approval or construction.",
+  "actions": [
+    {
+      "date": "2026-05-04",
+      "date_precision": "day",
+      "government_body": "Claremore City Council",
+      "action_type": "public hearing / project-plan information",
+      "result_status": "The city FAQ says a first public hearing provided project information and addressed potential impacts before any vote on the proposed Project Plan. No vote result is inferred.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Claremore Mustang Data Center Economic Development Project Plan",
+      "primary_url": "https://claremore.com/project-mustang-faq/",
+      "access_caveat": "Official city page accessible; it describes the hearing sequence but does not publish a final vote tally or permit.",
+      "evidence_note": "Body/context retained from prior file: City of Claremore."
+    },
+    {
+      "date": "2026-05-18",
+      "date_precision": "day",
+      "government_body": "Claremore City Council",
+      "action_type": "public hearing before proposed vote",
+      "result_status": "The city agenda packet identifies a public hearing before any City Council vote on the proposed Mustang Data Center Economic Development Project Plan. The packet/search result does not provide a final approval result; no approval is inferred.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Claremore Mustang Data Center Economic Development Project Plan",
+      "primary_url": "https://claremore.com/wp-content/uploads/2026/05/05-18-2026-Packet.pdf",
+      "access_caveat": "Official packet accessible; the public-hearing record is not a building permit and the final council action/roll call was not located.",
+      "evidence_note": "Body/context retained from prior file: City of Claremore City Council."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-OK-BEALE-MUSTANG-CLAREMORE-2026",
+    "phase3_source_file": "phase3/county_ok_az_ut.json",
+    "regional_id": "US-OK-BEALE-MUSTANG-CLAREMORE-2026",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

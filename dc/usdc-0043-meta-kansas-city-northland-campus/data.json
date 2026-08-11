@@ -1,0 +1,56 @@
+{
+  "master_id": "USDC-0043",
+  "canonical_project": "Meta Kansas City Northland campus",
+  "aliases": [
+    "Kansas City Northland Meta project",
+    "Meta Kansas City Northland campus",
+    "Meta Kansas City data-center lead"
+  ],
+  "location": {
+    "city": "Kansas City",
+    "county": "Clay County",
+    "state": "MO"
+  },
+  "phase3_stable_id": "MO-KC-NORTHLAND-META",
+  "status_as_of_cutoff": "Missouri DED's May 20, 2026 regional announcement describes planned Google/Meta-area investments, but does not identify a Meta parcel or site-specific project. A specialist tracker is retained only as a discovery lead. No Meta company announcement, local approval, incentive/bond action, permit, construction, utility, or live-service record was located; status remains an unvalidated regional lead.",
+  "actions": [
+    {
+      "date": "2026-05-20",
+      "date_precision": "day",
+      "government_body": "Missouri Department of Economic Development",
+      "action_type": "regional economic-development announcement",
+      "result_status": "The state described Google's Missouri investment and regional infrastructure/energy work focused on Montgomery, Clay, Platte, and surrounding counties. It does not identify a specific Meta project, parcel, capacity, or local approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://ded.mo.gov/press-room/google-deepens-missouri-roots-15-billion-community-investment-montgomery-county",
+      "access_caveat": "State regional material is not site-specific evidence for a Meta campus.",
+      "evidence_note": "Official regional context retained without upgrading the project lead."
+    },
+    {
+      "date": "2026-07-01",
+      "date_precision": "day",
+      "government_body": "Missouri Data Centers (discovery tracker)",
+      "action_type": "discovery lead",
+      "result_status": "A specialist project-tracker page identifies a Kansas City Northland Meta row. It does not provide a primary company, government, parcel, permit, or utility record.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://missouridatacenters.org/",
+      "access_caveat": "Tier-5 discovery source; it is explicitly not treated as proof of a project, approval, or construction.",
+      "evidence_note": "Lead preserved because it appeared in the authoritative source manifest, but not promoted."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MO-KC-NORTHLAND-META",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "MO-KC-NORTHLAND-META",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

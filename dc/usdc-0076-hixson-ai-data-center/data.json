@@ -1,0 +1,57 @@
+{
+  "master_id": "USDC-0076",
+  "canonical_project": "Hixson AI data center",
+  "aliases": [
+    "96,000-square-foot proposal",
+    "Hixson AI data center",
+    "McMinnville AI data center",
+    "Warren County 25 MW proposal"
+  ],
+  "location": {
+    "city": "McMinnville",
+    "county": "Warren County",
+    "state": "TN"
+  },
+  "phase3_stable_id": "TN-002",
+  "status_as_of_cutoff": "Proposed/under development in press coverage; McMinnville’s public engagement page records a data-center pause/study. No verified zoning case, permit, parcel, construction, CO, utility, or energization record was located.",
+  "actions": [
+    {
+      "date": "2026-05-26",
+      "date_precision": "day",
+      "government_body": "City of McMinnville",
+      "action_type": "data-center pause/study engagement",
+      "result_status": "The city’s public engagement page records a data-center pause/study context; it does not identify a project-specific approval, permit, or vote for the Hixson proposal.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://engage.zencity.io/mcminnville-tn/en-US/projects/high-impact-developments",
+      "access_caveat": "Engagement page is policy context, not a project approval or construction authorization.",
+      "evidence_note": "Pause/study status is not treated as denial or cancellation of the proposal."
+    },
+    {
+      "date": "2026-05-27",
+      "date_precision": "day",
+      "government_body": "Developer / Data Center Dynamics (press report; non-government)",
+      "action_type": "reported proposal",
+      "result_status": "DCD reported a proposed 25 MW McMinnville facility and described a 96,000-square-foot proposal; no official permit or government action was identified in the report.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.datacenterdynamics.com/en/news/25mw-ai-data-center-to-be-built-in-mcminnville-tennessee/",
+      "access_caveat": "Trade press report with undisclosed applicant/project details; not a land-use or building approval.",
+      "evidence_note": "Conflicting scale labels are preserved; no acreage, parcel, utility, or identity is inferred."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "TN-002",
+    "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
+    "regional_id": "TN-002",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

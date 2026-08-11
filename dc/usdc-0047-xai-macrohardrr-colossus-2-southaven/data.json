@@ -1,0 +1,59 @@
+{
+  "master_id": "USDC-0047",
+  "canonical_project": "xAI MACROHARDRR / Colossus 2 Southaven",
+  "aliases": [
+    "Colossus 2",
+    "Colossus 2 Southaven",
+    "SpaceXAI Southaven power site",
+    "xAI MACROHARDRR",
+    "xAI MACROHARDRR / Colossus 2 Southaven",
+    "xAI Southaven"
+  ],
+  "location": {
+    "city": "Southaven",
+    "county": "DeSoto County",
+    "state": "MS"
+  },
+  "phase3_stable_id": "MS-003",
+  "status_as_of_cutoff": "State-announced retrofit/new phase with disputed air-power status. Public government materials located do not establish a final MDEQ air permit, building permit, CO, or lawful energized operation for the Southaven phase.",
+  "actions": [
+    {
+      "date": "2026-01-08",
+      "date_precision": "day",
+      "government_body": "Office of the Governor of Mississippi / Mississippi Development Authority",
+      "action_type": "state project announcement and incentive context",
+      "result_status": "Mississippi announced xAI’s more-than-$20 billion Southaven investment, described a retrofit and nearly 2 GW of cluster capacity, and referenced tax/fee-in-lieu support; the announcement did not publish a permit or vote tally.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://governorreeves.ms.gov/tech-leader-xai-investing-more-than-20-billion-in-southaven/",
+      "access_caveat": "State announcement is not a city/county land-use, building, air, or operating permit.",
+      "evidence_note": "The state’s capacity/investment statements are not treated as proof of live load."
+    },
+    {
+      "date": "2026-04-15",
+      "date_precision": "day",
+      "government_body": "U.S. Senate Committee on Environment and Public Works",
+      "action_type": "oversight letter concerning alleged air violations",
+      "result_status": "A Senate letter to EPA alleged that gas turbines at xAI’s Southaven property were operating without permits; the letter is an allegation/request for EPA attention, not an adjudicated violation finding or permit denial.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.epw.senate.gov/public/_cache/files/d/d/ddb47040-2070-4947-b9e4-33ebdeec63b2/8E78983C37084D41FBF7C84A1316686A668FC405556F6995C9CA8E3253FC8386.letter-to-epa-re-xai.pdf",
+      "access_caveat": "Congressional oversight letter is not the MDEQ permit file or an enforcement order; allegation is labeled as such.",
+      "evidence_note": "This preserves the public dispute without converting it into a final regulatory finding."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "MS-003",
+    "phase3_source_file": "phase3/county_ms_al_la_ar_tn_ky.json",
+    "regional_id": "MS-003",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

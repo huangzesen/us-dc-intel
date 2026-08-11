@@ -1,0 +1,131 @@
+{
+  "master_id": "USDC-0196",
+  "canonical_project": "Google Project Raspberry / Botetourt County campus",
+  "aliases": [
+    "Botetourt Center at Greenfield",
+    "Botetourt County campus",
+    "Google Project Raspberry",
+    "Google Project Raspberry / Botetourt County campus",
+    "Google data center",
+    "Project Raspberry"
+  ],
+  "location": {
+    "city": "Daleville",
+    "county": "Botetourt County",
+    "state": "VA"
+  },
+  "phase3_stable_id": "VA-001",
+  "status_as_of_cutoff": "County-approved land-use and performance-agreement framework; Virginia DEQ water and air applications remained under review. County says first grading applications were received in February 2026, but a construction start was not independently verified.",
+  "actions": [
+    {
+      "date": "2024-11-26",
+      "date_precision": "day",
+      "government_body": "Botetourt County Board of Supervisors",
+      "action_type": "land-use / zoning text amendment",
+      "result_status": "Approved zoning ordinance amendment after an advertised public hearing; data centers were added as a use in the RAM district. County page describes the vote as unanimous.",
+      "vote_tally": "unanimous (county page)",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.botetourtva.gov/1021/Google-Data-Center",
+      "access_caveat": "County summary is the accessible official record; the agenda packet is separately linked in the official Agenda Center.",
+      "evidence_note": "This is a land-use action, not a building permit."
+    },
+    {
+      "date": "2025-06-20",
+      "date_precision": "day",
+      "government_body": "Botetourt County Economic Development Authority",
+      "action_type": "tax / economic-development performance agreement",
+      "result_status": "EDA approved the Google performance agreement, according to the county's project page.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.botetourtva.gov/1021/Google-Data-Center",
+      "access_caveat": "County project page reports the action; a separate EDA minutes packet was not located.",
+      "evidence_note": "Performance agreement is not a construction permit."
+    },
+    {
+      "date": "2025-06-24",
+      "date_precision": "day",
+      "government_body": "Botetourt County Board of Supervisors",
+      "action_type": "tax / economic-development agreement and public land transaction",
+      "result_status": "Board approved supporting performance-agreement action; county announced purchase of approximately 312 acres for the project. The signed agreement identifies Tax Map Parcel 88(26)3 and approximately 312.55 acres.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.botetourtva.gov/CivicAlerts.aspx?AID=871",
+      "access_caveat": "The county's announcement and agreement are accessible; the agenda/minutes page does not expose a separate vote tally in the accessible text.",
+      "evidence_note": "Parcel/access record and development agreement; not a building permit."
+    },
+    {
+      "date": "2026-01-21",
+      "date_precision": "day",
+      "government_body": "Virginia Department of Environmental Quality",
+      "action_type": "water / environmental permit application",
+      "result_status": "DEQ received a Joint Permit Application including a Virginia Water Protection application; Request 25-1919 was under review as of the cutoff.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DEQ Request 25-1919",
+      "primary_url": "https://www.deq.virginia.gov/news-info/shortcuts/topics-of-interest/google-s-project-raspberry",
+      "access_caveat": "Official DEQ project page was readable through the agency page; no final permit decision was posted by the cutoff.",
+      "evidence_note": "Environmental application under review, not an approval or construction permit."
+    },
+    {
+      "date": "2026-02",
+      "date_precision": "month",
+      "government_body": "Botetourt County",
+      "action_type": "grading / land-disturbance permit intake",
+      "result_status": "County project page says the first grading-permit applications were received in February 2026; the page does not publish permit numbers or a final issuance decision.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.botetourtva.gov/1021/Google-Data-Center",
+      "access_caveat": "County summary does not identify individual permit files; no separate public permit record was located.",
+      "evidence_note": "Grading application intake is not proof of a building permit, certificate of occupancy, or energized facility."
+    },
+    {
+      "date": "2026-05-13",
+      "date_precision": "day",
+      "government_body": "Virginia Department of Environmental Quality",
+      "action_type": "air / minor new-source-review permit application",
+      "result_status": "DEQ received a Minor NSR permit application for Project Raspberry; Request 21819-1 was under review.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DEQ Request 21819-1",
+      "primary_url": "https://www.deq.virginia.gov/news-info/shortcuts/topics-of-interest/google-s-project-raspberry",
+      "access_caveat": "No final air permit decision was posted on the project page by the cutoff.",
+      "evidence_note": "Air-permit application, not building approval or energization."
+    },
+    {
+      "date": "2026-06-08",
+      "date_precision": "day",
+      "government_body": "Botetourt County Planning Commission",
+      "action_type": "public-meeting / water issue discussion",
+      "result_status": "Commission voted 4-1 to set aside discussion of an investigative hearing during July and consider it further in August. The county says it did not endorse or authorize a public hearing at this meeting.",
+      "vote_tally": "4-1",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.botetourtva.gov/m/newsflash/Home/Detail/1141",
+      "access_caveat": "Official mobile news page is the accessible summary; the full minutes were not located.",
+      "evidence_note": "Procedural discussion; not a project approval or water permit."
+    },
+    {
+      "date": "2026-07-13",
+      "date_precision": "day",
+      "government_body": "Botetourt County Planning Commission",
+      "action_type": "public forum request / utility-water policy",
+      "result_status": "Commission voted unanimously to ask the Board of Supervisors to authorize a public forum on water, power, and sound; it also directed a water-situation summary, infrastructure/accountability request, white paper, and questions. This was a request for Board action, not the forum authorization itself.",
+      "vote_tally": "unanimous (county summary)",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.botetourtva.gov/m/newsflash?cat=13%2C6%2C7%2C1%2C8%2C9%2C10",
+      "access_caveat": "Official category/news page is accessible; a standalone article URL and full minutes were not located.",
+      "evidence_note": "Utility/water governance action; not a construction permit."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "VA-001",
+    "phase3_source_file": "phase3/county_va_md_wv.json",
+    "regional_id": "VA-001",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

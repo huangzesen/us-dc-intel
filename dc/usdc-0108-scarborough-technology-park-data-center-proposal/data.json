@@ -1,0 +1,79 @@
+{
+  "master_id": "USDC-0108",
+  "canonical_project": "Scarborough Technology Park data-center proposal",
+  "aliases": [
+    "Scarborough High Technology Industrial Park",
+    "Scarborough Technology Park data-center proposal"
+  ],
+  "location": {
+    "city": "Scarborough",
+    "county": "Cumberland County",
+    "state": "ME"
+  },
+  "phase3_stable_id": "US-ME-SCARBOROUGH-TECH-PARK-2026",
+  "status_as_of_cutoff": "Early/incomplete proposal; no construction. Reporting described an incomplete or rejected-for-processing application, while official town updates show a six-month emergency data-center moratorium advancing and later being passed in June. The moratorium is a town-wide regulatory action, not project approval.",
+  "actions": [
+    {
+      "date": "2026-04-20",
+      "date_precision": "day",
+      "government_body": "Not a government action; local reporting",
+      "action_type": "master-plan application report",
+      "result_status": "Reporting says the developer submitted a master-plan application for a proposed data-center/technology-park concept.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.mainepublic.org/climate/2026-05-06/scarborough-considers-data-center-pause-after-development-proposal",
+      "access_caveat": "Local public-radio account; signed application and complete municipal file were not retrieved.",
+      "evidence_note": "Proposal context only."
+    },
+    {
+      "date": "2026-05-20",
+      "date_precision": "day",
+      "government_body": "Scarborough Town Council",
+      "action_type": "emergency data-center moratorium first reading",
+      "result_status": "The town's official council outlook says an emergency six-month moratorium on data centers advanced past first reading during the spring process.",
+      "vote_tally": "not stated on the cited town page",
+      "case_or_ordinance_permit_number": "Emergency six-month data-center moratorium",
+      "primary_url": "https://www.scarboroughmaine.org/government/town-council/council-outlook",
+      "access_caveat": "Official summary page, not the complete ordinance or roll call.",
+      "evidence_note": "Regulatory pause context; it does not approve or reject the named proposal by itself."
+    },
+    {
+      "date": "2026-06",
+      "date_precision": "month",
+      "government_body": "Scarborough Town Council",
+      "action_type": "emergency data-center moratorium",
+      "result_status": "An official town update states that the Council passed a six-month emergency moratorium on data centers in June 2026.",
+      "vote_tally": "not stated on the cited town page",
+      "case_or_ordinance_permit_number": "Six-month emergency data-center moratorium",
+      "primary_url": "https://www.scarboroughmaine.org/government/town-council/council-outlook/default/~board/town-council-corner/post/why-i-love-calling-scarborough-home-1784146459071",
+      "access_caveat": "Official town summary supplies month but not the exact meeting date, ordinance number, or roll call.",
+      "evidence_note": "Later town-wide restriction; no inference about application disposition beyond the restriction's effect."
+    },
+    {
+      "date": "2026-05-28",
+      "date_precision": "day",
+      "government_body": "Not a government action; Portland Press Herald",
+      "action_type": "application-status report",
+      "result_status": "Local reporting described the proposal/application as incomplete or not accepted for processing and covered the pending moratorium vote.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.pressherald.com/2026/05/28/scarborough-to-vote-on-data-center-moratorium/",
+      "access_caveat": "Local press; no signed planning-board disposition was located.",
+      "evidence_note": "Contradiction preserved: reporting differs on incomplete versus formally rejected; no municipal final application decision found."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-ME-SCARBOROUGH-TECH-PARK-2026",
+    "phase3_source_file": "phase3/county_ak_hi_me_ma_nh_ri.json",
+    "regional_id": "US-ME-SCARBOROUGH-TECH-PARK-2026",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

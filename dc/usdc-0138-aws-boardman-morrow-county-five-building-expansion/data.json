@@ -1,0 +1,85 @@
+{
+  "master_id": "USDC-0138",
+  "canonical_project": "AWS Boardman/Morrow County five-building expansion",
+  "aliases": [
+    "AWS Boardman/Morrow County campus expansion",
+    "AWS Boardman/Morrow County five-building expansion",
+    "AWS Morrow County expansion",
+    "AWS Morrow County five-building expansion",
+    "Boardman Airport campus",
+    "LUD-N-68-24"
+  ],
+  "location": {
+    "city": "Boardman area / outside Boardman UGB",
+    "county": "Morrow County",
+    "state": "OR"
+  },
+  "phase3_stable_id": "US-OR-AWS-BOARDMAN-2024",
+  "status_as_of_cutoff": "Morrow County officially approved LUD-N-68-24 on 2024-09-24 by 4 yes / 3 no, subject to final zoning/address, road-use, airport, water, wastewater, stormwater, and occupancy conditions. The site is therefore land-use approved but not shown in the reviewed records as building-permitted, occupied, energized, commissioned, or in service. The Phase 2 five-building description is not fully consistent with the county findings, which enumerate four data-center buildings plus support structures.",
+  "actions": [
+    {
+      "date": "2020-05-06",
+      "date_precision": "day",
+      "government_body": "Morrow County Board of Commissioners / Columbia River Enterprise Zone II sponsors",
+      "action_type": "long-term rural enterprise-zone tax-abatement agreement",
+      "result_status": "Resolution R-2020-7 approved an agreement with Amazon Data Services for a Boardman-area building site with potential for four new data centers. The agreement's cited facility location is Parcel 2 of Partition Plat 2019-16 and is not the same parcel identifier as the 2024 LUD-N-68-24 record; it is retained as related tax context, not assumed to govern the entire 2024 campus.",
+      "vote_tally": "motion/individual tally not fully published in the reviewed minutes extract",
+      "case_or_ordinance_permit_number": "Resolution R-2020-7; Columbia River Enterprise Zone II agreement",
+      "primary_url": "https://www.morrowcountyor.gov/sites/default/files/fileattachments/board_of_commissioners/meeting/12641/resolution_and_attachments-_5-6-23020.pdf",
+      "access_caveat": "The agreement contains confidentiality language and different partition-plat references; no parcel equivalence is inferred.",
+      "evidence_note": "Tax-incentive context; not a building permit or construction start."
+    },
+    {
+      "date": "2024-08-27",
+      "date_precision": "day",
+      "government_body": "Morrow County Planning Commission",
+      "action_type": "land-use hearing agenda",
+      "result_status": "The agenda scheduled LUD-N-68-24 for review of a new data-center campus on Airport Light Industrial land adjacent to Boardman Airport, identifying Amazon Data Services as owner, Tax Lot 138 of Map 4N24E, and the relevant county zoning criteria.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "LUD-N-68-24; Parcel 2 Partition Plat 2022-16; Tax Lot 138 Map 4N24E",
+      "primary_url": "https://www.morrowcountyor.gov/sites/default/files/fileattachments/planning_commission/meeting/16789/08272024_agenda.pdf",
+      "access_caveat": "Agenda placement is not the later approval and does not establish construction or building permits.",
+      "evidence_note": "Official project identity, parcel, and hearing trail."
+    },
+    {
+      "date": "2024-09-24",
+      "date_precision": "day",
+      "government_body": "Morrow County Planning Commission",
+      "action_type": "land-use decision / data-center campus approval",
+      "result_status": "The commission approved LUD-N-68-24 by motion of Commissioner Kilkenny, seconded by Commissioner Cooley, with 4 yes and 3 no. Findings describe four single-story data-center buildings of approximately 215,461 square feet each, support buildings, ponds, septic/drainfield, and a separately approved power substation. Conditions require final rural addresses and zoning permits before building permits and state water/wastewater/stormwater evidence before occupancy.",
+      "vote_tally": "4 yes / 3 no",
+      "case_or_ordinance_permit_number": "LUD-N-68-24",
+      "primary_url": "https://www.co.morrow.or.us/sites/default/files/fileattachments/planning_commission/meeting/16790/09242024_pc_packet.pdf",
+      "access_caveat": "The county's current domain redirects the older file path in some fetchers; the official packet was readable through the indexed county record. Approval is land-use approval subject to conditions, not a building permit or CO.",
+      "evidence_note": "Verified local vote and conditions; no downstream permit or power status inferred."
+    },
+    {
+      "date": null,
+      "date_precision": "undated",
+      "government_body": "Morrow County Planning Department",
+      "action_type": "permit-condition record",
+      "result_status": "The county findings require a Rural Address and final Zoning Permit for each building before building permit approval, and require evidence of DEQ stormwater/industrial-wastewater, NPDES large onsite sewer, and OWRD water-right verification, with additional road, airport, lighting, and CO conditions.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "LUD-N-68-24 conditions of approval",
+      "primary_url": "https://www.co.morrow.or.us/sites/default/files/fileattachments/planning_commission/meeting/16789/08272024_pc_packet.pdf",
+      "access_caveat": "This is a condition summary in the official findings, not evidence that each prerequisite was later satisfied.",
+      "evidence_note": "Pending pathway preserved; no permit completion inferred."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-OR-AWS-BOARDMAN-2024",
+    "phase3_source_file": "phase3/county_ca_or.json",
+    "regional_id": "US-OR-AWS-BOARDMAN-2024",
+    "regional_source_file": "phase2/region_west_northeast_remaining.json",
+    "seed_stable_ids": [
+      "US-OR-AWS-BOARDMAN-2024"
+    ],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

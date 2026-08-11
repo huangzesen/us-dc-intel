@@ -1,0 +1,56 @@
+{
+  "master_id": "USDC-0056",
+  "canonical_project": "Harwood $3B AI factory",
+  "aliases": [
+    "Cass County data-center proposal",
+    "Harwood $3B AI factory",
+    "Harwood Applied Digital data-center lead"
+  ],
+  "location": {
+    "city": "Harwood",
+    "county": "Cass County",
+    "state": "ND"
+  },
+  "phase3_stable_id": "ND-HARWOOD-UNNAMED-AI",
+  "status_as_of_cutoff": "The original source lead was a local public discussion of a $3 billion AI factory north of Fargo with undisclosed company/parcel. North Dakota's official 2025 transmission study separately lists a Harwood data-center scenario attributed to Applied Digital at 280 MW with 2027 status. No final county/city approval, named project filing, building permit, construction, utility, inspection, CO, energization, commissioning, or service record was located; identity is not treated as resolved.",
+  "actions": [
+    {
+      "date": "2025-08-18",
+      "date_precision": "day",
+      "government_body": "Local public lead / Reddit discussion",
+      "action_type": "unverified local project announcement",
+      "result_status": "The public lead describes a $3 billion hyperscale AI factory planned north of Fargo/Harwood and a proposed groundbreaking, but gives no reliable named company, parcel, vote, permit, or construction proof.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.reddit.com/r/fargo/comments/1mtsi6h/3_billion_hyperscale_ai_factory_planned_north_of/",
+      "access_caveat": "Discovery/local lead only; not sufficient evidence of approval, construction, or project identity.",
+      "evidence_note": "Tier-4/low-confidence lead retained exactly as source context."
+    },
+    {
+      "date": "2025-11",
+      "date_precision": "month",
+      "government_body": "North Dakota Industrial Commission / Transmission Authority",
+      "action_type": "state transmission-capacity study",
+      "result_status": "The official state study lists Harwood as a 280 MW data-center scenario attributed to Applied Digital with 2027 status. The study is planning context and does not identify the local permit, parcel, or actual construction.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "2025 Future-Proofing North Dakota's Electrical Capacity Study",
+      "primary_url": "https://www.ndic.nd.gov/sites/www/files/documents/Transmission-Authority/Publications/Transmission%20Capacity%20Study/2025-Final-Report-Future-Proofing-NDs-Electrical.pdf",
+      "access_caveat": "Official study does not prove that it is the same project as the local $3B lead; identity linkage remains an inference and is stated as unresolved.",
+      "evidence_note": "Official planning evidence added without upgrading to approval or construction."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "ND-HARWOOD-UNNAMED-AI",
+    "phase3_source_file": "phase3/county_ks_mn_mo_nd_sd.json",
+    "regional_id": "ND-HARWOOD-UNNAMED-AI",
+    "regional_source_file": "phase2/region_midwest_greatlakes.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

@@ -1,0 +1,80 @@
+{
+  "master_id": "USDC-0092",
+  "canonical_project": "Project Taurus data center",
+  "aliases": [
+    "DEPN-26-0039",
+    "Project Taurus data center",
+    "Raeden Taurus"
+  ],
+  "location": {
+    "city": "Colorado Springs",
+    "county": "El Paso",
+    "state": "CO"
+  },
+  "phase3_stable_id": "US-CO-PROJECT-TAURUS-COLORADO-SPRINGS-2026",
+  "status_as_of_cutoff": "Colorado Springs’ official notice documents a proposed development-plan modification and neighborhood meeting. Local reporting says an administrative approval was issued June 12 and appeals were filed June 22, but the city decision file and appeal disposition were not retrieved. Construction, permits, CO, utility service, and energization remain unestablished.",
+  "actions": [
+    {
+      "date": "2026-05-14",
+      "date_precision": "day",
+      "government_body": "City of Colorado Springs Planning and Development",
+      "action_type": "developer neighborhood meeting notice",
+      "result_status": "The city posted a notice for a neighborhood meeting concerning a potential development-plan modification to establish data-center use and site improvements at 1565 High Tech Way.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DEPN-26-0039",
+      "primary_url": "https://coloradosprings.gov/node/163450",
+      "access_caveat": "The city says neighborhood meetings are hosted by applicants, not the city; this notice is not an approval.",
+      "evidence_note": "Official project identity and record number; not a land-use approval."
+    },
+    {
+      "date": "2026-06-12",
+      "date_precision": "day",
+      "government_body": "Colorado Springs Planning Department (reported by CPR; city decision file not retrieved)",
+      "action_type": "administrative development-plan approval (reported)",
+      "result_status": "Colorado Public Radio reported that the administrative approval was issued June 12. The reviewed official city pages expose the case and process but not the written decision or tally; no vote is inferred.",
+      "vote_tally": "not applicable / administrative decision",
+      "case_or_ordinance_permit_number": "DEPN-26-0039",
+      "primary_url": "https://www.cpr.org/2026/06/15/colorado-springs-data-center-administrative-approval/",
+      "access_caveat": "Press report used because the written city decision was not retrieved; approval wording is not independently verified from the decision file.",
+      "evidence_note": "Reported action only; appealability and final status remain open."
+    },
+    {
+      "date": "2026-06-22",
+      "date_precision": "day",
+      "government_body": "Colorado Springs Planning Department / Planning Commission (reported by The Gazette; disposition not retrieved)",
+      "action_type": "appeal of administrative decision (reported)",
+      "result_status": "The Gazette reported appeals filed against the administrative approval. The appeal record and disposition were not located.",
+      "vote_tally": "not published",
+      "case_or_ordinance_permit_number": "DEPN-26-0039",
+      "primary_url": "https://gazette.com/2026/06/22/appeals-filed-against-project-taurus-data-center-development-whats-next/",
+      "access_caveat": "Press report; no appeal outcome is inferred.",
+      "evidence_note": "Pending legal/land-use status."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "City of Colorado Springs Planning and Development",
+      "action_type": "permit and appeal-record search (negative)",
+      "result_status": "The city development tracker identifies the public portal for case documents, but the reviewed surface did not expose a building permit, appeal disposition, CO, or utility record for DEPN-26-0039.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "DEPN-26-0039",
+      "primary_url": "https://coloradosprings.gov/developmenttracker",
+      "access_caveat": "The portal is interactive and document access was not complete in this pass.",
+      "evidence_note": "Negative search only."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-CO-PROJECT-TAURUS-COLORADO-SPRINGS-2026",
+    "phase3_source_file": "phase3/county_co_id_mt_nv_nm_wy.json",
+    "regional_id": "US-CO-PROJECT-TAURUS-COLORADO-SPRINGS-2026",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

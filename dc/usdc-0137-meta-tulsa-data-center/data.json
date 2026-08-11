@@ -1,0 +1,55 @@
+{
+  "master_id": "USDC-0137",
+  "canonical_project": "Meta Tulsa data center",
+  "aliases": [
+    "Meta Project Anthem / east Tulsa",
+    "Meta Tulsa data center"
+  ],
+  "location": {
+    "city": "Tulsa",
+    "county": "Tulsa",
+    "state": "OK"
+  },
+  "phase3_stable_id": "US-OK-META-TULSA-2026",
+  "status_as_of_cutoff": "Under construction based on the state groundbreaking release; first service date, building permits, and occupancy were not located.",
+  "actions": [
+    {
+      "date": "2026-04-21",
+      "date_precision": "day",
+      "government_body": "Oklahoma Department of Commerce",
+      "action_type": "announcement and groundbreaking",
+      "result_status": "State release records a groundbreaking for a more-than-$1 billion Tulsa data center at Fair Oaks Innovation Park, with more than 2 million square feet and planned local infrastructure improvements. It does not publish a city permit number or vote tally.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.okcommerce.gov/meta-breaks-ground-on-data-center-in-tulsa/",
+      "access_caveat": "Official state page accessible; groundbreaking and investment are not a substitute for Tulsa building, grading, or occupancy records.",
+      "evidence_note": "Body/context retained from prior file: Oklahoma Department of Commerce / Meta / local and state leaders."
+    },
+    {
+      "date": "2026-04-22",
+      "date_precision": "day",
+      "government_body": null,
+      "action_type": "press corroboration",
+      "result_status": "Reuters corroborates the more-than-$1 billion Tulsa groundbreaking; it adds no local permit, vote, interconnection, or energization evidence.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.reuters.com/world/us/meta-breaks-ground-over-1-billion-data-center-oklahomas-tulsa-2026-04-22/",
+      "access_caveat": "Press source only; used as corroboration, not as government approval evidence.",
+      "evidence_note": "Body/context retained from prior file: Reuters."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "US-OK-META-TULSA-2026",
+    "phase3_source_file": "phase3/county_ok_az_ut.json",
+    "regional_id": "US-OK-META-TULSA-2026",
+    "regional_source_file": "phase2/region_southwest_mountain.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

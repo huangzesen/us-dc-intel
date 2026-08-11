@@ -1,0 +1,70 @@
+{
+  "master_id": "USDC-0007",
+  "canonical_project": "Project Ruby / Muscogee Property 1",
+  "aliases": [
+    "Columbus technology center campus",
+    "Habitat Real Estate Partners Project Ruby",
+    "Muscogee Property 1",
+    "Project Ruby",
+    "Project Ruby / Muscogee Property 1"
+  ],
+  "location": {
+    "city": "Columbus",
+    "county": "Muscogee County",
+    "state": "GA"
+  },
+  "phase3_stable_id": "GA-004",
+  "status_as_of_cutoff": "Private proposed hyperscale site with Development Authority/Choose Columbus and developer materials. End user remains undisclosed. The public process described by the sponsor still requires overlay and site rezoning steps; no vote, permit, construction, CO, utility interconnection, or energization was verified.",
+  "actions": [
+    {
+      "date": "2025-12-01",
+      "date_precision": "day",
+      "government_body": "Choose Columbus / Development Authority project materials",
+      "action_type": "conceptual site map",
+      "result_status": "Public project map depicted a proposed Project Ruby data-center site, phase-one campus, buildings, substation, and property boundary; it did not constitute a zoning or construction approval.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.choosecolumbusga.com/media/userfiles/subsite_79/files/project-ruby/Project%20Ruby%20Site%20Map.pdf",
+      "access_caveat": "Authority/developer material; map is conceptual and not an issued permit or parcel deed.",
+      "evidence_note": "Site-planning concept, not land-use approval."
+    },
+    {
+      "date": "2026-02-12",
+      "date_precision": "day",
+      "government_body": "Development Authority of Columbus / Choose Columbus",
+      "action_type": "economic-development project announcement",
+      "result_status": "Authority announced a proposed technology center campus with Habitat Partners; the customer/end user was not named and no local vote or approval was claimed in the announcement.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.choosecolumbusga.com/news/p/item/66516/columbus-georgia-set-to-benefit-from-major-new-technology-center-campus",
+      "access_caveat": "Economic-development announcement, not a rezoning, site-plan, building, environmental, or utility approval.",
+      "evidence_note": "Sponsor/authority announcement kept separate from government permitting."
+    },
+    {
+      "date": "2026-07-16",
+      "date_precision": "day",
+      "government_body": "City of Columbus / Choose Columbus project information",
+      "action_type": "proposed overlay and development process",
+      "result_status": "Project page describes the sequence for a proposed technology overlay, subsequent rezoning request, and DRI process; it does not state that those steps were completed for Project Ruby.",
+      "vote_tally": "not applicable",
+      "case_or_ordinance_permit_number": null,
+      "primary_url": "https://www.choosecolumbusga.com/project-ruby-updates",
+      "access_caveat": "Public FAQ/process page; draft overlay language is not an enacted ordinance.",
+      "evidence_note": "Pending land-use process, not approval."
+    }
+  ],
+  "capacity_mw": null,
+  "owner": null,
+  "sources": {
+    "phase3_stable_id": "GA-004",
+    "phase3_source_file": "phase3/county_ga_nc_sc.json",
+    "regional_id": "GA-004",
+    "regional_source_file": "phase2/region_midatlantic_southeast.json",
+    "seed_stable_ids": [],
+    "authoritative_layer": "phase3_project_action_layer",
+    "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
+  },
+  "contradictions": [],
+  "seed_only": false,
+  "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
+}

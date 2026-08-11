@@ -13,9 +13,9 @@ EXP = os.path.join(ROOT, 'scripts', 'expansion')
 OUT = os.path.join(ROOT, 'kanban', 'index.html')
 
 STATUS_LABEL = {
-    'operational': '运营中', 'construction': '在建', 'planned': '规划',
-    'approved': '已批准', 'announced': '已公告', 'rejected': '已否决',
-    'unknown': '未知', 'no_projects_found': '未发现',
+    'operational': '运营中 / Operational', 'construction': '在建 / Under Construction', 'planned': '规划 / Planned',
+    'approved': '已批准 / Approved', 'announced': '已公告 / Announced', 'rejected': '已否决 / Rejected',
+    'unknown': '未知 / Unknown', 'no_projects_found': '未发现 / None Found',
 }
 
 
@@ -147,11 +147,11 @@ def main():
             bucket_html += f'<div class="bucket"><b>{STATUS_LABEL.get(s, s)}</b> <span class="cnt">{len(rows)}</span></div>'
 
     html_doc = f'''<!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>US 数据中心 county 探索看板 · xhelio.ai</title>
+<title>US Data Center County Exploration Kanban · US 数据中心 county 探索看板</title>
 <style>
 :root {{ --bg:#0f1420; --card:#171e2e; --line:#26304a; --txt:#dbe4ff; --mut:#7f8db3; --acc:#4f8cff; }}
 * {{ box-sizing:border-box; }}
@@ -187,43 +187,43 @@ a {{ color:#63d3ff; text-decoration:none; word-break:break-all; }}
 </head>
 <body>
 <div class="wrap">
-  <h1>US 数据中心 county 探索看板</h1>
-  <div class="sub">目标：全美 3,000+ county 逐一探索，构建最宽口径数据中心超集清单 · 渲染于 {html.escape(now)}</div>
+  <h1>US Data Center County Exploration Kanban · US 数据中心 county 探索看板</h1>
+  <div class="sub">Goal: explore every US county to build the widest data-center superset · 目标：全美 3,000+ county 逐一探索，构建最宽口径数据中心超集清单 · Rendered 渲染于 {html.escape(now)}</div>
 
   <div class="metrics">
-    <div class="metric"><div class="v">{total_counties}</div><div class="l">全美 county 总数</div></div>
-    <div class="metric"><div class="v">{len(batches)}</div><div class="l">探索批次（每批 10 县）</div></div>
-    <div class="metric"><div class="v">{len(done_batches)}</div><div class="l">已完成批次</div><div class="bar"><div style="width:{pct:.1f}%"></div></div><div style="font-size:11px;color:var(--mut)">{pct:.1f}%</div></div>
-    <div class="metric"><div class="v">{done_counties}</div><div class="l">已完成 county</div><div class="bar"><div style="width:{county_pct:.1f}%"></div></div><div style="font-size:11px;color:var(--mut)">{county_pct:.1f}%</div></div>
-    <div class="metric"><div class="v">{len(county_projects)}</div><div class="l">county 探索发现项目</div></div>
-    <div class="metric"><div class="v">{len(state_projects)}</div><div class="l">州级探索项目</div></div>
-    <div class="metric"><div class="v">{len(research)}</div><div class="l">数据源调研条目</div></div>
+    <div class="metric"><div class="v">{total_counties}</div><div class="l">Total US counties · 全美 county 总数</div></div>
+    <div class="metric"><div class="v">{len(batches)}</div><div class="l">Exploration batches (10 per batch) · 探索批次（每批 10 县）</div></div>
+    <div class="metric"><div class="v">{len(done_batches)}</div><div class="l">Completed batches · 已完成批次</div><div class="bar"><div style="width:{pct:.1f}%"></div></div><div style="font-size:11px;color:var(--mut)">{pct:.1f}%</div></div>
+    <div class="metric"><div class="v">{done_counties}</div><div class="l">Counties explored · 已完成 county</div><div class="bar"><div style="width:{county_pct:.1f}%"></div></div><div style="font-size:11px;color:var(--mut)">{county_pct:.1f}%</div></div>
+    <div class="metric"><div class="v">{len(county_projects)}</div><div class="l">Projects found (county) · county 探索发现项目</div></div>
+    <div class="metric"><div class="v">{len(state_projects)}</div><div class="l">State-level projects · 州级探索项目</div></div>
+    <div class="metric"><div class="v">{len(research)}</div><div class="l">Data sources researched · 数据源调研条目</div></div>
   </div>
 
   <div class="sec">
-    <h2>探索进度状态分布（county 发现，前 30 批）</h2>
+    <h2>Status distribution (county finds, first 30 batches) · 探索进度状态分布（county 发现，前 30 批）</h2>
     <div class="buckets">{bucket_html}</div>
   </div>
 
   <div class="sec">
-    <h2>批次看板（已完成 {len(done_batches)} / 总 {len(batches)}）</h2>
+    <h2>Batch board · 批次看板（Done 已完成 {len(done_batches)} / Total 总 {len(batches)}）</h2>
     <div class="board">
-      <div class="col"><h3>⏳ 待探索 / 探索中（{len(pending_batches)} 批）</h3>{cards_html}</div>
-      <div class="col"><h3>✅ 已完成（{len(done_batches)} 批）</h3>{done_cards_html}</div>
+      <div class="col"><h3>⏳ Pending / In progress 待探索 / 探索中（{len(pending_batches)} 批）</h3>{cards_html}</div>
+      <div class="col"><h3>✅ Completed 已完成（{len(done_batches)} 批）</h3>{done_cards_html}</div>
     </div>
   </div>
 
   <div class="sec">
-    <h2>州级探索项目（{len(state_projects)} 条，前 400 显示）</h2>
-    <table><thead><tr><th>州</th><th>county</th><th>项目</th><th>开发商</th><th>状态</th><th>容量</th><th>年份</th></tr></thead><tbody>{sp_html}</tbody></table>
+    <h2>State-level projects 州级探索项目（{len(state_projects)} rows 条，showing first 400 显示前 400）</h2>
+    <table><thead><tr><th>State 州</th><th>County 县</th><th>Project 项目</th><th>Developer 开发商</th><th>Status 状态</th><th>Capacity 容量</th><th>Year 年份</th></tr></thead><tbody>{sp_html}</tbody></table>
   </div>
 
   <div class="sec">
-    <h2>数据源调研（{len(research)} 条）</h2>
-    <table><thead><tr><th>名称</th><th>URL</th><th>可访问</th><th>认证</th><th>估计项目数</th><th>抓取方式</th></tr></thead><tbody>{rs_html}</tbody></table>
+    <h2>Data source research 数据源调研（{len(research)} entries 条）</h2>
+    <table><thead><tr><th>Name 名称</th><th>URL</th><th>Access 可访问</th><th>Auth 认证</th><th>Est. projects 估计项目数</th><th>Fetch 抓取方式</th></tr></thead><tbody>{rs_html}</tbody></table>
   </div>
 
-  <div class="foot">由 dev4bot 自动渲染 · 数据来自 scripts/expansion/ · Powered by LingTai AI: https://github.com/Lingtai-AI/lingtai</div>
+  <div class="foot">Rendered by dev4bot · 由 dev4bot 自动渲染 · Data from scripts/expansion/ · 数据来自 scripts/expansion/ · Powered by LingTai AI: https://github.com/Lingtai-AI/lingtai</div>
 </div>
 </body>
 </html>'''

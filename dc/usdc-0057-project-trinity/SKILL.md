@@ -45,3 +45,8 @@ A February 2025 specialist report says Williams County commissioners gave Teton 
 - baseline: legacy-baseline-20260716/national_master_inventory.json (SHA 2113de4b…)
 - master_id: USDC-0057
 - phase3 stable_id: ND-TIOGA-TETON-TRINITY
+
+## 相关文件
+
+- `data.json`（结构化数据真源）· `NOTES.md`（历次更新记录）
+- 顶层 `SKILL.md`（方法论路由）· `ANATOMY.md`（结构地图）

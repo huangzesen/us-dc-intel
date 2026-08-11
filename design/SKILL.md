@@ -16,3 +16,9 @@
 ## 边界
 
 - mockup 是设计真源；正式实现以 `astro/` 为准；两者不一致时先修 mockup 再改实现
+
+## 相关文件
+
+- `design/design-proposal.md`（提案）· `design/design-mockup.html`（已批准规格）
+- `astro/SKILL.md`（正式站实现）· `astro/src/pages/index.astro`（渲染）
+- `astro/src/data/datacenters.json`（数据）· 顶层 `SKILL.md`/`ANATOMY.md`

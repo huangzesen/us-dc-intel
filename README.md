@@ -26,6 +26,12 @@ Exploration follows the contract in `scripts/expansion/americas/explore-brief.md
 
 See `astro/SKILL.md` for the maintenance contract (data flow, rebuild steps, leak checks, deployment boundary). Live board: <https://xhelio.ai/datacenters/>
 
+## 相关文件
+
+- `SKILL.md`（顶层方法论/路由）· `ANATOMY.md`（结构地图）
+- `scripts/SKILL.md`（管线）· `astro/SKILL.md`（正式站）· `design/SKILL.md`（设计）· `kanban/SKILL.md`（旧看板）
+- `datacenters.db`（主库）· `merge-output/americas-summary.json`（最近汇总）
+
 ---
 
 Built with the LingTai agent network (https://github.com/Lingtai-AI/lingtai) for Jason/Zesen.

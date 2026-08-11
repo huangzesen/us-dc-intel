@@ -48,3 +48,28 @@
 - 不把 announced 当 construction；不改算枢 workspace；对外发布需 Jason 另行授权
 - 公开发布物（HTML/评论）不得含内部路径（/Users/、scratch/、daemons/、logs/ 等）
 - 每个文件夹都有自己的 `SKILL.md` 与职责，跨模块改动先读 `ANATOMY.md` 找 owner
+
+## 六 · 维护契约（maintenance）
+
+- **何时更新**：任何探索/合并/导出/部署后，或发现文档与代码偏差时，必须同步更新相关 md。
+- **谁维护**：项目 owner = Jason/Zesen；日常执行 = dev4bot（以及任何接手的 agent）。
+- **如何更新**：走 git（吞并前先读目标文件夹 SKILL.md 的维护契约）；每个 md 的「维护契约」与「相关文件」必须保持最新，新增模块时三处同时补：目录 SKILL.md + ANATOMY.md 条目 + 本文件路由表。
+- **质量门槛**：每个 SKILL.md 至少包含：职责、维护契约（何时/谁/怎么更新）、相关文件、边界。
+
+## 七 · 相关文件（related files）
+
+| 文件 | 用途 |
+|---|---|
+| `ANATOMY.md` | 项目结构地图/责任矩阵/变更纪律 |
+| `README.md` | 公开 repo 入口（数据说明/重建指引） |
+| `scripts/SKILL.md` | 探索/合并/导出管线手册 |
+| `scripts/merge_americas.py` | 美洲结果合并入 DB |
+| `scripts/export_astro_data.py` | DB → astro/src/data/datacenters.json |
+| `scripts/expansion/americas/explore-brief.md` | 美洲探索 daemon 契约 |
+| `scripts/expansion/americas/americas-manifest.jsonl` | 国家/二级行政区清单 |
+| `datacenters.db` | SQLite 主库（centers + sources 表） |
+| `merge-output/americas-summary.json` | 最后 merge 跑次汇总 |
+| `kanban/SKILL.md` | 旧看板（过渡保留） |
+| `design/SKILL.md` | 视觉设计规格 |
+| `astro/SKILL.md` | Astro 正式站维护契约 |
+| `legacy-baseline-20260716/SKILL.md` | 冻结基线（只读） |

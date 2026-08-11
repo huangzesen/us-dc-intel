@@ -24,3 +24,13 @@ AZ 34 / GA 47 / IL 47 / IN 55 / NC 40 / OH 33 / TX 35 / UT 39 / VA 41 / WA 48
 3. Baxtel/FracTracker/dcmap.us 全量
 4. 全部入 repo dc/<slug>/ 目录
 5. 重新聚合画图（planned 层反映真实存量）
+
+## 维护契约
+
+- 本 README 是 US 探索历史与进度的快照；探索状态以 `scripts/expansion/**` 下实际文件（batches/results/briefs）为准。
+- 每次探索/合并后若本文件描述过时，须同步更新；否则以 scripts/SKILL.md 的当前管线为准。
+
+## 相关文件
+
+- `scripts/expansion/county-explore-brief.md` / `state-explore-brief.md` / `source-research-*.md`（各轮探索契约与汇总）
+- `scripts/expansion/americas/explore-brief.md`（美洲契约）· `scripts/SKILL.md`（管线）· `datacenters.db`（主库）

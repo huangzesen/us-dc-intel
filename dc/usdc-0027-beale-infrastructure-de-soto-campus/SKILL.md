@@ -45,3 +45,8 @@ Beale announced a phased campus in April 2026 and describes site preparation, po
 - baseline: legacy-baseline-20260716/national_master_inventory.json (SHA 2113de4b…)
 - master_id: USDC-0027
 - phase3 stable_id: KS-DE-SOTO-BEALE
+
+## 相关文件
+
+- `data.json`（结构化数据真源）· `NOTES.md`（历次更新记录）
+- 顶层 `SKILL.md`（方法论路由）· `ANATOMY.md`（结构地图）

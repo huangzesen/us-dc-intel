@@ -45,3 +45,8 @@ City records establish conditional annexation, I-1 zoning, preliminary PUD/plat,
 - baseline: legacy-baseline-20260716/national_master_inventory.json (SHA 2113de4b…)
 - master_id: USDC-0016
 - phase3 stable_id: IL-JOLIET-POWERHOUSE-HILLWOOD
+
+## 相关文件
+
+- `data.json`（结构化数据真源）· `NOTES.md`（历次更新记录）
+- 顶层 `SKILL.md`（方法论路由）· `ANATOMY.md`（结构地图）

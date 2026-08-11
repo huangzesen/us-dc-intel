@@ -23,3 +23,10 @@
 ## 边界
 
 - 不删除历史结果/输入；不清空 `merge-output/`；数据库重建前先备份
+
+## 相关文件
+
+- `SKILL.md`（顶层方法论/路由）· `ANATOMY.md`（结构地图）
+- `scripts/merge_all_sources.py`（US 合并）· `scripts/merge_americas.py`（美洲合并）· `scripts/export_astro_data.py`（导出）· `scripts/generate_skeleton.py`（dc/ 骨架）
+- `scripts/expansion/americas/explore-brief.md`（探索契约）· `scripts/expansion/americas/americas-manifest.jsonl`（清单）
+- `datacenters.db`（SQLite 主库）· `merge-output/`（合并产物）· `astro/src/data/datacenters.json`（导出目标）

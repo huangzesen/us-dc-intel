@@ -68,3 +68,15 @@ us-dc-intel/
 - 跨模块改动先读目标 `SKILL.md` 与相关 `ANATOMY.md` 引用；不重复造轮子
 - 结构事实（文件/目录/调用）以本 ANATOMY 为准；若代码与文档不符，更新文档并记录偏差
 - 新增模块时必须同时补：目录 `SKILL.md` + 本文件条目 + 顶层 `SKILL.md` 路由表
+
+## 维护契约
+
+- 本文件是项目结构事实的准；任何文件/目录/调用变动后必须同步更新，代码与文档不符时以代码为准并更新本文件且记录偏差。
+- 新增/移除模块、改变数据流、调整责任矩阵时，此处为必更项（跟顶层 `SKILL.md` 一起）。
+
+## 相关文件
+
+- `SKILL.md`（顶层方法论/路由）
+- `scripts/SKILL.md`、`kanban/SKILL.md`、`design/SKILL.md`、`astro/SKILL.md`、`legacy-baseline-20260716/SKILL.md`（各模块手册）
+- `README.md`（公开入口）
+- `scripts/expansion/americas/explore-brief.md` + `americas-manifest.jsonl`（探索契约/清单）

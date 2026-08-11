@@ -43,3 +43,8 @@ planned; potential moratorium under city discussion
 - 发现于 2026-08-11 codex discovery daemon（candidates-secondary-markets.jsonl）
 - 与 legacy-baseline-20260716（SHA 2113de4b0a34）校验：无 canonical 名冲突
 - disc_id: disc026
+
+## 相关文件
+
+- `data.json`（结构化数据真源）· `NOTES.md`（历次更新记录）
+- 顶层 `SKILL.md`（方法论路由）· `ANATOMY.md`（结构地图）

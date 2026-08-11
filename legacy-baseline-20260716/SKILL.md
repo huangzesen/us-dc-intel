@@ -11,3 +11,8 @@
 ## 边界
 
 - 不删、不改、不重排 baseline 原始 bytes；基线记录历史事实，迁移/修订另行归档
+
+## 相关文件
+
+- `legacy-baseline-20260716/` 内：`national_master_inventory.json`（208 masters）、`dedupe_ledger.json`、`county_decision_register.json`、`gantt_methodology.md`、`source_conflict_audit.json`、`completeness_appendix.json`、`build_report.md`
+- `dc/<slug>/`（新数据入口）· `datacenters.db`（主库）· 顶层 `SKILL.md`/`ANATOMY.md`

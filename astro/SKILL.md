@@ -33,9 +33,10 @@ huangzesen/xhelio-datacenters/datacenters/index.html → https://xhelio.ai/datac
 2. **合并入 DB**：`python scripts/merge_americas.py`（美洲）+ `python scripts/merge_all_sources.py`（US）→ 生成 `datacenters.db`。
 3. **导出看板数据**：`python scripts/export_astro_data.py` → 更新 `astro/src/data/datacenters.json`。
 4. **构建**：`cd astro && npm run build`。
-5. **验证**：`grep -rE '/Users/|scratch/|daemons/|logs/|token_' dist/` 必须无命中（防内部路径泄漏）。
-6. **部署**：把 `astro/dist/` 内容推送到 `huangzesen/xhelio-datacenters` 仓库的 `datacenters/` 目录（⚠️ 仓库根 `index.html` 是 457B 重定向页，切勿覆盖；真正页面在 `datacenters/index.html`）。
-7. **线上验证**：curl https://xhelio.ai/datacenters/ 检查 HTTP 200 与内容大小/关键字。Cloudflare CDN 缓存约 1-2 分钟刷新。
+5. **重命名资源目录（必须）**：`cp -R dist/_astro dist/assets && sed -i '' 's|/datacenters/_astro/|/datacenters/assets/|g' dist/index.html` —— **GitHub Pages 不服务下划线开头的目录（`_astro/`），即使有 .nojekyll**；必须改用普通目录 `assets/` 并在 index.html 中替换引用。
+6. **验证**：`grep -rE '/Users/|scratch/|daemons/|logs/|token_' dist/` 必须无命中（防内部路径泄漏）。
+7. **部署**：把 `astro/dist/` 内容推送到 `huangzesen/xhelio-datacenters` 仓库的 `datacenters/` 目录（⚠️ 仓库根 `index.html` 是 457B 重定向页，切勿覆盖；真正页面在 `datacenters/index.html`）。仓库根已有 `.nojekyll`。
+8. **线上验证**：curl https://xhelio.ai/datacenters/ 检查 HTTP 200 与内容大小/关键字；再 curl https://xhelio.ai/datacenters/assets/<hash>.css 应 200。Cloudflare CDN 缓存约 1-2 分钟刷新；GitHub Pages build 约 1 分钟。
 
 ## 关键文件
 
@@ -48,3 +49,15 @@ huangzesen/xhelio-datacenters/datacenters/index.html → https://xhelio.ai/datac
 
 - 禁止删除文件；禁止直接改 DB schema 之外的持久层；推送 GitHub 前确认身份（huangzesen / hzsbazinga@outlook.com）。
 - 公开内容禁止内部路径/文件名泄漏。
+
+## 维护契约
+
+- **何时更新**：任何探索/合并/导出后，若 `datacenters.json` 或页面结构变化，须重跑 export → build → leak-check →（获授权后）部署。
+- **谁维护**：项目 owner = Jason/Zesen；日常执行 = dev4bot。
+- **如何更新**：按上文「如何更新（全流程）」7 步执行；部署须 Jason 授权；推前机械确认 gh 身份。
+
+## 相关文件
+
+- `astro/src/pages/index.astro`（页面）· `astro/src/data/datacenters.json`（数据）· `astro/astro.config.mjs`/`package.json`（构建）
+- `scripts/export_astro_data.py`（导出）· `scripts/merge_americas.py`（合并）· `datacenters.db`（主库）
+- 部署目标：`huangzesen/xhelio-datacenters`（Pages repo）· 顶层 `SKILL.md`/`ANATOMY.md`

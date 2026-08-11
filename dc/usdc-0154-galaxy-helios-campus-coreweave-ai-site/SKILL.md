@@ -45,3 +45,8 @@ Phase I is reported complete by Galaxy and Phase II has TDLR registrations; a PU
 - baseline: legacy-baseline-20260716/national_master_inventory.json (SHA 2113de4b…)
 - master_id: USDC-0154
 - phase3 stable_id: US-TX-GALAXY-HELIOS-DICKENS-2025
+
+## 相关文件
+
+- `data.json`（结构化数据真源）· `NOTES.md`（历次更新记录）
+- 顶层 `SKILL.md`（方法论路由）· `ANATOMY.md`（结构地图）

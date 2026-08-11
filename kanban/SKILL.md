@@ -18,3 +18,9 @@ metrics（county 批次进度）、buckets、状态列、表格、Dark/Light 主
 
 - 看板是展示层；数据真源在 `datacenters.db`/`merge-output/`；不直接改数据
 - 新设计版（GRIDWATCH，`design/` + `astro/`）将逐步取代本看板，作为过渡保留
+
+## 相关文件
+
+- `kanban/render_kanban.py`（渲染脚本）→ `kanban/index.html`（产物）
+- `scripts/expansion/**`（数据输入）· `datacenters.db`（主库）
+- `design/SKILL.md`（新设计规格）· `astro/SKILL.md`（正式站）· 顶层 `SKILL.md`/`ANATOMY.md`

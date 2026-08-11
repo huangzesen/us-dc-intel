@@ -58,6 +58,11 @@ SKILL_TEMPLATE = """# {master_id} — {project}
 4. 更新 NOTES.md（日期 + 变化 + 来源 URL）
 5. git add + commit（message 含 master_id 与变更摘要）
 
+## 相关文件
+
+- `data.json`（结构化数据真源）· `NOTES.md`（历次更新记录）
+- 顶层 `SKILL.md`（方法论路由）· `ANATOMY.md`（结构地图）
+
 ## 基线来源
 - baseline: legacy-baseline-20260716/national_master_inventory.json (SHA 2113de4b…)
 - master_id: {master_id}

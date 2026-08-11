@@ -45,3 +45,8 @@ Company-reported under construction from a 2026-01-22 groundbreaking, with a com
 - baseline: legacy-baseline-20260716/national_master_inventory.json (SHA 2113de4b…)
 - master_id: USDC-0094
 - phase3 stable_id: US-HI-SERVPAC-MTP-B2-2026
+
+## 相关文件
+
+- `data.json`（结构化数据真源）· `NOTES.md`（历次更新记录）
+- 顶层 `SKILL.md`（方法论路由）· `ANATOMY.md`（结构地图）

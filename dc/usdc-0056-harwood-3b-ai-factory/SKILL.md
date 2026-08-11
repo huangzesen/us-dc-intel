@@ -45,3 +45,8 @@ The original source lead was a local public discussion of a $3 billion AI factor
 - baseline: legacy-baseline-20260716/national_master_inventory.json (SHA 2113de4b…)
 - master_id: USDC-0056
 - phase3 stable_id: ND-HARWOOD-UNNAMED-AI
+
+## 相关文件
+
+- `data.json`（结构化数据真源）· `NOTES.md`（历次更新记录）
+- 顶层 `SKILL.md`（方法论路由）· `ANATOMY.md`（结构地图）

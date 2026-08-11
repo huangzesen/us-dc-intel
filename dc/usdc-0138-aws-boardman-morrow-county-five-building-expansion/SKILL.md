@@ -45,3 +45,8 @@ Morrow County officially approved LUD-N-68-24 on 2024-09-24 by 4 yes / 3 no, sub
 - baseline: legacy-baseline-20260716/national_master_inventory.json (SHA 2113de4b…)
 - master_id: USDC-0138
 - phase3 stable_id: US-OR-AWS-BOARDMAN-2024
+
+## 相关文件
+
+- `data.json`（结构化数据真源）· `NOTES.md`（历次更新记录）
+- 顶层 `SKILL.md`（方法论路由）· `ANATOMY.md`（结构地图）

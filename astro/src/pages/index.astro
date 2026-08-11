@@ -11,6 +11,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
     <meta name="description" content="GRIDWATCH Americas data center buildout intelligence dashboard." />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <title>GRIDWATCH — Americas Data Center Buildout Intelligence</title>
     <style>
       :root {
@@ -454,6 +455,89 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         display: grid;
         grid-template-columns: minmax(0, 1fr) 250px;
         gap: 26px;
+      }
+
+      .realmap-wrap {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 250px;
+        gap: 26px;
+        margin-bottom: 24px;
+      }
+
+      .realmap {
+        min-height: 420px;
+        overflow: hidden;
+        border: 1px solid var(--ln);
+        border-radius: 10px;
+        background: #0a0d12;
+      }
+
+      .mapmode {
+        align-self: start;
+        padding-top: 2px;
+      }
+
+      .mapmode .k {
+        color: var(--mut);
+        text-transform: uppercase;
+        font: 11px var(--mono);
+        letter-spacing: 0.08em;
+      }
+
+      .mapmode .v {
+        margin-top: 6px;
+        color: var(--ink);
+        font: 700 18px var(--mono);
+      }
+
+      .mapmode .d {
+        margin-top: 12px;
+        color: var(--ink2);
+        font-size: 12px;
+      }
+
+      .leaflet-container {
+        background: #0a0d12;
+        font: 12px var(--mono);
+      }
+
+      .leaflet-control-attribution {
+        background: color-mix(in srgb, var(--sf) 88%, transparent) !important;
+        color: var(--mut) !important;
+      }
+
+      .leaflet-control-attribution a {
+        color: var(--ink2) !important;
+      }
+
+      .leaflet-popup-content-wrapper,
+      .leaflet-popup-tip {
+        border: 1px solid var(--ln2);
+        color: var(--ink);
+        background: var(--sf);
+      }
+
+      .leaflet-popup-content {
+        margin: 11px 13px;
+      }
+
+      .leaflet-popup-content .p1 {
+        margin-bottom: 5px;
+        font-weight: 700;
+      }
+
+      .leaflet-popup-content .p2 {
+        color: var(--ink2);
+      }
+
+      .leaflet-popup-content .p3 {
+        margin-top: 7px;
+        color: var(--mut);
+        line-height: 1.5;
+      }
+
+      .leaflet-popup-close-button {
+        color: var(--ink2) !important;
       }
 
       .usmap {
@@ -1059,7 +1143,8 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       }
 
       @media (max-width: 920px) {
-        .maprow {
+        .maprow,
+        .realmap-wrap {
           grid-template-columns: 1fr;
         }
 
@@ -1098,6 +1183,10 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
 
         .frow {
           grid-template-columns: 106px minmax(0, 1fr) 120px;
+        }
+
+        .realmap {
+          min-height: 340px;
         }
 
         .brand span:not(.blk) {
@@ -1207,6 +1296,14 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
             </div>
           </div>
           <div class="card rv">
+            <div class="realmap-wrap">
+              <div class="realmap" id="realMap" aria-label="interactive geographic map"></div>
+              <div class="mapmode">
+                <div class="k"><span class="en">Interactive map</span><span class="zh">交互地图</span></div>
+                <div class="v" id="realMapTitle"></div>
+                <div class="d" id="realMapNote"></div>
+              </div>
+            </div>
             <div class="maprow">
               <div class="usmap" id="usmap" aria-label="geographic tile map"></div>
               <div class="mapside">
@@ -1323,13 +1420,14 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
     <footer class="foot">
       <div class="wrap">
         <div class="rule"></div>
-        <span class="en">GRIDWATCH production Astro build · all figures exported from the unified data-center corpus ({data.totals.facilities.toLocaleString("en-US")} centers, {data.totals.sources.toLocaleString("en-US")} sources) as of {data.generated_date} · static site, zero external runtime requests · registry shows {data.centers.length} flagship records of the full corpus.</span>
-        <span class="zh">GRIDWATCH Astro 生产版本 · 所有数字均来自统一数据中心语料库（{data.totals.facilities.toLocaleString("en-US")} 个中心，{data.totals.sources.toLocaleString("en-US")} 个来源），截至 {data.generated_date} · 静态站点，无运行时外部请求 · 登记表展示语料库中 {data.centers.length} 条旗舰记录。</span>
+        <span class="en">GRIDWATCH production Astro build · all figures exported from the unified data-center corpus ({data.totals.facilities.toLocaleString("en-US")} centers, {data.totals.sources.toLocaleString("en-US")} sources) as of {data.generated_date} · static site with OpenStreetMap tiles · registry shows {data.centers.length} flagship records of the full corpus.</span>
+        <span class="zh">GRIDWATCH Astro 生产版本 · 所有数字均来自统一数据中心语料库（{data.totals.facilities.toLocaleString("en-US")} 个中心，{data.totals.sources.toLocaleString("en-US")} 个来源），截至 {data.generated_date} · 静态站点，地图使用 OpenStreetMap 瓦片 · 登记表展示语料库中 {data.centers.length} 条旗舰记录。</span>
       </div>
     </footer>
 
     <div id="tip"></div>
     <script id="gw-data" type="application/json" set:html={dataJson}></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script is:inline>
       const DATA = JSON.parse(document.getElementById("gw-data").textContent);
       const I18N = {
@@ -1371,6 +1469,8 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       let devTab = "mw";
       let sortKey = "mw";
       let sortDir = -1;
+      let realMap = null;
+      let realMapLayer = null;
 
       const langIndex = () => document.documentElement.dataset.lang === "zh" ? 1 : 0;
       const L = value => Array.isArray(value) ? value[langIndex()] : value;
@@ -1401,6 +1501,19 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
             };
       };
       const countryName = country => langIndex() ? country.name_zh : country.name_en;
+      const hasCoord = item => Number.isFinite(Number(item?.lat)) && Number.isFinite(Number(item?.lng));
+      const pointValue = item => mapMetric === "mw" ? Number(item.capacity_mw || 0) : Number(item.facilities || 0);
+      const markerColor = item => {
+        const mw = Number(item.capacity_mw || 0);
+        if (mw >= 10000) return "#e66767";
+        if (mw >= 1000) return "#f5a83c";
+        if (mw >= 100) return "#1baf7a";
+        return "#3987e5";
+      };
+      const markerRadius = item => {
+        const value = pointValue(item);
+        return Math.max(6, Math.min(28, 5 + Math.sqrt(Math.max(0, value)) * (mapMetric === "mw" ? 0.07 : 1.2)));
+      };
 
       function setTheme(theme) {
         document.documentElement.dataset.theme = theme;
@@ -1420,6 +1533,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
           localStorage.setItem("gw-lang", nextLang);
         } catch (error) {}
         buildMap();
+        renderRealMap();
         buildFilters();
         renderTable();
         buildDevs();
@@ -1473,6 +1587,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         document.getElementById("mm-mw").classList.toggle("on", metric === "mw");
         document.getElementById("mm-n").classList.toggle("on", metric === "n");
         buildMap();
+        renderRealMap();
         updateMapSide();
       }
 
@@ -1482,12 +1597,113 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         buildCountrySwitch();
         updateHero();
         buildMap();
+        renderRealMap();
         buildFunnel();
         buildWave();
         buildFilters();
         renderTable();
         updateMapSide();
         updateFunnelTitle();
+      }
+
+      function initRealMap() {
+        if (realMap || !window.L) return Boolean(realMap);
+        realMap = window.L.map("realMap", {
+          zoomControl: true,
+          scrollWheelZoom: false,
+          worldCopyJump: true,
+        }).setView([18, -82], 3);
+        window.L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          maxZoom: 18,
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        }).addTo(realMap);
+        realMapLayer = window.L.layerGroup().addTo(realMap);
+        setTimeout(() => realMap.invalidateSize(), 0);
+        return true;
+      }
+
+      function realMapItems() {
+        if (!selCountry) return (DATA.countries || []).filter(item => hasCoord(item) && pointValue(item) > 0);
+        if (selCountry === "US") return (DATA.states || []).filter(item => hasCoord(item) && pointValue(item) > 0);
+        const country = selectedCountry();
+        const center = hasCoord(country) ? country : null;
+        return (country?.subnationals || []).filter(item => pointValue(item) > 0).map((item, index) => {
+          if (hasCoord(item) && (!center || item.lat !== center.lat || item.lng !== center.lng)) return item;
+          if (!center) return item;
+          const ring = 0.7 + (index % 5) * 0.18;
+          const angle = index * 2.399963;
+          return {
+            ...item,
+            lat: Number(center.lat) + Math.sin(angle) * ring,
+            lng: Number(center.lng) + Math.cos(angle) * ring,
+            approximate_anchor: true,
+          };
+        }).filter(hasCoord);
+      }
+
+      function realMapPopup(item) {
+        const title = item.code ? `${item.code} · ${countryName(item)}` : item.abbr ? `${item.abbr} · ${langIndex() ? item.name_zh : item.name_en}` : item.name;
+        const top = item.subnationals?.slice(0, 5).map(s => `${esc(s.name)} ${fmtMW(s.capacity_mw)}`).join("<br>");
+        const approximate = item.approximate_anchor
+          ? `<div class="p3">${langIndex() ? "坐标为国家质心附近的近似锚点。" : "Approximate anchor near the country centroid."}</div>`
+          : "";
+        return `<div class="p1">${esc(title)}</div>
+          <div class="p2">${fmt(item.facilities)} ${L(I18N.facilities)} · ${fmtMW(item.capacity_mw)}</div>
+          ${top ? `<div class="p3">${top}</div>` : ""}
+          ${approximate}`;
+      }
+
+      function renderRealMap() {
+        const titleEl = document.getElementById("realMapTitle");
+        const noteEl = document.getElementById("realMapNote");
+        if (!initRealMap()) {
+          titleEl.textContent = langIndex() ? "地图库未加载" : "Map library unavailable";
+          noteEl.textContent = langIndex() ? "Leaflet 加载失败时，保留原有地理视图。" : "The existing geographic view remains available if Leaflet fails to load.";
+          return;
+        }
+        realMapLayer.clearLayers();
+        const items = realMapItems();
+        const bounds = [];
+        items.forEach(item => {
+          const latlng = [Number(item.lat), Number(item.lng)];
+          bounds.push(latlng);
+          const selected = selCountry === "US" && item.abbr && item.abbr === selState;
+          const marker = window.L.circleMarker(latlng, {
+            radius: markerRadius(item),
+            color: selected ? "#ffffff" : markerColor(item),
+            weight: selected ? 3 : 2,
+            fillColor: markerColor(item),
+            fillOpacity: 0.72,
+            opacity: 0.95,
+          }).bindPopup(realMapPopup(item));
+          marker.on("click", () => {
+            if (!selCountry && item.code) setCountry(item.code);
+            else if (selCountry === "US" && item.abbr) {
+              selState = selState === item.abbr ? null : item.abbr;
+              buildMap();
+              renderRealMap();
+              syncStateFilter();
+            } else if (selCountry && selCountry !== "US" && item.name) {
+              document.getElementById("fState").value = item.name;
+              renderTable();
+            }
+          });
+          marker.addTo(realMapLayer);
+        });
+        const country = selectedCountry();
+        titleEl.textContent = !selCountry
+          ? (langIndex() ? "全美洲国家亮点" : "Americas country highlights")
+          : selCountry === "US"
+            ? (langIndex() ? "美国州级亮点" : "US state highlights")
+            : `${countryName(country)} · ${langIndex() ? "地区亮点" : "subnational highlights"}`;
+        noteEl.textContent = langIndex()
+          ? "圆点大小按当前指标非线性缩放，颜色按容量分级；点击亮点进入国家或地区筛选。"
+          : "Marker size uses nonlinear scaling for the active metric; color is capacity-banded. Click a highlight to focus.";
+        if (bounds.length > 1) {
+          realMap.flyToBounds(bounds, { padding: [28, 28], maxZoom: selCountry ? 6 : 4, animate: !noMotion });
+        } else if (bounds.length === 1) {
+          realMap.flyTo(bounds[0], selCountry ? 5 : 3, { animate: !noMotion });
+        }
       }
 
       function buildCountrySwitch() {
@@ -1680,6 +1896,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         selState = null;
         document.getElementById("fState").value = "";
         buildMap();
+        renderRealMap();
         renderTable();
       }
 
@@ -1698,6 +1915,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         if (selCountry === "US" && state !== (selState || "")) {
           selState = state || null;
           buildMap();
+          renderRealMap();
         }
         const geoKey = selCountry && selCountry !== "US" ? "subnational" : "state";
         const scopedCenters = DATA.centers.filter(c => !selCountry || c.country === selCountry);
@@ -1761,6 +1979,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       buildFunnel();
       buildWave();
       buildMap();
+      renderRealMap();
       buildFilters();
       renderTable();
       buildDevs();

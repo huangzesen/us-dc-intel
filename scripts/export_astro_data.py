@@ -253,6 +253,123 @@ STATUS_LABELS = {
     "unk": ["Unknown", "未知"],
 }
 
+# Approximate geographic centroids used for the interactive Leaflet map.
+# US, Brazil, and Mexico were checked against common published country-center
+# coordinates; the remaining Americas entries are approximate visual anchors.
+COUNTRY_COORDS = {
+    "AI": [18.2206, -63.0686],
+    "AG": [17.0608, -61.7964],
+    "AR": [-38.4161, -63.6167],
+    "AW": [12.5211, -69.9683],
+    "BB": [13.1939, -59.5432],
+    "BL": [17.9, -62.8333],
+    "BM": [32.3078, -64.7505],
+    "BO": [-16.2902, -63.5887],
+    "BQ": [12.1784, -68.2385],
+    "BR": [-14.235, -51.9253],
+    "BS": [25.0343, -77.3963],
+    "BZ": [17.1899, -88.4976],
+    "CA": [56.1304, -106.3468],
+    "CL": [-35.6751, -71.543],
+    "CO": [4.5709, -74.2973],
+    "CR": [9.7489, -83.7534],
+    "CU": [21.5218, -77.7812],
+    "CW": [12.1696, -68.99],
+    "DM": [15.415, -61.371],
+    "DO": [18.7357, -70.1627],
+    "EC": [-1.8312, -78.1834],
+    "FK": [-51.7963, -59.5236],
+    "GD": [12.1165, -61.679],
+    "GF": [3.9339, -53.1258],
+    "GL": [71.7069, -42.6043],
+    "GP": [16.265, -61.551],
+    "GS": [-54.4296, -36.5879],
+    "GT": [15.7835, -90.2308],
+    "GY": [4.8604, -58.9302],
+    "HN": [15.2, -86.2419],
+    "HT": [18.9712, -72.2852],
+    "JM": [18.1096, -77.2975],
+    "KN": [17.3578, -62.783],
+    "KY": [19.3133, -81.2546],
+    "LC": [13.9094, -60.9789],
+    "MF": [18.0708, -63.0501],
+    "MQ": [14.6415, -61.0242],
+    "MS": [16.7425, -62.1874],
+    "MX": [23.6345, -102.5528],
+    "NI": [12.8654, -85.2072],
+    "PA": [8.538, -80.7821],
+    "PE": [-9.19, -75.0152],
+    "PM": [46.8852, -56.3159],
+    "PR": [18.2208, -66.5901],
+    "PY": [-23.4425, -58.4438],
+    "SR": [3.9193, -56.0278],
+    "SV": [13.7942, -88.8965],
+    "SX": [18.0425, -63.0548],
+    "TC": [21.694, -71.7979],
+    "TT": [10.6918, -61.2225],
+    "US": [39.8283, -98.5795],
+    "UY": [-32.5228, -55.7658],
+    "VC": [12.9843, -61.2872],
+    "VE": [6.4238, -66.5897],
+    "VG": [18.4207, -64.64],
+    "VI": [18.3358, -64.8963],
+}
+
+STATE_COORDS = {
+    "AL": [32.8067, -86.7911],
+    "AK": [61.3707, -152.4044],
+    "AZ": [33.7298, -111.4312],
+    "AR": [34.9697, -92.3731],
+    "CA": [36.1162, -119.6816],
+    "CO": [39.0598, -105.3111],
+    "CT": [41.5978, -72.7554],
+    "DE": [39.3185, -75.5071],
+    "DC": [38.9072, -77.0369],
+    "FL": [27.7663, -81.6868],
+    "GA": [33.0406, -83.6431],
+    "HI": [21.0943, -157.4983],
+    "ID": [44.2405, -114.4788],
+    "IL": [40.3495, -88.9861],
+    "IN": [39.8494, -86.2583],
+    "IA": [42.0115, -93.2105],
+    "KS": [38.5266, -96.7265],
+    "KY": [37.6681, -84.6701],
+    "LA": [31.1695, -91.8678],
+    "ME": [44.6939, -69.3819],
+    "MD": [39.0639, -76.8021],
+    "MA": [42.2302, -71.5301],
+    "MI": [43.3266, -84.5361],
+    "MN": [45.6945, -93.9002],
+    "MS": [32.7416, -89.6787],
+    "MO": [38.4561, -92.2884],
+    "MT": [46.9219, -110.4544],
+    "NE": [41.1254, -98.2681],
+    "NV": [38.3135, -117.0554],
+    "NH": [43.4525, -71.5639],
+    "NJ": [40.2989, -74.521],
+    "NM": [34.8405, -106.2485],
+    "NY": [42.1657, -74.9481],
+    "NC": [35.6301, -79.8064],
+    "ND": [47.5289, -99.784],
+    "OH": [40.3888, -82.7649],
+    "OK": [35.5653, -96.9289],
+    "OR": [44.572, -122.0709],
+    "PA": [40.5908, -77.2098],
+    "PR": [18.2208, -66.5901],
+    "RI": [41.6809, -71.5118],
+    "SC": [33.8569, -80.945],
+    "SD": [44.2998, -99.4388],
+    "TN": [35.7478, -86.6923],
+    "TX": [31.0545, -97.5635],
+    "UT": [40.15, -111.8624],
+    "VT": [44.0459, -72.7107],
+    "VA": [37.7693, -78.17],
+    "WA": [47.4009, -121.4905],
+    "WV": [38.4912, -80.9545],
+    "WI": [44.2685, -89.6165],
+    "WY": [42.756, -107.3025],
+}
+
 
 def state_abbr(value: str | None) -> str | None:
     if not value:
@@ -302,6 +419,18 @@ def row_value(row: sqlite3.Row, columns: set[str], column: str, fallback=None):
 def country_code(value: str | None) -> str:
     code = (value or "US").strip().upper()
     return code or "US"
+
+
+def country_coord(code: str) -> list[float | None]:
+    return COUNTRY_COORDS.get(code.upper(), [None, None])
+
+
+def subnational_coord(country: str, name: str) -> list[float | None]:
+    if country == "US":
+        abbr = state_abbr(name)
+        if abbr and abbr in STATE_COORDS:
+            return STATE_COORDS[abbr]
+    return country_coord(country)
 
 
 def load_americas() -> dict[str, str]:
@@ -435,6 +564,7 @@ def main() -> None:
     states = []
     for abbr, pos in STATE_LAYOUT.items():
         acc = state_acc[abbr]
+        lat, lng = STATE_COORDS.get(abbr, [None, None])
         states.append(
             {
                 "abbr": abbr,
@@ -444,6 +574,8 @@ def main() -> None:
                 "capacity_mw": round(float(acc["capacity_mw"]), 1),
                 "name_en": STATE_NAMES[abbr],
                 "name_zh": ZH_NAMES[abbr],
+                "lat": lat,
+                "lng": lng,
             }
         )
 
@@ -456,12 +588,15 @@ def main() -> None:
                     "name": name,
                     "facilities": int(sub["facilities"]),
                     "capacity_mw": round(float(sub["capacity_mw"]), 1),
+                    "lat": subnational_coord(code, name)[0],
+                    "lng": subnational_coord(code, name)[1],
                 }
                 for name, sub in acc["subnationals"].items()
             ),
             key=lambda item: (item["capacity_mw"], item["facilities"]),
             reverse=True,
         )
+        lat, lng = country_coord(code)
         countries.append(
             {
                 "code": code,
@@ -470,6 +605,8 @@ def main() -> None:
                 "facilities": int(acc["facilities"]),
                 "capacity_mw": round(float(acc["capacity_mw"]), 1),
                 "capacity_gw": round(float(acc["capacity_mw"]) / 1000, 1),
+                "lat": lat,
+                "lng": lng,
                 "subnationals": subnationals,
                 "funnel": funnel_rows(acc["funnel"]),
                 "years": wave_rows(acc["years"]),

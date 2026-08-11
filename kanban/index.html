@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>US Data Center County Exploration Kanban · US 数据中心 county 探索看板</title>
+<title>US Data Center County Exploration Kanban</title>
 <style>
 :root { --bg:#0f1420; --card:#171e2e; --line:#26304a; --txt:#dbe4ff; --mut:#7f8db3; --acc:#4f8cff; }
 * { box-sizing:border-box; }
@@ -35,32 +35,40 @@ th { color:var(--mut); font-weight:500; }
 td.pn { max-width:260px; }
 a { color:#63d3ff; text-decoration:none; word-break:break-all; }
 .foot { color:var(--mut); font-size:11px; margin-top:30px; }
+.langbar { display:flex; gap:8px; margin-bottom:14px; }
+.langbar button { background:var(--card); border:1px solid var(--line); color:var(--txt); border-radius:8px; padding:6px 14px; font-size:13px; cursor:pointer; }
+.langbar button.active { background:var(--acc); color:#fff; border-color:var(--acc); }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>US Data Center County Exploration Kanban · US 数据中心 county 探索看板</h1>
-  <div class="sub">Goal: explore every US county to build the widest data-center superset · 目标：全美 3,000+ county 逐一探索，构建最宽口径数据中心超集清单 · Rendered 渲染于 2026-08-11 19:48 UTC</div>
+  <h1>US Data Center County Exploration Kanban</h1>
+  <div class="langbar">
+    <button id="btn-en" class="active" onclick="setLang('en')">English</button>
+    <button id="btn-zh" onclick="setLang('zh')">中文</button>
+    <span class="sub" style="margin-left:auto">Rendered 2026-08-11 20:13 UTC UTC</span>
+  </div>
+  <div class="sub"><span class="en">Goal: explore every US county to build the widest data-center superset</span><span class="zh" hidden>目标：全美 3,000+ county 逐一探索，构建最宽口径数据中心超集清单</span></div>
 
   <div class="metrics">
-    <div class="metric"><div class="v">3222</div><div class="l">Total US counties · 全美 county 总数</div></div>
-    <div class="metric"><div class="v">323</div><div class="l">Exploration batches (10 per batch) · 探索批次（每批 10 县）</div></div>
-    <div class="metric"><div class="v">323</div><div class="l">Completed batches · 已完成批次</div><div class="bar"><div style="width:100.0%"></div></div><div style="font-size:11px;color:var(--mut)">100.0%</div></div>
-    <div class="metric"><div class="v">3222</div><div class="l">Counties explored · 已完成 county</div><div class="bar"><div style="width:100.0%"></div></div><div style="font-size:11px;color:var(--mut)">100.0%</div></div>
-    <div class="metric"><div class="v">2400</div><div class="l">Projects found (county) · county 探索发现项目</div></div>
-    <div class="metric"><div class="v">419</div><div class="l">State-level projects · 州级探索项目</div></div>
-    <div class="metric"><div class="v">28</div><div class="l">Data sources researched · 数据源调研条目</div></div>
+    <div class="metric"><div class="v">3222</div><div class="l"><span class="en">Total US counties</span><span class="zh" hidden>全美 county 总数</span></div></div>
+    <div class="metric"><div class="v">323</div><div class="l"><span class="en">Exploration batches (10 per batch)</span><span class="zh" hidden>探索批次（每批 10 县）</span></div></div>
+    <div class="metric"><div class="v">323</div><div class="l"><span class="en">Completed batches</span><span class="zh" hidden>已完成批次</span></div><div class="bar"><div style="width:100.0%"></div></div><div style="font-size:11px;color:var(--mut)">100.0%</div></div>
+    <div class="metric"><div class="v">3222</div><div class="l"><span class="en">Counties explored</span><span class="zh" hidden>已完成 county</span></div><div class="bar"><div style="width:100.0%"></div></div><div style="font-size:11px;color:var(--mut)">100.0%</div></div>
+    <div class="metric"><div class="v">2400</div><div class="l"><span class="en">Projects found (county)</span><span class="zh" hidden>county 探索发现项目</span></div></div>
+    <div class="metric"><div class="v">419</div><div class="l"><span class="en">State-level projects</span><span class="zh" hidden>州级探索项目</span></div></div>
+    <div class="metric"><div class="v">28</div><div class="l"><span class="en">Data sources researched</span><span class="zh" hidden>数据源调研条目</span></div></div>
   </div>
 
   <div class="sec">
-    <h2>Status distribution (county finds, first 30 batches) · 探索进度状态分布（county 发现，前 30 批）</h2>
-    <div class="buckets"><div class="bucket"><b>运营中 / Operational</b> <span class="cnt">864</span></div><div class="bucket"><b>在建 / Under Construction</b> <span class="cnt">236</span></div><div class="bucket"><b>规划 / Planned</b> <span class="cnt">639</span></div><div class="bucket"><b>已批准 / Approved</b> <span class="cnt">194</span></div><div class="bucket"><b>已公告 / Announced</b> <span class="cnt">155</span></div><div class="bucket"><b>已否决 / Rejected</b> <span class="cnt">167</span></div><div class="bucket"><b>未知 / Unknown</b> <span class="cnt">145</span></div></div>
+    <h2><span class="en">Status distribution (county finds)</span><span class="zh" hidden>探索进度状态分布（county 发现）</span></h2>
+    <div class="buckets"><div class="bucket"><span class="en">Operational</span><span class="zh" hidden>运营中</span> <span class="cnt">864</span></div><div class="bucket"><span class="en">Under Construction</span><span class="zh" hidden>在建</span> <span class="cnt">236</span></div><div class="bucket"><span class="en">Planned</span><span class="zh" hidden>规划</span> <span class="cnt">639</span></div><div class="bucket"><span class="en">Approved</span><span class="zh" hidden>已批准</span> <span class="cnt">194</span></div><div class="bucket"><span class="en">Announced</span><span class="zh" hidden>已公告</span> <span class="cnt">155</span></div><div class="bucket"><span class="en">Rejected</span><span class="zh" hidden>已否决</span> <span class="cnt">167</span></div><div class="bucket"><span class="en">Unknown</span><span class="zh" hidden>未知</span> <span class="cnt">145</span></div></div>
   </div>
 
   <div class="sec">
-    <h2>Batch board · 批次看板（Done 已完成 323 / Total 总 323）</h2>
+    <h2><span class="en">Batch board (done 323 / total 323)</span><span class="zh" hidden>批次看板（已完成 323 / 总 323）</span></h2>
     <div class="board">
-      <div class="col"><h3>⏳ Pending / In progress 待探索 / 探索中（0 批）</h3><div class="card done"><span class="bidx">batch-000</span> AK · 8 项目</div>
+      <div class="col"><h3><span class="en">Pending / In progress (0)</span><span class="zh" hidden>待探索 / 探索中（0 批）</span></h3><div class="card done"><span class="bidx">batch-000</span> AK · 8 项目</div>
 <div class="card done"><span class="bidx">batch-001</span> AK · 3 项目</div>
 <div class="card done"><span class="bidx">batch-002</span> AK · 3 项目</div>
 <div class="card done"><span class="bidx">batch-003</span> AL · 1 项目</div>
@@ -383,7 +391,7 @@ a { color:#63d3ff; text-decoration:none; word-break:break-all; }
 <div class="card done"><span class="bidx">batch-320</span> WY · 11 项目</div>
 <div class="card done"><span class="bidx">batch-321</span> WY · 8 项目</div>
 <div class="card done"><span class="bidx">batch-322</span> WY · 0 项目</div></div>
-      <div class="col"><h3>✅ Completed 已完成（323 批）</h3><div class="card done"><span class="bidx">batch-000</span> AK · 8 项目</div>
+      <div class="col"><h3><span class="en">Completed (323)</span><span class="zh" hidden>已完成（323 批）</span></h3><div class="card done"><span class="bidx">batch-000</span> AK · 8 项目</div>
 <div class="card done"><span class="bidx">batch-001</span> AK · 3 项目</div>
 <div class="card done"><span class="bidx">batch-002</span> AK · 3 项目</div>
 <div class="card done"><span class="bidx">batch-003</span> AL · 1 项目</div>
@@ -710,412 +718,412 @@ a { color:#63d3ff; text-decoration:none; word-break:break-all; }
   </div>
 
   <div class="sec">
-    <h2>State-level projects 州级探索项目（419 rows 条，showing first 400 显示前 400）</h2>
-    <table><thead><tr><th>State 州</th><th>County 县</th><th>Project 项目</th><th>Developer 开发商</th><th>Status 状态</th><th>Capacity 容量</th><th>Year 年份</th></tr></thead><tbody><tr><td>AZ</td><td>Pinal</td><td class="pn">Vermaland La Osa Data Center Campus</td><td>Vermaland</td><td>规划 / Planned</td><td>3000 MW</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Tract Buckeye Technology Park</td><td>Tract</td><td>规划 / Planned</td><td>1800 MW</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Hassayampa Ranch Data Center</td><td>Arizona Land Consulting</td><td>规划 / Planned</td><td>1500 MW</td><td>—</td></tr>
-<tr><td>AZ</td><td>Pinal</td><td class="pn">Southwest Crossing Data Center</td><td>Ryan Companies</td><td>已批准 / Approved</td><td>400 MW</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Novva Mesa Campus</td><td>Novva Data Centers</td><td>规划 / Planned</td><td>300 MW</td><td>2026</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Menlo Digital MD-PHX1</td><td>Menlo Digital</td><td>规划 / Planned</td><td>257 MW</td><td>2027</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Prime Data Centers PHX01</td><td>Prime Data Centers</td><td>在建 / Under Construction</td><td>240 MW</td><td>2026</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">NTT Global Data Centers Phoenix Mesa Campus</td><td>NTT Global Data Centers</td><td>在建 / Under Construction</td><td>240 MW</td><td>2022</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">EdgeCore Phoenix Mesa Campus</td><td>EdgeCore Digital Infrastructure</td><td>运营中 / Operational</td><td>496 MW</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Meta Mesa Data Center</td><td>Meta</td><td>在建 / Under Construction</td><td>—</td><td>2026</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Amazon AWS Mesa Elliot Campus</td><td>Amazon Web Services</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Amazon AWS Mesa Pecos Road Campus</td><td>Amazon Web Services</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Google Mesa Data Center</td><td>Google</td><td>在建 / Under Construction</td><td>—</td><td>2025</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">QTS Phoenix 3 Campus</td><td>QTS Data Centers</td><td>规划 / Planned</td><td>750 MW</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">CyrusOne Mesa Data Center Campus</td><td>CyrusOne</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Pacific Proving Technology Campus</td><td>Pacific Proving</td><td>已批准 / Approved</td><td>360 MW</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Microsoft El Mirage Campus</td><td>Microsoft</td><td>在建 / Under Construction</td><td>—</td><td>2021</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Microsoft Goodyear Campus</td><td>Microsoft</td><td>运营中 / Operational</td><td>—</td><td>2021</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Compass Datacenters Goodyear Campus</td><td>Compass Datacenters</td><td>运营中 / Operational</td><td>212 MW</td><td>2021</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Compass Datacenters El Mirage Campus</td><td>Compass Datacenters</td><td>规划 / Planned</td><td>108 MW</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Stream PHXA Goodyear Campus</td><td>Stream Data Centers</td><td>在建 / Under Construction</td><td>280 MW</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">STACK PHX01 Avondale Campus</td><td>STACK Infrastructure</td><td>规划 / Planned</td><td>225 MW</td><td>2026</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">STACK PHX02 Central Phoenix Campus</td><td>STACK Infrastructure</td><td>规划 / Planned</td><td>250 MW</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Aligned Phoenix Union Hills Campus</td><td>Aligned Data Centers</td><td>运营中 / Operational</td><td>180 MW</td><td>2017</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Aligned Glendale Campus</td><td>Aligned Data Centers</td><td>在建 / Under Construction</td><td>252 MW</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Iron Mountain Phoenix Campus</td><td>Iron Mountain Data Centers</td><td>在建 / Under Construction</td><td>125 MW</td><td>—</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">EdgeConneX Mesa Campus</td><td>EdgeConneX</td><td>在建 / Under Construction</td><td>168 MW</td><td>2027</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Vantage Phoenix Campus</td><td>Vantage Data Centers</td><td>运营中 / Operational</td><td>160 MW</td><td>2022</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Edged Phoenix Data Center</td><td>Edged</td><td>运营中 / Operational</td><td>36 MW</td><td>2026</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">5C Data Centers PHX01</td><td>5C Data Centers</td><td>在建 / Under Construction</td><td>20 MW</td><td>2025</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">Comarch Mesa Data Center</td><td>Comarch</td><td>运营中 / Operational</td><td>1.5 MW</td><td>2023</td></tr>
-<tr><td>AZ</td><td>Maricopa</td><td class="pn">CyrusOne Chandler Campus</td><td>CyrusOne</td><td>运营中 / Operational</td><td>81 MW</td><td>2012</td></tr>
-<tr><td>AZ</td><td>Pima</td><td class="pn">Project Blue Tucson Data Center Campus</td><td>Beale Infrastructure</td><td>未知 / Unknown</td><td>600 MW</td><td>2027</td></tr>
-<tr><td>AZ</td><td>Pima</td><td class="pn">Davis-Monthan AFB Data Center</td><td>US Government</td><td>规划 / Planned</td><td>500 MW</td><td>—</td></tr>
-<tr><td>GA</td><td>Effingham</td><td class="pn">Project Camellia</td><td>OpenAI / Octans GA LLC</td><td>已公告 / Announced</td><td>3200 MW</td><td>2028</td></tr>
-<tr><td>GA</td><td>Troup</td><td class="pn">Google PRL2 LaGrange Data Center</td><td>Google / KDC</td><td>规划 / Planned</td><td>400 MW</td><td>2029</td></tr>
-<tr><td>GA</td><td>Columbia</td><td class="pn">Columbia County Data Center</td><td>Trammell Crow Company / Google end user</td><td>已公告 / Announced</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Clayton</td><td class="pn">Stillwater Technology Park</td><td>Stillwater Development LLC</td><td>未知 / Unknown</td><td>1250 MW</td><td>2031</td></tr>
-<tr><td>GA</td><td>Early</td><td class="pn">QTS Blakely Data Center</td><td>QTS</td><td>规划 / Planned</td><td>1400 MW</td><td>—</td></tr>
-<tr><td>GA</td><td>Irwin</td><td class="pn">Project Arrowhead</td><td>Premier Data Center Development</td><td>规划 / Planned</td><td>1250 MW</td><td>—</td></tr>
-<tr><td>GA</td><td>Twiggs</td><td class="pn">Pine Ridge Technology Center</td><td>Eagle Rock Partners LLC</td><td>规划 / Planned</td><td>900 MW</td><td>—</td></tr>
-<tr><td>GA</td><td>Coweta</td><td class="pn">Project Sail</td><td>Prologis</td><td>已批准 / Approved</td><td>900 MW</td><td>—</td></tr>
-<tr><td>GA</td><td>Bartow</td><td class="pn">Project Bunkhouse</td><td>unknown / Kimley-Horn filing agent</td><td>已批准 / Approved</td><td>1830 MW</td><td>2035</td></tr>
-<tr><td>GA</td><td>Bartow</td><td class="pn">Project Indo</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Fayette</td><td class="pn">QTS Project Excalibur</td><td>QTS</td><td>在建 / Under Construction</td><td>250 MW</td><td>2025</td></tr>
-<tr><td>GA</td><td>Fayette</td><td class="pn">ATL2 East</td><td>Crow Holdings Development / CHI Acquisitions</td><td>未知 / Unknown</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Richmond</td><td class="pn">QTS Augusta Data Center Campus</td><td>QTS / Eagle South LLC</td><td>在建 / Under Construction</td><td>—</td><td>2027</td></tr>
-<tr><td>GA</td><td>Columbia</td><td class="pn">Project JGK-Mass Grading</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Columbia</td><td class="pn">Project Squash</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Coweta</td><td class="pn">Bridgeport (Revised)</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Henry</td><td class="pn">Hampton Technology Park</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Fulton</td><td class="pn">The Crossings</td><td>Link Logistics / Blackstone</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Spalding</td><td class="pn">75 South Data Center Campus</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Carroll</td><td class="pn">Project Bus</td><td>unknown</td><td>未知 / Unknown</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>McDuffie</td><td class="pn">Project Azelea</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Spalding</td><td class="pn">Wallace Jackson Data Center Campus</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Monroe</td><td class="pn">Rumble Technology Campus</td><td>Cloverleaf Infrastructure</td><td>未知 / Unknown</td><td>1200 MW</td><td>—</td></tr>
-<tr><td>GA</td><td>Monroe</td><td class="pn">Google Monroe County Rumble Road Site</td><td>Google</td><td>已公告 / Announced</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Monroe</td><td class="pn">Forsyth Technology Campus</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Rockdale</td><td class="pn">DC BLOX Atlanta East</td><td>DC BLOX</td><td>在建 / Under Construction</td><td>216 MW</td><td>2025</td></tr>
-<tr><td>GA</td><td>Douglas</td><td class="pn">DC BLOX Atlanta West</td><td>DC BLOX</td><td>在建 / Under Construction</td><td>200 MW</td><td>2027</td></tr>
-<tr><td>GA</td><td>Fulton</td><td class="pn">T5@ATL IV</td><td>T5 Data Centers</td><td>规划 / Planned</td><td>200 MW</td><td>2027</td></tr>
-<tr><td>GA</td><td>Douglas</td><td class="pn">T5@Atlanta III</td><td>T5 Data Centers</td><td>运营中 / Operational</td><td>16.25 MW</td><td>—</td></tr>
-<tr><td>GA</td><td>Fulton</td><td class="pn">Edged Atlanta Campus</td><td>Edged Energy / Edged Data Centers</td><td>在建 / Under Construction</td><td>169 MW</td><td>2027</td></tr>
-<tr><td>GA</td><td>Fulton</td><td class="pn">Microsoft Palmetto Data Center</td><td>Microsoft</td><td>在建 / Under Construction</td><td>—</td><td>2025</td></tr>
-<tr><td>GA</td><td>Fulton</td><td class="pn">Microsoft East Point Data Center</td><td>Microsoft</td><td>在建 / Under Construction</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Douglas</td><td class="pn">Microsoft Douglasville Campus</td><td>Microsoft</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Douglas</td><td class="pn">Google Douglas County Data Center</td><td>Google</td><td>运营中 / Operational</td><td>247 MW</td><td>2007</td></tr>
-<tr><td>GA</td><td>Butts</td><td class="pn">AWS Butts County Data Center Program</td><td>Amazon Web Services</td><td>规划 / Planned</td><td>69 MW</td><td>2028</td></tr>
-<tr><td>GA</td><td>Douglas</td><td class="pn">AWS Douglas County Data Center Program</td><td>Amazon Web Services</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Douglas</td><td class="pn">DataBank Lithia Springs Campus</td><td>DataBank</td><td>在建 / Under Construction</td><td>120 MW</td><td>2027</td></tr>
-<tr><td>GA</td><td>Douglas</td><td class="pn">Vantage Douglasville Campus</td><td>Vantage Data Centers</td><td>规划 / Planned</td><td>—</td><td>2025</td></tr>
-<tr><td>GA</td><td>Fulton</td><td class="pn">Vantage Westlake Data Center</td><td>Vantage Data Centers</td><td>规划 / Planned</td><td>—</td><td>2028</td></tr>
-<tr><td>GA</td><td>Fulton</td><td class="pn">Vantage Stacks Road Data Center</td><td>Vantage Data Centers</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Douglas</td><td class="pn">Stream Data Center</td><td>Stream Data Centers</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Walton</td><td class="pn">Data Center - 0 Social Circle Parkway</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Douglas</td><td class="pn">Lithia Springs Data Center</td><td>SAC III Acquisition Co. LLC</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Fulton</td><td class="pn">Stonewall Tell Data Center</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Newton</td><td class="pn">Gregory Road Data Center</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Douglas</td><td class="pn">Rock House Road Data Center Site</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>GA</td><td>Habersham</td><td class="pn">Big Red Apple Innovation Corridor</td><td>unknown</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Digital Realty Franklin Park Campus</td><td>Digital Realty</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">STACK CHI01 Elk Grove Village</td><td>STACK Infrastructure</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>DuPage</td><td class="pn">NTT Global Data Centers Itasca</td><td>NTT Global Data Centers</td><td>已批准 / Approved</td><td>50 MW</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">T5@Chicago II Elk Grove Village</td><td>T5 Data Centers</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">CoreSite Chicago Campus</td><td>CoreSite</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Microsoft Elk Grove Village Data Center</td><td>Microsoft</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Microsoft Northlake Chicago CH1</td><td>Microsoft</td><td>运营中 / Operational</td><td>158 MW</td><td>2009</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Microsoft Hoffman Estates Data Center</td><td>Microsoft</td><td>已批准 / Approved</td><td>200 MW</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">QTS Chicago Data Center</td><td>QTS</td><td>运营中 / Operational</td><td>125 MW</td><td>2016</td></tr>
-<tr><td>IL</td><td>DeKalb</td><td class="pn">Meta DeKalb Data Center</td><td>Meta</td><td>运营中 / Operational</td><td>48 MW</td><td>2022</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Stream Data Centers CHI I Elk Grove Village</td><td>Stream Data Centers</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Aligned ORD-01 Northlake</td><td>Aligned Data Centers</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Digital Realty Elk Grove Village Campus</td><td>Digital Realty</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Kane</td><td class="pn">CyrusOne Aurora CHI1-CHI3</td><td>CyrusOne</td><td>在建 / Under Construction</td><td>40 MW</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Stream Data Centers CHI II Busse</td><td>Stream Data Centers</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Metro Edge Chicago Mission Critical Facility</td><td>Metro Edge</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Elk Grove Village Property Phase 1</td><td>Elk Grove Village Property LLC</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Serverfarm CH1 Chicago</td><td>Serverfarm</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">EdgeConneX Elk Grove Village 2023 Project</td><td>EdgeConneX</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Aligned ORD-03 Elk Grove Village</td><td>Aligned Data Centers</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Lake</td><td class="pn">Chirisa Volo Data Center</td><td>Chirisa</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Equinix Elk Grove Village Data Center</td><td>Equinix</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Iron Mountain Des Plaines Data Center</td><td>Iron Mountain Data Centers</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">T5@Chicago III Northlake</td><td>T5 Data Centers</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Kendall</td><td class="pn">CyrusOne Aurora III</td><td>CyrusOne</td><td>在建 / Under Construction</td><td>40 MW</td><td>—</td></tr>
-<tr><td>IL</td><td>DuPage</td><td class="pn">CyrusOne Wood Dale Data Center</td><td>CyrusOne</td><td>在建 / Under Construction</td><td>—</td><td>2027</td></tr>
-<tr><td>IL</td><td>Kendall</td><td class="pn">CyrusOne Yorkville Technology Campus</td><td>CyrusOne</td><td>在建 / Under Construction</td><td>600 MW</td><td>2026</td></tr>
-<tr><td>IL</td><td>Lake</td><td class="pn">T5 Grayslake Data Center Campus</td><td>T5 Data Centers</td><td>在建 / Under Construction</td><td>480 MW</td><td>2027</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Centersquare ORD2 Elk Grove Village</td><td>Centersquare</td><td>已批准 / Approved</td><td>50 MW</td><td>—</td></tr>
-<tr><td>IL</td><td>DuPage</td><td class="pn">Centersquare ORD4 Lisle</td><td>Centersquare</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Oracle Elk Grove Village Data Center</td><td>Oracle</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">HydraVault Chicago Data Center</td><td>HydraVault</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">EdgeConneX Elk Grove Village 2025 Project</td><td>EdgeConneX</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Stream Data Centers CHI III Elk Grove Village</td><td>Stream Data Centers</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Kendall</td><td class="pn">Project Cardinal Yorkville</td><td>Pioneer Development</td><td>规划 / Planned</td><td>1800 MW</td><td>2029</td></tr>
-<tr><td>IL</td><td>Kendall</td><td class="pn">Project Steel Yorkville Data Center Campus</td><td>Prologis</td><td>已批准 / Approved</td><td>—</td><td>2027</td></tr>
-<tr><td>IL</td><td>Will</td><td class="pn">Joliet Technology Center</td><td>PowerHouse Data Centers / Hillwood</td><td>已批准 / Approved</td><td>1800 MW</td><td>—</td></tr>
-<tr><td>IL</td><td>Sangamon</td><td class="pn">CyrusOne Springfield Data Center</td><td>CyrusOne</td><td>已批准 / Approved</td><td>600 MW</td><td>2027</td></tr>
-<tr><td>IL</td><td>Grundy</td><td class="pn">Morris Technology Park</td><td>Tract</td><td>已公告 / Announced</td><td>1000 MW</td><td>2028</td></tr>
-<tr><td>IL</td><td>Logan</td><td class="pn">Logan Prairie Data Center</td><td>Hut 8</td><td>规划 / Planned</td><td>500 MW</td><td>—</td></tr>
-<tr><td>IL</td><td>Madison</td><td class="pn">Cloverleaf Troy Data Center</td><td>Cloverleaf Infrastructure</td><td>规划 / Planned</td><td>500 MW</td><td>2028</td></tr>
-<tr><td>IL</td><td>Grundy</td><td class="pn">Cielo Minooka Data Center</td><td>Cielo Digital Infrastructure</td><td>规划 / Planned</td><td>500 MW</td><td>—</td></tr>
-<tr><td>IL</td><td>Will</td><td class="pn">Cielo New Lenox Data Center</td><td>Cielo Digital Infrastructure</td><td>规划 / Planned</td><td>300 MW</td><td>—</td></tr>
-<tr><td>IL</td><td>Grundy</td><td class="pn">Equinix Minooka Data Center</td><td>Equinix</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Will/Grundy</td><td class="pn">Braidwood Data Center Campus</td><td>Western Hospitality Partners / Found Digital</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">Prime Data Centers ORD01-01</td><td>Prime Data Centers</td><td>运营中 / Operational</td><td>94 MW</td><td>2025</td></tr>
-<tr><td>IL</td><td>Cook</td><td class="pn">ORD Campus</td><td>Unknown</td><td>规划 / Planned</td><td>252 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>St. Joseph</td><td class="pn">AWS New Carlisle Data Center Campus</td><td>Amazon Web Services</td><td>在建 / Under Construction</td><td>2250 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Northern Indiana</td><td class="pn">Amazon Northern Indiana Data Center Campuses</td><td>Amazon Web Services</td><td>已公告 / Announced</td><td>2400 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Jasper</td><td class="pn">AWS Wheatfield Data Center Campus</td><td>Amazon Web Services</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Porter</td><td class="pn">Amazon Portage Data Center</td><td>Amazon Web Services</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Lake</td><td class="pn">Amazon Hobart Data Center Campus</td><td>Amazon Data Services</td><td>在建 / Under Construction</td><td>2119 MW</td><td>2027</td></tr>
-<tr><td>IN</td><td>Allen</td><td class="pn">Google Fort Wayne Data Center</td><td>Google</td><td>运营中 / Operational</td><td>—</td><td>2025</td></tr>
-<tr><td>IN</td><td>LaPorte</td><td class="pn">Google Michigan City Data Center</td><td>Google</td><td>在建 / Under Construction</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Morgan</td><td class="pn">Google Monrovia Data Center Campus</td><td>Google</td><td>规划 / Planned</td><td>1200 MW</td><td>2026</td></tr>
-<tr><td>IN</td><td>Marion</td><td class="pn">Google Southeast Marion County Data Center</td><td>Google</td><td>未知 / Unknown</td><td>400 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>LaPorte</td><td class="pn">Microsoft La Porte Data Center Campus</td><td>Microsoft</td><td>在建 / Under Construction</td><td>538 MW</td><td>2029</td></tr>
-<tr><td>IN</td><td>St. Joseph</td><td class="pn">Microsoft Granger Data Center Campus</td><td>Microsoft</td><td>在建 / Under Construction</td><td>1000 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Clark</td><td class="pn">Meta Jeffersonville Data Center</td><td>Meta</td><td>在建 / Under Construction</td><td>200 MW</td><td>2026</td></tr>
-<tr><td>IN</td><td>Boone</td><td class="pn">Meta Lebanon Data Center</td><td>Meta</td><td>在建 / Under Construction</td><td>1000 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Lake</td><td class="pn">Digital Crossroad DX-1</td><td>Digital Crossroad</td><td>运营中 / Operational</td><td>20 MW</td><td>2020</td></tr>
-<tr><td>IN</td><td>Lake</td><td class="pn">CoreWeave Digital Crossroads Expansion</td><td>CoreWeave / Decennial Group</td><td>已批准 / Approved</td><td>180 MW</td><td>2027</td></tr>
-<tr><td>IN</td><td>Lake</td><td class="pn">SLG/Digital Crossroads Hammond Campus</td><td>Digital Crossroads</td><td>规划 / Planned</td><td>260 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Marion</td><td class="pn">DataBank IND1 Downtown Indianapolis</td><td>DataBank</td><td>运营中 / Operational</td><td>2.1 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Marion</td><td class="pn">DataBank IND2 Downtown Indianapolis</td><td>DataBank</td><td>运营中 / Operational</td><td>3.75 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Marion</td><td class="pn">US Signal IN01 Indianapolis Data Center</td><td>US Signal</td><td>运营中 / Operational</td><td>0.25 MW</td><td>2000</td></tr>
-<tr><td>IN</td><td>Marion</td><td class="pn">US Signal IN02 Indianapolis Data Center</td><td>US Signal</td><td>运营中 / Operational</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>St. Joseph</td><td class="pn">US Signal IN03 South Bend Data Center</td><td>US Signal</td><td>运营中 / Operational</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Marion</td><td class="pn">Metrobloks Indianapolis IND-A1</td><td>Metrobloks</td><td>已批准 / Approved</td><td>72 MW</td><td>2027</td></tr>
-<tr><td>IN</td><td>Marion</td><td class="pn">DC BLOX Thunderbird Indianapolis Campus</td><td>DC BLOX</td><td>已批准 / Approved</td><td>100 MW</td><td>2028</td></tr>
-<tr><td>IN</td><td>Marion</td><td class="pn">Sabey Indianapolis Decatur Township Data Center</td><td>Sabey Data Centers</td><td>已批准 / Approved</td><td>250 MW</td><td>2026</td></tr>
-<tr><td>IN</td><td>Lake</td><td class="pn">Sentinel Hebron Data Center</td><td>Sentinel Data Centers</td><td>规划 / Planned</td><td>504 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Lake</td><td class="pn">PowerHouse Hobart</td><td>PowerHouse Data Centers</td><td>规划 / Planned</td><td>450 MW</td><td>2027</td></tr>
-<tr><td>IN</td><td>Lake</td><td class="pn">Hobart Devco Data Center</td><td>Hobart Devco</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Lake</td><td class="pn">Wylie Capital Hobart Data Center</td><td>Wylie Capital</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Lake</td><td class="pn">Karis Critical Merrillville Data Center</td><td>Karis Critical</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Lake</td><td class="pn">Province Group Merrillville Data Center</td><td>Province Group</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Lake</td><td class="pn">Wylie Capital Merrillville Data Center</td><td>Wylie Capital</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Elkhart</td><td class="pn">Takanock Goshen Data Center</td><td>Takanock</td><td>规划 / Planned</td><td>1500 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Shelby</td><td class="pn">Prologis Shelbyville Data Center</td><td>Prologis</td><td>规划 / Planned</td><td>900 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Allen</td><td class="pn">New Haven Data Center</td><td></td><td>规划 / Planned</td><td>500 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Clay</td><td class="pn">Brazil Data Center</td><td></td><td>rumor</td><td>400 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Gibson/Posey</td><td class="pn">Gibson/Posey County Data Center</td><td></td><td>规划 / Planned</td><td>600 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Decatur</td><td class="pn">Jumping Bison Greensburg Data Center</td><td>Jumping Bison LLC</td><td>规划 / Planned</td><td>50 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Henry</td><td class="pn">Surge Development Knightstown Data Center</td><td>Surge Development</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Jefferson</td><td class="pn">Marble Hill Data Center</td><td></td><td>规划 / Planned</td><td>310 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>LaPorte</td><td class="pn">Kingsbury Data Center</td><td></td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Spencer</td><td class="pn">Dale Data Center</td><td></td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>St. Joseph</td><td class="pn">New Carlisle Northeast Data Center</td><td></td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>White</td><td class="pn">Wolcott Data Center</td><td></td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Hancock</td><td class="pn">McCordsville Data Center</td><td></td><td>rumor</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Lake</td><td class="pn">Gary Data Center</td><td></td><td>rumor</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Starke</td><td class="pn">Abei Energy Knox Data Center</td><td>Abei Energy</td><td>rumor</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Clinton</td><td class="pn">Logistix Frankfort Data Center</td><td>Logistix</td><td>未知 / Unknown</td><td>300 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Elkhart</td><td class="pn">Province Group Bristol Data Center</td><td>Province Group</td><td>未知 / Unknown</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Hancock</td><td class="pn">Surge Development Greenfield MegaSite</td><td>Surge Development</td><td>未知 / Unknown</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Hendricks</td><td class="pn">Vantage Pittsboro Data Center Campus</td><td>Vantage Data Centers</td><td>未知 / Unknown</td><td>600 MW</td><td>—</td></tr>
-<tr><td>IN</td><td>Hendricks</td><td class="pn">Vantage IN11</td><td>Vantage Data Centers</td><td>规划 / Planned</td><td>256 MW</td><td>2028</td></tr>
-<tr><td>IN</td><td>Hendricks</td><td class="pn">Vantage IN13</td><td>Vantage Data Centers</td><td>规划 / Planned</td><td>48 MW</td><td>2029</td></tr>
-<tr><td>IN</td><td>Kosciusko</td><td class="pn">Prologis Leesburg Data Center</td><td>Prologis</td><td>未知 / Unknown</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Monroe</td><td class="pn">Digital Resources Ellettsville Data Center</td><td>Digital Resources Acquisitions LLC</td><td>未知 / Unknown</td><td>—</td><td>—</td></tr>
-<tr><td>IN</td><td>Porter</td><td class="pn">Provident Realty Burns Harbor Data Center</td><td>Provident Realty</td><td>未知 / Unknown</td><td>—</td><td>—</td></tr>
-<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Richmond County Data Center Campus</td><td>Amazon Web Services</td><td>在建 / Under Construction</td><td>1300 MW</td><td>2027</td></tr>
-<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Blue Marlin - Building 1</td><td>Amazon Web Services</td><td>规划 / Planned</td><td>65 MW</td><td>2027</td></tr>
-<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Blue Marlin - Building 2</td><td>Amazon Web Services</td><td>规划 / Planned</td><td>65 MW</td><td>2027</td></tr>
-<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Blue Marlin - Building 3</td><td>Amazon Web Services</td><td>规划 / Planned</td><td>65 MW</td><td>2027</td></tr>
-<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Blue Marlin - Building 20</td><td>Amazon Web Services</td><td>规划 / Planned</td><td>65 MW</td><td>2032</td></tr>
-<tr><td>NC</td><td>Catawba</td><td class="pn">Microsoft Catawba County Data Center Program</td><td>Microsoft</td><td>在建 / Under Construction</td><td>448 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Person</td><td class="pn">Microsoft Person County Mega Park Data Center Campus</td><td>Microsoft</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>NC</td><td>Caldwell</td><td class="pn">Google Lenoir - Building 1</td><td>Google</td><td>运营中 / Operational</td><td>39 MW</td><td>2008</td></tr>
-<tr><td>NC</td><td>Caldwell</td><td class="pn">Google Lenoir - Building 2</td><td>Google</td><td>运营中 / Operational</td><td>72 MW</td><td>2011</td></tr>
-<tr><td>NC</td><td>Caldwell</td><td class="pn">Google Lenoir - Building 3</td><td>Google</td><td>运营中 / Operational</td><td>148 MW</td><td>2015</td></tr>
-<tr><td>NC</td><td>Caldwell</td><td class="pn">Google Lenoir - Building 4</td><td>Google</td><td>在建 / Under Construction</td><td>91 MW</td><td>2026</td></tr>
-<tr><td>NC</td><td>Catawba</td><td class="pn">Apple Maiden Data Center Campus</td><td>Apple</td><td>运营中 / Operational</td><td>223.5 MW</td><td>2009</td></tr>
-<tr><td>NC</td><td>Rutherford</td><td class="pn">Meta Forest City Data Center Campus</td><td>Meta</td><td>运营中 / Operational</td><td>150 MW</td><td>2012</td></tr>
-<tr><td>NC</td><td>Cherokee</td><td class="pn">Core Scientific Marble Data Center</td><td>Core Scientific</td><td>运营中 / Operational</td><td>117 MW</td><td>2026</td></tr>
-<tr><td>NC</td><td>Rockingham</td><td class="pn">WhiteFiber NC-1 Madison AI Data Center Campus</td><td>Bit Digital / WhiteFiber</td><td>在建 / Under Construction</td><td>99 MW</td><td>2026</td></tr>
-<tr><td>NC</td><td>Mecklenburg</td><td class="pn">PowerHouse Charlotte</td><td>PowerHouse Data Centers / Town Lane</td><td>在建 / Under Construction</td><td>300 MW</td><td>2027</td></tr>
-<tr><td>NC</td><td>Mecklenburg</td><td class="pn">Digital Realty Charlotte Campus</td><td>Digital Realty</td><td>已批准 / Approved</td><td>400 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Mecklenburg</td><td class="pn">Digital Realty Charlotte CLT10</td><td>Digital Realty</td><td>运营中 / Operational</td><td>12 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Wake</td><td class="pn">New Hill Digital Campus</td><td>Natelli Holdings / Natelli Investments</td><td>规划 / Planned</td><td>300 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Chatham</td><td class="pn">Eco TIP West Data Center</td><td>Eco TIP West LLC / Lee-Moore Capital</td><td>规划 / Planned</td><td>750 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Stokes</td><td class="pn">Project Delta</td><td>Engineered Land Solutions</td><td>规划 / Planned</td><td>300 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Edgecombe</td><td class="pn">Kingsboro Data Center Campus</td><td>Energy Storage Solutions</td><td>未知 / Unknown</td><td>900 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Edgecombe</td><td class="pn">Energy Storage Solutions Tarboro Data Center</td><td>Energy Storage Solutions</td><td>未知 / Unknown</td><td>100 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Cumberland</td><td class="pn">Fayetteville NetZero Campus</td><td>Energy Storage Solutions</td><td>规划 / Planned</td><td>50 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Iredell</td><td class="pn">Mooresville Technology Park</td><td>Tract</td><td>未知 / Unknown</td><td>—</td><td>—</td></tr>
-<tr><td>NC</td><td>Iredell</td><td class="pn">Compass Statesville Data Center</td><td>Compass Datacenters</td><td>已批准 / Approved</td><td>500 MW</td><td>2028</td></tr>
-<tr><td>NC</td><td>Mecklenburg</td><td class="pn">5CDC Charlotte - CLT01</td><td>5C Group Inc.</td><td>规划 / Planned</td><td>1600 MW</td><td>2026</td></tr>
-<tr><td>NC</td><td>Guilford</td><td class="pn">Raeden Gateway Research Park Data Center</td><td>ImpactData / Raeden</td><td>规划 / Planned</td><td>300 MW</td><td>2026</td></tr>
-<tr><td>NC</td><td>Burke</td><td class="pn">DigiPowerX Hildebran Data Center</td><td>DigiPower X</td><td>规划 / Planned</td><td>200 MW</td><td>2028</td></tr>
-<tr><td>NC</td><td>Lee</td><td class="pn">PointOne / CyrusOne Lee County Data Center</td><td>PointOne Data Centers / CyrusOne</td><td>规划 / Planned</td><td>90 MW</td><td>2028</td></tr>
-<tr><td>NC</td><td>Cleveland</td><td class="pn">T5 Charlotte Campus</td><td>T5 Data Centers</td><td>运营中 / Operational</td><td>180 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Guilford</td><td class="pn">DC BLOX High Point Data Center</td><td>DC BLOX</td><td>规划 / Planned</td><td>18 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Durham</td><td class="pn">CyrusOne DUR1 Raleigh-Durham</td><td>CyrusOne</td><td>运营中 / Operational</td><td>50 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Catawba</td><td class="pn">Data Journey Catawba County Data Center</td><td>Data Journey</td><td>运营中 / Operational</td><td>30 MW</td><td>2024</td></tr>
-<tr><td>NC</td><td>Mecklenburg</td><td class="pn">Five 9s Digital Charlotte Gateway Data Center</td><td>Five 9s Digital</td><td>运营中 / Operational</td><td>20 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Mecklenburg</td><td class="pn">Flexential Charlotte - North</td><td>Flexential</td><td>运营中 / Operational</td><td>20 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Wake</td><td class="pn">TierPoint Raleigh - RTP Data Center</td><td>TierPoint</td><td>运营中 / Operational</td><td>8 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Wake</td><td class="pn">TierPoint Raleigh Data Center</td><td>TierPoint</td><td>运营中 / Operational</td><td>10 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Johnston</td><td class="pn">Tarheel Cloud Data Center</td><td>Tarheel Media</td><td>运营中 / Operational</td><td>15 MW</td><td>—</td></tr>
-<tr><td>NC</td><td>Mecklenburg</td><td class="pn">CENTRA Charlotte CLT1</td><td>CENTRA</td><td>运营中 / Operational</td><td>5 MW</td><td>—</td></tr>
-<tr><td>OH</td><td>Pike</td><td class="pn">SB Energy PORTS Technology Campus AI Data Center</td><td>SB Energy / SoftBank Group</td><td>在建 / Under Construction</td><td>10000 MW</td><td>2028</td></tr>
-<tr><td>OH</td><td>Trumbull</td><td class="pn">Stargate Lordstown AI Data Center Site</td><td>OpenAI / Oracle / SoftBank</td><td>已公告 / Announced</td><td>—</td><td>—</td></tr>
-<tr><td>OH</td><td>Portage</td><td class="pn">Bitdeer Shalersville Data Center Campus</td><td>Bitdeer Technologies Group / Geis Companies</td><td>规划 / Planned</td><td>750 MW</td><td>2029</td></tr>
-<tr><td>OH</td><td>Coshocton</td><td class="pn">Aligned Conesville Industrial Park Campus</td><td>Aligned Data Centers</td><td>在建 / Under Construction</td><td>—</td><td>—</td></tr>
-<tr><td>OH</td><td>Erie</td><td class="pn">Aligned NEO-01 Perkins Township Campus</td><td>Aligned Data Centers</td><td>在建 / Under Construction</td><td>200 MW</td><td>2026</td></tr>
-<tr><td>OH</td><td>Cuyahoga</td><td class="pn">Lakeland Equity Group Slavic Village Data Center</td><td>Lakeland Equity Group</td><td>已批准 / Approved</td><td>150 MW</td><td>—</td></tr>
-<tr><td>OH</td><td>Franklin/Licking</td><td class="pn">Google New Albany Data Center Campus</td><td>Google</td><td>运营中 / Operational</td><td>—</td><td>2019</td></tr>
-<tr><td>OH</td><td>Fairfield</td><td class="pn">Google Lancaster Data Center Campus</td><td>Google</td><td>运营中 / Operational</td><td>—</td><td>2024</td></tr>
-<tr><td>OH</td><td>Franklin</td><td class="pn">Google Columbus / Lockbourne Data Center Campus</td><td>Google</td><td>在建 / Under Construction</td><td>—</td><td>2025</td></tr>
-<tr><td>OH</td><td>Scioto</td><td class="pn">Google Franklin Furnace Data Center</td><td>Google</td><td>规划 / Planned</td><td>—</td><td>2030</td></tr>
-<tr><td>OH</td><td>Allen</td><td class="pn">Google Lima / Allen County Data Center</td><td>Google</td><td>在建 / Under Construction</td><td>—</td><td>2030</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">Google Harrison Road NW Potential Data Center Site</td><td>Google</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>OH</td><td>Franklin/Licking</td><td class="pn">Meta New Albany Data Center Campus</td><td>Meta</td><td>运营中 / Operational</td><td>—</td><td>2020</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">Meta Prometheus AI Supercluster</td><td>Meta</td><td>在建 / Under Construction</td><td>1000 MW</td><td>2026</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">Amazon Web Services New Albany Campus Expansion</td><td>Amazon Web Services</td><td>在建 / Under Construction</td><td>—</td><td>2025</td></tr>
-<tr><td>OH</td><td>Franklin</td><td class="pn">Amazon Web Services Hilliard Scioto Darby Campus</td><td>Amazon Web Services</td><td>在建 / Under Construction</td><td>73 MW</td><td>2025</td></tr>
-<tr><td>OH</td><td>Delaware</td><td class="pn">Amazon Web Services Sunbury Campus</td><td>Amazon Web Services</td><td>规划 / Planned</td><td>—</td><td>2034</td></tr>
-<tr><td>OH</td><td>Union</td><td class="pn">Amazon Web Services Marysville Innovation Park Campus</td><td>Amazon Web Services</td><td>已批准 / Approved</td><td>—</td><td>2027</td></tr>
-<tr><td>OH</td><td>Union</td><td class="pn">Marysville South Data Center Project Area</td><td></td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>OH</td><td>Clinton</td><td class="pn">Amazon Web Services Wilmington Data Center Campus</td><td>Amazon Web Services</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">Microsoft New Albany Datacenter</td><td>Microsoft</td><td>在建 / Under Construction</td><td>—</td><td>2027</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">Microsoft Heath Datacenter</td><td>Microsoft</td><td>在建 / Under Construction</td><td>—</td><td>2026</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">Microsoft Hebron Datacenter</td><td>Microsoft</td><td>在建 / Under Construction</td><td>—</td><td>2026</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">Cologix Johnstown AI-Ready Campus</td><td>Cologix</td><td>规划 / Planned</td><td>800 MW</td><td>—</td></tr>
-<tr><td>OH</td><td>Franklin</td><td class="pn">Cologix Columbus COL4 / Columbus Portfolio</td><td>Cologix</td><td>运营中 / Operational</td><td>80 MW</td><td>2025</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">QTS New Albany 1 and New Albany 2 Campus</td><td>QTS Data Centers</td><td>在建 / Under Construction</td><td>222 MW</td><td>2025</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">QTS Babbitt Road / Miller Road Expansion</td><td>QTS Data Centers</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">Vantage OH1 New Albany Campus</td><td>Vantage Data Centers</td><td>在建 / Under Construction</td><td>192 MW</td><td>2025</td></tr>
-<tr><td>OH</td><td>Franklin/Licking</td><td class="pn">STACK Infrastructure NAL01 Campus</td><td>STACK Infrastructure</td><td>运营中 / Operational</td><td>60 MW</td><td>—</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">EdgeConneX New Albany / Johnstown South Campus</td><td>EdgeConneX</td><td>规划 / Planned</td><td>224 MW</td><td>2026</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">CyrusOne New Albany COL-1</td><td>CyrusOne</td><td>在建 / Under Construction</td><td>180 MW</td><td>2027</td></tr>
-<tr><td>OH</td><td>Franklin/Licking</td><td class="pn">Edged Columbus Data Center</td><td>Edged Energy / Edged US</td><td>运营中 / Operational</td><td>24 MW</td><td>2025</td></tr>
-<tr><td>OH</td><td>Licking</td><td class="pn">Karis Critical New Albany Data Center Site</td><td>Karis Critical</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>TX</td><td>Taylor</td><td class="pn">Stargate Abilene / Lancium Clean Campus</td><td>Crusoe; Lancium; Oracle; OpenAI</td><td>在建 / Under Construction</td><td>1200 MW</td><td>2025</td></tr>
-<tr><td>TX</td><td>Shackelford</td><td class="pn">Vantage Frontier Campus</td><td>Vantage Data Centers; Oracle; OpenAI</td><td>在建 / Under Construction</td><td>1400 MW</td><td>2026</td></tr>
-<tr><td>TX</td><td>Milam</td><td class="pn">Stargate Milam / Freebird Data Center</td><td>SB Energy; OpenAI; SoftBank</td><td>在建 / Under Construction</td><td>1200 MW</td><td>2027</td></tr>
-<tr><td>TX</td><td>Hale</td><td class="pn">Aligned Project Caprock</td><td>Aligned</td><td>在建 / Under Construction</td><td>540 MW</td><td>2027</td></tr>
-<tr><td>TX</td><td>Carson</td><td class="pn">Fermi Project Matador / HyperGrid Campus</td><td>Fermi America; Texas Tech University System</td><td>已公告 / Announced</td><td>11000 MW</td><td>2027</td></tr>
-<tr><td>TX</td><td>Pecos</td><td class="pn">GW Ranch / Amazon Pecos County Campus</td><td>Amazon Web Services; Pacifico Energy</td><td>规划 / Planned</td><td>7650 MW</td><td>2027</td></tr>
-<tr><td>TX</td><td>Reeves</td><td class="pn">Microsoft Pecos Datacenter Campus</td><td>Microsoft; Chevron; Engine No. 1</td><td>规划 / Planned</td><td>2000 MW</td><td>2028</td></tr>
-<tr><td>TX</td><td>Reeves</td><td class="pn">Alpha Digital Campus</td><td>PowerBridge; LandBridge; Liberty Energy</td><td>规划 / Planned</td><td>2000 MW</td><td>2027</td></tr>
-<tr><td>TX</td><td>Pecos</td><td class="pn">Project Horizon</td><td>Poolside AI; formerly CoreWeave as anchor tenant</td><td>已公告 / Announced</td><td>2000 MW</td><td>—</td></tr>
-<tr><td>TX</td><td>Pecos</td><td class="pn">Amazon Fort Stockton Data Center Campus</td><td>Amazon Data Services</td><td>规划 / Planned</td><td>—</td><td>2026</td></tr>
-<tr><td>TX</td><td>Floyd</td><td class="pn">Amazon Floydada Data Center Campus</td><td>Amazon Data Services</td><td>规划 / Planned</td><td>—</td><td>2026</td></tr>
-<tr><td>TX</td><td>Wharton</td><td class="pn">Amazon Boling Campus Expansion</td><td>Amazon Data Services</td><td>规划 / Planned</td><td>—</td><td>2026</td></tr>
-<tr><td>TX</td><td>Ellis</td><td class="pn">Google Midlothian Data Center Campus</td><td>Google</td><td>运营中 / Operational</td><td>100 MW</td><td>2022</td></tr>
-<tr><td>TX</td><td>Ellis</td><td class="pn">Google Red Oak Data Center Campus</td><td>Google</td><td>运营中 / Operational</td><td>107 MW</td><td>2025</td></tr>
-<tr><td>TX</td><td>Armstrong</td><td class="pn">Google Armstrong County Campus / Goodnight</td><td>Google; Crusoe Energy</td><td>在建 / Under Construction</td><td>933 MW</td><td>2027</td></tr>
-<tr><td>TX</td><td>Haskell</td><td class="pn">Google Haskell County Campus North</td><td>Google</td><td>规划 / Planned</td><td>—</td><td>2027</td></tr>
-<tr><td>TX</td><td>Haskell</td><td class="pn">Google Haskell County Campus with Solar and Battery</td><td>Google</td><td>规划 / Planned</td><td>—</td><td>2027</td></tr>
-<tr><td>TX</td><td>Gray</td><td class="pn">Google Meitner Energy Center / Pampa Data Center</td><td>Google; Intersect</td><td>在建 / Under Construction</td><td>—</td><td>2028</td></tr>
-<tr><td>TX</td><td>Wilbarger</td><td class="pn">Google Wilbarger County Campus</td><td>Google</td><td>规划 / Planned</td><td>—</td><td>2028</td></tr>
-<tr><td>TX</td><td>Nueces</td><td class="pn">Hut 8 Beacon Point AI Data Center Campus</td><td>Hut 8</td><td>规划 / Planned</td><td>1000 MW</td><td>2027</td></tr>
-<tr><td>TX</td><td>Ector</td><td class="pn">Texas Critical Ector Data Center</td><td>Texas Critical Data Centers; New Era Energy &amp; Digital; Sharon AI</td><td>规划 / Planned</td><td>250 MW</td><td>—</td></tr>
-<tr><td>TX</td><td>Borden</td><td class="pn">SB Energy Borden County Data Center Campus</td><td>SB Energy</td><td>在建 / Under Construction</td><td>1000 MW</td><td>—</td></tr>
-<tr><td>TX</td><td>Tarrant</td><td class="pn">Meta Fort Worth Data Center Campus</td><td>Meta</td><td>运营中 / Operational</td><td>—</td><td>2015</td></tr>
-<tr><td>TX</td><td>Bell</td><td class="pn">Meta Temple Data Center</td><td>Meta</td><td>运营中 / Operational</td><td>152 MW</td><td>2026</td></tr>
-<tr><td>TX</td><td>Medina</td><td class="pn">Microsoft Castroville SAT82 Data Center</td><td>Microsoft</td><td>规划 / Planned</td><td>—</td><td>2028</td></tr>
-<tr><td>TX</td><td>Medina</td><td class="pn">Microsoft County Road 381 Campus</td><td>Microsoft</td><td>在建 / Under Construction</td><td>—</td><td>2027</td></tr>
-<tr><td>TX</td><td>Medina</td><td class="pn">CyrusOne SAT14A Castroville Campus</td><td>CyrusOne</td><td>在建 / Under Construction</td><td>—</td><td>2027</td></tr>
-<tr><td>TX</td><td>Milam</td><td class="pn">Riot Platforms Rockdale Campus</td><td>Riot Platforms</td><td>运营中 / Operational</td><td>700 MW</td><td>2020</td></tr>
-<tr><td>TX</td><td>Navarro</td><td class="pn">Riot Platforms Corsicana Campus</td><td>Riot Platforms</td><td>运营中 / Operational</td><td>1000 MW</td><td>—</td></tr>
-<tr><td>TX</td><td>Childress</td><td class="pn">IREN Childress Data Center</td><td>IREN</td><td>运营中 / Operational</td><td>750 MW</td><td>2023</td></tr>
-<tr><td>TX</td><td>Oldham</td><td class="pn">Hut 8 Vega Data Center</td><td>Hut 8</td><td>运营中 / Operational</td><td>205 MW</td><td>2025</td></tr>
-<tr><td>TX</td><td>Dickens</td><td class="pn">Galaxy Helios AI &amp; HPC Campus</td><td>Galaxy Digital</td><td>运营中 / Operational</td><td>200 MW</td><td>2026</td></tr>
-<tr><td>TX</td><td>Ector</td><td class="pn">Cipher Odessa Data Center</td><td>Cipher Mining</td><td>运营中 / Operational</td><td>207 MW</td><td>2022</td></tr>
-<tr><td>TX</td><td>Mitchell</td><td class="pn">Cipher Barber Lake Data Center</td><td>Cipher Mining</td><td>规划 / Planned</td><td>300 MW</td><td>—</td></tr>
-<tr><td>TX</td><td>Winkler</td><td class="pn">Cipher Black Pearl Data Center</td><td>Cipher Mining</td><td>规划 / Planned</td><td>300 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Box Elder</td><td class="pn">Wonder Valley (Stratos Project) - Phase 1</td><td>O&#x27;Leary Digital</td><td>已批准 / Approved</td><td>3000 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Box Elder</td><td class="pn">Wonder Valley (Stratos Project) - Phase 2 Expansion</td><td>O&#x27;Leary Digital</td><td>规划 / Planned</td><td>6000 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Millard</td><td class="pn">High Performance Compute Data Center Campus</td><td>Joule Capital Partners</td><td>已批准 / Approved</td><td>4000 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Millard</td><td class="pn">Delta Gigasite - Phase 1</td><td>Creekstone Energy</td><td>在建 / Under Construction</td><td>300 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Millard</td><td class="pn">Delta Gigasite - Expansion</td><td>Creekstone Energy</td><td>规划 / Planned</td><td>9700 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Iron</td><td class="pn">Red Butte Data Center</td><td>BrightNight</td><td>已公告 / Announced</td><td>1500 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Iron</td><td class="pn">Antelope Data Center</td><td>Pronghorn Development LLP</td><td>规划 / Planned</td><td>1500 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Tooele</td><td class="pn">CyrusOne Dugway Proving Ground</td><td>CyrusOne</td><td>已公告 / Announced</td><td>1000 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Duchesne</td><td class="pn">Nine Mile Data Center</td><td>Energence</td><td>已批准 / Approved</td><td>400 MW</td><td>2029</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">Tract Pole Canyon</td><td>Tract</td><td>规划 / Planned</td><td>1700 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">Tract Pony Express</td><td>Tract</td><td>规划 / Planned</td><td>120 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-1</td><td>QTS</td><td>在建 / Under Construction</td><td>177 MW</td><td>2027</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-2</td><td>QTS</td><td>在建 / Under Construction</td><td>177 MW</td><td>2026</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-3</td><td>QTS</td><td>在建 / Under Construction</td><td>177 MW</td><td>2026</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-4</td><td>QTS</td><td>在建 / Under Construction</td><td>177 MW</td><td>2028</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-5</td><td>QTS</td><td>在建 / Under Construction</td><td>177 MW</td><td>2029</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">Google Eagle Mountain</td><td>Google</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 1</td><td>Meta</td><td>运营中 / Operational</td><td>48 MW</td><td>2020</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 2</td><td>Meta</td><td>运营中 / Operational</td><td>48 MW</td><td>2020</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 3</td><td>Meta</td><td>运营中 / Operational</td><td>48 MW</td><td>2021</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 4</td><td>Meta</td><td>运营中 / Operational</td><td>48 MW</td><td>2022</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 5</td><td>Meta</td><td>运营中 / Operational</td><td>48 MW</td><td>2023</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 6</td><td>Meta</td><td>运营中 / Operational</td><td>99 MW</td><td>2025</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 7</td><td>Meta</td><td>运营中 / Operational</td><td>99 MW</td><td>2025</td></tr>
-<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Stadion South Expansion</td><td>Meta</td><td>规划 / Planned</td><td>286 MW</td><td>2027</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">West Jordan Campus - Phase 1</td><td>Novva</td><td>运营中 / Operational</td><td>120 MW</td><td>2023</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">West Jordan Campus - Phase 2</td><td>Novva</td><td>在建 / Under Construction</td><td>75 MW</td><td>2026</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">West Jordan Campus - Phase 3</td><td>Novva</td><td>在建 / Under Construction</td><td>72 MW</td><td>2026</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">Aligned Salt Lake SLC 01</td><td>Aligned</td><td>运营中 / Operational</td><td>34 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">Aligned Salt Lake SLC 02</td><td>Aligned</td><td>运营中 / Operational</td><td>48 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">Aligned Salt Lake SLC 03</td><td>Aligned</td><td>运营中 / Operational</td><td>100 MW</td><td>2022</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">Aligned Salt Lake SLC 04</td><td>Aligned</td><td>运营中 / Operational</td><td>—</td><td>—</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">Granite Point Data Center: SLC6</td><td>DataBank</td><td>运营中 / Operational</td><td>34 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">Oracle West Jordan (Project Sequoia)</td><td>Oracle</td><td>运营中 / Operational</td><td>28 MW</td><td>2012</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">eBay Topaz SLC01</td><td>eBay</td><td>运营中 / Operational</td><td>9 MW</td><td>2010</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">eBay Topaz SLC02</td><td>eBay</td><td>运营中 / Operational</td><td>7 MW</td><td>2013</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">eBay Topaz SLC03</td><td>eBay</td><td>运营中 / Operational</td><td>13 MW</td><td>—</td></tr>
-<tr><td>UT</td><td>Salt Lake</td><td class="pn">NSA Utah Data Center</td><td>National Security Agency</td><td>运营中 / Operational</td><td>65 MW</td><td>2014</td></tr>
-<tr><td>UT</td><td>Millard</td><td class="pn">BluSky AI Delta Data Center</td><td>BluSky AI</td><td>规划 / Planned</td><td>50 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Caroline</td><td class="pn">CleanArc VA1 Caroline County Campus</td><td>CleanArc Data Centers</td><td>在建 / Under Construction</td><td>900 MW</td><td>2027</td></tr>
-<tr><td>VA</td><td>Franklin</td><td class="pn">Crusoe Franklin County Summit View Data Center</td><td>Crusoe</td><td>rumor</td><td>100 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Stafford</td><td class="pn">Vantage VA4 Fredericksburg / Stafford Campus</td><td>Vantage Data Centers</td><td>规划 / Planned</td><td>192 MW</td><td>2027</td></tr>
-<tr><td>VA</td><td>Louisa</td><td class="pn">EdgeCore Shannon Hill Louisa County Campus</td><td>EdgeCore Digital Infrastructure</td><td>规划 / Planned</td><td>1100 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Pittsylvania</td><td class="pn">STACK Berry Hill Megasite AI Data Campus</td><td>STACK Infrastructure</td><td>已公告 / Announced</td><td>—</td><td>—</td></tr>
-<tr><td>VA</td><td>Goochland</td><td class="pn">Tract Tuckahoe Technology Park</td><td>Tract</td><td>规划 / Planned</td><td>900 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Louisa</td><td class="pn">AWS Louisa County Technology Overlay District Campuses</td><td>Amazon Web Services</td><td>已公告 / Announced</td><td>—</td><td>2040</td></tr>
-<tr><td>VA</td><td>Louisa</td><td class="pn">AWS Lake Anna Tech Campus</td><td>Amazon Data Services</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>VA</td><td>Stafford</td><td class="pn">AWS Potomac Church Tech Center</td><td>Amazon Data Services</td><td>在建 / Under Construction</td><td>128 MW</td><td>2027</td></tr>
-<tr><td>VA</td><td>Caroline; Spotsylvania</td><td class="pn">AWS Mattameade Data Center Campus</td><td>Amazon Data Services</td><td>规划 / Planned</td><td>770 MW</td><td>2027</td></tr>
-<tr><td>VA</td><td>Spotsylvania</td><td class="pn">AWS Cosner Tech Campus</td><td>Amazon Data Services</td><td>运营中 / Operational</td><td>250 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Spotsylvania</td><td class="pn">AWS Carter&#x27;s Store Tech Campus</td><td>Amazon Data Services</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>VA</td><td>Spotsylvania</td><td class="pn">AWS Summit Crossing Tech Campus</td><td>Amazon Data Services</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>VA</td><td>Spotsylvania</td><td class="pn">AWS Orrock Tech Campus</td><td>Amazon Data Services</td><td>已批准 / Approved</td><td>—</td><td>—</td></tr>
-<tr><td>VA</td><td>Spotsylvania</td><td class="pn">PowerHouse 95 Campus</td><td>PowerHouse Data Centers</td><td>在建 / Under Construction</td><td>800 MW</td><td>2025</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">PowerHouse ABX-1</td><td>PowerHouse Data Centers</td><td>运营中 / Operational</td><td>60 MW</td><td>2023</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">PowerHouse Arcola Campus</td><td>PowerHouse Data Centers</td><td>规划 / Planned</td><td>120 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">Vantage Ashburn I Campus</td><td>Vantage Data Centers</td><td>运营中 / Operational</td><td>146 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">Vantage Ashburn II Campus</td><td>Vantage Data Centers</td><td>规划 / Planned</td><td>96 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">Vantage Ashburn III Campus</td><td>Vantage Data Centers</td><td>规划 / Planned</td><td>288 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">NTT Ashburn Data Center Campus</td><td>NTT DATA / NTT Global Data Centers</td><td>在建 / Under Construction</td><td>224 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">Digital Realty Loudoun / Ashburn Campus</td><td>Digital Realty</td><td>运营中 / Operational</td><td>108 MW</td><td>2016</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">Equinix Ashburn Campus</td><td>Equinix</td><td>运营中 / Operational</td><td>—</td><td>—</td></tr>
-<tr><td>VA</td><td>Henrico</td><td class="pn">QTS Richmond 1 Campus</td><td>QTS Data Centers</td><td>在建 / Under Construction</td><td>240 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Henrico</td><td class="pn">Meta Henrico Data Center</td><td>Meta</td><td>运营中 / Operational</td><td>—</td><td>2020</td></tr>
-<tr><td>VA</td><td>Mecklenburg</td><td class="pn">Microsoft Boydton Data Center Campus</td><td>Microsoft</td><td>运营中 / Operational</td><td>—</td><td>2010</td></tr>
-<tr><td>VA</td><td>Mecklenburg</td><td class="pn">Microsoft South Hill / Mecklenburg Greenfield Data Center</td><td>Microsoft</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">Aligned Ashburn Campus</td><td>Aligned</td><td>在建 / Under Construction</td><td>180 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Prince William</td><td class="pn">Iron Mountain Manassas Northern Virginia Campus</td><td>Iron Mountain Data Centers</td><td>在建 / Under Construction</td><td>280 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">CyrusOne Sterling NVA1-NVA3 Campus</td><td>CyrusOne</td><td>运营中 / Operational</td><td>—</td><td>—</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">CyrusOne Sterling NVA5-NVA7 Campus</td><td>CyrusOne</td><td>运营中 / Operational</td><td>—</td><td>—</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">CyrusOne Sterling NVA9</td><td>CyrusOne</td><td>运营中 / Operational</td><td>135 MW</td><td>2020</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">Sabey SDC Ashburn Campus</td><td>Sabey Data Centers</td><td>在建 / Under Construction</td><td>85 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">CloudHQ LC Campus</td><td>CloudHQ</td><td>规划 / Planned</td><td>1700 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">Yondr Northern Virginia / Project Allegro Campus</td><td>Yondr Group</td><td>在建 / Under Construction</td><td>336 MW</td><td>2026</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">STACK NVA04 Ashburn Campus</td><td>STACK Infrastructure</td><td>规划 / Planned</td><td>216 MW</td><td>2023</td></tr>
-<tr><td>VA</td><td>Prince William</td><td class="pn">STACK NVA02 Manassas Campus</td><td>STACK Infrastructure</td><td>运营中 / Operational</td><td>420 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Stafford</td><td class="pn">STACK Stafford Technology Campus</td><td>STACK Infrastructure</td><td>规划 / Planned</td><td>1100 MW</td><td>—</td></tr>
-<tr><td>VA</td><td>Prince William</td><td class="pn">Prince William Digital Gateway</td><td>QTS; Compass Datacenters</td><td>未知 / Unknown</td><td>—</td><td>—</td></tr>
-<tr><td>VA</td><td>Loudoun</td><td class="pn">Amazon GWU Virginia Science and Technology Campus Redevelopment</td><td>Amazon Data Services</td><td>已公告 / Announced</td><td>—</td><td>—</td></tr>
-<tr><td>VA</td><td>Wise</td><td class="pn">Project Oasis / Data Center Ridge</td><td>InvestSWVA / Energy DELTA Lab</td><td>已公告 / Announced</td><td>36 MW</td><td>—</td></tr>
-<tr><td>WA</td><td>Walla Walla</td><td class="pn">AWS Wallula Gap Phase 1</td><td>Amazon Data Services / Amazon Web Services</td><td>规划 / Planned</td><td>300 MW</td><td>—</td></tr>
-<tr><td>WA</td><td>Walla Walla</td><td class="pn">AWS Wallula Gap Phase 2</td><td>Amazon Data Services / Amazon Web Services</td><td>规划 / Planned</td><td>300 MW</td><td>—</td></tr>
-<tr><td>WA</td><td>Walla Walla</td><td class="pn">AWS Wallula Gap Phase 3</td><td>Amazon Data Services / Amazon Web Services</td><td>规划 / Planned</td><td>300 MW</td><td>—</td></tr>
-<tr><td>WA</td><td>Walla Walla</td><td class="pn">AWS Wallula Gap Phase 4</td><td>Amazon Data Services / Amazon Web Services</td><td>规划 / Planned</td><td>300 MW</td><td>—</td></tr>
-<tr><td>WA</td><td>Grant</td><td class="pn">Microsoft Columbia Data Center</td><td>Microsoft</td><td>运营中 / Operational</td><td>50 MW</td><td>2007</td></tr>
-<tr><td>WA</td><td>Grant</td><td class="pn">Microsoft MWH Data Center Campus</td><td>Microsoft</td><td>运营中 / Operational</td><td>140.625 MW</td><td>—</td></tr>
-<tr><td>WA</td><td>Douglas</td><td class="pn">Microsoft East Wenatchee EAT02</td><td>Microsoft</td><td>运营中 / Operational</td><td>57 MW</td><td>2022</td></tr>
-<tr><td>WA</td><td>Douglas</td><td class="pn">Microsoft East Wenatchee EAT06</td><td>Microsoft</td><td>规划 / Planned</td><td>57 MW</td><td>2027</td></tr>
-<tr><td>WA</td><td>Douglas</td><td class="pn">Microsoft East Wenatchee EAT09</td><td>Microsoft</td><td>规划 / Planned</td><td>57 MW</td><td>2028</td></tr>
-<tr><td>WA</td><td>Chelan</td><td class="pn">Microsoft Malaga EAT12</td><td>Microsoft</td><td>运营中 / Operational</td><td>57 MW</td><td>2025</td></tr>
-<tr><td>WA</td><td>Chelan</td><td class="pn">Microsoft Malaga EAT13</td><td>Microsoft</td><td>规划 / Planned</td><td>57 MW</td><td>2027</td></tr>
-<tr><td>WA</td><td>Chelan</td><td class="pn">Microsoft Malaga EAT14</td><td>Microsoft</td><td>规划 / Planned</td><td>57 MW</td><td>2028</td></tr>
-<tr><td>WA</td><td>Grant</td><td class="pn">Vantage WA1 Quincy Campus</td><td>Vantage Data Centers</td><td>运营中 / Operational</td><td>89 MW</td><td>2023</td></tr>
-<tr><td>WA</td><td>Grant</td><td class="pn">Vantage WA13</td><td>Vantage Data Centers</td><td>运营中 / Operational</td><td>64 MW</td><td>2023</td></tr>
-<tr><td>WA</td><td>Grant</td><td class="pn">Sabey SDC Quincy Campus</td><td>Sabey Data Centers</td><td>运营中 / Operational</td><td>105.05 MW</td><td>2023</td></tr>
-<tr><td>WA</td><td>Grant</td><td class="pn">Sabey Intergate Quincy Building E</td><td>Sabey Data Centers</td><td>规划 / Planned</td><td>6 MW</td><td>2027</td></tr>
-<tr><td>WA</td><td>Douglas</td><td class="pn">Sabey SDC Columbia Campus</td><td>Sabey Data Centers</td><td>运营中 / Operational</td><td>70 MW</td><td>—</td></tr>
-<tr><td>WA</td><td>Douglas</td><td class="pn">Sabey SDC Columbia Expansion</td><td>Sabey Data Centers</td><td>规划 / Planned</td><td>90 MW</td><td>2025</td></tr>
-<tr><td>WA</td><td>King</td><td class="pn">Sabey SDC Seattle Campus</td><td>Sabey Data Centers</td><td>运营中 / Operational</td><td>54 MW</td><td>—</td></tr>
-<tr><td>WA</td><td>King</td><td class="pn">Sabey SDC Seattle Liquid-Cooling Capacity Addition</td><td>Sabey Data Centers</td><td>规划 / Planned</td><td>6 MW</td><td>2025</td></tr>
-<tr><td>WA</td><td>Grant</td><td class="pn">H5 Quincy I</td><td>H5 Data Centers</td><td>运营中 / Operational</td><td>40 MW</td><td>2018</td></tr>
-<tr><td>WA</td><td>Grant</td><td class="pn">H5 Quincy II and III Campus</td><td>H5 Data Centers</td><td>运营中 / Operational</td><td>82 MW</td><td>2025</td></tr>
-<tr><td>WA</td><td>Grant</td><td class="pn">Yahoo Quincy Data Center Expansion</td><td>Yahoo / Oath Holdings</td><td>运营中 / Operational</td><td>27.75 MW</td><td>—</td></tr>
-<tr><td>WA</td><td>Grant</td><td class="pn">CyrusOne Quincy</td><td>CyrusOne</td><td>运营中 / Operational</td><td>45.75 MW</td><td>—</td></tr>
-<tr><td>WA</td><td>Grant</td><td class="pn">NTT DATA Quincy</td><td>NTT DATA Services</td><td>运营中 / Operational</td><td>42 MW</td><td>—</td></tr>
-<tr><td>WA</td><td>King</td><td class="pn">Digital Realty Seattle SEA10</td><td>Digital Realty</td><td>运营中 / Operational</td><td>13 MW</td><td>—</td></tr>
-<tr><td>WA</td><td>King</td><td class="pn">Digital Realty 301 Virginia Street Seattle</td><td>Digital Realty</td><td>规划 / Planned</td><td>—</td><td>—</td></tr>
-<tr><td>WA</td><td>King</td><td class="pn">Equinix Seattle SE2</td><td>Equinix</td><td>运营中 / Operational</td><td>—</td><td>—</td></tr>
-<tr><td>WA</td><td>King</td><td class="pn">Equinix Seattle SE3</td><td>Equinix / Clise Properties</td><td>运营中 / Operational</td><td>—</td><td>2013</td></tr></tbody></table>
+    <h2><span class="en">State-level projects (419 rows, first 400)</span><span class="zh" hidden>州级探索项目（419 条，显示前 400）</span></h2>
+    <table><thead><tr><span class="en">&lt;th&gt;State&lt;/th&gt;&lt;th&gt;County&lt;/th&gt;&lt;th&gt;Project&lt;/th&gt;&lt;th&gt;Developer&lt;/th&gt;&lt;th&gt;Status&lt;/th&gt;&lt;th&gt;Capacity&lt;/th&gt;&lt;th&gt;Year&lt;/th&gt;</span><span class="zh" hidden>&lt;th&gt;州&lt;/th&gt;&lt;th&gt;县&lt;/th&gt;&lt;th&gt;项目&lt;/th&gt;&lt;th&gt;开发商&lt;/th&gt;&lt;th&gt;状态&lt;/th&gt;&lt;th&gt;容量&lt;/th&gt;&lt;th&gt;年份&lt;/th&gt;</span></tr></thead><tbody><tr><td>AZ</td><td>Pinal</td><td class="pn">Vermaland La Osa Data Center Campus</td><td>Vermaland</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>3000 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Tract Buckeye Technology Park</td><td>Tract</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1800 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Hassayampa Ranch Data Center</td><td>Arizona Land Consulting</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1500 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Pinal</td><td class="pn">Southwest Crossing Data Center</td><td>Ryan Companies</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>400 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Novva Mesa Campus</td><td>Novva Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>300 MW</td><td>2026</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Menlo Digital MD-PHX1</td><td>Menlo Digital</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>257 MW</td><td>2027</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Prime Data Centers PHX01</td><td>Prime Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>240 MW</td><td>2026</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">NTT Global Data Centers Phoenix Mesa Campus</td><td>NTT Global Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>240 MW</td><td>2022</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">EdgeCore Phoenix Mesa Campus</td><td>EdgeCore Digital Infrastructure</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>496 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Meta Mesa Data Center</td><td>Meta</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2026</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Amazon AWS Mesa Elliot Campus</td><td>Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Amazon AWS Mesa Pecos Road Campus</td><td>Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Google Mesa Data Center</td><td>Google</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2025</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">QTS Phoenix 3 Campus</td><td>QTS Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>750 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">CyrusOne Mesa Data Center Campus</td><td>CyrusOne</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Pacific Proving Technology Campus</td><td>Pacific Proving</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>360 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Microsoft El Mirage Campus</td><td>Microsoft</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2021</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Microsoft Goodyear Campus</td><td>Microsoft</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>2021</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Compass Datacenters Goodyear Campus</td><td>Compass Datacenters</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>212 MW</td><td>2021</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Compass Datacenters El Mirage Campus</td><td>Compass Datacenters</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>108 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Stream PHXA Goodyear Campus</td><td>Stream Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>280 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">STACK PHX01 Avondale Campus</td><td>STACK Infrastructure</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>225 MW</td><td>2026</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">STACK PHX02 Central Phoenix Campus</td><td>STACK Infrastructure</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>250 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Aligned Phoenix Union Hills Campus</td><td>Aligned Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>180 MW</td><td>2017</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Aligned Glendale Campus</td><td>Aligned Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>252 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Iron Mountain Phoenix Campus</td><td>Iron Mountain Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>125 MW</td><td>—</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">EdgeConneX Mesa Campus</td><td>EdgeConneX</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>168 MW</td><td>2027</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Vantage Phoenix Campus</td><td>Vantage Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>160 MW</td><td>2022</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Edged Phoenix Data Center</td><td>Edged</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>36 MW</td><td>2026</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">5C Data Centers PHX01</td><td>5C Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>20 MW</td><td>2025</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">Comarch Mesa Data Center</td><td>Comarch</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>1.5 MW</td><td>2023</td></tr>
+<tr><td>AZ</td><td>Maricopa</td><td class="pn">CyrusOne Chandler Campus</td><td>CyrusOne</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>81 MW</td><td>2012</td></tr>
+<tr><td>AZ</td><td>Pima</td><td class="pn">Project Blue Tucson Data Center Campus</td><td>Beale Infrastructure</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>600 MW</td><td>2027</td></tr>
+<tr><td>AZ</td><td>Pima</td><td class="pn">Davis-Monthan AFB Data Center</td><td>US Government</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>500 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Effingham</td><td class="pn">Project Camellia</td><td>OpenAI / Octans GA LLC</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>3200 MW</td><td>2028</td></tr>
+<tr><td>GA</td><td>Troup</td><td class="pn">Google PRL2 LaGrange Data Center</td><td>Google / KDC</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>400 MW</td><td>2029</td></tr>
+<tr><td>GA</td><td>Columbia</td><td class="pn">Columbia County Data Center</td><td>Trammell Crow Company / Google end user</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Clayton</td><td class="pn">Stillwater Technology Park</td><td>Stillwater Development LLC</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>1250 MW</td><td>2031</td></tr>
+<tr><td>GA</td><td>Early</td><td class="pn">QTS Blakely Data Center</td><td>QTS</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1400 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Irwin</td><td class="pn">Project Arrowhead</td><td>Premier Data Center Development</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1250 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Twiggs</td><td class="pn">Pine Ridge Technology Center</td><td>Eagle Rock Partners LLC</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>900 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Coweta</td><td class="pn">Project Sail</td><td>Prologis</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>900 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Bartow</td><td class="pn">Project Bunkhouse</td><td>unknown / Kimley-Horn filing agent</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>1830 MW</td><td>2035</td></tr>
+<tr><td>GA</td><td>Bartow</td><td class="pn">Project Indo</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Fayette</td><td class="pn">QTS Project Excalibur</td><td>QTS</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>250 MW</td><td>2025</td></tr>
+<tr><td>GA</td><td>Fayette</td><td class="pn">ATL2 East</td><td>Crow Holdings Development / CHI Acquisitions</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Richmond</td><td class="pn">QTS Augusta Data Center Campus</td><td>QTS / Eagle South LLC</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2027</td></tr>
+<tr><td>GA</td><td>Columbia</td><td class="pn">Project JGK-Mass Grading</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Columbia</td><td class="pn">Project Squash</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Coweta</td><td class="pn">Bridgeport (Revised)</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Henry</td><td class="pn">Hampton Technology Park</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">The Crossings</td><td>Link Logistics / Blackstone</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Spalding</td><td class="pn">75 South Data Center Campus</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Carroll</td><td class="pn">Project Bus</td><td>unknown</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>McDuffie</td><td class="pn">Project Azelea</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Spalding</td><td class="pn">Wallace Jackson Data Center Campus</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Monroe</td><td class="pn">Rumble Technology Campus</td><td>Cloverleaf Infrastructure</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>1200 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Monroe</td><td class="pn">Google Monroe County Rumble Road Site</td><td>Google</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Monroe</td><td class="pn">Forsyth Technology Campus</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Rockdale</td><td class="pn">DC BLOX Atlanta East</td><td>DC BLOX</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>216 MW</td><td>2025</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">DC BLOX Atlanta West</td><td>DC BLOX</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>200 MW</td><td>2027</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">T5@ATL IV</td><td>T5 Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>200 MW</td><td>2027</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">T5@Atlanta III</td><td>T5 Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>16.25 MW</td><td>—</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">Edged Atlanta Campus</td><td>Edged Energy / Edged Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>169 MW</td><td>2027</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">Microsoft Palmetto Data Center</td><td>Microsoft</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2025</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">Microsoft East Point Data Center</td><td>Microsoft</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">Microsoft Douglasville Campus</td><td>Microsoft</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">Google Douglas County Data Center</td><td>Google</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>247 MW</td><td>2007</td></tr>
+<tr><td>GA</td><td>Butts</td><td class="pn">AWS Butts County Data Center Program</td><td>Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>69 MW</td><td>2028</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">AWS Douglas County Data Center Program</td><td>Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">DataBank Lithia Springs Campus</td><td>DataBank</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>120 MW</td><td>2027</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">Vantage Douglasville Campus</td><td>Vantage Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>2025</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">Vantage Westlake Data Center</td><td>Vantage Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>2028</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">Vantage Stacks Road Data Center</td><td>Vantage Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">Stream Data Center</td><td>Stream Data Centers</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Walton</td><td class="pn">Data Center - 0 Social Circle Parkway</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">Lithia Springs Data Center</td><td>SAC III Acquisition Co. LLC</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Fulton</td><td class="pn">Stonewall Tell Data Center</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Newton</td><td class="pn">Gregory Road Data Center</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Douglas</td><td class="pn">Rock House Road Data Center Site</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>GA</td><td>Habersham</td><td class="pn">Big Red Apple Innovation Corridor</td><td>unknown</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Digital Realty Franklin Park Campus</td><td>Digital Realty</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">STACK CHI01 Elk Grove Village</td><td>STACK Infrastructure</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>DuPage</td><td class="pn">NTT Global Data Centers Itasca</td><td>NTT Global Data Centers</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>50 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">T5@Chicago II Elk Grove Village</td><td>T5 Data Centers</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">CoreSite Chicago Campus</td><td>CoreSite</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Microsoft Elk Grove Village Data Center</td><td>Microsoft</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Microsoft Northlake Chicago CH1</td><td>Microsoft</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>158 MW</td><td>2009</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Microsoft Hoffman Estates Data Center</td><td>Microsoft</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>200 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">QTS Chicago Data Center</td><td>QTS</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>125 MW</td><td>2016</td></tr>
+<tr><td>IL</td><td>DeKalb</td><td class="pn">Meta DeKalb Data Center</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>48 MW</td><td>2022</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Stream Data Centers CHI I Elk Grove Village</td><td>Stream Data Centers</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Aligned ORD-01 Northlake</td><td>Aligned Data Centers</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Digital Realty Elk Grove Village Campus</td><td>Digital Realty</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Kane</td><td class="pn">CyrusOne Aurora CHI1-CHI3</td><td>CyrusOne</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>40 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Stream Data Centers CHI II Busse</td><td>Stream Data Centers</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Metro Edge Chicago Mission Critical Facility</td><td>Metro Edge</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Elk Grove Village Property Phase 1</td><td>Elk Grove Village Property LLC</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Serverfarm CH1 Chicago</td><td>Serverfarm</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">EdgeConneX Elk Grove Village 2023 Project</td><td>EdgeConneX</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Aligned ORD-03 Elk Grove Village</td><td>Aligned Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Lake</td><td class="pn">Chirisa Volo Data Center</td><td>Chirisa</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Equinix Elk Grove Village Data Center</td><td>Equinix</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Iron Mountain Des Plaines Data Center</td><td>Iron Mountain Data Centers</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">T5@Chicago III Northlake</td><td>T5 Data Centers</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Kendall</td><td class="pn">CyrusOne Aurora III</td><td>CyrusOne</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>40 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>DuPage</td><td class="pn">CyrusOne Wood Dale Data Center</td><td>CyrusOne</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2027</td></tr>
+<tr><td>IL</td><td>Kendall</td><td class="pn">CyrusOne Yorkville Technology Campus</td><td>CyrusOne</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>600 MW</td><td>2026</td></tr>
+<tr><td>IL</td><td>Lake</td><td class="pn">T5 Grayslake Data Center Campus</td><td>T5 Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>480 MW</td><td>2027</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Centersquare ORD2 Elk Grove Village</td><td>Centersquare</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>50 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>DuPage</td><td class="pn">Centersquare ORD4 Lisle</td><td>Centersquare</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Oracle Elk Grove Village Data Center</td><td>Oracle</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">HydraVault Chicago Data Center</td><td>HydraVault</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">EdgeConneX Elk Grove Village 2025 Project</td><td>EdgeConneX</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Stream Data Centers CHI III Elk Grove Village</td><td>Stream Data Centers</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Kendall</td><td class="pn">Project Cardinal Yorkville</td><td>Pioneer Development</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1800 MW</td><td>2029</td></tr>
+<tr><td>IL</td><td>Kendall</td><td class="pn">Project Steel Yorkville Data Center Campus</td><td>Prologis</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>2027</td></tr>
+<tr><td>IL</td><td>Will</td><td class="pn">Joliet Technology Center</td><td>PowerHouse Data Centers / Hillwood</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>1800 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Sangamon</td><td class="pn">CyrusOne Springfield Data Center</td><td>CyrusOne</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>600 MW</td><td>2027</td></tr>
+<tr><td>IL</td><td>Grundy</td><td class="pn">Morris Technology Park</td><td>Tract</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>1000 MW</td><td>2028</td></tr>
+<tr><td>IL</td><td>Logan</td><td class="pn">Logan Prairie Data Center</td><td>Hut 8</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>500 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Madison</td><td class="pn">Cloverleaf Troy Data Center</td><td>Cloverleaf Infrastructure</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>500 MW</td><td>2028</td></tr>
+<tr><td>IL</td><td>Grundy</td><td class="pn">Cielo Minooka Data Center</td><td>Cielo Digital Infrastructure</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>500 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Will</td><td class="pn">Cielo New Lenox Data Center</td><td>Cielo Digital Infrastructure</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>300 MW</td><td>—</td></tr>
+<tr><td>IL</td><td>Grundy</td><td class="pn">Equinix Minooka Data Center</td><td>Equinix</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Will/Grundy</td><td class="pn">Braidwood Data Center Campus</td><td>Western Hospitality Partners / Found Digital</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">Prime Data Centers ORD01-01</td><td>Prime Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>94 MW</td><td>2025</td></tr>
+<tr><td>IL</td><td>Cook</td><td class="pn">ORD Campus</td><td>Unknown</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>252 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>St. Joseph</td><td class="pn">AWS New Carlisle Data Center Campus</td><td>Amazon Web Services</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>2250 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Northern Indiana</td><td class="pn">Amazon Northern Indiana Data Center Campuses</td><td>Amazon Web Services</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>2400 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Jasper</td><td class="pn">AWS Wheatfield Data Center Campus</td><td>Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Porter</td><td class="pn">Amazon Portage Data Center</td><td>Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Amazon Hobart Data Center Campus</td><td>Amazon Data Services</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>2119 MW</td><td>2027</td></tr>
+<tr><td>IN</td><td>Allen</td><td class="pn">Google Fort Wayne Data Center</td><td>Google</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>2025</td></tr>
+<tr><td>IN</td><td>LaPorte</td><td class="pn">Google Michigan City Data Center</td><td>Google</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Morgan</td><td class="pn">Google Monrovia Data Center Campus</td><td>Google</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1200 MW</td><td>2026</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">Google Southeast Marion County Data Center</td><td>Google</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>400 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>LaPorte</td><td class="pn">Microsoft La Porte Data Center Campus</td><td>Microsoft</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>538 MW</td><td>2029</td></tr>
+<tr><td>IN</td><td>St. Joseph</td><td class="pn">Microsoft Granger Data Center Campus</td><td>Microsoft</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>1000 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Clark</td><td class="pn">Meta Jeffersonville Data Center</td><td>Meta</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>200 MW</td><td>2026</td></tr>
+<tr><td>IN</td><td>Boone</td><td class="pn">Meta Lebanon Data Center</td><td>Meta</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>1000 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Digital Crossroad DX-1</td><td>Digital Crossroad</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>20 MW</td><td>2020</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">CoreWeave Digital Crossroads Expansion</td><td>CoreWeave / Decennial Group</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>180 MW</td><td>2027</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">SLG/Digital Crossroads Hammond Campus</td><td>Digital Crossroads</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>260 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">DataBank IND1 Downtown Indianapolis</td><td>DataBank</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>2.1 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">DataBank IND2 Downtown Indianapolis</td><td>DataBank</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>3.75 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">US Signal IN01 Indianapolis Data Center</td><td>US Signal</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>0.25 MW</td><td>2000</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">US Signal IN02 Indianapolis Data Center</td><td>US Signal</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>St. Joseph</td><td class="pn">US Signal IN03 South Bend Data Center</td><td>US Signal</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">Metrobloks Indianapolis IND-A1</td><td>Metrobloks</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>72 MW</td><td>2027</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">DC BLOX Thunderbird Indianapolis Campus</td><td>DC BLOX</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>100 MW</td><td>2028</td></tr>
+<tr><td>IN</td><td>Marion</td><td class="pn">Sabey Indianapolis Decatur Township Data Center</td><td>Sabey Data Centers</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>250 MW</td><td>2026</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Sentinel Hebron Data Center</td><td>Sentinel Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>504 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">PowerHouse Hobart</td><td>PowerHouse Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>450 MW</td><td>2027</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Hobart Devco Data Center</td><td>Hobart Devco</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Wylie Capital Hobart Data Center</td><td>Wylie Capital</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Karis Critical Merrillville Data Center</td><td>Karis Critical</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Province Group Merrillville Data Center</td><td>Province Group</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Wylie Capital Merrillville Data Center</td><td>Wylie Capital</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Elkhart</td><td class="pn">Takanock Goshen Data Center</td><td>Takanock</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1500 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Shelby</td><td class="pn">Prologis Shelbyville Data Center</td><td>Prologis</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>900 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Allen</td><td class="pn">New Haven Data Center</td><td></td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>500 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Clay</td><td class="pn">Brazil Data Center</td><td></td><td><span class="en">rumor</span><span class="zh" hidden>rumor</span></td><td>400 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Gibson/Posey</td><td class="pn">Gibson/Posey County Data Center</td><td></td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>600 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Decatur</td><td class="pn">Jumping Bison Greensburg Data Center</td><td>Jumping Bison LLC</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>50 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Henry</td><td class="pn">Surge Development Knightstown Data Center</td><td>Surge Development</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Jefferson</td><td class="pn">Marble Hill Data Center</td><td></td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>310 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>LaPorte</td><td class="pn">Kingsbury Data Center</td><td></td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Spencer</td><td class="pn">Dale Data Center</td><td></td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>St. Joseph</td><td class="pn">New Carlisle Northeast Data Center</td><td></td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>White</td><td class="pn">Wolcott Data Center</td><td></td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Hancock</td><td class="pn">McCordsville Data Center</td><td></td><td><span class="en">rumor</span><span class="zh" hidden>rumor</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Lake</td><td class="pn">Gary Data Center</td><td></td><td><span class="en">rumor</span><span class="zh" hidden>rumor</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Starke</td><td class="pn">Abei Energy Knox Data Center</td><td>Abei Energy</td><td><span class="en">rumor</span><span class="zh" hidden>rumor</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Clinton</td><td class="pn">Logistix Frankfort Data Center</td><td>Logistix</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>300 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Elkhart</td><td class="pn">Province Group Bristol Data Center</td><td>Province Group</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Hancock</td><td class="pn">Surge Development Greenfield MegaSite</td><td>Surge Development</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Hendricks</td><td class="pn">Vantage Pittsboro Data Center Campus</td><td>Vantage Data Centers</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>600 MW</td><td>—</td></tr>
+<tr><td>IN</td><td>Hendricks</td><td class="pn">Vantage IN11</td><td>Vantage Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>256 MW</td><td>2028</td></tr>
+<tr><td>IN</td><td>Hendricks</td><td class="pn">Vantage IN13</td><td>Vantage Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>48 MW</td><td>2029</td></tr>
+<tr><td>IN</td><td>Kosciusko</td><td class="pn">Prologis Leesburg Data Center</td><td>Prologis</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Monroe</td><td class="pn">Digital Resources Ellettsville Data Center</td><td>Digital Resources Acquisitions LLC</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>—</td><td>—</td></tr>
+<tr><td>IN</td><td>Porter</td><td class="pn">Provident Realty Burns Harbor Data Center</td><td>Provident Realty</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>—</td><td>—</td></tr>
+<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Richmond County Data Center Campus</td><td>Amazon Web Services</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>1300 MW</td><td>2027</td></tr>
+<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Blue Marlin - Building 1</td><td>Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>65 MW</td><td>2027</td></tr>
+<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Blue Marlin - Building 2</td><td>Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>65 MW</td><td>2027</td></tr>
+<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Blue Marlin - Building 3</td><td>Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>65 MW</td><td>2027</td></tr>
+<tr><td>NC</td><td>Richmond</td><td class="pn">AWS Blue Marlin - Building 20</td><td>Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>65 MW</td><td>2032</td></tr>
+<tr><td>NC</td><td>Catawba</td><td class="pn">Microsoft Catawba County Data Center Program</td><td>Microsoft</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>448 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Person</td><td class="pn">Microsoft Person County Mega Park Data Center Campus</td><td>Microsoft</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>NC</td><td>Caldwell</td><td class="pn">Google Lenoir - Building 1</td><td>Google</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>39 MW</td><td>2008</td></tr>
+<tr><td>NC</td><td>Caldwell</td><td class="pn">Google Lenoir - Building 2</td><td>Google</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>72 MW</td><td>2011</td></tr>
+<tr><td>NC</td><td>Caldwell</td><td class="pn">Google Lenoir - Building 3</td><td>Google</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>148 MW</td><td>2015</td></tr>
+<tr><td>NC</td><td>Caldwell</td><td class="pn">Google Lenoir - Building 4</td><td>Google</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>91 MW</td><td>2026</td></tr>
+<tr><td>NC</td><td>Catawba</td><td class="pn">Apple Maiden Data Center Campus</td><td>Apple</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>223.5 MW</td><td>2009</td></tr>
+<tr><td>NC</td><td>Rutherford</td><td class="pn">Meta Forest City Data Center Campus</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>150 MW</td><td>2012</td></tr>
+<tr><td>NC</td><td>Cherokee</td><td class="pn">Core Scientific Marble Data Center</td><td>Core Scientific</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>117 MW</td><td>2026</td></tr>
+<tr><td>NC</td><td>Rockingham</td><td class="pn">WhiteFiber NC-1 Madison AI Data Center Campus</td><td>Bit Digital / WhiteFiber</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>99 MW</td><td>2026</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">PowerHouse Charlotte</td><td>PowerHouse Data Centers / Town Lane</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>300 MW</td><td>2027</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">Digital Realty Charlotte Campus</td><td>Digital Realty</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>400 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">Digital Realty Charlotte CLT10</td><td>Digital Realty</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>12 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Wake</td><td class="pn">New Hill Digital Campus</td><td>Natelli Holdings / Natelli Investments</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>300 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Chatham</td><td class="pn">Eco TIP West Data Center</td><td>Eco TIP West LLC / Lee-Moore Capital</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>750 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Stokes</td><td class="pn">Project Delta</td><td>Engineered Land Solutions</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>300 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Edgecombe</td><td class="pn">Kingsboro Data Center Campus</td><td>Energy Storage Solutions</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>900 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Edgecombe</td><td class="pn">Energy Storage Solutions Tarboro Data Center</td><td>Energy Storage Solutions</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>100 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Cumberland</td><td class="pn">Fayetteville NetZero Campus</td><td>Energy Storage Solutions</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>50 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Iredell</td><td class="pn">Mooresville Technology Park</td><td>Tract</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>—</td><td>—</td></tr>
+<tr><td>NC</td><td>Iredell</td><td class="pn">Compass Statesville Data Center</td><td>Compass Datacenters</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>500 MW</td><td>2028</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">5CDC Charlotte - CLT01</td><td>5C Group Inc.</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1600 MW</td><td>2026</td></tr>
+<tr><td>NC</td><td>Guilford</td><td class="pn">Raeden Gateway Research Park Data Center</td><td>ImpactData / Raeden</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>300 MW</td><td>2026</td></tr>
+<tr><td>NC</td><td>Burke</td><td class="pn">DigiPowerX Hildebran Data Center</td><td>DigiPower X</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>200 MW</td><td>2028</td></tr>
+<tr><td>NC</td><td>Lee</td><td class="pn">PointOne / CyrusOne Lee County Data Center</td><td>PointOne Data Centers / CyrusOne</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>90 MW</td><td>2028</td></tr>
+<tr><td>NC</td><td>Cleveland</td><td class="pn">T5 Charlotte Campus</td><td>T5 Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>180 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Guilford</td><td class="pn">DC BLOX High Point Data Center</td><td>DC BLOX</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>18 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Durham</td><td class="pn">CyrusOne DUR1 Raleigh-Durham</td><td>CyrusOne</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>50 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Catawba</td><td class="pn">Data Journey Catawba County Data Center</td><td>Data Journey</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>30 MW</td><td>2024</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">Five 9s Digital Charlotte Gateway Data Center</td><td>Five 9s Digital</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>20 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">Flexential Charlotte - North</td><td>Flexential</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>20 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Wake</td><td class="pn">TierPoint Raleigh - RTP Data Center</td><td>TierPoint</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>8 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Wake</td><td class="pn">TierPoint Raleigh Data Center</td><td>TierPoint</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>10 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Johnston</td><td class="pn">Tarheel Cloud Data Center</td><td>Tarheel Media</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>15 MW</td><td>—</td></tr>
+<tr><td>NC</td><td>Mecklenburg</td><td class="pn">CENTRA Charlotte CLT1</td><td>CENTRA</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>5 MW</td><td>—</td></tr>
+<tr><td>OH</td><td>Pike</td><td class="pn">SB Energy PORTS Technology Campus AI Data Center</td><td>SB Energy / SoftBank Group</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>10000 MW</td><td>2028</td></tr>
+<tr><td>OH</td><td>Trumbull</td><td class="pn">Stargate Lordstown AI Data Center Site</td><td>OpenAI / Oracle / SoftBank</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>—</td><td>—</td></tr>
+<tr><td>OH</td><td>Portage</td><td class="pn">Bitdeer Shalersville Data Center Campus</td><td>Bitdeer Technologies Group / Geis Companies</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>750 MW</td><td>2029</td></tr>
+<tr><td>OH</td><td>Coshocton</td><td class="pn">Aligned Conesville Industrial Park Campus</td><td>Aligned Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>—</td></tr>
+<tr><td>OH</td><td>Erie</td><td class="pn">Aligned NEO-01 Perkins Township Campus</td><td>Aligned Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>200 MW</td><td>2026</td></tr>
+<tr><td>OH</td><td>Cuyahoga</td><td class="pn">Lakeland Equity Group Slavic Village Data Center</td><td>Lakeland Equity Group</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>150 MW</td><td>—</td></tr>
+<tr><td>OH</td><td>Franklin/Licking</td><td class="pn">Google New Albany Data Center Campus</td><td>Google</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>2019</td></tr>
+<tr><td>OH</td><td>Fairfield</td><td class="pn">Google Lancaster Data Center Campus</td><td>Google</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>2024</td></tr>
+<tr><td>OH</td><td>Franklin</td><td class="pn">Google Columbus / Lockbourne Data Center Campus</td><td>Google</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2025</td></tr>
+<tr><td>OH</td><td>Scioto</td><td class="pn">Google Franklin Furnace Data Center</td><td>Google</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>2030</td></tr>
+<tr><td>OH</td><td>Allen</td><td class="pn">Google Lima / Allen County Data Center</td><td>Google</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2030</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Google Harrison Road NW Potential Data Center Site</td><td>Google</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>OH</td><td>Franklin/Licking</td><td class="pn">Meta New Albany Data Center Campus</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>2020</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Meta Prometheus AI Supercluster</td><td>Meta</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>1000 MW</td><td>2026</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Amazon Web Services New Albany Campus Expansion</td><td>Amazon Web Services</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2025</td></tr>
+<tr><td>OH</td><td>Franklin</td><td class="pn">Amazon Web Services Hilliard Scioto Darby Campus</td><td>Amazon Web Services</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>73 MW</td><td>2025</td></tr>
+<tr><td>OH</td><td>Delaware</td><td class="pn">Amazon Web Services Sunbury Campus</td><td>Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>2034</td></tr>
+<tr><td>OH</td><td>Union</td><td class="pn">Amazon Web Services Marysville Innovation Park Campus</td><td>Amazon Web Services</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>2027</td></tr>
+<tr><td>OH</td><td>Union</td><td class="pn">Marysville South Data Center Project Area</td><td></td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>OH</td><td>Clinton</td><td class="pn">Amazon Web Services Wilmington Data Center Campus</td><td>Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Microsoft New Albany Datacenter</td><td>Microsoft</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2027</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Microsoft Heath Datacenter</td><td>Microsoft</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2026</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Microsoft Hebron Datacenter</td><td>Microsoft</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2026</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Cologix Johnstown AI-Ready Campus</td><td>Cologix</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>800 MW</td><td>—</td></tr>
+<tr><td>OH</td><td>Franklin</td><td class="pn">Cologix Columbus COL4 / Columbus Portfolio</td><td>Cologix</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>80 MW</td><td>2025</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">QTS New Albany 1 and New Albany 2 Campus</td><td>QTS Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>222 MW</td><td>2025</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">QTS Babbitt Road / Miller Road Expansion</td><td>QTS Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Vantage OH1 New Albany Campus</td><td>Vantage Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>192 MW</td><td>2025</td></tr>
+<tr><td>OH</td><td>Franklin/Licking</td><td class="pn">STACK Infrastructure NAL01 Campus</td><td>STACK Infrastructure</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>60 MW</td><td>—</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">EdgeConneX New Albany / Johnstown South Campus</td><td>EdgeConneX</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>224 MW</td><td>2026</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">CyrusOne New Albany COL-1</td><td>CyrusOne</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>180 MW</td><td>2027</td></tr>
+<tr><td>OH</td><td>Franklin/Licking</td><td class="pn">Edged Columbus Data Center</td><td>Edged Energy / Edged US</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>24 MW</td><td>2025</td></tr>
+<tr><td>OH</td><td>Licking</td><td class="pn">Karis Critical New Albany Data Center Site</td><td>Karis Critical</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>TX</td><td>Taylor</td><td class="pn">Stargate Abilene / Lancium Clean Campus</td><td>Crusoe; Lancium; Oracle; OpenAI</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>1200 MW</td><td>2025</td></tr>
+<tr><td>TX</td><td>Shackelford</td><td class="pn">Vantage Frontier Campus</td><td>Vantage Data Centers; Oracle; OpenAI</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>1400 MW</td><td>2026</td></tr>
+<tr><td>TX</td><td>Milam</td><td class="pn">Stargate Milam / Freebird Data Center</td><td>SB Energy; OpenAI; SoftBank</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>1200 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Hale</td><td class="pn">Aligned Project Caprock</td><td>Aligned</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>540 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Carson</td><td class="pn">Fermi Project Matador / HyperGrid Campus</td><td>Fermi America; Texas Tech University System</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>11000 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Pecos</td><td class="pn">GW Ranch / Amazon Pecos County Campus</td><td>Amazon Web Services; Pacifico Energy</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>7650 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Reeves</td><td class="pn">Microsoft Pecos Datacenter Campus</td><td>Microsoft; Chevron; Engine No. 1</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>2000 MW</td><td>2028</td></tr>
+<tr><td>TX</td><td>Reeves</td><td class="pn">Alpha Digital Campus</td><td>PowerBridge; LandBridge; Liberty Energy</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>2000 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Pecos</td><td class="pn">Project Horizon</td><td>Poolside AI; formerly CoreWeave as anchor tenant</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>2000 MW</td><td>—</td></tr>
+<tr><td>TX</td><td>Pecos</td><td class="pn">Amazon Fort Stockton Data Center Campus</td><td>Amazon Data Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>2026</td></tr>
+<tr><td>TX</td><td>Floyd</td><td class="pn">Amazon Floydada Data Center Campus</td><td>Amazon Data Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>2026</td></tr>
+<tr><td>TX</td><td>Wharton</td><td class="pn">Amazon Boling Campus Expansion</td><td>Amazon Data Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>2026</td></tr>
+<tr><td>TX</td><td>Ellis</td><td class="pn">Google Midlothian Data Center Campus</td><td>Google</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>100 MW</td><td>2022</td></tr>
+<tr><td>TX</td><td>Ellis</td><td class="pn">Google Red Oak Data Center Campus</td><td>Google</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>107 MW</td><td>2025</td></tr>
+<tr><td>TX</td><td>Armstrong</td><td class="pn">Google Armstrong County Campus / Goodnight</td><td>Google; Crusoe Energy</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>933 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Haskell</td><td class="pn">Google Haskell County Campus North</td><td>Google</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>2027</td></tr>
+<tr><td>TX</td><td>Haskell</td><td class="pn">Google Haskell County Campus with Solar and Battery</td><td>Google</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>2027</td></tr>
+<tr><td>TX</td><td>Gray</td><td class="pn">Google Meitner Energy Center / Pampa Data Center</td><td>Google; Intersect</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2028</td></tr>
+<tr><td>TX</td><td>Wilbarger</td><td class="pn">Google Wilbarger County Campus</td><td>Google</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>2028</td></tr>
+<tr><td>TX</td><td>Nueces</td><td class="pn">Hut 8 Beacon Point AI Data Center Campus</td><td>Hut 8</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1000 MW</td><td>2027</td></tr>
+<tr><td>TX</td><td>Ector</td><td class="pn">Texas Critical Ector Data Center</td><td>Texas Critical Data Centers; New Era Energy &amp; Digital; Sharon AI</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>250 MW</td><td>—</td></tr>
+<tr><td>TX</td><td>Borden</td><td class="pn">SB Energy Borden County Data Center Campus</td><td>SB Energy</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>1000 MW</td><td>—</td></tr>
+<tr><td>TX</td><td>Tarrant</td><td class="pn">Meta Fort Worth Data Center Campus</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>2015</td></tr>
+<tr><td>TX</td><td>Bell</td><td class="pn">Meta Temple Data Center</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>152 MW</td><td>2026</td></tr>
+<tr><td>TX</td><td>Medina</td><td class="pn">Microsoft Castroville SAT82 Data Center</td><td>Microsoft</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>2028</td></tr>
+<tr><td>TX</td><td>Medina</td><td class="pn">Microsoft County Road 381 Campus</td><td>Microsoft</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2027</td></tr>
+<tr><td>TX</td><td>Medina</td><td class="pn">CyrusOne SAT14A Castroville Campus</td><td>CyrusOne</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>—</td><td>2027</td></tr>
+<tr><td>TX</td><td>Milam</td><td class="pn">Riot Platforms Rockdale Campus</td><td>Riot Platforms</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>700 MW</td><td>2020</td></tr>
+<tr><td>TX</td><td>Navarro</td><td class="pn">Riot Platforms Corsicana Campus</td><td>Riot Platforms</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>1000 MW</td><td>—</td></tr>
+<tr><td>TX</td><td>Childress</td><td class="pn">IREN Childress Data Center</td><td>IREN</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>750 MW</td><td>2023</td></tr>
+<tr><td>TX</td><td>Oldham</td><td class="pn">Hut 8 Vega Data Center</td><td>Hut 8</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>205 MW</td><td>2025</td></tr>
+<tr><td>TX</td><td>Dickens</td><td class="pn">Galaxy Helios AI &amp; HPC Campus</td><td>Galaxy Digital</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>200 MW</td><td>2026</td></tr>
+<tr><td>TX</td><td>Ector</td><td class="pn">Cipher Odessa Data Center</td><td>Cipher Mining</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>207 MW</td><td>2022</td></tr>
+<tr><td>TX</td><td>Mitchell</td><td class="pn">Cipher Barber Lake Data Center</td><td>Cipher Mining</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>300 MW</td><td>—</td></tr>
+<tr><td>TX</td><td>Winkler</td><td class="pn">Cipher Black Pearl Data Center</td><td>Cipher Mining</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>300 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Box Elder</td><td class="pn">Wonder Valley (Stratos Project) - Phase 1</td><td>O&#x27;Leary Digital</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>3000 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Box Elder</td><td class="pn">Wonder Valley (Stratos Project) - Phase 2 Expansion</td><td>O&#x27;Leary Digital</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>6000 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Millard</td><td class="pn">High Performance Compute Data Center Campus</td><td>Joule Capital Partners</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>4000 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Millard</td><td class="pn">Delta Gigasite - Phase 1</td><td>Creekstone Energy</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>300 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Millard</td><td class="pn">Delta Gigasite - Expansion</td><td>Creekstone Energy</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>9700 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Iron</td><td class="pn">Red Butte Data Center</td><td>BrightNight</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>1500 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Iron</td><td class="pn">Antelope Data Center</td><td>Pronghorn Development LLP</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1500 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Tooele</td><td class="pn">CyrusOne Dugway Proving Ground</td><td>CyrusOne</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>1000 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Duchesne</td><td class="pn">Nine Mile Data Center</td><td>Energence</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>400 MW</td><td>2029</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Tract Pole Canyon</td><td>Tract</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1700 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Tract Pony Express</td><td>Tract</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>120 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-1</td><td>QTS</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>177 MW</td><td>2027</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-2</td><td>QTS</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>177 MW</td><td>2026</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-3</td><td>QTS</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>177 MW</td><td>2026</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-4</td><td>QTS</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>177 MW</td><td>2028</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">QTS Eagle Mountain - DC-5</td><td>QTS</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>177 MW</td><td>2029</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Google Eagle Mountain</td><td>Google</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 1</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>48 MW</td><td>2020</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 2</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>48 MW</td><td>2020</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 3</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>48 MW</td><td>2021</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 4</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>48 MW</td><td>2022</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 5</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>48 MW</td><td>2023</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 6</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>99 MW</td><td>2025</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Building 7</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>99 MW</td><td>2025</td></tr>
+<tr><td>UT</td><td>Utah</td><td class="pn">Meta Eagle Mountain - Stadion South Expansion</td><td>Meta</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>286 MW</td><td>2027</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">West Jordan Campus - Phase 1</td><td>Novva</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>120 MW</td><td>2023</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">West Jordan Campus - Phase 2</td><td>Novva</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>75 MW</td><td>2026</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">West Jordan Campus - Phase 3</td><td>Novva</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>72 MW</td><td>2026</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">Aligned Salt Lake SLC 01</td><td>Aligned</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>34 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">Aligned Salt Lake SLC 02</td><td>Aligned</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>48 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">Aligned Salt Lake SLC 03</td><td>Aligned</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>100 MW</td><td>2022</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">Aligned Salt Lake SLC 04</td><td>Aligned</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>—</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">Granite Point Data Center: SLC6</td><td>DataBank</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>34 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">Oracle West Jordan (Project Sequoia)</td><td>Oracle</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>28 MW</td><td>2012</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">eBay Topaz SLC01</td><td>eBay</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>9 MW</td><td>2010</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">eBay Topaz SLC02</td><td>eBay</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>7 MW</td><td>2013</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">eBay Topaz SLC03</td><td>eBay</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>13 MW</td><td>—</td></tr>
+<tr><td>UT</td><td>Salt Lake</td><td class="pn">NSA Utah Data Center</td><td>National Security Agency</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>65 MW</td><td>2014</td></tr>
+<tr><td>UT</td><td>Millard</td><td class="pn">BluSky AI Delta Data Center</td><td>BluSky AI</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>50 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Caroline</td><td class="pn">CleanArc VA1 Caroline County Campus</td><td>CleanArc Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>900 MW</td><td>2027</td></tr>
+<tr><td>VA</td><td>Franklin</td><td class="pn">Crusoe Franklin County Summit View Data Center</td><td>Crusoe</td><td><span class="en">rumor</span><span class="zh" hidden>rumor</span></td><td>100 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Stafford</td><td class="pn">Vantage VA4 Fredericksburg / Stafford Campus</td><td>Vantage Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>192 MW</td><td>2027</td></tr>
+<tr><td>VA</td><td>Louisa</td><td class="pn">EdgeCore Shannon Hill Louisa County Campus</td><td>EdgeCore Digital Infrastructure</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1100 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Pittsylvania</td><td class="pn">STACK Berry Hill Megasite AI Data Campus</td><td>STACK Infrastructure</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Goochland</td><td class="pn">Tract Tuckahoe Technology Park</td><td>Tract</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>900 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Louisa</td><td class="pn">AWS Louisa County Technology Overlay District Campuses</td><td>Amazon Web Services</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>—</td><td>2040</td></tr>
+<tr><td>VA</td><td>Louisa</td><td class="pn">AWS Lake Anna Tech Campus</td><td>Amazon Data Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Stafford</td><td class="pn">AWS Potomac Church Tech Center</td><td>Amazon Data Services</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>128 MW</td><td>2027</td></tr>
+<tr><td>VA</td><td>Caroline; Spotsylvania</td><td class="pn">AWS Mattameade Data Center Campus</td><td>Amazon Data Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>770 MW</td><td>2027</td></tr>
+<tr><td>VA</td><td>Spotsylvania</td><td class="pn">AWS Cosner Tech Campus</td><td>Amazon Data Services</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>250 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Spotsylvania</td><td class="pn">AWS Carter&#x27;s Store Tech Campus</td><td>Amazon Data Services</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Spotsylvania</td><td class="pn">AWS Summit Crossing Tech Campus</td><td>Amazon Data Services</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Spotsylvania</td><td class="pn">AWS Orrock Tech Campus</td><td>Amazon Data Services</td><td><span class="en">Approved</span><span class="zh" hidden>已批准</span></td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Spotsylvania</td><td class="pn">PowerHouse 95 Campus</td><td>PowerHouse Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>800 MW</td><td>2025</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">PowerHouse ABX-1</td><td>PowerHouse Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>60 MW</td><td>2023</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">PowerHouse Arcola Campus</td><td>PowerHouse Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>120 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Vantage Ashburn I Campus</td><td>Vantage Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>146 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Vantage Ashburn II Campus</td><td>Vantage Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>96 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Vantage Ashburn III Campus</td><td>Vantage Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>288 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">NTT Ashburn Data Center Campus</td><td>NTT DATA / NTT Global Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>224 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Digital Realty Loudoun / Ashburn Campus</td><td>Digital Realty</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>108 MW</td><td>2016</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Equinix Ashburn Campus</td><td>Equinix</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Henrico</td><td class="pn">QTS Richmond 1 Campus</td><td>QTS Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>240 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Henrico</td><td class="pn">Meta Henrico Data Center</td><td>Meta</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>2020</td></tr>
+<tr><td>VA</td><td>Mecklenburg</td><td class="pn">Microsoft Boydton Data Center Campus</td><td>Microsoft</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>2010</td></tr>
+<tr><td>VA</td><td>Mecklenburg</td><td class="pn">Microsoft South Hill / Mecklenburg Greenfield Data Center</td><td>Microsoft</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Aligned Ashburn Campus</td><td>Aligned</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>180 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Prince William</td><td class="pn">Iron Mountain Manassas Northern Virginia Campus</td><td>Iron Mountain Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>280 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">CyrusOne Sterling NVA1-NVA3 Campus</td><td>CyrusOne</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">CyrusOne Sterling NVA5-NVA7 Campus</td><td>CyrusOne</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">CyrusOne Sterling NVA9</td><td>CyrusOne</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>135 MW</td><td>2020</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Sabey SDC Ashburn Campus</td><td>Sabey Data Centers</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>85 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">CloudHQ LC Campus</td><td>CloudHQ</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1700 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Yondr Northern Virginia / Project Allegro Campus</td><td>Yondr Group</td><td><span class="en">Under Construction</span><span class="zh" hidden>在建</span></td><td>336 MW</td><td>2026</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">STACK NVA04 Ashburn Campus</td><td>STACK Infrastructure</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>216 MW</td><td>2023</td></tr>
+<tr><td>VA</td><td>Prince William</td><td class="pn">STACK NVA02 Manassas Campus</td><td>STACK Infrastructure</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>420 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Stafford</td><td class="pn">STACK Stafford Technology Campus</td><td>STACK Infrastructure</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>1100 MW</td><td>—</td></tr>
+<tr><td>VA</td><td>Prince William</td><td class="pn">Prince William Digital Gateway</td><td>QTS; Compass Datacenters</td><td><span class="en">Unknown</span><span class="zh" hidden>未知</span></td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Loudoun</td><td class="pn">Amazon GWU Virginia Science and Technology Campus Redevelopment</td><td>Amazon Data Services</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>—</td><td>—</td></tr>
+<tr><td>VA</td><td>Wise</td><td class="pn">Project Oasis / Data Center Ridge</td><td>InvestSWVA / Energy DELTA Lab</td><td><span class="en">Announced</span><span class="zh" hidden>已公告</span></td><td>36 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Walla Walla</td><td class="pn">AWS Wallula Gap Phase 1</td><td>Amazon Data Services / Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>300 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Walla Walla</td><td class="pn">AWS Wallula Gap Phase 2</td><td>Amazon Data Services / Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>300 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Walla Walla</td><td class="pn">AWS Wallula Gap Phase 3</td><td>Amazon Data Services / Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>300 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Walla Walla</td><td class="pn">AWS Wallula Gap Phase 4</td><td>Amazon Data Services / Amazon Web Services</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>300 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Microsoft Columbia Data Center</td><td>Microsoft</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>50 MW</td><td>2007</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Microsoft MWH Data Center Campus</td><td>Microsoft</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>140.625 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Douglas</td><td class="pn">Microsoft East Wenatchee EAT02</td><td>Microsoft</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>57 MW</td><td>2022</td></tr>
+<tr><td>WA</td><td>Douglas</td><td class="pn">Microsoft East Wenatchee EAT06</td><td>Microsoft</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>57 MW</td><td>2027</td></tr>
+<tr><td>WA</td><td>Douglas</td><td class="pn">Microsoft East Wenatchee EAT09</td><td>Microsoft</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>57 MW</td><td>2028</td></tr>
+<tr><td>WA</td><td>Chelan</td><td class="pn">Microsoft Malaga EAT12</td><td>Microsoft</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>57 MW</td><td>2025</td></tr>
+<tr><td>WA</td><td>Chelan</td><td class="pn">Microsoft Malaga EAT13</td><td>Microsoft</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>57 MW</td><td>2027</td></tr>
+<tr><td>WA</td><td>Chelan</td><td class="pn">Microsoft Malaga EAT14</td><td>Microsoft</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>57 MW</td><td>2028</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Vantage WA1 Quincy Campus</td><td>Vantage Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>89 MW</td><td>2023</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Vantage WA13</td><td>Vantage Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>64 MW</td><td>2023</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Sabey SDC Quincy Campus</td><td>Sabey Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>105.05 MW</td><td>2023</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Sabey Intergate Quincy Building E</td><td>Sabey Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>6 MW</td><td>2027</td></tr>
+<tr><td>WA</td><td>Douglas</td><td class="pn">Sabey SDC Columbia Campus</td><td>Sabey Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>70 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Douglas</td><td class="pn">Sabey SDC Columbia Expansion</td><td>Sabey Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>90 MW</td><td>2025</td></tr>
+<tr><td>WA</td><td>King</td><td class="pn">Sabey SDC Seattle Campus</td><td>Sabey Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>54 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>King</td><td class="pn">Sabey SDC Seattle Liquid-Cooling Capacity Addition</td><td>Sabey Data Centers</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>6 MW</td><td>2025</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">H5 Quincy I</td><td>H5 Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>40 MW</td><td>2018</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">H5 Quincy II and III Campus</td><td>H5 Data Centers</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>82 MW</td><td>2025</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">Yahoo Quincy Data Center Expansion</td><td>Yahoo / Oath Holdings</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>27.75 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">CyrusOne Quincy</td><td>CyrusOne</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>45.75 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>Grant</td><td class="pn">NTT DATA Quincy</td><td>NTT DATA Services</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>42 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>King</td><td class="pn">Digital Realty Seattle SEA10</td><td>Digital Realty</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>13 MW</td><td>—</td></tr>
+<tr><td>WA</td><td>King</td><td class="pn">Digital Realty 301 Virginia Street Seattle</td><td>Digital Realty</td><td><span class="en">Planned</span><span class="zh" hidden>规划</span></td><td>—</td><td>—</td></tr>
+<tr><td>WA</td><td>King</td><td class="pn">Equinix Seattle SE2</td><td>Equinix</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>—</td></tr>
+<tr><td>WA</td><td>King</td><td class="pn">Equinix Seattle SE3</td><td>Equinix / Clise Properties</td><td><span class="en">Operational</span><span class="zh" hidden>运营中</span></td><td>—</td><td>2013</td></tr></tbody></table>
   </div>
 
   <div class="sec">
-    <h2>Data source research 数据源调研（28 entries 条）</h2>
-    <table><thead><tr><th>Name 名称</th><th>URL</th><th>Access 可访问</th><th>Auth 认证</th><th>Est. projects 估计项目数</th><th>Fetch 抓取方式</th></tr></thead><tbody><tr><td>Wikipedia Category:Data centers / operator pages</td><td><a href="https://en.wikipedia.org/wiki/Category:Data_centers">https://en.wikipedia.org/wiki/Category:Data_centers</a></td><td>✅</td><td>需要</td><td>20</td><td>curl/api</td></tr>
+    <h2><span class="en">Data source research (28 entries)</span><span class="zh" hidden>数据源调研（28 条）</span></h2>
+    <table><thead><tr><span class="en">&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;URL&lt;/th&gt;&lt;th&gt;Access&lt;/th&gt;&lt;th&gt;Auth&lt;/th&gt;&lt;th&gt;Est. projects&lt;/th&gt;&lt;th&gt;Fetch&lt;/th&gt;</span><span class="zh" hidden>&lt;th&gt;名称&lt;/th&gt;&lt;th&gt;URL&lt;/th&gt;&lt;th&gt;可访问&lt;/th&gt;&lt;th&gt;认证&lt;/th&gt;&lt;th&gt;估计项目数&lt;/th&gt;&lt;th&gt;抓取方式&lt;/th&gt;</span></tr></thead><tbody><tr><td>Wikipedia Category:Data centers / operator pages</td><td><a href="https://en.wikipedia.org/wiki/Category:Data_centers">https://en.wikipedia.org/wiki/Category:Data_centers</a></td><td>✅</td><td>需要</td><td>20</td><td>curl/api</td></tr>
 <tr><td>Utility Dive news, RSS, search, and Data Centers and the US Grid trendline</td><td><a href="https://www.utilitydive.com/feeds/news/">https://www.utilitydive.com/feeds/news/</a></td><td>✅</td><td>需要</td><td>50</td><td>curl/web_search</td></tr>
 <tr><td>Data Center Dynamics news archive</td><td><a href="https://www.datacenterdynamics.com/en/news/">https://www.datacenterdynamics.com/en/news/</a></td><td>❌</td><td>需要</td><td>200</td><td>web_search/browser</td></tr>
 <tr><td>Virginia Economic Development Partnership press releases</td><td><a href="https://www.vedp.org/press-releases">https://www.vedp.org/press-releases</a></td><td>✅</td><td>需要</td><td>25</td><td>curl/web_search</td></tr>
@@ -1145,7 +1153,19 @@ a { color:#63d3ff; text-decoration:none; word-break:break-all; }
 <tr><td>Cloudscene Data Center Directory</td><td><a href="https://cloudscene.com/data-center/united-states-of-america/ashburn/databank-nv1">https://cloudscene.com/data-center/united-states-of-america/ashburn/databank-nv1</a></td><td>✅</td><td>需要</td><td></td><td>curl + web_search</td></tr></tbody></table>
   </div>
 
-  <div class="foot">Rendered by dev4bot · 由 dev4bot 自动渲染 · Data from scripts/expansion/ · 数据来自 scripts/expansion/ · Powered by LingTai AI: https://github.com/Lingtai-AI/lingtai</div>
+  <div class="foot"><span class="en">Rendered by dev4bot. Data from scripts/expansion/. Powered by LingTai AI: https://github.com/Lingtai-AI/lingtai</span><span class="zh" hidden>由 dev4bot 自动渲染。数据来自 scripts/expansion/。Powered by LingTai AI: https://github.com/Lingtai-AI/lingtai</span></div>
 </div>
+
+<script>
+function setLang(l) {
+  document.documentElement.lang = l;
+  document.getElementById('btn-en').classList.toggle('active', l==='en');
+  document.getElementById('btn-zh').classList.toggle('active', l==='zh');
+  document.querySelectorAll('.en').forEach(e => e.hidden = (l!=='en'));
+  document.querySelectorAll('.zh').forEach(e => e.hidden = (l!=='zh'));
+  try { localStorage.setItem('kanban-lang', l); } catch(e) {}
+}
+try { var saved = localStorage.getItem('kanban-lang'); if (saved==='zh' || saved==='en') setLang(saved); } catch(e) {}
+</script>
 </body>
 </html>

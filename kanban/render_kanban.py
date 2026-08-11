@@ -13,9 +13,9 @@ EXP = os.path.join(ROOT, 'scripts', 'expansion')
 OUT = os.path.join(ROOT, 'kanban', 'index.html')
 
 STATUS_LABEL = {
-    'operational': '运营中 / Operational', 'construction': '在建 / Under Construction', 'planned': '规划 / Planned',
-    'approved': '已批准 / Approved', 'announced': '已公告 / Announced', 'rejected': '已否决 / Rejected',
-    'unknown': '未知 / Unknown', 'no_projects_found': '未发现 / None Found',
+    'operational': ('Operational', '运营中'), 'construction': ('Under Construction', '在建'), 'planned': ('Planned', '规划'),
+    'approved': ('Approved', '已批准'), 'announced': ('Announced', '已公告'), 'rejected': ('Rejected', '已否决'),
+    'unknown': ('Unknown', '未知'), 'no_projects_found': ('None Found', '未发现'),
 }
 
 
@@ -32,6 +32,11 @@ def load_jsonl(path):
                         pass
     return rows
 
+
+
+
+def duo(en, zh):
+    return f'<span class="en">{html.escape(en)}</span><span class="zh" hidden>{html.escape(zh)}</span>'
 
 def main():
     now = datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
@@ -122,7 +127,7 @@ def main():
             f'<td>{html.escape(r.get("county", "") or "")}</td>'
             f'<td class="pn">{html.escape(r.get("project_name", "") or "")}</td>'
             f'<td>{html.escape(r.get("developer", "") or "")}</td>'
-            f'<td>{html.escape(STATUS_LABEL.get(r.get("status", ""), r.get("status", "") or ""))}</td>'
+            f'<td>{duo(*STATUS_LABEL.get(r.get("status", ""), (r.get("status", "") or "", r.get("status", "") or "")))}</td>'
             f'<td>{html.escape(cap_s)}</td><td>{html.escape(str(yr))}</td></tr>')
     sp_html = '\n'.join(sp_rows) if sp_rows else '<tr><td colspan="7">暂无</td></tr>'
 
@@ -144,14 +149,14 @@ def main():
     for s in order:
         rows = status_buckets.get(s, [])
         if rows:
-            bucket_html += f'<div class="bucket"><b>{STATUS_LABEL.get(s, s)}</b> <span class="cnt">{len(rows)}</span></div>'
+            bucket_html += f'<div class="bucket">{duo(*STATUS_LABEL.get(s, (s, s)))} <span class="cnt">{len(rows)}</span></div>'
 
     html_doc = f'''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>US Data Center County Exploration Kanban · US 数据中心 county 探索看板</title>
+<title>US Data Center County Exploration Kanban</title>
 <style>
 :root {{ --bg:#0f1420; --card:#171e2e; --line:#26304a; --txt:#dbe4ff; --mut:#7f8db3; --acc:#4f8cff; }}
 * {{ box-sizing:border-box; }}
@@ -183,48 +188,68 @@ th {{ color:var(--mut); font-weight:500; }}
 td.pn {{ max-width:260px; }}
 a {{ color:#63d3ff; text-decoration:none; word-break:break-all; }}
 .foot {{ color:var(--mut); font-size:11px; margin-top:30px; }}
+.langbar {{ display:flex; gap:8px; margin-bottom:14px; }}
+.langbar button {{ background:var(--card); border:1px solid var(--line); color:var(--txt); border-radius:8px; padding:6px 14px; font-size:13px; cursor:pointer; }}
+.langbar button.active {{ background:var(--acc); color:#fff; border-color:var(--acc); }}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>US Data Center County Exploration Kanban · US 数据中心 county 探索看板</h1>
-  <div class="sub">Goal: explore every US county to build the widest data-center superset · 目标：全美 3,000+ county 逐一探索，构建最宽口径数据中心超集清单 · Rendered 渲染于 {html.escape(now)}</div>
+  <h1>US Data Center County Exploration Kanban</h1>
+  <div class="langbar">
+    <button id="btn-en" class="active" onclick="setLang('en')">English</button>
+    <button id="btn-zh" onclick="setLang('zh')">中文</button>
+    <span class="sub" style="margin-left:auto">Rendered {html.escape(now)} UTC</span>
+  </div>
+  <div class="sub">{duo("Goal: explore every US county to build the widest data-center superset", "目标：全美 3,000+ county 逐一探索，构建最宽口径数据中心超集清单")}</div>
 
   <div class="metrics">
-    <div class="metric"><div class="v">{total_counties}</div><div class="l">Total US counties · 全美 county 总数</div></div>
-    <div class="metric"><div class="v">{len(batches)}</div><div class="l">Exploration batches (10 per batch) · 探索批次（每批 10 县）</div></div>
-    <div class="metric"><div class="v">{len(done_batches)}</div><div class="l">Completed batches · 已完成批次</div><div class="bar"><div style="width:{pct:.1f}%"></div></div><div style="font-size:11px;color:var(--mut)">{pct:.1f}%</div></div>
-    <div class="metric"><div class="v">{done_counties}</div><div class="l">Counties explored · 已完成 county</div><div class="bar"><div style="width:{county_pct:.1f}%"></div></div><div style="font-size:11px;color:var(--mut)">{county_pct:.1f}%</div></div>
-    <div class="metric"><div class="v">{len(county_projects)}</div><div class="l">Projects found (county) · county 探索发现项目</div></div>
-    <div class="metric"><div class="v">{len(state_projects)}</div><div class="l">State-level projects · 州级探索项目</div></div>
-    <div class="metric"><div class="v">{len(research)}</div><div class="l">Data sources researched · 数据源调研条目</div></div>
+    <div class="metric"><div class="v">{total_counties}</div><div class="l">{duo("Total US counties", "全美 county 总数")}</div></div>
+    <div class="metric"><div class="v">{len(batches)}</div><div class="l">{duo("Exploration batches (10 per batch)", "探索批次（每批 10 县）")}</div></div>
+    <div class="metric"><div class="v">{len(done_batches)}</div><div class="l">{duo("Completed batches", "已完成批次")}</div><div class="bar"><div style="width:{pct:.1f}%"></div></div><div style="font-size:11px;color:var(--mut)">{pct:.1f}%</div></div>
+    <div class="metric"><div class="v">{done_counties}</div><div class="l">{duo("Counties explored", "已完成 county")}</div><div class="bar"><div style="width:{county_pct:.1f}%"></div></div><div style="font-size:11px;color:var(--mut)">{county_pct:.1f}%</div></div>
+    <div class="metric"><div class="v">{len(county_projects)}</div><div class="l">{duo("Projects found (county)", "county 探索发现项目")}</div></div>
+    <div class="metric"><div class="v">{len(state_projects)}</div><div class="l">{duo("State-level projects", "州级探索项目")}</div></div>
+    <div class="metric"><div class="v">{len(research)}</div><div class="l">{duo("Data sources researched", "数据源调研条目")}</div></div>
   </div>
 
   <div class="sec">
-    <h2>Status distribution (county finds, first 30 batches) · 探索进度状态分布（county 发现，前 30 批）</h2>
+    <h2>{duo("Status distribution (county finds)", "探索进度状态分布（county 发现）")}</h2>
     <div class="buckets">{bucket_html}</div>
   </div>
 
   <div class="sec">
-    <h2>Batch board · 批次看板（Done 已完成 {len(done_batches)} / Total 总 {len(batches)}）</h2>
+    <h2>{duo(f"Batch board (done {len(done_batches)} / total {len(batches)})", f"批次看板（已完成 {len(done_batches)} / 总 {len(batches)}）")}</h2>
     <div class="board">
-      <div class="col"><h3>⏳ Pending / In progress 待探索 / 探索中（{len(pending_batches)} 批）</h3>{cards_html}</div>
-      <div class="col"><h3>✅ Completed 已完成（{len(done_batches)} 批）</h3>{done_cards_html}</div>
+      <div class="col"><h3>{duo(f"Pending / In progress ({len(pending_batches)})", f"待探索 / 探索中（{len(pending_batches)} 批）")}</h3>{cards_html}</div>
+      <div class="col"><h3>{duo(f"Completed ({len(done_batches)})", f"已完成（{len(done_batches)} 批）")}</h3>{done_cards_html}</div>
     </div>
   </div>
 
   <div class="sec">
-    <h2>State-level projects 州级探索项目（{len(state_projects)} rows 条，showing first 400 显示前 400）</h2>
-    <table><thead><tr><th>State 州</th><th>County 县</th><th>Project 项目</th><th>Developer 开发商</th><th>Status 状态</th><th>Capacity 容量</th><th>Year 年份</th></tr></thead><tbody>{sp_html}</tbody></table>
+    <h2>{duo(f"State-level projects ({len(state_projects)} rows, first 400)", f"州级探索项目（{len(state_projects)} 条，显示前 400）")}</h2>
+    <table><thead><tr>{duo("<th>State</th><th>County</th><th>Project</th><th>Developer</th><th>Status</th><th>Capacity</th><th>Year</th>", "<th>州</th><th>县</th><th>项目</th><th>开发商</th><th>状态</th><th>容量</th><th>年份</th>")}</tr></thead><tbody>{sp_html}</tbody></table>
   </div>
 
   <div class="sec">
-    <h2>Data source research 数据源调研（{len(research)} entries 条）</h2>
-    <table><thead><tr><th>Name 名称</th><th>URL</th><th>Access 可访问</th><th>Auth 认证</th><th>Est. projects 估计项目数</th><th>Fetch 抓取方式</th></tr></thead><tbody>{rs_html}</tbody></table>
+    <h2>{duo(f"Data source research ({len(research)} entries)", f"数据源调研（{len(research)} 条）")}</h2>
+    <table><thead><tr>{duo("<th>Name</th><th>URL</th><th>Access</th><th>Auth</th><th>Est. projects</th><th>Fetch</th>", "<th>名称</th><th>URL</th><th>可访问</th><th>认证</th><th>估计项目数</th><th>抓取方式</th>")}</tr></thead><tbody>{rs_html}</tbody></table>
   </div>
 
-  <div class="foot">Rendered by dev4bot · 由 dev4bot 自动渲染 · Data from scripts/expansion/ · 数据来自 scripts/expansion/ · Powered by LingTai AI: https://github.com/Lingtai-AI/lingtai</div>
+  <div class="foot">{duo("Rendered by dev4bot. Data from scripts/expansion/. Powered by LingTai AI: https://github.com/Lingtai-AI/lingtai", "由 dev4bot 自动渲染。数据来自 scripts/expansion/。Powered by LingTai AI: https://github.com/Lingtai-AI/lingtai")}</div>
 </div>
+
+<script>
+function setLang(l) {{
+  document.documentElement.lang = l;
+  document.getElementById('btn-en').classList.toggle('active', l==='en');
+  document.getElementById('btn-zh').classList.toggle('active', l==='zh');
+  document.querySelectorAll('.en').forEach(e => e.hidden = (l!=='en'));
+  document.querySelectorAll('.zh').forEach(e => e.hidden = (l!=='zh'));
+  try {{ localStorage.setItem('kanban-lang', l); }} catch(e) {{}}
+}}
+try {{ var saved = localStorage.getItem('kanban-lang'); if (saved==='zh' || saved==='en') setLang(saved); }} catch(e) {{}}
+</script>
 </body>
 </html>'''
 

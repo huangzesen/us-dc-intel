@@ -1,43 +1,50 @@
-# US Data Center Intelligence — 顶层路由 SKILL（渐进式披露）
+# GRIDWATCH · 全球数据中心建设情报库 — 顶层方法论 SKILL
 
-维护美国在建/规划数据中心的可自更新的情报库。每中心一个目录，每目录一份看护契约；本文件只做路由，细节在各中心 `SKILL.md` 与 `scripts/`。
+> 灵台方法论：应需而化、善假于物、学而不殆、群而不孤、去芜存菁。
+> 本库是**可自维护**的情报项目：任何 agent 读此文件后即可接手，任何更新都走 git、可追溯。
 
-## 查什么 / 去哪里查
+## 一 · 项目是什么
 
-| 想查 | 入口 |
+维护全球（当前**美洲**起步）在建/规划数据中心的可更新情报库：
+
+- 每个**国家/地区**按**二级行政区**探索（US=county、CA=省/地区、MX=州、BR=州、AR=省……）
+- 每个中心一条结构化记录（`data.json`）+ 看护契约（`SKILL.md`）+ 历次更新（`NOTES.md`）
+- 汇总进 `datacenters.db`（SQLite）+ `merge-output/centers.jsonl`，驱动看板与正式站
+- 正式站：`astro/`（Astro 静态站，GRIDWATCH 设计），部署于 https://xhelio.ai/datacenters/
+
+## 二 · 结构地图（去哪个文件夹查什么）
+
+| 想做什么 | 入口 |
 |---|---|
-| 某中心的最新状态 | `dc/<slug>/SKILL.md`（先读）+ `data.json`（结构化基线）+ `NOTES.md`（历次更新） |
-| 全国汇总 / 渲染报告 | `legacy-baseline-20260716/us_data_center_construction_panorama.html`（7/16 冻结基线）；后续汇总由 scripts 生成 |
-| 找「不在 208 里的数据中心」 | 见下方「补漏发现」 |
-| 某州/区域概览 | `legacy-baseline-20260716/national_master_inventory.md` + `county_decision_register.json` |
+| 顶层导航/代码地图 | `ANATOMY.md` |
+| 查某中心最新状态 | `dc/<slug>/SKILL.md` → `data.json` → `NOTES.md` |
+| 数据管线/脚本 | `scripts/SKILL.md` → `scripts/` |
+| 探索批次与原始结果 | `scripts/expansion/`（county-batches / county-results / state-projects / americas） |
+| 合并/数据库 | `scripts/merge_all_sources.py` → `datacenters.db` + `merge-output/` |
+| 静态看板渲染 | `kanban/SKILL.md` → `kanban/render_kanban.py` |
+| 正式站（Astro） | `astro/SKILL.md` → `astro/` |
+| 设计文档 | `design/SKILL.md` → `design/` |
+| 冻结基线（7/16） | `legacy-baseline-20260716/SKILL.md` → `legacy-baseline-20260716/` |
 
-## 怎么更新（给任何接手的 agent）
+## 三 · 怎么更新（给任何接手的 agent）
 
-1. `git -C /Users/huangzesen/work/projects/us-dc-intel pull`（或 clone）
-2. 读目标中心 `dc/<slug>/SKILL.md` 的「维护契约」节（数据源优先级、字段、验证方式）
-3. 按官方/地方政府来源优先搜索新事实（permit、site plan、utility record、county vote、announcement）
-4. 更新 `data.json`（保留旧值到 history）或追加 `NOTES.md` 新节（日期 + 变化 + 来源 URL）
-5. `git add` + commit（message 含 master_id 与变更摘要）
-6. 定期（每周）派发刷新：见 `scripts/` 与下方「派活模式」
+1. `git pull`（或 clone 本 repo）
+2. 读 `ANATOMY.md` 定位模块；读目标文件夹 `SKILL.md` 的「维护契约」
+3. 探索/刷新：派 daemon，任务书必须含 **NO-DELETION** 契约 + 目标路径 + 来源 URL + 禁 git 写入
+4. 合并：`python3 scripts/merge_all_sources.py`（幂等）→ 更新 `datacenters.db`
+5. 构建：`kanban/render_kanban.py` 或 `astro/` 内 `npm run build`
+6. 提交：`git add` + commit（message 含 country/division/变化摘要）；部署需另行授权
 
-## 派活模式（大规模刷新 / 补证据）
+## 四 · 国家/地区探索规范
 
-- **208 中心分批刷新**：每 daemon 1-2 个中心，任务书必须含：只读目标清单（`dc/<slug>` 路径）、NO-DELETION 契约、产出 = 更新后的 data.json/NOTES.md + 来源 URL、禁止 git 写入（由父 agent 统一 review 后提交）。
-- **补漏发现（Jason 3107 指示）**：派 codex daemon 搜「不在 208 baseline 里的在建/规划数据中心」——超大规模新公告（xAI/Meta/Google/OpenAI Stargate 后续）、二三线市场、CBRE/JLL/C&W/Cleanview 覆盖外项目、电网 queue 新入列；产出 candidate list（名称/位置/来源 URL/口径），**人审后**再并入 repo（新增目录）。
-- **证据缺口（23 seed-only records）**：这些只有 seed 无 phase3 详情，优先补证。
+- 每个国家/地区先建**二级行政区清单**（`scripts/expansion/americas/americas-manifest.jsonl`）
+- 按行政区逐个探索（宁多勿漏），产出 JSONL → 合并去重 → 入库
+- 字段规范（每中心）：`country`、`subnational`（州/省/区）、`name`、`status`、`capacity_mw`、`developer`、`source_urls`、`evidence_date`、`evidence_grade`
+- **evidence vs projected 分开；announced 不当 construction；缺证据标 grade，不臆造**
 
-## 数据基线
+## 五 · 边界（不可妥协）
 
-- 冻结基线：`legacy-baseline-20260716/`（2026-07-16；`national_master_inventory.json` SHA `2113de4b…`，208 masters = 185 详细 + 23 seed-only）
-- 来源所有权：baseline 原产物属 衡枢（codex）/算枢（datacenter-tracker）；本 repo 是 Jason 授权的独立维护形态
-- 周更 runbook 参考（W32 实验 BLOCKED_INCOMPLETE，勿复用其结论）：算枢 `datacenter-tracker/workspace/weekly_refresh_2026W32_20260804T0630PDT/control/`
-
-## 生成 / 脚本
-
-- `scripts/generate_skeleton.py`：从冻结 baseline 生成/刷新 `dc/<slug>/` 骨架（幂等，不覆盖 NOTES.md）
-- `scripts/` 后续可加：`refresh_one.py`（单中心刷新模板）、`discover_new.py`（补漏候选）、`render_summary.py`（全国汇总）
-
-## 边界
-
-- 不删 baseline 原始 bytes；不改算枢 workspace；不把 announced 当 construction；evidence vs projected 分开。
-- 对外发布（huangzesen.github.io 等）需 Jason 另行授权。
+- 不删除任何已有文件/目录（含 baseline 原始 bytes）；清理需 Jason 明确授权
+- 不把 announced 当 construction；不改算枢 workspace；对外发布需 Jason 另行授权
+- 公开发布物（HTML/评论）不得含内部路径（/Users/、scratch/、daemons/、logs/ 等）
+- 每个文件夹都有自己的 `SKILL.md` 与职责，跨模块改动先读 `ANATOMY.md` 找 owner

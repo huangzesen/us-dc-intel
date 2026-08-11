@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GRIDWATCH — US Data Center Buildout Intelligence</title>
+<style>
+/* ============ tokens ============ */
+:root{
+  --mono: ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;
+  --sans: system-ui,-apple-system,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#0A0D12; --sf:#11161F; --sf2:#151C28; --ln:#1E2734; --ln2:#2A3547;
+  --ink:#E8EDF6; --ink2:#A7B2C5; --mut:#66748C;
+  --acc:#F5A83C; --acc-ink:#F5A83C; --acc-dim:rgba(245,168,60,.14);
+  --gridline:rgba(140,170,220,.045);
+  --st-ann:#9085E9; --st-pla:#D55181; --st-app:#3987E5; --st-con:#D95926; --st-op:#199E70; --st-rej:#E66767; --st-unk:#898781;
+  --b0:#0D366B; --b1:#184F95; --b2:#2A78D6; --b3:#5598E7; --b4:#86B6EF;
+  --b0i:#E8EDF6; --b1i:#E8EDF6; --b2i:#FFFFFF; --b3i:#0B1B33; --b4i:#0B1B33;
+  --ev0:#3987E5; --ev1:#6DA7EC; --ev2:#9EC5F4; --ev3:#898781;
+  --glow:radial-gradient(ellipse 60% 45% at 50% 0%, rgba(58,110,190,.16), transparent 70%);
+}
+:root[data-theme="light"]{
+  color-scheme: light;
+  --bg:#F5F5F1; --sf:#FCFCFA; --sf2:#F2F2ED; --ln:#E3E2DA; --ln2:#D2D1C7;
+  --ink:#14181F; --ink2:#4C5566; --mut:#7C8698;
+  --acc:#E09A2D; --acc-ink:#8A5A00; --acc-dim:rgba(224,154,45,.16);
+  --gridline:rgba(60,80,120,.055);
+  --st-ann:#4A3AA7; --st-pla:#E87BA4; --st-app:#2A78D6; --st-con:#EB6834; --st-op:#1BAF7A; --st-rej:#E34948; --st-unk:#898781;
+  --b0:#CDE2FB; --b1:#9EC5F4; --b2:#5598E7; --b3:#256ABF; --b4:#0D366B;
+  --b0i:#14304F; --b1i:#14304F; --b2i:#FFFFFF; --b3i:#FFFFFF; --b4i:#FFFFFF;
+  --ev0:#2A78D6; --ev1:#5598E7; --ev2:#9EC5F4; --ev3:#898781;
+  --glow:radial-gradient(ellipse 60% 45% at 50% 0%, rgba(42,120,214,.10), transparent 70%);
+}
+/* ============ base ============ */
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0; background:var(--bg); color:var(--ink); font:15px/1.6 var(--sans); -webkit-font-smoothing:antialiased}
+body::before{content:""; position:fixed; inset:0; pointer-events:none; z-index:0;
+  background-image:repeating-linear-gradient(0deg,var(--gridline) 0 1px,transparent 1px 44px),
+                   repeating-linear-gradient(90deg,var(--gridline) 0 1px,transparent 1px 44px);}
+a{color:var(--acc-ink); text-decoration:none}
+[data-lang="en"] .zh{display:none!important}
+[data-lang="zh"] .en{display:none!important}
+.wrap{max-width:1240px; margin:0 auto; padding:0 24px; position:relative; z-index:1}
+/* ============ topbar ============ */
+.topbar{position:sticky; top:0; z-index:50; background:color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter:blur(10px); border-bottom:1px solid var(--ln)}
+.topbar .wrap{display:flex; align-items:center; gap:14px; height:58px}
+.brand{display:flex; align-items:center; gap:10px; font-family:var(--mono)}
+.brand .blk{width:14px; height:14px; background:var(--acc); border-radius:3px; box-shadow:0 0 12px var(--acc-dim)}
+.brand b{font-size:15px; letter-spacing:.14em}
+.brand span{color:var(--mut); font-size:11px; letter-spacing:.14em}
+.tgl{display:flex; border:1px solid var(--ln2); border-radius:8px; overflow:hidden; margin-left:auto}
+.tgl + .tgl{margin-left:0}
+.tgl button{appearance:none; border:0; background:transparent; color:var(--ink2); font:12px var(--mono); letter-spacing:.06em; padding:7px 13px; cursor:pointer}
+.tgl button.on{background:var(--acc-dim); color:var(--acc-ink)}
+.tgl button:hover:not(.on){color:var(--ink)}
+/* ============ hero ============ */
+.hero{position:relative; padding:76px 0 44px; overflow:hidden; background:var(--glow)}
+.hero .sweep{position:absolute; inset:0; pointer-events:none;
+  background:linear-gradient(90deg,transparent 0%,var(--acc-dim) 50%,transparent 100%);
+  background-size:40% 100%; background-repeat:no-repeat; opacity:0;
+  animation:sweep 2.2s cubic-bezier(.4,0,.2,1) .3s 1;}
+@keyframes sweep{0%{opacity:.9;background-position:-60% 0}100%{opacity:0;background-position:170% 0}}
+.kick{font:11px var(--mono); letter-spacing:.2em; text-transform:uppercase; color:var(--mut); margin-bottom:10px}
+.kick .idx{color:var(--acc-ink); margin-right:8px}
+.live{display:inline-flex; align-items:center; gap:7px; font:11px var(--mono); letter-spacing:.14em; color:var(--ink2);
+  border:1px solid var(--ln2); border-radius:99px; padding:4px 12px; margin-bottom:22px}
+.live .dot{width:7px; height:7px; border-radius:50%; background:var(--st-op); animation:pulse 2.2s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(25,158,112,.5)}50%{box-shadow:0 0 0 6px rgba(25,158,112,0)}}
+.big{font-family:var(--mono); font-weight:700; font-size:clamp(56px,9vw,104px); line-height:1.02; letter-spacing:-.03em; display:flex; align-items:baseline; gap:14px; flex-wrap:wrap}
+.big .unit{font-size:.34em; color:var(--ink2); font-weight:600; letter-spacing:.04em}
+.big-sub{position:relative; display:inline-block; margin-top:14px; padding-top:14px; color:var(--ink2); font-size:16px; max-width:660px}
+.big-sub::before{content:""; position:absolute; top:0; left:0; height:3px; width:0; background:var(--acc); animation:draw 1.4s cubic-bezier(.3,.7,.2,1) .9s forwards}
+@keyframes draw{to{width:120px}}
+.stats{display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-top:40px}
+.stat{background:var(--sf); border:1px solid var(--ln); border-radius:14px; padding:16px 18px}
+.stat .v{font:700 26px var(--mono); letter-spacing:-.01em}
+.stat .l{color:var(--mut); font-size:12px; margin-top:3px}
+.stat .bar100{height:4px; background:var(--sf2); border-radius:2px; overflow:hidden; margin-top:10px}
+.stat .bar100 i{display:block; height:100%; width:0; background:var(--acc); transition:width 1.4s cubic-bezier(.3,.7,.2,1) .8s}
+.in .bar100 i{width:100%}
+/* ============ sections ============ */
+.sec{padding:34px 0 6px}
+.sec-head{display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; margin-bottom:14px}
+.sec-head h2{font:600 20px var(--sans); margin:0}
+.sec-head .note{color:var(--mut); font-size:13px}
+.card{background:var(--sf); border:1px solid var(--ln); border-radius:16px; padding:22px}
+/* reveal */
+.rv{opacity:0; transform:translateY(16px); transition:opacity .7s ease, transform .7s ease}
+.rv.in{opacity:1; transform:none}
+/* ============ map ============ */
+.maprow{display:grid; grid-template-columns:minmax(0,1fr) 250px; gap:26px}
+.usmap{display:grid; grid-template-columns:repeat(11,minmax(0,1fr)); gap:6px; align-self:start}
+.tile{aspect-ratio:1; border-radius:9px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:1px;
+  cursor:pointer; border:1px solid transparent; transition:transform .15s ease, filter .15s ease; user-select:none}
+.tile:hover{transform:translateY(-2px); filter:brightness(1.12)}
+.tile.sel{outline:2px solid var(--acc); outline-offset:1px}
+.tile .ab{font:700 13px var(--mono); letter-spacing:.02em}
+.tile .tv{font:10px var(--mono); opacity:.82}
+.b0{background:var(--b0); color:var(--b0i)} .b1{background:var(--b1); color:var(--b1i)} .b2{background:var(--b2); color:var(--b2i)}
+.b3{background:var(--b3); color:var(--b3i)} .b4{background:var(--b4); color:var(--b4i)}
+.mapside .side-num{font:700 34px var(--mono)}
+.mapside .side-cap{color:var(--mut); font-size:12px; margin-bottom:18px}
+.legend{display:flex; flex-direction:column; gap:7px; margin-top:8px}
+.legend .lg{display:flex; align-items:center; gap:9px; font:12px var(--mono); color:var(--ink2)}
+.legend .sw{width:22px; height:13px; border-radius:3px}
+.mapnote{color:var(--mut); font-size:12px; margin-top:18px; line-height:1.5}
+/* ============ funnel ============ */
+.frow{display:grid; grid-template-columns:150px minmax(0,1fr) 172px; align-items:center; gap:14px; padding:7px 0}
+.frow .fl{font:12px var(--mono); color:var(--ink2); text-align:right; display:flex; align-items:center; justify-content:flex-end; gap:8px}
+.fdot{width:9px; height:9px; border-radius:3px; flex:none}
+.fbar{height:34px; background:var(--sf2); border-radius:6px; overflow:hidden}
+.fbar i{display:block; height:100%; width:0; border-radius:0 4px 4px 0; transition:width 1s cubic-bezier(.25,.7,.25,1)}
+.in .fbar i{width:var(--w)}
+.frow .fv{font:13px var(--mono)}
+.frow .fv b{font-size:15px}
+.frow .fv span{color:var(--mut); font-size:11px; display:block}
+/* ============ wave chart ============ */
+.wave{display:flex; align-items:flex-end; gap:10px; height:250px; padding-top:26px; border-bottom:1px solid var(--ln2)}
+.wcol{flex:1; display:flex; flex-direction:column-reverse; align-items:stretch; position:relative; min-width:0; cursor:default}
+.wseg{width:100%; transform:scaleY(0); transform-origin:bottom; transition:transform .8s cubic-bezier(.25,.7,.25,1); transition-delay:var(--d,0s)}
+.in .wseg{transform:scaleY(1)}
+.wseg + .wseg{margin-bottom:2px}
+.wseg:last-child{border-radius:4px 4px 0 0}
+.wtot{position:absolute; top:-22px; left:0; right:0; text-align:center; font:11px var(--mono); color:var(--mut)}
+.wx{display:flex; gap:10px; margin-top:8px}
+.wx span{flex:1; text-align:center; font:10px var(--mono); color:var(--mut)}
+.chart-legend{display:flex; gap:20px; flex-wrap:wrap; margin-top:16px}
+.chart-legend .lg{display:flex; align-items:center; gap:8px; font-size:12px; color:var(--ink2)}
+.chart-legend .sw{width:12px; height:12px; border-radius:3px}
+/* ============ leaderboard ============ */
+.tabs{display:flex; gap:8px; margin-bottom:16px}
+.tabs button{appearance:none; border:1px solid var(--ln2); background:transparent; color:var(--ink2); font:12px var(--mono);
+  letter-spacing:.05em; border-radius:8px; padding:7px 14px; cursor:pointer}
+.tabs button.on{background:var(--acc-dim); border-color:var(--acc); color:var(--acc-ink)}
+.drow{display:grid; grid-template-columns:26px 216px minmax(0,1fr) 118px; align-items:center; gap:12px; padding:6px 0}
+.drow .rk{font:11px var(--mono); color:var(--mut); text-align:right}
+.drow .dn{font-size:13px; color:var(--ink); overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.dbar{height:20px; background:var(--sf2); border-radius:5px; overflow:hidden}
+.dbar i{display:block; height:100%; width:0; background:var(--b2); border-radius:0 4px 4px 0; transition:width .9s cubic-bezier(.25,.7,.25,1); transition-delay:var(--d,0s)}
+.in .dbar i{width:var(--w)}
+.drow .dv{font:12px var(--mono); color:var(--ink2)}
+/* ============ registry ============ */
+.filters{display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:14px}
+.filters select{appearance:none; background:var(--sf2); color:var(--ink); border:1px solid var(--ln2); border-radius:8px; font:12px var(--mono); padding:7px 28px 7px 11px; cursor:pointer;
+  background-image:linear-gradient(45deg,transparent 50%,var(--mut) 50%),linear-gradient(135deg,var(--mut) 50%,transparent 50%);
+  background-position:calc(100% - 15px) 55%,calc(100% - 10px) 55%; background-size:5px 5px; background-repeat:no-repeat}
+.fchip{display:inline-flex; align-items:center; gap:7px; background:var(--acc-dim); color:var(--acc-ink); border:1px solid var(--acc);
+  border-radius:99px; font:12px var(--mono); padding:5px 12px; cursor:pointer}
+.fcount{margin-left:auto; font:12px var(--mono); color:var(--mut)}
+.tblwrap{overflow-x:auto; margin:0 -22px; padding:0 22px}
+table{width:100%; border-collapse:collapse; font-size:13px; min-width:820px}
+th{font:11px var(--mono); letter-spacing:.08em; text-transform:uppercase; color:var(--mut); font-weight:500; text-align:left;
+  border-bottom:1px solid var(--ln2); padding:8px 10px; white-space:nowrap}
+th.sortable{cursor:pointer} th.sortable:hover{color:var(--ink)}
+th .car{font-size:9px; margin-left:4px}
+td{border-bottom:1px solid var(--ln); padding:9px 10px; vertical-align:middle}
+tbody tr:hover{background:var(--sf2)}
+td.proj{max-width:320px} td.proj b{font-weight:600} td.proj .own{display:block; color:var(--mut); font-size:11px; margin-top:1px}
+td.geo{font:12px var(--mono); color:var(--ink2); white-space:nowrap}
+td.cap{white-space:nowrap}
+.capv{font:600 13px var(--mono)}
+.capbar{display:block; height:3px; width:120px; background:var(--sf2); border-radius:2px; overflow:hidden; margin-top:4px}
+.capbar i{display:block; height:100%; background:var(--b2); border-radius:2px}
+.chip{display:inline-flex; align-items:center; gap:6px; font:11px var(--mono); letter-spacing:.03em; border-radius:99px; padding:3px 10px; border:1px solid; white-space:nowrap}
+.chip .cdot{width:6px; height:6px; border-radius:50%; background:currentColor}
+td.yr,td.gr{font:12px var(--mono); color:var(--mut); white-space:nowrap}
+/* ============ evidence / footer ============ */
+.evbar{display:flex; height:26px; border-radius:7px; overflow:hidden; gap:2px; margin:14px 0 12px}
+.evbar i{transform:scaleX(0); transform-origin:left; transition:transform .9s cubic-bezier(.25,.7,.25,1); transition-delay:var(--d,0s)}
+.in .evbar i{transform:scaleX(1)}
+.evkey{display:flex; gap:18px; flex-wrap:wrap; font:12px var(--mono); color:var(--ink2)}
+.evkey .lg{display:flex; align-items:center; gap:7px}
+.evkey .sw{width:11px; height:11px; border-radius:3px}
+.foot{color:var(--mut); font-size:12px; padding:34px 0 46px; line-height:1.7}
+.foot .rule{height:1px; background:var(--ln); margin-bottom:20px}
+/* ============ tooltip ============ */
+#tip{position:fixed; z-index:99; pointer-events:none; background:var(--sf); border:1px solid var(--ln2); border-radius:10px;
+  padding:10px 13px; font:12px var(--mono); color:var(--ink); box-shadow:0 8px 28px rgba(0,0,0,.35); opacity:0; transition:opacity .12s; max-width:260px}
+#tip .t1{font-weight:700; margin-bottom:3px}
+#tip .t2{color:var(--ink2)}
+/* ============ responsive ============ */
+@media (max-width:920px){
+  .maprow{grid-template-columns:1fr}
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .drow{grid-template-columns:22px 130px minmax(0,1fr) 106px}
+}
+@media (max-width:600px){
+  .stats{grid-template-columns:1fr 1fr}
+  .tile .tv{display:none}
+  .frow{grid-template-columns:106px minmax(0,1fr) 120px}
+  .brand span{display:none}
+  .wtot{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01s!important; transition-duration:.01s!important}
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand"><span class="blk"></span><b>GRIDWATCH</b><span class="en">US DATA CENTER INTEL</span><span class="zh">美国数据中心情报</span></div>
+    <div class="tgl" role="group" aria-label="theme">
+      <button id="th-dark" class="on" onclick="setTheme('dark')">Dark</button>
+      <button id="th-light" onclick="setTheme('light')">Light</button>
+    </div>
+    <div class="tgl" role="group" aria-label="language">
+      <button id="lg-en" class="on" onclick="setLang('en')">EN</button>
+      <button id="lg-zh" onclick="setLang('zh')">中文</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="sweep"></div>
+  <div class="wrap">
+    <div class="live"><span class="dot"></span><span class="en">LIVE CORPUS · UPDATED 2026-08-11</span><span class="zh">实时语料库 · 更新于 2026-08-11</span></div>
+    <div class="kick"><span class="idx">00</span><span class="en">TRACKING THE AMERICAN COMPUTE BUILDOUT</span><span class="zh">追踪美国算力大基建</span></div>
+    <div class="big"><span id="heroGW">0.0</span><span class="unit">GW <span class="en">TRACKED</span><span class="zh">追踪容量</span></span></div>
+    <div class="big-sub">
+      <span class="en">Every announced megawatt of US data-center buildout, unified from county-level exploration of all 3,222 counties.</span>
+      <span class="zh">基于全美 3,222 个县逐县探索，统一汇总的美国数据中心建设总盘。</span>
+    </div>
+    <div class="stats rv">
+      <div class="stat"><div class="v" id="cFac">0</div><div class="l"><span class="en">Facilities tracked</span><span class="zh">追踪设施数</span></div></div>
+      <div class="stat"><div class="v" id="cSrc">0</div><div class="l"><span class="en">Source URLs</span><span class="zh">数据来源链接</span></div></div>
+      <div class="stat"><div class="v" id="cCty">0</div><div class="l"><span class="en">Counties with projects</span><span class="zh">有项目的县</span></div></div>
+      <div class="stat"><div class="v">3,222<span style="color:var(--mut);font-size:14px"> / 3,222</span></div>
+        <div class="l"><span class="en">Counties explored · 100%</span><span class="zh">已探索县 · 100%</span></div>
+        <div class="bar100"><i></i></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="kick"><span class="idx">01</span><span class="en">NATIONAL MAP</span><span class="zh">全国地图</span></div>
+        <h2><span class="en">Where the gigawatts are going</span><span class="zh">吉瓦流向何处</span></h2>
+      </div>
+      <div class="note"><span class="en">Click a state to filter the registry below.</span><span class="zh">点击州区块可过滤下方项目登记表。</span></div>
+      <div class="tabs" style="margin:0 0 0 auto">
+        <button id="mm-mw" class="on" onclick="setMapMetric('mw')"><span class="en">CAPACITY GW</span><span class="zh">容量 GW</span></button>
+        <button id="mm-n" onclick="setMapMetric('n')"><span class="en">FACILITIES</span><span class="zh">设施数</span></button>
+      </div>
+    </div>
+    <div class="card rv">
+      <div class="maprow">
+        <div class="usmap" id="usmap" aria-label="US state tile map"></div>
+        <div class="mapside">
+          <div class="side-num" id="mapTopV">147.6 GW</div>
+          <div class="side-cap" id="mapTopL">Texas — largest state pipeline</div>
+          <div class="legend" id="mapLegend"></div>
+          <div class="mapnote">
+            <span class="en">Tile cartogram: every state gets equal area, color carries magnitude. Includes DC & PR.</span>
+            <span class="zh">方块地图：每州等面积，颜色代表规模，含华盛顿特区与波多黎各。</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="kick"><span class="idx">02</span><span class="en">PIPELINE FUNNEL</span><span class="zh">开发漏斗</span></div>
+        <h2><span class="en">212.6 GW planned vs 27.7 GW live — the wave hasn't landed</span><span class="zh">规划 212.6 GW 对比在运 27.7 GW —— 浪潮尚未落地</span></h2>
+      </div>
+    </div>
+    <div class="card rv" id="funnel"></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="kick"><span class="idx">03</span><span class="en">BUILDOUT WAVE</span><span class="zh">建设浪潮</span></div>
+        <h2><span class="en">Project signals by year, 2018–2030</span><span class="zh">按年份的项目信号，2018–2030</span></h2>
+      </div>
+      <div class="note"><span class="en">Hover a column for the breakdown.</span><span class="zh">悬停查看当年构成。</span></div>
+    </div>
+    <div class="card rv">
+      <div class="wave" id="wave"></div>
+      <div class="wx" id="waveX"></div>
+      <div class="chart-legend">
+        <div class="lg"><span class="sw" style="background:var(--st-op)"></span><span class="en">Operational</span><span class="zh">运营中</span></div>
+        <div class="lg"><span class="sw" style="background:var(--st-con)"></span><span class="en">Under construction</span><span class="zh">在建</span></div>
+        <div class="lg"><span class="sw" style="background:var(--st-app)"></span><span class="en">Pipeline (announced / planned / approved)</span><span class="zh">储备（公告/规划/批准）</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="kick"><span class="idx">04</span><span class="en">OPERATORS</span><span class="zh">开发商排行</span></div>
+        <h2><span class="en">Who is building it</span><span class="zh">谁在建设</span></h2>
+      </div>
+      <div class="tabs" style="margin:0 0 0 auto">
+        <button id="dv-mw" class="on" onclick="setDevTab('mw')"><span class="en">BY CAPACITY</span><span class="zh">按容量</span></button>
+        <button id="dv-n" onclick="setDevTab('n')"><span class="en">BY FACILITIES</span><span class="zh">按设施数</span></button>
+      </div>
+    </div>
+    <div class="card rv" id="devs"></div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="kick"><span class="idx">05</span><span class="en">REGISTRY</span><span class="zh">项目登记表</span></div>
+        <h2><span class="en">Flagship projects</span><span class="zh">旗舰项目</span></h2>
+      </div>
+    </div>
+    <div class="card rv">
+      <div class="filters">
+        <select id="fStatus" onchange="renderTable()"></select>
+        <select id="fState" onchange="renderTable()"></select>
+        <span id="fClear" class="fchip" style="display:none" onclick="clearStateFilter()"></span>
+        <span class="fcount" id="fCount"></span>
+      </div>
+      <div class="tblwrap">
+        <table>
+          <thead><tr>
+            <th><span class="en">Project / Operator</span><span class="zh">项目 / 开发商</span></th>
+            <th class="sortable" onclick="setSort('geo')"><span class="en">County, State</span><span class="zh">县，州</span><span class="car" id="car-geo"></span></th>
+            <th class="sortable" onclick="setSort('mw')"><span class="en">Capacity</span><span class="zh">容量</span><span class="car" id="car-mw"></span></th>
+            <th><span class="en">Status</span><span class="zh">状态</span></th>
+            <th class="sortable" onclick="setSort('y')"><span class="en">Year signal</span><span class="zh">年份信号</span><span class="car" id="car-y"></span></th>
+            <th><span class="en">Evidence</span><span class="zh">证据等级</span></th>
+          </tr></thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="card rv">
+      <div class="kick"><span class="idx">06</span><span class="en">EVIDENCE BASE — 2,731 RECORDS</span><span class="zh">证据基础 —— 2,731 条记录</span></div>
+      <div class="evbar" id="evbar"></div>
+      <div class="evkey" id="evkey"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="rule"></div>
+    <span class="en">GRIDWATCH design mockup · all figures queried live from the unified data-center corpus (2,731 centers, 8,019 sources) as of 2026-08-11 · single self-contained file, zero external requests · registry shows 59 flagship records of the full corpus.</span>
+    <span class="zh">GRIDWATCH 设计样机 · 所有数字均来自统一数据中心语料库（2,731 个中心，8,019 个来源），截至 2026-08-11 · 单文件自包含，无任何外部请求 · 登记表展示语料库中 59 条旗舰记录。</span>
+  </div>
+</footer>
+
+<div id="tip"></div>
+
+<script>
+/* ================= REAL DATA (queried from the corpus DB) ================= */
+const TOTALS = { mw: 544236, centers: 2731, sources: 8019, counties: 1175 };
+
+const STATES = [
+/* [abbr, row, col, facilities, capacity_mw, name_en, name_zh] */
+["AK",0,0,14,6,"Alaska","阿拉斯加"],["ME",0,10,11,1023,"Maine","缅因"],
+["VT",1,9,8,3,"Vermont","佛蒙特"],["NH",1,10,16,9,"New Hampshire","新罕布什尔"],
+["WA",2,0,82,19295,"Washington","华盛顿州"],["ID",2,1,14,912,"Idaho","爱达荷"],["MT",2,2,20,2519,"Montana","蒙大拿"],
+["ND",2,3,26,3686,"North Dakota","北达科他"],["MN",2,4,58,3476,"Minnesota","明尼苏达"],["IL",2,5,95,14652,"Illinois","伊利诺伊"],
+["WI",2,6,31,2978,"Wisconsin","威斯康星"],["MI",2,7,46,4739,"Michigan","密歇根"],["NY",2,8,76,9972,"New York","纽约"],
+["MA",2,9,29,140,"Massachusetts","马萨诸塞"],
+["OR",3,0,63,1210,"Oregon","俄勒冈"],["NV",3,1,32,3506,"Nevada","内华达"],["WY",3,2,19,7701,"Wyoming","怀俄明"],
+["SD",3,3,19,1511,"South Dakota","南达科他"],["IA",3,4,50,4348,"Iowa","艾奥瓦"],["IN",3,5,105,25120,"Indiana","印第安纳"],
+["OH",3,6,134,39123,"Ohio","俄亥俄"],["PA",3,7,74,30922,"Pennsylvania","宾夕法尼亚"],["NJ",3,8,91,1009,"New Jersey","新泽西"],
+["CT",3,9,24,1150,"Connecticut","康涅狄格"],["RI",3,10,3,11,"Rhode Island","罗得岛"],
+["CA",4,0,85,4082,"California","加利福尼亚"],["UT",4,1,76,44865,"Utah","犹他"],["CO",4,2,38,2579,"Colorado","科罗拉多"],
+["NE",4,3,35,277,"Nebraska","内布拉斯加"],["MO",4,4,51,3208,"Missouri","密苏里"],["KY",4,5,36,9032,"Kentucky","肯塔基"],
+["WV",4,6,25,13400,"West Virginia","西弗吉尼亚"],["VA",4,7,264,34469,"Virginia","弗吉尼亚"],["MD",4,8,33,3908,"Maryland","马里兰"],
+["DE",4,9,6,1200,"Delaware","特拉华"],
+["AZ",5,1,53,16053,"Arizona","亚利桑那"],["NM",5,2,13,11290,"New Mexico","新墨西哥"],["KS",5,3,43,5278,"Kansas","堪萨斯"],
+["AR",5,4,25,3229,"Arkansas","阿肯色"],["TN",5,5,49,907,"Tennessee","田纳西"],["NC",5,6,88,11770,"North Carolina","北卡罗来纳"],
+["SC",5,7,28,2403,"South Carolina","南卡罗来纳"],["DC",5,8,3,60,"District of Columbia","华盛顿特区"],
+["OK",6,3,34,6003,"Oklahoma","俄克拉何马"],["LA",6,4,27,5562,"Louisiana","路易斯安那"],["MS",6,5,19,1633,"Mississippi","密西西比"],
+["AL",6,6,33,3698,"Alabama","亚拉巴马"],["GA",6,7,155,23988,"Georgia","佐治亚"],
+["HI",7,0,7,7,"Hawaii","夏威夷"],["TX",7,3,271,147605,"Texas","得克萨斯"],["FL",7,8,59,4616,"Florida","佛罗里达"],
+["PR",7,10,22,69,"Puerto Rico","波多黎各"]
+];
+
+const FUNNEL = [ /* [key, count, mw] in pipeline order */
+["ann",163,75996],["pla",737,212595],["app",245,66633],["con",296,115514],["op",938,27732]
+];
+
+const YEARS = [ /* [year, pipeline, construction, operational] — count of project signals */
+[2018,1,1,16],[2019,1,3,23],[2020,2,1,20],[2021,14,4,23],[2022,7,7,33],[2023,29,11,35],
+[2024,72,40,37],[2025,232,88,38],[2026,494,89,30],[2027,40,24,0],[2028,23,3,0],[2029,7,1,0],[2030,2,1,0]
+];
+
+const DEVS = {
+  mw: [["Tract",17938,16],["Fermi America",17000,1],["Meta",10274,32],["SoftBank / SB Energy",10000,1],
+       ["Creekstone Energy",10000,2],["O'Leary Ventures / Digital",9000,2],["Nscale / Fidelis consortium",8000,1],
+       ["IREN",7950,6],["Amazon Data Services",7668,8],["Microsoft",7029,65]],
+  n:  [["Microsoft",65,7029],["Google",62,4828],["Amazon Web Services",38,6825],["CyrusOne",36,4998],
+       ["Digital Realty",33,1647],["Meta",32,10274],["DataBank",29,982],["Amazon Data Services",29,4767],
+       ["Vantage Data Centers",27,5589],["Flexential",27,326]]
+};
+
+const EVIDENCE = [["official",1608],["news",642],["tracker",440],["other",41]];
+
+const CENTERS = [
+/* [project, operator, county, state, mw, statusKey, year, grade] — real corpus rows */
+["Project Matador / Fermi America HyperGrid Campus","Fermi America","Carson","TX",17000,"ann",2026,"news"],
+["PORTS-Pike Technology Campus","SoftBank Group / SB Energy","Pike","OH",10000,"ann",2026,"official"],
+["Delta Gigasite — Expansion","Creekstone Energy","Millard","UT",9700,"pla",null,"tracker"],
+["Stratos Project","O'Leary Ventures / MIDA","Box Elder","UT",9000,"app",2026,"official"],
+["Monarch Compute Campus","Nscale / Fidelis New Energy","Mason","WV",8000,"con",2026,"official"],
+["Pecos County Data Center","Amazon Data Services","Pecos","TX",7650,"con",2026,"official"],
+["New Era Lea AI Data Center Hub","New Era Energy & Digital","Lea","NM",7000,"pla",2025,"official"],
+["Meta Richland Parish Data Center","Meta","Richland Parish","LA",5000,"con",2024,"official"],
+["Comanche Circle","Sailfish Investors","Hood","TX",5000,"app",2025,"news"],
+["Data City, Texas","Energy Abundance Development","Webb","TX",5000,"pla",2025,"news"],
+["Homer City Energy Campus","Homer City Redevelopment","Indiana","PA",4400,"con",2025,"official"],
+["4-3 Group Salem Township Phase III","4-3 Group","Luzerne","PA",4000,"ann",2026,"official"],
+["Caldwell Valley Technology Park","Tract","Caldwell","TX",4000,"pla",2025,"official"],
+["High Performance Compute Campus","Joule Capital Partners","Millard","UT",4000,"app",null,"official"],
+["Aligned Project Phoenix","Aligned","Beaver","PA",3600,"app",2026,"official"],
+["Project Camellia","OpenAI","Effingham","GA",3200,"ann",2028,"official"],
+["TECfusions Keystone Connect","TECfusions","Westmoreland","PA",3000,"pla",2025,"official"],
+["Matrix Data Center Campus","MSB Global Services","Hopkins","TX",3000,"con",2025,"official"],
+["Vermaland La Osa Campus","Vermaland","Pinal","AZ",3000,"pla",null,"news"],
+["Wonder Valley (Stratos) — Phase 1","O'Leary Digital","Box Elder","UT",3000,"app",null,"official"],
+["St. Lawrence Infrastructure DC","St. Lawrence Infrastructure","St. Lawrence","NY",2795,"pla",2026,"tracker"],
+["DOE Hanford Data Center","US Department of Energy","Benton","WA",2750,"pla",null,"tracker"],
+["Project Tembo Data Center","Google / Jupiter Star","Laramie","WY",2700,"app",2026,"official"],
+["Project Astralus","Zuharis","Columbiana","OH",2500,"pla",2026,"news"],
+["Quantum Frederick","Catellus Development","Frederick","MD",2400,"con",2024,"official"],
+["Hanover Technology Park","Tract","Hanover","VA",2400,"pla",2026,"official"],
+["Adams Fork Harless Energy Campus","TransGas Development","Logan","WV",2400,"app",2025,"official"],
+["AWS New Carlisle Data Center Campus","Amazon Web Services","St. Joseph","IN",2250,"con",2024,"official"],
+["Amazon Hobart Data Center Campus","Amazon Data Services","Lake","IN",2119,"con",2027,"tracker"],
+["Crusoe Abilene AI Factory Campus","Crusoe","Taylor","TX",2100,"con",2026,"official"],
+["Granite Renewables Peetz Table Campus","Granite Renewables","Logan","CO",2000,"pla",2025,"official"],
+["Rubix Russell Campus","Rubix Data Centers","Greenup","KY",2000,"ann",2026,"news"],
+["IREN Sweetwater Hub","IREN","Fisher","TX",2000,"con",2026,"official"],
+["Microsoft Pecos Datacenter Campus","Microsoft","Reeves","TX",2000,"pla",2026,"official"],
+["Project Horizon","Poolside AI","Pecos","TX",2000,"ann",null,"news"],
+["Tract Buckeye Technology Park","Tract","Maricopa","AZ",1800,"pla",2024,"official"],
+["Joliet Technology Center","PowerHouse / Hillwood","Will","IL",1800,"app",2026,"official"],
+["Paducah American Energy Hub","Brookfield Asset Management","McCracken","KY",1800,"ann",2026,"official"],
+["Tract Pole Canyon Technology Park","Tract","Utah","UT",1700,"pla",2024,"official"],
+["CloudHQ LC Campus","CloudHQ","Loudoun","VA",1700,"pla",null,"official"],
+["IREN Project Emerald","IREN","Pittsburg","OK",1600,"pla",2027,"official"],
+["Galaxy Helios AI & HPC Campus","Galaxy Digital","Dickens","TX",1600,"con",2026,"official"],
+["Wildcat Ridge AI Data Center Campus","Cornell Realty","Lackawanna","PA",1600,"pla",2025,"news"],
+["Project Red Clay","Cloverleaf Infrastructure","Lowndes","AL",1500,"pla",2026,"official"],
+["Amazon Jefferson Township Campus","Amazon Data Services","Fayette","OH",1500,"pla",2026,"news"],
+["Antelope Data Center","Pronghorn Development","Iron","UT",1500,"app",2026,"official"],
+["QTS Blakely Data Center Campus","QTS Data Centers","Early","GA",1400,"pla",2026,"official"],
+["Meta Altoona Data Center","Meta","Polk","IA",1400,"op",2013,"official"],
+["Riot Corsicana Facility","Riot Platforms","Navarro","TX",1000,"op",2024,"official"],
+["IREN Childress Data Center","IREN","Childress","TX",750,"op",2023,"official"],
+["Atlas Power Williston Data Center","Atlas Power","Williams","ND",700,"op",2022,"official"],
+["Riot Platforms Rockdale Campus","Riot Platforms","Milam","TX",700,"op",2020,"official"],
+["Switch Citadel Campus — Tahoe Reno","Switch","Storey","NV",650,"op",2017,"official"],
+["EdgeCore Phoenix / Mesa Campus","EdgeCore Digital Infrastructure","Maricopa","AZ",496,"op",null,"official"],
+["Switch Las Vegas CORE Campus","Switch","Clark","NV",495,"op",null,"official"],
+["North Country Data Center","Coinmint","St. Lawrence","NY",435,"op",2018,"news"],
+["STACK NVA02 Manassas Campus","STACK Infrastructure","Prince William","VA",420,"op",null,"official"],
+["Polaris Forge 1","Applied Digital","Dickey","ND",400,"op",2026,"official"],
+["Meta Eagle Mountain Data Center","Meta","Utah","UT",400,"op",2021,"official"]
+];
+
+/* ================= i18n ================= */
+const I18N = {
+  st: {ann:["Announced","已公告"], pla:["Planned","规划中"], app:["Approved","已批准"], con:["Construction","在建"], op:["Operational","运营中"], rej:["Rejected","已否决"], unk:["Unknown","未知"]},
+  facilities:["facilities","个设施"], projects:["projects","个项目"], all:["All statuses","全部状态"],
+  allStates:["All states","全部州"], showing:["Showing","显示"], of:["of","/ 共"], flagship:["flagship records · full corpus: 2,731","条旗舰记录 · 语料库共 2,731 条"],
+  largest:["largest state pipeline","最大州级储备"], gw:["GW tracked","GW 追踪容量"],
+  ev: {official:["Official (county / permit / utility)","官方（县政/许可/电力）"], news:["News media","新闻媒体"], tracker:["Industry trackers","行业追踪"], other:["Social & other","社媒及其他"]},
+  legMW:["<1 GW","1–5 GW","5–15 GW","15–45 GW","45+ GW"],
+  legN:["<20","20–49","50–89","90–149","150+"]
+};
+const lang = () => document.documentElement.dataset.lang === "zh" ? 1 : 0;
+const L = k => Array.isArray(k) ? k[lang()] : k;
+const fmt = n => n.toLocaleString("en-US");
+const fmtMW = mw => mw >= 1000 ? (mw/1000).toFixed(mw >= 10000 ? 1 : 2).replace(/\.?0+$/,"") + " GW" : fmt(mw) + " MW";
+const stColor = k => `var(--st-${k})`;
+
+/* ================= theme & language ================= */
+function setTheme(t){
+  document.documentElement.dataset.theme = t;
+  document.getElementById("th-dark").classList.toggle("on", t==="dark");
+  document.getElementById("th-light").classList.toggle("on", t==="light");
+  try{ localStorage.setItem("gw-theme", t); }catch(e){}
+}
+function setLang(l){
+  document.documentElement.dataset.lang = l;
+  document.documentElement.lang = l==="zh" ? "zh-CN" : "en";
+  document.getElementById("lg-en").classList.toggle("on", l==="en");
+  document.getElementById("lg-zh").classList.toggle("on", l==="zh");
+  try{ localStorage.setItem("gw-lang", l); }catch(e){}
+  buildMap(); buildFilters(); renderTable(); buildDevs(); buildEvidence(); updateMapSide();
+}
+const QS = new URLSearchParams(location.search); /* ?theme=dark&lang=zh — shareable deep links */
+try{
+  const t = QS.get("theme") || localStorage.getItem("gw-theme") || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+  const l = QS.get("lang") || localStorage.getItem("gw-lang") || "en";
+  setTheme(t==="light" ? "light" : "dark"); document.documentElement.dataset.lang = l;
+  document.getElementById("lg-en").classList.toggle("on", l==="en");
+  document.getElementById("lg-zh").classList.toggle("on", l==="zh");
+}catch(e){}
+
+/* ================= tooltip ================= */
+const tip = document.getElementById("tip");
+function showTip(html, ev){
+  tip.innerHTML = html; tip.style.opacity = 1;
+  const pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+  let x = ev.clientX + pad, y = ev.clientY + pad;
+  if(x + w > innerWidth - 8) x = ev.clientX - w - pad;
+  if(y + h > innerHeight - 8) y = ev.clientY - h - pad;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+function hideTip(){ tip.style.opacity = 0; }
+
+/* ================= hero counters ================= */
+const noMotion = matchMedia("(prefers-reduced-motion: reduce)").matches || QS.has("noanim");
+function countUp(el, target, decimals, dur){
+  if(noMotion){ el.textContent = decimals ? target.toFixed(decimals) : fmt(target); return; }
+  const t0 = performance.now();
+  (function tick(t){
+    const p = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - p, 3);
+    const v = target * e;
+    el.textContent = decimals ? v.toFixed(decimals) : fmt(Math.round(v));
+    if(p < 1) requestAnimationFrame(tick);
+  })(t0);
+}
+countUp(document.getElementById("heroGW"), TOTALS.mw/1000, 1, 1800);
+countUp(document.getElementById("cFac"), TOTALS.centers, 0, 1500);
+countUp(document.getElementById("cSrc"), TOTALS.sources, 0, 1700);
+countUp(document.getElementById("cCty"), TOTALS.counties, 0, 1600);
+
+/* ================= map ================= */
+let mapMetric = "mw", selState = null;
+const MW_BINS = [1000, 5000, 15000, 45000], N_BINS = [20, 50, 90, 150];
+const binOf = (v, bins) => bins.reduce((b, th, i) => v >= th ? i+1 : b, 0);
+function setMapMetric(m){
+  mapMetric = m;
+  document.getElementById("mm-mw").classList.toggle("on", m==="mw");
+  document.getElementById("mm-n").classList.toggle("on", m==="n");
+  buildMap(); updateMapSide();
+}
+function buildMap(){
+  const el = document.getElementById("usmap");
+  el.innerHTML = "";
+  const bins = mapMetric==="mw" ? MW_BINS : N_BINS;
+  STATES.forEach(s => {
+    const [ab,r,c,n,mw,en,zh] = s;
+    const v = mapMetric==="mw" ? mw : n;
+    const d = document.createElement("div");
+    d.className = "tile b" + binOf(v, bins) + (selState===ab ? " sel" : "");
+    d.style.gridRow = r+1; d.style.gridColumn = c+1;
+    d.tabIndex = 0;
+    d.innerHTML = `<span class="ab">${ab}</span><span class="tv">${mapMetric==="mw" ? (mw>=1000 ? (mw/1000).toFixed(0)+"G" : mw+"M") : n}</span>`;
+    d.addEventListener("mousemove", ev => showTip(
+      `<div class="t1">${lang() ? zh : en}</div>
+       <div class="t2">${fmt(n)} ${L(I18N.facilities)} · ${fmtMW(mw)}</div>`, ev));
+    d.addEventListener("mouseleave", hideTip);
+    d.addEventListener("click", () => { selState = selState===ab ? null : ab; buildMap(); syncStateFilter(); });
+    el.appendChild(d);
+  });
+  const lg = document.getElementById("mapLegend");
+  const labels = mapMetric==="mw" ? I18N.legMW : I18N.legN;
+  lg.innerHTML = labels.map((t,i)=>`<div class="lg"><span class="sw b${i}"></span>${t}</div>`).join("");
+}
+function updateMapSide(){
+  document.getElementById("mapTopV").textContent = mapMetric==="mw" ? "147.6 GW" : "271";
+  document.getElementById("mapTopL").textContent = (lang() ? "得克萨斯 — " : "Texas — ") + (mapMetric==="mw" ? L(I18N.largest) : L(["most facilities","设施数最多"]));
+}
+
+/* ================= funnel ================= */
+(function buildFunnel(){
+  const el = document.getElementById("funnel");
+  const max = Math.max(...FUNNEL.map(f => f[2]));
+  el.innerHTML = FUNNEL.map(([k, n, mw]) => `
+    <div class="frow">
+      <div class="fl"><span class="fdot" style="background:${stColor(k)}"></span>
+        <span class="en">${I18N.st[k][0]}</span><span class="zh">${I18N.st[k][1]}</span></div>
+      <div class="fbar"><i style="--w:${(mw/max*100).toFixed(1)}%; background:${stColor(k)}"></i></div>
+      <div class="fv"><b>${fmtMW(mw)}</b><span>${fmt(n)} <span class="en">projects</span><span class="zh">个项目</span></span></div>
+    </div>`).join("");
+})();
+
+/* ================= wave ================= */
+(function buildWave(){
+  const el = document.getElementById("wave"), xl = document.getElementById("waveX");
+  const H = 212, maxTot = Math.max(...YEARS.map(y => y[1]+y[2]+y[3]));
+  el.innerHTML = YEARS.map(([yr, p, c, o], i) => {
+    const px = v => Math.max(v > 0 ? 2 : 0, v/maxTot*H);
+    return `<div class="wcol" data-i="${i}">
+      <div class="wseg" style="height:${px(o)}px; background:var(--st-op); --d:${i*0.05}s"></div>
+      <div class="wseg" style="height:${px(c)}px; background:var(--st-con); --d:${i*0.05+0.05}s"></div>
+      <div class="wseg" style="height:${px(p)}px; background:var(--st-app); --d:${i*0.05+0.1}s"></div>
+      <div class="wtot">${p+c+o >= 100 ? fmt(p+c+o) : ""}</div>
+    </div>`;
+  }).join("");
+  xl.innerHTML = YEARS.map(y => `<span>'${String(y[0]).slice(2)}</span>`).join("");
+  el.querySelectorAll(".wcol").forEach(col => {
+    col.addEventListener("mousemove", ev => {
+      const [yr, p, c, o] = YEARS[+col.dataset.i];
+      showTip(`<div class="t1">${yr}</div>
+        <div class="t2">${lang()?"储备":"Pipeline"}: ${fmt(p)}<br>${lang()?"在建":"Construction"}: ${fmt(c)}<br>${lang()?"运营":"Operational"}: ${fmt(o)}</div>`, ev);
+    });
+    col.addEventListener("mouseleave", hideTip);
+  });
+})();
+
+/* ================= developers ================= */
+let devTab = "mw";
+function setDevTab(t){
+  devTab = t;
+  document.getElementById("dv-mw").classList.toggle("on", t==="mw");
+  document.getElementById("dv-n").classList.toggle("on", t==="n");
+  buildDevs();
+}
+function buildDevs(){
+  const el = document.getElementById("devs"), rows = DEVS[devTab];
+  const max = Math.max(...rows.map(r => r[1]));
+  el.innerHTML = rows.map((r, i) => `
+    <div class="drow">
+      <div class="rk">${String(i+1).padStart(2,"0")}</div>
+      <div class="dn" title="${r[0]}">${r[0]}</div>
+      <div class="dbar"><i style="--w:${(r[1]/max*100).toFixed(1)}%; --d:${i*0.06}s"></i></div>
+      <div class="dv">${devTab==="mw"
+        ? `${fmtMW(r[1])} · ${r[2]} <span class="en">${r[2]===1?"site":"sites"}</span><span class="zh">个站点</span>`
+        : `${r[1]} <span class="en">sites</span><span class="zh">个站点</span> · ${fmtMW(r[2])}`}</div>
+    </div>`).join("");
+  el.classList.add("in");
+}
+buildDevs();
+
+/* ================= registry table ================= */
+let sortKey = "mw", sortDir = -1;
+function setSort(k){
+  if(sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = -1; }
+  renderTable();
+}
+function buildFilters(){
+  const fs = document.getElementById("fStatus"), keep = fs.value;
+  fs.innerHTML = `<option value="">${L(I18N.all)}</option>` +
+    ["ann","pla","app","con","op"].map(k => `<option value="${k}">${I18N.st[k][lang()]}</option>`).join("");
+  fs.value = keep || "";
+  const st = document.getElementById("fState"), keep2 = st.value;
+  const abs = [...new Set(CENTERS.map(c => c[3]))].sort();
+  st.innerHTML = `<option value="">${L(I18N.allStates)}</option>` + abs.map(a => `<option>${a}</option>`).join("");
+  st.value = keep2 || "";
+}
+function syncStateFilter(){
+  document.getElementById("fState").value = selState || "";
+  renderTable();
+  if(selState) document.getElementById("fState").scrollIntoView({block:"center", behavior:"smooth"});
+}
+function clearStateFilter(){
+  selState = null; document.getElementById("fState").value = "";
+  buildMap(); renderTable();
+}
+function renderTable(){
+  const fs = document.getElementById("fStatus").value, fst = document.getElementById("fState").value;
+  if(fst !== (selState || "")){ selState = fst || null; buildMap(); }
+  let rows = CENTERS.filter(c => (!fs || c[5]===fs) && (!fst || c[3]===fst));
+  rows.sort((a,b) => {
+    if(sortKey==="mw") return (a[4]-b[4])*sortDir;
+    if(sortKey==="y") return ((a[6]||0)-(b[6]||0))*sortDir;
+    return (a[3]+a[2]).localeCompare(b[3]+b[2])*sortDir;
+  });
+  const maxMW = Math.max(...CENTERS.map(c => c[4]));
+  document.getElementById("tbody").innerHTML = rows.map(([p,o,cty,st,mw,k,y,g]) => `
+    <tr>
+      <td class="proj"><b>${p}</b><span class="own">${o}</span></td>
+      <td class="geo">${cty}, ${st}</td>
+      <td class="cap"><span class="capv">${fmtMW(mw)}</span><span class="capbar"><i style="width:${Math.max(1.2, mw/maxMW*100).toFixed(1)}%"></i></span></td>
+      <td><span class="chip" style="color:${stColor(k)}; border-color:${stColor(k)}; background:color-mix(in srgb, ${stColor(k)} 12%, transparent)">
+        <span class="cdot"></span>${I18N.st[k][lang()]}</span></td>
+      <td class="yr">${y || "—"}</td>
+      <td class="gr">${g}</td>
+    </tr>`).join("");
+  const cnt = document.getElementById("fCount");
+  cnt.textContent = `${L(I18N.showing)} ${rows.length} ${L(I18N.of)} ${CENTERS.length} ${L(I18N.flagship)}`;
+  const chip = document.getElementById("fClear");
+  chip.style.display = selState ? "" : "none";
+  if(selState) chip.textContent = selState + "  ✕";
+  ["mw","y","geo"].forEach(k => {
+    const el = document.getElementById("car-"+k);
+    el.textContent = sortKey===k ? (sortDir<0 ? "▼" : "▲") : "";
+  });
+}
+
+/* ================= evidence ================= */
+function buildEvidence(){
+  const total = EVIDENCE.reduce((s,e)=>s+e[1],0);
+  const colors = ["var(--ev0)","var(--ev1)","var(--ev2)","var(--ev3)"];
+  document.getElementById("evbar").innerHTML = EVIDENCE.map((e,i)=>
+    `<i style="width:${(e[1]/total*100).toFixed(1)}%; background:${colors[i]}; --d:${i*0.12}s"></i>`).join("");
+  document.getElementById("evkey").innerHTML = EVIDENCE.map((e,i)=>
+    `<div class="lg"><span class="sw" style="background:${colors[i]}"></span>${I18N.ev[e[0]][lang()]} · <b>${fmt(e[1])}</b> (${(e[1]/total*100).toFixed(0)}%)</div>`).join("");
+}
+buildEvidence();
+
+/* ================= reveal on scroll ================= */
+if(noMotion || !("IntersectionObserver" in window)){
+  document.querySelectorAll(".rv").forEach(el => el.classList.add("in"));
+}else{
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); }
+  }), {threshold: 0.12});
+  document.querySelectorAll(".rv").forEach(el => io.observe(el));
+}
+
+/* init */
+buildMap(); buildFilters(); renderTable(); updateMapSide();
+</script>
+</body>
+</html>

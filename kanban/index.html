@@ -6,6 +6,7 @@
 <title>US Data Center County Exploration Kanban</title>
 <style>
 :root { --bg:#0f1420; --card:#171e2e; --line:#26304a; --txt:#dbe4ff; --mut:#7f8db3; --acc:#4f8cff; }
+body.light { --bg:#f6f8fc; --card:#ffffff; --line:#dde3ee; --txt:#1a2233; --mut:#5b6b8c; --acc:#2f6fe4; }
 * { box-sizing:border-box; }
 body { margin:0; background:var(--bg); color:var(--txt); font:14px/1.5 -apple-system,'PingFang SC','Microsoft YaHei',sans-serif; }
 .wrap { max-width:1200px; margin:0 auto; padding:24px; }
@@ -16,6 +17,7 @@ h1 { font-size:22px; margin:0 0 4px; }
 .metric .v { font-size:26px; font-weight:700; color:var(--acc); }
 .metric .l { color:var(--mut); font-size:12px; }
 .bar { height:10px; background:#0b0f1a; border:1px solid var(--line); border-radius:6px; overflow:hidden; margin:6px 0 2px; }
+body.light .bar { background:#e8ecf4; }
 .bar > div { height:100%; background:linear-gradient(90deg,#4f8cff,#63d3ff); }
 .sec { margin-top:28px; }
 .sec h2 { font-size:16px; border-bottom:1px solid var(--line); padding-bottom:6px; }
@@ -25,6 +27,7 @@ h1 { font-size:22px; margin:0 0 4px; }
 .card { border:1px solid var(--line); border-radius:8px; padding:6px 8px; margin-bottom:6px; font-size:12px; }
 .card.pend { color:var(--mut); }
 .card.done { color:#9ef0c0; }
+body.light .card.done { color:#0d7a3f; }
 .bidx { font-family:ui-monospace,Menlo,monospace; color:var(--acc); margin-right:6px; }
 .buckets { display:flex; flex-wrap:wrap; gap:8px; margin:8px 0; }
 .bucket { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:6px 10px; font-size:12px; }
@@ -34,6 +37,7 @@ th,td { border-bottom:1px solid var(--line); padding:6px 8px; text-align:left; v
 th { color:var(--mut); font-weight:500; }
 td.pn { max-width:260px; }
 a { color:#63d3ff; text-decoration:none; word-break:break-all; }
+body.light a { color:#0a66c2; }
 .foot { color:var(--mut); font-size:11px; margin-top:30px; }
 .langbar { display:flex; gap:8px; margin-bottom:14px; }
 .langbar button { background:var(--card); border:1px solid var(--line); color:var(--txt); border-radius:8px; padding:6px 14px; font-size:13px; cursor:pointer; }
@@ -44,9 +48,12 @@ a { color:#63d3ff; text-decoration:none; word-break:break-all; }
 <div class="wrap">
   <h1>US Data Center County Exploration Kanban</h1>
   <div class="langbar">
+    <button id="btn-dark" class="active" onclick="setTheme('dark')">Dark</button>
+    <button id="btn-light" onclick="setTheme('light')">Light</button>
+    <span style="opacity:.35">|</span>
     <button id="btn-en" class="active" onclick="setLang('en')">English</button>
     <button id="btn-zh" onclick="setLang('zh')">中文</button>
-    <span class="sub" style="margin-left:auto">Rendered 2026-08-11 20:13 UTC UTC</span>
+    <span class="sub" style="margin-left:auto">Rendered 2026-08-11 20:56 UTC UTC</span>
   </div>
   <div class="sub"><span class="en">Goal: explore every US county to build the widest data-center superset</span><span class="zh" hidden>目标：全美 3,000+ county 逐一探索，构建最宽口径数据中心超集清单</span></div>
 
@@ -1165,7 +1172,14 @@ function setLang(l) {
   document.querySelectorAll('.zh').forEach(e => e.hidden = (l!=='zh'));
   try { localStorage.setItem('kanban-lang', l); } catch(e) {}
 }
+function setTheme(t) {
+  document.body.classList.toggle('light', t==='light');
+  document.getElementById('btn-light').classList.toggle('active', t==='light');
+  document.getElementById('btn-dark').classList.toggle('active', t==='dark');
+  try { localStorage.setItem('kanban-theme', t); } catch(e) {}
+}
 try { var saved = localStorage.getItem('kanban-lang'); if (saved==='zh' || saved==='en') setLang(saved); } catch(e) {}
+try { var savedTheme = localStorage.getItem('kanban-theme'); if (savedTheme==='light') setTheme('light'); } catch(e) {}
 </script>
 </body>
 </html>

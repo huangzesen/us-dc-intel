@@ -100,7 +100,25 @@
     "authoritative_layer": "phase3_project_action_layer",
     "match_reason": "Exact Phase3↔regional stable-ID pair; seed merged only with explicit evidence"
   },
-  "contradictions": [],
+  "contradictions": [
+    {
+      "topic": "Phase 1 completion target",
+      "details": "De Soto's official Beale Data Center page states a Phase 1 completion target of 2027, while the Beale project location page timeline shows Phase 1 Completion at 2029 and local reporting (KCUR / Johnson County Post) cites 2028/2029 variants. No hard completion date was written into this entry because the sources conflict.",
+      "sources": [
+        "https://www.desotoks.us/496/Beale-Data-Center",
+        "https://bealeinfra.com/location/de-soto/",
+        "https://www.kcur.org/housing-development-section/2026-07-09/de-soto-data-center-complaints-beale-infrastructure"
+      ]
+    },
+    {
+      "topic": "status verification",
+      "details": "The official city page confirms conditional Phase 1 site plan approval and grading/early site preparation, but no building permit number, inspection, certificate of occupancy, utility energization, commissioning, live-service record, or confirmed MW capacity was found in the reviewed public sources; the site work-construction status rests on the city's own page and media corroboration.",
+      "sources": [
+        "https://www.desotoks.us/496/Beale-Data-Center",
+        "https://www.kcur.org/housing-development-section/2026-07-09/de-soto-data-center-complaints-beale-infrastructure"
+      ]
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

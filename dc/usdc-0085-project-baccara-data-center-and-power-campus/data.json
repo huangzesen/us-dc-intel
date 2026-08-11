@@ -12,7 +12,7 @@
     "site_description": "Generally north of Olive Road and one-half mile west of Litchfield Road in the west Glendale area; air permit notice lists NW corner of W Olive Ave and N 143rd Ave, Waddell, AZ 85355."
   },
   "phase3_stable_id": "US-AZ-PROJECT-BACCARA-SURPRISE-2025",
-  "status_as_of_cutoff": "local process / partially approved: Arizona generation CEC approved on 2026-02-04; Maricopa County Planning and Zoning recommended the Military Compatibility Permit on 2026-04-09; Glendale approved a pre-annexation development agreement on 2026-04-28; Maricopa County Board of Supervisors approved MCP250007 with conditions on 2026-05-06. Air quality permit P0013417, EPA review, Plan of Development, building permits, annexation/rezoning, and construction remain unverified/pending in the reviewed record.",
+  "status_as_of_cutoff": "local process / partially approved: Arizona generation CEC approved on 2026-02-04; Maricopa County Planning and Zoning recommended the Military Compatibility Permit on 2026-04-09; Glendale City Council's 2026-04-28 agenda indexed Resolution R26-42 for a pre-annexation development agreement, but adoption of the resolution was not verified in the fetched record; Maricopa County Board of Supervisors approved MCP250007 with conditions on 2026-05-06. Air quality permit P0013417, EPA review, Plan of Development, building permits, annexation/rezoning, and construction remain unverified/pending in the reviewed record.",
   "evidence_grade": "official-local/state-current",
   "actions": [
     {
@@ -55,7 +55,7 @@
       "result_status": "Council agenda/video index identifies Resolution R26-42 for a pre-annexation development agreement with Baccara Eagle Land, LLC to facilitate annexation and development of unincorporated Maricopa County property in Glendale's municipal planning area. The accessible record verifies the item, but not a completed annexation.",
       "case_or_ordinance_permit_number": "Resolution R26-42",
       "primary_url": "https://glendaleaz.new.swagit.com/videos/384335",
-      "access_caveat": "Video page was indexed but returned 403 during refresh; Laserfiche resolution page was also session-limited. Treat as procedural evidence only, not proof of annexation completion."
+      "access_caveat": "Video page returned 403 during the 2026-08-10/11 refresh but re-check on 2026-08-11 returned HTTP 200, with the agenda index listing R26-42 under consent resolutions; Laserfiche resolution page was session-limited. Treat as procedural evidence only, not proof of resolution adoption or annexation completion."
     },
     {
       "date": "2026-05-06",
@@ -107,6 +107,12 @@
     }
   ],
   "history": [
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": "local process / partially approved: Arizona generation CEC approved on 2026-02-04; Maricopa County Planning and Zoning recommended the Military Compatibility Permit on 2026-04-09; Glendale approved a pre-annexation development agreement on 2026-04-28; Maricopa County Board of Supervisors approved MCP250007 with conditions on 2026-05-06. Air quality permit P0013417, EPA review, Plan of Development, building permits, annexation/rezoning, and construction remain unverified/pending in the reviewed record.",
+      "reason": "Wording aligned with evidence: the fetched 2026-04-28 record verifies only the Glendale council agenda/video index item (Resolution R26-42) for a pre-annexation development agreement; adoption of the resolution and completed annexation were not verified, so the status no longer asserts Glendale approved the agreement."
+    },
     {
       "date": "2026-08-11",
       "field": "status_as_of_cutoff",

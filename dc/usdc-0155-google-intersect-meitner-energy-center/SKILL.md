@@ -1,7 +1,7 @@
 # USDC-0155 — Google/Intersect Meitner Energy Center
 
 ## 一句话
-Company announcement / energy-center proposal; no county or state data-center approval located
+Site work-construction evidence: Google/Intersect announced construction of the Meitner Energy Center on 2026-06-04, and Texas TDLR registered three new-construction data-center buildings on Co. Rd. 21; no county or state data-center approval located
 
 ## 位置
 - City: not published

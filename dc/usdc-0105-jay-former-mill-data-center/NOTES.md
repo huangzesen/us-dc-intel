@@ -16,3 +16,4 @@
 - 多源 caveat/冲突：Governor release 称项目 had received several permits；但 Sun Journal 同期称开发方认为因利用 existing industrial structure 不需要 Jay Planning Board approval/no zoning changes，本轮未定位 permit list、permit numbers、building permit、utility record 或 CO。该项已写入 data.json contradictions。
 - Current tracker check：Cleanview 当前 Maine list 仍列 Jay Androscoggin Mill Data Center 为 82 MW、Expected Year TBD、Developer JGT2 Redevelopment；作为行业 tracker 参考，不优先于 June on-hold local evidence。来源：https://cleanview.co/data-centers/maine
 - verified: true（限于本轮结论：on-hold/stalled、proposed 82 MW、JGT2/Sentinel 关系、LD 307 官方政策背景均有可访问来源；permit/utility/construction/energization 仍为未核实项）。
+- data.json 补充顶层 `verified: true` 字段（与上条 NOTES 记录一致，遵循 sibling usdc-0040/usdc-0095 约定；仅表示本轮可核实事实均有来源，permit/utility/construction/energization 仍属未核实项）。

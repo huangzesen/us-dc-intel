@@ -1,0 +1,23 @@
+{
+  "center": "usdc-0156-google-texas-cloud-and-ai-infrastructure-expansion",
+  "issues_in": [
+    "status_as_of_cutoff does not match the last entry of the history array: the last history entry is the 2026-07-16 baseline status ('State/company announcement for multiple campuses;"
+  ],
+  "fixed": [
+    "Appended a 2026-08-11 history entry for status_as_of_cutoff (old_value = 2026-07-16 baseline status text; new_value = current status_as_of_cutoff) with reason citing the 2026-08-11 refresh evidence (Google/state announcement + Haskell County tax-abatement + TDLR project-registered filings; no energized/project-level IT capacity evidence), so the history status record now matches data.json status_as_of_cutoff.",
+    "Appended a 2026-08-11 history entry for owner (old_value = null; new_value = current owner string) with reason citing the refresh sourcing (Homebound Group LLC for Haskell TDLR filings; GN DC1 LLC for Armstrong/Llano with tenant not disclosed).",
+    "Added a dated fix-pass bullet to NOTES.md 2026-08-11 section documenting the history-array sync (history now has 2026-08-11 entries for status_as_of_cutoff and owner consistent with NOTES.md refresh narrative)."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The review issue string in inventory.json is itself truncated mid-sentence ('State/company announcement for multiple campuses;'); the fix addresses the described mismatch (last history entry dated 2026-07-16 vs current refresh status).",
+    "Baseline history entries were left in their original {date, field, value} shape (not converted to the full snapshot shape used by some siblings) to avoid unnecessary churn; the added refresh entries follow the sibling usdc-0084 convention (field/old_value/new_value/reason).",
+    "No URL spot-checks were performed because this entry's issue list contains no URL-reachability items; all URLs in sources/actions were left unchanged."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the status/history mismatch for USDC-0156: data.json history now includes 2026-08-11 entries for status_as_of_cutoff and owner (old_value/new_value/reason, per sibling convention), so the history status record matches the current refresh status; NOTES.md 2026-08-11 section got a dated fix-pass note. data.json re-validated as parseable JSON with baseline entries preserved."
+}

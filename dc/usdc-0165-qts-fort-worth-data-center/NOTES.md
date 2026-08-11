@@ -29,3 +29,4 @@
   - https://www.a-p.com/news-and-insights/ap-tops-out-new-data-center-in-fort-worth/
 - Conflicts retained: (1) DC2 address differs between TDLR (`14100 PARK VISTA BLVD`) and QTS/Fort Worth DAC (`14052 Park Vista Boulevard`); (2) owner/developer entity varies by filing; (3) inspection complete/current campus capacity does not equal confirmed DC2 energization or full campus buildout.
 - Unable to verify: no public certificate of occupancy, utility energization, or interconnection completion record was located for DC2 or the newer DC1 expansion filings during this refresh.
+- History alignment: `history[0]` documents the 2026-07-16 baseline seed-only state; its `date` was corrected from 2026-08-11 to 2026-07-16 to match the baseline date and sibling convention (e.g. usdc-0191 uses 2026-07-16 for the analogous baseline entry).

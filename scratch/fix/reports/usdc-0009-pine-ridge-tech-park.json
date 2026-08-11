@@ -1,0 +1,36 @@
+{
+  "center": "usdc-0009-pine-ridge-tech-park",
+  "issues_in": [
+    "Duplicate non-canonical GPB URL for the same article: actions[3].primary_url and contradictions[3].source_urls use 'https://www.gpb.org/news/2025/09/19/rural-twiggs-county-approves (NOTE: the issue string itself is truncated mid-URL in inventory.json; substance = same GPB article referenced via two different URL slugs, one non-canonical)"
+  ],
+  "fixed": [
+    "Verified the two GPB URL slugs for the 2025-09-19 article 'Rural Twiggs County approves rezoning for a data center with a city-sized appetite for power': slug variant '...-approves-rezoning-for-a-data-center-...' returns HTTP 404 via web fetch (curl HEAD/GET to gpb.org is blocked with HTTP 403 by WAF/bot protection); canonical slug '...-approves-rezoning-for-data-center-...' returns HTTP 200 with the article content.",
+    "data.json: replaced actions[3].primary_url (2025-09-19 reported-rezoning action) from the 404 non-canonical GPB slug to the canonical working GPB slug, so it now matches sources.refresh_2026_08_11 and the contradictions capacity_mw source_urls (single working URL for the article).",
+    "data.json: appended a history entry (date 2026-08-11, field actions[3].primary_url) recording the old URL value and the reason for the swap, keeping the superseded URL in the record rather than deleting it.",
+    "NOTES.md: added a dated fix-pass bullet under the 2026-08-11 section documenting the URL dedupe/normalization with both the dead and canonical URLs."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://www.gpb.org/news/2025/09/19/rural-twiggs-county-approves-rezoning-for-a-data-center-city-sized-appetite-for-power",
+      "status": 404,
+      "action": "replaced"
+    },
+    {
+      "url": "https://www.gpb.org/news/2025/09/19/rural-twiggs-county-approves-rezoning-for-data-center-city-sized-appetite-for-power",
+      "status": 200,
+      "action": "kept"
+    }
+  ],
+  "remaining_risks": [
+    "Direct curl HEAD/GET to gpb.org returns HTTP 403 (WAF/bot protection) for both slugs; the 404-vs-200 determination was made via the web fetch engine (different client). A human-browser recheck is advisable but the canonical slug is confirmed live with matching article content.",
+    "The inventory issue text is truncated mid-URL, so its exact quoted URL cannot be compared character-for-character; the substance (duplicate non-canonical GPB URL for one article) was fully addressed and no non-canonical slug remains in active use.",
+    "The issue cites 'contradictions[3]' but data.json's contradictions array has 3 entries (indices 0-2); the GPB URL lives in the capacity_mw contradiction (index 2), which already used the canonical slug, so no edit was needed there. If the reviewer's numbering implied a 4th contradictions entry, none exists in the current data.",
+    "No other issue types applied to this center; SKILL.md was not modified (no schema drift flagged for this center)."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the duplicate non-canonical GPB URL issue for usdc-0009-pine-ridge-tech-park: actions[3].primary_url pointed to a GPB slug variant that returns HTTP 404, while the canonical slug for the same article (already used in sources and contradictions) returns HTTP 200. Replaced the dead slug with the canonical URL in data.json, appended a dated history entry recording the swap, and documented the fix in NOTES.md; data.json validated as valid JSON after edits."
+}

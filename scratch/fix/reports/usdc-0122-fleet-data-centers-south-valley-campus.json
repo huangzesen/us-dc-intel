@@ -1,0 +1,23 @@
+{
+  "center": "usdc-0122-fleet-data-centers-south-valley-campus",
+  "issues_in": [
+    "Internal spelling inconsistency introduced by this refresh: data.json actions[0] (Docket 25-01037, 2026-01-28) says \"Mackay Switching Station\" while actions[3] (Docket 26-04007, 2026-04-07) says \"Mackey Switching Station\" (inventory.json stores the issue string truncated mid-sentence; intent inferred as align the two spellings)"
+  ],
+  "fixed": [
+    "data.json actions[3].result_status (Docket 26-04007): corrected 'Mackey Switching Station' to 'Mackay Switching Station' so all references are internally consistent (actions[0], actions[3], NOTES.md now all read 'Mackay')",
+    "NOTES.md 2026-08-11 section: appended a dated fix note documenting the spelling alignment, the PUCN docket index's own inconsistent spellings (ElectricClosed index spells Docket 25-01037 'Mackay Switching Station' twice; active Electric index spells Docket 26-04007 'Mackey Switching Station'), the chosen canonical spelling ('Mackay', per the station-defining docket 25-01037 and Nevada Mackay naming heritage), and the source URLs"
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {"url": "https://pucweb1.state.nv.us/puc2/Dktinfo.aspx?Util=ElectricClosed", "status": 200, "action": "kept"},
+    {"url": "https://pucweb1.state.nv.us/puc2/Dktinfo.aspx?Util=Electric", "status": 200, "action": "kept"},
+    {"url": "https://servercountry.org/power/nevada/", "status": 200, "action": "kept"},
+    {"url": "https://thenevadaindependent.com/article/why-a-northern-nevada-data-center-wants-to-build-its-own-temporary-natural-gas-power-plant", "status": 200, "action": "kept"}
+  ],
+  "remaining_risks": [
+    "PUCN's own docket index is internally inconsistent: the ElectricClosed index spells Docket 25-01037 'Mackay Switching Station' (twice) while the active Electric index spells Docket 26-04007 'Mackey Switching Station'. This entry standardizes on 'Mackay' (station-defining docket + Nevada Mackay heritage), but a reader cross-checking the active 26-04007 listing will still see 'Mackey' in the source.",
+    "The issue string stored in scratch/fix/inventory.json for this center is truncated mid-sentence (ends at '20'); the fix was scoped to the one evident spelling inconsistency between actions[0] and actions[3]."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the internal spelling inconsistency for USDC-0122: data.json actions[3] (Docket 26-04007) 'Mackey Switching Station' was corrected to 'Mackay Switching Station', matching actions[0] (Docket 25-01037) and NOTES.md. The canonical spelling was verified against the PUCN docket index (ElectricClosed page spells 25-01037 'Mackay' twice) and a dated note with source URLs was added to NOTES.md. data.json revalidated as valid JSON; no other issues were listed for this center."
+}

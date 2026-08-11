@@ -162,6 +162,7 @@
       "https://www.coresite.com/news/coresite-expands-data-center-footprint-in-silicon-valley-and-denver-campuses-to-meet-growing-capacity-power-demands",
       "https://www.coresite.com/news/coresite-expands-silicon-valley-campus-with-completion-of-228000-square-foot-ai-ready-data-center",
       "https://www.coresite.com/data-center/sv9-santa-clara-ca",
+      "https://www.coresite.com/spec-sheets/sv9-santa-clara-ca",
       "https://www.coresite.com/data-center-locations/silicon-valley",
       "https://www.datacenterdynamics.com/en/news/coresite-launches-santa-clara-data-center-california/",
       "https://cleanview.co/data-centers/california/1033/coresite-sv9"
@@ -174,7 +175,14 @@
     },
     {
       "topic": "building size",
-      "details": "Official planning/CEQA materials describe approximately 250,000 square feet, CoreSite's 2023 construction release used 240,000 square feet, the current CoreSite facility/completion pages use 228,000+ square feet, and the CoreSite spec-sheet page still says 200,000 square feet of turn-key data center space. The record uses current CoreSite facility/completion figure for operating footprint."
+      "details": "Official planning/CEQA materials describe approximately 250,000 square feet, CoreSite's 2023 construction release used 240,000 square feet, the current CoreSite facility/completion pages use 228,000+ square feet, and the CoreSite spec-sheet page still says 200,000 square feet of turn-key data center space. The record uses current CoreSite facility/completion figure for operating footprint.",
+      "sources": [
+        "https://ceqanet.lci.ca.gov/2020070532/2",
+        "https://santaclara.legistar.com/LegislationDetail.aspx?GUID=42334724-887E-427D-B743-30E6EA887BF4&ID=5530847&Options=&Search=",
+        "https://www.coresite.com/news/coresite-expands-data-center-footprint-in-silicon-valley-and-denver-campuses-to-meet-growing-capacity-power-demands",
+        "https://www.coresite.com/spec-sheets/sv9-santa-clara-ca",
+        "https://www.coresite.com/data-center/sv9-santa-clara-ca"
+      ]
     },
     {
       "topic": "status verification",

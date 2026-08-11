@@ -1,0 +1,21 @@
+{
+  "center": "usdc-0091-coresite-denver-de3-campus",
+  "issues_in": [
+    "Minor note: data.json carries no top-level `verified` flag even though NOTES.md's 2026-08-11 section states 'verified: false'; evidence_grade 'B' is consistent with that caveat, so"
+  ],
+  "fixed": [
+    "Added top-level \"verified\": false to data.json, encoding NOTES.md's 2026-08-11 'verified: false' statement (final occupancy/energization/live status unverified; company + official moratorium facts verified; direct Denver Accela records not captured). Convention matches sibling entries (top-level boolean, e.g. usdc-0098 \"verified\": true).",
+    "Appended a dated fix-pass note to NOTES.md's 2026-08-11 section documenting the verified-flag encoding into data.json (evidence_grade stays B)."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The inventory issue string is truncated mid-sentence (ends with '...so'); the fix implements the explicitly stated part (missing top-level verified flag vs NOTES.md 'verified: false'), and the truncated tail ('evidence_grade B is consistent with that caveat, so ...') was read as confirming no evidence_grade change. No other inferred edits were made.",
+    "Entry carries no top-level `history` array (change history lives in NOTES.md and actions); this is the pre-existing structure and was not part of this issue."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for USDC-0091: encoded the top-level `verified: false` flag into data.json per NOTES.md's 2026-08-11 statement (sibling convention: boolean), kept evidence_grade B, and documented the encoding with a dated note in NOTES.md. data.json validated as valid JSON after the edit; no URLs were touched."
+}

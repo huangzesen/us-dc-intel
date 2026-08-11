@@ -115,8 +115,15 @@
       "field": "owner",
       "previous_value": null,
       "new_value": "JGT2 Redevelopment LLC as reported site owner/developer; Sentinel Data Centers was planned operator/partner but withdrew/notified intent not to proceed."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "verified",
+      "previous_value": null,
+      "new_value": true
     }
   ],
   "seed_only": false,
+  "verified": true,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -1,0 +1,18 @@
+{
+  "center": "usdc-0015-stack-chi02",
+  "issues_in": [
+    "history[0].date is \"2026-07-16\" (the baseline extraction date) but the entry records the 2026-08-11 refresh change: its new_value text states \"...as of 2026-08-11\" and its reason c"
+  ],
+  "fixed": [
+    "data.json: corrected history[0].date from 2026-07-16 (baseline extraction date) to 2026-08-11 (the refresh date when the status_as_of_cutoff change was actually recorded); old_value, new_value, and reason left unchanged and accurate, consistent with the 2026-08-11 NOTES.md section and sibling convention (e.g. usdc-0003 uses refresh date 2026-08-11 for its refreshed history entry).",
+    "NOTES.md: appended a dated fix-pass note to the 2026-08-11 section documenting that data.json history[0].date was corrected from the baseline date to the refresh date, with old/new values unchanged."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [],
+  "remaining_risks": [
+    "No URL/dead-link issues were in scope for this center; no URLs were re-checked this pass.",
+    "The inventory issue string itself ends mid-word (\"...and its reason c\"), so only the date-sync part was actionable; no other content issues were reported for this center."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single reported issue for usdc-0015-stack-chi02: history[0].date now records the refresh date 2026-08-11 instead of the baseline 2026-07-16, matching the 2026-08-11 status change documented in NOTES.md. Added a dated NOTES.md note documenting the correction. data.json validated as valid JSON after the edit."
+}

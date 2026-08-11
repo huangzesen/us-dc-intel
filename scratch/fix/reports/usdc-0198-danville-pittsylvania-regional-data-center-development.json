@@ -1,0 +1,30 @@
+{
+  "center": "usdc-0198-danville-pittsylvania-regional-data-center-development",
+  "issues_in": [
+    "project_details.reported_construction_workers_peak=\"2,000-4,000\" and project_details.reported_construction_duration=\"12-18+ years\" are specific quantitative claims with no traceabl"
+  ],
+  "fixed": [
+    "Traced reported_construction_workers_peak \"2,000-4,000\" to WDBJ 2026-04-30 (quote from Pittsylvania County Economic Development Director Matt Rowe: \"probably somewhere between 2,000 and 4,000 plus individuals of construction workers that will be on site\") and added the working source URL (HTTP 200) to sources.current_urls.",
+    "Removed the untraceable project_details.reported_construction_duration \"12-18+ years\" claim from data.json as a content edit (no file deletion) after multiple targeted searches found no source for the figure.",
+    "Documented the closest sourced figures in NOTES.md 2026-08-11 section and data.json history: 15-30 year campus development timeframe (Construction Review Online 2026-07-22) and three construction phases with closings no later than June 2027 / before June 2031 (Cardinal News 2026-06-30, DCD 2026-05-20).",
+    "Added Construction Review Online 2026-07-22 article URL to sources.current_urls (HTTP 200) as reference for the development-timeframe context.",
+    "Added a 2026-08-11 history entry to data.json recording the trace and the removal, keeping history consistent with NOTES.md.",
+    "Validated data.json remains valid JSON after all edits."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {"url": "https://www.wdbj7.com/2026/04/30/new-details-massive-data-center-planned-pittsylvania-county/", "status": 200, "action": "kept"},
+    {"url": "https://constructionreviewonline.com/southside-virginia-advances-historic-100b-berry-hill-data-center-campus-despite-resident-pushback/", "status": 200, "action": "kept"},
+    {"url": "https://wset.com/news/local/berry-hill-data-center-expected-to-be-operational-by-july-2027-stack-infrastructure-pittsylvania-county-virginia", "status": 200, "action": "kept"},
+    {"url": "https://cardinalnews.org/2026/06/30/stack-infrastructure-says-its-moving-forward-with-ai-data-center-in-pittsylvania/", "status": 200, "action": "kept"},
+    {"url": "https://www.datacenterdynamics.com/en/news/stack-commits-735bn-investment-into-data-center-campus-in-berry-hill-virginia/", "status": 200, "action": "kept"}
+  ],
+  "remaining_risks": [
+    "The issue string in inventory.json is stored truncated (ends \"no traceabl...\"); the full original issue text is unavailable, so the fix was applied to the evident intent (unsourced quantitative claims in project_details).",
+    "reported_construction_workers_peak is a county-official estimate quoted via local reporting, not an official document; it is retained as a reported/estimate figure, not a verified fact.",
+    "reported_construction_duration was removed rather than replaced; if the schema or visualization expects that key, the parent may want to re-add a sourced \"15-30 year development timeframe\" field under a distinct name.",
+    "SKILL.md maintenance workflow mentions git add + commit; per brief constraints no git operations were performed (parent commits after review)."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for USDC-0198: traced the reported peak construction workforce (2,000-4,000) to a WDBJ 2026-04-30 quote of the county economic development director and added the working source URL; removed the untraceable \"12-18+ years\" construction-duration claim from data.json as a content edit, documenting sourced alternatives (15-30 yr development timeframe; three construction phases closing by 2027-06/2031-06) in NOTES.md and history. data.json validated as valid JSON after edits."
+}

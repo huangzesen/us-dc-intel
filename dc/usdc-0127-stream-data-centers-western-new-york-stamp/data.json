@@ -84,11 +84,19 @@
   "contradictions": [
     {
       "topic": "capital investment",
-      "details": "GCEDC January 30, 2026 project summary lists total capital investment of $11.181B, while the GCEDC stakeholder overview and later local reporting describe Project Double Reed as a $19.46B/$19.5B investment."
+      "details": "GCEDC January 30, 2026 project summary lists total capital investment of $11.181B, while the GCEDC stakeholder overview and later local reporting describe Project Double Reed as a $19.46B/$19.5B investment.",
+      "sources": [
+        "https://www.gcedc.com/file-library/100319/STREAMUSDataCentersLLC.ProjectSummary.1.30.26.pdf",
+        "https://www.gcedc.com/file-library/100319/STREAMUSDataCentersLLC.StakeholderProjectOverview.pdf",
+        "https://rbj.net/2026/06/15/new-york-moratorium-genesee-county-data-center/"
+      ]
     },
     {
       "topic": "permitting impact of statewide moratorium",
-      "details": "Executive Order 62 applies to data centers consuming or capable of consuming 50 MW or more and directs DEC to hold incomplete discretionary permit applications in abeyance; local-government approvals are expressly excluded, so impact on the Town site-plan/GCEDC process remains unresolved in public sources."
+      "details": "Executive Order 62 applies to data centers consuming or capable of consuming 50 MW or more and directs DEC to hold incomplete discretionary permit applications in abeyance; local-government approvals are expressly excluded, so impact on the Town site-plan/GCEDC process remains unresolved in public sources.",
+      "sources": [
+        "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops"
+      ]
     }
   ],
   "seed_only": false,

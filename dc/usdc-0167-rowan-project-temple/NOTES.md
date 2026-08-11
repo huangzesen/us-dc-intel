@@ -17,3 +17,4 @@
 - 冲突/不一致：acreage varies by scope: City Zone 47 notice is approximately 554 acres, while Temple EDC/Rowan describe broader campus/site as more than/about 700 acres. data.json 保留两种口径。
 - 无法核实/证据不足：未检索到可文本核验的 building permit、site plan approval、full county permit package、energization/operation record；Bell County agreement PDF is image-only via pdftotext in this run.
 - verified: true for approvals/registration/source existence and developer-reported 300 MW/groundbreaking facts; verified: false for building-permit details, exact construction-start date, and energized/operational status.
+- fix-pass 2026-08-11: encoded the above split into data.json as top-level `verified: false` + `verification_notes` (per sibling convention, e.g. usdc-0031/usdc-0039). Per-action `verified` booleans are not used by any repo entry, so none were added.

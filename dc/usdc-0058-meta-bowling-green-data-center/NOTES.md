@@ -26,3 +26,4 @@
   - 未找到 Meta 官方披露的 IT MW、正式投运日期或 phased energization 日期。
   - 未核验 Ohio EPA final PTI/PTIO、Title V application、Apollo North/South pipeline dockets 的完整原始 docket 内容；PUCO/DIS case pages通过浏览器返回 request rejected。
 - verified: true for owner/location/status progression and official/local milestones above; verified: false for official IT capacity and official in-service date.
+- evidence_grade 由 `A-` 细化为 `A- for status/location/owner and official/local-process milestones; B for capacity_mw`：180 MW 仅来自第三方 tracker（https://ryangrissinger.com/issues/data-centers/OH-DC-0049 ）转述的 Meta-stated peak IT demand，官方 Meta 公告（https://datacenters.atmeta.com/2025/04/hello-bowling-green/ ）与 OPSB 记录（https://content.govdelivery.com/accounts/OHPUC/bulletins/4077fa5 ）均未发布数据中心 IT-load，故容量维度保留为需继续核实的 tracker 值（verified: false）并降级为 B；其余字段证据级别不变。

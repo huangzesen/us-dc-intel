@@ -66,6 +66,7 @@
       "https://aws.state.ak.us/OnlinePublicNotices/Notices/Attachment.aspx?id=151373",
       "https://www.petroleumnews.com/story/2025/01/05/news/state-oks-sdi-data-center-land-use-permit/40541.html",
       "https://www.petroleumnews.com/story/2025/03/23/news/aogcc-approves-hilcorp-non-custody-transfer-meter-for-pilot/40674.html",
+      "https://www.northernjournal.com/arctic-bitcoin-hilcorp-tech-firm-aim-to-test-north-slope-data-center/",
       "https://www.commerce.alaska.gov/web/aogcc/data.aspx",
       "https://www.uaf.edu/acep-blog/can-data-centers-lower-alaskas-high-energy-costs.php"
     ]
@@ -78,6 +79,13 @@
       "previous_capacity_mw": null,
       "previous_owner": null,
       "change_note": "Refresh added official 1.4 MW capacity, secondary-reported DNR approval, and secondary-reported AOGCC metering decision/module-installed-not-connected status."
+    },
+    {
+      "date": "2026-08-11",
+      "previous_status_as_of_cutoff": "Approved-permitted temporary pilot; module reportedly installed but not yet connected to power as of the Alaska Oil and Gas Conservation Commission's March 13, 2025 decision as reported by Petroleum News.",
+      "previous_capacity_mw": 1.4,
+      "previous_owner": "TA Infrastructure Management LLC (applicant/developer); Hilcorp Alaska LLC owns existing generation equipment and hosts the Duck Island Unit facilities",
+      "change_note": "Fix pass: added Northern Journal article URL (arctic-bitcoin-hilcorp-tech-firm-aim-to-test-north-slope-data-center) to sources.source_urls to back the Hilcorp ownership/hosting claim in the owner field; that URL was previously cited only in NOTES.md, not in data.json. No status, capacity, or owner value changed."
     }
   ],
   "seed_only": false,

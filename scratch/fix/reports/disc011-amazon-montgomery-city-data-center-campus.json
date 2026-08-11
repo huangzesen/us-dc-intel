@@ -1,0 +1,67 @@
+{
+  "center": "disc011-amazon-montgomery-city-data-center-campus",
+  "issues_in": [
+    "Spot-check hard-fail (2026-08-11 ~17:00 UTC): https://mcmo.us/amazon/ is unreachable - DNS resolves to 198.209.253.17 but TCP port 443 connection is refused for both HEAD and GET"
+  ],
+  "fixed": [
+    "Retried https://mcmo.us/amazon/ (HEAD and GET): TCP 443 connection refused (http_code 000); confirmed the whole mcmo.us host refuses 443 (root and three Project Green PDFs also fail) while DNS still resolves to 198.209.253.17.",
+    "Verified working replacement: http://mcmo.us/amazon/ returns 200 and is the same Montgomery County official page (title 'Montgomery County, MO Data Center - Project Green (Amazon Web Services)') listing Resolution Plan for Industrial Development, Chapter 100 Bond Order, Infrastructure Development & Funding Agreement, site plan, and Cost Benefit Analysis; the three Project Green PDFs also return 200 over plain HTTP (application/pdf).",
+    "data.json sources: swapped https:// to http:// for https://mcmo.us/amazon/ and the three mcmo.us Project Green PDF URLs (Infrastructure-Development-and-Funding-Agreement, NorthPoint site plan, Chapter-100-Bond-Order) — same official county source, same content, now reachable.",
+    "data.json history: appended a 2026-08-11 entry documenting the URL scheme swap and the reason (443 refused, HTTP live).",
+    "NOTES.md: appended a dated '2026-08-11 (fix pass: mcmo.us URL 传输方式修复)' section with the spot-check findings, the verified HTTP replacements, and a note to restore https if mcmo.us re-enables TLS.",
+    "Validated data.json parses as JSON after edits."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://mcmo.us/amazon/",
+      "status": "connection-refused (000)",
+      "action": "replaced"
+    },
+    {
+      "url": "http://mcmo.us/amazon/",
+      "status": 200,
+      "action": "replaced_with"
+    },
+    {
+      "url": "https://mcmo.us/wp-content/uploads/2026/02/Infrastructure-Development-and-Funding-Agreement-Project-Green.pdf",
+      "status": "connection-refused (000)",
+      "action": "replaced"
+    },
+    {
+      "url": "http://mcmo.us/wp-content/uploads/2026/02/Infrastructure-Development-and-Funding-Agreement-Project-Green.pdf",
+      "status": 200,
+      "action": "replaced_with"
+    },
+    {
+      "url": "https://mcmo.us/wp-content/uploads/2026/02/NorthPoint-Project-Green-site-plan.pdf",
+      "status": "connection-refused (000)",
+      "action": "replaced"
+    },
+    {
+      "url": "http://mcmo.us/wp-content/uploads/2026/02/NorthPoint-Project-Green-site-plan.pdf",
+      "status": 200,
+      "action": "replaced_with"
+    },
+    {
+      "url": "https://mcmo.us/wp-content/uploads/2026/02/Chapter-100-Bond-Order-Project-Green.pdf",
+      "status": "connection-refused (000)",
+      "action": "replaced"
+    },
+    {
+      "url": "http://mcmo.us/wp-content/uploads/2026/02/Chapter-100-Bond-Order-Project-Green.pdf",
+      "status": 200,
+      "action": "replaced_with"
+    }
+  ],
+  "remaining_risks": [
+    "Replacement URLs use plain HTTP (no TLS) because mcmo.us has no working HTTPS listener as of the fix pass; if the county later re-enables TLS, the sources/history can be restored to https.",
+    "Wayback Machine availability lookup was rate-limited (429) and not used; the live HTTP page was sufficient verification.",
+    "Only the flagged URL and same-host mcmo.us URLs were checked; other entry URLs (governor.mo.gov, aboutamazon.com, ameren.com, datacenterdynamics.com, themissouritimes.com, mystandardnews.com) were not re-spot-checked in this pass."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the dead-URL hard-fail: mcmo.us refuses HTTPS (TCP 443) but serves the identical Montgomery County Project Green page and PDFs over plain HTTP (200), so the four mcmo.us source URLs in data.json were swapped https->http, with a history entry and a dated NOTES.md note documenting the change. data.json validated as JSON."
+}

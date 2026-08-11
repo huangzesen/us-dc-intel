@@ -97,7 +97,7 @@
       "result_status": "Avangrid announced a Google PPA for more than 100 MW from the Leaning Juniper IIB repower project in Gilliam County, with Northern Wasco County PUD delivering the power to Google's nearby data centers in The Dalles.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.avangrid.com/w/avangrid-announces-119-megawatt-repower-project-in-oregon",
+      "primary_url": "https://www.datacenterdynamics.com/en/news/google-signs-ppa-with-avangrid-for-more-than-100mw-of-wind-energy-in-oregon/",
       "access_caveat": "Power-supply/support agreement; not IT capacity and not proof of building energization.",
       "evidence_note": "Do not map the >100 MW PPA to capacity_mw."
     },
@@ -183,9 +183,9 @@
       },
       {
         "date_accessed": "2026-08-11",
-        "url": "https://www.avangrid.com/w/avangrid-announces-119-megawatt-repower-project-in-oregon",
+        "url": "https://www.datacenterdynamics.com/en/news/google-signs-ppa-with-avangrid-for-more-than-100mw-of-wind-energy-in-oregon/",
         "source_type": "company / utility-side power",
-        "note": "Avangrid 2025-07-22 >100 MW Leaning Juniper IIB PPA serving Google's The Dalles data centers via Northern Wasco County PUD."
+        "note": "Avangrid 2025-07-22 >100 MW Leaning Juniper IIB PPA serving Google's The Dalles data centers via Northern Wasco County PUD. Replacement for unreachable original avangrid.com announcement URL (status 000 on retry 2026-08-11)."
       },
       {
         "date_accessed": "2026-08-11",
@@ -202,6 +202,15 @@
     ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "field": "sources.current_refresh_sources / actions[].primary_url",
+      "old_value": "https://www.avangrid.com/w/avangrid-announces-119-megawatt-repower-project-in-oregon",
+      "new_value": "https://www.datacenterdynamics.com/en/news/google-signs-ppa-with-avangrid-for-more-than-100mw-of-wind-energy-in-oregon/",
+      "change_note": "Replaced the avangrid.com announcement URL after it returned status 000 (HTTP/2 INTERNAL_ERROR; HTTP/1.1 timeout) on retry 2026-08-11 and the avangrid.com root was also unreachable. The datacenterdynamics.com report of the same 2025-07-22 Avangrid PPA (>100 MW, Leaning Juniper IIB, Gilliam County, delivered via Northern Wasco County PUD to Google's The Dalles data centers) was verified reachable (HTTP 200) on 2026-08-11 and replaces it in actions and sources; the original URL is retained here and in NOTES.md."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

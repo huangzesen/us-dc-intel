@@ -24,9 +24,10 @@
     "power_grid_claim": "8 MW facility with no impact to the grid per project sponsor"
   },
   "sources": [
-    "https://www.datacenterdynamics.com/en/news/alabama-city-considers-data-center-moratorium-could-kill-edged-project/",
+    "https://www.idcnova.com/news/Alabama-City-Weighs-Data-Center-Moratorium-That-Could-Derail-Edgeds-93M-Project",
     "https://projectgatewayal.com/",
     "https://www.fox10tv.com/2026/07/24/prichard-city-council-considers-moratorium-data-centers/",
+    "https://mynbc15.com/news/local/the-community-has-spoken-prichard-residents-push-back-on-proposed-data-center",
     "https://www.lagniappemobile.com/news/prichard/vote-on-prichard-data-center-falls-apart/article_4211104f-b442-495e-a691-160fd5a65b84.html",
     "https://www.mejacoalition.org/2026/05/26/africatown-data-center/",
     "https://www.revenue.alabama.gov/property-tax/county-offices-appraisal-assessment-records/",
@@ -38,7 +39,7 @@
       "field": "capacity_mw",
       "current_value": 8,
       "conflicting_value": 6,
-      "notes": "Sponsor project site and DCD report 8 MW; MEJAC's May 2026 community-account article refers to a proposed 6 MW operation from earlier community discussion."
+      "notes": "Sponsor project site and 2026-08-11 industry reporting (idcnova.com) report 8 MW; MEJAC's May 2026 community-account article refers to a proposed 6 MW operation from earlier community discussion."
     },
     {
       "field": "status",
@@ -61,6 +62,13 @@
       "previous": null,
       "current": "Added sponsor-reported investment, building size, acreage, job counts, schedule, and cooling/power claims.",
       "reason": "Project sponsor site and local reporting provide additional public project detail."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sources",
+      "previous": "DatacenterDynamics article URL (https://www.datacenterdynamics.com/en/news/alabama-city-considers-data-center-moratorium-could-kill-edged-project/) listed in sources[0].",
+      "current": "DCD URL replaced by idcnova.com article (2026-08-11, same moratorium/Project Gateway story); mynbc15.com local coverage (2026-06-11) added corroborating networking-hub, former-911-site, and late-2026-groundbreaking facts.",
+      "reason": "Review spot-check hard-fail: DCD URL returned HTTP 403 for HEAD/GET from review environment; both replacements verified HTTP 200. Swap documented in NOTES.md 2026-08-11 section."
     }
   ],
   "discovery_file": "candidates-secondary-markets.jsonl",

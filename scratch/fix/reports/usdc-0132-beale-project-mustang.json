@@ -1,0 +1,20 @@
+{
+  "center": "usdc-0132-beale-project-mustang",
+  "issues_in": [
+    "data.json has no top-level `verified` flag, so evidence_grade (\"A- (official city approval/news page, ...)\") cannot be cross-checked inside the JSON; NOTES.md claims \"verified: tru"
+  ],
+  "fixed": [
+    "Added top-level \"verified\": true to data.json, encoding NOTES.md 2026-08-11 claim (local approval, developer/company, location, electric-service capacity confirmed from official/primary sources; construction-start/end-user/IT-load remain unverified and are not asserted), aligned with refreshed sibling convention (usdc-0040, usdc-0095).",
+    "Added top-level \"last_refreshed\": \"2026-08-11\" to data.json to match the refreshed-sibling tail block (last_refreshed + verified before baseline_sha, per usdc-0040/usdc-0098).",
+    "Appended dated fix-pass note to NOTES.md 2026-08-11 section documenting the data.json field alignment and that construction-start/end-user/IT-load remain unverified."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The inventory issue string is truncated mid-sentence (\"NOTES.md claims \\\"verified: tru\"); the intended fix was inferred from NOTES.md line 18 and the refreshed-sibling convention, and the edit encodes exactly the NOTES.md claim.",
+    "data.json still has no `history` array (canonical schema lists `history`); the center's issue list did not flag it, so it was left unchanged for the parent to decide.",
+    "No building permit / construction-start record / named end-user / IT critical load evidence exists; evidence_grade 'A-' caveat is unchanged and status remains approved-permitted/local-approval, not construction."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single flagged issue for usdc-0132-beale-project-mustang: added the missing top-level verified flag (true, per NOTES.md's verified claim) plus last_refreshed to data.json so evidence_grade can be cross-checked in-JSON, and documented the alignment with a dated note in NOTES.md. data.json validated as parseable JSON after the edit; no other issues were flagged for this center."
+}

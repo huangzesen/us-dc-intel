@@ -1,0 +1,24 @@
+{
+  "center": "usdc-0160-microsoft-pecos-ai-cloud-data-center-campus",
+  "issues_in": [
+    "evidence_grade missing: data.json has no evidence_grade field (SKILL.md maintained-field list includes status_as_of_cutoff / evidence_grade) and no verified flags, so the evidence_"
+  ],
+  "fixed": [
+    "Added top-level `evidence_grade` to data.json with a narrative grade \"B: official state/local records (Texas Register/TCEQ air-permit notices, Reeves County ESD No. 2 hearing notice, Texas Comptroller JETI application) verify the related Energy Forge One/Project Kilby power-generation process and incentive facts; Microsoft's official blog and Chevron's newsroom verify the 2026-06-22 Pecos datacenter campus announcement and the ~2 GW capacity claim. No data-center building permit, site-plan approval, construction-start, or energization record was located as of the 2026-08-11 cutoff.\" (per SKILL.md maintained-field contract and sibling convention, e.g. usdc-0161/usdc-0070 style \"B: ...\").",
+    "Added top-level `verified: true` plus `verification_notes` encoding the NOTES.md 2026-08-11 posture: verified true for the listed sourced facts (Microsoft 2026-06-22 blog, Chevron PPA, Texas Register/TCEQ notices, Reeves County ESD hearing notice, Texas Comptroller JETI J0022); verified false for data-center building permit, site-plan approval, construction start, energization, and operational go-live because no first-hand public record was located by the 2026-08-11 cutoff.",
+    "Added top-level `last_refreshed: \"2026-08-11\"` matching sibling refreshed entries (usdc-0098).",
+    "Updated NOTES.md 2026-08-11 section with a dated review-fix-pass note documenting the added evidence_grade / verified / verification_notes / last_refreshed fields and their rationale."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "evidence_grade \"B\" is a judgment call consistent with sibling Microsoft/local-process entries (e.g. usdc-0161 uses B with the same no-permit caveat); the capacity claim (~2 GW) rests on Microsoft's company announcement, which is captured as verified:true for the sourced fact but the data-center building permit/construction/energization stages remain unverified.",
+    "No URL changes were required by this issue; no URLs were spot-checked in this pass.",
+    "SKILL.md was not modified: its field list already includes status_as_of_cutoff / evidence_grade, so no schema-doc drift edit was needed."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for USDC-0160 (missing evidence_grade and no verified flags) by adding evidence_grade (\"B: ...\" narrative), verified: true, verification_notes mirroring the NOTES.md verification posture, and last_refreshed: 2026-08-11 to data.json, plus a dated NOTES.md note. data.json re-validated as valid JSON after edits; no URLs or SKILL.md changes were required."
+}

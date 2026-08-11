@@ -15,3 +15,4 @@
 - 容量冲突处理：`capacity_mw` 不设为单一数值。当前运行用 46 MW（company PR）/50 MW（SEC presentation/script）表示；>100 MW Tier 3、300 MW LOI、85 MW take-or-pay、500 MW queue 分别记录为 planned/LOI/interconnection，不视为已建成容量。
 - 尚未核实：未找到独立地方政府文件确认最终 zoning map amendment/special permit/site plan approval 全部完成；未找到 construction permit、building permit、utility interconnection agreement 或扩建开工证据。公司称 approved zoning，但本次以官方可访问材料能核实的 SEQR/HEU steps 为准。
 - verified: true（核心事实均有可访问来源）；扩建许可/施工/并网状态 verified: false（证据不足）。
+- history 同步（fix pass 2026-08-11）：data.json `history` 数组在 2026-07-16 baseline 快照之后补记本次 refresh 的字段变更——`status_as_of_cutoff`（null -> partial live）、`capacity_mw`（null -> 46/50 MW current 与 100/300/85/500 MW planned/LOI/queue 分层数值）、`owner`（null -> North East Data LLC (Blockfusion USA, Inc. subsidiary)）；旧值保留在 baseline 快照中。

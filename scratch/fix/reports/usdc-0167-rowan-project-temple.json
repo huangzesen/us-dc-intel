@@ -1,0 +1,24 @@
+{
+  "center": "usdc-0167-rowan-project-temple",
+  "issues_in": [
+    "observation (minor): data.json contains no structured per-action `verified` boolean flags (the only 'verified' occurrence is the narrative phrase 'Building permit record remains un"
+  ],
+  "fixed": [
+    "Added top-level \"verified\": false to data.json encoding NOTES.md 2026-08-11 split (verified true for approvals/registration/source existence and developer-reported 300 MW/groundbreaking facts; verified false for building-permit details, exact construction-start date, and energized/operational status).",
+    "Added \"verification_notes\" to data.json detailing exactly which facts are verified (Temple City Council 2026-03-05 utility agreement 4-0, Zone 47 tax-abatement notice, Bell County tax-abatement index, Texas Comptroller registration, Rowan community/portfolio pages) and which are not (building permit, site-plan approval, full county permit package, energization/operation record).",
+    "Added dated fix-pass bullet to NOTES.md ## 2026-08-11 section documenting the data.json encoding and noting that per-action `verified` booleans are not used by any repo entry (verified repo-wide count of per-action flags = 0), so none were added.",
+    "Validated data.json remains valid JSON after edits."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The issue text asks for per-action `verified` flags, but no entry in the repo uses per-action flags (verified repo-wide per-action count = 0); the established sibling convention (e.g. usdc-0031-rowan-frederick-bauxite-i, usdc-0039-google-pine-island-data-center) is a single top-level `verified` boolean plus `verification_notes`, which is what was applied. Per-action flags remain absent by design.",
+    "verified:false is set because the entry contains unverified key claims (building permit, exact construction-start date, energized status); this mirrors the Rowan sibling usdc-0031 and usdc-0039 rather than claiming full verification.",
+    "No URLs were spot-checked for this center (no URL/reachability issue was raised for usdc-0167)."
+  ],
+  "json_valid": true,
+  "summary": "Applied the single minor observation for USDC-0167: encoded the NOTES.md 2026-08-11 verified split into data.json as top-level verified:false plus verification_notes per sibling convention, and documented the encoding with a dated note in NOTES.md. data.json re-validated as valid JSON; no URLs required checking; no deletions or git operations performed."
+}

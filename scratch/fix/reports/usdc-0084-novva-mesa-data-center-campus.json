@@ -1,0 +1,23 @@
+{
+  "center": "usdc-0084-novva-mesa-data-center-campus",
+  "issues_in": [
+    "history not updated during the 2026-08-11 refresh: NOTES.md documents changes to status_as_of_cutoff, capacity_mw (null -> 300), and owner (null -> 'Novva Holdings, LLC / Novva Dat"
+  ],
+  "fixed": [
+    "data.json history: kept the accurate 2026-07-16 baseline entry and appended three 2026-08-11 field-change entries (field/old_value/new_value/reason per repo sibling convention, cf. usdc-0015/usdc-0016/usdc-0083): (1) status_as_of_cutoff: baseline wording -> 'approved-permitted (local entitlement/design-review evidence only): Mesa Legistar and open-data records identify Project Borealis / Novva-Mesa Ellsworth at 4120 S Ellsworth Rd, with DRB24-00292 and ZON24-00291 shown as Not Appealed as of 2026-01-08; no building permit, certificate of occupancy, construction start, or energization record was located in this refresh.'; (2) capacity_mw: null -> 300 (sourced to Novva 2024-08-21 announcement + current Mesa campus page); (3) owner: null -> 'Novva Holdings, LLC / Novva Data Centers' (sourced to official DSN 24072 Legistar record + Novva Mesa campus page).",
+    "NOTES.md: added a dated bullet to the 2026-08-11 section documenting the data.json history sync (status_as_of_cutoff / capacity_mw / owner change entries added), so history and NOTES are mutually consistent.",
+    "Validated data.json parses as JSON (python3 json.load) after the edit; history now contains 4 entries (1 baseline + 3 refresh)."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "No URLs were spot-checked for this issue (history-sync only; all source URLs were already verified live during the 2026-08-11 refresh per NOTES.md).",
+    "The inventory issue string is itself truncated in scratch/fix/inventory.json ('...Novva Dat'); the fix covers the full documented scope (status_as_of_cutoff, capacity_mw, owner) from NOTES.md regardless.",
+    "The retained 2026-07-16 baseline history entry uses a snapshot style (status_as_of_cutoff/capacity_mw/owner keys) rather than field/old_value/new_value; it is accurate as the baseline record and was left in place per no-deletion constraint - parent may normalize it if desired."
+  ],
+  "json_valid": true,
+  "summary": "Synced usdc-0084 data.json history with the 2026-08-11 refresh: kept the accurate 2026-07-16 baseline entry and appended per-field 2026-08-11 history entries for status_as_of_cutoff, capacity_mw (null -> 300), and owner (null -> 'Novva Holdings, LLC / Novva Data Centers') matching NOTES.md, plus a NOTES.md note documenting the sync. data.json re-validated as valid JSON. No dead URLs or other issue types applied to this center."
+}

@@ -1,0 +1,41 @@
+{
+  "center": "usdc-0080-beale-marana-data-center-campus",
+  "issues_in": [
+    "Primary source https://www.maranaaz.gov/Government/Data-Centers/Luckett-Road-North-and-South-Data-Centers (and companion Town PDF https://www.maranaaz.gov/files/assets/cityofmarana"
+  ],
+  "fixed": [
+    "Re-tested both flagged maranaaz.gov URLs (primary page + companion Town PDF) once via HEAD then GET (~15s max each): both return HTTP 200 with genuine content (page ~105 KB with title 'Luckett Road North and South Data Centers - Town of Marana, AZ' and confirmed keywords: rezoning timeline, 550-750 MW per-parcel demand, TEP/Trico service; PDF ~225 KB).",
+    "Determined the review's 403 hard-fail is an Akamai WAF/bot-protection false positive: a browser-like UA and the review fetcher get 403, while plain direct GET succeeds. URLs are live, so no replacement was made (official Town of Marana sources kept unchanged).",
+    "Verified a Wayback Machine fallback for the primary page exists (9 captures; e.g. 2025-12-31 snapshot serving the real page content) and recorded it in NOTES.md.",
+    "Appended a dated fix-pass note to NOTES.md's 2026-08-11 section documenting the re-verification, the WAF 403 caveat, the kept-URL decision, and the Wayback fallback URL.",
+    "Validated data.json remains valid JSON after edits (no data.json changes were needed; the flagged URLs are canonical and working)."
+  ],
+  "files_changed": [
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://www.maranaaz.gov/Government/Data-Centers/Luckett-Road-North-and-South-Data-Centers",
+      "status": 200,
+      "action": "kept"
+    },
+    {
+      "url": "https://www.maranaaz.gov/files/assets/cityofmarana/v/2/development-services/documents/data-centers/luckett-data-center.pdf",
+      "status": 200,
+      "action": "kept"
+    },
+    {
+      "url": "https://web.archive.org/web/20251231071352/https://www.maranaaz.gov/Government/Data-Centers/Luckett-Road-North-and-South-Data-Centers",
+      "status": 200,
+      "action": "kept"
+    }
+  ],
+  "remaining_risks": [
+    "The issue string stored in scratch/fix/inventory.json is truncated mid-sentence at '...cityofmarana' (180 chars, cut off in the source file itself); I interpreted it as the review's 403/unreachable hard-fail on the primary Town page and companion Town PDF. Verification shows both are live (HTTP 200 via direct GET) with WAF 403 for some user agents, so URLs were kept.",
+    "The Akamai WAF may still return 403 to browser-like user agents or the review fetcher on future spot-checks; the Wayback fallback for the page is documented in NOTES.md in case it is needed.",
+    "No Wayback snapshot was verified for the companion Town PDF (archive.org availability API was rate-limited); the PDF itself is live (HTTP 200, ~225 KB).",
+    "data.json was not modified: all other cited sources (bealeinfra.com/location/marana/, AZPM referendum article, AZ Luminaria, Pima County Project-Blue FAQ) re-tested live with HTTP 200, and the entry's status/evidence/history content had no other open review issues for this center."
+  ],
+  "json_valid": true,
+  "summary": "Both review-flagged maranaaz.gov URLs (primary Luckett Road data-center page and companion Town PDF) were re-tested and are live (HTTP 200, content verified); the review's 403 is an Akamai WAF false positive on certain user agents, so the canonical official URLs were kept unchanged. A dated fix-pass note with the verification detail and a Wayback fallback was added to NOTES.md 2026-08-11; data.json remains valid and untouched. The only open caveat is the truncated issue string in inventory.json and the WAF's environment-dependent 403 behavior."
+}

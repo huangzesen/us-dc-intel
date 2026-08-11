@@ -147,5 +147,8 @@
   },
   "contradictions": [],
   "seed_only": false,
+  "last_refreshed": "2026-08-11",
+  "verified": false,
+  "verification_notes": "Encodes the NOTES.md 2026-08-11 statement: verified true for public-source process/status facts (Pine Island Project Skyway city page, Minnesota PUC data-center and Energy Infrastructure Permitting pages, Google/Xcel announcements); verified false for capacity (capacity_mw remains null), permit finality, and energization because no project-specific IT-load, final utility approval, commissioning, or live-service evidence was located.",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

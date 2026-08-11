@@ -18,7 +18,7 @@
       "date_precision": "day",
       "government_body": "Grand County Planning Commission",
       "action_type": "government data-center inventory",
-      "result_status": "The inventory lists Antelope near Cedar City, Iron County, as proposed at 1,000 MW and identifies Pronghorn Development LLP. It does not supply an Iron County entitlement or permit.",
+      "result_status": "The inventory (status as of May 2026) lists Antelope Data Center near Cedar City, Iron County, as proposed at 1,500 MW and identifies Pronghorn Development LLP. It does not supply an Iron County entitlement or permit.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
       "primary_url": "https://www.utah.gov/pmn/files/1444799.pdf",
@@ -96,6 +96,13 @@
       "field": "owner",
       "old_value": null,
       "new_value": "Pronghorn Development, LLC (developer/applicant; end operator not identified in official county materials)"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "actions[0].result_status",
+      "old_value": "The inventory lists Antelope near Cedar City, Iron County, as proposed at 1,000 MW and identifies Pronghorn Development LLP. It does not supply an Iron County entitlement or permit.",
+      "new_value": "The inventory (status as of May 2026) lists Antelope Data Center near Cedar City, Iron County, as proposed at 1,500 MW and identifies Pronghorn Development LLP. It does not supply an Iron County entitlement or permit.",
+      "reason": "2026-08-11 review found actions[0].result_status misquoted the cited source (Grand County Planning Commission data-center staff report, https://www.utah.gov/pmn/files/1444799.pdf): Addendum A Utah Data Center Inventory (status as of May 2026) lists Antelope Data Center near Cedar City (Iron Co.) as PROPOSED at 1,500 MW with operator/developer Pronghorn Development LLP, not 1,000 MW; text corrected and NOTES.md 2026-08-11 section updated."
     }
   ],
   "seed_only": false,

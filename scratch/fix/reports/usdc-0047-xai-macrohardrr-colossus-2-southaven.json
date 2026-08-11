@@ -1,0 +1,35 @@
+{
+  "center": "usdc-0047-xai-macrohardrr-colossus-2-southaven",
+  "issues_in": [
+    "data.json is missing the `evidence_grade` field. SKILL.md (field list) requires `status_as_of_cutoff / evidence_grade`, and all 7 other centers refreshed on 2026-08-11 carry `evide"
+  ],
+  "fixed": [
+    "Added `evidence_grade` to data.json (placed immediately after status_as_of_cutoff, before actions, per canonical key order): \"B - official MDEQ enSearch permit records and the July 2026 MDEQ/MZX agreed order verify air-construction PSD permit issuance (0680-00119), construction stormwater coverage (MSR109658), and temporary mobile-turbine operating conditions at 2875 Stanton Road, Southaven; state and company announcements corroborate the capacity framing. Public building permit, certificate of occupancy, grid interconnection, and full-buildout/IT-load evidence were not independently located.\"",
+    "Appended a dated note to the NOTES.md 2026-08-11 section documenting the evidence_grade addition, its justification, and the supporting source URLs (MDEQ enSearch, MDEQ/MZX agreed order).",
+    "Validated data.json parses as valid JSON after the edit (python3 json.load)."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://opcgis.deq.state.ms.us/ensearchonline/ai_info.aspx?ai=12592",
+      "status": 200,
+      "action": "kept"
+    },
+    {
+      "url": "https://governorreeves.ms.gov/tech-leader-xai-investing-more-than-20-billion-in-southaven/",
+      "status": 200,
+      "action": "kept"
+    }
+  ],
+  "remaining_risks": [
+    "The issue string stored in scratch/fix/inventory.json is itself truncated mid-word (ends \"carry `evide\"), but the required fix (add the missing evidence_grade field) is unambiguous and was applied.",
+    "evidence_grade value and wording are my judgment following sibling convention (USDC-0001/0033/0050-style 'B - ...' descriptive grade for official state environmental permit records without local building permit/CO/energization evidence); parent may reword.",
+    "No history entry was added for evidence_grade, matching all 7 centers refreshed on 2026-08-11 (none of them records evidence_grade in history).",
+    "No SKILL.md change was made (not required by the issue); schema field list already names evidence_grade."
+  ],
+  "json_valid": true,
+  "summary": "Added the missing evidence_grade field to data.json ('B - ...' descriptive grade per sibling convention, placed after status_as_of_cutoff) and documented the addition with source URLs in the NOTES.md 2026-08-11 section. data.json validated as valid JSON; the two key source URLs (MDEQ enSearch, governor announcement) confirmed live (HTTP 200)."
+}

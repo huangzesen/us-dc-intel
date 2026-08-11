@@ -39,9 +39,9 @@
       "result_status": "Servpac announced that Building 2 broke ground in Mililani Technology Park, adding more than 15,500 square feet, increasing facility size by 50%, and more than doubling center capacity. The $13 million building is being built on additional company-owned five acres, with Q2 2026 expected completion and no MW disclosed.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://servpac.com/mtp-groundbreaking/",
-      "access_caveat": "Company announcement; it does not establish Honolulu permit issuance, inspection, CO, power-on, or service.",
-      "evidence_note": "Company construction claim retained and explicitly labeled; page published 2026-01-28 and modified 2026-05-14 while dateline states Jan. 22, 2026."
+      "primary_url": "https://www.prnewswire.com/news-releases/servpacs-mtp-data-center-celebrates-groundbreaking-for-building-2-302694909.html",
+      "access_caveat": "Company announcement; it does not establish Honolulu permit issuance, inspection, CO, power-on, or service. Original company page https://servpac.com/mtp-groundbreaking/ returned HTTP 500 on repeated HEAD/GET checks during the 2026-08-11 fix pass, so the PRNewswire mirror of the identical company release (published 2026-02-24) is used as the accessible primary URL.",
+      "evidence_note": "Company construction claim retained and explicitly labeled; the Servpac page (published 2026-01-28, modified 2026-05-14, dateline Jan. 22, 2026) is cited via its live PRNewswire mirror, which repeats the same 15,500+ sq ft / 50% size increase / doubled capacity / $13M / Q2 2026 facts."
     },
     {
       "date": "2026-02-24",
@@ -82,7 +82,7 @@
       "https://www.honolulu.gov/dpp/permitting/building-permits-home/",
       "https://dppweb.honolulu.gov/DPPWeb/Default.aspx?PossePresentation=BuildingPermitSearch",
       "https://ai.ikenagroup.com/p/95046002",
-      "https://servpac.com/mtp-groundbreaking/",
+      "https://www.hawaiipublicradio.org/local-news/2026-01-30/booming-market-for-local-data-storage-space",
       "https://www.prnewswire.com/news-releases/servpacs-mtp-data-center-celebrates-groundbreaking-for-building-2-302694909.html",
       "https://buildingindustryhawaii.com/2026/03/servpac-inc-breaks-ground-on-mtp-data-centers-building-2/"
     ]
@@ -106,6 +106,12 @@
       "field": "location",
       "previous_value": "Mililani, Honolulu County, HI",
       "new_value": "Mililani, Honolulu County, HI; 200 Kahelu Ave/TMK 95046002 parcel context added from DPP-derived parcel record."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sources.refresh_2026_08_11 / actions[1].primary_url (groundbreaking URL swap)",
+      "previous_value": "https://servpac.com/mtp-groundbreaking/ (original company page)",
+      "new_value": "Original Servpac page returned HTTP 500 on repeated HEAD/GET checks during the 2026-08-11 fix pass (no Wayback capture found); primary_url replaced with the live PRNewswire mirror of the identical company release (https://www.prnewswire.com/news-releases/servpacs-mtp-data-center-celebrates-groundbreaking-for-building-2-302694909.html) and sources.refresh_2026_08_11 gained Hawai'i Public Radio coverage (https://www.hawaiipublicradio.org/local-news/2026-01-30/booming-market-for-local-data-storage-space) as an additional corroborating source."
     }
   ],
   "last_refreshed": "2026-08-11",

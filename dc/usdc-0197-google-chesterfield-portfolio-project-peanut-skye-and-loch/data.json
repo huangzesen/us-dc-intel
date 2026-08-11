@@ -154,9 +154,21 @@
       "https://www.chesterfield.gov/DocumentCenter/View/48240/Sky---Local-Governing-Body-Certification-PDF",
       "https://www.nao.usace.army.mil/Media/Public-Notices/Article/4484789/nao-2026-00182-vmrc-project-loch-chesterfield-county-virginia-wauford-prm-site/",
       "https://www.nao.usace.army.mil/Media/Public-Notices/Article/4524288/nao-2026-00282-vmrc-26-0360-project-skye-data-center-chesterfield-county-virgin/"
+    ],
+    "alternate_mirror_urls": [
+      {
+        "url": "https://jasoninrva.github.io/project-loch-info/docs/source-pages/usace-nao-2026-00182-public-notice.md",
+        "note": "Durable GitHub Pages public-record archive mirroring the official USACE NAO-2026-00182 public notice verbatim and linking to the official source. Added in the 2026-08-11 URL fix pass: www.nao.usace.army.mil returns HTTP 403 to automated fetches from this network (curl HEAD/GET with browser and Googlebot user agents and the browse tool all returned 403), while the notice itself remains live per search-engine index; no Wayback Machine snapshot of the official URL exists."
+      }
     ]
   },
   "contradictions": [],
+  "history": [
+    {
+      "date": "2026-08-11",
+      "change": "URL fix pass: USACE NAO-2026-00182 (Project Loch) public-notice URL returned HTTP 403 to automated fetches (domain-wide bot/WAF block of www.nao.usace.army.mil; curl HEAD/GET with browser and Googlebot user agents and the browse tool all returned 403, while the notice remains live per search-engine index and a verbatim public-record archive). No Wayback Machine snapshot exists for the official URL. Kept the official URL as the canonical record in sources/actions/site_statuses and added a verified working durable mirror of the same notice (jasoninrva.github.io/project-loch-info) under sources.alternate_mirror_urls; see NOTES.md 2026-08-11."
+    }
+  ],
   "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

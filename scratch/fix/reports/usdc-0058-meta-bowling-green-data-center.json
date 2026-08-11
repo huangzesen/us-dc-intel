@@ -1,0 +1,27 @@
+{
+  "center": "usdc-0058-meta-bowling-green-data-center",
+  "issues_in": [
+    "Minor/advisory: evidence_grade is \"A-\" while `capacity_mw: 180` rests only on the third-party tracker (ryangrissinger.com), which NOTES.md itself marks verified:false and \"需继续核实\". "
+  ],
+  "fixed": [
+    "Qualified data.json `evidence_grade` from \"A-\" to \"A- for status/location/owner and official/local-process milestones (Meta 2025-04-09 announcement, Middleton Township project page/letter, OPSB Apollo approval, township 2026-07-07 rezoning); B for capacity_mw because 180 MW rests only on a third-party tracker (ryangrissinger.com OH-DC-0049) report of Meta-stated peak IT demand and no official Meta/OPSB IT-load figure was found.\", aligning the grade with what the sources actually support: official-source-backed facts stay A-, the third-party-only capacity is graded B.",
+    "Added a dated 2026-08-11 note to NOTES.md documenting the evidence_grade split: capacity_mw=180 remains a third-party tracker value (verified: false / 需继续核实) with source URLs (ryangrissinger.com OH-DC-0049, Meta announcement, OPSB bulletin)."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://ryangrissinger.com/issues/data-centers/OH-DC-0049",
+      "status": 200,
+      "action": "kept"
+    }
+  ],
+  "remaining_risks": [
+    "capacity_mw=180 is still not independently confirmed by an official Meta/OPSB source; it is retained as the third-party tracker value (already flagged verified:false / needs continued verification in NOTES.md, contradictions[1], and capacity_mw_notes).",
+    "No top-level `verified` flag was added to data.json: the issue did not explicitly require one and only 6/208 repo entries carry it; the verification nuance is encoded in the qualified evidence_grade instead."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single minor/advisory issue for usdc-0058: evidence_grade was qualified from a bare 'A-' to a split 'A- for official/local-process facts; B for capacity_mw' because the 180 MW figure rests only on the live third-party tracker (ryangrissinger.com OH-DC-0049, HTTP 200) which NOTES.md marks verified:false. data.json remains valid JSON after the edit; a dated 2026-08-11 NOTES.md note with source URLs documents the change."
+}

@@ -1,7 +1,7 @@
 # USDC-0035 — Cloud HQ
 
 ## 一句话
-Chaska's official page says the approximately 1
+Chaska's official page says the approximately 1.5 million-square-foot preliminary site plan/plat was approved by the Planning Commission and City Council in October 2024, but the developer has not submitted a final application or timeline. A preliminary Xcel/MMPA system-impact study is noted; no final land-use approval, permit, construction, utility service, energization, commissioning, or service record was located.
 
 ## 位置
 - City: Chaska

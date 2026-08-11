@@ -174,5 +174,7 @@
     }
   ],
   "seed_only": false,
+  "verified": false,
+  "verification_notes": "Encodes the NOTES.md 2026-08-11 statement: verified true for identity/address, current planned campus capacity, and the `site work-construction` classification, all of which have accessible source support (TDLR TABS2025013924, PowerHouse/AREP property pages, DCD topping-out report); verified false overall because the 2024-05-15 City Council phasing evidence was only readable through the Muyni agenda archive (official PrimeGov target could not be opened directly this refresh) and no CO, final inspection, Oncor energization, commissioned-load, or live-service evidence was located, so energized/operational status cannot be verified.",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

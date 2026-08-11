@@ -96,10 +96,10 @@
       "government_body": "Missoula County Commissioners",
       "action_type": "interim zoning / moratorium",
       "result_status": "The county’s public information update states commissioners voted to establish a moratorium on permitting new or expanded data centers outside city limits, effective July 9, 2026 through July 8, 2027 or replacement zoning.",
-      "vote_tally": "reported unanimous; official vote tally document not retrieved",
+      "vote_tally": "reported unanimous by local media coverage (NBC Montana, 2026-07-09); official vote tally document not retrieved",
       "case_or_ordinance_permit_number": "not published in reviewed official page",
       "primary_url": "https://missoulacountyvoice.com/data-center-interim-zoning",
-      "access_caveat": "The accessible county information page reports the outcome; the signed ordinance/minutes were not retrieved.",
+      "access_caveat": "The accessible county information page reports the outcome but does not state a vote tally; the unanimous result is reported by NBC Montana local coverage (https://nbcmontana.com/news/local/missoula-co-hosts-hearing-on-potential-1-year-halt-on-data-centers). The signed ordinance/minutes were not retrieved.",
       "evidence_note": "Moratorium is not a decision approving or denying this individual proposal."
     },
     {
@@ -184,6 +184,16 @@
         "facts_supported": [
           "withdrawal date",
           "county official context on special-exception requirement"
+        ]
+      },
+      {
+        "url": "https://nbcmontana.com/news/local/missoula-co-hosts-hearing-on-potential-1-year-halt-on-data-centers",
+        "source_type": "local/regional media",
+        "source_date": "2026-07-09",
+        "facts_supported": [
+          "unanimous July 9, 2026 commissioner vote on data center moratorium",
+          "moratorium effective July 9, 2026",
+          "Bonner proposal context at the July 9 hearing"
         ]
       }
     ]

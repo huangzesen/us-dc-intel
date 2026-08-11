@@ -7,7 +7,7 @@ Sioux Falls officially approved Gemini's rezoning and amended preliminary plan o
 - City: Sioux Falls
 - County: Minnehaha County
 - State: SD
-- 地址/地块: South Dakota location south of 57th Street and west of S. Dubuque Avenue; official action covers Gemini Addition; acreage differs by parcel scope
+- 地址/地块: South of E. Rice St. and east of Veterans Pkwy (northeast Sioux Falls, between Sioux Falls and Brandon); official action covers Gemini Addition; official Planning Commission staff report lists 164 acres (some media write ~160)
 
 ## 维护契约（每次更新必读）
 

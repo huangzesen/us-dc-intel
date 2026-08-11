@@ -1,0 +1,21 @@
+{
+  "center": "usdc-0206-microsoft-second-wisconsin-ai-data-center",
+  "issues_in": [
+    "Minor: history[0].new_value for status_as_of_cutoff ('Site work-construction: local-government and company sources now support Area 3A/Phase 2 construction targeting 2028 completio...' (issue string truncated in inventory.json; visible text indicates history new_value not synced with the actual status_as_of_cutoff text)"
+  ],
+  "fixed": [
+    "data.json: set history[0].new_value for field status_as_of_cutoff to the exact current status_as_of_cutoff text ('Site work-construction: Mount Pleasant identifies Microsoft data center Area 3A as set for completion in 2028, while Microsoft Local describes Phase 2 (KR & H) foundation, steel, and underground utility work as ongoing; no energization or standalone MW capacity was found.'), replacing the shorter paraphrase so the history record mirrors the field value set during the 2026-08-11 refresh.",
+    "NOTES.md: added a dated 'history sync fix (review pass)' bullet to the ## 2026-08-11 section documenting the alignment of history[0].new_value with the current status_as_of_cutoff."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The single issue string stored in scratch/fix/inventory.json is itself truncated mid-word ('...targeting 2028 completio' with no closing quote), so the exact tail of the review wording is unknown; the fix applied (sync history[0].new_value to the current status_as_of_cutoff) addresses the visible issue intent (history not synced).",
+    "No URL changes were required for this center; all listed source URLs were left untouched."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single minor history-sync issue for usdc-0206: history[0].new_value for status_as_of_cutoff now exactly matches the current data.json status_as_of_cutoff text set during the 2026-08-11 refresh, and NOTES.md 2026-08-11 section documents the alignment. data.json validated as JSON after the edit; no deletions, git, or out-of-scope writes performed."
+}

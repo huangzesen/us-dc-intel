@@ -176,6 +176,20 @@
       "date": "2026-07-16",
       "field": "owner",
       "value": null
+    },
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "old_value": "State/company announcement for multiple campuses; county-level project split and approvals are not established.",
+      "new_value": "Official Google/state announcement plus Haskell County tax-abatement records and TDLR architectural-barriers filings now confirm named Haskell County data-center projects and Armstrong County data-center filings at the announced county level; no public official source found for energized status or project-level IT capacity.",
+      "reason": "2026-08-11 refresh promoted status from a single state/company announcement to announcement + Haskell County tax-abatement records (Thelma/Journey/Quest labeled Google) + TDLR architectural-barriers project registrations (Haskell TABS2025019833/TABS2026023821/TABS2026023839; Armstrong Llano TABS2025026455/TABS2025026470/TABS2026026002/TABS2026026118); still no official source for energized status or project-level IT capacity. Documented in NOTES.md 2026-08-11 section."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "old_value": null,
+      "new_value": "Google announced investor/operator context; Haskell TDLR filings list Homebound Group LLC; Armstrong/Llano TDLR filings list GN DC1 LLC and do not disclose tenant.",
+      "reason": "2026-08-11 refresh sourced owner from Haskell County tax-abatement page (Homebound Group projects labeled Google) and TDLR filings (Homebound Group LLC for Haskell; GN DC1 LLC for Armstrong/Llano with tenant not disclosed); baseline carried no owner."
     }
   ],
   "seed_only": false,

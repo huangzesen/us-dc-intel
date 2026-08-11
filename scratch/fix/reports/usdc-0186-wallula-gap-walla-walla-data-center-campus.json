@@ -1,0 +1,22 @@
+{
+  "center": "usdc-0186-wallula-gap-walla-walla-data-center-campus",
+  "issues_in": [
+    "data.json lacks `last_refreshed` and `verified` keys that sibling 2026-08-11-refreshed entries carry (e.g. dc/usdc-0098-cyrusone-aurora-data-center/data.json has \"last_refreshed\": "
+  ],
+  "fixed": [
+    "Added top-level \"last_refreshed\": \"2026-08-11\" to data.json (matches the 2026-08-11 refresh date used by all 15 sibling refreshed entries, incl. usdc-0098).",
+    "Added top-level \"verified\": true to data.json, consistent with NOTES.md 2026-08-11 posture (owner, land-sale approval, local-process/incomplete-application status, and absence of verified MW/construction evidence are verified) and with sibling convention (usdc-0029/usdc-0119 set verified true when the stated facts are sourced and unverified stages are not claimed).",
+    "Added \"verification_notes\" mirroring the NOTES.md 2026-08-11 statement: verified true for the sourced facts; verified false for full buildout scope reconciliation and any MW/capacity inference because official submittal PDFs were listed by the county but not fully extractable in this refresh.",
+    "Validated data.json parses as JSON (python3 json.load OK) after the edit."
+  ],
+  "files_changed": [
+    "data.json"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "Top-level verified=true is a summary flag; the mixed posture (false for buildout-scope reconciliation and MW inference) is carried in verification_notes, matching sibling usdc-0029/usdc-0119 convention. No source URLs were re-verified in this pass because the issue was schema/flag completeness only.",
+    "SKILL.md not modified: issue did not require it (no schema drift observed; SKILL.md field list already covers status_as_of_cutoff/evidence_grade)."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for usdc-0186 by adding the missing sibling-convention keys to data.json: last_refreshed (2026-08-11), verified (true), and verification_notes mirroring NOTES.md's documented verification posture. data.json revalidated as parseable JSON; no other files changed."
+}

@@ -1,0 +1,39 @@
+{
+  "center": "usdc-0149-google-project-dawson",
+  "issues_in": [
+    "Source URL https://www.dorchestercountysc.gov/business/data-center-fact-sheet hard-fails the HTTP spot-check with 403 (per review-brief rule: hard-fail on 4xx). Likely WAF/bot protection."
+  ],
+  "fixed": [
+    "Retried the flagged URL once (HEAD then GET with browser user-agent, ~12s): confirmed HTTP 403 'Access Denied' from the Akamai edge (errors.edgesuite.net); the entire www.dorchestercountysc.gov domain returns 403 to this environment (homepage and non-www variant also 403), so the page is WAF/bot-blocked, not dead.",
+    "Verified the page exists and its exact content via the Wayback Machine capture https://web.archive.org/web/20260729100110/https://www.dorchestercountysc.gov/business/data-center-fact-sheet (HTTP 200; captured 2026-07-29; 13 captures; title 'Data Center Fact Sheet | Dorchester County, SC website'; content confirms Google 2024-09-26 $3.3B South Carolina announcement and the two Dorchester County campuses at Pine Hill Business Campus/Ridgeville and Winding Woods Commerce Park/St. George).",
+    "Replaced the dead URL in data.json sources.urls (Dorchester County Data Center Fact Sheet entry) with the Wayback capture URL and updated the title to note the 2026-07-29 capture and the 403 blocking of the live page.",
+    "Added a change item to data.json history[0].changes documenting the URL swap (field/from/to) so the audit trail records the replacement.",
+    "Updated the two NOTES.md 2026-08-11 in-line citations of the fact-sheet URL (owner and location-county bullets) to the Wayback capture and appended a dated 2026-08-11 swap note documenting the 403 block, the replacement, and the live official corroborating page https://www.dorchesterforbusiness.com/news/google_breaks_ground/ (HTTP 200 verified).",
+    "Validated data.json parses as valid JSON (python3 json.load) after all edits."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {
+      "url": "https://www.dorchestercountysc.gov/business/data-center-fact-sheet",
+      "status": 403,
+      "action": "replaced"
+    },
+    {
+      "url": "https://web.archive.org/web/20260729100110/https://www.dorchestercountysc.gov/business/data-center-fact-sheet",
+      "status": 200,
+      "action": "kept"
+    },
+    {
+      "url": "https://www.dorchesterforbusiness.com/news/google_breaks_ground/",
+      "status": 200,
+      "action": "kept"
+    }
+  ],
+  "remaining_risks": [
+    "The live dorchestercountysc.gov domain remains blocked for automated fetchers (Akamai WAF); the fact-sheet evidence now rests on the 2026-07-29 Wayback capture - if that snapshot is ever purged, re-verification would be needed.",
+    "The owner/location claims the fact sheet was cited for are independently corroborated by other already-stored sources (governor.sc.gov 2024-09-26 announcement, dorchesterforbusiness.com 2025-10-13 news, datacenters.google South Carolina page, PSC dockets), so no factual claim depended solely on the blocked URL.",
+    "No other issues were listed for this center; SKILL.md was not modified (no issue required it)."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for usdc-0149: the Dorchester County data center fact-sheet URL returns HTTP 403 to automated fetchers (Akamai WAF blocks the whole dorchestercountysc.gov domain), so I replaced it in data.json sources.urls and NOTES.md citations with the verified Wayback Machine capture of the same official page (HTTP 200, captured 2026-07-29), added a history change item and a dated NOTES.md note documenting the swap, and confirmed data.json remains valid JSON. Live official corroboration (dorchesterforbusiness.com google_breaks_ground, HTTP 200) is noted as a fallback."
+}

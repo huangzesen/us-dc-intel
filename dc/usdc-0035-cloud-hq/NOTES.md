@@ -2,7 +2,7 @@
 
 ## 2026-07-16（baseline 抽取）
 - 初始数据自 legacy-baseline-20260716 冻结 baseline 抽取（national_master_inventory.json, SHA 2113de4b…）。
-- status: Chaska's official page says the approximately 1
+- status: Chaska's official page says the approximately 1.5 million-square-foot preliminary site plan/plat was approved by the Planning Commission and City Council in October 2024, but the developer has not submitted a final application or timeline. A preliminary Xcel/MMPA system-impact study is noted; no final land-use approval, permit, construction, utility service, energization, commissioning, or service record was located.
 - 待办：按 SKILL.md 数据源优先级做首次独立核实与补证。
 
 ## 2026-08-11（refresh）
@@ -14,3 +14,4 @@
 - Multi-source conflict logged: square footage differs across current and prior public sources. Chaska's official page says approximately 1.5 million SF, 2024 city/media context cites about 1.4 million SF, while CloudHQ's current official MSP page says 1.1 million SF. Data record treats 1.1 million SF as developer-current and keeps the conflict pending final site-plan reconciliation. Sources: https://www.chaskamn.gov/841/Cloud-HQ, https://cloudhq.com/campus/msp-campus/, https://finance-commerce.com/2024/10/big-data-center-project-nears-construction-in-chaska/, https://servercountry.org/data/projects/cloudhq-msp-campus-chaska-mn/
 - Multi-source conflict logged: capacity differs between older industry coverage (180 MW) and current CloudHQ official page (200 MW critical IT load). Used 200 MW because it is current developer-published capacity, with caveat that no Xcel/MMPA interconnection approval, utility service, or energization evidence was found. Sources: https://cloudhq.com/campus/msp-campus/ and https://www.datacenterdynamics.com/en/news/cloudhq-planning-180mw-data-center-campus-in-minneapolis-minnesota/
 - Evidence gaps after refresh: no final site-plan/plat application, final city approval, building permit, site-work notice, construction start, utility-service approval, energization, commissioning, or in-service record was found in official/local-government-first search.
+- Truncation repair (2026-08-11): the 2026-07-16 baseline status line above and the SKILL.md one-liner ended mid-phrase at "the approximately 1". Both were completed to match data.json history[0].previous_value and the live city page, which states the project totals approximately 1.5 million square feet, that the preliminary site plan/plat was approved by the Planning Commission and City Council in October 2024, and that final site-plan/plat review is still pending. Source: https://www.chaskamn.gov/841/Cloud-HQ (verified live HTTP 200 on 2026-08-11).

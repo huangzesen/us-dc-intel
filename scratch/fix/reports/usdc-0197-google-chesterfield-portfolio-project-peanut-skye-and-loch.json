@@ -1,0 +1,47 @@
+{
+  "center": "usdc-0197-google-chesterfield-portfolio-project-peanut-skye-and-loch",
+  "issues_in": [
+    "USACE URL https://www.nao.usace.army.mil/Media/Public-Notices/Article/4484789/nao-2026-00182-vmrc-project-loch-chesterfield-county-virginia-wauford-prm-site/ returned HTTP 403"
+  ],
+  "fixed": [
+    "Retried the flagged USACE Project Loch URL (curl HEAD and GET with browser UA, then GET with Googlebot UA, then browse tool): all returned HTTP 403. 403 is a domain-level bot/WAF block of www.nao.usace.army.mil, not a 404: the notice is still indexed by search engines and a verbatim public-record archive of it exists.",
+    "Confirmed no Wayback Machine snapshot exists for the official URL (CDX queries returned empty; web.archive.org/web/2026/... browse returned 404).",
+    "Kept the official USACE NAO-2026-00182 URL as the canonical official record in sources.current_official_urls, actions[].primary_url (2026-05-13 action) and site_statuses source_url; no evidence was dropped.",
+    "Added a verified working durable mirror of the same official notice under new sources.alternate_mirror_urls: https://jasoninrva.github.io/project-loch-info/docs/source-pages/usace-nao-2026-00182-public-notice.md (HTTP 200 verified 2026-08-11; GitHub Pages public-record archive mirroring the official notice verbatim and linking to the official source).",
+    "Added canonical 'history' key (previously absent) with a 2026-08-11 entry documenting the URL fix pass, matching sibling history format (date + change).",
+    "Updated NOTES.md 2026-08-11 section with a dated URL-fix note recording the 403 reproduction, the missing Wayback snapshot, the mirror addition with URL, and the unchanged sibling Skye URL.",
+    "Validated data.json parses as JSON after edits (python3 json.load OK)."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://www.nao.usace.army.mil/Media/Public-Notices/Article/4484789/nao-2026-00182-vmrc-project-loch-chesterfield-county-virginia-wauford-prm-site/",
+      "status": 403,
+      "action": "dead_url_kept",
+      "note": "403 is a domain-wide bot/WAF block (curl HEAD/GET browser UA, Googlebot UA, browse tool all 403); notice remains live per search-engine index; no Wayback snapshot; kept as canonical official record with working mirror added."
+    },
+    {
+      "url": "https://jasoninrva.github.io/project-loch-info/docs/source-pages/usace-nao-2026-00182-public-notice.md",
+      "status": 200,
+      "action": "kept",
+      "note": "Added as sources.alternate_mirror_urls; durable verbatim archive of the official notice."
+    },
+    {
+      "url": "https://www.nao.usace.army.mil/Media/Public-Notices/Article/4524288/nao-2026-00282-vmrc-26-0360-project-skye-data-center-chesterfield-county-virgin/",
+      "status": 403,
+      "action": "kept",
+      "note": "Same domain 403 behavior but not in the review issue list; left unchanged for parent decision."
+    }
+  ],
+  "remaining_risks": [
+    "Official USACE Loch URL still returns 403 to automated fetches from this network; kept as canonical official record. If the parent prefers a fully automated-fetchable URL, the added GitHub Pages mirror is the only verified working copy (no Wayback snapshot exists); parent may decide to promote it.",
+    "The mirror (jasoninrva.github.io/project-loch-info) is a third-party community public-record archive, not an official government source; used only as a supplemental working pointer, clearly labeled in sources.alternate_mirror_urls.",
+    "Project Skye USACE URL (NAO-2026-00282) shows the identical 403-to-bots behavior and was not part of this center's issue list; unchanged, may deserve the same treatment in a later pass.",
+    "No other issues were assigned to this center; status/evidence, contradictions, and evidence_grade fields were left as reviewed."
+  ],
+  "json_valid": true,
+  "summary": "The single assigned issue (USACE NAO-2026-00182 Project Loch public-notice URL returning 403) was investigated: the 403 is a domain-wide bot/WAF block (even Googlebot UA and the browse tool get 403) while the notice remains live; no Wayback snapshot exists. The official URL was kept as the canonical record everywhere, a verified working durable mirror of the same notice was added under sources.alternate_mirror_urls, a history entry was added, and NOTES.md was updated; data.json validates as JSON."
+}

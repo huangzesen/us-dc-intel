@@ -1,0 +1,27 @@
+{
+  "center": "usdc-0100-google-fort-wayne-data-center",
+  "issues_in": [
+    "Minor traceability: capacity_notes claims 'WPTA reports 179 diesel generators could generate 527.52 MW if operated' citing the 2025-10-08 WPTA article, which appears only in NOTES."
+  ],
+  "fixed": [
+    "Added the WPTA/21Alive 2025-10-08 article URL (https://www.21alivenews.com/2025/10/08/public-hearing-set-googles-diesel-generator-plan-fort-wayne-data-center/) to data.json sources.public_urls so the capacity_notes claim ('179 diesel generators could generate 527.52 MW if operated') is traceable in the data entry itself, not only in NOTES.md.",
+    "Added a dated fix note to the NOTES.md 2026-08-11 section documenting the source addition and the URL."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://www.21alivenews.com/2025/10/08/public-hearing-set-googles-diesel-generator-plan-fort-wayne-data-center/",
+      "status": 200,
+      "action": "kept"
+    }
+  ],
+  "remaining_risks": [
+    "No data.json top-level `verified` flag exists while NOTES.md 2026-08-11 states verified: false; this was not part of the listed issue for this center, so left untouched for parent decision.",
+    "The 527.52 MW figure is backup/emergency generation scale only (per NOTES.md), not IT critical load; capacity_mw correctly remains null - no change made."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the traceability gap for usdc-0100 by adding the WPTA 2025-10-08 article URL (verified live, HTTP 200) to data.json sources.public_urls so capacity_notes is source-backed, and documented the swap in NOTES.md's 2026-08-11 section. data.json validated as well-formed JSON after the edit."
+}

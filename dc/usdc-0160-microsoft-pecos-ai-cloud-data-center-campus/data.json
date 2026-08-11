@@ -13,6 +13,7 @@
   },
   "phase3_stable_id": "US-TX-MICROSOFT-PECOS-2026",
   "status_as_of_cutoff": "local process: Microsoft announced a Pecos datacenter campus of approximately 2 GW on 2026-06-22; related Energy Forge One/Project Kilby power-generation records are in state/local permitting and tax-incentive process, but no data-center building permit or construction-start record was located as of 2026-08-11.",
+  "evidence_grade": "B: official state/local records (Texas Register/TCEQ air-permit notices, Reeves County ESD No. 2 hearing notice, Texas Comptroller JETI application) verify the related Energy Forge One/Project Kilby power-generation process and incentive facts; Microsoft's official blog and Chevron's newsroom verify the 2026-06-22 Pecos datacenter campus announcement and the ~2 GW capacity claim. No data-center building permit, site-plan approval, construction-start, or energization record was located as of the 2026-08-11 cutoff.",
   "actions": [
     {
       "date": "2025-10-17",
@@ -117,5 +118,8 @@
     }
   ],
   "seed_only": false,
+  "last_refreshed": "2026-08-11",
+  "verified": true,
+  "verification_notes": "verified: true for the listed sourced facts (Microsoft 2026-06-22 official blog announcement, Chevron PPA announcement, Texas Register/TCEQ air-permit notices, Reeves County ESD No. 2 public-hearing notice, Texas Comptroller JETI application J0022); verified: false for data-center building permit, site-plan approval, construction start, energization, and operational go-live because no first-hand public record was located by the 2026-08-11 cutoff.",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

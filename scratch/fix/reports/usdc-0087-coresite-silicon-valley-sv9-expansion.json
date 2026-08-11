@@ -1,0 +1,29 @@
+{
+  "center": "usdc-0087-coresite-silicon-valley-sv9-expansion",
+  "issues_in": [
+    "Minor sourcing gap: contradictions[1] (topic 'building size') cites a CoreSite spec-sheet figure of 200,000 sq ft turn-key space, but its supporting URL https://www.coresite.com/sp (inventory string truncated at 180 chars; full URL per NOTES.md 2026-08-11 section is https://www.coresite.com/spec-sheets/sv9-santa-clara-ca) is not cited in data.json"
+  ],
+  "fixed": [
+    "Added a `sources` URL array to data.json contradictions[1] (topic 'building size') with the five backing URLs already documented in NOTES.md 2026-08-11 section for this discrepancy: CEQAnet SCH 2020070532, Santa Clara Legistar planning report (GUID 42334724), CoreSite 2023 construction release, CoreSite SV9 spec-sheet, and CoreSite current SV9 facility page",
+    "Added https://www.coresite.com/spec-sheets/sv9-santa-clara-ca to data.json sources.source_urls (was previously cited only in NOTES.md)",
+    "Appended a dated fixer-pass note to NOTES.md 2026-08-11 section documenting the change and recording that the spec-sheet URL was re-verified live (HTTP 200) on 2026-08-11 confirming the '200,000 square feet of turn-key data center space' wording"
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://www.coresite.com/spec-sheets/sv9-santa-clara-ca",
+      "status": 200,
+      "action": "kept"
+    }
+  ],
+  "remaining_risks": [
+    "The inventory.json issue string for this center is truncated mid-URL at 180 characters (ends 'https://www.coresite.com/sp'); the intended supporting URL was inferred as https://www.coresite.com/spec-sheets/sv9-santa-clara-ca from the NOTES.md 2026-08-11 refresh section, which is the only CoreSite spec-sheet URL documented for the 200,000 sq ft figure",
+    "Other source URLs in this entry (Legistar, CEQAnet, DCD, Cleanview, CoreSite news pages) were not re-spot-checked in this fixer pass; they were not part of the assigned issue",
+    "No history entry was added for the contradictions/sources change since it is a sourcing-traceability fix, not a status/capacity/owner field change; the NOTES.md dated note records it"
+  ],
+  "json_valid": true,
+  "summary": "Fixed the minor sourcing gap for contradictions[1] (building size): added the five backing URLs (including the CoreSite SV9 spec-sheet URL that supports the 200,000 sq ft turn-key figure) as a sources array per sibling convention, and added the spec-sheet URL to sources.source_urls. The spec-sheet URL was verified live (HTTP 200) with wording matching the contradiction. data.json remains valid JSON; NOTES.md documents the change with a dated note."
+}

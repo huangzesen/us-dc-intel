@@ -1,0 +1,32 @@
+{
+  "center": "usdc-0094-servpac-mtp-data-center-building-2",
+  "issues_in": [
+    "Primary company source https://servpac.com/mtp-groundbreaking/ (used as primary_url for the 2026-01-22 groundbreaking action and listed in sources.refresh_2026_08_11) consistently fails the HTTP spot-check"
+  ],
+  "fixed": [
+    "Replaced dead company URL in actions[1] (2026-01-22 groundbreaking) primary_url with the live PRNewswire mirror of the identical company release (https://www.prnewswire.com/news-releases/servpacs-mtp-data-center-celebrates-groundbreaking-for-building-2-302694909.html, HTTP 200).",
+    "Updated actions[1].access_caveat and .evidence_note to document the URL swap and retain the original dead URL (servpac.com/mtp-groundbreaking/) as provenance prose.",
+    "Replaced the dead URL in sources.refresh_2026_08_11 with Hawai'i Public Radio's 2026-01-30 coverage (https://www.hawaiipublicradio.org/local-news/2026-01-30/booming-market-for-local-data-storage-space, HTTP 200) as an additional corroborating source.",
+    "Appended a data.json history entry (date 2026-08-11, field 'sources.refresh_2026_08_11 / actions[1].primary_url (groundbreaking URL swap)') documenting previous_value -> new_value.",
+    "Added a dated bullet to NOTES.md 2026-08-11 section documenting the URL swap with both source URLs.",
+    "Validated data.json parses as valid JSON after edits; confirmed no live reference (primary_url or sources array) to the dead URL remains."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {"url": "https://servpac.com/mtp-groundbreaking/", "status": 500, "action": "replaced"},
+    {"url": "https://servpac.com/media-press/", "status": 500, "action": "kept"},
+    {"url": "https://www.prnewswire.com/news-releases/servpacs-mtp-data-center-celebrates-groundbreaking-for-building-2-302694909.html", "status": 200, "action": "kept"},
+    {"url": "https://www.hawaiipublicradio.org/local-news/2026-01-30/booming-market-for-local-data-storage-space", "status": 200, "action": "kept"},
+    {"url": "https://buildingindustryhawaii.com/2026/03/servpac-inc-breaks-ground-on-mtp-data-centers-building-2/", "status": 200, "action": "kept"},
+    {"url": "https://ai.ikenagroup.com/p/95046002", "status": 200, "action": "kept"},
+    {"url": "https://www.datacenterdynamics.com/en/news/hawaii-based-cloud-provider-servpac-expands-data-center/", "status": 403, "action": "kept"}
+  ],
+  "remaining_risks": [
+    "The original servpac.com/mtp-groundbreaking/ page is genuinely dead (HTTP 500 on repeated HEAD/GET with and without browser UA; no Wayback capture found). Replacement is a wire copy of the same company release, not the company's own page; content equivalence verified via search snippet. The whole servpac.com domain returned 500 from this environment, so the company's own site remains unverifiable at fix time.",
+    "actions[1] (2026-01-22 announcement) and actions[2] (2026-02-24 press-release mirror) now both cite the same PRNewswire URL; this is intentional and documented in the evidence_note, but a reviewer may flag it as a repeated URL across actions.",
+    "DCD article returns 403 from this environment (likely WAF) - it was not added; the entry's live corroboration rests on PRNewswire, HPR, and Building Industry Hawaii.",
+    "No other issues were listed for this center; status/evidence posture unchanged: Q2 2026 completion target remains company-reported and unverified."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single listed issue: the primary company source https://servpac.com/mtp-groundbreaking/ consistently returned HTTP 500, so the 2026-01-22 groundbreaking action's primary_url now points to the live PRNewswire mirror of the identical release, sources.refresh_2026_08_11 gained Hawai'i Public Radio as a corroborating source, and the swap is documented in data.json history and NOTES.md. data.json validated as valid JSON; no live reference to the dead URL remains, and the dead URL is retained as prose provenance only."
+}

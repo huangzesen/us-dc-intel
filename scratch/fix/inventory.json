@@ -1,0 +1,218 @@
+{
+ "disc011-amazon-montgomery-city-data-center-campus": [
+  "Spot-check hard-fail (2026-08-11 ~17:00 UTC): https://mcmo.us/amazon/ is unreachable - DNS resolves to 198.209.253.17 but TCP port 443 connection is refused for both HEAD and GET w"
+ ],
+ "disc017-powerhouse-poe-companies-louisville-hyperscale-campus": [
+  "Minor status-label tension: status field \"approved-permitted; first 130 MW targeted October 2026; no official construction or energization confirmation found\" conflicts with the co"
+ ],
+ "disc026-edged-project-gateway-prichard-data-center": [
+  "URL accessibility: https://www.datacenterdynamics.com/en/news/alabama-city-considers-data-center-moratorium-could-kill-edged-project/ returned HTTP 403 from this review environment"
+ ],
+ "disc029-project-marvel-bessemer-data-center-campus": [
+  "Status/evidence inconsistency: `status` is \"approved-permitted\" while data.json `contradictions[2]` states \"No source found in this refresh confirms building permits...\" and NOTES."
+ ],
+ "usdc-0005-project-sail-atlas-development-prologis-coweta-campus": [
+  "Minor: NOTES.md 2026-08-11 section cites an AJC URL (https://www.ajc.com/business/2026/04/coweta-votes-to-turn-this-800-acre-forest-into-17b-data-center-campus/) as rezoning corrob"
+ ],
+ "usdc-0007-project-ruby-muscogee-property-1": [
+  "Spot-checked source URL https://www.gpb.org/news/2026/05/04/new-map-shows-where-on-865-acres-proposed-columbus-data-center-would-be-built returns HTTP 403 on GET and HEAD with two "
+ ],
+ "usdc-0009-pine-ridge-tech-park": [
+  "Duplicate non-canonical GPB URL for the same article: actions[3].primary_url and contradictions[3].source_urls use 'https://www.gpb.org/news/2025/09/19/rural-twiggs-county-approves"
+ ],
+ "usdc-0011-qts-cedar-rapids-campus": [
+  "History date inconsistency: history[0] (field \"status_as_of_cutoff\") is dated \"2026-07-16\" but its new_value is the 2026-08-11 refresh status (\"site work-construction as of 2026-08"
+ ],
+ "usdc-0013-microsoft-west-des-moines-expansion": [
+  "Source reachability: two wdm.iowa.gov URLs (https://www.wdm.iowa.gov/home/showpublisheddocument/38719/638146570113770000 and https://www.wdm.iowa.gov/Home/Components/News/News/4420"
+ ],
+ "usdc-0015-stack-chi02": [
+  "history[0].date is \"2026-07-16\" (the baseline extraction date) but the entry records the 2026-08-11 refresh change: its new_value text states \"...as of 2026-08-11\" and its reason c"
+ ],
+ "usdc-0020-meta-lebanon-campus": [
+  "Minor: history[0] records old_value null for field status_as_of_cutoff, but the 2026-07-16 baseline (SKILL.md one-liner and NOTES.md baseline section) recorded status \"no status\"; "
+ ],
+ "usdc-0021-project-maize-google-michigan-city-data-center-redevelopment": [
+  "sources.refresh_2026_08_11 and actions[17].primary_url: https://secure.in.gov/iurc/files/ord_46393_072726_.pdf returns HTTP 404 (dead link; spot-check hard-fail per review rule). T"
+ ],
+ "usdc-0025-radiusdc-indy-i": [
+  "Status tier inconsistency: `status_as_of_cutoff` starts with the tier label \"approved-permitted\" but the entry itself and NOTES.md 2026-08-11 state no Improvement Location Permit, "
+ ],
+ "usdc-0026-heartland-industrial-park-potentia-sullivan-county-campus": [
+  "source URL hard-fail: https://www.businesswire.com/news/home/20260423900539/en/Potentia-Begins-Construction-on-Major-Infrastructure-Development-at-Heartland-Industrial-Park-in-Sull"
+ ],
+ "usdc-0027-beale-infrastructure-de-soto-campus": [
+  "Minor: `contradictions` is an empty array [] while NOTES.md (2026-08-11 refresh, last bullet) documents a multi-source discrepancy: Phase 1 completion target 2027 (official city pa"
+ ],
+ "usdc-0029-tenkey-landco-simpson-county-ai-campus": [
+  "NOTES.md 2026-08-11 section states \"verified: true for the stated sourced facts; false for final approval/construction/energization because no evidence was located\", but no `verifi"
+ ],
+ "usdc-0031-rowan-frederick-bauxite-i": [
+  "evidence_grade is \"A-\" but the 2026-08-11 NOTES.md refresh states \"verified: false\" and data.json contains no `verified` flag at all; the documented, unresolved capacity contradict"
+ ],
+ "usdc-0035-cloud-hq": [
+  "MINOR (content, not from refresh): SKILL.md line 4-5 and NOTES.md 2026-07-16 baseline section line 5 both contain a truncated sentence ending mid-phrase: 'Chaska official page says"
+ ],
+ "usdc-0039-google-pine-island-data-center": [
+  "NOTES.md 2026-08-11 refresh section (final line) states 'verified: true for public-source process/status facts, verified: false for capacity/permit-finality/energization', but data"
+ ],
+ "usdc-0043-meta-kansas-city-northland-campus": [
+  "NOTES/data.json mirror gap: the ## 2026-08-11 refresh section documents 'infrastructure follow-through: Kansas City Ordinance No. 240917, passed November 7, 2024, included Water Fu"
+ ],
+ "usdc-0047-xai-macrohardrr-colossus-2-southaven": [
+  "data.json is missing the `evidence_grade` field. SKILL.md (field list) requires `status_as_of_cutoff / evidence_grade`, and all 7 other centers refreshed on 2026-08-11 carry `evide"
+ ],
+ "usdc-0058-meta-bowling-green-data-center": [
+  "Minor/advisory: evidence_grade is \"A-\" while `capacity_mw: 180` rests only on the third-party tracker (ryangrissinger.com), which NOTES.md itself marks verified:false and \"需继续核实\". "
+ ],
+ "usdc-0063-vantage-new-albany-campus-vantage-oh1": [
+  "actions sub-schema deviates from the repo standard: entries use `body` (instead of `government_body`), `exact_result_status` (instead of `result_status`), and `case_or_permit_numbe"
+ ],
+ "usdc-0065-ports-technology-campus-portsmouth-gaseous-diffusion-plant": [
+  "Minor (cosmetic, not blocking): `actions` are not in strict chronological order - the 2026-05-06 AEP Ohio entry is listed after the 2026-06-16 Permitting Council entry."
+ ],
+ "usdc-0068-meta-aiken-county-data-center": [
+  "NOTES.md ## 2026-08-11 refresh section states \"`verified: true` for refreshed source-backed fields; `verified: false` for county permit identifiers, exact parcel, and confirmed IT-"
+ ],
+ "usdc-0074-gemini-data-center": [
+  "SKILL.md line 9 location text (\"South Dakota location south of 57th Street and west of S. Dubuque Avenue\") contradicts data.json location (\"South of E. Rice St. and east of Veteran"
+ ],
+ "usdc-0078-ta-infrastructure-management-duck-island-data-center-module": [
+  "owner field 'TA Infrastructure Management LLC (applicant/developer); Hilcorp Alaska LLC owns existing generation equipment and hosts the Duck Island Unit facilities' — the Hilcorp "
+ ],
+ "usdc-0080-beale-marana-data-center-campus": [
+  "Primary source https://www.maranaaz.gov/Government/Data-Centers/Luckett-Road-North-and-South-Data-Centers (and companion Town PDF https://www.maranaaz.gov/files/assets/cityofmarana"
+ ],
+ "usdc-0084-novva-mesa-data-center-campus": [
+  "history not updated during the 2026-08-11 refresh: NOTES.md documents changes to status_as_of_cutoff, capacity_mw (null -> 300), and owner (null -> 'Novva Holdings, LLC / Novva Dat"
+ ],
+ "usdc-0085-project-baccara-data-center-and-power-campus": [
+  "Status wording tension: `status_as_of_cutoff` asserts Glendale \"approved a pre-annexation development agreement on 2026-04-28\", but the matching action (2026-04-28) and NOTES.md on"
+ ],
+ "usdc-0087-coresite-silicon-valley-sv9-expansion": [
+  "Minor sourcing gap: contradictions[1] (topic 'building size') cites a CoreSite spec-sheet figure of 200,000 sq ft turn-key space, but its supporting URL https://www.coresite.com/sp"
+ ],
+ "usdc-0088-imperial-valley-computer-manufacturing-imperial-data-center": [
+  "Spot-checked URL https://www.iid.com/about-iid/community/data-center-facts (cited in sources.refresh_2026_08_11 and in contradictions) returns HTTP 403 for both curl and the browse"
+ ],
+ "usdc-0091-coresite-denver-de3-campus": [
+  "Minor note: data.json carries no top-level `verified` flag even though NOTES.md's 2026-08-11 section states 'verified: false'; evidence_grade 'B' is consistent with that caveat, so"
+ ],
+ "usdc-0094-servpac-mtp-data-center-building-2": [
+  "Primary company source https://servpac.com/mtp-groundbreaking/ (used as primary_url for the 2026-01-22 groundbreaking action and listed in sources.refresh_2026_08_11) consistently "
+ ],
+ "usdc-0095-sna-data-center-cedar-rapids-phases": [
+  "Minor: `seed_only` is true and sources.authoritative_layer is 'phase2_seed_only' even though the 2026-08-11 refresh added 8 dated URLs plus a full actions/contradictions/campus_sco"
+ ],
+ "usdc-0100-google-fort-wayne-data-center": [
+  "Minor traceability: capacity_notes claims 'WPTA reports 179 diesel generators could generate 527.52 MW if operated' citing the 2025-10-08 WPTA article, which appears only in NOTES."
+ ],
+ "usdc-0104-quantum-loophole-frederick-campus": [
+  "Minor: none of the 7 actions entries carries a \"verified\" flag, so the brief's evidence_grade-vs-verified cross-check has no field to compare (\"verified\" appears in only 7 of ~230 "
+ ],
+ "usdc-0105-jay-former-mill-data-center": [
+  "Minor: data.json has no top-level `verified` boolean (7 sibling entries carry one, e.g. usdc-0040, usdc-0095), so evidence_grade cannot be formally cross-checked against a data.jso"
+ ],
+ "usdc-0111-bonner-milltown-ai-data-center-proposal": [
+  "vote_tally 'reported unanimous' on the 2026-07-09 moratorium action is unsupported by any cited source: the official interim-zoning page (verified live 2026-08-11) does not mention"
+ ],
+ "usdc-0113-firstlight-bedford-data-center-expansion": [
+  "SKILL.md location section still reads \"地址/地块: None\" (line 10) while the 2026-08-11 refresh added a source-backed location to data.json (address \"8 Commerce Dr\", parcel_id \"5502\", m"
+ ],
+ "usdc-0116-nebius-dataone-vineland-ai-facility": [
+  "Minor/schema-heterogeneity (informational, not factual error): the entry has no `verified` / `verification_notes` / `last_refreshed` fields, so evidence_grade 'A-' cannot be cross-"
+ ],
+ "usdc-0119-project-jupiter-stargate-do-a-ana-county": [
+  "Minor: NOTES.md 2026-08-11 section describes 'verified: true for listed official/public-source facts; verified: false for final permit/construction/energization/capacity', but data"
+ ],
+ "usdc-0120-copia-power-monarch-data-campus": [
+  "(minor) actions array is not strictly chronological: the 2026-07-16 negative-search action (primary_url https://www.lyon-county.org/AgendaCenter) appears before the 2026-07-14 and "
+ ],
+ "usdc-0122-fleet-data-centers-south-valley-campus": [
+  "Internal spelling inconsistency introduced by this refresh: data.json actions[0] (Docket 25-01037, 2026-01-28) says \"Mackay Switching Station\" while actions[3] (Docket 26-04007, 20"
+ ],
+ "usdc-0126-north-east-data-blockfusion-5380-frontier-avenue": [
+  "Status inconsistency (checklist #3): `status_as_of_cutoff` is \"partial live\" but the last (and only) `history` entry records `status_as_of_cutoff: null` as of 2026-07-16. The 2026-"
+ ],
+ "usdc-0127-stream-data-centers-western-new-york-stamp": [
+  "Minor: data.json `contradictions` entries carry only topic/details and no `sources` URL array (refreshed sibling entries such as usdc-0086 include one); the backing URLs for the tw"
+ ],
+ "usdc-0130-anthem-data-centers-tulsa": [
+  "SKILL.md stale vs refreshed data.json (legacy sync item, not a refresh error): SKILL.md 一句话 still reads 'Provisional planning lead only; no primary government, utility, or develope"
+ ],
+ "usdc-0131-beale-infrastructure-tulsa-county-campus": [
+  "NOTES.md 2026-08-11 refresh section (line 17) states 'verified: true for local-process/site-grading and incentive facts; verified: false for operational/energized status', but data"
+ ],
+ "usdc-0132-beale-project-mustang": [
+  "data.json has no top-level `verified` flag, so evidence_grade (\"A- (official city approval/news page, ...)\") cannot be cross-checked inside the JSON; NOTES.md claims \"verified: tru"
+ ],
+ "usdc-0138-aws-boardman-morrow-county-five-building-expansion": [
+  "Source URL https://www.tricitiesbusinessnews.com/articles/amazon-plans-another-data-center-southwest-of-tricities returns HTTP 404 (confirmed via curl GET and web browse; hard-fail"
+ ],
+ "usdc-0140-google-the-dalles-expansion": [
+  "Reachability caveat (not a 4xx/5xx, not a fabrication): https://www.avangrid.com/w/avangrid-announces-119-megawatt-repower-project-in-oregon returned status 000 from this review en"
+ ],
+ "usdc-0143-aws-talen-susquehanna-campus": [
+  "Caveat (source spot-check): https://www.sec.gov/Archives/edgar/data/1622536/000162253626000036/tln-20260331.htm returns HTTP 403 from both curl and the web fetcher (SEC anti-bot bl"
+ ],
+ "usdc-0149-google-project-dawson": [
+  "Source URL https://www.dorchestercountysc.gov/business/data-center-fact-sheet hard-fails the HTTP spot-check with 403 (per review-brief rule: hard-fail on 4xx). Likely WAF/bot prot"
+ ],
+ "usdc-0154-galaxy-helios-campus-coreweave-ai-site": [
+  "data.json missing top-level `evidence_grade` key: SKILL.md documents `status_as_of_cutoff / evidence_grade` as required fields, and all four sibling CoreWeave refresh entries (usdc"
+ ],
+ "usdc-0155-google-intersect-meitner-energy-center": [
+  "Minor: SKILL.md line 4 (`一句话`) still reads 'Company announcement / energy-center proposal; no county or state data-center approval located', stale relative to the refreshed status_"
+ ],
+ "usdc-0156-google-texas-cloud-and-ai-infrastructure-expansion": [
+  "status_as_of_cutoff does not match the last entry of the history array: the last history entry is the 2026-07-16 baseline status ('State/company announcement for multiple campuses;"
+ ],
+ "usdc-0157-iren-sweetwater-ai-campus": [
+  "{\"check\": \"status_consistency\", \"field\": \"history[-1].status_as_of_cutoff vs status_as_of_cutoff\", \"detail\": \"status_as_of_cutoff ('partial live: IREN announced Sweetwater 1 1.4GW "
+ ],
+ "usdc-0160-microsoft-pecos-ai-cloud-data-center-campus": [
+  "evidence_grade missing: data.json has no evidence_grade field (SKILL.md maintained-field list includes status_as_of_cutoff / evidence_grade) and no verified flags, so the evidence_"
+ ],
+ "usdc-0163-powerhouse-irving-data-center": [
+  "Minor inconsistency: NOTES.md 2026-08-11 section states `verified: false`, but data.json contains no `verified` key (some sibling entries carry a top-level `verified` boolean, e.g."
+ ],
+ "usdc-0165-qts-fort-worth-data-center": [
+  "Minor: `history[0].date` is \"2026-08-11\" while the entry describes the 2026-07-16 baseline (seed-only) state; the date is ambiguous (sibling usdc-0191 uses 2026-07-16 for the analo"
+ ],
+ "usdc-0167-rowan-project-temple": [
+  "observation (minor): data.json contains no structured per-action `verified` boolean flags (the only 'verified' occurrence is the narrative phrase 'Building permit record remains un"
+ ],
+ "usdc-0171-stargate-milam-county-campus": [
+  "Minor semantic nit: actions[0].government_body is \"OpenAI\" and actions[3].government_body is \"OpenAI / SB Energy\" - company actors placed in the government_body field (refreshed si"
+ ],
+ "usdc-0173-antelope-data-center": [
+  "actions[0] (2026-05-26, Grand County Planning Commission 'government data-center inventory') result_status misquotes the cited source: it states the inventory lists Antelope 'as pr"
+ ],
+ "usdc-0181-summit-ridge-data-center": [
+  "Source spot-check hard-fail (review-brief item 4): lightweight GET returned 403 for https://www.datacenterdynamics.com/en/news/20mw-off-grid-data-center-planned-outside-salt-lake-c"
+ ],
+ "usdc-0186-wallula-gap-walla-walla-data-center-campus": [
+  "data.json lacks `last_refreshed` and `verified` keys that sibling 2026-08-11-refreshed entries carry (e.g. dc/usdc-0098-cyrusone-aurora-data-center/data.json has \"last_refreshed\": "
+ ],
+ "usdc-0187-bitfarms-moses-lake-cryptomine-to-ai-data-center-conversion": [
+  "data.json is missing `evidence_grade`, which this center's SKILL.md field contract (`status_as_of_cutoff / evidence_grade`) and the repo convention (202 of 208 usdc-* entries carry"
+ ],
+ "usdc-0192-project-jade-cheyenne-data-center-campus": [
+  "Minor pre-existing artifact (not from 2026-08-11 refresh): NOTES.md line 5 and SKILL.md line 4 contain a truncated sentence ending mid-word: 'status: Laramie County's July 8 offici"
+ ],
+ "usdc-0195-related-digital-cheyenne-data-center-campus": [
+  "Minor consistency gap: contradictions[0].sources cites https://cowboystatedaily.com/2026/06/14/inside-a-1-2-billion-data-center-campus-being-built-in-cheyenne/ and actions[2].prima"
+ ],
+ "usdc-0197-google-chesterfield-portfolio-project-peanut-skye-and-loch": [
+  "USACE URL https://www.nao.usace.army.mil/Media/Public-Notices/Article/4484789/nao-2026-00182-vmrc-project-loch-chesterfield-county-virginia-wauford-prm-site/ returned HTTP 403 to b"
+ ],
+ "usdc-0198-danville-pittsylvania-regional-data-center-development": [
+  "project_details.reported_construction_workers_peak=\"2,000-4,000\" and project_details.reported_construction_duration=\"12-18+ years\" are specific quantitative claims with no traceabl"
+ ],
+ "usdc-0201-meta-beaver-dam": [
+  "Status-history consistency (checklist item 3): data.json `history` contains only the 2026-07-16 baseline entry (status: \"State tax certification and PSC utility-service proceeding "
+ ],
+ "usdc-0206-microsoft-second-wisconsin-ai-data-center": [
+  "Minor: history[0].new_value for status_as_of_cutoff ('Site work-construction: local-government and company sources now support Area 3A/Phase 2 construction targeting 2028 completio"
+ ]
+}

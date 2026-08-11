@@ -1,0 +1,21 @@
+{
+  "center": "usdc-0020-meta-lebanon-campus",
+  "issues_in": [
+    "Minor: history[0] records old_value null for field status_as_of_cutoff, but the 2026-07-16 baseline (SKILL.md one-liner and NOTES.md baseline section) recorded status \"no status\"; "
+  ],
+  "fixed": [
+    "data.json: set history[0].old_value for field status_as_of_cutoff from null to \"no status\" so the history entry accurately reflects the 2026-07-16 baseline status recorded in SKILL.md (one-liner: 'no status') and NOTES.md (2026-07-16 baseline section: 'status: no status'); date (2026-08-11) and new_value ('site work-construction') unchanged.",
+    "NOTES.md: appended a dated fixer note (2026-08-11) to the 2026-08-11 refresh section documenting that history[0] old_value was corrected from null to 'no status' for history/NOTES consistency."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "No URL checks were applicable: the sole issue was a history old_value sync discrepancy, not a URL/evidence problem.",
+    "history[1] (capacity_mw) and history[2] (owner) keep old_value null; NOTES.md 2026-08-11 section documents those fields as changed from null, so they are consistent and were left untouched."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single minor issue for usdc-0020-meta-lebanon-campus: history[0].old_value for status_as_of_cutoff now reads 'no status' (the actual 2026-07-16 baseline per SKILL.md and NOTES.md) instead of null. Added a dated traceability note to NOTES.md and validated data.json as well-formed JSON after the edit."
+}

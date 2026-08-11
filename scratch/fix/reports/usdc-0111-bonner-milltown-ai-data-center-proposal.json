@@ -1,0 +1,42 @@
+{
+  "center": "usdc-0111-bonner-milltown-ai-data-center-proposal",
+  "issues_in": [
+    "vote_tally 'reported unanimous' on the 2026-07-09 moratorium action is unsupported by any cited source: the official interim-zoning page (verified live 2026-08-11) does not mention"
+  ],
+  "fixed": [
+    "Re-verified the official interim-zoning page (https://missoulacountyvoice.com/data-center-interim-zoning, HTTP 200 on 2026-08-11): it reports the July 9, 2026 commissioner vote and moratorium dates but states no vote tally.",
+    "Quick targeted web check found live local coverage supporting the unanimous claim: NBC Montana (2026-07-09) states 'commissioners unanimously approved' and 'The county voted unanimously to pass the moratorium' (HTTP 200).",
+    "data.json: updated the 2026-07-09 action vote_tally to 'reported unanimous by local media coverage (NBC Montana, 2026-07-09); official vote tally document not retrieved' so the claim now maps to a cited source.",
+    "data.json: updated the 2026-07-09 action access_caveat to state that the official page reports the outcome without a tally and that the unanimous result comes from the NBC Montana coverage; signed ordinance/minutes still not retrieved.",
+    "data.json: added the NBC Montana URL to sources.reviewed_urls (source_type local/regional media, source_date 2026-07-09) with the facts it supports (unanimous vote, moratorium effective date, Bonner context at hearing).",
+    "NOTES.md: appended a dated fix-pass note (2026-08-11) under the 2026-08-11 refresh section documenting the previously-uncited 'reported unanimous' claim, the verification of the NBC Montana source, and that the official tally document remains unretrieved.",
+    "Validated data.json parses as valid JSON after all edits (python3 json.load)."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://missoulacountyvoice.com/data-center-interim-zoning",
+      "status": 200,
+      "action": "kept"
+    },
+    {
+      "url": "https://www.missoulacounty.gov/news/missoula-county-commissioners-to-consider-interim-zoning-for-data-centers/",
+      "status": 200,
+      "action": "kept"
+    },
+    {
+      "url": "https://nbcmontana.com/news/local/missoula-co-hosts-hearing-on-potential-1-year-halt-on-data-centers",
+      "status": 200,
+      "action": "kept"
+    }
+  ],
+  "remaining_risks": [
+    "The 'unanimous' vote tally rests on local media reporting (NBC Montana); the official signed ordinance/minutes and an official tally document were still not retrieved, so the tally remains media-reported rather than primary-source confirmed.",
+    "The inventory issue string appears truncated in inventory.json (ends at 'does not mention'); treated as the single vote_tally-citation issue described for this center; no other issues were listed."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for USDC-0111: the 'reported unanimous' vote_tally on the 2026-07-09 moratorium action previously had no cited source. Confirmed the official county pages state no tally, found live NBC Montana coverage explicitly reporting the unanimous vote (HTTP 200), and cited it in data.json (vote_tally, access_caveat, sources.reviewed_urls) plus a dated NOTES.md note. data.json re-validated as valid JSON after edits."
+}

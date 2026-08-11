@@ -1,0 +1,45 @@
+{
+  "center": "usdc-0140-google-the-dalles-expansion",
+  "issues_in": [
+    "Reachability caveat (not a 4xx/5xx, not a fabrication): https://www.avangrid.com/w/avangrid-announces-119-megawatt-repower-project-in-oregon returned status 000 from this review en"
+  ],
+  "fixed": [
+    "Retried the flagged URL once per brief (HEAD then GET, ~15s max): returned status 000 (HTTP/2 INTERNAL_ERROR; HTTP/1.1 timeout) and the avangrid.com root page was also unreachable from this environment, confirming a genuine site-wide reachability failure rather than a page-specific 404/403.",
+    "Located and verified a working replacement for the same fact via web search: datacenterdynamics.com article 'Google signs PPA with Avangrid for more than 100MW of wind energy in Oregon' (accessed 2026-08-11, HTTP 200; confirms the 2025-07-22 Avangrid PPA for >100 MW from Leaning Juniper IIB, Gilliam County, OR, delivered via Northern Wasco County PUD to Google's The Dalles data centers).",
+    "data.json: replaced actions[6].primary_url (2025-07-22 Avangrid PPA action) with the verified datacenterdynamics.com URL.",
+    "data.json: replaced sources.current_refresh_sources[5].url with the verified datacenterdynamics.com URL and updated its note to document the swap (original avangrid.com URL named as replaced/unreachable).",
+    "data.json: added canonical `history` key (entry: date 2026-08-11, field 'sources.current_refresh_sources / actions[].primary_url', old_value = original avangrid.com URL, new_value = DCD URL, change_note documents the swap and retry evidence).",
+    "NOTES.md: added a dated 2026-08-11 bullet in the refresh section documenting the URL swap with both URLs and the HTTP 200 verification of the replacement."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://www.avangrid.com/w/avangrid-announces-119-megawatt-repower-project-in-oregon",
+      "status": 0,
+      "action": "replaced"
+    },
+    {
+      "url": "https://www.avangrid.com/",
+      "status": 0,
+      "action": "checked (diagnostic; root also unreachable)"
+    },
+    {
+      "url": "https://www.iberdrola.com/press-room/news/detail/avangrid-announces-119-megawatt-repowering-project-in-oregon",
+      "status": 403,
+      "action": "not_used (official mirror blocked: 403 via curl and browse fetcher)"
+    },
+    {
+      "url": "https://www.datacenterdynamics.com/en/news/google-signs-ppa-with-avangrid-for-more-than-100mw-of-wind-energy-in-oregon/",
+      "status": 200,
+      "action": "kept (replacement used)"
+    }
+  ],
+  "remaining_risks": [
+    "The replacement is a trade-press report (datacenterdynamics.com) rather than the original company announcement; the iberdrola.com press-room mirror of the same Avangrid release returned 403 to both curl and the browse fetcher, so no official mirror could be verified as reachable from here. avangrid.com may be reachable from other networks (the failure was site-wide, not a page-level 404), so the original URL is preserved in data.json history and NOTES.md for the parent to revisit."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for USDC-0140: the avangrid.com announcement URL (status 000; avangrid.com root also unreachable on retry 2026-08-11) was replaced in actions and sources with the verified-working datacenterdynamics.com report of the same 2025-07-22 Avangrid/Google >100 MW Leaning Juniper IIB PPA, and the swap was documented in a new canonical history entry plus a dated NOTES.md note. data.json remains valid JSON; no files deleted and no git operations performed."
+}

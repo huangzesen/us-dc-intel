@@ -1,0 +1,35 @@
+{
+  "center": "usdc-0143-aws-talen-susquehanna-campus",
+  "issues_in": [
+    "Caveat (source spot-check): https://www.sec.gov/Archives/edgar/data/1622536/000162253626000036/tln-20260331.htm returns HTTP 403 from both curl and the web fetcher (SEC anti-bot bl"
+  ],
+  "fixed": [
+    "Retried the SEC URL per brief (HEAD and GET with browser-like User-Agent, plus web fetcher): all return HTTP 403 with SEC's 'Undeclared Automated Tool' block page - an anti-bot policy block of automated fetchers, not a dead link.",
+    "Verified the cited filing is live via SEC's official submissions API (https://data.sec.gov/submissions/CIK0001622536.json): accession 0001622536-26-000036 = Talen Energy Corp Q1 2026 Form 10-Q, filed 2026-05-05, primary document tln-20260331.htm - exact match to the cited URL.",
+    "data.json: kept the canonical SEC URL in actions[5].source_url and sources.urls (no replacement - it is the correct official source; no lower-quality mirror substituted); enriched actions[5].details with the API-confirmed filing metadata (Q1 2026 Form 10-Q, accession 0001622536-26-000036, filed 2026-05-05) for traceability.",
+    "NOTES.md: appended a dated 2026-08-11 caveat bullet to the refresh section documenting the 403 (anti-bot, not dead), the official-API verification with source URL, the URL-kept decision, and corroboration of the April-2026 PPA-transition timing by Talen's already-cited 2025-06-11 IR release (spring 2026 front-of-the-meter transition)."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1622536/000162253626000036/tln-20260331.htm",
+      "status": 403,
+      "action": "kept"
+    },
+    {
+      "url": "https://data.sec.gov/submissions/CIK0001622536.json",
+      "status": 200,
+      "action": "kept"
+    }
+  ],
+  "remaining_risks": [
+    "SEC blocks automated content retrieval from www.sec.gov paths (403) in this review environment, so the 10-Q's exact sentence on the April 2026 PPA transition was not re-fetched this pass; the claim rests on the original 2026-08-11 refresh record, whose filing metadata (accession, form, date, primary document) was independently confirmed via SEC's official API.",
+    "The data.sec.gov submissions JSON is a bulk filing index (430 filings) - referenced as a verification pointer in the NOTES.md caveat note only, not added to sources.urls.",
+    "Reviewer inventory stores this issue string truncated mid-word ('SEC anti-bot bl'); treated as the full single issue for this center."
+  ],
+  "json_valid": true,
+  "summary": "The single issue for this center was a source spot-check caveat: the Talen Q1 2026 10-Q SEC URL returns HTTP 403. Retry confirmed SEC's anti-bot 'Undeclared Automated Tool' block (not a dead link), and SEC's official submissions API confirmed the filing (accession 0001622536-26-000036, 10-Q filed 2026-05-05) exists exactly as cited, so the URL was kept as canonical. The caveat and verification were documented in NOTES.md and actions[5].details was enriched with the API-confirmed filing metadata; data.json remains valid JSON."
+}

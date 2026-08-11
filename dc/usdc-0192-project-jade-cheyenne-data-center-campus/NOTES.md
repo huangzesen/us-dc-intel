@@ -2,7 +2,7 @@
 
 ## 2026-07-16（baseline 抽取）
 - 初始数据自 legacy-baseline-20260716 冻结 baseline 抽取（national_master_inventory.json, SHA 2113de4b…）。
-- status: Laramie County’s July 8 official notice says Project Jade is now Project Tembo, identifies Google d
+- status: Laramie County’s July 8 official notice says Project Jade is now Project Tembo, identifies Google d.b.a. Jupiter Star Holdings, LLC, says prior Crusoe/Tallgrass-related zone/site-plan approvals existed, and describes a scaled-down administrative resubmittal.
 - 待办：按 SKILL.md 数据源优先级做首次独立核实与补证。
 
 ## 2026-08-11（refresh）
@@ -12,3 +12,4 @@
 - August 13, 2026 Planning Commission hearing 仍标记为 pending，因为本次刷新日期为 2026-08-11。该 hearing 仅针对 office-complex CUP PZ-26-00057；data-center Site Plan Revision PZ-26-00058 不应从该 future hearing 推断为已批准。来源: https://www.laramiecountywy.gov/files/sharedassets/public/v/1/county/public-notice/project-tembo-memo-07082026.pdf
 - 负面核实：未发现 final revised data-center approval、building permit、CO/inspection、utility interconnection 或 energization 记录。Laramie County SmartGov portal 可访问，但详细申请材料检索受 portal/search/login 限制，本次未使用账号或 records request。来源: https://co-laramie-wy.smartgovcommunity.com/
 - 冲突/注意：部分 tracker 或行业页面把项目列为 under construction/permitted；本目录保守保留为 local process / administrative resubmittal，除非后续官方记录确认 revised site plan/building permits/site work/energization。Tallgrass power hub construction underway 不等同于 Google/Jupiter Star data-center buildings under construction。
+- 2026-08-11 fix-pass：修复 2026-07-16 baseline 段（上行）与 SKILL.md 一句话（line 4）中截断的句子——'identifies Google d' 补全为 'identifies Google d.b.a. Jupiter Star Holdings, LLC, says prior Crusoe/Tallgrass-related zone/site-plan approvals existed, and describes a scaled-down administrative resubmittal.'，文字按 legacy-baseline-20260716/national_master_inventory.json（SHA 2113de4b…）USDC-0192 条目原文恢复。

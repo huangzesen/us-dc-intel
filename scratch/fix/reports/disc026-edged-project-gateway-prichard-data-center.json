@@ -1,0 +1,34 @@
+{
+  "center": "disc026-edged-project-gateway-prichard-data-center",
+  "issues_in": [
+    "URL accessibility: https://www.datacenterdynamics.com/en/news/alabama-city-considers-data-center-moratorium-could-kill-edged-project/ returned HTTP 403 from this review environment"
+  ],
+  "fixed": [
+    "Retried the DCD URL (HEAD + GET with browser UA): both returned HTTP 403, confirming the review finding.",
+    "Replaced the 403 DCD URL in data.json sources[0] with the verified idcnova.com article (2026-08-11, HTTP 200) covering the same moratorium/Project Gateway story (8 MW, $93M, 214 Telegraph Road, former 911 data-center site, late-2026 groundbreaking target).",
+    "Added mynbc15.com local NBC15 coverage (2026-06-11, HTTP 200) to sources to corroborate the networking-hub, former-911-site, and late-2026-groundbreaking facts previously attributed to DCD.",
+    "Updated contradictions[0].notes attribution from 'DCD report' to '2026-08-11 industry reporting (idcnova.com)' for consistency with the source list.",
+    "Added a data.json history entry (field 'sources', date 2026-08-11) documenting the swap with previous/current values and reason.",
+    "Added a NOTES.md 2026-08-11 bullet documenting the swap with both URLs and the 403 reason; the original DCD URL is retained in NOTES.md and the history entry for reference (no deletion).",
+    "Validated data.json parses as JSON (json.load OK)."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {"url": "https://www.datacenterdynamics.com/en/news/alabama-city-considers-data-center-moratorium-could-kill-edged-project/", "status": 403, "action": "replaced"},
+    {"url": "https://www.idcnova.com/news/Alabama-City-Weighs-Data-Center-Moratorium-That-Could-Derail-Edgeds-93M-Project", "status": 200, "action": "kept"},
+    {"url": "https://mynbc15.com/news/local/the-community-has-spoken-prichard-residents-push-back-on-proposed-data-center", "status": 200, "action": "kept"},
+    {"url": "https://projectgatewayal.com/", "status": 200, "action": "kept"},
+    {"url": "https://www.fox10tv.com/2026/07/24/prichard-city-council-considers-moratorium-data-centers/", "status": 200, "action": "kept"},
+    {"url": "https://www.lagniappemobile.com/news/prichard/vote-on-prichard-data-center-falls-apart/article_4211104f-b442-495e-a691-160fd5a65b84.html", "status": 200, "action": "kept"},
+    {"url": "https://www.mejacoalition.org/2026/05/26/africatown-data-center/", "status": 200, "action": "kept"},
+    {"url": "https://www.revenue.alabama.gov/property-tax/county-offices-appraisal-assessment-records/", "status": 200, "action": "kept"},
+    {"url": "https://mobile.capturecama.com/", "status": 200, "action": "kept"}
+  ],
+  "remaining_risks": [
+    "The DCD page is likely live for human browsers (403 is anti-bot behavior rather than content removal); it is retained only in NOTES.md/history, no longer in sources.",
+    "idcnova.com is an industry aggregator, not an official/local-government source; no accessible official City of Prichard agenda/minutes source exists to replace it (pre-existing gap, unchanged by this fix).",
+    "Replacement URLs verified by curl HEAD/GET (both 200) and article content by web browse on 2026-08-11; no deep fact re-verification of the full entry was performed."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for disc026: the DatacenterDynamics URL returning HTTP 403 was replaced in data.json sources with a verified idcnova.com article covering the same Prichard moratorium/Project Gateway story, plus mynbc15.com local coverage added to corroborate the networking-hub and former-911-site facts. The swap is documented in data.json history and NOTES.md, and data.json validates as JSON."
+}

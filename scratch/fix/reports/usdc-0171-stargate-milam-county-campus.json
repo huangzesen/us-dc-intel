@@ -1,0 +1,19 @@
+{
+  "center": "usdc-0171-stargate-milam-county-campus",
+  "issues_in": [
+    "Minor semantic nit: actions[0].government_body is \"OpenAI\" and actions[3].government_body is \"OpenAI / SB Energy\" - company actors placed in the government_body field (refreshed sibling entries use null for company actions)"
+  ],
+  "fixed": [
+    "data.json actions[0] (2025-09-23, company_announcement): government_body changed from \"OpenAI\" to null; actor OpenAI retained in the action's summary/result_status text.",
+    "data.json actions[3] (2026-01-09, company_partnership_and_lease_announcement): government_body changed from \"OpenAI / SB Energy\" to null; both actors retained in the action's summary text.",
+    "NOTES.md: appended a dated 2026-08-11 fix-pass note under the 2026-08-11 refresh section documenting the semantic cleanup (company actors moved out of government_body per refreshed-sibling convention, e.g. usdc-0187, usdc-0170); no factual or URL change."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [],
+  "remaining_risks": [
+    "actions[2] government_body \"Cameron Industrial Foundation\" is a quasi-public local economic-development foundation rather than a strict government body, but the review did not flag it and it was left unchanged.",
+    "The issue string in scratch/fix/inventory.json is truncated at ~160 chars; the applied fix addresses the visible portion (actions[0] and actions[3] government_body semantic nit)."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for usdc-0171: company actors (OpenAI; OpenAI / SB Energy) were removed from the government_body field of actions[0] and actions[3] and set to null, matching the refreshed-sibling convention while preserving actor attribution in the action summaries. data.json validated as JSON after edits; NOTES.md updated with a dated note. No factual content, sources, or URLs were changed."
+}

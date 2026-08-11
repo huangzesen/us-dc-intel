@@ -1,0 +1,30 @@
+{
+  "center": "usdc-0007-project-ruby-muscogee-property-1",
+  "issues_in": [
+    "Spot-checked source URL https://www.gpb.org/news/2026/05/04/new-map-shows-where-on-865-acres-proposed-columbus-data-center-would-be-built returns HTTP 403 on GET and HEAD with two "
+  ],
+  "fixed": [
+    "Retried the flagged GPB URL once with curl HEAD then GET (browser UA, --max-time 12): both returned HTTP 403, confirming an environment-level WAF/bot-protection block on curl-like clients.",
+    "Fetched the same URL with a browser-grade web fetcher on 2026-08-11: returned HTTP 200 with full article text; content confirms the cited claims (Choose Columbus released an April 9, 2026 map showing Project Ruby on 865 acres in northeastern Muscogee County bordering Harris/Talbot County; GPB/Ledger-Enquirer reporting partnership), matching contradictions[0] site_acreage citation.",
+    "Determined the URL is LIVE, not dead: kept it in sources.refresh_2026_08_11 and contradictions[0].sources unchanged (no replacement needed; no evidence dropped).",
+    "Added a dated fix-pass note to NOTES.md ## 2026-08-11 section documenting the curl 403 vs browser-fetch 200 result, the WAF/bot-protection cause, and the decision to keep the URL."
+  ],
+  "files_changed": [
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://www.gpb.org/news/2026/05/04/new-map-shows-where-on-865-acres-proposed-columbus-data-center-would-be-built",
+      "status": 403,
+      "browser_fetch_status": 200,
+      "action": "kept",
+      "note": "curl HEAD and GET both 403 (WAF/bot protection); browser-grade fetch succeeded with HTTP 200 on 2026-08-11 and article content matches all cited claims; URL retained as live evidence."
+    }
+  ],
+  "remaining_risks": [
+    "The GPB URL still returns HTTP 403 to plain-curl fetchers; if the parent's downstream pipeline spot-checks sources with curl only, this URL may be re-flagged as unreachable despite being verified live via browser-grade fetch.",
+    "Pre-existing unrelated caveats (e.g., ledger-enquirer.com 403 noted in actions[7].access_caveat, DRI official record not yet located) were not part of this issue and remain unchanged."
+  ],
+  "json_valid": true,
+  "summary": "The single review issue for usdc-0007 was a 403 spot-check on the GPB 865-acre-map article. Retry with curl confirmed 403 (WAF bot protection), but a browser-grade fetch returned HTTP 200 with full content corroborating the entry's citations, so the URL was kept and the outcome documented in NOTES.md. data.json was not modified and remains valid JSON; one environment-specific risk (curl-only fetchers may still see 403) is noted for the parent."
+}

@@ -12,3 +12,4 @@
 - actions 新增：2025-10-17 TCEQ air permit application submitted；2026-03-25 Reeves County ESD No. 2 tax abatement hearing notice；2026-05-05 Texas Register/TCEQ notice issuance；2026-06-10 TCEQ public meeting；2026-06-22 Microsoft announcement；2026-06-22 Chevron power-agreement announcement；2026-07-24 Texas Comptroller JETI agreement posted。来源同上。
 - 多源口径说明：Microsoft 的约 2 GW 是数据中心 capacity；Chevron 的约 2.67 GW 是 Project Kilby 发电 capacity；Reeves County ESD 2026-03-25 notice 中的 1-2 GW 是较早/地方激励流程里的 dedicated-power 范围。三者对应资产和时间点不同，本次不将 2.67 GW 或 1-2 GW 覆盖为数据中心 IT load。
 - 未能核实项：未找到 Pecos/Reeves County 数据中心建筑许可、site plan approval、construction start、energization 或 operational go-live 的一手公开记录。
+- review fix pass (2026-08-11)：补上 SKILL.md 字段契约要求的 evidence_grade（"B: ..."，含官方州/地方流程记录与公司公告的等级说明）以及 data.json 顶层 verified: true + verification_notes（sourced facts 已核验；建筑许可/site plan/开工/并网/运营为 verified: false）+ last_refreshed: 2026-08-11，与已刷新兄弟条目（如 usdc-0098、usdc-0119）一致。

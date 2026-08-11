@@ -10,7 +10,7 @@
     "district_area": "Rubbertown"
   },
   "capacity_mw": 525,
-  "status": "approved-permitted; first 130 MW targeted October 2026; no official construction or energization confirmation found",
+  "status": "approved (Louisville Planning Commission 2026-03-05, 6-1 vote); first 130 MW targeted October 2026; no building permit, construction, or energization confirmation found",
   "confidence": "high",
   "evidence_date": "2026-08-11",
   "sources": [
@@ -33,9 +33,9 @@
     {
       "field": "status",
       "previous_value": "announced/planned; initial capacity targeted October 2026",
-      "updated_value": "approved-permitted; first 130 MW targeted October 2026; no official construction or energization confirmation found",
+      "updated_value": "approved (Louisville Planning Commission 2026-03-05, 6-1 vote); first 130 MW targeted October 2026; no building permit, construction, or energization confirmation found",
       "date": "2026-08-11",
-      "reason": "Louisville Metro planning record identifies the 6001 Camp Ground Road Category 3 application and local reporting/project site state Planning Commission approval."
+      "reason": "Louisville Metro planning record identifies the 6001 Camp Ground Road Category 3 application; LPM 2026-03-05 reports the Planning Commission approved revised development plans 6-1; no building permit located, so the status label was aligned to planning-level approval (was 'approved-permitted')."
     }
   ],
   "contradictions": [

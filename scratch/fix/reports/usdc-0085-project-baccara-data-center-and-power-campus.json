@@ -1,0 +1,23 @@
+{
+  "center": "usdc-0085-project-baccara-data-center-and-power-campus",
+  "issues_in": [
+    "Status wording tension: `status_as_of_cutoff` asserts Glendale \"approved a pre-annexation development agreement on 2026-04-28\", but the matching action (2026-04-28) and NOTES.md on"
+  ],
+  "fixed": [
+    "data.json: rewrote `status_as_of_cutoff` so the Glendale item reads \"Glendale City Council's 2026-04-28 agenda indexed Resolution R26-42 for a pre-annexation development agreement, but adoption of the resolution was not verified in the fetched record\" (no longer asserts Glendale \"approved\" the agreement; aligns with the 2026-04-28 action and NOTES.md).",
+    "data.json: added a dated history entry (2026-08-11, field status_as_of_cutoff) whose previous_value is the pre-fix wording and whose reason documents the evidence basis (agenda/video index item only, adoption not verified).",
+    "data.json: updated the 2026-04-28 action's access_caveat to record that the swagit video page (https://glendaleaz.new.swagit.com/videos/384335) returned 403 during the 2026-08-10/11 refresh but re-check on 2026-08-11 returned HTTP 200 with R26-42 listed under consent resolutions; kept the procedural-evidence-only caveat.",
+    "NOTES.md: appended a dated 2026-08-11 fix-pass note to the 2026-08-11 section documenting the wording alignment, the verified HTTP 200 re-check (agenda index lists R26-42 as consent resolution item 28, \"authorizing and directing the entering into of a pre-annexation development agreement with Baccara Eagle Land, LLC...\"), and the source URLs."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {"url": "https://glendaleaz.new.swagit.com/videos/384335", "status": 200, "action": "kept"}
+  ],
+  "remaining_risks": [
+    "The issue string in scratch/fix/inventory.json is truncated mid-sentence (ends \"...and NOTES.md on\"); the fix was scoped to the clear subject of the sentence: the Glendale 2026-04-28 \"approved\" wording vs. agenda-index-only evidence.",
+    "Adoption of Resolution R26-42 (final vote/minutes) is still not independently verified; the swagit page places it on the consent agenda, which is acted on by one motion, but no signed minutes were fetched. The Glendale Laserfiche resolution page (https://docs.glendaleaz.com/WebLink/DocView.aspx?dbid=0&id=7485974&repo=City-of-Glendale) remains session-limited (unchanged from refresh).",
+    "Other URL statuses in sources were not re-checked this pass; only the URL implicated by the issue was re-verified."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single status/evidence wording mismatch for USDC-0085: status_as_of_cutoff no longer asserts Glendale approved the pre-annexation development agreement on 2026-04-28; it now states the council agenda indexed Resolution R26-42 with adoption unverified, matching the action and NOTES.md. A history entry and NOTES.md fix-pass note document the change, and a web re-check confirmed the swagit video page is live (HTTP 200) listing R26-42 under consent resolutions. data.json validated as JSON after every edit."
+}

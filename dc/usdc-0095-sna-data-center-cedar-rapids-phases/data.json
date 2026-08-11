@@ -63,7 +63,7 @@
   "sources": {
     "phase2_seed_stable_id": "US-IA-SNA-CEDAR-RAPIDS-2024",
     "phase2_seed_source_file": "phase2/national_all_company_seed.json",
-    "authoritative_layer": "phase2_seed_only",
+    "authoritative_layer": "phase3_project_action_layer",
     "match_reason": "2026 refresh matched SNA seed to the QTS Cedar Rapids campus: SNA LLC was reported as the early project entity; Cedar Rapids later identifies QTS as the developer for the same 612-acre Big Cedar Industrial Center campus.",
     "urls": [
       {
@@ -128,7 +128,7 @@
       ]
     }
   ],
-  "seed_only": true,
+  "seed_only": false,
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a",
   "investment_usd": {
     "minimum_committed": 750000000,
@@ -171,6 +171,13 @@
       "old_value": null,
       "new_value": null,
       "source_url": "https://q.com/data-centers/cedar-rapids/"
+    },
+    {
+      "date": "2026-08-11",
+      "field": "seed_only",
+      "old_value": true,
+      "new_value": false,
+      "source_url": "https://www.economicdevelopmentcr.com/data-centers"
     }
   ],
   "last_refreshed": "2026-08-11",

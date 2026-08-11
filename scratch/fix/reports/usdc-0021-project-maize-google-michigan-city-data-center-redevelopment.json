@@ -1,0 +1,46 @@
+{
+  "center": "usdc-0021-project-maize-google-michigan-city-data-center-redevelopment",
+  "issues_in": [
+    "sources.refresh_2026_08_11 and actions[17].primary_url: https://secure.in.gov/iurc/files/ord_46393_072726_.pdf returns HTTP 404 (dead link; spot-check hard-fail per review rule). T"
+  ],
+  "fixed": [
+    "Retried the flagged URL once (HEAD then GET): https://secure.in.gov/iurc/files/ord_46393_072726_.pdf returned HTTP 404 on both; the www.in.gov mirror of the same file also returned 404 — dead confirmed.",
+    "Found a working replacement through the official IURC Online Services portal orders API (Cause 46393, order type Final Order, order date 7/27/2026): https://iurc.portal.in.gov/_entity/sharepointdocumentlocation/60652f2d-ee89-f111-ab10-001dd802f839/bb9c6bba-fd52-45ad-8e64-a444aef13c39?file=ord_46393_072726_.pdf — verified HTTP 200, application/pdf; extracted text confirms caption \"CAUSE NO. 46393\" and \"APPROVED: JUL 27 2026\".",
+    "Replaced the dead URL in actions[17].primary_url with the verified portal document URL.",
+    "Replaced the dead URL in sources.refresh_2026_08_11 with the verified portal document URL.",
+    "Updated actions[17].access_caveat to state the order is hosted on the IURC portal document store and that the former secure.in.gov mirror URL (HTTP 404) was replaced on 2026-08-11.",
+    "Added a dated bullet to NOTES.md (2026-08-11 section) documenting the dead mirror URL and the replacement portal URL with verification details.",
+    "Validated data.json is valid JSON after edits (python3 json.load)."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {
+      "url": "https://secure.in.gov/iurc/files/ord_46393_072726_.pdf",
+      "status": 404,
+      "action": "replaced"
+    },
+    {
+      "url": "https://www.in.gov/iurc/files/ord_46393_072726_.pdf",
+      "status": 404,
+      "action": "dead (checked as candidate mirror; not used)"
+    },
+    {
+      "url": "https://iurc.portal.in.gov/docketed-case-details/?id=d8c7f893-d039-f111-88b4-001dd80bcf22",
+      "status": 200,
+      "action": "kept (already in sources; confirms Cause 46393 Decided)"
+    },
+    {
+      "url": "https://iurc.portal.in.gov/_entity/sharepointdocumentlocation/60652f2d-ee89-f111-ab10-001dd802f839/bb9c6bba-fd52-45ad-8e64-a444aef13c39?file=ord_46393_072726_.pdf",
+      "status": 200,
+      "action": "kept (replacement now in actions[17].primary_url and sources.refresh_2026_08_11)"
+    }
+  ],
+  "remaining_risks": [
+    "The replacement URL is an IURC portal document-store (SharePoint-location) link rather than a clean secure.in.gov file URL; it is stable as long as the portal keeps the docket, but a future portal reorganization could require re-verification.",
+    "The inventory.json issue string for this center appears truncated in the source file (ends with '. T'); the fix was applied to the actionable part of the issue.",
+    "No change to capacity_mw (out of scope of this issue); the entry continues to record capacity_mw as null per its contradictions note.",
+    "The entry uses the status_history key; per the fix brief this was a review-brief error and the key was intentionally NOT renamed to history."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single dead-URL issue: the IURC Cause 46393 final-order PDF (ord_46393_072726_.pdf) 404'd on both secure.in.gov and www.in.gov, so it was replaced in actions[17].primary_url and sources.refresh_2026_08_11 with the verified official IURC portal document-store URL (HTTP 200, application/pdf, content confirms CAUSE NO. 46393 approved JUL 27 2026). actions[17].access_caveat and NOTES.md (2026-08-11) now document the swap, and data.json validates as JSON after the edits."
+}

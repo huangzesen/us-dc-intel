@@ -66,6 +66,18 @@
       "evidence_note": "State environmental permit supports permitted/construction status before Meta's operational announcement."
     },
     {
+      "date": "2024-11-07",
+      "date_precision": "day",
+      "government_body": "Kansas City, Missouri City Council",
+      "action_type": "water infrastructure funding ordinance",
+      "result_status": "Passed Ordinance No. 240917, which included Water Fund appropriations for \"M-22-15, WME - Project Velvet\" and related water-main replacement lines, continuing infrastructure follow-through for the project.",
+      "vote_tally": null,
+      "case_or_ordinance_permit_number": "Ordinance No. 240917",
+      "primary_url": "https://kansascity.legistar.com/LegislationDetail.aspx?From=RSS&FullText=1&G=D2E89A09-8736-4EFB-B4AE-572E0903BD5A&GUID=E9253B41-D5DF-44DA-AAE9-EB3438B0DFC1&ID=6890129",
+      "access_caveat": null,
+      "evidence_note": "Official city funding ordinance documents continued water-infrastructure support tied to Project Velvet at Golden Plains Technology Park."
+    },
+    {
       "date": "2025-08-20",
       "date_precision": "day",
       "government_body": "Meta",
@@ -118,6 +130,7 @@
       "https://clerk.kcmo.gov/LegislationDetail.aspx?GUID=B4B56878-A985-43D7-A86E-1C499DF6EC99&ID=5140162&Options=&Search=",
       "https://clerk.kcmo.gov/LegislationDetail.aspx?GUID=88AC2B70-4145-4F7F-BC91-54D971154EA7&ID=5363240&Options=&Search=",
       "https://dnr.mo.gov/air/business-industry/air-permits/velvet-tech-services-llc-kansas-city-042024-001",
+      "https://kansascity.legistar.com/LegislationDetail.aspx?From=RSS&FullText=1&G=D2E89A09-8736-4EFB-B4AE-572E0903BD5A&GUID=E9253B41-D5DF-44DA-AAE9-EB3438B0DFC1&ID=6890129",
       "https://ded.mo.gov/press-room/google-deepens-missouri-roots-15-billion-community-investment-montgomery-county",
       "https://missouridatacenters.org/"
     ]
@@ -125,7 +138,7 @@
   "contradictions": [],
   "history": [
     {
-      "date": "2026-07-16",
+      "date": "2026-08-11",
       "field": "status_as_of_cutoff",
       "old_value": "Missouri DED's May 20, 2026 regional announcement describes planned Google/Meta-area investments, but does not identify a Meta parcel or site-specific project. A specialist tracker is retained only as a discovery lead. No Meta company announcement, local approval, incentive/bond action, permit, construction, utility, or live-service record was located; status remains an unvalidated regional lead.",
       "reason_replaced": "2026-08-11 refresh located primary Meta, Kansas City, and Missouri DNR records confirming the project, owner, local approvals/permits, and operational status."

@@ -1,0 +1,35 @@
+{
+  "center": "usdc-0088-imperial-valley-computer-manufacturing-imperial-data-center",
+  "issues_in": [
+    "Spot-checked URL https://www.iid.com/about-iid/community/data-center-facts (cited in sources.refresh_2026_08_11 and in contradictions) returns HTTP 403 for both curl and the browse"
+  ],
+  "fixed": [
+    "Retried the flagged URL once: HEAD and GET both returned HTTP 403 (confirmed dead/bot-blocked).",
+    "Found verified replacement via Wayback Machine: same official IID page captured 2026-07-24 (https://web.archive.org/web/20260724093439/https://www.iid.com/about-iid/community/data-center-facts); fetched and confirmed archived text supports the cited facts (IID evaluates proposals for reliability, feasibility, cost recovery, interconnection/operational requirements, and will not expedite projects).",
+    "Replaced the dead URL in data.json sources.refresh_2026_08_11 (official_utility_context item) with the Wayback capture and documented the swap in the facts text (original live URL retained in prose for provenance).",
+    "Replaced the dead URL in data.json contradictions[0].sources with the Wayback capture.",
+    "Added a data.json history entry (date 2026-08-11, field sources) recording previous_value, new_value, and change_reason for the swap.",
+    "Added a dated URL-fix note to NOTES.md 2026-08-11 section with the replacement URL and verification details.",
+    "Validated data.json parses as valid JSON after all edits."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {
+      "url": "https://www.iid.com/about-iid/community/data-center-facts",
+      "status": 403,
+      "action": "replaced",
+      "replacement": "https://web.archive.org/web/20260724093439/https://www.iid.com/about-iid/community/data-center-facts"
+    },
+    {
+      "url": "https://web.archive.org/web/20260724093439/https://www.iid.com/about-iid/community/data-center-facts",
+      "status": 200,
+      "action": "kept"
+    }
+  ],
+  "remaining_risks": [
+    "IID's live data-center facts page returns HTTP 403 to automated access (likely bot protection); if it is reachable in a normal browser it may work for humans, but the Wayback capture is the dependable citation for automated use.",
+    "The original live URL is retained only in prose (facts text and history previous_value) for provenance, not as an active source URL."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single assigned issue for USDC-0088: the IID data-center facts URL (https://www.iid.com/about-iid/community/data-center-facts) returned HTTP 403 on retry (HEAD and GET), so it was replaced in sources.refresh_2026_08_11 and contradictions[0].sources with a verified Wayback Machine capture of the same official page (snapshot 2026-07-24) whose archived text confirms the cited facts. A history entry and a NOTES.md dated note document the swap, and data.json remains valid JSON."
+}

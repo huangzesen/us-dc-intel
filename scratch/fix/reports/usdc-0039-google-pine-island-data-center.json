@@ -1,0 +1,21 @@
+{
+  "center": "usdc-0039-google-pine-island-data-center",
+  "issues_in": [
+    "NOTES.md 2026-08-11 refresh section (final line) states 'verified: true for public-source process/status facts, verified: false for capacity/permit-finality/energization', but data.json contains no `verified` field (issue string truncated at 184 chars in inventory.json)"
+  ],
+  "fixed": [
+    "data.json: added top-level \"verified\": false encoding the NOTES.md 2026-08-11 verified statement (per issue type 3 guidance and sibling convention usdc-0117).",
+    "data.json: added \"verification_notes\" capturing the true/false split - verified true for public-source process/status facts (city Project Skyway page, MN PUC data-center + EIP pages, Google/Xcel announcements); verified false for capacity (capacity_mw null), permit finality, and energization (no evidence located).",
+    "data.json: added \"last_refreshed\": \"2026-08-11\" matching the refreshed-sibling convention (usdc-0040, usdc-0095, usdc-0098, usdc-0117).",
+    "NOTES.md: appended a dated fix note to the 2026-08-11 section documenting that data.json now carries the verified semantics (verified/verification_notes/last_refreshed)."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [],
+  "remaining_risks": [
+    "No URL issues were listed for this center, so no URL spot-checks were performed.",
+    "data.json has no `history` array (canonical schema lists it); the review did not flag this and 63/208 usdc entries also lack it, so it was left unchanged to avoid widening scope.",
+    "The inventory.json issue string for this center is truncated at 184 characters; the fix was applied to the visible text (verified flag missing vs NOTES.md statement), consistent with brief issue type 3."
+  ],
+  "json_valid": true,
+  "summary": "Encoded the NOTES.md 2026-08-11 verified statement into data.json by adding top-level verified:false, verification_notes (true for public-source process/status facts; false for capacity/permit-finality/energization), and last_refreshed 2026-08-11, mirroring refreshed sibling convention. Added a dated fix note to NOTES.md and validated data.json as valid JSON after the edit."
+}

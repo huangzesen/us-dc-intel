@@ -1,0 +1,20 @@
+{
+  "center": "usdc-0011-qts-cedar-rapids-campus",
+  "issues_in": [
+    "History date inconsistency: history[0] (field \"status_as_of_cutoff\") is dated \"2026-07-16\" but its new_value is the 2026-08-11 refresh status (\"site work-construction as of 2026-08"
+  ],
+  "fixed": [
+    "data.json history[0].date changed from 2026-07-16 to 2026-08-11 for field status_as_of_cutoff, so the entry now records the change at the refresh date when it actually occurred; old_value (baseline 2026-07-16 status \"Locally approved/early development...\") and new_value (2026-08-11 refresh status) preserved unchanged.",
+    "Confirmed consistency: NOTES.md 2026-08-11 refresh section documents the same status change (\"locally approved/early development\" -> \"site work-construction\"), so data.json history now mirrors NOTES.md; all three history entries are now dated 2026-08-11."
+  ],
+  "files_changed": [
+    "data.json"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The issue string as stored in scratch/fix/inventory.json is itself truncated mid-sentence (ends \"...as of 2026-08\"); the described inconsistency (history date vs refresh status) was addressed. No other issues were listed for this center, so no URLs were spot-checked in this pass.",
+    "Pre-existing caveat (not flagged, left as-is): the July 2025 building permit BP-004516-2025 uses project code \"Project Hawkeye\"; its QTS linkage is inferred from the shared 6200 76th Ave SW campus address and remains documented in the action's access_caveat and evidence_grade (A for local approvals/permit and construction status; B for capacity from contractor disclosure)."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for usdc-0011-qts-cedar-rapids-campus: history[0] (status_as_of_cutoff) date corrected from the baseline 2026-07-16 to the actual refresh date 2026-08-11, aligning data.json history with the NOTES.md 2026-08-11 refresh record and the sibling entries. data.json re-validated as valid JSON after the edit; no other issues were listed for this center."
+}

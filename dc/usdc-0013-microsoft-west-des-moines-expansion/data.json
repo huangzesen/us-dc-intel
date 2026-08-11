@@ -50,7 +50,7 @@
       "result_status": "City page describes the Microsoft project as four phases on 200 acres totaling about 1.7 million square feet; the page is project context, not a new approval or commissioning record.",
       "vote_tally": null,
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.wdm.iowa.gov/Home/Components/News/News/4420/384?arch=1&npage=12",
+      "primary_url": "https://web.archive.org/web/20260712224557/https://www.wdm.iowa.gov/Home/Components/News/News/4420/",
       "access_caveat": "City project page supplies scope and infrastructure context but not a building-by-building permit register.",
       "evidence_note": "Phase 2 expansion identity and scale; no status beyond the page's stated scope is inferred."
     },
@@ -94,7 +94,7 @@
     "current_refresh_urls": [
       "https://www.wdm.iowa.gov/home/showpublisheddocument/38719/638146570113770000",
       "https://www.wdmww.com/CMDocs/WDMWW/2025%20Agendas/06182025%20packet/5b1%20-%20Bluey%20Audit%20Report%20Acceptance%20for%202024%20Year%20End_opt.pdf",
-      "https://www.wdm.iowa.gov/Home/Components/News/News/4420/384?arch=1&npage=12",
+      "https://web.archive.org/web/20260712224557/https://www.wdm.iowa.gov/Home/Components/News/News/4420/",
       "https://www.axios.com/local/des-moines/2026/01/16/microsoft-west-des-moines-data-center-water-zero",
       "https://local.microsoft.com/blog/ginger-east-datacenter-construction-update/",
       "https://www.datacenter.fyi/state/ia",
@@ -141,6 +141,13 @@
       "previous_value": null,
       "new_value": null,
       "reason": "Capacity remains unresolved because public MW figures are combined, anonymous/confidential, or non-authoritative for the assigned project."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sources",
+      "previous_value": "https://www.wdm.iowa.gov/Home/Components/News/News/4420/384?arch=1&npage=12 (actions[2].primary_url and sources.current_refresh_urls)",
+      "new_value": "https://web.archive.org/web/20260712224557/https://www.wdm.iowa.gov/Home/Components/News/News/4420/ (Wayback snapshot of the same official city news page)",
+      "reason": "Source-reachability fix pass: the live wdm.iowa.gov domain returns HTTP 403 to automated review (domain-wide WAF/IP block; HEAD+GET and web fetcher all 403, root also 403). The News/4420 city page was replaced with its verified Wayback snapshot (captured 2026-07-12; archive content confirms the 'four phases on 200 acres totaling about 1.7 million square feet' wording). The minutes PDF (showpublisheddocument/38719, actions[0].primary_url) has no Wayback copy (CDX query empty 2026-08-11) and was kept unchanged as dead_url_kept pending parent decision."
     }
   ],
   "seed_only": false,

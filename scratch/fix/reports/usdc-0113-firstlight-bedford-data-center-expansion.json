@@ -1,0 +1,21 @@
+{
+  "center": "usdc-0113-firstlight-bedford-data-center-expansion",
+  "issues_in": [
+    "SKILL.md location section still reads \"地址/地块: None\" (line 10) while the 2026-08-11 refresh added a source-backed location to data.json (address \"8 Commerce Dr\", parcel_id \"5502\", mblu \"35/98/23\", acreage 8.95)"
+  ],
+  "fixed": [
+    "SKILL.md line 10 地址/地块 updated from \"None\" to \"8 Commerce Dr (parcel PID 5502, MBLU 35/98/23, 8.95 acres)\", matching the source-backed location already in data.json (sibling convention: address/parcel info on that line).",
+    "NOTES.md 2026-08-11 section: appended dated maintenance bullet documenting the SKILL.md location sync with the VGSI assessment source URL (https://gis.vgsi.com/bedfordnh/Parcel.aspx?Pid=5502)."
+  ],
+  "files_changed": ["SKILL.md", "NOTES.md"],
+  "urls_checked": [
+    {"url": "https://www.firstlight.net/firstlight-expands-bedford-nh-data-center/", "status": 200, "action": "kept"},
+    {"url": "https://gis.vgsi.com/bedfordnh/Parcel.aspx?Pid=5502", "status": 200, "action": "kept"}
+  ],
+  "remaining_risks": [
+    "data.json was not modified (no issue required it); its location fields (address 8 Commerce Dr, parcel_id 5502, MBLU 35/98/23, acreage 8.95) were already present and remain unchanged.",
+    "The VGSI assessment record corroborates address/parcel and the existing building only; it is not a permit/approval record, and this caveat is already encoded in data.json and NOTES.md."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single assigned issue for usdc-0113: synced SKILL.md line 10 (地址/地块) from \"None\" to the source-backed location (8 Commerce Dr, PID 5502, MBLU 35/98/23, 8.95 acres) that the 2026-08-11 refresh added to data.json, following sibling SKILL.md convention, and recorded the sync as a dated 2026-08-11 note in NOTES.md with the VGSI source URL. Both key evidence URLs (FirstLight announcement and VGSI parcel page) spot-checked live (HTTP 200) and kept. data.json validated as valid JSON; no data.json edits were needed."
+}

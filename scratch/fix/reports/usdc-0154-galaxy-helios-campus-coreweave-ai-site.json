@@ -1,0 +1,21 @@
+{
+  "center": "usdc-0154-galaxy-helios-campus-coreweave-ai-site",
+  "issues_in": [
+    "data.json missing top-level `evidence_grade` key: SKILL.md documents `status_as_of_cutoff / evidence_grade` as required fields, and all four sibling CoreWeave refresh entries (usdc..."
+  ],
+  "fixed": [
+    "Added top-level `evidence_grade` key to data.json, placed immediately after `status_as_of_cutoff`: \"A- for official Texas state records (TDLR Phase I/II construction registrations; PUCT self-generator registration 70122) and Galaxy/SEC disclosures confirming Phase I delivery and Phase II construction start; B for Phase II capacity and completion timelines, which rest on company disclosure and TDLR planned-completion dates pending county building-permit, inspection, and water-rights records.\"",
+    "Validated data.json parses as valid JSON (python3 json.load)."
+  ],
+  "files_changed": [
+    "data.json"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The inventory.json issue string for this center is truncated mid-sentence in the source file itself (ends at \"(usdc...\", 184 chars), so the exact tail of the intended issue text is unavailable; the stated problem (missing evidence_grade vs SKILL.md field contract and sibling convention) is unambiguous and fully addressed.",
+    "The evidence_grade value was authored by this fixer following the sibling CoreWeave convention (usdc-0115, usdc-0121, usdc-0144, usdc-0152 use graded strings with explanations); parent may sanity-check the A-/B split against reviewer expectations.",
+    "No URL checks were needed: the inventory listed no dead/403 URL for this center, and this fix did not touch sources."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for usdc-0154: data.json was missing the top-level evidence_grade key required by SKILL.md and present in all four sibling CoreWeave refresh entries. Added an evidence-grade string (A- for official state records and company/SEC disclosures; B for Phase II capacity/timelines) right after status_as_of_cutoff, and confirmed data.json is valid JSON. No URLs or other files needed changes."
+}

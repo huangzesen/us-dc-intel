@@ -13,10 +13,10 @@
   "confidence": "high",
   "evidence_date": "2026-08-11",
   "sources": [
-    "https://mcmo.us/amazon/",
-    "https://mcmo.us/wp-content/uploads/2026/02/Infrastructure-Development-and-Funding-Agreement-Project-Green.pdf",
-    "https://mcmo.us/wp-content/uploads/2026/02/NorthPoint-Project-Green-site-plan.pdf",
-    "https://mcmo.us/wp-content/uploads/2026/02/Chapter-100-Bond-Order-Project-Green.pdf",
+    "http://mcmo.us/amazon/",
+    "http://mcmo.us/wp-content/uploads/2026/02/Infrastructure-Development-and-Funding-Agreement-Project-Green.pdf",
+    "http://mcmo.us/wp-content/uploads/2026/02/NorthPoint-Project-Green-site-plan.pdf",
+    "http://mcmo.us/wp-content/uploads/2026/02/Chapter-100-Bond-Order-Project-Green.pdf",
     "https://governor.mo.gov/press-releases/archive/amazon-investing-10-billion-montgomery-county",
     "https://www.aboutamazon.com/news/company-news/amazon-data-center-missouri-new-jobs",
     "https://www.ameren.com/resource-center/amazon",
@@ -42,6 +42,12 @@
           "to": "2026-08-11"
         },
         "sources": "Added county project page/document URLs, Amazon owner announcement, Ameren utility note, and local/industry reporting."
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "changes": {
+        "sources": "Fix pass: swapped https:// to http:// for all mcmo.us URLs (https://mcmo.us/amazon/ and the three uploaded Project Green PDFs). As of 2026-08-11 the mcmo.us host refuses TCP 443 (connection refused; DNS still resolves to 198.209.253.17) but serves the identical Montgomery County project page and PDFs over plain HTTP (all return 200)."
       }
     }
   ],

@@ -1,0 +1,21 @@
+{
+  "center": "usdc-0187-bitfarms-moses-lake-cryptomine-to-ai-data-center-conversion",
+  "issues_in": [
+    "data.json is missing `evidence_grade`, which this center's SKILL.md field contract (`status_as_of_cutoff / evidence_grade`) and the repo convention (202 of 208 usdc-* entries carry)"
+  ],
+  "fixed": [
+    "Added `evidence_grade` to data.json with value \"A for permit/SEPA status and location (official Washington Ecology SEPA records 202505050/202600272 and City of Moses Lake Planning Commission agenda); B for capacity because 18 MW is sourced to the Bitfarms company announcement rather than municipal permit text.\"",
+    "Added a dated note to NOTES.md 2026-08-11 section documenting the evidence_grade field addition and its rationale"
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "No URL issues were in the issue list, so no URL re-checks were performed; all existing source URLs were left untouched.",
+    "data.json still lacks a `history` key (canonical schema lists it), but no review issue flagged it and several sibling usdc entries (e.g. usdc-0007) also lack it, so it was left for parent judgment."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for USDC-0187: added the missing `evidence_grade` field to data.json following the repo letter-grade convention (A for official SEPA/permit status and location, B for capacity sourced to the Bitfarms announcement), documented the change in NOTES.md 2026-08-11 section, and validated data.json remains valid JSON."
+}

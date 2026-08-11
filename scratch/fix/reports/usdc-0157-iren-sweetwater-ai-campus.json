@@ -1,0 +1,23 @@
+{
+  "center": "usdc-0157-iren-sweetwater-ai-campus",
+  "issues_in": [
+    "{\"check\": \"status_consistency\", \"field\": \"history[-1].status_as_of_cutoff vs status_as_of_cutoff\", \"detail\": \"status_as_of_cutoff ('partial live: IREN announced Sweetwater 1 1.4GW ...') differs from history[-1] which still records the 2026-07-16 baseline status; the 2026-08-11 refresh changed status_as_of_cutoff, capacity_mw (null->2000), owner (null->IREN Limited) and county (Nolan->Fisher) without appending a history entry.\"}"
+  ],
+  "fixed": [
+    "Appended a 2026-08-11 history entry (snapshot-style, matching the file's local convention) recording the refreshed status_as_of_cutoff (\"partial live: IREN announced Sweetwater 1 1.4GW high-voltage substation energization on 2026-05-01 ... both Sweetwater 1 and 2 as under construction\"), capacity_mw 2000, owner \"IREN Limited\", location (Sweetwater/Fisher/TX), and a note citing the 2026-05-01 IREN energization announcement and iren.com/data-centers/sweetwater as sources and explaining the Fisher-vs-Nolan county contradiction is retained in contradictions[0].",
+    "Confirmed history[-1].status_as_of_cutoff now exactly equals the top-level status_as_of_cutoff (check: history[-1].date == '2026-08-11', status fields match).",
+    "Added a dated bullet to NOTES.md 2026-08-11 section documenting the history-sync fix (fix pass 2026-08-11), so NOTES.md and history remain consistent."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "SKILL.md line 4 (one-liner) and line 8 (County: Nolan) remain stale relative to the refreshed data.json (status now 'partial live', county tracked as Fisher with Nolan as contradiction); the issue list did not require a SKILL.md edit, so per brief it is left for parent decision.",
+    "The inventory.json issue string for this center is itself truncated mid-sentence in the detail field; the fix was applied based on the check/field identifiers (status_consistency, history[-1].status_as_of_cutoff vs status_as_of_cutoff) which were fully legible.",
+    "County placement (Fisher vs Nolan) remains an unresolved tracked contradiction; no county permit/order record found in indexed public sources (unchanged, documented in contradictions and NOTES.md)."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the status_consistency issue for USDC-0157 by appending a 2026-08-11 history entry capturing the refresh's new status_as_of_cutoff ('partial live'), capacity_mw 2000, owner IREN Limited, and Fisher county (with Nolan contradiction retained), so history[-1] now matches the top-level field. Added a dated NOTES.md note documenting the sync. data.json validates as JSON after the edit."
+}

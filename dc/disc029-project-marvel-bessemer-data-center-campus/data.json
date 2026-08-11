@@ -9,7 +9,7 @@
     "site_context": "Project Marvel site in the Bessemer area, near Rock Mountain Lake Road and the planned Northern Beltline corridor"
   },
   "capacity_mw": 1200,
-  "status": "approved-permitted",
+  "status": "approved-rezoning; Bessemer City Council rezoning approvals confirmed for the original ~700-acre site (Nov 2025) and the 914-acre expansion (Apr 2026); no building permits, site work, construction, or energization evidence found",
   "confidence": "high",
   "evidence_date": "2026-07-14",
   "sources": [
@@ -38,8 +38,8 @@
       "date": "2026-08-11",
       "field": "status",
       "previous": "approved by Bessemer City Council",
-      "updated": "approved-permitted",
-      "reason": "Bessemer City Council rezoning approvals cover the original site and the 914-acre expansion, but no source verified site work, construction, energization, or live capacity."
+      "updated": "approved-rezoning; Bessemer City Council rezoning approvals confirmed for the original ~700-acre site (Nov 2025) and the 914-acre expansion (Apr 2026); no building permits, site work, construction, or energization evidence found",
+      "reason": "Fix pass (2026-08-11): the refresh label 'approved-permitted' overstated the evidence - Bessemer City Council rezoning approvals cover the original site and the 914-acre expansion, but no source found in this refresh confirms building permits, site work, construction, energization, or live capacity."
     },
     {
       "date": "2026-08-11",

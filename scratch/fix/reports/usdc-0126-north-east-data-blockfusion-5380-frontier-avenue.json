@@ -1,0 +1,25 @@
+{
+  "center": "usdc-0126-north-east-data-blockfusion-5380-frontier-avenue",
+  "issues_in": [
+    "Status inconsistency (checklist #3): `status_as_of_cutoff` is \"partial live\" but the last (and only) `history` entry records `status_as_of_cutoff: null` as of 2026-07-16. The 2026-... (note: the issue string in inventory.json is itself truncated mid-sentence; the unambiguous core defect is that the 2026-08-11 refresh change was never recorded in `history`)"
+  ],
+  "fixed": [
+    "data.json: appended a 2026-08-11 per-field history change entry for status_as_of_cutoff (previous_value null [baseline 'no status' per NOTES.md] -> new_value 'partial live'), with reason citing Blockfusion/Blue 2025-11-19 PR and SEC investor presentation/script describing the Niagara Facility as energized/operating ~46-50 MW.",
+    "data.json: appended a 2026-08-11 per-field history change entry for capacity_mw (previous_value null -> new_value full structured object: 46/50 MW current, 100 MW planned Tier 3, 300 MW LOI, 85 MW take-or-pay, 500 MW interconnection queue), with reason.",
+    "data.json: appended a 2026-08-11 per-field history change entry for owner (previous_value null -> new_value 'North East Data LLC (Blockfusion USA, Inc. subsidiary)'), with reason citing Niagara County PROS parcel record and company/SEC disclosures.",
+    "data.json: kept the 2026-07-16 baseline snapshot entry (all nulls) unchanged so old values remain in history, per SKILL.md 'cover same key and preserve old value into history'.",
+    "NOTES.md: appended a dated bullet to the 2026-08-11 refresh section documenting the history sync (baseline snapshot preserved; per-field 2026-08-11 change entries added)."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The inventory issue string for this center is truncated mid-sentence in inventory.json; the fix targets the clearly stated core defect (history not reflecting the 2026-08-11 refresh). If the truncated tail intended an additional sub-item, it cannot be recovered from the inventory file.",
+    "No new source verification was performed for the 'partial live' status itself (out of scope for this history-sync issue); it rests on the existing NOTES.md 2026-08-11 evidence (PR + SEC disclosures + NYSRC DER report), consistent with the entry's contradictions.",
+    "SKILL.md was not modified; no schema drift issue was raised for this center."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the status/history inconsistency for USDC-0126 by appending three per-field 2026-08-11 history change entries (status_as_of_cutoff null->partial live, capacity_mw null->structured capacity object, owner null->North East Data LLC) after the preserved 2026-07-16 baseline snapshot, matching the repo's dominant history convention, and documented the sync in NOTES.md. data.json validated as valid JSON (history now 4 entries)."
+}

@@ -19,3 +19,4 @@
   - Village 2026-05-20 data-center town-hall notice retained as general local context, not a CHI02 action/approval。https://www.elkgrove.org/Home/Components/Calendar/Event/9496/
 - 行业媒体交叉检查：DCD 2025-03-26 报道同样描述为 announced/planned 36MW Elk Grove Village project，地址未由 STACK 披露，development timeline 未分享。https://www.datacenterdynamics.com/en/news/stack-announces-36mw-data-center-in-chicago-illinois/
 - 多源冲突：baseline “under construction” 与本轮官方/industry evidence 的 announced/planned/development wording 冲突；本轮未找到足以支持 construction / energized / operational 的公开证据。
+- 数据维护（fix pass）：data.json history[0].date 由 baseline 提取日期 2026-07-16 更正为 refresh 日期 2026-08-11（该条 history 记录的是 2026-08-11 refresh 的 status 调整，old_value/new_value/reason 不变，与本节内容一致）。

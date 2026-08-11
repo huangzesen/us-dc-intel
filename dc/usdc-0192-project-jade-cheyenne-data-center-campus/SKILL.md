@@ -1,7 +1,7 @@
 # USDC-0192 — Project Jade Cheyenne data-center campus
 
 ## 一句话
-Laramie County’s July 8 official notice says Project Jade is now Project Tembo, identifies Google d
+Laramie County’s July 8 official notice says Project Jade is now Project Tembo, identifies Google d.b.a. Jupiter Star Holdings, LLC, says prior Crusoe/Tallgrass-related zone/site-plan approvals existed, and describes a scaled-down administrative resubmittal.
 
 ## 位置
 - City: Cheyenne area

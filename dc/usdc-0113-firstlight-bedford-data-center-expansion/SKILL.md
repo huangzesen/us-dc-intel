@@ -7,7 +7,7 @@ Company-announced expansion; construction, local approval, permit, utility, ener
 - City: Bedford
 - County: Hillsborough County
 - State: NH
-- 地址/地块: None
+- 地址/地块: 8 Commerce Dr (parcel PID 5502, MBLU 35/98/23, 8.95 acres)
 
 ## 维护契约（每次更新必读）
 

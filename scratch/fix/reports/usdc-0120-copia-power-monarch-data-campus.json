@@ -1,0 +1,18 @@
+{
+  "center": "usdc-0120-copia-power-monarch-data-campus",
+  "issues_in": [
+    "(minor) actions array is not strictly chronological: the 2026-07-16 negative-search action (primary_url https://www.lyon-county.org/AgendaCenter) appears before the 2026-07-14 and 2026-08-06 actions."
+  ],
+  "fixed": [
+    "Reordered data.json actions array into strict chronological order (2025-07-08, 2025-12-04, 2026-02-19, 2026-07-14, 2026-07-16, 2026-08-06) by moving the 2026-07-16 negative-search action after the 2026-07-14 Planning Commission PUD recommendation; no content changed.",
+    "Appended a dated fix-pass note to NOTES.md 2026-08-11 section documenting the reorder for traceability."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [],
+  "remaining_risks": [
+    "data.json uses the key `status_history` (line 23) while the brief states the canonical history key is `history`; per the brief's explicit 'do NOT rename' instruction, the key was left untouched and no history edits were required by this issue.",
+    "No URL reachability or content issues were flagged for this center in this fix pass, so no web checks were performed."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single minor issue for usdc-0120: reordered the actions array into strict chronological order (2026-07-16 negative-search action moved after the 2026-07-14 PUD recommendation), leaving all content unchanged. data.json validated as valid JSON after the edit, and NOTES.md gained a dated fix-pass note. No remaining factual risks."
+}

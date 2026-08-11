@@ -1,0 +1,20 @@
+{
+  "center": "usdc-0065-ports-technology-campus-portsmouth-gaseous-diffusion-plant",
+  "issues_in": [
+    "Minor (cosmetic, not blocking): `actions` are not in strict chronological order - the 2026-05-06 AEP Ohio entry is listed after the 2026-06-16 Permitting Council entry."
+  ],
+  "fixed": [
+    "Reordered the `actions` array in data.json into strict chronological order: 2026-03-20 (DOE announcement), 2026-03-20 (DOE fact sheet), 2026-03-24 (DOE EM groundbreaking), 2026-05-06 (AEP Ohio transmission notice), 2026-06-11 (Federal Permitting Dashboard FAST-41 posting), 2026-06-16 (Permitting Council FAST-41 coverage). The 2026-05-06 AEP Ohio entry now sits between the 2026-03-24 and 2026-06-11 entries.",
+    "Verified data.json remains valid JSON after the edit and that no action content (body, action_type, exact_result_status, primary_url, case_or_permit_number, access_caveat) was altered - only array ordering changed."
+  ],
+  "files_changed": [
+    "data.json"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "Fix was purely cosmetic (ordering); no factual, status, or citation content was changed, so NOTES.md/SKILL.md were left untouched per brief guidance (no dated NOTES note warranted for a cosmetic reorder).",
+    "No URLs were re-verified in this pass; the issue for this center did not involve URL reachability, and all source URLs were left unchanged."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single minor issue for USDC-0065: reordered the data.json `actions` array into strict chronological order, moving the 2026-05-06 AEP Ohio entry ahead of the 2026-06-11 and 2026-06-16 entries. All action content and all other data.json fields are byte-identical; data.json validated as parseable JSON with dates now sorted (['2026-03-20','2026-03-20','2026-03-24','2026-05-06','2026-06-11','2026-06-16']). No remaining risks beyond the cosmetic scope of the fix."
+}

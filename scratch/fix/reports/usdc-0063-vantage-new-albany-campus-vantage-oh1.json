@@ -1,0 +1,24 @@
+{
+  "center": "usdc-0063-vantage-new-albany-campus-vantage-oh1",
+  "issues_in": [
+    "actions sub-schema deviates from the repo standard: entries use `body` (instead of `government_body`), `exact_result_status` (instead of `result_status`), and `case_or_permit_numbe"
+  ],
+  "fixed": [
+    "Renamed actions[0..3] key `body` -> `government_body` in data.json (repo canonical field per SKILL.md field list and 179/208 sibling entries); values unchanged.",
+    "Renamed actions[0..3] key `exact_result_status` -> `result_status` in data.json (repo canonical field; 179/208 sibling entries); values unchanged.",
+    "Renamed actions[0..3] key `case_or_permit_number` -> `case_or_ordinance_permit_number` in data.json (repo canonical field; 140/208 sibling entries); values unchanged.",
+    "Added dated note to NOTES.md 2026-08-11 section documenting the actions sub-schema normalization (keys renamed, values/URLs unchanged)."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The issue string for this center in scratch/fix/inventory.json is itself truncated (ends mid-field at `case_or_permit_numbe`); the intended third field name was reconstructed from the repo convention (`case_or_ordinance_permit_number`, used by 140 sibling entries).",
+    "SKILL.md left unmodified per brief (its field contract at line 27 already lists government_body/result_status, so no schema-doc drift to report).",
+    "No URL spot-checks were required by this center's issue list; existing sources were not re-verified in this pass."
+  ],
+  "json_valid": true,
+  "summary": "Aligned the actions sub-schema of usdc-0063 with the repo standard: renamed `body`->`government_body`, `exact_result_status`->`result_status`, and `case_or_permit_number`->`case_or_ordinance_permit_number` across all 4 actions (values unchanged), and documented the normalization in NOTES.md 2026-08-11. data.json validated as parseable JSON after edits."
+}

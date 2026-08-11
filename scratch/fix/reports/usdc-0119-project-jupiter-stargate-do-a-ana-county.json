@@ -1,0 +1,19 @@
+{
+  "center": "usdc-0119-project-jupiter-stargate-do-a-ana-county",
+  "issues_in": [
+    "Minor: NOTES.md 2026-08-11 section describes 'verified: true for listed official/public-source facts; verified: false for final permit/construction/energization/capacity', but data.json does not encode the verified field."
+  ],
+  "fixed": [
+    "Added top-level \"verified\": true to data.json encoding the NOTES.md 2026-08-11 convention: listed official/public-source facts (NMED public-notices, OPF docket AQB 26-57(P), BLM ePlanning, NM State Land Office, Oracle/KNW/KVIA reporting) are verified true, while final air permit, county building/site permit, construction, energization, and capacity remain unverified (false) because no confirming record was located by the 2026-08-11 cutoff.",
+    "Added \"verification_notes\" field alongside \"verified\" documenting the split, matching the sibling convention (e.g. dc/usdc-0117-njfx-high-density-ai-data-hall uses top-level verified boolean + verification_notes)."
+  ],
+  "files_changed": ["data.json"],
+  "urls_checked": [],
+  "remaining_risks": [
+    "No URL issues were flagged for this center; no URLs were re-checked.",
+    "The verified flag is a single top-level boolean; per-fact nuance (true for sourced facts, false for permit/construction/energization/capacity) is carried in verification_notes, consistent with the NOTES.md convention.",
+    "The inventory issue string is truncated (ends at 'but data'); the fix assumes the intended meaning is that data.json lacks/does not encode the verified field."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single minor issue for USDC-0119: data.json now encodes the NOTES.md verified convention via top-level \"verified\": true plus verification_notes stating that official/public-source facts are verified while final permit/construction/energization/capacity are not (no confirming record located). data.json re-validated as valid JSON; only data.json was edited within the center directory."
+}

@@ -1,0 +1,27 @@
+{
+  "center": "usdc-0127-stream-data-centers-western-new-york-stamp",
+  "issues_in": [
+    "Minor: data.json `contradictions` entries carry only topic/details and no `sources` URL array (refreshed sibling entries such as usdc-0086 include one); the backing URLs for the tw"
+  ],
+  "fixed": [
+    "data.json contradictions[0] (topic 'capital investment'): added a `sources` array with the three backing URLs documented in NOTES.md 2026-08-11 multi-source conflict record - GCEDC ProjectSummary.1.30.26.pdf ($11.181B figure), GCEDC StakeholderProjectOverview.pdf ($19.46B figure), and rbj.net article ($19.5B regional reporting).",
+    "data.json contradictions[1] (topic 'permitting impact of statewide moratorium'): added a `sources` array with the Executive Order 62 governor.ny.gov URL that NOTES.md 2026-08-11 cites for the moratorium scope/abeyance facts.",
+    "Shape now matches the repo convention for refreshed sibling entries (e.g. usdc-0086) and the most common contradiction dict schema in the repo (topic/details/sources); no other fields changed."
+  ],
+  "files_changed": [
+    "data.json"
+  ],
+  "urls_checked": [
+    {"url": "https://rbj.net/2026/06/15/new-york-moratorium-genesee-county-data-center/", "status": 200, "action": "kept"},
+    {"url": "https://www.gcedc.com/file-library/100319/STREAMUSDataCentersLLC.ProjectSummary.1.30.26.pdf", "status": 200, "action": "kept"},
+    {"url": "https://www.gcedc.com/file-library/100319/STREAMUSDataCentersLLC.StakeholderProjectOverview.pdf", "status": 200, "action": "kept"},
+    {"url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops", "status": 403, "action": "kept"}
+  ],
+  "remaining_risks": [
+    "The issue string as stored in scratch/fix/inventory.json is truncated mid-sentence (ends \"...the backing URLs for the tw\"); the described gap (contradictions entries missing a `sources` URL array) was addressed using the backing URLs documented in the entry's NOTES.md 2026-08-11 refresh section, so the fix is source-backed despite the truncated issue text.",
+    "governor.ny.gov EO-62 URL returns HTTP 403 to curl (Cloudflare bot challenge, cf-mitigated: challenge) but was verified live (HTTP 200) via the web fetcher with the correct page title; kept as-is, consistent with the entry's existing sources.urls.",
+    "Contradiction entries were not given a `date` field (usdc-0086 includes one); the most common sibling dict schema in the repo is topic/details/sources, so only `sources` was added per the issue text."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for usdc-0127-stream-data-centers-western-new-york-stamp: added `sources` URL arrays to both data.json `contradictions` entries (capital investment; permitting impact of statewide moratorium) using the backing URLs already documented in NOTES.md 2026-08-11, aligning the entry with refreshed sibling convention (e.g. usdc-0086). All four backing URLs verified (three HTTP 200; governor.ny.gov EO-62 live via web fetcher, 403 only to curl bot-challenge); data.json re-validated as valid JSON. No other issues were listed for this center."
+}

@@ -1,0 +1,24 @@
+{
+  "center": "usdc-0031-rowan-frederick-bauxite-i",
+  "issues_in": [
+    "evidence_grade is \"A-\" but the 2026-08-11 NOTES.md refresh states \"verified: false\" and data.json contains no `verified` flag at all; the documented, unresolved capacity contradict"
+  ],
+  "fixed": [
+    "Added top-level \"verified\": false to data.json, mirroring the NOTES.md 2026-08-11 refresh statement \"verified: false\".",
+    "Added \"verification_notes\" to data.json reconciling evidence_grade A- with verified:false: A- reflects strong official MDE (2025-12-31 construction-compliance letter; 2026-03-25 final air-quality permit) and Frederick County site-plan record sourcing for the status/permit/construction layer, while verified:false reflects the unresolved Bauxite I capacity contradiction (231 MW DCD/Cleanview vs 300 MW Rowan Frederick page vs 600+/630 MW Bauxite I-II-III aggregate; 99 backup generators are emergency power, not IT load) and the absence of building permit, CO, energization, and first IT-load records.",
+    "Appended a dated 2026-08-11 fix-pass note to NOTES.md documenting the data.json verified/verification_notes mirror and the rationale for keeping evidence_grade A-.",
+    "Confirmed the capacity contradiction remains documented in data.json contradictions[0] with source URLs (unchanged; already populated)."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "evidence_grade kept at \"A-\" by design (official-source status layer with documented caveats); if the parent prefers a stricter grade given verified:false, that is a judgment call left to the parent.",
+    "The Bauxite I IT-capacity contradiction (231 / 300 / 600+ MW and 99-generator emergency power) is inherently unresolved without new sources; it remains documented in contradictions[0] and verification_notes.",
+    "data.json has no `history` array (baseline extraction carried none); not flagged by this issue and left untouched."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the evidence_grade-vs-verified mismatch by adding top-level verified:false plus verification_notes to data.json, mirroring the NOTES.md 2026-08-11 statement; the unresolved capacity contradiction was already documented in contradictions[0] and is now cross-referenced. NOTES.md gained a dated fix-pass note. data.json revalidated as valid JSON; no URLs checked (no URL issues for this center)."
+}

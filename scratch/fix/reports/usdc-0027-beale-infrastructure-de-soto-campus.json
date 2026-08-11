@@ -1,0 +1,39 @@
+{
+  "center": "usdc-0027-beale-infrastructure-de-soto-campus",
+  "issues_in": [
+    "Minor: `contradictions` is an empty array [] while NOTES.md (2026-08-11 refresh, last bullet) documents a multi-source discrepancy: Phase 1 completion target 2027 (official city page) vs Beale project page timeline Phase 1 Completion at 2029 vs local reporting 2028/2029 variants; no hard completion date was written."
+  ],
+  "fixed": [
+    "data.json: populated `contradictions` from the NOTES.md 2026-08-11 discrepancy text (issue type 5), following the sibling usdc convention {topic, details, sources[]} (cf. usdc-0131, usdc-0087). Entry 1 topic 'Phase 1 completion target': official De Soto city page states 2027, Beale project location page timeline shows 2029, KCUR/Johnson County Post local reporting cites 2028/2029 variants; no hard completion date written because sources conflict. Entry 2 topic 'status verification': conditional Phase 1 site plan approval and grading/site-prep confirmed by city page, but no building permit number, inspection, CO, energization, commissioning, live-service record, or confirmed MW capacity found; site work-construction status rests on city page + media corroboration.",
+    "data.json: each contradictions entry carries a `sources` URL array (city page, Beale location page, KCUR article) so the discrepancy is source-backed.",
+    "NOTES.md: appended a dated 'fix pass 2026-08-11' line to the 2026-08-11 refresh section recording that the multi-source conflict was encoded into data.json contradictions, with the three source URLs.",
+    "Verified all three cited source URLs are live (HTTP 200 via curl GET with browser UA): https://www.desotoks.us/496/Beale-Data-Center, https://bealeinfra.com/location/de-soto/, https://www.kcur.org/housing-development-section/2026-07-09/de-soto-data-center-complaints-beale-infrastructure"
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://www.desotoks.us/496/Beale-Data-Center",
+      "status": 200,
+      "action": "kept"
+    },
+    {
+      "url": "https://bealeinfra.com/location/de-soto/",
+      "status": 200,
+      "action": "kept"
+    },
+    {
+      "url": "https://www.kcur.org/housing-development-section/2026-07-09/de-soto-data-center-complaints-beale-infrastructure",
+      "status": 200,
+      "action": "kept"
+    }
+  ],
+  "remaining_risks": [
+    "data.json has no `history` array (brief's canonical usdc key list mentions history, and refreshed siblings like usdc-0087 carry one); the review issue for this center did not flag it, so it was left untouched for the parent to decide.",
+    "The exact Phase 1 completion date remains unresolvable across sources (2027 vs 2029 vs 2028/2029); the entry intentionally keeps no hard completion date, now documented in contradictions."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the empty-contradictions issue for usdc-0027 by populating data.json `contradictions` with the NOTES.md-documented multi-source discrepancy (Phase 1 completion target 2027 city page vs 2029 Beale timeline vs 2028/2029 local media) plus a status-verification gap entry, each source-backed per the sibling convention, and recorded the change in NOTES.md. All three cited source URLs verified live (HTTP 200); data.json revalidated as valid JSON."
+}

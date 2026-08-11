@@ -1,0 +1,22 @@
+{
+  "center": "usdc-0201-meta-beaver-dam",
+  "issues_in": [
+    "Status-history consistency (checklist item 3): data.json `history` contains only the 2026-07-16 baseline entry (status: \"State tax certification and PSC utility-service proceeding ...\"), while status_as_of_cutoff / capacity_mw / owner reflect the 2026-08-11 refresh."
+  ],
+  "fixed": [
+    "data.json: added three 2026-08-11 per-field history entries (field/old_value/new_value/reason) documenting the refresh: status_as_of_cutoff upgraded from the baseline state-tax-certification/PSC-proceeding text to the current 'site work-construction as of 2026-08-11' value (with source URLs in reason); capacity_mw null -> 220 (with caveat that official city/Meta/DOR/PSC public summaries publish no unredacted MW); owner null -> 'Meta Platforms' (sourced to Meta announcement, City resource page, Meta fast-facts PDF). Kept the 2026-07-16 baseline snapshot entry intact; history[-1] status new_value now equals status_as_of_cutoff.",
+    "NOTES.md: appended a dated bullet to the ## 2026-08-11 section documenting that data.json `history` was synced with three field-level 2026-08-11 change records (status_as_of_cutoff / capacity_mw / owner) consistent with the section and the current status_as_of_cutoff, with the 2026-07-16 baseline entry retained."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "Pre-existing truncated sentence (ends mid-word 'loca') in SKILL.md line 4 and NOTES.md 2026-07-16 baseline section line 5; data.json carries the complete text ('...record was located.'). Not part of the assigned issue and SKILL.md should not be edited without an explicit issue requirement - flagging for parent decision.",
+    "No URL reachability checks were performed: the assigned issue is a history-sync item and involves no dead/403 URLs.",
+    "Capacity figure 220 MW remains third-party-reported (WPR/Wisconsin Watch from PSC-testimony context); official sources publish no unredacted MW - already captured in capacity_mw_caveat and contradictions."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the status-history consistency issue for usdc-0201-meta-beaver-dam by adding three 2026-08-11 per-field history entries (status_as_of_cutoff, capacity_mw, owner) so history matches the refreshed status_as_of_cutoff and NOTES.md; baseline 2026-07-16 entry retained. data.json validates as JSON and history/status are now internally consistent."
+}

@@ -1,0 +1,18 @@
+{
+  "center": "usdc-0165-qts-fort-worth-data-center",
+  "issues_in": [
+    "Minor: `history[0].date` is \"2026-08-11\" while the entry describes the 2026-07-16 baseline (seed-only) state; the date is ambiguous (sibling usdc-0191 uses 2026-07-16 for the analo... (note: the issue string in scratch/fix/inventory.json is truncated at 180 chars, ending mid-word 'analo'; its meaning is unambiguous)"
+  ],
+  "fixed": [
+    "data.json: set history[0].date from 2026-08-11 to 2026-07-16 so the history entry that records the 2026-07-16 baseline seed-only state (no verified status/capacity/owner/address) uses the baseline date, matching sibling usdc-0191 convention and the NOTES.md 2026-07-16 baseline section.",
+    "NOTES.md: added a dated alignment note under the 2026-08-11 section documenting the history[0].date correction and the sibling convention used."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The single issue string in scratch/fix/inventory.json is truncated at 180 chars (ends mid-word 'analo'); the intended fix was clear from the visible text and sibling usdc-0191, and was applied accordingly.",
+    "No URL checks were required for this issue; this pass flagged no dead/duplicate URL or evidence-grade issues for this center."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single minor issue for USDC-0165: data.json history[0].date was changed from 2026-08-11 to 2026-07-16 so the entry recording the baseline seed-only state carries the baseline date, consistent with sibling usdc-0191 and NOTES.md. NOTES.md 2026-08-11 section now documents the alignment. data.json validated as valid JSON after the edit."
+}

@@ -16,3 +16,4 @@
 - 多源冲突：City 当前 project-updates 页将 Building 1 标为 500,107 sf / generally located at Jug & Horizon；City 2025-12 monthly report 将 Building 1 标为 200,107 sf / 3325 Horizon Court。data.json 的 building-level 字段采用 dated monthly report 的 3325 Horizon Court / 200,107 sf，并在 action 中保留当前页差异。
 - 无法核实/证据不足：未找到官方 occupancy、energization、partial-live 或 full-buildout 记录；Vantage 的 December 2025 first-facility operational date仍按 projection 处理，不升级为 energized/partial live。未找到可直接下载的 building permit numbers 或 utility interconnection record。
 - verified: true for owner, campus scope/capacity, location set, and construction/site-work status; verified: false for occupancy, energization, and realized operational date.
+- schema normalization (2026-08-11 review fix): actions entries re-keyed to repo standard — `body` -> `government_body`, `exact_result_status` -> `result_status`, `case_or_permit_number` -> `case_or_ordinance_permit_number`. Values and URLs unchanged.

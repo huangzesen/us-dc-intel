@@ -19,19 +19,19 @@
   "evidence_grade": "B: owner/state announcements and contractor/energy-partner sources confirm project identity and construction context; official county permit/case detail was not independently retrieved from the Citizenserve portal during this refresh.",
   "history": [
     {
-      "date": "2026-07-16",
+      "date": "2026-08-11",
       "field": "status_as_of_cutoff",
       "previous_value": "South Carolina officially announced Meta's new Aiken County data center and $800 million/100-job plan. No county land-use, building, environmental, utility, construction, CO, or energization record was located in the reviewed public surfaces.",
       "change_note": "Replaced with construction-stage status after 2026 refresh located Meta, contractor, local-media, and energy-partner evidence."
     },
     {
-      "date": "2026-07-16",
+      "date": "2026-08-11",
       "field": "owner",
       "previous_value": null,
       "change_note": "Set to Meta Platforms, Inc. based on Meta's owned-and-operated Aiken Data Center announcement and DPR client listing."
     },
     {
-      "date": "2026-07-16",
+      "date": "2026-08-11",
       "field": "capacity_mw",
       "previous_value": null,
       "change_note": "Set to reported expected utility draw; no confirmed IT-load capacity found."
@@ -190,5 +190,8 @@
     }
   ],
   "seed_only": false,
+  "last_refreshed": "2026-08-11",
+  "verified": true,
+  "verification_notes": "Mirrors NOTES.md 2026-08-11 refresh: verified true for refreshed source-backed fields (status site work-construction, owner Meta Platforms, Inc., location Sage Mill Industrial Park near Graniteville, reported expected utility draw 200 MW, serving utility Aiken Electric Cooperative, renewable-energy agreement); verified false for county permit identifiers, exact parcel, and confirmed IT-load capacity because no building permit number/issue date, certificate of occupancy, energization, or interconnection/tariff record was located.",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

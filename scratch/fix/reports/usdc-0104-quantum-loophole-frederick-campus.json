@@ -1,0 +1,19 @@
+{
+  "center": "usdc-0104-quantum-loophole-frederick-campus",
+  "issues_in": [
+    "Minor: none of the 7 actions entries carries a \"verified\" flag, so the brief's evidence_grade-vs-verified cross-check has no field to compare (\"verified\" appears in only 7 of ~230 "
+  ],
+  "fixed": [
+    "Added top-level `verified: true` to data.json (repo sibling convention: usdc-0031, usdc-0098, usdc-0096, usdc-0040, usdc-0099, usdc-0095, usdc-0105, usdc-0117) so the evidence_grade A- can be cross-checked against a verified flag.",
+    "Added `verification_notes` to data.json documenting that status/local-process facts are verified from official Frederick County and MDE sources, capacity 2.4 GW is the current Catellus campus-page (developer claim) figure per contradictions[1], and exact energized/live date, current building occupancy, and parcel-by-parcel MW allocation remain unverified and are not claimed.",
+    "Added a dated fix-pass bullet to the NOTES.md 2026-08-11 section documenting the verified flag addition and its semantics."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [],
+  "remaining_risks": [
+    "No sibling entry uses per-action `verified` flags; the repo-wide convention is a top-level boolean (optionally with verification_notes), so the flag was added at top level rather than to each of the 7 actions entries. If the parent prefers per-action flags, that would be a repo-wide convention change.",
+    "`verified: true` encodes that all stated facts are source-backed; capacity_mw 2400 rests on the Catellus developer page (evidence_grade A- / developer-claim tier per contradictions[1]). If the parent wants developer-sourced capacity to force verified=false, the value can be flipped."
+  ],
+  "json_valid": true,
+  "summary": "Added the missing top-level `verified` flag (true) plus `verification_notes` to data.json for usdc-0104, following the sibling-entry convention, so the evidence_grade-vs-verified cross-check now has a field to compare; documented the addition in NOTES.md 2026-08-11. data.json validated as JSON. No URL issues were part of this center's review issue."
+}

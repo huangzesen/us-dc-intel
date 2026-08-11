@@ -1,0 +1,20 @@
+{
+  "center": "usdc-0131-beale-infrastructure-tulsa-county-campus",
+  "issues_in": [
+    "NOTES.md 2026-08-11 refresh section (line 17) states 'verified: true for local-process/site-grading and incentive facts; verified: false for operational/energized status', but data.json carries no `verified` field (and no refresh-aligned `last_refreshed`), so the NOTES-documented verification policy is not encoded in the data."
+  ],
+  "fixed": [
+    "Added top-level \"verified\": false to data.json, reflecting the NOTES.md 2026-08-11 policy that operational/energized status is not verified.",
+    "Added top-level \"verification_notes\" string encoding the full NOTES.md 2026-08-11 policy: verified true for local-process/site-grading and incentive facts (TMAPC CZ-565/PUD-871/preliminary plat recommendation, 2025-09-03 TID conformance vote, Tulsa County incentive districts, 2026-03-04 staff report recording site grading in construction phase and Phase I building-permit applications submitted); verified false for operational/energized status because no certificate of occupancy, PSO service/interconnection completion, energization, or live IT-load record was located.",
+    "Added top-level \"last_refreshed\": \"2026-08-11\" to match the refreshed-sibling convention (e.g. usdc-0095, usdc-0040 carry \"last_refreshed\": \"2026-08-11\" and a top-level \"verified\" boolean).",
+    "Validated data.json parses as valid JSON after the edit (python3 json.load check passed)."
+  ],
+  "files_changed": ["data.json"],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The entry has no `history` array (pre-existing, not flagged for this center by the review); the 2026-08-11 status change is documented in NOTES.md and status_as_of_cutoff but not in a structured history entry - parent may decide whether to add one.",
+    "NOTES.md was not edited: it already states the verified policy, which is now encoded in data.json; no NOTES change was needed for this issue."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the only flagged issue for usdc-0131: NOTES.md's 2026-08-11 verified policy is now encoded in data.json via top-level verified:false, a verification_notes string mirroring the split policy (true for local-process/site-grading and incentive facts, false for operational/energized status), and last_refreshed:2026-08-11 per sibling convention. data.json validated as valid JSON; no URL issues were flagged for this center."
+}

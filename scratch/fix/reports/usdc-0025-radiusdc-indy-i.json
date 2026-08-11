@@ -1,0 +1,19 @@
+{
+  "center": "usdc-0025-radiusdc-indy-i",
+  "issues_in": [
+    "Status tier inconsistency: `status_as_of_cutoff` starts with the tier label \"approved-permitted\" but the entry itself and NOTES.md 2026-08-11 state no Improvement Location Permit, "
+  ],
+  "fixed": [
+    "data.json `status_as_of_cutoff`: qualified the tier label to \"approved-permitted (design-review / primary-plat level) as of 2026-08-11\" and clarified that the 2026-01-05 Plainfield Plan Commission action is local design-review (DP-25-088) and primary-plat (PP-25-094) approval only, with no Improvement Location Permit, building permit, construction start, energized service, or occupancy evidence located in this refresh (mirrors sibling convention in usdc-0009 / usdc-0084).",
+    "NOTES.md: added a dated 2026-08-11 re-check bullet to the ## 2026-08-11 refresh section documenting the status-label qualification with source URLs (Town of Plainfield project page, Plan Commission Projects index, staff report PDF)."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [],
+  "remaining_risks": [
+    "SKILL.md line 4 one-liner still reads \"no status\" (stale 2026-07-16 baseline text); the review issue did not flag SKILL.md for this center, so it was left untouched per brief - parent may decide to refresh it.",
+    "data.json has no `history` key (63 of 208 usdc entries lack it, e.g. usdc-0007, usdc-0026); the review did not flag history for this center, so it was left as-is to keep the fix scoped to the exact issue.",
+    "The inventory.json issue string for this center is truncated in the inventory itself (ends \"...state no Improvement Location Permit, \"); the intended full issue text was inferred from the entry and NOTES.md."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the status tier inconsistency by qualifying status_as_of_cutoff to \"approved-permitted (design-review / primary-plat level)\" with explicit prose that the 2026-01-05 Plan Commission action covered design review DP-25-088 and primary plat PP-25-094 only, and that no Improvement Location Permit, building permit, construction start, energized service, or occupancy evidence was located; added a dated 2026-08-11 NOTES.md bullet with source URLs. data.json validated as valid JSON after the edit; no URL spot-checks were needed because no URL issue was flagged for this center."
+}

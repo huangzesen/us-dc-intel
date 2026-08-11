@@ -1,0 +1,21 @@
+{
+  "center": "usdc-0130-anthem-data-centers-tulsa",
+  "issues_in": [
+    "SKILL.md stale vs refreshed data.json (legacy sync item, not a refresh error): SKILL.md 一句话 still reads 'Provisional planning lead only; no primary government, utility, or develope..."
+  ],
+  "fixed": [
+    "Updated SKILL.md 一句话 (line 4) to match the 2026-08-11 refreshed data.json: replaced the stale 'Provisional planning lead only; no primary government, utility, or developer record was located' with 'Site work-construction as of 2026-08-11: Meta announced the Tulsa Data Center (Project Anthem) groundbreaking on 2026-04-21, and TMAPC approved a Project Anthem accelerated release of a building permit on 2026-05-20; official developer announcement plus city planning, council, and utility records (no official MW capacity located)' — mirrors status_as_of_cutoff, evidence_grade 'A', and contradictions[1] (capacity_mw null).",
+    "Validated dc/usdc-0130-anthem-data-centers-tulsa/data.json parses as valid JSON after the edit (python3 json.load) — no data.json changes were needed for this issue."
+  ],
+  "files_changed": [
+    "SKILL.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "Issue inventory string is itself truncated (ends mid-word 'develope'); interpretation confirmed against SKILL.md line 4 and data.json history[0].",
+    "SKILL.md 位置 section is still partially stale relative to data.json: 地址/地块 line is empty while data.json carries '21304 E 11th St, Catoosa, OK 74015', and County still reads Tulsa while data.json was refreshed to Wagoner (2026-08-11 contradictions entry). Left untouched because the review issue named only the 一句话; parent may want a follow-up sync.",
+    "No URL spot-checks run: the listed issue is a content-sync item, not a source-reachability item."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single assigned issue for usdc-0130: synced the stale SKILL.md 一句话 with the 2026-08-11 refreshed data.json state (site work-construction; Meta 2026-04-21 groundbreaking; TMAPC 2026-05-20 accelerated building-permit release; official sources; no official MW). data.json verified valid JSON and unchanged. Remaining minor SKILL.md location-line drift (address/county) flagged for parent decision."
+}

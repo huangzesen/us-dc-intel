@@ -69,9 +69,9 @@
         "title": "Google Data Centers - South Carolina location page"
       },
       {
-        "url": "https://www.dorchestercountysc.gov/business/data-center-fact-sheet",
+        "url": "https://web.archive.org/web/20260729100110/https://www.dorchestercountysc.gov/business/data-center-fact-sheet",
         "date": "2026-08-11",
-        "title": "Dorchester County Data Center Fact Sheet"
+        "title": "Dorchester County Data Center Fact Sheet (Wayback Machine capture 2026-07-29; live page blocks automated fetchers with HTTP 403)"
       },
       {
         "url": "https://governor.sc.gov/news/2024-09/google-grows-south-carolina-footprint-new-dorchester-county-operations-expansion",
@@ -145,6 +145,11 @@
           "field": "location.county",
           "from": "Berkeley",
           "to": "Dorchester"
+        },
+        {
+          "field": "sources.urls (Dorchester County Data Center Fact Sheet URL)",
+          "from": "https://www.dorchestercountysc.gov/business/data-center-fact-sheet",
+          "to": "https://web.archive.org/web/20260729100110/https://www.dorchestercountysc.gov/business/data-center-fact-sheet"
         }
       ]
     }

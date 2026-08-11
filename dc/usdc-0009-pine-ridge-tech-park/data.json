@@ -35,6 +35,12 @@
       "field": "location.address",
       "value": null,
       "reason": "Superseded by official Twiggs County notice and ordinance identifying parcel T047-001 at 7015 Adams Park Road."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "actions[3].primary_url",
+      "value": "https://www.gpb.org/news/2025/09/19/rural-twiggs-county-approves-rezoning-for-a-data-center-city-sized-appetite-for-power",
+      "reason": "Fix pass 2026-08-11: the prior GPB slug variant ('...approves-rezoning-for-a-data-center-...') returned HTTP 404 (verified via web fetch 2026-08-11); replaced with the canonical GPB slug for the same article ('...approves-rezoning-for-data-center-...'), which returns HTTP 200. sources.refresh_2026_08_11 and the capacity_mw contradictions entry already used the canonical slug, so all references now point to one working URL."
     }
   ],
   "actions": [
@@ -82,7 +88,7 @@
       "result_status": "Local reporting said the county approved rezoning for a proposed data center. This is now corroborated at the approval level by official Ordinance No. 013, though the local report's statement that the vote was unanimous remains press-reported because the accessible ordinance does not publish a vote tally.",
       "vote_tally": "reported as unanimous by GPB / Macon Telegraph video reference; not stated in accessible ordinance PDF",
       "case_or_ordinance_permit_number": null,
-      "primary_url": "https://www.gpb.org/news/2025/09/19/rural-twiggs-county-approves-rezoning-for-a-data-center-city-sized-appetite-for-power",
+      "primary_url": "https://www.gpb.org/news/2025/09/19/rural-twiggs-county-approves-rezoning-for-data-center-city-sized-appetite-for-power",
       "access_caveat": "Press report; no vote inferred from the headline or report.",
       "evidence_note": "Press corroboration and power/timeline context; construction remains unverified."
     },

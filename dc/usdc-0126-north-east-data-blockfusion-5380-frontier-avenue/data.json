@@ -115,6 +115,35 @@
       "capacity_mw": null,
       "owner": null,
       "note": "Baseline extraction had no independent status, capacity, or owner verification."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "status_as_of_cutoff",
+      "previous_value": null,
+      "new_value": "partial live",
+      "reason": "2026-08-11 refresh: Blockfusion/Blue 2025-11-19 PR and SEC investor presentation/script describe the Niagara Facility as energized/operating ~46-50 MW; expansion remains local SEQR/HEU process, interconnection queue, and announced LOI. Baseline NOTES.md section recorded 'no status'."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "capacity_mw",
+      "previous_value": null,
+      "new_value": {
+        "current_energized_mw": 46,
+        "current_operating_mw_alt": 50,
+        "planned_tier3_mw": 100,
+        "anchor_lease_loi_mw": 300,
+        "anchor_lease_take_or_pay_mw": 85,
+        "interconnection_queue_mw": 500,
+        "notes": "Use 46-50 MW as current energized/operating capacity; treat 100+ MW, 300 MW, 85 MW take-or-pay, and 500 MW as distinct planned/LOI/queue figures, not confirmed built capacity."
+      },
+      "reason": "2026-08-11 refresh: capacity recorded as distinct current/planned/LOI/queue figures (company PR, SEC presentation, 300 MW LOI announcement, NYSRC DER report), not a single confirmed number."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "owner",
+      "previous_value": null,
+      "new_value": "North East Data LLC (Blockfusion USA, Inc. subsidiary)",
+      "reason": "2026-08-11 refresh: owner confirmed via Niagara County PROS parcel record and company/SEC disclosures."
     }
   ],
   "seed_only": false,

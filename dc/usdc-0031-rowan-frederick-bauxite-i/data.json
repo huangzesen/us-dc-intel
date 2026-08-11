@@ -140,5 +140,7 @@
     }
   ],
   "seed_only": false,
+  "verified": false,
+  "verification_notes": "Mirrors NOTES.md 2026-08-11 refresh: official records (MDE 2025-12-31 construction-compliance letter, MDE 2026-03-25 final air-quality permit for Amazon Data Services, Inc., Frederick County site-plan records) verify the construction/permitted status layer, but Bauxite I IT capacity remains unresolved across 231 MW (DCD/Cleanview), 300 MW (Rowan Frederick community page), and Bauxite I-II-III aggregate 600 MW / more than 630 MW (rowan.digital) figures, and no building permit, certificate of occupancy, utility energization, or first IT-load record was located. evidence_grade A- reflects the strong official sourcing for the status/permit/construction facts; verified:false reflects the documented, unresolved capacity contradiction (see contradictions[0]) and missing operational evidence.",
   "baseline_sha": "2113de4b0a3455288dc010fcf731fca2aa127d7faa02cfd7418950716b1d1b9a"
 }

@@ -1,0 +1,29 @@
+{
+  "center": "usdc-0005-project-sail-atlas-development-prologis-coweta-campus",
+  "issues_in": [
+    "Minor: NOTES.md 2026-08-11 section cites an AJC URL (https://www.ajc.com/business/2026/04/coweta-votes-to-turn-this-800-acre-forest-into-17b-data-center-campus/) as rezoning corrob",
+    "Full review text (from raw review report): Minor: NOTES.md 2026-08-11 section cites an AJC URL (https://www.ajc.com/business/2026/04/coweta-votes-to-turn-this-800-acre-forest-into-17b-data-center-campus/) as rezoning corroboration, but that URL is not listed in data.json sources.refresh_2026_08_11 (nor anywhere in sources).",
+    "Raw review also flagged: Required schema key `status_history` is missing from data.json (file uses `history`) - NOT actionable per fix-brief.md, which declares the review's `status_history` naming a brief error and names `history` as the canonical key; no rename performed."
+  ],
+  "fixed": [
+    "Verified AJC URL live (HTTP 200; 2026-04-08 article by Zachary Hansen confirms Coweta BOC 3-2 rezoning vote on 2026-04-07 for ~800+ acres / $17B / Prologis / 9-building Project Sail campus).",
+    "data.json: added the AJC URL to sources.refresh_2026_08_11 so the NOTES.md citation is mirrored in data.json sources (11 refresh URLs now).",
+    "NOTES.md: appended a dated (fix pass 2026-08-11) bullet to the ## 2026-08-11 section documenting the AJC URL live-check result and its addition to data.json sources.",
+    "data.json re-validated as valid JSON after the edit."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {
+      "url": "https://www.ajc.com/business/2026/04/coweta-votes-to-turn-this-800-acre-forest-into-17b-data-center-campus/",
+      "status": 200,
+      "action": "kept"
+    }
+  ],
+  "remaining_risks": [
+    "The inventory.json issue string for this center is truncated at source (180 chars, ends mid-word 'corrob'); full text recovered from the raw review report (parent workdir scratch/us-dc-review/usdc-0005-project-sail-atlas-development-prologis-coweta-campus.json).",
+    "The raw review's other FLAG (missing `status_history` key) is a review-brief artifact per fix-brief.md (canonical history key is `history`); intentionally not changed.",
+    "AJC article body is partially paywalled/garbled in the fetcher output, but headline, deck, and first paragraphs unambiguously confirm the 3-2 rezoning vote and outcome."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single actionable review issue for USDC-0005: the AJC article cited in NOTES.md 2026-08-11 as rezoning corroboration was verified live (HTTP 200; confirms the 2026-04-07 3-2 REZ 24-19 vote) and added to data.json sources.refresh_2026_08_11, with a dated NOTES.md note documenting the check and addition. data.json remains valid JSON; the review's `status_history` flag is a declared brief artifact and was not applied."
+}

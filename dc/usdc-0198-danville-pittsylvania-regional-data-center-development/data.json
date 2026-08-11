@@ -90,7 +90,6 @@
     "planned_fte_jobs_period_years": 20,
     "planned_average_annual_compensation_usd": 80500,
     "reported_construction_workers_peak": "2,000-4,000",
-    "reported_construction_duration": "12-18+ years",
     "reported_grid_capacity_condition_mw": 299,
     "reported_grid_capacity_condition_date": "2028-12-31",
     "utility": "Appalachian Power Company",
@@ -108,6 +107,12 @@
       "field": "owner",
       "value": null,
       "reason": "Updated to STACK Infrastructure / SAC III Acquisition Co., LLC based on official RIFA minutes and local reporting."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "project_details",
+      "value": "reported_construction_workers_peak retained with traceable source; reported_construction_duration removed as untraceable.",
+      "reason": "Fix pass: peak construction workforce of 2,000-4,000 traced to WDBJ 2026-04-30 quoting Pittsylvania County Economic Development Director Matt Rowe (https://www.wdbj7.com/2026/04/30/new-details-massive-data-center-planned-pittsylvania-county/). The '12-18+ years' construction-duration figure had no traceable source and was removed; closest sourced figures are a 15-30 year campus development timeframe (Construction Review Online 2026-07-22) and three construction phases with closings no later than June 2027 / before June 2031 (Cardinal News 2026-06-30, DCD 2026-05-20)."
     }
   ],
   "sources": {
@@ -126,7 +131,9 @@
       "https://cardinalnews.org/2026/06/30/stack-infrastructure-says-its-moving-forward-with-ai-data-center-in-pittsylvania/",
       "https://www.wbtmdanville.com/2026/07/22/pittsylvania-county-board-of-supervisors-approves-data-center-project/",
       "https://www.wakg.com/2026/03/09/danville-pittsylvania-rifa-approves-sale-of-land-at-megasite-to-company-affiliated-with-data-centers/",
+      "https://www.wdbj7.com/2026/04/30/new-details-massive-data-center-planned-pittsylvania-county/",
       "https://www.datacenterdynamics.com/en/news/stack-commits-735bn-investment-into-data-center-campus-in-berry-hill-virginia/",
+      "https://constructionreviewonline.com/southside-virginia-advances-historic-100b-berry-hill-data-center-campus-despite-resident-pushback/",
       "https://cleanview.co/data-centers/virginia/2234/stack-berry-hill",
       "https://baxtel.com/data-center/stack-berry-hill-megasite"
     ]

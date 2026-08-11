@@ -1,0 +1,29 @@
+{
+  "center": "usdc-0043-meta-kansas-city-northland-campus",
+  "issues_in": [
+    "NOTES/data.json mirror gap: the ## 2026-08-11 refresh section documents 'infrastructure follow-through: Kansas City Ordinance No. 240917, passed November 7, 2024, included Water Fund appropriations for \"M-22-15, WME - Project Velvet\" and related water-main replacement lines' (source: https://kansascity.legistar.com/...) but data.json does not mirror this action in actions[] nor its URL in sources.evidence_urls. (Note: the inventory.json issue string is itself truncated at 180 chars; intent is unambiguous from context.)"
+  ],
+  "fixed": [
+    "Added actions[] entry dated 2024-11-07 to data.json: Kansas City, Missouri City Council passed Ordinance No. 240917 including Water Fund appropriations for \"M-22-15, WME - Project Velvet\" and related water-main replacement lines (action_type: water infrastructure funding ordinance), with primary_url = legistar URL and evidence_note tying it to Project Velvet at Golden Plains Technology Park.",
+    "Added the legistar URL (Ordinance No. 240917) to data.json sources.evidence_urls so data.json now mirrors all URLs documented in the NOTES.md 2026-08-11 refresh section.",
+    "Corrected data.json history[0].date from 2026-07-16 (baseline date) to 2026-08-11: the entry records the 2026-08-11 refresh change (reason_replaced explicitly cites the 2026-08-11 refresh), so the date now matches the refresh date per fix-brief guidance type 4.",
+    "Added a dated sync note to the NOTES.md ## 2026-08-11 section documenting that data.json was updated to mirror the section (new actions[] entry, evidence_urls addition, history date correction)."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {"url": "https://kansascity.legistar.com/LegislationDetail.aspx?From=RSS&FullText=1&G=D2E89A09-8736-4EFB-B4AE-572E0903BD5A&GUID=E9253B41-D5DF-44DA-AAE9-EB3438B0DFC1&ID=6890129", "status": 200, "action": "kept"},
+    {"url": "https://about.fb.com/news/2025/08/metas-kansas-city-data-center/", "status": 200, "action": "kept"},
+    {"url": "https://datacenters.atmeta.com/2022/03/hello-kansas-city/", "status": 200, "action": "kept"},
+    {"url": "https://clerk.kcmo.gov/LegislationDetail.aspx?GUID=B4B56878-A985-43D7-A86E-1C499DF6EC99&ID=5140162&Options=&Search=", "status": 200, "action": "kept"},
+    {"url": "https://dnr.mo.gov/air/business-industry/air-permits/velvet-tech-services-llc-kansas-city-042024-001", "status": 200, "action": "kept"},
+    {"url": "https://ded.mo.gov/press-room/google-deepens-missouri-roots-15-billion-community-investment-montgomery-county", "status": 200, "action": "kept"}
+  ],
+  "remaining_risks": [
+    "The inventory.json issue string for this center is truncated at 180 characters ('...included Water Fu'); the fix was applied per the unambiguous intent (NOTES 2026-08-11 documents Ordinance No. 240917 infrastructure follow-through missing from data.json). I did not modify inventory.json (outside my write scope).",
+    "history[0].date correction (2026-07-16 -> 2026-08-11) is a consistency fix beyond the literal mirror-gap text but squarely within fix-brief guidance type 4 (history date not synced to refresh date); flagging for parent visibility.",
+    "capacity_mw remains null and full-buildout remains unverified: pre-existing, documented evidence gaps in both NOTES.md and data.json; not part of this issue and not changed.",
+    "missouridatacenters.org and the second clerk.kcmo.gov URL were not re-checked this pass (not part of the issue); no dead-URL claims made for them."
+  ],
+  "json_valid": true,
+  "summary": "Closed the NOTES/data.json mirror gap for USDC-0043: added the 2024-11-07 Kansas City Ordinance No. 240917 (Water Fund appropriations for M-22-15 WME - Project Velvet) action to actions[] and its legistar URL to sources.evidence_urls (verified HTTP 200), corrected history[0].date to the 2026-08-11 refresh date, and documented the sync in NOTES.md. data.json validates as JSON after edits."
+}

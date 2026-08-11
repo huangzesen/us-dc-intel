@@ -1,0 +1,33 @@
+{
+  "center": "usdc-0026-heartland-industrial-park-potentia-sullivan-county-campus",
+  "issues_in": [
+    "source URL hard-fail: https://www.businesswire.com/news/home/20260423900539/en/Potentia-Begins-Construction-on-Major-Infrastructure-Development-at-Heartland-Industrial-Park-in-Sull"
+  ],
+  "fixed": [
+    "Replaced the hard-failing businesswire URL (HTTP 403 on both HEAD and GET from curl with browser UA and from the web fetcher; businesswire.com bot protection) in data.json actions[4].source_url and sources.urls with the verified official Potentia Inc. press-release page https://potentia.inc/news/heartland-construction-begins/ (HTTP 200, fetched 2026-08-11). Verified same-announcement content: April 23, 2026, $65B total tenant/partner investment by 2030, 2,750 construction jobs, 500+ permanent jobs, Phase 1 tenant commitments, no tax abatements, 100% self-funded power infrastructure, closed-loop water, no conventional backup diesel generators; page footer links 'View source version on businesswire.com', confirming it is the first-party version of the same release.",
+    "Replaced the 3 businesswire URL references in NOTES.md 2026-08-11 section with the potentia.inc URL and appended a dated 2026-08-11 fix-pass note documenting the swap (403 cause, replacement verification status, and files touched)."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://www.businesswire.com/news/home/20260423900539/en/Potentia-Begins-Construction-on-Major-Infrastructure-Development-at-Heartland-Industrial-Park-in-Sullivan-County-Indiana",
+      "status": 403,
+      "action": "replaced"
+    },
+    {
+      "url": "https://potentia.inc/news/heartland-construction-begins/",
+      "status": 200,
+      "action": "replaced"
+    }
+  ],
+  "remaining_risks": [
+    "data.json carries a `status_history` key whereas the fix brief names the canonical history key `history`; left untouched per the brief's 'do NOT rename' instruction because no issue in this center's list flags it (noted for parent awareness).",
+    "SKILL.md one-liner/location are stale relative to the 2026-08-11 refresh ('no status'; location not pinned), but no issue in this center's list requires a SKILL.md edit, so per the brief it is left for the parent to decide.",
+    "businesswire.com itself continues to block automated fetches (403) even though the content is live; replacement uses Potentia's official first-party page for the same announcement."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the sole flagged issue: the hard-failing businesswire construction-announcement URL (HTTP 403) was replaced in data.json (actions[4].source_url and sources.urls) and NOTES.md with the verified official Potentia Inc. press-release page https://potentia.inc/news/heartland-construction-begins/ (HTTP 200, same 2026-04-23 announcement), and a dated swap note was appended to NOTES.md. data.json re-validated as valid JSON after the edits."
+}

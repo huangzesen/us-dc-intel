@@ -1,0 +1,24 @@
+{
+  "center": "disc017-powerhouse-poe-companies-louisville-hyperscale-campus",
+  "issues_in": [
+    "Minor status-label tension: status field \"approved-permitted; first 130 MW targeted October 2026; no official construction or energization confirmation found\" conflicts with the co"
+  ],
+  "fixed": [
+    "Aligned data.json `status` from \"approved-permitted; first 130 MW targeted October 2026; no official construction or energization confirmation found\" to \"approved (Louisville Planning Commission 2026-03-05, 6-1 vote); first 130 MW targeted October 2026; no building permit, construction, or energization confirmation found\" so the label no longer claims a permit that the sources do not support.",
+    "Synced history[1].updated_value to the aligned status text and updated history[1].reason to document the alignment (LPM 2026-03-05 reports the Planning Commission approved revised development plans 6-1; no building permit located; label was \"approved-permitted\").",
+    "Added a dated NOTES.md 2026-08-11 (fix pass) section explaining the status-label tension, the fix, and citing the source URLs (LPM article, louisvilledatacenter.com, PowerHouse news page)."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {"url": "https://www.lpm.org/news/2026-03-05/west-louisville-data-center-approved-despite-opposition", "status": 200, "action": "kept"},
+    {"url": "https://louisvilledatacenter.com/", "status": 200, "action": "kept"},
+    {"url": "https://www.powerhousedata.com/news/powerhouse-data-centers-and-poe-companies-partner-to-develop-kentuckys-first-hyperscale-data-center-campus", "status": 200, "action": "kept"}
+  ],
+  "remaining_risks": [
+    "The inventory issue string itself is truncated (ends mid-phrase \"conflicts with the co...\"); the fix was applied per brief type-1 guidance (status/evidence mismatch) using the entry's contradictions[1] and NOTES.md as the referenced conflict.",
+    "No official building permit, construction start, energization, or operational evidence was found (unchanged by this fix); status remains qualified accordingly and does not upgrade to site work-construction.",
+    "This disc entry has no top-level `verified` flag; the canonical disc schema in the brief does not require one and the issue did not raise it, so none was added."
+  ],
+  "json_valid": true,
+  "summary": "Resolved the disc017 status-label tension by aligning `status` (and history[1]) from \"approved-permitted\" to the evidence-backed \"approved (Louisville Planning Commission 2026-03-05, 6-1 vote)\" wording, explicitly noting no building permit/construction/energization confirmation was found. NOTES.md received a dated fix-pass entry with source URLs; data.json validated as JSON after edits and all three referenced sources return HTTP 200."
+}

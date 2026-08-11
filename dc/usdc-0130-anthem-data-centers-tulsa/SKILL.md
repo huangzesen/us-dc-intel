@@ -1,7 +1,7 @@
 # USDC-0130 — Anthem Data Centers Tulsa
 
 ## 一句话
-Provisional planning lead only; no primary government, utility, or developer record was located
+Site work-construction as of 2026-08-11: Meta announced the Tulsa Data Center (Project Anthem) groundbreaking on 2026-04-21, and TMAPC approved a Project Anthem accelerated release of a building permit on 2026-05-20; official developer announcement plus city planning, council, and utility records (no official MW capacity located)
 
 ## 位置
 - City: Tulsa

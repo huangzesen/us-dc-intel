@@ -1,0 +1,24 @@
+{
+  "center": "usdc-0116-nebius-dataone-vineland-ai-facility",
+  "issues_in": [
+    "Minor/schema-heterogeneity (informational, not factual error): the entry has no `verified` / `verification_notes` / `last_refreshed` fields, so evidence_grade 'A-' cannot be cross- (string truncated in inventory.json at this point; intent: cross-checked against a data.json verification field)"
+  ],
+  "fixed": [
+    "Added top-level `verified: true` to data.json (matches sibling convention: usdc-0095 with identical status tier site work-construction and evidence_grade A- also uses verified: true)",
+    "Added top-level `verification_notes` to data.json stating exactly what is verified (official City of Vineland Planning Board notice PDFs 2026-03-16/2026-07-24/2026-08-07 plus Nebius announcements/microsite, source-backing status, parcel, scope, capacity/tenant facts) and what remains unverified (final Planning Board determination, building permit closeout, certificate of occupancy, utility interconnection/energization, live IT-load record)",
+    "Added top-level `last_refreshed: \"2026-08-11\"` to data.json (matches refreshed sibling entries, e.g. usdc-0095, usdc-0098)",
+    "Added a dated bullet to NOTES.md ## 2026-08-11 section documenting the schema alignment so evidence_grade 'A-' can now be cross-checked, and clarifying that `verified: true` covers only source-backed facts while final approval/CO/energization/live IT-load remain unverified"
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "No URL spot-checks were required for this issue (schema-heterogeneity only); existing sources unchanged and were not re-verified in this pass.",
+    "The inventory issue string is truncated mid-word ('cannot be cross-'); the fix applies the evident intent (add verification fields) and was validated against sibling conventions.",
+    "`verified: true` is a judgment call: it covers source-backed status facts; the approval/construction/energization tails explicitly remain unverified and are flagged in verification_notes and contradictions. Parent may adjust the boolean if a stricter policy is preferred."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the schema-heterogeneity issue for usdc-0116 by adding top-level `verified: true`, `verification_notes`, and `last_refreshed: 2026-08-11` fields to data.json (aligned with refreshed siblings usdc-0095/usdc-0098 and the verification_notes pattern of usdc-0117), and documenting the alignment in NOTES.md's 2026-08-11 section. data.json validated as JSON after the edit; no deletions or git operations performed; no URLs touched."
+}

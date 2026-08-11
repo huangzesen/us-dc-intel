@@ -116,6 +116,18 @@
         "state": "Texas"
       },
       "note": "Baseline value before 2026-08-11 refresh."
+    },
+    {
+      "date": "2026-08-11",
+      "status_as_of_cutoff": "partial live: IREN announced Sweetwater 1 1.4GW high-voltage substation energization on 2026-05-01, with power delivery expected to ramp as data centers are constructed and commissioned; IREN's current Sweetwater page lists the 2,000 MW campus and both Sweetwater 1 and 2 as under construction.",
+      "capacity_mw": 2000,
+      "owner": "IREN Limited",
+      "location": {
+        "city": "Sweetwater",
+        "county": "Fisher",
+        "state": "Texas"
+      },
+      "note": "2026-08-11 refresh: status promoted to partial live based on IREN's 2026-05-01 Sweetwater 1 1.4GW high-voltage substation energization announcement (ERCOT grid connection); capacity_mw set to 2,000 and owner to IREN Limited from IREN's current Sweetwater page (iren.com/data-centers/sweetwater); location county updated to Fisher per DCD/KTXS reporting, with the Nolan County baseline view retained as a tracked contradiction in contradictions[0]."
     }
   ],
   "seed_only": false,

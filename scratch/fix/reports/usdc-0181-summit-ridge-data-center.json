@@ -1,0 +1,40 @@
+{
+  "center": "usdc-0181-summit-ridge-data-center",
+  "issues_in": [
+    "Source spot-check hard-fail (review-brief item 4): lightweight GET returned 403 for https://www.datacenterdynamics.com/en/news/20mw-off-grid-data-center-planned-outside-salt-lake-c"
+  ],
+  "fixed": [
+    "Replaced the bot-blocked Data Center Dynamics article URL in sources.refresh_2026_08_11 with the article's Wayback Machine snapshot (web.archive.org/web/20260130151256/https://www.datacenterdynamics.com/en/news/20mw-off-grid-data-center-planned-outside-salt-lake-city-utah/, verified HTTP 200, contains full DCD 2026-01-30 article) and added Fox13Now open-house coverage (https://www.fox13now.com/news/local-news/utah-county/summit-ridge-data-center-sparks-debate-in-santaquin-over-power-water-and-pollution, verified HTTP 200).",
+    "Replaced the DCD URL in contradictions[0].sources (capacity_mw) with the Wayback Machine snapshot of the same DCD article (which states '20MW+ project ... Data Center Power Company').",
+    "Replaced the DCD URL in contradictions[1].sources (status) with the Wayback Machine snapshot plus Fox13Now (which reports 'there's still no groundbreaking date as of yet'), keeping the no-construction-start claim source-backed.",
+    "Annotated both contradiction descriptions with the Wayback access method for the DCD article and Fox13Now corroboration for the status claim.",
+    "Appended a history entry (2026-08-11) to data.json documenting the URL swap.",
+    "Appended a dated bullet to the NOTES.md 2026-08-11 section documenting the swap with both replacement URLs (kept historical refresh bullets intact)."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {"url": "https://www.datacenterdynamics.com/en/news/20mw-off-grid-data-center-planned-outside-salt-lake-city-utah/", "status": 403, "action": "replaced"},
+    {"url": "https://web.archive.org/web/20260130151256/https://www.datacenterdynamics.com/en/news/20mw-off-grid-data-center-planned-outside-salt-lake-city-utah/", "status": 200, "action": "kept"},
+    {"url": "https://www.fox13now.com/news/local-news/utah-county/summit-ridge-data-center-sparks-debate-in-santaquin-over-power-water-and-pollution", "status": 200, "action": "kept"},
+    {"url": "https://www.abc4.com/news/wasatch-front/santaquin-data-center-residents-blindsided/", "status": 403, "action": "not_used"},
+    {"url": "https://www.datacenterdynamics.com/en/tags/summit-ridge-data-center/", "status": 403, "action": "not_used"},
+    {"url": "https://www.utah.gov/pmn/files/1444799.pdf", "status": 200, "action": "kept"},
+    {"url": "https://www.utah.gov/pmn/files/1170179.pdf", "status": 200, "action": "kept"},
+    {"url": "https://www.utah.gov/pmn/sitemap/notice/1007619.html", "status": 200, "action": "kept"},
+    {"url": "https://www.utah.gov/pmn/files/1303157.pdf", "status": 200, "action": "kept"},
+    {"url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/santaquin-meet-de0befe157cf4ce5ac2cc0197b7d2deb/ITEM-Attachment-001-18216f8b76e34bb9a53aefdb545bae7b.pdf", "status": 200, "action": "kept"},
+    {"url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/santaquin-meet-ef5b449f222c4bacb9f966de685f51f0/ITEM-Attachment-001-f19c917d246c4b518ce1ea7ba604150a.pdf", "status": 200, "action": "kept"},
+    {"url": "https://www.ksl.com/article/51442989/some-santaquin-residents-raise-concerns-over-approval-of-future-data-center", "status": 200, "action": "kept"},
+    {"url": "https://cleanview.co/data-centers/utah/2075/summit-ridge-data-center", "status": 200, "action": "kept"},
+    {"url": "https://www.datacentermap.com/usa/utah/santaquin/summit-ridge-data-center/", "status": 429, "action": "kept"},
+    {"url": "https://www.linkedin.com/posts/dan-staff-a0b795268_update-200mw-offgrid-data-center-planned-activity-7424059063530954752-2-kh", "status": 200, "action": "kept"}
+  ],
+  "remaining_risks": [
+    "The live DCD article URL still returns 403 to automated clients (bot-protection, article itself exists); the Wayback Machine snapshot is now the cited access path and its availability depends on archive.org.",
+    "DataCenterMap returned HTTP 429 (rate-limited) on spot-check, not a dead link; kept as-is since the review did not flag it.",
+    "Historical NOTES.md refresh bullets (lines 10-14) still cite the original DCD URL as the record of what was used on 2026-08-11; left intact as history, with the new bullet documenting the swap.",
+    "ABC4 article (same open house) was also bot-blocked (403) and therefore not added as a replacement."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue (403 on the Data Center Dynamics source URL) by swapping in the article's verified Wayback Machine snapshot in sources and both contradictions, plus a working Fox13Now local-news source for the no-construction-start claim. Added a data.json history entry and a NOTES.md dated note documenting the swap; data.json validates as JSON and no bare dead URL remains."
+}

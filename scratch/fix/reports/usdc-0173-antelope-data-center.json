@@ -1,0 +1,22 @@
+{
+  "center": "usdc-0173-antelope-data-center",
+  "issues_in": [
+    "actions[0] (2026-05-26, Grand County Planning Commission 'government data-center inventory') result_status misquotes the cited source: it states the inventory lists Antelope 'as pr"
+  ],
+  "fixed": [
+    "Corrected data.json actions[0].result_status: changed the misquoted capacity '1,000 MW' to the actual figure '1,500 MW' found in the cited source (Grand County Planning Commission data-center staff report Addendum A, Utah Data Center Inventory, status as of May 2026: 'Antelope Data Center / Nr. Cedar City (Iron Co.) / Pronghorn Development LLP / 1,500 MW / PROPOSED'); also added the inventory's as-of date for precision.",
+    "Added a data.json history entry (date 2026-08-11, field actions[0].result_status, old_value/new_value/reason) documenting the misquote correction, matching sibling refreshed-entry history format.",
+    "Added a dated correction bullet to NOTES.md ## 2026-08-11 section documenting the 1,000 MW -> 1,500 MW fix with the source URL https://www.utah.gov/pmn/files/1444799.pdf.",
+    "Verified the cited source URL is live (HTTP 200, 2.6 MB PDF) and confirmed its actual content via pdftotext extraction; no URL swap needed."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [
+    {"url": "https://www.utah.gov/pmn/files/1444799.pdf", "status": 200, "action": "kept"}
+  ],
+  "remaining_risks": [
+    "The inventory.json issue string itself is truncated mid-sentence ('...lists Antelope 'as pr') in the review inventory; the fix addresses the clearly implied misquote (capacity 1,000 MW vs actual 1,500 MW), which was confirmed by direct PDF inspection.",
+    "The Grand County inventory is a third-party-compiled list (sources: Cleanview, ABC4, Baxtel, etc.), not an Iron County official record; result_status already notes it supplies no Iron County entitlement/permit."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for usdc-0173-antelope-data-center: actions[0].result_status misquoted the cited Grand County inventory PDF (claimed 1,000 MW; the PDF's Addendum A actually lists Antelope Data Center at 1,500 MW PROPOSED with Pronghorn Development LLP). Corrected the text in data.json, added a history entry, and documented the correction in NOTES.md 2026-08-11; the source URL was verified live (HTTP 200). data.json validates as JSON after edits."
+}

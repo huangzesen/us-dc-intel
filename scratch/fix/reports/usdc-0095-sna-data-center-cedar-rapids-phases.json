@@ -1,0 +1,22 @@
+{
+  "center": "usdc-0095-sna-data-center-cedar-rapids-phases",
+  "issues_in": [
+    "Minor: `seed_only` is true and sources.authoritative_layer is 'phase2_seed_only' even though the 2026-08-11 refresh added 8 dated URLs plus a full actions/contradictions/campus_scope/owner/location dataset (inventory.json string is truncated mid-sentence at '...campus_sco' in the source file; substance is unambiguous)."
+  ],
+  "fixed": [
+    "data.json: changed sources.authoritative_layer from 'phase2_seed_only' to 'phase3_project_action_layer', matching the refreshed sibling convention (e.g. usdc-0009, usdc-0086).",
+    "data.json: changed seed_only from true to false, since the 2026-08-11 refresh added 8 dated URLs plus full actions/contradictions/campus_scope/owner/location and the entry is no longer seed-only.",
+    "data.json: appended a history entry (2026-08-11, field seed_only, old_value true -> new_value false, source https://www.economicdevelopmentcr.com/data-centers) per the entry's local history schema.",
+    "NOTES.md: added a dated fix-pass note under the 2026-08-11 section documenting the seed_only/authoritative_layer correction and its rationale.",
+    "Validated data.json parses as valid JSON after edits (python3 json.load)."
+  ],
+  "files_changed": ["data.json", "NOTES.md"],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The inventory.json issue string for this center is itself truncated in the source file (ends mid-sentence at 'campus_sco'); the fix was applied to the unambiguous visible substance (stale seed_only/authoritative_layer vs. refreshed content), which is fully consistent with the entry's data and NOTES.md.",
+    "No URL reachability re-check performed: the issue flagged no URLs (none of the 8 refresh URLs was reported dead); all sources were validated during the 2026-08-11 refresh.",
+    "SKILL.md not modified (issue did not require it)."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the stale provenance metadata for USDC-0095: seed_only set true->false and sources.authoritative_layer updated from phase2_seed_only to phase3_project_action_layer, consistent with refreshed sibling entries, with a history entry and a dated NOTES.md note added. data.json validated as valid JSON. No URLs were flagged or re-checked."
+}

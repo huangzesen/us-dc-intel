@@ -1,0 +1,41 @@
+{
+  "center": "usdc-0138-aws-boardman-morrow-county-five-building-expansion",
+  "issues_in": [
+    "Source URL https://www.tricitiesbusinessnews.com/articles/amazon-plans-another-data-center-southwest-of-tricities returns HTTP 404 (confirmed via curl GET and web browse; hard-fail"
+  ],
+  "fixed": [
+    "Confirmed the flagged URL is genuinely dead: curl HEAD and GET both returned HTTP 404 on 2026-08-11 retry.",
+    "Found and verified a working replacement: https://www.tricitiesbusinessnews.com/articles/amazon-plans-another-data-center-southwest-of-tri-cities (HTTP 200 via curl; web browse confirmed title 'Amazon plans another data center southwest of Tri-Cities' by Ty Beaver on the same publisher). The dead slug 'tricities' is a site-side rename of the live canonical slug 'tri-cities' for the same article.",
+    "Replaced the dead URL in data.json sources.refresh_2026_08_11 with the live canonical URL.",
+    "Updated NOTES.md 2026-08-11 section: swapped the dead URL in the related-context source list (LUD-N-089-25 / PDX 154, Tax Lot 136) and added a dated 'source swap (fix pass 2026-08-11)' bullet documenting the 404 and the replacement.",
+    "Validated data.json parses as valid JSON after the edit."
+  ],
+  "files_changed": [
+    "data.json",
+    "NOTES.md"
+  ],
+  "urls_checked": [
+    {
+      "url": "https://www.tricitiesbusinessnews.com/articles/amazon-plans-another-data-center-southwest-of-tricities",
+      "status": 404,
+      "action": "replaced"
+    },
+    {
+      "url": "https://www.tricitiesbusinessnews.com/articles/amazon-plans-another-data-center-southwest-of-tri-cities",
+      "status": 200,
+      "action": "kept"
+    },
+    {
+      "url": "https://610kona.com/ixp/136/p/amazon-data-center-coming-to-boardman/",
+      "status": 200,
+      "action": "not_used"
+    }
+  ],
+  "remaining_risks": [
+    "Replacement is the same article by title/author/snippet and returns HTTP 200, but the full article text artifact was not readable from the sandbox; content-level equivalence beyond title/author/snippet is inferred.",
+    "The old dead slug remains only inside NOTES.md prose documenting the swap (intentional per fix brief), not as a live source link.",
+    "Secondary syndicated copy at 610kona.com verified live but not added, to keep the evidence set to the original publisher's canonical URL."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for USDC-0138: the Tri-Cities Business News source URL returning HTTP 404 was replaced with the same article's live canonical slug (southwest-of-tri-cities, HTTP 200 verified) in data.json sources, with a dated NOTES.md 2026-08-11 'source swap' bullet documenting the change. data.json validates as JSON; no other issues were listed for this center."
+}

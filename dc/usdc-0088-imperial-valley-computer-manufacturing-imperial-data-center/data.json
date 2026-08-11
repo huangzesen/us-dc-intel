@@ -121,10 +121,10 @@
         "facts": "City notice describes approximately 950,000 square feet, 330 MW data center, 330 MW emergency backup generator building, and 862 MWh energy storage system."
       },
       {
-        "url": "https://www.iid.com/about-iid/community/data-center-facts",
+        "url": "https://web.archive.org/web/20260724093439/https://www.iid.com/about-iid/community/data-center-facts",
         "source_type": "official_utility_context",
         "date": "undated_accessed_2026-08-11",
-        "facts": "IID states data-center proposals require feasibility, cost-recovery, interconnection, and reliability review and that IID will not expedite projects."
+        "facts": "IID states data-center proposals require feasibility, cost-recovery, interconnection, and reliability review and that IID will not expedite projects. Original live URL (https://www.iid.com/about-iid/community/data-center-facts) returned HTTP 403; swapped to Wayback Machine capture of 2026-07-24 of the same official IID page."
       },
       {
         "url": "https://imperial.granicus.com/GeneratedAgendaViewer.php?event_id=3007&view_id=2",
@@ -165,7 +165,7 @@
       "description": "The developer website states the project would use 100% reclaimed wastewater and operate under non-firm IID service, while local/legal reporting says IVCM sought Colorado River water from IID and sued after access disputes. Official IID materials reviewed here describe general data-center feasibility/interconnection safeguards but do not verify final water or power service approval for this project.",
       "sources": [
         "https://www.imperialdatacenter.com/",
-        "https://www.iid.com/about-iid/community/data-center-facts",
+        "https://web.archive.org/web/20260724093439/https://www.iid.com/about-iid/community/data-center-facts",
         "https://www.kpbs.org/news/environment/2026/06/15/imperial-valley-data-center-developer-files-lawsuit-seeking-access-to-colorado-river-water",
         "https://www.courthousenews.com/desert-data-center-developer-challenges-county-moratorium-in-court/"
       ]
@@ -191,6 +191,13 @@
       "previous_value": null,
       "new_value": "Imperial Valley Computer Manufacturing, LLC",
       "change_reason": "Applicant/owner name verified in CEQAnet and county Board packet."
+    },
+    {
+      "date": "2026-08-11",
+      "field": "sources",
+      "previous_value": "https://www.iid.com/about-iid/community/data-center-facts (live URL returned HTTP 403)",
+      "new_value": "https://web.archive.org/web/20260724093439/https://www.iid.com/about-iid/community/data-center-facts (Wayback Machine capture of the same official IID page, snapshot 2026-07-24)",
+      "change_reason": "IID live URL returned HTTP 403 on spot-check (curl HEAD and GET, and browse); replaced in sources.refresh_2026_08_11 and contradictions with a verified Wayback Machine capture of the official IID data-center facts page. Archived text confirms the cited facts: IID evaluates proposals for reliability, feasibility, cost recovery, interconnection/operational requirements, and will not expedite projects."
     }
   ],
   "seed_only": false,

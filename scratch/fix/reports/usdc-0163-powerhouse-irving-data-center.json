@@ -1,0 +1,20 @@
+{
+  "center": "usdc-0163-powerhouse-irving-data-center",
+  "issues_in": [
+    "Minor inconsistency: NOTES.md 2026-08-11 section states `verified: false`, but data.json contains no `verified` key (some sibling entries carry a top-level `verified` boolean, e.g."
+  ],
+  "fixed": [
+    "Added top-level `verified: false` boolean to data.json, encoding the NOTES.md 2026-08-11 verified statement.",
+    "Added `verification_notes` string documenting what is verified true (identity/address, current planned campus capacity 201 MW, and the `site work-construction` classification per TDLR TABS2025013924 / PowerHouse/AREP pages / DCD topping-out report) and why verified is false overall (2024-05-15 City Council phasing evidence only readable via Muyni agenda archive, official PrimeGov target not directly opened this refresh; no CO, final inspection, Oncor energization, commissioned-load, or live-service evidence located). Follows sibling convention (usdc-0039-google-pine-island-data-center)."
+  ],
+  "files_changed": [
+    "data.json"
+  ],
+  "urls_checked": [],
+  "remaining_risks": [
+    "The 2024-05-15 City Council phasing evidence remains accessible only through the Muyni agenda archive; the official PrimeGov agenda link could not be opened directly during the 2026-08-11 refresh (pre-existing caveat documented in data.json access_caveat and NOTES.md, not introduced by this fix).",
+    "No CO / final inspection / Oncor energization / commissioned-load / live-service evidence was located, so energized/operational status remains unverifiable; consistent with the added verified:false and the site work-construction status."
+  ],
+  "json_valid": true,
+  "summary": "Fixed the single review issue for USDC-0163: NOTES.md 2026-08-11 states verified:false but data.json lacked the key. Added top-level verified:false plus a verification_notes string encoding the NOTES.md statement and its rationale (verified true for identity/address/capacity/construction-classification facts, false overall pending CO/energization/live-service evidence), matching sibling convention. data.json validated as valid JSON after the edit; no URLs needed checking for this issue."
+}

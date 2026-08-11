@@ -16,4 +16,5 @@
 - capacity: 未找到公开官方来源给出 IT critical load、contract demand 或 full campus utility capacity。保留 capacity_mw: null。仅记录 emergency/backup generation scale；WPTA 2025-10-08 报道称 179 diesel generators could generate up to 527.52 MW if operated，但这不是数据中心 IT capacity。来源：https://www.21alivenews.com/2025/10/08/public-hearing-set-googles-diesel-generator-plan-fort-wayne-data-center/
 - contradictions: 地址存在多源差异。IDEM 使用 7510 Zodiac Way；部分本地媒体使用 5801 Adams Center Road。结构化地址采用 IDEM 的 7510 Zodiac Way，同时保留 East Tillman Road / Adams Center Road 位置描述。
 - unable to verify: 未核实 building permit/CO/commissioning record；未核实 IT load / utility contract demand；Phase 3 wetlands/water-quality request仍属 public hearing / permit process, not final approval.
+- fix pass (2026-08-11): capacity_notes 引用的 WPTA 2025-10-08 报道（“179 diesel generators could generate 527.52 MW if operated”）此前仅在本文档列出来源 URL、未录入 data.json sources.public_urls；已将该 URL 补入 data.json，使 capacity_notes 可溯源。来源：https://www.21alivenews.com/2025/10/08/public-hearing-set-googles-diesel-generator-plan-fort-wayne-data-center/
 - verified: false（原因：status、owner、location 已由一手/官方来源确认；capacity_mw 与若干 completion/CO/utility details 仍无公开一手证据）。

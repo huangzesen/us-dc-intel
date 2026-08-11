@@ -14,3 +14,4 @@
 - capacity_mw 保持 null：未找到官方/local-government MW capacity。Microsoft 只公开 investment/size-scale/schedule/employee estimates and infrastructure descriptors, not a standalone MW figure for the second 2028 facility。
 - contradictions：Area naming/address 存在轻微冲突或粒度不一致。Mount Pleasant TID page: Area 3A = 2028; active-project PDF: Area 3B rows under construction at two addresses and Area II site prep; Microsoft Local: Phase 2 KR & H / Phase 3 Durand & Hewitt Memorial Drive。已写入 data.json contradictions。
 - verified: true for status/owner/location-evidence/source URLs; verified: false for capacity_mw and standalone parcel-level permit/energization because no public official source was found.
+- history sync fix (review pass): history[0].new_value for status_as_of_cutoff was a short paraphrase; aligned it to the exact status_as_of_cutoff text set during this refresh so the history record mirrors the current data.json field value.

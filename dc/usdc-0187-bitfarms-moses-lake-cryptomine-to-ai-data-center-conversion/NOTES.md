@@ -15,3 +15,4 @@
 - 多源冲突：未发现实质冲突。地方/州记录确认 permit/SEPA process；公司披露确认 18 MW 和最新推进。行业/劳务 listing 中出现 Turner Construction / Grant Node OneCore Data Center，但非官方或业主来源，未用于提升状态。
 - 无法核实/证据不足：未找到 City of Moses Lake CUP final decision/minutes 或 building permit issuance 的可访问官方页面；未找到 utility interconnection/PPA public record for this specific site。本次不标记 construction/energized。
 - verified: true（status/capacity/location/owner 均由可访问官方或业主来源支持；construction/energized 未确认）。
+- evidence_grade（fix pass 2026-08-11）: data.json 补入 `evidence_grade` = "A for permit/SEPA status and location (official Washington Ecology SEPA records 202505050/202600272 and City of Moses Lake Planning Commission agenda); B for capacity because 18 MW is sourced to the Bitfarms company announcement rather than municipal permit text."，按 repo 中 usdc-* 字母分级惯例填写。

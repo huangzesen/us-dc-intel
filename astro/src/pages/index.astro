@@ -1568,9 +1568,9 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         countyDrill: ["County drilldown", "县级下钻"],
         countyApprox: ["County coordinate missing; using the state centroid.", "县级坐标缺失，使用州质心近似。"],
         tracked: ["Tracked", "已知"],
-        estimated: ["estimated", "估算"],
+        estimated: ["estimated (mean fill)", "均值估算"],
         trackedShort: ["trk", "已知"],
-        estimatedShort: ["est", "估算"],
+        estimatedShort: ["est(mean)", "均值"],
         americasSub: [
           `Data-center buildout across the Americas, grouped by ${DATA.totals.countries_explored.toLocaleString("en-US")} explored countries and territories.`,
           `覆盖全美洲 ${DATA.totals.countries_explored.toLocaleString("en-US")} 个已探索国家与地区的数据中心建设总盘。`

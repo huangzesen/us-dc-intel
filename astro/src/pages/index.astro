@@ -1741,7 +1741,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         };
       };
       const countryName = country => langIndex() ? country.name_zh : country.name_en;
-      const hasCoord = item => Number.isFinite(Number(item?.lat)) && Number.isFinite(Number(item?.lng));
+      const hasCoord = item => item?.lat != null && item?.lng != null && Number.isFinite(Number(item.lat)) && Number.isFinite(Number(item.lng));
       const pointValue = item => mapMetric === "mw" ? Number(item.capacity_mw || 0) : Number(item.facilities || 0);
       const markerColor = item => {
         const mw = Number(item.capacity_mw || 0);

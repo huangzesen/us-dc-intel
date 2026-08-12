@@ -264,6 +264,7 @@ COUNTRY_COORDS = {
     "AI": [18.2206, -63.0686],
     "AG": [17.0608, -61.7964],
     "AR": [-38.4161, -63.6167],
+    "AS": [-14.275, -170.702],
     "AW": [12.5211, -69.9683],
     "BB": [13.1939, -59.5432],
     "BL": [17.9, -62.8333],
@@ -289,6 +290,7 @@ COUNTRY_COORDS = {
     "GP": [16.265, -61.551],
     "GS": [-54.4296, -36.5879],
     "GT": [15.7835, -90.2308],
+    "GU": [13.475, 144.75],
     "GY": [4.8604, -58.9302],
     "HN": [15.2, -86.2419],
     "HT": [18.9712, -72.2852],
@@ -298,6 +300,7 @@ COUNTRY_COORDS = {
     "LC": [13.9094, -60.9789],
     "MF": [18.0708, -63.0501],
     "MQ": [14.6415, -61.0242],
+    "MP": [15.213, 145.755],
     "MS": [16.7425, -62.1874],
     "MX": [23.6345, -102.5528],
     "NI": [12.8654, -85.2072],
@@ -425,19 +428,26 @@ def country_code(value: str | None) -> str:
     return code or "US"
 
 
-def country_coord(code: str) -> list[float | None]:
-    return COUNTRY_COORDS.get(code.upper(), [None, None])
-
-
 _SUBNATIONAL_COORDS: dict[tuple[str, str], list[float]] | None = None
+_COUNTRY_COORDS_DERIVED: dict[str, list[float]] | None = None
+
+
+def country_coord(code: str) -> list[float | None]:
+    code = (code or "").strip().upper()
+    if code in COUNTRY_COORDS:
+        return COUNTRY_COORDS[code]
+    # Derive missing country markers from the mean of their coord-results entries.
+    # This keeps the fallback data-driven instead of hardcoding every country.
+    return load_subnational_coords().get((code, "__country_centroid__"), [None, None])
 
 
 def load_subnational_coords() -> dict[tuple[str, str], list[float]]:
     """Load world subnational coords from coord-results/*.jsonl (daemon-generated)."""
-    global _SUBNATIONAL_COORDS
+    global _SUBNATIONAL_COORDS, _COUNTRY_COORDS_DERIVED
     if _SUBNATIONAL_COORDS is not None:
         return _SUBNATIONAL_COORDS
     coords: dict[tuple[str, str], list[float]] = {}
+    country_totals: dict[str, list[float]] = {}
     if COORD_RESULTS_DIR.exists():
         for path in sorted(COORD_RESULTS_DIR.glob("batch-*.jsonl")):
             try:
@@ -451,9 +461,36 @@ def load_subnational_coords() -> dict[tuple[str, str], list[float]]:
                         lng = item.get("lng")
                         if lat is None or lng is None:
                             continue
-                        coords[(item.get("country_code") or "", item.get("division") or "")] = [float(lat), float(lng)]
+                        try:
+                            lat_float = float(lat)
+                            lng_float = float(lng)
+                        except (TypeError, ValueError):
+                            continue
+                        code = (item.get("country_code") or "").strip().upper()
+                        division = (item.get("division") or "").strip()
+                        coord = [lat_float, lng_float]
+                        coords[(code, division)] = coord
+                        # A province-only DB label (e.g. Xinjiang) can use the
+                        # first matching "Province - City" coordinate.
+                        prefix = division.split(" - ", 1)[0].strip()
+                        if prefix and prefix != division:
+                            coords.setdefault((code, prefix), coord)
+                        if code:
+                            total = country_totals.setdefault(code, [0.0, 0.0, 0.0])
+                            total[0] += lat_float
+                            total[1] += lng_float
+                            total[2] += 1
             except Exception:
                 continue
+    _COUNTRY_COORDS_DERIVED = {
+        code: [total[0] / total[2], total[1] / total[2]]
+        for code, total in country_totals.items()
+        if total[2]
+    }
+    # Keep derived centroids in the same lookup cache, without affecting the
+    # exact/secondary subnational keys or counting a centroid as a data record.
+    for code, coord in _COUNTRY_COORDS_DERIVED.items():
+        coords[(code, "__country_centroid__")] = coord
     _SUBNATIONAL_COORDS = coords
     return coords
 
@@ -495,14 +532,16 @@ def slugify(name: str) -> str:
 
 
 def subnational_coord(country: str, name: str) -> list[float | None]:
-    if country == "US":
-        abbr = state_abbr(name)
+    code = (country or "").strip().upper()
+    normalized_name = (name or "").strip()
+    if code == "US":
+        abbr = state_abbr(normalized_name)
         if abbr and abbr in STATE_COORDS:
             return STATE_COORDS[abbr]
-    coord = load_subnational_coords().get((country.upper(), name))
+    coord = load_subnational_coords().get((code, normalized_name))
     if coord:
         return coord
-    return country_coord(country)
+    return country_coord(code)
 
 
 COUNTY_SUFFIXES = (

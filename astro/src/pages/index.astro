@@ -1,6 +1,8 @@
 ---
 import data from "../data/datacenters.json";
+import dcMeta from "../data/dc-metadata.json";
 
+const dcMetaJson = JSON.stringify(dcMeta).replace(/</g, "\\u003c");
 const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
 ---
 
@@ -1216,6 +1218,113 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
           transition-duration: 0.01s !important;
         }
       }
+
+      /* DC detail modal */
+      .estbadge {
+        display: inline-block;
+        margin-left: 6px;
+        padding: 0 5px;
+        border: 1px solid var(--acc);
+        border-radius: 4px;
+        color: var(--acc);
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 1.5;
+        vertical-align: 1px;
+        letter-spacing: 0.03em;
+      }
+      .dc-modal {
+        position: fixed;
+        inset: 0;
+        z-index: 1000;
+        display: grid;
+        place-items: center;
+        padding: 20px;
+      }
+      .dc-modal[hidden] {
+        display: none;
+      }
+      .dc-modal-backdrop {
+        position: absolute;
+        inset: 0;
+        background: rgba(5, 8, 13, 0.68);
+        backdrop-filter: blur(3px);
+        -webkit-backdrop-filter: blur(3px);
+      }
+      .dc-modal-box {
+        position: relative;
+        width: min(680px, 100%);
+        max-height: min(84vh, 760px);
+        overflow-y: auto;
+        background: var(--sf);
+        border: 1px solid var(--ln2);
+        border-radius: 14px;
+        box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
+        padding: 24px 26px;
+        font-family: var(--sans);
+        color: var(--ink);
+      }
+      .dc-modal-close {
+        position: absolute;
+        top: 12px;
+        right: 14px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid var(--ln2);
+        border-radius: 8px;
+        background: transparent;
+        color: var(--ink2);
+        font-size: 17px;
+        line-height: 1;
+        cursor: pointer;
+      }
+      .dc-modal-close:hover {
+        color: var(--acc);
+        border-color: var(--acc);
+      }
+      .dc-modal-title {
+        margin: 0 42px 4px 0;
+        font-size: 19px;
+        font-weight: 700;
+        letter-spacing: 0.01em;
+        color: var(--ink);
+      }
+      .dc-modal-sub {
+        margin: 0 0 14px;
+        color: var(--mut);
+        font-size: 12px;
+      }
+      .dc-modal-body {
+        display: grid;
+        grid-template-columns: 110px minmax(0, 1fr);
+        gap: 9px 16px;
+        font-size: 13.5px;
+        line-height: 1.55;
+      }
+      .dc-modal-body dt {
+        color: var(--mut);
+      }
+      .dc-modal-body dd {
+        margin: 0;
+        color: var(--ink2);
+        word-break: break-word;
+      }
+      .dc-modal-body a {
+        color: var(--acc);
+        text-decoration: none;
+      }
+      .dc-modal-body a:hover {
+        text-decoration: underline;
+      }
+      .dc-note {
+        grid-column: 1 / -1;
+        padding: 8px 10px;
+        border: 1px dashed var(--ln2);
+        border-radius: 8px;
+        color: var(--mut);
+        font-size: 12px;
+        margin-bottom: 2px;
+      }
     </style>
   </head>
   <body>
@@ -1427,9 +1536,11 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
 
     <div id="tip"></div>
     <script id="gw-data" type="application/json" set:html={dataJson}></script>
+    <script id="gw-meta" type="application/json" set:html={dcMetaJson}></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script is:inline>
       const DATA = JSON.parse(document.getElementById("gw-data").textContent);
+      const DC_META = JSON.parse(document.getElementById("gw-meta").textContent);
       const I18N = {
         st: DATA.status_labels,
         facilities: ["facilities", "个设施"],
@@ -1458,6 +1569,21 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
           tracker: ["Industry trackers", "行业追踪"],
           other: ["Social & other", "社媒及其他"]
         },
+        dc: {
+          noDetail: ["No detail record — basic fields only", "无详情记录 — 仅基础字段"],
+          capacity: ["Capacity", "容量"],
+          status: ["Status", "状态"],
+          owner: ["Owner", "运营方"],
+          developer: ["Developer", "开发商"],
+          location: ["Location", "位置"],
+          evidence: ["Evidence", "证据"],
+          evidenceGrade: ["Evidence grade", "证据等级"],
+          evidenceDate: ["Evidence date", "证据日期"],
+          sources: ["Sources", "来源"],
+          notes: ["Notes", "备注"],
+          estBadge: ["~est", "~估"],
+          estTitle: ["estimated capacity", "估算容量"]
+        },
         legMW: ["<1 GW", "1-5 GW", "5-15 GW", "15-45 GW", "45+ GW"],
         legN: ["<20", "20-49", "50-89", "90-149", "150+"]
       };
@@ -1471,6 +1597,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       let devTab = "mw";
       let sortKey = "mw";
       let sortDir = -1;
+      let currentRows = [];
       let realMap = null;
       let realMapLayer = null;
 
@@ -1480,6 +1607,17 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       const fmtMW = mw => mw >= 1000 ? `${(mw / 1000).toFixed(mw >= 10000 ? 1 : 2).replace(/\.?0+$/, "")} GW` : `${fmt(Math.round(mw))} MW`;
       const stColor = key => `var(--st-${key})`;
       const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" })[ch]);
+      const rowBySlug = new Map(DATA.centers.filter(c => c.slug).map(c => [c.slug, c]));
+      const statusShort = { operational: "op", announced: "ann", planned: "pla", approved: "app", construction: "con", rejected: "rej", unknown: "unk" };
+      const statusLabel = status => {
+        if (!status) return "—";
+        if (I18N.st[status]) return I18N.st[status][langIndex()];
+        const s = String(status).toLowerCase();
+        for (const full of Object.keys(statusShort)) {
+          if (s.includes(full)) return I18N.st[statusShort[full]][langIndex()];
+        }
+        return esc(String(status));
+      };
       const countryByCode = new Map((DATA.countries || []).map(c => [c.code, c]));
       const stateByAbbr = new Map((DATA.states || []).map(s => [s.abbr, s]));
       const countiesByState = (DATA.counties || []).reduce((acc, county) => {
@@ -1953,9 +2091,10 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
           if (sortKey === "y") return ((a.year || 0) - (b.year || 0)) * sortDir;
           return `${a.country}${a[geoKey]}${a.county}`.localeCompare(`${b.country}${b[geoKey]}${b.county}`) * sortDir;
         });
+        currentRows = rows;
         document.getElementById("tbody").innerHTML = rows.map(c => `
-          <tr>
-            <td class="proj"><b>${esc(c.project)}</b><span class="own">${esc(c.developer)}</span></td>
+          <tr data-slug="${esc(c.slug || "")}" style="cursor:pointer">
+            <td class="proj"><b>${esc(c.project)}${c.est ? ` <span class="estbadge" title="${L(I18N.dc.estTitle)}">${L(I18N.dc.estBadge)}</span>` : ""}</b><span class="own">${esc(c.developer)}</span></td>
             <td class="geo">${esc(c.county)}, ${esc(c.subnational || c.state)} · ${esc(c.country)}</td>
             <td class="cap"><span class="capv">${fmtMW(c.capacity_mw)}</span><span class="capbar"><i style="width:${Math.max(1.2, c.capacity_mw / maxMW * 100).toFixed(1)}%"></i></span></td>
             <td><span class="chip" style="color:${stColor(c.status)}; border-color:${stColor(c.status)}; background:color-mix(in srgb, ${stColor(c.status)} 12%, transparent)"><span class="cdot"></span>${I18N.st[c.status][langIndex()]}</span></td>
@@ -1970,6 +2109,50 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         ["mw", "y", "geo"].forEach(k => {
           document.getElementById(`car-${k}`).textContent = sortKey === k ? (sortDir < 0 ? "▼" : "▲") : "";
         });
+      }
+
+      function closeDcModal() {
+        document.getElementById("dcModal").hidden = true;
+        document.body.style.overflow = "";
+      }
+
+      function openDcDetail(slug, row) {
+        const meta = slug ? DC_META[slug] || null : null;
+        const fallback = !meta;
+        const title = meta && meta.canonical_project ? meta.canonical_project : (row ? row.project : slug || "—");
+        const capacity = (meta && meta.capacity_mw != null) ? meta.capacity_mw : (row ? row.capacity_mw : null);
+        const status = ((meta && meta.status) || (row ? row.status : "") || "");
+        const location = meta && meta.location
+          ? [meta.location.city, meta.location.subnational, meta.location.country].filter(Boolean).join(", ")
+          : row
+            ? [row.county, row.subnational || row.state, row.country].filter(Boolean).join(", ")
+            : "";
+        const evidence = row ? row.evidence : "";
+        const sources = meta && Array.isArray(meta.sources) ? meta.sources : [];
+        const note = meta && meta.notes ? meta.notes : "";
+        const part = (dt, dd) => (dd === "" || dd == null) ? "" : `<dt>${dt}</dt><dd>${dd}</dd>`;
+
+        const items = [];
+        if (fallback) items.push(`<div class="dc-note">${L(I18N.dc.noDetail)}</div>`);
+        items.push(part(L(I18N.dc.capacity), capacity != null ? fmtMW(capacity) : "—"));
+        items.push(part(L(I18N.dc.status), status ? statusLabel(status) : "—"));
+        if (meta && meta.owner) items.push(part(L(I18N.dc.owner), esc(meta.owner)));
+        if (row && row.developer) items.push(part(L(I18N.dc.developer), esc(row.developer)));
+        items.push(part(L(I18N.dc.location), location ? esc(location) : "—"));
+        if (meta && meta.evidence_grade) items.push(part(L(I18N.dc.evidenceGrade), esc(meta.evidence_grade)));
+        if (meta && meta.evidence_date) items.push(part(L(I18N.dc.evidenceDate), esc(meta.evidence_date)));
+        if (evidence) items.push(part(L(I18N.dc.evidence), I18N.ev[evidence] ? I18N.ev[evidence][langIndex()] : esc(evidence)));
+        if (sources.length) items.push(part(L(I18N.dc.sources), sources.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(u)}</a>`).join("<br>")));
+        if (note) items.push(part(L(I18N.dc.notes), esc(note).replace(/\n/g, "<br>")));
+
+        const modal = document.getElementById("dcModal");
+        document.getElementById("dcModalTitle").innerHTML =
+          `${esc(title)}${row && row.est ? ` <span class="estbadge" title="${L(I18N.dc.estTitle)}">${L(I18N.dc.estBadge)}</span>` : ""}`;
+        document.getElementById("dcModalSub").textContent = slug ? esc(slug) : "";
+        document.getElementById("dcModalBody").innerHTML = items.join("");
+        modal.hidden = false;
+        document.body.style.overflow = "hidden";
+        modal.querySelector(".dc-modal-box").scrollTop = 0;
       }
 
       function buildEvidence() {
@@ -1987,6 +2170,19 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       document.getElementById("fStatus").addEventListener("change", renderTable);
       document.getElementById("fState").addEventListener("change", renderTable);
       document.getElementById("fClear").addEventListener("click", clearStateFilter);
+      document.getElementById("tbody").addEventListener("click", e => {
+        const tr = e.target.closest("tr[data-slug]");
+        if (!tr) return;
+        const slug = tr.dataset.slug || "";
+        const idx = Array.prototype.indexOf.call(tr.parentElement.children, tr);
+        openDcDetail(slug, slug ? (rowBySlug.get(slug) || null) : (currentRows[idx] || null));
+      });
+      document.addEventListener("click", e => {
+        if (e.target.closest("[data-dc-close]")) closeDcModal();
+      });
+      document.addEventListener("keydown", e => {
+        if (e.key === "Escape") closeDcModal();
+      });
 
       try {
         const theme = qs.get("theme") || localStorage.getItem("gw-theme") || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
@@ -2026,5 +2222,15 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         document.querySelectorAll(".rv").forEach(el => io.observe(el));
       }
     </script>
+
+    <div id="dcModal" class="dc-modal" hidden>
+      <div id="dcModalBackdrop" class="dc-modal-backdrop" data-dc-close></div>
+      <div id="dcModalBox" class="dc-modal-box" role="dialog" aria-modal="true" aria-labelledby="dcModalTitle">
+        <button type="button" class="dc-modal-close" data-dc-close aria-label="Close">×</button>
+        <h3 id="dcModalTitle" class="dc-modal-title"></h3>
+        <div id="dcModalSub" class="dc-modal-sub"></div>
+        <dl id="dcModalBody" class="dc-modal-body"></dl>
+      </div>
+    </div>
   </body>
 </html>

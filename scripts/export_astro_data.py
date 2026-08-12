@@ -458,6 +458,42 @@ def load_subnational_coords() -> dict[tuple[str, str], list[float]]:
     return coords
 
 
+DC_METADATA_PATH = ROOT / "astro" / "src" / "data" / "dc-metadata.json"
+_DC_METADATA: dict[str, dict] | None = None
+
+
+def load_dc_metadata() -> dict[str, dict]:
+    """Load slug -> metadata map from dc/<slug>/data.json (DC detail pages)."""
+    global _DC_METADATA
+    if _DC_METADATA is not None:
+        return _DC_METADATA
+    meta: dict[str, dict] = {}
+    dc_root = ROOT / "dc"
+    if dc_root.exists():
+        for d in sorted(dc_root.iterdir()):
+            p = d / "data.json"
+            if p.exists():
+                try:
+                    j = json.loads(p.read_text(encoding="utf-8"))
+                    slug = j.get("slug") or d.name
+                    meta[slug] = j
+                except Exception:
+                    continue
+    _DC_METADATA = meta
+    return meta
+
+
+def write_dc_metadata(meta: dict[str, dict]) -> None:
+    DC_METADATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+    DC_METADATA_PATH.write_text(json.dumps(meta, ensure_ascii=False), encoding="utf-8")
+
+
+def slugify(name: str) -> str:
+    s = unicodedata.normalize("NFKD", name or "").encode("ascii", "ignore").decode()
+    s = re.sub(r"[^a-zA-Z0-9]+", "-", s).strip("-").lower()
+    return re.sub(r"-{2,}", "-", s)[:80] or "unnamed"
+
+
 def subnational_coord(country: str, name: str) -> list[float | None]:
     if country == "US":
         abbr = state_abbr(name)
@@ -581,6 +617,7 @@ def main() -> None:
     columns = set(rows[0].keys()) if rows else set()
     americas = load_americas()
     county_coords = load_county_coords()
+    dc_meta = load_dc_metadata()
 
     total_mw = sum(float(r["capacity_mw"] or 0) for r in rows)
     source_count = con.execute("select count(url) from sources where url is not null and trim(url) != ''").fetchone()[0]
@@ -659,8 +696,16 @@ def main() -> None:
                     "status": key,
                     "year": year,
                     "evidence": evidence_bucket(r["evidence_grade"]),
+                    "slug": (r["existing_slug"] if isinstance(r["existing_slug"], str) and r["existing_slug"] else None),
+                    "est": bool(mw > 0 and not (r["capacity_mw"] and r["capacity_mw"] > 0)),
                 }
             )
+            # Method rows have no existing_slug in DB; attach dc/<slug>/data.json
+            # via the same slug convention merge_method.py uses (best effort).
+            if centers[-1]["slug"] is None:
+                cand = f"method-{code.lower()}-{slugify(centers[-1]['project'])}"
+                if cand in dc_meta:
+                    centers[-1]["slug"] = cand
 
     states = []
     for abbr, pos in STATE_LAYOUT.items():
@@ -775,13 +820,20 @@ def main() -> None:
         "years": wave,
         "developers": developers,
         "evidence": evidence,
-        "centers": flagship,
+        "centers": centers,
+        "flagship": flagship,
         "status_labels": STATUS_LABELS,
     }
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"wrote {OUT_PATH} ({OUT_PATH.stat().st_size:,} bytes)")
+
+    # DC detail metadata (Jason 3596): emit only slugs referenced by centers.
+    used_slugs = {c.get("slug") for c in centers if c.get("slug")}
+    dc_meta_out = {s: dc_meta[s] for s in used_slugs if s in dc_meta}
+    write_dc_metadata(dc_meta_out)
+    print(f"wrote {DC_METADATA_PATH} ({DC_METADATA_PATH.stat().st_size:,} bytes, {len(dc_meta_out)} entries)")
 
 
 if __name__ == "__main__":

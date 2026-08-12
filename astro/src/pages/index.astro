@@ -475,12 +475,23 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       }
 
       .realmap {
+        position: relative;
         min-height: 420px;
         overflow: hidden;
         border: 1px solid var(--ln);
         border-radius: 10px;
         background: #0a0d12;
       }
+
+      .mapfull {
+        position: absolute; top: 12px; right: 12px; z-index: 1000;
+        width: 36px; height: 36px; border-radius: 8px;
+        border: 1px solid var(--ln); background: color-mix(in srgb, var(--sf) 88%, transparent);
+        color: var(--tx); font-size: 17px; line-height: 1; cursor: pointer;
+        backdrop-filter: blur(4px); box-shadow: 0 2px 8px rgba(0,0,0,.25);
+      }
+      .mapfull:hover { background: var(--acc-dim); }
+      .mapfull.on { color: var(--acc); }
 
       .mapmode {
         align-self: start;
@@ -1415,7 +1426,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
           </div>
           <div class="card rv">
             <div class="realmap-wrap">
-              <div class="realmap" id="realMap" aria-label="interactive geographic map"></div>
+              <div class="realmap" id="realMap" aria-label="interactive geographic map"><button id="mapFull" class="mapfull" type="button" title="Fullscreen map / 全屏地图">⛶</button></div>
               <div class="mapmode">
                 <div class="k"><span class="en">Interactive map</span><span class="zh">交互地图</span></div>
                 <div class="v" id="realMapTitle"></div>
@@ -2187,6 +2198,24 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       document.querySelectorAll("[data-sort]").forEach(th => th.addEventListener("click", () => setSort(th.dataset.sort)));
       document.getElementById("fStatus").addEventListener("change", renderTable);
       document.getElementById("fState").addEventListener("change", renderTable);
+      const mapFullBtn = document.getElementById("mapFull");
+      const mapWrapEl = document.querySelector(".realmap-wrap");
+      function syncMapFullLabel() {
+        mapFullBtn.textContent = document.fullscreenElement ? "✕" : "⛶";
+        mapFullBtn.classList.toggle("on", Boolean(document.fullscreenElement));
+      }
+      mapFullBtn.addEventListener("click", () => {
+        if (document.fullscreenElement) {
+          document.exitFullscreen().catch(() => {});
+        } else if (mapWrapEl.requestFullscreen) {
+          mapWrapEl.requestFullscreen().catch(() => {});
+        }
+      });
+      document.addEventListener("fullscreenchange", () => {
+        syncMapFullLabel();
+        if (realMap) setTimeout(() => realMap.invalidateSize(), 50);
+      });
+      syncMapFullLabel();
       document.getElementById("fClear").addEventListener("click", clearStateFilter);
       document.getElementById("tbody").addEventListener("click", e => {
         const tr = e.target.closest("tr[data-slug]");

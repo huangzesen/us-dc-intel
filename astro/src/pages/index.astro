@@ -805,12 +805,47 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         font-size: 11px;
       }
 
+      .wavebox {
+        display: flex;
+        gap: 12px;
+        align-items: stretch;
+      }
+
+      .wy {
+        width: 46px;
+        flex: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 4px 0 24px;
+        text-align: right;
+        color: var(--mut);
+        font: 10px var(--mono);
+        user-select: none;
+      }
+
+      .wavearea {
+        flex: 1;
+        min-width: 0;
+      }
+
       .wave {
+        position: relative;
         display: flex;
         align-items: flex-end;
-        gap: 10px;
+        gap: 8px;
         height: 250px;
         padding-top: 26px;
+        background: repeating-linear-gradient(
+          to top,
+          transparent 0,
+          transparent calc(25% - 1px),
+          var(--ln2) calc(25% - 1px),
+          var(--ln2) 25%
+        );
+        background-size: 100% 212px;
+        background-position: bottom;
+        background-repeat: no-repeat;
         border-bottom: 1px solid var(--ln2);
       }
 
@@ -821,6 +856,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         flex-direction: column-reverse;
         align-items: stretch;
         min-width: 0;
+        cursor: default;
       }
 
       .wseg {
@@ -829,6 +865,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         transform-origin: bottom;
         transition: transform 0.8s cubic-bezier(0.25, 0.7, 0.25, 1);
         transition-delay: var(--d, 0s);
+        border-radius: 2px;
       }
 
       .in .wseg {
@@ -840,20 +877,40 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       }
 
       .wseg:last-child {
-        border-radius: 4px 4px 0 0;
+        border-radius: 5px 5px 2px 2px;
+      }
+
+      .wcol:hover .wseg {
+        filter: brightness(1.12);
+      }
+
+      .wcol:not(:hover) .wseg.on {
+        filter: brightness(0.92);
       }
 
       .wtot {
         position: absolute;
-        inset: -22px 0 auto;
-        color: var(--mut);
+        inset: -26px 0 auto;
+        color: var(--txt);
         text-align: center;
-        font: 11px var(--mono);
+        font: 600 11px var(--mono);
+        white-space: nowrap;
+        overflow: visible;
+        text-shadow: 0 1px 0 var(--bg);
+        opacity: 0;
+        transform: translateY(4px);
+        transition: opacity 0.3s, transform 0.3s;
+        transition-delay: var(--d, 0s);
+      }
+
+      .in .wtot {
+        opacity: 1;
+        transform: translateY(0);
       }
 
       .wx {
         display: flex;
-        gap: 10px;
+        gap: 8px;
         margin-top: 8px;
       }
 
@@ -862,6 +919,12 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         color: var(--mut);
         text-align: center;
         font: 10px var(--mono);
+        white-space: nowrap;
+      }
+
+      .wx span.hl {
+        color: var(--txt);
+        font-weight: 600;
       }
 
       .chart-legend {
@@ -1468,10 +1531,19 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
               <h2><span class="en">Project signals by year, 2018-2030</span><span class="zh">按年份的项目信号，2018-2030</span></h2>
             </div>
             <div class="note"><span class="en">Hover a column for the breakdown.</span><span class="zh">悬停查看当年构成。</span></div>
+            <div class="tabs" style="margin:0 0 0 auto">
+              <button id="wv-n" class="on" data-wave-metric="n"><span class="en">FACILITIES</span><span class="zh">设施数</span></button>
+              <button id="wv-mw" data-wave-metric="mw"><span class="en">CAPACITY</span><span class="zh">容量</span></button>
+            </div>
           </div>
           <div class="card rv">
-            <div class="wave" id="wave"></div>
-            <div class="wx" id="waveX"></div>
+            <div class="wavebox">
+              <div class="wy" id="waveY"></div>
+              <div class="wavearea">
+                <div class="wave" id="wave"></div>
+                <div class="wx" id="waveX"></div>
+              </div>
+            </div>
             <div class="chart-legend">
               <div class="lg"><span class="sw" style="background:var(--st-op)"></span><span class="en">Operational</span><span class="zh">运营中</span></div>
               <div class="lg"><span class="sw" style="background:var(--st-con)"></span><span class="en">Under construction</span><span class="zh">在建</span></div>
@@ -2014,28 +2086,70 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
           </div>`).join("");
       }
 
+      let waveMetric = "n";
+      const WAVE_SEGS = [
+        { key: "operational", var: "--st-op", labelEn: "Operational", labelZh: "运营中" },
+        { key: "construction", var: "--st-con", labelEn: "Construction", labelZh: "在建" },
+        { key: "pipeline", var: "--st-app", labelEn: "Pipeline", labelZh: "储备" },
+      ];
+
+      function waveVal(y, key) {
+        return waveMetric === "mw" ? (y[key + "_mw"] || 0) : (y[key] || 0);
+      }
+
+      function waveTotal(y) {
+        return WAVE_SEGS.reduce((s, seg) => s + waveVal(y, seg.key), 0);
+      }
+
+      function waveTick(v) {
+        if (waveMetric === "mw") return fmtMW(v);
+        return v >= 1000 ? `${(v / 1000).toFixed(v >= 10000 ? 0 : 1)}k` : fmt(v);
+      }
+
       function buildWave() {
         const el = document.getElementById("wave");
         const xl = document.getElementById("waveX");
+        const yl = document.getElementById("waveY");
         const years = scopedYears();
-        const maxTotal = Math.max(1, ...years.map(y => y.pipeline + y.construction + y.operational));
+        const maxTotal = Math.max(1, ...years.map(waveTotal));
         const height = 212;
         const px = v => Math.max(v > 0 ? 2 : 0, v / maxTotal * height);
-        el.innerHTML = years.map((y, i) => `
+        el.innerHTML = years.map((y, i) => {
+          const total = waveTotal(y);
+          return `
           <div class="wcol" data-index="${i}">
-            <div class="wseg" style="height:${px(y.operational)}px; background:var(--st-op); --d:${i * 0.05}s"></div>
-            <div class="wseg" style="height:${px(y.construction)}px; background:var(--st-con); --d:${i * 0.05 + 0.05}s"></div>
-            <div class="wseg" style="height:${px(y.pipeline)}px; background:var(--st-app); --d:${i * 0.05 + 0.1}s"></div>
-            <div class="wtot">${y.pipeline + y.construction + y.operational >= 100 ? fmt(y.pipeline + y.construction + y.operational) : ""}</div>
-          </div>`).join("");
-        xl.innerHTML = years.map(y => `<span>'${String(y.year).slice(2)}</span>`).join("");
+            ${WAVE_SEGS.map((seg, j) => `
+              <div class="wseg" style="height:${px(waveVal(y, seg.key))}px; background:var(${seg.var}); --d:${(i * 0.04 + j * 0.04).toFixed(2)}s"></div>`).join("")}
+            <div class="wtot" style="--d:${(i * 0.04 + 0.12).toFixed(2)}s">${total >= 1 ? (waveMetric === "mw" ? fmtMW(total) : fmt(total)) : ""}</div>
+          </div>`;
+        }).join("");
+        xl.innerHTML = years.map(y => {
+          const last = y.year % 5 === 0 || y.year === 2030;
+          return `<span class="${last ? "hl" : ""}">'${String(y.year).slice(2)}</span>`;
+        }).join("");
+        const ticks = [0, 0.25, 0.5, 0.75, 1].map(f => waveTick(maxTotal * f));
+        yl.innerHTML = ticks.map(t => `<span>${t}</span>`).join("");
         el.querySelectorAll(".wcol").forEach(col => {
           col.addEventListener("mousemove", ev => {
             const y = years[Number(col.dataset.index)];
-            showTip(`<div class="t1">${y.year}</div><div class="t2">${langIndex() ? "储备" : "Pipeline"}: ${fmt(y.pipeline)}<br>${langIndex() ? "在建" : "Construction"}: ${fmt(y.construction)}<br>${langIndex() ? "运营" : "Operational"}: ${fmt(y.operational)}</div>`, ev);
+            const total = waveTotal(y);
+            const parts = WAVE_SEGS.map(seg => {
+              const v = waveVal(y, seg.key);
+              const pct = total > 0 ? Math.round(v / total * 100) : 0;
+              return `${langIndex() ? seg.labelZh : seg.labelEn}: ${waveMetric === "mw" ? fmtMW(v) : fmt(v)}${waveMetric === "mw" ? "" : ` · ${pct}%`}`;
+            }).join("<br>");
+            const totalLabel = waveMetric === "mw" ? fmtMW(total) : fmt(total);
+            showTip(`<div class="t1">${y.year}</div><div class="t2">${parts}<br><b>${langIndex() ? "合计" : "Total"}: ${totalLabel}</b></div>`, ev);
           });
           col.addEventListener("mouseleave", hideTip);
         });
+      }
+
+      function setWaveTab(metric) {
+        waveMetric = metric;
+        document.getElementById("wv-n").classList.toggle("on", metric === "n");
+        document.getElementById("wv-mw").classList.toggle("on", metric === "mw");
+        buildWave();
       }
 
       function setDevTab(tab) {
@@ -2194,6 +2308,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       document.querySelectorAll("[data-theme-button]").forEach(button => button.addEventListener("click", () => setTheme(button.dataset.themeButton)));
       document.querySelectorAll("[data-lang-button]").forEach(button => button.addEventListener("click", () => setLang(button.dataset.langButton)));
       document.querySelectorAll("[data-map-metric]").forEach(button => button.addEventListener("click", () => setMapMetric(button.dataset.mapMetric)));
+      document.querySelectorAll("[data-wave-metric]").forEach(button => button.addEventListener("click", () => setWaveTab(button.dataset.waveMetric)));
       document.querySelectorAll("[data-dev-tab]").forEach(button => button.addEventListener("click", () => setDevTab(button.dataset.devTab)));
       document.querySelectorAll("[data-sort]").forEach(th => th.addEventListener("click", () => setSort(th.dataset.sort)));
       document.getElementById("fStatus").addEventListener("change", renderTable);

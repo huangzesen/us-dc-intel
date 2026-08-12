@@ -577,8 +577,18 @@ def empty_funnel() -> dict[str, dict[str, float | int]]:
     return defaultdict(lambda: {"count": 0, "capacity_mw": 0.0})
 
 
-def empty_years() -> dict[int, dict[str, int]]:
-    return {year: {"pipeline": 0, "construction": 0, "operational": 0} for year in range(2018, 2031)}
+def empty_years() -> dict[int, dict[str, int | float]]:
+    return {
+        year: {
+            "pipeline": 0,
+            "construction": 0,
+            "operational": 0,
+            "pipeline_mw": 0.0,
+            "construction_mw": 0.0,
+            "operational_mw": 0.0,
+        }
+        for year in range(2018, 2031)
+    }
 
 
 def funnel_rows(acc: dict[str, dict[str, float | int]]) -> list[dict]:
@@ -600,14 +610,17 @@ def wave_rows(years: dict[int, dict[str, int]]) -> list[dict]:
     ]
 
 
-def add_year_signal(years: dict[int, dict[str, int]], year: int | None, key: str) -> None:
+def add_year_signal(years: dict[int, dict[str, int | float]], year: int | None, key: str, mw: float = 0.0) -> None:
     if year in years:
         if key == "op":
             years[year]["operational"] += 1
+            years[year]["operational_mw"] += mw
         elif key == "con":
             years[year]["construction"] += 1
+            years[year]["construction_mw"] += mw
         elif key in {"ann", "pla", "app"}:
             years[year]["pipeline"] += 1
+            years[year]["pipeline_mw"] += mw
 
 
 def main() -> None:
@@ -666,7 +679,7 @@ def main() -> None:
         country_acc[code]["est_mw"] = country_acc[code].get("est_mw", 0.0) + est_mw
         country_acc[code]["funnel"][key]["count"] += 1
         country_acc[code]["funnel"][key]["capacity_mw"] += mw
-        add_year_signal(country_acc[code]["years"], year, key)
+        add_year_signal(country_acc[code]["years"], year, key, mw)
         if subnational_label != "Unknown":
             country_acc[code]["subnationals"][subnational_label]["facilities"] += 1
             country_acc[code]["subnationals"][subnational_label]["capacity_mw"] += mw
@@ -688,7 +701,7 @@ def main() -> None:
         dev_acc[owner]["capacity_mw"] += mw
         evidence_acc[evidence_bucket(r["evidence_grade"])] += 1
 
-        add_year_signal(years, year, key)
+        add_year_signal(years, year, key, mw)
 
         if key not in {"rej", "unk"} and mw > 0:
             centers.append(
@@ -815,10 +828,15 @@ def main() -> None:
     payload = {
         "generated_date": "2026-08-11",
         "totals": {
-            "capacity_mw": round(total_mw, 1),
-            "capacity_gw": round(total_mw / 1000, 1),
-            "tracked_mw": round(sum(float(a.get("tracked_mw", 0.0)) for a in country_acc.values()), 1),
-            "est_mw": round(sum(float(a.get("est_mw", 0.0)) for a in country_acc.values()), 1),
+            # Mechanical consistency (Jason 3672/3674): world totals are the
+            # exact sum of the rounded per-country stats (tracked + est
+            # mean-fill), never an independent DB-only number.
+            "capacity_mw": round(sum(c["capacity_mw"] for c in countries), 1),
+            "capacity_gw": round(sum(c["capacity_mw"] for c in countries) / 1000, 1),
+            "tracked_mw": round(sum(c["tracked_mw"] for c in countries), 1),
+            "est_mw": round(sum(c["est_mw"] for c in countries), 1),
+            "tracked_gw": round(sum(c["tracked_mw"] for c in countries) / 1000, 1),
+            "est_gw": round(sum(c["est_mw"] for c in countries) / 1000, 1),
             "facilities": len(rows),
             "sources": int(source_count),
             "counties_with_projects": len(counties),

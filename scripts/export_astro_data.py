@@ -16,6 +16,7 @@ DB_PATH = ROOT / "datacenters.db"
 OUT_PATH = ROOT / "astro" / "src" / "data" / "datacenters.json"
 AMERICAS_MANIFEST = ROOT / "scripts" / "expansion" / "americas" / "americas-manifest.jsonl"
 COUNTY_COORDS_PATH = ROOT / "scripts" / "expansion" / "us-county-coords.json"
+COORD_RESULTS_DIR = ROOT / "scripts" / "expansion" / "world" / "coord-results"
 COUNTIES_EXPLORED = 3222
 
 STATE_NAMES = {
@@ -428,11 +429,43 @@ def country_coord(code: str) -> list[float | None]:
     return COUNTRY_COORDS.get(code.upper(), [None, None])
 
 
+_SUBNATIONAL_COORDS: dict[tuple[str, str], list[float]] | None = None
+
+
+def load_subnational_coords() -> dict[tuple[str, str], list[float]]:
+    """Load world subnational coords from coord-results/*.jsonl (daemon-generated)."""
+    global _SUBNATIONAL_COORDS
+    if _SUBNATIONAL_COORDS is not None:
+        return _SUBNATIONAL_COORDS
+    coords: dict[tuple[str, str], list[float]] = {}
+    if COORD_RESULTS_DIR.exists():
+        for path in sorted(COORD_RESULTS_DIR.glob("batch-*.jsonl")):
+            try:
+                with path.open(encoding="utf-8") as handle:
+                    for line in handle:
+                        line = line.strip()
+                        if not line:
+                            continue
+                        item = json.loads(line)
+                        lat = item.get("lat")
+                        lng = item.get("lng")
+                        if lat is None or lng is None:
+                            continue
+                        coords[(item.get("country_code") or "", item.get("division") or "")] = [float(lat), float(lng)]
+            except Exception:
+                continue
+    _SUBNATIONAL_COORDS = coords
+    return coords
+
+
 def subnational_coord(country: str, name: str) -> list[float | None]:
     if country == "US":
         abbr = state_abbr(name)
         if abbr and abbr in STATE_COORDS:
             return STATE_COORDS[abbr]
+    coord = load_subnational_coords().get((country.upper(), name))
+    if coord:
+        return coord
     return country_coord(country)
 
 
@@ -576,6 +609,10 @@ def main() -> None:
         subnational = clean_text(row_value(r, columns, "subnational", None), "")
         abbr = state_abbr(subnational or r["state"])
         mw = float(r["capacity_mw"] or 0)
+        # CN energy estimate (Jason 3560-3566): use physical-method estimate when
+        # no public capacity is known, so CN aggregate capacity is filled.
+        if mw <= 0 and code == "CN" and columns.intersection({"capacity_mw_est_phys"}):
+            mw = float(r["capacity_mw_est_phys"] or 0)
         key = status_key(r["status"])
         year = r["year"] if isinstance(r["year"], int) else None
         owner = clean_text(r["owner"], "Unknown operator")

@@ -361,6 +361,14 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         animation: draw 1.4s cubic-bezier(0.3, 0.7, 0.2, 1) 0.9s forwards;
       }
 
+      .heroSplit {
+        font-size: 13px;
+        letter-spacing: 0.05em;
+        color: var(--mut);
+        font-family: var(--mono);
+        margin-bottom: 8px;
+      }
+
       @keyframes draw {
         to {
           width: 120px;
@@ -1367,6 +1375,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
             <span class="unit">GW <span class="en">TRACKED</span><span class="zh">追踪容量</span></span>
           </div>
           <div class="big-sub">
+            <div id="heroSplit" class="heroSplit"></div>
             <span id="heroSub"></span>
           </div>
           <div class="stats rv">
@@ -1558,6 +1567,10 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         subnationalsWithProjects: ["Areas with projects", "有项目的地区"],
         countyDrill: ["County drilldown", "县级下钻"],
         countyApprox: ["County coordinate missing; using the state centroid.", "县级坐标缺失，使用州质心近似。"],
+        tracked: ["Tracked", "已知"],
+        estimated: ["estimated", "估算"],
+        trackedShort: ["trk", "已知"],
+        estimatedShort: ["est", "估算"],
         americasSub: [
           `Data-center buildout across the Americas, grouped by ${DATA.totals.countries_explored.toLocaleString("en-US")} explored countries and territories.`,
           `覆盖全美洲 ${DATA.totals.countries_explored.toLocaleString("en-US")} 个已探索国家与地区的数据中心建设总盘。`
@@ -1605,6 +1618,10 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       const L = value => Array.isArray(value) ? value[langIndex()] : value;
       const fmt = value => Number(value).toLocaleString("en-US");
       const fmtMW = mw => mw >= 1000 ? `${(mw / 1000).toFixed(mw >= 10000 ? 1 : 2).replace(/\.?0+$/, "")} GW` : `${fmt(Math.round(mw))} MW`;
+      const gwOf = (src, mwKey, gwKey) => src?.[gwKey] != null ? Number(src[gwKey]) : (Number(src?.[mwKey]) || 0) / 1000;
+      const splitFull = (tGw, eGw) => `${(Number(tGw) || 0).toFixed(1)} GW ${L(I18N.tracked)} + ${(Number(eGw) || 0).toFixed(1)} GW ${L(I18N.estimated)}`;
+      const splitList = (tGw, eGw) => `<small>(${(Number(tGw) || 0).toFixed(1)}G ${L(I18N.trackedShort)} + ${(Number(eGw) || 0).toFixed(1)}G ${L(I18N.estimatedShort)})</small>`;
+      const splitSuffix = (tGw, eGw) => ` (${(Number(tGw) || 0).toFixed(1)}G + ${(Number(eGw) || 0).toFixed(1)}G ${L(I18N.estimatedShort)})`;
       const stColor = key => `var(--st-${key})`;
       const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" })[ch]);
       const rowBySlug = new Map(DATA.centers.filter(c => c.slug).map(c => [c.slug, c]));
@@ -1629,21 +1646,16 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       const scopedYears = () => selectedCountry()?.years || DATA.years;
       const scopedTotals = () => {
         const country = selectedCountry();
-        return country
-          ? {
-              capacity_mw: country.capacity_mw,
-              capacity_gw: country.capacity_gw,
-              facilities: country.facilities,
-              projects_geo: country.subnationals.length,
-              geo_label: I18N.subnationalsWithProjects,
-            }
-          : {
-              capacity_mw: DATA.totals.capacity_mw,
-              capacity_gw: DATA.totals.capacity_gw,
-              facilities: DATA.totals.facilities,
-              projects_geo: DATA.totals.countries_with_projects,
-              geo_label: I18N.countriesWithProjects,
-            };
+        const src = country || DATA.totals;
+        return {
+          capacity_mw: src.capacity_mw,
+          capacity_gw: src.capacity_gw,
+          facilities: src.facilities,
+          projects_geo: country ? country.subnationals.length : DATA.totals.countries_with_projects,
+          geo_label: country ? I18N.subnationalsWithProjects : I18N.countriesWithProjects,
+          tracked_gw: gwOf(src, "tracked_mw", "tracked_gw"),
+          est_gw: gwOf(src, "est_mw", "est_gw"),
+        };
       };
       const countryName = country => langIndex() ? country.name_zh : country.name_en;
       const hasCoord = item => Number.isFinite(Number(item?.lat)) && Number.isFinite(Number(item?.lng));
@@ -1802,8 +1814,9 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
             ? `<div class="p3">${L(I18N.countyApprox)}</div>`
             : "";
         const area = item.county ? `<div class="p3">${esc(item.state || item.state_abbr)} · ${L(I18N.countyDrill)}</div>` : "";
+        const estPart = item.est_mw !== undefined && item.est_mw !== null ? splitSuffix(gwOf(item, "tracked_mw", "tracked_gw"), gwOf(item, "est_mw", "est_gw")) : "";
         return `<div class="p1">${esc(title)}</div>
-          <div class="p2">${fmt(item.facilities)} ${L(I18N.facilities)} · ${fmtMW(item.capacity_mw)}</div>
+          <div class="p2">${fmt(item.facilities)} ${L(I18N.facilities)} · ${fmtMW(item.capacity_mw)}${estPart}</div>
           ${area}
           ${top ? `<div class="p3">${top}</div>` : ""}
           ${approximate}`;
@@ -1882,6 +1895,8 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         const totals = scopedTotals();
         const country = selectedCountry();
         document.getElementById("heroGW").textContent = totals.capacity_gw.toFixed(1);
+        const heroSplitEl = document.getElementById("heroSplit");
+        if (heroSplitEl) heroSplitEl.textContent = (Number(totals.tracked_gw) || 0) + (Number(totals.est_gw) || 0) > 0 ? splitFull(totals.tracked_gw, totals.est_gw) : "";
         document.getElementById("cFac").textContent = fmt(totals.facilities);
         document.getElementById("cSrc").textContent = fmt(DATA.totals.sources);
         document.getElementById("cCty").textContent = fmt(totals.projects_geo);
@@ -1900,7 +1915,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
           el.innerHTML = countries.map(c => {
             const value = mapMetric === "mw" ? c.capacity_mw : c.facilities;
             return `<button type="button" class="geoitem" data-map-country="${esc(c.code)}">
-              <span class="gt"><span class="gn">${esc(c.code)} · ${esc(countryName(c))}</span><span>${mapMetric === "mw" ? fmtMW(c.capacity_mw) : fmt(c.facilities)}</span></span>
+              <span class="gt"><span class="gn">${esc(c.code)} · ${esc(countryName(c))}</span><span>${mapMetric === "mw" ? (c.est_mw > 0 ? `${fmtMW(c.capacity_mw)} ${splitList(gwOf(c, "tracked_mw", "tracked_gw"), gwOf(c, "est_mw", "est_gw"))}` : fmtMW(c.capacity_mw)) : fmt(c.facilities)}</span></span>
               <span class="gv">${fmt(c.facilities)} ${L(I18N.facilities)}</span>
               <span class="gbar"><i style="width:${Math.max(1.5, value / max * 100).toFixed(1)}%"></i></span>
             </button>`;

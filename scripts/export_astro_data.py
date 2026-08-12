@@ -646,10 +646,15 @@ def main() -> None:
         subnational = clean_text(row_value(r, columns, "subnational", None), "")
         abbr = state_abbr(subnational or r["state"])
         mw = float(r["capacity_mw"] or 0)
-        # CN energy estimate (Jason 3560-3566): use physical-method estimate when
-        # no public capacity is known, so CN aggregate capacity is filled.
-        if mw <= 0 and code == "CN" and columns.intersection({"capacity_mw_est_phys"}):
-            mw = float(r["capacity_mw_est_phys"] or 0)
+        tracked_mw = mw
+        est_mw = 0.0
+        # Country-mean fill (Jason 3560-3566, 3622-3624): every country's missing
+        # capacity is filled with that country's known-capacity mean, and the
+        # tracked/est split is exposed in the UI.
+        if mw <= 0 and columns.intersection({"capacity_mw_est_mean"}):
+            mw = float(r["capacity_mw_est_mean"] or 0)
+            tracked_mw = 0.0
+            est_mw = mw
         key = status_key(r["status"])
         year = r["year"] if isinstance(r["year"], int) else None
         owner = clean_text(r["owner"], "Unknown operator")
@@ -657,6 +662,8 @@ def main() -> None:
 
         country_acc[code]["facilities"] += 1
         country_acc[code]["capacity_mw"] += mw
+        country_acc[code]["tracked_mw"] = country_acc[code].get("tracked_mw", 0.0) + tracked_mw
+        country_acc[code]["est_mw"] = country_acc[code].get("est_mw", 0.0) + est_mw
         country_acc[code]["funnel"][key]["count"] += 1
         country_acc[code]["funnel"][key]["capacity_mw"] += mw
         add_year_signal(country_acc[code]["years"], year, key)
@@ -769,6 +776,10 @@ def main() -> None:
                 "facilities": int(acc["facilities"]),
                 "capacity_mw": round(float(acc["capacity_mw"]), 1),
                 "capacity_gw": round(float(acc["capacity_mw"]) / 1000, 1),
+                "tracked_mw": round(float(acc.get("tracked_mw", 0.0)), 1),
+                "tracked_gw": round(float(acc.get("tracked_mw", 0.0)) / 1000, 1),
+                "est_mw": round(float(acc.get("est_mw", 0.0)), 1),
+                "est_gw": round(float(acc.get("est_mw", 0.0)) / 1000, 1),
                 "lat": lat,
                 "lng": lng,
                 "subnationals": subnationals,
@@ -806,6 +817,8 @@ def main() -> None:
         "totals": {
             "capacity_mw": round(total_mw, 1),
             "capacity_gw": round(total_mw / 1000, 1),
+            "tracked_mw": round(sum(float(a.get("tracked_mw", 0.0)) for a in country_acc.values()), 1),
+            "est_mw": round(sum(float(a.get("est_mw", 0.0)) for a in country_acc.values()), 1),
             "facilities": len(rows),
             "sources": int(source_count),
             "counties_with_projects": len(counties),

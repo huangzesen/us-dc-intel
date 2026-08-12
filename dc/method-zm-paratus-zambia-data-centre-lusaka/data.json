@@ -1,0 +1,23 @@
+{
+  "slug": "method-zm-paratus-zambia-data-centre-lusaka",
+  "canonical_project": "Paratus Zambia Data Centre (Lusaka)",
+  "owner": "Paratus Africa / Paratus Zambia",
+  "location": {
+    "city": "",
+    "subnational": "Lusaka",
+    "country": "Zambia",
+    "country_code": "ZM"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://paratus.africa/zambia/",
+    "https://www.datacenterdynamics.com/en/news/paratus-zambia-close-to-completing-lusaka-data-center/",
+    "https://it-online.co.za/2021/09/29/paratus-to-open-zambia-data-centre/",
+    "https://itweb.africa/article/paratus-zambia-to-open-new-datacentre-in-lusaka/WnxpE74gbb1vV8XL"
+  ],
+  "notes": "Official Paratus Zambia page lists data-centre colocation/cloud services (A). DCD 2021-04 (B) reported 1 MW carrier-neutral facility due for completion July 2021; IT-Online/IT News Africa report opening 1 Oct 2021 (B). ITWeb (B) describes ISO-certified 'Tier 3 design' facility. 1 MW is a B-grade media value; 'Tier III by design' is design wording, not Uptime certification. datacentermap lists address 34 Bwinjimfumu Rd, Lusaka (C).",
+  "method_batch": true
+}

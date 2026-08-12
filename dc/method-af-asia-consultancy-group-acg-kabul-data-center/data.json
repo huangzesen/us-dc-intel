@@ -1,0 +1,21 @@
+{
+  "slug": "method-af-asia-consultancy-group-acg-kabul-data-center",
+  "canonical_project": "Asia Consultancy Group (ACG) Kabul data center",
+  "owner": "Asia Consultancy Group (ACG)",
+  "location": {
+    "city": "",
+    "subnational": "Kabul",
+    "country": "Afghanistan",
+    "country_code": "AF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.acgtelasia.com/ict-solution",
+    "https://www.datacentermap.com/afghanistan/kabul/acg-data-center/"
+  ],
+  "notes": "ACG official ICT page confirms 5,000 sq ft data center and co-location at Kabul HQ; directory gives Shashdarak 2nd address/specs. Multi-city ACG claims (Herat, Kandahar, Mazar-e-Sharif, Jalalabad, Kunduz) are directory-only C leads, not verified.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-fi-fcdc-lahti-data-center-ilmarisentie",
+  "canonical_project": "FCDC Lahti data center (Ilmarisentie)",
+  "owner": "FCDC Corp Oy",
+  "location": {
+    "city": "",
+    "subnational": "Paijat-Hame",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": 100,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/500mw-data-center-proposed-in-lapland-finland/",
+    "https://www.datacentermap.com/finland/lahti/fcdc-lahti/"
+  ],
+  "notes": "DCD reported FCDC acquired a 10-hectare Lahti plot from city premises company Spatium for EUR 6m with plans for a 100 MW facility; aggregator places it at Ilmarisentie 3.",
+  "method_batch": true
+}

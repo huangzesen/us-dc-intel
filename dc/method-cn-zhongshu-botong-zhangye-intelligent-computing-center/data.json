@@ -1,0 +1,20 @@
+{
+  "slug": "method-cn-zhongshu-botong-zhangye-intelligent-computing-center",
+  "canonical_project": "Zhongshu Botong (Zhangye) Intelligent Computing Center",
+  "owner": "Zhongshu Zhineng (Zhangye) Technology Development Co., Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Gansu - Zhangye Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2025-01-07",
+  "evidence_grade": "A",
+  "sources": [
+    "http://www.zhangye.gov.cn/jjkfq/gzdt/gzdt_4515/202501/t20250107_1340977.html"
+  ],
+  "notes": "Kick-off ceremony held at Zhangye Economic Development Zone (Jan 2025); plans to deploy 3000 PFLOPS of AI compute equipment with 12-20 kW racks (training+inference), target PUE<=1.25. Newly verified this round.",
+  "method_batch": true
+}

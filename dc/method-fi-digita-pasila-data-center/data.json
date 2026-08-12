@@ -1,0 +1,21 @@
+{
+  "slug": "method-fi-digita-pasila-data-center",
+  "canonical_project": "Digita Pasila data center",
+  "owner": "Digita Oy",
+  "location": {
+    "city": "",
+    "subnational": "Uusimaa",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datacenter.digita.fi/",
+    "https://datacenter.digita.fi/our-data-centers/"
+  ],
+  "notes": "Digita Data Centers operates a Pasila (Helsinki) facility with strong interconnection/IXP role - methodology seed; not re-verified in depth this pass (grade B).",
+  "method_batch": true
+}

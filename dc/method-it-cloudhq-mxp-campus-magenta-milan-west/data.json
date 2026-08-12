@@ -1,0 +1,21 @@
+{
+  "slug": "method-it-cloudhq-mxp-campus-magenta-milan-west",
+  "canonical_project": "CloudHQ MXP campus, Magenta (Milan west)",
+  "owner": "CloudHQ",
+  "location": {
+    "city": "",
+    "subnational": "Lombardy",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": 240,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/italy/milan/cloudhq-mxp-campus/",
+    "https://va.mite.gov.it/it-IT/Oggetti/Info/9499"
+  ],
+  "notes": "CloudHQ MXP campus at V.le Piemonte, Magenta: 54-acre campus west of Milan with 5 data centers of 48 MW critical power each (240 MW total); first phase targeted 2024 (directory). MASE ID 9499 covers Noviglio datacenters Mxp I S.r.l. 'Nuovo Data Center' at Frazione Santa Corinna (Noviglio/Lacchiarella) - same CloudHQ Italian SPV lineage per methodology; separate record below.",
+  "method_batch": true
+}

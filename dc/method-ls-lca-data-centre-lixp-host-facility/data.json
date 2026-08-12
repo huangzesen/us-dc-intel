@@ -1,0 +1,21 @@
+{
+  "slug": "method-ls-lca-data-centre-lixp-host-facility",
+  "canonical_project": "LCA Data Centre / LIXP host facility",
+  "owner": "Lesotho Communications Authority (LCA) / LIXP",
+  "location": {
+    "city": "",
+    "subnational": "Maseru",
+    "country": "Lesotho",
+    "country_code": "LS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "http://www.lixp.org.ls/",
+    "https://www.peeringdb.com/"
+  ],
+  "notes": "LIXP official page (A): Lesotho Internet Exchange Point C/O Lesotho Communications Authority, 30 Princess Margaret Road, Old Europa, Maseru; peers incl. ETL, Vodacom, MCST, NUL, LECC, Comnet, LsNIC; hosts Google global caches, Akamai caches and L-Root server. Institutional/interconnection facility; IXP is not an independent public colo datacenter.",
+  "method_batch": true
+}

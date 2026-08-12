@@ -1,0 +1,20 @@
+{
+  "slug": "method-ng-mtn-kano-switch-data-centre",
+  "canonical_project": "MTN Kano Switch data centre",
+  "owner": "MTN Nigeria Communications",
+  "location": {
+    "city": "",
+    "subnational": "Kano",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://nerc.gov.ng/wp-content/uploads/2023/12/Captive-Power-Generation-Permit-2.csv"
+  ],
+  "notes": "NERC captive-power permit records an MTN Nigeria switch/data-centre site in Kano (methodology seed). Telecom switch facility; no public colocation service evidence.",
+  "method_batch": true
+}

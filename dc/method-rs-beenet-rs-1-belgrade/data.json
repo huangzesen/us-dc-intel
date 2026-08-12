@@ -1,0 +1,21 @@
+{
+  "slug": "method-rs-beenet-rs-1-belgrade",
+  "canonical_project": "BeeNet RS-1 Belgrade",
+  "owner": "BeeNet",
+  "location": {
+    "city": "",
+    "subnational": "Belgrade",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.beenet.rs/en/data-center",
+    "https://www.datacentermap.com/serbia/belgrade/beenet-rs1/"
+  ],
+  "notes": "Official BeeNet page lists RS-1 Belgrade among three data centers (RS-1 Belgrade, RS-2 Vrsac, MNE-1 Podgorica); directory capacity ~0.15 MW unverified.",
+  "method_batch": true
+}

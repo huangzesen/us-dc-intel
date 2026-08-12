@@ -1,0 +1,23 @@
+{
+  "slug": "method-cg-arpce-data-center-pointe-noire-tier-3",
+  "canonical_project": "ARPCE Data Center Pointe-Noire (Tier 3+)",
+  "owner": "ARPCE",
+  "location": {
+    "city": "",
+    "subnational": "Black Point",
+    "country": "Congo",
+    "country_code": "CG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://gouvernement.cg/economie-numerique-denis-sassou-nguesso-connecte-le-congo-au-cable-2africa/",
+    "https://www.datacenterdynamics.com/en/news/republic-of-congo-launches-data-center-in-pointe-noire-for-2africa-cable/",
+    "https://www.adiac-congo.com/content/technologie-lancement-du-deuxieme-point-cgix-de-larpce-pointe-noire-159992",
+    "https://www.agenceecofin.com/equipement/2902-116638-le-congo-renforce-son-infrastructure-numerique-avec-la-mise-en-service-d-un-nouveau-centre-de-donnees-de-6-3-millions-nbsp"
+  ],
+  "notes": "Tier 3+ datacenter in Pointe-Noire commissioned 28 Feb 2024 (government page: 'mise en service du Data center de type TIER 3+ construit par l'ARPCE'), reported 3.8bn FCFA / ~USD 6.3m; hosts CGIX-PN (2nd Congo IXP, launched 20 Sep 2024); DCD reports 54 racks / 156 sqm (capacity B/C until ARPCE datasheet). Official government source A for commissioning; capacity figures B/C.",
+  "method_batch": true
+}

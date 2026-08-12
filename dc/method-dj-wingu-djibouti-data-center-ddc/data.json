@@ -1,0 +1,22 @@
+{
+  "slug": "method-dj-wingu-djibouti-data-center-ddc",
+  "canonical_project": "Wingu / Djibouti Data Center (DDC)",
+  "owner": "Wingu Africa / Djibouti Data Centre SARL",
+  "location": {
+    "city": "",
+    "subnational": "Djibouti",
+    "country": "Djibouti",
+    "country_code": "DJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A-",
+  "sources": [
+    "https://www.wingu.africa/markets/djibouti",
+    "https://www.datacenterdynamics.com/en/news/djibouti-launches-data-center-near-submarine-cable-landing/",
+    "https://www.ams-ix.net/dji"
+  ],
+  "notes": "Wingu's official Djibouti market page (checked 2026-08-12) presents the Djibouti Data Centre as the country's primary carrier-neutral colocation and connectivity hub with access to AMS-IX Djibouti/DjIX and major subsea cable systems; DCD history records the facility opened 2013 near Djibouti Telecom's cable landing infrastructure. Directory ~1 MW capacity is C-grade only, so capacity kept null. No AWS/Azure/GCP/Oracle public cloud region in Djibouti per official provider pages (cloud-region exclusion re-checked 2026-08-12).",
+  "method_batch": true
+}

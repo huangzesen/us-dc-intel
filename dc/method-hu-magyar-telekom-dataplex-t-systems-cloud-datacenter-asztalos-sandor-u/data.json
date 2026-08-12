@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-magyar-telekom-dataplex-t-systems-cloud-datacenter-asztalos-sandor-u",
+  "canonical_project": "Magyar Telekom Dataplex / T-Systems Cloud & DataCenter (Asztalos Sandor u.)",
+  "owner": "Magyar Telekom Nyrt. / T-Systems",
+  "location": {
+    "city": "",
+    "subnational": "Budapest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telekom.hu/about_us/services/wholesale/national_fixed_line_solutions/ip_and_data/hosting",
+    "https://www.computertrends.hu/melleklet/kornyezettudatos-adatkozpont-80262.html"
+  ],
+  "notes": "Magyar Telekom's official wholesale hosting page lists T-Systems Cloud & DataCenter at 1087 Budapest, Asztalos Sandor u. 13 (corner of Ciprus utca). ComputerTrends confirms T-Systems operates four data centers in Hungary: two in Budapest (Adatpark and Dataplex) plus Gyor and Szeged. Commercial colocation/hosting. Baxtel market summary claims ~8 MW for Dataplex (unverified capacity, kept null).",
+  "method_batch": true
+}

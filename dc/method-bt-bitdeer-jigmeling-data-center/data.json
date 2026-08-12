@@ -1,0 +1,23 @@
+{
+  "slug": "method-bt-bitdeer-jigmeling-data-center",
+  "canonical_project": "Bitdeer Jigmeling data center",
+  "owner": "Bitdeer Technologies Group (Bitdeer Jigmeling Pvt. Ltd.)",
+  "location": {
+    "city": "",
+    "subnational": "Sarpang",
+    "country": "Bhutan",
+    "country_code": "BT"
+  },
+  "capacity_mw": 500,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bitdeer.com/datacenter",
+    "https://coincu.com/bhutan-bitcoin-reserves-drop-70-percent-mining-status/",
+    "https://kuenselonline.com/news/bitdeer-jigmelings-500mw-mining-centre-to-go-full-scale-in-2026",
+    "https://www.bbs.bt/226852/"
+  ],
+  "notes": "asset_class=crypto/mining datacenter. Bitdeer launched the 500 MW Jigmeling facility (second project, March 2024 per bitdeer.com; phased operations started 1 Apr 2025 per BBS) and its Jan 31 2026 infrastructure summary lists Jigmeling as online; Kuensel reports full-scale operations targeted for 2026. Do not record as merely planned; capacity is electrical/mining MW, not IT load.",
+  "method_batch": true
+}

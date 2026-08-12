@@ -1,0 +1,22 @@
+{
+  "slug": "method-bt-btix-bhutan-internet-exchange",
+  "canonical_project": "btIX Bhutan Internet Exchange",
+  "owner": "Bhutan Internet Exchange Association",
+  "location": {
+    "city": "",
+    "subnational": "Thimphu",
+    "country": "Bhutan",
+    "country_code": "BT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.peeringdb.com/ix/2355",
+    "https://www.btix.bt/",
+    "https://whois.ipip.net/AS7615"
+  ],
+  "notes": "asset_class=internet exchange (interconnection, not a datacenter by itself). PeeringDB ix/2355, AS7615 BTIX-AS-AP and btIX site place the exchange at Thimphu TechPark, Wangchuktaba Babesa, Thimphu. Operational IX for Bhutan telecom/ISP community.",
+  "method_batch": true
+}

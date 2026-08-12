@@ -1,0 +1,22 @@
+{
+  "slug": "method-hu-paks-data-center-campus-partec-ag",
+  "canonical_project": "Paks Data Center Campus (ParTec AG)",
+  "owner": "ParTec AG (German) with Hungarian government support",
+  "location": {
+    "city": "",
+    "subnational": "Tolna",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": 96,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.teol.hu/helyi-gazdasag/2025/07/mesterseges-intelligencia-paks-gigaberuhazas",
+    "https://www.vg.hu/vilaggazdasag-magyar-gazdasag/2025/07/mesterseges-intelligencia-gigaberuhazas-paks",
+    "https://hirlevel.egov.hu/2025/07/09/harom-milliard-euros-mestersegesintelligencia-adatkozpont-letesiteset-jelentettek-be-pakson/"
+  ],
+  "notes": "Announced Jul 2025: ~EUR 3bn (HUF ~1200bn) new-generation modular AI datacenter near Paks nuclear power plant, up to 96 MW power consumption, plus 530-hectare agro-photovoltaic solar park and large BESS for grid stability; heat reuse for neighbouring agriculture. Government AI commissioner Palkovics Laszlo cited operation start from 2027. Status planned/announced; requires permit/grid/land evidence to upgrade. planned_ai_energy_campus.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-id-ntt-jakarta-2-jakarta-2a",
+  "canonical_project": "NTT Jakarta 2 / Jakarta 2A",
+  "owner": "NTT Global Data Centers (NTT Ltd Indonesia)",
+  "location": {
+    "city": "",
+    "subnational": "Jakarta",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.crn.com/ntt-to-build-500-million-data-center-in-indonesia",
+    "https://www.thejakartapost.com/news/2019/09/30/japans-ntt-to-spend-500-million-on-third-data-center-in-indonesia"
+  ],
+  "notes": "NTT legacy data centers in central Jakarta: Jakarta 2 (approx 9.3-9.4 MW) and Jakarta 2A (approx 12 MW) per industry/methodology sources. NTT also built Jakarta 3 (45 MW, 18,000 sqm IT space) at MM2100 Industrial Estate, Cibitung/Bekasi which belongs to West Java division (out of this batch). Capacity figures from trade press, B grade.",
+  "method_batch": true
+}

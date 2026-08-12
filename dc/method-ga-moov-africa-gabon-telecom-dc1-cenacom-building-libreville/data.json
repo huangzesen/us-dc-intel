@@ -1,0 +1,21 @@
+{
+  "slug": "method-ga-moov-africa-gabon-telecom-dc1-cenacom-building-libreville",
+  "canonical_project": "Moov Africa Gabon Telecom DC1 (Cenacom Building, Libreville)",
+  "owner": "Moov Africa Gabon Telecom (Maroc Telecom group)",
+  "location": {
+    "city": "",
+    "subnational": "Estuary",
+    "country": "Gabon",
+    "country_code": "GA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/dc1-cenacom-building-libreville/2003",
+    "https://www.moov-africa.ga/"
+  ],
+  "notes": "Legacy telco data center; the only Uptime Institute record located for Gabon (DC1, Cenacom Building, Libreville); tier level and certification date still to be confirmed on the Uptime list; GABIX POP CT-1 is hosted at/near the Cenacom building; third-party colocation offering unconfirmed.",
+  "method_batch": true
+}

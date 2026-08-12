@@ -1,0 +1,22 @@
+{
+  "slug": "method-er-eritel-hosted-email-and-private-cloud-platform-eritel-datacenters",
+  "canonical_project": "EriTel hosted email and private cloud platform (EriTel datacenters)",
+  "owner": "Eritrea Telecommunication Services Corporation (EriTel)",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Eritrea",
+    "country_code": "ER"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://eritel.com.er/contents.php?id=1046",
+    "https://eritel.com.er/contents.php?id=1045",
+    "https://eritel.com.er/contents.php?id=1029"
+  ],
+  "notes": "Official EriTel pages (verified live 2026-08-12) state EriTel Nextcloud Private Cloud Services and local Email Hosting Services (Axigen, Barracuda gateway, VM replica, weekly backups, 99% uptime) are hosted in EriTel's datacenters; private-cloud tiers 100-500 GB storage / 20-100 users, 10/5 Mbps committed direct connect in Asmara vs 2/2 Mbps remote cities, 90% uptime, up to 6-day RTO. Only verified official datacenter-class signal in Eritrea. Exact facility name/address/racks/MW/redundancy not published; Asmara/Central is strongest locality inference (EriTel HQ in Asmara), exact site undisclosed.",
+  "method_batch": true
+}

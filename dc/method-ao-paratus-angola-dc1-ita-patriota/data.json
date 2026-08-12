@@ -1,0 +1,22 @@
+{
+  "slug": "method-ao-paratus-angola-dc1-ita-patriota",
+  "canonical_project": "Paratus Angola DC1 (ITA, Patriota)",
+  "owner": "Paratus Angola (Internet Technologies Angola S.A.)",
+  "location": {
+    "city": "",
+    "subnational": "Luanda",
+    "country": "Angola",
+    "country_code": "AO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.paratus.ao/en/",
+    "https://www.datacenterdynamics.com/en/news/paratus-group-to-build-third-angola-data-center/",
+    "https://www.datacentermap.com/angola/luanda/ita-luanda/"
+  ],
+  "notes": "First Luanda campus data center launched 2017, capacity for 1,500 servers (DCD); official Paratus services page confirms Angola data center operations; ISO 9001/27001 and PCI-DSS certified; capacity_mw null (directory 2 MW is C-grade).",
+  "method_batch": true
+}

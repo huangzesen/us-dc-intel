@@ -1,0 +1,20 @@
+{
+  "slug": "method-sc-seas-cable-landing-station-victoria",
+  "canonical_project": "SEAS cable landing station - Victoria",
+  "owner": "WIOCC / Seychelles Cable Systems context (SEAS consortium)",
+  "location": {
+    "city": "",
+    "subnational": "English River",
+    "country": "Seychelles",
+    "country_code": "SC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.wiocc.net/seas"
+  ],
+  "notes": "Connectivity infrastructure, NOT a datacentre. WIOCC SEAS page (browsed 2026-08-12): Seychelles East Africa System is a 1,917km submarine fibre cable between Mahe/Seychelles and Dar es Salaam, Tanzania - first international cable connecting Seychelles; Cable Landing Station located in the capital Victoria (English River district area). Historic ESIA/press material referenced a Beau Vallon shore approach (see Beau Vallon no-projects note). Legacy CWS Victoria exchange/server-room lead remains unverified in this pass - no public facility source found.",
+  "method_batch": true
+}

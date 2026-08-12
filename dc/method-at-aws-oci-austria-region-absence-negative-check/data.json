@@ -1,0 +1,21 @@
+{
+  "slug": "method-at-aws-oci-austria-region-absence-negative-check",
+  "canonical_project": "AWS/OCI Austria region absence (negative check)",
+  "owner": "n/a",
+  "location": {
+    "city": "",
+    "subnational": "Vienna",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+    "https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm"
+  ],
+  "notes": "Negative control per methodology: AWS global infrastructure pages list no Austrian region/AZ and Oracle OCI region docs list no Austrian public cloud region (A-grade absence). Equinix has no Austrian IBX in its official EMEA footprint; beware Vienna, VA false positives. Any AWS/OCI Austria facility claim should be treated as unsupported unless a provider source appears.",
+  "method_batch": true
+}

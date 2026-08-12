@@ -1,0 +1,21 @@
+{
+  "slug": "method-sn-senelec-datacenter-diamniadio",
+  "canonical_project": "Senelec Datacenter Diamniadio",
+  "owner": "Senelec (national electricity utility)",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/senelec-datacenter-diamniadio-/1245",
+    "https://www.forumrsesn.org/2022/07/22/electricite-inauguration-datacenter-senelec/"
+  ],
+  "notes": "Uptime Institute award record for Senelec Datacenter Diamniadio (A). Inaugurated 20 July 2022 by the Minister of Petroleum and Energy (Forum RSE, B); press describes Tier III certification. Utility/internal facility; kept separate from the SENUM national DC per methodology.",
+  "method_batch": true
+}

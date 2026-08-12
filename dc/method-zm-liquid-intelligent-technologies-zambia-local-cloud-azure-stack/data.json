@@ -1,0 +1,21 @@
+{
+  "slug": "method-zm-liquid-intelligent-technologies-zambia-local-cloud-azure-stack",
+  "canonical_project": "Liquid Intelligent Technologies Zambia local cloud (Azure Stack)",
+  "owner": "Liquid Intelligent Technologies Zambia (Cassava Technologies)",
+  "location": {
+    "city": "",
+    "subnational": "Lusaka",
+    "country": "Zambia",
+    "country_code": "ZM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.worldteleport.org/news/652137/Liquid-Intelligent-Technologies-Zambia-launches-Azure-Stack.htm",
+    "https://liquid.tech/local-offices/country/zambia/"
+  ],
+  "notes": "Liquid's Azure Stack launch announcement for Zambia (World Teleport reprint, B; methodology grades Liquid's own announcement page A for the Azure Stack claim). Local/hybrid cloud operated from Lusaka; NOT an Azure public region (no hyperscaler public region in Zambia per official provider pages). No public dedicated-DC facility page/address/capacity found.",
+  "method_batch": true
+}

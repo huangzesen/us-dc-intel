@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-idc-frontier-tokyo-fuchu-ariake-nihombashi-data-centers",
+  "canonical_project": "IDC Frontier Tokyo Fuchu / Ariake / Nihombashi Data Centers",
+  "owner": "IDC Frontier (SoftBank)",
+  "location": {
+    "city": "",
+    "subnational": "Tokyo",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idcf.jp/en/datacenter/location/"
+  ],
+  "notes": "Official locations page: Fuchu (largest-class in Tokyo, hyperscaler-capable), Ariake (waterfront disaster-prevention), Nihombashi (near Otemachi, on-prem IX).",
+  "method_batch": true
+}

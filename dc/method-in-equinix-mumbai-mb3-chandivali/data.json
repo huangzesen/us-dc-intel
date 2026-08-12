@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-equinix-mumbai-mb3-chandivali",
+  "canonical_project": "Equinix Mumbai MB3, Chandivali",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Maharashtra - Mumbai Suburban",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-04-09",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/equinix-launches-data-center-in-mumbai-india/",
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/india-colocation/mumbai-data-centers/mb3"
+  ],
+  "notes": "Fourth Mumbai IBX, opened April 2026 on ~5 acres in Chandivali/Powai (Mumbai Suburban); five-storey purpose-built facility supporting 1,370 racks initially, scaling to ~5,475 at full build-out; ~USD 95m investment; liquid cooling for AI workloads.",
+  "method_batch": true
+}

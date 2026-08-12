@@ -1,0 +1,20 @@
+{
+  "slug": "method-at-fragmentix-lend-ai-data-center-lendaidc",
+  "canonical_project": "Fragmentix Lend AI Data Center (LendAIDC)",
+  "owner": "fragmentiX (with Lutsch Consulting, Zatloukal Innovations)",
+  "location": {
+    "city": "",
+    "subnational": "Salzburg",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": 25.0,
+  "status": "construction",
+  "evidence_date": "2025-09-27",
+  "evidence_grade": "B",
+  "sources": [
+    "https://wirtschafts-nachrichten.at/salzburg/ki-rechenzentrum-salzburg-fragmentix-data-center-wasserkraft/"
+  ],
+  "notes": "Local/regional press (2025-09-27): Fragmentix builds AI/high-security data center in Lend, Salzburg in a repurposed industrial hall; planned total power 25 MW from local existing hydro plants; first test servers already running for Austrian authorities; Dell hardware with full Austrian control; EU-RESTRICTED-classified data capability. B-grade press; operator/permit/grid confirmation still recommended (methodology: treat as lead until primary confirmation).",
+  "method_batch": true
+}

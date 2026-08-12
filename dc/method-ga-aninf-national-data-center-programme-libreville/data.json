@@ -1,0 +1,21 @@
+{
+  "slug": "method-ga-aninf-national-data-center-programme-libreville",
+  "canonical_project": "ANINF national data center programme (Libreville)",
+  "owner": "ANINF (Agence Nationale des Infrastructures Numeriques et des Frequences)",
+  "location": {
+    "city": "",
+    "subnational": "Estuary",
+    "country": "Gabon",
+    "country_code": "GA"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aninf.ga/projet/data-center-national-garantir-la-souverainete-des-donnees/",
+    "https://aninf.ga/souverainete-numerique-le-gabon-lance-son-data-center-national-et-affirme-son-independance-technologique/"
+  ],
+  "notes": "State national-DC programme record (A-grade for programme intent, C for facility identity); physical site/operator unresolved - keep separate from ST Digital Nkok and the Cybastion agreement unless ownership/address evidence merges them; AfDB 2018 grant covered national-DC feasibility.",
+  "method_batch": true
+}

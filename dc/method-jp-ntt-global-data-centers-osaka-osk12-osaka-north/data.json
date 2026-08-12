@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-ntt-global-data-centers-osaka-osk12-osaka-north",
+  "canonical_project": "NTT Global Data Centers Osaka OSK12 (Osaka North)",
+  "owner": "NTT Global Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Osaka",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 18,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/asia-pacific/osaka-osk12-data-center"
+  ],
+  "notes": "First building of a 36MW campus in the Osaka North (Ibaraki) area; official page states 18MW IT load for OSK12.",
+  "method_batch": true
+}

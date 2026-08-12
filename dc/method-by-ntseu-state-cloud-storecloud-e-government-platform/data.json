@@ -1,0 +1,21 @@
+{
+  "slug": "method-by-ntseu-state-cloud-storecloud-e-government-platform",
+  "canonical_project": "NTSEU state cloud / StoreCloud e-government platform",
+  "owner": "RUE National Centre for Electronic Services (NTSEU)",
+  "location": {
+    "city": "",
+    "subnational": "Minsk City",
+    "country": "Belarus",
+    "country_code": "BY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://nces.by/",
+    "https://nces.by/oblachnoe_hranilishche/"
+  ],
+  "notes": "State e-government/cloud storage platform (ownCloud-based StoreCloud); legal address 220140 Minsk, Prititskogo 64; verified state platform, not public commercial colocation.",
+  "method_batch": true
+}

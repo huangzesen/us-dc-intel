@@ -1,0 +1,21 @@
+{
+  "slug": "method-ae-equinix-dubai-dx1-dx2-dx3-impz",
+  "canonical_project": "Equinix Dubai DX1/DX2/DX3 (IMPZ)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Dubai - Sector 6",
+    "country": "United Arab Emirates",
+    "country_code": "AE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/united-arab-emirates-colocation/dubai-data-centers",
+    "https://www.peeringdb.com/fac/14653"
+  ],
+  "notes": "Equinix official Dubai page lists three IBX campuses (DX1, DX2, DX3) plus UAE-IX by DE-CIX; PeeringDB facility 14653 places DX3 at International Media Production Zone (IMPZ). IMPZ/Dubai Production City maps to Sector 6. No public MW per campus on official page.",
+  "method_batch": true
+}

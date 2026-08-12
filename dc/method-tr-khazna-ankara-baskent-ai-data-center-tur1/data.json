@@ -1,0 +1,22 @@
+{
+  "slug": "method-tr-khazna-ankara-baskent-ai-data-center-tur1",
+  "canonical_project": "Khazna Ankara - Baskent AI Data Center (TUR1)",
+  "owner": "Khazna Data Centers (majority-owned by G42, UAE)",
+  "location": {
+    "city": "",
+    "subnational": "Ankara",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": 100,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://thetechcapital.com/khazna-to-add-more-than-1gw-as-it-steps-up-expansion-beyond-the-uae/",
+    "https://www.turkiyegazetesi.com.tr/dunya/turkiye-yapay-zeka-ussu-oluyor-baenin-dijital-lokomotifi-ankarada-kurulacak-1112354",
+    "https://www.datacentermap.com/turkey/ankara/"
+  ],
+  "notes": "Khazna (G42) announced an AI-ready 100 MW data center near Ankara at Baskent Organized Industrial Zone, Sincan; The Tech Capital and Turkish press report the 100 MW plan as Khazna's first Turkiye investment; directory entries (DataCenterMap/DataCenters.com TUR1) corroborate location and 100 MW power access. No construction/permit evidence yet - announced/planned status; capacity_mw=100 is planned power figure from press, treat as C-grade capacity.",
+  "method_batch": true
+}

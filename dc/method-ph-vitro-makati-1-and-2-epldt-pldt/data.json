@@ -1,0 +1,23 @@
+{
+  "slug": "method-ph-vitro-makati-1-and-2-epldt-pldt",
+  "canonical_project": "VITRO Makati 1 and 2 (ePLDT/PLDT)",
+  "owner": "ePLDT / VITRO Inc. (PLDT Group)",
+  "location": {
+    "city": "",
+    "subnational": "National Capital Region",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 16,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacentermap.com/philippines/manila/epldt-vitro-makati-2/",
+    "https://www.epldt.com/",
+    "https://cloudscene.com/data-center/philippines/regional/epldt-vitro-makati-2?quote=true",
+    "https://www.bworldonline.com/spotlight/2021/08/09/387865/epldt-vitro-data-center-empowering-enterprises-across-the-country/"
+  ],
+  "notes": "VITRO Makati 2 is ePLDT's flagship, first PH data center with ANSI/TIA-942 Rated 3 Facilities certification; DataCenterMap lists 16 MW. VITRO Makati 1 provides 580 sqm data hall space. Operational carrier-neutral colocation in Makati (NCR); Meralco-served. A for operator/official; 16 MW from directory (C/B-), keep as marketed.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-jp-at-tokyo-chuo-center-campus-cc1-cc2-dc-portfolio",
+  "canonical_project": "AT TOKYO Chuo Center Campus (CC1/CC2) & DC portfolio",
+  "owner": "AT TOKYO",
+  "location": {
+    "city": "",
+    "subnational": "Tokyo",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 130,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.attokyo.com/",
+    "https://baxtel.com/data-center/tokyo-chuo-center-cc1-cc2"
+  ],
+  "notes": "Official AT TOKYO page states 13 data centers in Japan's main business centers (Chuo/Toyosu, Tama etc.); Baxtel lists Chuo Center CC1&CC2 as Japan's largest facility at 130MW. Capacity figure from aggregator.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-ch-t-systems-t-cloud-public-zollikofen-bern",
+  "canonical_project": "T-Systems / T Cloud Public Zollikofen (Bern)",
+  "owner": "T-Systems Schweiz AG / Deutsche Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Bern",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://de.wikipedia.org/wiki/T_Cloud_Public",
+    "https://www.datacentermap.com/switzerland/bern/t-systems-zollikofen/",
+    "https://www.t-cloud-public.com/en/data-security-gdpr-cloud/data-centers"
+  ],
+  "notes": "T Cloud Public Switzerland community cloud operated from sites in Bern and Zollikofen since 2022 (de.wikipedia entry citing T-Systems); T-Systems Schweiz AG registered in Zollikofen; datacentermap lists T-Systems Zollikofen facility. Public/enterprise cloud facility; capacity not published. Grade B (Wikipedia/methodology corroboration + directory) pending T-Systems official facility datasheet.",
+  "method_batch": true
+}

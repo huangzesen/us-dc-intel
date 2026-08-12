@@ -1,0 +1,22 @@
+{
+  "slug": "method-uz-uzcloud-uzinfocom-national-cloud-network-5-sites",
+  "canonical_project": "UzCloud / UZINFOCOM national cloud network (5 sites)",
+  "owner": "UZINFOCOM / UzCloud (state cloud operator)",
+  "location": {
+    "city": "",
+    "subnational": "Tashkent",
+    "country": "Uzbekistan",
+    "country_code": "UZ"
+  },
+  "capacity_mw": 5.1,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uzcloud.uz/en/infrastructure/data-centers",
+    "https://uzcloud.uz/en/about",
+    "https://uz.linkedin.com/company/uzcloud"
+  ],
+  "notes": "UzCloud officially claims 5 data centers across 4 regions, 61 modules, 299 IT racks and 5.1 MW capacity, with named sites including Akhangaran (Tashkent Region), Bukhara and Kokand (Fergana Region); operator page also claims 40 Gbps TAS-IX connectivity and GPU-as-a-Service. LinkedIn states 3 proprietary Tier III-certified DCs in Kokand, Tashkent and Bukhara. Recorded as operator-stated footprint (A for claim); per-site physical reconciliation with Uzbektelecom cloud hubs pending to avoid double counting. Cloud-region negative check re-run 2026-08-12: no AWS/Azure/GCP/Oracle public cloud region in Uzbekistan; Yandex Cloud documents only a Kazakhstan region.",
+  "method_batch": true
+}

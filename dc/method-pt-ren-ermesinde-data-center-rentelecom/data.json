@@ -1,0 +1,20 @@
+{
+  "slug": "method-pt-ren-ermesinde-data-center-rentelecom",
+  "canonical_project": "REN Ermesinde Data Center (RENTELECOM)",
+  "owner": "REN - Redes Energeticas Nacionais / RENTELECOM",
+  "location": {
+    "city": "",
+    "subnational": "Porto",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/portugal/porto/ermesinde/"
+  ],
+  "notes": "Carrier-neutral data center at Rua das Agras Novas 46, Ermesinde (Porto district), run by REN's telecom unit; directory-listed 0.5 MW. C-grade directory evidence only; verify with REN/RENTELECOM before upgrading. NFSi Telecom Porto1 and FCCN Oporto also directory-listed in Porto (C).",
+  "method_batch": true
+}

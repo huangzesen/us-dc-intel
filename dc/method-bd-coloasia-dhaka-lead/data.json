@@ -1,0 +1,20 @@
+{
+  "slug": "method-bd-coloasia-dhaka-lead",
+  "canonical_project": "ColoAsia Dhaka (lead)",
+  "owner": "ColoAsia Limited",
+  "location": {
+    "city": "",
+    "subnational": "Dhaka",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.coloasiabd.com/"
+  ],
+  "notes": "Operator site confirms ColoAsia exists and claims multiple data centres across Bangladesh including Dhaka; individual Dhaka physical site/address unverified (claims vary). Recorded as lead pending per-site verification; the Jashore (Khulna) site is separately evidenced via TIA-942.",
+  "method_batch": true
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "method-cy-cyta-simplex-lca1-data-center",
+  "canonical_project": "Cyta / Simplex LCA1 Data Center",
+  "owner": "Cyta (acquired from Simplex)",
+  "location": {
+    "city": "",
+    "subnational": "Larnaca",
+    "country": "Cyprus",
+    "country_code": "CY"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cyta.com.cy/pr/2025-may-7?postid=357",
+    "https://www.datacenterdynamics.com/en/news/cyta-acquires-data-center-in-cyprus/",
+    "https://subtelforum.com/cyta-acquires-data-centre-to-boost-regional-infrastructure/",
+    "https://fastforward.com.cy/tech/cyta-acquires-simplex-lca1-cypruss-largest-private-data-center",
+    "https://www.datacentermap.com/cyprus/larnaca/lca1-data-center/"
+  ],
+  "notes": "Cyta official press (2025-05-07) + 2024 annual report confirm acquisition of Simplex LCA1 in Larnaca, nearly 1 MW maximum power and Tier III specifications (A). Directory places LCA1 at 1 Alpeon Street, Larnaca; SubTel Forum/FastForward provide trade context (B).",
+  "method_batch": true
+}

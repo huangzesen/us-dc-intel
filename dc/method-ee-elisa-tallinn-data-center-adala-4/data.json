@@ -1,0 +1,21 @@
+{
+  "slug": "method-ee-elisa-tallinn-data-center-adala-4",
+  "canonical_project": "Elisa Tallinn data center (Adala 4)",
+  "owner": "Elisa Eesti",
+  "location": {
+    "city": "",
+    "subnational": "Harju",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/estonia/tallinn/elisa-tallinn/",
+    "https://elisa.com/carrierservices/Co-location_services_and_solutions/data-center-services/"
+  ],
+  "notes": "Harju/Tallinn, Adala 4; catalog address (DataCenterMap/datacenterplatform) + Elisa first-party confirms data-center services in Estonia. Candidate operating facility; EHR/TPR verification still needed for Grade A count.",
+  "method_batch": true
+}

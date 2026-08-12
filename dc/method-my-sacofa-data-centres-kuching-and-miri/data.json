@@ -1,0 +1,21 @@
+{
+  "slug": "method-my-sacofa-data-centres-kuching-and-miri",
+  "canonical_project": "SACOFA data centres (Kuching and Miri)",
+  "owner": "SACOFA Sdn Bhd",
+  "location": {
+    "city": "",
+    "subnational": "Sarawak",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/sacofa-sacofa-kuching",
+    "https://botcrawl.com/data-centers/sacofa-kuching/"
+  ],
+  "notes": "SACOFA (Sarawak telecom infrastructure operator) operates data centres in Kuching (Lot 367, Jalan Satok - operational interconnection facility) and Miri (directory listings; 2 locations per datacenters.com). C-grade directory evidence; no official SACOFA facility page with MW data found. Sarawak energy trail (Sarawak Energy hydro) may drive future DC growth - no hyperscale facility verified.",
+  "method_batch": true
+}

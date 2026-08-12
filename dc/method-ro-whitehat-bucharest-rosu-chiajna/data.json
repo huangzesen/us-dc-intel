@@ -1,0 +1,20 @@
+{
+  "slug": "method-ro-whitehat-bucharest-rosu-chiajna",
+  "canonical_project": "WhiteHat Bucharest (Rosu, Chiajna)",
+  "owner": "WhiteHat",
+  "location": {
+    "city": "",
+    "subnational": "Ilfov",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/providers/whitehat"
+  ],
+  "notes": "Strada Rezervelor 72, Rosu (Chiajna commune, Ilfov) - physically Ilfov per address even though marketed as Bucharest; one of WhiteHat's three Romanian DCs; directory-grade evidence.",
+  "method_batch": true
+}

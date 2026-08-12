@@ -1,0 +1,23 @@
+{
+  "slug": "method-de-siemens-healthineers-forchheim-sites-with-data-center-infrastructure-office-deve",
+  "canonical_project": "Siemens Healthineers Forchheim sites with data center infrastructure (office/development building, HEP Center, Detector Center)",
+  "owner": "Siemens Healthineers / Siemens Real Estate",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Forchheim",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-07-22",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.siemens-healthineers.com/press/features/hep-center",
+    "https://www.porr.de/en/projects/detail/siemens-healthineers-hep-forchheim",
+    "https://rumausbau.apleona.com/apleona-rm-ausbau/referenzen/fertigung-ausstellungen/siemens-healthcare-forchheim/",
+    "https://www.lcmd.io/en/projects/das-siemens-healthineers-detectorcenter-in-forchheim-nachhaltige-hightech-produktion-in-der-medizintechnik"
+  ],
+  "notes": "Siemens Healthineers HEP Center Forchheim (EUR 350M, opened 2024) is its first fully digitized production/research campus; Apleona reference describes the office/development building as including a Rechenzentrum; lcmd Detector Center (EUR 80M, 9,000 sqm) scope includes data center infrastructure. Enterprise DCs rather than colocation; MW not disclosed.",
+  "method_batch": true
+}

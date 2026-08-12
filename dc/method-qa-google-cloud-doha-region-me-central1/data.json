@@ -1,0 +1,21 @@
+{
+  "slug": "method-qa-google-cloud-doha-region-me-central1",
+  "canonical_project": "Google Cloud Doha region (me-central1)",
+  "owner": "Google Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Doha",
+    "country": "Qatar",
+    "country_code": "QA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/skus/sku-groups/regional-enterprise-agreement-2021-1-premium-plus-doha",
+    "https://getdeploying.com/datacenters-in-qatar"
+  ],
+  "notes": "Google Cloud region Doha (me-central1, zones a/b/c) confirmed via official Google SKU/service pages (BigQuery, Cloud SQL, etc. listed for Doha me-central1) and third-party region lists. Region record only - physical DC address not public. AWS and Oracle OCI have no Qatar public region (verified negative on official region lists); do not infer buildings.",
+  "method_batch": true
+}

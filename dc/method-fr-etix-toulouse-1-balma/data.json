@@ -1,0 +1,21 @@
+{
+  "slug": "method-fr-etix-toulouse-1-balma",
+  "canonical_project": "ETIX Toulouse #1 (Balma)",
+  "owner": "Etix Everywhere",
+  "location": {
+    "city": "",
+    "subnational": "Haute-Garonne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenters.com/etix-everywhere-etix-toulouse-1",
+    "https://www.etixeverywhere.com/"
+  ],
+  "notes": "Etix proximity/colo data center at 10 Rue des Frères Peugeot, 31130 Balma (Toulouse metro); ISO 27001/SOC 2; ~14 colo facilities in Toulouse per aggregators; capacity not disclosed.",
+  "method_batch": true
+}

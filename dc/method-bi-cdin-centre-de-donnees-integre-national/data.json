@@ -1,0 +1,21 @@
+{
+  "slug": "method-bi-cdin-centre-de-donnees-integre-national",
+  "canonical_project": "CDIN - Centre de Donnees Integre National",
+  "owner": "Government of Burundi (PDDSP 2023-2033 programme)",
+  "location": {
+    "city": "",
+    "subnational": "Bujumbura Mairie",
+    "country": "Burundi",
+    "country_code": "BI"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://primature.gov.bi/plan-directeur-de-digitalisation-des-services-publics-du-burundi-pddsp-2023-2033/",
+    "https://enama.gov.bi/"
+  ],
+  "notes": "PDDSP 2023-2033 derived national integrated data centre project; A for plan, not facility - remains planned until official tender/award/EIES/construction names a site. Location unknown per official sources (Bujumbura or Gitega possible; assigned here to Bujumbura Mairie as central government cluster working assumption). Keep separate from SETIC/PAFEN national hosting until sources prove a common site.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-ua-de-novo-data-center-dc-1-dc-5",
+  "canonical_project": "De Novo Data Center (DC-1/DC-5)",
+  "owner": "De Novo LLC",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv City",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://denovo.ua/en/data-center",
+    "https://denovo.ua/en/data-center/data-center-specs"
+  ],
+  "notes": "Official De Novo page (checked 2026-08-12) confirms 'Data center - Tier 3 CPD services in Kyiv and Ukraine', own ultra-reliable DC in Kyiv hosting the public cloud, colocation in 20/48U racks, and DC-1 vs DC-5 comparison page. Per UA methodology: commissioned 2010 (phase 1), second phase 2017, ~360 rack-spaces. Capacity MW not disclosed (rack counts only - do not convert to MW).",
+  "method_batch": true
+}

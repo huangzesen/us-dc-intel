@@ -1,0 +1,22 @@
+{
+  "slug": "method-it-polo-strategico-nazionale-psn-cloud-infrastructure-rome",
+  "canonical_project": "Polo Strategico Nazionale (PSN) cloud infrastructure, Rome",
+  "owner": "Polo Strategico Nazionale S.p.A. (TIM, Leonardo, CDP, Sogei)",
+  "location": {
+    "city": "",
+    "subnational": "Lazio",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://innovazione.gov.it/notizie/articoli/al-via-il-polo-strategico-nazionale/",
+    "https://www.polostrategiconazionale.it/media/news/psn-perche-cuore-della-sovranita-cloud-italiana/",
+    "https://xion.it/polo-strategico-nazionale-attiva-linfrastruttura-cloud/"
+  ],
+  "notes": "PSN is Italy's sovereign PA cloud, structured across four data centers (Rome-area, TIM/Noovle facilities) - active per official pages (13-year convention, PNRR milestones reached). Federated cloud infrastructure rather than a single building; physical sites via operator/TIM permits.",
+  "method_batch": true
+}

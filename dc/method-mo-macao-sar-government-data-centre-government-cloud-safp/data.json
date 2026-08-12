@@ -1,0 +1,21 @@
+{
+  "slug": "method-mo-macao-sar-government-data-centre-government-cloud-safp",
+  "canonical_project": "Macao SAR Government data centre / government cloud (SAFP)",
+  "owner": "Macao SAR Government (SAFP - Public Administration and Civil Service Bureau)",
+  "location": {
+    "city": "",
+    "subnational": "Macao",
+    "country": "Macao",
+    "country_code": "MO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.safp.gov.mo/zh-hant/news/tender",
+    "https://www.safp.gov.mo/zh-hant/news/tender?pageNum=7"
+  ],
+  "notes": "SAFP procurement pages show ongoing government IT/data-centre operations: continuation of 2026 Government Information Centre comprehensive information-system maintenance service, and 2019-12-05 purchase of data cold-backup/recovery solutions plus data-resource platform renovation services. Government infrastructure, not public colocation; tracked separately per MO methodology (government_cloud_or_data_centre). No public capacity figure.",
+  "method_batch": true
+}

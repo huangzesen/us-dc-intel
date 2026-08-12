@@ -1,0 +1,21 @@
+{
+  "slug": "method-ba-m-tel-virtual-data-center-service",
+  "canonical_project": "m:tel Virtual Data Center (service)",
+  "owner": "Mtel a.d. Banja Luka (Telekom Srpske)",
+  "location": {
+    "city": "",
+    "subnational": "Republika Srpska",
+    "country": "Bosnia and Herzegovina",
+    "country_code": "BA"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://mtel.ba/Poslovni/ICT/Cloud-infrastruktura/Virtual-Data-Center",
+    "https://mtel.me/Poslovni/ICT"
+  ],
+  "notes": "m:tel offers a Virtual Data Center cloud service (VPS/NaaS) from its Banja Luka headquarters; per methodology this is a cloud-service product, not proof of a physical datacenter facility. No public address/permit evidence of a physical m:tel/Telekom Srpske data centre found; recorded as service lead only.",
+  "method_batch": true
+}

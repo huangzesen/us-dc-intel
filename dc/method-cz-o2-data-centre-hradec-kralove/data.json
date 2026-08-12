@@ -1,0 +1,21 @@
+{
+  "slug": "method-cz-o2-data-centre-hradec-kralove",
+  "canonical_project": "O2 Data Centre Hradec Kralove",
+  "owner": "O2 Czech Republic a.s.",
+  "location": {
+    "city": "",
+    "subnational": "Hradec Kralove",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/czech-republic/hradec-kralove/o2-hradec-kralove/",
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/telefonica-czech-republic-as-hc-tkb-hradec-kralove/411"
+  ],
+  "notes": "Directory lists O2 Hradec Kralove at Akademika Bedrny 365/10 with Tier III housing; Uptime Institute has a Tier achievement page for the former Telefonica CR HC TKB Hradec Kralove. C/B evidence; operator primary page for current O2 facility not captured.",
+  "method_batch": true
+}

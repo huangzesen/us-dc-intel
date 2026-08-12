@@ -1,0 +1,23 @@
+{
+  "slug": "method-kh-national-data-center-mptc",
+  "canonical_project": "National Data Center (MPTC)",
+  "owner": "Government of Cambodia / Ministry of Post and Telecommunications; NTT Data supporting",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2025-07-02",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mptc.gov.kh/en/2025/07/he-minister-chea-vandeth-and-he-japanese-ambassador-ueno-atsushi-visited-the-digital-park-and-national-data-center-project-site/",
+    "https://www.datacenterdynamics.com/en/news/cambodia-breaks-ground-on-national-data-center/",
+    "https://www.datacenterdynamics.com/en/news/japan-to-provide-up-to-16m-for-cambodian-national-data-center/",
+    "https://cambodiainvestmentreview.com/2024/12/16/knight-frank-report-cambodias-data-centre-market-set-for-exponential-growth/"
+  ],
+  "notes": "Government-owned national data center in Phnom Penh (Digital Park pipeline). Groundbreaking July 2023; DCD/Khmer Times report $30m, 12-storey, Tier IV certification target (B claims). MPTC official page (A) confirms 2025-07-02 site visit by Minister Chea Vandeth, Japanese Ambassador and NTT Data (Asia-Pacific/Global DC Japan/Data Inc) reps with Tier IV standard stated; Japan grant aid up to ~$16m per DCD. Launch targeted 2025 per Knight Frank Dec 2024; ~3 MW reported in some market sources but unverified so capacity kept null.",
+  "method_batch": true
+}

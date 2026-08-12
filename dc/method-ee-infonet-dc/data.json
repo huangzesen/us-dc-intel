@@ -1,0 +1,22 @@
+{
+  "slug": "method-ee-infonet-dc",
+  "canonical_project": "INFONET DC",
+  "owner": "INFONET DC OÜ",
+  "location": {
+    "city": "",
+    "subnational": "Harju",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": 4.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://infonetdc.com/en/data-center/",
+    "https://infonetdc.com/en/contacts/",
+    "https://www.datacentermap.com/estonia/tallinn/infonet-dc/"
+  ],
+  "notes": "Harju/Tallinn, Laevastiku 3R; purpose-built Tier 3 carrier-neutral DC, ~512 racks in 4 stages (~4 MW per catalog), since 2018; INFONET DC OÜ reg. 12501440. First-party page + catalog specs.",
+  "method_batch": true
+}

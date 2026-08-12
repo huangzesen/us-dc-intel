@@ -1,0 +1,21 @@
+{
+  "slug": "method-es-aws-europe-spain-region-eu-south-2-and-aragon-expansion",
+  "canonical_project": "AWS Europe (Spain) Region (eu-south-2) and Aragon expansion",
+  "owner": "Amazon Web Services / Amazon Data Services Spain",
+  "location": {
+    "city": "",
+    "subnational": "Aragon",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.aboutamazon.eu/news/job-creation-and-investment/amazon-investment-spain-2026",
+    "https://www.goaragon.fr/actualites-aragon-espagne-expansion-amazon-web-services-aragon/"
+  ],
+  "notes": "AWS operates its Spain cloud region in Aragon (3 AZs) and is expanding; Aragon government approved a new PIGA phase 'Expansion Region AWS en Aragon' promoted by Amazon Data Services Spain; 2026 Amazon announcement covers EUR33.7bn planned Spain data-center infrastructure investment through 2035. Region-level A evidence; exact campus sites via PIGA/BOA records.",
+  "method_batch": true
+}

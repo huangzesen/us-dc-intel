@@ -1,0 +1,21 @@
+{
+  "slug": "method-ch-green-metro-campus-zurich-dielsdorf",
+  "canonical_project": "Green Metro-Campus Zurich (Dielsdorf)",
+  "owner": "Green Datacenter AG",
+  "location": {
+    "city": "",
+    "subnational": "Zurich",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.baublatt.ch/bauprojekte/baustart-fuer-zwei-neue-datacenter-auf-metro-campus-in-dielsdorf-erfolgt-35044",
+    "https://www.green.ch/de/grosskunden/datacenter-standorte/green-schweiz/campus-zrh2-dielsdorf"
+  ],
+  "notes": "46,000 m2 campus; DC M operational (Dec 2022), DC N and O construction start Oct 2023 (11,600 m2, ~4,000 racks, up to 160,000 IT systems); waste-heat district heating partnership with Dielsdorf.",
+  "method_batch": true
+}

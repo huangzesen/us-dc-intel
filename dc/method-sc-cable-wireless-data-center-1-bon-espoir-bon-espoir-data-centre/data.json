@@ -1,0 +1,22 @@
+{
+  "slug": "method-sc-cable-wireless-data-center-1-bon-espoir-bon-espoir-data-centre",
+  "canonical_project": "Cable & Wireless Data Center 1 - Bon Espoir (Bon Espoir Data Centre)",
+  "owner": "Cable & Wireless (Seychelles) Limited",
+  "location": {
+    "city": "",
+    "subnational": "Anse Boileau",
+    "country": "Seychelles",
+    "country_code": "SC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/data-center-1--bon-espoir/2230",
+    "https://uptimeinstitute.com/uptime-institute-awards/client/cable--wireless-seychelles-limited/1316",
+    "https://www.nation.sc/articles/24190/cable--wireless-inaugurates-state-of-the-art-data-centre"
+  ],
+  "notes": "Confirmed commercial/operator facility. Uptime Institute award page lists client Cable & Wireless (Seychelles) Limited, project 'Data Center 1 - Bon Espoir', location Anse Boileau, Seychelles (A-grade for facility/location). Seychelles Nation (22 Nov 2024) reports inauguration of the state-of-the-art Bon Espoir Data Centre; press (Nation 2023-08-22 announcement, 2024-09-21 launch, 2024-11-22 inauguration) cites ~US$3m capex (B-grade for dates/capex). Site also described as Bon Espoir, Montagne Posee. CWS/LinkedIn marketing claims 'Seychelles' First Tier IV Data Centre' and a vendor (IP Engineering) LinkedIn post claims a Tier IV DC went live in Seychelles in early 2024 - Tier claim is marketing/vendor only (C), not confirmed by Uptime registry extraction; capacity not public, do not infer MW.",
+  "method_batch": true
+}

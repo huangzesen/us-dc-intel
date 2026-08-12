@@ -1,0 +1,21 @@
+{
+  "slug": "method-au-cdc-eastern-creek-campus-ec1-ec6",
+  "canonical_project": "CDC Eastern Creek campus (EC1-EC6)",
+  "owner": "CDC Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Blacktown",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 281,
+  "status": "construction",
+  "evidence_date": "2024-05-16",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/cdc-files-for-500mw-data-center-campus-in-sydney-australia/",
+    "https://cdc.com/locations/sydney/"
+  ],
+  "notes": "Eastern Creek campus (Blacktown LGA): 281MW campus with EC1-EC4 operational and EC5-EC6 under construction per DCD May 2024; verify phase split against CDC official pages before treating 281MW as operational.",
+  "method_batch": true
+}

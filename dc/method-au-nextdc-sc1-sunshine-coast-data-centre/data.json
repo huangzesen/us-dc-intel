@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-nextdc-sc1-sunshine-coast-data-centre",
+  "canonical_project": "NEXTDC SC1 Sunshine Coast Data Centre",
+  "owner": "NEXTDC Limited",
+  "location": {
+    "city": "",
+    "subnational": "Queensland - Sunshine Coast",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/data-centres/sunshine-coast-data-centres/sc1-sunshine-coast",
+    "https://www.datacenterdynamics.com/en/news/nextdc-launches-edge-data-center-on-queenslands-sunshine-coast/",
+    "https://www.submarinenetworks.com/en/stations/oceania/australia/sunshine-coast"
+  ],
+  "notes": "44 Maud St, Maroochydore. Tier III-aligned edge data centre, 1MW IT capacity, 290 sqm technical space, 84 racks. SC1 site hosts the Sunshine Coast (SCIBN/JGA-South and Tabua) subsea cable landing station; Google uses SC1 to support the Tabua cable. Operational per NEXTDC official page (checked 2026-08-12).",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-no-storespeed-halden-dc01-violgata-8",
+  "canonical_project": "Storespeed Halden DC01 (Violgata 8)",
+  "owner": "Storespeed AS (Magnora 75% / Blix Group 5%)",
+  "location": {
+    "city": "",
+    "subnational": "Viken",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://magnoraasa.com/company-portfolio/storespeed/",
+    "https://www.datacenterdynamics.com/en/news/magnora-acquires-majority-stake-in-norwegian-data-center-company-storespeed/",
+    "https://www.datacentermap.com/norway/halden/halden-dc01/"
+  ],
+  "notes": "Colocation data center in Halden (Halden DC01, Violgata 8), ~1 MW installed with potential to ~5 MW; Nkom-listed STORESPEED AS; Magnora acquired 75% Oct 2025 (DCD). A for existence via operator/Magnora page + Nkom; MW per press/directory = B.",
+  "method_batch": true
+}

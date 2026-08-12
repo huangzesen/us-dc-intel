@@ -1,0 +1,22 @@
+{
+  "slug": "method-af-nixa-national-internet-exchange-of-afghanistan",
+  "canonical_project": "NIXA National Internet Exchange of Afghanistan",
+  "owner": "Ministry of Communications and IT (MCIT)",
+  "location": {
+    "city": "",
+    "subnational": "Kabul",
+    "country": "Afghanistan",
+    "country_code": "AF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mcit.gov.af/en/nixa-national-internet-exchange-afghanistan-8",
+    "https://mcit.gov.af/en/node/7048",
+    "https://blog.apnic.net/2022/05/20/ixp-seeks-to-sustainably-lower-the-cost-of-internet-in-afghanistan/"
+  ],
+  "notes": "Physical IXP infrastructure in Kabul with server caches/root DNS and 29 licensed ISPs connected; enhancement procurement under Digital CASA ongoing. Network/IXP infrastructure (DC-adjacent), not a commercial colocation facility.",
+  "method_batch": true
+}

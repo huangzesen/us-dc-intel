@@ -1,0 +1,20 @@
+{
+  "slug": "method-va-vatican-internet-service-provider-va-dns-infrastructure",
+  "canonical_project": "Vatican Internet Service Provider / .va DNS infrastructure",
+  "owner": "Holy See - Vatican City State (Governatorato S.C.V.), Department of Telecommunications / Vatican ISP",
+  "location": {
+    "city": "",
+    "subnational": "Holy See",
+    "country": "Holy See",
+    "country_code": "VA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-12-03",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.iana.org/domains/root/db/va.html"
+  ],
+  "notes": "IANA .va delegation record (last updated 2024-12-03, checked 2026-08-12): ccTLD manager Holy See - Vatican City State / Governatorato S.C.V.; administrative contact Department of Telecommunications (Palazzo del Belvedere); technical contact Vatican Internet Service Provider (Cortile del Triangolo); authoritative name servers a/b/c.nic.va plus osiris/seth.namex.it. A-grade network identity evidence for the State's official network/DNS infrastructure; contact addresses are NOT datacenter addresses and are not recorded as facility locations.",
+  "method_batch": true
+}

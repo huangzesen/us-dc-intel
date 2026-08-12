@@ -1,0 +1,22 @@
+{
+  "slug": "method-nl-ocix-open-caribbean-internet-exchange-facility-philipsburg",
+  "canonical_project": "OCIX / Open Caribbean Internet Exchange facility (Philipsburg)",
+  "owner": "OCIX",
+  "location": {
+    "city": "",
+    "subnational": "Sint Maarten",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.peeringdb.com/fac/641",
+    "https://pulse.internetsociety.org/en/ixp-tracker/ixp/158/",
+    "https://inflect.com/building/unknown-1-sint-maarten/ocix/datacenter/3-habour-view-philipsburg"
+  ],
+  "notes": "OCIX internet exchange and datacenter facility at 3 Harbour View, Philipsburg, Sint Maarten (PeeringDB fac 641 / IXP tracker); ~1MW per Inflect; aggregation-source grade.",
+  "method_batch": true
+}

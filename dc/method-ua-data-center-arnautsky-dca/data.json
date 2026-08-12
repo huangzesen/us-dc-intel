@@ -1,0 +1,20 @@
+{
+  "slug": "method-ua-data-center-arnautsky-dca",
+  "canonical_project": "Data Center Arnautsky (DCA)",
+  "owner": "Data Center Arnautsky (DCA)",
+  "location": {
+    "city": "",
+    "subnational": "Odesa",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dca.com.ua/"
+  ],
+  "notes": "Operator-owned facility page (per verified methodology pass) confirms Odesa colo/dedicated/hosting data center at Velyka Arnautska 2-A. Re-check on 2026-08-12 returned HTTP 502, so current page content was not re-fetched; operator claim retained at A from prior verification. No public MW capacity published.",
+  "method_batch": true
+}

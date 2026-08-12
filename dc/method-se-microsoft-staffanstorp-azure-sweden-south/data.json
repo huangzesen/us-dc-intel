@@ -1,0 +1,22 @@
+{
+  "slug": "method-se-microsoft-staffanstorp-azure-sweden-south",
+  "canonical_project": "Microsoft Staffanstorp (Azure Sweden South)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Scania",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://local.microsoft.com/communities/emea/sweden/",
+    "https://news.microsoft.com/europe/2021/11/16/microsoft-opens-its-sustainable-datacenter-region-in-sweden-creating-new-opportunities-for-a-cloud-first-sweden/",
+    "https://www.datacenterdynamics.com/en/news/microsoft-to-deploy-20000-gpus-in-sweden/"
+  ],
+  "notes": "Microsoft Azure Sweden South region facility at Vastanvagen 86, Staffanstorp (Malmo-Lund axis). Region launched late 2021; Microsoft officially confirms datacenters in Gavle, Sandviken and Staffanstorp. 2022 expansion plan at Staffanstorp was dropped (DCD); Microsoft later announced deployment of 20,000 GPUs in Sweden. Site about 17 football pitches; part of Sweden South Azure region.",
+  "method_batch": true
+}

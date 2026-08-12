@@ -1,0 +1,20 @@
+{
+  "slug": "method-uz-datavolt-karakalpakstan-ai-data-center-500-mw-proposal",
+  "canonical_project": "DataVolt Karakalpakstan AI Data Center (500 MW proposal)",
+  "owner": "DataVolt",
+  "location": {
+    "city": "",
+    "subnational": "Karakalpakstan",
+    "country": "Uzbekistan",
+    "country_code": "UZ"
+  },
+  "capacity_mw": 500.0,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/datavolt-plans-500mw-ai-data-center-in-uzbekistan/"
+  ],
+  "notes": "Trade press (DCD, 2025-05) reported DataVolt plans a ~500 MW AI data center in Karakalpakstan powered by renewables (~USD 3bn). Trade-press planned lead; no official decree, land allocation or named site verified in this pass. Note: 500 MW figure overlaps with DataVolt's country-program total (up to 500 MW by 2032 across TAS-1/New Tashkent/Bukhara) - treat as Karakalpakstan-specific proposal only if official sources confirm.",
+  "method_batch": true
+}

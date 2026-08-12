@@ -1,0 +1,23 @@
+{
+  "slug": "method-mc-monaco-telecom-dc3",
+  "canonical_project": "Monaco Telecom DC3",
+  "owner": "Monaco Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Fontvieille",
+    "country": "Monaco",
+    "country_code": "MC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://journaldemonaco.gouv.mc/en/Journaux/2019/Journal-8435/Arrete-Ministeriel-n-2019-452-du-16-mai-2019-creant-une-zone-protegee-au-Data-Center-n-3-de-Monaco-Telecom",
+    "https://monaco-telecom.mc/en/data-center/",
+    "https://monaco-telecom.mc/wp-content/uploads/2025/10/Certificats-MT.pdf",
+    "https://www.datacentermap.com/monaco/monaco-city/monaco-telecom-dc3/"
+  ],
+  "notes": "DC3 protected zone created by Arrete Ministeriel 2019-452 (Journal 8435, 24/05/2019): computer room on 4th floor of Zone F building, 6 avenue Albert II. 2025 ISO/HDS certificate lists 4-6 avenue Albert II - Zone F (primary/head office and DC3). Historical 2014/2015 press: ~1,000 m2 / ~200 racks, EUR 6m investment (Grade B context only). 12 kW/rack, 2N power platform claims; no MW published, capacity_mw null per MC methodology.",
+  "method_batch": true
+}

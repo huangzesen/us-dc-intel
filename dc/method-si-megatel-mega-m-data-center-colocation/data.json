@@ -1,0 +1,22 @@
+{
+  "slug": "method-si-megatel-mega-m-data-center-colocation",
+  "canonical_project": "MegaTel / MEGA M data center (colocation)",
+  "owner": "MEGA M d.o.o. (MegaTel)",
+  "location": {
+    "city": "",
+    "subnational": "Velenje",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.megatel.si/podatkovni-center",
+    "https://www.datacenters.com/providers/mega-m-d-o-o/locations/slovenia/velenje",
+    "https://www.datacentermap.com/c/mega-m-doo/"
+  ],
+  "notes": "MegaTel official page (browsed 2026-08-12) describes an active colocation data-center service: rack/telecom-cabinet and full server-room rental, redundant dual-feed A/B power with UPS and generator backup, 99.99% power availability, redundant cooling with hot/cold aisles, Novec-1230 fire suppression, 24/7 access control, and direct SIX (Slovenian Internet eXchange) interconnect. Datacenters.com directory lists the MEGA M d.o.o. colocation location at Rudarska cesta 6, 3320 Velenje (address is directory-supported, grade C); DataCenterMap confirms MEGA M as a data-center services provider headquartered in Velenje. Operator page is A for service/facility existence; combined evidence grade B. No public MW capacity found; also reuses first-round lead.",
+  "method_batch": true
+}

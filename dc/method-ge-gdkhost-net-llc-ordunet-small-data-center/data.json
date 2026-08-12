@@ -1,0 +1,24 @@
+{
+  "slug": "method-ge-gdkhost-net-llc-ordunet-small-data-center",
+  "canonical_project": "GDKHOST.NET / LLC Ordunet small data center",
+  "owner": "GDKHOST.NET / LLC Ordunet",
+  "location": {
+    "city": "",
+    "subnational": "Samegrelo-Zemo Svaneti",
+    "country": "Georgia",
+    "country_code": "GE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://gdkhost.net/",
+    "https://gdkhost.net/pages/about",
+    "https://ordunet.ge/",
+    "https://whatismyipaddress.com/ip/185.143.179.170",
+    "https://www.ripe.net/membership/member-support/list-of-members/ge/ordunet/"
+  ],
+  "notes": "GDKHOST first-party pages claim hosting from its own small data center in Georgia with redundant cooling/power; network/IP evidence ties AS203136 LLC Ordunet to Zugdidi, Samegrelo-Zemo Svaneti (whatismyipaddress, RIPE member record). Capacity not disclosed; municipal permit/cadastre still unverified.",
+  "method_batch": true
+}

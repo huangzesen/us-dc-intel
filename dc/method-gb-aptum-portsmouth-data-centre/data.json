@@ -1,0 +1,21 @@
+{
+  "slug": "method-gb-aptum-portsmouth-data-centre",
+  "canonical_project": "Aptum Portsmouth Data Centre",
+  "owner": "Aptum",
+  "location": {
+    "city": "",
+    "subnational": "England - Portsmouth",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://aptum.com/services/colocation/portsmouth-data-center/",
+    "https://aptum.com/documents/datasheets/portsmouth-data-center.pdf"
+  ],
+  "notes": "Enterprise-class managed colocation facility in Portsmouth; operator official page and datasheet.",
+  "method_batch": true
+}

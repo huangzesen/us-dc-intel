@@ -1,0 +1,23 @@
+{
+  "slug": "method-az-sumgait-technologies-data-center-stdc",
+  "canonical_project": "Sumgait Technologies Data Center (STDC)",
+  "owner": "Sumgait Technologies Data Center LLC (STDC)",
+  "location": {
+    "city": "",
+    "subnational": "Sumgayit",
+    "country": "Azerbaijan",
+    "country_code": "AZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.stdc.az/",
+    "https://az.linkedin.com/company/stdcllc",
+    "https://engineergeolog.az/en/projects-en/buildings-en/1198/",
+    "https://www.opalsteel.com/portfolio/sumgait-technologies-data-center/"
+  ],
+  "notes": "Commercial colocation / AI-cloud / HPC data center in Sumgayit (Chemical Industrial Park context per AZ methodology; presidential/AZERTAC report leads). Operator official site stdc.az markets active colocation, AI Cloud and blockchain services (news dated Dec 2024), confirming operational status; engineering-design page for 'Sumqayit Texnologiyalar Data Merkezi' on Baku-Guba road 37th km and Opal Steel construction portfolio corroborate facility. No Uptime certification or capacity (MW) located in this run - capacity null, grade B pending operator/certification hardening.",
+  "method_batch": true
+}

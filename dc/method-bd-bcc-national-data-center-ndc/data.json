@@ -1,0 +1,21 @@
+{
+  "slug": "method-bd-bcc-national-data-center-ndc",
+  "canonical_project": "BCC National Data Center (NDC)",
+  "owner": "Bangladesh Computer Council (BCC), ICT Division",
+  "location": {
+    "city": "",
+    "subnational": "Dhaka",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ndc.bcc.gov.bd/",
+    "https://bcc.gov.bd/"
+  ],
+  "notes": "Government NDC at ICT Tower, Agargaon, Dhaka; service documents describe cloud, VPS, load balancer, managed database, email and colocation/framework services for public bodies. Existence/ownership/location Grade A (official pages); tier/capacity claims require independent support.",
+  "method_batch": true
+}

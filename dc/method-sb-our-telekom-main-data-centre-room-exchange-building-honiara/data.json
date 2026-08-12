@@ -1,0 +1,20 @@
+{
+  "slug": "method-sb-our-telekom-main-data-centre-room-exchange-building-honiara",
+  "canonical_project": "Our Telekom main Data Centre room / Exchange Building (Honiara)",
+  "owner": "Solomon Telekom Co Ltd (Our Telekom)",
+  "location": {
+    "city": "",
+    "subnational": "Capital Territory",
+    "country": "Solomon Islands",
+    "country_code": "SB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2017-10-23",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ourtelekom.com.sb/sinpf-board-members-and-sinpf-investment-team-visit-our-telekom/"
+  ],
+  "notes": "Operator article (23 Oct 2017) confirms Our Telekom's Exchange Building in Honiara houses the main Data Centre room (first floor) containing the core systems of Solomon Telekom's national telecommunications network, plus the Network Operations Center (NOC); data hosting systems are also operated at the Kaibia technical complex with UPS/earth-station rooms. Per SB methodology this is the incumbent telco hosting node (ISOC Pulse counts 1 active DC nationally). Public colocation product and current capacity not confirmed.",
+  "method_batch": true
+}

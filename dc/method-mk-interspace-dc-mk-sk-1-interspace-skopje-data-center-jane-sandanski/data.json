@@ -1,0 +1,21 @@
+{
+  "slug": "method-mk-interspace-dc-mk-sk-1-interspace-skopje-data-center-jane-sandanski",
+  "canonical_project": "Interspace DC MK-SK-1 (Interspace Skopje data center, Jane Sandanski)",
+  "owner": "Interspace DOOEL",
+  "location": {
+    "city": "",
+    "subnational": "Aerodrom",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://interspace.com/en/data-center-colocation",
+    "https://www.datacentermap.com/macedonia/skopje/interspace-mk1/"
+  ],
+  "notes": "Operator page (A) confirms carrier-neutral colocation DCs in Skopje with ISO 27001/20000-1/22301 etc.; directory identifies DC MK-SK-1 at Blvd Jane Sandanski 109 (Aerodrom municipality per methodology street mapping) and lists 5 MW (directory figure, unverified, low confidence); Interspace also states a geographically separated DR data center ~100 km from Skopje whose location is not publicly named. why_this_is_a_data_center: marketed colocation data centre with redundant power/cooling, HSSD fire protection, 24/7 security. what_is_not_confirmed: exact municipal permit, MW, DR-site location.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-dk-netnordic-aal-dc1-aalborg-ex-lytzen-it",
+  "canonical_project": "NetNordic AAL-DC1 Aalborg (ex-Lytzen IT)",
+  "owner": "NetNordic / Lytzen IT",
+  "location": {
+    "city": "",
+    "subnational": "North Denmark",
+    "country": "Denmark",
+    "country_code": "DK"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/1-langagervej-aalborg/netnordic/datacenter/aal-dc1",
+    "https://netnordic.com/netnordic-has-acquired-lytzen-it-a-s/",
+    "https://www.datacenterdynamics.com/en/news/digiplex-netnordic-consolidate-data-center/"
+  ],
+  "notes": "Directory/Inflect lists AAL-DC1 at 1 Langagervej, Aalborg, operated by NetNordic with reported 1.5 MW; NetNordic acquired Lytzen IT (2022) incl. Aalborg/Hjorring/Copenhagen locations. No municipal planning record opened this run; kept as C-grade colocation lead in North Denmark (thin market, no hyperscaler campus confirmed).",
+  "method_batch": true
+}

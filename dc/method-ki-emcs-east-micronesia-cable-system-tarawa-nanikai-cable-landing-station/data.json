@@ -1,0 +1,23 @@
+{
+  "slug": "method-ki-emcs-east-micronesia-cable-system-tarawa-nanikai-cable-landing-station",
+  "canonical_project": "EMCS East Micronesia Cable System - Tarawa/Nanikai Cable Landing Station",
+  "owner": "BwebwerikiNet Limited (BNL) / EMCS project (funded by Australia AIFFP, Japan, USA); NEC Corporation (contractor)",
+  "location": {
+    "city": "",
+    "subnational": "Gilbert Islands",
+    "country": "Kiribati",
+    "country_code": "KI"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nec.com/en/press/202605/global_20260515_02.html",
+    "https://www.bnl.com.ki/blog/east-micronesia-cable-lands-in-first-pacific-location-of-kiribati",
+    "https://www.aiffp.gov.au/news/ceremonial-buoy-event-held-tarawa-east-micronesia-cable-project-nears-completion",
+    "https://geocables.com/cable/east-micronesia-cable-system-emcs"
+  ],
+  "notes": "Cable landing station (asset class: cable landing / interconnection anchor, NOT a datacenter). EMCS (2,250 km, Tarawa-Nauru-Kosrae-Pohnpei) landed at South Tarawa 2025-07-25 (BNL blog); NEC press release 2026-05-15 (A) announces construction completed and handover to BNL. GeoCables lists RFS expected 2026 with current operational status unconfirmed - re-check retail/ready-for-service status before marking live. First submarine cable to South Tarawa; interconnection evidence that could enable future facilities, not a datacenter itself.",
+  "method_batch": true
+}

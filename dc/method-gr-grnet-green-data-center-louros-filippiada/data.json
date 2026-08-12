@@ -1,0 +1,21 @@
+{
+  "slug": "method-gr-grnet-green-data-center-louros-filippiada",
+  "canonical_project": "GRNET Green Data Center Louros (Filippiada)",
+  "owner": "GRNET / EDYTE (Greek Research and Technology Network)",
+  "location": {
+    "city": "",
+    "subnational": "Epirus",
+    "country": "Greece",
+    "country_code": "GR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://grnet.gr/en/infrastructures/grnet-datacenters/",
+    "https://grnet.gr/infrastructure/datacenters-grnet/"
+  ],
+  "notes": "GRNET 'Green' data center near the PPC hydroelectric dam at Filippiada on the Louros river (Epirus), operated on renewable energy for the national research/education network (official GRNET page A). Public/research infrastructure, not commercial colocation; capacity not published. Schneider Electric was the technology partner (2016).",
+  "method_batch": true
+}

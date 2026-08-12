@@ -1,0 +1,21 @@
+{
+  "slug": "method-be-datacenter-united-dc-oostkamp-bruges",
+  "canonical_project": "Datacenter United DC Oostkamp/Bruges",
+  "owner": "Datacenter United",
+  "location": {
+    "city": "",
+    "subnational": "Flanders",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/belgium/bruges/dcoostkamp/",
+    "https://datacenterunited.com/en/our-datacenters/"
+  ],
+  "notes": "Brugsestraat 196/1, Oostkamp (near Bruges); DC Star Oostkamp site acquired 2022. Address from datacentermap (C), operator page confirms location.",
+  "method_batch": true
+}

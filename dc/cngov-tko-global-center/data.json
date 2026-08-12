@@ -1,0 +1,20 @@
+{
+  "slug": "cngov-tko-global-center",
+  "canonical_project": "中国联通国际 TKO Global Center",
+  "owner": "中国联通国际（China Unicom Global）",
+  "location": {
+    "city": "新界·将军澳（21 Chun Wang Street）",
+    "subnational": "Hong Kong",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 24.0,
+  "status": "运营",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.ogcloud.net/ogidc/TYHK/TYHK1"
+  ],
+  "notes": "GFA 超 37,000 平方米、4,000+ 机柜（16 个机房模块×250 柜；按 6kW/柜估算约 24MW）。来源为行业目录（ogcloud.net），容量为估算。 [province=香港]",
+  "cn_gov_batch": true
+}

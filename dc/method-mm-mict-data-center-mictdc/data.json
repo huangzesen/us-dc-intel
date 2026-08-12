@@ -1,0 +1,21 @@
+{
+  "slug": "method-mm-mict-data-center-mictdc",
+  "canonical_project": "MICT Data Center (MICTDC)",
+  "owner": "Myanmar ICT Development Corporation (MICTDC) with NTT",
+  "location": {
+    "city": "",
+    "subnational": "Yangon",
+    "country": "Myanmar",
+    "country_code": "MM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mictdc.com.mm/mict-data-center/",
+    "https://uptimeinstitute.com/uptime-institute-awards/list/datacenter/mict-data-center-yangon/1217"
+  ],
+  "notes": "MICTDC operator page (A) confirms Main Building, ICT Park, Universities' Hlaing Campus, Hlaing Township, Yangon; claims Tier III and up to 162 racks with Japanese expert support (capacity/Tier are B until third-party certification verified). Uptime Institute awards list page names MICT Data Center, Yangon. NTT Myanmar partnership noted for MICT Park DC services.",
+  "method_batch": true
+}

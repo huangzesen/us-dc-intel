@@ -1,0 +1,20 @@
+{
+  "slug": "method-ci-centerserv-abidjan",
+  "canonical_project": "CenterServ Abidjan",
+  "owner": "CenterServ",
+  "location": {
+    "city": "",
+    "subnational": "Abidjan",
+    "country": "Cote d'Ivoire",
+    "country_code": "CI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://systalink.com/data-center-cote-divoire/"
+  ],
+  "notes": "Local colocation/dedicated-server operator in Abidjan serving SMEs; directory-listed (C); verify on official page/IDU for A-grade.",
+  "method_batch": true
+}

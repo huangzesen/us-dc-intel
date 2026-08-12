@@ -1,0 +1,21 @@
+{
+  "slug": "method-si-arctur-d-o-o-datacenter-hpc-cloud-nova-gorica",
+  "canonical_project": "Arctur d.o.o. datacenter / HPC cloud (Nova Gorica)",
+  "owner": "Arctur d.o.o.",
+  "location": {
+    "city": "",
+    "subnational": "Nova Gorica",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/slovenia/arctur-datacenter",
+    "https://bizmatch.pro/sl/catalogue/provider/413/"
+  ],
+  "notes": "Data Center Catalog lists ARCTUR datacenter at Industrijska cesta 5, 5000 Nova Gorica; Arctur operates HPC/cloud (CHPC, 1000+ processing cores) IaaS/PaaS/SaaS since June 2011; methodology seed for Goriska region. Directory-grade; official Arctur facility page not accessible - needs operator confirmation.",
+  "method_batch": true
+}

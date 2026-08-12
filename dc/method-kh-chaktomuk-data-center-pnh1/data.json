@@ -1,0 +1,22 @@
+{
+  "slug": "method-kh-chaktomuk-data-center-pnh1",
+  "canonical_project": "Chaktomuk Data Center PNH1",
+  "owner": "Chaktomuk Data Center Co., Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.chaktomuk-dc.com.kh/",
+    "https://www.datacentermap.com/cambodia/phnom-penh/chaktomuk-data-center/",
+    "https://baxtel.com/data-center/chaktomuk-phnom-penh-pnh1"
+  ],
+  "notes": "Cambodia's first/only Tier III Plus Design-certified carrier-neutral data center per official site and Uptime award (design certification, not operational certification). Central Phnom Penh, corner Street 598 / St 777 (Knight Frank report places it in Russey Keo District near Camko City). Capacity not published.",
+  "method_batch": true
+}

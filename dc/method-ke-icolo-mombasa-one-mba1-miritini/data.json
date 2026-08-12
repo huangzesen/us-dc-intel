@@ -1,0 +1,23 @@
+{
+  "slug": "method-ke-icolo-mombasa-one-mba1-miritini",
+  "canonical_project": "iColo Mombasa One (MBA1) Miritini",
+  "owner": "iColo / Digital Realty",
+  "location": {
+    "city": "",
+    "subnational": "Mombasa",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": 0.9,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.icolo.io/location/mba1/",
+    "https://www.icolo.io/",
+    "https://www.digitalrealty.com/data-centers/emea/mombasa/mba1",
+    "https://tech.africa/kixp-mombasa/"
+  ],
+  "notes": "Official iColo page: MBA1 at Miritini operational since 2017; Miritini campus to expand to 3 data centres, 18,000 sqm, 13 MW total IT load and 1,800 racks. iColo homepage lists Mombasa One IT power 0.9 MW. KIXP interconnects MBA1 and MBA2; Mombasa is the main subsea-cable landing point.",
+  "method_batch": true
+}

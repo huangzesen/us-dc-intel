@@ -1,0 +1,20 @@
+{
+  "slug": "method-re-zeop-entreprise-data-center-hosting-service",
+  "canonical_project": "Zeop Entreprise data-center / hosting service",
+  "owner": "Zeop / Groupe Océinde",
+  "location": {
+    "city": "",
+    "subnational": "Reunion",
+    "country": "Reunion",
+    "country_code": "RE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://entreprise.zeop.re/"
+  ],
+  "notes": "Zeop enterprise page states all Zeop enterprise services are based in La Réunion, including data-center. Zeop belongs to the Océinde ecosystem that operates Omega 1; per methodology this is not double-counted as a separate facility - treated as a service lead referencing the Omega 1 infrastructure until a distinct named facility is proven.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-ua-gigacloud-cloud-platform-equipment-in-kyiv-ua-pl-data-centers",
+  "canonical_project": "GigaCloud cloud platform (equipment in Kyiv + UA/PL data centers)",
+  "owner": "GigaCloud (GIGAGROUP)",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv City",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://gigacloud.ua/en/why-gigacloud/",
+    "https://www.datacenterdynamics.com/en/news/cubbit-and-gigacloud-partner-to-bring-cloud-services-to-poland-and-ukraine/"
+  ],
+  "notes": "Per UA methodology, GigaCloud states its equipment is hosted in five data centers, including three in Ukraine (Kyiv and Lviv) and two in Poland; DCD reports Cubbit-GigaCloud partnership for sovereign cloud in Poland/Ukraine. Cloud-service evidence (A for service claim per official page); physical facilities mapped to GigaCenter/partner DCs - not an independent facility count.",
+  "method_batch": true
+}

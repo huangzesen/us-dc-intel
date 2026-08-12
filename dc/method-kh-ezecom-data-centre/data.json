@@ -1,0 +1,21 @@
+{
+  "slug": "method-kh-ezecom-data-centre",
+  "canonical_project": "Ezecom Data Centre",
+  "owner": "EZECOM (Royal Group)",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://eurocham-cambodia.org/member/1578056/ezecom/",
+    "https://www.whtop.com/review/ezecom.com.kh"
+  ],
+  "notes": "Major Phnom Penh fiber/ISP/cloud provider offering colocation, cloud hosting and data centre services (EuroCham member profile, B; whtop review). Facility-level details/MW sparse; cross-check TRC operator presence; do not double-count with Telcotech/Royal Group facilities.",
+  "method_batch": true
+}

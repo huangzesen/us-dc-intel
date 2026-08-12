@@ -1,0 +1,20 @@
+{
+  "slug": "method-tv-atal-networks-funafuti-dedicated-data-center-unverified-marketing-claim",
+  "canonical_project": "ATAL Networks 'Funafuti dedicated data center' (unverified marketing claim)",
+  "owner": "ATAL Networks (atalnetworks.com)",
+  "location": {
+    "city": "",
+    "subnational": "Funafuti",
+    "country": "Tuvalu",
+    "country_code": "TV"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "U",
+  "sources": [
+    "https://atalnetworks.com/dedicated-servers/funafuti-tuvalu/"
+  ],
+  "notes": "Hosting-marketing page claiming a 'dedicated data center' in Funafuti with Tier III claims; identical templated pages exist for Apia (Samoa), Nuku'alofa (Tonga) and Kingstown (St Vincent) on the same site, and no verifiable in-country facility, TCRA-like licence or local operator evidence exists. Per TV methodology offshore/marketing hosting is not an in-country facility (not_dc_reason: marketing/offshore hosting, no corroborating A/B source). Recorded as U-grade lead only; NOT counted as a confirmed datacenter.",
+  "method_batch": true
+}

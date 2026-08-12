@@ -1,0 +1,20 @@
+{
+  "slug": "method-ua-ip-connect-dc-16-data-center-vinnytsia",
+  "canonical_project": "IP-Connect DC-16 data center (Vinnytsia)",
+  "owner": "IP-Connect",
+  "location": {
+    "city": "",
+    "subnational": "Vinnytsia",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/ukraine/vinnytsia/dc-16/"
+  ],
+  "notes": "Data Center Map lists IP-Connect DC-16 in Vinnytsia near Khmel'nyts'ke Hwy 13 (Sverdlovsky massiv); exact location not public. Directory-only seed per UA methodology - C grade; needs operator/domain validation and current-status confirmation before upgrading.",
+  "method_batch": true
+}

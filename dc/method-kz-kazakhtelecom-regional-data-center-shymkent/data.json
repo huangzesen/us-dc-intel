@@ -1,0 +1,20 @@
+{
+  "slug": "method-kz-kazakhtelecom-regional-data-center-shymkent",
+  "canonical_project": "Kazakhtelecom regional data center (Shymkent)",
+  "owner": "Kazakhtelecom JSC",
+  "location": {
+    "city": "",
+    "subnational": "Shymkent",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://ar2022.telecom.kz/ru/information-technology.html"
+  ],
+  "notes": "Inferred from Kazakhtelecom national DC network; methodology flags legacy IDC in Shymkent; no facility-level public source.",
+  "method_batch": true
+}

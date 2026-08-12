@@ -1,0 +1,23 @@
+{
+  "slug": "method-rw-trac-kigali-data-centre-transafrica-communications",
+  "canonical_project": "TrAC Kigali Data Centre (TransAfrica Communications)",
+  "owner": "TransAfrica Communications Ltd (TrAC)",
+  "location": {
+    "city": "",
+    "subnational": "City of Kigali",
+    "country": "Rwanda",
+    "country_code": "RW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://trac.africa/",
+    "https://www.datacentermap.com/rwanda/kigali/trac-kigali/",
+    "https://www.peeringdb.com/org/29956",
+    "https://www.datacenterdynamics.com/en/news/omantels-otech-signs-mou-to-build-data-center-in-rwanda/"
+  ],
+  "notes": "Operator site markets cloud and 'tier 3 data centre hosting'; aggregator places facility at Telecom House, 8 KG 7 Ave, Kacyiru, Gasabo, Kigali; PeeringDB org 29956 (Kigali, Gasabo). A for marketed service claim (trac.africa), C for physical facility details - no verified rack count/MW/Uptime certification. Per RW methodology record per-operator (Telecom House hosts TrAC, RINEX, NCSA separately). 'Tier 3' is marketing language, not verified Uptime certification.",
+  "method_batch": true
+}

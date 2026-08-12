@@ -1,0 +1,21 @@
+{
+  "slug": "method-mw-escom-data-centre-lead-only",
+  "canonical_project": "ESCOM data centre (lead only)",
+  "owner": "Electricity Supply Corporation of Malawi (ESCOM)",
+  "location": {
+    "city": "",
+    "subnational": "Southern Region",
+    "country": "Malawi",
+    "country_code": "MW"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2022-09-07",
+  "evidence_grade": "C",
+  "sources": [
+    "https://ml.mw/2022/09/07/the-national-data-center-blantyre-blog-post/",
+    "https://www.escom.mw/"
+  ],
+  "notes": "ML.mw blog (Sep 2022, B/C) names ESCOM among Malawi entities operating data centres (utility/hosting context under the national fibre backbone initiative). No official ESCOM page confirms a public facility as of 2026-08-12; treat as lead only, not a counted facility. No MW disclosed.",
+  "method_batch": true
+}

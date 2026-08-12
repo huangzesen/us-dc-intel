@@ -1,0 +1,21 @@
+{
+  "slug": "method-cn-tianjin-artificial-intelligence-computing-center",
+  "canonical_project": "Tianjin Artificial Intelligence Computing Center (天津智算中心)",
+  "owner": "Tianjin Hebei District government / Tianjin AI computing-center operating consortium",
+  "location": {
+    "city": "",
+    "subnational": "Tianjin - Tianjin Municipality",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-02-14",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tj.gov.cn/sy/tjxw/202502/t20250214_6857214.html",
+    "https://m.21jingji.com/article/20230224/herald/80ea3f7bf2b7c080552a2bf4351f468f_zaker.html"
+  ],
+  "notes": "Phase-1 engineering completed Dec 2022 with compute equipment in trial operation; Feb 2025 deployed the full DeepSeek model family (first complete platform in Jing-Jin-Ji to do so); 2025 target to hit 1,000 PFLOPS compute scale and build specialized financial/biomedical intelligent-computing centers.",
+  "method_batch": true
+}

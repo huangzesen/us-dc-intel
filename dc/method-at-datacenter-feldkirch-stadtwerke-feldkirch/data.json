@@ -1,0 +1,20 @@
+{
+  "slug": "method-at-datacenter-feldkirch-stadtwerke-feldkirch",
+  "canonical_project": "Datacenter Feldkirch (Stadtwerke Feldkirch)",
+  "owner": "Stadtwerke Feldkirch (municipal utility)",
+  "location": {
+    "city": "",
+    "subnational": "Vorarlberg",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.stadtwerke-feldkirch.at/telekommunikation/internet/fuer-unternehmen/datacenter-feldkirch"
+  ],
+  "notes": "Stadtwerke Feldkirch official page: modern Datacenter Feldkirch offering colocation/server housing (shared and private 19-inch racks), 250 sqm white space, 69 racks, 2N redundant power/cooling circuits, 100% green power, 99.99% availability guarantee, meet-me room. Municipal-utility colocation facility in the Vierlaendereck (A-grade operator page; new verified facility beyond methodology seed list). Historical VRZ Dornbirn references remain C/historical and are not counted.",
+  "method_batch": true
+}

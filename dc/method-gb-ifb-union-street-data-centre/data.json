@@ -1,0 +1,21 @@
+{
+  "slug": "method-gb-ifb-union-street-data-centre",
+  "canonical_project": "IFB Union Street Data Centre",
+  "owner": "Internet For Business Ltd (IFB)",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - Aberdeen City",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/united-kingdom/aberdeen/ifb-union-street/",
+    "https://www.agcc.co.uk/news-article/1m-network-investment-by-ifb-makes-next-generation-business"
+  ],
+  "notes": "Operational managed data centre at 387 Union Street, Aberdeen; IFB provides managed digital services from its Aberdeen DC over CityFibre network.",
+  "method_batch": true
+}

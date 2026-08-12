@@ -1,0 +1,21 @@
+{
+  "slug": "method-hr-data-target-buzin-data-center-comping",
+  "canonical_project": "Data Target Buzin data center (Comping)",
+  "owner": "Data Target / Comping",
+  "location": {
+    "city": "",
+    "subnational": "Zagreb City",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/croatia/zagreb/data-target-buzin/",
+    "https://www.comping.hr/services/data-center/"
+  ],
+  "notes": "Directory sources place Data Target Buzin in the Zagreb area with about 500 kW; Comping markets associated data-center services; county assignment may straddle Zagreb City/Velika Gorica boundary - kept under Zagreb City per directory listing, aggregate-grade.",
+  "method_batch": true
+}

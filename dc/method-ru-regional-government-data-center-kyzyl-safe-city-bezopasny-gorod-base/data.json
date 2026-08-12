@@ -1,0 +1,20 @@
+{
+  "slug": "method-ru-regional-government-data-center-kyzyl-safe-city-bezopasny-gorod-base",
+  "canonical_project": "Regional government data center (Kyzyl, Safe City / Bezopasny gorod base)",
+  "owner": "Government of Republic of Tuva",
+  "location": {
+    "city": "",
+    "subnational": "Tuva",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://rtyva.ru/press/news/8398/"
+  ],
+  "notes": "Government of Tuva press release (rtyva.ru): the regional data processing center (ЦОД) hosts the Safe City video-monitoring information base - a government hosting/ЦОД facility in Kyzyl. Small government server/data center facility; no commercial colocation; capacity unknown.",
+  "method_batch": true
+}

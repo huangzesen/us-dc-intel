@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-nextdc-p2-perth-east-perth-perth-cbd",
+  "canonical_project": "NEXTDC P2 Perth (East Perth / Perth CBD)",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Perth",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/data-centres/perth-data-centres/p2-perth",
+    "https://www.datacenterdynamics.com/en/news/australias-nextdc-opens-perth-p2-hyperscale-data-center/",
+    "https://www.multiplex.global/projects/nextdc-p2-perth-data-centre/"
+  ],
+  "notes": "Re-verified: NEXTDC P2 at 11 Newcastle Street, East Perth (Perth CBD) is operational, 20MW+ IT load, Australia/WA's first Uptime Tier IV certified data centre (design and constructed); opened July 2020, 12,000 sqm technical space.",
+  "method_batch": true
+}

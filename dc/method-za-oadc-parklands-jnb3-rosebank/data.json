@@ -1,0 +1,23 @@
+{
+  "slug": "method-za-oadc-parklands-jnb3-rosebank",
+  "canonical_project": "OADC Parklands (JNB3), Rosebank",
+  "owner": "Open Access Data Centres (OADC) / WIOCC Group",
+  "location": {
+    "city": "",
+    "subnational": "Gauteng - City of Johannesburg Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://openaccessdc.net/parklands",
+    "https://www.vertiv.com/en-emea/about/news-and-events/news-releases/2026/engineered-for-flexibility-oadc-standardises-on-vertiv-infrastructure-solutions-for-its-parklands-data-centre/",
+    "https://cdn.prod.website-files.com/696f52420cea64ee6dcc34a9/6982f8eccd796ca5a8d147e5_OADC+Parklands+Data+Sheet_January+2026.pdf",
+    "https://www.datacentermap.com/south-africa/johannesburg/internet-solutions-parklands/"
+  ],
+  "notes": "OADC official Parklands (JNB3) page confirms carrier-neutral colocation at 17 Walters St, Rosebank, Johannesburg (City of Johannesburg); OADC LinkedIn announced JNB3 launch (2026). Vertiv official release (2026-05-29) confirms OADC standardised power/cooling at Parklands for high-density scalable growth; OADC datasheet (Jan 2026) gives ~3,300 sqm. Formerly an Internet Solutions/NTT Data SA facility (part of the Feb 2026 seven-site acquisition). No public MW capacity.",
+  "method_batch": true
+}

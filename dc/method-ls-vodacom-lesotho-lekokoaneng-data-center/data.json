@@ -1,0 +1,21 @@
+{
+  "slug": "method-ls-vodacom-lesotho-lekokoaneng-data-center",
+  "canonical_project": "Vodacom Lesotho Lekokoaneng Data Center",
+  "owner": "Vodacom Lesotho",
+  "location": {
+    "city": "",
+    "subnational": "Berea",
+    "country": "Lesotho",
+    "country_code": "LS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vodacom.co.ls/business/fixed-solutions/",
+    "https://www.datacentermap.com/lesotho/maseru/vodacom-lekokoaneng-data-center/"
+  ],
+  "notes": "Vodacom Lesotho official page names the second Data Centre at Lekokoaneng (hosting fixed services). Lekokoaneng lies on the Maseru-TY/Berea side and is a Berea-district locality per LENA/mapcarta, though datacentermap files it under the Maseru market. Distinct facility, not merged with Maseru West. Capacity not disclosed.",
+  "method_batch": true
+}

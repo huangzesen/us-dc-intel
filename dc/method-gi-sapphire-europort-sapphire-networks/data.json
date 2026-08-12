@@ -1,0 +1,22 @@
+{
+  "slug": "method-gi-sapphire-europort-sapphire-networks",
+  "canonical_project": "Sapphire Europort (Sapphire Networks)",
+  "owner": "Sapphire Networks",
+  "location": {
+    "city": "",
+    "subnational": "Gibraltar",
+    "country": "Gibraltar",
+    "country_code": "GI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/gibraltar/gibraltar/sapphire-dc2/",
+    "https://sapphire-networks.com/",
+    "https://www.the-report.com/reports/gibraltar/myth-and-method/data-centres-in-the-rock-of-gibraltar/"
+  ],
+  "notes": "Colocation/data centre service at Eurotowers, 3 Europort Road / Europort Avenue; Data Center Map describes chilled water-cooled colocation with up to 4 kW per rack; secondary coverage lists Sapphire as data centre services provider at Europort. Directory-grade lead - capacity/tier not operator-confirmed.",
+  "method_batch": true
+}

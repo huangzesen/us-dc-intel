@@ -1,0 +1,22 @@
+{
+  "slug": "method-jp-airtrunk-tok1-hyperscale-campus-inzai",
+  "canonical_project": "AirTrunk TOK1 hyperscale campus (Inzai)",
+  "owner": "AirTrunk",
+  "location": {
+    "city": "",
+    "subnational": "Chiba",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 300,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/data-center/airtrunk-tok1-dc6",
+    "https://dcnnmagazine.com/data-centres/airtrunk-japan-data-centre/",
+    "https://datacentrecentral.com/airtrunk-breaks-ground-on-40mw-phase-of-tok1-japans-largest-hyperscale-data-centre-campus/"
+  ],
+  "notes": "AirTrunk's first Japan data centre, TOK1 in Inzai (Chiba New Town area), opened November 2021 and is scalable to over 300 MW campus capacity; a 40+ MW new building (DC6/TOK1 AI expansion) broke ground and is under construction; TOK1 serves the Tokyo cloud availability zone.",
+  "method_batch": true
+}

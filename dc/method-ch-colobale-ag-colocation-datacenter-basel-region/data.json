@@ -1,0 +1,20 @@
+{
+  "slug": "method-ch-colobale-ag-colocation-datacenter-basel-region",
+  "canonical_project": "ColoBale AG Colocation Datacenter (Basel region)",
+  "owner": "ColoBale AG",
+  "location": {
+    "city": "",
+    "subnational": "Basel-Stadt",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.colobale.ch/"
+  ],
+  "notes": "Colocation datacenter serving the Basel region (company official page; management named: Julien Babelay sales, Stefan Mayer Geschäftsführer). Official company page confirms colocation offering; exact address/rack capacity not published on the page reviewed - C grade pending facility datasheet or permit record.",
+  "method_batch": true
+}

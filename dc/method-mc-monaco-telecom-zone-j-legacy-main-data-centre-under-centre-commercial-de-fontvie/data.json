@@ -1,0 +1,20 @@
+{
+  "slug": "method-mc-monaco-telecom-zone-j-legacy-main-data-centre-under-centre-commercial-de-fontvie",
+  "canonical_project": "Monaco Telecom Zone J (legacy main data centre, under Centre Commercial de Fontvieille)",
+  "owner": "Monaco Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Fontvieille",
+    "country": "Monaco",
+    "country_code": "MC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://monacolife.net/what-caused-monaco-telecoms-worst-outage-in-25-years/"
+  ],
+  "notes": "One of Monaco Telecom's main data centres, located under the Fontvieille shopping centre ('Zone J'); 29 Nov 2022 outage caused by SMEG grid maintenance disconnection and generator failure (Grade B resilience/location evidence). Nice-Matin (12 Oct 2024) reports Monaco Telecom relocation from the Fontvieille shopping centre was blocked because the centre was never restructured, leading to the Grand Ida data center instead. Relationship to the three current certified centres pending MT/SMEG/Journal confirmation.",
+  "method_batch": true
+}

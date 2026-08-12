@@ -1,0 +1,21 @@
+{
+  "slug": "method-si-src-src-infonet-data-centre-services",
+  "canonical_project": "SRC / SRC Infonet data centre services",
+  "owner": "SRC d.o.o. / SRC Infonet d.o.o.",
+  "location": {
+    "city": "",
+    "subnational": "Naklo",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.src.si/solutions/infra/podatkovni-centri/",
+    "https://www.src.si/en/solutions/infra/secure-data-centers/"
+  ],
+  "notes": "SRC official page describes its data centre service (99.98% SLA, ISO 27001, geographically redundant locations); company seat listed at Cesta na Okroglo 7, 4202 Naklo, but the physical facility address/capacity is not published - weak lead, treated as enterprise data-centre service rather than confirmed local colo build.",
+  "method_batch": true
+}

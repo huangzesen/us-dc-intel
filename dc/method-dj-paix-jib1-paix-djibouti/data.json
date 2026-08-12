@@ -1,0 +1,23 @@
+{
+  "slug": "method-dj-paix-jib1-paix-djibouti",
+  "canonical_project": "PAIX JIB1 / PAIX Djibouti",
+  "owner": "PAIX Data Centres and Djibouti Sovereign Fund (FSD)",
+  "location": {
+    "city": "",
+    "subnational": "Djibouti",
+    "country": "Djibouti",
+    "country_code": "DJ"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/paix-data-centres-plans-5mw-data-center-in-jv-with-djibouti-sovereign-fund/",
+    "https://www.submarinenetworks.com/en/stations/africa/djibouti/paix-to-construct-carrier-neutral-data-center-in-djibouti",
+    "https://w.media/paix-partners-with-djiboutis-sovereign-fund-to-build-data-centers/",
+    "https://www.datacentermap.com/djibouti/djibouti-city/paix-djibouti/"
+  ],
+  "notes": "PAIX announced (2024-05-15) a JV with the Djibouti Sovereign Fund for a ~50,000 sq ft cloud- and carrier-neutral data center in Djibouti City; announced capacity up to 5 MW (announced_capacity_mw: 5.0) with first phase targeted 2026. Re-checked 2026-08-12: no construction/commissioning or permit evidence found, so status kept at planned/announced per DJ methodology; directory address 'Rue de Geneve' is C-grade only.",
+  "method_batch": true
+}

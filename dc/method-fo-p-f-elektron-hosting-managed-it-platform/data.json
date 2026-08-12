@@ -1,0 +1,22 @@
+{
+  "slug": "method-fo-p-f-elektron-hosting-managed-it-platform",
+  "canonical_project": "P/F Elektron hosting / managed IT platform",
+  "owner": "P/F Elektron",
+  "location": {
+    "city": "",
+    "subnational": "Faroe Islands",
+    "country": "Faroe Islands",
+    "country_code": "FO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://elektron.fo/kt-trygd/",
+    "https://elektron.fo/",
+    "https://community.hpe.com/t5/alliances/elektron-migrates-from-vmware-to-hyper-v-on-hpe-hybrid-cloud/ba-p/7242211"
+  ],
+  "notes": "Confirmed local managed-hosting provider (Faroese: húsíing). Own page lists Húsíing/Netloysnir/KT-trygd; 2022 annual report says hosting department operates ~1,500 servers 24/7; ISO/IEC 27001:2022 certified (DNV certchecker); HPE 2025 customer case documents migration from VMware to Hyper-V/HPE for mission-critical public/financial services. Tórshavn/Streymoy based; facility address and specs not public enough for independent DC-campus classification. No hyperscale or third-party colocation campus confirmed anywhere in FO.",
+  "method_batch": true
+}

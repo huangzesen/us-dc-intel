@@ -1,0 +1,23 @@
+{
+  "slug": "method-am-firebird-ai-factory-dc-1-hrazdan",
+  "canonical_project": "Firebird AI Factory DC-1 Hrazdan",
+  "owner": "Firebird",
+  "location": {
+    "city": "",
+    "subnational": "Kotayk",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": 15,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.firebird.ai/news-firebird-grand-opening.html",
+    "https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/",
+    "https://www.firebird.ai/data-centers.html",
+    "https://developingtelecoms.com/telecom-technology/data-centres-networks/20660-firebird-launches-nvidia-powered-300mw-ai-data-centre-in-armenia.html"
+  ],
+  "notes": "Opened 2026-08-08 as CIS region's largest AI factory near Hrazdan, Kotayk marz; phase one worth >USD 500M of ~USD 5B total; operator page: DC-1 powered by 6,144 NVIDIA B200 GPUs across 15 MW; roadmap to >70,000 GPUs / 300 MW by end-2027 is announced, not commissioned.",
+  "method_batch": true
+}

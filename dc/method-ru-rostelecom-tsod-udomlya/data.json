@@ -1,0 +1,21 @@
+{
+  "slug": "method-ru-rostelecom-tsod-udomlya",
+  "canonical_project": "Rostelecom TsOD Udomlya",
+  "owner": "Rostelecom (RTK-DC)",
+  "location": {
+    "city": "",
+    "subnational": "Tver",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://chern.bezformata.com/listnews/tcentr-obrabotki-dannih-udomlya/76580190/",
+    "https://chr.aif.ru/orel/events/rostelekom_vvyol_centr_udomlya_v_promyshlennuyu_ekspluataciyu"
+  ],
+  "notes": "Rostelecom (RTK-DC subsidiary) put into commercial operation its TsOD Udomlya data center near the Kalinin NPP in Tver Oblast (July 2019 press, client equipment placement started at commissioning). Regional telecommunication/data-center facility in the nuclear power corridor; capacity not disclosed in sources.",
+  "method_batch": true
+}

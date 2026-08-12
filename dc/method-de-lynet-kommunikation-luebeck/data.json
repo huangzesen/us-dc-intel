@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-lynet-kommunikation-luebeck",
+  "canonical_project": "LYNET Kommunikation Luebeck",
+  "owner": "LYNET Kommunikation AG / CONVOTIS",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Lübeck",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.peeringdb.com/fac/9572",
+    "https://inflect.com/building/15-niels-bohr-ring-lubeck/lynet-kommunikation/datacenter/lubeck",
+    "https://www.lynet.de/files/unternehmensprofil.pdf"
+  ],
+  "notes": "Facility listings identify a LYNET data center at Niels-Bohr-Ring 15 in Luebeck; company profile confirms Luebeck HQ at that address. Treated as small operational colocation/hosting facility; capacity not disclosed.",
+  "method_batch": true
+}

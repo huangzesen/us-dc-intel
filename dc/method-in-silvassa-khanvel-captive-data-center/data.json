@@ -1,0 +1,20 @@
+{
+  "slug": "method-in-silvassa-khanvel-captive-data-center",
+  "canonical_project": "Silvassa (Khanvel) captive data center",
+  "owner": "Undisclosed global metals company (captive)",
+  "location": {
+    "city": "",
+    "subnational": "Dadra and Nagar Haveli and Daman and Diu - Dadra & Nagar Haveli",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/india/silvassa/"
+  ],
+  "notes": "First-round lead: captive data center renovation for a metals company near Silvassa/Khanvel; no official/regulatory trail found in NSWS/PARIVESH. UT has no standalone DC registry; DNH&DD SDC services historically hosted via Goa SDC per NeGP documents.",
+  "method_batch": true
+}

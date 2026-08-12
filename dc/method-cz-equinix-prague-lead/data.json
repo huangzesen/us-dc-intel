@@ -1,0 +1,21 @@
+{
+  "slug": "method-cz-equinix-prague-lead",
+  "canonical_project": "Equinix Prague (lead)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Prague",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/czech-republic/prague/",
+    "https://baxtel.com/data-center/ce-colo-prague"
+  ],
+  "notes": "Directories mention Prague PR1/PR2 entries, but no official Equinix Prague location page was found in this pass; keep as C-grade lead until Equinix official confirmation or local permit/address evidence. Not counted as a confirmed facility.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-at-nexspace-graz-data-center-alte-poststrasse",
+  "canonical_project": "Nexspace Graz data center (Alte Poststrasse)",
+  "owner": "nexspace data centers GmbH (COOLtec-origin facility)",
+  "location": {
+    "city": "",
+    "subnational": "Styria",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nexspace.de/data-centers/graz",
+    "https://www.datacentermap.com/austria/graz/nexspace-graz-data-center/"
+  ],
+  "notes": "Nexspace operator page markets Graz data center colocation (A/B); directory lists Alte Poststrasse 376 (C corroboration; EDIS lists T-Systems/Nexspace building at Alte Poststrasse 365, 8055 Graz). COOLtec-origin facility per Magenta/project-partner context.",
+  "method_batch": true
+}

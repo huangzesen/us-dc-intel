@@ -1,0 +1,20 @@
+{
+  "slug": "method-pw-pncc-internal-exchange-server-facilities-koror",
+  "canonical_project": "PNCC internal exchange / server facilities (Koror)",
+  "owner": "Palau National Communications Corporation (PNCC)",
+  "location": {
+    "city": "",
+    "subnational": "Koror",
+    "country": "Palau",
+    "country_code": "PW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.pnccpalau.com/"
+  ],
+  "notes": "PNCC is Palau's incumbent national communications provider (mobile/internet/telephone/digital TV) with internal telecom exchanges and server rooms in Koror; no public MW/rack data and no public commercial colocation offering found. Operator existence A; facility details unverified.",
+  "method_batch": true
+}

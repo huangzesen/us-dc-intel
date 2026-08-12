@@ -1,0 +1,20 @@
+{
+  "slug": "method-pk-ptcl-commercial-data-center-rawalpindi",
+  "canonical_project": "PTCL Commercial Data Center Rawalpindi",
+  "owner": "Pakistan Telecommunication Company Limited (PTCL)",
+  "location": {
+    "city": "",
+    "subnational": "Punjab",
+    "country": "Pakistan",
+    "country_code": "PK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tiaonline.org/942-datacenter/pakistan-telecommunications-company-limited-ptcl-commercial-data-center/"
+  ],
+  "notes": "TIA-942 listing places a PTCL Commercial Data Center at PTCL Exchange, 7th Road, Satellite Town, Rawalpindi (Punjab division; distinct from Islamabad ICT per methodology). Capacity not disclosed.",
+  "method_batch": true
+}

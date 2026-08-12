@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-enewings-hiroshima-data-center-atbex-connected",
+  "canonical_project": "EneWings Hiroshima Data Center (ATBeX-connected)",
+  "owner": "EneWings (interconnected via AT TOKYO ATBeX platform)",
+  "location": {
+    "city": "",
+    "subnational": "Hiroshima",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-01-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.attokyo.com/news/20230124.html"
+  ],
+  "notes": "AT TOKYO announced (Jan 2023) EneWings Hiroshima Data Center linked with AT TOKYO data centers via the ATBeX platform and connected to the ATBeX Osaka zone with redundant 2-system configuration; local Hiroshima DC presence.",
+  "method_batch": true
+}

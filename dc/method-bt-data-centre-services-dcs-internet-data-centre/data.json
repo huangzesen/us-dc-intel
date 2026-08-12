@@ -1,0 +1,23 @@
+{
+  "slug": "method-bt-data-centre-services-dcs-internet-data-centre",
+  "canonical_project": "Data Centre Services (DCS) Internet Data Centre",
+  "owner": "Data Centre Services Pvt. Ltd. (DCS)",
+  "location": {
+    "city": "",
+    "subnational": "Thimphu",
+    "country": "Bhutan",
+    "country_code": "BT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.dcs.bt/",
+    "https://www.dcs.bt/about-us/",
+    "https://thimphutechpark.bt/index.php/techpark-services-2/",
+    "https://www.datacentermap.com/bhutan/thimphu/bhutan-dcs-data-center/"
+  ],
+  "notes": "asset_class=commercial colo/IDC. DCS official site and Thimphu TechPark confirm Tier 2/3 Internet Data Centre inside Thimphu TechPark with high power density, hydro-powered zero-carbon cooling and dual power feeders (Olakha/Semtokha substations per methodology); commercial colocation/hosting/backup/connectivity. Rack/MW capacity not publicly stated.",
+  "method_batch": true
+}

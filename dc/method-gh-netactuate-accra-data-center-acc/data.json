@@ -1,0 +1,22 @@
+{
+  "slug": "method-gh-netactuate-accra-data-center-acc",
+  "canonical_project": "NetActuate Accra Data Center (ACC)",
+  "owner": "NetActuate",
+  "location": {
+    "city": "",
+    "subnational": "Greater Accra",
+    "country": "Ghana",
+    "country_code": "GH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://netactuate.com/data-centers/accra-data-center",
+    "https://netactuate.com/news/netactuate-expands-presence-in-africa-with-new-data-center-location-in-accra-ghana",
+    "https://www.prweb.com/releases/netactuate-expands-presence-in-africa-with-new-data-center-location-in-accra-ghana-859013154.html"
+  ],
+  "notes": "US edge/network provider launched Accra data center location Apr 2023; operator states facility houses five submarine cable connections, major carriers/ISPs and direct GIX connectivity; PCI-DSS, ISO 27001, ISO 22301 compliant; capacity not disclosed. May include edge deployment inside partner facility - treat capacity claims cautiously.",
+  "method_batch": true
+}

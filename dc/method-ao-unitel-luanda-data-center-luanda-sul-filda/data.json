@@ -1,0 +1,21 @@
+{
+  "slug": "method-ao-unitel-luanda-data-center-luanda-sul-filda",
+  "canonical_project": "Unitel Luanda data center (Luanda Sul / Filda)",
+  "owner": "Unitel S.A.",
+  "location": {
+    "city": "",
+    "subnational": "Luanda",
+    "country": "Angola",
+    "country_code": "AO"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.highperformr.ai/company/unitelgroup",
+    "https://www.agenceecofin.com/regulation/2801-8638-angola-unitel-ouvre-un-nouveau-centre-de-supervision-de-reseau"
+  ],
+  "notes": "C-grade lead: aggregator claims Unitel announced USD 22M expansion of its Luanda data center (+40% capacity); 2013 Agence Ecofin notes a mobile-network supervision centre in south Luanda; requires Unitel official/press/procurement corroboration before A/B.",
+  "method_batch": true
+}

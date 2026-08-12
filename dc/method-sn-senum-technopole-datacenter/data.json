@@ -1,0 +1,20 @@
+{
+  "slug": "method-sn-senum-technopole-datacenter",
+  "canonical_project": "SENUM Technopole datacenter",
+  "owner": "Senegal Numerique SA (SENUM)",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://senegalnumeriquesa.sn/fr/senegal-numerique-moteur-de-la-transformation-digitale-de-letat"
+  ],
+  "notes": "SENUM official page lists Technopole among three operational state datacenters; SENUM contact address is at the Technopole, Pikine (Dakar region). No public capacity; function (public hosting vs internal state DC) unverified.",
+  "method_batch": true
+}

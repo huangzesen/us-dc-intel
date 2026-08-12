@@ -1,0 +1,21 @@
+{
+  "slug": "method-it-aruba-arezzo-it1-data-center",
+  "canonical_project": "Aruba Arezzo IT1 data center",
+  "owner": "Aruba S.p.A.",
+  "location": {
+    "city": "",
+    "subnational": "Tuscany",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenter.it/en/aruba-data-center/italy-arezzo-dc-it1.aspx",
+    "https://baxtel.com/data-center/aruba-arezzo-it1"
+  ],
+  "notes": "Aruba IT1 Arezzo (Via Piero Gobetti area): ~5,000 sqm, capacity of 40,000+ servers (operator/directory); interconnected with IT2 a few km away. Operator page is primary for facility existence.",
+  "method_batch": true
+}

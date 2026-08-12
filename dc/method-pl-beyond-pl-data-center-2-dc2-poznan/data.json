@@ -1,0 +1,22 @@
+{
+  "slug": "method-pl-beyond-pl-data-center-2-dc2-poznan",
+  "canonical_project": "Beyond.pl Data Center 2 (DC2) Poznan",
+  "owner": "Beyond.pl (Kulczyk Investments)",
+  "location": {
+    "city": "",
+    "subnational": "Greater Poland",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 42.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.beyond.pl/en/data-centers-campus/beyond-pl-data-center-2/",
+    "https://www.datacentermap.com/poland/poznan/beyondpl-dc2/",
+    "https://www.einnews.com/pr_news/533311181/faster-internet-in-western-poland-epix-internet-exchange-and-beyond-pl-launch-traffic-exchange-node-in-poznan-poland"
+  ],
+  "notes": "DC2 at ul. A. Kreglewskiego 11, Poznan; only DC in EU with Rated 4 ANSI/TIA-942 certification per operator/EPIX PR; sits on a multi-tier campus with 42 MW target power (expanded from 8 MW). A for operator; 42 MW is marketed campus capacity.",
+  "method_batch": true
+}

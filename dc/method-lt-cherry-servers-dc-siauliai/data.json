@@ -1,0 +1,22 @@
+{
+  "slug": "method-lt-cherry-servers-dc-siauliai",
+  "canonical_project": "Cherry Servers DC (Siauliai)",
+  "owner": "Cherry Servers UAB",
+  "location": {
+    "city": "",
+    "subnational": "Siauliai County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.cherryservers.com/",
+    "https://www.datacentermap.com/lithuania/siauliai/duomenu-centras/",
+    "https://b2bhint.com/ru/company/lt/cherry-servers--145747029"
+  ],
+  "notes": "Bare-metal/cloud operator (est. 2001) with registered office at Tilzes g. 74, Siauliai; DataCenterMap lists a Cherry Servers DC in Siauliai; methodology listed it as Vilnius operator lead - location split needs operator confirmation. Directory/registry-level evidence only.",
+  "method_batch": true
+}

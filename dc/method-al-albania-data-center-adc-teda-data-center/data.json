@@ -1,0 +1,24 @@
+{
+  "slug": "method-al-albania-data-center-adc-teda-data-center",
+  "canonical_project": "Albania Data Center (ADC) / TEDA data center",
+  "owner": "Albania Data Center (ADC) / H.A.P.I. Advanced Technologies (Israeli-backed)",
+  "location": {
+    "city": "",
+    "subnational": "Tirane",
+    "country": "Albania",
+    "country_code": "AL"
+  },
+  "capacity_mw": 32,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/32mw-israeli-backed-data-center-coming-to-albania/",
+    "https://en.globes.co.il/en/article-israels-adc-to-build-albanias-first-data-center-1001533793",
+    "https://www.albaniaeconomia.com/adc-to-build-albanias-first-data-center-e100-million-investment-to-create-a-balkan-digital-hub/",
+    "https://www.syri.net/ekonomi/861565/qendra-e-te-dhenave-me-vlere-100-mln-euro-revista-e-madhe-kompani-te-panjohura-nuk-dihet-nese-jane-te-fushes/",
+    "https://www.voxnews.al/biznes/izraeli-do-ndertoje-ne-shqiperi-qendren-e-pare-te-te-dhenave-projekti-100-i109462"
+  ],
+  "notes": "Re-verified 2026-08-12: 32 MW first phase (potential 100 MW) data center in TEDA free economic zone, Kashar, Tirane municipality; about EUR 100m; Nvidia-GPU based per VoxNews. Status: announced/planned - no Albanian QKB subject record, KKT/KKTU permit, OST/OSHEE grid connection, or EBRD record found yet, so stays B (press/trade media) and planned, not approved/operational. DataCenterMap lists it at Zalata St (C detail).",
+  "method_batch": true
+}

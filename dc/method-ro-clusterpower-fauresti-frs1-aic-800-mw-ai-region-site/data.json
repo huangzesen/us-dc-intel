@@ -1,0 +1,22 @@
+{
+  "slug": "method-ro-clusterpower-fauresti-frs1-aic-800-mw-ai-region-site",
+  "canonical_project": "ClusterPower Fauresti (FRS1) - AIC 800 MW AI region site",
+  "owner": "ClusterPower + Accelerated Infrastructure Capital (AIC)",
+  "location": {
+    "city": "",
+    "subnational": "Valcea",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://idcnova.com/html/1/59/153/4650.html",
+    "https://b2bdaily.com/it/ais-power-demand-is-sparking-a-global-data-center-race/",
+    "https://baxtel.com/news/driverai-plans-80-mw-quantum-ai-data-center-in-cluj-romania"
+  ],
+  "notes": "AIC-ClusterPower JV announced 800 MW AI data-center region across two southwestern sites: Mischii (Dolj, existing MSC1 campus) and Fauresti (Valcea). Fauresti component announced (Dec 2025); needs local permits/grid evidence to confirm stage.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-fj-savusavu-ecentre-cable-landing-station-prefabricated-data-centre",
+  "canonical_project": "Savusavu eCentre cable landing station (prefabricated data centre)",
+  "owner": "Fijian Government / Flexenclosure (eSite Power Systems)",
+  "location": {
+    "city": "",
+    "subnational": "Northern",
+    "country": "Fiji",
+    "country_code": "FJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2018-01-22",
+  "evidence_grade": "B",
+  "sources": [
+    "https://news.cision.com/esite-power-systems/r/fijian-government-taps-flexenclosure-for-construction-of-ecentre-cable-landing-station-in-savusavu,c2435439",
+    "https://www.datacenterdynamics.com/en/news/flexenclosure-to-deploy-ecentre-cable-landing-station-in-vanua-levu-fiji/"
+  ],
+  "notes": "Fijian Government commissioned Flexenclosure (announced 2018-01-22) to build an eCentre cable landing station in Savusavu, Vanua Levu, connecting to the Tui-Samoa cable; Flexenclosure describes eCentre as prefabricated data-centre technology; later TFL/Ciena reporting confirms the Savusavu-Labasa fibre backbone. Telecom/cable-landing infrastructure rather than commercial colocation; no public power/white-space specs.",
+  "method_batch": true
+}

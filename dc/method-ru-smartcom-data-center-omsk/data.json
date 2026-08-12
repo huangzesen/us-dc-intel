@@ -1,0 +1,21 @@
+{
+  "slug": "method-ru-smartcom-data-center-omsk",
+  "canonical_project": "Smartcom data center (Omsk)",
+  "owner": "AO Smartcom",
+  "location": {
+    "city": "",
+    "subnational": "Omsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://ruvds.com/ru/data/smartcom/",
+    "https://www.datacentermap.com/russia/omsk/"
+  ],
+  "notes": "Smartcom commercial data center in Omsk per RuVDS/DataCenterMap listings; regional telecom/colo operator, capacity not published.",
+  "method_batch": true
+}

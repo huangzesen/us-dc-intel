@@ -1,0 +1,20 @@
+{
+  "slug": "method-ly-misrata-data-centre-directory-entry",
+  "canonical_project": "Misrata data centre (directory entry)",
+  "owner": "unknown (TransSahara/Tatweer or MFZ per directory leads)",
+  "location": {
+    "city": "",
+    "subnational": "Misrata",
+    "country": "Libya",
+    "country_code": "LY"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/libya/misrata/"
+  ],
+  "notes": "DataCenterMap lists 1 operator facility in Misrata; LY methodology flags TransSahara Misrata directory lead and MFZ Huawei-built data-hosting centre as C-grade leads pending operator pages/permits/GECOL evidence; no MFZ official data-hosting page confirmed in this pass.",
+  "method_batch": true
+}

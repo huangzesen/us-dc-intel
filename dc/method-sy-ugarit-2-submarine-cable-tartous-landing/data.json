@@ -1,0 +1,21 @@
+{
+  "slug": "method-sy-ugarit-2-submarine-cable-tartous-landing",
+  "canonical_project": "Ugarit 2 Submarine Cable - Tartous Landing",
+  "owner": "UNIFI Communications / Syrian Telecom / CYTA",
+  "location": {
+    "city": "",
+    "subnational": "Tartus",
+    "country": "Syrian Arab Republic",
+    "country_code": "SY"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://subtelforum.com/ugarit-2-cable-agreement-advances-syria-connectivity/",
+    "https://www.telecompaper.com/news/unifi-syrian-telecom-and-cyta-sign-ugarit-2-submarine-cable-deal--1579569"
+  ],
+  "notes": "Repeaterless 240km, 24 fibre-pair cable between Pentaskhinos (Cyprus) and Tartous; landing facilities operated by Syrian Telecom and CYTA; RFS targeted early 2028. Connectivity/landing-station lead, not a datacenter.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-tl-ministry-of-finance-data-center",
+  "canonical_project": "Ministry of Finance Data Center",
+  "owner": "Ministry of Finance, Timor-Leste (vendors incl. VISIMITRA UNIPESSOAL LDA, BANNILA UNIPESSOAL LDA)",
+  "location": {
+    "city": "",
+    "subnational": "Dili",
+    "country": "Timor-Leste",
+    "country_code": "TL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cna.gov.tl/pt/2024/09/02/postqualification-for-the-upgrade-of-equipment-of-/",
+    "https://www.eprocurement.gov.tl/publishedDocuments/show/1219650",
+    "https://www.eprocurement.gov.tl/publishedDocuments/show/979880",
+    "https://www.eprocurement.gov.tl/publishedDocuments/show/1133403"
+  ],
+  "notes": "CNA TENDER/13/MOF-2024 post-qualification plus eProcurement records prove an existing MoF data center repeatedly upgraded: 1219650 (ICT equipment for MdF Data Centre, 2023-06-21, USD 884,375 awarded VISIMITRA), 979880 (hard disk/RAM upgrade, 2021-11-17, USD 191,780 awarded BANNILA), 1133403 (Data Center Recovery, ICB/063/MOF-2022). Procurement amounts are proxies only; physical room and MW not disclosed - capacity_mw null.",
+  "method_batch": true
+}

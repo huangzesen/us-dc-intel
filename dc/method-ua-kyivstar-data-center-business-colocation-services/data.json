@@ -1,0 +1,21 @@
+{
+  "slug": "method-ua-kyivstar-data-center-business-colocation-services",
+  "canonical_project": "Kyivstar data center / business colocation services",
+  "owner": "Kyivstar PrAT (VEON group)",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv City",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://kyivstar.ua/en/business/products/data-center",
+    "https://yandex.com/maps/143/kyiv/house/dehtiarivska_vulytsia_53a/"
+  ],
+  "notes": "Per UA methodology seed (verified 2026-08-12): Kyivstar offers business data-center/colo services with existing Kyiv facilities (Dehtiarivska/53A area lead per methodology; Yandex Maps shows Dehtiarivska St 53A as a Kyiv address associated with Kyivstar infrastructure). A for operator/colo service existence per methodology; capacity and exact site require further permit/operator confirmation.",
+  "method_batch": true
+}

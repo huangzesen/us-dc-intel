@@ -1,0 +1,23 @@
+{
+  "slug": "method-nr-east-micronesia-cable-emc-nauru-cable-landing-station",
+  "canonical_project": "East Micronesia Cable (EMC) - Nauru Cable Landing Station",
+  "owner": "Nauru Fibre Cable Corporation (NFCC) / Naoero Fibre Cable (EMC consortium; NEC supplier)",
+  "location": {
+    "city": "",
+    "subnational": "Yaren",
+    "country": "Nauru",
+    "country_code": "NR"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.naurufibrecable.com/news/east-micronesia-cable-landing-in-second-pacific-location-of-nauru-celebrated-with-ceremonial-buoy-event",
+    "https://www.eastmicronesiacable.com/news/east-micronesia-cable-lands-in-final-pacific-location-of-kosrae-fsm",
+    "https://www.aiffp.gov.au/news/east-micronesia-cable-lands-second-pacific-location-nauru",
+    "https://www.adb.org/sites/default/files/linked-documents/50348-001-ieeab-02.pdf"
+  ],
+  "notes": "Cable landed in Nauru 2025-08-09 (AUD135m AIFFP-funded East Micronesia Cable, branch to Pohnpei/HANTRU-1, 100 Gbps initial provisioned capacity). Official NFCC/EMC/AIFFP pages as of 2026-08-12 still say 'just months away from ready for service' with no published RFS confirmation (expected Nov 2025 per 2025 sources; aggregate sources list RFS 2026). ADB Initial Environmental Examination (50348-001-ieeab-02, A-grade) states the cable landing station is proposed at the ICT building in Yaren - tagged to Yaren on that basis; NFCC/EMC public pages do not name a district. Telecom infrastructure, NOT a commercial datacenter; no colocation/interconnection service published by NFCC.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-kh-mekongnet-idc1-suncity-building",
+  "canonical_project": "MekongNet IDC1 (SunCity Building)",
+  "owner": "MekongNet / Angkor Data Communication Group Co., Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datacentercatalog.com/cambodia/idc1mekongnet",
+    "http://mekongnet.com.kh/services/data-center"
+  ],
+  "notes": "One of two MekongNet IDC facilities in Phnom Penh, at SunCity Building, Street 370. Official MekongNet data-center service page confirms colocation/hosting/IDC service; MW not published.",
+  "method_batch": true
+}

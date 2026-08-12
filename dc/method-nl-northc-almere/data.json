@@ -1,0 +1,21 @@
+{
+  "slug": "method-nl-northc-almere",
+  "canonical_project": "NorthC Almere",
+  "owner": "NorthC Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Flevoland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://thenextweb.com/news/northc-data-centre-fire-almere-dutch-infrastructure",
+    "https://www.northcdatacenters.com/en/northc-datacenters/"
+  ],
+  "notes": "NorthC data centre in Almere (operational; a fire there knocked Utrecht University offline and triggered NL-Alert per TNW); no MW disclosed.",
+  "method_batch": true
+}

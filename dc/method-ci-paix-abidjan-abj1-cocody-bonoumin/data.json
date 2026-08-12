@@ -1,0 +1,21 @@
+{
+  "slug": "method-ci-paix-abidjan-abj1-cocody-bonoumin",
+  "canonical_project": "PAIX Abidjan ABJ1 (Cocody/Bonoumin)",
+  "owner": "PAIX Data Centres / NSIA Technologies",
+  "location": {
+    "city": "",
+    "subnational": "Abidjan",
+    "country": "Cote d'Ivoire",
+    "country_code": "CI"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.peeringdb.com/fac/6246",
+    "https://systalink.com/data-center-cote-divoire/"
+  ],
+  "notes": "Carrier-neutral colo in Cocody Bonoumin; PeeringDB fac/6246 confirms existence (A-); ~900 m2, 2 MW, ~240 racks, ISO 27001 & PCI DSS per directory (C); JV with NSIA Technologies; PAIX official location page currently 404s.",
+  "method_batch": true
+}

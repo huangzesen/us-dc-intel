@@ -1,0 +1,23 @@
+{
+  "slug": "method-gn-guilab-data-center-colocation-cloud-centre-emetteur-de-kipe",
+  "canonical_project": "GUILAB Data Center / Colocation / Cloud (Centre Emetteur de Kipe)",
+  "owner": "GUILAB SA (La Guineeenne de Large Bande)",
+  "location": {
+    "city": "",
+    "subnational": "Conakry",
+    "country": "Guinea",
+    "country_code": "GN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://guilab.com.gn/data-center-vas/",
+    "https://guilab.com.gn/colsalisation/",
+    "https://guilab.com.gn/cloud/",
+    "https://guilab.com.gn/a-propos/"
+  ],
+  "notes": "Operator-published data-center/colocation/cloud service at C/Ratoma, Centre Emetteur de Kipe, Conakry (Guilab S.A., +224 628 222 100, NOC +224 620 303 030). Operator states 228.91 m2, Pylone/Meet-Me-Room/COLOC rooms, two 96-fibre links between MMR and COLOC, public grid + 2 x 400 kVA generators, 72-hour battery autonomy, ASHRAE temperature range, precision cooling 1+1, FM200 fire suppression, access control, 24/7/365. ISO 9001:2015 is an operations certification, not a Tier/Uptime certificate. Rack count and IT load/MW unknown. ACE landing station and IXP-GUINEE may share the Kipe estate; landing station is connectivity, not counted as a separate DC.",
+  "method_batch": true
+}

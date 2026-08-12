@@ -1,0 +1,21 @@
+{
+  "slug": "method-nl-digital-realty-amsterdam-portfolio-ams-series",
+  "canonical_project": "Digital Realty Amsterdam portfolio (AMS-series)",
+  "owner": "Digital Realty / Interxion",
+  "location": {
+    "city": "",
+    "subnational": "North Holland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 159.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.digitalrealty.com/data-centers/emea/amsterdam",
+    "https://w.media/digital-realty-opens-27mw-data-center-in-amsterdam/"
+  ],
+  "notes": "Digital Realty official page lists 12 Amsterdam-area data centers (AMS1-18, Science Park, Cessnalaan, Pudongweg, Amsterdam Data Tower); Dutch footprint ~159MW per DCD-era reporting; AMS-IX/NL-IX/DE-CIX connectivity.",
+  "method_batch": true
+}

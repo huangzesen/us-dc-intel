@@ -1,0 +1,22 @@
+{
+  "slug": "method-tn-solecrypt-ai-data-center-bizerte",
+  "canonical_project": "SoleCrypt AI Data Center Bizerte",
+  "owner": "SoleCrypt; Schneider Electric (partner)",
+  "location": {
+    "city": "",
+    "subnational": "Bizerte",
+    "country": "Tunisia",
+    "country_code": "TN"
+  },
+  "capacity_mw": 20,
+  "status": "planned",
+  "evidence_date": "2026-02-02",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.solecrypt.com/post/solecrypt-schneider-electric-mou-sustainable-ai-data-centres-in-tunisia",
+    "https://www.datacenterdynamics.com/en/news/solecrypt-plans-20mw-solar-powered-data-center-in-bizerte-tunisia/",
+    "https://www.leconomistemaghrebin.com/2026/02/02/tunisie-schneider-electric-et-solecrypt-misent-sur-des-data-centers-verts-pour-lia/"
+  ],
+  "notes": "MoU signed 2026-02-02 with Schneider Electric to study/co-develop sustainable AI data centers in Tunisia; DCD/L'Economiste Maghrebin report 20 MW initial AI DC at Parc d'activites economiques de Bizerte (B-grade detail), powered by 60 MW solar (T60, Tozeur - energy asset, not a DC site). Stage stays planned: no construction/permit/grid evidence yet. Bizerte also hosts Orange/Medusa submarine cable landing station (connectivity asset, not a DC).",
+  "method_batch": true
+}

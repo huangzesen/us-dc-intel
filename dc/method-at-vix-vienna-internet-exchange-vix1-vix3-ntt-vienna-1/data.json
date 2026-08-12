@@ -1,0 +1,21 @@
+{
+  "slug": "method-at-vix-vienna-internet-exchange-vix1-vix3-ntt-vienna-1",
+  "canonical_project": "VIX Vienna Internet Exchange VIX1-VIX3 / NTT Vienna-1",
+  "owner": "VIX (Vienna Internet eXchange) / NTT Global Data Centers EMEA",
+  "location": {
+    "city": "",
+    "subnational": "Vienna",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vix.at/en/about-vix/locations",
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/emea/vienna-1-data-center"
+  ],
+  "notes": "VIX official locations page: VIX1 at University of Vienna ZID (Universitaetsstrasse 7, 1010), VIX2 at Digital Realty Austria (Louis-Haefliger-Gasse 10, 1210), VIX3 at NTT Global Data Centers EMEA AT GmbH (Computerstrasse 4, 1100 Vienna) - the latter confirms an NTT Vienna-1 datacenter facility in the south of the city. IXP interconnection evidence (A for locations; facility detail of NTT per its own global page).",
+  "method_batch": true
+}

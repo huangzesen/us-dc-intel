@@ -1,0 +1,21 @@
+{
+  "slug": "method-ma-maroc-telecom-downtown-casablanca-data-center",
+  "canonical_project": "Maroc Telecom downtown Casablanca data center",
+  "owner": "Maroc Telecom (IAM)",
+  "location": {
+    "city": "",
+    "subnational": "Casablanca-Settat",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2018-01-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.minkels.com/images/7uTK3",
+    "https://telquel.ma/"
+  ],
+  "notes": "Minkels vendor case study states Maroc Telecom opened its first data center in downtown Casablanca to offer data-storage services to SMEs; corroborated by 2018 press (TelQuel). B-grade until an IAM official page is found; capacity not disclosed.",
+  "method_batch": true
+}

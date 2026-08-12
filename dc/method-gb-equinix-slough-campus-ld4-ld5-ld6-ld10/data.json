@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-equinix-slough-campus-ld4-ld5-ld6-ld10",
+  "canonical_project": "Equinix Slough campus (LD4/LD5/LD6/LD10)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "England - Slough",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/data-center/equinix-slough-campus-ld4-ld5-ld6-ld10",
+    "https://www.datacenterdynamics.com/en/news/equinix-opens-sixth-london-area-hub-ld6-in-slough/",
+    "https://www.datacenters.com/equinix-ld5-slough"
+  ],
+  "notes": "Campus on Slough Trading Estate: LD4/LD5/LD6/LD10 (~38,000 sqm total; LD5 2.2MW, LD10 12MW per directories); LD6 first UK LEED-gold purpose-built DC; further new Equinix Slough campus (3 buildings) approved by council per Techerati.",
+  "method_batch": true
+}

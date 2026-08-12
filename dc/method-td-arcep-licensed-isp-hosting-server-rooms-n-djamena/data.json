@@ -1,0 +1,20 @@
+{
+  "slug": "method-td-arcep-licensed-isp-hosting-server-rooms-n-djamena",
+  "canonical_project": "ARCEP-licensed ISP hosting/server rooms (N'Djamena)",
+  "owner": "ARCEP-authorized ISPs (Albidey Net, Global Technologies, IlNet, Tchad Broadband, Manano Telecom, Infotel-N'Djamena, Amanet, etc.)",
+  "location": {
+    "city": "",
+    "subnational": "N'Djamena City",
+    "country": "Chad",
+    "country_code": "TD"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://arcep.td/fournisseurs_acces_internet.html"
+  ],
+  "notes": "ARCEP ISP list defines the candidate N'Djamena server-room/hosting universe; hosting pages typically prove service rather than a physical facility. No verified in-country physical hosting facility with disclosed location found in this sweep (e.g., TIC Tchad states hosting runs on cloud servers across worldwide data centers - negative evidence of local colo scarcity). C-grade lead only, per methodology: licenses are not facility records.",
+  "method_batch": true
+}

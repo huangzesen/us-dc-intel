@@ -1,0 +1,22 @@
+{
+  "slug": "method-hu-wigner-data-centre-cern-remote-tier-0-extension",
+  "canonical_project": "Wigner Data Centre (CERN remote Tier-0 extension)",
+  "owner": "HUN-REN Wigner Research Centre for Physics / CERN",
+  "location": {
+    "city": "",
+    "subnational": "Budapest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://home.web.cern.ch/news/press-release/cern/cern-and-wigner-research-centre-physics-inaugurate-cern-data-centres",
+    "https://www.datacenterdynamics.com/en/news/cern-opens-wigner-data-center/",
+    "https://www.innovationnewsnetwork.com/wigners-footsteps-high-energy-physics-wigner-rcp/18973/"
+  ],
+  "notes": "CERN primary press release (2013-06-13): Wigner Data Centre in Budapest inaugurated as extension of CERN computing resources with about 500 servers, 20,000 computing cores, 5.5 PB storage. Wigner states the data centre was built with 4 MW IT capacity and 2x100 Gbit/s connection to CERN, hosting CERN Tier-0 equipment since January 2013. Research/HPC facility, not commercial colo. 4 MW capacity claim kept in notes (B-grade corroboration).",
+  "method_batch": true
+}

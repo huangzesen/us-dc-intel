@@ -1,0 +1,22 @@
+{
+  "slug": "method-rs-cetin-serbia-belgrade-data-center-omladinskih-brigada-92-novi-beograd",
+  "canonical_project": "CETIN Serbia Belgrade Data Center (Omladinskih brigada 92, Novi Beograd)",
+  "owner": "CETIN Serbia (legacy Telenor/Yettel DC)",
+  "location": {
+    "city": "",
+    "subnational": "Belgrade",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cetin.rs/services/data-center",
+    "https://www.datacentermap.com/serbia/belgrade/cetin-serbia-belgrade-data-center/",
+    "https://www.datacenterjournal.com/data-centers/serbia/belgrade/telenor-data-center/"
+  ],
+  "notes": "Carrier-neutral Belgrade data center, largest interconnection hub in Serbia/CEE; same building hosts Yettel (RATEL list entry) and phoenixNAP suite - do not double count.",
+  "method_batch": true
+}

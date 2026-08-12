@@ -1,0 +1,20 @@
+{
+  "slug": "method-mg-telma-yas-noc-and-disaster-recovery-centre",
+  "canonical_project": "Telma/Yas NOC and disaster recovery centre",
+  "owner": "Telma / Yas (AXIAN group)",
+  "location": {
+    "city": "",
+    "subnational": "Antananarivo",
+    "country": "Madagascar",
+    "country_code": "MG"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.yas.mg/data/corporate/2011_en.pdf"
+  ],
+  "notes": "Historical lead: 2011 Yas/Telma corporate document states an Antananarivo-based NOC and disaster recovery centre (A for the historical operator statement; URL live-checked 2026-08-12). Current facility status unresolved (U) - not current commercial colocation proof; refresh against Yas/STELLARIX current pages required.",
+  "method_batch": true
+}

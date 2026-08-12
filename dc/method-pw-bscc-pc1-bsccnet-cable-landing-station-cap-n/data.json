@@ -1,0 +1,22 @@
+{
+  "slug": "method-pw-bscc-pc1-bsccnet-cable-landing-station-cap-n",
+  "canonical_project": "BSCC PC1 / BSCCnet cable landing station (CAP-N)",
+  "owner": "Belau Submarine Cable Corporation (BSCC)",
+  "location": {
+    "city": "",
+    "subnational": "Ngeremlengui",
+    "country": "Palau",
+    "country_code": "PW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.submarinenetworks.com/en/systems/trans-pacific/palau-guam",
+    "https://static1.squarespace.com/static/588a909986e6c024ec0412ea/t/63644e2089ce7f491869f622/1667517988521/221006+FY+2023+BSCC+Business+Plan+v+2.2+clean.pdf",
+    "https://belaucable.com/about"
+  ],
+  "notes": "Palau's first international submarine fibre cable (PC1, SEA-US branch) ready for service Dec 2017, landed at the Ngeremlengui Cable Landing Station / Capacity Access Point CAP-N, built with ADB support. Cable landing station + telecom equipment room - telecom infrastructure, NOT a commercial datacenter (no colo services offered per methodology). Capacity is telecom (wavelengths/bandwidth), not IT MW.",
+  "method_batch": true
+}

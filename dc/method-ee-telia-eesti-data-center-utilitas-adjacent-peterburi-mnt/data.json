@@ -1,0 +1,22 @@
+{
+  "slug": "method-ee-telia-eesti-data-center-utilitas-adjacent-peterburi-mnt",
+  "canonical_project": "Telia Eesti data center (Utilitas-adjacent, Peterburi mnt)",
+  "owner": "Telia Eesti AS",
+  "location": {
+    "city": "",
+    "subnational": "Harju",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.err.ee/951199/telia-ehitab-utilitase-elektrijaama-korvale-10-miljoniga-andmekeskuse",
+    "https://majandus.postimees.ee/6704840/telia-rajab-10-miljoni-euroga-tallinna-kulje-alla-andmekeskuse",
+    "https://digitark.telia.ee/era/telia-investeerib-10-miljonit-uue-andmekeskuse-rajamisse/"
+  ],
+  "notes": "Harju/Tallinn edge: ~EUR 10M data center built next to Utilitas CHP plant on Peterburi maantee, planned 2019-2021, powered by Utilitas. Trade/local press (ERR, Postimees) + Telia Digitark first-party mirror. Capacity not public.",
+  "method_batch": true
+}

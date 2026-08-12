@@ -1,0 +1,22 @@
+{
+  "slug": "method-kg-infocom-g-cloud-state-e-government-data-processing-infrastructure",
+  "canonical_project": "Infocom / Тундук G-Cloud state e-government data processing infrastructure",
+  "owner": "ГП «Инфоком» (Infocom), State Registration Service",
+  "location": {
+    "city": "",
+    "subnational": "Bishkek",
+    "country": "Kyrgyzstan",
+    "country_code": "KG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://portal.tunduk.kg/",
+    "https://bgir.tunduk.kg/Category/DataProcessingCenter/Index",
+    "https://data.gov.kg/"
+  ],
+  "notes": "State e-services platform (Тундук) operated by Infocom (A for service operation); BGIR/Tunduk portal hosts a registry of data processing centres (ЦОД) including registered centres (e.g. id=37, launched 2010, 1,000,000 KGS cost), evidencing state data-processing infrastructure in Bishkek. Physical DC building details non-public; recorded as state e-gov/G-Cloud infrastructure per KG methodology.",
+  "method_batch": true
+}

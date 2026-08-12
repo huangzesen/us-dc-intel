@@ -1,0 +1,20 @@
+{
+  "slug": "method-fj-vodafone-fiji-hosted-cloud-iaas-fiji-based-hosted-cloud",
+  "canonical_project": "Vodafone Fiji Hosted Cloud / IaaS (Fiji-based hosted cloud)",
+  "owner": "Vodafone Fiji",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Fiji",
+    "country_code": "FJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vodafone.com.fj/business/products-services/ict-cloud-solutions/infrustructure-as-a-service"
+  ],
+  "notes": "Vodafone Fiji official IaaS page (methodology-verified 2026-08-12) describes a Fiji-based hosted cloud service connected to Vodafone IPVPN. Operator-hosted cloud lead; physical data-centre site and capacity undisclosed. Division assigned Central by convention (Vodafone Fiji HQ Suva); actual site unverified.",
+  "method_batch": true
+}

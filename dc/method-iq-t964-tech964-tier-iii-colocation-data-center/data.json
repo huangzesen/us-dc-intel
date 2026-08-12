@@ -1,0 +1,23 @@
+{
+  "slug": "method-iq-t964-tech964-tier-iii-colocation-data-center",
+  "canonical_project": "T964 / Tech964 Tier III colocation data center",
+  "owner": "T964 (Tech964) / Schneider Electric",
+  "location": {
+    "city": "",
+    "subnational": "Baghdad",
+    "country": "Iraq",
+    "country_code": "IQ"
+  },
+  "capacity_mw": 3.0,
+  "status": "construction",
+  "evidence_date": "2026-07-30",
+  "evidence_grade": "B",
+  "sources": [
+    "https://t964datacenter.com/",
+    "https://www.datacenterdynamics.com/en/news/iraqs-t964-to-build-data-center-with-schneider-electric/",
+    "https://www.iraq-businessnews.com/2026/07/11/schneider-electric-partners-with-t964-for-new-baghdad-data-centre/",
+    "https://www.iraq-businessnews.com/2026/07/30/uptime-institute-names-t964-as-business-partner-in-iraq/"
+  ],
+  "notes": "Official site (checked 2026-08-12) markets 'Iraq's AI-Ready Infrastructure Platform': Tier III colocation, 99.99% uptime claim, carrier-neutral, N+1 full redundancy, 24/7 NOC/SOC, claims Uptime-certified design/construction/operation (operator claim). DCD reports construction for launch end-2026, 3 MW IT load (operator claim) and 12 MW scalable phase capacity/340 racks phase 1; site power access claim 84 MW. Uptime Institute named T964 its business partner in Iraq (signed at US-Iraq Business Summit, Jul 2026). Status construction per DCD; capacity_mw recorded as stated 3 MW IT load, other figures in notes.",
+  "method_batch": true
+}

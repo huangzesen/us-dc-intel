@@ -1,0 +1,22 @@
+{
+  "slug": "method-si-tom-pit-d-o-o-claimed-in-house-data-center-unverified-enterprise-lead",
+  "canonical_project": "Tom PIT d.o.o. claimed in-house data center (unverified enterprise lead)",
+  "owner": "Tom PIT d.o.o. (software company, HQ Vodnikova ulica 2 / Kidriceva ulica 24a, 3000 Celje)",
+  "location": {
+    "city": "",
+    "subnational": "Celje",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://tompit.com/static/connected.website.ui/tp_brosura_partner_network",
+    "https://tompit.hr/data-center",
+    "https://www.tompit.com/company/contact"
+  ],
+  "notes": "Weak/unverified enterprise lead only (grade C): Tom PIT's own partner brochure states 'Tom PIT.connected ima lasten podatkovni center' (has its own data center) and tompit.hr offers data-centre hosting; company is registered at Celje (Vodnikova ulica 2, 3000 Celje; brochure address Kidriceva ulica 24a, 3000 Celje) with an additional Ljubljana office. No physical DC address, PIS/eGraditev act, procurement record, capacity, or official confirmation of a Celje-located facility found - per SI methodology this is a service/enterprise claim not countable as a confirmed facility. No other Celje DC evidence: Kontron SI Celje is a business unit/office only; NA-MI d.o.o. bizi snippet refers to a large DC investment in Croatia, not Celje.",
+  "method_batch": true
+}

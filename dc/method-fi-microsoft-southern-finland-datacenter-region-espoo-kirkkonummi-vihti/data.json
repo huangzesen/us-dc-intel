@@ -1,0 +1,25 @@
+{
+  "slug": "method-fi-microsoft-southern-finland-datacenter-region-espoo-kirkkonummi-vihti",
+  "canonical_project": "Microsoft Southern Finland datacenter region (Espoo/Kirkkonummi/Vihti)",
+  "owner": "Microsoft (SPV Microsoft 3465 Finland Oy)",
+  "location": {
+    "city": "",
+    "subnational": "Uusimaa",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/europe/2022/03/17/microsoft-announces-intent-to-build-a-new-datacenter-region-in-finland-accelerating-sustainable-digital-transformation-and-enabling-large-scale-carbon-free-district-heating/",
+    "https://local.microsoft.com/communities/emea/suomidc/",
+    "https://www.espoo.fi/fi/uutiset/2023/12/espoo-myi-microsoftille-maata-hepokorvesta-datakeskusta-varten",
+    "https://kirkkonummi.fi/microsoftin-datakeskushanke-etenee-kirkkonummella/",
+    "https://www.fortum.com/services/heating-cooling/data-centres-helsinki-region",
+    "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/espoon-datakeskusalue-espoo"
+  ],
+  "notes": "Microsoft building a Southern Finland datacenter region across Espoo (Hepokorpi, ~28 ha), Kirkkonummi and Vihti (Nummela, ~60 ha); Espoo land sale 2023 and Hepokorvenkallio asemakaava legally in force; Kirkkonummi phase 1 rakentamislupa granted with phase 2 pending; district heating integration with Fortum (Espoo/Kirkkonummi/Kauniainen, serving ~250,000 residents). Multi-site campus - count as one region program with three municipalities.",
+  "method_batch": true
+}

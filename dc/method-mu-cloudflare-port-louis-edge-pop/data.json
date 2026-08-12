@@ -1,0 +1,20 @@
+{
+  "slug": "method-mu-cloudflare-port-louis-edge-pop",
+  "canonical_project": "Cloudflare Port Louis edge/PoP",
+  "owner": "Cloudflare",
+  "location": {
+    "city": "",
+    "subnational": "Port Louis",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://blog.cloudflare.com/durban-and-port-louis/"
+  ],
+  "notes": "Cloudflare official blog (2018-03-29) announced Port Louis, Mauritius as a Cloudflare network data-center city. This is a CDN/edge network location rather than a published colocation facility; physical host facility and capacity not disclosed. Retained from round-1 as a lead; not evidence of a public colo datacentre.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-mu-bhumishq-cybercity-data-centre",
+  "canonical_project": "Bhumishq Cybercity Data Centre",
+  "owner": "Bhumishq Teleserve Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Moka",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/list/datacenter/cybercity-data-centre/260",
+    "https://www.datacentermap.com/mauritius/reduit/bhumishq-data-centre/",
+    "https://www.prodesign.mu/projects/data-centers/tier-iv-data-centre-for-bhumishq-mindspace"
+  ],
+  "notes": "Uptime Institute Mauritius listing (A) shows Bhumishq Teleserve Cybercity Data Centre, Ebene with Tier IV Certification of Design Documents (design cert does not by itself prove constructed status). Prodesign says the 500 sq m Tier IV centre at Mindspace, Ebene was completed in 2010 and was the first Tier IV-certified in Mauritius. DataCenterMap gives Mindspace Building, 45 Wall Street, Ebene (C address). Assigned Moka (Ebene/Cybercity). Capacity not disclosed.",
+  "method_batch": true
+}

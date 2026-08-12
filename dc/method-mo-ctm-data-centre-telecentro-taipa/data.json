@@ -1,0 +1,23 @@
+{
+  "slug": "method-mo-ctm-data-centre-telecentro-taipa",
+  "canonical_project": "CTM Data Centre (Telecentro, Taipa)",
+  "owner": "Companhia de Telecomunicações de Macau S.A.R.L. (CTM)",
+  "location": {
+    "city": "",
+    "subnational": "Macao",
+    "country": "Macao",
+    "country_code": "MO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://telecommunications.ctt.gov.mo/en/News/Details/4107",
+    "https://macaudailytimes.com.mo/chief-executive-grants-ctm-rights-to-install-data-centers.html",
+    "https://www.datacentermap.com/macau/taipa/ctm-data-center/",
+    "https://cds.ici.um.edu.mo/posts/17288/"
+  ],
+  "notes": "Only Macao entity authorized to install/operate data centres under Reg. 13/2024 (CTT notice 2024-10-04: authorization granted to CTM; authorization No. 1/2024 renewed by Chief Executive Dispatch 180/2025 from 2025-10-01 to 2027-09-30). Macau Daily Times (2024-10-08): data centres to be established on floors 1/2/5 of CTM Telecentro Building, Rua de Lagos, Taipa. University of Macau on-site visit: first data centre in Macau with ISO 20000/27001/14001/22301 certifications (B-grade corroboration). DataCenterMap lists CTM Macau Data Center (Taipa, Rua de Lagos/Telecentro) as Macao's only directory facility (C-grade address). CTM also markets CTM (Hong Kong) Data Centre - HK-adjacent service, not a Macao facility. Capacity not published.",
+  "method_batch": true
+}

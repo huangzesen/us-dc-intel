@@ -1,0 +1,20 @@
+{
+  "slug": "method-cn-shenzhen-port-group-smart-modular-data-center",
+  "canonical_project": "Shenzhen Port Group Smart Modular Data Center",
+  "owner": "Shenzhen Port Group / Huawei Digital Power",
+  "location": {
+    "city": "",
+    "subnational": "Guangdong - Shenzhen",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 0.54,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://digitalpower.huawei.com/en/cases/data-center-facility/shenzhen-port-huawei-smart-modular-data-center"
+  ],
+  "notes": "~700 sq m DC area, 90 planned IT racks at 6 kW (0.54 MW); FusionModule2000. Re-verified first-round lead.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-tr-pluslayer-izmir-data-center",
+  "canonical_project": "PlusLayer Izmir Data Center",
+  "owner": "PlusLayer (Naymanli Bilgisayar)",
+  "location": {
+    "city": "",
+    "subnational": "Izmir",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.pluslayer.com/altyapi.php"
+  ],
+  "notes": "Official PlusLayer page: three data center halls totaling 350 m2 (200+110+40 m2) in Konak, Izmir; among Turkey's top-5 hosting data centers by IP space (2022); operates 200k+ hosted websites.",
+  "method_batch": true
+}

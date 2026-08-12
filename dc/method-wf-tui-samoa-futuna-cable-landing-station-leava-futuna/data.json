@@ -1,0 +1,22 @@
+{
+  "slug": "method-wf-tui-samoa-futuna-cable-landing-station-leava-futuna",
+  "canonical_project": "Tui Samoa Futuna cable landing station (Leava, Futuna)",
+  "owner": "SPT-WF; Tui Samoa cable system (SSCC/consortium with AFD/EU funding for WF branch)",
+  "location": {
+    "city": "",
+    "subnational": "Sigave",
+    "country": "Wallis and Futuna",
+    "country_code": "WF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.afd.fr/fr/projets/raccorder-wallis-et-futuna-au-cable-sous-marin-de-telecommunications-tui-samoa",
+    "https://la1ere.franceinfo.fr/wallisfutuna/station-atterrage-est-prete-au-branchement-du-cable-tui-samoa-525373.html",
+    "https://geocables.com/location/apia-samoa"
+  ],
+  "notes": "AFD (A) and La 1ère (B) confirm a Futuna landing station installed (Oct-Nov 2017) and operational with Tui Samoa (RFS April 2018 per SPT-WF); village-level placement at Leava (Sigave precinct, north-west Futuna) per GeoCables cable tracker (C). Classified telecom_cable_station per WF methodology; Leava SPT service point itself is not a data center. No commercial colo or named government DC evidence in Sigave.",
+  "method_batch": true
+}

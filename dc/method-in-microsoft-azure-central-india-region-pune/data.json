@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-microsoft-azure-central-india-region-pune",
+  "canonical_project": "Microsoft Azure Central India region (Pune)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Maharashtra - Pune Division",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+    "https://indianexpress.com/article/cities/pune/microsoft-to-log-on-to-pune-with-data-centre/"
+  ],
+  "notes": "Azure Central India region located in Pune (operational since ~2015); facilities in Bhosari MIDC / Pimpri-Chinchwad area (Pune district); new availability zones announced 2024; capacity not publicly disclosed.",
+  "method_batch": true
+}

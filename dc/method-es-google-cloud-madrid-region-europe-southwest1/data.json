@@ -1,0 +1,21 @@
+{
+  "slug": "method-es-google-cloud-madrid-region-europe-southwest1",
+  "canonical_project": "Google Cloud Madrid region (europe-southwest1)",
+  "owner": "Google Cloud / Telefonica infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Community of Madrid",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/blog/products/infrastructure/new-google-cloud-region-in-madrid-spain-now-open",
+    "https://cloud.google.com/about/locations"
+  ],
+  "notes": "Google Cloud Madrid region europe-southwest1 opened in 2022, built with Telefonica; A for logical region existence, C for exact facility inference.",
+  "method_batch": true
+}

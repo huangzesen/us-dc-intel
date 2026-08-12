@@ -1,0 +1,23 @@
+{
+  "slug": "method-ke-microsoft-g42-olkaria-geothermal-data-centre-campus-east-africa-azure-cloud-regi",
+  "canonical_project": "Microsoft/G42 Olkaria geothermal data centre campus (East Africa Azure cloud region)",
+  "owner": "G42 with Microsoft and Kenyan partners (KenGen/EcoCloud)",
+  "location": {
+    "city": "",
+    "subnational": "Nakuru",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": 100.0,
+  "status": "planned",
+  "evidence_date": "2026-07-17",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/source/2024/05/22/microsoft-and-g42-announce-1-billion-comprehensive-digital-ecosystem-initiative-for-kenya/",
+    "https://www.datacenterdynamics.com/en/news/microsoft-and-g42-data-center-in-kenya-stalled-due-to-lack-of-power-capacity/",
+    "https://www.reuters.com/world/africa/microsofts-african-data-center-falters-payment-demands-bloomberg-news-reports-2026-05-10/",
+    "https://www.ghanamma.com/2026/07/17/inside-olkaria-the-empty-site-of-kenyas-1gw-ai-ambition/"
+  ],
+  "notes": "Microsoft/G42 announced (2024-05-22) a $1B digital ecosystem initiative including a geothermal-powered Olkaria data-centre campus for a new East Africa Azure cloud region (initial ~100MW, G42/EcoCloud collaboration with potential expansion to 1GW). 2026 reporting: project stalled/paused over national grid capacity and payment guarantees (Reuters 2026-05-10, DCD), with the Olkaria site reported largely empty (July 2026). Azure region list does not yet include Kenya. Status planned/uncertain - announcement grade A, current status B/C.",
+  "method_batch": true
+}

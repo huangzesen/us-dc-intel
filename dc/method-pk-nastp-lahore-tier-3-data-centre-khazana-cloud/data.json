@@ -1,0 +1,21 @@
+{
+  "slug": "method-pk-nastp-lahore-tier-3-data-centre-khazana-cloud",
+  "canonical_project": "NASTP Lahore Tier 3 data centre (Khazana Cloud)",
+  "owner": "NASTP / Khazana Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Punjab",
+    "country": "Pakistan",
+    "country_code": "PK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://nastp.pk/",
+    "https://khazanacloud.com/"
+  ],
+  "notes": "Khazana Cloud operator content states a Tier 3 facility at the Lahore NASTP (National Science & Technology Park) plus PTCL Karachi co-location. A for operator-owned statement; 'hyperscale' marketing label unverified.",
+  "method_batch": true
+}

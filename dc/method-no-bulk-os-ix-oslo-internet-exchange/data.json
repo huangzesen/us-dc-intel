@@ -1,0 +1,22 @@
+{
+  "slug": "method-no-bulk-os-ix-oslo-internet-exchange",
+  "canonical_project": "Bulk OS-IX (Oslo Internet Exchange)",
+  "owner": "Bulk Infrastructure / Bulk Data Centers (OS-IX AS)",
+  "location": {
+    "city": "",
+    "subnational": "Oslo",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bulkinfrastructure.com/data-centers/locations/os-ix",
+    "https://www.peeringdb.com/fac/5518",
+    "https://baxtel.com/data-center/bulk-oslo-internet-exchange-os-ix"
+  ],
+  "notes": "Carrier-hotel colocation at Hans Moller Gasmanns vei 9, Oslo; 60+ ASNs and 4 internet exchanges on site; Nkom-listed operator BULK DATA CENTERS OS-IX AS. Operator page + PeeringDB confirm existence (A); exact MW not published.",
+  "method_batch": true
+}

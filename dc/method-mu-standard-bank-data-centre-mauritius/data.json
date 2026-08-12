@@ -1,0 +1,20 @@
+{
+  "slug": "method-mu-standard-bank-data-centre-mauritius",
+  "canonical_project": "Standard Bank Data Centre (Mauritius)",
+  "owner": "Standard Bank",
+  "location": {
+    "city": "",
+    "subnational": "Plaines Wilhems",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.prodesign.mu/projects/data-centers/standard-bank-data-centre"
+  ],
+  "notes": "Prodesign project page states it provided consultancy services for Standard Bank's Data Centre. Exact location and capacity not found; retained from round-1 under Plaines Wilhems based on Prodesign's Mauritius project cluster, with division assignment unverified (missing evidence: facility address/parcel). No public MW capacity.",
+  "method_batch": true
+}

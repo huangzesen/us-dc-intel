@@ -1,0 +1,21 @@
+{
+  "slug": "method-ro-centrul-de-date-hub-mai-ministerul-afacerilor-interne",
+  "canonical_project": "Centrul de Date HUB MAI (Ministerul Afacerilor Interne)",
+  "owner": "Ministerul Afacerilor Interne (DGCTI); built by Tema Energy",
+  "location": {
+    "city": "",
+    "subnational": "Bucuresti",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://tema-energy.ro/centrul-de-date-hub-mai/",
+    "https://panorama.ro/centre-de-date-impact-mediu-digitalizare/"
+  ],
+  "notes": "Public-sector Tier 3 data center in Bucharest received in 2022 (1.5 MW per Panorama); Tema Energy case study quotes MAI DGCTI; large public facility not in commercial colo directories.",
+  "method_batch": true
+}

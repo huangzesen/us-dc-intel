@@ -1,0 +1,20 @@
+{
+  "slug": "method-tl-timor-telecom-core-backbone-telecom-building-caicoli",
+  "canonical_project": "Timor Telecom core/backbone (Telecom Building, Caicoli)",
+  "owner": "Timor Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Dili",
+    "country": "Timor-Leste",
+    "country_code": "TL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.timortelecom.tl/"
+  ],
+  "notes": "Timor Telecom is the main fixed/mobile/backbone operator and hosts ANC at the Telecom Building, Avenida Xavier do Amaral No. 8, Caicoli, Dili. Operator identity is A; no public named data-center/server-room colo product found this pass, so recorded as telecom core/backbone (network infrastructure), not a commercial DC. Capacity null.",
+  "method_batch": true
+}

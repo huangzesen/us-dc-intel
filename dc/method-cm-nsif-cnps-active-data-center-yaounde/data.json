@@ -1,0 +1,20 @@
+{
+  "slug": "method-cm-nsif-cnps-active-data-center-yaounde",
+  "canonical_project": "NSIF (CNPS) active data center Yaoundé",
+  "owner": "Cameroon National Social Insurance Fund (NSIF/CNPS) / Huawei",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://afriquepremiere.net/cameroons-nsif-is-drawing-up-a-digital-blueprint-for-public-services/"
+  ],
+  "notes": "B-grade press: Huawei-built active and standby data centers for NSIF, active site in Yaoundé, standby/disaster-recovery in Douala, modular data-center architecture. Institutional/state facility; no MW capacity published.",
+  "method_batch": true
+}

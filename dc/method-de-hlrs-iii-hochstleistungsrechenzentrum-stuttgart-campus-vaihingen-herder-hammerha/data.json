@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-hlrs-iii-hochstleistungsrechenzentrum-stuttgart-campus-vaihingen-herder-hammerha",
+  "canonical_project": "HLRS III - Höchstleistungsrechenzentrum Stuttgart (Campus Vaihingen, Herder + HammerHAI)",
+  "owner": "Land Baden-Württemberg / Bund; University of Stuttgart HLRS; Universitätsbauamt Stuttgart und Hohenheim",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Stuttgart",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.baden-wuerttemberg.de/de/service/presse/pressemitteilung/pid/start-fuer-das-hoechstleistungsrechenzentrum-an-der-universitaet-stuttgart-1",
+    "https://www.datacenter-insider.de/hlrs-iii-in-stuttgart-startet-neubau-fuer-herder-und-hammerhai-a-5d939b25348b8f2847f30d265a6bd6b6/",
+    "https://www.hlrs.de/de/loesungen/systeme/herder"
+  ],
+  "notes": "NEW method-driven find. State press release 2025-04-17: construction started for HLRS III at Campus Vaihingen - Holz-Hybrid building with PV and waste-heat reuse (campus heating), EUR 138.5m state + EUR 40.1m federal investment, completion expected end 2027; will house exascale-class supercomputer Herder (HPE Cray GX5000) and European AI Factory 'HammerHAI'. Capacity MW not published.",
+  "method_batch": true
+}

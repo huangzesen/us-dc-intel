@@ -1,0 +1,21 @@
+{
+  "slug": "method-ki-ocean-link-ltd-core-network-sites",
+  "canonical_project": "Ocean Link Ltd core/network sites",
+  "owner": "Ocean Link Ltd (second mobile/ISP operator)",
+  "location": {
+    "city": "",
+    "subnational": "Gilbert Islands",
+    "country": "Kiribati",
+    "country_code": "KI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.gsma.com/get-involved/gsma-membership/gsma_orgs/ocean-link-ltd/",
+    "https://openjicareport.jica.go.jp/pdf/1000057177.pdf"
+  ],
+  "notes": "Telco core / server-room lead (asset class: telco-core), not verified colocation. Second operator, operational since 2018/2019 (GSMA membership; TeleGeography-derived launch history via Samena Council); JICA identifies active role in South Tarawa and remote-island mobile projects (incl. Kiritimati). A-grade for operator existence; no hosting/colocation facility claim verified (facility details C).",
+  "method_batch": true
+}

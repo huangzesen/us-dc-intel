@@ -1,0 +1,21 @@
+{
+  "slug": "method-za-aws-africa-cape-town-region-af-south-1",
+  "canonical_project": "AWS Africa (Cape Town) Region (af-south-1)",
+  "owner": "Amazon Web Services (AWS)",
+  "location": {
+    "city": "",
+    "subnational": "Western Cape - City of Cape Town",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/local/africa/cape-town/",
+    "https://aws.amazon.com/blogs/aws/now-open-aws-africa-cape-town-region/"
+  ],
+  "notes": "AWS Africa (Cape Town) Region af-south-1, launched April 2020 with three Availability Zones - first hyperscale cloud region in Africa. Official AWS region page confirms presence. Region-level evidence only; per methodology does not disclose physical facility addresses.",
+  "method_batch": true
+}

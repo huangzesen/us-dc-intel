@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-stack-infrastructure-mel02-truganina-campus",
+  "canonical_project": "STACK Infrastructure MEL02 Truganina campus",
+  "owner": "STACK Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Wyndham",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 252,
+  "status": "planned",
+  "evidence_date": "2025-11-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.stackinfra.com/locations/asia-pacific/melbourne/mel02/",
+    "https://www.datacenterdynamics.com/en/news/stack-tops-out-swiss-data-center-completes-construction-in-melbourne/",
+    "https://www.datacentermap.com/australia/melbourne/stack-infrastructure-mel02/"
+  ],
+  "notes": "STACK official page: MEL02 campus is a 252MW data center in the hyperscale corridor of Truganina (City of Wyndham), close to MEL01; 14-acre site with one 227,000 sq ft building and a 300+MW onsite substation. DCD (Nov 2025) reports the campus 'in development'; construction status not further verified, so status kept at planned.",
+  "method_batch": true
+}

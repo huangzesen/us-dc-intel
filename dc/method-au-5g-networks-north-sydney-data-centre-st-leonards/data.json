@@ -1,0 +1,21 @@
+{
+  "slug": "method-au-5g-networks-north-sydney-data-centre-st-leonards",
+  "canonical_project": "5G Networks North Sydney Data Centre (St Leonards)",
+  "owner": "5G Networks / DCI Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - North Sydney",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://colomap.com/facilities/north-sydney-data-centre-5gn/",
+    "https://www.datacenters.com/locations/australia/new-south-wales/north-sydney"
+  ],
+  "notes": "Small carrier colocation in St Leonards (North Sydney LGA); directory-listed with 3 network carriers (5G Networks AS63956, Intergrid AS133480, Tello Services AS133130). No major new-build or SSD found for North Sydney LGA; capacity not disclosed.",
+  "method_batch": true
+}

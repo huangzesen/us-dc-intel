@@ -1,0 +1,21 @@
+{
+  "slug": "method-mc-monaco-telecom-centre-de-donnees-n-6",
+  "canonical_project": "Monaco Telecom Centre de donnees n.6",
+  "owner": "Monaco Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Fontvieille",
+    "country": "Monaco",
+    "country_code": "MC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://monaco-telecom.mc/wp-content/uploads/2025/10/Certificats-MT.pdf",
+    "https://monaco-telecom.mc/en/data-center/"
+  ],
+  "notes": "2025 ISO/HDS certificate lists 'Zone F, 4-6 avenue Albert II' as Centre de donnees n.6; part of the 3 certified Monaco Telecom data centers in the Principality. Same Zone F cluster as DC3; capacity_mw null per methodology (no MW published).",
+  "method_batch": true
+}

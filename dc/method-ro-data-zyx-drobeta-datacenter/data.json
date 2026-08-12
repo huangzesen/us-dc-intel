@@ -1,0 +1,22 @@
+{
+  "slug": "method-ro-data-zyx-drobeta-datacenter",
+  "canonical_project": "DATA ZYX Drobeta Datacenter",
+  "owner": "DATA ZYX SRL",
+  "location": {
+    "city": "",
+    "subnational": "Mehedinti",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/romania/drobeta-turnu-severin/drobeta-dc/",
+    "https://www.peeringdb.com/fac/4921",
+    "https://inflect.com/building/calea-tg-jiului-35-drobeta-turnu-severin/data-zyx/datacenter/data-zyx"
+  ],
+  "notes": "Calea Tg. Jiului 35, Drobeta-Turnu Severin, Mehedinti; carrier-neutral facility with 2N power redundancy per Inflect; 1 network / 1 exchange per PeeringDB; directory-grade evidence.",
+  "method_batch": true
+}

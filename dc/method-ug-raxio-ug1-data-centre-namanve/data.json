@@ -1,0 +1,25 @@
+{
+  "slug": "method-ug-raxio-ug1-data-centre-namanve",
+  "canonical_project": "Raxio UG1 data centre (Namanve)",
+  "owner": "Raxio Group / Raxio Data Centre Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Uganda",
+    "country_code": "UG"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.raxiogroup.com/data-centres/uganda/",
+    "https://www.raxiogroup.com/uganda-gets-first-in-country-state-of-the-art-data-centre-at-namanve/",
+    "https://www.watchdoguganda.com/news/20210526/114570/raxio-opens-first-data-centre-in-uganda.html",
+    "https://techafricanews.com/2026/08/07/raxio-group-appoints-dennis-kahindi-as-uganda-general-manager/",
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/UG",
+    "https://baxtel.com/data-center/raxio-uganda"
+  ],
+  "notes": "Operator page confirms enterprise-grade carrier/cloud-neutral data centre in Namanve Industrial Park (KIBP), 15 km from Kampala CBD; launched May 2021 (Watchdog) as Uganda's first Uptime Tier III design-certified data centre, ~1,542 sqm, up to 400 racks and 1.5 MW IT power per operator release (capacity A/B as operator claim). 2026-08-07 TechAfrica News: Raxio appointed a new Uganda GM, confirming active 2026 operation; Observer reported the government-backed ABQ Cloud launched inside the Raxio Namanve facility.",
+  "method_batch": true
+}

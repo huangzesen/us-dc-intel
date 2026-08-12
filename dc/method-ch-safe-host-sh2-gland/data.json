@@ -1,0 +1,21 @@
+{
+  "slug": "method-ch-safe-host-sh2-gland",
+  "canonical_project": "Safe Host SH2 (Gland)",
+  "owner": "STACK Infrastructure / Safe Host",
+  "location": {
+    "city": "",
+    "subnational": "Vaud",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": 18,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/safehost-to-extend-sh2-data-center-in-gland-switzerland/",
+    "https://www.webuildgroup.com/en/projects/civil-industrial-buildings/data-centre-safe-host/"
+  ],
+  "notes": "Switzerland's largest carrier-neutral colo at Gland VD; +18 MW IT capacity extension contracted with Webuild/CSC (announced 2021-06-30); dual grid feed, PUE 1.3-1.8.",
+  "method_batch": true
+}

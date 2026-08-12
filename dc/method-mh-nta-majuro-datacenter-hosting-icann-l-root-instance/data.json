@@ -1,0 +1,20 @@
+{
+  "slug": "method-mh-nta-majuro-datacenter-hosting-icann-l-root-instance",
+  "canonical_project": "NTA Majuro datacenter hosting ICANN L-Root instance",
+  "owner": "Marshall Islands National Telecommunications Authority (NTA) / ICANN",
+  "location": {
+    "city": "",
+    "subnational": "Majuro",
+    "country": "Marshall Islands",
+    "country_code": "MH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2017-03-06",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.icann.org/en/announcements/details/marshall-islands-national-telecommunications-authority-contributes-to-responsive-and-resilient-internet-with-l-root-instance-in-marshall-islands-6-3-2017-en"
+  ],
+  "notes": "ICANN primary announcement (2017-03-06): L-Root node installed in Majuro; NTA supplied equipment, provided colocation in its datacenter, and bandwidth. This is the only confirmed operational datacenter-class facility in MH (small internet-infrastructure site; MW capacity not disclosed). Page re-verified 2026-08-12.",
+  "method_batch": true
+}

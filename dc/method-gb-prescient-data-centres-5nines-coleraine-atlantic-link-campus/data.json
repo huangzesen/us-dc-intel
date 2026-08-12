@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-prescient-data-centres-5nines-coleraine-atlantic-link-campus",
+  "canonical_project": "Prescient Data Centres / 5NINES Coleraine (Atlantic Link Campus)",
+  "owner": "Prescient Data Centres / 5NINES",
+  "location": {
+    "city": "",
+    "subnational": "Northern Ireland - Causeway Coast and Glens",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 4.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/5nines-opens-northern-irelands-largest-data-center/",
+    "https://www.datacentermap.com/united-kingdom/belfast/5nines/",
+    "https://sibni.org/project/atlantic-link-campus/"
+  ],
+  "notes": "Operational carrier-neutral Tier III facility at Atlantic Link Enterprise Campus, Coleraine; ~45,000 sq ft technical space; directories list up to 4.5MW.",
+  "method_batch": true
+}

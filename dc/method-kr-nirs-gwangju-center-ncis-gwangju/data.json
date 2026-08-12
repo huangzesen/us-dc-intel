@@ -1,0 +1,21 @@
+{
+  "slug": "method-kr-nirs-gwangju-center-ncis-gwangju",
+  "canonical_project": "NIRS Gwangju Center (NCIS Gwangju)",
+  "owner": "NIRS / Ministry of Interior and Safety (government)",
+  "location": {
+    "city": "",
+    "subnational": "Gwangju - Seo-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B5%AD%EA%B0%80%EC%A0%95%EB%B3%B4%EC%9E%90%EC%9B%90%EA%B4%80%EB%A6%AC%EC%9B%90_%EA%B4%91%EC%A3%BC%EC%84%BC%ED%84%B0",
+    "https://www.nirs.go.kr/subN05/sub05_501_02.jsp"
+  ],
+  "notes": "Government disaster-recovery/data center established 2017-07-26; Songam-ro 143beon-gil 34, Seo-gu; backs up Daejeon main center (role in 2025 Daejeon fire recovery). Public-sector DC.",
+  "method_batch": true
+}

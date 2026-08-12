@@ -1,0 +1,21 @@
+{
+  "slug": "method-ge-cloud9-batumi-arena-data-center",
+  "canonical_project": "Cloud9 - Batumi Arena data center",
+  "owner": "Cloud9 LLC",
+  "location": {
+    "city": "",
+    "subnational": "Adjara",
+    "country": "Georgia",
+    "country_code": "GE"
+  },
+  "capacity_mw": 0.1,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/georgia/batumi/cloud9-batimu-arena/",
+    "https://www.datacentermap.com/georgia/batumi/"
+  ],
+  "notes": "DataCenterMap lists Cloud9 Batumi Arena at Shartava Ave 13, Batumi as under construction with 0.1 MW reported (catalog capacity, grade C). No first-party Cloud9 confirmation, Batumi permit or utility evidence found; per methodology not counted until first-party/municipal confirmation.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-tv-ttc-adjacent-micro-data-center-landing-station-production-environment",
+  "canonical_project": "TTC adjacent micro data center (landing-station production environment)",
+  "owner": "Tuvalu Telecommunications Corporation (TTC); IIJ reportedly engaged in earlier government micro-DC discussions (vendor history only)",
+  "location": {
+    "city": "",
+    "subnational": "Funafuti",
+    "country": "Tuvalu",
+    "country_code": "TV"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://openjicareport.jica.go.jp/pdf/1000057177.pdf"
+  ],
+  "notes": "Per JICA 2026 survey (A-grade primary), a micro data center is planned adjacent to the TTC Funafuti facility for the Vaka landing-station production environment; equipment was in transit as of 2025-09 and arrival/commissioning is unconfirmed. Asset class: micro-dc (government/TTC micro facility), status: in transit/planned - do not treat as an operational DC until a newer source confirms delivery/commissioning. This is the closest thing to a datacenter project in Tuvalu; capacity unknown.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-sy-silklink-ixp-qamishli-planned",
+  "canonical_project": "SilkLink IXP - Qamishli (planned)",
+  "owner": "STC Group / Syrian Telecom / MOCT",
+  "location": {
+    "city": "",
+    "subnational": "Hasaka",
+    "country": "Syrian Arab Republic",
+    "country_code": "SY"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-02-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://silklink.moct.gov.sy/pages/introduction.html",
+    "https://www.spa.gov.sa/en/N2506926"
+  ],
+  "notes": "One of five planned SilkLink internet exchange points (connectivity/program-level per official RFI). Not a datacenter facility. No Hasaka/Qamishli datacenter evidence found in web sweep.",
+  "method_batch": true
+}

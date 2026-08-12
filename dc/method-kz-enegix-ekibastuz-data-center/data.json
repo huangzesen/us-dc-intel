@@ -1,0 +1,22 @@
+{
+  "slug": "method-kz-enegix-ekibastuz-data-center",
+  "canonical_project": "Enegix Ekibastuz data center",
+  "owner": "Enegix Global",
+  "location": {
+    "city": "",
+    "subnational": "Pavlodar",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": 150,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://enegix.net/en",
+    "https://www.datacentermap.com/kazakhstan/ekibastuz/",
+    "https://www.coindesk.com/business/2021/06/17/wattum-to-build-kazakhstan-mining-farm-in-conjunction-with-enegix"
+  ],
+  "notes": "Official page: Ekibastuz campus 150+50 MW grid-powered (some sources 180 MW), Bitcoin-mining/HPC 'mining hotel', 15-ha private land. Mining/HPC — recorded separately from enterprise colo/cloud.",
+  "method_batch": true
+}

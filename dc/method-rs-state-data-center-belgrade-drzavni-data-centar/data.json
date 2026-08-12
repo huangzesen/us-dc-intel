@@ -1,0 +1,21 @@
+{
+  "slug": "method-rs-state-data-center-belgrade-drzavni-data-centar",
+  "canonical_project": "State Data Center Belgrade (Drzavni data centar)",
+  "owner": "Office for IT and eGovernment",
+  "location": {
+    "city": "",
+    "subnational": "Belgrade",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ite.gov.rs/vest/en/190/first-government-data-centre-opens.php",
+    "https://rs.bloombergadria.com/tehnologija/ai/97549/srbija-odlucna-da-bude-deo-cetvrte-industrijske-revolucije/news"
+  ],
+  "notes": "First state data center in Belgrade, opened 2017 per Bloomberg Adria; Office for IT/eGovernment operates it alongside Kragujevac campus.",
+  "method_batch": true
+}

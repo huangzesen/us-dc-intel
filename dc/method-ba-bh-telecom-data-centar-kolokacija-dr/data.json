@@ -1,0 +1,20 @@
+{
+  "slug": "method-ba-bh-telecom-data-centar-kolokacija-dr",
+  "canonical_project": "BH Telecom Data Centar (kolokacija + DR)",
+  "owner": "BH Telecom d.d. Sarajevo",
+  "location": {
+    "city": "",
+    "subnational": "Federation of Bosnia and Herzegovina",
+    "country": "Bosnia and Herzegovina",
+    "country_code": "BA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bhtelecom.ba/usluge-za-poslovne-korisnike/2019/09/nova-cloud-usluga-kolokacija-u-data-centru-bh-telecoma/"
+  ],
+  "notes": "Official operator page (published 01.09.2019, checked 2026-08-12): Data Centar described as primary disaster-recovery site in BiH offering colocation with racks, cooling, uninterrupted power, direct user links and managed services; fitted to TIER 3 standard (99.982% availability, N+1), ISO 9001:2015 and ISO/IEC 27001:2013 certified. Located in Sarajevo (FBiH); exact municipality/address not stated on page.",
+  "method_batch": true
+}

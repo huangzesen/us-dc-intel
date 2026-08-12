@@ -1,0 +1,21 @@
+{
+  "slug": "method-cn-jiangmen-municipal-intelligent-computing-center-heshan-bluesea-data-center",
+  "canonical_project": "Jiangmen Municipal Intelligent Computing Center (Heshan Bluesea Data Center)",
+  "owner": "Guangdong Bluesea; China Mobile Jiangmen (operator)",
+  "location": {
+    "city": "",
+    "subnational": "Guangdong - Jiangmen Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.jiangmen.gov.cn/home/bmdt/content/post_3534517.html",
+    "https://m.21jingji.com/article/20260811/herald/9ba11a77184604a8f5314882f44724ec.html"
+  ],
+  "notes": "Landed at Heshan Bluesea 2024-12-19, built by Guangdong Bluesea, operated by Jiangmen Mobile; 8,145 cabinets, ~500 PFLOPS by June 2026, target 2,000 PFLOPS end-2026. 21jingji (2026-08-11) calls it an international T3+ level super-large GBA data center. No MW disclosed.",
+  "method_batch": true
+}

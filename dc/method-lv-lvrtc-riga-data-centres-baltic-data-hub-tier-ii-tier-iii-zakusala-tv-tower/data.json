@@ -1,0 +1,23 @@
+{
+  "slug": "method-lv-lvrtc-riga-data-centres-baltic-data-hub-tier-ii-tier-iii-zakusala-tv-tower",
+  "canonical_project": "LVRTC Riga data centres / Baltic Data Hub (Tier II + Tier III, Zaķusala TV Tower)",
+  "owner": "LVRTC (Latvijas Valsts radio un televīzijas centrs)",
+  "location": {
+    "city": "",
+    "subnational": "Riga",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.lvrtc.lv/en/data-centers/",
+    "https://www.lvrtc.lv/pakalpojumi/operatoriem/datu_centri/",
+    "https://www.datacenterjournal.com/data-centers/latvia/riga/lvrtc-tv-tower/",
+    "https://www.delfi.lv/bizness/37264250/biznesa_vide/43250431/lvrtc-sava-datu-centra-cer-attistit-makonpakalpojumus-biznesam"
+  ],
+  "notes": "LVRTC Tier II/Tier III colocation in Riga (HQ Zemitana iela 9 k-3; DC inside Zaķusala TV Tower, Zakusalas krastmala 1); PUE 1.4, 99.98% availability, 40+ telecom operators; nationwide regional colocation every 100 km (Reģionu datu centri page updated 16.12.2024).",
+  "method_batch": true
+}

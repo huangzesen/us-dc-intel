@@ -1,0 +1,20 @@
+{
+  "slug": "method-np-nepal-electricity-authority-data-center-kathmandu",
+  "canonical_project": "Nepal Electricity Authority data center (Kathmandu)",
+  "owner": "Nepal Electricity Authority (NEA)",
+  "location": {
+    "city": "",
+    "subnational": "-",
+    "country": "Nepal",
+    "country_code": "NP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/nepal-electricity-authority-launches-kathmandu-data-center/"
+  ],
+  "notes": "NEA launched a Kathmandu data center per DCD; NEA internal DC also referenced by Nepali Times (Nagarjun base). B from trade press; U/C until NEA primary evidence.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-eg-huawei-cloud-cairo-region-af-cairo",
+  "canonical_project": "Huawei Cloud Cairo Region (AF-Cairo)",
+  "owner": "Huawei Cloud / Orange Egypt (local partner)",
+  "location": {
+    "city": "",
+    "subnational": "Cairo",
+    "country": "Egypt",
+    "country_code": "EG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.huawei.com/en/news/2024/5/huawei-cloud-goes-live-in-egypt",
+    "https://www.huaweicloud.com/intl/en-us/news/20240523155312706.html",
+    "https://www.orange.eg/en/about/media-center/press-kit/orange-and-huawei-partnership-agreement-for-webposting-295-event"
+  ],
+  "notes": "Cairo/Egypt public cloud region launched May 2024 - first public cloud in Egypt/Northern Africa; Orange Egypt is local service/data-center partner. Grade A for region existence; exact physical host facility/address not disclosed on cloud pages - facility-level inference remains C.",
+  "method_batch": true
+}

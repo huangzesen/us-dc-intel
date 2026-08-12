@@ -1,0 +1,23 @@
+{
+  "slug": "method-dz-algerie-telecom-constantine-data-center",
+  "canonical_project": "Algerie Telecom Constantine Data Center",
+  "owner": "Algerie Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Constantine",
+    "country": "Algeria",
+    "country_code": "DZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-02-23",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.algerietelecom.dz/en/espace-presse/algeria-telecom-inaugurates-a-new-data-center-art2528",
+    "https://www.algerietelecom.dz/fr/espace-presse/algerie-telecom-inaugure-son-data-center-art2528",
+    "https://www.datacenterdynamics.com/en/news/algeria-telecom-launches-new-data-center-in-constantine/",
+    "https://www.agenceecofin.com/equipement/2802-105991-algerie-telecom-se-dote-d-un-nouveau-centre-de-donnees"
+  ],
+  "notes": "Algerie Telecom inaugurated its Constantine data center on 2023-02-23 with a cloud platform to collect, process and store enterprise data; facility built entirely by Algerie Telecom's own task force (reconfirmed by ntic-dz, DCmag, Ecofin). Capacity not disclosed.",
+  "method_batch": true
+}

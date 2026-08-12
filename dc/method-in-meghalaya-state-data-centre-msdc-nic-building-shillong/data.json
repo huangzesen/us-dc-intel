@@ -1,0 +1,22 @@
+{
+  "slug": "method-in-meghalaya-state-data-centre-msdc-nic-building-shillong",
+  "canonical_project": "Meghalaya State Data Centre (MSDC), NIC Building, Shillong",
+  "owner": "Department of IT & C, Government of Meghalaya / Meghalaya Information Technology Society",
+  "location": {
+    "city": "",
+    "subnational": "Meghalaya - East Khasi Hills",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2011-08-17",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ditmeghalaya.gov.in/sdc.html",
+    "https://informatics.nic.in/news/284",
+    "https://ipinfo.io/AS148859"
+  ],
+  "notes": "Official DIT page (live, re-verified 2026-08-12): MSDC inaugurated 17 Aug 2011, ~1,800 sq ft on 2nd floor of NIC Building, Shillong (East Khasi Hills); ISO/IEC 20000:2011 and 27001:2013 certified; connected to MSWAN; hosts 32+ state e-governance applications; DR replication to NIC National Data Centre New Delhi. NIC informatics news (2012) and IPinfo ASN148859 corroborate the facility.",
+  "method_batch": true
+}

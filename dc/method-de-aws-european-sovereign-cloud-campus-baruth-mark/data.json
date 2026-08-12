@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-aws-european-sovereign-cloud-campus-baruth-mark",
+  "canonical_project": "AWS European Sovereign Cloud campus, Baruth/Mark",
+  "owner": "Amazon Web Services (AWS European Sovereign Cloud GmbH)",
+  "location": {
+    "city": "",
+    "subnational": "Brandenburg - Teltow-Fläming",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 100,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://de.linkedin.com/posts/niederlausitz-aktuell_78-mrd-euro-amazon-plant-rechenzentren-activity-7417575837903867906-0Cio",
+    "https://www.flaemont.de/post/amazon-cloud-bald-in-baruth",
+    "https://ayedo.de/posts/aws-european-sovereign-cloud-in-brandenburg/"
+  ],
+  "notes": "Regional reporting (niederlausitz-aktuell, flaemont.de, ayedo) places part of the AWS European Sovereign Cloud first Brandenburg region in Baruth/Mark (~100 MW), alongside Massen/Finsterwalde (200 MW); initially over leased data centers, with own infrastructure being built; Baruth/Mark is in Teltow-Fläming.",
+  "method_batch": true
+}

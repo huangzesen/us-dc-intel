@@ -1,0 +1,22 @@
+{
+  "slug": "method-es-adi-data-center-euskadi-bizkaia-abanto-zierbena",
+  "canonical_project": "ADI Data Center Euskadi - Bizkaia (Abanto-Zierbena)",
+  "owner": "Atlantic Data Infrastructure (Euskaltel, Dominion, Teknei, Basque Government, Kutxabank, Iberdrola, Mondragon)",
+  "location": {
+    "city": "",
+    "subnational": "Basque Country",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ptgaraia.eus/es/adi-data-center-euskadi-arranca-con-la-construccion-de-su-segundo-centro-en-ptgaraia/",
+    "https://uptimeinstitute.com/clients/atlantic-data-infrastructure-adi",
+    "https://www.datacenterdynamics.com/en/news/euskaltel-breaks-ground-on-basque-country-data-center/"
+  ],
+  "notes": "ADI Bizkaia facility at Ezkerraldea-Meatzaldea/Biscay Science and Technology Park: commissioned in two 1MW phases with Uptime Tier IV fault-tolerance; first phase entered operation Q1 2025 per Garaia park announcement.",
+  "method_batch": true
+}

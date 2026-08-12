@@ -1,0 +1,24 @@
+{
+  "slug": "method-cx-commercial-colocation-cloud-region-verified-negative",
+  "canonical_project": "Commercial colocation / cloud region (verified negative)",
+  "owner": "",
+  "location": {
+    "city": "",
+    "subnational": "Christmas Island",
+    "country": "Christmas Island",
+    "country_code": "CX"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html",
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+    "https://cloud.google.com/about/locations",
+    "https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm",
+    "https://www.datacentermap.com/"
+  ],
+  "notes": "Verified negative as of 2026-08-12: no AWS/Azure/GCP/OCI Christmas Island cloud region or local zone (official region pages show no CX; Australian mainland regions do not cover island-local facilities); no public commercial colocation, carrier hotel or rack-space product on Christmas Island; directory entries (datacentermap/datacenters/cloudscene) absent or C-grade without address/operator. Overall CX conclusion: no confirmed commercial datacenter; confirmed telecom/cable infrastructure; monitor Google data-centre lead.",
+  "method_batch": true
+}

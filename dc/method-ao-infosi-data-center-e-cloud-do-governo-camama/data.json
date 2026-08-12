@@ -1,0 +1,23 @@
+{
+  "slug": "method-ao-infosi-data-center-e-cloud-do-governo-camama",
+  "canonical_project": "INFOSI Data Center e Cloud do Governo (Camama)",
+  "owner": "INFOSI (Instituto Nacional de Fomento da Sociedade de Informacao) / MINTTICS",
+  "location": {
+    "city": "",
+    "subnational": "Luanda",
+    "country": "Angola",
+    "country_code": "AO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://minttics.gov.ao/ao/noticias/angola-inaugura-data-center-e-cloud-do-governo-e-reforca-soberania-digital/",
+    "https://www.angop.ao/noticias/politica/presidente-da-republica-inaugura-novo-centro-de-dados-do-governo/",
+    "https://ciam.gov.ao/ao/noticia/5090",
+    "https://reinounido.mirex.gov.ao/web/noticias/presidente-joao-lourenco-inaugura-data-center-e-cloud-do-governo-de-angola"
+  ],
+  "notes": "Government cloud DC between Camama and Kilamba, Luanda, inaugurated 2026-04-28 by President Joao Lourenco; USD 89M national-cloud project (MINTTICS 2023: ~5,320 sqm prefab two-storey main DC); press B/C rack/MW figures (208/336 racks, ~1.04 MW) unconfirmed - capacity kept null.",
+  "method_batch": true
+}

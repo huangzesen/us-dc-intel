@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-id-kom-rechenzentrum-kempten-rz-ke1",
+  "canonical_project": "ID.KOM Rechenzentrum Kempten (RZ-KE1)",
+  "owner": "IDKOM Networks GmbH / ID.KOM GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Kempten",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idkom.de/rechenzentrum/",
+    "https://www.allgaeuer-zeitung.de/kempten/it-unternehmen-id-kom-eroeffent-neues-rechenzentrum-in-kempten-im-allgaeu-und-speichert-daten-109066174"
+  ],
+  "notes": "ID.KOM operates two own data centers in Kempten; new RZ-KE1 opened May 2025 (Allgaeuer Zeitung 2025-05-22) and can run 72 hours autonomously; facility at Dieselstrasse 1, 87437 Kempten. ID.KOM also runs colocation in Munich and Augsburg. Capacity not disclosed.",
+  "method_batch": true
+}

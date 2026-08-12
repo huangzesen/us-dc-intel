@@ -1,0 +1,21 @@
+{
+  "slug": "method-au-nextdc-b1-brisbane",
+  "canonical_project": "NEXTDC B1 Brisbane",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "Queensland - Brisbane",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/data-centres/brisbane-data-centres/b1-brisbane",
+    "https://www.nextdc.com/data-centres/brisbane-data-centres-colocation"
+  ],
+  "notes": "NEXTDC official Brisbane page lists B1 Brisbane at 20 Wharf St, Brisbane City QLD 4000 (Brisbane LGA) as an operating colocation data centre with interconnection and cloud access; capacity not disclosed on the official page.",
+  "method_batch": true
+}

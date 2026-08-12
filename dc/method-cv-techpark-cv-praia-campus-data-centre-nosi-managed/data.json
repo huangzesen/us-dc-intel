@@ -1,0 +1,23 @@
+{
+  "slug": "method-cv-techpark-cv-praia-campus-data-centre-nosi-managed",
+  "canonical_project": "TechPark CV Praia campus data centre (NOSi-managed)",
+  "owner": "TechPark CV (Parque Tecnológico Arquipélago Digital de Cabo Verde) / NOSi EPE (operator); AfDB-financed",
+  "location": {
+    "city": "",
+    "subnational": "Ilhas de Sotavento",
+    "country": "Cabo Verde",
+    "country_code": "CV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-06",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.afdb.org/en/news-and-events/press-releases/cabo-verdes-digital-transformation-full-expansion-african-development-bank-support-83416",
+    "https://www.datacenterdynamics.com/en/news/cape-verde-receives-15-million-loan-for-two-data-centers/",
+    "https://techafricanews.com/2025/05/05/cape-verde-unveils-e45m-tech-hub-to-drive-digital-growth/",
+    "https://www.nosi.cv/"
+  ],
+  "notes": "Sotavento / Santiago / Praia (~15 ha campus). Park defined by AfDB as construction+equipment of a data center, business center, incubation and training centres; Data Center within Praia campus managed by NOSi; DC building completed ~end-2022; campuses inaugurated 2025-05-05 (Praia). AfDB financing ~€45.5M of ~€51.85M park (≈US$57M across both phases per fintechnews.africa). DCD (2023-08-01): €14M phase-2 loan signed for two additional data centers + DR site (renewable-powered), Praia campus located <2 km from legacy NOSi DC. Capacity not public: capacity_mw null. Island sweep: no public DC evidence found for other Sotavento islands/concelhos (Santiago outside Praia, Maio, Fogo, Brava) or for Santa Luzia.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-fr-etix-montpellier-1",
+  "canonical_project": "ETIX Montpellier #1",
+  "owner": "Etix Everywhere (acquired from DataBank 2023)",
+  "location": {
+    "city": "",
+    "subnational": "Hérault",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.etixeverywhere.com/fr/centres-de-donnees-a-montpellier/",
+    "https://www.smartcitymag.fr/article/1291/hebergement-etix-everywhere-integre-cinq-nouveaux-data-centers-et-reaffirme-ses-ambitions-aupres-des-collectivites"
+  ],
+  "notes": "Etix carrier-neutral colo data center at 143 Rue Emile Julien, Montpellier (Hérault); 15+ operators/ISPs on site; acquired from DataBank in 5-DC deal (Jul 2023); capacity not disclosed.",
+  "method_batch": true
+}

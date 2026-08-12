@@ -1,0 +1,21 @@
+{
+  "slug": "method-tz-raxio-tanzania-tz1",
+  "canonical_project": "Raxio Tanzania TZ1",
+  "owner": "Raxio Group",
+  "location": {
+    "city": "",
+    "subnational": "Dar es Salaam",
+    "country": "Tanzania, United Republic of",
+    "country_code": "TZ"
+  },
+  "capacity_mw": 6,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.raxiogroup.com/data-centres/tanzania/",
+    "https://w.media/raxios-tz1-to-add-6-mw-and-800-racks-to-tanzanias-data-center-market/"
+  ],
+  "notes": "Official Raxio page (A, checked 2026-08-12): 'Launching 2026', set to open in Dar es Salaam 2026, country's first carrier-neutral Tier III data centre (operator page claims Uptime Institute Tier III certified; certification record not yet on Uptime list - treat 'certified' wording with caution), 800 racks, 4,000 m2 white space, 6 MW IT power, 33 kV utility supply, 2N power redundancy, located on outskirts of Dar ~30 min from CBD, ~11 connectivity providers. W.Media (B, Jul 2026) repeats 6 MW/800 racks/4,000 m2. Status: under construction, not yet operational (wearetech.africa Mar 2025 confirms Raxio constructing in Dar). Verify TCRA NFL, NEMC EIA, LGA permits, TANESCO 33 kV and Uptime award on next pass.",
+  "method_batch": true
+}

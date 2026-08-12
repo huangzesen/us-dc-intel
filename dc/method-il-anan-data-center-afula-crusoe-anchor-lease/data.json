@@ -1,0 +1,22 @@
+{
+  "slug": "method-il-anan-data-center-afula-crusoe-anchor-lease",
+  "canonical_project": "Anan Data Center Afula (Crusoe anchor lease)",
+  "owner": "Anan Data Centers (Omer Adam et al.); tenant: Crusoe",
+  "location": {
+    "city": "",
+    "subnational": "HaTsafon",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 40,
+  "status": "construction",
+  "evidence_date": "2026-04-28",
+  "evidence_grade": "B",
+  "sources": [
+    "https://en.globes.co.il/en/article-huge-crusoe-afula-deal-boosts-israels-data-centers-sector-1001541136",
+    "https://www.datacenterdynamics.com/en/news/anan-data-center-to-provide-40mw-ai-infrastructure-for-crusoe-in-israel/",
+    "https://www.anandata.io/"
+  ],
+  "notes": "Anan Afula (Jezreel Valley) AI-ready underground data center under construction; Crusoe leased 40MW anchor capacity (~$1B deal, Apr 2026), up to ~100MW full build-out; official Anan site confirms AI-ready high-density facilities; Afula assigned to HaTsafon district.",
+  "method_batch": true
+}

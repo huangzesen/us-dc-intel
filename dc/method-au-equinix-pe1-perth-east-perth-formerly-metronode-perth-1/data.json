@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-equinix-pe1-perth-east-perth-formerly-metronode-perth-1",
+  "canonical_project": "Equinix PE1 Perth (East Perth, formerly Metronode Perth 1)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Perth",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/perth-data-centers/pe1",
+    "https://www.datacenters.com/equinix-pe1-perth",
+    "https://www.peeringdb.com/fac/5755"
+  ],
+  "notes": "Re-verified with corrected LGA: Equinix PE1 is at 3 Tully Road, East Perth (City of Perth LGA), inherited from the Metronode acquisition; operating colocation/IBX facility, ~7,113 sqft with 4,811 sqft raised floor. No public MW capacity.",
+  "method_batch": true
+}

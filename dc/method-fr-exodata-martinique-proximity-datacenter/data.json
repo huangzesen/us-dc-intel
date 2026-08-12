@@ -1,0 +1,20 @@
+{
+  "slug": "method-fr-exodata-martinique-proximity-datacenter",
+  "canonical_project": "Exodata Martinique proximity datacenter",
+  "owner": "Exodata",
+  "location": {
+    "city": "",
+    "subnational": "Martinique",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.exodata.fr/blog/datacenter-martinique"
+  ],
+  "notes": "Exodata, the overseas hosting operator, describes its Martinique proximity data center offering (human-scale, sovereign hosting) on its own site; facility-level capacity not disclosed.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-ml-afribone-data-center-colocation",
+  "canonical_project": "Afribone Data Center / colocation",
+  "owner": "Afribone Mali SA",
+  "location": {
+    "city": "",
+    "subnational": "Bamako",
+    "country": "Mali",
+    "country_code": "ML"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://afribone.com/data-center/",
+    "https://afribone.com/data-center/colocation-housing/",
+    "https://www.peeringdb.com/fac/11471",
+    "https://bamada.net/le-mali-dispose-desormais-dun-data-center-un-centre-de-stockage-de-donnee-numerique-cree-par-afribone-mali"
+  ],
+  "notes": "Operator-owned commercial datacenter and colocation in Baco Djicoroni (Baco Djikoroni), Bamako. Official service pages (A) confirm existence and customer-facing colocation; PeeringDB facility 11471 (A/B) lists Afribone DC Bamako; Bamada 2019 report (B) covers the 2019 launch. AS36864. Capacity, MW, certification not verified; any directory MW/coordinate values stay C.",
+  "method_batch": true
+}

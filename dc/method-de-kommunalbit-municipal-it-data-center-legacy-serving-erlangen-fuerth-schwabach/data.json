@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-kommunalbit-municipal-it-data-center-legacy-serving-erlangen-fuerth-schwabach",
+  "canonical_project": "KommunalBIT municipal IT data center (legacy, serving Erlangen/Fuerth/Schwabach)",
+  "owner": "KommunalBIT AoeR (cities Erlangen, Fuerth, Schwabach)",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Schwabach",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.kommunalbit.de/",
+    "https://www.datacenter-insider.de/neues-kommunales-hochsicherheits-rechenzentrum-kommunalbit-a-276488/",
+    "https://www.schwabach.de/images/referate/presseamt/downloads/Digitalisierungsstrategie_Stand_220729.pdf"
+  ],
+  "notes": "KommunalBIT AoeR is the municipal IT provider founded 2010 by Erlangen, Fuerth and Schwabach; a 2010 DataCenter-Insider article describes the centralized high-security Rechenzentrum of the three cities; headquarters is in Fuerth, so a Schwabach-local facility is not confirmed - status unknown.",
+  "method_batch": true
+}

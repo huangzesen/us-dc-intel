@@ -1,0 +1,20 @@
+{
+  "slug": "method-cn-tencent-shen-shan-shanwei-data-center-park",
+  "canonical_project": "Tencent Shen-Shan / Shanwei Data Center Park",
+  "owner": "Tencent Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Guangdong - Shanwei Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-03-16",
+  "evidence_grade": "B",
+  "sources": [
+    "https://cloud.tencent.com/developer/article/2253200"
+  ],
+  "notes": "6 machine-room buildings, one enabled at the time, total capacity 150,000 servers. Re-verified first-round lead.",
+  "method_batch": true
+}

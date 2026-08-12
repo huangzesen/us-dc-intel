@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-nec-kobe-data-center",
+  "canonical_project": "NEC Kobe Data Center",
+  "owner": "NEC",
+  "location": {
+    "city": "",
+    "subnational": "Hyogo",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://jpn.nec.com/outsourcing/dc/kobe.html"
+  ],
+  "notes": "NEC's Kobe data center offering colocation/outsourcing services with FISC and PCI DSS compliance; official NEC facility page; capacity not stated.",
+  "method_batch": true
+}

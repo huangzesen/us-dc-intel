@@ -1,0 +1,22 @@
+{
+  "slug": "method-no-exanorth-data-center-namsskogan-tunnsjoedalen",
+  "canonical_project": "Exanorth data center (Namsskogan/Tunnsjoedalen)",
+  "owner": "Exanorth AS (Bitzero-linked crypto-mining operator)",
+  "location": {
+    "city": "",
+    "subnational": "Trondelag",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.nrk.no/trondelag/bygger-datasenter-i-namsskogan-1.15633972",
+    "https://namut.no/artikkel/datasenter-berger-kommuneokonomien/",
+    "https://hoyspentvest.no/exanorth-tunnsjodal-data-center-namsskogan/"
+  ],
+  "notes": "Data-storage center at Tunnsjoedalen near Tunnsjodal kraftverk, Namsskogan; built 2021-2022 (Hoyspent Vest HV design); contributes ~NOK 11m in 2023 municipal revenue; Nkom lists EXANORTH AS flagged crypto-mining. B (NRK/local sources) until municipal/grid permits captured.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-vn-ntt-hanoi-thang-long-data-center-van-phuc-ha-dong",
+  "canonical_project": "NTT Hanoi Thang Long Data Center (Van Phuc, Ha Dong)",
+  "owner": "NTT Communications / Global Data Service (GDS)",
+  "location": {
+    "city": "",
+    "subnational": "Ha Noi",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/vietnam/hanoi/ntt-thang-long/",
+    "https://baxtel.com/data-center/ntt-hanoi-thang-long"
+  ],
+  "notes": "NTT-operated colocation data center in Hanoi with ~6,000 sqm colocation space per directory listings; directory-level evidence only.",
+  "method_batch": true
+}

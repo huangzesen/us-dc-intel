@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-dci-darwin-01-drw01",
+  "canonical_project": "DCI Darwin 01 (DRW01)",
+  "owner": "DCI Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Northern Territory - Palmerston",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 10,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.inligonetworks.com/darwin-moves-closer-to-delivering-on-a-regional-data-centre-digital-ecosystem/",
+    "https://www.datacenters.com/dci-darwin-01",
+    "https://www.datacentermap.com/australia/darwin/dci-darwin-01/"
+  ],
+  "notes": "DCI Data Centers' ~A$80m Darwin 01 (DRW01) facility at the Darwin Technology Park, Wishart (Palmerston LGA) was expected to begin construction in early 2024 after the Land Development Corporation tendered civil works (Inligo, Aug 2023); directory sources list 10MW planned initial IT capacity with modular expansion. Current operational status not confirmed by an official DCI page at time of check, so status = construction and capacity = planned initial IT load.",
+  "method_batch": true
+}

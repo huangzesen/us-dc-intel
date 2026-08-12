@@ -1,0 +1,22 @@
+{
+  "slug": "method-kr-national-information-resources-service-daegu-center-government-cloud-data-center",
+  "canonical_project": "National Information Resources Service Daegu Center (government cloud data center)",
+  "owner": "National Information Resources Service / Ministry of the Interior and Safety (with Samsung SDS, KT Cloud, NHN Cloud)",
+  "location": {
+    "city": "",
+    "subnational": "Daegu - Dong-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-06-19",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=110138",
+    "https://m.boannews.com/html/detail.html?tab_type=1&idx=130716",
+    "https://www.nirs.go.kr/subN05/sub05_501_03.jsp"
+  ],
+  "notes": "Government cloud data center (NIRS Daegu Center) opened 19 Jun 2024 in Daegu Dong-gu; MOIS Minister attended the opening; public-private cloud model with Samsung SDS, KT Cloud, NHN Cloud; hosts government cloud workloads with Gwangju/Daejeon/Gongju sites in the NIRS network. Capacity not disclosed.",
+  "method_batch": true
+}

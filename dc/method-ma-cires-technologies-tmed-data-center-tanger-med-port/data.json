@@ -1,0 +1,21 @@
+{
+  "slug": "method-ma-cires-technologies-tmed-data-center-tanger-med-port",
+  "canonical_project": "Cires Technologies TMED Data Center (Tanger Med Port)",
+  "owner": "Cires Technologies / Tanger Med Group",
+  "location": {
+    "city": "",
+    "subnational": "Tanger-Tetouan-Al Hoceima",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/morocco/tangier/cires-tmed1/",
+    "https://www.tangermed.ma/en/services-en/technology/"
+  ],
+  "notes": "Directory lead (DataCenterMap) for a Tier 3 Tanger-Med Port facility with colocation; Tanger Med's technology page describes Cires digital/cloud services. Directory page returned HTTP 429 on re-check so facility specifics remain unverified (C); treat as lead, not confirmed.",
+  "method_batch": true
+}

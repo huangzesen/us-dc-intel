@@ -1,0 +1,20 @@
+{
+  "slug": "method-at-microsoft-austria-east-data-centers-schwechat-achau-voesendorf",
+  "canonical_project": "Microsoft Austria East data centers (Schwechat, Achau, Voesendorf)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Lower Austria",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-07-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.oe24.at/a/leopoldsdorf-bekommt-ein-mega-rechenzentrum-900102492"
+  ],
+  "notes": "oe24 (2026-07-26) reports large Microsoft Cloud Region Austria data centers being built around Vienna in Schwechat (Bezirk Bruck an der Leitha), Achau and Voesendorf (Bezirk Moedling), citing Microsoft's website. B-grade press for municipality-level sites of the Azure Austria East region; addresses/sites not yet confirmed by Microsoft official pages (methodology: do not assign Azure facilities to Lower Austria without a source naming the municipality - this press source does name them).",
+  "method_batch": true
+}

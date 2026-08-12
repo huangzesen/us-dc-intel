@@ -1,0 +1,23 @@
+{
+  "slug": "method-mz-uem-ciuem-hybrid-data-center",
+  "canonical_project": "UEM/CIUEM Hybrid Data Center",
+  "owner": "Universidade Eduardo Mondlane / CIUEM (implemented by Triana Business)",
+  "location": {
+    "city": "",
+    "subnational": "Maputo",
+    "country": "Mozambique",
+    "country_code": "MZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uem.mz/uem-inaugura-centro-de-dados/",
+    "https://www.diarioeconomico.co.mz/2026/08/03/trends/inovacao/uem-inaugura-centro-de-dados-para-reforcar-transformacao-digital-e-investigacao-cientifica/",
+    "https://jornalnoticias.co.mz/destaque/uem-reforca-digitalizacao-com-centro-de-dados/",
+    "https://revista.tempo.co.mz/ciuem-inaugura-novo-centro-de-dados-hibrido/"
+  ],
+  "notes": "UEM main campus, Av. Julius Nyerere 3453, Maputo City; hybrid data center inaugurated 2026-08-03 (AIM/Tempo 07 Aug); supports UEM systems, research, AI/data science, .mz domain and MOZIX; institutional/university facility - not commercial colo unless service terms appear.",
+  "method_batch": true
+}

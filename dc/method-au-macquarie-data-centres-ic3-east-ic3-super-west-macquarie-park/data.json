@@ -1,0 +1,23 @@
+{
+  "slug": "method-au-macquarie-data-centres-ic3-east-ic3-super-west-macquarie-park",
+  "canonical_project": "Macquarie Data Centres IC3 East & IC3 Super West (Macquarie Park)",
+  "owner": "Macquarie Data Centres (Macquarie Technology Group)",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Ryde",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 65.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.macquariedatacentres.com/data-centres/sydney/",
+    "https://www.datacenterdynamics.com/en/news/macquarie-data-centres-completes-exterior-sydney-facility-ic3/",
+    "https://www.zdnet.com/article/macquarie-telecom-earmarks-au78m-to-build-largest-ever-data-centre-in-sydney/",
+    "https://www.linesight.com/projects/macquarie-data-centres-sydney-and-canberra-australia/"
+  ],
+  "notes": "Macquarie Park Data Centre Campus (Ryde LGA): IC3 East operational (opened with PM attendance, ~10MW), IC3 Super West purpose-built for AI/cloud with ~32MW IT load; official sources describe a 65MW Macquarie Park campus; linesight cites 1.28 PUE, 33kV design, 11,700+ sqm technical space.",
+  "method_batch": true
+}

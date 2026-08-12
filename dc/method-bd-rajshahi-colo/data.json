@@ -1,0 +1,21 @@
+{
+  "slug": "method-bd-rajshahi-colo",
+  "canonical_project": "Rajshahi COLO",
+  "owner": "Rajshahi Colo (local operator)",
+  "location": {
+    "city": "",
+    "subnational": "Rajshahi",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://rajshahicolo.com/",
+    "https://rajshahicolo.com/colocation/"
+  ],
+  "notes": "Operator site (checked via search snippet; site is JS-heavy) presents Rajshahi first commercial colocation facility provider with Tier III claims, BDIX VPS, dedicated servers and colocation in Rajshahi city; LinkedIn corroborates. Service existence Grade A/B per operator claim; Tier/date/address claims unverified independently - Grade B overall.",
+  "method_batch": true
+}

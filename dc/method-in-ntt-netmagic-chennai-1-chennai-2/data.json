@@ -1,0 +1,22 @@
+{
+  "slug": "method-in-ntt-netmagic-chennai-1-chennai-2",
+  "canonical_project": "NTT (Netmagic) Chennai 1 & Chennai 2",
+  "owner": "NTT Global Data Centers / NTT DATA (Netmagic legacy)",
+  "location": {
+    "city": "",
+    "subnational": "Tamil Nadu - Chennai",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 36,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/india/chennai-1-data-center",
+    "https://www.datacenters.com/ntt-global-chennai-1",
+    "https://www.datacenters.com/ntt-global-chennai-2"
+  ],
+  "notes": "Chennai 1 (Thiruverkadu, ~2 MW) and Chennai 2 (Ambattur, ~34 MW) per official NTT page and aggregator listings; combined ~36 MW.",
+  "method_batch": true
+}

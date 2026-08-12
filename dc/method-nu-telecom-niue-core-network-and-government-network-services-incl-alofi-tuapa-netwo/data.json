@@ -1,0 +1,22 @@
+{
+  "slug": "method-nu-telecom-niue-core-network-and-government-network-services-incl-alofi-tuapa-netwo",
+  "canonical_project": "Telecom Niue core network and government network services (incl. Alofi/Tuapa network sites)",
+  "owner": "Telecom Niue Ltd (Government of Niue 100% SOE)",
+  "location": {
+    "city": "",
+    "subnational": "Niue",
+    "country": "Niue",
+    "country_code": "NU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.gov.nu/media-releases/government-of-niue-strengthens-national-connectivity-with-temporary-starlink-license",
+    "https://telecomniue.com/",
+    "https://www.gov.nu/notice-board/telecom-niue"
+  ],
+  "notes": "Telecom Niue is the sole local fixed/mobile/internet operator (government-owned since 2016 corporatisation). Gov.nu 2026 release confirms ongoing island-wide fibre-optic network upgrades, two new network sites being deployed in Alofi and Tuapa, and continued repeater rollout; Telecom Niue also acts as project manager for government departments migrating to the new network. Operator/network lead (telecom_network_lead), NOT a datacenter - no public colocation/rack/data-centre service page verified.",
+  "method_batch": true
+}

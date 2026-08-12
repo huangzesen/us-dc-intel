@@ -1,0 +1,21 @@
+{
+  "slug": "method-td-tchadix-national-internet-exchange-point-g-i-e",
+  "canonical_project": "TCHADIX national Internet exchange point (G.I.E.)",
+  "owner": "TCHADIX G.I.E. under ADETIC impulse; ADETIC DG Adoum Djimet Saboun is Board president",
+  "location": {
+    "city": "",
+    "subnational": "N'Djamena City",
+    "country": "Chad",
+    "country_code": "TD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-05-20",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.alwihdainfo.com/tchadix-un-an-apres-cap-sur-la-consolidation-numerique/",
+    "https://documents1.worldbank.org/curated/en/099102502282341480/pdf/P180000048eed6040a13200ddaf8abe650.pdf"
+  ],
+  "notes": "TCHADIX is Chad's national Internet exchange point formed as a G.I.E. under ADETIC's impulse; ordinary general assembly held 20 May 2026 (nearly one year after creation) to consolidate the IXP's mission of local traffic exchange among ISPs/operators and reduce international dependency (Alwihda, B). World Bank P180000 (A, 2023) records implementation of an Internet Exchange Point (IXP) at ADETIC, consistent with ADETIC-housed IXP. Physical hosting equipment facility/location and PeeringDB/PCH listing not yet published - open item per methodology. Recorded under N'Djamena (likely location); IXP/network infrastructure, not a commercial DC.",
+  "method_batch": true
+}

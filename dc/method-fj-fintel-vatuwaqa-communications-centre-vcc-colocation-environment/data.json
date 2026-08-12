@@ -1,0 +1,23 @@
+{
+  "slug": "method-fj-fintel-vatuwaqa-communications-centre-vcc-colocation-environment",
+  "canonical_project": "FINTEL Vatuwaqa Communications Centre (VCC) colocation environment",
+  "owner": "Fiji International Telecommunications Ltd (FINTEL)",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Fiji",
+    "country_code": "FJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://fintel.com.fj/our-services/",
+    "https://fintel.com.fj/our-facilities/",
+    "https://fintel.com.fj/our-services/colocation-facilities/",
+    "https://www.unescap.org/sites/default/d8files/event-documents/1_FIJI-Internet+Exchange+Point+Presentation+19102022.pdf"
+  ],
+  "notes": "FINTEL official pages (checked 2026-08-12) describe secure, resilient, scalable data-center colocation facilities at VCC for mission-critical IT/network infrastructure, plus cable landing station facilities, Satellite LEO Gateway/SNP hosting (power/cooling/backhaul) and telehousing. VCC is Fiji's international gateway and cable landing station operator (Southern Cross, Tonga Cable, ICN1, Tui-Samoa, Gondwana 2, Google Tabua/Bulikula). FijiIX is hosted at VCC (UNESCAP 2022 presentation). Classify as cable hub + colocation-adjacent telecom; no public MW/rack specs; not general commercial colocation beyond FINTEL's stated offerings.",
+  "method_batch": true
+}

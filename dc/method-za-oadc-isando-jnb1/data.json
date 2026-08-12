@@ -1,0 +1,23 @@
+{
+  "slug": "method-za-oadc-isando-jnb1",
+  "canonical_project": "OADC Isando (JNB1)",
+  "owner": "Open Access Data Centres (OADC) / WIOCC Group",
+  "location": {
+    "city": "",
+    "subnational": "Gauteng - Ekurhuleni Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": 7,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ocolo.io/colocation/open-access-data-centers/oadc-isando-jnb1/",
+    "https://openaccessdc.net/wp-content/uploads/2023/07/OADC-Isando-Data-Sheet.pdf",
+    "https://africa.hyperscalers.news/data-center/oadc-to-expand-johannesburg-data-center-in-south-africa/",
+    "https://www.linkedin.com/pulse/jinx-expands-oadc-jnb1a-new-partner-community-based-peering-inxza-pqmsf"
+  ],
+  "notes": "OADC Isando (JNB1) at 26 Electron Ave, Isando (Ekurhuleni): carrier-neutral hyperscale core facility, ~7MW site load over 1,600+ sqm per OADC datasheet (OCOLO lists 12MW); phase 1 went >90% full within a year, phase 2 launched ~Q1 2024; Uptime Institute Tier-III design certification. JINX Internet Exchange expanded to OADC JNB1 as an additional peering point (INX-ZA, 2026).",
+  "method_batch": true
+}

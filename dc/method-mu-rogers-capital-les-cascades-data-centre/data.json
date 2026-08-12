@@ -1,0 +1,21 @@
+{
+  "slug": "method-mu-rogers-capital-les-cascades-data-centre",
+  "canonical_project": "Rogers Capital Les Cascades Data Centre",
+  "owner": "Rogers Capital Technology Services Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Port Louis",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/mauritius/port-louis/eis-disaster-recovery-centre/",
+    "https://technology.rogerscapital.mu/services/cloud-and-data-centre-services/"
+  ],
+  "notes": "DataCenterMap nearest-facility listing identifies Rogers Capital Les Cascades Data Center at Les Cascades Building, Edith Cavell Street, Port Louis (C); Rogers official page confirms the operator runs carrier-neutral data centres in Mauritius (A) but no primary page for this specific facility was found. Capacity not disclosed.",
+  "method_batch": true
+}

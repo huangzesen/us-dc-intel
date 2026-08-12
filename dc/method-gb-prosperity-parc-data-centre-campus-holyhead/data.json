@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-prosperity-parc-data-centre-campus-holyhead",
+  "canonical_project": "Prosperity Parc data centre campus (Holyhead)",
+  "owner": "Anglesey Land Holdings / Stena Line",
+  "location": {
+    "city": "",
+    "subnational": "Wales - Anglesey",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "approved",
+  "evidence_date": "2025-09-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.business-live.co.uk/enterprise/planning-boost-holyhead-tech-park-32462512",
+    "https://www.datacenterdynamics.com/en/news/large-data-center-campus-planned-in-anglesey-wales/",
+    "https://www.placenorthwest.co.uk/lift-off-for-angleseys-1bn-prosperity-parc/"
+  ],
+  "notes": "Outline planning permission secured from Anglesey County Council for the 220-acre former Anglesey Aluminium site in Holyhead, including over 220,000 sq m of data centre, industrial and office space; public summaries cite a 349MW BESS; data-centre IT load not separately stated so capacity_mw left null.",
+  "method_batch": true
+}

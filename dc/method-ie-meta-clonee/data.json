@@ -1,0 +1,20 @@
+{
+  "slug": "method-ie-meta-clonee",
+  "canonical_project": "Meta Clonee",
+  "owner": "Meta (Facebook)",
+  "location": {
+    "city": "",
+    "subnational": "Leinster",
+    "country": "Ireland",
+    "country_code": "IE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenters.atmeta.com/all-locations/"
+  ],
+  "notes": "Meta owned data-centre campus at Clonee, Co. Meath (official Meta locations page A); operational; not a public cloud region. capacity_mw null.",
+  "method_batch": true
+}

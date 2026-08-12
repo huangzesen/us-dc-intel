@@ -1,0 +1,21 @@
+{
+  "slug": "method-id-equinix-jk1-with-pt-astra-international-jv",
+  "canonical_project": "Equinix JK1 (with PT Astra International JV)",
+  "owner": "Equinix, Inc. (JV with PT Astra International Tbk)",
+  "location": {
+    "city": "",
+    "subnational": "Jakarta",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/indonesia-colocation/jakarta-data-center/jk1",
+    "https://www.datacenterdynamics.com/en/news/equinix-launches-first-indonesian-data-center-in-jakarta/"
+  ],
+  "notes": "Equinix JK1, 8-9 storey carrier-neutral IBX in Jakarta CBD, opened 2024; colocation space 1,860 sqm (20,021 sqft); first phase 550 cabinets, full build 1,600 cabinets / 5,300 sqm (per DCD); N+1 generator/cooling redundancy, 99.9999% uptime, ISO/PCI certifications. Operational.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-no-stack-osl04-campus-oslo",
+  "canonical_project": "STACK OSL04 campus (Oslo)",
+  "owner": "STACK Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Oslo",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.stackinfra.com/locations/emea/oslo/"
+  ],
+  "notes": "High-capacity OSL04 campus near Oslo city per STACK location page; legacy DigiPlex asset via Nkom SPV SI OSL 04 AS. Campus-level claim only; address/permits not confirmed this run.",
+  "method_batch": true
+}

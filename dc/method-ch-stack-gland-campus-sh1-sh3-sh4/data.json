@@ -1,0 +1,21 @@
+{
+  "slug": "method-ch-stack-gland-campus-sh1-sh3-sh4",
+  "canonical_project": "STACK Gland campus (SH1/SH3/SH4)",
+  "owner": "STACK Infrastructure / Safe Host",
+  "location": {
+    "city": "",
+    "subnational": "Vaud",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://csc-sa.ch/en/projects/general-and-total-enterprise/sh2-data-center-gland",
+    "https://www.stackinfra.com/locations/emea/geneva/"
+  ],
+  "notes": "Gland VD campus alongside SH2: SH1 (older facility, hosting since 2002-era), SH3/SH4 newer builds completing STACK Switzerland network; marketed as Geneva-area (GEN02A per directory); renewable-powered.",
+  "method_batch": true
+}

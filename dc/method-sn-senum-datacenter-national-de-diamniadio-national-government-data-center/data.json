@@ -1,0 +1,22 @@
+{
+  "slug": "method-sn-senum-datacenter-national-de-diamniadio-national-government-data-center",
+  "canonical_project": "SENUM Datacenter National de Diamniadio (national government data center)",
+  "owner": "Senegal Numerique SA (SENUM, ex-ADIE)",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": 1.4,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://senegalnumeriquesa.sn/fr/senegal-numerique-moteur-de-la-transformation-digitale-de-letat",
+    "https://www.digitalbusiness.africa/senegal-bientot-trois-datacenters-dans-le-cadre-du-plan-senegal-numerique/",
+    "https://china.aiddata.org/projects/73114"
+  ],
+  "notes": "SENUM official page lists Diamniadio among three operational state datacenters (Orana, Technopole, Diamniadio). Inaugurated 22 June 2021 by President Macky Sall at the Diamniadio Digital Technology Park; press cites 500-1,000 sqm technical/hosting space and ~1.4 MW (B-grade). AidData project 73114 describes a Tier 3 state data center (~1,000 TB) built with Chinese-loan finance and Huawei support. Capacity field is a B-grade press figure, not an official SENUM technical sheet.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-mc-monaco-cloud-sovereign-cloud-platform",
+  "canonical_project": "Monaco Cloud (sovereign cloud platform)",
+  "owner": "Monaco Cloud S.A.M. (state-majority)",
+  "location": {
+    "city": "",
+    "subnational": "Fontvieille",
+    "country": "Monaco",
+    "country_code": "MC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.monacocloud.mc/",
+    "https://www.chambre-numerique.mc/portfolio/monaco-cloud/",
+    "https://www.bsigroup.com/en-IE/validate-bsi-issued-certificates/client-directory-certificate/HDS+785889"
+  ],
+  "notes": "Operator of Monaco's state sovereign cloud (Extended Monaco program), operational since Oct 2021; multi-site platform, data stored in Monaco under Monegasque law, AMSN-qualified (PINH Avance/PSSI-E), HDS certified. HQ at 9 avenue Albert II - Le Copori (Fontvieille). Counted as platform, not standalone physical facility; physical footprint maps through Monaco Telecom/Telis hosting sites. capacity_mw null.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-be-lcl-brussels-north-diegem",
+  "canonical_project": "LCL Brussels-North (Diegem)",
+  "owner": "LCL Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Flanders",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/lcl-data-centers-invests-30m-to-expand-brussels-north-data-center-in-belgium/",
+    "https://www.lcl.be/en/",
+    "https://www.peeringdb.com/fac/193"
+  ],
+  "notes": "Kouterveldstraat 13, 1831 Diegem (Machelen). LCL's largest/best-connected Belgian facility; EUR 30M expansion (2024-25) to new Tier III capacity; PeeringDB fac 193; ECX Fabric available.",
+  "method_batch": true
+}

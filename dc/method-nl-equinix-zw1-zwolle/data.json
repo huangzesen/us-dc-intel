@@ -1,0 +1,20 @@
+{
+  "slug": "method-nl-equinix-zw1-zwolle",
+  "canonical_project": "Equinix ZW1 (Zwolle)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Overijssel",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/netherlands-colocation/zwolle-data-centers"
+  ],
+  "notes": "Equinix Zwolle data center (official page), NL-ix access, SME-oriented.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-pg-datec-png-data-centre-port-moresby-poreporena-freeway",
+  "canonical_project": "Datec PNG data centre (Port Moresby, Poreporena Freeway)",
+  "owner": "Datec (PNG) Limited",
+  "location": {
+    "city": "",
+    "subnational": "National Capital District",
+    "country": "Papua New Guinea",
+    "country_code": "PG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datec.com.pg/detail/internet-datacenter/datacenter",
+    "https://www.datec.com.pg/",
+    "https://inflect.com/building/poreporena-freeway-port-moresby/datec-png-ltd/datacenter/port-moresby",
+    "https://www.datacenterjournal.com/data-centers/papua-new-guinea/port-moresby/datec-port-moresby/"
+  ],
+  "notes": "Datec official pages confirm datacenter service offering (cloud, equipment colocation, disaster recovery, BCP) with >99.99% uptime claim; directory evidence (Inflect, Data Center Journal) places facility on Poreporena Freeway, Port Moresby (NCD). A for operator service/existence; facility address via directory (C/B-). Capacity null.",
+  "method_batch": true
+}

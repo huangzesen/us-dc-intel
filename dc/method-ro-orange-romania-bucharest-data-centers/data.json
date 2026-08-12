@@ -1,0 +1,22 @@
+{
+  "slug": "method-ro-orange-romania-bucharest-data-centers",
+  "canonical_project": "Orange Romania Bucharest data centers",
+  "owner": "Orange Romania (legacy Telekom Romania Communications / NCC Balcan-IX)",
+  "location": {
+    "city": "",
+    "subnational": "Bucuresti",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://start-up.ro/industria-de-centre-de-date-fara-specialisti-si-facturi-mari-la-energie/",
+    "https://datacenter-forum.ro/orange-romania-detine-cea-mai-importanta-infrastructura-de-centre-de-date-din-tara-noastra/",
+    "https://www.wall-street.ro/articol/IT-C-Tehnologie/283700/orange-romania-anunta-noi-oferte-dupa-finalizarea-tranzitiei-orange-romania-communications-fostul-telekom-communications-cu-ce-preturi-vine-operatorul-telecom.html"
+  ],
+  "notes": "Orange Romania operates 7 large data centers (2 Bucharest, 2 Cluj, 2 Brasov, 1 Timisoara) per DataCenter Forum 2026 quote by Orange B2B director; Orange Business Services has 5 DCs in Bucharest/Cluj/Brasov after 2021 Telekom acquisition; Drumul Taberei legacy site; treat old Telekom/Romtelecom/NCC Balcan-IX listings as aliases (no double counting).",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-mm-it-spectrum-idc-dc-2-mmix-naypyidaw-pop",
+  "canonical_project": "IT Spectrum IDC (DC-2 / MMIX Naypyidaw POP)",
+  "owner": "IT Spectrum",
+  "location": {
+    "city": "",
+    "subnational": "Nay Pyi Taw",
+    "country": "Myanmar",
+    "country_code": "MM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://mmnog.net.mm/doc/mmnog6/MMIX+Update+AGM+2024.pdf"
+  ],
+  "notes": "MMIX AGM 2024 deck (A for IXP facts per methodology, archived at mmnog.net.mm) lists IT Spectrum IDC, Naypyidaw as a current MMIX exchange location alongside OceanWave IDC Mandalay and True IDC Yangon; MMIX operates 2 IXPs across Yangon/Mandalay/Naypyitaw with ~140 Gbps aggregate traffic. B-grade until an operator/government page names the facility directly.",
+  "method_batch": true
+}

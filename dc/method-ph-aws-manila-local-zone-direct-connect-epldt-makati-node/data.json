@@ -1,0 +1,22 @@
+{
+  "slug": "method-ph-aws-manila-local-zone-direct-connect-epldt-makati-node",
+  "canonical_project": "AWS Manila Local Zone + Direct Connect (ePLDT Makati node)",
+  "owner": "Amazon Web Services (hosted in ePLDT/VITRO Makati facility)",
+  "location": {
+    "city": "",
+    "subnational": "National Capital Region",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/about-aws/whats-new/2025/10/aws-direct-connect-100g-makati-city/",
+    "https://tutorialsdojo.com/availability-of-aws-local-zones-in-manila-what-this-means-for-the-philippines-tech-landscape/",
+    "https://mb.com.ph/2022/02/18/new-aws-local-zone-to-be-launched-in-manila/?amp"
+  ],
+  "notes": "AWS Manila Local Zone launched June 19, 2023 (ap-southeast-1-mnl-1a); AWS Direct Connect 100G/10G with MACsec expanded Oct 2025 at existing DX location in ePLDT data center near Makati (NCR). This is cloud edge/DX infrastructure, NOT a full AWS PH Region (none exists); physical node hosted in ePLDT Makati 2 infrastructure (B/C for exact node).",
+  "method_batch": true
+}

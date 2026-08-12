@@ -1,0 +1,22 @@
+{
+  "slug": "method-bn-dst-colocation-service-resale-of-unn-capacity",
+  "canonical_project": "DST colocation service (resale of UNN capacity)",
+  "owner": "Datastream Digital Sdn Bhd (DST)",
+  "location": {
+    "city": "",
+    "subnational": "Brunei-Muara",
+    "country": "Brunei Darussalam",
+    "country_code": "BN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dst.com.bn/co-locations/",
+    "https://thebruneian.news/2025/12/03/dst-unn-sign-data-centre-pact-to-boost-bruneis-digital-infrastructure/",
+    "https://thescoop.co/2025/12/03/dst-unn-expand-partnership-through-data-centre-agreement/"
+  ],
+  "notes": "DST official page offers colocation hosting (A). December 2025 agreement (The Bruneian/The Scoop, 2025-12-03, B) lets DST resell UNN data centre co-location capacity at Tungku Zone 8 and Sumbiling Telephone House. DST is asset-light since the 2020 consolidation; physical facilities are UNN's (own-facility details U).",
+  "method_batch": true
+}

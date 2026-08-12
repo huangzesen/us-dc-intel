@@ -1,0 +1,23 @@
+{
+  "slug": "method-mk-neotel-dc-stip-neocloud-stip-data-center",
+  "canonical_project": "Neotel DC Stip (neoCloud Stip data center)",
+  "owner": "Neotel DOO export-import Skopje",
+  "location": {
+    "city": "",
+    "subnational": "Stip",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": 1.2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://neocloud.mk/architecture/",
+    "https://datacenterplanet.com/listings/neotel-dc-stip",
+    "https://www.datacenterslist.com/data-centers/neotel-dc-stip-stip",
+    "https://platform.inflect.com/building/makedonka-%C5%A1tip/neotel-doo-export-import-skopje/datacenter/stip"
+  ],
+  "notes": "Re-verified 2026-08-12 per MK methodology: neoCloud official architecture page states the platform runs on two data centers in Skopje and Stip; multiple directories (DataCenterPlanet, DataCentersList, Inflect, colo.exchange) list Neotel DC Stip at Makedonka, Stip, operated by Neotel DOO export-import Skopje, status operational with 1 network on PeeringDB. why_this_is_a_data_center: official operator platform + colocation facility listings in Stip. what_is_not_confirmed: capacity (1.2 MW figure is third-party/Inflect and lower-confidence), permit, power connection.",
+  "method_batch": true
+}

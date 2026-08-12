@@ -1,0 +1,21 @@
+{
+  "slug": "method-ru-yandex-cloud-moscow-availability-zones-ru-central1-a-b-m",
+  "canonical_project": "Yandex Cloud Moscow availability zones (ru-central1-a/b/m)",
+  "owner": "Yandex",
+  "location": {
+    "city": "",
+    "subnational": "Moscow City",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://yandex.cloud/en/docs/overview/concepts/geo-scope",
+    "https://infra.yandex.ru/datacenters"
+  ],
+  "notes": "Yandex Cloud official geo-scope documents Moscow-region availability zones ru-central1-a/b/m (BareMetal); metro seed for Moscow City DC inventory - zone existence is A-grade, exact buildings are not public.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-nz-cdc-data-centres-auckland-campus-silverdale-sd1-hobsonville-hv1-hv2",
+  "canonical_project": "CDC Data Centres Auckland campus (Silverdale SD1, Hobsonville HV1/HV2)",
+  "owner": "CDC Data Centres (Infratil/Future Fund)",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": 98,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cdc.com.au/locations/auckland/",
+    "https://dcpulse.com/project/cdc-data-centres-auckland-campus",
+    "https://dns.govt.nz/news/gcdo-issues-first-certification-of-public-cloud-data-centres",
+    "https://www.datacenters.com/cdc-data-centres-hobsonville-campus-two"
+  ],
+  "notes": "Silverdale Campus One 22 MW, Hobsonville Campus One 22 MW, Hobsonville Campus Two 54 MW = ~98 MW operational IT; master plan to expand beyond 220 MW. GCDO PCDCC certified Silverdale 1 and Hobsonville 1 (2025-03-19). Addresses: 29 Highgate Parkway Silverdale; 32 Westpoint Drive Hobsonville.",
+  "method_batch": true
+}

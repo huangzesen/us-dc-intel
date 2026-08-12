@@ -1,0 +1,20 @@
+{
+  "slug": "method-gu-uog-computer-center-university-of-guam-mangilao",
+  "canonical_project": "UOG Computer Center (University of Guam, Mangilao)",
+  "owner": "University of Guam",
+  "location": {
+    "city": "",
+    "subnational": "Guam",
+    "country": "Guam",
+    "country_code": "GU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-08-31",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/guam-government-planning-tier-iv-data-center-on-island/"
+  ],
+  "notes": "Existing main campus data center (built 1992), described by DCD as the University's main data center; hosts Hurricane Electric PoP (2020) and content-provider services. Government/university facility; included per DCD reporting (B), capacity unknown.",
+  "method_batch": true
+}

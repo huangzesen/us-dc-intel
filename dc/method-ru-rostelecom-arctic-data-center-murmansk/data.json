@@ -1,0 +1,22 @@
+{
+  "slug": "method-ru-rostelecom-arctic-data-center-murmansk",
+  "canonical_project": "Rostelecom Arctic Data Center (Murmansk)",
+  "owner": "Rostelecom",
+  "location": {
+    "city": "",
+    "subnational": "Murmansk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-10-27",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/rosetelcom-launches-arctic-data-center-in-murmansk/",
+    "https://www.datacentermap.com/russia/murmansk/rostelecom-murmansk-datacenter/",
+    "https://murmansk.rt.ru/b2b"
+  ],
+  "notes": "Rostelecom launched an Arctic data center in Murmansk (Oct 2022) supporting regional digital platforms; methodology notes Arctic/cold-climate DC claims and Rosatom Arctic plans need status verification.",
+  "method_batch": true
+}

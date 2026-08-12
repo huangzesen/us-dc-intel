@@ -1,0 +1,23 @@
+{
+  "slug": "method-cm-camtel-bepanda-douala",
+  "canonical_project": "Camtel Bepanda (Douala)",
+  "owner": "Cameroon Telecommunications (CAMTEL)",
+  "location": {
+    "city": "",
+    "subnational": "Littoral",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.peeringdb.com/fac/10585",
+    "https://www.peeringdb.com/ix/2541",
+    "https://camix.cm/",
+    "https://en.wikipedia.org/wiki/Camtel"
+  ],
+  "notes": "Littoral / Wouri / Douala-Bepanda. A- for facility/interconnection: PeeringDB fac/10585 lists Camtel Bepanda with 5 networks and 1 local exchange (CAMIX Douala, PeeringDB ix/2541); CAMIX site locates its Douala interconnection node at CAMTEL Bepanda. Treated as operational interconnection/telco facility (also a satellite earth station per Wikipedia/Osidimbea); commercial colocation at this exact site not proven by a Camtel service page. No public MW.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-va-vatican-apostolic-library-digital-infrastructure-ntt-data-amlad-digitization",
+  "canonical_project": "Vatican Apostolic Library digital infrastructure (NTT DATA AMLAD digitization)",
+  "owner": "Vatican Apostolic Library + NTT DATA",
+  "location": {
+    "city": "",
+    "subnational": "Holy See",
+    "country": "Holy See",
+    "country_code": "VA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-05-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nttdata.com/global/en/news/press-release/2024/may/ntt-data-celebrates-10-years-of-project-with-vatican-library",
+    "https://digi.vatlib.it/"
+  ],
+  "notes": "NTT DATA official press release (2024-05-13): since 2014 NTT DATA built the AMLAD cloud-based digital storage system and infrastructure for long-term storage, preservation and display of the Vatican Library's heritage; over 27,500 manuscripts available online in high definition. Digitization infrastructure (storage/compute lead), NOT a commercial colocation facility; capacity recorded via manuscript/page indicators only, not converted to MW.",
+  "method_batch": true
+}

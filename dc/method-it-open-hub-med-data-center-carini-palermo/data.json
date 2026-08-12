@@ -1,0 +1,22 @@
+{
+  "slug": "method-it-open-hub-med-data-center-carini-palermo",
+  "canonical_project": "Open Hub Med data center, Carini (Palermo)",
+  "owner": "Open Hub Med consortium (Eolo, Equinix Italia, Fastweb, In-Site, Interoute, Italtel, MIX, Retelit, SuperNAP Italia, VueTel Italia, XMED); acquired by Mediterra DataCenters 2026",
+  "location": {
+    "city": "",
+    "subnational": "Sicily",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-03-30",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/mediterra-acquires-sicilys-open-hub-med/",
+    "https://www.mix-it.net/en/ohm-acquired-by-mediterra-datacenters-mix-confirms-support-for-the-development-of-the-palermo-hub/",
+    "https://www.key4biz.it/open-hub-med-attivato-a-palermo-il-data-center-del-consorzio-con-italtel-e-fastweb/188191/"
+  ],
+  "notes": "OHM is southern Italy's first neutral, carrier-independent data center (Carini research area of Italtel, near Palermo): 2 MW / 1,000 sqm, launched 2017, home of a MIX (Italian internet exchange) PoP. Mediterra DataCenters acquired OHM (Mar 2026) and partners on Palermo hub development - first MIX edge IX outside Rome; Mediterra also operates a Rome data center.",
+  "method_batch": true
+}

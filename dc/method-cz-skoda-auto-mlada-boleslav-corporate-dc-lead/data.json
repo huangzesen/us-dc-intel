@@ -1,0 +1,20 @@
+{
+  "slug": "method-cz-skoda-auto-mlada-boleslav-corporate-dc-lead",
+  "canonical_project": "Skoda Auto Mlada Boleslav corporate DC (lead)",
+  "owner": "Skoda Auto a.s.",
+  "location": {
+    "city": "",
+    "subnational": "Central Bohemia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.skoda-auto.cz/"
+  ],
+  "notes": "CZ methodology lists Skoda Auto Mlada Boleslav corporate data-centre as a lead for Central Bohemia; no facility-level public source captured in this pass. Keep as lead_unconfirmed.",
+  "method_batch": true
+}

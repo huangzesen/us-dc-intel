@@ -1,0 +1,22 @@
+{
+  "slug": "method-mu-mauritius-telecom-rose-belle-data-centre-rbdc",
+  "canonical_project": "Mauritius Telecom Rose Belle Data Centre (RBDC)",
+  "owner": "Mauritius Telecom Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Grand Port",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.myt.mu/business/colocation.php",
+    "https://rbdc.mu/",
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/rose-belle-data-centre-phase-1/784"
+  ],
+  "notes": "MT/my.t colocation page (checked 2026-08-12) states the Rose Belle Data Centre in the south of Mauritius (Rose-Belle, Grand Port) provides 1,500 sq m secured rack space, 400+ racks and 3 MW of power; Uptime Institute lists Rose Belle Data Centre Phase 1 (Mauritius Telecom) with Tier IV Certification of Design Documents and Tier IV Certification of Constructed Facility. 3 MW is the operator-stated power figure.",
+  "method_batch": true
+}

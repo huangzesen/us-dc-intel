@@ -1,0 +1,21 @@
+{
+  "slug": "method-vu-icn1-port-vila-cable-station-data-centre-colocation-interchange",
+  "canonical_project": "ICN1 Port Vila cable station data centre / colocation (Interchange)",
+  "owner": "Interchange (ICN) / Vanuatu Cable Company",
+  "location": {
+    "city": "",
+    "subnational": "Shefa",
+    "country": "Vanuatu",
+    "country_code": "VU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://interchange.vu/subsea-cables/",
+    "https://web.archive.org/web/20131110145403/http://interchange.vu/current-projects/"
+  ],
+  "notes": "Interchange official pages describe ICN1 (Port Vila-Suva, Fiji, linked to Southern Cross) completed 2014; archived 2013 project page lists new data centre facilities with 22 racks incorporated within the Port Vila cable station, including customer colocation. Telecom cable station with adjacent colo space - per VU methodology registered as telecom_cable_station, not a full commercial DC.",
+  "method_batch": true
+}

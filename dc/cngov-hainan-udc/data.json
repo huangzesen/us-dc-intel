@@ -1,0 +1,22 @@
+{
+  "slug": "cngov-hainan-udc",
+  "canonical_project": "海南陵水海底数据中心/海底智算中心 (Hainan UDC)",
+  "owner": "海兰云（海南）数据中心科技有限公司（深圳海兰云/HiCloud关联）",
+  "location": {
+    "city": "陵水黎族自治县（英州镇清水湾近海海域）",
+    "subnational": "Hainan",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 34,
+  "status": "运营中（一期2023-03投运；2025-02海底智算中心启用；2026-05海风直连投入商用）",
+  "evidence_date": "2026-06-25",
+  "evidence_grade": "B",
+  "sources": [
+    "https://lsrm.hinews.cn/xinwen/show-39025.html",
+    "https://news.cctv.com/2026/05/25/ARTIG2T5II1EsYGeM2heTo6E260525.shtml",
+    "https://m.hinews.cn/page?n=2833218&m=1&s=1044"
+  ],
+  "notes": "全球首个商用海底数据中心；一期示范工程已全面完工，二期规划30套数据舱、三期100套；2025-02启用全球首个海底智算中心（675 PFlops算力集群，单舱约1MW外电/1400PFlops设计）；2026-05全球首个海风直连海底数据中心商用；中国电信等入驻，整舱交付并行科技；全期建成后年省电约1.22亿kWh、节约用地6.8万m2、减淡水10.5万吨；海南省首例海域立体分层出让项目，列入《海南省海洋经济发展“十四五”规划》重点工程。capacity_mw按675PFLOPS×0.05MW启发式估算；未获取到环评批复原文（省生态环境厅门户本环境不可达） [province=海南]",
+  "cn_gov_batch": true
+}

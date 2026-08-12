@@ -1,0 +1,22 @@
+{
+  "slug": "method-ro-invite-systems-ploiesti-data-center",
+  "canonical_project": "INVITE Systems Ploiesti data center",
+  "owner": "INVITE Systems",
+  "location": {
+    "city": "",
+    "subnational": "Prahova",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.invitesys.ro/companie/despre-noi",
+    "https://www.datacentermap.com/romania/ploiesti/invite-systems-ploiesti/",
+    "https://colomap.com/facilities/invite-systems-ploiesti/"
+  ],
+  "notes": "Operator page confirms two facilities (Bucuresti + Ploiesti, Str. Elipsei 1); Ploiesti built as first modular Tier-3 data center in Romania, disaster-recovery/backup role >60 km from Bucharest. Operational.",
+  "method_batch": true
+}

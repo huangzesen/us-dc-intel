@@ -1,0 +1,20 @@
+{
+  "slug": "method-dz-algerie-poste-postal-complex-data-center-tiaret",
+  "canonical_project": "Algerie Poste postal complex data center (Tiaret)",
+  "owner": "Algerie Poste",
+  "location": {
+    "city": "",
+    "subnational": "Tiaret",
+    "country": "Algeria",
+    "country_code": "DZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mpt.gov.dz/visite-de-travail-et-dinspection-a-la-wilaya-de-tiaret/"
+  ],
+  "notes": "MPT official visit page (A, per DZ methodology verified official list) states the Tiaret postal complex includes a data center; institutional postal IT facility rather than commercial colocation; capacity not disclosed.",
+  "method_batch": true
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "method-ws-sscc-tuasivi-cable-landing-station-tui-samoa-savai-i-landing",
+  "canonical_project": "SSCC Tuasivi cable landing station (Tui-Samoa Savai'i landing)",
+  "owner": "Samoa Submarine Cable Company (SSCC)",
+  "location": {
+    "city": "",
+    "subnational": "Fa'asaleleaga",
+    "country": "Samoa",
+    "country_code": "WS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ssccsamoa.com/about/rio-reference-interconnection-offer/",
+    "https://www.ssccsamoa.com/wp-content/uploads/2026/03/Rio-2026.pdf",
+    "https://www.ssccsamoa.com/home/progress/",
+    "https://developingtelecoms.com/telecom-technology/data-centres-networks/6956-flexenclosure-deploying-ecentre-cable-landing-stations-for-sscc-in-samoa.html",
+    "https://www.adb.org/sites/default/files/linked-documents/47320-001-ieeab.pdf"
+  ],
+  "notes": "SSCC RIO 2026 defines the Tuasivi cable station (Savai'i) with colocation/interconnection access guidelines; ADB IEEA confirms Tuasivi on Savai'i as Samoa landing point; Flexenclosure (B) supplied the eCentre cable landing station there; Tui-Samoa operational since Feb 2018. Classified telecom_cable_station (only non-Apia A-grade facility lead per WS methodology). Salelologa commercial/utility presence nearby is not datacenter evidence.",
+  "method_batch": true
+}

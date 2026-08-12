@@ -1,0 +1,20 @@
+{
+  "slug": "method-de-google-cloud-berlin-brandenburg-region-seed",
+  "canonical_project": "Google Cloud Berlin-Brandenburg region (seed)",
+  "owner": "Google Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Berlin - Berlin",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-10-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/blog/products/infrastructure/berlin-brandenburg-google-cloud-region-is-now-open"
+  ],
+  "notes": "Cloud-region seed: Google Cloud Berlin-Brandenburg region opened 2023; official region-level evidence spanning Berlin/Brandenburg - no physical facility inference.",
+  "method_batch": true
+}

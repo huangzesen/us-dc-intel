@@ -1,0 +1,21 @@
+{
+  "slug": "method-kh-sinet-data-centre",
+  "canonical_project": "SINET Data Centre",
+  "owner": "SINET / S.I Group Co., Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.sinet.com.kh/about-us/our-network/",
+    "https://www.peeringdb.com/net/5919"
+  ],
+  "notes": "Phnom Penh-headquartered specialist ISP/enterprise network operator with data centre service; ~3,000 m2 Phnom Penh data centre per consultant project page (Archetype, methodology ref, B). SINET peers at Chaktomuk data center (PeeringDB AS59318). MW not public.",
+  "method_batch": true
+}

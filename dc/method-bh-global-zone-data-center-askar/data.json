@@ -1,0 +1,21 @@
+{
+  "slug": "method-bh-global-zone-data-center-askar",
+  "canonical_project": "Global Zone Data Center (Askar)",
+  "owner": "Global Zone",
+  "location": {
+    "city": "",
+    "subnational": "Southern Governorate",
+    "country": "Bahrain",
+    "country_code": "BH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.peeringdb.com/fac/12067",
+    "https://www.manama-ix.bh/"
+  ],
+  "notes": "PeeringDB lists Global Zone Datacenter in Askar and Manama-IX lists Global Zone as connected facility partner. Interconnection-oriented facility in Southern Governorate; PeeringDB-single-source evidence kept as C lead per methodology.",
+  "method_batch": true
+}

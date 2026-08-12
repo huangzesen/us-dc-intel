@@ -1,0 +1,23 @@
+{
+  "slug": "method-iq-linkdata-erbil-dc-1",
+  "canonical_project": "Linkdata Erbil DC 1",
+  "owner": "Linkdata.com",
+  "location": {
+    "city": "",
+    "subnational": "Kurdistan",
+    "country": "Iraq",
+    "country_code": "IQ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://linkdata.com/",
+    "https://blog.linkdata.com/news/tier-3-data-center-in-kurdistan/",
+    "https://www.kurdistan24.net/en/story/385295",
+    "https://www.datacentermap.com/iraq/erbil/linkdatacom/"
+  ],
+  "notes": "Linkdata official/blog pages claim the only Tier 3 cloud compute provider and data center in Kurdistan (operator claim, A for existence); Kurdistan24 (B) describes its Erbil data center running 24/7 services; DataCenterMap (C) places it near Erbil at 100m Road, Peshawa Qazi. Capacity/MW not disclosed; Tier claim is operator self-disclosure.",
+  "method_batch": true
+}

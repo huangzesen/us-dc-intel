@@ -1,0 +1,23 @@
+{
+  "slug": "method-rw-rwanda-space-agency-teleport-ground-station-mwulire-rwamagana",
+  "canonical_project": "Rwanda Space Agency teleport / ground station (Mwulire, Rwamagana)",
+  "owner": "Rwanda Space Agency (RSA) with ATLAS Space Operations",
+  "location": {
+    "city": "",
+    "subnational": "Eastern",
+    "country": "Rwanda",
+    "country_code": "RW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-06-09",
+  "evidence_grade": "B",
+  "sources": [
+    "https://atlasspace.com/atlas-enhances-global-ground-network-2-addition-new-antenna-in-rwanda/",
+    "https://en.igihe.com/science-technology/article/new-atlas-antenna-in-rwanda-to-support-global-weather-monitoring",
+    "https://orbitaltoday.com/2026/06/09/first-fully-certified-sub-saharan-africa-teleport-recognized-in-rwanda/",
+    "https://space.gov.rw/"
+  ],
+  "notes": "RSA teleport at Mwulire, Rwamagana District (Eastern Province): ATLAS Space Operations activated 9.3m ground-station antenna July 2025 supporting COSMIC-2 weather data; teleport earned World Teleport Association (WTA) Tier 3 certification June 2026 - first fully certified teleport in sub-Saharan Africa. Edge/telecom ground-station facility, not commercial datacenter - recorded as edge_ground_station per methodology.",
+  "method_batch": true
+}

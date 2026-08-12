@@ -1,0 +1,21 @@
+{
+  "slug": "method-rs-ninet-data-center-nis-bulevar-nemanjica-25",
+  "canonical_project": "NiNet Data Center Nis (Bulevar Nemanjica 25)",
+  "owner": "NiNet / Webglobe",
+  "location": {
+    "city": "",
+    "subnational": "Nisava",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://ninet.rs/ipa-bulgaria-serbia/",
+    "https://www.peeringdb.com/"
+  ],
+  "notes": "Operational colocation facility in Nis per methodology/directories; official NiNet project page confirms regional data-center capacity program; directory capacity C+ unverified.",
+  "method_batch": true
+}

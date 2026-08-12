@@ -1,0 +1,21 @@
+{
+  "slug": "method-be-digital-realty-bru3",
+  "canonical_project": "Digital Realty BRU3",
+  "owner": "Digital Realty (ex-Interxion)",
+  "location": {
+    "city": "",
+    "subnational": "Flanders",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.digitalrealty.com/data-centers/emea/brussels/bru3",
+    "https://inflect.com/building/27-mercuriusstraat-zaventem/digital-realty/datacenter/bru3"
+  ],
+  "notes": "Mercuriusstraat 27, 1930 Zaventem; ~1,470 m2 per operator. Directory (Inflect) reports 144 MW connection power - unverified, treated as C.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-kg-ministry-of-internal-affairs-mia-data-centre-procurement",
+  "canonical_project": "Ministry of Internal Affairs (MIA) data centre procurement",
+  "owner": "Ministry of Internal Affairs of the Kyrgyz Republic",
+  "location": {
+    "city": "",
+    "subnational": "Bishkek",
+    "country": "Kyrgyzstan",
+    "country_code": "KG"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://zakupki.gov.kg/popp/view/order/view.xhtml?id=563665919"
+  ],
+  "notes": "Official procurement record (A) for a ministry data centre with installation/commissioning at Bishkek, pr. Ch. Aitmatova 95: 127,988,941 KGS planned amount, ~120-day delivery, DC/module/UPS/precision-cooling requirements (2026). Operational status requires acceptance/commissioning record; kept separate from the national/state-cloud ЦОД per KG methodology.",
+  "method_batch": true
+}

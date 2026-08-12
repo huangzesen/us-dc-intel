@@ -1,0 +1,21 @@
+{
+  "slug": "method-id-dci-h2-campus-karawang",
+  "canonical_project": "DCI H2 Campus (Karawang)",
+  "owner": "PT DCI Indonesia Tbk / Salim Group (PT Datacenter Indonesia Sukses Makmur)",
+  "location": {
+    "city": "",
+    "subnational": "West Java",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": 42,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dci-indonesia.com/news/dci-indonesia-and-salim-group-inaugurate-second-data-center-in-karawang-pioneering-the-first-solar-powered-data-center-in-indonesia",
+    "https://www.datacenterdynamics.com/en/news/dci-indonesia-launches-second-building-at-600mw-campus-outside-jakarta/"
+  ],
+  "notes": "DCI H2 campus, Karawang, West Java: H2-01 15MW operational Nov 2021, H2-02 27MW IT load solar-powered (first solar DC in Indonesia) inaugurated Jun 2023; campus on 791 ha with up to 600MW total capacity. capacity_mw=42 is current H2-01+H2-02 IT load; 600MW is long-term campus narrative (B).",
+  "method_batch": true
+}

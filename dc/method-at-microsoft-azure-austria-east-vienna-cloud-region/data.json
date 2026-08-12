@@ -1,0 +1,21 @@
+{
+  "slug": "method-at-microsoft-azure-austria-east-vienna-cloud-region",
+  "canonical_project": "Microsoft Azure Austria East (Vienna cloud region)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Vienna",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+    "https://www.azurespeed.com/Information/AzureRegions/AustriaEast"
+  ],
+  "notes": "Microsoft Learn lists Austria East (programmatic name austriaeast) with physical location Vienna and availability-zone support; azurespeed lists opening year approx. 2025 with 3 AZs. A-grade for cloud-region existence in Vienna; exact datacenter addresses undisclosed (per methodology, region label is not an address; oe24 2026-07-26 reports Microsoft Austria East sites under construction at Schwechat/Achau/Voesendorf in Lower Austria - see Lower Austria records).",
+  "method_batch": true
+}

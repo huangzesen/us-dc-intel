@@ -1,0 +1,20 @@
+{
+  "slug": "method-cx-google-dhivaru-subsea-cable-christmas-island-connectivity-hub",
+  "canonical_project": "Google Dhivaru subsea cable + Christmas Island connectivity hub",
+  "owner": "Google (Global Infrastructure)",
+  "location": {
+    "city": "",
+    "subnational": "Christmas Island",
+    "country": "Christmas Island",
+    "country_code": "CX"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2025-11-17",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/blog/products/networking/introducing-dhivaru-new-subsea-cable"
+  ],
+  "notes": "sub_location Christmas Island (hub location TBD; connectivity-hub concept). Google official (2025-11-17): Dhivaru is a new Trans-Indian Ocean cable connecting the Maldives, Christmas Island and Oman; Google will invest in two regional connectivity hubs (Maldives, Christmas Island) with capabilities of cable switching, content caching and COLOCATION - rack space for carriers/local companies, explicitly 'far less power than a typical data center'. COUNTED AS PLANNED SUBSEA CABLE CONNECTIVITY + connectivity-hub project; NOT a confirmed large data centre.",
+  "method_batch": true
+}

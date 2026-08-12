@@ -1,0 +1,22 @@
+{
+  "slug": "method-by-beltelecom-data-centre-tsod-rue-beltelecom",
+  "canonical_project": "Beltelecom Data Centre (TsOD RUE Beltelecom)",
+  "owner": "RUE Beltelecom",
+  "location": {
+    "city": "",
+    "subnational": "Minsk City",
+    "country": "Belarus",
+    "country_code": "BY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenter.by/",
+    "https://datacenter.by/razmeshchenie-oborudovaniya",
+    "https://beltelecom.by/about/communication-networks/data-centers"
+  ],
+  "notes": "State operator commercial hosting/colocation offer; sales/contact address 220030 Minsk, Engelsa 6; Beltelecom has operated a network of TsODs since 2006; 24/7/365 facility with DDoS-protection add-on. Regional TsOD addresses not verified.",
+  "method_batch": true
+}

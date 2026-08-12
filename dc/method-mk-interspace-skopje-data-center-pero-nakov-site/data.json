@@ -1,0 +1,22 @@
+{
+  "slug": "method-mk-interspace-skopje-data-center-pero-nakov-site",
+  "canonical_project": "Interspace Skopje data center (Pero Nakov site)",
+  "owner": "Interspace DOOEL",
+  "location": {
+    "city": "",
+    "subnational": "Gazi Baba",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://interspace.com/en/data-center-colocation",
+    "https://datacenterplatform.com/data-centers/interspace/",
+    "https://www.datacenterjournal.com/data-centers/macedonia/skopje/interspace/"
+  ],
+  "notes": "Operator page (A) confirms colocation DCs in Skopje; directories give Pero Nakov 1, 1000 Skopje; Pero Nakov street is in Gazi Baba municipality (Sloboden Pecat street notices; Infobel business records), so facility assigned to Gazi Baba; may be same operator footprint as DC MK-SK-1 entry in Aerodrom or a separate hall - treated as separate site per directory addresses. why_this_is_a_data_center: marketed colocation data centre. what_is_not_confirmed: capacity, permit, whether a distinct building from MK-SK-1.",
+  "method_batch": true
+}

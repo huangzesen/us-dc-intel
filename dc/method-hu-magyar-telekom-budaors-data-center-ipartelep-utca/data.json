@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-magyar-telekom-budaors-data-center-ipartelep-utca",
+  "canonical_project": "Magyar Telekom Budaors Data Center (Ipartelep utca)",
+  "owner": "Magyar Telekom Nyrt.",
+  "location": {
+    "city": "",
+    "subnational": "Pest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telekom.hu/enterprise-solutions/services/hybrid-infrastructure/instant-dc",
+    "https://www.t-mobile.cz/dcpublic/Datova_centra_Budapest.pdf"
+  ],
+  "notes": "Telekom's official Instant DC page states group data centers are at Budapest and Budaors; T-Mobile CZ official PDF lists Budaors Ipartelep u. 13-15, 2040 Budaors with 870 sqm. Budaors is in Pest county. Commercial colocation; capacity not disclosed.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-pl-google-cloud-warsaw-region-europe-central2",
+  "canonical_project": "Google Cloud Warsaw region (europe-central2)",
+  "owner": "Google Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/blog/products/infrastructure/google-cloud-region-in-warsaw-poland-is-now-open",
+    "https://docs.cloud.google.com/compute/docs/regions-zones",
+    "https://docs.cloud.google.com/network-connectivity/docs/interconnect/concepts/choosing-colocation-facilities"
+  ],
+  "notes": "Google Cloud Warsaw region europe-central2 with zones a/b/c; Google Cloud Interconnect docs identify Atman Warsaw-1 as a Warsaw colocation facility. A for region/interconnect listing; exact buildings require local evidence.",
+  "method_batch": true
+}

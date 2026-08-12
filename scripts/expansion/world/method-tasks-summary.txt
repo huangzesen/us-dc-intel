@@ -1,0 +1,19 @@
+Method-driven datacenter exploration task list - summary
+============================================================
+Generated: 2026-08-12 (method-tasks generation pass)
+Inputs: scripts/expansion/world/world-manifest.jsonl (192 countries);
+        scripts/expansion/world/country-skills/ (per-country SKILL.md + ANATOMY.md + explorer files)
+
+Task records generated (countries WITH SKILL.md): 190
+  - full methodology (SKILL.md + ANATOMY.md): 189
+  - SKILL-only (CN special: SKILL.md + explorer-1-web/2-wechat/3-pipeline, no ANATOMY): 1 ['CN']
+Manifest countries WITHOUT methodology (no task record): 2 - KP, TW (expected per plan)
+
+Divisions:
+  - manifest total: 5674
+  - covered by method-tasks (countries with SKILL.md): 5641
+  - uncovered (KP/TW): 33
+
+Outputs:
+  - scripts/expansion/world/method-tasks.jsonl (190 lines, one JSON per country, sorted by country_code)
+  - per-country exploration results go to output_path = scripts/expansion/world/results/<CODE>.jsonl (schema per explore-brief.md)

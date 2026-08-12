@@ -1,0 +1,21 @@
+{
+  "slug": "method-kr-nirs-daejeon-main-center-national-information-resources-service",
+  "canonical_project": "NIRS Daejeon main center (National Information Resources Service)",
+  "owner": "NIRS / Ministry of Interior and Safety (government)",
+  "location": {
+    "city": "",
+    "subnational": "Daejeon - Yuseong-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ko.wikipedia.org/wiki/%EA%B5%AD%EA%B0%80%EC%A0%95%EB%B3%B4%EC%9E%90%EC%9B%90%EA%B4%80%EB%A6%AC%EC%9B%90_%ED%99%94%EC%9E%AC",
+    "https://late.kr/%EA%B5%AD%EA%B0%80%EC%A0%95%EB%B3%B4%EC%9E%90%EC%9B%90%EA%B4%80%EB%A6%AC%EC%9B%90-%ED%99%94%EC%9E%AC-%EC%82%AC%EA%B3%A0/"
+  ],
+  "notes": "Flagship government datacenter (Gukjeong Jawon) in Daejeon Yuseong-gu; hosts core government digital services. Major lithium-battery fire 2025-09-26 during UPS replacement on 5F server floor; ~647 government services disrupted; recovery ongoing. Public-sector DC, not commercial colo.",
+  "method_batch": true
+}

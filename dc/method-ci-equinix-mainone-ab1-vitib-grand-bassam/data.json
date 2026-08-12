@@ -1,0 +1,21 @@
+{
+  "slug": "method-ci-equinix-mainone-ab1-vitib-grand-bassam",
+  "canonical_project": "Equinix/MainOne AB1 (VITIB, Grand-Bassam)",
+  "owner": "Equinix (MainOne/MDXi)",
+  "location": {
+    "city": "",
+    "subnational": "Comoe",
+    "country": "Cote d'Ivoire",
+    "country_code": "CI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.peeringdb.com/fac/12168",
+    "https://www.zdnet.com/article/equinix-expands-into-nigeria-ghana-and-cote-divoire-with-320-million-acquisition-of-mainone/"
+  ],
+  "notes": "First MDXi/MainOne CI data centre at VITIB free zone, Grand Bassam (Comoe); PeeringDB fac/12168 lists VITIB Grand Bassam; Tier III standards; cable-landing-adjacent; Equinix acquired MainOne ($320m, closed 2022).",
+  "method_batch": true
+}

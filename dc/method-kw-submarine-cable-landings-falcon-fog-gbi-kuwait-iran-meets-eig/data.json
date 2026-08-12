@@ -1,0 +1,20 @@
+{
+  "slug": "method-kw-submarine-cable-landings-falcon-fog-gbi-kuwait-iran-meets-eig",
+  "canonical_project": "Submarine cable landings (FALCON/FOG/GBI/Kuwait-Iran, MEETS/EIG)",
+  "owner": "Various cable consortia",
+  "location": {
+    "city": "",
+    "subnational": "Capital",
+    "country": "Kuwait",
+    "country_code": "KW"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.submarinenetworks.com/en/stations/asia/kuwait"
+  ],
+  "notes": "connectivity_only: cable landing leads at Kuwait City; network adjacency only, no data-center service evidence.",
+  "method_batch": true
+}

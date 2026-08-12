@@ -1,0 +1,20 @@
+{
+  "slug": "method-zw-telone-harare-data-centre-runhare-house",
+  "canonical_project": "TelOne Harare Data Centre / Runhare House",
+  "owner": "TelOne (state-owned)",
+  "location": {
+    "city": "",
+    "subnational": "Harare",
+    "country": "Zimbabwe",
+    "country_code": "ZW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telone.co.zw/Products/Details/data-centre-cloud-services"
+  ],
+  "notes": "Official TelOne page: 'Tier 3 Data Centre Environment', data-centre/cloud/colocation/DRaaS/rack services, address Runhare House, 107 Kwame Nkrumah Avenue, Causeway, Harare (A). Techzim (B) reported March 2017 launch as first phase of the National Data Centre. 'Tier 3' is operator wording, not Uptime certification; no capacity published.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-kmak-kelet-magyarorszagi-adatkozpont-kft-szolnok",
+  "canonical_project": "KMAK - Kelet-Magyarorszagi Adatkozpont Kft. (Szolnok)",
+  "owner": "Kelet-Magyarorszagi Adatkozpont Szolgaltato Kft.",
+  "location": {
+    "city": "",
+    "subnational": "Jasz-Nagykun-Szolnok",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.kmak.hu/",
+    "https://www.emis.com/php/company-profile/HU/Data_Processing_Hosting_and_Related_Services/page2.html"
+  ],
+  "notes": "KMAK's official site (kmak.hu) markets fast, stable Hungarian-server hosting with 99.9% uptime guarantee; company name explicitly contains 'Kelet-Magyarorszagi Adatkozpont' (Eastern Hungarian Datacenter) and EMIS lists it in data processing/hosting industry. Sparse public material - recorded as small/uncertain hosting-datacenter operator in Szolnok, Jasz-Nagykun-Szolnok county; no disclosed capacity.",
+  "method_batch": true
+}

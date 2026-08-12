@@ -1,0 +1,21 @@
+{
+  "slug": "method-ae-khazna-dxb3-ibn-battuta-jebel-ali",
+  "canonical_project": "Khazna DXB3 Ibn Battuta (Jebel Ali)",
+  "owner": "Khazna Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Dubai - Sector 5",
+    "country": "United Arab Emirates",
+    "country_code": "AE"
+  },
+  "capacity_mw": 22.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.peeringdb.com/fac/15227",
+    "https://baxtel.com/data-center/dubai"
+  ],
+  "notes": "PeeringDB facility 15227 lists Khazna Data Center Ibn Battuta - DXB3 at Jebel Ali, Dubai; Baxtel names Khazna DXB3 as the largest Dubai data centre at 22 MW; LinkedIn reports Tier III certification of DXB3 PODs 2-4. Existence strong, capacity B/C. Jebel Ali/Ibn Battuta maps to Sector 5.",
+  "method_batch": true
+}

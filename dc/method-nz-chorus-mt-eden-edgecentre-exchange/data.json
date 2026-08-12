@@ -1,0 +1,20 @@
+{
+  "slug": "method-nz-chorus-mt-eden-edgecentre-exchange",
+  "canonical_project": "Chorus Mt Eden EdgeCentre / exchange",
+  "owner": "Chorus",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.chorus.co.nz/enterprise/data-centre-connectivity/edgecentre"
+  ],
+  "notes": "Chorus EdgeCentre distributed regional data-centre service available in Auckland (Mt Eden exchange per methodology); edge/telecom facility, separate from hyperscale. MW not published.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-nl-colt-rotterdam-data-centre-roosendaal",
+  "canonical_project": "Colt Rotterdam Data Centre (Roosendaal)",
+  "owner": "Colt Data Centre Services",
+  "location": {
+    "city": "",
+    "subnational": "North Brabant",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 15.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.coltdatacentres.net/en-GB/our-locations/data-centre-locations-europe/rotterdam",
+    "https://quprawholesale.com/en/services/co-location/overview-list-datacenters-netherlands/"
+  ],
+  "notes": "Colt 'Rotterdam' DC physically located in Roosendaal (Argonweg 9, 4706 NR), up to 15MW IT (official page); avoid double-counting with South Holland.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "cngov-national-integrated-computing-network-guizhou-hub-node-main-compute-base",
+  "canonical_project": "National Integrated Computing Network Guizhou Hub Node - Main Compute Base",
+  "owner": "Guizhou provincial hub operator (Guizhou Big Data / state platform)",
+  "location": {
+    "city": "",
+    "subnational": "",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 13.7,
+  "status": "operational",
+  "evidence_date": "2024-02-27",
+  "evidence_grade": "B",
+  "sources": [
+    "http://www.iccsz.com/4g/news.Asp?ID=f4e6699d07064b5f9f56ecffd2480b79",
+    "https://gz.cri.cn/n/20240227/6a5dfa18-8746-9bf1-f897-cb99fb91c339.html"
+  ],
+  "notes": "Guizhou hub node project: total investment ~RMB 1 bn; 'one center + one base': dispatch center 11,700 sqm and main compute base 16,900 sqm; total compute 274P (general+intelligent+HPC) with 33P distributed storage, >60% domestic hardware coverage. Phase 1 56PFlops intelligent-compute equipment built and in use (2023). Capacity 13.7 MW = 274 PFlops x 0.05 MW (compute-derived).",
+  "cn_gov_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-sc-2africa-seychelles-branch-north-east-point-landing",
+  "canonical_project": "2Africa Seychelles branch - North East Point landing",
+  "owner": "Intelvision / Vodafone (IFC-financed branch)",
+  "location": {
+    "city": "",
+    "subnational": "Anse Etoile",
+    "country": "Seychelles",
+    "country_code": "SC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/systems/asia-europe-africa/2africa/intelvision-lands-2africa-in-seychelles-the-third-subsea-cable-connecting-seychelles",
+    "https://www.nation.sc/articles/17555/intelvisions-2africa-cable-system-lands-in-seychelles-",
+    "https://techafricanews.com/2023/04/24/intelvision-and-vodafone-announce-the-arrival-of-2africa-cable-system-in-seychelles/"
+  ],
+  "notes": "Connectivity infrastructure, NOT a datacentre (no server/colo evidence found). Intelvision with Vodafone landed the 2Africa subsea cable at North East Point on 2023-04-20; expected live ~Sept 2023 (Nation). IFC financing up to US$20m for the branch. North East Point boundary straddles Anse Etoile and Glacis districts; recorded under Anse Etoile, Glacis scanned as cross-check with no separate DC evidence.",
+  "method_batch": true
+}

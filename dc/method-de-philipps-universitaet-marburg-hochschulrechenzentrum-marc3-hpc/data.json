@@ -1,0 +1,20 @@
+{
+  "slug": "method-de-philipps-universitaet-marburg-hochschulrechenzentrum-marc3-hpc",
+  "canonical_project": "Philipps-Universitaet Marburg Hochschulrechenzentrum / MaRC3 HPC",
+  "owner": "Philipps-Universitaet Marburg",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Marburg-Biedenkopf",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.uni-marburg.de/en/hrz/services/high-performance-computing"
+  ],
+  "notes": "University computing center (since 1963); official HPC page lists MaRC3 cluster with data-center GPUs and multi-PB storage; institutional facility, no MW disclosed.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-nexspace-heidelberg-hip-data-center-george-boole-weg-3",
+  "canonical_project": "Nexspace Heidelberg / HIP data center (George-Boole-Weg 3)",
+  "owner": "Nexspace data centers GmbH (built by Data Center Group with Data Center Security GmbH and Infrared Capital Partners)",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Heidelberg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 1.15,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenter-insider.de/data-center-group-eroeffnet-co-location-rechenzentrum-im-heidelberger-innovation-park-a-870eb0f7f5c1cfd8d5dcb7960652c9fc/",
+    "https://www.nexspace.de/en/locations",
+    "https://www.datacenterdynamics.com/en/news/nexspace-launches-data-center-in-heidelberg-germany/"
+  ],
+  "notes": "Re-verified with builder press release (Data Center Group, 2023-11-14): HIP data center opened Nov 2023 in 11 months, 2,000 sqm total, 252 racks, max IT load 1,150 kW (~1.15 MW), ~2 MVA connection, DIN EN 50600/ISO 27001/LEED Platinum, DE-CIX enabled, district-cooling via Stadtwerke Heidelberg with waste-heat reuse; operated by Nexspace. DCD reported 2 MW IT load across 4,000 sqm expandable to 8,000 sqm.",
+  "method_batch": true
+}

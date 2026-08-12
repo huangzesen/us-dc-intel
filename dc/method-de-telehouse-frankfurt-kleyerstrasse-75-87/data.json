@@ -1,0 +1,20 @@
+{
+  "slug": "method-de-telehouse-frankfurt-kleyerstrasse-75-87",
+  "canonical_project": "Telehouse Frankfurt (Kleyerstrasse 75-87)",
+  "owner": "Telehouse (KDDI)",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Frankfurt am Main",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telehouse.com/global-data-centers/emea/frankfurt-data-centers/telehouse-frankfurt/"
+  ],
+  "notes": "Telehouse Frankfurt carrier-neutral campus 1.8 miles from central Frankfurt, Tier 3, ~25,000 sqm fitted colocation space; connected to DE-CIX. No public MW capacity figure.",
+  "method_batch": true
+}

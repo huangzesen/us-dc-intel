@@ -1,0 +1,21 @@
+{
+  "slug": "method-ru-atomdata-innopolis-2-data-center",
+  "canonical_project": "Atomdata Innopolis-2 data center",
+  "owner": "Atomdata-Innopolis / Rosatom",
+  "location": {
+    "city": "",
+    "subnational": "Tatarstan",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 20,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://telesputnik.ru/materials/tech/news/moshhnost-coda-innopolis-2-udvoyat-dlya-razvitiya-ii",
+    "https://realnoevremya.ru/news/257968-kompaniya-atomdata-innopolis-zanyala-u-rosenergoatoma-15-mlrd-rubley"
+  ],
+  "notes": "Innopolis-2 design capacity ~20 MW (4x standard DCs), to be doubled further for AI workloads (~1,000 server racks); company borrowed ~1.5 bln rub from Rosenergoatom per Realnoe Vremya; construction stage.",
+  "method_batch": true
+}

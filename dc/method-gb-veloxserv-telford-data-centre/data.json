@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-veloxserv-telford-data-centre",
+  "canonical_project": "VeloxServ Telford Data Centre",
+  "owner": "VeloxServ",
+  "location": {
+    "city": "",
+    "subnational": "England - Telford and Wrekin",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://telford-datacentre.com/",
+    "https://telford-colocation.com/",
+    "https://www.datacentermap.com/united-kingdom/telford/"
+  ],
+  "notes": "ISO27001-accredited carrier-neutral colocation in Telford (near Birmingham); operator official pages confirm operational; Digital Space also lists a Telford data centre in its portfolio.",
+  "method_batch": true
+}

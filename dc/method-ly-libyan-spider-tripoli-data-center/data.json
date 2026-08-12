@@ -1,0 +1,22 @@
+{
+  "slug": "method-ly-libyan-spider-tripoli-data-center",
+  "canonical_project": "Libyan Spider Tripoli Data Center",
+  "owner": "Libyan Spider for IT",
+  "location": {
+    "city": "",
+    "subnational": "Tripoli",
+    "country": "Libya",
+    "country_code": "LY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://status.libyanspider.com/",
+    "https://libyanspider.com/libyan-spider-opens-new-data-center-in-tripoli-to-enhance-security-and-availability/",
+    "https://libyanspider.com/iaas/"
+  ],
+  "notes": "Libyan Spider status page lists 'Tripoli Data Center' as operational service location (with past incident reports referencing the Tripoli DC subnet), and the official company page announces a new Tripoli data center for security/availability plus IaaS/cloud services. B-grade: operator self-claim + live status page; capacity not disclosed.",
+  "method_batch": true
+}

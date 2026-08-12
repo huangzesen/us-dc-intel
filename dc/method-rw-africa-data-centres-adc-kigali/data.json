@@ -1,0 +1,22 @@
+{
+  "slug": "method-rw-africa-data-centres-adc-kigali",
+  "canonical_project": "Africa Data Centres (ADC) Kigali",
+  "owner": "Africa Data Centres (Cassava Technologies)",
+  "location": {
+    "city": "",
+    "subnational": "City of Kigali",
+    "country": "Rwanda",
+    "country_code": "RW"
+  },
+  "capacity_mw": 2,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/africa-data-centres-to-build-first-data-center-in-kigali-rwanda/",
+    "https://www.econetafrica.com/news/africa-data-centres-to-build-its-first-data-centre-in-kigali-rwanda",
+    "https://www.cassavatechnologies.com/africa-data-centres-to-build-its-first-data-centre-in-kigali/"
+  ],
+  "notes": "ADC announced Nov 2022 a 2 MW purpose-built data centre in Kigali with ground break Q1 2023; DCD 2026-06 (Otech article) states project status unclear. No operator facility page or construction evidence found - keep announced/unknown per methodology; 2 MW from the 2022 announcement.",
+  "method_batch": true
+}

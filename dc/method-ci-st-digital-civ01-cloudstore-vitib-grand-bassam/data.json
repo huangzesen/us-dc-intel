@@ -1,0 +1,21 @@
+{
+  "slug": "method-ci-st-digital-civ01-cloudstore-vitib-grand-bassam",
+  "canonical_project": "ST Digital CIV01 / CloudStore (VITIB, Grand-Bassam)",
+  "owner": "ST Digital",
+  "location": {
+    "city": "",
+    "subnational": "Comoe",
+    "country": "Cote d'Ivoire",
+    "country_code": "CI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://st.digital/blog/dans-la-presse-3/cote-divoire-st-digital-inaugure-son-premier-data-center-tier-3-a-grand-bassam-511",
+    "https://cinews.ci/innovation-technologique-un-data-center-de-point-installe-a-vitib/"
+  ],
+  "notes": "Inaugurated 2025-10-02 in VITIB free zone, Grand-Bassam; Tier III design/claims (no Uptime record); ~4,000 m2 building, ~160 racks; sovereign-cloud CloudStore platform; PeeringDB fac/15646.",
+  "method_batch": true
+}

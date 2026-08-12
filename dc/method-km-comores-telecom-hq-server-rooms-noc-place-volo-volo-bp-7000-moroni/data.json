@@ -1,0 +1,21 @@
+{
+  "slug": "method-km-comores-telecom-hq-server-rooms-noc-place-volo-volo-bp-7000-moroni",
+  "canonical_project": "Comores Telecom HQ server rooms / NOC (Place Volo-volo, BP 7000, Moroni)",
+  "owner": "Comores Telecom (Societe Nationale des Telecommunications; Huri brand)",
+  "location": {
+    "city": "",
+    "subnational": "Grande Comore",
+    "country": "Comoros",
+    "country_code": "KM"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://onicor.km/",
+    "https://www.comorestelecom.km/portail/pg/apropos/1"
+  ],
+  "notes": "Lead only - no public datacenter/colo offer verified. Historic state operator (created by ordonnance 04-002/PR of 23 Feb 2004; operations from 1 Apr 2005); HQ address Place Volo-volo, BP 7000, Moroni (A-grade address fact). 5G frequency attributed by ANRTIC 2025-05-27. HQ/NOC/server-room facility details not published (C); frequent SONELEC grid outages mean generator/UPS presence is not datacenter evidence.",
+  "method_batch": true
+}

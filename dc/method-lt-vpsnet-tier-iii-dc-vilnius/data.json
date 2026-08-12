@@ -1,0 +1,21 @@
+{
+  "slug": "method-lt-vpsnet-tier-iii-dc-vilnius",
+  "canonical_project": "VPSnet Tier III DC (Vilnius)",
+  "owner": "VPSnet (UAB Interneto vizija)",
+  "location": {
+    "city": "",
+    "subnational": "Vilnius County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.vpsnet.com/lt/paslaugos/kolokacija",
+    "https://www.vpsnet.com/lt"
+  ],
+  "notes": "Operator page: Tier III DC in Vilnius, 200 Gbps network, colocation offered ('Talpinkite serverius musu Tier III duomenu centre Vilniuje'); no street address - operator claim only.",
+  "method_batch": true
+}

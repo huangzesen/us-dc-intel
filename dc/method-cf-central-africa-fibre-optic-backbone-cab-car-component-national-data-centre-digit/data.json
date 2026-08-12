@@ -1,0 +1,22 @@
+{
+  "slug": "method-cf-central-africa-fibre-optic-backbone-cab-car-component-national-data-centre-digit",
+  "canonical_project": "Central Africa Fibre-Optic Backbone (CAB) CAR Component - National Data Centre / Digital Training Centre (University of Bangui)",
+  "owner": "Government of Central African Republic / African Development Bank / European Union",
+  "location": {
+    "city": "",
+    "subnational": "Bangui",
+    "country": "Central African Republic",
+    "country_code": "CF"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://mapafrica.afdb.org/en/projects/46002-P-CF-GB0-002",
+    "https://journaldufaso.com/tag/rca/page/9/",
+    "https://www.zmscable.fr/en/les-cables-a-fibres-optiques-du-projet-cab-arrivent-en-centrafrique/"
+  ],
+  "notes": "AfDB MapAfrica project 46002-P-CF-GB0-002 (A-grade official record) includes a Bangui urban loop with a national datacentre and Digital Training Centre; gouv.cf lists the CAB-CAR fibre backbone as a major in-execution project co-financed by AfDB and EU. Press (journaldufaso, ZMS Cable) describe AfDB-financed works including datacentre/digital-training construction at University of Bangui context. Stage per latest available sources is construction works; no commissioning evidence found, no MW capacity disclosed. Keep grade B overall (A for project inclusion, B for stage/works).",
+  "method_batch": true
+}

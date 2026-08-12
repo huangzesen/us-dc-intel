@@ -1,0 +1,42 @@
+GRIDWATCH Astro - capacity split display changes (capacity-split)
+===============================================================
+File modified: /Users/huangzesen/work/projects/us-dc-intel/astro/src/pages/index.astro (only file touched)
+
+Data facts verified from src/data/datacenters.json:
+- totals: has tracked_mw / est_mw, but NO tracked_gw / est_gw (GW computed from MW)
+  e.g. tracked_mw=843463.1 -> tracked_gw=843.5 ; est_mw=31685.2 -> est_gw=31.7 ; capacity_gw=843.5
+- each country: has tracked_mw / tracked_gw / est_mw / est_gw (e.g. US tracked_gw=544.2, est_gw=0.0)
+- states / subnationals / counties: NO est/tracked fields (left unchanged)
+
+Changes made:
+1. I18N keys added (bilingual en/zh):
+   tracked: ["Tracked", "已知"], estimated: ["estimated", "估算"],
+   trackedShort: ["trk", "已知"], estimatedShort: ["est", "估算"]
+2. New helpers after fmtMW (script):
+   gwOf(src,mwKey,gwKey) - resolves GW field with MW/1000 fallback (totals have no GW fields)
+   splitFull(t,e)  - "X.X GW Tracked + Y.Y GW estimated" / "X.X GW 已知 + Y.Y GW 估算" (hero)
+   splitList(t,e)  - "<small>(X.XG trk + Y.YG est)</small>" / 已知/估算 (country list)
+   splitSuffix(t,e)- " (X.XG + Y.YG est)" (map popup)
+3. scopedTotals(): now returns tracked_gw / est_gw for both country scope and Americas totals
+   (country uses tracked_gw/est_gw; totals computed from tracked_mw/est_mw)
+4. Hero (HTML ~line 1365 + updateHero):
+   - main number stays totals.capacity_gw.toFixed(1) (e.g. "843.5")
+   - NEW <div id="heroSplit" class="heroSplit"> added inside .big-sub (before heroSub, which keeps
+     the country/americas descriptive subtitle); CSS .heroSplit added
+   - updateHero sets heroSplit textContent = splitFull(totals.tracked_gw, totals.est_gw)
+     (guarded: hidden if tracked+est both 0). Runs at init (via setLang), on setCountry, and on lang toggle.
+   Display: "843.5 GW Tracked + 31.7 GW estimated" (en) / "843.5 GW 已知 + 31.7 GW 估算" (zh)
+5. Country list (buildMap, countrygrid): when mapMetric==="mw" && c.est_mw>0 the right-side value
+   becomes "<fmtMW(capacity)> <small>(tG trk + eG est)</small>"; est==0 or facilities metric keeps
+   the original display (US keeps plain "544.2 GW" in the list since est_mw=0).
+6. Map marker popup (realMapPopup p2 line): for country-level items that have an est_mw field,
+   appends " (tG + eG est)" / "估算" after the capacity; subnationals/states/counties without
+   est fields are unchanged. US popup shows " (544.2G + 0.0G est)".
+7. mapMetric==="facilities" branch untouched (list change is guarded by mapMetric === "mw").
+
+Build:
+cd /Users/huangzesen/work/projects/us-dc-intel/astro && npm run build
+Result: PASS (astro build completed successfully, 1 page built in ~595ms, exit code 0)
+Built output verified: dist/index.html contains id="heroSplit" and the updateHero split logic.
+
+No commit, no push (per constraints).

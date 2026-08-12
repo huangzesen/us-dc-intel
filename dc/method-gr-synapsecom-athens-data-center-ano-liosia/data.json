@@ -1,0 +1,21 @@
+{
+  "slug": "method-gr-synapsecom-athens-data-center-ano-liosia",
+  "canonical_project": "Synapsecom Athens Data Center (Ano Liosia)",
+  "owner": "Synapsecom Telecoms S.A.",
+  "location": {
+    "city": "",
+    "subnational": "Attica",
+    "country": "Greece",
+    "country_code": "GR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://synapsecom.gr/",
+    "https://www.datacentermap.com/c/synapsecom-telecoms/"
+  ],
+  "notes": "Synapsecom operates a data center in Ano Liosia/Athens per its official site and DataCenterMap (B for existence; capacity C). Thessaloniki facility recorded separately under Central Macedonia.",
+  "method_batch": true
+}

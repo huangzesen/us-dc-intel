@@ -1,0 +1,21 @@
+{
+  "slug": "method-mr-university-of-nouakchott-al-aasriya-centre-de-calcul",
+  "canonical_project": "University of Nouakchott Al Aasriya - Centre de Calcul",
+  "owner": "University of Nouakchott Al Aasriya",
+  "location": {
+    "city": "",
+    "subnational": "West Nouakchott",
+    "country": "Mauritania",
+    "country_code": "MR"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://mtnima.gov.mr/wp-content/uploads/2024/05/Rapport-Phase-2-Etat-des-lieux-Clean-1.pdf",
+    "https://www.inhea.org/ahen/mauritania/"
+  ],
+  "notes": "Institutional research-compute / server-room lead on the university campus (West Nouakchott), per MTNIMA digital-infrastructure Phase-2 diagnostic and INHEA AHEN entry. Institutional compute, not commercial colocation; no public capacity/MW.",
+  "method_batch": true
+}

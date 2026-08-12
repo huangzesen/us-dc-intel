@@ -1,0 +1,20 @@
+{
+  "slug": "method-ug-mtn-mbuya-data-centre-kampala",
+  "canonical_project": "MTN Mbuya Data Centre (Kampala)",
+  "owner": "MTN Uganda",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Uganda",
+    "country_code": "UG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/uganda/kampala/mtn-mbuya-data-centre/"
+  ],
+  "notes": "Directory record (Data Center Map) places an MTN Business data centre at Plot 2310, Togo House, 12 Port Bell Rd, Mbuya, Kampala. MTN's official data-centre services page corroborates MTN's DC service portfolio but does not name the Mbuya facility, so the specific named site remains C-level pending primary confirmation.",
+  "method_batch": true
+}

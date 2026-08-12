@@ -1,0 +1,22 @@
+{
+  "slug": "method-mg-mgix-batiment-sirius",
+  "canonical_project": "MGIX / Batiment Sirius",
+  "owner": "Madagascar Global Internet eXchange (MGIX) / iRENALA context",
+  "location": {
+    "city": "",
+    "subnational": "Antananarivo",
+    "country": "Madagascar",
+    "country_code": "MG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.peeringdb.com/fac/2993",
+    "https://www.peeringdb.com/ix/1335",
+    "https://pulse.internetsociety.org/en/reports/mg/"
+  ],
+  "notes": "National internet exchange at Batiment Sirius / Zone Galaxy Andraharo, Antananarivo (PeeringDB fac 2993, ix 1335; C/A-by-source self-reported) with ISOC Pulse reporting 1 active IXP (B). Interconnection facility; hosting/colo/data-hall evidence not established, so not counted as a commercial colo datacenter. ISOC Foundation Restart MGIX grant (2024-2026) is a modernization lead.",
+  "method_batch": true
+}

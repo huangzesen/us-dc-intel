@@ -1,0 +1,21 @@
+{
+  "slug": "method-bg-equinix-sofia-so1-so2",
+  "canonical_project": "Equinix Sofia SO1/SO2",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Sofia (stolitsa)",
+    "country": "Bulgaria",
+    "country_code": "BG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/bulgaria-colocation",
+    "https://www.equinix.com/data-centers/europe-colocation/bulgaria-colocation/sofia-data-centers"
+  ],
+  "notes": "Equinix official Bulgaria page states two network-dense, carrier-neutral data centers in Sofia (SO1 in Druzhba-1, SO2 at Nedelcho Bonchev), about 35,000 sq ft / 3,215 sq m colocation total.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-cg-arpce-data-center-brazzaville-2021",
+  "canonical_project": "ARPCE Data Center Brazzaville (2021)",
+  "owner": "ARPCE",
+  "location": {
+    "city": "",
+    "subnational": "Brazzaville",
+    "country": "Congo",
+    "country_code": "CG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/republic-of-congo-launches-data-center-in-pointe-noire-for-2africa-cable/",
+    "https://www.digitalbusiness.africa/congo-s-e-denis-sassou-nguesso-connecte-le-pays-au-cable-2-africa-le-datacenter-tier-3-de-larpce-inaugure/"
+  ],
+  "notes": "DCD reports ARPCE previously built a datacenter in Brazzaville in 2021; Digital Business Africa states the Brazzaville ARPCE datacenter is Tier 2, housed in the ARPCE technical building, inaugurated before the Pointe-Noire one (28 Feb 2024). Keep separate from ST Digital and the AfDB Bacongo national DC per methodology dedupe rule (no address/operator evidence of merge).",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-ro-cloudul-privat-guvernamental-bucuresti-node-sts",
+  "canonical_project": "Cloudul Privat Guvernamental - Bucuresti node (STS)",
+  "owner": "STS / ADR (Autoritatea pentru Digitalizarea Romaniei)",
+  "location": {
+    "city": "",
+    "subnational": "Bucuresti",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.adr.gov.ro/cpg/",
+    "https://www.economica.net/proiectul-gigant-al-statului-roman-cloudul-guvernamental-a-intrat-in-etapa-operationala-la-nivel-national_919086.html"
+  ],
+  "notes": "Government cloud (Cloudul Privat Guvernamental) node in Bucuresti; ADR states Cristian and Giroc nodes completed while Bucuresti and Sibiu are in completion status; design: two Tier IV + two Tier III across the 4 nodes.",
+  "method_batch": true
+}

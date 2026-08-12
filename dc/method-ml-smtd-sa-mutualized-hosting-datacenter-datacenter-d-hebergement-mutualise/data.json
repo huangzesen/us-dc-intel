@@ -1,0 +1,23 @@
+{
+  "slug": "method-ml-smtd-sa-mutualized-hosting-datacenter-datacenter-d-hebergement-mutualise",
+  "canonical_project": "SMTD-SA mutualized hosting datacenter (Datacenter d'hebergement mutualise)",
+  "owner": "SMTD-SA (Societe Malienne de Transmission et de Diffusion)",
+  "location": {
+    "city": "",
+    "subnational": "Bamako",
+    "country": "Mali",
+    "country_code": "ML"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.smtd.ml/nos-services/centre-de-donnees/",
+    "https://www.smtd.ml/",
+    "https://malijet.com/la_societe_malienne_aujourdhui/interview_mali/228919-ali-siragata-traore-la-smtd-est-au-coeur-des-technologies-du-fut.html",
+    "https://www.datacenters.com/smtd-smtd"
+  ],
+  "notes": "Official SMTD service page (A) confirms a mutualized hosting datacenter under Malian jurisdiction designed to international security standards. Malijet interview (B) corroborates the service. Directory listing datacenters.com (C, unverified) places the facility on Route de l'Aeroport, opposite the national meteorological service, calling it Tier III-standard. Racks, capacity and power not public. Methodology attributes Bamako/Kati urban area; do not merge with the 2026 national Tier III DC until an official address/operator relation is proven.",
+  "method_batch": true
+}

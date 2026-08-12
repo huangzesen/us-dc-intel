@@ -1,0 +1,22 @@
+{
+  "slug": "method-lt-hostline-own-dc-vilnius",
+  "canonical_project": "Hostline own DC (Vilnius)",
+  "owner": "Hostline UAB",
+  "location": {
+    "city": "",
+    "subnational": "Vilnius County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://hostline.lt/",
+    "https://hostline.lt/duomenu-centrai/",
+    "https://hostline.lt/kolokacija/"
+  ],
+  "notes": "Operator claims Tier III colocation and own DC in Vilnius plus partner DCs (methodology notes 'two Vilnius DCs'); no public street address found - count as operator claim/lead until address or Infostatyba record.",
+  "method_batch": true
+}

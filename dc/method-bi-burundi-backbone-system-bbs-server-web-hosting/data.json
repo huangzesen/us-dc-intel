@@ -1,0 +1,22 @@
+{
+  "slug": "method-bi-burundi-backbone-system-bbs-server-web-hosting",
+  "canonical_project": "Burundi Backbone System (BBS) server/web hosting",
+  "owner": "Burundi Backbone System SM",
+  "location": {
+    "city": "",
+    "subnational": "Bujumbura Mairie",
+    "country": "Burundi",
+    "country_code": "BI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bbs.bi/fr/sb25/Hebergement_web",
+    "https://www.bbs.bi/",
+    "https://inflect.com/building/boulevard-mwambutsa-bujumbura/burundi-backbone-system-sm/datacenter/bujumbura"
+  ],
+  "notes": "BBS official site lists Hebergement Web and Hebergement Serveur with pricing (e.g., server hosting 3,000,000 BIF/12 months) - A for marketed service. Directories place a BBS datacenter at 20 Boulevard Mwambutsa, Quartier Kigobe, Bujumbura (C-grade facility detail; racks/address/power not confirmed by BBS itself).",
+  "method_batch": true
+}

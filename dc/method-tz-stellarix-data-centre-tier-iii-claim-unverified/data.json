@@ -1,0 +1,20 @@
+{
+  "slug": "method-tz-stellarix-data-centre-tier-iii-claim-unverified",
+  "canonical_project": "Stellarix data centre (Tier III claim, unverified)",
+  "owner": "Stellarix",
+  "location": {
+    "city": "",
+    "subnational": "Dar es Salaam",
+    "country": "Tanzania, United Republic of",
+    "country_code": "TZ"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.linkedin.com/pulse/yas-tanzania-expands-operations-launch-business-isai-mathias-8rhcf"
+  ],
+  "notes": "Single LinkedIn/pulse article (C) claims Stellarix operates Tanzania's first Tier III-certified data centre and plans a national network of facilities across Dar es Salaam, Dodoma, Mwanza and Arusha. No company website, TCRA record or press corroboration found in this pass (searches returned nothing for Stellarix). Keep as C-grade lead only; do not count as a confirmed facility until corroborated.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-lk-slt-colombo-cable-landing-station-smw4-dhiraagu-slt",
+  "canonical_project": "SLT Colombo Cable Landing Station (SMW4 / Dhiraagu-SLT)",
+  "owner": "Sri Lanka Telecom PLC",
+  "location": {
+    "city": "",
+    "subnational": "Western Province",
+    "country": "Sri Lanka",
+    "country_code": "LK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/stations/asia/sri-lanka"
+  ],
+  "notes": "Cable/critical infrastructure: Submarine Networks lists SLT Colombo CLS (SMW4 and Dhiraagu-SLT) as one of five Sri Lanka cable landing stations connected to the SLT Welikada international backhaul hub. Counted as cable/critical facility, not commercial datacenter; no colocation service source.",
+  "method_batch": true
+}

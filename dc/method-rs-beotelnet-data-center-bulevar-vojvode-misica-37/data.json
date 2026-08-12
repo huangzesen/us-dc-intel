@@ -1,0 +1,22 @@
+{
+  "slug": "method-rs-beotelnet-data-center-bulevar-vojvode-misica-37",
+  "canonical_project": "BeotelNet Data Center (Bulevar Vojvode Misica 37)",
+  "owner": "BeotelNet-ISP d.o.o. (VeratNet merged)",
+  "location": {
+    "city": "",
+    "subnational": "Belgrade",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/beotelnet/",
+    "https://www.peeringdb.com/fac/15827",
+    "https://www.beotel.net/onama/kontakt"
+  ],
+  "notes": "RATEL list entry at Bulevar Vojvode Misica 37; active facility, VeratNet merged into BeotelNet operations; directory/PeeringDB corroboration.",
+  "method_batch": true
+}

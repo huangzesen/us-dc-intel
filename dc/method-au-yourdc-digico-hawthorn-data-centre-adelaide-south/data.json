@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-yourdc-digico-hawthorn-data-centre-adelaide-south",
+  "canonical_project": "YourDC/DigiCo Hawthorn Data Centre (Adelaide south)",
+  "owner": "YourDC / iSeek / DigiCo Infrastructure REIT",
+  "location": {
+    "city": "",
+    "subnational": "South Australia - Mitcham",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://contractingsite.com.au/timelapse-video-of-yourdc-hawthorn-data-centre-upgrade/",
+    "https://baxtel.com/data-center/digico-adelaide-adl1",
+    "https://yourdc.com.au/uploads/Documents/YourDC_ADL2_EDPK.pdf"
+  ],
+  "notes": "Legacy Adelaide colocation facility in Hawthorn suburb (City of Mitcham LGA). YourDC operated two Adelaide facilities (Edinburgh Parks north + Hawthorn south); Hawthorn facility upgraded c.2021-22; ownership chain YourDC -> iseek (2022) -> DigiCo Infrastructure REIT. Capacity not disclosed in cited sources; LGA inferred from Hawthorn suburb - verify against council DA register.",
+  "method_batch": true
+}

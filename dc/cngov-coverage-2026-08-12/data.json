@@ -1,0 +1,24 @@
+{
+  "slug": "cngov-coverage-2026-08-12",
+  "canonical_project": "coverage-吉林-2026-08-12",
+  "owner": "",
+  "location": {
+    "city": "",
+    "subnational": "Jilin",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "coverage",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://jldrc.jl.gov.cn/xxgk/zdly/zdjsxm/jggs/",
+    "https://jldrc.jl.gov.cn/fgdt/jldt/202607/t20260720_3650443.html",
+    "https://sthjt.jl.gov.cn/",
+    "http://tzxm.jl.gov.cn/portalopenPublicInformation.do?method=queryExamineAll",
+    "https://zwfw.jl.gov.cn/jlszwfw/qjd/fgfw/"
+  ],
+  "notes": "本次核查管线：(1)吉林省发改委官网 jldrc.jl.gov.cn（注：fgw.jl.gov.cn 域名不存在/不可解析，正确域名为 jldrc.jl.gov.cn）——重大建设项目核准批复专栏(zdjsxm/jggs)近期全为风电/电网等项目，未出现数据中心/智算中心核准件，因吉林数据中心多为市级备案类项目，不进入省级核准公示；(2)省生态环境厅 sthjt.jl.gov.cn 环评审批/公开公示栏目未检索到数据中心类受理或批复；(3)吉林投资项目在线审批监管平台 tzxm.jl.gov.cn 信息公开查询超时未果；(4)DDG web 检索（site:jl.gov.cn 数据中心 节能审查、长春 智算中心 备案 机架、吉林 数据中心 环评 批复、长春算力中心 等）未返回新项目文件。政策信号：省发改委2026-07-20在白城市召开“全省零碳园区谋划建设算力设施工作推进会”，作“两高”联合评估论证与节能降碳审查评价政策解读，要求优先在零碳园区建设绿色算力中心——指向白城市规划期算力项目，尚无已备案单体项目。建议下一步核查：长春市发改委(drc.changchun.gov.cn)备案公示、长春新区管委会公告、吉林祥云（省政务云）与三大运营商长春IDC的环评登记表备案库(beian.china-eia.com)。 [province=吉林]",
+  "cn_gov_batch": true
+}

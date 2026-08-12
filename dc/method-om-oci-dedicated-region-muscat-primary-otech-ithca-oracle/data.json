@@ -1,0 +1,22 @@
+{
+  "slug": "method-om-oci-dedicated-region-muscat-primary-otech-ithca-oracle",
+  "canonical_project": "OCI Dedicated Region - Muscat primary (Otech / ITHCA / Oracle)",
+  "owner": "Otech (Omantel) / ITHCA Group / Oracle",
+  "location": {
+    "city": "",
+    "subnational": "Muscat",
+    "country": "Oman",
+    "country_code": "OM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://otech.om/media-room/news-room/aks3z17sny1js3nrqaojp113",
+    "https://www.oracle.com/middleeast/cloud/cloud-at-customer/dedicated-region/faq/",
+    "https://www.linkedin.com/posts/samia-majdi-709888177_oracle-oraclemorocco-oracleagadir-activity-7265104010947317760-c-Ya"
+  ],
+  "notes": "OCI Dedicated Region primary in Muscat (Otech/ITHCA/Oracle); dedicated/sovereign cloud infrastructure, not a generic public OCI region. Host facility is ODP/Otech Muscat infrastructure; separate from public cloud regions. Available/operational per operator.",
+  "method_batch": true
+}

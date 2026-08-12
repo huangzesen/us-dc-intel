@@ -1,0 +1,22 @@
+{
+  "slug": "method-ro-nxdata-1-bucharest-buh1",
+  "canonical_project": "NXDATA-1 Bucharest (BUH1)",
+  "owner": "NXDATA",
+  "location": {
+    "city": "",
+    "subnational": "Bucuresti",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 2.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.cloud.google.com/network-connectivity/docs/interconnect/concepts/choosing-colocation-facilities",
+    "https://nxdata.ro/",
+    "https://cloudscene.com/data-center/romania/bucharest/nxdata-nxdata-1"
+  ],
+  "notes": "8 Dimitrie Pompeiu Blvd, Bucharest; Google Cloud Interconnect facility 'NXDATA-1 Bucharest Romania (BU1)'; 27,500 sqft raised floor, 2.5 MW power, ISO 27001/9001; densest interconnection/peering hub in SE Europe.",
+  "method_batch": true
+}

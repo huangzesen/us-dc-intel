@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-equinix-tokyo-ibx-ty1-ty2-ty3-ty11-ty12x-ty13x-ty15",
+  "canonical_project": "Equinix Tokyo IBX (TY1/TY2/TY3/TY11/TY12x/TY13x/TY15)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Tokyo",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/japan-colocation/tokyo-data-centers"
+  ],
+  "notes": "Official Equinix page lists 14 Tokyo data centers including TY12x/TY13x xScale hyperscale sites across Tokyo wards; Baxtel counts 139 facilities in the Tokyo metro.",
+  "method_batch": true
+}

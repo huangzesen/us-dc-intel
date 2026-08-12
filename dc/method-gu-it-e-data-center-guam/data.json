@@ -1,0 +1,21 @@
+{
+  "slug": "method-gu-it-e-data-center-guam",
+  "canonical_project": "IT&E Data Center (Guam)",
+  "owner": "IT&E (PTI Pacifica)",
+  "location": {
+    "city": "",
+    "subnational": "Guam",
+    "country": "Guam",
+    "country_code": "GU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://shop.ite.net/business/data-services/",
+    "https://baxtel.com/data-center/it-e-guam"
+  ],
+  "notes": "IT&E official data services page states co-location and hosting services (A-grade service evidence per GU methodology baseline verified 2026-08-12; direct page fetch failed in this run). Single physical facility details (address/capacity) pending cross-check with operator/directories - Baxtel (C) lists IT&E Guam as a data center.",
+  "method_batch": true
+}

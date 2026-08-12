@@ -1,0 +1,20 @@
+{
+  "slug": "method-it-nexim-colocation-genova",
+  "canonical_project": "Nexim colocation Genova",
+  "owner": "Nexim Italia",
+  "location": {
+    "city": "",
+    "subnational": "Liguria",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://nexim.it/datacenter-a-genova/"
+  ],
+  "notes": "Operator marketing page for colocation in Genoa (Liguria). Equinix brings 2Africa subsea cable to Genoa and Milan (Dgtl Infra) - landing/edge presence rather than a colo facility; no facility-grade public record surfaced this round.",
+  "method_batch": true
+}

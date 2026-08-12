@@ -1,0 +1,22 @@
+{
+  "slug": "method-ir-mci-tabriz-regional-data-center-largest-west-northwest-iran",
+  "canonical_project": "MCI Tabriz regional data center (largest west/northwest Iran)",
+  "owner": "Mobile Telecommunication Company of Iran (Hamrah-e Aval / MCI)",
+  "location": {
+    "city": "",
+    "subnational": "East Azerbaijan",
+    "country": "Iran, Islamic Republic of",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-06-28",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ict.gov.ir/fa/newsagency/24406/",
+    "https://www.mehrnews.com/news/4960536/%D8%A8%D8%B2%D8%B1%DA%AF%D8%AA%D8%B1%DB%8C%D9%86-%D9%85%D8%B1%DA%A9%D8%B2-%D8%AF%D8%A7%D8%AF%D9%87-%D8%BA%D8%B1%D8%A8-%D9%88-%D8%B4%D9%85%D8%A7%D9%84-%D8%BA%D8%B1%D8%A8-%DA%A9%D8%B4%D9%88%D8%B1-%D8%AF%D8%B1-%D8%AA%D8%A8%D8%B1%DB%8C%D8%B2-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%D8%B4%D8%AF",
+    "https://mci.ir/news/-/view/926440"
+  ],
+  "notes": "ICT ministry page states MCI opened the largest west/northwest datacenter in Tabriz: 3,000 sq m technical area, 250 racks expandable to 350, 1,500 physical servers, 16,000 virtual servers, supporting cloud, network resilience and IX connectivity. Official opening Jun 2020 (A); current operating status should be re-confirmed with MCI.",
+  "method_batch": true
+}

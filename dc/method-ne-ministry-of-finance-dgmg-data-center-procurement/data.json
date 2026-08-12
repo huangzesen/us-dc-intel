@@ -1,0 +1,20 @@
+{
+  "slug": "method-ne-ministry-of-finance-dgmg-data-center-procurement",
+  "canonical_project": "Ministry of Finance (DGMG) data center procurement",
+  "owner": "Government of Niger - Direction Générale de la Modernisation de la Gestion (DGMG); awarded to Groupe BASSID SERVICES",
+  "location": {
+    "city": "",
+    "subnational": "Niamey",
+    "country": "Niger",
+    "country_code": "NE"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.marchespublics.ne/"
+  ],
+  "notes": "Government internal data center line: NE methodology records official procurement plan P_MF_2022_5 (server-room shell, internal cabling, IT equipment, pilot room) with provisional award TR_DGMG_034 dated 2021-07-27 to Groupe BASSID SERVICES on the national procurement portal marchespublics.ne (portal re-verified reachable 2026-08-12; the specific 2021 tender page is not directly re-fetched). Location most likely Niamey (central government procurement); operational status and precise address unverified (U). Recorded as government internal DC, not commercial colocation.",
+  "method_batch": true
+}

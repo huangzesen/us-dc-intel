@@ -1,0 +1,22 @@
+{
+  "slug": "method-tr-vodafone-ankara-veri-merkezi-mevcut-kapasite-artisi",
+  "canonical_project": "Vodafone Ankara Veri Merkezi (mevcut + kapasite artisi)",
+  "owner": "Vodafone Turkiye",
+  "location": {
+    "city": "",
+    "subnational": "Ankara",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-06-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.aa.com.tr/tr/bilim-teknoloji/turkiye-veri-merkezlerinde-bolgesel-us-olacak-dijital-ekonominin-kalbi-anadoluda-atacak/3976280",
+    "https://www.dunya.com/sirketler/izmir-ve-ankaraya-veri-icin-115-milyon-dolar-haberi-778830",
+    "https://www.turkiyegazetesi.com.tr/ekonomi/vodafonedan-turkiyeye-iki-dev-veri-merkezi-1600494"
+  ],
+  "notes": "AA (Feb 2024) confirms Vodafone operates a data center in Ankara; Dunya Gazetesi and Turkiye Gazetesi report capacity-expansion investment at the Ankara facility (~USD 19m per Turkiye Gazetesi); press also reports Vodafone preparing two new data centers (Istanbul and Ankara) after the 5G tender. No MW figure published.",
+  "method_batch": true
+}

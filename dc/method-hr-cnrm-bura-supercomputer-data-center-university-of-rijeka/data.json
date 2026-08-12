@@ -1,0 +1,20 @@
+{
+  "slug": "method-hr-cnrm-bura-supercomputer-data-center-university-of-rijeka",
+  "canonical_project": "CNRM Bura supercomputer data center, University of Rijeka",
+  "owner": "Center for Advanced Computing and Modelling (CNRM), University of Rijeka",
+  "location": {
+    "city": "",
+    "subnational": "Primorje-Gorski Kotar",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": 0.25,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cnrm.uniri.hr/hr/data-center/"
+  ],
+  "notes": "Official university page: 100 m2 data center room housing the Bura supercomputer with 250 kW installed power supply; academic HPC facility in Rijeka (Primorje-Gorski Kotar County).",
+  "method_batch": true
+}

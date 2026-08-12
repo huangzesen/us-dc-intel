@@ -1,0 +1,20 @@
+{
+  "slug": "method-cn-zenlayer-she1-shenyang-1-data-center",
+  "canonical_project": "Zenlayer SHE1 / Shenyang-1 Data Center",
+  "owner": "Zenlayer",
+  "location": {
+    "city": "",
+    "subnational": "Liaoning - Shenyang Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/datacenters/apac/china/shenyang"
+  ],
+  "notes": "Edge/colo point at 2 Kun Shan Zhong Lu 43 Xiang; Zenlayer announced multiple mainland China locations incl. Shenyang.",
+  "method_batch": true
+}

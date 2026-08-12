@@ -1,0 +1,22 @@
+{
+  "slug": "method-et-eca-data-center-hosting-service-provider-licensing-regime",
+  "canonical_project": "ECA Data Center/Hosting Service Provider licensing regime",
+  "owner": "Ethiopian Communications Authority (regulatory)",
+  "location": {
+    "city": "",
+    "subnational": "Addis Ababa",
+    "country": "Ethiopia",
+    "country_code": "ET"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.eca.et/",
+    "https://zeal-api.zealtt.com/media/10/Telecommunications-Licencing-Directive-No.792:2021.pdf",
+    "https://www.alehig.com/ethiopian-communications-authority-introduces-new-license-fees-for-internet-and-telecom-service-providers/"
+  ],
+  "notes": "Regulatory context (not a physical facility): ECA services page and Telecommunications Licensing Directive No. 792/2021 define Data Center Service Provider License and Hosting Service Provider License categories - the official licensing route for Ethiopian colo/hosting operators.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-lk-matara-cable-landing-station-smw5-smw6-iax",
+  "canonical_project": "Matara Cable Landing Station (SMW5 / SMW6 / IAX)",
+  "owner": "Sri Lanka Telecom PLC (SMW5/SMW6); Dialog Axiata (IAX Sri Lanka portion)",
+  "location": {
+    "city": "",
+    "subnational": "Southern Province",
+    "country": "Sri Lanka",
+    "country_code": "LK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/stations/asia/sri-lanka/matara",
+    "https://www.lankabusinessonline.com/slt-gets-full-landing-status-for-sea-me-we-5-in-matara/",
+    "https://opportunitysrilanka.com/slt-mobitel-completes-sea-me-we-6-submarine-cable-landing-in-matara/",
+    "https://www.datacenterdynamics.com/en/news/sri-lankan-portion-of-india-asia-xpress-subsea-cable-now-operational/"
+  ],
+  "notes": "Cable/critical infrastructure: Matara CLS at Browns Hill, Matara (Southern Province) is the only verified non-Western cable landing station - SLT full landing status for SEA-ME-WE 5 (B), SEA-ME-WE 6 landed 29 Dec 2024 (B), and the India-Asia-Xpress (IAX) Sri Lankan portion landing at Matara managed by Dialog Axiata is operational per DCD (B). Cable facility, not commercial datacenter.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-ch-etat-du-valais-data-center-sierre",
+  "canonical_project": "Etat du Valais data center (Sierre)",
+  "owner": "Etat du Valais (canton)",
+  "location": {
+    "city": "",
+    "subnational": "Valais",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.wirtschaftsregister.ch/ausschreibung.cfm?key=1315367"
+  ],
+  "notes": "Public tender (2023-02-17) for new construction including a second computing centre (centre de calcul) in Sierre ensuring continuity of the main Sion facility; public-sector DR infrastructure.",
+  "method_batch": true
+}

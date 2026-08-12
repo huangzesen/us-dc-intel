@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-kyndryl-takamatsu-data-center",
+  "canonical_project": "Kyndryl Takamatsu Data Center",
+  "owner": "Kyndryl",
+  "location": {
+    "city": "",
+    "subnational": "Kagawa",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/kyndryl-takamatsu"
+  ],
+  "notes": "Aggregator listing (Baxtel) of an enterprise facility in Takamatsu, Kagawa; not re-verified against an operator page in this pass. Treat as lead.",
+  "method_batch": true
+}

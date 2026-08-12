@@ -1,0 +1,22 @@
+{
+  "slug": "method-dz-icosnet-algiers-data-center-cheraga",
+  "canonical_project": "ICOSNET Algiers DATA CENTER (Cheraga)",
+  "owner": "ICOSNET",
+  "location": {
+    "city": "",
+    "subnational": "Alger",
+    "country": "Algeria",
+    "country_code": "DZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://icosnet.com.dz/",
+    "https://icosnet.com.dz/entreprise/data-center/",
+    "https://www.datacentermap.com/algeria/cheraga/icosnet-dc1/"
+  ],
+  "notes": "ICOSNET official page (A) states the operator runs two secure local data centers in Algeria; Data Center Map (C) places the Algiers DC at Centre commercial El-Qods, 6th level central tower, Cheraga; facility-level specifics not published on official page - overall B.",
+  "method_batch": true
+}

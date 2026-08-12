@@ -1,0 +1,21 @@
+{
+  "slug": "method-rs-ipko-data-center-fushe-kosove-backup-ulpiana-pristina",
+  "canonical_project": "IPKO Data Center (Fushe Kosove, backup Ulpiana/Pristina)",
+  "owner": "IPKO",
+  "location": {
+    "city": "",
+    "subnational": "Kosovo-Metohija",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ipko.com/en/private/data-center/",
+    "https://www.ipko.com/en/business/server-colocation/"
+  ],
+  "notes": "Official IPKO pages describe data center in industrial area of Fushe Kosove with backup in Ulpiana/Pristina. JURISDICTION NOTE: sources identify facility as Kosovo, not Serbian administration; mapped to manifest division Kosovo-Metohija for schema compatibility. Page fetch failed during this run; per country methodology verification.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-kakinada-smart-city-integrated-command-and-control-centre-data-centre-network",
+  "canonical_project": "Kakinada Smart City Integrated Command and Control Centre data centre network",
+  "owner": "Kakinada Smart City Corporation Limited / STL",
+  "location": {
+    "city": "",
+    "subnational": "Andhra Pradesh - Kakinada",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://stl.tech/case-study/building-a-next-generation-data-center-network-for-kakinada-smart-city-kakinada-andhra-pradesh/",
+    "https://smartnet.niua.org/3-a71b6572-9aa5-43fc-b463-c0addeb9e018"
+  ],
+  "notes": "STL case study: deployed smart-city network with 120 km optical fibre backbone, MPLS and ICCC data centre network for Kakinada Smart City. Civic/edge infrastructure, not hyperscale colocation.",
+  "method_batch": true
+}

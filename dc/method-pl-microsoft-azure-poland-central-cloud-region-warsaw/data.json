@@ -1,0 +1,21 @@
+{
+  "slug": "method-pl-microsoft-azure-poland-central-cloud-region-warsaw",
+  "canonical_project": "Microsoft Azure Poland Central cloud region (Warsaw)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/europe/2023/04/26/microsoft-launches-its-first-datacenter-region-in-poland-bringing-new-opportunities-to-develop-the-digital-economy/",
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list"
+  ],
+  "notes": "Azure Poland Central (polandcentral) region in the Warsaw area, launched 2023-04-26; Microsoft says the region has three independent physical locations around Warsaw. A for logical region existence; exact physical facilities require permit/operator evidence (C).",
+  "method_batch": true
+}

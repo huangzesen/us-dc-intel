@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-reliance-jamnagar-hyperscale-ai-data-centre-campus-reported-up-to-3-gw-world-s-l",
+  "canonical_project": "Reliance Jamnagar hyperscale AI data centre campus (reported up to 3 GW, 'world's largest')",
+  "owner": "Reliance Industries Limited",
+  "location": {
+    "city": "",
+    "subnational": "Gujarat - Jamnagar",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 3000.0,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://economictimes.indiatimes.com/topic/ambani-jamnagar-plans",
+    "https://www.datacenterdynamics.com/en/news/ambani-claims-to-be-building-worlds-largest-data-center-in-gujarat-india/"
+  ],
+  "notes": "RIL public claims to build world's largest data centre at Jamnagar (reported 3 GW, ~5x Microsoft's biggest site; NVIDIA Blackwell partnership reported). No official filing/EC yet; treat as planned_full_buildout ambition until land/CTE/EPC evidence.",
+  "method_batch": true
+}

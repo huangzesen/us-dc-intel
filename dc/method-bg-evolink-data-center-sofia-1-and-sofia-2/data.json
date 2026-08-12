@@ -1,0 +1,21 @@
+{
+  "slug": "method-bg-evolink-data-center-sofia-1-and-sofia-2",
+  "canonical_project": "Evolink Data Center Sofia 1 and Sofia 2",
+  "owner": "Evolink",
+  "location": {
+    "city": "",
+    "subnational": "Sofia (stolitsa)",
+    "country": "Bulgaria",
+    "country_code": "BG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.evolink.com/bul/about/evolink-data-center",
+    "https://www.evolink.com/services/colocation/evolink-datacenter-sofia-2"
+  ],
+  "notes": "Evolink official page states it built and operates four data centers in Sofia, Plovdiv and Varna, with Sofia 2 the newest carrier-neutral facility; Sofia 1 and Sofia 2 are BIX peering facilities per PeeringDB.",
+  "method_batch": true
+}

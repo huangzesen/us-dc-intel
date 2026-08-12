@@ -1,0 +1,22 @@
+{
+  "slug": "method-lt-telecentras-vdc4-state-data-center-paliepiu-g",
+  "canonical_project": "Telecentras VDC4 (state data center, Paliepiu g.)",
+  "owner": "Telecentras (AB Lietuvos radijo ir televizijos centras); builders Agentus + KV Baltic",
+  "location": {
+    "city": "",
+    "subnational": "Vilnius County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.lrt.lt/naujienos/verslas/4/2394192/vilniuje-atidaryti-duomenu-centrai-neturi-teisines-bazes-vienas-ju-oficialiai-nebaigtas",
+    "https://citify.eu/lrtc-duomenu-centras-dc4/",
+    "https://telecentras.lt/paslaugu-kategorija/duomenu-centro-it/"
+  ],
+  "notes": "Second new state DC, on Paliepiu g. 3 (Rasos district) near Vilnius airport; construction 2022 Q4-2024, completion act issued early Sept 2024; as of Oct 2024 could not serve clients pending Government resolution on services/pricing; Tier III certificate now granted (VDC3+VDC4 certified per Telecentras page). ~150 of ~300 combined state-DC racks.",
+  "method_batch": true
+}

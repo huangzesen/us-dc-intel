@@ -1,0 +1,22 @@
+{
+  "slug": "method-ae-pure-data-centres-abu-dhabi-yas-island",
+  "canonical_project": "Pure Data Centres Abu Dhabi (Yas Island)",
+  "owner": "Pure Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Abu Dhabi - Abu Dhabi Municipality",
+    "country": "United Arab Emirates",
+    "country_code": "AE"
+  },
+  "capacity_mw": 4.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pure-dc.com/locations/abu-dhabi/",
+    "https://puredc.com/2025/03/11/jll-appointed-by-pure-dc-as-fm-operator-at-new-abu-dhabi-data-centre",
+    "https://www.datacenterdynamics.com/en/news/pure-dc-launches-abu-dhabi-data-center/"
+  ],
+  "notes": "Pure DC location page plus operator news (2025-03-11) confirm the Abu Dhabi/Yas Island data centre with JLL appointed as FM operator; DCD reported the 4 MW first phase launched in 2024 with later planning filings for a second 48 MW facility on Yas Island. Capacity field records the operational first phase.",
+  "method_batch": true
+}

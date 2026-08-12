@@ -1,0 +1,20 @@
+{
+  "slug": "method-ye-national-information-center-nic-national-data-systems-yemennic-net",
+  "canonical_project": "National Information Center (NIC) national data systems (yemennic.net)",
+  "owner": "National Information Center (Yemen)",
+  "location": {
+    "city": "",
+    "subnational": "Sanaa City",
+    "country": "Yemen",
+    "country_code": "YE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://yemennic.net/"
+  ],
+  "notes": "Control side: Sana'a/Ansar Allah variant of the dual NIC (an IRG-side successor/mirror is tracked separately). NIC builds and manages the national information system, databases and government data services (A for institutional data-hosting role; physical facility B/C - no server-room/data-center page found this run). Portal live 2026-08-12. Not commercial colocation.",
+  "method_batch": true
+}

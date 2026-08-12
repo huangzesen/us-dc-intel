@@ -1,0 +1,21 @@
+{
+  "slug": "method-sg-equinix-sg3",
+  "canonical_project": "Equinix SG3",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Central Singapore",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://blog.equinix.com/blog/2015/03/16/equinix-sg3-in-singapore-asias-interconnection-port/",
+    "https://www.datacentermap.com/singapore/singapore/equinix-sg3/"
+  ],
+  "notes": "Equinix SG3 at 26A Ayer Rajah Crescent; largest Equinix data center in Asia-Pacific at opening (2015, ~35,000 m2 colocation space, ~5,000 cabinets at full build-out). Same Ayer Rajah campus as SG1; Central Singapore CDC (division_check_needed).",
+  "method_batch": true
+}

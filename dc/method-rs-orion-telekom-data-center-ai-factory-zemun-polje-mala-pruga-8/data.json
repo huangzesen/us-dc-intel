@@ -1,0 +1,23 @@
+{
+  "slug": "method-rs-orion-telekom-data-center-ai-factory-zemun-polje-mala-pruga-8",
+  "canonical_project": "Orion Telekom Data Center / AI Factory (Zemun Polje, Mala pruga 8)",
+  "owner": "Orion Telekom d.o.o.",
+  "location": {
+    "city": "",
+    "subnational": "Belgrade",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://oriontelekom.rs/",
+    "https://orionfactory.ai/",
+    "https://www.datacentermap.com/serbia/belgrade/oriontelekom-datacenter/",
+    "https://baxtel.com/data-center/cetin-belgrade"
+  ],
+  "notes": "Tier-3 certified facility (Schneider Electric design, Enel-PS build), green energy, racks 8 kW+; sovereign AI Factory with NVIDIA DGX Blackwell per operator pages.",
+  "method_batch": true
+}

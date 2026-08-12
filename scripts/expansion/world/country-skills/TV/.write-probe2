@@ -1,0 +1,17 @@
+# [DRAFT] TV Explorer Official — 图瓦卢官方渠道数据中心枚举方法（政府 / 电信 / 电力 / 登陆站 / 采购）
+
+状态：**DRAFT 草稿（未终审）**。Date: 2026-08-12. Scope: Tuvalu (TV). Repo divisions: **Funafuti**, **Niutao**, **Nukufetau**, **Nukulaelae**, **Nanumea**, **Nanumaga**, **Nui**, **Vaitupu**。
+
+可靠性分级：**A** = 官方/一手来源（政府门户与部委、国企运营者官方页面、捐资方项目文件、官方云区域页、PeeringDB 互联事实）；**B** = 指名运营者/站点/状态的强二级或行业来源；**C** = 弱目录、市场报告、社交帖、推广文，仅作线索；**U** = 无法核验/传言。规则：条目的等级只覆盖该来源实际支持的事实；同一项目可以有 A 级的存在证据与 B/C 级的容量或时间线证据。
+
+本文为草稿方法层：所列 URL 多为检索入口与种子链接，凡未在本轮逐条核验活链的均标注「待核 / manual-check lead」，不得当作设施证据。
+
+---
+
+## 0. 图瓦卢结构性事实 / Tuvalu structural facts
+
+- 图瓦卢是英联邦内的议会制君主立宪制微型岛国，人口约 1.1 万，由 9 个有人环礁/岛屿组成；首都为富纳富提 Funafuti（政府中心 Vaiaku，位于 Fongafale 环礁岛）。官方语言为**图瓦卢语与英语**；政府、电信、捐资方文件通常以英语发布。
+
+```text
+site:gov.tv ("data center" OR "data centre" OR datacenter OR "server" OR "cloud" OR tender OR procurement OR "cable")
+```

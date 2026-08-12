@@ -1,0 +1,21 @@
+{
+  "slug": "method-bw-orange-botswana-data-center",
+  "canonical_project": "Orange Botswana Data Center",
+  "owner": "Orange Botswana",
+  "location": {
+    "city": "",
+    "subnational": "Gaborone",
+    "country": "Botswana",
+    "country_code": "BW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/orange-business-botswana",
+    "https://www.datacentermap.com/botswana/gaborone/orange-botswana-data-center/"
+  ],
+  "notes": "Aggregator-listed facility at New Lobatse Road, Gaborone; datacenters.com lists ISO 14001/22301/27001 certifications and ~2 MW (aggregator figure, unconfirmed by an operator page in this run); official Orange capacity not verified - C-grade lead.",
+  "method_batch": true
+}

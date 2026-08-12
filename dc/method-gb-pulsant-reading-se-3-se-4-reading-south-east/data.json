@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-pulsant-reading-se-3-se-4-reading-south-east",
+  "canonical_project": "Pulsant Reading SE-3 / SE-4 (Reading South/East)",
+  "owner": "Pulsant",
+  "location": {
+    "city": "",
+    "subnational": "England - Reading",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 2.8,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.pulsant.com/colocation-reading-south-datacentre",
+    "https://www.pulsant.com/colocation-reading-east-datacentre",
+    "https://www.datacentermap.com/united-kingdom/berkshire/amito/"
+  ],
+  "notes": "Two colocation facilities in Reading (SE-3 South near M4 J11 with five data halls; SE-4 East); SE-3 directory-listed ~2.8MW; operator official pages confirm operational status.",
+  "method_batch": true
+}

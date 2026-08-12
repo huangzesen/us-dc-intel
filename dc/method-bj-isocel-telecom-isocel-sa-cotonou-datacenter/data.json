@@ -1,0 +1,22 @@
+{
+  "slug": "method-bj-isocel-telecom-isocel-sa-cotonou-datacenter",
+  "canonical_project": "ISOCEL Telecom / ISOCEL SA Cotonou datacenter",
+  "owner": "ISOCEL SA",
+  "location": {
+    "city": "",
+    "subnational": "Littoral",
+    "country": "Benin",
+    "country_code": "BJ"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/isocel-telecom/",
+    "https://isoceltelecom.com/",
+    "https://www.datacenterslist.com/data-centers/isocel-sa-cotonou"
+  ],
+  "notes": "Directory-listed Cotonou data-centre/colocation lead; ISOCEL official site confirms telecom/ISP and ACE subsea connectivity activity (B for operator), but no official DC service page, permit or regulator DC record verified. ISOCEL Telecom / ISOCEL SA treated as the same operator context and deduped.",
+  "method_batch": true
+}

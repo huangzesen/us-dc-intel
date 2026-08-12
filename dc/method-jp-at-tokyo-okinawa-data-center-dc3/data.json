@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-at-tokyo-okinawa-data-center-dc3",
+  "canonical_project": "AT TOKYO Okinawa Data Center (DC3)",
+  "owner": "AT TOKYO",
+  "location": {
+    "city": "",
+    "subnational": "Okinawa",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.attokyo.com/company/datacenter.html"
+  ],
+  "notes": "AT TOKYO official data-center information page lists an Okinawa data center supporting BCP/backup of the Chuo Center campus; existence A-grade, capacity unpublished.",
+  "method_batch": true
+}

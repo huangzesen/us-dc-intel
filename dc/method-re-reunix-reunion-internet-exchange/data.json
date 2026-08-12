@@ -1,0 +1,21 @@
+{
+  "slug": "method-re-reunix-reunion-internet-exchange",
+  "canonical_project": "REUNIX (Réunion Internet Exchange)",
+  "owner": "RENATER",
+  "location": {
+    "city": "",
+    "subnational": "Reunion",
+    "country": "Reunion",
+    "country_code": "RE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://pulse.internetsociety.org/en/ixp-tracker/ixp/219/",
+    "https://www.datacentermap.com/ixp/reunix/"
+  ],
+  "notes": "Active IXP (the only live IXP on the island per ISOC Pulse, 2026-08), hosted at the University of Reunion, Saint-Denis, managed by RENATER; reduces Reunion-metropole link load. IXP/connectivity record, not a DC building.",
+  "method_batch": true
+}

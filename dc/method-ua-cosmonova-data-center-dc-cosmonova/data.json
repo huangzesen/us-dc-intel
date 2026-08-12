@@ -1,0 +1,21 @@
+{
+  "slug": "method-ua-cosmonova-data-center-dc-cosmonova",
+  "canonical_project": "Cosmonova Data Center (DC|COSMONOVA)",
+  "owner": "Cosmonova LLC (BeMobile group)",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv City",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cosmonova.net/en/dc",
+    "https://www.datacentermap.com/ukraine/kiev/cosmonova/"
+  ],
+  "notes": "Per UA methodology: Cosmonova Kyiv data center launched 2013 at Mykoly Hrinchenka St 2/1, block G (datacentermap address, C-grade for location); official cosmonova.net cloud/colo pages confirm DC 'Cosmonova' services. A for operator service existence; location/racks from directory (C).",
+  "method_batch": true
+}

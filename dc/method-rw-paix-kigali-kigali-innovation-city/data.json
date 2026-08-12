@@ -1,0 +1,23 @@
+{
+  "slug": "method-rw-paix-kigali-kigali-innovation-city",
+  "canonical_project": "PAIX Kigali (Kigali Innovation City)",
+  "owner": "PAIX Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "City of Kigali",
+    "country": "Rwanda",
+    "country_code": "RW"
+  },
+  "capacity_mw": 3,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://paix.io/en/locations/kigali",
+    "https://www.datacentermap.com/rwanda/kigali/paix-kigali/",
+    "https://www.peeringdb.com/fac/15731",
+    "https://www.africa50.com/our-funds/projects/paix-data-centers/"
+  ],
+  "notes": "PAIX official location page (paix.io/en/locations/kigali) now lists a Kigali data centre within Kigali Innovation City (~10 km/20 min from Kigali International Airport); aggregators list 3 MW carrier-neutral facility; PeeringDB fac 15731 exists. Official page existence is A for marketing, but no construction/go-live/commissioning evidence verified - keep announced/unknown until PAIX/RDB/RURA or press confirms build/operational status. 3 MW from aggregator listing per methodology.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-hu-invitech-dc10-dataneum-kozma-utca-2",
+  "canonical_project": "Invitech DC10 / Dataneum (Kozma utca 2)",
+  "owner": "Invitech Megoldasok Zrt. / 2Connect (4iG group)",
+  "location": {
+    "city": "",
+    "subnational": "Budapest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": 2.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/invitech/invitech-hungary/invitech-dc10-adatkozpont/",
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/invitech-solutions-dc10iii/883",
+    "https://2connect.hu/adatkozpont"
+  ],
+  "notes": "DatacenterPlatform lists Invitech DC10 at Kozma u. 2, 1108 Budapest (X district); Inflect reports ~2,000 kW capacity; Uptime Institute lists Invitech Solutions DC10-III Budapest. 2Connect (formed from Antenna Hungaria, DIGI, Invitech and Vodafone HU network units) officially claims 6,500+ sqm of data center capacity across 12 sites (3 commercial, 9 telecom). Some directory listings alias DC10 to Budaors; the primary physical address here is Budapest X district.",
+  "method_batch": true
+}

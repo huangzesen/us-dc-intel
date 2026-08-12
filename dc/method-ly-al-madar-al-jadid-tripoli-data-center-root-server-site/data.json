@@ -1,0 +1,22 @@
+{
+  "slug": "method-ly-al-madar-al-jadid-tripoli-data-center-root-server-site",
+  "canonical_project": "Al-Madar Al-Jadid Tripoli data center / root-server site",
+  "owner": "Al-Madar Al-Jadid; General Authority for Communications and Informatics (GACI/CIM)",
+  "location": {
+    "city": "",
+    "subnational": "Tripoli",
+    "country": "Libya",
+    "country_code": "LY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-10-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://libyaherald.com/2025/10/general-authority-for-communications-and-informatics-libya-enters-digital-sovereignty-era-with-official-launch-of-root-servers-in-tripoli-and-benghazi",
+    "https://lptic.ly/our-companies/almadar/",
+    "https://www.libyamonitor.com/news/telecoms-it/al-madar-launches-4g-brak-airport"
+  ],
+  "notes": "Libya Herald (citing GACI) reported root servers operating from Al-Madar Al-Jadid data centres in Tripoli and Benghazi under the 2023-2027 national telecoms strategy; LPTIC confirms Almadar as a Tripoli-based subsidiary. B-grade (strong press citing regulator); edge/root infrastructure rather than commercial colocation.",
+  "method_batch": true
+}

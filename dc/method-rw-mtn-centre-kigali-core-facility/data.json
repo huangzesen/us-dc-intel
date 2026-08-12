@@ -1,0 +1,21 @@
+{
+  "slug": "method-rw-mtn-centre-kigali-core-facility",
+  "canonical_project": "MTN Centre Kigali core facility",
+  "owner": "MTN Rwanda",
+  "location": {
+    "city": "",
+    "subnational": "City of Kigali",
+    "country": "Rwanda",
+    "country_code": "RW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.peeringdb.com/fac/11839",
+    "https://en.igihe.com/business-62/article/mtn-rwanda-launches-5g-network"
+  ],
+  "notes": "MTN Centre Kigali facility on PeeringDB (fac 11839); MTN Rwanda launched 5G June 2025 (Kigali + Kamonyi sites per IGIHE). Telco core/network facility lead - count as datacenter only with hosting/cloud evidence; PeeringDB entry is interconnection metadata (B/C) per methodology.",
+  "method_batch": true
+}

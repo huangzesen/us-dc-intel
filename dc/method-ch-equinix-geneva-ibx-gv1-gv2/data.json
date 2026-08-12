@@ -1,0 +1,22 @@
+{
+  "slug": "method-ch-equinix-geneva-ibx-gv1-gv2",
+  "canonical_project": "Equinix Geneva IBX (GV1 / GV2)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Geneve",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/switzerland-colocation/geneva-data-centers",
+    "https://www.equinix.com/data-centers/europe-colocation/switzerland-colocation",
+    "https://www.datacentermap.com/switzerland/geneva/equinix-geneva/"
+  ],
+  "notes": "Equinix operates five Swiss IBX data centers, two in Geneva: GV1 (Rue de la Confederation 6, Geneva city) and GV2 (Route du Bois-des-Freres 48, Le Lignon); approx. 4,400+ sqm colocation space across the metro; Exoscale hosts Swiss workloads here. Official page A for existence/location; ~1 MW (GV1) per directory C.",
+  "method_batch": true
+}

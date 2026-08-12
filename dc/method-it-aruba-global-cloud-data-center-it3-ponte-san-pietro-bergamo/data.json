@@ -1,0 +1,22 @@
+{
+  "slug": "method-it-aruba-global-cloud-data-center-it3-ponte-san-pietro-bergamo",
+  "canonical_project": "Aruba Global Cloud Data Center IT3, Ponte San Pietro (Bergamo)",
+  "owner": "Aruba S.p.A.",
+  "location": {
+    "city": "",
+    "subnational": "Lombardy",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": 60,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenter.it/en/italy-bergamo-dc-it3/",
+    "https://www.datacenterdynamics.com/en/news/aruba-acquires-two-hydroelectric-power-plants-in-bergamo-italy/",
+    "https://www.datacenters.com/aruba-it-it3-italy"
+  ],
+  "notes": "Aruba's flagship 200,000 m2 campus in Ponte San Pietro (BG), 'largest data center campus in Italy': buildings DC-A, DC-B, DC-C (DC-B/DC-C inaugurated Dec 2022 with on-site PV), Tier IV design, 60 MW power per directory. Aruba acquired two hydroelectric plants in Bergamo province (2023) to power the campus. Capacity figure is directory/operator-stated total campus power.",
+  "method_batch": true
+}

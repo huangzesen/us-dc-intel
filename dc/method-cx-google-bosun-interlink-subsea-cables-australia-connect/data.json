@@ -1,0 +1,21 @@
+{
+  "slug": "method-cx-google-bosun-interlink-subsea-cables-australia-connect",
+  "canonical_project": "Google Bosun + interlink subsea cables (Australia Connect)",
+  "owner": "Google (Global Network Infrastructure), with Vocus/NEXTDC/SUBCO partners",
+  "location": {
+    "city": "",
+    "subnational": "Christmas Island",
+    "country": "Christmas Island",
+    "country_code": "CX"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2024-11-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/blog/products/infrastructure/bosun-australia-connect-initiative-for-indo-pacific-connectivity",
+    "https://epbcpublicportal.environment.gov.au/all-referrals/project-referral-summary/?id=b532fd88-ca9d-f011-bbd2-002248115f4f"
+  ],
+  "notes": "sub_location Flying Fish Cove (direct beach landing at both Flying Fish Cove sites per EPBC referral 2025/10313 'Subsea Fibre Optic Data Cable Systems Installation - Australia West'). Google official (2024-11-26): Bosun cable connects Darwin to Christmas Island with onward connectivity to Singapore; interlink cable connects Melbourne, Perth and Christmas Island. EPBC referral (status: Referral Decision Made) covers cable systems/landings at Madora Bay WA, Flying Fish Cove CX, Darwin NT; cable installation scheduled from Feb 2026 (10-12 months). COUNTED AS PLANNED CABLE/LANDING PROJECT - connectivity infrastructure, not a data centre approval.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-nz-tenpeaks-waikato-data-centre-hamilton",
+  "canonical_project": "TenPeaks Waikato data centre (Hamilton)",
+  "owner": "TenPeaks / Spark Business Group",
+  "location": {
+    "city": "",
+    "subnational": "Waikato",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://tenpeaks.co.nz/our-data-centres/",
+    "https://www.datacentermap.com/new-zealand/hamilton/spark-waikato/"
+  ],
+  "notes": "Waikato/Hamilton facility in TenPeaks portfolio; directory identifies Spark Waikato. Capacity not disclosed.",
+  "method_batch": true
+}

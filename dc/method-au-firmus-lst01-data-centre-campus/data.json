@@ -1,0 +1,20 @@
+{
+  "slug": "method-au-firmus-lst01-data-centre-campus",
+  "canonical_project": "Firmus LST01 data centre campus",
+  "owner": "Firmus Technologies",
+  "location": {
+    "city": "",
+    "subnational": "Tasmania - Launceston",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2022-01-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/powerhouse-ventures-invests-in-tasmanian-data-center-firm-firmus/"
+  ],
+  "notes": "20MW colocation/HPC data centre in Launceston (potential up to 40MW); immersion liquid cooling up to 100kW/rack, PUE ~1.03, renewable-powered; grid demand-response via DRADIS. A second 20MW hall (LST02) was planned at the same campus (target mid-2022 per source); status of LST02 not re-verified (grade B, DCD).",
+  "method_batch": true
+}

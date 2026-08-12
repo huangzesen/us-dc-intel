@@ -1,0 +1,22 @@
+{
+  "slug": "method-bw-btc-sentlhaga-data-center",
+  "canonical_project": "BTC Sentlhaga Data Center",
+  "owner": "Botswana Telecommunications Corporation (BTC)",
+  "location": {
+    "city": "",
+    "subnational": "Gaborone",
+    "country": "Botswana",
+    "country_code": "BW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://btc.bw/business/sentlhaga-data-center/",
+    "https://www.datacentermap.com/botswana/gaborone/sentlhaga-data-center/",
+    "https://www.thegazette.news/business-2/btc-introduces-super-fast-high-speed-internet/"
+  ],
+  "notes": "Tier II, Uptime-certified; first certified data centre in Botswana; ~120 sqm DC floor, ~52 racks per Botswana Gazette; 5 kW/rack; hosts BTC Cloud Connect (Microsoft 365 resale is service evidence only, not a Microsoft facility).",
+  "method_batch": true
+}

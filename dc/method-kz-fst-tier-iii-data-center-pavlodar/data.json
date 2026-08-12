@@ -1,0 +1,20 @@
+{
+  "slug": "method-kz-fst-tier-iii-data-center-pavlodar",
+  "canonical_project": "FST Tier III data center (Pavlodar)",
+  "owner": "FST (fst.kz)",
+  "location": {
+    "city": "",
+    "subnational": "Pavlodar",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://fst.kz/datacenter/pavlodar-data-center"
+  ],
+  "notes": "Operator page: certified Tier III DC in Pavlodar, 99.982% availability; specs limited. New discovery this run.",
+  "method_batch": true
+}

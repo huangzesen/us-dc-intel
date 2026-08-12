@@ -1,0 +1,21 @@
+{
+  "slug": "method-lt-bacloud-dc-siauliai",
+  "canonical_project": "Bacloud DC (Siauliai)",
+  "owner": "UAB Bacloud",
+  "location": {
+    "city": "",
+    "subnational": "Siauliai County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bacloud.com/en/our-datacenter/lithuania",
+    "https://www.bacloud.com/lt/duomenu-centras/lietuva"
+  ],
+  "notes": "Main Bacloud data center in Siauliai, Pramones g. 15, LT-78137 (address from operator/registry); running since 2006; building-inside-building design. Operator page A; precise building permit still via Infostatyba.",
+  "method_batch": true
+}

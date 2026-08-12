@@ -1,0 +1,21 @@
+{
+  "slug": "method-fr-global-switch-paris-east-west-clichy",
+  "canonical_project": "Global Switch Paris East & West (Clichy)",
+  "owner": "Global Switch",
+  "location": {
+    "city": "",
+    "subnational": "Hauts-de-Seine",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 34,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.globalswitch.com/data-centres/paris/",
+    "https://www.datacenters.com/global-switch-paris-east"
+  ],
+  "notes": "Global Switch carrier-neutral campus at 7-9 Rue Petit, Clichy-Levallois (Hauts-de-Seine), between Paris financial district and La Défense; Paris East ~375,000 sq ft with 22-34 MW power (aggregator figures vary: 22 MW datacentermap, 27 MW datacenters.com, 34 MW ocolo); Paris West adjacent. Hosts Google Cloud Paris-region capacity per industry reports (LMI).",
+  "method_batch": true
+}

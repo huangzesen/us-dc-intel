@@ -1,0 +1,22 @@
+{
+  "slug": "method-fi-hetzner-data-center-park-helsinki-tuusula",
+  "canonical_project": "Hetzner Data Center Park Helsinki (Tuusula)",
+  "owner": "Hetzner Finland",
+  "location": {
+    "city": "",
+    "subnational": "Uusimaa",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.hetznerfinland.com/",
+    "https://www.hetzner.com/pressroom/five-years-helsinki/",
+    "https://www.datacentermap.com/finland/"
+  ],
+  "notes": "Hetzner operates its Finnish data center park in Tuusula (Data Center Park Helsinki) - methodology seed; not re-verified in depth this pass (grade B).",
+  "method_batch": true
+}

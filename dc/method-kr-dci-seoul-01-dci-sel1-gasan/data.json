@@ -1,0 +1,22 @@
+{
+  "slug": "method-kr-dci-seoul-01-dci-sel1-gasan",
+  "canonical_project": "DCI Seoul 01 (DCI SEL1, Gasan)",
+  "owner": "DCI Data Centers / Daelim JV",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Geumcheon-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 12,
+  "status": "operational",
+  "evidence_date": "2024-01-29",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.donga.com/news/Economy/article/all/20240129/123288302/1",
+    "https://www.datacentermap.com/south-korea/seoul/dci-seoul-01/",
+    "https://assets.cushmanwakefield.com/-/media/cw/marketbeat-pdfs/2025/q2/apac-and-gc/korea---data-center-1h-2025-eng_fin_.pdf?rev=0cb5fa8d986747a0b36fce070e4ffc2d"
+  ],
+  "notes": "Daelim started construction of the Gasan-dong new-build data center (JV with Australia's DCI Data Centers) on 29 Jan 2024; C&W 1H2025 lists DCI SEL1 in Geumcheon at 17,371 sqm / 12 MW among completed construction.",
+  "method_batch": true
+}

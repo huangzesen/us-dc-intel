@@ -1,0 +1,21 @@
+{
+  "slug": "method-pt-google-azores-cls-lagoa-nuvem-sol-cable-landing-data-infrastructure",
+  "canonical_project": "Google Azores CLS - Lagoa (Nuvem/Sol cable landing & data infrastructure)",
+  "owner": "Google LLC",
+  "location": {
+    "city": "",
+    "subnational": "Azores",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": 10,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/google-azores-cls",
+    "https://www.submarinenetworks.com/en/systems/trans-atlantic/nuvem/google%E2%80%99s%E2%80%99-nuvem-subsea-cable-to-connect-the-azores"
+  ],
+  "notes": "Google cable landing station and data-infrastructure campus at Lot 32B, Tecnoparque da Lagoa, Lagoa municipality, Sao Miguel island; ~10 MW / 15,000 m2 per industry sources; houses Google's private Nuvem and Sol transatlantic cables (Nuvem announced 2023, SubCom supplier). Not a GCP region and not commercial colo - cable landing/data infrastructure. C-grade directory for capacity; methodology flags Google Azores as high-value lead.",
+  "method_batch": true
+}

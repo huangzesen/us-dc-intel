@@ -1,0 +1,21 @@
+{
+  "slug": "method-kz-kazteleport-ereymentau-data-center",
+  "canonical_project": "Kazteleport Ereymentau Data Center",
+  "owner": "Kazteleport JSC (Halyk Bank subsidiary)",
+  "location": {
+    "city": "",
+    "subnational": "Akmola",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/kazteleport-jsc-launches-astana-data-center-in-kazakhstan/",
+    "https://astanahub.com/en/blog/v-astane-otkryt-novyi-tsentr-obrabotki-dannykh-ao-kazteleport"
+  ],
+  "notes": "Launched; Uptime Institute Tier III Facility certified; 100 racks, 2 MW IT, 366 sqm white space. Physically Ereymentau (Akmola Region) though marketed as Astana facility — bucketed by physical division.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-th-stt-gdc-one-bangkok-downtown-node",
+  "canonical_project": "STT GDC One Bangkok (downtown node)",
+  "owner": "ST Telemedia Global Data Centres (Thailand)",
+  "location": {
+    "city": "",
+    "subnational": "Bangkok",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenters.com/sttelemedia-global-data-centres-stt-bangkok-3",
+    "https://www.world-energy.org/article/35348.html"
+  ],
+  "notes": "Low-latency node at One Bangkok (Wireless Rd); ~2MW initial with ~14MW buildout; facility naming (Bangkok 2 vs 3) varies across sources.",
+  "method_batch": true
+}

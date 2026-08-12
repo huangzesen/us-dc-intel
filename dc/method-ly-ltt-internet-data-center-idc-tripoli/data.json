@@ -1,0 +1,22 @@
+{
+  "slug": "method-ly-ltt-internet-data-center-idc-tripoli",
+  "canonical_project": "LTT Internet Data Center (IDC) Tripoli",
+  "owner": "Libya Telecom and Technology (LTT)",
+  "location": {
+    "city": "",
+    "subnational": "Tripoli",
+    "country": "Libya",
+    "country_code": "LY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://ltt.ly/business/Dcenter",
+    "https://www.datacentermap.com/libya/tripoli/ltt-internet-data-center/",
+    "https://www.cybo.com/LY-biz/libya-telecom-and-technology-data"
+  ],
+  "notes": "LTT's official business page (A-grade) markets data-center/hosting services and LTT is the .LY technical operator in Tripoli; physical Tripoli IDC location details (Soug Aljouma area per directories) are directory/listing evidence only (C). Capacity not disclosed; no separate commissioning source found.",
+  "method_batch": true
+}

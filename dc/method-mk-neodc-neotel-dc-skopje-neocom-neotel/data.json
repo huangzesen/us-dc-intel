@@ -1,0 +1,23 @@
+{
+  "slug": "method-mk-neodc-neotel-dc-skopje-neocom-neotel",
+  "canonical_project": "neoDC / Neotel DC Skopje (Neocom-Neotel)",
+  "owner": "Neotel DOO export-import Skopje / Neocom AD (neoDC brand)",
+  "location": {
+    "city": "",
+    "subnational": "Centar",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://neodc.mk/",
+    "https://www.peeringdb.com/fac/5414",
+    "https://www.datacentermap.com/macedonia/skopje/neodc/",
+    "https://www.ripe.net/membership/member-support/list-of-members/mk/neotel/"
+  ],
+  "notes": "Operator brand page (A) describes neoDC as the first and only carrier-neutral colocation data center in Macedonia; address Kuzman Josifovski Pitu 15, 1000 Skopje (Centar municipality) per datacentermap/PeeringDB fac 5414/RIPE LIR member record (Neotel DOO); DataCenterJournal notes two data centers under one city entry (Skopje + Stip). why_this_is_a_data_center: marketed carrier-neutral colocation data centre with interconnect. what_is_not_confirmed: capacity/MW, permit, municipality permit record, Stip site details.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-hr-a1-hrvatska-zagreb-data-center",
+  "canonical_project": "A1 Hrvatska Zagreb data center",
+  "owner": "A1 Hrvatska (A1 Telekom Austria Group)",
+  "location": {
+    "city": "",
+    "subnational": "Zagreb City",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A-",
+  "sources": [
+    "https://www.a1.hr/poslovni/ict-rjesenja/datacentar-usluge",
+    "https://www.vecernji.hr/biznis/a1-hrvatska-gradi-novi-podatkovni-centar-prema-najvisim-svjetskim-standardima-1438161",
+    "https://www.24sata.hr/tech/a1-gradi-data-centar-u-zagrebu-721789"
+  ],
+  "notes": "A1 opened its Tier III (Uptime) data center in Novi Zagreb at the intersection of Avenija Veceslava Holjevca and Neziceva in Q3 2021; EUR 11m investment, 2,000 sqm, Vertiv build, two 2 MW power branches and 300 IT cabinets per trade press; official A1 page confirms certified data center/colocation services; capacity kept null (power-branch figures are feed design, not verified IT load).",
+  "method_batch": true
+}

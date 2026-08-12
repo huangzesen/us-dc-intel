@@ -1,0 +1,22 @@
+{
+  "slug": "method-al-rash-anix-carrier-grade-data-center",
+  "canonical_project": "RASH / ANIX carrier-grade data center",
+  "owner": "RASH (Albanian Academic Network)",
+  "location": {
+    "city": "",
+    "subnational": "Tirane",
+    "country": "Albania",
+    "country_code": "AL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://anix.rash.al/index.php/datacenter/",
+    "https://www.anix.al/",
+    "https://www.datacentermap.com/albania/tirana/rash-data-center/"
+  ],
+  "notes": "Re-verified 2026-08-12: ANIX official page states RASH built a new data center in central Tirana (Rruga e Durresit, next to Qemal Stafa school); hosts the Albanian Neutral Internet Exchange. DataCenterMap gives Rruga e Durresit 219, operational since 2016 (B/C); Inflect aggregator claims 1 MW (C). Interconnection-grade facility, not a large commercial colo campus.",
+  "method_batch": true
+}

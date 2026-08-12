@@ -1,0 +1,20 @@
+{
+  "slug": "cngov-jd-industrial-development-north-china-langfang-intelligent-computing-center-phas",
+  "canonical_project": "JD Industrial Development North China (Langfang) Intelligent Computing Center Phase 2",
+  "owner": "JD Industrial Development / 京东产发",
+  "location": {
+    "city": "廊坊市·廊坊开发区",
+    "subnational": "Hebei",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-05-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.pai.com.cn/p/01kr8gakxbwdb8m71amk9jmj88"
+  ],
+  "notes": "re-verified — same campus as existing 'JD Group North China (Langfang) Cloud Data Center Base' in world/results/batch-123.jsonl. Phase 2 formally ground-broken 2026-05-10, full production targeted 2027 with ~10,000 high-power compute racks and ~100,000 PFLOPS intelligent compute (PUE<1.20); Phase 1 already built and serving cloud workloads with >90% rack utilization. [province=河北]",
+  "cn_gov_batch": true
+}

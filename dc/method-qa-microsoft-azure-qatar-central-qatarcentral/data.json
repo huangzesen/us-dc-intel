@@ -1,0 +1,21 @@
+{
+  "slug": "method-qa-microsoft-azure-qatar-central-qatarcentral",
+  "canonical_project": "Microsoft Azure Qatar Central (qatarcentral)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Doha",
+    "country": "Qatar",
+    "country_code": "QA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+    "https://www.azurespeed.com/Information/AzureRegions/QatarCentral"
+  ],
+  "notes": "Azure region Qatar Central (qatarcentral), Doha, GA since 2022 per Microsoft Learn region list (A). DCD reported the Doha Azure region is hosted at MEEZA's QSTP data centre (M-VAULT 4, Al Rayyan municipality). Region record only - address not otherwise public.",
+  "method_batch": true
+}

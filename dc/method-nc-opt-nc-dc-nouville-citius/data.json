@@ -1,0 +1,22 @@
+{
+  "slug": "method-nc-opt-nc-dc-nouville-citius",
+  "canonical_project": "OPT-NC DC Nouville (CITIUS)",
+  "owner": "OPT-NC (Office des Postes et Télécommunications de Nouvelle-Calédonie; CITIUS subsidiary)",
+  "location": {
+    "city": "",
+    "subnational": "New Caledonia",
+    "country": "New Caledonia",
+    "country_code": "NC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://office.opt.nc/fr/actualites/inauguration-de-la-centrale-photovoltaique-installee-nouville",
+    "https://www.datacenterdynamics.com/en/news/solar-panels-deployed-at-opt-nc-data-center-in-new-caledonia/",
+    "https://www.datacentermap.com/new-caledonia/nouville/citius/"
+  ],
+  "notes": "Operational OPT-NC server/data facility at DC Nouville, 1 Rue Contre-Amiral Joseph du Bouzet, Nouville (Nouméa, Province Sud), historically operated by CITIUS (OPT-NC subsidiary since 2008). OPT-NC official release (2023-10-18) states the DC Nouville site hosts the data center, accounts for ~4.5% of OPT-NC electricity consumption, and received 276 solar panels (124 kWp); DCD independently reported the same operational site. No IT load or MW capacity disclosed.",
+  "method_batch": true
+}

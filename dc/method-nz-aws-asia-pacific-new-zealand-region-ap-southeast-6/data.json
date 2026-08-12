@@ -1,0 +1,21 @@
+{
+  "slug": "method-nz-aws-asia-pacific-new-zealand-region-ap-southeast-6",
+  "canonical_project": "AWS Asia Pacific (New Zealand) Region ap-southeast-6",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-new-zealand-region/",
+    "https://aws.amazon.com/local/new-zealand/"
+  ],
+  "notes": "AWS cloud region with 3 AZs opened 2025-09-01, infrastructure in/around Auckland. Cloud-region evidence (A for service region); physical facility addresses not disclosed. Re-verified against NZ methodology cloud-region pipeline.",
+  "method_batch": true
+}

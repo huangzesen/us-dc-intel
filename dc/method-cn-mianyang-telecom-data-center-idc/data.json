@@ -1,0 +1,20 @@
+{
+  "slug": "method-cn-mianyang-telecom-data-center-idc",
+  "canonical_project": "Mianyang Telecom Data Center / IDC",
+  "owner": "China Telecom Mianyang",
+  "location": {
+    "city": "",
+    "subnational": "Sichuan - Mianyang Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.west.cn/services/Server/servr_room_info_mydx.asp"
+  ],
+  "notes": "Commercial IDC listings describe Mianyang Telecom Data Center as a China Telecom southwest flagship IDC with two operating computer rooms at 243 Mianzhou Middle Road offering colocation/hosting; aggregate/commercial listing, grade C.",
+  "method_batch": true
+}

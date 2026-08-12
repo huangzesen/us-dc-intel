@@ -1,0 +1,21 @@
+{
+  "slug": "method-ye-teleyemen-sana-a-international-gateway-hq-26-sept-al-tahreer",
+  "canonical_project": "TeleYemen Sana'a international gateway / HQ (26-Sept, Al-Tahreer)",
+  "owner": "TeleYemen (Yemen International Telecommunications Company)",
+  "location": {
+    "city": "",
+    "subnational": "Sanaa City",
+    "country": "Yemen",
+    "country_code": "YE"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/saudi-led-coalition-bombs-teleyemen-telco-building-in-sanaa-claim-it-was-used-to-control-drones/",
+    "https://sanaacenter.org/publications/policy-research/12721"
+  ],
+  "notes": "Control side: building in Ansar Allah-held Sana'a; TeleYemen itself is a dual-authority entity (HQ Sana'a, IRG branch in Aden). TeleYemen HQ/international gateway housed telco equipment, servers, hosting and data services (Sana'a Center policy paper Jan 2021); DCD reported the building destroyed by a Saudi-led coalition airstrike Feb 2022, with TeleYemen saying it would resume services. Current status unverified -> unknown. Not commercial colocation; capacity null.",
+  "method_batch": true
+}

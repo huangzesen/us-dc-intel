@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-jharkhand-state-data-centre-jhsdc",
+  "canonical_project": "Jharkhand State Data Centre (JHSDC)",
+  "owner": "Government of Jharkhand / IT Department",
+  "location": {
+    "city": "",
+    "subnational": "Jharkhand - Ranchi",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://japit.jharkhand.gov.in/Home/SDC",
+    "https://blog.mygov.in/data-centers-of-government-of-jharkhand/"
+  ],
+  "notes": "State-government data centre in Ranchi (Birsa Nagar/CTI Colony area) hosting state department applications; public-sector/government SDC, not commercial colocation. NIC Jharkhand state centre co-located in Ranchi.",
+  "method_batch": true
+}

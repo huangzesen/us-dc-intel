@@ -1,0 +1,21 @@
+{
+  "slug": "method-fi-amptank-utajarvi-hyperscale-data-center",
+  "canonical_project": "AmpTank Utajarvi hyperscale data center",
+  "owner": "AmpTank; Data Tank Nordic Oy",
+  "location": {
+    "city": "",
+    "subnational": "North Ostrobothnia",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": 100,
+  "status": "planned",
+  "evidence_date": "2025-09-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://amptank.energy/amptank-announces-first-hyperscale-data-center-project-in-utajarvi-finland/",
+    "https://www.datacenterdynamics.com/en/news/battery-storage-developer-amptank-plans-100mw-data-center-outside-oulu-finland/"
+  ],
+  "notes": "AmpTank announced a first hyperscale project in Utajarvi with 100 MW immediately available plus backup battery storage; DCD places it in Mustikkakangas industrial area outside Oulu.",
+  "method_batch": true
+}

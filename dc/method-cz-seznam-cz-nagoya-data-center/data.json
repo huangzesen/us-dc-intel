@@ -1,0 +1,21 @@
+{
+  "slug": "method-cz-seznam-cz-nagoya-data-center",
+  "canonical_project": "Seznam.cz Nagoya Data Center",
+  "owner": "Seznam.cz a.s.",
+  "location": {
+    "city": "",
+    "subnational": "Central Bohemia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://blog.seznam.cz/2023/03/seznam-cz-slavnostne-otevrel-sve-druhe-datove-centrum-nagoja-v-benatkach-nad-jizerou/",
+    "https://www.datacenters.com/seznam-cz-nagoya"
+  ],
+  "notes": "Seznam.cz official blog (2023-03-16): Nagoja opened in Benatky nad Jizerou; Seznam owns two DCs (Kokura and Nagoja) with target 2x3 MW; directory lists 3 MW. A for operator announcement.",
+  "method_batch": true
+}

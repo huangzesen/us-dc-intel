@@ -1,0 +1,23 @@
+{
+  "slug": "method-ph-equinix-mn1-mn2-mn3-ex-tim-manila-data-centers",
+  "canonical_project": "Equinix MN1, MN2, MN3 (ex-TIM Manila data centers)",
+  "owner": "Equinix (acquired from Total Information Management, June 2025)",
+  "location": {
+    "city": "",
+    "subnational": "National Capital Region",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.growyourbusiness.org/business-news/equinix-enters-philippine-market-with-acquisition-of-three-data-centers/",
+    "https://www.datacentermap.com/philippines/manila/equinix-mn1/",
+    "https://www.datacentermap.com/philippines/manila/equinix-mn3/",
+    "https://www.peeringdb.com/fac/5817"
+  ],
+  "notes": "Equinix completed acquisition of three TIM Manila data centers (MN1/MN2/MN3) in June 2025: >1,000 cabinets (MN2 alone 500), host several key Manila internet exchanges, land for expansion; MN1 at Purificacion St Carmona/Macaria Business Center, MN3 at 5600 Osmeña Hwy Makati. A for Equinix release/directory confirmation; cabinets >1000, MW not published (null).",
+  "method_batch": true
+}

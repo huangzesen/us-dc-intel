@@ -1,0 +1,22 @@
+{
+  "slug": "method-lu-deep-resilience-center-luxembourg-east-ex-ebrc-betzdorf",
+  "canonical_project": "DEEP Resilience Center Luxembourg East (ex-EBRC Betzdorf)",
+  "owner": "DEEP (POST Group, ex-EBRC)",
+  "location": {
+    "city": "",
+    "subnational": "Grevenmacher",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.deep.eu/en/accueil/services/datacenter/datacenter-colocation-services",
+    "https://www.lu-cix.lu/infrastructure/network-map/",
+    "https://www.deep.eu/documents/2830351/3179110/EBRC+-+11813690+-+ISO27001.pdf"
+  ],
+  "notes": "Betzdorf (SES area, Z.A. audiovisuelle et de communications); one of three DEEP Tier IV-certified datacenters; LU-CIX PoP confirms named site.",
+  "method_batch": true
+}

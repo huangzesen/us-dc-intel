@@ -1,0 +1,21 @@
+{
+  "slug": "method-vn-hai-duong-provincial-data-center-trung-tam-du-lieu-tinh-hai-duong",
+  "canonical_project": "Hai Duong Provincial Data Center (Trung tam Du lieu tinh Hai Duong)",
+  "owner": "Hai Duong provincial authorities / Department of Information and Communications",
+  "location": {
+    "city": "",
+    "subnational": "Hai Duong",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-01-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://sotttt.haiduong.gov.vn/Trang/ChiTietTinTuc.aspx?nid=2246&title=chinh-thuc-van-hanh-trung-tam-du-lieu-tinh-hai-duong.html",
+    "https://congan.haiduong.gov.vn/Trang/ChiTietTinTuc.aspx?nid=10445&title=khan-truong-dua-trung-tam-du-lieu-tinh-hai-duong-vao-su-dung.html"
+  ],
+  "notes": "Official Hai Duong provincial ICT portal reports the provincial data center formally entered operation on 11 Jan 2024 with maximum storage capacity of 384 TB, hosting official email, citizen app and justice micro-certificate systems. Public-sector facility, no commercial MW; method-driven search corrected the first-round no_projects flag.",
+  "method_batch": true
+}

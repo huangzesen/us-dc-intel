@@ -1,0 +1,22 @@
+{
+  "slug": "method-iq-krg-government-data-center",
+  "canonical_project": "KRG Government Data Center",
+  "owner": "Kurdistan Regional Government / Department of Information Technology",
+  "location": {
+    "city": "",
+    "subnational": "Kurdistan",
+    "country": "Iraq",
+    "country_code": "IQ"
+  },
+  "capacity_mw": 0.32,
+  "status": "operational",
+  "evidence_date": "2022-09-06",
+  "evidence_grade": "A",
+  "sources": [
+    "https://gov.krd/english/hot-topics/achievements/kurdistan-region-s-first-advanced-data-center-to-lead-krg-s-2025-digitalization-vision-into-a-paperless-future/",
+    "https://www.datacenterdynamics.com/en/news/kurdistan-opens-data-center-for-government-services/",
+    "https://www.iraq-businessnews.com/2022/09/07/krg-opens-new-data-center/"
+  ],
+  "notes": "KRG opened Tier III-based government data center (Erbil area) early Sep 2022; KRG states capacity around 320 kW and intended to host/digitalize 300+ government services. KRG official page A; DCD/IBN B. Government facility, not commercial colo.",
+  "method_batch": true
+}

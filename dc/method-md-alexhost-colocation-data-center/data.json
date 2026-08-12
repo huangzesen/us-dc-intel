@@ -1,0 +1,22 @@
+{
+  "slug": "method-md-alexhost-colocation-data-center",
+  "canonical_project": "AlexHost colocation data center",
+  "owner": "SRL AlexHost",
+  "location": {
+    "city": "",
+    "subnational": "Chisinau",
+    "country": "Moldova, Republic of",
+    "country_code": "MD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://alexhost.com/colocation-in-moldova/",
+    "https://www.datacentermap.com/moldova/chisinau/alexhost-srl/",
+    "https://inflect.com/co/alexhost-srl"
+  ],
+  "notes": "AlexHost operates its own data center in Chisinau at C. Brancusi nr. 3; colocation services with autonomous power, cooling/ventilation, video surveillance (operator colocation page). DataCenterMap lists 1.6 MW (directory claim, B-/C+). Hosting business since 2008, own network AS200019. capacity_mw null per methodology.",
+  "method_batch": true
+}

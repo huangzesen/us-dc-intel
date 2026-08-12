@@ -1,0 +1,22 @@
+{
+  "slug": "method-is-atnorth-ice02-keflavik-sjonaholl-6",
+  "canonical_project": "atNorth ICE02 Keflavik (Sjonaholl 6)",
+  "owner": "atNorth (formerly Advania Data Centers lineage)",
+  "location": {
+    "city": "",
+    "subnational": "Southern Peninsula",
+    "country": "Iceland",
+    "country_code": "IS"
+  },
+  "capacity_mw": 80,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.atnorth.com/nordic-data-centers/iceland-data-centers/keflavik-mega-site/",
+    "https://www.atnorth.com/news/atnorth-announces-an-expansion-of-ice02/",
+    "https://www.datacenterdynamics.com/en/news/atnorth-to-expand-two-icelandic-data-centers/"
+  ],
+  "notes": "Tier 3 campus on 9 ha near Keflavik airport (operator page, A-grade for operator fact); scalable power beyond 80 MW per aggregator (C for capacity detail); 2024/2025 announced expansions (ICE02 +35 MW) and heat-reuse initiative per atNorth news and DCD (B).",
+  "method_batch": true
+}

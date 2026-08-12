@@ -1,0 +1,20 @@
+{
+  "slug": "method-in-iit-ism-dhanbad-high-performance-computing-facility-campus-data-centre",
+  "canonical_project": "IIT (ISM) Dhanbad High Performance Computing Facility / Campus Data Centre",
+  "owner": "Indian Institute of Technology (ISM) Dhanbad",
+  "location": {
+    "city": "",
+    "subnational": "Jharkhand - Dhanbad",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://people.iitism.ac.in/~research/files/R%26DBrochure.pdf"
+  ],
+  "notes": "Official IIT(ISM) Dhanbad R&D brochure documents a High Performance Computing Facility (Rs 10 crore, CPU cluster ~50 nodes / 2,264 cores / 240 TB storage) for research and data computing needs. Institutional computing facility rather than commercial colocation; no MW-scale commercial datacenter project found in Dhanbad in public sources.",
+  "method_batch": true
+}

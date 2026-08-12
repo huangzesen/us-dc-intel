@@ -1,0 +1,21 @@
+{
+  "slug": "method-nz-amazon-data-services-westgate-data-centre-site-abandoned",
+  "canonical_project": "Amazon Data Services Westgate data centre site (abandoned)",
+  "owner": "Amazon Web Services / Amazon Data Services NZ",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "rejected",
+  "evidence_date": "2026-05-04",
+  "evidence_grade": "B",
+  "sources": [
+    "https://newswire.co.nz/2026/05/amazons-quiet-45m-write-down-on-its-abandoned-westgate-data-centre-exposes-a-gap-between-political-talking-points-and-the-companys-actual-nz-spend/",
+    "https://newswire.co.nz/2026/05/infratils-data-centre-arm-cdc-has-won-a-30-year-contract-to-build-australias-biggest-data-centre-days-after-amazon-wrote-down-its-abandoned-new-zealand-site/"
+  ],
+  "notes": "AWS wrote down NZ$45m on its abandoned planned hyperscale data centre site at Westgate, West Auckland (May 2026 accounts reporting). Project walked away from; status rejected/abandoned. Method-driven new finding; earlier 'region open' evidence remains valid separately.",
+  "method_batch": true
+}

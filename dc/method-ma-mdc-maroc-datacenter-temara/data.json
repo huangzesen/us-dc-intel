@@ -1,0 +1,22 @@
+{
+  "slug": "method-ma-mdc-maroc-datacenter-temara",
+  "canonical_project": "MDC / Maroc Datacenter Temara",
+  "owner": "Maroc Datacenter (MDC); majority stake acquired by Helios Investment Partners (Orunix Digital platform)",
+  "location": {
+    "city": "",
+    "subnational": "Rabat-Sale-Kenitra",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-31",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mdc.ma/datacenter/",
+    "https://www.datacentermap.com/morocco/rabat/maroc-data-center-mdc/",
+    "https://btw.media/en/maroc-datacenter-leading-the-way-in-innovative-technology-solutions"
+  ],
+  "notes": "MDC official page (A): carrier-neutral, sovereign Tier III-designed facility in Temara, 2,000 sqm, redundant power/cooling, owned and operated by MDC. July 2026 press reports Helios Investment Partners took a majority stake, folding MDC into the hyperscale 'Orunix Digital' platform. Capacity MW not disclosed.",
+  "method_batch": true
+}

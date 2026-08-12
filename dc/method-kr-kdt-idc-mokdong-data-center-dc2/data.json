@@ -1,0 +1,20 @@
+{
+  "slug": "method-kr-kdt-idc-mokdong-data-center-dc2",
+  "canonical_project": "KDT IDC Mokdong Data Center (DC2)",
+  "owner": "Korea Data Communications (KDT IDC)",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Yangcheon-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aidc.co.kr/en/centers"
+  ],
+  "notes": "KDT IDC official centers page lists DC2 Mokdong Data Center inside KT ICC, Mok-dong, Yangcheon-gu, carrier-neutral colocation with 400G backbone and DDoS protection.",
+  "method_batch": true
+}

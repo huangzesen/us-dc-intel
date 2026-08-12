@@ -1,0 +1,22 @@
+{
+  "slug": "method-mt-csl-data-centre-services-csl-dc",
+  "canonical_project": "CSL Data Centre Services (CSL DC)",
+  "owner": "CSL Data Centre Services Ltd (Computer Solution Ltd)",
+  "location": {
+    "city": "",
+    "subnational": "Birkirkara",
+    "country": "Malta",
+    "country_code": "MT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.csl.com.mt/contact-us/",
+    "https://www.csl.com.mt/data-center-services/",
+    "https://www.datacentermap.com/malta/birkirkara/csl-dc/"
+  ],
+  "notes": "Official CSL pages confirm Tier 3-rated, carrier-neutral data centre at 66 Dun Karm Street, Birkirkara BKR9038, with 2,000 sqm rack-space capacity and N+1 IaaS data centre services; DataCenterMap corroborates address/postcode (BKR9038). No public MW; capacity_mw null.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-sy-silklink-program-data-centers-component-stc",
+  "canonical_project": "SilkLink Program - data centers component (STC)",
+  "owner": "STC Group (75% stake, ~USD 800M) / Syrian Telecom / Syrian Sovereign Fund",
+  "location": {
+    "city": "",
+    "subnational": "Damascus",
+    "country": "Syrian Arab Republic",
+    "country_code": "SY"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-02-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.spa.gov.sa/en/N2506926",
+    "https://www.datacenterdynamics.com/en/news/stc-group-wins-bid-to-run-syrias-silklink-telecoms-infrastructure/",
+    "https://silklink.moct.gov.sy/pages/introduction.html"
+  ],
+  "notes": "STC won the SilkLink bid: 4,500km fiber backbone (ITU-T G.652/G.655), several data centers, international submarine cable landing station in Tartous, five IXPs (Damascus, Aleppo, Tartous, Palmyra, Qamishli), 10Tbps initial/25Tbps future capacity. Program-level A (SPA release + MOCT RFI) with B build details (DCD). No specific DC facility sites/owners named yet - program-level/connectivity, not operational DCs.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-gw-national-technology-data-center-park-centro-nacional-de-dados-alto-bandim-bissau",
+  "canonical_project": "National Technology Data Center Park / Centro Nacional de Dados (Alto Bandim, Bissau)",
+  "owner": "UNDP Guinea-Bissau (implementer); Government of Guinea-Bissau (owner); Japan (funder)",
+  "location": {
+    "city": "",
+    "subnational": "Bissau",
+    "country": "Guinea-Bissau",
+    "country_code": "GW"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ungm.org/Public/Notice/278362",
+    "https://www.globaltenders.com/gov-tenders/de-staatliche-ausschreibungen-guinea-bisau",
+    "https://www.undp.org/pt/guinea-bissau/publications/boletim-informativo-do-programa-das-nacoes-unidas-para-o-desenvolvimento-pnud-na-guine-bissau-edicao-05-jan-mar-2026"
+  ],
+  "notes": "UNDP tender UNDP-GNB-00270 'Construction of National Technology Data Center Park', UNGM notice 278362, published 2025-09-12, deadline 2025-10-08 (A, verified by direct browse 2026-08-12). Includes the National Data Center, new ITMA headquarters and facilities for data-protection/cybersecurity agencies. Construction started March 2026 and local/UNDP reporting (per GW methodology baseline) planned completion July 2026 - implementation status B/C, capacity undisclosed so capacity_mw=null and status=construction until an official commissioning source appears. Aliases (one programme, no double count): National Technology Data Center Park = Centro Nacional de Dados = 'Data Center' da Guine-Bissau; ITMA HQ is part of the park. Cloud-region exclusion re-run 2026-08-12: no AWS/Azure/GCP/Oracle public region for GW; no verified commercial colocation provider; telco (Telecel/Orange/Guine-Telecom) network rooms are unverified data rooms, not facilities.",
+  "method_batch": true
+}

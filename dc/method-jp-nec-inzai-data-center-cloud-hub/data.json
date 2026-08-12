@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-nec-inzai-data-center-cloud-hub",
+  "canonical_project": "NEC Inzai Data Center (Cloud Hub)",
+  "owner": "NEC",
+  "location": {
+    "city": "",
+    "subnational": "Chiba",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nec.com/en/global/solutions/cloud/inzai_datacenter.html"
+  ],
+  "notes": "NEC's cloud-hub data center in Inzai, Chiba, providing hybrid/multi-cloud connectivity to public and private clouds; operational; capacity not publicly stated.",
+  "method_batch": true
+}

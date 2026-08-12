@@ -1,0 +1,23 @@
+{
+  "slug": "method-mw-national-data-centre-blantyre-secondary-backup-national-dc",
+  "canonical_project": "National Data Centre, Blantyre (secondary/backup national DC)",
+  "owner": "Government of Malawi / Huawei / ESCOM",
+  "location": {
+    "city": "",
+    "subnational": "Southern Region",
+    "country": "Malawi",
+    "country_code": "MW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-07-28",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/malawi-launches-national-data-center/",
+    "https://english.news.cn/20220723/4f40a51b98244c7f97c5b70469dd8992/c.html",
+    "https://capacityglobal.com/news/malawi-government-sets-up-national-data-centre-with-huawei/",
+    "https://ml.mw/2022/09/07/the-national-data-center-blantyre-blog-post/"
+  ],
+  "notes": "National Data Centre in Blantyre commissioned 21-22 Jul 2022 (Xinhua official wire, President Chakwera), Huawei-built, hosts government-wide systems; DIGMAP (2024) designates Blantyre as Secondary/Backup to the Lilongwe Primary DC. ML.mw blog (B/C) describes it as Tier 3 by Huawei with ESCOM involvement. No MW capacity or certification detail publicly disclosed; datacentermap.com lists it as the country's sole listed facility.",
+  "method_batch": true
+}

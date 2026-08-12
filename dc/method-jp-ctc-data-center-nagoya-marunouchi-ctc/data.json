@@ -1,0 +1,22 @@
+{
+  "slug": "method-jp-ctc-data-center-nagoya-marunouchi-ctc",
+  "canonical_project": "CTC Data Center Nagoya Marunouchi (CTCデータセンター名古屋丸の内)",
+  "owner": "Chubu Telecommunications (CTC, KDDI group)",
+  "location": {
+    "city": "",
+    "subnational": "Aichi",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ctc.jp/service/datacenter/marunouchi/",
+    "https://www.ctc.jp/service/datacenter/",
+    "https://cloud.watch.impress.co.jp/docs/cdc/catalog/1522100.html"
+  ],
+  "notes": "Urban hyperscale-grade data center in Nagoya city center (Marunouchi), seismic-isolated structure with up to 1.5 t/sqm floor load; CTC operates three DC locations in Nagoya, including Nagoya Station South (opened Oct 2000); capacity not publicly stated.",
+  "method_batch": true
+}

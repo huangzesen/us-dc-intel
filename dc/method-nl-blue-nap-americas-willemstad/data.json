@@ -1,0 +1,23 @@
+{
+  "slug": "method-nl-blue-nap-americas-willemstad",
+  "canonical_project": "Blue NAP Americas (Willemstad)",
+  "owner": "Blue NAP Americas / DataPlanet N.V.",
+  "location": {
+    "city": "",
+    "subnational": "Curacao",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 5.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bluenapamericas.com/",
+    "https://www.datacentermap.com/curacao/willemstad/",
+    "https://www.curacaochronicle.com/post/technology/blue-nap-americas-cloud-carib-the-caribbean-datacenter-association-and-gaia-x-unite-to-launch-the-caribbean-federated-cloud/",
+    "https://www.ams-ix.net/ams/news/ams-ix-caribbean-deploys-point-of-presence-in-blue-nap-americas-data-centre"
+  ],
+  "notes": "Tier IV certified multi-tenant data center at Seru Mahuma z/n, Willemstad, outside hurricane belt; design power up to ~16MW per Inflect, ~5MW first-round; AMS-IX Caribbean PoP; Caribbean Federated Cloud launched July 2025 with Blue NAP.",
+  "method_batch": true
+}

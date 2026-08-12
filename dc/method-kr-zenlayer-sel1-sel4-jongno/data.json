@@ -1,0 +1,21 @@
+{
+  "slug": "method-kr-zenlayer-sel1-sel4-jongno",
+  "canonical_project": "Zenlayer SEL1 / SEL4 (Jongno)",
+  "owner": "Zenlayer",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Jongno-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/178-sejong-daero-jongno-gu-seoul/zenlayer/datacenter/sel1",
+    "https://www.datacenters.com/zenlayer-sel4-seoul"
+  ],
+  "notes": "Zenlayer edge/colocation nodes in Jongno-gu: SEL1 at KT Gwanghwamun (178 Sejong-daero) and SEL4 at 65 Daehak-ro (Hyehwa); capacities not disclosed.",
+  "method_batch": true
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "method-cm-camtel-nbn-ii-zamengoe-data-center",
+  "canonical_project": "Camtel NBN II / Zamengoé Data Center",
+  "owner": "Cameroon Telecommunications (CAMTEL) / Huawei-led Chinese consortium (China Shenyang International Cooperation)",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/huawei-equips-cameroon-govt-data-center-helps-rains-south-africa-5g-project/",
+    "https://newsupfront.com/camtels-data-center-compliant-with-modern-standards/",
+    "https://cemac-eco.finance/camtel-launches-largest-data-centre-in-central-africa/",
+    "https://www.peeringdb.com/fac/10946",
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/CM",
+    "https://camtel.cm/?id=502"
+  ],
+  "notes": "Centre region, Lékié division / Zamengoé (outskirts of Yaoundé, marketed as Yaoundé). Uptime Institute lists Tier III Certification of Design Documents for Camtel NBN II Data Center (A-grade design award; not constructed-facility certification). Camtel official site (checked 2026-08-12) markets a Tier 3-certified datacentre with local hosting, backup and cloud in its datacentre (A for service existence; 'certified' is Camtel's own wording). DCD (B) reports ~3,000 m2, ~$15m built by Chinese consortium incl. Huawei; News Upfront and CEMAC Eco Finance report operational/marketed; PeeringDB fac/10946 lists Camtel Datacenter Zamengoe-Yaounde (2 networks). Directory DCHub lists 3.0 MW (C-grade, uncorroborated - not used as official capacity).",
+  "method_batch": true
+}

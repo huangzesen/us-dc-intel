@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-kiv-thueringen-rechenzentrum-gotha",
+  "canonical_project": "KIV Thueringen Rechenzentrum (Gotha)",
+  "owner": "Kommunale Informationsverarbeitung Thueringen GmbH (KIV)",
+  "location": {
+    "city": "",
+    "subnational": "Thuringia - Gotha",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://portal.kiv-thueringen.de/web/services/rechenzentrum/",
+    "https://portal.kiv-thueringen.de/web/2025/09/18/cloud-rechenzentrum-fuer-die-thueringer-kommunalverwaltung-vereinbart/"
+  ],
+  "notes": "KIV Thueringen official service page (checked 2026-08-12) for Rechenzentrum gives company address Ekhofplatz 2a, 99867 Gotha; September 2025 KIV announcement says KIV is participating with TLRZ in expanding the Thueringer Verwaltungscloud. Public-sector municipal IT data center; capacity not published.",
+  "method_batch": true
+}

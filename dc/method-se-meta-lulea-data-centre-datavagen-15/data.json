@@ -1,0 +1,22 @@
+{
+  "slug": "method-se-meta-lulea-data-centre-datavagen-15",
+  "canonical_project": "Meta Lulea Data Centre (Datavagen 15)",
+  "owner": "Meta (Facebook)",
+  "location": {
+    "city": "",
+    "subnational": "Norrbotten",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenters.atmeta.com/asset/lulea-data-center-info-sheet/",
+    "https://datacenters.atmeta.com/all-locations/",
+    "https://www.ncc.se/vara-projekt/serverhall-facebook-lulea/"
+  ],
+  "notes": "Meta official locations: Lulea with 8.7B+ SEK investment; opened 2013 as Meta's first data center outside the US (NCC project page confirms). Meta community grants also cover Boden/Kalix/Pitea/Alvsbyn municipalities, indicating regional footprint.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-ru-key-point-rostov-on-don-data-center",
+  "canonical_project": "Key Point Rostov-on-Don data center",
+  "owner": "Key Point Group",
+  "location": {
+    "city": "",
+    "subnational": "Rostov",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dcforum.kz/sites/default/files/09.40-09.50_vircer_prezentaciya_gk_kp_iks_v_kazahstane_vircer_e.v.pdf",
+    "https://interfax.com/newsroom/top-stories/104101/"
+  ],
+  "notes": "Key Point corporate presentation (dcforum.kz PDF) and Interfax roadmap mention a commercial Tier III data center in Rostov-on-Don; roadmap/announced stage, no site or permits public.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-es-altamira-data-center-campus-stoneshield-xdc",
+  "canonical_project": "Altamira Data Center campus (Stoneshield/XDC)",
+  "owner": "Stoneshield Capital / XDC Properties; Sener/Quark design",
+  "location": {
+    "city": "",
+    "subnational": "Cantabria",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": 500,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.group.sener/proyecto/centro-de-datos-stoneshield/",
+    "https://www.datacenterdynamics.com/en/news/stoneshield-plans-68-million-sq-ft-data-center-campus-outside-santander-spain/",
+    "https://www.datacentermarket.es/datacenter-infrastructure/cantabria-tambien-tendra-su-centro-de-datos/"
+  ],
+  "notes": "Altamira project near Santander (Marina de Cudeyo, Penagos 220kV substation): 500MW campus in three phases; first 100MW phase set to start work January 2026 for 2032 launch; EUR3.6bn investment with Cantabria government. Sener project page confirms 500MW capacity.",
+  "method_batch": true
+}

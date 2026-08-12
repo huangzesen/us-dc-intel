@@ -1,0 +1,20 @@
+{
+  "slug": "method-se-rise-lulea-data-center-testbed-research-edge",
+  "canonical_project": "RISE Lulea data center testbed (research/edge)",
+  "owner": "RISE Research Institutes of Sweden",
+  "location": {
+    "city": "",
+    "subnational": "Norrbotten",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ri.se/en/data-center-testbed-for-the-whole-world-in-lulea"
+  ],
+  "notes": "RISE runs a data center testbed in Lulea - research/edge facility per SE methodology; useful context for the Boden/Lulea AI/HPC ecosystem. Not a commercial colocation facility.",
+  "method_batch": true
+}

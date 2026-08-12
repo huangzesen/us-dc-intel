@@ -1,0 +1,22 @@
+{
+  "slug": "method-ki-vodafone-kiribati-athkl-core-network-sites",
+  "canonical_project": "Vodafone Kiribati (ATHKL) core/network sites",
+  "owner": "Vodafone Kiribati (Amalgamated Telecom Holdings Kiribati - ATH)",
+  "location": {
+    "city": "",
+    "subnational": "Gilbert Islands",
+    "country": "Kiribati",
+    "country_code": "KI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://vodafone.com.ki/",
+    "https://www.ath.com.fj/our-story/group-structure-2/",
+    "https://openjicareport.jica.go.jp/pdf/1000057177.pdf"
+  ],
+  "notes": "Telco core / server-room lead (asset class: telco-core), not verified colocation. Incumbent operator (ATH acquired TSKL assets 2015) with core network in South Tarawa and presence on Kiritimati; JICA/Yachiyo survey (Feb 2026) reports South Tarawa sites upgraded to 4G+ with 5G-core readiness being prepared. A-grade for operator existence; no colocation/hosting facility claim verified (facility details C).",
+  "method_batch": true
+}

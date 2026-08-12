@@ -1,0 +1,21 @@
+{
+  "slug": "method-cy-iptp-networks-dc-kermia-1",
+  "canonical_project": "IPTP Networks DC Kermia 1",
+  "owner": "IPTP Networks",
+  "location": {
+    "city": "",
+    "subnational": "Limassol",
+    "country": "Cyprus",
+    "country_code": "CY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.iptp.net/network/datacenter-services/",
+    "https://www.peeringdb.com/fac/3055"
+  ],
+  "notes": "IPTP official datacenter-services page lists DC Kermia 1 (Limassol) as carrier-neutral facility; PeeringDB facility 3055 lists IPTP Kermia 1, Limassol (B/A context). JumboIX IXP (PeeringDB ix/3541) co-located, IXP context not a separate DC.",
+  "method_batch": true
+}

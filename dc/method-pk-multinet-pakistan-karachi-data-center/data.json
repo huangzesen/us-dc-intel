@@ -1,0 +1,21 @@
+{
+  "slug": "method-pk-multinet-pakistan-karachi-data-center",
+  "canonical_project": "Multinet Pakistan Karachi Data Center",
+  "owner": "Multinet Pakistan (Pvt) Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Sindh",
+    "country": "Pakistan",
+    "country_code": "PK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://multinet.com.pk/data-center/",
+    "https://www.peeringdb.com/fac/3447"
+  ],
+  "notes": "Karachi carrier data-center service; PeeringDB lists Multinet Pakistan Karachi as facility 3447. Operator page confirms data-center offering; commercial specs (racks/MW) not disclosed.",
+  "method_batch": true
+}

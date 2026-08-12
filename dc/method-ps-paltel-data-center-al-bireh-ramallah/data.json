@@ -1,0 +1,24 @@
+{
+  "slug": "method-ps-paltel-data-center-al-bireh-ramallah",
+  "canonical_project": "Paltel Data Center - Al-Bireh / Ramallah",
+  "owner": "Palestine Telecommunications Company PLC (Paltel Group)",
+  "location": {
+    "city": "",
+    "subnational": "Ramallah",
+    "country": "Palestine, State of",
+    "country_code": "PS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/paltel-group-opens-second-palestine-data-center/",
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/paltel-data-center--albireh/1115",
+    "https://www.paltelgroup.ps/pginfo/?p=58225",
+    "https://www.datacenterknowledge.com/cloud/palestinian-phone-company-offers-cloud-computing-from-ramallah",
+    "https://www.dcpostmea.com/2019/10/paltel-group-announces-new-data-center-in-palestine/"
+  ],
+  "notes": "Paltel's second data center, launched Oct 2019 (DCD 2019-10-01; DCPostMEA 2019-10-03 with PM Shtayyeh at launch). ~65,000 sq ft / ~6,000 sq m, Uptime Tier III Design, ~USD 10M (Bloomberg/DCK). Services: colocation, DR, virtual servers, IaaS/PaaS/SaaS, storage. Caveat: Uptime award page location line reads 'Nablus West Bank' while project name and operator/trade sources point to Al-Bireh/Ramallah; preserve the inconsistency.",
+  "method_batch": true
+}

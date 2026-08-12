@@ -1,0 +1,21 @@
+{
+  "slug": "method-kw-ix-kw-internet-exchange-tec-building",
+  "canonical_project": "ix.kw Internet Exchange (TEC Building)",
+  "owner": "CITRA / Kuwait ISP community",
+  "location": {
+    "city": "",
+    "subnational": "Capital",
+    "country": "Kuwait",
+    "country_code": "KW"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ix.kw/about.html",
+    "https://citra.gov.kw/sites/en/Pages/NewsDetails.aspx?NewsID=68"
+  ],
+  "notes": "connectivity_only: carrier-neutral IXP announced by CITRA 2019-10-20, contact at TEC Building; no colocation evidence — not counted as datacenter.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-gi-pelagos-data-centres-gibraltar-near-port-of-gibraltar",
+  "canonical_project": "Pelagos Data Centres Gibraltar (near Port of Gibraltar)",
+  "owner": "Pelagos Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Gibraltar",
+    "country": "Gibraltar",
+    "country_code": "GI"
+  },
+  "capacity_mw": 250,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.gibraltar.gov.gi/press-releases/pelagos-data-centres-unveils-ambitious-plan-for-new-250mw-facility-near-the-port-of-gibraltar-6412025-11196",
+    "https://www.worldconstructionnetwork.com/news/pelagos-data-centres-project-gibraltar/",
+    "https://www.datacenterdynamics.com/en/news/250mw-off-grid-data-center-campus-planned-for-gibraltar/",
+    "https://pelagosdata.com/"
+  ],
+  "notes": "250 MW total is announced/planned capacity across five phases (up to 250 MW by 2033, potential beyond 1 GW per LinkedIn coverage); ~GBP1.8bn project on ~20,000 sq m site near Port of Gibraltar (Neil Pinero Rd per Data Center Map). Ground-breaking reported Sep 2025 (World Construction Network) - status now construction; first phase targeted operational late 2027, later phases every 18 months. Tier III design, carrier-neutral, PUE <=1.2, renewable + LNG, independent of existing grid. Existence/plan = A (HMGoG announcement); construction-start claim = B (trade press).",
+  "method_batch": true
+}

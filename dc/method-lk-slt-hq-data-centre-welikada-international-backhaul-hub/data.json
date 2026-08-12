@@ -1,0 +1,21 @@
+{
+  "slug": "method-lk-slt-hq-data-centre-welikada-international-backhaul-hub",
+  "canonical_project": "SLT HQ Data Centre / Welikada international backhaul hub",
+  "owner": "Sri Lanka Telecom PLC",
+  "location": {
+    "city": "",
+    "subnational": "Western Province",
+    "country": "Sri Lanka",
+    "country_code": "LK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/stations/asia/sri-lanka",
+    "https://parliament.lk/uploads/comreports/1686304751024483.pdf"
+  ],
+  "notes": "Submarine Networks states SLT connects its cable landing stations to the international backhaul hub at the SLT Welikada premises (B); a Parliament of Sri Lanka report states SLT-Mobitel data centers are located at head office, Welikada and Pitipana National Data Center (A official context). Facility/backhaul lead; capacity U.",
+  "method_batch": true
+}

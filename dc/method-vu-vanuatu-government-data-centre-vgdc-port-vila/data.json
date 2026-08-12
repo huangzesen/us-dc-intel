@@ -1,0 +1,23 @@
+{
+  "slug": "method-vu-vanuatu-government-data-centre-vgdc-port-vila",
+  "canonical_project": "Vanuatu Government Data Centre (VGDC), Port Vila",
+  "owner": "Government of Vanuatu (Department of Customs, Digital Transformation / DCDT, with Australian Government support)",
+  "location": {
+    "city": "",
+    "subnational": "Shefa",
+    "country": "Vanuatu",
+    "country_code": "VU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-11-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dcdt.gov.vu/index.php/media-files/brochures",
+    "https://dcdt.gov.vu/images/brochures/VGDC.pdf",
+    "https://pmo.gov.vu/en/public-information/press-release/1145-council-of-ministers-approves-key-recommendation-on-the-tamtam-submarine-cable%2C-data-centre-and-government-broadband-network.html",
+    "https://www.peeringdb.com/fac/2080"
+  ],
+  "notes": "DCDT official brochures page lists the Vanuatu Government Data Center (VGDC.pdf); DCDT events page confirms VIX is housed at the Vanuatu Government Data Centre in Port Vila; PMO Council-of-Ministers release (26 Nov 2025) indicates DCDT completed implementation of the VGDC project with Australian Government support and that Data Centres/Cloud Pilot remain State property. PeeringDB facility 2080 (Port Vila, near Meteo Department Building, 9 racks, smaller redundant DC). Government facility, not commercial colo; no MW disclosed.",
+  "method_batch": true
+}

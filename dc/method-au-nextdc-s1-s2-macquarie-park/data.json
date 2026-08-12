@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-nextdc-s1-s2-macquarie-park",
+  "canonical_project": "NEXTDC S1 & S2 (Macquarie Park)",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Ryde",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 16.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/data-centres/sydney-data-centres/s2-sydney",
+    "https://www.datacentermap.com/australia/sydney/nextdc-s1/",
+    "https://www.datacenters.com/nextdc-s1-sydney"
+  ],
+  "notes": "NEXTDC S1 at 4 Eden Park Drive, Macquarie Park (Ryde LGA), ~16MW and 5-storey/5,600 sqm; S2 at 6-8 Giffnock Avenue, Macquarie Park, Uptime Tier IV certified. Both operational; S1 power from datacenters.com listing.",
+  "method_batch": true
+}

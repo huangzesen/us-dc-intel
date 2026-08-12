@@ -1,0 +1,22 @@
+{
+  "slug": "method-kg-datatime-bishkek-kr-data-center-data-5",
+  "canonical_project": "Datatime Bishkek KR Data Center (Data 5)",
+  "owner": "Datatime LLC (DataDome)",
+  "location": {
+    "city": "",
+    "subnational": "Bishkek",
+    "country": "Kyrgyzstan",
+    "country_code": "KG"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datatime.kg/en/",
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/datatime-bishkek-kr-data-center-data-5/2191",
+    "https://www.datacenterdynamics.com/en/news/datadome-launches-kyrgyzstans-first-commercial-data-center-in-bishkek/"
+  ],
+  "notes": "First commercial Tier III* data centre in Kyrgyzstan, opened 2024-06; operator page (A) confirms 500 kW+ marketed capacity, Koytashsky lane 46/1, dual 6 kV city substations, 2x1 MW diesel generators, 800 kVA UPS, N+1 cooling; Uptime Institute lists Tier III Certification of Design Documents only (not constructed-facility/operations certification); DCD trade press (B) confirms launch and Russian-Kyrgyz Development Fund financing. RackCorp markets international access to the facility (tenant/partner, not a separate facility).",
+  "method_batch": true
+}

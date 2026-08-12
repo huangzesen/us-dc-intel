@@ -1,0 +1,20 @@
+{
+  "slug": "method-cg-e2c-data-center-direction-generale-de-l-energie",
+  "canonical_project": "E2C Data Center (Direction Generale de l'Energie)",
+  "owner": "E2C (Energie Electrique du Congo)",
+  "location": {
+    "city": "",
+    "subnational": "Brazzaville",
+    "country": "Congo",
+    "country_code": "CG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://labreveonline.com/e2c-visite-du-terrain-des-infrastructures-implantees-a-brazzaville/"
+  ],
+  "notes": "Utility data-storage centre located in the pavilion of the DG Energie building, Brazzaville; visited by energy minister Emile Ouosso on 12 Sep 2025; built since 2022, operates 24/24, one server room of approx. 82 sqm; serves E2C digitalisation/record preservation. Local press quoting named minister/DG (B+) but thin facility detail, graded C. Enterprise/utility facility, not commercial colocation.",
+  "method_batch": true
+}

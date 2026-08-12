@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-portunity-rechenzentrum-wuppertal",
+  "canonical_project": "Portunity Rechenzentrum Wuppertal",
+  "owner": "Portunity GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Wuppertal",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.portunity.de/hosting/produkte/housing-colocation.html",
+    "https://www.portunity.de/hosting/produkte/housing-colocation/server-housing.html"
+  ],
+  "notes": "Portunity operates its own datacenter in Wuppertal since 1996 (server housing/colocation, plus racks in Duesseldorf). Operator official page = A for existence/operation. Capacity MW not published.",
+  "method_batch": true
+}

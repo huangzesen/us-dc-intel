@@ -1,0 +1,22 @@
+{
+  "slug": "method-mt-malta-internet-exchange-mix-at-university-of-malta-computing-services-centre",
+  "canonical_project": "Malta Internet Exchange (MIX) at University of Malta Computing Services Centre",
+  "owner": "NIC (Malta) / University of Malta Computing Services Centre",
+  "location": {
+    "city": "",
+    "subnational": "Msida",
+    "country": "Malta",
+    "country_code": "MT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.mix.net.mt/",
+    "https://en.wikipedia.org/wiki/Malta_Internet_Exchange",
+    "https://www.datacentermap.com/ixp/mix-ma/"
+  ],
+  "notes": "National Internet exchange hosted at the University of Malta Computing Services Centre, Msida; interconnection/network infrastructure rather than commercial colocation (per MT methodology treat as lead, not a colo census entry); no public MW figure; official facility page confirming a commercial datacentre service still outstanding.",
+  "method_batch": true
+}

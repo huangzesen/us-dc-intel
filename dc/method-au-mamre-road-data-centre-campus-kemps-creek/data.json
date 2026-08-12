@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-mamre-road-data-centre-campus-kemps-creek",
+  "canonical_project": "Mamre Road Data Centre Campus (Kemps Creek)",
+  "owner": "Undisclosed proponent (SSD-92743706)",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Penrith",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 1000.0,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.planningportal.nsw.gov.au/major-projects/projects/mamre-road-data-centre-campus",
+    "https://urbandigest.com.au/ssd-92743706-9bn-kemps-creek-data-centre-campus-enters-exhibition/",
+    "https://majorprojects.planningportal.nsw.gov.au/prweb/PRRestService/mp/01/getContent?AttachRef=SUB-108272717!20260306T044436.147+GMT"
+  ],
+  "notes": "SSD-92743706 at 706-752 Mamre Road, Kemps Creek (Western Sydney Employment Area, Penrith LGA). EIS describes construction/operation of a data centre campus with ~1GW power capacity, six four-storey data centre buildings, 936 cooling units, 852 diesel back-up generators; UrbanDigest reports $9bn cost, 227,584 sqm GFA on 52ha, entered exhibition Aug 2026. capacity_mw recorded on EIS power-capacity basis, not IT load.",
+  "method_batch": true
+}

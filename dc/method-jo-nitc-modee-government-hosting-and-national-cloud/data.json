@@ -1,0 +1,22 @@
+{
+  "slug": "method-jo-nitc-modee-government-hosting-and-national-cloud",
+  "canonical_project": "NITC / MoDEE government hosting and national cloud",
+  "owner": "National Information Technology Center (NITC) / Ministry of Digital Economy (MoDEE)",
+  "location": {
+    "city": "",
+    "subnational": "Amman",
+    "country": "Jordan",
+    "country_code": "JO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.modee.gov.jo/Default/EN",
+    "https://nitc.gov.jo/Default/En",
+    "https://www.modee.gov.jo/En/Pages/eGovernment_Program"
+  ],
+  "notes": "Government/institutional hosting for e-government and national cloud programs, Amman (exact site not public); A for policy/program, B/C for facility evidence; counted as institutional, not commercial colo.",
+  "method_batch": true
+}

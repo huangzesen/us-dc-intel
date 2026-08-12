@@ -1,0 +1,20 @@
+{
+  "slug": "method-ug-nita-u-national-data-centre-ndc",
+  "canonical_project": "NITA-U National Data Centre (NDC)",
+  "owner": "NITA-U (National Information Technology Authority - Uganda)",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Uganda",
+    "country_code": "UG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nita.go.ug/services/technical-services/nita-u-national-data-centre"
+  ],
+  "notes": "Government NDC page confirms operational government hosting infrastructure with IaaS/PaaS/managed services and a 99.98% SLA claim. Exact physical location/address is not publicly disclosed, so precise site is U; service existence is A.",
+  "method_batch": true
+}

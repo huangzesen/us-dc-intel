@@ -1,0 +1,23 @@
+{
+  "slug": "method-bw-aaas-energy-chillmine-solar-powered-data-centre-campus-leupane-palapye",
+  "canonical_project": "AAAS Energy + ChillMine solar-powered data centre campus (Leupane/Palapye)",
+  "owner": "AAAS Energy BV + ChillMine Corporation",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Botswana",
+    "country_code": "BW"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/chillmine-partners-with-aaas-energy-to-develop-solar-powered-data-center-in-palpye-botswana/",
+    "https://www.connectingafrica.com/data-centers/chillmine-aaas-energy-to-launch-data-center-in-botswana",
+    "https://www.ecofinagency.com/news-digital/0310-49256-botswana-aaas-energy-and-chillmine-to-build-green-powered-data-center-campus",
+    "https://www.datacentermap.com/botswana/serowe/chillmine-palpye/"
+  ],
+  "notes": "MoU announced 30 Sep 2025 (DCD) for solar+BESS-powered AI/hyperscale campus at Leupane Energy Hub near Palapye, Central District; hub ties to ~250MW solar PV + ~100MW/400MWh BESS development; datacentermap notes the Leupane hub supports up to 500MW. MoU/announcement only - no DEA/BERA/BPC/council/construction evidence yet; do not count as under construction.",
+  "method_batch": true
+}

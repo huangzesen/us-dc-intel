@@ -1,0 +1,21 @@
+{
+  "slug": "method-st-santo-antonio-telecom-pop-inter-island-connectivity-endpoint-lead",
+  "canonical_project": "Santo Antonio telecom PoP / inter-island connectivity endpoint (lead)",
+  "owner": "CST / Unitel STP; World Bank Digital STP P177158 (inter-island connectivity planning)",
+  "location": {
+    "city": "",
+    "subnational": "Principe",
+    "country": "Sao Tome and Principe",
+    "country_code": "ST"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://documents1.worldbank.org/curated/en/099900005082217686/pdf/P1771580f68cae060af7e06666d191041f.pdf",
+    "https://principe.gov.st/en/history-and-geography-of-the-island/"
+  ],
+  "notes": "Telecom PoP/edge lead - NOT a confirmed datacenter. Principe depends on two microwave links; World Bank P177158 plans/evaluates an inter-island submarine cable (potential PPP, operated via STP Cabo or similar). No public DC in Santo Antonio; only connectivity/edge lead per methodology.",
+  "method_batch": true
+}

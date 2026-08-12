@@ -1,0 +1,22 @@
+{
+  "slug": "method-fi-telia-helsinki-data-center-valimotie",
+  "canonical_project": "Telia Helsinki Data Center (Valimotie)",
+  "owner": "Telia Company",
+  "location": {
+    "city": "",
+    "subnational": "Uusimaa",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": 24,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telia.fi/business/data-center-services/data-center/helsinki-data-center",
+    "https://www.helen.fi/kokemuksia/2022/telia",
+    "https://www.datacenterdynamics.com/en/news/telia-opens-finlands-largest-shared-data-center/"
+  ],
+  "notes": "Telia official page: Helsinki data center at Valimotie 3-5, Pitaejaenmaeki (~15,000 sqm data hall, 24 MW IT per directory); opened 2018, DCD reported potential scale toward 100 MW IT load; waste heat feeds Helen district heating (Nordics' largest open datacenter per Helen).",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-ga-st-digital-data-center-services-nkok-dc-lbv01",
+  "canonical_project": "ST Digital Data Center Services - Nkok DC (lbv01)",
+  "owner": "ST Digital (Groupe ST Digital)",
+  "location": {
+    "city": "",
+    "subnational": "Estuary",
+    "country": "Gabon",
+    "country_code": "GA"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-07-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://st.digital/datacenter/lbv01",
+    "https://www.datacenterdynamics.com/en/news/cameroons-st-digital-opens-data-center-in-gabon/",
+    "https://gabonactu.com/blog/2026/07/04/gabon-inauguration-du-premier-data-center-souverain-a-nkok/",
+    "https://www.wearetech.africa/en/fils-uk/news/tech/gabon-launches-14-million-tier-iii-data-center-in-digital-sovereignty-push"
+  ],
+  "notes": "Gabon's first sovereign Tier III data center inside the Nkok Special Economic Zone (~23-30 km from Libreville); opened/inaugurated 30 Jun-3 Jul 2026 after Aug 2025 groundbreaking; operator page (A): 100% operational, 1 MW, solar/green design, water-free cooling, colocation/IaaS/SaaS; press (B): ~8 bn FCFA, >3,000 m2, 92 racks; Tier III 'Certified' is operator/press claim - no Uptime record located for lbv01 yet.",
+  "method_batch": true
+}

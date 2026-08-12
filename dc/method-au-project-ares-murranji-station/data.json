@@ -1,0 +1,23 @@
+{
+  "slug": "method-au-project-ares-murranji-station",
+  "canonical_project": "Project Ares (Murranji Station)",
+  "owner": "Energy North Pty Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Northern Territory - Barkly",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 1000,
+  "status": "announced",
+  "evidence_date": "2026-07-08",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ntepa.nt.gov.au/consultation/project-ares",
+    "https://energy-north.com/projects/project-ares/",
+    "https://www.abc.net.au/news/2026-07-01/data-centre-planned-outback-nt/106862398",
+    "https://www.datacenterdynamics.com/en/news/gigawatt-scale-behind-the-meter-data-center-campus-proposed-in-australias-northern-territories/"
+  ],
+  "notes": "Energy North proposes Project Ares, a 1GW hyperscale off-grid AI data centre campus on Murranji Station (19,150 ha, ~90 ha of data halls) in the Barkly Region, powered by gas, solar and battery infrastructure with water from the Montejinni Limestone Aquifer. NT EPA consultation was open from 8 Jul 2026 following submission of an EPBC referral; ABC (1 Jul 2026) and DCD report the proposal. Status = announced/under federal environmental assessment; 1GW is proposed total IT capacity, not built.",
+  "method_batch": true
+}

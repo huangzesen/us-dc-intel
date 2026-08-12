@@ -1,0 +1,22 @@
+{
+  "slug": "method-nz-chorus-tauranga-edgecentre-otumoetai",
+  "canonical_project": "Chorus Tauranga EdgeCentre (Otumoetai)",
+  "owner": "Chorus",
+  "location": {
+    "city": "",
+    "subnational": "Bay of Plenty",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.chorus.co.nz/enterprise/data-centre-connectivity/edgecentre",
+    "https://www.interest.co.nz/technology/126916/chorus-edgecentre-data-centres-exchanges-business-set-regional-growth",
+    "https://www.datacentermap.com/new-zealand/tauranga/chorus-otumoetai/"
+  ],
+  "notes": "Chorus official page confirms EdgeCentre in Tauranga (215 Otumoetai Road per directory); regional distributed edge data centre. MW not published.",
+  "method_batch": true
+}

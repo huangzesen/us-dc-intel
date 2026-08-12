@@ -1,0 +1,25 @@
+{
+  "slug": "method-az-azintelecom-yevlakh-reserve-data-center-rdc",
+  "canonical_project": "AzInTelecom Yevlakh Reserve Data Center (RDC)",
+  "owner": "AzInTelecom LLC",
+  "location": {
+    "city": "",
+    "subnational": "Yevlakh City",
+    "country": "Azerbaijan",
+    "country_code": "AZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mincom.gov.az/en/media-en/news/data-center-in-yevlakh-received-another-certificate1158",
+    "https://mincom.gov.az/en/media-en/news/azintelecoms-third-data-center-awarded-tier-iii-certification845",
+    "https://ats.uptimeinstitute.com/component/tierachievement/datacenter/yevlakh-reserve-data-center-rdc/1113",
+    "https://azertag.az/en/xeber/tier_3_design_certificate_given_to_new_data_centers_of_azintelecom-3119390",
+    "https://azertag.az/xeber/1122273",
+    "https://www.datacenters.com/azintelecom-llc-azintelecom-yevlakh-dc"
+  ],
+  "notes": "Backup/reserve data center of the state Government Cloud (AZCLOUD) in Yevlakh city. MINCOM 2021-01-25: awarded Tier 3 Facility certificate by Uptime Institute; AZERTAC 2024-07-31 confirms Yevlakh DC holds TIER 3 / TIER 3 Design certs alongside Baku; AZERTAC (Minister Ramin Guluzade) notes the Yevlakh city Reserve DATA Center was established. Operational status confirmed by constructed-facility certificate and MINCOM/AZERTAC. No capacity (MW) disclosed - null; facility is separate from Yevlakh district (no district-level facility found).",
+  "method_batch": true
+}

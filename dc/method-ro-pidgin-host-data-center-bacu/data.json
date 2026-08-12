@@ -1,0 +1,22 @@
+{
+  "slug": "method-ro-pidgin-host-data-center-bacu",
+  "canonical_project": "Pidgin Host Data Center (Bacu)",
+  "owner": "Pidgin Host SRL",
+  "location": {
+    "city": "",
+    "subnational": "Giurgiu",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.pidginhost.com/data-center/",
+    "https://www.pidginhost.com/about-pidgin-host/",
+    "https://www.datacentermap.com/romania/bucharest/"
+  ],
+  "notes": "Str. Antiaeriana 43C, Bacu, Giurgiu County (about 20 min south of Bucharest); privately-owned DC offering colocation, dedicated servers, cloud, kubernetes; dual feeds, UPS and diesel generators; hosting since 2011.",
+  "method_batch": true
+}

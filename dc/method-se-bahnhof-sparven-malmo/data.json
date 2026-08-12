@@ -1,0 +1,22 @@
+{
+  "slug": "method-se-bahnhof-sparven-malmo",
+  "canonical_project": "Bahnhof Sparven (Malmö)",
+  "owner": "Bahnhof AB",
+  "location": {
+    "city": "",
+    "subnational": "Scania",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": 4,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bahnhof.se/foretag/colocation/our-data-centers/",
+    "https://www.datacentermap.com/sweden/malmo/bahnhof-sparven/",
+    "https://www.datacenters.com/bahnhof-ab-sparven"
+  ],
+  "notes": "Bahnhof colocation facility in old telecom central at Storgatan 15B, Lugnet, Malmo. Listed on Bahnhof official site; fibre convergence point for southern Sweden/Scandinavia. Capacity 4 MW per third-party directory (C-grade figure).",
+  "method_batch": true
+}

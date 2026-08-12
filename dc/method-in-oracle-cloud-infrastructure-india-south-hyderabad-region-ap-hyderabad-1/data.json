@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-oracle-cloud-infrastructure-india-south-hyderabad-region-ap-hyderabad-1",
+  "canonical_project": "Oracle Cloud Infrastructure India South (Hyderabad) region ap-hyderabad-1",
+  "owner": "Oracle Corporation",
+  "location": {
+    "city": "",
+    "subnational": "Telangana - Hyderabad",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.oracle.com/in/cloud/public-cloud-regions/",
+    "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+  ],
+  "notes": "Official OCI region serving Hyderabad metro (operational since Oct 2022). Region-level A-grade existence evidence; physical campus address/district not published - city-level attribution to Hyderabad division, actual facility likely in Hyderabad metro (Rangareddy/Medchal) area.",
+  "method_batch": true
+}

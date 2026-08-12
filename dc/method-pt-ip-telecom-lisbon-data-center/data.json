@@ -1,0 +1,21 @@
+{
+  "slug": "method-pt-ip-telecom-lisbon-data-center",
+  "canonical_project": "IP Telecom Lisbon Data Center",
+  "owner": "IP Telecom / Infraestruturas de Portugal",
+  "location": {
+    "city": "",
+    "subnational": "Lisbon",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://iptelecom.pt/pt-pt/servicos/housing",
+    "https://www.iptelecom.pt/"
+  ],
+  "notes": "One of IP Telecom's 3 owned data centers (Lisbon, Porto, Viseu), ISO 27001 certified, 99.99% monthly availability, carrier-neutral housing/colo; part of national fibre backbone with 7 regional intervention centres. Operator page A for existence; no public MW.",
+  "method_batch": true
+}

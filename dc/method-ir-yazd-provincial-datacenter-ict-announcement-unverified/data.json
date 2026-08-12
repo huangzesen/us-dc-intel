@@ -1,0 +1,21 @@
+{
+  "slug": "method-ir-yazd-provincial-datacenter-ict-announcement-unverified",
+  "canonical_project": "Yazd provincial datacenter (ICT announcement, unverified)",
+  "owner": "Ministry of ICT / provincial ICT directorate",
+  "location": {
+    "city": "",
+    "subnational": "Yazd",
+    "country": "Iran",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://yazd.ict.gov.ir/",
+    "https://www.ict.gov.ir/fa/news/72974/"
+  ],
+  "notes": "Methodology notes official ICT opening/announcement pages for Yazd exist; this round could not confirm an operational facility. ICT ministry article on Yazd smart city quotes that datacenters under ~300 racks are not economically viable for a city of Yazd's scale (context). Recorded as unverified lead (C).",
+  "method_batch": true
+}

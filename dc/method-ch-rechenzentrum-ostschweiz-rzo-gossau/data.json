@@ -1,0 +1,21 @@
+{
+  "slug": "method-ch-rechenzentrum-ostschweiz-rzo-gossau",
+  "canonical_project": "Rechenzentrum Ostschweiz (RZO) Gossau",
+  "owner": "Rechenzentrum Ostschweiz AG (SAK / St. Galler Stadtwerke)",
+  "location": {
+    "city": "",
+    "subnational": "Sankt Gallen",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.rechenzentrum-ostschweiz.ch/",
+    "https://www.datacentermap.com/switzerland/gossau/rzo-gossau/"
+  ],
+  "notes": "Colocation datacenter at Gossau SG (second site Gais AR rated Tier IV per SAK); ~1 MW per directory; regional MSP/enterprise hosting for eastern Switzerland.",
+  "method_batch": true
+}

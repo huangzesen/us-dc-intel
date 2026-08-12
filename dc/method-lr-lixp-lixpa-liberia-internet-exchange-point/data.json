@@ -1,0 +1,22 @@
+{
+  "slug": "method-lr-lixp-lixpa-liberia-internet-exchange-point",
+  "canonical_project": "LIXP / LIXPA Liberia Internet Exchange Point",
+  "owner": "LTA / LIXPA (Liberia IXP Association)",
+  "location": {
+    "city": "",
+    "subnational": "Montserrado",
+    "country": "Liberia",
+    "country_code": "LR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://lta.gov.lr/lixp/",
+    "https://ccliberia.com/",
+    "https://teleceliberia.com/telecel-liberia-leads-the-charge/"
+  ],
+  "notes": "LTA official page confirms LIXP established 2015 as Liberia's first and only IXP; CCL provides LIXPA access; Telecel Liberia elected LIXPA chair (2025). PeeringDB locates LIXPA at CCL Building/Libtelco Compound, Lynch Street, Monrovia. IXP/interconnection node, not a standalone datacenter.",
+  "method_batch": true
+}

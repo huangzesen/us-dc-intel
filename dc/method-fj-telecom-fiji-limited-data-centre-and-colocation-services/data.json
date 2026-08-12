@@ -1,0 +1,21 @@
+{
+  "slug": "method-fj-telecom-fiji-limited-data-centre-and-colocation-services",
+  "canonical_project": "Telecom Fiji Limited data-centre and colocation services",
+  "owner": "Telecom Fiji Limited (TFL)",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Fiji",
+    "country_code": "FJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telecom.com.fj/business/ict-solutions/",
+    "https://www.telecom.com.fj/"
+  ],
+  "notes": "TFL official ICT Solutions page (methodology-verified 2026-08-12) confirms cloud services, co-location for disaster recovery, data centres, and hosted PABX. Grade A for service existence; physical site, address and capacity not disclosed. Suva locality from directories is Grade C only.",
+  "method_batch": true
+}

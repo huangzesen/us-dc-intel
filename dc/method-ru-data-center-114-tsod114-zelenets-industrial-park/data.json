@@ -1,0 +1,23 @@
+{
+  "slug": "method-ru-data-center-114-tsod114-zelenets-industrial-park",
+  "canonical_project": "DATA-CENTER 114 (TsOD114, Zelenets industrial park)",
+  "owner": "OOO EnergoArktika Inzhiniring",
+  "location": {
+    "city": "",
+    "subnational": "Komi",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 114,
+  "status": "construction",
+  "evidence_date": "2025-11-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://rcmm.ru/press-relizy/71860-v-industrialnom-parke-zelenec-nachali-stroitelstvo-nezavisimogo-data-centra-cod114.html",
+    "https://vc.ru/crypto/2332660-stroitelstvo-krupneyshego-mayningovogo-tsentra-v-komi-na-gazovoy-energii",
+    "https://datacenter114.com/",
+    "https://energyarctic.ru/projects/2222222222/"
+  ],
+  "notes": "Autonomous energy-independent data center in Zelenets industrial park, Komi Republic: 114 MW powered by local gas-piston generation; construction started Nov 2025; promoted as Russia's largest gas-powered data center, primarily mining/HPC workloads.",
+  "method_batch": true
+}

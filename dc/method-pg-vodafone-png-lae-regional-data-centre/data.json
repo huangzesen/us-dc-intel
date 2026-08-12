@@ -1,0 +1,21 @@
+{
+  "slug": "method-pg-vodafone-png-lae-regional-data-centre",
+  "canonical_project": "Vodafone PNG Lae regional data centre",
+  "owner": "Vodafone PNG (Digitec Communications)",
+  "location": {
+    "city": "",
+    "subnational": "Morobe",
+    "country": "Papua New Guinea",
+    "country_code": "PG"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2023-06-05",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.apacoutlookmag.com/telecoms/vodafone-png-a-network-of-possibilities",
+    "https://www.cybo.com/PG-biz/vodafone-data-centre-lae"
+  ],
+  "notes": "APAC Outlook (2023-06-05) reported Vodafone PNG's main data centre is in Port Moresby and regional data centres would commence in Lae and later Mount Hagen; a Cybo/Google business listing ('Vodafone Data Centre-LAE', Montoro St, Lae) suggests a named Lae facility exists (C-grade directory evidence). No MW capacity or completion date published; kept as planned telecom regional data centre per methodology (roadshow/MoU/plans != operational).",
+  "method_batch": true
+}

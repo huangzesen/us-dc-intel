@@ -1,0 +1,20 @@
+{
+  "slug": "method-af-dabs-tarakhil-disaster-recovery-data-center-plan",
+  "canonical_project": "DABS/Tarakhil Disaster Recovery data center (plan)",
+  "owner": "DABS (Afghanistan power utility) with USAID support",
+  "location": {
+    "city": "",
+    "subnational": "Kabul",
+    "country": "Afghanistan",
+    "country_code": "AF"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/usaid-plans-disaster-recovery-data-center-troubled-tarakhil-power-plant-afghanistan/"
+  ],
+  "notes": "DCD reported a USAID/DABS plan for a DR data center at Tarakhil Power Plant and an existing DABS data center at Chaman Hazouri, Kabul; plan evidence only - no completion proof found. Do not infer IT MW from power-plant capacity.",
+  "method_batch": true
+}

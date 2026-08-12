@@ -1,0 +1,22 @@
+{
+  "slug": "method-ir-asiatech-milad-tower-datacenter",
+  "canonical_project": "Asiatech Milad Tower Datacenter",
+  "owner": "Asiatech (Asiatech Data Processing Co.)",
+  "location": {
+    "city": "",
+    "subnational": "Tehran",
+    "country": "Iran",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.tasnimnews.ir/fa/news/1396/04/31/1471195/",
+    "https://webramz.com/blog/asiatech-datacenter",
+    "https://www.zoomit.ir/tech-iran/369225-arvan-first-report-cloud-attack-asiatech-datacenter/"
+  ],
+  "notes": "National datacenter inside Milad Tower, Tehran; reported at 2017 opening as >900 sqm (Tasnim B+); served as hosting site for ArvanCloud cloud servers (~7,000 cloud servers hosted there per Zoomit report B); cloud.ir is the product pivot; colocation resellers sell space at Milad Tower (C).",
+  "method_batch": true
+}

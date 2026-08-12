@@ -1,0 +1,21 @@
+{
+  "slug": "method-il-microsoft-azure-israel-central-region",
+  "canonical_project": "Microsoft Azure Israel Central Region",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Tel Aviv",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-08-06",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenters.microsoft.com/gl_regions/israelcentral/",
+    "https://news.microsoft.com/source/emea/features/microsoft-to-launch-new-cloud-datacenter-region-in-israel/"
+  ],
+  "notes": "Azure region 'Israel Central' (israelcentral) live; announced 2020 as first Israel cloud datacenter region; logical region only, facility sites/capacity not public.",
+  "method_batch": true
+}

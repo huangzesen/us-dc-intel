@@ -1,0 +1,22 @@
+{
+  "slug": "method-pl-polcom-data-center-skawina-dc1",
+  "canonical_project": "Polcom Data Center Skawina (DC1)",
+  "owner": "Polcom Sp. z o.o.",
+  "location": {
+    "city": "",
+    "subnational": "Lesser Poland",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 15.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://polcom.com.pl/o-firmie/data-center/data-center-skawina/",
+    "https://www.datacentermap.com/poland/krakow/polcom-data-center/",
+    "https://baxtel.com/data-center/krakow"
+  ],
+  "notes": "Polcom DC1 at Krakowska 43, Skawina (near Krakow), launched 2010; DataCenterMap/Baxtel list 15 MW. A for operator page (facility existence); 15 MW capacity is directory-sourced (C).",
+  "method_batch": true
+}

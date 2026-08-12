@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-goa-state-data-centre-tuem-pernem",
+  "canonical_project": "Goa State Data Centre, Tuem (Pernem)",
+  "owner": "Department of IT / Government of Goa",
+  "location": {
+    "city": "",
+    "subnational": "Goa - North Goa",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.tenderdetail.com/State-tenders/goa-tenders/data-entry-tenders",
+    "https://www.goa.gov.in/wp-content/uploads/2021/03/IT-Vision-Mission-Document.pdf"
+  ],
+  "notes": "State DC at Tuem, Pernem (North Goa) development; transaction-advisory RFP for SDC at Tuem found on tender aggregator, and Goa IT Vision document references SDC migration to NIC cloud. Commercial/hyperscale DCs unlikely in Goa (DR/edge only per methodology).",
+  "method_batch": true
+}

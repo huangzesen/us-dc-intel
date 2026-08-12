@@ -1,0 +1,22 @@
+{
+  "slug": "method-ro-sts-cds-ii-sibiu-node-cpg-sibiu-tier-iii",
+  "canonical_project": "STS CDS II Sibiu / node CPG Sibiu (Tier III)",
+  "owner": "Serviciul de Telecomunicatii Speciale (STS)",
+  "location": {
+    "city": "",
+    "subnational": "Sibiu",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://sts.ro/en/centrul-de-servicii-esentiale-it-c-al-sts-inaugurat-la-sibiu/",
+    "https://economedia.ro/video-interviu-cand-am-putea-avea-cu-adevarat-digitalizare-la-interactiunea-cu-statul-in-romania-dragos-vlad-adr-2026-poate-fi-inceputul-proiectului-de-portofel-digital-vezi-care-e-stadiul-proiectului.html",
+    "https://www.turnulsfatului.ro/2023/03/01/patru-milioane-de-euro-sts-amenajeaza-la-sibiu-o-parte-din-viitorul-rdquo-cloud-privat-guvernamental-rdquo-200991"
+  ],
+  "notes": "STS essential IT services center (CDS II) in Sibiu, Uptime-certified; ADR interview (Dragos Vlad) confirms Sibiu CPG node Tier III operational among 3 of 4 government-cloud nodes in service.",
+  "method_batch": true
+}

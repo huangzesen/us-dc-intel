@@ -1,0 +1,21 @@
+{
+  "slug": "method-id-microsoft-indonesia-central-region-karawang-data-center",
+  "canonical_project": "Microsoft Indonesia Central region / Karawang data center",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "West Java",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": 48,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/id-id/2025/05/27/microsoft-opens-indonesia-central/",
+    "https://internationalinvestment.biz/en/indonesia/7791-indonesia-pushes-deeper-into-data-centers.html"
+  ],
+  "notes": "Microsoft Indonesia Central cloud region (West Java, 3 AZ) opened 27 May 2025 (official A for region existence). Press/B reports 48MW data center under construction in Karawang International Industrial City (KIIC) as part of US$1.7bn investment; W.Media reports 200MW renewables secured Feb 2026. Physical Karawang facility is B-grade (trade press) pending permit/PLN corroboration.",
+  "method_batch": true
+}

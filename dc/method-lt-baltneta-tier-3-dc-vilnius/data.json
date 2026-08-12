@@ -1,0 +1,23 @@
+{
+  "slug": "method-lt-baltneta-tier-3-dc-vilnius",
+  "canonical_project": "Baltneta Tier 3 DC (Vilnius)",
+  "owner": "Baltnetos komunikacijos (Baltneta)",
+  "location": {
+    "city": "",
+    "subnational": "Vilnius County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.balt.net/duomenu-centro-ploto-nuoma",
+    "https://www.balt.net/duomenu-centras-duomenu-centro-infrastruktura",
+    "https://www.statybunaujienos.lt/naujiena/Vilniuje-statomas-didziausias-Lietuvoje-duomenu-centras/11545",
+    "https://madeinvilnius.lt/verslas/vilniaus-rinka/baltneta-uzbaige-liepkalnio-duomenu-centro-pletros-etapa/"
+  ],
+  "notes": "Certified Tier3 DC in dedicated Vilnius building, 96 cabinets, 99.982% SLA (operator page); directory address Paneriu g. 26 (C); Liepkalnis site expansion (~EUR 3M, 'largest in Lithuania' at the time) completed per local press; address verification via Infostatyba still pending.",
+  "method_batch": true
+}

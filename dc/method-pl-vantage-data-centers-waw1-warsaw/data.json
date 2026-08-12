@@ -1,0 +1,20 @@
+{
+  "slug": "method-pl-vantage-data-centers-waw1-warsaw",
+  "canonical_project": "Vantage Data Centers WAW1 (Warsaw)",
+  "owner": "Vantage Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 48.0,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vantage-dc.com/data-center-locations/emea/warsaw-poland/"
+  ],
+  "notes": "Vantage WAW1 campus near Warsaw with 48 MW planned/critical IT load per official Vantage page. Construction/progress per operator releases; capacity is marketed/planned.",
+  "method_batch": true
+}

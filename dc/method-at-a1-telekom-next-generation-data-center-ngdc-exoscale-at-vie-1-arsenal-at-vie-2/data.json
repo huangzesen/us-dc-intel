@@ -1,0 +1,22 @@
+{
+  "slug": "method-at-a1-telekom-next-generation-data-center-ngdc-exoscale-at-vie-1-arsenal-at-vie-2",
+  "canonical_project": "A1 Telekom Next Generation Data Center (NGDC) / Exoscale AT-VIE-1 Arsenal & AT-VIE-2",
+  "owner": "A1 Telekom Austria / Exoscale",
+  "location": {
+    "city": "",
+    "subnational": "Vienna",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.exoscale.com/datacenters/austria/",
+    "https://www.a1.net/business/digitale-loesungen/enterprise-loesungen/it-infrastruktur-loesungen/hybrid-cloud-datacenter/a1-datacenter-services",
+    "https://www.a1.digital/de/presse/a1-exoscale-public-cloud-zone/"
+  ],
+  "notes": "Exoscale operator page: AT-VIE-1 hosted by A1 Telekom in Arsenal (Objekt 24, Vienna, former military building), AT-VIE-2 in A1 Next Generation Data Center (NGDC), Vienna; N+1 redundancy, ISO 27001. A1 Digital states Vienna DC is one of 14 A1 datacenters in Austria with coverage in every provincial capital (A for the coverage statement; local facility details in other states need separate proof).",
+  "method_batch": true
+}

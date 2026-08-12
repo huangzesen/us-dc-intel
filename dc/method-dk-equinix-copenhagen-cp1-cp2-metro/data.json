@@ -1,0 +1,23 @@
+{
+  "slug": "method-dk-equinix-copenhagen-cp1-cp2-metro",
+  "canonical_project": "Equinix Copenhagen (CP1/CP2 metro)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Capital Region",
+    "country": "Denmark",
+    "country_code": "DK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation",
+    "https://check-host.cc/id/ping/denmark",
+    "https://www.datacentermap.com/denmark/copenhagen/",
+    "https://www.datacentermap.com/c/equinix/"
+  ],
+  "notes": "Equinix Europe colocation page (A) confirms Copenhagen presence; Check-Host and Data Center Map (C) reference Equinix CPH facilities/IX. Specific CP1/CP2 IBX pages returned 403 in prior checks - facility-level details U pending manual verification per methodology.",
+  "method_batch": true
+}

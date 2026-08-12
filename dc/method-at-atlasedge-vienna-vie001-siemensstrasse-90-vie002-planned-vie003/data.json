@@ -1,0 +1,22 @@
+{
+  "slug": "method-at-atlasedge-vienna-vie001-siemensstrasse-90-vie002-planned-vie003",
+  "canonical_project": "AtlasEdge Vienna VIE001 (Siemensstrasse 90) / VIE002 planned / VIE003",
+  "owner": "AtlasEdge",
+  "location": {
+    "city": "",
+    "subnational": "Vienna",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": 2.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://atlasedge.com/data-centres/vienna/",
+    "https://telecomtalk.info/atlasedge-enters-austria-datacenter-acquisition-in-vienna/924338/",
+    "https://www.ocolo.io/colocation/atlasedge-data-centres/"
+  ],
+  "notes": "AtlasEdge official page lists VIE001 in operation at Siemensstrasse 90, Building 38, 1210 Vienna with >900 sqm IT space and alternative carrier routing; data center map reports 2 MVA power (C). VIE002 listed planned by AtlasEdge; VIE003 (Leopoldine-Padaurek-Str. 14, 1210) appears in colocation directories. Acquisition from Siemens Campus Vienna-Floridsdorf with expansion to 10 MW reported (B).",
+  "method_batch": true
+}

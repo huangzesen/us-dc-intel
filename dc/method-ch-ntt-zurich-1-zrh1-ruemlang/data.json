@@ -1,0 +1,22 @@
+{
+  "slug": "method-ch-ntt-zurich-1-zrh1-ruemlang",
+  "canonical_project": "NTT Zurich 1 (ZRH1, Ruemlang)",
+  "owner": "NTT DATA (Global Data Centers)",
+  "location": {
+    "city": "",
+    "subnational": "Zurich",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.peeringdb.com/org/491",
+    "https://www.swissix.ch/infrastructure/site-specific-notes/",
+    "https://3366455.fs1.hubspotusercontent-eu1.net/hubfs/3366455/08_Miscellaneous/Download+Center/01_Data+center+Factsheet/Datacenter_Factsheet_EN.pdf"
+  ],
+  "notes": "NTT Ruemlang facility (Hofwisenstrasse); ~6,500 m2 per NTT factsheet; methodology cites 10,500+ m2 / 20 MW IT load; SwissIX PoP on site.",
+  "method_batch": true
+}

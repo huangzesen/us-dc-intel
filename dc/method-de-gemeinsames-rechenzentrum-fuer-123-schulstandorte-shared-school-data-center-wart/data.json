@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-gemeinsames-rechenzentrum-fuer-123-schulstandorte-shared-school-data-center-wart",
+  "canonical_project": "Gemeinsames Rechenzentrum fuer 123 Schulstandorte (shared school data center Wartburgkreis / Schmalkalden-Meiningen)",
+  "owner": "Landkreis Wartburgkreis / Landkreis Schmalkalden-Meiningen (shared school-IT data center)",
+  "location": {
+    "city": "",
+    "subnational": "Thuringia - Wartburgkreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-09-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.wartburgkreis.de/landratsamt/medien/medieninformationen/gemeinsames-rechenzentrum-fuer-123-schulstandorte-im-wartburgkreis-und-schmalkalden-meiningen",
+    "https://www.insuedthueringen.de/inhalt.schul-rechenzentrum-ein-meilenstein-fuer-die-digitale-schule.c2230152-b37e-453b-8572-97b8998a42de.html"
+  ],
+  "notes": "District media information (2021) describes a shared Rechenzentrum serving 123 school sites across Wartburgkreis and Schmalkalden-Meiningen; insuedthueringen reporting calls the Schul-Rechenzentrum a milestone for the digital school. Public-sector administrative data-center record; physical hosting may partly run via external providers (KitS/Thueringer Rechenzentrum), so capacity and exact site are not published.",
+  "method_batch": true
+}

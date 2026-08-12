@@ -1,0 +1,22 @@
+{
+  "slug": "method-ru-yandex-data-center-mikrorayon-energetik-vladimir",
+  "canonical_project": "Yandex data center (mikrorayon Energetik, Vladimir)",
+  "owner": "Yandex",
+  "location": {
+    "city": "",
+    "subnational": "Vladimir",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.hakamoscow.ru/projects/yandex/",
+    "https://infra.yandex.ru/datacenters",
+    "https://yandex.ru/jobs/locations/vladimir"
+  ],
+  "notes": "Yandex-owned data center in Vladimir (mikrorayon Energetik), built by general contractor HAKA: 2,880 racks, 14.48 ha site, constructed in ~11 months; Yandex careers/infrastructure pages confirm an active DC location in Vladimir. One of Yandex's largest Russian DCs outside Moscow region.",
+  "method_batch": true
+}

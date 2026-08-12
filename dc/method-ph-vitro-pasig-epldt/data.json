@@ -1,0 +1,22 @@
+{
+  "slug": "method-ph-vitro-pasig-epldt",
+  "canonical_project": "VITRO Pasig (ePLDT)",
+  "owner": "ePLDT / VITRO Inc.",
+  "location": {
+    "city": "",
+    "subnational": "National Capital Region",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacentermap.com/philippines/manila/epldt-vitro-pasig/",
+    "https://auth.peeringdb.com/fac/4810",
+    "https://telecomdrive.com/epldt-schneider-electric-partner-to-transform-purpose-built-data-center-in-the-philippines/"
+  ],
+  "notes": "VITRO Pasig operational since 2000 (Canley Road corner C.P. Garcia Ave, Pasig, NCR); PeeringDB lists 30 networks/5 local exchanges; continuous operation confirmed by ePLDT-Schneider Electric transformation coverage. Capacity not published - null.",
+  "method_batch": true
+}

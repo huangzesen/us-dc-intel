@@ -1,0 +1,21 @@
+{
+  "slug": "method-bf-essor-services-kaia-energy-waste-to-energy-data-center",
+  "canonical_project": "Essor Services / Kaia Energy waste-to-energy data center",
+  "owner": "Essor Services (with Kaia Energy)",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Burkina Faso",
+    "country_code": "BF"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2024-07-24",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/burkina-faso-to-launch-data-center-powered-by-waste-to-energy-plant/",
+    "https://www.wearetech.africa/fr/fils/actualites/tech/burkina-faso-vers-la-construction-d-un-centre-de-donnees-ecologique"
+  ],
+  "notes": "Announced Jul 2024: data center powered by ~12 MW waste-to-energy plant (12 MW is plant capacity, not DC IT load); completion targeted Nov 2025. Site not public; no EIA/permit/construction evidence found as of Aug 2026 - kept speculative.",
+  "method_batch": true
+}

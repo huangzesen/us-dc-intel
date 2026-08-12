@@ -1,0 +1,20 @@
+{
+  "slug": "method-se-digital-realty-interxion-stockholm-sto1-sto6-kista-akalla",
+  "canonical_project": "Digital Realty / Interxion Stockholm (STO1-STO6, Kista/Akalla)",
+  "owner": "Digital Realty (formerly Interxion)",
+  "location": {
+    "city": "",
+    "subnational": "Stockholm",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.digitalrealty.com/data-centers/emea/stockholm"
+  ],
+  "notes": "Digital Realty official Stockholm page lists six Kista/Akalla facilities (STO1-STO6), ~25,000 m2 colocation, 115+ cloud/network providers. Legacy Interxion names normalized to Digital Realty per methodology de-dup rule.",
+  "method_batch": true
+}

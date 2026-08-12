@@ -1,0 +1,22 @@
+{
+  "slug": "method-pt-aws-lisbon-local-zone-aws-european-sovereign-cloud",
+  "canonical_project": "AWS Lisbon Local Zone (AWS European Sovereign Cloud)",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Lisbon",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.techenet.com/2026/04/aws-european-sovereign-cloud-portugal/",
+    "https://www.itinsight.pt/news/inovacao/aws-lanca-cloud-soberana-e-aposta-em-portugal-com-local-zone",
+    "https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/"
+  ],
+  "notes": "AWS announced Lisbon, Portugal Local Zone (eusc-de-east-1-lis-1a) under the AWS European Sovereign Cloud Germany parent region; presented in Lisbon 20 April 2026 with the Portuguese government; estimated ~EUR 3bn GDP impact and 17,000+ jobs. Cloud edge/connectivity signal - not a full AWS Region; official region lists show no standard AWS/Azure/GCP/OCI Portugal public region.",
+  "method_batch": true
+}

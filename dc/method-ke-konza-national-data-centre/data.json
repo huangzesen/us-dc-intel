@@ -1,0 +1,23 @@
+{
+  "slug": "method-ke-konza-national-data-centre",
+  "canonical_project": "Konza National Data Centre",
+  "owner": "Konza Technopolis Development Authority (KoTDA); Huawei Cloud Stack technology partner",
+  "location": {
+    "city": "",
+    "subnational": "Kajiado",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://konza.go.ke/konza-cloud/",
+    "https://en.wikipedia.org/wiki/Konza_Technopolis",
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/konza-national-data-center/1230",
+    "https://www.huaweicloud.com/intl/en-us/cases/konzacloud.html"
+  ],
+  "notes": "Konza National Data Centre is a Uptime Tier III (design+construction) government cloud/colocation facility at Konza Technopolis; Konza's planning zone spans Machakos/Makueni/Kajiado counties (Wikipedia), so included for Kajiado with boundary caveat - same canonical project also recorded under Machakos and Makueni. No public MW capacity found.",
+  "method_batch": true
+}

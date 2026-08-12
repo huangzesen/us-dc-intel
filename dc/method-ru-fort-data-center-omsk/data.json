@@ -1,0 +1,20 @@
+{
+  "slug": "method-ru-fort-data-center-omsk",
+  "canonical_project": "Fort data center (Omsk)",
+  "owner": "Complex Information Technologies and Systems LLC",
+  "location": {
+    "city": "",
+    "subnational": "Omsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 0.16,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://alldc.ru/dcs/cod/784.html"
+  ],
+  "notes": "Small commercial data center 'Fort' in Omsk listed on allDC directory; weak aggregate source.",
+  "method_batch": true
+}

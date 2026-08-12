@@ -1,0 +1,22 @@
+{
+  "slug": "method-fr-equinix-saint-denis-campus-pa3-pa10-pa5-aubervilliers",
+  "canonical_project": "Equinix Saint-Denis campus (PA3, PA10, PA5 Aubervilliers)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Seine-Saint-Denis",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenters.com/locations?query=ile-de-france",
+    "https://baxtel.com/data-center/etix-paris-2-saint-denis",
+    "https://blog.datacenter-paris.com/2026/01/27/datacenters-a-aubervilliers-equinix-pa5-telehouse-et-alternatives-en-seine-saint-denis/"
+  ],
+  "notes": "Equinix PA3 (114 rue Ambroise Croizat, Saint-Denis), PA10 and PA5 (Aubervilliers) operational carrier-neutral colocation; Seine-Saint-Denis hosts ~23 operating DCs - Europe's densest data-storage concentration (0.8 TWh consumption 2024).",
+  "method_batch": true
+}

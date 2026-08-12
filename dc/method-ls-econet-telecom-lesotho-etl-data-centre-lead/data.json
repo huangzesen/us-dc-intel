@@ -1,0 +1,21 @@
+{
+  "slug": "method-ls-econet-telecom-lesotho-etl-data-centre-lead",
+  "canonical_project": "Econet Telecom Lesotho (ETL) data centre lead",
+  "owner": "Econet Telecom Lesotho (ETL)",
+  "location": {
+    "city": "",
+    "subnational": "Maseru",
+    "country": "Lesotho",
+    "country_code": "LS"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.etl.co.ls/",
+    "http://www.lixp.org.ls/"
+  ],
+  "notes": "ETL is a licensed incumbent and LIXP peer with Maseru operations, but no named datacenter facility was found in official/operator pages or press as of 2026-08-12. Weak lead; needs ETL/LCA/land/power evidence to upgrade.",
+  "method_batch": true
+}

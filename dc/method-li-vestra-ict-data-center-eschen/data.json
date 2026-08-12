@@ -1,0 +1,22 @@
+{
+  "slug": "method-li-vestra-ict-data-center-eschen",
+  "canonical_project": "vestra ICT Data Center Eschen",
+  "owner": "vestra ICT AG / plus.li",
+  "location": {
+    "city": "",
+    "subnational": "Eschen",
+    "country": "Liechtenstein",
+    "country_code": "LI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://vestra-ict.net/",
+    "https://www.datacentermap.com/liechtenstein/vaduz/vestra-ict-eschen/",
+    "https://www.ripe.net/membership/member-support/list-of-members/li/vestra/"
+  ],
+  "notes": "vestra ICT official site states 'Unsere Rechenzentren in Eschen und Vaduz' (A operator-stated existence of Eschen+Vaduz DCs); Data Center Map directory seed places the Eschen site at Hub 37 (C); RIPE member record gives vestra address Landstrasse 107, 9490 Vaduz (A entity address). Exact Eschen address and specs need commune/AHR permit confirmation.",
+  "method_batch": true
+}

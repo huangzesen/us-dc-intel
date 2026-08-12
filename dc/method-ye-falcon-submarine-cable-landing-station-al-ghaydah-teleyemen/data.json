@@ -1,0 +1,22 @@
+{
+  "slug": "method-ye-falcon-submarine-cable-landing-station-al-ghaydah-teleyemen",
+  "canonical_project": "FALCON submarine cable landing station, Al Ghaydah (TeleYemen)",
+  "owner": "TeleYemen / FALCON (FLAG) consortium",
+  "location": {
+    "city": "",
+    "subnational": "Mahra",
+    "country": "Yemen",
+    "country_code": "YE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/systems/asia-europe-africa/falcon",
+    "https://www.datacenterdynamics.com/en/analysis/the-houthis-and-the-red-sea-a-new-risk-to-subsea-cables/",
+    "https://www.fiberatlantic.com/cls/2vnN"
+  ],
+  "notes": "Control side: Mahra under Saudi-led-coalition-backed local administration (DCD: FALCON lands in Al Ghaydah, currently under Saudi-led coalition control). Submarine Networks lists TeleYemen Al Ghaydah cable landing station for FALCON (B/A for existence); World Bank 2023 broadband-redundancy study treated FALCON as one of Yemen's only two active subsea cables. Landing station is a small strategic connectivity facility, not a commercial DC; no capacity data.",
+  "method_batch": true
+}

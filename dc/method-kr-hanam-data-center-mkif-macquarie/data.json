@@ -1,0 +1,21 @@
+{
+  "slug": "method-kr-hanam-data-center-mkif-macquarie",
+  "canonical_project": "Hanam Data Center (MKIF/Macquarie)",
+  "owner": "IGIS Asset Management / Macquarie Korea Infrastructure Fund; LG CNS tenant",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Hanam-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 40,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mkif.com/ko/assets/hanam-data-center.html",
+    "https://www.macquarie.com/us/en/about/news/2024/macquarie-asset-management-acquires-hanam-data-centre-in-korea.html"
+  ],
+  "notes": "Pungsan-dong, Hanam-si; total receiving capacity 40MW, target IT load 25.44MW, 41,919 sqm, 12 floors; completed Nov 2023; MKIF asset page confirms hyperscale Tier 3 scale.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-au-greensquaredc-wai1-data-centre-campus-abernethy-road",
+  "canonical_project": "GreenSquareDC WAi1 data centre campus (Abernethy Road)",
+  "owner": "GreenSquareDC",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Belmont",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 96,
+  "status": "approved",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/new-company-planning-96mw-data-center-site-in-perth-australia/",
+    "https://www.datacenterdynamics.com/en/news/greensquaredc-granted-planning-permission-for-96mw-data-center-in-perth-australia/",
+    "https://www.perthnow.com.au/wa/perth/central/southern/state-planners-approve-plans-for-600-million-data-centre-on-abernethy-road-in-belmont-c-8568277",
+    "https://www.datacenterdynamics.com/en/news/australias-greensquaredc-leases-land-to-develop-a-wind-solar-park-to-power-perth-data-center/"
+  ],
+  "notes": "GreenSquareDC's first WA campus at 37-39 Abernethy Road, Belmont: DCD (Oct 2022) reported a 96MW, AU$600m application lodged via Urbis; state planners (DAP pathway) approved the four-storey, ~68,000 sqm GFA data centre (perthnow, Oct 2022). In Aug 2023 GreenSquareDC leased adjacent land for a wind/solar park to power the Perth campus. No public evidence found that the Belmont campus reached construction or operation; datacentermap/ocolo list WAi1 at 96MW. Capacity is approved/ultimate campus capacity, not operational IT load.",
+  "method_batch": true
+}

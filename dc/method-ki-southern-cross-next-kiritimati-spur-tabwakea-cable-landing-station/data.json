@@ -1,0 +1,23 @@
+{
+  "slug": "method-ki-southern-cross-next-kiritimati-spur-tabwakea-cable-landing-station",
+  "canonical_project": "Southern Cross NEXT Kiritimati spur - Tabwakea Cable Landing Station",
+  "owner": "Southern Cross Cable Network; landing station operated by BwebwerikiNet Limited (BNL)",
+  "location": {
+    "city": "",
+    "subnational": "Line Islands",
+    "country": "Kiribati",
+    "country_code": "KI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Kiritimati",
+    "https://www.submarinenetworks.com/en/systems/trans-pacific/southern-cross-next/southern-cross-next-cable-system-overview",
+    "https://geocables.com/cable/southern-cross-next",
+    "https://www.adb.org/sites/default/files/project-documents/50348/50348-001-iee-en.pdf"
+  ],
+  "notes": "Cable landing station (asset class: cable landing / interconnection anchor, NOT a datacenter). Dedicated 377 km one-fibre-pair branch of Southern Cross NEXT to Tabwakea, Kiritimati (Line Islands), in service since July 2022; BNL operates/maintains the CLS (ADB IEE 50348-001; BNL LinkedIn; Submarine Networks; GeoCables). Station serves both Vodafone and Ocean Link mobile services on Kiritimati. NO datacenter facility or DC proposal verified in the Line Islands as of 2026-08-12 (diesel/solar power limits, no public proposal); World Bank US$110M Kiritimati growth grant (Feb 2025) is transport/economic-development context, not a datacenter project.",
+  "method_batch": true
+}

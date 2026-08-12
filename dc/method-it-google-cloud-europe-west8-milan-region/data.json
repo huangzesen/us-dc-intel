@@ -1,0 +1,21 @@
+{
+  "slug": "method-it-google-cloud-europe-west8-milan-region",
+  "canonical_project": "Google Cloud europe-west8 Milan region",
+  "owner": "Google Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Lombardy",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/about/locations",
+    "https://docs.cloud.google.com/compute/docs/regions-zones"
+  ],
+  "notes": "GCP europe-west8 (Milan) region - official region page; regional availability signal, underlying hosting via partners (Noovle/TIM) per methodology.",
+  "method_batch": true
+}

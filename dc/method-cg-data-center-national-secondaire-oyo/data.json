@@ -1,0 +1,20 @@
+{
+  "slug": "method-cg-data-center-national-secondaire-oyo",
+  "canonical_project": "Data center national secondaire - Oyo",
+  "owner": "Government of Congo (tender)",
+  "location": {
+    "city": "",
+    "subnational": "Cuvette",
+    "country": "Congo",
+    "country_code": "CG"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.agenceecofin.com/breves-telecom/2502-95380-congo-12-societes-se-disputent-le-marche-de-construction-des-deux-centres-de-donnees-nationaux"
+  ],
+  "notes": "Secondary national datacenter planned at Oyo (Cuvette): Feb 2022 tender had separate lots for the main DC (Brazzaville) and the secondary DC (Oyo) with six companies bidding for Oyo lot (per Agence Ecofin). No public award/construction/operation evidence found in this pass; methodology treats third planned CGIX at Oyo as interconnection lead only. Do not upgrade without award/site/construction evidence.",
+  "method_batch": true
+}

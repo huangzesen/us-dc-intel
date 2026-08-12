@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-leading-edge-data-centres-newcastle-mayfield-west",
+  "canonical_project": "Leading Edge Data Centres Newcastle (Mayfield West)",
+  "owner": "Leading Edge Data Centres (LEDC)",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Newcastle",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.rackcorp.com/network/datacenters/australia/newcastle-leading-edge/",
+    "https://martechmunch.com/leading-edge-new-data-centre-new-south-wales/",
+    "https://w.media/digitalbridge-group-to-invest-30-million-in-leading-edge-data-centres/"
+  ],
+  "notes": "Regional Tier III edge colocation at Mayfield West, Newcastle LGA; ~75-rack edge facility; LEDC announced a $19.6m Newcastle/Hunter investment covering four 375kW facilities (1.5MW total). LEDC Newcastle, Tamworth, Dubbo and Albury reported operational per DigitalBridge-backed build-out; no large hyperscale project found in Newcastle LGA.",
+  "method_batch": true
+}

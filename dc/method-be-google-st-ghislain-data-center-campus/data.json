@@ -1,0 +1,21 @@
+{
+  "slug": "method-be-google-st-ghislain-data-center-campus",
+  "canonical_project": "Google St. Ghislain data center campus",
+  "owner": "Google",
+  "location": {
+    "city": "",
+    "subnational": "Wallonia",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-10-07",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenters.google/locations/belgium",
+    "https://www.googlecloudpresscorner.com/2025-10-07-Google-Announces-New-EUR5-Billion-AI-Infrastructure-Investment-in-Belgium-through-2027"
+  ],
+  "notes": "Saint-Ghislain (Hainaut), Google Cloud europe-west1 region anchor; operational. Google announced EUR 5B Belgium AI/cloud infrastructure investment (Oct 2025, through 2027) covering St. Ghislain campus expansion and new Wallonia sites.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-qa-quantum-switch-doa-a-doa-b-doha-colocation",
+  "canonical_project": "Quantum Switch DOA-A / DOA-B (Doha colocation)",
+  "owner": "Quantum Switch Tamasuk",
+  "location": {
+    "city": "",
+    "subnational": "Doha",
+    "country": "Qatar",
+    "country_code": "QA"
+  },
+  "capacity_mw": 6,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/qatar/doha/quantum-switch-doa-a/",
+    "https://www.datacenters.com/quantum-switch-quantum-switch-doa-a-doha-qatar"
+  ],
+  "notes": "Directory evidence: Quantum Switch DOA-A in Doha with 6 MW total capacity (3 MW reserved, potential site expansion to 24 MW); second facility DOA-B also in Doha (PeeringDB org 34363). A 2026 LinkedIn post by a Quantum Switch employee mentions Doha expansion works adding 4.5 MW. Directory/social grade; facility not independently verified.",
+  "method_batch": true
+}

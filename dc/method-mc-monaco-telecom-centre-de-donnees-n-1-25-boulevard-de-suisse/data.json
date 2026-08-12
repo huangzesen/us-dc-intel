@@ -1,0 +1,21 @@
+{
+  "slug": "method-mc-monaco-telecom-centre-de-donnees-n-1-25-boulevard-de-suisse",
+  "canonical_project": "Monaco Telecom Centre de donnees n.1 (25 boulevard de Suisse)",
+  "owner": "Monaco Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Monte-Carlo",
+    "country": "Monaco",
+    "country_code": "MC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://monaco-telecom.mc/wp-content/uploads/2025/10/Certificats-MT.pdf",
+    "https://monaco-telecom.mc/en/data-center/"
+  ],
+  "notes": "2025 ISO/HDS certificate lists 25 boulevard de Suisse, 98000 Monaco as Centre de donnees n.1. Boulevard de Suisse is at the Monte-Carlo/Sainte-Devote boundary; assigned to Monte-Carlo per methodology default, verify against repo quarter geometry.",
+  "method_batch": true
+}

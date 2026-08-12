@@ -1,0 +1,23 @@
+{
+  "slug": "method-mm-true-idc-myanmar-mict-park",
+  "canonical_project": "True IDC Myanmar (MICT Park)",
+  "owner": "True IDC Myanmar Co., Ltd (Ascend Group)",
+  "location": {
+    "city": "",
+    "subnational": "Yangon",
+    "country": "Myanmar",
+    "country_code": "MM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.trueidc.com/en/myanmar",
+    "https://trueidc.com/en/news-detail/84/TrueIDC-Myanmar",
+    "https://www.peeringdb.com/fac/5031",
+    "https://www.datacenterjournal.com/true-internet-data-center-myanmar/"
+  ],
+  "notes": "First commercial data center in Myanmar, established 2015; Building 17, Ground Floor, MICT Park, Hlaing Township, Yangon. Operator page (A) confirms colo/managed services; PeeringDB facility 5031 (A) maps MMIX Yangon exchange to this facility. SLA/certification marketing claims (Uptime, ISO/IEC 20000-1, PCI DSS) are B-grade until certificates verified. Do not double count MMIX Yangon as a separate DC.",
+  "method_batch": true
+}

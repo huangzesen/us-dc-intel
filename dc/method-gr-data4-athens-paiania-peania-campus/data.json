@@ -1,0 +1,22 @@
+{
+  "slug": "method-gr-data4-athens-paiania-peania-campus",
+  "canonical_project": "DATA4 Athens / Paiania (Peania) Campus",
+  "owner": "DATA4",
+  "location": {
+    "city": "",
+    "subnational": "Attica",
+    "country": "Greece",
+    "country_code": "GR"
+  },
+  "capacity_mw": 90.0,
+  "status": "construction",
+  "evidence_date": "2024-09-20",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.data4group.com/en/news-data4/data4-announces-major-investment-of-300-million-euros-in-greece-to-develop-new-data-center-campus/",
+    "https://www.data4group.com/en/data-center-athens-greece/",
+    "https://www.datacentermap.com/greece/athens/data4-athens-dc2/"
+  ],
+  "notes": "DATA4 announced a EUR 300m campus in Paiania (Agiou Louka 33, Peania) with 7.5 ha land and 90 MW available electricity reserves (official announcement A); DCD reported groundbreaking; DC1 first phase ~15 MW / 5,200 m2 (Hill, B). Campus 90 MW is the available-power figure (marketing/grid reserve) - separate from built capacity. Verify permits before counting further phases.",
+  "method_batch": true
+}

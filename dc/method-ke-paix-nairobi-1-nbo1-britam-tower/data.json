@@ -1,0 +1,22 @@
+{
+  "slug": "method-ke-paix-nairobi-1-nbo1-britam-tower",
+  "canonical_project": "PAIX Nairobi-1 (NBO1) Britam Tower",
+  "owner": "PAIX Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Nairobi City",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.paix.io/kenya",
+    "https://cioafrica.co/paix-announces-the-commencement-of-paix-nairobi-1-data-center-at-nairobis-britam-towers/",
+    "https://www.irei.com/news/paix-build-data-center-nairobi/"
+  ],
+  "notes": "PAIX Nairobi-1 at Britam Tower, Upper Hill: 240 cabinets, ~1.5 MVA total power, opened November 2020; official PAIX page describes NBO-1 as Nairobi's best-connected DC with access to KIXP, Nairobi-IX and major carriers; LINX Nairobi expanded its fabric to PAIX NBO-1.",
+  "method_batch": true
+}

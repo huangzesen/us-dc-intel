@@ -1,0 +1,20 @@
+{
+  "slug": "method-am-datacom-adc-core-network-data-center",
+  "canonical_project": "Datacom / ADC Core Network data center",
+  "owner": "Armenian Datacom Company (ADC)",
+  "location": {
+    "city": "",
+    "subnational": "Yerevan",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/armenia/yerevan/"
+  ],
+  "notes": "Historical directory/trade lead for a Yerevan facility; C-grade until current operator page, permit, or procurement evidence appears; not independently re-verified this run (directory page rate-limited).",
+  "method_batch": true
+}

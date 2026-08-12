@@ -1,0 +1,21 @@
+{
+  "slug": "method-cm-mtn-cameroon-yaounde-dc",
+  "canonical_project": "MTN Cameroon Yaoundé DC",
+  "owner": "MTN Cameroon",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/CM",
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/yaound-dc/2228"
+  ],
+  "notes": "Uptime Institute Cameroon awards list (checked 2026-08-12) records MTN Cameroon / Yaoundé DC with Tier III Certification of Design Documents only. Per CM methodology, design-award is NOT operational/commercial evidence: status kept as planned/design-awarded (correction vs earlier round-1 record that marked operational). Exact site in Yaoundé unknown. Grade A for the Uptime design-award existence; C for any operational claim (none found).",
+  "method_batch": true
+}

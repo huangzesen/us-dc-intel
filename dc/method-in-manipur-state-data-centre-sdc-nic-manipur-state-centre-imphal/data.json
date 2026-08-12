@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-manipur-state-data-centre-sdc-nic-manipur-state-centre-imphal",
+  "canonical_project": "Manipur State Data Centre (SDC) / NIC Manipur State Centre, Imphal",
+  "owner": "Government of Manipur (Directorate of IT & Cyber Security) / NIC",
+  "location": {
+    "city": "",
+    "subnational": "Manipur - Imphal West",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://manipur.nic.in/",
+    "https://ditmanipur.gov.in/memorandum-dated-10th-august-2020-on-hosting-of-website-and-application-at-manipur-state-data-centre-or-government-cloud/"
+  ],
+  "notes": "State e-governance data centre under NeGP located in Imphal (NKN Block, New Secretariat, Imphal West district); runs 24x7, hosts CCTNS and state applications on the Manipur Government Cloud; the only identified data centre in Manipur - government SDC, not commercial colocation.",
+  "method_batch": true
+}

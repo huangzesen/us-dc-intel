@@ -1,0 +1,20 @@
+{
+  "slug": "method-se-datacenter-uppsala-ab-uppsala-city",
+  "canonical_project": "Datacenter Uppsala AB (Uppsala city)",
+  "owner": "Datacenter Uppsala AB",
+  "location": {
+    "city": "",
+    "subnational": "Uppsala",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenter-uppsala.cloud/"
+  ],
+  "notes": "Official site of Datacenter Uppsala AB (Vretgrand 18, 753 22 Uppsala) offering colocation/hosting services; small local facility, no capacity or technical detail verified in this run. C-grade per methodology (no independent verification found).",
+  "method_batch": true
+}

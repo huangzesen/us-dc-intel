@@ -1,0 +1,21 @@
+{
+  "slug": "method-ph-pldt-la-union-cable-landing-station-bauang",
+  "canonical_project": "PLDT La Union Cable Landing Station (Bauang)",
+  "owner": "PLDT",
+  "location": {
+    "city": "",
+    "subnational": "Ilocos",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://cms.pldt.com/drupal/article/pldt-la-union-barangay-team-disaster-preparedness",
+    "https://insiderph.com/pldt-smart-push-future-ready-networks-amid-climate-risks"
+  ],
+  "notes": "PLDT operates La Union cable landing station (Bauang) - connectivity anchor, NOT a colocation datacenter per methodology; recorded for completeness of Ilocos coverage. No commercial DC verified in Ilocos.",
+  "method_batch": true
+}

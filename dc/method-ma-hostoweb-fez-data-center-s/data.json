@@ -1,0 +1,22 @@
+{
+  "slug": "method-ma-hostoweb-fez-data-center-s",
+  "canonical_project": "HostoWeb Fez Data Center(s)",
+  "owner": "HostoWeb",
+  "location": {
+    "city": "",
+    "subnational": "Fes-Meknes",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.hostoweb.com/en/servers/colocation-morocco",
+    "https://www.datacentermap.com/morocco/fez/hostoweb-maroc/",
+    "https://datacenterplatform.com/data-centers/hostoweb/"
+  ],
+  "notes": "HostoWeb (since 2006, AS37738) states it operates its own Morocco data centers for dedicated hosting/colocation (A for service); directories place facilities in Fez city centre (31/35 Rue Abdelkhalek Torres; DataCenterMap lists 1-2 Fez sites). B-grade: operator self-claim + directory corroboration; exact facility specs not publicly certified.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-lv-northern-energy-liepaja-data-centre-cis-liepaja-liepaja-sez",
+  "canonical_project": "Northern Energy Liepaja data centre (CIS Liepaja, Liepaja SEZ)",
+  "owner": "Northern Europe Energy Group (AS) / SIA CIS Liepaja",
+  "location": {
+    "city": "",
+    "subnational": "Liepaja",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": 120,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://northernenergy.eu/stories/thor-magnus-rovik-appointed-as-ceo-of-northern-europe-energy-group-and-cis-liepaja",
+    "https://northernenergy.eu/stories/northern-europe-energy-group-partners-with-magnora-on-major-data-center-project-in-finland"
+  ],
+  "notes": "Planned AI-ready data centre campus in Liepaja Special Economic Zone (per LV methodology: 120 MW, 110/33 kV, target ~2029); official Northern Energy pages currently frame CIS Liepaja as EUR 550M green hydrogen / Power-to-X complex (Jaunā ostmala 1) with hydrogen supply to NorSAF; no BIS/municipal construction or commissioning confirmation found - status planned, capacity from methodology seed only.",
+  "method_batch": true
+}

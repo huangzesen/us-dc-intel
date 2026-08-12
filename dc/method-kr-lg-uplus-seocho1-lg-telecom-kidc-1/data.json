@@ -1,0 +1,21 @@
+{
+  "slug": "method-kr-lg-uplus-seocho1-lg-telecom-kidc-1",
+  "canonical_project": "LG Uplus SEOCHO1 (LG Telecom KIDC-1)",
+  "owner": "LG Uplus",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Seocho-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 9.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-korea/seoul/lgu-seocho1/",
+    "https://baxtel.com/data-center/lg-uplus-seocho1"
+  ],
+  "notes": "LG Uplus SEOCHO1 at 2481 Nambusunhwan-ro, Seocho-dong; Data Center Map lists 9.5 MW, Baxtel 41,919 sqm / 3,456 racks. Directory-derived capacity.",
+  "method_batch": true
+}

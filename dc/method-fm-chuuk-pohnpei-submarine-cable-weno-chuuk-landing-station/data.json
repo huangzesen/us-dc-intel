@@ -1,0 +1,21 @@
+{
+  "slug": "method-fm-chuuk-pohnpei-submarine-cable-weno-chuuk-landing-station",
+  "canonical_project": "Chuuk-Pohnpei submarine cable - Weno/Chuuk landing station",
+  "owner": "FSMTC / FSMTCC (CableCorp/OAE)",
+  "location": {
+    "city": "",
+    "subnational": "Chuuk",
+    "country": "Micronesia, Federated States of",
+    "country_code": "FM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.fsmtc.fm/news/outage-chuuk-pohnpei-submarine-cable-system",
+    "https://www.submarinecablemap.com/landing-point/weno-chuuk-micronesia"
+  ],
+  "notes": "C-P cable to Pohnpei operational since 2019-04-27 with a Chuuk landing station (per FSMTCC/TRA records); FSMTC outage notices confirm operational dependence and FSMTCC/OAE maintenance windows; TRA identifies FTTP in Weno as a bottleneck facility. Telecom infrastructure, not commercial DC; CPUC/iSolutions remain licensed telecom leads only (no facility evidence).",
+  "method_batch": true
+}

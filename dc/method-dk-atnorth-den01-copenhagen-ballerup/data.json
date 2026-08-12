@@ -1,0 +1,23 @@
+{
+  "slug": "method-dk-atnorth-den01-copenhagen-ballerup",
+  "canonical_project": "atNorth DEN01 Copenhagen (Ballerup)",
+  "owner": "atNorth",
+  "location": {
+    "city": "",
+    "subnational": "Capital Region",
+    "country": "Denmark",
+    "country_code": "DK"
+  },
+  "capacity_mw": 30,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.atnorth.com/nordic-data-centers/denmark-data-centers/copenhagen-metro-site/",
+    "https://www.atnorth.com/insights/new-30mw-data-center-in-copenhagen-denmark",
+    "https://www.datacenterdynamics.com/en/news/atnorth-plots-30mw-data-center-in-denmark/",
+    "https://www.datacentermap.com/denmark/copenhagen/atnorth-den01"
+  ],
+  "notes": "atNorth operator page (A): DEN01 in Ballerup, 30 MW capacity for high-density workloads, first phase live Q4 2025, heat reuse, Tier 3 standards; DCD (B) corroborates 30 MW plan.",
+  "method_batch": true
+}

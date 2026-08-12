@@ -1,0 +1,20 @@
+{
+  "slug": "method-se-glesys-stockholm-vastberga",
+  "canonical_project": "GleSYS Stockholm (Vastberga)",
+  "owner": "GleSYS",
+  "location": {
+    "city": "",
+    "subnational": "Stockholm",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://glesys.com/locations/our-data-centers/stockholm/"
+  ],
+  "notes": "GleSYS official location page: Stockholm/Vastberga data center, mission-critical colocation/cloud facility (hosting provider with separate 10 MW Falkenberg site in Halland county - part 2 batch).",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-be-penta-infra-bru01-nexus",
+  "canonical_project": "Penta Infra BRU01 (Nexus)",
+  "owner": "Penta Infra (with Photon Capital)",
+  "location": {
+    "city": "",
+    "subnational": "Flanders",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": 7.2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://penta-infra.com/data-centers/brussels/",
+    "https://www.datacentermap.com/belgium/brussels/penta-infra-bru01/",
+    "https://datacentremagazine.com/data-centres/penta-infra-acquisition-of-carbon-neutral-nexus-data-centre"
+  ],
+  "notes": "Zone 1 Research Park 340, Asse / Zellik Research Park (Flemish Brabant, Flanders) - 8-storey facility covered in PV facade (up to 360 kW on-site solar per ITdaily). BREEAM Excellent, EDGE Advanced, Uptime Tier III certified (Ingenium). Formerly Ghelamco's Nexus DC acquired by Penta Infra/Photon Capital. 7.2 MW figure is directory-grade (C).",
+  "method_batch": true
+}

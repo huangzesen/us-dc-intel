@@ -1,0 +1,21 @@
+{
+  "slug": "method-ch-stack-zur02-beringen-ex-safe-host-sh5",
+  "canonical_project": "STACK ZUR02 Beringen (ex-Safe Host SH5)",
+  "owner": "STACK Infrastructure (formerly Safe Host)",
+  "location": {
+    "city": "",
+    "subnational": "Schaffhausen",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/data-center/digital-realty-zurich",
+    "https://amstein-walthert.ch/de/projekte/rechenzentrum-beringen-schaffhausen/"
+  ],
+  "notes": "Hyperscale facility at Beringen SH (Industriestrasse area); building topped out 2025 per Baxtel; formerly Safe Host SH5; waste-heat feasibility study by Amstein+Walthert; permit backbone per CH methodology (2021-07-20 cantonal permit, Amtsblatt GB Nr. 862).",
+  "method_batch": true
+}

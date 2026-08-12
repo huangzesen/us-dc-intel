@@ -1,0 +1,20 @@
+{
+  "slug": "method-ua-itez-tier-iii-data-center-lviv-colocation",
+  "canonical_project": "ITEZ Tier III data center (Lviv colocation)",
+  "owner": "ITEZ (ІТЕЗ)",
+  "location": {
+    "city": "",
+    "subnational": "Lviv",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://itez.com.ua/it-service/colocation.html"
+  ],
+  "notes": "Operator page confirms rack colocation in a Tier III data center in Lviv with 24/7 security, video surveillance, UPS/generators, dual power, 40 Gbit/s uplink channels and DDoS protection; 99.9% uptime claim. De Novo's Kyiv page also references a Lviv DC option, but ITEZ is the directly verified Lviv facility. No public MW capacity published.",
+  "method_batch": true
+}

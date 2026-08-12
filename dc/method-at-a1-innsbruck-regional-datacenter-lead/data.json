@@ -1,0 +1,20 @@
+{
+  "slug": "method-at-a1-innsbruck-regional-datacenter-lead",
+  "canonical_project": "A1 Innsbruck regional datacenter (lead)",
+  "owner": "A1 Telekom Austria",
+  "location": {
+    "city": "",
+    "subnational": "Tyrol",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.a1.digital/de/presse/a1-exoscale-public-cloud-zone/"
+  ],
+  "notes": "A1 provincial-capital coverage makes Innsbruck a search lead, but no exact current A1 facility address was verified (C lead; methodology: do not assert a named facility without operator/permit source). Magenta Innsbruck colocation appears only in third-party listings (C).",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-au-digico-syd1-400-harris-street-ultimo-ex-global-switch-sydney",
+  "canonical_project": "DigiCo SYD1 (400 Harris Street, Ultimo - ex-Global Switch Sydney)",
+  "owner": "DigiCo Infrastructure REIT / HMC Capital",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Sydney",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 26.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.hmccapital.com.au/insights/hmc-capital-announces-strategic-acquisition-to-seed-global-digico-platform-and-300m-equity-raise/",
+    "https://www.datacentermap.com/australia/sydney/global-switch-sydney/",
+    "https://www.innovationaus.com/china-linked-investors-offload-sydney-data-centre-for-2b/",
+    "https://wilsonassetmanagement.com.au/hmc-goes-on-the-offensive-to-woo-market-bearish-on-its-data-centres/"
+  ],
+  "notes": "400 Harris Street, Ultimo (City of Sydney LGA): former Global Switch Sydney flagship (26MW colo), acquired by HMC Capital for ~$1.94bn (Oct 2024) and rebranded DigiCo SYD1; Ultimo expansion reportedly adding ~60MW (Wilson AM quoting DigiCo CEO). capacity_mw = current operational 26MW.",
+  "method_batch": true
+}

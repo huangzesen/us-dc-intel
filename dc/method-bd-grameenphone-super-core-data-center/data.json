@@ -1,0 +1,22 @@
+{
+  "slug": "method-bd-grameenphone-super-core-data-center",
+  "canonical_project": "Grameenphone Super Core Data Center",
+  "owner": "Grameenphone (GP) with ZTE Corporation",
+  "location": {
+    "city": "",
+    "subnational": "Sylhet",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": 4,
+  "status": "operational",
+  "evidence_date": "2024-01-30",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.grameenphone.com/about/media-center/press-release/grameenphone-unveils-state-art-data-center-paving-way-smart",
+    "https://thefinancialexpress.com.bd/home/gp-launches-first-super-core-data-center",
+    "https://telecomtalk.info/grameenphone-launches-super-core-datacenter-in-bangladesh/918736/"
+  ],
+  "notes": "GP official press release + trade press: Super Core Data Center inaugurated in Sylhet on 30 Jan 2024, construction started Jan 2023 (GP+ZTE), 4 MW IT capacity, Tier III standard (not Uptime-listed per DCD), largest among MNOs in Bangladesh; modular/container-based with NOVEC fire suppression. 4 MW figure from GP announcement (A for official claim).",
+  "method_batch": true
+}

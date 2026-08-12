@@ -1,0 +1,22 @@
+{
+  "slug": "method-gg-sure-guernsey-data-centre-la-vrangue",
+  "canonical_project": "Sure Guernsey Data Centre (La Vrangue)",
+  "owner": "Sure (Guernsey) Limited",
+  "location": {
+    "city": "",
+    "subnational": "Guernsey",
+    "country": "Guernsey",
+    "country_code": "GG"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://business.sure.com/products-and-services/offshore-data-centres/guernsey-data-centre/",
+    "https://business.sure.com/assets/Uploads/Data-sheets/Data-Centre/Sure-Data-Centres-Guernsey-.pdf",
+    "https://www.datacentermap.com/guernsey/st-peter-port/sure-guernsey/"
+  ],
+  "notes": "Sure official page (browsed 2026-08-12) confirms operational Guernsey Data Centre: Tier III site, 24-hour security, individual data halls/cages/shared colo, inter-island connectivity and 2MW IT load (A-grade official capacity disclosure); spec sheet adds dual fibre entry and <0.5ms latency. Street address (La Vrangue, St Peter Port GY1 1ZT) is catalog-grade C pending first-party address page.",
+  "method_batch": true
+}

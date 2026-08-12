@@ -1,0 +1,22 @@
+{
+  "slug": "method-td-sotel-core-network-modernization-pmice",
+  "canonical_project": "SOTEL core network modernization (PMICE)",
+  "owner": "SOTEL/Salam (state incumbent) under PMICE; Huawei delivery partner",
+  "location": {
+    "city": "",
+    "subnational": "N'Djamena City",
+    "country": "Chad",
+    "country_code": "TD"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2025-12-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://documents1.worldbank.org/curated/en/099102502282341480/pdf/P180000048eed6040a13200ddaf8abe650.pdf",
+    "https://www.agenceecofin.com/actualites-numerique/2212-134505-le-tchad-boucle-la-premiere-phase-du-pmice-d-un-cout-de-205-3-millions",
+    "https://www.ecofinagency.com/news-digital/2908-48255-chad-orders-telecom-operators-to-connect-to-national-fiber-network"
+  ],
+  "notes": "PMICE includes modernization of SOTEL: 200 GSM/3G/4G sites, core network, subscriber capacity expansion 300,000 to 1,000,000 (2020 plan); Phase I extension of SOTEL wireless network included in the 20 Dec 2025 provisional reception (Ecofin). Government ordered operators Airtel and Moov Africa to connect to the national fiber backbone (1,275 km deployed under PMICE) within a week (27 Aug 2025 ultimatum, Ecofin Agency) due to poor service quality. Classified telco core/network infrastructure under PMICE; not commercial colocation.",
+  "method_batch": true
+}

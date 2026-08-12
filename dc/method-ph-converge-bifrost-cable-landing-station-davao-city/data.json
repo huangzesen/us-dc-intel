@@ -1,0 +1,21 @@
+{
+  "slug": "method-ph-converge-bifrost-cable-landing-station-davao-city",
+  "canonical_project": "Converge Bifrost cable landing station (Davao City)",
+  "owner": "Converge ICT Solutions Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Davao",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.philstar.com/business/2023/02/24/2247144/pldt-converge-expand-upgrade-internet-services",
+    "https://www.dotdailydose.net/2026/03/23/converge-completes-national-digital-infrastructure/"
+  ],
+  "notes": "Converge CLS for Bifrost Cable System in Davao City (745 sqm, owned/operated by Converge, PH gateway for Bifrost); construction started Feb 2023; Converge completed national digital infrastructure incl. new Davao International CLS by Mar 2026 (Dot Daily Dose). Connectivity anchor per methodology - NOT a colocation datacenter; recorded for completeness.",
+  "method_batch": true
+}

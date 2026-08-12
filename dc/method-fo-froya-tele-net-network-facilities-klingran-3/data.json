@@ -1,0 +1,21 @@
+{
+  "slug": "method-fo-froya-tele-net-network-facilities-klingran-3",
+  "canonical_project": "Føroya Tele / NET network facilities (Klingran 3)",
+  "owner": "Føroya Tele (P/F) / P/F Net",
+  "location": {
+    "city": "",
+    "subnational": "Faroe Islands",
+    "country": "Faroe Islands",
+    "country_code": "FO"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ft.fo/",
+    "https://www.net.fo/"
+  ],
+  "notes": "Telecom/network facility lead only: FT and NET confirm headquarters/network facilities at Klingran 3, FO-188 Hoyvík; current public pages do not confirm a commercial colocation/data-center product. FARICE-1 (landing via Funningsfjørður branch, Torshavn service point) and SHEFA-2 (Torshavn landing, FT-owned) are connectivity infrastructure, not datacenters. No AWS/Azure/GCP/Oracle public cloud region for FO as of review.",
+  "method_batch": true
+}

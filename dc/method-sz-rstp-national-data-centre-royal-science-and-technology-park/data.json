@@ -1,0 +1,21 @@
+{
+  "slug": "method-sz-rstp-national-data-centre-royal-science-and-technology-park",
+  "canonical_project": "RSTP National Data Centre (Royal Science and Technology Park)",
+  "owner": "RSTP (Royal Science and Technology Park)",
+  "location": {
+    "city": "",
+    "subnational": "Manzini",
+    "country": "Eswatini",
+    "country_code": "SZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://rstp.org.sz/national-data-centre/",
+    "https://rstp.org.sz/contact-us/"
+  ],
+  "notes": "A-grade facility: RSTP official page names the National Data Centre at Phocweni Site (IT Park), Royal Science & Technology Park, Matsapha, Manzini region; services: colocation, remote hands, IaaS/PaaS/SaaS, secure repositories, national payment gateway, e-government platform. Power: redundant feeds + 4 x 500 kVA diesel generators (no IT load MW published - capacity_mw left null per methodology). DCIM, VESDA, biometric access, 42U smart rows, carrier-neutral with two diverse feeds. Operational/service marketed.",
+  "method_batch": true
+}

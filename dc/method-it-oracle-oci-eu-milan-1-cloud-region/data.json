@@ -1,0 +1,21 @@
+{
+  "slug": "method-it-oracle-oci-eu-milan-1-cloud-region",
+  "canonical_project": "Oracle OCI eu-milan-1 cloud region",
+  "owner": "Oracle Cloud Infrastructure (TIM Enterprise partner)",
+  "location": {
+    "city": "",
+    "subnational": "Lombardy",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.oracle.com/cloud/public-cloud-regions/",
+    "https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm"
+  ],
+  "notes": "OCI Italy Northwest (Milan) eu-milan-1 - official region list; regional availability signal, hosted with TIM Enterprise partner infrastructure per methodology.",
+  "method_batch": true
+}

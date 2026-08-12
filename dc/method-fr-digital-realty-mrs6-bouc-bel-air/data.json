@@ -1,0 +1,21 @@
+{
+  "slug": "method-fr-digital-realty-mrs6-bouc-bel-air",
+  "canonical_project": "Digital Realty MRS6 (Bouc-Bel-Air)",
+  "owner": "Digital Realty",
+  "location": {
+    "city": "",
+    "subnational": "Bouches-du-Rhône",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 50,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/france/marseille/",
+    "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/on-sait-que-l-electricite-va-manquer-pour-d-autres-usages-polemique-autour-d-un-nouveau-projet-de-data-center-avec-24-000-serveurs-3245284.html"
+  ],
+  "notes": "MRS6 in Bouc-Bel-Air (~20 km from Marseille): ~€700M conversion of a 26,000 m2 warehouse into a seven-hall AI-ready facility, ~50 MW, 225 kV RTE connection; construction reported starting 2026, delivery ~2028 (aggregator + France3 on 24,000-server project with local controversy). Capacity is campus-plan/planned MW (grade B/C).",
+  "method_batch": true
+}

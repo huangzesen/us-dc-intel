@@ -1,0 +1,20 @@
+{
+  "slug": "method-fr-wdh-tier-iii-data-center-baie-mahault",
+  "canonical_project": "WDH Tier III data center Baie-Mahault",
+  "owner": "WDH (Wallonie Data Hosting)",
+  "location": {
+    "city": "",
+    "subnational": "Guadeloupe",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.wdh.fr/fr/centres-de-donnees"
+  ],
+  "notes": "Tier III data center in Baie-Mahault, Guadeloupe, listed on operator official page; capacity not disclosed.",
+  "method_batch": true
+}

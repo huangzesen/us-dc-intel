@@ -1,0 +1,22 @@
+{
+  "slug": "method-ma-orange-maroc-casablanca-datacenter-1-etix-dc2-nouaceur",
+  "canonical_project": "Orange Maroc Casablanca Datacenter #1 / ETIX DC2 (Nouaceur)",
+  "owner": "Orange Maroc (acquired from EtixEverywhere Maroc)",
+  "location": {
+    "city": "",
+    "subnational": "Casablanca-Settat",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/casablanca-datacenter-1/1061",
+    "https://www.datacenterdynamics.com/en/news/orange-maroc-opens-15mw-data-center-in-casablanca/",
+    "https://www.orange.ma/Wholesale/Our-Solutions/ETIX-Datacenter"
+  ],
+  "notes": "Uptime lists Orange Maroc Casablanca Datacenter #1 in Nouaceur; DCD reported Orange acquired EtixEverywhere Maroc's ~1 MW Nouaceur DC2 facility in 2021. A-grade (Uptime/operator); distinct from the newer 1.5 MW Orange Tech site.",
+  "method_batch": true
+}

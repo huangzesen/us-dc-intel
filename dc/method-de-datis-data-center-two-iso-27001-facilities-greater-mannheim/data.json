@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-datis-data-center-two-iso-27001-facilities-greater-mannheim",
+  "canonical_project": "DATIS Data Center (two ISO 27001 facilities, greater Mannheim)",
+  "owner": "DATIS IT-Services GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Baden-Württemberg - Mannheim",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datis.de/loesungen/rechenzentrum-datacenter/",
+    "https://www.datacentermap.com/germany/mannheim/datis-data-center/specs/"
+  ],
+  "notes": "Upgraded with official operator page: DATIS operates two ISO 27001-certified, mutually independent data centers in the greater Mannheim area (Tier-3 capable), offering housing/colocation; DataCenterMap lists the facility at Fraunhoferstrasse 15, Mannheim. Capacity not disclosed.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "cngov-coverage-heilongjiang-gov-channels",
+  "canonical_project": "coverage-heilongjiang-gov-channels",
+  "owner": "",
+  "location": {
+    "city": "全省",
+    "subnational": "Heilongjiang",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "coverage",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://fgw.hlj.gov.cn/",
+    "https://sthjt.hlj.gov.cn/"
+  ],
+  "notes": "渠道覆盖说明:1) 黑龙江省发改委(fgw.hlj.gov.cn)与省生态环境厅(sthjt.hlj.gov.cn)站点在本运行环境多次访问超时(https与http均失败),未能直接检索'节能审查意见公示'与'环评受理/批复公示'原文;2) DuckDuckGo对site:fgw.hlj.gov.cn查询失败/无结果,Bing国际版返回无关结果,cn.bing命中有限;3) 通过搜狗微信搜索与黑龙江日报电子报(epaper.hljnews.cn)、东北网(dbw.cn)、IDC圈(idcquan)、数据中心e周刊(GDCT)等获取项目线索,均未见对应节能审查文号或环评批复文号;4) 备案证据仅间接(光辉世联2026年'浙江杭州、黑龙江大庆两个算力中心项目备案获批');5) 收录11条项目线索中,京安汇利东北亚智算中心(50MW)、中国移动哈尔滨数据中心(174MW规划)为最大规模;哈尔滨为省内数据中心/智算中心主要集聚地(平房区现有标准机架超6万架、占全省四分之三,2022年数据)。建议后续批次从境内网络直查省发改委节能审查栏目与省生态环境厅环评公示栏目补证。 [province=黑龙江]",
+  "cn_gov_batch": true
+}

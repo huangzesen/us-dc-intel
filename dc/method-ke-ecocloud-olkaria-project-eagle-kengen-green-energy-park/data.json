@@ -1,0 +1,23 @@
+{
+  "slug": "method-ke-ecocloud-olkaria-project-eagle-kengen-green-energy-park",
+  "canonical_project": "EcoCloud Olkaria Project Eagle (KenGen Green Energy Park)",
+  "owner": "EcoCloud Data Centre; KenGen Green Energy Park host (with KenGen, Konza Technopolis, G42 collaboration)",
+  "location": {
+    "city": "",
+    "subnational": "Nakuru",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": 24.0,
+  "status": "construction",
+  "evidence_date": "2025-09-29",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/ground-broken-on-geothermal-powered-data-center-in-kenya/",
+    "https://constructionreviewonline.com/600-million-kenyas-first-geothermal-energy-powered-data-center-breaks-ground-in-olkaria/",
+    "https://greenenergypark.kengen.co.ke/",
+    "https://baxtel.com/data-center/olkaria-ecocloud-project-eagle"
+  ],
+  "notes": "EcoCloud broke ground on Project Eagle at KenGen Green Energy Park, Olkaria (Nakuru County) in Sept 2023: phase one 24 MW IT capacity across eight 3MW data halls (300-500 racks each), expected total consumption ~70 MW, geothermal power from KenGen; $600M project coverage Sep 2025. NOTE: 2026 reporting (Ghanamma 2026-07-17) describes the site as largely empty with the broader Microsoft/G42 1GW ambition stalled - treat construction progress as uncertain (B for ground-breaking; current status U).",
+  "method_batch": true
+}

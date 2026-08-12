@@ -1,0 +1,21 @@
+{
+  "slug": "method-se-glesys-data-center-falkenberg",
+  "canonical_project": "GleSYS Data Center Falkenberg",
+  "owner": "GleSYS",
+  "location": {
+    "city": "",
+    "subnational": "Halland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://glesys.se/datacenter",
+    "https://www.di.se/nyheter/molnen-vaxer-da-spranger-glesys-dromgransen/"
+  ],
+  "notes": "GleSYS headquarters and main data center in Falkenberg; staffed 24/7, 100% renewable power, surplus heat fed into district heating network (also Stockholm/Vastberga). DI reports GleSYS building new serverhall/lokaler in Falkenberg after new ownership - expansion in progress.",
+  "method_batch": true
+}

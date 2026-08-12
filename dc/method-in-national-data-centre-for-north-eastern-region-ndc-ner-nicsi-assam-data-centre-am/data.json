@@ -1,0 +1,23 @@
+{
+  "slug": "method-in-national-data-centre-for-north-eastern-region-ndc-ner-nicsi-assam-data-centre-am",
+  "canonical_project": "National Data Centre for North Eastern Region (NDC-NER) / NICSI Assam Data Centre, Amingaon",
+  "owner": "National Informatics Centre (NIC) via NICSI, Government of India (MeitY)",
+  "location": {
+    "city": "",
+    "subnational": "Assam - Kamrup",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 8.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sentinelassam.com/north-east-india-news/assam-news/pm-narendra-modi-inaugurates-national-data-centre-for-north-eastern-region",
+    "https://timesofindia.indiatimes.com/city/guwahati/nes-1st-national-data-centre-to-come-up-at-amingaon/articleshow/79691568.cms",
+    "https://www.apdcl.org/website/docs/tender_2023_24/BOQ_NDC_01032024.xls",
+    "https://datacenterdynamics.com/en/news/indias-nicsi-to-build-71m-data-center-in-guwahati-assam/"
+  ],
+  "notes": "PM Modi virtually inaugurated NDC-NER at Amingaon, North Guwahati (Kamrup district) on 14 Feb 2026; facility serves all 8 NE states as part of MeghRaj national government cloud. TOI (Dec 2020) reported ~Rs 350 crore cost; APDCL tender documents show dedicated 33 kV line and 3x2.5 MVA, 33/0.433 kV substation for NDC-NER Amingaon (confirming power build ~7.5 MVA sanctioned). First-round discovery cited 8.5 MW sanctioned power / 4 MW IT load / 200-400 racks / ~43,000 sq ft / Tier III N+1 / IGBC Gold. Government-owned DC; grade A for existence and status.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-kr-equinix-sl2x-sl4-hyangdong",
+  "canonical_project": "Equinix SL2x / SL4 (Hyangdong)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Goyang-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://zdnet.co.kr/view/?no=20260409155204",
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/korea-colocation/seoul-data-center"
+  ],
+  "notes": "SL4 and SL2x at Hyangdong-dong, Deogyang-gu, Goyang; operational interconnection/campus hub (with SL1 Sangam, Seoul); ZDNet 2026-04 field report confirms operation; Equinix official Seoul page.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-et-ethio-telecom-gola-sefer-modular-data-center-huawei",
+  "canonical_project": "Ethio telecom Gola Sefer modular data center (Huawei)",
+  "owner": "Ethio telecom / Huawei",
+  "location": {
+    "city": "",
+    "subnational": "Addis Ababa",
+    "country": "Ethiopia",
+    "country_code": "ET"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ethiotelecom.et/ethio-telecom-signs-an-agreement-to-lease-its-modern-modular-data-center-for-five-institutions/",
+    "https://www.datacenterdynamics.com/en/news/ethio-telecom-opens-new-huawei-built-modular-data-center-in-addis-ababa-ethiopia/",
+    "https://addisfortune.news/ethio-telecom-huawei-launch-data-centre",
+    "https://ethiopianmonitor.com/2021/05/21/ethio-telecom-launches-tier-iii-ready-modular-data-center/"
+  ],
+  "notes": "State telco Tier III-ready modular data centre launched May 2021 in Gola Sefer, Addis Ababa; Huawei-built, 5 PODs x 16 cabinets supporting up to 800 servers; operator signed DC-leasing agreements with five financial/ISP institutions (2022). Operator page (A) plus DCD/Addis Fortune/Monitor detail (B).",
+  "method_batch": true
+}

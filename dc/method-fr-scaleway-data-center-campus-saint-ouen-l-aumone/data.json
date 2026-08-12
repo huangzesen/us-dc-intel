@@ -1,0 +1,20 @@
+{
+  "slug": "method-fr-scaleway-data-center-campus-saint-ouen-l-aumone",
+  "canonical_project": "Scaleway data center campus (Saint-Ouen-l'Aumone)",
+  "owner": "Scaleway (Iliad/Online group)",
+  "location": {
+    "city": "",
+    "subnational": "Val-d'Oise",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-21",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.server-parts.eu/post/cloud-providers-france-local-french-data-centers-france"
+  ],
+  "notes": "Scaleway operates a campus at Saint-Ouen-l'Aumone (Val-d'Oise) per market/aggregator source; FR methodology pivots Scaleway DC2-DC5 permits to Vitry-sur-Seine and Saint-Ouen-l'Aumone (DC5 reported >20 MW IT elsewhere); capacity unverified here. C-grade lead.",
+  "method_batch": true
+}

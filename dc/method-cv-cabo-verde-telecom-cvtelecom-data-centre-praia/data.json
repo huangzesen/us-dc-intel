@@ -1,0 +1,21 @@
+{
+  "slug": "method-cv-cabo-verde-telecom-cvtelecom-data-centre-praia",
+  "canonical_project": "Cabo Verde Telecom (CVTelecom) data centre, Praia",
+  "owner": "Cabo Verde Telecom S.A. (state incumbent)",
+  "location": {
+    "city": "",
+    "subnational": "Ilhas de Sotavento",
+    "country": "Cabo Verde",
+    "country_code": "CV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.peeringdb.com/fac/13574",
+    "https://www.datacenters.com/locations/cape-verde/mosteiros/achada-grande"
+  ],
+  "notes": "Sotavento / Santiago / Praia. Carrier-neutral colocation/data-centre service claim carried by directories (PeeringDB facility 13574 'Cabo Verde Telecom'; datacenters.com Cape Verde provider listings) and trade/sponsor material per methodology. NOT confirmed by a CVTelecom-controlled page, ARME licence, BOE notice, or municipal record in this pass; exact building address and capacity unverified. Grade C (directory-level) / B/C overall per CV methodology; upgrade only with operator/regulator primary evidence. Capacity null.",
+  "method_batch": true
+}

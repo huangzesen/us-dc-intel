@@ -1,0 +1,20 @@
+{
+  "slug": "method-tm-turkmentelekom-hosting-colocation-service-telecom-tm",
+  "canonical_project": "Turkmentelekom hosting / colocation service (telecom.tm)",
+  "owner": "Türkmentelekom / Turkmentelekom (state telecom operator)",
+  "location": {
+    "city": "",
+    "subnational": "Ashgabat",
+    "country": "Turkmenistan",
+    "country_code": "TM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://telecom.tm/en/hosting/"
+  ],
+  "notes": "Operator official hosting page (verified live 2026-08-12; first fetch failed with TRANSPORT_FAILED then succeeded on retry - TM-hosted site instability consistent with methodology data constraints) lists Virtual Server (VDS), Physical Server (Host 1-5, Intel Xeon, up to 256 GB RAM) and Colocation services with an application form (ColocationNusga.docx); support +993 12 481503. No public facility name, Tier, IT MW or precise machine-room address disclosed - recorded as ONE operator hosting/colo service line per methodology (do not split into multiple facilities). Capacity null; not convertible to MW.",
+  "method_batch": true
+}

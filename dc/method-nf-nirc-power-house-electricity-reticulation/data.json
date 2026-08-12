@@ -1,0 +1,21 @@
+{
+  "slug": "method-nf-nirc-power-house-electricity-reticulation",
+  "canonical_project": "NIRC Power house / electricity reticulation",
+  "owner": "Norfolk Island Regional Council (NIRC)",
+  "location": {
+    "city": "",
+    "subnational": "Norfolk Island",
+    "country": "Norfolk Island",
+    "country_code": "NF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nirc.gov.au/Infrastructure/Electricity-System",
+    "https://www.nirc.gov.au/Infrastructure/Infrastructure-Services/Electricity"
+  ],
+  "notes": "Power_utility per methodology: NIRC officially splits electricity services into Power house (incl. mechanical workshop) + reticulation; small island grid historically diesel-based with recent rooftop solar/battery and BESY energy platform. This is a utility/grid-constraint baseline, NOT a datacenter; power-system capacity must not be converted to DC MW (capacity_mw null). No large-load datacenter power/planning evidence found.",
+  "method_batch": true
+}

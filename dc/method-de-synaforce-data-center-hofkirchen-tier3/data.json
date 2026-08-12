@@ -1,0 +1,23 @@
+{
+  "slug": "method-de-synaforce-data-center-hofkirchen-tier3",
+  "canonical_project": "Synaforce data center Hofkirchen (Tier3+)",
+  "owner": "Synaforce GmbH (Hartl Group successor)",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Passau (Rural)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.synaforce.com/",
+    "https://www.synaforce.com/en/",
+    "https://www.cloudmagazin.com/2023/06/23/synaforce-nachhaltige-rechenzentrumsleistung/",
+    "https://www.landkreis-passau.de/media/2125/rechenzentrum_hartl_group_2016.pdf"
+  ],
+  "notes": "Synaforce states its Hofkirchen data center (IT-Zentrum 1) is categorized Tier3+ and is among the most energy-efficient data centers in Bavaria, powered with renewable electricity; facility inaugurated 2016 under the Hartl Group (Landkreis Passau document); cloudmagazin (2023) describes the Hartl Group-to-Synaforce transformation.",
+  "method_batch": true
+}

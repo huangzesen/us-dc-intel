@@ -1,0 +1,22 @@
+{
+  "slug": "method-it-equinix-milan-ml-campus-ml2-ml4-ml5-ml10-etc",
+  "canonical_project": "Equinix Milan ML campus (ML2/ML4/ML5/ML10 etc.)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Lombardy",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/italy-colocation/milan-data-centers",
+    "https://www.datacenterdynamics.com/en/news/excess-heat-from-equinix-data-centers-to-power-homes-in-milan-italy/",
+    "https://www.datacentermap.com/italy/milan/"
+  ],
+  "notes": "Equinix Milan metro IBX campus: ML4 (Via Privata Cascia 5, Milan), ML5 at Settimo Milanese campus (Phase II ~7 MW; excess-heat deal with A2A for Milan district heating, July 2026), ML10 hyperscale (6,000 sqm white space, from 19.2 MW IT). MASE-listed 'Data Center ML5 e ML6, Settimo Milanese' project aligns with Equinix campus expansion.",
+  "method_batch": true
+}

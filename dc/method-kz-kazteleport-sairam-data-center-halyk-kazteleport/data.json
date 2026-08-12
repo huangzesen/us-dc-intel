@@ -1,0 +1,22 @@
+{
+  "slug": "method-kz-kazteleport-sairam-data-center-halyk-kazteleport",
+  "canonical_project": "Kazteleport Sairam Data Center (HALYK-Kazteleport)",
+  "owner": "Kazteleport JSC (Halyk Bank)",
+  "location": {
+    "city": "",
+    "subnational": "Almaty City",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://kazteleport.kz/landingpage/tieriii_dc-sairam-almaty/",
+    "https://www.datacentermap.com/kazakhstan/almaty/kazteleport-sairam/",
+    "https://uptimeinstitute.com/component/tierachievement/client/kazakhstan/857/"
+  ],
+  "notes": "Uptime Institute Tier III certified (design + facility), Voikova 2A, Almaty; ~2 MW per directory; 270 sqm machine hall per operator page. Sairam-2 expansion listed by directories (C).",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-gu-guam-exchange-citadel-pacific-data-center-harmon-tamuning",
+  "canonical_project": "Guam Exchange / Citadel Pacific Data Center (Harmon, Tamuning)",
+  "owner": "Guam Exchange (Citadel Pacific)",
+  "location": {
+    "city": "",
+    "subnational": "Guam",
+    "country": "Guam",
+    "country_code": "GU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://guamexchange.com/colocation-services"
+  ],
+  "notes": "Official page (checked 2026-08-12): carrier-neutral colocation with 2 data halls spanning ~8,000 sq ft whitespace, Diesel Generator N+1, UPS 3N2, CRAC N+1, 7x24x365 security and NOC; address 122 West Harmon Industrial Park Rd Ste 103, Tamuning 96913. Pacific Island Times (B) reported Citadel launched Guam Exchange with Harmon 1 as open-access, Tier III compliant data center.",
+  "method_batch": true
+}

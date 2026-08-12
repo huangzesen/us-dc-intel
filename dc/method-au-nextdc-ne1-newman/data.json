@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-nextdc-ne1-newman",
+  "canonical_project": "NEXTDC NE1 Newman",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - East Pilbara",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/hubfs/Carrier+Packs+and+Lists/NE1+Carrier+Access+Pack+-+Mar2024.pdf",
+    "https://ndy.com/experience/nextdc-ne1-newman-data-centre-newman-wa",
+    "https://www.datacentermap.com/australia/newman/nextdc-ne1-newman/"
+  ],
+  "notes": "NEXTDC NE1 Newman at 96 Woodstock St, Newman WA 6753 (Shire of East Pilbara). NEXTDC's second Pilbara facility (after PH1 Port Hedland); official carrier pack states under construction, opening to public May 2024. 3 portable modular data centres, Tier III certified, ~1.5 MW IT capacity / ~320 racks / ~7,825 sq ft per Data Center Map and Baxtel; serves mining and resource-sector remote operations demand.",
+  "method_batch": true
+}

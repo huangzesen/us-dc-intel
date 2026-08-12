@@ -1,0 +1,20 @@
+{
+  "slug": "method-au-port-data-centre-port-macquarie",
+  "canonical_project": "Port Data Centre (Port Macquarie)",
+  "owner": "Port Data Centre Pty Ltd (Australian-owned)",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Port Macquarie-Hastings",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://portdc.com.au/"
+  ],
+  "notes": "Official site states Port Data Centre is building a regional Australian-owned Tier-3 data centre in Port Macquarie (Mid-North Coast), with N+1 generators and colocation/cloud/DR services; no completion date or council DA identified in quick search, so construction status unverified - treat as announced/planned.",
+  "method_batch": true
+}

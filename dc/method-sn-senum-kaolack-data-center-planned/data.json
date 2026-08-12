@@ -1,0 +1,21 @@
+{
+  "slug": "method-sn-senum-kaolack-data-center-planned",
+  "canonical_project": "SENUM Kaolack data center (planned)",
+  "owner": "Senegal Numerique SA (SENUM)",
+  "location": {
+    "city": "",
+    "subnational": "Kaolack",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://fr.linkedin.com/pulse/d%C3%A9couvrez-les-offres-de-s%C3%A9n%C3%A9gal-num%C3%A9rique-sa-lacteur-cl%C3%A9-ciss",
+    "https://china.aiddata.org/projects/58382/"
+  ],
+  "notes": "A Senegal Numerique SA offers post (LinkedIn pulse) states the data-centre service is available at Orana, Technopole and Diamniadio and 'bientot a Kaolack' - a planned SENUM data centre in Kaolack (C-grade operator statement). Older 2021 government-intent stories also mention a Kaolack national-DC plan; no official SENUM/APIX confirmation or construction evidence found in this pass.",
+  "method_batch": true
+}

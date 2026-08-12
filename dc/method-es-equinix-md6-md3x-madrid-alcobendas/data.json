@@ -1,0 +1,21 @@
+{
+  "slug": "method-es-equinix-md6-md3x-madrid-alcobendas",
+  "canonical_project": "Equinix MD6 / MD3x Madrid (Alcobendas)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Community of Madrid",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": 4.8,
+  "status": "operational",
+  "evidence_date": "2022-09-20",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/equinix-to-open-new-data-center-in-madrid-spain/",
+    "https://www.equinix.com/data-centers/europe-colocation/spain-colocation/madrid-data-centers/md3x"
+  ],
+  "notes": "Equinix MD6 in Alcobendas is a leased IBX portion of the MD3x/xScale facility, 1,466 sqm, 4.8MW and 600 racks; MD3x is Equinix's first xScale data center in Madrid.",
+  "method_batch": true
+}

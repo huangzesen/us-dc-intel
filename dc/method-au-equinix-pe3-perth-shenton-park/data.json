@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-equinix-pe3-perth-shenton-park",
+  "canonical_project": "Equinix PE3 Perth (Shenton Park)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Subiaco",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/perth-data-centers/pe3",
+    "https://www.datacenterdynamics.com/en/news/equinix-launches-third-perth-data-center-australia/",
+    "https://www.insightps.com.au/equinix-pe3-data-centre"
+  ],
+  "notes": "Re-verified: Equinix PE3, third Perth IBX at 37 Lemnos Street, Shenton Park (City of Subiaco LGA), launched December 2020 and completed 2022 (InsightPS D&C). Operational; no public MW capacity.",
+  "method_batch": true
+}

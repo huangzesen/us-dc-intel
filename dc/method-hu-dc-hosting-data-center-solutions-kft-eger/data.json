@@ -1,0 +1,22 @@
+{
+  "slug": "method-hu-dc-hosting-data-center-solutions-kft-eger",
+  "canonical_project": "DC Hosting / Data Center Solutions Kft. (Eger)",
+  "owner": "Data Center Solutions Kft.",
+  "location": {
+    "city": "",
+    "subnational": "Heves",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.ripe.net/membership/member-support/list-of-members/hu/dcsolutions/",
+    "https://www.peeringdb.com/org/30665",
+    "https://www.domain.hu/regisztrator/data-center-solutions-kft/"
+  ],
+  "notes": "County-level entry (Heves): Data Center Solutions Kft. (DC Hosting) is an Eger-based hosting/datacenter operator (3300 Eger, Kodaly Zoltan u. 6 / Cifrakapu u. 162), RIPE LIR with own ASN AS210966 and PeeringDB presence; domain.hu lists it as .hu registrar. Operator identity well documented; no public facility page with DC specs or capacity - C for facility existence.",
+  "method_batch": true
+}

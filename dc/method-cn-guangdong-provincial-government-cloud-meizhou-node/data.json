@@ -1,0 +1,20 @@
+{
+  "slug": "method-cn-guangdong-provincial-government-cloud-meizhou-node",
+  "canonical_project": "Guangdong Provincial Government Cloud Meizhou Node",
+  "owner": "Meizhou digital-government program / telecom IDC operators",
+  "location": {
+    "city": "",
+    "subnational": "Guangdong - Meizhou Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-12-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.fengshun.gov.cn/zfxxgkml/fsxzwfwsjglj/gzdt/content/post_2576526.html"
+  ],
+  "notes": "Government-cloud node serving 59 entities/261 systems, 1194 VMs, 12,462 vCPU cores, 959 TB storage; no MW. Re-verified first-round lead.",
+  "method_batch": true
+}

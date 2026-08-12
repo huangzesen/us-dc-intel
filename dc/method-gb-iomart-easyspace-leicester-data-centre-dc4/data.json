@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-iomart-easyspace-leicester-data-centre-dc4",
+  "canonical_project": "iomart / Easyspace Leicester Data Centre DC4",
+  "owner": "iomart / Easyspace",
+  "location": {
+    "city": "",
+    "subnational": "England - City of Leicester",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.iomart.com/our-data-centres/leicester-data-centre",
+    "https://www.easyspace.com/data-centre/leicester",
+    "https://www.colo-x.com/data-centre/iomart-plc-leicester-data-centre/"
+  ],
+  "notes": "iomart's Leicester DC4 (16 Berkley Street) is a Tier 2 colocation facility ~1km north-west of the city centre with ~620 sqm across two data halls, carrier-neutral connectivity, dual feeds, UPS and diesel generators; ~270 racks. IT load MW not stated.",
+  "method_batch": true
+}

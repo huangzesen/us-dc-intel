@@ -1,0 +1,21 @@
+{
+  "slug": "method-tn-cni-private-cloud-centre-national-de-l-informatique",
+  "canonical_project": "CNI Private Cloud (Centre National de l'Informatique)",
+  "owner": "Centre National de l'Informatique (CNI) / MTC",
+  "location": {
+    "city": "",
+    "subnational": "Tunis",
+    "country": "Tunisia",
+    "country_code": "TN"
+  },
+  "capacity_mw": null,
+  "status": "approved",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.afdb.org/fr/documents/aoi-tunisie-mise-en-place-dun-cloud-prive-pour-le-centre-national-de-linformatique-tunisie-digitale-2020",
+    "https://www.mtc.gov.tn/index.php?cHash=ad3205d1b0a984049ba3e497c442a3f4&id=291&tx_ttnews%5Btt_news%5D=4935"
+  ],
+  "notes": "Public-sector private-cloud platform under Tunisie Digitale 2020; AfDB/MTC procurement route confirms project and award/implementation lead. Likely Tunis hosting but implementation site must be verified separately; CNI El Omrane address is office, not facility.",
+  "method_batch": true
+}

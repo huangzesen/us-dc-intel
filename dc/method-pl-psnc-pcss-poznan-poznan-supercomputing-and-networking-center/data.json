@@ -1,0 +1,20 @@
+{
+  "slug": "method-pl-psnc-pcss-poznan-poznan-supercomputing-and-networking-center",
+  "canonical_project": "PSNC/PCSS Poznan (Poznan Supercomputing and Networking Center)",
+  "owner": "PSNC / Institute of Bioorganic Chemistry PAS",
+  "location": {
+    "city": "",
+    "subnational": "Greater Poland",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.psnc.pl/"
+  ],
+  "notes": "National research/HPC data-center infrastructure in Poznan (academic/research scope, not commercial colocation). Included per methodology for non-commercial enumeration.",
+  "method_batch": true
+}

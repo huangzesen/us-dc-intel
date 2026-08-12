@@ -1,0 +1,21 @@
+{
+  "slug": "method-ir-irancell-mobinnet-enterprise-datacenters",
+  "canonical_project": "Irancell / Mobinnet enterprise datacenters",
+  "owner": "Irancell (MTN Irancell) / Mobinnet (MCI group)",
+  "location": {
+    "city": "",
+    "subnational": "Tehran",
+    "country": "Iran",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://business.irancell.ir/p/14542/",
+    "https://business.mobinnet.ir/data-center"
+  ],
+  "notes": "Mobile operators run enterprise datacenter/cloud services (official business pages, A for service existence); physical facility locations/capacity undisclosed (C for location) - record as operator DC leads.",
+  "method_batch": true
+}

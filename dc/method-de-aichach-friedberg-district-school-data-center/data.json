@@ -1,0 +1,20 @@
+{
+  "slug": "method-de-aichach-friedberg-district-school-data-center",
+  "canonical_project": "Aichach-Friedberg district school data center",
+  "owner": "Landkreis Aichach-Friedberg",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Aichach-Friedberg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.donaukurier.de/lokales/landkreis-aichach-friedberg/rechenzentrum-fuer-die-schulen-des-landkreises-19943065"
+  ],
+  "notes": "Regional press described a data center for district schools; Realschule Mering and Gymnasium Friedberg still to be migrated by mid-2026. No commercial/hyperscale DC found in method search for the district.",
+  "method_batch": true
+}

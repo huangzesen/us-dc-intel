@@ -1,0 +1,22 @@
+{
+  "slug": "method-fr-digital-realty-interxion-mrs-campus-marseille-mrs1-mrs5",
+  "canonical_project": "Digital Realty / Interxion MRS campus Marseille (MRS1-MRS5)",
+  "owner": "Digital Realty (Interxion France)",
+  "location": {
+    "city": "",
+    "subnational": "Bouches-du-Rhône",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 13.6,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.digitalrealty.com/data-centers/emea/marseille",
+    "https://www.datacenterdynamics.com/en/news/digital-realty-opens-new-data-center-in-toronto-canada/",
+    "https://www.lamarseillaise.fr/societe/a-saint-louis-le-futur-data-center-depasse-les-seuils-DA20576731"
+  ],
+  "notes": "Marseille port-area campus (Enceinte Portuaire): MRS1-MRS3 operational (MRS3 opened as Interxion's third; MRS1/MRS2 ex-SFR Netcentre), MRS4 under construction (~13.6 MW expected, N+1 UPS/gen, 2N cooling), MRS5 construction finishing along the A55 grand port maritime as of Aug 2026 (La Marseillaise). Environmental-authorization record on projets-environnement.gouv.fr for MRS4 + substation (A-grade file). Capacity figure is MRS4 only; campus total higher.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-ir-asiatech-mashhad-idc-presence",
+  "canonical_project": "Asiatech Mashhad IDC presence",
+  "owner": "Asiatech",
+  "location": {
+    "city": "",
+    "subnational": "Central Khorasan",
+    "country": "Iran, Islamic Republic of",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-02-18",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.citna.ir/news/254110/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%AD%D9%88%D8%B2%D9%87-idc-%D8%A2%D8%B3%DB%8C%D8%A7%D8%AA%DA%A9",
+    "https://asiatechin.com/page/datacenter-services/"
+  ],
+  "notes": "CITNA reported Asiatech expanded IDC services geographically to Tabriz, Shiraz and Mashhad with 2.4+ PB active content storage and 650+ Gbps domestic content traffic; Asiatechin currently advertises colocation in Mashhad (alongside Tabriz, Qom, Hamedan). Mashhad facility existence B; capacity in storage/traffic not MW.",
+  "method_batch": true
+}

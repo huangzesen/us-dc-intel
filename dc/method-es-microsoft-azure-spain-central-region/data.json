@@ -1,0 +1,21 @@
+{
+  "slug": "method-es-microsoft-azure-spain-central-region",
+  "canonical_project": "Microsoft Azure Spain Central region",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Community of Madrid",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-06-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/es-es/2024/06/11/microsoft-opens-its-first-cloud-region-in-spain-to-accelerate-the-development-of-the-ai-economy/",
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list"
+  ],
+  "notes": "Microsoft's first Spain cloud region (Spain Central) opened June 2024 in the Community of Madrid with three Availability Zones; region-level A evidence for existence, exact facility sites not publicly mapped.",
+  "method_batch": true
+}

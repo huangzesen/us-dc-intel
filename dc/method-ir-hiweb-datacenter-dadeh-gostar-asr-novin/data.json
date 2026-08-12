@@ -1,0 +1,20 @@
+{
+  "slug": "method-ir-hiweb-datacenter-dadeh-gostar-asr-novin",
+  "canonical_project": "HiWEB Datacenter (Dadeh Gostar Asr Novin)",
+  "owner": "HiWEB (Dadeh Gostar Asr Novin)",
+  "location": {
+    "city": "",
+    "subnational": "Tehran",
+    "country": "Iran",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.hiweb.ir/data-center"
+  ],
+  "notes": "Operator page: datacenter established on ~6,000 sqm, claiming to be the largest private-sector datacenter in Iran (B; capacity claim is operator marketing, verify rack counts separately).",
+  "method_batch": true
+}

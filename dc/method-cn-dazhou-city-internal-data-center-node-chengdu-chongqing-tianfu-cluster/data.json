@@ -1,0 +1,20 @@
+{
+  "slug": "method-cn-dazhou-city-internal-data-center-node-chengdu-chongqing-tianfu-cluster",
+  "canonical_project": "Dazhou city-internal data-center node (Chengdu-Chongqing/Tianfu cluster)",
+  "owner": "Dazhou municipal government / Sichuan provincial digital-infrastructure program",
+  "location": {
+    "city": "",
+    "subnational": "Sichuan - Dazhou Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2024-01-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.dazhou.gov.cn/news-show-250671.html"
+  ],
+  "notes": "Dazhou is one of five Sichuan cities (only one in northeast Sichuan) allowed to build ~3,000 standard-rack city-internal data centers; linked to national integrated-computing-network layout. MW not disclosed.",
+  "method_batch": true
+}

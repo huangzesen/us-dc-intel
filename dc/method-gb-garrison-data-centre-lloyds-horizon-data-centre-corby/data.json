@@ -1,0 +1,21 @@
+{
+  "slug": "method-gb-garrison-data-centre-lloyds-horizon-data-centre-corby",
+  "canonical_project": "Garrison Data Centre / Lloyds Horizon Data Centre, Corby",
+  "owner": "Lloyds Banking Group",
+  "location": {
+    "city": "",
+    "subnational": "England - North Northamptonshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-06-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.careys.co/projects/garrison-data-centre",
+    "https://nn2nz.co.uk/wp-content/uploads/2025/06/LIDP-for-DECODE-Corby.pdf"
+  ],
+  "notes": "Operational ~50-acre data-centre campus in Corby referenced by contractor Careys as Garrison Data Centre and in local decarbonisation documents as Lloyds Horizon Data Centre; capacity not public.",
+  "method_batch": true
+}

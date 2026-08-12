@@ -1,0 +1,20 @@
+{
+  "slug": "method-cz-ovhcloud-prague",
+  "canonical_project": "OVHcloud Prague",
+  "owner": "OVHcloud",
+  "location": {
+    "city": "",
+    "subnational": "Prague",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ovhcloud.com/en/datacenter/europe/czech-republic/prague/"
+  ],
+  "notes": "OVHcloud official datacentre page for Prague verified live 2026-08-12 (HTTP 200, 'Datacentre Prague | OVHcloud Worldwide'). A for official Prague datacentre presence; product class (full DC vs local zone) and street address still to be confirmed per methodology.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "cngov-china-asean-ai-computing-center",
+  "canonical_project": "中国—东盟人工智能计算中心 (China-ASEAN AI Computing Center)",
+  "owner": "南宁市/五象新区管委会主导, 华为生态(昇腾服务器), 广西公众信息产业有限公司等合作运营",
+  "location": {
+    "city": "",
+    "subnational": "Guangxi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 2.1,
+  "status": "运营中 (operational, 2025-03时点42P算力)",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ngzb.com.cn/news/2025/03/17/wanwu-kesuan-nanning-buju-mianxiang-dongmeng-rengongzhineng-chan.html",
+    "https://www.dxswb.net/xiaonei/716768.html"
+  ],
+  "notes": "面向东盟的公共AI算力平台, 华为服务器直抵天花板, 可视化运营平台显示AIGC创新实验室、广西公众信息产业有限公司等合作企业; 截止2025-03算力42P、100家合作企业上线, 相当8万台高性能计算机同时工作。capacity_mw=42P×0.05MW/P=2.1MW(按任务给定公式)。2025年南宁市政府工作报告提出依托中国—东盟信息港升级为'中国—东盟人工智能创新合作中心'。 [province=广西]",
+  "cn_gov_batch": true
+}

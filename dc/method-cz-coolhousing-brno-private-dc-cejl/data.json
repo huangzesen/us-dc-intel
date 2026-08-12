@@ -1,0 +1,20 @@
+{
+  "slug": "method-cz-coolhousing-brno-private-dc-cejl",
+  "canonical_project": "Coolhousing Brno private DC (Cejl)",
+  "owner": "Coolhousing s.r.o.",
+  "location": {
+    "city": "",
+    "subnational": "South Moravia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.coolhousing.net/en/coolhousing-about-us"
+  ],
+  "notes": "Coolhousing official page mentions a private data center in Brno/Cejl; status and address confirmation outstanding per methodology - keep as lead_unconfirmed.",
+  "method_batch": true
+}

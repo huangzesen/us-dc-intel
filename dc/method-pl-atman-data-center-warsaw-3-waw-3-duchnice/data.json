@@ -1,0 +1,22 @@
+{
+  "slug": "method-pl-atman-data-center-warsaw-3-waw-3-duchnice",
+  "canonical_project": "Atman Data Center Warsaw-3 (WAW-3) Duchnice",
+  "owner": "Atman (Global Compute Infrastructure)",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 43.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://atman.pl/en/atman-data-center/warsaw-3/",
+    "https://atman.pl/en/atman-opens-flagship-data-center-waw-3/",
+    "https://www.datacentermap.com/poland/warsaw/atman-warsaw3/"
+  ],
+  "notes": "WAW-3 campus at Duchnicka 66, Duchnice near Ozarow Mazowiecki (30 min from central Warsaw); designed for AI/hyperscale clients, target 43 MW IT across 3 buildings, up to 50,000+ servers on ~19,000 sq m net per operator/directories. Land 5.5 ha purchased for the campus; flagship opened per Atman release.",
+  "method_batch": true
+}

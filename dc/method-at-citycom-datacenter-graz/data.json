@@ -1,0 +1,21 @@
+{
+  "slug": "method-at-citycom-datacenter-graz",
+  "canonical_project": "Citycom Datacenter Graz",
+  "owner": "Citycom Graz",
+  "location": {
+    "city": "",
+    "subnational": "Styria",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.peeringdb.com/fac/1119",
+    "https://citycom.at/en/home-en/"
+  ],
+  "notes": "Citycom Graz network/datacenter lead via PeeringDB facility 1119 and operator site (C/B). Interconnection evidence only; facility details, ownership and status require operator-page or permit confirmation before counting as high-confidence facility inventory.",
+  "method_batch": true
+}

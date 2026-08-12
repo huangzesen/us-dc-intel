@@ -1,0 +1,20 @@
+{
+  "slug": "method-in-net4-pune-silvernox-pune-nicsi-pune",
+  "canonical_project": "Net4 Pune / Silvernox Pune / NICSI Pune",
+  "owner": "Net4 / Silvernox Datacenter / NICSI",
+  "location": {
+    "city": "",
+    "subnational": "Maharashtra - Pune Division",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/pune"
+  ],
+  "notes": "Three small carrier-neutral / government facilities in Pune listed by Baxtel (Net4, Silvernox, NICSI); individual capacities not public; minor colocation/edge presence.",
+  "method_batch": true
+}

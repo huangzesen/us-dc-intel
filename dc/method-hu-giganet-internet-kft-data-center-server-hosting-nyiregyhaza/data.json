@@ -1,0 +1,22 @@
+{
+  "slug": "method-hu-giganet-internet-kft-data-center-server-hosting-nyiregyhaza",
+  "canonical_project": "Giganet Internet Kft. data center / server hosting (Nyiregyhaza)",
+  "owner": "Giganet Internet Szolgaltato Kft.",
+  "location": {
+    "city": "",
+    "subnational": "Nyiregyhaza",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://my.giganet.hu/index.php",
+    "https://www.datacentermap.com/hungary/nyiregyhaza/giganet/",
+    "https://www.giganet.hu/"
+  ],
+  "notes": "Giganet's official customer portal (my.giganet.hu) lists 'Giganet szerver hoszting' (server hosting) at 4400 Nyiregyhaza, Vasvari Pal u. 1; DataCenterMap lists a Giganet data center in Nyiregyhaza. Regional ISP colocation/hosting facility; no public MW figure. Operator-page evidence B, facility specs limited.",
+  "method_batch": true
+}

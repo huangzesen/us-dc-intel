@@ -1,0 +1,21 @@
+{
+  "slug": "method-bi-lumitel-viettel-burundi-cloud-server-service",
+  "canonical_project": "Lumitel (Viettel Burundi) cloud server service",
+  "owner": "Lumitel / Viettel Burundi",
+  "location": {
+    "city": "",
+    "subnational": "Bujumbura Mairie",
+    "country": "Burundi",
+    "country_code": "BI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://lumitel.bi/package-vas?tab=Cloud+server",
+    "https://lumitel.bi/"
+  ],
+  "notes": "Official Lumitel page exposes a Cloud server service surface with Bujumbura address context. A for marketed cloud service; physical local datacenter infrastructure unproven until operator/tender evidence names a site.",
+  "method_batch": true
+}

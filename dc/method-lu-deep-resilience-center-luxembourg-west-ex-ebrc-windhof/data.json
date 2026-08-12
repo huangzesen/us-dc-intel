@@ -1,0 +1,22 @@
+{
+  "slug": "method-lu-deep-resilience-center-luxembourg-west-ex-ebrc-windhof",
+  "canonical_project": "DEEP Resilience Center Luxembourg West (ex-EBRC Windhof)",
+  "owner": "DEEP (POST Group, ex-EBRC)",
+  "location": {
+    "city": "",
+    "subnational": "Capellen",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.deep.eu/en/accueil/services/datacenter/datacenter-colocation-services",
+    "https://www.datacentermap.com/luxembourg/luxembourg/ebrc-windhof/",
+    "https://www.lu-cix.lu/infrastructure/network-map/"
+  ],
+  "notes": "3 rue Pierre Flammang, L-8399 Windhof (Koerich commune); one of three DEEP Tier IV-certified datacenters; EBRC legacy site built 2006; LU-CIX PoP confirms.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "cngov-bank-of-communications-jiaotong-gui-an-data-center",
+  "canonical_project": "Bank of Communications (Jiaotong) Gui'an Data Center",
+  "owner": "Bank of Communications",
+  "location": {
+    "city": "",
+    "subnational": "",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 60.0,
+  "status": "construction",
+  "evidence_date": "2025-01-24",
+  "evidence_grade": "B",
+  "sources": [
+    "https://m.mpaypass.com.cn/news/202501/24222559.html",
+    "http://www.iccsz.com/4g/news.Asp?ID=f4e6699d07064b5f9f56ecffd2480b79"
+  ],
+  "notes": "Gui'an New Area project filed/approved for establishment 2023-03; phase 1 main structure topped out 2025-01-10. Planned ~279 mu, ~RMB 5 bn investment, 10,000+ racks, 200,000+ servers. Capacity 60 MW = 10,000 racks x 6 kW (design, phase 1+).",
+  "cn_gov_batch": true
+}

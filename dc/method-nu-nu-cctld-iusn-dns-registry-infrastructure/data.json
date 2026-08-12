@@ -1,0 +1,23 @@
+{
+  "slug": "method-nu-nu-cctld-iusn-dns-registry-infrastructure",
+  "canonical_project": ".NU ccTLD / IUSN DNS registry infrastructure",
+  "owner": "The IUSN Foundation (manager); The Internet Infrastructure Foundation / Internetstiftelsen (technical)",
+  "location": {
+    "city": "",
+    "subnational": "Niue",
+    "country": "Niue",
+    "country_code": "NU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.iana.org/domains/root/db/nu.html",
+    "https://iusn.org/",
+    "https://internetniue.nu/",
+    "https://www.internetstiftelsen.se/"
+  ],
+  "notes": "IANA delegation record (updated 2025-07-03): ccTLD manager The IUSN Foundation (Alofi), technical contact and name-server infrastructure in Sweden (Internet Infrastructure Foundation). DNS/registry context (dns_registry_context), NOT local datacenter evidence - do not count .nu/DNS/Wi-Fi-nation story as DC.",
+  "method_batch": true
+}

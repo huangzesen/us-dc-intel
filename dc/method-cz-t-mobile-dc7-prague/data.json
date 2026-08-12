@@ -1,0 +1,21 @@
+{
+  "slug": "method-cz-t-mobile-dc7-prague",
+  "canonical_project": "T-Mobile DC7 Prague",
+  "owner": "T-Mobile Czech Republic a.s.",
+  "location": {
+    "city": "",
+    "subnational": "Prague",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": 10.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/t-mobile-to-extend-data-center-in-prague-czechia/",
+    "https://baxtel.com/data-center/t-mobile-dc7"
+  ],
+  "notes": "DCD (2023-05-23) reported expansion adding four data halls/3 MW at the K Perovne/Malesice-Hostivar area facility, taking it to about 10 MW; Baxtel notes the expansion completed in 2025. B-grade trade evidence; official T-Mobile brochure page for DC7 still to be archived per CZ methodology open items.",
+  "method_batch": true
+}

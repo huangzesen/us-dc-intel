@@ -1,0 +1,21 @@
+{
+  "slug": "method-qa-doha-ix-ooredoo-de-cix",
+  "canonical_project": "Doha IX (Ooredoo + DE-CIX)",
+  "owner": "Ooredoo Qatar / DE-CIX",
+  "location": {
+    "city": "",
+    "subnational": "Doha",
+    "country": "Qatar",
+    "country_code": "QA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.de-cix.net/en/about-de-cix/media/press-releases/ooredoo-and-de-cix-bring-world-class-internet-exchange-to-qatar-with-doha-ix",
+    "https://developingtelecoms.com/telecom-technology/optical-fixed-networks/20120-ooredoo-and-de-cix-connect-doha-ix-to-de-cix-marseille.html"
+  ],
+  "notes": "First commercial carrier-neutral IX in Qatar, launched October 2025, hosted in an Ooredoo data centre in Doha (DE-CIX as-a-service model), connected to DE-CIX Marseille. Official Ooredoo/DE-CIX press releases. IXP/connectivity record - not a DC building.",
+  "method_batch": true
+}

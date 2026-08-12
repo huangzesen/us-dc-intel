@@ -1,0 +1,23 @@
+{
+  "slug": "method-ps-paltel-gaza-main-data-centers-switches",
+  "canonical_project": "Paltel Gaza main data centers / switches",
+  "owner": "Paltel (Palestine Telecommunications Company)",
+  "location": {
+    "city": "",
+    "subnational": "Gaza",
+    "country": "Palestine, State of",
+    "country_code": "PS"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://english.wafa.ps/Pages/Details/139337",
+    "https://7amleh.org/post/impact-of-war-on-gaza-s-telecommunications-infrastructure-en",
+    "https://www.nytimes.com/2024/03/13/world/middleeast/gaza-phone-networks.html",
+    "https://www.accessnow.org/press-release/paltel-letter-internet-telecommunications-shutdowns-gaza/"
+  ],
+  "notes": "Pre-war Paltel institutional data centers/switches in Gaza. WAFA (2023-11-16) reported gradual shutdown from fuel depletion; 7amleh (2024) reported 75% of Gaza telecom infrastructure damaged, at least 50% destroyed; NYT (2024-03-13) cited Paltel saying ~80% of network offline. Current status is damaged/intermittently restored/unknown - NOT normal operational without a 2025-2026 A-grade operator/official confirmation.",
+  "method_batch": true
+}

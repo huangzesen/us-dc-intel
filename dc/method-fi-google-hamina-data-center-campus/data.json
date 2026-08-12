@@ -1,0 +1,23 @@
+{
+  "slug": "method-fi-google-hamina-data-center-campus",
+  "canonical_project": "Google Hamina data center campus",
+  "owner": "Google",
+  "location": {
+    "city": "",
+    "subnational": "Kymenlaakso",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenters.google/locations/hamina-finland",
+    "https://www.fdca.fi/google-announced-e1-billion-expansion-of-hamina-data-center-and-new-heat-recovery-project/",
+    "https://blog.google/company-news/inside-google/around-the-globe/google-europe/our-first-offsite-heat-recovery-project-lands-in-finland/",
+    "https://www.datacenterdynamics.com/en/news/google-launches-heat-recovery-project-at-data-center-in-hamina-finland/"
+  ],
+  "notes": "Google official page: Hamina campus opened 2011 (former Summa paper mill), seventh data center announced 2024; EUR 1bn expansion announced (total investment >EUR 4.5bn) with first off-site heat recovery project feeding Haminan Energia district heating (target ~80% of local heat demand). Capacity not disclosed.",
+  "method_batch": true
+}

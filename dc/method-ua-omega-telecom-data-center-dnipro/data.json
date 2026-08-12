@@ -1,0 +1,20 @@
+{
+  "slug": "method-ua-omega-telecom-data-center-dnipro",
+  "canonical_project": "Omega Telecom data center (Dnipro)",
+  "owner": "Omega Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Dnipropetrovsk",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/3-korolenka-street-dnipropetrovsk-dnipropetrovska-oblast/omega-telecom/datacenter/dnipro"
+  ],
+  "notes": "Inflect directory lists Omega Telecom data center at 3 Korolenka Street, Dnipro (Dnipropetrovsk). Directory-only evidence - C grade; current operational status not verified (wartime verification required per methodology). UA methodology also names Datasfera and SerinIX DK01 as Dnipro directory seeds - not independently verified in this pass.",
+  "method_batch": true
+}

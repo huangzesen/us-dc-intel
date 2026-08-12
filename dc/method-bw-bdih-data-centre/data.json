@@ -1,0 +1,21 @@
+{
+  "slug": "method-bw-bdih-data-centre",
+  "canonical_project": "BDIH Data Centre",
+  "owner": "Botswana Digital & Innovation Hub (BDIH)",
+  "location": {
+    "city": "",
+    "subnational": "Gaborone",
+    "country": "Botswana",
+    "country_code": "BW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bih.co.bw/bdih-data-centre/",
+    "https://www.bih.co.bw/"
+  ],
+  "notes": "Plot 69184, Block 8, BDIH, Gaborone; 80 racks; Tier III compliant; DCaaS colocation; carrier-neutral (BoFiNet, VBN, BTC connected); 2 independent power circuits, UPS + 2 backup generators per official page.",
+  "method_batch": true
+}

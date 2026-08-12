@@ -1,0 +1,23 @@
+{
+  "slug": "method-bj-data-centre-national-abomey-calavi",
+  "canonical_project": "Data centre national (Abomey-Calavi)",
+  "owner": "État béninois (ASSI/ASIN); attribution SBIN non confirmée officiellement",
+  "location": {
+    "city": "",
+    "subnational": "Atlantique",
+    "country": "Benin",
+    "country_code": "BJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://innovation.gouv.bj/publications/actualites/datacenter-national-demarrage-des-premiers-tests-techniques-sous-le-regard-de-la-ministre-du-numerique-et-de-la-digitalisation",
+    "https://lanation.bj/actualites/pour-booster-le-potentiel-numerique-au-benin-le-menc-a-pied-doeuvre-pour-un-data-center",
+    "https://cio-mag.com/benin-premiers-tests-techniques-sur-le-datacenter-national/",
+    "https://www.datacenterdynamics.com/en/news/benin-wants-to-establish-a-secondary-national-data-center/"
+  ],
+  "notes": "Ministère du Numérique page (2021-06-01) confirms technical testing started at the Abomey-Calavi national datacenter site with dual fibre, secure power and a Tier 3 ANSI/TIA-942 certification process (A). La Nation 2019 reports a two-hectare site and 500 sqm technical block (B+). CIO Mag covers the 2021-06-01 testing milestone (B). DCD 2026-03-27 reports the existing facility at 300 sqm on Highway RNIE 1 and an operator name 'SBIM' (likely typo for SBIN) (B). Commercial colocation not confirmed. GDIZ/Glo-Djigbé and Sème City Ouidah campus remain watch items with no verified DC project inside.",
+  "method_batch": true
+}

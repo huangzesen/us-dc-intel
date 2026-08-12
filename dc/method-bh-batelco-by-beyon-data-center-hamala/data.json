@@ -1,0 +1,22 @@
+{
+  "slug": "method-bh-batelco-by-beyon-data-center-hamala",
+  "canonical_project": "Batelco by Beyon Data Center (Hamala)",
+  "owner": "Batelco / Beyon Group",
+  "location": {
+    "city": "",
+    "subnational": "Northern Governorate",
+    "country": "Bahrain",
+    "country_code": "BH"
+  },
+  "capacity_mw": 2.75,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.batelco.com/business/data-center/",
+    "https://www.datacenterdynamics.com/en/news/batelco-opens-bahrain-data-center/",
+    "https://www.bizbahrain.com/beyon-announces-second-green-data-center-and-strengthens-partnership-with-almoayyed-solar/"
+  ],
+  "notes": "Official Batelco page: Bahrain's first and only Tier III certified data center (Uptime Institute), Building 1095, Road 1425, Block 1014, Hamala; co-location services at multiple locations. DCD reported 2.75 MW at opening (B). Since Phase 3 of Beyon Solar Park (Nov 2025) the facility runs on 100% solar energy (Biz Bahrain, B).",
+  "method_batch": true
+}

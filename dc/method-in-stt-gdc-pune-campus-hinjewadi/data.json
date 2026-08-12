@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-stt-gdc-pune-campus-hinjewadi",
+  "canonical_project": "STT GDC Pune campus (Hinjewadi)",
+  "owner": "ST Telemedia Global Data Centres (STT GDC)",
+  "location": {
+    "city": "",
+    "subnational": "Maharashtra - Pune Division",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 40,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sttelemediagdc.com/in-en/locations/pune",
+    "https://baxtel.com/data-center/pune"
+  ],
+  "notes": "Official STT page: Pune campus operational since 2009, 40 MW IT load, only campus in India with 100 MVA into a dedicated 220 kV substation; Baxtel aggregates STT Pune 1-5 at ~65.3 MW across Hinjewadi sites.",
+  "method_batch": true
+}

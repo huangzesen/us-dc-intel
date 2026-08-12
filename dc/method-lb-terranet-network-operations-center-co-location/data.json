@@ -1,0 +1,21 @@
+{
+  "slug": "method-lb-terranet-network-operations-center-co-location",
+  "canonical_project": "TerraNet Network Operations Center co-location",
+  "owner": "TerraNet S.A.L.",
+  "location": {
+    "city": "",
+    "subnational": "Beirut",
+    "country": "Lebanon",
+    "country_code": "LB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.terra.net.lb/products/Terraweb",
+    "https://www.ripe.net/membership/member-support/list-of-members/lb/terranet/"
+  ],
+  "notes": "TerraNet official product page offers customer server placement/co-location in its Network Operations Center with redundant UPS, automatic generators, climate control, secure access. RIPE lists TerraNet sal at Mdawar, Charles El-Helou Avenue, Nassar Center, Beirut. A for service claim; small NOC colo lead, no standalone facility specs/MW published.",
+  "method_batch": true
+}

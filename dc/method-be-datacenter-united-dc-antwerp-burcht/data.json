@@ -1,0 +1,22 @@
+{
+  "slug": "method-be-datacenter-united-dc-antwerp-burcht",
+  "canonical_project": "Datacenter United DC Antwerp (Burcht)",
+  "owner": "Datacenter United",
+  "location": {
+    "city": "",
+    "subnational": "Flanders",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenterunited.com/en/our-datacenters/",
+    "https://www.datacenters.com/united-dc-antwerp",
+    "https://translations.uptimeinstitute.com/clients/datacenter-united"
+  ],
+  "notes": "DCU Antwerp is Belgium's first and only Uptime Tier IV certified data center (operator + Uptime client story). DC Star Burcht site acquired 2022 (Baxtel). Operator lists Antwerp among 14 DCs / 12 Belgian locations.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-bd-fiber-home-colocation",
+  "canonical_project": "Fiber@Home colocation",
+  "owner": "Fiber@Home Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Dhaka",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.fiberathome.net/co-location",
+    "https://www.fiberathome.net/journey"
+  ],
+  "notes": "Operator page (checked 2026-08-12) confirms colocation services (including for ANS operators via its Central Offices) from major NTTN/ISP; journey page claims largest commercial colocation data centre (2024). Dhaka-division service; facility/address granularity needs per-site confirmation.",
+  "method_batch": true
+}

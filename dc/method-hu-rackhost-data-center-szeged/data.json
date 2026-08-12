@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-rackhost-data-center-szeged",
+  "canonical_project": "Rackhost Data Center Szeged",
+  "owner": "Rackhost Zrt.",
+  "location": {
+    "city": "",
+    "subnational": "Szeged",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/hungary/szeged/",
+    "https://www.rackhost.hu/"
+  ],
+  "notes": "City-level entry: DataCenterMap states Rackhost Data Center Szeged was established in 2011 at Tisza Lajos krt. 41 (telecommunications hub) with redundant connections to Budapest and Telekom Dataplex; rackhost.hu confirms the provider. Directory-grade lead; no MW figure.",
+  "method_batch": true
+}

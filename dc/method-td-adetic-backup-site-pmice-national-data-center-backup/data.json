@@ -1,0 +1,21 @@
+{
+  "slug": "method-td-adetic-backup-site-pmice-national-data-center-backup",
+  "canonical_project": "ADETIC backup site / PMICE national data-center backup",
+  "owner": "PMICE / ADETIC (backup/DR component of National DC program)",
+  "location": {
+    "city": "",
+    "subnational": "N'Djamena City",
+    "country": "Chad",
+    "country_code": "TD"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2023-02-06",
+  "evidence_grade": "A",
+  "sources": [
+    "https://documents1.worldbank.org/curated/en/099102502282341480/pdf/P180000048eed6040a13200ddaf8abe650.pdf",
+    "https://adetic.td/audit-et-certification-du-data-center-national-ladetic-lansice-et-techso-group-en-mission-conjointe/"
+  ],
+  "notes": "World Bank P180000 project document (A) confirms PMICE scope includes 'a Data Center and its national backup'; ADETIC's 12 Feb 2026 audit article mentions inspection of an 'ADETIC backup site' during the joint TECHSO/ADETIC/ANSICE mission. Location, capacity and role not published (assumed N'Djamena-region); treated as A-grade backup/DR lead, not yet a separate verified full DC.",
+  "method_batch": true
+}

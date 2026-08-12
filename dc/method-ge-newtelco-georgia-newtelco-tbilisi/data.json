@@ -1,0 +1,23 @@
+{
+  "slug": "method-ge-newtelco-georgia-newtelco-tbilisi",
+  "canonical_project": "NewTelco Georgia (NewTelco Tbilisi)",
+  "owner": "NewTelco Georgia Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Tbilisi",
+    "country": "Georgia",
+    "country_code": "GE"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://newtelco.ge/?lang=en",
+    "https://newtelco.com/",
+    "https://www.datacenters.com/newtelco-georgia",
+    "https://www.datacentermap.com/georgia/tbilisi/newtelco-dc-colocation/"
+  ],
+  "notes": "First-party Georgian site (newtelco.ge) self-describes as the first international data center in Transcaucasia; group site (newtelco.com) lists NewTelco Georgia Ltd at A. Politkovskaia St, Tbilisi, neutral DC since 2012-2016. Address 5 Ana Politkovskaia St from business directories; 3.0 MW capacity is catalog-level (C).",
+  "method_batch": true
+}

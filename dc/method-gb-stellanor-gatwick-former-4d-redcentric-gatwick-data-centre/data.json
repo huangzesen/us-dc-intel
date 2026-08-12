@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-stellanor-gatwick-former-4d-redcentric-gatwick-data-centre",
+  "canonical_project": "Stellanor Gatwick (former 4D/Redcentric Gatwick) data centre",
+  "owner": "Stellanor Datacenters / former 4D Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "England - West Sussex",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 2.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.colo-x.com/data-centre/4d-gatwick-west-sussex/",
+    "https://www.datacentermap.com/united-kingdom/crawley/redcentric-gatwick-data-centre/",
+    "https://baxtel.com/data-center/stellanor-gatwick"
+  ],
+  "notes": "Operational colocation at 7-19 Kelvin Way, Crawley (near Gatwick); ~400 cabinets at ~5kW average, ~10,000 sq ft; formerly Redcentric/4D, now Stellanor after divestment.",
+  "method_batch": true
+}

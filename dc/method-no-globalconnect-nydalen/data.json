@@ -1,0 +1,21 @@
+{
+  "slug": "method-no-globalconnect-nydalen",
+  "canonical_project": "GlobalConnect Nydalen",
+  "owner": "GlobalConnect AS",
+  "location": {
+    "city": "",
+    "subnational": "Oslo",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.peeringdb.com/fac/1362",
+    "https://www.datacentermap.com/norway/oslo/ostre-aker-vei/"
+  ],
+  "notes": "Colocation facility at Sandakerveien 121, Oslo 0484 (Nydalen); PeeringDB facility record + directory; Nkom-listed operator GLOBALCONNECT AS. B until Oslo municipal/operator-page confirmation.",
+  "method_batch": true
+}

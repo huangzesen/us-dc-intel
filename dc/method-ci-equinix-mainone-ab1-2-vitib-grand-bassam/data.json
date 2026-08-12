@@ -1,0 +1,21 @@
+{
+  "slug": "method-ci-equinix-mainone-ab1-2-vitib-grand-bassam",
+  "canonical_project": "Equinix/MainOne AB1.2 (VITIB, Grand-Bassam)",
+  "owner": "Equinix (MainOne)",
+  "location": {
+    "city": "",
+    "subnational": "Comoe",
+    "country": "Cote d'Ivoire",
+    "country_code": "CI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://infotechlead.com/data-center/mainone-expands-data-center-footprint-in-cote-divoire-81527",
+    "https://techbuild.africa/mainone-equinix-company-cote-divoire/"
+  ],
+  "notes": "Expanded open-access carrier-neutral DC launched Nov 2023 at VITIB Grand Bassam; Uptime Tier III standards; complements AB1 on same campus.",
+  "method_batch": true
+}

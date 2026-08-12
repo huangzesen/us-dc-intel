@@ -1,0 +1,24 @@
+{
+  "slug": "method-ch-northc-datacenter-muenchenstein-basel-1-2",
+  "canonical_project": "NorthC Datacenter Muenchenstein (Basel) 1 & 2",
+  "owner": "NorthC Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Basel-Landschaft",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": 6,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.northcdatacenters.com/ch-de/northc-datacenters/schweiz/muenchenstein/",
+    "https://www.northcdatacenters.com/ch-de/northc-datacenters/schweiz/muenchenstein-basel-2/",
+    "https://www.datacenter-insider.de/northc-baut-6-mw-rechenzentrum-in-basel-a-512686520700ec10434309c8b9c72539/",
+    "https://www.datacentermap.com/switzerland/basel/mus01/",
+    "https://www.jeko.com/northc-und-legrand-realisieren-in-muenchenstein-basel-1-eine-neue-klasse-von-ki-faehiger-rechenzentrums-infrastruktur/"
+  ],
+  "notes": "Two colocation datacenters in Muenchenstein (BL) at Weidenstrasse 41: Muenchenstein 1 with 6 MW installed electrical power, 2N UPS, N+1 generator redundancy, high-density 22 kW racks; Muenchenstein 2 also operational; 2025-2026 AI/HPC-capable infrastructure upgrade at site 1 with Legrand; new 6-MW build reported by datacenter-insider. Official pages A for existence; capacity B (datasheet/partner sources).",
+  "method_batch": true
+}

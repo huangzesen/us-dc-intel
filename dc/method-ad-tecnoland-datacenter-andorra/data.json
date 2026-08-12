@@ -1,0 +1,20 @@
+{
+  "slug": "method-ad-tecnoland-datacenter-andorra",
+  "canonical_project": "Tecnoland DataCenter Andorra",
+  "owner": "Tecnoland (Xarxa Soft ecosystem)",
+  "location": {
+    "city": "",
+    "subnational": "Andorra la Vella",
+    "country": "Andorra",
+    "country_code": "AD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://tecnoland.ad/datacenter-andorra-centre-de-dades/"
+  ],
+  "notes": "Tecnoland markets a 'DataCenter Andorra' server-hosting/remote-desktop service with local Andorran branding. Physical parish not verified on the page; methodology places it as likely Andorra la Vella area. Some service options currently disabled. No ASN/physical site verification; C-grade lead only.",
+  "method_batch": true
+}

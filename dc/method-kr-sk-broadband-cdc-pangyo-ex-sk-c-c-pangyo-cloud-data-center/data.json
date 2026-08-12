@@ -1,0 +1,22 @@
+{
+  "slug": "method-kr-sk-broadband-cdc-pangyo-ex-sk-c-c-pangyo-cloud-data-center",
+  "canonical_project": "SK Broadband CDC Pangyo (ex-SK C&C Pangyo Cloud Data Center)",
+  "owner": "SK C&C (SK AX) / SK Broadband",
+  "location": {
+    "city": "",
+    "subnational": "Gyeonggi-do - Seongnam-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 30,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.skax.co.kr/company/office",
+    "https://mydcservice.skcc.com/",
+    "https://www.datacenterdynamics.com/en/news/sk-groups-it-subsidiary-sells-data-center-business-to-broadband-subsidiary/"
+  ],
+  "notes": "Pangyo Cloud Data Center at Pangyo-ro 255beon-gil 46, Bundang-gu, Seongnam (SK AX official site); 30MW facility whose DC business was transferred from SK C&C to SK Broadband in 2025.",
+  "method_batch": true
+}

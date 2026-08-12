@@ -1,0 +1,20 @@
+{
+  "slug": "method-ru-rostelecom-legacy-data-center-krasnodar",
+  "canonical_project": "Rostelecom legacy data center (Krasnodar)",
+  "owner": "Rostelecom / RTK-DC",
+  "location": {
+    "city": "",
+    "subnational": "Krasnodar",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.comnews.ru/content/68001/2012-09-21/rostelekom-gotovit-cod-letom"
+  ],
+  "notes": "Trade-press reference (2012) to existing Rostelecom data centers in Krasnodar and Stavropol as part of the South cluster; legacy facility, current status unverified.",
+  "method_batch": true
+}

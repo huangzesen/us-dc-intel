@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-datavita-dv2-glasgow-city-centre-data-centre",
+  "canonical_project": "DataVita DV2 Glasgow city centre data centre",
+  "owner": "DataVita",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - Glasgow City",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datavita.co.uk/location/glasgow",
+    "https://www.investglasgow.com/resources/news/121-datavita-unveils-scotland-s-first-metro-data-centre",
+    "https://www.colo-x.com/data-centre/datavita-glasgow-data-centre/"
+  ],
+  "notes": "Operational Tier III city-centre data centre at 177 Bothwell Street, Glasgow (DV2); 130 racks, 1MW power available; opened as Scotland's first metro data centre (2016 campus history); DataVita also operates Lanarkshire DV1 (12MW, outside this division).",
+  "method_batch": true
+}

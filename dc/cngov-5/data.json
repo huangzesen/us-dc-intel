@@ -1,0 +1,20 @@
+{
+  "slug": "cngov-5",
+  "canonical_project": "沈阳智算中心集群（5个智算中心，含百度智能云）",
+  "owner": "沈阳市（以沈阳人工智能计算中心、百度智能云等为核心）",
+  "location": {
+    "city": "沈阳",
+    "subnational": "Liaoning",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 91.5,
+  "status": "运营",
+  "evidence_date": "2026-07-09",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.stats.gov.cn/zs/tjwh/tjkw/tjqk/zgxxb/202607/P020260709334664844035.pdf"
+  ],
+  "notes": "国家统计局《中国信息报》2026-07报道：沈阳已建成以沈阳人工智能计算中心、百度智能云为核心的5个智算中心，总算力1830P，居东北首位，构建覆盖训练与推理的普惠算力服务体系。capacity_mw按1830P×0.05MW/PFLOPS汇总估算（约91.5MW AI算力，非机架IT负荷）。 [province=辽宁]",
+  "cn_gov_batch": true
+}

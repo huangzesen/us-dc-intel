@@ -1,0 +1,21 @@
+{
+  "slug": "method-sg-equinix-sg4",
+  "canonical_project": "Equinix SG4",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "South East",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/singapore/singapore/equinix-sg4/",
+    "https://www.structureresearch.net/blogs/jabez-tan-on-the-latest-dynamics-in-the-singapore-data-centre-market/"
+  ],
+  "notes": "Equinix SG4 at 7 Tai Seng Drive, east Singapore; fills geographic gap in Equinix footprint (Structure Research); operational colocation. Tai Seng area - South East CDC (same district as Global Switch Tai Seng).",
+  "method_batch": true
+}

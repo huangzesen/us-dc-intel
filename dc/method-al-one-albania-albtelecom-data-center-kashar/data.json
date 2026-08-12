@@ -1,0 +1,22 @@
+{
+  "slug": "method-al-one-albania-albtelecom-data-center-kashar",
+  "canonical_project": "One Albania / ALBtelecom data center (Kashar)",
+  "owner": "One Albania (ex-ALBtelecom)",
+  "location": {
+    "city": "",
+    "subnational": "Tirane",
+    "country": "Albania",
+    "country_code": "AL"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/4ig-finalizes-merger-of-two-albanian-operators-to-form-one-albania/",
+    "https://climapoint.al/en/projekt/albtelecom-data-center/",
+    "https://www.datacenterjournal.com/albtelecom/"
+  ],
+  "notes": "Aggregator/vendor records place an ALBtelecom data center at Autostrada Tirane-Durres Km 7 / Tirana Industrial Park, Kashar (Climapoint vendor page shows an IT-cooling project for Albtelecom Data Center); DCD confirms the ALBtelecom/ONE merger. No One Albania official facility page, permit, or QKB record found - stays C. Telecom-core/server-room facility status unverified.",
+  "method_batch": true
+}

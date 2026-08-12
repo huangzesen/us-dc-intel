@@ -1,0 +1,22 @@
+{
+  "slug": "method-gh-bank-of-ghana-kumasi-data-centre-disaster-recovery-site-ahinsan",
+  "canonical_project": "Bank of Ghana Kumasi Data Centre & Disaster Recovery Site (Ahinsan)",
+  "owner": "Bank of Ghana",
+  "location": {
+    "city": "",
+    "subnational": "Ashanti",
+    "country": "Ghana",
+    "country_code": "GH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/bank-ghana-brings-disaster-recovery-site-online/",
+    "https://ghanaguardian.com/bog-launches-kumasi-data-centre-to-deal-with-system-disruption",
+    "https://www.myjoyonline.com/bog-launches-kumasi-data-centre-to-deal-with-system-disruption/"
+  ],
+  "notes": "Central bank DR/data centre at Ahinsan, Kumasi (launched 2018); three-storey building, ~2,890 sq m; enterprise/government facility, not retail colocation.",
+  "method_batch": true
+}

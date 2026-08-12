@@ -1,0 +1,22 @@
+{
+  "slug": "method-se-junet-datacenter-birka-huskvarna",
+  "canonical_project": "Junet Datacenter (Birka, Huskvarna)",
+  "owner": "Junet",
+  "location": {
+    "city": "",
+    "subnational": "Jonkoping",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.junet.se/datacenter/",
+    "https://www.datacentermap.com/sweden/jonkoping/",
+    "https://inflect.com/datacenters/emea/sweden/jonkoping"
+  ],
+  "notes": "Junet official datacenter page (verified live) describes a reliable, environmentally friendly server hall with dedicated fiber, redundant power and efficient cooling - colocation service. Aggregators place the facility at Birkagatan 41, Huskvarna (Junet Birka). B-grade: official service page + aggregator location.",
+  "method_batch": true
+}

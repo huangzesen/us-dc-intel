@@ -1,0 +1,22 @@
+{
+  "slug": "method-st-ace-stp-cabo-submarine-cable-landing-station-sao-tome",
+  "canonical_project": "ACE / STP Cabo submarine cable landing station (Sao Tome)",
+  "owner": "STP Cabo (PPP/SPV; CST holds 74.5%) / ACE consortium",
+  "location": {
+    "city": "",
+    "subnational": "Agua Grande",
+    "country": "Sao Tome and Principe",
+    "country_code": "ST"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Africa_Coast_to_Europe_(cable_system)",
+    "https://ace-submarinecable.com/en/submarine-cable/",
+    "https://orange.africa-newsroom.com/press/ace-submarine-cable-launch-of-the-sao-tome-and-principe-to-cape-town-segment?lang=en"
+  ],
+  "notes": "Connectivity record - NOT a datacenter. ACE cable RFS Dec 2012 with Sao Tome and Principe as landing station (ACE official page; Wikipedia; geocables); STP Cabo manages the landing station and national capacity share; STP switched from satellite to ACE in 2012 (World Bank P177158). Landing station in Sao Tome (Agua Grande). No colocation/hosting/server evidence at the station, so no DC facility record per methodology.",
+  "method_batch": true
+}

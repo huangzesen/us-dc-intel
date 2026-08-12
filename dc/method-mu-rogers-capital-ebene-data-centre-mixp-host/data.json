@@ -1,0 +1,22 @@
+{
+  "slug": "method-mu-rogers-capital-ebene-data-centre-mixp-host",
+  "canonical_project": "Rogers Capital Ebene Data Centre (MIXP host)",
+  "owner": "Rogers Capital Technology Services Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Moka",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://technology.rogerscapital.mu/services/cloud-and-data-centre-services/",
+    "https://www.rogerscapital.mu/technology-services/cloud-data-center-services",
+    "https://www.datacentermap.com/mauritius/reduit/rogers-capital/"
+  ],
+  "notes": "Rogers Capital official pages (checked 2026-08-12) state carrier-neutral data centres in Ebene and La Tour Koenig, with the Mauritius Internet Exchange Point (MIXP) hosted in the Ebene Data Centre. DataCenterMap places the facility at Cyber Tower 1, Ebene Cybercity (C for address). Capacity not disclosed.",
+  "method_batch": true
+}

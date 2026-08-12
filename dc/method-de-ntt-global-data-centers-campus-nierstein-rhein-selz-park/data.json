@@ -1,0 +1,24 @@
+{
+  "slug": "method-de-ntt-global-data-centers-campus-nierstein-rhein-selz-park",
+  "canonical_project": "NTT Global Data Centers Campus Nierstein (Rhein-Selz-Park)",
+  "owner": "NTT Global Data Centers / NTT Data",
+  "location": {
+    "city": "",
+    "subnational": "Rhineland-Palatinate - Mainz-Bingen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 482,
+  "status": "approved",
+  "evidence_date": "2026-02-07",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenter-insider.de/stadtrat-nierstein-beschliesst-bebauungsplan-fuer-482-mw-campus-a-948a7cb22621c6ec813d32013eedeebe/",
+    "https://www.zeit.de/news/2026-02/07/rechenzentrum-projekt-in-nierstein-nimmt-naechsten-schritt",
+    "https://www.heise.de/news/Rechenzentrum-Projekt-von-NTT-in-Nierstein-nimmt-naechsten-Schritt-11168911.html",
+    "https://www.iz.de/projekte/news/-ntt-data-plant-rechenzentrum-in-nierstein-2000027193",
+    "https://www.swr.de/swraktuell/rheinland-pfalz/mainz/erste-plaene-zum-rechenzentrum-in-nierstein-bekanntgegeben-100.html"
+  ],
+  "notes": "NTT GDC campus on the former US Army barracks site in Nierstein (Rhein-Selz-Park, Landkreis Mainz-Bingen). Bebauungsplan adopted by Nierstein council (Satzungsbeschluss) and FNP amendment in force - land-use approved; Datacenter-Insider reports 482 MW campus; ZEIT reports ~480 MW IT load, making it one of the largest DC sites in Europe; construction start reported for 2026 (byc-news). Status: approved (land-use-planning complete), construction expected to begin 2026. ~400 jobs.",
+  "method_batch": true
+}

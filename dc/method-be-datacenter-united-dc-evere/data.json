@@ -1,0 +1,21 @@
+{
+  "slug": "method-be-datacenter-united-dc-evere",
+  "canonical_project": "Datacenter United DC Evere",
+  "owner": "Datacenter United",
+  "location": {
+    "city": "",
+    "subnational": "Brussels",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenterunited.com/en/our-datacenters/dc-evere/",
+    "https://itdaily.com/news/datacenter/datacenter-united-neemt-vier-proximus-datacenters-over/"
+  ],
+  "notes": "Carlistraat 2, 1140 Evere (Brussels-Capital). Former Proximus NetCenter; part of the Oct-2024 announced, Q1-2025 closed acquisition of four Proximus data centers (Evere, Mechelen, Machelen) for EUR 128M. Carrier-neutral colocation; only commercial colo DC in Brussels-Capital per datacenters.com. Permit status not separately verified.",
+  "method_batch": true
+}

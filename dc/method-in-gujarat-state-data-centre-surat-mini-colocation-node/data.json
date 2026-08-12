@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-gujarat-state-data-centre-surat-mini-colocation-node",
+  "canonical_project": "Gujarat State Data Centre - Surat mini/colocation node",
+  "owner": "Gujarat Infotech Ltd (GSDC)",
+  "location": {
+    "city": "",
+    "subnational": "Gujarat - Surat",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-12-01",
+  "evidence_grade": "C",
+  "sources": [
+    "https://archive.org/stream/8.ijcseitrdec20198/8.IJCSEITRDEC20198_djvu.txt",
+    "https://gil.gujarat.gov.in/gsdc"
+  ],
+  "notes": "Government state-data-centre node. Academic paper (IJCSEITR, Dec 2019) states GSDC provides mini/colocation data centre at Surat. No commercial/hyperscale project found for Surat district despite searches (DCD notes Gujarat DCs concentrated in Ahmedabad/GIFT City, outside this district). Capacity not disclosed.",
+  "method_batch": true
+}

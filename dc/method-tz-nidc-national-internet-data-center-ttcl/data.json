@@ -1,0 +1,21 @@
+{
+  "slug": "method-tz-nidc-national-internet-data-center-ttcl",
+  "canonical_project": "NIDC - National Internet Data Center (TTCL)",
+  "owner": "Government of Tanzania / TTCL (state telecom operator)",
+  "location": {
+    "city": "",
+    "subnational": "Dar es Salaam",
+    "country": "Tanzania, United Republic of",
+    "country_code": "TZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://nidc.co.tz/",
+    "https://btw.media/all/company-stories/nidc-anchors-tanzanias-secure-data-infrastructure/"
+  ],
+  "notes": "Official NIDC pages (A, methodology-anchored) state the Government of Tanzania constructed the National Internet Data Center in 2015, described as a modern Tier-III data centre in Dar es Salaam operated with/by TTCL, offering cloud/colocation services. btw.media company story (B): NIDC provides secure Tier-III colocation, virtual server hosting, web/email and domain services in Dar es Salaam. Government procurement documents (planning.go.tz) show government paying for NIDC space. Capacity (MW/racks) not published.",
+  "method_batch": true
+}

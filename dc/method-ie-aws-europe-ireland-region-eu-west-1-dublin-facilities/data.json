@@ -1,0 +1,20 @@
+{
+  "slug": "method-ie-aws-europe-ireland-region-eu-west-1-dublin-facilities",
+  "canonical_project": "AWS Europe (Ireland) region eu-west-1 + Dublin facilities",
+  "owner": "Amazon Web Services (Amazon Data Services Ireland Ltd)",
+  "location": {
+    "city": "",
+    "subnational": "Leinster",
+    "country": "Ireland",
+    "country_code": "IE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html"
+  ],
+  "notes": "AWS eu-west-1 Ireland region with 3 AZs (official region docs A). Physical Dublin-area facilities (Clonshaugh, Tallaght, Mulhuddart, Ballycoolin) operated by Amazon Data Services Ireland Ltd; region-level record, exact facility addresses not disclosed. capacity_mw null.",
+  "method_batch": true
+}

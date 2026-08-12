@@ -1,0 +1,21 @@
+{
+  "slug": "method-fm-boom-inc-iboom-colonia-data-center-central-office",
+  "canonical_project": "Boom! Inc. (iBoom) Colonia data center / central office",
+  "owner": "Boom! Inc. / iBoom",
+  "location": {
+    "city": "",
+    "subnational": "Yap",
+    "country": "Micronesia, Federated States of",
+    "country_code": "FM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://apnic.foundation/projects/broadband-for-all-yap-state-fsm/technicalreport/",
+    "https://tra.fm/public-register-of-licences/"
+  ],
+  "notes": "APNIC Foundation technical report (checked 2026-08-12): Boom! built out a data center/central office in Colonia, secured up to 20G IP transit/backhaul and connected it to Yap's cable landing station. TRA licenses Boom! Inc. (P.O. Box 215, Colonia Yap FM 96943) for terrestrial cable, international gateway and satellite earth-station facilities. Small telecom central office/DC, not hyperscale or carrier-neutral colocation; capacity undisclosed.",
+  "method_batch": true
+}

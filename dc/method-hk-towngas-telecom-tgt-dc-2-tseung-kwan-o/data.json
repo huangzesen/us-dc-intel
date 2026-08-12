@@ -1,0 +1,21 @@
+{
+  "slug": "method-hk-towngas-telecom-tgt-dc-2-tseung-kwan-o",
+  "canonical_project": "Towngas Telecom TGT DC 2, Tseung Kwan O",
+  "owner": "Towngas Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://scgidc.com/dc/tgt/",
+    "https://www.datacentermap.com/hong-kong/hong-kong/china-mobile-hong-kong/"
+  ],
+  "notes": "5-storey, 22,000 sq m standalone DC at 22 Chun Cheong Street, TKO Industrial Estate supporting ~3,300 high-density racks (aggregator sources, C). District: Sai Kung.",
+  "method_batch": true
+}

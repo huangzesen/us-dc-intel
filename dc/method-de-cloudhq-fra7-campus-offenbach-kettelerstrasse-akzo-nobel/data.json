@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-cloudhq-fra7-campus-offenbach-kettelerstrasse-akzo-nobel",
+  "canonical_project": "CloudHQ FRA7 Campus Offenbach (Kettelerstrasse/Akzo Nobel)",
+  "owner": "CloudHQ",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Offenbach am Main",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 90,
+  "status": "planned",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloudhq.com/campus/fra7-campus-offenbach/",
+    "https://www.datacenter-insider.de/cloudhq-plant-sein-dritte-datacenter-in-offenbach-a-d5862f7e192504fbb70cd3f10f8170c1/"
+  ],
+  "notes": "Official CloudHQ page lists FRA7 in Offenbach with 90 MW total critical IT load, development planned to begin 2027, service 2029; trade press reports ~93 MW and earliest operation 2027/2028.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-nu-commercial-colocation-datacenter-market-in-niue-verified-negative-no-market",
+  "canonical_project": "Commercial colocation / datacenter market in Niue - verified negative (no_market)",
+  "owner": "",
+  "location": {
+    "city": "",
+    "subnational": "Niue",
+    "country": "Niue",
+    "country_code": "NU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://telecomniue.com/",
+    "https://www.datacentermap.com/"
+  ],
+  "notes": "No public neutral colocation, tiered datacenter, cloud hosting or dedicated-server facility in Niue; Telecom Niue offers no public colo/rack/hosting page. Overseas 'Niue VPS / Alofi dedicated server / Niue cloud hosting' SEO pages are false positives (no local address/operator anchoring) - not counted. Tui-Samoa/SSCC/Apia references are Samoa-context, not Niue landings.",
+  "method_batch": true
+}

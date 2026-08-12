@@ -1,0 +1,22 @@
+{
+  "slug": "method-ua-vizit-net-dc1-dc2-kremenchuk",
+  "canonical_project": "Vizit-Net DC1 / DC2 (Kremenchuk)",
+  "owner": "Vizit-Net",
+  "location": {
+    "city": "",
+    "subnational": "Poltava",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/ukraine/kremenchuk/vizit-net-dc1/",
+    "https://www.datacentermap.com/ukraine/kremenchuk/vizit-net-dc2/",
+    "https://www.datacentermap.com/c/colocall-co-ltd/"
+  ],
+  "notes": "Directory-only evidence (Data Center Map) of two Vizit-Net data centers in Kremenchuk, Poltava Oblast; no operator page verified in this pass. Correction to methodology seed: ColoCall, previously associated with Kremenchuk/Poltava, is actually located in Kyiv (Budindustrii 6) per Data Center Map and colocall.net, so it is NOT a Poltava facility.",
+  "method_batch": true
+}

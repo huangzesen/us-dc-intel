@@ -1,0 +1,20 @@
+{
+  "slug": "method-ch-tinext-dc-1-lugano",
+  "canonical_project": "Tinext DC-1 (Lugano)",
+  "owner": "Tinext SA",
+  "location": {
+    "city": "",
+    "subnational": "Ticino",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/switzerland/lugano/data-center-lugano/"
+  ],
+  "notes": "Directory-listed colocation facility in Lugano TI; part of small Ticino colocation market (Tinext, GOLINE, Swisscolocation).",
+  "method_batch": true
+}

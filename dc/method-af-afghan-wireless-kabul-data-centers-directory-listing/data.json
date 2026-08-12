@@ -1,0 +1,21 @@
+{
+  "slug": "method-af-afghan-wireless-kabul-data-centers-directory-listing",
+  "canonical_project": "Afghan Wireless Kabul data centers (directory listing)",
+  "owner": "Afghan Wireless Communication Company (AWCC)",
+  "location": {
+    "city": "",
+    "subnational": "Kabul",
+    "country": "Afghanistan",
+    "country_code": "AF"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/providers/afghan-wireless-communication-company/locations/afghanistan/kabul/",
+    "https://afghan-wireless.com/"
+  ],
+  "notes": "datacenters.com lists Afghan Wireless data centers in the Kabul market; company site confirms nationwide telecom operations but no public facility-level pages/capacity. Directory-only C lead.",
+  "method_batch": true
+}

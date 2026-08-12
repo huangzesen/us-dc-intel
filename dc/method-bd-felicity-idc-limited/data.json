@@ -1,0 +1,21 @@
+{
+  "slug": "method-bd-felicity-idc-limited",
+  "canonical_project": "Felicity IDC Limited",
+  "owner": "Felicity IDC Limited (FIDC)",
+  "location": {
+    "city": "",
+    "subnational": "Dhaka",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": 5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://felicity.net.bd/",
+    "https://uptimeinstitute.com/component/tierachievement/client/felicity-idc-limited/923"
+  ],
+  "notes": "Official operator page (checked 2026-08-12): Tier III Uptime-certified carrier-neutral data centre at Solaris (South Wing), Block-3, Kaliakair Hi-Tech Park (KHTP), Kaliakoir, Gazipur (Dhaka division); claims 100,000+ sq ft, 500+ racks, 5 MW power, N+N redundancy, ISO 9001/14001/27001, CRISL A rating. MW/rack figures are operator marketing (B as engineering fact); Uptime Institute client page confirms certification.",
+  "method_batch": true
+}

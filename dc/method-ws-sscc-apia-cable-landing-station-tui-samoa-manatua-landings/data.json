@@ -1,0 +1,24 @@
+{
+  "slug": "method-ws-sscc-apia-cable-landing-station-tui-samoa-manatua-landings",
+  "canonical_project": "SSCC Apia cable landing station (Tui-Samoa / Manatua landings)",
+  "owner": "Samoa Submarine Cable Company (SSCC)",
+  "location": {
+    "city": "",
+    "subnational": "Tuamasaga",
+    "country": "Samoa",
+    "country_code": "WS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ssccsamoa.com/about/rio-reference-interconnection-offer/",
+    "https://www.ssccsamoa.com/wp-content/uploads/2026/03/Rio-2026.pdf",
+    "https://www.ssccsamoa.com/home/progress/",
+    "https://developingtelecoms.com/telecom-technology/data-centres-networks/6956-flexenclosure-deploying-ecentre-cable-landing-stations-for-sscc-in-samoa.html",
+    "https://www.adb.org/projects/47320-001/main"
+  ],
+  "notes": "SSCC RIO effective 1 Jan 2026 defines the Apia cable station and offers colocation/interconnection access guidelines to OOTR-licensed providers; SSCC progress page shows 100% (Tui-Samoa launched Feb 2018 per ADB/OOTR; Manatua Nov 2019). Flexenclosure (trade press, B) supplied eCentre modular data-centre cable landing stations terminating Tui-Samoa at Vavaisse (Upolu, near Apia; ADB IEEA names Fagali'i) and Tuasivi. Classified telecom_cable_station / colo-adjacent interconnection per WS methodology - not a public retail datacenter. SSCC offers Leased Capacity/IRU/Facility Access Agreements.",
+  "method_batch": true
+}

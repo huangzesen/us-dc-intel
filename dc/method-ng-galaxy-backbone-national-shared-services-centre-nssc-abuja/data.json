@@ -1,0 +1,23 @@
+{
+  "slug": "method-ng-galaxy-backbone-national-shared-services-centre-nssc-abuja",
+  "canonical_project": "Galaxy Backbone National Shared Services Centre (NSSC) Abuja",
+  "owner": "Galaxy Backbone Limited (government-owned)",
+  "location": {
+    "city": "",
+    "subnational": "Abuja Federal Capital Territory",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": 2.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://galaxybackbone.com.ng/ufaqs/does-galaxy-backbone-operate-a-datacentre/",
+    "https://guardian.ng/technology/70-of-govt-agencies-host-data-abroad-despite-220m-local-infrastructure/",
+    "https://nairametrics.com/2024/07/20/who-are-the-contractors-behind-nigerian-data-centres/",
+    "https://www.datacentermap.com/nigeria/abuja/national-shared-services-center-nssc/"
+  ],
+  "notes": "Official Galaxy Backbone FAQ confirms an Uptime Institute Tier III data centre in Abuja (Tier IV in Kano, outside this batch). Guardian (2026) reports the only Uptime Tier III public-sector DC at ~38% utilisation of ~2.5 MW capacity; Nairametrics (2024) cites ~128 rack spaces scalable to 512 (2019 build). Capacity_mw 2.5 is a press-reported figure (B-grade estimate); facility existence is A-grade via operator official page and Uptime. Hosts federal shared services; do not duplicate GBB hosted-state partnerships as new facilities elsewhere.",
+  "method_batch": true
+}

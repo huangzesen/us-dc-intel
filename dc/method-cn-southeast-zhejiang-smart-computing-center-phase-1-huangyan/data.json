@@ -1,0 +1,21 @@
+{
+  "slug": "method-cn-southeast-zhejiang-smart-computing-center-phase-1-huangyan",
+  "canonical_project": "浙东南智算中心一期 (Southeast Zhejiang Smart Computing Center Phase 1, Huangyan)",
+  "owner": "Zhejiang Telecom + Cambricon (中科寒武纪)",
+  "location": {
+    "city": "",
+    "subnational": "Zhejiang - Taizhou Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baike.baidu.com/item/浙东南智算中心/65472333",
+    "https://www.zjhy.gov.cn/col/col1604389/art/2026/art_c16b3cc5818442cab07f94d04942a697.html"
+  ],
+  "notes": "Phase 1 completed Dec 2023 (acceptance): 400P FP16 with domestic Cambricon AI chips at Yuanqiao/Fanrong industrial park; compute leasing exceeded 150% by Nov 2023.",
+  "method_batch": true
+}

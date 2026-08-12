@@ -1,0 +1,21 @@
+{
+  "slug": "method-au-airtrunk-mel2-tullamarine",
+  "canonical_project": "AirTrunk MEL2 (Tullamarine)",
+  "owner": "AirTrunk",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Hume",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 354,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://w.media/airtrunk-cdc-and-equinix-back-govt-data-centre-rules-nextdc-urges-execution-focus/",
+    "https://airtrunk.com/airtrunk-expands-australian-platform-with-a-second-hyperscale-data-centre-campus-in-melbourne/"
+  ],
+  "notes": "AirTrunk second Melbourne campus in Tullamarine (City of Hume LGA); w.media (2026) places MEL2 in Tullamarine and reports MEL2 at 354MW+ with Melbourne total 630MW+ (reported ultimate campus capacity, not phase-1 IT load); AirTrunk announced north-west Melbourne site acquisition for MEL2.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-equinix-pe2-perth-shenton-park-formerly-metronode",
+  "canonical_project": "Equinix PE2 Perth (Shenton Park, formerly Metronode)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Subiaco",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/perth-data-centers/pe2",
+    "https://www.submarinenetworks.com/en/stations/oceania/australia/shenton-park-equinix-pe2",
+    "https://www.datacenters.com/equinix-pe2-perth"
+  ],
+  "notes": "Re-verified: Equinix PE2 at 37 Lemnos Street, Shenton Park (City of Subiaco LGA), inherited from Metronode; operates as Shenton Park cable landing station and colocation IBX. No public MW capacity.",
+  "method_batch": true
+}

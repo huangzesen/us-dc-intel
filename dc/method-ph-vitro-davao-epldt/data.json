@@ -1,0 +1,21 @@
+{
+  "slug": "method-ph-vitro-davao-epldt",
+  "canonical_project": "VITRO Davao (ePLDT)",
+  "owner": "ePLDT / VITRO Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Davao",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://baxtel.com/data-center/epldt",
+    "https://cms.pldt.com/drupal/article/epldt-inaugurates-9th-vitro-data-center-clark"
+  ],
+  "notes": "PLDT VITRO Davao launched 2017 with 44 racks / ~1.1k sqft per Baxtel (operated by ePLDT). Confirmed alongside VITRO Clark inauguration coverage. A for operator evidence; capacity null (racks noted in notes).",
+  "method_batch": true
+}

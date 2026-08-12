@@ -1,0 +1,21 @@
+{
+  "slug": "method-mw-mtl-data-centre-datacentre-colocation-service",
+  "canonical_project": "MTL Data Centre / DataCENTRE colocation service",
+  "owner": "Malawi Telecommunications Limited (MTL)",
+  "location": {
+    "city": "",
+    "subnational": "Central Region",
+    "country": "Malawi",
+    "country_code": "MW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mtl.mw/hosted-services/datacentre/",
+    "https://www.datacenters.com/malawi-telecommunications-mtl-data-centre"
+  ],
+  "notes": "MTL operator page (re-verified via web search 2026-08-12) advertises high-class data centre facilities - rack/floor-space colocation, fire suppression, air conditioning, UPS, biometric access, CCTV and continuous traffic monitoring. Directory listing (datacenters.com) places the MTL Data Centre in Lilongwe (C-grade for exact location); TLS-chain fetch caveat noted on 2026-08-12 (curl -k required), content itself not downgraded. No MW capacity disclosed.",
+  "method_batch": true
+}

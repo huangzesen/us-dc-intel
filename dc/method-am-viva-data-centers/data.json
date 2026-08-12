@@ -1,0 +1,21 @@
+{
+  "slug": "method-am-viva-data-centers",
+  "canonical_project": "Viva Data Centers",
+  "owner": "Viva Armenia CJSC",
+  "location": {
+    "city": "",
+    "subnational": "Yerevan",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.viva.am/en/colocation",
+    "https://www.viva.am/en/business-solutions/cloud-and-it-solutions/web/colocation"
+  ],
+  "notes": "Commercial colo at advanced data centers in Yerevan (directory names Kochar and Karekin Njdeh sites); Tier III standard design, 2N power/cooling, dual high-voltage feeds, diesel generators, UPS; capacity not published.",
+  "method_batch": true
+}

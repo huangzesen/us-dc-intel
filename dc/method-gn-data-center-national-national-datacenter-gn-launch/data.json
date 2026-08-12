@@ -1,0 +1,22 @@
+{
+  "slug": "method-gn-data-center-national-national-datacenter-gn-launch",
+  "canonical_project": "Data Center National (national datacenter / .gn launch)",
+  "owner": "State of Guinea (MPTEN/ARPT; NIC.GN association)",
+  "location": {
+    "city": "",
+    "subnational": "Conakry",
+    "country": "Guinea",
+    "country_code": "GN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-09-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://presidence.gov.gn/la-guinee-se-dote-de-son-premier-data-center-national-et-du-domaine-gn-une-avancee-majeure-pour-la-souverainete-numerique/",
+    "https://guineematin.com/2025/09/04/conakry-la-guinee-lance-le-domaine-gn-inaugure-le-data-center-national-et-annonce-une-baisse-du-cout-de-la-data-avec-orange/",
+    "https://afrique.le360.ma/economie/guinee-mise-en-exploitation-du-data-center-au-coeur-dune-infrastructure-qui-ne-doit-jamais-cesser-de_PY7Q5T6ATZBRJPOCYH4VSSS444/"
+  ],
+  "notes": "Inaugurated / mise en service on 2025-09-04 at the ARPT headquarters, Koloma, Ratoma commune, Conakry, together with repatriation/launch of the .gn national domain; framed under Simandou 2040 (pillar 3 Infrastructures/Transport/Technologies); Orange data price cut 25%. A-grade for the event/status from the Presidency; minister quote gives 600 m2 and 'certifie Tiers 3' (B-grade claim; no Uptime/engineering certificate). Legal operator, funding source, racks/MW, detailed power design and production cutover unknown; Le360 (Mar 2026) reports exploitation/maintenance discussions and energy challenges (B). .gn registry hosting is a workload, not a separate facility.",
+  "method_batch": true
+}

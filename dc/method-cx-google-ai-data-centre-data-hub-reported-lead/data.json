@@ -1,0 +1,22 @@
+{
+  "slug": "method-cx-google-ai-data-centre-data-hub-reported-lead",
+  "canonical_project": "Google AI data centre / data hub (reported lead)",
+  "owner": "Google (reported; not confirmed by Google)",
+  "location": {
+    "city": "",
+    "subnational": "Christmas Island",
+    "country": "Christmas Island",
+    "country_code": "CX"
+  },
+  "capacity_mw": 7,
+  "status": "planned",
+  "evidence_date": "2025-11-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.thejakartapost.com/world/2025/11/06/google-planning-powerful-ai-data-centre-on-christmas-island",
+    "https://www.the-independent.com/news/world/australasia/google-ai-centre-christmas-island-b2860871.html",
+    "https://www.submarinenetworks.com/en/nv/insights/google-builds-giant-ai-data-center-on-christmas-island,-australia"
+  ],
+  "notes": "sub_location Airport / XCH area (reported 'advanced talks to lease land near the island's airport'). Reuters 2025-11-06 (via Jakarta Post/Independent/Submarine Networks): Google plans a large AI data centre on Christmas Island after a cloud deal with the Department of Defence; source quoted requesting a long-term energy deal for a ~7 MW facility using diesel + renewable power; island's biggest employer (Christmas Island Phosphates/PRL-CIP) said power can support it without depriving locals. UNCONFIRMED LEAD: Google has not issued a facility announcement; no Shire development approval, EPBC non-cable referral, AusTender or power-connection primary document found as of 2026-08-12; capacity 7 MW is reported, not primary. Keep B/C until primary approval/announcement.",
+  "method_batch": true
+}

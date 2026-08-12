@@ -1,0 +1,22 @@
+{
+  "slug": "method-kh-kepstar-dc1",
+  "canonical_project": "Kepstar DC1",
+  "owner": "Kepstar Data Centre Management Co., Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/cambodia/phnom-penh/kepstar-dc1/",
+    "https://w.media/kepstar-launches-cambodias-1st-tier-iii-data-center/",
+    "https://baxtel.com/data-center/kepstar-phnom-penh"
+  ],
+  "notes": "Inaugural Kepstar facility at 216 Norodom Blvd, Phnom Penh; W.Media (Nov 2022) reported Kepstar launching 'Cambodia's 1st Tier III data center'. Company profile (DataCenterMap, B/C) describes first phase of a pair of carrier-neutral DCs with combined ~6.8 MW and 1,200 racks in 110,000 sq ft. Baxtel lists Kepstar Phnom Penh ~7 MW (C). DC2 site ~100 km from Phnom Penh, province not confirmed.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-za-oadc-umhlanga-former-ntt-data-sa-internet-solutions-facility",
+  "canonical_project": "OADC Umhlanga (former NTT Data SA / Internet Solutions facility)",
+  "owner": "Open Access Data Centres (OADC) / WIOCC Group (formerly NTT Data SA / Internet Solutions)",
+  "location": {
+    "city": "",
+    "subnational": "KwaZulu-Natal - eThekwini Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-africa/durban/is-durban/",
+    "https://www.peeringdb.com/org/33533",
+    "https://techcabal.beehiiv.com/p/mono-joins-the-wave"
+  ],
+  "notes": "Legacy Internet Solutions/NTT Data SA facility at 3 Sugar Close, Umhlanga (eThekwini) - listed on DataCenterMap and PeeringDB as NTT DATA Umhlanga/Durban; OADC's acquisition of seven NTT Data SA centres (Bloemfontein, Cape Town, East London, Gqeberha, Umhlanga, Bryanston, Parklands) concluded 31 Dec 2025, so current owner is OADC. Directory-grade evidence only; no public MW capacity; small regional colocation/edge facility.",
+  "method_batch": true
+}

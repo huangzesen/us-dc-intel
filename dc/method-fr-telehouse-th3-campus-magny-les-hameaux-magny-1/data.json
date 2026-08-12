@@ -1,0 +1,22 @@
+{
+  "slug": "method-fr-telehouse-th3-campus-magny-les-hameaux-magny-1",
+  "canonical_project": "Telehouse TH3 campus Magny-les-Hameaux (Magny 1)",
+  "owner": "Telehouse (KDDI group)",
+  "location": {
+    "city": "",
+    "subnational": "Yvelines",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 25,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.telehouse.fr/blog-fr/magny-2/",
+    "https://www.gridreadiness.com/datacenters/telehouse-magny-les-hameaux",
+    "https://www.registre-dematerialise.fr/7391/download/component/146716/p3-ctf-ddae-th3-icpe-datacenter-p34-magny"
+  ],
+  "notes": "TH3 campus in Yvelines since 2009; gridreadiness lists ~25 MW Tier III with RTE connection; ICPE/environmental extension dossier (building P34) shows ongoing campus expansion; capacity B-grade.",
+  "method_batch": true
+}

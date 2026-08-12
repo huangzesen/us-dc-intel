@@ -1,0 +1,21 @@
+{
+  "slug": "method-fo-nema-husiing-hosting-service",
+  "canonical_project": "Nema Húsíing hosting service",
+  "owner": "P/F Nema",
+  "location": {
+    "city": "",
+    "subnational": "Faroe Islands",
+    "country": "Faroe Islands",
+    "country_code": "FO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nema.fo/wp-content/uploads/2023/06/Databehandleraftale_NEMA_Hysing.pdf",
+    "https://www.nema.fo/"
+  ],
+  "notes": "Confirmed hosting service (Nema Húsíing): Nema data-processing agreement states physical data storage is in Føroyar. Nema is a Faroese telecom/broadband/IT provider (founded 2007, Sýn-linked since 2019) with shops in Tórshavn and Klaksvík; physical facility location, size and redundancy not publicly documented.",
+  "method_batch": true
+}

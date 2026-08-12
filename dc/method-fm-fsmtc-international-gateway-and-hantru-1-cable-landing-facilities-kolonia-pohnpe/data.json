@@ -1,0 +1,22 @@
+{
+  "slug": "method-fm-fsmtc-international-gateway-and-hantru-1-cable-landing-facilities-kolonia-pohnpe",
+  "canonical_project": "FSMTC international gateway and HANTRU-1 cable-landing facilities (Kolonia/Pohnpei)",
+  "owner": "FSM Telecommunications Corporation (FSMTC)",
+  "location": {
+    "city": "",
+    "subnational": "Pohnpei",
+    "country": "Micronesia, Federated States of",
+    "country_code": "FM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.fsmtc.fm/news/fsmtc-announces-completion-hantru-1-upgrade",
+    "https://tra.fm/public-register-of-licences/",
+    "https://docs.fcc.gov/public/attachments/DA-09-1309A1.pdf"
+  ],
+  "notes": "FSMTC (TRA Individual Operating License IL-001) operates international gateway and submarine-cable/cable-landing facilities; HANTRU-1 Pohnpei-Guam upgrade completed 2021 (fsmtc.fm); FCC DA-09-1309A1 documents HANTRU-1 ownership/IRU structure; TRA register confirms license class and FTTP rollout in Pohnpei. Telecom/gateway infrastructure; no public colocation product.",
+  "method_batch": true
+}

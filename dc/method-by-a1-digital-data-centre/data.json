@@ -1,0 +1,23 @@
+{
+  "slug": "method-by-a1-digital-data-centre",
+  "canonical_project": "A1 Digital data centre",
+  "owner": "A1 Belarus / A1 ICT services (velcom legacy)",
+  "location": {
+    "city": "",
+    "subnational": "Minsk City",
+    "country": "Belarus",
+    "country_code": "BY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://a1digital.by/",
+    "https://a1digital.by/data-center/",
+    "https://ru.wikipedia.org/wiki/А1_(провайдер)",
+    "https://www.datacenters.com/providers/a1"
+  ],
+  "notes": "Operator markets the largest Tier III-class data centre in Belarus (built 2017); Uptime Institute Tier III Design & Facility certificates and PCI DSS per Wikipedia; exact physical address not public on operator pages (directory cites ul. Tankovaya 11 - C-grade address only).",
+  "method_batch": true
+}

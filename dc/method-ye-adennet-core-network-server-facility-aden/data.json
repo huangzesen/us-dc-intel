@@ -1,0 +1,22 @@
+{
+  "slug": "method-ye-adennet-core-network-server-facility-aden",
+  "canonical_project": "AdenNet core network / server facility (Aden)",
+  "owner": "AdenNet (IRG state-backed ISP)",
+  "location": {
+    "city": "",
+    "subnational": "Aden",
+    "country": "Yemen",
+    "country_code": "YE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ripe.net/membership/member-support/list-of-members/ye/adennet/",
+    "https://www.peeringdb.com/asn/204317",
+    "https://ssp.adennet4g.net/"
+  ],
+  "notes": "Control side: IRG/Aden. AdenNet created June 2018 by the internationally recognized government as the alternative ISP to Houthi-controlled YemenNet; RIPE member record (A-grade registration, Al-Mulla Main Street, Aden, PO Box 1221) and AS204317 (PeeringDB) confirm network infrastructure in Aden; customer portal active. Network-level evidence is A; a named physical data center remains a B lead - no official facility page found this run.",
+  "method_batch": true
+}

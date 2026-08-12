@@ -1,0 +1,21 @@
+{
+  "slug": "method-il-aws-israel-tel-aviv-region-il-central-1",
+  "canonical_project": "AWS Israel (Tel Aviv) Region il-central-1",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Tel Aviv",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-08-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/blogs/aws/now-open-aws-israel-tel-aviv-region/",
+    "https://press.aboutamazon.com/2023/8/aws-launches-infrastructure-region-in-israel"
+  ],
+  "notes": "AWS Israel (Tel Aviv) Region open Aug 2023 with three Availability Zones, API name il-central-1; logical region only - physical AZ sites/capacity not public (OSINT dossier claims Truvot/Shoham/Beit Shemesh AZ siting, unverified, C-grade).",
+  "method_batch": true
+}

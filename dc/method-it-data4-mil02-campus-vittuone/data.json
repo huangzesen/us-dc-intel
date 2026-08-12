@@ -1,0 +1,21 @@
+{
+  "slug": "method-it-data4-mil02-campus-vittuone",
+  "canonical_project": "DATA4 MIL02 campus, Vittuone",
+  "owner": "DATA4",
+  "location": {
+    "city": "",
+    "subnational": "Lombardy",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": 100,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/italy/milan/",
+    "https://www.milanocittastato.it/grande-milano/lhinterland-di-milano-sta-diventando-il-regno-dei-campus-data-center/"
+  ],
+  "notes": "New DATA4 maxi campus in Vittuone (MI) with EUR 500m investment planned (milanocittastato, B-grade local press); datacentermap lists DATA4 MIL02 as 100 MW in Vittuone (C). Permit status to be verified.",
+  "method_batch": true
+}

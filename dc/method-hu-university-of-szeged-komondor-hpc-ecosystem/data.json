@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-university-of-szeged-komondor-hpc-ecosystem",
+  "canonical_project": "University of Szeged / Komondor HPC ecosystem",
+  "owner": "University of Szeged / KIFU",
+  "location": {
+    "city": "",
+    "subnational": "Szeged",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://u-szeged.hu/news-and-events/2023/the-komondor-supercomputer",
+    "https://www.hpc.kifu.hu/en"
+  ],
+  "notes": "City-level entry: University of Szeged hosts/uses the national Komondor supercomputer ecosystem within its research infrastructure. Research/HPC compute facility, separate from commercial colocation; no MW figure.",
+  "method_batch": true
+}

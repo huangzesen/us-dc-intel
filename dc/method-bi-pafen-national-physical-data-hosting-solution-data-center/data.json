@@ -1,0 +1,22 @@
+{
+  "slug": "method-bi-pafen-national-physical-data-hosting-solution-data-center",
+  "canonical_project": "PAFEN national physical data hosting solution (data center)",
+  "owner": "Government of Burundi / SETIC / World Bank (IDA)",
+  "location": {
+    "city": "",
+    "subnational": "Bujumbura Mairie",
+    "country": "Burundi",
+    "country_code": "BI"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-03-23",
+  "evidence_grade": "A",
+  "sources": [
+    "https://documents1.worldbank.org/curated/en/207441655916156350/txt/Burundi-Digital-Foundations-Project.txt",
+    "https://finances.gov.bi/index.php/2026/03/23/pafen-une-evaluation-a-mi-parcours-pour-accelerer-la-transformation-numerique/",
+    "https://setic.gov.bi/wp-content/uploads/2024/03/AMI_hebergement-des-donnees_0001.pdf"
+  ],
+  "notes": "World Bank PAFEN (IDA USD 92M) project documents include preparation of specifications for a new physical data hosting solution (a data center); finance ministry 2026-03-23 mid-term review names a national data center as priority; SETIC/PAFEN AMI for data-hosting study (2024) shows procurement path. Exact site not public; assigned to Bujumbura Mairie (central government cluster). May overlap with CDIN (see de-dup note there).",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-zm-infratel-zambia-national-data-centre-3-national-tier-iii-data-centres",
+  "canonical_project": "INFRATEL / Zambia National Data Centre (3 national Tier III data centres)",
+  "owner": "INFRATEL Corporation Zambia Limited / Zambia National Data Centre (government)",
+  "location": {
+    "city": "",
+    "subnational": "Lusaka",
+    "country": "Zambia",
+    "country_code": "ZM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://infratel.co.zm/",
+    "https://infratel.co.zm/data-center-services/",
+    "https://www.peeringdb.com/org/22678",
+    "https://infratel.co.zm/how-napsa-strengthened-pension-service-reliability-with-infratel/"
+  ],
+  "notes": "Official INFRATEL homepage states 'We have three data centres to back up your data' and lists colocation/cloud/backup/DR services (A-grade operator page); data-centre services page describes physical security (A). PeeringDB org 22678 (B) adds 'three data centres spread over 350KM apart' with geographical redundancy. Parliament records tie ZNDC to three Smart Zambia Phase I data centres (methodology A/B+). Individual site addresses/capacity not published; Kitwe DR site lead recorded under Copperbelt.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-at-digital-realty-vienna-vie1-vie2-vie13",
+  "canonical_project": "Digital Realty Vienna VIE1/VIE2/VIE13",
+  "owner": "Digital Realty (Interxion Austria GmbH)",
+  "location": {
+    "city": "",
+    "subnational": "Vienna",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.digitalrealty.com/data-centers/emea/vienna",
+    "https://www.digitalrealty.com/data-centers/emea/vienna/vie13"
+  ],
+  "notes": "Digital Realty operator page lists three Vienna data centers: VIE1 (Louis-Haefliger-Gasse 10, Bldg 1, 1210, 10,963 sqm), VIE2 (Bldg 2, 20,395 sqm), VIE13 (Siemensstrasse 91, Bldg 1, 18,000 sqm), all 2N+1 cooling, direct VIX access; Digital Realty also publishes EEffG 2025 key figures for VIE01/VIE02 (>=500 kW EEffG reporting confirms sizable IT load). VIE2 also hosts VIX2 IXP location.",
+  "method_batch": true
+}

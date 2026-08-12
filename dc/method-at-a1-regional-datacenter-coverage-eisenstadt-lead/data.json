@@ -1,0 +1,20 @@
+{
+  "slug": "method-at-a1-regional-datacenter-coverage-eisenstadt-lead",
+  "canonical_project": "A1 regional datacenter coverage (Eisenstadt lead)",
+  "owner": "A1 Telekom Austria",
+  "location": {
+    "city": "",
+    "subnational": "Burgenland",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.a1.digital/de/presse/a1-exoscale-public-cloud-zone/"
+  ],
+  "notes": "A1 Digital states A1 offers datacenter space in every Austrian provincial capital (14 A1 datacenters nationwide). For Burgenland (Eisenstadt) this is a coverage lead only; no exact A1 facility address was verified in this pass (U/C until operator source names the site). Same logic applies to provincial-capital leads in Tyrol (Innsbruck), Vorarlberg (Bregenz), Carinthia (Klagenfurt), Lower Austria (St. Poelten), Salzburg and Styria (Graz).",
+  "method_batch": true
+}

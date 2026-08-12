@@ -1,0 +1,23 @@
+{
+  "slug": "method-gb-south-gyle-edinburgh-green-campus-former-rbs-hq",
+  "canonical_project": "South Gyle / Edinburgh Green Campus (former RBS HQ)",
+  "owner": "Shelborn Drummond Ltd / Shelborn Asset Management",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - City of Edinburgh",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 213.0,
+  "status": "rejected",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/plan-for-213mw-data-center-blocked-by-councilors-in-edinburgh-scotland/",
+    "https://aprs.scot/gyle-dc/",
+    "https://datacentrereview.com/2026/08/rejected-edinburgh-data-centre-needs-eia-before-appeal-says-scottish-gov/",
+    "https://www.ercs.scot/news/ercs-welcomes-scottish-government-eia-decision-for-edinburgh-data-centre-planning-appeal/"
+  ],
+  "notes": "Planning permission in principle for ~213MW AI data centre at 1 Redheughs Avenue, South Gyle (former RBS HQ site, demolished 2022) rejected unanimously by City of Edinburgh Council on 4/9 Feb 2026; developer appealed (DPEA ref PPA-230-2794); Scottish Government planning reporter halted appeal pending full EIA (Aug 2026).",
+  "method_batch": true
+}

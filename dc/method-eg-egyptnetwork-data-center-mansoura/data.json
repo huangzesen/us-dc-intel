@@ -1,0 +1,22 @@
+{
+  "slug": "method-eg-egyptnetwork-data-center-mansoura",
+  "canonical_project": "EgyptNetwork Data Center (Mansoura)",
+  "owner": "EgyptNetwork",
+  "location": {
+    "city": "",
+    "subnational": "Dakahlia",
+    "country": "Egypt",
+    "country_code": "EG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/egypt/mansura/egyptnetwork/",
+    "https://colomap.com/facilities/egyptnetwork-data-center/",
+    "https://datacentercatalog.com/egypt/egyptnetwork"
+  ],
+  "notes": "EgyptNetwork colocation data center, 24 Om Kolthom St, Mansoura (Dakahlia); Microsoft Gold partner; only listed colocation facility in Mansoura. Catalog-only - needs operator/EgyptNetwork official facility page verification.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-ark-longcross-park-lp01",
+  "canonical_project": "Ark Longcross Park (LP01)",
+  "owner": "Ark Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "England - Surrey",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 16,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/ark-dc-to-add-new-building-to-longcross-data-center-campus-outside-london-uk/",
+    "https://itbrief.co.uk/story/nebius-fills-ark-s-longcross-data-centre-to-capacity",
+    "https://northwiseproject.com/nbis-london-longcross/"
+  ],
+  "notes": "Longcross Park campus near Chertsey; LP01 delivered Aug 2025 as UK's first large-scale AI data centre for Nebius (16MW occupied); campus design capacity ~54MW across two buildings; further expansion approved.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-cn-amazon-cooperative-cloud-computing-center-aws-ningxia-western-cloud-base",
+  "canonical_project": "Amazon cooperative cloud computing center / AWS Ningxia (Western Cloud Base)",
+  "owner": "Amazon Web Services with local Zhongwei/Ningxia partners (NWCD/Xiyun Data operator)",
+  "location": {
+    "city": "",
+    "subnational": "Ningxia - Zhongwei Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nxzw.gov.cn/zjzw/xbyjd/202012/t20201209_2430998.html",
+    "https://www.datacenterdynamics.com/en/news/amazon-plans-new-data-center-in-china/",
+    "https://www.pai.com.cn/225329.html"
+  ],
+  "notes": "Zhongwei government page lists the Amazon cooperative cloud computing center among large data centers built and operating in the Western Cloud Base; Amazon material confirms the Ningxia region operated by Xiyun Data (NWCD) came online December 2017. MW not published.",
+  "method_batch": true
+}

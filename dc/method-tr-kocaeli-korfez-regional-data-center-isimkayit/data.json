@@ -1,0 +1,20 @@
+{
+  "slug": "method-tr-kocaeli-korfez-regional-data-center-isimkayit",
+  "canonical_project": "Kocaeli Korfez regional data center (Isimkayit)",
+  "owner": "Isimkayit (regional ISP/hosting)",
+  "location": {
+    "city": "",
+    "subnational": "Kocaeli",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.isimkayit.com/datacenter-verimerkezi"
+  ],
+  "notes": "Regional ISP claims the first and only data center in Kocaeli Korfez district, built from 2019 (company/operator page evidence); small-scale hosting facility, capacity not published.",
+  "method_batch": true
+}

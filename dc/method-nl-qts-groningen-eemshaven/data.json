@@ -1,0 +1,20 @@
+{
+  "slug": "method-nl-qts-groningen-eemshaven",
+  "canonical_project": "QTS Groningen (Eemshaven)",
+  "owner": "QTS Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Groningen",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://q.com/data-centers/netherlands-groningen/"
+  ],
+  "notes": "QTS data center in Eemshaven area (official page); hyperscale-adjacent campus in Groningen.",
+  "method_batch": true
+}

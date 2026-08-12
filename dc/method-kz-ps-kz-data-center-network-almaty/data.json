@@ -1,0 +1,20 @@
+{
+  "slug": "method-kz-ps-kz-data-center-network-almaty",
+  "canonical_project": "PS.kz data center network (Almaty)",
+  "owner": "PS Cloud Services / PS.kz",
+  "location": {
+    "city": "",
+    "subnational": "Almaty City",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ps.kz/en/about/data-center"
+  ],
+  "notes": "Official page describes Almaty data center network with interconnect/peering; facility-level specs not verified this run.",
+  "method_batch": true
+}

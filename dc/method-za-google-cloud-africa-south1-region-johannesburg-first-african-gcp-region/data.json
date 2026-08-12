@@ -1,0 +1,22 @@
+{
+  "slug": "method-za-google-cloud-africa-south1-region-johannesburg-first-african-gcp-region",
+  "canonical_project": "Google Cloud africa-south1 region (Johannesburg, first African GCP region)",
+  "owner": "Google Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Gauteng - City of Johannesburg Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/blog/products/infrastructure/heita-south-africa-new-cloud-region",
+    "https://cloud.google.com/about/locations",
+    "https://www.datacenterdynamics.com/en/news/google-launches-first-african-cloud-region-in-johannesburg-south-africa/"
+  ],
+  "notes": "Official Google sources confirm africa-south1 Johannesburg region with zones a/b/c - first African Google Cloud region, announced Oct 2022 and launched early 2024 as part of Google's ~$1bn Africa investment. Cloud region is a metro seed (City of Johannesburg/Midrand area); per ZA methodology it does not disclose exact buildings - do not infer a precise facility address. No public MW capacity.",
+  "method_batch": true
+}

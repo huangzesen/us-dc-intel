@@ -1,0 +1,21 @@
+{
+  "slug": "method-ba-bh-telecom-aws-sovereign-cloud-service-mou",
+  "canonical_project": "BH Telecom-AWS sovereign cloud (service MoU)",
+  "owner": "BH Telecom d.d. Sarajevo / Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Federation of Bosnia and Herzegovina",
+    "country": "Bosnia and Herzegovina",
+    "country_code": "BA"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://btw.media/all/it-infrastructure/bh-telecom-and-aws-launch-sovereign-cloud/",
+    "https://www.telecomrevieweurope.com/articles/telecom-operators/bh-telecom-aws-to-power-bosnias-digital-future/"
+  ],
+  "notes": "June 2025 MoU for a sovereign cloud for the BiH public sector with AWS; btw.media/TelecomReviewEurope report cloud services expected to launch from 2025. This is a service/partnership lead hosted in BH Telecom infrastructure, not a new standalone hyperscale facility; no AWS BiH public region exists in official AWS region lists.",
+  "method_batch": true
+}

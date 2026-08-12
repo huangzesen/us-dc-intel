@@ -1,0 +1,21 @@
+{
+  "slug": "method-mt-go-data-centre-marsa",
+  "canonical_project": "GO Data Centre Marsa",
+  "owner": "GO plc",
+  "location": {
+    "city": "",
+    "subnational": "Marsa",
+    "country": "Malta",
+    "country_code": "MT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/malta/marsa/go-marsa/",
+    "https://datacentercatalog.com/malta/go-marsa"
+  ],
+  "notes": "Directory-listed colocation facility at Fra Diego Street, Marsa (MRS1501); GO plc official wholesale/hosting pages confirm its hosting/colo offering but the facility address remains directory-level only; no public MW figure; PA/operator primary confirmation still outstanding.",
+  "method_batch": true
+}

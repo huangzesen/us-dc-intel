@@ -1,0 +1,21 @@
+{
+  "slug": "method-sk-sitel-popke",
+  "canonical_project": "SITEL POPKE",
+  "owner": "SITEL s.r.o.",
+  "location": {
+    "city": "",
+    "subnational": "Kosice",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sitel.sk/sk/datacentrum/",
+    "https://baxtel.com/data-centers/sitel-s-r-o-slovakia"
+  ],
+  "notes": "Official SITEL page states it operates three data centres: POP1/POP2 Bratislava and POPKE Kosice; Baxtel confirms POPKE in Kosice (TIER 3-standard claim). Only confirmed Kosice commercial colocation anchor per methodology; confirm exact address/permits via Kosice boards and VSE.",
+  "method_batch": true
+}

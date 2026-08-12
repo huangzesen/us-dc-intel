@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-university-of-miskolc-hpc-supercomputer",
+  "canonical_project": "University of Miskolc HPC / supercomputer",
+  "owner": "University of Miskolc / KIFU",
+  "location": {
+    "city": "",
+    "subnational": "Miskolc",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://24.hu/tech/2015/10/25/uj-magyar-szuperszamitogep-repkednek-a-terrabyte-ok/",
+    "https://hpc.unideb.hu/tortenet"
+  ],
+  "notes": "24.hu (2015-10-25) reports the new supercomputer at the University of Miskolc (1.5 TB RAM, 240 TB storage); KIFU HPC history page confirms an HPC machine was commissioned at the University of Miskolc in late 2015. Research/HPC facility in Miskolc city (Borsod-Abauj-Zemplen county); not commercial colocation. MW not disclosed.",
+  "method_batch": true
+}

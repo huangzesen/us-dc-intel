@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-equinix-sy5-alexandria",
+  "canonical_project": "Equinix SY5 (Alexandria)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Sydney",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 54.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/sydney-data-centers/sy5",
+    "https://dcpulse.com/project/equinix-sy5-sydney-54mw-ibx",
+    "https://baxtel.com/data-center/equinix-sydney-sy5"
+  ],
+  "notes": "Equinix SY5 in Alexandria (City of Sydney LGA) is Equinix's largest Australian facility, 54MW, 9,220 cabinets at full build, AI-ready with liquid cooling and subsea cable access; RenewMap lists SY5 as 54MW operating.",
+  "method_batch": true
+}

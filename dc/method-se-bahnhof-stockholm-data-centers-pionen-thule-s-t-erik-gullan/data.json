@@ -1,0 +1,22 @@
+{
+  "slug": "method-se-bahnhof-stockholm-data-centers-pionen-thule-s-t-erik-gullan",
+  "canonical_project": "Bahnhof Stockholm data centers (Pionen, Thule, S:t Erik, Gullan)",
+  "owner": "Bahnhof",
+  "location": {
+    "city": "",
+    "subnational": "Stockholm",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bahnhof.se/foretag/colocation/our-data-centers/",
+    "https://bahnhof.se/foretag/colocation/colocation-en/",
+    "https://www.datacenterdynamics.com/en/news/fortum-varme-wants-your-waste-heat/"
+  ],
+  "notes": "Bahnhof official pages list Swedish colocation facilities incl. Pionen (Cold War-era nuclear bunker, 30 m underground), Thule, S:t Erik (largest, ~85,000 sq ft) and Gullan/Kista; three of five Bahnhof DCs connected to Stockholm district heating (Fortum Varme). Pionen ~400-800 kW cooling load per Open District Heating pilot. Aggregate record for the Stockholm cluster; Sparven (Malmo) recorded under Scania in the other part-batch.",
+  "method_batch": true
+}

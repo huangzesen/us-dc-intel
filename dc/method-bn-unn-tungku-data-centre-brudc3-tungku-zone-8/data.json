@@ -1,0 +1,21 @@
+{
+  "slug": "method-bn-unn-tungku-data-centre-brudc3-tungku-zone-8",
+  "canonical_project": "UNN Tungku Data Centre (BRUDC3 / Tungku Zone 8)",
+  "owner": "Unified National Networks Sdn Bhd (UNN)",
+  "location": {
+    "city": "",
+    "subnational": "Brunei-Muara",
+    "country": "Brunei Darussalam",
+    "country_code": "BN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://unn.com.bn/colocation-hosting",
+    "https://thescoop.co/2025/12/03/dst-unn-expand-partnership-through-data-centre-agreement/"
+  ],
+  "notes": "Listed as an available colocation data centre ('BRUDC3 Tungku DC') on UNN's official colocation page (A); 'Tungku Zone 8' naming appears in the DST-UNN resale agreement (B). Exact relationship between BRUDC3, Tungku Zone 8, the cable station and the prefab phase is not officially clarified (U).",
+  "method_batch": true
+}

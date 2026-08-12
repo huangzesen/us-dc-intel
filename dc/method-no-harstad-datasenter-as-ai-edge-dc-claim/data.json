@@ -1,0 +1,20 @@
+{
+  "slug": "method-no-harstad-datasenter-as-ai-edge-dc-claim",
+  "canonical_project": "Harstad Datasenter AS (AI edge DC claim)",
+  "owner": "Harstad Datasenter AS",
+  "location": {
+    "city": "",
+    "subnational": "Troms and Finnmark",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": 1.5,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://harstad-datasenter.com/"
+  ],
+  "notes": "Operator page claims a 1500 kW AI-ready data center on 100% renewable hydro; page text says 'in Nordland' although Harstad municipality is in Troms county - geographic inconsistency; no municipal/NVE corroboration found. C lead until verified.",
+  "method_batch": true
+}

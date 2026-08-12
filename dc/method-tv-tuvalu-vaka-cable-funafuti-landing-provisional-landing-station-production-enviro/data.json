@@ -1,0 +1,23 @@
+{
+  "slug": "method-tv-tuvalu-vaka-cable-funafuti-landing-provisional-landing-station-production-enviro",
+  "canonical_project": "Tuvalu Vaka Cable - Funafuti landing / provisional landing-station production environment",
+  "owner": "Government of Tuvalu / Tuvalu Telecommunications Corporation (TTC) / Google (Bulikula system) / SubCom; funded via AIFFP (~USD 56m / AUD 80m)",
+  "location": {
+    "city": "",
+    "subnational": "Funafuti",
+    "country": "Tuvalu",
+    "country_code": "TV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.aiffp.gov.au/investments/investment-list/tuvalu-vaka-cable",
+    "https://www.aiffp.gov.au/news/tuvalu-vaka-cable-lands-funafuti",
+    "https://www.submarinenetworks.com/en/systems/trans-pacific/vaka/vaka-cable-lands-in-tuvalu",
+    "https://pacificecommerce.org/tuvalu-launches-vaka-submarine-cable-connecting-the-nation-to-a-digital-future/"
+  ],
+  "notes": "Tuvalu's first international subsea cable: branch from Funafuti to Google's Bulikula system; landed 2024-12-12 (Submarine Networks) and officially launched 2025-10-24 in Funafuti (Pacific Island Times/Pacific eCommerce). Per TV methodology this is a cable-landing asset (asset_class: cable-landing/provisional-cable-landing), NOT a commercial colocation datacenter; Vaka has been operated provisionally from the TTC Funafuti facility since Oct 2025 pending the formal landing-station production environment (JICA 2026 survey A-grade). AIFFP lists status Signed and Announced; full formal CLS/commissioning status to recheck.",
+  "method_batch": true
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "method-cm-st-digital-dla01-douala-data-center",
+  "canonical_project": "ST Digital DLA01 / Douala Data Center",
+  "owner": "ST Digital",
+  "location": {
+    "city": "",
+    "subnational": "Littoral",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://st.digital/en/datacenters",
+    "https://www.minpostel.gov.cm/index.php/fr/actualites/515-data-center-de-st-digital",
+    "https://baxtel.com/data-center/st-digital-douala-dc",
+    "https://afriqueitnews.com/tech-media/st-digital-lance-conquete-marche-camerounais-data-centers/",
+    "https://www.peeringdb.com/fac/9187"
+  ],
+  "notes": "Littoral / Wouri / Douala port zone (Douala-Bonabéri, Bonanjo; DataCenterMap gives Immeuble Entrelec, 75 Rue de l'Union Française). Operational/marketed; Afrique IT News reports operational since end-January 2021. A-grade: ST Digital official datacenter pages (Douala, Tier 3 positioning, ISO 27001/TIA-942/HDS self-statements) and MINPOSTEL official article (2025-07-21) after ministerial visit 2025-07-14 naming the port-zone data center hosting public/private structures. Baxtel (C) describes first carrier-neutral Tier 3-built facility in Central Africa, 400 m2 colo room; CAMIX site confirms a third CAMIX PoP at the ST Digital DC since 1 July (2025). No public MW.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-hr-digital-realty-zag1-zagreb-former-altus-it",
+  "canonical_project": "Digital Realty ZAG1 Zagreb (former Altus IT)",
+  "owner": "Digital Realty (Interxion Croatia LLC)",
+  "location": {
+    "city": "",
+    "subnational": "Zagreb City",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": 2.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.digitalrealty.com/data-centers/emea/zagreb/zag1",
+    "https://www.amcham.hr/en/news/digital-realty-increases-data-center-capacity-in-zagreb"
+  ],
+  "notes": "Digital Realty lists ZAG1 in Zagreb with 2 MW utility power; carrier-neutral colocation at Selska cesta 93 (former Altus IT facility acquired via Interxion); AmCham reports ZAG1 capacity expansion; alias Altus IT folded into this record per normalization rule.",
+  "method_batch": true
+}

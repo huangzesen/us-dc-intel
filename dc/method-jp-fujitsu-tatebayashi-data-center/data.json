@@ -1,0 +1,21 @@
+{
+  "slug": "method-jp-fujitsu-tatebayashi-data-center",
+  "canonical_project": "Fujitsu Tatebayashi Data Center",
+  "owner": "Fujitsu",
+  "location": {
+    "city": "",
+    "subnational": "Gunma",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.retailnews.asia/fujitsu-switches-tatebayashi-data-center/",
+    "https://global.fujitsu/en-global/customer-stories/cs-japan-meteorological-agency-20230627"
+  ],
+  "notes": "Fujitsu's Tatebayashi, Gunma data center focuses on hybrid cloud support, security and disaster resiliency; hosts Japan Meteorological Agency HPC systems with 100% uptime; site of Nidec/Fujitsu/SuperMicro energy-efficiency pilot targeting world-class PUE by Q4 FY2025.",
+  "method_batch": true
+}

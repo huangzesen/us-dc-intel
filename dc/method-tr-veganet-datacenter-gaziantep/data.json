@@ -1,0 +1,22 @@
+{
+  "slug": "method-tr-veganet-datacenter-gaziantep",
+  "canonical_project": "Veganet Datacenter Gaziantep",
+  "owner": "Veganet Teknolojileri ve Hizmetleri LTD STI",
+  "location": {
+    "city": "",
+    "subnational": "Gaziantep",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.peeringdb.com/fac/16613",
+    "https://www.datacentercatalog.com/turkey/veganet-datacenter",
+    "https://wmaraci.com/forum/hosting/veganet-datacenter-gaziantep-veri-merkezi-603258.html"
+  ],
+  "notes": "Veganet operates a datacenter at Gaziantep Teknopark (Sahinbey): 200 m2 system room, 300 m2 energy/UPS room, 52 m2 office (552 m2 total) per operator/forum material; PeeringDB facility 16613 and DataCenterMap list 2 Gaziantep facilities. Capacity MW not disclosed.",
+  "method_batch": true
+}

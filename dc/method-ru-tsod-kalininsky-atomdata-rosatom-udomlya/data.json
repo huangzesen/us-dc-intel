@@ -1,0 +1,23 @@
+{
+  "slug": "method-ru-tsod-kalininsky-atomdata-rosatom-udomlya",
+  "canonical_project": "TsOD Kalininsky (Atomdata / Rosatom), Udomlya",
+  "owner": "Atomdata (Rosatom)",
+  "location": {
+    "city": "",
+    "subnational": "Tver",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 80,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://atomdata.ru/centers/",
+    "https://www.tadviser.ru/index.php/Проект:ЦОД_Росэнергоатома",
+    "https://www.atomic-energy.ru/news/2021/11/01/119065",
+    "https://sergdivani.by/24216.html"
+  ],
+  "notes": "Atomdata flagship commercial colocation data center at Udomlya, Tver Oblast, adjacent to Kalinin NPP; launched Sept 2019 per Rosatom press; design total 33,800 m2 / up to 8,000 rack places across 5 buildings with ~80 MW consumed power (tadviser/atomic-energy; capacity is design-phase figure - first phase operational). Official Atomdata page lists TsOD Kalininsky as active. Per RU methodology this is the nuclear-adjacent power-rich flagship for the Tver division.",
+  "method_batch": true
+}

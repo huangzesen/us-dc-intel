@@ -1,0 +1,22 @@
+{
+  "slug": "method-lb-ogero-institutional-backbone-hosting",
+  "canonical_project": "Ogero institutional / backbone hosting",
+  "owner": "Ogero (state fixed-line operator)",
+  "location": {
+    "city": "",
+    "subnational": "Beirut",
+    "country": "Lebanon",
+    "country_code": "LB"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "U",
+  "sources": [
+    "https://www.ogero.gov.lb/",
+    "https://www.nna-leb.gov.lb/en/twitter/659016/ogero-announces-beit-mery-central-outage-due-to-ge",
+    "https://www.naharnet.com/stories/en/287189-ogero-head-threatens-to-quit-after-lack-of-diesel-causes-beirut-outage"
+  ],
+  "notes": "A for Ogero identity/backbone role; no public commercial colocation/data-center specification page found, so any 'Ogero data center' facility spec is U. Ongoing diesel/fuel-driven outages (e.g. Beit Mery Central, Beirut outages) gate status across governorates; not a commercial DC record.",
+  "method_batch": true
+}

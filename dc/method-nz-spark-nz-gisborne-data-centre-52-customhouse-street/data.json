@@ -1,0 +1,21 @@
+{
+  "slug": "method-nz-spark-nz-gisborne-data-centre-52-customhouse-street",
+  "canonical_project": "Spark NZ Gisborne data centre (52 Customhouse Street)",
+  "owner": "Spark New Zealand / TenPeaks Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Gisborne",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.nzx.com/announcements/466723",
+    "https://inflect.com/datacenters/apac/new-zealand/gisborne"
+  ],
+  "notes": "Gisborne edge facility at 52 Customhouse Street per Inflect directory; portfolio transferred to TenPeaks. Edge/telecom, no MW published.",
+  "method_batch": true
+}

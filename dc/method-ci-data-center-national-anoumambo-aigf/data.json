@@ -1,0 +1,21 @@
+{
+  "slug": "method-ci-data-center-national-anoumambo-aigf",
+  "canonical_project": "Data Center National (Anoumambo/AIGF)",
+  "owner": "Etat de Cote d'Ivoire / Cybastion",
+  "location": {
+    "city": "",
+    "subnational": "Abidjan",
+    "country": "Cote d'Ivoire",
+    "country_code": "CI"
+  },
+  "capacity_mw": 1,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.koaci.com/article/2023/12/14/cote-divoire/politique/cote-divoire-pose-de-la-premiere-pierre-dun-centre-de-donnees-numeriques-national-de-36-milliards-realise-par-les-usa_174404.html",
+    "https://connectionivoirienne.net/2023/12/15/economie-numerique-la-cote-divoire-va-se-doter-dun-data-center-national-dun-cout-de-36-milliards-de-fcfa/"
+  ],
+  "notes": "Sovereign national data center at AIGF site (Anoumambo, Abidjan); first stone 2023-12-14; ~36bn FCFA (~US$60m) with US/EXIM support (Cybastion); 20,000 m2, 2x400 racks, ~1 MW, >2,200 Tbit storage per ministry statements; keep construction until ministry/operator confirms go-live.",
+  "method_batch": true
+}

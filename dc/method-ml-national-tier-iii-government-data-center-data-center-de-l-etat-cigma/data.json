@@ -1,0 +1,24 @@
+{
+  "slug": "method-ml-national-tier-iii-government-data-center-data-center-de-l-etat-cigma",
+  "canonical_project": "National Tier III Government Data Center (Data Center de l'Etat / CIGMA)",
+  "owner": "Government of Mali (MCENMA / CIGMA)",
+  "location": {
+    "city": "",
+    "subnational": "Bamako",
+    "country": "Mali",
+    "country_code": "ML"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-02-02",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.connectingafrica.com/data-centers/mali-inaugurates-a-tier-iii-data-center",
+    "https://www.agenceecofin.com/actualites-numerique/0202-135390-le-mali-inaugure-un-data-center-tier-iii-et-renforce-sa-souverainete-numerique",
+    "https://afriqueitnews.com/tech-media/mali-datacenter-tier-iii-inaugure-pour-renforcer-souverainete-numerique/",
+    "https://www.infomobileduzandoma.net/2026/01/31/souverainete-numerique-le-mali-renforce-les-capacites-dhebergement-dans-lespace-aes-en-inaugurant-un-datacenter-de-derniere-generation/",
+    "https://www.maliweb.net/technologie/mali-inauguration-dun-data-center-tier-iii-un-tournant-majeur-pour-la-souverainete-numerique-de-laes-3113579.html"
+  ],
+  "notes": "Inaugurated 2026-01-31 in Bamako during Semaine du Numerique (third edition); multiple trade/local sources (Connecting Africa, Agence Ecofin, AfriqueITNews, maliweb) confirm event and Bamako location. Tier III is a claim, not Uptime certification. Exact site, operator, capacity, power and Huawei/contractor role not public in verified sources. AES digital-sovereignty hosting context. Dedupe vs SMTD datacenter and vs government-cloud hosting records.",
+  "method_batch": true
+}

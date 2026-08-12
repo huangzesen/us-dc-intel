@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-cdc-maddington-campus-dc4",
+  "canonical_project": "CDC Maddington Campus (DC4)",
+  "owner": "CDC Data Centres (Canberra Data Centres)",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Gosnells",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 200,
+  "status": "approved",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/data-center/cdc-maddington-perth",
+    "https://www.datacentermap.com/australia/perth/cdc-maddington-dc4/",
+    "https://renewmap.com.au/resources/projects/wa/datacentre/"
+  ],
+  "notes": "CDC Maddington Campus at 307 Kenwick Rd, Maddington (City of Gosnells), determined under WA DAP reference DAP/25/02926 (per AU methodology; City of Gosnells DAP). $415M first-stage, ~200 MW ultimate campus per trade press - capacity basis is ultimate campus capacity, not initial IT load. Baxtel reports the project received the green light to proceed as Western Australia's largest AI/advanced-technology data centre campus; RenewMap lists it 200 MW, status Development/Approved. No official DAP determination record opened; grade B pending primary record.",
+  "method_batch": true
+}

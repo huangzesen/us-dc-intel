@@ -1,0 +1,22 @@
+{
+  "slug": "method-pk-ntc-national-data-centre-islamabad-ndc",
+  "canonical_project": "NTC National Data Centre Islamabad (NDC)",
+  "owner": "National Telecommunication Corporation (NTC)",
+  "location": {
+    "city": "",
+    "subnational": "Islamabad",
+    "country": "Pakistan",
+    "country_code": "PK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.gov.pk/",
+    "https://ntc.net.pk/",
+    "https://covert.com.pk/2021/01/03/messages/"
+  ],
+  "notes": "NTC established a Cloud-Based Tier-III (TIA-942) compliant National Data Center at Islamabad (2016) hosting the federal government cloud (cloud.gov.pk); DRC in Lahore provides continuity. Official service wording per NTC/covert; current capacity not disclosed.",
+  "method_batch": true
+}

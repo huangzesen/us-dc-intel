@@ -1,0 +1,22 @@
+{
+  "slug": "method-bt-government-data-centre-gdc-neyduetewa",
+  "canonical_project": "Government Data Centre (GDC/Neyduetewa)",
+  "owner": "GovTech Agency (successor to DITT)",
+  "location": {
+    "city": "",
+    "subnational": "Thimphu",
+    "country": "Bhutan",
+    "country_code": "BT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/the-kingdom-of-bhutan-opens-first-government-data-center/",
+    "https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/Documents/Events/2023/RDF-2023/Presentations%20and%20Relevant%20Reports/Session%209/Speaker%204%20Bhutan%20Session%209%20presentation%20Mr%20Choney.pdf",
+    "https://support.neyduetewa.gov.bt/"
+  ],
+  "notes": "asset_class=government/sovereign hosting. DCD reports Bhutan opened its first government data center (2,500 sq ft, Tier II design, at Bhutan Innovation & Technology Centre in Thimphu TechPark); ITU 2023 GovTech presentation says GDC operationalized in 2017, colocated ~1,000 sq ft GDC space with 2,500 sq ft leased to DCS, hosting 200+ government systems by 2023. MW capacity not public.",
+  "method_batch": true
+}

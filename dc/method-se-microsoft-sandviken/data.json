@@ -1,0 +1,22 @@
+{
+  "slug": "method-se-microsoft-sandviken",
+  "canonical_project": "Microsoft Sandviken",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Gavleborg",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://local.microsoft.com/communities/emea/sweden/",
+    "https://computersweden.se/article/3968034/microsoft-lagger-jattebygge-i-sandviken-pa-is.html",
+    "https://sandviken.se/naringslivarbete/naringslivetisandviken/etableringavdatacenterigavlesandviken/saetablerasdatacenterindustrinigavlesandviken.27779.html"
+  ],
+  "notes": "Microsoft data center in Sandviken as part of Sweden Central region (officially confirmed by Microsoft). Large Sandviken build-out was paused (Computersweden: 'jattebygge i Sandviken pa is'), while Ersbo/Stackbo continued; Sandviken municipality maintains a datacenter-industry establishment page.",
+  "method_batch": true
+}

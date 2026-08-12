@@ -1,0 +1,23 @@
+{
+  "slug": "method-cg-datacenter-national-du-congo-bacongo",
+  "canonical_project": "Datacenter national du Congo (Bacongo)",
+  "owner": "Government of Congo / African Development Bank (AfDB); Sumec contractor",
+  "location": {
+    "city": "",
+    "subnational": "Brazzaville",
+    "country": "Congo",
+    "country_code": "CG"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.afdb.org/fr/news-and-events/congo-le-nouveau-datacenter-finance-par-la-banque-africaine-de-developpement-va-consacrer-la-souverainete-numerique-du-pays-et-de-la-sous-region-70845",
+    "https://postetelecom.gouv.cg/congo-vers-une-revolution-numerique-avec-le-lancement-imminent-du-data-center-national/",
+    "https://www.africa-press.net/congo-brazzaville/economie/infrastructures-numeriques-inauguration-datacenter-national",
+    "https://www.adiac-congo.com/content/infrastructures-numeriques-le-datacenter-national-sera-inaugure-en-novembre-166222"
+  ],
+  "notes": "National datacenter at former UAPT site, 2nd arrondissement Bacongo, Brazzaville; three levels + basement with server/control/supervision rooms and technical room for power/cooling; Tier III target; AfDB/CAB financing. As of 2025-08-06 works >90% complete with inauguration targeted before 28 Nov 2025 (state of nation); one low-grade aggregator (africahot.com, Dec 2025) reports inauguration on 28 Nov 2025, but no official/strong trade confirmation found as of check date, so kept at construction rather than operational. Grade A for project/financing, B for status.",
+  "method_batch": true
+}

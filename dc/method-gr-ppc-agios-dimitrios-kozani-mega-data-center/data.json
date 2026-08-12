@@ -1,0 +1,22 @@
+{
+  "slug": "method-gr-ppc-agios-dimitrios-kozani-mega-data-center",
+  "canonical_project": "PPC Agios Dimitrios / Kozani Mega Data Center",
+  "owner": "PPC Group (Public Power Corporation)",
+  "location": {
+    "city": "",
+    "subnational": "Western Macedonia",
+    "country": "Greece",
+    "country_code": "GR"
+  },
+  "capacity_mw": 300.0,
+  "status": "planned",
+  "evidence_date": "2026-05-28",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ppcgroup.com/en/investor-relations/announcements/stock-news/stock-news-2025/ppc-group-575-bn-investments-in-green-energy-and-technology-transform-western-macedonia/",
+    "https://www.tovima.com/finance/ppc-eyes-e8-billion-ai-data-center-plan-in-kozani-region/",
+    "https://www.naftemporiki.gr/english/2116279/new-ppc-data-center-in-kozani/"
+  ],
+  "notes": "PPC announced a 300 MW phase-1 mega data center on the former lignite site of Agios Dimitrios/Ellispontos (Kozani), with possible growth toward ~1 GW; 2026 trade press (tovima 05-27, Naftemporiki 05-28, OT 05-25) reports phase-1 cost ~EUR 2.4-3.5bn, construction targeted to begin end-2026, hyperscaler negotiations ongoing. Official announcement A (plan); capacity/timing B (trade press). Grid/generation buildout (Ptolemaida V CCGT upgrade, gas units) is separate infrastructure.",
+  "method_batch": true
+}

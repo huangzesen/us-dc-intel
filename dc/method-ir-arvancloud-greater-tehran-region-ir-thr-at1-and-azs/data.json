@@ -1,0 +1,22 @@
+{
+  "slug": "method-ir-arvancloud-greater-tehran-region-ir-thr-at1-and-azs",
+  "canonical_project": "ArvanCloud Greater Tehran Region (IR-THR-AT1 and AZs)",
+  "owner": "ArvanCloud (Nouyan Abr Arvan)",
+  "location": {
+    "city": "",
+    "subnational": "Tehran",
+    "country": "Iran",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.isna.ir/news/1400011909615/",
+    "https://peivast.com/p/264202",
+    "https://itjoo.ir/start-building-one-of-the-largest-data-center-in-the-middle-east-by-arvan-cloud/"
+  ],
+  "notes": "ArvanCloud runs a Greater Tehran region with 4 availability zones (2 central Tehran, 1 west, 1 east) per ISNA report (B); company states 5 datacenters in Iran after opening Qeysar in Ahvaz (peivast B); announced building one of largest datacenters in the Middle East with ~$300M investment (itjoo/Donya-e Eqtesad B); office located Kavousiyeh, Tehran (map C).",
+  "method_batch": true
+}

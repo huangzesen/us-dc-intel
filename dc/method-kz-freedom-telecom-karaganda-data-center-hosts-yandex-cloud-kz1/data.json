@@ -1,0 +1,22 @@
+{
+  "slug": "method-kz-freedom-telecom-karaganda-data-center-hosts-yandex-cloud-kz1",
+  "canonical_project": "Freedom Telecom Karaganda data center (hosts Yandex Cloud kz1)",
+  "owner": "Freedom Telecom / Freedom Cloud Holding",
+  "location": {
+    "city": "",
+    "subnational": "Karaganda",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://yandex.cloud/en/docs/overview/concepts/region",
+    "https://yandex.cloud/en/blog/posts/2024/04/yandex-cloud-in-kazakhstan",
+    "https://yandex.cloud/en/docs/interconnect/concepts/pops"
+  ],
+  "notes": "Yandex Cloud Kazakhstan region kz1 (AZ kz1-a) is the only documented active public cloud region; local DC in Karaganda with Freedom Telecom PoP per official docs. Physical DC counted once (Freedom Telecom Karaganda); Yandex = cloud tenant/region evidence. AWS/Azure/GCP/OCI official region lists have no KZ entry as of check.",
+  "method_batch": true
+}

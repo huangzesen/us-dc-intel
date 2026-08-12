@@ -1,0 +1,22 @@
+{
+  "slug": "method-mm-ocean-wave-idc-mmix-mandalay",
+  "canonical_project": "Ocean Wave IDC / MMIX Mandalay",
+  "owner": "Ocean Wave Communication / Myanmar Internet Exchange (MMIX)",
+  "location": {
+    "city": "",
+    "subnational": "Mandalay",
+    "country": "Myanmar",
+    "country_code": "MM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/ixp/myanmar-internet-exchange-mandalay/",
+    "https://mmnog.net.mm/doc/mmnog6/MMIX+Update+AGM+2024.pdf",
+    "https://papers.peeringasia.org/pa60/peeringasia60-peering-personal-full-list.pdf"
+  ],
+  "notes": "MMIX AGM 2024 deck (A for IXP facts) names OceanWave IDC, Mandalay as MMIX exchange location; datacentermap (C) lists MMIX Mandalay hosted at Ocean Wave IDC; Peering Asia deck (C/B) adds an 'MMC DC, Mandalay' lead. Facility existence B until an archived official MMIX/operator page gives exact address and status.",
+  "method_batch": true
+}

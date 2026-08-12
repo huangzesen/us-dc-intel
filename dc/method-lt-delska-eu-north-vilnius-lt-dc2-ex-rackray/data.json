@@ -1,0 +1,21 @@
+{
+  "slug": "method-lt-delska-eu-north-vilnius-lt-dc2-ex-rackray",
+  "canonical_project": "Delska EU North Vilnius LT DC2 (ex-RackRay)",
+  "owner": "Delska (RackRay legacy platform)",
+  "location": {
+    "city": "",
+    "subnational": "Vilnius County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://delska.com/data-centers/",
+    "https://www.rackray.com/"
+  ],
+  "notes": "T. Sevcenkos g. 16J, Vilnius; ~2 MW, 140 racks, Tier III (operator claim); avoid double-counting RackRay brand separately.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-re-omega-1-omega-one-data-center-le-port",
+  "canonical_project": "Omega 1 / Omega One data center (Le Port)",
+  "owner": "Groupe Océinde (Oceinde/Zeop ecosystem)",
+  "location": {
+    "city": "",
+    "subnational": "Reunion",
+    "country": "Reunion",
+    "country_code": "RE"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2024-11-19",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.omegaone.re/",
+    "https://www.datacenterdynamics.com/en/news/oceinde-launches-omega-1-data-center-on-reunion-island/",
+    "https://imazpress.com/actus-reunion/le-port-omega-1-le-premier-data-center-de-la-reunion-est-ne",
+    "https://www.tco.re/wp-content/uploads/2023/05/dp-omega1-04-05-2023.pdf"
+  ],
+  "notes": "First (and only verified) Tier-3-equivalent carrier-neutral DC on Reunion, in Le Port commune at the METISS cable arrival. Timeline: announced Nov 2022, TCO foundation ceremony 2023-05-04, inaugurated 13 Nov 2024. DCD/imazpress (B): 1 MW power, ~120 racks, EUR 10M investment. Operator site omegaone.re (A) claims ISO 27001 + HDS and 'equivalent Tier 3' (certification claims to be checked in registries). Existence/location A; capacity B-grade press value.",
+  "method_batch": true
+}

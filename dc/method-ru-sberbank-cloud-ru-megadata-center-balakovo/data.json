@@ -1,0 +1,21 @@
+{
+  "slug": "method-ru-sberbank-cloud-ru-megadata-center-balakovo",
+  "canonical_project": "Sberbank / Cloud.ru MegaData Center Balakovo",
+  "owner": "Sberbank / Cloud.ru (SberCloud)",
+  "location": {
+    "city": "",
+    "subnational": "Saratov",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 82,
+  "status": "construction",
+  "evidence_date": "2021-09-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/sberbank-to-build-data-center-in-balakovo-russia/",
+    "https://www.datacentermap.com/russia/saratov/"
+  ],
+  "notes": "DCD (Sep 2021) reported Sberbank building a mega data center in Balakovo (Saratov Oblast) with ~82 MW; aligns with Cloud.ru AZ2 Balakovo in methodology. Current status (operational vs construction) not re-confirmed by official source in this run.",
+  "method_batch": true
+}

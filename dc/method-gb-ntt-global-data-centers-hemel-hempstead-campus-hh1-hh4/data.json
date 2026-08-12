@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-ntt-global-data-centers-hemel-hempstead-campus-hh1-hh4",
+  "canonical_project": "NTT Global Data Centers Hemel Hempstead campus (HH1-HH4)",
+  "owner": "NTT Global Data Centers / Gyron",
+  "location": {
+    "city": "",
+    "subnational": "England - Hertfordshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 24,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/emea/hemel-hempstead-4-data-center",
+    "https://www.peeringdb.com/fac/11296",
+    "https://www.datacenterdynamics.com/en/news/ntt-opens-7th-london-data-center-plans-further-expansion-in-the-city/"
+  ],
+  "notes": "NTT Hemel Hempstead campus (incl. HH4 at 1 Blossom Way, HP2 4ZB): HH4 has 9,600 sqm IT space and max 24MW IT load (PeeringDB/Cloudscene); NTT added 7th London-area DC with further expansion planned. Capacity from operator directory = B.",
+  "method_batch": true
+}

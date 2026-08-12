@@ -1,0 +1,22 @@
+{
+  "slug": "method-ch-northc-datacenter-biel-bienne",
+  "canonical_project": "NorthC Datacenter Biel/Bienne",
+  "owner": "NorthC Datacenters (ex-NTS Workspace/Netrics)",
+  "location": {
+    "city": "",
+    "subnational": "Bern",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://memberhub.hkbb.ch/spotlights/northc-datacenters/",
+    "https://www.dzytig.ch/wirtschaft/northc-group-neu-im-schweizer-datacenter-markt/",
+    "https://www.northcdatacenters.com/"
+  ],
+  "notes": "NorthC operates three Swiss datacenters: two in Muenchenstein (Basel-Landschaft) and one in Biel (Bern canton), acquired via NTS Workspace/Netrics; offers colocation, hybrid multi-cloud and connectivity (HKBB member page, local press). Biel facility operational; capacity not published.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-ua-miranda-media-telecom-infrastructure-simferopol-data-center-hosting-lead",
+  "canonical_project": "Miranda-Media telecom infrastructure (Simferopol) - data-center/hosting lead",
+  "owner": "OOO Miranda-Media (Russian-administered operator)",
+  "location": {
+    "city": "",
+    "subnational": "Crimea",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.miranda-media.ru/",
+    "https://checko.ru/company/miranda-media-1047796423487"
+  ],
+  "notes": "Per UA methodology seed: Miranda-Media is a Russian-jurisdiction operator serving the Republic of Crimea (Simferopol HQ, Hroev Adzhimushkaya 9/11 per Checko) with mobile/internet/TV. Telco-core infrastructure lead, not confirmed commercial colocation; de facto Russian-administered territory, de jure Ukraine per manifest. Status unknown; C-grade until a facility/hosting product page or registry record is verified.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "cngov-china-construction-bank-ccb-gui-an-data-center",
+  "canonical_project": "China Construction Bank (CCB) Gui'an Data Center",
+  "owner": "China Construction Bank",
+  "location": {
+    "city": "",
+    "subnational": "",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 646.0,
+  "status": "planned",
+  "evidence_date": "2023-06-25",
+  "evidence_grade": "C",
+  "sources": [
+    "http://www.iccsz.com/4g/news.Asp?ID=f4e6699d07064b5f9f56ecffd2480b79"
+  ],
+  "notes": "CCB data center & big-data application demonstration base to land in Guiyang/Gui'an with reported total investment RMB 32.3 bn (includes group subsidiary park development); CCB also pushing subsidiaries into Gui'an and channeling overseas funds via CCB International. No rack/MW disclosed; capacity 646 MW is investment-derived (32.3 x 2 MW/100 mn RMB) and includes non-DC development - treat as upper-bound proxy.",
+  "cn_gov_batch": true
+}

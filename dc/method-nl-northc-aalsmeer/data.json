@@ -1,0 +1,21 @@
+{
+  "slug": "method-nl-northc-aalsmeer",
+  "canonical_project": "NorthC Aalsmeer",
+  "owner": "NorthC Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "North Holland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 14.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.northcdatacenters.com/en/northc-datacenters/aalsmeer/",
+    "https://www.datacenterdynamics.com/en/news/northc-breaks-ground-on-45mw-expansion-in-amsterdam/"
+  ],
+  "notes": "NorthC Aalsmeer data center (official page), ~14MW; DCD reported NorthC 4.5MW expansion in Amsterdam area.",
+  "method_batch": true
+}

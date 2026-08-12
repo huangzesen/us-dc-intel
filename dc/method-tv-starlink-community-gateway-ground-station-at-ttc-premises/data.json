@@ -1,0 +1,21 @@
+{
+  "slug": "method-tv-starlink-community-gateway-ground-station-at-ttc-premises",
+  "canonical_project": "Starlink community gateway / ground station at TTC premises",
+  "owner": "SpaceX Starlink, operated via TTC",
+  "location": {
+    "city": "",
+    "subnational": "Funafuti",
+    "country": "Tuvalu",
+    "country_code": "TV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://openjicareport.jica.go.jp/pdf/1000057177.pdf",
+    "https://www.tuvalutelecom.tv/ttc-starlink-priority-plans"
+  ],
+  "notes": "JICA 2026 survey (A) confirms a Starlink ground-station/community gateway installed at the TTC Funafuti premises; TTC official site (2025-03 onward) markets Starlink Priority Plans. Asset class: satellite-gateway - satellite access infrastructure, NOT a datacenter (no colo/hosting).",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-rackforest-rackhost-data-center-victor-hugo-utca",
+  "canonical_project": "RackForest / Rackhost Data Center (Victor Hugo utca)",
+  "owner": "Rackhost Zrt. / Rendszerinformatika",
+  "location": {
+    "city": "",
+    "subnational": "Budapest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": 0.21,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://rendszerinformatika.hu/en/datacenter-victor-hugo",
+    "https://rackforest.com/szolgaltatasok/szerver-berles/"
+  ],
+  "notes": "Rendszerinformatika's official Victor Hugo datacenter page lists 1132 Budapest, Victor Hugo 18-22, 70 rack spaces, 270 sqm gross, 3 kW per rack (~0.21 MW). RackForest's official service page states georedundancy across 5 server rooms and 3 Budapest locations. Commercial hosting/colocation.",
+  "method_batch": true
+}

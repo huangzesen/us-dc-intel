@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-aws-asia-pacific-osaka-region-ap-northeast-3",
+  "canonical_project": "AWS Asia Pacific (Osaka) Region ap-northeast-3",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Osaka",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html"
+  ],
+  "notes": "Official AWS region page confirms operational Osaka region with 3 AZs; logical region, physical campuses not disclosed. Google Cloud Osaka (asia-northeast2) and OCI Japan Central (ap-osaka-1) also cover Osaka per official pages.",
+  "method_batch": true
+}

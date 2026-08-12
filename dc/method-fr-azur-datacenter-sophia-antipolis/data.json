@@ -1,0 +1,20 @@
+{
+  "slug": "method-fr-azur-datacenter-sophia-antipolis",
+  "canonical_project": "Azur Datacenter Sophia Antipolis",
+  "owner": "Azur Datacenter",
+  "location": {
+    "city": "",
+    "subnational": "Alpes-Maritimes",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/azur-sophia-antipolis"
+  ],
+  "notes": "Facility at 950 Route des Colles, 06410 Biot; ~500 m2 data floor, ~200 racks per aggregator. Aggregator-grade existence; capacity/status to verify with operator.",
+  "method_batch": true
+}

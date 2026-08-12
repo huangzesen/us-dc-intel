@@ -1,0 +1,20 @@
+{
+  "slug": "method-by-datahata-data-centre",
+  "canonical_project": "Datahata data centre",
+  "owner": "Datahata LLC",
+  "location": {
+    "city": "",
+    "subnational": "Minsk City",
+    "country": "Belarus",
+    "country_code": "BY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datahata.by/"
+  ],
+  "notes": "Commercial colocation/hosting operator claiming first commercial DC in Belarus (14+ years); own DC 100 sqm, 5 kW/rack, N+1 UPS + 20h diesel; located Minsk, ul. Sharangovicha 19 (NPO Center territory) per operator site.",
+  "method_batch": true
+}

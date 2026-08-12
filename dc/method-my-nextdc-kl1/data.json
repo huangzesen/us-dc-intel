@@ -1,0 +1,20 @@
+{
+  "slug": "method-my-nextdc-kl1",
+  "canonical_project": "NEXTDC KL1",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "Wilayah Persekutuan Kuala Lumpur",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": 65,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/data-centres/malaysia-data-centres-colocation"
+  ],
+  "notes": "NEXTDC official page claims Malaysia KL1 (65 MW, Tier IV design). Physical site ambiguity: marketed as Kuala Lumpur but likely Cyberjaya/Selangor per methodology caution - verify planning/operator/land evidence before mapping. Recorded in WP Kuala Lumpur division per marketing label.",
+  "method_batch": true
+}

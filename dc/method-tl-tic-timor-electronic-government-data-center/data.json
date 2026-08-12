@@ -1,0 +1,21 @@
+{
+  "slug": "method-tl-tic-timor-electronic-government-data-center",
+  "canonical_project": "TIC TIMOR Electronic Government Data Center",
+  "owner": "TIC TIMOR (Agência da Tecnologia Informação e Comunicação), Government of Timor-Leste",
+  "location": {
+    "city": "",
+    "subnational": "Dili",
+    "country": "Timor-Leste",
+    "country_code": "TL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tic.gov.tl/en/tic/sentrudadus/",
+    "https://www.tic.gov.tl/en/tic/shownotisia/115/"
+  ],
+  "notes": "TIC TIMOR official Data Center role page (verified live 2026-08-12) and 2024 ADB coordination article name a Data Center Directorate managing the Electronic Government Data Center in Dili (Caicoli/MTC area). Government data-center function; physical specs, rack count and electrical load not public - capacity_mw null per methodology. Negative baseline re-checked 2026-08-12: no AWS/Azure/GCP/OCI region for Timor-Leste on official provider region lists (nearest practical regions Singapore/Jakarta/Sydney).",
+  "method_batch": true
+}

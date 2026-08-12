@@ -1,0 +1,21 @@
+{
+  "slug": "method-hk-equinix-hk1-tsuen-wan-goodman-global-gateway",
+  "canonical_project": "Equinix HK1, Tsuen Wan (Goodman Global Gateway)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/china-colocation/hong-kong-data-centers/hk1",
+    "https://www.connectbase.com/provider/equinix-hk1-hong-kong/"
+  ],
+  "notes": "HK1 at Goodman Global Gateway, 168 Yeung Uk Road, Tsuen Wan; liquid-cooling-capable; fibre paths to HK2/HK3/HK5. District: Tsuen Wan, CLP territory.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-vn-aws-direct-connect-hanoi-cmc-tower-aws-connectivity-location",
+  "canonical_project": "AWS Direct Connect Hanoi @ CMC Tower (AWS connectivity location)",
+  "owner": "Amazon Web Services / CMC Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Ha Noi",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-12-16",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/about-aws/whats-new/2025/12/aws-direct-connect-hanoi/",
+    "https://aws.amazon.com/vi/about-aws/whats-new/2025/12/aws-direct-connect-hanoi/"
+  ],
+  "notes": "AWS officially opened its first Direct Connect location in Vietnam inside CMC Tower, Hanoi (16 Dec 2025), 1/10/100 Gbps dedicated connections; connectivity/colo-adjacent evidence at CMC's Hanoi facility, not an AWS-owned datacenter building. AWS Hanoi Local Zone GA June 2026 per methodology.",
+  "method_batch": true
+}

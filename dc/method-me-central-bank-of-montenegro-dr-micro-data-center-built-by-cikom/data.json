@@ -1,0 +1,21 @@
+{
+  "slug": "method-me-central-bank-of-montenegro-dr-micro-data-center-built-by-cikom",
+  "canonical_project": "Central Bank of Montenegro DR Micro Data Center (built by Cikom)",
+  "owner": "Central Bank of Montenegro (CBCG); built by Cikom",
+  "location": {
+    "city": "",
+    "subnational": "Zabljak",
+    "country": "Montenegro",
+    "country_code": "ME"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-07-05",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.vijesti.me/vijesti/714521/cikom-osnova-inovacija-i-uspjeha-u-it-industriji-crne-gore-promo",
+    "https://ictcortex.me/cikom/"
+  ],
+  "notes": "Cikom profile article (Vijesti promo, 2024-07-05) names 'DR sajt Centralne banke CG na Zabljaku (Mikro Data Centar)' - a disaster-recovery micro data center for the Central Bank of Montenegro in Zabljak, plus a Triple Micro Data Center at CBCG. ICT Cortex profile confirms Cikom's data center infrastructure service line. Enterprise/internal DR facility, not commercial colocation; official CBCG procurement confirmation not found.",
+  "method_batch": true
+}

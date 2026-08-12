@@ -1,0 +1,21 @@
+{
+  "slug": "method-nz-google-cloud-new-zealand-region-announced",
+  "canonical_project": "Google Cloud New Zealand region (announced)",
+  "owner": "Google Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.googlecloudpresscorner.com/2022-08-09-Google-Cloud-Announces-First-Cloud-Region-in-New-Zealand",
+    "https://cloud.google.com/about/locations"
+  ],
+  "notes": "Google announced first NZ cloud region Aug 2022 (3 zones). Per methodology, verify current status on official locations page; no NZ region confirmed operational in official locations as of this check. Announced/planned only; do not count physical facility.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-ua-datagroup-data-centers-own-kyiv-dc-hosting-datagroup-cloud",
+  "canonical_project": "Datagroup data centers (own Kyiv DC hosting Datagroup Cloud)",
+  "owner": "Datagroup LLC",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv City",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datagroup.ua/en/services/data-centers",
+    "https://www.datacenters.com/providers/datagroup"
+  ],
+  "notes": "Official Datagroup page confirms own data-center/colo services (Datagroup Cloud physically hosted in Datagroup's own Kyiv DC per methodology). Datacenters.com provider page states data centers across five processing sites marketed for colocation/rack rental. A for existence per operator page; capacity/sites per-directory (C) until verified.",
+  "method_batch": true
+}

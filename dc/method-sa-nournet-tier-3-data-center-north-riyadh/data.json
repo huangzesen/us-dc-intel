@@ -1,0 +1,20 @@
+{
+  "slug": "method-sa-nournet-tier-3-data-center-north-riyadh",
+  "canonical_project": "NourNet Tier-3 data center (North Riyadh)",
+  "owner": "NourNet",
+  "location": {
+    "city": "",
+    "subnational": "Riyadh Region - Ar Riyad",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://nour.net.sa/data-center/tier-3-data-center-in-ksa/"
+  ],
+  "notes": "NourNet official page describes its Tier-3 Riyadh data center (north of Riyadh): 4,500 sqm, 450 racks, 10 MVA allocation. Operator-official existence; MW/IT load not published separately.",
+  "method_batch": true
+}

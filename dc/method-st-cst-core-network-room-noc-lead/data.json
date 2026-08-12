@@ -1,0 +1,21 @@
+{
+  "slug": "method-st-cst-core-network-room-noc-lead",
+  "canonical_project": "CST core network room / NOC (lead)",
+  "owner": "CST (Companhia Santomense de Telecomunicacoes)",
+  "location": {
+    "city": "",
+    "subnational": "Agua Grande",
+    "country": "Sao Tome and Principe",
+    "country_code": "ST"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2023-08-14",
+  "evidence_grade": "C",
+  "sources": [
+    "https://cst.st/",
+    "https://www.datacenterdynamics.com/en/news/cst-launches-4g-service-in-s%C3%A3o-tom%C3%A9-and-pr%C3%ADncipe/"
+  ],
+  "notes": "Telecom core-network facility lead per methodology - NOT a confirmed datacenter. Incumbent operator CST launched national 4G (Aug 2023) and holds 74.5% of STP Cabo (ACE). No public hosting/colocation/data-center service page found this round; upgrade only if a CST/AGER official file names a data-center/colo service at a named site.",
+  "method_batch": true
+}

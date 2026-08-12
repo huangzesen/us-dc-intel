@@ -1,0 +1,23 @@
+{
+  "slug": "method-ga-cybastion-government-of-gabon-aninf-sovereign-data-center-reported-20-mw",
+  "canonical_project": "Cybastion / Government of Gabon / ANINF sovereign data center (reported 20 MW)",
+  "owner": "Cybastion (with ANINF and Porteo; Cisco/Citibank/EXIM financing)",
+  "location": {
+    "city": "",
+    "subnational": "Estuary",
+    "country": "Gabon",
+    "country_code": "GA"
+  },
+  "capacity_mw": 20,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.cybastiontech.com/cybastion-government-of-gabon-and-aninf-sign-historic-digital-infrastructure-agreement/",
+    "https://www.datacenterdynamics.com/en/news/cybastion-to-build-20mw-data-center-in-gabon/",
+    "https://dcmag.fr/gabon-aura-son-datacenter-national-20-mw-construit-par-lamericain-cybastion/",
+    "https://aninf.ga/souverainete-numerique-le-gabon-lance-son-data-center-national-et-affirme-son-independance-technologique/"
+  ],
+  "notes": "State/ANINF convention signed 28 Jun 2025 (strategic agreement first reported 28 Jan 2025); national sovereign DC reported at 20 MW with a gas power plant; site reported in the Nkok SEZ / Libreville-Nkok corridor, exact site unresolved; DCD notes ST Digital as would-be operator; keep separate from ST Digital lbv01 until an official ownership statement merges them; Gabon is seeking US financing for ~200 MW additional power for AI/industrial projects.",
+  "method_batch": true
+}

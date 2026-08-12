@@ -1,0 +1,22 @@
+{
+  "slug": "method-ru-dataharbour-kursk-data-center",
+  "canonical_project": "DataHarbour Kursk Data Center",
+  "owner": "DataHarbour / DataPort",
+  "location": {
+    "city": "",
+    "subnational": "Kursk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dataharbour.ru/address/kursk",
+    "https://www.datacentermap.com/russia/kursk/",
+    "https://colomap.com/facilities/dataharbour-kursk/"
+  ],
+  "notes": "Commercial colocation node in Kursk operated by DataHarbour (DataPort network); official operator page lists the Kursk facility. RU methodology flags Kursk as power/nuclear-adjacent (Kursk NPP) with Rosatom/regional-investment search angle; no additional named project surfaced in method-driven search.",
+  "method_batch": true
+}

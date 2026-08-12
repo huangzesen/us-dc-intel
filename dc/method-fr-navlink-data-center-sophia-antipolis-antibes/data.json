@@ -1,0 +1,20 @@
+{
+  "slug": "method-fr-navlink-data-center-sophia-antipolis-antibes",
+  "canonical_project": "NavLink data center (Sophia Antipolis, Antibes)",
+  "owner": "NavLink",
+  "location": {
+    "city": "",
+    "subnational": "Alpes-Maritimes",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/france/sophia-antipolis/navlink-data-center/"
+  ],
+  "notes": "Carrier-neutral colocation in Sophia-Antipolis science park, 51 Rue Henri Laugier, Antibes (near Nice airport). Aggregator-grade existence evidence; verify operator page for capacity/status.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-ph-vitro-subic-epldt-subic-bay-freeport-zone",
+  "canonical_project": "VITRO Subic (ePLDT, Subic Bay Freeport Zone)",
+  "owner": "ePLDT / VITRO Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Central Luzon",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacentermap.com/philippines/subic/epldt-vitro-subic/",
+    "https://www.ocolo.io/colocation/epldt/vitro-subic/",
+    "https://baxtel.com/data-center/epldt",
+    "https://www.peeringdb.com/fac/12468"
+  ],
+  "notes": "VITRO Subic at Building 60, Sampson Rd, Subic Bay Freeport Zone (Zambales, Central Luzon); OCOLO lists 0.5 MW power capacity, ~45 racks per Baxtel. Small legacy facility; A for operator/directory evidence.",
+  "method_batch": true
+}

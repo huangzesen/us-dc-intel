@@ -1,0 +1,20 @@
+{
+  "slug": "method-sk-eserver-sk-colocation-inside-dc-digitalis",
+  "canonical_project": "eServer SK colocation (inside DC Digitalis)",
+  "owner": "eServer",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.eserver.net/en/store/colocation"
+  ],
+  "notes": "Official service page: SK colocation offered in a Bratislava TIER3 ECO DC; eServer states it operates its own location inside DC Digitalis. NOT counted as a separate building (methodology dedup rule: eServer-in-Digitalis); Tier claim C/B until certifier record.",
+  "method_batch": true
+}

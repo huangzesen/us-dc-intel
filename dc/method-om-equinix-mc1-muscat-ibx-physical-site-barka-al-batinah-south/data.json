@@ -1,0 +1,23 @@
+{
+  "slug": "method-om-equinix-mc1-muscat-ibx-physical-site-barka-al-batinah-south",
+  "canonical_project": "Equinix MC1 Muscat IBX (physical site Barka, Al Batinah South)",
+  "owner": "Equinix / Omantel JV",
+  "location": {
+    "city": "",
+    "subnational": "South Batina",
+    "country": "Oman",
+    "country_code": "OM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenters.com/equinix-mc1-muscat-ibx",
+    "https://investor.equinix.com/news-events/press-releases/detail/89/equinix-and-omantel-open-new-muscat-data-center",
+    "https://www.datacentermap.com/oman/muscat/equinix-mc1/",
+    "https://www.submarinenetworks.com/en/stations/asia/oman/equinix-mc1"
+  ],
+  "notes": "MC1 opened Oct 2020; 23,600 sq ft, 725 cabinets expandable to 2,150; carrier-neutral hub; OAC lands directly into MC1; OEG cable (du+Omantel) connects MC1. Datacenters.com places physical site in Barka, Al Batinah South Governorate (metro label 'Muscat MC1' retained). MW not disclosed.",
+  "method_batch": true
+}

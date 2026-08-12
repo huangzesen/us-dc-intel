@@ -1,0 +1,21 @@
+{
+  "slug": "method-ao-paratus-angola-dc2-ita-benfica",
+  "canonical_project": "Paratus Angola DC2 (ITA, Benfica)",
+  "owner": "Paratus Angola (Internet Technologies Angola S.A.)",
+  "location": {
+    "city": "",
+    "subnational": "Luanda",
+    "country": "Angola",
+    "country_code": "AO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.paratus.ao/en/",
+    "https://www.datacenterdynamics.com/en/news/paratus-group-to-build-third-angola-data-center/"
+  ],
+  "notes": "Second Luanda campus data center launched 2019, can host up to 7,000 servers (DCD); official Paratus services page confirms Angola data center operations; capacity_mw null.",
+  "method_batch": true
+}

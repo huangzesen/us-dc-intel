@@ -1,0 +1,21 @@
+{
+  "slug": "method-gu-gnc-ix-data-center-cable-landing-station-piti",
+  "canonical_project": "GNC iX Data Center / Cable Landing Station (Piti)",
+  "owner": "Gateway Network Connections LLC (RTI + GTA joint venture)",
+  "location": {
+    "city": "",
+    "subnational": "Guam",
+    "country": "Guam",
+    "country_code": "GU"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://news.gta.net/234636-pldt-selects-gta-s-gnc-ix-data-center-as-strategic-point-of-presence-in-guam",
+    "https://www.submarinenetworks.com/en/stations/north-america/usa-guam/gnc-cable-landing-station"
+  ],
+  "notes": "Guam's first combined neutral cable landing station and data center, owned by Gateway Network Connections LLC, in Piti adjacent to GTA Piti-I CLS. Trade/industry sources (Submarine Networks, B): ~11,800 sq ft, ~250 racks, 2 MW, Type 3 designed. GTA newsroom (A-, 2023) confirms GTA operates Guam's first locally owned CLS+DC in Piti and PLDT selected GNC iX as a strategic PoP; datacenters.com/datacentermap (C) list GNC iX as operational. Capacity/specs B/C; directory (Baxtel C) suggests GNC iX = GU1&GU2, kept separate per methodology.",
+  "method_batch": true
+}

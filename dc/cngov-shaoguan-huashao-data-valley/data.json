@@ -1,0 +1,22 @@
+{
+  "slug": "cngov-shaoguan-huashao-data-valley",
+  "canonical_project": "华韶数据谷 (Shaoguan Huashao Data Valley)",
+  "owner": "广东华韶数据谷科技有限公司 (东莞康华投资集团旗下)",
+  "location": {
+    "city": "韶关",
+    "subnational": "Guangdong",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 60.0,
+  "status": "construction",
+  "evidence_date": "2025-06-13",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.sg.gov.cn/xw/xwzx/bdxw/content/post_2751519.html",
+    "https://static.nfapp.southcn.com/content/202107/30/c5582251.html",
+    "https://www.kh-idc.cn/"
+  ],
+  "notes": "韶关高新区（东数西算韶关集群首个大型数据中心机房）：一期 2020-05 动工、2023-01 投产，已投运 2736 架高功率机架（约合 16.4MW@6kW），获 IDC/ISP/ISO/国家A级机房认证，上架率约 70%；二期 2025-06-12 开工，总投资 16 亿元，总规模 24000 个 2.5kW 标准机柜（约 60MW IT 负载）；整体五年计划投资 65 亿元、5 万机柜。capacity_mw 为二期 24000×2.5kW 折算设计值。 [province=广东]",
+  "cn_gov_batch": true
+}

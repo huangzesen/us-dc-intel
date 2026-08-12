@@ -1,0 +1,22 @@
+{
+  "slug": "method-am-eleveight-ai-factory-gagarin",
+  "canonical_project": "Eleveight AI Factory Gagarin",
+  "owner": "Eleveight AI",
+  "location": {
+    "city": "",
+    "subnational": "Gegharkunik",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://eleveight.ai/en/newsroom/eleveight-ai-empowers-clients-with-nvidia-blackwell-b300-gpus/",
+    "https://www.armenianbd.com/news/view/next-generation-ai-factory-opens-in-armenia.html",
+    "https://baxtel.com/news/eleveight-ai-deploys-512-nvidia-b300-gpus-at-2mw-armenia-data-center"
+  ],
+  "notes": "First AI factory in Gagarin, Gegharkunik (Gortsaranayin St 1); 512 NVIDIA B300 GPUs deployed and in commercial service; current electrical capacity ~1.2-2 MW (press varies), phased to 5 MW then 35 MW; scaling target 40 MW per methodology; first-phase investment reported USD 70M (arkatelecom) vs USD 120M (ministry) - reconcile.",
+  "method_batch": true
+}

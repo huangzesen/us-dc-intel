@@ -1,0 +1,22 @@
+{
+  "slug": "method-lk-millenniumit-lseg-malabe-data-centre",
+  "canonical_project": "MillenniumIT / LSEG Malabe data centre",
+  "owner": "MillenniumIT ESP (subsidiary of LSEG)",
+  "location": {
+    "city": "",
+    "subnational": "Western Province",
+    "country": "Sri Lanka",
+    "country_code": "LK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2015-12-13",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.sundaytimes.lk/151213/business-times/millenniumit-launches-sri-lankas-first-privately-held-tier-3-data-centre-174692.html",
+    "https://www.lseg.com/en/locations/details/malabe",
+    "https://www.ft.lk/IT-Telecom-Tech/london-stock-exchange-group-increases-investment-in-millenniumit/50-68193"
+  ],
+  "notes": "Sunday Times (2015-12-13) reports MillenniumIT launched Sri Lanka's first privately held Tier 3 data centre (B; 2015 reports cite 80 racks, ~3,000 sq ft raised floor); LSEG official pages confirm the Malabe campus (A campus address); FT confirms LSEG investment in MillenniumIT infrastructure at Malabe (B). Institutional/private facility, not public colo unless service offer found; capacity MW U.",
+  "method_batch": true
+}

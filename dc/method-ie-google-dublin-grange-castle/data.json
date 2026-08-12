@@ -1,0 +1,21 @@
+{
+  "slug": "method-ie-google-dublin-grange-castle",
+  "canonical_project": "Google Dublin / Grange Castle",
+  "owner": "Google",
+  "location": {
+    "city": "",
+    "subnational": "Leinster",
+    "country": "Ireland",
+    "country_code": "IE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenters.google/locations",
+    "https://cloud.google.com/about/locations"
+  ],
+  "notes": "Google data-centre presence in Ireland (Grange Castle, South Dublin; Profile Park/Clonshaugh) per official Google locations page (A for presence). 2024 application for new Grange Castle DC refused by SDCC (B per methodology/Silicon Republic). No GCP Ireland public region on official list.",
+  "method_batch": true
+}

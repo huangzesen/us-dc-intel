@@ -1,0 +1,22 @@
+{
+  "slug": "method-rs-sbb-telepark-data-center-bulevar-peka-dapcevica-19-nehruova",
+  "canonical_project": "SBB Telepark Data Center (Bulevar Peka Dapcevica 19 / Nehruova)",
+  "owner": "SBB (Serbia BroadBand)",
+  "location": {
+    "city": "",
+    "subnational": "Belgrade",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://poslovni.sbb.rs/sbb-cloud/telehousing/",
+    "http://datacenters.rs/",
+    "https://www.whtop.com/review/sbb.rs"
+  ],
+  "notes": "RATEL list entry; SBB telehousing/cloud facility in Belgrade (Telepark). Directory corroboration only for details - grade B/C pending operator facility page.",
+  "method_batch": true
+}

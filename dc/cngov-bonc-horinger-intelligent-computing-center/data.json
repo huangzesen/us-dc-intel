@@ -1,0 +1,20 @@
+{
+  "slug": "cngov-bonc-horinger-intelligent-computing-center",
+  "canonical_project": "BONC Horinger Intelligent Computing Center (东方国信和林格尔智算中心)",
+  "owner": "BONC Software Co., Ltd. (东方国信, 300166.SZ)",
+  "location": {
+    "city": "",
+    "subnational": "",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 60.0,
+  "status": "operational",
+  "evidence_date": "2025-02-13",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.nmgqylhh.com/sub_news.asp?id=499"
+  ],
+  "notes": "New project (not in prior CN registry). Total investment 3.0B CNY; 8 data-center buildings; 10,000 racks (1万个数据机柜) => 60 MW at 6kW/rack. DeepSeek full models deployed on its self-developed 幕僚智数 large-model training/inference platform by 2025-02. Located in Horinger New District (东数西算 Horinger cluster). Source: Inner Mongolia Enterprise Federation reprint of 青橙融媒 (Hohhot official media).",
+  "cn_gov_batch": true
+}

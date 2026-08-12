@@ -1,0 +1,23 @@
+{
+  "slug": "method-bh-aws-middle-east-bahrain-region-me-south-1",
+  "canonical_project": "AWS Middle East (Bahrain) Region me-south-1",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Southern Governorate",
+    "country": "Bahrain",
+    "country_code": "BH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/blogs/aws/now-open-aws-middle-east-bahrain/",
+    "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+    "https://www.datacentermap.com/bahrain/askar/aws-bahrain/",
+    "https://www.theregister.com/2026/03/02/amazon_outages_middle_east/"
+  ],
+  "notes": "AWS Middle East (Bahrain) me-south-1 opened 2019-07-30 with 3 AZs (A-grade region evidence). AWS does not publish site addresses; the Askar (Southern Governorate) building placement is C-grade directory evidence. March 2026: ME-SOUTH-1 affected by drone-strike-related incidents (B-grade press; AWS Health Dashboard is A-grade current status).",
+  "method_batch": true
+}

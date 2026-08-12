@@ -1,0 +1,20 @@
+{
+  "slug": "method-gb-cwcs-nottingham-data-centre",
+  "canonical_project": "CWCS Nottingham Data Centre",
+  "owner": "CWCS Managed Hosting",
+  "location": {
+    "city": "",
+    "subnational": "England - Nottinghamshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/united-kingdom/nottingham/cwcs-managed-hosting/"
+  ],
+  "notes": "Colocation at 3 Padge Road, Beeston (Broxtowe, Nottinghamshire); directory-listed ~1MW; small managed-hosting facility.",
+  "method_batch": true
+}

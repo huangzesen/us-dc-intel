@@ -1,0 +1,22 @@
+{
+  "slug": "method-dk-globalconnect-taastrup-cph1",
+  "canonical_project": "GlobalConnect Taastrup CPH1",
+  "owner": "GlobalConnect",
+  "location": {
+    "city": "",
+    "subnational": "Capital Region",
+    "country": "Denmark",
+    "country_code": "DK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://globalconnectcarrier.com/services/data-center-and-colocation/",
+    "https://www.datacenterjournal.com/data-centers/denmark/copenhagen/globalconnect-taastrup-cph1/",
+    "https://inflect.com/building/3-horskaetten-taastrup/globalconnect-a-s/datacenter/globalconnect-taastrup"
+  ],
+  "notes": "GlobalConnect operator page (A) for Nordic colocation offering; DataCenterJournal/Inflect (C) place CPH1 at 3 Hørskætten, Taastrup, carrier-neutral, ~63,152 sqft; exact address from directories so facility-level evidence B/C.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-im-the-isle-of-man-datacentre-domicilium",
+  "canonical_project": "The Isle of Man Datacentre (Domicilium)",
+  "owner": "Domicilium (IOM) Limited",
+  "location": {
+    "city": "",
+    "subnational": "Isle of Man",
+    "country": "Isle of Man",
+    "country_code": "IM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.domicilium.com/contact-us",
+    "https://www.digitalisleofman.com/digital-experience-services/domicilium/",
+    "https://www.datacentermap.com/isle-of-man/ballasalla/the-isle-of-man-datacentre/"
+  ],
+  "notes": "The Isle of Man Datacentre, Ronaldsway Industrial Estate, Ballasalla IM9 2RS (official contact page + Digital Isle of Man directory); 'smart shelter' design with capacity for up to 750 cabinets at full build-out; earlier Data Center Knowledge described a 22,000 sq ft centre.",
+  "method_batch": true
+}

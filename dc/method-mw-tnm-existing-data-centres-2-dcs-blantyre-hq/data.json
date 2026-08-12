@@ -1,0 +1,21 @@
+{
+  "slug": "method-mw-tnm-existing-data-centres-2-dcs-blantyre-hq",
+  "canonical_project": "TNM existing data centres (2 DCs, Blantyre HQ)",
+  "owner": "Telekom Networks Malawi (TNM)",
+  "location": {
+    "city": "",
+    "subnational": "Southern Region",
+    "country": "Malawi",
+    "country_code": "MW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-03-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://itweb.africa/article/tnm-malawi-mulls-third-datacentre-as-it-rolls-out-launches-volte-service/KzQenMjy9zY7Zd2r",
+    "https://canonical.com/blog/malawis-tnm-selects-canonicals-charmed-openstack-to-help-lead-virtualisation-charge"
+  ],
+  "notes": "TNM's 2026-03-06 announcement of a planned third datacentre implies two existing datacentres (headquartered in Blantyre, Southern Region); TNM also built a private cloud on Canonical Charmed OpenStack (Canonical case study, B). Existing DC count/locations have little public documentation (C for specifics); no MW disclosed.",
+  "method_batch": true
+}

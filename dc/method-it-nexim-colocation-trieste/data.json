@@ -1,0 +1,20 @@
+{
+  "slug": "method-it-nexim-colocation-trieste",
+  "canonical_project": "Nexim colocation Trieste",
+  "owner": "Nexim Italia",
+  "location": {
+    "city": "",
+    "subnational": "Friuli Venezia Giulia",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://nexim.it/datacenter-a-trieste/"
+  ],
+  "notes": "Operator marketing page for colocation in Trieste (Friuli-Venezia Giulia), Tier III/IV claims; no public capacity or permit data. Methodology flags Trieste port/subsea/HPC leads - no facility-grade public record surfaced in this round.",
+  "method_batch": true
+}

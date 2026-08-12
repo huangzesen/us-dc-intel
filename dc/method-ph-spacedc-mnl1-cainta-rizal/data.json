@@ -1,0 +1,23 @@
+{
+  "slug": "method-ph-spacedc-mnl1-cainta-rizal",
+  "canonical_project": "SpaceDC MNL1 (Cainta, Rizal)",
+  "owner": "SpaceDC (Singapore) with JLL",
+  "location": {
+    "city": "",
+    "subnational": "Calabarzon",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 72,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://spacedc.com/data-centers/mnl-1/",
+    "https://www.datacenterdynamics.com/en/news/spacedc-building-72mw-hyperscale-data-center-in-the-philippines/",
+    "https://en.wikipedia.org/wiki/MNL1_Data_Center",
+    "https://www.mingtiandi.com/real-estate/data-centres/singapores-space-dc-launches-philippines-data-centre/"
+  ],
+  "notes": "SpaceDC MNL1 in Cainta, Rizal (CALABARZON): 72 MW hyperscale green campus (43,000 sqm, 3-4 buildings), Philippines' largest DC campus per operator; DCD 2022 reported scheduled opening that year. Status operational per operator site (verify phase status with SpaceDC/EMB/LGU); 72 MW is marketed critical power.",
+  "method_batch": true
+}

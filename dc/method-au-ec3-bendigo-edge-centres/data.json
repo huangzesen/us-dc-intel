@@ -1,0 +1,21 @@
+{
+  "slug": "method-au-ec3-bendigo-edge-centres",
+  "canonical_project": "EC3 Bendigo (Edge Centres)",
+  "owner": "Edge Centres",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Greater Bendigo",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/ec3-bendigo",
+    "https://www.datacentermap.com/australia/bendigo/"
+  ],
+  "notes": "Regional edge colocation facility in Bendigo (Innovation Ct, Kennington VIC 3550, listed as Bendigo Telco on Data Center Map; EC3 Bendigo on Baxtel). Directory-only evidence; capacity and current operator status unverified; small edge/colo footprint.",
+  "method_batch": true
+}

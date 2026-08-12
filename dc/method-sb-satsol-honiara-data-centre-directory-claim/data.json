@@ -1,0 +1,21 @@
+{
+  "slug": "method-sb-satsol-honiara-data-centre-directory-claim",
+  "canonical_project": "SATSOL Honiara data centre (directory claim)",
+  "owner": "SATSOL Limited",
+  "location": {
+    "city": "",
+    "subnational": "Capital Territory",
+    "country": "Solomon Islands",
+    "country_code": "SB"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/solomon-islands/",
+    "https://www.datacentermap.com/c/satsol-limited/"
+  ],
+  "notes": "DataCenterMap directory lists a Honiara data center for SATSOL Limited (local ISP/digital TV/Starlink reseller) with backup/cooling/security claims. No primary SATSOL facility page or strong secondary source found; kept as an unverified C-grade lead per SB methodology (do not count as confirmed facility).",
+  "method_batch": true
+}

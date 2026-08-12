@@ -1,0 +1,20 @@
+{
+  "slug": "method-nu-starlink-spacex-temporary-licensed-connectivity-service",
+  "canonical_project": "Starlink (SpaceX) temporary licensed connectivity service",
+  "owner": "SpaceX / Starlink",
+  "location": {
+    "city": "",
+    "subnational": "Niue",
+    "country": "Niue",
+    "country_code": "NU"
+  },
+  "capacity_mw": null,
+  "status": "approved",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.gov.nu/media-releases/government-of-niue-strengthens-national-connectivity-with-temporary-starlink-license"
+  ],
+  "notes": "Government of Niue approved a temporary 12-month Spectrum and Internet Communications Licence to Starlink (SpaceX) on 2026-05-12 after regulatory/compliance clearance, enabling a defined trial period complementing Telecom Niue. Connectivity/resilience service (connectivity_service), NOT a datacenter. Earlier unlicensed-use reporting must be time-scoped.",
+  "method_batch": true
+}

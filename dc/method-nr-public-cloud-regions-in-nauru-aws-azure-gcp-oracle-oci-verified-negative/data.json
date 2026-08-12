@@ -1,0 +1,23 @@
+{
+  "slug": "method-nr-public-cloud-regions-in-nauru-aws-azure-gcp-oracle-oci-verified-negative",
+  "canonical_project": "Public cloud regions in Nauru (AWS/Azure/GCP/Oracle OCI) - verified negative",
+  "owner": "",
+  "location": {
+    "city": "",
+    "subnational": "Unknown NR",
+    "country": "Nauru",
+    "country_code": "NR"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html",
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+    "https://cloud.google.com/about/locations",
+    "https://docs.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm"
+  ],
+  "notes": "Verified negative: no Nauru public cloud region, Local Zone or edge location in official AWS/Azure/GCP/OCI region lists (re-checked 2026-08-12). Hyperscale/AI-HPC campus: no evidence. Recheck official provider pages on each refresh.",
+  "method_batch": true
+}

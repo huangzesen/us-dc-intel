@@ -1,0 +1,23 @@
+{
+  "slug": "method-na-swakopmund-equiano-cable-landing-station-telecom-namibia-paratus",
+  "canonical_project": "Swakopmund Equiano Cable Landing Station (Telecom Namibia / Paratus)",
+  "owner": "Telecom Namibia and Paratus Group (for Google Equiano)",
+  "location": {
+    "city": "",
+    "subnational": "Erongo",
+    "country": "Namibia",
+    "country_code": "NA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://telecom.na/media-centre/797-telecom-namibia-celebrates-32-years-with-historic-inauguration-of-the-“telecom-namibia-equiano-cable-station”-and-activation-of-capacity-on-equiano-subsea-cable",
+    "https://www.datacenterdynamics.com/en/news/telecom-namibia-inaugurates-equiano-cable-landing-station/",
+    "https://www.submarinenetworks.com/en/systems/euro-africa/equiano/equiano-cable-lands-in-namibia",
+    "https://subtelforum.com/paratus-announces-equiano-has-landed-in-swakopmund/"
+  ],
+  "notes": "Swakopmund, Erongo; Equiano landed 2022-07-01; CLS co-built by Telecom Namibia and Paratus (building completed Sep 2021, internal fit Jan 2022), switched on June 2023; station inaugurated 2024-07-31 with 100G link to Johannesburg; WACS also lands at Swakopmund; SARSSy to interconnect via this station. Cable landing station, NOT customer colocation - recorded separately per methodology.",
+  "method_batch": true
+}

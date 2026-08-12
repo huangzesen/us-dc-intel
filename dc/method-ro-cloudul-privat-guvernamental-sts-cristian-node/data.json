@@ -1,0 +1,23 @@
+{
+  "slug": "method-ro-cloudul-privat-guvernamental-sts-cristian-node",
+  "canonical_project": "Cloudul Privat Guvernamental - STS Cristian node",
+  "owner": "STS / ADR",
+  "location": {
+    "city": "",
+    "subnational": "Brasov",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.digi24.ro/stiri/economie/instalarea-echipamentelor-pentru-clodul-guvernamental-s-a-incheiat-locatia-centrului-de-date-sts-3053715",
+    "https://www.adr.gov.ro/cpg/",
+    "https://www.revistabiz.ro/baza-de-date-a-ancpi-sparta-de-hackeri-a-fost-mutata-in-cloudul-guvernamental-urmeaza-testele-de-securitate/",
+    "https://www.economica.net/proiectul-gigant-al-statului-roman-cloudul-guvernamental-a-intrat-in-etapa-operationala-la-nivel-national_919086.html"
+  ],
+  "notes": "STS data center in Cristian, Brasov county hosts technical equipment for the dedicated government-cloud component (EUR 100m, installed Dec 2024); ADR confirms Cristian node completed; ANCPI hacked database was moved to this government cloud.",
+  "method_batch": true
+}

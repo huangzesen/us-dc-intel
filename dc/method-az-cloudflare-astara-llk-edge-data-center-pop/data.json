@@ -1,0 +1,22 @@
+{
+  "slug": "method-az-cloudflare-astara-llk-edge-data-center-pop",
+  "canonical_project": "Cloudflare Astara (LLK) edge data center / PoP",
+  "owner": "Cloudflare",
+  "location": {
+    "city": "",
+    "subnational": "Astara",
+    "country": "Azerbaijan",
+    "country_code": "AZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cloudflare.com/network/",
+    "https://qurotai.org/blog/cloudflare-astara-llk-maintenance-on",
+    "https://corsproxy.io/servers/azerbaijan/astara/"
+  ],
+  "notes": "Cloudflare's official global network page lists an Astara, Azerbaijan (LLK) location; third-party sources document a Cloudflare LLK datacenter (e.g., maintenance window August 2025). Per AZ methodology, this is an edge PoP / network location, not a disclosed standalone colocation facility; no host facility or MW disclosed.",
+  "method_batch": true
+}

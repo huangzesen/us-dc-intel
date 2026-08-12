@@ -1,0 +1,22 @@
+{
+  "slug": "method-dz-ayrade-cloud-data-center-services-dc1-tassili",
+  "canonical_project": "AYRADE cloud/data center services (DC1 TASSILI)",
+  "owner": "AYRADE",
+  "location": {
+    "city": "",
+    "subnational": "Alger",
+    "country": "Algeria",
+    "country_code": "DZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ayrade.com/produit/offre-data-center/",
+    "https://www.arpce.dz/fr/service/cloud",
+    "https://www.datacentermap.com/algeria/algiers/ayrade-dc-1--tassili-/"
+  ],
+  "notes": "AYRADE operator page (A) for data-center/cloud services; ARPCE cloud-authorisation page (A) lists AYRADE SPA with registered address at Mohammadia Mall, Alger; Data Center Map (C) places AYRADE DC1 (TASSILI) at Cyber Parc Sidi Abdellah Rahmania. Service evidence A, physical facility address C - overall B.",
+  "method_batch": true
+}

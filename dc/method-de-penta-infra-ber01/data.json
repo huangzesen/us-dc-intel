@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-penta-infra-ber01",
+  "canonical_project": "Penta Infra BER01",
+  "owner": "Penta Infra",
+  "location": {
+    "city": "",
+    "subnational": "Berlin - Berlin",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 2.7,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://penta-infra.com/data-centers/berlin/",
+    "https://www.datacentermap.com/germany/berlin/penta-ber01/",
+    "https://www.peeringdb.com/fac/12507"
+  ],
+  "notes": "Official Penta Infra page lists BER01 at Florastrasse 133-135, 12623 Berlin-Marzahn-Hellersdorf with 2.7 MW IT capacity and growth opportunities (former DB Systel DC); BCIX peering member.",
+  "method_batch": true
+}

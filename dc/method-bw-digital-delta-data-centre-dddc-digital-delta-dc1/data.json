@@ -1,0 +1,24 @@
+{
+  "slug": "method-bw-digital-delta-data-centre-dddc-digital-delta-dc1",
+  "canonical_project": "Digital Delta Data Centre (DDDC / Digital Delta DC1)",
+  "owner": "BoFiNet (Botswana Fibre Networks); built by Zhong Gan/CJIC",
+  "location": {
+    "city": "",
+    "subnational": "Gaborone",
+    "country": "Botswana",
+    "country_code": "BW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bofinet.co.bw/",
+    "https://www.digitaldelta.co.bw/data_centre.php",
+    "https://www.datacenterdynamics.com/en/news/botswana-launches-first-national-data-center/",
+    "https://uptimeinstitute.com/clients/bofinet",
+    "https://www.connectingafrica.com/data-centers/botswana-launches-tier-iii-certified-carrier-neutral-data-center"
+  ],
+  "notes": "Vendor-neutral Tier III data centre at BDIH Science & Technology Park, Block 8, Gaborone; 1,000 sqm DC1; Uptime Institute Tier III Constructed Facility certification confirmed by BoFiNet Oct 2025; launch reported 25 Nov 2025 by state/trade press; DCD reports capacity to host at least 400 racks in 1,000 sqm white space. Distinct from the BDIH-branded DC on the same park - do not merge.",
+  "method_batch": true
+}

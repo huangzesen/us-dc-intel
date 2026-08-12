@@ -1,0 +1,22 @@
+{
+  "slug": "method-za-africa-data-centres-cpt1-diep-river-de-waal-road",
+  "canonical_project": "Africa Data Centres CPT1 (Diep River / De Waal Road)",
+  "owner": "Africa Data Centres (Cassava Technologies)",
+  "location": {
+    "city": "",
+    "subnational": "Western Cape - City of Cape Town",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": 11.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.africadatacentres.com/africa-data-centres-announces-additional-6mw-capacity-now-live-in-cape-town/",
+    "https://www.businessday.co.za/bt/business-and-economy/2024-08-04-africa-data-centres-cape-town-facility-gets-huge-capacity-boost/",
+    "https://htxt.co.za/2025/05/africa-data-centres-launches-self-cooling-at-cape-town-facility/"
+  ],
+  "notes": "ADC Cape Town CPT1 at Diep River/De Waal Road: ~5.5MW original power, R5.5bn expansion added 6MW (~1,000 racks) live by 2024 per official announcement and Business Day; total ~11.5MW+ (some sources cite up to 20MW campus). In May 2025 ADC deployed self-cooling (dry cooling) technology at CPT1 to eliminate water usage (htxt).",
+  "method_batch": true
+}

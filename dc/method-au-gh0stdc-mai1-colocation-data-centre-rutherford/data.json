@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-gh0stdc-mai1-colocation-data-centre-rutherford",
+  "canonical_project": "Gh0stDC-MAI1 colocation data centre, Rutherford",
+  "owner": "Gh0st IT Solutions",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Maitland",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 2.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://gh0stitsolutions.com.au/index.php/colocation-gh0stdc-mai1/",
+    "https://www.datacentermap.com/australia/newcastle-au/gh0stdc-mai01/",
+    "https://colomap.com/facilities/gh0stdc-mai01/"
+  ],
+  "notes": "Gh0st IT Solutions' official colocation page identifies Gh0stDC-MAI1 as its data centre at 1/41 Racecourse Road, Rutherford NSW 2320 (Maitland LGA), with N+1 power and network infrastructure, 2N rack power, redundant generators and UPS, and 2.5 MW IT load capacity; aggregator listings (datacentermap, colomap) describe the facility as operational. Presence/status A (official page); capacity from official + aggregator listings.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-pk-cubexs-weatherly-karachi",
+  "canonical_project": "CubeXS Weatherly Karachi",
+  "owner": "CubeXS Weatherly",
+  "location": {
+    "city": "",
+    "subnational": "Sindh",
+    "country": "Pakistan",
+    "country_code": "PK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cubexsweatherly.com",
+    "https://www.peeringdb.com/fac/6728"
+  ],
+  "notes": "Karachi (Clifton) interconnection/data-centre facility candidate confirmed in PeeringDB as facility 6728; company page reachable. Commercial colocation specs not publicly stated.",
+  "method_batch": true
+}

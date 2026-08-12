@@ -1,0 +1,20 @@
+{
+  "slug": "method-sa-modon-data-centre-project-jeddah-oasis-64-mw-planned",
+  "canonical_project": "MODON data centre project - Jeddah Oasis (64 MW planned)",
+  "owner": "MODON tenant (operator per MEED not confirmed)",
+  "location": {
+    "city": "",
+    "subnational": "Mecca Region - Jiddah",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 64,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://guest.meed.com/modon-signs-17bn-data-centre-projects/"
+  ],
+  "notes": "MEED reports MODON signed USD 1.7bn data centre projects (announced at LEAP) including a planned cloud-based data centre at Jeddah Oasis with ~64 MW capacity; operator attribution not fully visible in snippet - needs confirmation.",
+  "method_batch": true
+}

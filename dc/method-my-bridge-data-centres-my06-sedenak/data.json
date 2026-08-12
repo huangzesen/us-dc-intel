@@ -1,0 +1,22 @@
+{
+  "slug": "method-my-bridge-data-centres-my06-sedenak",
+  "canonical_project": "Bridge Data Centres MY06 (Sedenak)",
+  "owner": "Bridge Data Centres (Chindata/Bain Capital)",
+  "location": {
+    "city": "",
+    "subnational": "Johor",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": 100,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bridgedatacentres.com/locations/malaysia/",
+    "https://www.mida.gov.my/media-release/bridge-data-centres-announces-construction-of-its-fourth-hyperscale-data-centre-campus-in-johor-malaysia/",
+    "https://getcommercialproperty.com/ms/data-centres/bridge-my06-sedenak"
+  ],
+  "notes": "Bridge MY06 hyperscale campus in Sedenak, Johor (~40 acres, ~100 MW across three buildings per directory, status operational per getcommercialproperty); MIDA release records construction of the fourth hyperscale campus in Johor (ByteDance anchor reported by trade press). Capacity figure from directory is C-grade; operator existence A.",
+  "method_batch": true
+}

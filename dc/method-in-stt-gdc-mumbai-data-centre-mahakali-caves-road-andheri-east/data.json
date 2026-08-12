@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-stt-gdc-mumbai-data-centre-mahakali-caves-road-andheri-east",
+  "canonical_project": "STT GDC Mumbai data centre (Mahakali Caves Road, Andheri East)",
+  "owner": "ST Telemedia Global Data Centres (India)",
+  "location": {
+    "city": "",
+    "subnational": "Maharashtra - Mumbai Suburban",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.sttelemediagdc.com/in-en/locations/mumbai",
+    "https://inflect.com/building/mahakali-caves-road-mumbai/stt-gdc/datacenter/mumbai-dc"
+  ],
+  "notes": "STT GDC Mumbai DC at Mahakali Caves Road, Andheri East (Mumbai Suburban); ~20 MW per Inflect; STT official page cites 133 MW IT load across its Mumbai locations (Andheri to Bandra); additional STT campuses in Navi Mumbai (Airoli/Palava, Thane district).",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-md-molddata-cloud-host-md",
+  "canonical_project": "MoldData Cloud (Host.md)",
+  "owner": "S.E. MoldData (Host.md)",
+  "location": {
+    "city": "",
+    "subnational": "Chisinau",
+    "country": "Moldova, Republic of",
+    "country_code": "MD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.host.md/en/index.php?pag=datacenter",
+    "https://www.datacentermap.com/moldova/chisinau/molddata-cloud-data-center/",
+    "https://www.plesk.com/partner-directory/molddata/"
+  ],
+  "notes": "MoldData Cloud data center at Armeneasca St 37/1, Chisinau; colocation and dedicated servers; Tier III data center per Plesk partner directory; DataCenterMap lists 0.5 MW (directory claim, treat as B-/C+ until operator spec sheet). S.E. MoldData is also .md ccTLD registry operator. capacity_mw null per methodology (no operator-published MW).",
+  "method_batch": true
+}

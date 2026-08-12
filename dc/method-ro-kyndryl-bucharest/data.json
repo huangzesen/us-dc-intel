@@ -1,0 +1,20 @@
+{
+  "slug": "method-ro-kyndryl-bucharest",
+  "canonical_project": "Kyndryl Bucharest",
+  "owner": "Kyndryl",
+  "location": {
+    "city": "",
+    "subnational": "Bucuresti",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://cloudscene.com/data-center/romania/bucharest/kyndryl-bucharest"
+  ],
+  "notes": "Directory listing of Kyndryl Bucharest facility (Soseaua Orhideelor per methodology); enterprise/legacy IBM infrastructure; verify with Kyndryl or local records.",
+  "method_batch": true
+}

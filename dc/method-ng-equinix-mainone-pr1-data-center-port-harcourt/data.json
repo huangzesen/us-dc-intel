@@ -1,0 +1,23 @@
+{
+  "slug": "method-ng-equinix-mainone-pr1-data-center-port-harcourt",
+  "canonical_project": "Equinix/MainOne PR1 Data Center (Port Harcourt)",
+  "owner": "Equinix / MainOne",
+  "location": {
+    "city": "",
+    "subnational": "Rivers",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": 0.5,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/newsroom/press-releases/2025/04/equinix-to-open-first-data-center-in-port-harcourt-and-bring-2africa-subsea-cable-to-nigeria",
+    "https://www.datacenterdynamics.com/en/news/equinix-to-open-first-port-harcourt-data-center-in-nigeria/",
+    "https://businessday.ng/technology/article/data-centres-to-pump-630m-on-growing-internet-usage/",
+    "https://insights.techcabal.com/can-nigerias-data-centres-power-africas-ai-future/"
+  ],
+  "notes": "Equinix April 2025 announcement: PR1 first carrier-neutral data centre in Port Harcourt, ~500kW, near 2Africa landing; part of $140M Nigeria investment; BusinessDay still says 'set to open' while TechCabal Insights lists PR1 planned; status kept as construction/announced pending public commissioning (first-round listed operational).",
+  "method_batch": true
+}

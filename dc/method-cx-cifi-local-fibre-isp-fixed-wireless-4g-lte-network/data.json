@@ -1,0 +1,22 @@
+{
+  "slug": "method-cx-cifi-local-fibre-isp-fixed-wireless-4g-lte-network",
+  "canonical_project": "CiFi local fibre ISP / fixed wireless / 4G LTE network",
+  "owner": "CiFi Pty Ltd (Christmas Island Fibre Internet)",
+  "location": {
+    "city": "",
+    "subnational": "Christmas Island",
+    "country": "Christmas Island",
+    "country_code": "CX"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cifi.com.au/",
+    "https://cifi.com.au/home_internet/",
+    "https://www.infrastructure.gov.au/sites/default/files/documents/service-delivery-arrangements-information-kit-indian-ocean-territories-november2024.pdf"
+  ],
+  "notes": "sub_location Settlement / Drumsite (offices incl. 45 Gaze Road per directory). CiFi states it is Christmas Island's first and only fibre internet service provider, network exclusively supported by the Vocus ASC, offering home/business and 4G mobile plans (official site verified 2026-08-12; DITRDCA 2024 Service Delivery kit lists CiFi as local internet distributor). COUNTED AS NETWORK OPERATOR LEAD - not colocation per CX methodology.",
+  "method_batch": true
+}

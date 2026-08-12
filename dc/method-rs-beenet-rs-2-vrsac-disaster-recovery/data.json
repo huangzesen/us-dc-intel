@@ -1,0 +1,22 @@
+{
+  "slug": "method-rs-beenet-rs-2-vrsac-disaster-recovery",
+  "canonical_project": "BeeNet RS-2 Vrsac (disaster recovery)",
+  "owner": "BeeNet",
+  "location": {
+    "city": "",
+    "subnational": "Vojvodina",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.beenet.rs/en/data-center",
+    "https://www.datacentermap.com/serbia/vrsac/beenet-rs2/",
+    "http://datacenters.rs/"
+  ],
+  "notes": "Official BeeNet page confirms RS-2 Vrsac (DR facility, 80 km from Belgrade); directory capacity ~2 MW (C+ for capacity).",
+  "method_batch": true
+}

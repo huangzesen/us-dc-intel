@@ -1,0 +1,21 @@
+{
+  "slug": "method-qa-qix-qatar-internet-exchange",
+  "canonical_project": "QIX (Qatar Internet Exchange)",
+  "owner": "Qatar Internet Exchange (MEEZA-managed)",
+  "location": {
+    "city": "",
+    "subnational": "Daayen",
+    "country": "Qatar",
+    "country_code": "QA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.qix.qa/contactus.html",
+    "https://www.pch.net/ixp/details/1920"
+  ],
+  "notes": "Official QIX page: exchange points at MEEZA MV2, Umm Qarn (Al Daayen); PCH IXP record confirms Qatar Internet Exchange Point at Umm Qarn / Meeza MV2 (established 2020). IXP/connectivity record, not a DC building.",
+  "method_batch": true
+}

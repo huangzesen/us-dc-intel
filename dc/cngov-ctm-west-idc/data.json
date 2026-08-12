@@ -1,0 +1,20 @@
+{
+  "slug": "cngov-ctm-west-idc",
+  "canonical_project": "澳门电讯 CTM 数据中心（WEST IDC）",
+  "owner": "澳门电讯（CTM，中信国际电讯 99% 控股）",
+  "location": {
+    "city": "澳门",
+    "subnational": "Macau",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "运营",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.idcbest.com/idcnews/11006309.html"
+  ],
+  "notes": "CTM 机房（WEST IDC），配置气体消防/门禁监控；澳门整体数据中心市场极小（运营牌照集中于 CTM、中国电信澳门、3 Macau），公开 MW/机柜数据稀缺。 [province=澳门]",
+  "cn_gov_batch": true
+}

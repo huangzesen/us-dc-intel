@@ -1,0 +1,22 @@
+{
+  "slug": "method-ie-cyrusone-dublin-i-dub1",
+  "canonical_project": "CyrusOne Dublin I (DUB1)",
+  "owner": "CyrusOne",
+  "location": {
+    "city": "",
+    "subnational": "Leinster",
+    "country": "Ireland",
+    "country_code": "IE"
+  },
+  "capacity_mw": 74,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cyrusone.com/data-centers/emea/dublin-ireland",
+    "https://irishtechnews.ie/cyrusone-breaks-colocation-data-centre-in-dublin/",
+    "https://www.datacenterdynamics.com/en/news/cyrusone-breaks-ground-wildlife-friendly-dublin-campus/"
+  ],
+  "notes": "CyrusOne DUB1, Grange Castle Business Park South, Dublin (South Dublin): groundbreaking Sep 2019, first phase (12MW) live 2021, campus designed for 74MW across 3 buildings/33,445 sqm; 2023 extension application (32,419 sqm) refused Sep 2023. Operator page A for campus; 74MW full-build B.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-ua-energoatom-hotmine-data-processing-center-near-zaporizhzhia-npp-concept",
+  "canonical_project": "Energoatom / Hotmine data processing center near Zaporizhzhia NPP (concept)",
+  "owner": "Energoatom (NAEK) / Hotmine / Yom Capital (Ministry of Energy MoU context)",
+  "location": {
+    "city": "",
+    "subnational": "Zaporizhzhia",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2021-02-03",
+  "evidence_grade": "C",
+  "sources": [
+    "https://tadviser.com/index.php/Project:Data_center_of_Energoatom",
+    "https://www.theblock.co/news/ecosystems/2021-02-03/ukraine-considers-bitcoin-mining-center-nuclear-power-93572",
+    "https://www.energoatom.com.ua/en/about"
+  ],
+  "notes": "Pre-war announced concept (2020-2021): Energoatom/Hotmine large data processing/crypto-mining center adjacent to Zaporizhzhia NPP with very large reported power figures (reported MW kept in notes only per UA methodology - do not record as capacity_mw without permit/power records). No construction/permit evidence found; ZNPP has been Russian-occupied since 2022, making current buildout implausible without fresh official evidence. Status remains announced/stale.",
+  "method_batch": true
+}

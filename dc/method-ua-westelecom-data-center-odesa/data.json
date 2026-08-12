@@ -1,0 +1,21 @@
+{
+  "slug": "method-ua-westelecom-data-center-odesa",
+  "canonical_project": "WESTELECOM data center (Odesa)",
+  "owner": "WESTELECOM",
+  "location": {
+    "city": "",
+    "subnational": "Odesa",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://westelecom.ua/home/colocation",
+    "https://westelecom.ua/blog/pereezd-bez-prostoev-cek-list-podgotovki-servera-k-razmeseniu-v-data-centre"
+  ],
+  "notes": "Operator pages confirm colocation service in an Odesa data center (Tier II described on the colocation page) with reliable power, 24/7 security and move-in checklists. No public MW capacity published.",
+  "method_batch": true
+}

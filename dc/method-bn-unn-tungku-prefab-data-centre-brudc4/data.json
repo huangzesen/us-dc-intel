@@ -1,0 +1,24 @@
+{
+  "slug": "method-bn-unn-tungku-prefab-data-centre-brudc4",
+  "canonical_project": "UNN Tungku Prefab Data Centre (BRUDC4)",
+  "owner": "Unified National Networks Sdn Bhd (UNN)",
+  "location": {
+    "city": "",
+    "subnational": "Brunei-Muara",
+    "country": "Brunei Darussalam",
+    "country_code": "BN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://unn.com.bn/unn-invests-in-eco-efficient-data-centre-infrastructure-to-meet-bruneis-increasing-digital-needs",
+    "https://unn.com.bn/colocation-hosting",
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/unn-tungku-prefab-data-center-brudc4/2195",
+    "https://www.datacenterdynamics.com/en/news/construction-begins-on-unn-data-center-in-brunei/",
+    "https://borneobulletin.com.bn/new-unn-data-centre-ready-in-2024/"
+  ],
+  "notes": "UNN official pages (verified 2026-08-12): 51,000 sq ft complex at the Tungku Submarine Cable Landing Station (Kg Tungku), Vertiv prefabricated design, phase-1 200 racks, construction from April 2023, expected operation early 2024; colocation marketed with Tier 3 compliance and 99.982% availability claims. NEW: Uptime Institute Tier Certification achievement record page exists for BRUDC4 (client UNN, Bandar Seri Begawan), upgrading the methodology's earlier negative registry check. DCD/Borneo Bulletin provide construction and timeline detail (B). No public MW figure.",
+  "method_batch": true
+}

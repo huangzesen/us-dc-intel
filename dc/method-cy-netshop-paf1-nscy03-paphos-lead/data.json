@@ -1,0 +1,21 @@
+{
+  "slug": "method-cy-netshop-paf1-nscy03-paphos-lead",
+  "canonical_project": "NetShop PAF1 / NSCY03 Paphos (lead)",
+  "owner": "NetShop Internet Services Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Paphos",
+    "country": "Cyprus",
+    "country_code": "CY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://netshop-isp.com.cy/data-centers/",
+    "https://www.datacenters.com/netshop-isp-nscy03-paphos"
+  ],
+  "notes": "NetShop locations page lists PAF1; directory places NSCY03/PAF1 at Anatoliko Industrial Zone, Agia Varvara, Paphos with ISO 27001 listed. C-grade directory/marketing evidence until facility-level primary record.",
+  "method_batch": true
+}

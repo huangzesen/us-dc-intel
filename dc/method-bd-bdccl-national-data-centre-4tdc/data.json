@@ -1,0 +1,22 @@
+{
+  "slug": "method-bd-bdccl-national-data-centre-4tdc",
+  "canonical_project": "BDCCL National Data Centre / 4TDC",
+  "owner": "Bangladesh Data Center Company Limited (BDCCL), state-owned",
+  "location": {
+    "city": "",
+    "subnational": "Dhaka",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bdccl.gov.bd/",
+    "https://www.datacenterdynamics.com/en/news/bangladesh-govt-equips-data-centers-with-oracle-cloud-infrastructure/",
+    "https://www.dhakatribune.com/bangladesh/339345/meghna-cloud-bangladesh-s-first-cloud-data-centre"
+  ],
+  "notes": "State-owned national data centre at Bangabandhu Hi-Tech City, Kaliakair, Gazipur (Dhaka division); runs national systems (e-governance, e-filing, health/social services, NID). Established 2019, described as largest in Bangladesh with Tier IV marketing claims (Grade B for capacity claims: ~200,000 sq ft, generators, cost figures per DCD/Dhaka Tribune). DCD reports BDCCL equipped its data centers with Oracle Cloud Infrastructure in 2024.",
+  "method_batch": true
+}

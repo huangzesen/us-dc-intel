@@ -1,0 +1,22 @@
+{
+  "slug": "method-gq-gitge-sipopo-datacenter",
+  "canonical_project": "GITGE Sipopo Datacenter",
+  "owner": "GITGE (Gestor de Infraestructuras de Telecomunicaciones de Guinea Ecuatorial)",
+  "location": {
+    "city": "",
+    "subnational": "Insular",
+    "country": "Equatorial Guinea",
+    "country_code": "GQ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://gitge.com/servicios/coubicacion/",
+    "https://www.datacentermap.com/equatorial-guinea/malabo/sipopo-datacenter/",
+    "https://www.peeringdb.com/fac/9041"
+  ],
+  "notes": "Flagship in-country colocation (coubicacion) facility at Carretera Malabo-Sipopo, Bioko Norte (Insular). GITGE official colocation service page + 2024 annual report confirm the service exists (A); PeeringDB fac 9041 / AS37529 (updated 2025-09-26) and DataCenterMap supply Sipopo identity and address (C). Capacity, Tier and rack counts not officially published - directory-only values remain C. Do not assume identity with the planned 8-cable national DC.",
+  "method_batch": true
+}

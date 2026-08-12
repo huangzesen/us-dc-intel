@@ -1,0 +1,21 @@
+{
+  "slug": "method-tz-aptus-solutions-data-centre-dar-es-salaam",
+  "canonical_project": "Aptus Solutions data centre (Dar es Salaam)",
+  "owner": "Aptus Solutions Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Dar es Salaam",
+    "country": "Tanzania, United Republic of",
+    "country_code": "TZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://aptus.co.tz/",
+    "https://www.datacentermap.com/tanzania/dar-es-salaam/aptus-solutions/"
+  ],
+  "notes": "Aptus official site (A for services): Dar es Salaam web solutions provider offering web hosting, VPS, dedicated servers, internet access. DataCenterMap (C) lists 'Aptus Solutions Data Center in Dar es Salaam' - first Tanzanian VPS/dedicated provider with servers in central Dar, UPS/generator backup. ISP hosting facility; capacity not published. Grade C for facility status (directory corroboration only).",
+  "method_batch": true
+}

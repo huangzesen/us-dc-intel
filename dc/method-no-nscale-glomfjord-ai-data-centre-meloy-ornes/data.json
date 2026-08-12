@@ -1,0 +1,22 @@
+{
+  "slug": "method-no-nscale-glomfjord-ai-data-centre-meloy-ornes",
+  "canonical_project": "Nscale Glomfjord AI Data Centre (Meloy/Ornes)",
+  "owner": "Nscale (NSCALE DRIFT AS; ex-Arkon Energy)",
+  "location": {
+    "city": "",
+    "subnational": "Northland",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": 30,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nscale.com/ai-infrastructure/glomfjord",
+    "https://www.datacenterdynamics.com/en/news/nscale-to-expand-glomfjord-data-center-in-norway-with-30mw-building/",
+    "https://news.cision.com/prevas/r/prevas-signs-agreement-with-nscale-for-hxgn-eam,c4232033"
+  ],
+  "notes": "AI data centre at Glomfjord Industrial Park powered by local hydro; 30 MW operational, expanding to 60 MW (30 MW liquid-cooled expansion by InfraPartners targeted Q2 2025); Nkom lists NSCALE DRIFT AS. Operator page A; expansion details B.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-md-stisc-state-data-center-existing-government-dc",
+  "canonical_project": "STISC state data center (existing government DC)",
+  "owner": "STISC (Serviciul Tehnologia Informatiei si Securitate Cibernetica)",
+  "location": {
+    "city": "",
+    "subnational": "Chisinau",
+    "country": "Moldova, Republic of",
+    "country_code": "MD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://stisc.gov.md/ro/content/infrastructura-data-centru-0",
+    "https://www.egov.md/en/content/mcloud-platform"
+  ],
+  "notes": "STISC Data Center Infrastructure Service operates the state telecommunication network data center in Chisinau ('the most performant data center in the Republic of Moldova' per STISC page); hosts MCloud government cloud platform services. MCloud itself is a cloud consolidation platform, not a separate new physical facility; not double-counted as new DC.",
+  "method_batch": true
+}

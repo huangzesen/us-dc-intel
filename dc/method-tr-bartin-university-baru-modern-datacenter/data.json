@@ -1,0 +1,20 @@
+{
+  "slug": "method-tr-bartin-university-baru-modern-datacenter",
+  "canonical_project": "Bartin University (BARU) Modern Datacenter",
+  "owner": "Bartin University (Bilgi Islem Daire Baskanligi)",
+  "location": {
+    "city": "",
+    "subnational": "Bartin",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-05-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://basin.bartin.edu.tr/haberler/baru-yeni-veri-merkeziyle-daha-guclu.html"
+  ],
+  "notes": "Official university news (09 May 2024): modern datacenter commissioned at Kutlubey Campus, with the former Agdaci campus system room converted into a disaster-recovery center; institutional/university-scale facility, not a commercial colo. No commercial datacenter project found in Bartin in TR/EN searches; methodology Tier-3 university variant surfaced this official record.",
+  "method_batch": true
+}

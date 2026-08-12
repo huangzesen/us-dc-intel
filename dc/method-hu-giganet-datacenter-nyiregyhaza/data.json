@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-giganet-datacenter-nyiregyhaza",
+  "canonical_project": "Giganet Datacenter (Nyiregyhaza)",
+  "owner": "Giganet Internet Kft.",
+  "location": {
+    "city": "",
+    "subnational": "Szabolcs-Szatmar-Bereg",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.giganet.hu/partnerter/adatkozpont-szolgaltatas/",
+    "https://www.giganet.hu/"
+  ],
+  "notes": "Nyiregyhaza ISP with marketed datacenter service: server colocation/rack rental (polc, rackszekreny, teljes szekreny), redundant A+B power with diesel generator, continuous cooling, multi-path optical connectivity up to 10 Gbit/s, DDoS protection, 99.99%+ SLA, 24h support. Hosting provider facility in Szabolcs-Szatmar-Bereg; capacity not disclosed.",
+  "method_batch": true
+}

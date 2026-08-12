@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-dokom21-dortmund-data-center-sites-huckarde-horde",
+  "canonical_project": "DOKOM21 Dortmund data-center sites (Huckarde / Hörde)",
+  "owner": "DOKOM21 (DOKOM Gesellschaft fuer Telekommunikation mbH)",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Dortmund",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.dokom21.de/geschaeftskunden/rechenzentrum/infrastruktur-sicherheit/standorte-redundanz",
+    "https://www.dokom21.de/geschaeftskunden/rechenzentrum/zertifizierung/entstehung-reliable-data-center",
+    "https://www.dokom21.de/geschaeftskunden/rechenzentrum/"
+  ],
+  "notes": "Official DOKOM21 pages state it operates geographically separated Dortmund/Ruhr-area data centers with over 4,600 m2 of data-center area, including Hörde and newer Huckarde capacity (groundbreaking May 2017).",
+  "method_batch": true
+}

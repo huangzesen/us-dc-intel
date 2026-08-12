@@ -1,0 +1,21 @@
+{
+  "slug": "method-au-stack-erskine-park-data-centre-campus-syd01",
+  "canonical_project": "STACK Erskine Park data centre campus (SYD01)",
+  "owner": "Stack Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Penrith",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 450.0,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://w.media/stack-infrastructure-plans-450mw-data-center-campus-at-erskine-park-sydney/",
+    "https://www.datacenters.com/stack-infrastructure-erskine-park"
+  ],
+  "notes": "Stack lodged a SEARS application with NSW Government for a data centre campus with operational capacity ~450MW at Erskine Park, Penrith LGA (methodology anchor: STACK SYD01 SSD-82211208); datacenters.com lists an existing Stack Erskine Park facility. 450MW is ultimate campus operational capacity, not built IT load.",
+  "method_batch": true
+}

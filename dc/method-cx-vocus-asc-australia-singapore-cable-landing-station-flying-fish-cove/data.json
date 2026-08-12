@@ -1,0 +1,22 @@
+{
+  "slug": "method-cx-vocus-asc-australia-singapore-cable-landing-station-flying-fish-cove",
+  "canonical_project": "Vocus ASC (Australia Singapore Cable) landing station, Flying Fish Cove",
+  "owner": "Vocus (designed, built and solely operated)",
+  "location": {
+    "city": "",
+    "subnational": "Christmas Island",
+    "country": "Christmas Island",
+    "country_code": "CX"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vocus.com.au/about-vocus/our-network/international/australia-singapore-cable",
+    "https://www.infrastructure.gov.au/territories-regions-cities/territories/indian_ocean/iot_bulletins/2018/A52-Reliable-high-speed-internet",
+    "https://www.submarinecablemap.com/submarine-cable/australia-singapore-cable-asc"
+  ],
+  "notes": "sub_location Flying Fish Cove / Settlement. ASC in service September 2018, 4,600 km Perth-Singapore via Christmas Island and Indonesia, capacity up to 60 Tbps (Vocus official page verified 2026-08-12). DITRDCA IOT bulletin 2018 (methodology-verified) places the cable landing station beside the Flying Fish Cove Administration building. COUNTED AS TELECOM/CABLE LANDING INFRASTRUCTURE - not commercial colocation (no rack/hosting/colo product confirmed for the island per CX methodology).",
+  "method_batch": true
+}

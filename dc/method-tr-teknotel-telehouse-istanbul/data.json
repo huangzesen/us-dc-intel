@@ -1,0 +1,21 @@
+{
+  "slug": "method-tr-teknotel-telehouse-istanbul",
+  "canonical_project": "Teknotel Telehouse Istanbul",
+  "owner": "Telehouse (KDDI) / Teknotel",
+  "location": {
+    "city": "",
+    "subnational": "Istanbul",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.teknotel.com/tr/data-center-altyapisi-satin-al/",
+    "https://www.telehouse.com/global-data-centers/emea/istanbul-data-centers/telehouse-istanbul/"
+  ],
+  "notes": "Telehouse Istanbul (with Teknotel) is one of Turkey's first carrier-neutral data centers, Tier 3+, located Kozyatagi (Asian side, since March 2011) per official Teknotel and Telehouse pages. Capacity not published.",
+  "method_batch": true
+}

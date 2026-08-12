@@ -1,0 +1,21 @@
+{
+  "slug": "method-fr-eclairion-bruyeres-le-chatel-mistral-ai-cluster",
+  "canonical_project": "Eclairion Bruyères-le-Châtel (Mistral AI cluster)",
+  "owner": "Eclairion (High Performance Capital / HPC Group)",
+  "location": {
+    "city": "",
+    "subnational": "Essonne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 44,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/french-data-center-firm-eclairion-raises-50m-hosts-mistral-ai-cluster/",
+    "https://blog.datacenter-paris.com/le-datacenter-de-mistral-ai-a-bruyeres-le-chatel-entre-en-phase-operationnelle-13-800-gpu-nvidia-gb300-et-44-mw-de-puissance-pour-rivaliser-avec-les-geants-americains-de-l-ia"
+  ],
+  "notes": "Modular high-density AI data center on 4-ha site in Bruyères-le-Châtel (~30-40 km south of Paris), hosting Mistral AI first cluster: 13,800 Nvidia GB300 GPUs, ~44 MW installed (60 MW per aggregator). Entered operational phase 2026; EUR 50m raise reported by DCD.",
+  "method_batch": true
+}

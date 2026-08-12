@@ -1,0 +1,22 @@
+{
+  "slug": "method-lb-byblos-bank-data-center-byblos-tower-b1-data-center",
+  "canonical_project": "Byblos Bank Data Center / Byblos Tower B1 Data Center",
+  "owner": "Byblos Bank s.a.l.",
+  "location": {
+    "city": "",
+    "subnational": "Beirut",
+    "country": "Lebanon",
+    "country_code": "LB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-06-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://applications.byblosbank.com/news-room/byblos-bank-inaugurates-its-new-data-center",
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/byblos-tower-b1-data-center/681",
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/LB"
+  ],
+  "notes": "Byblos Bank announced inauguration 2019-06-24 at its Ashrafieh HQ; bank release describes it as the only Uptime Institute Tier III certified constructed facility in Lebanon; Uptime page confirms Byblos Tower B1 Data Center with client Byblos Bank s.a.l. Private bank facility, not public colocation; no MW/rack data published.",
+  "method_batch": true
+}

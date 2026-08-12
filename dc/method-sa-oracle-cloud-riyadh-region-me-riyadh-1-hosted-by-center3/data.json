@@ -1,0 +1,22 @@
+{
+  "slug": "method-sa-oracle-cloud-riyadh-region-me-riyadh-1-hosted-by-center3",
+  "canonical_project": "Oracle Cloud Riyadh region (me-riyadh-1, hosted by center3)",
+  "owner": "Oracle (host partner center3)",
+  "location": {
+    "city": "",
+    "subnational": "Riyadh Region - Ar Riyad",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.oracle.com/sa/cloud/cloud-regions/riyadh/",
+    "https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm",
+    "https://english.alarabiya.net/business/technology/2024/08/06/oracle-unveils-1-5-billion-cloud-region-in-riyadh-advancing-saudi-digital-goals"
+  ],
+  "notes": "Oracle launched its second Saudi cloud region in Riyadh (Saudi Arabia Central, me-riyadh-1, Aug 2024) within a USD 1.5bn investment, hosted by center3 per Oracle. Region/city existence A-grade; no public MW.",
+  "method_batch": true
+}

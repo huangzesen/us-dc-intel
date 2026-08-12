@@ -1,0 +1,22 @@
+{
+  "slug": "method-na-telecom-namibia-infinitum-co-location",
+  "canonical_project": "Telecom Namibia Infinitum Co-location",
+  "owner": "Telecom Namibia",
+  "location": {
+    "city": "",
+    "subnational": "Khomas",
+    "country": "Namibia",
+    "country_code": "NA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.telecom.na/tn-mobile/prepaid-plans/91-products/infinitum/133-co-location-corporate-solution",
+    "https://telecom.na/tariffs/international-services/91-products/infinitum",
+    "https://www.datacentermap.com/namibia/windhoek/telecom-namibia-datacenter/"
+  ],
+  "notes": "Co-location service located in Telecom Namibia headquarters buildings, Windhoek (per-rack/per-rack-unit hosting, secure physical access) per official Infinitum product/FAQ pages (A for service); DataCenterMap lists 'Telecom Namibia Datacenter' at 10001 Luderitz Street, Windhoek (C for facility address); discrete facility specifics (building plans/ECC/power) not yet published.",
+  "method_batch": true
+}

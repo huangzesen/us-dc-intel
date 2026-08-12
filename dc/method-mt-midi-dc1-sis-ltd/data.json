@@ -1,0 +1,21 @@
+{
+  "slug": "method-mt-midi-dc1-sis-ltd",
+  "canonical_project": "MIDI DC1 (SIS Ltd)",
+  "owner": "SIS Ltd (Solutions and Infrastructure Services Ltd; MIDI plc announced merger with SIS in Dec 2022)",
+  "location": {
+    "city": "",
+    "subnational": "Gzira",
+    "country": "Malta",
+    "country_code": "MT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/malta/gzira/sis-dc-1/",
+    "https://datacentercatalog.com/malta/sis-dc-1"
+  ],
+  "notes": "Directory-only lead: data centre at North Shore, Gzira GZR 3016, operator SIS Ltd per DataCenterMap and Data Center Catalog. No PA/Gazette/ERA/operator primary confirmation found in this pass; locality and operation need primary verification. Capacity unknown; capacity_mw null.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-no-lefdal-mine-datacenter-stad-nordfjordeid",
+  "canonical_project": "Lefdal Mine Datacenter (Stad/Nordfjordeid)",
+  "owner": "Lefdal Mine Datacenter AS (Columbia Threadneedle Investments)",
+  "location": {
+    "city": "",
+    "subnational": "Westland",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.lefdalmine.com/",
+    "https://www.sigma2.no/meet-olivia-norways-next-supercomputer",
+    "https://www.datacenterdynamics.com/en/news/norway-inaugurates-olivia-supercomputer-at-lefdal-mine-datacenter/"
+  ],
+  "notes": "Underground mountain-hall campus in former olivine mine near Nordfjordeid; hosts Sigma2/HPE 'Olivia' supercomputer (NOK 225M, inaugurated Nov 2025) with fjord-water cooling; Nkom-listed LEFDAL MINE DATACENTER AS. A for operator/Sigma2 facts; total campus MW not published.",
+  "method_batch": true
+}

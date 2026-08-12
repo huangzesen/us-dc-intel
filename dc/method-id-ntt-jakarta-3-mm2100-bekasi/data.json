@@ -1,0 +1,21 @@
+{
+  "slug": "method-id-ntt-jakarta-3-mm2100-bekasi",
+  "canonical_project": "NTT Jakarta 3 (MM2100, Bekasi)",
+  "owner": "NTT Global Data Centers / NTT Communications",
+  "location": {
+    "city": "",
+    "subnational": "West Java",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": 45.6,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/asia-pacific/jakarta-3-data-center",
+    "https://www.datacenterdynamics.com/en/news/ntt-launches-data-center-in-jakarta-indonesia/"
+  ],
+  "notes": "NTT Jakarta 3, MM2100 industrial estate, Bekasi, West Java: purpose-built 4-storey DC, 18,800 sqm IT space, 45.6MW critical IT load; launched Apr 2022 at 15.2MW, designed for up to 45MW/45.6MW fully developed. NTT official page A; DCD B.",
+  "method_batch": true
+}

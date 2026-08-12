@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-kbc-torokbalint-enterprise-data-centre",
+  "canonical_project": "KBC Torokbalint enterprise data centre",
+  "owner": "KBC Group",
+  "location": {
+    "city": "",
+    "subnational": "Pest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.cummins.com/news/2019/09/23/kbc-banks-data-centres-take-no-chances",
+    "https://www.linkedin.com/posts/peekltd_another-successful-project-with-the-peek-activity-7265725725079457792-TWvI"
+  ],
+  "notes": "Cummins case study (2019) describes KBC Bank data-centre infrastructure in Torokbalint, Pest county, with generator redundancy; PEEK (battery-monitoring vendor) LinkedIn post corroborates an operational Torokbalint data center (2,240 batteries monitored). Enterprise/bank facility, not public colo; no MW figure.",
+  "method_batch": true
+}

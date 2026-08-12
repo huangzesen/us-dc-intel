@@ -1,0 +1,22 @@
+{
+  "slug": "method-eg-gpx-cairo-1-heliopolis",
+  "canonical_project": "GPX Cairo 1 (Heliopolis)",
+  "owner": "GPX Global Systems",
+  "location": {
+    "city": "",
+    "subnational": "Cairo",
+    "country": "Egypt",
+    "country_code": "EG"
+  },
+  "capacity_mw": 1.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/gpx-global-systems-inc-cairo-1",
+    "https://www.datacenterjournal.com/data-centers/egypt/cairo/gpx-cairo-1/",
+    "https://gpxglobal.net/"
+  ],
+  "notes": "GPX Cairo 1, Heliopolis, Cairo: ~1 MW power per catalog; ISO 27001/9001, SSAE16. Catalog-grade (DataCenterJournal/datacenters.com) + GPX first-party group page. Needs GPX site-level/official confirmation for Grade A.",
+  "method_batch": true
+}

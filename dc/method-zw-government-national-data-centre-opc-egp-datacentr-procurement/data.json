@@ -1,0 +1,23 @@
+{
+  "slug": "method-zw-government-national-data-centre-opc-egp-datacentr-procurement",
+  "canonical_project": "Government National Data Centre (OPC / eGP DATACENTR procurement)",
+  "owner": "Government of Zimbabwe (Office of the President and Cabinet / Ministry of ICT)",
+  "location": {
+    "city": "",
+    "subnational": "Harare",
+    "country": "Zimbabwe",
+    "country_code": "ZW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ictministry.gov.zw/pages/projects",
+    "https://egp.praz.org.zw/",
+    "https://www.techzim.co.zw/2017/03/telone-launch-new-data-centre/",
+    "https://bulawayo24.com/index-id-news-sc-national-byo-199954.html"
+  ],
+  "notes": "Ministry of ICT projects page treats National Data Centre as centralized data-infrastructure policy/project context (A). Techzim (B) ties TelOne's 2017 Harare launch to phase one; Bulawayo24 (B) reports Feb 2021 Presidential commissioning. eGP portal live (A surface); methodology-verified tender OPC/DATACENTR/D/10/2025 (Tender Id 42451, Munhumutapa Building, GoZ Treasury) is an A-grade procurement/government-facility lead for data-centre services. Exact facility identity/address/capacity not officially confirmed.",
+  "method_batch": true
+}

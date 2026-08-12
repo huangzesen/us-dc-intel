@@ -1,0 +1,21 @@
+{
+  "slug": "method-bd-dhakacolo-dhaka-dhakacolo",
+  "canonical_project": "DhakaColo Dhaka (DHAKACOLO)",
+  "owner": "Dhaka Colo Limited",
+  "location": {
+    "city": "",
+    "subnational": "Dhaka",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.dhakacolo.com/",
+    "https://www.dhakacolo.com/about-us/"
+  ],
+  "notes": "Operator page (checked via search; direct fetch intermittently unavailable) confirms DhakaColo Tier-3 standard carrier-neutral colocation/cloud services in Dhaka on prime fiber routes. Multi-city operator claims (Chattogram, Jashore) recorded separately; per-site physical addresses grade C until individually verified.",
+  "method_batch": true
+}

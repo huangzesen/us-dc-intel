@@ -1,0 +1,22 @@
+{
+  "slug": "method-cg-congo-telecom-pnr1-carrier-facility",
+  "canonical_project": "Congo Telecom PNR1 carrier facility",
+  "owner": "Congo Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Black Point",
+    "country": "Congo",
+    "country_code": "CG"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://colo.exchange/data-centers/congo-telecom-congo-telecom-carrier-facility-pnr1",
+    "https://www.datacenterslist.com/data-centers/congo-telecom-carrier-facility-pnr1-pointe-noire",
+    "https://postetelecom.gouv.cg/organes/congo-telecom/"
+  ],
+  "notes": "C-grade directory lead for a Congo Telecom carrier facility (PNR1) in Pointe-Noire near the cable/landing ecosystem. No Congo Telecom, ARPCE, PeeringDB or customer evidence confirming colocation/rack service found in this pass; remains lead-only until joined to primary sources.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-mz-raxio-mz1",
+  "canonical_project": "Raxio MZ1",
+  "owner": "Raxio Group",
+  "location": {
+    "city": "",
+    "subnational": "Maputo",
+    "country": "Mozambique",
+    "country_code": "MZ"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.raxiogroup.com/data-centres/mozambique/",
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/MZ",
+    "https://www.techtrackafrica.com/raxio-launches-data-center-in-mozambique/"
+  ],
+  "notes": "Beluluane Industrial Park (MozParks), Matola-Boane, Maputo Province ~20 km from Maputo city; up to 400 racks, 2,000 sqm white space, 3 MW IT power per Raxio page; Uptime Tier III Certification of Design Documents and Constructed Facility; launched 2024-05-28; first Tier III Uptime-certified data centre in Mozambique; carrier-neutral.",
+  "method_batch": true
+}

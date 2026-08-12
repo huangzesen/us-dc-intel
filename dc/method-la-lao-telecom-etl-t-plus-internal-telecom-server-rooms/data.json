@@ -1,0 +1,20 @@
+{
+  "slug": "method-la-lao-telecom-etl-t-plus-internal-telecom-server-rooms",
+  "canonical_project": "Lao Telecom / ETL / T-Plus internal telecom server rooms",
+  "owner": "Lao Telecom (LTC) / ETL / T-Plus",
+  "location": {
+    "city": "",
+    "subnational": "Vientiane Capital",
+    "country": "Lao People's Democratic Republic",
+    "country_code": "LA"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/saylom-road-vientiane/enterprise-of-telecommunications-lao/datacenter/vientiane-capital"
+  ],
+  "notes": "Telecom-internal server-room leads; no public facility-level DC specs found for Lao Telecom/ETL/T-Plus. Inflect directory lists an 'Enterprise of Telecommunications Lao' datacenter building on Saylom Road, Vientiane Capital (C-grade directory lead only).",
+  "method_batch": true
+}

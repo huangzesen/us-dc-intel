@@ -1,0 +1,22 @@
+{
+  "slug": "method-vn-fpt-fornix-hn01-and-hn02-cau-giay",
+  "canonical_project": "FPT Fornix HN01 and HN02 (Cau Giay)",
+  "owner": "FPT Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Ha Noi",
+    "country": "Viet Nam",
+    "country_code": "VN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://fpt.com/en/news/fpt-news/fpt-khanh-thanh-trung-tam-du-lieu-quy-mo-lon-nhat-viet-nam",
+    "https://www.datacentermap.com/vietnam/hanoi/fornix/",
+    "https://fornix.fpt.work/wp-content/uploads/sites/2/2022/07/Brochure-DC-15-07-S-1.pdf"
+  ],
+  "notes": "FPT Fornix HN01 (8-storey FORNIX building, Cau Giay, ~1,250 racks) and HN02 (10 Pham Van Bach, Cau Giay, up to ~1,500 racks) are two of FPT's four large Fornix data centers (total >17,000 sqm / >7,000 racks). Directory + official brochure evidence.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-aws-asia-pacific-mumbai-region-ap-south-1",
+  "canonical_project": "AWS Asia Pacific (Mumbai) region (ap-south-1)",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Maharashtra - Mumbai",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+    "https://www.business-standard.com/companies/news/maharashtra-cm-lays-foundation-stone-for-aws-data-centre-in-mumbai-125092300675_1.html"
+  ],
+  "notes": "Official AWS region with 3 availability zones; region-level (city) evidence of operational cloud capacity, not a facility address. Physical AWS facilities serving the region sit across the MMR incl. Navi Mumbai/Palava (Thane district); AWS committed USD 8.3bn in Maharashtra (foundation stone for new campus laid Sep 2025).",
+  "method_batch": true
+}

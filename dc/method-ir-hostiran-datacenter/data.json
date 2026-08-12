@@ -1,0 +1,20 @@
+{
+  "slug": "method-ir-hostiran-datacenter",
+  "canonical_project": "HostIran Datacenter",
+  "owner": "HostIran (Host Iran Co.)",
+  "location": {
+    "city": "",
+    "subnational": "Tehran",
+    "country": "Iran",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://hostiran.net/datacenter"
+  ],
+  "notes": "Operator page: Tehran datacenter, stated to be the second domestic datacenter holding the ITO datacenter-service-provider rating certificate (B; rating claim verify against ITO for A).",
+  "method_batch": true
+}

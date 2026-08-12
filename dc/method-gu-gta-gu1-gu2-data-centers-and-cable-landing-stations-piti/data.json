@@ -1,0 +1,20 @@
+{
+  "slug": "method-gu-gta-gu1-gu2-data-centers-and-cable-landing-stations-piti",
+  "canonical_project": "GTA GU1 & GU2 Data Centers and Cable Landing Stations (Piti)",
+  "owner": "GTA (GTA Teleguam Holdings LLC)",
+  "location": {
+    "city": "",
+    "subnational": "Guam",
+    "country": "Guam",
+    "country_code": "GU"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.gta.net/data-center"
+  ],
+  "notes": "GTA official page (checked 2026-08-12): GU1/GU2 are Tier 3-designed data centers and cable landing stations, carrier-neutral colocation with 2 MW across 11,800 sq ft, landing points for JGA North, JGA South and SEA-US, located in Piti. Per GU methodology, kept separate from GNC iX unless a source proves same physical site (Baxtel C-grade caption suggests GU1&GU2 = GNC iX aerial view).",
+  "method_batch": true
+}

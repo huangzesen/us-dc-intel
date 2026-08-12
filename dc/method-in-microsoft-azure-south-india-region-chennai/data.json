@@ -1,0 +1,20 @@
+{
+  "slug": "method-in-microsoft-azure-south-india-region-chennai",
+  "canonical_project": "Microsoft Azure South India region (Chennai)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Tamil Nadu - Chennai",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list"
+  ],
+  "notes": "Official cloud-region evidence of operational Azure capacity in Chennai metro; region-level evidence, not a specific facility address.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-ifb-altens-data-centre",
+  "canonical_project": "IFB Altens Data Centre",
+  "owner": "Internet For Business Ltd (IFB)",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - Aberdeen City",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/united-kingdom/aberdeen/ifb-altens/",
+    "https://inflect.com/building/54-hareness-road-aberdeen/internet-for-business-ltd/datacenter/aberdeen",
+    "https://cityfibre.com/news/new-service-providers-launch-services-over-the-aberdeen-network"
+  ],
+  "notes": "Operational facility at 54 Hareness Road, Altens, Aberdeen; IFB headquarters and data centre per CityFibre and directory listings.",
+  "method_batch": true
+}

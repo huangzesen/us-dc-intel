@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-idc-frontier-fukuoka-kitakyushu-data-center",
+  "canonical_project": "IDC Frontier Fukuoka Kitakyushu Data Center",
+  "owner": "IDC Frontier (SoftBank group)",
+  "location": {
+    "city": "",
+    "subnational": "Fukuoka",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.idcf.jp/en/datacenter/location/asianfrontier/"
+  ],
+  "notes": "Environmentally friendly next-generation data center in Kitakyushu, Fukuoka using outside-air conditioning; official IDC Frontier facility page; capacity not stated.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-sk-atos-eviden-kosice-legacy-dc-directory-lead",
+  "canonical_project": "Atos/Eviden Kosice legacy DC (directory lead)",
+  "owner": "Atos / Eviden (historical)",
+  "location": {
+    "city": "",
+    "subnational": "Kosice",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/slovakia",
+    "https://baxtel.com/data-center/slovakia"
+  ],
+  "notes": "Legacy Kosice data-centre entries appear in market directories (Atos/Eviden era); verify with Eviden/Atos primary pages, permits, CRZ and VSE before counting (methodology priority-unresolved lead). Status unknown.",
+  "method_batch": true
+}

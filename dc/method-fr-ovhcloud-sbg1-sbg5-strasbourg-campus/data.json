@@ -1,0 +1,21 @@
+{
+  "slug": "method-fr-ovhcloud-sbg1-sbg5-strasbourg-campus",
+  "canonical_project": "OVHcloud SBG1-SBG5 Strasbourg campus",
+  "owner": "OVHcloud",
+  "location": {
+    "city": "",
+    "subnational": "Bas-Rhin",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://corporate.ovhcloud.com/en/newsroom/news/SBG5-opening/",
+    "https://www.datacenterdynamics.com/en/news/ovhcloud-rebuilds-strasbourg-data-center-on-site-of-2021-fire/"
+  ],
+  "notes": "OVHcloud Strasbourg campus (Rhine-side industrial estate): SBG1, SBG3, SBG4, SBG5 operating; SBG2 destroyed in March 2021 fire (SBG4 restored, SBG3 rebuilt). SBG5 (9 Rue du Bassin de l'Industrie) inaugurated Sep 2022, ~€30M rebuild, ~20 MW Tier III per aggregators (capacity B/C). Official OVHcloud newsroom = A for existence/opening.",
+  "method_batch": true
+}

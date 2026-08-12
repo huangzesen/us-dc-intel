@@ -1,0 +1,24 @@
+{
+  "slug": "method-ph-vitro-cebu-1-2-epldt-mandaue-city",
+  "canonical_project": "VITRO Cebu 1 & 2 (ePLDT, Mandaue City)",
+  "owner": "ePLDT / VITRO Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Central Visayas",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacentermap.com/philippines/cebu/epldt-vitro-cebu-1/",
+    "https://www.peeringdb.com/fac/12466",
+    "https://mb.com.ph/2021/06/30/epldt-opens-1st-disaster-recovery-facility-in-visayas/",
+    "https://baxtel.com/data-center/cebu",
+    "https://tiaonline.org/942-datacenter/epldt-inc-vitro-cebu-2-data-center-a-s-fortuna-st-bakilid-mandaue-city-cebu-6014/"
+  ],
+  "notes": "VITRO Cebu 1 & 2 at A.S. Fortuna St, Mandaue City, Cebu (Central Visayas; batch division Central Visayas, current PSGC: Cebu remains Region VII): first commercial DC in region; VITRO Cebu 2 (TIA-942 registered) hosts ePLDT's first Visayas DR facility (2021); Baxtel lists VITRO Cebu 2 at 3 MW / 16,458 sqft. A for operator/certification evidence.",
+  "method_batch": true
+}

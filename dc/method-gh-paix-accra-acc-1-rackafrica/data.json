@@ -1,0 +1,22 @@
+{
+  "slug": "method-gh-paix-accra-acc-1-rackafrica",
+  "canonical_project": "PAIX Accra (ACC-1 / RackAfrica)",
+  "owner": "PAIX Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Greater Accra",
+    "country": "Ghana",
+    "country_code": "GH"
+  },
+  "capacity_mw": 1.2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.paix.io/en/media-centre/240521-paix-accra-expansion",
+    "https://www.datacenterdynamics.com/en/news/paix-data-centres-upgrades-accra-ghana-facility-to-12mw/",
+    "https://www.paix.io/ghana"
+  ],
+  "notes": "42 Ring Road Central, Accra. PAIX official release (21 May 2024) confirms expansion to 1.2 MW IT capacity; facility is Ghana connectivity hub with direct ACE submarine cable access. Alias: RackAfrica (founded 2011, acquired by PAIX 2018).",
+  "method_batch": true
+}

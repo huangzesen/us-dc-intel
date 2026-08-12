@@ -1,0 +1,1 @@
+SCRATCH FILE - created during daemon run to test the write tool. Not part of the methodology set. Parent may safely remove this file when merging. The authoritative explorer files for MV are explorer-official.md and explorer-industry.md.

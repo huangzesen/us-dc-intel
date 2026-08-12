@@ -1,0 +1,22 @@
+{
+  "slug": "method-hr-inovapro-green-ai-data-center-zelenai-caporice-trilj",
+  "canonical_project": "Inovapro Green AI Data Center (ZelenAI), Caporice-Trilj",
+  "owner": "Inovapro d.o.o.",
+  "location": {
+    "city": "",
+    "subnational": "Split-Dalmatia",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": 3,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baustela.hr/novosti/u-srcu-dalmatinske-zagore-gradi-se-ai-podatkovni-centar-nove-generacije/",
+    "https://www.datacentermap.com/croatia/split/inovapro-green-ai-data-center/",
+    "https://lidermedia.hr/tvrtke-i-trzista/zelena-energija-iz-biootpada-otvoreno-postrojenje-u-caporicama/"
+  ],
+  "notes": "Inovapro is building a 'green AI data center' in the Gospodarska zona Caporice-Trilj (Split-Dalmatia), designed for AI/HPC racks up to 120 kW with direct chip cooling and dual-zone architecture, within the wider Caporice energy park (biogas/biowaste plant opened, solar and BESS phases planned); DataCenterMap lists a 3 MW planned green AI data center; construction trade press (Baustela) reports active construction; capacity is design/planning figure - grade B, verify permits for capacity confirmation.",
+  "method_batch": true
+}

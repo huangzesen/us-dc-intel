@@ -1,0 +1,22 @@
+{
+  "slug": "method-in-rajasthan-state-data-centre-estate-rsdc-p1-p3-p4-incl-bhamashah-state-data-centr",
+  "canonical_project": "Rajasthan State Data Centre estate (RSDC P1/P3/P4 incl. Bhamashah State Data Centre)",
+  "owner": "Department of Information Technology & Communication, Government of Rajasthan / RISL",
+  "location": {
+    "city": "",
+    "subnational": "Rajasthan - Jaipur",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://rising.rajasthan.gov.in/it-and-ites",
+    "https://sterlingandwilson.com/projects/turnkey-data-centers/bhamashah-state-data-center-jaipur-india/",
+    "https://apmg-international.com/product/isoiec-20000/co/rajasthan-state-data-center"
+  ],
+  "notes": "Rajasthan investment portal (rising.rajasthan.gov.in) states the state data centre runs 800 racks across Jaipur plus 1 Jodhpur DR site; Sterling & Wilson project page identifies Bhamashah State Data Center, Jaipur as a 600-rack, Tier IV-certified greenfield project completed 2019; APMG ISO/IEC 20000 certification lists RSDC P1, P3 and P4 locations in Jaipur. Government SDC (e-governance), not commercial colocation.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-af-alef-technology-data-center",
+  "canonical_project": "ALEF Technology data center",
+  "owner": "ALEF Technology",
+  "location": {
+    "city": "",
+    "subnational": "Kabul",
+    "country": "Afghanistan",
+    "country_code": "AF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.aleftechnology.com/content/data-center-0",
+    "https://www.datacentermap.com/afghanistan/kabul/alef-technology/"
+  ],
+  "notes": "Operator page states dedicated enterprise-grade data center in central Kabul offering colocation/managed hosting, N+1 redundancy, UPS/HVAC; Tier III-style concurrently maintainable design claimed (no Uptime certificate found - treat Tier claim as C).",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-li-speedcom-schaan-data-center-ex-newsnet",
+  "canonical_project": "SpeedCom Schaan Data Center (ex-Newsnet)",
+  "owner": "SpeedCom AG / Newsnet AG",
+  "location": {
+    "city": "",
+    "subnational": "Schaan",
+    "country": "Liechtenstein",
+    "country_code": "LI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.speedcom.li/leistungen/datacenter-cloud/",
+    "https://www.lie-zeit.li/2017/06/speedcom-ag-schaan-expandiert/",
+    "https://www.datacentermap.com/liechtenstein/vaduz/newsnet-ag-data-center/",
+    "https://www.ripe.net/membership/member-support/list-of-members/li/newsnetag/"
+  ],
+  "notes": "SpeedCom official materials state it operates two independent data centers in Liechtenstein (A); lie:zeit (2017) and directories place the main Schaan facility at Im alten Riet 153 (B/C), historically Newsnet AG which SpeedCom acquired in Feb 2016; RIPE member record confirms Newsnet AG LI entity (A). Facility has redundant UPS, diesel and high-availability cooling per operator/directory. Capacity not disclosed.",
+  "method_batch": true
+}

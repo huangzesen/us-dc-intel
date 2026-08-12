@@ -1,0 +1,22 @@
+{
+  "slug": "method-it-noovle-tim-turin-data-center-oci-eu-turin-1-host",
+  "canonical_project": "Noovle/TIM Turin data center (OCI eu-turin-1 host)",
+  "owner": "TIM Enterprise / Noovle; Oracle OCI hosted",
+  "location": {
+    "city": "",
+    "subnational": "Piedmont",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/intesa-sanpaolo-group-migrates-core-it-systems-to-google-cloud/",
+    "https://baxtel.com/data-center/noovle-settimo-torinese-cebrosa",
+    "https://www.oracle.com/cloud/public-cloud-regions/"
+  ],
+  "notes": "TIM's Turin-area data center (Noovle-managed; baxtel lists Noovle Settimo Torinese-Cebrosa) hosts Oracle Cloud eu-turin-1 and is the Piedmont cloud-region seed. DCD reports Oracle is a client of TIM's Turin DC and that TIM (Oct 2025) announced a EUR 1bn 3-year plan to expand its Italian data center footprint. Oracle region page lists eu-turin-1 (Italy North, Turin) - A-grade regional availability, not a building address.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-se-globalconnect-gothenburg",
+  "canonical_project": "GlobalConnect Gothenburg",
+  "owner": "GlobalConnect",
+  "location": {
+    "city": "",
+    "subnational": "Vastra Gotaland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.peeringdb.com/fac/10714",
+    "https://www.datacenters.com/globalconnect-gothenburg"
+  ],
+  "notes": "Carrier colocation data center in Gothenburg operated by GlobalConnect (Nordic carrier-neutral operator); PeeringDB facility 10714 confirms presence. Address not published on PeeringDB; capacity not stated.",
+  "method_batch": true
+}

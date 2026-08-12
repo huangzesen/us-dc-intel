@@ -1,0 +1,24 @@
+{
+  "slug": "method-ye-teleyemen-aden-international-gateway-and-cable-landing-station-aden-djibouti-aae",
+  "canonical_project": "TeleYemen Aden international gateway and cable landing station (Aden-Djibouti, AAE-1)",
+  "owner": "TeleYemen (Yemen International Telecommunications Company, state-owned)",
+  "location": {
+    "city": "",
+    "subnational": "Aden",
+    "country": "Yemen",
+    "country_code": "YE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.teleyemen.com.ye/index.php/en/media-center/teleyemen-news/77-dangers-of-internet-outages-en",
+    "https://geocables.com/cable/aden-djibouti",
+    "https://www.datacenterdynamics.com/en/analysis/the-houthis-and-the-red-sea-a-new-risk-to-subsea-cables/",
+    "https://ts2.tech/en/internet-access-in-yemen-overview-and-key-aspects/",
+    "https://techcentral.co.za/red-sea-internet-cables-awaiting-repair/244215/"
+  ],
+  "notes": "Control side: IRG/STC-held Aden. TeleYemen official statement: AAE-1 landing station in Aden with TeleYemen capacity, investment up to ~US$40M (A-grade for gateway/cable-landing facts); Aden also lands Aden-Djibouti cable (1994, owners include TeleYemen per GeoCables; IRG government activated it for south Yemen late 2022 per ts2.tech). Gateway/hosting service = A; cable status volatile: Red Sea cable incidents 2024-2025 and a dual-authority dispute over TeleYemen representation on AAE-1 (IRG refusing Houthi-linked arm) keep AAE-1 status uncertain. Not a commercial colocation DC.",
+  "method_batch": true
+}

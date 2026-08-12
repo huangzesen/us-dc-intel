@@ -1,0 +1,21 @@
+{
+  "slug": "method-mc-drsi-government-computer-room-23-avenue-albert-ii",
+  "canonical_project": "DRSI government computer room (23 avenue Albert II)",
+  "owner": "Monaco State - DSI/DRSI (Direction des Reseaux et Systemes d'Information)",
+  "location": {
+    "city": "",
+    "subnational": "Fontvieille",
+    "country": "Monaco",
+    "country_code": "MC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://journaldemonaco.gouv.mc/Journaux/2019/Journal-8435/Arrete-Ministeriel-n-2019-453-du-16-mai-2019-creant-une-zone-protegee-au-sein-de-la-Direction-des-Reseaux-et-Systemes-d-Information",
+    "https://www.gouv.mc/annuaire-des-services-administratifs/ministere-d-etat/secretariat-general-du-gouvernement/direction-des-systemes-d-information"
+  ],
+  "notes": "Protected zone created by Arrete Ministeriel 2019-453 (Journal 8435, 24/05/2019) for the DRSI computer room, 1st floor, 23 avenue Albert II (confirmed via gouv.mc administrative directory). Public-sector server room, not commercial colocation.",
+  "method_batch": true
+}

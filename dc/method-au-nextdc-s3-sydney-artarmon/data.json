@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-nextdc-s3-sydney-artarmon",
+  "canonical_project": "NEXTDC S3 Sydney (Artarmon)",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Willoughby",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 80,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/data-centres/sydney-data-centres/s3-sydney",
+    "https://www.multiplex.global/news/multiplex-completes-stage-one-of-artarmon-data-centre/",
+    "https://architectus.com.au/projects/nextdc-s2-s3-data-centres/"
+  ],
+  "notes": "NEXTDC official page lists S3 Sydney at Artarmon (Willoughby LGA) delivering more than 20,000 sqm of IT space and 80MW of critical power; Multiplex completed Stage 1 and later Stage 2 of the nine-level facility at 2 Broadcast Way, Artarmon, and Architectus records S3 at 80MW/10,800 racks. Capacity is the official critical-power figure for the facility.",
+  "method_batch": true
+}

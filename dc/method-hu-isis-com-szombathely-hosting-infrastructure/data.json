@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-isis-com-szombathely-hosting-infrastructure",
+  "canonical_project": "ISIS-COM Szombathely hosting infrastructure",
+  "owner": "ISIS-COM Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Szombathely",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.telenet.hu/isis-com-szombathely.html",
+    "https://pastebin.com/NmrtGVqS"
+  ],
+  "notes": "Local ISP (microwave internet provider) in Szombathely with in-house server hosting infrastructure (speedtest/hosting servers hosted by ISIS-COM Ltd Szombathely). Regional ISP/hosting presence per HU methodology seed; facility scope unverified - C grade.",
+  "method_batch": true
+}

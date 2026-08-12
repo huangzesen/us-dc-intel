@@ -1,0 +1,22 @@
+{
+  "slug": "method-be-orange-belgium-hoboken-data-center",
+  "canonical_project": "Orange Belgium Hoboken data center",
+  "owner": "Orange Belgium",
+  "location": {
+    "city": "",
+    "subnational": "Flanders",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datacenternews.asia/story/orange-belgium-opens-1-000-sqm-antwerp-data-centre",
+    "https://baxtel.com/data-center/antwerp",
+    "https://artesgroup.be/en/references/datacenter-hoboken"
+  ],
+  "notes": "Hoboken, Antwerp; ~1,000 m2 opened 2019 (built by Artes Group for Orange Belgium). Baxtel lists 3 MW / 10,764 sq ft - largest Antwerp facility. Telco-core DC for Orange mobile traffic; not marketed as public colocation.",
+  "method_batch": true
+}

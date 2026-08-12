@@ -1,0 +1,20 @@
+{
+  "slug": "method-au-dci-data-centers-syd02-syd03",
+  "canonical_project": "DCI Data Centers SYD02/SYD03",
+  "owner": "DCI Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Blacktown",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "approved",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/datacom-airtrunk-syd1"
+  ],
+  "notes": "DCI Data Centers received SSD approval for SYD02/SYD03 adjacent to AirTrunk SYD1 at Huntingwood (Blacktown LGA), per Baxtel directory entry; weak source - verify via NSW Planning Portal before promoting grade.",
+  "method_batch": true
+}

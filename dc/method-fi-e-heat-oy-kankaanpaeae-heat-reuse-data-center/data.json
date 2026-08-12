@@ -1,0 +1,20 @@
+{
+  "slug": "method-fi-e-heat-oy-kankaanpaeae-heat-reuse-data-center",
+  "canonical_project": "E-Heat Oy Kankaanpaeae heat-reuse data center",
+  "owner": "E-Heat Oy / Vatajankoski",
+  "location": {
+    "city": "",
+    "subnational": "Satakunta",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-06-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vatajankoski.fi/uusi-datakeskus-tuottaa-20-kankaanpaan-kaukolammon-tarpeesta/"
+  ],
+  "notes": "NEW: 2 MW data center started June 2026 at Vatajankoski power plant, Kankaanpaeae (Satakunta), consisting of 12 water-cooled server cabinets (E-Heat Oy); waste heat recycled into district heating, covering ~20% of Kankaanpaeae's district heat demand. Small but real operational facility - primary utility source.",
+  "method_batch": true
+}

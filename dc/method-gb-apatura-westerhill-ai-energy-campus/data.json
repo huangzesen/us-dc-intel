@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-apatura-westerhill-ai-energy-campus",
+  "canonical_project": "Apatura Westerhill AI Energy Campus",
+  "owner": "Apatura",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - East Dunbartonshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 300.0,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://consult.apatura.energy/westerhill",
+    "https://www.dpea.scotland.gov.uk/CaseDetails.aspx?id=127137",
+    "https://baxtel.com/news/apatura-changes-location-of-planned-300mw-facility"
+  ],
+  "notes": "Apatura consultation site describes a 300MW AI Energy Campus at Westerhill Regeneration Area, Bishopbriggs, East Dunbartonshire; Scottish Government DPEA case 127137 records the proposed data centre campus; EIA/pre-planning stage.",
+  "method_batch": true
+}

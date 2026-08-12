@@ -1,0 +1,22 @@
+{
+  "slug": "method-il-nvidia-yokneam-israel-1-ai-hpc-data-center",
+  "canonical_project": "Nvidia Yokneam Israel-1 AI/HPC Data Center",
+  "owner": "Nvidia",
+  "location": {
+    "city": "",
+    "subnational": "HaTsafon",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 30,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://jobs.nvidia.com/careers/job/893395490468",
+    "https://www.ynetnews.com/article/bkcegg11q11g",
+    "https://www.datacenterdynamics.com/en/news/dalia-energy-plans-israels-biggest-data-center/"
+  ],
+  "notes": "Nvidia operates AI/HPC data center infrastructure in Yokneam (Israel-1 supercomputer, ~30MW R&D facility per trade reporting; DCD references an unnamed 30MW facility leased by Nvidia in Yokne'am); capacity not officially published.",
+  "method_batch": true
+}

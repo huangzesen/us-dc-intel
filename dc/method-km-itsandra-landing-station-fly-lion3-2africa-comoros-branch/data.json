@@ -1,0 +1,21 @@
+{
+  "slug": "method-km-itsandra-landing-station-fly-lion3-2africa-comoros-branch",
+  "canonical_project": "Itsandra landing station (FLY-LION3 + 2Africa Comoros branch)",
+  "owner": "Comores Cables S.A. (FLY-LION3 consortium with Orange/SRR; 2Africa Comoros branch)",
+  "location": {
+    "city": "",
+    "subnational": "Grande Comore",
+    "country": "Comoros",
+    "country_code": "KM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://comorescables.km/",
+    "https://geocables.com/locations/km"
+  ],
+  "notes": "Connectivity site (asset class: cable landing / interconnection anchor, NOT a datacenter). FLY-LION3 (Moroni-Kaweni 400 km) connects at Itsandra station (~2021); 2Africa Comoros branch landed at Itsandra beach 2023-01-12 (Al-Watwan, B). Moroni area hosts 4 cable systems (EASSy ~2012, Avassa 2016, FLY-LION3, 2Africa); Chindini hosts 2. Landing stations only become facility records with server/hosting/colo evidence; none verified beyond the national DC. Mayotte facilities (Kaweni/Mamoudzou) out of scope.",
+  "method_batch": true
+}

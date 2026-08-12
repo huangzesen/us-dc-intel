@@ -1,0 +1,20 @@
+{
+  "slug": "method-tl-prime-minister-s-office-data-center",
+  "canonical_project": "Prime Minister's Office Data Center",
+  "owner": "Government of Timor-Leste (Prime Minister's Office)",
+  "location": {
+    "city": "",
+    "subnational": "Dili",
+    "country": "Timor-Leste",
+    "country_code": "TL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://timor-leste.gov.tl/?lang=en&p=19673&print=1"
+  ],
+  "notes": "Official government release (2018, p=19673) says 12 municipal administrations are being connected through EDTL substations into the Prime Minister's Office Data Center via a government private fiber network contract. Confirmed government DC anchor in Dili; no public MW/specs.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-cm-orange-cameroun-data-center-makepe-douala-5e",
+  "canonical_project": "Orange Cameroun Data Center (Maképé, Douala 5e)",
+  "owner": "Orange Cameroun",
+  "location": {
+    "city": "",
+    "subnational": "Littoral",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://business.orange.cm/fr/mieux-nous-connaitre.html",
+    "https://www.peeringdb.com/fac/10947",
+    "https://www.techafrika.net/Cameroun-Douala-inaugure-le-plus-grand-Data-Center-d-Afrique-Centrale-et-de-l-Ouest_a1265.html",
+    "https://actucameroun.com/2017/05/31/cameroun-telecoms-orange-cameroun-inaugure-son-data-center-dune-valeur-de-16-milliards-de-fcfa-a-douala/"
+  ],
+  "notes": "Littoral / Wouri / Douala 5e / Maképé. Operational since May 2017. A-grade official Orange Business Cameroun page: one 'data center tiers III+' (Orange wording), 3 x 1,050 m2 stages, 340 racks across two white rooms, 24/7 operation, 99.82% availability claim, two separate MV public-grid feeds, two fibre landing points. B-grade press: inaugurated 2017-05-31 at Maképé by PM Philémon Yang (TechAfrika), ~16 bn FCFA investment (ActuCameroun). PeeringDB fac/10947 (Orange Cameroun Datacenter Makepe-Douala). No public MW.",
+  "method_batch": true
+}

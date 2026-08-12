@@ -1,0 +1,22 @@
+{
+  "slug": "method-nf-norfolk-telecom-satellite-backhaul-service-telstra-contract",
+  "canonical_project": "Norfolk Telecom satellite backhaul service (Telstra contract)",
+  "owner": "Norfolk Telecom / Norfolk Island Regional Council with Telstra (satellite backhaul contractor)",
+  "location": {
+    "city": "",
+    "subnational": "Norfolk Island",
+    "country": "Norfolk Island",
+    "country_code": "NF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nirc.gov.au/Your-council/News-Articles/Satellite-Backhaul-Service",
+    "https://minister.infrastructure.gov.au/mcbain/media-release/connecting-norfolk-island",
+    "https://www.nationaltribune.com.au/upgrading-norfolk-island-s-telecommunications/"
+  ],
+  "notes": "Per NF methodology this is telecom_backhaul / satellite connectivity, NOT a commercial datacenter (no colo/rack/hosting service confirmed). NIRC 2026-04-02 official news confirms Telstra satellite backhaul for Norfolk Telecom under a 2023 tender contract (initial term to 2026-01, service level/cost under renegotiation); federal minister release and National Tribune report the satellite network capacity upgrade (~4x). Satellite backhaul bandwidth is connectivity, not DC MW; capacity_mw null.",
+  "method_batch": true
+}

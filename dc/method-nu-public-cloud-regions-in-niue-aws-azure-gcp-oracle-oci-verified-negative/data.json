@@ -1,0 +1,23 @@
+{
+  "slug": "method-nu-public-cloud-regions-in-niue-aws-azure-gcp-oracle-oci-verified-negative",
+  "canonical_project": "Public cloud regions in Niue (AWS/Azure/GCP/Oracle OCI) - verified negative",
+  "owner": "",
+  "location": {
+    "city": "",
+    "subnational": "Niue",
+    "country": "Niue",
+    "country_code": "NU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html",
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+    "https://cloud.google.com/about/locations",
+    "https://www.oracle.com/cloud/public-cloud-regions/"
+  ],
+  "notes": "Verified negative: no AWS Region/Local Zone, Azure region, Google Cloud region or OCI region in Niue per official provider pages (re-checked 2026-08-12). No hyperscale capacity. Recheck official region pages on each refresh.",
+  "method_batch": true
+}

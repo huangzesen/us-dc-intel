@@ -1,0 +1,21 @@
+{
+  "slug": "method-se-atnorth-swe01-stockholm-metro-kista",
+  "canonical_project": "atNorth SWE01 Stockholm metro (Kista)",
+  "owner": "atNorth",
+  "location": {
+    "city": "",
+    "subnational": "Stockholm",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-02-27",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.atnorth.com/nordic-data-centers/sweden-data-centers/stockholm-metro-site/",
+    "https://bebeez.eu/2026/02/27/atnorth-sold-to-equinix-and-cpp-investments-in-4-2bn-deal/"
+  ],
+  "notes": "atNorth official page: SWE01 opened March 2022 in Kista, renewable-powered with heat recovery (colocation/high-density compute). Feb 2026: Equinix and CPP Investments agreed a USD 4.2bn deal to acquire atNorth (Partners Group seller) - ownership context; facility status unchanged.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-pt-rnca-cnca-national-advanced-computing-data-center-guimaraes-univ-minho-azurem-ca",
+  "canonical_project": "RNCA/CNCA National Advanced Computing data center (Guimaraes, Univ. Minho Azurem campus)",
+  "owner": "RNCA / FCCN with University of Minho / DST",
+  "location": {
+    "city": "",
+    "subnational": "Braga",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/portugal-to-host-new-data-center/",
+    "https://www.datacentermap.com/portugal/porto/rnca-guimares/"
+  ],
+  "notes": "National Centre for Advanced Computing (RNCA) data center at Campus de Azurem, Av. da Universidade, Guimaraes (Braga district); public HPC facility supporting the national supercomputing network. DCD reported the project (B); DataCenterMap lists the facility (C). Not commercial colo - institutional HPC. Avoid double counting RNCA/CNCA/UMinho/DST aliases.",
+  "method_batch": true
+}

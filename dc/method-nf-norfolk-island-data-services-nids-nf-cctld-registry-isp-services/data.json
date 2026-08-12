@@ -1,0 +1,21 @@
+{
+  "slug": "method-nf-norfolk-island-data-services-nids-nf-cctld-registry-isp-services",
+  "canonical_project": "Norfolk Island Data Services (NIDS) / .nf ccTLD registry & ISP services",
+  "owner": "Norfolk Island Data Services (NIDS)",
+  "location": {
+    "city": "",
+    "subnational": "Norfolk Island",
+    "country": "Norfolk Island",
+    "country_code": "NF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.iana.org/domains/root/db/nf.htm",
+    "https://www.norfolkislanddataservices.com/"
+  ],
+  "notes": "Registry/ISP service per methodology: IANA records NIDS as .nf ccTLD manager (Norfolk Island address); NIDS also offers internet/VoIP/NBN/Sky Muster-type services. Proves domain/registry/ISP service existence, NOT a local server hall or colocation facility; excluded as DC. Negative baseline for the division (checked 2026-08-12): no AWS/Azure/GCP/OCI region or local zone for Norfolk Island on official provider pages, no IXP, no verified commercial colocation market; SEO 'Norfolk Island data center/VPS' pages are C-grade false positives. No commercial datacenter activity on Norfolk Island.",
+  "method_batch": true
+}

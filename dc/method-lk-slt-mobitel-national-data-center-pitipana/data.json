@@ -1,0 +1,23 @@
+{
+  "slug": "method-lk-slt-mobitel-national-data-center-pitipana",
+  "canonical_project": "SLT-Mobitel National Data Center, Pitipana",
+  "owner": "Sri Lanka Telecom PLC (SLT-Mobitel)",
+  "location": {
+    "city": "",
+    "subnational": "Western Province",
+    "country": "Sri Lanka",
+    "country_code": "LK"
+  },
+  "capacity_mw": 2.5,
+  "status": "operational",
+  "evidence_date": "2018-01-16",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.slt.lk/en/content/slt-gets-go-construct-tier-3-internet-data-center-pitipana",
+    "https://www.slt.lk/en/business/data-center",
+    "https://uptimeinstitute.com/component/tierachievement/client/sri-lanka-telecom-plc/481",
+    "https://www.datacenterdynamics.com/en/news/sri-lanka-telecom-opens-national-data-center/"
+  ],
+  "notes": "SLT official pages: Pitipana-Homagama iDC opened 2018-01-16, 3-storied building of 5,800 sqm, 24 km from SLT HQ Data Center, 500 racks with up to 5 kW per rack (operator-stated A/B); Uptime Institute lists SLT National Data Center Pitipana-Homagama with Tier III Design and Constructed Facility certifications (A); DCD corroborates 500 racks (B). capacity_mw 2.5 is inferred IT load (500 racks x 5 kW) from operator-stated figures; not a published facility MW.",
+  "method_batch": true
+}

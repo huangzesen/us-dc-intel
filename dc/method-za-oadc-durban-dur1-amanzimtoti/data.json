@@ -1,0 +1,22 @@
+{
+  "slug": "method-za-oadc-durban-dur1-amanzimtoti",
+  "canonical_project": "OADC Durban (DUR1, Amanzimtoti)",
+  "owner": "Open Access Data Centres (OADC) / WIOCC Group",
+  "location": {
+    "city": "",
+    "subnational": "KwaZulu-Natal - eThekwini Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": 4,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/systems/asia-europe-africa/2africa/wiocc-lands-2africa-cable-into-oadc-durban-data-center",
+    "https://www.ocolo.io/colocation/open-access-data-centers/oadc-amanzimtoti-dur1/",
+    "https://openaccessdc.net/hyperscale-data-centres"
+  ],
+  "notes": "OADC Durban DUR1 at Arbour Junction 2, Arbour Road, Amanzimtoti (20km south of Durban CBD, eThekwini) - carrier-neutral Tier III-designed facility, 4,200 sq m with ~2,000 sq m IT white space; went live April 2022 with 4MW power capacity; serves as the Durban landing station for the 2Africa subsea cable (landed by WIOCC, one of 2Africa's four SA landings: Yzerfontein, Duynefontein, Gqeberha, Amanzimtoti). OADC hyperscale page confirms landing-station DC role.",
+  "method_batch": true
+}

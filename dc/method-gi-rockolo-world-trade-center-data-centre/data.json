@@ -1,0 +1,22 @@
+{
+  "slug": "method-gi-rockolo-world-trade-center-data-centre",
+  "canonical_project": "Rockolo World Trade Center Data Centre",
+  "owner": "Gibtelecom (Rockolo subsidiary)",
+  "location": {
+    "city": "",
+    "subnational": "Gibraltar",
+    "country": "Gibraltar",
+    "country_code": "GI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/gibraltar-gets-a-new-colocation-provider/",
+    "https://www.datacentermap.com/gibraltar/gibraltar/world-trade-center/",
+    "https://datamove.co.uk/services/migration-and-relocation/data-centre-relocation-gibraltar/"
+  ],
+  "notes": "Rockolo (Gibtelecom) opened a second Gibraltar facility in the World Trade Center (Feb 2017); DCD reported Mount Pleasant and WTC together provided ~17,200 sq ft of data centre space; GibFibre legal filings also name the WTC data centre. Round-one verified lead re-checked.",
+  "method_batch": true
+}

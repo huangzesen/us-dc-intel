@@ -1,0 +1,21 @@
+{
+  "slug": "method-it-namex-bari-data-center-ixp-pop",
+  "canonical_project": "Namex Bari data center / IXP PoP",
+  "owner": "Namex",
+  "location": {
+    "city": "",
+    "subnational": "Apulia",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/italy/bari/namex-bari/",
+    "https://www.namex.it/datacenters/"
+  ],
+  "notes": "Namex Bari at Viale Donato De Leonardis 19 - Adriatic/Mediterranean-facing interconnection hub (IXP/edge colo). Directory-grade; Namex official site confirms multi-site datacenter system.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-ua-gigacenter-data-center",
+  "canonical_project": "GigaCenter Data Center",
+  "owner": "GIGAGROUP (with GigaTrans telecom and GigaCloud cloud)",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv City",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://gigacenter.ua/en/about",
+    "https://itcluster.lviv.ua/en/gigacloud-and-gigacenter-have-passed-the-pci-dss-certification/",
+    "https://www.linkedin.com/company/giga-center/"
+  ],
+  "notes": "Official GigaCenter page states built to TIER III requirements and TIA 942 standard; part of GIGAGROUP with GigaCloud, Ukraine's largest cloud operator. LinkedIn profile: ~1,200 m2 area, ~300 cabinets. PCI DSS certification passed (Lviv IT Cluster news). Capacity MW not disclosed (area/cabinets only).",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-be-etix-everywhere-belgium-dc-belgiumdc",
+  "canonical_project": "Etix Everywhere Belgium DC (BelgiumDC)",
+  "owner": "Etix Everywhere",
+  "location": {
+    "city": "",
+    "subnational": "Wallonia",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.etixeverywhere.com/etix-belgium/",
+    "https://www.datacenterdynamics.com/en/news/etix-everywhere-and-nrb-partner-on-data-center-in-belgium/"
+  ],
+  "notes": "Rue de la Science 3, 4530 Villers-le-Bouillet (Liege region). ~900 m2 colocation built with NRB (BelgiumDC project, 2018); ~2 MW power per directory (datacenters.com, C). Likely same campus as Wallonie Data Center - reconcile to avoid double counting.",
+  "method_batch": true
+}

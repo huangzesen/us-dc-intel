@@ -1,0 +1,22 @@
+{
+  "slug": "method-bf-government-cloud-modular-data-centers-x2",
+  "canonical_project": "Government Cloud modular data centers (x2)",
+  "owner": "Government of Burkina Faso / MTDPCE / ANPTIC",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Burkina Faso",
+    "country_code": "BF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://anptic.gov.bf/actualites/lanptic-tient-sa-1ere-session-ordinaire-du-conseil-dadministration-de-lannee-2026/",
+    "https://www.datacenterdynamics.com/en/news/govt-of-burkina-faso-launches-two-mini-data-centers-to-support-data-sovereignty/",
+    "https://beninwebtv.com/deux-mini-centres-de-donnees-lances-pour-renforcer-la-souverainete-des-donnees-au-burkina-faso/"
+  ],
+  "notes": "Two government modular data centers in Ouagadougou (Centre/Kadiogo), inaugurated 2026-01-23 under the data-sovereignty program; ANPTIC board session confirms the January 2026 inauguration. Combined reported capacity ~3 PB storage, 105.6 TB RAM, 28,800 CPU cores, 7,000+ VMs; ~15.2-16 bn FCFA; 5-10 days energy autonomy. Exact physical addresses not public; two sites represented as one project pending address confirmation.",
+  "method_batch": true
+}

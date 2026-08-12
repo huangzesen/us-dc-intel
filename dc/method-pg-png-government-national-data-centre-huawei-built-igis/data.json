@@ -1,0 +1,21 @@
+{
+  "slug": "method-pg-png-government-national-data-centre-huawei-built-igis",
+  "canonical_project": "PNG Government National Data Centre (Huawei-built, IGIS)",
+  "owner": "Government of PNG / Huawei (built c.2018)",
+  "location": {
+    "city": "",
+    "subnational": "National Capital District",
+    "country": "Papua New Guinea",
+    "country_code": "PG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/australia-huaweis-papua-new-guinea-data-center-security-openly-broken-making-potential-spying-easy/",
+    "https://skillicorn.wordpress.com/tag/papua-new-guinea/"
+  ],
+  "notes": "Government data repository/operations centre built by Huawei, opened c.2018 in Port Moresby (NCD); DCD reported serious security/maintenance failures in 2020. Current operational status/quality uncertain - verify against current DICT/GovCloud documents before marking fully active. B-grade trade press evidence; capacity not published (null).",
+  "method_batch": true
+}

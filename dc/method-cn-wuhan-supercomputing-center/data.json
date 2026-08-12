@@ -1,0 +1,20 @@
+{
+  "slug": "method-cn-wuhan-supercomputing-center",
+  "canonical_project": "Wuhan Supercomputing Center (武汉超算中心)",
+  "owner": "Wuhan East Lake High-tech Zone / state operators",
+  "location": {
+    "city": "",
+    "subnational": "Hubei - Wuhan Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.wuhan.gov.cn/sy/whyw/202404/t20240407_2384744.shtml"
+  ],
+  "notes": "Located adjacent to Wuhan AI Computing Center, forming the city dual-compute center; operational per Wuhan gov portal 2024-04-07 report. Capacity MW not disclosed in source.",
+  "method_batch": true
+}

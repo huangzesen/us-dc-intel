@@ -1,0 +1,21 @@
+{
+  "slug": "method-sk-perun-supercomputer-csc-sav",
+  "canonical_project": "PERUN supercomputer (CSC SAV)",
+  "owner": "SAV / Eviden (Atos group)",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-04-27",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sav.sk/?lang=sk&doc=services-news&source_no=20&news_no=13312",
+    "https://www.ta3.com/clanok/1046525/sav-spustila-narodny-superpocitac-perun-nova-infrastruktura-ma-vyrazne-posilnit-vedu-inovacie-aj-stat"
+  ],
+  "notes": "public_HPC_research class (not commercial colo). PERUN (14.5 PFLOP/s) delivered 2025-12-18 to Centre of Common Activities of SAV, Bratislava (official SAV news); launched 27 April 2026 per TASR/ta3; forms one integrated national HPC system with the Kosice TUKE component; Eviden supplier per 2025-05 press.",
+  "method_batch": true
+}

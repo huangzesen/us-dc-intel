@@ -1,0 +1,21 @@
+{
+  "slug": "method-no-green-mountain-tel-rjukan-tinn",
+  "canonical_project": "Green Mountain TEL-Rjukan (Tinn)",
+  "owner": "Green Mountain AS",
+  "location": {
+    "city": "",
+    "subnational": "Vestfold and Telemark",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": 50,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://greenmountain.no/data-center/tel-rjukan/",
+    "https://www.datacenterdynamics.com/en/news/green-mountain-expanding-rjukan-data-center-campus-again/"
+  ],
+  "notes": "Modular colocation campus at Svaddevegen 161, Rjukan (Tinn); 29,000 m2 with 50 MW site capacity (2 MW modules combinable to Tier III 10 MW or Tier 1 up to 35 MW); repeated campus expansions (DCD). A for operator site; 50 MW is marketed site capacity.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-bi-lacell-su-smart-burundi-data-center",
+  "canonical_project": "Lacell SU / Smart Burundi data center",
+  "owner": "Lacell SU Burundi (Smart Burundi)",
+  "location": {
+    "city": "",
+    "subnational": "Bujumbura Mairie",
+    "country": "Burundi",
+    "country_code": "BI"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://colo.exchange/data-centers/lacell-su-smart-burundi",
+    "https://inflect.com/building/boulevard-de-lindependance-bujumbura/lacell-su/datacenter/burundi"
+  ],
+  "notes": "Directories list a Bujumbura facility (Boulevard de l'Independance) operated by Lacell SU / Smart Burundi. Status unknown: Smart's telecom operation was shut down in 2022 per public records while facility directories still list the site. C-grade directory evidence only.",
+  "method_batch": true
+}

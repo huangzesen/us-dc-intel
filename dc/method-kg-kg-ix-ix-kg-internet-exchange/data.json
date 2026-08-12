@@ -1,0 +1,20 @@
+{
+  "slug": "method-kg-kg-ix-ix-kg-internet-exchange",
+  "canonical_project": "KG-IX / IX.KG internet exchange",
+  "owner": "KG-IX LLC",
+  "location": {
+    "city": "",
+    "subnational": "Bishkek",
+    "country": "Kyrgyzstan",
+    "country_code": "KG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.peeringdb.com/ix/2145"
+  ],
+  "notes": "PeeringDB record (A) for KG-IX Bishkek: 22 peers, 29 connections, ~1.0 Tbps total capacity; KG-IX LLC at Razzakova 55, Bishkek (RIPE LIR). Internet exchange/interconnection facility at Bishkek, not a colocation data centre; recorded for interconnection completeness.",
+  "method_batch": true
+}

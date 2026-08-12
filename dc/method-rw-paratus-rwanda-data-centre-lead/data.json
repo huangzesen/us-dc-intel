@@ -1,0 +1,21 @@
+{
+  "slug": "method-rw-paratus-rwanda-data-centre-lead",
+  "canonical_project": "Paratus Rwanda data centre (lead)",
+  "owner": "Paratus Telecom",
+  "location": {
+    "city": "",
+    "subnational": "City of Kigali",
+    "country": "Rwanda",
+    "country_code": "RW"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "U",
+  "sources": [
+    "https://datacenterplanet.com/listings/paratus-rwanda-data-centre-kigali",
+    "https://paratus.africa/blog/paratus-lights-up-new-east-africa-fiber-highway-linking-goma-to-mombasa/"
+  ],
+  "notes": "Aggregator listing 'Paratus Rwanda Data Centre Kigali'; Paratus official 2026 Goma-Mombasa fibre route announcement runs via Kigali with Paratus Rwanda licensed, but official data-centre menu lists Angola/Namibia/Zambia, not Rwanda. Connectivity/PoP lead, not confirmed DC - U per methodology.",
+  "method_batch": true
+}

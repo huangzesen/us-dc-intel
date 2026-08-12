@@ -1,0 +1,20 @@
+{
+  "slug": "method-ru-rtk-dc-khabarovsk-data-center",
+  "canonical_project": "RTK-DC Khabarovsk data center",
+  "owner": "RTK-DC (Rostelecom data center cluster)",
+  "location": {
+    "city": "",
+    "subnational": "Khabarovsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 4,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://ict-dv.ru/news/RTK-TSOD-postroit-data-tsentr-v-Khabarovskom-kraye-296280"
+  ],
+  "notes": "Planned RTK-DC data center in Khabarovsk Krai: 4 machine halls, 440 rack places, 4 MW supplied power; design to start 2025, commissioning planned Q3 2027.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-rw-raxio-rw1-kigali-lead",
+  "canonical_project": "Raxio RW1 Kigali (lead)",
+  "owner": "Raxio Group",
+  "location": {
+    "city": "",
+    "subnational": "City of Kigali",
+    "country": "Rwanda",
+    "country_code": "RW"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "U",
+  "sources": [
+    "https://datacenterplanet.com/listings/raxio-rw1-kigali-rwanda",
+    "https://www.raxiogroup.com/data-centres/"
+  ],
+  "notes": "Aggregator-only listing 'Raxio RW1 - Rwanda's first carrier-neutral Tier III-designed data centre' (Gasabo, Kigali); Raxio official data-centres page does NOT list Rwanda (only Angola, Cote d'Ivoire, DRC, Ethiopia, Mozambique, Tanzania, Uganda). Unverified lead - keep U until Raxio/RURA/primary press confirms per methodology.",
+  "method_batch": true
+}

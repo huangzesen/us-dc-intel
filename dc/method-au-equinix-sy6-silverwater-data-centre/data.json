@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-equinix-sy6-silverwater-data-centre",
+  "canonical_project": "Equinix SY6 (Silverwater) Data Centre",
+  "owner": "Equinix (formerly Metronode Sydney 2)",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Parramatta",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 4.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://marketplace.upstack.com/data-centers/equinix-data-center-sydney-sy6",
+    "https://qmaxpumping.com.au/project/silverwater-data-centre-equinix-sy6-stage-2-3/",
+    "https://dcpulse.com/project/equinix-sy6-sydney-data-center"
+  ],
+  "notes": "Equinix SY6 is a modular BladeRoom-format facility in Silverwater (City of Parramatta LGA), formerly Metronode Sydney 2; Stage 2/3 mechanical works dated June 2022; ~4MW reported by DCPulse. Only concrete datacentre facility identified in Parramatta LGA (Silverwater suburb; LGA boundary with Cumberland should be re-checked if precise siting matters).",
+  "method_batch": true
+}

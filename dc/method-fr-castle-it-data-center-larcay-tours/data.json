@@ -1,0 +1,20 @@
+{
+  "slug": "method-fr-castle-it-data-center-larcay-tours",
+  "canonical_project": "Castle IT data center Larçay (Tours)",
+  "owner": "Castle IT",
+  "location": {
+    "city": "",
+    "subnational": "Indre-et-Loire",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://castle-it.fr/dclarcay"
+  ],
+  "notes": "IaaS hosting data center at Larçay near Tours (Indre-et-Loire, 37) per operator page; serves reseller network; capacity not disclosed.",
+  "method_batch": true
+}

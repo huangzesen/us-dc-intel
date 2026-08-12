@@ -1,0 +1,21 @@
+{
+  "slug": "method-cz-cra-dc-pardubice-regional",
+  "canonical_project": "CRA DC Pardubice (regional)",
+  "owner": "Ceske Radiokomunikace a.s.",
+  "location": {
+    "city": "",
+    "subnational": "Pardubice",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cra.cz/ict-solutions/data-centres",
+    "https://www.datacenters.com/providers/ceske-radiokomunikace/locations/czechia/pardubice-region"
+  ],
+  "notes": "CRA official data-centres page lists regional data centres in Brno, Zlin, Pardubice, Ostrava and Luzice; Datacenters.com lists a CRA data center in Pardubice Region. A for official operator footprint.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-kh-bytedc-data-center-phnom-penh-city-center-ppcc",
+  "canonical_project": "ByteDC Data Center (Phnom Penh City Center / PPCC)",
+  "owner": "ByteDC Solutions / Urban Data Center Co., Ltd (Bytedc (KH) Co., Ltd)",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/bytedc-phnom-penh-city-center-ppcc-data-center/1725",
+    "https://bytedc.co/about-us",
+    "https://www.datacenterdynamics.com/en/news/bytedc-launches-cambodia-data-center/",
+    "https://cambodiainvestmentreview.com/2024/02/08/bytedc-data-center-bolstering-cambodias-digital-infrastructure-with-tier-3-data-protection/"
+  ],
+  "notes": "Cambodia's first Uptime Tier III certified (design) carrier-neutral data center, inaugurated 2023-05-11. Up to 3 MW IT capacity (DCD, B), ~81,040 sq ft built-up floor space, ~1,000 racks, at Phnom Penh City Center (Land 356 Street R-4, Srah Chork, Daun Penh). Uptime award record (A) for facility identity; capacity claim per DCD/trade press.",
+  "method_batch": true
+}

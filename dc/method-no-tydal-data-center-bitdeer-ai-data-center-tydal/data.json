@@ -1,0 +1,22 @@
+{
+  "slug": "method-no-tydal-data-center-bitdeer-ai-data-center-tydal",
+  "canonical_project": "Tydal Data Center / Bitdeer AI data center (Tydal)",
+  "owner": "Tydal Data Center AS (Bitdeer subsidiary; DCI contractor; Volta colo lease)",
+  "location": {
+    "city": "",
+    "subnational": "Trondelag",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": 180,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://blockspace.media/insight/bitdeer-taps-dci-to-build-180-mw-ai-data-center-in-norway/",
+    "https://www.datacenter-forum.com/datacenter-forum/tydal-data-center-and-dci-to-develop-180-mw-ai-data-center-in-norway",
+    "https://aiineurope.co/sectors/volta-bitdeer-norway-tydal-ai-factory-europe-compute-2026-08-06"
+  ],
+  "notes": "Conversion of former Bitcoin-mine facility into 180 MW gross AI data center (NVIDIA Vera Rubin reference design; ~121 MW IT capacity per Volta lease reporting), completion targeted Dec 2026; Nkom lists TYDAL DATA CENTER AS. B (trade press) until Tydal/NVE/Statsforvalteren permit records captured.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-mv-dhiraagu-hulhumale-data-center",
+  "canonical_project": "Dhiraagu Hulhumale Data Center",
+  "owner": "Dhivehi Raajjeyge Gulhun PLC (Dhiraagu)",
+  "location": {
+    "city": "",
+    "subnational": "Male Atoll",
+    "country": "Maldives",
+    "country_code": "MV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/dhiraagu-hulhumale-data-center-/2016",
+    "https://www.dhiraagu.com.mv/about-us/corporate-information/milestones-and-achievements",
+    "https://www.datacenterdynamics.com/en/news/dhiraagu-launches-hulhumal%C3%A9-data-center-in-the-maldives/"
+  ],
+  "notes": "Maldives' first and only Uptime Tier IV certified data centre (Certification of Constructed Facility per Dhiraagu official milestones page and Uptime Institute award list for Dhiraagu Hulhumale Data Center, Dhivehi Raajjeyge Gulhun PLC), located at Lot 21563 Dhunburigas Magu, Hulhumale; DCD reported launch. Tier IV certification is a reliability/design signal, not an IT-load figure - no public MW disclosed, capacity_mw null.",
+  "method_batch": true
+}

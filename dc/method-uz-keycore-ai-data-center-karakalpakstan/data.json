@@ -1,0 +1,20 @@
+{
+  "slug": "method-uz-keycore-ai-data-center-karakalpakstan",
+  "canonical_project": "Keycore AI Data Center (Karakalpakstan)",
+  "owner": "Keycore",
+  "location": {
+    "city": "",
+    "subnational": "Karakalpakstan",
+    "country": "Uzbekistan",
+    "country_code": "UZ"
+  },
+  "capacity_mw": 16.0,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/keycore-plans-data-center-in-uzbekistan/"
+  ],
+  "notes": "DCD (2024-12) reported Keycore's planned AI data center in Karakalpakstan would host Nvidia H200 servers consuming more than 16 MW. Planned lead; capacity is stated consumption, not confirmed IT load; no official corroboration found.",
+  "method_batch": true
+}

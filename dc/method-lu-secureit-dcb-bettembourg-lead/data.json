@@ -1,0 +1,22 @@
+{
+  "slug": "method-lu-secureit-dcb-bettembourg-lead",
+  "canonical_project": "SecureIT DCB (Bettembourg) - lead",
+  "owner": "SecureIT S.A. (owned by Colony; ex-Genii Capital)",
+  "location": {
+    "city": "",
+    "subnational": "Esch-sur-Alzette",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://itnation.lu/news/genii-capital-sells-secureit-to-colony/",
+    "https://www.datacenterjournal.com/secureit-s-a/",
+    "https://www.datacentermap.com/luxembourg/luxembourg/data4-luxembourg/"
+  ],
+  "notes": "SecureIT reported to operate ~4 data centers in Luxembourg (DCC city, DCB Bettembourg, DCR Bissen); ownership moved Genii Capital -> Colony (US RE fund) per ITnation; DataCenterJournal lists 4 DCs in Luxembourg City. Directory/trade-level lead - requires operator page/LBR/permit confirmation before final count.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-at-brz-bundesrechenzentrum-federal-datacenter",
+  "canonical_project": "BRZ Bundesrechenzentrum (federal datacenter)",
+  "owner": "Bundesrechenzentrum GmbH (BRZ)",
+  "location": {
+    "city": "",
+    "subnational": "Vienna",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.brz.gv.at/",
+    "https://www.brz.gv.at/kontakt.html"
+  ],
+  "notes": "BRZ official pages: federal IT service provider based at Hintere Zollamtsstrasse 4, 1030 Vienna, operating one of Austria's largest datacenter environments for public administration (federal government datacenter, not commercial colo).",
+  "method_batch": true
+}

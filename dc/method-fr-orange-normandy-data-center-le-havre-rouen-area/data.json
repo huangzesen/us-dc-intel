@@ -1,0 +1,20 @@
+{
+  "slug": "method-fr-orange-normandy-data-center-le-havre-rouen-area",
+  "canonical_project": "Orange Normandy data center (Le Havre/Rouen area)",
+  "owner": "Orange",
+  "location": {
+    "city": "",
+    "subnational": "Seine-Maritime",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.normandinamik.cci.fr/un-nouveau-data-center-pour-orange-en-normandie/"
+  ],
+  "notes": "Orange announced one of three new French data centers in Normandy (CCI article references Le Havre and Rouen), part of a consolidation replacing 10 legacy energy-intensive sites; exact commune not yet specified - likely Seine-Maritime.",
+  "method_batch": true
+}

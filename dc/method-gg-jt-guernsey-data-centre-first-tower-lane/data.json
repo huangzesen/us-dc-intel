@@ -1,0 +1,22 @@
+{
+  "slug": "method-gg-jt-guernsey-data-centre-first-tower-lane",
+  "canonical_project": "JT Guernsey Data Centre (First Tower Lane)",
+  "owner": "JT (Guernsey) Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Guernsey",
+    "country": "Guernsey",
+    "country_code": "GG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://business.jtglobal.com/products/cloud/data-centres/",
+    "https://www.datacentermap.com/guernsey/st-peter-port/wave-telecom---first-tower-lane-dc/",
+    "https://datacentercatalog.com/guernsey/jt-first-tower-lane-data-center"
+  ],
+  "notes": "JT official page (browsed 2026-08-12) confirms primary data centre sites in Jersey and Guernsey, ISO/IEC 27001, PCI-DSS and SOC2 certified, redundant generator backup (min 72-hour diesel) and N+N air conditioning - A-grade for Guernsey service existence. Address First Tower Lane, St Peter Port GY1 2RZ and Tier 2 classification are catalog-grade C; JT discloses no Guernsey-specific MW, so capacity kept null.",
+  "method_batch": true
+}

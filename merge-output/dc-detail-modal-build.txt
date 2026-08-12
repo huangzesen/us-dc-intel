@@ -1,0 +1,56 @@
+GRIDWATCH Astro — DC detail modal build result
+===============================================
+
+Date: 2026-08-12 (run em-3186)
+File modified: /Users/huangzesen/work/projects/us-dc-intel/astro/src/pages/index.astro (only file changed)
+
+BUILD: PASS (exit code 0)
+
+Command: cd /Users/huangzesen/work/projects/us-dc-intel/astro && npm run build
+
+Full build output:
+
+> gridwatch-us-dc-intel@0.0.1 build
+> astro build
+
+00:41:24 [types] Generated 59ms
+00:41:24 [build] output: "static"
+00:41:24 [build] mode: "static"
+00:41:24 [build] directory: /Users/huangzesen/work/projects/us-dc-intel/astro/dist/
+00:41:24 [build] Collecting build info...
+00:41:24 [build] ✓ Completed in 67ms.
+00:41:24 [build] Building static entrypoints...
+00:41:24 [vite] ✓ built in 245ms
+00:41:24 [vite] ✓ built in 13ms
+00:41:24 [build] Rearranging server assets...
+
+ generating static routes
+00:41:24   └─ /index.html (+66ms)
+00:41:25 ✓ Completed in 73ms.
+
+00:41:25 [build] ✓ Completed in 357ms.
+00:41:25 [build] 1 page(s) built in 427ms
+00:41:25 [build] Complete!
+BUILD_EXIT=0
+
+No errors, no warnings.
+
+Post-build validation (all passed):
+- dist/index.html contains id="dcModal" modal markup (hidden by default).
+- dist/index.html contains <script id="gw-meta" type="application/json"> with 1026 slug→metadata entries; JSON parses cleanly.
+- dist/index.html contains gw-data with 4370 centers incl. slug/est fields.
+- Modal/estbadge CSS bundled into dist/_astro/index.CD2Ux3g0.css (13 dc-modal rules, 1 estbadge rule).
+- Inline page script syntax checked with `node --check` → SYNTAX_OK.
+- data-slug + style="cursor:pointer" present in renderTable template.
+
+Note: embedding dc-metadata.json (1.7 MB) as requested grows dist/index.html to ~3.6 MB (gw-data ~2 MB + gw-meta ~1.7 MB).
+
+Changes made (single file: astro/src/pages/index.astro):
+1. Frontmatter: added `import dcMeta from "../data/dc-metadata.json";` and `const dcMetaJson = JSON.stringify(dcMeta).replace(/</g, "\u003c");`; new <script id="gw-meta" type="application/json" set:html={dcMetaJson}> tag; `const DC_META = JSON.parse(...)` in the inline script.
+2. renderTable(): <tr> now gets data-slug="..." and style="cursor:pointer"; project cell shows a `~est`/`~估` badge (I18N.dc.estBadge) with tooltip when c.est is true.
+3. New openDcDetail(slug, row) + closeDcModal(): builds a modal from DC_META[slug] (canonical_project, owner, capacity, status, location, evidence_grade, evidence_date, evidence, sources as <a> links, notes); falls back to row base fields (project/developer/capacity/status/country/subnational/evidence) with a bilingual "no detail record" note when slug is empty or not in DC_META. statusLabel() maps full-word/free-text metadata statuses to existing I18N status labels.
+4. Modal HTML at end of body (hidden default): overlay + centered panel, close button, backdrop, Escape key; styles use existing CSS variables, added before </style>.
+5. Event binding: delegated click on #tbody -> closest('tr[data-slug]') -> openDcDetail; close via delegated [data-dc-close] and Escape keydown.
+6. Bilingual labels added to I18N.dc (capacity/status/owner/developer/location/evidence/evidenceGrade/evidenceDate/sources/notes/noDetail/estBadge/estTitle).
+
+No files deleted; no commit; no push.

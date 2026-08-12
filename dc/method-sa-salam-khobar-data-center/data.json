@@ -1,0 +1,21 @@
+{
+  "slug": "method-sa-salam-khobar-data-center",
+  "canonical_project": "Salam Khobar Data Center",
+  "owner": "Salam (Integrated Telecom Company)",
+  "location": {
+    "city": "",
+    "subnational": "Eastern Province - Al Khubar",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://salam.sa/en/slm/achievements",
+    "https://www.datacentermap.com/c/integrated-telecom-company-ltd/"
+  ],
+  "notes": "Salam's official achievements page states it received Uptime Institute Tier III certification for the Khobar Data Center, confirming an operational Salam/ITC facility in Al Khobar. DataCenterMap lists Salam with 3 Saudi data centers. Capacity not publicly disclosed (null).",
+  "method_batch": true
+}

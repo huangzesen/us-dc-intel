@@ -1,0 +1,22 @@
+{
+  "slug": "method-pk-data-vault-pakistan-ai-data-centre-karachi",
+  "canonical_project": "Data Vault Pakistan AI Data Centre (Karachi)",
+  "owner": "Data Vault Pakistan / Telenor Pakistan partnership",
+  "location": {
+    "city": "",
+    "subnational": "Sindh",
+    "country": "Pakistan",
+    "country_code": "PK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://sifc.gov.pk/news/636",
+    "https://datavault.com.pk/",
+    "https://startup.pk/sky47s-karakoram-01-inside-pakistans-largest-data-centre-and-the-contested-claim-behind-it/"
+  ],
+  "notes": "Pakistan's first AI-focused data centre, launched in Karachi (SIFC-facilitated; market reports date launch to June 2025). Telenor Pakistan partnered (Nov 2025) to deliver Pakistan's first locally hosted sovereign AI cloud on the facility; Data Vault also partners with Rafay on a hyperscale-style sovereign AI platform on NVIDIA-accelerated computing. Marketing claims of 'first/largest/100% solar' recorded as operator wording; capacity not disclosed.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-lt-telecentras-colocation-dc-tv-tower-area",
+  "canonical_project": "Telecentras Colocation DC (TV tower area)",
+  "owner": "Telecentras (AB Lietuvos radijo ir televizijos centras)",
+  "location": {
+    "city": "",
+    "subnational": "Vilnius County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://telecentras.lt/",
+    "https://telecentras.lt/paslaugos/kolokacijos-paslaugos/",
+    "https://telecentras.lt/paslaugu-kategorija/duomenu-centro-it/"
+  ],
+  "notes": "Operator markets Tier III colocation/hosting in Vilnius (public pivot Sausio 13-osios g. 10 near TV tower); homepage claims 4+ data centers. Confidential state sites not inferred.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-to-government-data-center-containerized-data-centre-tonga-digital-government",
+  "canonical_project": "Government Data Center / containerized data centre (Tonga Digital Government)",
+  "owner": "Government of Tonga (PMO / Digital Transformation Department), implemented with World Bank Tonga Digital Government Support Project (P154943) support and local telecom partners",
+  "location": {
+    "city": "",
+    "subnational": "Tongatapu",
+    "country": "Tonga",
+    "country_code": "TO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-06-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://pmo.gov.to/clarification-on-government-data-hosting-and-the-new-government-portal/",
+    "https://documents1.worldbank.org/curated/en/473751557713173311/txt/Tonga-Digital-Government-Support-Project.txt"
+  ],
+  "notes": "PMO clarification (10 Jun 2025) states government data remains hosted at the Tonga Government Data Center; World Bank P154943 documentation describes the containerized data centre and disaster-recovery infrastructure for Tonga's digital government platform. Public-sector internal facility (government_internal_data_center), NOT commercial colocation; location defaulted to Tongatapu/Nuku'alofa; no public IT-load/capacity figure.",
+  "method_batch": true
+}

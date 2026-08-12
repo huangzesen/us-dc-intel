@@ -1,0 +1,20 @@
+{
+  "slug": "method-de-wzek-data-center-montabaur",
+  "canonical_project": "WZEK Data Center Montabaur",
+  "owner": "WZEK GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Rhineland-Palatinate - Westerwaldkreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.wezek.de/data-center-montabaur"
+  ],
+  "notes": "Local IT provider offering data-center/colo services in Montabaur; vendor page claims redundant power, cooling and network. Small facility; no MW data.",
+  "method_batch": true
+}

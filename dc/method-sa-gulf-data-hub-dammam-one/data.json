@@ -1,0 +1,21 @@
+{
+  "slug": "method-sa-gulf-data-hub-dammam-one",
+  "canonical_project": "Gulf Data Hub Dammam One",
+  "owner": "Gulf Data Hub (GDH)",
+  "location": {
+    "city": "",
+    "subnational": "Eastern Province - Ad Dammam",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 16,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://gulfdatahub.ae/locations",
+    "https://www.datacentermap.com/saudi-arabia/dammam/gulf-data-hub-dammam/"
+  ],
+  "notes": "GDH official locations page states Dammam One, with 16 MW IT capacity, is operational, with three additional Dammam centers planned for development. DatacenterMap places the facility within Dammam 2nd Industrial City. Grade A for official operator location statement; capacity is operator-stated (per methodology, operator capacity = B unless phase-specific).",
+  "method_batch": true
+}

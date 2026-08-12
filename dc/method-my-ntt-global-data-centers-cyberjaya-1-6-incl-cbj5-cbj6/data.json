@@ -1,0 +1,21 @@
+{
+  "slug": "method-my-ntt-global-data-centers-cyberjaya-1-6-incl-cbj5-cbj6",
+  "canonical_project": "NTT Global Data Centers Cyberjaya 1-6 (incl. CBJ5/CBJ6)",
+  "owner": "NTT Global Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Selangor",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": 12,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/asia-pacific/cyberjaya-data-centers",
+    "https://greenwich.com.sg/2025/10/07/de-cix-malaysia-expands-footprint-with-availability-with-ntt-data/"
+  ],
+  "notes": "NTT operates Cyberjaya data centres (1-6); Cyberjaya 5 lists ~12 MW critical IT load (methodology-verified); DE-CIX Malaysia expanded availability into NTT's Cyberjaya DC (Oct 2025), confirming operations. Capacity figure is per-facility (CBJ5) - campus total not aggregated.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-lu-luxprovide-meluxina-supercomputer-bissen",
+  "canonical_project": "LuxProvide MeluXina supercomputer (Bissen)",
+  "owner": "LuxProvide (national HPC org)",
+  "location": {
+    "city": "",
+    "subnational": "Mersch",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.luxprovide.lu/meluxina/",
+    "https://datacenterindex.ai/projects/meluxina-ai-supercomputer-luxembourg",
+    "https://en.paperjam.lu/article/bissen-a-constantly-evolving-data-center"
+  ],
+  "notes": "National HPC (MeluXina) operational since 2021, hosted in Bissen within LuxConnect ecosystem; ~3 MW AI DC per directory (C); AI Factory next-gen MeluXina preparation ongoing in LuxConnect Bissen (2025 results). HPC anchor load, not public colo.",
+  "method_batch": true
+}

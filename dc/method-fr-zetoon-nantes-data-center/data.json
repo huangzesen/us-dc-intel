@@ -1,0 +1,20 @@
+{
+  "slug": "method-fr-zetoon-nantes-data-center",
+  "canonical_project": "Zetoon Nantes data center",
+  "owner": "Zetoon",
+  "location": {
+    "city": "",
+    "subnational": "Loire-Atlantique",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.gridreadiness.com/datacenters/zetoon-nantes"
+  ],
+  "notes": "GridReadiness aggregator lists Zetoon Nantes as a 3 MW Tier III data center in Nantes (44), subject to RTE connection rules; aggregator-grade lead pending operator-page verification.",
+  "method_batch": true
+}

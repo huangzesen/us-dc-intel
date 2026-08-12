@@ -1,0 +1,22 @@
+{
+  "slug": "method-in-ctrls-patna-edge-dc-1-patliputra-industrial-area",
+  "canonical_project": "CtrlS Patna Edge DC 1 (Patliputra Industrial Area)",
+  "owner": "CtrlS Datacenters Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Bihar - Patna",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ctrls.com/patna-datacenter/",
+    "https://www.ocolo.io/colocation/ctrls/patna-dc1/",
+    "https://www.datacentermap.com/india/patna/ctrls-patna-edge-dc1/"
+  ],
+  "notes": "CtrlS official Patna page lists Patna Edge DC 1 with 109 racks and 0.50 MW IT load, carrier-neutral, in the Patliputra Industrial Area; OCOLO/datacentermap list it as a 150-rack edge facility. CtrlS's first facility in Bihar; live edge operations confirmed by CtrlS. Capacity 0.5 MW IT load per official page.",
+  "method_batch": true
+}

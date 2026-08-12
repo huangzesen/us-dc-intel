@@ -1,0 +1,22 @@
+{
+  "slug": "method-kg-nsp-data-center-network-servers-power-colocation",
+  "canonical_project": "NSP Data Center (Network/Servers/Power colocation)",
+  "owner": "NSP LLC",
+  "location": {
+    "city": "",
+    "subnational": "Chuy",
+    "country": "Kyrgyzstan",
+    "country_code": "KG"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.rackcorp.com/ru/network/datacenters/kyrgyzstan/nsp/",
+    "https://nsp.kg/index.eng.html",
+    "https://www.trend.az/casia/kyrgyzstan/2857246.html"
+  ],
+  "notes": "RackCorp page (B) and NSP site describe a commercial colocation/cloud data centre in Chuy Region (Bishkek area), operator since 2003; Trend (B) reported the NSP-built facility opened Feb 2018 with 80 racks, 500 sqm, 300 kW initial electrical power expandable to 500 kW. Capacity recorded as 0.5 MW (electrical, per press); RackCorp markets international access.",
+  "method_batch": true
+}

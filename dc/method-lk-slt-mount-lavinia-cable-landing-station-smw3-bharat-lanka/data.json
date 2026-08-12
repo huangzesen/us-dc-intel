@@ -1,0 +1,21 @@
+{
+  "slug": "method-lk-slt-mount-lavinia-cable-landing-station-smw3-bharat-lanka",
+  "canonical_project": "SLT Mount Lavinia Cable Landing Station (SMW3 / Bharat Lanka)",
+  "owner": "Sri Lanka Telecom PLC",
+  "location": {
+    "city": "",
+    "subnational": "Western Province",
+    "country": "Sri Lanka",
+    "country_code": "LK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/stations/asia/sri-lanka",
+    "https://www.slt.lk/sites/default/files/sustainability_reports/slt_limited.pdf"
+  ],
+  "notes": "Cable/critical infrastructure: SLT Mount Lavinia CLS hosts SMW3 and the Bharat Lanka Cable System (BSNL India route, inaugurated Sept 2006 per SLT sustainability report). Cable landing station, not commercial datacenter by default.",
+  "method_batch": true
+}

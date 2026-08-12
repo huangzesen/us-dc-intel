@@ -1,0 +1,21 @@
+{
+  "slug": "method-se-ecodatacenter-1-falun",
+  "canonical_project": "EcoDataCenter 1 (Falun)",
+  "owner": "EcoDataCenter AB",
+  "location": {
+    "city": "",
+    "subnational": "Dalarna",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": 80,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ecodatacenter.tech/data-center/ecodatacenter-1",
+    "https://www.byggvarlden.se/investerar-en-miljard-i-datacenter-i-tra/"
+  ],
+  "notes": "EcoDataCenter Falun (EDC1) operational campus, official page states 80 MW available power; carbon-negative wood-framed data halls; served as host for CoreWeave AI workloads; 2022 expansion of ~SEK 1 billion at Falun (Byggvarlden).",
+  "method_batch": true
+}

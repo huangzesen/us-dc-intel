@@ -1,0 +1,20 @@
+{
+  "slug": "method-tl-telemor-viettel-timor-leste-core-network-rooms",
+  "canonical_project": "Telemor / Viettel Timor-Leste core network rooms",
+  "owner": "Telemor (Viettel Timor-Leste, Viettel/QDND group)",
+  "location": {
+    "city": "",
+    "subnational": "Dili",
+    "country": "Timor-Leste",
+    "country_code": "TL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telemor.tl/"
+  ],
+  "notes": "Telemor official site confirms operator presence (Dili, Timor Plaza area) and nationwide network. No facility-level data-center evidence found this pass (searches for 'Telemor/Viettel Timor data center server' returned no named DC); recorded as telecom core network only, per methodology A-for-identity/C-for-DC rule.",
+  "method_batch": true
+}

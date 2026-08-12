@@ -1,0 +1,22 @@
+{
+  "slug": "method-ke-safaricom-kisumu-data-centre",
+  "canonical_project": "Safaricom Kisumu Data Centre",
+  "owner": "Safaricom PLC",
+  "location": {
+    "city": "",
+    "subnational": "Kisumu",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.safaricom.co.ke/wholesale/wholesale_product_categories/data_centre/",
+    "https://www.datacentermap.com/kenya/nairobi/kisumu-data-centre/",
+    "https://truehost.co.ke/data-centers-kenya/"
+  ],
+  "notes": "Safaricom official wholesale page states its data centres are located in Thika, Nairobi and Kisumu. Safaricom Kisumu sits on Kiboswa-Daraja Mbili Road, is a Tier III-standard regional data centre built ~2021 serving as DR/edge for the Nairobi facilities (datacentermap/Truehost). No public MW capacity found.",
+  "method_batch": true
+}

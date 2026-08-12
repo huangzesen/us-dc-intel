@@ -1,0 +1,21 @@
+{
+  "slug": "method-zw-telone-mazowe-earth-station-data-centre",
+  "canonical_project": "TelOne Mazowe Earth Station Data Centre",
+  "owner": "TelOne (state-owned)",
+  "location": {
+    "city": "",
+    "subnational": "Mashonaland Central",
+    "country": "Zimbabwe",
+    "country_code": "ZW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/telone-opens-data-center-at-mazowe-earth-station-zimbabwe/",
+    "https://www.newsday.co.zw/business/article/4033/tendo-electronics-eyes-africa-after-telone-deal"
+  ],
+  "notes": "Opened Mar 2022 as TelOne's fourth data centre at Mazowe Earth Station. Mapped to Mashonaland Central (not Harare) per methodology; directories misclassify it under Harare (C). DCD (B): 34 racks, 1,300 sqm; Newsday (B): US$1m expansion installed by Tendo Electronics.",
+  "method_batch": true
+}

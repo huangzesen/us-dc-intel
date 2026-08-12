@@ -1,0 +1,21 @@
+{
+  "slug": "method-sa-khazna-dammam-hyperscale-campus-dmm1",
+  "canonical_project": "Khazna Dammam hyperscale campus (DMM1)",
+  "owner": "Khazna Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Eastern Province - Ad Dammam",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 200,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://khaznadatacenters.com/press-release/khazna-data-centers-names-new-country-head-and-advances-expansion-plans-in-saudi-arabia-in-support-of-vision-2030/",
+    "https://www.datacenterdynamics.com/en/news/khazna-enters-saudi-arabia-buys-land-in-dammam-for-200mw-data-center-campus/"
+  ],
+  "notes": "Khazna announced (Dec 2025) acquisition of a 225,000 sqm land plot in Dammam for its first Saudi data center campus, up to 200 MW of AI-ready capacity for cloud/AI hyperscale workloads, and appointed a Saudi country head. Land acquired, pre-construction => planned; 200 MW is campus-maximum program capacity, not live IT load. Grade A- (operator official press release) corroborated by DCD.",
+  "method_batch": true
+}

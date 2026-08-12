@@ -1,0 +1,22 @@
+{
+  "slug": "method-fm-fsmtcc-cablecorp-oae-wholesale-colocation-at-central-offices-exchanges",
+  "canonical_project": "FSMTCC/CableCorp (OAE) wholesale colocation at central offices/exchanges",
+  "owner": "FSM Telecommunications Cable Corporation (FSMTCC/CableCorp, a.k.a. OAE)",
+  "location": {
+    "city": "",
+    "subnational": "Pohnpei",
+    "country": "Micronesia, Federated States of",
+    "country_code": "FM"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tra.fm/market-entry-and-information-2/",
+    "https://fsmcable.com/wp-content/uploads/2020/11/High-level-OAE-overview-for-RSP-2020.pdf",
+    "https://fsmcable.com/"
+  ],
+  "notes": "TRA market-entry page and OAE wholesale overview PDF design colocation space, power and cooling at central offices/exchanges plus future colocation/backhaul products; CableCorp is the government-owned wholesale-only open-access entity (TRA license IL-002), HQ Ocean View Plaza (East Wing) Suite 15, Pohnpei. Treat as planned/wholesale telecom colocation until a live tariff or service order confirms availability.",
+  "method_batch": true
+}

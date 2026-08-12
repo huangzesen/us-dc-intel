@@ -1,0 +1,21 @@
+{
+  "slug": "method-ba-globalhost-data-center",
+  "canonical_project": "Globalhost Data Center",
+  "owner": "Globalhost d.o.o. Novi Travnik",
+  "location": {
+    "city": "",
+    "subnational": "Federation of Bosnia and Herzegovina",
+    "country": "Bosnia and Herzegovina",
+    "country_code": "BA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.global.ba/onama.php",
+    "https://www.global.ba/contact.php"
+  ],
+  "notes": "Company-site evidence (checked 2026-08-12): Globalhost states it is the only web-hosting company in BiH owning its own Data Center (no resale on third-party infrastructure), located at Kralja Tvrtka 42, 72290 Novi Travnik (Central Bosnia Canton, FBiH); LinkedIn confirms Data Center/colocation activity since 2002. Address/permit confirmation before Grade A pending.",
+  "method_batch": true
+}

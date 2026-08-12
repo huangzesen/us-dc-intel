@@ -1,0 +1,21 @@
+{
+  "slug": "method-ua-campus-networks-server-hosting-colocation-rivne",
+  "canonical_project": "Campus Networks server hosting / colocation (Rivne)",
+  "owner": "Campus Networks",
+  "location": {
+    "city": "",
+    "subnational": "Rivne",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://uafirmi.com/rovno/campus-networks-168816-otzyvy",
+    "https://local.com.ua/forum/topic/55462-размещение-серверов/"
+  ],
+  "notes": "Weak evidence only: business listing places Campus Networks at Soborna 9, Rivne; a hosting forum thread references a new data center and CampusHost/Campus Networks colocation offer. No official operator spec page or address for a dedicated Rivne DC found, so facility status is C (directory/forum-level) pending operator confirmation.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-th-chiang-rai-rajabhat-university-data-center-pcru-data-center",
+  "canonical_project": "Chiang Rai Rajabhat University Data Center (PCRU Data Center)",
+  "owner": "Chiang Rai Rajabhat University (CRRU) - Academic Resources and Information Technology Office (ARIT)",
+  "location": {
+    "city": "",
+    "subnational": "Chiang Rai",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://arit.pcru.ac.th/2022/view/show_service/9",
+    "https://www.crru.ac.th/news/3323"
+  ],
+  "notes": "Official university ARIT service page (arit.pcru.ac.th, PCRU DATA CENTER, service listed 4 Apr 2562/2019) confirms an operational campus data-center/server-room service at Chiang Rai Rajabhat University; first-round also cited CRRU news (2025-01-06) with Delta Electronics as technology partner. No public IT/power capacity, colo-for-third-parties, or hyperscale activity found; classified as institutional/edge facility.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-ph-vitro-sta-rosa-epldt-pulong-santa-cruz-laguna",
+  "canonical_project": "VITRO Sta. Rosa (ePLDT, Pulong Santa Cruz, Laguna)",
+  "owner": "ePLDT / VITRO Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Calabarzon",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 50,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vitrodc.com/data-centers/vitro-sta-rosa/",
+    "https://www.datacenterdynamics.com/en/news/pldt-launches-sta-rosa-data-center/",
+    "https://www.ocolo.io/colocation/epldt/santa-rosa-vitro/",
+    "https://insiderph.com/bdo-backs-vitro-pldts-ai-ready-data-center-in-santa-rosa"
+  ],
+  "notes": "VITRO Sta. Rosa (VSR) at Tagaytay-Balibago Rd, Brgy Pulong Sta. Cruz, Santa Rosa, Laguna (CALABARZON): PH's first AI-ready hyperscale data center, inaugurated by President Marcos Apr 2025; first phase ~10 MW, expandable to 50 MW-class on 5-hectare site; dedicated substation; TIA-942 Rated 3. 50 MW is marketed/planned campus power (OCOLO 50 MW); DCD reports phase 1 ~10MW operational.",
+  "method_batch": true
+}

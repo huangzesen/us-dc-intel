@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-firmus-gee01-long-reach-data-centre-bell-bay",
+  "canonical_project": "Firmus GEE01 / Long Reach Data Centre (Bell Bay)",
+  "owner": "Firmus Technologies",
+  "location": {
+    "city": "",
+    "subnational": "Tasmania - George Town",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 288,
+  "status": "planned",
+  "evidence_date": "2026-06-18",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/firmus-targets-288mw-data-campus-in-tasmania/",
+    "https://pulsetasmania.com.au/news/ai-data-centre-near-george-town-faces-longer-consultation-after-community-backlash/",
+    "https://www.abc.net.au/news/2026-07-02/firmus-response-public-backlash-artificial-intelligence-tasmania/106864804"
+  ],
+  "notes": "'AI factory' campus proposed at Lot 1 East Tamar Highway, Long Reach, Bell Bay (former Gunns pulp mill site): two purpose-built AI data halls plus office and maintenance workshop; ~288MW draw with direct-to-chip liquid cooling; three 220kV TasNetworks transmission lines cross the site. Development application lodged with George Town Council (June 2026); community consultation extended after backlash; DA requests ~19.2 ML/yr water from TasWater. Status: DA under assessment - planned (grade B). Capacity basis: campus draw, not IT load.",
+  "method_batch": true
+}

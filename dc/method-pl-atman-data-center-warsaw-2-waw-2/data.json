@@ -1,0 +1,21 @@
+{
+  "slug": "method-pl-atman-data-center-warsaw-2-waw-2",
+  "canonical_project": "Atman Data Center Warsaw-2 (WAW-2)",
+  "owner": "Atman (Global Compute Infrastructure)",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://atman.pl/en/atman-data-center/warsaw-2/",
+    "https://atman.pl/en/services/colocation/"
+  ],
+  "notes": "Central Warsaw colocation facility per Atman official pages. Part of Atman's three Warsaw sites with 10,800 sq m net colocation space and 43 MW power supply (2N) per Atman LinkedIn/company materials.",
+  "method_batch": true
+}

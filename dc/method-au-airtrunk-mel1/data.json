@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-airtrunk-mel1",
+  "canonical_project": "AirTrunk MEL1",
+  "owner": "AirTrunk",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Brimbank",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 130,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/australia/melbourne/airtrunk-melbourne-mel1/",
+    "https://www.datacenters.com/airtrunk-mel1-melbourne",
+    "https://baxtel.com/data-centers/airtrunk"
+  ],
+  "notes": "Hyperscale campus at 176 Swann Drive, Derrimut (City of Brimbank). Directory/aggregator evidence: Data Center Map lists ~130MW campus; Baxtel reports MEL1 has six phases with the remaining three phases delivering >100MW new IT load (expansion in progress). AirTrunk official location page lists MEL1; capacity basis is campus capacity not phase-1 IT load.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-lk-lanka-bell-colombo-cable-landing-station-falcon",
+  "canonical_project": "Lanka Bell Colombo Cable Landing Station (FALCON)",
+  "owner": "Lanka Bell",
+  "location": {
+    "city": "",
+    "subnational": "Western Province",
+    "country": "Sri Lanka",
+    "country_code": "LK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/stations/asia/sri-lanka"
+  ],
+  "notes": "Cable/critical infrastructure: Submarine Networks lists Lanka Bell Colombo CLS for FALCON. Cable landing station, not commercial datacenter; operational status should be rechecked per methodology.",
+  "method_batch": true
+}

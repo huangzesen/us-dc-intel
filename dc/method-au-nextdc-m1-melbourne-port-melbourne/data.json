@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-nextdc-m1-melbourne-port-melbourne",
+  "canonical_project": "NEXTDC M1 Melbourne (Port Melbourne)",
+  "owner": "NEXTDC",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Port Phillip",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 16,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nextdc.com/data-centres/melbourne-data-centres/m1-melbourne",
+    "https://www.peeringdb.com/fac/1339",
+    "https://www.datacentermap.com/australia/melbourne/nextdc-m1/"
+  ],
+  "notes": "NEXTDC official page lists M1 as located in Port Melbourne at 820/826 Lorimer Street with 16MW IT capacity, Tier III certified. LGA corrected to Port Phillip (first-round codex pass had misassigned M1 to City of Melbourne).",
+  "method_batch": true
+}

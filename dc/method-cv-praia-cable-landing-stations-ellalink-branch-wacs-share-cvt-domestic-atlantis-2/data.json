@@ -1,0 +1,21 @@
+{
+  "slug": "method-cv-praia-cable-landing-stations-ellalink-branch-wacs-share-cvt-domestic-atlantis-2",
+  "canonical_project": "Praia cable landing stations (EllaLink branch, WACS, SHARE, CVT domestic, Atlantis-2)",
+  "owner": "Cabo Verde Telecom (EllaLink branch + domestic inter-island cable); WACS/SHARE consortia; Atlantis-2 consortium",
+  "location": {
+    "city": "",
+    "subnational": "Ilhas de Sotavento",
+    "country": "Cabo Verde",
+    "country_code": "CV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.eib.org/en/press/all/2019-171-eib-backs-high-speed-cabo-verde-internet-and-telecom-connection",
+    "https://www.datacenterdynamics.com/en/news/cape-verde-receives-15-million-loan-for-two-data-centers/"
+  ],
+  "notes": "Sotavento / Santiago / Praia. CONNECTIVITY INFRASTRUCTURE - NOT a data centre (no server/hosting/colo evidence promoted per methodology). EIB agreed US$25M (2019) for CVTelecom's EllaLink connection as part of a US$60M CVT programme (4G, FTTH, solar); DCD 2022-09-13 (cited in methodology, checked 2026-08-12) lists EllaLink branch, WACS, SHARE and CVT domestic cable at Praia; legacy Atlantis-2 (RFS 2000) reported disconnected Jan 2022. Landing stations may host PoP equipment only.",
+  "method_batch": true
+}

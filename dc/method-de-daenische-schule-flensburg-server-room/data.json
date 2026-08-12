@@ -1,0 +1,20 @@
+{
+  "slug": "method-de-daenische-schule-flensburg-server-room",
+  "canonical_project": "Daenische Schule Flensburg Server Room",
+  "owner": "Daenischer Schulverein / Dierck Group",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Flensburg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dierck-datacenter.de/referenzen"
+  ],
+  "notes": "Dierck Datacenter reference (checked 2026-08-12): 2014 modernization of the Daenische Schule Flensburg administration server room with 6 server cabinets, chilled-water inline cooling, hot-aisle containment, modular power strips and IT monitoring. Small institutional server room; no public MW; method-driven searches found no larger Flensburg commercial colocation project.",
+  "method_batch": true
+}

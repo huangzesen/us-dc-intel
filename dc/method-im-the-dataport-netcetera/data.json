@@ -1,0 +1,22 @@
+{
+  "slug": "method-im-the-dataport-netcetera",
+  "canonical_project": "The Dataport (Netcetera)",
+  "owner": "Netcetera",
+  "location": {
+    "city": "",
+    "subnational": "Isle of Man",
+    "country": "Isle of Man",
+    "country_code": "IM"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://new.netcetera.im/datacentre/",
+    "https://www.datacentermap.com/isle-of-man/ballasalla/the-dataport/",
+    "https://www.isleofman.com/listing/view/45534/netcetera"
+  ],
+  "notes": "Netcetera owns/operates The Dataport, Ballasalla/Malew IM9 2AP, Tier 3/4, built 2006, ~16,000 sq ft, 10MW per directories; official page confirms datacentre operation; confidence C because Manx Technology Group's Feb 2026 market note states Netcetera exited the datacentre market in late 2025 - current operation/ownership unverified.",
+  "method_batch": true
+}

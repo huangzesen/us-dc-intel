@@ -1,0 +1,22 @@
+{
+  "slug": "method-ro-gts-telecom-cluj-napoca-gts-dc4",
+  "canonical_project": "GTS Telecom Cluj-Napoca (GTS DC4)",
+  "owner": "GTS Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Cluj",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.gts.ro/ro/data-center-romania",
+    "https://www.gts.ro/sites/default/files/2020-11/gts_data_center_cluj-napoca_pdf.pdf",
+    "https://www.officerentinfo.ro/article/officemarket-news/gts-telecom-invests-half-a-million-eur-into-its-first-data-center-in-cluj-napoca"
+  ],
+  "notes": "Liberty Technology Park, Strada Garii 21, Cluj-Napoca; 500 kW, 60 racks; Tier III/TIA 942; EUR 0.5m investment opened after GTS's Bucharest DC (2007) and 1m EUR Bucharest expansion.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-nf-o3b-satellite-earth-station-backhaul-facilities-historical",
+  "canonical_project": "O3b satellite earth-station / backhaul facilities (historical)",
+  "owner": "O3b Networks / SES (historical), Norfolk Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Norfolk Island",
+    "country": "Norfolk Island",
+    "country_code": "NF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.infrastructure.gov.au/sites/default/files/migrated/territories/publications/files/GQI_Norfolk_Island_Mobile_Network_Review_2015.pdf",
+    "https://www.nationaltribune.com.au/upgrading-norfolk-island-s-telecommunications/",
+    "https://www.nirc.gov.au/Your-council/News-Articles/Satellite-Backhaul-Service"
+  ],
+  "notes": "Satellite_earth_station_or_backhaul: 2015 federal review confirms two O3b satellite dishes built 2014 and O3b IP satellite + C8 backup used for international connectivity at that time; current primary backhaul is the Telstra satellite contract per NIRC 2026. Classified as telecom asset, not commercial DC; current operational role of the O3b earth-station needs A-grade NIRC/Telstra update. capacity_mw null (no IT load disclosed).",
+  "method_batch": true
+}

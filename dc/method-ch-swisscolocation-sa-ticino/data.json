@@ -1,0 +1,20 @@
+{
+  "slug": "method-ch-swisscolocation-sa-ticino",
+  "canonical_project": "Swisscolocation SA (Ticino)",
+  "owner": "Swisscolocation SA",
+  "location": {
+    "city": "",
+    "subnational": "Ticino",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.swisscolocation.ch/"
+  ],
+  "notes": "Tier III colocation/rack-housing provider in Ticino per official site; serves mission-critical ICT customers.",
+  "method_batch": true
+}

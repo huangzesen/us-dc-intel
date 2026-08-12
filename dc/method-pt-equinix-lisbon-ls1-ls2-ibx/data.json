@@ -1,0 +1,22 @@
+{
+  "slug": "method-pt-equinix-lisbon-ls1-ls2-ibx",
+  "canonical_project": "Equinix Lisbon LS1 & LS2 IBX",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Lisbon",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/portugal-colocation/lisbon-data-centers/ls1",
+    "https://www.equinix.com/data-centers/europe-colocation/portugal-colocation/lisbon-data-centers/ls2",
+    "https://www.datacenterdynamics.com/en/news/equinix-launches-second-portuguese-data-center-in-lisbon/"
+  ],
+  "notes": "Two Equinix IBX facilities in Lisbon (LS1 at Av. Severiano Falcao 14, Prior Velho; LS2 launched June 2025 adjacent to LS1). LS1 hosts AWS Direct Connect location. Operator pages are A-grade for existence/location; no public MW. Equinix has announced plans for a third Lisbon data center by 2027 per DataCenterMap.",
+  "method_batch": true
+}

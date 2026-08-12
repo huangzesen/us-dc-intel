@@ -1,0 +1,21 @@
+{
+  "slug": "method-mh-hantru-1-majuro-cable-landing-station",
+  "canonical_project": "HANTRU-1 Majuro cable landing station",
+  "owner": "Marshall Islands National Telecommunications Authority (NTA) / HANTRU1 consortium",
+  "location": {
+    "city": "",
+    "subnational": "Majuro",
+    "country": "Marshall Islands",
+    "country_code": "MH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://ts2.tech/en/from-submarine-cables-to-starlink-marshall-islands-internet-connectivity-in-2025/",
+    "https://www.submarinecablemap.com/submarine-cable/hantru1-cable-system"
+  ],
+  "notes": "Telecom/cable-landing infrastructure, not a commercial colocation datacenter. HANTRU-1 (in service 2010) 2010 extension includes a Majuro landing per TeleGeography/Submarine Cable Map and connectivity reporting; FCC DA-09-1309A1 covers the Kwajalein/Reagan Test Site station terms. One cable system with two MH landings (Majuro + Ebeye/Kwajalein) - recorded per landing station to avoid double-counting the system.",
+  "method_batch": true
+}

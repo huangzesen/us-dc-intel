@@ -1,0 +1,20 @@
+{
+  "slug": "method-ro-gts-telecom-bucharest-data-center-calea-rahovei",
+  "canonical_project": "GTS Telecom Bucharest Data Center (Calea Rahovei)",
+  "owner": "GTS Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Bucuresti",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.gts.ro/ro/data-center-romania"
+  ],
+  "notes": "Electromagnetica Business Park, Calea Rahovei 266-268; 2 MW max installed power, 240 racks; Uptime Tier III/TIA 942; original DC opened 2007 with subsequent expansion (Tema Energy completed DC 3.1 expansion in 2013).",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-kr-equinix-sl1-sangam",
+  "canonical_project": "Equinix SL1 (Sangam)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Seoul - Mapo-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/south-korea-colocation/seoul-data-centers/sl1",
+    "https://www.datacentermap.com/south-korea/seoul/equinix-sl1/"
+  ],
+  "notes": "Equinix SL1, Equinix's first South Korea data center, inside Samsung SDS Sangam IT Center, 24 World Cup buk-ro 60-gil, Mapo-gu; Data Center Map lists 2 MW (directory-derived).",
+  "method_batch": true
+}

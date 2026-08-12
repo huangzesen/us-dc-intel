@@ -1,0 +1,20 @@
+{
+  "slug": "method-bg-evolink-data-center-varna",
+  "canonical_project": "Evolink Data Center Varna",
+  "owner": "Evolink",
+  "location": {
+    "city": "",
+    "subnational": "Varna",
+    "country": "Bulgaria",
+    "country_code": "BG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.evolink.com/bul/about/evolink-data-center"
+  ],
+  "notes": "Evolink Bulgarian official page states the company built and operates four data centers in Sofia, Plovdiv and Varna, adding Varna as a named Evolink location; individual Varna facility spec sheet not published, so capacity is unverified.",
+  "method_batch": true
+}

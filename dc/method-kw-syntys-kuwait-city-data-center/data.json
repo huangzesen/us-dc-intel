@@ -1,0 +1,22 @@
+{
+  "slug": "method-kw-syntys-kuwait-city-data-center",
+  "canonical_project": "Syntys Kuwait City Data Center",
+  "owner": "Syntys (Ooredoo spin-out; Iron Mountain minority JV)",
+  "location": {
+    "city": "",
+    "subnational": "Capital",
+    "country": "Kuwait",
+    "country_code": "KW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ironmountain.com/data-centers/locations/syntys-data-center",
+    "https://baxtel.com/data-center/syntys-kuwait-city",
+    "https://datacenterdynamics.com/en/news/ooredoo-spins-out-data-center-unit-rebrands-mena-digital-hub-to-syntys/"
+  ],
+  "notes": "Iron Mountain names Syntys Kuwait City (Capital). Directory address Al-Soor St/Ooredoo Tower is C-grade. Ooredoo-hosted Syntys deck: Kuwait 2 active DCs, ~2.2 MW active IT load / 2 MW current capacity at country level (do not allocate per site).",
+  "method_batch": true
+}

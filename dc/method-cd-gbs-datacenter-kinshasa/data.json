@@ -1,0 +1,21 @@
+{
+  "slug": "method-cd-gbs-datacenter-kinshasa",
+  "canonical_project": "GBS Datacenter (Kinshasa)",
+  "owner": "Global Broadband Solution (GBS)",
+  "location": {
+    "city": "",
+    "subnational": "Kinshasa",
+    "country": "Congo, Democratic Republic of the",
+    "country_code": "CD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.gbs.cd/en/services/hebergement",
+    "https://www.datacentermap.com/dr-congo/kinshasa/gbsdc1/"
+  ],
+  "notes": "Official GBS hosting page states GBS operates two data centers in Kinshasa and Lubumbashi with shared hosting (U/rack), dedicated bays and spaces. Directories list GBS Datacenter at 4630 avenue de la Science (DataCenterMap) or 769 Avenue de l'Equateur (Inflect) - address conflict unresolved. ARPTC licensed ISP; KINIX member. Capacity not public.",
+  "method_batch": true
+}

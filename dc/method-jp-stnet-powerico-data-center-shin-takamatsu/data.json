@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-stnet-powerico-data-center-shin-takamatsu",
+  "canonical_project": "STNet Powerico Data Center (Shin-Takamatsu)",
+  "owner": "STNet (Shikoku Electric Power group)",
+  "location": {
+    "city": "",
+    "subnational": "Kagawa",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.stnet.co.jp/business/dc/powerico/location/"
+  ],
+  "notes": "Regional carrier data center in Takamatsu, Kagawa Prefecture. Official Powerico location page confirms the facility and its disaster-resilience design (base-isolation structure, PL=0 liquefaction, ~4km from coast at 14.5m elevation). Capacity not published.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-kg-kyrgyztelecom-dcasa-co-location-service",
+  "canonical_project": "KyrgyzTelecom ЦОД / DCASA co-location service",
+  "owner": "KyrgyzTelecom OJSC",
+  "location": {
+    "city": "",
+    "subnational": "Bishkek",
+    "country": "Kyrgyzstan",
+    "country_code": "KG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://kt.kg/",
+    "https://kt.kg/ru/dcasa-rus/"
+  ],
+  "notes": "Incumbent telecom official DCASA page (A) states co-location in KyrgyzTelecom data centres with power, conditioning and security (Bishkek plus regional telecom exchanges). Historical TAdviser/2017 Tier-III/5 MW concept is a B/C lead only; facility-level current specs not published.",
+  "method_batch": true
+}

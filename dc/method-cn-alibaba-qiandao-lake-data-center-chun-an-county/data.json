@@ -1,0 +1,21 @@
+{
+  "slug": "method-cn-alibaba-qiandao-lake-data-center-chun-an-county",
+  "canonical_project": "阿里巴巴千岛湖数据中心 (Alibaba Qiandao Lake Data Center, Chun'an County)",
+  "owner": "Alibaba Cloud (Alibaba Group)",
+  "location": {
+    "city": "",
+    "subnational": "Zhejiang - Hangzhou Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.alibabacloud.com/zh/press-room/alicloud-launches-new-energy-efficient-qiandao-lake-data-center",
+    "https://t.cj.sina.com.cn/articles/view/6452579020/1809a8acc001003hgl"
+  ],
+  "notes": "Launched Sep 2015; Zhejiang's largest single DC at build, ~Tier 4 design, deep-lake water cooling (annual avg PUE <1.3); Hangzhou is part of the Yangtze River Delta 东数西算 hub.",
+  "method_batch": true
+}

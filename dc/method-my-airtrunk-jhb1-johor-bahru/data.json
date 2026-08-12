@@ -1,0 +1,22 @@
+{
+  "slug": "method-my-airtrunk-jhb1-johor-bahru",
+  "canonical_project": "AirTrunk JHB1 (Johor Bahru)",
+  "owner": "AirTrunk",
+  "location": {
+    "city": "",
+    "subnational": "Johor",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": 150,
+  "status": "operational",
+  "evidence_date": "2024-07-31",
+  "evidence_grade": "A",
+  "sources": [
+    "https://airtrunk.com/location/jhb1-johor/",
+    "https://www.datacenterdynamics.com/en/news/airtrunk-announces-second-malaysian-data-center-in-johor/",
+    "https://english.news.cn/asiapacific/20250213/b2cf5e3f5f854ac0b3f744ebb8e99236/c.html"
+  ],
+  "notes": "AirTrunk's first Johor hyperscale data centre, 150+ MW, opened July 2024 in Johor Bahru (per AirTrunk release and Xinhua). Initial phases delivered over 50 MW for anchor technology customers. Combined Malaysia investment RM9.7bn (~US$2.2bn), >420 MW IT load across campuses.",
+  "method_batch": true
+}

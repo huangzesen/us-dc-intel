@@ -1,0 +1,22 @@
+{
+  "slug": "method-ge-bitfury-gldani-tbilisi-fiz-historical-crypto-data-center",
+  "canonical_project": "Bitfury Gldani / Tbilisi FIZ historical crypto data center",
+  "owner": "Bitfury Group (historical)",
+  "location": {
+    "city": "",
+    "subnational": "Tbilisi",
+    "country": "Georgia",
+    "country_code": "GE"
+  },
+  "capacity_mw": 40,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://bitfury.com/content/4-press/2_13_18_bitfury_group_sells_gldani_release.pdf",
+    "https://bm.ge/en/news/bitfury-is-no-longer-the-owner-of-tbilisi-fiz/130069",
+    "https://baxtel.com/data-center/bitfury-tbilisi"
+  ],
+  "notes": "Historical 40-60 MW (media references) crypto/HPC data center in/near Tbilisi Free Zone (Gldani); Bitfury first-party sale PDF (2018) and BM.ge confirm historical build and divestment. Current owner/operator and operating status undetermined - not counted as current commercial colo.",
+  "method_batch": true
+}

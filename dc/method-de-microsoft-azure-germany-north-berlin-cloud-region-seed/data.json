@@ -1,0 +1,20 @@
+{
+  "slug": "method-de-microsoft-azure-germany-north-berlin-cloud-region-seed",
+  "canonical_project": "Microsoft Azure Germany North (Berlin) cloud region (seed)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Berlin - Berlin",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list"
+  ],
+  "notes": "Cloud-region seed: Azure Germany North is paired with Germany West Central (Frankfurt) per official Microsoft geography docs; region-level evidence only - no physical facility inference.",
+  "method_batch": true
+}

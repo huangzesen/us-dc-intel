@@ -1,0 +1,22 @@
+{
+  "slug": "cngov-equinix-hk6-ibx",
+  "canonical_project": "Equinix HK6（IBX）",
+  "owner": "Equinix",
+  "location": {
+    "city": "新界·荃湾（HK1/HK2/HK3 校园集群）",
+    "subnational": "Hong Kong",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 21.3,
+  "status": "运营（2026-06 开通）",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://futureiot.tech/equinix-hk6-opens-with-integrated-ai-testing-lab-for-greater-bay-area/",
+    "https://www.datacenterdynamics.com/en/news/equinix-plans-sixth-hong-kong-data-center/",
+    "https://baxtel.com/data-center/equinix-hk6"
+  ],
+  "notes": "Equinix 香港第 6 座 IBX，初始投资 US$124M（约 HK$10 亿）；一期 1,000 机柜、满建 3,550 机柜（按 6kW/柜估算约 21MW）；液冷+AI Discovery Hub（HPE/NVIDIA）、100% 可再生能源。 [province=香港]",
+  "cn_gov_batch": true
+}

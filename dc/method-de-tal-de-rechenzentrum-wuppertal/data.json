@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-tal-de-rechenzentrum-wuppertal",
+  "canonical_project": "TAL.DE Rechenzentrum Wuppertal",
+  "owner": "Tal.de GmbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Wuppertal",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tal.de/rechenzentrum/",
+    "https://www.datacenters.com/tal-de-gmbh-tal-de-rechenzentrum-wuppertal"
+  ],
+  "notes": "Modern Level-3-standard datacenter in Wuppertal, green energy, PUE 1.2, redundant backbone, colocation/cloud services (operator official page). Datacenters.com also lists a second TAL.DE facility (Segundo Rechenzentrum) in Wuppertal. Capacity MW not published.",
+  "method_batch": true
+}

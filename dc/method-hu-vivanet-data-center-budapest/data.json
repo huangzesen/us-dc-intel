@@ -1,0 +1,20 @@
+{
+  "slug": "method-hu-vivanet-data-center-budapest",
+  "canonical_project": "VIVAnet Data Center Budapest",
+  "owner": "VIVAnet DataCenter Kft.",
+  "location": {
+    "city": "",
+    "subnational": "Budapest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vivanet.hu/en/"
+  ],
+  "notes": "Official VIVAnet page: carrier-neutral data center in the heart of Budapest, operating since July 2024; first-phase room built for 140 rack cabinets. Commercial colocation. No public MW figure.",
+  "method_batch": true
+}

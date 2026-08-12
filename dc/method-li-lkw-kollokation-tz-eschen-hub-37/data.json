@@ -1,0 +1,22 @@
+{
+  "slug": "method-li-lkw-kollokation-tz-eschen-hub-37",
+  "canonical_project": "LKW Kollokation TZ Eschen (Hub 37)",
+  "owner": "Liechtensteinische Kraftwerke (LKW)",
+  "location": {
+    "city": "",
+    "subnational": "Eschen",
+    "country": "Liechtenstein",
+    "country_code": "LI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.lkw.li/userdata/Alle-Download-Dokumente/Netze-Kommunikation/Kollokation/lkw-kollokation-standortliste-v1.4.pdf",
+    "https://www.rheintal-ix.net/rheintal_ix/sites/",
+    "https://ixpdb.euro-ix.net/en/explore/ixp/483/pops/"
+  ],
+  "notes": "Official LKW Kollokation Standortliste (A, per country methodology verified ledger) lists LKW network-access colocation sites incl. Eschen Hub 37; Rheintal IX lists a live physical location at Telefonzentrale Eschen, Liechtensteinische Kraftwerke, Hub 37 (B). Classified as telecom/access-network colocation point, not automatically a commercial datacenter; capacity not disclosed.",
+  "method_batch": true
+}

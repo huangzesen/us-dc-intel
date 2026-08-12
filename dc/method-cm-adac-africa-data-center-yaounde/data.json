@@ -1,0 +1,20 @@
+{
+  "slug": "method-cm-adac-africa-data-center-yaounde",
+  "canonical_project": "ADAC (Africa Data Center) Yaoundé",
+  "owner": "ADAC / ICCNET Group",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://cm.linkedin.com/company/adac-africa-data-center"
+  ],
+  "notes": "C-grade lead: LinkedIn company profile of ICCNET subsidiary ADAC describes Cameroon-based data-center services with primary location in Ngousso, Yaoundé 5, Centre. No independent facility details or MW; retained from first-round discovery as C lead.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-de-staedtisches-krankenhaus-kiel-server-room",
+  "canonical_project": "Staedtisches Krankenhaus Kiel Server Room",
+  "owner": "Staedtisches Krankenhaus Kiel / Dierck Group",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Kiel",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dierck-datacenter.de/referenzen"
+  ],
+  "notes": "Dierck Datacenter reference (checked 2026-08-12): 2016 municipal hospital Kiel server room with 6 server cabinets, 252 rack units, row cooling with aisle containment, modular UPS 3x10 kW redundant. Small institutional facility; no MW published.",
+  "method_batch": true
+}

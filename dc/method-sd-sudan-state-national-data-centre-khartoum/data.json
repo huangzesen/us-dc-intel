@@ -1,0 +1,20 @@
+{
+  "slug": "method-sd-sudan-state-national-data-centre-khartoum",
+  "canonical_project": "Sudan State (National) Data Centre, Khartoum",
+  "owner": "Government of Sudan (MTDT / NIC)",
+  "location": {
+    "city": "",
+    "subnational": "Khartoum",
+    "country": "Sudan",
+    "country_code": "SD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-10-17",
+  "evidence_grade": "B",
+  "sources": [
+    "https://actumsudan.substack.com/p/sudan-pushes-digital-transformation"
+  ],
+  "notes": "Actum Sudan, quoting Minister of Digital Transformation Ahmed Dardiri via SUNA, reports reactivation of Sudan's main 1,300 m2 state data centre in Khartoum after technical/infrastructure rehabilitation, equipped with cloud computing, data protection and AI-support systems, intended to host government systems centrally (announced 9 Oct 2025). Primary SUNA page not retrievable in this run, so grade B; whether the 1,300 m2 facility is physically the NIC/NDC site remains unresolved (methodology de-dup note). Khartoum power/drone damage context makes ongoing operation date-sensitive.",
+  "method_batch": true
+}

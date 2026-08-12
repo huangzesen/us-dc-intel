@@ -1,0 +1,21 @@
+{
+  "slug": "method-pl-citylink-wroclaw-stadion-data-center",
+  "canonical_project": "Citylink Wroclaw Stadion Data Center",
+  "owner": "Citylink",
+  "location": {
+    "city": "",
+    "subnational": "Lower Silesia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": 24.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/citylink-to-supply-waste-heat-from-data-center-servers-to-district-heating-network-in-wroclaw-poland/",
+    "https://baxtel.com/news/citylink-to-supply-data-center-waste-heat-to-wroclaw-district-heating-network"
+  ],
+  "notes": "Citylink's 24 MW Wroclaw Stadion data center (Szczecinska 11B, Lesnica district) with LOI to supply waste heat to Wroclaw's district heating network. DCD/Baxtel; capacity 24 MW per DCD.",
+  "method_batch": true
+}

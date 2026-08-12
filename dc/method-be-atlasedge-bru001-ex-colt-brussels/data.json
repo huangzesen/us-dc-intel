@@ -1,0 +1,22 @@
+{
+  "slug": "method-be-atlasedge-bru001-ex-colt-brussels",
+  "canonical_project": "AtlasEdge BRU001 (ex-Colt Brussels)",
+  "owner": "AtlasEdge (Liberty Global / Digital Colony JV)",
+  "location": {
+    "city": "",
+    "subnational": "Flanders",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/belgium/brussels/colt-brussels/",
+    "https://atlasedge.com/wp-content/uploads/2021/10/Data-Fact-Sheet-BRU001.pdf",
+    "https://baxtel.com/data-center/atlasedge-dc-brussels-1-2"
+  ],
+  "notes": "Mercuriusstraat 30, 1930 Nossegem/Zaventem (Flanders). 3,300+ m2, 7.5 MVA, ISO-certified, 100% green energy per AtlasEdge fact sheet/LinkedIn; formerly Colt Brussels. Capacity from operator material (B), directory corroboration (C).",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-pk-state-bank-of-pakistan-main-data-center-sbp-mdc",
+  "canonical_project": "State Bank of Pakistan Main Data Center (SBP MDC)",
+  "owner": "State Bank of Pakistan",
+  "location": {
+    "city": "",
+    "subnational": "Sindh",
+    "country": "Pakistan",
+    "country_code": "PK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/PK"
+  ],
+  "notes": "Institutional central-bank data center in Karachi. Uptime Institute PK awards page lists SBP Main Data Center with both Design Documents and Constructed Facility awards (the only PK entry with constructed-facility award). Capacity/specs not publicly disclosed.",
+  "method_batch": true
+}

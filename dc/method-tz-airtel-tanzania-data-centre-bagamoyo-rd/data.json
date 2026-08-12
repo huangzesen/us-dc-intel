@@ -1,0 +1,20 @@
+{
+  "slug": "method-tz-airtel-tanzania-data-centre-bagamoyo-rd",
+  "canonical_project": "Airtel Tanzania data centre (Bagamoyo Rd)",
+  "owner": "Airtel Tanzania / Airtel Telesonic",
+  "location": {
+    "city": "",
+    "subnational": "Dar es Salaam",
+    "country": "Tanzania, United Republic of",
+    "country_code": "TZ"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/tanzania/dar-es-salaam/airteltanzania-data-center/"
+  ],
+  "notes": "DataCenterMap (C) lists Airtel Tanzania Data Center at Bagamoyo Rd, Dar es Salaam. Airtel/Telesonic also activated the 2Africa cable segment linking Kenya-Tanzania-South Africa (2024, B - Submarine Networks), which is network/cable evidence not a commercial DC. Per methodology count only if a physical compute/colo facility is corroborated by A/B source; currently C-grade directory lead.",
+  "method_batch": true
+}

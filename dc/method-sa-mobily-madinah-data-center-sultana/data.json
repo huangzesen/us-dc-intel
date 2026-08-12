@@ -1,0 +1,21 @@
+{
+  "slug": "method-sa-mobily-madinah-data-center-sultana",
+  "canonical_project": "Mobily Madinah Data Center (Sultana)",
+  "owner": "Mobily / Etihad Etisalat",
+  "location": {
+    "city": "",
+    "subnational": "Medina Region - Al Madinah al Munawwarah",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/saudi-arabia/maddinah/mobily-tier2-maddinah/",
+    "https://marketplace.upstack.com/data-centers/mobily-data-center-maddinah"
+  ],
+  "notes": "DataCenterMap lists Mobily Maddinah (Tier II, Sultana district) and UPSTACK lists the same facility; telco/enterprise colo site. Directory-level evidence, no MW.",
+  "method_batch": true
+}

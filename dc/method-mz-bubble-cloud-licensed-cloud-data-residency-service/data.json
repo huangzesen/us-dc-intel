@@ -1,0 +1,21 @@
+{
+  "slug": "method-mz-bubble-cloud-licensed-cloud-data-residency-service",
+  "canonical_project": "Bubble Cloud (licensed cloud/data-residency service)",
+  "owner": "Bubble Cloud Mozambique",
+  "location": {
+    "city": "",
+    "subnational": "Maputo",
+    "country": "Mozambique",
+    "country_code": "MZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://cartamz.com/empresas-marcas-e-pessoas/51499/novo-regime-bubble-e-a-primeira-provedora-de-servicos-cloud-a-receber-licenciamento/",
+    "https://intic.gov.mz/intic-atribui-primeiras-licencas-a-provedores-intermediarios-de-servicos-electronicos-operadores-de-plataformas-digitais-e-centros-de-dados/"
+  ],
+  "notes": "First provider to receive INTIC cloud licensing under the 2026 cloud regime (Decreto 72/2025); AIM reports two data centers but no named physical sites verified; recorded as licensed cloud-service lead - NOT counted as physical DC until operator/INTIC names sites.",
+  "method_batch": true
+}

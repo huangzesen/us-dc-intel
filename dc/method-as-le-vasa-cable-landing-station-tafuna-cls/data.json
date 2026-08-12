@@ -1,0 +1,24 @@
+{
+  "slug": "method-as-le-vasa-cable-landing-station-tafuna-cls",
+  "canonical_project": "Le Vasa cable landing station (Tafuna CLS)",
+  "owner": "ASTCA (American Samoa Telecommunications Authority); modular CLS by DXN",
+  "location": {
+    "city": "",
+    "subnational": "American Samoa",
+    "country": "American Samoa",
+    "country_code": "AS"
+  },
+  "capacity_mw": null,
+  "status": "approved",
+  "evidence_date": "2026-07-07",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.fcc.gov/public/attachments/DA-26-578A1.pdf",
+    "https://docs.fcc.gov/public/attachments/DA-26-296A1.pdf",
+    "https://www.samoanews.com/local-news/dxn-wins-cable-landing-station-contract-american-samoa",
+    "https://www.samoanews.com/local-news/american-samoa-officially-launches-vasa-cable",
+    "https://www.submarinenetworks.com/en/systems/trans-pacific/le-vasa-cable"
+  ],
+  "notes": "FCC public notices (DA-26-578A1, DA-26-296A1) state ASTCA will construct a cable landing station and beach joint in Tafuna, Tutuila and own/operate the Le Vasa system connecting to Google/Starfish Bulikula (BU 1A); FCC OIA approved the application June 2026. Samoa News (2026-07-07) reports DXN won an AU$1m (~US$690k) contract to design/manufacture/deliver/commission the modular CLS hosting Le Vasa, delivery due March 2027; system expected operational Q3 2026. Per methodology this is telecom_cable_station/connectivity infrastructure, NOT a commercial datacenter (no colo/rack hosting service confirmed).",
+  "method_batch": true
+}

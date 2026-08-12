@@ -1,0 +1,22 @@
+{
+  "slug": "cngov-airtrunk-hkg1",
+  "canonical_project": "AirTrunk HKG1",
+  "owner": "AirTrunk（Brookfield/黑石背景）",
+  "location": {
+    "city": "新界·青衣（近荃湾）",
+    "subnational": "Hong Kong",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 20,
+  "status": "运营（2020-12 开通）",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://airtrunk.com/airtrunk-opens-singapore-and-hong-kong-data-centres/",
+    "https://www.scmp.com/business/article/3113008/australias-airtrunk-launches-hong-kong-data-centre-alibaba-amazon-and",
+    "https://www.datacenterdynamics.com/en/news/airtrunk-announces-20mw-site-hong-kong/"
+  ],
+  "notes": "AirTrunk 亚太首批设施之一，20+MW，租用青衣八层工业大厦（17,400 平方米）；HGC 光纤互联入驻。 [province=香港]",
+  "cn_gov_batch": true
+}

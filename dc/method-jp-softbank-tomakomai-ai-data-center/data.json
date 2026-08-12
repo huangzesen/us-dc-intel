@@ -1,0 +1,22 @@
+{
+  "slug": "method-jp-softbank-tomakomai-ai-data-center",
+  "canonical_project": "SoftBank Tomakomai AI Data Center",
+  "owner": "SoftBank Corp.",
+  "location": {
+    "city": "",
+    "subnational": "Hokkaido",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": 300,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/japan/sapporo/softbank-hokkaido-data-center/",
+    "https://aidatacenterindex.com/operators/softbank-corp/",
+    "https://www.telecomreviewasia.com/news/industry-news/29971-ntt-backed-consortium-targets-ishikari-as-japan-data-center-hub/"
+  ],
+  "notes": "SoftBank AI data center under construction in Tomakomai, Hokkaido on a ~700,000 sqm site; methodology notes first phase ~50 MW targeted for FY2026 with 300 MW+ longer-term potential (official announcement to be used as A-grade backfill); renewable-energy powered.",
+  "method_batch": true
+}

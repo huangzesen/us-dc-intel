@@ -1,0 +1,23 @@
+{
+  "slug": "method-ee-greenergy-data-centers-gre-dc1-tallinn-huuru",
+  "canonical_project": "Greenergy Data Centers GRE DC1 (Tallinn/Hüüru)",
+  "owner": "Greenergy Data Centers OÜ / MCF Group Estonia OÜ",
+  "location": {
+    "city": "",
+    "subnational": "Harju",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": 31.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/greenergy-launches-data-center-in-estonia/",
+    "https://gdc.ee/",
+    "https://www.greenergydatacenters.com/",
+    "https://hml.ee/projects/greenergy-data-center/"
+  ],
+  "notes": "Harju/Saue vald, Hüüru, Alajaama tee 1; 14,500 m2 floor area, 31.5 MW full build-out across three buildings, EN50600 Level 3/4; first building opened 2022; MCF Group Estonia OÜ reg. 14069314. DCD/trade press + first-party; official EHR/Saue permit verification still pending for Grade A.",
+  "method_batch": true
+}

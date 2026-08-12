@@ -1,0 +1,22 @@
+{
+  "slug": "method-gh-equinix-ac1-accra-mdxi-appolonia",
+  "canonical_project": "Equinix AC1 Accra (MDXi Appolonia)",
+  "owner": "Equinix (MainOne MDXi legacy)",
+  "location": {
+    "city": "",
+    "subnational": "Greater Accra",
+    "country": "Ghana",
+    "country_code": "GH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/ghana-colocation/accra-data-centers/ac1",
+    "https://regtechafrica.com/ghana-mainone-an-equinix-companys-mdxi-appolonia-achieves-tier-iii-constructed-facility-certification-tccf-now-most-certified-data-center-in-ghana/",
+    "https://www.datacentermap.com/ghana/accra/mdxi-appolonia-data-center/"
+  ],
+  "notes": "Plot No 1, Benin Boulevard, Appolonia Industrial Park, Appolonia City (Greater Accra). Equinix official page lists AC1 just outside Accra (~524 sq m / 5,640 sq ft colo space); MDXi Appolonia received Uptime Tier III Constructed Facility (TCCF) certification. Alias: MainOne MDXi Appolonia - do not double count.",
+  "method_batch": true
+}

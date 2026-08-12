@@ -1,0 +1,23 @@
+{
+  "slug": "method-nc-exodata-noumea-data-center-mycloud",
+  "canonical_project": "Exodata Nouméa data center (myCloud)",
+  "owner": "Exodata (Exodata Pacifique)",
+  "location": {
+    "city": "",
+    "subnational": "New Caledonia",
+    "country": "New Caledonia",
+    "country_code": "NC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.exodata.fr/cloud",
+    "https://www.exodata.fr/blog/exodata-rachete-mycloud-specialiste-du-datacenter-autonome",
+    "https://www.open.nc/adherents/exodata/",
+    "https://neotech.nc/rencontre-benjamin-forte-directeur-associe-exodata/"
+  ],
+  "notes": "Exodata cloud page lists Nouméa, New Caledonia data center for local cloud presence; 2022-12-19 company post says Exodata operated in Nouméa since 2017 and acquired myCloud (5th acquisition), a datacenter-autonomous specialist; Open NC member profile lists address 1 rue Laguimiville VDC, 98800 Nouméa, ISO 27001 certified, HDS health-data host, operating datacenters in France/DOM/COM including NC; NeoTech.nc interview with managing partner Benjamin Forte corroborates. No MW capacity disclosed.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-sg-global-switch-tai-seng",
+  "canonical_project": "Global Switch Tai Seng",
+  "owner": "Global Switch",
+  "location": {
+    "city": "",
+    "subnational": "South East",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 17,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.globalswitch.com/data-centres/singapore/",
+    "https://www.datacentermap.com/singapore/singapore/global-switch-singapore/",
+    "https://www.datacenters.com/global-switch-singapore-tai-seng"
+  ],
+  "notes": "Global Switch Singapore Tai Seng at 2 Tai Seng Avenue (Singapore 534408), 17 MW per methodology (directory sources cite 25-30 MW); 7-storey, ~287,000 sq ft; key interconnection point near financial district and subsea cable landings; BBIX Singapore No.3 IXP hosted here. South East CDC.",
+  "method_batch": true
+}

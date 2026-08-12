@@ -1,0 +1,22 @@
+{
+  "slug": "method-ee-narva-datacenter-fairyhosting",
+  "canonical_project": "Narva Datacenter (FairyHosting)",
+  "owner": "FairyHosting / RJ Network OÜ",
+  "location": {
+    "city": "",
+    "subnational": "Ida-Viru",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/estonia/narva/narva-datacenter/",
+    "https://colomap.com/facilities/narva-datacenter/",
+    "https://fairyhosting.com/colocation"
+  ],
+  "notes": "Ida-Viru/Narva, Mihail/Ak. Maslovi 1 (Kreenholm area per datacenterplatform). Catalog-only seed; FairyHosting first-party colocation page references Estonia but not specifically a Narva facility. Candidate only - needs EHR/Narva or first-party facility confirmation.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-ro-cloud-privat-guvernamental-node-timisoara-giroc-tier-iv",
+  "canonical_project": "Cloud Privat Guvernamental - node Timisoara/Giroc (Tier IV)",
+  "owner": "ADR / STS",
+  "location": {
+    "city": "",
+    "subnational": "Timis",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://economedia.ro/video-interviu-cand-am-putea-avea-cu-adevarat-digitalizare-la-interactiunea-cu-statul-in-romania-dragos-vlad-adr-2026-poate-fi-inceputul-proiectului-de-portofel-digital-vezi-care-e-stadiul-proiectului.html",
+    "https://hotnews.ro/licitatie-it-de-180-milioane-de-euro-minim-30-de-sisteme-it-publice-trebuie-mutate-in-cloudul-privat-guvernamental-pana-la-jumatatea-anului-2026-1895684",
+    "https://newsweek.ro/tehnologie/romania-are-cloud-privat-guvernamental-costul-total-al-proiectului-se-ridica-la-370000000-eur"
+  ],
+  "notes": "ADR (Dragos Vlad) states 3 of 4 CPG nodes operational (Sibiu/Brasov Tier III, Bucuresti Tier IV) and the 4th node - Timisoara - still to be completed to Tier IV standard; Giroc node per methodology. Total CPG project ~EUR 370m.",
+  "method_batch": true
+}

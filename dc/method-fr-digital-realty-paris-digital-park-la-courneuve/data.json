@@ -1,0 +1,23 @@
+{
+  "slug": "method-fr-digital-realty-paris-digital-park-la-courneuve",
+  "canonical_project": "Digital Realty Paris Digital Park (La Courneuve)",
+  "owner": "Digital Realty (Interxion brand)",
+  "location": {
+    "city": "",
+    "subnational": "Seine-Saint-Denis",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 130,
+  "status": "operational",
+  "evidence_date": "2026-06-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.lesechos.fr/pme-regions/ile-de-france/la-seine-saint-denis-sapprete-a-accueillir-le-plus-gros-data-center-de-france-2127580",
+    "https://www.courrier-picard.fr/id724777/article/2026-06-11/la-courneuve-seine-saint-denis-le-plus-grand-data-center-de-france-ouvert-sans",
+    "https://www.mission-open-data.fr/plus-gros-data-center-france-paris-digital-park/",
+    "https://reporterre.net/Data-center-une-pollution-atmospherique-sous-evaluee-Data-center-l-angle-mort-de-la"
+  ],
+  "notes": "Largest data center in France at La Courneuve; ~40,000 m2 of server rooms; press reports 130 MW supply and 2bn EUR investment; opened/ramping since summer 2024 (Interxion = Digital Realty EMEA brand); capacity is press-reported (B), existence solid.",
+  "method_batch": true
+}

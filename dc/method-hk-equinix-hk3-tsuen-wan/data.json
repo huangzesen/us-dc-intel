@@ -1,0 +1,22 @@
+{
+  "slug": "method-hk-equinix-hk3-tsuen-wan",
+  "canonical_project": "Equinix HK3, Tsuen Wan",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/china-colocation/hong-kong-data-centers",
+    "https://www.datacenterjournal.com/data-centers/hong-kong/hong-kong/equinix-hk3-hong-kong/",
+    "https://datacentercatalog.com/hong-kong/equinix-hk3"
+  ],
+  "notes": "Equinix lists HK3 among its HK IBX sites (A for listing); aggregator address 1 Wang Wo Tsai Street, Tsuen Wan (C). District: Tsuen Wan.",
+  "method_batch": true
+}

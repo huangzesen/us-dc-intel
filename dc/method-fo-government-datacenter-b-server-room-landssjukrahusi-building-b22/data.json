@@ -1,0 +1,20 @@
+{
+  "slug": "method-fo-government-datacenter-b-server-room-landssjukrahusi-building-b22",
+  "canonical_project": "Government 'datacenter B' server room (Landssjúkrahúsið, building B22)",
+  "owner": "Landssjúkrahúsið (National Hospital) / Faroese public sector",
+  "location": {
+    "city": "",
+    "subnational": "Faroe Islands",
+    "country": "Faroe Islands",
+    "country_code": "FO"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://keypsportal.fo/undantok/"
+  ],
+  "notes": "Official public-procurement exemption register (24-08-2022) records 'Keyp av UPS til datacenter B í bygninginum B22, hædd 0' - UPS purchase for 'datacenter B' in building B22. This evidences a government/hospital internal server room (IT infrastructure lead), not a commercial datacenter; buyer = Landssjúkrahúsið. Further procurement lines (2025) show Gjaldstovan/Talgildu Føroyar hosting of critical digital infrastructure with Elektron (MínBoks) - consistent with government hosting via local providers.",
+  "method_batch": true
+}

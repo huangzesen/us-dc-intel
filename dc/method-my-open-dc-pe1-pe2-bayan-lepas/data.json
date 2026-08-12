@@ -1,0 +1,21 @@
+{
+  "slug": "method-my-open-dc-pe1-pe2-bayan-lepas",
+  "canonical_project": "Open DC PE1 / PE2 (Bayan Lepas)",
+  "owner": "Open DC (Extreme Broadband)",
+  "location": {
+    "city": "",
+    "subnational": "Pulau Pinang",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.opendc.my/",
+    "https://support.exabytes.sg/en/support/solutions/articles/14000167183-exabytes-data-center-open-dc-pe2-visitation-request"
+  ],
+  "notes": "Open DC PE1/PE2 in Penang; PE2 confirmed at Phase 4, Medan Bayan Lepas, Bayan Lepas Industrial Park (Exabytes colocation at DH6/Open DC PE2). Operator-level claim A for service existence; capacity/location specifics C. Penang IX interconnect nodes nearby.",
+  "method_batch": true
+}

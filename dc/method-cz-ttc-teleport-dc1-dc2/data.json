@@ -1,0 +1,22 @@
+{
+  "slug": "method-cz-ttc-teleport-dc1-dc2",
+  "canonical_project": "TTC TELEPORT DC1/DC2",
+  "owner": "TTC Teleport",
+  "location": {
+    "city": "",
+    "subnational": "Prague",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": 10.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ttc-teleport.cz/en/",
+    "https://www.datacenters.com/ttc-teleport-dc2",
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/data-centre-ttc-teleport-dc2/729"
+  ],
+  "notes": "TTC TELEPORT official contact page (Tiskarska 257/10, Praha 10-Malesice) confirms DC1/DC2 helpdesks (A for operator/facility). Datacenters.com lists DC2 at Sazecska 595/10 with 10 MW access; Uptime Institute award page identifies TTC DC2 (C/B for capacity).",
+  "method_batch": true
+}

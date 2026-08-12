@@ -1,0 +1,21 @@
+{
+  "slug": "method-jo-aqaba-digital-hub-adh-city-data-center",
+  "canonical_project": "Aqaba Digital Hub (ADH) City Data Center",
+  "owner": "Aqaba Digital Hub",
+  "location": {
+    "city": "",
+    "subnational": "Aqaba",
+    "country": "Jordan",
+    "country_code": "JO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://adh.jo/hub/city-data-center",
+    "https://jordanict.com/company-profile/aqaba-digital-hub-adh"
+  ],
+  "notes": "Tier III-certified city-center carrier-neutral colocation/hosting/managed-services facility in Aqaba, active since 2020; treated as a distinct site from the Mega Data Center per ADH pages; capacity not publicly stated.",
+  "method_batch": true
+}

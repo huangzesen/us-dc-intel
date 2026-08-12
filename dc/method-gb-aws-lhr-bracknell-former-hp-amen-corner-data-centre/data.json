@@ -1,0 +1,24 @@
+{
+  "slug": "method-gb-aws-lhr-bracknell-former-hp-amen-corner-data-centre",
+  "canonical_project": "AWS LHR-Bracknell / former HP Amen Corner data centre",
+  "owner": "Amazon Data Services UK / AWS",
+  "location": {
+    "city": "",
+    "subnational": "England - Bracknell Forest",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 27,
+  "status": "operational",
+  "evidence_date": "2023",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/edgecore-data-center-proposed-at-former-hp-site-in-berkshire-uk/",
+    "https://baxtel.com/data-center/amazon-bracknell",
+    "https://docs.planning.org.uk/20210330/173/QPEKMEBVFGV00/mjw8r6mmv6gg16y3.pdf",
+    "https://www.datacentermap.com/united-kingdom/berkshire/amazon-aws-lhr-bracknell/",
+    "https://www.bracknell-forest.gov.uk/sites/default/files/2021-08/final-amen-corner-spd.pdf"
+  ],
+  "notes": "Plans filed 2021 for a four-data-hall facility on the former HP site at Cain Road/Amen Corner (Bracknell Forest app 21/00239/FUL); Baxtel reports AWS operates the completed Bracknell facility (~27MW IT load). EdgeCore is also listed at Amen Corner (directory); Bracknell Amen Corner SPD confirms the site's data-centre allocation.",
+  "method_batch": true
+}

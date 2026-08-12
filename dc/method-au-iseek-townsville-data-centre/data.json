@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-iseek-townsville-data-centre",
+  "canonical_project": "iseek Townsville Data Centre",
+  "owner": "iseek",
+  "location": {
+    "city": "",
+    "subnational": "Queensland - Townsville",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 1.2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://iseek.com.au/blog/nqit-opts-for-north-queensland-regional-dc-strategy/",
+    "https://www.datacenters.com/iseek-townsville-data-centre",
+    "https://industryqld.com.au/backing-for-townsville-data-centre/"
+  ],
+  "notes": "Garbutt, Townsville. Tier III data centre (1.2MW per directory listing), built with Optus and Schneider Electric partnership; hosts Townsville City Council and James Cook University infrastructure. Operational per iseek official blog; capacity figure is directory-grade (C).",
+  "method_batch": true
+}

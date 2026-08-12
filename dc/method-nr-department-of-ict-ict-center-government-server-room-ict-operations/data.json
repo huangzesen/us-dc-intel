@@ -1,0 +1,21 @@
+{
+  "slug": "method-nr-department-of-ict-ict-center-government-server-room-ict-operations",
+  "canonical_project": "Department of ICT - ICT Center (government server room / ICT operations)",
+  "owner": "Government of Nauru - Department of ICT",
+  "location": {
+    "city": "",
+    "subnational": "Yaren",
+    "country": "Nauru",
+    "country_code": "NR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nauru.gov.nr/government/departments/department-of-telecommunications.aspx",
+    "https://www.nauru.gov.nr/media/204028/nndts_final_version_2025.pdf"
+  ],
+  "notes": "Official page confirms Department of ICT located at the ICT Center, Yaren District; operates all government communications/information systems, network/internet/email/web services, 'powerful servers', 26 staff; ITSM framework and continuous IT infrastructure upgrades. Government server-room/ICT lead - not a public/commercial datacenter. National Digital Transformation Strategy (NNDTS 2025 PDF) lists digital government cloud/cybersecurity as planned-policy targets only, not a named facility.",
+  "method_batch": true
+}

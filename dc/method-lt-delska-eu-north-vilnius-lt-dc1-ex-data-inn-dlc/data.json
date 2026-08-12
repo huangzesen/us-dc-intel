@@ -1,0 +1,22 @@
+{
+  "slug": "method-lt-delska-eu-north-vilnius-lt-dc1-ex-data-inn-dlc",
+  "canonical_project": "Delska EU North Vilnius LT DC1 (ex-Data Inn/DLC)",
+  "owner": "Delska (DEAC+DLC merged June 2024; owner Quaero European Infrastructure Fund II)",
+  "location": {
+    "city": "",
+    "subnational": "Vilnius County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://delska.com/data-centers/",
+    "https://www.peeringdb.com/fac/4826",
+    "https://www.ocolo.io/colocation/delska-deac-european-data-center/delska-eu-north-vilnius-dc1/"
+  ],
+  "notes": "J. Tiskeviciaus g. 72, Vilnius LT-02238; ~2 MW, 220 racks, Tier III certification (operator claim); DLC legacy brand Data Inn; most efficient DC in region per Ignitis history.",
+  "method_batch": true
+}

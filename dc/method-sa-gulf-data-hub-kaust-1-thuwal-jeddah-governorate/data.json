@@ -1,0 +1,22 @@
+{
+  "slug": "method-sa-gulf-data-hub-kaust-1-thuwal-jeddah-governorate",
+  "canonical_project": "Gulf Data Hub KAUST 1 (Thuwal, Jeddah Governorate)",
+  "owner": "Gulf Data Hub / Data Hub Tech",
+  "location": {
+    "city": "",
+    "subnational": "Mecca Region - Jiddah",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 8,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/gdh-breaks-ground-on-data-center-in-jeddah-saudi-arabia/",
+    "https://www.kaust.edu.sa/news/kaust-and-gulf-data-hub-break-ground",
+    "https://www.datacentermap.com/saudi-arabia/jeddah/gulf-data-hub-kaust-1/specs/"
+  ],
+  "notes": "DCD: GDH broke ground Sept 2017 on a 27,600 sqm vendor-neutral DC at KAUST (Thuwal, within Jeddah Governorate), completed 2019, operated by Data Hub Tech with users incl. Aramco, Dow, SABIC. DataCenterMap lists 8 MW fully built-out.",
+  "method_batch": true
+}

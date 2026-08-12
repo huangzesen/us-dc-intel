@@ -1,0 +1,20 @@
+{
+  "slug": "method-nl-cellnex-hoogersmilde-edge-datacenter",
+  "canonical_project": "Cellnex Hoogersmilde edge datacenter",
+  "owner": "Cellnex Netherlands",
+  "location": {
+    "city": "",
+    "subnational": "Drenthe",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 0.86,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cellnex.com/nl-en/technology/edge-datacentres/"
+  ],
+  "notes": "Tower-based edge datacenter at Hoogersmilde (official Cellnex edge datacentres page).",
+  "method_batch": true
+}

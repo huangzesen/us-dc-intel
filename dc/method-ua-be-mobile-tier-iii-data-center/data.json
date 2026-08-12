@@ -1,0 +1,20 @@
+{
+  "slug": "method-ua-be-mobile-tier-iii-data-center",
+  "canonical_project": "BE MOBILE TIER III Data Center",
+  "owner": "BeMobile LLC",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv City",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": 7.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bemobile.ua/en"
+  ],
+  "notes": "Official BeMobile page (checked 2026-08-12): independent commercial data center in Kyiv, TIER III, 4,500 m2 data center area, up to 7.5 MW total power, colocation services. Capacity figure from operator's own page (A-grade marketing claim - treat as total power, not IT load).",
+  "method_batch": true
+}

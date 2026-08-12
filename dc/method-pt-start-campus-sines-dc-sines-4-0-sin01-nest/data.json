@@ -1,0 +1,22 @@
+{
+  "slug": "method-pt-start-campus-sines-dc-sines-4-0-sin01-nest",
+  "canonical_project": "Start Campus SINES DC / Sines 4.0 - SIN01 (NEST)",
+  "owner": "Start Campus",
+  "location": {
+    "city": "",
+    "subnational": "Setubal",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": 37.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.startcampus.pt/",
+    "https://www.datacenterdynamics.com/en/news/start-campus-launches-sin01-facility-in-sines-portugal/",
+    "https://eco.sapo.pt/especiais/com-tres-anos-de-atraso-mega-data-center-da-start-campus-ainda-nao-passou-de-projeto-piloto/"
+  ],
+  "notes": "Flagship hyperscale campus in ZILS Sines Industrial and Logistics Zone, Setubal district. Official Start Campus page cites 1.2 GW total campus secured capacity and 37.5 MW live first facility (SIN01); phase-1 construction began April 2022. DCD/ECO confirm SIN01 first building inaugurated; Nscale-Microsoft deployment of ~12,600 NVIDIA GB300 GPUs at SIN01 from Q1 2026 (TechCrunch). Campus design 1.2 GW; live 37.5 MW. Grade A- for operator page existence/capacity, B for operational status confirmation.",
+  "method_batch": true
+}

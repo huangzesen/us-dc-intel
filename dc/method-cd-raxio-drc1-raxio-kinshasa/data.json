@@ -1,0 +1,22 @@
+{
+  "slug": "method-cd-raxio-drc1-raxio-kinshasa",
+  "canonical_project": "Raxio DRC1 (Raxio Kinshasa)",
+  "owner": "Raxio Group",
+  "location": {
+    "city": "",
+    "subnational": "Kinshasa",
+    "country": "Congo, Democratic Republic of the",
+    "country_code": "CD"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.raxiogroup.com/data-centres/dr-congo/",
+    "https://communicationsafrica.com/internet/drcs-largest-data-centre-opens",
+    "https://www.wam.ae/en/article/b4swmg5-congo-inaugurates-30m-data-centre-catalyse-digital"
+  ],
+  "notes": "Carrier-neutral Tier III colocation inaugurated 2024 (US$30m), Limete industriel, 12eme Rue 9/11, Kinshasa. 1,056-1,542 m2 white space, up to 400 racks, 1.5 MW IT power (operator datasheet A; CAF/WAM trade corroboration B). 33 kV utility feed, fuel backup. Uptime Institute DRC1 record exists. GUPEC/ARE permit not surfaced in this pass - noted as missing official permit evidence.",
+  "method_batch": true
+}

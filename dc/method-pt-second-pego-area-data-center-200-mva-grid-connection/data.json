@@ -1,0 +1,20 @@
+{
+  "slug": "method-pt-second-pego-area-data-center-200-mva-grid-connection",
+  "canonical_project": "Second Pego-area data center (200 MVA grid connection)",
+  "owner": "Undisclosed (Hyperion II Renewables Services per industry leads)",
+  "location": {
+    "city": "",
+    "subnational": "Santarem",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": null,
+  "status": "approved",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://mediotejo.net/abrantes-aprova-pedido-previo-para-segundo-centro-de-dados-junto-ao-pego/"
+  ],
+  "notes": "Abrantes municipality approved the prior information request (PIP) for a second data center adjacent to Pego, with 200 MVA grid connection to the future Posto de Corte de Abrantes and expected operation in 2029 (mediotejo, local press). 200 MVA is grid/import capacity, not IT MW. Methodology links Hyperion II Renewables Services to a 200 MVA Pego project; treat as approved at PIP stage.",
+  "method_batch": true
+}

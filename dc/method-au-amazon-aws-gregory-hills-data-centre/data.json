@@ -1,0 +1,21 @@
+{
+  "slug": "method-au-amazon-aws-gregory-hills-data-centre",
+  "canonical_project": "Amazon (AWS) Gregory Hills Data Centre",
+  "owner": "Amazon Corporate Services / AWS",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Camden",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2025-02-07",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.theurbandeveloper.com/articles/amazon-lays-out-south-sydney-data-centre-plans",
+    "https://thesdj.au/story/amazon-powers-up-450m-data-centre-in-gregory-hills/"
+  ],
+  "notes": "43-61 Turner Road, Gregory Hills (Camden LGA); Amazon sought early-works consent Jan 2025 for ~A$450M data centre (local press); part of AWS ap-southeast-2 Sydney region expansion; replaces the abandoned Smeaton Grange site; AWS does not publish per-site MW.",
+  "method_batch": true
+}

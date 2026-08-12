@@ -1,0 +1,22 @@
+{
+  "slug": "method-ke-konza-national-data-centre-boundary-record",
+  "canonical_project": "Konza National Data Centre (boundary record)",
+  "owner": "Konza Technopolis Development Authority (KoTDA); Huawei Cloud Stack technology partner",
+  "location": {
+    "city": "",
+    "subnational": "Makueni",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Konza_Technopolis",
+    "https://konza.go.ke/konza-cloud/",
+    "https://old.konza.go.ke/wp-content/uploads/2021/05/October-December-2020-External-Newsletter.pdf"
+  ],
+  "notes": "Included for Makueni coverage: Konza Technopolis and its National Data Centre are publicly described as spanning the Machakos/Makueni/Kajiado buffer/planning zone (Wikipedia; Konza materials reference benefits to Makueni). The facility itself is confirmed operational (Tier III, KoTDA), but parcel-level county attribution is unresolved; same canonical record under Machakos and Kajiado.",
+  "method_batch": true
+}

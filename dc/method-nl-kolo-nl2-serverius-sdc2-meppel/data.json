@@ -1,0 +1,21 @@
+{
+  "slug": "method-nl-kolo-nl2-serverius-sdc2-meppel",
+  "canonical_project": "Kolo NL2 / Serverius SDC2 (Meppel)",
+  "owner": "Kolo Data Centers / Serverius",
+  "location": {
+    "city": "",
+    "subnational": "Drenthe",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 2.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://kolodc.com/data-centers/colocation-in-the-netherlands/meppel-data-center",
+    "https://www.datacenters.com/serverius-it-infrastructure-sdc2"
+  ],
+  "notes": "Regional colocation at Ketelskamp 10, 7942 KG Meppel (Drenthe); Serverius SDC2 same site, ~2MW power, 16,146 sqft per datacenters.com; Kolo/Serverius group.",
+  "method_batch": true
+}

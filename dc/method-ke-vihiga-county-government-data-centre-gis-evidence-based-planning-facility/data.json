@@ -1,0 +1,22 @@
+{
+  "slug": "method-ke-vihiga-county-government-data-centre-gis-evidence-based-planning-facility",
+  "canonical_project": "Vihiga County Government Data Centre (GIS/evidence-based planning facility)",
+  "owner": "County Government of Vihiga",
+  "location": {
+    "city": "",
+    "subnational": "Vihiga",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.talkafrica.co.ke/how-vihigas-governor-otichillo-replaced-guesswork-with-evidence/",
+    "https://vihiga.go.ke/wp-content/uploads/FINAL-CIDP-2023-2027.pdf",
+    "https://vihiga.go.ke/wp-content/uploads/ADP-2024-25-FINAL-1.pdf"
+  ],
+  "notes": "County-government GIS/data facility at Mbale used for evidence-based planning and county data management; 2026 reporting (Talk Africa) describes the county leveraging the Vihiga Data Center and confirms all 47 counties have established GIS database systems. Vihiga CIDP/ADP documents reference data-centre establishment/planning. Recorded as a government GIS/data centre separate from commercial colocation per KE methodology; no public MW capacity or commercial hosting evidence.",
+  "method_batch": true
+}

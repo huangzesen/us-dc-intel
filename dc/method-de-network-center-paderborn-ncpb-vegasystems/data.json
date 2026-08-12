@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-network-center-paderborn-ncpb-vegasystems",
+  "canonical_project": "Network Center Paderborn (NCPB) - VegaSystems",
+  "owner": "VegaSystems GmbH & Co. KG",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Paderborn",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.network-center-paderborn.de/",
+    "https://www.vegasystems.de/ncpb/",
+    "https://www.datacentermap.com/germany/paderborn/"
+  ],
+  "notes": "Network Center Paderborn (Halberstaedter Str. 99, 33106 Paderborn) with attached ISO 27001-certified, CO2-free/energy-efficient datacenter; VegaSystems won WFG Paderborn Sust-Award 2023 for the facility. Operator official page = A for existence/operation. Capacity MW not published.",
+  "method_batch": true
+}

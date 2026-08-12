@@ -1,0 +1,20 @@
+{
+  "slug": "method-is-rix-pops-taeknigardur-dunhagi-5-isnic-hq-katrinartun-2-mulastod-armula-25",
+  "canonical_project": "RIX POPs (Taeknigardur/Dunhagi 5, ISNIC HQ/Katrinartun 2, Mulastod/Armula 25)",
+  "owner": "RIX (Internet a Islandi hf.)",
+  "location": {
+    "city": "",
+    "subnational": "Capital Region",
+    "country": "Iceland",
+    "country_code": "IS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.rix.is/en/"
+  ],
+  "notes": "Interconnection/IXP colocation rooms in Reykjavik, not a commercial DC campus; RIX official page (A). PeeringDB record is self-reported (C).",
+  "method_batch": true
+}

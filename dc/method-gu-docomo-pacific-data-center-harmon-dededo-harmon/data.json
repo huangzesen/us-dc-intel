@@ -1,0 +1,21 @@
+{
+  "slug": "method-gu-docomo-pacific-data-center-harmon-dededo-harmon",
+  "canonical_project": "DOCOMO Pacific Data Center - Harmon (Dededo/Harmon)",
+  "owner": "DOCOMO Pacific (NTT DOCOMO subsidiary)",
+  "location": {
+    "city": "",
+    "subnational": "Guam",
+    "country": "Guam",
+    "country_code": "GU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://business.docomopacific.com/data-center-colocation",
+    "https://www.datacentermap.com/guam/hagatna/docomo-dededo-data-center/"
+  ],
+  "notes": "Official colocation page lists Harmon as one of three facilities. Directories (DataCenterMap, C) list DoCoMo Harmon Data Center at 467 Harmon Loop Road, Dededo with ~1 MW - directory capacity/address unverified (directories often mislabel Guam villages, per methodology).",
+  "method_batch": true
+}

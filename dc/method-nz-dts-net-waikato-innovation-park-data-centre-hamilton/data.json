@@ -1,0 +1,20 @@
+{
+  "slug": "method-nz-dts-net-waikato-innovation-park-data-centre-hamilton",
+  "canonical_project": "DTS-NET Waikato Innovation Park data centre (Hamilton)",
+  "owner": "DTS-NET",
+  "location": {
+    "city": "",
+    "subnational": "Waikato",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/new-zealand/hamilton-nz/"
+  ],
+  "notes": "Directory-listed newest Waikato datacentre at 3 Melody Lane, Waikato Innovation Park, ~200 racks at ~5 kW avg (~1 MW total). No primary operator page verified - C grade.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-gb-nlighten-nottingham-ema1",
+  "canonical_project": "nLighten Nottingham EMA1",
+  "owner": "nLighten (I Squared Capital)",
+  "location": {
+    "city": "",
+    "subnational": "England - Nottingham",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 4.2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/united-kingdom/nottingham/nlighten-nottingham/",
+    "https://www.nlighten.com/en/"
+  ],
+  "notes": "Edge colocation facility in Nottingham; directory-listed 4.2MW; capacity needs operator verification.",
+  "method_batch": true
+}

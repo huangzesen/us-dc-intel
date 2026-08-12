@@ -1,0 +1,21 @@
+{
+  "slug": "method-sm-data-project-data-center-falciano-rovereta-industrial-zone",
+  "canonical_project": "Data Project 'Data Center' (Falciano, Rovereta industrial zone)",
+  "owner": "Data Project Servizi informatici (Data Center brand, est. 2022)",
+  "location": {
+    "city": "",
+    "subnational": "Serravalle",
+    "country": "San Marino",
+    "country_code": "SM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenter.sm/contatti.htm",
+    "https://sm.linkedin.com/company/datacentersm"
+  ],
+  "notes": "Local San Marino IT/cloud provider: company site (datacenter.sm / dataproject.sm) confirms address Strada Ca' Valentino 91, 47891 Falciano (Serravalle castello, Rovereta industrial zone) and lists a 'Centro Elaborazione Dati' (CED) unit; LinkedIn company page claims data-center and disaster-recovery infrastructure located exclusively within San Marino with VPS/cloud services. Company existence B; physical data-center facility only weakly evidenced (no public specs/capacity/Tier) so grade C per methodology (local IT/MSP/hosting default C until operator-verified). Capacity_mw null.",
+  "method_batch": true
+}

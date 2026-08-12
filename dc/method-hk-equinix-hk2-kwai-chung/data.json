@@ -1,0 +1,22 @@
+{
+  "slug": "method-hk-equinix-hk2-kwai-chung",
+  "canonical_project": "Equinix HK2, Kwai Chung",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/china-colocation/hong-kong-data-centers/hk2",
+    "https://www.datacenterjournal.com/data-centers/hong-kong/hong-kong/equinix-hk2-hong-kong/",
+    "https://www.datacenters.com/equinix-hk2-kwai-chung-n-t"
+  ],
+  "notes": "Equinix HK2 in the Tsuen Wan area per Equinix; aggregators give 7/F Kerry Warehouse, 3 Shing Yiu Street, Kwai Chung (C for address); liquid-cooling-capable. District: Kwai Tsing/Tsuen Wan boundary, CLP territory.",
+  "method_batch": true
+}

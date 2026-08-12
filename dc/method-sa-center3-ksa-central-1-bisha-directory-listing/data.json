@@ -1,0 +1,21 @@
+{
+  "slug": "method-sa-center3-ksa-central-1-bisha-directory-listing",
+  "canonical_project": "center3 KSA Central 1 (Bisha directory listing)",
+  "owner": "center3",
+  "location": {
+    "city": "",
+    "subnational": "'Asir Region - Bishah",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/center3-ksa-central-1",
+    "https://www.datacenters.com/locations/arabia-saudita/aseer-province"
+  ],
+  "notes": "Datacenters.com directory lists center3 KSA Central 1 at Central Park, Abha Street, Bisha, Aseer Province with no power/space/certification data. Directory-grade lead only (C); center3's official network map buckets Saudi facilities under KSA Central (Riyadh metro), so this Bisha address is unverified and possibly mis-attributed. No CST registration or operator facility page confirms a Bisha facility.",
+  "method_batch": true
+}

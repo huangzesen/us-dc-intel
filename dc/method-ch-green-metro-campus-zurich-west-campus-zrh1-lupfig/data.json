@@ -1,0 +1,22 @@
+{
+  "slug": "method-ch-green-metro-campus-zurich-west-campus-zrh1-lupfig",
+  "canonical_project": "Green Metro-Campus Zurich West / Campus ZRH1 (Lupfig)",
+  "owner": "Green Datacenter AG",
+  "location": {
+    "city": "",
+    "subnational": "Aargau",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": 40,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.green.ch/de/grosskunden/datacenter-standorte/green-schweiz/campus-zrh1-lupfig/datacenter-4-lupfig",
+    "https://www.nzz.ch/wirtschaft/green-baut-fuer-70-millionen-ein-neues-rechenzentrum-ld.1420166",
+    "https://www.datacentermap.com/switzerland/zurich/lupfig-datacenter/"
+  ],
+  "notes": "Green's main Swiss campus at Industriestrasse 33, Lupfig (Aargau), one of Switzerland's most important data locations; multiple operational datacenters plus new Datacenter 4 build (~CHF 70m, per NZZ/persoenlich) on Campus ZRH1; directory lists 40 MW for the campus (C-grade capacity, treat as lead). Green is Swiss colocation market leader (ISG study) with hyperscale customers incl. Google/Amazon (workzeitung 2026). Official page A for existence; B for capacity unless datasheet confirms.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-kz-qazcloud-kosshy-data-center",
+  "canonical_project": "QazCloud Kosshy data center",
+  "owner": "QazCloud",
+  "location": {
+    "city": "",
+    "subnational": "Akmola",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/qazcloud-opens-data-center-in-kazakhstan/"
+  ],
+  "notes": "Modular Tier II facility, 259 sqm, 100 racks, Kosshy (20 km from Astana, Akmola Region); consistent with Kazakhtelecom '100-seat Kosshi facility' context.",
+  "method_batch": true
+}

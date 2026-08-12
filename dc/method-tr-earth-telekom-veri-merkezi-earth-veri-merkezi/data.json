@@ -1,0 +1,21 @@
+{
+  "slug": "method-tr-earth-telekom-veri-merkezi-earth-veri-merkezi",
+  "canonical_project": "Earth Telekom Veri Merkezi (Earth Veri Merkezi)",
+  "owner": "Earth Telekomunikasyon Bilisim Internet ArGe Yazilim (Earth Telekom)",
+  "location": {
+    "city": "",
+    "subnational": "Samsun",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://earth.com.tr/verimerkezleri",
+    "https://www.datacentermap.com/turkey/samsun/earth-veri-merkezi/"
+  ],
+  "notes": "Operator official page lists Samsun among its in-country datacenter locations (Ankara, Istanbul, Bursa, Samsun) with Samsun-centred operations at Samsun Teknopark No:3, Atakum; services include colocation, cabinet rental, dedicated/cloud, DR. A for operator/facility existence (official operator page); DataCenterMap lists Earth Veri Merkezi as Samsun only colo/cloud facility; capacity not disclosed. Samsun also cited in AA 2026 national roundup as a province with an operating DC.",
+  "method_batch": true
+}

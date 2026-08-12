@@ -1,0 +1,21 @@
+{
+  "slug": "method-me-drzavni-data-centar-state-data-center-with-dr-center-4ig-idi-implementation",
+  "canonical_project": "Drzavni data centar / State Data Center with DR center (4iG IDI implementation)",
+  "owner": "Government of Montenegro / Ministry of Public Administration; implementation by 4iG International Digital Infrastructure (4iG IDI)",
+  "location": {
+    "city": "",
+    "subnational": "Podgorica",
+    "country": "Montenegro",
+    "country_code": "ME"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-03-25",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.gov.me/clanak/studija-izvodljivosti-za-drzavni-data-centar-i-drzavni-disaster-recovery-centar",
+    "https://www.4ig.hu/digitalization-projects-montenegro"
+  ],
+  "notes": "State DC + State Disaster Recovery centre: feasibility study presented 2025-03-11 by Ministry of Public Administration (with UNOPS, prepared by KPMG; Tier3+ standard requirement per earlier gov.me material). 2026-03-25 the Government selected 4iG Group/4iG IDI to design and operate the TIER III-certified state data centre (preparatory phase; budget TBD); law-enforcement IT programme budget EUR 54.25m is a separate line. Site/municipality not disclosed - Podgorica placeholder per methodology. Status remains planned until location/permit/build evidence appears.",
+  "method_batch": true
+}

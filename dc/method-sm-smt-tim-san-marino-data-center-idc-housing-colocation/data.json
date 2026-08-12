@@ -1,0 +1,22 @@
+{
+  "slug": "method-sm-smt-tim-san-marino-data-center-idc-housing-colocation",
+  "canonical_project": "SMT / TIM San Marino Data Center (IDC - housing & colocation)",
+  "owner": "SMT (San Marino Telecom) / TIM San Marino S.p.A.",
+  "location": {
+    "city": "",
+    "subnational": "unknown within SM",
+    "country": "San Marino",
+    "country_code": "SM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telecomitalia.sm/business/prodotto/housing/",
+    "http://www.smt.sm/en/who-we-are/smt-in-the-world",
+    "https://www.ripe.net/membership/member-support/list-of-members/sm/intelcom/"
+  ],
+  "notes": "Operator data-center/housing service existence is A-grade: TIM San Marino's official Housing page (verified 2026-08-12) offers professional housing/colocation 'presso il nostro Data Center' - redundant 10Gb/s fibre to two separate sites, direct peering at MIX Milano, raised floor, HVAC, UPS, generators, fire suppression, 24x7 monitoring; SMT 'in the World' page lists 3 data centers (San Marino - Arezzo - Milano). Castello/location is NOT disclosed by the facility pages (per methodology do not infer): registered office is Via 28 Luglio 212, Borgo Maggiore (Centro Uffici Tavolucci); AS15433 IP geolocation suggests the Serravalle area. SMT easy-data-center page (2,000 sqm claim) could not be re-fetched (DNS failure 2026-08-12) so capacity/size kept unverified - capacity_mw null.",
+  "method_batch": true
+}

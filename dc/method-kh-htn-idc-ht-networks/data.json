@@ -1,0 +1,21 @@
+{
+  "slug": "method-kh-htn-idc-ht-networks",
+  "canonical_project": "HTN-IDC (HT Networks)",
+  "owner": "HT Networks Co., Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/cambodia/phnom-penh/htn-idc/",
+    "https://lomatechnology.com/blog/data-center-in-cambodia/2130"
+  ],
+  "notes": "Small colocation facility at No. 33-34 St 114, Sangkat Monorom, Khan 7 Makara, Phnom Penh (DataCenterMap, C); also associated with HTN-CIX Cambodia Internet Exchange; capacity not public.",
+  "method_batch": true
+}

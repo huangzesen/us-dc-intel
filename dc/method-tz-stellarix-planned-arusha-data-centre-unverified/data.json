@@ -1,0 +1,20 @@
+{
+  "slug": "method-tz-stellarix-planned-arusha-data-centre-unverified",
+  "canonical_project": "Stellarix planned Arusha data centre (unverified)",
+  "owner": "Stellarix",
+  "location": {
+    "city": "",
+    "subnational": "Arusha",
+    "country": "Tanzania, United Republic of",
+    "country_code": "TZ"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.linkedin.com/pulse/yas-tanzania-expands-operations-launch-business-isai-mathias-8rhcf"
+  ],
+  "notes": "Single LinkedIn/pulse claim (C) that Stellarix plans a national network of facilities including Arusha; no corroborating official/press source found. Per TZ methodology Arusha is a low-probability commercial-colo region (telco cores, bank/enterprise DR, EAC/NGO institutional IT). Recorded as C-grade planned lead only; not a confirmed facility.",
+  "method_batch": true
+}

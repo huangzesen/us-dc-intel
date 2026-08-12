@@ -1,0 +1,21 @@
+{
+  "slug": "method-am-armenian-national-supercomputing-center-anscc",
+  "canonical_project": "Armenian National Supercomputing Center (ANSCC)",
+  "owner": "Government of Armenia / NAS RA / EIF (public-private)",
+  "location": {
+    "city": "",
+    "subnational": "Yerevan",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://anscc.sci.am/",
+    "https://connect.geant.org/2024/06/25/the-national-supercomputer-center-opens-in-armenia-a-milestone-for-research-and-innovation"
+  ],
+  "notes": "Inaugurated 2024-05-31 at Engineering City, Yerevan; first supercomputer in the region, donated by Toulouse Institute of Computer Science Research; institutional HPC, not commercial colo; new find this run.",
+  "method_batch": true
+}

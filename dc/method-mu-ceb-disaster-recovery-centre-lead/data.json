@@ -1,0 +1,20 @@
+{
+  "slug": "method-mu-ceb-disaster-recovery-centre-lead",
+  "canonical_project": "CEB disaster-recovery centre (lead)",
+  "owner": "Central Electricity Board (CEB)",
+  "location": {
+    "city": "",
+    "subnational": "TBD",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://ceb.mu/"
+  ],
+  "notes": "Lead retained from methodology/round-1: CEB internal disaster-recovery/data-centre need appears in public procurement context (data-centre/DR licensing references). Internal DR requirement, not a public colocation facility; location (division TBD) and capacity null.",
+  "method_batch": true
+}

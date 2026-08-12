@@ -1,0 +1,22 @@
+{
+  "slug": "method-sz-hyperscaler-cloud-region-negative-sweep",
+  "canonical_project": "Hyperscaler cloud region - negative sweep",
+  "owner": "",
+  "location": {
+    "city": "",
+    "subnational": "unknown",
+    "country": "Eswatini",
+    "country_code": "SZ"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html",
+    "https://cloud.google.com/about/locations",
+    "https://www.oracle.com/cloud/public-cloud-regions/"
+  ],
+  "notes": "A-grade negative: AWS/Azure/Google Cloud/Oracle OCI region lists contain no Eswatini region; nearest verified regions in South Africa (AWS South Africa/Cape Town, Azure South Africa North/West, GCP Johannesburg africa-south1, OCI Johannesburg). Cloud edge/CDN/partner leads must not be recorded as a local hyperscale region.",
+  "method_batch": true
+}

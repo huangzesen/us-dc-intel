@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-maincubes-fra01-offenbach",
+  "canonical_project": "maincubes FRA01 Offenbach",
+  "owner": "maincubes one GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Offenbach am Main",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 6,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.maincubes.com/en/ai-cloud-provider/",
+    "https://www.peeringdb.com/fac/5427"
+  ],
+  "notes": "maincubes lists FRA01 as in operation with 6 MW capacity; PeeringDB confirms address Goethering 29, Offenbach. Capacity B-grade (marketing).",
+  "method_batch": true
+}

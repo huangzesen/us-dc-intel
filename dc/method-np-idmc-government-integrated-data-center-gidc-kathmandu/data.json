@@ -1,0 +1,21 @@
+{
+  "slug": "method-np-idmc-government-integrated-data-center-gidc-kathmandu",
+  "canonical_project": "IDMC / Government Integrated Data Center (GIDC), Kathmandu",
+  "owner": "Government of Nepal (IDMC, ex-NITC route)",
+  "location": {
+    "city": "",
+    "subnational": "-",
+    "country": "Nepal",
+    "country_code": "NP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://idmc.gov.np/",
+    "https://plgsp.gov.np/redesigning-governance-how-bagamati-province-building-citizen-first-digital-future"
+  ],
+  "notes": "Current government data-center operator route (Bagmati/Kathmandu Valley) for government domain/VM/VPS/colocation/backup; Bagmati province source confirms citizen data hosted on GIDC and the Hetauda DRC. A for government service page; facility size not published.",
+  "method_batch": true
+}

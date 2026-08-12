@@ -1,0 +1,21 @@
+{
+  "slug": "method-sa-jeddah-data-center-jdc-cst-registered-provider-facility",
+  "canonical_project": "Jeddah Data Center (JDC) - CST registered provider facility",
+  "owner": "CST-registered provider (per registry)",
+  "location": {
+    "city": "",
+    "subnational": "Mecca Region - Jiddah",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cst.gov.sa/en/knowledge-center/digital-knowledge/data-center/data-centers-providers",
+    "https://www.cst.gov.sa/en/services/Pages/Data-Centers-Service-Providers.aspx"
+  ],
+  "notes": "CST registered Data Center Services Providers list (decision 502/1445 regime) includes a Jeddah Data Center (JDC) with 'Limited' classification; registry confirms legal service status in Jiddah. Capacity not published by CST.",
+  "method_batch": true
+}

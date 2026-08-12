@@ -1,0 +1,22 @@
+{
+  "slug": "method-pl-t-mobile-polska-data-centers-piaseczno-warsaw-szlachecka",
+  "canonical_project": "T-Mobile Polska data centers (Piaseczno, Warsaw Szlachecka)",
+  "owner": "T-Mobile Polska",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://biznes.t-mobile.pl/en/products-and-services/data-center/server-colocation",
+    "https://biznes.t-mobile.pl/en/data-centers/warszawa-szlachecka-2",
+    "https://inzynierbudownictwa.pl/powstanie-centrum-przetwarzania-danych-t-mobile-polska/"
+  ],
+  "notes": "T-Mobile official page states 5 commercial data centers in Krakow, Warsaw and Wroclaw; Piaseczno is described as the largest/key facility; Warsaw Szlachecka expansion completed Dec 2021 (built with STRABAG per Inzynier Budownictwa). A for operator wording; per-facility capacity not disclosed.",
+  "method_batch": true
+}

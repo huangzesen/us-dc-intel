@@ -1,0 +1,20 @@
+{
+  "slug": "method-re-orange-reunion-data-centre-services-lead",
+  "canonical_project": "Orange Réunion data centre services (lead)",
+  "owner": "Orange Réunion / Orange Business",
+  "location": {
+    "city": "",
+    "subnational": "Reunion",
+    "country": "Reunion",
+    "country_code": "RE"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "U",
+  "sources": [
+    "https://reunion.orange.fr/"
+  ],
+  "notes": "Operator lead only: reunion.orange.fr is live and Orange operates in Reunion (ARCEP-licensed operator), but no public Orange Reunion-specific DC facility page, ICPE/permit, or procurement evidence naming a data centre building was found on run date (French/English/Chinese sweeps). Per methodology remains a lead, not a facility record.",
+  "method_batch": true
+}

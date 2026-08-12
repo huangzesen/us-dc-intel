@@ -1,0 +1,21 @@
+{
+  "slug": "method-lk-dialog-mount-lavinia-cable-landing-station-bbg-maldives-sri-lanka",
+  "canonical_project": "Dialog Mount Lavinia Cable Landing Station (BBG / Maldives-Sri Lanka)",
+  "owner": "Dialog Axiata PLC",
+  "location": {
+    "city": "",
+    "subnational": "Western Province",
+    "country": "Sri Lanka",
+    "country_code": "LK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/stations/asia/sri-lanka",
+    "https://readme.lk/visit-dialog-bbg-cable-station/"
+  ],
+  "notes": "Cable/critical infrastructure: Dialog Mount Lavinia CLS hosts BBG and the Maldives-Sri Lanka Cable; readme.lk documents a visit to Dialog's BBG landing station (B). MSC operational status should be rechecked; not counted as commercial datacenter.",
+  "method_batch": true
+}

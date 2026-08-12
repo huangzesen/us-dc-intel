@@ -1,0 +1,22 @@
+{
+  "slug": "method-ng-oadc-lagos-ikate-elegushi-lekki",
+  "canonical_project": "OADC Lagos (Ikate Elegushi/Lekki)",
+  "owner": "Open Access Data Centres (WIOCC Group)",
+  "location": {
+    "city": "",
+    "subnational": "Lagos",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": 24,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.openaccessdc.net/lagos",
+    "https://technext24.com/explainer/28-data-centres-nigeria-2026/",
+    "https://baxtel.com/data-centers/open-access-data-centres-oadc"
+  ],
+  "notes": "OADC Lagos official page: 7,200 m2 technical space, 24MW site load, Equiano landing-station role; NERC CPG/177 records Open Access Data Centre 3.2MW captive power at Plot 99/100 Silverbird Road, Ikate Elegushi; TechCabal Insights: 1.5MW live, 24MW planned. Treat site load 24MW as planned capacity.",
+  "method_batch": true
+}

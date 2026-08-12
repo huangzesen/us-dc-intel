@@ -1,0 +1,20 @@
+{
+  "slug": "method-fr-apl-abalone-data-center-first-in-moselle",
+  "canonical_project": "APL/Abalone data center (first in Moselle)",
+  "owner": "Abalone Group (designed/built by APL)",
+  "location": {
+    "city": "",
+    "subnational": "Moselle",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.apl-datacenter.com/fr/apl-construit-le-premier-data-center-de-moselle-a-tres-hauts-niveaux-de-performance-energetique-et-de-continuite-de-service/"
+  ],
+  "notes": "APL reference page describes construction of the first data center in Moselle for Abalone Group (temporary-work group) with 99.982% availability target, Tier III architecture evolvable to Tier IV, multi-operator fiber; commune and capacity not disclosed.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-pulsant-south-rotherham-data-centre",
+  "canonical_project": "Pulsant South Rotherham Data Centre",
+  "owner": "Pulsant",
+  "location": {
+    "city": "",
+    "subnational": "England - Rotherham",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 0.38,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.pulsant.com/colocation-rotherham-datacentre",
+    "https://www.datacenterdynamics.com/en/news/uks-pulsant-to-expand-rotherham-data-center/",
+    "https://www.techerati.com/news-hub/pulsant-invests-3-million-to-expand-south-yorkshire-data-centre/"
+  ],
+  "notes": "Edge colocation at Unit 1, Pioneer Close (site code YH-1); GBP3m expansion raised capacity 116% to ~380kW; operator official page confirms operational.",
+  "method_batch": true
+}

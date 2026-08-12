@@ -1,0 +1,22 @@
+{
+  "slug": "method-hk-oneasia-data-centre-chai-wan-oneas1a",
+  "canonical_project": "OneAsia Data Centre, Chai Wan (OneAs1a)",
+  "owner": "OneAsia Network",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/oneas1a-chai-wan",
+    "https://www.datacenterdynamics.com/en/news/oneasia-to-offer-submer-smartpod-immersion-cooling-in-hong-kong/",
+    "https://www.oneas1a.com/connectivity-service/"
+  ],
+  "notes": "OneAsia operates HK DC presence (Chai Wan per Baxtel; Kowloon Bay mentioned on official connectivity page); adopting Submer immersion cooling per DCD. District: Eastern (Chai Wan) / Kwun Tong (Kowloon Bay) - verify.",
+  "method_batch": true
+}

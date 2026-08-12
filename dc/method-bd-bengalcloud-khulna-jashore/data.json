@@ -1,0 +1,20 @@
+{
+  "slug": "method-bd-bengalcloud-khulna-jashore",
+  "canonical_project": "BengalCloud Khulna/Jashore",
+  "owner": "BengalCloud / ADNGateway",
+  "location": {
+    "city": "",
+    "subnational": "Khulna",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://bengalcloud.com/datacenters/"
+  ],
+  "notes": "Operator page claims carrier-neutral datacenter network in Dhaka, Khulna and Jashore with 2N power, FM-200 suppression, 10Gbps BDIX; Khulna/Jashore sites listed with BDBL Bhaban/KDA-area references. Operator claim (A for what operator says) but site independence and underlying host unverified - graded C for facility evidence. Jashore Software Technology Park provides park context.",
+  "method_batch": true
+}

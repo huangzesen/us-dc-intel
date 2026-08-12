@@ -1,0 +1,22 @@
+{
+  "slug": "method-bt-bitdeer-gedu-data-center",
+  "canonical_project": "Bitdeer Gedu data center",
+  "owner": "Bitdeer Technologies Group (DHI strategic partner)",
+  "location": {
+    "city": "",
+    "subnational": "Chhukha",
+    "country": "Bhutan",
+    "country_code": "BT"
+  },
+  "capacity_mw": 100,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bitdeer.com/datacenter",
+    "https://coincu.com/bhutan-bitcoin-reserves-drop-70-percent-mining-status/",
+    "https://www.datacenterdynamics.com/en/news/bitdeer-completes-construction-of-100mw-bhutan-cryptomine-data-center/"
+  ],
+  "notes": "asset_class=crypto/mining datacenter (not commercial colo). Bitdeer official datacenter page lists Gedu, Bhutan 100 MW; Bitdeer January 31, 2026 infrastructure summary lists Gedu as online (reported by coincu); DCD covered 2023 construction completion, Bitdeer's first Asia facility, ~30,000 mining machines / ~3.3 EH/s per Baxtel. Capacity is electrical/mining MW, not IT load.",
+  "method_batch": true
+}

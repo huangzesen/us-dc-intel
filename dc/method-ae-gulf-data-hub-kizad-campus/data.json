@@ -1,0 +1,22 @@
+{
+  "slug": "method-ae-gulf-data-hub-kizad-campus",
+  "canonical_project": "Gulf Data Hub KIZAD campus",
+  "owner": "Gulf Data Hub",
+  "location": {
+    "city": "",
+    "subnational": "Abu Dhabi - Abu Dhabi Municipality",
+    "country": "United Arab Emirates",
+    "country_code": "AE"
+  },
+  "capacity_mw": 16.0,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datacenterhawk.com/marketplace/providers/gulf-data-hub/khalifa-industrial-zone-al-samhah/kizad-campus",
+    "https://www.datacenterdynamics.com/en/news/gulf-data-hub-breaks-ground-on-data-center-in-abu-dhabi/",
+    "https://www.datacentermap.com/united-arab-emirates/abu-dhabi/gulf-data-hub-kizad-1/"
+  ],
+  "notes": "datacenterHawk lists GDH KIZAD Campus under construction at 16,000 kW in Khalifa Industrial Zone; DCD reported groundbreaking; a Meinhardt profile describes a two-building hyperscale project at KIZAD at 22 MW per building (originally 16 MW). Naming varies between KIZAD and ICAD1; location at industrial-zone level, mapped to Abu Dhabi Municipality.",
+  "method_batch": true
+}

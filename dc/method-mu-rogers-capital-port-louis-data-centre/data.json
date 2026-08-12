@@ -1,0 +1,21 @@
+{
+  "slug": "method-mu-rogers-capital-port-louis-data-centre",
+  "canonical_project": "Rogers Capital Port Louis Data Centre",
+  "owner": "Rogers Capital Technology Services Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Port Louis",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/mauritius/port-louis/eis-datacenter/",
+    "https://datacenterplatform.com/data-centers/rogers-capital-technology-services-ltd/"
+  ],
+  "notes": "DataCenterMap lists Rogers Capital Port Louis Data Center at 59 Mere Barthelemy St, Port Louis; DataCenterPlatform lists Rogers Capital Data Center 2 at 59 Edith Cavell St, Port Louis. Rogers official page confirms local data-centre operations (A licence/operator) but this street-level facility page is directory evidence only. Capacity not disclosed.",
+  "method_batch": true
+}

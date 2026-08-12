@@ -1,0 +1,22 @@
+{
+  "slug": "method-mu-emtel-data-centre",
+  "canonical_project": "Emtel Data Centre",
+  "owner": "Emtel Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Pamplemousses",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tiaonline.org/942-datacenter/emtel-data-centre/",
+    "https://www.emtel.com/business/data-centre",
+    "https://www.epi-ap.com/content/19/522/Emtel_Data_Centre_Awarded_the_First_TIA-942_Rated_3_Facilities_Certification_in_Mauritius_by_EPI"
+  ],
+  "notes": "TIA Online (checked 2026-08-12) lists Emtel Data Centre, B11 Plaine des Papayes Road, Arsenal, Mauritius as an active ANSI/TIA-942-B Constructed Facility (certificate TIA942MU230924001); EPI press release (2020-10-27) records the first TIA-942 Rated 3 certification in Mauritius. Emtel official page claims dual 1 MW transformers and N+1 backup generators (operator claims, not IT load) and direct access to METISS/SAFE/LION/LION2; METISS landing is linked to this DC. Arsenal is in Pamplemousses district. Capacity in MW not disclosed.",
+  "method_batch": true
+}

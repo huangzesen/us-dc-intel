@@ -1,0 +1,21 @@
+{
+  "slug": "method-hk-vantage-kwai-chung-hkg3",
+  "canonical_project": "Vantage Kwai Chung HKG3",
+  "owner": "Vantage Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": 14,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vantage-dc.com/data-center-locations/apac/kwai-chung-hong-kong/",
+    "https://www.datacentermap.com/hong-kong/hong-kong/mcx10-kwai-chung-cargo/"
+  ],
+  "notes": "16-floor Kwai Chung facility, 14MW critical IT load per methodology/Vantage; CLP power; Tier III and LEED Platinum claims; aggregator address Cargo Consolidation Complex, 43 Container Port Road (C). District: Kwai Tsing.",
+  "method_batch": true
+}

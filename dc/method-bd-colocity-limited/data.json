@@ -1,0 +1,21 @@
+{
+  "slug": "method-bd-colocity-limited",
+  "canonical_project": "CoLoCity Limited",
+  "owner": "CoLoCity Limited",
+  "location": {
+    "city": "",
+    "subnational": "Dhaka",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://colocity.com.bd/",
+    "https://www.ocolo.io/colocation/colocity-limited/bangladesh/"
+  ],
+  "notes": "Operator page (checked 2026-08-12) confirms Tier III-standard carrier-neutral colocation at Mohakhali Tower, 82 Mohakhali C/A, Dhaka, operating since 2010 (claimed first commercial DC in Bangladesh; Tier III standard, not certified). Historical first/Tier claims Grade B/C.",
+  "method_batch": true
+}

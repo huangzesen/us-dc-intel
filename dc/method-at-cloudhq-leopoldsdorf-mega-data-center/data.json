@@ -1,0 +1,20 @@
+{
+  "slug": "method-at-cloudhq-leopoldsdorf-mega-data-center",
+  "canonical_project": "CloudHQ Leopoldsdorf mega data center",
+  "owner": "CloudHQ",
+  "location": {
+    "city": "",
+    "subnational": "Lower Austria",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": 200.0,
+  "status": "announced",
+  "evidence_date": "2026-07-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.oe24.at/a/leopoldsdorf-bekommt-ein-mega-rechenzentrum-900102492"
+  ],
+  "notes": "oe24 (2026-07-26): US group CloudHQ plans a data center south of the Vienna city border in Leopoldsdorf from 2027; three buildings with ~200 MW connection capacity in final stage, 70 MW in first stage (per CloudHQ manager Andreas Graf-Matzner); closed-loop water cooling, waste-heat re-use considered, EUR 9m community package. Permit process starts with construction start 2027. Status announced/planned; B-grade press until municipal permit or operator confirmation.",
+  "method_batch": true
+}

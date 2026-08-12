@@ -1,0 +1,20 @@
+{
+  "slug": "method-lr-government-data-centers-ministry-of-finance-central-bank-libtelco-monrovia",
+  "canonical_project": "Government data centers - Ministry of Finance, Central Bank, Libtelco (Monrovia)",
+  "owner": "Government of Liberia",
+  "location": {
+    "city": "",
+    "subnational": "Montserrado",
+    "country": "Liberia",
+    "country_code": "LR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-12-31",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ecodob.ecowas.int/telecoms_national_data?cid=9"
+  ],
+  "notes": "ECOWAS Digital Observatory lists three government-owned data centers in Monrovia (Ministry of Finance, Central Bank, Libtelco); annual reports show 3 gov DCs 2023, 1 in 2024. Facility-level capacity not disclosed.",
+  "method_batch": true
+}

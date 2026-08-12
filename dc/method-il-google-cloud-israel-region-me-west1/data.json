@@ -1,0 +1,21 @@
+{
+  "slug": "method-il-google-cloud-israel-region-me-west1",
+  "canonical_project": "Google Cloud Israel Region me-west1",
+  "owner": "Google Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Tel Aviv",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-10-19",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.google.com/blog/products/infrastructure/new-google-cloud-region-in-israel-is-now-open",
+    "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-720231"
+  ],
+  "notes": "Google Cloud region me-west1 in Tel Aviv opened 19 Oct 2022 under Project Nimbus context; logical region only, exact datacenter sites not public.",
+  "method_batch": true
+}

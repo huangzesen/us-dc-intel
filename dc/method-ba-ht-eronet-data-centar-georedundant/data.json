@@ -1,0 +1,21 @@
+{
+  "slug": "method-ba-ht-eronet-data-centar-georedundant",
+  "canonical_project": "HT Eronet Data Centar (georedundant)",
+  "owner": "JP Hrvatske telekomunikacije d.d. Mostar (HT Eronet)",
+  "location": {
+    "city": "",
+    "subnational": "Federation of Bosnia and Herzegovina",
+    "country": "Bosnia and Herzegovina",
+    "country_code": "BA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.hteronet.ba/poslovni-korisnici/ht-eronet-data-centar-pg368",
+    "https://www.hteronet.ba/poslovni-korisnici/kolokacija-posluzitelja-pg64"
+  ],
+  "notes": "Official operator pages (checked 2026-08-12): HT Eronet offers use of a georedundant data centre plus server colocation with redundant cooling/power, reachable via internet or direct HT Eronet network infrastructure. Operator-service evidence for a Mostar (Herzegovina-Neretva Canton, FBiH) facility; site-specific permit/construction records not separately located.",
+  "method_batch": true
+}

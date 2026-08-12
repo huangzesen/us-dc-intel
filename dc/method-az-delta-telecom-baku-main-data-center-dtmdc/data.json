@@ -1,0 +1,23 @@
+{
+  "slug": "method-az-delta-telecom-baku-main-data-center-dtmdc",
+  "canonical_project": "Delta Telecom Baku Main Data Center (DTMDC)",
+  "owner": "Delta Telecom LTD",
+  "location": {
+    "city": "",
+    "subnational": "Baku",
+    "country": "Azerbaijan",
+    "country_code": "AZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/AZ",
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/delta-telecom-baku-main-data-center-dtmdc/2237",
+    "https://colo.exchange/data-centers/delta-telecom-ltd-delta-telecom",
+    "https://www.datacentermap.com/azerbaijan/baku/"
+  ],
+  "notes": "Uptime lists Delta Telecom Baku Main Data Center (DTMDC) with Tier III Design + Constructed Facility. Colocation is marketed at 69 Muzaffar Hasanov (colo.exchange) and the Delta Telekom Alatava facility at 241 Abbas Mirza Sharifzadeh (DataCenterMap); address conflict recorded per methodology pending official resolution. Capacity not disclosed.",
+  "method_batch": true
+}

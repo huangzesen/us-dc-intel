@@ -1,0 +1,21 @@
+{
+  "slug": "method-id-neucentrix-palembang",
+  "canonical_project": "neuCentrIX Palembang",
+  "owner": "Telkom Indonesia (neuCentrIX)",
+  "location": {
+    "city": "",
+    "subnational": "South Sumatra",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://kalbar.antaranews.com/berita/547215/telkom-meresmikan-data-center-neucentrix-wujudkan-ekosistem-digital",
+    "https://www.peeringdb.com/fac/15406"
+  ],
+  "notes": "neuCentrIX Palembang commercialized per Telkom/Antara (one of 5 Sumatra Telkom DCs: Medan, Batam, Pekanbaru, Palembang); PeeringDB lists neuCentriX Talang Kelapa, Palembang (C). Regional edge/colo for South Sumatra. Nusantara NDC Palembang also reported via directory (C, unverified).",
+  "method_batch": true
+}

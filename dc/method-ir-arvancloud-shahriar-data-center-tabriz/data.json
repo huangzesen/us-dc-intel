@@ -1,0 +1,21 @@
+{
+  "slug": "method-ir-arvancloud-shahriar-data-center-tabriz",
+  "canonical_project": "ArvanCloud Shahriar data center (Tabriz)",
+  "owner": "ArvanCloud",
+  "location": {
+    "city": "",
+    "subnational": "East Azerbaijan",
+    "country": "Iran, Islamic Republic of",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-02-06",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.zoomit.ir/pr/379241-arvancloud-datacenter-shahriar/",
+    "https://www.arvancloud.ir/fa/products/cdn/network"
+  ],
+  "notes": "Zoomit reported ArvanCloud opened the Shahriar data center in Tabriz (its first outside Tehran/center), Tier 3 claim, initially 16 racks with another 16 planned, hosting cloud servers; Arvan network page lists Tabriz presence. Operator self-disclosure for Tier; B grade.",
+  "method_batch": true
+}

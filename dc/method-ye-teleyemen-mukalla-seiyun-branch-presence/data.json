@@ -1,0 +1,20 @@
+{
+  "slug": "method-ye-teleyemen-mukalla-seiyun-branch-presence",
+  "canonical_project": "TeleYemen Mukalla/Seiyun branch presence",
+  "owner": "TeleYemen (Yemen International Telecommunications Company)",
+  "location": {
+    "city": "",
+    "subnational": "Hadhramaut",
+    "country": "Yemen",
+    "country_code": "YE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.teleyemen.com.ye/index.php/en/contact-us"
+  ],
+  "notes": "Control side: southern coast (IRG-affiliated administration in Mukalla). TeleYemen official contact page lists Mukalla Branch (Khor Almukalla, 26th Sept) and Seiyun presence (A for branch fact); institutional gateway/telecom presence only, not a public DC. AdenNet Phase 2 (2024) network coverage also extends to Hadhramaut per methodology/Barran lead (B, network-level). No named data-center facility found in Mukalla/Seiyun; oil-sector and Hadhramout University server rooms are C-grade at best and unnamed.",
+  "method_batch": true
+}

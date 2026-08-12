@@ -1,0 +1,20 @@
+{
+  "slug": "method-tr-turk-telekom-ankara-umitkoy-veri-merkezi",
+  "canonical_project": "Turk Telekom Ankara (Umitkoy) Veri Merkezi",
+  "owner": "Turk Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Ankara",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.turktelekom.com.tr"
+  ],
+  "notes": "Per TR methodology baseline (codex-verified official page): Turk Telekom operates three data-center facilities - Istanbul Esenyurt, Istanbul Gayrettepe and Ankara Umitkoy - with ~12,700 m2 total white space. Facility-level capacity not disclosed.",
+  "method_batch": true
+}

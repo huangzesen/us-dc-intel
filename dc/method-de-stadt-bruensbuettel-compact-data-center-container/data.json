@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-stadt-bruensbuettel-compact-data-center-container",
+  "canonical_project": "Stadt Bruensbuettel Compact Data Center Container",
+  "owner": "Stadt Bruensbuettel / Dierck Datacenter",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Dithmarschen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dierck-datacenter.de/referenzen",
+    "https://dierck-gruppe.de/case-studies"
+  ],
+  "notes": "Dierck Datacenter reference (checked 2026-08-12) describes a modular concrete compact data center for Stadt Bruensbuettel in Kreis Dithmarschen with 4 server racks expandable to 5, 10 kW cooling and 10 kW modular UPS, both 2n redundant. Small municipal edge facility; no MW published. Method-driven searches for Heide/Meldorf/Bruensbuettel found no larger commercial project.",
+  "method_batch": true
+}

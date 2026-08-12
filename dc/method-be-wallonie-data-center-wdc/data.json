@@ -1,0 +1,22 @@
+{
+  "slug": "method-be-wallonie-data-center-wdc",
+  "canonical_project": "Wallonie Data Center (WDC)",
+  "owner": "Win (NRB Group)",
+  "location": {
+    "city": "",
+    "subnational": "Wallonia",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-11-27",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.waldc.be/",
+    "https://www.agoria.be/fr/themes/a-propos-de-nous/nouvelles-de-nos-membres/le-wallonie-data-center-wdc-devient-le-premier-centre-de-donnees-certifie-tier-iii-en-belgique-francophone",
+    "https://www.datacenterdynamics.com/en/news/nrb-group-acquires-belgiums-wallonia-data-center/"
+  ],
+  "notes": "Villers-le-Bouillet (Liege province), between Namur and Liege. First Tier III Design certified data center in francophone Belgium (Uptime Institute, Nov 2025); ~1,300 m2, 1,800 on-site PV panels (~10% of consumption). Grown out of the Etix/NRB 'BelgiumDC' project; NRB Group acquired WDC in 2023.",
+  "method_batch": true
+}

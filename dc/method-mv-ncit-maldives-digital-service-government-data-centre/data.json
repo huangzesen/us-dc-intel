@@ -1,0 +1,22 @@
+{
+  "slug": "method-mv-ncit-maldives-digital-service-government-data-centre",
+  "canonical_project": "NCIT / Maldives Digital Service government data centre",
+  "owner": "Government of Maldives (NCIT, succeeded by Maldives Digital Service per Directive No. 4/2026)",
+  "location": {
+    "city": "",
+    "subnational": "Male",
+    "country": "Maldives",
+    "country_code": "MV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.undp.org/sites/g/files/zskgke326/files/2025-06/stateofdigitalmay20th.pdf",
+    "https://dmadd.gov.mv/en/stakeholders",
+    "https://en.mmtv.mv/7777"
+  ],
+  "notes": "Government-owned NCIT data centre in Male (built ~2005 for e-government workloads) confirmed available to government agencies at no fee by the UNDP State of Digital Government 2025 report; NCIT was dissolved and replaced by Maldives Digital Service (MDS) on 2026-01-15 under Presidential Directive No. 4/2026 (DMADD stakeholders page, MMTV). Current live-operation status under MDS needs an official MDS facility page for A-grade confirmation; recorded as operational historical government DC (B).",
+  "method_batch": true
+}

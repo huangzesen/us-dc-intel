@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-nbiserv-rechenzentrum-bethenhausen-near-gera",
+  "canonical_project": "nbiserv Rechenzentrum Bethenhausen (near Gera)",
+  "owner": "nbiserv",
+  "location": {
+    "city": "",
+    "subnational": "Thuringia - Greiz",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nbiserv.de/de/technology",
+    "https://www.nbiserv.de/en/aboutUs"
+  ],
+  "notes": "nbiserv official technology page (checked 2026-08-12) says it operates its own data center in Thuringia near Gera for housing customers; about page places the company in Bethenhausen (Landkreis Greiz) and notes data-center construction began in early 2010. Recorded under Greiz because Bethenhausen is in Kreis Greiz (round-1 had placed this under Gera; corrected per methodology municipality-normalization rule). Capacity not published.",
+  "method_batch": true
+}

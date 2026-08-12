@@ -1,0 +1,22 @@
+{
+  "slug": "method-cm-campost-data-center-yaounde",
+  "canonical_project": "CAMPOST Data Center Yaoundé",
+  "owner": "Cameroon Postal Services (CAMPOST)",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Cameroon",
+    "country_code": "CM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://camix.cm/",
+    "https://www.peeringdb.com/fac/10586",
+    "https://www.datacenterdynamics.com/en/news/uns-upu-director-general-calls-cameroons-data-center-a-growth-opportunity/"
+  ],
+  "notes": "Centre / Mfoundi / Yaoundé, Ave Konrad Adenauer. CAMIX official contact address is Immeuble Data Center CAMPOST, BP 788 Yaoundé (A); PeeringDB fac/10586 lists CAMPOST Data Center Yaoundé with 3 networks and 1 local exchange (CAMIX Yaoundé) (A-). DCD reports the facility cost FCFA 31 bn (~$52m) funded via Chinese concessional loan (B). Institutional/interconnection facility; commercial colocation not yet proven by a CAMPOST service page. No public MW.",
+  "method_batch": true
+}

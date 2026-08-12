@@ -1,0 +1,21 @@
+{
+  "slug": "method-ps-paltel-data-center-nablus-hq-first-paltel-data-center",
+  "canonical_project": "Paltel Data Center - Nablus HQ (first Paltel data center)",
+  "owner": "Palestine Telecommunications Company PLC (Paltel Group)",
+  "location": {
+    "city": "",
+    "subnational": "Nablus",
+    "country": "Palestine, State of",
+    "country_code": "PS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.paltelgroup.ps/pginfo/?p=58225",
+    "https://www.jawwal.ps/en/Nablus-Data-Center-"
+  ],
+  "notes": "Paltel's own Arabic announcement confirms an earlier strategic data-center project at the company's general-management headquarters in Nablus. Historical/limited-spec: no public capacity, Tier, MW, or current-status details beyond public HQ context (Rafedya Main Street, Nablus). Jawwal 'Nablus Data Center' service page (high availability, power/bandwidth redundancy, backup to separate site) was indexed by search engines but currently returns 404; treat as secondary.",
+  "method_batch": true
+}

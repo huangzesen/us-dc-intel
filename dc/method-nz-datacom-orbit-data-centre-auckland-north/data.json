@@ -1,0 +1,21 @@
+{
+  "slug": "method-nz-datacom-orbit-data-centre-auckland-north",
+  "canonical_project": "Datacom Orbit Data Centre (Auckland North)",
+  "owner": "Datacom",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacom.com/nz/en/products/data-centres",
+    "https://datacom.com/nz/en/products/data-centres/locations/orbit-auckland"
+  ],
+  "notes": "Datacom official page: Orbit is Auckland North data centre, up to 10 MW; Uptime Institute M&O stamp (2014/2016).",
+  "method_batch": true
+}

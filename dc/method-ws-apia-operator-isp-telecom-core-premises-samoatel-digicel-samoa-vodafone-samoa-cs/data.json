@@ -1,0 +1,22 @@
+{
+  "slug": "method-ws-apia-operator-isp-telecom-core-premises-samoatel-digicel-samoa-vodafone-samoa-cs",
+  "canonical_project": "Apia operator/ISP telecom core premises (SamoaTel, Digicel Samoa, Vodafone Samoa, CSL) - lead",
+  "owner": "SamoaTel Ltd; Digicel Samoa (Telstra Pacific since 2022-07-14); Vodafone Samoa; Computer Services Limited (CSL)",
+  "location": {
+    "city": "",
+    "subnational": "Tuamasaga",
+    "country": "Samoa",
+    "country_code": "WS"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://regulator.gov.ws/",
+    "https://csl.ws/",
+    "https://www.digicelpacific.com/news/telstra-acquires-digicel-pacific"
+  ],
+  "notes": "OOTR (A) licenses SamoaTel, Digicel, Vodafone, CSL, BlueWave, Starlink Samoa Ltd etc., proving operator existence, not facilities. No primary source in this run names a switch/gateway/NOC/server facility for these operators in Apia; CSL (csl.ws) is a locally owned ISP offering broadband, backups, network infrastructure and Starlink retail but no named hosting/data-centre facility page. Recorded as telecom_core/ISP lead (C) - do not count as datacenter. Starlink Samoa Ltd is connectivity-only (negative control).",
+  "method_batch": true
+}

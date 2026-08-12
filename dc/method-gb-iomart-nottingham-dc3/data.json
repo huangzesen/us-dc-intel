@@ -1,0 +1,21 @@
+{
+  "slug": "method-gb-iomart-nottingham-dc3",
+  "canonical_project": "iomart Nottingham DC3",
+  "owner": "iomart Group plc",
+  "location": {
+    "city": "",
+    "subnational": "England - Nottingham",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.iomart.com/our-data-centres/nottingham-data-centre",
+    "https://www.datacentermap.com/united-kingdom/nottingham/iomart-nottingham/"
+  ],
+  "notes": "Carrier-neutral colocation at 2-6 Fisher Gate, Nottingham NG1 1FY; ISO 27001; ~4,300 sq ft; directory-listed ~1MW.",
+  "method_batch": true
+}

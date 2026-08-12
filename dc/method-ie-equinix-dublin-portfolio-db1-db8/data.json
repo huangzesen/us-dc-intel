@@ -1,0 +1,20 @@
+{
+  "slug": "method-ie-equinix-dublin-portfolio-db1-db8",
+  "canonical_project": "Equinix Dublin portfolio (DB1-DB8)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Leinster",
+    "country": "Ireland",
+    "country_code": "IE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/ireland-colocation/dublin-data-centers"
+  ],
+  "notes": "Equinix Dublin IBX portfolio DB1-DB8 (official page A); DB7x/DB8 expansions tracked via planning records; major Dublin colo/IX anchor with INEX. capacity_mw null (aggregate portfolio).",
+  "method_batch": true
+}

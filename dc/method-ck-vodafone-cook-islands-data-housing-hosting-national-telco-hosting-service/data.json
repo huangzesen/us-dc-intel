@@ -1,0 +1,21 @@
+{
+  "slug": "method-ck-vodafone-cook-islands-data-housing-hosting-national-telco-hosting-service",
+  "canonical_project": "Vodafone Cook Islands Data Housing & Hosting (national telco hosting service)",
+  "owner": "Vodafone Cook Islands (Telecom Cook Islands Ltd)",
+  "location": {
+    "city": "",
+    "subnational": "Cook Islands",
+    "country": "Cook Islands",
+    "country_code": "CK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vodafone.co.ck/about-us",
+    "https://www.vodafone.co.ck/business-cloud-services"
+  ],
+  "notes": "Official Vodafone CK About page lists ICT & Cloud Services including Data Housing & Hosting; business Cloud Services page (checked 2026-08-12) offers Email, Cloud PABX, Data Storage, Website and backup/recovery hosting. Service existence is A-grade official; no public rack count, site count or MW. Telco-hosting/data-centre asset class. Negative evidence as of 2026-08-12: AWS/Azure/GCP/OCI official region pages list no Cook Islands region and PCH/PeeringDB show no local IXP (AS10131 Telecom Cook Islands peers at Equinix Sydney, overseas).",
+  "method_batch": true
+}

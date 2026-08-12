@@ -1,0 +1,22 @@
+{
+  "slug": "method-np-cloud-himalaya-data-center-thapathali-kathmandu",
+  "canonical_project": "Cloud Himalaya data center (Thapathali, Kathmandu)",
+  "owner": "Cloud Himalaya Pvt Ltd",
+  "location": {
+    "city": "",
+    "subnational": "-",
+    "country": "Nepal",
+    "country_code": "NP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cloudhimalaya.com/",
+    "https://www.cloudhimalaya.com/colocation/",
+    "https://www.datacentermap.com/nepal/kathmandu/cloud-himalaya/"
+  ],
+  "notes": "Colocation/cloud provider at Central Business Park, Thapathali (Bagmati), since 2013 with 99.995% uptime claim; 'Tier-4' marketing unverified by Uptime Institute/TIA (U/B); third-party guide mentions a claimed Tilottama DR. A for operator-owned existence; Tier claims U.",
+  "method_batch": true
+}

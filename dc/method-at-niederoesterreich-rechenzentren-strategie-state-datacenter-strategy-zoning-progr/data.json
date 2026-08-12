@@ -1,0 +1,21 @@
+{
+  "slug": "method-at-niederoesterreich-rechenzentren-strategie-state-datacenter-strategy-zoning-progr",
+  "canonical_project": "Niederoesterreich Rechenzentren-Strategie (state datacenter strategy/zoning program)",
+  "owner": "Land Niederösterreich (Lower Austria state government)",
+  "location": {
+    "city": "",
+    "subnational": "Lower Austria",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-04-16",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.noe.gv.at/noe/Niederoesterreich_praesentiert_Rechenzentren-Strategie.html",
+    "https://www.noe.gv.at/noe/iNet_Rechenzentren_in_NOe_2026.pdf"
+  ],
+  "notes": "Official state press release (2026-04-16): Lower Austria is first Bundesland with a dedicated datacenter strategy - new zoning category 'Bauland-Sondergebiet-Rechenzentrum', size categories (<=0.5 ha, <=3 ha, >3 ha requiring state ordinance), priority grid access for public/critical infrastructure; ~3,400 MW of datacenter project inquiries pending (double the state's electricity consumption). Official planning/policy evidence (lead source, not a facility itself); municipalities must be verified individually.",
+  "method_batch": true
+}

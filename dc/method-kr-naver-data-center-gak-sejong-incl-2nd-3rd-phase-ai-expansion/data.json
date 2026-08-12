@@ -1,0 +1,22 @@
+{
+  "slug": "method-kr-naver-data-center-gak-sejong-incl-2nd-3rd-phase-ai-expansion",
+  "canonical_project": "NAVER Data Center GAK Sejong (incl. 2nd/3rd phase AI expansion)",
+  "owner": "NAVER Corporation / NAVER Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Sejong-si - Sejong-Si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": 270,
+  "status": "operational",
+  "evidence_date": "2025-11-10",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.navercorp.com/media/pressReleasesDetail?seq=2315",
+    "https://www.etnews.com/20251028000113",
+    "https://www.hankyung.com/article/2025111034931"
+  ],
+  "notes": "GAK Sejong (Buyong-myeon) launched 2023-11-08 and is operational; NAVER started phase 2/3 construction at end-2025, acquiring 60,000 next-gen Blackwell GPUs and targeting 270MW total campus scale by 2029 as Asia's largest AI hub (AI factory capacity cited growing from 55MW to 200MW+; campus total 270MW per DCD/DataCenterMap). Official NAVER release (A) plus ETNews/Hankyung (B) coverage.",
+  "method_batch": true
+}

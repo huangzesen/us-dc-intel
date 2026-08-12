@@ -1,0 +1,21 @@
+{
+  "slug": "method-th-microsoft-azure-thailand-south-region",
+  "canonical_project": "Microsoft Azure Thailand South Region",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Bangkok",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/apac/2024/05/01/microsoft-announces-significant-commitments-to-enable-a-cloud-and-ai-powered-future-for-thailand/",
+    "https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies"
+  ],
+  "notes": "Announced May 2024 (~US$1bn commitment); Azure geography lists Thailand South as planned/intent; not yet GA; physical sites opaque.",
+  "method_batch": true
+}

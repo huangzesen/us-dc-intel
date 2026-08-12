@@ -1,0 +1,21 @@
+{
+  "slug": "method-my-oracle-cloud-infrastructure-malaysia-west-2-kulai-ap-kulai-2",
+  "canonical_project": "Oracle Cloud Infrastructure Malaysia West 2 (Kulai), ap-kulai-2",
+  "owner": "Oracle",
+  "location": {
+    "city": "",
+    "subnational": "Johor",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-02-02",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.oracle.com/iaas/releasenotes/oci/new-region-malaya-2.htm",
+    "https://www.oracle.com/news/announcement/oracle-to-invest-in-ai-and-cloud-computing-in-malaysia-2024-10-02/"
+  ],
+  "notes": "OCI Malaysia West 2 (Kulai) region ap-kulai-2 became available 2026-02-02 (official OCI release note). Region-level evidence (A); physical facility mapping requires Kulai/Johor planning/utility/operator evidence. Recorded as cloud-region project in Johor division.",
+  "method_batch": true
+}

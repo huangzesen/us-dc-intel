@@ -1,0 +1,21 @@
+{
+  "slug": "method-rs-data-cloud-technology-dct-kragujevac",
+  "canonical_project": "Data Cloud Technology (DCT) Kragujevac",
+  "owner": "Data Cloud Technology d.o.o.",
+  "location": {
+    "city": "",
+    "subnational": "Sumadija",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.peeringdb.com/",
+    "https://datacenterplatform.com/data-centers/office-for-information-technologies-and-e-government-of-serbia/drzavni-data-centar-ddc/"
+  ],
+  "notes": "Commercial operator/entity tied to the state campus (PeeringDB facility 11606); do not merge legal entity with state campus unless sources prove same physical block.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-np-doit-listed-data-center-cloud-service-providers-roster",
+  "canonical_project": "DoIT listed data center & cloud service providers roster",
+  "owner": "Department of Information Technology (DoIT), Government of Nepal",
+  "location": {
+    "city": "",
+    "subnational": "-",
+    "country": "Nepal",
+    "country_code": "NP"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://doit.gov.np/pages/details-of-listed-data-center-and-cloud/",
+    "https://doit.gov.np/content/12100/data-center-and-claud-service--operations-and/"
+  ],
+  "notes": "National roster under the Data Center and Cloud Service (Operation and Management) Directives 2081; verified listed providers: Ncell Axiata Ltd; Access World Tech Pvt. Ltd; Silver Lining Pvt. Ltd; Data Hub Pvt. Ltd; Dish Media Network Ltd; Digital Network Solution/Everest Cloud (cloud-only, not a physical DC); Times Global Pvt Ltd. Roster is A-grade provider evidence, NOT a facility count; Access World/Silver Lining/Dish Media/Times Global lack captured physical-site proof (U).",
+  "method_batch": true
+}

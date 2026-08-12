@@ -1,0 +1,22 @@
+{
+  "slug": "method-hr-hrvatski-telekom-zagreb-data-center-selska-remete",
+  "canonical_project": "Hrvatski Telekom Zagreb data center (Selska/Remete)",
+  "owner": "Hrvatski Telekom (Deutsche Telekom Group)",
+  "location": {
+    "city": "",
+    "subnational": "Zagreb City",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/tier-certification/certification-list/hrvatski-telekom-d-d-ht-data-center-zagreb",
+    "https://blog.siemens.com/en/2026/02/ai-controls-the-cooling-of-croatias-telekom-data-center/",
+    "https://www.hrvatskitelekom.hr/poslovni/ict/wholesale"
+  ],
+  "notes": "Uptime Institute lists HT Data Center Zagreb (opened 2014 at Selska, Zagreb); Siemens 2026-02 blog describes AI-controlled cooling modernization of Croatia's largest telecom data center; telco-owned facility counted as a named physical DC, capacity not published.",
+  "method_batch": true
+}

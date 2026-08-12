@@ -1,0 +1,22 @@
+{
+  "slug": "method-lt-telecentras-vdc3-state-data-center-sausio-13-osios-g",
+  "canonical_project": "Telecentras VDC3 (state data center, Sausio 13-osios g.)",
+  "owner": "Telecentras (AB Lietuvos radijo ir televizijos centras); builders Agentus + KV Baltic",
+  "location": {
+    "city": "",
+    "subnational": "Vilnius County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.lrt.lt/naujienos/verslas/4/2394192/vilniuje-atidaryti-duomenu-centrai-neturi-teisines-bazes-vienas-ju-oficialiai-nebaigtas",
+    "https://sc.bns.lt/view/item/telecentro-valstybiniam-duomenu-centrui-dc3-suteiktas-tier-iii-sertifikatas-504483",
+    "https://www.lrytas.lt/verslas/rinkos-pulsas/2024/04/26/news/telecentras-greitu-laiku-atversime-saugia-buveine-valstybes-duomenims-31571700"
+  ],
+  "notes": "One of two new state DCs (with VDC4, ~300 racks combined) officially opened late Sept 2024; >EUR 20M combined investment. Completion act initially rejected 2024-09-24 (documentation gaps); Tier III certificate granted by Uptime Institute by Apr 2025; in testing/commissioning as of late 2024. VDC3 sits near TV tower (Sausio 13-osios g. area).",
+  "method_batch": true
+}

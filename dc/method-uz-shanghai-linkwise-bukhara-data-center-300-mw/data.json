@@ -1,0 +1,22 @@
+{
+  "slug": "method-uz-shanghai-linkwise-bukhara-data-center-300-mw",
+  "canonical_project": "Shanghai LinkWise Bukhara Data Center (300 MW)",
+  "owner": "Shanghai LinkWise Data Intelligence Co., Ltd.",
+  "location": {
+    "city": "",
+    "subnational": "Bukhara",
+    "country": "Uzbekistan",
+    "country_code": "UZ"
+  },
+  "capacity_mw": 300.0,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/300mw-data-center-to-be-built-in-uzbekistan-with-chinas-linkwise/",
+    "https://www.uzdaily.uz/en/uzbekistan-to-build-300-mw-data-center-with-chinese-company/",
+    "https://baxtel.com/data-centers/shanghai-linkwise-data-intelligence"
+  ],
+  "notes": "Ministry of Energy MoU (2025-07-24) with Shanghai LinkWise for a 300 MW data center in Bukhara region (per DCD/UzDaily/Baxtel). MoU-level planned lead; capacity is a project/power-consumption figure, not installed IT load. No minenergy.uz page or project-company resolution retrieved in this pass; stays B planned. LinkWise also held June 2026 Tashkent city talks (cloud/DC/smart-city), still discussion-level.",
+  "method_batch": true
+}

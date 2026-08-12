@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-addix-dc2-hoern-campus-kiel",
+  "canonical_project": "ADDIX DC2 / Hoern Campus Kiel",
+  "owner": "ADDIX Internet Services GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Kiel",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.addix.net/leistungen/internet-services/housing-rechenzentrum/",
+    "https://www.datacentermap.com/germany/kiel/addix-dc2/",
+    "https://dchub.cloud/facilities/addix-internet-services-gmbh-hoern-campus-kiel-0edeed9a"
+  ],
+  "notes": "ADDIX official page (checked 2026-08-12) describes Kiel data center/server housing at Hoern Campus, Kaistrasse 101; Data Center Map lists ADDIX DC2 and DC Hub reports 3.0 MW operational capacity (directory capacity C-grade cross-checked against operator existence A).",
+  "method_batch": true
+}

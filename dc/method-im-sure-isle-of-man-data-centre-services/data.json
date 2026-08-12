@@ -1,0 +1,21 @@
+{
+  "slug": "method-im-sure-isle-of-man-data-centre-services",
+  "canonical_project": "Sure Isle of Man Data Centre Services",
+  "owner": "Sure by Beyon (Sure Isle of Man)",
+  "location": {
+    "city": "",
+    "subnational": "Isle of Man",
+    "country": "Isle of Man",
+    "country_code": "IM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://business.sure.com/products-and-services/offshore-data-centres/",
+    "https://business.sure.com/assets/Uploads/blocks/downloads/Sure-Data-Centres-Sure-Offshore-A-Feb-2026-2.pdf"
+  ],
+  "notes": "Sure official page confirms secure colocation/hosting across Jersey, Guernsey and the Isle of Man (Crown Dependencies data centres, ISO 27001/22301, PCI-DSS); specific Isle of Man facility address not published - A-grade service evidence, facility address confidence low/unknown; 2026 terms PDF exists for IOM data-centre services.",
+  "method_batch": true
+}

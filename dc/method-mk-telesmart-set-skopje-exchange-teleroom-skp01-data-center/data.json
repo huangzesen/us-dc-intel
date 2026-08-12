@@ -1,0 +1,22 @@
+{
+  "slug": "method-mk-telesmart-set-skopje-exchange-teleroom-skp01-data-center",
+  "canonical_project": "Telesmart SET (Skopje Exchange Teleroom) / SKP01 data center",
+  "owner": "Telesmart Telekom DOOEL",
+  "location": {
+    "city": "",
+    "subnational": "Karpos",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://en.telesmart.mk/colocation/",
+    "https://www.peeringdb.com/fac/11607",
+    "https://www.datacentermap.com/macedonia/skopje/noc-telesmart-telekom/"
+  ],
+  "notes": "Operator page (A) confirms carrier-neutral colocation DC + SET interconnection exchange in Skopje with -48V DC/220V AC power, dual grid + generators + UPS, Novec 1230 fire suppression; official operator address Bul. Kiro Gligorov 4, 1000 Skopje; PeeringDB fac 11607 lists Kiro Gligorov 4 + Bul. Nikola Parapunov bb; datacentermap lists Nikola Parapunov 27A - Nikola Parapunov street runs through Karposh 4 (Karpos municipality, per Sloboden Pecat), so facility assigned to Karpos with Gazi Baba boundary ambiguity noted. why_this_is_a_data_center: marketed colocation/interconnection data centre. what_is_not_confirmed: exact municipal boundary (Kiro Gligorov 4 vs Nikola Parapunov), capacity, permit.",
+  "method_batch": true
+}

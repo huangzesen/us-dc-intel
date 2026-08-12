@@ -1,0 +1,22 @@
+{
+  "slug": "method-hu-dp-data-center-debrecen-galamb-utca-1",
+  "canonical_project": "DP Data Center Debrecen (Galamb utca 1)",
+  "owner": "Dryvit Profi Kft. / DP Data Center",
+  "location": {
+    "city": "",
+    "subnational": "Hajdu-Bihar",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://eps-connect.hu/egyedulallo-adatkozpont-epul-debrecenben/",
+    "https://dryvitprofi.hu/2021/02/19/dp-data-center-szerverkozpont-kiepitesi-munkalatai/",
+    "https://datacenter.hu/"
+  ],
+  "notes": "County-level entry (Hajdu-Bihar): EPS-Connect (2021) reported a unique commercial datacenter under construction in Debrecen's Galamb utca building for Dryvit Profi, designed for direct water cooling and high-density racks; Dryvit Profi's own post covers DP Data Center server-centre build-out; datacenter.hu markets the brand. Current operational status and MW not confirmed in public sources; status per 2021 construction report.",
+  "method_batch": true
+}

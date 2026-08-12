@@ -1,0 +1,21 @@
+{
+  "slug": "method-cv-unitel-t-data-centre",
+  "canonical_project": "Unitel T+ data centre",
+  "owner": "Unitel T+ (Unitel International Holdings group; second mobile/ISP licensee, commercial launch ~2021)",
+  "location": {
+    "city": "",
+    "subnational": "Ilhas de Sotavento",
+    "country": "Cabo Verde",
+    "country_code": "CV"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://cvnet.cv/projetos/data-center-unitel-t/",
+    "https://cvnet.cv/en/projetos/data-center-unitel-t/"
+  ],
+  "notes": "Sotavento / Santiago / Praia (island to verify). Contractor portfolio (CVNET) lists a 'Data Center UNITEL T+' project - rack layout/installation, UPS backup power, cooling systems. Lead only: no ARME licence, operator filing, or municipal record confirming a dedicated facility found in this pass. Grade C. Capacity null.",
+  "method_batch": true
+}

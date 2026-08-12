@@ -1,0 +1,20 @@
+{
+  "slug": "method-mu-government-online-centre-goc",
+  "canonical_project": "Government Online Centre (GOC)",
+  "owner": "Government of Mauritius / MITCI",
+  "location": {
+    "city": "",
+    "subnational": "Moka",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mitci.govmu.org/mitci/government-online-centre/"
+  ],
+  "notes": "MITCI official GOC page (browsed 2026-08-12): centralised state data centre since May 2005, 80-rack capacity, g-Cloud (IaaS/PaaS), web hosting and server co-location. Contact address given as 5th Floor, Shri Atal Bihari Vajpayee Tower, Ebene 72201, i.e. Ebene Cybercity, so assigned to Moka per the methodology physical-location rule (methodology draft had expected Port Louis; official page overrides). Capacity 80 racks; MW not disclosed.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-cv-commercial-colocation-hyperscaler-cloud-region-verified-negative",
+  "canonical_project": "Commercial colocation / hyperscaler cloud region (verified negative)",
+  "owner": "",
+  "location": {
+    "city": "",
+    "subnational": "Ilhas de Sotavento",
+    "country": "Cabo Verde",
+    "country_code": "CV"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/",
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list",
+    "https://cloud.google.com/about/locations",
+    "https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm"
+  ],
+  "notes": "No AWS/Azure/GCP/OCI Cabo Verde cloud region or local zone - absence documented as a checked fact in the CV methodology (2026-08-12) and no hyperscaler region evidence surfaced in this run's searches; reseller/VPS pages are service evidence only. No independent colocation vendor beyond CVTelecom confirmed. Verified-negative record for completeness.",
+  "method_batch": true
+}

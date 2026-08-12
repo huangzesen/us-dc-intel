@@ -1,0 +1,21 @@
+{
+  "slug": "method-ng-aws-lagos-local-zone-af-south-1-los-1a",
+  "canonical_project": "AWS Lagos Local Zone (af-south-1-los-1a)",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Lagos",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html",
+    "https://aws.amazon.com/about-aws/global-infrastructure/regions_az/"
+  ],
+  "notes": "AWS official Local Zones docs list Nigeria (Lagos) Local Zone af-south-1-los-1a, parent region af-south-1. Local Zone/edge infrastructure hosted at Lagos operator facilities, NOT a full AWS Region; no Azure/GCP/OCI Nigeria region on official lists.",
+  "method_batch": true
+}

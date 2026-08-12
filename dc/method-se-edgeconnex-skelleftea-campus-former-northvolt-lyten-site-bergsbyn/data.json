@@ -1,0 +1,23 @@
+{
+  "slug": "method-se-edgeconnex-skelleftea-campus-former-northvolt-lyten-site-bergsbyn",
+  "canonical_project": "EdgeConneX Skelleftea campus (former Northvolt/Lyten site, Bergsbyn)",
+  "owner": "EdgeConneX",
+  "location": {
+    "city": "",
+    "subnational": "Vasterbotten",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": 1000,
+  "status": "planned",
+  "evidence_date": "2026-02-27",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.edgeconnex.com/news/press-releases/edgeconnex-looks-to-enter-swedish-market-as-part-of-european-data-center-expansion-strategy/",
+    "https://www.datacenterdynamics.com/en/news/edgeconnex-targets-gigawatt-scale-campus-in-sweden/",
+    "https://www.datacentermap.com/sweden/skelleftea/edgeconnex-skelleftea/",
+    "https://itbrief.com.au/story/lyten-s-usd-5bn-deal-to-build-swedish-battery-hub"
+  ],
+  "notes": "EdgeConneX announced plans to acquire the Skelleftea site from Lyten (former Northvolt battery plant, Torsgatan 122 Bergsbyn); DCD reports the campus could support up to 1 GW, subject to approvals and full development. DatacenterMap lists the entry at 1,000 MW. Status planned/early; capacity is site potential, not committed IT load.",
+  "method_batch": true
+}

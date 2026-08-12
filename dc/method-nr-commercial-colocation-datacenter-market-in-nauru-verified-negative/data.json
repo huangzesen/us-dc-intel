@@ -1,0 +1,20 @@
+{
+  "slug": "method-nr-commercial-colocation-datacenter-market-in-nauru-verified-negative",
+  "canonical_project": "Commercial colocation / datacenter market in Nauru - verified negative",
+  "owner": "",
+  "location": {
+    "city": "",
+    "subnational": "Unknown NR",
+    "country": "Nauru",
+    "country_code": "NR"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/"
+  ],
+  "notes": "No verified commercial colocation provider or third-party datacenter in Nauru. Directory-type 'Unknown Nauru Data Center' entries (e.g., dchub.cloud) lack operator/address/corroboration and are Grade C lead-generation artifacts - not counted. Power sanity check: NUC reports ~5-6 MW peak island demand (11.6 MW firm capacity, 5.3 MW max demand in annual report), so any multi-MW DC claim would be nationally material and needs primary power/procurement evidence.",
+  "method_batch": true
+}

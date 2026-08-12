@@ -1,0 +1,21 @@
+{
+  "slug": "method-ch-green-zurich-city-schlieren",
+  "canonical_project": "Green Zurich City (Schlieren)",
+  "owner": "Green Datacenter AG",
+  "location": {
+    "city": "",
+    "subnational": "Zurich",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/switzerland/zurich/",
+    "https://baxtel.com/data-center/green-datacenter-zurich-city-schlieren"
+  ],
+  "notes": "Zurich West campus at Unterrohrstrasse 4, 8952 Schlieren; expanded 2020 with 5,500 m2 DC space.",
+  "method_batch": true
+}

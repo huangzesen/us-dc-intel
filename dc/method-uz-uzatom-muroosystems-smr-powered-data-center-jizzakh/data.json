@@ -1,0 +1,23 @@
+{
+  "slug": "method-uz-uzatom-muroosystems-smr-powered-data-center-jizzakh",
+  "canonical_project": "Uzatom / Muroosystems SMR-powered Data Center (Jizzakh)",
+  "owner": "Uzatom (Atomic Energy Agency) + Muroosystems Corporation",
+  "location": {
+    "city": "",
+    "subnational": "Jizzakh",
+    "country": "Uzbekistan",
+    "country_code": "UZ"
+  },
+  "capacity_mw": 50.0,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.neimagazine.com/news/uzbekistan-partners-on-smr-powered-data-centre/",
+    "https://interfax.com/newsroom/top-stories/115396/",
+    "https://www.muroosystems.com/en/5-1/",
+    "https://one.uz/en/news/uzbekistan/28524-a-data-center-based-on-atomic-energy-will-be-built-in-uzbekistan.html"
+  ],
+  "notes": "Uzatom and Japan's Muroosystems launched cooperation for a data center powered entirely by SMR electricity, approx. 50 MW demand, centred in the Jizzakh region (NEI Magazine; Interfax; Muroosystems official page; world-nuclear-news MoU coverage). Planned lead; requires Uzatom/lex.uz/minenergy confirmation of site, grid interconnection and schedule before upgrading. 50 MW is stated power demand, not confirmed IT load.",
+  "method_batch": true
+}

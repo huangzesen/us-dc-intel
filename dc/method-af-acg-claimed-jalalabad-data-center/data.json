@@ -1,0 +1,20 @@
+{
+  "slug": "method-af-acg-claimed-jalalabad-data-center",
+  "canonical_project": "ACG claimed Jalalabad data center",
+  "owner": "Asia Consultancy Group (ACG) - claim only",
+  "location": {
+    "city": "",
+    "subnational": "Nangarhar",
+    "country": "Afghanistan",
+    "country_code": "AF"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/c/asia-consultancy-group/"
+  ],
+  "notes": "Directory-only claim (DataCenterMap ACG company profile) of an ACG data center in Jalalabad, Nangarhar. No independent operator facility page, permit, or press verification found; ACG's own ICT page confirms only its Kabul HQ data center. C lead, not a verified facility.",
+  "method_batch": true
+}

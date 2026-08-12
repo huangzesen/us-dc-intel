@@ -1,0 +1,21 @@
+{
+  "slug": "method-gb-linlithgow-campus-data-centre-former-oracle-facility",
+  "canonical_project": "Linlithgow Campus data centre (former Oracle facility)",
+  "owner": "Linlithgow Campus / former Oracle facility",
+  "location": {
+    "city": "",
+    "subnational": "Scotland - West Lothian",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 6.8,
+  "status": "unknown",
+  "evidence_date": "2025-10-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://linlithgowcampus.com/",
+    "https://www.theregister.com/2021/12/06/oracle_set_to_close_datacentre_in_linlithgow_scotland/"
+  ],
+  "notes": "Former Oracle/Sun Linlithgow data centre site; marketing brochure says Oracle previously operated the on-site data centre, a certificate of lawfulness covers data centre use, and existing supply is 6.8MW with 4MW available; The Register reported in 2021 that Oracle planned to close the facility, so current operating status is uncertain.",
+  "method_batch": true
+}

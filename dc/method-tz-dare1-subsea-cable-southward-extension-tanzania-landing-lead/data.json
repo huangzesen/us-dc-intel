@@ -1,0 +1,21 @@
+{
+  "slug": "method-tz-dare1-subsea-cable-southward-extension-tanzania-landing-lead",
+  "canonical_project": "DARE1 subsea cable southward extension (Tanzania landing lead)",
+  "owner": "Djibouti Telecom (DARE1 consortium); Tanzania landing via Mtwara/coast watch",
+  "location": {
+    "city": "",
+    "subnational": "Mtwara",
+    "country": "Tanzania, United Republic of",
+    "country_code": "TZ"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/systems/asia-europe-africa/dare1/djibouti-telecom-announces-dare1-route-extension",
+    "https://www.submarinecablemap.com/landing-point/dar-es-salaam-tanzania"
+  ],
+  "notes": "Djibouti Telecom announced (2025-09) a southward extension of the DARE1 cable with work targeted from 2026 and ready-for-service around 2028; Tanzania/Mtwara-coast is a future landing/fibre watch area per TZ methodology. This is subsea-cable/telecom infrastructure, NOT a commercial datacenter (no colo/hosting facility confirmed). Negative sweep: 'Mtwara Tanzania data centre OR data center OR landing station OR DARE1' found no datacenter project in Mtwara region.",
+  "method_batch": true
+}

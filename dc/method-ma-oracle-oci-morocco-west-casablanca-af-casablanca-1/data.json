@@ -1,0 +1,22 @@
+{
+  "slug": "method-ma-oracle-oci-morocco-west-casablanca-af-casablanca-1",
+  "canonical_project": "Oracle OCI Morocco West / Casablanca (af-casablanca-1)",
+  "owner": "Oracle Cloud Infrastructure; hosted at N+ONE Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Casablanca-Settat",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-02-20",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.oracle.com/iaas/releasenotes/oci/new-region-casablanca-1.htm",
+    "https://www.oracle.com/africa-fr/news/announcement/oracle-first-hyperscaler-open-public-cloud-2026-04-07/",
+    "https://www.datacenterdynamics.com/en/news/oracle-launches-cloud-region-in-casablanca-morocco/"
+  ],
+  "notes": "OCI release notes: region Morocco West (Casablanca), id af-casablanca-1, key LEJ, one availability domain, available 2026-02-20; Oracle 2026-04-07 announcement names N+ONE as hosting partner. A-grade live public cloud region - Morocco's only verified hyperscaler region.",
+  "method_batch": true
+}

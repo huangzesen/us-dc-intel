@@ -1,0 +1,22 @@
+{
+  "slug": "method-ru-rtcloud-24dc-krasnoyarsk-data-center",
+  "canonical_project": "RTCloud / 24DC Krasnoyarsk Data Center",
+  "owner": "RTCloud / System Projects LLC",
+  "location": {
+    "city": "",
+    "subnational": "Krasnoyarsk",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 0.2,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.rtcloud.ru/about/infrastructure/datacenter/krsk-kirenskogo/",
+    "https://www.datacentermap.com/russia/krasnoyarsk/24dc/",
+    "https://datacentercatalog.com/russian-federation/24dc"
+  ],
+  "notes": "RTCloud colocation node at Kirenskogo str., Krasnoyarsk (official operator infrastructure page). Krasnoyarsk is a methodology high-priority power-rich/cold region; existing facility inventory is small but the region is a target for AI/HPC expansion.",
+  "method_batch": true
+}

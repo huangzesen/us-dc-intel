@@ -1,0 +1,21 @@
+{
+  "slug": "method-iq-legacy-baghdad-data-centers-gccit-alamiya-talia",
+  "canonical_project": "Legacy Baghdad data centers (GCCIT / Alamiya / Talia)",
+  "owner": "GCCIT (General Company for Communications and Informatics), Alamiya Co, Talia",
+  "location": {
+    "city": "",
+    "subnational": "Baghdad",
+    "country": "Iraq",
+    "country_code": "IQ"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2023-08-22",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/iraq-govt-launches-national-data-center/",
+    "https://www.datacenterjournal.com/data-centers/iraq/baghdad/"
+  ],
+  "notes": "DCD citing Data Center Journal reports three data centers in Baghdad run by GCCIT, Alamiya Co and Talia. Legacy directory leads only; may be stale. Promote only with current official/operator evidence.",
+  "method_batch": true
+}

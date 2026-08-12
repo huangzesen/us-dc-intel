@@ -1,0 +1,23 @@
+{
+  "slug": "method-km-data-center-de-l-administration-publique-national-public-administration-data-cen",
+  "canonical_project": "Data Center de l'Administration Publique (national public-administration data centre)",
+  "owner": "Government of the Union of the Comoros - ANADEN (Agence Nationale de Developpement du Numerique) and Comores Cables S.A. (co-managed); AfDB PADEC financing (P-KM-G00-001)",
+  "location": {
+    "city": "",
+    "subnational": "Grande Comore",
+    "country": "Comoros",
+    "country_code": "KM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://anaden.org/realisations",
+    "https://comorescables.km/",
+    "https://www.agenceecofin.com/actualites-numerique/1405-128350-comores-inauguration-du-centre-de-donnees-de-l-administration-publique-le-19-mai",
+    "https://dig.watch/countries/comoros"
+  ],
+  "notes": "Confirmed national/public facility (Grande Comore, Moroni area; exact commune/address not public). ANADEN official Realisations page (A-grade) states ANADEN and Comores Cables announced inauguration of the Data Center de l'Administration Publique on 19 May 2025, under President Azali Assoumani and the Minister of Posts/Telecom/Digital Economy; purpose: secure hosting, centralisation and backup of public data, IT-resource mutualisation, service resilience; supports national DNS, digital identity and e-service portals (Comores Numerique 2028 / Plan Comores Emergent). Comores Cables now markets advanced data-management and hosting solutions from its datacenter (comorescables.km, A-grade company statement). Press reports (Agence Ecofin 2025-05-14; Dig Watch) add claimed Tier 3 and '44.4 Tb' hosting capacity - unit ambiguous as published; Tier-3 is self-declared, NO TIA-942/EPI/Uptime certification entry found for Comoros. No MW capacity disclosed (capacity_mw null).",
+  "method_batch": true
+}

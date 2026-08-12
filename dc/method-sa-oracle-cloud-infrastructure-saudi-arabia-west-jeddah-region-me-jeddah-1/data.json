@@ -1,0 +1,21 @@
+{
+  "slug": "method-sa-oracle-cloud-infrastructure-saudi-arabia-west-jeddah-region-me-jeddah-1",
+  "canonical_project": "Oracle Cloud Infrastructure Saudi Arabia West (Jeddah) region (me-jeddah-1)",
+  "owner": "Oracle",
+  "location": {
+    "city": "",
+    "subnational": "Mecca Region - Jiddah",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.oracle.com/iaas/releasenotes/changes/b38848ee-ecd2-4c36-9491-95628f16dffd/index.htm",
+    "https://www.oracle.com/cloud/public-cloud-regions/"
+  ],
+  "notes": "OCI Saudi Arabia West region became available 2020-02-01 with one availability domain and remains listed as an active public cloud region (me-jeddah-1). Region/city existence evidence, not a building-level record; no public MW.",
+  "method_batch": true
+}

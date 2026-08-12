@@ -1,0 +1,21 @@
+{
+  "slug": "method-st-inic-data-center-national-data-center-current-facility",
+  "canonical_project": "INIC Data Center / National Data Center (current facility)",
+  "owner": "INIC (Instituto de Inovacao e Conhecimento)",
+  "location": {
+    "city": "",
+    "subnational": "Agua Grande",
+    "country": "Sao Tome and Principe",
+    "country_code": "ST"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://inic.gov.st/ler_mais.php?id=97",
+    "https://executivedigest.sapo.pt/grupo-erre-ganha-projeto-de-criacao-de-um-novo-centro-tecnologico-em-sao-tome-e-principe/"
+  ],
+  "notes": "A-grade government Data Center/hosting service seed (official INIC service page lists Data Center, Backup, Pasta Partilhada, Alojamento & VPS, Gestao gov.st, Email Institucional, VPN, Rede e Infraestrutura, Administracao de Sistemas). INIC HQ: Rua Salustino da Graca, Edificio do Gabinete do Primeiro Ministro, Cidade de Sao Tome (Agua Grande). Capacity/tier/racks not public; exact server-room details not public. Facility located at sea level in Sao Tome with flood/disaster risk (per World Bank P177158 reporting).",
+  "method_batch": true
+}

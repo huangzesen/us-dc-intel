@@ -1,0 +1,21 @@
+{
+  "slug": "method-ke-africa-data-centres-second-nairobi-facility",
+  "canonical_project": "Africa Data Centres second Nairobi facility",
+  "owner": "Africa Data Centres / Cassava Technologies",
+  "location": {
+    "city": "",
+    "subnational": "Nairobi City",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": 20.0,
+  "status": "planned",
+  "evidence_date": "2021-11-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.africadatacentres.com/africa-data-centres-announces-two-further-facilities-in-nairobi/",
+    "https://www.datacenterdynamics.com/en/news/africa-data-centres-announces-two-facilities-in-nairobi-kenya/"
+  ],
+  "notes": "ADC announced (Nov 2021) development of a second Nairobi data centre of up to 20 MW IT load and was securing land for a third facility. Later public status not confirmed in accessible sources; treat as planned with status U for current progress.",
+  "method_batch": true
+}

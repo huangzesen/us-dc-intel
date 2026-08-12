@@ -1,0 +1,20 @@
+{
+  "slug": "method-il-techtonic-bet-shemesh-underground-data-center",
+  "canonical_project": "Techtonic Bet Shemesh Underground Data Center",
+  "owner": "Techtonic",
+  "location": {
+    "city": "",
+    "subnational": "HaMerkaz",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 16,
+  "status": "planned",
+  "evidence_date": "2024-02-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/techtonic-planning-16mw-underground-data-center-in-bet-shemesh-israel/"
+  ],
+  "notes": "DCD: Techtonic planning 16MW fortified underground hosting facility in Bet Shemesh, ~20km east of Jerusalem; announced early 2024, status to verify locally (Bet Shemesh assigned to HaMerkaz per repo convention for Mega DC MDCIL-4).",
+  "method_batch": true
+}

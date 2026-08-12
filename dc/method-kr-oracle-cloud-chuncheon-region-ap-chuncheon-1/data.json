@@ -1,0 +1,20 @@
+{
+  "slug": "method-kr-oracle-cloud-chuncheon-region-ap-chuncheon-1",
+  "canonical_project": "Oracle Cloud Chuncheon region (ap-chuncheon-1)",
+  "owner": "Oracle",
+  "location": {
+    "city": "",
+    "subnational": "Gangwon-do - Chuncheon-si",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm"
+  ],
+  "notes": "Official Oracle cloud region South Korea North (Chuncheon); region/AZ existence is official; physical facilities undisclosed (methodology anchor).",
+  "method_batch": true
+}

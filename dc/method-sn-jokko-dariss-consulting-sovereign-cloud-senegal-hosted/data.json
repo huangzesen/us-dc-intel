@@ -1,0 +1,21 @@
+{
+  "slug": "method-sn-jokko-dariss-consulting-sovereign-cloud-senegal-hosted",
+  "canonical_project": "Jokko / Dariss Consulting sovereign cloud (Senegal-hosted)",
+  "owner": "Dariss Consulting (Jokko Pro Africa)",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://jokko.sn/serveurs/",
+    "https://dariss.net/"
+  ],
+  "notes": "Provider claims a Senegal sovereign cloud hosted in a Tier III+ Dakar datacenter (A for provider claim; C/B for the unnamed host facility and Tier III+ claim, which has no Uptime record). Service-level record, not a standalone facility.",
+  "method_batch": true
+}

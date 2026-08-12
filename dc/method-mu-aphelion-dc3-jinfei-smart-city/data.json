@@ -1,0 +1,21 @@
+{
+  "slug": "method-mu-aphelion-dc3-jinfei-smart-city",
+  "canonical_project": "Aphelion DC3 (JinFei Smart City)",
+  "owner": "Aphelion Limited",
+  "location": {
+    "city": "",
+    "subnational": "Pamplemousses",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/mauritius/rose-belle/rose-belle-data-centre/",
+    "https://aphelion-group.com/"
+  ],
+  "notes": "DataCenterMap lists Aphelion DC3 at Noah Wealth Center, JinFei Smart City (C); business directories confirm Noah Wealth Centre is in the Jinfei Economic Trade and Cooperation Zone, Riche Terre/Terre Rouge, which per methodology is Pamplemousses district (do not assign to Port Louis from market labels). Operator site confirms Aphelion cloud/managed-services business but no facility page. Round-1 UPSTACK listing described a Tier 3-equivalent IDC built in 2015. Capacity not disclosed.",
+  "method_batch": true
+}

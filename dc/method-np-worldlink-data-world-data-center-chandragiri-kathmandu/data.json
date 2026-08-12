@@ -1,0 +1,22 @@
+{
+  "slug": "method-np-worldlink-data-world-data-center-chandragiri-kathmandu",
+  "canonical_project": "WorldLink Data World data center (Chandragiri, Kathmandu)",
+  "owner": "WorldLink Communications / Data World",
+  "location": {
+    "city": "",
+    "subnational": "-",
+    "country": "Nepal",
+    "country_code": "NP"
+  },
+  "capacity_mw": 3.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/wordlink-launches-35mw-data-center-in-chandragiri-nepal/",
+    "https://www.nepalitelecom.com/worldlink-builds-nepals-largest-data-center-in-chandragiri",
+    "https://www.datacentermap.com/nepal/kathmandu/worldlink-chandragiri/"
+  ],
+  "notes": "Launched Feb 2025 in Chandragiri (Bagmati); 3.5 MW IT power, 520 racks, near NEA Mata Tirtha substation; marketed as Nepal's first Tier-3/Edge-certified green facility (certifier not identified -> certification claim U/B). B from trade press until operator-primary page captured.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-th-supernap-thailand-bo-win",
+  "canonical_project": "SUPERNAP Thailand (Bo Win)",
+  "owner": "SUPERNAP Thailand (China Mobile International linked)",
+  "location": {
+    "city": "",
+    "subnational": "Chon Buri",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/thailand/"
+  ],
+  "notes": "Operational hyperscale colocation since 2017 at Bo Win, Chonburi (marketed as Bangkok I); capacity not re-verified this round.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-pg-png-dataco-primary-data-centre-gerehu-earth-station",
+  "canonical_project": "PNG DataCo Primary Data Centre (Gerehu Earth Station)",
+  "owner": "PNG DataCo Limited (state-owned wholesale telco)",
+  "location": {
+    "city": "",
+    "subnational": "National Capital District",
+    "country": "Papua New Guinea",
+    "country_code": "PG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.pngdataco.com/services/ict-and-cloud-solutions/data-center-services/",
+    "https://www.datacentermap.com/papua-new-guinea/port-moresby/png-dataco-primary-data-centre/",
+    "https://www.apacoutlookmag.com/technology/png-dataco-leading-the-digital-transformation"
+  ],
+  "notes": "PNG DataCo official data center services page confirms a Tier 3, ISO 27001-certified (CERT NO: IS27-2022-0130) sovereign hosting facility with rack space, redundant power/cooling, 24/7 monitoring and DR hosting; head office at Waigani (Savannah Heights), facility per DataCenterMap at DataCo Earth Station Rd, Gerehu, Port Moresby (NCD). APAC Outlook (B) describes DataCo's Tier 3 data centre delivering cloud/IaaS/PaaS/SaaS. No public MW/racks stated; capacity null per methodology.",
+  "method_batch": true
+}

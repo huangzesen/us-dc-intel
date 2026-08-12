@@ -1,0 +1,20 @@
+{
+  "slug": "method-ug-mtn-uganda-regional-data-centre-western-region",
+  "canonical_project": "MTN Uganda regional data centre (Western region)",
+  "owner": "MTN Uganda",
+  "location": {
+    "city": "",
+    "subnational": "Western",
+    "country": "Uganda",
+    "country_code": "UG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mtn.co.ug/businesssolutions/data-centre/"
+  ],
+  "notes": "MTN Uganda official page states its 6 data centres are spread across Central, Eastern, Western and Southern regions (total 972 racks), providing operator evidence of data-centre presence in the Western region; specific town/campus not disclosed. Otherwise Western hits (Mbarara, Hoima, oil/gas, bank DR) are watchlist signals; no independent commercial colocation facility verified.",
+  "method_batch": true
+}

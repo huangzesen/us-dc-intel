@@ -1,0 +1,21 @@
+{
+  "slug": "method-hk-airtrunk-hkg1-tsing-yi-tsuen-wan-area",
+  "canonical_project": "AirTrunk HKG1, Tsing Yi/Tsuen Wan area",
+  "owner": "AirTrunk",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://airtrunk.com/location/hkg1-hong-kong/",
+    "https://www.datacenterdynamics.com/en/news/airtrunk-opens-singapore-hong-kong-data-centers/"
+  ],
+  "notes": "AirTrunk official page: total capacity above 20MW, 17,400 sq m GFA, 8,000+ sq m technical space; opened Dec 2020; Microsoft anchor; CLP REC deal Nov 2022; aggregator address 22-28 Cheung Tat Road (C). District: Kwai Tsing/Tsuen Wan boundary.",
+  "method_batch": true
+}

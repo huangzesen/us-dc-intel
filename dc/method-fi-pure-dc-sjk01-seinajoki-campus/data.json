@@ -1,0 +1,22 @@
+{
+  "slug": "method-fi-pure-dc-sjk01-seinajoki-campus",
+  "canonical_project": "Pure DC SJK01 Seinajoki campus",
+  "owner": "Pure DC; SDC Ventures",
+  "location": {
+    "city": "",
+    "subnational": "South Ostrobothnia",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": 550,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://puredc.com/finland",
+    "https://www.datacenterdynamics.com/en/news/microsoft-signs-on-for-capacity-at-pure-dc-data-center-in-finland-report/",
+    "https://www.seinajoki.fi/asukasilta-datakeskuksesta/"
+  ],
+  "notes": "Pure DC describes Seinajoki SJK01 as its largest campus, scalable beyond 550 MW on ~370 acres; phase 1 underway with 110 MW leased (press reports Microsoft as tenant). Seinajoki city hosted a resident info session on the datacenter (Aug 2026), confirming municipal engagement.",
+  "method_batch": true
+}

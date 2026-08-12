@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-colocationix-dc1-ex-atomic-bunker",
+  "canonical_project": "ColocationIX DC1 (ex-atomic bunker)",
+  "owner": "ColocationIX GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bremen - Bremen",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.colocationix.de/rechenzentrum-in-bremen/",
+    "https://inflect.com/building/17-24-wachtstrasse-bremen/colocationix-gmbh/datacenter/dc1",
+    "https://datacenterplatform.com/data-centers/colocationix-gmbh/"
+  ],
+  "notes": "ColocationIX operates a high-security colocation data center in a converted former federal atomic-shelter bunker in Bremen (Wachtstrasse 17-24); DataCenter-Insider/WFB Bremen coverage; multiple ColocationIX Bremen facilities per directory listings.",
+  "method_batch": true
+}

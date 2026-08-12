@@ -1,0 +1,20 @@
+{
+  "slug": "method-bf-uv-bf-datacenter-de-l-education",
+  "canonical_project": "UV-BF Datacenter de l'Education",
+  "owner": "Universite Virtuelle du Burkina Faso / ANPTIC",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Burkina Faso",
+    "country_code": "BF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.sidwaya.info/burkina-luniversite-virtuelle-du-faso-se-dote-dun-datacenter-dedie-a-leducation/"
+  ],
+  "notes": "Education-dedicated data center launched 20 Sep 2022 in Ouagadougou (Sidwaya, state-affiliated press). Matches ANPTIC indexed title 'LANCEMENT OFFICIEL DU DATACENTER DE L'EDUCATION'. Education/government function, not commercial colo; dedup against ANPTIC/G-Cloud estate.",
+  "method_batch": true
+}

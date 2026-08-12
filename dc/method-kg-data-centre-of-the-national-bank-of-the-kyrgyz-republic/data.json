@@ -1,0 +1,21 @@
+{
+  "slug": "method-kg-data-centre-of-the-national-bank-of-the-kyrgyz-republic",
+  "canonical_project": "Data Centre of the National Bank of the Kyrgyz Republic",
+  "owner": "National Bank of the Kyrgyz Republic",
+  "location": {
+    "city": "",
+    "subnational": "Bishkek",
+    "country": "Kyrgyzstan",
+    "country_code": "KG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/data-centre-of-national-bank-of-the-kyrgyz-republic/1001",
+    "https://en.kabar.kg/news/president-jeenbekov-visits-national-banks-data-center/"
+  ],
+  "notes": "Uptime Institute award record (A) confirms the NBKR data centre in Bishkek; Kabar state agency reported the president visited the Uptime-certified data processing centre in January 2020. Enterprise/central-bank facility, not colocation; public MW capacity not disclosed.",
+  "method_batch": true
+}

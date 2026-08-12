@@ -1,0 +1,21 @@
+{
+  "slug": "method-rw-aos-ltd-colocation-kigali-business-centre",
+  "canonical_project": "AOS Ltd colocation (Kigali Business Centre)",
+  "owner": "AOS Ltd",
+  "location": {
+    "city": "",
+    "subnational": "City of Kigali",
+    "country": "Rwanda",
+    "country_code": "RW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/rwanda/kigali/aos/",
+    "https://www.datacenterdynamics.com/en/news/omantels-otech-signs-mou-to-build-data-center-in-rwanda/"
+  ],
+  "notes": "Local IT-service provider colocation listed at Kigali Business Centre, KN 5 Rd (not carrier-neutral; listing last updated 2023-06); DCD 2026 names AOS among three existing Kigali operators. C-grade lead - current operations unverified.",
+  "method_batch": true
+}

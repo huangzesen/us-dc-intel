@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-witcom-datacenter-services-datacenter-2",
+  "canonical_project": "WiTCOM DataCenter services / DataCenter 2",
+  "owner": "WiTCOM Wiesbadener Informations- und Telekommunikations GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Wiesbaden",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.wiesbaden.de/wirtschaft/wirtschaftsstandort/unternehmensportraets/witcom",
+    "https://www.datacentermap.com/germany/frankfurt/witcom-datacenter/"
+  ],
+  "notes": "City/municipal company pages describe WiTCOM as offering data center and colocation services in Wiesbaden; DataCenterMap identifies WiTCOM DataCenter 2 (est. 1999). No public MW capacity.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-gb-iomart-maidenhead-data-centre",
+  "canonical_project": "iomart Maidenhead Data Centre",
+  "owner": "iomart Group plc",
+  "location": {
+    "city": "",
+    "subnational": "England - Royal Borough of Windsor and Maidenhead",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.iomart.com/uk-data-centres/maidenhead-data-centre",
+    "https://www.maidenhead-advertiser.co.uk/news/business/197639/maidenhead-data-centre-becomes-first-solar-powered-site-for-uk-company.html"
+  ],
+  "notes": "Tier 3 facility, ~2,800 sqm across nine data halls, near Maidenhead town centre; first UK iomart site with solar; Pulsant also operates a ~1MW Maidenhead site per Windsor Express.",
+  "method_batch": true
+}

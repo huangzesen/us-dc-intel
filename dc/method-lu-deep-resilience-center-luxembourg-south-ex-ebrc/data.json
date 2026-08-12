@@ -1,0 +1,22 @@
+{
+  "slug": "method-lu-deep-resilience-center-luxembourg-south-ex-ebrc",
+  "canonical_project": "DEEP Resilience Center Luxembourg South (ex-EBRC)",
+  "owner": "DEEP (POST Group, ex-EBRC)",
+  "location": {
+    "city": "",
+    "subnational": "Esch-sur-Alzette",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.deep.eu/en/accueil/services/datacenter/datacenter-colocation-services",
+    "https://www.datacentermap.com/luxembourg/luxembourg/ebrc-kayl/",
+    "https://www.deep.eu/documents/2830351/3179110/EBRC+-+11813690+-+ISO27001.pdf"
+  ],
+  "notes": "210 rue de Noertzange, L-3670 Kayl. One of three DEEP Tier IV-certified datacenters (Windhof/Kayl/Betzdorf); EBRC merged into DEEP brand, legal transition completed 2024-12-31. LU-CIX PoP confirms site.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-kw-zain-business-data-center-zbdc",
+  "canonical_project": "Zain Business Data Center (ZBDC)",
+  "owner": "Zain Kuwait",
+  "location": {
+    "city": "",
+    "subnational": "Capital",
+    "country": "Kuwait",
+    "country_code": "KW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.samenacouncil.org/samena_daily_news?news=77626",
+    "https://www.retailbankerinternational.com/deals-dashboards/commercial-bank-of-kuwait-taps-zain-for-data-center-services/",
+    "https://www.zain.com/AR2020/en/commercial-customer"
+  ],
+  "notes": "ZBDC services confirmed via CBK MoU (data storage, security, connectivity) and Zain sources (A/B service existence). Facility address/specs C; likely Capital (Kuwait City).",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-va-dtsi-datacenters-governatorato-s-c-v-public-sector-ict-infrastructure",
+  "canonical_project": "DTSI datacenters (Governatorato S.C.V. public-sector ICT infrastructure)",
+  "owner": "Governatorato S.C.V. - Direzione delle Telecomunicazioni e dei Sistemi Informatici (DTSI)",
+  "location": {
+    "city": "",
+    "subnational": "Holy See",
+    "country": "Holy See",
+    "country_code": "VA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-02-17",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vaticanstate.va/it/novita/335-a-colloquio-con-antonino-intersimone-direttore-della-direzione-delle-telecomunicazioni-e-dei-sistemi-informatici-del-governatorato.html",
+    "https://www.vaticanstate.va/it/novita/3725-a-colloquio-con-l-ingegner-antonino-intersimone-direttore-della-direzione-delle-telecomunicazioni-e-dei-sistemi-informatici-del-governatorato.html"
+  ],
+  "notes": "Official vaticanstate.va interviews with DTSI director (2024-07-11: responsibilities include 'gestione di datacenter'; 2026-02-17: data resides and is processed in 'datacenter presenti nello Stato', datacenter areas being engineered 'AI ready', and further server clusters are planned on the 'tre siti fisici' (three physical sites) that constitute the backbone application infrastructure). Public-sector datacenters officially confirmed inside Vatican City State; precise locations, addresses and capacity undisclosed (capacity_mw null). No commercial colocation or public cloud region (AWS/Azure/GCP/OCI lists contain no VA region, A-grade negative).",
+  "method_batch": true
+}

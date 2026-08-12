@@ -1,0 +1,21 @@
+{
+  "slug": "method-dz-centre-de-calcul-intensif-de-guelma-ghpcc",
+  "canonical_project": "Centre de Calcul Intensif de Guelma (GHPCC)",
+  "owner": "Universite 8 Mai 1945 Guelma / ICE Informatique et Communication d'Entreprises",
+  "location": {
+    "city": "",
+    "subnational": "Guelma",
+    "country": "Algeria",
+    "country_code": "DZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.univ-guelma.dz/fr",
+    "https://icedzigngl.cluster020.hosting.ovh.net/presentation_ICE_2019.pdf"
+  ],
+  "notes": "Official Guelma University site lists the 'Centre de Calcul Intensif de Guelma - GHPCC' as an operating university HPC/computing facility. ICE corporate presentation corroborates a 2012 HPC project at the University of Guelma (32-node Intel/Linux cluster, 30 kVA UPS, physical/electrical audit). Institutional compute facility; no MW capacity disclosed.",
+  "method_batch": true
+}

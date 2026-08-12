@@ -1,0 +1,21 @@
+{
+  "slug": "method-it-aws-eu-south-1-milan-cloud-region",
+  "canonical_project": "AWS eu-south-1 Milan cloud region",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Lombardy",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/local/italy/milan/",
+    "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html"
+  ],
+  "notes": "AWS Europe (Milan) region eu-south-1 with 3 AZs - official region page proves regional service availability; physical buildings are the Amazon Data Services Italy Rho/Pero projects (see separate MASE record).",
+  "method_batch": true
+}

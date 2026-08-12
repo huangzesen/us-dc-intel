@@ -1,0 +1,21 @@
+{
+  "slug": "method-id-dci-e1-jakarta-ariobimo-sentral-kuningan",
+  "canonical_project": "DCI E1 Jakarta (Ariobimo Sentral, Kuningan)",
+  "owner": "PT DCI Indonesia Tbk",
+  "location": {
+    "city": "",
+    "subnational": "Jakarta",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": 19,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dci-indonesia.com/",
+    "https://dci-indonesia.com/news/dci-indonesias-tier-iv-data-center-e1-is-operational-and-serving-various-users-in-the-heart-of-jakarta"
+  ],
+  "notes": "DCI E1, 19 MW, first and only Uptime Tier IV certified data center in downtown Jakarta (Ariobimo Sentral, Kuningan); operational since December 2023, serving customers. Commercial colocation, AI-inference ready.",
+  "method_batch": true
+}

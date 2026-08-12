@@ -1,0 +1,20 @@
+{
+  "slug": "method-lu-bce-junglinster-site-lead",
+  "canonical_project": "BCE Junglinster site - lead",
+  "owner": "Broadcasting Center Europe (RTL Group)",
+  "location": {
+    "city": "",
+    "subnational": "Grevenmacher",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/broadcasting-center-europe/bce-luxembourg/"
+  ],
+  "notes": "Directory lists BCE site at 6 Station Radio, L-6141 Junglinster - likely broadcast transmission site rather than commercial colo; verify before counting.",
+  "method_batch": true
+}

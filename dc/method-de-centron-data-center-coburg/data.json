@@ -1,0 +1,20 @@
+{
+  "slug": "method-de-centron-data-center-coburg",
+  "canonical_project": "centron data center Coburg",
+  "owner": "centron GmbH",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Coburg (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2020-10-27",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.firmenpresse.de/pressinfo1855231-centron-erweitert-datacenter-kapazitaeten.html"
+  ],
+  "notes": "centron press release (2020-10-27) lists Coburg among its existing data centers (Nürnberg, Coburg, Frankfurt am Main, Hallstadt). May correspond to the NGZ/UnitedColo Sonntagsanger facility given centron's hosting heritage; not independently address-verified.",
+  "method_batch": true
+}

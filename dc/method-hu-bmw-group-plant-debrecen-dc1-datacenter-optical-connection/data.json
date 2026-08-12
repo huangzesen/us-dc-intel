@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-bmw-group-plant-debrecen-dc1-datacenter-optical-connection",
+  "canonical_project": "BMW Group Plant Debrecen DC1 datacenter optical connection",
+  "owner": "BMW Hungary Kft. / Invitech ICT Services",
+  "location": {
+    "city": "",
+    "subnational": "Hajdu-Bihar",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://nmhh.hu/cikk/237142/Ertesites_epitesi_engedely_megadasarol__CD605322023_szamu_hatarozat_Debrecen_BMW_Hungary_Kft_DC1_adatkozpont_optikai_csatlakozas",
+    "https://www.invitech.hu/sikertortenetek/bmw-group-gyar-debrecen-optikai-kapcsolat-ki-epitese"
+  ],
+  "notes": "County-level entry: NMHH official permit notice CD60532/2023 for the optical connection of BMW Hungary Kft. DC1 datacenter in Debrecen (Hajdu-Bihar) - official A-grade evidence of DC infrastructure inside the BMW plant campus; Invitech reports the optical delivery including the DC1 node. Enterprise/campus infrastructure, not independent colo.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-mh-iokwe-subsea-cable-majuro-landing-station",
+  "canonical_project": "IOKWE subsea cable Majuro landing station",
+  "owner": "Marshall Islands National Telecommunications Authority (owner/operator) via Google Pacific Connect / Halaihai",
+  "location": {
+    "city": "",
+    "subnational": "Majuro",
+    "country": "Marshall Islands",
+    "country_code": "MH"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/systems/trans-pacific/iokwe",
+    "https://www.datacenterdynamics.com/en/news/marshall-islands-to-connect-to-googles-halaihai-subsea-cable/"
+  ],
+  "notes": "Planned cable branch infrastructure, not an operational datacenter. Submarine Networks confirms IOKWE lands in Majuro and Ebeye (RMI) as a branch of Google's Halaihai cable; NTA is owner/operator; USG announced ~132M USD funding package (early 2026) and USTDA funded feasibility. Landing-station building is the most plausible future datacenter-adjacent asset - reassess after construction.",
+  "method_batch": true
+}

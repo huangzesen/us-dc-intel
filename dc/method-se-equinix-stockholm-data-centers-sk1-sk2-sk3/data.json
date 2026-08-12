@@ -1,0 +1,21 @@
+{
+  "slug": "method-se-equinix-stockholm-data-centers-sk1-sk2-sk3",
+  "canonical_project": "Equinix Stockholm data centers (SK1/SK2/SK3)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Stockholm",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/sweden-colocation/stockholm-data-centers",
+    "https://www.equinix.com/data-centers/europe-colocation/sweden-colocation"
+  ],
+  "notes": "Equinix official page states three data centers in Sweden (~160,000 sq ft colocation space); SK2 has an environmental permit (miljotillstand per Chapter 9 miljobalken) granted by the Stockholm County MPD (per methodology Naturvardsverket-hosted decision).",
+  "method_batch": true
+}

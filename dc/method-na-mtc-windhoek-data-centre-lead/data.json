@@ -1,0 +1,20 @@
+{
+  "slug": "method-na-mtc-windhoek-data-centre-lead",
+  "canonical_project": "MTC Windhoek Data Centre (lead)",
+  "owner": "MTC Namibia",
+  "location": {
+    "city": "",
+    "subnational": "Khomas",
+    "country": "Namibia",
+    "country_code": "NA"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://jobsinnamibia.info/jobs/data-centre-administrator-mtc/"
+  ],
+  "notes": "MTC advertised a Data Centre Administrator role based in Windhoek (closing 2026-08-13), indicating MTC operates a data centre in Windhoek; no public colo product page/facility record found - operator/network lead only per methodology; keep as C until named facility evidence.",
+  "method_batch": true
+}

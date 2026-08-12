@@ -1,0 +1,21 @@
+{
+  "slug": "method-mm-zenlayer-yangon-service-presence",
+  "canonical_project": "Zenlayer Yangon service presence",
+  "owner": "Zenlayer",
+  "location": {
+    "city": "",
+    "subnational": "Yangon",
+    "country": "Myanmar",
+    "country_code": "MM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://cloud.zenlayer.com/datacenters/yangon",
+    "https://www.netify.ai/resources/hosting/zenlayer/country/mm"
+  ],
+  "notes": "Zenlayer official page (A-) confirms service availability in Yangon (bare metal / cloud connect); netify (C/B) lists Zenlayer PoP in Yangon. Physical host facility is not disclosed; treat as service/PoP presence inside another facility, do not double count as a separate DC (B/C for host inference).",
+  "method_batch": true
+}

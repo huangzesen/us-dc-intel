@@ -1,0 +1,21 @@
+{
+  "slug": "method-dk-itm8-ex-sotea-silkeborg-dc",
+  "canonical_project": "itm8 (ex-Sotea) Silkeborg DC",
+  "owner": "itm8 (Sotea A/S)",
+  "location": {
+    "city": "",
+    "subnational": "Central Denmark",
+    "country": "Denmark",
+    "country_code": "DK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/denmark/silkeborg/sotea-dc/",
+    "https://datacentercatalog.com/denmark/sotea-dc"
+  ],
+  "notes": "Directory leads place itm8/Sotea DC at Vejlsøvej 51, Silkeborg; no clean operator facility page or Silkeborg Kommune permit record opened this run, so remains C/B lead per methodology (frostcore.net unreachable).",
+  "method_batch": true
+}

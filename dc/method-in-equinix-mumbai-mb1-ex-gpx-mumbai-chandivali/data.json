@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-equinix-mumbai-mb1-ex-gpx-mumbai-chandivali",
+  "canonical_project": "Equinix Mumbai MB1 (ex-GPX Mumbai), Chandivali",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Maharashtra - Mumbai Suburban",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/india-colocation/mumbai-data-centers/mb1",
+    "https://www.peeringdb.com/fac/2310"
+  ],
+  "notes": "Equinix MB1 at Chandivali Farm Road, Andheri East (Mumbai Suburban); official IBX page; only India DC hosting direct connect nodes for AWS, Google Cloud and Oracle Cloud; 5 internet exchanges (AMS-IX, Bharat IX, DE-CIX, Extreme IX, NIXI).",
+  "method_batch": true
+}

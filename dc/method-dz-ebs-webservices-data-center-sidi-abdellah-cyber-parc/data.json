@@ -1,0 +1,21 @@
+{
+  "slug": "method-dz-ebs-webservices-data-center-sidi-abdellah-cyber-parc",
+  "canonical_project": "eBS / WebServices Data Center (Sidi Abdellah Cyber Parc)",
+  "owner": "Electronic Business Services (eBS) / WebServices",
+  "location": {
+    "city": "",
+    "subnational": "Alger",
+    "country": "Algeria",
+    "country_code": "DZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://webservices.dz/kunena/data-center-en-algerie/7-data-center-en-algerie",
+    "https://www.datacentermap.com/algeria/algiers/webservices-data-center/"
+  ],
+  "notes": "WebServices operator page (A) states the DC was realized at the multi-tenant Sidi Abdellah Cyber Parc, 85 sqm, Tier III, split into 35 sqm production + 50 sqm extension rooms; Data Center Map (C) lists the address; capacity not confirmed by official source (2 MW directory figure unverified).",
+  "method_batch": true
+}

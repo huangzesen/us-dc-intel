@@ -1,0 +1,22 @@
+{
+  "slug": "method-lb-lfait-medyar",
+  "canonical_project": "LFAIT Medyar",
+  "owner": "Lebanese For Advanced Information Technologies SARL (LFAIT)",
+  "location": {
+    "city": "",
+    "subnational": "Mount Lebanon",
+    "country": "Lebanon",
+    "country_code": "LB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://lfait.com/index.php",
+    "https://lfait.com/announcements/page/2",
+    "https://www.datacentermap.com/lebanon/shouf/medyar/"
+  ],
+  "notes": "Operator announcements reference 'Lebanon/Medyar DC' maintenance/migration; DataCenterMap lists LFAIT Medyar at Medyar, Dibbieh Rd, Shouf (Mount Lebanon). A for operator-owned location/service claims; directory power/space/Tier values remain C-grade and unverified. Commercial colo/hosting lead, strongest in Mount Lebanon.",
+  "method_batch": true
+}

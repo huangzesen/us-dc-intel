@@ -1,0 +1,23 @@
+{
+  "slug": "method-md-trabia-network-data-center-kivix",
+  "canonical_project": "Trabia Network data center / KIVIX",
+  "owner": "Trabia-Network S.R.L.",
+  "location": {
+    "city": "",
+    "subnational": "Chisinau",
+    "country": "Moldova, Republic of",
+    "country_code": "MD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.trabia.com/kivix.html",
+    "https://www.datacentermap.com/moldova/chisinau/trabia-data-center/ecosystem/",
+    "https://www.peeringdb.com/fac/1425",
+    "https://www.datacenterjournal.com/data-centers/moldova/chisinau/trabia-network/"
+  ],
+  "notes": "Trabia operates its own data center at Vlaicu Pircalab St 52, Chisinau (MD-2012) and KIVIX, described as Chisinau's second-largest Internet Exchange (operator page). PeeringDB facility 1425 with 11 networks/2 local exchanges confirms active interconnection. Hostsearch directory claims 'largest server farm in Moldova' (C-grade claim, unverified). capacity_mw null.",
+  "method_batch": true
+}

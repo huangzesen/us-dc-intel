@@ -1,0 +1,21 @@
+{
+  "slug": "method-za-vodacom-midrand-data-park",
+  "canonical_project": "Vodacom Midrand Data Park",
+  "owner": "Vodacom (Vodafone Group)",
+  "location": {
+    "city": "",
+    "subnational": "Gauteng - City of Johannesburg Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/south-africa/johannesburg/",
+    "https://techcentral.co.za/vodacom-opens-iot-lab-midrand/198202/"
+  ],
+  "notes": "Vodacom Business data centre at 82 Vodacom Boulevard, Midrand (City of Johannesburg); TechCentral reports Vodacom operates an NB-IoT lab on the roof of its Midrand data centre. Directory-listed (DataCenterMap) as Vodacom Johannesburg Data Center; no public MW capacity. Directory/edge-grade evidence only; Vodacom DCs are primarily internal/enterprise facilities.",
+  "method_batch": true
+}

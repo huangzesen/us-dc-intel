@@ -1,0 +1,22 @@
+{
+  "slug": "method-it-rai-way-rome-data-centers",
+  "canonical_project": "Rai Way Rome data centers",
+  "owner": "Rai Way S.p.A.",
+  "location": {
+    "city": "",
+    "subnational": "Lazio",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.raiway.it/",
+    "https://baxtel.com/data-center/rai-way-rome",
+    "https://btw.media/all/it-infrastructure/oracle-enters-agreement-to-use-rai-way-data-centres-in-italy/"
+  ],
+  "notes": "Rai Way operates data center colocation (5 facilities across 2 regions per baxtel; Rome among them) and signed an Oracle partnership to host Oracle AI/DB infrastructure in its Italian data centers. Methodology notes Rai Way Rome large project approved - permit file not captured this round.",
+  "method_batch": true
+}

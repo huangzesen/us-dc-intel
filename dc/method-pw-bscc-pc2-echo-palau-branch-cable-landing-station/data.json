@@ -1,0 +1,22 @@
+{
+  "slug": "method-pw-bscc-pc2-echo-palau-branch-cable-landing-station",
+  "canonical_project": "BSCC PC2 / Echo Palau Branch cable landing station",
+  "owner": "BSCC with AIFFP financing; NEC system; DXN modular CLS",
+  "location": {
+    "city": "",
+    "subnational": "Ngardmau",
+    "country": "Palau",
+    "country_code": "PW"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/dxn-delivers-modular-cable-landing-station-to-palau-for-echo-cable-landing/",
+    "https://www.submarinenetworks.com/en/systems/trans-pacific/palau-cable-2/bscc-completes-pre-lay-shore-end-for-pc2-echo-palau-branch",
+    "https://www.aiffp.gov.au/news/aiffp-signs-loan-agreement-palau-undersea-cable"
+  ],
+  "notes": "Palau's second international cable (PC2, dedicated branch of the Meta/Google-led Echo network) with a modular cable landing station at Ngardmau; pre-lay shore end landed June 2022. BSCC FY2025-2029 plan expects PC2 Ready for Service in Q3 2026; AIFFP 2026 fact sheet cites mid-2026 completion. Under construction / pre-service telecom infrastructure, not a commercial datacenter.",
+  "method_batch": true
+}

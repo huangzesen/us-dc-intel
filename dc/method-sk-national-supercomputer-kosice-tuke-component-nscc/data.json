@@ -1,0 +1,23 @@
+{
+  "slug": "method-sk-national-supercomputer-kosice-tuke-component-nscc",
+  "canonical_project": "National supercomputer Kosice (TUKE component, NSCC)",
+  "owner": "TUKE / NSCC consortium (CSC SAV, MIRRI, I4DI)",
+  "location": {
+    "city": "",
+    "subnational": "Kosice",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-04-27",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.postoj.sk/193542/dnes-treba-vediet",
+    "https://www.ta3.com/clanok/1046525/sav-spustila-narodny-superpocitac-perun-nova-infrastruktura-ma-vyrazne-posilnit-vedu-inovacie-aj-stat",
+    "https://mirri.gov.sk/sekcie/investicie/digitalne-inovacie/superpocitace/",
+    "https://eurocc.nscc.sk/na-slovensku-vzniklo-narodne-superpocitacove-centrum-2/"
+  ],
+  "notes": "public_HPC_research class. Postoj/ta3 (2026-04): the Kosice workplace at Technical University of Kosice is already functioning ('uz fungujucim pracoviskom v Kosiciach') and together with PERUN (Bratislava) forms one integrated national HPC system; TUKE received EUR 20.9M from the recovery plan; MIRRI/NSCC consortium (CSC SAV + MIRRI + I4DI) official direction A-grade. Track final installation/operational notices.",
+  "method_batch": true
+}

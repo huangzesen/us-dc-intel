@@ -1,0 +1,23 @@
+{
+  "slug": "method-za-elidz-data-centre-tier-3-sunnyridge-primary-zone",
+  "canonical_project": "ELIDZ Data Centre (Tier 3, Sunnyridge primary zone)",
+  "owner": "East London Industrial Development Zone (ELIDZ) SOC Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Eastern Cape - Buffalo City Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mybroadband.co.za/news/industrynews/633655-unlock-the-future-of-business-with-elidzs-digital-economy-solutions.html",
+    "https://www.engineerit.co.za/article/new-point-of-presence-at-east-london-data-centre",
+    "https://www.elidz.co.za/elidz-pioneers-the-digital-landscape/",
+    "https://tenderbulletins.co.za/tender-award/tender-award-construction-of-a-data-centre-facility-meet-me-room-in-zone-1a-of-the-elidz-3/"
+  ],
+  "notes": "ELIDZ official release (27 Mar 2024) states the zone operates a data centre facility and, on high demand, was completing a new state-of-the-art Tier 3 data centre expanded in phases, offering colocation, disaster recovery and cloud services; zone has a 40MW grid supply and blown-fibre ring. EngineerIT confirms Workonline's first edge data centre PoP inside the ELIDZ secure primary zone at Sunnyridge, East London; ELIDZ tendered 'Construction of a Data Centre Facility / Meet-Me Room in Zone 1A' (closing Nov 2022). No public MW for the DC itself; 40MW refers to zone grid capacity, kept separate.",
+  "method_batch": true
+}

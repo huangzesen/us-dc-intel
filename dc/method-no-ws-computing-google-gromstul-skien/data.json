@@ -1,0 +1,23 @@
+{
+  "slug": "method-no-ws-computing-google-gromstul-skien",
+  "canonical_project": "WS Computing / Google Gromstul (Skien)",
+  "owner": "WS Computing AS (Google project; Skanska EPC)",
+  "location": {
+    "city": "",
+    "subnational": "Vestfold and Telemark",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": 240,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/google-breaks-ground-on-norway-data-center/",
+    "https://www.skanska.com/group/en/media/press-releases/2024/skanska-prepares-for-new-data-center-in-telemark-norway-for-nok-1.1-billion-about-sek-1.1-billion",
+    "https://news.cision.com/skanska/r/skanska-signs-additional-contract-to-build-a-data-center-in-telemark--norway--for-nok-569m--about-se,c4066989",
+    "https://www.statsforvalteren.no/vestfold-og-telemark/miljo-og-klima/forurensning/tillatelse-til-ws-computing-as-for-datalagringssenter-pa-gromstul-i-skien/"
+  ],
+  "notes": "Google's first Norway data center; EUR 600M announced Feb 2024; Skanska contracts NOK 1.1bn (Q1 2024 groundwork) and NOK 569M (Q4 2024 core/shell); Datacenter Forum reports 240 MW grid allocation (earlier 860 MW aspiration), go-live targeted 2026; Statsforvalteren granted Datasenter 1 pollution permit 2025-08-25, Datasenter 2 hearing 2026. A via Skanska/Statsforvalteren/Skien; 240 MW figure B (trade press).",
+  "method_batch": true
+}

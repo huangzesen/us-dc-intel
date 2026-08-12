@@ -1,0 +1,22 @@
+{
+  "slug": "method-sg-dayone-sg1",
+  "canonical_project": "DayOne SG1",
+  "owner": "DayOne Data Centers (GDS-linked)",
+  "location": {
+    "city": "",
+    "subnational": "South West",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 20,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dayonedc.com/markets/dayone-acquires-21-jalan-buroh-in-singapore",
+    "https://www.datacentermap.com/singapore/singapore/gds-singapore/",
+    "https://baxtel.com/data-center/airtrunk-johor-bahru-jhb1"
+  ],
+  "notes": "DayOne SG1 at 21 Jalan Buroh, Jurong industrial estate (Boon Lay area): ~39,980 sqm GFA (3-storey warehouse + 7-storey office block), 20 MW capacity, target RFS 2027; property acquired from CapitaLand (2024, GDS-related); hydrogen SOFC pilot planned per methodology. South West CDC.",
+  "method_batch": true
+}

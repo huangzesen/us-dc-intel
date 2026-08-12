@@ -1,0 +1,23 @@
+{
+  "slug": "method-bn-egnc-data-centre-co-location-gadong",
+  "canonical_project": "EGNC Data Centre Co-Location (Gadong)",
+  "owner": "E-Government National Centre (EGNC)",
+  "location": {
+    "city": "",
+    "subnational": "Brunei-Muara",
+    "country": "Brunei Darussalam",
+    "country_code": "BN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.egnc.gov.bn/data_centre_co-location/",
+    "https://www.egnc.gov.bn/government-ict-infrastructure/",
+    "https://www.egnc.gov.bn/wp-content/uploads/2026/03/Service-Catalogue.pdf",
+    "https://www.datacenterdynamics.com/en/analysis/small-nation-big-vision-brunei-consolidates-its-way-to-digital-resilience/"
+  ],
+  "notes": "EGNC official pages and 2026 service catalogue describe government and private data centre co-location at Simpang 69-18, Jalan E-Kerajaan, Gadong, BE1110: 42U APC racks, private suite/shared room options, N+1 UPS, VESDA, FM-200, dual rack power sources, standby generators, CCTV and biometric/card access. DCD analysis (2026-01-16) corroborates EGNC Data Centre Colocation for public IT services (B). No public facility MW/rack-count total.",
+  "method_batch": true
+}

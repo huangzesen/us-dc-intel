@@ -1,0 +1,21 @@
+{
+  "slug": "method-sh-st-helena-government-shg-main-data-centre",
+  "canonical_project": "St Helena Government (SHG) Main Data Centre",
+  "owner": "St Helena Government",
+  "location": {
+    "city": "",
+    "subnational": "Saint Helena",
+    "country": "Saint Helena, Ascension and Tristan da Cunha",
+    "country_code": "SH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sainthelena.gov.sh/quarantine-exemption-for-engineers-to-commission-critical-backup-solutions/",
+    "https://www.sainthelena.gov.sh/app/uploads/gazette/EX-GAZ-9-Exemption-from-Isolation-Order-Engineer-S-Leak-R-Jayeesan.pdf"
+  ],
+  "notes": "Confirmed facility (A, verified live 2026-08-12): SHG 2022-03-07 release confirms Schneider Electric engineers commissioned critical backup battery solutions at the SHG Main Data Centre at Carnarvon Court, Jamestown (Saint Helena/Jamestown sub-layer), alongside Connect Saint Helena core equipment at the same Carnarvon Court site and the Oxygen Generation Plant at Bradley's Camp; Gazette EX-GAZ-9 is the corroborating primary document. Capacity: no first-hand MW/kW/rack source found - null. Owner/operator St Helena Government. Must not be merged with the Rupert's Equiano landing station (different location).",
+  "method_batch": true
+}

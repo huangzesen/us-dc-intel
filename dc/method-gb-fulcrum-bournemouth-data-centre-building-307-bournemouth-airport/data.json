@@ -1,0 +1,21 @@
+{
+  "slug": "method-gb-fulcrum-bournemouth-data-centre-building-307-bournemouth-airport",
+  "canonical_project": "Fulcrum Bournemouth data centre (Building 307, Bournemouth Airport)",
+  "owner": "Fulcrum Data Systems",
+  "location": {
+    "city": "",
+    "subnational": "England - Dorset",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 6.5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.fulcrumdatasystems.com/bournemouth-colocation",
+    "https://www.datacentermap.com/united-kingdom/bournemouth/fulcrum1/"
+  ],
+  "notes": "Operational Tier 3-aligned carrier-neutral facility at Bournemouth Airport Aviation Business Park; DataCenterMap lists 6.5MW.",
+  "method_batch": true
+}

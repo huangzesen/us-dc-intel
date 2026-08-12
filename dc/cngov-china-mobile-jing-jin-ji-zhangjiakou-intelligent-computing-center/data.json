@@ -1,0 +1,20 @@
+{
+  "slug": "cngov-china-mobile-jing-jin-ji-zhangjiakou-intelligent-computing-center",
+  "canonical_project": "China Mobile Jing-Jin-Ji (Zhangjiakou) Intelligent Computing Center",
+  "owner": "China Mobile / 中国移动",
+  "location": {
+    "city": "张家口市·怀来县（怀来花园生态科技城）",
+    "subnational": "Hebei",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-08-22",
+  "evidence_grade": "B",
+  "sources": [
+    "https://fineidc.com/3426.html"
+  ],
+  "notes": "re-verified — same project as existing 'China Mobile Jing-Jin-Ji (Zhangjiakou) Data Center' record (was 'planned', 2023-02); status upgraded to operational. IDC industry media reports the center formally in use Aug 2025 as key node of the Dong-Shu-Xi-Suan Jing-Jin-Ji hub: planned 11,200 racks and >15,000 PFLOPS capacity, PUE<=1.199, liquid cooling/AHU, 99.99% reliability; Phase 1 completed Jul 2025 with 4 buildings, 5,600 racks (incl. 550 liquid-cooled intelligent-compute racks, ~1,700 AI servers, 5,100 PFLOPS). [province=河北]",
+  "cn_gov_batch": true
+}

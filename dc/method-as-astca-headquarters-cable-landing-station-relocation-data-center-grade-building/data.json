@@ -1,0 +1,20 @@
+{
+  "slug": "method-as-astca-headquarters-cable-landing-station-relocation-data-center-grade-building",
+  "canonical_project": "ASTCA headquarters cable landing station relocation / data-center-grade building",
+  "owner": "ASTCA (American Samoa Telecommunications Authority)",
+  "location": {
+    "city": "",
+    "subnational": "American Samoa",
+    "country": "American Samoa",
+    "country_code": "AS"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2022-03-28",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.doi.gov/sites/default/files/4.a-astcaasg-american-samoa-infrastructure-broadband.pdf"
+  ],
+  "notes": "DOI Office of Insular Affairs ASTCA/ASG infrastructure-broadband document: current cable landing station sits on an unsecured golf-course village site; ASTCA proposes relocation to a government-fenced ASTCA headquarters building 'properly engineered and built for safe and secure data center operations'. Official plan-level evidence of a data-center-grade telecom core facility in the Tafuna/Pago Pago corridor; no commercial colo service confirmed.",
+  "method_batch": true
+}

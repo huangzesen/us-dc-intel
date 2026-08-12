@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-stt-delhi-2-stt-delhi-3-greater-kailash-i",
+  "canonical_project": "STT Delhi 2 & STT Delhi 3 (Greater Kailash I)",
+  "owner": "ST Telemedia Global Data Centres India / Tata Communications heritage",
+  "location": {
+    "city": "",
+    "subnational": "Delhi - South East",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 11.1,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sttelemediagdc.com/in-en/locations/delhi",
+    "https://www.datacenters.com/sttelemedia-global-data-centres-stt-delhi-3"
+  ],
+  "notes": "STT Delhi 2 (1.1 MW) and STT Delhi 3 (10 MW) at Greater Kailash I; official STT Delhi page confirms 12 MW across the three Delhi DCs. A lithium-battery fire at this GK-I campus on 2026-06-05 caused extensive damage (Tata Communications/Google Cloud latency impact reported).",
+  "method_batch": true
+}

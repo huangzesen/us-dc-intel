@@ -1,0 +1,20 @@
+{
+  "slug": "method-mm-mytel-data-center",
+  "canonical_project": "Mytel Data Center",
+  "owner": "Mytel (Telecom International Myanmar / Viettel)",
+  "location": {
+    "city": "",
+    "subnational": "Yangon",
+    "country": "Myanmar",
+    "country_code": "MM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-08-30",
+  "evidence_grade": "B",
+  "sources": [
+    "https://viettelfamily.com/news/thoi-su/mytel-khai-truong-data-center-so-1-tai-myanmar"
+  ],
+  "notes": "Viettel Family news (B+, parent-company source) reports opening on 2023-08-26 in Yangon of what it calls Myanmar's largest data center: Tier 3-standard claim, 600 racks expandable to 1,000. Capacity/Tier are claims, not certified (B until Uptime/engineering evidence). Exact address not named in the article.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-tg-togo-internet-exchange-point-tgix-togoix",
+  "canonical_project": "Togo Internet Exchange Point (TGIX / TogoIX)",
+  "owner": "TGIX association (Togolese operators and ISPs)",
+  "location": {
+    "city": "",
+    "subnational": "Maritime",
+    "country": "Togo",
+    "country_code": "TG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.peeringdb.com/ix/2388",
+    "https://pulse.internetsociety.org/fr/ixp-tracker/ixp/677/",
+    "https://www.agenceecofin.com/infrastructures/1906-48222-le-point-d-echange-internet-du-togo-est-operationnel-depuis-le-15-juin-2017"
+  ],
+  "notes": "Interconnection asset (IXP), not commercial DC capacity: TGIX operational in Lomé since 15 June 2017; ~9 peers / 18G total capacity per PeeringDB/ISOC Pulse (PeeringDB updated July 2026).",
+  "method_batch": true
+}

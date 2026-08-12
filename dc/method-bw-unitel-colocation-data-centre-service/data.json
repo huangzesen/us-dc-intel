@@ -1,0 +1,20 @@
+{
+  "slug": "method-bw-unitel-colocation-data-centre-service",
+  "canonical_project": "Unitel colocation / data-centre service",
+  "owner": "Unitel (Universal Telecom)",
+  "location": {
+    "city": "",
+    "subnational": "Gaborone",
+    "country": "Botswana",
+    "country_code": "BW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://unitel.co.bw/"
+  ],
+  "notes": "BOCRA-licensed Gaborone operator marketing fibre backbone + colocation/data-centre service (marketing-level claim per BW methodology); facility-level evidence not re-verified in this run - C-grade lead.",
+  "method_batch": true
+}

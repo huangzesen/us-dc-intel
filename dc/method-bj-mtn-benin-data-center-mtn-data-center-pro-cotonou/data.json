@@ -1,0 +1,22 @@
+{
+  "slug": "method-bj-mtn-benin-data-center-mtn-data-center-pro-cotonou",
+  "canonical_project": "MTN Bénin Data Center / MTN Data Center Pro (Cotonou)",
+  "owner": "MTN Bénin (Spacetel Bénin)",
+  "location": {
+    "city": "",
+    "subnational": "Littoral",
+    "country": "Benin",
+    "country_code": "BJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mtn.bj/business/connectivite/data-center/",
+    "https://www.mtn.bj/mtn-data-center-pro/",
+    "https://cio-mag.com/mtn-benin-lance-son-service-data-center/"
+  ],
+  "notes": "Official MTN Bénin Data Center page verified 2026-08-12 (A): enterprise colocation/hosting product with two 800 kVA generators (N+1), SBEE primary power, FM200 fire suppression, 24h cooling, dual Ethernet/fibre per server. CIO Mag reports service launch 2019-06-14 (B). No public MW/rack count. ACE and SAT-3 landing stations (Fidjrossè) and BENIN-IX in Cotonou are connectivity assets, not separate commercial DC records.",
+  "method_batch": true
+}

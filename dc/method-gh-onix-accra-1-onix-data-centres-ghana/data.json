@@ -1,0 +1,23 @@
+{
+  "slug": "method-gh-onix-accra-1-onix-data-centres-ghana",
+  "canonical_project": "Onix Accra #1 (Onix Data Centres Ghana)",
+  "owner": "Onix Data Centres (Ngoya Etix DC (Ghana) Ltd; AIIM majority stake)",
+  "location": {
+    "city": "",
+    "subnational": "Greater Accra",
+    "country": "Ghana",
+    "country_code": "GH"
+  },
+  "capacity_mw": 12,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://onixdatacentres.com/",
+    "https://www.datacenterdynamics.com/en/news/ghanas-vice-president-opens-onix-tier-iv-data-center/",
+    "https://uptimeinstitute.com/uptime-institute-awards/client/onix-data-centres-ghana-limited/1060",
+    "https://aiimafrica.com/media/case-study-detail/case-study-onix-accra-1/"
+  ],
+  "notes": "Tier IV carrier-neutral colocation at Amrahia (Katamanso Rd), Uptime Tier 4 certified Oct 2021; inaugurated 2022 (DCD reported 12 MW at opening; Ghanaian press/trendsnafrica cite 20 MW design). AIIM case study: 170 racks expandable to 680, partial solar. Alias: Ngoya Etix DC / Etix Accra #1 / Onix Accra 1.",
+  "method_batch": true
+}

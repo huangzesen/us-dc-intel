@@ -1,0 +1,21 @@
+{
+  "slug": "method-cz-tcp-data-center-pisek",
+  "canonical_project": "TCP Data Center Pisek",
+  "owner": "Technologicke centrum Pisek",
+  "location": {
+    "city": "",
+    "subnational": "South Bohemia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/czech-republic/pisek/tcp-data-center/",
+    "https://exporters.czechtrade.gov.cz/technologicke-centrum-pisek"
+  ],
+  "notes": "Directory lists TCP Data Center at Vladislavova 250, Pisek (Tier 3 service, up to 20 kW/rack); CzechTrade exporter profile confirms services at same address. C-grade directory/aggregator evidence.",
+  "method_batch": true
+}

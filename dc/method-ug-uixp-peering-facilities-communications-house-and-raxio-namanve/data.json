@@ -1,0 +1,21 @@
+{
+  "slug": "method-ug-uixp-peering-facilities-communications-house-and-raxio-namanve",
+  "canonical_project": "UiXP peering facilities (Communications House and Raxio Namanve)",
+  "owner": "Uganda Internet eXchange Point (UiXP)",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Uganda",
+    "country_code": "UG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.uixp.co.ug/contact",
+    "https://www.peeringdb.com/ix/422"
+  ],
+  "notes": "UiXP official contact page confirms two peering facilities: Communications House, 1 Colville Street, Kampala, and Raxio Data Center, Plot 781 Block 113, Namanve Industrial Park; PeeringDB IX 422 corroborates. IXP/peering infrastructure, not a standalone commercial colocation DC unless separately evidenced.",
+  "method_batch": true
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "method-de-scaleup-datacenter-nue1-odn-nurnberg-furth-hermann-glockner-strae",
+  "canonical_project": "ScaleUp Datacenter NUE1 / ODN Nürnberg-Fürth, Hermann-Glockner-Straße",
+  "owner": "ScaleUp Technologies; ODN OnlineDienst Nordbayern GmbH & Co. KG",
+  "location": {
+    "city": "",
+    "subnational": "Bavaria - Fürth (Urban)",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-12-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.scaleuptech.com/blog/scaleup-technologies-expandiert-mit-ubernahme-des-odn-rechenzentrums-in-nurnberg-furth/",
+    "https://www.scaleuptech.com/en/data-center-tour/data-center-nuremberg-fuerth/",
+    "https://www.datacenterdynamics.com/en/news/germanys-scaleup-technologies-acquires-data-center-in-nuremberg/",
+    "https://www.peeringdb.com/fac/14125",
+    "https://www.rechenzentrum-bayern.com/"
+  ],
+  "notes": "ScaleUp announced acquisition of ODN's Nürnberg-Fürth DC (launched 2014, 2,000 sqm partially free-cooled at Hermann-Glockner-Str. 7, Fürth; ISO 27001 + TÜV Level 3 since 2019), adding >2,000 sqm technical space; PeeringDB lists ScaleUp Datacenter NUE1; ODN site confirms ScaleUp integration and open OCP Experience Center Q1 2025.",
+  "method_batch": true
+}

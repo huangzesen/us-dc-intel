@@ -1,0 +1,21 @@
+{
+  "slug": "method-cy-primetel-colocation-nicosia-site",
+  "canonical_project": "PrimeTel colocation (Nicosia site)",
+  "owner": "PrimeTel PLC",
+  "location": {
+    "city": "",
+    "subnational": "Nicosia",
+    "country": "Cyprus",
+    "country_code": "CY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://primetel.com.cy/wholesale-collocation-hosting-services",
+    "https://business.primetel.com.cy/server-colocation"
+  ],
+  "notes": "PrimeTel official pages state certified (ISO/IEC 27001) colocation/data-center services at four Cyprus locations including Nicosia; A for service claim, U for exact per-site addresses until primary records confirm.",
+  "method_batch": true
+}

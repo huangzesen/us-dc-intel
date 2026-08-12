@@ -1,0 +1,23 @@
+{
+  "slug": "method-sh-equiano-modular-cable-landing-station-mcls-slte-rupert-s",
+  "canonical_project": "Equiano Modular Cable Landing Station (MCLS) / SLTE, Rupert's",
+  "owner": "Google (Equiano) / St Helena Government / Sure St Helena / Telecom Egypt / ASN",
+  "location": {
+    "city": "",
+    "subnational": "Saint Helena",
+    "country": "Saint Helena, Ascension and Tristan da Cunha",
+    "country_code": "SH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sainthelena.gov.sh/st-helena/government/portfolios/economic-development-portfolio/sustainable-development/fibre-optic-cable-project/",
+    "https://www.sainthelena.gov.sh/st-helena-connects-to-the-subsea-cable/",
+    "https://southatlanticnews.com/2021/09/03/fibre-optic-cable-landed-at-st-helena/",
+    "https://techcentral.co.za/googles-equiano-cable-to-make-first-landing-at-isolated-st-helena/170972/"
+  ],
+  "notes": "Connectivity record, NOT a datacenter (per methodology: landing station != DC). Equiano branch landed at Rupert's Beach 2021-08-26/29; MCLS/SLTE final commissioning 2023-05-21 to 05-26; SLTE live 2023-06-01; cable live 2023-09-01 with Sure St Helena public service from 2023-10-01. A-grade connection facts (SHG hub + SHG 'St Helena connects to the subsea cable' + southatlanticnews/techcentral B-grade press for landing). No colocation/rack/hosting evidence - do not upgrade to DC. Location: Saint Helena/Rupert's (Rupert's Valley), distinct from Carnarvon Court/Jamestown.",
+  "method_batch": true
+}

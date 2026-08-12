@@ -1,0 +1,21 @@
+{
+  "slug": "method-cn-huawei-cloud-gui-an-data-center-gui-an-intelligent-computing-center",
+  "canonical_project": "Huawei Cloud Gui'an Data Center / Gui'an Intelligent Computing Center",
+  "owner": "Huawei Cloud",
+  "location": {
+    "city": "",
+    "subnational": "Guizhou - Guiyang Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-15",
+  "evidence_grade": "B",
+  "sources": [
+    "https://hmo.sz.gov.cn/zx/wqzx/content/post_1553296.html",
+    "http://www.fighbgih.cn/a/202505/1490.html"
+  ],
+  "notes": "Huawei's largest global cloud DC in Gui'an electronic-information industrial park; design up to 1m servers. New 2025 reporting (weak source) says the Gui'an intelligent-computing center has deployed >110k Ascend NPUs and targets >150 Eflops cumulative compute as Huawei Cloud's global-largest intelligent-computing center. Re-verified/updated first-round lead.",
+  "method_batch": true
+}

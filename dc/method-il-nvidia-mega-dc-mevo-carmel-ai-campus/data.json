@@ -1,0 +1,21 @@
+{
+  "slug": "method-il-nvidia-mega-dc-mevo-carmel-ai-campus",
+  "canonical_project": "Nvidia / Mega DC Mevo Carmel AI Campus",
+  "owner": "Mega Or DC (lead developer); Nvidia (tenant)",
+  "location": {
+    "city": "",
+    "subnational": "HaTsafon",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 64,
+  "status": "construction",
+  "evidence_date": "2025-12-31",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dcpulse.com/project/nvidia-mevo-carmel-ai-campus-israel-project",
+    "https://en.globes.co.il/en/article-nvidia-in-talks-with-mega-or-to-build-huge-data-center-1001529459"
+  ],
+  "notes": "~64MW AI campus in Mevo Carmel Science & Industry Park near Yokneam; dcpulse lists status 'Construction' with Mega Or DC as lead developer, high-density liquid cooling for Blackwell processors; Globes Dec 2025 reported talks for 64MW build; power/planning evidence still needed under 2026 freeze.",
+  "method_batch": true
+}

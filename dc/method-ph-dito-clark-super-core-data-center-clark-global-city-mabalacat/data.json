@@ -1,0 +1,23 @@
+{
+  "slug": "method-ph-dito-clark-super-core-data-center-clark-global-city-mabalacat",
+  "canonical_project": "DITO Clark Super Core Data Center (Clark Global City, Mabalacat)",
+  "owner": "DITO Telecommunity (Huawei as MEPF contractor)",
+  "location": {
+    "city": "",
+    "subnational": "Central Luzon",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": 4,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/dito-telecommunity-breaks-ground-on-data-center-in-mabalacat-philippines/",
+    "https://www.datacentermap.com/philippines/angeles-city/dito-clark-super-core-data-center/",
+    "https://meinhardt.ph/projects/dito-data-center/",
+    "https://baxtel.com/data-center/dito-mabalacat"
+  ],
+  "notes": "DITO broke ground Apr 2021 on Clark Global City (Mabalacat, Pampanga, Central Luzon): 8-hectare development with NOC, call center, regional center, R&D lab; Meinhardt confirms 700 cabinets, 4 MW total power, 7,500 sqm modular prefabricated shockproof design; Baxtel lists as operational. 4 MW from contractor project page (B), A for DCD+directory confirmation of facility.",
+  "method_batch": true
+}

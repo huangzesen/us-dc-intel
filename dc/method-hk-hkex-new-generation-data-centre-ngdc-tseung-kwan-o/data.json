@@ -1,0 +1,22 @@
+{
+  "slug": "method-hk-hkex-new-generation-data-centre-ngdc-tseung-kwan-o",
+  "canonical_project": "HKEX New Generation Data Centre (NGDC), Tseung Kwan O",
+  "owner": "Hong Kong Exchanges and Clearing (HKEX)",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://jrpl.com/en/projects/detail/699/",
+    "https://www.hkex.com.hk/Services/Connectivity/Hosting-Services",
+    "https://www.hkengineer.org.hk/issue/vol41-oct2013/cover_story/"
+  ],
+  "notes": "Tier IV NGDC at TKO Industrial Estate per JRP project page; HKEX offers low-latency colocation hosting at the site. District: Sai Kung. B for project; A for HKEX ownership via filings.",
+  "method_batch": true
+}

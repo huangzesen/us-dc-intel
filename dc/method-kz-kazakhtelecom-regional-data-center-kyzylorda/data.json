@@ -1,0 +1,20 @@
+{
+  "slug": "method-kz-kazakhtelecom-regional-data-center-kyzylorda",
+  "canonical_project": "Kazakhtelecom regional data center (Kyzylorda)",
+  "owner": "Kazakhtelecom JSC",
+  "location": {
+    "city": "",
+    "subnational": "Kyzylorda",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://ar2022.telecom.kz/ru/information-technology.html"
+  ],
+  "notes": "Inferred from Kazakhtelecom national network (27 DCs in regional centers, 2022 annual report, A for network existence); no facility-level public source — legacy IDC likely (methodology seed).",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-li-vestra-ict-data-center-vaduz",
+  "canonical_project": "vestra ICT Data Center Vaduz",
+  "owner": "vestra ICT AG / plus.li",
+  "location": {
+    "city": "",
+    "subnational": "Vaduz",
+    "country": "Liechtenstein",
+    "country_code": "LI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://vestra-ict.net/",
+    "https://www.ripe.net/membership/member-support/list-of-members/li/vestra/",
+    "https://www.datacentermap.com/c/vestra-ict-ag/"
+  ],
+  "notes": "vestra ICT official site states its data centers are in Eschen and Vaduz with 100% data residency in Liechtenstein (A operator-stated); RIPE member record gives company address Landstrasse 107, 9490 Vaduz (A entity address); Data Center Map lists two vestra ICT facilities (C). Whether the Vaduz DC sits at Landstrasse 107 requires Vaduz Bauverwaltung/permit confirmation.",
+  "method_batch": true
+}

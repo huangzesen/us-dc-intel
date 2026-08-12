@@ -1,0 +1,21 @@
+{
+  "slug": "method-pl-ovhcloud-warsaw-data-center",
+  "canonical_project": "OVHcloud Warsaw data center",
+  "owner": "OVHcloud",
+  "location": {
+    "city": "",
+    "subnational": "Mazovia",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ovhcloud.com/en/datacenter/",
+    "https://www.ovhcloud.com/en/about-us/global-infrastructure/regions/"
+  ],
+  "notes": "OVHcloud Warsaw data center/region per official global infrastructure/datacenter pages. Facility details per operator confirmation.",
+  "method_batch": true
+}

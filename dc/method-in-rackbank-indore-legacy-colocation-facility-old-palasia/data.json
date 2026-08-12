@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-rackbank-indore-legacy-colocation-facility-old-palasia",
+  "canonical_project": "RackBank Indore legacy colocation facility (Old Palasia)",
+  "owner": "RackBank Datacenters Pvt Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Madhya Pradesh - Indore",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.rackbank.in/",
+    "https://www.peeringdb.com/fac/10728"
+  ],
+  "notes": "RackBank's original Tier-III colocation/data centre in Indore (Old Palasia) operational since ~2013; PeeringDB facility 'Rackbank DC Central India' (Indore, MP 452016). Own-site/PeeringDB evidence of existence; capacity not published.",
+  "method_batch": true
+}

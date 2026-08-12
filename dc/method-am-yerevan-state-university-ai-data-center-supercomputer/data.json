@@ -1,0 +1,21 @@
+{
+  "slug": "method-am-yerevan-state-university-ai-data-center-supercomputer",
+  "canonical_project": "Yerevan State University AI Data Center / Supercomputer",
+  "owner": "Yerevan State University (state-funded)",
+  "location": {
+    "city": "",
+    "subnational": "Yerevan",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ysu.am/en/news/90809",
+    "https://www.linkedin.com/posts/hesc-mescs-ra_english-below-"
+  ],
+  "notes": "Institutional/research AI supercomputing center at YSU opened January 2026; 64 NVIDIA H100 GPUs, government funding ~AMD 3.4B (~USD 9M); institutional HPC, not commercial colo.",
+  "method_batch": true
+}

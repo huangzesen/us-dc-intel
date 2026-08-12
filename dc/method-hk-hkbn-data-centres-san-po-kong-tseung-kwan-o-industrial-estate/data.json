@@ -1,0 +1,20 @@
+{
+  "slug": "method-hk-hkbn-data-centres-san-po-kong-tseung-kwan-o-industrial-estate",
+  "canonical_project": "HKBN data centres (San Po Kong + Tseung Kwan O Industrial Estate)",
+  "owner": "HKBN (1310.HK)",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.hkbnes.net/support/DC_PC_Eng.pdf"
+  ],
+  "notes": "HKBN operates data centres at San Po Kong and TKO Industrial Estate with dual fibre pathways (HKBN + Towngas Telecom fibre); aggregator-grade evidence, addresses unverified. Districts: Wong Tai Sin (San Po Kong) + Sai Kung (TKO).",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-lu-data4-luxembourg-bettembourg-lead",
+  "canonical_project": "DATA4 Luxembourg (Bettembourg) - lead",
+  "owner": "DATA4",
+  "location": {
+    "city": "",
+    "subnational": "Esch-sur-Alzette",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": 4,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/luxembourg/luxembourg/data4-luxembourg/"
+  ],
+  "notes": "Directory lead: DATA4 Luxembourg at 202 zone d'activite Economique Wolser F (4 MW per DataCenterMap). Not confirmed on DATA4 official site in this pass; requires DATA4 page + Bettembourg permit/LBR confirmation.",
+  "method_batch": true
+}

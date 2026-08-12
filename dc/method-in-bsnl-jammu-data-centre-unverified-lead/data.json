@@ -1,0 +1,20 @@
+{
+  "slug": "method-in-bsnl-jammu-data-centre-unverified-lead",
+  "canonical_project": "BSNL Jammu Data Centre (unverified lead)",
+  "owner": "Bharat Sanchar Nigam Limited (BSNL)",
+  "location": {
+    "city": "",
+    "subnational": "Jammu and Kashmir - Jammu",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://glomnidesigns.com/jammu-data-centre/"
+  ],
+  "notes": "Weak secondary page (web design agency) references a 'Jammu BSNL Data Center' benefiting J&K connectivity. BSNL IDC presence in Jammu could not be confirmed on official BSNL channels or trade press; treat as an unverified lead only.",
+  "method_batch": true
+}

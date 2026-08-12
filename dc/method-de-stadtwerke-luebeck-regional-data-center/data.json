@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-stadtwerke-luebeck-regional-data-center",
+  "canonical_project": "Stadtwerke Luebeck regional data center",
+  "owner": "Stadtwerke Luebeck",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Lübeck",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-03-10",
+  "evidence_grade": "A",
+  "sources": [
+    "https://energiecluster-luebeck.de/project/erstes-stadtwerke-luebeck-rechenzentrum-staerkt-datenhoheit-und-digitale-unabhaengigkeit/",
+    "https://www.ndr.de/nachrichten/schleswig-holstein/luebeck_herzogtum-lauenburg_ostholstein/stadtwerke-luebeck-eigenes-rechenzentrum-gestartet%2Cregionluebecknews-1696.html"
+  ],
+  "notes": "Municipal/regional data center launched in Luebeck (NDR 2026-03-10); sources describe redundant systems, regional customers, two 100 kW CHP units for supporting power/heat concept, rooftop PV and server-waste-heat reuse. Capacity MW not disclosed.",
+  "method_batch": true
+}

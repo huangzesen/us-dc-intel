@@ -1,0 +1,20 @@
+{
+  "slug": "method-cn-china-mobile-yangtze-river-delta-ningbo-data-center",
+  "canonical_project": "中国移动长三角（宁波）数据中心 (China Mobile Yangtze River Delta Ningbo Data Center)",
+  "owner": "China Mobile Zhejiang",
+  "location": {
+    "city": "",
+    "subnational": "Zhejiang - Ningbo Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "http://m.cncms.com/yunying/jinrong/20230828/082856418.html"
+  ],
+  "notes": "Total compute 395.7 PFLOPS, 83PB storage, all-flash architecture; selected as a National New-Type Data Center typical case (Mar 2023).",
+  "method_batch": true
+}

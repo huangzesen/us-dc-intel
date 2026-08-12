@@ -1,0 +1,22 @@
+{
+  "slug": "method-ga-airtel-gabon-s-a-data-center-libreville",
+  "canonical_project": "Airtel Gabon S.A. data center (Libreville)",
+  "owner": "Airtel Gabon S.A.",
+  "location": {
+    "city": "",
+    "subnational": "Estuary",
+    "country": "Gabon",
+    "country_code": "GA"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://colo.exchange/data-centers/airtel-gabon-sa-airtel-gabon",
+    "https://www.datacenterjournal.com/data-centers/gabon/libreville/airtel-gabon/",
+    "https://www.peeringdb.com/org/18816"
+  ],
+  "notes": "Directory-listed Airtel Gabon facility in Libreville (C-grade); PeeringDB org record exists (network presence) and Airtel is a GABIX member; needs operator/ARCEP confirmation before counting as public colocation.",
+  "method_batch": true
+}

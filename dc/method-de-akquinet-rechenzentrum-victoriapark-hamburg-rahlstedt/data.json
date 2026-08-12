@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-akquinet-rechenzentrum-victoriapark-hamburg-rahlstedt",
+  "canonical_project": "AKQUINET Rechenzentrum Victoriapark Hamburg-Rahlstedt",
+  "owner": "Green Datahub Holding GmbH / AKQUINET",
+  "location": {
+    "city": "",
+    "subnational": "Hamburg - Hamburg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-05-29",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.buschhueter.de/hochleistungs-rechenzentrum-im-victoriapark-eroeffnet/",
+    "https://akquinet.com/rechenzentrum-victoria-park-hamburg.html"
+  ],
+  "notes": "High-performance data center in Rahlstedter Gewerbegebiet Victoriapark opened May 2025; built by Green Datahub Holding with AKQUINET for ~70-80 M EUR; 700+ server racks on 2,350 sqm; PV roof, waste-heat reuse for neighbouring buildings. AKQUINET also operates DCs in Alsterdorf (Hamburg), Norderstedt and Itzehoe.",
+  "method_batch": true
+}

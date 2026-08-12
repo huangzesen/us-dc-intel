@@ -1,0 +1,23 @@
+{
+  "slug": "method-sa-qst-data-centre-1-riyadh-300-mw-mcit-program",
+  "canonical_project": "QST Data Centre 1 (Riyadh) - 300 MW MCIT program",
+  "owner": "Quantum Switch Tamasuk (QST)",
+  "location": {
+    "city": "",
+    "subnational": "Riyadh Region - Ar Riyad",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 300,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.cst.gov.sa/en/services/Pages/Data-Centers-Service-Providers.aspx",
+    "https://www.datacenterdynamics.com/en/news/qst-signs-deal-with-saudi-ministry-of-communications-to-develop-300mw-of-data-centers/",
+    "https://w.media/300mw-data-center-project-advances-in-saudi/",
+    "https://www.meed.com/saudi-300mw-data-centre-project-advances"
+  ],
+  "notes": "QST signed an MCIT agreement for 300 MW (six 50 MW facilities) across Riyadh, Dammam, Jeddah, NEOM by 2026; CST registry lists 'Quantum Switch Tamasuk Data Centre 1' (Riyadh); DCD reports ground broken on two facilities and w.media/MEED report first-phase construction advancing. 300 MW is program-level capacity, not a single building.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-pf-tahiti-nui-fortress-tnf-data-center",
+  "canonical_project": "Tahiti Nui Fortress (TNF) Data Center",
+  "owner": "Tahiti Nui Telecom / Groupe OPT",
+  "location": {
+    "city": "",
+    "subnational": "French Polynesia",
+    "country": "French Polynesia",
+    "country_code": "PF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tnfortress.pf/datacenter/",
+    "https://www.datacentermap.com/french-polynesia/papenoo/tahiti-nui-fortress/",
+    "https://www.tahiti-infos.com/Tahiti-Nui-Telecom-ouvre-un-Data-Center-a-Papenoo_a74879.html"
+  ],
+  "notes": "First data center of French Polynesia, operated by Tahiti Nui Telecom (Groupe OPT) at Papenoo PK 16.7 (datacentermap lists address Pk 16.7 c/mont, 98709 Mahina, Tahiti). Official tnfortress.pf datacenter page confirms colocation (shared rack from 20,000 F CFP/month, dedicated rack from 20U, private rooms), two EDT power feeds on two generators, about one week energy autonomy, colocation room hosting 1000+ 1U servers, APC racks with 2 power feeds, 24/7 access. Claims Tier3+ construction (official claim; no external certification document found). Service existence/address/status A-grade (official page); capacity not publicly disclosed.",
+  "method_batch": true
+}

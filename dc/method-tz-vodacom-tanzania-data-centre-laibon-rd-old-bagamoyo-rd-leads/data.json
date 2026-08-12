@@ -1,0 +1,21 @@
+{
+  "slug": "method-tz-vodacom-tanzania-data-centre-laibon-rd-old-bagamoyo-rd-leads",
+  "canonical_project": "Vodacom Tanzania data centre (Laibon Rd / Old Bagamoyo Rd leads)",
+  "owner": "Vodacom Tanzania Plc (Vodacom Group)",
+  "location": {
+    "city": "",
+    "subnational": "Dar es Salaam",
+    "country": "Tanzania, United Republic of",
+    "country_code": "TZ"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/tanzania/dar-es-salaam/",
+    "https://www.vodacom.co.tz/"
+  ],
+  "notes": "DataCenterMap (C) lists a Vodacom Dar es Salaam Data Center near Laibon Road; Vodacom HQ is on Old Bagamoyo Road, Ursino Estate. A 'Solutions Architect - Data Center Solutions' job posting confirms Vodacom Tanzania runs data-centre/cloud solution functions. Per TZ methodology treat as telco-owned data-centre/hosting lead until official page/TCRA/council evidence confirms a commercial colo facility; directories are C for address/capacity.",
+  "method_batch": true
+}

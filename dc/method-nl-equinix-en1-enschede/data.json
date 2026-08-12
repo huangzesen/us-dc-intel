@@ -1,0 +1,21 @@
+{
+  "slug": "method-nl-equinix-en1-enschede",
+  "canonical_project": "Equinix EN1 (Enschede)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Overijssel",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/netherlands-colocation/enschede-data-centers/en1",
+    "https://www.datacenters.com/equinix-en1-enschede"
+  ],
+  "notes": "Equinix EN1 at Auke Vleerstraat 1, 7521 PE Enschede (official page; datacenters.com: 31,215 sqft, ~12,917 sqft raised floor).",
+  "method_batch": true
+}

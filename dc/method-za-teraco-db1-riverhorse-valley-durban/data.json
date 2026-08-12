@@ -1,0 +1,22 @@
+{
+  "slug": "method-za-teraco-db1-riverhorse-valley-durban",
+  "canonical_project": "Teraco DB1 (Riverhorse Valley, Durban)",
+  "owner": "Teraco Data Environments (Digital Realty)",
+  "location": {
+    "city": "",
+    "subnational": "KwaZulu-Natal - eThekwini Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": 2.2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.teraco.co.za/data-centre-locations/durban/",
+    "https://techcentral.co.za/teraco-doubles-durban-data-centre-terpr/235391/",
+    "https://www.datacentermap.com/south-africa/durban/db1/"
+  ],
+  "notes": "Teraco's Durban facility DB1 at Riverhorse Close, Riverhorse Valley, north Durban - largest data centre in KwaZulu-Natal; expansion (completed 2023) doubled capacity to 2.2MW critical power load, 5,800 sq m building, 700+ racks, 4MVA utility supply (per TechCentral/operator). Teraco official Durban page confirms vendor-neutral colocation; TelCables SA established a PoP at Teraco Riverhorse DB1 (2025-06-26, IOL) reinforcing hub status. Per methodology power label preserved: 2.2MW critical load, 4MVA supply.",
+  "method_batch": true
+}

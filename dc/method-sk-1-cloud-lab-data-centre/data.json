@@ -1,0 +1,21 @@
+{
+  "slug": "method-sk-1-cloud-lab-data-centre",
+  "canonical_project": "1 Cloud Lab Data Centre",
+  "owner": "1 Cloud Lab s.r.o.",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.1cloudlab.sk/",
+    "https://www.1cloudlab.sk/en/"
+  ],
+  "notes": "Official page states Bratislava data centre with colocation and public-cloud services, operating since 2000. Verify exact address and facility specs per methodology before further grading.",
+  "method_batch": true
+}

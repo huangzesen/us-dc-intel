@@ -1,0 +1,21 @@
+{
+  "slug": "method-qa-gbi-qstp-llc-cloud-connectivity-provider-hq",
+  "canonical_project": "GBI QSTP-LLC (cloud/connectivity provider HQ)",
+  "owner": "Gulf Bridge International (GBI)",
+  "location": {
+    "city": "",
+    "subnational": "Rayyan",
+    "country": "Qatar",
+    "country_code": "QA"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://qstp.qa/directory/gbi-qstp-llc/",
+    "https://www.gbiinc.com/"
+  ],
+  "notes": "QSTP directory (A/B) lists GBI QSTP-LLC headquartered at QSTP (Al Rayyan); GBI owns submarine/terrestrial fibre meshed network and was to be combined with QNBN by QIA (QNA, Oct 2024). No public GBI-operated DC building in Qatar confirmed - lead/context record only.",
+  "method_batch": true
+}

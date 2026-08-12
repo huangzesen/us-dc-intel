@@ -1,0 +1,22 @@
+{
+  "slug": "method-tn-eo-data-center-enfidha-meninx",
+  "canonical_project": "EO Data Center Enfidha (Meninx)",
+  "owner": "EO Data Center (formerly Meninx Technologies)",
+  "location": {
+    "city": "",
+    "subnational": "Sousse",
+    "country": "Tunisia",
+    "country_code": "TN"
+  },
+  "capacity_mw": 1,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.eodatacenter.com/",
+    "https://www.eodatacenter.com/actualites/e-sante-tunisie-securiser-hebergement-donnees-medicales",
+    "https://deeplearn.tn/data-center-enfidha/"
+  ],
+  "notes": "Carrier-neutral colocation/sovereign-cloud data center in Zone Industrielle d'Enfidha, Sousse governorate (near Enfidha-Hammamet airport); Tier III design, NCloud-labelled, ISO 27001/PCI-DSS per operator page; ~1 MW installed power and ~250-1,000 m2 halls per secondary sources (B). Near subsea landing points; partners incl. IBM, Orange Tunisie, Tunisie Telecom.",
+  "method_batch": true
+}

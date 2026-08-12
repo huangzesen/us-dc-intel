@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-t-systems-deutsche-telekom-datacenter-biere-boerdeland",
+  "canonical_project": "T-Systems / Deutsche Telekom Datacenter Biere (Boerdeland)",
+  "owner": "T-Systems International GmbH / Deutsche Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Saxony-Anhalt - Salzlandkreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-04-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenter-insider.de/das-telekom-rechenzentrum-in-biere-soll-nachhaltiger-wirtschaften-a-1018418/",
+    "https://www.bbglive.de/2012/10/24/groesstes-rechenzentrum-der-telekom-entsteht-im-salzlandkreis/",
+    "https://gpms.biz/portfolio/rechenzentren/"
+  ],
+  "notes": "Datacenter-Insider (2021-04-26) confirms the Biere datacenter (Boerdeland municipality, Salzlandkreis) houses most of Deutsche Telekom's cloud offerings, opened 2014 and expanded 2018, PUE 1.3, target net-zero-energy RZ with Fraunhofer IFF; BBGLIVE (2012) documented the construction as Telekom's largest German RZ in the Salzlandkreis; T-Systems-era reporting cited ~40,000 sqm gross floor and a first phase of 5,400 sqm with ~30,000 servers. Formerly hosted Microsoft Cloud Germany trustee cloud (legacy per methodology; current operator Telekom/T-Systems). Grid connection MW not publicly disclosed; kept null.",
+  "method_batch": true
+}

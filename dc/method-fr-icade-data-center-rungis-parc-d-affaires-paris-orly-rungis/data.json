@@ -1,0 +1,23 @@
+{
+  "slug": "method-fr-icade-data-center-rungis-parc-d-affaires-paris-orly-rungis",
+  "canonical_project": "Icade data center Rungis (Parc d'affaires Paris Orly-Rungis)",
+  "owner": "Icade",
+  "location": {
+    "city": "",
+    "subnational": "Val-de-Marne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 85,
+  "status": "announced",
+  "evidence_date": "2025-04-08",
+  "evidence_grade": "B",
+  "sources": [
+    "https://94.citoyens.com/2025/consultation-sur-le-projet-de-data-center-dans-le-parc-icade-de-rungis,08-04-2025.html",
+    "https://dcmag.fr/le-projet-de-data-center-du-parc-icade-de-rungis-en-consultation-publique/",
+    "https://www.ccingenierie.fr/fr/projet/data-center-rungis/",
+    "https://liti.fr/rungis-consultation-pour-un-data-center/"
+  ],
+  "notes": "~85 MW IT data center (CCIngenierie project sheet, incl. HV substations), ~31,400 m2 plot / 15,940 m2 built, 70 rue des Solets; public consultation April 2025; waste-heat recovery planned for the Rungis MIN heat network; one of four large Val-de-Marne DC projects.",
+  "method_batch": true
+}

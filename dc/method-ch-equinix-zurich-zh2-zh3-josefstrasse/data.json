@@ -1,0 +1,21 @@
+{
+  "slug": "method-ch-equinix-zurich-zh2-zh3-josefstrasse",
+  "canonical_project": "Equinix Zurich (ZH2/ZH3, Josefstrasse)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Zurich",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datacenterplatform.com/data-centers/equinix/equinix-switzerland/equinix-zh2-zurich/",
+    "https://www.cogentco.com/en/network/service-locations?action=search&page=49&site_type="
+  ],
+  "notes": "Equinix Zurich facilities (ZH2; ZH at Josefstrasse 225 fka ICT Center); 41+ networks, peering hub; part of Equinix Switzerland portfolio incl. Geneva.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-gujarat-state-data-centre-rajkot-mini-colocation-node",
+  "canonical_project": "Gujarat State Data Centre - Rajkot mini/colocation node",
+  "owner": "Gujarat Infotech Ltd (GSDC)",
+  "location": {
+    "city": "",
+    "subnational": "Gujarat - Rajkot",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2019-12-01",
+  "evidence_grade": "C",
+  "sources": [
+    "https://archive.org/stream/8.ijcseitrdec20198/8.IJCSEITRDEC20198_djvu.txt",
+    "https://gil.gujarat.gov.in/gsdc"
+  ],
+  "notes": "Government state-data-centre node. Academic paper (IJCSEITR, Dec 2019) states GSDC provides mini/colocation data centre at Rajkot (also Surat, Vadodara, Mahesana); GIL/GSDC page confirms GSDC program but not the Rajkot node. No commercial colo evidence found for Rajkot district. Capacity not disclosed.",
+  "method_batch": true
+}

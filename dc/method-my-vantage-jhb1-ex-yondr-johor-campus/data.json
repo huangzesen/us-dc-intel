@@ -1,0 +1,21 @@
+{
+  "slug": "method-my-vantage-jhb1-ex-yondr-johor-campus",
+  "canonical_project": "Vantage JHB1 (ex-Yondr Johor campus)",
+  "owner": "Vantage Data Centers (acquired Yondr Group campus)",
+  "location": {
+    "city": "",
+    "subnational": "Johor",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": 300,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://vantage-dc.com/data-center-locations/apac/johor-malaysia",
+    "https://www.mingtiandi.com/real-estate/data-centres/vantage-set-to-buy-yondrs-oracle-leased-malaysia-data-centre/"
+  ],
+  "notes": "Vantage JHB1 (Sedenak Tech Park, Johor) 300+ MW critical IT load at full buildout; Vantage agreed to acquire Yondr's Johor campus for ~US$1.6bn after Oracle leased the first phase (Mingtiandi, Dec 2025). Historic Yondr identity retained in notes to avoid double-counting. Status under construction/leased-up phase one.",
+  "method_batch": true
+}

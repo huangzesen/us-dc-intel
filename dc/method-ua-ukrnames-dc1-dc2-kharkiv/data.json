@@ -1,0 +1,20 @@
+{
+  "slug": "method-ua-ukrnames-dc1-dc2-kharkiv",
+  "canonical_project": "Ukrnames DC1 / DC2 (Kharkiv)",
+  "owner": "Ukrnames (Центр інтернет-імен України)",
+  "location": {
+    "city": "",
+    "subnational": "Kharkiv",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ukrnames.com/ukr/colocation/"
+  ],
+  "notes": "Operator colocation page confirms two separate data centers on a single network with 2x10 Gbit/s uplinks; photos caption the data center as 'Ukrnames DC2, м. Харків' (Kharkiv). No MW capacity published. Wartime proximity to the front means current operation should be re-verified periodically.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-cz-skoda-group-data-center",
+  "canonical_project": "Skoda Group Data Center",
+  "owner": "Skoda Group",
+  "location": {
+    "city": "",
+    "subnational": "Plzen",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.skodagroup.com/cs/reference/datove-centrum"
+  ],
+  "notes": "Skoda Group official reference: operates a modern, large-capacity, highly available and fully secured data center running its own and client servers. A for operator facility reference (site-level address not disclosed).",
+  "method_batch": true
+}

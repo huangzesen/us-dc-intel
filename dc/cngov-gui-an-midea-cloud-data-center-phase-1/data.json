@@ -1,0 +1,22 @@
+{
+  "slug": "cngov-gui-an-midea-cloud-data-center-phase-1",
+  "canonical_project": "Gui'an Midea Cloud Data Center Phase 1",
+  "owner": "Midea Group",
+  "location": {
+    "city": "",
+    "subnational": "",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 9.6,
+  "status": "operational",
+  "evidence_date": "2023-06-25",
+  "evidence_grade": "B",
+  "sources": [
+    "http://www.iccsz.com/4g/news.Asp?ID=f4e6699d07064b5f9f56ecffd2480b79",
+    "https://36kr.com/p/2963755347677442",
+    "https://www.qianxinnet.com/kejijiaoyu/59399.html"
+  ],
+  "notes": "Phase 1 (A building + campus supporting works incl. diesel platform & gatehouse) total area 15,415.96 sqm; single data building can host 1,200 x 8kW racks / 70,000+ servers. Planned total investment ~RMB 1.355 bn; opened/commissioned by 2024 with reported operating PUE ~1.17. Listed among Gui'an DC cluster projects completing 2023. Capacity 9.6 MW = 1,200 racks x 8 kW (phase 1 design).",
+  "cn_gov_batch": true
+}

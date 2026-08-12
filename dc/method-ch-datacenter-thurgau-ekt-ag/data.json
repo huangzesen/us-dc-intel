@@ -1,0 +1,21 @@
+{
+  "slug": "method-ch-datacenter-thurgau-ekt-ag",
+  "canonical_project": "Datacenter Thurgau (EKT AG)",
+  "owner": "EKT AG (Thurgauer Energie)",
+  "location": {
+    "city": "",
+    "subnational": "Thurgau",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datacenterthurgau.ch/",
+    "https://datacenterthurgau.ch/blog/2017/11/27/sed-enim-libero-rutrum-ultices/"
+  ],
+  "notes": "Colocation datacenter built into/expanded EKT Unterwerk Frauenfeld West; ground-breaking 2017-10-16; 99.982% availability; utility-owned (EKT AG).",
+  "method_batch": true
+}

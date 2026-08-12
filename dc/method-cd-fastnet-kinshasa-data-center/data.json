@@ -1,0 +1,20 @@
+{
+  "slug": "method-cd-fastnet-kinshasa-data-center",
+  "canonical_project": "Fastnet Kinshasa data center",
+  "owner": "Fastnet SARL",
+  "location": {
+    "city": "",
+    "subnational": "Kinshasa",
+    "country": "Congo, Democratic Republic of the",
+    "country_code": "CD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://fastnet.cd/2017/09/27/hello-world/"
+  ],
+  "notes": "Fastnet operator announcement (2017) refers to its 'existing data center in Kinshasa' when announcing expansion to Lubumbashi and Goma. No public address or capacity for the Kinshasa facility; keep as lead pending ARPTC/PeeringDB corroboration.",
+  "method_batch": true
+}

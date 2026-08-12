@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-stadtwerke-bielefeld-bitel-data-center-telehouse-2",
+  "canonical_project": "Stadtwerke Bielefeld / BITel data center (Telehouse 2)",
+  "owner": "Stadtwerke Bielefeld Gruppe / BITel Gesellschaft fuer Telekommunikation mbH",
+  "location": {
+    "city": "",
+    "subnational": "North Rhine-Westphalia - Bielefeld",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.stadtwerke-bielefeld.de/geschaeftskunden/services/mobilitaet-telekommunikation/rechenzentrum/",
+    "https://www.bitel.de/fileadmin/content/documents/zertifikate/Telehouse2_TUEV_Zertifikat_Stadtwerke_Bielefeld_2026.pdf",
+    "https://www.bitel.de/geschaeftskunden/service/rechenzentrum.html"
+  ],
+  "notes": "Stadtwerke Bielefeld describes a TUEV-certified regional data center with DIN EN 50600 design, ISO 27001 ISMS, dual 10-kV feeds; 2026 TUEV certificate confirms Telehouse 2 at Schweriner Strasse 1-3, Bielefeld. University of Bielefeld servers moving there in 2025.",
+  "method_batch": true
+}

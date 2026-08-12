@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-mvm-net-government-datacenter-building-god",
+  "canonical_project": "MVM NET / government datacenter building, God",
+  "owner": "MVM NET Zrt. / Antenna Hungaria (BMSK investment)",
+  "location": {
+    "city": "",
+    "subnational": "Pest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.origo.hu/techbazis/2016/12/uj-adatkozpont-mvm-net-zrt-god",
+    "https://atlatszo.hu/kozpenz/2022/01/24/milliardokat-kapott-a-kormanytol-megis-ot-eve-befejezetlenul-all-godon-a-kormanyzati-adatkozpont-epulete/"
+  ],
+  "notes": "Origo (2016-12): foundation stone laid for MVM NET Zrt.'s internationally certified datacenter in God (Pest county), next to a MAVIR substation, completion planned 2017 Q3; bitport reported a new government datacenter planned in Budapest and God. atlatszo.hu (2022-01) reports the government datacenter building in God still stood unfinished after ~5 years despite billions in state funds; MVM NET was transferred to Antenna Hungaria in 2022. Current operational status unresolved in public sources - status unknown. Public-sector datacenter.",
+  "method_batch": true
+}

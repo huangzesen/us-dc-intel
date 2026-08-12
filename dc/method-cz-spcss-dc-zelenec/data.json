@@ -1,0 +1,22 @@
+{
+  "slug": "method-cz-spcss-dc-zelenec",
+  "canonical_project": "SPCSS DC Zeleneč",
+  "owner": "Statni pokladna Centrum sdilenych sluzeb (SPCSS)",
+  "location": {
+    "city": "",
+    "subnational": "Central Bohemia",
+    "country": "Czechia",
+    "country_code": "CZ"
+  },
+  "capacity_mw": 3.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.spcss.cz/",
+    "https://www.datacentermap.com/czech-republic/prague/spcss-zelene/specs/",
+    "https://baxtel.com/data-center/ce-colo-prague"
+  ],
+  "notes": "SPCSS official page identifies DC Zeleneč as Tier III-level critical-infrastructure data centre; directory specs list 3 MW built-out, 332 sqm whitespace in Zeleneč (Central Bohemia). A for official operator page.",
+  "method_batch": true
+}

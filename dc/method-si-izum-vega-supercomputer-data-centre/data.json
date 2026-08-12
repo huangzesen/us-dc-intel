@@ -1,0 +1,21 @@
+{
+  "slug": "method-si-izum-vega-supercomputer-data-centre",
+  "canonical_project": "IZUM Vega supercomputer data centre",
+  "owner": "IZUM (Institut informacijskih znanosti Maribor)",
+  "location": {
+    "city": "",
+    "subnational": "Maribor",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": 0.83,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://izum.si/vega_slv/",
+    "https://ntr-ing.si/sl/projekt/izum-vega-super-computer"
+  ],
+  "notes": "Vega (1020 compute nodes, 130,560 CPU cores, ~6.9 PFLOPS combined) installed at IZUM Maribor and launched April 2021; NTR contractor page reports up to 830 kW consumption with cooling under 50 kW (annual PUE < 1.06). Research-HPC facility; capacity_mw=0.83 derived from contractor figure.",
+  "method_batch": true
+}

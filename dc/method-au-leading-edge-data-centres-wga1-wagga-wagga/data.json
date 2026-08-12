@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-leading-edge-data-centres-wga1-wagga-wagga",
+  "canonical_project": "Leading Edge Data Centres WGA1 (Wagga Wagga)",
+  "owner": "Leading Edge Data Centres (LEDC)",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Wagga Wagga",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 0.3,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenters.com/leading-edge-data-centres-wga1-wagga-wagga",
+    "https://www.datacentermap.com/australia/wagga-wagga/leading-edge-dc-wagga-wagga/",
+    "https://w.media/digitalbridge-group-to-invest-30-million-in-leading-edge-data-centres/"
+  ],
+  "notes": "LEDC WGA1 regional edge facility in Wagga Wagga (Wagga Wagga LGA, Riverina): ~0.3MW / ~2,282 sq ft colo, ISO 27001, N+1 network design; reported under construction in 2024 and operational per LEDC (LinkedIn May 2024) completing LEDC's regional NSW network.",
+  "method_batch": true
+}

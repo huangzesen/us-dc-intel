@@ -1,0 +1,22 @@
+{
+  "slug": "method-il-dalia-ofek-data-center-near-ashdod",
+  "canonical_project": "Dalia Ofek Data Center (near Ashdod)",
+  "owner": "Dalia Energy; Serverfarm; Israel Infrastructure Fund (IIF)",
+  "location": {
+    "city": "",
+    "subnational": "HaDarom",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 130,
+  "status": "planned",
+  "evidence_date": "2026-02-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/dalia-energy-plans-israels-biggest-data-center/",
+    "https://en.globes.co.il/en/article-israels-biggest-data-center-to-be-built-in-ashdod-1001535793",
+    "https://en.globes.co.il/en/article-dalia-energy-plans-fiber-optic-cable-from-ashdod-to-europe-1001533006"
+  ],
+  "notes": "Ofek: 130MW AI data center (scalable to 200MW) near Ashdod, $1.5B construction investment (up to $5B with full AI GPU deployment), direct power from planned 850MW plant; completion targeted H2 2029 per DataCenterMap; Dalia also plans Ashdod-Europe submarine cable; 2026 Electricity Authority freeze (8MVA+/50MVA hearings) means power/planning status not fully validated - remains planned.",
+  "method_batch": true
+}

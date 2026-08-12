@@ -1,0 +1,21 @@
+{
+  "slug": "method-si-softnet-ljubljana-dc-tivolska-cesta-50",
+  "canonical_project": "SoftNET Ljubljana DC (Tivolska cesta 50)",
+  "owner": "SoftNET (telecom operator, AKOS-listed)",
+  "location": {
+    "city": "",
+    "subnational": "Ljubljana",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/slovenia/ljubljana/softnet-ljubljana-dc/",
+    "https://inflect.com/datacenters/emea/slovenia/ljubljana"
+  ],
+  "notes": "Directory leads only (DataCenterMap/Inflect) for Softnet Ljubljana DC at Tivolska cesta 50; no official page found with capacity; needs operator confirmation.",
+  "method_batch": true
+}

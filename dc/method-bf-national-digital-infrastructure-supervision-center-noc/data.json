@@ -1,0 +1,22 @@
+{
+  "slug": "method-bf-national-digital-infrastructure-supervision-center-noc",
+  "canonical_project": "National Digital Infrastructure Supervision Center (NOC)",
+  "owner": "Government of Burkina Faso / MTDPCE",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Burkina Faso",
+    "country_code": "BF"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-01-20",
+  "evidence_grade": "B",
+  "sources": [
+    "https://cadreco.media/numerique/2026/transformation-digitale-au-burkina-faso-un-centre-de-supervision-des-infrastructures-numeriques-en-construction",
+    "https://netafrique.net/centre-de-supervision-des-infrastructures-numeriques-lance-au-burkina/",
+    "https://www.ecofinagency.com/news-digital/2001-52093-burkina-faso-launches-5-4-million-digital-infrastructure-supervision-center"
+  ],
+  "notes": "Construction launched 19 Jan 2026 in Ouagadougou by Minister Aminata Zerbo-Sabane; ~USD 5.4M (Ecofin); targeted operational Oct 2026. NOC/operations building supervising backbone, cybersecurity and state DCs - per BF methodology not counted as a colocation datacenter; tracked as join target for state DC operations.",
+  "method_batch": true
+}

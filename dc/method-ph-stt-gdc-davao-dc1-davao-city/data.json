@@ -1,0 +1,22 @@
+{
+  "slug": "method-ph-stt-gdc-davao-dc1-davao-city",
+  "canonical_project": "STT GDC Davao DC1 (Davao City)",
+  "owner": "STT GDC Philippines (Globe/Ayala/STT GDC JV)",
+  "location": {
+    "city": "",
+    "subnational": "Davao",
+    "country": "Philippines",
+    "country_code": "PH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacentermap.com/philippines/davao/",
+    "https://www.datacenters.com/sttelemedia-global-data-centres-stt-davao-dc1",
+    "https://baxtel.com/data-centers/st-telemedia-global-data-centres-stt-gdc"
+  ],
+  "notes": "STT Davao DC1 on Gen. Douglas MacArthur Hwy, Talomo, Davao City (Davao Region): directly connected to US via SEA-US submarine cable. A for operator/directory evidence; capacity null.",
+  "method_batch": true
+}

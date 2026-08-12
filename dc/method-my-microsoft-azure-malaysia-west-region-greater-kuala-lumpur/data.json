@@ -1,0 +1,21 @@
+{
+  "slug": "method-my-microsoft-azure-malaysia-west-region-greater-kuala-lumpur",
+  "canonical_project": "Microsoft Azure Malaysia West region (Greater Kuala Lumpur)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Selangor",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/source/asia/features/microsoft-announces-its-first-cloud-region-in-malaysia-empowering-more-malaysian-organizations-to-accelerate-ai-innovation/",
+    "https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies"
+  ],
+  "notes": "Microsoft's first Malaysian cloud region, Malaysia West, in Greater Kuala Lumpur with 3 AZs (officially GA). Greater KL physical sites mostly in Selangor (Cyberjaya cluster). Region-level A; no individual facility addresses disclosed. Recorded in Selangor division.",
+  "method_batch": true
+}

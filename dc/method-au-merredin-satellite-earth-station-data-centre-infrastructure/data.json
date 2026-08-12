@@ -1,0 +1,21 @@
+{
+  "slug": "method-au-merredin-satellite-earth-station-data-centre-infrastructure",
+  "canonical_project": "Merredin Satellite Earth Station (data centre infrastructure)",
+  "owner": "Telstra International / Inmarsat (built by DCE Electrical)",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Merredin",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-11-03",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dceelectrical.com.au/project/merredin-ses/",
+    "https://www.telstrainternational.com/en/news-research/articles/telstra-adds-second-antenna-to-merridin-ground-station-in-wa"
+  ],
+  "notes": "New method-driven find: DCE Electrical case study describes construction of a greenfield Satellite Earth Station in Merredin with 5x T5 5.5m K-band antenna facility, a data centre and associated infrastructure; Telstra International added a second antenna in Nov 2022 for Inmarsat I-6 F1. Treated as an edge/telecom ground-station data centre; no MW capacity disclosed.",
+  "method_batch": true
+}

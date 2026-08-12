@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-dxn-tas01-ex-tasmanet-dc2-dc3-colocation-data-centre",
+  "canonical_project": "DXN TAS01 (ex-TasmaNet DC2/DC3) colocation data centre",
+  "owner": "DXN Limited (TAS01 Pty Ltd), sold to DADT",
+  "location": {
+    "city": "",
+    "subnational": "Tasmania - Glenorchy",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-07-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.arnnet.com.au/article/4191379/dxn-exits-tasmania-data-centre-business-in-520k-divestment.html",
+    "https://www.datacenterdynamics.com/en/news/dxn-sells-tasmanian-data-center-wins-cls-contract-in-american-samoa/",
+    "https://www.peeringdb.com/fac/3098"
+  ],
+  "notes": "Tier II modular colocation facility at 40-50 Innovation Drive, Dowsing Point (Tasmanian Technopark, City of Glenorchy LGA; marketed as 'Hobart data centre'); ~30-35 racks with capacity to expand to ~100; serves Tasmanian government agencies and enterprise. Acquired by DXN from TasmaNet in 2020 (AU$2.7m); DXN sold TAS01 to DADT effective 30 June 2026 (landlord consent pending); purchaser continues operating.",
+  "method_batch": true
+}

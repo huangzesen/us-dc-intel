@@ -1,0 +1,22 @@
+{
+  "slug": "method-ck-manatua-avaroa-cable-rarotonga-landing-station-rutaki",
+  "canonical_project": "Manatua / Avaroa Cable Rarotonga landing station (Rutaki)",
+  "owner": "Avaroa Cables Ltd (ACL), Cook Islands Investment Corporation (CIIC)",
+  "location": {
+    "city": "",
+    "subnational": "Cook Islands",
+    "country": "Cook Islands",
+    "country_code": "CK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2022-07-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.submarinenetworks.com/en/systems/australia-usa/manatua",
+    "https://www.samoanews.com/regional/international-submarine-cable-connection-arrives-rarotonga",
+    "https://www.cookislandsnews.com/national/local/avaroa-cable-officially-opens-aitutaki-landing-stations/"
+  ],
+  "notes": "Cable-landing asset (NOT a data centre per CK methodology): Manatua 3,600 km two-fiber-pair system ready for service 2020-07-22, brought ashore at Rutaki village, Rarotonga; landing station opened 2022. 10 Tb/s per fibre pair is connectivity capacity, not IT MW. Interconnection anchor for Rarotonga hosting (Vodafone Avarua/Aroa DCs, CIG colocation).",
+  "method_batch": true
+}

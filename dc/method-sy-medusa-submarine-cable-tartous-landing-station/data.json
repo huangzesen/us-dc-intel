@@ -1,0 +1,21 @@
+{
+  "slug": "method-sy-medusa-submarine-cable-tartous-landing-station",
+  "canonical_project": "Medusa Submarine Cable - Tartous Landing Station",
+  "owner": "Medusa Submarine Cable System / Syrian Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Tartus",
+    "country": "Syrian Arab Republic",
+    "country_code": "SY"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2025-10-25",
+  "evidence_grade": "A",
+  "sources": [
+    "https://medusascs.com/news/tartous-syria-medusa-signs-agreement-with-syria-telecom-to-establish-a-new-east-to-west-route/",
+    "https://www.datacenterdynamics.com/en/news/medusa-subsea-cable-to-land-in-syria/"
+  ],
+  "notes": "Cable landing agreement signed in Tartous under MOCT auspices (connectivity/landing station lead, not a datacenter). No hosting/colo service evidence published.",
+  "method_batch": true
+}

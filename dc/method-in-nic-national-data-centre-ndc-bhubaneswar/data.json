@@ -1,0 +1,20 @@
+{
+  "slug": "method-in-nic-national-data-centre-ndc-bhubaneswar",
+  "canonical_project": "NIC National Data Centre (NDC) Bhubaneswar",
+  "owner": "National Informatics Centre (Govt of India) / NICSI",
+  "location": {
+    "city": "",
+    "subnational": "Odisha - Khordha",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-06-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nic.gov.in/service/data-centre/"
+  ],
+  "notes": "Government cloud-enabled national data centre in Bhubaneswar (Khordha district), launched 2018, ~40,000 sq ft, Tier-III, ~271 racks per aggregator listings. Hosts cloud services for government departments.",
+  "method_batch": true
+}

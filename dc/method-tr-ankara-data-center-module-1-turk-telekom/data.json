@@ -1,0 +1,20 @@
+{
+  "slug": "method-tr-ankara-data-center-module-1-turk-telekom",
+  "canonical_project": "Ankara Data Center, Module 1 (Turk Telekom)",
+  "owner": "Turk Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Ankara",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacentercatalog.com/turkey/ankara-data-center-module-1"
+  ],
+  "notes": "Data Center Catalog lists 'Ankara Data Center, Module 1' as an operating Ankara facility, consistent with Turk Telekom's modular Ankara campus; may overlap with TTIDC Ankara (possible duplicate, not confirmed). Directory-grade only.",
+  "method_batch": true
+}

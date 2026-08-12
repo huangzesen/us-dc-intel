@@ -1,0 +1,22 @@
+{
+  "slug": "method-sk-sitel-pop1-pop2",
+  "canonical_project": "SITEL POP1 / POP2",
+  "owner": "SITEL s.r.o.",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sitel.sk/sk/datacentrum/",
+    "https://www.datacentrumsitel.sk/",
+    "https://baxtel.com/data-centers/sitel-s-r-o-slovakia"
+  ],
+  "notes": "Official SITEL page: POP1 running continuously since 2000 and twin POP2 since 2001 - first neutral colocation centres in Slovakia, both Bratislava; TIER 3-standard/99.999% uptime claim per Baxtel (C/B for Tier claim until certifier record). Neutral-colocation multi-site seed per methodology.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-hk-equinix-hk4-tsuen-wan-area",
+  "canonical_project": "Equinix HK4, Tsuen Wan area",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/china-colocation/hong-kong-data-centers"
+  ],
+  "notes": "Equinix lists HK4 as one of six HK data centers (A for listing only); street address not published on the metro page - unverified. District: Tsuen Wan area.",
+  "method_batch": true
+}

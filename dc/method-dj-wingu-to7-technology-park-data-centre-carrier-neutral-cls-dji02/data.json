@@ -1,0 +1,24 @@
+{
+  "slug": "method-dj-wingu-to7-technology-park-data-centre-carrier-neutral-cls-dji02",
+  "canonical_project": "Wingu TO7 Technology Park data centre + carrier-neutral CLS (DJI02)",
+  "owner": "Wingu Africa / TO7 Network",
+  "location": {
+    "city": "",
+    "subnational": "Djibouti",
+    "country": "Djibouti",
+    "country_code": "DJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A-",
+  "sources": [
+    "https://www.wingu.africa/latest-news/djibouti-president-inaugurates-wingu-tier-3-carrier-neutral-data-centre",
+    "https://www.presidence.dj/article/le-president-guelleh-procede-a-l-inauguration-d-un-important-parc-technologique-1381",
+    "https://www.datacenterdynamics.com/en/news/wingu-group-launches-data-center-and-cls-in-djibouti-tech-park/",
+    "https://www.to7network.com/",
+    "https://baxtel.com/data-center/wingu-africa-djibouti-2"
+  ],
+  "notes": "Presidency of Djibouti (presidence.dj, 2024-11-25) and Wingu official page confirm the TO7 Technology Park on the site of the former Djibouti abattoir was inaugurated by President Guelleh in November 2024; DCD (2024-11-28) reports launch of the carrier-neutral data center and first carrier-neutral CLS plus innovation center. 'Tier 3/Tier III' is operator/trade wording with no Uptime record found; design capacity ~3 MW per methodology (directory 5 MW/5,000 kW figures are C-grade), so capacity_mw kept null with announced/design ~3 MW.",
+  "method_batch": true
+}

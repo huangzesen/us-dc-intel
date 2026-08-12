@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-university-of-luebeck-anomed-ai-data-center",
+  "canonical_project": "University of Luebeck AnoMed AI data center",
+  "owner": "Universitaet zu Luebeck",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Lübeck",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-03-03",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.uni-luebeck.de/aktuelles/nachricht/artikel/universitaet-erhaelt-29-millionen-euro-fuer-grosses-ki-rechenzentrum.html",
+    "https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/_startseite/Artikel2026/I/260303_cds_ki_rechenzentrum"
+  ],
+  "notes": "BMFTR-funded EUR 29 million AI research data center on the university campus; ~400 sqm, setup and commissioning planned 2026, project term March 2026 - December 2027; stated compute target over 3,000 PetaFLOPS. Status planned (not yet operational).",
+  "method_batch": true
+}

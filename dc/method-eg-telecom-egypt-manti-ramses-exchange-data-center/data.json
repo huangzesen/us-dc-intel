@@ -1,0 +1,21 @@
+{
+  "slug": "method-eg-telecom-egypt-manti-ramses-exchange-data-center",
+  "canonical_project": "Telecom Egypt Manti (Ramses Exchange) data center",
+  "owner": "Telecom Egypt",
+  "location": {
+    "city": "",
+    "subnational": "Qalyubia",
+    "country": "Egypt",
+    "country_code": "EG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/26-ramsis-manti/telecom-egypt/datacenter/telecom-egypt-ramses-exchange",
+    "https://www.datacenters.com/providers/telecom-egypt-te/data-center-locations"
+  ],
+  "notes": "Telco exchange/data center at 26 Ramsis, Shubra Al Khayma, Qalyubia Governorate, listed by Inflect with colocation/connectivity and CAIX peering presence; some listings attribute the Ramses Exchange to Cairo, so Qalyubia/Cairo boundary aliasing applies per EG methodology. Aggregate directory sources only; no NTRA licensee PDF or Telecom Egypt facility page naming this site was found in this pass, so grade stays C.",
+  "method_batch": true
+}

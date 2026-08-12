@@ -1,0 +1,21 @@
+{
+  "slug": "method-jp-mitene-fukui-data-center",
+  "canonical_project": "Mitene Fukui Data Center (ふくいデータセンター)",
+  "owner": "Mitene Internet Network Co.",
+  "location": {
+    "city": "",
+    "subnational": "Fukui",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.mitene.co.jp/data-center-service/fukui-dc/",
+    "https://www.mitene.co.jp/document/housing/idc.pdf"
+  ],
+  "notes": "Hokuriku's first interconnection (IDC) data center in Fukui, opened May 2021; DR/BCP base with high availability, 24/365 monitoring; smaller regional facility, capacity not public.",
+  "method_batch": true
+}

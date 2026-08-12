@@ -1,0 +1,22 @@
+{
+  "slug": "method-so-nira-national-digital-identity-infrastructure-hubiye-cds-eaqoonsi-abis-at-aden-a",
+  "canonical_project": "NIRA national digital identity infrastructure (HUBIYE/CDS/eAqoonsi; ABIS at Aden Adde)",
+  "owner": "National Identification and Registration Authority (NIRA) / World Bank Scaled-UP",
+  "location": {
+    "city": "",
+    "subnational": "Banaadir",
+    "country": "Somalia",
+    "country_code": "SO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://nira.gov.so/news/nira-launches-key-digital-public-infrastructure-for-national-id-system",
+    "https://blogs.worldbank.org/en/nasikiliza/federal-republic-of-somalia-launches-mass-registration-drive-for-its-digital-id",
+    "https://www.biometricupdate.com/202501/fbi-seeks-vendors-for-its-somalia-abis"
+  ],
+  "notes": "Government/identity category, not commercial DC. HUBIYE verifier, Certificate Delivery System and eAqoonsi app in Mogadishu (A); World Bank mass-registration pilot launched Aug 18 2025 in Shangani/Boondheer districts (A). ABIS law-enforcement biometric system with a secure facility at Aden Adde International Airport (2,000,000 ten-print + 50,000 latent records, secondary backup server) is a separate B/C lead (Biometric Update/HigherGov mirror of FBI RFI).",
+  "method_batch": true
+}

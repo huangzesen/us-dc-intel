@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-microsoft-azure-japan-east-region-tokyo-saitama",
+  "canonical_project": "Microsoft Azure Japan East Region (Tokyo/Saitama)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Saitama",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list"
+  ],
+  "notes": "Official Azure regions page names Japan East (japaneast) in Tokyo/Saitama; logical region evidence only - physical Saitama sites are not disclosed.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-au-stack-infrastructure-perth-per01-campus-wangara",
+  "canonical_project": "STACK Infrastructure Perth PER01 campus (Wangara)",
+  "owner": "STACK Infrastructure (IPI Partners)",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Wanneroo",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 24,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.stackinfra.com/about/news-press/press-releases/stack-infrastructure-expands-apac-footprint-into-australia-with-124mw-of-capacity-across-melbourne-canberra-and-perth/",
+    "https://www.stackinfra.com/wp-content/uploads/2022/07/PER01_Campus_Brochure_032923.pdf",
+    "https://baxtel.com/data-center/stack-per01b",
+    "https://www.datacentermap.com/australia/perth/stack-infrastructure-per01-campus/"
+  ],
+  "notes": "STACK Infrastructure's first Perth campus at 92 Windsor Rd, Wangara (City of Wanneroo LGA, light-industrial suburb ~20km north of Perth CBD; Wikipedia confirms Wangara is in City of Wanneroo). Two buildings PER01A (8MW) and PER01B (16MW) for 24MW total campus capacity on ~2.2ha; Western Power 22kV N+1 supply, N+1 block-redundant UPS/generators, 48h fuel storage, carriers Optus/Vocus/TPG/Telstra. Announced via official STACK press release Jun 2022 as part of a 124MW Australia entry (Melbourne/Canberra/Perth); official PER01 campus brochure dated Mar 2023. Status: Baxtel lists 'planned'/future facility; some directories (e.g. dcatlas.io) list 24MW as operational - no Wanneroo council DA record located in web searches, so status and capacity remain only partially verified. capacity_mw is ultimate campus capacity, not IT load.",
+  "method_batch": true
+}

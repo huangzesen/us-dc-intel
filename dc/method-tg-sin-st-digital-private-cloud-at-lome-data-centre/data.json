@@ -1,0 +1,22 @@
+{
+  "slug": "method-tg-sin-st-digital-private-cloud-at-lome-data-centre",
+  "canonical_project": "SIN + ST Digital private cloud at Lomé Data Centre",
+  "owner": "Société d'Infrastructures Numériques (SIN) / ST Digital",
+  "location": {
+    "city": "",
+    "subnational": "Maritime",
+    "country": "Togo",
+    "country_code": "TG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.connectingafrica.com/data-centers/togo-s-sin-st-digital-to-deploy-cloud-services-at-lom-data-center",
+    "https://st.digital/datacenters",
+    "https://st.digital/en/blog"
+  ],
+  "notes": "Service-level record, not a new physical datacenter: SIN and ST Digital signed a strategic partnership to launch private cloud services deployed at the existing Lomé Data Centre facility. ST Digital markets a redundant data centre (99.99% availability, multi-operator fibre access across West Africa) hosted at LDC. Per TG methodology this is separated from the LDC facility record.",
+  "method_batch": true
+}

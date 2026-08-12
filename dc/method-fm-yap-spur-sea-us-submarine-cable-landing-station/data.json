@@ -1,0 +1,21 @@
+{
+  "slug": "method-fm-yap-spur-sea-us-submarine-cable-landing-station",
+  "canonical_project": "Yap Spur / SEA-US submarine cable landing station",
+  "owner": "FSMTCC/CableCorp (OAE) with Yap Spur IRU",
+  "location": {
+    "city": "",
+    "subnational": "Yap",
+    "country": "Micronesia, Federated States of",
+    "country_code": "FM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://fsmcable.com/states/yap/",
+    "https://tra.fm/market-entry-and-information-2/"
+  ],
+  "notes": "Yap's spur to SEA-US in service since late June 2018; TRA market page confirms CableCorp holds an IRU for the Yap Spur; FSMTCC Yap page documents open-access fiber/FTTP build on Yap Proper; FSMTC FTTP on Yap Proper is a TRA-identified bottleneck facility. Cable/telecom infrastructure, not commercial colocation.",
+  "method_batch": true
+}

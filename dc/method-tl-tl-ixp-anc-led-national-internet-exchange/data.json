@@ -1,0 +1,21 @@
+{
+  "slug": "method-tl-tl-ixp-anc-led-national-internet-exchange",
+  "canonical_project": "TL-IXP (ANC-led national Internet Exchange)",
+  "owner": "Autoridade Nacional de Comunicações (ANC) with technical adviser support",
+  "location": {
+    "city": "",
+    "subnational": "Dili",
+    "country": "Timor-Leste",
+    "country_code": "TL"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://anc.tl/media/2025/08/TOR-for-ANC-Technical-Adviser.pdf",
+    "https://anc.tl/advertisement-vacancy-for-technical-adviser/index.html"
+  ],
+  "notes": "ANC technical-adviser TOR (Aug 2025) covers route server, IXP Manager, DNS, virtualization and infrastructure setup for a national IXP, Dili likely. Interconnection anchor, not a colocation facility by itself; listed for completeness of the Dili connectivity/DC ecosystem.",
+  "method_batch": true
+}

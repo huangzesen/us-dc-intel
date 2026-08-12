@@ -1,0 +1,22 @@
+{
+  "slug": "method-cy-kktc-trnc-government-data-center-north-cyprus",
+  "canonical_project": "KKTC (TRNC) Government Data Center - north Cyprus",
+  "owner": "KKTC Bilgi Merkezi / Prime Ministry Digital Transformation",
+  "location": {
+    "city": "",
+    "subnational": "Nicosia",
+    "country": "Cyprus",
+    "country_code": "CY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ddedk.gov.ct.tr/tr-tr/projeler/veri-merkezi-projesi",
+    "https://ddedk.gov.ct.tr/tr-tr/projeler/kamu-ortak-veri-merkezi-analiz-projesi",
+    "https://yenimemur.com/kktc-veri-merkezi-ve-e-devlet-kapisi-hizmete-acildi.html"
+  ],
+  "notes": "north-cyprus caveat: TRNC official Prime Ministry (Basbakanlik Dijital Donusum) page documents the KKTC government data center project for public data storage and e-Devlet; opened Nov 2023 per TRNC press. A for official TRNC project page; facility is in occupied north Nicosia (Lefkosa) area, not ROC registry coverage. Turkcell KKTC data center (2015-2016) reported as north-Cyprus operator facility, U for physical address.",
+  "method_batch": true
+}

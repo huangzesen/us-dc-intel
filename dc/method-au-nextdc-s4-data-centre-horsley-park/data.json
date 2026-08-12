@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-nextdc-s4-data-centre-horsley-park",
+  "canonical_project": "NEXTDC S4 Data Centre, Horsley Park",
+  "owner": "NEXTDC Limited",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Fairfield",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 250,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.planningportal.nsw.gov.au/major-projects/projects/nextdc-s4-data-centre-horsley-park",
+    "https://telconews.com.au/story/multiplex-starts-construction-on-nextdc-s-s4-sydney",
+    "https://www.datacenterdynamics.com/en/news/nextdc-plans-550mw-data-center-campus-in-sydney-australia/"
+  ],
+  "notes": "NSW Planning Portal SSD-63741210 for construction and operation of a data centre in Fairfield City with 250 MW operational capacity (six data centre buildings); determined/approved 2025-12-24. Telco News reports Multiplex has started construction at 16 Johnston Crescent, Horsley Park (two four-storey buildings, 30,743 sqm, phase one of the campus). DCD reports NEXTDC's Sydney footprint incl. S4 in Horsley Park and a planned ~550 MW campus in Sydney. Capacity basis: operational capacity per SSD.",
+  "method_batch": true
+}

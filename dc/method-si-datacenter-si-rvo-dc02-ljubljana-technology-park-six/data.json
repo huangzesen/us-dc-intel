@@ -1,0 +1,22 @@
+{
+  "slug": "method-si-datacenter-si-rvo-dc02-ljubljana-technology-park-six",
+  "canonical_project": "Datacenter.si / RvO DC02 Ljubljana Technology Park / SIX",
+  "owner": "RvO d.o.o. / Datacenter.si",
+  "location": {
+    "city": "",
+    "subnational": "Ljubljana",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenter.si/index.sl.html",
+    "https://tplj.rvo.si/",
+    "https://www.datacentermap.com/slovenia/ljubljana/"
+  ],
+  "notes": "Datacenter.si official page lists Ljubljana - Tehnoloski Park 18 - SIX colocation; RvO Technology Park page describes cloud/colocation/internet at Tehnoloski Park Ljubljana. Colocation near SIX Slovenian Internet Exchange. Capacity not public.",
+  "method_batch": true
+}

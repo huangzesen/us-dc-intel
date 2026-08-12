@@ -1,0 +1,21 @@
+{
+  "slug": "method-mv-mvix-maldives-internet-exchange",
+  "canonical_project": "MVIX Maldives Internet Exchange",
+  "owner": "Maldives Internet Exchange (MVIX), not-for-profit",
+  "location": {
+    "city": "",
+    "subnational": "Male",
+    "country": "Maldives",
+    "country_code": "MV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mvixp.org/about-us/location/",
+    "https://www.pch.net/ixp/details/2313"
+  ],
+  "notes": "Active IXP/colo/peering facility in Male at H. Bonthi 5th Floor, Hihfaseyha Goalhi, Male (official MVIX location page); PCH lists MVIX active, established 2022-09-28. Counted as IXP/colo facility per methodology, not a commercial wholesale DC. No public MW.",
+  "method_batch": true
+}

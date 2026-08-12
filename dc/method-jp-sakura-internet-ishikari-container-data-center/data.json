@@ -1,0 +1,22 @@
+{
+  "slug": "method-jp-sakura-internet-ishikari-container-data-center",
+  "canonical_project": "Sakura Internet Ishikari container data center",
+  "owner": "Sakura Internet",
+  "location": {
+    "city": "",
+    "subnational": "Hokkaido",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/japans-ntt-tokyu-land-sakura-internet-form-consortium-to-turn-ishikari-into-major-data-center-hub/",
+    "https://cloudscene.com/data-center/japan/regional/sakura-internet-sakura-internet-ishikari-data-center?quote=true",
+    "https://hokkaido-asean.org/wp-content/uploads/2025/02/SemiconductorMaterials_EN.pdf"
+  ],
+  "notes": "Sakura Internet's Ishikari (Ishikari Bay New Port) flagship facility: container-type data center completed May 2025 (~3.5 MVA/40 racks per methodology) plus earlier Ishikari DC Building 3 (Dec 2016); NTT/Tokyu Land/Sakura consortium promotes Ishikari as a renewable-powered regional DC hub.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-ch-achermann-cloud-services-datacenter-fluhgrund-luzern",
+  "canonical_project": "achermann cloud services Datacenter Fluhgrund Luzern",
+  "owner": "achermann cloud services AG",
+  "location": {
+    "city": "",
+    "subnational": "Luzern",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.achermann.swiss/files/achermann-Factsheet-Datacenter.pdf",
+    "https://www.achermann.swiss/ict-cloud-services/infrastructure-housing"
+  ],
+  "notes": "Enterprise managed-hosting datacenter 'Fluhgrund Luzern' operated by achermann cloud services; also offers TIER-3 infrastructure housing inside the ewl Stollen Luzern facility. Company factsheet C/B; small regional facility.",
+  "method_batch": true
+}

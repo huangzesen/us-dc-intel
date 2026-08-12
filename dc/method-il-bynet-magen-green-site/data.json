@@ -1,0 +1,20 @@
+{
+  "slug": "method-il-bynet-magen-green-site",
+  "canonical_project": "Bynet Magen Green Site",
+  "owner": "Bynet Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "HaDarom",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 64,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://bynetdcs.co.il/"
+  ],
+  "notes": "Official Bynet site lists 'Magen' at 64MW, green site, energy-storage based; Magen kibbutz near Gaza border (Southern District); planned status, power connection subject to 2026 electricity freeze.",
+  "method_batch": true
+}

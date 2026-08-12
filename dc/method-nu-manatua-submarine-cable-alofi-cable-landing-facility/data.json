@@ -1,0 +1,24 @@
+{
+  "slug": "method-nu-manatua-submarine-cable-alofi-cable-landing-facility",
+  "canonical_project": "Manatua submarine cable - Alofi cable landing facility",
+  "owner": "Manatua Cable Consortium (OPT, Avaroa Cable, Telecom Niue, SSCC) / SubCom supplier",
+  "location": {
+    "city": "",
+    "subnational": "Niue",
+    "country": "Niue",
+    "country_code": "NU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.gov.nu/media-releases/government-updates-public-on-the-internet-service-disruption",
+    "https://www.subcom.com/documents/Manatua-CIF-SubCom-final-19NOV2018.pdf",
+    "https://www.subcom.com/documents/2020/Manatua_Consortium_Confirms_Cable_Lay_Ops_Complete-FINAL-APPROVED_FOR_RELEASE-17FEB2020.pdf",
+    "https://www.submarinenetworks.com/en/systems/australia-usa/manatua",
+    "https://tvniue.com/manatua-cable-to-be-installed-this-year/"
+  ],
+  "notes": "Manatua is Niue's only fibre connectivity asset (first fibre link; 3,634 km, 2 fibre pairs, Samoa-Niue-Cook Islands-French Polynesia; consortium includes Telecom Niue per SubCom contract-in-force PDF). Government of Niue media release (2026-08-07) confirms the cable is in service and suffered a fault offshore Samoa on 2026-08-04, with repairs coordinated by Manatua Cable partners and monitoring by Government of Niue and Telecom Niue. Landing station near BCN Transmission Tower at Seikena (Alofi area) per TV Niue. Telecom cable station, NOT a datacenter/colo - no facility-access/RIO/interconnect service published.",
+  "method_batch": true
+}

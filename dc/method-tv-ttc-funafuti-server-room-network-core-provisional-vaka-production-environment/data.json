@@ -1,0 +1,21 @@
+{
+  "slug": "method-tv-ttc-funafuti-server-room-network-core-provisional-vaka-production-environment",
+  "canonical_project": "TTC Funafuti server room / network core (provisional Vaka production environment)",
+  "owner": "Tuvalu Telecommunications Corporation (TTC)",
+  "location": {
+    "city": "",
+    "subnational": "Funafuti",
+    "country": "Tuvalu",
+    "country_code": "TV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://openjicareport.jica.go.jp/pdf/1000057177.pdf",
+    "https://www.tuvalutelecom.tv/about-us"
+  ],
+  "notes": "JICA 2026 survey (A) describes TTC's single-story building in Funafuti/Vaiaku containing a server room; Vaka cable runs provisionally from this facility (from 2025-10) before the planned micro data center is delivered. Asset class: telco-server-room / network-core. This is a telecom core/server room, not a commercial colocation datacenter (no customer-facing colo/racks marketed). TTC official site (tuvalutelecom.tv) confirms operator identity, Vaiaku/Funafuti address and fixed/mobile/internet services.",
+  "method_batch": true
+}

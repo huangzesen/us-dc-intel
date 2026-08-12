@@ -1,0 +1,24 @@
+{
+  "slug": "method-au-dca-pier-canning-vale-data-centre",
+  "canonical_project": "DCA | PIER Canning Vale data centre",
+  "owner": "DC Alliance / Pier DC Pty Ltd (AsiaPhos acquisition)",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Canning",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://pierdc.com.au/",
+    "https://dcalliance.com.au/contact-us",
+    "https://www.ocolo.io/colocation/dc-alliance/dca-pier/",
+    "https://w.media/asiaphos-to-acquire-perth-data-centre-in-pivot-to-digital-infrastructure/",
+    "https://www.theedgesingapore.com/news/ma/asiaphos-plans-take-majority-stake-australian-data-centre-valued-a15-mil"
+  ],
+  "notes": "DCA | PIER is an Uptime Institute certified Tier III data centre at 1 Martin Place, Canning Vale industrial area, ~20km from Perth CBD, serving enterprise and government customers. w.media and The Edge Singapore report the facility operates a 2MW power installation supporting ~700kW of IT load with plans for modular expansion to 8MW; AsiaPhos agreed to acquire a majority stake in DC Alliance (owner of Pier DC) in 2026. Capacity 2 = current power installation, 8 = expansion target.",
+  "method_batch": true
+}

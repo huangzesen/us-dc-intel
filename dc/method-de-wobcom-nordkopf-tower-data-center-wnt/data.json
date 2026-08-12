@@ -1,0 +1,22 @@
+{
+  "slug": "method-de-wobcom-nordkopf-tower-data-center-wnt",
+  "canonical_project": "WOBCOM Nordkopf Tower Data Center (WNT)",
+  "owner": "WOBCOM GmbH / Stadtwerke Wolfsburg",
+  "location": {
+    "city": "",
+    "subnational": "Lower Saxony - Wolfsburg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.wobcom.de/wobcom-eroeffnet-neue-etage-des-rechenzentrums-im-wolfsburger-nordkopf-tower/",
+    "https://www.datacenterdynamics.com/en/news/germanys-wobcom-expands-data-center-in-wolfsburg/",
+    "https://www.datacentermap.com/germany/wolfsburg/wobcom-data-center/"
+  ],
+  "notes": "Certified public business data center in Wolfsburg Nordkopf Tower (Hesslinger Str. 1-5); expanded to five floors; new floor tenant Host Unlimited (cloud/game hosting); regional internet node. No MW disclosed.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-cx-telstra-4g-4gx-mobile-service",
+  "canonical_project": "Telstra 4G/4GX mobile service",
+  "owner": "Telstra (via Vocus ASC backhaul)",
+  "location": {
+    "city": "",
+    "subnational": "Christmas Island",
+    "country": "Christmas Island",
+    "country_code": "CX"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://christmasislandnationalpark.gov.au/plan/plan-your-trip/phone-internet-access/",
+    "https://www.arnnet.com.au/article/1264087/vocus-and-telstra-team-up-on-christmas-island-mobile-project.html"
+  ],
+  "notes": "sub_location island-wide mobile coverage. Parks Australia official page (verified 2026-08-12): 'A Telstra 4G GSM Mobile Telephone Service operates on the Island.' ARN (2022): Vocus + Telstra used ASC backhaul to upgrade Christmas Island mobile from 2G to 4GX. COUNTED AS MOBILE TELECOM INFRASTRUCTURE - not a data centre.",
+  "method_batch": true
+}

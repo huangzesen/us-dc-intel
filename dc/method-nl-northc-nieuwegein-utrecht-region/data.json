@@ -1,0 +1,21 @@
+{
+  "slug": "method-nl-northc-nieuwegein-utrecht-region",
+  "canonical_project": "NorthC Nieuwegein (Utrecht region)",
+  "owner": "NorthC Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "Utrecht",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 2.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.northcdatacenters.com/en/northc-datacenters/nieuwegein/",
+    "https://www.peeringdb.com/fac/10741"
+  ],
+  "notes": "NorthC Nieuwegein at Frieslandhaven 6, De Wiers business park, ~2.5MW (official page; PeeringDB NL-NWG-01).",
+  "method_batch": true
+}

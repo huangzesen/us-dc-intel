@@ -1,0 +1,22 @@
+{
+  "slug": "method-la-laodc-private-data-center",
+  "canonical_project": "LaoDC private data center",
+  "owner": "Lao Data Center (LaoDC / LAO DC IT Sole Co., Ltd.)",
+  "location": {
+    "city": "",
+    "subnational": "Vientiane Capital",
+    "country": "Lao People's Democratic Republic",
+    "country_code": "LA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://laodc.com/",
+    "https://laotiantimes.com/2018/06/26/ground-broken-first-data-center-laos/",
+    "https://www.datacentermap.com/laos/vientiane/"
+  ],
+  "notes": "LaoDC official page: own data center in Vientiane Capital with redundant fiber/power, diesel generators, solar; hosting/dedicated/virtual servers. Laotian Times 2018-06-26 reports groundbreaking (Hatxaykhao area) as first private data center in Laos. A for operator claim; certification/current customers unverified; VinaHost reseller claims Tier III (C-grade). Capacity not published.",
+  "method_batch": true
+}

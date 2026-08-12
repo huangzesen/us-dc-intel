@@ -1,0 +1,21 @@
+{
+  "slug": "cngov-tko-6-chun-kwong-st",
+  "canonical_project": "中国电信国际 TKO 数据中心（6 Chun Kwong St）",
+  "owner": "中国电信国际（China Telecom Global）",
+  "location": {
+    "city": "新界·将军澳工业邨",
+    "subnational": "Hong Kong",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 42.0,
+  "status": "运营（目录记录；Shielder 另列 2024 年中国电信 TKO 项目）",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.ogcloud.net/ogidc/TYHK",
+    "https://shieldergroup.com/projects/"
+  ],
+  "notes": "GFA 约 70,000 平方米、7,000+ 机柜（按 6kW/柜估算约 42MW）；来源为行业目录 ogcloud.net，运营商归属与容量均为估算，需核验。 [province=香港]",
+  "cn_gov_batch": true
+}

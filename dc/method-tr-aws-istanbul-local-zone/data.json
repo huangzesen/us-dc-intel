@@ -1,0 +1,21 @@
+{
+  "slug": "method-tr-aws-istanbul-local-zone",
+  "canonical_project": "AWS Istanbul Local Zone",
+  "owner": "AWS (physical facility likely partner/Equinix-operated)",
+  "location": {
+    "city": "",
+    "subnational": "Istanbul",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/about-aws/whats-new/2026/05/aws-local-zones-istanbul-turkiye/",
+    "https://www.btgunlugu.com/aws-local-zone-istanbul-2026/"
+  ],
+  "notes": "AWS Istanbul Local Zone became generally available 2026-05-20, bringing compute/networking/storage in-country (single-digit ms latency). A-grade for cloud local-zone existence only; per methodology the physical facility is not an AWS-owned datacenter (Direct Connect at Equinix IL4 since 2025).",
+  "method_batch": true
+}

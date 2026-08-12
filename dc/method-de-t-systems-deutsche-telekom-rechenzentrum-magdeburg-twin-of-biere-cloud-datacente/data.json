@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-t-systems-deutsche-telekom-rechenzentrum-magdeburg-twin-of-biere-cloud-datacente",
+  "canonical_project": "T-Systems / Deutsche Telekom Rechenzentrum Magdeburg (twin of Biere cloud datacenter)",
+  "owner": "T-Systems International GmbH / Deutsche Telekom",
+  "location": {
+    "city": "",
+    "subnational": "Saxony-Anhalt - Magdeburg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-04-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenter-insider.de/das-telekom-rechenzentrum-in-biere-soll-nachhaltiger-wirtschaften-a-1018418/",
+    "https://benthaus.com/portfolio-item/detecsm-t-systems-umbau-u-sanierung-rechenzentrum-magdeburg/"
+  ],
+  "notes": "Datacenter-Insider (2021-04-26) confirms Telekom/T-Systems operates the Magdeburg data center as twin of its Biere cloud datacenter and that a water-cooled rack pilot runs at Rechenzentrum Magdeburg; Benthaus portfolio documents T-Systems refurbishment work at Magdeburg. Facility was part of the 2016-2018 Microsoft Cloud Germany trustee model (legacy per DE methodology - counted as Telekom facility, not current Microsoft cloud capacity). Public MW capacity not disclosed; no new hyperscale project found in Magdeburg city (method-driven searches 2026-08-12).",
+  "method_batch": true
+}

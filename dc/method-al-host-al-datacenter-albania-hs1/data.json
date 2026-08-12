@@ -1,0 +1,21 @@
+{
+  "slug": "method-al-host-al-datacenter-albania-hs1",
+  "canonical_project": "Host.al Datacenter Albania HS1",
+  "owner": "Host.al Shpk",
+  "location": {
+    "city": "",
+    "subnational": "Tirane",
+    "country": "Albania",
+    "country_code": "AL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://host.al/colocation-datacenter-in-albania/",
+    "https://www.peeringdb.com/org/40032"
+  ],
+  "notes": "Re-verified 2026-08-12: operator page Datacenter Albania HS1 markets colocation/hosting with redundant power, advanced cooling, 24/7 security monitoring in Tirana; PeeringDB org/40032 confirms Host.AL Shpk aka Datacenter Albania HS1. A for marketed facility; exact street address/QKB/permit still unverified (PeeringDB org address Tefta Tashko Koco 23, Tirana is B/C detail).",
+  "method_batch": true
+}

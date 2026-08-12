@@ -1,0 +1,21 @@
+{
+  "slug": "method-sa-edgnex-damac-digital-dammam-data-center-dmm01",
+  "canonical_project": "EDGNEX / DAMAC Digital Dammam Data Center (DMM01)",
+  "owner": "EDGNEX Data Centres by DAMAC / DAMAC Digital",
+  "location": {
+    "city": "",
+    "subnational": "Eastern Province - Ad Dammam",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dgtlinfra.com/edgnex-damac-data-center-dammam-saudi-arabia/",
+    "https://www.edgnex.com/locations/saudi-arabia/"
+  ],
+  "notes": "Dgtl Infra reported EDGNEX opened a 20 MW Dammam facility in September 2023; EDGNEX's Saudi Arabia locations page confirms Saudi presence. Contractor SALFO describes the DAMAC Dammam campus as a phased 30 MW master plan with 10 MW IT load and Tier III design/construction certification; Baxtel lists Edgnex Dammam as operational (built 2024). Some directory records give a Buqayq postal address for DMM01; Dammam-metro assignment retained per market sourcing, flagged for address ambiguity.",
+  "method_batch": true
+}

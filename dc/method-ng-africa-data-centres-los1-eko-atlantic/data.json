@@ -1,0 +1,22 @@
+{
+  "slug": "method-ng-africa-data-centres-los1-eko-atlantic",
+  "canonical_project": "Africa Data Centres LOS1 (Eko Atlantic)",
+  "owner": "Africa Data Centres (Cassava Technologies)",
+  "location": {
+    "city": "",
+    "subnational": "Lagos",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": 20.65,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.africadatacentres.com/lagos/",
+    "https://technext24.com/explainer/28-data-centres-nigeria-2026/",
+    "https://insights.techcabal.com/can-nigerias-data-centres-power-africas-ai-future/"
+  ],
+  "notes": "Rated-3 facility in Eko Atlantic SEZ; official spec 10 data halls, 9,800 m2 white space, 20.65MW critical IT load (currently ~10MW live with plans to scale to 20.65MW per TechCabal Insights); West African hub of ADC pan-African network.",
+  "method_batch": true
+}

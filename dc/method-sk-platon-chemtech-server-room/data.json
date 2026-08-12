@@ -1,0 +1,20 @@
+{
+  "slug": "method-sk-platon-chemtech-server-room",
+  "canonical_project": "Platon Chemtech server room",
+  "owner": "Platon.sk (hosting provider)",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.platon.sk/servery/datove-centrum"
+  ],
+  "notes": "Small operator-run server room 'Chemtech' (~36 m2) located ~400 m from SIX (Slovak Internet eXchange), Bratislava; hosting/colocation provider. Minor facility included for completeness.",
+  "method_batch": true
+}

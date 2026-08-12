@@ -1,0 +1,20 @@
+{
+  "slug": "method-ru-key-point-saint-petersburg-data-center",
+  "canonical_project": "Key Point Saint Petersburg data center",
+  "owner": "Key Point Group",
+  "location": {
+    "city": "",
+    "subnational": "Saint Petersburg",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 12,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://keypoint-group.ru/cod/sankt-peterburg/"
+  ],
+  "notes": "Key Point official page (checked 2026-08-12): SPb 1,626 IT racks / 12 MW, target year 2027; new SPb DC project presented at iKS-Media forum June 2026.",
+  "method_batch": true
+}

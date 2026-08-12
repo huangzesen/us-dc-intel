@@ -1,0 +1,22 @@
+{
+  "slug": "method-se-evroc-flagship-data-center-arlandastad-stockholm-arlanda",
+  "canonical_project": "evroc flagship data center, Arlandastad (Stockholm Arlanda)",
+  "owner": "evroc / Arlandastad Group",
+  "location": {
+    "city": "",
+    "subnational": "Stockholm",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2023-11-28",
+  "evidence_grade": "A",
+  "sources": [
+    "https://evroc.com/news/evroc-flagship-datacenter",
+    "https://www.datacenterdynamics.com/en/news/swedens-evroc-acquires-land-outside-stockholm/",
+    "https://sifted.eu/articles/evroc-plans-e600m-investment"
+  ],
+  "notes": "evroc official: flagship hyperscale cloud/AI data center next to Stockholm Arlanda Airport (Arlandastad land acquired from Arlandastad Group). Sifted: ~3,500 m2 stone-built data centre; evroc planned EUR 600m raise and 16,000 GPUs at full capacity. Status planned - no completion date confirmed in this run.",
+  "method_batch": true
+}

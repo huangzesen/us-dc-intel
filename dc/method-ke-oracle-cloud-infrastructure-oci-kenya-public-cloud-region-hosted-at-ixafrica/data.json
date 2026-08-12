@@ -1,0 +1,22 @@
+{
+  "slug": "method-ke-oracle-cloud-infrastructure-oci-kenya-public-cloud-region-hosted-at-ixafrica",
+  "canonical_project": "Oracle Cloud Infrastructure (OCI) Kenya public cloud region (hosted at iXAfrica)",
+  "owner": "Oracle / iXAfrica Data Centres (host partner)",
+  "location": {
+    "city": "",
+    "subnational": "Nairobi City",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-01-27",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.techarena.co.ke/2026/01/27/oracle-kenya-public-cloud-region-ixafrica-data-centre/",
+    "https://kenyanwallstreet.com/oracle-ix-africa-public-cloud-expansion-kenya",
+    "https://thekenyatimes.com/business/details-of-kenyan-company-selected-to-host-oracle-cloud-infrastructure-region/"
+  ],
+  "notes": "iXAfrica announced 2026-01-27 it will host Oracle's first public cloud region in Kenya at its NBOX1 Nairobi facility (first OCI region in East & Central Africa, ~50kW AI-ready density; first mooted by President Ruto Jan 2024). Cloud region != facility; recorded as cloud/project seed - service launch must be confirmed on Oracle's official region list (per KE methodology). No standalone facility beyond iXAfrica NBOX1.",
+  "method_batch": true
+}

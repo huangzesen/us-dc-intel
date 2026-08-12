@@ -1,0 +1,22 @@
+{
+  "slug": "method-ck-cig-hyper-converged-infrastructure-government-ict-network-upgrade",
+  "canonical_project": "CIG Hyper-Converged Infrastructure & Government ICT Network Upgrade",
+  "owner": "Office of the Prime Minister, Government of the Cook Islands (implemented by Aiscorp per press release)",
+  "location": {
+    "city": "",
+    "subnational": "Cook Islands",
+    "country": "Cook Islands",
+    "country_code": "CK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://procurement.gov.ck/tender=3361",
+    "http://procurement.gov.ck/tender=3329",
+    "https://www.aiscorp.co.nz/news/press-release-email-upgrade-for-cook-islands-government"
+  ],
+  "notes": "A-grade procurement: PPCI RFT Hyper-Converged Infrastructure Implementation & Government ICT Network Upgrade (tender=3361, published 2020-10-23, closed 2020-11-20 amended) and earlier EOI tender=3329 sought software-defined HCI and network for CIG on Rarotonga. Per methodology this is a government-ICT-platform upgrade, not a standalone new data centre. Aiscorp release corroborates Dec 2021 delivery of the centralised network upgrade. No MW/rack data.",
+  "method_batch": true
+}

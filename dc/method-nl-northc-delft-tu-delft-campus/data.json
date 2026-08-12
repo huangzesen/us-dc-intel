@@ -1,0 +1,20 @@
+{
+  "slug": "method-nl-northc-delft-tu-delft-campus",
+  "canonical_project": "NorthC Delft (TU Delft Campus)",
+  "owner": "NorthC Datacenters",
+  "location": {
+    "city": "",
+    "subnational": "South Holland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.northcdatacenters.com/en/northc-datacenters/delft/"
+  ],
+  "notes": "NorthC Delft data center at TU Delft campus (official page), ~1.5MW.",
+  "method_batch": true
+}

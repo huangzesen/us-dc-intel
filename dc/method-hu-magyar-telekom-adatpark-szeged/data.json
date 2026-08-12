@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-magyar-telekom-adatpark-szeged",
+  "canonical_project": "Magyar Telekom Adatpark Szeged",
+  "owner": "Magyar Telekom Nyrt.",
+  "location": {
+    "city": "",
+    "subnational": "Szeged",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telekom.hu/about_us/services/wholesale/national_fixed_line_solutions/ip_and_data/hosting",
+    "https://www.datacentermap.com/hungary/szeged/magyar-telekom-adatpark-szeged/"
+  ],
+  "notes": "City-level entry: Magyar Telekom Adatpark Szeged (6724 Szeged, Rokusi krt. 2-10) confirmed on official Telekom wholesale hosting page and DataCenterMap. Commercial colocation/hosting. No public MW figure.",
+  "method_batch": true
+}

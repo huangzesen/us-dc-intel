@@ -1,0 +1,23 @@
+{
+  "slug": "method-om-otech-oman-data-park-kom4-data-centre-rusayl",
+  "canonical_project": "Otech / Oman Data Park KOM4 data centre (Rusayl)",
+  "owner": "Oman Data Park / Otech (Omantel + 4Trust)",
+  "location": {
+    "city": "",
+    "subnational": "Muscat",
+    "country": "Oman",
+    "country_code": "OM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://theorg.com/org/oman-data-park",
+    "https://datacenterhawk.com/marketplace/providers/oman-data-park/7th-floor-zone-2-kom4-knowledge-oasis-muscat-rusayl-rusayl-om-135/kom4",
+    "https://mtcit.gov.om/register-of-approved-hosting-service-providers-and-data-centers",
+    "https://www.datacenterdynamics.com/en/news/oman-data-park-taps-local-developer-for-14mw-onsite-solar-project-at-data-center/"
+  ],
+  "notes": "KOM4, Knowledge Oasis Muscat, Rusayl (Zone 2, 7th floor); Tier 3, ~12,000 sq ft, ~192 racks per directory; MTCIT approved-provider register lists Oman Data Park/Otech with KOM4 address (A for accreditation/existence; rack count C). 1.4 MW onsite solar project reported (DCD 2025).",
+  "method_batch": true
+}

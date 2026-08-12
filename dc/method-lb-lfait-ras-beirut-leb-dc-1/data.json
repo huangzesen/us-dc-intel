@@ -1,0 +1,22 @@
+{
+  "slug": "method-lb-lfait-ras-beirut-leb-dc-1",
+  "canonical_project": "LFAIT Ras Beirut (LEB-DC #1)",
+  "owner": "Lebanese For Advanced Information Technologies SARL (LFAIT)",
+  "location": {
+    "city": "",
+    "subnational": "Beirut",
+    "country": "Lebanon",
+    "country_code": "LB"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://lfait.com/index.php",
+    "https://datacentercatalog.com/lebanon/leb-dc-1",
+    "https://www.datacentermap.com/lebanon/beirut/leb-dc-1/"
+  ],
+  "notes": "Directory lead: LEB-DC #1 in Ras Beirut (Kraitem); DataCenterMap lists LFAIT Ras Beirut; operator portal claims servers and VMware clusters across multiple datacenters (A for operator text) but no dedicated Ras Beirut facility page was found. Directory MW/sqm/Tier values are C-grade only and not copied into this record.",
+  "method_batch": true
+}

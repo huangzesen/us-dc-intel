@@ -1,0 +1,22 @@
+{
+  "slug": "method-no-stack-osl01-ulven-fka-digiplex-oslo-1",
+  "canonical_project": "STACK OSL01 Ulven (fka DigiPlex Oslo 1)",
+  "owner": "STACK Infrastructure (ex-DigiPlex)",
+  "location": {
+    "city": "",
+    "subnational": "Oslo",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": 8,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.stackinfra.com/locations/emea/oslo/",
+    "https://baxtel.com/data-center/stack-osl01-ulven",
+    "https://www.datacenterdynamics.com/en/news/stack-shares-heat-from-oslo-data-center/"
+  ],
+  "notes": "Former DigiPlex/SDS Posten building at Selma Ellefsens vei 1 / Ulvenveien 89B, Okern district; ~4,700 m2 white space; ~8 MW per directory (datacenters.com OSL01A); waste heat connected to Hafslund Oslo Celsio district heating (DCD). Nkom SPVs SI OSL 01-04 AS hold legacy assets; MW is directory-derived (B).",
+  "method_batch": true
+}

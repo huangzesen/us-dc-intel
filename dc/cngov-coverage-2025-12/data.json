@@ -1,0 +1,21 @@
+{
+  "slug": "cngov-coverage-2025-12",
+  "canonical_project": "coverage:北京经开区2025年数据中心白名单（12家）",
+  "owner": "",
+  "location": {
+    "city": "北京经开区（亦庄）",
+    "subnational": "Beijing",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "存量管理——依据《北京经济技术开发区关于加强数据中心能耗管理的若干措施》（京技管发〔2024〕8号）审核能耗、能效及算力情况，确定12家数据中心纳入'北京经济技术开发区2025年数据中心白名单'",
+  "evidence_date": "2025-11-04",
+  "evidence_grade": "A",
+  "sources": [
+    "https://kfqgw.beijing.gov.cn/zwgkkfq/tzgg/202511/t20251104_4258879.html",
+    "https://kfqgw.beijing.gov.cn/zwgkkfq/tzgg/202511/P020251104653447609391.doc"
+  ],
+  "notes": "白名单明细在附件DOC中（本daemon无法解析doc），12家存量数据中心名单未逐项收录；经开区另发布'关于加强数据中心能耗管理的若干措施'（京技管发〔2024〕8号）。可作为亦庄数据中心普查名单的官方起点。 [province=北京]",
+  "cn_gov_batch": true
+}

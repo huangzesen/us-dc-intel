@@ -1,0 +1,20 @@
+{
+  "slug": "method-in-delhi-state-data-center-delhi-swan-data-centre",
+  "canonical_project": "Delhi State Data Center / Delhi SWAN data centre",
+  "owner": "Government of NCT of Delhi / NIC",
+  "location": {
+    "city": "",
+    "subnational": "Delhi - Central Delhi",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://govtprocurement.delhi.gov.in/"
+  ],
+  "notes": "Government enterprise/edge DC for Delhi e-governance; first-round codex lead, no independent facility page verified this round. Delhi has land/power constraints; most commercial Delhi NCR capacity sits in Noida/Gurugram (UP/Haryana).",
+  "method_batch": true
+}

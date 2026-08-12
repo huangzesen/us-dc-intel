@@ -1,0 +1,23 @@
+{
+  "slug": "cngov-nanning-wuxiang-cloud-valley-ai-computing-center",
+  "canonical_project": "南宁五象云谷智算中心 (Nanning Wuxiang Cloud Valley AI Computing Center)",
+  "owner": "五象云谷有限公司 / 广西五象云谷云计算有限公司 (润建股份 002929 体系)",
+  "location": {
+    "city": "",
+    "subnational": "Guangxi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "运营中 (operational; 一期已投产, 规划二期2×万卡集群)",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ngzb.com.cn/news/2025/03/17/wanwu-kesuan-nanning-buju-mianxiang-dongmeng-rengongzhineng-chan.html",
+    "https://m.youleyou.com/wenzhang/3137361.html",
+    "https://www.admin5.com/article/20260706/1064985.shtml",
+    "https://www.jiuyangongshe.com/a/2ghtyeuccyf"
+  ],
+  "notes": "广西目前最大算力基地之一, 国标A级/国际Uptime Tier III、CQC A级认证, 99.999%可靠性; 配置220kV专用变电站、SST800V高压直流供电、微通道散热。2024年起部署百度大模型, 2025年为Kimi(Moonshot)提供算力(2025上半年订单暴增), 与阿里云、京东科技合作。规划2×万卡GPU集群, 每层楼承重较普通厂房提高30%。capacity_mw未公开机架数/投资额, 按220kV变电站+2万卡规划估计满负荷约40-80MW; 本字段留空待发改委节能审查/备案文件补充。发改委/环评公示页(fgw.gxzf.gov.cn, sthjt.gxzf.gov.cn)本运行环境不可直连, 未取得官方批复文号。 [province=广西]",
+  "cn_gov_batch": true
+}

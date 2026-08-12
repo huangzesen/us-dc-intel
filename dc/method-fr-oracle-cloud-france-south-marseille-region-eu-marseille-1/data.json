@@ -1,0 +1,20 @@
+{
+  "slug": "method-fr-oracle-cloud-france-south-marseille-region-eu-marseille-1",
+  "canonical_project": "Oracle Cloud France South (Marseille) region - eu-marseille-1",
+  "owner": "Oracle Cloud Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Bouches-du-Rhône",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.oracle.com/iaas/Content/General/Concepts/regions.htm"
+  ],
+  "notes": "Official cloud region existence (grade A for region, not physical address): OCI eu-marseille-1 France South (Marseille), paired/DR-style region; physical facilities not publicly located. Confirms Marseille as cloud-region presence in Bouches-du-Rhône.",
+  "method_batch": true
+}

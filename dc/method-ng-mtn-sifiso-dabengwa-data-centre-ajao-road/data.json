@@ -1,0 +1,22 @@
+{
+  "slug": "method-ng-mtn-sifiso-dabengwa-data-centre-ajao-road",
+  "canonical_project": "MTN Sifiso Dabengwa Data Centre (Ajao Road)",
+  "owner": "MTN Nigeria",
+  "location": {
+    "city": "",
+    "subnational": "Lagos",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": 4.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.connectingafrica.com/data-centers/mtn-nigeria-launches-data-center-in-lagos",
+    "https://technext24.com/2025/07/01/mtn-launches-150m-dabengwa-data-centre/",
+    "https://technext24.com/explainer/28-data-centres-nigeria-2026/"
+  ],
+  "notes": "Launched 2025 at Ajao Road, Lagos; phase 1 4.5MW IT load, ~780 racks, Tier III accreditation; phase 2 planned to 14-20MW; total investment ~$235M for both phases.",
+  "method_batch": true
+}

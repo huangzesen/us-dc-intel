@@ -1,0 +1,22 @@
+{
+  "slug": "method-fi-pyhajoki-data-center-yva-concluded",
+  "canonical_project": "Pyhajoki data center (YVA concluded)",
+  "owner": "Pyhajoki data center project (SPV not confirmed this pass)",
+  "location": {
+    "city": "",
+    "subnational": "North Ostrobothnia",
+    "country": "Finland",
+    "country_code": "FI"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ymparisto.fi/fi/osallistu-ja-vaikuta/ymparistovaikutusten-arviointi/pyhajoen-datakeskus-pyhajoki",
+    "https://www.sttinfo.fi/tiedote/72150696/pyhajoen-datakeskuksen-yva-selostuksesta-perusteltu-paatelma?publisherId=69821631&lang=fi",
+    "https://www.kaleva.fi/pyhajoen-datakeskuksen-valmistelevat-rakennustyot/13547643"
+  ],
+  "notes": "Large data center planned in Keskikylae, Pyhajoki near the main grid; YVA reasoned conclusion (perusteltu paatelma) issued on the EIA report; preparatory construction works reported (Kaleva); land esisopimus with Pyhajoki municipality Nov 2024, connection intended to Valkeuden saehkoeasema. Methodology notes the YVA discloses IT-teho/kokonaissaehkoeteho; values not re-verified this pass (capacity null).",
+  "method_batch": true
+}

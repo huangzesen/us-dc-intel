@@ -1,0 +1,20 @@
+{
+  "slug": "method-nl-penta-infra-lee02-leeuwarden",
+  "canonical_project": "Penta Infra LEE02 (Leeuwarden)",
+  "owner": "Penta Infra",
+  "location": {
+    "city": "",
+    "subnational": "Friesland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 0.4,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://penta-infra.com/data-centers/leeuwarden-02/"
+  ],
+  "notes": "Twin of LEE01 in Leeuwarden (official page).",
+  "method_batch": true
+}

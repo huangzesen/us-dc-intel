@@ -1,0 +1,21 @@
+{
+  "slug": "method-fr-ndc-rennes-roazhon-data-center-noyal-sur-vilaine",
+  "canonical_project": "NDC Rennes-Roazhon data center (Noyal-sur-Vilaine)",
+  "owner": "NDC (Nation Data Center)",
+  "location": {
+    "city": "",
+    "subnational": "Ille-et-Vilaine",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://asrinformatique.fr/data-center-ndc-rennesroazhon/",
+    "https://www.rennes-infos-autrement.fr/la-ministre-de-lia-demain-en-ille-et-vilaine/"
+  ],
+  "notes": "Data center at 7 Rue Alain Fournier, 35530 Noyal-sur-Vilaine (Rennes metro); French AI minister visited the site; facility-grade evidence from press/operator pages.",
+  "method_batch": true
+}

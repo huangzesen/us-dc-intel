@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-yourdc-digico-adelaide-adl1-edinburgh-parks",
+  "canonical_project": "YourDC/DigiCo Adelaide ADL1 (Edinburgh Parks)",
+  "owner": "YourDC / iSeek / DigiCo Infrastructure REIT",
+  "location": {
+    "city": "",
+    "subnational": "South Australia - Playford",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 15,
+  "status": "operational",
+  "evidence_date": "2022-09-29",
+  "evidence_grade": "B",
+  "sources": [
+    "https://itwire.com/business-it-news/data-centres/iseek-expands-its-presence-in-south-australia-with-yourdc-acquisition",
+    "https://www.datacentermap.com/australia/adelaide/yourdc-edinburgh/",
+    "https://yourdc.com.au/uploads/Documents/YourDC_ADL2_EDPK.pdf"
+  ],
+  "notes": "23 Woomera Avenue, Edinburgh Parks (City of Playford LGA). Launched May 2016; ~6,000 sqm facility on 25,000 sqm site (iTWire); ~15MW per datacentermap (C-grade capacity). iseek acquired YourDC Sep 2022; facility now branded DigiCo Adelaide ADL1. Operational colocation, dual Adelaide sites (Edinburgh Parks + Hawthorn).",
+  "method_batch": true
+}

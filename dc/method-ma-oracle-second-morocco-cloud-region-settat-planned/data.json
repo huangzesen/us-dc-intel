@@ -1,0 +1,21 @@
+{
+  "slug": "method-ma-oracle-second-morocco-cloud-region-settat-planned",
+  "canonical_project": "Oracle second Morocco cloud region - Settat (planned)",
+  "owner": "Oracle",
+  "location": {
+    "city": "",
+    "subnational": "Casablanca-Settat",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2024-06-24",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.prnewswire.com/news-releases/oracle-plans-to-open-two-public-cloud-regions-in-morocco-302158936.html",
+    "https://www.lesmre.com/en/actualites/morocco-ai-sovereign-hub-1000mw-data-centers-mre-impact-2026"
+  ],
+  "notes": "Oracle 2024 announcement of two planned Morocco regions included Settat; OCI docs and subsequent reporting still show only af-casablanca-1 live, with Settat described as a planned second region. A-grade company plan; not operational.",
+  "method_batch": true
+}

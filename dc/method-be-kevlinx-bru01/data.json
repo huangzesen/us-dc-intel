@@ -1,0 +1,23 @@
+{
+  "slug": "method-be-kevlinx-bru01",
+  "canonical_project": "KevlinX BRU01",
+  "owner": "KevlinX Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Brussels",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": 32.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.kevlinx.com/location/brussels",
+    "https://www.kevlinx.com/news/datacenter-brussel",
+    "https://governance.brussels/en/dossiers/data-centers-ia-energie",
+    "https://www.datacenterdynamics.com/en/news/kevlinxs-32mw-brussels-data-center-ready-for-service/"
+  ],
+  "notes": "First large data center in Brussels-Capital Region, live since Jan 2026. Galilei site of citydev.brussels, Avenue Antoon Van Oss, Neder-Over-Heembeek (1120 Brussels). 32 MW+ AI-ready campus design; BESIX handed over Dec 2025; BREEAM-aligned; low-latency (<5ms) to UK/NL/DE/FR. Capacity is campus design; phase-1 IT load reported 4-16 MW depending on source.",
+  "method_batch": true
+}

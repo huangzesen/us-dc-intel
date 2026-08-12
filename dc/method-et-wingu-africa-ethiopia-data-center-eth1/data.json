@@ -1,0 +1,24 @@
+{
+  "slug": "method-et-wingu-africa-ethiopia-data-center-eth1",
+  "canonical_project": "Wingu Africa Ethiopia Data Center ETH1",
+  "owner": "Wingu.Africa Group Limited",
+  "location": {
+    "city": "",
+    "subnational": "Addis Ababa",
+    "country": "Ethiopia",
+    "country_code": "ET"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.wingu.africa/",
+    "https://www.datacenterdynamics.com/en/news/winguafrica-inaugurates-ethiopia-data-center/",
+    "https://addisstandard.com/wingu-africa-becomes-first-tier-iii-certified-data-center-in-ethiopia/",
+    "https://www.fanamc.com/english/wingu-africa-data-center-built-with-50m-inaugurated-in-addis-ababa/",
+    "https://www.datacenterdynamics.com/en/news/winguafrica-breaks-ground-hyperscale-data-center-addis-ababa-ethiopia/"
+  ],
+  "notes": "Carrier-neutral hyperscale data center park at Ethio ICT Park, Addis Ababa on a 15,000 sqm plot; inaugurated June 2023 (USD 50m), first Ethiopian facility Tier III certified by Uptime Institute (2024); full build-out reported at 800 racks / 10 MW. Hosts ADDIX internet exchange. Operator also plans a second facility in Adama (Oromia).",
+  "method_batch": true
+}

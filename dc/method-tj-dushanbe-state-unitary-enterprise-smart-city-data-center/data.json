@@ -1,0 +1,21 @@
+{
+  "slug": "method-tj-dushanbe-state-unitary-enterprise-smart-city-data-center",
+  "canonical_project": "Dushanbe State Unitary Enterprise Smart City Data Center",
+  "owner": "SUE Smart City (Dushanbe city administration)",
+  "location": {
+    "city": "",
+    "subnational": "Dushanbe",
+    "country": "Tajikistan",
+    "country_code": "TJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/list/client/republic-of-tajikistan/1184",
+    "https://caravan-info.pro/dushanbe-na-puti-k-budushhemu-otkrytie-centra-umnyj-gorod-shag-k-cifrovomu-innovacionnomu-razvitiju/"
+  ],
+  "notes": "Municipal government data processing center (TsOD) inside the new SUE Smart City HQ building commissioned 2025-06-21, opened by President E. Rahmon; press reports >120 server racks and a 24/7 monitoring center. Uptime Institute lists the client with Tier III Certification of Design Documents (design certification, not built certification; per kursiv.media snippet). Certification fact = A (Uptime), commissioning = B (secondary press quoting President press service). Municipal facility, not a commercial colocation offering.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-sk-nases-government-cloud-incl-spp-hosted-second-dc",
+  "canonical_project": "NASES / Government Cloud (incl. SPP-hosted second DC)",
+  "owner": "NASES / MIRRI (state)",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://sk.cloud",
+    "https://mirri.gov.sk/aktuality/informatizacia/nases-presuva-datove-centrum-do-priestorov-spp/",
+    "https://www.nases.gov.sk"
+  ],
+  "notes": "State cloud platform for public administration (Govnet, slovensko.sk); government_or_public_sector class - NOT commercial colo per methodology. NASES second DC hosted in SPP (Slovensky plynarensky priemysel) premises in Bratislava since end-2021; map constituent physical DCs via CRZ/MIRRI/NASES.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-am-ovio-gnc-alfa-data-center-abovyan",
+  "canonical_project": "OVIO / GNC-ALFA Data Center Abovyan",
+  "owner": "GNC-ALFA CJSC (OVIO)",
+  "location": {
+    "city": "",
+    "subnational": "Kotayk",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ovio.am/en/about-us",
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/data-center-abovyan/2188",
+    "https://www.datacenters.com/ovio-a-m-abovyan"
+  ],
+  "notes": "Commercial colo/cloud in Abovyan, Kotayk, operational since May 2024; operator states 2 MW / 216 server cabinets; two independent 35 kV substations; Uptime Tier III Certification of Design Documents only (not constructed-facility certification).",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-cy-cloudlayer8-cl8-lim-data-center-phase-1",
+  "canonical_project": "CloudLayer8 / CL8 LIM Data Center Phase 1",
+  "owner": "Cloudlayer8 Limited",
+  "location": {
+    "city": "",
+    "subnational": "Limassol",
+    "country": "Cyprus",
+    "country_code": "CY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cl8.com/datacenter-service/",
+    "https://cl8.com/",
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/cl8-lim-data-center-phase-1/713",
+    "https://datacentercatalog.com/cyprus/cl8"
+  ],
+  "notes": "CL8 official page: only Tier-III certified company on the island, 99.982% uptime claim, ISO 9001/27001/PCI DSS. Uptime Institute registry lists CL8 LIM Data Center Phase 1 (Limassol, Cloudlayer8 Limited). Directory address Faleas Street, Limassol (C until operator/registry confirms street address).",
+  "method_batch": true
+}

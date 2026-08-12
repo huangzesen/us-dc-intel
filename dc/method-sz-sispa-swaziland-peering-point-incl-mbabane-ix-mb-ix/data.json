@@ -1,0 +1,22 @@
+{
+  "slug": "method-sz-sispa-swaziland-peering-point-incl-mbabane-ix-mb-ix",
+  "canonical_project": "SISPA / Swaziland Peering Point (incl. Mbabane IX MB-IX)",
+  "owner": "Eswatini ISP community (SISPA)",
+  "location": {
+    "city": "",
+    "subnational": "unknown",
+    "country": "Eswatini",
+    "country_code": "SZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.peeringdb.com/ix/262",
+    "https://www.wikiwand.com/en/List_of_Internet_exchange_points",
+    "https://www.budde.com.au/Research/Eswatini-Swaziland-Telecoms-Mobile-and-Broadband-Statistics-and-Analyses"
+  ],
+  "notes": "Interconnect/IXP lead, not a datacenter facility: SISPA/Swaziland Peering Point (PeeringDB IX 262, country SZ, small peer count); BuddeCom reports Mbabane Internet Exchange Point (MB-IX) opened in Mbabane (Hhohho) to route local traffic. Peering/hosting site location undisclosed; record as connectivity evidence only.",
+  "method_batch": true
+}

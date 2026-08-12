@@ -1,0 +1,22 @@
+{
+  "slug": "method-td-pmice-national-fiber-backbone-1-200-1-275-km-n-djamena-gpon",
+  "canonical_project": "PMICE national fiber backbone (1,200-1,275 km + N'Djamena GPON)",
+  "owner": "PMICE (Ministry of Telecommunications); Huawei delivery partner",
+  "location": {
+    "city": "",
+    "subnational": "N'Djamena City",
+    "country": "Chad",
+    "country_code": "TD"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2025-12-22",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.agenceecofin.com/actualites-numerique/2212-134505-le-tchad-boucle-la-premiere-phase-du-pmice-d-un-cout-de-205-3-millions",
+    "https://www.ecofinagency.com/news-digital/2908-48255-chad-orders-telecom-operators-to-connect-to-national-fiber-network",
+    "https://documents1.worldbank.org/curated/en/099102502282341480/pdf/P180000048eed6040a13200ddaf8abe650.pdf"
+  ],
+  "notes": "PMICE Phase I national fiber backbone: 1,200 km route (Doba-Koumra-Sarh-Kyabe-Am Timan-Abeche-Am Zoer-Guereda-Iriba) plus 50 km GPON access in N'Djamena per 2020 plan; Ecofin Agency (Aug 2025) reports 1,275 km deployed under PMICE; World Bank P180000 (A) confirms EXIMBANK-financed fiber program. Fiber line provisionally inaugurated at Sarh 20 Dec 2025; operators ordered to interconnect. Recorded under N'Djamena City as the network anchor; backbone spans multiple provinces (route endpoints recorded separately per province). Classified telecom fiber infrastructure, not a DC.",
+  "method_batch": true
+}

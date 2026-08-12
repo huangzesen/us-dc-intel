@@ -1,0 +1,21 @@
+{
+  "slug": "method-ls-vodacom-lesotho-maseru-west-data-center",
+  "canonical_project": "Vodacom Lesotho Maseru West Data Center",
+  "owner": "Vodacom Lesotho",
+  "location": {
+    "city": "",
+    "subnational": "Maseru",
+    "country": "Lesotho",
+    "country_code": "LS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vodacom.co.ls/business/fixed-solutions/",
+    "https://www.datacentermap.com/lesotho/maseru/vodacom-maseru-west-data-center/"
+  ],
+  "notes": "Vodacom Lesotho official page (A): fixed business services hosted in its two Data Centres at Maseru West and Lekokoaneng; official page also markets colocation. Capacity/power not disclosed; datacentermap places it at Kokobela Village Road 100, Maseru (C corroboration).",
+  "method_batch": true
+}

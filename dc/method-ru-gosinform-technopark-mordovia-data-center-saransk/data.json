@@ -1,0 +1,22 @@
+{
+  "slug": "method-ru-gosinform-technopark-mordovia-data-center-saransk",
+  "canonical_project": "Gosinform / Technopark-Mordovia data center (Saransk)",
+  "owner": "Gosinform (GAU RM) / Technopark-Mordovia; designed by Technoserv",
+  "location": {
+    "city": "",
+    "subnational": "Mordovia",
+    "country": "Russian Federation",
+    "country_code": "RU"
+  },
+  "capacity_mw": 2.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://gosinform.ru/?page_id=715",
+    "https://technopark-mordovia.ru/en/",
+    "https://journal.uptimeinstitute.com/russias-first-tier-iv-certification-design-documents/"
+  ],
+  "notes": "Official Gosinform page: operator of the Information-Computing Complex of Technopark Mordovia with 2.5 MW capacity, Tier IV reliability/availability (Uptime Institute certificate since 14 Oct 2013). Regional e-government data center; commercial colocation for govt/commercial clients.",
+  "method_batch": true
+}

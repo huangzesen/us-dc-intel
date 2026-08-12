@@ -1,0 +1,22 @@
+{
+  "slug": "method-hk-equinix-hk5-tseung-kwan-o",
+  "canonical_project": "Equinix HK5, Tseung Kwan O",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/china-colocation/hong-kong-data-centers",
+    "https://www.datacenters.com/equinix-hk5-hong-kong",
+    "https://inflect.com/building/299-wan-po-road-hong-kong/equinix/datacenter/hk5"
+  ],
+  "notes": "Equinix lists HK5 among its six HK IBX sites (A for listing); aggregators place it at 299 Wan Po Road, TKO Industrial Estate (C, address unconfirmed on Equinix page). District: Sai Kung.",
+  "method_batch": true
+}

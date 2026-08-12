@@ -1,0 +1,21 @@
+{
+  "slug": "method-am-teamcloud-team-telecom-armenia-data-center",
+  "canonical_project": "TeamCloud / Team Telecom Armenia Data Center",
+  "owner": "Team Telecom Armenia",
+  "location": {
+    "city": "",
+    "subnational": "Yerevan",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://teamcloud.am/colocation.php",
+    "https://teamcloud.am/cloud-server.php"
+  ],
+  "notes": "Colocation and cloud servers hosted in Team Telecom Armenia data center; Tier III international-standards claim per operator page; exact facility address requires separate corroboration (A for service claim, B/C for address).",
+  "method_batch": true
+}

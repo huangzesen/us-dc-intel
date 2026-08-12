@@ -1,0 +1,20 @@
+{
+  "slug": "method-my-equinix-kl1-kl2-cyberjaya",
+  "canonical_project": "Equinix KL1 / KL2 (Cyberjaya)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Selangor",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/malaysia-colocation"
+  ],
+  "notes": "Equinix KL1 in Cyberjaya operational; KL2 expansion reported (methodology-verified official pages; MIDA/DCD/CRN Asia report expansion/land/topping-out leads). Capacity not disclosed on official page.",
+  "method_batch": true
+}

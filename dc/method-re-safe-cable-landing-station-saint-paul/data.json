@@ -1,0 +1,21 @@
+{
+  "slug": "method-re-safe-cable-landing-station-saint-paul",
+  "canonical_project": "SAFE cable landing station (Saint-Paul)",
+  "owner": "SAFE consortium (AT&T, Angola Telecom, BICS, Camtel, China Telecom, Chunghwa Telecom)",
+  "location": {
+    "city": "",
+    "subnational": "Reunion",
+    "country": "Reunion",
+    "country_code": "RE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/systems/asia-europe-africa/safe",
+    "https://geocables.com/location/saint-paul-runion"
+  ],
+  "notes": "Connectivity record: SAFE (2002 RFS) lands at St. Paul, La Réunion; LION/LION2 and METISS also serve the island (METISS arrives at Le Port near Omega 1). Cable landings are connectivity context, not DC facilities. No hyperscaler public region exists in Reunion (AWS/Azure/GCP/OCI official region lists do not include RE - verified negative on run date; Azure France South is mainland France, not Reunion evidence).",
+  "method_batch": true
+}

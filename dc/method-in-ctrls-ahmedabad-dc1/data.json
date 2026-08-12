@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-ctrls-ahmedabad-dc1",
+  "canonical_project": "CtrlS Ahmedabad DC1",
+  "owner": "CtrlS Datacenters Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Gujarat - Ahmadabad",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.peeringdb.com/fac/16803",
+    "https://www.datacenterdynamics.com/en/news/ambani-claims-to-be-building-worlds-largest-data-center-in-gujarat-india/"
+  ],
+  "notes": "CtrlS Ahmedabad edge/enterprise DC listed on PeeringDB; CtrlS broke ground on a ~$30M Gujarat facility end-2023 per DCD. Capacity not public.",
+  "method_batch": true
+}

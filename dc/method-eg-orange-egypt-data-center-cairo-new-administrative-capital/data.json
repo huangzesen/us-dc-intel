@@ -1,0 +1,21 @@
+{
+  "slug": "method-eg-orange-egypt-data-center-cairo-new-administrative-capital",
+  "canonical_project": "Orange Egypt data center (Cairo / New Administrative Capital)",
+  "owner": "Orange Egypt",
+  "location": {
+    "city": "",
+    "subnational": "Cairo",
+    "country": "Egypt",
+    "country_code": "EG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/orange-and-huawei-launch-huawei-cloud-services-in-egypt/",
+    "https://www.orange.eg/en/business/business-solutions/hosting-and-data-center"
+  ],
+  "notes": "Orange Egypt owns/operates a data center in Cairo and a newer data center in the New Administrative Capital contracted by ACUD (for IoT/cloud/AI infrastructure). DCD + Orange first-party hosting page.",
+  "method_batch": true
+}

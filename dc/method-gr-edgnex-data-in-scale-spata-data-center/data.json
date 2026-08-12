@@ -1,0 +1,22 @@
+{
+  "slug": "method-gr-edgnex-data-in-scale-spata-data-center",
+  "canonical_project": "EDGNEX / Data In Scale Spata Data Center",
+  "owner": "Data In Scale A.E. (EDGNEX/DAMAC 55% + PPC 45% JV)",
+  "location": {
+    "city": "",
+    "subnational": "Attica",
+    "country": "Greece",
+    "country_code": "GR"
+  },
+  "capacity_mw": 12.5,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ppcgroup.com/en/investor-relations/announcements/stock-news/stock-news-2024/edgnex-data-centers-by-damac-and-ppc-group-announce-new-data-center-in-attica-greece/",
+    "https://www.naftemporiki.gr/business/1941030/apenanti-apo-to-smart-park-sta-spata-to-neo-data-center-ton-dei-damac/",
+    "https://www.datacentermap.com/greece/athens/damac-digital-athens/"
+  ],
+  "notes": "Data In Scale JV (DAMAC 55%/PPC 45%, established 2024-12) building a hyperscale DC in Spata across from Smart Park; initial capacity ~12.5 MW (directory C; DCD reports 12.5-15.5 MW, B). PPC official announcement (A) confirms the JV and project; Ten Brinke Hellas is developing; local press reports construction ongoing (B). Verify permits/OpenBusiness notification before counting operational.",
+  "method_batch": true
+}

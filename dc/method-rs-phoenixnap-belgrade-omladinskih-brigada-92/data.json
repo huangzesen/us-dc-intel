@@ -1,0 +1,22 @@
+{
+  "slug": "method-rs-phoenixnap-belgrade-omladinskih-brigada-92",
+  "canonical_project": "phoenixNAP Belgrade (Omladinskih brigada 92)",
+  "owner": "phoenixNAP",
+  "location": {
+    "city": "",
+    "subnational": "Belgrade",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenters.com/locations/serbia",
+    "https://datacenterplatform.com/data-centers/telenor-d-o-o-beograd/",
+    "https://www.cetin.rs/services/data-center"
+  ],
+  "notes": "Operator/directory lead; suite inside the CETIN/Telenor carrier-neutral building - same address as CETIN record, kept separate only as operator suite.",
+  "method_batch": true
+}

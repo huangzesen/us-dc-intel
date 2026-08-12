@@ -1,0 +1,22 @@
+{
+  "slug": "method-za-oracle-cloud-infrastructure-af-johannesburg-1-south-africa-central",
+  "canonical_project": "Oracle Cloud Infrastructure af-johannesburg-1 (South Africa Central)",
+  "owner": "Oracle Cloud Infrastructure (OCI)",
+  "location": {
+    "city": "",
+    "subnational": "Gauteng - City of Johannesburg Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.oracle.com/news/announcement/oracle-cloud-johannesburg-region-2022-01-19/",
+    "https://docs.oracle.com/iaas/releasenotes/changes/8b70bb98-9542-4dae-92d9-8d3f05cc8417/index.htm",
+    "https://www.oracle.com/za/cloud/cloud-regions/johannesburg/"
+  ],
+  "notes": "OCI South Africa Central region (af-johannesburg-1, region key JNB) launched 2022-01-19 - Oracle's first African cloud region (official announcement + release note). Region existence is A-grade; exact facility buildings not disclosed (metro seed for Johannesburg). Oracle Interconnect for Microsoft Azure available in Johannesburg. No public MW capacity.",
+  "method_batch": true
+}

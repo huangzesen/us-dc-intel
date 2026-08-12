@@ -1,0 +1,21 @@
+{
+  "slug": "method-nu-niue-renewable-energy-phase-1-hikufenoga-pv-bess-power-context-near-airport",
+  "canonical_project": "Niue Renewable Energy Phase 1 - Hikufenoga PV/BESS (power context, near airport)",
+  "owner": "Government of Niue / Department of Utilities; Sunergise (EPC); MFAT-funded",
+  "location": {
+    "city": "",
+    "subnational": "Niue",
+    "country": "Niue",
+    "country_code": "NU"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.gov.nu/projects/niue-renewable-energy",
+    "https://www.gov.nu/projects/niue-renewable-energy-phase-3"
+  ],
+  "notes": "Gov.nu project page: Niue Renewable Energy Phase 1 at Hikufenoga, Tamakautoga (near airport), 2.79 MWp PV + 8.19 MWh BESS + grid upgrade, target completion July 2026, toward 80% renewable target; handover to Department of Utilities/Niue Power Corporation. Energy context only (power_context) - NOT datacenter evidence; supports load plausibility checks for any large server load on the island grid.",
+  "method_batch": true
+}

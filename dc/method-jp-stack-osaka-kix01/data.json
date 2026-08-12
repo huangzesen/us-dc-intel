@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-stack-osaka-kix01",
+  "canonical_project": "STACK Osaka KIX01",
+  "owner": "STACK Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Osaka",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/japan"
+  ],
+  "notes": "Aggregator-rendered STACK Osaka site near KIX; not verified against STACK official page in this pass.",
+  "method_batch": true
+}

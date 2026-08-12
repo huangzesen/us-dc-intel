@@ -1,0 +1,22 @@
+{
+  "slug": "method-hk-china-mobile-international-global-network-center-china-mobile-hk-dc",
+  "canonical_project": "China Mobile International Global Network Center / China Mobile HK DC",
+  "owner": "China Mobile International (CMI)",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": 22,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/hong-kong/hong-kong/china-mobile-hong-kong/",
+    "https://www.datacenters.com/china-mobile-international-ltd-global-network-center",
+    "https://shieldergroup.com/projects/"
+  ],
+  "notes": "CMI GNC at 3 Chun Cheong Street, TKO Industrial Estate serves as global telecom hub, cable landing station, GNOC and IDC; ~22MW per aggregator (C). SEA-H2X cable from TKO gazetted 2025-26 (A for gazette, infrastructure not facility). District: Sai Kung.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-ao-infosi-centro-nacional-de-dados-backup-itel-rangel",
+  "canonical_project": "INFOSI Centro Nacional de Dados backup (ITEL/Rangel)",
+  "owner": "INFOSI",
+  "location": {
+    "city": "",
+    "subnational": "Luanda",
+    "country": "Angola",
+    "country_code": "AO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://minttics.gov.ao/ao/noticias/pais-ira-investir-89-milhoes-no-projecto-cloud-nacional/"
+  ],
+  "notes": "Backup/DR government data center at Centro Nacional de Dados next to ITEL in Rangel, Luanda, modernized under the USD 89M national-cloud project; capacity null unless primary source states it.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-hk-telehouse-hong-kong-thhk",
+  "canonical_project": "Telehouse Hong Kong (THHK)",
+  "owner": "Telehouse / KDDI",
+  "location": {
+    "city": "",
+    "subnational": "Hong Kong",
+    "country": "Hong Kong",
+    "country_code": "HK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telehouse.com/global-data-centers/asia/hong-kong-data-centers/"
+  ],
+  "notes": "Telehouse's first Greater China data centre (since 2000); TIA Rated 4 claim on THHK CCC page; address not published on page - verify separately.",
+  "method_batch": true
+}

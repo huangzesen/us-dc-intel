@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-thueringer-landesrechenzentrum-erfurt",
+  "canonical_project": "Thueringer Landesrechenzentrum Erfurt",
+  "owner": "Thueringer Landesrechenzentrum (TLRZ)",
+  "location": {
+    "city": "",
+    "subnational": "Thuringia - Erfurt",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://landesrechenzentrum.thueringen.de/",
+    "https://landesrechenzentrum.thueringen.de/it-landesdienstleister/rechenzentrum"
+  ],
+  "notes": "Official state IT service site (checked 2026-08-12) gives contact address Ludwig-Erhard-Ring 8, 99099 Erfurt and describes the Rechenzentrum service portfolio (server housing, hosting, SAN, backup/recovery, production control, printing/enveloping). Public-sector state data center; capacity not published.",
+  "method_batch": true
+}

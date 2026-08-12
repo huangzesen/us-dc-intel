@@ -1,0 +1,23 @@
+{
+  "slug": "method-kz-akashi-data-center-astana",
+  "canonical_project": "AKASHI Data Center (Astana)",
+  "owner": "AKASHI Data Center PLC",
+  "location": {
+    "city": "",
+    "subnational": "Astana",
+    "country": "Kazakhstan",
+    "country_code": "KZ"
+  },
+  "capacity_mw": 100,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://akashi.cloud/",
+    "https://astanatimes.com/2025/06/kazakhstan-to-build-central-asias-first-tier-iv-data-center/",
+    "https://investastana.kz/en/astana-invest/press-center/news/kazakhstan_s_akashi_data_center_confirms_its_status_as_one_of_the_most_reliable_in_the_world/",
+    "https://kz.kursiv.media/en/2026-06-26/engk-yeri-kazakhstan-to-get-first-tier-iv-data-center-with-90m-edb-loan/"
+  ],
+  "notes": "Official: 4,224 racks, up to 100 MW IT, Tier IV (first in Central Asia), four units, phased deployment; construction began 2025 (Astana Times), first phase launch scheduled 2027 (investastana); $90M EDB loan (Kursiv 2026-06). DataCenterMap lists ul. S316/7, 43 MW.",
+  "method_batch": true
+}

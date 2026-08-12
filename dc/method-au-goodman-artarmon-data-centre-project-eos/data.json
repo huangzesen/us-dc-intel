@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-goodman-artarmon-data-centre-project-eos",
+  "canonical_project": "Goodman Artarmon Data Centre (Project EOS)",
+  "owner": "Goodman Property Services (Aust) Pty Ltd",
+  "location": {
+    "city": "",
+    "subnational": "New South Wales - Willoughby",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "approved",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://urbandigest.com.au/goodman-gains-approval-for-845m-artarmon-data-centre/",
+    "https://www.asongroup.com.au/project/artarmon-data-centre-project-eos/",
+    "https://areasearch.com.au/nsw/artarmon"
+  ],
+  "notes": "Goodman received approval for a State Significant Development (SSD) application to construct and operate a large-scale data centre at 2-8 Lanceley Place and 14 Campbell Street, Artarmon (Willoughby LGA); Urban Digest reported the ~A$845m project, Ason Group's Project EOS case study cites 80MVA power capacity, and AreaSearch lists the project as 'Approved'. capacity_mw left null because the 80MVA is a grid-import/connection figure, not IT load.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-om-aws-local-zone-muscat-me-south-1-mct-1a",
+  "canonical_project": "AWS Local Zone Muscat (me-south-1-mct-1a)",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Muscat",
+    "country": "Oman",
+    "country_code": "OM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.aws.amazon.com/local-zones/latest/ug/available-local-zones.html",
+    "https://aws-pricing.com/me-south-1-mct-1.html",
+    "https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/"
+  ],
+  "notes": "AWS Local Zone in Oman (Muscat), code me-south-1-mct-1a, parent region Middle East (Bahrain) me-south-1. Available Local Zone - cloud edge node, NOT a full AWS Region; host facility undisclosed; do not count as colocation capacity.",
+  "method_batch": true
+}

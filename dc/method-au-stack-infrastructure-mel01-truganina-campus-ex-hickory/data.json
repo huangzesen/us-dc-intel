@@ -1,0 +1,24 @@
+{
+  "slug": "method-au-stack-infrastructure-mel01-truganina-campus-ex-hickory",
+  "canonical_project": "STACK Infrastructure MEL01 Truganina campus (ex-Hickory)",
+  "owner": "STACK Infrastructure (acquired from Hickory, 2022)",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Wyndham",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 72,
+  "status": "operational",
+  "evidence_date": "2025-11-26",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/stack-tops-out-swiss-data-center-completes-construction-in-melbourne/",
+    "https://www.stackinfra.com/locations/asia-pacific/melbourne/mel02/",
+    "https://www.datacentermap.com/australia/melbourne/stack-infrastructure-mel02/",
+    "https://www.wyndhamtv.com.au/work-begins-on-hyperscale-data-centre-for-truganina/",
+    "https://baxtel.com/data-center/datacom-airtrunk-mel1"
+  ],
+  "notes": "STACK MEL01 (9-acre Truganina site, City of Wyndham): MEL01A (36MW, 226,000 sq ft) launched 2023; MEL01B (36MW, 226,000 sq ft, three-storey, 12 data halls) construction completed per DCD (26 Nov 2025, contractor Erilyan); MEL01C and MEL01D each 54MW planned; campus totals 180MW at full build-out. STACK entered Australia in 2022 taking over three Hickory projects - this campus subsumes the first-round 'Hickory Data Centres Truganina hyperscale facility (72MW)' record. capacity_mw=72 reflects built/completed phases; ultimate 180MW noted.",
+  "method_batch": true
+}

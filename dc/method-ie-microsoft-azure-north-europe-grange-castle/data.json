@@ -1,0 +1,20 @@
+{
+  "slug": "method-ie-microsoft-azure-north-europe-grange-castle",
+  "canonical_project": "Microsoft Azure North Europe / Grange Castle",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Leinster",
+    "country": "Ireland",
+    "country_code": "IE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list"
+  ],
+  "notes": "Azure North Europe region = Ireland (official region list A). Physical campus at Grange Castle, South Dublin (operational, multiple buildings); building-level planning tracked via South Dublin County Council. capacity_mw null.",
+  "method_batch": true
+}

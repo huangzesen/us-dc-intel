@@ -1,0 +1,21 @@
+{
+  "slug": "method-fr-opcore-mrs1-marseille",
+  "canonical_project": "OpCore MRS1 (Marseille)",
+  "owner": "OpCore (Iliad/InfraVia platform)",
+  "location": {
+    "city": "",
+    "subnational": "Bouches-du-Rhône",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.opcore.com/datacenters/mrs1",
+    "https://www.datacenterdynamics.com/en/news/opcore-to-develop-data-center-on-edf-owned-land-outside-paris/"
+  ],
+  "notes": "Carrier-neutral colocation, 71 Av André Roussin / 70 Chem. du Passet, Marseille; distributed TriCore redundancy, 30+ international operators, HDS certification (operator page A- for existence). ~10 MW per aggregators (C); DCD confirms OpCore operates one Marseille site (B).",
+  "method_batch": true
+}

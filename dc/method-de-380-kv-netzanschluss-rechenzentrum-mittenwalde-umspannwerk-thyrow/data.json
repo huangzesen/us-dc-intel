@@ -1,0 +1,20 @@
+{
+  "slug": "method-de-380-kv-netzanschluss-rechenzentrum-mittenwalde-umspannwerk-thyrow",
+  "canonical_project": "380-kV-Netzanschluss Rechenzentrum Mittenwalde (Umspannwerk Thyrow)",
+  "owner": "50Hertz Transmission GmbH (TSO)",
+  "location": {
+    "city": "",
+    "subnational": "Brandenburg - Dahme-Spreewald",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "approved",
+  "evidence_date": "2026-03-01",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.netzentwicklungsplan.de/sites/default/files/2026-03/NEP_2037_2045_V2025_2_Entwurf_Punktmassnahmen_1.pdf"
+  ],
+  "notes": "Bundesnetzagentur proceeding BK4-20-028 / 50Hertz: 380-kV grid connection for a data center in Mittenwalde area via Umspannwerk Thyrow; NEP 2037/2045 draft lists 'Thyrow: 380-kV-Netzanschluss (Rechenzentrum Genshagen)'. Grid evidence supports the Vantage Berlin II campus and general large-load allocation in the area.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-au-cdc-laverton-north-campus",
+  "canonical_project": "CDC Laverton North campus",
+  "owner": "CDC Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Hobsons Bay",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/cdc-data-centres-laverton-campus",
+    "https://trackpolicy.org/datacenters"
+  ],
+  "notes": "CDC campus in Laverton North (Hobsons Bay LGA) listed in Data Centers.com directory and an AI/data-center policy atlas; stage and capacity not verified - needs CDC official page or planning confirmation before upgrade.",
+  "method_batch": true
+}

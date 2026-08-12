@@ -1,0 +1,20 @@
+{
+  "slug": "method-tn-ati-data-centers-tunisie-internet",
+  "canonical_project": "ATI Data Centers (Tunisie Internet)",
+  "owner": "ATI - Tunisie Internet",
+  "location": {
+    "city": "",
+    "subnational": "Tunis",
+    "country": "Tunisia",
+    "country_code": "TN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ati.tn/housing/"
+  ],
+  "notes": "ATI states it hosts products/data in ATI data centers and markets housing/colocation in Tunisian datacenters; .tn registry and TunIXP support context. Service existence A; exact facility address (HQ at 13 Avenue Jugurtha, Tunis 1002 is office, not facility) and capacity not published.",
+  "method_batch": true
+}

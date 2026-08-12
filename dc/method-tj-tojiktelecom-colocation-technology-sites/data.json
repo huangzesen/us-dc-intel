@@ -1,0 +1,20 @@
+{
+  "slug": "method-tj-tojiktelecom-colocation-technology-sites",
+  "canonical_project": "Tojiktelecom colocation / technology sites",
+  "owner": "Tojiktelecom (JSC)",
+  "location": {
+    "city": "",
+    "subnational": "Dushanbe",
+    "country": "Tajikistan",
+    "country_code": "TJ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tojiktelecom.tj/for_operators/piringovaya-set-tj-ix"
+  ],
+  "notes": "Official service page offers equipment placement at Tojiktelecom technology sites (colocation), including TJ-IX hosting, with 10G/40G/100G; Dushanbe plus nationwide sites. Service existence = A (operator official self-description); facility-level addresses/specs not published = U/C. Operator self-use exchanges and regional tech sites are not double-counted as separate commercial DCs.",
+  "method_batch": true
+}

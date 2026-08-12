@@ -1,0 +1,23 @@
+{
+  "slug": "method-rs-telekom-srbija-data-center-katiceva-14-18",
+  "canonical_project": "Telekom Srbija Data Center (Katiceva 14-18)",
+  "owner": "Telekom Srbija a.d. / MTS",
+  "location": {
+    "city": "",
+    "subnational": "Belgrade",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": 4,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mts.rs/Poslovni/Digital/Data-centar",
+    "https://www.datacentermap.com/serbia/belgrade/telekom-srbija/",
+    "https://inflect.com/building/14-katiceva-beograd/telekom-srbija/datacenter/belgrade",
+    "http://datacenters.rs/"
+  ],
+  "notes": "Tier 3/4-standard facility, 2000+ m2 technical space, ~4 MW total power per Inflect; RATEL list entry. Additional Telekom sites: Darinke Radovic bb Belgrade, Atinska 1 Kragujevac (separate records).",
+  "method_batch": true
+}

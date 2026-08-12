@@ -1,0 +1,20 @@
+{
+  "slug": "method-as-astca-core-network-noc-tafuna-pago-pago",
+  "canonical_project": "ASTCA core network / NOC (Tafuna-Pago Pago)",
+  "owner": "ASTCA (American Samoa Telecommunications Authority)",
+  "location": {
+    "city": "",
+    "subnational": "American Samoa",
+    "country": "American Samoa",
+    "country_code": "AS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.astca.as/"
+  ],
+  "notes": "ASTCA official pages confirm the state telecom operator's fiber broadband, 5G, business services and Hawaiki circuits across inhabited islands, with network core/NOC and RFP surface; no public colocation/hosting product page confirmed. Classified telecom_core per methodology: operator/service evidence is not facility evidence for commercial colo. Negative baseline: no AWS/Azure/GCP/OCI region entry for American Samoa on official region lists (checked 2026-08-12), no ASPA large-load/datacenter power evidence found, no verified neutral commercial colocation market.",
+  "method_batch": true
+}

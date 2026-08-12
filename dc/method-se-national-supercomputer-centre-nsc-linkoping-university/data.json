@@ -1,0 +1,20 @@
+{
+  "slug": "method-se-national-supercomputer-centre-nsc-linkoping-university",
+  "canonical_project": "National Supercomputer Centre (NSC), Linkoping University",
+  "owner": "Linkoping University",
+  "location": {
+    "city": "",
+    "subnational": "Ostergotland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://liu.se/en/organisation/liu/nsc"
+  ],
+  "notes": "University HPC/data services center at Campus Valla, Linkoping; hosts national supercomputing resources (Berzelius, Tetralith upgrades). Official university page - A-grade for existence; not a commercial colocation facility.",
+  "method_batch": true
+}

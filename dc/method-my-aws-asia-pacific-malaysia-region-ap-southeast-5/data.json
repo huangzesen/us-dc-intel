@@ -1,0 +1,21 @@
+{
+  "slug": "method-my-aws-asia-pacific-malaysia-region-ap-southeast-5",
+  "canonical_project": "AWS Asia Pacific (Malaysia) Region ap-southeast-5",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Selangor",
+    "country": "Malaysia",
+    "country_code": "MY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2024-08-21",
+  "evidence_grade": "A",
+  "sources": [
+    "https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-malaysia-region/",
+    "https://aws.amazon.com/local/malaysia/"
+  ],
+  "notes": "AWS Malaysia Region (ap-southeast-5) opened 21 Aug 2024 with 3 Availability Zones; planned RM29.2bn investment to 2038. Region-level evidence A; directory sources (C) place AZ facilities in Cyberjaya/Selangor and Technology Park Malaysia (Klang Valley). Recorded in Selangor division (Cyberjaya/Sepang cluster per methodology).",
+  "method_batch": true
+}

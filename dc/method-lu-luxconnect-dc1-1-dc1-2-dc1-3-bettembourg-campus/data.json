@@ -1,0 +1,22 @@
+{
+  "slug": "method-lu-luxconnect-dc1-1-dc1-2-dc1-3-bettembourg-campus",
+  "canonical_project": "LuxConnect DC1.1 / DC1.2 / DC1.3 (Bettembourg campus)",
+  "owner": "LuxConnect S.A. (state-owned)",
+  "location": {
+    "city": "",
+    "subnational": "Esch-sur-Alzette",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.luxconnect.lu/infrastructure/",
+    "https://www.datacenterdynamics.com/en/news/luxconnect-to-host-iris-satellite-control-center-at-luxembourg-data-center/",
+    "https://www.peeringdb.com/campus/58"
+  ],
+  "notes": "202 Z.A.E. Wolser F, L-3290 Bettembourg. DC1.3: ~23,500 sqm building, two 10 MW feeds (20 MW), first phase live 2015; campus DC1.1/1.2/1.3 (Uptime Tier II/IV, carrier-neutral multi-tenant). Operator page A; expansion would need current commune permit.",
+  "method_batch": true
+}

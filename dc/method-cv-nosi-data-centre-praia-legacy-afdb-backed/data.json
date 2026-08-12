@@ -1,0 +1,23 @@
+{
+  "slug": "method-cv-nosi-data-centre-praia-legacy-afdb-backed",
+  "canonical_project": "NOSi data centre, Praia (legacy AfDB-backed)",
+  "owner": "NOSi EPE (Núcleo Operacional da Sociedade de Informação, government ICT agency)",
+  "location": {
+    "city": "",
+    "subnational": "Ilhas de Sotavento",
+    "country": "Cabo Verde",
+    "country_code": "CV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.svom.eu/en/cape-verde-cpv2-station/",
+    "https://etradeforall.org/news/african-development-banks-support-to-propel-cabo-verdes-efforts-to-become-regional-ict-hub",
+    "https://www.nosi.cv/",
+    "https://www.datacentermap.com/c/nosi/"
+  ],
+  "notes": "Sotavento / Santiago / Praia. Legacy AfDB-supported government DC located <2 km from TechPark (DCD 2023-08-01; AfDB Adesina visit story via etradeforall: 'I am delighted that we are financing it [the NOSi data center] and the adjoining Cabo Verde Technology Park'). SVOM hosts its CPV2 satellite station 'on the site of the NOSi (DATA CENTER) in Praia' (start-up 2020-08-31, ~14.92N/-23.51W). NOSi lists address Edifício Business Center, Parque Tecnológico, Praia - identity vs TechPark DC unresolved at address level; kept as separate record per methodology (do not merge without parcel/address proof). DatacenterMap NOSI profile = C-grade directory seed. Capacity null.",
+  "method_batch": true
+}

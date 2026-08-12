@@ -1,0 +1,21 @@
+{
+  "slug": "method-rw-rinex-rwanda-internet-exchange-telecom-house",
+  "canonical_project": "RINEX (Rwanda Internet Exchange), Telecom House",
+  "owner": "RURA / RICTA (RINEX)",
+  "location": {
+    "city": "",
+    "subnational": "City of Kigali",
+    "country": "Rwanda",
+    "country_code": "RW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://pulse.internetsociety.org/en/ixp-tracker/country/RW/",
+    "https://whois.ipip.net/AS329521"
+  ],
+  "notes": "Operating IXP at Telecom House, KG 7, Kacyiru, Gasabo (AS329521), set up by RURA 2009, ~15 members late 2025. Interconnection infrastructure, NOT datacenter capacity - recorded per methodology as ixp facility at the Kigali interconnection anchor.",
+  "method_batch": true
+}

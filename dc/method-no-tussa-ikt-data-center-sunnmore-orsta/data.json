@@ -1,0 +1,21 @@
+{
+  "slug": "method-no-tussa-ikt-data-center-sunnmore-orsta",
+  "canonical_project": "Tussa IKT data center (Sunnmore/Orsta)",
+  "owner": "Tussa IKT AS",
+  "location": {
+    "city": "",
+    "subnational": "More and Romsdal",
+    "country": "Norway",
+    "country_code": "NO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tussa.no/bedrift/it/tussa-datasenter",
+    "https://nkom.no/ekom-markedet/nye-analyser-av-bredbandsmarkedene/horing-av-markedsanalyse/_/attachment/inline/86b1f811-24d0-4e8c-b454-587f03b7f3e7:dae1a8ac21ce11f19b11ee9552e16bcef7462cc1/Tafjord+Connect_Hoeringssvar+revidert+markedsanalyse_2025.PDF"
+  ],
+  "notes": "Regional data-center operator on Sunnmore (Orsta/Hovdebygda) with local hosting/colo; Nkom-listed TUSSA IKT AS; Nkom market-analysis hearing doc confirms NEAS/Tafjord Connect/Tussa IKT local presence in More og Romsdal. Operator page = A for existence; capacity not published.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-la-gdms-national-cloud-national-data-center-mtc",
+  "canonical_project": "GDMS National Cloud / National Data Center (MTC)",
+  "owner": "GDMS (Global Digital Management Solutions) with MTC",
+  "location": {
+    "city": "",
+    "subnational": "Vientiane Capital",
+    "country": "Lao People's Democratic Republic",
+    "country_code": "LA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.global-dms.com/iaas/",
+    "https://www.global-dms.com/empowering-laos-how-gdms-is-building-the-nations-digital-future/",
+    "https://datacenterplanet.com/datacenter/global-digital-management-solutions-pte-ltd-gdms/"
+  ],
+  "notes": "GDMS vendor pages: 10-year strategic partnership with MTC, operates/enhances one National Data Center and extends National Cloud infrastructure across both National Data Centers; Government Cloud hosted in an MTC-operated government data center facility. Vendor-primary claim (B+), ministry confirmation pending; no public MW/site specs. No AWS/Azure/GCP/OCI/Alibaba/Tencent/Huawei public cloud region exists in Laos (checked 2026-08-12); nearest regions Thailand/Singapore/Malaysia/Hong Kong/China.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-it-microsoft-italy-north-milan-cloud-region",
+  "canonical_project": "Microsoft Italy North (Milan) cloud region",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Lombardy",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://azure.microsoft.com/en-us/explore/global-infrastructure/geographies",
+    "https://learn.microsoft.com/en-us/azure/reliability/regions-list"
+  ],
+  "notes": "Azure Italy North region in Milan area - official region/geography page. Underlying Microsoft campus projects in Lombardy (Bornasco, Settala, Settimo Milanese MIL03) recorded separately.",
+  "method_batch": true
+}

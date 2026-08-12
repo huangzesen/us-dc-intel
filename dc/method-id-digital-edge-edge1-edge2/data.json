@@ -1,0 +1,21 @@
+{
+  "slug": "method-id-digital-edge-edge1-edge2",
+  "canonical_project": "Digital Edge EDGE1 / EDGE2",
+  "owner": "Digital Edge (EDGE DC)",
+  "location": {
+    "city": "",
+    "subnational": "Jakarta",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://id.digitaledgedc.com/data-centers/edge1",
+    "https://id.digitaledgedc.com/data-centers/edge2"
+  ],
+  "notes": "Digital Edge carrier-neutral data centers EDGE1 and EDGE2 in Jakarta (official Indonesia site lists both; 23 MW downtown Jakarta facility announced per company communication). CGK Campus (GIIC, Bekasi - 500 MW planned) is West Java division, out of this batch. Operational.",
+  "method_batch": true
+}

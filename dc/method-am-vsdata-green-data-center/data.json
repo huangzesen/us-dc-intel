@@ -1,0 +1,22 @@
+{
+  "slug": "method-am-vsdata-green-data-center",
+  "canonical_project": "VSData Green Data Center",
+  "owner": "VSData",
+  "location": {
+    "city": "",
+    "subnational": "Aragatsotn",
+    "country": "Armenia",
+    "country_code": "AM"
+  },
+  "capacity_mw": 2,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://vsdata.org/",
+    "https://www.datacenterdynamics.com/en/news/2mw-data-center-planned-in-armenia/",
+    "https://developingtelecoms.com/telecom-technology/data-centres-networks/18177-vsdata-plans-spring-water-cooled-data-centre-for-armenia.html"
+  ],
+  "notes": "Tier-3-spec green DC in a gorge in Aragatsotn (North-South Hwy), 2 MW / 125 racks, spring-water cooling, 25 km fiber to Yerevan; operator site claims under construction with third power line in progress; baxtel says ground broken with end-2025 target; no official commissioning/operational evidence found - keep construction/planned.",
+  "method_batch": true
+}

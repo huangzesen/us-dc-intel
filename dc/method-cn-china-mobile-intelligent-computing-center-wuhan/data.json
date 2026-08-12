@@ -1,0 +1,20 @@
+{
+  "slug": "method-cn-china-mobile-intelligent-computing-center-wuhan",
+  "canonical_project": "China Mobile Intelligent Computing Center Wuhan (中国移动智算中心（武汉）)",
+  "owner": "China Mobile Hubei (中国移动湖北公司)",
+  "location": {
+    "city": "",
+    "subnational": "Hubei - Wuhan Shi",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.wuhan.gov.cn/sy/whyw/202404/t20240407_2384744.shtml"
+  ],
+  "notes": "Opened for service Jan 2024 in Optics Valley Wuhan Future Science & Technology City; 200+ high-performance compute servers, compute utilization >95% within ~100 days; separate 1.2B CNY 车谷 (Chegu) node under construction to form dual-node (光谷/车谷) design.",
+  "method_batch": true
+}

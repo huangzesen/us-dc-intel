@@ -1,0 +1,22 @@
+{
+  "slug": "method-gh-primary-ghana-national-data-center-accra-nita",
+  "canonical_project": "Primary Ghana National Data Center Accra (NITA)",
+  "owner": "National Information Technology Agency (NITA)",
+  "location": {
+    "city": "",
+    "subnational": "Greater Accra",
+    "country": "Ghana",
+    "country_code": "GH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/uptime-institute-awards/datacenter/primary-ghana-national-data-center-accra-/2056",
+    "https://uptimeinstitute.com/uptime-institute-awards/client/national-information-technology-agency-nita/1008",
+    "https://nita.gov.gh/projects/datacentre/"
+  ],
+  "notes": "Government e-gov data centre in Accra; Uptime Institute award record plus NITA data-centre project page; earlier DCD/NCA coverage describes Tier-3 National Data Centre with ~600 racks. Government/non-commercial facility.",
+  "method_batch": true
+}

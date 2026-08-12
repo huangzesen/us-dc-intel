@@ -1,0 +1,20 @@
+{
+  "slug": "method-fr-poitiers-colocation-data-centers-2-facilities-directory-listed",
+  "canonical_project": "Poitiers colocation data centers (2 facilities, directory-listed)",
+  "owner": "",
+  "location": {
+    "city": "",
+    "subnational": "Vienne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/france/poitiers/"
+  ],
+  "notes": "DataCenterMap lists 2 colocation/cloud facilities in Poitiers (Vienne); operator-level verification not completed (directory page rate-limited); likely small regional colos. C-grade lead.",
+  "method_batch": true
+}

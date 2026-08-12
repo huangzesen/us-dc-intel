@@ -1,0 +1,21 @@
+{
+  "slug": "method-re-sfr-business-reunion-netcenter-hebergement-colocation-service",
+  "canonical_project": "SFR Business Réunion NETCENTER (hébergement / colocation service)",
+  "owner": "SFR Business (Altice)",
+  "location": {
+    "city": "",
+    "subnational": "Reunion",
+    "country": "Reunion",
+    "country_code": "RE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.sfrbusiness.re/entreprises-et-collectivites/hebergement/",
+    "https://www.sfrbusiness.fr/infrastructure-it/netcenter/"
+  ],
+  "notes": "sfrbusiness.re official Reunion page (A/B) offers hosting services incl. Datacenter Virtuel (VDC) and VM migration; mainland NETCENTER offer covers 26 secure datacenters in France with ISO 27001-certified colocation. Service-level evidence only - no public named Reunion facility page verified this round; a directory (C) places an SFR Le Port address at 3 avenue Théodore Drouhet, Le Port, unconfirmed against first-party sources.",
+  "method_batch": true
+}

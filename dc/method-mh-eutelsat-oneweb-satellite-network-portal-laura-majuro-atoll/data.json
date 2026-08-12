@@ -1,0 +1,21 @@
+{
+  "slug": "method-mh-eutelsat-oneweb-satellite-network-portal-laura-majuro-atoll",
+  "canonical_project": "Eutelsat OneWeb Satellite Network Portal (Laura, Majuro Atoll)",
+  "owner": "Eutelsat OneWeb / Marshall Islands National Telecommunications Authority (NTA)",
+  "location": {
+    "city": "",
+    "subnational": "Majuro",
+    "country": "Marshall Islands",
+    "country_code": "MH"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2025-09-03",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/spacexs-starlink-plots-ground-station-outside-christchurch-new-zealand/",
+    "https://www.linkedin.com/posts/fabiomando_eutelsatoneweb-globalconnectivity-marshallislands-activity-7366589731293368321-XdWF"
+  ],
+  "notes": "DCD (2025-09-03): NTA signed licensing agreement with Eutelsat to operate a Satellite Network Portal (SNP) for the OneWeb LEO constellation; posted images suggest Laura on Majuro Atoll; expected operational by mid-2026. Satellite gateway/adjacent digital infrastructure, not a conventional colocation datacenter; capacity not disclosed. Re-verified in this pass.",
+  "method_batch": true
+}

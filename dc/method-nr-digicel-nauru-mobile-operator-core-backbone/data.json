@@ -1,0 +1,22 @@
+{
+  "slug": "method-nr-digicel-nauru-mobile-operator-core-backbone",
+  "canonical_project": "Digicel Nauru (mobile operator core/backbone)",
+  "owner": "Digicel Pacific (Digicel Nauru)",
+  "location": {
+    "city": "",
+    "subnational": "Unknown NR",
+    "country": "Nauru",
+    "country_code": "NR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.digicelpacific.com/mobile/nr",
+    "https://www.datacenterdynamics.com/en/news/emcs-subsea-cable-lands-on-island-of-nauru/",
+    "https://www.digicelpacific.com/news/a-bigger-better-connection-for-nauru"
+  ],
+  "notes": "Operator presence confirmed (Digicel Pacific Nauru page; DCD reporting quotes Digicel Nauru on EMC backbone access elevating its network 'on par with leading international networks'). No public datacenter/colo site or address identified - kept as operator lead, division Unknown NR.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-jp-aws-asia-pacific-tokyo-region-ap-northeast-1",
+  "canonical_project": "AWS Asia Pacific (Tokyo) Region ap-northeast-1",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Tokyo",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html"
+  ],
+  "notes": "Official AWS region page: Tokyo region with 4 AZs. Azure Japan East (Tokyo/Saitama), Google Cloud Tokyo (asia-northeast1) and OCI Japan East (ap-tokyo-1) also cover Tokyo per official pages.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-dz-mahliatov-oran-data-center-gpu-cloud",
+  "canonical_project": "MAHLIATOV Oran data center (GPU cloud)",
+  "owner": "EURL MAHLIATOV",
+  "location": {
+    "city": "",
+    "subnational": "Oran",
+    "country": "Algeria",
+    "country_code": "DZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://cloud.mahliatov.com/bare-metal-cloud/dedicated-gpu.php",
+    "https://cloud.mahliatov.com/"
+  ],
+  "notes": "MAHLIATOV's product pages advertise GPU data centers in Algiers and Oran with up to 10 Gbit/s bandwidth. Operator self-claim; no facility specs or MW capacity published. Service/facility evidence C-grade.",
+  "method_batch": true
+}

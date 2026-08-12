@@ -1,0 +1,21 @@
+{
+  "slug": "method-mm-mtg-dc-dekkhinathiri",
+  "canonical_project": "MTG DC (Dekkhinathiri)",
+  "owner": "MTG DC Co., Ltd (Myanmar Technology Gateway)",
+  "location": {
+    "city": "",
+    "subnational": "Nay Pyi Taw",
+    "country": "Myanmar",
+    "country_code": "MM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.dica.gov.mm/en/news/field-visit-mtg-dc-co-ltd",
+    "https://www.mtg.com.mm/co-location-services.php"
+  ],
+  "notes": "DICA official field-visit record (A, 2019-08-29) confirms MTG DC's data center and related services at Dekkhinathiri Township, Nay Pyi Taw, monitored as an MIC-permitted investment project. MTG colocation services page (A) lists NayPyiTaw MTGDC colocation pricing/features. Capacity/power not public.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-au-vocus-mel03-melbourne-cbd-530-collins-street",
+  "canonical_project": "Vocus MEL03 Melbourne CBD (530 Collins Street)",
+  "owner": "Vocus Group",
+  "location": {
+    "city": "",
+    "subnational": "Victoria - Melbourne",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/vocus-mel03",
+    "https://www.itnews.com.au/news/vocus-melbourne-data-centre-hit-by-power-outage-591987",
+    "https://www.fluccs.com.au/services/colocation/melbourne/",
+    "https://exigent.com.au/colocation-vocus-colinstreet"
+  ],
+  "notes": "Vocus carrier/data centre at 530 Collins Street, Melbourne CBD (City of Melbourne LGA); Vocus refitted the former ASX building in 2013 with build-out capacity of up to ~400 racks; 5G Networks' 'Melbourne Data Centre' is also hosted at the address; MW capacity not disclosed. Note: Vocus announced closure of a separate CBD data centre to make way for an office redevelopment (Baxtel), so the CBD estate is contracting; MEL03 remains listed as an operating facility.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-sa-mobily-melgha-2-malga-2-data-center-al-malqa-diriyah",
+  "canonical_project": "Mobily Melgha 2 / Malga 2 Data Center (Al Malqa, Diriyah)",
+  "owner": "Etihad Etisalat (Mobily)",
+  "location": {
+    "city": "",
+    "subnational": "Riyadh Region - Ad Dir`iyah",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenters.com/mobily-mobily-melgha-2",
+    "https://www.datacentermap.com/saudi-arabia/riyadh/mobily-tier4-malga/",
+    "https://www.arabnews.com/news/458862"
+  ],
+  "notes": "Datacenters.com lists the facility at Al Malqa, Ad Diriyah, Riyadh; DataCenterMap lists 10 MW; Arab News reported Mobily opened Melgha II in Riyadh in 2013. Al Malqa district sits within Diriyah Governorate per SA methodology mapping; capacity from aggregate source.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-au-vocus-adelaide-data-centre",
+  "canonical_project": "Vocus Adelaide Data Centre",
+  "owner": "Vocus",
+  "location": {
+    "city": "",
+    "subnational": "South Australia - Adelaide",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/australia/adelaide/amcom-adelaide/",
+    "https://www.vocus.com.au/enterprise/data-centres"
+  ],
+  "notes": "Vocus carrier colocation facility in Adelaide CBD (149 Flinders St per directory; exact location not publicly confirmed, within 2km of GPO). Legacy colo site; capacity/details unverified (C).",
+  "method_batch": true
+}

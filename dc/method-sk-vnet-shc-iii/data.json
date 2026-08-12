@@ -1,0 +1,21 @@
+{
+  "slug": "method-sk-vnet-shc-iii",
+  "canonical_project": "VNET SHC III",
+  "owner": "VNET a.s.",
+  "location": {
+    "city": "",
+    "subnational": "Bratislava",
+    "country": "Slovakia",
+    "country_code": "SK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.vnet.sk/en/business/data/housing/",
+    "https://www.datacenters.com/vnet-shc-iii"
+  ],
+  "notes": "VNET official housing page names SHC III at Namestie hraniciarov (Námestie Hraničiarov 39, 851 03 Bratislava per datacenters.com) as operational; one of VNET's three Bratislava data centers. Capacity not published.",
+  "method_batch": true
+}

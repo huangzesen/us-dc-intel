@@ -1,0 +1,22 @@
+{
+  "slug": "method-sl-zoodlabs-data-centre-ace-cable-landing-station-freetown",
+  "canonical_project": "Zoodlabs Data Centre / ACE Cable Landing Station, Freetown",
+  "owner": "Zoodlabs (SL) Limited (ACE landing station manager; Sierra Leone Cable Ltd SALCAB agreement)",
+  "location": {
+    "city": "",
+    "subnational": "Western Area",
+    "country": "Sierra Leone",
+    "country_code": "SL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-06-30",
+  "evidence_grade": "B",
+  "sources": [
+    "https://crossboundaryenergy.com/project/zoodlabs/",
+    "https://colo.exchange/data-centers/zoodlabs-sl-limited-zoodlabs-cls-mmr",
+    "https://www.thesierraleonetelegraph.com/audit-unmasks-zoodlabs-1-44-million-fraud/"
+  ],
+  "notes": "Zoodlabs manages the ACE submarine cable landing station in Freetown (per MoCTI National Broadband Strategy 2023-2028 and GoSL operational agreement) and operates its 'Zoodlabs Data Centre' there: CrossBoundary Energy (A/B supplier source) powers it with 0.8 MWp solar, 0.7 MW thermal generation and 1.95 MWh storage (commissioned Q2 2023). colo.exchange directory (grade C) lists a 'Zoodlabs CLS MMR' colocation facility on Bendu's Drive, Lumley Beach area, Freetown - public colocation offering unverified by operator first-party pages. Power figures are supply-system ratings, not IT load, so capacity_mw kept null. The CLS/MMR is a landing-station/interconnection asset rather than a standalone commercial DC.",
+  "method_batch": true
+}

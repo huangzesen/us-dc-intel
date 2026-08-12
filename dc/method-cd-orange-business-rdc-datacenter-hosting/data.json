@@ -1,0 +1,20 @@
+{
+  "slug": "method-cd-orange-business-rdc-datacenter-hosting",
+  "canonical_project": "Orange Business RDC datacenter hosting",
+  "owner": "Orange RDC",
+  "location": {
+    "city": "",
+    "subnational": "Kinshasa",
+    "country": "Congo, Democratic Republic of the",
+    "country_code": "CD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://business.orange.cd/fr/ict/hbergement-datacenter.html"
+  ],
+  "notes": "Official Orange Business RDC service page offers enterprise datacenter hosting / rack space with protected AC/DC power, optional link to Orange RDC datacenter, 24/7/365 support and SLA language. Facility address and MW capacity not public (likely Kinshasa). Operator service evidence only; no public MW/address.",
+  "method_batch": true
+}

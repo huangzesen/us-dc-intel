@@ -1,0 +1,22 @@
+{
+  "slug": "method-tr-fiberdc-teknoloji-fiberdc-global-datacenter",
+  "canonical_project": "FiberDC Teknoloji / FiberDC Global Datacenter",
+  "owner": "FiberDC Data Teknoloji / FiberDC Telekomunikasyon A.S.",
+  "location": {
+    "city": "",
+    "subnational": "Rize",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/turkey/rize/fiberdc-teknoloji/",
+    "https://datacentercatalog.com/turkey/fiberdc-teknoloji",
+    "https://www.cybo.com/TR-biz/fiberdc-global-datacenter-ltd-%C5%9Fti"
+  ],
+  "notes": "Rize regional colocation/hosting facility (Carsi Mah. Kutlu Han No:3 Blok 1, 53100 Rize). Operator web brand fiberdc.com.tr (dedicated servers / colocation / hosting) exists but site could not be browsed this run (DNS resolution failed); no capacity disclosed. Directory-grade (DataCenterMap + Data Center Catalog + Cybo) existence only; first-round lead re-verified against TR methodology (Rize Tier-2 seed FiberDC).",
+  "method_batch": true
+}

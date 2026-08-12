@@ -1,0 +1,21 @@
+{
+  "slug": "method-fr-orange-datacenter-campus-val-de-reuil-normandie-1-2",
+  "canonical_project": "Orange datacenter campus Val-de-Reuil (Normandie 1 & 2)",
+  "owner": "Orange",
+  "location": {
+    "city": "",
+    "subnational": "Eure",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.lejournaldesentreprises.com/article/orange-met-en-service-un-second-data-center-val-de-reuil-2016996",
+    "https://www.geteo.fr/references/data-center-orange-a-val-de-reuil/"
+  ],
+  "notes": "Orange's giant Normandy cloud campus in the Eure (Val-de-Reuil): first building (Normandie 1) ~2014 (~EUR 100m), second (Normandie 2) 16,000 m2 building / 5,000 m2 IT rooms with free cooling; both operational.",
+  "method_batch": true
+}

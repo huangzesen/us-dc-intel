@@ -1,0 +1,20 @@
+{
+  "slug": "method-hr-ipc-d-d-cakovec-data-center",
+  "canonical_project": "IPC d.d. Cakovec data center",
+  "owner": "IPC d.d. Cakovec (Medimurske informacijske i komunikacijske djelatnosti)",
+  "location": {
+    "city": "",
+    "subnational": "Medimurje",
+    "country": "Croatia",
+    "country_code": "HR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A-",
+  "sources": [
+    "https://www.ipc.hr/podatkovni-centar/"
+  ],
+  "notes": "Official IPC page describes a fully equipped data center in Cakovec offering remote data storage, business continuity, colocation and server rental, with own transformer station, diesel generator with auto-start, UPS, biometric access control, motion sensors and 24/7 video surveillance; regional enterprise/colo facility in Medimurje County. NEW find this round (first round had no_projects for Medimurje).",
+  "method_batch": true
+}

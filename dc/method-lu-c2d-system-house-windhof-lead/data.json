@@ -1,0 +1,21 @@
+{
+  "slug": "method-lu-c2d-system-house-windhof-lead",
+  "canonical_project": "C2D System House (Windhof) - lead",
+  "owner": "C2D System House S.A.",
+  "location": {
+    "city": "",
+    "subnational": "Capellen",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/luxembourg/luxembourg/ebrc-windhof/",
+    "https://www.lu-cix.lu/infrastructure/network-map/"
+  ],
+  "notes": "Directory lead in Windhof/Koerich per methodology; needs operator page/LBR confirmation for facility details.",
+  "method_batch": true
+}

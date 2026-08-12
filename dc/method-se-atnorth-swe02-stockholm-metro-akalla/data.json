@@ -1,0 +1,22 @@
+{
+  "slug": "method-se-atnorth-swe02-stockholm-metro-akalla",
+  "canonical_project": "atNorth SWE02 Stockholm metro (Akalla)",
+  "owner": "atNorth",
+  "location": {
+    "city": "",
+    "subnational": "Stockholm",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": 30,
+  "status": "planned",
+  "evidence_date": "2026-01-29",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.atnorth.com/nordic-data-centers/sweden-data-centers/stockholm-swe02/",
+    "https://www.atnorth.com/news/new-30mw-metro-data-center-in-stockholm-sweden/",
+    "https://informedinfrastructure.com/post/atnorth-announces-30mw-metro-data-center-in-stockholm-sweden"
+  ],
+  "notes": "atNorth official: SWE02 in Akalla, 1.5-hectare metro site near SWE01 campus, 30 MW, heat-reuse enabled, scheduled to go live Q4 2027. Announced 2026-01-29.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-ke-safaricom-nairobi-data-centre",
+  "canonical_project": "Safaricom Nairobi Data Centre",
+  "owner": "Safaricom PLC",
+  "location": {
+    "city": "",
+    "subnational": "Nairobi City",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.safaricom.co.ke/wholesale/wholesale_product_categories/data_centre/",
+    "https://baxtel.com/data-center/nairobi"
+  ],
+  "notes": "Safaricom official wholesale page states its data centres are located in Thika, Nairobi and Kisumu; a Nairobi metro facility exists as part of that portfolio (specific address/capacity not published on the official page). No public MW capacity found.",
+  "method_batch": true
+}

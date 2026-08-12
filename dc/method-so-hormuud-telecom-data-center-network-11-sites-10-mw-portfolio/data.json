@@ -1,0 +1,22 @@
+{
+  "slug": "method-so-hormuud-telecom-data-center-network-11-sites-10-mw-portfolio",
+  "canonical_project": "Hormuud Telecom data center network (11 sites, ~10 MW portfolio)",
+  "owner": "Hormuud Telecom Somalia Inc.",
+  "location": {
+    "city": "",
+    "subnational": "Banaadir",
+    "country": "Somalia",
+    "country_code": "SO"
+  },
+  "capacity_mw": 10,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/hormuud-ceo-announces-plans-for-more-green-data-centers/",
+    "https://stalliontimes.com/top-internet-provider-to-somalia-eyes-green-data-centers-for-ai/",
+    "https://www.hormuud.com/"
+  ],
+  "notes": "CEO statements (Bloomberg/DCD Dec 2024, mirrored by Stallion Times/Garowe Online) cite 11 data centers with combined ~10 MW capacity and up to 95% daytime solar. Portfolio-level claim; per-site addresses/capacities not published. Mogadishu (Banaadir) is the core hub; the DARE1 cable landing station (completed Nov 2022) is an interconnect anchor, not a DC. Do not mint 11 facility records from the aggregate (methodology rule).",
+  "method_batch": true
+}

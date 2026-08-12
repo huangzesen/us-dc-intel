@@ -1,0 +1,22 @@
+{
+  "slug": "method-sy-hyperscaler-cloud-region-negative-sweep",
+  "canonical_project": "Hyperscaler cloud region - negative sweep",
+  "owner": "",
+  "location": {
+    "city": "",
+    "subnational": "Damascus",
+    "country": "Syrian Arab Republic",
+    "country_code": "SY"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html",
+    "https://cloud.google.com/about/locations",
+    "https://www.oracle.com/cloud/public-cloud-regions/"
+  ],
+  "notes": "A-grade negative evidence: AWS/Azure/GCP/Oracle Cloud official region lists contain no Syria region as of 2026-08-12. Provider partnership statements are aspirational unless an official region announcement names Syria.",
+  "method_batch": true
+}

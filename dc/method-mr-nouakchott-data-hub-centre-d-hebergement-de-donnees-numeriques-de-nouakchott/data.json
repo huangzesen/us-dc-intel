@@ -1,0 +1,24 @@
+{
+  "slug": "method-mr-nouakchott-data-hub-centre-d-hebergement-de-donnees-numeriques-de-nouakchott",
+  "canonical_project": "Nouakchott Data Hub (Centre d'hebergement de donnees numeriques de Nouakchott)",
+  "owner": "SDIN (Societe pour le Developpement des Infrastructures Numeriques), owner/infrastructure role; operated by IMT (International Mauritania Telecom)",
+  "location": {
+    "city": "",
+    "subnational": "West Nouakchott",
+    "country": "Mauritania",
+    "country_code": "MR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ami.mr/fr/archives/270548",
+    "https://www.eib.org/en/press/all/2025-202-inauguration-du-centre-d-hebergement-de-donnees-numeriques-de-nouakchott",
+    "https://uptimeinstitute.com/uptime-institute-awards/country/id/MR",
+    "https://sdin.mr/",
+    "https://trustmag.net/article/4203"
+  ],
+  "notes": "National datacenter inaugurated 8 May 2025 in Tevragh-Zeina area (Nouakchott-Ouest / West Nouakchott; trustmag confirms locality). AMI confirms 1,372 m2, 100 server racks expandable, national hosting/cloud/secure backup/business continuity/AI-big-data services; EIB confirms EUR 15m loan, WARCIP context and IMT management; Uptime lists Tier III Certification of Design Documents + Tier III Certification of Constructed Facility (client SDIN). WARDIP Government Cloud (contract 1320/F/011/CPMP/MTNIMA/WARDIP/2025, HMN SMART, 2025-06-24) is a platform procurement hosted from this facility context - not a separate physical site. No public MW published; capacity_mw null per methodology.",
+  "method_batch": true
+}

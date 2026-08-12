@@ -1,0 +1,22 @@
+{
+  "slug": "method-sg-airtrunk-sgp1",
+  "canonical_project": "AirTrunk SGP1",
+  "owner": "AirTrunk",
+  "location": {
+    "city": "",
+    "subnational": "South East",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 60,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://airtrunk.com/airtrunk-opens-singapore-and-hong-kong-data-centres/",
+    "https://www.datacenterdynamics.com/en/news/airtrunk-opens-singapore-hong-kong-data-centers/",
+    "https://www.businesstimes.com.sg/property/airtrunk-opens-its-first-singapore-data-centre"
+  ],
+  "notes": "AirTrunk SGP1 at 22 Loyang Drive, Pasir Ris (Loyang area, 1.5 ha, 20,000 sqm white space), near Changi North Cable Landing Station; opened 2020 as Singapore's largest independent hyperscale DC; 60+ MW at full build-out. South East CDC per methodology.",
+  "method_batch": true
+}

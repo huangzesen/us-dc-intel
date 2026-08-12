@@ -1,0 +1,22 @@
+{
+  "slug": "method-kr-nhn-cloud-gwangju-ai-data-center-national-ai-data-center",
+  "canonical_project": "NHN Cloud Gwangju AI Data Center (National AI Data Center)",
+  "owner": "NHN Cloud (cloud-infra build & operate operator)",
+  "location": {
+    "city": "",
+    "subnational": "Gwangju - Buk-gu",
+    "country": "Korea, Republic of",
+    "country_code": "KR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.businesspost.co.kr/BP?command=article_view&num=211222",
+    "https://www.fnnews.com/news/202502071009366237",
+    "https://www.hankookilbo.com/news/article/A2025012214430005442"
+  ],
+  "notes": "National AI Data Center at Oryong-dong, Buk-gu (near GIST); NHN selected Feb 2021 to build/operate cloud infra; operational, minister (MSIT) visits 2025; part of national AI computing ramp (GPU expansion, 18,000 GPUs by 2026). Government-NHN operated AI facility.",
+  "method_batch": true
+}

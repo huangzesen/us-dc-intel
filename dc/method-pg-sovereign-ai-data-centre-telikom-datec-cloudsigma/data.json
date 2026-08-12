@@ -1,0 +1,21 @@
+{
+  "slug": "method-pg-sovereign-ai-data-centre-telikom-datec-cloudsigma",
+  "canonical_project": "Sovereign AI Data Centre (Telikom / Datec / CloudSigma)",
+  "owner": "Telikom Limited, Datec PNG, CloudSigma",
+  "location": {
+    "city": "",
+    "subnational": "National Capital District",
+    "country": "Papua New Guinea",
+    "country_code": "PG"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-03-30",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.kch.com.pg/papua-new-guinea-advances-with-launch-of-first-sovereign-ai-data-centre/",
+    "https://www.datec.com.pg/detail/papua-new-guinea-advances-with-launch-of-first-sovereign-ai-data-centre"
+  ],
+  "notes": "KCH (state holding, A-grade announcement) reports official pre-launch 2026-03-30 of PNG's first Sovereign AI Data Centre by Telikom Limited with Datec PNG and CloudSigma, framed as a 'strategic national asset' for sovereign hosting of national data. Exact physical site not disclosed in announcement; Datec/Telikom facilities are Port Moresby (NCD)-based per operator pages, so provisionally attributed to NCD. A for launch/partners; B for physical facility/capacity (none published) - capacity null, status announced (pre-launched per methodology).",
+  "method_batch": true
+}

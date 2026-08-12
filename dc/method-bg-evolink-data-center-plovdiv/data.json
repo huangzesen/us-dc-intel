@@ -1,0 +1,21 @@
+{
+  "slug": "method-bg-evolink-data-center-plovdiv",
+  "canonical_project": "Evolink Data Center Plovdiv",
+  "owner": "Evolink",
+  "location": {
+    "city": "",
+    "subnational": "Plovdiv",
+    "country": "Bulgaria",
+    "country_code": "BG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.evolink.com/bul/about/evolink-data-center",
+    "https://www.datacentermap.com/bulgaria/plovdiv/plovdiv/evolink-plovdiv/"
+  ],
+  "notes": "Evolink official page states it operates four data centers in Sofia, Plovdiv and Varna; DataCenterMap lists the Plovdiv site separately. Capacity not disclosed.",
+  "method_batch": true
+}

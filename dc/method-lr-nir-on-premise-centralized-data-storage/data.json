@@ -1,0 +1,20 @@
+{
+  "slug": "method-lr-nir-on-premise-centralized-data-storage",
+  "canonical_project": "NIR on-premise centralized data storage",
+  "owner": "National Identification Registry (NIR)",
+  "location": {
+    "city": "",
+    "subnational": "Montserrado",
+    "country": "Liberia",
+    "country_code": "LR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://mopt.gov.lr/wp-content/uploads/2025/09/Liberia-National-Digital-Strategy.pdf"
+  ],
+  "notes": "NDS 2025-2029: NIR has on-premise centralized data storage with no dedicated DR site; NDC co-location hosting assigned 2025-2027. Institutional server/storage facility (not public colo).",
+  "method_batch": true
+}

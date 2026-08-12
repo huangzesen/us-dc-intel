@@ -1,0 +1,21 @@
+{
+  "slug": "method-lu-visual-online-dc-contern-lead",
+  "canonical_project": "Visual Online DC (Contern) - lead",
+  "owner": "Visual Online S.A.",
+  "location": {
+    "city": "",
+    "subnational": "Luxembourg",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.visualonline.lu/",
+    "https://www.datacentermap.com/luxembourg/luxembourg/"
+  ],
+  "notes": "ISP/hosting operator in Contern (Luxembourg canton); DataCenterMap lists a Tier 2 'Colocation-Center' in Contern 4 km east of Luxembourg City. Operator page exists; facility-specific address/services need verification (B/C).",
+  "method_batch": true
+}

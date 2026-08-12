@@ -1,0 +1,20 @@
+{
+  "slug": "method-ch-swisscom-telehousing-metro-basel",
+  "canonical_project": "Swisscom Telehousing metro Basel",
+  "owner": "Swisscom AG",
+  "location": {
+    "city": "",
+    "subnational": "Basel-Stadt",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.swisscom.ch/de/business/enterprise/angebot/cloud/data-center/colocation.html"
+  ],
+  "notes": "Swisscom lists Basel among its eight Swiss datacenter/colocation locations (Telehousing metro shared rackroom / private room). Telecom carrier facility; capacity not published. Existence A per operator page; details B.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-sa-equinix-jeddah-data-center-100-mw-pledge",
+  "canonical_project": "Equinix Jeddah data center (100 MW pledge)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Mecca Region - Jiddah",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": 100,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.bncnetwork.net/project/Equinix-100-MW-Data-Center/MzU1NDA5/",
+    "https://www.equinix.com/data-centers/europe-colocation"
+  ],
+  "notes": "Equinix pledged USD 1bn/100 MW Saudi data center investment (LEAP 2025) per trade coverage; BNC project database tracks an Equinix 100 MW Jeddah project. No official Equinix Saudi facility page yet, so grade C and status planned until official/permits appear.",
+  "method_batch": true
+}

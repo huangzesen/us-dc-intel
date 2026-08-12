@@ -1,0 +1,20 @@
+{
+  "slug": "method-mu-mauritius-telecom-rose-hill-tier-iii-data-centre-rhdc",
+  "canonical_project": "Mauritius Telecom Rose Hill Tier III Data Centre (RHDC)",
+  "owner": "Mauritius Telecom Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Plaines Wilhems",
+    "country": "Mauritius",
+    "country_code": "MU"
+  },
+  "capacity_mw": 0.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.myt.mu/business/colocation"
+  ],
+  "notes": "MT/my.t colocation page (checked 2026-08-12) describes the Rose Hill Data Centre, Tier III compliant, in the centre of Mauritius (Rose Hill, Plaines Wilhems), with 300 sq m secured rack space, up to 60+ racks and 500 kW of power. 0.5 MW is the operator-stated power figure.",
+  "method_batch": true
+}

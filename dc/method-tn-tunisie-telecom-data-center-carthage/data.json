@@ -1,0 +1,22 @@
+{
+  "slug": "method-tn-tunisie-telecom-data-center-carthage",
+  "canonical_project": "Tunisie Telecom Data Center Carthage",
+  "owner": "Tunisie Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Tunis",
+    "country": "Tunisia",
+    "country_code": "TN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tunisietelecom.tn/particulier/actualite/ttdatacentercarthage/",
+    "https://directinfo.webmanagercenter.com/2017/07/11/a-travers-un-data-center-tunisie-telecom-promeut-leconomie-numerique-a-kairouan/",
+    "https://www.leconomistemaghrebin.com/2017/04/10/tunisie-telecom-maintien-certification-iso-27001-data-center-carthage/"
+  ],
+  "notes": "TT flagship data center in Tunis; operational since June 2014; ISO/IEC 27001 (2016, maintained 2017) plus ISO 27701 and ISO 9001 certifications; hosts IT infrastructure and cloud services. Address from directories (Carthage/Avenue de Carthage area) remains directory-grade; exact commune not confirmed by TT page.",
+  "method_batch": true
+}

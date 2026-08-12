@@ -1,0 +1,21 @@
+{
+  "slug": "method-ps-mtde-national-data-center-government-computer-center",
+  "canonical_project": "MTDE National Data Center / Government Computer Center",
+  "owner": "Ministry of Telecommunications and Digital Economy (MTDE) / Palestinian Authority",
+  "location": {
+    "city": "",
+    "subnational": "Ramallah",
+    "country": "Palestine, State of",
+    "country_code": "PS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A-",
+  "sources": [
+    "https://mtde.online/national-data-center/",
+    "https://documents1.worldbank.org/curated/en/472671640152521943/pdf/Palestinian-Digital-Economy-Assessment.pdf"
+  ],
+  "notes": "Government data center in Ramallah context (MTIT HQ per World Bank Palestinian Digital Economy Assessment). Live NDC page confirms government collocation (hosting of government servers/equipment), DR-site hosting, DCIM monitoring, PalCERT monitoring, government private cloud, 17 hosted government institutions, 270 virtual servers, 109 hosted government websites, 23,500 e-government users. Domain caveat: mtde.online is official-looking but not mtde.gov.ps; cross-checked against World Bank/WAFA.",
+  "method_batch": true
+}

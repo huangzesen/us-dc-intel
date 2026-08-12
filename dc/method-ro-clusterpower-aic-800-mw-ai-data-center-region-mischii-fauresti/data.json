@@ -1,0 +1,21 @@
+{
+  "slug": "method-ro-clusterpower-aic-800-mw-ai-data-center-region-mischii-fauresti",
+  "canonical_project": "ClusterPower / AIC 800 MW AI data center region (Mischii + Fauresti)",
+  "owner": "ClusterPower + Accelerated Infrastructure Capital (AIC)",
+  "location": {
+    "city": "",
+    "subnational": "Dolj",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": 800,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/accelerated-infrastructure-capital-partners-with-romanias-clusterpower-on-800mw-data-center-build-out/",
+    "https://idcnova.com/html/1/59/153/4650.html"
+  ],
+  "notes": "Dec 2025 announcement: co-develop 800 MW AI data center region across two sites - expanding operational MSC1 in Mischii (3 new phases, >500 MW) plus Fauresti site (Valcea county); needs local permits/grid (Transelectrica/Transgaz) confirmation before upgrade.",
+  "method_batch": true
+}

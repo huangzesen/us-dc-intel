@@ -1,0 +1,22 @@
+{
+  "slug": "method-ua-techiia-ecotechnopark-data-center-nova-kakhovka",
+  "canonical_project": "TECHIIA Ecotechnopark data center (Nova Kakhovka)",
+  "owner": "TECHIIA holding",
+  "location": {
+    "city": "",
+    "subnational": "Kherson",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://delo.ua/business/chtoby-ukrainskoe-it-rastilo-pomidory-techiia-373631/",
+    "https://www.village.com.ua/village/business/news/302761-u-noviy-ekotehnopark-na-hersonschini-investuyut-milyard-dolariv",
+    "https://tsn.ua/ukrayina/v-hersonskiy-oblasti-pobuduyut-pershiy-v-ukrayini-masshtabniy-data-centr-yakiy-virishuvatime-svitovi-problemi-1641697.html"
+  ],
+  "notes": "Ukrainian press (delo.ua, The Village, TSN) report TECHIIA's ~$1B plan for an Ecotechnopark in Nova Kakhovka, Kherson Oblast built around a 500 MW data center for data storage/processing and 3D rendering. Concept/announcement only - no construction or permit evidence found; per methodology the 500 MW figure stays in notes (capacity_mw null). Nova Kakhovka was under occupation/military action since 2022, so status is highly uncertain and project effectively dormant.",
+  "method_batch": true
+}

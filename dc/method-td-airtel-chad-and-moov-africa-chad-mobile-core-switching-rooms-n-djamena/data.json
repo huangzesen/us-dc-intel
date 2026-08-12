@@ -1,0 +1,21 @@
+{
+  "slug": "method-td-airtel-chad-and-moov-africa-chad-mobile-core-switching-rooms-n-djamena",
+  "canonical_project": "Airtel Chad and Moov Africa Chad mobile core / switching rooms (N'Djamena)",
+  "owner": "Airtel Chad; Moov Africa Chad (Maroc Telecom group)",
+  "location": {
+    "city": "",
+    "subnational": "N'Djamena City",
+    "country": "Chad",
+    "country_code": "TD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-08-29",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.ecofinagency.com/news-digital/2908-48255-chad-orders-telecom-operators-to-connect-to-national-fiber-network",
+    "https://arcep.td/fournisseurs_acces_internet.html"
+  ],
+  "notes": "Per methodology, Airtel and Moov (ex-Tigo) operate mobile core/switching and NOC rooms in N'Djamena but are counted as telco infrastructure, not commercial colocation, unless a named facility is disclosed. Aug 2025 Ecofin Agency directive (B) confirms both operators were ordered to connect to the national fiber backbone. No public facility-level data (address/capacity) found in this sweep - C-grade lead.",
+  "method_batch": true
+}

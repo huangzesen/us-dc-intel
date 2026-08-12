@@ -1,0 +1,21 @@
+{
+  "slug": "method-il-serverfarm-isr3",
+  "canonical_project": "Serverfarm ISR3",
+  "owner": "Serverfarm",
+  "location": {
+    "city": "",
+    "subnational": "Tel Aviv",
+    "country": "Israel",
+    "country_code": "IL"
+  },
+  "capacity_mw": 9,
+  "status": "announced",
+  "evidence_date": "2021-12-14",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/serverfarm-announces-plans-for-israeli-data-center/",
+    "https://www.datacenterknowledge.com/servers/serverfarm-is-building-10mw-data-center-in-israel"
+  ],
+  "notes": "ISR3 announced Dec 2021: 100,000 sq ft (9,300 sqm), 9MW (press release) / up to 10MW (website), four data halls, 'central Israel near Tel Aviv'; 2026 operating status not verified in this pass.",
+  "method_batch": true
+}

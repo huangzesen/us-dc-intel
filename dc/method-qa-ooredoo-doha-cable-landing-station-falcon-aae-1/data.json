@@ -1,0 +1,20 @@
+{
+  "slug": "method-qa-ooredoo-doha-cable-landing-station-falcon-aae-1",
+  "canonical_project": "Ooredoo Doha cable landing station (FALCON / AAE-1)",
+  "owner": "Ooredoo Qatar",
+  "location": {
+    "city": "",
+    "subnational": "Doha",
+    "country": "Qatar",
+    "country_code": "QA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.submarinenetworks.com/en/systems/asia-europe-africa/falcon"
+  ],
+  "notes": "Connectivity record: Submarine Networks lists Ooredoo Doha CLS as landing station for FALCON (AAE-1 family) in Qatar; Vodafone North Doha CLS and Halul Island CLS also serve Qatar cables. Cable landings are connectivity evidence, not DC buildings.",
+  "method_batch": true
+}

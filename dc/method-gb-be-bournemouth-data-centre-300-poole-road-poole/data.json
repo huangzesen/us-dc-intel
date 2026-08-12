@@ -1,0 +1,21 @@
+{
+  "slug": "method-gb-be-bournemouth-data-centre-300-poole-road-poole",
+  "canonical_project": "BE Bournemouth data centre (300 Poole Road, Poole)",
+  "owner": "The BE Company",
+  "location": {
+    "city": "",
+    "subnational": "England - Dorset",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacentermap.com/united-kingdom/bournemouth/county-gates/",
+    "https://www.bec.uk/project/community-solar-project"
+  ],
+  "notes": "Operational colocation at Poole Road, Poole (Bournemouth); DataCenterMap lists 3MW; BE describes renewable-powered AI hosting capacity.",
+  "method_batch": true
+}

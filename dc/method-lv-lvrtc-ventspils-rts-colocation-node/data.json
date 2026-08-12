@@ -1,0 +1,21 @@
+{
+  "slug": "method-lv-lvrtc-ventspils-rts-colocation-node",
+  "canonical_project": "LVRTC Ventspils RTS colocation node",
+  "owner": "LVRTC",
+  "location": {
+    "city": "",
+    "subnational": "Ventspils",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://datacenterplanet.com/listings/lvrtc-ventspils-rts",
+    "https://www.lvrtc.lv/pakalpojumi/operatoriem/regionu_datu_centri/"
+  ],
+  "notes": "LVRTC Ventspils radio/TV transmission site (RTS) listed as a data centre/colocation node; LVRTC also operates the Ventspils-Gotlande subsea cable landing; regional colocation every 100 km per LVRTC official page (16.12.2024) though specific city nodes are not enumerated there; C-grade directory evidence, capture per LV methodology for regional telecom-edge nodes.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-tl-tlssc-bebonuk-cable-landing-station-timor-leste-south-submarine-cable-system",
+  "canonical_project": "TLSSC Bebonuk Cable Landing Station (Timor-Leste South Submarine Cable System)",
+  "owner": "Cabos de Timor-Leste (CTL, state-owned); cable by Alcatel Submarine Networks; Dili landing station by DXN",
+  "location": {
+    "city": "",
+    "subnational": "Dili",
+    "country": "Timor-Leste",
+    "country_code": "TL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://timor-leste.gov.tl/?lang=en&p=38073&print=1",
+    "https://www.submarinenetworks.com/en/systems/asia-australia/png-national/tlssc",
+    "https://www.datacenterdynamics.com/en/news/timor-leste-south-submarine-cable-system-lands-in-dili/",
+    "https://developingtelecoms.com/telecom-technology/optical-fixed-networks/20632-timor-leste-commercially-launches-tlscc-its-first-international-subsea-link.html"
+  ],
+  "notes": "TLSSC (607 km, 27 Tbps) landed at Bebonuk, Dili in June 2024 and was commercially launched by CTL in 2026 (Developing Telecoms/DCD). Recorded as connectivity anchor per methodology: cable capacity (27 Tbps) is NOT datacenter IT load; not a commercial colo unless colocation/service evidence appears. DXN built the Dili landing station (deal ~USD 1.4m per DCD).",
+  "method_batch": true
+}

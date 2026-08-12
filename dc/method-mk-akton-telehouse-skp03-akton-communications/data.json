@@ -1,0 +1,21 @@
+{
+  "slug": "method-mk-akton-telehouse-skp03-akton-communications",
+  "canonical_project": "Akton Telehouse SKP03 (Akton Communications)",
+  "owner": "Akton Communications (Ljubljana, Slovenia)",
+  "location": {
+    "city": "",
+    "subnational": "Aerodrom",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/ulitsa-23-ti-oktomvri-11a-18-skopje-23-oktomvri-skopje/akton-telehouse/datacenter/skp03",
+    "https://www.datacentermap.com/macedonia/skopje/"
+  ],
+  "notes": "Directory-only evidence: SKP03 listed at ul. 23-ti Oktomvri 11a-18, Skopje (Aerodrom per methodology street mapping); datacentermap also lists Akton at Vladimir Komarov 11a; redundant power/backup generators claimed by Inflect; no AEK/permit/operator-primary corroboration found. why_this_is_a_data_center: directory facility entry with redundant power/generators for colocation. what_is_not_confirmed: status, capacity, exact municipality/address, operator MK entity.",
+  "method_batch": true
+}

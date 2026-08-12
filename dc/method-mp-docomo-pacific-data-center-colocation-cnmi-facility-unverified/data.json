@@ -1,0 +1,22 @@
+{
+  "slug": "method-mp-docomo-pacific-data-center-colocation-cnmi-facility-unverified",
+  "canonical_project": "DoCoMo Pacific data center colocation (CNMI facility unverified)",
+  "owner": "DoCoMo Pacific",
+  "location": {
+    "city": "",
+    "subnational": "Northern Mariana Islands",
+    "country": "Northern Mariana Islands",
+    "country_code": "MP"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://business.docomopacific.com/data-center-colocation",
+    "https://business.docomopacific.com/support",
+    "https://baxtel.com/data-center/docomo-saipan"
+  ],
+  "notes": "DoCoMo Pacific official colocation product page (A-grade for product existence: 99.99% SLA, 24/7 staffing, perimeter fencing, mantrap, cameras, keycard scanners) names its off-site colocation facilities in Agana, Harmon and Piti - all Guam, not CNMI. CNMI business-support office listed at Middle Road, Saipan 96950 (office/contact location, not a data center). Baxtel lists 'DoCoMo Saipan' (Susupe, approximate location) as a directory lead. No official CNMI facility address, FCC/ICFS filing, permit or dated local media found; Guam-side facilities are upstream context only and excluded from MP count.",
+  "method_batch": true
+}

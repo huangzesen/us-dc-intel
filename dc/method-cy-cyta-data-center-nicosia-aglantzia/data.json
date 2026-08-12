@@ -1,0 +1,21 @@
+{
+  "slug": "method-cy-cyta-data-center-nicosia-aglantzia",
+  "canonical_project": "Cyta Data Center Nicosia (Aglantzia)",
+  "owner": "Cyta",
+  "location": {
+    "city": "",
+    "subnational": "Nicosia",
+    "country": "Cyprus",
+    "country_code": "CY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cyta.com.cy/business-datacenter-services",
+    "https://www.cyta.com.cy/business-server-hosting/en"
+  ],
+  "notes": "Cyta official business data-center services page confirms two Cyta Data Centers, Nicosia/Aglantzia and Limassol/Amathounta, with Tier III-standard and ISO 27001 operator claims (not Uptime certification). Re-verified 2026-08-12 against CY methodology.",
+  "method_batch": true
+}

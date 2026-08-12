@@ -1,0 +1,22 @@
+{
+  "slug": "method-bg-sdc-ruse-neterra-sofia-data-center",
+  "canonical_project": "SDC Ruse (Neterra / Sofia Data Center)",
+  "owner": "Neterra",
+  "location": {
+    "city": "",
+    "subnational": "Ruse",
+    "country": "Bulgaria",
+    "country_code": "BG"
+  },
+  "capacity_mw": 0.13,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://sdc.bg/sdc-ruse",
+    "https://sdc.bg/en/data-center-in-ruse/",
+    "https://www.datacentermap.com/bulgaria/ruse/telecom-center-ruse/"
+  ],
+  "notes": "Neterra official SDC page describes SDC Ruse as a Tier III carrier-neutral data center in Ruse near the Romanian border, main PoP for the Black Sea Fiber Optic Ring; DataCenterMap lists ~0.13 MW. Operator page confirms existence/location (A); capacity figure from directory (C-level detail).",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-pt-start-campus-sines-dc-sin02-second-building",
+  "canonical_project": "Start Campus SINES DC - SIN02 second building",
+  "owner": "Start Campus / Nscale (Microsoft AI infrastructure)",
+  "location": {
+    "city": "",
+    "subnational": "Setubal",
+    "country": "Portugal",
+    "country_code": "PT"
+  },
+  "capacity_mw": 200,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://tek.sapo.pt/noticias/computadores/artigos/centro-de-dados-da-microsoft-em-sines-vai-receber-mais-66-mil-gpus-nvidia-e-torna-se-um-dos-projetos-de-infraestrutura-de-ia-mais-significativos-da-ue/",
+    "https://www.portugalglobal.pt/en/news/2026/maio/microsoft-startcampus-expansion-plans-unveiled-by-nscale/",
+    "https://www.idealista.pt/news/imobiliario/escritorios/2026/01/18/73440-start-campus-avanca-com-segundo-edificio-no-centro-de-dados-de-sines"
+  ],
+  "notes": "Second building of Sines 4.0 campus with ~200 MW capacity; Nscale investing ~EUR 465M in the 200 MW second building plus ~EUR 230M shared infrastructure under the Microsoft/Start Campus agreement (tek.sapo/Jan 2026); AICEP PortugalGlobal May 2026 confirms Microsoft Start Campus expansion plans; APA/SIAIA AIA 3633 + RECAPE 564 environmental files (Data Center Sines 4.0) cover phases. Construction advancing per Engexpor/idealista Jan 2026. 200 MW is planned phase capacity.",
+  "method_batch": true
+}

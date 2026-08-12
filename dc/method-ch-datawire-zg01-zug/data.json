@@ -1,0 +1,21 @@
+{
+  "slug": "method-ch-datawire-zg01-zug",
+  "canonical_project": "DATAWIRE ZG01 (Zug)",
+  "owner": "DATAWIRE",
+  "location": {
+    "city": "",
+    "subnational": "Zug",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.moneycab.com/it/datawire-100-server-und-serviceleistung-aus-zug/",
+    "https://www.datacentermap.com/switzerland/zug/"
+  ],
+  "notes": "Independently owned datacenter and dedicated-server provider in canton Zug; leading local DC services provider.",
+  "method_batch": true
+}

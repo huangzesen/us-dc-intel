@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-ark-data-centres-cody-park-campus-farnborough-incl-dc6",
+  "canonical_project": "Ark Data Centres Cody Park campus, Farnborough (incl. DC6)",
+  "owner": "Ark Data Centres",
+  "location": {
+    "city": "",
+    "subnational": "England - Hampshire",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 51,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ark-d-c.com/locations/",
+    "https://www.datacentermap.com/united-kingdom/farnborough/ark-data-centres-cody-park-dc6/",
+    "https://www.colo-x.com/data-centre/ark-cody-park-farnborough/"
+  ],
+  "notes": "Cody Park, Old Ively Road, Farnborough GU14 0LH: flagship Ark campus with 51MW compute capacity across six modular DCs (DataCenterMap/Colo-X); Datanet and other tenants co-locate there. Directory capacity = B.",
+  "method_batch": true
+}

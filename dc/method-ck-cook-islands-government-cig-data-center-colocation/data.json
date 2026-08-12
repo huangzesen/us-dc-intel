@@ -1,0 +1,21 @@
+{
+  "slug": "method-ck-cook-islands-government-cig-data-center-colocation",
+  "canonical_project": "Cook Islands Government (CIG) Data Center colocation",
+  "owner": "Office of the Prime Minister, Government of the Cook Islands (host operator not publicly disclosed)",
+  "location": {
+    "city": "",
+    "subnational": "Cook Islands",
+    "country": "Cook Islands",
+    "country_code": "CK"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://procurement.gov.ck/tender=3374",
+    "https://www.aiscorp.co.nz/news/press-release-email-upgrade-for-cook-islands-government"
+  ],
+  "notes": "A-grade procurement: PPCI RFT Data Centre Colocation (tender=3374, published 2020-11-11, closed 2020-12-09) sought an ICT supplier to provide colocation for the CIG Data Center (category 81112000 Data Services; contact OPM Director of ICT, Avarua Rarotonga). B-grade delivery: Aiscorp press release states the government centralised network and data centre colocation was upgraded in December 2021 with the tender awarded to Aiscorp. Colocation host site not publicly disclosed (Rarotonga/Avarua most probable per methodology). Government-data-centre-colocation asset class; small-island grid, no public IT-load/MW evidence.",
+  "method_batch": true
+}

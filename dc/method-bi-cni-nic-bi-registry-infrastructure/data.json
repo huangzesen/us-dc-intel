@@ -1,0 +1,21 @@
+{
+  "slug": "method-bi-cni-nic-bi-registry-infrastructure",
+  "canonical_project": "CNI / NIC.BI registry infrastructure",
+  "owner": "CNI / NIC.BI (.bi registry)",
+  "location": {
+    "city": "",
+    "subnational": "Bujumbura Mairie",
+    "country": "Burundi",
+    "country_code": "BI"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.cni.bi/",
+    "https://nic.bi/"
+  ],
+  "notes": ".bi domain registry and legacy computing institution; registry/hosting infrastructure likely in Bujumbura but no primary page names server/hosting infrastructure or location. B/C lead per methodology.",
+  "method_batch": true
+}

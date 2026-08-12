@@ -1,0 +1,22 @@
+{
+  "slug": "method-nf-norfolk-telecom-core-exchange-network-office-equipment",
+  "canonical_project": "Norfolk Telecom core / exchange / network office equipment",
+  "owner": "Norfolk Telecom (NIRC)",
+  "location": {
+    "city": "",
+    "subnational": "Norfolk Island",
+    "country": "Norfolk Island",
+    "country_code": "NF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.nirc.gov.au/Corporate-finance/Norfolk-Telecom",
+    "https://www.ni.net.nf/",
+    "https://www.infrastructure.gov.au/sites/default/files/migrated/territories/publications/files/GQI_Norfolk_Island_Mobile_Network_Review_2015.pdf"
+  ],
+  "notes": "Telecom_exchange_or_core per methodology: Norfolk Telecom operates fixed/mobile/broadband/international connectivity on-island; 2015 federal Mobile Network Review records PSTN (copper/some fibre, Ericsson AXE switch), GSM core/BSC/BTS, base-station shelters and an office able to house core network equipment; NIRC page and ni.net.nf confirm current operator service. Not a commercial DC: no colocation/rack-rental product, capacity not disclosed (capacity_mw null).",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-mn-mongolian-national-data-center-mndc",
+  "canonical_project": "Mongolian National Data Center (MNDC)",
+  "owner": "Mongolian National Data Center / Government of Mongolia",
+  "location": {
+    "city": "",
+    "subnational": "Ulaanbaatar",
+    "country": "Mongolia",
+    "country_code": "MN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenter.gov.mn/en/about-us",
+    "https://datacenter.gov.mn/",
+    "https://www.opendatalab.mn/search/1787?model=TClient"
+  ],
+  "notes": "Official MNDC page: government-funded National Data Center established by Government Resolution No. 183 of 2009-06-24, located in Songinokhairkhan district, Ulaanbaatar; operates national electronic data systems, gov.mn domains, hosting, virtual servers and rack rental; ISO 9001:2015 certified. Re-verified 2026-08-12.",
+  "method_batch": true
+}

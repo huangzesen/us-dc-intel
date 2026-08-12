@@ -1,0 +1,22 @@
+{
+  "slug": "method-za-oadc-bryanston-data-centre",
+  "canonical_project": "OADC Bryanston data centre",
+  "owner": "Open Access Data Centres (OADC) / WIOCC Group (formerly NTT Data SA / Internet Solutions)",
+  "location": {
+    "city": "",
+    "subnational": "Gauteng - City of Johannesburg Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://it-online.co.za/2026/02/10/oadc-buys-seven-data-centres-from-ntt-data/",
+    "https://www.itweb.co.za/article/wiocc-officially-pens-ntt-data-centre-deal/j5alrvQA9XQvpYQk",
+    "https://www.datacenterdynamics.com/en/news/oadc-acquires-ntt-data-centers-in-south-africa/"
+  ],
+  "notes": "OADC's acquisition of seven NTT Data SA data centres (officially signed 2026-02-10) explicitly includes a Bryanston facility (Johannesburg, City of Johannesburg), part of the former Internet Solutions estate. Facility-level page/capacity not yet published by OADC for Bryanston in sources reviewed - record kept as separate lead (C-grade until OADC official facility page or municipal record opens). No public MW capacity.",
+  "method_batch": true
+}

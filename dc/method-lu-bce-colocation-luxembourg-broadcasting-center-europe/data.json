@@ -1,0 +1,22 @@
+{
+  "slug": "method-lu-bce-colocation-luxembourg-broadcasting-center-europe",
+  "canonical_project": "BCE Colocation Luxembourg (Broadcasting Center Europe)",
+  "owner": "BCE (RTL Group)",
+  "location": {
+    "city": "",
+    "subnational": "Luxembourg",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.peeringdb.com/fac/220",
+    "https://baxtel.com/data-center/bce-colocation-luxembourg",
+    "https://inflect.com/building/45-boulevard-pierre-frieden-luxembourg/broadcasting-center-europe/datacenter/bce-colocation-luxembourg"
+  ],
+  "notes": "Colocation facility at 43-45 boulevard Pierre Frieden, L-1543 Luxembourg (LU-CIX lists 43; Inflect/Baxtel 45); PeeringDB fac/220 with 15 networks; ~33,896 sqft footprint (DataCenterJournal). Broadcast/media colo anchor.",
+  "method_batch": true
+}

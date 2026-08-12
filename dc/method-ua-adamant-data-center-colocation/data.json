@@ -1,0 +1,20 @@
+{
+  "slug": "method-ua-adamant-data-center-colocation",
+  "canonical_project": "Adamant data center / colocation",
+  "owner": "Adamant LLC",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv City",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://adamant.ua/data-center/colocation"
+  ],
+  "notes": "Per UA methodology seed (verified 2026-08-12): Adamant Kyiv colocation/data-center services, Tier-III marketing claim (not Uptime certification), telecom operator history. B for service existence per official page; certification/capacity not independently confirmed.",
+  "method_batch": true
+}

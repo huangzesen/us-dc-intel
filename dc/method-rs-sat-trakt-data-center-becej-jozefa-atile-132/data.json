@@ -1,0 +1,21 @@
+{
+  "slug": "method-rs-sat-trakt-data-center-becej-jozefa-atile-132",
+  "canonical_project": "Sat-Trakt data center Becej (Jozefa Atile 132)",
+  "owner": "Sat-Trakt d.o.o. (Backa Topola)",
+  "location": {
+    "city": "",
+    "subnational": "Vojvodina",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.ratel.rs/uploads/documents/pdf_documents/documents/Standardne_ponude/medjupovezivanje/Standardna+ponuda+za+interkonekciju+Sat-trakt.pdf",
+    "http://www.sattrakt.rs/servisi/kolokacije-rack-and-server-housing/"
+  ],
+  "notes": "RATEL standard-offer document confirms interconnection access point at Jozefa Atile 132, Becej; RATEL List of Data Centers entry per methodology; colocation page per methodology (not re-fetched).",
+  "method_batch": true
+}

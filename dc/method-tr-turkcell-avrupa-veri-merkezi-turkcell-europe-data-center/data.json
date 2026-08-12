@@ -1,0 +1,22 @@
+{
+  "slug": "method-tr-turkcell-avrupa-veri-merkezi-turkcell-europe-data-center",
+  "canonical_project": "Turkcell Avrupa Veri Merkezi (Turkcell Europe Data Center)",
+  "owner": "Turkcell",
+  "location": {
+    "city": "",
+    "subnational": "Tekirdag",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": 16,
+  "status": "operational",
+  "evidence_date": "2021-09-13",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.aa.com.tr/tr/isdunyasi/guncel/turkcell-avrupa-veri-merkezi-acildi/667364",
+    "https://www.btk.gov.tr/haberler/bakan-karaismailoglu-turkcell-avrupa-veri-merkezi-nin-acilisina-katildi",
+    "https://serban.com.tr/avrupa-veri-merkezi"
+  ],
+  "notes": "Opened 13 Sep 2021 in Kapakli district, Karaagac OSB (Tekirdag) with Minister Adil Karaismailoglu; ~37,277 sqm site / ~43,000 sqm closed area / ~7,238 sqm white space across 3 modules, Tier III certified, LEED Gold, ~16 MW total; construction started 08.03.2019 (Serban project page). Re-verified via AA + BTK official + contractor pages. No additional Tekirdag/Corlu/Kapakli datacenter project found in this run; Google Cloud-Turkcell Turkiye cloud region remains announced (coming, not live) with no Tekirdag physical site confirmation.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-lu-datacenter-luxembourg-luxnetwork-legacy-windhof-lead",
+  "canonical_project": "Datacenter Luxembourg / LuxNetwork legacy (Windhof) - lead",
+  "owner": "LuxNetwork (ex-Datacenter Luxembourg)",
+  "location": {
+    "city": "",
+    "subnational": "Capellen",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.luxnetwork.eu/"
+  ],
+  "notes": "Former 'Datacenter Luxembourg' homepage 404s; use LuxNetwork + LBR/trade sources; legacy Windhof/Bettembourg mapping unresolved - do not count without active facility confirmation.",
+  "method_batch": true
+}

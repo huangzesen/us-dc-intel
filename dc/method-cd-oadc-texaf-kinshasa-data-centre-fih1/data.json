@@ -1,0 +1,22 @@
+{
+  "slug": "method-cd-oadc-texaf-kinshasa-data-centre-fih1",
+  "canonical_project": "OADC Texaf Kinshasa Data Centre (FIH1)",
+  "owner": "Open Access Data Centres (WIOCC) / TEXAF",
+  "location": {
+    "city": "",
+    "subnational": "Kinshasa",
+    "country": "Congo, Democratic Republic of the",
+    "country_code": "CD"
+  },
+  "capacity_mw": 2.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://openaccessdc.net/kinshasa",
+    "https://openaccessdc.net/digital-economy-boost-as-the-drcs-first-tier-iii-open-access-carrier-neutral-data-centre-goes-live/",
+    "https://baxtel.com/data-center/oadc-texaf-digital-kinshasa"
+  ],
+  "notes": "First live Tier III Uptime-certified open-access carrier-neutral DC in DRC; went live 13 Aug 2024 at SILIKIN Village, Concession COTEX, Avenue Colonel Mondjiba, Kinshasa (Ngaliema commune). ~1,000 m2 technical space, N+1 cooling, 2 MW site load (site load, not IT load), 22 kV supply with 11 kV distribution; initial 400 m2 IT white space, future 550+ racks. Also hosts KINIX/ACIX exchange nodes per PeeringDB/DE-CIX.",
+  "method_batch": true
+}

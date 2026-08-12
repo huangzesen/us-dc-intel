@@ -1,0 +1,21 @@
+{
+  "slug": "method-ua-volia-data-center",
+  "canonical_project": "Volia Data Center",
+  "owner": "Volia (Datagroup-Volia group)",
+  "location": {
+    "city": "",
+    "subnational": "Kyiv City",
+    "country": "Ukraine",
+    "country_code": "UA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://dc.volia.com/",
+    "https://www.whtop.com/review/volia.com"
+  ],
+  "notes": "Official Volia Data Center site (dc.volia.com) confirms Kyiv data-center/colo services with AS25229, established Kyiv hosting infrastructure (whtop review corroborates long operating history and direct network control). A for operator/service existence per official page; capacity not disclosed.",
+  "method_batch": true
+}

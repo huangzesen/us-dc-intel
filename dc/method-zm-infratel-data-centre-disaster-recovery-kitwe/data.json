@@ -1,0 +1,22 @@
+{
+  "slug": "method-zm-infratel-data-centre-disaster-recovery-kitwe",
+  "canonical_project": "INFRATEL Data Centre - Disaster Recovery (Kitwe)",
+  "owner": "INFRATEL Corporation Zambia Limited",
+  "location": {
+    "city": "",
+    "subnational": "Copperbelt",
+    "country": "Zambia",
+    "country_code": "ZM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.peeringdb.com/org/22678",
+    "https://colo.exchange/data-centers/infratel-corporation-zambia-limited-infratel-data-centre-disaster-recovery",
+    "https://datacenterplanet.com/listings/infratel-data-centre-disaster-recovery"
+  ],
+  "notes": "Directory-listed INFRATEL DR facility in Kitwe (colo.exchange, datacenterslist, datacenterplanet, pq.hosting; C-grade, described as operational). PeeringDB org 22678 (B) confirms INFRATEL runs three data centres ~350km apart for geographical redundancy, consistent with a Kitwe DR node. Requires official INFRATEL/council/power confirmation before upgrading grade.",
+  "method_batch": true
+}

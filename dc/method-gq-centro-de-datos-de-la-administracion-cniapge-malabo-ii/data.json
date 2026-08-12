@@ -1,0 +1,23 @@
+{
+  "slug": "method-gq-centro-de-datos-de-la-administracion-cniapge-malabo-ii",
+  "canonical_project": "Centro de Datos de la Administracion (CNIAPGE), Malabo II",
+  "owner": "CNIAPGE (Centro Nacional para la Informatizacion de la Administracion Publica, under Presidencia del Gobierno)",
+  "location": {
+    "city": "",
+    "subnational": "Insular",
+    "country": "Equatorial Guinea",
+    "country_code": "GQ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.guineaecuatorialpress.com/noticias/licitacion_publica_del_proyecto_de_informatizacion_de_la_administracion_publica",
+    "https://www.guineaecuatorialpress.com/noticias/inauguraciones_de_obras_publicas_en_malabo_ii_para_celebrar_el_natalicio_presidencial",
+    "https://www.guineaecuatorialpress.com/index.php/noticias/cniapge_celebra_su_primera_junta_directiva_del_2025",
+    "https://www.guineainfomarket.com/tecnologia/2017/06/16/cniapge-centro-nacional-para-la-informacion-de-la-administracion-publica-de-guinea-ecuatorial/"
+  ],
+  "notes": "Government administration data center in Malabo II, Bioko Norte (Insular): 2014-07-12 public tender for passive/active data-center equipment (A), inaugurated 2016-06-04 (A), 2025 board record of equipment renewal and data custody/continuity mandate (A). guineainfomarket profile claims CNIAPGE runs a Tier III data center (C - no Uptime confirmation). Capacity not public; keep separate from GITGE Sipopo.",
+  "method_batch": true
+}

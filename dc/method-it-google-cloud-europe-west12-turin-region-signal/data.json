@@ -1,0 +1,21 @@
+{
+  "slug": "method-it-google-cloud-europe-west12-turin-region-signal",
+  "canonical_project": "Google Cloud europe-west12 Turin region signal",
+  "owner": "Google Cloud (hosted via TIM/Noovle partnership per methodology)",
+  "location": {
+    "city": "",
+    "subnational": "Piedmont",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "announced",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://cloud.google.com/about/locations",
+    "https://www.datacenterdynamics.com/en/news/intesa-sanpaolo-group-migrates-core-it-systems-to-google-cloud/"
+  ],
+  "notes": "Google Cloud Turin region (europe-west12) is a methodology-listed signal; Intesa Sanpaolo migration article confirms Google regions running in TIM data centers in Italy. No public building-level evidence found in this round; treat as region/availability signal pending primary confirmation.",
+  "method_batch": true
+}

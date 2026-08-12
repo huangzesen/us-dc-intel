@@ -1,0 +1,20 @@
+{
+  "slug": "method-sn-douanes-bdm-datacenter",
+  "canonical_project": "Douanes BdM Datacenter",
+  "owner": "Direction Generale des Douanes (Senegal customs)",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://uptimeinstitute.com/component/tierachievement/datacenter/douanes-bdm-datacenter-/1202"
+  ],
+  "notes": "Uptime Institute record for Douanes, BdM Datacenter, Dakar (A; ICTworks lists it under Direction Generale des Douanes, Dakar). Likely internal government/customs facility; no commercial colocation evidence found.",
+  "method_batch": true
+}

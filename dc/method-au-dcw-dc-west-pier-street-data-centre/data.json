@@ -1,0 +1,20 @@
+{
+  "slug": "method-au-dcw-dc-west-pier-street-data-centre",
+  "canonical_project": "DCW (DC West) Pier Street data centre",
+  "owner": "DC West Pty Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Perth",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/australia/perth/dcwest/"
+  ],
+  "notes": "Directory-listed legacy colocation facility at L1/234 Pier Street, Perth CBD (City of Perth LGA). Weak secondary evidence only; capacity and current operating details unverified.",
+  "method_batch": true
+}

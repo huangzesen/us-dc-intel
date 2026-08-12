@@ -1,0 +1,22 @@
+{
+  "slug": "method-nz-lake-parime-contact-energy-clyde-data-centre",
+  "canonical_project": "Lake Parime / Contact Energy Clyde data centre",
+  "owner": "Lake Parime (UK) / Contact Energy",
+  "location": {
+    "city": "",
+    "subnational": "Otago",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": 10,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.odt.co.nz/regions/central-otago/company-behind-data-centre-collapses",
+    "https://www.contactenergy.co.nz/aboutus/media-centre/2021/08/16/contact-energy-and-lake-parime-reach-agreement-to-establish-a-data-centre-in-clyde",
+    "https://crux.org.nz/crux-news/commissioner-to-consider-opposition-to-clyde-data-centre"
+  ],
+  "notes": "Clyde (south of Clyde Dam, Clutha River) 10 MW renewable-powered data centre, 8 containers x 368 servers; Central Otago DC approval reported 2022. ODT now reports the company behind the project collapsed, with commissioner considering opposition - status uncertain/dormant pending operator reconfirmation.",
+  "method_batch": true
+}

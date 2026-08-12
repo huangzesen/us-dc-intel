@@ -1,0 +1,23 @@
+{
+  "slug": "method-sg-stt-singapore-1-2-3-stt-defu-campus",
+  "canonical_project": "STT Singapore 1/2/3 (STT Defu Campus)",
+  "owner": "ST Telemedia Global Data Centres (STT GDC)",
+  "location": {
+    "city": "",
+    "subnational": "North East",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 39,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.sttelemediagdc.com/sg-en/newsroom/st-telemedia-global-data-centres-to-expand-its-flagship-Defu-campus",
+    "https://w.media/stt-defu-3-data-center-in-singapore-goes-live/",
+    "https://www.itnews.asia/news/stt-gdc-operationalises-third-data-centre-at-its-defu-campus-584181",
+    "https://www.datacenterdynamics.com/en/news/stt-gdc-building-new-15mw-data-center-in-singapore/"
+  ],
+  "notes": "STT GDC flagship Defu campus (23 Defu Avenue 1, Hougang area): STT Singapore 1 and 2 operational at 12 MW each; STT Defu 3 announced April 2021, operational 2022, 15 MW, 7 storeys, 156,000 sq ft. Total ~39-40 MW. Assigned North East CDC (Defu/Hougang) - methodology flags NE/SE boundary verification.",
+  "method_batch": true
+}

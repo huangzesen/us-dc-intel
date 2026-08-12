@@ -1,0 +1,20 @@
+{
+  "slug": "method-nl-equinix-amsterdam-metro-am-series",
+  "canonical_project": "Equinix Amsterdam metro (AM-series)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "North Holland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.equinix.com/data-centers/europe-colocation/netherlands-colocation"
+  ],
+  "notes": "Equinix official page: 11 Dutch data centers across Amsterdam, Enschede and Zwolle; Amsterdam AM-series (AM3/4/5/7/11, Science Park, Schepenbergweg, Lemelerbergweg) - permit cross-checks per methodology.",
+  "method_batch": true
+}

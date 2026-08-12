@@ -1,0 +1,23 @@
+{
+  "slug": "method-md-moldtelecom-data-city",
+  "canonical_project": "Moldtelecom Data City",
+  "owner": "S.A. Moldtelecom",
+  "location": {
+    "city": "",
+    "subnational": "Chisinau",
+    "country": "Moldova, Republic of",
+    "country_code": "MD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.moldtelecom.md/ro/business/data-centru/",
+    "https://www.peeringdb.com/fac/15521",
+    "https://www.datacentermap.com/moldova/chisinau/data-city-moldtelecom/",
+    "https://www.moldtelecom.md/ro/licitatii/1444/"
+  ],
+  "notes": "Data City is Moldtelecom's Tier 3-standard colocation/hosting data center at bd. Alba Iulia 77, Chisinau; powered by three independent power sources per operator marketing; ~220 m2 total (2021 tv8.md report). PeeringDB facility 15521 (MD-IX local exchange hosted). Expansion: open tender (offers until 19.09.2024) for capital-repair/consolidation works to extend Data City (moldtelecom.md licitatii/1444, logos-pres.md) - indicates active expansion in Chisinau. capacity_mw null; no reliable MW published.",
+  "method_batch": true
+}

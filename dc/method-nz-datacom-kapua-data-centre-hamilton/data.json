@@ -1,0 +1,22 @@
+{
+  "slug": "method-nz-datacom-kapua-data-centre-hamilton",
+  "canonical_project": "Datacom Kapua Data Centre (Hamilton)",
+  "owner": "Datacom",
+  "location": {
+    "city": "",
+    "subnational": "Waikato",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": 14,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacom.com/nz/en/products/data-centres/locations/kapua-hamilton",
+    "https://baxtel.com/data-center/hamilton",
+    "https://www.datacomgroup.eu/About-Us/Our-News/Kapua-Datacom-raises-the-datacentre-bar-again"
+  ],
+  "notes": "Kapua, Hamilton: 14 MW total capacity per Datacom official page; Tier-3+ hyperscale facility (opened 2016), expandable to 1,500+ racks; Uptime M&O stamp. Hamilton market largest facility (Baxtel).",
+  "method_batch": true
+}

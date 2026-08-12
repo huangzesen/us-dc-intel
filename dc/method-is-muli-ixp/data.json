@@ -1,0 +1,20 @@
+{
+  "slug": "method-is-muli-ixp",
+  "canonical_project": "Muli IXP",
+  "owner": "Muli IXP",
+  "location": {
+    "city": "",
+    "subnational": "Capital Region",
+    "country": "Iceland",
+    "country_code": "IS"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://pulse.internetsociety.org/en/ixp-tracker/country/IS/"
+  ],
+  "notes": "Active small Reykjavik IXP per Internet Society Pulse; lead only pending operator-owned confirmation; interconnection infrastructure, not a DC campus.",
+  "method_batch": true
+}

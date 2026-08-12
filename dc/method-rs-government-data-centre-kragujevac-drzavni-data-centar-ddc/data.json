@@ -1,0 +1,23 @@
+{
+  "slug": "method-rs-government-data-centre-kragujevac-drzavni-data-centar-ddc",
+  "canonical_project": "Government Data Centre Kragujevac (Drzavni data centar / DDC)",
+  "owner": "Office for IT and eGovernment (Republic of Serbia)",
+  "location": {
+    "city": "",
+    "subnational": "Sumadija",
+    "country": "Serbia",
+    "country_code": "RS"
+  },
+  "capacity_mw": 14,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "http://www.ite.gov.rs/tekst/en/34/government-data-centre-in-kragujevac.php",
+    "http://www.ite.gov.rs/tekst/en/1134/government-data-centre.php",
+    "https://www.srbija.gov.rs/vest/en/165244/state-data-centre-opened-in-kragujevac.php",
+    "https://www.srbija.gov.rs/vest/en/276647/state-data-centre-in-kragujevac-receives-new-supercomputer.php"
+  ],
+  "notes": "Two facilities ~14,000 m2 on 4 ha plot, class 4/Tier 4 standard; opened 2020; new modules + supercomputer + rooftop solar commissioned Apr 2026. e& enterprise states existing campus 14 MW / 1,080 racks. Hosts Government Cloud, Oracle/IBM/Huawei/CERN workloads.",
+  "method_batch": true
+}

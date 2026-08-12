@@ -1,0 +1,20 @@
+{
+  "slug": "method-de-vogelsbergkreis-district-administration-data-center-geothermal-cooling",
+  "canonical_project": "Vogelsbergkreis district administration data center geothermal cooling",
+  "owner": "Vogelsbergkreis district administration",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Vogelsbergkreis",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2010-12-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenter-insider.de/klimatisierung-mit-geothermie-senkt-stromkosten-a-293298/"
+  ],
+  "notes": "DataCenter-Insider reported Vogelsbergkreis district administration installed geothermal cooling for server racks in its Landratsamt data center. No commercial/hyperscale project found.",
+  "method_batch": true
+}

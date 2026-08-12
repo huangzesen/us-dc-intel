@@ -1,0 +1,22 @@
+{
+  "slug": "method-lr-ccl-ace-cable-landing-colocation-node-monrovia",
+  "canonical_project": "CCL ACE cable landing / colocation node (Monrovia)",
+  "owner": "Cable Consortium of Liberia (CCL)",
+  "location": {
+    "city": "",
+    "subnational": "Montserrado",
+    "country": "Liberia",
+    "country_code": "LR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://ccliberia.com/services/",
+    "https://ccliberia.com/",
+    "https://www.trade.gov/country-commercial-guides/liberia-telecommunication"
+  ],
+  "notes": "CCL official site markets co-location services, 24/7 NOC, power redundancy/security and access to LIXPA; serves as neutral access point for Orange Liberia, Lonestar MTN, LTC and other ISPs. ACE landing ecosystem in Monrovia. Capacity not disclosed.",
+  "method_batch": true
+}

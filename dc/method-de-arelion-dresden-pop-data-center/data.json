@@ -1,0 +1,20 @@
+{
+  "slug": "method-de-arelion-dresden-pop-data-center",
+  "canonical_project": "Arelion Dresden PoP/data center",
+  "owner": "Arelion",
+  "location": {
+    "city": "",
+    "subnational": "Saxony - Dresden",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacentermap.com/germany/dresden/teliasonera-dres/"
+  ],
+  "notes": "Network PoP / legacy TeliaSonera facility in Dresden per Data Center Map.",
+  "method_batch": true
+}

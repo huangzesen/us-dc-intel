@@ -1,0 +1,21 @@
+{
+  "slug": "method-de-ntt-frankfurt-1-ex-e-shelter-campus",
+  "canonical_project": "NTT Frankfurt 1 (ex-e-shelter campus)",
+  "owner": "NTT Global Data Centers EMEA",
+  "location": {
+    "city": "",
+    "subnational": "Hesse - Frankfurt am Main",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": 77.4,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://services.global.ntt/en-us/services-and-products/global-data-centers/global-locations/emea/frankfurt-1-data-center",
+    "https://www.peeringdb.com/fac/277"
+  ],
+  "notes": "Frankfurt 1 is NTT's main Frankfurt campus (60,000+ sqm data center and technical space, Europe's largest single site); official data sheet states 52,200+ sqm IT space and 77.4 MW max IT load. Capacity per methodology operator page (A-).",
+  "method_batch": true
+}

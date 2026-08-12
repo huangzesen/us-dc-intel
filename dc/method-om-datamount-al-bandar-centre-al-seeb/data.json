@@ -1,0 +1,23 @@
+{
+  "slug": "method-om-datamount-al-bandar-centre-al-seeb",
+  "canonical_project": "Datamount Al Bandar Centre (Al Seeb)",
+  "owner": "Datamount SAOC (government pension-fund backed)",
+  "location": {
+    "city": "",
+    "subnational": "Muscat",
+    "country": "Oman",
+    "country_code": "OM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.datamount.om/",
+    "https://timesofoman.com/article/128127-datamount-is-close-to-launching-al-bandar-centre-one-of-the-largest-data-centres-in-oman",
+    "https://www.datacenters.com/datamount-saoc-al-bandar-datacentre",
+    "https://w.media/omans-largest-data-centre-to-be-launched-soon/"
+  ],
+  "notes": "Al Bandar Centre, Al Seeb, Muscat Governorate; Tier III colocation/cloud/DR centre; capacity over 700 racks in phases (B, W.Media/Times of Oman); launched 2023-2024 era, currently listed active in directories. Datamount HQ at Al Bandar.",
+  "method_batch": true
+}

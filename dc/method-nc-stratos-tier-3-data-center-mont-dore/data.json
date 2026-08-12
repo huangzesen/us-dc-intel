@@ -1,0 +1,21 @@
+{
+  "slug": "method-nc-stratos-tier-3-data-center-mont-dore",
+  "canonical_project": "Stratos Tier 3 data center Mont-Dore",
+  "owner": "Stratos NC",
+  "location": {
+    "city": "",
+    "subnational": "New Caledonia",
+    "country": "New Caledonia",
+    "country_code": "NC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.stratos.nc/datacenter-noumea/",
+    "https://siteinternet.nc/hebergement-souverain-noumea/"
+  ],
+  "notes": "Operator page (checked 2026-08-12): dedicated Tier 3-principle data center at Mont-Dore (Grand Nouméa, Province Sud), operated by local team, N+1 electrical redundancy with dual Enercal feeds, UPS, diesel generator 72h+ autonomy, dual cooling groups, VESDA detection, inert-gas fire suppression, biometric/physical security, multi-FAI peering (OPT, MLS, Lagoon, Citius) with direct Gondwana-1 access. Colocation from 1U to cages, managed hosting, IaaS. 'Tier 3' is self-attested via internal annual audit, no formal Uptime Institute certification. No MW capacity disclosed.",
+  "method_batch": true
+}

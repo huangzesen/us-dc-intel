@@ -1,0 +1,21 @@
+{
+  "slug": "method-kh-mekongnet-idc2-anana-building",
+  "canonical_project": "MekongNet IDC2 (AnAnA Building)",
+  "owner": "MekongNet / Angkor Data Communication Group Co., Ltd",
+  "location": {
+    "city": "",
+    "subnational": "Phnom Penh",
+    "country": "Cambodia",
+    "country_code": "KH"
+  },
+  "capacity_mw": 0.12,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://inflect.com/building/95-norodom-boulevard-phnom-penh/mekongnet/datacenter/phnom-penh",
+    "https://www.whtop.com/review/mekongnet.com.kh"
+  ],
+  "notes": "Second MekongNet IDC at AnAnA Building, 95 Preah Norodom Blvd, Phnom Penh (whtop review, C/B). Inflect directory lists 120 kW power capacity (C-grade directory evidence); operator does not publish MW.",
+  "method_batch": true
+}

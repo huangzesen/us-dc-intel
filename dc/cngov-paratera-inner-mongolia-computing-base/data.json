@@ -1,0 +1,20 @@
+{
+  "slug": "cngov-paratera-inner-mongolia-computing-base",
+  "canonical_project": "Paratera Inner Mongolia Computing Base (并行科技内蒙古算力基地)",
+  "owner": "Beijing Paratera Technology Co., Ltd. (北京并行科技股份有限公司)",
+  "location": {
+    "city": "",
+    "subnational": "",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 60.0,
+  "status": "operational",
+  "evidence_date": "2025-02-13",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.nmgqylhh.com/sub_news.asp?id=499"
+  ],
+  "notes": "New project (not in prior CN registry). Total investment ~3.0B CNY => ~60 MW at 2MW/亿 conversion. Building a 60,000 PFLOPS smart-compute service platform with 10,000-GPU cluster (H800/A800/昇腾910) in Horinger New District; DeepSeek models deployed 2025-02. Capacity is investment-based; the reported 6万P target was not converted to MW to avoid overstatement.",
+  "cn_gov_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-mw-airtel-malawi-data-centre-blantyre",
+  "canonical_project": "Airtel Malawi Data Centre, Blantyre",
+  "owner": "Airtel Malawi",
+  "location": {
+    "city": "",
+    "subnational": "Southern Region",
+    "country": "Malawi",
+    "country_code": "MW"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2013-12-03",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/airtel-malawi-establishes-new-data-center/"
+  ],
+  "notes": "DCD (3 Dec 2013) reported Airtel Malawi opened a new data centre in Blantyre that doubled its capacity, with over US$1m invested. 2013 record - current status/address unverified during this run; per methodology treat as operational on launch evidence but flag that current state needs re-validation. No MW disclosed.",
+  "method_batch": true
+}

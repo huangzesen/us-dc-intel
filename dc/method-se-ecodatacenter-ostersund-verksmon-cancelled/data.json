@@ -1,0 +1,23 @@
+{
+  "slug": "method-se-ecodatacenter-ostersund-verksmon-cancelled",
+  "canonical_project": "EcoDataCenter Östersund (Verksmon) - cancelled",
+  "owner": "EcoDataCenter AB / WA3RM",
+  "location": {
+    "city": "",
+    "subnational": "Jamtland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": 150,
+  "status": "rejected",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ostersund.se/naringsliv-och-arbete/etablera-och-utveckla-foretag/etableringar-pa-gang/etablering-i-verksmon/ecodatacenter-och-wa3rm.html",
+    "https://evertiq.se/news/2025-09-12-ostersund-skrotar-planer-pa-datacenter-i-verksom",
+    "https://www.svt.se/nyheter/lokalt/jamtland/darfor-lamnar-ecodatacenter-ostersund",
+    "https://www.datacenterdynamics.com/en/news/ecodatacenter-plans-150mw-data-center-campus-östersund-sweden/"
+  ],
+  "notes": "EcoDataCenter 'Ecosystem' project in Verksmon, Ostersund (planned 150 MW campus + greenhouse, up to 1,000 jobs; samrad Jan 2024) was scrapped in September 2025 - Ostersund municipality official page confirms the project will not proceed; EcoDataCenter concentrates on Dalarna instead. Recorded as rejected/cancelled.",
+  "method_batch": true
+}

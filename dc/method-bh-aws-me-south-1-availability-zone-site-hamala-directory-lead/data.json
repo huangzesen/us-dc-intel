@@ -1,0 +1,21 @@
+{
+  "slug": "method-bh-aws-me-south-1-availability-zone-site-hamala-directory-lead",
+  "canonical_project": "AWS me-south-1 availability-zone site (Hamala, directory lead)",
+  "owner": "Amazon Web Services",
+  "location": {
+    "city": "",
+    "subnational": "Northern Governorate",
+    "country": "Bahrain",
+    "country_code": "BH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://aws.amazon.com/blogs/aws/now-open-aws-middle-east-bahrain/",
+    "https://www.datacentermap.com/bahrain/hamala/aws-bahrain/"
+  ],
+  "notes": "Public facility directories place an AWS availability-zone site at Hamala (Northern Governorate). AWS does not disclose addresses, so this remains an unconfirmed C-grade lead; region existence itself is A-grade.",
+  "method_batch": true
+}

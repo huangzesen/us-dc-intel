@@ -1,0 +1,21 @@
+{
+  "slug": "method-ae-equinix-ad1-abu-dhabi-ibx-masdar-city",
+  "canonical_project": "Equinix AD1 Abu Dhabi IBX (Masdar City)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Abu Dhabi - Abu Dhabi Municipality",
+    "country": "United Arab Emirates",
+    "country_code": "AE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/emea-colocation/united-arab-emirates-colocation/abu-dhabi-data-centers/ad1",
+    "https://www.equinix.com/newsroom/press-releases/2012/06/equinix-opens-ad-ix-the-first-carrier-neutral-data-center-in-the-middle-east"
+  ],
+  "notes": "Equinix official AD1 page lists its Abu Dhabi IBX in Masdar City; original 2012 announcement described AD-IX/AD1 as the first carrier-neutral data centre in the Middle East. Re-verified from first-round lead; no public MW capacity on official pages.",
+  "method_batch": true
+}

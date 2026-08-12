@@ -1,0 +1,21 @@
+{
+  "slug": "method-ie-cix-cork-internet-exchange-hollyhill",
+  "canonical_project": "CIX Cork Internet Exchange (Hollyhill)",
+  "owner": "CloudCIX Ltd (Cork Internet Exchange)",
+  "location": {
+    "city": "",
+    "subnational": "Munster",
+    "country": "Ireland",
+    "country_code": "IE"
+  },
+  "capacity_mw": 4,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cix.ie/",
+    "https://www.siliconrepublic.com/enterprise/cix-cork-data-centre-expansion"
+  ],
+  "notes": "CIX carrier-neutral colo/IXP at Hollyhill Industrial Estate, Cork: operational since 2008, EUR6m expansion doubled facility; INEX Cork peering anchor. cix.ie official A; ~4MW per directory (C). Regional colo/IXP rather than hyperscale.",
+  "method_batch": true
+}

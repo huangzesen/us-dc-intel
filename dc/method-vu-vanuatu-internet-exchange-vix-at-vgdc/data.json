@@ -1,0 +1,21 @@
+{
+  "slug": "method-vu-vanuatu-internet-exchange-vix-at-vgdc",
+  "canonical_project": "Vanuatu Internet Exchange (VIX) at VGDC",
+  "owner": "Vanuatu government with five network operators (MOU, est. 2012)",
+  "location": {
+    "city": "",
+    "subnational": "Shefa",
+    "country": "Vanuatu",
+    "country_code": "VU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://digital.gov.vu/index.php/media-files/events",
+    "https://dcdt.gov.vu/images/brochures/VIX.pdf"
+  ],
+  "notes": "DCDT states VIX was established in 2012 via MOU between government and five network operators and is housed at the Vanuatu Government Data Centre in Port Vila (Shefa). Internet-exchange infrastructure inside the government DC - interconnection asset, not a standalone commercial data center.",
+  "method_batch": true
+}

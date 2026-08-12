@@ -1,0 +1,22 @@
+{
+  "slug": "method-lu-portus-data-centers-luxembourg-ex-edh",
+  "canonical_project": "Portus Data Centers Luxembourg (ex-EDH)",
+  "owner": "Portus Data Centers (ex-European Data Hub)",
+  "location": {
+    "city": "",
+    "subnational": "Luxembourg",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": 3.4,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.portusdatacenters.com/our-data-centers/luxembourg/",
+    "https://www.datacenterdynamics.com/en/news/portus-to-expand-luxembourg-data-center/",
+    "https://baxtel.com/data-center/datacenter-luxembourg-sa"
+  ],
+  "notes": "Tier IV certified colo in Luxembourg City area; address aliases: 9 rue Robert Stumper, L-2557 (LU-CIX), 12D Impasse Drosbach (directory), 12D rue Guillaume J. Kroll (Mixvoip). Expansion announced (Nov 2024): +1,350 sqm white space, site to ~3.4 MW. Portus also operates Hamburg and Munich.",
+  "method_batch": true
+}

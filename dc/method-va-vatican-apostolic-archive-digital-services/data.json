@@ -1,0 +1,20 @@
+{
+  "slug": "method-va-vatican-apostolic-archive-digital-services",
+  "canonical_project": "Vatican Apostolic Archive digital services",
+  "owner": "Vatican Apostolic Archive",
+  "location": {
+    "city": "",
+    "subnational": "Holy See",
+    "country": "Holy See",
+    "country_code": "VA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.archivioapostolicovaticano.va/content/aav/en/l-archivio.html"
+  ],
+  "notes": "Archive official site confirms the institution and its digital services; A-grade for institution existence but facility-level datacenter evidence is insufficient (no official server-room/data-center disclosure). Recorded as an institutional ICT lead, not counted as commercial colocation; address/capacity null.",
+  "method_batch": true
+}

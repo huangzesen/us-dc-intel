@@ -1,0 +1,21 @@
+{
+  "slug": "method-ma-inwi-agadir-data-center-directory-lead",
+  "canonical_project": "inwi Agadir Data Center (directory lead)",
+  "owner": "Wana Corporate / inwi",
+  "location": {
+    "city": "",
+    "subnational": "Souss-Massa",
+    "country": "Morocco",
+    "country_code": "MA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/locations/morocco/souss-massa/agadir",
+    "https://inwi.ma/en/entreprise/datacenter"
+  ],
+  "notes": "Datacenters.com lists one Wana/inwi data center in Agadir; inwi's service page confirms the operator offers Tier 3 hosting but does not enumerate an Agadir site. Directory-only lead (C); Oracle Agadir is an R&D hub, not a DC. No corroboration found this pass.",
+  "method_batch": true
+}

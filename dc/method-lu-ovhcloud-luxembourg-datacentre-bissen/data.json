@@ -1,0 +1,21 @@
+{
+  "slug": "method-lu-ovhcloud-luxembourg-datacentre-bissen",
+  "canonical_project": "OVHcloud Luxembourg datacentre (Bissen)",
+  "owner": "OVHcloud",
+  "location": {
+    "city": "",
+    "subnational": "Mersch",
+    "country": "Luxembourg",
+    "country_code": "LU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.ovhcloud.com/en/datacenter/europe/luxembourg/",
+    "https://www.luxconnect.lu/news/20-years-luxconnect-our-data-centers-our-story"
+  ],
+  "notes": "Official OVHcloud Luxembourg datacentre page exists (A for presence); exact Bissen street mapping remains B/C per methodology (operator page does not publish Bissen address). Not a cloud region.",
+  "method_batch": true
+}

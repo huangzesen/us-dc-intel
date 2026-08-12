@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-equinix-cn1-sipcot-it-park-siruseri",
+  "canonical_project": "Equinix CN1 (SIPCOT IT Park, Siruseri)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Tamil Nadu - Chengalpattu district",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": 24,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/equinix-signs-mou-with-tamil-nadu-government-for-chennai-data-center/",
+    "https://www.mingtiandi.com/real-estate/data-centres/equinix-opens-69m-first-phase-of-chennai-data-centre-as-india-network-grows/"
+  ],
+  "notes": "First phase opened 2023 (800 cabinets, ~USD 69M); 24 MW full buildout on 5.5-acre SIPCOT IT Park parcel; Siruseri is in Chengalpattu district.",
+  "method_batch": true
+}

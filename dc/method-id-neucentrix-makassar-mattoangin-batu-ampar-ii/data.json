@@ -1,0 +1,21 @@
+{
+  "slug": "method-id-neucentrix-makassar-mattoangin-batu-ampar-ii",
+  "canonical_project": "neuCentrIX Makassar (Mattoangin / Batu Ampar II)",
+  "owner": "Telkom Indonesia (neuCentrIX)",
+  "location": {
+    "city": "",
+    "subnational": "South Sulawesi",
+    "country": "Indonesia",
+    "country_code": "ID"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://neucentrix.telkom.co.id/en/location",
+    "https://baxtel.com/data-centers/neucentrix"
+  ],
+  "notes": "neuCentrIX Makassar (Batu Ampar II, Jl. Matoangin, Makassar) on official location page; tier-2 with ~50 full racks + 15 sub racks per Baxtel (C). Eastern Indonesia interconnection hub. A for official listing.",
+  "method_batch": true
+}

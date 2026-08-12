@@ -1,0 +1,22 @@
+{
+  "slug": "method-si-tes-sostanj-sostanj-thermal-power-plant-data-center",
+  "canonical_project": "TES Sostanj (Sostanj Thermal Power Plant) data center",
+  "owner": "Termoelektrarna Sostanj d.o.o. (TES); Advant d.o.o. (data-center/network contractor)",
+  "location": {
+    "city": "",
+    "subnational": "Sostanj",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://advant.si/reference",
+    "https://advant.si/en/references",
+    "https://go6.si/wp-content/uploads/2016/06/Advant-Sponsors.pdf"
+  ],
+  "notes": "Advant's public reference portfolio lists TES, Termoelektrarna Sostanj / Sostanj Thermal Power Plant, for construction of a new approximately 120 m2 data center with redundant APC 2 x 160 kVA UPS (about 8 racks; 160 kVA per UPS). Carried over from first-round codex discovery (results/batch-57x) and re-graded B per SI methodology (engineering-contractor customer case study). Treated as operational because it appears in completed reference portfolios. No public IT MW capacity found (capacity null; 2x160 kVA UPS rating noted instead). Attempted direct browse of advant.si/reference on 2026-08-12 failed (JS-rendered page, no static text); general web search found no separate TES data-center news.",
+  "method_batch": true
+}

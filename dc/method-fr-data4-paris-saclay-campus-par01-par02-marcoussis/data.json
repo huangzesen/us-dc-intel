@@ -1,0 +1,20 @@
+{
+  "slug": "method-fr-data4-paris-saclay-campus-par01-par02-marcoussis",
+  "canonical_project": "DATA4 Paris-Saclay campus PAR01/PAR02 (Marcoussis)",
+  "owner": "DATA4",
+  "location": {
+    "city": "",
+    "subnational": "Essonne",
+    "country": "France",
+    "country_code": "FR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.data4group.com/en/data-center-in-paris-france/"
+  ],
+  "notes": "DATA4 historical Paris-Saclay campus at Marcoussis (PAR01) and Nozay (PAR02), carrier-neutral colo; part of 500 MW Marcoussis-Nozay pole ambition.",
+  "method_batch": true
+}

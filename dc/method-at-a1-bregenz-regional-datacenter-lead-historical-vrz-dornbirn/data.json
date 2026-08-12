@@ -1,0 +1,20 @@
+{
+  "slug": "method-at-a1-bregenz-regional-datacenter-lead-historical-vrz-dornbirn",
+  "canonical_project": "A1 Bregenz regional datacenter (lead) / historical VRZ Dornbirn",
+  "owner": "A1 Telekom Austria (lead); historical Vorarlberger Rechenzentrum (not current)",
+  "location": {
+    "city": "",
+    "subnational": "Vorarlberg",
+    "country": "Austria",
+    "country_code": "AT"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.a1.digital/de/presse/a1-exoscale-public-cloud-zone/"
+  ],
+  "notes": "A1 provincial-capital coverage makes Bregenz a lead (C, no address verified). Historical 'Vorarlberger Rechenzentrum'/Dornbirn references are not current facility evidence (C historical). Datacenter Feldkirch (see above) is the only verified current colocation facility in Vorarlberg in this pass.",
+  "method_batch": true
+}

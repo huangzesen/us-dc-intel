@@ -1,0 +1,22 @@
+{
+  "slug": "method-ng-rack-centre-lgs1-oregun",
+  "canonical_project": "Rack Centre LGS1 (Oregun)",
+  "owner": "Rack Centre",
+  "location": {
+    "city": "",
+    "subnational": "Lagos",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": 1.5,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://rack-centre.com/rack-centre-expanding-its-frontiers-undertaking-construction-new-12mw-it-load-data-centre-in-lagos-nigeria/",
+    "https://technext24.com/explainer/28-data-centres-nigeria-2026/",
+    "https://businessday.ng/technology/article/data-centres-to-pump-630m-on-growing-internet-usage/"
+  ],
+  "notes": "Carrier-neutral Tier III constructed-facility-certified data centre at Oregun/Ikeja, Lagos; connected to all five undersea cables (ACE, GLO1, MainOne, SAT-3, WACS); ~1.5MW first facility, commenced operation 2023.",
+  "method_batch": true
+}

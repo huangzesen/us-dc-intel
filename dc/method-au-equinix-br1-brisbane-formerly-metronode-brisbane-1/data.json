@@ -1,0 +1,22 @@
+{
+  "slug": "method-au-equinix-br1-brisbane-formerly-metronode-brisbane-1",
+  "canonical_project": "Equinix BR1 Brisbane (formerly Metronode Brisbane 1)",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Queensland - Brisbane",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/brisbane-data-centers",
+    "https://www.datacentermap.com/australia/brisbane/brisbane-1/",
+    "https://beta.peeringdb.com/fac/5922"
+  ],
+  "notes": "Equinix lists Brisbane among its Australian data centre markets; BR1 at 54-58 Alfred Street, Fortitude Valley (Brisbane LGA) was originally Metronode Brisbane 1, renamed after the 2018 Metronode acquisition, and is a carrier-neutral IBX colocation facility. Local channel sources also reference a newer BR2 in Brisbane (not separately confirmed on the official page at check time). Capacity not publicly disclosed.",
+  "method_batch": true
+}

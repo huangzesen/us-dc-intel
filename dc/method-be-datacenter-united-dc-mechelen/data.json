@@ -1,0 +1,21 @@
+{
+  "slug": "method-be-datacenter-united-dc-mechelen",
+  "canonical_project": "Datacenter United DC Mechelen",
+  "owner": "Datacenter United",
+  "location": {
+    "city": "",
+    "subnational": "Flanders",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenterunited.com/en/our-datacenters/",
+    "https://itdaily.com/news/datacenter/datacenter-united-neemt-vier-proximus-datacenters-over/"
+  ],
+  "notes": "Acquired from Proximus (2024/2025). Operator page confirms DC Mechelen.",
+  "method_batch": true
+}

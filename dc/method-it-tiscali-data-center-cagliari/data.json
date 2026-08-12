@@ -1,0 +1,21 @@
+{
+  "slug": "method-it-tiscali-data-center-cagliari",
+  "canonical_project": "Tiscali data center Cagliari",
+  "owner": "Tiscali S.p.A.",
+  "location": {
+    "city": "",
+    "subnational": "Sardinia",
+    "country": "Italy",
+    "country_code": "IT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://colo.exchange/data-centers/tiscali-tiscali-cagliari",
+    "https://www.cagliaritoday.it/economia/data-center-sardegna-2026-mappa-rischi-opportunita.html"
+  ],
+  "notes": "Tiscali-operated colocation facility in Cagliari (directory-grade); CagliariToday (Jul 2026) frames Sardinia as a growing data-center frontier on submarine-cable and energy strength - project-level pipeline not yet public.",
+  "method_batch": true
+}

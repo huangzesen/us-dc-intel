@@ -1,0 +1,23 @@
+{
+  "slug": "method-mk-business-continuity-and-disaster-recovery-data-centre-government-bcdr",
+  "canonical_project": "Business Continuity and Disaster Recovery Data Centre (Government BCDR)",
+  "owner": "Government of North Macedonia / Ministry of Internal Affairs (beneficiary); CFCD Ministry of Finance (client); EU-funded (EuropeAid/132633/C/SER/MULTI)",
+  "location": {
+    "city": "",
+    "subnational": "Prilep",
+    "country": "North Macedonia",
+    "country_code": "MK"
+  },
+  "capacity_mw": 0.43,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.1x2studio.com/projects/20190503.htm",
+    "https://eumiesawards.com/heritageobject/business-continuity-and-disaster-recovery-data-centre/",
+    "https://www.gradnja.rs/betonski-prsten-za-cuvanje-podataka-u-prilepu/",
+    "https://www.developmentaid.org/organizations/awards/view/108413/construction-works-for-establishment-of-business-continuity-and-disaster-recovery-data-centre"
+  ],
+  "notes": "Purpose-built MoIA BCDR data centre, Ulica Vasko Karangeleski, cadastral parcel KP 2.19.1, 7500 Prilep; GFA 1,307 m2; design 06.2016-12.2017 (1X2STUDIO/Safege), construction 03.2018-05.2019 (contractor 4A-M Tirana, detailed design MEGARON Skopje), status BUILT; server room per TIA-942 / EN 1047-2, 60 racks phase 1 (7.2 kW/rack = ~0.43 MW) + 60 racks reserved phase 2; EU contract ~EUR 3.4m; EUmies Awards 2022 nominee. why_this_is_a_data_center: dedicated government BCDR facility for MoI IT systems with server rooms, redundant power, climate control, physical security ring. what_is_not_confirmed: current operational phase/occupancy, phase-2 build-out, grid connection details.",
+  "method_batch": true
+}

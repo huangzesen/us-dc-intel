@@ -1,0 +1,21 @@
+{
+  "slug": "method-nl-microsoft-middenmeer-datacenter-campus-agriport-a7",
+  "canonical_project": "Microsoft Middenmeer datacenter campus (Agriport A7)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "North Holland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.hollandskroon.nl/ontwikkelingen/datacenters/",
+    "https://local.microsoft.com/communities/emea/north-holland/"
+  ],
+  "notes": "Hollands Kroon municipality confirms Microsoft and Google operate two of the Netherlands' largest hyperscale datacenters at Agriport A7, Middenmeer; Azure West Europe region is Netherlands (region-level, not facility map).",
+  "method_batch": true
+}

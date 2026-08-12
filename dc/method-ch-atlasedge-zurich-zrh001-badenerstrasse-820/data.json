@@ -1,0 +1,21 @@
+{
+  "slug": "method-ch-atlasedge-zurich-zrh001-badenerstrasse-820",
+  "canonical_project": "AtlasEdge Zurich ZRH001 (Badenerstrasse 820)",
+  "owner": "AtlasEdge",
+  "location": {
+    "city": "",
+    "subnational": "Zurich",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://atlasedge.com/map-locations/zurich/",
+    "https://www.peeringdb.com/fac/4086"
+  ],
+  "notes": "Edge colocation facility in Zurich (retrofit at Badenerstrasse 820, 8048); Tier 3 equivalent; PeeringDB fac/4086.",
+  "method_batch": true
+}

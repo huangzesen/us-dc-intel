@@ -1,0 +1,21 @@
+{
+  "slug": "method-th-ais-cloud-oracle-alloy-local-hyperscale-cloud",
+  "canonical_project": "AIS Cloud / Oracle Alloy (local hyperscale cloud)",
+  "owner": "Advanced Info Service (AIS) / Oracle Cloud Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Bangkok",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ais.th/en/business/enterprise/technology-and-solution/cloud-and-data-center/ais-cloud/overview",
+    "https://www.oracle.com/news/announcement/advanced-info-service-selects-oracle-alloy-to-build-thailands-first-locally-owned-and-operated-hyperscale-cloud-2024-08-01/"
+  ],
+  "notes": "AIS selected Oracle Alloy (Aug 2024) for Thailand's first locally owned/operated hyperscale cloud; service runs on local Thai DCs; physical building mapped via AIS/GSA, not Oracle.",
+  "method_batch": true
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "method-ir-first-national-health-system-backup-datacenter-golestan",
+  "canonical_project": "First National Health System Backup Datacenter (Golestan)",
+  "owner": "Ministry of Health / Ministry of ICT",
+  "location": {
+    "city": "",
+    "subnational": "Golestan",
+    "country": "Iran",
+    "country_code": "IR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ict.gov.ir/fa/news/162195/"
+  ],
+  "notes": "ICT ministry news: opening of the first national health-system backup datacenter in Golestan, attended by Deputy Health Minister and Golestan governor's deputy (A; government health infrastructure, not commercial colo).",
+  "method_batch": true
+}

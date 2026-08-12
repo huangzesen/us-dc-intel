@@ -1,0 +1,22 @@
+{
+  "slug": "method-ke-icolo-mombasa-two-mba2-nyali",
+  "canonical_project": "iColo Mombasa Two (MBA2) Nyali",
+  "owner": "iColo / Digital Realty",
+  "location": {
+    "city": "",
+    "subnational": "Mombasa",
+    "country": "Kenya",
+    "country_code": "KE"
+  },
+  "capacity_mw": 1.7,
+  "status": "operational",
+  "evidence_date": "2022-09-26",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/icoloio-completes-construction-of-second-mombasa-data-center/",
+    "https://www.bncnetwork.net/project/Icolo-MBA2-Data-Centre-Nyali/MjE1MzMw/",
+    "https://www.icolo.io/news/icolo-starts-construction-of-third-data-center-in-kenya/"
+  ],
+  "notes": "iColo announced MBA2 in Nyali (2021) with ~1.6 MW design capacity; DCD reported completion with 1.7 MW capacity, ~1,200 sqm and roughly 580-600 racks, greenfield site near cable landing points. KIXP interconnects MBA1/MBA2. Facility status operational.",
+  "method_batch": true
+}

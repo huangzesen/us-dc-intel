@@ -1,0 +1,21 @@
+{
+  "slug": "method-lv-tet-riga-data-centres-dc6-kleistu-iela-5-and-dattum-brivibas-perses-atlasa-sites",
+  "canonical_project": "Tet Riga data centres (DC6 Kleistu iela 5 and Dattum/Brivibas/Perses/Atlasa sites)",
+  "owner": "Tet (Latvian telco)",
+  "location": {
+    "city": "",
+    "subnational": "Riga",
+    "country": "Latvia",
+    "country_code": "LV"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/delska-eu-north-riga-lv-dc2",
+    "https://www.tet.lv/par-mums/jaunumi/jauna-tet-datu-centra-dc7-pamatos-iemureta-laika-kapsula"
+  ],
+  "notes": "Tet operates multiple Riga facilities: DC6 at Kleistu iela 5 (~0.3 MW, opened 2021, at the time the only Uptime Institute Tier III certified DC in Latvia) plus Dattum (1.4 MW), Brivibas (0.7 MW), Kleistu (1.2 MW), Perses (0.7 MW), Atlasa (~40 cabinets); capacity figures per LV methodology.",
+  "method_batch": true
+}

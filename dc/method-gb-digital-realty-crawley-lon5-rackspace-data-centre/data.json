@@ -1,0 +1,22 @@
+{
+  "slug": "method-gb-digital-realty-crawley-lon5-rackspace-data-centre",
+  "canonical_project": "Digital Realty Crawley LON5 (Rackspace) data centre",
+  "owner": "Digital Realty / Rackspace",
+  "location": {
+    "city": "",
+    "subnational": "England - West Sussex",
+    "country": "United Kingdom of Great Britain and Northern Ireland",
+    "country_code": "GB"
+  },
+  "capacity_mw": 10.0,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.rackspace.com/en-gb/newsroom/rackspace-digital-realty-announce-energy-efficient-130000-sq-ft-uk-data-centre",
+    "https://www.colo-x.com/data-centre/digital-realty-crawley-unit1-data-centre/",
+    "https://baxtel.com/data-center/rackspace-lon5"
+  ],
+  "notes": "Operational wholesale colocation at Unit 1 Power Avenue, Crawley (Manor Royal); launched Apr 2015 with four data suites, 130,000 sq ft and ~10MW; Colo-X lists the campus first building as 12MW with four data halls. West Sussex county division includes Crawley borough LPA.",
+  "method_batch": true
+}

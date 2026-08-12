@@ -1,0 +1,20 @@
+{
+  "slug": "method-hu-mh-ohp-szekesfehervar-military-it-server-room",
+  "canonical_project": "MH OHP / Szekesfehervar military IT server room",
+  "owner": "Hungarian Defence Forces (contractor: Klimagaz Hungary Kft.)",
+  "location": {
+    "city": "",
+    "subnational": "Fejer",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.klimagaz.hu/referenciak.html"
+  ],
+  "notes": "Contractor (Klimagaz) reference list includes 'Informatikai szerverterem Szfv' (IT server room, Szekesfehervar, Fejer county) and 'MH OHP Szerverterem' military server-room project with 200 kW DX cooling. Small public-sector/enterprise server room, not commercial colocation; no IT load or commissioning date in public source. C-grade contractor reference.",
+  "method_batch": true
+}

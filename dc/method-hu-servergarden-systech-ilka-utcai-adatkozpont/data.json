@@ -1,0 +1,21 @@
+{
+  "slug": "method-hu-servergarden-systech-ilka-utcai-adatkozpont",
+  "canonical_project": "Servergarden / Systech Ilka utcai adatkozpont",
+  "owner": "Systech Global Kft. / Servergarden",
+  "location": {
+    "city": "",
+    "subnational": "Budapest",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://systech.hu/ilka-utcai-adatkozpont",
+    "https://www.datacenterjournal.com/servergarden/"
+  ],
+  "notes": "Systech Global's official Ilka utcai adatkozpont page (Budapest XIV district) provides facility/network/cooling/security details; Systech also lists a Kozma utcai server room (1108 Budapest, Kozma utca 2 - Dataneum building shared with Invitech DC10). DataCenterJournal lists Servergarden as operating its Budapest facility (DoclerNet, ~25,457 sq ft). Commercial hosting/colocation.",
+  "method_batch": true
+}

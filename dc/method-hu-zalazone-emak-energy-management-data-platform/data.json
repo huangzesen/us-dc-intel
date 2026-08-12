@@ -1,0 +1,20 @@
+{
+  "slug": "method-hu-zalazone-emak-energy-management-data-platform",
+  "canonical_project": "ZalaZONE EMAK energy-management data platform",
+  "owner": "ZalaZONE / Szechenyi Istvan University ecosystem",
+  "location": {
+    "city": "",
+    "subnational": "Zalaegerszeg",
+    "country": "Hungary",
+    "country_code": "HU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://zalazone.hu/"
+  ],
+  "notes": "ZalaZONE proving ground (Zalaegerszeg) hosts EMAK energy-management data platform (R&D/industrial data platform per HU methodology). Not a commercial datacenter unless facility housing and compute scope confirmed; C-grade lead.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-nc-unc-cresica-shared-computing-data-center-pnt",
+  "canonical_project": "UNC/CRESICA shared computing data center (PNT)",
+  "owner": "University of New Caledonia (UNC) / CRESICA",
+  "location": {
+    "city": "",
+    "subnational": "New Caledonia",
+    "country": "New Caledonia",
+    "country_code": "NC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-12-10",
+  "evidence_grade": "A",
+  "sources": [
+    "https://office.opt.nc/en/news/opt-nc-partners-unc-supporting-calculator-project-led-cresica",
+    "https://office.opt.nc/fr/media/fichier/l-opt-nc-s-engage-aupres-de-l-unc-en-soutenant-le-projet-de-calculateur-porte-par-le"
+  ],
+  "notes": "OPT-NC official news (2021-12-10) states UNC's PNT (Pôle Numérique de Nouvelle-Calédonie) has been operational since the 2019 academic year, with a data center/server room installed at UNC Nouville and high-performance computing servers being installed; OPT-NC sponsors a 10 Gbps leased link between UNC Nouville and IRD Ansa Vata. Academic/research computing facility, not commercial colocation. No MW capacity disclosed.",
+  "method_batch": true
+}

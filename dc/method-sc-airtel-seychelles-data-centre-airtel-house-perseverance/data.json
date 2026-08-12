@@ -1,0 +1,24 @@
+{
+  "slug": "method-sc-airtel-seychelles-data-centre-airtel-house-perseverance",
+  "canonical_project": "Airtel Seychelles Data Centre (Airtel House, Perseverance)",
+  "owner": "AIRTEL Seychelles Limited (Airtel Africa); Ericsson turnkey partner",
+  "location": {
+    "city": "",
+    "subnational": "Ile Perseverance I",
+    "country": "Seychelles",
+    "country_code": "SC"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://tiaonline.org/942-datacenter/airtel-seychelles-limited/",
+    "https://www.epi-certification.com/sites/details/1053",
+    "https://www.ericsson.com/en/press-releases/1/2021/airtel-africa-and-ericsson-launch-data-center-in-seychelles",
+    "https://www.datacenterdynamics.com/en/news/airtel-africa-and-ericsson-to-launch-data-center-in-seychelles/",
+    "https://www.airtel.sc/"
+  ],
+  "notes": "Confirmed commercial/operator facility. TIA-942 registry (browsed 2026-08-12): AIRTEL Seychelles Limited, Airtel House, Josephine Cafrine Road, Perseverance, Mahe; Status Active; ANSI/TIA-942-B Constructed Facility, Rating Level 3; certificate TIA942SC221107001 awarded 11/07/2022, expires 11/06/2025. EPI certified-clients page (browsed) shows same address (P.O. Box 1358, Mahe) and certificate dates 07-11-2022 to 06-11-2025 with NO renewal posted as of 2026-08-12 - treat certification as expired/needing refresh even though registry snippet still says Active. Ericsson press release (Dec 2021): turnkey relocation/modernisation of Airtel Africa Seychelles network/core services into a new data center (A-grade vendor-client project statement; DCD B-grade). District assignment to Ile Perseverance I is provisional pending parcel evidence (Ile Perseverance I vs II). Capacity not public; do not infer MW from certification.",
+  "method_batch": true
+}

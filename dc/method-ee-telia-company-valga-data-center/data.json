@@ -1,0 +1,20 @@
+{
+  "slug": "method-ee-telia-company-valga-data-center",
+  "canonical_project": "Telia Company Valga data center",
+  "owner": "Telia Company",
+  "location": {
+    "city": "",
+    "subnational": "Valga",
+    "country": "Estonia",
+    "country_code": "EE"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/locations/estonia/valga-maakond/valga"
+  ],
+  "notes": "Valga/Valga, Võru tänav 116a (catalog). Catalog-only legacy telco entry; needs Telia first-party/EHR confirmation before counting as a live commercial facility.",
+  "method_batch": true
+}

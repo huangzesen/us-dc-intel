@@ -1,0 +1,20 @@
+{
+  "slug": "method-sn-senum-orana-datacenter",
+  "canonical_project": "SENUM Orana datacenter",
+  "owner": "Senegal Numerique SA (SENUM)",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://senegalnumeriquesa.sn/fr/senegal-numerique-moteur-de-la-transformation-digitale-de-letat"
+  ],
+  "notes": "SENUM official page lists Orana among three operational state datacenters. No public locality, capacity or function detail found in this pass; state-operator DC name is A-grade, facility class (full hosting DC vs server room) unverified.",
+  "method_batch": true
+}

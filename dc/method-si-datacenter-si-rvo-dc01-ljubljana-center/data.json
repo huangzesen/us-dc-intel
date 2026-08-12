@@ -1,0 +1,21 @@
+{
+  "slug": "method-si-datacenter-si-rvo-dc01-ljubljana-center",
+  "canonical_project": "Datacenter.si / RvO DC01 Ljubljana Center",
+  "owner": "RvO d.o.o. / Datacenter.si",
+  "location": {
+    "city": "",
+    "subnational": "Ljubljana",
+    "country": "Slovenia",
+    "country_code": "SI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://datacenter.si/index.sl.html",
+    "https://www.datacentermap.com/slovenia/ljubljana/datacenter-dc01/"
+  ],
+  "notes": "Datacenter.si official page lists Ljubljana - Center colocation (fire suppression, independent power); directory lists DC01 at Dunajska cesta 5, Ljubljana. Capacity not public.",
+  "method_batch": true
+}

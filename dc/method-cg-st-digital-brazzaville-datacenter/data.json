@@ -1,0 +1,21 @@
+{
+  "slug": "method-cg-st-digital-brazzaville-datacenter",
+  "canonical_project": "ST Digital Brazzaville Datacenter",
+  "owner": "ST Digital",
+  "location": {
+    "city": "",
+    "subnational": "Brazzaville",
+    "country": "Congo",
+    "country_code": "CG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://st.digital/en/datacenters",
+    "https://st.digital/en/colocation"
+  ],
+  "notes": "Operator official page confirms Brazzaville datacenter: 'TIER III Datacenter compliant with international best practices', colocation (rack/half-rack), sovereign cloud, DRP/BCP, 24/7 monitoring and access control, local Brazzaville support. ST Digital positions itself as first neutral independent Tier 3 operator in Central/West Africa (sites: Douala, Abidjan, Libreville, Lome, Brazzaville, Kinshasa). Uptime certification not verified; capacity not published.",
+  "method_batch": true
+}

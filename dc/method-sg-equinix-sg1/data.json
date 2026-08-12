@@ -1,0 +1,21 @@
+{
+  "slug": "method-sg-equinix-sg1",
+  "canonical_project": "Equinix SG1",
+  "owner": "Equinix",
+  "location": {
+    "city": "",
+    "subnational": "Central Singapore",
+    "country": "Singapore",
+    "country_code": "SG"
+  },
+  "capacity_mw": 13,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.equinix.com/data-centers/asia-pacific-colocation/singapore-colocation/singapore-data-center/sg1",
+    "https://www.datacentermap.com/singapore/singapore/equinix-singapore/"
+  ],
+  "notes": "Equinix IBX SG1 at 20 Ayer Rajah Crescent, one-north Central Xchange (Ayer Rajah industrial park), 13 MW power per directory. Carrier-hotel hub of Singapore. Assigned to Central Singapore CDC per methodology one-north/Ayer Rajah seed; boundary check recommended (Queenstown planning area).",
+  "method_batch": true
+}

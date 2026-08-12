@@ -1,0 +1,23 @@
+{
+  "slug": "method-ng-galaxy-backbone-kano-tier-iv-data-centre",
+  "canonical_project": "Galaxy Backbone Kano Tier IV Data Centre",
+  "owner": "Galaxy Backbone (Federal Government of Nigeria)",
+  "location": {
+    "city": "",
+    "subnational": "Kano",
+    "country": "Nigeria",
+    "country_code": "NG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://galaxybackbone.com.ng/uptime-institute-professional-services-certifies-galaxy-backbone-tier-iv-data-centre/",
+    "https://techeconomy.ng/galaxy-backbone-tier-iv-data-centre-achieves-uptime-institute-tccf-certification/",
+    "https://www.itedgenews.africa/buhari-commissions-galaxy-backbone-national-tier-iv-data-centre-in-kano/",
+    "https://technext24.com/explainer/28-data-centres-nigeria-2026/"
+  ],
+  "notes": "Tier IV (Uptime Institute professional/TCCF certified) national data centre on Ahmadu Bello Way, Kano; launched Sept 2022, one of two Tier IV facilities in Nigeria, ~2.2PB storage, DR/business-continuity for Galaxy Backbone Abuja. First Nigeria facility with Uptime Tier IV certification.",
+  "method_batch": true
+}

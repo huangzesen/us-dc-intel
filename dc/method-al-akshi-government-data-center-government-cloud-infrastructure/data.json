@@ -1,0 +1,21 @@
+{
+  "slug": "method-al-akshi-government-data-center-government-cloud-infrastructure",
+  "canonical_project": "AKSHI government data center / government cloud infrastructure",
+  "owner": "AKSHI (National Agency for Information Society)",
+  "location": {
+    "city": "",
+    "subnational": "Tirane",
+    "country": "Albania",
+    "country_code": "AL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://albaniandailynews.com/news/govt-plans-eur-7m-for-cloud-infrastructure",
+    "https://seenews.com/news/albania-opens-7-mln-euro-tender-for-govt-cloud-infrastructure-1246014"
+  ],
+  "notes": "Government data-center/cloud infrastructure in Tirana evidenced by the March 2024 AKSHI EUR 7m centralized cloud-hardware tender (Albanian Daily News, SeeNews). AKSHI.gov.al itself did not return a searchable facility page this run. Service/procurement evidence, not a new-facility proof; exact address and scope unverified. Classified as public-sector server-room/government cloud per methodology.",
+  "method_batch": true
+}

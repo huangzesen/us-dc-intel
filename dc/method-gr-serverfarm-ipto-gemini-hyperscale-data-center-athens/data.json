@@ -1,0 +1,21 @@
+{
+  "slug": "method-gr-serverfarm-ipto-gemini-hyperscale-data-center-athens",
+  "canonical_project": "Serverfarm / IPTO Gemini Hyperscale Data Center (Athens)",
+  "owner": "Serverfarm + ADMIE/IPTO",
+  "location": {
+    "city": "",
+    "subnational": "Attica",
+    "country": "Greece",
+    "country_code": "GR"
+  },
+  "capacity_mw": 130.0,
+  "status": "announced",
+  "evidence_date": "2024-12-16",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.serverfarmllc.com/press-releases/ipto-and-serverfarm-join-forces-to-spearhead-hyperscale-data-center-development-and-operations-in-greece/",
+    "https://www.datacenterdynamics.com/en/news/ipto-serverfarm-form-jv-to-build-hyperscale-data-centers-in-greece/"
+  ],
+  "notes": "Heads of Term for the Gemini JV announced 2024-12-16, ~130 MW hyperscale DC planned in Athens plus other IPTO-owned sites (A/B for announcement). 2026 Greek energy press reports US Serverfarm withdrew from the ADMIE data-center project at Kryoneri and ADMIE is seeking a new partner, with RAEEY constraints on regulated-TSO participation (powergame.gr, B) - project status uncertain. Facility-level evidence C; keep announced.",
+  "method_batch": true
+}

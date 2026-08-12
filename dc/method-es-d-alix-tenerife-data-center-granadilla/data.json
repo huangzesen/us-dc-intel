@@ -1,0 +1,22 @@
+{
+  "slug": "method-es-d-alix-tenerife-data-center-granadilla",
+  "canonical_project": "D-ALiX Tenerife data center (Granadilla)",
+  "owner": "ITER / Cabildo de Tenerife / D-ALiX (Canalink)",
+  "location": {
+    "city": "",
+    "subnational": "Canary Islands",
+    "country": "Spain",
+    "country_code": "ES"
+  },
+  "capacity_mw": 5,
+  "status": "operational",
+  "evidence_date": "2026-08-11",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.iter.es/en/d-alix/",
+    "https://www.datacentermap.com/spain/santa-cruz-de-tenerife/d-alix/",
+    "https://www.iter.es/wp-content/uploads/2015/12/Memoria-ITER-2011_ENG.pdf"
+  ],
+  "notes": "D-ALiX at Granadilla de Abona, Tenerife is an operational neutral access point, submarine cable station and data center; grid access granted by Red Electrica in 2011; third-party specs list 5MW and 2,000 sqm.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-bi-bank-of-the-republic-of-burundi-brb-disaster-recovery-center-ngozi-branch",
+  "canonical_project": "Bank of the Republic of Burundi (BRB) disaster recovery center - Ngozi branch",
+  "owner": "BAIP / NRD Companies for Bank of the Republic of Burundi",
+  "location": {
+    "city": "",
+    "subnational": "Ngozi",
+    "country": "Burundi",
+    "country_code": "BI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2015-07-02",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.nrdcompanies.com/insights/baip-group-companies-will-modernise-burundi-central-bank-data-centre-infrastructure/",
+    "https://invltechnology.lt/news/baip-modernized-critical-it-infrastructure-of-the-burundi-reserve-bank-for-2-45-million-usd/"
+  ],
+  "notes": "BAIP/NRD contracts modernized BRB headquarters data centre infrastructure and created a disaster recovery center at the Ngozi branch. Institutional bank DR facility; no public MW. Other Ngozi searches (data center, centre de donnees, serveurs) returned only telecom coverage/ISP IP-range leads (e.g., CBINET), no additional DCs.",
+  "method_batch": true
+}

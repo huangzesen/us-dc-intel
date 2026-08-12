@@ -1,0 +1,21 @@
+{
+  "slug": "method-bf-orange-burkina-faso-telco-core-data-center-balkuy",
+  "canonical_project": "Orange Burkina Faso telco-core data center (Balkuy)",
+  "owner": "Orange Burkina Faso (Orange Group)",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Burkina Faso",
+    "country_code": "BF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2023-03-10",
+  "evidence_grade": "B",
+  "sources": [
+    "https://baxtel.com/news/orange-announces-solar-panel-deployment-in-ivory-coast-and-burkina-faso",
+    "https://www.datacenterdynamics.com/en/news/orange-deploying-solar-panels-at-data-centers-in-cote-divoire-and-burkina-faso/"
+  ],
+  "notes": "Telco-core data center at Balkuy, Ouagadougou; SolarX solarization covers ~37% of site power needs (2023). Orange Burkina Faso licensed operator (ARCEP) and peers at BFIX (PeeringDB net 11110). No public colo product page; classified as telco-core DC.",
+  "method_batch": true
+}

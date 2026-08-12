@@ -1,0 +1,21 @@
+{
+  "slug": "method-lt-serveroffer-own-dc-kaunas",
+  "canonical_project": "Serveroffer own DC (Kaunas)",
+  "owner": "Serveroffer UAB",
+  "location": {
+    "city": "",
+    "subnational": "Kaunas County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://serveroffer.lt/lt/apie",
+    "https://serveroffer.lt/lt/serveriu-kolokacija-duomenu-centre"
+  ],
+  "notes": "Operator states own data center in Kaunas city with four separate connectivity lines; colocation offered; no street address/building record found - operator claim (A for claim) but facility address unverified (C).",
+  "method_batch": true
+}

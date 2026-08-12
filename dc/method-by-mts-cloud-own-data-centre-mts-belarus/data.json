@@ -1,0 +1,22 @@
+{
+  "slug": "method-by-mts-cloud-own-data-centre-mts-belarus",
+  "canonical_project": "MTS Cloud own data centre (MTS Belarus)",
+  "owner": "MTS Belarus (SOOO Mobile TeleSystems)",
+  "location": {
+    "city": "",
+    "subnational": "Minsk City",
+    "country": "Belarus",
+    "country_code": "BY"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://cloud.mts.by/",
+    "https://cloud.mts.by/company/about/",
+    "https://devby.io/news/data-tsentr-mts"
+  ],
+  "notes": "Own protected Minsk data centre, ~370 sqm, 78 server racks, launched 3 Mar 2021 at MTS HQ in Minsk; MTS Cloud homepage additionally lists 46 racks at RCOD (beCloud, Tier III) as a tenant footprint - do not double-count as a separate facility. Exact site address not public (directory pr. Nezavisimosti 95 is C-grade).",
+  "method_batch": true
+}

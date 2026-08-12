@@ -1,0 +1,21 @@
+{
+  "slug": "method-st-unitel-stp-switching-center-centro-de-comutacao-lead",
+  "canonical_project": "Unitel STP switching center (Centro de Comutacao) (lead)",
+  "owner": "Unitel STP",
+  "location": {
+    "city": "",
+    "subnational": "Agua Grande",
+    "country": "Sao Tome and Principe",
+    "country_code": "ST"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2023-05-04",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.unitel.st/",
+    "https://www.datacenterdynamics.com/en/news/unitel-launches-first-4g-network-in-s%C3%A3o-tom%C3%A9-and-pr%C3%ADncipe/"
+  ],
+  "notes": "Telecom switching-center facility lead per methodology (technical launch incl. Centro de Comutacao; first 4G launch May 2023 per DCD) - NOT a confirmed datacenter. No hosting/colocation evidence; upgrade only with Unitel/AGER official confirmation of a data-center service.",
+  "method_batch": true
+}

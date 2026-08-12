@@ -1,0 +1,21 @@
+{
+  "slug": "method-in-nic-kolkata-data-centre-nizam-palace",
+  "canonical_project": "NIC Kolkata Data Centre (Nizam Palace)",
+  "owner": "National Informatics Centre (NIC), Government of India",
+  "location": {
+    "city": "",
+    "subnational": "West Bengal - Kolkata",
+    "country": "India",
+    "country_code": "IN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://en.wikipedia.org/wiki/List_of_data_centres_in_West_Bengal",
+    "https://web.archive.org/web/20170112141116/http://www.kolkatadc.nic.in:80/aboutus.php"
+  ],
+  "notes": "NIC operates a government data centre at Nizam Palace, Kolkata (approx 250 TB storage, 1,200 sq ft, 20 racks) per the NIC Kolkata DC official/about page and Wikipedia WB list. Government facility; no commercial MW published.",
+  "method_batch": true
+}

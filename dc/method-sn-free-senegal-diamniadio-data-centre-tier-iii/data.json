@@ -1,0 +1,22 @@
+{
+  "slug": "method-sn-free-senegal-diamniadio-data-centre-tier-iii",
+  "canonical_project": "Free Senegal Diamniadio data centre (Tier III)",
+  "owner": "Free au Senegal / Axian Telecom",
+  "location": {
+    "city": "",
+    "subnational": "Dakar",
+    "country": "Senegal",
+    "country_code": "SN"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.axian-telecom.com/2022/05/23/avanti-communications-et-free-au-senegal-signent-un-accord-strategique-pour-la-construction-et-lhebergement-de-la-nouvelle-passerelle-satellite-hylas-4-au-senegal/",
+    "https://satnews.com/2023/05/30/avantis-new-antenna-in-dakar-completes-second-phase-of-hylas-4-satellite-gateway-project/",
+    "https://www.avanti.space/news/avanti-secures-authorisation-for-hylas-4-satellite-gateway-in-senegal/"
+  ],
+  "notes": "AXIAN group release (May 2022) states Free will build/operate Avanti's HYLAS 4 gateway from its Tier III data centre facility in Diamniadio; Satnews (May 2023) confirms the gateway's second phase completed and hosted at Free's Tier III Diamniadio facility; Avanti secured HYLAS 4 gateway authorisation Mar 2024 (Avanti page). The Avanti gateway is tenant evidence at Free's DC, not a separate facility.",
+  "method_batch": true
+}

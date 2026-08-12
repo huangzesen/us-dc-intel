@@ -1,0 +1,20 @@
+{
+  "slug": "method-ml-douanes-du-mali-customs-data-center",
+  "canonical_project": "Douanes du Mali customs data center",
+  "owner": "Direction Generale des Douanes du Mali",
+  "location": {
+    "city": "",
+    "subnational": "Bamako",
+    "country": "Mali",
+    "country_code": "ML"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://maliactu.net/douanes-du-mali-data-center-pour-mieux-securiser-les-donnees/"
+  ],
+  "notes": "Single local-media report (C) of a customs administration data center in Bamako to secure customs data and support migration to SYDONIA World. Government data-center function, but facility details (address, capacity, operator) not verified; C-grade until an official source or procurement record confirms it.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-cd-kisangani-neutral-tier-3-tier-4-data-center-plan-pnn-horizon-2025",
+  "canonical_project": "Kisangani neutral Tier-3/Tier-4 data center plan (PNN Horizon 2025)",
+  "owner": "Government of the DRC / Agence pour le Developpement du Numerique",
+  "location": {
+    "city": "",
+    "subnational": "Tshopo",
+    "country": "Congo, Democratic Republic of the",
+    "country_code": "CD"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://ictpolicyafrica.org/en/document/96l13jhbgxm?page=58&raw=true&searchTerm=artificial+intelligence",
+    "https://zoom-eco.net/wp-content/uploads/2023/12/RAPPORT-1-EVALUATION-DE-LA-MISE-EN-OEUVRE-DU-PNN-HORIZON-2025-.pdf",
+    "https://www.datacenters.com/locations/democratic-republic-of-the-congo/tshopo/kisangani"
+  ],
+  "notes": "PNN Horizon 2025 names Kisangani among the five target cities for neutral Tier-3/Tier-4 data centers. Re-verified 2026-08-12: no operator/official/trade-press facility found for Kisangani/Tshopo (searched Kisangani centre de donnees, datacenter, SCPT/Orange/Vodacom/Liquid pivots, Kisangani IXP); datacenters.com maintains a Kisangani directory page but its facility content was not retrievable (HTTP 429) and remains an unverified C-grade directory lead. Policy lead only; keep planned until named tender/site/build evidence appears.",
+  "method_batch": true
+}

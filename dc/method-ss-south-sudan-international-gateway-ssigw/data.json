@@ -1,0 +1,21 @@
+{
+  "slug": "method-ss-south-sudan-international-gateway-ssigw",
+  "canonical_project": "South Sudan International Gateway (SSIGW)",
+  "owner": "SSIGW operator; MGI Communications AG (management and technical support)",
+  "location": {
+    "city": "",
+    "subnational": "Central Equatoria",
+    "country": "South Sudan",
+    "country_code": "SS"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-01-17",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.eyeradio.org/nca-establishes-gateway-and-data-center-oversight-committee/",
+    "https://techafricanews.com/2026/01/20/south-sudans-nca-establishes-gateway-services-and-data-center-oversight-committee/"
+  ],
+  "notes": "International voice/SMS gateway facility in Juba, operational since ~2014 (existence is A-grade via World Bank 2022 diagnostic; 2026 committee reporting is B-grade press). NOT a datacenter - gateway facility listed separately per methodology. Jan 2026 NCA committee targets gateway-services control, revenue digitisation and national data-centre oversight.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-pf-tdf-data-center-papeete-pic-rouge",
+  "canonical_project": "TDF Data Center Papeete (Pic Rouge)",
+  "owner": "TDF",
+  "location": {
+    "city": "",
+    "subnational": "French Polynesia",
+    "country": "French Polynesia",
+    "country_code": "PF"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2025-09-18",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.tdf.fr/tdf-inaugure-son-premier-data-center-a-papeete-en-polynesie-francaise/",
+    "https://la1ere.franceinfo.fr/polynesie/tahiti/polynesie-francaise/exclusif-tdf-devoile-son-premier-data-center-au-pic-rouge-a-papeete-1629011.html",
+    "https://www.telesatellite.com/actu/67490-tdf-ouvre-un-data-center-papeete.html"
+  ],
+  "notes": "TDF official release (2025-09-18) confirms opening of its 5th data center at Pic Rouge, on the heights of Papeete (300m altitude, outside flood zone): delivered June 2025 after H1 2025 works, repurposed former TV/radio/broadcast building, heat-recovery cooling, rooftop photovoltaics planned by end 2025, fibre + HD microwave connectivity, passed Tier III level compliance audit by a certified body (energy, cooling, fire detection/extinction, perimeter security). First customers on opening: Banque de Polynesie (Societe Generale subsidiary) and Axians Polynesie. Baxtel lists ~0.3 MW (C-grade directory figure, not used as official capacity).",
+  "method_batch": true
+}

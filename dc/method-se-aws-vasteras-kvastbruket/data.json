@@ -1,0 +1,22 @@
+{
+  "slug": "method-se-aws-vasteras-kvastbruket",
+  "canonical_project": "AWS Västerås (Kvastbruket)",
+  "owner": "Amazon Web Services / Amazon Data Services Sweden AB",
+  "location": {
+    "city": "",
+    "subnational": "Vastmanland",
+    "country": "Sweden",
+    "country_code": "SE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.naturvardsverket.se/4926e0/contentassets/4eef28e4813b4c309697ffd56ae8165c/2022-09-29-mmd-nacka-vasteras.pdf",
+    "https://www.svt.se/nyheter/lokalt/vastmanland/har-ar-amazons-planerade-datacenter-i-vasteras",
+    "https://sv.wikipedia.org/wiki/Kvastbruket"
+  ],
+  "notes": "AWS data center campus on Kvastbruket industrial area, Vasteras (30 ha, 4 data halls of 200x60 m planned, 72 diesel generators). Construction started 2017, operational (Stockholm region eu-north-1). Nacka Land & Environment Court judgment 2022-09-29 permits reserve-power expansion with total installed input up to 660 MW - this is installed reserve-power capacity, NOT IT load. Wikipedia lists Vasteras, Eskilstuna and Katrineholm as AWS Sweden sites.",
+  "method_batch": true
+}

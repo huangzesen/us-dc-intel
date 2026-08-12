@@ -1,0 +1,21 @@
+{
+  "slug": "method-bi-setic-government-data-center-national-hosting",
+  "canonical_project": "SETIC government data center (national hosting)",
+  "owner": "SETIC (Executive Secretariat for ICT, Government of Burundi)",
+  "location": {
+    "city": "",
+    "subnational": "Bujumbura Mairie",
+    "country": "Burundi",
+    "country_code": "BI"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2021-05-01",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.iwacu-burundi.org/tic-les-institutions-etatiques-pas-tres-rassurees-par-le-setic/",
+    "https://setic.gov.bi/evaluation-a-mi-parcours-du-projet-pafen-2023-2028/"
+  ],
+  "notes": "Iwacu (May 2021): SETIC is the specialized government body managing a data center and hosting the sites/data of state institutions. SETIC/PAFEN mid-term page names national hosting through a Data Center and government network modernization. Facility site not named; Bujumbura (legacy Bujumbura Mairie, current Bujumbura province) is the government/telecom cluster. A upgrade requires a SETIC primary source naming the facility.",
+  "method_batch": true
+}

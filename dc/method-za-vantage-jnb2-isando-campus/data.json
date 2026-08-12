@@ -1,0 +1,22 @@
+{
+  "slug": "method-za-vantage-jnb2-isando-campus",
+  "canonical_project": "Vantage JNB2 (Isando campus)",
+  "owner": "Vantage Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Gauteng - Ekurhuleni Metropolitan Municipality",
+    "country": "South Africa",
+    "country_code": "ZA"
+  },
+  "capacity_mw": 20,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://dcpulse.com/project/vantage-johannesburg-jnb2-launch-2026",
+    "https://vantage-dc.com/data-center-locations/emea/johannesburg-ii-south-africa/",
+    "https://www.datacenterdynamics.com/en/news/vantage-announces-second-johannesburg-data-center-campus-in-south-africa/"
+  ],
+  "notes": "Vantage JNB2 at Brollo Road, Isando, Germiston - explicitly in the City of Ekurhuleni, ~17km from JNB1 (Midrand) and <2km from NAPAfrica. Officially commissioned 12 Jan 2026 (DC Pulse); first building 20MW critical IT load / ~33,000 sqm (355,000 sq ft) two-storey facility with N+1 redundancy, 35MVA substation, power by Municipality of Ekurhuleni (Vantage official). Construction announced Dec 2022. Status updated to operational (was 'construction' in first-round).",
+  "method_batch": true
+}

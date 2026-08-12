@@ -1,0 +1,22 @@
+{
+  "slug": "method-nz-microsoft-new-zealand-north-cloud-region-akl02-certified",
+  "canonical_project": "Microsoft New Zealand North cloud region (AKL02 certified)",
+  "owner": "Microsoft",
+  "location": {
+    "city": "",
+    "subnational": "Auckland",
+    "country": "New Zealand",
+    "country_code": "NZ"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://news.microsoft.com/source/asia/features/new-zealand-gcdo/",
+    "https://www.digital.govt.nz/products-and-services/products-and-services-a-z/public-cloud-data-centre-certification-pcdcc/certified-pcdc-facilities-and-areas",
+    "https://news.microsoft.com/en-nz/2024/12/12/new-zealands-first-hyperscale-cloud-is-open-for-business/"
+  ],
+  "notes": "Azure New Zealand North region opened 2024-12-12 in Auckland; Microsoft AKL02 facility certified under GCDO Public Cloud Data Centre Certification (PCDCC) 2025-07-02 (one of 3 certified facilities). A for region + certification; physical site per certification.",
+  "method_batch": true
+}

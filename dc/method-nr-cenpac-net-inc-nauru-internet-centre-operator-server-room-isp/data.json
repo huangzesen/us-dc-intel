@@ -1,0 +1,22 @@
+{
+  "slug": "method-nr-cenpac-net-inc-nauru-internet-centre-operator-server-room-isp",
+  "canonical_project": "Cenpac Net Inc / Nauru Internet Centre (operator server room / ISP)",
+  "owner": "Cenpac Net Inc",
+  "location": {
+    "city": "",
+    "subnational": "Aiwo",
+    "country": "Nauru",
+    "country_code": "NR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cenpac.net.nr/",
+    "https://www.iana.org/domains/root/db/nr.html",
+    "https://whois.ipip.net/AS55722"
+  ],
+  "notes": "Official site and IANA .nr delegation confirm Cenpac Net Inc, ISP since 1998, .nr ccTLD registry role, registered at Civic Centre, Aiwo District (AS55722). Operator exchange/server-room lead in Aiwo; no public colocation/rack/hosting product page found - not counted as commercial colocation.",
+  "method_batch": true
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "method-ch-ewl-rechenzentrum-stollen-luzern",
+  "canonical_project": "ewl Rechenzentrum Stollen Luzern",
+  "owner": "ewl energie wasser luzern (Rechenzentrum Stollen Luzern AG)",
+  "location": {
+    "city": "",
+    "subnational": "Luzern",
+    "country": "Switzerland",
+    "country_code": "CH"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ewl-luzern.ch/wissen/rechenzentrum-stollen-luzern",
+    "https://www.netzwoche.ch/news/2022-02-16/wie-der-luzerner-energieversorger-ewl-auf-dem-colocation-markt-antreten-will",
+    "https://www.datacentermap.com/switzerland/lucerne/ewl-stollen-lucerne-data-center/",
+    "https://www.it-markt.ch/news/2025-06-23/firmenportraet-rechenzentrum-stollen-luzern"
+  ],
+  "notes": "Underground high-security datacenter in central Lucerne converted from a Cold War civil-defence shelter; operated by city utility ewl; cooled year-round via Vierwaldstaettersee lake-energy network; colocation market entry announced 2022 (Netzwoche). Official utility page A for existence; capacity not published.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-sa-google-cloud-dammam-region-me-central2",
+  "canonical_project": "Google Cloud Dammam region (me-central2)",
+  "owner": "Google Cloud / CNTXT (Aramco partnership)",
+  "location": {
+    "city": "",
+    "subnational": "Eastern Province - Ad Dammam",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://docs.cloud.google.com/docs/dammam-region-access",
+    "https://cloud.google.com/about/locations"
+  ],
+  "notes": "Google Cloud's Dammam region (me-central2) is live and part of Google's global cloud region network; access for KSA customers is sold through CNTXT under a CST Class C cloud registration for the Dammam region. Press (ict-nn) reports the Saudi data center is operated in partnership with state-owned Aramco. Cloud-region existence record (A), not an exact building-ownership/address record; per methodology, region seeds the Ad Dammam metro.",
+  "method_batch": true
+}

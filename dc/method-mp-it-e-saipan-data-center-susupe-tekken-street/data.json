@@ -1,0 +1,22 @@
+{
+  "slug": "method-mp-it-e-saipan-data-center-susupe-tekken-street",
+  "canonical_project": "IT&E Saipan Data Center (Susupe, Tekken Street)",
+  "owner": "IT&E (Micronesian Telecommunications Corp.)",
+  "location": {
+    "city": "",
+    "subnational": "Northern Mariana Islands",
+    "country": "Northern Mariana Islands",
+    "country_code": "MP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://baxtel.com/data-center/it-e-saipan",
+    "https://www.ocolo.io/colocation/ite/saipan/",
+    "https://shop.ite.net/business/"
+  ],
+  "notes": "Directory-listed colocation facility at Tekken Street, Susupe, Saipan 96950 (Baxtel: 'Fully operational facility'; OCOLO: colocation services, internet connectivity, point-to-point exchanges). IT&E official enterprise suite lists 'Data Center Services' (A-grade for product existence, not a CNMI facility address). IT&E is the CNMI BEAD subgrant recipient (BPD page shows 2026-05-13 Subgrant Agreement) - broadband/telecom context, not DC evidence. Needs IT&E official facility page/address, permit, contract or dated local media to upgrade from C-grade lead.",
+  "method_batch": true
+}

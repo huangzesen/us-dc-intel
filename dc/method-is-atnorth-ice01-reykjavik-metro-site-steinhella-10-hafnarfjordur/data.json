@@ -1,0 +1,21 @@
+{
+  "slug": "method-is-atnorth-ice01-reykjavik-metro-site-steinhella-10-hafnarfjordur",
+  "canonical_project": "atNorth ICE01 Reykjavik Metro Site (Steinhella 10, Hafnarfjordur)",
+  "owner": "atNorth",
+  "location": {
+    "city": "",
+    "subnational": "Capital Region",
+    "country": "Iceland",
+    "country_code": "IS"
+  },
+  "capacity_mw": 3,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.atnorth.com/nordic-data-centers/iceland-data-centers/reykjavik-metro-site/",
+    "https://www.datacenters.com/atnorth-ice01-iceland"
+  ],
+  "notes": "Operator page: Reykjavik metro site, >2,700 sqm white technical space; aggregator lists ~3.2 MW power capacity (C-grade capacity detail, rounded to 3); Landsvirkjun identifies atNorth as former Advania Data Centers datacenter customer.",
+  "method_batch": true
+}

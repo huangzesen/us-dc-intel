@@ -1,0 +1,20 @@
+{
+  "slug": "method-nl-cellnex-tjerkgaast-spannenburg-edge-datacenter",
+  "canonical_project": "Cellnex Tjerkgaast / Spannenburg edge datacenter",
+  "owner": "Cellnex Netherlands",
+  "location": {
+    "city": "",
+    "subnational": "Friesland",
+    "country": "Netherlands, Kingdom of the",
+    "country_code": "NL"
+  },
+  "capacity_mw": 0.225,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cellnex.com/nl-en/technology/edge-datacentres/"
+  ],
+  "notes": "Tower-based edge datacenters at Tjerkgaast and Spannenburg (official Cellnex page).",
+  "method_batch": true
+}

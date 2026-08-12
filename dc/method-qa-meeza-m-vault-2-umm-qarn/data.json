@@ -1,0 +1,22 @@
+{
+  "slug": "method-qa-meeza-m-vault-2-umm-qarn",
+  "canonical_project": "MEEZA M-VAULT 2 (Umm Qarn)",
+  "owner": "MEEZA QSTP-LLC",
+  "location": {
+    "city": "",
+    "subnational": "Daayen",
+    "country": "Qatar",
+    "country_code": "QA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.qix.qa/contactus.html",
+    "https://en.wikipedia.org/wiki/Al_Daayen",
+    "https://www.peeringdb.com/fac/8069"
+  ],
+  "notes": "qix.qa official contact page (A) names 'Meeza (MV2) Datacenter Umm Qarn' as QIX point; Wikipedia Al Daayen records the MEEZA Data Center south of Umm Qarn, inaugurated 2014, ~10,000 sq m (then MEEZA's largest); PeeringDB fac/8069 lists MV2 with QIX Qatar. Directory sources conflict on municipality (some place Umm Qarn on the Al Daayen/Umm Salal border; RebootMonkey claims QSTP) - Al Daayen per official QIX mapping and Wikipedia Al Daayen; C-grade conflicts noted. Capacity not disclosed.",
+  "method_batch": true
+}

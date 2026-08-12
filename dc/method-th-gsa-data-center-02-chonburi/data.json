@@ -1,0 +1,21 @@
+{
+  "slug": "method-th-gsa-data-center-02-chonburi",
+  "canonical_project": "GSA Data Center 02 (Chonburi)",
+  "owner": "GSA Data Center (GULF/Singtel/AIS JV)",
+  "location": {
+    "city": "",
+    "subnational": "Chon Buri",
+    "country": "Thailand",
+    "country_code": "TH"
+  },
+  "capacity_mw": 35,
+  "status": "construction",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://mkefactsettd.maybank-ke.com/PDFS/445410.pdf",
+    "https://www.datacenterdynamics.com/en/news/singtel-breaks-ground-on-new-data-center-in-thailand/"
+  ],
+  "notes": "GSA Chonburi project (BOI 2025 approval wave); GSA under-construction capacity ~90MW incl. 50MW Samut Prakan; ~35MW attributed to Chonburi site.",
+  "method_batch": true
+}

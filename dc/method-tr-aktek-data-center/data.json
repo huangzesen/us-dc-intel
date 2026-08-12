@@ -1,0 +1,21 @@
+{
+  "slug": "method-tr-aktek-data-center",
+  "canonical_project": "Aktek Data Center",
+  "owner": "Aktek Bilisim (Akkok Holding)",
+  "location": {
+    "city": "",
+    "subnational": "Yalova",
+    "country": "Turkiye",
+    "country_code": "TR"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2012-07-21",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.manset.com.tr/aktekten-yalovaya-data-center",
+    "https://www.senemoglu.com.tr/en/projeler-1/aktek-data-center"
+  ],
+  "notes": "Corporate mirror/DR data center built by Akkok group IT arm Aktek in Ciftlikkoy, Yalova (commissioned 2012) as redundancy for the group's Istanbul DC; ~350 sqm two-storey building per architect Senemoglu portfolio; small corporate facility, no public MW capacity. Re-verified via local press + architecture project page.",
+  "method_batch": true
+}

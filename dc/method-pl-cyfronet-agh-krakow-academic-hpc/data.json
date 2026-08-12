@@ -1,0 +1,20 @@
+{
+  "slug": "method-pl-cyfronet-agh-krakow-academic-hpc",
+  "canonical_project": "Cyfronet AGH Krakow (academic HPC)",
+  "owner": "AGH University of Science and Technology / Cyfronet",
+  "location": {
+    "city": "",
+    "subnational": "Lesser Poland",
+    "country": "Poland",
+    "country_code": "PL"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.cyfronet.krakow.pl/"
+  ],
+  "notes": "Academic/research supercomputing and data-center infrastructure in Krakow (non-commercial scope per methodology).",
+  "method_batch": true
+}

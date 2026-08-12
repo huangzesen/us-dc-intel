@@ -1,0 +1,24 @@
+{
+  "slug": "method-de-datar-rellingen-colocation-data-center-krupunder",
+  "canonical_project": "dataR Rellingen colocation data center (Krupunder)",
+  "owner": "dataR GmbH / ENGIE Deutschland",
+  "location": {
+    "city": "",
+    "subnational": "Schleswig-Holstein - Pinneberg",
+    "country": "Germany",
+    "country_code": "DE"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-06-09",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.ndr.de/nachrichten/schleswig-holstein/pinneberg_segeberg_stormarn/neues-rechenzentrum-rellingen-erster-kunde-eingezogen%2Cregionnorderstedtnews-2934.html",
+    "https://www.datacenter-insider.de/datar-baut-in-norddeutschland-ein-nachhaltiges-datacenter-a-8cc49f5fd561b6698bf156c7a7767dbf/",
+    "https://www.engie-deutschland.de/de/presse/vorreiter-fuer-nachhaltigkeit-datar-und-engie-deutschland-erreichen-blauer-engel",
+    "https://www.it-boltwise.de/deutsche-pfandbriefbank-45-millionen-darlehen-fuer-rechenzentrum-datar-staerkt-kurs.html",
+    "https://www.datar.de/ueber-uns/"
+  ],
+  "notes": "NDR (2026-06-09) reports the 8,500 sqm colocation data center in Rellingen/Krupunder (Pinneberg) is nearing completion - first customer moved in, test operation upcoming; operator announced operation start in Q2 2026. ENGIE/Blue Angel details: 8,200 sqm total, 2,500 sqm white space with 25 rooms, water cooling, renewable power, ~5 MW usable waste heat; Pfandbriefbank provided a EUR 45M development facility. Status construction (operational start imminent). Capacity MW not published (total building power not disclosed).",
+  "method_batch": true
+}

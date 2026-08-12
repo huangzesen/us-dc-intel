@@ -1,0 +1,22 @@
+{
+  "slug": "method-sa-neom-hyperscale-data-center-zeropointdc-neom-ezditek-jv-with-oracle-oci-first-te",
+  "canonical_project": "NEOM hyperscale data center - ZeroPointDC (NEOM-EzdiTek JV) with Oracle OCI first tenant",
+  "owner": "ZeroPointDC (NEOM 51% / EzdiTek 49%); Oracle Cloud Infrastructure",
+  "location": {
+    "city": "",
+    "subnational": "Tabuk Region - Duba'",
+    "country": "Saudi Arabia",
+    "country_code": "SA"
+  },
+  "capacity_mw": null,
+  "status": "planned",
+  "evidence_date": "2022-02-11",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.datacenterdynamics.com/en/news/tonomus-launches-data-center-in-saudis-neom-city/",
+    "https://www.datacenterdynamics.com/en/news/oracle-to-launch-cloud-region-in-saudia-arabias-neom-city/",
+    "https://www.prnewswire.com/in/news-releases/neom-tech-amp-digital-holding-company-signs-oracle-as-first-tenant-of-hyperscale-data-center-838020037.html"
+  ],
+  "notes": "NEOM announced an approx. $500M joint venture (51% NEOM / 49% EzdiTek, later branded ZeroPointDC) to develop and operate hyperscale data centers in NEOM, reportedly on the Oxagon floating industrial district. NEOM Tech & Digital Holding signed Oracle as first tenant, with Oracle Cloud Infrastructure hosted at the hyperscale data center; Oracle region status was 'coming soon' as of May 2023. Directory sources (C) cite up to 500 MW Tier IV program capacity. No construction/CST/permit evidence found - keep at planned per SA methodology.",
+  "method_batch": true
+}

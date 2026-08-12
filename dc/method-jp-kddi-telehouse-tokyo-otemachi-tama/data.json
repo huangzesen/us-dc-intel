@@ -1,0 +1,21 @@
+{
+  "slug": "method-jp-kddi-telehouse-tokyo-otemachi-tama",
+  "canonical_project": "KDDI Telehouse Tokyo (Otemachi / Tama)",
+  "owner": "KDDI / Telehouse",
+  "location": {
+    "city": "",
+    "subnational": "Tokyo",
+    "country": "Japan",
+    "country_code": "JP"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.telehouse.com/global-data-centers/asia/japan-data-centers/",
+    "https://biz.kddi.com/topics/2025/news/022/"
+  ],
+  "notes": "Telehouse official Japan locations include Tokyo Otemachi and Tama; KDDI news reports construction start of Telehouse TOKYO Tama 5-2nd (AI-era expansion).",
+  "method_batch": true
+}

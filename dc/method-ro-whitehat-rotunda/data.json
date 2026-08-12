@@ -1,0 +1,21 @@
+{
+  "slug": "method-ro-whitehat-rotunda",
+  "canonical_project": "WhiteHat Rotunda",
+  "owner": "WhiteHat",
+  "location": {
+    "city": "",
+    "subnational": "Bacau",
+    "country": "Romania",
+    "country_code": "RO"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/providers/whitehat",
+    "https://datacenterplatform.com/data-centers/whitehat/whitehat-rotunda/"
+  ],
+  "notes": "WhiteHat operates 3 carrier-neutral data centers in Romania: Bucharest (Rosu), Braila (Strada Mare 14) and Rotunda (Bacau County); Rotunda has 5 networks and 2 exchanges connected per PeeringDB; directory-grade evidence, verify locally.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "method-la-lanic-national-data-center-government-hosting",
+  "canonical_project": "LANIC National Data Center / government hosting",
+  "owner": "LANIC (Lao National Internet Center) under MTC",
+  "location": {
+    "city": "",
+    "subnational": "Vientiane Capital",
+    "country": "Lao People's Democratic Republic",
+    "country_code": "LA"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://lanic.gov.la/",
+    "https://aptld.org/wp-content/uploads/Concluding-APTLD83_Laos-24Oct2022.pdf",
+    "https://www.retailnews.asia/telekom-malaysia-launches-pop-laos/"
+  ],
+  "notes": "LANIC (Saylom Village, Chanthabouly District, Vientiane Capital) lists National Data Center among main services (APTLD presentation); Retail News Asia reports LANIC hosts a Telekom Malaysia POP via its international data center in Vientiane. A for service/existence; facility specs not public (C for specs).",
+  "method_batch": true
+}

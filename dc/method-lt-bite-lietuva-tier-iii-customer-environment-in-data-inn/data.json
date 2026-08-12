@@ -1,0 +1,22 @@
+{
+  "slug": "method-lt-bite-lietuva-tier-iii-customer-environment-in-data-inn",
+  "canonical_project": "Bite Lietuva Tier III customer environment (in Data Inn)",
+  "owner": "Bite Lietuva (tenant inside DLC/Delska Data Inn DC)",
+  "location": {
+    "city": "",
+    "subnational": "Vilnius County",
+    "country": "Lithuania",
+    "country_code": "LT"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.bite.lt/naujienos/BITE-atidaro-isskirtinio-saugumo-duomenu-centra",
+    "https://www.lrt.lt/naujienos/verslas/4/1781109/bite-lietuva-prie-vilniaus-atidare-duomenu-centra",
+    "https://www.vz.lt/inovacijos/technologijos/2022/09/15/bite-salia-vilniaus-atidaro-nauja-duomenu-centra"
+  ],
+  "notes": "Opened Sept 2022 inside Data Inn (operated by DLC/Delska) near Vilnius; Tier III customer environment - tenant/service footprint, NOT a separate building; complements Bite DCs in Kaunas, Riga, Vilnius (unverified as separate facilities).",
+  "method_batch": true
+}

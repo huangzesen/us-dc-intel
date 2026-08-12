@@ -1,0 +1,21 @@
+{
+  "slug": "method-bf-ika-cloud",
+  "canonical_project": "IKA Cloud",
+  "owner": "IKA Solution LTD",
+  "location": {
+    "city": "",
+    "subnational": "Centre",
+    "country": "Burkina Faso",
+    "country_code": "BF"
+  },
+  "capacity_mw": null,
+  "status": "unknown",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "U",
+  "sources": [
+    "https://www.ikacloud.bf/",
+    "https://ikasolution.bf/"
+  ],
+  "notes": "Avenue de la Dignite, Cissin/Secteur 26, Ouagadougou; local hosting/colo platform per BF methodology (address/advertised services A). 'Premier datacenter' claim is marketing (Virtix predates it). Physical facility vs reseller/platform unverified this run - grade U pending site confirmation.",
+  "method_batch": true
+}

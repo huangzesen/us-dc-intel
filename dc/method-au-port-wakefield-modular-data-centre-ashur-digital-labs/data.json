@@ -1,0 +1,20 @@
+{
+  "slug": "method-au-port-wakefield-modular-data-centre-ashur-digital-labs",
+  "canonical_project": "Port Wakefield Modular Data Centre (Ashur Digital Labs)",
+  "owner": "Ashur Digital Labs / INTREC",
+  "location": {
+    "city": "",
+    "subnational": "South Australia - Wakefield",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": 2,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://intrec.com.au/portfolio_item/port-wakefield-modular-data-centre/"
+  ],
+  "notes": "2MW modular data centre colocated on an existing solar farm in the Port Wakefield region; INTREC designed the 2MW substation for the 33kV high-voltage connection integrated with the solar energy system. Source is a contractor portfolio page only - no planning/energy primary record located; status and capacity unverified (grade C). Capacity basis: module/connection capacity, not IT load.",
+  "method_batch": true
+}

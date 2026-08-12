@@ -1,0 +1,22 @@
+{
+  "slug": "method-gm-gamtel-co-location-kairaba-exchange-serekunda",
+  "canonical_project": "GAMTEL Co-location / Kairaba Exchange (Serekunda)",
+  "owner": "GAMTEL (Gambia Telecommunications Company)",
+  "location": {
+    "city": "",
+    "subnational": "Western",
+    "country": "Gambia",
+    "country_code": "GM"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://gamtel.gm/co-location-facility-rental-services/",
+    "https://www.peeringdb.com/fac/2287",
+    "https://inflect.com/building/kairaba-avenue-serrekunda/gamtel/datacenter/gamtel-kairaba-exchange-serrekunda"
+  ],
+  "notes": "GAMTEL officially sells co-location/facility rental (site rent, tower space, rack space, site+space) for servers/telecom hardware at any of its 43 sites or towers countrywide - A-grade service claim but must NOT be multiplied into 43 datacenters. Kairaba Exchange at Kairaba Avenue, Serekunda (Western) is the named GAMTEL exchange/colo facility per PeeringDB and directory leads (C/B); no operator site-level, PURA or NAWEC record yet confirms it as a DC. GAMTEL HQ is at 3 Nelson Mandela Street, Banjul (premises lead only). SIXP/Serekunda Internet Exchange (PeeringDB ix/2682) is network presence nearby, not a DC.",
+  "method_batch": true
+}

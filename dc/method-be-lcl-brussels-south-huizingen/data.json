@@ -1,0 +1,20 @@
+{
+  "slug": "method-be-lcl-brussels-south-huizingen",
+  "canonical_project": "LCL Brussels-South (Huizingen)",
+  "owner": "LCL Data Centers",
+  "location": {
+    "city": "",
+    "subnational": "Flanders",
+    "country": "Belgium",
+    "country_code": "BE"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "A",
+  "sources": [
+    "https://www.lcl.be/nl/bezoek-ons-datacenter/"
+  ],
+  "notes": "Huizingen (Beersel, Flemish Brabant). Atos facility transferred to LCL management in 2020 and rebranded LCL Brussels-South; ~300 m2 / 120 racks per directory.",
+  "method_batch": true
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "method-au-vocus-dc-per04-henderson-data-centre",
+  "canonical_project": "Vocus DC-PER04 Henderson data centre",
+  "owner": "Vocus Communications",
+  "location": {
+    "city": "",
+    "subnational": "Western Australia - Cockburn",
+    "country": "Australia",
+    "country_code": "AU"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://gowith.vocus.com.au/rs/587-CSJ-470/images/WA-data-centres.html",
+    "https://www.datacentermap.com/australia/perth/vocus-data-centre-henderson/"
+  ],
+  "notes": "Vocus lists DC-PER04 Henderson at 4 McGrath Rd, Munster WA 6166 (Henderson/Munster are within the City of Cockburn). Operational carrier facility; no public IT load figure found.",
+  "method_batch": true
+}

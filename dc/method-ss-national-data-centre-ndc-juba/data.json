@@ -1,0 +1,22 @@
+{
+  "slug": "method-ss-national-data-centre-ndc-juba",
+  "canonical_project": "National Data Centre (NDC) - Juba",
+  "owner": "Government of South Sudan (MICT&PS); MGI Communications AG technical support via NCA Gateway Services and Data Center Oversight Committee",
+  "location": {
+    "city": "",
+    "subnational": "Central Equatoria",
+    "country": "South Sudan",
+    "country_code": "SS"
+  },
+  "capacity_mw": null,
+  "status": "construction",
+  "evidence_date": "2026-04-30",
+  "evidence_grade": "B",
+  "sources": [
+    "https://www.eyeradio.org/ateny-outlines-s-sudans-digital-transformation-plans-at-nairobi-summit/",
+    "https://www.eyeradio.org/nca-establishes-gateway-and-data-center-oversight-committee/",
+    "https://techafricanews.com/2026/01/20/south-sudans-nca-establishes-gateway-services-and-data-center-oversight-committee/"
+  ],
+  "notes": "Only countable government DC seed in South Sudan, located in Juba (Central Equatoria). Minister Ateny Wek Ateny at 15th Connected Africa Summit (Eye Radio, 30 Apr 2026): construction ongoing and 'now halfway complete'. NCA established Gateway Services and Data Center Oversight Committee with MGI Communications AG (Eye Radio 17 Jan 2026; TechAfrica News 20 Jan 2026). Capacity, address, operator/contractor and timeline not public. B-grade (press quoting officials) until an official MICT&PS/NCA page, procurement/tender or commissioning record appears; World Bank Jun 2022 diagnostic baseline found no fully functional carrier-neutral DC and no IXP.",
+  "method_batch": true
+}

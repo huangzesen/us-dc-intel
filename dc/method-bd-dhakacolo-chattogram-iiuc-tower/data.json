@@ -1,0 +1,21 @@
+{
+  "slug": "method-bd-dhakacolo-chattogram-iiuc-tower",
+  "canonical_project": "DhakaColo Chattogram (IIUC Tower)",
+  "owner": "Dhaka Colo Limited (via Chittagong Online Limited)",
+  "location": {
+    "city": "",
+    "subnational": "Chattogram",
+    "country": "Bangladesh",
+    "country_code": "BD"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "C",
+  "sources": [
+    "https://www.datacenters.com/dhakacolo-chittagong",
+    "https://www.datacentermap.com/bangladesh/chittagong/"
+  ],
+  "notes": "Directory evidence (Datacenters.com/DatacenterMap) lists DhakaColo site at Chittagong Online Limited, IIUC Tower, Sk Sheikh Mujib Road, Chattogram; operator claims multi-city service (A for claim, C for physical site until operator primary page confirms). Cox's Bazar SMW-4 submarine cable landing (since 2005) is adjacent cable infrastructure, not counted as a datacenter.",
+  "method_batch": true
+}

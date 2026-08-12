@@ -1,0 +1,21 @@
+{
+  "slug": "method-ug-liquid-intelligent-technologies-uganda-azure-stack-local-cloud",
+  "canonical_project": "Liquid Intelligent Technologies Uganda - Azure Stack local cloud",
+  "owner": "Liquid Intelligent Technologies",
+  "location": {
+    "city": "",
+    "subnational": "Central",
+    "country": "Uganda",
+    "country_code": "UG"
+  },
+  "capacity_mw": null,
+  "status": "operational",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://liquid.tech/local-offices/country/uganda/",
+    "https://www.datacenterdynamics.com/en/news/"
+  ],
+  "notes": "Liquid's official Uganda office/service presence is A; DCD reported Liquid launched Microsoft Azure Stack in Uganda in 2024 (B-grade local cloud signal). Physical hosting facility location in Uganda is unresolved (U), so this is a service/local-cloud record, not a verified facility.",
+  "method_batch": true
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "cngov-airtrunk-hkg2-35mw",
+  "canonical_project": "AirTrunk HKG2（扩建 35MW）",
+  "owner": "AirTrunk",
+  "location": {
+    "city": "新界·荃湾",
+    "subnational": "Hong Kong",
+    "country": "China",
+    "country_code": "CN"
+  },
+  "capacity_mw": 35,
+  "status": "运营/分阶段投产（首批容量 2024 年中交付；扩建推进中）",
+  "evidence_date": "2026-08-12",
+  "evidence_grade": "B",
+  "sources": [
+    "https://datacentremagazine.com/articles/what-airtrunks-new-hkg2-data-centre-means-for-hong-kong",
+    "https://dcpulse.com/project/airtrunk-hong-kong-expansion-center",
+    "https://baxtel.com/news/airtrunk-announces-expansion-to-hong-kong-with-new-20-mw-data-centre-pr"
+  ],
+  "notes": "首期可扩容至 15MW（2024 年中交付锚定租户），扩建后规模约 35MW（dcpulse 记录）。 [province=香港]",
+  "cn_gov_batch": true
+}

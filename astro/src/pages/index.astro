@@ -1836,7 +1836,8 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         items.forEach(item => {
           const latlng = [Number(item.lat), Number(item.lng)];
           bounds.push(latlng);
-          const selected = selCountry === "US" && item.abbr && item.abbr === selState;
+          const subActive = selCountry && selCountry !== "US" && document.getElementById("fState").value;
+          const selected = (selCountry === "US" && item.abbr && item.abbr === selState) || (subActive && item.name === subActive);
           const marker = window.L.circleMarker(latlng, {
             radius: markerRadius(item),
             color: selected ? "#ffffff" : markerColor(item),
@@ -1859,6 +1860,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
               renderTable();
             } else if (selCountry && selCountry !== "US" && item.name) {
               document.getElementById("fState").value = item.name;
+              renderRealMap();
               renderTable();
             }
           });
@@ -2119,8 +2121,9 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
 
         document.getElementById("fCount").textContent = `${L(I18N.showing)} ${rows.length} ${L(I18N.of)} ${scopedCenters.length} ${L(I18N.flagship)}`;
         const chip = document.getElementById("fClear");
-        chip.style.display = selState && selCountry === "US" ? "" : "none";
-        chip.textContent = selState ? `${selState} x` : "";
+        const stateFilter = selCountry === "US" ? selState : (selCountry ? state : "");
+        chip.style.display = stateFilter ? "" : "none";
+        chip.textContent = stateFilter ? `${stateFilter} x` : "";
         ["mw", "y", "geo"].forEach(k => {
           document.getElementById(`car-${k}`).textContent = sortKey === k ? (sortDir < 0 ? "▼" : "▲") : "";
         });

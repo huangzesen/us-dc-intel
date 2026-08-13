@@ -6,17 +6,41 @@ const baseUrl = import.meta.env.BASE_URL;
 // Self-hosted Leaflet (plan §6.3): 1.9.4 dist copied into public/vendor/ so
 // the map needs no CDN; only the basemap tiles remain external.
 const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
+// Social/meta (plan §8): OG/Twitter tags need absolute URLs, so the deployed
+// origin is spelled out here rather than derived from BASE_URL.
+const siteUrl = "https://xhelio.ai/datacenters/";
+const gwTotal = data.totals.capacity_gw >= 1000
+  ? `${(data.totals.capacity_gw / 1000).toFixed(2)} TW`
+  : `${data.totals.capacity_gw.toLocaleString("en-US")} GW`;
+const pageTitle = "GRIDWATCH — Global Data Center Buildout Intelligence";
+const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.totals.facilities.toLocaleString("en-US")} facilities across ${data.totals.countries_with_projects.toLocaleString("en-US")} countries and territories, from ${data.totals.sources.toLocaleString("en-US")} sources. Interactive map, pipeline funnel, buildout timeline, and full project registry.`;
 ---
 
 <html lang="en" data-lang="en" data-theme="dark">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <meta name="description" content="GRIDWATCH global data center buildout intelligence dashboard." />
+    <meta name="description" content={pageDescription} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
+    <link rel="canonical" href={siteUrl} />
+    <!-- Social unfurl (plan §8): og.png is a prerendered 1200x630 dark-theme
+         card in public/; crawlers need absolute URLs. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="GRIDWATCH" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:url" content={siteUrl} />
+    <meta property="og:image" content={`${siteUrl}og.png`} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={`GRIDWATCH control-room dashboard card: ${gwTotal} tracked across ${data.totals.facilities.toLocaleString("en-US")} facilities`} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={pageDescription} />
+    <meta name="twitter:image" content={`${siteUrl}og.png`} />
     <link rel="stylesheet" href={`${leafletBase}leaflet.css`} />
-    <title>GRIDWATCH — Global Data Center Buildout Intelligence</title>
+    <title>{pageTitle}</title>
     <style>
       :root {
         --mono: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
@@ -126,13 +150,10 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
           repeating-linear-gradient(90deg, var(--gridline) 0 1px, transparent 1px 44px);
       }
 
-      [data-lang="en"] .zh {
-        display: none !important;
-      }
-
-      [data-lang="zh"] .en {
-        display: none !important;
-      }
+      /* The [data-lang] visibility rules live in the global block below:
+         runtime-injected .en/.zh spans (stat labels, filters, palette rows)
+         never carry Astro's scoping attribute, so the scoped copy missed
+         them and both languages rendered at once. */
 
       .wrap {
         position: relative;
@@ -230,25 +251,8 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         overflow-x: auto;
       }
 
-      .countrybar button {
-        appearance: none;
-        flex: none;
-        min-height: 34px;
-        padding: 7px 13px;
-        border: 1px solid var(--ln2);
-        border-radius: 8px;
-        color: var(--ink2);
-        background: transparent;
-        cursor: pointer;
-        font: 12px var(--mono);
-        letter-spacing: 0.06em;
-      }
-
-      .countrybar button.on {
-        border-color: var(--acc);
-        color: var(--acc-ink);
-        background: var(--acc-dim);
-      }
+      /* .countrybar button rules live in the global block below (buttons are
+         injected by buildCountrySwitch at runtime). */
 
       .hero {
         position: relative;
@@ -329,7 +333,8 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         flex-wrap: wrap;
         gap: 14px;
         font-family: var(--mono);
-        font-size: clamp(56px, 9vw, 104px);
+        /* §7.6: 44px floor keeps the figure + unit from cramping at 360px. */
+        font-size: clamp(44px, 9vw, 104px);
         font-weight: 700;
         line-height: 1.02;
         letter-spacing: 0;
@@ -688,115 +693,8 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
       }
 
-      .geoitem {
-        appearance: none;
-        min-width: 0;
-        padding: 10px;
-        border: 1px solid var(--ln);
-        border-radius: 9px;
-        color: var(--ink);
-        background: var(--sf2);
-        cursor: pointer;
-        text-align: left;
-      }
-
-      .geoitem:hover,
-      .geoitem:focus-visible {
-        border-color: var(--acc);
-        outline: none;
-      }
-
-      .geoitem .gt {
-        display: flex;
-        align-items: baseline;
-        justify-content: space-between;
-        gap: 8px;
-        font: 700 12px var(--mono);
-      }
-
-      .geoitem .gn {
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-      }
-
-      .geoitem .gv {
-        color: var(--mut);
-        font: 11px var(--mono);
-      }
-
-      .geoitem .gbar {
-        display: block;
-        height: 4px;
-        margin-top: 8px;
-        overflow: hidden;
-        border-radius: 2px;
-        background: var(--ln);
-      }
-
-      .geoitem .gbar i {
-        display: block;
-        height: 100%;
-        border-radius: 2px;
-        background: var(--b2);
-      }
-
-      .tile {
-        aspect-ratio: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1px;
-        min-width: 0;
-        border: 1px solid transparent;
-        border-radius: 9px;
-        cursor: pointer;
-        user-select: none;
-        transition: transform 0.15s ease, filter 0.15s ease;
-      }
-
-      .tile:hover,
-      .tile:focus-visible {
-        transform: translateY(-2px);
-        filter: brightness(1.12);
-        outline: none;
-      }
-
-      .tile.sel {
-        outline: 2px solid var(--acc);
-        outline-offset: 1px;
-      }
-
-      .tile .ab {
-        font: 700 13px var(--mono);
-      }
-
-      .tile .tv {
-        font: 10px var(--mono);
-        opacity: 0.82;
-      }
-
-      .b0 {
-        background: var(--b0);
-        color: var(--b0i);
-      }
-      .b1 {
-        background: var(--b1);
-        color: var(--b1i);
-      }
-      .b2 {
-        background: var(--b2);
-        color: var(--b2i);
-      }
-      .b3 {
-        background: var(--b3);
-        color: var(--b3i);
-      }
-      .b4 {
-        background: var(--b4);
-        color: var(--b4i);
-      }
+      /* .geoitem, .tile and .b0-.b4 rules live in the global block below
+         (cards and cartogram tiles are injected by buildMap at runtime). */
 
       .mapside .side-num {
         font: 700 34px var(--mono);
@@ -819,20 +717,8 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         margin-top: 8px;
       }
 
-      .legend .lg,
-      .chart-legend .lg {
-        display: flex;
-        align-items: center;
-        gap: 9px;
-        color: var(--ink2);
-        font: 12px var(--mono);
-      }
-
-      .legend .sw {
-        width: 22px;
-        height: 13px;
-        border-radius: 3px;
-      }
+      /* .legend .lg / .chart-legend .lg / .legend .sw live in the global
+         block below (map legend rows are injected at runtime). */
 
       .mapnote {
         margin-top: 18px;
@@ -1086,82 +972,9 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         font-size: 9px;
       }
 
-      td {
-        padding: 9px 10px;
-        border-bottom: 1px solid var(--ln);
-        vertical-align: middle;
-      }
-
-      tbody tr:hover {
-        background: var(--sf2);
-      }
-
-      td.proj {
-        max-width: 320px;
-      }
-
-      td.proj b {
-        font-weight: 600;
-      }
-
-      td.proj .own {
-        display: block;
-        margin-top: 1px;
-        color: var(--mut);
-        font-size: 11px;
-      }
-
-      td.geo,
-      td.yr,
-      td.gr {
-        color: var(--ink2);
-        white-space: nowrap;
-        font: 12px var(--mono);
-      }
-
-      td.cap {
-        white-space: nowrap;
-      }
-
-      .capv {
-        font: 600 13px var(--mono);
-      }
-
-      .capbar {
-        display: block;
-        width: 120px;
-        height: 3px;
-        margin-top: 4px;
-        overflow: hidden;
-        border-radius: 2px;
-        background: var(--sf2);
-      }
-
-      .capbar i {
-        display: block;
-        height: 100%;
-        border-radius: 2px;
-        background: var(--b2);
-      }
-
-      .chip {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-        padding: 3px 10px;
-        border: 1px solid;
-        border-radius: 99px;
-        white-space: nowrap;
-        font: 11px var(--mono);
-        letter-spacing: 0.03em;
-      }
-
-      .chip .cdot {
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-        background: currentColor;
-      }
+      /* Registry cell rules (td, tbody tr:hover, td.proj/geo/yr/gr/cap,
+         .capv, .capbar, .chip) live in the global block below — rows are
+         injected by renderWindow at runtime. */
 
       .evbar {
         display: flex;
@@ -1172,17 +985,6 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         border-radius: 7px;
       }
 
-      .evbar i {
-        transform: scaleX(0);
-        transform-origin: left;
-        transition: transform 0.9s cubic-bezier(0.25, 0.7, 0.25, 1);
-        transition-delay: var(--d, 0s);
-      }
-
-      .in .evbar i {
-        transform: scaleX(1);
-      }
-
       .evkey {
         display: flex;
         flex-wrap: wrap;
@@ -1191,17 +993,8 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         font: 12px var(--mono);
       }
 
-      .evkey .lg {
-        display: flex;
-        align-items: center;
-        gap: 7px;
-      }
-
-      .evkey .sw {
-        width: 11px;
-        height: 11px;
-        border-radius: 3px;
-      }
+      /* .evbar i and .evkey .lg/.sw live in the global block below
+         (segments and key rows are injected by buildEvidence at runtime). */
 
       .foot {
         padding: 34px 0 46px;
@@ -1263,8 +1056,8 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
           grid-template-columns: 1fr 1fr;
         }
 
-        .tile .tv {
-          display: none;
+        .yearbar {
+          flex-wrap: wrap;
         }
 
         .realmap {
@@ -1284,6 +1077,24 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         .stats {
           grid-template-columns: 1fr;
         }
+      }
+
+      /* §7.4: landscape phones get a taller map than the portrait floor —
+         340px leaves a letterbox slit when the viewport is short and wide. */
+      @media (max-width: 920px) and (orientation: landscape) {
+        .realmap {
+          min-height: min(70vh, 480px);
+        }
+      }
+
+      .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        white-space: nowrap;
       }
 
       @media (prefers-reduced-motion: reduce) {
@@ -1815,6 +1626,353 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
       .dc-devlink:hover {
         text-decoration-style: solid;
       }
+      /* ——— Slice 9 (P3) part 1: rules moved from the scoped block ———
+         Everything below styles nodes injected via innerHTML/createElement
+         at runtime (language spans, country switch, cartogram tiles, geo
+         cards, map legend, registry rows, evidence bar). In the scoped block
+         they compiled to [data-astro-cid] selectors that never match runtime
+         nodes, so the country switch and geo cards rendered as default
+         buttons, registry chips/bars lost their styling, and injected
+         .en/.zh spans showed both languages at once. */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      [data-lang="en"] .zh {
+        display: none !important;
+      }
+      [data-lang="zh"] .en {
+        display: none !important;
+      }
+      .countrybar button {
+        appearance: none;
+        flex: none;
+        min-height: 34px;
+        padding: 7px 13px;
+        border: 1px solid var(--ln2);
+        border-radius: 8px;
+        color: var(--ink2);
+        background: transparent;
+        cursor: pointer;
+        font: 12px var(--mono);
+        letter-spacing: 0.06em;
+      }
+      .countrybar button.on {
+        border-color: var(--acc);
+        color: var(--acc-ink);
+        background: var(--acc-dim);
+      }
+      .geoitem {
+        appearance: none;
+        min-width: 0;
+        padding: 10px;
+        border: 1px solid var(--ln);
+        border-radius: 9px;
+        color: var(--ink);
+        background: var(--sf2);
+        cursor: pointer;
+        text-align: left;
+        font: inherit;
+      }
+      .geoitem:hover,
+      .geoitem:focus-visible {
+        border-color: var(--acc);
+      }
+      .geoitem .gt {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+        font: 700 12px var(--mono);
+      }
+      .geoitem .gn {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .geoitem .gv {
+        color: var(--mut);
+        font: 11px var(--mono);
+      }
+      .geoitem .gbar {
+        display: block;
+        height: 4px;
+        margin-top: 8px;
+        overflow: hidden;
+        border-radius: 2px;
+        background: var(--ln);
+      }
+      .geoitem .gbar i {
+        display: block;
+        height: 100%;
+        border-radius: 2px;
+        background: var(--b2);
+      }
+      .tile {
+        aspect-ratio: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+        min-width: 0;
+        padding: 0;
+        border: 1px solid transparent;
+        border-radius: 9px;
+        cursor: pointer;
+        user-select: none;
+        transition: transform 0.15s ease, filter 0.15s ease;
+      }
+      .tile:hover,
+      .tile:focus-visible {
+        transform: translateY(-2px);
+        filter: brightness(1.12);
+      }
+      .tile.sel {
+        outline: 2px solid var(--acc);
+        outline-offset: 1px;
+      }
+      .tile .ab {
+        font: 700 13px var(--mono);
+      }
+      .tile .tv {
+        font: 10px var(--mono);
+        opacity: 0.82;
+      }
+      .b0 {
+        background: var(--b0);
+        color: var(--b0i);
+      }
+      .b1 {
+        background: var(--b1);
+        color: var(--b1i);
+      }
+      .b2 {
+        background: var(--b2);
+        color: var(--b2i);
+      }
+      .b3 {
+        background: var(--b3);
+        color: var(--b3i);
+      }
+      .b4 {
+        background: var(--b4);
+        color: var(--b4i);
+      }
+      .legend .lg,
+      .chart-legend .lg {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        color: var(--ink2);
+        font: 12px var(--mono);
+      }
+      .legend .sw {
+        width: 22px;
+        height: 13px;
+        border-radius: 3px;
+      }
+      td {
+        padding: 9px 10px;
+        border-bottom: 1px solid var(--ln);
+        vertical-align: middle;
+      }
+      tbody tr:hover {
+        background: var(--sf2);
+      }
+      td.proj {
+        max-width: 320px;
+      }
+      td.proj b {
+        font-weight: 600;
+      }
+      td.proj .own {
+        display: block;
+        margin-top: 1px;
+        color: var(--mut);
+        font-size: 11px;
+      }
+      td.geo,
+      td.yr,
+      td.gr {
+        color: var(--ink2);
+        white-space: nowrap;
+        font: 12px var(--mono);
+      }
+      td.cap {
+        white-space: nowrap;
+      }
+      .capv {
+        font: 600 13px var(--mono);
+      }
+      .capbar {
+        display: block;
+        width: 120px;
+        height: 3px;
+        margin-top: 4px;
+        overflow: hidden;
+        border-radius: 2px;
+        background: var(--sf2);
+      }
+      .capbar i {
+        display: block;
+        height: 100%;
+        border-radius: 2px;
+        background: var(--b2);
+      }
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 3px 10px;
+        border: 1px solid;
+        border-radius: 99px;
+        white-space: nowrap;
+        font: 11px var(--mono);
+        letter-spacing: 0.03em;
+      }
+      .chip .cdot {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: currentColor;
+      }
+      .evbar i {
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.9s cubic-bezier(0.25, 0.7, 0.25, 1);
+        transition-delay: var(--d, 0s);
+      }
+      .in .evbar i {
+        transform: scaleX(1);
+      }
+      .evkey .lg {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+      }
+      .evkey .sw {
+        width: 11px;
+        height: 11px;
+        border-radius: 3px;
+      }
+      /* ——— Slice 9 (P3) part 2: a11y + mobile ——— */
+      /* §8: one visible keyboard-focus ring everywhere. :where() keeps
+         specificity at zero so component styles can still layer on top. */
+      :where(button, input, select, a, th, tr, [tabindex]):focus-visible {
+        outline: 2px solid var(--acc);
+        outline-offset: 2px;
+      }
+      /* §7.4: touch devices pan the map with two fingers so one-finger
+         swipes keep scrolling the page; this overlay says so when a
+         single-finger drag is attempted. */
+      .maphint {
+        position: absolute;
+        inset: 0;
+        z-index: 1200;
+        display: grid;
+        place-items: center;
+        padding: 20px;
+        background: color-mix(in srgb, var(--bg) 55%, transparent);
+        color: var(--ink);
+        text-align: center;
+        font: 13px var(--mono);
+        letter-spacing: 0.08em;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.25s;
+      }
+      .maphint.show {
+        opacity: 1;
+      }
+      @media (max-width: 680px) {
+        /* §7.2: collapse the country strip to the ⌘K chip + active scope. */
+        .countrybar button[data-country]:not(.on) {
+          display: none;
+        }
+        .tile .tv {
+          display: none;
+        }
+        /* §3.2 palette as a full-width sheet on phones. */
+        .cmdk {
+          padding: 0;
+        }
+        .cmdk-box {
+          width: 100%;
+          border-radius: 0 0 14px 14px;
+        }
+        /* §7.3: registry rows become stacked cards instead of an 820px-wide
+           horizontal-scroll table. The virtualizer needs one uniform row
+           height, so the card height is pinned (overflow hidden) and
+           renderWindow adopts the measured value. */
+        .tblwrap table {
+          display: block;
+          min-width: 0;
+        }
+        .tblwrap thead {
+          display: none;
+        }
+        .tblwrap tbody {
+          display: block;
+        }
+        #tbody tr.vpad {
+          display: block;
+        }
+        #tbody tr.vpad td {
+          display: block;
+        }
+        #tbody tr.vrow {
+          display: grid;
+          grid-template-columns: minmax(0, 1fr) auto auto;
+          align-items: center;
+          row-gap: 4px;
+          column-gap: 10px;
+          height: 108px;
+          padding: 10px 2px 0;
+          overflow: hidden;
+          border-bottom: 1px solid var(--ln);
+        }
+        #tbody tr.vrow td {
+          display: block;
+          height: auto;
+          padding: 0;
+          border: 0;
+        }
+        #tbody tr.vrow td.proj {
+          grid-row: 1;
+          grid-column: 1 / -1;
+          max-width: none;
+        }
+        #tbody tr.vrow td.proj b,
+        #tbody tr.vrow td.proj .own {
+          max-width: 100%;
+        }
+        #tbody tr.vrow td.cap {
+          grid-row: 2;
+          grid-column: 1;
+        }
+        /* The classless 4th cell is the status chip. */
+        #tbody tr.vrow td:nth-child(4) {
+          grid-row: 2;
+          grid-column: 2 / -1;
+          justify-self: end;
+        }
+        #tbody tr.vrow td.geo {
+          grid-row: 3;
+          grid-column: 1;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        #tbody tr.vrow td.yr {
+          grid-row: 3;
+          grid-column: 2;
+        }
+        #tbody tr.vrow td.gr {
+          grid-row: 3;
+          grid-column: 3;
+        }
+      }
     </style>
   </head>
   <body>
@@ -1862,6 +2020,9 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
           <div class="big">
             <span id="heroGW">0.0</span>
             <span class="unit"><span id="heroUnit">GW</span> <span class="en">TRACKED</span><span class="zh">追踪容量</span></span>
+            <!-- §8: announces the settled figure on scope changes; the
+                 odometer digits themselves stay aria-hidden. -->
+            <span id="heroLive" class="visually-hidden" aria-live="polite"></span>
           </div>
           <div class="big-sub">
             <div id="heroEq" class="heroEq"></div>
@@ -1912,7 +2073,7 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
               <span class="yb-note" id="yrNote"></span>
             </div>
             <div class="realmap-wrap">
-              <div class="realmap" id="realMap" aria-label="interactive geographic map"><button id="mapFull" class="mapfull" type="button" title="Fullscreen map / 全屏地图">⛶</button><button id="dotToggle" class="dotchip" type="button" aria-pressed="true" hidden></button></div>
+              <div class="realmap" id="realMap" aria-label="interactive geographic map"><button id="mapFull" class="mapfull" type="button" title="Fullscreen map / 全屏地图" aria-label="Fullscreen map / 全屏地图">⛶</button><button id="dotToggle" class="dotchip" type="button" aria-pressed="true" hidden></button></div>
               <div class="mapmode">
                 <div class="k"><span class="en">Interactive map</span><span class="zh">交互地图</span></div>
                 <div class="v" id="realMapTitle"></div>
@@ -2008,19 +2169,19 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
               <select id="fState" aria-label="state filter"></select>
               <button id="fClear" class="fchip" style="display:none" type="button"></button>
               <button id="fSearchClear" class="fchip" style="display:none" type="button"></button>
-              <span class="fcount" id="fCount"></span>
+              <span class="fcount" id="fCount" aria-live="polite"></span>
               <span class="lazynote" id="lazyNote"><span class="en">SYNCING FULL REGISTRY…</span><span class="zh">正在同步完整登记表…</span></span>
             </div>
             <div class="tblwrap">
               <table>
                 <thead>
                   <tr>
-                    <th><span class="en">Project / Operator</span><span class="zh">项目 / 开发商</span></th>
-                    <th class="sortable" data-sort="geo"><span class="en">County, Area</span><span class="zh">县，地区</span><span class="car" id="car-geo"></span></th>
-                    <th class="sortable" data-sort="mw"><span class="en">Capacity</span><span class="zh">容量</span><span class="car" id="car-mw"></span></th>
-                    <th><span class="en">Status</span><span class="zh">状态</span></th>
-                    <th class="sortable" data-sort="y"><span class="en">Year signal</span><span class="zh">年份信号</span><span class="car" id="car-y"></span></th>
-                    <th><span class="en">Evidence</span><span class="zh">证据等级</span></th>
+                    <th scope="col"><span class="en">Project / Operator</span><span class="zh">项目 / 开发商</span></th>
+                    <th scope="col" class="sortable" data-sort="geo" tabindex="0"><span class="en">County, Area</span><span class="zh">县，地区</span><span class="car" id="car-geo" aria-hidden="true"></span></th>
+                    <th scope="col" class="sortable" data-sort="mw" tabindex="0"><span class="en">Capacity</span><span class="zh">容量</span><span class="car" id="car-mw" aria-hidden="true"></span></th>
+                    <th scope="col"><span class="en">Status</span><span class="zh">状态</span></th>
+                    <th scope="col" class="sortable" data-sort="y" tabindex="0"><span class="en">Year signal</span><span class="zh">年份信号</span><span class="car" id="car-y" aria-hidden="true"></span></th>
+                    <th scope="col"><span class="en">Evidence</span><span class="zh">证据等级</span></th>
                   </tr>
                 </thead>
                 <tbody id="tbody"></tbody>
@@ -2057,7 +2218,7 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
     <div id="cmdk" class="dc-modal cmdk" hidden>
       <div class="dc-modal-backdrop" data-cmdk-close></div>
       <div class="cmdk-box" role="dialog" aria-modal="true" aria-label="command palette">
-        <input id="cmdkInput" class="cmdk-input" type="text" spellcheck="false" autocomplete="off" />
+        <input id="cmdkInput" class="cmdk-input" type="text" spellcheck="false" autocomplete="off" aria-label="Search countries and facilities / 搜索国家或设施" />
         <div id="cmdkList" class="cmdk-list" role="listbox"></div>
         <div class="cmdk-hint"><span>↑↓ <span class="en">NAVIGATE</span><span class="zh">导航</span> · ↵ <span class="en">SELECT</span><span class="zh">选择</span></span><span>ESC <span class="en">CLOSE</span><span class="zh">关闭</span></span></div>
       </div>
@@ -2132,6 +2293,7 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
 
       const qs = new URLSearchParams(location.search);
       const noMotion = matchMedia("(prefers-reduced-motion: reduce)").matches || qs.has("noanim");
+      const coarsePointer = matchMedia("(pointer: coarse)").matches;
       const tip = document.getElementById("tip");
       let mapMetric = "mw";
       let selState = null;
@@ -2145,6 +2307,7 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
       let realTileLayer = null;
       let realCanvas = null;
       let realMarkers = [];
+      let mapTouchHint = null;
 
       const langIndex = () => document.documentElement.dataset.lang === "zh" ? 1 : 0;
       const L = value => Array.isArray(value) ? value[langIndex()] : value;
@@ -2513,6 +2676,9 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
           : "";
         const el = document.getElementById("heroGW");
         el.setAttribute("aria-label", `${targetStr} ${isTW ? "TW" : "GW"}`);
+        // §8: the odometer digits are aria-hidden; announce the settled
+        // figure through the polite live region instead.
+        document.getElementById("heroLive").textContent = `${targetStr} ${isTW ? "TW" : "GW"} ${langIndex() ? "追踪容量" : "tracked"}`;
         const strip = Array.from({ length: 10 }, (_, d) => `<span>${d}</span>`).join("");
         el.innerHTML = targetStr.split("").map(ch => /\d/.test(ch)
           ? `<span class="od" aria-hidden="true"><span class="odp">${ch}</span><span class="ods">${strip}</span></span>`
@@ -2612,6 +2778,35 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         }).addTo(realMap);
         realMapLayer = window.L.layerGroup().addTo(realMap);
         realMap.on("zoomend", updateFacilityDots);
+        // §7.4: on touch devices one-finger swipes keep scrolling the page —
+        // the map pans with two fingers (pinch-zoom already does). A brief
+        // overlay explains itself when a single-finger drag is attempted.
+        // Fullscreen re-enables one-finger panning (no page to scroll).
+        if (coarsePointer) {
+          realMap.dragging.disable();
+          mapTouchHint = document.createElement("div");
+          mapTouchHint.className = "maphint";
+          mapTouchHint.setAttribute("aria-hidden", "true");
+          document.getElementById("realMap").appendChild(mapTouchHint);
+          let hintTimer = null;
+          const container = realMap.getContainer();
+          container.addEventListener("touchstart", e => {
+            if (document.fullscreenElement) return;
+            if (e.touches.length >= 2) {
+              realMap.dragging.enable();
+              mapTouchHint.classList.remove("show");
+            } else {
+              realMap.dragging.disable();
+            }
+          }, { passive: true });
+          container.addEventListener("touchmove", e => {
+            if (document.fullscreenElement || e.touches.length !== 1) return;
+            mapTouchHint.textContent = langIndex() ? "使用双指移动地图" : "USE TWO FINGERS TO MOVE THE MAP";
+            mapTouchHint.classList.add("show");
+            clearTimeout(hintTimer);
+            hintTimer = setTimeout(() => mapTouchHint.classList.remove("show"), 1100);
+          }, { passive: true });
+        }
         setTimeout(() => realMap.invalidateSize(), 0);
         return true;
       }
@@ -2805,6 +3000,8 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
           tile.style.gridRow = s.row + 1;
           tile.style.gridColumn = s.col + 1;
           tile.innerHTML = `<span class="ab">${esc(s.abbr)}</span><span class="tv">${mapMetric === "mw" ? (s.capacity_mw >= 1000 ? `${(s.capacity_mw / 1000).toFixed(0)}G` : `${Math.round(s.capacity_mw)}M`) : fmt(s.facilities)}</span>`;
+          // §8: hover-only tooltip content mirrored for keyboard/SR users.
+          tile.setAttribute("aria-label", `${langIndex() ? s.name_zh : s.name_en} · ${fmt(s.facilities)} ${L(I18N.facilities)} · ${fmtMW(s.capacity_mw)}`);
           tile.addEventListener("mousemove", ev => showTip(`<div class="t1">${esc(langIndex() ? s.name_zh : s.name_en)}</div><div class="t2">${fmt(s.facilities)} ${L(I18N.facilities)} · ${fmtMW(s.capacity_mw)}</div>`, ev));
           tile.addEventListener("mouseleave", hideTip);
           tile.addEventListener("click", () => {
@@ -2913,8 +3110,10 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         const pts = cumOp.map((v, i) => `${((i + 0.5) / years.length * 100).toFixed(2)},${(100 - v / axisMax * 100).toFixed(2)}`).join(" ");
         el.innerHTML = years.map((y, i) => {
           const total = waveTotal(y);
+          // §8: hover-only tooltip content mirrored for keyboard/SR users.
+          const srLabel = `${y.year}: ${WAVE_SEGS.map(seg => `${langIndex() ? seg.labelZh : seg.labelEn} ${waveMetric === "mw" ? fmtMW(waveVal(y, seg.key)) : fmt(waveVal(y, seg.key))}`).join(", ")}`;
           return `
-          <div class="wcol" data-index="${i}">
+          <div class="wcol" data-index="${i}" role="img" tabindex="0" aria-label="${esc(srLabel)}">
             ${WAVE_SEGS.map((seg, j) => `
               <div class="wseg" style="height:${px(waveVal(y, seg.key))}px; background:var(${seg.var}); --d:${(i * 0.04 + j * 0.04).toFixed(2)}s"></div>`).join("")}
             <div class="wtot" style="--d:${(i * 0.04 + 0.12).toFixed(2)}s">${total >= 1 ? (waveMetric === "mw" ? fmtMW(total) : fmt(total)) : ""}</div>
@@ -3073,7 +3272,7 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
 
       function rowHTML(c, i) {
         return `
-          <tr class="vrow" data-i="${i}" data-slug="${esc(c.slug || "")}" style="cursor:pointer">
+          <tr class="vrow" data-i="${i}" data-slug="${esc(c.slug || "")}" tabindex="0" style="cursor:pointer">
             <td class="proj"><b>${esc(c.project)}${c.est ? ` <span class="estbadge" title="${L(I18N.dc.estTitle)}">${L(I18N.dc.estBadge)}</span>` : ""}</b><span class="own">${esc(c.developer)}</span></td>
             <td class="geo">${esc(c.county)}, ${esc(c.subnational || c.state)} · ${esc(c.country)}</td>
             <td class="cap"><span class="capv">${fmtMW(c.capacity_mw)}</span><span class="capbar"><i style="width:${Math.max(1.2, c.capacity_mw / vMaxMW * 100).toFixed(1)}%"></i></span></td>
@@ -3128,6 +3327,9 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         });
       });
       addEventListener("resize", () => {
+        // §7.3: crossing the 680px card breakpoint changes the row height;
+        // drop the cached measurement so the spacer math re-syncs.
+        vMeasured = false;
         vFirst = -1;
         renderWindow();
       });
@@ -3160,20 +3362,31 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         const stateFilter = selCountry === "US" ? selState : (selCountry ? state : "");
         chip.style.display = stateFilter ? "" : "none";
         chip.textContent = stateFilter ? `${stateFilter} x` : "";
+        if (stateFilter) chip.setAttribute("aria-label", `${langIndex() ? "清除地区筛选" : "Clear area filter"}: ${stateFilter}`);
         const searchChip = document.getElementById("fSearchClear");
         searchChip.style.display = q ? "" : "none";
         searchChip.textContent = q ? `✕ ${L(I18N.searchClear)}` : "";
         ["mw", "y", "geo"].forEach(k => {
           document.getElementById(`car-${k}`).textContent = sortKey === k ? (sortDir < 0 ? "▼" : "▲") : "";
         });
+        document.querySelectorAll("th.sortable").forEach(th => {
+          th.setAttribute("aria-sort", th.dataset.sort === sortKey ? (sortDir < 0 ? "descending" : "ascending") : "none");
+        });
         // Every filter path (status/state/search/scope drill) funnels through
         // here, so this one hook keeps the hash current (plan §3.3).
         syncUrl();
       }
 
+      // §8: both dialogs trap Tab, focus their first control on open and
+      // hand focus back to the opener on close.
+      let dcReturnFocus = null;
       function closeDcModal() {
-        document.getElementById("dcModal").hidden = true;
+        const modal = document.getElementById("dcModal");
+        if (modal.hidden) return;
+        modal.hidden = true;
         document.body.style.overflow = "";
+        if (dcReturnFocus && document.contains(dcReturnFocus)) dcReturnFocus.focus();
+        dcReturnFocus = null;
       }
 
       const dcMetaCache = new Map();
@@ -3235,6 +3448,7 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         if (note) items.push(part(L(I18N.dc.notes), esc(note).replace(/\n/g, "<br>")));
 
         const modal = document.getElementById("dcModal");
+        const wasHidden = modal.hidden;
         document.getElementById("dcModalTitle").innerHTML =
           `${esc(title)}${row && row.est ? ` <span class="estbadge" title="${L(I18N.dc.estTitle)}">${L(I18N.dc.estBadge)}</span>` : ""}`;
         document.getElementById("dcModalSub").textContent = slug ? esc(slug) : "";
@@ -3242,6 +3456,10 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         modal.hidden = false;
         document.body.style.overflow = "hidden";
         modal.querySelector(".dc-modal-box").scrollTop = 0;
+        if (wasHidden) {
+          dcReturnFocus = document.activeElement;
+          modal.querySelector(".dc-modal-close").focus();
+        }
       }
 
       function buildEvidence() {
@@ -3338,8 +3556,10 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         cmdkActive = 0;
         cmdkRender();
       }
+      let cmdkReturnFocus = null;
       function openCmdk() {
         loadCorpus();
+        cmdkReturnFocus = document.activeElement;
         cmdkEl.hidden = false;
         document.body.style.overflow = "hidden";
         cmdkInput.value = "";
@@ -3350,6 +3570,8 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
       function closeCmdk() {
         cmdkEl.hidden = true;
         document.body.style.overflow = "";
+        if (cmdkReturnFocus && document.contains(cmdkReturnFocus)) cmdkReturnFocus.focus();
+        cmdkReturnFocus = null;
       }
       function cmdkPick(i) {
         const r = cmdkResults[i];
@@ -3463,7 +3685,15 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
       document.querySelectorAll("[data-map-metric]").forEach(button => button.addEventListener("click", () => setMapMetric(button.dataset.mapMetric)));
       document.querySelectorAll("[data-wave-metric]").forEach(button => button.addEventListener("click", () => setWaveTab(button.dataset.waveMetric)));
       document.querySelectorAll("[data-dev-tab]").forEach(button => button.addEventListener("click", () => setDevTab(button.dataset.devTab)));
-      document.querySelectorAll("[data-sort]").forEach(th => th.addEventListener("click", () => setSort(th.dataset.sort)));
+      document.querySelectorAll("[data-sort]").forEach(th => {
+        th.addEventListener("click", () => setSort(th.dataset.sort));
+        th.addEventListener("keydown", e => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            setSort(th.dataset.sort);
+          }
+        });
+      });
       document.getElementById("fStatus").addEventListener("change", renderTable);
       document.getElementById("fState").addEventListener("change", renderTable);
       const fSearchEl = document.getElementById("fSearch");
@@ -3492,6 +3722,12 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
       document.addEventListener("fullscreenchange", () => {
         syncMapFullLabel();
         if (realMap) setTimeout(() => realMap.invalidateSize(), 50);
+        // §7.4: fullscreen has no page scroll to protect — one finger pans.
+        if (coarsePointer && realMap) {
+          if (document.fullscreenElement) realMap.dragging.enable();
+          else realMap.dragging.disable();
+          if (mapTouchHint) mapTouchHint.classList.remove("show");
+        }
       });
       syncMapFullLabel();
       document.getElementById("fClear").addEventListener("click", clearStateFilter);
@@ -3502,6 +3738,23 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         const idx = Number(tr.dataset.i);
         openDcDetail(slug, slug ? (rowBySlug.get(slug) || null) : (currentRows[idx] || null));
       });
+      // §8: rows are focusable (tabindex in rowHTML); Enter/Space opens the
+      // same detail modal as a click.
+      document.getElementById("tbody").addEventListener("keydown", e => {
+        if (e.key !== "Enter" && e.key !== " ") return;
+        const tr = e.target.closest("tr[data-slug]");
+        if (!tr) return;
+        e.preventDefault();
+        const slug = tr.dataset.slug || "";
+        openDcDetail(slug, slug ? (rowBySlug.get(slug) || null) : (currentRows[Number(tr.dataset.i)] || null));
+      });
+      // §7.5: emulated mouse events pin the tooltip on tap; a tap anywhere
+      // outside a chart element dismisses it.
+      if (coarsePointer) {
+        document.addEventListener("touchstart", e => {
+          if (!e.target.closest(".wcol, .frow, .tile")) hideTip();
+        }, { passive: true });
+      }
       document.addEventListener("click", e => {
         if (e.target.closest("[data-dc-close]")) closeDcModal();
         const dev = e.target.closest("[data-dev-scope]");
@@ -3525,6 +3778,34 @@ const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
         if (e.key === "Escape") {
           if (!cmdkEl.hidden) closeCmdk();
           else closeDcModal();
+          return;
+        }
+        // §8: while a dialog is open, Tab cycles inside it.
+        if (e.key === "Tab") {
+          const box = !cmdkEl.hidden
+            ? cmdkEl.querySelector(".cmdk-box")
+            : !document.getElementById("dcModal").hidden
+              ? document.getElementById("dcModalBox")
+              : null;
+          if (!box) return;
+          const items = [...box.querySelectorAll('a[href], button:not([disabled]), input, select, [tabindex]:not([tabindex="-1"])')]
+            .filter(el => el.offsetWidth || el.offsetHeight);
+          if (!items.length) {
+            e.preventDefault();
+            return;
+          }
+          const first = items[0];
+          const last = items[items.length - 1];
+          if (!box.contains(document.activeElement)) {
+            e.preventDefault();
+            first.focus();
+          } else if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
         }
       });
 

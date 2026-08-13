@@ -795,64 +795,6 @@ const baseUrl = import.meta.env.BASE_URL;
         border-color: var(--acc);
       }
 
-      .frow {
-        display: grid;
-        grid-template-columns: 150px minmax(0, 1fr) 172px;
-        align-items: center;
-        gap: 14px;
-        padding: 7px 0;
-      }
-
-      .frow .fl {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 8px;
-        color: var(--ink2);
-        text-align: right;
-        font: 12px var(--mono);
-      }
-
-      .fdot {
-        width: 9px;
-        height: 9px;
-        border-radius: 3px;
-        flex: none;
-      }
-
-      .fbar {
-        height: 34px;
-        overflow: hidden;
-        border-radius: 6px;
-        background: var(--sf2);
-      }
-
-      .fbar i {
-        display: block;
-        width: 0;
-        height: 100%;
-        border-radius: 0 4px 4px 0;
-        transition: width 1s cubic-bezier(0.25, 0.7, 0.25, 1);
-      }
-
-      .in .fbar i {
-        width: var(--w);
-      }
-
-      .frow .fv {
-        font: 13px var(--mono);
-      }
-
-      .frow .fv b {
-        font-size: 15px;
-      }
-
-      .frow .fv span {
-        display: block;
-        color: var(--mut);
-        font-size: 11px;
-      }
-
       .wavebox {
         display: flex;
         gap: 12px;
@@ -897,82 +839,10 @@ const baseUrl = import.meta.env.BASE_URL;
         border-bottom: 1px solid var(--ln2);
       }
 
-      .wcol {
-        position: relative;
-        display: flex;
-        flex: 1;
-        flex-direction: column-reverse;
-        align-items: stretch;
-        min-width: 0;
-        cursor: default;
-      }
-
-      .wseg {
-        width: 100%;
-        transform: scaleY(0);
-        transform-origin: bottom;
-        transition: transform 0.8s cubic-bezier(0.25, 0.7, 0.25, 1);
-        transition-delay: var(--d, 0s);
-        border-radius: 2px;
-      }
-
-      .in .wseg {
-        transform: scaleY(1);
-      }
-
-      .wseg + .wseg {
-        margin-bottom: 2px;
-      }
-
-      .wseg:last-child {
-        border-radius: 5px 5px 2px 2px;
-      }
-
-      .wcol:hover .wseg {
-        filter: brightness(1.12);
-      }
-
-      .wcol:not(:hover) .wseg.on {
-        filter: brightness(0.92);
-      }
-
-      .wtot {
-        position: absolute;
-        inset: -26px 0 auto;
-        color: var(--txt);
-        text-align: center;
-        font: 600 11px var(--mono);
-        white-space: nowrap;
-        overflow: visible;
-        text-shadow: 0 1px 0 var(--bg);
-        opacity: 0;
-        transform: translateY(4px);
-        transition: opacity 0.3s, transform 0.3s;
-        transition-delay: var(--d, 0s);
-      }
-
-      .in .wtot {
-        opacity: 1;
-        transform: translateY(0);
-      }
-
       .wx {
         display: flex;
         gap: 8px;
         margin-top: 8px;
-      }
-
-      .wx span {
-        flex: 1;
-        color: var(--mut);
-        text-align: center;
-        font: 10px var(--mono);
-        white-space: nowrap;
-      }
-
-      .wx span.hl {
-        color: var(--txt);
-        font-weight: 600;
       }
 
       .chart-legend {
@@ -988,52 +858,10 @@ const baseUrl = import.meta.env.BASE_URL;
         border-radius: 3px;
       }
 
-      .drow {
-        display: grid;
-        grid-template-columns: 26px 216px minmax(0, 1fr) 128px;
-        align-items: center;
-        gap: 12px;
-        padding: 6px 0;
-      }
-
-      .drow .rk {
-        color: var(--mut);
-        text-align: right;
-        font: 11px var(--mono);
-      }
-
-      .drow .dn {
-        overflow: hidden;
-        color: var(--ink);
-        font-size: 13px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-      }
-
-      .dbar {
-        height: 20px;
-        overflow: hidden;
-        border-radius: 5px;
-        background: var(--sf2);
-      }
-
-      .dbar i {
-        display: block;
-        width: 0;
-        height: 100%;
-        border-radius: 0 4px 4px 0;
-        background: var(--b2);
-        transition: width 0.9s cubic-bezier(0.25, 0.7, 0.25, 1);
-        transition-delay: var(--d, 0s);
-      }
-
-      .in .dbar i {
-        width: var(--w);
-      }
-
-      .drow .dv {
-        color: var(--ink2);
-        font: 12px var(--mono);
+      .chart-legend .swline {
+        height: 3px;
+        border-radius: 2px;
+        background: var(--acc);
       }
 
       .filters {
@@ -1343,15 +1171,6 @@ const baseUrl = import.meta.env.BASE_URL;
         font: 12px var(--mono);
       }
 
-      #tip .t1 {
-        margin-bottom: 3px;
-        font-weight: 700;
-      }
-
-      #tip .t2 {
-        color: var(--ink2);
-      }
-
       @media (max-width: 920px) {
         .maprow,
         .realmap-wrap {
@@ -1360,10 +1179,6 @@ const baseUrl = import.meta.env.BASE_URL;
 
         .stats {
           grid-template-columns: repeat(2, 1fr);
-        }
-
-        .drow {
-          grid-template-columns: 22px 130px minmax(0, 1fr) 106px;
         }
       }
 
@@ -1391,19 +1206,11 @@ const baseUrl = import.meta.env.BASE_URL;
           display: none;
         }
 
-        .frow {
-          grid-template-columns: 106px minmax(0, 1fr) 120px;
-        }
-
         .realmap {
           min-height: 340px;
         }
 
         .brand span:not(.blk) {
-          display: none;
-        }
-
-        .wtot {
           display: none;
         }
       }
@@ -1428,19 +1235,6 @@ const baseUrl = import.meta.env.BASE_URL;
       }
 
       /* DC detail modal */
-      .estbadge {
-        display: inline-block;
-        margin-left: 6px;
-        padding: 0 5px;
-        border: 1px solid var(--acc);
-        border-radius: 4px;
-        color: var(--acc);
-        font-size: 10px;
-        font-weight: 600;
-        line-height: 1.5;
-        vertical-align: 1px;
-        letter-spacing: 0.03em;
-      }
       .dc-modal {
         position: fixed;
         inset: 0;
@@ -1508,30 +1302,6 @@ const baseUrl = import.meta.env.BASE_URL;
         gap: 9px 16px;
         font-size: 13.5px;
         line-height: 1.55;
-      }
-      .dc-modal-body dt {
-        color: var(--mut);
-      }
-      .dc-modal-body dd {
-        margin: 0;
-        color: var(--ink2);
-        word-break: break-word;
-      }
-      .dc-modal-body a {
-        color: var(--acc);
-        text-decoration: none;
-      }
-      .dc-modal-body a:hover {
-        text-decoration: underline;
-      }
-      .dc-note {
-        grid-column: 1 / -1;
-        padding: 8px 10px;
-        border: 1px dashed var(--ln2);
-        border-radius: 8px;
-        color: var(--mut);
-        font-size: 12px;
-        margin-bottom: 2px;
       }
     </style>
     <!-- Global (unscoped) on purpose: the palette rows are injected at
@@ -1696,6 +1466,288 @@ const baseUrl = import.meta.env.BASE_URL;
           display: none;
         }
       }
+      /* Chart + modal rows are injected via innerHTML too (funnel .frow,
+         wave .wcol, operator .drow, modal dt/dd, tooltip lines), so their
+         rules moved here from the scoped block, verbatim — in the scoped
+         block they compiled to [data-astro-cid] selectors that never match
+         runtime nodes, leaving the charts unstyled. */
+      .frow {
+        display: grid;
+        grid-template-columns: 150px minmax(0, 1fr) 172px;
+        align-items: center;
+        gap: 14px;
+        padding: 7px 0;
+      }
+      .frow .fl {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 8px;
+        color: var(--ink2);
+        text-align: right;
+        font: 12px var(--mono);
+      }
+      .fdot {
+        width: 9px;
+        height: 9px;
+        border-radius: 3px;
+        flex: none;
+      }
+      .fbar {
+        height: 34px;
+        overflow: hidden;
+        border-radius: 6px;
+        background: var(--sf2);
+      }
+      .fbar i {
+        display: block;
+        width: 0;
+        height: 100%;
+        border-radius: 0 4px 4px 0;
+        transition: width 1s cubic-bezier(0.25, 0.7, 0.25, 1);
+      }
+      .in .fbar i {
+        width: var(--w);
+      }
+      .frow .fv {
+        font: 13px var(--mono);
+      }
+      .frow .fv b {
+        font-size: 15px;
+      }
+      .frow .fv span {
+        display: block;
+        color: var(--mut);
+        font-size: 11px;
+      }
+      .wcol {
+        position: relative;
+        display: flex;
+        flex: 1;
+        flex-direction: column-reverse;
+        align-items: stretch;
+        min-width: 0;
+        cursor: default;
+      }
+      .wseg {
+        width: 100%;
+        transform: scaleY(0);
+        transform-origin: bottom;
+        transition: transform 0.8s cubic-bezier(0.25, 0.7, 0.25, 1);
+        transition-delay: var(--d, 0s);
+        border-radius: 2px;
+      }
+      .in .wseg {
+        transform: scaleY(1);
+      }
+      .wseg + .wseg {
+        margin-bottom: 2px;
+      }
+      .wseg:last-child {
+        border-radius: 5px 5px 2px 2px;
+      }
+      .wcol:hover .wseg {
+        filter: brightness(1.12);
+      }
+      .wcol:not(:hover) .wseg.on {
+        filter: brightness(0.92);
+      }
+      .wtot {
+        position: absolute;
+        inset: -26px 0 auto;
+        color: var(--txt);
+        text-align: center;
+        font: 600 11px var(--mono);
+        white-space: nowrap;
+        overflow: visible;
+        text-shadow: 0 1px 0 var(--bg);
+        opacity: 0;
+        transform: translateY(4px);
+        transition: opacity 0.3s, transform 0.3s;
+        transition-delay: var(--d, 0s);
+      }
+      .in .wtot {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .wx span {
+        flex: 1;
+        color: var(--mut);
+        text-align: center;
+        font: 10px var(--mono);
+        white-space: nowrap;
+      }
+      .wx span.hl {
+        color: var(--txt);
+        font-weight: 600;
+      }
+      .drow {
+        display: grid;
+        grid-template-columns: 26px 216px minmax(0, 1fr) 128px;
+        align-items: center;
+        gap: 12px;
+        padding: 6px 0;
+      }
+      .drow .rk {
+        color: var(--mut);
+        text-align: right;
+        font: 11px var(--mono);
+      }
+      .drow .dn {
+        overflow: hidden;
+        color: var(--ink);
+        font-size: 13px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .dbar {
+        height: 20px;
+        overflow: hidden;
+        border-radius: 5px;
+        background: var(--sf2);
+      }
+      .dbar i {
+        display: block;
+        width: 0;
+        height: 100%;
+        border-radius: 0 4px 4px 0;
+        background: var(--b2);
+        transition: width 0.9s cubic-bezier(0.25, 0.7, 0.25, 1);
+        transition-delay: var(--d, 0s);
+      }
+      .in .dbar i {
+        width: var(--w);
+      }
+      .drow .dv {
+        color: var(--ink2);
+        font: 12px var(--mono);
+      }
+      #tip .t1 {
+        margin-bottom: 3px;
+        font-weight: 700;
+      }
+      #tip .t2 {
+        color: var(--ink2);
+      }
+      .estbadge {
+        display: inline-block;
+        margin-left: 6px;
+        padding: 0 5px;
+        border: 1px solid var(--acc);
+        border-radius: 4px;
+        color: var(--acc);
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 1.5;
+        vertical-align: 1px;
+        letter-spacing: 0.03em;
+      }
+      .dc-modal-body dt {
+        color: var(--mut);
+      }
+      .dc-modal-body dd {
+        margin: 0;
+        color: var(--ink2);
+        word-break: break-word;
+      }
+      .dc-modal-body a {
+        color: var(--acc);
+        text-decoration: none;
+      }
+      .dc-modal-body a:hover {
+        text-decoration: underline;
+      }
+      .dc-note {
+        grid-column: 1 / -1;
+        padding: 8px 10px;
+        border: 1px dashed var(--ln2);
+        border-radius: 8px;
+        color: var(--mut);
+        font-size: 12px;
+        margin-bottom: 2px;
+      }
+      @media (max-width: 920px) {
+        .drow {
+          grid-template-columns: 22px 130px minmax(0, 1fr) 106px;
+        }
+      }
+      @media (max-width: 680px) {
+        .frow {
+          grid-template-columns: 106px minmax(0, 1fr) 120px;
+        }
+
+        .wtot {
+          display: none;
+        }
+      }
+      /* Slice 7 (§4.1/§4.2/§4.4) additions. */
+      /* §4.1: stage-to-stage conversion line between adjacent funnel bars.
+         Mirrors the .frow grid so the ratio sits under the bar column. */
+      .fratio {
+        display: grid;
+        grid-template-columns: 150px minmax(0, 1fr) 172px;
+        gap: 14px;
+      }
+      .fratio span {
+        grid-column: 2;
+        padding-left: 2px;
+        color: var(--mut);
+        font: 11px var(--mono);
+      }
+      @media (max-width: 680px) {
+        .fratio {
+          grid-template-columns: 106px minmax(0, 1fr) 120px;
+        }
+      }
+      /* §4.2: cumulative operational stock line over the column stack.
+         Height matches the 212px plot area the gridlines are sized to. */
+      .opsline {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 212px;
+        overflow: visible;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.8s 0.5s;
+      }
+      .in .opsline {
+        opacity: 1;
+      }
+      .opsline polyline {
+        fill: none;
+        stroke: var(--acc);
+        stroke-width: 2;
+        stroke-linejoin: round;
+        stroke-linecap: round;
+        vector-effect: non-scaling-stroke;
+      }
+      /* §4.4: operator rows double as registry navigation. */
+      .drow.clk {
+        cursor: pointer;
+      }
+      .drow.clk:hover .dn,
+      .drow.clk:focus-visible .dn {
+        color: var(--acc-ink);
+      }
+      .drow.clk:hover .dbar i {
+        filter: brightness(1.12);
+      }
+      .dc-devlink {
+        padding: 0;
+        border: none;
+        background: none;
+        color: var(--acc);
+        cursor: pointer;
+        font: inherit;
+        text-decoration: underline dotted;
+        text-underline-offset: 3px;
+      }
+      .dc-devlink:hover {
+        text-decoration-style: solid;
+      }
     </style>
   </head>
   <body>
@@ -1844,6 +1896,7 @@ const baseUrl = import.meta.env.BASE_URL;
               <div class="lg"><span class="sw" style="background:var(--st-op)"></span><span class="en">Operational</span><span class="zh">运营中</span></div>
               <div class="lg"><span class="sw" style="background:var(--st-con)"></span><span class="en">Under construction</span><span class="zh">在建</span></div>
               <div class="lg"><span class="sw" style="background:var(--st-app)"></span><span class="en">Pipeline (announced / planned / approved)</span><span class="zh">储备（公告/规划/批准）</span></div>
+              <div class="lg"><span class="sw swline"></span><span class="en">Cumulative operational (stock)</span><span class="zh">累计运营（存量）</span></div>
             </div>
           </div>
         </div>
@@ -1995,7 +2048,8 @@ const baseUrl = import.meta.env.BASE_URL;
           sources: ["Sources", "来源"],
           notes: ["Notes", "备注"],
           estBadge: ["~est", "~估"],
-          estTitle: ["estimated capacity", "估算容量"]
+          estTitle: ["estimated capacity", "估算容量"],
+          devScope: ["filter the registry to this operator, worldwide", "在全球范围筛选该开发商的项目"]
         },
         legMW: ["<1 GW", "1-5 GW", "5-15 GW", "15-45 GW", "45+ GW"],
         legN: ["<20", "20-49", "50-89", "90-149", "150+"]
@@ -2646,20 +2700,43 @@ const baseUrl = import.meta.env.BASE_URL;
         const planned = funnel.find(f => f.key === "pla");
         const operational = funnel.find(f => f.key === "op");
         const prefix = selectedCountry() ? `${countryName(selectedCountry())}: ` : "";
+        // §4.1: headline the planned-vs-live multiple — every stage that is
+        // not yet operational, expressed as a multiple of what is live today.
+        const notLiveMw = funnel.filter(f => f.key !== "op").reduce((sum, f) => sum + f.capacity_mw, 0);
+        const multiple = operational.capacity_mw > 0 ? notLiveMw / operational.capacity_mw : null;
+        const wave = multiple != null && isFinite(multiple) && multiple > 0
+          ? (langIndex() ? ` — 还有 ${multiple.toFixed(1)}× 的浪潮待落地` : ` — a ${multiple.toFixed(1)}× wave still to land`)
+          : "";
         document.getElementById("funnelTitle").innerHTML = langIndex()
-          ? `${prefix}规划 ${fmtMW(planned.capacity_mw)} 对比在运 ${fmtMW(operational.capacity_mw)}`
-          : `${prefix}${fmtMW(planned.capacity_mw)} planned vs ${fmtMW(operational.capacity_mw)} live`;
+          ? `${prefix}规划 ${fmtMW(planned.capacity_mw)} 对比在运 ${fmtMW(operational.capacity_mw)}${wave}`
+          : `${prefix}${fmtMW(planned.capacity_mw)} planned vs ${fmtMW(operational.capacity_mw)} live${wave}`;
       }
 
       function buildFunnel() {
         const funnel = scopedFunnel();
         const max = Math.max(1, ...funnel.map(f => f.capacity_mw));
-        document.getElementById("funnel").innerHTML = funnel.map(f => `
-          <div class="frow">
+        const totalMw = funnel.reduce((sum, f) => sum + f.capacity_mw, 0);
+        document.getElementById("funnel").innerHTML = funnel.map((f, i) => {
+          // §4.1: print the stage-to-stage capacity ratio between bars.
+          const prev = i > 0 ? funnel[i - 1] : null;
+          const ratio = prev && prev.capacity_mw > 0 ? Math.round(f.capacity_mw / prev.capacity_mw * 100) : null;
+          const ratioTitle = langIndex() ? "相对上一阶段的容量比" : "capacity vs previous stage";
+          return `
+          ${ratio == null ? "" : `<div class="fratio"><span title="${ratioTitle}">→ ${ratio}%</span></div>`}
+          <div class="frow" data-fi="${i}">
             <div class="fl"><span class="fdot" style="background:${stColor(f.key)}"></span>${I18N.st[f.key][langIndex()]}</div>
             <div class="fbar"><i style="--w:${(f.capacity_mw / max * 100).toFixed(1)}%; background:${stColor(f.key)}"></i></div>
             <div class="fv"><b>${fmtMW(f.capacity_mw)}</b><span>${fmt(f.count)} ${L(I18N.projects)}</span></div>
-          </div>`).join("");
+          </div>`;
+        }).join("");
+        document.querySelectorAll("#funnel .frow").forEach(rowEl => {
+          rowEl.addEventListener("mousemove", ev => {
+            const f = funnel[Number(rowEl.dataset.fi)];
+            const share = totalMw > 0 ? (f.capacity_mw / totalMw * 100).toFixed(1) : "0.0";
+            showTip(`<div class="t1">${I18N.st[f.key][langIndex()]}</div><div class="t2">${fmtMW(f.capacity_mw)} · ${fmt(f.count)} ${L(I18N.projects)}<br>${langIndex() ? "占全部阶段容量" : "share of all stages"}: ${share}%</div>`, ev);
+          });
+          rowEl.addEventListener("mouseleave", hideTip);
+        });
       }
 
       let waveMetric = "n";
@@ -2688,8 +2765,15 @@ const baseUrl = import.meta.env.BASE_URL;
         const yl = document.getElementById("waveY");
         const years = scopedYears();
         const maxTotal = Math.max(1, ...years.map(waveTotal));
+        // §4.2: cumulative operational overlay — the running stock of what is
+        // actually energized, drawn over the per-year flow columns. One shared
+        // axis: the scale stretches to whichever is taller, stack or stock.
+        let running = 0;
+        const cumOp = years.map(y => (running += waveVal(y, "operational")));
+        const axisMax = Math.max(maxTotal, cumOp[cumOp.length - 1] || 0);
         const height = 212;
-        const px = v => Math.max(v > 0 ? 2 : 0, v / maxTotal * height);
+        const px = v => Math.max(v > 0 ? 2 : 0, v / axisMax * height);
+        const pts = cumOp.map((v, i) => `${((i + 0.5) / years.length * 100).toFixed(2)},${(100 - v / axisMax * 100).toFixed(2)}`).join(" ");
         el.innerHTML = years.map((y, i) => {
           const total = waveTotal(y);
           return `
@@ -2698,12 +2782,14 @@ const baseUrl = import.meta.env.BASE_URL;
               <div class="wseg" style="height:${px(waveVal(y, seg.key))}px; background:var(${seg.var}); --d:${(i * 0.04 + j * 0.04).toFixed(2)}s"></div>`).join("")}
             <div class="wtot" style="--d:${(i * 0.04 + 0.12).toFixed(2)}s">${total >= 1 ? (waveMetric === "mw" ? fmtMW(total) : fmt(total)) : ""}</div>
           </div>`;
-        }).join("");
+        }).join("") + `<svg class="opsline" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polyline points="${pts}"/></svg>`;
         xl.innerHTML = years.map(y => {
           const last = y.year % 5 === 0 || y.year === 2030;
           return `<span class="${last ? "hl" : ""}">'${String(y.year).slice(2)}</span>`;
         }).join("");
-        const ticks = [0, 0.25, 0.5, 0.75, 1].map(f => waveTick(maxTotal * f));
+        // Axis reads top-down: max at the top, zero on the baseline; counts
+        // round to whole facilities.
+        const ticks = [1, 0.75, 0.5, 0.25, 0].map(f => waveTick(waveMetric === "mw" ? axisMax * f : Math.round(axisMax * f)));
         yl.innerHTML = ticks.map(t => `<span>${t}</span>`).join("");
         el.querySelectorAll(".wcol").forEach(col => {
           col.addEventListener("mousemove", ev => {
@@ -2715,7 +2801,9 @@ const baseUrl = import.meta.env.BASE_URL;
               return `${langIndex() ? seg.labelZh : seg.labelEn}: ${waveMetric === "mw" ? fmtMW(v) : fmt(v)}${waveMetric === "mw" ? "" : ` · ${pct}%`}`;
             }).join("<br>");
             const totalLabel = waveMetric === "mw" ? fmtMW(total) : fmt(total);
-            showTip(`<div class="t1">${y.year}</div><div class="t2">${parts}<br><b>${langIndex() ? "合计" : "Total"}: ${totalLabel}</b></div>`, ev);
+            const cum = cumOp[Number(col.dataset.index)];
+            const cumLabel = waveMetric === "mw" ? fmtMW(cum) : fmt(cum);
+            showTip(`<div class="t1">${y.year}</div><div class="t2">${parts}<br><b>${langIndex() ? "合计" : "Total"}: ${totalLabel}</b><br>${langIndex() ? "累计运营" : "Cumulative operational"}: ${cumLabel}</div>`, ev);
           });
           col.addEventListener("mouseleave", hideTip);
         });
@@ -2744,7 +2832,11 @@ const baseUrl = import.meta.env.BASE_URL;
           const detail = devTab === "mw"
             ? `${fmtMW(r.capacity_mw)} · ${fmt(r.facilities)} ${langIndex() ? "个站点" : r.facilities === 1 ? "site" : "sites"}`
             : `${fmt(r.facilities)} ${langIndex() ? "个站点" : "sites"} · ${fmtMW(r.capacity_mw)}`;
-          return `<div class="drow">
+          // §4.4: rows navigate to the registry scoped to that operator; the
+          // "Unknown operator" bucket is an aggregate, not a searchable name.
+          const clickable = !/^unknown operator$/i.test(r.name);
+          const nav = clickable ? ` role="button" tabindex="0" data-dev-scope="${esc(r.name)}" title="${esc(L(I18N.dc.devScope))}"` : "";
+          return `<div class="drow${clickable ? " clk" : ""}"${nav}>
             <div class="rk">${String(i + 1).padStart(2, "0")}</div>
             <div class="dn" title="${esc(r.name)}">${esc(r.name)}</div>
             <div class="dbar"><i style="--w:${(value / max * 100).toFixed(1)}%; --d:${i * 0.06}s"></i></div>
@@ -2752,6 +2844,19 @@ const baseUrl = import.meta.env.BASE_URL;
           </div>`;
         }).join("");
         document.getElementById("devs").classList.add("in");
+      }
+
+      // Scoped operators (plan §4.4): an operator name anywhere — leaderboard
+      // row or detail modal — pivots the registry to that developer across
+      // all countries: clear the country scope, set the search box, jump down.
+      function scopeToOperator(name) {
+        if (!name) return;
+        closeDcModal();
+        loadCorpus();
+        document.getElementById("fSearch").value = name;
+        if (selCountry) setCountry(selCountry);
+        else renderTable();
+        document.getElementById("fSearch").scrollIntoView({ block: "center", behavior: noMotion ? "auto" : "smooth" });
       }
 
       function buildFilters() {
@@ -2971,7 +3076,9 @@ const baseUrl = import.meta.env.BASE_URL;
         items.push(part(L(I18N.dc.capacity), capacity != null ? fmtMW(capacity) : "—"));
         items.push(part(L(I18N.dc.status), status ? statusLabel(status) : "—"));
         if (meta && meta.owner) items.push(part(L(I18N.dc.owner), esc(meta.owner)));
-        if (row && row.developer) items.push(part(L(I18N.dc.developer), esc(row.developer)));
+        // §4.4: the developer name is a scoped view — click filters the
+        // registry to that operator worldwide.
+        if (row && row.developer) items.push(part(L(I18N.dc.developer), `<button type="button" class="dc-devlink" data-dev-scope="${esc(row.developer)}" title="${esc(L(I18N.dc.devScope))}">${esc(row.developer)}</button>`));
         items.push(part(L(I18N.dc.location), location ? esc(location) : "—"));
         if (meta && meta.evidence_grade) items.push(part(L(I18N.dc.evidenceGrade), esc(meta.evidence_grade)));
         if (meta && meta.evidence_date) items.push(part(L(I18N.dc.evidenceDate), esc(meta.evidence_date)));
@@ -3184,6 +3291,16 @@ const baseUrl = import.meta.env.BASE_URL;
       });
       document.addEventListener("click", e => {
         if (e.target.closest("[data-dc-close]")) closeDcModal();
+        const dev = e.target.closest("[data-dev-scope]");
+        if (dev) scopeToOperator(dev.dataset.devScope);
+      });
+      document.getElementById("devs").addEventListener("keydown", e => {
+        if (e.key !== "Enter" && e.key !== " ") return;
+        const dev = e.target.closest("[data-dev-scope]");
+        if (dev) {
+          e.preventDefault();
+          scopeToOperator(dev.dataset.devScope);
+        }
       });
       document.addEventListener("keydown", e => {
         if ((e.metaKey || e.ctrlKey) && !e.altKey && (e.key === "k" || e.key === "K")) {

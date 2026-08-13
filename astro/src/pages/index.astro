@@ -1276,6 +1276,11 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         margin-bottom: 14px;
       }
 
+      .tmcard.rv {
+        opacity: 1;
+        transform: none;
+      }
+
       .tm-headline {
         min-width: min(100%, 420px);
       }
@@ -1363,7 +1368,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         margin: 0 auto;
         border: 1px solid var(--ln2);
         border-radius: 8px;
-        background: var(--bg);
+        background: color-mix(in srgb, var(--sf2) 72%, var(--bg) 28%);
         box-shadow:
           inset 0 0 0 1px color-mix(in srgb, var(--sf) 72%, transparent),
           0 18px 48px rgba(0, 0, 0, 0.18);
@@ -1402,20 +1407,18 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       .tm-tile text {
         fill: #fff;
         paint-order: stroke;
-        stroke: rgba(0, 0, 0, 0.4);
-        stroke-width: 4px;
+        stroke: rgba(3, 5, 9, 0.58);
+        stroke-width: 3.6px;
         stroke-linejoin: round;
         font-family: var(--mono);
-        text-anchor: middle;
-        dominant-baseline: middle;
-        filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.46));
+        filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.5));
         pointer-events: none;
         user-select: none;
       }
 
       :root[data-theme="light"] .tm-tile text {
         fill: #fff;
-        stroke: rgba(0, 0, 0, 0.42);
+        stroke: rgba(18, 22, 31, 0.5);
       }
 
       .tm-label {
@@ -1449,6 +1452,16 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         border: 1px solid var(--ln2);
         border-radius: 6px;
         color: var(--ink2);
+        background: color-mix(in srgb, var(--sf) 82%, transparent);
+        font: 12px var(--mono);
+        letter-spacing: 0.04em;
+        cursor: pointer;
+      }
+
+      .tm-back:hover {
+        border-color: color-mix(in srgb, var(--acc) 50%, var(--ln2));
+        color: var(--ink);
+        background: color-mix(in srgb, var(--acc-dim) 46%, var(--sf) 54%);
       }
 
       .tm-back[hidden] {
@@ -2989,7 +3002,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       // country funnel; subnational rows inherit that country phase because the
       // aggregate export does not include subnational funnel breakdowns.
       const TM_SIZE = 1000;
-      const TM_PAD = 2;
+      const TM_PAD = 1.2;
       const TM_PHASES = ["op", "con", "app", "pla", "ann", "unk"];
       const tmColorKey = key => key === "rej" || key === "coverage" || !key ? "unk" : key;
       let tmCountryCode = null;
@@ -3022,19 +3035,19 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
 
       function tmGradientStyle(key) {
         const color = stColor(tmColorKey(key));
-        return `linear-gradient(180deg, color-mix(in srgb, ${color} 72%, #fff 28%), ${color})`;
+        return `linear-gradient(180deg, color-mix(in srgb, ${color} 84%, #fff 16%), ${color})`;
       }
 
       function tmDefs() {
         return `<defs>${TM_PHASES.map(key => {
           const color = stColor(key);
           return `<linearGradient id="${tmGradientId(key)}" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" style="stop-color:color-mix(in srgb, ${color} 72%, #fff 28%)"></stop>
+            <stop offset="0%" style="stop-color:color-mix(in srgb, ${color} 84%, #fff 16%)"></stop>
             <stop offset="100%" style="stop-color:${color}"></stop>
           </linearGradient>
           <linearGradient id="${tmStrokeId(key)}" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" style="stop-color:color-mix(in srgb, ${color} 72%, #111 28%)"></stop>
-            <stop offset="100%" style="stop-color:color-mix(in srgb, ${color} 58%, #000 42%)"></stop>
+            <stop offset="0%" style="stop-color:color-mix(in srgb, ${color} 64%, #111 36%)"></stop>
+            <stop offset="100%" style="stop-color:color-mix(in srgb, ${color} 48%, #000 52%)"></stop>
           </linearGradient>`;
         }).join("")}</defs>`;
       }
@@ -3180,22 +3193,28 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           return { ...d, x, y, w, h, area };
         });
         const tiles = layoutRows.map(d => {
-          const showName = d.w > 70 && d.h > 38 && d.area > 4200;
-          const showValue = d.w > 92 && d.h > 64 && d.area > 8200;
+          const showName = d.w > 82 && d.h > 42 && d.area > 5200;
+          const showValue = d.w > 118 && d.h > 78 && d.area > 11000;
           const label = d.label.length > 18 ? `${d.label.slice(0, 15)}...` : d.label;
-          const labelSize = Math.max(10, Math.min(18, Math.min(d.w / Math.max(4, label.length * 0.62), d.h / 3.8)));
-          const valueSize = Math.max(9, Math.min(12, labelSize * 0.72));
-          const nameY = showValue ? d.h / 2 - labelSize * 0.45 : d.h / 2;
-          const valueY = d.h / 2 + labelSize * 0.72;
+          const labelFit = Math.min(d.w / Math.max(4, label.length * 0.58), d.h / (showValue ? 4.4 : 2.6));
+          const labelSize = Math.max(11, Math.min(30, labelFit));
+          const valueSize = Math.max(10, Math.min(14, labelSize * 0.64));
+          const labelPad = Math.max(10, Math.min(22, Math.min(d.w, d.h) * 0.08));
+          const labelAnchor = showValue ? "start" : "middle";
+          const labelX = showValue ? labelPad : d.w / 2;
+          const nameY = showValue ? labelPad + labelSize * 0.76 : d.h / 2;
+          const valueY = labelPad + labelSize + valueSize * 0.98;
+          const rectRadius = Math.max(0.3, Math.min(4, d.w / 5, d.h / 5));
+          const strokeWidth = Math.max(0.45, Math.min(1.1, Math.min(d.w, d.h) / 28));
           const title = esc(`${d.title} · ${fmtMW(d.value)} · ${statusName(d.status)}`);
           const scaleX = fromRect ? Math.max(0.001, fromRect.w / Math.max(1, d.w)) : 1;
           const scaleY = fromRect ? Math.max(0.001, fromRect.h / Math.max(1, d.h)) : 1;
           const initial = fromRect ? `translate(${fromRect.x.toFixed(2)}px, ${fromRect.y.toFixed(2)}px) scale(${scaleX.toFixed(4)}, ${scaleY.toFixed(4)})` : `translate(${d.x.toFixed(2)}px, ${d.y.toFixed(2)}px) scale(1, 1)`;
           return `<g class="tm-tile" data-id="${esc(d.id)}" data-enter="${fromRect ? "true" : "false"}" tabindex="0" role="${d.drillable ? "button" : "img"}" aria-label="${title}" style="transform:${initial}">
             <title>${title}</title>
-            <rect width="${d.w.toFixed(2)}" height="${d.h.toFixed(2)}" rx="4" ry="4" style="fill:url(#${tmGradientId(d.status)}); stroke:url(#${tmStrokeId(d.status)}); stroke-width:1"></rect>
-            ${showName ? `<text class="tm-label" x="${(d.w / 2).toFixed(2)}" y="${nameY.toFixed(2)}" font-size="${labelSize.toFixed(1)}">${esc(label)}</text>` : ""}
-            ${showValue ? `<text class="tm-value" x="${(d.w / 2).toFixed(2)}" y="${valueY.toFixed(2)}" font-size="${valueSize.toFixed(1)}">${fmtMW(d.value)}</text>` : ""}
+            <rect width="${d.w.toFixed(2)}" height="${d.h.toFixed(2)}" rx="${rectRadius.toFixed(2)}" ry="${rectRadius.toFixed(2)}" style="fill:url(#${tmGradientId(d.status)}); stroke:url(#${tmStrokeId(d.status)}); stroke-width:${strokeWidth.toFixed(2)}"></rect>
+            ${showName ? `<text class="tm-label" x="${labelX.toFixed(2)}" y="${nameY.toFixed(2)}" font-size="${labelSize.toFixed(1)}" text-anchor="${labelAnchor}" dominant-baseline="middle">${esc(label)}</text>` : ""}
+            ${showValue ? `<text class="tm-value" x="${labelPad.toFixed(2)}" y="${valueY.toFixed(2)}" font-size="${valueSize.toFixed(1)}" text-anchor="start" dominant-baseline="middle">${fmtMW(d.value)}</text>` : ""}
           </g>`;
         }).join("");
         svg.innerHTML = `${tmDefs()}${tiles}`;

@@ -1056,8 +1056,60 @@ const baseUrl = import.meta.env.BASE_URL;
 
       .tblwrap {
         overflow-x: auto;
+        overflow-y: auto;
+        max-height: min(70vh, 640px);
         margin: 0 -22px;
         padding: 0 22px;
+      }
+
+      /* Virtualized registry (§3.1): rows must share one fixed height so the
+         spacer rows can stand in for the off-screen part of the corpus.
+         :global() because these rows are injected via innerHTML at runtime and
+         never receive Astro's scoping attribute. */
+      :global(#tbody tr.vrow) {
+        height: 57px;
+      }
+
+      :global(#tbody tr.vrow td) {
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      :global(#tbody tr.vpad td) {
+        padding: 0;
+        border: 0;
+      }
+
+      :global(td.proj b),
+      :global(td.proj .own) {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 320px;
+      }
+
+      .filters input[type="search"] {
+        appearance: none;
+        flex: 0 1 250px;
+        min-width: 150px;
+        min-height: 34px;
+        padding: 7px 11px;
+        border: 1px solid var(--ln2);
+        border-radius: 8px;
+        color: var(--ink);
+        background: var(--sf2);
+        font: 12px var(--mono);
+      }
+
+      .filters input[type="search"]:focus {
+        border-color: var(--acc);
+        outline: none;
+      }
+
+      .filters input[type="search"]::placeholder {
+        color: var(--mut);
+        letter-spacing: 0.06em;
       }
 
       table {
@@ -1068,8 +1120,13 @@ const baseUrl = import.meta.env.BASE_URL;
       }
 
       th {
+        position: sticky;
+        top: 0;
+        z-index: 2;
         padding: 8px 10px;
         border-bottom: 1px solid var(--ln2);
+        background: var(--sf);
+        box-shadow: 0 1px 0 var(--ln2);
         color: var(--mut);
         text-align: left;
         text-transform: uppercase;
@@ -1598,9 +1655,11 @@ const baseUrl = import.meta.env.BASE_URL;
           </div>
           <div class="card rv">
             <div class="filters">
+              <input id="fSearch" type="search" autocomplete="off" spellcheck="false" enterkeyhint="search" aria-label="registry search" />
               <select id="fStatus" aria-label="status filter"></select>
               <select id="fState" aria-label="state filter"></select>
               <button id="fClear" class="fchip" style="display:none" type="button"></button>
+              <button id="fSearchClear" class="fchip" style="display:none" type="button"></button>
               <span class="fcount" id="fCount"></span>
               <span class="lazynote" id="lazyNote"><span class="en">SYNCING FULL REGISTRY…</span><span class="zh">正在同步完整登记表…</span></span>
             </div>
@@ -1641,8 +1700,8 @@ const baseUrl = import.meta.env.BASE_URL;
     <footer class="foot">
       <div class="wrap">
         <div class="rule"></div>
-        <span class="en">GRIDWATCH production Astro build · all figures exported from the unified data-center corpus ({data.totals.facilities.toLocaleString("en-US")} centers, {data.totals.sources.toLocaleString("en-US")} sources) as of {data.generated_date} · static site with OpenStreetMap tiles · registry shows {data.totals.registry_rows.toLocaleString("en-US")} flagship records of the full corpus.</span>
-        <span class="zh">GRIDWATCH Astro 生产版本 · 所有数字均来自统一数据中心语料库（{data.totals.facilities.toLocaleString("en-US")} 个中心，{data.totals.sources.toLocaleString("en-US")} 个来源），截至 {data.generated_date} · 静态站点，地图使用 OpenStreetMap 瓦片 · 登记表展示语料库中 {data.totals.registry_rows.toLocaleString("en-US")} 条旗舰记录。</span>
+        <span class="en">GRIDWATCH production Astro build · all figures exported from the unified data-center corpus ({data.totals.facilities.toLocaleString("en-US")} centers, {data.totals.sources.toLocaleString("en-US")} sources) as of {data.generated_date} · static site with OpenStreetMap tiles · registry lists the full corpus ({data.totals.registry_rows.toLocaleString("en-US")} records with capacity signal).</span>
+        <span class="zh">GRIDWATCH Astro 生产版本 · 所有数字均来自统一数据中心语料库（{data.totals.facilities.toLocaleString("en-US")} 个中心，{data.totals.sources.toLocaleString("en-US")} 个来源），截至 {data.generated_date} · 静态站点，地图使用 OpenStreetMap 瓦片 · 登记表收录完整语料库（{data.totals.registry_rows.toLocaleString("en-US")} 条有容量信号的记录）。</span>
       </div>
     </footer>
 
@@ -1666,7 +1725,10 @@ const baseUrl = import.meta.env.BASE_URL;
         allStates: ["All states", "全部州"],
         showing: ["Showing", "显示"],
         of: ["of", "/ 共"],
-        flagship: [`flagship records · full corpus: ${DATA.totals.facilities.toLocaleString("en-US")}`, `条旗舰记录 · 语料库共 ${DATA.totals.facilities.toLocaleString("en-US")} 条`],
+        records: ["records", "条记录"],
+        searchPh: ["SEARCH NAME / COUNTRY / AREA / DEVELOPER", "搜索 名称 / 国家 / 地区 / 开发商"],
+        searchClear: ["clear search", "清除搜索"],
+        noMatch: ["No records match the current filters.", "没有符合当前筛选的记录。"],
         worldwide: ["Worldwide", "全球"],
         allSubnational: ["All areas", "全部地区"],
         largest: ["largest pipeline", "最大储备"],
@@ -2244,6 +2306,7 @@ const baseUrl = import.meta.env.BASE_URL;
       }
 
       function buildFilters() {
+        document.getElementById("fSearch").placeholder = L(I18N.searchPh);
         const fs = document.getElementById("fStatus");
         const keepStatus = fs.value;
         fs.innerHTML = `<option value="">${L(I18N.all)}</option>` + ["ann", "pla", "app", "con", "op"].map(k => `<option value="${k}">${I18N.st[k][langIndex()]}</option>`).join("");
@@ -2282,9 +2345,88 @@ const baseUrl = import.meta.env.BASE_URL;
         renderTable();
       }
 
+      // Registry virtualization (plan §3.1): currentRows keeps the full
+      // filtered+sorted list in memory; the DOM only ever holds the rows
+      // inside the .tblwrap viewport plus OVERSCAN on each side, framed by
+      // two spacer rows that stand in for the off-screen scroll height.
+      let ROW_H = 57;
+      const OVERSCAN = 8;
+      let vFirst = -1;
+      let vCount = -1;
+      let vMaxMW = 1;
+      let vMeasured = false;
+      const tblScroller = document.querySelector(".tblwrap");
+      const tbodyEl = document.getElementById("tbody");
+
+      const countrySearchNames = new Map((DATA.countries || []).map(c => [c.code, `${c.code} ${c.name_en} ${c.name_zh}`.toLowerCase()]));
+      const rowHaystack = c => c._q ||= [c.project, c.developer, c.county, c.subnational, c.state, countrySearchNames.get(c.country) || c.country]
+        .filter(Boolean).join(" ").toLowerCase();
+
+      function rowHTML(c, i) {
+        return `
+          <tr class="vrow" data-i="${i}" data-slug="${esc(c.slug || "")}" style="cursor:pointer">
+            <td class="proj"><b>${esc(c.project)}${c.est ? ` <span class="estbadge" title="${L(I18N.dc.estTitle)}">${L(I18N.dc.estBadge)}</span>` : ""}</b><span class="own">${esc(c.developer)}</span></td>
+            <td class="geo">${esc(c.county)}, ${esc(c.subnational || c.state)} · ${esc(c.country)}</td>
+            <td class="cap"><span class="capv">${fmtMW(c.capacity_mw)}</span><span class="capbar"><i style="width:${Math.max(1.2, c.capacity_mw / vMaxMW * 100).toFixed(1)}%"></i></span></td>
+            <td><span class="chip" style="color:${stColor(c.status)}; border-color:${stColor(c.status)}; background:color-mix(in srgb, ${stColor(c.status)} 12%, transparent)"><span class="cdot"></span>${I18N.st[c.status][langIndex()]}</span></td>
+            <td class="yr">${c.year || "-"}</td>
+            <td class="gr">${esc(c.evidence)}</td>
+          </tr>`;
+      }
+
+      function renderWindow() {
+        const total = currentRows.length;
+        if (!total) {
+          vFirst = 0;
+          vCount = 0;
+          tbodyEl.innerHTML = `<tr class="vpad"><td colspan="6" style="padding:22px 10px; color:var(--mut); text-align:center; font:12px var(--mono)">${L(I18N.noMatch)}</td></tr>`;
+          return;
+        }
+        const viewH = Math.max(tblScroller.clientHeight || 0, 480);
+        const first = Math.max(0, Math.floor(tblScroller.scrollTop / ROW_H) - OVERSCAN);
+        const count = Math.min(total - first, Math.ceil(viewH / ROW_H) + OVERSCAN * 2);
+        if (first === vFirst && count === vCount) return;
+        vFirst = first;
+        vCount = count;
+        const pad = h => h > 0.5 ? `<tr class="vpad" aria-hidden="true"><td colspan="6" style="height:${h}px"></td></tr>` : "";
+        tbodyEl.innerHTML =
+          pad(first * ROW_H) +
+          currentRows.slice(first, first + count).map((c, k) => rowHTML(c, first + k)).join("") +
+          pad((total - first - count) * ROW_H);
+        if (!vMeasured) {
+          // The CSS pins rows at 57px, but collapsed borders can round the
+          // real height; adopt the measured value so spacer math stays exact.
+          const probe = tbodyEl.querySelector("tr.vrow");
+          const h = probe ? probe.getBoundingClientRect().height : 0;
+          if (h > 20) {
+            vMeasured = true;
+            if (Math.abs(h - ROW_H) > 0.5) {
+              ROW_H = h;
+              vFirst = -1;
+              renderWindow();
+            }
+          }
+        }
+      }
+
+      let vTick = false;
+      tblScroller.addEventListener("scroll", () => {
+        if (vTick) return;
+        vTick = true;
+        requestAnimationFrame(() => {
+          vTick = false;
+          renderWindow();
+        });
+      });
+      addEventListener("resize", () => {
+        vFirst = -1;
+        renderWindow();
+      });
+
       function renderTable() {
         const status = document.getElementById("fStatus").value;
         const state = document.getElementById("fState").value;
+        const q = document.getElementById("fSearch").value.trim().toLowerCase();
         if (selCountry === "US" && state !== (selState || "")) {
           selState = state || null;
           buildMap();
@@ -2292,29 +2434,26 @@ const baseUrl = import.meta.env.BASE_URL;
         }
         const geoKey = selCountry && selCountry !== "US" ? "subnational" : "state";
         const scopedCenters = DATA.centers.filter(c => !selCountry || c.country === selCountry);
-        const maxMW = Math.max(1, ...scopedCenters.map(c => c.capacity_mw));
-        let rows = scopedCenters.filter(c => (!status || c.status === status) && (!state || c[geoKey] === state));
+        vMaxMW = Math.max(1, ...scopedCenters.map(c => c.capacity_mw));
+        let rows = scopedCenters.filter(c => (!status || c.status === status) && (!state || c[geoKey] === state) && (!q || rowHaystack(c).includes(q)));
         rows.sort((a, b) => {
           if (sortKey === "mw") return (a.capacity_mw - b.capacity_mw) * sortDir;
           if (sortKey === "y") return ((a.year || 0) - (b.year || 0)) * sortDir;
           return `${a.country}${a[geoKey]}${a.county}`.localeCompare(`${b.country}${b[geoKey]}${b.county}`) * sortDir;
         });
         currentRows = rows;
-        document.getElementById("tbody").innerHTML = rows.map(c => `
-          <tr data-slug="${esc(c.slug || "")}" style="cursor:pointer">
-            <td class="proj"><b>${esc(c.project)}${c.est ? ` <span class="estbadge" title="${L(I18N.dc.estTitle)}">${L(I18N.dc.estBadge)}</span>` : ""}</b><span class="own">${esc(c.developer)}</span></td>
-            <td class="geo">${esc(c.county)}, ${esc(c.subnational || c.state)} · ${esc(c.country)}</td>
-            <td class="cap"><span class="capv">${fmtMW(c.capacity_mw)}</span><span class="capbar"><i style="width:${Math.max(1.2, c.capacity_mw / maxMW * 100).toFixed(1)}%"></i></span></td>
-            <td><span class="chip" style="color:${stColor(c.status)}; border-color:${stColor(c.status)}; background:color-mix(in srgb, ${stColor(c.status)} 12%, transparent)"><span class="cdot"></span>${I18N.st[c.status][langIndex()]}</span></td>
-            <td class="yr">${c.year || "-"}</td>
-            <td class="gr">${esc(c.evidence)}</td>
-          </tr>`).join("");
+        tblScroller.scrollTop = 0;
+        vFirst = -1;
+        renderWindow();
 
-        document.getElementById("fCount").textContent = `${L(I18N.showing)} ${rows.length} ${L(I18N.of)} ${scopedCenters.length} ${L(I18N.flagship)}`;
+        document.getElementById("fCount").textContent = `${L(I18N.showing)} ${fmt(rows.length)} ${L(I18N.of)} ${fmt(scopedCenters.length)} ${L(I18N.records)}`;
         const chip = document.getElementById("fClear");
         const stateFilter = selCountry === "US" ? selState : (selCountry ? state : "");
         chip.style.display = stateFilter ? "" : "none";
         chip.textContent = stateFilter ? `${stateFilter} x` : "";
+        const searchChip = document.getElementById("fSearchClear");
+        searchChip.style.display = q ? "" : "none";
+        searchChip.textContent = q ? `✕ ${L(I18N.searchClear)}` : "";
         ["mw", "y", "geo"].forEach(k => {
           document.getElementById(`car-${k}`).textContent = sortKey === k ? (sortDir < 0 ? "▼" : "▲") : "";
         });
@@ -2406,6 +2545,16 @@ const baseUrl = import.meta.env.BASE_URL;
       document.querySelectorAll("[data-sort]").forEach(th => th.addEventListener("click", () => setSort(th.dataset.sort)));
       document.getElementById("fStatus").addEventListener("change", renderTable);
       document.getElementById("fState").addEventListener("change", renderTable);
+      const fSearchEl = document.getElementById("fSearch");
+      fSearchEl.addEventListener("input", () => {
+        loadCorpus();
+        renderTable();
+      });
+      document.getElementById("fSearchClear").addEventListener("click", () => {
+        fSearchEl.value = "";
+        renderTable();
+        fSearchEl.focus();
+      });
       const mapFullBtn = document.getElementById("mapFull");
       const mapWrapEl = document.querySelector(".realmap-wrap");
       function syncMapFullLabel() {
@@ -2429,7 +2578,7 @@ const baseUrl = import.meta.env.BASE_URL;
         const tr = e.target.closest("tr[data-slug]");
         if (!tr) return;
         const slug = tr.dataset.slug || "";
-        const idx = Array.prototype.indexOf.call(tr.parentElement.children, tr);
+        const idx = Number(tr.dataset.i);
         openDcDetail(slug, slug ? (rowBySlug.get(slug) || null) : (currentRows[idx] || null));
       });
       document.addEventListener("click", e => {

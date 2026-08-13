@@ -659,7 +659,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         margin-top: 8px;
       }
 
-      /* .legend .lg / .chart-legend .lg / .legend .sw live in the global
+      /* .legend .lg / .legend .sw live in the global
          block below (map legend rows are injected at runtime). */
 
       .mapnote {
@@ -682,75 +682,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
 
       .tabs button.on {
         border-color: var(--acc);
-      }
-
-      .wavebox {
-        display: flex;
-        gap: 12px;
-        align-items: stretch;
-      }
-
-      .wy {
-        width: 46px;
-        flex: none;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 4px 0 24px;
-        text-align: right;
-        color: var(--mut);
-        font: 10px var(--mono);
-        user-select: none;
-      }
-
-      .wavearea {
-        flex: 1;
-        min-width: 0;
-      }
-
-      .wave {
-        position: relative;
-        display: flex;
-        align-items: flex-end;
-        gap: 8px;
-        height: 250px;
-        padding-top: 26px;
-        background: repeating-linear-gradient(
-          to top,
-          transparent 0,
-          transparent calc(25% - 1px),
-          var(--ln2) calc(25% - 1px),
-          var(--ln2) 25%
-        );
-        background-size: 100% 212px;
-        background-position: bottom;
-        background-repeat: no-repeat;
-        border-bottom: 1px solid var(--ln2);
-      }
-
-      .wx {
-        display: flex;
-        gap: 8px;
-        margin-top: 8px;
-      }
-
-      .chart-legend {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        margin-top: 16px;
-      }
-
-      .chart-legend .sw {
-        width: 12px;
-        height: 12px;
-        border-radius: 3px;
-      }
-
-      .chart-legend .swline {
-        height: 3px;
-        border-radius: 2px;
-        background: var(--acc);
       }
 
       .filters {
@@ -1277,7 +1208,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         }
       }
       /* Chart + modal rows are injected via innerHTML too (funnel .frow,
-         wave .wcol, operator .drow, modal dt/dd, tooltip lines), so their
+         operator .drow, modal dt/dd, tooltip lines), so their
          rules moved here from the scoped block, verbatim — in the scoped
          block they compiled to [data-astro-cid] selectors that never match
          runtime nodes, leaving the charts unstyled. */
@@ -1330,11 +1261,11 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         color: var(--mut);
         font-size: 11px;
       }
-      /* Compute horizon: cumulative stacked area above the wave columns.
-         The columns show flow per year; this shows the stock — its top
-         edge is the compute that could be online by each year. Geometry
-         is percentage-based (HTML overlays over a stretched SVG) so the
-         crosshair, dots, and labels never distort with the viewport. */
+      /* Compute horizon: status-based commitment staircase. Each phase band
+         extends from its step to the right edge, so the top edge reads as
+         the compute that could be online if every committed project lands.
+         Geometry is percentage-based (HTML overlays over a stretched SVG) so
+         the crosshair, dots, and labels never distort with the viewport. */
       .hzn-top {
         display: flex;
         flex-wrap: wrap;
@@ -1634,67 +1565,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         }
       }
 
-      .wcol {
-        position: relative;
-        display: flex;
-        flex: 1;
-        flex-direction: column-reverse;
-        align-items: stretch;
-        min-width: 0;
-        cursor: default;
-      }
-      .wseg {
-        width: 100%;
-        transform: scaleY(0);
-        transform-origin: bottom;
-        transition: transform 0.8s cubic-bezier(0.25, 0.7, 0.25, 1);
-        transition-delay: var(--d, 0s);
-        border-radius: 2px;
-      }
-      .in .wseg {
-        transform: scaleY(1);
-      }
-      .wseg + .wseg {
-        margin-bottom: 2px;
-      }
-      .wseg:last-child {
-        border-radius: 5px 5px 2px 2px;
-      }
-      .wcol:hover .wseg {
-        filter: brightness(1.12);
-      }
-      .wcol:not(:hover) .wseg.on {
-        filter: brightness(0.92);
-      }
-      .wtot {
-        position: absolute;
-        inset: -26px 0 auto;
-        color: var(--txt);
-        text-align: center;
-        font: 600 11px var(--mono);
-        white-space: nowrap;
-        overflow: visible;
-        text-shadow: 0 1px 0 var(--bg);
-        opacity: 0;
-        transform: translateY(4px);
-        transition: opacity 0.3s, transform 0.3s;
-        transition-delay: var(--d, 0s);
-      }
-      .in .wtot {
-        opacity: 1;
-        transform: translateY(0);
-      }
-      .wx span {
-        flex: 1;
-        color: var(--mut);
-        text-align: center;
-        font: 10px var(--mono);
-        white-space: nowrap;
-      }
-      .wx span.hl {
-        color: var(--txt);
-        font-weight: 600;
-      }
       .drow {
         display: grid;
         grid-template-columns: 26px 216px minmax(0, 1fr) 128px;
@@ -1789,10 +1659,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         .frow {
           grid-template-columns: 106px minmax(0, 1fr) 120px;
         }
-
-        .wtot {
-          display: none;
-        }
       }
       /* Slice 7 (§4.1/§4.2/§4.4) additions. */
       /* §4.1: stage-to-stage conversion line between adjacent funnel bars.
@@ -1812,31 +1678,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         .fratio {
           grid-template-columns: 106px minmax(0, 1fr) 120px;
         }
-      }
-      /* §4.2: cumulative operational stock line over the column stack.
-         Height matches the 212px plot area the gridlines are sized to. */
-      .opsline {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 212px;
-        overflow: visible;
-        pointer-events: none;
-        opacity: 0;
-        transition: opacity 0.8s 0.5s;
-      }
-      .in .opsline {
-        opacity: 1;
-      }
-      .opsline polyline {
-        fill: none;
-        stroke: var(--acc);
-        stroke-width: 2;
-        stroke-linejoin: round;
-        stroke-linecap: round;
-        vector-effect: non-scaling-stroke;
       }
       /* §4.4: operator rows double as registry navigation. */
       .drow.clk {
@@ -1996,8 +1837,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         background: var(--b4);
         color: var(--b4i);
       }
-      .legend .lg,
-      .chart-legend .lg {
+      .legend .lg {
         display: flex;
         align-items: center;
         gap: 9px;
@@ -2340,12 +2180,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           <div class="sec-head">
             <div>
               <div class="kick"><span class="idx">03</span><span class="en">BUILDOUT WAVE</span><span class="zh">建设浪潮</span></div>
-              <h2><span class="en">Project signals by year, 2018-2030</span><span class="zh">按年份的项目信号，2018-2030</span></h2>
-            </div>
-            <div class="note"><span class="en">Hover a column for the breakdown.</span><span class="zh">悬停查看当年构成。</span></div>
-            <div class="tabs" style="margin:0 0 0 auto">
-              <button id="wv-n" class="on" data-wave-metric="n"><span class="en">FACILITIES</span><span class="zh">设施数</span></button>
-              <button id="wv-mw" data-wave-metric="mw"><span class="en">CAPACITY</span><span class="zh">容量</span></button>
+              <h2><span class="en">Project signals by commitment phase</span><span class="zh">按承诺阶段的项目信号</span></h2>
             </div>
           </div>
           <div class="card rv hzncard">
@@ -2382,21 +2217,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
             <div class="mapnote">
               <span class="en">Capacity stacked by project status in commitment order — each step adds the next-least-committed phase, so the top edge reads as the total compute that might come online if every committed project lands. Rejected and unknown-status records are excluded. Hover a phase for its share, click a phase or its chip to include or exclude it.</span>
               <span class="zh">按项目状态、依承诺程度堆叠的容量——每级台阶加上承诺度次之的阶段，顶边即“若全部落地、可能上线”的总算力。不含已否决与状态未知的记录。悬停查看各阶段占比，点击阶段或标签开关该层。</span>
-            </div>
-          </div>
-          <div class="card rv">
-            <div class="wavebox">
-              <div class="wy" id="waveY"></div>
-              <div class="wavearea">
-                <div class="wave" id="wave"></div>
-                <div class="wx" id="waveX"></div>
-              </div>
-            </div>
-            <div class="chart-legend">
-              <div class="lg"><span class="sw" style="background:var(--st-op)"></span><span class="en">Operational</span><span class="zh">运营中</span></div>
-              <div class="lg"><span class="sw" style="background:var(--st-con)"></span><span class="en">Under construction</span><span class="zh">在建</span></div>
-              <div class="lg"><span class="sw" style="background:var(--st-app)"></span><span class="en">Pipeline (announced / planned / approved)</span><span class="zh">储备（公告/规划/批准）</span></div>
-              <div class="lg"><span class="sw swline"></span><span class="en">Cumulative operational (stock)</span><span class="zh">累计运营（存量）</span></div>
             </div>
           </div>
         </div>
@@ -2637,7 +2457,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       }
       const selectedCountry = () => selCountry ? countryByCode.get(selCountry) : null;
       const scopedFunnel = () => selectedCountry()?.funnel || DATA.funnel;
-      const scopedYears = () => selectedCountry()?.years || DATA.years;
       const scopedTotals = () => {
         const country = selectedCountry();
         const src = country || DATA.totals;
@@ -2949,7 +2768,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         buildMap();
         renderRealMap();
         buildFunnel();
-        buildWave();
+        buildHorizon();
         buildFilters();
         renderTable();
         updateMapSide();
@@ -3275,79 +3094,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         });
       }
 
-      let waveMetric = "n";
-      const WAVE_SEGS = [
-        { key: "operational", var: "--st-op", labelEn: "Operational", labelZh: "运营中" },
-        { key: "construction", var: "--st-con", labelEn: "Construction", labelZh: "在建" },
-        { key: "pipeline", var: "--st-app", labelEn: "Pipeline", labelZh: "储备" },
-      ];
-
-      function waveVal(y, key) {
-        return waveMetric === "mw" ? (y[key + "_mw"] || 0) : (y[key] || 0);
-      }
-
-      function waveTotal(y) {
-        return WAVE_SEGS.reduce((s, seg) => s + waveVal(y, seg.key), 0);
-      }
-
-      function waveTick(v) {
-        if (waveMetric === "mw") return fmtMW(v);
-        return v >= 1000 ? `${(v / 1000).toFixed(v >= 10000 ? 0 : 1)}k` : fmt(v);
-      }
-
-      function buildWave() {
-        const el = document.getElementById("wave");
-        const xl = document.getElementById("waveX");
-        const yl = document.getElementById("waveY");
-        const years = scopedYears();
-        const maxTotal = Math.max(1, ...years.map(waveTotal));
-        // §4.2: cumulative operational overlay — the running stock of what is
-        // actually energized, drawn over the per-year flow columns. One shared
-        // axis: the scale stretches to whichever is taller, stack or stock.
-        let running = 0;
-        const cumOp = years.map(y => (running += waveVal(y, "operational")));
-        const axisMax = Math.max(maxTotal, cumOp[cumOp.length - 1] || 0);
-        const height = 212;
-        const px = v => Math.max(v > 0 ? 2 : 0, v / axisMax * height);
-        const pts = cumOp.map((v, i) => `${((i + 0.5) / years.length * 100).toFixed(2)},${(100 - v / axisMax * 100).toFixed(2)}`).join(" ");
-        el.innerHTML = years.map((y, i) => {
-          const total = waveTotal(y);
-          // §8: hover-only tooltip content mirrored for keyboard/SR users.
-          const srLabel = `${y.year}: ${WAVE_SEGS.map(seg => `${langIndex() ? seg.labelZh : seg.labelEn} ${waveMetric === "mw" ? fmtMW(waveVal(y, seg.key)) : fmt(waveVal(y, seg.key))}`).join(", ")}`;
-          return `
-          <div class="wcol" data-index="${i}" role="img" tabindex="0" aria-label="${esc(srLabel)}">
-            ${WAVE_SEGS.map((seg, j) => `
-              <div class="wseg" style="height:${px(waveVal(y, seg.key))}px; background:var(${seg.var}); --d:${(i * 0.04 + j * 0.04).toFixed(2)}s"></div>`).join("")}
-            <div class="wtot" style="--d:${(i * 0.04 + 0.12).toFixed(2)}s">${total >= 1 ? (waveMetric === "mw" ? fmtMW(total) : fmt(total)) : ""}</div>
-          </div>`;
-        }).join("") + `<svg class="opsline" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><polyline points="${pts}"/></svg>`;
-        xl.innerHTML = years.map(y => {
-          const last = y.year % 5 === 0 || y.year === 2030;
-          return `<span class="${last ? "hl" : ""}">'${String(y.year).slice(2)}</span>`;
-        }).join("");
-        // Axis reads top-down: max at the top, zero on the baseline; counts
-        // round to whole facilities.
-        const ticks = [1, 0.75, 0.5, 0.25, 0].map(f => waveTick(waveMetric === "mw" ? axisMax * f : Math.round(axisMax * f)));
-        yl.innerHTML = ticks.map(t => `<span>${t}</span>`).join("");
-        el.querySelectorAll(".wcol").forEach(col => {
-          col.addEventListener("mousemove", ev => {
-            const y = years[Number(col.dataset.index)];
-            const total = waveTotal(y);
-            const parts = WAVE_SEGS.map(seg => {
-              const v = waveVal(y, seg.key);
-              const pct = total > 0 ? Math.round(v / total * 100) : 0;
-              return `${langIndex() ? seg.labelZh : seg.labelEn}: ${waveMetric === "mw" ? fmtMW(v) : fmt(v)}${waveMetric === "mw" ? "" : ` · ${pct}%`}`;
-            }).join("<br>");
-            const totalLabel = waveMetric === "mw" ? fmtMW(total) : fmt(total);
-            const cum = cumOp[Number(col.dataset.index)];
-            const cumLabel = waveMetric === "mw" ? fmtMW(cum) : fmt(cum);
-            showTip(`<div class="t1">${y.year}</div><div class="t2">${parts}<br><b>${langIndex() ? "合计" : "Total"}: ${totalLabel}</b><br>${langIndex() ? "累计运营" : "Cumulative operational"}: ${cumLabel}</div>`, ev);
-          });
-          col.addEventListener("mouseleave", hideTip);
-        });
-        buildHorizon();
-      }
-
       // Compute horizon: capacity stacked by the STATUS field (globally
       // populated), never the year field (NULL for every non-US facility).
       // Phases stack in commitment order — operational first, announced
@@ -3566,14 +3312,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         hznToggle(HZN_PHASES[Number(hot.dataset.index)].key);
       });
       document.querySelectorAll("[data-hzn-stage]").forEach(button => button.addEventListener("click", () => hznToggle(button.dataset.hznStage)));
-
-      function setWaveTab(metric) {
-        waveMetric = metric;
-        document.getElementById("wv-n").classList.toggle("on", metric === "n");
-        document.getElementById("wv-mw").classList.toggle("on", metric === "mw");
-        buildWave();
-        syncUrl();
-      }
 
       function setDevTab(tab) {
         devTab = tab;
@@ -4029,7 +3767,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       document.querySelectorAll("[data-theme-button]").forEach(button => button.addEventListener("click", () => setTheme(button.dataset.themeButton)));
       document.querySelectorAll("[data-lang-button]").forEach(button => button.addEventListener("click", () => setLang(button.dataset.langButton)));
       document.querySelectorAll("[data-map-metric]").forEach(button => button.addEventListener("click", () => setMapMetric(button.dataset.mapMetric)));
-      document.querySelectorAll("[data-wave-metric]").forEach(button => button.addEventListener("click", () => setWaveTab(button.dataset.waveMetric)));
       document.querySelectorAll("[data-dev-tab]").forEach(button => button.addEventListener("click", () => setDevTab(button.dataset.devTab)));
       document.querySelectorAll("[data-sort]").forEach(th => {
         th.addEventListener("click", () => setSort(th.dataset.sort));
@@ -4098,7 +3835,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       // outside a chart element dismisses it.
       if (coarsePointer) {
         document.addEventListener("touchstart", e => {
-          if (!e.target.closest(".wcol, .frow, .tile, .hzn-hot")) hideTip();
+          if (!e.target.closest(".frow, .tile, .hzn-hot")) hideTip();
         }, { passive: true });
       }
       document.addEventListener("click", e => {
@@ -4155,8 +3892,8 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         }
       });
 
-      // Shareable URL state (plan §3.3): country / geo drill / map & wave
-      // metric / status / search serialize into the hash (#c=BR&m=n) —
+      // Shareable URL state (plan §3.3): country / geo drill / map metric /
+      // status / search serialize into the hash (#c=BR&m=n) —
       // parsed here before the first render below, replace-written on
       // filter changes, push-written on scope changes so back/forward
       // walks the scope history (popstate re-applies).
@@ -4172,7 +3909,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           c: countryByCode.has(code) ? code : null,
           s: p.get("s") || "",
           m: p.get("m") === "n" ? "n" : "mw",
-          w: p.get("w") === "mw" ? "mw" : "n",
           st: URL_STATUSES.includes(p.get("st")) ? p.get("st") : "",
           q: p.get("q") || "",
         };
@@ -4183,7 +3919,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         const geo = urlGeoPending || (selCountry === "US" ? (selState || "") : fStateEl.value);
         if (geo) p.set("s", geo);
         if (mapMetric !== "mw") p.set("m", mapMetric);
-        if (waveMetric !== "n") p.set("w", waveMetric);
         if (fStatusEl.value) p.set("st", fStatusEl.value);
         const q = fSearchEl.value.trim();
         if (q) p.set("q", q);
@@ -4209,15 +3944,12 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       function syncMetricTabs() {
         document.getElementById("mm-mw").classList.toggle("on", mapMetric === "mw");
         document.getElementById("mm-n").classList.toggle("on", mapMetric === "n");
-        document.getElementById("wv-n").classList.toggle("on", waveMetric === "n");
-        document.getElementById("wv-mw").classList.toggle("on", waveMetric === "mw");
       }
       {
         const u = parseUrlState();
         selCountry = u.c;
         selState = u.c === "US" && u.s ? u.s : null;
         mapMetric = u.m;
-        waveMetric = u.w;
         syncMetricTabs();
         urlGeoPending = u.s;
         setSelectValue(fStatusEl, u.st);
@@ -4234,7 +3966,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         selCountry = u.c;
         selState = u.c === "US" && u.s ? u.s : null;
         mapMetric = u.m;
-        waveMetric = u.w;
         syncMetricTabs();
         buildCountrySwitch();
         updateHero();
@@ -4246,7 +3977,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         buildMap();
         renderRealMap();
         buildFunnel();
-        buildWave();
+        buildHorizon();
         renderTable();
         updateMapSide();
         updateFunnelTitle();
@@ -4275,7 +4006,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       countUp(document.getElementById("cCty"), DATA.totals.counties_with_projects, 0, 1600);
 
       buildFunnel();
-      buildWave();
+      buildHorizon();
       buildMap();
       renderRealMap();
       buildFilters();

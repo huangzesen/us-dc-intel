@@ -1627,6 +1627,75 @@ const baseUrl = import.meta.env.BASE_URL;
         font: 10.5px var(--mono);
         letter-spacing: 0.05em;
       }
+      /* Signal ticker (plan §2.4): one mono flex row under the topbar. The
+         track holds two identical copies and slides -50% for a seamless
+         loop; hover pauses it. Hidden on mobile and under reduced motion
+         (the JS noMotion path also keeps it hidden for ?noanim). */
+      .gw-ticker {
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        border-bottom: 1px solid var(--ln);
+        background: color-mix(in srgb, var(--sf) 62%, transparent);
+        white-space: nowrap;
+      }
+      .gw-ticker-track {
+        display: inline-flex;
+        width: max-content;
+      }
+      .gw-ticker.roll .gw-ticker-track {
+        animation: gw-tick var(--tick-dur, 80s) linear infinite;
+        will-change: transform;
+      }
+      .gw-ticker:hover .gw-ticker-track {
+        animation-play-state: paused;
+      }
+      .gw-ticker-copy {
+        display: inline-flex;
+        align-items: baseline;
+        gap: 36px;
+        padding: 7px 36px 7px 0;
+      }
+      .gw-ti {
+        display: inline-flex;
+        align-items: baseline;
+        gap: 8px;
+        flex: none;
+        color: var(--ink2);
+        font: 11px var(--mono);
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      .gw-ti .tk {
+        color: var(--mut);
+        font-size: 10px;
+        letter-spacing: 0.14em;
+      }
+      .gw-ti b {
+        color: var(--ink);
+        font-weight: 600;
+      }
+      .gw-ti .tmark {
+        color: var(--acc);
+      }
+      .gw-ti .tup {
+        color: var(--st-op);
+      }
+      @keyframes gw-tick {
+        to {
+          transform: translateX(-50%);
+        }
+      }
+      @media (max-width: 720px) {
+        .gw-ticker {
+          display: none;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .gw-ticker {
+          display: none;
+        }
+      }
     </style>
   </head>
   <body>
@@ -1648,6 +1717,13 @@ const baseUrl = import.meta.env.BASE_URL;
         </div>
       </div>
     </header>
+
+    <!-- Signal ticker (plan §2.4): every figure repeats elsewhere on the
+         page and the loop duplicates its own content, so the strip stays
+         aria-hidden — decorative, non-blocking. -->
+    <div class="gw-ticker" id="ticker" aria-hidden="true">
+      <div class="gw-ticker-track" id="tickerTrack"></div>
+    </div>
 
     <main>
       <section class="hero">
@@ -2197,6 +2273,7 @@ const baseUrl = import.meta.env.BASE_URL;
         updateMapSide();
         updateFunnelTitle();
         syncDotToggle();
+        buildTicker();
       }
 
       function showTip(html, ev) {
@@ -2298,11 +2375,16 @@ const baseUrl = import.meta.env.BASE_URL;
         buildMap();
         renderRealMap();
         updateMapSide();
+        syncUrl();
       }
 
       function setCountry(code) {
         selCountry = selCountry === code ? null : code;
         selState = null;
+        // URL state (plan §3.3): one pushState per scope change — the inner
+        // renderTable would otherwise replace-write a half-settled hash.
+        urlGeoPending = "";
+        applyingUrl = true;
         buildCountrySwitch();
         updateHero();
         buildMap();
@@ -2313,6 +2395,8 @@ const baseUrl = import.meta.env.BASE_URL;
         renderTable();
         updateMapSide();
         updateFunnelTitle();
+        applyingUrl = false;
+        syncUrl(true);
       }
 
       function initRealMap() {
@@ -2642,6 +2726,7 @@ const baseUrl = import.meta.env.BASE_URL;
         document.getElementById("wv-n").classList.toggle("on", metric === "n");
         document.getElementById("wv-mw").classList.toggle("on", metric === "mw");
         buildWave();
+        syncUrl();
       }
 
       function setDevTab(tab) {
@@ -2683,6 +2768,13 @@ const baseUrl = import.meta.env.BASE_URL;
         const states = [...new Set(scoped.map(c => c[key]).filter(Boolean))].sort();
         stateSelect.innerHTML = `<option value="">${selCountry && selCountry !== "US" ? L(I18N.allSubnational) : L(I18N.allStates)}</option>` + states.map(a => `<option>${esc(a)}</option>`).join("");
         stateSelect.value = states.includes(keepState) ? keepState : "";
+        // URL geo drill (plan §3.3): the value from the hash may only exist
+        // in the lazy corpus, so it stays pending until an option matches.
+        if (urlGeoPending && states.includes(urlGeoPending)) {
+          stateSelect.value = urlGeoPending;
+          if (selCountry === "US") selState = urlGeoPending;
+          urlGeoPending = "";
+        }
       }
 
       function syncStateFilter() {
@@ -2821,6 +2913,9 @@ const baseUrl = import.meta.env.BASE_URL;
         ["mw", "y", "geo"].forEach(k => {
           document.getElementById(`car-${k}`).textContent = sortKey === k ? (sortDir < 0 ? "▼" : "▲") : "";
         });
+        // Every filter path (status/state/search/scope drill) funnels through
+        // here, so this one hook keeps the hash current (plan §3.3).
+        syncUrl();
       }
 
       function closeDcModal() {
@@ -2899,6 +2994,43 @@ const baseUrl = import.meta.env.BASE_URL;
         const colors = ["var(--ev0)", "var(--ev1)", "var(--ev2)", "var(--ev3)"];
         document.getElementById("evbar").innerHTML = DATA.evidence.map((e, i) => `<i style="width:${(e.count / total * 100).toFixed(1)}%; background:${colors[i]}; --d:${i * 0.12}s"></i>`).join("");
         document.getElementById("evkey").innerHTML = DATA.evidence.map((e, i) => `<div class="lg"><span class="sw" style="background:${colors[i]}"></span>${I18N.ev[e.key][langIndex()]} · <b>${fmt(e.count)}</b> (${(e.count / total * 100).toFixed(0)}%)</div>`).join("");
+      }
+
+      // Signal ticker (plan §2.4): headline aggregates, top-5 countries and
+      // the largest flagship rows, all from the inline payload — no fetch.
+      // DATA.flagship (not DATA.centers) keeps the strip stable when the
+      // lazy corpus swaps in. Rebuilt on language change; duration scales
+      // with content width so the pace stays constant in both languages.
+      function buildTicker() {
+        const tickerEl = document.getElementById("ticker");
+        if (noMotion) {
+          tickerEl.hidden = true;
+          return;
+        }
+        const zh = langIndex() === 1;
+        const t = DATA.totals;
+        const gw = Number(t.capacity_gw) || 0;
+        const items = [];
+        const item = (k, v, cls) => items.push(`<span class="gw-ti"><span class="tk">${k}</span><b${cls ? ` class="${cls}"` : ""}>${v}</b></span>`);
+        item(zh ? "追踪容量" : "TRACKED CAPACITY", gw >= 1000 ? `${(gw / 1000).toFixed(2)} TW` : `${gw.toFixed(1)} GW`, "tmark");
+        item(zh ? "设施" : "FACILITIES", fmt(t.facilities));
+        item(zh ? "国家与地区" : "COUNTRIES & TERRITORIES", fmt(t.countries_with_projects));
+        item(zh ? "数据来源" : "SOURCE URLS", fmt(t.sources));
+        [...(DATA.countries || [])].sort((a, b) => b.capacity_mw - a.capacity_mw).slice(0, 5).forEach((c, i) => {
+          item(`#${i + 1} ${esc(c.code)}`, `${esc(countryName(c))} · ${fmtMW(c.capacity_mw)}`);
+        });
+        [...(DATA.flagship || [])].sort((a, b) => b.capacity_mw - a.capacity_mw).slice(0, 8).forEach(c => {
+          const loc = [c.county, c.state || c.subnational, c.country].filter(Boolean).join(" ");
+          items.push(`<span class="gw-ti"><span class="tup">▲</span><b>${esc(loc)}</b><span>${fmtMW(c.capacity_mw)} · ${statusLabel(c.status)}</span></span>`);
+        });
+        const copy = `<div class="gw-ticker-copy">${items.join("")}</div>`;
+        const track = document.getElementById("tickerTrack");
+        track.innerHTML = copy + copy;
+        requestAnimationFrame(() => {
+          const width = track.scrollWidth / 2;
+          if (width > 0) tickerEl.style.setProperty("--tick-dur", `${Math.max(30, Math.round(width / 42))}s`);
+          tickerEl.classList.add("roll");
+        });
       }
 
       // Command palette (plan §3.2): ⌘K / Ctrl+K jumps to any country or
@@ -3064,6 +3196,104 @@ const baseUrl = import.meta.env.BASE_URL;
           if (!cmdkEl.hidden) closeCmdk();
           else closeDcModal();
         }
+      });
+
+      // Shareable URL state (plan §3.3): country / geo drill / map & wave
+      // metric / status / search serialize into the hash (#c=BR&m=n) —
+      // parsed here before the first render below, replace-written on
+      // filter changes, push-written on scope changes so back/forward
+      // walks the scope history (popstate re-applies).
+      const fStatusEl = document.getElementById("fStatus");
+      const fStateEl = document.getElementById("fState");
+      let applyingUrl = false;
+      let urlGeoPending = "";
+      const URL_STATUSES = ["ann", "pla", "app", "con", "op"];
+      function parseUrlState() {
+        const p = new URLSearchParams(location.hash.replace(/^#/, ""));
+        const code = (p.get("c") || "").toUpperCase();
+        return {
+          c: countryByCode.has(code) ? code : null,
+          s: p.get("s") || "",
+          m: p.get("m") === "n" ? "n" : "mw",
+          w: p.get("w") === "mw" ? "mw" : "n",
+          st: URL_STATUSES.includes(p.get("st")) ? p.get("st") : "",
+          q: p.get("q") || "",
+        };
+      }
+      function urlStateHash() {
+        const p = new URLSearchParams();
+        if (selCountry) p.set("c", selCountry);
+        const geo = urlGeoPending || (selCountry === "US" ? (selState || "") : fStateEl.value);
+        if (geo) p.set("s", geo);
+        if (mapMetric !== "mw") p.set("m", mapMetric);
+        if (waveMetric !== "n") p.set("w", waveMetric);
+        if (fStatusEl.value) p.set("st", fStatusEl.value);
+        const q = fSearchEl.value.trim();
+        if (q) p.set("q", q);
+        const s = p.toString();
+        return s ? `#${s}` : "";
+      }
+      function syncUrl(push) {
+        if (applyingUrl) return;
+        const hash = urlStateHash();
+        if (hash === location.hash) return;
+        try {
+          history[push ? "pushState" : "replaceState"](null, "", location.pathname + location.search + hash);
+        } catch (error) {}
+      }
+      function setSelectValue(select, value) {
+        if (value && ![...select.options].some(o => o.value === value)) {
+          const option = document.createElement("option");
+          option.value = option.textContent = value;
+          select.appendChild(option);
+        }
+        select.value = value || "";
+      }
+      function syncMetricTabs() {
+        document.getElementById("mm-mw").classList.toggle("on", mapMetric === "mw");
+        document.getElementById("mm-n").classList.toggle("on", mapMetric === "n");
+        document.getElementById("wv-n").classList.toggle("on", waveMetric === "n");
+        document.getElementById("wv-mw").classList.toggle("on", waveMetric === "mw");
+      }
+      {
+        const u = parseUrlState();
+        selCountry = u.c;
+        selState = u.c === "US" && u.s ? u.s : null;
+        mapMetric = u.m;
+        waveMetric = u.w;
+        syncMetricTabs();
+        urlGeoPending = u.s;
+        setSelectValue(fStatusEl, u.st);
+        fSearchEl.value = u.q;
+        if (u.q || u.s) loadCorpus();
+      }
+      fStateEl.addEventListener("change", () => {
+        urlGeoPending = "";
+      });
+      addEventListener("popstate", () => {
+        const u = parseUrlState();
+        applyingUrl = true;
+        urlGeoPending = "";
+        selCountry = u.c;
+        selState = u.c === "US" && u.s ? u.s : null;
+        mapMetric = u.m;
+        waveMetric = u.w;
+        syncMetricTabs();
+        buildCountrySwitch();
+        updateHero();
+        buildFilters();
+        setSelectValue(fStatusEl, u.st);
+        setSelectValue(fStateEl, u.s);
+        fSearchEl.value = u.q;
+        if (u.q || u.s) loadCorpus();
+        buildMap();
+        renderRealMap();
+        buildFunnel();
+        buildWave();
+        renderTable();
+        updateMapSide();
+        updateFunnelTitle();
+        applyingUrl = false;
       });
 
       try {

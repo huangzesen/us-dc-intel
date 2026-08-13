@@ -368,6 +368,44 @@ const baseUrl = import.meta.env.BASE_URL;
         margin-bottom: 8px;
       }
 
+      .heroEq {
+        margin-bottom: 6px;
+        color: var(--ink2);
+        font: 600 15px var(--mono);
+        letter-spacing: 0.03em;
+      }
+
+      .heroEq:empty {
+        display: none;
+      }
+
+      /* Odometer digit roll (§2.2): every digit sits in a clipped column whose
+         0-9 strip slides to the current value. clip-path keeps the flow
+         baseline intact (overflow:hidden would move it to the box bottom),
+         so the TW unit stays baseline-aligned with the digits. :global()
+         because the columns are injected via innerHTML at runtime. */
+      :global(#heroGW .od) {
+        position: relative;
+        display: inline-block;
+        clip-path: inset(0);
+      }
+
+      :global(#heroGW .od .odp) {
+        visibility: hidden;
+      }
+
+      :global(#heroGW .od .ods) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: transform 90ms linear;
+        will-change: transform;
+      }
+
+      :global(#heroGW .od .ods span) {
+        display: block;
+      }
+
       @keyframes draw {
         to {
           width: 120px;
@@ -1523,9 +1561,10 @@ const baseUrl = import.meta.env.BASE_URL;
           <div class="countrybar" id="countrySwitch" aria-label="country scope"></div>
           <div class="big">
             <span id="heroGW">0.0</span>
-            <span class="unit">GW <span class="en">TRACKED</span><span class="zh">追踪容量</span></span>
+            <span class="unit"><span id="heroUnit">GW</span> <span class="en">TRACKED</span><span class="zh">追踪容量</span></span>
           </div>
           <div class="big-sub">
+            <div id="heroEq" class="heroEq"></div>
             <div id="heroSplit" class="heroSplit"></div>
             <span id="heroSub"></span>
           </div>
@@ -1785,6 +1824,8 @@ const baseUrl = import.meta.env.BASE_URL;
       let realMap = null;
       let realMapLayer = null;
       let realTileLayer = null;
+      let realCanvas = null;
+      let realMarkers = [];
 
       const langIndex = () => document.documentElement.dataset.lang === "zh" ? 1 : 0;
       const L = value => Array.isArray(value) ? value[langIndex()] : value;
@@ -1863,13 +1904,27 @@ const baseUrl = import.meta.env.BASE_URL;
       const countryName = country => langIndex() ? country.name_zh : country.name_en;
       const hasCoord = item => item?.lat != null && item?.lng != null && Number.isFinite(Number(item.lat)) && Number.isFinite(Number(item.lng));
       const pointValue = item => mapMetric === "mw" ? Number(item.capacity_mw || 0) : Number(item.facilities || 0);
-      const markerColor = item => {
-        const mw = Number(item.capacity_mw || 0);
-        if (mw >= 10000) return "#e66767";
-        if (mw >= 1000) return "#f5a83c";
-        if (mw >= 100) return "#1baf7a";
-        return "#3987e5";
-      };
+      // Marker system (plan §5.2): color rides the same sequential blue
+      // capacity ramp as the tile cartogram (MW_BINS -> --b0..--b4) and
+      // opacity climbs with the band; amber is reserved for the selected
+      // geography. Tokens resolve at render time so both themes stay true.
+      const MARKER_RAMP = ["--b0", "--b1", "--b2", "--b3", "--b4"];
+      function markerPalette() {
+        const cs = getComputedStyle(document.documentElement);
+        return { ramp: MARKER_RAMP.map(t => cs.getPropertyValue(t).trim()), acc: cs.getPropertyValue("--acc").trim() };
+      }
+      const markerBand = item => binOf(Number(item.capacity_mw || 0), MW_BINS);
+      function markerStyleFor(pal, item, selected) {
+        if (selected) return { color: pal.acc, fillColor: pal.acc, weight: 3, opacity: 1, fillOpacity: 0.85 };
+        const band = markerBand(item);
+        return {
+          color: pal.ramp[Math.min(band + 1, 4)],
+          fillColor: pal.ramp[band],
+          weight: 1.5,
+          opacity: 0.9,
+          fillOpacity: 0.5 + band * 0.09,
+        };
+      }
       const markerRadius = item => {
         const value = pointValue(item);
         return Math.max(6, Math.min(28, 5 + Math.sqrt(Math.max(0, value)) * (mapMetric === "mw" ? 0.07 : 1.2)));
@@ -1881,6 +1936,17 @@ const baseUrl = import.meta.env.BASE_URL;
         if (realTileLayer) realTileLayer.setUrl(cartoTileUrl(document.documentElement.dataset.theme));
       }
 
+      // Theme flips restyle markers in place (no re-render, no viewport jump):
+      // the ramp tokens differ per theme, so styles are recomputed and applied.
+      function syncMarkerTheme() {
+        if (!realMarkers.length) return;
+        const pal = markerPalette();
+        realMarkers.forEach(record => {
+          record.style = markerStyleFor(pal, record.item, record.selected);
+          record.marker.setStyle(record.style);
+        });
+      }
+
       function setTheme(theme) {
         document.documentElement.dataset.theme = theme;
         document.getElementById("th-dark").classList.toggle("on", theme === "dark");
@@ -1889,6 +1955,8 @@ const baseUrl = import.meta.env.BASE_URL;
           localStorage.setItem("gw-theme", theme);
         } catch (error) {}
         syncMapTiles();
+        syncMarkerTheme();
+        if (heroRendered) renderHeroCapacity(scopedTotals().capacity_gw);
       }
 
       function setLang(nextLang) {
@@ -1945,6 +2013,60 @@ const baseUrl = import.meta.env.BASE_URL;
         requestAnimationFrame(tick);
       }
 
+      // Hero counter (plan §2.2): auto-unit to TW past 1,000 GW, with the
+      // honest GW equivalence printed underneath. Digits render as odometer
+      // columns; the eased count-up drives each 0-9 strip, whose short CSS
+      // transition turns discrete digit changes into a roll. Re-animates on
+      // scope, language, and theme changes.
+      let heroRendered = false;
+      let heroAnimToken = 0;
+      function renderHeroCapacity(gw) {
+        const total = Number(gw) || 0;
+        const isTW = total >= 1000;
+        const target = isTW ? total / 1000 : total;
+        const decimals = isTW ? 2 : 1;
+        const targetStr = target.toFixed(decimals);
+        document.getElementById("heroUnit").textContent = isTW ? "TW" : "GW";
+        document.getElementById("heroEq").textContent = isTW
+          ? `= ${total.toLocaleString("en-US", { minimumFractionDigits: 1, maximumFractionDigits: 1 })} GW`
+          : "";
+        const el = document.getElementById("heroGW");
+        el.setAttribute("aria-label", `${targetStr} ${isTW ? "TW" : "GW"}`);
+        const strip = Array.from({ length: 10 }, (_, d) => `<span>${d}</span>`).join("");
+        el.innerHTML = targetStr.split("").map(ch => /\d/.test(ch)
+          ? `<span class="od" aria-hidden="true"><span class="odp">${ch}</span><span class="ods">${strip}</span></span>`
+          : `<span aria-hidden="true">${ch}</span>`).join("");
+        const strips = [...el.querySelectorAll(".ods")];
+        const setDigits = value => {
+          const digits = value.toFixed(decimals).replace(/[^0-9]/g, "").padStart(strips.length, "0");
+          strips.forEach((s, i) => {
+            const d = Number(digits[i]);
+            if (s._d !== d) {
+              s._d = d;
+              // 1.02em per step = the .big line-height, i.e. one digit row.
+              s.style.transform = `translateY(${(-d * 1.02).toFixed(2)}em)`;
+            }
+          });
+        };
+        heroRendered = true;
+        const token = ++heroAnimToken;
+        if (noMotion) {
+          setDigits(target);
+          return;
+        }
+        setDigits(0);
+        const start = performance.now();
+        const dur = 1800;
+        const tick = now => {
+          if (token !== heroAnimToken) return;
+          const p = Math.min(1, (now - start) / dur);
+          const e = 1 - Math.pow(1 - p, 3);
+          setDigits(target * e);
+          if (p < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      }
+
       const MW_BINS = [1000, 5000, 15000, 45000];
       const N_BINS = [20, 50, 90, 150];
       const binOf = (v, bins) => bins.reduce((bin, th, i) => v >= th ? i + 1 : bin, 0);
@@ -1975,6 +2097,21 @@ const baseUrl = import.meta.env.BASE_URL;
 
       function initRealMap() {
         if (realMap || !window.L) return Boolean(realMap);
+        // Glow (plan §5.2): markers draw on a canvas renderer whose circle
+        // pass adds a soft same-hue shadow (blur ≈ radius). Canvas also keeps
+        // large marker counts cheap for the future facility layer.
+        const GlowCanvas = window.L.Canvas.extend({
+          _updateCircle(layer) {
+            const ctx = this._ctx;
+            if (!ctx || !layer.options.glow) return window.L.Canvas.prototype._updateCircle.call(this, layer);
+            ctx.save();
+            ctx.shadowBlur = Math.max(6, layer._radius || 0);
+            ctx.shadowColor = layer.options.fillColor;
+            window.L.Canvas.prototype._updateCircle.call(this, layer);
+            ctx.restore();
+          },
+        });
+        realCanvas = new GlowCanvas({ padding: 0.5 });
         realMap = window.L.map("realMap", {
           zoomControl: true,
           scrollWheelZoom: false,
@@ -2042,6 +2179,8 @@ const baseUrl = import.meta.env.BASE_URL;
           return;
         }
         realMapLayer.clearLayers();
+        realMarkers = [];
+        const pal = markerPalette();
         const items = realMapItems();
         const bounds = [];
         items.forEach(item => {
@@ -2049,14 +2188,17 @@ const baseUrl = import.meta.env.BASE_URL;
           bounds.push(latlng);
           const subActive = selCountry && selCountry !== "US" && document.getElementById("fState").value;
           const selected = (selCountry === "US" && item.abbr && item.abbr === selState) || (subActive && item.name === subActive);
+          const style = markerStyleFor(pal, item, selected);
           const marker = window.L.circleMarker(latlng, {
+            renderer: realCanvas,
+            glow: true,
             radius: markerRadius(item),
-            color: selected ? "#ffffff" : markerColor(item),
-            weight: selected ? 3 : 2,
-            fillColor: markerColor(item),
-            fillOpacity: 0.72,
-            opacity: 0.95,
+            ...style,
           }).bindPopup(realMapPopup(item));
+          const record = { marker, item, selected, style };
+          realMarkers.push(record);
+          marker.on("mouseover", () => marker.setStyle({ weight: record.style.weight + 1, fillOpacity: Math.min(1, record.style.fillOpacity + 0.18) }));
+          marker.on("mouseout", () => marker.setStyle(record.style));
           marker.on("click", () => {
             if (!selCountry && item.code) setCountry(item.code);
             else if (selCountry === "US" && item.abbr) {
@@ -2107,7 +2249,7 @@ const baseUrl = import.meta.env.BASE_URL;
       function updateHero() {
         const totals = scopedTotals();
         const country = selectedCountry();
-        document.getElementById("heroGW").textContent = totals.capacity_gw.toFixed(1);
+        renderHeroCapacity(totals.capacity_gw);
         const heroSplitEl = document.getElementById("heroSplit");
         if (heroSplitEl) heroSplitEl.textContent = (Number(totals.tracked_gw) || 0) + (Number(totals.est_gw) || 0) > 0 ? splitFull(totals.tracked_gw, totals.est_gw) : "";
         document.getElementById("cFac").textContent = fmt(totals.facilities);
@@ -2605,7 +2747,6 @@ const baseUrl = import.meta.env.BASE_URL;
       document.getElementById("fStatus").addEventListener("change", loadCorpus);
       document.getElementById("fState").addEventListener("change", loadCorpus);
 
-      countUp(document.getElementById("heroGW"), DATA.totals.capacity_gw, 1, 1800);
       countUp(document.getElementById("cFac"), DATA.totals.facilities, 0, 1500);
       countUp(document.getElementById("cSrc"), DATA.totals.sources, 0, 1700);
       countUp(document.getElementById("cCty"), DATA.totals.counties_with_projects, 0, 1600);

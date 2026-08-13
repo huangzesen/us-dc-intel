@@ -1,9 +1,8 @@
 ---
 import data from "../data/datacenters.json";
-import dcMeta from "../data/dc-metadata.json";
 
-const dcMetaJson = JSON.stringify(dcMeta).replace(/</g, "\\u003c");
 const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
+const baseUrl = import.meta.env.BASE_URL;
 ---
 
 <html lang="en" data-lang="en" data-theme="dark">
@@ -1034,6 +1033,27 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         font: 12px var(--mono);
       }
 
+      .lazynote {
+        color: var(--mut);
+        font: 11px var(--mono);
+        letter-spacing: 0.08em;
+        animation: lazypulse 1.4s ease-in-out infinite;
+      }
+
+      .lazynote[hidden] {
+        display: none;
+      }
+
+      @keyframes lazypulse {
+        0%,
+        100% {
+          opacity: 0.45;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+
       .tblwrap {
         overflow-x: auto;
         margin: 0 -22px;
@@ -1582,6 +1602,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
               <select id="fState" aria-label="state filter"></select>
               <button id="fClear" class="fchip" style="display:none" type="button"></button>
               <span class="fcount" id="fCount"></span>
+              <span class="lazynote" id="lazyNote"><span class="en">SYNCING FULL REGISTRY…</span><span class="zh">正在同步完整登记表…</span></span>
             </div>
             <div class="tblwrap">
               <table>
@@ -1620,18 +1641,23 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
     <footer class="foot">
       <div class="wrap">
         <div class="rule"></div>
-        <span class="en">GRIDWATCH production Astro build · all figures exported from the unified data-center corpus ({data.totals.facilities.toLocaleString("en-US")} centers, {data.totals.sources.toLocaleString("en-US")} sources) as of {data.generated_date} · static site with OpenStreetMap tiles · registry shows {data.centers.length} flagship records of the full corpus.</span>
-        <span class="zh">GRIDWATCH Astro 生产版本 · 所有数字均来自统一数据中心语料库（{data.totals.facilities.toLocaleString("en-US")} 个中心，{data.totals.sources.toLocaleString("en-US")} 个来源），截至 {data.generated_date} · 静态站点，地图使用 OpenStreetMap 瓦片 · 登记表展示语料库中 {data.centers.length} 条旗舰记录。</span>
+        <span class="en">GRIDWATCH production Astro build · all figures exported from the unified data-center corpus ({data.totals.facilities.toLocaleString("en-US")} centers, {data.totals.sources.toLocaleString("en-US")} sources) as of {data.generated_date} · static site with OpenStreetMap tiles · registry shows {data.totals.registry_rows.toLocaleString("en-US")} flagship records of the full corpus.</span>
+        <span class="zh">GRIDWATCH Astro 生产版本 · 所有数字均来自统一数据中心语料库（{data.totals.facilities.toLocaleString("en-US")} 个中心，{data.totals.sources.toLocaleString("en-US")} 个来源），截至 {data.generated_date} · 静态站点，地图使用 OpenStreetMap 瓦片 · 登记表展示语料库中 {data.totals.registry_rows.toLocaleString("en-US")} 条旗舰记录。</span>
       </div>
     </footer>
 
     <div id="tip"></div>
-    <script id="gw-data" type="application/json" set:html={dataJson}></script>
-    <script id="gw-meta" type="application/json" set:html={dcMetaJson}></script>
+    <script id="gw-data" type="application/json" data-base={baseUrl} set:html={dataJson}></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script is:inline>
       const DATA = JSON.parse(document.getElementById("gw-data").textContent);
-      const DC_META = JSON.parse(document.getElementById("gw-meta").textContent);
+      const BASE = (document.getElementById("gw-data").dataset.base || "/").replace(/\/?$/, "/");
+      // Payload split (plan §6.1-6.2): the inline JSON carries aggregates only.
+      // The full registry (centers + counties) arrives from data/centers.json
+      // after first paint; until then the table runs on the flagship rows.
+      DATA.centers = DATA.flagship || [];
+      DATA.counties = [];
+      let corpusPromise = null;
       const I18N = {
         st: DATA.status_labels,
         facilities: ["facilities", "个设施"],
@@ -1666,6 +1692,7 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         },
         dc: {
           noDetail: ["No detail record — basic fields only", "无详情记录 — 仅基础字段"],
+          loading: ["Loading detail record…", "详情记录加载中…"],
           capacity: ["Capacity", "容量"],
           status: ["Status", "状态"],
           owner: ["Owner", "运营方"],
@@ -1707,7 +1734,8 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       const splitSuffix = (tGw, eGw) => ` (${(Number(tGw) || 0).toFixed(1)}G + ${(Number(eGw) || 0).toFixed(1)}G ${L(I18N.estimatedShort)})`;
       const stColor = key => `var(--st-${key})`;
       const esc = value => String(value ?? "").replace(/[&<>"']/g, ch => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;", "'": "&#39;" })[ch]);
-      const rowBySlug = new Map(DATA.centers.filter(c => c.slug).map(c => [c.slug, c]));
+      const buildRowBySlug = () => new Map(DATA.centers.filter(c => c.slug).map(c => [c.slug, c]));
+      let rowBySlug = buildRowBySlug();
       const statusShort = { operational: "op", announced: "ann", planned: "pla", approved: "app", construction: "con", rejected: "rej", unknown: "unk" };
       const statusLabel = status => {
         if (!status) return "—";
@@ -1720,10 +1748,40 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
       };
       const countryByCode = new Map((DATA.countries || []).map(c => [c.code, c]));
       const stateByAbbr = new Map((DATA.states || []).map(s => [s.abbr, s]));
-      const countiesByState = (DATA.counties || []).reduce((acc, county) => {
+      const buildCountiesByState = () => (DATA.counties || []).reduce((acc, county) => {
         (acc[county.state_abbr] ||= []).push(county);
         return acc;
       }, {});
+      let countiesByState = buildCountiesByState();
+
+      function loadCorpus() {
+        if (corpusPromise) return corpusPromise;
+        corpusPromise = fetch(`${BASE}data/centers.json`)
+          .then(r => {
+            if (!r.ok) throw new Error(`centers.json ${r.status}`);
+            return r.json();
+          })
+          .then(payload => {
+            DATA.centers = payload.centers || [];
+            DATA.counties = payload.counties || [];
+            rowBySlug = buildRowBySlug();
+            countiesByState = buildCountiesByState();
+            document.getElementById("lazyNote").hidden = true;
+            buildFilters();
+            renderTable();
+            // County drilldown is the only map view fed by the deferred chunk;
+            // other scopes keep their viewport untouched.
+            if (selCountry === "US" && selState) {
+              renderRealMap();
+              updateMapSide();
+            }
+          })
+          .catch(() => {
+            corpusPromise = null;
+            document.getElementById("lazyNote").hidden = true;
+          });
+        return corpusPromise;
+      }
       const selectedCountry = () => selCountry ? countryByCode.get(selCountry) : null;
       const scopedFunnel = () => selectedCountry()?.funnel || DATA.funnel;
       const scopedYears = () => selectedCountry()?.years || DATA.years;
@@ -2267,8 +2325,34 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         document.body.style.overflow = "";
       }
 
+      const dcMetaCache = new Map();
+      let dcModalSlug = null;
+
       function openDcDetail(slug, row) {
-        const meta = slug ? DC_META[slug] || null : null;
+        dcModalSlug = slug || null;
+        if (!slug) {
+          renderDcModal(null, row, "", false);
+          return;
+        }
+        if (dcMetaCache.has(slug)) {
+          renderDcModal(dcMetaCache.get(slug), row, slug, false);
+          return;
+        }
+        // Detail metadata lives in per-slug files (plan §6.1): open instantly
+        // on the registry row fields, swap in the full record when it lands.
+        renderDcModal(null, row, slug, true);
+        fetch(`${BASE}dc/${encodeURIComponent(slug)}.json`)
+          .then(r => r.ok ? r.json() : null)
+          .catch(() => null)
+          .then(meta => {
+            dcMetaCache.set(slug, meta);
+            if (!document.getElementById("dcModal").hidden && dcModalSlug === slug) {
+              renderDcModal(meta, row, slug, false);
+            }
+          });
+      }
+
+      function renderDcModal(meta, row, slug, loading) {
         const fallback = !meta;
         const title = meta && meta.canonical_project ? meta.canonical_project : (row ? row.project : slug || "—");
         const capacity = (meta && meta.capacity_mw != null) ? meta.capacity_mw : (row ? row.capacity_mw : null);
@@ -2284,7 +2368,8 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         const part = (dt, dd) => (dd === "" || dd == null) ? "" : `<dt>${dt}</dt><dd>${dd}</dd>`;
 
         const items = [];
-        if (fallback) items.push(`<div class="dc-note">${L(I18N.dc.noDetail)}</div>`);
+        if (loading) items.push(`<div class="dc-note dc-loading">${L(I18N.dc.loading)}</div>`);
+        else if (fallback) items.push(`<div class="dc-note">${L(I18N.dc.noDetail)}</div>`);
         items.push(part(L(I18N.dc.capacity), capacity != null ? fmtMW(capacity) : "—"));
         items.push(part(L(I18N.dc.status), status ? statusLabel(status) : "—"));
         if (meta && meta.owner) items.push(part(L(I18N.dc.owner), esc(meta.owner)));
@@ -2363,6 +2448,13 @@ const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
         setTheme("dark");
         setLang("en");
       }
+
+      // Deferred corpus (plan §6.2): pull the heavy registry once the first
+      // paint has settled; registry interactions retry a failed load.
+      if ("requestIdleCallback" in window) requestIdleCallback(() => loadCorpus(), { timeout: 2500 });
+      else setTimeout(loadCorpus, 900);
+      document.getElementById("fStatus").addEventListener("change", loadCorpus);
+      document.getElementById("fState").addEventListener("change", loadCorpus);
 
       countUp(document.getElementById("heroGW"), DATA.totals.capacity_gw, 1, 1800);
       countUp(document.getElementById("cFac"), DATA.totals.facilities, 0, 1500);

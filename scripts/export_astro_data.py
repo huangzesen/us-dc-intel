@@ -495,7 +495,8 @@ def load_subnational_coords() -> dict[tuple[str, str], list[float]]:
     return coords
 
 
-DC_METADATA_PATH = ROOT / "astro" / "src" / "data" / "dc-metadata.json"
+DC_META_DIR = ROOT / "astro" / "public" / "dc"
+CENTERS_OUT_PATH = ROOT / "astro" / "public" / "data" / "centers.json"
 _DC_METADATA: dict[str, dict] | None = None
 
 
@@ -520,9 +521,18 @@ def load_dc_metadata() -> dict[str, dict]:
     return meta
 
 
-def write_dc_metadata(meta: dict[str, dict]) -> None:
-    DC_METADATA_PATH.parent.mkdir(parents=True, exist_ok=True)
-    DC_METADATA_PATH.write_text(json.dumps(meta, ensure_ascii=False), encoding="utf-8")
+def write_dc_metadata(meta: dict[str, dict]) -> int:
+    """Emit per-slug files fetched lazily by the DC detail modal (plan §6.1)."""
+    DC_META_DIR.mkdir(parents=True, exist_ok=True)
+    written = 0
+    for slug, item in meta.items():
+        if not re.fullmatch(r"[A-Za-z0-9._-]+", slug):
+            continue
+        (DC_META_DIR / f"{slug}.json").write_text(
+            json.dumps(item, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+        )
+        written += 1
+    return written
 
 
 def slugify(name: str) -> str:
@@ -882,15 +892,14 @@ def main() -> None:
             "counties_explored": COUNTIES_EXPLORED,
             "countries_with_projects": len(country_acc),
             "countries_explored": len(americas),
+            "registry_rows": len(centers),
         },
         "countries": countries,
         "states": states,
-        "counties": counties,
         "funnel": funnel,
         "years": wave,
         "developers": developers,
         "evidence": evidence,
-        "centers": centers,
         "flagship": flagship,
         "status_labels": STATUS_LABELS,
     }
@@ -899,11 +908,18 @@ def main() -> None:
     OUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"wrote {OUT_PATH} ({OUT_PATH.stat().st_size:,} bytes)")
 
+    # Payload split (plan §6.2): centers + counties are fetched after first
+    # paint from public/data/centers.json instead of riding in the inline HTML.
+    deferred = {"centers": centers, "counties": counties}
+    CENTERS_OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CENTERS_OUT_PATH.write_text(json.dumps(deferred, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"wrote {CENTERS_OUT_PATH} ({CENTERS_OUT_PATH.stat().st_size:,} bytes)")
+
     # DC detail metadata (Jason 3596): emit only slugs referenced by centers.
     used_slugs = {c.get("slug") for c in centers if c.get("slug")}
     dc_meta_out = {s: dc_meta[s] for s in used_slugs if s in dc_meta}
-    write_dc_metadata(dc_meta_out)
-    print(f"wrote {DC_METADATA_PATH} ({DC_METADATA_PATH.stat().st_size:,} bytes, {len(dc_meta_out)} entries)")
+    n_files = write_dc_metadata(dc_meta_out)
+    print(f"wrote {DC_META_DIR}/<slug>.json ({n_files} files)")
 
 
 if __name__ == "__main__":

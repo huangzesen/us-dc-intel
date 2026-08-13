@@ -21,8 +21,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={pageDescription} />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href={`${baseUrl}favicon.ico`} />
     <link rel="canonical" href={siteUrl} />
     <!-- Social unfurl (plan §8): og.png is a prerendered 1200x630 dark-theme
          card in public/; crawlers need absolute URLs. -->
@@ -1261,27 +1260,28 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         color: var(--mut);
         font-size: 11px;
       }
-      /* Compute horizon: status-based commitment staircase. Each phase band
-         extends from its step to the right edge, so the top edge reads as
-         the compute that could be online if every committed project lands.
-         Geometry is percentage-based (HTML overlays over a stretched SVG) so
-         the crosshair, dots, and labels never distort with the viewport. */
-      .hzn-top {
+      /* Market-cap treemap: country/subnational area encodes compute capacity,
+         while color encodes the dominant project phase in the country funnel. */
+      .tm-top {
         display: flex;
         flex-wrap: wrap;
-        gap: 16px 28px;
+        gap: 14px 22px;
         align-items: flex-start;
-        margin-bottom: 6px;
+        margin-bottom: 14px;
       }
 
-      .hzn-headline .hk {
+      .tm-headline {
+        min-width: min(100%, 420px);
+      }
+
+      .tm-headline .hk {
         margin-bottom: 8px;
         color: var(--mut);
         font: 11px var(--mono);
         letter-spacing: 0.12em;
       }
 
-      .hzn-num {
+      .tm-num {
         display: flex;
         flex-wrap: wrap;
         align-items: baseline;
@@ -1291,277 +1291,159 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         font-variant-numeric: tabular-nums;
       }
 
-      .hzn-num .unit {
+      .tm-num .unit {
         color: var(--acc-ink);
         font-size: 18px;
       }
 
-      .hzn-num .cap {
+      .tm-num .cap {
         color: var(--mut);
         font-size: 11px;
         letter-spacing: 0.1em;
       }
 
-      .hzn-num .dotsep {
-        color: var(--mut);
-        font-size: 20px;
-      }
-
-      .hzn-break {
+      .tm-sub {
         display: flex;
         flex-wrap: wrap;
-        gap: 4px 16px;
+        gap: 5px 16px;
         margin-top: 8px;
         color: var(--ink2);
         font: 12px var(--mono);
       }
 
-      .hzn-break .bd {
+      .tm-sub span {
         display: inline-flex;
         align-items: center;
         gap: 6px;
       }
 
-      .hzn-break .bd i {
+      .tm-sub i {
         width: 8px;
         height: 8px;
         border-radius: 2px;
       }
 
-      .hzn-break .bd.off {
-        opacity: 0.4;
-        text-decoration: line-through;
-      }
-
-      .hzn-toggles {
+      .tm-legend {
         display: flex;
         flex-wrap: wrap;
         gap: 8px;
         margin-left: auto;
+        max-width: 560px;
       }
 
-      .hzn-toggles button {
+      .tm-legend span {
         display: inline-flex;
         align-items: center;
-        gap: 7px;
-        min-height: 32px;
-        padding: 5px 13px;
+        gap: 6px;
+        min-height: 28px;
+        padding: 4px 10px;
         border: 1px solid var(--ln2);
-        border-radius: 99px;
+        border-radius: 6px;
+        color: var(--ink2);
         font: 12px var(--mono);
       }
 
-      .hzn-toggles button .sw {
+      .tm-legend .sw {
         width: 10px;
         height: 10px;
         border-radius: 3px;
-        background: var(--c);
-        transition: box-shadow 0.2s, background 0.2s;
       }
 
-      .hzn-toggles button[aria-pressed="false"] {
-        color: var(--mut);
-        border-style: dashed;
+      .tmbox {
+        aspect-ratio: 1 / 1;
+        width: min(100%, 760px);
+        margin: 0 auto;
+        border: 1px solid var(--ln2);
+        border-radius: 8px;
+        background: color-mix(in srgb, var(--sf2) 64%, transparent);
+        overflow: hidden;
       }
 
-      .hzn-toggles button[aria-pressed="false"] .sw {
-        background: transparent;
-        box-shadow: inset 0 0 0 2px var(--c);
-      }
-
-      .hznbox {
-        display: flex;
-        gap: 12px;
-        margin-top: 34px;
-      }
-
-      .hzn-yaxis {
-        position: relative;
-        width: 46px;
-        flex: none;
-        color: var(--mut);
-        font: 10px var(--mono);
-        user-select: none;
-      }
-
-      .hzn-yaxis span {
-        position: absolute;
-        right: 0;
-        transform: translateY(-50%);
-        white-space: nowrap;
-      }
-
-      .hzn-main {
-        flex: 1;
-        min-width: 0;
-      }
-
-      .hzn-plot {
-        position: relative;
-        height: 204px;
-      }
-
-      .hzn-plot svg {
-        position: absolute;
-        inset: 0;
+      .tmbox svg {
         display: block;
         width: 100%;
         height: 100%;
-        overflow: visible;
       }
 
-      .hzn-plot .gr {
-        stroke: var(--ln2);
-        opacity: 0.6;
-      }
-
-      .hzn-plot .hfill {
-        fill-opacity: 0;
-        transition: fill-opacity 0.9s;
-      }
-
-      .in .hzn-plot .hfill {
-        fill-opacity: 0.42;
-      }
-
-      .hzn-plot .hcut {
-        fill: none;
+      .tm-tile rect {
         stroke: var(--sf);
-        stroke-width: 4;
-      }
-
-      .hzn-plot .hedge {
-        fill: none;
         stroke-width: 2;
+        transition: filter 0.18s, opacity 0.18s, stroke-width 0.18s;
       }
 
-      .hzn-plot .hedge.top {
-        stroke-width: 2.5;
-      }
-
-      /* A toggled-off stage collapses to zero thickness; fade its boundary
-         strokes out so they don't ride the edge below as a ghost line. */
-      .hzn-plot .hedge,
-      .hzn-plot .hcut {
-        transition: opacity 0.35s;
-      }
-
-      .hzn-plot .hedge.off,
-      .hzn-plot .hcut.off {
-        opacity: 0;
-      }
-
-      .hzn-ends {
-        position: absolute;
-        inset: 0;
-        pointer-events: none;
-      }
-
-      .hzn-ends span {
-        position: absolute;
-        right: 3px;
-        display: inline-flex;
-        align-items: center;
-        gap: 5px;
-        transform: translateY(-50%);
-        color: var(--ink2);
-        font: 600 10px var(--mono);
-        text-shadow: 0 1px 0 var(--sf);
-      }
-
-      .hzn-ends span.tp {
-        transform: translateY(-130%);
-        color: var(--ink);
-        font-size: 11px;
-      }
-
-      .hzn-ends span i {
-        width: 7px;
-        height: 7px;
-        border-radius: 2px;
-      }
-
-      /* Hovered phase band brightens in place; the crosshair dot marks the
-         cumulative top edge through that phase. */
-      .in .hzn-plot .hfill.hot {
-        fill-opacity: 0.62;
-      }
-
-      .hzn-cross {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 0;
-        border-left: 1px dashed var(--mut);
-        pointer-events: none;
-      }
-
-      .hzn-cross i {
-        position: absolute;
-        left: 0;
-        width: 9px;
-        height: 9px;
-        transform: translate(-50%, -50%);
-        border: 2px solid var(--sf);
-        border-radius: 50%;
-      }
-
-      .hzn-hots {
-        position: absolute;
-        inset: -30px 0 0;
-      }
-
-      .hzn-hot {
-        position: absolute;
-        top: 0;
-        bottom: 0;
+      .tm-tile {
         cursor: crosshair;
       }
 
-      .hzn-hot:focus-visible {
-        outline: 1px dashed var(--acc);
-        outline-offset: -1px;
+      .tm-tile:focus-visible rect,
+      .tm-tile:hover rect {
+        filter: brightness(1.16) saturate(1.08);
+        stroke-width: 3;
       }
 
-      .hzn-x {
-        position: relative;
-        height: 16px;
-        margin-top: 8px;
+      .tm-tile text {
+        fill: #fff;
+        paint-order: stroke;
+        stroke: rgba(0, 0, 0, 0.34);
+        stroke-width: 3px;
+        stroke-linejoin: round;
+        font-family: var(--mono);
+        pointer-events: none;
+        user-select: none;
+      }
+
+      :root[data-theme="light"] .tm-tile text {
+        fill: #fff;
+        stroke: rgba(0, 0, 0, 0.42);
+      }
+
+      .tm-label {
+        font-size: 15px;
+        font-weight: 800;
+      }
+
+      .tm-value {
+        font-size: 11px;
+        font-weight: 650;
+        opacity: 0.9;
+      }
+
+      .tm-crumbs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+        margin: 12px 0 0;
         color: var(--mut);
-        font: 10px var(--mono);
+        font: 12px var(--mono);
       }
 
-      .hzn-x span {
-        position: absolute;
-        transform: translateX(-50%);
-        white-space: nowrap;
+      .tm-back {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        min-height: 30px;
+        padding: 4px 10px;
+        border: 1px solid var(--ln2);
+        border-radius: 6px;
+        color: var(--ink2);
       }
 
-      .hzn-x span i {
-        display: inline-block;
-        width: 7px;
-        height: 7px;
-        margin-right: 4px;
-        border-radius: 2px;
-        vertical-align: 1px;
+      .tm-back[hidden] {
+        display: none;
       }
 
       @media (max-width: 680px) {
-        .hzn-ends {
-          display: none;
-        }
-
-        .hzn-num {
+        .tm-num {
           font-size: 26px;
         }
 
-        .hzn-x span {
-          font-size: 8px;
+        .tm-legend {
+          margin-left: 0;
         }
 
-        .hzn-x span i {
-          display: block;
-          margin: 0 auto 2px;
+        .tmbox {
+          width: 100%;
         }
       }
 
@@ -2180,43 +2062,30 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           <div class="sec-head">
             <div>
               <div class="kick"><span class="idx">03</span><span class="en">BUILDOUT WAVE</span><span class="zh">建设浪潮</span></div>
-              <h2><span class="en">Project signals by commitment phase</span><span class="zh">按承诺阶段的项目信号</span></h2>
+              <h2><span class="en">Global compute map</span><span class="zh">全球算力版图</span></h2>
             </div>
           </div>
-          <div class="card rv hzncard">
-            <div class="hzn-top">
-              <div class="hzn-headline">
-                <div class="hk"><span class="en">COMPUTE HORIZON — STACKED BY COMMITMENT PHASE</span><span class="zh">算力地平线 — 按承诺阶段堆叠</span></div>
-                <div class="hzn-num" id="hznNums">
-                  <span id="hznNowNum">0</span><span class="unit" id="hznNowUnit">GW</span><span class="cap"><span class="en">ONLINE NOW</span><span class="zh">当前在线</span></span>
-                  <span class="dotsep">·</span>
-                  <span id="hznNum">0</span><span class="unit" id="hznUnit">GW</span><span class="cap"><span class="en">TOTAL POTENTIAL</span><span class="zh">潜在总量</span></span>
+          <div class="card rv tmcard">
+            <div class="tm-top">
+              <div class="tm-headline">
+                <div class="hk"><span class="en">MARKET-CAP TREEMAP — SIZED BY COMPUTE CAPACITY</span><span class="zh">市值图式矩形树图 — 按算力容量定面积</span></div>
+                <div class="tm-num" id="tmNums">
+                  <span id="tmNum">0</span><span class="unit" id="tmUnit">GW</span><span class="cap" id="tmScopeLabel"></span>
                 </div>
-                <div class="hzn-break" id="hznBreak"></div>
+                <div class="tm-sub" id="tmSub"></div>
               </div>
-              <div class="hzn-toggles" role="group" aria-label="Toggle phases / 切换阶段">
-                <button type="button" data-hzn-stage="op" aria-pressed="true" style="--c:var(--st-op)"><span class="sw"></span><span class="en">OPERATIONAL</span><span class="zh">运营中</span></button>
-                <button type="button" data-hzn-stage="con" aria-pressed="true" style="--c:var(--st-con)"><span class="sw"></span><span class="en">CONSTRUCTION</span><span class="zh">在建</span></button>
-                <button type="button" data-hzn-stage="app" aria-pressed="true" style="--c:var(--st-app)"><span class="sw"></span><span class="en">APPROVED</span><span class="zh">已批准</span></button>
-                <button type="button" data-hzn-stage="pla" aria-pressed="true" style="--c:var(--st-pla)"><span class="sw"></span><span class="en">PLANNED</span><span class="zh">规划中</span></button>
-                <button type="button" data-hzn-stage="ann" aria-pressed="true" style="--c:var(--st-ann)"><span class="sw"></span><span class="en">ANNOUNCED</span><span class="zh">已公告</span></button>
-              </div>
+              <div class="tm-legend" id="tmLegend" aria-label="Status color legend / 状态颜色图例"></div>
             </div>
-            <div class="hznbox">
-              <div class="hzn-yaxis" id="hznY"></div>
-              <div class="hzn-main">
-                <div class="hzn-plot">
-                  <svg id="hznSvg" viewBox="0 0 1000 204" preserveAspectRatio="none" aria-hidden="true"></svg>
-                  <div class="hzn-ends" id="hznEnds" aria-hidden="true"></div>
-                  <div class="hzn-cross" id="hznCross" hidden></div>
-                  <div class="hzn-hots" id="hznHots"></div>
-                </div>
-                <div class="hzn-x" id="hznX"></div>
-              </div>
+            <div class="tmbox">
+              <svg id="tmSvg" viewBox="0 0 1000 1000" role="img" aria-label="Compute capacity treemap / 算力容量矩形树图"></svg>
+            </div>
+            <div class="tm-crumbs">
+              <button id="tmBack" class="tm-back" type="button" hidden><span aria-hidden="true">←</span><span class="en">WORLD</span><span class="zh">返回全球</span></button>
+              <span id="tmCrumb"></span>
             </div>
             <div class="mapnote">
-              <span class="en">Capacity stacked by project status in commitment order — each step adds the next-least-committed phase, so the top edge reads as the total compute that might come online if every committed project lands. Rejected and unknown-status records are excluded. Hover a phase for its share, click a phase or its chip to include or exclude it.</span>
-              <span class="zh">按项目状态、依承诺程度堆叠的容量——每级台阶加上承诺度次之的阶段，顶边即“若全部落地、可能上线”的总算力。不含已否决与状态未知的记录。悬停查看各阶段占比，点击阶段或标签开关该层。</span>
+              <span class="en">Tile area is total compute capacity (tracked plus estimated). Color is the dominant project phase by capacity. Hover for the country breakdown; click a country to drill into subnational tiles.</span>
+              <span class="zh">矩形面积代表总算力容量（已知加估算）。颜色代表按容量计的主导项目阶段。悬停查看国家拆分；点击国家下钻到国内地区。</span>
             </div>
           </div>
         </div>
@@ -2644,6 +2513,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         buildDevs();
         buildEvidence();
         buildCountrySwitch();
+        buildTreemap();
         updateHero();
         updateMapSide();
         updateFunnelTitle();
@@ -2768,7 +2638,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         buildMap();
         renderRealMap();
         buildFunnel();
-        buildHorizon();
         buildFilters();
         renderTable();
         updateMapSide();
@@ -3094,224 +2963,201 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         });
       }
 
-      // Compute horizon: capacity stacked by the STATUS field (globally
-      // populated), never the year field (NULL for every non-US facility).
-      // Phases stack in commitment order — operational first, announced
-      // last — and each band extends from its step to the right edge, so
-      // the top edge climbs stepwise to the total compute that might come
-      // online if every committed project lands. Rejected and unknown are
-      // excluded upstream: the export's funnel aggregation only emits the
-      // five committed statuses. Capacity-only by design — the question it
-      // answers ("how much compute might come online") has no
-      // facilities-count reading, so it ignores the metric tabs above.
-      const HZN_W = 1000;
-      const HZN_H = 204;
-      // Commitment order, most → least committed. Keys match the export's
-      // funnel/status keys; bilingual labels ride DATA.status_labels.
-      const HZN_PHASES = [
-        { key: "op", var: "--st-op" },
-        { key: "con", var: "--st-con" },
-        { key: "app", var: "--st-app" },
-        { key: "pla", var: "--st-pla" },
-        { key: "ann", var: "--st-ann" },
-      ];
-      const hznHidden = new Set();
-      let hznVals = null; // active per-phase MW (zeroed when toggled off)
-      let hznCounts = null; // per-phase project counts for tooltips
-      let hznMax = 1; // axis stays pinned to the all-phases total per scope
-      let hznKey = "";
-      let hznAnimFrame = 0;
-      const hznNumTokens = {};
+      // Treemap color comes from the dominant capacity-bearing status in each
+      // country funnel; subnational rows inherit that country phase because the
+      // aggregate export does not include subnational funnel breakdowns.
+      const TM_SIZE = 1000;
+      const TM_PAD = 4;
+      const TM_PHASES = ["op", "con", "app", "pla", "ann", "unk"];
+      const tmColorKey = key => key === "rej" || key === "coverage" || !key ? "unk" : key;
+      let tmCountryCode = null;
 
-      const hznCumTo = k => hznVals.slice(0, k + 1).reduce((sum, v) => sum + v, 0);
-      const hznLabel = key => I18N.st[key][langIndex()];
-      const hznBilingual = key => `<span class="en">${I18N.st[key][0]}</span><span class="zh">${I18N.st[key][1]}</span>`;
-
-      function hznRender(vals) {
-        const xOf = k => (k / HZN_PHASES.length) * HZN_W;
-        const yOf = v => HZN_H - (v / hznMax) * HZN_H;
-        const lastOn = HZN_PHASES.reduce((last, p, k) => (hznHidden.has(p.key) ? last : k), -1);
-        let below = 0;
-        HZN_PHASES.forEach((p, k) => {
-          const top = below + (vals[k] || 0);
-          const off = hznHidden.has(p.key);
-          const x0 = xOf(k).toFixed(1);
-          const yTop = yOf(top).toFixed(1);
-          const yLow = yOf(below).toFixed(1);
-          document.getElementById(`hznFill-${p.key}`).setAttribute("d", `M${x0},${yTop}L${HZN_W},${yTop}L${HZN_W},${yLow}L${x0},${yLow}Z`);
-          const ledge = `M${x0},${yTop}L${HZN_W},${yTop}`;
-          const cut = document.getElementById(`hznCut-${p.key}`);
-          cut.setAttribute("d", ledge);
-          cut.classList.toggle("off", off);
-          const edge = document.getElementById(`hznEdge-${p.key}`);
-          edge.setAttribute("d", ledge);
-          edge.classList.toggle("top", k === lastOn);
-          edge.classList.toggle("off", off);
-          below = top;
-        });
-        // Right-edge direct labels: per-phase capacity (thin bands skip
-        // theirs) plus the total-potential line riding the top edge.
-        const total = below;
-        let run = 0;
-        document.getElementById("hznEnds").innerHTML = HZN_PHASES.map((p, k) => {
-          const v = vals[k] || 0;
-          run += v;
-          if (v / hznMax < 0.07) return "";
-          const mid = run - v / 2;
-          return `<span style="top:${((1 - mid / hznMax) * 100).toFixed(1)}%"><i style="background:var(${p.var})"></i>${fmtMW(v)}</span>`;
-        }).join("") + (total > 0 ? `<span class="tp" style="top:${((1 - total / hznMax) * 100).toFixed(1)}%">▲ ${fmtMW(total)}</span>` : "");
+      function dominantStatus(funnel = []) {
+        return (funnel || []).reduce((best, row) => {
+          const mw = Number(row.capacity_mw) || 0;
+          return mw > best.mw ? { key: row.key, mw } : best;
+        }, { key: "unk", mw: -1 }).key;
       }
 
-      function hznMorph(from, to) {
-        cancelAnimationFrame(hznAnimFrame);
-        if (noMotion || !from || from.length !== to.length) {
-          hznRender(to);
-          return;
+      function statusName(key) {
+        const colorKey = tmColorKey(key);
+        return I18N.st[colorKey]?.[langIndex()] || (langIndex() ? "未知" : "Unknown");
+      }
+
+      function tmLegendName(key) {
+        if (key === "unk") return langIndex() ? "未知 / 否决 / 覆盖" : "Unknown / rejected / coverage";
+        return statusName(key);
+      }
+
+      function tmRows() {
+        const country = tmCountryCode ? countryByCode.get(tmCountryCode) : null;
+        if (!country) {
+          return (DATA.countries || [])
+            .filter(c => Number(c.capacity_mw) > 0)
+            .map(c => ({
+              id: c.code,
+              label: countryName(c),
+              title: `${c.name_en} / ${c.name_zh}`,
+              value: Number(c.capacity_mw) || 0,
+              facilities: Number(c.facilities) || 0,
+              tracked_gw: gwOf(c, "tracked_mw", "tracked_gw"),
+              est_gw: gwOf(c, "est_mw", "est_gw"),
+              status: dominantStatus(c.funnel),
+              funnel: c.funnel || [],
+              country: c,
+              drillable: (c.subnationals || []).length > 0,
+            }));
         }
-        const start = performance.now();
-        const dur = 400;
-        const tick = now => {
-          const p = Math.min(1, (now - start) / dur);
-          const e = 1 - Math.pow(1 - p, 3);
-          hznRender(to.map((v, k) => from[k] + (v - from[k]) * e));
-          if (p < 1) hznAnimFrame = requestAnimationFrame(tick);
-        };
-        hznAnimFrame = requestAnimationFrame(tick);
+        const status = dominantStatus(country.funnel);
+        return (country.subnationals || [])
+          .filter(s => Number(s.capacity_mw) > 0)
+          .map((s, i) => ({
+            id: `${country.code}-${i}`,
+            label: s.name,
+            title: `${countryName(country)} / ${s.name}`,
+            value: Number(s.capacity_mw) || 0,
+            facilities: Number(s.facilities) || 0,
+            tracked_gw: null,
+            est_gw: null,
+            status,
+            funnel: country.funnel || [],
+            country,
+            drillable: false,
+          }));
       }
 
-      function buildHorizon() {
-        const key = `${selCountry || "*"}|${HZN_PHASES.map(p => (hznHidden.has(p.key) ? 0 : 1)).join("")}`;
-        if (key === hznKey && hznVals) return;
-        hznKey = key;
-        const byKey = new Map(scopedFunnel().map(f => [f.key, f]));
-        const rows = HZN_PHASES.map(p => byKey.get(p.key) || { capacity_mw: 0, count: 0 });
-        hznCounts = rows.map(r => Number(r.count) || 0);
-        const raw = rows.map(r => Number(r.capacity_mw) || 0);
-        hznMax = Math.max(1, raw.reduce((sum, v) => sum + v, 0));
-        const prev = hznVals;
-        hznVals = HZN_PHASES.map((p, k) => (hznHidden.has(p.key) ? 0 : raw[k]));
-        const svg = document.getElementById("hznSvg");
-        if (!svg.dataset.ready) {
-          svg.dataset.ready = "1";
-          svg.innerHTML = [0, 1, 2, 3, 4].map(q => `<line class="gr" x1="0" x2="${HZN_W}" y1="${(q * HZN_H / 4).toFixed(1)}" y2="${(q * HZN_H / 4).toFixed(1)}" vector-effect="non-scaling-stroke"/>`).join("")
-            + HZN_PHASES.map(p => `<path id="hznFill-${p.key}" class="hfill" style="fill:var(${p.var})"/>`).join("")
-            + HZN_PHASES.map(p => `<path id="hznCut-${p.key}" class="hcut" vector-effect="non-scaling-stroke"/><path id="hznEdge-${p.key}" class="hedge" style="stroke:var(${p.var})" vector-effect="non-scaling-stroke"/>`).join("");
-        }
-        document.getElementById("hznY").innerHTML = [0, 1, 2, 3, 4].map(q => `<span style="top:${q * 25}%">${q === 4 ? "0" : fmtMW(hznMax * (1 - q / 4))}</span>`).join("");
-        document.getElementById("hznX").innerHTML = HZN_PHASES.map((p, k) => `<span style="left:${((k + 0.5) / HZN_PHASES.length * 100).toFixed(2)}%"><i style="background:var(${p.var})"></i>${hznBilingual(p.key)}</span>`).join("");
-        // §8: hotspots mirror the hover tooltip for keyboard/SR users.
-        document.getElementById("hznHots").innerHTML = HZN_PHASES.map((p, k) => {
-          const label = `${hznLabel(p.key)}: ${fmtMW(hznVals[k] || 0)} · ${fmt(hznCounts[k])} ${L(I18N.projects)} — ${langIndex() ? "累计潜在算力" : "cumulative potential"} ${fmtMW(hznCumTo(k))}`;
-          return `<div class="hzn-hot" data-index="${k}" tabindex="0" role="img" aria-label="${esc(label)}" style="left:${(k / HZN_PHASES.length * 100).toFixed(2)}%;width:${(100 / HZN_PHASES.length).toFixed(2)}%"></div>`;
-        }).join("");
-        hznMorph(prev, hznVals);
-        hznHeadline();
+      function worst(row, side) {
+        if (!row.length) return Infinity;
+        const sum = row.reduce((a, b) => a + b.area, 0);
+        const max = Math.max(...row.map(d => d.area));
+        const min = Math.min(...row.map(d => d.area));
+        const s2 = side * side;
+        return Math.max((s2 * max) / (sum * sum), (sum * sum) / (s2 * min));
       }
 
-      // Both headline meters re-count from their previous value (not zero)
-      // so scope hops read as one continuous meter. dataset.v stores
-      // canonical GW to survive the GW→TW unit crossover.
-      function hznCountTo(numEl, unitEl, valueGw) {
-        const isTW = valueGw >= 1000;
-        const target = isTW ? valueGw / 1000 : valueGw;
-        const decimals = target >= 100 ? 0 : target >= 10 ? 1 : 2;
-        unitEl.textContent = isTW ? "TW" : "GW";
-        const fromGw = Number(numEl.dataset.v) || 0;
-        const from = isTW ? fromGw / 1000 : fromGw;
-        numEl.dataset.v = String(valueGw);
-        const token = (hznNumTokens[numEl.id] || 0) + 1;
-        hznNumTokens[numEl.id] = token;
-        if (noMotion) {
-          numEl.textContent = target.toFixed(decimals);
+      function layoutRow(row, rect, out) {
+        const sum = row.reduce((a, b) => a + b.area, 0);
+        if (rect.w >= rect.h) {
+          const h = sum / rect.w;
+          let x = rect.x;
+          row.forEach(item => {
+            const w = item.area / h;
+            out.push({ ...item, x, y: rect.y, w, h });
+            x += w;
+          });
+          rect.y += h;
+          rect.h -= h;
         } else {
-          const start = performance.now();
-          const dur = 600;
-          const tick = now => {
-            if (token !== hznNumTokens[numEl.id]) return;
-            const p = Math.min(1, (now - start) / dur);
-            const e = 1 - Math.pow(1 - p, 3);
-            numEl.textContent = (from + (target - from) * e).toFixed(decimals);
-            if (p < 1) requestAnimationFrame(tick);
-          };
-          requestAnimationFrame(tick);
+          const w = sum / rect.h;
+          let y = rect.y;
+          row.forEach(item => {
+            const h = item.area / w;
+            out.push({ ...item, x: rect.x, y, w, h });
+            y += h;
+          });
+          rect.x += w;
+          rect.w -= w;
         }
-        return `${target.toFixed(decimals)} ${isTW ? "TW" : "GW"}`;
       }
 
-      function hznHeadline() {
-        const nowGw = (hznVals[0] || 0) / 1000; // phase 0 is operational
-        const totalGw = hznVals.reduce((sum, v) => sum + v, 0) / 1000;
-        const nowLabel = hznCountTo(document.getElementById("hznNowNum"), document.getElementById("hznNowUnit"), nowGw);
-        const totalLabel = hznCountTo(document.getElementById("hznNum"), document.getElementById("hznUnit"), totalGw);
-        document.getElementById("hznNums").setAttribute("aria-label", langIndex()
-          ? `当前在线 ${nowLabel}，潜在总量 ${totalLabel}`
-          : `${nowLabel} online now, ${totalLabel} total potential`);
-        document.getElementById("hznBreak").innerHTML = HZN_PHASES.map((p, k) => {
-          const off = hznHidden.has(p.key);
-          return `<span class="bd${off ? " off" : ""}"><i style="background:var(${p.var})"></i>${hznBilingual(p.key)} <b>${off ? "·" : fmtMW(hznVals[k] || 0)}</b></span>`;
+      function squarify(rows, width, height) {
+        const total = rows.reduce((sum, d) => sum + d.value, 0) || 1;
+        const items = rows
+          .map(d => ({ ...d, area: d.value / total * width * height }))
+          .sort((a, b) => b.area - a.area);
+        const rect = { x: 0, y: 0, w: width, h: height };
+        const out = [];
+        let row = [];
+        while (items.length) {
+          const item = items[0];
+          const side = Math.min(rect.w, rect.h);
+          if (!row.length || worst([...row, item], side) <= worst(row, side)) {
+            row.push(items.shift());
+          } else {
+            layoutRow(row, rect, out);
+            row = [];
+          }
+        }
+        if (row.length) layoutRow(row, rect, out);
+        return out;
+      }
+
+      function tmBreakdown(funnel = []) {
+        const total = funnel.reduce((sum, f) => sum + (Number(f.capacity_mw) || 0), 0) || 1;
+        return (funnel || [])
+          .filter(f => Number(f.capacity_mw) > 0)
+          .sort((a, b) => (Number(b.capacity_mw) || 0) - (Number(a.capacity_mw) || 0))
+          .map(f => `${statusName(f.key)} ${fmtMW(f.capacity_mw)} (${Math.round(Number(f.capacity_mw) / total * 100)}%)`)
+          .join("<br>");
+      }
+
+      function tmTooltip(d, ev) {
+        const tracked = d.tracked_gw == null ? "" : `<br>${langIndex() ? "已知 vs 估算" : "Tracked vs est"}: ${d.tracked_gw.toFixed(1)} GW / ${d.est_gw.toFixed(1)} GW`;
+        const click = d.drillable ? `<br>${langIndex() ? "点击下钻地区" : "Click to drill into areas"}` : "";
+        showTip(`<div class="t1">${esc(d.title)}</div><div class="t2">${fmtMW(d.value)}${tracked}<br>${fmt(d.facilities)} ${L(I18N.facilities)}<br>${langIndex() ? "主导阶段" : "Dominant phase"}: <b>${statusName(d.status)}</b><br>${tmBreakdown(d.funnel)}${click}</div>`, ev);
+      }
+
+      function buildTreemap() {
+        const svg = document.getElementById("tmSvg");
+        const country = tmCountryCode ? countryByCode.get(tmCountryCode) : null;
+        const rows = tmRows();
+        const totalMw = rows.reduce((sum, d) => sum + d.value, 0);
+        const totalGw = totalMw / 1000;
+        const unit = totalGw >= 1000 ? "TW" : "GW";
+        const shown = unit === "TW" ? totalGw / 1000 : totalGw;
+        document.getElementById("tmNum").textContent = shown.toFixed(shown >= 100 ? 0 : shown >= 10 ? 1 : 2);
+        document.getElementById("tmUnit").textContent = unit;
+        document.getElementById("tmScopeLabel").textContent = country
+          ? (langIndex() ? "国内地区" : "SUBNATIONAL AREAS")
+          : (langIndex() ? "全球国家" : "WORLD COUNTRIES");
+        document.getElementById("tmSub").innerHTML = country
+          ? `<span><i style="background:${stColor(tmColorKey(dominantStatus(country.funnel)))}"></i>${esc(countryName(country))}</span><span>${fmt(country.subnationals.length)} ${L(I18N.subnationalsWithProjects)}</span>`
+          : `<span>${fmt(rows.length)} ${L(I18N.countriesWithProjects)}</span><span>${splitFull(DATA.totals.tracked_gw, DATA.totals.est_gw)}</span>`;
+        document.getElementById("tmLegend").innerHTML = TM_PHASES.map(key => `<span><i class="sw" style="background:${stColor(key)}"></i>${tmLegendName(key)}</span>`).join("");
+        document.getElementById("tmBack").hidden = !country;
+        document.getElementById("tmCrumb").textContent = country
+          ? `${langIndex() ? "全球" : "World"} / ${countryName(country)}`
+          : (langIndex() ? "全球 / 国家" : "World / countries");
+
+        const tiles = squarify(rows, TM_SIZE, TM_SIZE).map(d => {
+          const x = d.x + TM_PAD;
+          const y = d.y + TM_PAD;
+          const w = Math.max(0, d.w - TM_PAD * 2);
+          const h = Math.max(0, d.h - TM_PAD * 2);
+          const area = w * h;
+          const showName = w > 78 && h > 42 && area > 5200;
+          const showValue = w > 90 && h > 68 && area > 9000;
+          const labelSize = Math.max(10, Math.min(18, Math.min(w / Math.max(4, d.label.length * 0.62), h / 3.8)));
+          const title = esc(`${d.title} · ${fmtMW(d.value)} · ${statusName(d.status)}`);
+          return `<g class="tm-tile" data-id="${esc(d.id)}" tabindex="0" role="${d.drillable ? "button" : "img"}" aria-label="${title}" transform="translate(${x.toFixed(2)} ${y.toFixed(2)})">
+            <title>${title}</title>
+            <rect width="${w.toFixed(2)}" height="${h.toFixed(2)}" rx="5" style="fill:${stColor(tmColorKey(d.status))}"></rect>
+            ${showName ? `<text class="tm-label" x="10" y="22" font-size="${labelSize.toFixed(1)}">${esc(d.label)}</text>` : ""}
+            ${showValue ? `<text class="tm-value" x="10" y="${(24 + labelSize).toFixed(1)}">${fmtMW(d.value)}</text>` : ""}
+          </g>`;
         }).join("");
-      }
-
-      function hznCrossAt(k) {
-        const cross = document.getElementById("hznCross");
-        cross.hidden = false;
-        cross.style.left = `${((k + 0.5) / HZN_PHASES.length * 100).toFixed(2)}%`;
-        cross.innerHTML = `<i style="top:${((1 - hznCumTo(k) / hznMax) * 100).toFixed(2)}%;background:var(${HZN_PHASES[k].var})"></i>`;
-        HZN_PHASES.forEach((p, j) => document.getElementById(`hznFill-${p.key}`).classList.toggle("hot", j === k));
-      }
-
-      function hznHideCross() {
-        document.getElementById("hznCross").hidden = true;
-        HZN_PHASES.forEach(p => document.getElementById(`hznFill-${p.key}`).classList.remove("hot"));
-      }
-
-      function hznTip(k, ev) {
-        const p = HZN_PHASES[k];
-        const off = hznHidden.has(p.key);
-        const share = Math.round((hznVals[k] || 0) / hznMax * 100);
-        const own = off
-          ? (langIndex() ? "已隐藏 — 点击恢复" : "hidden — click to restore")
-          : `${fmtMW(hznVals[k] || 0)} · ${fmt(hznCounts[k])} ${L(I18N.projects)} · ${share}%`;
-        showTip(`<div class="t1">${hznLabel(p.key)}</div><div class="t2">${own}<br><b>${langIndex() ? "累计潜在在线算力" : "Cumulative potential online"}: ${fmtMW(hznCumTo(k))}</b><br>${langIndex() ? "点击开关该阶段" : "Click to toggle this phase"}</div>`, ev);
-      }
-
-      function hznToggle(stage) {
-        if (hznHidden.has(stage)) hznHidden.delete(stage);
-        else hznHidden.add(stage);
-        document.querySelectorAll("[data-hzn-stage]").forEach(button => {
-          if (button.dataset.hznStage === stage) button.setAttribute("aria-pressed", hznHidden.has(stage) ? "false" : "true");
+        svg.innerHTML = tiles;
+        svg.querySelectorAll(".tm-tile").forEach((tile, i) => {
+          const row = rows.find(r => r.id === tile.dataset.id);
+          if (!row) return;
+          tile.addEventListener("mousemove", ev => tmTooltip(row, ev));
+          tile.addEventListener("mouseleave", hideTip);
+          tile.addEventListener("click", () => {
+            if (!row.drillable) return;
+            tmCountryCode = row.country.code;
+            hideTip();
+            buildTreemap();
+          });
+          tile.addEventListener("keydown", e => {
+            if ((e.key === "Enter" || e.key === " ") && row.drillable) {
+              e.preventDefault();
+              tmCountryCode = row.country.code;
+              hideTip();
+              buildTreemap();
+            }
+          });
         });
-        buildHorizon();
       }
-
-      const hznHotsEl = document.getElementById("hznHots");
-      hznHotsEl.addEventListener("mousemove", e => {
-        const hot = e.target.closest(".hzn-hot");
-        if (!hot) return;
-        hznCrossAt(Number(hot.dataset.index));
-        hznTip(Number(hot.dataset.index), e);
-      });
-      hznHotsEl.addEventListener("mouseleave", () => {
-        hideTip();
-        hznHideCross();
-      });
-      hznHotsEl.addEventListener("focusin", e => {
-        const hot = e.target.closest(".hzn-hot");
-        if (hot) hznCrossAt(Number(hot.dataset.index));
-      });
-      hznHotsEl.addEventListener("focusout", hznHideCross);
-      hznHotsEl.addEventListener("click", e => {
-        const hot = e.target.closest(".hzn-hot");
-        if (hot) hznToggle(HZN_PHASES[Number(hot.dataset.index)].key);
-      });
-      hznHotsEl.addEventListener("keydown", e => {
-        if (e.key !== "Enter" && e.key !== " ") return;
-        const hot = e.target.closest(".hzn-hot");
-        if (!hot) return;
-        e.preventDefault();
-        hznToggle(HZN_PHASES[Number(hot.dataset.index)].key);
-      });
-      document.querySelectorAll("[data-hzn-stage]").forEach(button => button.addEventListener("click", () => hznToggle(button.dataset.hznStage)));
 
       function setDevTab(tab) {
         devTab = tab;
@@ -3768,6 +3614,18 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       document.querySelectorAll("[data-lang-button]").forEach(button => button.addEventListener("click", () => setLang(button.dataset.langButton)));
       document.querySelectorAll("[data-map-metric]").forEach(button => button.addEventListener("click", () => setMapMetric(button.dataset.mapMetric)));
       document.querySelectorAll("[data-dev-tab]").forEach(button => button.addEventListener("click", () => setDevTab(button.dataset.devTab)));
+      document.getElementById("tmBack").addEventListener("click", () => {
+        tmCountryCode = null;
+        hideTip();
+        buildTreemap();
+      });
+      document.addEventListener("keydown", e => {
+        if (e.key === "Escape" && tmCountryCode && document.getElementById("cmdk").hidden) {
+          tmCountryCode = null;
+          hideTip();
+          buildTreemap();
+        }
+      });
       document.querySelectorAll("[data-sort]").forEach(th => {
         th.addEventListener("click", () => setSort(th.dataset.sort));
         th.addEventListener("keydown", e => {
@@ -3835,7 +3693,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       // outside a chart element dismisses it.
       if (coarsePointer) {
         document.addEventListener("touchstart", e => {
-          if (!e.target.closest(".frow, .tile, .hzn-hot")) hideTip();
+          if (!e.target.closest(".frow, .tile, .tm-tile")) hideTip();
         }, { passive: true });
       }
       document.addEventListener("click", e => {
@@ -3977,7 +3835,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         buildMap();
         renderRealMap();
         buildFunnel();
-        buildHorizon();
+        buildTreemap();
         renderTable();
         updateMapSide();
         updateFunnelTitle();
@@ -4006,7 +3864,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       countUp(document.getElementById("cCty"), DATA.totals.counties_with_projects, 0, 1600);
 
       buildFunnel();
-      buildHorizon();
+      buildTreemap();
       buildMap();
       renderRealMap();
       buildFilters();

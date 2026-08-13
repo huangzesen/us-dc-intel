@@ -530,6 +530,17 @@ const baseUrl = import.meta.env.BASE_URL;
       .mapfull:hover { background: var(--acc-dim); }
       .mapfull.on { color: var(--acc); }
 
+      .dotchip {
+        position: absolute; bottom: 12px; left: 12px; z-index: 1000;
+        padding: 5px 11px; border-radius: 999px;
+        border: 1px solid var(--ln2); background: color-mix(in srgb, var(--sf) 88%, transparent);
+        color: var(--mut); font: 11px var(--mono); letter-spacing: 0.05em; cursor: pointer;
+        backdrop-filter: blur(4px); box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+      }
+      .dotchip:hover { border-color: var(--acc); color: var(--ink2); }
+      .dotchip.on { color: var(--acc); border-color: var(--acc); }
+      .dotchip[hidden] { display: none; }
+
       .mapmode {
         align-self: start;
         padding-top: 2px;
@@ -1523,6 +1534,100 @@ const baseUrl = import.meta.env.BASE_URL;
         margin-bottom: 2px;
       }
     </style>
+    <!-- Global (unscoped) on purpose: the palette rows are injected at
+         runtime via innerHTML, so they never receive Astro's scoped-style
+         attribute and scoped selectors would miss them. -->
+    <style is:global>
+      .cmdk {
+        place-items: start center;
+        padding-top: 12vh;
+      }
+      .cmdk-box {
+        position: relative;
+        width: min(560px, 100%);
+        overflow: hidden;
+        background: var(--sf);
+        border: 1px solid var(--ln2);
+        border-radius: 14px;
+        box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
+        font-family: var(--sans);
+      }
+      .cmdk-input {
+        width: 100%;
+        padding: 14px 16px;
+        border: 0;
+        border-bottom: 1px solid var(--ln);
+        background: transparent;
+        color: var(--ink);
+        font: 14px var(--mono);
+        letter-spacing: 0.02em;
+        outline: none;
+      }
+      .cmdk-list {
+        max-height: min(52vh, 460px);
+        overflow-y: auto;
+        padding: 6px;
+      }
+      .cmdk-row {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+        width: 100%;
+        padding: 8px 10px;
+        border: 0;
+        border-radius: 8px;
+        background: transparent;
+        color: var(--ink2);
+        font: 12.5px var(--mono);
+        text-align: left;
+        cursor: pointer;
+      }
+      .cmdk-row .ck {
+        flex: none;
+        width: 46px;
+        color: var(--mut);
+        font-size: 10px;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+      .cmdk-row .cn {
+        flex: 1 1 auto;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: var(--ink);
+      }
+      .cmdk-row .cn small {
+        color: var(--mut);
+        font-size: 11px;
+      }
+      .cmdk-row .cv {
+        flex: none;
+        color: var(--mut);
+      }
+      .cmdk-row.act {
+        background: var(--acc-dim);
+      }
+      .cmdk-row.act .ck {
+        color: var(--acc);
+      }
+      .cmdk-empty {
+        padding: 16px 12px;
+        color: var(--mut);
+        font: 12px var(--mono);
+        text-align: center;
+      }
+      .cmdk-hint {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 14px;
+        border-top: 1px solid var(--ln);
+        color: var(--mut);
+        font: 10.5px var(--mono);
+        letter-spacing: 0.05em;
+      }
+    </style>
   </head>
   <body>
     <header class="topbar">
@@ -1604,7 +1709,7 @@ const baseUrl = import.meta.env.BASE_URL;
           </div>
           <div class="card rv">
             <div class="realmap-wrap">
-              <div class="realmap" id="realMap" aria-label="interactive geographic map"><button id="mapFull" class="mapfull" type="button" title="Fullscreen map / 全屏地图">⛶</button></div>
+              <div class="realmap" id="realMap" aria-label="interactive geographic map"><button id="mapFull" class="mapfull" type="button" title="Fullscreen map / 全屏地图">⛶</button><button id="dotToggle" class="dotchip" type="button" aria-pressed="true" hidden></button></div>
               <div class="mapmode">
                 <div class="k"><span class="en">Interactive map</span><span class="zh">交互地图</span></div>
                 <div class="v" id="realMapTitle"></div>
@@ -1745,6 +1850,15 @@ const baseUrl = import.meta.env.BASE_URL;
     </footer>
 
     <div id="tip"></div>
+    <div id="cmdk" class="dc-modal cmdk" hidden>
+      <div class="dc-modal-backdrop" data-cmdk-close></div>
+      <div class="cmdk-box" role="dialog" aria-modal="true" aria-label="command palette">
+        <input id="cmdkInput" class="cmdk-input" type="text" spellcheck="false" autocomplete="off" />
+        <div id="cmdkList" class="cmdk-list" role="listbox"></div>
+        <div class="cmdk-hint"><span>↑↓ <span class="en">NAVIGATE</span><span class="zh">导航</span> · ↵ <span class="en">SELECT</span><span class="zh">选择</span></span><span>ESC <span class="en">CLOSE</span><span class="zh">关闭</span></span></div>
+      </div>
+    </div>
+
     <script id="gw-data" type="application/json" data-base={baseUrl} set:html={dataJson}></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script is:inline>
@@ -1872,6 +1986,10 @@ const baseUrl = import.meta.env.BASE_URL;
             document.getElementById("lazyNote").hidden = true;
             buildFilters();
             renderTable();
+            corpusReady = true;
+            syncDotToggle();
+            updateFacilityDots();
+            if (!cmdkEl.hidden) cmdkUpdate();
             // County drilldown is the only map view fed by the deferred chunk;
             // other scopes keep their viewport untouched.
             if (selCountry === "US" && selState) {
@@ -1930,6 +2048,103 @@ const baseUrl = import.meta.env.BASE_URL;
         return Math.max(6, Math.min(28, 5 + Math.sqrt(Math.max(0, value)) * (mapMetric === "mw" ? 0.07 : 1.2)));
       };
 
+      // Facility dot layer (plan §5.3): one canvas dot per corpus row, shown
+      // past DOT_MIN_ZOOM once the lazy corpus lands. Rows carry no exact
+      // coordinates, so each dot anchors to its US county centroid (state
+      // centroid fallback) or its country anchor, spread with the same
+      // deterministic golden-angle jitter as subnational anchors — positions
+      // are approximate by design and labelled as such. Color rides the §5.2
+      // blue ramp, re-binned to facility grain (aggregate bins start at 1 GW,
+      // which would flatten nearly every facility into band 0).
+      const DOT_BINS = [30, 100, 300, 1000];
+      const DOT_MIN_ZOOM = 6;
+      let corpusReady = false;
+      let dotsEnabled = true;
+      let dotLayer = null;
+      let dotRecords = [];
+      function dotStyleFor(pal, c) {
+        const band = binOf(Number(c.capacity_mw || 0), DOT_BINS);
+        return {
+          color: pal.ramp[Math.min(band + 1, 4)],
+          fillColor: pal.ramp[band],
+          weight: 1,
+          opacity: 0.85,
+          fillOpacity: 0.55 + band * 0.08,
+        };
+      }
+      const dotRadius = c => Math.max(1.8, Math.min(7, 1.4 + Math.sqrt(Math.max(0, Number(c.capacity_mw || 0))) * 0.09));
+      function facilityAnchor(c) {
+        if (c.country === "US") {
+          const county = (countiesByState[c.state] || []).find(k => k.county === c.county);
+          if (county && hasCoord(county)) return { lat: Number(county.lat), lng: Number(county.lng), spread: 0.045 };
+          const state = stateByAbbr.get(c.state);
+          if (hasCoord(state)) return { lat: Number(state.lat), lng: Number(state.lng), spread: 0.4 };
+        }
+        const country = countryByCode.get(c.country);
+        if (hasCoord(country)) return { lat: Number(country.lat), lng: Number(country.lng), spread: 0.8 };
+        return null;
+      }
+      const facilityTipHTML = c => {
+        const loc = [c.county, c.subnational || c.state, c.country].filter(Boolean).join(", ");
+        return `<div class="t1">${esc(c.project)}</div><div class="t2">${esc(loc)} · ${fmtMW(c.capacity_mw)}<br>${langIndex() ? "位置为近似坐标（县/国家锚点）" : "Approximate position (county/country anchor)"}</div>`;
+      };
+      function buildDotLayer() {
+        dotLayer = window.L.layerGroup();
+        dotRecords = [];
+        const pal = markerPalette();
+        const groupIndex = new Map();
+        DATA.centers.forEach(c => {
+          const anchor = facilityAnchor(c);
+          if (!anchor) return;
+          const key = `${anchor.lat},${anchor.lng}`;
+          const idx = groupIndex.get(key) || 0;
+          groupIndex.set(key, idx + 1);
+          const angle = idx * 2.399963;
+          const ring = idx === 0 ? 0 : anchor.spread * (0.25 + 0.75 * Math.sqrt((idx % 64) / 64));
+          const style = dotStyleFor(pal, c);
+          const marker = window.L.circleMarker([anchor.lat + Math.sin(angle) * ring, anchor.lng + Math.cos(angle) * ring], {
+            renderer: realCanvas,
+            radius: dotRadius(c),
+            ...style,
+          });
+          const record = { marker, item: c, style };
+          marker.on("mouseover", ev => {
+            marker.setStyle({ weight: 2, fillOpacity: 1 });
+            showTip(facilityTipHTML(c), ev.originalEvent);
+          });
+          marker.on("mousemove", ev => showTip(facilityTipHTML(c), ev.originalEvent));
+          marker.on("mouseout", () => {
+            marker.setStyle(record.style);
+            hideTip();
+          });
+          marker.on("click", () => {
+            hideTip();
+            openDcDetail(c.slug || "", c);
+          });
+          dotRecords.push(record);
+          marker.addTo(dotLayer);
+        });
+      }
+      function updateFacilityDots() {
+        if (!realMap) return;
+        const show = corpusReady && dotsEnabled && realMap.getZoom() >= DOT_MIN_ZOOM;
+        if (show && !dotLayer) buildDotLayer();
+        if (!dotLayer) return;
+        const onMap = realMap.hasLayer(dotLayer);
+        if (show && !onMap) dotLayer.addTo(realMap);
+        else if (!show && onMap) realMap.removeLayer(dotLayer);
+      }
+      function syncDotToggle() {
+        const chip = document.getElementById("dotToggle");
+        chip.hidden = !corpusReady;
+        chip.classList.toggle("on", dotsEnabled);
+        chip.setAttribute("aria-pressed", String(dotsEnabled));
+        chip.textContent = `● ${fmt(DATA.centers.length)} ${langIndex() ? "设施" : "FACILITIES"}`;
+        chip.title = langIndex()
+          ? `设施圆点在缩放级别 ≥ ${DOT_MIN_ZOOM} 时显示；坐标为近似锚点。点击开关。`
+          : `Facility dots appear at zoom ≥ ${DOT_MIN_ZOOM}; positions are approximate anchors. Click to toggle.`;
+      }
+
       const cartoTileUrl = theme => `https://{s}.basemaps.cartocdn.com/${theme === "light" ? "light_all" : "dark_all"}/{z}/{x}/{y}{r}.png`;
 
       function syncMapTiles() {
@@ -1939,10 +2154,14 @@ const baseUrl = import.meta.env.BASE_URL;
       // Theme flips restyle markers in place (no re-render, no viewport jump):
       // the ramp tokens differ per theme, so styles are recomputed and applied.
       function syncMarkerTheme() {
-        if (!realMarkers.length) return;
+        if (!realMarkers.length && !dotRecords.length) return;
         const pal = markerPalette();
         realMarkers.forEach(record => {
           record.style = markerStyleFor(pal, record.item, record.selected);
+          record.marker.setStyle(record.style);
+        });
+        dotRecords.forEach(record => {
+          record.style = dotStyleFor(pal, record.item);
           record.marker.setStyle(record.style);
         });
       }
@@ -1977,6 +2196,7 @@ const baseUrl = import.meta.env.BASE_URL;
         updateHero();
         updateMapSide();
         updateFunnelTitle();
+        syncDotToggle();
       }
 
       function showTip(html, ev) {
@@ -2123,6 +2343,7 @@ const baseUrl = import.meta.env.BASE_URL;
           attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
         }).addTo(realMap);
         realMapLayer = window.L.layerGroup().addTo(realMap);
+        realMap.on("zoomend", updateFacilityDots);
         setTimeout(() => realMap.invalidateSize(), 0);
         return true;
       }
@@ -2240,6 +2461,7 @@ const baseUrl = import.meta.env.BASE_URL;
       function buildCountrySwitch() {
         const countries = [...(DATA.countries || [])].sort((a, b) => b.capacity_mw - a.capacity_mw || b.facilities - a.facilities);
         document.getElementById("countrySwitch").innerHTML = [
+          `<button type="button" data-cmdk-open title="Cmd/Ctrl+K">⌘K ${langIndex() ? "搜索" : "SEARCH"}</button>`,
           `<button type="button" class="${selCountry ? "" : "on"}" data-country="">${L(I18N.worldwide)}</button>`,
           ...countries.map(c => `<button type="button" class="${selCountry === c.code ? "on" : ""}" data-country="${esc(c.code)}">${esc(c.code)} · ${esc(countryName(c))}</button>`)
         ].join("");
@@ -2679,6 +2901,111 @@ const baseUrl = import.meta.env.BASE_URL;
         document.getElementById("evkey").innerHTML = DATA.evidence.map((e, i) => `<div class="lg"><span class="sw" style="background:${colors[i]}"></span>${I18N.ev[e.key][langIndex()]} · <b>${fmt(e.count)}</b> (${(e.count / total * 100).toFixed(0)}%)</div>`).join("");
       }
 
+      // Command palette (plan §3.2): ⌘K / Ctrl+K jumps to any country or
+      // facility in two keystrokes. Facility search reuses the registry
+      // haystacks (§3.1) over the lazy corpus, so opening the palette also
+      // kicks off loadCorpus(); until it lands, only flagship rows match.
+      const cmdkEl = document.getElementById("cmdk");
+      const cmdkInput = document.getElementById("cmdkInput");
+      const cmdkListEl = document.getElementById("cmdkList");
+      let cmdkResults = [];
+      let cmdkActive = 0;
+      function cmdkSearch(raw) {
+        const query = raw.trim().toLowerCase();
+        const countries = [...(DATA.countries || [])]
+          .sort((a, b) => b.capacity_mw - a.capacity_mw)
+          .filter(c => !query || (countrySearchNames.get(c.code) || "").includes(query))
+          .slice(0, query ? 6 : 10)
+          .map(c => ({ kind: "country", c }));
+        const facilities = !query ? [] : DATA.centers
+          .filter(c => rowHaystack(c).includes(query))
+          .sort((a, b) => b.capacity_mw - a.capacity_mw)
+          .slice(0, 12)
+          .map(c => ({ kind: "facility", c }));
+        return [...countries, ...facilities];
+      }
+      function cmdkRender() {
+        if (!cmdkResults.length) {
+          cmdkListEl.innerHTML = `<div class="cmdk-empty">${L(I18N.noMatch)}</div>`;
+          return;
+        }
+        cmdkListEl.innerHTML = cmdkResults.map((r, i) => {
+          const act = i === cmdkActive ? " act" : "";
+          if (r.kind === "country") {
+            return `<button type="button" class="cmdk-row${act}" role="option" data-ck="${i}">
+              <span class="ck">${langIndex() ? "国家" : "SCOPE"}</span>
+              <span class="cn">${esc(r.c.code)} · ${esc(countryName(r.c))}</span>
+              <span class="cv">${gwOf(r.c, "capacity_mw", "capacity_gw").toFixed(1)} GW</span></button>`;
+          }
+          const loc = [r.c.county, r.c.subnational || r.c.state, r.c.country].filter(Boolean).join(", ");
+          return `<button type="button" class="cmdk-row${act}" role="option" data-ck="${i}">
+            <span class="ck">${langIndex() ? "设施" : "SITE"}</span>
+            <span class="cn">${esc(r.c.project)} <small>· ${esc(loc)}</small></span>
+            <span class="cv">${fmtMW(r.c.capacity_mw)}</span></button>`;
+        }).join("");
+        const actEl = cmdkListEl.querySelector(".cmdk-row.act");
+        if (actEl) actEl.scrollIntoView({ block: "nearest" });
+      }
+      function cmdkUpdate() {
+        cmdkResults = cmdkSearch(cmdkInput.value);
+        cmdkActive = 0;
+        cmdkRender();
+      }
+      function openCmdk() {
+        loadCorpus();
+        cmdkEl.hidden = false;
+        document.body.style.overflow = "hidden";
+        cmdkInput.value = "";
+        cmdkInput.placeholder = langIndex() ? "跳转到国家或设施…" : "JUMP TO COUNTRY OR FACILITY…";
+        cmdkUpdate();
+        cmdkInput.focus();
+      }
+      function closeCmdk() {
+        cmdkEl.hidden = true;
+        document.body.style.overflow = "";
+      }
+      function cmdkPick(i) {
+        const r = cmdkResults[i];
+        if (!r) return;
+        closeCmdk();
+        if (r.kind === "country") {
+          if (selCountry !== r.c.code) setCountry(r.c.code);
+          document.getElementById("realMap").scrollIntoView({ block: "center", behavior: noMotion ? "auto" : "smooth" });
+        } else {
+          openDcDetail(r.c.slug || "", r.c);
+        }
+      }
+      cmdkInput.addEventListener("input", cmdkUpdate);
+      cmdkInput.addEventListener("keydown", e => {
+        if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+          e.preventDefault();
+          if (!cmdkResults.length) return;
+          cmdkActive = (cmdkActive + (e.key === "ArrowDown" ? 1 : cmdkResults.length - 1)) % cmdkResults.length;
+          cmdkRender();
+        } else if (e.key === "Enter") {
+          e.preventDefault();
+          cmdkPick(cmdkActive);
+        }
+      });
+      cmdkListEl.addEventListener("click", e => {
+        const row = e.target.closest("[data-ck]");
+        if (row) cmdkPick(Number(row.dataset.ck));
+      });
+      document.addEventListener("click", e => {
+        if (e.target.closest("[data-cmdk-close]")) closeCmdk();
+        if (e.target.closest("[data-cmdk-open]")) openCmdk();
+      });
+
+      document.getElementById("dotToggle").addEventListener("click", () => {
+        dotsEnabled = !dotsEnabled;
+        syncDotToggle();
+        updateFacilityDots();
+        // Enabling below the zoom gate would show nothing; nudge the map in.
+        if (dotsEnabled && realMap && realMap.getZoom() < DOT_MIN_ZOOM) {
+          realMap.flyTo(realMap.getCenter(), DOT_MIN_ZOOM, { animate: !noMotion });
+        }
+      });
+
       document.querySelectorAll("[data-theme-button]").forEach(button => button.addEventListener("click", () => setTheme(button.dataset.themeButton)));
       document.querySelectorAll("[data-lang-button]").forEach(button => button.addEventListener("click", () => setLang(button.dataset.langButton)));
       document.querySelectorAll("[data-map-metric]").forEach(button => button.addEventListener("click", () => setMapMetric(button.dataset.mapMetric)));
@@ -2727,7 +3054,16 @@ const baseUrl = import.meta.env.BASE_URL;
         if (e.target.closest("[data-dc-close]")) closeDcModal();
       });
       document.addEventListener("keydown", e => {
-        if (e.key === "Escape") closeDcModal();
+        if ((e.metaKey || e.ctrlKey) && !e.altKey && (e.key === "k" || e.key === "K")) {
+          e.preventDefault();
+          if (cmdkEl.hidden) openCmdk();
+          else closeCmdk();
+          return;
+        }
+        if (e.key === "Escape") {
+          if (!cmdkEl.hidden) closeCmdk();
+          else closeDcModal();
+        }
       });
 
       try {

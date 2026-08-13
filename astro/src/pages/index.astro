@@ -3,6 +3,9 @@ import data from "../data/datacenters.json";
 
 const dataJson = JSON.stringify(data).replace(/</g, "\\u003c");
 const baseUrl = import.meta.env.BASE_URL;
+// Self-hosted Leaflet (plan §6.3): 1.9.4 dist copied into public/vendor/ so
+// the map needs no CDN; only the basemap tiles remain external.
+const leafletBase = `${baseUrl.replace(/\/?$/, "/")}vendor/leaflet/`;
 ---
 
 <html lang="en" data-lang="en" data-theme="dark">
@@ -12,7 +15,7 @@ const baseUrl = import.meta.env.BASE_URL;
     <meta name="description" content="GRIDWATCH global data center buildout intelligence dashboard." />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href={`${leafletBase}leaflet.css`} />
     <title>GRIDWATCH — Global Data Center Buildout Intelligence</title>
     <style>
       :root {
@@ -540,6 +543,64 @@ const baseUrl = import.meta.env.BASE_URL;
       .dotchip:hover { border-color: var(--acc); color: var(--ink2); }
       .dotchip.on { color: var(--acc); border-color: var(--acc); }
       .dotchip[hidden] { display: none; }
+
+      .yearbar {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 16px;
+        padding: 8px 12px;
+        border: 1px solid var(--ln);
+        border-radius: 8px;
+        background: var(--sf2);
+        font: 11px var(--mono);
+        color: var(--mut);
+        letter-spacing: 0.05em;
+      }
+
+      .yearbar button {
+        width: 30px;
+        height: 26px;
+        border: 1px solid var(--ln2);
+        border-radius: 6px;
+        background: var(--sf);
+        color: var(--ink2);
+        font-size: 12px;
+        line-height: 1;
+        cursor: pointer;
+      }
+
+      .yearbar button:hover { border-color: var(--acc); color: var(--acc); }
+      .yearbar button.on { color: var(--acc); border-color: var(--acc); background: var(--acc-dim); }
+
+      .yearbar input[type="range"] {
+        flex: 0 1 260px;
+        min-width: 120px;
+        margin: 0;
+        accent-color: var(--acc);
+      }
+
+      .yb-val {
+        min-width: 64px;
+        color: var(--ink);
+        font-weight: 700;
+      }
+
+      .yb-val.on { color: var(--acc); }
+
+      .yb-note {
+        flex: 1;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        text-align: right;
+        letter-spacing: 0;
+      }
+
+      @media (max-width: 680px) {
+        .yb-note { display: none; }
+      }
 
       .mapmode {
         align-self: start;
@@ -1552,6 +1613,12 @@ const baseUrl = import.meta.env.BASE_URL;
       .wcol:not(:hover) .wseg.on {
         filter: brightness(0.92);
       }
+      .wcol.dim .wseg {
+        opacity: 0.18;
+      }
+      .wcol.dim .wtot {
+        opacity: 0.25;
+      }
       .wtot {
         position: absolute;
         inset: -26px 0 auto;
@@ -1836,6 +1903,14 @@ const baseUrl = import.meta.env.BASE_URL;
             </div>
           </div>
           <div class="card rv">
+            <div class="yearbar" id="yearBar">
+              <button id="yrPlay" type="button" aria-label="Play buildout timeline / 播放时间线">▶</button>
+              <span class="yb-end">2018</span>
+              <input id="yrRange" type="range" min="2018" max="2031" step="1" value="2031" aria-label="Year scrubber / 年份筛选" />
+              <span class="yb-end"><span class="en">ALL</span><span class="zh">全部</span></span>
+              <span class="yb-val" id="yrLabel"></span>
+              <span class="yb-note" id="yrNote"></span>
+            </div>
             <div class="realmap-wrap">
               <div class="realmap" id="realMap" aria-label="interactive geographic map"><button id="mapFull" class="mapfull" type="button" title="Fullscreen map / 全屏地图">⛶</button><button id="dotToggle" class="dotchip" type="button" aria-pressed="true" hidden></button></div>
               <div class="mapmode">
@@ -1989,7 +2064,7 @@ const baseUrl = import.meta.env.BASE_URL;
     </div>
 
     <script id="gw-data" type="application/json" data-base={baseUrl} set:html={dataJson}></script>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src={`${leafletBase}leaflet.js`} is:inline></script>
     <script is:inline>
       const DATA = JSON.parse(document.getElementById("gw-data").textContent);
       const BASE = (document.getElementById("gw-data").dataset.base || "/").replace(/\/?$/, "/");
@@ -2121,11 +2196,17 @@ const baseUrl = import.meta.env.BASE_URL;
             updateFacilityDots();
             if (!cmdkEl.hidden) cmdkUpdate();
             // County drilldown is the only map view fed by the deferred chunk;
-            // other scopes keep their viewport untouched.
+            // other scopes keep their viewport untouched. A scrubbed map is
+            // the exception: its aggregates were computed off flagship rows
+            // only, so recompute them (in place) now the corpus is here.
             if (selCountry === "US" && selState) {
               renderRealMap();
               updateMapSide();
+            } else if (scrubActive()) {
+              renderRealMap(true);
+              updateMapSide();
             }
+            if (scrubActive()) syncScrubUI();
           })
           .catch(() => {
             corpusPromise = null;
@@ -2224,6 +2305,7 @@ const baseUrl = import.meta.env.BASE_URL;
         const pal = markerPalette();
         const groupIndex = new Map();
         DATA.centers.forEach(c => {
+          if (scrubActive() && !scrubMatch(c)) return;
           const anchor = facilityAnchor(c);
           if (!anchor) return;
           const key = `${anchor.lat},${anchor.lng}`;
@@ -2273,6 +2355,53 @@ const baseUrl = import.meta.env.BASE_URL;
         chip.title = langIndex()
           ? `设施圆点在缩放级别 ≥ ${DOT_MIN_ZOOM} 时显示；坐标为近似锚点。点击开关。`
           : `Facility dots appear at zoom ≥ ${DOT_MIN_ZOOM}; positions are approximate anchors. Click to toggle.`;
+      }
+
+      // Time scrubber (plan §3.4): scrubYear == null means the scrubber is
+      // idle and every view shows the full dataset. When set, the registry,
+      // map markers, facility dots, and wave highlight re-weight to rows with
+      // year-signal <= scrubYear. Most corpus rows carry no year-signal, so
+      // they cannot be placed on the timeline and drop out while scrubbing —
+      // the yearbar note says so. The per-state/subnational years matrices
+      // the plan asks the export for do not exist yet; aggregates are instead
+      // recomputed client-side from the corpus rows (flagship-only until the
+      // deferred chunk lands, so activating the scrubber pulls the corpus).
+      const SCRUB_MIN = 2018;
+      const SCRUB_MAX = 2030;
+      let scrubYear = null;
+      let scrubTimer = null;
+      const scrubActive = () => scrubYear != null;
+      const scrubMatch = c => c.year != null && Number(c.year) <= scrubYear;
+
+      function scrubAggregates() {
+        const keyFn = !selCountry ? c => c.country
+          : selCountry === "US" && selState ? c => (c.country === "US" && c.state === selState ? c.county : null)
+            : selCountry === "US" ? c => (c.country === "US" ? c.state : null)
+              : c => (c.country === selCountry ? c.subnational : null);
+        const agg = new Map();
+        DATA.centers.forEach(c => {
+          if (!scrubMatch(c)) return;
+          const key = keyFn(c);
+          if (!key) return;
+          const acc = agg.get(key) || { mw: 0, n: 0 };
+          acc.mw += Number(c.capacity_mw) || 0;
+          acc.n += 1;
+          agg.set(key, acc);
+        });
+        return agg;
+      }
+
+      // Projects an aggregate marker item onto the scrubbed timeline: value
+      // fields re-weight, tracked/est splits and subnational top lists null
+      // out (they are full-dataset figures the scrubbed view cannot honor).
+      function scrubProject(items) {
+        if (!scrubActive()) return items;
+        const agg = scrubAggregates();
+        return items.map(item => {
+          const acc = agg.get(item.code || item.abbr || item.county || item.name);
+          if (!acc) return null;
+          return { ...item, capacity_mw: acc.mw, capacity_gw: acc.mw / 1000, facilities: acc.n, tracked_mw: null, tracked_gw: null, est_mw: null, est_gw: null, subnationals: null };
+        }).filter(Boolean);
       }
 
       const cartoTileUrl = theme => `https://{s}.basemaps.cartocdn.com/${theme === "light" ? "light_all" : "dark_all"}/{z}/{x}/{y}{r}.png`;
@@ -2327,6 +2456,7 @@ const baseUrl = import.meta.env.BASE_URL;
         updateMapSide();
         updateFunnelTitle();
         syncDotToggle();
+        syncScrubUI();
         buildTicker();
       }
 
@@ -2487,12 +2617,12 @@ const baseUrl = import.meta.env.BASE_URL;
       }
 
       function realMapItems() {
-        if (!selCountry) return (DATA.countries || []).filter(item => hasCoord(item) && pointValue(item) > 0);
-        if (selCountry === "US" && selState) return (countiesByState[selState] || []).filter(item => hasCoord(item) && pointValue(item) > 0);
-        if (selCountry === "US") return (DATA.states || []).filter(item => hasCoord(item) && pointValue(item) > 0);
+        if (!selCountry) return scrubProject(DATA.countries || []).filter(item => hasCoord(item) && pointValue(item) > 0);
+        if (selCountry === "US" && selState) return scrubProject(countiesByState[selState] || []).filter(item => hasCoord(item) && pointValue(item) > 0);
+        if (selCountry === "US") return scrubProject(DATA.states || []).filter(item => hasCoord(item) && pointValue(item) > 0);
         const country = selectedCountry();
         const center = hasCoord(country) ? country : null;
-        return (country?.subnationals || []).filter(item => pointValue(item) > 0).map((item, index) => {
+        return scrubProject(country?.subnationals || []).filter(item => pointValue(item) > 0).map((item, index) => {
           if (hasCoord(item) && (!center || item.lat !== center.lat || item.lng !== center.lng)) return item;
           if (!center) return item;
           const ring = 0.7 + (index % 5) * 0.18;
@@ -2529,7 +2659,10 @@ const baseUrl = import.meta.env.BASE_URL;
           ${approximate}`;
       }
 
-      function renderRealMap() {
+      // keepView: scrub steps rebuild the markers in place; flying the
+      // viewport on every slider tick (or 13 times per autoplay) would fight
+      // the user, so only scope changes move the camera.
+      function renderRealMap(keepView) {
         const titleEl = document.getElementById("realMapTitle");
         const noteEl = document.getElementById("realMapNote");
         if (!initRealMap()) {
@@ -2579,16 +2712,20 @@ const baseUrl = import.meta.env.BASE_URL;
           marker.addTo(realMapLayer);
         });
         const country = selectedCountry();
-        titleEl.textContent = !selCountry
+        const scrubSuffix = scrubActive() ? ` · ≤ ${scrubYear}` : "";
+        titleEl.textContent = (!selCountry
           ? (langIndex() ? "全球国家亮点" : "Worldwide country highlights")
           : selCountry === "US"
             ? selState
               ? `${selState} · ${langIndex() ? "美国县级亮点" : "US county highlights"}`
               : (langIndex() ? "美国州级亮点" : "US state highlights")
-            : `${countryName(country)} · ${langIndex() ? "地区亮点" : "subnational highlights"}`;
-        noteEl.textContent = langIndex()
-          ? (selCountry === "US" ? "美国视图先显示州级概览；点击州亮点后显示该州有项目的县级亮点。" : "圆点大小按当前指标非线性缩放，颜色按容量分级；点击亮点进入国家或地区筛选。")
-          : (selCountry === "US" ? "The US view starts at state level; click a state marker to show project counties inside that state." : "Marker size uses nonlinear scaling for the active metric; color is capacity-banded. Click a highlight to focus.");
+            : `${countryName(country)} · ${langIndex() ? "地区亮点" : "subnational highlights"}`) + scrubSuffix;
+        noteEl.textContent = scrubActive()
+          ? (langIndex() ? `仅显示年份信号 ≤ ${scrubYear} 的项目；无年份信号的记录暂不显示。` : `Showing projects with a year signal ≤ ${scrubYear}; records without a dated signal are hidden while scrubbing.`)
+          : langIndex()
+            ? (selCountry === "US" ? "美国视图先显示州级概览；点击州亮点后显示该州有项目的县级亮点。" : "圆点大小按当前指标非线性缩放，颜色按容量分级；点击亮点进入国家或地区筛选。")
+            : (selCountry === "US" ? "The US view starts at state level; click a state marker to show project counties inside that state." : "Marker size uses nonlinear scaling for the active metric; color is capacity-banded. Click a highlight to focus.");
+        if (keepView) return;
         if (bounds.length > 1) {
           realMap.flyToBounds(bounds, { padding: [28, 28], maxZoom: selCountry === "US" && selState ? 8 : selCountry ? 6 : 4, animate: !noMotion });
         } else if (bounds.length === 1) {
@@ -2687,7 +2824,7 @@ const baseUrl = import.meta.env.BASE_URL;
       }
 
       function updateMapSide() {
-        const items = !selCountry ? DATA.countries : selCountry === "US" && selState ? (countiesByState[selState] || []) : selCountry === "US" ? DATA.states : (selectedCountry()?.subnationals || []);
+        const items = scrubProject(!selCountry ? DATA.countries : selCountry === "US" && selState ? (countiesByState[selState] || []) : selCountry === "US" ? DATA.states : (selectedCountry()?.subnationals || []));
         const top = [...items].sort((a, b) => mapMetric === "mw" ? b.capacity_mw - a.capacity_mw : b.facilities - a.facilities)[0];
         if (!top) return;
         document.getElementById("mapTopV").textContent = mapMetric === "mw" ? fmtMW(top.capacity_mw) : fmt(top.facilities);
@@ -2806,6 +2943,17 @@ const baseUrl = import.meta.env.BASE_URL;
             showTip(`<div class="t1">${y.year}</div><div class="t2">${parts}<br><b>${langIndex() ? "合计" : "Total"}: ${totalLabel}</b><br>${langIndex() ? "累计运营" : "Cumulative operational"}: ${cumLabel}</div>`, ev);
           });
           col.addEventListener("mouseleave", hideTip);
+        });
+        syncWaveScrub();
+      }
+
+      // §3.4 wave highlight: columns past the scrubbed year dim in place;
+      // the chart itself keeps showing the full timeline for context.
+      function syncWaveScrub() {
+        const years = scopedYears();
+        document.querySelectorAll("#wave .wcol").forEach(col => {
+          const y = years[Number(col.dataset.index)];
+          col.classList.toggle("dim", scrubActive() && Boolean(y) && y.year > scrubYear);
         });
       }
 
@@ -2996,7 +3144,7 @@ const baseUrl = import.meta.env.BASE_URL;
         const geoKey = selCountry && selCountry !== "US" ? "subnational" : "state";
         const scopedCenters = DATA.centers.filter(c => !selCountry || c.country === selCountry);
         vMaxMW = Math.max(1, ...scopedCenters.map(c => c.capacity_mw));
-        let rows = scopedCenters.filter(c => (!status || c.status === status) && (!state || c[geoKey] === state) && (!q || rowHaystack(c).includes(q)));
+        let rows = scopedCenters.filter(c => (!scrubActive() || scrubMatch(c)) && (!status || c.status === status) && (!state || c[geoKey] === state) && (!q || rowHaystack(c).includes(q)));
         rows.sort((a, b) => {
           if (sortKey === "mw") return (a.capacity_mw - b.capacity_mw) * sortDir;
           if (sortKey === "y") return ((a.year || 0) - (b.year || 0)) * sortDir;
@@ -3235,6 +3383,71 @@ const baseUrl = import.meta.env.BASE_URL;
         if (e.target.closest("[data-cmdk-open]")) openCmdk();
       });
 
+      // §3.4 scrubber wiring: one refresh path serves slider drags, autoplay
+      // ticks, and hash restores. Facility dots rebuild lazily (only when the
+      // layer already exists) since their filter is baked in at build time.
+      const yrRangeEl = document.getElementById("yrRange");
+      const yrPlayEl = document.getElementById("yrPlay");
+      function syncScrubUI() {
+        yrRangeEl.value = String(scrubYear ?? SCRUB_MAX + 1);
+        const label = document.getElementById("yrLabel");
+        label.textContent = scrubActive() ? `≤ ${scrubYear}` : (langIndex() ? "全部年份" : "ALL YEARS");
+        label.classList.toggle("on", scrubActive());
+        const withYear = DATA.centers.filter(c => c.year != null).length;
+        document.getElementById("yrNote").textContent = langIndex()
+          ? `按年份信号回放建设浪潮；${fmt(withYear)}/${fmt(DATA.centers.length)} 条记录带年份信号，其余在筛选时隐藏。`
+          : `Replay the buildout by year signal; ${fmt(withYear)}/${fmt(DATA.centers.length)} records carry one — the rest hide while scrubbing.`;
+        yrPlayEl.classList.toggle("on", Boolean(scrubTimer));
+        yrPlayEl.textContent = scrubTimer ? "⏸" : "▶";
+      }
+      function resetScrubDots() {
+        if (!dotLayer) return;
+        if (realMap && realMap.hasLayer(dotLayer)) realMap.removeLayer(dotLayer);
+        dotLayer = null;
+        updateFacilityDots();
+      }
+      function setScrubYear(value) {
+        const v = Number(value);
+        scrubYear = Number.isFinite(v) && v >= SCRUB_MIN && v <= SCRUB_MAX ? v : null;
+        if (scrubActive()) loadCorpus();
+        syncScrubUI();
+        renderRealMap(true);
+        syncWaveScrub();
+        renderTable();
+        updateMapSide();
+        resetScrubDots();
+      }
+      function stopScrubPlay() {
+        if (!scrubTimer) return;
+        clearInterval(scrubTimer);
+        scrubTimer = null;
+        syncScrubUI();
+      }
+      // Autoplay (plan §3.4): ▶ sweeps 2018→2030 over ~8 s. Under reduced
+      // motion the button advances one year per press instead (§8 audit).
+      function scrubStep() {
+        setScrubYear(!scrubActive() || scrubYear >= SCRUB_MAX ? SCRUB_MIN : scrubYear + 1);
+        if (scrubYear >= SCRUB_MAX) stopScrubPlay();
+      }
+      function startScrubPlay() {
+        loadCorpus();
+        scrubStep();
+        if (noMotion || scrubYear >= SCRUB_MAX) return;
+        scrubTimer = setInterval(scrubStep, 615);
+        syncScrubUI();
+      }
+      yrRangeEl.addEventListener("input", () => {
+        // Capture before stopping: stopScrubPlay's UI sync rewrites the
+        // slider position from state, which would clobber the drag value.
+        const value = yrRangeEl.value;
+        stopScrubPlay();
+        setScrubYear(value);
+      });
+      yrPlayEl.addEventListener("click", () => {
+        if (scrubTimer) stopScrubPlay();
+        else startScrubPlay();
+      });
+
       document.getElementById("dotToggle").addEventListener("click", () => {
         dotsEnabled = !dotsEnabled;
         syncDotToggle();
@@ -3328,6 +3541,7 @@ const baseUrl = import.meta.env.BASE_URL;
       function parseUrlState() {
         const p = new URLSearchParams(location.hash.replace(/^#/, ""));
         const code = (p.get("c") || "").toUpperCase();
+        const year = parseInt(p.get("y") || "", 10);
         return {
           c: countryByCode.has(code) ? code : null,
           s: p.get("s") || "",
@@ -3335,6 +3549,7 @@ const baseUrl = import.meta.env.BASE_URL;
           w: p.get("w") === "mw" ? "mw" : "n",
           st: URL_STATUSES.includes(p.get("st")) ? p.get("st") : "",
           q: p.get("q") || "",
+          y: year >= SCRUB_MIN && year <= SCRUB_MAX ? year : null,
         };
       }
       function urlStateHash() {
@@ -3345,6 +3560,7 @@ const baseUrl = import.meta.env.BASE_URL;
         if (mapMetric !== "mw") p.set("m", mapMetric);
         if (waveMetric !== "n") p.set("w", waveMetric);
         if (fStatusEl.value) p.set("st", fStatusEl.value);
+        if (scrubActive()) p.set("y", String(scrubYear));
         const q = fSearchEl.value.trim();
         if (q) p.set("q", q);
         const s = p.toString();
@@ -3382,7 +3598,9 @@ const baseUrl = import.meta.env.BASE_URL;
         urlGeoPending = u.s;
         setSelectValue(fStatusEl, u.st);
         fSearchEl.value = u.q;
-        if (u.q || u.s) loadCorpus();
+        scrubYear = u.y;
+        syncScrubUI();
+        if (u.q || u.s || u.y != null) loadCorpus();
       }
       fStateEl.addEventListener("change", () => {
         urlGeoPending = "";
@@ -3402,7 +3620,11 @@ const baseUrl = import.meta.env.BASE_URL;
         setSelectValue(fStatusEl, u.st);
         setSelectValue(fStateEl, u.s);
         fSearchEl.value = u.q;
-        if (u.q || u.s) loadCorpus();
+        stopScrubPlay();
+        scrubYear = u.y;
+        syncScrubUI();
+        resetScrubDots();
+        if (u.q || u.s || u.y != null) loadCorpus();
         buildMap();
         renderRealMap();
         buildFunnel();

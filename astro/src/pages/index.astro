@@ -1392,6 +1392,304 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         color: var(--mut);
         font-size: 11px;
       }
+      /* Compute horizon: cumulative stacked area above the wave columns.
+         The columns show flow per year; this shows the stock — its top
+         edge is the compute that could be online by each year. Geometry
+         is percentage-based (HTML overlays over a stretched SVG) so the
+         crosshair, dots, and labels never distort with the viewport. */
+      .hzn-top {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px 28px;
+        align-items: flex-start;
+        margin-bottom: 6px;
+      }
+
+      .hzn-headline .hk {
+        margin-bottom: 8px;
+        color: var(--mut);
+        font: 11px var(--mono);
+        letter-spacing: 0.12em;
+      }
+
+      .hzn-headline .hk b {
+        color: var(--acc-ink);
+      }
+
+      .hzn-num {
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+        color: var(--ink);
+        font: 700 38px/1 var(--mono);
+        font-variant-numeric: tabular-nums;
+      }
+
+      .hzn-num .unit {
+        color: var(--acc-ink);
+        font-size: 19px;
+      }
+
+      .hzn-break {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px 16px;
+        margin-top: 8px;
+        color: var(--ink2);
+        font: 12px var(--mono);
+      }
+
+      .hzn-break .bd {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .hzn-break .bd i {
+        width: 8px;
+        height: 8px;
+        border-radius: 2px;
+      }
+
+      .hzn-break .bd.off {
+        opacity: 0.4;
+        text-decoration: line-through;
+      }
+
+      .hzn-toggles {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-left: auto;
+      }
+
+      .hzn-toggles button {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        min-height: 32px;
+        padding: 5px 13px;
+        border: 1px solid var(--ln2);
+        border-radius: 99px;
+        font: 12px var(--mono);
+      }
+
+      .hzn-toggles button .sw {
+        width: 10px;
+        height: 10px;
+        border-radius: 3px;
+        background: var(--c);
+        transition: box-shadow 0.2s, background 0.2s;
+      }
+
+      .hzn-toggles button[aria-pressed="false"] {
+        color: var(--mut);
+        border-style: dashed;
+      }
+
+      .hzn-toggles button[aria-pressed="false"] .sw {
+        background: transparent;
+        box-shadow: inset 0 0 0 2px var(--c);
+      }
+
+      .hznbox {
+        display: flex;
+        gap: 12px;
+        margin-top: 34px;
+      }
+
+      .hzn-yaxis {
+        position: relative;
+        width: 46px;
+        flex: none;
+        color: var(--mut);
+        font: 10px var(--mono);
+        user-select: none;
+      }
+
+      .hzn-yaxis span {
+        position: absolute;
+        right: 0;
+        transform: translateY(-50%);
+        white-space: nowrap;
+      }
+
+      .hzn-main {
+        flex: 1;
+        min-width: 0;
+      }
+
+      .hzn-plot {
+        position: relative;
+        height: 204px;
+      }
+
+      .hzn-plot svg {
+        position: absolute;
+        inset: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: visible;
+      }
+
+      .hzn-plot .gr {
+        stroke: var(--ln2);
+        opacity: 0.6;
+      }
+
+      .hzn-plot .hfill {
+        fill-opacity: 0;
+        transition: fill-opacity 0.9s;
+      }
+
+      .in .hzn-plot .hfill {
+        fill-opacity: 0.42;
+      }
+
+      .hzn-plot .hcut {
+        fill: none;
+        stroke: var(--sf);
+        stroke-width: 4;
+      }
+
+      .hzn-plot .hedge {
+        fill: none;
+        stroke-width: 2;
+      }
+
+      .hzn-plot .hedge.top {
+        stroke-width: 2.5;
+      }
+
+      /* A toggled-off stage collapses to zero thickness; fade its boundary
+         strokes out so they don't ride the edge below as a ghost line. */
+      .hzn-plot .hedge,
+      .hzn-plot .hcut {
+        transition: opacity 0.35s;
+      }
+
+      .hzn-plot .hedge.off,
+      .hzn-plot .hcut.off {
+        opacity: 0;
+      }
+
+      .hzn-ends {
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+      }
+
+      .hzn-ends span {
+        position: absolute;
+        right: 3px;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        transform: translateY(-50%);
+        color: var(--ink2);
+        font: 600 10px var(--mono);
+        text-shadow: 0 1px 0 var(--sf);
+      }
+
+      .hzn-ends span.tp {
+        transform: translateY(-130%);
+        color: var(--ink);
+        font-size: 11px;
+      }
+
+      .hzn-ends span i {
+        width: 7px;
+        height: 7px;
+        border-radius: 2px;
+      }
+
+      .hzn-veil {
+        position: absolute;
+        top: -30px;
+        right: 0;
+        bottom: 0;
+        border-left: 1px solid var(--acc);
+        background: color-mix(in srgb, var(--sf) 78%, transparent);
+        pointer-events: none;
+      }
+
+      .hzn-veil b {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        transform: translateX(-100%);
+        padding-right: 7px;
+        color: var(--acc-ink);
+        font: 600 10px var(--mono);
+        white-space: nowrap;
+      }
+
+      .hzn-cross {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 0;
+        border-left: 1px dashed var(--mut);
+        pointer-events: none;
+      }
+
+      .hzn-cross i {
+        position: absolute;
+        left: 0;
+        width: 9px;
+        height: 9px;
+        transform: translate(-50%, -50%);
+        border: 2px solid var(--sf);
+        border-radius: 50%;
+      }
+
+      .hzn-hots {
+        position: absolute;
+        inset: -30px 0 0;
+      }
+
+      .hzn-hot {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        cursor: crosshair;
+      }
+
+      .hzn-hot:focus-visible {
+        outline: 1px dashed var(--acc);
+        outline-offset: -1px;
+      }
+
+      .hzn-x {
+        position: relative;
+        height: 16px;
+        margin-top: 8px;
+        color: var(--mut);
+        font: 10px var(--mono);
+      }
+
+      .hzn-x span {
+        position: absolute;
+        transform: translateX(-50%);
+        white-space: nowrap;
+      }
+
+      .hzn-x span.hl {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      @media (max-width: 680px) {
+        .hzn-ends {
+          display: none;
+        }
+
+        .hzn-num {
+          font-size: 30px;
+        }
+      }
+
       .wcol {
         position: relative;
         display: flex;
@@ -2118,6 +2416,37 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
             <div class="tabs" style="margin:0 0 0 auto">
               <button id="wv-n" class="on" data-wave-metric="n"><span class="en">FACILITIES</span><span class="zh">设施数</span></button>
               <button id="wv-mw" data-wave-metric="mw"><span class="en">CAPACITY</span><span class="zh">容量</span></button>
+            </div>
+          </div>
+          <div class="card rv hzncard">
+            <div class="hzn-top">
+              <div class="hzn-headline">
+                <div class="hk"><span class="en">COMPUTE HORIZON — POTENTIAL ONLINE BY <b class="hzn-yrv">2030</b></span><span class="zh">算力地平线 — 截至 <b class="hzn-yrv">2030</b> 的潜在在线算力</span></div>
+                <div class="hzn-num"><span id="hznNum">0</span><span class="unit" id="hznUnit">GW</span></div>
+                <div class="hzn-break" id="hznBreak"></div>
+              </div>
+              <div class="hzn-toggles" role="group" aria-label="Toggle stages / 切换阶段">
+                <button type="button" data-hzn-stage="operational" aria-pressed="true" style="--c:var(--st-op)"><span class="sw"></span><span class="en">OPERATIONAL</span><span class="zh">运营中</span></button>
+                <button type="button" data-hzn-stage="construction" aria-pressed="true" style="--c:var(--st-con)"><span class="sw"></span><span class="en">CONSTRUCTION</span><span class="zh">在建</span></button>
+                <button type="button" data-hzn-stage="pipeline" aria-pressed="true" style="--c:var(--st-app)"><span class="sw"></span><span class="en">PIPELINE</span><span class="zh">储备</span></button>
+              </div>
+            </div>
+            <div class="hznbox">
+              <div class="hzn-yaxis" id="hznY"></div>
+              <div class="hzn-main">
+                <div class="hzn-plot">
+                  <svg id="hznSvg" viewBox="0 0 1000 204" preserveAspectRatio="none" aria-hidden="true"></svg>
+                  <div class="hzn-ends" id="hznEnds" aria-hidden="true"></div>
+                  <div class="hzn-veil" id="hznVeil" hidden><b id="hznVeilYr"></b></div>
+                  <div class="hzn-cross" id="hznCross" hidden></div>
+                  <div class="hzn-hots" id="hznHots"></div>
+                </div>
+                <div class="hzn-x" id="hznX"></div>
+              </div>
+            </div>
+            <div class="mapnote">
+              <span class="en">Cumulative capacity from dated project signals, stacked by stage — the top edge reads as the compute that could be online by each year if every project lands. Hover for the breakdown, click a year to scrub the whole page, toggle a stage chip to include or exclude it.</span>
+              <span class="zh">按阶段堆叠的累计容量（仅含带年份信号的项目）——顶边即“若全部落地、该年可能在线”的算力。悬停查看构成，点击年份联动全页时间筛选，点击阶段标签开关该层。</span>
             </div>
           </div>
           <div class="card rv">
@@ -3144,6 +3473,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           col.addEventListener("mouseleave", hideTip);
         });
         syncWaveScrub();
+        buildHorizon();
       }
 
       // §3.4 wave highlight: columns past the scrubbed year dim in place;
@@ -3154,7 +3484,236 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           const y = years[Number(col.dataset.index)];
           col.classList.toggle("dim", scrubActive() && Boolean(y) && y.year > scrubYear);
         });
+        syncHorizonScrub();
       }
+
+      // Compute horizon: cumulative stacked area over the same years matrix
+      // the wave columns read. Capacity-only by design — the question it
+      // answers ("how much compute might be online by year X") has no
+      // facilities-count reading, so it ignores the metric tabs above.
+      const HZN_W = 1000;
+      const HZN_H = 204;
+      const hznHidden = new Set();
+      let hznVals = null; // active per-stage cumulative MW (zeroed when toggled off)
+      let hznMax = 1; // axis stays pinned to the all-stages total per scope
+      let hznKey = "";
+      let hznAnimFrame = 0;
+      let hznNumToken = 0;
+
+      function hznCumVals() {
+        const years = scopedYears();
+        return WAVE_SEGS.map(seg => {
+          let run = 0;
+          return years.map(y => (run += Number(y[seg.key + "_mw"]) || 0));
+        });
+      }
+
+      function hznRender(vals) {
+        const n = vals[0].length;
+        const xOf = i => (i / (n - 1)) * HZN_W;
+        const yOf = v => HZN_H - (v / hznMax) * HZN_H;
+        let lower = new Array(n).fill(0);
+        const bands = vals.map(arr => {
+          const upper = lower.map((b, i) => b + (arr[i] || 0));
+          const up = upper.map((v, i) => `${xOf(i).toFixed(1)},${yOf(v).toFixed(1)}`);
+          const lo = lower.map((v, i) => `${xOf(i).toFixed(1)},${yOf(v).toFixed(1)}`);
+          const band = { fill: `M${up.join("L")}L${lo.slice().reverse().join("L")}Z`, edge: `M${up.join("L")}`, upper };
+          lower = upper;
+          return band;
+        });
+        const lastOn = WAVE_SEGS.reduce((last, seg, k) => (hznHidden.has(seg.key) ? last : k), -1);
+        WAVE_SEGS.forEach((seg, k) => {
+          const off = hznHidden.has(seg.key);
+          document.getElementById(`hznFill-${seg.key}`).setAttribute("d", bands[k].fill);
+          const cut = document.getElementById(`hznCut-${seg.key}`);
+          cut.setAttribute("d", bands[k].edge);
+          cut.classList.toggle("off", off);
+          const edge = document.getElementById(`hznEdge-${seg.key}`);
+          edge.setAttribute("d", bands[k].edge);
+          edge.classList.toggle("top", k === lastOn);
+          edge.classList.toggle("off", off);
+        });
+        // Right-edge direct labels: per-stage 2030 totals (thin bands skip
+        // theirs) plus the potential line riding the top edge.
+        const total = vals.reduce((sum, arr) => sum + (arr[n - 1] || 0), 0);
+        document.getElementById("hznEnds").innerHTML = WAVE_SEGS.map((seg, k) => {
+          const v = vals[k][n - 1] || 0;
+          if (v / hznMax < 0.07) return "";
+          const mid = bands[k].upper[n - 1] - v / 2;
+          return `<span style="top:${((1 - mid / hznMax) * 100).toFixed(1)}%"><i style="background:var(${seg.var})"></i>${fmtMW(v)}</span>`;
+        }).join("") + (total > 0 ? `<span class="tp" style="top:${((1 - total / hznMax) * 100).toFixed(1)}%">▲ ${fmtMW(total)}</span>` : "");
+      }
+
+      function hznMorph(from, to) {
+        cancelAnimationFrame(hznAnimFrame);
+        if (noMotion || !from || from.length !== to.length || from[0].length !== to[0].length) {
+          hznRender(to);
+          return;
+        }
+        const start = performance.now();
+        const dur = 400;
+        const tick = now => {
+          const p = Math.min(1, (now - start) / dur);
+          const e = 1 - Math.pow(1 - p, 3);
+          hznRender(to.map((arr, k) => arr.map((v, i) => from[k][i] + (v - from[k][i]) * e)));
+          if (p < 1) hznAnimFrame = requestAnimationFrame(tick);
+        };
+        hznAnimFrame = requestAnimationFrame(tick);
+      }
+
+      function buildHorizon() {
+        const years = scopedYears();
+        const n = years.length;
+        const key = `${selCountry || "*"}|${WAVE_SEGS.map(seg => (hznHidden.has(seg.key) ? 0 : 1)).join("")}`;
+        if (key === hznKey && hznVals && hznVals[0].length === n) return;
+        hznKey = key;
+        const raw = hznCumVals();
+        hznMax = Math.max(1, raw.reduce((sum, arr) => sum + (arr[n - 1] || 0), 0));
+        const prev = hznVals;
+        hznVals = WAVE_SEGS.map((seg, k) => (hznHidden.has(seg.key) ? raw[k].map(() => 0) : raw[k]));
+        const svg = document.getElementById("hznSvg");
+        if (!svg.dataset.ready) {
+          svg.dataset.ready = "1";
+          svg.innerHTML = [0, 1, 2, 3, 4].map(q => `<line class="gr" x1="0" x2="${HZN_W}" y1="${(q * HZN_H / 4).toFixed(1)}" y2="${(q * HZN_H / 4).toFixed(1)}" vector-effect="non-scaling-stroke"/>`).join("")
+            + WAVE_SEGS.map(seg => `<path id="hznFill-${seg.key}" class="hfill" style="fill:var(${seg.var})"/>`).join("")
+            + WAVE_SEGS.map(seg => `<path id="hznCut-${seg.key}" class="hcut" vector-effect="non-scaling-stroke"/><path id="hznEdge-${seg.key}" class="hedge" style="stroke:var(${seg.var})" vector-effect="non-scaling-stroke"/>`).join("");
+        }
+        document.getElementById("hznY").innerHTML = [0, 1, 2, 3, 4].map(q => `<span style="top:${q * 25}%">${q === 4 ? "0" : fmtMW(hznMax * (1 - q / 4))}</span>`).join("");
+        document.getElementById("hznX").innerHTML = years.map((y, i) => `<span class="${y.year % 5 === 0 || y.year === 2030 ? "hl" : ""}" style="left:${(i / (n - 1) * 100).toFixed(2)}%">'${String(y.year).slice(2)}</span>`).join("");
+        // §8: hotspots mirror the hover tooltip for keyboard/SR users.
+        document.getElementById("hznHots").innerHTML = years.map((y, i) => {
+          const left = Math.max(0, ((i - 0.5) / (n - 1)) * 100);
+          const width = Math.min(100, ((i + 0.5) / (n - 1)) * 100) - left;
+          const label = `${y.year}: ${WAVE_SEGS.map((seg, k) => `${langIndex() ? seg.labelZh : seg.labelEn} ${fmtMW(hznVals[k][i] || 0)}`).join(", ")} — ${langIndex() ? "累计潜在算力" : "cumulative potential"} ${fmtMW(hznVals.reduce((sum, arr) => sum + (arr[i] || 0), 0))}`;
+          return `<div class="hzn-hot" data-index="${i}" tabindex="0" role="img" aria-label="${esc(label)}" style="left:${left.toFixed(2)}%;width:${width.toFixed(2)}%"></div>`;
+        }).join("");
+        hznMorph(prev, hznVals);
+        syncHorizonScrub();
+      }
+
+      function hznIndexFor(yearValue) {
+        const years = scopedYears();
+        const idx = years.findIndex(y => y.year === yearValue);
+        return idx < 0 ? years.length - 1 : idx;
+      }
+
+      function syncHorizonScrub() {
+        if (!hznVals) return;
+        const veil = document.getElementById("hznVeil");
+        if (scrubActive()) {
+          const pos = (hznIndexFor(scrubYear) / (scopedYears().length - 1)) * 100;
+          veil.hidden = false;
+          veil.style.left = `${pos.toFixed(2)}%`;
+          document.getElementById("hznVeilYr").textContent = `≤ ${scrubYear}`;
+        } else {
+          veil.hidden = true;
+        }
+        hznHeadline();
+      }
+
+      // The headline re-counts from its previous value (not zero) so scrub
+      // autoplay reads as one continuous meter. dataset.v stores canonical
+      // GW to survive the GW→TW unit crossover.
+      function hznHeadline() {
+        const years = scopedYears();
+        const idx = scrubActive() ? hznIndexFor(scrubYear) : years.length - 1;
+        const totalGw = hznVals.reduce((sum, arr) => sum + (arr[idx] || 0), 0) / 1000;
+        const isTW = totalGw >= 1000;
+        const target = isTW ? totalGw / 1000 : totalGw;
+        const decimals = target >= 100 ? 0 : target >= 10 ? 1 : 2;
+        document.getElementById("hznUnit").textContent = isTW ? "TW" : "GW";
+        document.querySelectorAll(".hzn-yrv").forEach(el => (el.textContent = String(years[idx].year)));
+        const numEl = document.getElementById("hznNum");
+        numEl.closest(".hzn-num").setAttribute("aria-label", `${target.toFixed(decimals)} ${isTW ? "TW" : "GW"}`);
+        const fromGw = Number(numEl.dataset.v) || 0;
+        const from = isTW ? fromGw / 1000 : fromGw;
+        numEl.dataset.v = String(totalGw);
+        const token = ++hznNumToken;
+        if (noMotion) {
+          numEl.textContent = target.toFixed(decimals);
+        } else {
+          const start = performance.now();
+          const dur = 600;
+          const tick = now => {
+            if (token !== hznNumToken) return;
+            const p = Math.min(1, (now - start) / dur);
+            const e = 1 - Math.pow(1 - p, 3);
+            numEl.textContent = (from + (target - from) * e).toFixed(decimals);
+            if (p < 1) requestAnimationFrame(tick);
+          };
+          requestAnimationFrame(tick);
+        }
+        document.getElementById("hznBreak").innerHTML = WAVE_SEGS.map((seg, k) => {
+          const off = hznHidden.has(seg.key);
+          return `<span class="bd${off ? " off" : ""}"><i style="background:var(${seg.var})"></i><span class="en">${seg.labelEn}</span><span class="zh">${seg.labelZh}</span> <b>${off ? "·" : fmtMW(hznVals[k][idx] || 0)}</b></span>`;
+        }).join("");
+      }
+
+      function hznCrossAt(i) {
+        const cross = document.getElementById("hznCross");
+        const n = scopedYears().length;
+        cross.hidden = false;
+        cross.style.left = `${((i / (n - 1)) * 100).toFixed(2)}%`;
+        let stackTop = 0;
+        cross.innerHTML = WAVE_SEGS.map((seg, k) => {
+          const v = hznVals[k][i] || 0;
+          if (!v) return "";
+          stackTop += v;
+          return `<i style="top:${((1 - stackTop / hznMax) * 100).toFixed(2)}%;background:var(${seg.var})"></i>`;
+        }).join("");
+      }
+
+      function hznHideCross() {
+        document.getElementById("hznCross").hidden = true;
+      }
+
+      function hznTip(i, ev) {
+        const years = scopedYears();
+        const rows = WAVE_SEGS.map((seg, k) => hznHidden.has(seg.key) ? "" : `${langIndex() ? seg.labelZh : seg.labelEn}: ${fmtMW(hznVals[k][i] || 0)}`).filter(Boolean).join("<br>");
+        const total = hznVals.reduce((sum, arr) => sum + (arr[i] || 0), 0);
+        showTip(`<div class="t1">${langIndex() ? `截至 ${years[i].year}` : `BY ${years[i].year}`}</div><div class="t2">${rows}${rows ? "<br>" : ""}<b>${langIndex() ? "潜在在线算力" : "Potential online"}: ${fmtMW(total)}</b><br>${langIndex() ? "点击年份联动全页筛选" : "Click to scrub the page to this year"}</div>`, ev);
+      }
+
+      function hznPick(hot) {
+        const year = scopedYears()[Number(hot.dataset.index)].year;
+        stopScrubPlay();
+        setScrubYear(scrubActive() && scrubYear === year ? NaN : year);
+      }
+
+      const hznHotsEl = document.getElementById("hznHots");
+      hznHotsEl.addEventListener("mousemove", e => {
+        const hot = e.target.closest(".hzn-hot");
+        if (!hot) return;
+        hznCrossAt(Number(hot.dataset.index));
+        hznTip(Number(hot.dataset.index), e);
+      });
+      hznHotsEl.addEventListener("mouseleave", () => {
+        hideTip();
+        hznHideCross();
+      });
+      hznHotsEl.addEventListener("focusin", e => {
+        const hot = e.target.closest(".hzn-hot");
+        if (hot) hznCrossAt(Number(hot.dataset.index));
+      });
+      hznHotsEl.addEventListener("focusout", hznHideCross);
+      hznHotsEl.addEventListener("click", e => {
+        const hot = e.target.closest(".hzn-hot");
+        if (hot) hznPick(hot);
+      });
+      hznHotsEl.addEventListener("keydown", e => {
+        if (e.key !== "Enter" && e.key !== " ") return;
+        const hot = e.target.closest(".hzn-hot");
+        if (!hot) return;
+        e.preventDefault();
+        hznPick(hot);
+      });
+      document.querySelectorAll("[data-hzn-stage]").forEach(button => button.addEventListener("click", () => {
+        const stage = button.dataset.hznStage;
+        if (hznHidden.has(stage)) hznHidden.delete(stage);
+        else hznHidden.add(stage);
+        button.setAttribute("aria-pressed", hznHidden.has(stage) ? "false" : "true");
+        buildHorizon();
+      }));
 
       function setWaveTab(metric) {
         waveMetric = metric;
@@ -3752,7 +4311,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       // outside a chart element dismisses it.
       if (coarsePointer) {
         document.addEventListener("touchstart", e => {
-          if (!e.target.closest(".wcol, .frow, .tile")) hideTip();
+          if (!e.target.closest(".wcol, .frow, .tile, .hzn-hot")) hideTip();
         }, { passive: true });
       }
       document.addEventListener("click", e => {

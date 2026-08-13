@@ -549,64 +549,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       .dotchip.on { color: var(--acc); border-color: var(--acc); }
       .dotchip[hidden] { display: none; }
 
-      .yearbar {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-bottom: 16px;
-        padding: 8px 12px;
-        border: 1px solid var(--ln);
-        border-radius: 8px;
-        background: var(--sf2);
-        font: 11px var(--mono);
-        color: var(--mut);
-        letter-spacing: 0.05em;
-      }
-
-      .yearbar button {
-        width: 30px;
-        height: 26px;
-        border: 1px solid var(--ln2);
-        border-radius: 6px;
-        background: var(--sf);
-        color: var(--ink2);
-        font-size: 12px;
-        line-height: 1;
-        cursor: pointer;
-      }
-
-      .yearbar button:hover { border-color: var(--acc); color: var(--acc); }
-      .yearbar button.on { color: var(--acc); border-color: var(--acc); background: var(--acc-dim); }
-
-      .yearbar input[type="range"] {
-        flex: 0 1 260px;
-        min-width: 120px;
-        margin: 0;
-        accent-color: var(--acc);
-      }
-
-      .yb-val {
-        min-width: 64px;
-        color: var(--ink);
-        font-weight: 700;
-      }
-
-      .yb-val.on { color: var(--acc); }
-
-      .yb-note {
-        flex: 1;
-        min-width: 0;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        text-align: right;
-        letter-spacing: 0;
-      }
-
-      @media (max-width: 680px) {
-        .yb-note { display: none; }
-      }
-
       .mapmode {
         align-self: start;
         padding-top: 2px;
@@ -1056,10 +998,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           grid-template-columns: 1fr 1fr;
         }
 
-        .yearbar {
-          flex-wrap: wrap;
-        }
-
         .realmap {
           min-height: 340px;
         }
@@ -1412,22 +1350,30 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         letter-spacing: 0.12em;
       }
 
-      .hzn-headline .hk b {
-        color: var(--acc-ink);
-      }
-
       .hzn-num {
         display: flex;
+        flex-wrap: wrap;
         align-items: baseline;
         gap: 8px;
         color: var(--ink);
-        font: 700 38px/1 var(--mono);
+        font: 700 34px/1 var(--mono);
         font-variant-numeric: tabular-nums;
       }
 
       .hzn-num .unit {
         color: var(--acc-ink);
-        font-size: 19px;
+        font-size: 18px;
+      }
+
+      .hzn-num .cap {
+        color: var(--mut);
+        font-size: 11px;
+        letter-spacing: 0.1em;
+      }
+
+      .hzn-num .dotsep {
+        color: var(--mut);
+        font-size: 20px;
       }
 
       .hzn-break {
@@ -1604,25 +1550,10 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         border-radius: 2px;
       }
 
-      .hzn-veil {
-        position: absolute;
-        top: -30px;
-        right: 0;
-        bottom: 0;
-        border-left: 1px solid var(--acc);
-        background: color-mix(in srgb, var(--sf) 78%, transparent);
-        pointer-events: none;
-      }
-
-      .hzn-veil b {
-        position: absolute;
-        top: 2px;
-        left: 0;
-        transform: translateX(-100%);
-        padding-right: 7px;
-        color: var(--acc-ink);
-        font: 600 10px var(--mono);
-        white-space: nowrap;
+      /* Hovered phase band brightens in place; the crosshair dot marks the
+         cumulative top edge through that phase. */
+      .in .hzn-plot .hfill.hot {
+        fill-opacity: 0.62;
       }
 
       .hzn-cross {
@@ -1675,9 +1606,13 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         white-space: nowrap;
       }
 
-      .hzn-x span.hl {
-        color: var(--ink);
-        font-weight: 600;
+      .hzn-x span i {
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        margin-right: 4px;
+        border-radius: 2px;
+        vertical-align: 1px;
       }
 
       @media (max-width: 680px) {
@@ -1686,7 +1621,16 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         }
 
         .hzn-num {
-          font-size: 30px;
+          font-size: 26px;
+        }
+
+        .hzn-x span {
+          font-size: 8px;
+        }
+
+        .hzn-x span i {
+          display: block;
+          margin: 0 auto 2px;
         }
       }
 
@@ -1721,12 +1665,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       }
       .wcol:not(:hover) .wseg.on {
         filter: brightness(0.92);
-      }
-      .wcol.dim .wseg {
-        opacity: 0.18;
-      }
-      .wcol.dim .wtot {
-        opacity: 0.25;
       }
       .wtot {
         position: absolute;
@@ -2362,14 +2300,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
             </div>
           </div>
           <div class="card rv">
-            <div class="yearbar" id="yearBar">
-              <button id="yrPlay" type="button" aria-label="Play buildout timeline / 播放时间线">▶</button>
-              <span class="yb-end">2018</span>
-              <input id="yrRange" type="range" min="2018" max="2031" step="1" value="2031" aria-label="Year scrubber / 年份筛选" />
-              <span class="yb-end"><span class="en">ALL</span><span class="zh">全部</span></span>
-              <span class="yb-val" id="yrLabel"></span>
-              <span class="yb-note" id="yrNote"></span>
-            </div>
             <div class="realmap-wrap">
               <div class="realmap" id="realMap" aria-label="interactive geographic map"><button id="mapFull" class="mapfull" type="button" title="Fullscreen map / 全屏地图" aria-label="Fullscreen map / 全屏地图">⛶</button><button id="dotToggle" class="dotchip" type="button" aria-pressed="true" hidden></button></div>
               <div class="mapmode">
@@ -2421,14 +2351,20 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           <div class="card rv hzncard">
             <div class="hzn-top">
               <div class="hzn-headline">
-                <div class="hk"><span class="en">COMPUTE HORIZON — POTENTIAL ONLINE BY <b class="hzn-yrv">2030</b></span><span class="zh">算力地平线 — 截至 <b class="hzn-yrv">2030</b> 的潜在在线算力</span></div>
-                <div class="hzn-num"><span id="hznNum">0</span><span class="unit" id="hznUnit">GW</span></div>
+                <div class="hk"><span class="en">COMPUTE HORIZON — STACKED BY COMMITMENT PHASE</span><span class="zh">算力地平线 — 按承诺阶段堆叠</span></div>
+                <div class="hzn-num" id="hznNums">
+                  <span id="hznNowNum">0</span><span class="unit" id="hznNowUnit">GW</span><span class="cap"><span class="en">ONLINE NOW</span><span class="zh">当前在线</span></span>
+                  <span class="dotsep">·</span>
+                  <span id="hznNum">0</span><span class="unit" id="hznUnit">GW</span><span class="cap"><span class="en">TOTAL POTENTIAL</span><span class="zh">潜在总量</span></span>
+                </div>
                 <div class="hzn-break" id="hznBreak"></div>
               </div>
-              <div class="hzn-toggles" role="group" aria-label="Toggle stages / 切换阶段">
-                <button type="button" data-hzn-stage="operational" aria-pressed="true" style="--c:var(--st-op)"><span class="sw"></span><span class="en">OPERATIONAL</span><span class="zh">运营中</span></button>
-                <button type="button" data-hzn-stage="construction" aria-pressed="true" style="--c:var(--st-con)"><span class="sw"></span><span class="en">CONSTRUCTION</span><span class="zh">在建</span></button>
-                <button type="button" data-hzn-stage="pipeline" aria-pressed="true" style="--c:var(--st-app)"><span class="sw"></span><span class="en">PIPELINE</span><span class="zh">储备</span></button>
+              <div class="hzn-toggles" role="group" aria-label="Toggle phases / 切换阶段">
+                <button type="button" data-hzn-stage="op" aria-pressed="true" style="--c:var(--st-op)"><span class="sw"></span><span class="en">OPERATIONAL</span><span class="zh">运营中</span></button>
+                <button type="button" data-hzn-stage="con" aria-pressed="true" style="--c:var(--st-con)"><span class="sw"></span><span class="en">CONSTRUCTION</span><span class="zh">在建</span></button>
+                <button type="button" data-hzn-stage="app" aria-pressed="true" style="--c:var(--st-app)"><span class="sw"></span><span class="en">APPROVED</span><span class="zh">已批准</span></button>
+                <button type="button" data-hzn-stage="pla" aria-pressed="true" style="--c:var(--st-pla)"><span class="sw"></span><span class="en">PLANNED</span><span class="zh">规划中</span></button>
+                <button type="button" data-hzn-stage="ann" aria-pressed="true" style="--c:var(--st-ann)"><span class="sw"></span><span class="en">ANNOUNCED</span><span class="zh">已公告</span></button>
               </div>
             </div>
             <div class="hznbox">
@@ -2437,7 +2373,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
                 <div class="hzn-plot">
                   <svg id="hznSvg" viewBox="0 0 1000 204" preserveAspectRatio="none" aria-hidden="true"></svg>
                   <div class="hzn-ends" id="hznEnds" aria-hidden="true"></div>
-                  <div class="hzn-veil" id="hznVeil" hidden><b id="hznVeilYr"></b></div>
                   <div class="hzn-cross" id="hznCross" hidden></div>
                   <div class="hzn-hots" id="hznHots"></div>
                 </div>
@@ -2445,8 +2380,8 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
               </div>
             </div>
             <div class="mapnote">
-              <span class="en">Cumulative capacity from dated project signals, stacked by stage — the top edge reads as the compute that could be online by each year if every project lands. Hover for the breakdown, click a year to scrub the whole page, toggle a stage chip to include or exclude it.</span>
-              <span class="zh">按阶段堆叠的累计容量（仅含带年份信号的项目）——顶边即“若全部落地、该年可能在线”的算力。悬停查看构成，点击年份联动全页时间筛选，点击阶段标签开关该层。</span>
+              <span class="en">Capacity stacked by project status in commitment order — each step adds the next-least-committed phase, so the top edge reads as the total compute that might come online if every committed project lands. Rejected and unknown-status records are excluded. Hover a phase for its share, click a phase or its chip to include or exclude it.</span>
+              <span class="zh">按项目状态、依承诺程度堆叠的容量——每级台阶加上承诺度次之的阶段，顶边即“若全部落地、可能上线”的总算力。不含已否决与状态未知的记录。悬停查看各阶段占比，点击阶段或标签开关该层。</span>
             </div>
           </div>
           <div class="card rv">
@@ -2688,17 +2623,11 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
             updateFacilityDots();
             if (!cmdkEl.hidden) cmdkUpdate();
             // County drilldown is the only map view fed by the deferred chunk;
-            // other scopes keep their viewport untouched. A scrubbed map is
-            // the exception: its aggregates were computed off flagship rows
-            // only, so recompute them (in place) now the corpus is here.
+            // other scopes keep their viewport untouched.
             if (selCountry === "US" && selState) {
               renderRealMap();
               updateMapSide();
-            } else if (scrubActive()) {
-              renderRealMap(true);
-              updateMapSide();
             }
-            if (scrubActive()) syncScrubUI();
           })
           .catch(() => {
             corpusPromise = null;
@@ -2797,7 +2726,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         const pal = markerPalette();
         const groupIndex = new Map();
         DATA.centers.forEach(c => {
-          if (scrubActive() && !scrubMatch(c)) return;
           const anchor = facilityAnchor(c);
           if (!anchor) return;
           const key = `${anchor.lat},${anchor.lng}`;
@@ -2847,53 +2775,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         chip.title = langIndex()
           ? `设施圆点在缩放级别 ≥ ${DOT_MIN_ZOOM} 时显示；坐标为近似锚点。点击开关。`
           : `Facility dots appear at zoom ≥ ${DOT_MIN_ZOOM}; positions are approximate anchors. Click to toggle.`;
-      }
-
-      // Time scrubber (plan §3.4): scrubYear == null means the scrubber is
-      // idle and every view shows the full dataset. When set, the registry,
-      // map markers, facility dots, and wave highlight re-weight to rows with
-      // year-signal <= scrubYear. Most corpus rows carry no year-signal, so
-      // they cannot be placed on the timeline and drop out while scrubbing —
-      // the yearbar note says so. The per-state/subnational years matrices
-      // the plan asks the export for do not exist yet; aggregates are instead
-      // recomputed client-side from the corpus rows (flagship-only until the
-      // deferred chunk lands, so activating the scrubber pulls the corpus).
-      const SCRUB_MIN = 2018;
-      const SCRUB_MAX = 2030;
-      let scrubYear = null;
-      let scrubTimer = null;
-      const scrubActive = () => scrubYear != null;
-      const scrubMatch = c => c.year != null && Number(c.year) <= scrubYear;
-
-      function scrubAggregates() {
-        const keyFn = !selCountry ? c => c.country
-          : selCountry === "US" && selState ? c => (c.country === "US" && c.state === selState ? c.county : null)
-            : selCountry === "US" ? c => (c.country === "US" ? c.state : null)
-              : c => (c.country === selCountry ? c.subnational : null);
-        const agg = new Map();
-        DATA.centers.forEach(c => {
-          if (!scrubMatch(c)) return;
-          const key = keyFn(c);
-          if (!key) return;
-          const acc = agg.get(key) || { mw: 0, n: 0 };
-          acc.mw += Number(c.capacity_mw) || 0;
-          acc.n += 1;
-          agg.set(key, acc);
-        });
-        return agg;
-      }
-
-      // Projects an aggregate marker item onto the scrubbed timeline: value
-      // fields re-weight, tracked/est splits and subnational top lists null
-      // out (they are full-dataset figures the scrubbed view cannot honor).
-      function scrubProject(items) {
-        if (!scrubActive()) return items;
-        const agg = scrubAggregates();
-        return items.map(item => {
-          const acc = agg.get(item.code || item.abbr || item.county || item.name);
-          if (!acc) return null;
-          return { ...item, capacity_mw: acc.mw, capacity_gw: acc.mw / 1000, facilities: acc.n, tracked_mw: null, tracked_gw: null, est_mw: null, est_gw: null, subnationals: null };
-        }).filter(Boolean);
       }
 
       const cartoTileUrl = theme => `https://{s}.basemaps.cartocdn.com/${theme === "light" ? "light_all" : "dark_all"}/{z}/{x}/{y}{r}.png`;
@@ -2948,7 +2829,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         updateMapSide();
         updateFunnelTitle();
         syncDotToggle();
-        syncScrubUI();
         buildTicker();
       }
 
@@ -3141,12 +3021,12 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       }
 
       function realMapItems() {
-        if (!selCountry) return scrubProject(DATA.countries || []).filter(item => hasCoord(item) && pointValue(item) > 0);
-        if (selCountry === "US" && selState) return scrubProject(countiesByState[selState] || []).filter(item => hasCoord(item) && pointValue(item) > 0);
-        if (selCountry === "US") return scrubProject(DATA.states || []).filter(item => hasCoord(item) && pointValue(item) > 0);
+        if (!selCountry) return (DATA.countries || []).filter(item => hasCoord(item) && pointValue(item) > 0);
+        if (selCountry === "US" && selState) return (countiesByState[selState] || []).filter(item => hasCoord(item) && pointValue(item) > 0);
+        if (selCountry === "US") return (DATA.states || []).filter(item => hasCoord(item) && pointValue(item) > 0);
         const country = selectedCountry();
         const center = hasCoord(country) ? country : null;
-        return scrubProject(country?.subnationals || []).filter(item => pointValue(item) > 0).map((item, index) => {
+        return (country?.subnationals || []).filter(item => pointValue(item) > 0).map((item, index) => {
           if (hasCoord(item) && (!center || item.lat !== center.lat || item.lng !== center.lng)) return item;
           if (!center) return item;
           const ring = 0.7 + (index % 5) * 0.18;
@@ -3183,10 +3063,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           ${approximate}`;
       }
 
-      // keepView: scrub steps rebuild the markers in place; flying the
-      // viewport on every slider tick (or 13 times per autoplay) would fight
-      // the user, so only scope changes move the camera.
-      function renderRealMap(keepView) {
+      function renderRealMap() {
         const titleEl = document.getElementById("realMapTitle");
         const noteEl = document.getElementById("realMapNote");
         if (!initRealMap()) {
@@ -3236,20 +3113,16 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           marker.addTo(realMapLayer);
         });
         const country = selectedCountry();
-        const scrubSuffix = scrubActive() ? ` · ≤ ${scrubYear}` : "";
-        titleEl.textContent = (!selCountry
+        titleEl.textContent = !selCountry
           ? (langIndex() ? "全球国家亮点" : "Worldwide country highlights")
           : selCountry === "US"
             ? selState
               ? `${selState} · ${langIndex() ? "美国县级亮点" : "US county highlights"}`
               : (langIndex() ? "美国州级亮点" : "US state highlights")
-            : `${countryName(country)} · ${langIndex() ? "地区亮点" : "subnational highlights"}`) + scrubSuffix;
-        noteEl.textContent = scrubActive()
-          ? (langIndex() ? `仅显示年份信号 ≤ ${scrubYear} 的项目；无年份信号的记录暂不显示。` : `Showing projects with a year signal ≤ ${scrubYear}; records without a dated signal are hidden while scrubbing.`)
-          : langIndex()
-            ? (selCountry === "US" ? "美国视图先显示州级概览；点击州亮点后显示该州有项目的县级亮点。" : "圆点大小按当前指标非线性缩放，颜色按容量分级；点击亮点进入国家或地区筛选。")
-            : (selCountry === "US" ? "The US view starts at state level; click a state marker to show project counties inside that state." : "Marker size uses nonlinear scaling for the active metric; color is capacity-banded. Click a highlight to focus.");
-        if (keepView) return;
+            : `${countryName(country)} · ${langIndex() ? "地区亮点" : "subnational highlights"}`;
+        noteEl.textContent = langIndex()
+          ? (selCountry === "US" ? "美国视图先显示州级概览；点击州亮点后显示该州有项目的县级亮点。" : "圆点大小按当前指标非线性缩放，颜色按容量分级；点击亮点进入国家或地区筛选。")
+          : (selCountry === "US" ? "The US view starts at state level; click a state marker to show project counties inside that state." : "Marker size uses nonlinear scaling for the active metric; color is capacity-banded. Click a highlight to focus.");
         if (bounds.length > 1) {
           realMap.flyToBounds(bounds, { padding: [28, 28], maxZoom: selCountry === "US" && selState ? 8 : selCountry ? 6 : 4, animate: !noMotion });
         } else if (bounds.length === 1) {
@@ -3350,7 +3223,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       }
 
       function updateMapSide() {
-        const items = scrubProject(!selCountry ? DATA.countries : selCountry === "US" && selState ? (countiesByState[selState] || []) : selCountry === "US" ? DATA.states : (selectedCountry()?.subnationals || []));
+        const items = !selCountry ? DATA.countries : selCountry === "US" && selState ? (countiesByState[selState] || []) : selCountry === "US" ? DATA.states : (selectedCountry()?.subnationals || []);
         const top = [...items].sort((a, b) => mapMetric === "mw" ? b.capacity_mw - a.capacity_mw : b.facilities - a.facilities)[0];
         if (!top) return;
         document.getElementById("mapTopV").textContent = mapMetric === "mw" ? fmtMW(top.capacity_mw) : fmt(top.facilities);
@@ -3472,81 +3345,80 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           });
           col.addEventListener("mouseleave", hideTip);
         });
-        syncWaveScrub();
         buildHorizon();
       }
 
-      // §3.4 wave highlight: columns past the scrubbed year dim in place;
-      // the chart itself keeps showing the full timeline for context.
-      function syncWaveScrub() {
-        const years = scopedYears();
-        document.querySelectorAll("#wave .wcol").forEach(col => {
-          const y = years[Number(col.dataset.index)];
-          col.classList.toggle("dim", scrubActive() && Boolean(y) && y.year > scrubYear);
-        });
-        syncHorizonScrub();
-      }
-
-      // Compute horizon: cumulative stacked area over the same years matrix
-      // the wave columns read. Capacity-only by design — the question it
-      // answers ("how much compute might be online by year X") has no
+      // Compute horizon: capacity stacked by the STATUS field (globally
+      // populated), never the year field (NULL for every non-US facility).
+      // Phases stack in commitment order — operational first, announced
+      // last — and each band extends from its step to the right edge, so
+      // the top edge climbs stepwise to the total compute that might come
+      // online if every committed project lands. Rejected and unknown are
+      // excluded upstream: the export's funnel aggregation only emits the
+      // five committed statuses. Capacity-only by design — the question it
+      // answers ("how much compute might come online") has no
       // facilities-count reading, so it ignores the metric tabs above.
       const HZN_W = 1000;
       const HZN_H = 204;
+      // Commitment order, most → least committed. Keys match the export's
+      // funnel/status keys; bilingual labels ride DATA.status_labels.
+      const HZN_PHASES = [
+        { key: "op", var: "--st-op" },
+        { key: "con", var: "--st-con" },
+        { key: "app", var: "--st-app" },
+        { key: "pla", var: "--st-pla" },
+        { key: "ann", var: "--st-ann" },
+      ];
       const hznHidden = new Set();
-      let hznVals = null; // active per-stage cumulative MW (zeroed when toggled off)
-      let hznMax = 1; // axis stays pinned to the all-stages total per scope
+      let hznVals = null; // active per-phase MW (zeroed when toggled off)
+      let hznCounts = null; // per-phase project counts for tooltips
+      let hznMax = 1; // axis stays pinned to the all-phases total per scope
       let hznKey = "";
       let hznAnimFrame = 0;
-      let hznNumToken = 0;
+      const hznNumTokens = {};
 
-      function hznCumVals() {
-        const years = scopedYears();
-        return WAVE_SEGS.map(seg => {
-          let run = 0;
-          return years.map(y => (run += Number(y[seg.key + "_mw"]) || 0));
-        });
-      }
+      const hznCumTo = k => hznVals.slice(0, k + 1).reduce((sum, v) => sum + v, 0);
+      const hznLabel = key => I18N.st[key][langIndex()];
+      const hznBilingual = key => `<span class="en">${I18N.st[key][0]}</span><span class="zh">${I18N.st[key][1]}</span>`;
 
       function hznRender(vals) {
-        const n = vals[0].length;
-        const xOf = i => (i / (n - 1)) * HZN_W;
+        const xOf = k => (k / HZN_PHASES.length) * HZN_W;
         const yOf = v => HZN_H - (v / hznMax) * HZN_H;
-        let lower = new Array(n).fill(0);
-        const bands = vals.map(arr => {
-          const upper = lower.map((b, i) => b + (arr[i] || 0));
-          const up = upper.map((v, i) => `${xOf(i).toFixed(1)},${yOf(v).toFixed(1)}`);
-          const lo = lower.map((v, i) => `${xOf(i).toFixed(1)},${yOf(v).toFixed(1)}`);
-          const band = { fill: `M${up.join("L")}L${lo.slice().reverse().join("L")}Z`, edge: `M${up.join("L")}`, upper };
-          lower = upper;
-          return band;
-        });
-        const lastOn = WAVE_SEGS.reduce((last, seg, k) => (hznHidden.has(seg.key) ? last : k), -1);
-        WAVE_SEGS.forEach((seg, k) => {
-          const off = hznHidden.has(seg.key);
-          document.getElementById(`hznFill-${seg.key}`).setAttribute("d", bands[k].fill);
-          const cut = document.getElementById(`hznCut-${seg.key}`);
-          cut.setAttribute("d", bands[k].edge);
+        const lastOn = HZN_PHASES.reduce((last, p, k) => (hznHidden.has(p.key) ? last : k), -1);
+        let below = 0;
+        HZN_PHASES.forEach((p, k) => {
+          const top = below + (vals[k] || 0);
+          const off = hznHidden.has(p.key);
+          const x0 = xOf(k).toFixed(1);
+          const yTop = yOf(top).toFixed(1);
+          const yLow = yOf(below).toFixed(1);
+          document.getElementById(`hznFill-${p.key}`).setAttribute("d", `M${x0},${yTop}L${HZN_W},${yTop}L${HZN_W},${yLow}L${x0},${yLow}Z`);
+          const ledge = `M${x0},${yTop}L${HZN_W},${yTop}`;
+          const cut = document.getElementById(`hznCut-${p.key}`);
+          cut.setAttribute("d", ledge);
           cut.classList.toggle("off", off);
-          const edge = document.getElementById(`hznEdge-${seg.key}`);
-          edge.setAttribute("d", bands[k].edge);
+          const edge = document.getElementById(`hznEdge-${p.key}`);
+          edge.setAttribute("d", ledge);
           edge.classList.toggle("top", k === lastOn);
           edge.classList.toggle("off", off);
+          below = top;
         });
-        // Right-edge direct labels: per-stage 2030 totals (thin bands skip
-        // theirs) plus the potential line riding the top edge.
-        const total = vals.reduce((sum, arr) => sum + (arr[n - 1] || 0), 0);
-        document.getElementById("hznEnds").innerHTML = WAVE_SEGS.map((seg, k) => {
-          const v = vals[k][n - 1] || 0;
+        // Right-edge direct labels: per-phase capacity (thin bands skip
+        // theirs) plus the total-potential line riding the top edge.
+        const total = below;
+        let run = 0;
+        document.getElementById("hznEnds").innerHTML = HZN_PHASES.map((p, k) => {
+          const v = vals[k] || 0;
+          run += v;
           if (v / hznMax < 0.07) return "";
-          const mid = bands[k].upper[n - 1] - v / 2;
-          return `<span style="top:${((1 - mid / hznMax) * 100).toFixed(1)}%"><i style="background:var(${seg.var})"></i>${fmtMW(v)}</span>`;
+          const mid = run - v / 2;
+          return `<span style="top:${((1 - mid / hznMax) * 100).toFixed(1)}%"><i style="background:var(${p.var})"></i>${fmtMW(v)}</span>`;
         }).join("") + (total > 0 ? `<span class="tp" style="top:${((1 - total / hznMax) * 100).toFixed(1)}%">▲ ${fmtMW(total)}</span>` : "");
       }
 
       function hznMorph(from, to) {
         cancelAnimationFrame(hznAnimFrame);
-        if (noMotion || !from || from.length !== to.length || from[0].length !== to[0].length) {
+        if (noMotion || !from || from.length !== to.length) {
           hznRender(to);
           return;
         }
@@ -3555,87 +3427,61 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         const tick = now => {
           const p = Math.min(1, (now - start) / dur);
           const e = 1 - Math.pow(1 - p, 3);
-          hznRender(to.map((arr, k) => arr.map((v, i) => from[k][i] + (v - from[k][i]) * e)));
+          hznRender(to.map((v, k) => from[k] + (v - from[k]) * e));
           if (p < 1) hznAnimFrame = requestAnimationFrame(tick);
         };
         hznAnimFrame = requestAnimationFrame(tick);
       }
 
       function buildHorizon() {
-        const years = scopedYears();
-        const n = years.length;
-        const key = `${selCountry || "*"}|${WAVE_SEGS.map(seg => (hznHidden.has(seg.key) ? 0 : 1)).join("")}`;
-        if (key === hznKey && hznVals && hznVals[0].length === n) return;
+        const key = `${selCountry || "*"}|${HZN_PHASES.map(p => (hznHidden.has(p.key) ? 0 : 1)).join("")}`;
+        if (key === hznKey && hznVals) return;
         hznKey = key;
-        const raw = hznCumVals();
-        hznMax = Math.max(1, raw.reduce((sum, arr) => sum + (arr[n - 1] || 0), 0));
+        const byKey = new Map(scopedFunnel().map(f => [f.key, f]));
+        const rows = HZN_PHASES.map(p => byKey.get(p.key) || { capacity_mw: 0, count: 0 });
+        hznCounts = rows.map(r => Number(r.count) || 0);
+        const raw = rows.map(r => Number(r.capacity_mw) || 0);
+        hznMax = Math.max(1, raw.reduce((sum, v) => sum + v, 0));
         const prev = hznVals;
-        hznVals = WAVE_SEGS.map((seg, k) => (hznHidden.has(seg.key) ? raw[k].map(() => 0) : raw[k]));
+        hznVals = HZN_PHASES.map((p, k) => (hznHidden.has(p.key) ? 0 : raw[k]));
         const svg = document.getElementById("hznSvg");
         if (!svg.dataset.ready) {
           svg.dataset.ready = "1";
           svg.innerHTML = [0, 1, 2, 3, 4].map(q => `<line class="gr" x1="0" x2="${HZN_W}" y1="${(q * HZN_H / 4).toFixed(1)}" y2="${(q * HZN_H / 4).toFixed(1)}" vector-effect="non-scaling-stroke"/>`).join("")
-            + WAVE_SEGS.map(seg => `<path id="hznFill-${seg.key}" class="hfill" style="fill:var(${seg.var})"/>`).join("")
-            + WAVE_SEGS.map(seg => `<path id="hznCut-${seg.key}" class="hcut" vector-effect="non-scaling-stroke"/><path id="hznEdge-${seg.key}" class="hedge" style="stroke:var(${seg.var})" vector-effect="non-scaling-stroke"/>`).join("");
+            + HZN_PHASES.map(p => `<path id="hznFill-${p.key}" class="hfill" style="fill:var(${p.var})"/>`).join("")
+            + HZN_PHASES.map(p => `<path id="hznCut-${p.key}" class="hcut" vector-effect="non-scaling-stroke"/><path id="hznEdge-${p.key}" class="hedge" style="stroke:var(${p.var})" vector-effect="non-scaling-stroke"/>`).join("");
         }
         document.getElementById("hznY").innerHTML = [0, 1, 2, 3, 4].map(q => `<span style="top:${q * 25}%">${q === 4 ? "0" : fmtMW(hznMax * (1 - q / 4))}</span>`).join("");
-        document.getElementById("hznX").innerHTML = years.map((y, i) => `<span class="${y.year % 5 === 0 || y.year === 2030 ? "hl" : ""}" style="left:${(i / (n - 1) * 100).toFixed(2)}%">'${String(y.year).slice(2)}</span>`).join("");
+        document.getElementById("hznX").innerHTML = HZN_PHASES.map((p, k) => `<span style="left:${((k + 0.5) / HZN_PHASES.length * 100).toFixed(2)}%"><i style="background:var(${p.var})"></i>${hznBilingual(p.key)}</span>`).join("");
         // §8: hotspots mirror the hover tooltip for keyboard/SR users.
-        document.getElementById("hznHots").innerHTML = years.map((y, i) => {
-          const left = Math.max(0, ((i - 0.5) / (n - 1)) * 100);
-          const width = Math.min(100, ((i + 0.5) / (n - 1)) * 100) - left;
-          const label = `${y.year}: ${WAVE_SEGS.map((seg, k) => `${langIndex() ? seg.labelZh : seg.labelEn} ${fmtMW(hznVals[k][i] || 0)}`).join(", ")} — ${langIndex() ? "累计潜在算力" : "cumulative potential"} ${fmtMW(hznVals.reduce((sum, arr) => sum + (arr[i] || 0), 0))}`;
-          return `<div class="hzn-hot" data-index="${i}" tabindex="0" role="img" aria-label="${esc(label)}" style="left:${left.toFixed(2)}%;width:${width.toFixed(2)}%"></div>`;
+        document.getElementById("hznHots").innerHTML = HZN_PHASES.map((p, k) => {
+          const label = `${hznLabel(p.key)}: ${fmtMW(hznVals[k] || 0)} · ${fmt(hznCounts[k])} ${L(I18N.projects)} — ${langIndex() ? "累计潜在算力" : "cumulative potential"} ${fmtMW(hznCumTo(k))}`;
+          return `<div class="hzn-hot" data-index="${k}" tabindex="0" role="img" aria-label="${esc(label)}" style="left:${(k / HZN_PHASES.length * 100).toFixed(2)}%;width:${(100 / HZN_PHASES.length).toFixed(2)}%"></div>`;
         }).join("");
         hznMorph(prev, hznVals);
-        syncHorizonScrub();
-      }
-
-      function hznIndexFor(yearValue) {
-        const years = scopedYears();
-        const idx = years.findIndex(y => y.year === yearValue);
-        return idx < 0 ? years.length - 1 : idx;
-      }
-
-      function syncHorizonScrub() {
-        if (!hznVals) return;
-        const veil = document.getElementById("hznVeil");
-        if (scrubActive()) {
-          const pos = (hznIndexFor(scrubYear) / (scopedYears().length - 1)) * 100;
-          veil.hidden = false;
-          veil.style.left = `${pos.toFixed(2)}%`;
-          document.getElementById("hznVeilYr").textContent = `≤ ${scrubYear}`;
-        } else {
-          veil.hidden = true;
-        }
         hznHeadline();
       }
 
-      // The headline re-counts from its previous value (not zero) so scrub
-      // autoplay reads as one continuous meter. dataset.v stores canonical
-      // GW to survive the GW→TW unit crossover.
-      function hznHeadline() {
-        const years = scopedYears();
-        const idx = scrubActive() ? hznIndexFor(scrubYear) : years.length - 1;
-        const totalGw = hznVals.reduce((sum, arr) => sum + (arr[idx] || 0), 0) / 1000;
-        const isTW = totalGw >= 1000;
-        const target = isTW ? totalGw / 1000 : totalGw;
+      // Both headline meters re-count from their previous value (not zero)
+      // so scope hops read as one continuous meter. dataset.v stores
+      // canonical GW to survive the GW→TW unit crossover.
+      function hznCountTo(numEl, unitEl, valueGw) {
+        const isTW = valueGw >= 1000;
+        const target = isTW ? valueGw / 1000 : valueGw;
         const decimals = target >= 100 ? 0 : target >= 10 ? 1 : 2;
-        document.getElementById("hznUnit").textContent = isTW ? "TW" : "GW";
-        document.querySelectorAll(".hzn-yrv").forEach(el => (el.textContent = String(years[idx].year)));
-        const numEl = document.getElementById("hznNum");
-        numEl.closest(".hzn-num").setAttribute("aria-label", `${target.toFixed(decimals)} ${isTW ? "TW" : "GW"}`);
+        unitEl.textContent = isTW ? "TW" : "GW";
         const fromGw = Number(numEl.dataset.v) || 0;
         const from = isTW ? fromGw / 1000 : fromGw;
-        numEl.dataset.v = String(totalGw);
-        const token = ++hznNumToken;
+        numEl.dataset.v = String(valueGw);
+        const token = (hznNumTokens[numEl.id] || 0) + 1;
+        hznNumTokens[numEl.id] = token;
         if (noMotion) {
           numEl.textContent = target.toFixed(decimals);
         } else {
           const start = performance.now();
           const dur = 600;
           const tick = now => {
-            if (token !== hznNumToken) return;
+            if (token !== hznNumTokens[numEl.id]) return;
             const p = Math.min(1, (now - start) / dur);
             const e = 1 - Math.pow(1 - p, 3);
             numEl.textContent = (from + (target - from) * e).toFixed(decimals);
@@ -3643,41 +3489,53 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           };
           requestAnimationFrame(tick);
         }
-        document.getElementById("hznBreak").innerHTML = WAVE_SEGS.map((seg, k) => {
-          const off = hznHidden.has(seg.key);
-          return `<span class="bd${off ? " off" : ""}"><i style="background:var(${seg.var})"></i><span class="en">${seg.labelEn}</span><span class="zh">${seg.labelZh}</span> <b>${off ? "·" : fmtMW(hznVals[k][idx] || 0)}</b></span>`;
+        return `${target.toFixed(decimals)} ${isTW ? "TW" : "GW"}`;
+      }
+
+      function hznHeadline() {
+        const nowGw = (hznVals[0] || 0) / 1000; // phase 0 is operational
+        const totalGw = hznVals.reduce((sum, v) => sum + v, 0) / 1000;
+        const nowLabel = hznCountTo(document.getElementById("hznNowNum"), document.getElementById("hznNowUnit"), nowGw);
+        const totalLabel = hznCountTo(document.getElementById("hznNum"), document.getElementById("hznUnit"), totalGw);
+        document.getElementById("hznNums").setAttribute("aria-label", langIndex()
+          ? `当前在线 ${nowLabel}，潜在总量 ${totalLabel}`
+          : `${nowLabel} online now, ${totalLabel} total potential`);
+        document.getElementById("hznBreak").innerHTML = HZN_PHASES.map((p, k) => {
+          const off = hznHidden.has(p.key);
+          return `<span class="bd${off ? " off" : ""}"><i style="background:var(${p.var})"></i>${hznBilingual(p.key)} <b>${off ? "·" : fmtMW(hznVals[k] || 0)}</b></span>`;
         }).join("");
       }
 
-      function hznCrossAt(i) {
+      function hznCrossAt(k) {
         const cross = document.getElementById("hznCross");
-        const n = scopedYears().length;
         cross.hidden = false;
-        cross.style.left = `${((i / (n - 1)) * 100).toFixed(2)}%`;
-        let stackTop = 0;
-        cross.innerHTML = WAVE_SEGS.map((seg, k) => {
-          const v = hznVals[k][i] || 0;
-          if (!v) return "";
-          stackTop += v;
-          return `<i style="top:${((1 - stackTop / hznMax) * 100).toFixed(2)}%;background:var(${seg.var})"></i>`;
-        }).join("");
+        cross.style.left = `${((k + 0.5) / HZN_PHASES.length * 100).toFixed(2)}%`;
+        cross.innerHTML = `<i style="top:${((1 - hznCumTo(k) / hznMax) * 100).toFixed(2)}%;background:var(${HZN_PHASES[k].var})"></i>`;
+        HZN_PHASES.forEach((p, j) => document.getElementById(`hznFill-${p.key}`).classList.toggle("hot", j === k));
       }
 
       function hznHideCross() {
         document.getElementById("hznCross").hidden = true;
+        HZN_PHASES.forEach(p => document.getElementById(`hznFill-${p.key}`).classList.remove("hot"));
       }
 
-      function hznTip(i, ev) {
-        const years = scopedYears();
-        const rows = WAVE_SEGS.map((seg, k) => hznHidden.has(seg.key) ? "" : `${langIndex() ? seg.labelZh : seg.labelEn}: ${fmtMW(hznVals[k][i] || 0)}`).filter(Boolean).join("<br>");
-        const total = hznVals.reduce((sum, arr) => sum + (arr[i] || 0), 0);
-        showTip(`<div class="t1">${langIndex() ? `截至 ${years[i].year}` : `BY ${years[i].year}`}</div><div class="t2">${rows}${rows ? "<br>" : ""}<b>${langIndex() ? "潜在在线算力" : "Potential online"}: ${fmtMW(total)}</b><br>${langIndex() ? "点击年份联动全页筛选" : "Click to scrub the page to this year"}</div>`, ev);
+      function hznTip(k, ev) {
+        const p = HZN_PHASES[k];
+        const off = hznHidden.has(p.key);
+        const share = Math.round((hznVals[k] || 0) / hznMax * 100);
+        const own = off
+          ? (langIndex() ? "已隐藏 — 点击恢复" : "hidden — click to restore")
+          : `${fmtMW(hznVals[k] || 0)} · ${fmt(hznCounts[k])} ${L(I18N.projects)} · ${share}%`;
+        showTip(`<div class="t1">${hznLabel(p.key)}</div><div class="t2">${own}<br><b>${langIndex() ? "累计潜在在线算力" : "Cumulative potential online"}: ${fmtMW(hznCumTo(k))}</b><br>${langIndex() ? "点击开关该阶段" : "Click to toggle this phase"}</div>`, ev);
       }
 
-      function hznPick(hot) {
-        const year = scopedYears()[Number(hot.dataset.index)].year;
-        stopScrubPlay();
-        setScrubYear(scrubActive() && scrubYear === year ? NaN : year);
+      function hznToggle(stage) {
+        if (hznHidden.has(stage)) hznHidden.delete(stage);
+        else hznHidden.add(stage);
+        document.querySelectorAll("[data-hzn-stage]").forEach(button => {
+          if (button.dataset.hznStage === stage) button.setAttribute("aria-pressed", hznHidden.has(stage) ? "false" : "true");
+        });
+        buildHorizon();
       }
 
       const hznHotsEl = document.getElementById("hznHots");
@@ -3698,22 +3556,16 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       hznHotsEl.addEventListener("focusout", hznHideCross);
       hznHotsEl.addEventListener("click", e => {
         const hot = e.target.closest(".hzn-hot");
-        if (hot) hznPick(hot);
+        if (hot) hznToggle(HZN_PHASES[Number(hot.dataset.index)].key);
       });
       hznHotsEl.addEventListener("keydown", e => {
         if (e.key !== "Enter" && e.key !== " ") return;
         const hot = e.target.closest(".hzn-hot");
         if (!hot) return;
         e.preventDefault();
-        hznPick(hot);
+        hznToggle(HZN_PHASES[Number(hot.dataset.index)].key);
       });
-      document.querySelectorAll("[data-hzn-stage]").forEach(button => button.addEventListener("click", () => {
-        const stage = button.dataset.hznStage;
-        if (hznHidden.has(stage)) hznHidden.delete(stage);
-        else hznHidden.add(stage);
-        button.setAttribute("aria-pressed", hznHidden.has(stage) ? "false" : "true");
-        buildHorizon();
-      }));
+      document.querySelectorAll("[data-hzn-stage]").forEach(button => button.addEventListener("click", () => hznToggle(button.dataset.hznStage)));
 
       function setWaveTab(metric) {
         waveMetric = metric;
@@ -3905,7 +3757,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         const geoKey = selCountry && selCountry !== "US" ? "subnational" : "state";
         const scopedCenters = DATA.centers.filter(c => !selCountry || c.country === selCountry);
         vMaxMW = Math.max(1, ...scopedCenters.map(c => c.capacity_mw));
-        let rows = scopedCenters.filter(c => (!scrubActive() || scrubMatch(c)) && (!status || c.status === status) && (!state || c[geoKey] === state) && (!q || rowHaystack(c).includes(q)));
+        let rows = scopedCenters.filter(c => (!status || c.status === status) && (!state || c[geoKey] === state) && (!q || rowHaystack(c).includes(q)));
         rows.sort((a, b) => {
           if (sortKey === "mw") return (a.capacity_mw - b.capacity_mw) * sortDir;
           if (sortKey === "y") return ((a.year || 0) - (b.year || 0)) * sortDir;
@@ -4164,71 +4016,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         if (e.target.closest("[data-cmdk-open]")) openCmdk();
       });
 
-      // §3.4 scrubber wiring: one refresh path serves slider drags, autoplay
-      // ticks, and hash restores. Facility dots rebuild lazily (only when the
-      // layer already exists) since their filter is baked in at build time.
-      const yrRangeEl = document.getElementById("yrRange");
-      const yrPlayEl = document.getElementById("yrPlay");
-      function syncScrubUI() {
-        yrRangeEl.value = String(scrubYear ?? SCRUB_MAX + 1);
-        const label = document.getElementById("yrLabel");
-        label.textContent = scrubActive() ? `≤ ${scrubYear}` : (langIndex() ? "全部年份" : "ALL YEARS");
-        label.classList.toggle("on", scrubActive());
-        const withYear = DATA.centers.filter(c => c.year != null).length;
-        document.getElementById("yrNote").textContent = langIndex()
-          ? `按年份信号回放建设浪潮；${fmt(withYear)}/${fmt(DATA.centers.length)} 条记录带年份信号，其余在筛选时隐藏。`
-          : `Replay the buildout by year signal; ${fmt(withYear)}/${fmt(DATA.centers.length)} records carry one — the rest hide while scrubbing.`;
-        yrPlayEl.classList.toggle("on", Boolean(scrubTimer));
-        yrPlayEl.textContent = scrubTimer ? "⏸" : "▶";
-      }
-      function resetScrubDots() {
-        if (!dotLayer) return;
-        if (realMap && realMap.hasLayer(dotLayer)) realMap.removeLayer(dotLayer);
-        dotLayer = null;
-        updateFacilityDots();
-      }
-      function setScrubYear(value) {
-        const v = Number(value);
-        scrubYear = Number.isFinite(v) && v >= SCRUB_MIN && v <= SCRUB_MAX ? v : null;
-        if (scrubActive()) loadCorpus();
-        syncScrubUI();
-        renderRealMap(true);
-        syncWaveScrub();
-        renderTable();
-        updateMapSide();
-        resetScrubDots();
-      }
-      function stopScrubPlay() {
-        if (!scrubTimer) return;
-        clearInterval(scrubTimer);
-        scrubTimer = null;
-        syncScrubUI();
-      }
-      // Autoplay (plan §3.4): ▶ sweeps 2018→2030 over ~8 s. Under reduced
-      // motion the button advances one year per press instead (§8 audit).
-      function scrubStep() {
-        setScrubYear(!scrubActive() || scrubYear >= SCRUB_MAX ? SCRUB_MIN : scrubYear + 1);
-        if (scrubYear >= SCRUB_MAX) stopScrubPlay();
-      }
-      function startScrubPlay() {
-        loadCorpus();
-        scrubStep();
-        if (noMotion || scrubYear >= SCRUB_MAX) return;
-        scrubTimer = setInterval(scrubStep, 615);
-        syncScrubUI();
-      }
-      yrRangeEl.addEventListener("input", () => {
-        // Capture before stopping: stopScrubPlay's UI sync rewrites the
-        // slider position from state, which would clobber the drag value.
-        const value = yrRangeEl.value;
-        stopScrubPlay();
-        setScrubYear(value);
-      });
-      yrPlayEl.addEventListener("click", () => {
-        if (scrubTimer) stopScrubPlay();
-        else startScrubPlay();
-      });
-
       document.getElementById("dotToggle").addEventListener("click", () => {
         dotsEnabled = !dotsEnabled;
         syncDotToggle();
@@ -4381,7 +4168,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
       function parseUrlState() {
         const p = new URLSearchParams(location.hash.replace(/^#/, ""));
         const code = (p.get("c") || "").toUpperCase();
-        const year = parseInt(p.get("y") || "", 10);
         return {
           c: countryByCode.has(code) ? code : null,
           s: p.get("s") || "",
@@ -4389,7 +4175,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
           w: p.get("w") === "mw" ? "mw" : "n",
           st: URL_STATUSES.includes(p.get("st")) ? p.get("st") : "",
           q: p.get("q") || "",
-          y: year >= SCRUB_MIN && year <= SCRUB_MAX ? year : null,
         };
       }
       function urlStateHash() {
@@ -4400,7 +4185,6 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         if (mapMetric !== "mw") p.set("m", mapMetric);
         if (waveMetric !== "n") p.set("w", waveMetric);
         if (fStatusEl.value) p.set("st", fStatusEl.value);
-        if (scrubActive()) p.set("y", String(scrubYear));
         const q = fSearchEl.value.trim();
         if (q) p.set("q", q);
         const s = p.toString();
@@ -4438,9 +4222,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         urlGeoPending = u.s;
         setSelectValue(fStatusEl, u.st);
         fSearchEl.value = u.q;
-        scrubYear = u.y;
-        syncScrubUI();
-        if (u.q || u.s || u.y != null) loadCorpus();
+        if (u.q || u.s) loadCorpus();
       }
       fStateEl.addEventListener("change", () => {
         urlGeoPending = "";
@@ -4460,11 +4242,7 @@ const pageDescription = `Tracking ${gwTotal} of data-center buildout: ${data.tot
         setSelectValue(fStatusEl, u.st);
         setSelectValue(fStateEl, u.s);
         fSearchEl.value = u.q;
-        stopScrubPlay();
-        scrubYear = u.y;
-        syncScrubUI();
-        resetScrubDots();
-        if (u.q || u.s || u.y != null) loadCorpus();
+        if (u.q || u.s) loadCorpus();
         buildMap();
         renderRealMap();
         buildFunnel();

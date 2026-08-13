@@ -392,7 +392,7 @@ def status_key(value: str | None) -> str:
     s = (value or "").strip().lower()
     if "construct" in s or "under construction" in s:
         return "con"
-    if "operational" in s or s in {"active", "online"}:
+    if "operational" in s or "operating" in s or s in {"active", "online"}:
         return "op"
     if "approved" in s or "permitted" in s or "greenlit" in s or "agreement executed" in s:
         return "app"
